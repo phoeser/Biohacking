@@ -351,12 +351,24 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
       if (!card) return;
       const s = SUPPLEMENTS.find(x => x.id === card.dataset.sid);
       if (s) {
-        input.value = s.name;
-        currentQuery = s.name;
+        // Suchfeld NICHT füllen — so bleibt die Liste beim Zurück gehen intakt
         showDetail(s);
         grid.innerHTML = '';
+        setCount(0, '');
         window.scrollTo({ top: detail.offsetTop - 80, behavior: 'smooth' });
       }
+    });
+
+    // Zurück-Button im Detail: Suche leeren, Liste wieder anzeigen
+    detail.addEventListener('click', (e) => {
+      if (!e.target.closest('[data-supp-back]')) return;
+      input.value = '';
+      currentQuery = '';
+      detail.classList.add('hidden');
+      aiBox.classList.add('hidden');
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      input.focus();
     });
 
     function cardHtml(s) {
@@ -381,6 +393,7 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
       const avoid = (s.avoid || []);
       detail.innerHTML = `
         <article class="supp-detail">
+          <button class="supp-detail-back" type="button" data-supp-back>← Alle Supplements</button>
           <header class="supp-detail-head">
             <div>
               <span class="supp-cat">${escapeHtml(s.category)}</span>
@@ -722,3 +735,4 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
   });
 
 })();
+  
