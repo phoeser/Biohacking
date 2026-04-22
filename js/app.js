@@ -7,9 +7,11 @@
   'use strict';
 
   const AI_MODEL = 'gemini-2.0-flash';
-  const AI_API_KEY = 'AIzaSyChru7NdhCrZzB4I1MxqFhVmaxXN9HLLbg';
-  const AI_ENDPOINT = (model, key) =>
-    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
+  // Proxy via Cloudflare Worker — versteckt den Gemini-Key vor dem Browser.
+  // Worker-Code siehe cloudflare-worker.js, Secret GEMINI_API_KEY liegt in Cloudflare.
+  const AI_PROXY_BASE = 'https://bhc-proxy.phoeser.workers.dev';
+  const AI_ENDPOINT = (model) =>
+    `${AI_PROXY_BASE}/v1beta/models/${model}:generateContent`;
   const NEWS_CACHE_KEY = 'bhc_news_cache_v1';
   const NEWS_CACHE_TTL_MS = 30 * 60 * 1000;
 
@@ -69,14 +71,13 @@
     return html;
   }
 
+  // Stub: Wir nutzen jetzt den Cloudflare-Proxy, der den Key intern setzt.
+  // Funktion bleibt truthy, damit bestehende `if (!loadApiKey())`-Checks weiterlaufen.
   function loadApiKey() {
-    return AI_API_KEY || '';
+    return 'proxy';
   }
 
   async function callGemini(prompt, opts = {}) {
-    const key = loadApiKey();
-    if (!key) throw new Error('Kein API-Key hinterlegt.');
-
     const body = {
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
       generationConfig: {
@@ -92,7 +93,7 @@
       body.tools = [{ google_search: {} }];
     }
 
-    const res = await fetch(AI_ENDPOINT(AI_MODEL, key), {
+    const res = await fetch(AI_ENDPOINT(AI_MODEL), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body)
@@ -165,14 +166,12 @@
     const listEl = $('#home-news-list');
     if (!statusEl || !listEl) return;
 
-    // 1) Zuerst Cache nutzen (sofort rendern)
     const cached = loadNewsFromCache();
     if (cached && Array.isArray(cached.items) && cached.items.length) {
       renderHomeNews(cached.items.slice(0, 3), cached.fetched, true);
       return;
     }
 
-    // 2) Kein Cache → per KI laden
     if (homeNewsLoading) return;
     homeNewsLoading = true;
 
@@ -440,7 +439,6 @@ Kein medizinischer Rat – erwähne am Ende, dass bei Beschwerden eine Fachperso
     const results = $('#symptom-results');
     if (!select) return;
 
-    // Select befüllen: erst Featured-Gruppe, dann Rest
     if (typeof GOALS !== 'undefined' && Array.isArray(GOALS)) {
       const featured = GOALS.filter(g => g.featured);
       const rest = GOALS.filter(g => !g.featured);
