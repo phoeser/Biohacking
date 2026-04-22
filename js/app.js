@@ -6,7 +6,7 @@
 (function () {
   'use strict';
 
-  const AI_MODEL = 'gemini-2.0-flash';
+  const AI_MODEL = 'gemini-2.5-flash';
   // Proxy via Cloudflare Worker — versteckt den Gemini-Key vor dem Browser.
   // Worker-Code siehe cloudflare-worker.js, Secret GEMINI_API_KEY liegt in Cloudflare.
   const AI_PROXY_BASE = 'https://bhc-proxy.phoeser.workers.dev';
