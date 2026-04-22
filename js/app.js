@@ -431,6 +431,9 @@ Kein medizinischer Rat – erwähne am Ende, dass bei Beschwerden eine Fachperso
         aiBox.innerHTML = `<div class="supp-ai-error">❌ KI-Fehler: ${escapeHtml(err.message)}</div>`;
       }
     }
+
+    // Initial-Render: zeige alle Supplements direkt beim Laden der Seite
+    render();
   }
 
   function initSymptomView() {
