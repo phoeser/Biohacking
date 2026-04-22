@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Biohacking Supplement Check – Infos zu Supplements, Symptom-Empfehlungen und aktuelle News aus der Biohacking- & Longevity-Welt." />
-  <meta name="theme-color" content="#0b1020" />
+  <meta name="theme-color" content="#f5f7fb" />
   <title>Biohacking Supplement Check</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,7 +46,6 @@
         <a href="#news" data-nav="news">News</a>
         <a href="#about" data-nav="about">Über</a>
       </nav>
-      <div class="key-badge" id="key-badge" title="Gemini-Status"></div>
     </div>
   </header>
 
@@ -111,7 +110,7 @@
         <div class="filter-bar">
           <div class="input-wrap">
             <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg>
-            <input id="supplement-search" type="text" placeholder="z. B. Kreatin, Magnesium, Vitamin C, Ashwagandha..." autocomplete="off" list="supplement-datalist" />
+            <input id="supplement-search" type="text" placeholder="Suchen… z. B. Kreatin, Magnesium, Vitamin C, Ashwagandha" autocomplete="off" list="supplement-datalist" />
             <datalist id="supplement-datalist"></datalist>
           </div>
           <div class="category-filters" id="category-filters"></div>
@@ -120,6 +119,10 @@
         <div id="supplement-detail" class="supplement-detail hidden"></div>
         <div id="supplement-ai" class="supplement-ai hidden"></div>
 
+        <div class="supplement-list-head">
+          <h3 id="supplement-list-title">Alle Supplements</h3>
+          <span class="supplement-list-count" id="supplement-list-count"></span>
+        </div>
         <div id="supplement-grid" class="supplement-grid"></div>
         <div id="supplement-no-results" class="no-results hidden">
           <p>Kein Treffer in der Datenbank.</p>
@@ -140,18 +143,17 @@
 
         <div class="recommender">
           <div class="recommender-input">
-            <label for="symptom-input" class="visually-hidden">Dein Symptom oder Ziel</label>
+            <label for="symptom-select" class="visually-hidden">Dein Symptom oder Ziel</label>
             <div class="input-wrap">
               <svg class="input-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg>
-              <input id="symptom-input" type="text" placeholder="z. B. schlecht schlafen, antriebslos, Heißhunger am Abend, Brain Fog..." />
-              <button class="btn-clear" aria-label="Eingabe löschen" type="button">&times;</button>
+              <select id="symptom-select" aria-label="Symptom auswählen">
+                <option value="">– Symptom oder Ziel wählen –</option>
+              </select>
             </div>
             <button id="symptom-btn" class="btn btn-primary">Empfehlung starten</button>
           </div>
 
-          <div class="quick-chips" id="symptom-chips">
-            <span class="chips-label">Häufig:</span>
-          </div>
+          <p class="symptom-hint small">Wähle aus der Liste. Die App kombiniert lokale Empfehlungen aus der Datenbank mit einer KI-Einschätzung.</p>
 
           <div id="symptom-results" class="recommendation-results" aria-live="polite"></div>
         </div>
@@ -198,7 +200,7 @@
           <div class="about-card">
             <h3>🚀 Projekt</h3>
             <p><strong>Biohacking Supplement Check</strong> ist eine schlanke Web-App, die drei Kernbedürfnisse erfüllt: fundierte Infos zu einzelnen Supplements, Empfehlungen bei konkreten Symptomen, und einen Überblick über aktuelle Biohacking- & Longevity-News.</p>
-            <p>Die App läuft zu 100 % im Browser, nutzt eine kuratierte Supplement-Datenbank sowie optional Google Gemini (mit eigenem API-Key oder App-Default) für KI-Antworten und Web-Recherche.</p>
+            <p>Die App läuft im Browser, nutzt eine kuratierte Supplement-Datenbank und Google Gemini für KI-Antworten und Web-Recherche – der API-Key ist zentral hinterlegt, du musst nichts konfigurieren.</p>
           </div>
 
           <div class="about-card about-card--warning">
@@ -226,25 +228,8 @@
 
           <div class="about-card">
             <h3>🔐 Datenschutz</h3>
-            <p>Die App speichert <strong>ausschließlich lokal</strong> im Browser (localStorage): optionaler Gemini-API-Key. Keine Cookies, kein Tracking, kein Analytics, keine Server-Kommunikation außer (optional) mit der Gemini-API von Google, wenn du die KI-Funktionen nutzt.</p>
-            <p class="small">Nutzung von Google Gemini unterliegt den Datenschutzbestimmungen von Google. Für Anfragen an die API wird dein Key und dein eingegebener Text übertragen.</p>
-          </div>
-
-          <div class="about-card">
-            <h3>⚙️ Gemini-Key verwalten</h3>
-            <p>Standardmäßig nutzt die App einen gemeinsamen Default-Key. Du kannst aber jederzeit deinen eigenen, kostenlosen Google-AI-Studio-Key hinterlegen – dann laufen alle Anfragen über dein Kontingent.</p>
-            <div class="ai-key-form">
-              <div class="input-wrap">
-                <input id="ai-key-input" type="password" autocomplete="off" spellcheck="false" placeholder="AIza... (eigener Key, optional)" />
-                <button class="btn-clear" type="button" id="ai-key-toggle" aria-label="Key ein-/ausblenden">👁</button>
-              </div>
-              <div class="ai-key-actions">
-                <button class="btn btn-primary" id="ai-key-save">Eigenen Key speichern</button>
-                <button class="btn btn-ghost" id="ai-key-clear">Auf Default zurücksetzen</button>
-              </div>
-              <div class="ai-key-status" id="ai-key-status"></div>
-              <p class="small">Key holen: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> → „Create API key" → kopieren → hier einfügen.</p>
-            </div>
+            <p>Die App speichert <strong>keine persönlichen Daten</strong>. Keine Cookies, kein Tracking, kein Analytics. Lokal im Browser wird lediglich ein kurzer News-Cache (30 Min) abgelegt, damit die News-Seite nicht bei jedem Öffnen neu geladen werden muss.</p>
+            <p class="small">Wenn du KI-Funktionen nutzt (Symptom-Einschätzung, neue Supplements, News), wird dein eingegebener Text an die Gemini-API von Google übertragen. Der API-Key ist zentral von der App hinterlegt – du musst nichts konfigurieren.</p>
           </div>
         </div>
       </div>
@@ -261,4 +246,23 @@
   </div>
 
   <!-- Footer -->
-  <footer class="site-footer"
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>Biohacking Supplement Check</strong> · Open Source ·
+        <a href="https://github.com/phoeser/Biohacking" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="#about" data-nav="about">Über / Impressum / Datenschutz</a>
+      </p>
+      <p class="footer-small">
+        ⚕️ Keine Heilversprechen. Kein medizinischer Rat. Informationen zu Bildungszwecken.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Daten und App-Logik -->
+  <script src="js/data/supplements.js"></script>
+  <script src="js/data/tips.js"></script>
+  <script src="js/data/goals.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
