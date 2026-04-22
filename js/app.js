@@ -6,9 +6,8 @@
 (function () {
   'use strict';
 
-  const AI_KEY_STORAGE = 'bhc_gemini_key_v1';
   const AI_MODEL = 'gemini-2.0-flash';
-  const AI_DEFAULT_KEY = 'AIzaSyChru7NdhCrZzB4I1MxqFhVmaxXN9HLLbg';
+  const AI_API_KEY = 'AIzaSyChru7NdhCrZzB4I1MxqFhVmaxXN9HLLbg';
   const AI_ENDPOINT = (model, key) =>
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
   const NEWS_CACHE_KEY = 'bhc_news_cache_v1';
@@ -70,48 +69,8 @@
     return html;
   }
 
-  function loadStoredApiKey() {
-    try { return localStorage.getItem(AI_KEY_STORAGE) || ''; } catch (_) { return ''; }
-  }
   function loadApiKey() {
-    const stored = loadStoredApiKey();
-    if (stored) return stored;
-    return AI_DEFAULT_KEY || '';
-  }
-  function saveApiKey(k) {
-    try { localStorage.setItem(AI_KEY_STORAGE, k); return true; } catch (_) { return false; }
-  }
-  function clearStoredApiKey() {
-    try { localStorage.removeItem(AI_KEY_STORAGE); } catch (_) {}
-  }
-
-  function updateKeyBadge() {
-    const badge = $('#key-badge');
-    if (!badge) return;
-    const stored = loadStoredApiKey();
-    if (stored) {
-      badge.textContent = '🔑 Eigener Key';
-      badge.className = 'key-badge key-badge--own';
-    } else if (AI_DEFAULT_KEY) {
-      badge.textContent = '✨ Default-Key';
-      badge.className = 'key-badge key-badge--default';
-    } else {
-      badge.textContent = '⚠ Kein Key';
-      badge.className = 'key-badge key-badge--none';
-    }
-  }
-
-  function updateKeyStatusBlock() {
-    const status = $('#ai-key-status');
-    if (!status) return;
-    const stored = loadStoredApiKey();
-    if (stored) {
-      status.innerHTML = '<span class="ok">✓ Eigener Key aktiv (localStorage).</span>';
-    } else if (AI_DEFAULT_KEY) {
-      status.innerHTML = '<span class="info">Default-Key der App ist aktiv. Du kannst einen eigenen Key hinterlegen.</span>';
-    } else {
-      status.innerHTML = '<span class="err">Kein Key hinterlegt – KI-Funktionen deaktiviert.</span>';
-    }
+    return AI_API_KEY || '';
   }
 
   async function callGemini(prompt, opts = {}) {
@@ -183,7 +142,6 @@
 
     if (name === 'news') onEnterNews();
     if (name === 'home') onEnterHome();
-    if (name === 'about') updateKeyStatusBlock();
   }
 
   function initRouter() {
@@ -209,6 +167,8 @@
     const askBtn = $('#supplement-ask-ai');
     const filterBar = $('#category-filters');
     const datalist = $('#supplement-datalist');
+    const listHead = $('#supplement-list-title');
+    const listCount = $('#supplement-list-count');
 
     if (!input || typeof SUPPLEMENTS === 'undefined') return;
 
@@ -246,6 +206,11 @@
 
     askBtn?.addEventListener('click', () => askSupplementAi(currentQuery));
 
+    function setCount(n, label) {
+      if (listCount) listCount.textContent = n > 0 ? `${n} ${n === 1 ? 'Eintrag' : 'Einträge'}` : '';
+      if (listHead && label) listHead.textContent = label;
+    }
+
     function render() {
       const q = normalizeStr(currentQuery);
       const catFilter = activeCat === 'all' ? null : activeCat;
@@ -259,6 +224,7 @@
           grid.innerHTML = '';
           noRes.classList.add('hidden');
           aiBox.classList.add('hidden');
+          setCount(0, '');
           return;
         }
         const filtered = SUPPLEMENTS.filter(s => {
@@ -271,10 +237,12 @@
         if (filtered.length === 0) {
           grid.innerHTML = '';
           noRes.classList.remove('hidden');
+          setCount(0, 'Keine Treffer');
           return;
         }
         noRes.classList.add('hidden');
         grid.innerHTML = filtered.map(cardHtml).join('');
+        setCount(filtered.length, `Suchtreffer für „${currentQuery.trim()}"`);
         return;
       }
 
@@ -283,6 +251,7 @@
       noRes.classList.add('hidden');
       const filtered = catFilter ? SUPPLEMENTS.filter(s => s.category === catFilter) : SUPPLEMENTS;
       grid.innerHTML = filtered.map(cardHtml).join('');
+      setCount(filtered.length, catFilter ? `Kategorie: ${catFilter}` : 'Alle Supplements');
     }
 
     grid.addEventListener('click', (e) => {
@@ -373,33 +342,36 @@ Kein medizinischer Rat – erwähne am Ende, dass bei Beschwerden eine Fachperso
   }
 
   function initSymptomView() {
-    const input = $('#symptom-input');
+    const select = $('#symptom-select');
     const btn = $('#symptom-btn');
     const results = $('#symptom-results');
-    const chipsEl = $('#symptom-chips');
-    const clearBtn = $('#view-symptom .btn-clear');
-    if (!input) return;
+    if (!select) return;
 
-    if (typeof GOALS !== 'undefined') {
-      const featured = GOALS.filter(g => g.featured).slice(0, 8);
-      chipsEl.insertAdjacentHTML('beforeend',
-        featured.map(g => `<button class="chip" data-goal="${escapeHtml(g.label)}">${escapeHtml(g.label)}</button>`).join('')
-      );
-      chipsEl.addEventListener('click', (e) => {
-        const b = e.target.closest('.chip');
-        if (!b) return;
-        input.value = b.dataset.goal;
-        runRecommendation();
-      });
+    // Select befüllen: erst Featured-Gruppe, dann Rest
+    if (typeof GOALS !== 'undefined' && Array.isArray(GOALS)) {
+      const featured = GOALS.filter(g => g.featured);
+      const rest = GOALS.filter(g => !g.featured);
+
+      const makeOpt = (g) => `<option value="${escapeHtml(g.label)}">${escapeHtml(g.label)}</option>`;
+
+      let html = '<option value="">– Symptom oder Ziel wählen –</option>';
+      if (featured.length) {
+        html += '<optgroup label="★ Häufige Anliegen">' + featured.map(makeOpt).join('') + '</optgroup>';
+      }
+      if (rest.length) {
+        html += '<optgroup label="Weitere Ziele & Symptome">' + rest.map(makeOpt).join('') + '</optgroup>';
+      }
+      select.innerHTML = html;
     }
 
     btn.addEventListener('click', runRecommendation);
-    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') runRecommendation(); });
-    clearBtn?.addEventListener('click', () => { input.value = ''; input.focus(); });
+    select.addEventListener('change', () => {
+      if (select.value) runRecommendation();
+    });
 
     async function runRecommendation() {
-      const q = input.value.trim();
-      if (!q) { input.focus(); return; }
+      const q = (select.value || '').trim();
+      if (!q) { select.focus(); return; }
 
       const local = localRecommend(q);
 
@@ -647,42 +619,10 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     }
   }
 
-  function initAboutView() {
-    const input = $('#ai-key-input');
-    const toggle = $('#ai-key-toggle');
-    const save = $('#ai-key-save');
-    const clear = $('#ai-key-clear');
-    if (!input) return;
-
-    input.value = loadStoredApiKey();
-
-    toggle?.addEventListener('click', () => {
-      input.type = input.type === 'password' ? 'text' : 'password';
-    });
-    save?.addEventListener('click', () => {
-      const v = input.value.trim();
-      if (!v) return;
-      if (saveApiKey(v)) {
-        updateKeyStatusBlock();
-        updateKeyBadge();
-      }
-    });
-    clear?.addEventListener('click', () => {
-      clearStoredApiKey();
-      input.value = '';
-      updateKeyStatusBlock();
-      updateKeyBadge();
-    });
-
-    updateKeyStatusBlock();
-  }
-
   document.addEventListener('DOMContentLoaded', () => {
-    updateKeyBadge();
     initSupplementView();
     initSymptomView();
     initNewsView();
-    initAboutView();
     initRouter();
     onEnterHome();
   });
