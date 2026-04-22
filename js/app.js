@@ -1,507 +1,137 @@
 /* Biohacking Supplement Check – App-Logik
- * Vanilla JS, keine Abhängigkeiten, funktioniert auf GitHub Pages.
+ * 3 Kategorien: Supplement-Check · Symptom · News
+ * Hash-Router + lokale DB + Gemini-Fallback.
  */
 
 (function () {
   'use strict';
 
-  // ============================================================
-  //  Hilfsfunktionen
-  // ============================================================
-  const $ = (sel, root = document) => root.querySelector(sel);
-  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
-
-  const el = (tag, attrs = {}, children = []) => {
-    const e = document.createElement(tag);
-    for (const [k, v] of Object.entries(attrs)) {
-      if (v == null) continue;
-      if (k === 'class') e.className = v;
-      else if (k === 'html') e.innerHTML = v;
-      else if (k.startsWith('on') && typeof v === 'function') e.addEventListener(k.slice(2), v);
-      else e.setAttribute(k, v);
-    }
-    (Array.isArray(children) ? children : [children]).forEach((c) => {
-      if (c == null) return;
-      e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
-    });
-    return e;
-  };
-
-  const normalize = (s) => (s || '').toLowerCase().replace(/[äöüß]/g, (c) => ({ ä: 'a', ö: 'o', ü: 'u', ß: 'ss' }[c])).trim();
-
-  const evidenceLabel = (lvl) => ({ hoch: 'Hohe Evidenz', mittel: 'Mittlere Evidenz', niedrig: 'Vorläufig' }[lvl] || lvl);
-
-  // Anzeigename für Supplement-IDs, die (noch) nicht voll in der Datenbank sind
-  const EXTERNAL_NAMES = {
-    'kalzium': 'Kalzium', 'kalium': 'Kalium', 'vitamin-e': 'Vitamin E',
-    'folsaeure': 'Folsäure', 'beta-alanin': 'Beta-Alanin',
-    'pterostilben': 'Pterostilben', 'trimethylglycin': 'Trimethylglycin (TMG)',
-    'fisetin': 'Fisetin', 'bromelain': 'Bromelain', 'zimt': 'Zimt',
-    'hyaluronsaeure': 'Hyaluronsäure', 'praebiotika': 'Präbiotika'
-  };
-
-  function resolveSupp(id) {
-    const found = SUPPLEMENTS.find((x) => x.id === id);
-    if (found) return { id, name: found.name, link: true, data: found };
-    return { id, name: EXTERNAL_NAMES[id] || id, link: false };
-  }
-
-  // ============================================================
-  //  State
-  // ============================================================
-  const state = {
-    selectedCategory: 'all',
-    searchQuery: '',
-    selectedTipCategory: 'Alle'
-  };
-
-  // ============================================================
-  //  Hero-Stats
-  // ============================================================
-  function initStats() {
-    $('#stat-supplements').textContent = SUPPLEMENTS.length;
-    $('#stat-tips').textContent = TIPS.length;
-    $('#stat-goals').textContent = GOALS.length;
-  }
-
-  // ============================================================
-  //  Empfehlungs-Algorithmus
-  // ============================================================
-  function recommend(query) {
-    const normQuery = normalize(query);
-    if (!normQuery) return { supplements: [], tips: [], matchedGoals: [] };
-
-    const matchedGoals = GOALS.filter((g) =>
-      g.keywords.some((kw) => normQuery.includes(normalize(kw)))
-    );
-
-    const relevantTags = new Set();
-    matchedGoals.forEach((g) => g.tags.forEach((t) => relevantTags.add(t)));
-    SUPPLEMENTS.forEach((s) => {
-      s.tags.forEach((t) => {
-        if (normQuery.includes(normalize(t))) relevantTags.add(t);
-      });
-    });
-
-    if (relevantTags.size === 0) {
-      return { supplements: [], tips: [], matchedGoals: [] };
-    }
-
-    const supplementScores = SUPPLEMENTS.map((s) => {
-      const score = s.tags.filter((t) => relevantTags.has(t)).length;
-      const nameBonus = normQuery.includes(normalize(s.name)) ? 2 : 0;
-      const evBonus = s.evidence === 'hoch' ? 0.5 : s.evidence === 'mittel' ? 0.2 : 0;
-      return { supplement: s, score: score + nameBonus + evBonus };
-    })
-      .filter((x) => x.score > 0)
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 6);
-
-    const tipScores = TIPS.map((t) => {
-      const score = t.tags.filter((tag) => relevantTags.has(tag)).length;
-      return { tip: t, score };
-    })
-      .filter((x) => x.score > 0)
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 5);
-
-    return {
-      supplements: supplementScores.map((x) => x.supplement),
-      tips: tipScores.map((x) => x.tip),
-      matchedGoals
-    };
-  }
-
-  function renderRecommendation(query) {
-    const results = recommend(query);
-    const container = $('#recommendation-results');
-    container.innerHTML = '';
-
-    if (!query.trim()) return;
-
-    if (results.supplements.length === 0 && results.tips.length === 0) {
-      container.appendChild(
-        el('div', { class: 'rec-empty' }, [
-          el('p', {}, [
-            'Keine direkte Empfehlung gefunden. Versuche konkreter zu formulieren – z. B. „besser schlafen", „mehr Energie", „Stress reduzieren" oder „Muskelaufbau".'
-          ])
-        ])
-      );
-      return;
-    }
-
-    const header = el('div', { class: 'rec-header' }, [
-      el('h3', {}, ['Deine persönlichen Empfehlungen']),
-      el('span', { class: 'rec-count' }, [
-        `${results.supplements.length + results.tips.length} Treffer`
-      ])
-    ]);
-    container.appendChild(header);
-
-    if (results.matchedGoals.length > 0) {
-      const goalsRow = el('div', { class: 'quick-chips', style: 'margin-bottom: 28px;' }, [
-        el('span', { class: 'chips-label' }, ['Erkannte Ziele:']),
-        ...results.matchedGoals.map((g) => el('span', { class: 'chip active' }, [g.label]))
-      ]);
-      container.appendChild(goalsRow);
-    }
-
-    if (results.supplements.length > 0) {
-      const suppSection = el('div', { class: 'rec-section' }, [
-        el('h4', {}, ['Empfohlene Supplements'])
-      ]);
-      const grid = el('div', { class: 'supplement-grid' });
-      results.supplements.forEach((s) => grid.appendChild(renderSupplementCard(s)));
-      suppSection.appendChild(grid);
-      container.appendChild(suppSection);
-    }
-
-    if (results.tips.length > 0) {
-      const tipsSection = el('div', { class: 'rec-section' }, [
-        el('h4', {}, ['Passende Biohacking-Tipps'])
-      ]);
-      const tipsGrid = el('div', { class: 'tips-grid' });
-      results.tips.forEach((t) => tipsGrid.appendChild(renderTipCard(t)));
-      tipsSection.appendChild(tipsGrid);
-      container.appendChild(tipsSection);
-    }
-
-    setTimeout(() => {
-      container.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 100);
-  }
-
-  // ============================================================
-  //  Supplement-Karten
-  // ============================================================
-  function renderSupplementCard(s) {
-    return el('div', {
-      class: 'supplement-card',
-      'data-id': s.id,
-      role: 'button',
-      tabindex: '0',
-      onclick: () => openModal(s),
-      onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(s); } }
-    }, [
-      el('span', { class: 'supp-category' }, [s.category]),
-      el('h3', { class: 'supp-name' }, [s.name]),
-      el('p', { class: 'supp-desc' }, [s.short]),
-      el('div', { class: 'supp-footer' }, [
-        el('span', { class: 'evidence' }, [
-          el('span', { class: `evidence-dot ${s.evidence}` }),
-          evidenceLabel(s.evidence)
-        ]),
-        el('span', { class: 'supp-arrow' }, ['→'])
-      ])
-    ]);
-  }
-
-  function renderSupplementGrid() {
-    const grid = $('#supplement-grid');
-    const noResults = $('#no-results');
-    const q = normalize(state.searchQuery);
-
-    const filtered = SUPPLEMENTS.filter((s) => {
-      const catMatch = state.selectedCategory === 'all' || s.category === state.selectedCategory;
-      const qMatch = !q ||
-        normalize(s.name).includes(q) ||
-        normalize(s.altNames || '').includes(q) ||
-        s.tags.some((t) => normalize(t).includes(q)) ||
-        normalize(s.short).includes(q);
-      return catMatch && qMatch;
-    });
-
-    grid.innerHTML = '';
-    if (filtered.length === 0) {
-      noResults.classList.remove('hidden');
-    } else {
-      noResults.classList.add('hidden');
-      filtered.forEach((s) => grid.appendChild(renderSupplementCard(s)));
-    }
-  }
-
-  // ============================================================
-  //  Kategorie-Filter
-  // ============================================================
-  function renderCategoryFilters() {
-    const container = $('#category-filters');
-    container.innerHTML = '';
-    CATEGORIES.forEach((cat) => {
-      const chip = el('button', {
-        class: 'chip' + (state.selectedCategory === cat.id ? ' active' : ''),
-        onclick: () => {
-          state.selectedCategory = cat.id;
-          renderCategoryFilters();
-          renderSupplementGrid();
-        }
-      }, [cat.label]);
-      container.appendChild(chip);
-    });
-  }
-
-  // ============================================================
-  //  Modal (Supplement-Detail)
-  // ============================================================
-  function openModal(s) {
-    const body = $('#modal-body');
-    body.innerHTML = '';
-
-    const synergySupps = (s.synergies || []).map(resolveSupp);
-    const avoidSupps = (s.avoid || []).map(resolveSupp);
-
-    const content = el('div', { class: 'modal-body' }, [
-      el('span', { class: 'supp-category' }, [s.category]),
-      el('h2', { id: 'modal-title' }, [s.name]),
-      s.altNames ? el('p', { class: 'alt-names' }, [`Auch bekannt als: ${s.altNames}`]) : null,
-
-      el('div', { class: 'meta-row' }, [
-        el('span', { class: 'meta-badge' }, [
-          el('span', { class: `evidence-dot ${s.evidence}` }),
-          ' ', evidenceLabel(s.evidence)
-        ]),
-        s.sources ? el('span', { class: 'meta-badge' }, [
-          el('strong', {}, ['Quellen: ']), s.sources
-        ]) : null
-      ]),
-
-      el('p', { class: 'lead' }, [s.description]),
-
-      el('div', { class: 'detail-grid' }, [
-        el('div', { class: 'detail-block' }, [
-          el('h4', {}, ['💊 Dosierung']),
-          el('p', {}, [s.dosage])
-        ]),
-        el('div', { class: 'detail-block' }, [
-          el('h4', {}, ['⏰ Einnahme']),
-          el('p', {}, [s.intake])
-        ])
-      ]),
-
-      el('div', { class: 'benefits-risks' }, [
-        el('div', { class: 'benefits-box' }, [
-          el('h4', {}, ['✓ Vorteile']),
-          el('ul', {}, s.benefits.map((b) => el('li', {}, [b])))
-        ]),
-        el('div', { class: 'risks-box' }, [
-          el('h4', {}, ['⚠ Zu beachten']),
-          el('ul', {}, s.risks.map((r) => el('li', {}, [r])))
-        ])
-      ]),
-
-      synergySupps.length > 0 ? el('div', { class: 'combo-section' }, [
-        el('h4', {}, ['🤝 Gut kombinierbar mit']),
-        el('div', { class: 'combo-list' },
-          synergySupps.map((syn) =>
-            el('span', {
-              class: 'combo-chip' + (syn.link ? '' : ' readonly'),
-              title: syn.link ? 'Details ansehen' : 'Nicht in Datenbank',
-              onclick: syn.link ? () => openModal(syn.data) : null
-            }, [syn.name])
-          )
-        )
-      ]) : null,
-
-      avoidSupps.length > 0 ? el('div', { class: 'combo-section' }, [
-        el('h4', {}, ['❌ Nicht gleichzeitig mit']),
-        el('div', { class: 'combo-list' },
-          avoidSupps.map((a) =>
-            el('span', {
-              class: 'combo-chip avoid' + (a.link ? '' : ' readonly'),
-              title: a.link ? 'Details ansehen' : 'Nicht in Datenbank',
-              onclick: a.link ? () => openModal(a.data) : null
-            }, [a.name])
-          )
-        )
-      ]) : null
-    ]);
-
-    body.appendChild(content);
-    $('#modal').classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-    $('.modal-content').scrollTop = 0;
-  }
-
-  function closeModal() {
-    $('#modal').classList.add('hidden');
-    document.body.style.overflow = '';
-  }
-
-  // ============================================================
-  //  Tipps
-  // ============================================================
-  function renderTipCard(t) {
-    return el('article', { class: 'tip-card' }, [
-      el('span', { class: 'tip-icon' }, [t.icon]),
-      el('div', { class: 'tip-category' }, [t.category]),
-      el('h3', { class: 'tip-title' }, [t.title]),
-      el('p', { class: 'tip-desc' }, [t.short]),
-      el('div', { class: 'tip-how', html: `<strong>So geht's: </strong>${t.how}` })
-    ]);
-  }
-
-  function renderTips() {
-    const grid = $('#tips-grid');
-    grid.innerHTML = '';
-    const filtered = state.selectedTipCategory === 'Alle'
-      ? TIPS
-      : TIPS.filter((t) => t.category === state.selectedTipCategory);
-    filtered.forEach((t) => grid.appendChild(renderTipCard(t)));
-  }
-
-  function renderTipsFilter() {
-    const container = $('#tips-filter');
-    container.innerHTML = '';
-    TIP_CATEGORIES.forEach((cat) => {
-      const chip = el('button', {
-        class: 'chip' + (state.selectedTipCategory === cat ? ' active' : ''),
-        onclick: () => {
-          state.selectedTipCategory = cat;
-          renderTipsFilter();
-          renderTips();
-        }
-      }, [cat]);
-      container.appendChild(chip);
-    });
-  }
-
-  // ============================================================
-  //  Quick Chips (Empfehlungs-Tool)
-  // ============================================================
-  function renderQuickChips() {
-    const container = $('#quick-chips');
-    const featured = GOALS.filter((g) => g.featured);
-    featured.forEach((g) => {
-      const chip = el('button', {
-        class: 'chip',
-        onclick: () => {
-          const input = $('#goal-input');
-          input.value = g.label;
-          renderRecommendation(g.label);
-        }
-      }, [g.label]);
-      container.appendChild(chip);
-    });
-  }
-
-  // ============================================================
-  //  KI-Assistent (BYOK Gemini)
-  // ============================================================
   const AI_KEY_STORAGE = 'bhc_gemini_key_v1';
   const AI_MODEL = 'gemini-2.0-flash';
-  // Fallback-Key: wird benutzt, wenn Nutzer keinen eigenen Key im localStorage hat.
-  // WICHTIG: Key in der Google Cloud Console per HTTP-Referrer auf die eigene GitHub-Pages-Domain beschraenken!
   const AI_DEFAULT_KEY = 'AIzaSyChru7NdhCrZzB4I1MxqFhVmaxXN9HLLbg';
   const AI_ENDPOINT = (model, key) =>
-    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(key)}`;
+    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
+  const NEWS_CACHE_KEY = 'bhc_news_cache_v1';
+  const NEWS_CACHE_TTL_MS = 30 * 60 * 1000;
 
-  const aiState = {
-    history: [], // Gemini-Format: [{role:'user'|'model', parts:[{text}]}]
-    busy: false
-  };
+  const $ = (s, root = document) => root.querySelector(s);
+  const $$ = (s, root = document) => Array.from(root.querySelectorAll(s));
 
-  const AI_EXAMPLES = [
-    'Ich schlafe schlecht und bin morgens erschöpft',
-    'Wie steigere ich meine VO₂max?',
-    'Was tun gegen Heißhunger abends?',
-    'Wie funktioniert Fasten richtig?',
-    'Ich fühle mich oft kurzatmig',
-    'Mehr Energie trotz Büroalltag',
-    'Was tun bei chronischem Stress?'
-  ];
+  function escapeHtml(text) {
+    if (text == null) return '';
+    return String(text)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
 
-  function loadApiKey() {
-    // 1) Persoenlicher Key aus localStorage hat Vorrang
-    try {
-      const stored = localStorage.getItem(AI_KEY_STORAGE);
-      if (stored) return stored;
-    } catch (e) {}
-    // 2) Sonst Default-Key (damit Freunde ohne eigenen Key testen koennen)
-    return AI_DEFAULT_KEY || '';
+  function normalizeStr(s) {
+    return (s || '')
+      .toLowerCase()
+      .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
+      .replace(/[^a-z0-9\s-]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function mdToHtml(md) {
+    if (!md) return '';
+    let html = escapeHtml(md);
+    html = html.replace(/^### (.+)$/gm, '<h4>$1</h4>');
+    html = html.replace(/^## (.+)$/gm, '<h3>$1</h3>');
+    html = html.replace(/^# (.+)$/gm, '<h3>$1</h3>');
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+    html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+    const lines = html.split('\n');
+    let out = [];
+    let inList = false;
+    for (const line of lines) {
+      const m = line.match(/^\s*[-*]\s+(.+)$/);
+      if (m) {
+        if (!inList) { out.push('<ul>'); inList = true; }
+        out.push('<li>' + m[1] + '</li>');
+      } else {
+        if (inList) { out.push('</ul>'); inList = false; }
+        out.push(line);
+      }
+    }
+    if (inList) out.push('</ul>');
+    html = out.join('\n');
+    html = html
+      .split(/\n{2,}/)
+      .map(p => {
+        if (/^\s*<(h\d|ul|ol|li|p|div|blockquote)/.test(p)) return p;
+        return '<p>' + p.replace(/\n/g, '<br>') + '</p>';
+      })
+      .join('\n');
+    return html;
   }
 
   function loadStoredApiKey() {
-    try { return localStorage.getItem(AI_KEY_STORAGE) || ''; } catch (e) { return ''; }
+    try { return localStorage.getItem(AI_KEY_STORAGE) || ''; } catch (_) { return ''; }
+  }
+  function loadApiKey() {
+    const stored = loadStoredApiKey();
+    if (stored) return stored;
+    return AI_DEFAULT_KEY || '';
+  }
+  function saveApiKey(k) {
+    try { localStorage.setItem(AI_KEY_STORAGE, k); return true; } catch (_) { return false; }
+  }
+  function clearStoredApiKey() {
+    try { localStorage.removeItem(AI_KEY_STORAGE); } catch (_) {}
   }
 
-  function usingDefaultKey() {
-    return !loadStoredApiKey() && !!AI_DEFAULT_KEY;
-  }
-
-  function saveApiKey(key) {
-    try { localStorage.setItem(AI_KEY_STORAGE, key); return true; } catch (e) { return false; }
-  }
-
-  function clearApiKey() {
-    try { localStorage.removeItem(AI_KEY_STORAGE); } catch (e) {}
-  }
-
-  function maskKey(k) {
-    if (!k) return '';
-    if (k.length <= 10) return '•'.repeat(k.length);
-    return k.slice(0, 4) + '…' + k.slice(-4);
-  }
-
-  function updateKeyStatus() {
-    const status = $('#ai-key-status');
-    const storedKey = loadStoredApiKey();
-    const keyInput = $('#ai-key-input');
-    if (!status || !keyInput) return;
-    if (storedKey) {
-      status.className = 'ai-key-status ok';
-      status.textContent = `✓ Persönlicher Key gespeichert (${maskKey(storedKey)}). Du kannst jetzt Fragen stellen.`;
-      keyInput.value = storedKey;
-      keyInput.type = 'password';
-    } else if (usingDefaultKey()) {
-      status.className = 'ai-key-status ok';
-      status.textContent = '✓ Standard-Key der App wird verwendet – du kannst direkt loslegen. Optional: oben eigenen Key hinterlegen (empfohlen bei intensiver Nutzung).';
-      keyInput.value = '';
-      keyInput.type = 'password';
+  function updateKeyBadge() {
+    const badge = $('#key-badge');
+    if (!badge) return;
+    const stored = loadStoredApiKey();
+    if (stored) {
+      badge.textContent = '🔑 Eigener Key';
+      badge.className = 'key-badge key-badge--own';
+    } else if (AI_DEFAULT_KEY) {
+      badge.textContent = '✨ Default-Key';
+      badge.className = 'key-badge key-badge--default';
     } else {
-      status.className = 'ai-key-status';
-      status.textContent = 'Kein Key hinterlegt – bitte oben einen Google-AI-Studio-Key einfügen.';
+      badge.textContent = '⚠ Kein Key';
+      badge.className = 'key-badge key-badge--none';
     }
   }
 
-  // System-Prompt: begrenzt auf App-Kontext
-  function buildSystemPrompt() {
-    const suppNames = SUPPLEMENTS.map((s) => s.name).join(', ');
-    const tipTitles = TIPS.map((t) => t.title).slice(0, 20).join('; ');
-    return [
-      'Du bist ein deutschsprachiger Biohacking-Assistent innerhalb der App "Biohacking Supplement Check".',
-      'Antworte immer auf Deutsch, sachlich, strukturiert, in kompakten Abschnitten mit Markdown-Ueberschriften (## Moegliche Ursachen, ## Lifestyle & Biohacking, ## Supplements, ## Wann zum Arzt).',
-      'Fokus-Themen: Schlaf, Ernaehrung, Fasten, Sauerstoff & Atmung, Bewegung, Stress, Licht, Longevity.',
-      'Stuetze dich primaer auf etablierte Biohacking-Prinzipien (z. B. zirkadianer Rhythmus, Mitochondrien, Autophagie, HRV, Kaelte/Hitze-Exposition).',
-      'Empfehle wenn moeglich Supplements aus der App-Datenbank (Beispiele: ' + suppNames + ').',
-      'Empfehle wenn moeglich Biohacking-Tipps aus der App (z. B. ' + tipTitles + ').',
-      'Gib realistische Dosierungen, markiere diese klar als allgemeine Richtwerte.',
-      'KEINE Heilversprechen. KEINE Diagnose. Weise bei ernsten oder akuten Beschwerden, Schwangerschaft, Medikation, Kindern, Herz/Lunge/Niere explizit auf aerztliche Abklaerung hin.',
-      'Maximale Antwortlaenge: ca. 350 Woerter, praegnant statt ausufernd.',
-      'Wenn die Frage nichts mit Gesundheit/Biohacking zu tun hat: hoeflich darauf hinweisen und zur App-Thematik zurueckfuehren.'
-    ].join(' ');
+  function updateKeyStatusBlock() {
+    const status = $('#ai-key-status');
+    if (!status) return;
+    const stored = loadStoredApiKey();
+    if (stored) {
+      status.innerHTML = '<span class="ok">✓ Eigener Key aktiv (localStorage).</span>';
+    } else if (AI_DEFAULT_KEY) {
+      status.innerHTML = '<span class="info">Default-Key der App ist aktiv. Du kannst einen eigenen Key hinterlegen.</span>';
+    } else {
+      status.innerHTML = '<span class="err">Kein Key hinterlegt – KI-Funktionen deaktiviert.</span>';
+    }
   }
 
-  async function callGemini(userMessage) {
+  async function callGemini(prompt, opts = {}) {
     const key = loadApiKey();
-    if (!key) throw new Error('NO_KEY');
+    if (!key) throw new Error('Kein API-Key hinterlegt.');
 
     const body = {
-      systemInstruction: { role: 'system', parts: [{ text: buildSystemPrompt() }] },
-      contents: [
-        ...aiState.history,
-        { role: 'user', parts: [{ text: userMessage }] }
-      ],
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
       generationConfig: {
-        temperature: 0.7,
-        topP: 0.9,
-        maxOutputTokens: 900
-      },
-      safetySettings: [
-        { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_ONLY_HIGH' },
-        { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_ONLY_HIGH' },
-        { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_ONLY_HIGH' },
-        { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_ONLY_HIGH' }
-      ]
+        temperature: opts.temperature ?? 0.4,
+        maxOutputTokens: opts.maxOutputTokens ?? 2048
+      }
     };
+
+    if (opts.systemInstruction) {
+      body.systemInstruction = { parts: [{ text: opts.systemInstruction }] };
+    }
+    if (opts.grounding) {
+      body.tools = [{ google_search: {} }];
+    }
 
     const res = await fetch(AI_ENDPOINT(AI_MODEL, key), {
       method: 'POST',
@@ -510,210 +140,551 @@
     });
 
     if (!res.ok) {
-      const errText = await res.text();
-      let errJson;
-      try { errJson = JSON.parse(errText); } catch (e) {}
-      const msg = (errJson && errJson.error && errJson.error.message) || errText || ('HTTP ' + res.status);
-      if (res.status === 400 && /API key/i.test(msg)) throw new Error('INVALID_KEY');
-      if (res.status === 403) throw new Error('FORBIDDEN');
-      if (res.status === 429) throw new Error('RATE_LIMIT');
-      throw new Error(msg);
+      let detail = '';
+      try {
+        const j = await res.json();
+        detail = j?.error?.message ? ' · ' + j.error.message : '';
+      } catch (_) {}
+      throw new Error('HTTP ' + res.status + detail);
     }
 
     const data = await res.json();
-    const cand = data.candidates && data.candidates[0];
-    if (!cand) throw new Error('Keine Antwort erhalten.');
-    if (cand.finishReason === 'SAFETY') return 'Die Antwort wurde aus Sicherheitsgruenden blockiert. Bitte formuliere die Frage anders.';
-    const text = (cand.content && cand.content.parts || []).map((p) => p.text).join('') || '';
-    return text.trim() || 'Leere Antwort. Bitte versuche es erneut.';
-  }
+    const cand = data?.candidates?.[0];
+    const parts = cand?.content?.parts || [];
+    const text = parts.map(p => p.text || '').join('').trim();
 
-  // Einfaches, sicheres Markdown-Rendering (Subset)
-  function renderMarkdown(md) {
-    const esc = (s) => s
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-    let html = esc(md);
-    html = html.replace(/^### (.+)$/gm, '<h5>$1</h5>');
-    html = html.replace(/^## (.+)$/gm, '<h4>$1</h4>');
-    html = html.replace(/^# (.+)$/gm, '<h3>$1</h3>');
-    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-    html = html.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
-    html = html.replace(/`([^`\n]+)`/g, '<code>$1</code>');
-    html = html.replace(/(?:^|\n)((?:- [^\n]+\n?)+)/g, (_, list) => {
-      const items = list.trim().split(/\n/).map((l) => '<li>' + l.replace(/^- /, '') + '</li>').join('');
-      return '\n<ul>' + items + '</ul>';
-    });
-    html = html.replace(/(?:^|\n)((?:\d+\. [^\n]+\n?)+)/g, (_, list) => {
-      const items = list.trim().split(/\n/).map((l) => '<li>' + l.replace(/^\d+\. /, '') + '</li>').join('');
-      return '\n<ol>' + items + '</ol>';
-    });
-    html = html.split(/\n{2,}/).map((p) => {
-      if (/^<(h\d|ul|ol|li|pre|blockquote)/.test(p.trim())) return p;
-      return '<p>' + p.replace(/\n/g, '<br>') + '</p>';
-    }).join('\n');
-    return html;
-  }
-
-  function appendMessage(role, text, opts) {
-    opts = opts || {};
-    const wrap = $('#ai-messages');
-    const welcome = wrap.querySelector('.ai-welcome');
-    if (welcome && role === 'user') welcome.remove();
-
-    const bubble = el('div', { class: 'ai-bubble' });
-    if (opts.pending) {
-      bubble.innerHTML = '<span class="ai-typing"><span></span><span></span><span></span></span>';
-    } else if (opts.markdown) {
-      bubble.innerHTML = renderMarkdown(text);
-    } else {
-      bubble.textContent = text;
+    const sources = [];
+    const chunks = cand?.groundingMetadata?.groundingChunks || [];
+    for (const c of chunks) {
+      if (c.web && c.web.uri) {
+        sources.push({ title: c.web.title || c.web.uri, uri: c.web.uri });
+      }
     }
-    const msg = el('div', {
-      class: 'ai-message ai-message--' + (role === 'user' ? 'user' : 'bot')
-    }, [
-      el('div', { class: 'ai-avatar' }, [role === 'user' ? '🧑' : '🤖']),
-      bubble
-    ]);
-    wrap.appendChild(msg);
-    wrap.scrollTop = wrap.scrollHeight;
-    return { msg: msg, bubble: bubble };
+    return { text, sources };
   }
 
-  async function sendAiMessage(userText) {
-    if (aiState.busy) return;
-    const text = (userText || '').trim();
-    if (!text) return;
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'news', 'about'];
 
+  function currentView() {
+    const hash = (location.hash || '').replace(/^#/, '').split('?')[0];
+    return VALID_VIEWS.includes(hash) ? hash : 'home';
+  }
+
+  function showView(name) {
+    if (!VALID_VIEWS.includes(name)) name = 'home';
+    $$('.view').forEach(v => {
+      v.classList.toggle('hidden', v.dataset.view !== name);
+    });
+    $$('.main-nav a').forEach(a => {
+      a.classList.toggle('active', a.dataset.nav === name);
+    });
+    window.scrollTo({ top: 0 });
+    document.body.dataset.view = name;
+
+    if (name === 'news') onEnterNews();
+    if (name === 'home') onEnterHome();
+    if (name === 'about') updateKeyStatusBlock();
+  }
+
+  function initRouter() {
+    window.addEventListener('hashchange', () => showView(currentView()));
+    showView(currentView());
+  }
+
+  function onEnterHome() {
+    const sSup = $('#stat-supplements');
+    const sTip = $('#stat-tips');
+    const sGoal = $('#stat-goals');
+    if (sSup) sSup.textContent = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.length : '–');
+    if (sTip) sTip.textContent = (typeof TIPS !== 'undefined' ? TIPS.length : '–');
+    if (sGoal) sGoal.textContent = (typeof GOALS !== 'undefined' ? GOALS.length : '–');
+  }
+
+  function initSupplementView() {
+    const input = $('#supplement-search');
+    const grid = $('#supplement-grid');
+    const detail = $('#supplement-detail');
+    const aiBox = $('#supplement-ai');
+    const noRes = $('#supplement-no-results');
+    const askBtn = $('#supplement-ask-ai');
+    const filterBar = $('#category-filters');
+    const datalist = $('#supplement-datalist');
+
+    if (!input || typeof SUPPLEMENTS === 'undefined') return;
+
+    datalist.innerHTML = SUPPLEMENTS
+      .map(s => `<option value="${escapeHtml(s.name)}"></option>`)
+      .join('');
+
+    const categories = Array.from(new Set(SUPPLEMENTS.map(s => s.category))).sort();
+    filterBar.innerHTML =
+      `<button class="chip chip--active" data-cat="all">Alle</button>` +
+      categories.map(c => `<button class="chip" data-cat="${escapeHtml(c)}">${escapeHtml(c)}</button>`).join('');
+
+    let activeCat = 'all';
+    let currentQuery = '';
+
+    filterBar.addEventListener('click', (e) => {
+      const btn = e.target.closest('.chip');
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      $$('.chip', filterBar).forEach(c => c.classList.toggle('chip--active', c === btn));
+      render();
+    });
+
+    input.addEventListener('input', () => {
+      currentQuery = input.value;
+      render();
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const q = normalizeStr(input.value);
+        const exact = SUPPLEMENTS.find(s => normalizeStr(s.name) === q);
+        if (!exact) askSupplementAi(input.value);
+      }
+    });
+
+    askBtn?.addEventListener('click', () => askSupplementAi(currentQuery));
+
+    function render() {
+      const q = normalizeStr(currentQuery);
+      const catFilter = activeCat === 'all' ? null : activeCat;
+
+      if (q.length >= 2) {
+        const exact = SUPPLEMENTS.find(s =>
+          normalizeStr(s.name) === q || normalizeStr(s.altNames || '') === q
+        );
+        if (exact) {
+          showDetail(exact);
+          grid.innerHTML = '';
+          noRes.classList.add('hidden');
+          aiBox.classList.add('hidden');
+          return;
+        }
+        const filtered = SUPPLEMENTS.filter(s => {
+          if (catFilter && s.category !== catFilter) return false;
+          const blob = normalizeStr([s.name, s.altNames, s.short, s.description, (s.tags||[]).join(' ')].join(' '));
+          return blob.includes(q);
+        });
+        detail.classList.add('hidden');
+        aiBox.classList.add('hidden');
+        if (filtered.length === 0) {
+          grid.innerHTML = '';
+          noRes.classList.remove('hidden');
+          return;
+        }
+        noRes.classList.add('hidden');
+        grid.innerHTML = filtered.map(cardHtml).join('');
+        return;
+      }
+
+      detail.classList.add('hidden');
+      aiBox.classList.add('hidden');
+      noRes.classList.add('hidden');
+      const filtered = catFilter ? SUPPLEMENTS.filter(s => s.category === catFilter) : SUPPLEMENTS;
+      grid.innerHTML = filtered.map(cardHtml).join('');
+    }
+
+    grid.addEventListener('click', (e) => {
+      const card = e.target.closest('[data-sid]');
+      if (!card) return;
+      const s = SUPPLEMENTS.find(x => x.id === card.dataset.sid);
+      if (s) {
+        input.value = s.name;
+        currentQuery = s.name;
+        showDetail(s);
+        grid.innerHTML = '';
+        window.scrollTo({ top: detail.offsetTop - 80, behavior: 'smooth' });
+      }
+    });
+
+    function cardHtml(s) {
+      const ev = s.evidence ? `<span class="ev ev-${s.evidence}">${s.evidence}</span>` : '';
+      return `
+        <button class="supp-card" data-sid="${escapeHtml(s.id)}">
+          <div class="supp-head">
+            <span class="supp-cat">${escapeHtml(s.category)}</span>
+            ${ev}
+          </div>
+          <h3>${escapeHtml(s.name)}</h3>
+          ${s.altNames ? `<div class="supp-alt">${escapeHtml(s.altNames)}</div>` : ''}
+          <p>${escapeHtml(s.short || '')}</p>
+        </button>`;
+    }
+
+    function showDetail(s) {
+      const syn = (s.synergies || []).map(id => {
+        const m = SUPPLEMENTS.find(x => x.id === id);
+        return m ? m.name : id;
+      });
+      const avoid = (s.avoid || []);
+      detail.innerHTML = `
+        <article class="supp-detail">
+          <header class="supp-detail-head">
+            <div>
+              <span class="supp-cat">${escapeHtml(s.category)}</span>
+              ${s.evidence ? `<span class="ev ev-${s.evidence}">Evidenz: ${s.evidence}</span>` : ''}
+            </div>
+            <h2>${escapeHtml(s.name)}</h2>
+            ${s.altNames ? `<div class="supp-alt">${escapeHtml(s.altNames)}</div>` : ''}
+            <p class="supp-short">${escapeHtml(s.short || '')}</p>
+          </header>
+
+          ${s.description ? `<section><h3>Überblick</h3><p>${escapeHtml(s.description)}</p></section>` : ''}
+          ${s.benefits?.length ? `<section><h3>✅ Nutzen</h3><ul>${s.benefits.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul></section>` : ''}
+          ${s.risks?.length ? `<section><h3>⚠️ Risiken / Beachten</h3><ul>${s.risks.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul></section>` : ''}
+          ${s.dosage ? `<section><h3>💊 Dosierung</h3><p>${escapeHtml(s.dosage)}</p></section>` : ''}
+          ${s.intake ? `<section><h3>🕐 Optimale Einnahme</h3><p>${escapeHtml(s.intake)}</p></section>` : ''}
+          ${syn.length ? `<section><h3>🤝 Synergien</h3><p>${syn.map(n=>`<span class="tag">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
+          ${avoid.length ? `<section><h3>🚫 Nicht kombinieren mit</h3><p>${avoid.map(n=>`<span class="tag tag--warn">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
+          ${s.sources ? `<section><h3>🥗 Natürliche Quellen</h3><p>${escapeHtml(s.sources)}</p></section>` : ''}
+        </article>
+      `;
+      detail.classList.remove('hidden');
+      noRes.classList.add('hidden');
+    }
+
+    async function askSupplementAi(query) {
+      const q = (query || input.value || '').trim();
+      if (!q) return;
+      aiBox.classList.remove('hidden');
+      noRes.classList.add('hidden');
+      aiBox.innerHTML = `<div class="supp-ai-loading">🤖 KI recherchiert zu <strong>${escapeHtml(q)}</strong>…</div>`;
+
+      const sys = `Du bist ein Biohacking- & Ernährungsexperte. Antworte auf Deutsch, strukturiert, prägnant, mit klaren Markdown-Abschnitten:
+## Überblick
+## Nutzen (Liste)
+## Risiken / Kontraindikationen (Liste)
+## Dosierung
+## Optimale Einnahme
+## Synergien & Wechselwirkungen
+Kein medizinischer Rat – erwähne am Ende, dass bei Beschwerden eine Fachperson konsultiert werden soll.`;
+      const prompt = `Bitte gib eine strukturierte Infokarte zum Supplement "${q}" – wie in einer Biohacking-Datenbank.`;
+      try {
+        const { text } = await callGemini(prompt, { systemInstruction: sys, temperature: 0.3, maxOutputTokens: 2048 });
+        aiBox.innerHTML = `<div class="supp-ai">
+          <div class="supp-ai-head"><span class="eyebrow">🤖 KI-Antwort (nicht in DB)</span><h3>${escapeHtml(q)}</h3></div>
+          <div class="supp-ai-body">${mdToHtml(text)}</div>
+        </div>`;
+      } catch (err) {
+        aiBox.innerHTML = `<div class="supp-ai-error">❌ KI-Fehler: ${escapeHtml(err.message)}</div>`;
+      }
+    }
+  }
+
+  function initSymptomView() {
+    const input = $('#symptom-input');
+    const btn = $('#symptom-btn');
+    const results = $('#symptom-results');
+    const chipsEl = $('#symptom-chips');
+    const clearBtn = $('#view-symptom .btn-clear');
+    if (!input) return;
+
+    if (typeof GOALS !== 'undefined') {
+      const featured = GOALS.filter(g => g.featured).slice(0, 8);
+      chipsEl.insertAdjacentHTML('beforeend',
+        featured.map(g => `<button class="chip" data-goal="${escapeHtml(g.label)}">${escapeHtml(g.label)}</button>`).join('')
+      );
+      chipsEl.addEventListener('click', (e) => {
+        const b = e.target.closest('.chip');
+        if (!b) return;
+        input.value = b.dataset.goal;
+        runRecommendation();
+      });
+    }
+
+    btn.addEventListener('click', runRecommendation);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') runRecommendation(); });
+    clearBtn?.addEventListener('click', () => { input.value = ''; input.focus(); });
+
+    async function runRecommendation() {
+      const q = input.value.trim();
+      if (!q) { input.focus(); return; }
+
+      const local = localRecommend(q);
+
+      let html = '';
+      html += `<div class="results-head"><h3>Empfehlung für: „${escapeHtml(q)}"</h3></div>`;
+      html += `<div class="results-section"><h4>💊 Passende Supplements (aus der DB)</h4>`;
+      if (local.supplements.length) {
+        html += `<div class="supplement-grid">` + local.supplements.map(s => `
+          <article class="supp-card">
+            <div class="supp-head">
+              <span class="supp-cat">${escapeHtml(s.category)}</span>
+              ${s.evidence ? `<span class="ev ev-${s.evidence}">${s.evidence}</span>` : ''}
+            </div>
+            <h3>${escapeHtml(s.name)}</h3>
+            <p>${escapeHtml(s.short || '')}</p>
+            ${s.dosage ? `<p class="small"><strong>Dosis:</strong> ${escapeHtml(s.dosage)}</p>` : ''}
+          </article>
+        `).join('') + `</div>`;
+      } else {
+        html += `<p class="muted">Keine direkten DB-Treffer – dafür die KI-Antwort unten.</p>`;
+      }
+      html += `</div>`;
+
+      if (local.tips.length) {
+        html += `<div class="results-section"><h4>🧠 Passende Biohacking-Tipps</h4><div class="tips-grid">` +
+          local.tips.map(t => `
+            <article class="tip-card">
+              <div class="tip-icon">${escapeHtml(t.icon || '💡')}</div>
+              <div class="tip-cat">${escapeHtml(t.category)}</div>
+              <h3>${escapeHtml(t.title)}</h3>
+              <p>${escapeHtml(t.short)}</p>
+              <p class="tip-how"><strong>Wie:</strong> ${escapeHtml(t.how)}</p>
+            </article>
+          `).join('') + `</div></div>`;
+      }
+
+      html += `<div class="results-section ai-section">
+        <h4>🤖 KI-Einschätzung</h4>
+        <div id="symptom-ai-output" class="ai-output"><em>KI tippt…</em></div>
+      </div>`;
+
+      results.innerHTML = html;
+
+      const out = $('#symptom-ai-output');
+      if (!loadApiKey()) {
+        out.innerHTML = `<p class="err">Kein Gemini-Key verfügbar. Siehe <a href="#about">Über</a>.</p>`;
+        return;
+      }
+
+      const sys = `Du bist ein Biohacking-Coach. Der Nutzer beschreibt ein Symptom oder Ziel auf Deutsch. Antworte strukturiert auf Deutsch mit Markdown:
+## Mögliche Ursachen
+## Lifestyle-Empfehlungen (Schlaf, Licht, Bewegung, Ernährung)
+## Supplement-Empfehlungen (konkret mit Dosis & Einnahme)
+## Wann zum Arzt
+
+Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Schließe mit dem Hinweis, dass bei anhaltenden oder schweren Beschwerden eine ärztliche Abklärung nötig ist.`;
+
+      try {
+        const { text } = await callGemini(q, { systemInstruction: sys, temperature: 0.4, maxOutputTokens: 2048 });
+        out.innerHTML = mdToHtml(text);
+      } catch (err) {
+        out.innerHTML = `<p class="err">KI-Fehler: ${escapeHtml(err.message)}</p>`;
+      }
+    }
+
+    function localRecommend(query) {
+      const norm = normalizeStr(query);
+      const words = norm.split(' ').filter(Boolean);
+
+      const tagHits = {};
+      if (typeof GOALS !== 'undefined') {
+        GOALS.forEach(g => {
+          let matches = 0;
+          for (const kw of g.keywords) {
+            if (norm.includes(normalizeStr(kw))) matches += 2;
+          }
+          for (const w of words) {
+            for (const kw of g.keywords) {
+              if (normalizeStr(kw).includes(w) && w.length > 3) matches++;
+            }
+          }
+          if (matches > 0) {
+            for (const t of g.tags) tagHits[t] = (tagHits[t] || 0) + matches;
+          }
+        });
+      }
+      for (const w of words) if (w.length > 2) tagHits[w] = (tagHits[w] || 0) + 1;
+
+      const scoreSupp = (s) => (s.tags || []).reduce((sum, t) => sum + (tagHits[t] || 0), 0);
+      const scoreTip = (t) => (t.tags || []).reduce((sum, x) => sum + (tagHits[x] || 0), 0);
+
+      const sortedSupps = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : [])
+        .map(s => ({ s, sc: scoreSupp(s) }))
+        .filter(o => o.sc > 0)
+        .sort((a, b) => b.sc - a.sc)
+        .slice(0, 6)
+        .map(o => o.s);
+
+      const sortedTips = (typeof TIPS !== 'undefined' ? TIPS : [])
+        .map(t => ({ t, sc: scoreTip(t) }))
+        .filter(o => o.sc > 0)
+        .sort((a, b) => b.sc - a.sc)
+        .slice(0, 6)
+        .map(o => o.t);
+
+      return { supplements: sortedSupps, tips: sortedTips };
+    }
+  }
+
+  let newsLoaded = false;
+  let newsData = null;
+  let newsCurrentTopic = 'all';
+
+  function initNewsView() {
+    const refreshBtn = $('#news-refresh');
+    const chipsBar = $('#news-topic-chips');
+    refreshBtn?.addEventListener('click', () => loadNews(true));
+    chipsBar?.addEventListener('click', (e) => {
+      const c = e.target.closest('.chip');
+      if (!c) return;
+      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === c));
+      newsCurrentTopic = c.dataset.topic;
+      loadNews(false);
+    });
+  }
+
+  async function onEnterNews() {
+    if (newsLoaded && newsData && newsData.topic === newsCurrentTopic) {
+      renderNews(newsData);
+      return;
+    }
+    const cached = loadNewsFromCache();
+    if (cached && cached.topic === newsCurrentTopic) {
+      newsData = cached;
+      newsLoaded = true;
+      renderNews(cached, { fromCache: true });
+      return;
+    }
+    loadNews(false);
+  }
+
+  function loadNewsFromCache() {
+    try {
+      const raw = localStorage.getItem(NEWS_CACHE_KEY);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (!obj?.ts || !obj?.data) return null;
+      if (Date.now() - obj.ts > NEWS_CACHE_TTL_MS) return null;
+      return obj.data;
+    } catch (_) { return null; }
+  }
+
+  function saveNewsToCache(data) {
+    try { localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ ts: Date.now(), data })); } catch (_) {}
+  }
+
+  async function loadNews(_force) {
+    const statusEl = $('#news-status');
+    const listEl = $('#news-list');
     if (!loadApiKey()) {
-      appendMessage('bot', 'Bitte zuerst oben einen Google-AI-Studio-Key hinterlegen.');
-      const ki = $('#ai-key-input'); if (ki) ki.focus();
+      statusEl.innerHTML = '<div class="err">Kein Gemini-Key verfügbar. Siehe <a href="#about">Über</a>.</div>';
       return;
     }
 
-    aiState.busy = true;
-    const sendBtn = $('#ai-send');
-    if (sendBtn) sendBtn.disabled = true;
+    statusEl.innerHTML = '<div class="info">🔎 KI recherchiert aktuelle News (mit Web-Suche)…</div>';
+    listEl.innerHTML = '';
 
-    appendMessage('user', text);
-    $('#ai-input').value = '';
+    const topicMap = {
+      all: 'Biohacking, Longevity, Supplement-Forschung, Ernährung, Fasten, Sauerstoff, Bewegung, Schlaf, Wearables',
+      longevity: 'Longevity-Forschung, Lebensverlängerung, Altern, Epigenetik, Telomere, Rapamycin, NAD+',
+      supplements: 'Supplement-Studien, neue Nootropika, Vitamin-/Mineral-Forschung',
+      ernaehrung: 'Ernährung, Intervallfasten, Keto, Protein, Darmgesundheit',
+      bewegung: 'Bewegung, Schlaf-Forschung, zirkadianer Rhythmus, HIIT, Zone 2',
+      tech: 'Wearables, Continuous Glucose Monitoring, Biomarker-Tracking, HealthTech-Gadgets'
+    };
+    const topic = topicMap[newsCurrentTopic] || topicMap.all;
 
-    const pending = appendMessage('bot', '', { pending: true });
+    const sys = `Du bist ein Biohacking-News-Redakteur. Liefere aktuelle, seriöse Nachrichten auf Deutsch.
+Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
+{"items":[{"title":"...","summary":"2-4 Sätze deutsch","category":"Longevity|Supplements|Ernährung|Bewegung|Tech|Forschung","url":"https://..."}]}
+Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten Inhalte – nur was du per Web-Suche belegen kannst.`;
+
+    const prompt = `Recherchiere die aktuellsten Nachrichten (letzte 7–30 Tage) aus folgenden Bereichen: ${topic}. Gib sie als JSON aus.`;
 
     try {
-      const reply = await callGemini(text);
-      pending.bubble.innerHTML = renderMarkdown(reply);
-      aiState.history.push({ role: 'user', parts: [{ text: text }] });
-      aiState.history.push({ role: 'model', parts: [{ text: reply }] });
-      if (aiState.history.length > 16) aiState.history = aiState.history.slice(-16);
+      const { text, sources } = await callGemini(prompt, {
+        systemInstruction: sys,
+        temperature: 0.2,
+        grounding: true,
+        maxOutputTokens: 4096
+      });
+
+      const json = extractJson(text);
+      if (!json || !Array.isArray(json.items)) {
+        throw new Error('Ungültige JSON-Antwort vom Modell.');
+      }
+      const data = { items: json.items, sources: sources || [], topic: newsCurrentTopic, fetched: Date.now() };
+      newsData = data;
+      newsLoaded = true;
+      saveNewsToCache(data);
+      renderNews(data);
     } catch (err) {
-      let msg;
-      if (err.message === 'NO_KEY') msg = 'Kein API-Key gespeichert.';
-      else if (err.message === 'INVALID_KEY') msg = 'Der API-Key ist ungueltig. Bitte pruefe ihn in Google AI Studio und speichere ihn erneut.';
-      else if (err.message === 'FORBIDDEN') msg = 'Zugriff verweigert. Evtl. ist Gemini in deiner Region gesperrt oder der Key hat keine Berechtigung.';
-      else if (err.message === 'RATE_LIMIT') msg = 'Kontingent ausgeschoepft. Warte einen Moment und versuche es erneut.';
-      else msg = 'Fehler: ' + err.message;
-      pending.bubble.innerHTML = '';
-      pending.bubble.textContent = msg;
-      pending.msg.classList.add('ai-message--error');
-    } finally {
-      aiState.busy = false;
-      if (sendBtn) sendBtn.disabled = false;
-      const input = $('#ai-input');
-      if (input) input.focus();
+      statusEl.innerHTML = `<div class="err">❌ Konnte News nicht laden: ${escapeHtml(err.message)}</div>`;
     }
   }
 
-  function renderAiChips() {
-    const wrap = $('#ai-chips');
-    if (!wrap) return;
-    AI_EXAMPLES.forEach((q) => {
-      const chip = el('button', {
-        class: 'chip',
-        type: 'button',
-        onclick: () => {
-          $('#ai-input').value = q;
-          $('#ai-input').focus();
-        }
-      }, [q]);
-      wrap.appendChild(chip);
-    });
+  function extractJson(text) {
+    if (!text) return null;
+    const cleaned = text.replace(/```(?:json)?/gi, '').replace(/```/g, '').trim();
+    const first = cleaned.indexOf('{');
+    const last = cleaned.lastIndexOf('}');
+    if (first === -1 || last === -1) return null;
+    try {
+      return JSON.parse(cleaned.slice(first, last + 1));
+    } catch (_) {
+      return null;
+    }
   }
 
-  function initAiAssistant() {
-    if (!$('#ki-assistent')) return;
+  function renderNews(data, opts = {}) {
+    const statusEl = $('#news-status');
+    const listEl = $('#news-list');
+    const when = new Date(data.fetched || Date.now()).toLocaleString('de-DE');
+    statusEl.innerHTML = `<div class="ok">✓ ${data.items.length} News geladen · Stand: ${escapeHtml(when)}${opts.fromCache ? ' · (aus Cache)' : ''}</div>`;
 
-    updateKeyStatus();
-    renderAiChips();
+    listEl.innerHTML = data.items.map(n => {
+      const domain = (() => { try { return new URL(n.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; } })();
+      return `
+        <article class="news-card">
+          <div class="news-cat">${escapeHtml(n.category || 'News')}</div>
+          <h3><a href="${escapeHtml(n.url)}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a></h3>
+          <p>${escapeHtml(n.summary || '')}</p>
+          ${domain ? `<div class="news-src">🔗 ${escapeHtml(domain)}</div>` : ''}
+        </article>
+      `;
+    }).join('');
 
-    $('#ai-key-save').addEventListener('click', () => {
-      const k = ($('#ai-key-input').value || '').trim();
-      if (!k) {
-        $('#ai-key-status').className = 'ai-key-status err';
-        $('#ai-key-status').textContent = 'Bitte einen Key eingeben.';
-        return;
-      }
-      if (!/^AI[A-Za-z0-9_-]{10,}/.test(k)) {
-        if (!confirm('Der Key sieht ungewoehnlich aus (erwartet: beginnt mit AI...). Trotzdem speichern?')) return;
-      }
-      if (saveApiKey(k)) updateKeyStatus();
-    });
+    if (data.sources?.length) {
+      listEl.insertAdjacentHTML('beforeend', `
+        <div class="news-sources">
+          <h4>Quellen (Web-Suche)</h4>
+          <ul>${data.sources.slice(0, 10).map(s => `<li><a href="${escapeHtml(s.uri)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`).join('')}</ul>
+        </div>
+      `);
+    }
+  }
 
-    $('#ai-key-clear').addEventListener('click', () => {
-      clearApiKey();
-      $('#ai-key-input').value = '';
-      updateKeyStatus();
-    });
+  function initAboutView() {
+    const input = $('#ai-key-input');
+    const toggle = $('#ai-key-toggle');
+    const save = $('#ai-key-save');
+    const clear = $('#ai-key-clear');
+    if (!input) return;
 
-    $('#ai-key-toggle').addEventListener('click', () => {
-      const input = $('#ai-key-input');
+    input.value = loadStoredApiKey();
+
+    toggle?.addEventListener('click', () => {
       input.type = input.type === 'password' ? 'text' : 'password';
     });
-
-    $('#ai-form').addEventListener('submit', (e) => {
-      e.preventDefault();
-      sendAiMessage($('#ai-input').value);
-    });
-
-    $('#ai-input').addEventListener('keydown', (e) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
-        e.preventDefault();
-        sendAiMessage($('#ai-input').value);
+    save?.addEventListener('click', () => {
+      const v = input.value.trim();
+      if (!v) return;
+      if (saveApiKey(v)) {
+        updateKeyStatusBlock();
+        updateKeyBadge();
       }
     });
-
-    $('#ai-reset').addEventListener('click', () => {
-      aiState.history = [];
-      $('#ai-messages').innerHTML = '';
-      const welcome = el('div', { class: 'ai-message ai-message--bot ai-welcome' }, [
-        el('div', { class: 'ai-avatar' }, ['🤖']),
-        el('div', { class: 'ai-bubble', html: '<strong>Neuer Chat.</strong> Beschreibe dein Symptom oder Ziel.' })
-      ]);
-      $('#ai-messages').appendChild(welcome);
+    clear?.addEventListener('click', () => {
+      clearStoredApiKey();
+      input.value = '';
+      updateKeyStatusBlock();
+      updateKeyBadge();
     });
+
+    updateKeyStatusBlock();
   }
 
-  // ============================================================
-  //  Event-Listener
-  // ============================================================
-  function initEvents() {
-    const goalInput = $('#goal-input');
-    $('#recommend-btn').addEventListener('click', () => renderRecommendation(goalInput.value));
-    goalInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') renderRecommendation(goalInput.value);
-    });
-    $('.btn-clear').addEventListener('click', () => {
-      goalInput.value = '';
-      $('#recommendation-results').innerHTML = '';
-      goalInput.focus();
-    });
+  document.addEventListener('DOMContentLoaded', () => {
+    updateKeyBadge();
+    initSupplementView();
+    initSymptomView();
+    initNewsView();
+    initAboutView();
+    initRouter();
+    onEnterHome();
+  });
 
-    const suppSearch = $('#supplement-search');
-    suppSearch.addEventListener('input', (e) => {
-      state.searchQuery = e.target.value;
-      renderSupplementGrid();
-    });
-
-    $('.modal-close').addEventListener('click', closeModal);
-    $('.modal-overlay').addEventListener('click', closeModal);
-    document.addEventListener(
+})();
