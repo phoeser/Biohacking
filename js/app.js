@@ -156,6 +156,99 @@
     if (sSup) sSup.textContent = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.length : '–');
     if (sTip) sTip.textContent = (typeof TIPS !== 'undefined' ? TIPS.length : '–');
     if (sGoal) sGoal.textContent = (typeof GOALS !== 'undefined' ? GOALS.length : '–');
+    loadHomeNewsPreview();
+  }
+
+  let homeNewsLoading = false;
+  async function loadHomeNewsPreview() {
+    const statusEl = $('#home-news-status');
+    const listEl = $('#home-news-list');
+    if (!statusEl || !listEl) return;
+
+    // 1) Zuerst Cache nutzen (sofort rendern)
+    const cached = loadNewsFromCache();
+    if (cached && Array.isArray(cached.items) && cached.items.length) {
+      renderHomeNews(cached.items.slice(0, 3), cached.fetched, true);
+      return;
+    }
+
+    // 2) Kein Cache → per KI laden
+    if (homeNewsLoading) return;
+    homeNewsLoading = true;
+
+    if (!loadApiKey()) {
+      statusEl.innerHTML = '';
+      listEl.innerHTML = `<div class="home-news-error">Kein KI-Key verfügbar.</div>`;
+      homeNewsLoading = false;
+      return;
+    }
+
+    statusEl.innerHTML = '';
+    listEl.innerHTML = `
+      <div class="home-news-loading">Lade aktuelle News…</div>
+      <div class="home-news-loading">Recherche läuft…</div>
+      <div class="home-news-loading">Quellen werden geprüft…</div>
+    `;
+
+    const sys = `Du bist ein Biohacking-News-Redakteur. Liefere die 3 wichtigsten, aktuellsten und seriösesten Nachrichten auf Deutsch.
+Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
+{"items":[{"title":"...","summary":"1-2 knackige Sätze deutsch","category":"Longevity|Supplements|Ernährung|Bewegung|Tech|Forschung","url":"https://..."}]}
+Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten Inhalte – nur was du per Web-Suche belegen kannst.`;
+
+    const prompt = `Recherchiere die 3 wichtigsten aktuellen Nachrichten (letzte 7–14 Tage) aus Biohacking, Longevity, Supplement-Forschung, Ernährung, Schlaf, Wearables. Gib sie als JSON aus.`;
+
+    try {
+      const { text, sources } = await callGemini(prompt, {
+        systemInstruction: sys,
+        temperature: 0.2,
+        grounding: true,
+        maxOutputTokens: 1500
+      });
+
+      const json = extractJson(text);
+      if (!json || !Array.isArray(json.items) || json.items.length === 0) {
+        throw new Error('Ungültige JSON-Antwort vom Modell.');
+      }
+
+      const items = json.items.slice(0, 3);
+      const fetched = Date.now();
+      saveNewsToCache({ items: json.items, sources: sources || [], topic: 'all', fetched });
+      newsData = { items: json.items, sources: sources || [], topic: 'all', fetched };
+      newsLoaded = true;
+
+      renderHomeNews(items, fetched, false);
+    } catch (err) {
+      statusEl.innerHTML = '';
+      listEl.innerHTML = `<div class="home-news-error">News-Ladefehler: ${escapeHtml(err.message)}</div>`;
+    } finally {
+      homeNewsLoading = false;
+    }
+  }
+
+  function renderHomeNews(items, fetchedTs, fromCache) {
+    const statusEl = $('#home-news-status');
+    const listEl = $('#home-news-list');
+    if (!statusEl || !listEl) return;
+
+    const when = new Date(fetchedTs || Date.now()).toLocaleString('de-DE', {
+      day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+    statusEl.innerHTML = `<span class="ok">✓ Stand: ${escapeHtml(when)}${fromCache ? ' · aus Cache' : ''}</span>`;
+
+    listEl.innerHTML = items.map(n => {
+      const domain = (() => {
+        try { return new URL(n.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; }
+      })();
+      const safeUrl = (n.url && /^https?:\/\//i.test(n.url)) ? n.url : '#news';
+      return `
+        <a class="home-news-card" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">
+          <div class="home-news-cat">${escapeHtml(n.category || 'News')}</div>
+          <h4>${escapeHtml(n.title || '')}</h4>
+          <p>${escapeHtml(n.summary || '')}</p>
+          ${domain ? `<div class="home-news-src">🔗 ${escapeHtml(domain)}</div>` : ''}
+        </a>
+      `;
+    }).join('');
   }
 
   function initSupplementView() {
