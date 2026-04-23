@@ -209,6 +209,7 @@
     const sys = `Du bist ein Biohacking-News-Redakteur. Liefere die 3 wichtigsten, aktuellsten und seriösesten Nachrichten auf Deutsch.
 Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
 {"items":[{"title":"...","summary":"1-2 knackige Sätze deutsch","category":"Longevity|Supplements|Ernährung|Bewegung|Tech|Forschung","url":"https://..."}]}
+WICHTIG: Innerhalb der Stringwerte (z.B. title/summary) NIEMALS doppelte Anführungszeichen benutzen – verwende stattdessen deutsche Guillemets »...« oder einfache Anführungszeichen \'...\'. JSON-Strings müssen valide sein.
 Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten Inhalte – nur was du per Web-Suche belegen kannst.`;
 
     const prompt = `Recherchiere die 3 wichtigsten aktuellen Nachrichten (letzte 7–14 Tage) aus Biohacking, Longevity, Supplement-Forschung, Ernährung, Schlaf, Wearables. Gib sie als JSON aus.`;
@@ -709,6 +710,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     const sys = `Du bist ein Biohacking-News-Redakteur. Liefere aktuelle, seriöse Nachrichten auf Deutsch.
 Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
 {"items":[{"title":"...","summary":"2-4 Sätze deutsch","category":"Longevity|Supplements|Ernährung|Bewegung|Tech|Forschung","url":"https://..."}]}
+WICHTIG: Innerhalb der Stringwerte (z.B. title/summary) NIEMALS doppelte Anführungszeichen benutzen – verwende stattdessen deutsche Guillemets »...« oder einfache Anführungszeichen \'...\'. JSON-Strings müssen valide sein.
 Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten Inhalte – nur was du per Web-Suche belegen kannst.`;
 
     const prompt = `Recherchiere die aktuellsten Nachrichten (letzte 7–30 Tage) aus folgenden Bereichen: ${topic}. Gib sie als JSON aus.`;
@@ -747,11 +749,46 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     const first = cleaned.indexOf('{');
     const last = cleaned.lastIndexOf('}');
     if (first === -1 || last === -1) return null;
-    try {
-      return JSON.parse(cleaned.slice(first, last + 1));
-    } catch (_) {
-      return null;
+    const body = cleaned.slice(first, last + 1);
+    // Erster Versuch: strikt parsen.
+    try { return JSON.parse(body); } catch (_) { /* fallthrough */ }
+    // Reparatur-Versuch: unescapte " innerhalb von Stringwerten escapen.
+    try { return JSON.parse(repairJsonQuotes(body)); } catch (_) { /* fallthrough */ }
+    return null;
+  }
+
+  // Heuristischer JSON-Reparer: walkt durch den Text, trackt, ob wir gerade
+  // in einem String-Value sind, und escaped " die nicht von einem gültigen
+  // Terminator (: , } ]  whitespace+ein-solcher) gefolgt werden.
+  function repairJsonQuotes(body) {
+    let out = '';
+    let inString = false;
+    let escaped = false;
+    for (let i = 0; i < body.length; i++) {
+      const c = body[i];
+      if (!inString) {
+        if (c === '"') inString = true;
+        out += c;
+        continue;
+      }
+      if (escaped) { out += c; escaped = false; continue; }
+      if (c === '\\') { escaped = true; out += c; continue; }
+      if (c === '"') {
+        // Peek: ist das ein legitimer String-Abschluss?
+        let j = i + 1;
+        while (j < body.length && /\s/.test(body[j])) j++;
+        const next = body[j];
+        if (next === ':' || next === ',' || next === '}' || next === ']' || next === undefined) {
+          inString = false;
+          out += c;
+        } else {
+          out += '\\"'; // unescapte innere Quote → escapen
+        }
+        continue;
+      }
+      out += c;
     }
+    return out;
   }
 
   function renderNews(data, opts = {}) {
