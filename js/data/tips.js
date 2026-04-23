@@ -445,10 +445,109 @@ const TIPS = [
     short: 'Flacheres Atmen erhöht CO2-Toleranz und öffnet Bronchien.',
     how: 'Normal durch die Nase ein, leicht aus, 3–5 s Pause. Über 10 min täglich. Wirkt bei Asthma, Heuschnupfen, Panikattacken. Nicht bei akuter Atemnot.',
     tags: ['atmung', 'immun', 'allergie', 'stress']
+  },
+  // ============ NEU: TRACKING & BIOMARKER ============
+  {
+    id: 'cgm-tracking',
+    category: 'Tracking',
+    icon: '📉',
+    title: 'Glukose kontinuierlich messen (CGM)',
+    short: 'Sensor am Oberarm zeigt 14 Tage, wie dein Körper auf Essen und Stress reagiert.',
+    how: 'Abbott FreeStyle Libre 3 oder Dexcom G7 an den Oberarm kleben. 14 Tage lang Spikes, Stressreaktion und Schlaf-Glukose tracken. Ideal: 2× pro Jahr. Zeigt individuelle Trigger-Foods (z. B. Haferflocken spiken mehr als erwartet).',
+    tags: ['tracking', 'blutzucker', 'ernaehrung', 'longevity']
+  },
+  {
+    id: 'oura-whoop',
+    category: 'Tracking',
+    icon: '💍',
+    title: 'HRV & Schlafphasen mit Ring/Band',
+    short: 'Oura Ring oder Whoop trackt Schlafqualität, Readiness und Erholung rund um die Uhr.',
+    how: 'Jeden Morgen HRV-Trend checken – sinkender Trend = Übertraining, Infekt oder Schlafdefizit. Readiness < 70 → Trainingsintensität reduzieren. Schlaf-Effizienz > 90 % anstreben. Wearable mindestens 14 Tage tragen, bevor Trends aussagekräftig sind.',
+    tags: ['tracking', 'schlaf', 'stress', 'ausdauer']
+  },
+  {
+    id: 'blutbild-erweitert',
+    category: 'Tracking',
+    icon: '🩸',
+    title: 'Erweitertes Biomarker-Panel',
+    short: 'Jährlich: hsCRP, HbA1c, ApoB, Nüchterninsulin, Homocystein, Vitamin D – das Biohacker-Basispanel.',
+    how: 'Über Hausarzt oder IGeL: hsCRP (Entzündung), HbA1c (Langzeitzucker), ApoB (Herz-Risiko besser als LDL), Nüchterninsulin (Insulinresistenz früh), Homocystein (Methylierung), 25-OH-Vitamin D, freies T3/T4/TSH, Ferritin, Testosteron (Männer).',
+    tags: ['tracking', 'longevity', 'herz', 'hormone']
+  },
+
+  // ============ NEU: KOGNITION & BRAIN ============
+  {
+    id: 'nootropic-stack',
+    category: 'Stress & Geist',
+    icon: '🧠',
+    title: 'Nootropika-Starter-Stack',
+    short: 'Koffein + L-Theanin 1:2 als sicherer Einstieg – bei Bedarf mit Löwenmähne für Langzeit-BDNF.',
+    how: 'Morgens: 100 mg Koffein + 200 mg L-Theanin. Fokus-Peaks: zusätzlich 300 mg Alpha-GPC oder 250 mg Citicolin. Langfristig (8+ Wochen): 1 g Löwenmähne täglich für Nervenwachstum. Nicht täglich stapeln – Toleranz vermeiden.',
+    tags: ['fokus', 'nootropic', 'gehirn', 'energie']
+  },
+  {
+    id: 'dual-n-back',
+    category: 'Stress & Geist',
+    icon: '🎯',
+    title: 'Dual-N-Back fürs Arbeitsgedächtnis',
+    short: 'Einziges Gehirntraining, das nachweislich fluide Intelligenz verbessert. 20 min täglich.',
+    how: 'Apps wie „Brain Workshop" oder „IQ Boost". 20 min 4× pro Woche über 4 Wochen. Schon ab Level N=3 spürbare Verbesserung von Fokus und Arbeitsgedächtnis. Kombinierbar mit Alpha-GPC oder Citicolin für stärkeren Effekt.',
+    tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic']
+  },
+
+  // ============ NEU: HORMONE ============
+  {
+    id: 'testosteron-natural',
+    category: 'Ernährung',
+    icon: '💪',
+    title: 'Testosteron natürlich anheben',
+    short: 'Krafttraining + Schlaf + Zink + Bor + ausreichend Cholesterin decken 80 % des Hebels ab.',
+    how: '1) Krafttraining 3×/Woche (Compound-Übungen: Kniebeuge, Kreuzheben). 2) 7–9 h Schlaf, besonders REM. 3) Zink 15 mg + Bor 6 mg + Magnesium 400 mg abends. 4) Fett nicht unter 25 % der Kalorien (Cholesterin = Testosteron-Vorläufer). 5) Alkohol minimieren, Körperfett unter 20 %.',
+    tags: ['hormone', 'testosteron', 'muskel', 'schlaf']
+  },
+  {
+    id: 'zyklus-tracking',
+    category: 'Tracking',
+    icon: '🌙',
+    title: 'Training am Zyklus ausrichten (Frauen)',
+    short: 'Follikelphase: Kraft pushen. Lutealphase: Ausdauer, mehr Regeneration.',
+    how: 'Follikelphase (Tag 1–14): Kraftrekorde, HIIT, intensive Einheiten. Östrogen steigt. Lutealphase (Tag 15–28): Zone 2, Yoga, mehr Kohlenhydrate, mehr Schlaf (Progesteron ↑). Tracking: Natural Cycles, Clue, oder Basaltemperatur. In den 3–5 Tagen vor der Periode: keine neuen PRs erwarten.',
+    tags: ['hormone', 'sport', 'tracking']
+  },
+
+  // ============ NEU: LONGEVITY & AUTOPHAGY ============
+  {
+    id: 'senolytikum-pulse',
+    category: 'Longevity',
+    icon: '🧬',
+    title: 'Monatlicher Senolytikum-Puls',
+    short: 'Fisetin + Quercetin hochdosiert an 2 Tagen pro Monat – entfernt seneszente Zombie-Zellen.',
+    how: 'An 2 aufeinanderfolgenden Tagen pro Monat: 20 mg/kg Fisetin + 1 g Quercetin (morgens, mit Fett). Pause die restlichen 28 Tage. Beobachtungsstudien deuten auf weniger Entzündung und bessere Gewebefunktion hin. Protokoll nach Mayo Clinic.',
+    tags: ['longevity', 'senolytisch', 'anti-aging']
+  },
+  {
+    id: 'protein-longevity',
+    category: 'Ernährung',
+    icon: '🥩',
+    title: 'Protein nach Alter anpassen',
+    short: 'Unter 50 J.: 1,2–1,6 g/kg. Über 50 J.: 1,6–2,2 g/kg gegen Sarkopenie.',
+    how: 'Über 50: mehr Protein anstreben – der „mTOR-Bremse wegen Longevity"-Ansatz ignoriert das Sarkopenie-Risiko. Peter Attia empfiehlt 1,6–2,2 g/kg pro Tag, verteilt auf 3–4 Mahlzeiten à 30–50 g. Leucin-Schwelle (2,5 g/Mahlzeit) triggert Muskelaufbau.',
+    tags: ['longevity', 'muskel', 'ernaehrung']
+  },
+
+  // ============ NEU: HERZ-KREISLAUF ============
+  {
+    id: 'zone2-mito',
+    category: 'Bewegung',
+    icon: '❤️',
+    title: 'Zone-2-Cardio 3×/Woche',
+    short: 'Intensität, bei der du noch Gespräche führen kannst – baut Mitochondriendichte auf.',
+    how: '3× pro Woche 45–60 min bei 60–70 % Maximalpuls (≈ 180 minus Alter). Herzfrequenz so halten, dass du noch sprechen kannst – Radfahren, Zügig Gehen, Ruderergometer. Nach 3 Monaten: messbar bessere Laktat-Clearance und VO2max.',
+    tags: ['ausdauer', 'mitochondrien', 'herz', 'longevity']
   }
 ];
 
 const TIP_CATEGORIES = [
   'Alle', 'Schlaf', 'Licht', 'Kälte & Hitze', 'Atmung', 'Sauerstoff',
-  'Ernährung', 'Fasten', 'Bewegung', 'Stress & Geist', 'Routine', 'Tracking'
+  'Ernährung', 'Fasten', 'Bewegung', 'Stress & Geist', 'Routine', 'Tracking', 'Longevity'
 ];
