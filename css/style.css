@@ -1838,3 +1838,194 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 620px) {
   .home-news-grid { grid-template-columns: 1fr; }
 }
+
+/* ============ WEARABLES / PRODUKT-EMPFEHLUNGEN ============ */
+.home-products {
+  margin-top: 32px;
+}
+.home-products-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.home-products-sub {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 6px;
+  max-width: 560px;
+}
+.home-products-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.home-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.product-card {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(45, 90, 70, 0.12);
+  border-radius: 16px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: border-color .15s, transform .15s, box-shadow .15s;
+}
+.product-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(47, 139, 106, 0.08);
+}
+.product-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.product-emoji {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+.product-title h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.product-tag {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.product-aff {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(47, 139, 106, 0.12);
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+.product-short {
+  font-size: 14px;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.5;
+}
+.product-list {
+  font-size: 13px;
+}
+.product-list strong {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.product-list--cons strong {
+  color: #b86a7e;
+}
+.product-list ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+.product-list li {
+  margin-bottom: 2px;
+}
+.product-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 8px;
+  border-top: 1px solid rgba(45, 90, 70, 0.08);
+  font-size: 13px;
+}
+.product-price {
+  color: var(--muted);
+  font-weight: 600;
+}
+.product-code {
+  color: var(--text);
+  font-size: 12px;
+}
+.product-code strong {
+  color: var(--accent);
+  letter-spacing: 0.4px;
+}
+.product-cta {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 10px 14px;
+  text-align: center;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background .15s;
+}
+.product-cta:hover { background: #267657; }
+.product-cta--disabled {
+  background: rgba(45, 90, 70, 0.15);
+  color: var(--muted);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ============ KI-CACHE-INDIKATOR ============ */
+.ai-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.ai-refresh-btn {
+  background: transparent;
+  border: 1px solid var(--surface-border, rgba(45, 90, 70, 0.18));
+  color: var(--muted);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .15s;
+}
+.ai-refresh-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(47, 139, 106, 0.06);
+}
+.ai-meta {
+  margin-top: 8px;
+  font-size: 12px;
+}
+.ai-cached {
+  color: var(--muted);
+  font-style: italic;
+}
+.ai-fresh {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+@media (max-width: 620px) {
+  .home-products-grid { grid-template-columns: 1fr; }
+  .home-products-head { flex-direction: column; align-items: stretch; }
+}
