@@ -144,5 +144,47 @@ const GOALS = [
     keywords: ['entzuendung', 'entzündung', 'inflammation', 'chronisch entzuendet', 'crp', 'still inflammation'],
     tags: ['entzuendung', 'gelenke', 'immun'],
     featured: false
+  },
+  // NEU: Gehirn-Longevity
+  {
+    label: 'Kognitive Leistung',
+    keywords: ['intelligenz', 'iq', 'mental performance', 'brain fog', 'nebel im kopf', 'vergessen', 'alzheimer', 'demenz', 'gedaechtnis', 'gedächtnis', 'klarheit'],
+    tags: ['gehirn', 'nootropic', 'fokus', 'gedaechtnis'],
+    featured: true
+  },
+  // NEU: Herz-Kreislauf
+  {
+    label: 'Herz & Kreislauf',
+    keywords: ['herz', 'blutdruck', 'kreislauf', 'gefaesse', 'gefäße', 'cholesterin', 'ldl', 'apob', 'arterien'],
+    tags: ['herz', 'kreislauf', 'durchblutung'],
+    featured: false
+  },
+  // NEU: Leber/Detox
+  {
+    label: 'Leber & Entgiftung',
+    keywords: ['leber', 'entgiftung', 'detox', 'alkohol abbauen', 'leberwerte', 'fettleber', 'leberreinigung'],
+    tags: ['leber', 'detox'],
+    featured: false
+  },
+  // NEU: Libido/Sexualität
+  {
+    label: 'Libido & Sexualität',
+    keywords: ['libido', 'lust', 'sex', 'potenz', 'erektion', 'testosteron', 'hormonell schwach', 'sexuelle leistung'],
+    tags: ['hormone', 'testosteron', 'durchblutung'],
+    featured: false
+  },
+  // NEU: Methylierung/MTHFR
+  {
+    label: 'Methylierung & MTHFR',
+    keywords: ['methylierung', 'mthfr', 'homocystein', 'b12 mangel', 'folat', 'methylfolat', 'methylgruppen'],
+    tags: ['methylierung', 'vitamin-b-komplex'],
+    featured: false
+  },
+  // NEU: Senolytisch/Zombie-Zellen
+  {
+    label: 'Senolytisch / Zellreinigung',
+    keywords: ['senolytisch', 'zombie zellen', 'seneszenz', 'zellalterung', 'zellreinigung', 'zell-reinigung'],
+    tags: ['senolytisch', 'longevity', 'anti-aging'],
+    featured: false
   }
 ];
