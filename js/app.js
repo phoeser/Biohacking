@@ -13,7 +13,9 @@
   const AI_ENDPOINT = (model) =>
     `${AI_PROXY_BASE}/v1beta/models/${model}:generateContent`;
   const NEWS_CACHE_KEY = 'bhc_news_cache_v1';
-  const NEWS_CACHE_TTL_MS = 30 * 60 * 1000;
+  // TTL nur für "muss ich im Hintergrund neu laden?" – die Anzeige bleibt
+  // IMMER sichtbar, auch wenn der Cache älter ist.
+  const NEWS_CACHE_TTL_MS = 60 * 60 * 1000; // 60 min
 
   const $ = (s, root = document) => root.querySelector(s);
   const $$ = (s, root = document) => Array.from(root.querySelectorAll(s));
@@ -82,7 +84,10 @@
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
       generationConfig: {
         temperature: opts.temperature ?? 0.4,
-        maxOutputTokens: opts.maxOutputTokens ?? 2048
+        maxOutputTokens: opts.maxOutputTokens ?? 2048,
+        // 2.5-Modelle haben "Thinking" an – ohne das Deaktivieren fressen die
+        // internen Reasoning-Tokens das Output-Budget und die Antwort ist leer.
+        thinkingConfig: { thinkingBudget: 0 }
       }
     };
 
@@ -166,28 +171,40 @@
     const listEl = $('#home-news-list');
     if (!statusEl || !listEl) return;
 
+    // 1) Cache sofort anzeigen (auch wenn alt) – so ist die UI nie leer.
     const cached = loadNewsFromCache();
-    if (cached && Array.isArray(cached.items) && cached.items.length) {
+    const haveCache = !!(cached && Array.isArray(cached.items) && cached.items.length);
+    if (haveCache) {
       renderHomeNews(cached.items.slice(0, 3), cached.fetched, true);
-      return;
     }
+
+    // 2) Kein Refresh nötig, wenn Cache frisch ist.
+    if (haveCache && !isNewsCacheStale()) return;
 
     if (homeNewsLoading) return;
     homeNewsLoading = true;
 
     if (!loadApiKey()) {
-      statusEl.innerHTML = '';
-      listEl.innerHTML = `<div class="home-news-error">Kein KI-Key verfügbar.</div>`;
+      if (!haveCache) {
+        statusEl.innerHTML = '';
+        listEl.innerHTML = `<div class="home-news-error">Kein KI-Key verfügbar.</div>`;
+      }
       homeNewsLoading = false;
       return;
     }
 
-    statusEl.innerHTML = '';
-    listEl.innerHTML = `
-      <div class="home-news-loading">Lade aktuelle News…</div>
-      <div class="home-news-loading">Recherche läuft…</div>
-      <div class="home-news-loading">Quellen werden geprüft…</div>
-    `;
+    // 3) Nur Loading-Placeholder zeigen, wenn wir GAR KEINEN Cache haben.
+    if (!haveCache) {
+      statusEl.innerHTML = '';
+      listEl.innerHTML = `
+        <div class="home-news-loading">Lade aktuelle News…</div>
+        <div class="home-news-loading">Recherche läuft…</div>
+        <div class="home-news-loading">Quellen werden geprüft…</div>
+      `;
+    } else {
+      // Dezenter Hinweis im Status, Liste bleibt stehen.
+      statusEl.innerHTML = `<span class="home-news-refreshing">↻ aktualisiere…</span>`;
+    }
 
     const sys = `Du bist ein Biohacking-News-Redakteur. Liefere die 3 wichtigsten, aktuellsten und seriösesten Nachrichten auf Deutsch.
 Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
@@ -201,7 +218,7 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
         systemInstruction: sys,
         temperature: 0.2,
         grounding: true,
-        maxOutputTokens: 1500
+        maxOutputTokens: 2500
       });
 
       const json = extractJson(text);
@@ -215,10 +232,17 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
       newsData = { items: json.items, sources: sources || [], topic: 'all', fetched };
       newsLoaded = true;
 
+      // 4) Erst JETZT (erfolgreich) wird die UI getauscht.
       renderHomeNews(items, fetched, false);
     } catch (err) {
-      statusEl.innerHTML = '';
-      listEl.innerHTML = `<div class="home-news-error">News-Ladefehler: ${escapeHtml(err.message)}</div>`;
+      // 5) Wenn Cache sichtbar ist: Fehler leise schlucken, alter Stand bleibt.
+      if (haveCache) {
+        renderHomeNews(cached.items.slice(0, 3), cached.fetched, true);
+        console.warn('[News] Hintergrund-Refresh fehlgeschlagen:', err.message);
+      } else {
+        statusEl.innerHTML = '';
+        listEl.innerHTML = `<div class="home-news-error">News-Ladefehler: ${escapeHtml(err.message)}</div>`;
+      }
     } finally {
       homeNewsLoading = false;
     }
@@ -606,8 +630,11 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
   }
 
   async function onEnterNews() {
+    // Wenn in-memory Daten zum aktuellen Topic passen: zeigen.
     if (newsLoaded && newsData && newsData.topic === newsCurrentTopic) {
-      renderNews(newsData);
+      renderNews(newsData, { fromCache: true });
+      // Nur im Hintergrund refreshen, wenn stale.
+      if (isNewsCacheStale()) loadNews(false);
       return;
     }
     const cached = loadNewsFromCache();
@@ -615,8 +642,10 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       newsData = cached;
       newsLoaded = true;
       renderNews(cached, { fromCache: true });
+      if (isNewsCacheStale()) loadNews(false);
       return;
     }
+    // Kein passender Cache → frisch laden (zeigt Loading).
     loadNews(false);
   }
 
@@ -626,9 +655,20 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       if (!raw) return null;
       const obj = JSON.parse(raw);
       if (!obj?.ts || !obj?.data) return null;
-      if (Date.now() - obj.ts > NEWS_CACHE_TTL_MS) return null;
+      // Cache wird IMMER zurückgegeben, auch wenn älter als TTL –
+      // damit die UI nie leer ist, bis frische News da sind.
       return obj.data;
     } catch (_) { return null; }
+  }
+
+  function isNewsCacheStale() {
+    try {
+      const raw = localStorage.getItem(NEWS_CACHE_KEY);
+      if (!raw) return true;
+      const obj = JSON.parse(raw);
+      if (!obj?.ts) return true;
+      return Date.now() - obj.ts > NEWS_CACHE_TTL_MS;
+    } catch (_) { return true; }
   }
 
   function saveNewsToCache(data) {
@@ -643,8 +683,18 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       return;
     }
 
-    statusEl.innerHTML = '<div class="info">🔎 KI recherchiert aktuelle News (mit Web-Suche)…</div>';
-    listEl.innerHTML = '';
+    // Haben wir bereits News im DOM oder Cache? Dann nicht blanken.
+    const cachedForTopic = loadNewsFromCache();
+    const haveVisible = (listEl && listEl.children.length > 0) ||
+      (cachedForTopic && cachedForTopic.topic === newsCurrentTopic &&
+       Array.isArray(cachedForTopic.items) && cachedForTopic.items.length);
+
+    if (haveVisible) {
+      statusEl.innerHTML = '<div class="info">↻ Aktualisiere News im Hintergrund…</div>';
+    } else {
+      statusEl.innerHTML = '<div class="info">🔎 KI recherchiert aktuelle News (mit Web-Suche)…</div>';
+      listEl.innerHTML = '';
+    }
 
     const topicMap = {
       all: 'Biohacking, Longevity, Supplement-Forschung, Ernährung, Fasten, Sauerstoff, Bewegung, Schlaf, Wearables',
@@ -681,7 +731,13 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       saveNewsToCache(data);
       renderNews(data);
     } catch (err) {
-      statusEl.innerHTML = `<div class="err">❌ Konnte News nicht laden: ${escapeHtml(err.message)}</div>`;
+      // Wenn schon etwas sichtbar ist: alten Stand behalten, leisen Hinweis zeigen.
+      if (haveVisible) {
+        statusEl.innerHTML = `<div class="info">⚠ Refresh fehlgeschlagen – letzter Stand wird weiter angezeigt.</div>`;
+        console.warn('[News] Refresh fehlgeschlagen:', err.message);
+      } else {
+        statusEl.innerHTML = `<div class="err">❌ Konnte News nicht laden: ${escapeHtml(err.message)}</div>`;
+      }
     }
   }
 
