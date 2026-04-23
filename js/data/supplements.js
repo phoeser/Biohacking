@@ -1170,6 +1170,552 @@ const SUPPLEMENTS = [
     avoid: [],
     evidence: 'hoch',
     sources: 'Flüssigmolke (Käseherstellungs-Nebenprodukt)'
+  },
+  // ============ NEU: LONGEVITY & ANTIOXIDANTIEN ============
+  {
+    id: 'nac',
+    name: 'NAC (N-Acetyl-Cystein)',
+    altNames: 'N-Acetylcystein',
+    category: 'Aminosäure',
+    tags: ['detox', 'immun', 'leber', 'atmung', 'glutathion', 'anti-aging'],
+    short: 'Vorläufer von Glutathion – dem Master-Antioxidans des Körpers. Standard-Biohacker-Supplement.',
+    description: 'NAC liefert die Aminosäure Cystein, aus der der Körper Glutathion aufbaut. Wird klinisch bei Paracetamol-Vergiftung und Lungenerkrankungen eingesetzt. Beliebtes Supplement für Detox, Immunsystem und mentale Gesundheit.',
+    benefits: [
+      'Erhöht Glutathion-Spiegel in Leber, Lunge und Gehirn',
+      'Schützt Leber vor Alkohol- und Medikamenten-Belastung',
+      'Löst zähen Schleim in den Atemwegen',
+      'Wirkt bei OCD, Trichotillomanie und Sucht-Verlangen',
+      'Reduziert oxidativen Stress'
+    ],
+    risks: [
+      'Selten: Übelkeit, Durchfall',
+      'Schwefelgeschmack möglich',
+      'Bei Asthmatikern erste Dosis vorsichtig testen'
+    ],
+    dosage: '600–1.800 mg täglich, aufgeteilt auf 1–2 Dosen.',
+    intake: 'Nüchtern oder mit Vitamin C kombinieren für bessere Aufnahme.',
+    synergies: ['glutathion', 'vitamin-c', 'glycin', 'alpha-liponsaeure'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Keine nennenswerten Nahrungsquellen – nur als Supplement.'
+  },
+  {
+    id: 'apigenin',
+    name: 'Apigenin',
+    altNames: 'Kamillen-Flavonoid',
+    category: 'Longevity',
+    tags: ['schlaf', 'longevity', 'entspannung', 'nad', 'cd38', 'entzuendung'],
+    short: 'Flavonoid aus Kamille – hemmt CD38 und erhöht dadurch NAD+. Schlaf-Booster der Longevity-Szene.',
+    description: 'Apigenin wird von Longevity-Forschern wie David Sinclair empfohlen. Blockiert das Enzym CD38, das NAD+ abbaut – so steigt der Zellenergie-Level. Bindet zusätzlich an Benzodiazepin-Rezeptoren für entspannende Wirkung.',
+    benefits: [
+      'Hemmt CD38 → erhöht NAD+ indirekt',
+      'Fördert tiefen Schlaf und schnelleres Einschlafen',
+      'Senkt Entzündungsmarker',
+      'Anti-östrogene Eigenschaften (bei Männern positiv)',
+      'Antioxidative und neuroprotektive Wirkung'
+    ],
+    risks: [
+      'Bei hohen Dosen Blutverdünnung möglich',
+      'Vorsicht bei östrogenabhängigen Erkrankungen – Rücksprache mit Arzt',
+      'Kann Sedierung verstärken (Alkohol, Schlafmittel meiden)'
+    ],
+    dosage: '50 mg abends (Standard-Biohacker-Dosis nach Sinclair). Kamillentee liefert zu wenig.',
+    intake: '30–60 min vor dem Schlafengehen. Mit etwas Fett für bessere Aufnahme.',
+    synergies: ['nmn', 'resveratrol', 'magnesium', 'melatonin'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Kamille, Petersilie, Sellerie, Artischocke (sehr niedrig dosiert)'
+  },
+  {
+    id: 'fisetin',
+    name: 'Fisetin',
+    altNames: 'Flavonoid aus Erdbeeren',
+    category: 'Longevity',
+    tags: ['senolytisch', 'longevity', 'gehirn', 'anti-aging', 'entzuendung'],
+    short: 'Senolytikum – entfernt seneszente „Zombie-Zellen". Einer der vielversprechendsten Longevity-Stoffe.',
+    description: 'Fisetin hat in Maus-Studien seneszente Zellen abgebaut und die Lebensspanne verlängert. Aktuell laufen Humanstudien an der Mayo Clinic. Klassische Protokolle: hochdosiert über 2 Tage monatlich.',
+    benefits: [
+      'Senolytisch: entfernt alternde Zellen, die Entzündung auslösen',
+      'Schützt das Gehirn (Neuroprotektion bei Alzheimer-Modellen)',
+      'Stark antioxidativ',
+      'Kann Sirtuine aktivieren',
+      'Wirkt anti-entzündlich'
+    ],
+    risks: [
+      'Langzeitwirkung beim Menschen noch in Studien',
+      'Hoch dosiert sehr kurz anwenden (Hit-&-Run-Protokoll)',
+      'Kann Medikamente (Blutverdünner) beeinflussen'
+    ],
+    dosage: 'Täglich: 100 mg. Senolytischer Puls: 20 mg/kg an 2 aufeinanderfolgenden Tagen pro Monat.',
+    intake: 'Mit fettreicher Mahlzeit (fettlöslich). Schwarzpfeffer/Piperin verbessert Aufnahme.',
+    synergies: ['quercetin', 'resveratrol', 'spermidin'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Erdbeeren (höchste natürliche Konzentration), Äpfel, Kakis, Zwiebeln'
+  },
+  {
+    id: 'sulforaphan',
+    name: 'Sulforaphan',
+    altNames: 'Broccoli-Sprossen-Extrakt',
+    category: 'Antioxidant',
+    tags: ['detox', 'anti-aging', 'krebs', 'nrf2', 'entzuendung', 'leber'],
+    short: 'Aktiviert den NRF2-Pathway – den Master-Schalter für körpereigene Antioxidantien.',
+    description: 'Sulforaphan entsteht aus Glucoraphanin in Broccoli-Sprossen, wenn sie zerkaut werden. Aktiviert den NRF2-Transkriptionsfaktor, der hunderte entgiftende und antioxidative Gene einschaltet. Rhonda Patricks Lieblings-Supplement.',
+    benefits: [
+      'Aktiviert körpereigene Entgiftung (Phase-II-Enzyme)',
+      'Senkt oxidativen Stress und Entzündung',
+      'Starke Schutzwirkung gegen viele Krebsarten (präklinisch)',
+      'Unterstützt die Leber-Entgiftung',
+      'Kann Insulinresistenz verbessern'
+    ],
+    risks: [
+      'Bei Schilddrüsenunterfunktion hohe Dosen meiden (goitrogen)',
+      'Selten Magenbeschwerden'
+    ],
+    dosage: 'Täglich: 10–40 mg Sulforaphan oder 30 g frische Broccoli-Sprossen.',
+    intake: 'Am besten morgens, mit Senf gegessen (Myrosinase aktiviert es). Supplement-Kapseln stabiler.',
+    synergies: ['kurkuma', 'omega-3', 'glutathion'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Broccoli-Sprossen (höchste Konzentration), Broccoli, Rosenkohl, Rucola'
+  },
+  {
+    id: 'urolithin-a',
+    name: 'Urolithin A',
+    altNames: 'Mitopure',
+    category: 'Longevity',
+    tags: ['mitochondrien', 'muskel', 'longevity', 'energie', 'autophagie'],
+    short: 'Fördert Mitophagie – recycelt beschädigte Mitochondrien. Neueste Longevity-Entdeckung.',
+    description: 'Urolithin A entsteht im Darm aus Ellagsäure (Granatapfel) – aber nur bei ca. 40 % der Menschen. Als Supplement (Mitopure) direkt verfügbar. Erste Humanstudien zeigen verbesserte Muskelkraft und Ausdauer bei Älteren.',
+    benefits: [
+      'Stimuliert Mitophagie (Recycling alter Mitochondrien)',
+      'Verbessert Muskelkraft und Ausdauer bei Älteren',
+      'Reduziert Entzündungsmarker',
+      'Schützt das Immunsystem',
+      'Kann die Hautalterung verlangsamen'
+    ],
+    risks: [
+      'Gut verträglich, selten Magenbeschwerden',
+      'Teuer als Markensupplement (Mitopure)',
+      'Langzeitdaten beim Menschen noch ausstehend'
+    ],
+    dosage: '500 mg täglich (Standard-Biohacker-Dosis).',
+    intake: 'Mit einer Mahlzeit, bevorzugt morgens.',
+    synergies: ['coq10', 'pqq', 'nmn'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Indirekt über Ellagsäure: Granatapfel, Walnüsse, Himbeeren (nur bei passender Darmflora)'
+  },
+  {
+    id: 'pterostilben',
+    name: 'Pterostilben',
+    altNames: 'Pterostilbene',
+    category: 'Longevity',
+    tags: ['anti-aging', 'nad', 'herz', 'gehirn', 'blutzucker'],
+    short: 'Resveratrol-Verwandter – höhere Bioverfügbarkeit und längere Wirkdauer. Oft mit NMN kombiniert.',
+    description: 'Pterostilben wird vom Körper 4-mal besser aufgenommen als Resveratrol und wirkt länger. Aktiviert Sirtuine und AMPK – die zentralen Longevity-Schalter. Beliebt als NMN-Partner statt Resveratrol.',
+    benefits: [
+      'Aktiviert Sirtuine und AMPK (wie Resveratrol, stärker)',
+      'Senkt LDL-Cholesterin und Blutzucker',
+      'Neuroprotektiv: schützt vor kognitivem Abbau',
+      'Antioxidativ und anti-entzündlich',
+      'Stabile orale Bioverfügbarkeit'
+    ],
+    risks: [
+      'Kann LDL leicht erhöhen (selten)',
+      'Wechselwirkung mit Blutverdünnern möglich',
+      'Langzeit-Humanstudien noch begrenzt'
+    ],
+    dosage: '50–150 mg täglich.',
+    intake: 'Morgens mit fettreicher Mahlzeit. Ideal mit NMN oder NR.',
+    synergies: ['nmn', 'resveratrol', 'coq10'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Blaubeeren (höchste Quelle), Trauben, Mandeln'
+  },
+
+  // ============ NEU: NOOTROPIKA ============
+  {
+    id: 'alpha-gpc',
+    name: 'Alpha-GPC',
+    altNames: 'L-Alpha-Glycerylphosphorylcholin',
+    category: 'Aminosäure',
+    tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic', 'acetylcholin'],
+    short: 'Hochbioverfügbare Cholinquelle. Erhöht Acetylcholin im Gehirn – Top-Nootropikum.',
+    description: 'Alpha-GPC überquert die Blut-Hirn-Schranke und liefert Cholin direkt für die Acetylcholin-Synthese. Klinisch gegen Alzheimer erforscht, bei Sportlern für Kraft-Output beliebt.',
+    benefits: [
+      'Verbessert Gedächtnis und Lernen',
+      'Steigert Fokus und geistige Klarheit',
+      'Erhöht Kraft-Output im Training (Growth-Hormone-Ausschüttung)',
+      'Schützt das Gehirn im Alter',
+      'Wirkt synergistisch mit Racetamen'
+    ],
+    risks: [
+      'Selten: Kopfschmerzen, Reizbarkeit bei zu hoher Dosis',
+      'Kann Depressionen bei dispositionierten Personen verstärken',
+      'Möglicher Zusammenhang mit Herz-Kreislauf-Risiko (in Diskussion)'
+    ],
+    dosage: '300–600 mg täglich. Vor Training: 400 mg.',
+    intake: 'Morgens oder vor kognitiver/körperlicher Leistung. Mit Fett einnehmen.',
+    synergies: ['l-theanin', 'koffein', 'loewenmaehne', 'omega-3'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Eier, Leber, Milch (geringe Mengen)'
+  },
+  {
+    id: 'citicolin',
+    name: 'Citicolin (CDP-Cholin)',
+    altNames: 'Cytidin-5-Diphosphocholin',
+    category: 'Aminosäure',
+    tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic', 'acetylcholin'],
+    short: 'Duales Nootropikum – liefert Cholin UND Uridin. Stabilisiert Zellmembranen im Gehirn.',
+    description: 'Citicolin wird im Körper zu Cholin und Cytidin gespalten. Das Cytidin wird zu Uridin – beide verbessern Neurotransmitter-Funktion. In Europa als Medikament gegen Schlaganfall-Folgen zugelassen.',
+    benefits: [
+      'Verbessert Aufmerksamkeit und Reaktionsgeschwindigkeit',
+      'Steigert Gedächtnis, besonders bei Älteren',
+      'Schützt Nervenzellen (Neuroprotektion)',
+      'Unterstützt Dopamin-Rezeptor-Dichte',
+      'Beliebtes Baseline-Nootropikum (z.B. im „Mind Lab Pro")'
+    ],
+    risks: [
+      'Gut verträglich, selten Kopfschmerzen',
+      'Teurer als Alpha-GPC'
+    ],
+    dosage: '250–500 mg täglich. Klinische Studien: bis 2.000 mg.',
+    intake: 'Morgens oder vor kognitiver Anforderung. Mit Mahlzeit.',
+    synergies: ['l-theanin', 'koffein', 'omega-3', 'loewenmaehne'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Rinderleber, Eier, Fisch (geringe Mengen)'
+  },
+  {
+    id: 'phosphatidylserin',
+    name: 'Phosphatidylserin (PS)',
+    altNames: 'PS',
+    category: 'Aminosäure',
+    tags: ['stress', 'cortisol', 'gedaechtnis', 'schlaf', 'gehirn'],
+    short: 'Senkt erhöhte Cortisolspiegel – besonders nach Training oder bei Stress. Gut vor dem Schlafen.',
+    description: 'Phosphatidylserin ist ein Phospholipid der Zellmembran, besonders reichlich im Gehirn. Studien zeigen signifikante Cortisol-Senkung nach intensivem Training und bessere Schlafqualität.',
+    benefits: [
+      'Senkt erhöhtes Cortisol (bis zu 30 % nach Training)',
+      'Verbessert Schlafqualität bei Gestressten',
+      'Unterstützt Gedächtnis und Konzentration',
+      'Wirkt bei ADHS-Symptomen',
+      'Sicher bei Langzeitanwendung'
+    ],
+    risks: [
+      'Selten: Magenbeschwerden bei hoher Dosis',
+      'Abends einnehmen kann Schlafqualität verbessern, nicht bei jedem tagsüber sinnvoll'
+    ],
+    dosage: '100–300 mg täglich. Abends oder nach Training.',
+    intake: 'Mit einer fetthaltigen Mahlzeit.',
+    synergies: ['ashwagandha', 'magnesium', 'omega-3', 'glycin'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Innereien (v.a. Hirn – historisch), Lecithin, Sojabohnen'
+  },
+  {
+    id: 'ginkgo',
+    name: 'Ginkgo Biloba',
+    altNames: 'Fächerblattbaum-Extrakt',
+    category: 'Kräuter',
+    tags: ['gehirn', 'durchblutung', 'gedaechtnis', 'nootropic', 'tinnitus'],
+    short: 'Erhöht die zerebrale Durchblutung. Klassiker gegen altersbedingte Gedächtnisprobleme.',
+    description: 'Ginkgo-Blatt-Extrakt (EGb 761) ist eines der am besten erforschten Phytopharmaka. Verbessert die Mikrozirkulation, hat antioxidative Eigenschaften. In Deutschland Teil der leitliniengerechten Demenz-Behandlung.',
+    benefits: [
+      'Verbessert zerebrale Durchblutung',
+      'Unterstützt Gedächtnis bei altersbedingtem Abbau',
+      'Wirkt bei Tinnitus und Schwindel',
+      'Antioxidative Wirkung im Gehirn',
+      'Kann periphere arterielle Durchblutung fördern'
+    ],
+    risks: [
+      'Blutverdünnend – 2 Wochen vor OPs absetzen',
+      'Nicht mit Aspirin, ASS, Warfarin kombinieren (ohne Arzt)',
+      'Selten: Kopfschmerzen, Magenbeschwerden'
+    ],
+    dosage: '120–240 mg täglich standardisierter Extrakt (EGb 761).',
+    intake: 'Aufgeteilt auf 2 Dosen, mit Mahlzeiten.',
+    synergies: ['omega-3', 'vitamin-b-komplex'],
+    avoid: ['Blutverdünner'],
+    evidence: 'hoch',
+    sources: 'Ausschließlich als Extrakt – rohe Blätter nicht empfohlen.'
+  },
+
+  // ============ NEU: AMINOSÄUREN & PERFORMANCE ============
+  {
+    id: 'beta-alanin',
+    name: 'Beta-Alanin',
+    altNames: 'β-Alanin',
+    category: 'Aminosäure',
+    tags: ['sport', 'ausdauer', 'muskel', 'carnosin', 'leistung'],
+    short: 'Vorläufer von Carnosin – puffert Muskelsäure ab. Verlängert die Leistung bei 1–4 min Belastung.',
+    description: 'Beta-Alanin wird im Muskel mit Histidin zu Carnosin verknüpft. Carnosin puffert Wasserstoff-Ionen bei intensiver Belastung. Das „Kribbeln" (Paraesthesie) nach Einnahme ist harmlos.',
+    benefits: [
+      'Verlängert Time-to-Exhaustion bei hochintensiver Belastung',
+      'Verbessert Sprints, HIIT, CrossFit',
+      'Erhöht intramuskuläres Carnosin um bis zu 60 %',
+      'Antioxidative Wirkung im Muskel',
+      'Kann kognitive Funktion unter Stress verbessern'
+    ],
+    risks: [
+      'Kribbeln/Prickeln auf der Haut (harmlos, vermeidbar durch Aufteilen)',
+      'Benötigt 4+ Wochen Aufsättigung, um zu wirken'
+    ],
+    dosage: '3,2–6,4 g täglich, aufgeteilt auf 2–4 Dosen à 800 mg.',
+    intake: 'Mit Mahlzeiten. Timing nicht kritisch – Akkumulation zählt.',
+    synergies: ['kreatin', 'taurin'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Huhn, Rind, Fisch (indirekt über Carnosin)'
+  },
+  {
+    id: 'citrullin',
+    name: 'L-Citrullin (-Malat)',
+    altNames: 'Citrullin Malat',
+    category: 'Aminosäure',
+    tags: ['sport', 'pump', 'stickoxid', 'durchblutung', 'ausdauer'],
+    short: 'Effektiver als Arginin – erhöht Stickoxid, verbessert Pump und reduziert Muskelkater.',
+    description: 'L-Citrullin wird im Körper zu Arginin umgewandelt und erhöht NO (Stickoxid), was die Gefäße erweitert. Die Malat-Form unterstützt zusätzlich den Energiestoffwechsel.',
+    benefits: [
+      'Bessere Durchblutung und Muskelpump',
+      'Verbessert Ausdauer um 7–10 %',
+      'Reduziert Muskelkater nach intensivem Training',
+      'Kann Blutdruck leicht senken',
+      'Unterstützt Erektionsqualität'
+    ],
+    risks: [
+      'Sehr gut verträglich',
+      'Selten: Magenbeschwerden'
+    ],
+    dosage: '6–8 g Citrullin-Malat 30–60 min vor Training. Täglich: 3–5 g.',
+    intake: 'Vor dem Workout mit Wasser. Nüchtern gut aufgenommen.',
+    synergies: ['kreatin', 'beta-alanin', 'elektrolyte'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Wassermelone (höchste natürliche Quelle), Kürbis, Gurke'
+  },
+
+  // ============ NEU: ENTSPANNUNG & SCHLAF ============
+  {
+    id: 'gaba',
+    name: 'GABA',
+    altNames: 'Gamma-Aminobuttersäure',
+    category: 'Aminosäure',
+    tags: ['stress', 'entspannung', 'schlaf', 'angst', 'cortisol'],
+    short: 'Hauptsächlicher hemmender Neurotransmitter – beruhigt nach stressigem Tag.',
+    description: 'GABA ist der wichtigste beruhigende Neurotransmitter. Ob orales GABA die Blut-Hirn-Schranke überquert, ist umstritten – viele spüren dennoch einen Effekt (möglicherweise über Darm-Hirn-Achse).',
+    benefits: [
+      'Fördert Entspannung und reduziert Ängstlichkeit',
+      'Verbessert Schlafqualität (Einschlafen)',
+      'Senkt Blutdruck leicht',
+      'Kann Cortisol dämpfen',
+      'Gut kombinierbar mit L-Theanin'
+    ],
+    risks: [
+      'Selten: Kribbeln, Kurzatmigkeit bei hohen Dosen',
+      'Wirkung individuell sehr unterschiedlich',
+      'Tagsüber kann es müde machen'
+    ],
+    dosage: '100–750 mg bei Bedarf. Zum Schlafen: 500–750 mg.',
+    intake: 'Abends oder bei akutem Stress. Auf nüchternen Magen.',
+    synergies: ['l-theanin', 'magnesium', 'glycin', 'ashwagandha'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Fermentierte Lebensmittel (Kimchi, Miso, Tempeh), grüner Tee'
+  },
+  {
+    id: 'inositol',
+    name: 'Myo-Inositol',
+    altNames: 'Vitamin B8',
+    category: 'Vitamin',
+    tags: ['angst', 'hormone', 'blutzucker', 'pcos', 'stimmung'],
+    short: 'Zuckeralkohol mit Vitamin-ähnlicher Funktion – hilft bei Angst, PCOS und Insulinresistenz.',
+    description: 'Inositol reguliert Insulin- und Serotonin-Signalwege. Besonders wirksam bei PCOS (polyzystisches Ovarialsyndrom) und Panikstörung. Kombination Myo- + D-Chiro-Inositol (40:1) gilt als Goldstandard bei PCOS.',
+    benefits: [
+      'Verbessert Insulinsensitivität',
+      'Reguliert Zyklus und Fruchtbarkeit bei PCOS',
+      'Wirkt bei Angststörung und Panikattacken',
+      'Unterstützt Stimmung bei Depression',
+      'Senkt Triglyzeride'
+    ],
+    risks: [
+      'Hohe Dosen (>12 g): Magenbeschwerden, Durchfall',
+      'Wirkung braucht 2–8 Wochen'
+    ],
+    dosage: '2–4 g 2× täglich. PCOS: 4 g täglich.',
+    intake: 'Morgens und abends in Wasser. Auch zu Mahlzeiten.',
+    synergies: ['magnesium', 'chrom', 'vitamin-b-komplex'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Obst (v.a. Zitrus), Bohnen, Getreide'
+  },
+
+  // ============ NEU: METHYLIERUNG & MITO ============
+  {
+    id: 'tmg',
+    name: 'TMG (Trimethylglycin)',
+    altNames: 'Betain',
+    category: 'Aminosäure',
+    tags: ['methylierung', 'herz', 'leber', 'homocystein', 'longevity'],
+    short: 'Methylgruppen-Spender – essenziell beim NMN-Stack, senkt Homocystein.',
+    description: 'TMG (Betain) liefert Methylgruppen für den Homocystein-Stoffwechsel. NMN und NR verbrauchen Methylgruppen – TMG füllt den Speicher auf. David Sinclair nimmt es täglich mit seinem NMN.',
+    benefits: [
+      'Senkt Homocystein (Herz-Kreislauf-Risikofaktor)',
+      'Unterstützt Leber-Entgiftung',
+      'Gleicht Methylgruppen-Verbrauch durch NMN/NR aus',
+      'Kann Leistungsfähigkeit steigern',
+      'Schützt vor Fettleber'
+    ],
+    risks: [
+      'Kann „fischigen" Körpergeruch verursachen (TMA)',
+      'Hohe Dosen (>15 g): Magenbeschwerden'
+    ],
+    dosage: '500 mg – 2 g täglich. Mit NMN: 1 g pro 500 mg NMN.',
+    intake: 'Morgens mit NMN/NR. Alternativ zu Mahlzeiten.',
+    synergies: ['nmn', 'vitamin-b-komplex', 'folat'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Rote Beete, Spinat, Quinoa, Weizenkeime'
+  },
+  {
+    id: 'methylfolat',
+    name: 'Methylfolat',
+    altNames: '5-MTHF, L-Methylfolat',
+    category: 'Vitamin',
+    tags: ['methylierung', 'stimmung', 'schwangerschaft', 'homocystein', 'mthfr'],
+    short: 'Aktive Form von Folat – essenziell für Methylierung. Besonders für MTHFR-Genvariante.',
+    description: 'Methylfolat ist die bioaktive Form, die der Körper direkt nutzen kann. Rund 40 % der Menschen haben eine MTHFR-Genvariante, die Folsäure schlecht aktiviert. Wichtig für DNA-Reparatur, Neurotransmitter und Schwangerschaft.',
+    benefits: [
+      'Wirkt bei Depression (besonders MTHFR-Träger)',
+      'Essenziell in der Schwangerschaft (Neuralrohr)',
+      'Senkt Homocystein',
+      'Unterstützt DNA-Reparatur',
+      'Besser verträglich als Folsäure'
+    ],
+    risks: [
+      'Überdosis kann Reizbarkeit, Schlafprobleme auslösen (Überstimulation)',
+      'Nicht einfach Folsäure gegen Methylfolat tauschen – niedrig anfangen',
+      'Bei B12-Mangel maskierbar – B12 mittesten'
+    ],
+    dosage: '400–800 µg täglich (Standard). Therapeutisch: bis 5 mg.',
+    intake: 'Morgens mit B12 zusammen. Langsam aufdosieren.',
+    synergies: ['vitamin-b12', 'vitamin-b-komplex', 'tmg'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Dunkelgrünes Blattgemüse, Linsen, Spargel, Leber'
+  },
+
+  // ============ NEU: MINERALIEN ============
+  {
+    id: 'bor',
+    name: 'Bor (Boron)',
+    altNames: 'Boron',
+    category: 'Mineral',
+    tags: ['hormone', 'testosteron', 'knochen', 'gelenke', 'longevity'],
+    short: 'Unterschätztes Spurenelement – erhöht freies Testosteron, stärkt Knochen.',
+    description: 'Bor beeinflusst Hormonspiegel, besonders Testosteron und Östrogen. Studien zeigen einen Anstieg von freiem Testosteron nach 1 Woche Supplementierung. In der Nahrung in Mitteleuropa oft zu niedrig.',
+    benefits: [
+      'Erhöht freies Testosteron (bis +28 % in Studie)',
+      'Senkt SHBG (bindet Sexualhormone)',
+      'Unterstützt Knochenmineralisierung',
+      'Reduziert Gelenkentzündung',
+      'Kann kognitive Leistung steigern'
+    ],
+    risks: [
+      'Sehr hohe Dosen (>20 mg/Tag) langfristig problematisch',
+      'Niedriger Bedarf – nicht mehr ist besser'
+    ],
+    dosage: '3–10 mg täglich.',
+    intake: 'Morgens mit einer Mahlzeit.',
+    synergies: ['vitamin-d3', 'magnesium', 'zink'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Rosinen, Avocado, Aprikosen, Mandeln, Wein'
+  },
+
+  // ============ NEU: PILZE & ADAPTOGENE ============
+  {
+    id: 'chaga',
+    name: 'Chaga (Schiefer Schillerporling)',
+    altNames: 'Inonotus obliquus',
+    category: 'Pilz',
+    tags: ['immun', 'antioxidant', 'entzuendung', 'longevity', 'darm'],
+    short: 'Einer der stärksten natürlichen Antioxidantien. „König der Heilpilze" in Sibirien.',
+    description: 'Chaga wächst an Birken und enthält extrem viele Melanin, Beta-Glucane und Betulinsäure. ORAC-Wert (antioxidative Kapazität) ist einer der höchsten aller Naturstoffe. Traditionell als Tee getrunken.',
+    benefits: [
+      'Höchster ORAC-Wert aller Lebensmittel',
+      'Moduliert das Immunsystem (Beta-Glucane)',
+      'Antiviral und anti-entzündlich',
+      'Unterstützt Darmschleimhaut',
+      'Kann Blutzucker regulieren'
+    ],
+    risks: [
+      'Enthält Oxalate – bei Nierensteinen vorsichtig',
+      'Blutverdünnende Wirkung – vor OPs absetzen',
+      'Bei Autoimmunerkrankungen mit Arzt absprechen'
+    ],
+    dosage: '500 mg – 2 g Extrakt (doppelt extrahiert) täglich.',
+    intake: 'Morgens oder mittags als Pulver, Tee oder Tinktur.',
+    synergies: ['reishi', 'cordyceps', 'vitamin-c'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Wächst wild an Birken; meist als Extrakt erhältlich.'
+  },
+
+  // ============ NEU: GELENKE & HAUT ============
+  {
+    id: 'hyaluronsaeure',
+    name: 'Hyaluronsäure',
+    altNames: 'HA',
+    category: 'Longevity',
+    tags: ['haut', 'gelenke', 'augen', 'bindegewebe', 'anti-aging'],
+    short: 'Bindet das 1000-fache seines Gewichts an Wasser – für Haut, Gelenke und Augen.',
+    description: 'Hyaluronsäure ist ein natürlicher Bestandteil der extrazellulären Matrix. Mit dem Alter sinken die Eigensynthese-Raten. Orale Einnahme wirkt belegt bei Hautfeuchte und leichter Arthrose.',
+    benefits: [
+      'Verbessert Hautfeuchtigkeit und -elastizität',
+      'Reduziert Gelenkschmerzen bei Arthrose',
+      'Unterstützt Augenbefeuchtung (trockene Augen)',
+      'Fördert Wundheilung',
+      'Schmiert Gelenke wie natürliche Gelenkflüssigkeit'
+    ],
+    risks: [
+      'Sehr gut verträglich oral',
+      'Injizierbare Form nur vom Arzt'
+    ],
+    dosage: '120–240 mg täglich (oral).',
+    intake: 'Mit einer Mahlzeit. Mit Vitamin C für bessere Kollagenbildung.',
+    synergies: ['kollagen', 'vitamin-c', 'glucosamin'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Knochenbrühe (wenig), nur als Extrakt in sinnvoller Dosis.'
+  },
+  {
+    id: 'glucosamin',
+    name: 'Glucosamin',
+    altNames: 'Glucosamin-Sulfat',
+    category: 'Longevity',
+    tags: ['gelenke', 'knorpel', 'bewegung', 'anti-aging', 'arthrose'],
+    short: 'Knorpel-Baustein – bei regelmäßiger Einnahme senkt es sogar die Gesamt-Sterblichkeit.',
+    description: 'Glucosamin unterstützt den Knorpelaufbau und hat in Beobachtungsstudien eine ähnliche Wirkung wie regelmäßiges Moderate-Cardio-Training auf die Mortalität. Oft mit Chondroitin kombiniert.',
+    benefits: [
+      'Reduziert Gelenkschmerzen bei Arthrose',
+      'Verlangsamt Knorpelabbau',
+      'Senkt in Beobachtungsstudien Gesamt-Mortalität (-15 %)',
+      'Anti-entzündlich',
+      'Unterstützt Bindegewebe'
+    ],
+    risks: [
+      'Bei Schalentier-Allergie: vegane Variante wählen',
+      'Kann Blutzucker leicht erhöhen – bei Diabetes beobachten',
+      'Wechselwirkung mit Warfarin möglich'
+    ],
+    dosage: '1.500 mg täglich (als Sulfat).',
+    intake: 'Mit Mahlzeit. Aufteilen auf 2–3 Dosen reduziert Magenbeschwerden.',
+    synergies: ['kollagen', 'hyaluronsaeure', 'omega-3', 'vitamin-c'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Schalen von Krustentieren (Extraktion), kleine Mengen in Knochenbrühe.'
   }
 ];
 
