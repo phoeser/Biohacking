@@ -541,17 +541,52 @@ Kein medizinischer Rat – erwähne am Ende, dass bei Beschwerden eine Fachperso
       }
 
       html += `<div class="results-section ai-section">
-        <h4>🤖 KI-Einschätzung</h4>
+        <div class="ai-section-head">
+          <h4>🤖 KI-Einschätzung</h4>
+          <button type="button" class="ai-refresh-btn" id="symptom-ai-refresh" title="Neue KI-Antwort anfordern">↻ neu</button>
+        </div>
         <div id="symptom-ai-output" class="ai-output"><em>KI tippt…</em></div>
+        <div id="symptom-ai-meta" class="ai-meta"></div>
       </div>`;
 
       results.innerHTML = html;
 
+      const refreshBtn = $('#symptom-ai-refresh');
+      refreshBtn?.addEventListener('click', () => runSymptomAI(q, { force: true }));
+      await runSymptomAI(q, { force: false });
+    }
+
+    // KI-Antwort für eine Symptomfrage laden – mit localStorage-Cache.
+    // Cache: { ts, text } je normalisierter Frage.
+    async function runSymptomAI(q, { force = false } = {}) {
       const out = $('#symptom-ai-output');
+      const meta = $('#symptom-ai-meta');
+      if (!out) return;
+      const key = 'bhc_symptom_ai_' + normalizeStr(q);
+
+      // 1) Cache zeigen, wenn vorhanden und nicht forciert.
+      if (!force) {
+        try {
+          const raw = localStorage.getItem(key);
+          if (raw) {
+            const obj = JSON.parse(raw);
+            if (obj?.text) {
+              out.innerHTML = mdToHtml(obj.text);
+              const when = obj.ts ? new Date(obj.ts).toLocaleString('de-DE') : '';
+              if (meta) meta.innerHTML = `<span class="ai-cached">💾 Gespeicherte Antwort vom ${escapeHtml(when)} · „↻ neu" für frische KI-Antwort</span>`;
+              return;
+            }
+          }
+        } catch (_) {}
+      }
+
       if (!loadApiKey()) {
         out.innerHTML = `<p class="err">Kein Gemini-Key verfügbar. Siehe <a href="#about">Über</a>.</p>`;
         return;
       }
+
+      out.innerHTML = '<em>KI tippt…</em>';
+      if (meta) meta.innerHTML = '';
 
       const sys = `Du bist ein Biohacking-Coach. Der Nutzer beschreibt ein Symptom oder Ziel auf Deutsch. Antworte strukturiert auf Deutsch mit Markdown:
 ## Mögliche Ursachen
@@ -564,6 +599,8 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       try {
         const { text } = await callGemini(q, { systemInstruction: sys, temperature: 0.4, maxOutputTokens: 2048 });
         out.innerHTML = mdToHtml(text);
+        try { localStorage.setItem(key, JSON.stringify({ ts: Date.now(), text })); } catch (_) {}
+        if (meta) meta.innerHTML = `<span class="ai-fresh">✓ Frisch generiert · bleibt gespeichert</span>`;
       } catch (err) {
         out.innerHTML = `<p class="err">KI-Fehler: ${escapeHtml(err.message)}</p>`;
       }
@@ -819,10 +856,72 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     }
   }
 
+  // ============ WEARABLES / EMPFEHLUNGEN ============
+  let currentProductCat = 'all';
+
+  function initHomeProducts() {
+    const chipsBar = $('#home-products-chips');
+    if (!chipsBar || typeof PRODUCT_CATEGORIES === 'undefined') return;
+    chipsBar.innerHTML = PRODUCT_CATEGORIES.map((c, i) =>
+      `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-pcat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+    ).join('');
+    chipsBar.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-pcat]');
+      if (!b) return;
+      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+      currentProductCat = b.dataset.pcat;
+      renderHomeProducts();
+    });
+    renderHomeProducts();
+  }
+
+  function renderHomeProducts() {
+    const listEl = $('#home-products-list');
+    if (!listEl || typeof PRODUCTS === 'undefined') return;
+    const items = currentProductCat === 'all'
+      ? PRODUCTS
+      : PRODUCTS.filter(p => p.category === currentProductCat);
+
+    listEl.innerHTML = items.map(p => {
+      const prosHtml = (p.pros || []).slice(0, 3).map(x => `<li>${escapeHtml(x)}</li>`).join('');
+      const consHtml = (p.cons || []).slice(0, 2).map(x => `<li>${escapeHtml(x)}</li>`).join('');
+      const hasLink = !!p.link;
+      const ctaLabel = hasLink
+        ? (p.affiliate ? 'Zum Partnerlink →' : 'Mehr erfahren →')
+        : 'Link folgt';
+      const ctaClass = hasLink ? 'product-cta' : 'product-cta product-cta--disabled';
+      const ctaAttrs = hasLink
+        ? `href="${escapeHtml(p.link)}" target="_blank" rel="noopener sponsored"`
+        : 'href="#" aria-disabled="true" onclick="return false;"';
+      const codeBadge = p.code ? `<span class="product-code">Code: <strong>${escapeHtml(p.code)}</strong></span>` : '';
+      const affBadge = p.affiliate ? `<span class="product-aff" title="Empfehlungs-/Partnerlink">Partnerlink</span>` : '';
+      return `
+        <article class="product-card">
+          <div class="product-head">
+            <div class="product-emoji">${escapeHtml(p.emoji || '🔧')}</div>
+            <div class="product-title">
+              <h4>${escapeHtml(p.name)} ${affBadge}</h4>
+              <div class="product-tag">${escapeHtml(p.tagline || '')}</div>
+            </div>
+          </div>
+          <p class="product-short">${escapeHtml(p.short || '')}</p>
+          ${prosHtml ? `<div class="product-list"><strong>Pro</strong><ul>${prosHtml}</ul></div>` : ''}
+          ${consHtml ? `<div class="product-list product-list--cons"><strong>Contra</strong><ul>${consHtml}</ul></div>` : ''}
+          <div class="product-foot">
+            <span class="product-price">${escapeHtml(p.priceRange || '')}</span>
+            ${codeBadge}
+          </div>
+          <a class="${ctaClass}" ${ctaAttrs}>${ctaLabel}</a>
+        </article>
+      `;
+    }).join('');
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initSupplementView();
     initSymptomView();
     initNewsView();
+    initHomeProducts();
     initRouter();
     onEnterHome();
   });
