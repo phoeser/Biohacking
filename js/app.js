@@ -862,16 +862,21 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
   function initHomeProducts() {
     const chipsBar = $('#home-products-chips');
     if (!chipsBar || typeof PRODUCT_CATEGORIES === 'undefined') return;
-    chipsBar.innerHTML = PRODUCT_CATEGORIES.map((c, i) =>
-      `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-pcat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
-    ).join('');
-    chipsBar.addEventListener('click', (e) => {
-      const b = e.target.closest('[data-pcat]');
-      if (!b) return;
-      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
-      currentProductCat = b.dataset.pcat;
-      renderHomeProducts();
-    });
+    // Bei nur einer Kategorie: Chips ausblenden – unnötige UI-Elemente.
+    if (PRODUCT_CATEGORIES.length <= 1) {
+      chipsBar.style.display = 'none';
+    } else {
+      chipsBar.innerHTML = PRODUCT_CATEGORIES.map((c, i) =>
+        `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-pcat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+      ).join('');
+      chipsBar.addEventListener('click', (e) => {
+        const b = e.target.closest('[data-pcat]');
+        if (!b) return;
+        $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+        currentProductCat = b.dataset.pcat;
+        renderHomeProducts();
+      });
+    }
     renderHomeProducts();
   }
 
@@ -894,7 +899,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         ? `href="${escapeHtml(p.link)}" target="_blank" rel="noopener sponsored"`
         : 'href="#" aria-disabled="true" onclick="return false;"';
       const codeBadge = p.code ? `<span class="product-code">Code: <strong>${escapeHtml(p.code)}</strong></span>` : '';
-      const affBadge = p.affiliate ? `<span class="product-aff" title="Empfehlungs-/Partnerlink">Partnerlink</span>` : '';
+      const affBadge = p.affiliate ? `<span class="product-aff" title="Mein persönlicher Tipp – Link enthält Empfehlungscode">⭐ Mein Tipp</span>` : '';
       return `
         <article class="product-card">
           <div class="product-head">
