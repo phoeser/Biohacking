@@ -294,6 +294,317 @@ const EXPERIMENTAL = [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ]
   }
+,
+
+  // ============ STOFFWECHSEL – ZUGELASSENE GLP-1-VERWANDTE ============
+  {
+    id: 'semaglutide',
+    name: 'Semaglutide (Ozempic / Wegovy)',
+    altNames: 'Ozempic, Wegovy, Rybelsus',
+    class: 'GLP-1-Rezeptor-Agonist',
+    emoji: '💊',
+    short: 'Erster Blockbuster der „Skinny-Shot"-Welle. In EU/USA für Diabetes (Ozempic) und Adipositas (Wegovy) zugelassen, in der Biohacker-Szene oft off-label microdosiert.',
+    moa: 'Aktiviert den GLP-1-Rezeptor → verzögerte Magenentleerung, gesteigerte Sättigung, verbesserte Insulinsekretion und reduzierte Glucagon-Ausschüttung.',
+    benefits: [
+      '12–15% Gewichtsverlust nach 68 Wochen (STEP-1-Studie)',
+      'Senkt kardiovaskuläre Ereignisse (SELECT-Studie)',
+      'Reduziert chronische Entzündung, verbessert NAFLD',
+      'Verschreibungsfähig (mit Indikation) – legale Bezugsquelle'
+    ],
+    risks: [
+      'Übelkeit, Verstopfung, Erbrechen (15–30% in Studien)',
+      'Pankreatitis-Risiko, Gallenwege',
+      'Muskelmasse-Verlust bei zu schneller Gewichtsabnahme',
+      'Lieferengpässe → Bezug aus dem Ausland riskant (Fälschungen)'
+    ],
+    status: 'In DE für Typ-2-Diabetes (Ozempic) und Adipositas BMI≥30 (Wegovy) zugelassen. „Lifestyle"-Verwendung nicht GKV-erstattet.',
+    sources: [
+      { title: 'Wilding JPH et al., NEJM 2021 – STEP 1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2032183' },
+      { title: 'Lincoff AM et al., NEJM 2023 – SELECT trial', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2307563' }
+    ],
+    community: [
+      { title: 'Iron Mike: GLP-1 Microdosing', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Semaglutide-Forschungspeptid)', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'tirzepatide',
+    name: 'Tirzepatide (Mounjaro / Zepbound)',
+    altNames: 'Mounjaro, Zepbound, LY3298176',
+    class: 'GLP-1 / GIP Dual-Agonist',
+    emoji: '💉',
+    short: 'Vorgänger von Retatrutide: kombiniert GLP-1 und GIP. Bis zu 22,5% Gewichtsabnahme – aktuell das stärkste zugelassene Mittel.',
+    moa: 'Aktiviert simultan GLP-1- und GIP-Rezeptoren. GIP wirkt synergistisch mit GLP-1 auf Insulinsekretion und Sättigung.',
+    benefits: [
+      '15–22,5% Gewichtsverlust (SURMOUNT-1)',
+      'Senkt HbA1c stärker als Semaglutide',
+      'Reduziert obstruktive Schlafapnoe (SURMOUNT-OSA)',
+      'Verbessert Lebersteatose (SYNERGY-NASH)'
+    ],
+    risks: [
+      'Gastrointestinale Nebenwirkungen wie Semaglutide',
+      'Pankreatitis-Risiko',
+      'Schilddrüsentumoren in Tierstudien',
+      'Sarkopenie-Risiko ohne Krafttraining + Protein'
+    ],
+    status: 'In DE als Mounjaro (Diabetes) und Zepbound (Adipositas) zugelassen.',
+    sources: [
+      { title: 'Jastreboff AM et al., NEJM 2022 – SURMOUNT-1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2206038' },
+      { title: 'Malhotra A et al., NEJM 2024 – SURMOUNT-OSA', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2404881' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Tirzepatide)', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'cagrilintide',
+    name: 'Cagrilintide / CagriSema',
+    altNames: 'NN9838',
+    class: 'Amylin-Analog (Cagri) / Amylin+GLP-1 Combo (CagriSema)',
+    emoji: '🧬',
+    short: 'Long-acting Amylin-Analogon – allein oder als Kombi mit Semaglutide (CagriSema). Soll Semaglutide noch effektiver machen.',
+    moa: 'Amylin-Rezeptor-Agonist: verlangsamt Magenentleerung, reduziert Glucagon-Sekretion, dämpft Appetit komplementär zu GLP-1.',
+    benefits: [
+      'CagriSema in Phase 3: ~22% Gewichtsverlust (REDEFINE-1)',
+      'Bessere Verträglichkeit als hochdosiertes Semaglutide',
+      'Synergie mit GLP-1 – glattere Gewichtskurve',
+      'Möglicher Vorteil gegen Sarkopenie unter Diät'
+    ],
+    risks: [
+      'Hypoglykämie-Risiko bei Diabetikern',
+      'Übelkeit, Verstopfung (geringer als reines GLP-1)',
+      'Langzeitwirkung unbekannt',
+      'Noch nicht zugelassen'
+    ],
+    status: 'Phase 3 (Novo Nordisk, Zulassung Ende 2026 erwartet).',
+    sources: [
+      { title: 'Lau DCW et al., Lancet 2021 – Cagrilintide + Semaglutide Phase 1b', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01751-7/fulltext' },
+      { title: 'REDEFINE Studienreihe (Phase 3)', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT05567796' }
+    ],
+    community: [
+      { title: 'biolabshop (Cagrilintide-Forschungspeptid)', url: 'https://biolabshop.de/' },
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+
+  // ============ GROWTH HORMONE / IGF-1 ============
+  {
+    id: 'mk-677',
+    name: 'MK-677 (Ibutamoren)',
+    altNames: 'Ibutamoren, Nutrobal, MK-0677',
+    class: 'Oraler Ghrelin-Rezeptor-Agonist (GH-Secretagogue)',
+    emoji: '💪',
+    short: 'Oral wirksames „Peptid-Alternative" – setzt körpereigenes Wachstumshormon und IGF-1 frei, ohne Injektion.',
+    moa: 'Aktiviert den Ghrelin/Growth-Hormone-Secretagogue-Rezeptor in der Hypophyse → physiologische GH- und IGF-1-Pulse, oral verfügbar.',
+    benefits: [
+      'Erhöht IGF-1 um 40–80% bei 25 mg/Tag',
+      'Tieferer Schlaf (mehr Slow-Wave Sleep)',
+      'Subjektive Hautqualität, Haarwuchs',
+      'Lean Mass +2–3 kg in 8 Wochen (Sportler-Anekdoten)'
+    ],
+    risks: [
+      'Wasserretention, Hunger („Ghrelin-Effekt")',
+      'Erhöhter Blutzucker / Insulinresistenz',
+      'Karpaltunnelsyndrom, Gelenkschmerzen',
+      'Studien für Alzheimer & Hüftfrakturen abgebrochen wegen kardialer Signale',
+      'WADA-Verbotsliste'
+    ],
+    status: 'Kein zugelassenes Arzneimittel. SARMs-/Forschungschemikalien-Markt.',
+    sources: [
+      { title: 'Nass R et al., Ann Intern Med 2008 – MK-677 elderly', url: 'https://pubmed.ncbi.nlm.nih.gov/19075203/' },
+      { title: 'Murphy MG et al., J Clin Endocrinol Metab 1998', url: 'https://pubmed.ncbi.nlm.nih.gov/9543156/' }
+    ],
+    community: [
+      { title: 'biolabshop (MK-677)', url: 'https://biolabshop.de/' },
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'cjc-ipamorelin',
+    name: 'CJC-1295 + Ipamorelin',
+    altNames: 'CJC/Ipa, GHRH/GHRP-Stack',
+    class: 'GHRH-Analog (CJC-1295) + GHRP / Ghrelin-Mimetic (Ipamorelin)',
+    emoji: '🧪',
+    short: 'Klassischer Biohacker-Peptid-Stack – setzt synchron Wachstumshormon frei, gilt als „sanfter" als HGH-Direktinjektion.',
+    moa: 'CJC-1295 (mit oder ohne DAC) verlängert die GHRH-Wirkung. Ipamorelin aktiviert den Ghrelin-Rezeptor selektiv ohne Cortisol-/Prolaktin-Erhöhung. Kombination: pulsatile GH-Freisetzung.',
+    benefits: [
+      'Verbesserter Tiefschlaf, Regeneration',
+      'Lean Mass-Gain ohne IGF-1-Excursionen wie bei HGH',
+      'Sehr selektiv (Ipamorelin) → wenig Nebenwirkungen',
+      'Übliche Dosis: 100 µg Ipa + 1–2 mg CJC-DAC wöchentlich'
+    ],
+    risks: [
+      'Flush, Kopfschmerzen, lokale Reaktion an Injektionsstelle',
+      'Wasserretention, Glucosetoleranz möglich gestört',
+      'Kein gesichertes Langzeit-Sicherheitsprofil',
+      'WADA-Verbotsliste'
+    ],
+    status: 'Kein zugelassenes Arzneimittel. Forschungs-Peptide.',
+    sources: [
+      { title: 'Sigalos JT, Pastuszak AW – Anti-aging peptides review 2018', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' },
+      { title: 'Teichman SL et al., J Clin Endocrinol Metab 2006 – CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
+    ],
+    community: [
+      { title: 'biolabshop (CJC/Ipamorelin)', url: 'https://biolabshop.de/' },
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+
+  // ============ HEILUNG / TISSUE-REPAIR ============
+  {
+    id: 'tb-500',
+    name: 'TB-500 (Thymosin Beta-4 Fragment)',
+    altNames: 'TB4, Thymosin β-4',
+    class: 'Synthetisches Peptid-Fragment (43 AS / aktive Region)',
+    emoji: '🩹',
+    short: 'Häufiger Partner zu BPC-157 in „Healing-Stacks". Soll Aktin-Bindung modulieren und Geweberegeneration beschleunigen.',
+    moa: 'Bindet G-Aktin, fördert Zellmigration, Angiogenese und Differenzierung von Stamm- und Vorläuferzellen.',
+    benefits: [
+      'Beschleunigt Wundheilung in Tierstudien',
+      'Wirkt regenerativ auf Herzmuskelgewebe (präklinisch)',
+      'Reduziert Narbenbildung',
+      'Subjektive Sehnen-/Bandheilung in Sport-Anekdoten'
+    ],
+    risks: [
+      'Keine veröffentlichten Humanstudien zur Wirksamkeit',
+      'Theoretisch tumorfördernd (Angiogenese)',
+      'Bezug aus Forschungs-Peptidmarkt',
+      'WADA-Verbotsliste seit Jahren'
+    ],
+    status: 'Reines Forschungs-Peptid, nicht verschreibungsfähig.',
+    sources: [
+      { title: 'Goldstein AL et al., Ann NY Acad Sci 2012 – Thymosin β4', url: 'https://pubmed.ncbi.nlm.nih.gov/22591020/' },
+      { title: 'Crockford D, Ann NY Acad Sci 2007', url: 'https://pubmed.ncbi.nlm.nih.gov/17804520/' }
+    ],
+    community: [
+      { title: 'biolabshop – TB-500/BPC-157 Combo', url: 'https://biolabshop.co.uk/peptides/321-tb-4-fragbpc-157-arg-700-mcg-30-caps.html' },
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'ghk-cu',
+    name: 'GHK-Cu (Copper-Tripeptid)',
+    altNames: 'Glycyl-L-Histidyl-L-Lysin-Kupfer',
+    class: 'Tripeptid-Kupfer-Komplex',
+    emoji: '🧴',
+    short: 'Im Blutplasma natürlich vorkommendes Kupfer-Tripeptid. Sinkt mit dem Alter. Beliebt für Haut, Haare und Wundheilung – auch in Kosmetika.',
+    moa: 'Reguliert >4 000 Gene in Richtung „junges Expressionsprofil"; bindet Kupfer für SOD/Lysyloxidase; aktiviert Hautstammzellen und Kollagensynthese.',
+    benefits: [
+      'Verbessert Hautelastizität & reduziert Falten (topisch belegt)',
+      'Fördert Haarwuchs in Studien',
+      'Wundheilung & Narbenreduktion',
+      'Antioxidativ und anti-entzündlich'
+    ],
+    risks: [
+      'Topisch sehr gut verträglich',
+      'Injizierbare Form: keine kontrollierten Humanstudien',
+      'Bei Morbus Wilson Kupfer-Belastung beachten',
+      'Reinheit gekaufter Forschungspeptide unklar'
+    ],
+    status: 'Topisch in Kosmetika frei verkäuflich. Injizierbare Form Forschungspeptid – nicht zugelassen.',
+    sources: [
+      { title: 'Pickart L, Biomolecules 2018 – GHK-Cu gene expression', url: 'https://pubmed.ncbi.nlm.nih.gov/29382140/' },
+      { title: 'Pickart L et al., Oxid Med Cell Longev 2012', url: 'https://pubmed.ncbi.nlm.nih.gov/22666519/' }
+    ],
+    community: [
+      { title: 'biolabshop (GHK-Cu)', url: 'https://biolabshop.de/' },
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+
+  // ============ LONGEVITY – WEITERE ============
+  {
+    id: 'metformin',
+    name: 'Metformin',
+    altNames: 'Glucophage, Siofor',
+    class: 'Biguanid / AMPK-Aktivator (indirekt)',
+    emoji: '🔵',
+    short: '70 Jahre alter Diabetes-Klassiker mit Longevity-Bonus. TAME-Studie testet aktuell die Anti-Aging-Wirkung am Menschen.',
+    moa: 'Hemmt mild den mitochondrialen Komplex I → AMPK-Aktivierung, mTOR-Hemmung, verbesserte Insulinsensitivität.',
+    benefits: [
+      'In Beobachtungsstudien längere Lebenserwartung bei Diabetikern',
+      'Reduziert Krebsinzidenz (Beobachtungs-Daten)',
+      'Verbessert Insulinsensitivität, kardiovaskuläre Risiken',
+      'Sehr günstig & langjährig sicher'
+    ],
+    risks: [
+      'Gastrointestinale Nebenwirkungen (häufig, meist mild)',
+      'Vitamin-B12-Mangel bei Langzeitanwendung',
+      'Selten: Laktatazidose (Niereninsuffizienz beachten)',
+      'Hemmt mTOR – stört Muskelaufbau bei sportlich Aktiven'
+    ],
+    status: 'In DE als Glucophage/Siofor für Typ-2-Diabetes zugelassen. Longevity-Anwendung OFF-LABEL.',
+    sources: [
+      { title: 'Bannister CA et al., Diabetes Obes Metab 2014 – mortality', url: 'https://pubmed.ncbi.nlm.nih.gov/25041462/' },
+      { title: 'TAME-Studie (Targeting Aging with Metformin)', url: 'https://www.afar.org/tame-trial' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'GANNIKUS-Podcast Iron Mike', url: 'https://open.spotify.com/episode/354pFKeLOvDiRrh4AjbyKg' }
+    ]
+  },
+  {
+    id: 'senolytic-dq',
+    name: 'Dasatinib + Quercetin (Senolytic-Stack)',
+    altNames: 'D+Q-Protokoll',
+    class: 'Senolytische Kombination (Tyrosinkinase-Inhibitor + Flavonoid)',
+    emoji: '🧨',
+    short: 'Klassische Mayo-Clinic-Senolytik: räumt „Zombie-Zellen" (seneszent) gepulst aus dem Gewebe – nur 2–3 Tage pro Monat.',
+    moa: 'Dasatinib blockiert pro-survival Pathways (Ephrin-Tyrosinkinasen). Quercetin hemmt BCL-2/PI3K-Pathways. Senstene Zellen sind auf diese „SCAPs" angewiesen und sterben.',
+    benefits: [
+      'Reduziert seneszente Zellen in Fettgewebe & Lunge',
+      'Erste klinische Studie bei IPF zeigt Verbesserung der körperlichen Funktion',
+      'Pulsförmige Anwendung minimiert Toxizität',
+      'Mausstudien: längere Healthspan'
+    ],
+    risks: [
+      'Dasatinib: Pleuraerguss, Knochenmark-Suppression, GI-Blutung',
+      'Wechselwirkung mit CYP3A4-Substraten',
+      'Quercetin senkt Eisenresorption',
+      'Eigenanwendung ohne Onkologen sehr riskant'
+    ],
+    status: 'Dasatinib in DE für CML/ALL zugelassen (Sprycel). Senolytische Anwendung ist STREN OFF-LABEL.',
+    sources: [
+      { title: 'Justice JN et al., EBioMedicine 2019 – D+Q in IPF', url: 'https://pubmed.ncbi.nlm.nih.gov/30616998/' },
+      { title: 'Hickson LJ et al., EBioMedicine 2019 – D+Q in CKD', url: 'https://pubmed.ncbi.nlm.nih.gov/31542391/' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Dasatinib/Quercetin)', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'methylene-blue',
+    name: 'Methylene Blue (Methylenblau)',
+    altNames: 'Methylthioniniumchlorid',
+    class: 'Mitochondrialer Elektronen-Donor / Redox-Modulator',
+    emoji: '🔷',
+    short: 'Alter Farbstoff aus dem 19. Jh. – Biohacker-Liebling für Mitochondrien-Boost. Wird sublingual mikrodosiert.',
+    moa: 'Bei niedrigen Dosen alternativer Elektronen-Carrier zur Atmungskette → erhöhte ATP-Produktion. Bei hohen Dosen prooxidativ.',
+    benefits: [
+      'Mitochondrien-Effizienz & Hirnstoffwechsel-Studien (Methodist Hospital)',
+      'Klinisch zugelassen für Methämoglobinämie & Septischer Schock',
+      'Tiefer Hippokampus-Stoffwechsel-Schub (FDG-PET)',
+      'Antibakterielle und anti-malaria Wirkung'
+    ],
+    risks: [
+      'Serotoninsyndrom bei SSRI-/MAOI-Kombination – STRIKTE KONTRAINDIKATION',
+      'G6PD-Mangel: Hämolyse-Risiko',
+      'Blau gefärbter Urin / Mund',
+      'Über 1 mg/kg potenziell prooxidativ'
+    ],
+    status: 'In DE als ProvayBlue/Methylthioninium injizierbar zugelassen für Methämoglobinämie. Sublinguale Mikrodosen aus dem Forschungsmarkt sind OFF-LABEL.',
+    sources: [
+      { title: 'Atamna H, Kumar R – Methylene blue mitochondria 2010', url: 'https://pubmed.ncbi.nlm.nih.gov/20667416/' },
+      { title: 'Rodriguez P et al., Radiology 2016 – brain imaging', url: 'https://pubmed.ncbi.nlm.nih.gov/27089023/' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Methylenblau-Forschung)', url: 'https://biolabshop.de/' }
+    ]
+  }
+
 ];
 
 const EXPERIMENTAL_CATEGORIES = [
@@ -306,14 +617,28 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  // Stoffwechsel / Weight Loss
   'retatrutide': 'Stoffwechsel',
   'tesofensin': 'Stoffwechsel',
+  'semaglutide': 'Stoffwechsel',
+  'tirzepatide': 'Stoffwechsel',
+  'cagrilintide': 'Stoffwechsel',
+  // Exercise-Mimetika / GH
   'slu-pp-332': 'Exercise',
   '5-amino-1mq': 'Exercise',
+  'mk-677': 'Exercise',
+  'cjc-ipamorelin': 'Exercise',
+  // Immun / Heilung
   'thymosin-alpha-1': 'Immun',
   'bpc-157': 'Immun',
+  'tb-500': 'Immun',
+  'ghk-cu': 'Immun',
+  // Longevity
   'mots-c': 'Longevity',
   'rapamycin': 'Longevity',
-  'epitalon': 'Longevity'
+  'epitalon': 'Longevity',
+  'metformin': 'Longevity',
+  'senolytic-dq': 'Longevity',
+  'methylene-blue': 'Longevity'
 };
 EXPERIMENTAL.forEach(e => { e.filterCat = _EXP_CAT_MAP[e.id] || 'Sonstige'; });
