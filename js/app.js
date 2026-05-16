@@ -12,6 +12,7 @@
   const AI_PROXY_BASE = 'https://bhc-proxy.phoeser.workers.dev';
   const AI_ENDPOINT = (model) =>
     `${AI_PROXY_BASE}/v1beta/models/${model}:generateContent`;
+  const URL_CHECK_ENDPOINT = `${AI_PROXY_BASE}/check`;
   const NEWS_CACHE_KEY = 'bhc_news_cache_v1';
   // TTL nur für "muss ich im Hintergrund neu laden?" – die Anzeige bleibt
   // IMMER sichtbar, auch wenn der Cache älter ist.
@@ -128,7 +129,7 @@
     return { text, sources };
   }
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'news', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'experimental', 'news', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split('?')[0];
@@ -148,6 +149,7 @@
 
     if (name === 'news') onEnterNews();
     if (name === 'home') onEnterHome();
+    if (name === 'experimental') onEnterExperimental();
   }
 
   function initRouter() {
@@ -265,7 +267,7 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
       })();
       const safeUrl = (n.url && /^https?:\/\//i.test(n.url)) ? n.url : '#news';
       return `
-        <a class="home-news-card" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">
+        <a class="home-news-card" data-news-url="${escapeHtml(safeUrl)}" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">
           <div class="home-news-cat">${escapeHtml(n.category || 'News')}</div>
           <h4>${escapeHtml(n.title || '')}</h4>
           <p>${escapeHtml(n.summary || '')}</p>
@@ -273,6 +275,7 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
         </a>
       `;
     }).join('');
+      validateNewsLinks('#home-news-list');
   }
 
   function initSupplementView() {
@@ -828,6 +831,50 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     return out;
   }
 
+  // Prüft via Worker, ob eine URL erreichbar ist (HEAD-Request serverseitig).
+  // Returns {ok: bool, status: number}. Bei Netzwerkfehler: ok=true (lieber zeigen als verstecken).
+  async function checkUrlExists(url) {
+    if (!url || !/^https?:\/\//i.test(url)) return { ok: false, status: 0 };
+    try {
+      const r = await fetch(URL_CHECK_ENDPOINT + '?u=' + encodeURIComponent(url), {
+        method: 'GET'
+      });
+      if (!r.ok) return { ok: true, status: 0 }; // Worker-Fehler → großzügig
+      const j = await r.json();
+      return { ok: !!j.ok, status: j.status || 0 };
+    } catch (_) {
+      return { ok: true, status: 0 };
+    }
+  }
+
+  // Markiert alle News-Karten als "Quelle nicht erreichbar" wenn URL 404 zurückgibt.
+  // Asynchron, ändert nur dezent das Karten-Aussehen, blockiert nicht das initiale Rendering.
+  async function validateNewsLinks(containerSel) {
+    const cards = $$(containerSel + ' [data-news-url]');
+    if (!cards.length) return;
+    const results = await Promise.all(cards.map(async (card) => {
+      const u = card.dataset.newsUrl;
+      const res = await checkUrlExists(u);
+      return { card, res };
+    }));
+    for (const { card, res } of results) {
+      if (!res.ok && res.status >= 400 && res.status < 600) {
+        card.classList.add('news-broken');
+        const a = card.querySelector('a[href]');
+        if (a) {
+          a.setAttribute('aria-disabled', 'true');
+          a.setAttribute('title', 'Originalquelle nicht mehr erreichbar (HTTP ' + res.status + ')');
+        }
+        if (!card.querySelector('.news-broken-badge')) {
+          const badge = document.createElement('div');
+          badge.className = 'news-broken-badge';
+          badge.textContent = '⚠ Quelle nicht mehr erreichbar';
+          card.appendChild(badge);
+        }
+      }
+    }
+  }
+
   function renderNews(data, opts = {}) {
     const statusEl = $('#news-status');
     const listEl = $('#news-list');
@@ -837,7 +884,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     listEl.innerHTML = data.items.map(n => {
       const domain = (() => { try { return new URL(n.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; } })();
       return `
-        <article class="news-card">
+        <article class="news-card" data-news-url="${escapeHtml(n.url || '')}">
           <div class="news-cat">${escapeHtml(n.category || 'News')}</div>
           <h3><a href="${escapeHtml(n.url)}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a></h3>
           <p>${escapeHtml(n.summary || '')}</p>
@@ -854,6 +901,8 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         </div>
       `);
     }
+    // Im Hintergrund prüfen, ob die Artikel-URLs noch existieren.
+    validateNewsLinks('#news-list');
   }
 
   // ============ WEARABLES / EMPFEHLUNGEN ============
@@ -922,11 +971,83 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     }).join('');
   }
 
+  // ============ EXPERIMENTELLES ============
+  let currentExpCat = 'all';
+
+  function initExperimentalView() {
+    const chipsBar = $('#exp-chips');
+    if (!chipsBar || typeof EXPERIMENTAL_CATEGORIES === 'undefined') return;
+    chipsBar.innerHTML = EXPERIMENTAL_CATEGORIES.map((c, i) =>
+      `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-ecat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+    ).join('');
+    chipsBar.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-ecat]');
+      if (!b) return;
+      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+      currentExpCat = b.dataset.ecat;
+      renderExperimental();
+    });
+  }
+
+  function onEnterExperimental() {
+    renderExperimental();
+  }
+
+  function renderExperimental() {
+    const grid = $('#exp-grid');
+    if (!grid || typeof EXPERIMENTAL === 'undefined') return;
+    const items = currentExpCat === 'all'
+      ? EXPERIMENTAL
+      : EXPERIMENTAL.filter(e => e.filterCat === currentExpCat);
+
+    if (!items.length) {
+      grid.innerHTML = '<div class="empty">Keine Substanzen in dieser Kategorie.</div>';
+      return;
+    }
+
+    grid.innerHTML = items.map(e => {
+      const benefits = (e.benefits || []).map(b => `<li>${escapeHtml(b)}</li>`).join('');
+      const risks = (e.risks || []).map(r => `<li>${escapeHtml(r)}</li>`).join('');
+      const sources = (e.sources || []).map(s =>
+        `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`
+      ).join('');
+      const community = (e.community || []).map(s =>
+        `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`
+      ).join('');
+      return `
+        <article class="exp-card">
+          <div class="exp-head">
+            <div class="exp-emoji">${escapeHtml(e.emoji || '⚗️')}</div>
+            <div class="exp-title">
+              <h3>${escapeHtml(e.name)}</h3>
+              ${e.altNames ? `<div class="exp-alt">${escapeHtml(e.altNames)}</div>` : ''}
+              <div class="exp-class">${escapeHtml(e.class || '')}</div>
+            </div>
+          </div>
+          <p class="exp-short">${escapeHtml(e.short || '')}</p>
+          <div class="exp-section">
+            <strong>Wirkungsweise</strong>
+            <p>${escapeHtml(e.moa || '')}</p>
+          </div>
+          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Erwartete Vorteile</strong><ul>${benefits}</ul></div>` : ''}
+          ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Nebenwirkungen</strong><ul>${risks}</ul></div>` : ''}
+          <div class="exp-status">
+            <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
+          </div>
+          ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
+          ${community ? `<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}</ul></details>` : ''}
+          <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
+        </article>
+      `;
+    }).join('');
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initSupplementView();
     initSymptomView();
     initNewsView();
     initHomeProducts();
+    initExperimentalView();
     initRouter();
     onEnterHome();
   });
