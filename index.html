@@ -54,6 +54,7 @@
       <nav class="main-nav" aria-label="Hauptnavigation">
         <a href="#supplement" data-nav="supplement">Supplements</a>
         <a href="#symptom" data-nav="symptom">Symptom</a>
+        <a href="#experimental" data-nav="experimental">Experimentelles</a>
         <a href="#news" data-nav="news">News</a>
         <a href="#about" data-nav="about">Über</a>
       </nav>
@@ -231,6 +232,36 @@
       </div>
     </section>
 
+    <!-- ============ EXPERIMENTELLES ============ -->
+    <section class="view hidden" id="view-experimental" data-view="experimental">
+      <div class="container">
+        <div class="view-head">
+          <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
+          <span class="eyebrow">Forschung & neue Substanzen</span>
+          <h2>Experimentelle Substanzen & Peptide</h2>
+          <p>Überblick über pharmakologische Stoffe und Peptide, die in der Biohacking- & Longevity-Community aktuell diskutiert werden.</p>
+        </div>
+
+        <div class="exp-disclaimer">
+          <strong>⚠ Wichtiger Hinweis – bitte lesen:</strong>
+          <ul>
+            <li><strong>Keine Empfehlung.</strong> Diese Übersicht dient ausschließlich der wissenschaftlichen Information.</li>
+            <li><strong>Überwiegend nicht zugelassen.</strong> Die meisten gelisteten Substanzen sind in Deutschland nicht verkehrsfähig oder werden off-label verwendet.</li>
+            <li><strong>Kein medizinischer Rat.</strong> Vor jeder Anwendung Rücksprache mit qualifizierten Ärztinnen/Ärzten halten.</li>
+            <li><strong>Bezug aus dem grauen Markt</strong> birgt erhebliche Qualitäts- und Sicherheitsrisiken (Reinheit, Dosierung, Verunreinigungen).</li>
+            <li><strong>Doping:</strong> Mehrere Substanzen (z.B. BPC-157) stehen auf der WADA-Verbotsliste.</li>
+            <li><strong>Community-Quellen:</strong> In den Karten verlinkte Anbieter (z.B. <em>biolabshop</em>) und Erfahrungsberichte (z.B. <em>Iron Mike Biohacking</em>) sind <strong>keine medizinischen Quellen</strong> und ersetzen keine ärztliche Beratung. Verkauf erfolgt ausschließlich für Forschungszwecke.</li>
+          </ul>
+        </div>
+
+        <div class="exp-controls">
+          <div class="chips-bar" id="exp-chips" role="tablist"></div>
+        </div>
+
+        <div id="exp-grid" class="exp-grid"></div>
+      </div>
+    </section>
+
     <!-- ============ ABOUT ============ -->
     <section class="view hidden" id="view-about" data-view="about">
       <div class="container">
@@ -308,6 +339,7 @@
   <script src="js/data/tips.js"></script>
   <script src="js/data/goals.js"></script>
   <script src="js/data/products.js"></script>
+  <script src="js/data/experimental.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
