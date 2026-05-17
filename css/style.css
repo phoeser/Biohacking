@@ -2439,3 +2439,117 @@ button { font-family: inherit; cursor: pointer; }
   padding-left: 22px;
 }
 .tc-quality-tips li { margin-bottom: 4px; line-height: 1.5; }
+
+/* Balken-Verlauf ersetzt Sparkline */
+.tc-history-spark { display: none; }
+.tc-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 100px;
+  padding: 0 4px;
+  margin: 10px 0 4px;
+  border-bottom: 1px solid rgba(45, 90, 70, 0.10);
+}
+.tc-bar {
+  flex: 1;
+  min-width: 4px;
+  border-radius: 3px 3px 0 0;
+  transition: opacity .15s;
+  cursor: default;
+}
+.tc-bar:hover { opacity: 0.78; }
+.tc-bars-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted);
+  padding: 0 4px;
+  margin-bottom: 14px;
+}
+.tc-hist-count { font-size: 12px; color: var(--muted); font-weight: 400; }
+.tc-hist-section-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  margin: 14px 0 8px;
+  font-weight: 700;
+}
+.tc-hist-list--top .tc-hist-item {
+  background: rgba(47, 139, 106, 0.06);
+  border: 1px solid rgba(47, 139, 106, 0.12);
+}
+.tc-hist-scroll {
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 6px;
+  border: 1px solid rgba(45, 90, 70, 0.08);
+  border-radius: 10px;
+  padding: 8px 8px 8px 8px;
+}
+.tc-hist-scroll::-webkit-scrollbar { width: 6px; }
+.tc-hist-scroll::-webkit-scrollbar-thumb { background: rgba(45, 90, 70, 0.25); border-radius: 3px; }
+.tc-hist-scroll .tc-hist-list { gap: 6px; }
+.tc-hist-scroll .tc-hist-item { background: rgba(45, 90, 70, 0.025); }
+
+/* Body-Inputs für BMI */
+.tagescheck-body-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--surface-border, rgba(45, 90, 70, 0.10));
+  border-radius: 16px;
+  padding: 18px;
+}
+.tc-input-field { display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
+.tc-input-field span { font-weight: 600; color: var(--text); }
+.tc-input-field em { font-style: normal; color: var(--muted); font-weight: 400; font-size: 11px; }
+.tc-input-field input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--surface-border);
+  background: #fff;
+  font-size: 15px;
+  font-family: inherit;
+}
+.tc-input-field input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(47, 139, 106, 0.12);
+}
+.tc-body-hint {
+  grid-column: 1 / -1;
+  font-size: 11px;
+  color: var(--muted);
+  margin: 4px 0 0;
+}
+
+/* BMI-Anzeige im Ergebnis */
+.tc-bmi {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: rgba(47, 139, 106, 0.05);
+  border: 1px solid rgba(47, 139, 106, 0.18);
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+}
+.tc-bmi-num {
+  font-size: 38px;
+  font-weight: 800;
+  font-family: var(--font-display);
+  color: var(--text);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.tc-bmi-meta { display: flex; flex-direction: column; gap: 2px; }
+.tc-bmi-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+.tc-bmi-cat { font-size: 17px; font-weight: 700; }
+.tc-bmi-note { font-size: 11px; color: var(--muted); font-style: italic; margin-top: 2px; }
+
+@media (max-width: 540px) {
+  .tagescheck-body-inputs { grid-template-columns: 1fr; }
+}
