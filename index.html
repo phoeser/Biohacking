@@ -250,13 +250,15 @@
 
         <div class="tagescheck-wrap">
           <div class="tagescheck-upload" id="tagescheck-upload">
-            <input type="file" id="selfie-input" accept="image/*" capture="user" hidden />
+            <input type="file" id="selfie-camera-input" accept="image/*" capture="user" hidden />
+            <input type="file" id="selfie-file-input" accept="image/*" hidden />
             <div class="tagescheck-upload-content">
               <div class="tagescheck-upload-icon">📷</div>
-              <h3>Selfie aufnehmen oder hochladen</h3>
-              <p class="muted">Tipp: gutes Tageslicht, neutraler Ausdruck, gerade Kopfhaltung. Aus Datenschutzgründen wird das Bild nicht gespeichert.</p>
+              <h3>Selfie aufnehmen oder Foto hochladen</h3>
+              <p class="muted">Tipp: gutes Tageslicht, neutraler Ausdruck, gerade Kopfhaltung. Aus Datenschutzgründen wird das Bild NICHT gespeichert – nur die Score-Ergebnisse landen im lokalen Verlauf.</p>
               <div class="tagescheck-buttons">
-                <button type="button" class="btn btn-primary" id="btn-take-selfie">📷 Selfie machen / hochladen</button>
+                <button type="button" class="btn btn-primary" id="btn-take-selfie">📷 Selfie machen</button>
+                <button type="button" class="btn btn-ghost" id="btn-upload-selfie">🖼️ Foto hochladen</button>
               </div>
             </div>
           </div>
@@ -270,6 +272,10 @@
           </div>
 
           <div class="tagescheck-result hidden" id="tagescheck-result">
+            <!-- wird per JS gefüllt -->
+          </div>
+
+          <div class="tagescheck-history" id="tagescheck-history" aria-label="Verlauf der letzten 30 Tagescheck-Auswertungen">
             <!-- wird per JS gefüllt -->
           </div>
 
