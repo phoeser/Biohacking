@@ -941,14 +941,14 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       const consHtml = (p.cons || []).slice(0, 2).map(x => `<li>${escapeHtml(x)}</li>`).join('');
       const hasLink = !!p.link;
       const ctaLabel = hasLink
-        ? (p.affiliate ? 'Zum Partnerlink →' : 'Mehr erfahren →')
+        ? (p.affiliate ? 'Zum Rabatt-Link →' : 'Mehr erfahren →')
         : 'Link folgt';
       const ctaClass = hasLink ? 'product-cta' : 'product-cta product-cta--disabled';
       const ctaAttrs = hasLink
         ? `href="${escapeHtml(p.link)}" target="_blank" rel="noopener sponsored"`
         : 'href="#" aria-disabled="true" onclick="return false;"';
       const codeBadge = p.code ? `<span class="product-code">Code: <strong>${escapeHtml(p.code)}</strong></span>` : '';
-      const affBadge = p.affiliate ? `<span class="product-aff" title="Mein persönlicher Tipp – Link enthält Empfehlungscode">⭐ Mein Tipp</span>` : '';
+      const affBadge = p.affiliate ? `<span class="product-aff" title="Mein persönlicher Tipp – Link enthält Rabatt-Code">⭐ Mein Tipp</span>` : '';
       return `
         <article class="product-card">
           <div class="product-head">
