@@ -2577,3 +2577,39 @@ button { font-family: inherit; cursor: pointer; }
   border-color: rgba(45, 90, 70, 0.10);
 }
 .tc-bmi--unavailable .tc-bmi-note { color: var(--text); font-style: normal; }
+
+/* Verlauf: BMI-Mitführung in Balken + Liste */
+.tc-bars { align-items: flex-end; height: 120px; }
+.tc-bar-col {
+  flex: 1;
+  min-width: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 100%;
+  gap: 2px;
+}
+.tc-bar-col .tc-bar { flex: 0 0 auto; width: 100%; }
+.tc-bar-bmi {
+  font-size: 8px;
+  text-align: center;
+  color: var(--muted);
+  margin-top: 2px;
+  font-weight: 600;
+  line-height: 1;
+  height: 10px;
+  overflow: hidden;
+}
+.tc-bar-bmi--empty { opacity: 0.25; }
+
+.tc-hist-bmi {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(30, 107, 124, 0.08);
+  color: var(--accent-2, #4a7a8a);
+  font-weight: 600;
+}
