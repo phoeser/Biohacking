@@ -1076,19 +1076,22 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
   let _selfieData = null; // {mime, base64}
 
   function initTagescheckView() {
-    const input = $('#selfie-input');
+    const inputCam = $('#selfie-camera-input');
+    const inputFile = $('#selfie-file-input');
     const btnTake = $('#btn-take-selfie');
+    const btnUpload = $('#btn-upload-selfie');
     const btnAnalyze = $('#btn-analyze-selfie');
     const btnRetake = $('#btn-retake-selfie');
     const upload = $('#tagescheck-upload');
     const preview = $('#tagescheck-preview');
     const result = $('#tagescheck-result');
     const img = $('#selfie-preview-img');
-    if (!input) return;
+    if (!inputCam || !inputFile) return;
 
-    btnTake?.addEventListener('click', () => input.click());
+    btnTake?.addEventListener('click', () => inputCam.click());
+    btnUpload?.addEventListener('click', () => inputFile.click());
 
-    input.addEventListener('change', async (e) => {
+    const handleFile = async (e) => {
       const file = e.target.files?.[0];
       if (!file) return;
       try {
@@ -1102,11 +1105,14 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       } catch (err) {
         alert('Bild konnte nicht verarbeitet werden: ' + err.message);
       }
-    });
+    };
+    inputCam.addEventListener('change', handleFile);
+    inputFile.addEventListener('change', handleFile);
 
     btnRetake?.addEventListener('click', () => {
       _selfieData = null;
-      input.value = '';
+      inputCam.value = '';
+      inputFile.value = '';
       img.src = '';
       preview.classList.add('hidden');
       upload.classList.remove('hidden');
@@ -1123,6 +1129,88 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     if (result && !result.classList.contains('hidden') && !_selfieData) {
       result.classList.add('hidden');
     }
+    renderTagescheckHistory();
+  }
+
+  // ---- Verlauf (Zeitreihe der letzten 30) ----
+  const TAGESCHECK_HISTORY_KEY = 'bhc_tagescheck_history_v1';
+  const TAGESCHECK_HISTORY_MAX = 30;
+
+  function loadTagescheckHistory() {
+    try {
+      const raw = localStorage.getItem(TAGESCHECK_HISTORY_KEY);
+      if (!raw) return [];
+      const arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : [];
+    } catch (_) { return []; }
+  }
+
+  function saveTagescheckEntry(d) {
+    try {
+      const hist = loadTagescheckHistory();
+      hist.unshift({
+        ts: Date.now(),
+        score: Math.max(0, Math.min(100, Math.round(d.overallScore || 0))),
+        sub: d.subScores || {},
+        focus: (d.todayFocus || '').slice(0, 160),
+        firstObs: (d.observations && d.observations[0] || '').slice(0, 160)
+      });
+      // auf MAX begrenzen
+      while (hist.length > TAGESCHECK_HISTORY_MAX) hist.pop();
+      localStorage.setItem(TAGESCHECK_HISTORY_KEY, JSON.stringify(hist));
+    } catch (_) {}
+  }
+
+  function clearTagescheckHistory() {
+    if (!confirm('Tagescheck-Verlauf löschen?')) return;
+    localStorage.removeItem(TAGESCHECK_HISTORY_KEY);
+    renderTagescheckHistory();
+  }
+
+  function renderTagescheckHistory() {
+    const wrap = $('#tagescheck-history');
+    if (!wrap) return;
+    const hist = loadTagescheckHistory();
+    if (!hist.length) {
+      wrap.innerHTML = '';
+      return;
+    }
+    // Mini-Sparkline aus den Scores (chronologisch, älteste links)
+    const points = hist.slice().reverse();
+    const w = 600, h = 80, pad = 6;
+    const xs = points.map((_, i) => pad + i * ((w - 2 * pad) / Math.max(1, points.length - 1)));
+    const ys = points.map(p => h - pad - ((p.score / 100) * (h - 2 * pad)));
+    const poly = xs.map((x, i) => x + ',' + ys[i]).join(' ');
+    const dots = xs.map((x, i) => `<circle cx="${x.toFixed(1)}" cy="${ys[i].toFixed(1)}" r="3" fill="${points[i].score >= 75 ? '#2f8b6a' : (points[i].score >= 50 ? '#d48a28' : '#c84a65')}"/>`).join('');
+    const svg = `<svg viewBox="0 0 ${w} ${h}" class="tc-history-spark" preserveAspectRatio="none">
+      <polyline points="${poly}" fill="none" stroke="rgba(47,139,106,0.45)" stroke-width="2"/>
+      ${dots}
+    </svg>`;
+
+    const list = hist.slice(0, 10).map(e => {
+      const dt = new Date(e.ts);
+      const when = dt.toLocaleString('de-DE', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+      const c = e.score >= 75 ? '#2f8b6a' : (e.score >= 50 ? '#d48a28' : '#c84a65');
+      const subTxt = Object.entries(e.sub || {}).map(([k, v]) => `${escapeHtml(k)} ${Math.round(v)}`).join(' · ');
+      return `<li class="tc-hist-item">
+        <span class="tc-hist-score" style="background:${c}1A;color:${c}">${e.score}</span>
+        <span class="tc-hist-meta">
+          <span class="tc-hist-when">${escapeHtml(when)}</span>
+          ${subTxt ? `<span class="tc-hist-sub">${subTxt}</span>` : ''}
+          ${e.focus ? `<span class="tc-hist-focus">${escapeHtml(e.focus)}</span>` : ''}
+        </span>
+      </li>`;
+    }).join('');
+
+    wrap.innerHTML = `
+      <div class="tc-history-head">
+        <h3>📈 Dein Verlauf (${hist.length}/${TAGESCHECK_HISTORY_MAX})</h3>
+        <button type="button" class="btn-link" onclick="(function(){ try { localStorage.removeItem('${TAGESCHECK_HISTORY_KEY}'); document.getElementById('tagescheck-history').innerHTML=''; } catch(e){} })()">Verlauf löschen</button>
+      </div>
+      ${svg}
+      <ol class="tc-hist-list">${list}</ol>
+      ${hist.length > 10 ? `<p class="small muted">Älteste ${hist.length - 10} Einträge nur im Sparkline-Chart sichtbar.</p>` : ''}
+    `;
   }
 
   // Bild komprimieren via Canvas (max maxSize px lange Kante, jpeg quality)
@@ -1161,44 +1249,59 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     result.classList.remove('hidden');
     result.innerHTML = '<div class="tagescheck-loading">🔎 KI analysiert dein Selfie …</div>';
 
-    const sys = `Du bist ein freundlicher Wellness-Coach und analysierst ein Selbstporträt für einen Tageseindruck.
-WICHTIG – strikt einhalten:
-- KEINE medizinische Diagnose.
-- KEIN BMI, KEINE Gewichts-Schätzung, KEINE Krankheits-Vermutung.
-- Beurteile rein VISUELLE Vitalitäts-Marker: Augen (Müdigkeit, Ringe, Glanz), Hautqualität (Teint, Rötung, Trockenheit), Mimik, allgemeiner Frische-Eindruck.
-- Tonfall: freundlich, motivierend, alltagstauglich.
+    const sys = `Du bist ein erfahrener Wellness-Coach und analysierst ein Selbstporträt für einen Tageseindruck.
+
+SCHRITT 1 – Bildqualität prüfen (entscheidend!):
+Bewerte zuerst ehrlich, ob das Bild für eine seriöse Wellness-Einschätzung GEEIGNET ist.
+Nicht geeignet, wenn:
+- Bild unscharf, verwackelt, verschwommen
+- Zu dunkel, zu stark belichtet oder starkes Gegenlicht
+- Kein Gesicht erkennbar oder Gesicht durch Maske/Brille/Hand/Haare verdeckt
+- Gesicht zu klein (z.B. Ganzkörperaufnahme von weit weg)
+- Bild zeigt etwas anderes (kein Selbstporträt, keine Person)
+- Starke Filter, Schwarz-Weiß, künstliche Beleuchtung verfälscht den Eindruck
+
+Wenn auch nur EINER dieser Punkte zutrifft → setze "imageQuality": "insufficient" und gib in "qualityReason" konkret an, was nicht passt. ALLES ANDERE (Score, Empfehlungen) darfst du dann WEGLASSEN.
+
+SCHRITT 2 – Nur wenn Bildqualität OK: Wellness-Einschätzung
+- KEINE medizinische Diagnose. KEIN BMI, KEINE Gewichts-/Krankheits-Vermutung.
+- Beurteile rein VISUELLE Vitalitäts-Marker: Augen (Müdigkeit, Ringe, Glanz), Hautqualität (Teint, Rötung, Trockenheit), Mimik (Mundwinkel, Stirnfalten), Kopfhaltung, Frische-Eindruck.
+- "observations": 3–5 KONKRETE Details aus DIESEM Bild – keine Floskeln.
+- Scores ehrlich nach dem was du siehst (frisch = 85+, müde = 50–65). Nicht alles ist „75".
 
 Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock) im Schema:
 {
+  "imageQuality": "ok",            // "ok" ODER "insufficient"
+  "qualityReason": "",              // nur ausfüllen wenn insufficient – konkret was fehlt
   "overallScore": 75,
-  "subScores": {
-    "Erholung": 70,
-    "Stress": 65,
-    "Vitalität": 80
-  },
+  "subScores": { "Erholung": 70, "Stress": 65, "Vitalität": 80 },
   "observations": ["..."],
   "todayFocus": "1 Satz: worauf sollte sich der Fokus heute richten?",
   "recommendedSupplementIds": ["magnesium", "vitamin-d3"],
   "recommendedTipIds": ["meditation", "morgens-sonnenlicht"],
   "disclaimer": "Subjektiver Tageseindruck, keine medizinische Aussage."
 }
+Wenn imageQuality === "insufficient": die Bewertungs-Felder dürfen leer/0 sein.
 Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus dieser Liste: ${(typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.map(s => s.id).join(', ') : '')}. 2–4 tip-IDs aus dieser Liste: ${(typeof TIPS !== 'undefined' ? TIPS.map(t => t.id).join(', ') : '')}.`;
 
     const userPrompt = `Analysiere dieses Selfie. Liefere JSON nach Schema. Kein medizinischer Rat.`;
 
     try {
+      // Random-Seed im Prompt + hohe Temperatur sorgen dafür, dass die Auswertung
+      // sich auch bei ähnlichen Bildern nicht in eine Schablone einfräst.
+      const seed = Math.floor(Math.random() * 1e9);
       const body = {
         contents: [{
           role: 'user',
           parts: [
-            { text: userPrompt },
+            { text: userPrompt + '\n\n[Diversitäts-Seed: ' + seed + '] Bitte werte dieses spezifische Bild eigenständig aus – nicht generisch.' },
             { inlineData: { mimeType: _selfieData.mime, data: _selfieData.base64 } }
           ]
         }],
         generationConfig: {
-          temperature: 0.3,
-          maxOutputTokens: 1500,
-          thinkingConfig: { thinkingBudget: 0 }
+          temperature: 0.85,
+          maxOutputTokens: 2500
+          // thinkingConfig NICHT setzen – Vision-Analyse profitiert vom Thinking-Budget
         },
         systemInstruction: { parts: [{ text: sys }] }
       };
@@ -1213,12 +1316,45 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       const text = (data?.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
       const json = extractJson(text);
       if (!json) throw new Error('KI-Antwort konnte nicht gelesen werden.');
+
+      // Wenn die KI das Bild als nicht auswertbar markiert: Fehler anzeigen, NICHT speichern
+      if (json.imageQuality === 'insufficient') {
+        renderTagescheckQualityError(json.qualityReason || 'Bildqualität reicht für eine seriöse Auswertung nicht aus.');
+        return;
+      }
+
+      saveTagescheckEntry(json);
       renderTagescheckResult(json);
+      renderTagescheckHistory();
     } catch (err) {
       result.innerHTML = '<div class="err">Fehler bei der Auswertung: ' + escapeHtml(err.message) + '</div>';
     } finally {
       if (btn) { btn.disabled = false; btn.textContent = '✨ Auswerten lassen'; }
     }
+  }
+
+  function renderTagescheckQualityError(reason) {
+    const result = $('#tagescheck-result');
+    if (!result) return;
+    result.classList.remove('hidden');
+    result.innerHTML = `
+      <div class="tc-quality-error">
+        <div class="tc-quality-icon">📸</div>
+        <h3>Bild kann nicht ausgewertet werden</h3>
+        <p class="tc-quality-reason">${escapeHtml(reason)}</p>
+        <p class="muted small">Tipps für ein besseres Selfie:</p>
+        <ul class="tc-quality-tips">
+          <li>Gerades, gut beleuchtetes Tageslicht (Fenster vor dir, nicht im Rücken)</li>
+          <li>Gesicht füllt etwa 60–80 % des Bildes</li>
+          <li>Brille/Hand/Haare nicht im Weg, keine Maske</li>
+          <li>Scharf stellen – kurz still halten</li>
+          <li>Keine starken Filter / Schwarz-Weiß</li>
+        </ul>
+        <div class="tc-actions">
+          <button type="button" class="btn btn-primary" onclick="document.getElementById('btn-retake-selfie').click();">↻ Neues Selfie</button>
+        </div>
+      </div>
+    `;
   }
 
   function renderTagescheckResult(d) {
