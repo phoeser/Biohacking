@@ -249,6 +249,18 @@
         </div>
 
         <div class="tagescheck-wrap">
+          <div class="tagescheck-body-inputs">
+            <label class="tc-input-field">
+              <span>Größe (cm)</span>
+              <input type="number" id="bmi-height" inputmode="numeric" min="120" max="230" step="1" placeholder="z.B. 178" />
+            </label>
+            <label class="tc-input-field">
+              <span>Gewicht (kg) <em>– optional</em></span>
+              <input type="number" id="bmi-weight" inputmode="decimal" min="30" max="250" step="0.1" placeholder="z.B. 75.3" />
+            </label>
+            <p class="tc-body-hint">Mit Gewicht: exakter BMI. Nur mit Größe: KI schätzt visuell (±5–8 kg Unschärfe).</p>
+          </div>
+
           <div class="tagescheck-upload" id="tagescheck-upload">
             <input type="file" id="selfie-camera-input" accept="image/*" capture="user" hidden />
             <input type="file" id="selfie-file-input" accept="image/*" hidden />
