@@ -1104,12 +1104,12 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       if (!file) return;
       const fromCam = (e.target.id === 'selfie-camera-input');
       try {
-        const compressed = await compressImage(file, 1024, 0.85);
+        const compressed = await compressImage(file, 1024, 0.85, fromCam);
         _selfieData = compressed;
         img.src = compressed.dataUrl;
         // Selfies (Frontkamera) spiegeln wir in der Vorschau wie im Spiegel-Sucher;
         // an die KI geht weiterhin das Original-Bild.
-        img.classList.toggle('selfie-mirror', fromCam);
+        img.classList.remove('selfie-mirror'); // Bild ist schon physisch gespiegelt
         upload.classList.add('hidden');
         preview.classList.remove('hidden');
         result.classList.add('hidden');
@@ -1278,7 +1278,9 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
   }
 
   // Bild komprimieren via Canvas (max maxSize px lange Kante, jpeg quality)
-  function compressImage(file, maxSize, quality) {
+  // Bei mirrorHorizontal=true wird das Bild PHYSISCH horizontal gespiegelt
+  // (sinnvoll für Frontkamera-Selfies, damit Vorschau dem Sucher-Eindruck entspricht).
+  function compressImage(file, maxSize, quality, mirrorHorizontal) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.onload = (e) => {
@@ -1292,6 +1294,10 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
           const c = document.createElement('canvas');
           c.width = w; c.height = h;
           const ctx = c.getContext('2d');
+          if (mirrorHorizontal) {
+            ctx.translate(w, 0);
+            ctx.scale(-1, 1);
+          }
           ctx.drawImage(im, 0, 0, w, h);
           const dataUrl = c.toDataURL('image/jpeg', quality);
           const base64 = dataUrl.split(',')[1];
@@ -1371,7 +1377,11 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       const heightCm = parseFloat($('#bmi-height')?.value || '') || null;
       let bodyContext = '';
       if (heightCm) {
-        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm. IMMER eine Gewichtsschätzung machen (auch bei reinem Gesichts-Selfie aus Gesichtsfülle und Halsansatz, dann bmiConfidence:"low"). Berechne BMI = Gewicht_kg / (${heightCm}/100)^2 auf 1 Nachkommastelle. Setze bmiEstimateAvailable:true.`;
+        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm. IMMER eine Gewichtsschätzung machen (auch bei reinem Gesichts-Selfie aus Gesichtsfülle, Wangenkontur und Halsansatz, dann bmiConfidence:"low").
+WICHTIG – konservative Gewichtsschätzung:
+- KI-Modelle überschätzen visuell aus Selfies das Gewicht systematisch um 3–8 kg. Korrigiere das aktiv: schätze eher 5 kg WENIGER als dein erster Eindruck, vor allem wenn du dir unsicher bist.
+- Typische Verteilung erwachsener Männer 170–185 cm: 65–85 kg (BMI 22–25). Bei Frauen 160–175 cm: 55–72 kg (BMI 21–24). Diese Bereiche als Baseline nutzen, NICHT pauschal höher schätzen.
+- Berechne dann BMI = Gewicht_kg / (${heightCm}/100)^2 auf 1 Nachkommastelle. Setze bmiEstimateAvailable:true.`;
       } else {
         bodyContext = `\n\nKeine Körpergröße angegeben. Setze bmiEstimateAvailable:false.`;
       }
