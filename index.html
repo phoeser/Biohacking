@@ -59,6 +59,7 @@
       <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
         <a href="#supplement" data-nav="supplement">Supplements</a>
         <a href="#symptom" data-nav="symptom">Symptom</a>
+        <a href="#tagescheck" data-nav="tagescheck">Tagescheck</a>
         <a href="#experimental" data-nav="experimental">Experimentelles</a>
         <a href="#news" data-nav="news">News</a>
         <a href="#about" data-nav="about">Über</a>
@@ -234,6 +235,53 @@
 
         <div id="news-status" class="news-status"></div>
         <div id="news-list" class="news-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ TAGESCHECK (SELFIE) ============ -->
+    <section class="view hidden" id="view-tagescheck" data-view="tagescheck">
+      <div class="container">
+        <div class="view-head">
+          <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
+          <span class="eyebrow">Wellness-Eindruck heute</span>
+          <h2>📸 Tagescheck</h2>
+          <p>Aufnehmen oder hochladen – die KI gibt dir einen <strong>subjektiven Tageseindruck</strong> mit Wellness-Score und Empfehlungen für heute. Keine medizinische Diagnose, kein Ersatz für Arztbesuche.</p>
+        </div>
+
+        <div class="tagescheck-wrap">
+          <div class="tagescheck-upload" id="tagescheck-upload">
+            <input type="file" id="selfie-input" accept="image/*" capture="user" hidden />
+            <div class="tagescheck-upload-content">
+              <div class="tagescheck-upload-icon">📷</div>
+              <h3>Selfie aufnehmen oder hochladen</h3>
+              <p class="muted">Tipp: gutes Tageslicht, neutraler Ausdruck, gerade Kopfhaltung. Aus Datenschutzgründen wird das Bild nicht gespeichert.</p>
+              <div class="tagescheck-buttons">
+                <button type="button" class="btn btn-primary" id="btn-take-selfie">📷 Selfie machen / hochladen</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="tagescheck-preview hidden" id="tagescheck-preview">
+            <img id="selfie-preview-img" alt="Selfie-Vorschau" />
+            <div class="tagescheck-preview-actions">
+              <button type="button" class="btn btn-primary" id="btn-analyze-selfie">✨ Auswerten lassen</button>
+              <button type="button" class="btn btn-ghost" id="btn-retake-selfie">↻ Anderes Bild</button>
+            </div>
+          </div>
+
+          <div class="tagescheck-result hidden" id="tagescheck-result">
+            <!-- wird per JS gefüllt -->
+          </div>
+
+          <details class="tagescheck-disclaimer">
+            <summary>⚠ Hinweise zu Datenschutz & Aussagekraft</summary>
+            <ul>
+              <li><strong>Subjektive Einschätzung.</strong> Die KI bewertet rein visuelle Marker (Augen, Haut, Mimik). Keine medizinische Diagnose, kein BMI, kein Gewichts-Score.</li>
+              <li><strong>Keine Bildspeicherung.</strong> Dein Selfie wird zur Auswertung an Google Gemini gesendet, danach verworfen. Es landet weder im Browser-Cache noch auf einem Server.</li>
+              <li><strong>Keine Heilversprechen.</strong> Empfehlungen sind allgemeine Wellness-Tipps. Bei Beschwerden zum Arzt/zur Ärztin.</li>
+            </ul>
+          </details>
+        </div>
       </div>
     </section>
 
