@@ -2553,3 +2553,27 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 540px) {
   .tagescheck-body-inputs { grid-template-columns: 1fr; }
 }
+
+/* Größe-Input einspaltig (nach Entfernen des Gewichtsfeldes) */
+.tagescheck-body-inputs { grid-template-columns: 1fr; }
+.tc-input-field--full { width: 100%; max-width: 320px; }
+
+/* Selfie-Vorschau spiegeln wie im Kamera-Sucher (nur Anzeige, Originalbild bleibt) */
+.selfie-mirror { transform: scaleX(-1); }
+
+.tc-bmi-conf {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  vertical-align: middle;
+}
+.tc-bmi--unavailable {
+  background: rgba(45, 90, 70, 0.04);
+  border-color: rgba(45, 90, 70, 0.10);
+}
+.tc-bmi--unavailable .tc-bmi-note { color: var(--text); font-style: normal; }
