@@ -1153,6 +1153,20 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     return 'Adipositas';
   }
 
+  // Feinere BMI-Bewertung mit nettem Spruch
+  function bmiAssessmentFor(bmi) {
+    if (bmi == null) return null;
+    if (bmi < 16)   return { label: 'Starkes Untergewicht',     color: '#c84a65', msg: 'Deutlich zu wenig – das belastet Stoffwechsel und Hormone. Aufbau hat hier Priorität.' };
+    if (bmi < 18.5) return { label: 'Leichtes Untergewicht',    color: '#d48a28', msg: 'Etwas weniger als optimal – ein paar Kilo Muskelmasse würden gut tun.' };
+    if (bmi < 22)   return { label: 'Optimaler Normalbereich',  color: '#2f8b6a', msg: 'Top im Optimalfenster – einfach halten.' };
+    if (bmi < 25)   return { label: 'Komfortabler Normalbereich', color: '#2f8b6a', msg: 'Solide Mitte, alles im grünen Bereich.' };
+    if (bmi < 27)   return { label: 'Leichtes Übergewicht',     color: '#d48a28', msg: 'Aktuell ein, zwei Kilo zu viel – noch entspannt zu drehen.' };
+    if (bmi < 30)   return { label: 'Deutliches Übergewicht',   color: '#d48a28', msg: 'Ein paar Kilo zu viel – das spürt der Stoffwechsel schon.' };
+    if (bmi < 35)   return { label: 'Adipositas Grad I',        color: '#c84a65', msg: 'Zeit für eine gezielte Strategie – realistische Schritte zahlen sich aus.' };
+    if (bmi < 40)   return { label: 'Adipositas Grad II',       color: '#c84a65', msg: 'Spürbare Belastung – am besten mit ärztlicher Begleitung angehen.' };
+    return            { label: 'Adipositas Grad III',           color: '#a63a52', msg: 'Bitte unbedingt ärztlich begleiten – langfristig dranbleiben lohnt sich.' };
+  }
+
   // ---- Verlauf (Zeitreihe der letzten 30) ----
   const TAGESCHECK_HISTORY_KEY = 'bhc_tagescheck_history_v1';
   const TAGESCHECK_HISTORY_MAX = 60;
@@ -1474,37 +1488,35 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       </article>
     `).join('')}</div></div>` : '';
 
-    // BMI-Block (nur wenn verfügbar)
+    // BMI-Block (kompakt, kommt UNTER den Wellness-Score)
     let bmiHtml = '';
     if (d.bmiEstimateAvailable && d.estimatedBMI) {
       const bmi = +Number(d.estimatedBMI).toFixed(1);
-      const cat = d.bmiCategory || bmiCategoryFor(bmi) || '';
-      const w = d.estimatedWeightKg ? `${(+d.estimatedWeightKg).toFixed(1)} kg` : '';
-      const note = d.bmiNote || '';
+      const assess = bmiAssessmentFor(bmi);
+      const cat = (assess && assess.label) || d.bmiCategory || '';
+      const catColor = (assess && assess.color) || '#5a6560';
+      const msg = (assess && assess.msg) || '';
+      const w = d.estimatedWeightKg ? `~${(+d.estimatedWeightKg).toFixed(1)} kg` : '';
       const conf = d.bmiConfidence || 'low';
       const confLabel = conf === 'high' ? 'hoch' : (conf === 'medium' ? 'mittel' : 'niedrig');
       const confColor = conf === 'high' ? '#2f8b6a' : (conf === 'medium' ? '#d48a28' : '#c84a65');
-      const catColor = cat === 'Normal' ? '#2f8b6a' : (cat === 'Übergewicht' || cat === 'Untergewicht' ? '#d48a28' : '#c84a65');
-      bmiHtml = `<div class="tc-bmi">
-        <div class="tc-bmi-num">${bmi.toFixed(1).replace('.', ',')}</div>
-        <div class="tc-bmi-meta">
-          <div class="tc-bmi-label">BMI ${w ? `· ${escapeHtml(w)}` : ''} <span class="tc-bmi-conf" style="background:${confColor}1A;color:${confColor};">Konfidenz: ${confLabel}</span></div>
-          <div class="tc-bmi-cat" style="color:${catColor};">${escapeHtml(cat)}</div>
-          ${note ? `<div class="tc-bmi-note">${escapeHtml(note)}</div>` : ''}
+      bmiHtml = `<div class="tc-bmi tc-bmi--mini">
+        <div class="tc-bmi-row">
+          <span class="tc-bmi-num-mini">${bmi.toFixed(1).replace('.', ',')}</span>
+          <span class="tc-bmi-label-mini">BMI ${w ? `· ${escapeHtml(w)}` : ''}</span>
+          <span class="tc-bmi-cat-mini" style="color:${catColor};">${escapeHtml(cat)}</span>
+          <span class="tc-bmi-conf-mini" style="background:${confColor}1A;color:${confColor};">Konfidenz: ${confLabel}</span>
         </div>
+        ${msg ? `<div class="tc-bmi-msg">${escapeHtml(msg)}</div>` : ''}
       </div>`;
     } else {
-      // Größe angegeben aber KI hat keine Schätzung gemacht: Info zeigen
-      bmiHtml = `<div class="tc-bmi tc-bmi--unavailable">
-        <div class="tc-bmi-meta">
-          <div class="tc-bmi-label">BMI</div>
-          <div class="tc-bmi-note">Keine Schätzung möglich. Tipp: Größe oben eintragen oder Foto mit Oberkörper hochladen für eine BMI-Einschätzung.</div>
-        </div>
+      bmiHtml = `<div class="tc-bmi tc-bmi--mini tc-bmi--unavailable">
+        <span class="tc-bmi-label-mini">BMI</span>
+        <span class="tc-bmi-msg">Keine Schätzung möglich. Tipp: Größe oben eintragen.</span>
       </div>`;
     }
 
     result.innerHTML = `
-      ${bmiHtml}
       <div class="tc-score-wrap">
         <div class="tc-score-circle" style="--score-color:${scoreColor}; --score-deg:${score * 3.6}deg;">
           <div class="tc-score-num">${score}</div>
@@ -1512,6 +1524,7 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
         </div>
         <div class="tc-subscores">${subScoreHtml}</div>
       </div>
+      ${bmiHtml}
       ${focusHtml}
       ${obsHtml}
       ${suppHtml}
