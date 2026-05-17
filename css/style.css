@@ -851,20 +851,32 @@ button { font-family: inherit; cursor: pointer; }
    Responsive
    ============================================ */
 @media (max-width: 768px) {
-  /* Navigation horizontal scrollbar auf Mobile */
-  .main-nav {
+  /* Mobile: Navigation zugeklappt, Hamburger sichtbar */
+  .main-nav { display: none; }
+  .main-nav.open {
     display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    gap: 18px;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding: 4px 0 6px;
-    max-width: 60%;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    background: var(--bg, #fbfcfa);
+    border-bottom: 1px solid var(--surface-border, rgba(45, 90, 70, 0.10));
+    padding: 18px 24px;
+    gap: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    z-index: 95;
   }
-  .main-nav::-webkit-scrollbar { display: none; }
-  .main-nav a { white-space: nowrap; font-size: 14px; }
-  .btn-nav-toggle { display: none; }
+  .main-nav.open a {
+    font-size: 16px;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(45, 90, 70, 0.06);
+  }
+  .main-nav.open a:last-child { border-bottom: 0; }
+  .btn-nav-toggle { display: flex; }
+  /* Hamburger-Animation: drei Striche → X wenn offen */
+  .btn-nav-toggle.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .btn-nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .btn-nav-toggle.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  .btn-nav-toggle span { transition: transform .2s, opacity .15s; }
   .hero { padding: 50px 0 70px; }
   .hero-stats { gap: 30px; }
   .hero-stats strong { font-size: 30px; }
@@ -2221,12 +2233,24 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 
-/* Sehr schmale Screens (Telefon hochkant) — Navi noch kompakter */
+/* Sehr schmale Screens (Telefon hochkant) */
 @media (max-width: 480px) {
-  .header-inner { padding: 10px 14px; gap: 10px; }
-  .main-nav { gap: 14px; max-width: 55%; }
-  .main-nav a { font-size: 13px; }
+  .header-inner { padding: 10px 14px; }
   .logo-text strong { font-size: 13px; }
   .logo-text em { font-size: 10px; }
   .logo-mark { width: 36px; height: 36px; }
 }
+
+
+/* Header braucht position:relative damit das Dropdown absolut darunter sitzt */
+.site-header .header-inner { position: relative; }
+.btn-nav-toggle {
+  background: transparent;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.btn-nav-toggle:hover { background: rgba(47, 139, 106, 0.08); }
+.btn-nav-toggle span { display: block; width: 22px; height: 2px; background: var(--text, #1d2420); border-radius: 2px; }
+.btn-nav-toggle span + span { margin-top: 4px; }
