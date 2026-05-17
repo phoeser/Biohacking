@@ -2254,3 +2254,118 @@ button { font-family: inherit; cursor: pointer; }
 .btn-nav-toggle:hover { background: rgba(47, 139, 106, 0.08); }
 .btn-nav-toggle span { display: block; width: 22px; height: 2px; background: var(--text, #1d2420); border-radius: 2px; }
 .btn-nav-toggle span + span { margin-top: 4px; }
+
+/* ============ TAGESCHECK ============ */
+.tagescheck-wrap { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+.tagescheck-upload {
+  background: rgba(255, 255, 255, 0.75);
+  border: 2px dashed rgba(30, 107, 124, 0.30);
+  border-radius: 22px;
+  padding: 50px 24px;
+  text-align: center;
+  transition: border-color .15s, background .15s;
+}
+.tagescheck-upload:hover { border-color: var(--accent); background: rgba(47, 139, 106, 0.04); }
+.tagescheck-upload-icon { font-size: 48px; line-height: 1; margin-bottom: 14px; }
+.tagescheck-upload h3 { margin: 0 0 8px; font-size: 22px; }
+.tagescheck-upload .muted { color: var(--muted); max-width: 480px; margin: 0 auto 20px; font-size: 14px; }
+.tagescheck-buttons { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+
+.tagescheck-preview {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 22px;
+  padding: 22px;
+  text-align: center;
+  border: 1px solid var(--surface-border);
+}
+.tagescheck-preview img { max-width: 340px; width: 100%; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+.tagescheck-preview-actions { display: flex; justify-content: center; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+
+.tagescheck-result { background: rgba(255, 255, 255, 0.85); border-radius: 22px; padding: 28px; }
+.tagescheck-loading { padding: 40px; text-align: center; color: var(--muted); font-size: 15px; }
+
+.tc-score-wrap {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.tc-score-circle {
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: conic-gradient(var(--score-color) var(--score-deg), rgba(45, 90, 70, 0.10) 0);
+  display: grid; place-items: center;
+  position: relative;
+}
+.tc-score-circle::before {
+  content: '';
+  position: absolute;
+  inset: 12px;
+  background: var(--bg, #fbfcfa);
+  border-radius: 50%;
+}
+.tc-score-num { position: relative; font-size: 44px; font-weight: 800; color: var(--score-color); font-family: var(--font-display); }
+.tc-score-label { position: relative; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: -4px; }
+
+.tc-subscores { display: flex; flex-direction: column; gap: 10px; }
+.tc-sub {
+  display: grid;
+  grid-template-columns: 90px 1fr 36px;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+.tc-sub-label { font-weight: 600; color: var(--text); }
+.tc-sub-bar { height: 8px; background: rgba(45, 90, 70, 0.10); border-radius: 999px; overflow: hidden; }
+.tc-sub-fill { height: 100%; border-radius: 999px; transition: width .3s ease; }
+.tc-sub-val { font-weight: 700; color: var(--text); text-align: right; }
+
+.tc-focus {
+  background: linear-gradient(135deg, rgba(47, 139, 106, 0.10) 0%, rgba(212, 138, 40, 0.08) 100%);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 18px 0;
+  font-size: 15px;
+}
+.tc-focus strong { color: var(--accent); }
+
+.tc-section { margin-top: 24px; }
+.tc-section h4 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+.tc-section ul { margin: 0; padding-left: 22px; color: var(--text); }
+.tc-section li { margin-bottom: 6px; line-height: 1.5; }
+
+.tc-disclaimer {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  text-align: center;
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(45, 90, 70, 0.08);
+}
+.tc-actions { display: flex; justify-content: center; margin-top: 18px; }
+
+.tagescheck-disclaimer {
+  background: rgba(212, 138, 40, 0.05);
+  border: 1px solid rgba(212, 138, 40, 0.20);
+  border-left: 3px solid #d48a28;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+}
+.tagescheck-disclaimer summary {
+  cursor: pointer;
+  list-style: none;
+  color: #b87410;
+  font-weight: 600;
+}
+.tagescheck-disclaimer summary::-webkit-details-marker { display: none; }
+.tagescheck-disclaimer ul { margin: 10px 0 4px; padding-left: 22px; font-size: 12px; color: var(--muted); }
+.tagescheck-disclaimer li { margin-bottom: 4px; line-height: 1.5; }
+
+@media (max-width: 620px) {
+  .tc-score-wrap { grid-template-columns: 1fr; justify-items: center; gap: 18px; }
+  .tc-subscores { width: 100%; }
+}
