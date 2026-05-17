@@ -1091,6 +1091,18 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     btnTake?.addEventListener('click', () => inputCam.click());
     btnUpload?.addEventListener('click', () => inputFile.click());
 
+    // Größe/Gewicht aus localStorage vorbefüllen + bei Änderung speichern
+    const heightInp = $('#bmi-height');
+    const weightInp = $('#bmi-weight');
+    try {
+      const h = localStorage.getItem('bhc_body_height_cm');
+      const w = localStorage.getItem('bhc_body_weight_kg');
+      if (h && heightInp) heightInp.value = h;
+      if (w && weightInp) weightInp.value = w;
+    } catch (_) {}
+    heightInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_height_cm', heightInp.value); } catch (_) {} });
+    weightInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_weight_kg', weightInp.value); } catch (_) {} });
+
     const handleFile = async (e) => {
       const file = e.target.files?.[0];
       if (!file) return;
@@ -1132,9 +1144,17 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     renderTagescheckHistory();
   }
 
+  function bmiCategoryFor(bmi) {
+    if (bmi == null) return null;
+    if (bmi < 18.5) return 'Untergewicht';
+    if (bmi < 25)   return 'Normal';
+    if (bmi < 30)   return 'Übergewicht';
+    return 'Adipositas';
+  }
+
   // ---- Verlauf (Zeitreihe der letzten 30) ----
   const TAGESCHECK_HISTORY_KEY = 'bhc_tagescheck_history_v1';
-  const TAGESCHECK_HISTORY_MAX = 30;
+  const TAGESCHECK_HISTORY_MAX = 60;
 
   function loadTagescheckHistory() {
     try {
@@ -1175,19 +1195,22 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       wrap.innerHTML = '';
       return;
     }
-    // Mini-Sparkline aus den Scores (chronologisch, älteste links)
+    // Balken-Diagramm (chronologisch, älteste links)
     const points = hist.slice().reverse();
-    const w = 600, h = 80, pad = 6;
-    const xs = points.map((_, i) => pad + i * ((w - 2 * pad) / Math.max(1, points.length - 1)));
-    const ys = points.map(p => h - pad - ((p.score / 100) * (h - 2 * pad)));
-    const poly = xs.map((x, i) => x + ',' + ys[i]).join(' ');
-    const dots = xs.map((x, i) => `<circle cx="${x.toFixed(1)}" cy="${ys[i].toFixed(1)}" r="3" fill="${points[i].score >= 75 ? '#2f8b6a' : (points[i].score >= 50 ? '#d48a28' : '#c84a65')}"/>`).join('');
-    const svg = `<svg viewBox="0 0 ${w} ${h}" class="tc-history-spark" preserveAspectRatio="none">
-      <polyline points="${poly}" fill="none" stroke="rgba(47,139,106,0.45)" stroke-width="2"/>
-      ${dots}
-    </svg>`;
+    const bars = points.map((p, i) => {
+      const h = Math.max(4, Math.round(p.score)); // 4–100% Höhe
+      const c = p.score >= 75 ? '#2f8b6a' : (p.score >= 50 ? '#d48a28' : '#c84a65');
+      const dt = new Date(p.ts);
+      const when = dt.toLocaleString('de-DE', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+      const title = `${when} · Score ${p.score}` + (p.focus ? ` · ${p.focus}` : '');
+      return `<div class="tc-bar" style="height:${h}%; background:${c};" title="${escapeHtml(title)}"></div>`;
+    }).join('');
 
-    const list = hist.slice(0, 10).map(e => {
+    // Letzte 3 prominent, Rest scrollbar
+    const top3 = hist.slice(0, 3);
+    const rest = hist.slice(3);
+
+    const itemHtml = (e) => {
       const dt = new Date(e.ts);
       const when = dt.toLocaleString('de-DE', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
       const c = e.score >= 75 ? '#2f8b6a' : (e.score >= 50 ? '#d48a28' : '#c84a65');
@@ -1200,16 +1223,29 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
           ${e.focus ? `<span class="tc-hist-focus">${escapeHtml(e.focus)}</span>` : ''}
         </span>
       </li>`;
-    }).join('');
+    };
+
+    const top3Html = top3.map(itemHtml).join('');
+    const restHtml = rest.map(itemHtml).join('');
 
     wrap.innerHTML = `
       <div class="tc-history-head">
-        <h3>📈 Dein Verlauf (${hist.length}/${TAGESCHECK_HISTORY_MAX})</h3>
+        <h3>📈 Dein Verlauf <span class="tc-hist-count">${hist.length}/${TAGESCHECK_HISTORY_MAX} Tage</span></h3>
         <button type="button" class="btn-link" onclick="(function(){ try { localStorage.removeItem('${TAGESCHECK_HISTORY_KEY}'); document.getElementById('tagescheck-history').innerHTML=''; } catch(e){} })()">Verlauf löschen</button>
       </div>
-      ${svg}
-      <ol class="tc-hist-list">${list}</ol>
-      ${hist.length > 10 ? `<p class="small muted">Älteste ${hist.length - 10} Einträge nur im Sparkline-Chart sichtbar.</p>` : ''}
+      <div class="tc-bars" role="img" aria-label="Wellness-Score Verlauf als Balkendiagramm">${bars}</div>
+      <div class="tc-bars-legend">
+        <span>älter</span>
+        <span>jetzt →</span>
+      </div>
+      <h4 class="tc-hist-section-title">Letzte 3</h4>
+      <ol class="tc-hist-list tc-hist-list--top">${top3Html}</ol>
+      ${rest.length ? `
+        <h4 class="tc-hist-section-title">Frühere (${rest.length})</h4>
+        <div class="tc-hist-scroll">
+          <ol class="tc-hist-list">${restHtml}</ol>
+        </div>
+      ` : ''}
     `;
   }
 
@@ -1264,21 +1300,28 @@ Nicht geeignet, wenn:
 Wenn auch nur EINER dieser Punkte zutrifft → setze "imageQuality": "insufficient" und gib in "qualityReason" konkret an, was nicht passt. ALLES ANDERE (Score, Empfehlungen) darfst du dann WEGLASSEN.
 
 SCHRITT 2 – Nur wenn Bildqualität OK: Wellness-Einschätzung
-- KEINE medizinische Diagnose. KEIN BMI, KEINE Gewichts-/Krankheits-Vermutung.
+- KEINE medizinische Diagnose, KEINE Krankheits-Vermutung.
+- Wenn das Bild den OBERKÖRPER oder die GANZE PERSON zeigt UND eine Körpergröße angegeben ist: schätze das Gewicht visuell ein (±5–8 kg Unschärfe einbeziehen). Setze "estimatedWeightKg" und berechne "estimatedBMI" = Gewicht / (Größe_m)^2 (eine Nachkommastelle). Setze "bmiCategory" gemäß WHO: <18.5 Untergewicht, 18.5–24.9 Normal, 25.0–29.9 Übergewicht, ≥30 Adipositas.
+- Wenn nur Kopf/Schulter sichtbar ist (typisches Selfie): NICHT BMI schätzen – setze "bmiEstimateAvailable": false.
 - Beurteile rein VISUELLE Vitalitäts-Marker: Augen (Müdigkeit, Ringe, Glanz), Hautqualität (Teint, Rötung, Trockenheit), Mimik (Mundwinkel, Stirnfalten), Kopfhaltung, Frische-Eindruck.
 - "observations": 3–5 KONKRETE Details aus DIESEM Bild – keine Floskeln.
 - Scores ehrlich nach dem was du siehst (frisch = 85+, müde = 50–65). Nicht alles ist „75".
 
 Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock) im Schema:
 {
-  "imageQuality": "ok",            // "ok" ODER "insufficient"
-  "qualityReason": "",              // nur ausfüllen wenn insufficient – konkret was fehlt
+  "imageQuality": "ok",
+  "qualityReason": "",
   "overallScore": 75,
   "subScores": { "Erholung": 70, "Stress": 65, "Vitalität": 80 },
   "observations": ["..."],
   "todayFocus": "1 Satz: worauf sollte sich der Fokus heute richten?",
   "recommendedSupplementIds": ["magnesium", "vitamin-d3"],
   "recommendedTipIds": ["meditation", "morgens-sonnenlicht"],
+  "bmiEstimateAvailable": false,
+  "estimatedWeightKg": 75.0,
+  "estimatedBMI": 23.7,
+  "bmiCategory": "Normal",
+  "bmiNote": "Grobe Schätzung aus Foto, ignoriert Muskelmasse.",
   "disclaimer": "Subjektiver Tageseindruck, keine medizinische Aussage."
 }
 Wenn imageQuality === "insufficient": die Bewertungs-Felder dürfen leer/0 sein.
@@ -1290,11 +1333,25 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       // Random-Seed im Prompt + hohe Temperatur sorgen dafür, dass die Auswertung
       // sich auch bei ähnlichen Bildern nicht in eine Schablone einfräst.
       const seed = Math.floor(Math.random() * 1e9);
+
+      // Körperdaten aus den Eingabefeldern lesen
+      const heightCm = parseFloat($('#bmi-height')?.value || '') || null;
+      const weightKg = parseFloat($('#bmi-weight')?.value || '') || null;
+      let bodyContext = '';
+      let exactBMI = null;
+      if (heightCm && weightKg) {
+        exactBMI = +(weightKg / Math.pow(heightCm / 100, 2)).toFixed(1);
+        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm, Gewicht ${weightKg} kg → BMI ${exactBMI} (exakt berechnet, übernimm diese Werte in estimatedBMI/estimatedWeightKg/bmiCategory, setze bmiEstimateAvailable:true, bmiNote:"Aus Nutzereingaben berechnet").`;
+      } else if (heightCm) {
+        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm. Falls Körper sichtbar: schätze das Gewicht und berechne BMI (1 Nachkommastelle). Falls nur Gesicht/Selfie: bmiEstimateAvailable:false.`;
+      } else {
+        bodyContext = `\n\nKeine Körperdaten angegeben. Setze bmiEstimateAvailable:false.`;
+      }
       const body = {
         contents: [{
           role: 'user',
           parts: [
-            { text: userPrompt + '\n\n[Diversitäts-Seed: ' + seed + '] Bitte werte dieses spezifische Bild eigenständig aus – nicht generisch.' },
+            { text: userPrompt + bodyContext + '\n\n[Diversitäts-Seed: ' + seed + '] Bitte werte dieses spezifische Bild eigenständig aus – nicht generisch.' },
             { inlineData: { mimeType: _selfieData.mime, data: _selfieData.base64 } }
           ]
         }],
@@ -1321,6 +1378,15 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       if (json.imageQuality === 'insufficient') {
         renderTagescheckQualityError(json.qualityReason || 'Bildqualität reicht für eine seriöse Auswertung nicht aus.');
         return;
+      }
+
+      // Wenn Nutzer beide Werte angegeben hat: BMI exakt überschreiben (kein KI-Drift)
+      if (exactBMI) {
+        json.bmiEstimateAvailable = true;
+        json.estimatedBMI = exactBMI;
+        json.estimatedWeightKg = weightKg;
+        json.bmiCategory = bmiCategoryFor(exactBMI);
+        json.bmiNote = 'Aus deinen Eingaben berechnet (Größe ' + heightCm + ' cm, Gewicht ' + weightKg + ' kg).';
       }
 
       saveTagescheckEntry(json);
@@ -1368,8 +1434,8 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
 
     const supps = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : []);
     const tips  = (typeof TIPS !== 'undefined' ? TIPS : []);
-    const recSupp = (d.recommendedSupplementIds || []).map(id => supps.find(s => s.id === id)).filter(Boolean).slice(0, 6);
-    const recTips = (d.recommendedTipIds || []).map(id => tips.find(t => t.id === id)).filter(Boolean).slice(0, 6);
+    const recSupp = (d.recommendedSupplementIds || []).map(id => supps.find(s => s.id === id)).filter(Boolean).slice(0, 3);
+    const recTips = (d.recommendedTipIds || []).map(id => tips.find(t => t.id === id)).filter(Boolean).slice(0, 3);
 
     const subScoreHtml = Object.entries(subScores).map(([label, val]) => {
       const v = Math.max(0, Math.min(100, Math.round(val)));
@@ -1403,7 +1469,26 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       </article>
     `).join('')}</div></div>` : '';
 
+    // BMI-Block (nur wenn verfügbar)
+    let bmiHtml = '';
+    if (d.bmiEstimateAvailable && d.estimatedBMI) {
+      const bmi = +Number(d.estimatedBMI).toFixed(1);
+      const cat = d.bmiCategory || bmiCategoryFor(bmi) || '';
+      const w = d.estimatedWeightKg ? `${(+d.estimatedWeightKg).toFixed(1)} kg` : '';
+      const note = d.bmiNote || '';
+      const catColor = cat === 'Normal' ? '#2f8b6a' : (cat === 'Übergewicht' || cat === 'Untergewicht' ? '#d48a28' : '#c84a65');
+      bmiHtml = `<div class="tc-bmi">
+        <div class="tc-bmi-num">${bmi.toFixed(1).replace('.', ',')}</div>
+        <div class="tc-bmi-meta">
+          <div class="tc-bmi-label">BMI ${w ? `· ${escapeHtml(w)}` : ''}</div>
+          <div class="tc-bmi-cat" style="color:${catColor};">${escapeHtml(cat)}</div>
+          ${note ? `<div class="tc-bmi-note">${escapeHtml(note)}</div>` : ''}
+        </div>
+      </div>`;
+    }
+
     result.innerHTML = `
+      ${bmiHtml}
       <div class="tc-score-wrap">
         <div class="tc-score-circle" style="--score-color:${scoreColor}; --score-deg:${score * 3.6}deg;">
           <div class="tc-score-num">${score}</div>
