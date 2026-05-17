@@ -1091,25 +1091,25 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     btnTake?.addEventListener('click', () => inputCam.click());
     btnUpload?.addEventListener('click', () => inputFile.click());
 
-    // Größe/Gewicht aus localStorage vorbefüllen + bei Änderung speichern
+    // Größe aus localStorage vorbefüllen + bei Änderung speichern
     const heightInp = $('#bmi-height');
-    const weightInp = $('#bmi-weight');
     try {
       const h = localStorage.getItem('bhc_body_height_cm');
-      const w = localStorage.getItem('bhc_body_weight_kg');
       if (h && heightInp) heightInp.value = h;
-      if (w && weightInp) weightInp.value = w;
     } catch (_) {}
     heightInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_height_cm', heightInp.value); } catch (_) {} });
-    weightInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_weight_kg', weightInp.value); } catch (_) {} });
 
     const handleFile = async (e) => {
       const file = e.target.files?.[0];
       if (!file) return;
+      const fromCam = (e.target.id === 'selfie-camera-input');
       try {
         const compressed = await compressImage(file, 1024, 0.85);
         _selfieData = compressed;
         img.src = compressed.dataUrl;
+        // Selfies (Frontkamera) spiegeln wir in der Vorschau wie im Spiegel-Sucher;
+        // an die KI geht weiterhin das Original-Bild.
+        img.classList.toggle('selfie-mirror', fromCam);
         upload.classList.add('hidden');
         preview.classList.remove('hidden');
         result.classList.add('hidden');
@@ -1126,6 +1126,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       inputCam.value = '';
       inputFile.value = '';
       img.src = '';
+      img.classList.remove('selfie-mirror');
       preview.classList.add('hidden');
       upload.classList.remove('hidden');
       result.classList.add('hidden');
@@ -1301,8 +1302,12 @@ Wenn auch nur EINER dieser Punkte zutrifft → setze "imageQuality": "insufficie
 
 SCHRITT 2 – Nur wenn Bildqualität OK: Wellness-Einschätzung
 - KEINE medizinische Diagnose, KEINE Krankheits-Vermutung.
-- Wenn das Bild den OBERKÖRPER oder die GANZE PERSON zeigt UND eine Körpergröße angegeben ist: schätze das Gewicht visuell ein (±5–8 kg Unschärfe einbeziehen). Setze "estimatedWeightKg" und berechne "estimatedBMI" = Gewicht / (Größe_m)^2 (eine Nachkommastelle). Setze "bmiCategory" gemäß WHO: <18.5 Untergewicht, 18.5–24.9 Normal, 25.0–29.9 Übergewicht, ≥30 Adipositas.
-- Wenn nur Kopf/Schulter sichtbar ist (typisches Selfie): NICHT BMI schätzen – setze "bmiEstimateAvailable": false.
+- BMI: Wenn eine Körpergröße angegeben ist, IMMER eine Gewichtsschätzung versuchen. Konfidenz ehrlich angeben:
+  - "high"   = Ganzkörper oder Oberkörper deutlich sichtbar, Schätzung ±5 kg
+  - "medium" = Brustkorb/Schulter sichtbar, Schätzung ±7 kg
+  - "low"    = Nur Kopf/Hals sichtbar (Selfie) → Gesichtsfülle + Halsansatz als grobe Indikatoren, Schätzung ±10 kg
+  In allen Fällen: setze "bmiEstimateAvailable": true, "estimatedWeightKg", "estimatedBMI" = Gewicht / (Größe_m)^2 (eine Nachkommastelle), "bmiCategory" gemäß WHO: <18.5 Untergewicht, 18.5–24.9 Normal, 25.0–29.9 Übergewicht, ≥30 Adipositas, "bmiConfidence": "high|medium|low" und "bmiNote" mit der ehrlichen Unschärfe.
+- Wenn KEINE Größe angegeben ist: setze "bmiEstimateAvailable": false.
 - Beurteile rein VISUELLE Vitalitäts-Marker: Augen (Müdigkeit, Ringe, Glanz), Hautqualität (Teint, Rötung, Trockenheit), Mimik (Mundwinkel, Stirnfalten), Kopfhaltung, Frische-Eindruck.
 - "observations": 3–5 KONKRETE Details aus DIESEM Bild – keine Floskeln.
 - Scores ehrlich nach dem was du siehst (frisch = 85+, müde = 50–65). Nicht alles ist „75".
@@ -1317,11 +1322,12 @@ Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock) im Schema:
   "todayFocus": "1 Satz: worauf sollte sich der Fokus heute richten?",
   "recommendedSupplementIds": ["magnesium", "vitamin-d3"],
   "recommendedTipIds": ["meditation", "morgens-sonnenlicht"],
-  "bmiEstimateAvailable": false,
+  "bmiEstimateAvailable": true,
   "estimatedWeightKg": 75.0,
   "estimatedBMI": 23.7,
   "bmiCategory": "Normal",
-  "bmiNote": "Grobe Schätzung aus Foto, ignoriert Muskelmasse.",
+  "bmiConfidence": "low",
+  "bmiNote": "Grobe Schätzung – ignoriert Muskelmasse.",
   "disclaimer": "Subjektiver Tageseindruck, keine medizinische Aussage."
 }
 Wenn imageQuality === "insufficient": die Bewertungs-Felder dürfen leer/0 sein.
@@ -1334,18 +1340,13 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       // sich auch bei ähnlichen Bildern nicht in eine Schablone einfräst.
       const seed = Math.floor(Math.random() * 1e9);
 
-      // Körperdaten aus den Eingabefeldern lesen
+      // Körperdaten aus dem Eingabefeld
       const heightCm = parseFloat($('#bmi-height')?.value || '') || null;
-      const weightKg = parseFloat($('#bmi-weight')?.value || '') || null;
       let bodyContext = '';
-      let exactBMI = null;
-      if (heightCm && weightKg) {
-        exactBMI = +(weightKg / Math.pow(heightCm / 100, 2)).toFixed(1);
-        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm, Gewicht ${weightKg} kg → BMI ${exactBMI} (exakt berechnet, übernimm diese Werte in estimatedBMI/estimatedWeightKg/bmiCategory, setze bmiEstimateAvailable:true, bmiNote:"Aus Nutzereingaben berechnet").`;
-      } else if (heightCm) {
-        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm. Falls Körper sichtbar: schätze das Gewicht und berechne BMI (1 Nachkommastelle). Falls nur Gesicht/Selfie: bmiEstimateAvailable:false.`;
+      if (heightCm) {
+        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm. IMMER eine Gewichtsschätzung machen (auch bei reinem Gesichts-Selfie aus Gesichtsfülle und Halsansatz, dann bmiConfidence:"low"). Berechne BMI = Gewicht_kg / (${heightCm}/100)^2 auf 1 Nachkommastelle. Setze bmiEstimateAvailable:true.`;
       } else {
-        bodyContext = `\n\nKeine Körperdaten angegeben. Setze bmiEstimateAvailable:false.`;
+        bodyContext = `\n\nKeine Körpergröße angegeben. Setze bmiEstimateAvailable:false.`;
       }
       const body = {
         contents: [{
@@ -1378,15 +1379,6 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       if (json.imageQuality === 'insufficient') {
         renderTagescheckQualityError(json.qualityReason || 'Bildqualität reicht für eine seriöse Auswertung nicht aus.');
         return;
-      }
-
-      // Wenn Nutzer beide Werte angegeben hat: BMI exakt überschreiben (kein KI-Drift)
-      if (exactBMI) {
-        json.bmiEstimateAvailable = true;
-        json.estimatedBMI = exactBMI;
-        json.estimatedWeightKg = weightKg;
-        json.bmiCategory = bmiCategoryFor(exactBMI);
-        json.bmiNote = 'Aus deinen Eingaben berechnet (Größe ' + heightCm + ' cm, Gewicht ' + weightKg + ' kg).';
       }
 
       saveTagescheckEntry(json);
@@ -1476,13 +1468,24 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       const cat = d.bmiCategory || bmiCategoryFor(bmi) || '';
       const w = d.estimatedWeightKg ? `${(+d.estimatedWeightKg).toFixed(1)} kg` : '';
       const note = d.bmiNote || '';
+      const conf = d.bmiConfidence || 'low';
+      const confLabel = conf === 'high' ? 'hoch' : (conf === 'medium' ? 'mittel' : 'niedrig');
+      const confColor = conf === 'high' ? '#2f8b6a' : (conf === 'medium' ? '#d48a28' : '#c84a65');
       const catColor = cat === 'Normal' ? '#2f8b6a' : (cat === 'Übergewicht' || cat === 'Untergewicht' ? '#d48a28' : '#c84a65');
       bmiHtml = `<div class="tc-bmi">
         <div class="tc-bmi-num">${bmi.toFixed(1).replace('.', ',')}</div>
         <div class="tc-bmi-meta">
-          <div class="tc-bmi-label">BMI ${w ? `· ${escapeHtml(w)}` : ''}</div>
+          <div class="tc-bmi-label">BMI ${w ? `· ${escapeHtml(w)}` : ''} <span class="tc-bmi-conf" style="background:${confColor}1A;color:${confColor};">Konfidenz: ${confLabel}</span></div>
           <div class="tc-bmi-cat" style="color:${catColor};">${escapeHtml(cat)}</div>
           ${note ? `<div class="tc-bmi-note">${escapeHtml(note)}</div>` : ''}
+        </div>
+      </div>`;
+    } else {
+      // Größe angegeben aber KI hat keine Schätzung gemacht: Info zeigen
+      bmiHtml = `<div class="tc-bmi tc-bmi--unavailable">
+        <div class="tc-bmi-meta">
+          <div class="tc-bmi-label">BMI</div>
+          <div class="tc-bmi-note">Keine Schätzung möglich. Tipp: Größe oben eintragen oder Foto mit Oberkörper hochladen für eine BMI-Einschätzung.</div>
         </div>
       </div>`;
     }
