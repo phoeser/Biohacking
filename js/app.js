@@ -1169,14 +1169,21 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
   function saveTagescheckEntry(d) {
     try {
       const hist = loadTagescheckHistory();
-      hist.unshift({
+      const entry = {
         ts: Date.now(),
         score: Math.max(0, Math.min(100, Math.round(d.overallScore || 0))),
         sub: d.subScores || {},
         focus: (d.todayFocus || '').slice(0, 160),
         firstObs: (d.observations && d.observations[0] || '').slice(0, 160)
-      });
-      // auf MAX begrenzen
+      };
+      // BMI mitführen, wenn vorhanden
+      if (d.bmiEstimateAvailable && d.estimatedBMI) {
+        entry.bmi = +Number(d.estimatedBMI).toFixed(1);
+        entry.bmiCat = d.bmiCategory || bmiCategoryFor(entry.bmi);
+        if (d.estimatedWeightKg) entry.kg = +Number(d.estimatedWeightKg).toFixed(1);
+        if (d.bmiConfidence) entry.bmiConf = d.bmiConfidence;
+      }
+      hist.unshift(entry);
       while (hist.length > TAGESCHECK_HISTORY_MAX) hist.pop();
       localStorage.setItem(TAGESCHECK_HISTORY_KEY, JSON.stringify(hist));
     } catch (_) {}
@@ -1196,15 +1203,20 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       wrap.innerHTML = '';
       return;
     }
-    // Balken-Diagramm (chronologisch, älteste links)
+    // Balken-Diagramm (chronologisch, älteste links) + kleine BMI-Zahl unter jedem Balken
     const points = hist.slice().reverse();
-    const bars = points.map((p, i) => {
-      const h = Math.max(4, Math.round(p.score)); // 4–100% Höhe
+    const bars = points.map((p) => {
+      const h = Math.max(4, Math.round(p.score));
       const c = p.score >= 75 ? '#2f8b6a' : (p.score >= 50 ? '#d48a28' : '#c84a65');
       const dt = new Date(p.ts);
       const when = dt.toLocaleString('de-DE', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
-      const title = `${when} · Score ${p.score}` + (p.focus ? ` · ${p.focus}` : '');
-      return `<div class="tc-bar" style="height:${h}%; background:${c};" title="${escapeHtml(title)}"></div>`;
+      const bmiTxt = p.bmi ? ` · BMI ${(+p.bmi).toFixed(1).replace('.', ',')}` : '';
+      const title = `${when} · Score ${p.score}${bmiTxt}` + (p.focus ? ` · ${p.focus}` : '');
+      const bmiLabel = p.bmi ? `<div class="tc-bar-bmi">${(+p.bmi).toFixed(1).replace('.', ',')}</div>` : '<div class="tc-bar-bmi tc-bar-bmi--empty">–</div>';
+      return `<div class="tc-bar-col" title="${escapeHtml(title)}">
+        <div class="tc-bar" style="height:${h}%; background:${c};"></div>
+        ${bmiLabel}
+      </div>`;
     }).join('');
 
     // Letzte 3 prominent, Rest scrollbar
@@ -1216,10 +1228,11 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       const when = dt.toLocaleString('de-DE', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
       const c = e.score >= 75 ? '#2f8b6a' : (e.score >= 50 ? '#d48a28' : '#c84a65');
       const subTxt = Object.entries(e.sub || {}).map(([k, v]) => `${escapeHtml(k)} ${Math.round(v)}`).join(' · ');
+      const bmiBadge = e.bmi ? `<span class="tc-hist-bmi">BMI ${(+e.bmi).toFixed(1).replace('.', ',')}${e.kg ? ` · ${(+e.kg).toFixed(1)} kg` : ''}${e.bmiCat ? ` (${escapeHtml(e.bmiCat)})` : ''}</span>` : '';
       return `<li class="tc-hist-item">
         <span class="tc-hist-score" style="background:${c}1A;color:${c}">${e.score}</span>
         <span class="tc-hist-meta">
-          <span class="tc-hist-when">${escapeHtml(when)}</span>
+          <span class="tc-hist-when">${escapeHtml(when)}${bmiBadge}</span>
           ${subTxt ? `<span class="tc-hist-sub">${subTxt}</span>` : ''}
           ${e.focus ? `<span class="tc-hist-focus">${escapeHtml(e.focus)}</span>` : ''}
         </span>
