@@ -1253,12 +1253,12 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       </li>`;
     };
 
-    const top3Html = top3.map(itemHtml).join('');
-    const restHtml = rest.map(itemHtml).join('');
+    // Alle Einträge im EINEN scrollbaren Bereich (max. 60)
+    const allHtml = hist.map(itemHtml).join('');
 
     wrap.innerHTML = `
       <div class="tc-history-head">
-        <h3>📈 Dein Verlauf <span class="tc-hist-count">${hist.length}/${TAGESCHECK_HISTORY_MAX} Tage</span></h3>
+        <h3>📈 Dein Verlauf <span class="tc-hist-count">${hist.length}/${TAGESCHECK_HISTORY_MAX}</span></h3>
         <button type="button" class="btn-link" onclick="(function(){ try { localStorage.removeItem('${TAGESCHECK_HISTORY_KEY}'); document.getElementById('tagescheck-history').innerHTML=''; } catch(e){} })()">Verlauf löschen</button>
       </div>
       <div class="tc-bars" role="img" aria-label="Wellness-Score Verlauf als Balkendiagramm">${bars}</div>
@@ -1266,49 +1266,56 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         <span>älter</span>
         <span>jetzt →</span>
       </div>
-      <h4 class="tc-hist-section-title">Letzte 3</h4>
-      <ol class="tc-hist-list tc-hist-list--top">${top3Html}</ol>
-      ${rest.length ? `
-        <h4 class="tc-hist-section-title">Frühere (${rest.length})</h4>
-        <div class="tc-hist-scroll">
-          <ol class="tc-hist-list">${restHtml}</ol>
-        </div>
-      ` : ''}
+      <h4 class="tc-hist-section-title">Letzte Ergebnisse</h4>
+      <div class="tc-hist-scroll">
+        <ol class="tc-hist-list">${allHtml}</ol>
+      </div>
     `;
   }
 
-  // Bild komprimieren via Canvas (max maxSize px lange Kante, jpeg quality)
-  // Bei mirrorHorizontal=true wird das Bild PHYSISCH horizontal gespiegelt
-  // (sinnvoll für Frontkamera-Selfies, damit Vorschau dem Sucher-Eindruck entspricht).
-  function compressImage(file, maxSize, quality, mirrorHorizontal) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const im = new Image();
-        im.onload = () => {
-          let w = im.width, h = im.height;
-          if (w > maxSize || h > maxSize) {
-            if (w > h) { h = Math.round(h * maxSize / w); w = maxSize; }
-            else       { w = Math.round(w * maxSize / h); h = maxSize; }
-          }
-          const c = document.createElement('canvas');
-          c.width = w; c.height = h;
-          const ctx = c.getContext('2d');
-          if (mirrorHorizontal) {
-            ctx.translate(w, 0);
-            ctx.scale(-1, 1);
-          }
-          ctx.drawImage(im, 0, 0, w, h);
-          const dataUrl = c.toDataURL('image/jpeg', quality);
-          const base64 = dataUrl.split(',')[1];
-          resolve({ mime: 'image/jpeg', base64, dataUrl });
+  // Bild komprimieren + EXIF-Orientation auflösen (Smartphone-Fotos drehen sich sonst).
+  // Bei mirrorHorizontal=true wird zusätzlich physisch horizontal gespiegelt.
+  async function compressImage(file, maxSize, quality, mirrorHorizontal) {
+    // Versuche createImageBitmap mit EXIF-Auflösung (modern, iOS/Android Browser)
+    let source = null;
+    try {
+      if ('createImageBitmap' in window) {
+        source = await createImageBitmap(file, { imageOrientation: 'from-image' });
+      }
+    } catch (_) { source = null; }
+
+    // Fallback: FileReader+Image (alter Browser) — kann EXIF ignorieren, aber wenigstens funktional
+    if (!source) {
+      source = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const im = new Image();
+          im.onload = () => resolve(im);
+          im.onerror = reject;
+          im.src = e.target.result;
         };
-        im.onerror = reject;
-        im.src = e.target.result;
-      };
-      reader.onerror = reject;
-      reader.readAsDataURL(file);
-    });
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    let w = source.width, h = source.height;
+    if (w > maxSize || h > maxSize) {
+      if (w > h) { h = Math.round(h * maxSize / w); w = maxSize; }
+      else       { w = Math.round(w * maxSize / h); h = maxSize; }
+    }
+    const c = document.createElement('canvas');
+    c.width = w; c.height = h;
+    const ctx = c.getContext('2d');
+    if (mirrorHorizontal) {
+      ctx.translate(w, 0);
+      ctx.scale(-1, 1);
+    }
+    ctx.drawImage(source, 0, 0, w, h);
+    if (source.close) try { source.close(); } catch (_) {}
+    const dataUrl = c.toDataURL('image/jpeg', quality);
+    const base64 = dataUrl.split(',')[1];
+    return { mime: 'image/jpeg', base64, dataUrl };
   }
 
   async function analyzeSelfie() {
