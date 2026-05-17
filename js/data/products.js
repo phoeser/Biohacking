@@ -1,6 +1,6 @@
 /* Wearables & Biohacker-Produkte (Meine persönlichen Tipps)
  * affiliate: true → Whoop-Link hat meinen Empfehlungscode.
- * Oura & Apple Watch sind Tipps ohne Partnerlink.
+ * Oura hat ebenfalls Rabatt-Link.
  */
 const PRODUCTS = [
   {
@@ -46,28 +46,6 @@ const PRODUCTS = [
     link: 'https://ouraring.com/discount/7ca18ebe07?utm_source=user&utm_medium=iac_raf&utm_type=alwayson-cvr&utm_campaign=2026RAF&utm_variant=2026_raf_mar',
     code: '',
     affiliate: true
-  },
-  {
-    id: 'apple-watch',
-    name: 'Apple Watch',
-    category: 'Tracker',
-    emoji: '🍎',
-    tagline: 'Alleskönner – Fitness, Messaging, ECG',
-    short: 'Smartwatch mit EKG, Blutsauerstoff, Schlaftracking, Apps. iPhone erforderlich.',
-    pros: [
-      'Riesiges App-Ökosystem, viele 3rd-Party-Biohacking-Apps',
-      'EKG, SpO₂, Temperaturtrends, Sturzerkennung',
-      'Nahtlose iOS-Integration'
-    ],
-    cons: [
-      'Akku nur ~1 Tag (Series) bzw. 2–3 Tage (Ultra)',
-      'Nur mit iPhone nutzbar',
-      'Schlafmessung schwächer als Oura/Whoop'
-    ],
-    priceRange: 'ab 450 €',
-    link: '',
-    code: '',
-    affiliate: false
   }
 ];
 
