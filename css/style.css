@@ -2613,3 +2613,38 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--accent-2, #4a7a8a);
   font-weight: 600;
 }
+
+/* Kompakte BMI-Box UNTER dem Wellness-Score */
+.tc-bmi--mini {
+  display: block;
+  background: rgba(45, 90, 70, 0.04);
+  border: 1px solid rgba(45, 90, 70, 0.10);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 12px 0 6px;
+  font-size: 13px;
+}
+.tc-bmi-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.tc-bmi-num-mini {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+.tc-bmi-label-mini { color: var(--muted); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; }
+.tc-bmi-cat-mini { font-weight: 700; font-size: 13px; }
+.tc-bmi-conf-mini { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.3px; }
+.tc-bmi-msg {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--text);
+  font-style: italic;
+  line-height: 1.45;
+}
