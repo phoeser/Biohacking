@@ -129,7 +129,7 @@
     return { text, sources };
   }
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'experimental', 'news', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'news', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split('?')[0];
@@ -150,6 +150,7 @@
     if (name === 'news') onEnterNews();
     if (name === 'home') onEnterHome();
     if (name === 'experimental') onEnterExperimental();
+    if (name === 'tagescheck') onEnterTagescheck();
   }
 
   function initRouter() {
@@ -1071,8 +1072,221 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     });
   }
 
+  // ============ TAGESCHECK (SELFIE) ============
+  let _selfieData = null; // {mime, base64}
+
+  function initTagescheckView() {
+    const input = $('#selfie-input');
+    const btnTake = $('#btn-take-selfie');
+    const btnAnalyze = $('#btn-analyze-selfie');
+    const btnRetake = $('#btn-retake-selfie');
+    const upload = $('#tagescheck-upload');
+    const preview = $('#tagescheck-preview');
+    const result = $('#tagescheck-result');
+    const img = $('#selfie-preview-img');
+    if (!input) return;
+
+    btnTake?.addEventListener('click', () => input.click());
+
+    input.addEventListener('change', async (e) => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+      try {
+        const compressed = await compressImage(file, 1024, 0.85);
+        _selfieData = compressed;
+        img.src = compressed.dataUrl;
+        upload.classList.add('hidden');
+        preview.classList.remove('hidden');
+        result.classList.add('hidden');
+        result.innerHTML = '';
+      } catch (err) {
+        alert('Bild konnte nicht verarbeitet werden: ' + err.message);
+      }
+    });
+
+    btnRetake?.addEventListener('click', () => {
+      _selfieData = null;
+      input.value = '';
+      img.src = '';
+      preview.classList.add('hidden');
+      upload.classList.remove('hidden');
+      result.classList.add('hidden');
+      result.innerHTML = '';
+    });
+
+    btnAnalyze?.addEventListener('click', () => analyzeSelfie());
+  }
+
+  function onEnterTagescheck() {
+    // Beim Neuöffnen: alten Status zurücksetzen falls vorhanden
+    const result = $('#tagescheck-result');
+    if (result && !result.classList.contains('hidden') && !_selfieData) {
+      result.classList.add('hidden');
+    }
+  }
+
+  // Bild komprimieren via Canvas (max maxSize px lange Kante, jpeg quality)
+  function compressImage(file, maxSize, quality) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const im = new Image();
+        im.onload = () => {
+          let w = im.width, h = im.height;
+          if (w > maxSize || h > maxSize) {
+            if (w > h) { h = Math.round(h * maxSize / w); w = maxSize; }
+            else       { w = Math.round(w * maxSize / h); h = maxSize; }
+          }
+          const c = document.createElement('canvas');
+          c.width = w; c.height = h;
+          const ctx = c.getContext('2d');
+          ctx.drawImage(im, 0, 0, w, h);
+          const dataUrl = c.toDataURL('image/jpeg', quality);
+          const base64 = dataUrl.split(',')[1];
+          resolve({ mime: 'image/jpeg', base64, dataUrl });
+        };
+        im.onerror = reject;
+        im.src = e.target.result;
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  async function analyzeSelfie() {
+    if (!_selfieData) { alert('Bitte zuerst ein Selfie aufnehmen.'); return; }
+    const result = $('#tagescheck-result');
+    const btn = $('#btn-analyze-selfie');
+    if (btn) { btn.disabled = true; btn.textContent = 'Werte aus…'; }
+    result.classList.remove('hidden');
+    result.innerHTML = '<div class="tagescheck-loading">🔎 KI analysiert dein Selfie …</div>';
+
+    const sys = `Du bist ein freundlicher Wellness-Coach und analysierst ein Selbstporträt für einen Tageseindruck.
+WICHTIG – strikt einhalten:
+- KEINE medizinische Diagnose.
+- KEIN BMI, KEINE Gewichts-Schätzung, KEINE Krankheits-Vermutung.
+- Beurteile rein VISUELLE Vitalitäts-Marker: Augen (Müdigkeit, Ringe, Glanz), Hautqualität (Teint, Rötung, Trockenheit), Mimik, allgemeiner Frische-Eindruck.
+- Tonfall: freundlich, motivierend, alltagstauglich.
+
+Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock) im Schema:
+{
+  "overallScore": 75,
+  "subScores": {
+    "Erholung": 70,
+    "Stress": 65,
+    "Vitalität": 80
+  },
+  "observations": ["..."],
+  "todayFocus": "1 Satz: worauf sollte sich der Fokus heute richten?",
+  "recommendedSupplementIds": ["magnesium", "vitamin-d3"],
+  "recommendedTipIds": ["meditation", "morgens-sonnenlicht"],
+  "disclaimer": "Subjektiver Tageseindruck, keine medizinische Aussage."
+}
+Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus dieser Liste: ${(typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.map(s => s.id).join(', ') : '')}. 2–4 tip-IDs aus dieser Liste: ${(typeof TIPS !== 'undefined' ? TIPS.map(t => t.id).join(', ') : '')}.`;
+
+    const userPrompt = `Analysiere dieses Selfie. Liefere JSON nach Schema. Kein medizinischer Rat.`;
+
+    try {
+      const body = {
+        contents: [{
+          role: 'user',
+          parts: [
+            { text: userPrompt },
+            { inlineData: { mimeType: _selfieData.mime, data: _selfieData.base64 } }
+          ]
+        }],
+        generationConfig: {
+          temperature: 0.3,
+          maxOutputTokens: 1500,
+          thinkingConfig: { thinkingBudget: 0 }
+        },
+        systemInstruction: { parts: [{ text: sys }] }
+      };
+
+      const res = await fetch(AI_ENDPOINT(AI_MODEL), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      const text = (data?.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
+      const json = extractJson(text);
+      if (!json) throw new Error('KI-Antwort konnte nicht gelesen werden.');
+      renderTagescheckResult(json);
+    } catch (err) {
+      result.innerHTML = '<div class="err">Fehler bei der Auswertung: ' + escapeHtml(err.message) + '</div>';
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = '✨ Auswerten lassen'; }
+    }
+  }
+
+  function renderTagescheckResult(d) {
+    const result = $('#tagescheck-result');
+    if (!result) return;
+
+    const score = Math.max(0, Math.min(100, Math.round(d.overallScore || 0)));
+    const scoreColor = score >= 75 ? '#2f8b6a' : (score >= 50 ? '#d48a28' : '#c84a65');
+    const subScores = d.subScores || {};
+    const obs = (d.observations || []).slice(0, 6);
+
+    const supps = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : []);
+    const tips  = (typeof TIPS !== 'undefined' ? TIPS : []);
+    const recSupp = (d.recommendedSupplementIds || []).map(id => supps.find(s => s.id === id)).filter(Boolean).slice(0, 6);
+    const recTips = (d.recommendedTipIds || []).map(id => tips.find(t => t.id === id)).filter(Boolean).slice(0, 6);
+
+    const subScoreHtml = Object.entries(subScores).map(([label, val]) => {
+      const v = Math.max(0, Math.min(100, Math.round(val)));
+      const c = v >= 75 ? '#2f8b6a' : (v >= 50 ? '#d48a28' : '#c84a65');
+      return `<div class="tc-sub">
+        <div class="tc-sub-label">${escapeHtml(label)}</div>
+        <div class="tc-sub-bar"><div class="tc-sub-fill" style="width:${v}%; background:${c};"></div></div>
+        <div class="tc-sub-val">${v}</div>
+      </div>`;
+    }).join('');
+
+    const obsHtml = obs.length ? `<div class="tc-section"><h4>Beobachtungen</h4><ul>${obs.map(o => `<li>${escapeHtml(o)}</li>`).join('')}</ul></div>` : '';
+    const focusHtml = d.todayFocus ? `<div class="tc-focus"><strong>🎯 Fokus heute:</strong> ${escapeHtml(d.todayFocus)}</div>` : '';
+
+    const suppHtml = recSupp.length ? `<div class="tc-section"><h4>💊 Empfohlene Supplements heute</h4><div class="supplement-grid">${recSupp.map(s => `
+      <article class="supp-card">
+        <div class="supp-head"><span class="supp-cat">${escapeHtml(s.category)}</span>${s.evidence ? `<span class="ev ev-${s.evidence}">${s.evidence}</span>` : ''}</div>
+        <h3>${escapeHtml(s.name)}</h3>
+        <p>${escapeHtml(s.short || '')}</p>
+        ${s.dosage ? `<p class="small"><strong>Dosis:</strong> ${escapeHtml(s.dosage)}</p>` : ''}
+      </article>
+    `).join('')}</div></div>` : '';
+
+    const tipHtml = recTips.length ? `<div class="tc-section"><h4>🧠 Empfohlene Tipps heute</h4><div class="tips-grid">${recTips.map(t => `
+      <article class="tip-card">
+        <div class="tip-icon">${escapeHtml(t.icon || '💡')}</div>
+        <div class="tip-cat">${escapeHtml(t.category)}</div>
+        <h3>${escapeHtml(t.title)}</h3>
+        <p>${escapeHtml(t.short)}</p>
+        <p class="tip-how"><strong>Wie:</strong> ${escapeHtml(t.how)}</p>
+      </article>
+    `).join('')}</div></div>` : '';
+
+    result.innerHTML = `
+      <div class="tc-score-wrap">
+        <div class="tc-score-circle" style="--score-color:${scoreColor}; --score-deg:${score * 3.6}deg;">
+          <div class="tc-score-num">${score}</div>
+          <div class="tc-score-label">Wellness-Score</div>
+        </div>
+        <div class="tc-subscores">${subScoreHtml}</div>
+      </div>
+      ${focusHtml}
+      ${obsHtml}
+      ${suppHtml}
+      ${tipHtml}
+      ${d.disclaimer ? `<p class="tc-disclaimer">${escapeHtml(d.disclaimer)}</p>` : ''}
+      <div class="tc-actions"><button type="button" class="btn btn-ghost" onclick="document.getElementById('btn-retake-selfie').click();">📷 Neues Selfie</button></div>
+    `;
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initNavToggle();
+    initTagescheckView();
     initSupplementView();
     initSymptomView();
     initNewsView();
