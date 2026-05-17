@@ -851,18 +851,20 @@ button { font-family: inherit; cursor: pointer; }
    Responsive
    ============================================ */
 @media (max-width: 768px) {
-  .main-nav { display: none; }
-  .main-nav.open {
+  /* Navigation horizontal scrollbar auf Mobile */
+  .main-nav {
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%; left: 0; right: 0;
-    background: var(--bg-alt);
-    border-bottom: 1px solid var(--surface-border);
-    padding: 20px 24px;
-    gap: 16px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 18px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 4px 0 6px;
+    max-width: 60%;
   }
-  .btn-nav-toggle { display: flex; }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .main-nav a { white-space: nowrap; font-size: 14px; }
+  .btn-nav-toggle { display: none; }
   .hero { padding: 50px 0 70px; }
   .hero-stats { gap: 30px; }
   .hero-stats strong { font-size: 30px; }
@@ -1582,7 +1584,7 @@ button { font-family: inherit; cursor: pointer; }
 /* Header Badge - klein halten auf Mobile */
 @media (max-width: 700px) {
   .key-badge { display: none; }
-  .main-nav { display: none; }
+  /* main-nav bleibt sichtbar als horizontale Scroll-Liste – Regel aus 768px greift */
 }
 
 /* =========================================================
@@ -2216,4 +2218,15 @@ button { font-family: inherit; cursor: pointer; }
 .exp-disclaimer:not(.exp-disclaimer--compact) {
   padding: 12px 16px;
   font-size: 13px;
+}
+
+
+/* Sehr schmale Screens (Telefon hochkant) — Navi noch kompakter */
+@media (max-width: 480px) {
+  .header-inner { padding: 10px 14px; gap: 10px; }
+  .main-nav { gap: 14px; max-width: 55%; }
+  .main-nav a { font-size: 13px; }
+  .logo-text strong { font-size: 13px; }
+  .logo-text em { font-size: 10px; }
+  .logo-mark { width: 36px; height: 36px; }
 }
