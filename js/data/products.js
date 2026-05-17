@@ -43,9 +43,9 @@ const PRODUCTS = [
       'Kein direktes Training-Tracking'
     ],
     priceRange: 'ca. 350 € + 6 €/Monat',
-    link: '',
+    link: 'https://ouraring.com/discount/7ca18ebe07?utm_source=user&utm_medium=iac_raf&utm_type=alwayson-cvr&utm_campaign=2026RAF&utm_variant=2026_raf_mar',
     code: '',
-    affiliate: false
+    affiliate: true
   },
   {
     id: 'apple-watch',
