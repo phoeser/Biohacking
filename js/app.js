@@ -990,8 +990,44 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     });
   }
 
+  function renderKhavinson() {
+    const grid = document.getElementById('khavinson-grid');
+    if (!grid || typeof KHAVINSON === 'undefined') return;
+    grid.innerHTML = KHAVINSON.map(e => {
+      const benefits = (e.benefits || []).map(b => `<li>${escapeHtml(b)}</li>`).join('');
+      const risks = (e.risks || []).map(r => `<li>${escapeHtml(r)}</li>`).join('');
+      const sources = (e.sources || []).map(s =>
+        `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`
+      ).join('');
+      const community = (e.community || []).map(s =>
+        `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`
+      ).join('');
+      return `
+        <article class="exp-card exp-card--khavinson">
+          <div class="exp-head">
+            <div class="exp-emoji">${escapeHtml(e.emoji || '🧬')}</div>
+            <div class="exp-title">
+              <h3>${escapeHtml(e.name)}</h3>
+              ${e.altNames ? `<div class="exp-alt">${escapeHtml(e.altNames)}</div>` : ''}
+              <div class="exp-class">${escapeHtml(e.class || '')}</div>
+            </div>
+          </div>
+          <p class="exp-short">${escapeHtml(e.short || '')}</p>
+          <div class="exp-section"><strong>Wirkungsweise</strong><p>${escapeHtml(e.moa || '')}</p></div>
+          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Beworbene Effekte</strong><ul>${benefits}</ul></div>` : ''}
+          ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Limitationen</strong><ul>${risks}</ul></div>` : ''}
+          <div class="exp-status"><strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}</div>
+          ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
+          ${community ? `<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}</ul></details>` : ''}
+          <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
+        </article>
+      `;
+    }).join('');
+  }
+
   function onEnterExperimental() {
     renderExperimental();
+    renderKhavinson();
   }
 
   function renderExperimental() {
