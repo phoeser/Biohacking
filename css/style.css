@@ -2648,3 +2648,28 @@ button { font-family: inherit; cursor: pointer; }
   font-style: italic;
   line-height: 1.45;
 }
+
+/* ============ KHAVINSON-SUB-SEKTION ============ */
+.khavinson-section {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 2px dashed rgba(45, 90, 70, 0.15);
+}
+.khavinson-head {
+  margin-bottom: 22px;
+}
+.khavinson-head h3 {
+  font-size: 26px;
+  margin: 6px 0 10px;
+}
+.khavinson-head p {
+  color: var(--muted);
+  max-width: 720px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.exp-card--khavinson {
+  background: linear-gradient(180deg, rgba(74, 122, 138, 0.04) 0%, rgba(255, 255, 255, 0.85) 100%);
+  border-color: rgba(74, 122, 138, 0.18);
+}
+.exp-card--khavinson .exp-class { color: #4a7a8a; }
