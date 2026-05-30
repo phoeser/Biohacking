@@ -1127,13 +1127,17 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     btnTake?.addEventListener('click', () => inputCam.click());
     btnUpload?.addEventListener('click', () => inputFile.click());
 
-    // Größe aus localStorage vorbefüllen + bei Änderung speichern
+    // Größe + Alter aus localStorage vorbefüllen + bei Änderung speichern
     const heightInp = $('#bmi-height');
+    const ageInp = $('#bmi-age');
     try {
       const h = localStorage.getItem('bhc_body_height_cm');
       if (h && heightInp) heightInp.value = h;
+      const a = localStorage.getItem('bhc_body_age');
+      if (a && ageInp) ageInp.value = a;
     } catch (_) {}
     heightInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_height_cm', heightInp.value); } catch (_) {} });
+    ageInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_age', ageInp.value); } catch (_) {} });
 
     const handleFile = async (e) => {
       const file = e.target.files?.[0];
@@ -1189,9 +1193,20 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     return 'Adipositas';
   }
 
-  // Feinere BMI-Bewertung mit nettem Spruch
-  function bmiAssessmentFor(bmi) {
+  // Feinere BMI-Bewertung mit nettem Spruch — altersgerecht ab 65 etwas verschoben
+  // (geriatrische Norm: leichtes Mehrgewicht ist Reserve, Untergewicht riskanter).
+  function bmiAssessmentFor(bmi, age) {
     if (bmi == null) return null;
+    const senior = age && age >= 65;
+    if (senior) {
+      if (bmi < 18)   return { label: 'Starkes Untergewicht (Senior)',  color: '#c84a65', msg: 'Im Alter besonders riskant – Eiweißzufuhr und Muskelaufbau haben Priorität.' };
+      if (bmi < 22)   return { label: 'Untere Komfortzone (Senior)',    color: '#d48a28', msg: 'Im Alter sind 23–28 oft besser als Reserve – ein paar Kilo dürften gerne dazu.' };
+      if (bmi < 28)   return { label: 'Optimaler Senior-Bereich',       color: '#2f8b6a', msg: 'Genau richtig im Alter – gute Reserve, einfach halten.' };
+      if (bmi < 30)   return { label: 'Leichtes Übergewicht',           color: '#d48a28', msg: 'Im Alter noch okay – leichte Bewegung würde gut tun.' };
+      if (bmi < 35)   return { label: 'Adipositas Grad I',              color: '#c84a65', msg: 'Sukzessive abbauen, Bewegung priorisieren – ohne Crash-Diät.' };
+      if (bmi < 40)   return { label: 'Adipositas Grad II',             color: '#c84a65', msg: 'Mit ärztlicher Begleitung angehen.' };
+      return            { label: 'Adipositas Grad III',                 color: '#a63a52', msg: 'Bitte unbedingt ärztlich begleiten – langfristig dranbleiben lohnt sich.' };
+    }
     if (bmi < 16)   return { label: 'Starkes Untergewicht',     color: '#c84a65', msg: 'Deutlich zu wenig – das belastet Stoffwechsel und Hormone. Aufbau hat hier Priorität.' };
     if (bmi < 18.5) return { label: 'Leichtes Untergewicht',    color: '#d48a28', msg: 'Etwas weniger als optimal – ein paar Kilo Muskelmasse würden gut tun.' };
     if (bmi < 22)   return { label: 'Optimaler Normalbereich',  color: '#2f8b6a', msg: 'Top im Optimalfenster – einfach halten.' };
@@ -1309,18 +1324,59 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     `;
   }
 
-  // Bild komprimieren + EXIF-Orientation auflösen (Smartphone-Fotos drehen sich sonst).
-  // Bei mirrorHorizontal=true wird zusätzlich physisch horizontal gespiegelt.
+  // EXIF-Orientation aus JPEG ArrayBuffer auslesen. Liefert 1..8 (1 = normal).
+  // Smartphones speichern physisch oft im Landscape-Modus und vermerken im EXIF
+  // die wahre Display-Rotation. Wir parsen das selbst, damit wir unabhängig vom
+  // Browser-Verhalten (createImageBitmap mit imageOrientation kennt nicht jeder) sind.
+  async function readExifOrientation(file) {
+    try {
+      const buf = await file.slice(0, 128 * 1024).arrayBuffer();
+      const view = new DataView(buf);
+      if (view.byteLength < 4 || view.getUint16(0, false) !== 0xFFD8) return 1; // kein JPEG
+      let offset = 2;
+      while (offset + 4 < view.byteLength) {
+        const marker = view.getUint16(offset, false);
+        offset += 2;
+        if ((marker & 0xFF00) !== 0xFF00) return 1;
+        if (marker === 0xFFE1) { // APP1 = EXIF
+          if (view.getUint32(offset + 2, false) !== 0x45786966) return 1; // "Exif"
+          const tiffStart = offset + 8;
+          const little = view.getUint16(tiffStart, false) === 0x4949;
+          const firstIFD = view.getUint32(tiffStart + 4, little);
+          const ifdStart = tiffStart + firstIFD;
+          if (ifdStart + 2 > view.byteLength) return 1;
+          const tagCount = view.getUint16(ifdStart, little);
+          for (let i = 0; i < tagCount; i++) {
+            const entry = ifdStart + 2 + i * 12;
+            if (entry + 12 > view.byteLength) break;
+            if (view.getUint16(entry, little) === 0x0112) {
+              const o = view.getUint16(entry + 8, little);
+              return (o >= 1 && o <= 8) ? o : 1;
+            }
+          }
+          return 1;
+        } else {
+          offset += view.getUint16(offset, false);
+        }
+      }
+      return 1;
+    } catch (_) { return 1; }
+  }
+
+  // Bild komprimieren + EXIF-Orientation manuell anwenden (Smartphone-Fotos drehen sich sonst).
+  // Bei mirrorHorizontal=true wird nach der EXIF-Korrektur zusätzlich horizontal gespiegelt.
   async function compressImage(file, maxSize, quality, mirrorHorizontal) {
-    // Versuche createImageBitmap mit EXIF-Auflösung (modern, iOS/Android Browser)
+    const orientation = await readExifOrientation(file);
+
+    // Quelle laden — explizit OHNE automatische EXIF-Rotation (machen wir manuell).
+    // 'imageOrientation: none' verhindert, dass Chromium die EXIF doppelt anwendet.
     let source = null;
     try {
       if ('createImageBitmap' in window) {
-        source = await createImageBitmap(file, { imageOrientation: 'from-image' });
+        source = await createImageBitmap(file, { imageOrientation: 'none' });
       }
     } catch (_) { source = null; }
 
-    // Fallback: FileReader+Image (alter Browser) — kann EXIF ignorieren, aber wenigstens funktional
     if (!source) {
       source = await new Promise((resolve, reject) => {
         const reader = new FileReader();
@@ -1335,21 +1391,57 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       });
     }
 
-    let w = source.width, h = source.height;
-    if (w > maxSize || h > maxSize) {
-      if (w > h) { h = Math.round(h * maxSize / w); w = maxSize; }
-      else       { w = Math.round(w * maxSize / h); h = maxSize; }
+    const srcW = source.width, srcH = source.height;
+    // Nach Rotation (EXIF 5–8 = 90°/270°) sind Breite und Höhe vertauscht.
+    const rotated = (orientation >= 5 && orientation <= 8);
+    let dispW = rotated ? srcH : srcW;
+    let dispH = rotated ? srcW : srcH;
+
+    // Auf maxSize verkleinern (Long-Edge)
+    if (dispW > maxSize || dispH > maxSize) {
+      const scale = Math.min(maxSize / dispW, maxSize / dispH);
+      dispW = Math.round(dispW * scale);
+      dispH = Math.round(dispH * scale);
     }
+
     const c = document.createElement('canvas');
-    c.width = w; c.height = h;
+    c.width = dispW; c.height = dispH;
     const ctx = c.getContext('2d');
-    if (mirrorHorizontal) {
-      ctx.translate(w, 0);
-      ctx.scale(-1, 1);
+
+    // Transform für alle 8 EXIF-Orientierungen
+    switch (orientation) {
+      case 2: ctx.translate(dispW, 0);     ctx.scale(-1, 1);        break;
+      case 3: ctx.translate(dispW, dispH); ctx.rotate(Math.PI);     break;
+      case 4: ctx.translate(0, dispH);     ctx.scale(1, -1);        break;
+      case 5: ctx.rotate(0.5 * Math.PI);   ctx.scale(1, -1);        break;
+      case 6: ctx.translate(dispW, 0);     ctx.rotate(0.5 * Math.PI); break;
+      case 7: ctx.translate(dispW, 0);     ctx.rotate(0.5 * Math.PI); ctx.scale(-1, 1); break;
+      case 8: ctx.translate(0, dispH);     ctx.rotate(-0.5 * Math.PI); break;
+      default: break; // 1 = nichts
     }
-    ctx.drawImage(source, 0, 0, w, h);
+
+    // Im rotierten Modus (5–8) hat das transformierte Koordinatensystem
+    // Breite=dispH, Höhe=dispW (vor dem Drehen). Sonst dispW × dispH.
+    if (rotated) {
+      ctx.drawImage(source, 0, 0, dispH, dispW);
+    } else {
+      ctx.drawImage(source, 0, 0, dispW, dispH);
+    }
     if (source.close) try { source.close(); } catch (_) {}
-    const dataUrl = c.toDataURL('image/jpeg', quality);
+
+    // Mirror (Front-Kamera-Look) nach EXIF-korrekter Darstellung: separates Canvas.
+    let outCanvas = c;
+    if (mirrorHorizontal) {
+      const m = document.createElement('canvas');
+      m.width = dispW; m.height = dispH;
+      const mctx = m.getContext('2d');
+      mctx.translate(dispW, 0);
+      mctx.scale(-1, 1);
+      mctx.drawImage(c, 0, 0);
+      outCanvas = m;
+    }
+
+    const dataUrl = outCanvas.toDataURL('image/jpeg', quality);
     const base64 = dataUrl.split(',')[1];
     return { mime: 'image/jpeg', base64, dataUrl };
   }
@@ -1387,6 +1479,12 @@ SCHRITT 2 – Nur wenn Bildqualität OK: Wellness-Einschätzung
 - Beurteile rein VISUELLE Vitalitäts-Marker: Augen (Müdigkeit, Ringe, Glanz), Hautqualität (Teint, Rötung, Trockenheit), Mimik (Mundwinkel, Stirnfalten), Kopfhaltung, Frische-Eindruck.
 - "observations": 3–5 KONKRETE Details aus DIESEM Bild – keine Floskeln.
 - Scores ehrlich nach dem was du siehst (frisch = 85+, müde = 50–65). Nicht alles ist „75".
+- ALTERSKORREKTUR (sehr wichtig): Vergleiche die Marker IMMER mit dem altersgemäßen Normalzustand der Person.
+  Faltige Haut, leichte Augenringe, weniger Frische-Glow sind bei 60+ NORMAL und KEIN Stress-/Erschöpfungs-Signal.
+  Junge Haut ist KEIN Bonus für hohe Vitalitäts-Scores. Werte einen 65-Jährigen mit gepflegtem, wachen Eindruck genauso hoch (85+)
+  wie einen 30-Jährigen mit frischer Haut. Erschöpfung erkennst du an: Mimik (abfallende Mundwinkel,
+  gedrückter Ausdruck), Augen-Glanz (matt vs. wach), Kopfhaltung (gesenkt), Hautfarbe (fahl, ungewöhnlich blass/grau).
+  Ohne diese spezifischen Marker → keine Stress-Abwertung wegen Alter.
 
 Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock) im Schema:
 {
@@ -1416,17 +1514,23 @@ Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus d
       // sich auch bei ähnlichen Bildern nicht in eine Schablone einfräst.
       const seed = Math.floor(Math.random() * 1e9);
 
-      // Körperdaten aus dem Eingabefeld
+      // Körperdaten aus den Eingabefeldern
       const heightCm = parseFloat($('#bmi-height')?.value || '') || null;
+      const ageYears = parseInt($('#bmi-age')?.value || '', 10) || null;
       let bodyContext = '';
+      if (ageYears) {
+        bodyContext += `\n\nALTER der Person: ${ageYears} Jahre. Bewerte ALLE Vitalitäts-Marker altersgemäß (siehe System-Prompt ALTERSKORREKTUR). Ein 65-Jähriger mit wachem, gepflegtem Eindruck verdient genauso 85+ Score wie ein 30-Jähriger mit frischer Haut.`;
+      } else {
+        bodyContext += `\n\nKein Alter angegeben – schätze grob (jung/mittel/alt) und werte alle Marker altersgemäß, sonst werden Junge automatisch zu fit und Ältere automatisch zu erschöpft eingestuft.`;
+      }
       if (heightCm) {
-        bodyContext = `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm. IMMER eine Gewichtsschätzung machen (auch bei reinem Gesichts-Selfie aus Gesichtsfülle, Wangenkontur und Halsansatz, dann bmiConfidence:"low").
+        bodyContext += `\n\nKörperdaten (vom Nutzer): Größe ${heightCm} cm${ageYears ? `, Alter ${ageYears}` : ''}. IMMER eine Gewichtsschätzung machen (auch bei reinem Gesichts-Selfie aus Gesichtsfülle, Wangenkontur und Halsansatz, dann bmiConfidence:"low").
 WICHTIG – konservative Gewichtsschätzung:
 - KI-Modelle überschätzen visuell aus Selfies das Gewicht systematisch um 3–8 kg. Korrigiere das aktiv: schätze eher 5 kg WENIGER als dein erster Eindruck, vor allem wenn du dir unsicher bist.
 - Typische Verteilung erwachsener Männer 170–185 cm: 65–85 kg (BMI 22–25). Bei Frauen 160–175 cm: 55–72 kg (BMI 21–24). Diese Bereiche als Baseline nutzen, NICHT pauschal höher schätzen.
 - Berechne dann BMI = Gewicht_kg / (${heightCm}/100)^2 auf 1 Nachkommastelle. Setze bmiEstimateAvailable:true.`;
       } else {
-        bodyContext = `\n\nKeine Körpergröße angegeben. Setze bmiEstimateAvailable:false.`;
+        bodyContext += `\n\nKeine Körpergröße angegeben. Setze bmiEstimateAvailable:false.`;
       }
       const body = {
         contents: [{
@@ -1541,11 +1645,12 @@ WICHTIG – konservative Gewichtsschätzung:
       </article>
     `).join('')}</div></div>` : '';
 
-    // BMI-Block (kompakt, kommt UNTER den Wellness-Score)
+    // BMI-Block (kompakt, kommt UNTER den Wellness-Score) — altersgerecht via bhc_body_age
     let bmiHtml = '';
     if (d.bmiEstimateAvailable && d.estimatedBMI) {
       const bmi = +Number(d.estimatedBMI).toFixed(1);
-      const assess = bmiAssessmentFor(bmi);
+      const ageForAssess = parseInt($('#bmi-age')?.value || localStorage.getItem('bhc_body_age') || '', 10) || null;
+      const assess = bmiAssessmentFor(bmi, ageForAssess);
       const cat = (assess && assess.label) || d.bmiCategory || '';
       const catColor = (assess && assess.color) || '#5a6560';
       const msg = (assess && assess.msg) || '';
@@ -1600,4 +1705,3 @@ WICHTIG – konservative Gewichtsschätzung:
   });
 
 })();
-  
