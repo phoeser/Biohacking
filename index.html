@@ -250,11 +250,17 @@
 
         <div class="tagescheck-wrap">
           <div class="tagescheck-body-inputs">
-            <label class="tc-input-field tc-input-field--full">
-              <span>Größe (cm)</span>
-              <input type="number" id="bmi-height" inputmode="numeric" min="120" max="230" step="1" placeholder="z.B. 178" />
-            </label>
-            <p class="tc-body-hint">Mit Körperbild (nicht nur Gesicht) schätzt die KI Gewicht und BMI visuell — Genauigkeit ±5–8 kg.</p>
+            <div class="tc-input-row">
+              <label class="tc-input-field">
+                <span>Größe (cm)</span>
+                <input type="number" id="bmi-height" inputmode="numeric" min="120" max="230" step="1" placeholder="z.B. 178" />
+              </label>
+              <label class="tc-input-field">
+                <span>Alter</span>
+                <input type="number" id="bmi-age" inputmode="numeric" min="14" max="110" step="1" placeholder="z.B. 42" />
+              </label>
+            </div>
+            <p class="tc-body-hint">Größe für BMI, Alter für altersgerechte Bewertung — beides wird lokal gespeichert und nur einmal abgefragt.</p>
           </div>
 
           <div class="tagescheck-upload" id="tagescheck-upload">
@@ -413,11 +419,3 @@
 
   <!-- Daten und App-Logik -->
   <script src="js/data/supplements.js"></script>
-  <script src="js/data/tips.js"></script>
-  <script src="js/data/goals.js"></script>
-  <script src="js/data/products.js"></script>
-  <script src="js/data/experimental.js"></script>
-  <script src="js/data/khavinson.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
