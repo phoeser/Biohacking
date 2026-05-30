@@ -1,16 +1,39 @@
-# OS
+# === Lokale geheime Schlüssel (NIE deployen!) ===
+*Key.txt
+*key.txt
+*KEY.txt
+*Token*.txt
+*token*.txt
+*.key
+*.token
+.env
+.env.local
+
+# Komplette Ordner ausschließen
+API Keys/
+APIKeys/
+api-keys/
+api_keys/
+secrets/
+keys/
+
+# === Auto-Generated / Temporary ===
+*.bak
+*.tmp
+sync_test*.txt
+test_sync*.txt
+node_modules/
+dist/
+
+# === OS ===
 .DS_Store
 Thumbs.db
 
-# Editor
+# === Editor ===
 .vscode/
 .idea/
 *.swp
 
-# Node (falls später Build-Tools hinzugefügt werden)
-node_modules/
-dist/
-
-# Logs
+# === Logs ===
 *.log
 npm-debug.log*
