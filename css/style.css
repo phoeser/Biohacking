@@ -2677,4 +2677,8 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 14px;
   line-height: 1.55;
 }
-.exp-card--khavi
+.exp-card--khavinson {
+  background: linear-gradient(180deg, rgba(74, 122, 138, 0.04) 0%, rgba(255, 255, 255, 0.85) 100%);
+  border-color: rgba(74, 122, 138, 0.18);
+}
+.exp-card--khavinson .exp-class { color: #4a7a8a; }
