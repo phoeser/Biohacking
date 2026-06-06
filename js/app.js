@@ -1110,6 +1110,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
 
   // ============ TAGESCHECK (SELFIE) ============
   let _selfieData = null; // {mime, base64}
+  let _vitalsData = null; // Ergebnis der Live-Messung (Puls/Atmung/Blinzeln), oder null
 
   function initTagescheckView() {
     const inputCam = $('#selfie-camera-input');
@@ -1163,6 +1164,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
 
     btnRetake?.addEventListener('click', () => {
       _selfieData = null;
+      _vitalsData = null;
       inputCam.value = '';
       inputFile.value = '';
       img.src = '';
@@ -1174,6 +1176,104 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     });
 
     btnAnalyze?.addEventListener('click', () => analyzeSelfie());
+
+    // ---- Live-Messung (Vitalwerte) ----
+    initLiveMeasure();
+  }
+
+  let _liveMeasuring = false;
+
+  function initLiveMeasure() {
+    const btnLive   = $('#btn-live-measure');
+    const camStage  = $('#tagescheck-camera');
+    const upload    = $('#tagescheck-upload');
+    const preview   = $('#tagescheck-preview');
+    const result    = $('#tagescheck-result');
+    const video     = $('#tc-cam-video');
+    const btnStart  = $('#btn-start-measure');
+    const btnCancel = $('#btn-cancel-measure');
+    const status    = $('#tc-cam-status');
+    const stage     = $('#tc-cam-stage');
+    const countEl   = $('#tc-cam-count');
+    const hintEl    = $('#tc-cam-hint');
+    const fill      = $('#tc-cam-progress-fill');
+    if (!btnLive || !camStage) return;
+
+    const vitalsAvailable = !!(window.BHCVitals && window.BHCVitals.isSupported());
+    if (!vitalsAvailable) {
+      btnLive.disabled = true;
+      btnLive.title = 'Live-Messung wird von diesem Browser nicht unterstützt.';
+    }
+
+    btnLive.addEventListener('click', async () => {
+      upload.classList.add('hidden');
+      preview.classList.add('hidden');
+      result.classList.add('hidden');
+      camStage.classList.remove('hidden');
+      if (fill) fill.style.width = '0%';
+      if (countEl) countEl.textContent = '30';
+      btnStart.disabled = true;
+      status.textContent = 'Kamera wird gestartet … bitte Zugriff erlauben.';
+      const ok = await window.BHCVitals.openCamera(video);
+      if (!ok) {
+        status.textContent = 'Kamerazugriff nicht möglich. Bitte Berechtigung prüfen oder Selfie/Foto verwenden.';
+        return;
+      }
+      status.textContent = 'Bereit. Gesicht ins Oval, dann „Messung starten".';
+      btnStart.disabled = false;
+    });
+
+    btnCancel.addEventListener('click', () => {
+      try { window.BHCVitals.close(); } catch (_) {}
+      _liveMeasuring = false;
+      camStage.classList.add('hidden');
+      stage?.classList.remove('measuring');
+      upload.classList.remove('hidden');
+    });
+
+    btnStart.addEventListener('click', async () => {
+      if (_liveMeasuring) return;
+      _liveMeasuring = true;
+      btnStart.disabled = true;
+      btnCancel.disabled = true;
+      stage?.classList.add('measuring');
+      if (hintEl) hintEl.textContent = 'Messung läuft · ruhig sitzen · gleichmäßig atmen';
+      status.textContent = 'Messung läuft …';
+
+      let vitals = null;
+      try {
+        vitals = await window.BHCVitals.measure({
+          durationMs: 30000,
+          onTick: (prog, secsLeft) => {
+            if (fill) fill.style.width = Math.round(prog * 100) + '%';
+            if (countEl) countEl.textContent = String(Math.max(0, secsLeft));
+          }
+        });
+      } catch (err) {
+        status.textContent = 'Messung fehlgeschlagen: ' + (err && err.message ? err.message : 'unbekannter Fehler');
+        _liveMeasuring = false;
+        btnStart.disabled = false; btnCancel.disabled = false;
+        stage?.classList.remove('measuring');
+        return;
+      }
+
+      try { window.BHCVitals.close(); } catch (_) {}
+      _liveMeasuring = false;
+      btnCancel.disabled = false;
+      stage?.classList.remove('measuring');
+      camStage.classList.add('hidden');
+
+      if (!vitals || !vitals.frames || !vitals.frames.length) {
+        upload.classList.remove('hidden');
+        alert('Die Messung hat kein verwertbares Bild geliefert. ' + (vitals && vitals.note ? vitals.note : 'Bitte bei besserem Licht erneut versuchen.'));
+        return;
+      }
+
+      _vitalsData = vitals;
+      // Vorschau-Bild für den Verlauf-Reset/Retake-Pfad
+      _selfieData = vitals.frames[0];
+      analyzeTagescheck(vitals.frames, vitals);
+    });
   }
 
   function onEnterTagescheck() {
@@ -1231,7 +1331,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     } catch (_) { return []; }
   }
 
-  function saveTagescheckEntry(d) {
+  function saveTagescheckEntry(d, vitals) {
     try {
       const hist = loadTagescheckHistory();
       const entry = {
@@ -1241,6 +1341,12 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         focus: (d.todayFocus || '').slice(0, 160),
         firstObs: (d.observations && d.observations[0] || '').slice(0, 160)
       };
+      // Live-Vitalwerte mitführen, wenn vorhanden
+      if (vitals) {
+        if (vitals.pulseBpm) entry.pulse = vitals.pulseBpm;
+        if (vitals.breathingRpm) entry.breath = vitals.breathingRpm;
+        if (vitals.blinkAvailable && vitals.blinkRate != null) entry.blink = vitals.blinkRate;
+      }
       // BMI mitführen, wenn vorhanden
       if (d.bmiEstimateAvailable && d.estimatedBMI) {
         entry.bmi = +Number(d.estimatedBMI).toFixed(1);
@@ -1294,10 +1400,11 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       const c = e.score >= 75 ? '#2f8b6a' : (e.score >= 50 ? '#d48a28' : '#c84a65');
       const subTxt = Object.entries(e.sub || {}).map(([k, v]) => `${escapeHtml(k)} ${Math.round(v)}`).join(' · ');
       const bmiBadge = e.bmi ? `<span class="tc-hist-bmi">BMI ${(+e.bmi).toFixed(1).replace('.', ',')}${e.kg ? ` · ${(+e.kg).toFixed(1)} kg` : ''}${e.bmiCat ? ` (${escapeHtml(e.bmiCat)})` : ''}</span>` : '';
+      const pulseBadge = e.pulse ? `<span class="tc-hist-bmi">🫀 ${e.pulse} bpm</span>` : '';
       return `<li class="tc-hist-item">
         <span class="tc-hist-score" style="background:${c}1A;color:${c}">${e.score}</span>
         <span class="tc-hist-meta">
-          <span class="tc-hist-when">${escapeHtml(when)}${bmiBadge}</span>
+          <span class="tc-hist-when">${escapeHtml(when)}${bmiBadge}${pulseBadge}</span>
           ${subTxt ? `<span class="tc-hist-sub">${subTxt}</span>` : ''}
           ${e.focus ? `<span class="tc-hist-focus">${escapeHtml(e.focus)}</span>` : ''}
         </span>
@@ -1363,21 +1470,24 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     } catch (_) { return 1; }
   }
 
-  // Bild komprimieren + EXIF-Orientation manuell anwenden (Smartphone-Fotos drehen sich sonst).
-  // Bei mirrorHorizontal=true wird nach der EXIF-Korrektur zusätzlich horizontal gespiegelt.
+  // Bild komprimieren. Die EXIF-Orientierung überlassen wir bewusst dem Browser
+  // (Spec-Default 'from-image'), statt sie selbst zu parsen und manuell zu drehen.
+  // Grund: manche mobile Browser (v.a. iOS Safari) orientieren das Bitmap bereits
+  // selbst und ignorieren 'imageOrientation: none' stillschweigend — dann drehte
+  // unser manueller Code ein ZWEITES Mal und das Bild kippte. Mit Auto-Orientierung
+  // gibt es nur eine Drehung, und die ist korrekt.
+  // Bei mirrorHorizontal=true wird zusätzlich horizontal gespiegelt (Frontkamera-Look).
   async function compressImage(file, maxSize, quality, mirrorHorizontal) {
-    const orientation = await readExifOrientation(file);
-
-    // Quelle laden — explizit OHNE automatische EXIF-Rotation (machen wir manuell).
-    // 'imageOrientation: none' verhindert, dass Chromium die EXIF doppelt anwendet.
+    // Quelle laden MIT browser-nativer EXIF-Orientierung.
     let source = null;
     try {
       if ('createImageBitmap' in window) {
-        source = await createImageBitmap(file, { imageOrientation: 'none' });
+        source = await createImageBitmap(file, { imageOrientation: 'from-image' });
       }
     } catch (_) { source = null; }
 
     if (!source) {
+      // Fallback: <img> orientiert per CSS-Default 'image-orientation: from-image' selbst.
       source = await new Promise((resolve, reject) => {
         const reader = new FileReader();
         reader.onload = (e) => {
@@ -1391,11 +1501,8 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       });
     }
 
-    const srcW = source.width, srcH = source.height;
-    // Nach Rotation (EXIF 5–8 = 90°/270°) sind Breite und Höhe vertauscht.
-    const rotated = (orientation >= 5 && orientation <= 8);
-    let dispW = rotated ? srcH : srcW;
-    let dispH = rotated ? srcW : srcH;
+    // Dimensionen sind bereits korrekt orientiert.
+    let dispW = source.width, dispH = source.height;
 
     // Auf maxSize verkleinern (Long-Edge)
     if (dispW > maxSize || dispH > maxSize) {
@@ -1408,28 +1515,10 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     c.width = dispW; c.height = dispH;
     const ctx = c.getContext('2d');
 
-    // Transform für alle 8 EXIF-Orientierungen
-    switch (orientation) {
-      case 2: ctx.translate(dispW, 0);     ctx.scale(-1, 1);        break;
-      case 3: ctx.translate(dispW, dispH); ctx.rotate(Math.PI);     break;
-      case 4: ctx.translate(0, dispH);     ctx.scale(1, -1);        break;
-      case 5: ctx.rotate(0.5 * Math.PI);   ctx.scale(1, -1);        break;
-      case 6: ctx.translate(dispW, 0);     ctx.rotate(0.5 * Math.PI); break;
-      case 7: ctx.translate(dispW, 0);     ctx.rotate(0.5 * Math.PI); ctx.scale(-1, 1); break;
-      case 8: ctx.translate(0, dispH);     ctx.rotate(-0.5 * Math.PI); break;
-      default: break; // 1 = nichts
-    }
-
-    // Im rotierten Modus (5–8) hat das transformierte Koordinatensystem
-    // Breite=dispH, Höhe=dispW (vor dem Drehen). Sonst dispW × dispH.
-    if (rotated) {
-      ctx.drawImage(source, 0, 0, dispH, dispW);
-    } else {
-      ctx.drawImage(source, 0, 0, dispW, dispH);
-    }
+    ctx.drawImage(source, 0, 0, dispW, dispH);
     if (source.close) try { source.close(); } catch (_) {}
 
-    // Mirror (Front-Kamera-Look) nach EXIF-korrekter Darstellung: separates Canvas.
+    // Mirror (Front-Kamera-Look) nach korrekter Darstellung: separates Canvas.
     let outCanvas = c;
     if (mirrorHorizontal) {
       const m = document.createElement('canvas');
@@ -1446,15 +1535,22 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     return { mime: 'image/jpeg', base64, dataUrl };
   }
 
-  async function analyzeSelfie() {
+  function analyzeSelfie() {
     if (!_selfieData) { alert('Bitte zuerst ein Selfie aufnehmen.'); return; }
+    _vitalsData = null;
+    analyzeTagescheck([_selfieData], null);
+  }
+
+  async function analyzeTagescheck(frames, vitals) {
+    if (!frames || !frames.length) { alert('Kein Bild vorhanden.'); return; }
     const result = $('#tagescheck-result');
     const btn = $('#btn-analyze-selfie');
     if (btn) { btn.disabled = true; btn.textContent = 'Werte aus…'; }
     result.classList.remove('hidden');
-    result.innerHTML = '<div class="tagescheck-loading">🔎 KI analysiert dein Selfie …</div>';
+    const isLive = !!vitals;
+    result.innerHTML = '<div class="tagescheck-loading">🔎 KI wertet ' + (isLive ? (frames.length + ' Bilder + Vitalwerte') : 'dein Selfie') + ' aus …</div>';
 
-    const sys = `Du bist ein erfahrener Wellness-Coach und analysierst ein Selbstporträt für einen Tageseindruck.
+    const sys = `Du bist ein erfahrener Wellness-Coach und analysierst ${isLive ? 'mehrere Standbilder aus einem kurzen Live-Video derselben Person' : 'ein Selbstporträt'} für einen Tageseindruck.${isLive ? '\nDie Bilder stammen aus derselben 30-Sekunden-Aufnahme – nutze sie gemeinsam (schärfstes Bild bevorzugen, verschiedene Momente abgleichen).' : ''}
 
 SCHRITT 1 – Bildqualität prüfen (entscheidend!):
 Bewerte zuerst ehrlich, ob das Bild für eine seriöse Wellness-Einschätzung GEEIGNET ist.
@@ -1502,12 +1598,28 @@ Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock) im Schema:
   "bmiCategory": "Normal",
   "bmiConfidence": "low",
   "bmiNote": "Grobe Schätzung – ignoriert Muskelmasse.",
+  "vitalsComment": "Nur wenn Vitalwerte mitgeliefert wurden: 1–2 Sätze, die Puls/Atmung/Blinzelrate im Kontext einordnen (Entspannung, Müdigkeit). Sonst leer.",
   "disclaimer": "Subjektiver Tageseindruck, keine medizinische Aussage."
 }
 Wenn imageQuality === "insufficient": die Bewertungs-Felder dürfen leer/0 sein.
 Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus dieser Liste: ${(typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.map(s => s.id).join(', ') : '')}. 2–4 tip-IDs aus dieser Liste: ${(typeof TIPS !== 'undefined' ? TIPS.map(t => t.id).join(', ') : '')}.`;
 
-    const userPrompt = `Analysiere dieses Selfie. Liefere JSON nach Schema. Kein medizinischer Rat.`;
+    const userPrompt = isLive
+      ? `Analysiere diese ${frames.length} Standbilder aus einer 30-Sekunden-Live-Aufnahme derselben Person. Liefere JSON nach Schema. Kein medizinischer Rat.`
+      : `Analysiere dieses Selfie. Liefere JSON nach Schema. Kein medizinischer Rat.`;
+
+    // Vitalwerte aus der Live-Messung (lokal berechnet) als Kontext mitgeben
+    let vitalsContext = '';
+    if (vitals) {
+      const parts = [];
+      if (vitals.pulseBpm) parts.push(`Ruhepuls ca. ${vitals.pulseBpm} bpm (Konfidenz ${vitals.pulseConfidence || 'niedrig'})`);
+      if (vitals.breathingRpm) parts.push(`Atemfrequenz ca. ${vitals.breathingRpm}/min (Konfidenz ${vitals.breathingConfidence || 'niedrig'})`);
+      if (vitals.blinkAvailable && vitals.blinkRate != null) parts.push(`Blinzelrate ca. ${vitals.blinkRate}/min`);
+      if (parts.length) {
+        vitalsContext = `\n\nLOKAL GEMESSENE VITALWERTE (im Browser per rPPG/Gesichtserkennung geschätzt, KEINE Medizingeräte – nur grobe Richtwerte): ${parts.join('; ')}.
+Ordne diese Werte in "vitalsComment" knapp ein (z.B. ruhiger Puls = Entspannung; hohe Blinzelrate = evtl. Müdigkeit/Bildschirm). Beziehe sie NICHT in eine medizinische Bewertung ein und stelle KEINE Diagnose. Bei niedriger Konfidenz entsprechend vorsichtig formulieren.`;
+      }
+    }
 
     try {
       // Random-Seed im Prompt + hohe Temperatur sorgen dafür, dass die Auswertung
@@ -1532,12 +1644,13 @@ WICHTIG – konservative Gewichtsschätzung:
       } else {
         bodyContext += `\n\nKeine Körpergröße angegeben. Setze bmiEstimateAvailable:false.`;
       }
+      const imageParts = frames.map(f => ({ inlineData: { mimeType: f.mime || 'image/jpeg', data: f.base64 } }));
       const body = {
         contents: [{
           role: 'user',
           parts: [
-            { text: userPrompt + bodyContext + '\n\n[Diversitäts-Seed: ' + seed + '] Bitte werte dieses spezifische Bild eigenständig aus – nicht generisch.' },
-            { inlineData: { mimeType: _selfieData.mime, data: _selfieData.base64 } }
+            { text: userPrompt + bodyContext + vitalsContext + '\n\n[Diversitäts-Seed: ' + seed + '] Bitte werte diese spezifischen Bilder eigenständig aus – nicht generisch.' },
+            ...imageParts
           ]
         }],
         generationConfig: {
@@ -1565,8 +1678,8 @@ WICHTIG – konservative Gewichtsschätzung:
         return;
       }
 
-      saveTagescheckEntry(json);
-      renderTagescheckResult(json);
+      saveTagescheckEntry(json, vitals);
+      renderTagescheckResult(json, vitals);
       renderTagescheckHistory();
     } catch (err) {
       result.innerHTML = '<div class="err">Fehler bei der Auswertung: ' + escapeHtml(err.message) + '</div>';
@@ -1599,7 +1712,34 @@ WICHTIG – konservative Gewichtsschätzung:
     `;
   }
 
-  function renderTagescheckResult(d) {
+  function vitalsCardsHtml(vitals, vitalsComment) {
+    if (!vitals) return '';
+    const confColor = (c) => c === 'high' ? '#2f8b6a' : (c === 'medium' ? '#d48a28' : '#c84a65');
+    const confLabel = (c) => c === 'high' ? 'hoch' : (c === 'medium' ? 'mittel' : (c === 'low' ? 'niedrig' : ''));
+    const card = (icon, val, unit, label, conf, na) => {
+      if (na) {
+        return `<div class="tc-vital tc-vital--na"><div class="tc-vital-icon">${icon}</div><div class="tc-vital-val">–</div><div class="tc-vital-label">${escapeHtml(label)}</div></div>`;
+      }
+      const cc = conf ? `<span class="tc-vital-conf" style="background:${confColor(conf)}1A;color:${confColor(conf)};">${confLabel(conf)}</span>` : '';
+      return `<div class="tc-vital"><div class="tc-vital-icon">${icon}</div><div class="tc-vital-val">${val}<small> ${escapeHtml(unit)}</small></div><div class="tc-vital-label">${escapeHtml(label)}</div>${cc}</div>`;
+    };
+    const pulse = vitals.pulseBpm
+      ? card('🫀', vitals.pulseBpm, 'bpm', 'Puls', vitals.pulseConfidence)
+      : card('🫀', null, '', 'Puls n. messbar', null, true);
+    const breath = vitals.breathingRpm
+      ? card('🌬️', vitals.breathingRpm, '/min', 'Atmung', vitals.breathingConfidence)
+      : card('🌬️', null, '', 'Atmung n. messbar', null, true);
+    const blink = (vitals.blinkAvailable && vitals.blinkRate != null)
+      ? card('👁️', vitals.blinkRate, '/min', 'Blinzeln', null)
+      : card('👁️', null, '', 'Blinzeln n. verfügbar', null, true);
+    const note = vitalsComment
+      ? `<div class="tc-vitals-note">${escapeHtml(vitalsComment)}</div>`
+      : (vitals.note ? `<div class="tc-vitals-note">${escapeHtml(vitals.note)}</div>` : '');
+    return `<div class="tc-vitals">${pulse}${breath}${blink}</div>${note}
+      <p class="tc-disclaimer">Vitalwerte lokal aus Video geschätzt (rPPG) – keine Medizingeräte, nur grobe Richtwerte.</p>`;
+  }
+
+  function renderTagescheckResult(d, vitals) {
     const result = $('#tagescheck-result');
     if (!result) return;
 
@@ -1682,6 +1822,7 @@ WICHTIG – konservative Gewichtsschätzung:
         </div>
         <div class="tc-subscores">${subScoreHtml}</div>
       </div>
+      ${vitalsCardsHtml(vitals, d.vitalsComment)}
       ${bmiHtml}
       ${focusHtml}
       ${obsHtml}
