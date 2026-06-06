@@ -1221,7 +1221,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       result.classList.add('hidden');
       camStage.classList.remove('hidden');
       if (fill) fill.style.width = '0%';
-      if (countEl) countEl.textContent = '30';
+      if (countEl) countEl.textContent = '20';
       btnStart.disabled = true;
       status.textContent = 'Kamera wird gestartet … bitte Zugriff erlauben.';
       const ok = await window.BHCVitals.openCamera(video);
@@ -1253,7 +1253,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       let vitals = null;
       try {
         vitals = await window.BHCVitals.measure({
-          durationMs: 30000,
+          durationMs: 20000,
           onTick: (prog, secsLeft) => {
             if (fill) fill.style.width = Math.round(prog * 100) + '%';
             if (countEl) countEl.textContent = String(Math.max(0, secsLeft));
@@ -1560,7 +1560,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     const isLive = !!vitals;
     result.innerHTML = '<div class="tagescheck-loading">🔎 KI wertet ' + (isLive ? (frames.length + ' Bilder + Vitalwerte') : 'dein Selfie') + ' aus …</div>';
 
-    const sys = `Du bist ein erfahrener Wellness-Coach und analysierst ${isLive ? 'mehrere Standbilder aus einem kurzen Live-Video derselben Person' : 'ein Selbstporträt'} für einen Tageseindruck.${isLive ? '\nDie Bilder stammen aus derselben 30-Sekunden-Aufnahme – nutze sie gemeinsam (schärfstes Bild bevorzugen, verschiedene Momente abgleichen).' : ''}
+    const sys = `Du bist ein erfahrener Wellness-Coach und analysierst ${isLive ? 'mehrere Standbilder aus einem kurzen Live-Video derselben Person' : 'ein Selbstporträt'} für einen Tageseindruck.${isLive ? '\nDie Bilder stammen aus derselben 20-Sekunden-Aufnahme – nutze sie gemeinsam (schärfstes Bild bevorzugen, verschiedene Momente abgleichen).' : ''}
 
 SCHRITT 1 – Bildqualität prüfen (entscheidend!):
 Bewerte zuerst ehrlich, ob das Bild für eine seriöse Wellness-Einschätzung GEEIGNET ist.
@@ -1615,7 +1615,7 @@ Wenn imageQuality === "insufficient": die Bewertungs-Felder dürfen leer/0 sein.
 Scores 0–100 (höher = besser). 3–5 observations. 2–4 supplement-IDs aus dieser Liste: ${(typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.map(s => s.id).join(', ') : '')}. 2–4 tip-IDs aus dieser Liste: ${(typeof TIPS !== 'undefined' ? TIPS.map(t => t.id).join(', ') : '')}.`;
 
     const userPrompt = isLive
-      ? `Analysiere diese ${frames.length} Standbilder aus einer 30-Sekunden-Live-Aufnahme derselben Person. Liefere JSON nach Schema. Kein medizinischer Rat.`
+      ? `Analysiere diese ${frames.length} Standbilder aus einer 20-Sekunden-Live-Aufnahme derselben Person. Liefere JSON nach Schema. Kein medizinischer Rat.`
       : `Analysiere dieses Selfie. Liefere JSON nach Schema. Kein medizinischer Rat.`;
 
     // Vitalwerte aus der Live-Messung (lokal berechnet) als Kontext mitgeben
