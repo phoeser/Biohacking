@@ -1,7 +1,7 @@
 /* ============================================================================
  * BHCVitals — Live-Vitalmessung für den Tagescheck
  * ----------------------------------------------------------------------------
- * Nimmt ~30 s Live-Video von der Frontkamera auf (getUserMedia) und berechnet
+ * Nimmt ~20 s Live-Video von der Frontkamera auf (getUserMedia) und berechnet
  * LOKAL im Browser:
  *   - Ruhepuls   via rPPG (POS-Algorithmus, Wang et al. 2017) auf der Gesichts-ROI
  *   - Atemfrequenz via Tiefpass-Band der Helligkeit
@@ -172,7 +172,7 @@
   // -------- Messung ---------------------------------------------------------
   async function measure(opts) {
     opts = opts || {};
-    var durationMs = opts.durationMs || 30000;
+    var durationMs = opts.durationMs || 20000;
     var onTick = opts.onTick || function () {};
     var video = _video;
     if (!video || !video.videoWidth) {
@@ -268,8 +268,9 @@
           }
         } catch (_) {}
 
-        // Alle ~1.2 s ein Standbild für die KI sichern (mit Schärfe-Maß)
-        if (elapsed - lastFrameGrab > 1200) {
+        // Alle ~0.8 s ein Standbild für die KI sichern (mit Schärfe-Maß) —
+        // genug Rohbilder, damit alle 10 Zeit-Buckets gefüllt werden können.
+        if (elapsed - lastFrameGrab > 800) {
           lastFrameGrab = elapsed;
           try {
             fCtx.drawImage(video, 0, 0, fCanvas.width, fCanvas.height);
@@ -340,7 +341,7 @@
 
         // Beste Frames wählen: Zeitachse in 6 Buckets, je schärfstes Bild
         if (frames.length) {
-          var buckets = 6, chosen = [];
+          var buckets = 10, chosen = [];
           for (var b = 0; b < buckets; b++) {
             var lo = (durationMs / buckets) * b, hi = (durationMs / buckets) * (b + 1);
             var cand = frames.filter(function (f) { return f.t >= lo && f.t < hi; });
