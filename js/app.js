@@ -7,6 +7,10 @@
   'use strict';
 
   const AI_MODEL = 'gemini-2.5-flash';
+
+  // Feste Bezugsquellen für Peptide (immer unter "Praxis & Community" gelistet).
+  const PEPTIDE_BEZUG_LIS = '<li><a href="https://biolabshop.de" target="_blank" rel="noopener">biolabshop.de</a></li><li><a href="https://primalpeptides.nl/en" target="_blank" rel="noopener">primalpeptides.nl</a></li>';
+  const PEPTIDE_BEZUG_NOTE = '<div class="exp-community-note exp-bezug-note">⚠ Bezugsquellen sind <strong>keine Empfehlung</strong> und keine Garantie für Zuverlässigkeit oder Qualität. Anbieter wechseln häufig und bewegen sich meist in einer rechtlichen Grauzone.</div>';
   // Proxy via Cloudflare Worker — versteckt den Gemini-Key vor dem Browser.
   // Worker-Code siehe cloudflare-worker.js, Secret GEMINI_API_KEY liegt in Cloudflare.
   const AI_PROXY_BASE = 'https://bhc-proxy.phoeser.workers.dev';
@@ -1018,7 +1022,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
           ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Limitationen</strong><ul>${risks}</ul></div>` : ''}
           <div class="exp-status"><strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}</div>
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
-          ${community ? `<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}</ul></details>` : ''}
+          ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
         </article>
       `;
@@ -1072,7 +1076,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
             <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
           </div>
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
-          ${community ? `<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}</ul></details>` : ''}
+          ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
         </article>
       `;
