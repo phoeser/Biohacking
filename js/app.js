@@ -1137,8 +1137,14 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       const a = localStorage.getItem('bhc_body_age');
       if (a && ageInp) ageInp.value = a;
     } catch (_) {}
-    heightInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_height_cm', heightInp.value); } catch (_) {} });
-    ageInp?.addEventListener('change', () => { try { localStorage.setItem('bhc_body_age', ageInp.value); } catch (_) {} });
+    // Sofort bei jeder Eingabe speichern (nicht erst beim Verlassen des Feldes),
+    // damit Größe & Alter dauerhaft erhalten bleiben, bis sie überschrieben werden.
+    const saveHeight = () => { try { localStorage.setItem('bhc_body_height_cm', heightInp.value); } catch (_) {} };
+    const saveAge = () => { try { localStorage.setItem('bhc_body_age', ageInp.value); } catch (_) {} };
+    heightInp?.addEventListener('change', saveHeight);
+    heightInp?.addEventListener('input', saveHeight);
+    ageInp?.addEventListener('change', saveAge);
+    ageInp?.addEventListener('input', saveAge);
 
     const handleFile = async (e) => {
       const file = e.target.files?.[0];
@@ -1655,8 +1661,10 @@ WICHTIG – konservative Gewichtsschätzung:
         }],
         generationConfig: {
           temperature: 0.85,
-          maxOutputTokens: 2500
-          // thinkingConfig NICHT setzen – Vision-Analyse profitiert vom Thinking-Budget
+          // Großzügiges Budget: bei mehreren Bildern (Live-Messung) frisst das
+          // "Thinking" sonst das Limit auf und das JSON wird abgeschnitten.
+          maxOutputTokens: 8192,
+          thinkingConfig: { thinkingBudget: 2048 }
         },
         systemInstruction: { parts: [{ text: sys }] }
       };
@@ -1668,9 +1676,17 @@ WICHTIG – konservative Gewichtsschätzung:
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
-      const text = (data?.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
+      const cand = data?.candidates?.[0];
+      const finish = cand?.finishReason;
+      const text = (cand?.content?.parts || []).map(p => p.text || '').join('').trim();
       const json = extractJson(text);
-      if (!json) throw new Error('KI-Antwort konnte nicht gelesen werden.');
+      if (!json) {
+        console.warn('Tagescheck: Antwort nicht lesbar. finishReason=', finish, 'len=', text.length, 'raw=', text.slice(0, 400));
+        if (finish === 'MAX_TOKENS') throw new Error('Antwort war zu lang und wurde abgeschnitten. Bitte erneut versuchen.');
+        if (finish === 'SAFETY' || finish === 'PROHIBITED_CONTENT') throw new Error('Die KI hat die Auswertung aus Sicherheitsgründen abgelehnt. Bitte mit einem anderen Bild erneut versuchen.');
+        if (!text) throw new Error('Die KI hat keine Antwort geliefert. Bitte erneut versuchen.');
+        throw new Error('KI-Antwort konnte nicht gelesen werden.');
+      }
 
       // Wenn die KI das Bild als nicht auswertbar markiert: Fehler anzeigen, NICHT speichern
       if (json.imageQuality === 'insufficient') {
@@ -1829,7 +1845,12 @@ WICHTIG – konservative Gewichtsschätzung:
       ${suppHtml}
       ${tipHtml}
       ${d.disclaimer ? `<p class="tc-disclaimer">${escapeHtml(d.disclaimer)}</p>` : ''}
-      <div class="tc-actions"><button type="button" class="btn btn-ghost" onclick="document.getElementById('btn-retake-selfie').click();">📷 Neues Selfie</button></div>
+      <div class="tc-actions">
+        ${vitals
+          ? `<button type="button" class="btn btn-primary" onclick="document.getElementById('btn-retake-selfie').click(); document.getElementById('btn-live-measure').click();">🔁 Messung wiederholen</button>`
+          : `<button type="button" class="btn btn-primary" onclick="document.getElementById('btn-retake-selfie').click();">🔁 Wiederholen</button>`}
+        <button type="button" class="btn btn-ghost" onclick="document.getElementById('btn-retake-selfie').click();">📷 Neues Bild</button>
+      </div>
     `;
   }
 
