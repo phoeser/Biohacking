@@ -268,12 +268,32 @@
             <input type="file" id="selfie-file-input" accept="image/*" hidden />
             <div class="tagescheck-upload-content">
               <div class="tagescheck-upload-icon">📷</div>
-              <h3>Selfie aufnehmen oder Foto hochladen</h3>
-              <p class="muted">Tipp: gutes Tageslicht, neutraler Ausdruck, gerade Kopfhaltung. Aus Datenschutzgründen wird das Bild NICHT gespeichert – nur die Score-Ergebnisse landen im lokalen Verlauf.</p>
+              <h3>Live-Messung, Selfie oder Foto</h3>
+              <p class="muted">Tipp: gutes Tageslicht, neutraler Ausdruck, gerade Kopfhaltung. Aus Datenschutzgründen wird kein Bild und kein Video gespeichert – nur die Ergebnisse landen im lokalen Verlauf.</p>
               <div class="tagescheck-buttons">
-                <button type="button" class="btn btn-primary" id="btn-take-selfie">📷 Selfie machen</button>
+                <button type="button" class="btn btn-primary" id="btn-live-measure">🫀 Live-Messung (30 s)</button>
+                <button type="button" class="btn btn-ghost" id="btn-take-selfie">📷 Selfie machen</button>
                 <button type="button" class="btn btn-ghost" id="btn-upload-selfie">🖼️ Foto hochladen</button>
               </div>
+              <p class="tc-live-hint muted small">🫀 Die Live-Messung schätzt zusätzlich <strong>Puls, Atmung und Blinzelrate</strong> aus 30 s Video – alles lokal im Browser, kein Video verlässt dein Gerät.</p>
+            </div>
+          </div>
+
+          <!-- Live-Messung: Kamera-Stage -->
+          <div class="tagescheck-camera hidden" id="tagescheck-camera">
+            <div class="tc-cam-stage" id="tc-cam-stage">
+              <video id="tc-cam-video" playsinline muted></video>
+              <div class="tc-cam-oval" aria-hidden="true"></div>
+              <div class="tc-cam-overlay" id="tc-cam-overlay">
+                <div class="tc-cam-count" id="tc-cam-count">30</div>
+                <div class="tc-cam-hint" id="tc-cam-hint">Gesicht ins Oval · ruhig sitzen · gleichmäßig atmen</div>
+              </div>
+            </div>
+            <div class="tc-cam-progress"><div class="tc-cam-progress-fill" id="tc-cam-progress-fill"></div></div>
+            <p class="tc-cam-status muted small" id="tc-cam-status">Kamera wird vorbereitet …</p>
+            <div class="tc-cam-actions">
+              <button type="button" class="btn btn-primary" id="btn-start-measure" disabled>▶ Messung starten</button>
+              <button type="button" class="btn btn-ghost" id="btn-cancel-measure">Abbrechen</button>
             </div>
           </div>
 
@@ -424,6 +444,7 @@
   <script src="js/data/products.js"></script>
   <script src="js/data/experimental.js"></script>
   <script src="js/data/khavinson.js"></script>
+  <script src="js/vitals.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
