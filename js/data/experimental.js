@@ -145,19 +145,23 @@ const EXPERIMENTAL = [
     altNames: 'Zadaxin, Thymalfasin',
     class: 'Immunmodulatorisches Peptid (28 Aminosäuren)',
     emoji: '🛡️',
-    short: 'Natürlich vorkommendes Thymus-Peptid. Moduliert T-Zell-Funktion, in über 30 Ländern als Medikament zugelassen.',
-    moa: 'Stimuliert Reifung und Aktivität von T-Helferzellen und natürlichen Killerzellen, moduliert dendritische Zellen. Wirkt über TLR9-Pathway.',
+    short: 'Immunmodulierendes 28-AS-Thymuspeptid: aktiviert T-Zellen und die TH1-Antwort über TLR2/TLR9. Als Zadaxin klinisch zugelassen und das am besten belegte dieser Peptide.',
+    moa: 'Synthetisches, N-acetyliertes 28-Aminosäuren-Peptid aus dem Thymus, das als Immunmodulator wirkt. Es aktiviert die Toll-like-Rezeptoren TLR2 und TLR9 auf dendritischen Zellen, Makrophagen und B-Zellen und induziert darüber Typ-I-Interferone (IFN-α/β), IL-12 und TH1-Zytokine (IFN-γ) – das stärkt die zelluläre Abwehr gegen Viren und Tumorzellen. Zusätzlich fördert es die Reifung von T-Zellen im Thymus. Charakteristisch ist eine bidirektionale Modulation: Stimulation bei Immunschwäche, Dämpfung über regulatorische T-Zellen (FOXP3+) bei Immunüberaktivierung. Unter diesen Peptiden hat es mit Abstand die beste klinische Evidenzbasis.',
     benefits: [
-      'Begleittherapie bei chronischer Hepatitis B/C zugelassen',
-      'Adjuvans bei Krebsimpfungen (Studien laufen)',
-      'Reduziert opportunistische Infektionen bei Immunsupprimierten',
-      'In COVID-19-Studien protektiv (China, Italien)'
+      'Stärkt antivirale T-Zell-Antworten; in Studien bei chronischer Hepatitis B höhere Serokonversionsraten',
+      'Korrigiert Immunschwäche und altersbedingte Immunseneszenz (mehr naive CD4+-T-Zellen, mehr IL-2)',
+      'Wird als Begleittherapie in der Onkologie untersucht (u.a. nicht-kleinzelliges Lungenkarzinom)',
+      'Senkte in einer kontrollierten Studie die 28-Tage-Sterblichkeit bei Sepsis',
+      'Kann trainingsbedingte Immunschwäche (Open-Window-Phänomen) bei Sportlern abmildern',
+      'Bidirektional wirksam: stimulierend bei Schwäche, regulierend bei Überaktivierung',
+      'Bestes Sicherheits- und Evidenzprofil dieser Peptide; als Zadaxin klinisch zugelassen'
     ],
     risks: [
-      'Sehr gut verträglich (>20 Jahre Erfahrung als Zadaxin)',
-      'Selten Rötung an Injektionsstelle',
-      'Bei Autoimmunerkrankungen Vorsicht (Immunaktivierung)',
-      'In DE/USA nicht zugelassen – Bezug über Auslandsapotheken oder grauen Markt'
+      'Frei bezogene Ware stammt vom Graumarkt – Reinheit, Dosis und Sterilität nicht garantiert (anders als das zugelassene Zadaxin)',
+      'In EU/DE kein frei verkäufliches Arzneimittel; Off-Label- und Eigenanwendung sind nicht reguliert',
+      'Theoretisch unerwünschte Immunstimulation bei TH1-dominierten Autoimmunerkrankungen (z.B. MS, Typ-1-Diabetes)',
+      'Belege für Sport- und Longevity-Einsatz sind schwächer als für die zugelassenen Indikationen',
+      'Mögliche lokale Injektionsreaktionen; Selbstdosierung birgt Fehldosier- und Kontaminationsrisiken'
     ],
     status: 'Zugelassen in Italien, China, Indien u.a. (Hepatitis B/C). In DE/USA NICHT zugelassen, kein verschreibungsfähiges Medikament.',
     sources: [
@@ -175,19 +179,24 @@ const EXPERIMENTAL = [
     altNames: 'Body Protection Compound 157, PL 14736',
     class: 'Synthetisches Pentadecapeptid (Magenschleimhaut-Derivat)',
     emoji: '🩹',
-    short: 'Sequenz aus 15 Aminosäuren, ursprünglich aus Magenschleim isoliert. Popularste „Healing-Peptid" der Biohacker-Szene.',
-    moa: 'Fördert Angiogenese (Neubildung von Blutgefäßen) und moduliert NO-Synthase und Wachstumshormonrezeptoren. Soll Heilungsprozesse beschleunigen.',
+    short: 'Säurestabiles 15-Aminosäuren-Peptid mit überwiegend tierexperimentell belegten regenerativen Effekten auf Sehnen, Gewebe und Magen-Darm-Schleimhaut. In DE nicht zugelassen.',
+    moa: 'Synthetisches 15-Aminosäuren-Peptid, abgeleitet von einem körpereigenen Schutzprotein des Magensafts und außergewöhnlich säurestabil. Es fördert die Geweberegeneration vor allem über den FAK/Paxillin-Signalweg (Wanderung von Fibroblasten und Sehnenzellen, Kollagen-Typ-I-Synthese) sowie über die VEGFR2/eNOS/NO-Achse (Gefäßneubildung, bessere Durchblutung). Zusätzlich dämpft es Entzündungssignale (NF-κB/COX-2 herunter, Verschiebung von M1- zu M2-Makrophagen) ohne allgemeine Immunsuppression. Im Magen-Darm-Trakt erhöht es schützende Faktoren wie PGE2, Schleimsekretion und die Dichte der Tight Junctions. Die Datenlage stammt überwiegend aus Tiermodellen (v.a. Arbeitsgruppe Sikirić, Zagreb); kontrollierte Humanstudien fehlen weitgehend.',
     benefits: [
-      'Beschleunigt Heilung von Sehnen, Bändern, Muskeln (Tierstudien)',
-      'Schützt Magenschleimhaut, lindert NSAID-induzierte Ulzera',
-      'Anti-entzündliche Wirkung im Darm',
-      'Wird oft bei Sportverletzungen subkutan injiziert (off-label)'
+      'Beschleunigt im Tiermodell die Heilung von Sehnen, Bändern und Muskelfaserrissen',
+      'Fördert Gefäßneubildung und verbessert die Durchblutung im verletzten Gewebe',
+      'Schützt und repariert die Magen-Darm-Schleimhaut (z.B. bei NSAR-Läsionen, überwiegend Tierdaten)',
+      'Wirkt entzündungsmodulierend ohne kortisonähnliche Nebenwirkungen',
+      'Säurestabil und daher prinzipiell auch oral aktiv (relevant für Magen-Darm-Themen)',
+      'Zeigt im Modell schmerzlindernde Effekte über die NO-Achse, ohne Suchtpotenzial',
+      'Keine hormonelle Wirkung, kein Eingriff in die Testosteron-Achse'
     ],
     risks: [
-      'Bisher KEINE veröffentlichten Humanstudien zu Wirksamkeit',
-      'Langzeitsicherheit unbekannt',
-      'Unklare Bioverfügbarkeit oral',
-      'WADA-Verbotsliste seit 2022 (Sportdoping)'
+      'Keine veröffentlichten kontrollierten Humanstudien; Wirksamkeit beim Menschen ist extrapoliert (überwiegend Tierdaten)',
+      'Kein zugelassenes Arzneimittel; in DE/EU sind Vertrieb und Anwendung zum Verzehr untersagt',
+      'WADA-verboten in Kategorie S0 (nicht zugelassene Substanzen), ganzjährig',
+      'Graumarkt-Ware: Reinheit, Dosis und Sterilität können stark schwanken (Fälschungs-/Unterdosierungsrisiko)',
+      'Theoretisches Risiko durch die gefäßneubildende Wirkung (z.B. bei bestehenden Tumoren); Langzeitsicherheit unbekannt',
+      'Keine Daten für Schwangerschaft/Stillzeit; Injektion birgt Infektions- und Anwendungsrisiken'
     ],
     status: 'Forschungs-Peptid. Nicht zugelassen, nicht verschreibungsfähig. WADA-verboten im Wettkampfsport.',
     sources: [
@@ -206,19 +215,23 @@ const EXPERIMENTAL = [
     altNames: 'Mitochondrial-derived peptide',
     class: 'Mitochondriales Peptid (16 Aminosäuren, kodiert in mtDNA)',
     emoji: '🧬',
-    short: 'Vom Mitochondrium selbst kodiertes Hormon. Reguliert Insulin-Sensitivität und Muskelfunktion – sinkt mit dem Alter.',
-    moa: 'Aktiviert AMPK, fördert Glukoseaufnahme in Muskeln, hemmt Folat-Stoffwechsel und entkoppelt mitochondriale Oxidation milde.',
+    short: 'Mitochondriales 16-AS-Peptid und Trainings-Mimetikum: aktiviert AMPK für Energiestoffwechsel und Insulinsensitivität. Evidenz überwiegend präklinisch.',
+    moa: 'Aus 16 Aminosäuren bestehendes, mitochondrial kodiertes Peptid (aus dem 12S-rRNA-Gen der mtDNA), das den Energiestoffwechsel primär über Aktivierung der AMP-aktivierten Proteinkinase (AMPK) reguliert – denselben Signalweg, den auch Metformin und Ausdauertraining anstoßen. Nach zellulärem Stress (oxidativer Stress, Glukosemangel, Belastung) wandert es in den Zellkern und steuert dort Gene für mitochondriale Neubildung (PGC-1α), antioxidative Abwehr (NRF2) und das Insulinsignal. Zusätzlich hemmt es den entzündungsfördernden NF-κB-Weg. Die Effekte ähneln molekular denen von körperlichem Training (Trainings-Mimetikum). Die Daten stammen überwiegend aus Tierstudien plus frühen Kohortendaten beim Menschen.',
     benefits: [
-      'Verhindert Insulinresistenz in Mäusen',
-      'Verbessert Glukosetoleranz auch ohne Training',
-      'Antiglykämischer Effekt bei kalorienreicher Ernährung',
-      'Niedrige Blut-MOTS-c-Werte korrelieren mit Diabetes & Frailty beim Menschen'
+      'Steigert die Insulinsensitivität in Muskel und Leber (AMPK/GLUT4) – präklinisch',
+      'Verbessert mitochondriale Neubildung und ATP-Kapazität über PGC-1α – präklinisch',
+      'Reduziert mitochondrialen oxidativen Stress über NRF2/SOD2 – Tierdaten',
+      'Erhöhte in Nagerversuchen Ausdauerleistung und Fettoxidation',
+      'Wirkt entzündungshemmend (IL-6, TNF-α herunter) – präklinisch',
+      'Höhere körpereigene MOTS-c-Spiegel korrelieren mit Langlebigkeit (Hundertjährige-Kohorten)'
     ],
     risks: [
-      'Keine veröffentlichten Humanstudien zur Therapie',
-      'Unklare Langzeitwirkung auf Mitochondrien',
-      'Selbsterworbene Forschungs-Peptide: Qualität nicht garantiert',
-      'Theoretisch: zu starke AMPK-Aktivierung beeinflusst andere Stoffwechselwege'
+      'Keine kontrollierten klinischen Studien am Menschen; Evidenz fast nur präklinisch (Tier/Zellkultur)',
+      'Leistungsangaben (z.B. +35–50 % Laufzeit) stammen aus Nagerstudien und sind nicht übertragbar',
+      'Blutzuckersenkende Wirkung: Hypoglykämie-Risiko mit Insulin/Antidiabetika',
+      'Anekdotisch lokale Reaktionen an der Injektionsstelle; Langzeitsicherheit unbekannt',
+      'Graumarkt-Bezug „nur zu Forschungszwecken" – Reinheit und Dosis nicht behördlich garantiert',
+      'Kein zugelassenes Arzneimittel; 2024 von der WADA auf die Verbotsliste gesetzt'
     ],
     status: 'Reines Forschungs-Peptid. Nicht zugelassen, nicht verschreibungsfähig.',
     sources: [
@@ -269,19 +282,23 @@ const EXPERIMENTAL = [
     altNames: 'Epithalamin, AEDG-Tetrapeptid',
     class: 'Tetrapeptid (Ala-Glu-Asp-Gly), Pinealdrüsen-Mimetikum',
     emoji: '🌙',
-    short: 'Kurzes Peptid aus 4 Aminosäuren – soll Telomerase aktivieren und biologisches Altern verlangsamen. Russische Forschungstradition.',
-    moa: 'Bindet an Promotorbereiche von Genen (Telomerase-Reverse-Transkriptase TERT, Pinealhormon-Synthese). Soll Telomerverlängerung und zirkadiane Rhythmen unterstützen.',
+    short: 'Synthetisches Tetrapeptid (Ala-Glu-Asp-Gly): aktiviert Telomerase und stimuliert Melatonin. Anti-Aging-Daten überwiegend aus einer einzelnen russischen Studiengruppe.',
+    moa: 'Synthetisches Tetrapeptid (Ala-Glu-Asp-Gly, ~390 g/mol), abgeleitet aus dem Zirbeldrüsen-Extrakt Epithalamin. Hauptmechanismus ist die Induktion der hTERT-Genexpression (katalytische Telomerase-Untereinheit), wodurch Telomere in somatischen Zellen verlängert und die replikative Zellalterung verzögert werden (in Zellkultur über das Hayflick-Limit hinaus). Parallel hemmt es den p53/p21- und NF-κB-Weg und dämpft so die seneszenz-assoziierte Entzündung. Als zweiten Mechanismus stimuliert Epitalon die Zirbeldrüse zur Melatoninbildung und stabilisiert den Tag-Nacht-Rhythmus. Die Human-Evidenz stammt überwiegend aus russischen Studien einer einzelnen Forschungsgruppe (Khavinson) und ist außerhalb davon kaum unabhängig repliziert.',
     benefits: [
-      'Verlängert Telomere in vitro (Khavinson-Studien)',
-      'Reduziert altersbedingte Mortalität bei Mäusen',
-      'Soll Melatonin- und Cortisol-Rhythmen normalisieren',
-      'In russischen Studien: erhöhte mittlere Lebenserwartung bei älteren Probanden'
+      'Aktiviert Telomerase (hTERT) und verlängert Telomere in somatischen Zellen – Zellkultur/präklinisch',
+      'Verzögert die replikative Zellalterung über Hemmung des p53/p21-Wegs',
+      'Stimuliert die körpereigene Melatoninproduktion und kann Schlaf/Rhythmus verbessern',
+      'Wirkt antioxidativ (mehr SOD/Katalase, weniger Lipidperoxidation) – präklinisch',
+      'Soll die Immunseneszenz mildern (T-Zell-/NK-Zell-Aktivität) – aus Khavinson-Studien',
+      'Hormonunabhängiger Mechanismus (keine Bindung an Sexualhormon-Rezeptoren)'
     ],
     risks: [
-      'Datenlage fast ausschließlich aus russischen Studien (Replikation außerhalb begrenzt)',
-      'Telomerase-Aktivierung theoretisch krebsfördernd',
-      'Bezugsqualität auf grauem Markt fraglich',
-      'Sicherheitsdaten beim Menschen mit Langzeit-Anwendung unzureichend'
+      'Zentrale Humandaten stammen fast nur von einer Forschungsgruppe (Khavinson) und sind international kaum repliziert',
+      'Mortalitäts-/Lebensspannen-Angaben sind methodisch umstritten bzw. tierbasiert',
+      'Theoretisches Krebsrisiko: Telomerase-Aktivierung ist auch ein Merkmal von Tumorzellen',
+      'Kein zugelassenes Arzneimittel (EMA/FDA); Anwendung am Menschen nicht reguliert',
+      'Graumarkt-Bezug „nur zu Forschungszwecken" – Reinheit, Dosis und Sterilität nicht garantiert',
+      'Sehr kurze Halbwertszeit (~20–30 min); Dosierprotokolle nicht unabhängig validiert'
     ],
     status: 'Forschungs-Peptid. Außerhalb Russlands keine arzneirechtliche Zulassung. In DE/USA nicht verkehrsfähig.',
     sources: [
@@ -426,19 +443,24 @@ const EXPERIMENTAL = [
     altNames: 'CJC/Ipa, GHRH/GHRP-Stack',
     class: 'GHRH-Analog (CJC-1295) + GHRP / Ghrelin-Mimetic (Ipamorelin)',
     emoji: '🧪',
-    short: 'Klassischer Biohacker-Peptid-Stack – setzt synchron Wachstumshormon frei, gilt als „sanfter" als HGH-Direktinjektion.',
-    moa: 'CJC-1295 (mit oder ohne DAC) verlängert die GHRH-Wirkung. Ipamorelin aktiviert den Ghrelin-Rezeptor selektiv ohne Cortisol-/Prolaktin-Erhöhung. Kombination: pulsatile GH-Freisetzung.',
+    short: 'GHRH-Analog plus selektives Ghrelin-Peptid: soll die körpereigene Wachstumshormon-Ausschüttung pulsatil und anhaltend steigern – ohne Cortisol-/Prolaktin-Anstieg.',
+    moa: 'CJC-1295 ist ein langwirksames Analogon des Wachstumshormon-Releasing-Hormons (GHRH) und hebt den GH-Grundspiegel an; die DAC-Variante bindet an Albumin und verlängert die Halbwertszeit auf ~6–8 Tage (eine Injektion pro Woche). Ipamorelin ist dagegen ein selektives Ghrelin-Mimetikum (Pentapeptid), das den Rezeptor GHSR-1a aktiviert und kurze, pulsatile GH-Spitzen auslöst (Halbwertszeit ~2 h), laut Quelllage ohne nennenswerten Anstieg von Cortisol oder Prolaktin. Beide stimulieren über unterschiedliche Rezeptorwege dieselbe Achse und wirken daher synergistisch: CJC-1295 liefert die anhaltende Grundanhebung, Ipamorelin die scharfen Pulse darauf. Das Profil ähnelt dem jugendlichen GH-Muster; da das Somatostatin-Feedback erhalten bleibt, gilt der Ansatz als physiologischer als die Gabe von exogenem HGH.',
     benefits: [
-      'Verbesserter Tiefschlaf, Regeneration',
-      'Lean Mass-Gain ohne IGF-1-Excursionen wie bei HGH',
-      'Sehr selektiv (Ipamorelin) → wenig Nebenwirkungen',
-      'Übliche Dosis: 100 µg Ipa + 1–2 mg CJC-DAC wöchentlich'
+      'Erhöht GH und IGF-1 über kombinierte Grundanhebung plus pulsatile Spitzen',
+      'Bessere Schlafqualität (mehr Tiefschlaf) bei abendlicher Anwendung – häufigster berichteter Effekt',
+      'Unterstützt Muskelaufbau über gesteigerte Proteinsynthese (meist ab Woche 6–12)',
+      'Moderater Fettabbau durch GH-vermittelte Lipolyse, v.a. im Kaloriendefizit',
+      'Bessere Regeneration von Bindegewebe, Sehnen und Knorpel (mehr Kollagensynthese)',
+      'Positive Effekte auf Hautqualität und langfristig Knochendichte',
+      'Kein Eingriff in die Testosteron-Achse, daher laut Quelle keine PCT nötig'
     ],
     risks: [
-      'Flush, Kopfschmerzen, lokale Reaktion an Injektionsstelle',
-      'Wasserretention, Glucosetoleranz möglich gestört',
-      'Kein gesichertes Langzeit-Sicherheitsprofil',
-      'WADA-Verbotsliste'
+      'Leichte Wassereinlagerungen, gelegentlich Kopfschmerzen und Kribbeln in den Fingern (meist reversibel, dosisabhängig)',
+      'Appetitanstieg über den Ghrelin-Rezeptor (bei Ipamorelin moderat, flacht meist ab)',
+      'Theoretisch Insulinresistenz/Blutzucker-Verschiebung und IGF-1-vermittelte Zellproliferation bei chronisch erhöhtem GH',
+      'Fehlende Langzeit- und Zulassungsdaten: nur kleine bzw. Tierstudien sowie Anbieter-/Community-Berichte',
+      'Reinheits- und Dosierunsicherheit auf dem Graumarkt (Forschungspeptide ohne Qualitätskontrolle)',
+      'Nicht zugelassen, WADA-verboten (S2); Handel/Weitergabe in DE nach Anti-Doping-Gesetz strafbar'
     ],
     status: 'Kein zugelassenes Arzneimittel. Forschungs-Peptide.',
     sources: [
@@ -458,19 +480,23 @@ const EXPERIMENTAL = [
     altNames: 'TB4, Thymosin β-4',
     class: 'Synthetisches Peptid-Fragment (43 AS / aktive Region)',
     emoji: '🩹',
-    short: 'Häufiger Partner zu BPC-157 in „Healing-Stacks". Soll Aktin-Bindung modulieren und Geweberegeneration beschleunigen.',
-    moa: 'Bindet G-Aktin, fördert Zellmigration, Angiogenese und Differenzierung von Stamm- und Vorläuferzellen.',
+    short: 'Systemisch wirksames Thymosin-Beta-4-Fragment mit tierexperimentell belegter Regenerationswirkung; nur injizierbar, WADA-verboten (S2) und in DE nicht zugelassen.',
+    moa: 'Synthetisches Peptid mit der aktiven aktinbindenden Kernsequenz (Ac-LKKTETQ), das die regenerative Region des körpereigenen Proteins Thymosin Beta-4 (Tβ4, 43 AS) nachbildet. Es wirkt nicht-hormonell: Durch Bindung von G-Aktin-Monomeren stellt es ein Reservoir für den Umbau des Zytoskeletts bereit und fördert so die Zellwanderung zur Verletzungsstelle. Zusätzlich stimuliert es die Gefäßneubildung, hemmt entzündungsfördernde Zytokine und reduziert über weniger Myofibroblasten die Narbenbildung. Wichtig: TB-500 und das vollständige Tβ4 sind nicht identisch – die meisten Humanstudien liefen mit komplettem Tβ4, sodass die Wirksamkeit von TB-500 selbst überwiegend aus Tiermodellen extrapoliert wird.',
     benefits: [
-      'Beschleunigt Wundheilung in Tierstudien',
-      'Wirkt regenerativ auf Herzmuskelgewebe (präklinisch)',
-      'Reduziert Narbenbildung',
-      'Subjektive Sehnen-/Bandheilung in Sport-Anekdoten'
+      'Beschleunigt im Tiermodell die Regeneration von Sehnen, Bändern und Muskelgewebe',
+      'Wirkt systemisch und kann mehrere/entfernte Verletzungszonen zugleich erreichen',
+      'Fördert die Gefäßneubildung und damit die Versorgung geschädigten Gewebes',
+      'Kann Narbengewebe reduzieren und die funktionelle Heilung begünstigen',
+      'Keine hormonelle Wirkung, kein Eingriff in die Testosteron-Achse',
+      'Gilt in Anwenderberichten als gut verträglich und gut mit BPC-157 kombinierbar'
     ],
     risks: [
-      'Keine veröffentlichten Humanstudien zur Wirksamkeit',
-      'Theoretisch tumorfördernd (Angiogenese)',
-      'Bezug aus Forschungs-Peptidmarkt',
-      'WADA-Verbotsliste seit Jahren'
+      'Keine publizierten randomisierten Humanstudien unter dem Namen TB-500; Langzeitsicherheit unbekannt',
+      'Theoretisches Tumorrisiko durch die gefäßneubildende Wirkung; bei aktiver Krebserkrankung kontraindiziert',
+      'WADA-verboten (S2); in DE zudem strafrechtlich relevant (AMG/Anti-Doping-Gesetz)',
+      'Kein zugelassenes Arzneimittel, nur als Research Chemical über den Graumarkt (Reinheits-/Fälschungsrisiko)',
+      'Milde Nebenwirkungen möglich: Kopfschmerzen, grippeartige Symptome, lokale Injektionsreaktionen',
+      'Oral unwirksam (nur Injektion); kontraindiziert in Schwangerschaft/Stillzeit und bei schwerer Herzinsuffizienz'
     ],
     status: 'Reines Forschungs-Peptid, nicht verschreibungsfähig.',
     sources: [
@@ -488,19 +514,23 @@ const EXPERIMENTAL = [
     altNames: 'Glycyl-L-Histidyl-L-Lysin-Kupfer',
     class: 'Tripeptid-Kupfer-Komplex',
     emoji: '🧴',
-    short: 'Im Blutplasma natürlich vorkommendes Kupfer-Tripeptid. Sinkt mit dem Alter. Beliebt für Haut, Haare und Wundheilung – auch in Kosmetika.',
-    moa: 'Reguliert >4 000 Gene in Richtung „junges Expressionsprofil"; bindet Kupfer für SOD/Lysyloxidase; aktiviert Hautstammzellen und Kollagensynthese.',
+    short: 'Körpereigenes Kupfer-Tripeptid mit kollagenstimulierenden, regenerativen und antioxidativen Effekten; topisch teils klinisch belegt, injizierbare Systemwirkung überwiegend präklinisch.',
+    moa: 'GHK-Cu (Glycyl-L-Histidyl-L-Lysin, komplexiert mit einem Kupfer(II)-Ion) ist ein natürlich im Blutplasma vorkommendes Tripeptid, dessen Spiegel mit dem Alter deutlich sinkt (~200 ng/ml mit 20, ~80 ng/ml mit 60 Jahren). Es wirkt als pleiotroper Signalgeber bzw. epigenetischer Modulator: In Analysen verändert es die Expression von über 4 000 menschlichen Genen Richtung eines „jüngeren" Musters. Es regt Fibroblasten zur Synthese von Kollagen Typ I/III, Elastin und Glykosaminoglykanen an, wobei Kupfer als Cofaktor der quervernetzenden Lysyloxidase dient. Ergänzend fördert es die Gefäßneubildung (VEGF, bFGF), wirkt antioxidativ (SOD) und entzündungshemmend (TNF-α, IL-6, NF-κB herunter). Die Haut-/Wundheilungsdaten sind teils klinisch (topisch), die systemischen Injektionseffekte beruhen jedoch stark auf präklinischen Daten.',
     benefits: [
-      'Verbessert Hautelastizität & reduziert Falten (topisch belegt)',
-      'Fördert Haarwuchs in Studien',
-      'Wundheilung & Narbenreduktion',
-      'Antioxidativ und anti-entzündlich'
+      'Steigert die Kollagensynthese deutlich und verbessert Hautstruktur und Elastizität',
+      'Beschleunigt im Modell die Wundheilung über Gefäßneubildung und Granulationsgewebe',
+      'Wirkt antioxidativ und entzündungshemmend (relevant u.a. bei entzündlichen Hautproblemen)',
+      'Topisch beim Haarwachstum mit Minoxidil 2 % vergleichbar – ohne dessen typische Reizungen',
+      'Unterstützt potenziell Gelenk-/Bindegewebe über mehr GAG-Synthese (überwiegend präklinisch)',
+      'Keine hormonelle Wirkung; sowohl injizierbar als auch topisch anwendbar'
     ],
     risks: [
-      'Topisch sehr gut verträglich',
-      'Injizierbare Form: keine kontrollierten Humanstudien',
-      'Bei Morbus Wilson Kupfer-Belastung beachten',
-      'Reinheit gekaufter Forschungspeptide unklar'
+      'Systemische (injizierte) Wirksamkeit beruht überwiegend auf präklinischen/Genexpressionsdaten; robuste Humanstudien zur Injektion fehlen',
+      'Kein zugelassenes Arzneimittel zur Injektion; injizierbare Ware vom Graumarkt (Reinheits-/Sterilitätsrisiko)',
+      'Absolute Kontraindikation bei Morbus Wilson (Kupferstoffwechselstörung) und Kupferallergie',
+      'Vorsicht bei aktiver Krebserkrankung (wachstums-/gefäßfördernd) und bei Blutverdünnern (ärztliche Rücksprache)',
+      'Keine Daten für Schwangerschaft/Stillzeit; vorübergehende Hautverschlechterung („Copper Ugly Effect") in Woche 1–2 möglich',
+      'Orale Kapseln deutlich geringer bioverfügbar; Injektion birgt Infektions-/Anwendungsrisiken'
     ],
     status: 'Topisch in Kosmetika frei verkäuflich. Injizierbare Form Forschungspeptid – nicht zugelassen.',
     sources: [
