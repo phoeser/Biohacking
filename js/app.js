@@ -1019,7 +1019,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`
       ).join('');
       return `
-        <article class="exp-card exp-card--khavinson">
+        <article class="exp-card exp-card--khavinson" id="khcard-${escapeHtml(e.id)}">
           <div class="exp-head">
             <div class="exp-emoji">${escapeHtml(e.emoji || '🧬')}</div>
             <div class="exp-title">
@@ -1068,7 +1068,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`
       ).join('');
       return `
-        <article class="exp-card">
+        <article class="exp-card" id="expcard-${escapeHtml(e.id)}">
           <div class="exp-head">
             <div class="exp-emoji">${escapeHtml(e.emoji || '⚗️')}</div>
             <div class="exp-title">
@@ -1870,8 +1870,144 @@ WICHTIG – konservative Gewichtsschätzung:
     `;
   }
 
+  // ============ GLOBALE SUCHE (Primärnavigation, über alle Inhalte) ============
+  function buildSearchIndex() {
+    const idx = [];
+    const add = (type, label, emoji, id, name, short, extra) => {
+      if (!name) return;
+      idx.push({
+        type, label, emoji: emoji || '•', id: id || '', name: name, short: short || '',
+        hay: normalizeStr([name, short, extra].filter(Boolean).join(' '))
+      });
+    };
+    (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : []).forEach(s =>
+      add('supplement', 'Supplement', '💊', s.id, s.name, s.short, [s.altNames, s.category, (s.tags || []).join(' ')].join(' ')));
+    (typeof EXPERIMENTAL !== 'undefined' ? EXPERIMENTAL : []).forEach(e =>
+      add('experimental', 'Peptid / Substanz', e.emoji || '⚗️', e.id, e.name, e.short, [e.altNames, e.class].join(' ')));
+    (typeof KHAVINSON !== 'undefined' ? KHAVINSON : []).forEach(e =>
+      add('khavinson', 'Khavinson-Peptid', e.emoji || '🧬', e.id, e.name, e.short, [e.altNames, e.class].join(' ')));
+    (typeof TIPS !== 'undefined' ? TIPS : []).forEach(t =>
+      add('tip', 'Tipp', t.icon || '💡', t.id, t.title || t.name, t.short, [t.category, t.how].join(' ')));
+    (typeof THERAPIES !== 'undefined' ? THERAPIES : []).forEach(t =>
+      add('therapy', 'Therapie', t.emoji || t.icon || '🧖', t.id, t.name || t.title, t.short, t.category));
+    (typeof GOALS !== 'undefined' ? GOALS : []).forEach(g =>
+      add('goal', 'Ziel', g.icon || g.emoji || '🎯', g.id, g.name || g.title, g.short || g.description, ''));
+    (typeof PRODUCTS !== 'undefined' ? PRODUCTS : []).forEach(p =>
+      add('product', 'Gadget', p.emoji || '⌚', p.id, p.name, p.short || p.desc, ''));
+    return idx;
+  }
+
+  function searchAll(index, query) {
+    const q = normalizeStr(query).trim();
+    if (q.length < 2) return [];
+    const tokens = q.split(/\s+/);
+    const scored = [];
+    for (const it of index) {
+      if (!tokens.every(t => it.hay.includes(t))) continue;
+      const nn = normalizeStr(it.name);
+      let score = 0;
+      if (nn === q) score = 100;
+      else if (nn.startsWith(q)) score = 80;
+      else if (nn.includes(q)) score = 60;
+      else score = 30;
+      scored.push({ it, score });
+    }
+    scored.sort((a, b) => b.score - a.score || a.it.name.localeCompare(b.it.name));
+    return scored.slice(0, 24).map(s => s.it);
+  }
+
+  function highlightExpCard(domId) {
+    const el = document.getElementById(domId);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.classList.add('search-hit');
+    setTimeout(() => el.classList.remove('search-hit'), 2600);
+  }
+
+  function gotoSearchResult(type, id) {
+    if (type === 'supplement') {
+      location.hash = 'supplement';
+      setTimeout(() => {
+        const s = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : []).find(x => x.id === id);
+        const inp = document.getElementById('supplement-search');
+        if (s && inp) { inp.value = s.name; inp.dispatchEvent(new Event('input', { bubbles: true })); }
+      }, 70);
+    } else if (type === 'experimental' || type === 'khavinson') {
+      // Kategorie auf "Alle" zurücksetzen, damit die Zielkarte sichtbar ist
+      currentExpCat = 'all';
+      const chips = document.getElementById('exp-chips');
+      if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.ecat === 'all'));
+      location.hash = 'experimental';
+      setTimeout(() => highlightExpCard((type === 'khavinson' ? 'khcard-' : 'expcard-') + id), 160);
+    } else {
+      // Tipp/Therapie/Ziel/Gadget: auf die Startseite (dort verankert)
+      location.hash = 'home';
+    }
+  }
+
+  function initGlobalSearch() {
+    const input = $('#global-search-input');
+    const panel = $('#global-search-results');
+    if (!input || !panel) return;
+    let index = null;
+    let items = [];
+    let activeIdx = -1;
+
+    const ensureIndex = () => { if (!index) index = buildSearchIndex(); };
+    const close = () => { panel.classList.add('hidden'); panel.innerHTML = ''; activeIdx = -1; };
+
+    const render = (results, q) => {
+      if (!results.length) {
+        panel.innerHTML = '<div class="gsr-empty">Keine Treffer für „' + escapeHtml(q) + '"</div>';
+        panel.classList.remove('hidden');
+        return;
+      }
+      panel.innerHTML = results.map((r, i) =>
+        '<button type="button" class="gsr-item" role="option" data-type="' + r.type + '" data-id="' + escapeHtml(r.id) + '" data-i="' + i + '">' +
+          '<span class="gsr-emoji">' + escapeHtml(r.emoji) + '</span>' +
+          '<span class="gsr-main"><span class="gsr-name">' + escapeHtml(r.name) + '</span>' +
+          (r.short ? '<span class="gsr-short">' + escapeHtml(r.short) + '</span>' : '') + '</span>' +
+          '<span class="gsr-badge">' + escapeHtml(r.label) + '</span>' +
+        '</button>'
+      ).join('');
+      panel.classList.remove('hidden');
+    };
+
+    input.addEventListener('input', () => {
+      const q = input.value;
+      if (normalizeStr(q).trim().length < 2) { close(); return; }
+      ensureIndex();
+      items = searchAll(index, q);
+      activeIdx = -1;
+      render(items, q.trim());
+    });
+
+    input.addEventListener('keydown', (e) => {
+      const btns = $$('.gsr-item', panel);
+      if (e.key === 'ArrowDown' && btns.length) { e.preventDefault(); activeIdx = Math.min(activeIdx + 1, btns.length - 1); btns.forEach((b, i) => b.classList.toggle('gsr-active', i === activeIdx)); btns[activeIdx].scrollIntoView({ block: 'nearest' }); }
+      else if (e.key === 'ArrowUp' && btns.length) { e.preventDefault(); activeIdx = Math.max(activeIdx - 1, 0); btns.forEach((b, i) => b.classList.toggle('gsr-active', i === activeIdx)); btns[activeIdx].scrollIntoView({ block: 'nearest' }); }
+      else if (e.key === 'Enter') { const pick = activeIdx >= 0 ? items[activeIdx] : items[0]; if (pick) { gotoSearchResult(pick.type, pick.id); input.blur(); close(); } }
+      else if (e.key === 'Escape') { input.value = ''; close(); input.blur(); }
+    });
+
+    panel.addEventListener('click', (e) => {
+      const btn = e.target.closest('.gsr-item');
+      if (!btn) return;
+      gotoSearchResult(btn.dataset.type, btn.dataset.id);
+      input.value = '';
+      input.blur();
+      close();
+    });
+
+    // Klick außerhalb schließt das Ergebnis-Panel
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('#global-search')) close();
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initNavToggle();
+    initGlobalSearch();
     initTagescheckView();
     initSupplementView();
     initSymptomView();
