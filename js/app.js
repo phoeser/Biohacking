@@ -1948,13 +1948,16 @@ WICHTIG – konservative Gewichtsschätzung:
   function initGlobalSearch() {
     const input = $('#global-search-input');
     const panel = $('#global-search-results');
+    const clearBtn = $('#global-search-clear');
     if (!input || !panel) return;
     let index = null;
     let items = [];
     let activeIdx = -1;
 
     const ensureIndex = () => { if (!index) index = buildSearchIndex(); };
+    const toggleClear = () => { if (clearBtn) clearBtn.classList.toggle('hidden', !input.value); };
     const close = () => { panel.classList.add('hidden'); panel.innerHTML = ''; activeIdx = -1; };
+    if (clearBtn) clearBtn.addEventListener('click', () => { input.value = ''; toggleClear(); close(); input.focus(); });
 
     const render = (results, q) => {
       if (!results.length) {
@@ -1975,12 +1978,14 @@ WICHTIG – konservative Gewichtsschätzung:
 
     input.addEventListener('input', () => {
       const q = input.value;
+      toggleClear();
       if (normalizeStr(q).trim().length < 2) { close(); return; }
       ensureIndex();
       items = searchAll(index, q);
       activeIdx = -1;
       render(items, q.trim());
     });
+    input.addEventListener('focus', () => { if (items.length && normalizeStr(input.value).trim().length >= 2) panel.classList.remove('hidden'); });
 
     input.addEventListener('keydown', (e) => {
       const btns = $$('.gsr-item', panel);
