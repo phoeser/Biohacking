@@ -42,6 +42,21 @@ const EXPERIMENTAL = [
       { title: 'biolabshop – Retatrutide (Triple G)', url: 'https://biolabshop.co.uk/209-retatrutide' },
       { title: 'Iron Mike: Retatrutide-Q&A', url: 'https://www.youtube.com/post/UgkxvmKFskjZ2XJh0aQDlzNnow5LEYzeIS8-' },
       { title: 'Retatrutide vs. SLU-PP-332 (Fat Loss Vergleich)', url: 'https://www.youtube.com/watch?v=5fFJIHzrSzQ' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: Retatrutide – der stärkste Abnehm-Triagonist',
+        audio: 'audio/retatrutide-podcast.mp3',
+        lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit aktueller Fachrecherche (TRIUMPH Phase 3) ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'Peptide of The Week – Retatrutide (GLP-3)', url: 'https://open.spotify.com/episode/2Xt6iBveTeiGWaoTjZDNxZ' },
+          { title: 'FettUcation – Retatrutide: warum es stärker wirkt als Mounjaro (Deutsch)', url: 'https://open.spotify.com/episode/0BX2ml5PBu5EFgDA6TwB60' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/6wWUjjB7vxeIopVEmgMPYA' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/7rHHXTAPki0x4087cCgsFB' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/3rCvtt10k3iH0gXWtCSAm0' }
+        ]
+      }
     ]
   },
   {
@@ -125,6 +140,21 @@ const EXPERIMENTAL = [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'Dosing SLU-PP-332 + Retatrutide', url: 'https://www.youtube.com/shorts/T6smpOkB4m0' },
       { title: 'biolabshop (Suche „SLU-PP-332")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: SLU-PP-332 – „Sport in der Spritze"?',
+        audio: 'audio/slu-pp-332-podcast.mp3',
+        lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'Peptide of The Week – SLU-PP-332: Fat Burn, Endurance', url: 'https://open.spotify.com/episode/4njZIXekQ9KgMLJsKBr58I' },
+          { title: 'The Hunter Williams Podcast – SLU-PP-332 Dosage Update', url: 'https://open.spotify.com/episode/5lgJO2L08XJnkiTUSSHQnV' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/2sBfi0qEVnQVWEwYox6ouo' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/7pO3L22D0kWQbmnvHXUNLz' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/6OJ4FMAtEx8jau6nKmrf6y' }
+        ]
+      }
     ]
   },
   {
@@ -155,6 +185,21 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'biolabshop (Suche „5-Amino-1MQ")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: 5-Amino-1MQ – NNMT-Inhibitor & NAD+-Hebel',
+        audio: 'audio/5-amino-1mq-podcast.mp3',
+        lengthLabel: '≈ 6 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'Peptide of The Week – 5-Amino-1MQ', url: 'https://open.spotify.com/episode/0RPGxM1H0gS8MDwXBVYUzw' },
+          { title: 'The Hunter Williams Podcast – 5-Amino-1MQ', url: 'https://open.spotify.com/episode/5XcHZpVLizSlmsoCjNJwQq' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/2jwvG4DQ5ugvDRHp6eQJ62' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/110TpqttgUPRR6QGnKZYK8' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/4VPXGE9vptqGXjiB3Wb0fI' }
+        ]
+      }
     ]
   },
 
@@ -191,6 +236,22 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Peptide Therapies – Thymosin Alpha-1 Übersicht', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
       { title: 'biolabshop (Suche „Thymosin")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung',
+        audio: 'audio/thymosin-alpha-1-podcast.mp3',
+        lengthLabel: '≈ 6 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'The Hunter Williams Podcast – How Thymosin Alpha 1 Supercharges Your Immune System', url: 'https://open.spotify.com/episode/5Inu125eta0bSTQ7AWdY8N' },
+          { title: 'Der Optimizer – Thymosin Alpha-1 & Thymulin (Deutsch)', url: 'https://open.spotify.com/episode/4U3Ahy6POe7Js8ZyRx684S' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/1IVXJBNOAH80HCowX4Soot' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/1M0R88M2B7ljeslKHwuJVg' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/0VbHRK7AzYhIhFVTbCxEbO' },
+          { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/0B4cpdxgOA85IAPLGiipsH' }
+        ]
+      }
     ]
   },
   {
