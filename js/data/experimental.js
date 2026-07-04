@@ -1500,6 +1500,7 @@ const EXPERIMENTAL = [
       {
         title: 'Tadalafil: Sexpille fürs Gehirn? Prostata, Blutdruck & Kopf im Faktencheck',
         audio: 'audio/tadalafil-podcast.mp3',
+        spotify: '7oSACBkAutryc1NyZE5z1Z',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Trennt Zugelassenes (Erektion, Prostata/BPH, Lungenhochdruck) vom Vorläufigen (Gehirn/Demenz – biologisch plausibel, aber die PASTIS-Studie war nicht überzeugend) und betont die kritische Nitrat-Warnung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, bitte ärztlich abklären.',
         sources: [
@@ -1548,6 +1549,7 @@ const EXPERIMENTAL = [
       {
         title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck',
         audio: 'audio/prostamax-podcast.mp3',
+        spotify: '5hOI7uOwHV0Ok2wsNP5Odo',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
         sources: [
