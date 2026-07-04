@@ -1087,6 +1087,12 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
           <div class="exp-status">
             <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
           </div>
+          ${e.podcast ? `<div class="exp-podcast">
+            <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(e.podcast.title)}</div>${e.podcast.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(e.podcast.lengthLabel)}</div>` : ''}</div></div>
+            <audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(e.podcast.audio)}"></audio>
+            ${e.podcast.note ? `<div class="exp-podcast-note">${escapeHtml(e.podcast.note)}</div>` : ''}
+            ${(e.podcast.sources && e.podcast.sources.length) ? `<details class="exp-podcast-src"><summary>Quellen der Folge (${e.podcast.sources.length})</summary><ul>${e.podcast.sources.map(s => `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`).join('')}</ul></details>` : ''}
+          </div>` : ''}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
