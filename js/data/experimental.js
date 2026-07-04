@@ -72,7 +72,19 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike: SLU-PP-332 vs. Tesofensine', url: 'https://www.youtube.com/shorts/kD6FVLFTcK8' },
       { title: 'biolabshop (Suche „Tesofensin")', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    podcast: {
+      title: 'KI-Podcast: Tesofensine – Wirkung, Studien & Risiken',
+      audio: 'audio/tesofensine-podcast.mp3',
+      lengthLabel: '≈ 12 Min · Deutsch · 2 KI-Stimmen',
+      note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und ergänzt mit aktueller Fachrecherche. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+      sources: [
+        { title: 'THE MANLAB #041 – What is Tesofensine & How It Works', url: 'https://open.spotify.com/episode/3wocVfRwR4d3YapmplsK49' },
+        { title: 'Peptide of The Week – Tesofensine & Methylene Blue', url: 'https://open.spotify.com/episode/5y3PK4s4SnbwNFCeLQ6RHl' },
+        { title: 'West Wellness & Longevity – Tesofensine Explained', url: 'https://open.spotify.com/episode/0PAyFCD0hLeL0wOFVVyJDe' },
+        { title: 'Motivation with Jon Andersen – Tesofensine: The Miracle Molecule', url: 'https://open.spotify.com/episode/4H46sRwmpNIn5sUaZKCECU' }
+      ]
+    }
   },
 
   // ============ EXERCISE MIMETICS / METABOLIC ============
