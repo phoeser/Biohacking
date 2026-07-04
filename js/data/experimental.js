@@ -47,6 +47,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: Retatrutide – der stärkste Abnehm-Triagonist',
         audio: 'audio/retatrutide-podcast.mp3',
+        spotify: '6BM97ChEQFvjSuARtQg9eR',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit aktueller Fachrecherche (TRIUMPH Phase 3) ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -92,6 +93,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: Tesofensine – Wirkung, Studien & Risiken',
         audio: 'audio/tesofensine-podcast.mp3',
+        spotify: '4tCUWipyMuwsmSQ2foeKBV',
         lengthLabel: '≈ 12 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und ergänzt mit aktueller Fachrecherche. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -145,6 +147,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: SLU-PP-332 – „Sport in der Spritze"?',
         audio: 'audio/slu-pp-332-podcast.mp3',
+        spotify: '2l6GpTd7FpyqF9w4IS55DR',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -190,6 +193,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: 5-Amino-1MQ – NNMT-Inhibitor & NAD+-Hebel',
         audio: 'audio/5-amino-1mq-podcast.mp3',
+        spotify: '71gD9FHwpfiLoCfy8BjgTy',
         lengthLabel: '≈ 6 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -241,6 +245,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung',
         audio: 'audio/thymosin-alpha-1-podcast.mp3',
+        spotify: '1RK9QRISmvhFWClJgBGtCv',
         lengthLabel: '≈ 6 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -293,6 +298,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: BPC-157 – Heilungs-Peptid zwischen Hype und Evidenz',
         audio: 'audio/bpc-157-podcast.mp3',
+        spotify: '4MjxwhVwsFM78VqdszeO5c',
         lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 5 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -342,6 +348,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid',
         audio: 'audio/mots-c-podcast.mp3',
+        spotify: '31UyFXwZ2hcCgFCfhJcsWx',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 6 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -390,6 +397,7 @@ const EXPERIMENTAL = [
       {
         title: 'Rapamycin: Das stärkste Anti-Aging-Molekül unserer Zeit?',
         audio: 'audio/rapamycin-podcast.mp3',
+        spotify: '2hPtRFiBMmN96aVPmFv1Oh',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der glaubwürdigste Longevity-Fall: echtes zugelassenes Medikament (Sirolimus, mTOR-Hemmer) mit den stärksten Tier-Lebensverlängerungs-Daten – aber Humannutzen fürs Altern unbewiesen, Dosierung unetabliert und reale Immunsuppressions-Risiken. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -438,6 +446,7 @@ const EXPERIMENTAL = [
       {
         title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck',
         audio: 'audio/epitalon-podcast.mp3',
+        spotify: '3fwqZGKZCED0D8iimUNcnm',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die verlockende Telomerase-/Telomer-Story ein: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig (kleine, unverblindete russische Studien). Plus die offene Krebsfrage bei einem Telomerase-Aktivator. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -647,6 +656,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: TB-500 – der „Transporter" im Wolverine-Stack',
         audio: 'audio/tb-500-podcast.mp3',
+        spotify: '70WrEX6Y27TAGQzMT2wQWR',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 4 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -787,6 +797,7 @@ const EXPERIMENTAL = [
       {
         title: 'Methylenblau: Wunderdroge oder Hype?',
         audio: 'audio/methylene-blue-podcast.mp3',
+        spotify: '6JlLZilupWgb72WX10TBri',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -966,6 +977,7 @@ const EXPERIMENTAL = [
       {
         title: 'AOD-9604: Der „saubere Fatburner" im Faktencheck',
         audio: 'audio/aod-9604-podcast.mp3',
+        spotify: '07ERvc8IuGfiucQuhRJ7al',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Fett-Biologie gegen die entscheidende Realität ein: Die große Phase-2-Humanstudie verfehlte ihren Gewichtsverlust-Endpunkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -1013,6 +1025,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: KPV – das Anti-Entzündungs-Tripeptid',
         audio: 'audio/kpv-podcast.mp3',
+        spotify: '17szxjNneTkvQwBRP5CN28',
         lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -1060,6 +1073,7 @@ const EXPERIMENTAL = [
       {
         title: 'LL-37: Körpereigenes Abwehr-Peptid – oder Entzündungstreiber?',
         audio: 'audio/ll-37-podcast.mp3',
+        spotify: '2zTo5WktERW0Wnik3223ti',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Kern: LL-37 ist ein zweischneidiges Schwert – körpereigenes Cathelicidin mit breiter Abwehrwirkung, aber im Überschuss ein gut belegter Treiber von Psoriasis und Rosazea. Biohacking-Versprechen (Schimmel, Borreliose, Leaky Gut) stammen aus Zell-/Tierdaten, nicht aus Humanstudien. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -1140,6 +1154,7 @@ const EXPERIMENTAL = [
       {
         title: 'SS-31: Das FDA-zugelassene Mitochondrien-Peptid – im Faktencheck',
         audio: 'audio/ss-31-podcast.mp3',
+        spotify: '5cmnTVvn29gYiC0UDdyN0A',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Kern: SS-31 (Elamipretide/FORZINITY) bekam 2025 tatsächlich eine FDA-Zulassung – aber nur für die seltene Barth-Krankheit, NICHT für Anti-Aging/Energie bei Gesunden. Außerhalb dieser Nische gemischte Bilanz (u. a. verfehlter Endpunkt der MMPOWER-3-Studie), und die Graumarkt-Ampulle ist nicht das zugelassene Medikament. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -1185,6 +1200,7 @@ const EXPERIMENTAL = [
       {
         title: 'DSIP: Das Schlafpeptid im Faktencheck',
         audio: 'audio/dsip-podcast.mp3',
+        spotify: '2Cz5bXpDtURKddAZ4MrbTO',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: seit 1977 bekannt und körpereigen, trägt „Schlaf" im Namen – trotzdem unklarer Mechanismus, dünne und widersprüchliche Humandaten und nie als Schlafmittel zugelassen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -1230,6 +1246,7 @@ const EXPERIMENTAL = [
       {
         title: 'Semax: Russisches Nootropikum im Faktencheck',
         audio: 'audio/semax-podcast.mp3',
+        spotify: '4pI0U5nmVsezSLZIvy74iw',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die echte russische Zulassung/Studienlage (BDNF, Schlaganfall) gegen die Grenzen ein: Evidenz fast nur aus Russland, für den Nootropikum-Einsatz bei Gesunden dünn, N-Acetyl-Varianten kaum untersucht, bei uns Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -1376,6 +1393,7 @@ const EXPERIMENTAL = [
       {
         title: 'Tadalafil: Sexpille fürs Gehirn? Prostata, Blutdruck & Kopf im Faktencheck',
         audio: 'audio/tadalafil-podcast.mp3',
+        spotify: '7oSACBkAutryc1NyZE5z1Z',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Trennt Zugelassenes (Erektion, Prostata/BPH, Lungenhochdruck) vom Vorläufigen (Gehirn/Demenz – biologisch plausibel, aber die PASTIS-Studie war nicht überzeugend) und betont die kritische Nitrat-Warnung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, bitte ärztlich abklären.',
         sources: [
