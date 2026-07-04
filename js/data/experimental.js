@@ -669,6 +669,19 @@ const EXPERIMENTAL = [
     community: [
       { title: 'biolabshop (CJC/Ipamorelin)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'CJC-1295 + Ipamorelin: Der beliebte Wachstumshormon-Stack im Faktencheck',
+        audio: 'audio/cjc-ipamorelin-podcast.mp3',
+        spotify: '5u2hAGrdzczi3TGtTbr8hr',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der klassische GH-Stack: GHRH (CJC-1295) + selektives GHRP (Ipamorelin, ohne Cortisol/Prolaktin der alten GHRPs) verstärken sich zu einem mehrfachen GH-Puls. Akute Wirkung real, aber Langzeit-/Anti-Aging-Nutzen bei Gesunden unbelegt; GH-Klassen-Risiken (Blutzucker, IGF-1), FDA-Warnung zu compounded CJC-1295, WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Sigalos & Pastuszak 2018 – Review zu Anti-Aging-Peptiden (GH-Sekretagoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' },
+          { title: 'Teichman et al. 2006 – CJC-1295 Pharmakokinetik/Sicherheit (Phase 1)', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
+        ]
+      }
     ]
   },
 
@@ -754,6 +767,19 @@ const EXPERIMENTAL = [
     community: [
       { title: 'biolabshop (GHK-Cu)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'GHK-Cu (Kupfer-Tripeptid): Creme top, Spritze Fragezeichen – im Faktencheck',
+        audio: 'audio/ghk-cu-podcast.mp3',
+        spotify: '6fi4gQcqH30B2kJF1sDrum',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: topisch/kosmetisch ist GHK-Cu eines der bestbelegten Peptide (~40 Jahre Forschung, +28% Kollagendichte, Haut/Wundheilung, sehr sicher) – aber der Sprung zum injizierten Ganzkörper-Anti-Aging ist am Menschen kaum belegt und bringt ein Kupfer-Überladungs-Risiko. Belegt ist die Creme, nicht die Nadel. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Pickart & Margolina, Biomolecules 2018 – GHK-Cu: Genexpression & Regeneration', url: 'https://pubmed.ncbi.nlm.nih.gov/29986520/' },
+          { title: 'GHK als Anti-Aging-Peptid (Review, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8789089/' }
+        ]
+      }
     ]
   },
 
@@ -786,6 +812,20 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'GANNIKUS-Podcast Iron Mike', url: 'https://open.spotify.com/episode/354pFKeLOvDiRrh4AjbyKg' }
+    ],
+    podcasts: [
+      {
+        title: 'Metformin: Diabetes-Klassiker als Anti-Aging-Hoffnung im Faktencheck',
+        audio: 'audio/metformin-podcast.mp3',
+        spotify: '77xwjpaw2cPJ5HxJyqexNY',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Solides, billiges, zugelassenes Diabetes-Medikament, das über den AMPK-Schalter dieselben Alterns-Signalwege anspricht wie Sport/Fasten. Aber: Longevity bei Gesunden ist Hypothese (TAME-Studie noch offen, ~2026/27), mit realer Kehrseite – Metformin kann Trainings-/Muskelgewinne bremsen. Plus B12-Mangel-Risiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
+        sources: [
+          { title: 'Bannister et al. 2014 – Mortalität unter Metformin (Beobachtungsdaten)', url: 'https://pubmed.ncbi.nlm.nih.gov/25041462/' },
+          { title: 'TAME-Studie – Targeting Aging with Metformin (AFAR)', url: 'https://www.afar.org/tame-trial' },
+          { title: 'Metformin & Muskelaufbau/Sarkopenie – therapeutisches Paradox (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12938515/' }
+        ]
+      }
     ]
   },
   {
@@ -993,6 +1033,19 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'Mod GRF 1-29 (CJC-1295 ohne DAC): Der Wachstumshormon-Puls im Faktencheck',
+        audio: 'audio/mod-grf-1-29-podcast.mp3',
+        spotify: '0v5aUTkICX8YEdRoFsaHIT',
+        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. GHRH-Analogon, das die Hirnanhangsdrüse zu einem kurzen, natürlichen GH-Puls anregt. Zentral: der Unterschied „mit vs. ohne DAC" (kurz/pulsatil vs. tagelang erhöht). Wirkprinzip real (zugelassener Verwandter: Tesamorelin), aber für Anti-Aging/Muskel bei Gesunden kaum belegt; GH-Klassen-Risiken (Blutzucker, IGF-1), WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Ionescu & Frohman 2006 – pulsatile vs. kontinuierliche GH-Sekretion (GHRH-Analoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
+          { title: 'Teichman et al. 2006 – Pharmakokinetik CJC-1295 (DAC)', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
+        ]
+      }
     ]
   },
   {
@@ -1495,12 +1548,58 @@ const EXPERIMENTAL = [
       {
         title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck',
         audio: 'audio/prostamax-podcast.mp3',
-        spotify: '5hOI7uOwHV0Ok2wsNP5Odo',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
         sources: [
           { title: 'Khavinson – Peptide bioregulators (Gerontologie)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
           { title: 'Prostamax Bioregulator – Übersicht & Einordnung', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'pt-141',
+    name: 'PT-141',
+    altNames: 'Bremelanotid, Vyleesi, Melanocortin-Agonist',
+    class: 'Melanocortin-Rezeptor-Agonist (MC4R), zentral wirksames Mittel gegen sexuelle Funktionsstörungen',
+    emoji: '❤️‍🔥',
+    short: 'Melanocortin-Agonist, der das sexuelle Verlangen zentral im Gehirn steigert (nicht über die Durchblutung) – als Vyleesi für Frauen mit Verlangensstörung zugelassen, in der Szene off-label breit genutzt.',
+    moa: 'PT-141 (Bremelanotid) ist ein synthetischer Melanocortin-Rezeptor-Agonist, der vor allem den MC4-Rezeptor im Hypothalamus aktiviert. Anders als PDE5-Hemmer (Sildenafil/Tadalafil), die über die Durchblutung wirken, setzt PT-141 zentral am sexuellen Verlangen und der Erregung an. Es ist chemisch mit Melanotan 2 verwandt, was die melanocortin-typischen Nebenwirkungen (Hautverfärbung, Übelkeit, Blutdruckanstieg) erklärt. Angewendet wird das zugelassene Präparat als Autoinjektor bei Bedarf; in der Szene kursieren Injektions- und Nasenspray-Formen.',
+    benefits: [
+      'Als Vyleesi (FDA 2019) für prämenopausale Frauen mit vermindertem sexuellem Verlangen (HSDD) zugelassen – mit Phase-3-Evidenz.',
+      'Wirkt zentral am Verlangen, nicht nur an der Durchblutung – daher auch bei fehlender Lust interessant, wo Potenzmittel nicht greifen.',
+      'Bedarfsanwendung ca. 45 Min vor der Aktivität (kein tägliches Einnehmen nötig).',
+      'Wird off-label auch bei Männern mit Libido-/Erektionsproblemen eingesetzt (nicht zugelassene Anwendung).',
+      'Anderer Mechanismus als Viagra/Cialis – teils kombinierbar (jedoch mit Kreislauf-Vorsicht).'
+    ],
+    risks: [
+      'Häufig Übelkeit (~40 %), Gesichtsröte, Reaktionen an der Einstichstelle, Kopfschmerzen.',
+      'Vorübergehender BLUTDRUCKANSTIEG – KONTRAINDIKATION bei unkontrolliertem Bluthochdruck und Herz-Kreislauf-Erkrankung.',
+      'Mögliche (teils fleckige) Dunkelfärbung der Haut über den Melanocortin-Mechanismus.',
+      'Zulassung gilt NUR für Frauen mit HSDD; die Biohacking-Nutzung (Männer, allgemeine Libido) ist off-label und nicht geprüft.',
+      'Effektstärke selbst in der zugelassenen Anwendung nur moderat, kein Wundermittel.',
+      'Graumarkt-/Research-Ware (auch Nasenspray) ungeprüft in Reinheit/Dosis; frühe Nasenspray-Entwicklung wurde wegen Blutdruck gestoppt.'
+    ],
+    status: 'In den USA als Vyleesi für prämenopausale Frauen mit HSDD zugelassen; in Deutschland/EU nicht breit als Lustmittel zugelassen – Selbstanwendung läuft über den Graumarkt.',
+    sources: [
+      { title: 'FDA – Zulassung Vyleesi (Bremelanotid) 2019', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
+      { title: 'Kingsberg et al., Obstet Gynecol 2019 – RECONNECT Phase-3 (Bremelanotid bei HSDD)', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' }
+    ],
+    community: [
+      { title: 'Sexuelle Funktionsstörungen ärztlich abklären (Ursachensuche, Herz-Kreislauf)', url: 'https://www.gelbe-liste.de/wirkstoffe/Bremelanotid_57503' },
+      { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
+      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'PT-141 (Bremelanotid): Die Lust-Spritze fürs Gehirn im Faktencheck',
+        audio: 'audio/pt-141-podcast.mp3',
+        spotify: '3KZK4XSNc4aGdmitwl74rZ',
+        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'FDA – Vyleesi (Bremelanotid) Fachinformation', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
+          { title: 'Kingsberg et al. 2019 – RECONNECT Phase-3-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' }
         ]
       }
     ]
