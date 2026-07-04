@@ -757,6 +757,20 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'biolabshop (Methylenblau-Forschung)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Methylenblau: Wunderdroge oder Hype? (mit Paul & Paula)',
+        audio: 'audio/methylene-blue-podcast.mp3',
+        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'FDA Drug Safety Communication – Methylenblau & Serotonin-Syndrom bei Antidepressiva', url: 'https://www.apsf.org/article/methylene-blue-and-the-risk-of-serotonin-toxicity/' },
+          { title: 'Ramsay et al. – Methylenblau hemmt MAO-A (Serotonintoxizität)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2078225/' },
+          { title: 'ALZFORUM – LMTM/HMTM (TauRx): verfehlte Alzheimer-Phase-3-Endpunkte', url: 'https://www.alzforum.org/therapeutics/hmtm' },
+          { title: 'Rodriguez P et al., Radiology 2016 – Methylenblau & Hirn-Bildgebung', url: 'https://pubmed.ncbi.nlm.nih.gov/27089023/' }
+        ]
+      }
     ]
   },
   {
@@ -922,6 +936,20 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'AOD-9604: Der „saubere Fatburner" im Faktencheck',
+        audio: 'audio/aod-9604-podcast.mp3',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Fett-Biologie gegen die entscheidende Realität ein: Die große Phase-2-Humanstudie verfehlte ihren Gewichtsverlust-Endpunkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Ng et al., Diabetes Obes Metab 2000 – Lipolytische Wirkung des GH-Fragments AOD-9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11225653/' },
+          { title: 'Heffernan et al., Endocrinology 2001 – AOD-9604 & Beta-3-Adrenozeptoren im Fettgewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/11713208/' },
+          { title: 'Metabolic Pharmaceuticals – Phase-2b-Adipositas-Studie (verfehlter Endpunkt)', url: 'https://www.biospace.com/metabolic-pharmaceuticals-s-obesity-trial-update-first-100-subjects-complete-the-phase-2b-trial-of-aod9604' },
+          { title: 'WADA-Statement zu AOD-9604 (Verbotsliste)', url: 'https://www.wada-ama.org/en/news/wada-statement-substance-aod-9604' }
+        ]
+      }
     ]
   },
   {
@@ -1102,6 +1130,18 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'DSIP: Das Schlafpeptid im Faktencheck (mit Paul & Paula)',
+        audio: 'audio/dsip-podcast.mp3',
+        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: seit 1977 bekannt und körpereigen, trägt „Schlaf" im Namen – trotzdem unklarer Mechanismus, dünne und widersprüchliche Humandaten und nie als Schlafmittel zugelassen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Schneider-Helmert & Schoenenberger – DSIP & menschliches Schlafverhalten', url: 'https://pubmed.ncbi.nlm.nih.gov/6895513/' },
+          { title: 'Graf & Kastin, Neurosci Biobehav Rev 1984 – DSIP: Ein Überblick', url: 'https://pubmed.ncbi.nlm.nih.gov/6145137/' }
+        ]
+      }
     ]
   },
   {
@@ -1135,6 +1175,18 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'Semax: Russisches Nootropikum im Faktencheck (mit Paul & Paula)',
+        audio: 'audio/semax-podcast.mp3',
+        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die echte russische Zulassung/Studienlage (BDNF, Schlaganfall) gegen die Grenzen ein: Evidenz fast nur aus Russland, für den Nootropikum-Einsatz bei Gesunden dünn, N-Acetyl-Varianten kaum untersucht, bei uns Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Kaplan et al., Restor Neurol Neurosci 2002 – Semax und neurotrophe Faktoren (BDNF/NGF)', url: 'https://pubmed.ncbi.nlm.nih.gov/12454361/' },
+          { title: 'Gusev et al., Cerebrovasc Dis 2011 – Semax bei ischämischem Schlaganfall (RCT)', url: 'https://pubmed.ncbi.nlm.nih.gov/21654167/' }
+        ]
+      }
     ]
   },
   {
