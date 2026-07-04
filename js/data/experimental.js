@@ -227,6 +227,21 @@ const EXPERIMENTAL = [
       { title: 'biolabshop – BPC-157 5 mg', url: 'https://biolabshop.co.uk/peptides/115-bpc-157-5mg-5905601708391.html' },
       { title: 'Iron Mike: BPC-157 Wirkung (Instagram)', url: 'https://www.instagram.com/iron_mike69/reel/C-HihgNoYd0/' },
       { title: 'Peptid 1x1 – BPC-157', url: 'https://www.youtube.com/watch?v=j7TDexpVkGE' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: BPC-157 – Heilungs-Peptid zwischen Hype und Evidenz',
+        audio: 'audio/bpc-157-podcast.mp3',
+        lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von 5 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'Beyond Lifespan – BPC-157: Trendpeptid zwischen Hype und Evidenz', url: 'https://open.spotify.com/episode/3H92nUxDlJx6QAXCrnJ2Rg' },
+          { title: 'The Hunter Williams Podcast – The BPC-157 Masterclass', url: 'https://open.spotify.com/episode/605tRucNpJOg569MmvsU8o' },
+          { title: 'Peptides Explained – BPC-157 and Cancer: What the Studies Show', url: 'https://open.spotify.com/episode/3HWa6jO8zp3p6CVWBu2HTN' },
+          { title: 'Peptides Explained – BPC-157 & TB-500: The Wolverine Stack', url: 'https://open.spotify.com/episode/1sikogAxcTbf4Mqfut7TKy' },
+          { title: 'The Gillett Health Podcast – BPC-157 101', url: 'https://open.spotify.com/episode/2Mgz0t1SIrV8Dwxdet0RRM' }
+        ]
+      }
     ]
   },
   {
