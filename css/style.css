@@ -2941,3 +2941,5 @@ button { font-family: inherit; cursor: pointer; }
 .exp-podcast-src summary { cursor: pointer; font-size: 0.8rem; color: var(--accent); font-weight: 600; }
 .exp-podcast-src ul { margin: 6px 0 0; padding-left: 18px; }
 .exp-podcast-src li { font-size: 0.78rem; margin: 3px 0; }
+.exp-podcasts-label { font-size: 0.82rem; font-weight: 700; color: var(--text-muted); margin: 12px 0 4px; }
+.exp-podcasts .exp-podcast + .exp-podcast { margin-top: 8px; }
