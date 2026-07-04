@@ -385,6 +385,19 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'GANNIKUS-Podcast Iron Mike (Peptide & Longevity)', url: 'https://open.spotify.com/episode/354pFKeLOvDiRrh4AjbyKg' }
+    ],
+    podcasts: [
+      {
+        title: 'Rapamycin: Das stärkste Anti-Aging-Molekül unserer Zeit?',
+        audio: 'audio/rapamycin-podcast.mp3',
+        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der glaubwürdigste Longevity-Fall: echtes zugelassenes Medikament (Sirolimus, mTOR-Hemmer) mit den stärksten Tier-Lebensverlängerungs-Daten – aber Humannutzen fürs Altern unbewiesen, Dosierung unetabliert und reale Immunsuppressions-Risiken. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Harrison DE et al., Nature 2009 – Rapamycin verlängert Lebensspanne bei Mäusen', url: 'https://www.nature.com/articles/nature08221' },
+          { title: 'Off-Label-Rapamycin bei Gesunden – Evidenzübersicht (Aging 2024)', url: 'https://www.aging-us.com/article/206300/text' },
+          { title: 'PEARL Study – Rapamycin Longevity Trial', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT04488601' }
+        ]
+      }
     ]
   },
   {
@@ -420,6 +433,18 @@ const EXPERIMENTAL = [
       { title: 'Peptide Therapies – inkl. Epitalon', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
       { title: 'biolabshop (Suche „Epitalon")', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck',
+        audio: 'audio/epitalon-podcast.mp3',
+        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die verlockende Telomerase-/Telomer-Story ein: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig (kleine, unverblindete russische Studien). Plus die offene Krebsfrage bei einem Telomerase-Aktivator. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & Telomerlänge', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
+          { title: 'Al-Dulaimi et al., Biogerontology 2025 – unabhängige Replikation der Telomer-Verlängerung (Zellen)', url: 'https://link.springer.com/article/10.1007/s10522-025-10315-x' }
+        ]
+      }
     ]
   }
 ,
@@ -760,7 +785,7 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'Methylenblau: Wunderdroge oder Hype? (mit Paul & Paula)',
+        title: 'Methylenblau: Wunderdroge oder Hype?',
         audio: 'audio/methylene-blue-podcast.mp3',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
@@ -1030,6 +1055,19 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'LL-37: Körpereigenes Abwehr-Peptid – oder Entzündungstreiber?',
+        audio: 'audio/ll-37-podcast.mp3',
+        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Kern: LL-37 ist ein zweischneidiges Schwert – körpereigenes Cathelicidin mit breiter Abwehrwirkung, aber im Überschuss ein gut belegter Treiber von Psoriasis und Rosazea. Biohacking-Versprechen (Schimmel, Borreliose, Leaky Gut) stammen aus Zell-/Tierdaten, nicht aus Humanstudien. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Vandamme et al., Cell Immunol 2012 – LL-37 & Immunmodulation', url: 'https://pubmed.ncbi.nlm.nih.gov/23178275/' },
+          { title: 'Cathelicidin LL-37 – Rolle bei entzündlichen Hautkrankheiten (Psoriasis/Rosazea)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3346901/' },
+          { title: 'LL-37 treibt Rosazea-artige Hautentzündung NLRP3-abhängig', url: 'https://www.sciencedirect.com/science/article/pii/S0022202X21010095' }
+        ]
+      }
     ]
   },
   {
@@ -1097,6 +1135,18 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'SS-31: Das FDA-zugelassene Mitochondrien-Peptid – im Faktencheck',
+        audio: 'audio/ss-31-podcast.mp3',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Kern: SS-31 (Elamipretide/FORZINITY) bekam 2025 tatsächlich eine FDA-Zulassung – aber nur für die seltene Barth-Krankheit, NICHT für Anti-Aging/Energie bei Gesunden. Außerhalb dieser Nische gemischte Bilanz (u. a. verfehlter Endpunkt der MMPOWER-3-Studie), und die Graumarkt-Ampulle ist nicht das zugelassene Medikament. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Szeto, Br J Pharmacol 2014 – Wirkmechanismus von SS-31 (Cardiolipin)', url: 'https://pubmed.ncbi.nlm.nih.gov/24328896/' },
+          { title: 'FDA Accelerated Approval Elamipretide/FORZINITY 2025 (Barth-Syndrom)', url: 'https://www.fightaging.org/archives/2025/10/fda-approval-for-mitochondrial-therapeutic-elamipretide-formerly-ss-31/' }
+        ]
+      }
     ]
   },
   {
@@ -1133,7 +1183,7 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'DSIP: Das Schlafpeptid im Faktencheck (mit Paul & Paula)',
+        title: 'DSIP: Das Schlafpeptid im Faktencheck',
         audio: 'audio/dsip-podcast.mp3',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: seit 1977 bekannt und körpereigen, trägt „Schlaf" im Namen – trotzdem unklarer Mechanismus, dünne und widersprüchliche Humandaten und nie als Schlafmittel zugelassen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
@@ -1178,7 +1228,7 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'Semax: Russisches Nootropikum im Faktencheck (mit Paul & Paula)',
+        title: 'Semax: Russisches Nootropikum im Faktencheck',
         audio: 'audio/semax-podcast.mp3',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die echte russische Zulassung/Studienlage (BDNF, Schlaganfall) gegen die Grenzen ein: Evidenz fast nur aus Russland, für den Nootropikum-Einsatz bei Gesunden dünn, N-Acetyl-Varianten kaum untersucht, bei uns Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
@@ -1285,6 +1335,55 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ]
+  },
+  {
+    id: 'tadalafil',
+    name: 'Tadalafil',
+    altNames: 'Cialis, Adcirca, PDE5-Hemmer',
+    class: 'Phosphodiesterase-5-Hemmer (PDE5-Hemmer), verschreibungspflichtiges Arzneimittel',
+    emoji: '💊',
+    short: 'Bekanntes Potenzmittel und PDE5-Hemmer, das über verbesserte Durchblutung auch bei Prostatabeschwerden und Lungenhochdruck zugelassen ist und für Gefäß- und Gehirn-Effekte erforscht wird.',
+    moa: 'Tadalafil hemmt das Enzym Phosphodiesterase-5 (PDE5), das den Botenstoff cGMP abbaut. Über den Stickstoffmonoxid-cGMP-Signalweg entspannt sich dadurch die glatte Gefäßmuskulatur, Gefäße weiten sich und die Durchblutung verbessert sich – im Schwellkörper, in der Prostata und im Blasenhals, im Lungenkreislauf sowie potenziell im Gehirn. Charakteristisch ist die sehr lange Wirkdauer (Halbwertszeit ca. 17,5 h), die eine niedrige tägliche Dauergabe ermöglicht. Tadalafil passiert die Blut-Hirn-Schranke; ein neuroprotektiver bzw. durchblutungsfördernder Effekt im Gehirn wird untersucht, ist am Menschen aber nicht überzeugend belegt.',
+    benefits: [
+      'Zugelassen und gut belegt bei erektiler Dysfunktion.',
+      'Zugelassen bei Beschwerden der gutartigen Prostatavergrößerung (BPH-LUTS), oft 5 mg täglich – adressiert zwei häufige Männerprobleme mit einem Wirkstoff.',
+      'Zugelassen bei pulmonaler arterieller Hypertonie (Lungenhochdruck); verbessert die Belastbarkeit.',
+      'Sehr lange Wirkdauer erlaubt eine niedrige tägliche Dosierung.',
+      'Diskutierte Verbesserung der zerebralen Durchblutung; Bevölkerungsdaten deuten auf ein möglicherweise geringeres Demenzrisiko unter PDE5-Hemmern hin (Korrelation, kein Beweis).',
+      'Mögliche entzündungsdämpfende Effekte im Prostatagewebe (präklinisch).'
+    ],
+    risks: [
+      'STRIKTE KONTRAINDIKATION mit Nitraten (Herzmedikamente) – Gefahr eines lebensgefährlichen Blutdruckabfalls; Vorsicht auch mit Alphablockern und Blutdrucksenkern.',
+      'Häufig Kopfschmerzen, Gesichtsröte, verstopfte Nase, Rücken-/Muskelschmerzen, Verdauungsbeschwerden.',
+      'Selten, aber ernst: plötzliche Sehstörung (NAION), Hörstörungen, schmerzhafte Dauererektion (Priapismus, Notfall).',
+      'Gehirn-/Demenz-Nutzen ist nicht belegt: die randomisierte PASTIS-Studie zeigte keinen klaren Vorteil gegenüber Placebo.',
+      'Verschreibungspflichtig – Anwendung gehört ärztlich abgeklärt (Herz-Kreislauf, Wechselwirkungen).',
+      'Graumarkt-/Research-Ware ist oft hochdosiert und ungeprüft in Reinheit und Dosis; riskant bei einem kreislaufwirksamen Mittel.'
+    ],
+    status: 'In Deutschland und der EU als Arzneimittel zugelassen (u. a. Cialis, Adcirca), aber verschreibungspflichtig. Der legale und sichere Weg führt über Arzt und Apotheke.',
+    sources: [
+      { title: 'StatPearls (NIH) – Tadalafil: Wirkmechanismus & zugelassene Anwendungen', url: 'https://www.ncbi.nlm.nih.gov/books/NBK603743/' },
+      { title: 'Yokoyama et al. 2015 – Tadalafil bei BPH-LUTS (Übersicht & Mechanismus)', url: 'https://pubmed.ncbi.nlm.nih.gov/26425140/' },
+      { title: 'ETLAS-2 (Stroke 2025) – Tadalafil, Hirndurchblutung & Kognition bei Kleingefäßerkrankung', url: 'https://www.ahajournals.org/doi/10.1161/STROKEAHA.125.051602' }
+    ],
+    community: [
+      { title: 'Verschreibungspflichtig – über Arzt & Apotheke beziehen (geprüfte Qualität, Beratung zu Wechselwirkungen)', url: 'https://www.gelbe-liste.de/wirkstoffe/Tadalafil_23331' },
+      { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
+      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Tadalafil: Sexpille fürs Gehirn? Prostata, Blutdruck & Kopf im Faktencheck',
+        audio: 'audio/tadalafil-podcast.mp3',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Trennt Zugelassenes (Erektion, Prostata/BPH, Lungenhochdruck) vom Vorläufigen (Gehirn/Demenz – biologisch plausibel, aber die PASTIS-Studie war nicht überzeugend) und betont die kritische Nitrat-Warnung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, bitte ärztlich abklären.',
+        sources: [
+          { title: 'StatPearls (NIH) – Tadalafil', url: 'https://www.ncbi.nlm.nih.gov/books/NBK603743/' },
+          { title: 'PASTIS-Studie (Alz. & Dementia 2022) – PDE5-Hemmer bei zerebraler Kleingefäßerkrankung', url: 'https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12559' },
+          { title: 'Tadalafil & alternde Gehirn-Gefäße – Evidenzüberblick', url: 'https://shanghaiarchivesofpsychiatry.org/en/214067.html' }
+        ]
+      }
     ]
   }
 
