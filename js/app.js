@@ -1089,7 +1089,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
           </div>
           ${(e.podcasts && e.podcasts.length) ? `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${e.podcasts.length})</div>${e.podcasts.map(p => `<div class="exp-podcast">
             <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
-            <audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>
+            ${p.spotify ? `<iframe class="exp-podcast-spotify" style="border-radius:12px;width:100%;height:152px;border:0;margin:8px 0" src="https://open.spotify.com/embed/episode/${escapeHtml(p.spotify)}" loading="lazy" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
             ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
             ${(p.sources && p.sources.length) ? `<details class="exp-podcast-src"><summary>Quellen der Folge (${p.sources.length})</summary><ul>${p.sources.map(s => `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`).join('')}</ul></details>` : ''}
           </div>`).join('')}</div>` : ''}
