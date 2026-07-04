@@ -2917,3 +2917,27 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 720px) {
   .global-search { order: 3; flex-basis: 100%; max-width: none; margin: 10px 0 2px; }
 }
+
+/* ============ KI-PODCAST-BLOCK (Experimentelles/Peptide) ============ */
+.exp-podcast {
+  margin: 12px 0 6px;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(47,139,106,0.08), rgba(74,122,138,0.08));
+  border: 1px solid var(--surface-border);
+}
+.exp-podcast-head { display: flex; align-items: center; gap: 11px; margin-bottom: 10px; }
+.exp-podcast-icon {
+  font-size: 1.3rem; width: 40px; height: 40px; flex: 0 0 40px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface); border-radius: 11px; box-shadow: var(--shadow);
+}
+.exp-podcast-titles { min-width: 0; }
+.exp-podcast-title { font-weight: 700; color: var(--text); font-size: 0.95rem; line-height: 1.25; }
+.exp-podcast-meta { font-size: 0.76rem; color: var(--accent); font-weight: 600; margin-top: 2px; }
+.exp-podcast-audio { width: 100%; height: 40px; margin: 2px 0 8px; }
+.exp-podcast-note { font-size: 0.78rem; color: var(--text-muted); line-height: 1.45; }
+.exp-podcast-src { margin-top: 8px; }
+.exp-podcast-src summary { cursor: pointer; font-size: 0.8rem; color: var(--accent); font-weight: 600; }
+.exp-podcast-src ul { margin: 6px 0 0; padding-left: 18px; }
+.exp-podcast-src li { font-size: 0.78rem; margin: 3px 0; }
