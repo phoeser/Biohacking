@@ -487,6 +487,20 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike: GLP-1 Microdosing', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'biolabshop (Semaglutide-Forschungspeptid)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Semaglutid (Ozempic & Wegovy): Die Abnehmspritze im Faktencheck',
+        audio: 'audio/semaglutide-podcast.mp3',
+        spotify: '4ka2ChMuVWR1mNEW6krIgN',
+        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Anders als Graumarkt-Peptide ein echtes, zugelassenes, hochwirksames Medikament (STEP ~15% Gewicht, SELECT −20% Herz-Kreislauf-Events). Der Faktencheck: Rebound nach Absetzen, Muskelverlust, Nebenwirkungen – und die gefährlichen grauen/gefälschten Versionen mit Dosierungsrisiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, ärztlich begleiten lassen.',
+        sources: [
+          { title: 'Wilding et al., NEJM 2021 – STEP 1 (Gewichtsverlust)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2032183' },
+          { title: 'Lincoff et al., NEJM 2023 – SELECT (kardiovaskulärer Nutzen)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2307563' },
+          { title: 'STEP-1-Verlängerung – Gewichtszunahme nach Absetzen', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9542252/' }
+        ]
+      }
     ]
   },
   {
@@ -517,6 +531,20 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'biolabshop (Tirzepatide)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Tirzepatid (Mounjaro & Zepbound): Der stärkste zugelassene Fatburner im Faktencheck',
+        audio: 'audio/tirzepatide-podcast.mp3',
+        spotify: '0buOOWBafXuQQtnwUVwTQ3',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der Dual-Agonist (GIP+GLP-1) schlug Semaglutid direkt (SURMOUNT-5: 20,2% vs. 13,7%) und ist das aktuell wirksamste zugelassene Abnehm-Medikament – bei tendenziell besserer Verträglichkeit. Faktencheck: Rebound, Muskelverlust, Warnhinweise und die gefährlichen grauen/gefälschten Versionen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
+        sources: [
+          { title: 'Jastreboff et al., NEJM 2022 – SURMOUNT-1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2206038' },
+          { title: 'SURMOUNT-5 (NEJM) – Tirzepatid vs. Semaglutid, direkter Vergleich', url: 'https://www.appliedclinicaltrialsonline.com/view/tirzepatide-weight-loss-semaglutide-surmount-trial' },
+          { title: 'Malhotra et al., NEJM 2024 – SURMOUNT-OSA (Schlafapnoe)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2404881' }
+        ]
+      }
     ]
   },
   {
@@ -547,6 +575,19 @@ const EXPERIMENTAL = [
     community: [
       { title: 'biolabshop (Cagrilintide-Forschungspeptid)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'Cagrilintid & CagriSema: Der noch nicht zugelassene Abnehm-Kandidat im Faktencheck',
+        audio: 'audio/cagrilintide-podcast.mp3',
+        spotify: '7ttQFry7aM9fH5hoBUI2jv',
+        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Amylin-Analogon (Cagrilintid) + GLP-1 (Semaglutid) = CagriSema, zwei Sättigungs-Systeme in einer Spritze. REDEFINE-1: >20% Gewichtsverlust – stark, aber knapp unter den Erwartungen. Der Kernpunkt: NOCH NICHT zugelassen (FDA-Antrag Dez. 2025, Prüfung 2026) → alles am Graumarkt ist unbewiesene Research-Ware, oft als DIY-CagriSema selbst gemixt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'REDEFINE-1 – Cagrilintid+Semaglutid: >20% Gewichtsverlust', url: 'https://www.appliedclinicaltrialsonline.com/view/cagrilintide-semaglutide-weight-loss' },
+          { title: 'Novo Nordisk – FDA-Zulassungsantrag für CagriSema (Dez. 2025)', url: 'https://www.biospace.com/press-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp-1-and-amylin-analogues-for-weight-management' }
+        ]
+      }
     ]
   },
 
@@ -580,6 +621,19 @@ const EXPERIMENTAL = [
     community: [
       { title: 'biolabshop (MK-677)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'MK-677 (Ibutamoren): Wachstumshormon aus der Tablette im Faktencheck',
+        audio: 'audio/mk-677-podcast.mp3',
+        spotify: '7cS934A5Qy8S57IAT5hitp',
+        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: MK-677 hebt GH und IGF-1 zuverlässig an (oral!) – aber der Preis ist real: steigender Blutzucker/Insulinresistenz, Wassereinlagerung, ein Herzinsuffizienz-Signal in einer Studie (vorzeitig abgebrochen), theoretisches Krebsrisiko. Nie zugelassen, WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Nass et al., Ann Intern Med 2008 – MK-677 bei älteren Erwachsenen', url: 'https://pubmed.ncbi.nlm.nih.gov/19075203/' },
+          { title: 'DEA/GetSmart – Gesundheitsrisiken von MK-677 (u. a. Herzinsuffizienz-Signal)', url: 'https://www.getsmartaboutdrugs.gov/news-statistics/2025/07/08/beyond-hype-potential-health-risks-mk-677' }
+        ]
+      }
     ]
   },
   {
@@ -1393,13 +1447,60 @@ const EXPERIMENTAL = [
       {
         title: 'Tadalafil: Sexpille fürs Gehirn? Prostata, Blutdruck & Kopf im Faktencheck',
         audio: 'audio/tadalafil-podcast.mp3',
-        spotify: '7oSACBkAutryc1NyZE5z1Z',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Trennt Zugelassenes (Erektion, Prostata/BPH, Lungenhochdruck) vom Vorläufigen (Gehirn/Demenz – biologisch plausibel, aber die PASTIS-Studie war nicht überzeugend) und betont die kritische Nitrat-Warnung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, bitte ärztlich abklären.',
         sources: [
           { title: 'StatPearls (NIH) – Tadalafil', url: 'https://www.ncbi.nlm.nih.gov/books/NBK603743/' },
           { title: 'PASTIS-Studie (Alz. & Dementia 2022) – PDE5-Hemmer bei zerebraler Kleingefäßerkrankung', url: 'https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12559' },
           { title: 'Tadalafil & alternde Gehirn-Gefäße – Evidenzüberblick', url: 'https://shanghaiarchivesofpsychiatry.org/en/214067.html' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'prostamax',
+    name: 'Prostamax',
+    altNames: 'Prostagen, KEDP (Lys-Glu-Asp-Pro), Prostata-Bioregulator (Khavinson)',
+    class: 'Khavinson-Bioregulator – gewebespezifisches Kurzpeptid für die Prostata',
+    emoji: '🧬',
+    short: 'Russisches Bioregulator-Tetrapeptid für die Prostata, das BPH- und Prostatitis-Beschwerden über einen epigenetischen Mechanismus lindern soll – mit fast ausschließlich russischer Evidenz.',
+    moa: 'Prostamax ist ein synthetisches Tetrapeptid (Lys-Glu-Asp-Pro) aus der Bioregulator-Schule von Vladimir Khavinson und soll gewebespezifisch im Prostatagewebe wirken. Die postulierte Wirkung ist epigenetisch: Das kurze Peptid soll an die DNA binden, dicht gepackte Chromatin-Bereiche lockern und altersbedingt stillgelegte Gene reaktivieren. Diskutiert werden eine Normalisierung der Androgen-Rezeptor-Expression, eine Dämpfung entzündlicher Zytokine (TNF-alpha, IL-8) im Prostatastroma und die Wiederherstellung der Drüsenzell-Funktion. Die orale Variante Prostagen leitet sich aus Prostata-Gewebeextrakten (Cytamine) ab. Ein Großteil der Evidenz stammt aus Tiermodellen und russischen Anwendungen einer einzigen Forschungsschule.',
+    benefits: [
+      'In Tiermodellen mit reduzierter Prostata-Entzündung, Schwellung und Vernarbung assoziiert.',
+      'Diskutierte Dämpfung entzündlicher Botenstoffe (TNF-alpha, IL-8) im Prostatagewebe.',
+      'In russischer Anwendung bei BPH-Beschwerden und chronischer Prostatitis eingesetzt.',
+      'Erfahrungsberichte über weniger nächtliches Wasserlassen und besseren Harnfluss.',
+      'Gewebespezifischer, nicht-hormoneller Ansatz ohne klassische Hormonwirkung.',
+      'In der russischen Anwendung als gut verträglich beschrieben.'
+    ],
+    risks: [
+      'Belastbare unabhängige Humanstudien (randomisiert, verblindet) fehlen praktisch komplett; Evidenz überwiegend aus Tiermodellen und einer Forschungsschule.',
+      'WICHTIG: Selbstbehandlung von Prostatabeschwerden kann Warnsignale verschleiern und die Früherkennung von Prostatakrebs (PSA) verzögern – dringend ärztlich abklären.',
+      'Nur als Forschungschemikalie („nicht zum menschlichen Verzehr") erhältlich; Graumarkt mit ungeprüfter Reinheit, Dosis und Sterilität.',
+      'Berichtete PSA-Veränderungen sind Anekdote, nicht kontrolliert belegt.',
+      'Langzeitsicherheit beim Menschen ist nicht systematisch untersucht.',
+      'Für BPH/Prostatitis existieren erprobte, zugelassene Therapien (Alphablocker, 5-ARI, Tadalafil) – Prostamax ist eine unbewiesene Alternative.'
+    ],
+    status: 'In Deutschland und der EU nicht als Arzneimittel zugelassen; Vertrieb nur als Forschungssubstanz ohne humanmedizinische Freigabe.',
+    sources: [
+      { title: 'Khavinson – Peptide bioregulators & Gerontologie (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
+      { title: 'Muscle&Brawn – Prostamax Bioregulator (Übersicht & Einordnung)', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
+    ],
+    community: [
+      { title: 'Verschreibungspflichtige Behandlung von BPH/Prostatitis: über Urologen abklären', url: 'https://www.gelbe-liste.de/krankheiten/benigne-prostatahyperplasie' },
+      { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
+      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck',
+        audio: 'audio/prostamax-podcast.mp3',
+        spotify: '5hOI7uOwHV0Ok2wsNP5Odo',
+        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
+        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
+        sources: [
+          { title: 'Khavinson – Peptide bioregulators (Gerontologie)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
+          { title: 'Prostamax Bioregulator – Übersicht & Einordnung', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
         ]
       }
     ]
