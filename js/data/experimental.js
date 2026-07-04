@@ -850,6 +850,20 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: KPV – das Anti-Entzündungs-Tripeptid',
+        audio: 'audio/kpv-podcast.mp3',
+        lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'The Hunter Williams Podcast – KPV: Best Anti-Inflammatory Peptide', url: 'https://open.spotify.com/episode/5JbfV3XJhPSQttJkR8GJBB' },
+          { title: 'Peptide of The Week – KPV & PT-141', url: 'https://open.spotify.com/episode/4RR6rXWb3jDsBYQOFf4l35' },
+          { title: 'The Human 5.0 Project – KLOW Peptide Blend (inkl. KPV)', url: 'https://open.spotify.com/episode/0uoOMwyZ1xpclkmWFT2ceK' },
+          { title: 'The Peptide Effect – KPV Peptide Explained', url: 'https://open.spotify.com/episode/5ablv4QSXOZH0drjoWKRuK' }
+        ]
+      }
     ]
   },
   {
