@@ -276,6 +276,21 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Retatrutide / SLU / MOTS-c Diskussion', url: 'https://www.youtube.com/watch?v=hiTorLOAWKQ' },
       { title: 'biolabshop (Suche „MOTS-c")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid',
+        audio: 'audio/mots-c-podcast.mp3',
+        lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von 6 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'The Hunter Williams Podcast – The MOTS-c Masterclass', url: 'https://open.spotify.com/episode/1gm3FXwjaB26mzqmf4ClV8' },
+          { title: 'Peptide of The Week – MOTS-c', url: 'https://open.spotify.com/episode/50ivCghdwnxWZfcWazeRvI' },
+          { title: 'The Peptide Effect – MOTS-c Explained', url: 'https://open.spotify.com/episode/6dgKkSY9T1P80besGDJJ1D' },
+          { title: 'THE MANLAB – MOTS-C: Worth the Hype?', url: 'https://open.spotify.com/episode/4LBOdxUgoNVip9cYl8ZIIQ' },
+          { title: 'GSD Mode – MOTS-c Peptide Breakdown', url: 'https://open.spotify.com/episode/1VY07hZk7wBKtjshJlyOKL' }
+        ]
+      }
     ]
   },
 
@@ -541,6 +556,20 @@ const EXPERIMENTAL = [
     community: [
       { title: 'biolabshop – TB-500/BPC-157 Combo', url: 'https://biolabshop.co.uk/peptides/321-tb-4-fragbpc-157-arg-700-mcg-30-caps.html' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: TB-500 – der „Transporter" im Wolverine-Stack',
+        audio: 'audio/tb-500-podcast.mp3',
+        lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
+        note: 'KI-generierte deutsche Folge, inspiriert von 4 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        sources: [
+          { title: 'The Hunter Williams Podcast – The Complete TB-500 Masterclass', url: 'https://open.spotify.com/episode/6X7pisgcrGMj7hcUgPebOL' },
+          { title: 'Peptide of The Week – Wolverine Stack (BPC-157 & TB-500)', url: 'https://open.spotify.com/episode/29CiFyfaa3fghk57syxE68' },
+          { title: 'Peptides With Michele – BPC-157 + TB-500: Recovery Power Couple', url: 'https://open.spotify.com/episode/0V8XPPXjTy2KDQyAdkQlRP' },
+          { title: 'Basically Bodybuilding – BPC-157 und TB500 (Deutsch)', url: 'https://open.spotify.com/episode/0XOJEl9uY4I6N2WTbWpqs3' }
+        ]
+      }
     ]
   },
   {
