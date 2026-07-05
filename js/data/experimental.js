@@ -580,7 +580,7 @@ const EXPERIMENTAL = [
       {
         title: 'Cagrilintid & CagriSema: Der noch nicht zugelassene Abnehm-Kandidat im Faktencheck',
         audio: 'audio/cagrilintide-podcast.mp3',
-        spotify: '7ttQFry7aM9fH5hoBUI2jv',
+        spotify: '0FG5QGQkSFNJouyuKroNIL',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Amylin-Analogon (Cagrilintid) + GLP-1 (Semaglutid) = CagriSema, zwei Sättigungs-Systeme in einer Spritze. REDEFINE-1: >20% Gewichtsverlust – stark, aber knapp unter den Erwartungen. Der Kernpunkt: NOCH NICHT zugelassen (FDA-Antrag Dez. 2025, Prüfung 2026) → alles am Graumarkt ist unbewiesene Research-Ware, oft als DIY-CagriSema selbst gemixt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -626,7 +626,7 @@ const EXPERIMENTAL = [
       {
         title: 'MK-677 (Ibutamoren): Wachstumshormon aus der Tablette im Faktencheck',
         audio: 'audio/mk-677-podcast.mp3',
-        spotify: '7cS934A5Qy8S57IAT5hitp',
+        spotify: '5BFLu2EqcYTVGzEG2XuBXe',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: MK-677 hebt GH und IGF-1 zuverlässig an (oral!) – aber der Preis ist real: steigender Blutzucker/Insulinresistenz, Wassereinlagerung, ein Herzinsuffizienz-Signal in einer Studie (vorzeitig abgebrochen), theoretisches Krebsrisiko. Nie zugelassen, WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -674,7 +674,7 @@ const EXPERIMENTAL = [
       {
         title: 'CJC-1295 + Ipamorelin: Der beliebte Wachstumshormon-Stack im Faktencheck',
         audio: 'audio/cjc-ipamorelin-podcast.mp3',
-        spotify: '5u2hAGrdzczi3TGtTbr8hr',
+        spotify: '1lAy2Hc9kF0X2YQijcYKg5',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der klassische GH-Stack: GHRH (CJC-1295) + selektives GHRP (Ipamorelin, ohne Cortisol/Prolaktin der alten GHRPs) verstärken sich zu einem mehrfachen GH-Puls. Akute Wirkung real, aber Langzeit-/Anti-Aging-Nutzen bei Gesunden unbelegt; GH-Klassen-Risiken (Blutzucker, IGF-1), FDA-Warnung zu compounded CJC-1295, WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -772,7 +772,7 @@ const EXPERIMENTAL = [
       {
         title: 'GHK-Cu (Kupfer-Tripeptid): Creme top, Spritze Fragezeichen – im Faktencheck',
         audio: 'audio/ghk-cu-podcast.mp3',
-        spotify: '6fi4gQcqH30B2kJF1sDrum',
+        spotify: '7GdCodf2PCq47XKo9jmrrK',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: topisch/kosmetisch ist GHK-Cu eines der bestbelegten Peptide (~40 Jahre Forschung, +28% Kollagendichte, Haut/Wundheilung, sehr sicher) – aber der Sprung zum injizierten Ganzkörper-Anti-Aging ist am Menschen kaum belegt und bringt ein Kupfer-Überladungs-Risiko. Belegt ist die Creme, nicht die Nadel. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -817,7 +817,7 @@ const EXPERIMENTAL = [
       {
         title: 'Metformin: Diabetes-Klassiker als Anti-Aging-Hoffnung im Faktencheck',
         audio: 'audio/metformin-podcast.mp3',
-        spotify: '77xwjpaw2cPJ5HxJyqexNY',
+        spotify: '4CQMxRGnxLMeTqnvn6uH2B',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Solides, billiges, zugelassenes Diabetes-Medikament, das über den AMPK-Schalter dieselben Alterns-Signalwege anspricht wie Sport/Fasten. Aber: Longevity bei Gesunden ist Hypothese (TAME-Studie noch offen, ~2026/27), mit realer Kehrseite – Metformin kann Trainings-/Muskelgewinne bremsen. Plus B12-Mangel-Risiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
@@ -1038,7 +1038,7 @@ const EXPERIMENTAL = [
       {
         title: 'Mod GRF 1-29 (CJC-1295 ohne DAC): Der Wachstumshormon-Puls im Faktencheck',
         audio: 'audio/mod-grf-1-29-podcast.mp3',
-        spotify: '0v5aUTkICX8YEdRoFsaHIT',
+        spotify: '2QVSWQ1gUwtRm7ExnhVHHf',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. GHRH-Analogon, das die Hirnanhangsdrüse zu einem kurzen, natürlichen GH-Puls anregt. Zentral: der Unterschied „mit vs. ohne DAC" (kurz/pulsatil vs. tagelang erhöht). Wirkprinzip real (zugelassener Verwandter: Tesamorelin), aber für Anti-Aging/Muskel bei Gesunden kaum belegt; GH-Klassen-Risiken (Blutzucker, IGF-1), WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
@@ -1562,7 +1562,7 @@ const EXPERIMENTAL = [
       {
         title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck',
         audio: 'audio/prostamax-podcast.mp3',
-        spotify: '5hOI7uOwHV0Ok2wsNP5Odo',
+        spotify: '4N70kUgdRUuMwgCYi9TbvG',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
         sources: [
@@ -1609,7 +1609,7 @@ const EXPERIMENTAL = [
       {
         title: 'PT-141 (Bremelanotid): Die Lust-Spritze fürs Gehirn im Faktencheck',
         audio: 'audio/pt-141-podcast.mp3',
-        spotify: '3KZK4XSNc4aGdmitwl74rZ',
+        spotify: '2D3wSp3syLHObeyXzCi2nR',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
