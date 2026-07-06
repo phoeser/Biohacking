@@ -8,6 +8,21 @@
 
   const AI_MODEL = 'gemini-2.5-flash';
 
+  // Spotify-Embeds erst auf Klick laden (verhindert, dass viele DRM/HDCP-
+  // Player gleichzeitig aktiv sind – das ließ bei manchen Monitoren den
+  // Bildschirm periodisch schwarz werden). Facade-Button lädt genau einen.
+  window.loadSpotifyEmbed = function (btn, id) {
+    const wrap = btn && btn.closest ? btn.closest('.exp-podcast-spotify-facade') : null;
+    if (!wrap) return;
+    const f = document.createElement('iframe');
+    f.className = 'exp-podcast-spotify';
+    f.style.cssText = 'border-radius:12px;width:100%;height:152px;border:0;margin:8px 0';
+    f.setAttribute('allow', 'clipboard-write; encrypted-media; fullscreen; picture-in-picture');
+    f.src = 'https://open.spotify.com/embed/episode/' + id + '?utm_source=generator';
+    wrap.innerHTML = '';
+    wrap.appendChild(f);
+  };
+
   // Peptide-Bezugsquellen (immer unter "Praxis & Community" gelistet).
   // ►►► HIER PFLEGEN: sobald Affiliate-/Partner-Zugang da ist, 'ref' (Ref-Link) und
   // 'code' (Rabattcode) eintragen. Solange 'ref' leer ist, wird die normale Shop-URL
@@ -1089,7 +1104,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
           </div>
           ${(e.podcasts && e.podcasts.length) ? `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${e.podcasts.length})</div>${e.podcasts.map(p => `<div class="exp-podcast">
             <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
-            ${p.spotify ? `<iframe class="exp-podcast-spotify" style="border-radius:12px;width:100%;height:152px;border:0;margin:8px 0" src="https://open.spotify.com/embed/episode/${escapeHtml(p.spotify)}" loading="lazy" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
+            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
             ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
             ${(p.sources && p.sources.length) ? `<details class="exp-podcast-src"><summary>Quellen der Folge (${p.sources.length})</summary><ul>${p.sources.map(s => `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`).join('')}</ul></details>` : ''}
           </div>`).join('')}</div>` : ''}
