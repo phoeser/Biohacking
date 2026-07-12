@@ -12,6 +12,53 @@
  *   sources:  Studien/Veröffentlichungen mit URL
  */
 const EXPERIMENTAL = [
+  // ============ HORMONE / MÄNNERGESUNDHEIT ============
+  {
+    id: 'testosteron',
+    name: 'Testosteron & TRT',
+    altNames: 'Testosteron-Ersatztherapie, TRT, Testosteron-Substitution, Testosterongel, Testosteron-Enantat',
+    class: 'Androgenes Sexualhormon · Hormonersatztherapie bei Hypogonadismus (Testosteronmangel)',
+    emoji: '💪',
+    short: 'Zugelassene Hormonersatztherapie bei nachgewiesenem Testosteronmangel. Bei echtem Mangel gut belegt und oft sehr wirksam – gehört aber ärztlich diagnostiziert und begleitet, nicht als Hochdosis-Lifestyle-Mittel.',
+    moa: 'Testosteron ist das wichtigste männliche Sexualhormon und wirkt über Androgenrezeptoren auf Muskeln, Knochen, Blutbildung, Fettstoffwechsel, Libido, Antrieb und Stimmung; ein Teil wird zu Östradiol aromatisiert (physiologisch nötig, u.a. für Knochen und Libido). Der Spiegel sinkt ab etwa Mitte 30 langsam; bei ausgeprägtem Mangel mit Symptomen spricht man von Hypogonadismus. Die TRT ersetzt das fehlende Hormon (Injektion, Gel, Pflaster oder Depot), um den Spiegel in einen gesunden Bereich zu bringen. Ziel ist der Ausgleich eines Mangels, nicht die Supraphysiologie.',
+    benefits: [
+      'Bei echtem Mangel: mehr sexuelles Verlangen und bessere Erektionsfähigkeit.',
+      'Zunahme der Muskelmasse und Abnahme von Körperfett.',
+      'Verbesserte Knochendichte.',
+      'Oft bessere Stimmung, mehr Antrieb und Lebensqualität (mangelbedingte, depressionsähnliche Symptome bessern sich).',
+      'Hinweise auf bessere Insulinempfindlichkeit und günstige Stoffwechseleffekte, v.a. bei Übergewicht + Mangel.',
+      'Aktuelle Sicherheitsdaten (TRAVERSE-Studie): kein erhöhtes Risiko für schwere Herz-Kreislauf-Ereignisse und keine erhöhte Prostatakrebsrate bei sachgemäßem Einsatz.'
+    ],
+    risks: [
+      'Anstieg der roten Blutkörperchen (Erythrozytose, „dickeres Blut") – häufigster dosisabhängiger Effekt, erfordert regelmäßige Blutkontrollen.',
+      'Unterdrückung der körpereigenen Testosteron- und Spermienproduktion → verminderte Fruchtbarkeit (wirkt faktisch wie Verhütung). Bei Kinderwunsch andere, fruchtbarkeitsschonende Ansätze nötig.',
+      'Verschreibungspflichtig; unkontrollierte Hochdosis-/Graumarkt-Nutzung bringt genau die Risiken zurück, die eine leitliniengerechte TRT vermeidet.',
+      'Regelmäßiges Monitoring nötig (u.a. Hämatokrit, PSA/Prostata, Blutdruck, ggf. Östradiol).',
+      'Nur bei nachgewiesenem Mangel (Symptome PLUS mehrfach niedrige Morgen-Blutwerte) sinnvoll – nicht als Lifestyle-Doping bei normalem Spiegel.'
+    ],
+    status: 'Zugelassenes, verschreibungspflichtiges Arzneimittel zur Behandlung des männlichen Hypogonadismus (Testosteronmangel). Kein Off-Label-Longevity-Mittel; Einsatz und Dosierung gehören in ärztliche Hände.',
+    sources: [
+      { title: 'Endocrine Society / AUA – Guidelines Testosterontherapie bei Hypogonadismus', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' },
+      { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit von Testosterontherapie', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
+      { title: 'Cleveland Clinic – Testosterone Replacement Therapy (TRT): Überblick', url: 'https://my.clevelandclinic.org/health/treatments/testosterone-replacement-therapy-trt' }
+    ],
+    community: [
+      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'Testosteron & TRT: Die Testosteron-Ersatztherapie im Faktencheck',
+        audio: 'audio/testosteron-podcast.mp3',
+        spotify: '6uKz3P8CXnqgw4r7c0mlDn',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)',
+        note: 'KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), mit Fachrecherche ergänzt und bewusst positiv, aber verantwortungsvoll gerahmt: TRT bei echtem, ärztlich nachgewiesenem Mangel ist gut belegt und oft sehr wirksam; die TRAVERSE-Studie hat Herz- und Prostata-Sorgen entschärft. Klar benannt: Blutkontrollen (Hämatokrit), unterdrückte Fruchtbarkeit und die strikte Abgrenzung zur Hochdosis-/Graumarkt-Nutzung. Reine Information, kein medizinischer Rat, keine Dosierempfehlung – Testosteron ist verschreibungspflichtig; Mangel bitte ärztlich abklären und Therapie ärztlich begleiten.',
+        sources: [
+          { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
+          { title: 'AAFP 2024 – Testosterone Replacement Therapy for Male Hypogonadism', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' }
+        ]
+      }
+    ]
+  },
   // ============ STOFFWECHSEL / WEIGHT LOSS ============
   {
     id: 'retatrutide',
@@ -1633,23 +1680,19 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
-  // Stoffwechsel / Weight Loss
   'retatrutide': 'Stoffwechsel',
   'tesofensin': 'Stoffwechsel',
   'semaglutide': 'Stoffwechsel',
   'tirzepatide': 'Stoffwechsel',
   'cagrilintide': 'Stoffwechsel',
-  // Exercise-Mimetika / GH
   'slu-pp-332': 'Exercise',
   '5-amino-1mq': 'Exercise',
   'mk-677': 'Exercise',
   'cjc-ipamorelin': 'Exercise',
-  // Immun / Heilung
   'thymosin-alpha-1': 'Immun',
   'bpc-157': 'Immun',
   'tb-500': 'Immun',
   'ghk-cu': 'Immun',
-  // Longevity
   'mots-c': 'Longevity',
   'rapamycin': 'Longevity',
   'epitalon': 'Longevity',
