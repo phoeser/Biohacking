@@ -245,7 +245,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung',
         audio: 'audio/thymosin-alpha-1-podcast.mp3',
-        spotify: '1RK9QRISmvhFWClJgBGtCv',
+        spotify: '11QZafzo2jGgDsOl3xxA11',
         lengthLabel: '≈ 6 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -348,7 +348,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid',
         audio: 'audio/mots-c-podcast.mp3',
-        spotify: '31UyFXwZ2hcCgFCfhJcsWx',
+        spotify: '0QdJ0uUCvxloFqJVXLIWre',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 6 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -1513,7 +1513,7 @@ const EXPERIMENTAL = [
       {
         title: 'Tadalafil: Sexpille fürs Gehirn? Prostata, Blutdruck & Kopf im Faktencheck',
         audio: 'audio/tadalafil-podcast.mp3',
-        spotify: '7oSACBkAutryc1NyZE5z1Z',
+        spotify: '4m6SNKGcaneh9bA0VfC0c5',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Trennt Zugelassenes (Erektion, Prostata/BPH, Lungenhochdruck) vom Vorläufigen (Gehirn/Demenz – biologisch plausibel, aber die PASTIS-Studie war nicht überzeugend) und betont die kritische Nitrat-Warnung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, bitte ärztlich abklären.',
         sources: [
