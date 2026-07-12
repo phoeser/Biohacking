@@ -47,7 +47,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: Retatrutide – der stärkste Abnehm-Triagonist',
         audio: 'audio/retatrutide-podcast.mp3',
-        spotify: '6BM97ChEQFvjSuARtQg9eR',
+        spotify: '7kJBUC1x9ZEfzlHN0WCO3f',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit aktueller Fachrecherche (TRIUMPH Phase 3) ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -298,7 +298,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: BPC-157 – Heilungs-Peptid zwischen Hype und Evidenz',
         audio: 'audio/bpc-157-podcast.mp3',
-        spotify: '4MjxwhVwsFM78VqdszeO5c',
+        spotify: '3G58RjUupVFwxDMkOdSqX2',
         lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 5 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
@@ -492,7 +492,7 @@ const EXPERIMENTAL = [
       {
         title: 'Semaglutid (Ozempic & Wegovy): Die Abnehmspritze im Faktencheck',
         audio: 'audio/semaglutide-podcast.mp3',
-        spotify: '4ka2ChMuVWR1mNEW6krIgN',
+        spotify: '5x2XjkIFxdENZQF2LEbRrH',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Anders als Graumarkt-Peptide ein echtes, zugelassenes, hochwirksames Medikament (STEP ~15% Gewicht, SELECT −20% Herz-Kreislauf-Events). Der Faktencheck: Rebound nach Absetzen, Muskelverlust, Nebenwirkungen – und die gefährlichen grauen/gefälschten Versionen mit Dosierungsrisiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, ärztlich begleiten lassen.',
         sources: [
@@ -536,7 +536,7 @@ const EXPERIMENTAL = [
       {
         title: 'Tirzepatid (Mounjaro & Zepbound): Der stärkste zugelassene Fatburner im Faktencheck',
         audio: 'audio/tirzepatide-podcast.mp3',
-        spotify: '0buOOWBafXuQQtnwUVwTQ3',
+        spotify: '5vOtZhEe08HDu7AU2mwaRx',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der Dual-Agonist (GIP+GLP-1) schlug Semaglutid direkt (SURMOUNT-5: 20,2% vs. 13,7%) und ist das aktuell wirksamste zugelassene Abnehm-Medikament – bei tendenziell besserer Verträglichkeit. Faktencheck: Rebound, Muskelverlust, Warnhinweise und die gefährlichen grauen/gefälschten Versionen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
@@ -723,7 +723,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: TB-500 – der „Transporter" im Wolverine-Stack',
         audio: 'audio/tb-500-podcast.mp3',
-        spotify: '70WrEX6Y27TAGQzMT2wQWR',
+        spotify: '7jlWTnGRAao4lBwzhtUWPg',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 4 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
