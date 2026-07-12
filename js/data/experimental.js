@@ -147,7 +147,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: SLU-PP-332 – „Sport in der Spritze"?',
         audio: 'audio/slu-pp-332-podcast.mp3',
-        spotify: '73bofd0OXAhIcNX3UtrlA0',
+        spotify: '78sborgd6xvQKQVOI9Qu8m',
         lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
