@@ -1132,7 +1132,7 @@ const EXPERIMENTAL = [
       {
         title: 'KI-Podcast: KPV – das Anti-Entzündungs-Tripeptid',
         audio: 'audio/kpv-podcast.mp3',
-        spotify: '17szxjNneTkvQwBRP5CN28',
+        spotify: '0mPFUWG5UTnN6DWL7GUtoQ',
         lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
         sources: [
