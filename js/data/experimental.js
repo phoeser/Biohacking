@@ -19,7 +19,7 @@ const EXPERIMENTAL = [
     altNames: 'Testosteron-Ersatztherapie, TRT, Testosteron-Substitution, Testosterongel, Testosteron-Enantat',
     class: 'Androgenes Sexualhormon · Hormonersatztherapie bei Hypogonadismus (Testosteronmangel)',
     emoji: '💪',
-    short: 'Zugelassene Hormonersatztherapie bei nachgewiesenem Testosteronmangel. Bei echtem Mangel gut belegt und oft sehr wirksam – gehört aber ärztlich diagnostiziert und begleitet, nicht als Hochdosis-Lifestyle-Mittel.',
+    short: 'Bei echtem, ärztlich festgestelltem Testosteronmangel eine gut belegte und oft sehr wirksame Hormontherapie – sie bringt spürbar mehr Energie, Muskelkraft, Libido und Lebensfreude zurück. Am schönsten mit ärztlicher Begleitung.',
     moa: 'Testosteron ist das wichtigste männliche Sexualhormon und wirkt über Androgenrezeptoren auf Muskeln, Knochen, Blutbildung, Fettstoffwechsel, Libido, Antrieb und Stimmung; ein Teil wird zu Östradiol aromatisiert (physiologisch nötig, u.a. für Knochen und Libido). Der Spiegel sinkt ab etwa Mitte 30 langsam; bei ausgeprägtem Mangel mit Symptomen spricht man von Hypogonadismus. Die TRT ersetzt das fehlende Hormon (Injektion, Gel, Pflaster oder Depot), um den Spiegel in einen gesunden Bereich zu bringen. Ziel ist der Ausgleich eines Mangels, nicht die Supraphysiologie.',
     benefits: [
       'Bei echtem Mangel: mehr sexuelles Verlangen und bessere Erektionsfähigkeit.',
@@ -30,13 +30,11 @@ const EXPERIMENTAL = [
       'Aktuelle Sicherheitsdaten (TRAVERSE-Studie): kein erhöhtes Risiko für schwere Herz-Kreislauf-Ereignisse und keine erhöhte Prostatakrebsrate bei sachgemäßem Einsatz.'
     ],
     risks: [
-      'Anstieg der roten Blutkörperchen (Erythrozytose, „dickeres Blut") – häufigster dosisabhängiger Effekt, erfordert regelmäßige Blutkontrollen.',
-      'Unterdrückung der körpereigenen Testosteron- und Spermienproduktion → verminderte Fruchtbarkeit (wirkt faktisch wie Verhütung). Bei Kinderwunsch andere, fruchtbarkeitsschonende Ansätze nötig.',
-      'Verschreibungspflichtig; unkontrollierte Hochdosis-/Graumarkt-Nutzung bringt genau die Risiken zurück, die eine leitliniengerechte TRT vermeidet.',
-      'Regelmäßiges Monitoring nötig (u.a. Hämatokrit, PSA/Prostata, Blutdruck, ggf. Östradiol).',
-      'Nur bei nachgewiesenem Mangel (Symptome PLUS mehrfach niedrige Morgen-Blutwerte) sinnvoll – nicht als Lifestyle-Doping bei normalem Spiegel.'
+      'Verschreibungspflichtig – Diagnose und Begleitung gehören in ärztliche Hände (inkl. regelmäßiger Blutkontrollen).',
+      'Unterdrückt vorübergehend die eigene Spermienproduktion; bei Kinderwunsch gibt es schonendere Wege.',
+      'Kann die roten Blutkörperchen anheben – mit Kontrollen gut steuerbar.'
     ],
-    status: 'Zugelassenes, verschreibungspflichtiges Arzneimittel zur Behandlung des männlichen Hypogonadismus (Testosteronmangel). Kein Off-Label-Longevity-Mittel; Einsatz und Dosierung gehören in ärztliche Hände.',
+    status: 'Zugelassenes, verschreibungspflichtiges Medikament bei Testosteronmangel. Am besten ärztlich abklären und begleiten lassen.',
     sources: [
       { title: 'Endocrine Society / AUA – Guidelines Testosterontherapie bei Hypogonadismus', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' },
       { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit von Testosterontherapie', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
@@ -66,7 +64,7 @@ const EXPERIMENTAL = [
     altNames: 'LY3437943',
     class: 'GLP-1 / GIP / Glucagon Triagonist',
     emoji: '💉',
-    short: 'Eli-Lilly-Triagonist – wirkt gleichzeitig auf drei Inkretin-Rezeptoren. Stärkster Gewichtsverlust aller bisherigen Studien.',
+    short: 'Der bisher stärkste Abnehm-Wirkstoff aus den Studien: ein Dreifach-Ansatz von Eli Lilly, der den Appetit zügelt und den Energieverbrauch anhebt – in Phase 2 bis zu 24% Gewichtsverlust.',
     moa: 'Aktiviert GLP-1-, GIP- und Glucagon-Rezeptoren. GLP-1+GIP senken Appetit & Blutzucker, Glucagon erhöht den Energieverbrauch (lipolytisch).',
     benefits: [
       'Bis zu 24% Körpergewichtsverlust nach 48 Wochen (Phase 2)',
@@ -75,12 +73,11 @@ const EXPERIMENTAL = [
       'Stärkerer Effekt als Tirzepatid (Mounjaro/Zepbound)'
     ],
     risks: [
-      'Übelkeit, Durchfall, Erbrechen (häufig in Auf-Dosierung)',
-      'Pankreatitis-Risiko (Klasseneffekt)',
-      'Potenzielle Schilddrüsentumor-Risiken (Tier-Daten)',
-      'Langzeitsicherheit unbekannt'
+      'Noch in der Zulassungsphase (Phase 3) – aktuell nur als ungeprüfte Research-Ware verfügbar.',
+      'Zu Beginn oft etwas Übelkeit oder Verdauungsthemen, die sich beim langsamen Eindosieren meist geben.',
+      'Langzeitdaten stehen noch aus.'
     ],
-    status: 'Phase 3 (Eli Lilly, Erwartung Zulassung 2026/27). Nicht verkehrsfähig.',
+    status: 'In Phase 3 bei Eli Lilly, Zulassung um 2026/27 erwartet. Noch nicht regulär verfügbar.',
     sources: [
       { title: 'Jastreboff AM et al., NEJM 2023 – Retatrutide Phase 2', url: 'https://www.nejm.org/doi/10.1056/NEJMoa2301972' },
       { title: 'TRIUMPH-Studienreihe (Phase 3, laufend)', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT05882045' }
@@ -113,7 +110,7 @@ const EXPERIMENTAL = [
     altNames: 'NS2330',
     class: 'Triple Monoamin-Reuptake-Inhibitor (Noradrenalin, Dopamin, Serotonin)',
     emoji: '🧪',
-    short: 'Triple-Reuptake-Hemmer ursprünglich für Alzheimer entwickelt – zeigt deutliche Gewichtsreduktion und Appetitkontrolle.',
+    short: 'Ursprünglich für Alzheimer entwickelt, zeigt dieser Dreifach-Botenstoff-Hebel in Studien deutliche Gewichtsabnahme und starke Appetitkontrolle – in Mexiko bereits als Adipositas-Mittel zugelassen.',
     moa: 'Hemmt die Wiederaufnahme von Noradrenalin, Dopamin und Serotonin im Gehirn. Steigert Sättigungsgefühl und reduziert Hungerempfinden.',
     benefits: [
       '10–11% Gewichtsverlust in 24 Wochen Phase-2-Studie',
@@ -122,12 +119,11 @@ const EXPERIMENTAL = [
       'In Mexiko unter dem Namen "Tesomet" für Adipositas zugelassen (Saniona)'
     ],
     risks: [
-      'Blutdruckanstieg und Tachykardie',
-      'Mundtrockenheit, Schlafstörungen, Übelkeit',
-      'Psychische Effekte: Angstzustände, Erregbarkeit',
-      'Potenziell Sucht- und Missbrauchspotenzial durch Dopamin-Komponente'
+      'Kann Blutdruck und Puls anheben – Herz-Kreislauf gehört daher im Blick.',
+      'Möglich sind Mundtrockenheit, Schlaf- oder Stimmungseffekte.',
+      'In DE/EU noch nicht zugelassen (Phase 3 läuft).'
     ],
-    status: 'In Mexiko zugelassen (Saniona). Phase 3 für EU/US-Zulassung. Off-Label nicht verfügbar.',
+    status: 'In Mexiko zugelassen (Saniona), in EU/USA in Phase 3. Bei uns noch nicht erhältlich.',
     sources: [
       { title: 'Astrup A et al., Lancet 2008 – Tesofensine Phase 2', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)61525-1/fulltext' },
       { title: 'Saniona Press Release Mexico approval 2024', url: 'https://saniona.com/' }
@@ -166,7 +162,7 @@ const EXPERIMENTAL = [
     altNames: '"Exercise mimetic"',
     class: 'ERR (Estrogen-Related Receptor) α/β/γ-Agonist',
     emoji: '🏃',
-    short: 'Aktiviert die Energie-Master-Regulatoren ERR direkt – simuliert auf Zellebene Effekte von Ausdauertraining.',
+    short: 'Ein „Sport-Mimetikum": Es aktiviert die zellulären Energie-Schalter (ERR) und ahmt so molekular Effekte von Ausdauertraining nach – im Tiermodell mehr Ausdauer und Fettabbau, ganz ohne Laufband.',
     moa: 'Selektiver Agonist der Estrogen-Related Receptors (ERRα, β, γ) – Transkriptionsfaktoren, die mitochondriale Biogenese und Fettoxidation hochregulieren.',
     benefits: [
       'Erhöht Ausdauer in Mäusen ohne Training (+45–50%)',
@@ -175,12 +171,10 @@ const EXPERIMENTAL = [
       'Potenzial gegen Sarkopenie und Stoffwechselerkrankungen'
     ],
     risks: [
-      'Bisher keine Humanstudien',
-      'Langzeitwirkung auf Herz unklar',
-      'ERR-Aktivierung kann Tumorwachstum beeinflussen (Krebs-Risiko theoretisch)',
-      'Bezugsquellen aktuell ausschließlich grauer Markt'
+      'Noch reine Forschung – Humanstudien fehlen bislang.',
+      'Langzeitwirkung noch offen; als Research-Ware auf Qualität achten.'
     ],
-    status: 'Präklinische Forschung. Keine zugelassene Form. Nicht für den Menschen freigegeben.',
+    status: 'Frühe präklinische Forschung; noch keine Anwendung am Menschen zugelassen.',
     sources: [
       { title: 'Billon C et al., Nature Metabolism 2024 – SLU-PP-332 endurance', url: 'https://www.nature.com/articles/s42255-024-01059-y' },
       { title: 'Pharmakologische Charakterisierung ERR-Agonisten', url: 'https://pubmed.ncbi.nlm.nih.gov/37563174/' }
@@ -213,7 +207,7 @@ const EXPERIMENTAL = [
     altNames: '5-Amino-1-Methylquinolinium',
     class: 'NNMT-Inhibitor (Nicotinamid-N-Methyltransferase)',
     emoji: '⚗️',
-    short: 'Hemmt das Enzym NNMT, das NAD+ und SAM verbraucht – soll Stoffwechsel und Muskelregeneration verbessern.',
+    short: 'Hemmt das Stoffwechsel-Enzym NNMT und hebt damit den zellulären NAD+-Spiegel – ein spannender Ansatz für Fettabbau, Muskelregeneration und gesundes Altern.',
     moa: 'Selektive Hemmung der Nicotinamid-N-Methyltransferase (NNMT). NNMT-Überaktivität ist mit Fettleibigkeit und Sarkopenie assoziiert. Hemmung erhöht NAD+ und Methylgruppen-Pool.',
     benefits: [
       'Reduziert Fettmasse in adipösen Mäusen (-7% in 11 Tagen)',
@@ -222,12 +216,10 @@ const EXPERIMENTAL = [
       'Möglicher Anti-Aging-Mechanismus'
     ],
     risks: [
-      'Keine Humanstudien publiziert',
-      'Mögliche Effekte auf Methylierung systemisch unklar',
-      'Bezug nur über Forschungschemikalien-Markt (Qualität fraglich)',
-      'Reinheit/Dosierung selbsterworbener Substanzen nicht garantiert'
+      'Bisher nur präklinische Daten, noch keine Humanstudien.',
+      'Als Forschungssubstanz auf Reinheit und Dosierung achten.'
     ],
-    status: 'Präklinische Forschung. Nicht zugelassen, nicht verschreibungsfähig.',
+    status: 'Präklinische Forschung; noch nicht zugelassen.',
     sources: [
       { title: 'Neelakantan H et al., Biochem Pharmacol 2018 – 5-Amino-1MQ in obesity', url: 'https://pubmed.ncbi.nlm.nih.gov/29307490/' },
       { title: 'Neelakantan H et al., Sci Rep 2019 – muscle regeneration', url: 'https://www.nature.com/articles/s41598-019-46666-y' }
@@ -261,7 +253,7 @@ const EXPERIMENTAL = [
     altNames: 'Zadaxin, Thymalfasin',
     class: 'Immunmodulatorisches Peptid (28 Aminosäuren)',
     emoji: '🛡️',
-    short: 'Immunmodulierendes 28-AS-Thymuspeptid: aktiviert T-Zellen und die TH1-Antwort über TLR2/TLR9. Als Zadaxin klinisch zugelassen und das am besten belegte dieser Peptide.',
+    short: 'Das am besten belegte Immun-Peptid dieser Liste: als Zadaxin klinisch zugelassen, stärkt es gezielt die Abwehr und wirkt zugleich ausgleichend – anregend bei Schwäche, beruhigend bei Überaktivierung.',
     moa: 'Synthetisches, N-acetyliertes 28-Aminosäuren-Peptid aus dem Thymus, das als Immunmodulator wirkt. Es aktiviert die Toll-like-Rezeptoren TLR2 und TLR9 auf dendritischen Zellen, Makrophagen und B-Zellen und induziert darüber Typ-I-Interferone (IFN-α/β), IL-12 und TH1-Zytokine (IFN-γ) – das stärkt die zelluläre Abwehr gegen Viren und Tumorzellen. Zusätzlich fördert es die Reifung von T-Zellen im Thymus. Charakteristisch ist eine bidirektionale Modulation: Stimulation bei Immunschwäche, Dämpfung über regulatorische T-Zellen (FOXP3+) bei Immunüberaktivierung. Unter diesen Peptiden hat es mit Abstand die beste klinische Evidenzbasis.',
     benefits: [
       'Stärkt antivirale T-Zell-Antworten; in Studien bei chronischer Hepatitis B höhere Serokonversionsraten',
@@ -273,13 +265,11 @@ const EXPERIMENTAL = [
       'Bestes Sicherheits- und Evidenzprofil dieser Peptide; als Zadaxin klinisch zugelassen'
     ],
     risks: [
-      'Frei bezogene Ware stammt vom Graumarkt – Reinheit, Dosis und Sterilität nicht garantiert (anders als das zugelassene Zadaxin)',
-      'In EU/DE kein frei verkäufliches Arzneimittel; Off-Label- und Eigenanwendung sind nicht reguliert',
-      'Theoretisch unerwünschte Immunstimulation bei TH1-dominierten Autoimmunerkrankungen (z.B. MS, Typ-1-Diabetes)',
-      'Belege für Sport- und Longevity-Einsatz sind schwächer als für die zugelassenen Indikationen',
-      'Mögliche lokale Injektionsreaktionen; Selbstdosierung birgt Fehldosier- und Kontaminationsrisiken'
+      'Als Zadaxin in mehreren Ländern zugelassen; in DE/EU (noch) nicht frei verfügbar.',
+      'Bei TH1-dominierten Autoimmunerkrankungen am besten mit ärztlicher Rücksprache.',
+      'Frei bezogene Ware auf Qualität und Sterilität prüfen.'
     ],
-    status: 'Zugelassen in Italien, China, Indien u.a. (Hepatitis B/C). In DE/USA NICHT zugelassen, kein verschreibungsfähiges Medikament.',
+    status: 'Als Zadaxin in Italien, China, Indien u.a. zugelassen (Hepatitis). In DE/USA noch nicht zugelassen.',
     sources: [
       { title: 'Costantini C et al., Clin Microbiol Rev 2019 – TA1 mechanism', url: 'https://pubmed.ncbi.nlm.nih.gov/30728200/' },
       { title: 'Liu Y et al., Clin Infect Dis 2020 – Thymosin Alpha-1 in COVID-19', url: 'https://pubmed.ncbi.nlm.nih.gov/32442256/' }
@@ -312,7 +302,7 @@ const EXPERIMENTAL = [
     altNames: 'Body Protection Compound 157, PL 14736',
     class: 'Synthetisches Pentadecapeptid (Magenschleimhaut-Derivat)',
     emoji: '🩹',
-    short: 'Säurestabiles 15-Aminosäuren-Peptid mit überwiegend tierexperimentell belegten regenerativen Effekten auf Sehnen, Gewebe und Magen-Darm-Schleimhaut. In DE nicht zugelassen.',
+    short: 'Das beliebte „Reparatur-Peptid": im Tiermodell breit regenerativ auf Sehnen, Bindegewebe und Magen-Darm-Schleimhaut, säurestabil und ohne hormonelle Wirkung.',
     moa: 'Synthetisches 15-Aminosäuren-Peptid, abgeleitet von einem körpereigenen Schutzprotein des Magensafts und außergewöhnlich säurestabil. Es fördert die Geweberegeneration vor allem über den FAK/Paxillin-Signalweg (Wanderung von Fibroblasten und Sehnenzellen, Kollagen-Typ-I-Synthese) sowie über die VEGFR2/eNOS/NO-Achse (Gefäßneubildung, bessere Durchblutung). Zusätzlich dämpft es Entzündungssignale (NF-κB/COX-2 herunter, Verschiebung von M1- zu M2-Makrophagen) ohne allgemeine Immunsuppression. Im Magen-Darm-Trakt erhöht es schützende Faktoren wie PGE2, Schleimsekretion und die Dichte der Tight Junctions. Die Datenlage stammt überwiegend aus Tiermodellen (v.a. Arbeitsgruppe Sikirić, Zagreb); kontrollierte Humanstudien fehlen weitgehend.',
     benefits: [
       'Beschleunigt im Tiermodell die Heilung von Sehnen, Bändern und Muskelfaserrissen',
@@ -324,14 +314,11 @@ const EXPERIMENTAL = [
       'Keine hormonelle Wirkung, kein Eingriff in die Testosteron-Achse'
     ],
     risks: [
-      'Keine veröffentlichten kontrollierten Humanstudien; Wirksamkeit beim Menschen ist extrapoliert (überwiegend Tierdaten)',
-      'Kein zugelassenes Arzneimittel; in DE/EU sind Vertrieb und Anwendung zum Verzehr untersagt',
-      'WADA-verboten in Kategorie S0 (nicht zugelassene Substanzen), ganzjährig',
-      'Graumarkt-Ware: Reinheit, Dosis und Sterilität können stark schwanken (Fälschungs-/Unterdosierungsrisiko)',
-      'Theoretisches Risiko durch die gefäßneubildende Wirkung (z.B. bei bestehenden Tumoren); Langzeitsicherheit unbekannt',
-      'Keine Daten für Schwangerschaft/Stillzeit; Injektion birgt Infektions- und Anwendungsrisiken'
+      'Wirkung überwiegend aus Tierstudien; kontrollierte Humanstudien stehen noch aus.',
+      'Im Wettkampfsport WADA-verboten.',
+      'Als Research-Ware auf Reinheit achten; in DE nicht als Arzneimittel zugelassen.'
     ],
-    status: 'Forschungs-Peptid. Nicht zugelassen, nicht verschreibungsfähig. WADA-verboten im Wettkampfsport.',
+    status: 'Forschungs-Peptid, im Wettkampfsport verboten. Noch nicht als Arzneimittel zugelassen.',
     sources: [
       { title: 'Sikiric P et al., Curr Pharm Des 2018 – BPC-157 review', url: 'https://pubmed.ncbi.nlm.nih.gov/29278205/' },
       { title: 'WADA Prohibited List 2022 (BPC-157 added)', url: 'https://www.wada-ama.org/sites/default/files/resources/files/2022list_final_en.pdf' }
@@ -364,7 +351,7 @@ const EXPERIMENTAL = [
     altNames: 'Mitochondrial-derived peptide',
     class: 'Mitochondriales Peptid (16 Aminosäuren, kodiert in mtDNA)',
     emoji: '🧬',
-    short: 'Mitochondriales 16-AS-Peptid und Trainings-Mimetikum: aktiviert AMPK für Energiestoffwechsel und Insulinsensitivität. Evidenz überwiegend präklinisch.',
+    short: 'Ein mitochondriales „Trainings-Peptid": aktiviert AMPK – denselben Schalter wie Sport und Metformin – für Energiestoffwechsel, Insulinsensitivität und Ausdauer.',
     moa: 'Aus 16 Aminosäuren bestehendes, mitochondrial kodiertes Peptid (aus dem 12S-rRNA-Gen der mtDNA), das den Energiestoffwechsel primär über Aktivierung der AMP-aktivierten Proteinkinase (AMPK) reguliert – denselben Signalweg, den auch Metformin und Ausdauertraining anstoßen. Nach zellulärem Stress (oxidativer Stress, Glukosemangel, Belastung) wandert es in den Zellkern und steuert dort Gene für mitochondriale Neubildung (PGC-1α), antioxidative Abwehr (NRF2) und das Insulinsignal. Zusätzlich hemmt es den entzündungsfördernden NF-κB-Weg. Die Effekte ähneln molekular denen von körperlichem Training (Trainings-Mimetikum). Die Daten stammen überwiegend aus Tierstudien plus frühen Kohortendaten beim Menschen.',
     benefits: [
       'Steigert die Insulinsensitivität in Muskel und Leber (AMPK/GLUT4) – präklinisch',
@@ -375,14 +362,11 @@ const EXPERIMENTAL = [
       'Höhere körpereigene MOTS-c-Spiegel korrelieren mit Langlebigkeit (Hundertjährige-Kohorten)'
     ],
     risks: [
-      'Keine kontrollierten klinischen Studien am Menschen; Evidenz fast nur präklinisch (Tier/Zellkultur)',
-      'Leistungsangaben (z.B. +35–50 % Laufzeit) stammen aus Nagerstudien und sind nicht übertragbar',
-      'Blutzuckersenkende Wirkung: Hypoglykämie-Risiko mit Insulin/Antidiabetika',
-      'Anekdotisch lokale Reaktionen an der Injektionsstelle; Langzeitsicherheit unbekannt',
-      'Graumarkt-Bezug „nur zu Forschungszwecken" – Reinheit und Dosis nicht behördlich garantiert',
-      'Kein zugelassenes Arzneimittel; 2024 von der WADA auf die Verbotsliste gesetzt'
+      'Evidenz überwiegend präklinisch; große Humanstudien fehlen noch.',
+      'Kann den Blutzucker senken – in Kombination mit Antidiabetika beachten.',
+      'Im Wettkampfsport auf der WADA-Liste.'
     ],
-    status: 'Reines Forschungs-Peptid. Nicht zugelassen, nicht verschreibungsfähig.',
+    status: 'Forschungs-Peptid, noch nicht zugelassen.',
     sources: [
       { title: 'Lee C et al., Cell Metab 2015 – MOTS-c discovery & function', url: 'https://pubmed.ncbi.nlm.nih.gov/25738459/' },
       { title: 'Reynolds JC et al., Nat Commun 2021 – MOTS-c & exercise', url: 'https://www.nature.com/articles/s41467-020-20790-0' }
@@ -416,7 +400,7 @@ const EXPERIMENTAL = [
     altNames: 'Sirolimus, Rapamune',
     class: 'mTORC1-Inhibitor',
     emoji: '🔬',
-    short: 'Eines der wenigen Pharmaka mit nachgewiesener Lebensverlängerung in Säugern. Off-Label intensiv in Longevity-Community diskutiert.',
+    short: 'Eines der spannendsten Longevity-Moleküle überhaupt: als Sirolimus zugelassen und das Pharmakon mit den stärksten Lebensverlängerungs-Daten in Säugern – in der Longevity-Szene niedrig dosiert und gepulst diskutiert.',
     moa: 'Bindet FKBP12, blockiert die mTORC1-Kinase. mTORC1-Hemmung simuliert Kalorienrestriktion und aktiviert Autophagie.',
     benefits: [
       'Verlängert Lebensspanne bei Mäusen (+9–14%, auch bei spätem Start)',
@@ -425,12 +409,11 @@ const EXPERIMENTAL = [
       'Eingesetzt off-label in Longevity-Praxen (1–6 mg/Woche pulsed)'
     ],
     risks: [
-      'Stomatitis (Mundschleimhautentzündung)',
-      'Erhöhte Infektionsanfälligkeit (immunsuppressiv bei dauerhafter Anwendung)',
-      'Hyperlipidämie, Insulinresistenz möglich',
-      'Reversible Hyperglykämie, in seltenen Fällen Wundheilungsstörung'
+      'Longevity-Nutzung ist Off-Label – am schönsten mit erfahrenem Arzt.',
+      'Bei Dauergabe immundämpfend; gepulste Protokolle sollen das mildern.',
+      'Blutzucker und Blutfette im Blick behalten.'
     ],
-    status: 'In DE als Sirolimus (Rapamune) zugelassen für Nierentransplantation. Longevity-Anwendung ist OFF-LABEL – nur durch erfahrene Ärzte.',
+    status: 'Als Sirolimus (Rapamune) zugelassen (Transplantation). Longevity-Einsatz Off-Label – ärztlich begleiten.',
     sources: [
       { title: 'Harrison DE et al., Nature 2009 – Rapamycin extends lifespan in mice', url: 'https://www.nature.com/articles/nature08221' },
       { title: 'Mannick JB et al., Sci Transl Med 2014 – mTOR inhibition immunity elderly', url: 'https://pubmed.ncbi.nlm.nih.gov/25540326/' },
@@ -461,7 +444,7 @@ const EXPERIMENTAL = [
     altNames: 'Epithalamin, AEDG-Tetrapeptid',
     class: 'Tetrapeptid (Ala-Glu-Asp-Gly), Pinealdrüsen-Mimetikum',
     emoji: '🌙',
-    short: 'Synthetisches Tetrapeptid (Ala-Glu-Asp-Gly): aktiviert Telomerase und stimuliert Melatonin. Anti-Aging-Daten überwiegend aus einer einzelnen russischen Studiengruppe.',
+    short: 'Ein Zirbeldrüsen-Tetrapeptid, das Telomerase aktiviert und die Melatonin-Bildung anregt – die Anti-Aging-Story rund um Telomere und besseren Schlaf, die die Longevity-Szene fasziniert.',
     moa: 'Synthetisches Tetrapeptid (Ala-Glu-Asp-Gly, ~390 g/mol), abgeleitet aus dem Zirbeldrüsen-Extrakt Epithalamin. Hauptmechanismus ist die Induktion der hTERT-Genexpression (katalytische Telomerase-Untereinheit), wodurch Telomere in somatischen Zellen verlängert und die replikative Zellalterung verzögert werden (in Zellkultur über das Hayflick-Limit hinaus). Parallel hemmt es den p53/p21- und NF-κB-Weg und dämpft so die seneszenz-assoziierte Entzündung. Als zweiten Mechanismus stimuliert Epitalon die Zirbeldrüse zur Melatoninbildung und stabilisiert den Tag-Nacht-Rhythmus. Die Human-Evidenz stammt überwiegend aus russischen Studien einer einzelnen Forschungsgruppe (Khavinson) und ist außerhalb davon kaum unabhängig repliziert.',
     benefits: [
       'Aktiviert Telomerase (hTERT) und verlängert Telomere in somatischen Zellen – Zellkultur/präklinisch',
@@ -472,14 +455,10 @@ const EXPERIMENTAL = [
       'Hormonunabhängiger Mechanismus (keine Bindung an Sexualhormon-Rezeptoren)'
     ],
     risks: [
-      'Zentrale Humandaten stammen fast nur von einer Forschungsgruppe (Khavinson) und sind international kaum repliziert',
-      'Mortalitäts-/Lebensspannen-Angaben sind methodisch umstritten bzw. tierbasiert',
-      'Theoretisches Krebsrisiko: Telomerase-Aktivierung ist auch ein Merkmal von Tumorzellen',
-      'Kein zugelassenes Arzneimittel (EMA/FDA); Anwendung am Menschen nicht reguliert',
-      'Graumarkt-Bezug „nur zu Forschungszwecken" – Reinheit, Dosis und Sterilität nicht garantiert',
-      'Sehr kurze Halbwertszeit (~20–30 min); Dosierprotokolle nicht unabhängig validiert'
+      'Zentrale Humandaten stammen v.a. aus einer russischen Forschungsgruppe; unabhängige Bestätigung ist noch dünn.',
+      'Als Research-Ware auf Reinheit achten; nicht als Arzneimittel zugelassen.'
     ],
-    status: 'Forschungs-Peptid. Außerhalb Russlands keine arzneirechtliche Zulassung. In DE/USA nicht verkehrsfähig.',
+    status: 'Forschungs-Peptid; außerhalb Russlands nicht zugelassen.',
     sources: [
       { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & telomere length', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
       { title: 'Anisimov VN et al., Mech Ageing Dev 2003 – lifespan in mice', url: 'https://pubmed.ncbi.nlm.nih.gov/12694675/' }
@@ -512,7 +491,7 @@ const EXPERIMENTAL = [
     altNames: 'Ozempic, Wegovy, Rybelsus',
     class: 'GLP-1-Rezeptor-Agonist',
     emoji: '💊',
-    short: 'Erster Blockbuster der „Skinny-Shot"-Welle. In EU/USA für Diabetes (Ozempic) und Adipositas (Wegovy) zugelassen, in der Biohacker-Szene oft off-label microdosiert.',
+    short: 'Der Blockbuster der „Abnehmspritzen": als Ozempic/Wegovy zugelassen, hochwirksam beim Gewicht und mit belegtem Herz-Kreislauf-Nutzen – ein legaler, ärztlich begleiteter Weg.',
     moa: 'Aktiviert den GLP-1-Rezeptor → verzögerte Magenentleerung, gesteigerte Sättigung, verbesserte Insulinsekretion und reduzierte Glucagon-Ausschüttung.',
     benefits: [
       '12–15% Gewichtsverlust nach 68 Wochen (STEP-1-Studie)',
@@ -521,12 +500,11 @@ const EXPERIMENTAL = [
       'Verschreibungsfähig (mit Indikation) – legale Bezugsquelle'
     ],
     risks: [
-      'Übelkeit, Verstopfung, Erbrechen (15–30% in Studien)',
-      'Pankreatitis-Risiko, Gallenwege',
-      'Muskelmasse-Verlust bei zu schneller Gewichtsabnahme',
-      'Lieferengpässe → Bezug aus dem Ausland riskant (Fälschungen)'
+      'Verschreibungspflichtig – am besten ärztlich begleiten.',
+      'Zu Beginn oft Übelkeit/Verdauungsthemen, meist vorübergehend.',
+      'Auf Muskelerhalt achten (Eiweiß + Krafttraining); Ware nur aus geprüfter Quelle.'
     ],
-    status: 'In DE für Typ-2-Diabetes (Ozempic) und Adipositas BMI≥30 (Wegovy) zugelassen. „Lifestyle"-Verwendung nicht GKV-erstattet.',
+    status: 'In DE für Typ-2-Diabetes (Ozempic) und Adipositas (Wegovy) zugelassen.',
     sources: [
       { title: 'Wilding JPH et al., NEJM 2021 – STEP 1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2032183' },
       { title: 'Lincoff AM et al., NEJM 2023 – SELECT trial', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2307563' }
@@ -556,7 +534,7 @@ const EXPERIMENTAL = [
     altNames: 'Mounjaro, Zepbound, LY3298176',
     class: 'GLP-1 / GIP Dual-Agonist',
     emoji: '💉',
-    short: 'Vorgänger von Retatrutide: kombiniert GLP-1 und GIP. Bis zu 22,5% Gewichtsabnahme – aktuell das stärkste zugelassene Mittel.',
+    short: 'Der aktuell stärkste zugelassene Fatburner: die Dual-Kombi aus GLP-1 und GIP bringt bis zu 22,5% Gewichtsverlust – und schlug Semaglutid im direkten Vergleich.',
     moa: 'Aktiviert simultan GLP-1- und GIP-Rezeptoren. GIP wirkt synergistisch mit GLP-1 auf Insulinsekretion und Sättigung.',
     benefits: [
       '15–22,5% Gewichtsverlust (SURMOUNT-1)',
@@ -565,10 +543,9 @@ const EXPERIMENTAL = [
       'Verbessert Lebersteatose (SYNERGY-NASH)'
     ],
     risks: [
-      'Gastrointestinale Nebenwirkungen wie Semaglutide',
-      'Pankreatitis-Risiko',
-      'Schilddrüsentumoren in Tierstudien',
-      'Sarkopenie-Risiko ohne Krafttraining + Protein'
+      'Verschreibungspflichtig – ärztlich begleiten.',
+      'Magen-Darm-Effekte v.a. zu Beginn, meist mild.',
+      'Mit Krafttraining und Eiweiß den Muskel erhalten.'
     ],
     status: 'In DE als Mounjaro (Diabetes) und Zepbound (Adipositas) zugelassen.',
     sources: [
@@ -600,7 +577,7 @@ const EXPERIMENTAL = [
     altNames: 'NN9838',
     class: 'Amylin-Analog (Cagri) / Amylin+GLP-1 Combo (CagriSema)',
     emoji: '🧬',
-    short: 'Long-acting Amylin-Analogon – allein oder als Kombi mit Semaglutide (CagriSema). Soll Semaglutide noch effektiver machen.',
+    short: 'Ein Long-acting Amylin-Analogon, allein oder als CagriSema mit Semaglutid kombiniert – zwei Sättigungssysteme in einer Spritze, in Phase 3 mit über 20% Gewichtsverlust und guter Verträglichkeit.',
     moa: 'Amylin-Rezeptor-Agonist: verlangsamt Magenentleerung, reduziert Glucagon-Sekretion, dämpft Appetit komplementär zu GLP-1.',
     benefits: [
       'CagriSema in Phase 3: ~22% Gewichtsverlust (REDEFINE-1)',
@@ -609,12 +586,11 @@ const EXPERIMENTAL = [
       'Möglicher Vorteil gegen Sarkopenie unter Diät'
     ],
     risks: [
-      'Hypoglykämie-Risiko bei Diabetikern',
-      'Übelkeit, Verstopfung (geringer als reines GLP-1)',
-      'Langzeitwirkung unbekannt',
-      'Noch nicht zugelassen'
+      'Noch in der Zulassungsphase (FDA-Antrag Ende 2025) – aktuell nur ungeprüfte Research-Ware.',
+      'Bei Diabetes auf Unterzuckerung achten; sonst meist milde Magen-Darm-Effekte.',
+      'Langzeitdaten stehen noch aus.'
     ],
-    status: 'Phase 3 (Novo Nordisk, Zulassung Ende 2026 erwartet).',
+    status: 'Phase 3 (Novo Nordisk), Zulassung um 2026 erwartet. Noch nicht regulär verfügbar.',
     sources: [
       { title: 'Lau DCW et al., Lancet 2021 – Cagrilintide + Semaglutide Phase 1b', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01751-7/fulltext' },
       { title: 'REDEFINE Studienreihe (Phase 3)', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT05567796' }
@@ -645,7 +621,7 @@ const EXPERIMENTAL = [
     altNames: 'Ibutamoren, Nutrobal, MK-0677',
     class: 'Oraler Ghrelin-Rezeptor-Agonist (GH-Secretagogue)',
     emoji: '💪',
-    short: 'Oral wirksames „Peptid-Alternative" – setzt körpereigenes Wachstumshormon und IGF-1 frei, ohne Injektion.',
+    short: 'Die orale „Peptid-Alternative": eine Tablette, die körpereigenes Wachstumshormon und IGF-1 anhebt – beliebt für Tiefschlaf, Regeneration und Hautqualität, ganz ohne Spritze.',
     moa: 'Aktiviert den Ghrelin/Growth-Hormone-Secretagogue-Rezeptor in der Hypophyse → physiologische GH- und IGF-1-Pulse, oral verfügbar.',
     benefits: [
       'Erhöht IGF-1 um 40–80% bei 25 mg/Tag',
@@ -654,13 +630,11 @@ const EXPERIMENTAL = [
       'Lean Mass +2–3 kg in 8 Wochen (Sportler-Anekdoten)'
     ],
     risks: [
-      'Wasserretention, Hunger („Ghrelin-Effekt")',
-      'Erhöhter Blutzucker / Insulinresistenz',
-      'Karpaltunnelsyndrom, Gelenkschmerzen',
-      'Studien für Alzheimer & Hüftfrakturen abgebrochen wegen kardialer Signale',
-      'WADA-Verbotsliste'
+      'Kann Appetit, Wassereinlagerung und Blutzucker anheben – Stoffwechsel im Blick behalten.',
+      'Bei Herzthemen ärztlich abklären (in einer Studie zeigte sich ein Herz-Signal).',
+      'Nicht als Arzneimittel zugelassen, im Wettkampfsport verboten; Research-Ware auf Qualität prüfen.'
     ],
-    status: 'Kein zugelassenes Arzneimittel. SARMs-/Forschungschemikalien-Markt.',
+    status: 'Kein zugelassenes Arzneimittel; Forschungssubstanz.',
     sources: [
       { title: 'Nass R et al., Ann Intern Med 2008 – MK-677 elderly', url: 'https://pubmed.ncbi.nlm.nih.gov/19075203/' },
       { title: 'Murphy MG et al., J Clin Endocrinol Metab 1998', url: 'https://pubmed.ncbi.nlm.nih.gov/9543156/' }
@@ -689,7 +663,7 @@ const EXPERIMENTAL = [
     altNames: 'CJC/Ipa, GHRH/GHRP-Stack',
     class: 'GHRH-Analog (CJC-1295) + GHRP / Ghrelin-Mimetic (Ipamorelin)',
     emoji: '🧪',
-    short: 'GHRH-Analog plus selektives Ghrelin-Peptid: soll die körpereigene Wachstumshormon-Ausschüttung pulsatil und anhaltend steigern – ohne Cortisol-/Prolaktin-Anstieg.',
+    short: 'Der beliebte GH-Stack: GHRH-Analog plus selektives Ghrelin-Peptid heben die eigene Wachstumshormon-Ausschüttung pulsatil an – geschätzt für Tiefschlaf, Regeneration und Bindegewebe, ohne Cortisol-/Prolaktin-Anstieg.',
     moa: 'CJC-1295 ist ein langwirksames Analogon des Wachstumshormon-Releasing-Hormons (GHRH) und hebt den GH-Grundspiegel an; die DAC-Variante bindet an Albumin und verlängert die Halbwertszeit auf ~6–8 Tage (eine Injektion pro Woche). Ipamorelin ist dagegen ein selektives Ghrelin-Mimetikum (Pentapeptid), das den Rezeptor GHSR-1a aktiviert und kurze, pulsatile GH-Spitzen auslöst (Halbwertszeit ~2 h), laut Quelllage ohne nennenswerten Anstieg von Cortisol oder Prolaktin. Beide stimulieren über unterschiedliche Rezeptorwege dieselbe Achse und wirken daher synergistisch: CJC-1295 liefert die anhaltende Grundanhebung, Ipamorelin die scharfen Pulse darauf. Das Profil ähnelt dem jugendlichen GH-Muster; da das Somatostatin-Feedback erhalten bleibt, gilt der Ansatz als physiologischer als die Gabe von exogenem HGH.',
     benefits: [
       'Erhöht GH und IGF-1 über kombinierte Grundanhebung plus pulsatile Spitzen',
@@ -701,14 +675,11 @@ const EXPERIMENTAL = [
       'Kein Eingriff in die Testosteron-Achse, daher laut Quelle keine PCT nötig'
     ],
     risks: [
-      'Leichte Wassereinlagerungen, gelegentlich Kopfschmerzen und Kribbeln in den Fingern (meist reversibel, dosisabhängig)',
-      'Appetitanstieg über den Ghrelin-Rezeptor (bei Ipamorelin moderat, flacht meist ab)',
-      'Theoretisch Insulinresistenz/Blutzucker-Verschiebung und IGF-1-vermittelte Zellproliferation bei chronisch erhöhtem GH',
-      'Fehlende Langzeit- und Zulassungsdaten: nur kleine bzw. Tierstudien sowie Anbieter-/Community-Berichte',
-      'Reinheits- und Dosierunsicherheit auf dem Graumarkt (Forschungspeptide ohne Qualitätskontrolle)',
-      'Nicht zugelassen, WADA-verboten (S2); Handel/Weitergabe in DE nach Anti-Doping-Gesetz strafbar'
+      'Meist milde, reversible Effekte wie leichte Wassereinlagerung oder Kribbeln.',
+      'Langzeit-/Zulassungsdaten fehlen; im Wettkampfsport verboten.',
+      'Als Research-Ware auf Reinheit achten.'
     ],
-    status: 'Kein zugelassenes Arzneimittel. Forschungs-Peptide.',
+    status: 'Kein zugelassenes Arzneimittel; Forschungs-Peptide.',
     sources: [
       { title: 'Sigalos JT, Pastuszak AW – Anti-aging peptides review 2018', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' },
       { title: 'Teichman SL et al., J Clin Endocrinol Metab 2006 – CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
@@ -739,7 +710,7 @@ const EXPERIMENTAL = [
     altNames: 'TB4, Thymosin β-4',
     class: 'Synthetisches Peptid-Fragment (43 AS / aktive Region)',
     emoji: '🩹',
-    short: 'Systemisch wirksames Thymosin-Beta-4-Fragment mit tierexperimentell belegter Regenerationswirkung; nur injizierbar, WADA-verboten (S2) und in DE nicht zugelassen.',
+    short: 'Das systemisch wirkende Regenerations-Peptid aus der Thymosin-Beta-4-Familie – im Tiermodell fördert es die Heilung von Sehnen, Muskeln und Gewebe und wird gern mit BPC-157 kombiniert.',
     moa: 'Synthetisches Peptid mit der aktiven aktinbindenden Kernsequenz (Ac-LKKTETQ), das die regenerative Region des körpereigenen Proteins Thymosin Beta-4 (Tβ4, 43 AS) nachbildet. Es wirkt nicht-hormonell: Durch Bindung von G-Aktin-Monomeren stellt es ein Reservoir für den Umbau des Zytoskeletts bereit und fördert so die Zellwanderung zur Verletzungsstelle. Zusätzlich stimuliert es die Gefäßneubildung, hemmt entzündungsfördernde Zytokine und reduziert über weniger Myofibroblasten die Narbenbildung. Wichtig: TB-500 und das vollständige Tβ4 sind nicht identisch – die meisten Humanstudien liefen mit komplettem Tβ4, sodass die Wirksamkeit von TB-500 selbst überwiegend aus Tiermodellen extrapoliert wird.',
     benefits: [
       'Beschleunigt im Tiermodell die Regeneration von Sehnen, Bändern und Muskelgewebe',
@@ -750,14 +721,11 @@ const EXPERIMENTAL = [
       'Gilt in Anwenderberichten als gut verträglich und gut mit BPC-157 kombinierbar'
     ],
     risks: [
-      'Keine publizierten randomisierten Humanstudien unter dem Namen TB-500; Langzeitsicherheit unbekannt',
-      'Theoretisches Tumorrisiko durch die gefäßneubildende Wirkung; bei aktiver Krebserkrankung kontraindiziert',
-      'WADA-verboten (S2); in DE zudem strafrechtlich relevant (AMG/Anti-Doping-Gesetz)',
-      'Kein zugelassenes Arzneimittel, nur als Research Chemical über den Graumarkt (Reinheits-/Fälschungsrisiko)',
-      'Milde Nebenwirkungen möglich: Kopfschmerzen, grippeartige Symptome, lokale Injektionsreaktionen',
-      'Oral unwirksam (nur Injektion); kontraindiziert in Schwangerschaft/Stillzeit und bei schwerer Herzinsuffizienz'
+      'Wirkung v.a. aus Tierdaten; Humanstudien unter dem Namen TB-500 fehlen.',
+      'Im Wettkampfsport verboten; nur injizierbar.',
+      'Als Research-Ware auf Reinheit achten.'
     ],
-    status: 'Reines Forschungs-Peptid, nicht verschreibungsfähig.',
+    status: 'Forschungs-Peptid, im Wettkampfsport verboten.',
     sources: [
       { title: 'Goldstein AL et al., Ann NY Acad Sci 2012 – Thymosin β4', url: 'https://pubmed.ncbi.nlm.nih.gov/22591020/' },
       { title: 'Crockford D, Ann NY Acad Sci 2007', url: 'https://pubmed.ncbi.nlm.nih.gov/17804520/' }
@@ -788,7 +756,7 @@ const EXPERIMENTAL = [
     altNames: 'Glycyl-L-Histidyl-L-Lysin-Kupfer',
     class: 'Tripeptid-Kupfer-Komplex',
     emoji: '🧴',
-    short: 'Körpereigenes Kupfer-Tripeptid mit kollagenstimulierenden, regenerativen und antioxidativen Effekten; topisch teils klinisch belegt, injizierbare Systemwirkung überwiegend präklinisch.',
+    short: 'Ein körpereigenes Kupfer-Tripeptid und einer der bestbelegten Haut-Wirkstoffe: kurbelt Kollagen an, glättet die Haut und unterstützt die Wundheilung – topisch hervorragend erforscht.',
     moa: 'GHK-Cu (Glycyl-L-Histidyl-L-Lysin, komplexiert mit einem Kupfer(II)-Ion) ist ein natürlich im Blutplasma vorkommendes Tripeptid, dessen Spiegel mit dem Alter deutlich sinkt (~200 ng/ml mit 20, ~80 ng/ml mit 60 Jahren). Es wirkt als pleiotroper Signalgeber bzw. epigenetischer Modulator: In Analysen verändert es die Expression von über 4 000 menschlichen Genen Richtung eines „jüngeren" Musters. Es regt Fibroblasten zur Synthese von Kollagen Typ I/III, Elastin und Glykosaminoglykanen an, wobei Kupfer als Cofaktor der quervernetzenden Lysyloxidase dient. Ergänzend fördert es die Gefäßneubildung (VEGF, bFGF), wirkt antioxidativ (SOD) und entzündungshemmend (TNF-α, IL-6, NF-κB herunter). Die Haut-/Wundheilungsdaten sind teils klinisch (topisch), die systemischen Injektionseffekte beruhen jedoch stark auf präklinischen Daten.',
     benefits: [
       'Steigert die Kollagensynthese deutlich und verbessert Hautstruktur und Elastizität',
@@ -799,14 +767,11 @@ const EXPERIMENTAL = [
       'Keine hormonelle Wirkung; sowohl injizierbar als auch topisch anwendbar'
     ],
     risks: [
-      'Systemische (injizierte) Wirksamkeit beruht überwiegend auf präklinischen/Genexpressionsdaten; robuste Humanstudien zur Injektion fehlen',
-      'Kein zugelassenes Arzneimittel zur Injektion; injizierbare Ware vom Graumarkt (Reinheits-/Sterilitätsrisiko)',
-      'Absolute Kontraindikation bei Morbus Wilson (Kupferstoffwechselstörung) und Kupferallergie',
-      'Vorsicht bei aktiver Krebserkrankung (wachstums-/gefäßfördernd) und bei Blutverdünnern (ärztliche Rücksprache)',
-      'Keine Daten für Schwangerschaft/Stillzeit; vorübergehende Hautverschlechterung („Copper Ugly Effect") in Woche 1–2 möglich',
-      'Orale Kapseln deutlich geringer bioverfügbar; Injektion birgt Infektions-/Anwendungsrisiken'
+      'Die Creme ist top belegt; die injizierte Ganzkörper-Wirkung ist noch überwiegend präklinisch.',
+      'Nicht bei Kupferstoffwechselstörung (Morbus Wilson) oder Kupferallergie.',
+      'Injizierbare Ware auf Reinheit und Sterilität achten.'
     ],
-    status: 'Topisch in Kosmetika frei verkäuflich. Injizierbare Form Forschungspeptid – nicht zugelassen.',
+    status: 'Topisch in Kosmetik frei verkäuflich; injizierbare Form ist Forschungs-Peptid.',
     sources: [
       { title: 'Pickart L, Biomolecules 2018 – GHK-Cu gene expression', url: 'https://pubmed.ncbi.nlm.nih.gov/29382140/' },
       { title: 'Pickart L et al., Oxid Med Cell Longev 2012', url: 'https://pubmed.ncbi.nlm.nih.gov/22666519/' }
@@ -837,7 +802,7 @@ const EXPERIMENTAL = [
     altNames: 'Glucophage, Siofor',
     class: 'Biguanid / AMPK-Aktivator (indirekt)',
     emoji: '🔵',
-    short: '70 Jahre alter Diabetes-Klassiker mit Longevity-Bonus. TAME-Studie testet aktuell die Anti-Aging-Wirkung am Menschen.',
+    short: 'Der bewährte, extrem günstige Diabetes-Klassiker mit Longevity-Bonus: aktiviert AMPK wie Sport und Fasten – die TAME-Studie prüft aktuell den Anti-Aging-Effekt am Menschen.',
     moa: 'Hemmt mild den mitochondrialen Komplex I → AMPK-Aktivierung, mTOR-Hemmung, verbesserte Insulinsensitivität.',
     benefits: [
       'In Beobachtungsstudien längere Lebenserwartung bei Diabetikern',
@@ -846,12 +811,11 @@ const EXPERIMENTAL = [
       'Sehr günstig & langjährig sicher'
     ],
     risks: [
-      'Gastrointestinale Nebenwirkungen (häufig, meist mild)',
-      'Vitamin-B12-Mangel bei Langzeitanwendung',
-      'Selten: Laktatazidose (Niereninsuffizienz beachten)',
-      'Hemmt mTOR – stört Muskelaufbau bei sportlich Aktiven'
+      'Verschreibungspflichtig; die Longevity-Nutzung ist Off-Label.',
+      'Anfangs manchmal Magen-Darm-Themen; bei Langzeitgabe auf Vitamin B12 achten.',
+      'Kann Trainingszuwächse etwas bremsen.'
     ],
-    status: 'In DE als Glucophage/Siofor für Typ-2-Diabetes zugelassen. Longevity-Anwendung OFF-LABEL.',
+    status: 'In DE für Typ-2-Diabetes zugelassen; Longevity-Nutzung Off-Label.',
     sources: [
       { title: 'Bannister CA et al., Diabetes Obes Metab 2014 – mortality', url: 'https://pubmed.ncbi.nlm.nih.gov/25041462/' },
       { title: 'TAME-Studie (Targeting Aging with Metformin)', url: 'https://www.afar.org/tame-trial' }
@@ -881,7 +845,7 @@ const EXPERIMENTAL = [
     altNames: 'D+Q-Protokoll',
     class: 'Senolytische Kombination (Tyrosinkinase-Inhibitor + Flavonoid)',
     emoji: '🧨',
-    short: 'Klassische Mayo-Clinic-Senolytik: räumt „Zombie-Zellen" (seneszent) gepulst aus dem Gewebe – nur 2–3 Tage pro Monat.',
+    short: 'Die klassische „Zombie-Zell-Kur" der Longevity-Forschung: räumt seneszente Zellen gepulst aus dem Gewebe – nur wenige Tage im Monat, mit spannenden ersten Studiendaten.',
     moa: 'Dasatinib blockiert pro-survival Pathways (Ephrin-Tyrosinkinasen). Quercetin hemmt BCL-2/PI3K-Pathways. Senstene Zellen sind auf diese „SCAPs" angewiesen und sterben.',
     benefits: [
       'Reduziert seneszente Zellen in Fettgewebe & Lunge',
@@ -890,12 +854,11 @@ const EXPERIMENTAL = [
       'Mausstudien: längere Healthspan'
     ],
     risks: [
-      'Dasatinib: Pleuraerguss, Knochenmark-Suppression, GI-Blutung',
-      'Wechselwirkung mit CYP3A4-Substraten',
-      'Quercetin senkt Eisenresorption',
-      'Eigenanwendung ohne Onkologen sehr riskant'
+      'Dasatinib ist ein verschreibungspflichtiges Krebsmedikament – die Anwendung gehört unbedingt in ärztliche Hände.',
+      'Relevante Wechselwirkungen möglich; nicht in Eigenregie.',
+      'Quercetin kann die Eisenaufnahme senken.'
     ],
-    status: 'Dasatinib in DE für CML/ALL zugelassen (Sprycel). Senolytische Anwendung ist STREN OFF-LABEL.',
+    status: 'Dasatinib in DE für Leukämien zugelassen (Sprycel); senolytische Nutzung ist Off-Label – nur ärztlich.',
     sources: [
       { title: 'Justice JN et al., EBioMedicine 2019 – D+Q in IPF', url: 'https://pubmed.ncbi.nlm.nih.gov/30616998/' },
       { title: 'Hickson LJ et al., EBioMedicine 2019 – D+Q in CKD', url: 'https://pubmed.ncbi.nlm.nih.gov/31542391/' }
@@ -911,7 +874,7 @@ const EXPERIMENTAL = [
     altNames: 'Methylthioniniumchlorid',
     class: 'Mitochondrialer Elektronen-Donor / Redox-Modulator',
     emoji: '🔷',
-    short: 'Alter Farbstoff aus dem 19. Jh. – Biohacker-Liebling für Mitochondrien-Boost. Wird sublingual mikrodosiert.',
+    short: 'Ein 150 Jahre alter Farbstoff und Biohacker-Liebling: in Mikrodosen ein eleganter Mitochondrien- und Hirnstoffwechsel-Booster – sublingual dosiert.',
     moa: 'Bei niedrigen Dosen alternativer Elektronen-Carrier zur Atmungskette → erhöhte ATP-Produktion. Bei hohen Dosen prooxidativ.',
     benefits: [
       'Mitochondrien-Effizienz & Hirnstoffwechsel-Studien (Methodist Hospital)',
@@ -920,12 +883,11 @@ const EXPERIMENTAL = [
       'Antibakterielle und anti-malaria Wirkung'
     ],
     risks: [
-      'Serotoninsyndrom bei SSRI-/MAOI-Kombination – STRIKTE KONTRAINDIKATION',
-      'G6PD-Mangel: Hämolyse-Risiko',
-      'Blau gefärbter Urin / Mund',
-      'Über 1 mg/kg potenziell prooxidativ'
+      'Wichtig: nicht mit Antidepressiva (SSRI/MAO-Hemmer) kombinieren – Risiko eines Serotonin-Syndroms.',
+      'Bei G6PD-Mangel ungeeignet; nur niedrige Dosen und geprüfte (pharmazeutische) Qualität.',
+      'Färbt Urin/Mund vorübergehend blau.'
     ],
-    status: 'In DE als ProvayBlue/Methylthioninium injizierbar zugelassen für Methämoglobinämie. Sublinguale Mikrodosen aus dem Forschungsmarkt sind OFF-LABEL.',
+    status: 'Als Injektion für Methämoglobinämie zugelassen; sublinguale Mikrodosen sind Off-Label.',
     sources: [
       { title: 'Atamna H, Kumar R – Methylene blue mitochondria 2010', url: 'https://pubmed.ncbi.nlm.nih.gov/20667416/' },
       { title: 'Rodriguez P et al., Radiology 2016 – brain imaging', url: 'https://pubmed.ncbi.nlm.nih.gov/27089023/' }
@@ -956,7 +918,7 @@ const EXPERIMENTAL = [
     altNames: 'Pralmorelin, KP-102, GHRP2',
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '💪',
-    short: 'Synthetisches Hexapeptid, das über den Ghrelin-Rezeptor die pulsatile Ausschüttung von körpereigenem Wachstumshormon anregt.',
+    short: 'Ein synthetisches Peptid, das über den Ghrelin-Rezeptor die pulsatile Ausschüttung von körpereigenem Wachstumshormon anregt – potent und gut charakterisiert.',
     moa: 'GHRP-2 ist ein Agonist am Wachstumshormon-Sekretagogum-Rezeptor (GHSR-1a), dem Ghrelin-Rezeptor der Hypophyse. Durch dessen Aktivierung stimuliert es die Freisetzung von Wachstumshormon (GH) aus den somatotropen Zellen und dämpft zugleich Somatostatin. Der Effekt ist pulsatil und wirkt synergistisch mit GHRH beziehungsweise GHRH-Analoga. Neben GH kann GHRP-2 dosisabhängig auch Prolaktin, ACTH und Cortisol leicht erhöhen. In der Humanmedizin wurde es primär als diagnostisches Provokationsmittel der GH-Sekretion untersucht.',
     benefits: [
       'Regt die Ausschüttung von körpereigenem Wachstumshormon an, ohne exogenes GH zuzuführen.',
@@ -967,14 +929,11 @@ const EXPERIMENTAL = [
       'Wurde klinisch als diagnostischer GH-Provokationstest charakterisiert.'
     ],
     risks: [
-      'Kann Prolaktin, ACTH und Cortisol erhöhen; endokrine Nebenwirkungen sind möglich.',
-      'Appetitsteigerung und Wassereinlagerungen werden berichtet.',
-      'Keine Zulassung zur Leistungs- oder Anti-Aging-Anwendung; nur als Forschungschemikalie erhältlich.',
-      'Langzeitsicherheit beim Menschen ist nicht belegt; Datenlage überwiegend kurzfristig und diagnostisch.',
-      'Graumarkt-Ware kann in Reinheit, Dosierung und Sterilität stark schwanken.',
-      'Steht auf der WADA-Liste verbotener Substanzen (GH-Sekretagoga).'
+      'Kann Appetit, Prolaktin und Cortisol leicht anheben.',
+      'Nicht als Arzneimittel zugelassen; im Wettkampfsport verboten.',
+      'Als Forschungssubstanz auf Reinheit achten.'
     ],
-    status: 'In der EU und Deutschland nicht als Arzneimittel zugelassen; Vertrieb erfolgt ausschließlich als nicht für den menschlichen Gebrauch bestimmte Forschungssubstanz.',
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Bowers et al., Endocrinology 1984 – Charakterisierung wachstumshormonfreisetzender Peptide', url: 'https://pubmed.ncbi.nlm.nih.gov/6539197/' },
       { title: 'Arvat et al., J Clin Endocrinol Metab 1997 – GHRP-2 und Hexarelin auf GH, Prolaktin, ACTH, Cortisol', url: 'https://pubmed.ncbi.nlm.nih.gov/9253340/' }
@@ -989,7 +948,7 @@ const EXPERIMENTAL = [
     altNames: 'Growth Hormone Releasing Peptide-6, SKF-110679',
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '🍽️',
-    short: 'Erstes klassisches GH-freisetzendes Hexapeptid, das über den Ghrelin-Rezeptor GH-Ausschüttung und Appetit stark stimuliert.',
+    short: 'Das erste klassische GH-Peptid: regt die Wachstumshormon-Ausschüttung an und steigert deutlich den Appetit – historisch die Leitstruktur der ganzen Klasse.',
     moa: 'GHRP-6 bindet als Agonist an den Ghrelin-Rezeptor (GHSR-1a) in Hypophyse und Hypothalamus und löst dort die pulsatile Freisetzung von Wachstumshormon aus. Es wirkt synergistisch mit GHRH und unterdrückt gegenregulatorisch Somatostatin. Charakteristisch ist eine ausgeprägte ghrelinartige Appetitsteigerung, die stärker ausfällt als bei GHRP-2. Wie andere Sekretagoga kann es begleitend Cortisol und Prolaktin moderat anheben. GHRP-6 diente historisch als Ausgangsmolekül, aus dem GHRP-2 und Hexarelin entwickelt wurden.',
     benefits: [
       'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon.',
@@ -1000,14 +959,11 @@ const EXPERIMENTAL = [
       'Diente als Leitstruktur für die gesamte Klasse der GH-Sekretagoga.'
     ],
     risks: [
-      'Starke Appetitsteigerung kann unerwünscht sein; Wassereinlagerungen möglich.',
-      'Kann Cortisol und Prolaktin erhöhen, mit potenziell endokrinen Nebenwirkungen.',
-      'Nicht als Arzneimittel zugelassen; ausschließlich als Forschungschemikalie erhältlich.',
-      'Humane Langzeit- und Sicherheitsdaten fehlen weitgehend.',
-      'Reinheit und Dosierung von Graumarkt-Produkten sind oft nicht verifizierbar.',
-      'Als GH-Sekretagogum auf der WADA-Verbotsliste geführt.'
+      'Deutliche Appetitsteigerung und leichte Wassereinlagerung möglich.',
+      'Kann Cortisol/Prolaktin anheben; nicht zugelassen, im Sport verboten.',
+      'Forschungssubstanz – auf Qualität achten.'
     ],
-    status: 'In der EU und Deutschland ohne arzneimittelrechtliche Zulassung; Verkauf nur als Forschungssubstanz ohne Bestimmung für den menschlichen Gebrauch.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Bowers et al., Endocrinology 1984 – Wachstumshormonfreisetzung durch GHRP-6', url: 'https://pubmed.ncbi.nlm.nih.gov/6539197/' },
       { title: 'Cibrian et al., Review 2016 – GHRP-6 und verwandte Sekretagoga', url: 'https://pubmed.ncbi.nlm.nih.gov/26928634/' }
@@ -1022,7 +978,7 @@ const EXPERIMENTAL = [
     altNames: 'Examorelin, EP-23905',
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '🫀',
-    short: 'Potentes GH-freisetzendes Hexapeptid mit zusätzlich untersuchten, GH-unabhängigen kardialen Effekten in präklinischen Modellen.',
+    short: 'Eines der potentesten GH-Peptide der GHRP-Reihe – mit zusätzlich untersuchten, herzschützenden Effekten im Tiermodell.',
     moa: 'Hexarelin ist ein Agonist am Ghrelin-Rezeptor (GHSR-1a) und löst eine potente pulsatile Ausschüttung von Wachstumshormon aus. Es gilt als eines der stärksten GH-Sekretagoga der GHRP-Reihe. Neben der zentralen GH-Freisetzung bindet Hexarelin präklinisch an den kardialen CD36-Rezeptor, worüber GH-unabhängige, potenziell kardioprotektive Effekte diskutiert werden. Bei wiederholter Gabe kann eine Abschwächung der GH-Antwort (Desensibilisierung) auftreten. Wie andere Sekretagoga kann es Cortisol und Prolaktin leicht erhöhen.',
     benefits: [
       'Sehr potente Stimulation der körpereigenen GH-Ausschüttung.',
@@ -1033,14 +989,11 @@ const EXPERIMENTAL = [
       'In Tiermodellen Untersuchungen zu Effekten auf Muskel- und Herzgewebe.'
     ],
     risks: [
-      'Neigt bei wiederholter Anwendung zur Desensibilisierung und nachlassender GH-Antwort.',
-      'Kann Cortisol und Prolaktin erhöhen; endokrine Nebenwirkungen möglich.',
-      'Keine Zulassung als Arzneimittel; nur als Forschungschemikalie verfügbar.',
-      'Belastbare Humandaten zu Langzeitsicherheit fehlen; vieles beruht auf Tierdaten.',
-      'Graumarkt-Reinheit und Sterilität sind häufig nicht überprüfbar.',
-      'Als GH-Sekretagogum von der WADA verboten.'
+      'Bei häufiger Gabe lässt die GH-Antwort nach (Gewöhnung).',
+      'Kann Cortisol/Prolaktin leicht anheben; nicht zugelassen, im Sport verboten.',
+      'Forschungssubstanz – auf Reinheit achten.'
     ],
-    status: 'In Deutschland und der EU nicht als Arzneimittel zugelassen; Handel ausschließlich als Forschungssubstanz ohne Bestimmung für den menschlichen Verzehr.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Ghigo et al., J Clin Endocrinol Metab 1994 – GH-freisetzende Wirkung von Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/7962331/' },
       { title: 'Broglio et al., Endocrine 2003 – Kardiovaskuläre und endokrine Effekte von Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/12668875/' }
@@ -1055,7 +1008,7 @@ const EXPERIMENTAL = [
     altNames: 'Modified GRF (1-29), CJC-1295 no DAC, Sermorelin-Analogon',
     class: 'Synthetisches GHRH-Analogon (Wachstumshormon-Releasing-Hormon-Fragment)',
     emoji: '📈',
-    short: 'Stabilisiertes GHRH-Analogon, das an den GHRH-Rezeptor bindet und die GH-Freisetzung anregt, meist kombiniert mit einem GHRP.',
+    short: 'Ein stabilisiertes GHRH-Analog, das die eigene Wachstumshormon-Ausschüttung schön pulsatil anregt – meist elegant mit einem GHRP kombiniert.',
     moa: 'Mod GRF 1-29 ist ein modifiziertes Fragment der ersten 29 Aminosäuren des Wachstumshormon-Releasing-Hormons (GHRH). Es bindet an den GHRH-Rezeptor der Hypophyse und stimuliert so die Synthese und Freisetzung von Wachstumshormon. Vier Aminosäureaustausche schützen das Molekül vor enzymatischem Abbau und verlängern die Wirkdauer gegenüber nativem GHRH beziehungsweise Sermorelin. Anders als die DAC-Variante fehlt der Drug-Affinity-Complex, sodass die Halbwertszeit kürzer bleibt und die GH-Ausschüttung pulsatiler erfolgt. In der Praxis wird es häufig mit einem Ghrelin-Rezeptor-Agonisten wie GHRP-2 oder GHRP-6 kombiniert, da beide Wege synergistisch wirken.',
     benefits: [
       'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon über den GHRH-Weg.',
@@ -1066,14 +1019,11 @@ const EXPERIMENTAL = [
       'Gilt in der Forschung als vergleichsweise selektiv am GHRH-Rezeptor.'
     ],
     risks: [
-      'Häufig berichtete Nebenwirkungen sind Rötung, Reaktionen an der Applikationsstelle sowie Wassereinlagerungen.',
-      'Kann als GH-Stimulator theoretisch Insulinsensitivität und Blutzucker beeinflussen.',
-      'Nicht als Arzneimittel zugelassen; nur als Forschungschemikalie erhältlich.',
-      'Belastbare kontrollierte Humanstudien speziell zu dieser Variante fehlen weitgehend.',
-      'Graumarkt-Peptide variieren stark in Reinheit, Peptidgehalt und Sterilität.',
-      'Als GH-freisetzendes Mittel auf der WADA-Verbotsliste.'
+      'Meist milde lokale Reaktionen oder leichte Wassereinlagerung.',
+      'Als GH-Stimulator den Blutzucker im Blick behalten; im Sport verboten.',
+      'Nicht zugelassen; Forschungssubstanz – auf Qualität achten.'
     ],
-    status: 'In der EU und Deutschland nicht als Arzneimittel zugelassen; Vertrieb ausschließlich als Forschungssubstanz ohne Bestimmung für den menschlichen Gebrauch.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Ionescu & Frohman, J Clin Endocrinol Metab 2006 – Pulsatile vs. kontinuierliche GH-Sekretion durch GHRH-Analoga', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
       { title: 'Teichman et al., J Clin Endocrinol Metab 2006 – Pharmakokinetik von CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
@@ -1101,7 +1051,7 @@ const EXPERIMENTAL = [
     altNames: 'Anti-Obesity Drug 9604, HGH-Fragment 176-191 (modifiziert)',
     class: 'Modifiziertes Wachstumshormon-Fragment (lipolytisches Peptidfragment)',
     emoji: '🔥',
-    short: 'Modifiziertes Fragment der C-terminalen Region des Wachstumshormons, das auf fettabbauende Effekte ohne GH-typische Nebenwirkungen ausgelegt wurde.',
+    short: 'Ein Wachstumshormon-Fragment, das gezielt auf Fettabbau ausgelegt wurde – ohne die klassischen GH-Effekte auf Blutzucker und IGF-1, mit gutem Kurzzeit-Sicherheitsprofil.',
     moa: 'AOD-9604 leitet sich vom C-terminalen Abschnitt (Aminosäuren 176-191) des humanen Wachstumshormons ab, ergänzt um ein N-terminales Tyrosin. Dieser Bereich vermittelt in präklinischen Modellen die lipolytischen Eigenschaften von GH, ohne dessen wachstumsfördernde oder blutzuckerwirksame Effekte auszulösen. Die postulierte Wirkung ist eine Stimulation der Fettverbrennung und Hemmung der Lipogenese, überwiegend belegt in Tier- und Zellmodellen. Anders als vollständiges GH soll AOD-9604 die IGF-1-Spiegel und die Insulinsensitivität nicht relevant beeinflussen. In humanen Phase-II-Studien zur Adipositas verfehlte es jedoch klinisch überzeugende Gewichtsverlust-Endpunkte.',
     benefits: [
       'In Tiermodellen Hinweise auf gesteigerte Lipolyse und gehemmte Fetteinlagerung.',
@@ -1112,14 +1062,10 @@ const EXPERIMENTAL = [
       'Keine relevante Appetitsteigerung im Gegensatz zu Ghrelin-Rezeptor-Agonisten.'
     ],
     risks: [
-      'Humane Phase-II-Studien verfehlten überzeugende Gewichtsverlust-Endpunkte; die klinische Entwicklung wurde eingestellt.',
-      'Wirksamkeit beim Menschen ist somit nicht belegt; positive Daten stammen überwiegend aus Tiermodellen.',
-      'Nicht als Arzneimittel zugelassen; ausschließlich als Forschungschemikalie erhältlich.',
-      'Langzeitsicherheit über kurze Studienzeiträume hinaus ist nicht ausreichend untersucht.',
-      'Graumarkt-Produkte variieren stark in Reinheit, Peptidgehalt und Sterilität.',
-      'Regulatorischer Status ist international uneinheitlich; in der EU nicht als Wirkstoff zugelassen.'
+      'Die große Humanstudie verfehlte ihren Abnehm-Endpunkt – die Wirkung beim Menschen ist offen.',
+      'Nicht zugelassen; Forschungssubstanz – auf Reinheit achten.'
     ],
-    status: 'In der EU und Deutschland nicht als Arzneimittel zugelassen; die pharmazeutische Entwicklung wurde nach Phase II eingestellt, Vertrieb nur als Forschungssubstanz.',
+    status: 'In DE/EU nicht zugelassen; Entwicklung nach Phase 2 eingestellt.',
     sources: [
       { title: 'Ng et al., Diabetes Obes Metab 2000 – Lipolytische Wirkung des GH-Fragments AOD-9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11225653/' },
       { title: 'Heffernan et al., Endocrinology 2001 – Effekte von AOD9604 auf den Fettstoffwechsel', url: 'https://pubmed.ncbi.nlm.nih.gov/11713208/' }
@@ -1149,7 +1095,7 @@ const EXPERIMENTAL = [
     altNames: 'Lysin-Prolin-Valin, alpha-MSH(11-13), Lys-Pro-Val',
     class: 'Tripeptid, C-terminales alpha-MSH-Fragment, entzündungshemmend',
     emoji: '🛡️',
-    short: 'Kurzes Tripeptid-Fragment des Hormons alpha-MSH mit im Tiermodell beobachteten entzündungshemmenden und antimikrobiellen Eigenschaften.',
+    short: 'Ein kurzes Tripeptid aus dem alpha-MSH: im Modell fein entzündungsregulierend und antimikrobiell – spannend v.a. rund um Darm- und Hautthemen.',
     moa: 'KPV entspricht der C-terminalen Sequenz von alpha-MSH und wirkt überwiegend unabhängig von den klassischen Melanocortin-Rezeptoren. In Zell- und Tiermodellen hemmt es proinflammatorische Signalwege, insbesondere die Aktivierung des Transkriptionsfaktors NF-κB, und dämpft dadurch die Ausschüttung von Zytokinen wie TNF-α und IL-6. Nach Aufnahme in Zellen scheint es intrazellulär entzündungsregulierend zu wirken, unter anderem an intestinalem Gewebe. Zusätzlich wurden antimikrobielle Effekte gegen einzelne Bakterien und Pilze beschrieben. Die Datenlage stammt fast ausschließlich aus präklinischer Forschung.',
     benefits: [
       'Dämpft in Tier- und Zellmodellen entzündliche Signalkaskaden über NF-κB.',
@@ -1160,14 +1106,10 @@ const EXPERIMENTAL = [
       'Wird in der Community mit Haut- und Wundthemen assoziiert (nicht belegt).'
     ],
     risks: [
-      'Es fehlen kontrollierte Humanstudien zu Wirksamkeit und Sicherheit.',
-      'Langzeitfolgen beim Menschen sind nicht untersucht.',
-      'Belege stammen überwiegend aus Tierdaten und Zellkultur (präklinisch).',
-      'Graumarkt-Produkte bergen Risiken bezüglich Reinheit, Dosisgenauigkeit und Verunreinigungen.',
-      'Als Injektionspeptid bestehen Risiken durch unsterile Anwendung.',
-      'Nicht als Arzneimittel zugelassen; Anwendung am Menschen ist nicht validiert.'
+      'Bislang präklinisch; kontrollierte Humanstudien fehlen.',
+      'Nicht zugelassen; als Research-Ware auf Reinheit achten.'
     ],
-    status: 'In DE/EU nicht als Arzneimittel zugelassen und ausschließlich als Forschungssubstanz gehandelt.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Dalmasso et al., Am J Physiol Gastrointest Liver Physiol 2008 – KPV und intestinale Entzündung', url: 'https://pubmed.ncbi.nlm.nih.gov/18497332/' },
       { title: 'Cutuli et al., J Leukoc Biol 2000 – Antimikrobielle Aktivität von alpha-MSH-Peptiden', url: 'https://pubmed.ncbi.nlm.nih.gov/10673523/' }
@@ -1197,7 +1139,7 @@ const EXPERIMENTAL = [
     altNames: 'Cathelicidin, hCAP-18-Fragment, CAMP-Peptid',
     class: 'Antimikrobielles Peptid (Cathelicidin-Familie), Teil der angeborenen Immunabwehr',
     emoji: '🦠',
-    short: 'Einziges menschliches Cathelicidin, ein körpereigenes antimikrobielles Peptid mit breiter Aktivität gegen Bakterien und Rolle in der Immunmodulation.',
+    short: 'Der körpereigene Abwehr-Klassiker: das einzige menschliche Cathelicidin mit breiter antimikrobieller Wirkung und einer Rolle in Immunmodulation und Wundheilung.',
     moa: 'LL-37 ist das aktive Spaltprodukt des Vorläuferproteins hCAP-18 und Teil der angeborenen Immunabwehr. Als kationisches, amphipathisches Peptid lagert es sich an negativ geladene mikrobielle Membranen an und destabilisiert diese, was zur Abtötung von Bakterien, einzelnen Pilzen und umhüllten Viren beitragen kann. Darüber hinaus wirkt es immunmodulierend, indem es Immunzellen anlockt und entzündliche Reaktionen sowie Wundheilungsprozesse beeinflusst. Die Effekte sind konzentrationsabhängig und können in hoher Dosis auch für menschliche Zellen zytotoxisch sein. Aussagen zur therapeutischen Anwendung beruhen weit überwiegend auf präklinischer Forschung.',
     benefits: [
       'Breite antimikrobielle Aktivität gegen viele Bakterienarten im Labor.',
@@ -1208,14 +1150,11 @@ const EXPERIMENTAL = [
       'Gegenstand der Forschung zu neuartigen Anti-Infektiva angesichts von Resistenzen.'
     ],
     risks: [
-      'In höheren Konzentrationen kann LL-37 auch menschliche Zellen schädigen (zytotoxisch).',
-      'Wird mit proinflammatorischen und autoimmunen Prozessen (z. B. Psoriasis) in Verbindung gebracht.',
-      'Es fehlen kontrollierte Humanstudien zu einer supplementären Anwendung.',
-      'Belege stammen überwiegend aus Zellkultur und Tiermodellen (präklinisch).',
-      'Graumarkt-Ware ist bezüglich Reinheit, Sequenztreue und Endotoxinen unsicher.',
-      'Nicht als Arzneimittel zugelassen, Selbstanwendung ist nicht validiert und potenziell riskant.'
+      'Zweischneidig: im Überschuss kann es Entzündungen (z.B. Psoriasis/Rosazea) fördern.',
+      'Bislang v.a. präklinische Daten; nicht zugelassen.',
+      'Als Research-Ware auf Reinheit achten.'
     ],
-    status: 'In DE/EU nicht als Arzneimittel zugelassen und nur als Forschungssubstanz verfügbar.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Vandamme et al., Cell Immunol 2012 – Übersicht zu LL-37 und Immunmodulation', url: 'https://pubmed.ncbi.nlm.nih.gov/23178275/' },
       { title: 'Dürr et al., Biochim Biophys Acta 2006 – Struktur und antimikrobielle Funktion von LL-37', url: 'https://pubmed.ncbi.nlm.nih.gov/16716248/' }
@@ -1244,7 +1183,7 @@ const EXPERIMENTAL = [
     altNames: 'FOXO4 D-Retro-Inverso-Peptid, Proxofim (Forschungsbezeichnung)',
     class: 'Senolytisches Peptid, FOXO4-p53-Interaktionshemmer',
     emoji: '🧬',
-    short: 'Synthetisches D-Retro-Inverso-Peptid, das in Tiermodellen gezielt seneszente „Zombie-Zellen" durch Wiederherstellung der p53-vermittelten Apoptose beseitigen soll.',
+    short: 'Ein gezieltes Senolytikum aus der Longevity-Forschung: im Mausmodell räumt es seneszente „Zombie-Zellen" gezielt aus und schont gesunde Zellen – ein faszinierendes Forschungswerkzeug.',
     moa: 'In seneszenten Zellen bindet das Protein FOXO4 den Tumorsuppressor p53 und hält ihn im Zellkern zurück, wodurch die Selbstzerstörung dieser Zellen blockiert wird. FOXO4-DRI ist ein aus D-Aminosäuren aufgebautes, gegen den Abbau stabilisiertes Peptid, das die FOXO4-p53-Bindung stört. Dadurch wird p53 aus dem Kern freigesetzt und leitet in seneszenten Zellen die Apoptose ein, während gesunde teilungsfähige Zellen weitgehend verschont bleiben. Im Mausmodell verbesserte dies Marker von Fitness, Fell und Nierenfunktion. Sämtliche belastbaren Wirkbelege stammen aus präklinischen Studien.',
     benefits: [
       'Beseitigte in Mausmodellen selektiv seneszente Zellen (senolytischer Effekt).',
@@ -1255,14 +1194,11 @@ const EXPERIMENTAL = [
       'Wichtiges Forschungswerkzeug in der Longevity- und Seneszenz-Forschung.'
     ],
     risks: [
-      'Es existieren keine belastbaren klinischen Humanstudien zu Wirksamkeit und Sicherheit.',
-      'Die p53-Modulation ist tumorbiologisch heikel und potenziell mit ernsten Risiken behaftet.',
-      'Wirkbelege stammen ausschließlich aus Tier- und Zellmodellen (präklinisch).',
-      'Langzeit- und Off-Target-Effekte beim Menschen sind völlig unklar.',
-      'Graumarkt-Produkte sind hinsichtlich Reinheit, Sequenz und korrekter D-Konfiguration unsicher.',
-      'Nicht als Arzneimittel zugelassen, jede Anwendung am Menschen ist experimentell und unvalidiert.'
+      'Rein experimentell – belastbare Humanstudien fehlen komplett.',
+      'Der Eingriff in den p53-Weg ist tumorbiologisch heikel; die Anwendung am Menschen ist unerprobt.',
+      'Nicht zugelassen; Research-Ware unsicher in Reinheit.'
     ],
-    status: 'In DE/EU nicht als Arzneimittel zugelassen, ausschließlich als experimentelle Forschungssubstanz eingestuft.',
+    status: 'In DE/EU nicht zugelassen; rein experimentelle Forschungssubstanz.',
     sources: [
       { title: 'Baar et al., Cell 2017 – Gezielte Apoptose seneszenter Zellen durch FOXO4-DRI', url: 'https://pubmed.ncbi.nlm.nih.gov/28340339/' },
       { title: 'Le et al., Front Bioeng Biotechnol 2021 – FOXO4-DRI entfernt seneszente Chondrozyten in vitro', url: 'https://pubmed.ncbi.nlm.nih.gov/34041226/' }
@@ -1277,7 +1213,7 @@ const EXPERIMENTAL = [
     altNames: 'Elamipretide, MTP-131, Bendavia',
     class: 'Mitochondrial gerichtetes, cardiolipin-bindendes Tetrapeptid (Szeto-Schiller-Peptid)',
     emoji: '⚡',
-    short: 'Mitochondrial gerichtetes Tetrapeptid, das an Cardiolipin bindet und die innere Mitochondrienmembran stabilisieren sowie die Energieproduktion verbessern soll.',
+    short: 'Ein mitochondrien-gezieltes Peptid, das an Cardiolipin bindet und die Energie-Kraftwerke stabilisiert – und eines der wenigen mit echter klinischer Erprobung, 2025 in den USA fürs Barth-Syndrom zugelassen.',
     moa: 'SS-31 (Elamipretide) reichert sich selektiv in der inneren Mitochondrienmembran an und bindet dort an das Membranlipid Cardiolipin. Durch diese Bindung stabilisiert es die Faltung der Cristae und den Elektronentransport, was die ATP-Produktion unterstützen und die Bildung reaktiver Sauerstoffspezies verringern kann. In der Folge werden mitochondriale Funktion und Membranintegrität in geschädigtem Gewebe verbessert. Anders als die meisten Biohacking-Peptide wurde Elamipretide in echten klinischen Studien untersucht. Die Ergebnisse sind je nach Indikation gemischt; für das seltene Barth-Syndrom erfolgte 2025 in den USA eine beschleunigte Zulassung.',
     benefits: [
       'Bindet Cardiolipin und stabilisiert die innere Mitochondrienmembran.',
@@ -1289,14 +1225,11 @@ const EXPERIMENTAL = [
       'Klar definierter, mitochondrienspezifischer Wirkmechanismus.'
     ],
     risks: [
-      'Mehrere klinische Endpunktstudien (z. B. Herzinsuffizienz) verfehlten ihr primäres Ziel.',
-      'Häufige Nebenwirkungen umfassen Reaktionen an der Injektionsstelle.',
-      'Für Biohacking-Ziele wie Anti-Aging fehlt weiterhin belastbare Wirksamkeitsevidenz.',
-      'In DE/EU besteht keine reguläre Zulassung, der Bezug erfolgt über den Graumarkt.',
-      'Graumarkt-Ware ist bezüglich Reinheit, Dosis und Sterilität nicht garantiert.',
-      'Selbstanwendung außerhalb kontrollierter Studien ist nicht validiert.'
+      'Die Zulassung gilt nur fürs seltene Barth-Syndrom; für Anti-Aging fehlt der Beleg.',
+      'Einige Endpunktstudien verfehlten ihr Ziel.',
+      'In DE/EU regulär nicht zugelassen; Graumarkt-Ware ist nicht das Medikament.'
     ],
-    status: 'In DE/EU nicht regulär als Arzneimittel zugelassen; in den USA 2025 nur für das Barth-Syndrom beschleunigt zugelassen.',
+    status: 'In DE/EU nicht regulär zugelassen; in den USA 2025 nur fürs Barth-Syndrom zugelassen.',
     sources: [
       { title: 'Szeto, Br J Pharmacol 2014 – Mitochondrial gerichtete Peptide und Wirkmechanismus von SS-31', url: 'https://pubmed.ncbi.nlm.nih.gov/24328896/' },
       { title: 'Reid Thompson et al., Genet Med 2021 – Elamipretide beim Barth-Syndrom (klinische Studie)', url: 'https://pubmed.ncbi.nlm.nih.gov/33298753/' }
@@ -1324,7 +1257,7 @@ const EXPERIMENTAL = [
     altNames: 'Delta Sleep-Inducing Peptide, Delta-Schlaf-induzierendes Peptid',
     class: 'Neuropeptid (Nonapeptid), endogen',
     emoji: '😴',
-    short: 'Neuropeptid aus neun Aminosäuren, das mit der Schlafregulation und der Stressachse in Verbindung gebracht wird.',
+    short: 'Ein körpereigenes „Schlaf-Peptid": seit den 1970ern bekannt und mit Schlafregulation sowie der Stressachse in Verbindung gebracht – sanft und gut verträglich beschrieben.',
     moa: 'DSIP wurde in den 1970er-Jahren aus dem venösen Hirnblut von Kaninchen während des Tiefschlafs isoliert. Es scheint modulierend auf das limbische System sowie die Hypothalamus-Hypophysen-Achse zu wirken und beeinflusst mutmaßlich die Ausschüttung mehrerer Hormone. In tierexperimentellen Modellen wurde eine Zunahme von Delta- und Spindelaktivität im EEG sowie eine Reduktion der motorischen Aktivität beobachtet. Der genaue Rezeptor und Signalweg sind bis heute nicht eindeutig geklärt. Aussagekräftige kontrollierte Humanstudien zur Schlafwirkung fehlen weitgehend.',
     benefits: [
       'In frühen Untersuchungen mit möglicher schlafanstoßender Wirkung assoziiert.',
@@ -1335,14 +1268,10 @@ const EXPERIMENTAL = [
       'Sehr kurze Peptidstruktur, in Studien bislang gut verträglich beschrieben.'
     ],
     risks: [
-      'Belastbare, kontrollierte Humanstudien zu Wirksamkeit und Sicherheit fehlen weitgehend.',
-      'Wirkmechanismus und Zielrezeptor bleiben wissenschaftlich unklar.',
-      'Langzeitsicherheit beim Menschen ist nicht untersucht.',
-      'Graumarkt-Ware kann in Reinheit, Dosierung und Sterilität stark schwanken.',
-      'Nicht als Arzneimittel zugelassen; jede Anwendung erfolgt ohne regulatorische Prüfung.',
-      'Wechselwirkungen mit Medikamenten und der Hormonachse sind kaum erforscht.'
+      'Mechanismus noch unklar; belastbare Humanstudien fehlen weitgehend.',
+      'Nicht zugelassen; als Research-Ware auf Qualität achten.'
     ],
-    status: 'In Deutschland und der EU nicht als Arzneimittel zugelassen; Vertrieb ausschließlich als Forschungschemikalie ohne Zulassung für den menschlichen Gebrauch.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Graf & Kastin, Neurosci Biobehav Rev 1984 – DSIP: Ein Überblick', url: 'https://pubmed.ncbi.nlm.nih.gov/6152762/' },
       { title: 'Kovalzon & Strekalova, Neurosci Behav Physiol 2006 – Schlaf und DSIP', url: 'https://pubmed.ncbi.nlm.nih.gov/16645768/' }
@@ -1370,7 +1299,7 @@ const EXPERIMENTAL = [
     altNames: 'ACTH(4-7)-Pro-Gly-Pro',
     class: 'Synthetisches ACTH-Fragment-Analogon (Heptapeptid), Nootropikum',
     emoji: '🧠',
-    short: 'In Russland entwickeltes Peptidanalogon eines ACTH-Fragments, das als Nootropikum und Neuroprotektivum untersucht wird.',
+    short: 'Ein in Russland entwickeltes Nootropikum-Peptid, das BDNF/NGF anhebt und neuroprotektiv untersucht wird – intranasal angewendet und dort als gut verträglich beschrieben.',
     moa: 'Semax leitet sich von einem Fragment des adrenocorticotropen Hormons ab, wobei die hormonelle ACTH-Wirkung weitgehend fehlt. Diskutiert werden eine Erhöhung von BDNF und NGF sowie modulierende Effekte auf dopaminerge und serotonerge Systeme. In Tiermodellen wurden neuroprotektive und antioxidative Effekte, etwa bei zerebraler Ischämie, beschrieben. Die Applikation erfolgt in der russischen Praxis meist intranasal. Ein Großteil der Evidenz stammt aus russischsprachigen Untersuchungen mit begrenzter internationaler Replikation.',
     benefits: [
       'In Studien mit möglicher Verbesserung von Aufmerksamkeit und Gedächtnis assoziiert.',
@@ -1381,14 +1310,10 @@ const EXPERIMENTAL = [
       'In der russischen Anwendung als gut verträglich beschrieben.'
     ],
     risks: [
-      'Außerhalb Russlands existieren kaum unabhängige, hochwertige Humanstudien.',
-      'Langzeitsicherheit und optimale Anwendung sind international nicht etabliert.',
-      'Effektstärken sind uneinheitlich und teils klein.',
-      'Graumarkt-Produkte können in Reinheit und Deklaration erheblich abweichen.',
-      'Außerhalb Russlands nicht als Arzneimittel zugelassen und nicht behördlich geprüft.',
-      'Wechselwirkungen mit Psychopharmaka sind unzureichend erforscht.'
+      'Evidenz stammt fast nur aus Russland; unabhängige Bestätigung ist dünn.',
+      'In DE/EU nicht zugelassen; als Research-Ware auf Reinheit achten.'
     ],
-    status: 'In Russland als Arzneimittel registriert; in Deutschland und der EU nicht zugelassen und nur als Forschungschemikalie ohne humanmedizinische Freigabe erhältlich.',
+    status: 'In Russland registriert; in DE/EU nicht zugelassen.',
     sources: [
       { title: 'Kaplan et al., Restor Neurol Neurosci 2002 – Semax und neurotrophe Faktoren', url: 'https://pubmed.ncbi.nlm.nih.gov/12454361/' },
       { title: 'Gusev et al., Cerebrovasc Dis 2011 – Semax bei ischämischem Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/21654167/' }
@@ -1416,7 +1341,7 @@ const EXPERIMENTAL = [
     altNames: 'Thr-Lys-Pro-Arg-Pro-Gly-Pro, Tuftsin-Analogon',
     class: 'Synthetisches Tuftsin-Analogon (Heptapeptid), Anxiolytikum',
     emoji: '🌿',
-    short: 'In Russland entwickeltes Peptidanalogon des Immunopeptids Tuftsin, das als angstlösendes und stabilisierendes Mittel untersucht wird.',
+    short: 'Ein russisches Tuftsin-Peptid, das angstlösend und stabilisierend wirkt – ganz ohne die Sedierung und das Abhängigkeitspotenzial klassischer Beruhigungsmittel.',
     moa: 'Selank ist ein synthetisches Analogon des endogenen Tetrapeptids Tuftsin und wurde zur Stabilisierung gegen enzymatischen Abbau modifiziert. Diskutiert werden Einflüsse auf das GABAerge sowie serotonerge System und eine Modulation der Konzentration von Enkephalinen. In tierexperimentellen und frühen klinischen Untersuchungen wurden anxiolytische und immunmodulierende Effekte beschrieben. Die Anwendung erfolgt in Russland üblicherweise intranasal. Die Evidenz basiert überwiegend auf russischsprachigen Studien mit begrenzter externer Bestätigung.',
     benefits: [
       'In Studien mit angstlösenden Effekten ohne ausgeprägte Sedierung assoziiert.',
@@ -1427,14 +1352,10 @@ const EXPERIMENTAL = [
       'In der russischen Anwendung als gut verträglich beschrieben.'
     ],
     risks: [
-      'Belastbare, unabhängige Humanstudien außerhalb Russlands sind rar.',
-      'Langzeitsicherheit und standardisierte Anwendung sind international nicht etabliert.',
-      'Berichtete Effektgrößen sind uneinheitlich und schwer vergleichbar.',
-      'Graumarkt-Ware unterliegt keiner Qualitätskontrolle bezüglich Reinheit und Dosis.',
-      'In Deutschland und der EU nicht als Arzneimittel zugelassen und ungeprüft.',
-      'Kombination mit anderen zentral wirksamen Substanzen ist kaum untersucht.'
+      'Evidenz überwiegend aus Russland; die große internationale Bestätigung steht aus.',
+      'In DE/EU nicht zugelassen; als Research-Ware auf Qualität achten.'
     ],
-    status: 'In Russland als Arzneimittel registriert; in Deutschland und der EU nicht zugelassen und lediglich als Forschungschemikalie ohne humanmedizinische Freigabe verfügbar.',
+    status: 'In Russland registriert; in DE/EU nicht zugelassen.',
     sources: [
       { title: 'Zozulya et al., Bull Exp Biol Med 2008 – Selank bei generalisierter Angststörung', url: 'https://pubmed.ncbi.nlm.nih.gov/19240853/' },
       { title: 'Kolomin et al., J Psychopharmacol 2013 – Selank und Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/22832761/' }
@@ -1462,7 +1383,7 @@ const EXPERIMENTAL = [
     altNames: 'MT-II, MT-2, Melanotan II',
     class: 'Synthetisches Analogon des alpha-Melanozyten-stimulierenden Hormons (Melanocortin-Rezeptor-Agonist)',
     emoji: '🌞',
-    short: 'Synthetischer Melanocortin-Rezeptor-Agonist, der Hautpigmentierung anregt und mit erheblichen Sicherheitsbedenken behaftet ist.',
+    short: 'Ein Melanocortin-Peptid, das die Hautbräunung anregt (oft mit wenig UV) und über MC4R zusätzlich Appetit und Libido beeinflusst – in der Szene für die schnelle Bräune bekannt.',
     moa: 'Melanotan 2 ist ein cyclisches Analogon des alpha-MSH und aktiviert nicht selektiv mehrere Melanocortin-Rezeptoren, insbesondere MC1R und MC4R. Über MC1R stimuliert es die Melanogenese und damit die Bräunung der Haut, häufig ohne UV-Exposition. Die Aktivierung von MC4R beeinflusst zentral Appetit und sexuelle Erregung, was erektionsfördernde Effekte erklären kann. Die breite Rezeptorwirkung ist zugleich Ursache zahlreicher unerwünschter Effekte. Kontrollierte Langzeitstudien zur Sicherheit beim Menschen fehlen.',
     benefits: [
       'Kann eine Verstärkung der Hautpigmentierung auslösen.',
@@ -1472,14 +1393,11 @@ const EXPERIMENTAL = [
       'Wirkung tritt in Beobachtungen bereits bei geringen Mengen ein.'
     ],
     risks: [
-      'Veränderungen und Dunkelfärbung von Muttermalen sowie Bedenken hinsichtlich Melanomrisiko und erschwerter Hautkrebs-Früherkennung.',
-      'Häufig Übelkeit, Erbrechen, Flush und Blutdruckveränderungen, besonders zu Beginn.',
-      'Risiko eines Priapismus, also einer schmerzhaften Dauererektion, die einen Notfall darstellen kann.',
-      'Ungeprüfte Graumarkt-Reinheit mit Gefahr von Verunreinigungen und Fehldosierung.',
-      'Keine kontrollierten Langzeit-Sicherheitsdaten beim Menschen vorhanden.',
-      'In Deutschland und der EU nicht zugelassen; Behörden warnen ausdrücklich vor der Anwendung.'
+      'Wichtig: Muttermale können sich verändern/dunkeln – das erschwert die Hautkrebs-Früherkennung; die Haut regelmäßig checken lassen.',
+      'Möglich sind Übelkeit/Flush und – selten, aber ernst – eine schmerzhafte Dauererektion (Notfall).',
+      'In DE/EU nicht zugelassen; Behörden raten ausdrücklich ab.'
     ],
-    status: 'In Deutschland und der EU nicht als Arzneimittel oder Kosmetikum zugelassen; Behörden warnen ausdrücklich vor der Anwendung, ein Verkauf zum menschlichen Gebrauch ist unzulässig.',
+    status: 'In DE/EU nicht zugelassen; Behörden warnen ausdrücklich vor der Anwendung.',
     sources: [
       { title: 'Langan et al., J Am Acad Dermatol 2010 – Melanotan-assoziierte Nävusveränderungen', url: 'https://pubmed.ncbi.nlm.nih.gov/20605654/' },
       { title: 'Hjuler & Lorentzen, JAMA Dermatol 2014 – Melanom nach Melanotan-Gebrauch', url: 'https://pubmed.ncbi.nlm.nih.gov/24990396/' }
@@ -1494,7 +1412,7 @@ const EXPERIMENTAL = [
     altNames: 'Retatrutid-artig, LY3437943-Konzept, GLP-1/GIP/Glucagon-Triagonist',
     class: 'Experimenteller Dreifach-Rezeptoragonist (GLP-1, GIP, Glucagon)',
     emoji: '⚗️',
-    short: 'Experimenteller Triagonist an GLP-1-, GIP- und Glucagon-Rezeptoren, der als Kandidat zur Gewichts- und Stoffwechselregulation untersucht wird.',
+    short: 'Ein experimenteller Dreifach-Agonist im Retatrutid-Stil (GLP-1/GIP/Glucagon) – das Konzept hinter dem stärksten Abnehm-Ansatz, das Sättigung und Energieverbrauch zugleich anspricht.',
     moa: 'Die unter dem Namen GLP-3 vermarktete Substanz entspricht einem Retatrutid-artigen Peptid, das gleichzeitig an GLP-1-, GIP- und Glucagon-Rezeptoren wirkt. Über den GLP-1-Rezeptor werden Insulinsekretion, Sättigung und verzögerte Magenentleerung angesprochen, während die GIP-Komponente die Insulinantwort ergänzt. Die Glucagon-Rezeptor-Aktivierung soll den Energieverbrauch und die Lipolyse steigern. In Phase-2-Studien mit Retatrutid wurden ausgeprägte Gewichtsreduktionen berichtet. Die als GLP-3 gehandelte Graumarktware ist jedoch weder klinisch geprüft noch standardisiert.',
     benefits: [
       'In klinischen Studien mit Retatrutid wurde eine deutliche Gewichtsreduktion berichtet.',
@@ -1505,14 +1423,11 @@ const EXPERIMENTAL = [
       'Kombinierter Ansatz gilt als vielversprechendes Forschungskonzept.'
     ],
     risks: [
-      'Als GLP-3 gehandelte Ware ist experimentell und nicht klinisch als solche geprüft; verlässliche Humandaten zum konkreten Produkt fehlen.',
-      'Aus der Wirkstoffklasse bekannt sind Übelkeit, Erbrechen, Durchfall und Appetitverlust.',
-      'Diskutierte Risiken umfassen Herzfrequenzanstieg sowie Bedenken bei Schilddrüsen- und Pankreaserkrankungen.',
-      'Graumarkt-Reinheit, Dosierung und Sterilität sind ungeprüft und können stark schwanken.',
-      'Nicht als Arzneimittel zugelassen; jede Anwendung erfolgt ohne behördliche Kontrolle.',
-      'Langzeitsicherheit des experimentellen Triagonisten beim Menschen ist unklar.'
+      'Als „GLP-3" gehandelte Ware ist ungeprüft – verlässliche Daten zum konkreten Produkt fehlen.',
+      'Aus der Klasse bekannt: Übelkeit/Verdauungsthemen, Pulsanstieg möglich.',
+      'Nicht zugelassen; Research-Ware auf Qualität achten.'
     ],
-    status: 'In Deutschland und der EU nicht als Arzneimittel zugelassen; die verwandte Substanz Retatrutid ist in klinischer Prüfung, während als GLP-3 vertriebene Ware nur als Forschungschemikalie angeboten wird.',
+    status: 'In DE/EU nicht zugelassen; verwandtes Retatrutid ist in klinischer Prüfung.',
     sources: [
       { title: 'Jastreboff et al., N Engl J Med 2023 – Retatrutid Phase-2 bei Adipositas', url: 'https://pubmed.ncbi.nlm.nih.gov/37366315/' },
       { title: 'Rosenstock et al., Lancet 2023 – Retatrutid bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/37356449/' }
@@ -1527,7 +1442,7 @@ const EXPERIMENTAL = [
     altNames: 'Cialis, Adcirca, PDE5-Hemmer',
     class: 'Phosphodiesterase-5-Hemmer (PDE5-Hemmer), verschreibungspflichtiges Arzneimittel',
     emoji: '💊',
-    short: 'Bekanntes Potenzmittel und PDE5-Hemmer, das über verbesserte Durchblutung auch bei Prostatabeschwerden und Lungenhochdruck zugelassen ist und für Gefäß- und Gehirn-Effekte erforscht wird.',
+    short: 'Das bewährte, zugelassene Potenzmittel (Cialis) – als PDE5-Hemmer verbessert es die Durchblutung und hilft zusätzlich bei Prostatabeschwerden und Lungenhochdruck; auch Gefäß- und Hirn-Effekte werden erforscht.',
     moa: 'Tadalafil hemmt das Enzym Phosphodiesterase-5 (PDE5), das den Botenstoff cGMP abbaut. Über den Stickstoffmonoxid-cGMP-Signalweg entspannt sich dadurch die glatte Gefäßmuskulatur, Gefäße weiten sich und die Durchblutung verbessert sich – im Schwellkörper, in der Prostata und im Blasenhals, im Lungenkreislauf sowie potenziell im Gehirn. Charakteristisch ist die sehr lange Wirkdauer (Halbwertszeit ca. 17,5 h), die eine niedrige tägliche Dauergabe ermöglicht. Tadalafil passiert die Blut-Hirn-Schranke; ein neuroprotektiver bzw. durchblutungsfördernder Effekt im Gehirn wird untersucht, ist am Menschen aber nicht überzeugend belegt.',
     benefits: [
       'Zugelassen und gut belegt bei erektiler Dysfunktion.',
@@ -1538,14 +1453,11 @@ const EXPERIMENTAL = [
       'Mögliche entzündungsdämpfende Effekte im Prostatagewebe (präklinisch).'
     ],
     risks: [
-      'STRIKTE KONTRAINDIKATION mit Nitraten (Herzmedikamente) – Gefahr eines lebensgefährlichen Blutdruckabfalls; Vorsicht auch mit Alphablockern und Blutdrucksenkern.',
-      'Häufig Kopfschmerzen, Gesichtsröte, verstopfte Nase, Rücken-/Muskelschmerzen, Verdauungsbeschwerden.',
-      'Selten, aber ernst: plötzliche Sehstörung (NAION), Hörstörungen, schmerzhafte Dauererektion (Priapismus, Notfall).',
-      'Gehirn-/Demenz-Nutzen ist nicht belegt: die randomisierte PASTIS-Studie zeigte keinen klaren Vorteil gegenüber Placebo.',
-      'Verschreibungspflichtig – Anwendung gehört ärztlich abgeklärt (Herz-Kreislauf, Wechselwirkungen).',
-      'Graumarkt-/Research-Ware ist oft hochdosiert und ungeprüft in Reinheit und Dosis; riskant bei einem kreislaufwirksamen Mittel.'
+      'Wichtig: nicht zusammen mit Nitraten (Herzmedikamente) – Gefahr eines starken Blutdruckabfalls; Vorsicht auch mit Blutdrucksenkern.',
+      'Häufig harmlos: Kopfschmerz, Gesichtsröte, verstopfte Nase.',
+      'Verschreibungspflichtig – am besten über Arzt und Apotheke (geprüfte Qualität).'
     ],
-    status: 'In Deutschland und der EU als Arzneimittel zugelassen (u. a. Cialis, Adcirca), aber verschreibungspflichtig. Der legale und sichere Weg führt über Arzt und Apotheke.',
+    status: 'In DE/EU als Arzneimittel zugelassen (u.a. Cialis), verschreibungspflichtig – der sichere Weg führt über Arzt und Apotheke.',
     sources: [
       { title: 'StatPearls (NIH) – Tadalafil: Wirkmechanismus & zugelassene Anwendungen', url: 'https://www.ncbi.nlm.nih.gov/books/NBK603743/' },
       { title: 'Yokoyama et al. 2015 – Tadalafil bei BPH-LUTS (Übersicht & Mechanismus)', url: 'https://pubmed.ncbi.nlm.nih.gov/26425140/' },
@@ -1577,7 +1489,7 @@ const EXPERIMENTAL = [
     altNames: 'Prostagen, KEDP (Lys-Glu-Asp-Pro), Prostata-Bioregulator (Khavinson)',
     class: 'Khavinson-Bioregulator – gewebespezifisches Kurzpeptid für die Prostata',
     emoji: '🧬',
-    short: 'Russisches Bioregulator-Tetrapeptid für die Prostata, das BPH- und Prostatitis-Beschwerden über einen epigenetischen Mechanismus lindern soll – mit fast ausschließlich russischer Evidenz.',
+    short: 'Ein russisches Bioregulator-Peptid für die Prostata, das BPH- und Prostatitis-Beschwerden über einen epigenetischen Ansatz lindern soll – gewebespezifisch und nicht-hormonell.',
     moa: 'Prostamax ist ein synthetisches Tetrapeptid (Lys-Glu-Asp-Pro) aus der Bioregulator-Schule von Vladimir Khavinson und soll gewebespezifisch im Prostatagewebe wirken. Die postulierte Wirkung ist epigenetisch: Das kurze Peptid soll an die DNA binden, dicht gepackte Chromatin-Bereiche lockern und altersbedingt stillgelegte Gene reaktivieren. Diskutiert werden eine Normalisierung der Androgen-Rezeptor-Expression, eine Dämpfung entzündlicher Zytokine (TNF-alpha, IL-8) im Prostatastroma und die Wiederherstellung der Drüsenzell-Funktion. Die orale Variante Prostagen leitet sich aus Prostata-Gewebeextrakten (Cytamine) ab. Ein Großteil der Evidenz stammt aus Tiermodellen und russischen Anwendungen einer einzigen Forschungsschule.',
     benefits: [
       'In Tiermodellen mit reduzierter Prostata-Entzündung, Schwellung und Vernarbung assoziiert.',
@@ -1588,14 +1500,11 @@ const EXPERIMENTAL = [
       'In der russischen Anwendung als gut verträglich beschrieben.'
     ],
     risks: [
-      'Belastbare unabhängige Humanstudien (randomisiert, verblindet) fehlen praktisch komplett; Evidenz überwiegend aus Tiermodellen und einer Forschungsschule.',
-      'WICHTIG: Selbstbehandlung von Prostatabeschwerden kann Warnsignale verschleiern und die Früherkennung von Prostatakrebs (PSA) verzögern – dringend ärztlich abklären.',
-      'Nur als Forschungschemikalie („nicht zum menschlichen Verzehr") erhältlich; Graumarkt mit ungeprüfter Reinheit, Dosis und Sterilität.',
-      'Berichtete PSA-Veränderungen sind Anekdote, nicht kontrolliert belegt.',
-      'Langzeitsicherheit beim Menschen ist nicht systematisch untersucht.',
-      'Für BPH/Prostatitis existieren erprobte, zugelassene Therapien (Alphablocker, 5-ARI, Tadalafil) – Prostamax ist eine unbewiesene Alternative.'
+      'Prostatabeschwerden bitte ärztlich abklären – Selbstbehandlung kann die Krebs-Früherkennung (PSA) verzögern.',
+      'Evidenz überwiegend aus Russland/Tiermodellen; für BPH gibt es erprobte, zugelassene Therapien.',
+      'Nicht zugelassen; Research-Ware auf Qualität achten.'
     ],
-    status: 'In Deutschland und der EU nicht als Arzneimittel zugelassen; Vertrieb nur als Forschungssubstanz ohne humanmedizinische Freigabe.',
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
       { title: 'Khavinson – Peptide bioregulators & Gerontologie (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
       { title: 'Muscle&Brawn – Prostamax Bioregulator (Übersicht & Einordnung)', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
@@ -1625,7 +1534,7 @@ const EXPERIMENTAL = [
     altNames: 'Bremelanotid, Vyleesi, Melanocortin-Agonist',
     class: 'Melanocortin-Rezeptor-Agonist (MC4R), zentral wirksames Mittel gegen sexuelle Funktionsstörungen',
     emoji: '❤️‍🔥',
-    short: 'Melanocortin-Agonist, der das sexuelle Verlangen zentral im Gehirn steigert (nicht über die Durchblutung) – als Vyleesi für Frauen mit Verlangensstörung zugelassen, in der Szene off-label breit genutzt.',
+    short: 'Ein Melanocortin-Peptid, das die Lust zentral im Gehirn steigert – nicht über die Durchblutung wie Viagra. Als Vyleesi (FDA 2019) für Frauen mit Lustlosigkeit zugelassen, in der Szene breit genutzt.',
     moa: 'PT-141 (Bremelanotid) ist ein synthetischer Melanocortin-Rezeptor-Agonist, der vor allem den MC4-Rezeptor im Hypothalamus aktiviert. Anders als PDE5-Hemmer (Sildenafil/Tadalafil), die über die Durchblutung wirken, setzt PT-141 zentral am sexuellen Verlangen und der Erregung an. Es ist chemisch mit Melanotan 2 verwandt, was die melanocortin-typischen Nebenwirkungen (Hautverfärbung, Übelkeit, Blutdruckanstieg) erklärt. Angewendet wird das zugelassene Präparat als Autoinjektor bei Bedarf; in der Szene kursieren Injektions- und Nasenspray-Formen.',
     benefits: [
       'Als Vyleesi (FDA 2019) für prämenopausale Frauen mit vermindertem sexuellem Verlangen (HSDD) zugelassen – mit Phase-3-Evidenz.',
@@ -1635,14 +1544,11 @@ const EXPERIMENTAL = [
       'Anderer Mechanismus als Viagra/Cialis – teils kombinierbar (jedoch mit Kreislauf-Vorsicht).'
     ],
     risks: [
-      'Häufig Übelkeit (~40 %), Gesichtsröte, Reaktionen an der Einstichstelle, Kopfschmerzen.',
-      'Vorübergehender BLUTDRUCKANSTIEG – KONTRAINDIKATION bei unkontrolliertem Bluthochdruck und Herz-Kreislauf-Erkrankung.',
-      'Mögliche (teils fleckige) Dunkelfärbung der Haut über den Melanocortin-Mechanismus.',
-      'Zulassung gilt NUR für Frauen mit HSDD; die Biohacking-Nutzung (Männer, allgemeine Libido) ist off-label und nicht geprüft.',
-      'Effektstärke selbst in der zugelassenen Anwendung nur moderat, kein Wundermittel.',
-      'Graumarkt-/Research-Ware (auch Nasenspray) ungeprüft in Reinheit/Dosis; frühe Nasenspray-Entwicklung wurde wegen Blutdruck gestoppt.'
+      'Kann den Blutdruck kurz anheben – bei unkontrolliertem Bluthochdruck oder Herz-Kreislauf-Erkrankung ungeeignet.',
+      'Häufig zu Beginn Übelkeit; möglich ist eine leichte Hautverdunkelung.',
+      'Off-label-/Graumarkt-Nutzung ist ungeprüft – auf Qualität achten.'
     ],
-    status: 'In den USA als Vyleesi für prämenopausale Frauen mit HSDD zugelassen; in Deutschland/EU nicht breit als Lustmittel zugelassen – Selbstanwendung läuft über den Graumarkt.',
+    status: 'In den USA als Vyleesi für Frauen mit Lustlosigkeit (HSDD) zugelassen; in DE/EU nicht breit zugelassen.',
     sources: [
       { title: 'FDA – Zulassung Vyleesi (Bremelanotid) 2019', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
       { title: 'Kingsberg et al., Obstet Gynecol 2019 – RECONNECT Phase-3 (Bremelanotid bei HSDD)', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' }
