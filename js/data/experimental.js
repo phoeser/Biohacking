@@ -12,6 +12,53 @@
  *   sources:  Studien/Veröffentlichungen mit URL
  */
 const EXPERIMENTAL = [
+  // ============ ATEMWEGE / LUNGE (KHAVINSON-BIOREGULATOREN) ============
+  {
+    id: 'bronchogen-chonluten',
+    name: 'Bronchogen & Chonluten',
+    altNames: 'Bronchogen (AEDL, Ala-Glu-Asp-Leu), Chonluten (EDG, Glu-Asp-Gly, T-34), Atemwegs-Bioregulatoren',
+    class: 'Khavinson-Bioregulatoren – gewebespezifische Kurzpeptide für Lunge & Atemwege',
+    emoji: '🫁',
+    short: 'Zwei kurze Lungen-Peptide aus der Khavinson-Schule, die sich schön ergänzen: Chonluten beruhigt Entzündungen, Bronchogen kurbelt die Regeneration des Lungengewebes an – ein eleganter, gewebespezifischer Ansatz für die Atemwege.',
+    moa: 'Beide sind kurzkettige „Bioregulator"-Peptide aus der russischen Khavinson-Schule, die gewebespezifisch am Lungen- und Bronchialgewebe ansetzen und epigenetisch wirken sollen: Das kurze Peptid gelangt in die Zelle, bindet an die DNA und moduliert dort die Aktivität von Genen für Reparatur, Entzündung und Zellschutz. Chonluten ist ein Tripeptid (Glu-Asp-Gly, auch „T-34"/EDG) und wirkt vor allem entzündungsregulierend – es dämpft Marker wie TNF und Interleukin-6. Bronchogen ist ein Tetrapeptid (Ala-Glu-Asp-Leu, AEDL, ~446 g/mol) und gilt als DNA-Stabilisator, der die Regeneration von Flimmerepithel und Surfactant fördert und die lokale Abwehr (sekretorisches IgA) unterstützt. In der Szene werden beide oft gestackt. Die Evidenz stammt überwiegend aus der Khavinson-Forschung und aus präklinischen Daten.',
+    benefits: [
+      'Gewebespezifisch: zielen gezielt auf Lunge/Atemwege und lassen andere Systeme in Ruhe.',
+      'Chonluten wirkt entzündungsregulierend (senkt in Studien TNF, IL-6) – untersucht bei chronischer Bronchitis, Asthma und COPD.',
+      'Bronchogen fördert die Regeneration: Flimmerepithel, weniger überschüssiger Schleim, mehr Surfactant und lokale Abwehr.',
+      'Ergänzen sich als Stack – Chonluten beruhigt, Bronchogen baut auf.',
+      'Anwenderberichte über weniger Husten, seltenere Schübe und leichteres Atmen; beliebt nach Infekten (z.B. Post-Corona), bei Ex-Rauchern und für mehr Ausdauer.',
+      'Nicht-hormonell und in Studien als gut verträglich beschrieben.'
+    ],
+    risks: [
+      'Evidenz stammt fast nur aus der russischen Khavinson-Schule und aus präklinischen Daten; große unabhängige Studien fehlen.',
+      'Viele werbliche Texte im Netz stammen von Shops, die die Peptide verkaufen – kritisch einordnen.',
+      'In DE/EU nicht als Arzneimittel zugelassen; laufen als Research-Ware (Reinheit/Dosis nicht garantiert).',
+      'Wichtig: Anhaltender Husten oder Kurzatmigkeit gehören ärztlich abgeklärt – nicht in Eigenregie behandeln.'
+    ],
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; Khavinson-Bioregulatoren, in Russland teils als Nahrungsergänzung/Peptidpräparat gehandelt. Reine Forschungssubstanzen.',
+    sources: [
+      { title: 'Jay Campbell – Chonluten Peptide: Uses, Benefits, Dosage (Übersicht)', url: 'https://jaycampbell.com/blog/chonluten-cartilage-peptide/' },
+      { title: 'Jay Campbell – Bronchogen Peptide: Uses, Benefits, Dosage (Übersicht)', url: 'https://jaycampbell.com/blog/bronchogen-peptide/' },
+      { title: 'Khavinson – Peptide bioregulators (Übersichtsarbeit, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8619776/' }
+    ],
+    community: [
+      { title: 'Reddit r/PeptideGuide – Bronchogen Bioregulator Dosierung', url: 'https://www.reddit.com/r/PeptideGuide/comments/1e5r8zw/bronchogen_bioregulator_dosage/' },
+      { title: 'peptide-bioregulator.com – Chonluten (Produktinfo, nur Grauzone)', url: 'https://peptide-bioregulator.com/product/chonluten/' }
+    ],
+    podcasts: [
+      {
+        title: 'Bronchogen & Chonluten: Zwei Peptide für die Lunge – die Minifolge',
+        audio: 'audio/bronchogen-chonluten-podcast.mp3',
+        lengthLabel: '≈ 4 Min · KI-Podcast (Paul & Paula, ElevenLabs Pro-Stimme)',
+        note: 'KI-generierte deutsche Minifolge mit realistischen Stimmen (ElevenLabs, neue Pro-Stimme). Kompakt erklärt: zwei Khavinson-Lungenpeptide, die sich ergänzen – Chonluten (entzündungsregulierend) und Bronchogen (regenerierend). Positiv, aber ehrlich gerahmt: Die Evidenz stammt überwiegend aus der russischen Khavinson-Forschung und aus präklinischen Daten, viele Quellen sind Verkaufs-Shops, und beide sind bei uns nicht zugelassen (Research-Ware). Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Atemprobleme bitte ärztlich abklären.',
+        sources: [
+          { title: 'Jay Campbell – Chonluten (Übersicht)', url: 'https://jaycampbell.com/blog/chonluten-cartilage-peptide/' },
+          { title: 'Jay Campbell – Bronchogen (Übersicht)', url: 'https://jaycampbell.com/blog/bronchogen-peptide/' },
+          { title: 'Khavinson – Peptide bioregulators (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8619776/' }
+        ]
+      }
+    ]
+  },
   // ============ HORMONE / MÄNNERGESUNDHEIT ============
   {
     id: 'testosteron',
@@ -1599,6 +1646,7 @@ const _EXP_CAT_MAP = {
   'bpc-157': 'Immun',
   'tb-500': 'Immun',
   'ghk-cu': 'Immun',
+  'bronchogen-chonluten': 'Immun',
   'mots-c': 'Longevity',
   'rapamycin': 'Longevity',
   'epitalon': 'Longevity',
