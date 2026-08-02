@@ -2012,6 +2012,222 @@ const SUPPLEMENTS = [
     avoid: [],
     evidence: 'niedrig',
     sources: 'Spurenelement (Trinkwasser); als Lithiumorotat-Kapsel'
+  },
+  {
+    id: 'exogene-ketone',
+    name: 'Exogene Ketone / Ketonester',
+    altNames: 'BHB, Beta-Hydroxybutyrat, Ketone Ester/Salze',
+    category: 'Longevity',
+    tags: ['energie', 'gehirn', 'sport', 'stoffwechsel', 'fokus'],
+    short: 'Ketone zum Trinken: liefern dem Körper direkt den „Fasten-Treibstoff" BHB – für schnelle mentale und körperliche Energie ohne Kohlenhydrate.',
+    description: 'Exogene Ketone (v. a. Beta-Hydroxybutyrat, BHB) heben den Ketonspiegel im Blut an, ohne dass man fasten oder streng ketogen essen muss. Der Körper kann Ketone als alternativen Treibstoff für Gehirn und Muskeln nutzen. Ketonester wirken stärker (aber bitter/teuer), Ketonsalze milder. Genutzt für Fokus, Ausdauer und als Brücke in die Ketose.',
+    benefits: [
+      'Schnelle Energie für Gehirn und Muskeln – auch ohne ketogene Ernährung',
+      'Kann Fokus und mentale Klarheit steigern',
+      'Von Ausdauersportlern für Energie und Regeneration genutzt',
+      'Kann Appetit dämpfen'
+    ],
+    risks: [
+      'Ketonester schmecken unangenehm und sind teuer',
+      'Magen-Darm-Beschwerden bei höherer Dosis möglich',
+      'Ketonsalze liefern viel Natrium/Mineralstoffe (Menge beachten)',
+      'Kein Ersatz für gute Ernährung; Effekte individuell'
+    ],
+    dosage: 'Ketonester: ~10–25 g pro Portion; Ketonsalze nach Herstellerangabe.',
+    intake: 'Vor Sport oder mentaler Belastung; auf nüchternen Magen stärker wirksam.',
+    synergies: ['mct-oel', 'elektrolyte', 'koffein'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Als BHB-Ester/-Salz-Getränk oder -Pulver'
+  },
+  {
+    id: 'citrus-bergamot',
+    name: 'Citrus Bergamot',
+    altNames: 'Bergamotte-Extrakt, Citrus bergamia',
+    category: 'Kräuter',
+    tags: ['herz', 'cholesterin', 'stoffwechsel', 'anti-aging'],
+    short: 'Extrakt der Bergamotte-Zitrusfrucht: in Studien mit günstigen Effekten auf Cholesterin, Blutfette und Blutzucker – ein natürlicher Herz-Kreislauf-Helfer.',
+    description: 'Citrus Bergamot ist reich an speziellen Polyphenolen (u. a. Brutieridin, Melitidin), die dem Statin-Mechanismus ähneln und den Fettstoffwechsel günstig beeinflussen. Studien zeigen Senkungen von LDL-Cholesterin und Triglyzeriden sowie Verbesserungen bei Blutzucker – bei guter Verträglichkeit.',
+    benefits: [
+      'Kann LDL-Cholesterin und Triglyzeride senken',
+      'Kann HDL („gutes" Cholesterin) leicht anheben',
+      'Günstige Effekte auf Blutzucker und Entzündung',
+      'Natürliche Ergänzung/Alternative bei leicht erhöhten Blutfetten'
+    ],
+    risks: [
+      'Kein Ersatz für verordnete Statine bei hohem Risiko – ärztlich abklären',
+      'Qualität/Standardisierung (Polyphenolgehalt) beachten',
+      'Selten Magen-Darm-Beschwerden',
+      'Wechselwirkungen mit Blutfett-Medikamenten möglich'
+    ],
+    dosage: 'Typisch 500–1.000 mg standardisierter Extrakt täglich.',
+    intake: 'Mit einer Mahlzeit, oft zum Abendessen.',
+    synergies: ['omega-3', 'berberin', 'coenzym-q10'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Schale/Saft der Bergamotte (standardisierter Extrakt)'
+  },
+  {
+    id: 'nattokinase',
+    name: 'Nattokinase',
+    altNames: 'Natto-Enzym',
+    category: 'Enzym',
+    tags: ['herz', 'kreislauf', 'blut', 'anti-aging'],
+    short: 'Ein Enzym aus fermentierten Sojabohnen (Natto): unterstützt die Fließeigenschaften des Blutes und die Herz-Kreislauf-Gesundheit.',
+    description: 'Nattokinase ist ein fibrinolytisches Enzym aus dem japanischen Natto. Es kann Fibrin (den Baustein von Blutgerinnseln) abbauen und so die Fließeigenschaften des Blutes und den Blutdruck günstig beeinflussen. Beliebt in der Herz-Kreislauf-Prävention.',
+    benefits: [
+      'Kann Fibrin abbauen und die Blut-Fließeigenschaften verbessern',
+      'In Studien mild blutdrucksenkend',
+      'Unterstützt die Herz-Kreislauf-Gesundheit',
+      'Pflanzlich, aus traditionellem Lebensmittel'
+    ],
+    risks: [
+      'Blutverdünnende Wirkung – nicht mit Gerinnungshemmern kombinieren (Blutungsrisiko), ärztlich abklären',
+      'Vor Operationen absetzen',
+      'Qualität/Aktivität (in FU) beachten',
+      'Bei Blutungsneigung meiden'
+    ],
+    dosage: 'Typisch 2.000–4.000 FU täglich.',
+    intake: 'Auf leeren Magen (bessere Aufnahme), oft abends.',
+    synergies: ['omega-3', 'vitamin-k2'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Aus fermentierten Sojabohnen (Natto); als Kapsel'
+  },
+  {
+    id: 'serrapeptase',
+    name: 'Serrapeptase',
+    altNames: 'Serrapeptidase, Serratiopeptidase',
+    category: 'Enzym',
+    tags: ['entzündung', 'regeneration', 'atemwege', 'schmerzen'],
+    short: 'Ein proteolytisches Enzym: wird zur Auflösung von entzündlichem Gewebe/Schleim und zur Entzündungs- und Schmerzlinderung genutzt.',
+    description: 'Serrapeptase ist ein eiweißspaltendes Enzym (ursprünglich aus Seidenraupen-Bakterien), das entzündliches und abgestorbenes Gewebe sowie zähen Schleim abbauen kann. Traditionell in Japan/Europa bei Entzündungen, Schwellungen, Atemwegsschleim und postoperativer Heilung genutzt.',
+    benefits: [
+      'Kann entzündliches/abgestorbenes Gewebe und Schleim abbauen',
+      'Entzündungs- und schwellungsmindernd (Studien bei HNO/Zahn-OP)',
+      'Kann zähen Atemwegsschleim verflüssigen',
+      'Wird bei Schmerzen/Schwellungen unterstützend genutzt'
+    ],
+    risks: [
+      'Studienlage gemischt und teils älter/klein',
+      'Auf nüchternen Magen einnehmen (magensaftresistent), sonst inaktiviert',
+      'Blutungsrisiko bei Gerinnungshemmern beachten',
+      'Selten Magen-Darm-/Hautreaktionen'
+    ],
+    dosage: 'Typisch 10.000–40.000 SPU (bzw. 40.000–120.000 IU) täglich.',
+    intake: 'Auf leeren Magen (min. 30 Min vor/2 h nach dem Essen), magensaftresistente Form.',
+    synergies: ['nattokinase', 'kurkuma-curcumin'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Mikrobiell hergestelltes Enzym; als magensaftresistente Kapsel'
+  },
+  {
+    id: 'safran',
+    name: 'Safran',
+    altNames: 'Crocus sativus, Saffron-Extrakt',
+    category: 'Kräuter',
+    tags: ['stimmung', 'schlaf', 'augen', 'stress'],
+    short: 'Das teuerste Gewürz der Welt als Stimmungsaufheller: Safran-Extrakt zeigte in Studien antidepressive Effekte – teils vergleichbar mit leichten Medikamenten.',
+    description: 'Safran (aus den Narben des Krokus) enthält Wirkstoffe wie Crocin und Safranal. Mehrere Humanstudien zeigten bei leichter bis mittlerer Depression Effekte, die mit niedrig dosierten Antidepressiva vergleichbar waren – bei guter Verträglichkeit. Auch für Augen (Makula) und PMS untersucht.',
+    benefits: [
+      'Kann Stimmung heben (Studien bei leichter/mittlerer Depression)',
+      'Gut verträglich, kaum sedierend',
+      'Auch für Augengesundheit (Makula) und PMS untersucht',
+      'Natürliche Ergänzung zur Stimmungsunterstützung'
+    ],
+    risks: [
+      'Kein Ersatz für ärztliche Behandlung bei Depression',
+      'Höhere Dosen können Nebenwirkungen/Toxizität haben – nicht überdosieren',
+      'Qualität/Fälschung ein Thema (auf standardisierte Extrakte achten)',
+      'In der Schwangerschaft meiden (höhere Dosen wehenfördernd)'
+    ],
+    dosage: 'Typisch 28–30 mg standardisierter Safran-Extrakt täglich.',
+    intake: 'Mit einer Mahlzeit, oft geteilt morgens/abends.',
+    synergies: ['5-htp', 'omega-3', 'magnesium'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Narben des Safran-Krokus (standardisierter Extrakt)'
+  },
+  {
+    id: 'magnesium-l-threonat',
+    name: 'Magnesium-L-Threonat',
+    altNames: 'Magtein, Mg-Threonat',
+    category: 'Mineral',
+    tags: ['gehirn', 'gedächtnis', 'schlaf', 'stimmung'],
+    short: 'Die „Gehirn-Form" von Magnesium: überwindet besonders gut die Blut-Hirn-Schranke – untersucht für Gedächtnis, Lernen und Schlaf.',
+    description: 'Magnesium-L-Threonat ist eine spezielle Magnesiumverbindung, die die Blut-Hirn-Schranke besser überwindet und die Magnesiumkonzentration im Gehirn anheben kann. Tierstudien und erste Humandaten deuten auf Verbesserungen bei Gedächtnis, Lernen und kognitivem Altern hin – daher als „Gehirn-Magnesium" beliebt.',
+    benefits: [
+      'Erhöht gezielt den Magnesiumspiegel im Gehirn',
+      'Untersucht für Gedächtnis, Lernen und kognitives Altern',
+      'Kann Schlaf und Entspannung unterstützen',
+      'Ergänzt normale Magnesiumformen um den Hirn-Fokus'
+    ],
+    risks: [
+      'Teurer als Standard-Magnesium (Citrat/Glycinat)',
+      'Human-Evidenz noch begrenzt (viel aus Tierstudien)',
+      'Enthält wenig elementares Magnesium pro Gramm',
+      'Bei Nierenschwäche Magnesium generell ärztlich abklären'
+    ],
+    dosage: 'Typisch ~2.000 mg Mg-L-Threonat (≈144 mg elementares Mg) täglich, oft abends.',
+    intake: 'Abends (kann Schlaf unterstützen), ggf. geteilt.',
+    synergies: ['magnesium', 'glycin', 'vitamin-d3'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Magnesiumverbindung mit L-Threonsäure (Kapsel/Pulver)'
+  },
+  {
+    id: 'rote-bete-nitrat',
+    name: 'Rote-Bete / Nitrat',
+    altNames: 'Beetroot, Nitrat, NO-Booster',
+    category: 'Kräuter',
+    tags: ['sport', 'ausdauer', 'herz', 'kreislauf', 'blutdruck'],
+    short: 'Natürlicher Stickstoffmonoxid-Booster: das Nitrat aus Roter Bete erweitert die Gefäße – für mehr Ausdauer, bessere Durchblutung und niedrigeren Blutdruck.',
+    description: 'Rote Bete ist reich an Nitrat, das der Körper zu Stickstoffmonoxid (NO) umwandelt. NO erweitert die Blutgefäße, verbessert die Durchblutung und die Sauerstoffnutzung der Muskeln. Gut belegt für mehr Ausdauerleistung und eine milde Blutdrucksenkung.',
+    benefits: [
+      'Steigert die Ausdauerleistung (bessere Sauerstoffnutzung)',
+      'Erweitert Gefäße und verbessert die Durchblutung (NO)',
+      'Senkt mild den Blutdruck',
+      'Natürlich, als Saft/Pulver leicht verfügbar'
+    ],
+    risks: [
+      'Färbt Urin/Stuhl rötlich (harmlos)',
+      'Bei Neigung zu Nierensteinen (Oxalat) beachten',
+      'Antibakterielle Mundspülung kann die NO-Bildung blockieren',
+      'Wirkung individuell; Timing (2–3 h vor Sport) wichtig'
+    ],
+    dosage: 'Ziel ~300–600 mg Nitrat (z. B. 70 ml Beetroot-Shot) täglich bzw. vor dem Sport.',
+    intake: 'Ca. 2–3 Stunden vor der Belastung; als Saft, Shot oder Pulver.',
+    synergies: ['l-citrullin', 'l-arginin'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Rote-Bete-Saft/-Pulver; nitratreiches Gemüse (Rucola, Spinat)'
+  },
+  {
+    id: 'kupfer',
+    name: 'Kupfer',
+    altNames: 'Copper, Cuprum',
+    category: 'Mineral',
+    tags: ['immun', 'bindegewebe', 'energie', 'antioxidans'],
+    short: 'Ein essenzielles Spurenelement und wichtiger Zink-Partner: nötig für Bindegewebe, Eisenstoffwechsel, Nerven und antioxidative Enzyme.',
+    description: 'Kupfer ist ein essenzielles Spurenelement und Cofaktor vieler Enzyme (u. a. für Kollagen-/Elastin-Vernetzung, Eisenverwertung, Energiegewinnung und die antioxidative SOD). Wichtig ist die Balance zu Zink: hohe Zink-Dosen über längere Zeit können einen Kupfermangel begünstigen – daher wird Kupfer oft ergänzend dazu genommen.',
+    benefits: [
+      'Essenziell für Bindegewebe (Kollagen/Elastin) und Gefäße',
+      'Wichtig für Eisenverwertung und Blutbildung',
+      'Cofaktor der antioxidativen Superoxiddismutase (SOD)',
+      'Gleicht ein Zink-Kupfer-Ungleichgewicht bei hoher Zinkzufuhr aus'
+    ],
+    risks: [
+      'Nur niedrig dosieren – zu viel Kupfer ist prooxidativ/toxisch',
+      'Balance zu Zink beachten (typisch ~10–15:1 Zink:Kupfer)',
+      'Nicht bei Morbus Wilson (Kupferspeicherkrankheit)',
+      'Meist nur bei hoher/längerer Zink-Supplementierung nötig'
+    ],
+    dosage: 'Typisch 1–2 mg täglich (v. a. als Ausgleich zu höheren Zink-Dosen).',
+    intake: 'Mit einer Mahlzeit; zeitlich etwas versetzt zu hohen Zink-Dosen.',
+    synergies: ['zink'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Leber, Austern, Nüsse, Kakao; als Bisglycinat-Kapsel'
   }
 ];
 
@@ -2029,6 +2245,7 @@ const CATEGORIES = [
   { id: 'Kräuter', label: 'Kräuter' },
   { id: 'Protein', label: 'Proteine' },
   { id: 'Hormon', label: 'Hormone' },
+  { id: 'Enzym', label: 'Enzyme' },
   { id: 'Probiotika', label: 'Probiotika' },
   { id: 'Stimulans', label: 'Stimulanzien' }
 ];
