@@ -506,6 +506,133 @@ const THERAPIES = [
     indication: ['Fokus/Kognition', 'Stimmung', 'Lernen', 'Erholung'],
     note: 'TMS medizinisch etabliert (u. a. Depression); tDCS-Heimgeräte sind weniger reguliert – Evidenz gemischt, korrekte Platzierung/Dosis wichtig.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/27090022/'
+  },
+  {
+    id: 'bfr-training',
+    name: 'Blood-Flow-Restriction-Training (BFR)',
+    category: 'Biohacking',
+    emoji: '🩸',
+    short: 'Krafttraining mit leichter Blutstau-Manschette: erzeugt mit sehr geringen Gewichten einen starken Muskelreiz – ideal für Reha und gelenkschonenden Aufbau.',
+    benefits: [
+      'Muskelaufbau mit nur 20–30 % des üblichen Gewichts',
+      'Sehr gelenkschonend – ideal in der Reha und nach Verletzungen',
+      'Starker Wachstumsreiz (Metabolit-Stau, GH-Ausschüttung)',
+      'Zeit- und materialsparend'
+    ],
+    indication: ['Muskelaufbau', 'Reha', 'Gelenkschonung', 'Sport-Performance'],
+    note: 'Manschettendruck korrekt dosieren (nicht abbinden!); bei Thrombose-/Gefäßrisiko oder Bluthochdruck vorher ärztlich abklären.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31696381/'
+  },
+  {
+    id: 'ems',
+    name: 'EMS – Elektromuskelstimulation',
+    category: 'Biohacking',
+    emoji: '⚡',
+    short: 'Elektrische Impulse lassen die Muskeln zusätzlich kontrahieren – für effizientes Ganzkörper-Training in kurzer Zeit oder gezielte Muskelaktivierung.',
+    benefits: [
+      'Intensives Ganzkörper-Training in ~20 Minuten',
+      'Aktiviert auch tiefe Muskulatur',
+      'Gelenkschonend (wenig äußere Last)',
+      'Auch für Reha und Muskelaktivierung genutzt'
+    ],
+    indication: ['Muskelaufbau', 'Zeiteffizienz', 'Reha', 'Rücken/Core'],
+    note: 'Sehr intensiv – Überlastung/Muskelkater-Risiko; nicht bei Herzschrittmacher, Schwangerschaft oder akuten Erkrankungen. Anleitung wichtig.',
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6685471/'
+  },
+  {
+    id: 'vibrationstraining',
+    name: 'Vibrationstraining (WBV)',
+    category: 'Biohacking',
+    emoji: '📳',
+    short: 'Training auf einer vibrierenden Platte: die schnellen Reize lösen viele kleine Muskelkontraktionen aus – für Kraft, Balance und Knochendichte.',
+    benefits: [
+      'Aktiviert viele Muskelfasern über Vibrationsreflexe',
+      'Kann Kraft, Balance und Beweglichkeit verbessern',
+      'Hinweise auf bessere Knochendichte (Osteoporose-Prävention)',
+      'Gelenkschonend, auch für Ältere geeignet'
+    ],
+    indication: ['Kraft & Balance', 'Knochendichte', 'Durchblutung', 'Reha'],
+    note: 'Bei akuten Gelenk-/Bandscheibenproblemen, Thrombose oder Schwangerschaft vorher abklären. Effektstärke variiert je nach Gerät/Protokoll.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29065839/'
+  },
+  {
+    id: 'floating',
+    name: 'Floating (Isolationstank)',
+    category: 'Biohacking',
+    emoji: '🛁',
+    short: 'Schwerelos treiben in warmem Salzwasser bei Dunkelheit und Stille: tiefe Entspannung, Stressabbau und mentale Erholung im Isolationstank.',
+    benefits: [
+      'Tiefe Entspannung und Aktivierung des Parasympathikus',
+      'Kann Stress, Angst und Muskelverspannungen reduzieren',
+      'Fördert mentale Klarheit und Regeneration',
+      'Bittersalz (Magnesium) und Schwerelosigkeit entlasten Gelenke'
+    ],
+    indication: ['Stress & Angst', 'Regeneration', 'Schlaf', 'Verspannungen'],
+    note: 'Sehr sicher; bei Klaustrophobie langsam herantasten (Deckel offen möglich). Effekte v. a. subjektiv/Entspannung.',
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6134492/'
+  },
+  {
+    id: 'vagus-stimulation',
+    name: 'Vagusnerv-Stimulation (aktiv)',
+    category: 'Biohacking',
+    emoji: '🧠',
+    short: 'Gezielte Reizung des Vagusnervs (z. B. per Ohr-Elektrode): soll das parasympathische Nervensystem stärken – für Entspannung, HRV und Entzündungsregulation.',
+    benefits: [
+      'Aktiviert den Parasympathikus (Ruhe-/Erholungsmodus)',
+      'Kann die Herzratenvariabilität (HRV) und Stressresistenz verbessern',
+      'Entzündungshemmende Effekte über den „cholinergen Reflex" untersucht',
+      'Nicht-invasive Ohr-Geräte (taVNS) verfügbar'
+    ],
+    indication: ['Stress & HRV', 'Entspannung', 'Stimmung', 'Entzündung'],
+    note: 'Medizinische VNS-Implantate sind zugelassen (z. B. Epilepsie/Depression); Heim-Ohr-Geräte (taVNS) sind weniger reguliert, Evidenz gemischt. Ergänzt die vorhandene HRV-Analyse.',
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5859128/'
+  },
+  {
+    id: 'iv-vitamintherapie',
+    name: 'IV-Vitamintherapie (Myers-Cocktail)',
+    category: 'Biohacking',
+    emoji: '💉',
+    short: 'Vitamine und Mineralstoffe direkt über die Vene (z. B. „Myers-Cocktail"): umgeht die Verdauung und flutet den Körper schnell mit Mikronährstoffen.',
+    benefits: [
+      'Hohe Mikronährstoff-Spiegel unabhängig von der Darmaufnahme',
+      'Beliebt für Energie, Immununterstützung und Erholung',
+      'Nützlich bei nachgewiesenen Mängeln oder Aufnahmestörungen',
+      'Schneller Effekt (direkt im Blut)'
+    ],
+    indication: ['Energie/Fatigue', 'Immununterstützung', 'Regeneration', 'Mangelausgleich'],
+    note: 'Nutzen bei Gesunden meist begrenzt (gut ernährter Körper scheidet Überschuss aus). Nur ärztlich; auf Nierenfunktion/Elektrolyte achten.',
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2939841/'
+  },
+  {
+    id: 'grounding-earthing',
+    name: 'Grounding / Earthing',
+    category: 'Biohacking',
+    emoji: '🌱',
+    short: 'Direkter Hautkontakt zur Erde (barfuß oder per Erdungsmatte): soll über den Ladungsausgleich Entzündung, Schlaf und Erholung günstig beeinflussen.',
+    benefits: [
+      'Berichte über besseren Schlaf und weniger Stress',
+      'Kleine Studien: Hinweise auf reduzierte Entzündung und bessere Durchblutung',
+      'Einfach und kostenlos (Barfußgehen auf natürlichem Boden)',
+      'Fördert Zeit in der Natur/Entschleunigung'
+    ],
+    indication: ['Schlaf', 'Stress', 'Regeneration', 'Wohlbefinden'],
+    note: 'Evidenz überwiegend klein und teils vom Umfeld der Vermarkter; Effekte oft subjektiv. Als angenehme, risikoarme Gewohnheit einzuordnen.',
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3265077/'
+  },
+  {
+    id: 'chelat-therapie',
+    name: 'Chelat-Therapie',
+    category: 'Biohacking',
+    emoji: '🧲',
+    short: 'Infusion von Bindemitteln (z. B. EDTA), die Schwermetalle im Blut binden und ausleiten – medizinisch bei nachgewiesener Vergiftung, sonst umstritten.',
+    benefits: [
+      'Etabliert und wirksam bei nachgewiesener Schwermetallvergiftung (z. B. Blei)',
+      'Bindet Metalle, die dann über die Niere ausgeschieden werden',
+      'Wird in der Umweltmedizin zur Entgiftung eingesetzt'
+    ],
+    indication: ['Schwermetallbelastung (medizinisch)', 'Umweltmedizin'],
+    note: 'Als allgemeine „Entgiftung"/Anti-Aging umstritten und NICHT belegt; ernste Risiken (Nieren, Elektrolytentgleisung, in Einzelfällen tödlich). Nur bei klarer Indikation und streng ärztlich.',
+    link: 'https://www.nccih.nih.gov/health/chelation-therapy'
   }
 ];
 
