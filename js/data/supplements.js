@@ -1716,6 +1716,302 @@ const SUPPLEMENTS = [
     avoid: [],
     evidence: 'mittel',
     sources: 'Schalen von Krustentieren (Extraktion), kleine Mengen in Knochenbrühe.'
+  },
+  // ============ NEU 2026 ============
+  {
+    id: 'tongkat-ali',
+    name: 'Tongkat Ali',
+    altNames: 'Eurycoma longifolia, Longjack',
+    category: 'Kräuter',
+    tags: ['hormone', 'testosteron', 'energie', 'libido', 'stress'],
+    short: 'Südostasiatisches Wurzelextrakt und Testo-Booster: hob in Studien Testosteron um bis zu 37 % – Huberman-Standard für Männer ab 35.',
+    description: 'Tongkat Ali (Eurycoma longifolia) ist ein traditionelles Wurzelextrakt aus Südostasien. Es wirkt vor allem, indem es gebundenes Testosteron aus dem SHBG freisetzt (mehr freies Testosteron) und zugleich den Cortisolspiegel senkt – dadurch verschiebt sich das Testosteron-Cortisol-Verhältnis günstig. Standardisiert wird meist auf Eurycomanon. Beliebt bei Männern ab etwa 35 für Vitalität, Libido und Stressresistenz.',
+    benefits: [
+      'Erhöht in Humanstudien Testosteron (Analyse: bis zu +37 %) und freies Testosteron',
+      'Senkt Cortisol und verbessert die Stressresistenz',
+      'Kann Libido, Energie und Wohlbefinden steigern',
+      'Traditionell auch bei Fruchtbarkeit und Ausdauer genutzt'
+    ],
+    risks: [
+      'Qualität schwankt stark – auf standardisierte Extrakte (z. B. auf Eurycomanon) achten',
+      'Kann bei manchen zu Unruhe/Schlafproblemen führen (dann morgens einnehmen)',
+      'Bei hormonabhängigen Erkrankungen ärztlich abklären',
+      'Langzeitdaten begrenzt; zyklische Einnahme verbreitet'
+    ],
+    dosage: '200–400 mg standardisierter Extrakt täglich (Huberman: ~400 mg).',
+    intake: 'Morgens mit oder ohne Mahlzeit. Bei Schlafthemen nicht abends. Ggf. zyklisch (z. B. 5 Tage on / 2 off).',
+    synergies: ['fadogia-agrestis', 'zink', 'vitamin-d3', 'magnesium'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Wurzel von Eurycoma longifolia (Extrakt/Kapsel)'
+  },
+  {
+    id: 'fadogia-agrestis',
+    name: 'Fadogia Agrestis',
+    altNames: 'Fadogia-Agrestis-Stängelextrakt',
+    category: 'Kräuter',
+    tags: ['hormone', 'testosteron', 'libido', 'energie'],
+    short: 'Westafrikanisches Kraut, oft mit Tongkat Ali gestackt: soll über die LH-Stimulation das körpereigene Testosteron und die Libido anheben.',
+    description: 'Fadogia Agrestis ist ein Strauch aus Westafrika, dessen Stängelextrakt traditionell für sexuelle Funktion und Vitalität genutzt wird. Der postulierte Mechanismus ist eine Anregung des luteinisierenden Hormons (LH), das die Hoden zur Testosteronproduktion stimuliert – ähnlich wie ein sanfter körpereigener Schub. Populär wurde es v. a. durch die Kombination mit Tongkat Ali. Wichtig: Die Evidenz stammt fast nur aus Tierstudien; kontrollierte Humanstudien fehlen weitgehend.',
+    benefits: [
+      'Soll über LH-Stimulation das körpereigene Testosteron anheben (Tierdaten)',
+      'Traditionell für Libido und sexuelle Funktion genutzt',
+      'Beliebter Stack-Partner zu Tongkat Ali',
+      'Kann Energie und Antrieb unterstützen (Erfahrungsberichte)'
+    ],
+    risks: [
+      'Evidenz überwiegend aus Tierstudien – Humanstudien fehlen weitgehend',
+      'Tierstudien zeigten in hohen Dosen Hinweise auf Hodentoxizität – nicht überdosieren',
+      'Zyklische Einnahme empfohlen (z. B. einige Wochen on, dann Pause)',
+      'Qualität/Standardisierung oft unklar; nicht bei Kinderwunsch ohne ärztliche Rücksprache'
+    ],
+    dosage: 'Üblich 300–600 mg täglich (zyklisch). Vorsichtig dosieren, nicht dauerhaft hochdosiert.',
+    intake: 'Morgens mit Mahlzeit. Oft im Zyklus (z. B. 8 Wochen on / mehrere Wochen off).',
+    synergies: ['tongkat-ali', 'zink', 'vitamin-d3'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Stängel von Fadogia agrestis (Extrakt/Kapsel)'
+  },
+  {
+    id: 'ca-akg',
+    name: 'Ca-AKG (Calcium-Alpha-Ketoglutarat)',
+    altNames: 'Alpha-Ketoglutarat, AKG, Calcium-AKG',
+    category: 'Longevity',
+    tags: ['anti-aging', 'longevity', 'energie', 'knochen'],
+    short: 'Longevity-Favorit: ein zentrales Stoffwechsel-Molekül (Citratzyklus), das in Studien biologische Alterungsmarker senken und die Gesundheitsspanne unterstützen soll.',
+    description: 'Alpha-Ketoglutarat (AKG) ist ein Schlüsselmolekül des Citratzyklus und ein wichtiger Cofaktor für Enzyme, die Epigenetik, Kollagenbildung und Energiestoffwechsel steuern. Die körpereigenen Spiegel sinken mit dem Alter deutlich. In der Calcium-Form (Ca-AKG) wird es supplementiert. Tierstudien zeigten längere Gesundheitsspanne und weniger Entzündung; eine vielbeachtete Humanstudie (Rejuvant) berichtete eine Senkung des biologischen Alters (DNA-Methylierungs-Uhr). Beliebt in Longevity-Protokollen.',
+    benefits: [
+      'Senkte in einer Humanstudie (Rejuvant) das biologische Alter (Methylierungs-Uhr)',
+      'Verlängerte in Tierstudien die Gesundheitsspanne und reduzierte Entzündung',
+      'Cofaktor für Epigenetik, Kollagen- und Energiestoffwechsel',
+      'Kann Knochendichte unterstützen (präklinisch/erste Humandaten)'
+    ],
+    risks: [
+      'Humanevidenz noch begrenzt (kleine Studien) – vieles beruht auf Tierdaten',
+      'Gut verträglich; selten leichte Magen-Darm-Effekte',
+      'Liefert nebenbei etwas Calcium – Gesamtzufuhr im Blick behalten',
+      'Kein Ersatz für die Grundlagen (Schlaf, Bewegung, Ernährung)'
+    ],
+    dosage: 'Typisch 1.000–2.000 mg Ca-AKG täglich (Rejuvant-Protokoll: ~1.000 mg).',
+    intake: 'Mit oder ohne Mahlzeit, oft morgens. Dauerhafte Einnahme üblich.',
+    synergies: ['nmn', 'vitamin-d3', 'omega-3'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Körpereigenes Citratzyklus-Molekül; als Ca-AKG-Pulver/Kapsel'
+  },
+  {
+    id: 'nicotinamid-ribosid',
+    name: 'Nicotinamid-Ribosid (NR)',
+    altNames: 'NR, Niagen, Nicotinamide Riboside',
+    category: 'Longevity',
+    tags: ['anti-aging', 'longevity', 'energie', 'nad'],
+    short: 'NAD+-Vorstufe und Schwester von NMN: hebt den zellulären NAD+-Spiegel für Energie, Reparatur und gesundes Altern – die am besten untersuchte NAD-Marke (Niagen).',
+    description: 'Nicotinamid-Ribosid (NR) ist eine Vorstufe von NAD+, einem Coenzym, das für Energiegewinnung, DNA-Reparatur und die Aktivität der „Longevity-Enzyme" (Sirtuine) zentral ist. NAD+ sinkt mit dem Alter. NR wird effizient in NAD+ umgewandelt und ist – neben NMN – die am besten untersuchte NAD-Vorstufe (als Markenrohstoff Niagen). Humanstudien belegen zuverlässig steigende NAD+-Spiegel; der klinische Nutzen für Leistung/Altern wird noch erforscht.',
+    benefits: [
+      'Hebt in Humanstudien zuverlässig den NAD+-Spiegel im Blut',
+      'Unterstützt Energiestoffwechsel, DNA-Reparatur und Sirtuine',
+      'Gut verträglich und stabil; oral gut bioverfügbar',
+      'Alternative bzw. Ergänzung zu NMN'
+    ],
+    risks: [
+      'Steigende NAD+-Spiegel sind belegt – der Alters-/Leistungsnutzen beim Menschen ist noch nicht eindeutig',
+      'Sehr gut verträglich; selten leichte Übelkeit/Müdigkeit',
+      'Hochwertige (Niagen-)Ware bevorzugen; Qualität schwankt',
+      'Kein Ersatz für Schlaf, Bewegung und Ernährung'
+    ],
+    dosage: 'Typisch 250–500 mg NR täglich (Studien: 250–1.000 mg).',
+    intake: 'Morgens mit oder ohne Mahlzeit. Dauerhafte Einnahme üblich.',
+    synergies: ['nmn', 'resveratrol', 'pterostilben', 'tmg'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Spuren in Milch; als NR-/Niagen-Kapsel'
+  },
+  {
+    id: 'shilajit',
+    name: 'Shilajit',
+    altNames: 'Mumijo, Fulvinsäure-Mineralharz',
+    category: 'Mineral',
+    tags: ['energie', 'hormone', 'testosteron', 'mitochondrien', 'anti-aging'],
+    short: 'Mineralreiches Harz aus dem Himalaya: liefert Fulvinsäure und Spurenelemente – traditionell für Energie, Testosteron und mitochondriale Vitalität.',
+    description: 'Shilajit ist ein teerartiges Mineralharz aus Gebirgsregionen (v. a. Himalaya), reich an Fulvin- und Huminsäuren sowie über 80 Spurenelementen. Es soll den mitochondrialen Energiestoffwechsel (CoQ10-Recycling), die Testosteronproduktion und die Nährstoffaufnahme unterstützen. Traditionell in der ayurvedischen Medizin für Vitalität und „Rasayana" (Verjüngung) genutzt.',
+    benefits: [
+      'Kann in Studien den Testosteronspiegel bei Männern erhöhen',
+      'Unterstützt den mitochondrialen Energiestoffwechsel (Fulvinsäure, CoQ10)',
+      'Liefert bioverfügbare Spurenelemente',
+      'Traditionell für Energie, Ausdauer und Regeneration genutzt'
+    ],
+    risks: [
+      'Rohes Shilajit kann mit Schwermetallen belastet sein – nur gereinigte, geprüfte Ware kaufen',
+      'Qualität schwankt stark; auf Laborprüfung (Schwermetalle) achten',
+      'Bei Gicht/hohem Harnsäurespiegel vorsichtig',
+      'Datenlage überwiegend klein; als Ergänzung, nicht als Heilmittel'
+    ],
+    dosage: 'Üblich 300–500 mg gereinigtes Shilajit täglich (standardisiert auf Fulvinsäure).',
+    intake: 'Morgens, oft in Wasser aufgelöst. Dauerhafte oder zyklische Einnahme.',
+    synergies: ['tongkat-ali', 'coenzym-q10', 'vitamin-d3'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Mineralharz aus Gebirgsgestein (gereinigt, als Harz/Kapsel)'
+  },
+  {
+    id: 'colostrum',
+    name: 'Colostrum (bovin)',
+    altNames: 'Erstmilch, Bovines Kolostrum',
+    category: 'Protein',
+    tags: ['immun', 'darm', 'regeneration', 'sport'],
+    short: 'Die Erstmilch der Kuh, reich an Immunfaktoren und Wachstumsfaktoren: unterstützt Darmbarriere, Immunsystem und Regeneration – ein Trend-Supplement 2026.',
+    description: 'Kolostrum ist die erste Milch nach der Geburt und enthält konzentriert Immunglobuline (IgG), Laktoferrin, Wachstumsfaktoren (IGF-1) und antimikrobielle Peptide. Bovines Kolostrum wird supplementiert, um die Darmbarriere („Leaky Gut"), das Immunsystem und die Regeneration zu unterstützen – beliebt bei Sportlern und für die Darmgesundheit.',
+    benefits: [
+      'Unterstützt die Darmbarriere und kann „Leaky Gut" mildern',
+      'Immunfaktoren (IgG, Laktoferrin) stärken die Abwehr',
+      'Kann bei Sportlern Infekt-Anfälligkeit und Darmstress reduzieren',
+      'Liefert Wachstumsfaktoren für Regeneration'
+    ],
+    risks: [
+      'Bei Milch-/Laktose-Allergie ungeeignet',
+      'Qualität/Herkunft entscheidend (weidebasiert, schonend verarbeitet)',
+      'Datenlage gemischt; Effekte oft moderat',
+      'Enthält IGF-1 – bei entsprechenden Vorerkrankungen ärztlich abklären'
+    ],
+    dosage: 'Typisch 10–20 g täglich (Pulver), sportbezogen teils höher.',
+    intake: 'Auf leeren Magen oder zwischen den Mahlzeiten, in Wasser. Nicht zu heiß auflösen.',
+    synergies: ['probiotika', 'glutamin', 'zink'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Erstmilch von Kühen (gefriergetrocknetes Pulver)'
+  },
+  {
+    id: 'cistanche',
+    name: 'Cistanche',
+    altNames: 'Cistanche tubulosa/deserticola, Wüsten-Ginseng',
+    category: 'Kräuter',
+    tags: ['hormone', 'testosteron', 'libido', 'energie', 'anti-aging'],
+    short: 'Traditionelles „Wüsten-Ginseng"-Kraut: reich an Echinacosiden – genutzt für Libido, Testosteron-Unterstützung, Energie und (in Tierdaten) Immun- und Longevity-Effekte.',
+    description: 'Cistanche ist eine parasitäre Wüstenpflanze der TCM, reich an Phenylethanoid-Glykosiden (Echinacosid, Verbascosid). Traditionell für „Nieren-Yang", Libido und Vitalität genutzt. In Tier-/Zellstudien zeigt sie antioxidative, immunmodulierende und potenziell testosteronunterstützende Effekte; teils mit Langlebigkeit assoziiert.',
+    benefits: [
+      'Traditionell für Libido, Potenz und Vitalität',
+      'Reich an antioxidativen Echinacosiden',
+      'Tierdaten zu immunmodulierenden und Longevity-Effekten',
+      'Kann Energie und Ausdauer unterstützen'
+    ],
+    risks: [
+      'Human-Evidenz begrenzt – vieles aus Tradition und Tierstudien',
+      'Qualität/Standardisierung schwankt',
+      'Bei hormonabhängigen Erkrankungen ärztlich abklären',
+      'Als Ergänzung, kein Heilmittel'
+    ],
+    dosage: 'Üblich 300–1.000 mg Extrakt täglich (standardisiert auf Echinacoside).',
+    intake: 'Mit Mahlzeit. Dauerhafte oder zyklische Einnahme.',
+    synergies: ['tongkat-ali', 'panax-ginseng'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Wüstenpflanze Cistanche (Stängel-Extrakt)'
+  },
+  {
+    id: 'tribulus',
+    name: 'Tribulus Terrestris',
+    altNames: 'Erd-Burzeldorn, Puncture Vine',
+    category: 'Kräuter',
+    tags: ['libido', 'hormone', 'sport'],
+    short: 'Klassisches Libido-Kraut: steigert in Studien vor allem das sexuelle Verlangen – der Testosteron-Effekt ist dagegen schwach belegt.',
+    description: 'Tribulus Terrestris ist ein traditionelles Kraut mit Saponinen (Protodioscin), lange als Testo-Booster vermarktet. Die Studienlage zeigt: Für die Libido/sexuelle Funktion gibt es Belege, für eine echte Testosteronsteigerung beim Menschen jedoch kaum – der Ruf als Testo-Booster ist überzogen.',
+    benefits: [
+      'Kann Libido und sexuelle Funktion verbessern (Studien)',
+      'Traditionell für Vitalität genutzt',
+      'Gut verfügbar und günstig'
+    ],
+    risks: [
+      'Kaum echter Testosteron-Effekt beim Menschen (entgegen dem Marketing)',
+      'Qualität/Standardisierung (Protodioscin) sehr unterschiedlich',
+      'Selten Magen-Darm-Beschwerden',
+      'Als Libido-Support, nicht als Testo-Booster einordnen'
+    ],
+    dosage: 'Üblich 250–750 mg Extrakt täglich (standardisiert auf Saponine/Protodioscin).',
+    intake: 'Mit Mahlzeit. Oft zyklisch.',
+    synergies: ['tongkat-ali', 'zink'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Frucht/Kraut von Tribulus terrestris (Extrakt)'
+  },
+  {
+    id: 'ergothionein',
+    name: 'Ergothionein',
+    altNames: 'L-Ergothionein, EGT, „Longevity-Vitamin"',
+    category: 'Antioxidant',
+    tags: ['anti-aging', 'longevity', 'antioxidans', 'zellschutz'],
+    short: 'Ein einzigartiges Zell-Antioxidans aus Pilzen: reichert sich gezielt in gestressten Zellen an – als mögliches „Longevity-Vitamin" gehandelt.',
+    description: 'Ergothionein ist eine schwefelhaltige Aminosäure, die der Körper nicht selbst bildet, sondern über die Nahrung (v. a. Pilze) aufnimmt. Ein spezieller Transporter (OCTN1) reichert es gezielt in Zellen an, die viel oxidativem Stress ausgesetzt sind. Niedrige Spiegel sind mit altersbedingten Erkrankungen assoziiert – daher die Bezeichnung „Longevity-Vitamin".',
+    benefits: [
+      'Starkes, zellgängiges Antioxidans (reichert sich in Stresszellen an)',
+      'Niedrige Spiegel mit altersbedingten Erkrankungen assoziiert',
+      'Schützt Mitochondrien und DNA vor oxidativem Stress',
+      'Sehr gut verträglich und stabil'
+    ],
+    risks: [
+      'Human-Interventionsstudien noch begrenzt (viel Assoziations-/Grundlagenforschung)',
+      'Als Ergänzung sinnvoll v. a. bei pilzarmer Ernährung',
+      'Kein Ersatz für eine antioxidansreiche Ernährung'
+    ],
+    dosage: 'Typisch 5–25 mg täglich (Studien meist 5–30 mg).',
+    intake: 'Mit oder ohne Mahlzeit. Dauerhafte Einnahme.',
+    synergies: ['vitamin-c', 'astaxanthin', 'glutathion'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Pilze (v. a. Austernpilze, Shiitake, Steinpilze); als Kapsel'
+  },
+  {
+    id: 'glynac',
+    name: 'GlyNAC (Glycin + NAC)',
+    altNames: 'Glycin + N-Acetyl-Cystein',
+    category: 'Aminosäure',
+    tags: ['anti-aging', 'longevity', 'glutathion', 'mitochondrien', 'entgiftung'],
+    short: 'Die Longevity-Kombi aus Glycin und NAC: liefert die Bausteine für Glutathion – in Studien mit Verbesserungen bei Mitochondrien, Entzündung und Alterungsmarkern.',
+    description: 'GlyNAC kombiniert die beiden Aminosäuren Glycin und N-Acetyl-Cystein (NAC) – zusammen die limitierenden Bausteine für das körpereigene Master-Antioxidans Glutathion. Im Alter sinkt Glutathion, während oxidativer Stress steigt. Kleine Humanstudien (v. a. Baylor College) zeigten unter GlyNAC verbesserte Glutathionspiegel, Mitochondrienfunktion, Insulinsensitivität, Entzündungs- und Alterungsmarker.',
+    benefits: [
+      'Liefert die Bausteine für Glutathion (körpereigenes Master-Antioxidans)',
+      'Kleine Studien: bessere Mitochondrienfunktion und Insulinsensitivität',
+      'Senkte in Studien oxidativen Stress und Entzündungsmarker',
+      'Beide Komponenten gut verfügbar und günstig'
+    ],
+    risks: [
+      'Human-Evidenz aus kleinen Studien (überwiegend eine Forschungsgruppe)',
+      'NAC selten mit Magen-Darm-Effekten; bei Asthma vorsichtig',
+      'Kein Ersatz für Schlaf, Bewegung, Ernährung',
+      'Bei Medikamenten (z. B. Nitrate) Wechselwirkungen beachten'
+    ],
+    dosage: 'Studienprotokoll: Glycin + NAC je ~100 mg/kg/Tag; Alltag oft niedriger (z. B. 3–6 g Glycin + 1–1,8 g NAC).',
+    intake: 'Aufgeteilt zu Mahlzeiten. Dauerhafte Einnahme.',
+    synergies: ['glycin', 'nac', 'alpha-liponsaeure'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Aminosäuren (Glycin-Pulver + NAC-Kapsel/Pulver)'
+  },
+  {
+    id: 'lithium-orotat',
+    name: 'Lithium-Orotat (niedrig dosiert)',
+    altNames: 'Low-Dose Lithium, Lithiumorotat',
+    category: 'Mineral',
+    tags: ['stimmung', 'gehirn', 'neuroprotektion', 'longevity', 'schlaf'],
+    short: 'Mikrodosiertes Lithium (weit unter Medikamenten-Dosis): als Spurenelement für Stimmung, Neuroprotektion und gesundes Hirnaltern diskutiert.',
+    description: 'Lithium ist – jenseits der hochdosierten Psychiatrie-Anwendung – auch ein natürliches Spurenelement (u. a. im Trinkwasser). In sehr niedrigen Dosen (Mikrodosierung) wird Lithiumorotat für Stimmung, Stressresilienz und Neuroprotektion genutzt. Bevölkerungsdaten verknüpfen höheres Lithium im Trinkwasser mit niedrigeren Demenz- und Suizidraten; die Interventionsevidenz bei Gesunden ist aber begrenzt.',
+    benefits: [
+      'Kann Stimmung und emotionale Stabilität unterstützen',
+      'Neuroprotektiv diskutiert (fördert BDNF, hemmt GSK-3β)',
+      'Bevölkerungsdaten: mehr Lithium im Wasser ↔ weniger Demenz/Suizid',
+      'Mikrodosis liegt weit unter der psychiatrischen Dosis'
+    ],
+    risks: [
+      'Nur NIEDRIG dosiert (mg-Bereich) – nicht mit hochdosierter Lithiumtherapie verwechseln',
+      'Höhere Dosen brauchen ärztliche Kontrolle (Schilddrüse, Nieren, Blutspiegel)',
+      'Interventionsevidenz bei Gesunden begrenzt',
+      'Bei Nieren-/Schilddrüsenproblemen oder Medikamenten ärztlich abklären'
+    ],
+    dosage: 'Mikrodosis: typisch 1–5 mg elementares Lithium/Tag (als Orotat).',
+    intake: 'Mit Mahlzeit, oft abends (kann Schlaf unterstützen). Ausreichend trinken.',
+    synergies: ['omega-3', 'magnesium', 'vitamin-b12'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Spurenelement (Trinkwasser); als Lithiumorotat-Kapsel'
   }
 ];
 
