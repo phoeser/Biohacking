@@ -648,18 +648,6 @@ const EXPERIMENTAL = [
         audio: 'audio/rapamycin-kurzfolge.mp3',
         lengthLabel: '≈ 4 Min · KI-Kurzfolge (Paul & Paula, ElevenLabs Pro-Stimme)',
         note: 'Kompakte KI-Kurzfolge mit realistischen Stimmen (neue Pro-Stimme). In vier Minuten: woher Rapamycin (Sirolimus) kommt, wie es über den mTOR-Schalter das zelluläre Aufräumen (Autophagie) anstößt, warum es die stärksten Lebensverlängerungs-Daten in Säugern hat – und der ehrliche Rahmen: off-label, verschreibungspflichtig, Human-Beweis steht aus. Reine Information, kein medizinischer Rat.'
-      },
-      {
-        title: 'Rapamycin: Das stärkste Anti-Aging-Molekül unserer Zeit?',
-        audio: 'audio/rapamycin-podcast.mp3',
-        spotify: '2hPtRFiBMmN96aVPmFv1Oh',
-        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der glaubwürdigste Longevity-Fall: echtes zugelassenes Medikament (Sirolimus, mTOR-Hemmer) mit den stärksten Tier-Lebensverlängerungs-Daten – aber Humannutzen fürs Altern unbewiesen, Dosierung unetabliert und reale Immunsuppressions-Risiken. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
-          { title: 'Harrison DE et al., Nature 2009 – Rapamycin verlängert Lebensspanne bei Mäusen', url: 'https://www.nature.com/articles/nature08221' },
-          { title: 'Off-Label-Rapamycin bei Gesunden – Evidenzübersicht (Aging 2024)', url: 'https://www.aging-us.com/article/206300/text' },
-          { title: 'PEARL Study – Rapamycin Longevity Trial', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT04488601' }
-        ]
       }
     ]
   },
