@@ -160,7 +160,7 @@
     return { text, sources };
   }
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'news', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'news', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split('?')[0];
@@ -181,6 +181,7 @@
     if (name === 'news') onEnterNews();
     if (name === 'home') onEnterHome();
     if (name === 'experimental') onEnterExperimental();
+    if (name === 'behandlungen') onEnterBehandlungen();
     if (name === 'tagescheck') onEnterTagescheck();
   }
 
@@ -1116,6 +1117,63 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     }).join('');
   }
 
+  // ============ BEHANDLUNGEN ============
+  let currentThCat = 'all';
+
+  function initBehandlungenView() {
+    const chipsBar = $('#th-chips');
+    if (!chipsBar || typeof THERAPY_CATEGORIES === 'undefined') return;
+    chipsBar.innerHTML = THERAPY_CATEGORIES.map((c, i) =>
+      `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-tcat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+    ).join('');
+    chipsBar.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-tcat]');
+      if (!b) return;
+      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+      currentThCat = b.dataset.tcat;
+      renderBehandlungen();
+    });
+  }
+
+  function onEnterBehandlungen() {
+    renderBehandlungen();
+  }
+
+  function renderBehandlungen() {
+    const grid = $('#th-grid');
+    if (!grid || typeof THERAPIES === 'undefined') return;
+    const items = currentThCat === 'all'
+      ? THERAPIES
+      : THERAPIES.filter(t => t.category === currentThCat);
+
+    if (!items.length) {
+      grid.innerHTML = '<div class="empty">Keine Behandlungen in dieser Kategorie.</div>';
+      return;
+    }
+
+    grid.innerHTML = items.map(t => {
+      const benefits = (t.benefits || []).map(b => `<li>${escapeHtml(b)}</li>`).join('');
+      const indication = (t.indication || []).map(i => escapeHtml(i)).join(' · ');
+      return `
+        <article class="exp-card" id="thcard-${escapeHtml(t.id)}">
+          <div class="exp-head">
+            <div class="exp-emoji">${escapeHtml(t.emoji || t.icon || '🧖')}</div>
+            <div class="exp-title">
+              <h3>${escapeHtml(t.name || t.title)}</h3>
+              <div class="exp-class">${escapeHtml(t.category || '')}</div>
+            </div>
+          </div>
+          <p class="exp-short">${escapeHtml(t.short || '')}</p>
+          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Nutzen</strong><ul>${benefits}</ul></div>` : ''}
+          ${indication ? `<div class="exp-section"><strong>Wofür</strong><p>${indication}</p></div>` : ''}
+          ${t.note ? `<div class="exp-status"><strong>Hinweis:</strong> ${escapeHtml(t.note)}</div>` : ''}
+          ${t.link ? `<details class="exp-sources"><summary>Mehr Infos & Quelle</summary><ul><li><a href="${escapeHtml(t.link)}" target="_blank" rel="noopener">${escapeHtml(t.link.replace(/^https?:\/\//, '').split('/')[0])}</a></li></ul></details>` : ''}
+          <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information. Anwendung ärztlich abklären.</div>
+        </article>
+      `;
+    }).join('');
+  }
+
   // ============ MOBILE NAV TOGGLE (Hamburger) ============
   function initNavToggle() {
     const btn = $('#nav-toggle');
@@ -1960,8 +2018,14 @@ WICHTIG – konservative Gewichtsschätzung:
       if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.ecat === 'all'));
       location.hash = 'experimental';
       setTimeout(() => highlightExpCard((type === 'khavinson' ? 'khcard-' : 'expcard-') + id), 160);
+    } else if (type === 'therapy') {
+      currentThCat = 'all';
+      const chips = document.getElementById('th-chips');
+      if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.tcat === 'all'));
+      location.hash = 'behandlungen';
+      setTimeout(() => highlightExpCard('thcard-' + id), 160);
     } else {
-      // Tipp/Therapie/Ziel/Gadget: auf die Startseite (dort verankert)
+      // Tipp/Ziel/Gadget: auf die Startseite (dort verankert)
       location.hash = 'home';
     }
   }
@@ -2040,6 +2104,7 @@ WICHTIG – konservative Gewichtsschätzung:
     initNewsView();
     initHomeProducts();
     initExperimentalView();
+    initBehandlungenView();
     initRouter();
     onEnterHome();
   });
