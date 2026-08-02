@@ -12,6 +12,662 @@
  *   sources:  Studien/Veröffentlichungen mit URL
  */
 const EXPERIMENTAL = [
+  // ============ NEU 2026 · RUNDE 2 ============
+  {
+    id: 'survodutide',
+    name: 'Survodutide',
+    altNames: 'BI 456906',
+    class: 'GLP-1 / Glucagon Dual-Agonist',
+    emoji: '💉',
+    short: 'Doppelagonist von Boehringer/Zealand: kombiniert GLP-1 und Glucagon – stark beim Gewicht und mit besonderem Fokus auf die Fettleber (MASH).',
+    moa: 'Survodutide aktiviert den GLP-1-Rezeptor (Sättigung, Insulin) und den Glucagon-Rezeptor (mehr Energieverbrauch, direkte Wirkung in der Leber). Diese Kombination senkt nicht nur das Gewicht, sondern adressiert gezielt Leberfett und -entzündung – daher der starke MASH-Fokus (nicht-alkoholische Fettleber). Aktuell in Phase 3 für Adipositas und Lebererkrankung.',
+    benefits: [
+      'Deutlicher Gewichtsverlust über den GLP-1/Glucagon-Doppelmechanismus',
+      'Starke Wirkung auf Leberfett und -entzündung (MASH-Studien vielversprechend)',
+      'Glucagon-Komponente hebt den Energieverbrauch',
+      'Nur 1× wöchentlich (in Entwicklung)'
+    ],
+    risks: [
+      'Noch in Phase 3 – nicht zugelassen, nicht regulär verfügbar',
+      'Klassentypische Magen-Darm-Effekte v.a. beim Eindosieren',
+      'Langzeitdaten stehen aus; Graumarkt-Ware ungeprüft'
+    ],
+    status: 'Phase 3 (Boehringer Ingelheim / Zealand Pharma). Noch nicht zugelassen.',
+    sources: [
+      { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' },
+      { title: 'Meto – Next-Generation Metabolic Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'maritide',
+    name: 'MariTide (Maridebart Cafraglutide)',
+    altNames: 'AMG 133',
+    class: 'GIP-Rezeptor-Antagonist + GLP-1-Agonist (Peptid-Antikörper-Konjugat)',
+    emoji: '💉',
+    short: 'Amgens Kandidat mit ungewöhnlichem Ansatz: GLP-1-Agonist plus GIP-BLOCKADE – und der große Vorteil, nur einmal im Monat gespritzt zu werden.',
+    moa: 'MariTide ist ein Peptid-Antikörper-Konjugat, das den GLP-1-Rezeptor aktiviert und gleichzeitig den GIP-Rezeptor BLOCKIERT (Antagonist) – interessanterweise das Gegenteil von Tirzepatid, führt aber ebenfalls zu starkem Gewichtsverlust. Durch die lange Wirkdauer reicht eine Injektion pro Monat. In Phase 2 zeigte sich anhaltender Gewichtsverlust ohne das übliche schnelle Plateau.',
+    benefits: [
+      'Nur 1× MONATLICH statt wöchentlich – deutlich seltenere Injektion',
+      'Starker, anhaltender Gewichtsverlust in Phase 2',
+      'Neuartiger Mechanismus (GLP-1-Agonismus + GIP-Antagonismus)',
+      'Wenig „Rebound"-Plateau in den bisherigen Daten'
+    ],
+    risks: [
+      'Noch in klinischer Prüfung (Phase 3) – nicht zugelassen',
+      'Klassentypische Magen-Darm-Effekte',
+      'Langzeitsicherheit offen; Graumarkt-Ware ungeprüft'
+    ],
+    status: 'Phase 3 (Amgen). Noch nicht zugelassen.',
+    sources: [
+      { title: 'Meto – Next-Generation GLP-1 Drugs 2026 (MariTide)', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' },
+      { title: 'GoodRx – New Weight Loss Drugs', url: 'https://www.goodrx.com/conditions/weight-loss/new-weight-loss-drugs' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'mazdutide',
+    name: 'Mazdutide',
+    altNames: 'IBI362, LY3305677',
+    class: 'GLP-1 / Glucagon Dual-Agonist',
+    emoji: '💉',
+    short: 'GLP-1/Glucagon-Doppelagonist, der in China bereits die Zulassung erreicht hat – mit zusätzlichem Fokus auf Leber und Stoffwechsel.',
+    moa: 'Mazdutide ist ein Doppelagonist an GLP-1- und Glucagon-Rezeptoren (abgeleitet von Oxyntomodulin). GLP-1 zügelt den Appetit, die Glucagon-Komponente steigert den Energieverbrauch und wirkt günstig auf Leberfett und Lipide. In China wurde es 2025/26 für Adipositas/Diabetes zugelassen; westliche Zulassungen stehen aus.',
+    benefits: [
+      'In China bereits zugelassen (Adipositas/Diabetes)',
+      'Deutlicher Gewichtsverlust plus günstige Leber-/Lipidwerte',
+      'Glucagon-Anteil hebt den Energieverbrauch',
+      'Wöchentliche Gabe'
+    ],
+    risks: [
+      'In DE/EU/USA nicht zugelassen',
+      'Klassentypische Magen-Darm-Effekte',
+      'Außerhalb Chinas nur ungeprüfte Graumarkt-Ware'
+    ],
+    status: 'In China zugelassen (Innovent/Eli Lilly); in DE/EU nicht zugelassen.',
+    sources: [
+      { title: 'Meto – Next-Generation GLP-1 Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' },
+      { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'acarbose',
+    name: 'Acarbose',
+    altNames: 'Glucobay, Precose, Alpha-Glucosidase-Hemmer',
+    class: 'Alpha-Glucosidase-Hemmer (Antidiabetikum, Longevity-Kandidat)',
+    emoji: '🔵',
+    short: 'Alter Diabetes-Wirkstoff mit Longevity-Bonus: bremst die Aufnahme von Zucker aus Stärke – und verlängerte im großen US-Alterungsprogramm (ITP) die Lebensspanne von Mäusen.',
+    moa: 'Acarbose hemmt im Darm das Enzym Alpha-Glucosidase, das komplexe Kohlenhydrate spaltet. Dadurch wird Zucker langsamer und geringer aufgenommen, Blutzuckerspitzen nach dem Essen werden abgeflacht. Im Interventions-Testing-Programm (ITP) verlängerte Acarbose die Lebensspanne von Mäusen – vermutlich über die geglättete Glukose-/Insulinbelastung und Effekte auf das Darmmikrobiom.',
+    benefits: [
+      'Flacht Blutzuckerspitzen nach Mahlzeiten ab',
+      'Verlängerte im ITP die Lebensspanne von Mäusen (v.a. Männchen)',
+      'Günstig, jahrzehntelang als Diabetesmittel im Einsatz',
+      'Wirkt lokal im Darm (kaum systemisch aufgenommen)'
+    ],
+    risks: [
+      'Verschreibungspflichtig; Longevity-Nutzung ist off-label',
+      'Häufig Blähungen/Darmwind (durch unverdaute Kohlenhydrate)',
+      'Longevity-Nutzen beim Menschen nicht bewiesen (Tierdaten)'
+    ],
+    status: 'Als Glucobay für Typ-2-Diabetes zugelassen. Longevity-Nutzung off-label.',
+    sources: [
+      { title: 'ITP / NIA – Acarbose verlängert Lebensspanne bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/24245565/' },
+      { title: 'Bolds Media – Latest Longevity Research 2026', url: 'https://www.boldsmedia.com/latest-longevity-researches/' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'canagliflozin',
+    name: 'Canagliflozin (SGLT2-Hemmer)',
+    altNames: 'Invokana, SGLT2-Inhibitor',
+    class: 'SGLT2-Hemmer (Antidiabetikum, Longevity-Kandidat)',
+    emoji: '🔵',
+    short: 'Moderner Diabetes-Wirkstoff, der überschüssigen Zucker über den Urin ausscheidet – und im ITP die Lebensspanne männlicher Mäuse verlängerte. Herz- und Nierenschutz gut belegt.',
+    moa: 'SGLT2-Hemmer wie Canagliflozin blockieren in der Niere den Rücktransport von Glukose, sodass überschüssiger Zucker mit dem Urin ausgeschieden wird. Das senkt Blutzucker und Kalorien und entlastet Herz und Nieren. Im ITP verlängerte Canagliflozin die Lebensspanne männlicher Mäuse; beim Menschen sind starke Herz- und Nierenschutz-Effekte belegt (aus Diabetes-Studien).',
+    benefits: [
+      'Scheidet überschüssigen Zucker über den Urin aus (senkt Blutzucker + Kalorien)',
+      'Verlängerte im ITP die Lebensspanne männlicher Mäuse',
+      'Gut belegter Herz- und Nierenschutz (Humanstudien)',
+      'Aktiviert AMPK-nahe, fasten-ähnliche Signalwege'
+    ],
+    risks: [
+      'Verschreibungspflichtig; Longevity-Nutzung off-label',
+      'Erhöhtes Risiko für Genital-/Harnwegsinfekte; selten Ketoazidose',
+      'Auf Flüssigkeit/Blutdruck achten; ärztliche Begleitung nötig'
+    ],
+    status: 'Als Invokana für Typ-2-Diabetes zugelassen. Longevity-Nutzung off-label.',
+    sources: [
+      { title: 'ITP – Canagliflozin verlängert Lebensspanne männlicher Mäuse', url: 'https://pubmed.ncbi.nlm.nih.gov/32112506/' },
+      { title: 'Bolds Media – Latest Longevity Research 2026', url: 'https://www.boldsmedia.com/latest-longevity-researches/' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'sermorelin',
+    name: 'Sermorelin',
+    altNames: 'GRF 1-29, GHRH(1-29)',
+    class: 'GHRH-Analogon (Wachstumshormon-Releasing-Hormon-Fragment)',
+    emoji: '📈',
+    short: 'Der sanfte GH-Klassiker: ein kurzes GHRH-Fragment, das die Hirnanhangsdrüse zu natürlichen Wachstumshormon-Pulsen anregt – mild und gut steuerbar, beliebt als Einstieg.',
+    moa: 'Sermorelin entspricht den ersten 29 Aminosäuren des GHRH und stimuliert die Hypophyse zur pulsatilen Ausschüttung von Wachstumshormon (GH). Weil die körpereigene Rückkopplung (Somatostatin) erhalten bleibt, gilt es als besonders physiologischer Ansatz und milder als langwirksame Analoga. Historisch als Diagnostikum genutzt, in der Anti-Aging-Szene für Schlaf, Regeneration und Körperkomposition.',
+    benefits: [
+      'Regt die eigene, natürliche GH-Ausschüttung an (erhaltene Rückkopplung)',
+      'Mild und gut steuerbar – beliebter Einstieg in GH-Peptide',
+      'Kann Schlafqualität und Regeneration verbessern',
+      'Oft mit einem GHRP kombiniert für stärkere Pulse'
+    ],
+    risks: [
+      'Nur kurze Wirkdauer – tägliche (abendliche) Gabe nötig',
+      'Leichte Wassereinlagerung/Kribbeln möglich; im Sport verboten',
+      'Nicht breit als Arzneimittel verfügbar; Research-Ware auf Reinheit achten'
+    ],
+    status: 'Früher als Arzneimittel/Diagnostikum; heute überwiegend Compounding/Research. In DE nicht breit zugelassen.',
+    sources: [
+      { title: 'PeptideDeck – Best Growth Hormone Peptides 2026', url: 'https://www.peptidedeck.com/peptides/best-growth-hormone-peptides-2026' },
+      { title: 'Sigalos & Pastuszak 2018 – Review Anti-Aging-Peptide', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'igf-1-lr3',
+    name: 'IGF-1 LR3',
+    altNames: 'Long R3 IGF-1, Insulin-like Growth Factor 1 LR3',
+    class: 'Langwirksames IGF-1-Analogon (Wachstumsfaktor)',
+    emoji: '💪',
+    short: 'Der potente, direkt wirkende Muskel-Wachstumsfaktor: eine langwirksame IGF-1-Variante – kraftvoll in der Bodybuilding-Szene, aber mit ernstem Risikoprofil.',
+    moa: 'IGF-1 LR3 ist eine chemisch veränderte, langwirksame Form des Insulin-like Growth Factor 1 (dem Vermittler vieler GH-Effekte). Es bindet weniger an Bindeproteine und bleibt dadurch deutlich länger aktiv. Es fördert direkt Zellwachstum, Proteinsynthese und Muskel-Hyperplasie/Hypertrophie. Wegen der direkten, starken Wachstumswirkung wird es in der Muskelaufbau-Szene genutzt – birgt aber deutliche Risiken.',
+    benefits: [
+      'Fördert direkt Muskelwachstum (Proteinsynthese, Zellteilung)',
+      'Langwirksam – anhaltender IGF-1-Reiz',
+      'Kann die Regeneration von Gewebe unterstützen'
+    ],
+    risks: [
+      'Ernstes Profil: IGF-1 fördert generelles Zellwachstum – theoretisches Krebsrisiko, besonders bei bestehenden Tumoren',
+      'Unterzuckerung (insulinähnliche Wirkung), Organwachstum bei Überdosierung',
+      'Nicht zugelassen, im Wettkampfsport verboten; Graumarkt-Ware ungeprüft',
+      'Nur mit großer Vorsicht und Sachkenntnis – hohe Missbrauchsgefahr'
+    ],
+    status: 'Kein zugelassenes Arzneimittel; Forschungssubstanz, im Sport verboten.',
+    sources: [
+      { title: 'PeptideDeck – Muscle-Growth Peptides 2026', url: 'https://www.peptidedeck.com/peptides/best-growth-hormone-peptides-2026' },
+      { title: 'Musculoskeletal Key – Best Peptides for Muscle Growth 2026', url: 'https://musculoskeletalkey.com/best-peptides-for-muscle-growth-2026-top-options-and-where-to-source-them/' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'follistatin',
+    name: 'Follistatin / Myostatin-Hemmer',
+    altNames: 'Follistatin-344, ACE-031, Myostatin-Inhibitoren',
+    class: 'Myostatin-Blocker (Muskelwachstum durch Wegfall der „Muskelbremse")',
+    emoji: '💪',
+    short: 'Die „Muskelbremse lösen": Follistatin und verwandte Stoffe blockieren Myostatin – den körpereigenen Begrenzer des Muskelwachstums. Sehr potent, aber hochexperimentell.',
+    moa: 'Myostatin ist ein körpereigener Faktor, der das Muskelwachstum bremst. Follistatin bindet und neutralisiert Myostatin (und verwandte Faktoren wie Activin), wodurch die Bremse wegfällt und Muskelmasse zunehmen kann – Tiere mit blockiertem Myostatin zeigen enorme Muskelberge. Verwandte Ansätze (ACE-031, monoklonale Antikörper) zielen auf denselben Signalweg. Beim Menschen ist das überwiegend experimentell; einige Programme wurden wegen Nebenwirkungen gestoppt.',
+    benefits: [
+      'Kann Muskelmasse deutlich steigern (Wegfall der Myostatin-Bremse)',
+      'Untersucht bei Muskelschwund-Erkrankungen (z.B. Muskeldystrophie)',
+      'Wirkt unabhängig von Hormonen/Testosteron'
+    ],
+    risks: [
+      'Hochexperimentell – kaum belastbare Humandaten; Gentherapie-Varianten besonders riskant',
+      'Frühere Programme (z.B. ACE-031) wegen Nebenwirkungen (Blutungen, Gefäße) gestoppt',
+      'Nicht zugelassen, im Sport verboten; Graumarkt-Ware höchst unsicher',
+      'Langzeitfolgen völlig unklar'
+    ],
+    status: 'Experimentell / Forschung; nicht zugelassen, im Sport verboten.',
+    sources: [
+      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' },
+      { title: 'Follistatin & Myostatin – Übersicht (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2717722/' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'ara-290',
+    name: 'ARA-290 (Cibinetide)',
+    altNames: 'Cibinetide, EPO-Derivat-Peptid',
+    class: 'Innate-Repair-Rezeptor-Agonist (nicht-erythropoetisches EPO-Fragment)',
+    emoji: '🩹',
+    short: 'Ein EPO-abgeleitetes Peptid ohne Blutbildungs-Effekt: zielt auf Nervenreparatur und Entzündung – untersucht v.a. bei Nervenschmerz und Neuropathie.',
+    moa: 'ARA-290 ist ein kurzes Peptid aus der Helix-B des Erythropoetins (EPO), aber OHNE dessen blutbildende Wirkung. Es aktiviert den „Innate Repair Receptor" und wirkt gewebeschützend und entzündungshemmend, besonders an Nervengewebe. Untersucht wird es vor allem bei kleinen-Faser-Neuropathie (u.a. bei Sarkoidose, Diabetes) zur Linderung von Nervenschmerz und zur Regeneration von Nervenfasern.',
+    benefits: [
+      'Gezielte Nerven-/Geweberegeneration ohne EPO-typische Blutbildung',
+      'Entzündungshemmend und schmerzlindernd bei Neuropathie (Studien)',
+      'Untersucht bei kleiner-Faser-Neuropathie und Sarkoidose',
+      'Kein Doping-typischer Blutbildungseffekt'
+    ],
+    risks: [
+      'Noch investigativ – begrenzte, wenn auch vielversprechende Humandaten',
+      'Nicht als Arzneimittel zugelassen; Research-Ware auf Reinheit achten',
+      'Langzeitsicherheit nicht abschließend geklärt'
+    ],
+    status: 'Investigativ (klinische Studien); nicht zugelassen.',
+    sources: [
+      { title: 'ARA-290 bei kleiner-Faser-Neuropathie (Studie, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4283549/' },
+      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'vip',
+    name: 'VIP (Vasoaktives intestinales Peptid)',
+    altNames: 'Vasoactive Intestinal Peptide, Aviptadil',
+    class: 'Neuropeptid (28 Aminosäuren), immun- und gefäßmodulierend',
+    emoji: '🫁',
+    short: 'Ein körpereigenes Peptid mit breiter regulierender Wirkung – als Nasenspray bekannt in der CIRS-/Schimmel-Community und für Immun- und Gefäßfunktion untersucht.',
+    moa: 'VIP ist ein körpereigenes Neuropeptid, das Gefäße erweitert, Entzündung dämpft und das Immunsystem sowie den Hormonhaushalt moduliert. In der Biohacking-/CIRS-Szene (chronisches Entzündungssyndrom, z.B. nach Schimmelbelastung) wird es als Nasenspray genutzt, um Entzündungswerte zu normalisieren. Medizinisch (als Aviptadil) wurde es u.a. bei Lungenerkrankungen untersucht.',
+    benefits: [
+      'Entzündungsmodulierend und gefäßerweiternd',
+      'In der CIRS-/Schimmel-Community zur Normalisierung von Entzündung genutzt (Nasenspray)',
+      'Untersucht bei Lungen-/Immunerkrankungen (als Aviptadil)',
+      'Körpereigenes Peptid mit breitem Regulationsprofil'
+    ],
+    risks: [
+      'Human-Evidenz für die Biohacking-Nutzung ist dünn; vieles anekdotisch',
+      'Kann Blutdruck senken/Flush auslösen (gefäßerweiternd)',
+      'Nicht breit als Arzneimittel zugelassen; Research-Ware auf Reinheit achten',
+      'Anwendung idealerweise ärztlich begleitet (v.a. bei CIRS-Protokollen)'
+    ],
+    status: 'Als Aviptadil in Studien; als Biohacking-Nasenspray Off-Label/Graumarkt. In DE nicht breit zugelassen.',
+    sources: [
+      { title: 'VIP – Übersicht Funktion & Therapie (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3648697/' },
+      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'dihexa',
+    name: 'Dihexa',
+    altNames: 'N-Hexanoic-Tyr-Ile-(6)-Aminohexanoic-Amid, PNB-0408',
+    class: 'Angiotensin-IV-abgeleitetes Nootropikum-Peptid (HGF/c-Met-Verstärker)',
+    emoji: '🧠',
+    short: 'Ein hochpotentes Synaptogenese-Peptid: soll die Bildung neuer Nervenverbindungen antreiben – faszinierend, aber die Schlüsselstudie wurde zurückgezogen.',
+    moa: 'Dihexa ist ein Derivat von Angiotensin IV und verstärkt die Bindung des Wachstumsfaktors HGF an seinen Rezeptor c-Met. In Zellkultur trieb es die Bildung neuer Synapsen (Synaptogenese) im Hippocampus an – in Berichten um ein Vielfaches potenter als BDNF. Untersucht wurde es als möglicher Ansatz bei Alzheimer. Wichtig: Die zentrale Studie wurde zurückgezogen, die Evidenz ist entsprechend eingeschränkt.',
+    benefits: [
+      'Sehr potente Synaptogenese in Zellmodellen (neue Nervenverbindungen)',
+      'Untersucht als möglicher Alzheimer-/Kognitionsansatz',
+      'Oral aufnehmbar und blut-hirn-schranken-gängig (Berichte)'
+    ],
+    risks: [
+      'Wichtig: die Schlüsselstudie wurde zurückgezogen – Evidenz stark eingeschränkt',
+      'Kaum Humandaten; Langzeitsicherheit unbekannt',
+      'Über die c-Met-/Wachstumswirkung theoretisches Zellwachstums-/Krebsrisiko',
+      'Nicht zugelassen; Research-Ware höchst unsicher'
+    ],
+    status: 'Experimentelle Forschungssubstanz; nicht zugelassen. Schlüsselstudie zurückgezogen.',
+    sources: [
+      { title: 'Outliyr – Best Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' },
+      { title: 'PeptPedia – Nootropic Peptides (Dihexa)', url: 'https://peptpedia.org/peptide-class/nootropic-peptides' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'p21',
+    name: 'P21 (P021)',
+    altNames: 'Cerebrolysin-Fragment, CNTF-Mimetikum',
+    class: 'Neurotrophes Peptidfragment (Neurogenese-Förderer)',
+    emoji: '🧠',
+    short: 'Ein kleines, aus Cerebrolysin abgeleitetes Peptid, das die Neubildung von Nervenzellen anregen soll – nootropisch spannend, aber bislang präklinisch.',
+    moa: 'P21 ist ein synthetisches Fragment, das die Wirkung des ciliären neurotrophen Faktors (CNTF) nachahmt. Im Tiermodell förderte es – auch intranasal – die Bildung neuer Nervenzellen im Hippocampus (Neurogenese), steigerte BDNF und verbesserte Gedächtnisleistungen. Es gilt als kleineres, stabileres „Destillat" der Cerebrolysin-Idee. Human-Daten fehlen bislang.',
+    benefits: [
+      'Förderte im Tiermodell die Neurogenese (neue Nervenzellen) im Hippocampus',
+      'Steigert BDNF und verbesserte in Studien die Gedächtnisleistung (präklinisch)',
+      'Klein und stabil; intranasal wirksam (Tierdaten)'
+    ],
+    risks: [
+      'Bislang rein präklinisch – keine Humanstudien',
+      'Langzeitsicherheit unbekannt',
+      'Nicht zugelassen; Research-Ware auf Reinheit achten'
+    ],
+    status: 'Präklinische Forschungssubstanz; nicht zugelassen.',
+    sources: [
+      { title: 'P21 & Neurogenese (Studie, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3976982/' },
+      { title: 'Outliyr – Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'hcg',
+    name: 'hCG (humanes Choriongonadotropin)',
+    altNames: 'Human Chorionic Gonadotropin, Pregnyl, Ovitrelle',
+    class: 'Gonadotropin (LH-Mimetikum)',
+    emoji: '🧬',
+    short: 'Der bewährte Klassiker zum Hodenerhalt: hCG ahmt LH nach und regt die Hoden direkt zur Testosteron- und Spermienproduktion an – Standard beim Fruchtbarkeitserhalt unter TRT.',
+    moa: 'hCG bindet an den LH-Rezeptor der Hoden und imitiert so das luteinisierende Hormon (LH). Dadurch produzieren die Hoden weiter eigenes Testosteron und Spermien – auch dann, wenn die körpereigene LH-Ausschüttung (z.B. unter TRT) unterdrückt ist. Deshalb ist hCG der klassische Weg, um unter Testosterontherapie Hodenvolumen und Fruchtbarkeit zu erhalten oder eine unterdrückte Achse wieder anzustoßen.',
+    benefits: [
+      'Erhält unter TRT Hodenvolumen und Fruchtbarkeit (direkt an den Hoden)',
+      'Bewährter, gut verstandener Klassiker',
+      'Regt die eigene Testosteron-/Spermienproduktion an',
+      'Auch in der Fruchtbarkeitsmedizin etabliert'
+    ],
+    risks: [
+      'Verschreibungspflichtig; Hormonprotokolle ärztlich begleiten',
+      'Kann Östrogen anheben (Aromatisierung) – ggf. Kontrolle nötig',
+      'Bei Dauergabe mögliche Desensibilisierung der Hoden',
+      'Graumarkt-Ware auf Reinheit/Sterilität achten'
+    ],
+    status: 'Als Arzneimittel zugelassen (Fruchtbarkeit); die TRT-Begleitnutzung ist off-label. Verschreibungspflichtig.',
+    sources: [
+      { title: 'Peptides.org – Best hCG Alternatives (Kontext hCG)', url: 'https://www.peptides.org/best-hcg-alternatives/' },
+      { title: 'LIVV Natural – TRT & Fertility', url: 'https://livvnatural.com/trt-and-fertility-how-to-maintain-sperm-health/' }
+    ],
+    community: [
+      { title: 'ExcelMale – Community zu Hormonoptimierung', url: 'https://www.excelmale.com/' }
+    ]
+  },
+  {
+    id: 'oxytocin',
+    name: 'Oxytocin',
+    altNames: 'Bindungshormon, „Kuschelhormon"',
+    class: 'Neuropeptid (9 Aminosäuren), Bindungs-/Sozialhormon',
+    emoji: '💗',
+    short: 'Das „Bindungshormon": ein körpereigenes Neuropeptid, das Vertrauen, Nähe und Wohlbefinden fördert – in der Szene als Nasenspray für Stimmung und soziale Verbindung genutzt.',
+    moa: 'Oxytocin wird im Hypothalamus gebildet und wirkt als Hormon und Botenstoff im Gehirn. Es fördert soziale Bindung, Vertrauen, Empathie und Entspannung und dämpft die Stressachse (Cortisol). Klassisch ist seine Rolle bei Geburt und Stillen. In der Biohacking-Szene wird es als Nasenspray für Stimmung, Nähe und Stressabbau eingesetzt; die Studienlage zu diesen Effekten ist gemischt.',
+    benefits: [
+      'Fördert Vertrauen, Nähe, Empathie und Wohlbefinden',
+      'Kann Stress und Cortisol dämpfen (beruhigend)',
+      'Als Nasenspray schnell wirksam',
+      'Körpereigenes Peptid mit gutem Kurzzeit-Verträglichkeitsprofil'
+    ],
+    risks: [
+      'Studienlage zu den sozialen/stimmungsbezogenen Effekten ist gemischt',
+      'Wirkung oft kurz und kontextabhängig',
+      'Als Biohacking-Nasenspray meist Off-Label/Graumarkt (Reinheit beachten)',
+      'Vorsicht in der Schwangerschaft (wehenauslösend)'
+    ],
+    status: 'Als Arzneimittel (Geburtshilfe) zugelassen; die Biohacking-Nasenspray-Nutzung ist off-label.',
+    sources: [
+      { title: 'Oxytocin – soziale/kognitive Effekte (Review, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3260007/' },
+      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'humanin',
+    name: 'Humanin',
+    altNames: 'HN, HNG (Humanin-Analogon)',
+    class: 'Mitochondriales Peptid (MDP), zytoprotektiv',
+    emoji: '🧬',
+    short: 'Das erste entdeckte mitochondriale Peptid: ein körpereigener Zellschützer, dessen Spiegel mit dem Alter sinkt – korreliert mit Langlebigkeit und schützt Nerven- und Stoffwechselgewebe.',
+    moa: 'Humanin ist ein kurzes, in der mitochondrialen DNA kodiertes Peptid (Schwester von MOTS-c) und war das erste entdeckte mitochondriale-derived Peptide (MDP). Es wirkt zytoprotektiv: Es hemmt den programmierten Zelltod (Apoptose), schützt vor oxidativem Stress und verbessert die Insulinsensitivität. Höhere körpereigene Spiegel korrelieren mit Langlebigkeit (u.a. bei Hundertjährigen); die Spiegel sinken mit dem Alter. Das potente Analogon HNG wird in der Forschung genutzt.',
+    benefits: [
+      'Schützt Zellen vor Stress und programmiertem Zelltod (Apoptose)',
+      'Verbessert die Insulinsensitivität (Tier-/Zelldaten)',
+      'Neuroprotektiv – untersucht bei Alzheimer-Modellen',
+      'Höhere Spiegel korrelieren mit Langlebigkeit (Hundertjährige)'
+    ],
+    risks: [
+      'Evidenz überwiegend präklinisch; kaum Humanstudien zur Supplementierung',
+      'Optimale Dosierung/Protokolle nicht etabliert',
+      'Nicht zugelassen; sehr experimentelle Research-Ware'
+    ],
+    status: 'Reines Forschungs-Peptid (MDP); nicht zugelassen.',
+    sources: [
+      { title: 'Mitochondriale Peptide in Aging & Healthspan (JCI)', url: 'https://www.jci.org/articles/view/158449' },
+      { title: 'Humanin & SHLP – Review (Springer)', url: 'https://link.springer.com/article/10.1007/s10989-023-10558-7' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  // ============ NEU 2026 ============
+  {
+    id: 'orforglipron',
+    name: 'Orforglipron (Foundayo)',
+    altNames: 'LY3502970, orales GLP-1, Small-Molecule-GLP-1',
+    class: 'Oraler, nicht-peptidischer GLP-1-Rezeptor-Agonist',
+    emoji: '💊',
+    short: 'Der Durchbruch bei den Abnehm-Tabletten: das erste orale Small-Molecule-GLP-1 – seit April 2026 in den USA zugelassen (Foundayo), ganz ohne Spritze, Kühlung oder Nüchtern-Auflagen.',
+    moa: 'Orforglipron ist – anders als Semaglutid oder Tirzepatid – kein Peptid, sondern ein kleines, oral stabiles Molekül, das den GLP-1-Rezeptor aktiviert. Dadurch werden Sättigung und Insulinausschüttung gesteigert und die Magenentleerung verzögert. Weil es kein Peptid ist, übersteht es den Magen und lässt sich als simple Tablette zu jeder Tageszeit einnehmen – ohne die strengen Nüchtern- und Wasserregeln von oralem Semaglutid. Das macht die Produktion günstiger und weltweit skalierbar.',
+    benefits: [
+      'Erste orale GLP-1-Tablette ohne Spritze – einfache Einnahme zu jeder Tageszeit.',
+      'Schlug in einer direkten Phase-3-Studie orales Semaglutid (bessere HbA1c-Senkung, mehr Gewichtsverlust).',
+      'Deutlicher Gewichtsverlust und verbesserte Blutzuckerwerte.',
+      'Keine Kühlung nötig – günstig produzierbar, gut skalierbar für breite Verfügbarkeit.'
+    ],
+    risks: [
+      'Verschreibungspflichtig – Anwendung ärztlich begleiten.',
+      'Typische GLP-1-Nebenwirkungen v.a. zu Beginn: Übelkeit, Verdauungsthemen (meist mild).',
+      'In DE/EU noch nicht zugelassen (US-Zulassung April 2026) – EU-Verfügbarkeit steht aus.',
+      'Auf Muskelerhalt achten (Eiweiß + Krafttraining).'
+    ],
+    status: 'In den USA 2026 als Foundayo zugelassen (Eli Lilly). In DE/EU noch nicht zugelassen.',
+    sources: [
+      { title: 'Meto – Next-Generation GLP-1 Drugs 2026 (Orforglipron u.a.)', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' },
+      { title: 'GoodRx – New Weight Loss Drugs (Übersicht 2026)', url: 'https://www.goodrx.com/conditions/weight-loss/new-weight-loss-drugs' },
+      { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'amycretin',
+    name: 'Amycretin',
+    altNames: 'GLP-1/Amylin-Doppelagonist (Novo Nordisk)',
+    class: 'GLP-1- und Amylin-Rezeptor-Agonist in einem Molekül',
+    emoji: '💉',
+    short: 'Der nächste große Abnehm-Kandidat von Novo Nordisk: kombiniert GLP-1 und Amylin in einem einzigen Molekül – als Tablette UND als Spritze in Phase 3, mit Aussicht auf noch stärkere Effekte.',
+    moa: 'Amycretin aktiviert gleichzeitig den GLP-1-Rezeptor (Sättigung, Insulin, verzögerte Magenentleerung) und den Amylin-Rezeptor (zusätzliche, komplementäre Sättigung). Zwei Sättigungssysteme in einem Molekül – ähnlich der Idee hinter CagriSema, aber vereint. Entwickelt wird sowohl eine orale als auch eine injizierbare Form; frühe Studien zeigten sehr deutliche Gewichtsverluste, die aktuell in Phase 3 bestätigt werden sollen.',
+    benefits: [
+      'Doppelmechanismus (GLP-1 + Amylin) – potenziell stärkere Wirkung als reine GLP-1-Mittel.',
+      'Sowohl oral als auch injizierbar in Entwicklung.',
+      'Frühe Studien mit ausgeprägtem Gewichtsverlust.',
+      'Ein Molekül statt Kombipräparat – einfacheres Handling.'
+    ],
+    risks: [
+      'Noch in der klinischen Prüfung (Phase 3) – nicht zugelassen und nicht regulär verfügbar.',
+      'Aus der Klasse bekannt: Übelkeit/Verdauungsthemen v.a. zu Beginn.',
+      'Langzeitdaten stehen aus; am Graumarkt gehandelte Ware ist ungeprüft.'
+    ],
+    status: 'Phase 3 (Novo Nordisk). Noch nicht zugelassen.',
+    sources: [
+      { title: 'Drug Discovery News – GLP-1 Pipeline 2026 (Amycretin)', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' },
+      { title: 'Meto – Next-Generation GLP-1 Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'tesamorelin',
+    name: 'Tesamorelin (Egrifta)',
+    altNames: 'TH9507, GHRH-Analogon',
+    class: 'GHRH-Analogon (Wachstumshormon-Releasing-Hormon), FDA-zugelassen',
+    emoji: '📈',
+    short: 'Das FDA-zugelassene GHRH-Analogon: hebt das körpereigene Wachstumshormon an und senkt gezielt das viszerale Bauchfett – in der Peptid-Szene einer der Standards (u.a. im Hunter-Williams-Stack).',
+    moa: 'Tesamorelin ist ein stabilisiertes Analogon des Wachstumshormon-Releasing-Hormons (GHRH) und regt die Hirnanhangsdrüse zu einer natürlichen, pulsatilen Ausschüttung von Wachstumshormon (GH) und damit IGF-1 an. Zugelassen ist es zur Reduktion von viszeralem Bauchfett (ursprünglich bei HIV-Lipodystrophie). Da die körpereigene Rückkopplung erhalten bleibt, gilt es als physiologischer als exogenes HGH. In der Biohacking-Szene wird es für Körperkomposition, Regeneration und Anti-Aging genutzt.',
+    benefits: [
+      'FDA-zugelassen – eines der wenigen GH-Peptide mit echter Zulassung.',
+      'Senkt gezielt viszerales (tiefes) Bauchfett.',
+      'Hebt GH und IGF-1 auf physiologische Weise (erhaltene Rückkopplung).',
+      'Kann Körperkomposition, Haut und Regeneration unterstützen.'
+    ],
+    risks: [
+      'Verschreibungspflichtig; die Biohacking-Nutzung außerhalb der Zulassung ist off-label.',
+      'GH-Klassen-Effekte möglich: Wassereinlagerung, Gelenkbeschwerden, Blutzucker im Blick behalten.',
+      'Im Wettkampfsport WADA-verboten.',
+      'Graumarkt-Ware auf Reinheit achten; in DE nur auf Rezept legal.'
+    ],
+    status: 'In den USA als Egrifta zugelassen (viszerales Bauchfett). In DE verschreibungspflichtig; Biohacking-Nutzung off-label.',
+    sources: [
+      { title: 'MyFitMed – Top Fat-Loss Peptides 2026 (Tesamorelin)', url: 'https://www.myfitmed.com/post/top-fat-loss-peptides-2026-ipamorelin-aod9604-tesamorelin-cjc1295-explained' },
+      { title: 'PeptideDeck – Best Growth Hormone Peptides 2026', url: 'https://www.peptidedeck.com/peptides/best-growth-hormone-peptides-2026' }
+    ],
+    community: [
+      { title: 'Hunter Williams – Peptide-Protokolle', url: 'https://www.peptideschedule.com/protocols/by/hunter-williams' }
+    ]
+  },
+  {
+    id: 'enclomiphene',
+    name: 'Enclomiphen',
+    altNames: 'Enclomiphene Citrate, Isomer von Clomifen',
+    class: 'Selektiver Östrogenrezeptor-Modulator (SERM), TRT-Alternative',
+    emoji: '⚗️',
+    short: 'Die beliebte TRT-Alternative in Tablettenform: hebt das körpereigene Testosteron an und erhält dabei die Fruchtbarkeit – in Studien normalisierte es den Testosteronspiegel bei rund 73 % der Männer.',
+    moa: 'Enclomiphen ist das reine trans-Isomer von Clomifen und wirkt als selektiver Östrogenrezeptor-Modulator (SERM). Es blockiert Östrogen-Rezeptoren im Hypothalamus/der Hypophyse, wodurch mehr LH und FSH ausgeschüttet werden – die Hoden produzieren daraufhin mehr eigenes Testosteron. Anders als klassische TRT (die die eigene Produktion und Spermienbildung unterdrückt) erhält Enclomiphen die Fruchtbarkeit und die Hodenfunktion. Deshalb ist es v.a. bei sekundärem Hypogonadismus und bei Kinderwunsch beliebt.',
+    benefits: [
+      'Hebt das EIGENE Testosteron – ohne Spritze, als Tablette.',
+      'Erhält Fruchtbarkeit und Hodenvolumen (im Gegensatz zur klassischen TRT).',
+      'Normalisierte in Studien den Testosteronspiegel bei ~73 % (sekundärer Hypogonadismus).',
+      'Sauberer als älteres Clomifen (nur das aktive Isomer, weniger Nebenwirkungen).'
+    ],
+    risks: [
+      'Verschreibungspflichtig – gehört ärztlich begleitet (Blutwerte, Östradiol).',
+      'Mögliche Nebenwirkungen: Sehstörungen (selten), Stimmungsschwankungen, Kopfschmerzen.',
+      'Wirkt nur bei intakter Hypothalamus-Hypophysen-Hoden-Achse (sekundärer Hypogonadismus).',
+      'In DE nicht breit zugelassen – Bezug oft über Graumarkt (ungeprüft).'
+    ],
+    status: 'In den USA als Off-Label-/Compounding-Option verbreitet; in DE nicht breit zugelassen. Verschreibungspflichtig.',
+    sources: [
+      { title: 'FormBlends – hCG vs. Enclomiphen: Fruchtbarkeit', url: 'https://formblends.com/articles/trt-hub/hcg-vs-enclomiphene-fertility-preservation' },
+      { title: 'Peptides.org – Men Hormone Optimization', url: 'https://www.peptidejournal.org/guides/mens-hormone-optimization-peptides-complete-guide' }
+    ],
+    community: [
+      { title: 'ExcelMale – Community-Diskussionen zu Hormonoptimierung', url: 'https://www.excelmale.com/' }
+    ]
+  },
+  {
+    id: 'kisspeptin',
+    name: 'Kisspeptin-10',
+    altNames: 'KP-10, Metastin-Fragment',
+    class: 'Hypothalamisches Neuropeptid (10 Aminosäuren), Hormonachsen-Trigger',
+    emoji: '🔗',
+    short: 'Der oberste Schalter der Hormonachse: ein körpereigenes Peptid, das ganz oben im Hypothalamus ansetzt und die natürliche Testosteron-/Fruchtbarkeitskaskade anstößt – spannend, aber noch investigativ.',
+    moa: 'Kisspeptin ist ein natürliches Neuropeptid und der zentrale Startknopf der Fortpflanzungsachse: Es stimuliert im Hypothalamus die Ausschüttung von GnRH, was wiederum LH und FSH aus der Hypophyse freisetzt und so die körpereigene Testosteron- bzw. Sexualhormonproduktion anregt. Weil es an der obersten Stelle der Kaskade wirkt, gilt es als besonders „physiologischer" Ansatz. Untersucht wird es u.a. für Libido, Fruchtbarkeit und als Baustein aggressiver Hormon-Restart-Protokolle (Kisspeptin für den Hypothalamus, Gonadorelin für die Hypophyse, hCG für die Hoden).',
+    benefits: [
+      'Setzt ganz oben an der Hormonachse an – regt die eigene Produktion physiologisch an.',
+      'Untersucht für Libido und sexuelle Erregung (bei Männern und Frauen).',
+      'Potenzieller Baustein zum Fruchtbarkeitserhalt/Hormon-Restart.',
+      'Körpereigenes Peptid mit kurzer Wirkung, gut steuerbar.'
+    ],
+    risks: [
+      'Investigativ – nicht für die Hormonoptimierung zugelassen, wenig Langzeitdaten am Menschen.',
+      'Optimale Dosierung/Protokolle sind nicht etabliert.',
+      'Nicht als Arzneimittel zugelassen; Research-Ware auf Reinheit achten.',
+      'Hormonelle Eingriffe gehören ärztlich begleitet.'
+    ],
+    status: 'Forschungssubstanz; nicht als Arzneimittel für die Hormonoptimierung zugelassen.',
+    sources: [
+      { title: 'Peptides.org – Best hCG Alternatives (Kisspeptin, Gonadorelin)', url: 'https://www.peptides.org/best-hcg-alternatives/' },
+      { title: 'RedFox – hCG vs. Kisspeptin-10 für TRT/Fruchtbarkeit', url: 'https://www.redfoxpeptides.is/hcg-vs-kisspeptin-10-for-trt-fertility/' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'gonadorelin',
+    name: 'Gonadorelin',
+    altNames: 'GnRH, LHRH, Gonadorelin-Acetat',
+    class: 'GnRH-Analogon (Gonadotropin-Releasing-Hormon)',
+    emoji: '🧬',
+    short: 'Die moderne hCG-Alternative: ein GnRH-Analogon, das die Hypophyse zur Ausschüttung von LH und FSH anregt – beliebt, um unter TRT die Hoden aktiv und die Fruchtbarkeit erhalten zu halten.',
+    moa: 'Gonadorelin ist die synthetische Form des körpereigenen GnRH und wirkt eine Ebene tiefer als Kisspeptin: Es stimuliert direkt die Hypophyse, LH und FSH auszuschütten, was die Hoden zur Testosteron- und Spermienproduktion anregt. Wichtig ist die pulsatile Gabe – eine dauerhafte Stimulation würde die Hypophyse abstumpfen lassen (Downregulation). In der Praxis ersetzt es häufig hCG, um unter TRT das Hodenvolumen und die Fruchtbarkeit zu erhalten.',
+    benefits: [
+      'Hält die Hoden unter TRT aktiv – erhält Volumen und Fruchtbarkeit.',
+      'Moderne, kurzwirksame Alternative zu hCG.',
+      'Regt die eigene LH/FSH- und Testosteronproduktion an.',
+      'Gut in bestehende Hormonprotokolle integrierbar.'
+    ],
+    risks: [
+      'Muss pulsatil dosiert werden – Dauergabe führt zur Downregulation (Gegenteil des Effekts).',
+      'Verschreibungspflichtig; Hormonprotokolle ärztlich begleiten.',
+      'Mögliche lokale Reaktionen an der Einstichstelle.',
+      'Graumarkt-Ware auf Reinheit/Sterilität achten.'
+    ],
+    status: 'Als Diagnostikum/Arzneimittel bekannt; die TRT-Begleitnutzung ist meist off-label/Compounding. Verschreibungspflichtig.',
+    sources: [
+      { title: 'Peptides.org – Best hCG Alternatives (Gonadorelin)', url: 'https://www.peptides.org/best-hcg-alternatives/' },
+      { title: 'PeptideJournal – Men Hormone Optimization with Peptides', url: 'https://www.peptidejournal.org/guides/mens-hormone-optimization-peptides-complete-guide' }
+    ],
+    community: [
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ]
+  },
+  {
+    id: 'cerebrolysin',
+    name: 'Cerebrolysin',
+    altNames: 'FPF-1070, neurotrophes Peptidgemisch',
+    class: 'Neurotrophes Peptid-Präparat (aus Schweinehirn-Hydrolysat)',
+    emoji: '🧠',
+    short: 'Das Nootropikum-Peptid mit der stärksten klinischen Evidenz: ein Gemisch neurotropher Peptide mit mehreren Phase-3-Studien zu Alzheimer und Schlaganfall – in mehreren Ländern als Medikament zugelassen.',
+    moa: 'Cerebrolysin ist ein standardisiertes Hydrolysat aus Schweinehirn und enthält niedermolekulare neurotrophe Peptide, die die Wirkung körpereigener Wachstumsfaktoren (wie BDNF, GDNF) nachahmen sollen. Es soll das Überleben von Nervenzellen fördern, die Bildung neuer Synapsen unterstützen und neuroprotektiv gegen Schädigung wirken. Anders als die meisten „Biohacking-Peptide" wurde es in echten, großen klinischen Studien untersucht – mit der besten Evidenzbasis aller Nootropika-Peptide. Verabreicht wird es klassisch als Infusion/Injektion.',
+    benefits: [
+      'Stärkste klinische Evidenz aller Nootropika-Peptide (Phase-3-Studien zu Alzheimer und Schlaganfall-Reha).',
+      'In mehreren Ländern als Arzneimittel zugelassen.',
+      'Wirkt neurotrop/neuroprotektiv – unterstützt Nervenzellen und Synapsen.',
+      'Wird für kognitive Erholung nach Schlaganfall und bei Demenz eingesetzt.'
+    ],
+    risks: [
+      'In DE/EU nicht als Arzneimittel zugelassen – Bezug meist über Graumarkt.',
+      'Als Injektion/Infusion: Anwendungs-, Infektions- und Fehldosier-Risiken.',
+      'Selten allergische Reaktionen möglich (tierisches Hydrolysat).',
+      'Effektstärke bei Gesunden (Biohacking) ist weniger belegt als bei Erkrankungen.'
+    ],
+    status: 'In mehreren Ländern (u.a. Russland, Asien) als Arzneimittel zugelassen. In DE/EU nicht zugelassen.',
+    sources: [
+      { title: 'Outliyr – Best Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' },
+      { title: 'PeptideDeck – Best Peptides for Cognitive Function 2026', url: 'https://www.peptidedeck.com/blog/best-peptides-for-cognitive-function' }
+    ],
+    community: [
+      { title: 'Peptides.nyc – Cognitive Health Peptides', url: 'https://peptides.nyc/learn/goal/cognitive' }
+    ]
+  },
+  {
+    id: 'pentadeca-arginate',
+    name: 'Pentadeca Arginate (PDA)',
+    altNames: 'PDA, BPC-157 Arginat-Salz, Pentadecapeptid-Arginat',
+    class: 'Synthetisches Pentadecapeptid (stabilisierte BPC-157-Weiterentwicklung)',
+    emoji: '🩹',
+    short: 'Der 2025/26-Nachfolger von BPC-157: dieselbe 15-Aminosäuren-Idee zur Geweberegeneration, aber als Arginat-Salz stabiler – in der Heilungs-Szene stark im Kommen.',
+    moa: 'Pentadeca Arginate ist eng mit BPC-157 verwandt (dasselbe 15-Aminosäuren-Grundgerüst), liegt aber als Arginat-Salz vor, was es chemisch stabiler und potenziell besser haltbar/bioverfügbar machen soll. Der postulierte Wirkmechanismus entspricht BPC-157: Förderung der Zellwanderung und Gefäßneubildung (Angiogenese), entzündungsmodulierende Effekte und Unterstützung der Heilung von Sehnen, Bändern, Muskel und Magen-Darm-Schleimhaut. Wichtig: Die Datenlage stammt fast ausschließlich aus BPC-157-Studien (überwiegend Tiermodelle) und Anwenderberichten; eigenständige Studien zu PDA fehlen weitgehend.',
+    benefits: [
+      'Stabilere Arginat-Form – soll Haltbarkeit und Verträglichkeit gegenüber BPC-157 verbessern.',
+      'Gleiche regenerative Idee: Sehnen, Bänder, Muskel, Magen-Darm (überwiegend aus BPC-157-Daten).',
+      'Fördert (im Modell) Gefäßneubildung und Geweberegeneration.',
+      'Keine hormonelle Wirkung.'
+    ],
+    risks: [
+      'Eigenständige Studien zu PDA fehlen fast völlig – Wirkung ist aus BPC-157 extrapoliert.',
+      'Nicht als Arzneimittel zugelassen; reine Research-/Graumarkt-Ware (Reinheit ungewiss).',
+      'Im Wettkampfsport wie BPC-157 als nicht zugelassene Substanz kritisch (WADA S0).',
+      'Langzeitsicherheit unbekannt; theoretisches Risiko über die gefäßfördernde Wirkung.'
+    ],
+    status: 'Neues Forschungs-Peptid, nicht zugelassen. Evidenz weitgehend aus BPC-157 abgeleitet.',
+    sources: [
+      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' },
+      { title: 'PeptideCase – Top 10 Research Peptides 2026', url: 'https://peptidecase.com/blog/top-10-research-peptides-2026' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ]
+  },
   // ============ ATEMWEGE / LUNGE (KHAVINSON-BIOREGULATOREN) ============
   {
     id: 'bronchogen-chonluten',
@@ -49,6 +705,7 @@ const EXPERIMENTAL = [
       {
         title: 'Bronchogen & Chonluten: Zwei Peptide für die Lunge – die Minifolge',
         audio: 'audio/bronchogen-chonluten-podcast.mp3',
+        spotify: '3b8emQB8ibdtFNCIXuiE7U',
         lengthLabel: '≈ 4 Min · KI-Podcast (Paul & Paula, ElevenLabs Pro-Stimme)',
         note: 'KI-generierte deutsche Minifolge mit realistischen Stimmen (ElevenLabs, neue Pro-Stimme). Kompakt erklärt: zwei Khavinson-Lungenpeptide, die sich ergänzen – Chonluten (entzündungsregulierend) und Bronchogen (regenerierend). Positiv, aber ehrlich gerahmt: Die Evidenz stammt überwiegend aus der russischen Khavinson-Forschung und aus präklinischen Daten, viele Quellen sind Verkaufs-Shops, und beide sind bei uns nicht zugelassen (Research-Ware). Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Atemprobleme bitte ärztlich abklären.',
         sources: [
@@ -1646,7 +2303,15 @@ const _EXP_CAT_MAP = {
   'bpc-157': 'Immun',
   'tb-500': 'Immun',
   'ghk-cu': 'Immun',
+  'survodutide': 'Stoffwechsel', 'maritide': 'Stoffwechsel', 'mazdutide': 'Stoffwechsel', 'acarbose': 'Longevity', 'canagliflozin': 'Longevity',
+  'sermorelin': 'Exercise', 'igf-1-lr3': 'Exercise', 'follistatin': 'Exercise',
+  'ara-290': 'Immun', 'vip': 'Immun',
+  'dihexa': 'Sonstige', 'p21': 'Sonstige', 'hcg': 'Sonstige', 'oxytocin': 'Sonstige', 'humanin': 'Longevity',
   'bronchogen-chonluten': 'Immun',
+  'pentadeca-arginate': 'Immun',
+  'orforglipron': 'Stoffwechsel', 'amycretin': 'Stoffwechsel',
+  'tesamorelin': 'Exercise',
+  'enclomiphene': 'Sonstige', 'kisspeptin': 'Sonstige', 'gonadorelin': 'Sonstige', 'cerebrolysin': 'Sonstige',
   'mots-c': 'Longevity',
   'rapamycin': 'Longevity',
   'epitalon': 'Longevity',
