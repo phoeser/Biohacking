@@ -60,6 +60,10 @@
       '.mydata-rec-item strong{display:block;margin-bottom:2px}' +
       '.mydata-rec-names{margin-top:4px;display:flex;flex-wrap:wrap;gap:6px}' +
       '.mydata-rec-names a{font-size:.82rem;background:rgba(47,139,106,.15);border:1px solid rgba(47,139,106,.35);border-radius:999px;padding:3px 9px;text-decoration:none;color:inherit}' +
+      '.mydata-rec-names .mydata-rec-plain{font-size:.82rem;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:3px 9px}' +
+      '.mydata-daypills{display:inline-flex;gap:6px}' +
+      '.mydata-pill{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.15);color:inherit;border-radius:999px;padding:5px 12px;font-size:.82rem;cursor:pointer}' +
+      '.mydata-pill.on{background:rgba(47,139,106,.22);border-color:rgba(47,139,106,.6)}' +
       '.mydata-toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:#1c2b26;color:#fff;border:1px solid rgba(255,255,255,.15);padding:12px 18px;border-radius:12px;opacity:0;transition:.3s;z-index:9999;max-width:90%;text-align:center}' +
       '.mydata-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}' +
       '.mydata-toast.ok{border-color:rgba(47,139,106,.6)}' +
@@ -290,34 +294,48 @@
   function todayKey() {
     return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   }
+  function yesterdayKey() {
+    var d = new Date(); d.setDate(d.getDate() - 1);
+    return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+  }
+
+  var logUnsubUser = null, logUnsubDay = null;
 
   function renderSupplementLog(box) {
-    var day = todayKey();
     var opts = supplementNames().map(function (n) { return '<option value="' + n.replace(/"/g, '&quot;') + '">'; }).join('');
     var userRef = db.collection('users').doc(currentUser.uid);
-    var logRef = userRef.collection('supplementLog').doc(day);
-    var stack = [];   // persönliche Supplement-Liste
-    var taken = [];   // heute genommen
+    var selDay = todayKey();
+    var stack = [], taken = [], submitted = false;
 
     box.innerHTML =
       '<div class="mydata-card">' +
-        '<h3>Supplement-Log <span class="muted small">(' + day + ')</span></h3>' +
-        '<p class="muted small">Tippe an, was du <strong>heute</strong> genommen hast. Neue Supplements legst du einmal an – danach jeden Tag nur noch antippen.</p>' +
+        '<div class="mydata-dash-head" style="margin-top:0">' +
+          '<h3>Supplement-Log</h3>' +
+          '<div class="mydata-daypills">' +
+            '<button type="button" class="mydata-pill on" data-day="today">Heute</button>' +
+            '<button type="button" class="mydata-pill" data-day="yesterday">Gestern</button>' +
+          '</div>' +
+        '</div>' +
+        '<p class="muted small" id="md-log-day"></p>' +
         '<div class="mydata-stack" id="md-stack"></div>' +
         '<div class="mydata-log-input">' +
           '<input type="text" id="md-log-in" list="md-log-list" placeholder="Neues Supplement hinzufügen …" />' +
           '<datalist id="md-log-list">' + opts + '</datalist>' +
-          '<button class="btn btn-primary btn-sm" id="md-log-add">+ Hinzufügen</button>' +
+          '<button class="btn btn-ghost btn-sm" id="md-log-add">+ Hinzufügen</button>' +
+        '</div>' +
+        '<div style="margin-top:12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">' +
+          '<button class="btn btn-primary btn-sm" id="md-log-submit">✓ Abschicken</button>' +
+          '<span class="small muted" id="md-log-status"></span>' +
         '</div>' +
       '</div>';
 
+    function dayRef() { return userRef.collection('supplementLog').doc(selDay); }
+
     function paintStack() {
-      var wrap = $('#md-stack', box);
-      if (!wrap) return;
+      var wrap = $('#md-stack', box); if (!wrap) return;
       if (!stack.length) { wrap.innerHTML = '<span class="muted small">Noch keine Supplements angelegt – füge unten deine hinzu.</span>'; return; }
       wrap.innerHTML = stack.map(function (name) {
-        var on = taken.indexOf(name) !== -1;
-        var esc = name.replace(/"/g, '&quot;');
+        var on = taken.indexOf(name) !== -1; var esc = name.replace(/"/g, '&quot;');
         return '<button type="button" class="mydata-supp' + (on ? ' on' : '') + '" data-name="' + esc + '">' +
                  '<span class="mydata-supp-check">' + (on ? '✓' : '') + '</span>' +
                  '<span class="mydata-supp-name">' + name + '</span>' +
@@ -327,33 +345,56 @@
       wrap.querySelectorAll('.mydata-supp').forEach(function (b) {
         b.addEventListener('click', function (e) {
           if (e.target.hasAttribute('data-remove')) return;
-          var name = b.dataset.name;
-          var arr = taken.slice(); var i = arr.indexOf(name);
+          var name = b.dataset.name; var arr = taken.slice(); var i = arr.indexOf(name);
           if (i === -1) arr.push(name); else arr.splice(i, 1);
-          logRef.set({ taken: arr, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+          dayRef().set({ taken: arr, submitted: false, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
         });
       });
       wrap.querySelectorAll('[data-remove]').forEach(function (x) {
-        x.addEventListener('click', function (e) {
-          e.stopPropagation();
-          var name = x.getAttribute('data-remove');
-          userRef.set({ stack: stack.filter(function (n) { return n !== name; }) }, { merge: true });
-        });
+        x.addEventListener('click', function (e) { e.stopPropagation(); userRef.set({ stack: stack.filter(function (n) { return n !== x.getAttribute('data-remove'); }) }, { merge: true }); });
       });
     }
 
-    userRef.onSnapshot(function (doc) { stack = (doc.exists && doc.data().stack) || []; paintStack(); });
-    logRef.onSnapshot(function (doc) { taken = (doc.exists && doc.data().taken) || []; paintStack(); });
+    function status() {
+      var st = $('#md-log-status', box); if (st) st.textContent = submitted ? '✓ abgeschickt' : '';
+      var dl = $('#md-log-day', box); if (dl) dl.innerHTML = 'Tippe an, was du <strong>' + (selDay === todayKey() ? 'heute' : 'gestern (' + selDay + ')') + '</strong> genommen hast, dann „Abschicken". Neue Supplements einmal anlegen – danach nur noch antippen.';
+    }
+
+    function bindDay() {
+      if (logUnsubDay) { logUnsubDay(); logUnsubDay = null; }
+      logUnsubDay = dayRef().onSnapshot(function (doc) {
+        taken = (doc.exists && doc.data().taken) || [];
+        submitted = !!(doc.exists && doc.data().submitted);
+        paintStack(); status();
+      });
+    }
+
+    if (logUnsubUser) { logUnsubUser(); logUnsubUser = null; }
+    logUnsubUser = userRef.onSnapshot(function (doc) { stack = (doc.exists && doc.data().stack) || []; paintStack(); });
+    bindDay(); status();
+
+    box.querySelectorAll('.mydata-pill').forEach(function (p) {
+      p.addEventListener('click', function () {
+        box.querySelectorAll('.mydata-pill').forEach(function (q) { q.classList.toggle('on', q === p); });
+        selDay = p.dataset.day === 'yesterday' ? yesterdayKey() : todayKey();
+        bindDay(); status();
+      });
+    });
 
     async function add() {
       var input = $('#md-log-in', box); var val = (input.value || '').trim(); if (!val) return;
       if (stack.indexOf(val) === -1) await userRef.set({ stack: stack.concat([val]) }, { merge: true });
       var t = taken.slice(); if (t.indexOf(val) === -1) t.push(val);
-      await logRef.set({ taken: t, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+      await dayRef().set({ taken: t, submitted: false, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
       input.value = '';
     }
     $('#md-log-add', box).addEventListener('click', add);
     $('#md-log-in', box).addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); add(); } });
+
+    $('#md-log-submit', box).addEventListener('click', async function () {
+      await dayRef().set({ taken: taken, submitted: true, submittedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+      toast('Supplement-Log für ' + (selDay === todayKey() ? 'heute' : selDay) + ' gespeichert ✓', 'ok');
+    });
   }
 
   // ---- Empfehlungen (regelbasiert, aus Werten abgeleitet) ----
@@ -367,40 +408,88 @@
   function renderRecommendations(box) {
     box.innerHTML =
       '<div class="mydata-card">' +
-        '<h3>Empfehlungen für dich</h3>' +
-        '<p class="muted small">Abgeleitet aus deinen aktuellen Werten – konkrete Einträge aus dem App-Katalog, ohne was du schon nimmst. Information, keine medizinische Beratung, keine Dosierangaben.</p>' +
+        '<div class="mydata-dash-head" style="margin-top:0">' +
+          '<h3>Empfehlungen für dich</h3>' +
+          '<button class="btn btn-ghost btn-sm" id="md-rec-refresh">🔄 Neu berechnen</button>' +
+        '</div>' +
+        '<p class="muted small">Persönlich aus deinen heutigen Werten (KI) – konkrete Einträge aus dem App-Katalog, ohne was du schon nimmst. Information, keine medizinische Beratung, keine Dosierangaben.</p>' +
         '<div id="md-rec-list"><p class="muted small">Sobald deine Werte geladen sind, erscheinen hier passende Vorschläge.</p></div>' +
       '</div>';
-    refreshRecommendations(lastVitals);
+    var rb = document.getElementById('md-rec-refresh');
+    if (rb) rb.addEventListener('click', function () { generateRecommendations(lastVitals, true); });
+    generateRecommendations(lastVitals, false);
   }
 
-  function refreshRecommendations(v) {
-    var list = document.getElementById('md-rec-list');
-    if (!list) return;
-    if (!v) return;
+  // von paintVitals aufgerufen (nutzt Tages-Cache)
+  function refreshRecommendations(v) { generateRecommendations(v, false); }
+
+  function renderRecList(recs) {
+    var list = document.getElementById('md-rec-list'); if (!list) return;
+    list.innerHTML = recs.map(function (r) {
+      var chips = (r.items || []).map(function (name) {
+        var hit = catRef(name);
+        return hit ? '<a href="#' + hit.view + '">' + hit.name + '</a>' : '<span class="mydata-rec-plain">' + name + '</span>';
+      }).join('');
+      return '<div class="mydata-rec-item"><span class="md-rec-dot"></span><div>' +
+               '<strong>' + (r.title || '') + '</strong>' +
+               '<span class="muted small">' + (r.why || '') + '</span>' +
+               (chips ? '<div class="mydata-rec-names">' + chips + '</div>' : '') +
+             '</div></div>';
+    }).join('') + '<p class="small muted" style="margin-top:10px">⚕️ Allgemeine Information, kein medizinischer Rat, keine Dosierempfehlung.</p>';
+  }
+
+  function ruleBasedRecs(v) {
     var recs = [];
     function add(title, why, cands) {
-      var names = [];
-      cands.forEach(function (c) { var hit = catRef(c); if (hit && myStack.indexOf(hit.name) === -1 && !names.some(function (n) { return n.name === hit.name; })) names.push(hit); });
-      recs.push({ title: title, why: why, names: names });
+      var items = [];
+      cands.forEach(function (c) { var hit = catRef(c); if (hit && myStack.indexOf(hit.name) === -1 && items.indexOf(hit.name) === -1) items.push(hit.name); });
+      recs.push({ title: title, why: why, items: items });
     }
     var lowRec = v.recoveryScore != null && v.recoveryScore <= 50;
     var lowSleep = (v.sleepPerformance != null && v.sleepPerformance < 70) || (v.totalSleepMin != null && v.totalSleepMin < 420);
     var highStrain = v.strain != null && v.strain >= 14;
-
     if (lowRec) add('Erholung unterstützen', 'Deine Recovery ist heute eher niedrig.', ['Magnesium', 'Ashwagandha', 'Glycin', 'Omega-3']);
     if (lowSleep) add('Besser schlafen', 'Deine Schlaf-Leistung lag unter deinem Optimum.', ['Glycin', 'Magnesium', 'L-Theanin', 'Melatonin', 'Apigenin']);
-    if (highStrain) add('Regeneration nach hoher Belastung', 'Hohe Tagesbelastung – Regeneration fördern.', ['Omega-3', 'Kreatin', 'Curcumin', 'BPC-157', 'TB-500']);
-    if (!recs.length) add('Solide Basis halten', 'Deine Werte sehen heute rund aus – dranbleiben.', ['Vitamin D3', 'Omega-3', 'Magnesium', 'Kreatin']);
+    if (highStrain) add('Regeneration', 'Hohe Tagesbelastung – Regeneration fördern.', ['Omega-3', 'Kreatin', 'Curcumin', 'BPC-157', 'TB-500']);
+    if (!recs.length) add('Solide Basis halten', 'Deine Werte sehen heute rund aus.', ['Vitamin D3', 'Omega-3', 'Magnesium', 'Kreatin']);
+    return recs;
+  }
 
-    list.innerHTML = recs.map(function (r) {
-      var chips = r.names.map(function (h) { return '<a href="#' + h.view + '">' + h.name + '</a>'; }).join('');
-      return '<div class="mydata-rec-item"><span class="md-rec-dot"></span><div>' +
-               '<strong>' + r.title + '</strong>' +
-               '<span class="muted small">' + r.why + '</span>' +
-               (chips ? '<div class="mydata-rec-names">' + chips + '</div>' : '<div class="muted small" style="margin-top:4px">Passendes hast du schon in deinem Stack 👍</div>') +
-             '</div></div>';
-    }).join('') + '<p class="small muted" style="margin-top:10px">⚕️ Allgemeine Information, kein medizinischer Rat, keine Dosierempfehlung.</p>';
+  var recGenBusy = false;
+  async function generateRecommendations(v, force) {
+    var list = document.getElementById('md-rec-list'); if (!list) return;
+    if (!v) return;
+    var day = todayKey();
+    var key = 'bhk_rec_' + (currentUser ? currentUser.uid : 'x') + '_' + day;
+    if (!force) {
+      try { var cached = localStorage.getItem(key); if (cached) { renderRecList(JSON.parse(cached)); return; } } catch (e) {}
+    }
+    if (typeof window.BHKGemini !== 'function') { renderRecList(ruleBasedRecs(v)); return; }
+    if (recGenBusy) return; recGenBusy = true;
+    list.innerHTML = '<p class="muted small">🤖 Empfehlungen werden berechnet …</p>';
+    try {
+      var cat = supplementNames();
+      var sys = 'Du bist ein vorsichtiger Biohacking-Assistent. Empfiehl NUR Einträge aus der bereitgestellten Katalog-Liste. Keine Dosierungen, keine Heilversprechen, kein medizinischer Rat. Deutsch. Antworte AUSSCHLIESSLICH mit gültigem JSON ohne weiteren Text in genau diesem Format: [{"title":"kurzer Titel","why":"ein kurzer Satz warum","items":["KatalogName","KatalogName"]}] – 2 bis 4 Objekte, items nur exakte Namen aus dem Katalog, die der Nutzer noch NICHT nimmt.';
+      var prompt = 'Aktuelle WHOOP-Tageswerte: ' +
+        'Recovery ' + (v.recoveryScore != null ? v.recoveryScore + '%' : 'k.A.') + ', ' +
+        'HRV ' + (v.hrv != null ? Math.round(v.hrv) + 'ms' : 'k.A.') + ', ' +
+        'Ruhepuls ' + (v.restingHr != null ? v.restingHr : 'k.A.') + ', ' +
+        'Schlaf-Leistung ' + (v.sleepPerformance != null ? v.sleepPerformance + '%' : 'k.A.') + ', ' +
+        'Schlafdauer ' + (v.totalSleepMin != null ? v.totalSleepMin + ' min' : 'k.A.') + ', ' +
+        'Strain ' + (v.strain != null ? Math.round(v.strain * 10) / 10 : 'k.A.') + '. ' +
+        'Nimmt bereits (bitte weglassen): ' + (myStack.length ? myStack.join(', ') : 'nichts') + '. ' +
+        'Katalog (nur daraus wählen): ' + cat.join(', ') + '.';
+      var res = await window.BHKGemini(prompt, { systemInstruction: sys, temperature: 0.4, maxOutputTokens: 900 });
+      var txt = ((res && res.text) || '').trim().replace(/^```json/i, '').replace(/^```/, '').replace(/```$/, '').trim();
+      var recs = JSON.parse(txt);
+      if (!Array.isArray(recs) || !recs.length) throw new Error('leer');
+      renderRecList(recs);
+      try { localStorage.setItem(key, JSON.stringify(recs)); } catch (e) {}
+    } catch (e) {
+      console.warn('KI-Empfehlung fehlgeschlagen, nutze Regeln:', e);
+      renderRecList(ruleBasedRecs(v));
+    }
+    recGenBusy = false;
   }
 
   // ================= Init =================
