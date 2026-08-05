@@ -435,7 +435,7 @@
                '<span class="muted small">' + (r.why || '') + '</span>' +
                (chips ? '<div class="mydata-rec-names">' + chips + '</div>' : '') +
              '</div></div>';
-    }).join('') + '<p class="small muted" style="margin-top:10px">⚕️ Allgemeine Information, kein medizinischer Rat, keine Dosierempfehlung.</p>';
+    }).join('') + '<p class="small muted" style="margin-top:10px">⚕️ Allgemeine Information, kein medizinischer Rat, keine Dosierempfehlung. Peptide sind experimentell und überwiegend nicht als Arzneimittel zugelassen – nur zur Information.</p>';
   }
 
   function ruleBasedRecs(v) {
@@ -460,7 +460,7 @@
     var list = document.getElementById('md-rec-list'); if (!list) return;
     if (!v) return;
     var day = todayKey();
-    var key = 'bhk_rec_' + (currentUser ? currentUser.uid : 'x') + '_' + day;
+    var key = 'bhk_rec2_' + (currentUser ? currentUser.uid : 'x') + '_' + day;
     if (!force) {
       try { var cached = localStorage.getItem(key); if (cached) { renderRecList(JSON.parse(cached)); return; } } catch (e) {}
     }
@@ -468,8 +468,13 @@
     if (recGenBusy) return; recGenBusy = true;
     list.innerHTML = '<p class="muted small">🤖 Empfehlungen werden berechnet …</p>';
     try {
-      var cat = supplementNames();
-      var sys = 'Du bist ein vorsichtiger Biohacking-Assistent. Empfiehl NUR Einträge aus der bereitgestellten Katalog-Liste. Keine Dosierungen, keine Heilversprechen, kein medizinischer Rat. Deutsch. Antworte AUSSCHLIESSLICH mit gültigem JSON ohne weiteren Text in genau diesem Format: [{"title":"kurzer Titel","why":"ein kurzer Satz warum","items":["KatalogName","KatalogName"]}] – 2 bis 4 Objekte, items nur exakte Namen aus dem Katalog, die der Nutzer noch NICHT nimmt.';
+      var supps = [];
+      try { if (typeof SUPPLEMENTS !== 'undefined') SUPPLEMENTS.forEach(function (s) { if (s && s.name) supps.push(s.name); }); } catch (e) {}
+      var peps = [];
+      try { if (typeof EXPERIMENTAL !== 'undefined') EXPERIMENTAL.forEach(function (s) { if (s && s.name) peps.push(s.name); }); } catch (e) {}
+      var sys = 'Du bist ein vorsichtiger Biohacking-Assistent für die App „Biohacking Kompakt". Empfiehl NUR Einträge aus den bereitgestellten Listen. Keine Dosierungen, keine Heilversprechen, kein medizinischer Rat, Deutsch. ' +
+        'Du DARFST passende Peptide aus der Peptid-Liste aufnehmen, aber nur SEHR VORSICHTIG und rein INFORMATIV: Peptide sind experimentell, überwiegend nicht als Arzneimittel zugelassen und werden off-label verwendet. Kennzeichne solche Vorschläge im Begründungssatz klar als „experimentell, nur zur Information" und dränge nie dazu. Höchstens EIN Peptid-Block, nur wenn es wirklich zu den Werten passt; Supplements bevorzugen. ' +
+        'Antworte AUSSCHLIESSLICH mit gültigem JSON ohne weiteren Text: [{"title":"kurzer Titel","why":"ein kurzer Satz (bei Peptiden mit Vorsicht-Hinweis)","items":["Name","Name"]}] – 2 bis 4 Objekte, items nur exakte Namen aus den Listen, die der Nutzer noch NICHT nimmt.';
       var prompt = 'Aktuelle WHOOP-Tageswerte: ' +
         'Recovery ' + (v.recoveryScore != null ? v.recoveryScore + '%' : 'k.A.') + ', ' +
         'HRV ' + (v.hrv != null ? Math.round(v.hrv) + 'ms' : 'k.A.') + ', ' +
@@ -478,7 +483,8 @@
         'Schlafdauer ' + (v.totalSleepMin != null ? v.totalSleepMin + ' min' : 'k.A.') + ', ' +
         'Strain ' + (v.strain != null ? Math.round(v.strain * 10) / 10 : 'k.A.') + '. ' +
         'Nimmt bereits (bitte weglassen): ' + (myStack.length ? myStack.join(', ') : 'nichts') + '. ' +
-        'Katalog (nur daraus wählen): ' + cat.join(', ') + '.';
+        'Supplements (bevorzugt wählen): ' + supps.join(', ') + '. ' +
+        'Peptide (nur vorsichtig/informativ, experimentell): ' + peps.join(', ') + '.';
       var res = await window.BHKGemini(prompt, { systemInstruction: sys, temperature: 0.4, maxOutputTokens: 900 });
       var txt = ((res && res.text) || '').trim().replace(/^```json/i, '').replace(/^```/, '').replace(/```$/, '').trim();
       var recs = JSON.parse(txt);
