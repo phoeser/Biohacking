@@ -47,6 +47,19 @@
       '.mydata-chip{display:inline-flex;align-items:center;gap:6px;background:rgba(47,139,106,.18);border:1px solid rgba(47,139,106,.4);border-radius:999px;padding:5px 10px;font-size:.85rem}' +
       '.mydata-chip button{background:none;border:none;color:inherit;cursor:pointer;font-size:1rem;line-height:1;opacity:.7}' +
       '.btn-sm{padding:7px 12px;font-size:.85rem}' +
+      '.mydata-summary{background:rgba(47,139,106,.12);border:1px solid rgba(47,139,106,.3);border-radius:12px;padding:12px 14px;margin:0 0 12px;font-size:.95rem;line-height:1.5}' +
+      '.mydata-stack{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}' +
+      '.mydata-supp{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:7px 12px;font-size:.9rem;color:inherit;cursor:pointer;transition:.15s}' +
+      '.mydata-supp.on{background:rgba(47,139,106,.22);border-color:rgba(47,139,106,.6)}' +
+      '.mydata-supp-check{display:inline-flex;width:18px;height:18px;align-items:center;justify-content:center;border-radius:50%;border:1px solid rgba(255,255,255,.3);font-size:.72rem;flex:0 0 auto}' +
+      '.mydata-supp.on .mydata-supp-check{background:#2f8b6a;border-color:#2f8b6a;color:#fff}' +
+      '.mydata-supp-x{opacity:.45;font-size:1.05rem;line-height:1;margin-left:2px}' +
+      '.mydata-supp-x:hover{opacity:1}' +
+      '.mydata-rec-item{display:flex;gap:10px;align-items:flex-start;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);border-radius:12px;padding:12px 14px;margin:8px 0}' +
+      '.mydata-rec-item .md-rec-dot{flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#2f8b6a;margin-top:7px}' +
+      '.mydata-rec-item strong{display:block;margin-bottom:2px}' +
+      '.mydata-rec-names{margin-top:4px;display:flex;flex-wrap:wrap;gap:6px}' +
+      '.mydata-rec-names a{font-size:.82rem;background:rgba(47,139,106,.15);border:1px solid rgba(47,139,106,.35);border-radius:999px;padding:3px 9px;text-decoration:none;color:inherit}' +
       '.mydata-toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:#1c2b26;color:#fff;border:1px solid rgba(255,255,255,.15);padding:12px 18px;border-radius:12px;opacity:0;transition:.3s;z-index:9999;max-width:90%;text-align:center}' +
       '.mydata-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}' +
       '.mydata-toast.ok{border-color:rgba(47,139,106,.6)}' +
@@ -57,6 +70,9 @@
   var root = null;          // #mydata-app
   var currentUser = null;
   var unsubVitals = null;
+  var recBox = null;        // #md-rec Container
+  var lastVitals = null;    // zuletzt geladene Werte (für Empfehlungen)
+  var myStack = [];         // persönliche Supplement-Liste (für Empfehlungen)
 
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
   function el(html) { var d = document.createElement('div'); d.innerHTML = html.trim(); return d.firstChild; }
@@ -130,6 +146,17 @@
     var logBox = el('<div id="md-log"></div>');
     root.appendChild(logBox);
     renderSupplementLog(logBox);
+
+    // Empfehlungen (ganz unten)
+    recBox = el('<div id="md-rec"></div>');
+    root.appendChild(recBox);
+    renderRecommendations(recBox);
+
+    // Stack für die Empfehlungen mitführen
+    db.collection('users').doc(currentUser.uid).onSnapshot(function (doc) {
+      myStack = (doc.exists && doc.data().stack) || [];
+      refreshRecommendations(lastVitals);
+    });
   }
 
   // ---- Wearable / WHOOP ----
@@ -137,12 +164,12 @@
     box.innerHTML = '<div class="mydata-card"><p class="muted">Lade …</p></div>';
     var connected = false;
     try {
-      // Ob verbunden, erkennen wir daran, ob es schon Vitals gibt ODER wir fragen den Sync-Status.
-      // Tokens selbst darf der Client nicht lesen – also nutzen wir die Vitals-Existenz + Sync.
-      var snap = await db.collection('users').doc(currentUser.uid).collection('vitals')
-        .orderBy(firebase.firestore.FieldPath.documentId(), 'desc').limit(1).get();
+      // Verbunden = es gibt schon mindestens ein Vitals-Dokument. Einfache Abfrage ohne Sortierung.
+      var snap = await db.collection('users').doc(currentUser.uid).collection('vitals').limit(1).get();
       connected = !snap.empty;
-    } catch (e) { console.warn(e); }
+    } catch (e) { console.warn('vitals check', e); }
+    // Direkt nach dem Verbinden (Rückkehr von WHOOP) ggf. schon als verbunden behandeln
+    if (!connected && (location.hash || '').indexOf('whoop=connected') !== -1) connected = true;
 
     if (!connected) {
       box.innerHTML = '';
@@ -184,6 +211,7 @@
           '<button class="btn btn-ghost btn-sm" id="md-disconnect">Verbindung trennen</button>' +
         '</div>' +
       '</div>' +
+      '<div class="mydata-summary" id="md-summary" style="display:none"></div>' +
       '<div class="mydata-grid" id="md-grid"><p class="muted">Lade Werte …</p></div>' +
       '<p class="small muted" id="md-updated"></p>';
 
@@ -199,24 +227,51 @@
       catch (e) { toast('Trennen fehlgeschlagen: ' + e.message, 'error'); }
     });
 
-    // Live-Listener auf das neueste Vitals-Dokument
+    // Live: heutiges Dokument beobachten; falls (noch) keins, das neueste vorhandene zeigen.
     if (unsubVitals) { unsubVitals(); unsubVitals = null; }
-    unsubVitals = db.collection('users').doc(currentUser.uid).collection('vitals')
-      .orderBy(firebase.firestore.FieldPath.documentId(), 'desc').limit(1)
-      .onSnapshot(function (snap) {
-        var grid = $('#md-grid', box);
-        if (snap.empty) { grid.innerHTML = '<p class="muted">Noch keine Werte – tippe auf „Aktualisieren".</p>'; return; }
-        var v = snap.docs[0].data();
-        grid.innerHTML =
-          tile('Recovery', fmt(v.recoveryScore, '%'), 'Erholung heute') +
-          tile('HRV', fmt(v.hrv != null ? Math.round(v.hrv) : null, 'ms'), 'Herzratenvariabilität') +
-          tile('Ruhepuls', fmt(v.restingHr, 'bpm'), 'in Ruhe') +
-          tile('Schlaf', fmt(v.sleepPerformance, '%'), 'Schlaf-Leistung') +
-          tile('Schlafdauer', v.totalSleepMin != null ? (Math.floor(v.totalSleepMin/60)+' h '+(v.totalSleepMin%60)+' min') : '–', 'gesamt') +
-          tile('Strain', fmt(v.strain != null ? Math.round(v.strain*10)/10 : null), 'Tagesbelastung');
-        var upd = $('#md-updated', box);
-        if (upd) upd.textContent = 'Stand: ' + (v.date || '') + ' · Quelle: WHOOP';
-      }, function (err) { console.error(err); });
+    var col = db.collection('users').doc(currentUser.uid).collection('vitals');
+    unsubVitals = col.doc(todayKey()).onSnapshot(function (doc) {
+      if (doc.exists) { paintVitals(box, doc.data()); }
+      else {
+        col.get().then(function (qs) {
+          if (qs.empty) { var g = $('#md-grid', box); if (g) g.innerHTML = '<p class="muted">Noch keine Werte – tippe auf „Aktualisieren".</p>'; return; }
+          var docs = qs.docs.slice().sort(function (a, b) { return a.id < b.id ? 1 : -1; });
+          paintVitals(box, docs[0].data());
+        }).catch(function (e) { console.warn(e); });
+      }
+    }, function (err) { console.error(err); });
+  }
+
+  function paintVitals(box, v) {
+    lastVitals = v;
+    var grid = $('#md-grid', box);
+    if (!grid) return;
+    grid.innerHTML =
+      tile('Recovery', fmt(v.recoveryScore, '%'), 'Erholung heute') +
+      tile('HRV', fmt(v.hrv != null ? Math.round(v.hrv) : null, 'ms'), 'Herzratenvariabilität') +
+      tile('Ruhepuls', fmt(v.restingHr, 'bpm'), 'in Ruhe') +
+      tile('Schlaf', fmt(v.sleepPerformance, '%'), 'Schlaf-Leistung') +
+      tile('Schlafdauer', v.totalSleepMin != null ? (Math.floor(v.totalSleepMin / 60) + ' h ' + (v.totalSleepMin % 60) + ' min') : '–', 'gesamt') +
+      tile('Strain', fmt(v.strain != null ? Math.round(v.strain * 10) / 10 : null), 'Tagesbelastung');
+    var sum = $('#md-summary', box);
+    if (sum) {
+      var parts = [];
+      if (v.recoveryScore != null) parts.push('Erholung <strong>' + v.recoveryScore + '%</strong>');
+      if (v.sleepPerformance != null) {
+        var sl = v.sleepPerformance + '%';
+        if (v.totalSleepMin != null) sl += ' (' + Math.floor(v.totalSleepMin / 60) + ' h ' + (v.totalSleepMin % 60) + ' min)';
+        parts.push('Schlaf <strong>' + sl + '</strong>');
+      }
+      if (v.hrv != null) parts.push('HRV <strong>' + Math.round(v.hrv) + ' ms</strong>');
+      if (v.restingHr != null) parts.push('Ruhepuls <strong>' + v.restingHr + '</strong>');
+      if (v.strain != null) parts.push('Strain <strong>' + (Math.round(v.strain * 10) / 10) + '</strong>');
+      sum.innerHTML = '📌 Heute im Überblick: ' + parts.join(' · ');
+      sum.style.display = '';
+    }
+    var upd = $('#md-updated', box);
+    if (upd) upd.textContent = 'Stand: ' + (v.date || '') + ' · Quelle: WHOOP';
+    // Empfehlungen aktualisieren, wenn Werte neu sind
+    if (typeof refreshRecommendations === 'function') refreshRecommendations(v);
   }
 
   function tile(label, value, sub) {
@@ -236,50 +291,116 @@
     return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   }
 
-  async function renderSupplementLog(box) {
+  function renderSupplementLog(box) {
     var day = todayKey();
     var opts = supplementNames().map(function (n) { return '<option value="' + n.replace(/"/g, '&quot;') + '">'; }).join('');
+    var userRef = db.collection('users').doc(currentUser.uid);
+    var logRef = userRef.collection('supplementLog').doc(day);
+    var stack = [];   // persönliche Supplement-Liste
+    var taken = [];   // heute genommen
+
     box.innerHTML =
       '<div class="mydata-card">' +
         '<h3>Supplement-Log <span class="muted small">(' + day + ')</span></h3>' +
-        '<p class="muted small">Trag ein, was du heute genommen hast – das fließt später in die Empfehlungen ein.</p>' +
+        '<p class="muted small">Tippe an, was du <strong>heute</strong> genommen hast. Neue Supplements legst du einmal an – danach jeden Tag nur noch antippen.</p>' +
+        '<div class="mydata-stack" id="md-stack"></div>' +
         '<div class="mydata-log-input">' +
-          '<input type="text" id="md-log-in" list="md-log-list" placeholder="z. B. Magnesium, Kreatin …" />' +
+          '<input type="text" id="md-log-in" list="md-log-list" placeholder="Neues Supplement hinzufügen …" />' +
           '<datalist id="md-log-list">' + opts + '</datalist>' +
-          '<button class="btn btn-primary btn-sm" id="md-log-add">Hinzufügen</button>' +
+          '<button class="btn btn-primary btn-sm" id="md-log-add">+ Hinzufügen</button>' +
         '</div>' +
-        '<div class="mydata-log-items" id="md-log-items"></div>' +
       '</div>';
 
-    var ref = db.collection('users').doc(currentUser.uid).collection('supplementLog').doc(day);
-
-    function paint(items) {
-      var wrap = $('#md-log-items', box);
-      if (!items || !items.length) { wrap.innerHTML = '<span class="muted small">Heute noch nichts eingetragen.</span>'; return; }
-      wrap.innerHTML = items.map(function (name, i) {
-        return '<span class="mydata-chip">' + name + '<button data-i="' + i + '" aria-label="Entfernen">&times;</button></span>';
+    function paintStack() {
+      var wrap = $('#md-stack', box);
+      if (!wrap) return;
+      if (!stack.length) { wrap.innerHTML = '<span class="muted small">Noch keine Supplements angelegt – füge unten deine hinzu.</span>'; return; }
+      wrap.innerHTML = stack.map(function (name) {
+        var on = taken.indexOf(name) !== -1;
+        var esc = name.replace(/"/g, '&quot;');
+        return '<button type="button" class="mydata-supp' + (on ? ' on' : '') + '" data-name="' + esc + '">' +
+                 '<span class="mydata-supp-check">' + (on ? '✓' : '') + '</span>' +
+                 '<span class="mydata-supp-name">' + name + '</span>' +
+                 '<span class="mydata-supp-x" data-remove="' + esc + '" title="Aus Liste entfernen">&times;</span>' +
+               '</button>';
       }).join('');
-      wrap.querySelectorAll('button[data-i]').forEach(function (b) {
-        b.addEventListener('click', async function () {
-          var arr = items.slice(); arr.splice(parseInt(b.dataset.i, 10), 1);
-          await ref.set({ items: arr, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+      wrap.querySelectorAll('.mydata-supp').forEach(function (b) {
+        b.addEventListener('click', function (e) {
+          if (e.target.hasAttribute('data-remove')) return;
+          var name = b.dataset.name;
+          var arr = taken.slice(); var i = arr.indexOf(name);
+          if (i === -1) arr.push(name); else arr.splice(i, 1);
+          logRef.set({ taken: arr, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+        });
+      });
+      wrap.querySelectorAll('[data-remove]').forEach(function (x) {
+        x.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var name = x.getAttribute('data-remove');
+          userRef.set({ stack: stack.filter(function (n) { return n !== name; }) }, { merge: true });
         });
       });
     }
 
-    ref.onSnapshot(function (snap) { paint(snap.exists ? (snap.data().items || []) : []); });
+    userRef.onSnapshot(function (doc) { stack = (doc.exists && doc.data().stack) || []; paintStack(); });
+    logRef.onSnapshot(function (doc) { taken = (doc.exists && doc.data().taken) || []; paintStack(); });
 
     async function add() {
-      var input = $('#md-log-in', box); var val = (input.value || '').trim();
-      if (!val) return;
-      var snap = await ref.get();
-      var items = snap.exists ? (snap.data().items || []) : [];
-      if (items.indexOf(val) === -1) items.push(val);
-      await ref.set({ items: items, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+      var input = $('#md-log-in', box); var val = (input.value || '').trim(); if (!val) return;
+      if (stack.indexOf(val) === -1) await userRef.set({ stack: stack.concat([val]) }, { merge: true });
+      var t = taken.slice(); if (t.indexOf(val) === -1) t.push(val);
+      await logRef.set({ taken: t, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
       input.value = '';
     }
     $('#md-log-add', box).addEventListener('click', add);
     $('#md-log-in', box).addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); add(); } });
+  }
+
+  // ---- Empfehlungen (regelbasiert, aus Werten abgeleitet) ----
+  function catRef(name) {
+    var lower = name.toLowerCase();
+    try { if (typeof SUPPLEMENTS !== 'undefined') for (var i = 0; i < SUPPLEMENTS.length; i++) { if (SUPPLEMENTS[i].name && SUPPLEMENTS[i].name.toLowerCase() === lower) return { name: SUPPLEMENTS[i].name, view: 'supplement' }; } } catch (e) {}
+    try { if (typeof EXPERIMENTAL !== 'undefined') for (var j = 0; j < EXPERIMENTAL.length; j++) { if (EXPERIMENTAL[j].name && EXPERIMENTAL[j].name.toLowerCase() === lower) return { name: EXPERIMENTAL[j].name, view: 'experimental' }; } } catch (e) {}
+    return null;
+  }
+
+  function renderRecommendations(box) {
+    box.innerHTML =
+      '<div class="mydata-card">' +
+        '<h3>Empfehlungen für dich</h3>' +
+        '<p class="muted small">Abgeleitet aus deinen aktuellen Werten – konkrete Einträge aus dem App-Katalog, ohne was du schon nimmst. Information, keine medizinische Beratung, keine Dosierangaben.</p>' +
+        '<div id="md-rec-list"><p class="muted small">Sobald deine Werte geladen sind, erscheinen hier passende Vorschläge.</p></div>' +
+      '</div>';
+    refreshRecommendations(lastVitals);
+  }
+
+  function refreshRecommendations(v) {
+    var list = document.getElementById('md-rec-list');
+    if (!list) return;
+    if (!v) return;
+    var recs = [];
+    function add(title, why, cands) {
+      var names = [];
+      cands.forEach(function (c) { var hit = catRef(c); if (hit && myStack.indexOf(hit.name) === -1 && !names.some(function (n) { return n.name === hit.name; })) names.push(hit); });
+      recs.push({ title: title, why: why, names: names });
+    }
+    var lowRec = v.recoveryScore != null && v.recoveryScore <= 50;
+    var lowSleep = (v.sleepPerformance != null && v.sleepPerformance < 70) || (v.totalSleepMin != null && v.totalSleepMin < 420);
+    var highStrain = v.strain != null && v.strain >= 14;
+
+    if (lowRec) add('Erholung unterstützen', 'Deine Recovery ist heute eher niedrig.', ['Magnesium', 'Ashwagandha', 'Glycin', 'Omega-3']);
+    if (lowSleep) add('Besser schlafen', 'Deine Schlaf-Leistung lag unter deinem Optimum.', ['Glycin', 'Magnesium', 'L-Theanin', 'Melatonin', 'Apigenin']);
+    if (highStrain) add('Regeneration nach hoher Belastung', 'Hohe Tagesbelastung – Regeneration fördern.', ['Omega-3', 'Kreatin', 'Curcumin', 'BPC-157', 'TB-500']);
+    if (!recs.length) add('Solide Basis halten', 'Deine Werte sehen heute rund aus – dranbleiben.', ['Vitamin D3', 'Omega-3', 'Magnesium', 'Kreatin']);
+
+    list.innerHTML = recs.map(function (r) {
+      var chips = r.names.map(function (h) { return '<a href="#' + h.view + '">' + h.name + '</a>'; }).join('');
+      return '<div class="mydata-rec-item"><span class="md-rec-dot"></span><div>' +
+               '<strong>' + r.title + '</strong>' +
+               '<span class="muted small">' + r.why + '</span>' +
+               (chips ? '<div class="mydata-rec-names">' + chips + '</div>' : '<div class="muted small" style="margin-top:4px">Passendes hast du schon in deinem Stack 👍</div>') +
+             '</div></div>';
+    }).join('') + '<p class="small muted" style="margin-top:10px">⚕️ Allgemeine Information, kein medizinischer Rat, keine Dosierempfehlung.</p>';
   }
 
   // ================= Init =================
