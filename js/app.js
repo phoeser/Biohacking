@@ -476,6 +476,11 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
           ${syn.length ? `<section><h3>🤝 Synergien</h3><p>${syn.map(n=>`<span class="tag">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
           ${avoid.length ? `<section><h3>🚫 Nicht kombinieren mit</h3><p>${avoid.map(n=>`<span class="tag tag--warn">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
           ${s.sources ? `<section><h3>🥗 Natürliche Quellen</h3><p>${escapeHtml(s.sources)}</p></section>` : ''}
+          ${(s.podcasts && s.podcasts.length) ? `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${s.podcasts.length})</div>${s.podcasts.map(p => `<div class="exp-podcast">
+            <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
+            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
+            ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
+          </div>`).join('')}</div>` : ''}
         </article>
       `;
       detail.classList.remove('hidden');
