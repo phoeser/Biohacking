@@ -77,6 +77,15 @@
   var recBox = null;        // #md-rec Container
   var lastVitals = null;    // zuletzt geladene Werte (für Empfehlungen)
   var myStack = [];         // persönliche Supplement-Liste (für Empfehlungen)
+  var verlaufSeries = null; // Cache der Zeitreihe
+  var selMetricKey = 'recoveryScore';
+  var VERLAUF_METRICS = [
+    { key: 'recoveryScore', label: 'Recovery', unit: '%' },
+    { key: 'hrv', label: 'HRV', unit: 'ms' },
+    { key: 'restingHr', label: 'Ruhepuls', unit: 'bpm' },
+    { key: 'sleepPerformance', label: 'Schlaf', unit: '%' },
+    { key: 'strain', label: 'Strain', unit: '', round: 1 }
+  ];
 
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
   function el(html) { var d = document.createElement('div'); d.innerHTML = html.trim(); return d.firstChild; }
@@ -146,10 +155,20 @@
     root.appendChild(wearBox);
     loadWearable(wearBox);
 
+    // Verlauf (Zeitreihe)
+    var verlaufBox = el('<div id="md-verlauf"></div>');
+    root.appendChild(verlaufBox);
+    renderVerlauf(verlaufBox);
+
     // Supplement-Log
     var logBox = el('<div id="md-log"></div>');
     root.appendChild(logBox);
     renderSupplementLog(logBox);
+
+    // Muster & Zusammenhänge (KI-Korrelationen)
+    var corrBox = el('<div id="md-corr"></div>');
+    root.appendChild(corrBox);
+    renderCorrelations(corrBox);
 
     // Empfehlungen (ganz unten)
     recBox = el('<div id="md-rec"></div>');
@@ -496,6 +515,126 @@
       renderRecList(ruleBasedRecs(v));
     }
     recGenBusy = false;
+  }
+
+  // ---- Verlauf (Zeitreihe) ----
+  function fmtNum(v, m) {
+    var r = m.round != null ? m.round : 0;
+    var f = r ? (Math.round(v * Math.pow(10, r)) / Math.pow(10, r)) : Math.round(v);
+    return f + (m.unit ? ' ' + m.unit : '');
+  }
+
+  async function loadVerlaufSeries(force) {
+    if (verlaufSeries && !force) return verlaufSeries;
+    var snap = await db.collection('users').doc(currentUser.uid).collection('vitals').get();
+    var arr = snap.docs.map(function (d) { return d.data(); }).filter(function (x) { return x && x.date; });
+    arr.sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+    verlaufSeries = arr.slice(-30);
+    return verlaufSeries;
+  }
+
+  function renderChart(container, series, m) {
+    if (!container) return;
+    var pts = series.map(function (r) { return { date: r.date, v: r[m.key] }; }).filter(function (p) { return p.v != null; });
+    if (pts.length < 2) { container.innerHTML = '<p class="muted small">Noch zu wenige Datenpunkte – tippe auf „Historie laden" oder sammle ein paar Tage.</p>'; return; }
+    var W = 600, H = 150, padL = 6, padR = 6, padT = 12, padB = 10;
+    var vals = pts.map(function (p) { return p.v; });
+    var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+    if (mn === mx) { mn -= 1; mx += 1; }
+    var iw = W - padL - padR, ih = H - padT - padB;
+    function X(i) { return padL + (i / (pts.length - 1)) * iw; }
+    function Y(v) { return padT + ih - ((v - mn) / (mx - mn)) * ih; }
+    var line = pts.map(function (p, i) { return (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(p.v).toFixed(1); }).join(' ');
+    var area = 'M' + X(0).toFixed(1) + ' ' + (padT + ih) + ' ' + pts.map(function (p, i) { return 'L' + X(i).toFixed(1) + ' ' + Y(p.v).toFixed(1); }).join(' ') + ' L' + X(pts.length - 1).toFixed(1) + ' ' + (padT + ih) + ' Z';
+    var dots = pts.map(function (p, i) { return '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(p.v).toFixed(1) + '" r="2" fill="#2f8b6a"/>'; }).join('');
+    var last = pts[pts.length - 1];
+    var avg = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length;
+    container.innerHTML =
+      '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" width="100%" height="150" style="display:block">' +
+        '<path d="' + area + '" fill="rgba(47,139,106,.14)"/>' +
+        '<path d="' + line + '" fill="none" stroke="#2f8b6a" stroke-width="2"/>' + dots +
+        '<text x="' + padL + '" y="10" font-size="10" fill="currentColor" opacity=".55">' + fmtNum(mx, m) + '</text>' +
+        '<text x="' + padL + '" y="' + (H - 2) + '" font-size="10" fill="currentColor" opacity=".55">' + fmtNum(mn, m) + '</text>' +
+      '</svg>' +
+      '<p class="small muted">' + pts[0].date + ' – ' + last.date + ' · ' + pts.length + ' Tage · aktuell <strong>' + fmtNum(last.v, m) + '</strong> · Ø ' + fmtNum(avg, m) + '</p>';
+  }
+
+  function renderVerlauf(box) {
+    box.innerHTML =
+      '<div class="mydata-card">' +
+        '<div class="mydata-dash-head" style="margin-top:0">' +
+          '<h3>Verlauf</h3>' +
+          '<button class="btn btn-ghost btn-sm" id="md-backfill">📥 Historie laden</button>' +
+        '</div>' +
+        '<div class="mydata-daypills" id="md-metric-pills">' +
+          VERLAUF_METRICS.map(function (m) { return '<button type="button" class="mydata-pill' + (m.key === selMetricKey ? ' on' : '') + '" data-metric="' + m.key + '">' + m.label + '</button>'; }).join('') +
+        '</div>' +
+        '<div id="md-chart" style="margin-top:12px"><p class="muted small">Lade Verlauf …</p></div>' +
+      '</div>';
+    function draw() {
+      var m = VERLAUF_METRICS.filter(function (x) { return x.key === selMetricKey; })[0];
+      loadVerlaufSeries(false).then(function (s) { renderChart($('#md-chart', box), s, m); }).catch(function (e) { console.warn(e); });
+    }
+    box.querySelectorAll('#md-metric-pills .mydata-pill').forEach(function (p) {
+      p.addEventListener('click', function () {
+        box.querySelectorAll('#md-metric-pills .mydata-pill').forEach(function (q) { q.classList.toggle('on', q === p); });
+        selMetricKey = p.dataset.metric; draw();
+      });
+    });
+    $('#md-backfill', box).addEventListener('click', async function () {
+      var b = $('#md-backfill', box); b.disabled = true; b.textContent = '… lädt';
+      try { var r = await callFn('whoopBackfill', 'POST'); toast('Historie geladen (' + ((r && r.days) || 0) + ' Tage) ✓', 'ok'); await loadVerlaufSeries(true); draw(); }
+      catch (e) { toast('Historie laden fehlgeschlagen: ' + e.message, 'error'); }
+      b.disabled = false; b.textContent = '📥 Historie laden';
+    });
+    draw();
+  }
+
+  // ---- Muster & Zusammenhänge (KI-Korrelationen über die Zeit) ----
+  async function loadSupplementHistory() {
+    var snap = await db.collection('users').doc(currentUser.uid).collection('supplementLog').get();
+    var map = {};
+    snap.docs.forEach(function (d) { var x = d.data() || {}; map[d.id] = x.taken || []; });
+    return map;
+  }
+
+  function renderCorrelations(box) {
+    box.innerHTML =
+      '<div class="mydata-card">' +
+        '<div class="mydata-dash-head" style="margin-top:0">' +
+          '<h3>Muster & Zusammenhänge</h3>' +
+          '<button class="btn btn-ghost btn-sm" id="md-corr-run">🔎 Analysieren</button>' +
+        '</div>' +
+        '<p class="muted small">Die KI sucht über die Zeit nach möglichen Zusammenhängen zwischen deinen Supplements und deinen Werten. Reine Beobachtung, keine Ursache-Wirkung, kein medizinischer Rat – je mehr Tage, desto aussagekräftiger.</p>' +
+        '<div id="md-corr-out"><p class="muted small">Tippe auf „Analysieren", sobald ein paar Tage Daten da sind.</p></div>' +
+      '</div>';
+    $('#md-corr-run', box).addEventListener('click', function () { analyzeCorrelations(box); });
+  }
+
+  var corrBusy = false;
+  async function analyzeCorrelations(box) {
+    var out = $('#md-corr-out', box); if (!out) return;
+    if (typeof window.BHKGemini !== 'function') { out.innerHTML = '<p class="muted small">KI aktuell nicht verfügbar.</p>'; return; }
+    if (corrBusy) return; corrBusy = true;
+    out.innerHTML = '<p class="muted small">🤖 Analysiere Zusammenhänge …</p>';
+    try {
+      var series = await loadVerlaufSeries(true);
+      var log = await loadSupplementHistory();
+      if (series.length < 4) { out.innerHTML = '<p class="muted small">Noch zu wenige Tage für eine sinnvolle Analyse – lade oben „Historie" oder sammle ein paar Tage.</p>'; corrBusy = false; return; }
+      var rows = series.map(function (v) {
+        return { date: v.date, recovery: v.recoveryScore, hrv: (v.hrv != null ? Math.round(v.hrv) : null), ruhepuls: v.restingHr, schlaf: v.sleepPerformance, strain: (v.strain != null ? Math.round(v.strain * 10) / 10 : null), supplements: (log[v.date] || []) };
+      });
+      var sys = 'Du bist ein vorsichtiger Datenanalyst für Biohacking. Suche in den Tagesdaten nach möglichen Zusammenhängen zwischen eingenommenen Supplements und den WHOOP-Werten (Recovery, HRV, Ruhepuls, Schlaf, Strain). Formuliere maximal 3 Beobachtungen, sehr vorsichtig: es sind KORRELATIONEN, keine Ursache-Wirkung, kleine Stichprobe. Kein medizinischer Rat. Deutsch. Antworte AUSSCHLIESSLICH als JSON: [{"insight":"vorsichtige Beobachtung in 1-2 Sätzen","staerke":"schwach|mittel|auffällig"}]. Wenn keine Muster erkennbar sind, gib [] zurück.';
+      var prompt = 'Tagesdaten (JSON, je Tag Werte + genommene Supplements): ' + JSON.stringify(rows);
+      var res = await window.BHKGemini(prompt, { systemInstruction: sys, temperature: 0.3, maxOutputTokens: 700 });
+      var txt = ((res && res.text) || '').trim().replace(/^```json/i, '').replace(/^```/, '').replace(/```$/, '').trim();
+      var items = JSON.parse(txt);
+      if (!Array.isArray(items) || !items.length) { out.innerHTML = '<p class="muted small">Noch keine klaren Muster erkennbar – das wird mit mehr Tagen besser.</p>'; corrBusy = false; return; }
+      out.innerHTML = items.map(function (it) {
+        return '<div class="mydata-rec-item"><span class="md-rec-dot"></span><div><strong>' + (it.staerke || 'Beobachtung') + '</strong><span class="muted small">' + (it.insight || '') + '</span></div></div>';
+      }).join('') + '<p class="small muted" style="margin-top:8px">⚕️ Beobachtungen (Korrelation, keine Ursache-Wirkung), kein medizinischer Rat.</p>';
+    } catch (e) { console.warn('corr', e); out.innerHTML = '<p class="muted small">Analyse gerade nicht möglich. Versuch es später erneut.</p>'; }
+    corrBusy = false;
   }
 
   // ================= Init =================
