@@ -820,6 +820,7 @@ const SUPPLEMENTS = [
       {
         title: 'KI-Podcast: NAD+ & NMN – der Longevity-Star im Faktencheck',
         audio: 'audio/nad-nmn-podcast.mp3',
+        spotify: '2cRowv4Y2uQOr3AZ48AuU3',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
         note: 'KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
       }
