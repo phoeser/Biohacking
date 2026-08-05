@@ -646,6 +646,7 @@ const EXPERIMENTAL = [
       {
         title: 'Rapamycin – die Kurzfolge: mTOR, Osterinsel & Longevity in 4 Minuten',
         audio: 'audio/rapamycin-kurzfolge.mp3',
+        spotify: '27E8KrXjumCspX3wHKxw64',
         lengthLabel: '≈ 4 Min · KI-Kurzfolge (Paul & Paula, ElevenLabs Pro-Stimme)',
         note: 'Kompakte KI-Kurzfolge mit realistischen Stimmen (neue Pro-Stimme). In vier Minuten: woher Rapamycin (Sirolimus) kommt, wie es über den mTOR-Schalter das zelluläre Aufräumen (Autophagie) anstößt, warum es die stärksten Lebensverlängerungs-Daten in Säugern hat – und der ehrliche Rahmen: off-label, verschreibungspflichtig, Human-Beweis steht aus. Reine Information, kein medizinischer Rat.'
       }
