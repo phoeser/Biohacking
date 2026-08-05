@@ -160,10 +160,10 @@
     return { text, sources };
   }
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'news', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'news', 'mydata', 'about'];
 
   function currentView() {
-    const hash = (location.hash || '').replace(/^#/, '').split('?')[0];
+    const hash = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
     return VALID_VIEWS.includes(hash) ? hash : 'home';
   }
 
