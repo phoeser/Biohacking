@@ -626,14 +626,22 @@
       });
       var sys = 'Du bist ein vorsichtiger Datenanalyst für Biohacking. Suche in den Tagesdaten nach möglichen Zusammenhängen zwischen eingenommenen Supplements und den WHOOP-Werten (Recovery, HRV, Ruhepuls, Schlaf, Strain). Formuliere maximal 3 Beobachtungen, sehr vorsichtig: es sind KORRELATIONEN, keine Ursache-Wirkung, kleine Stichprobe. Kein medizinischer Rat. Deutsch. Antworte AUSSCHLIESSLICH als JSON: [{"insight":"vorsichtige Beobachtung in 1-2 Sätzen","staerke":"schwach|mittel|auffällig"}]. Wenn keine Muster erkennbar sind, gib [] zurück.';
       var prompt = 'Tagesdaten (JSON, je Tag Werte + genommene Supplements): ' + JSON.stringify(rows);
-      var res = await window.BHKGemini(prompt, { systemInstruction: sys, temperature: 0.3, maxOutputTokens: 700 });
-      var txt = ((res && res.text) || '').trim().replace(/^```json/i, '').replace(/^```/, '').replace(/```$/, '').trim();
-      var items = JSON.parse(txt);
+      var items = null, lastErr = null;
+      for (var attempt = 0; attempt < 2 && items == null; attempt++) {
+        try {
+          var res = await window.BHKGemini(prompt, { systemInstruction: sys, temperature: 0.3, maxOutputTokens: 700 });
+          var raw = ((res && res.text) || '').trim();
+          var mm = raw.match(/\[[\s\S]*\]/);
+          var txt = mm ? mm[0] : raw.replace(/^```json/i, '').replace(/^```/, '').replace(/```$/, '').trim();
+          items = JSON.parse(txt);
+        } catch (err) { lastErr = err; if (attempt === 0) { await new Promise(function (r) { setTimeout(r, 900); }); } }
+      }
+      if (items == null) throw (lastErr || new Error('parse'));
       if (!Array.isArray(items) || !items.length) { out.innerHTML = '<p class="muted small">Noch keine klaren Muster erkennbar – das wird mit mehr Tagen besser.</p>'; corrBusy = false; return; }
       out.innerHTML = items.map(function (it) {
         return '<div class="mydata-rec-item"><span class="md-rec-dot"></span><div><strong>' + (it.staerke || 'Beobachtung') + '</strong><span class="muted small">' + (it.insight || '') + '</span></div></div>';
       }).join('') + '<p class="small muted" style="margin-top:8px">⚕️ Beobachtungen (Korrelation, keine Ursache-Wirkung), kein medizinischer Rat.</p>';
-    } catch (e) { console.warn('corr', e); out.innerHTML = '<p class="muted small">Analyse gerade nicht möglich. Versuch es später erneut.</p>'; }
+    } catch (e) { console.warn('corr', e); out.innerHTML = '<p class="muted small">Analyse gerade nicht möglich – der KI-Dienst ist evtl. kurz überlastet. Versuch es in ein paar Sekunden erneut.</p>'; }
     corrBusy = false;
   }
 
