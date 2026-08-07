@@ -356,7 +356,16 @@ const SUPPLEMENTS = [
     synergies: ['beta-alanin', 'whey'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Rindfleisch, Wild (aber sehr geringe Mengen)'
+    sources: 'Rindfleisch, Wild (aber sehr geringe Mengen)',
+    podcasts: [
+      {
+        title: 'KI-Podcast: Kreatin – der ehrliche Faktencheck (Muskel, Gehirn, Mythen)',
+        audio: 'audio/kreatin-podcast.mp3',
+        spotify: '3A2IEPWCGTrgRaBzGLMNiq',
+        lengthLabel: '≈ 13 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+      }
+    ]
   },
   {
     id: 'l-theanin',
