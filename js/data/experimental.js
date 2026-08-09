@@ -368,18 +368,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'KI-Podcast: BPC-157 – Heilungs-Peptid zwischen Hype und Evidenz',
-        audio: 'audio/bpc-157-podcast.mp3',
-        spotify: '3G58RjUupVFwxDMkOdSqX2',
-        lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
-        note: 'KI-generierte deutsche Folge, inspiriert von 5 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
-        sources: [
-          { title: 'Beyond Lifespan – BPC-157: Trendpeptid zwischen Hype und Evidenz', url: 'https://open.spotify.com/episode/3H92nUxDlJx6QAXCrnJ2Rg' },
-          { title: 'The Hunter Williams Podcast – The BPC-157 Masterclass', url: 'https://open.spotify.com/episode/605tRucNpJOg569MmvsU8o' },
-          { title: 'Peptides Explained – BPC-157 and Cancer: What the Studies Show', url: 'https://open.spotify.com/episode/3HWa6jO8zp3p6CVWBu2HTN' },
-          { title: 'Peptides Explained – BPC-157 & TB-500: The Wolverine Stack', url: 'https://open.spotify.com/episode/1sikogAxcTbf4Mqfut7TKy' },
-          { title: 'The Gillett Health Podcast – BPC-157 101', url: 'https://open.spotify.com/episode/2Mgz0t1SIrV8Dwxdet0RRM' }
-        ]
+        title: 'KI-Podcast: Der Wolverine Stack – BPC-157 + TB-500 (Regenerations-Duo)',
+        audio: 'audio/wolverine-stack-podcast.mp3',
+        spotify: '4Lex4pgjZQrVvjEEP2r0sK',
+        lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       }
     ]
   },
@@ -415,17 +408,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'KI-Podcast: TB-500 – der „Transporter" im Wolverine-Stack',
-        audio: 'audio/tb-500-podcast.mp3',
-        spotify: '7jlWTnGRAao4lBwzhtUWPg',
-        lengthLabel: '≈ 8 Min · Deutsch · 2 KI-Stimmen',
-        note: 'KI-generierte deutsche Folge, inspiriert von 4 Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
-        sources: [
-          { title: 'The Hunter Williams Podcast – The Complete TB-500 Masterclass', url: 'https://open.spotify.com/episode/6X7pisgcrGMj7hcUgPebOL' },
-          { title: 'Peptide of The Week – Wolverine Stack (BPC-157 & TB-500)', url: 'https://open.spotify.com/episode/29CiFyfaa3fghk57syxE68' },
-          { title: 'Peptides With Michele – BPC-157 + TB-500: Recovery Power Couple', url: 'https://open.spotify.com/episode/0V8XPPXjTy2KDQyAdkQlRP' },
-          { title: 'Basically Bodybuilding – BPC-157 und TB500 (Deutsch)', url: 'https://open.spotify.com/episode/0XOJEl9uY4I6N2WTbWpqs3' }
-        ]
+        title: 'KI-Podcast: Der Wolverine Stack – BPC-157 + TB-500 (Regenerations-Duo)',
+        audio: 'audio/wolverine-stack-podcast.mp3',
+        spotify: '4Lex4pgjZQrVvjEEP2r0sK',
+        lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       }
     ]
   },
