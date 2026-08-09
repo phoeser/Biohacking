@@ -2029,7 +2029,16 @@ const SUPPLEMENTS = [
     synergies: ['omega-3', 'magnesium', 'vitamin-b12'],
     avoid: [],
     evidence: 'niedrig',
-    sources: 'Spurenelement (Trinkwasser); als Lithiumorotat-Kapsel'
+    sources: 'Spurenelement (Trinkwasser); als Lithiumorotat-Kapsel',
+    podcasts: [
+      {
+        title: 'KI-Podcast: Lithium – das Spurenelement fürs Gehirn (Longevity & Neuroschutz)',
+        audio: 'audio/lithium-podcast.mp3',
+        spotify: '7w537EJ55GOs1xwuEbsylM',
+        lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zur NIEDRIG dosierten Mikrodosis (Lithiumorotat), inkl. der Harvard-/Nature-Forschung 2025. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Nicht mit hochdosierter Lithiumtherapie verwechseln; bei Vorerkrankungen, Schwangerschaft oder Medikamenten ärztlich abklären.'
+      }
+    ]
   },
   {
     id: 'exogene-ketone',
