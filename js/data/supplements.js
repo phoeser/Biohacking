@@ -1187,7 +1187,16 @@ const SUPPLEMENTS = [
     synergies: ['kreatin'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Flüssigmolke (Käseherstellungs-Nebenprodukt)'
+    sources: 'Flüssigmolke (Käseherstellungs-Nebenprodukt)',
+    podcasts: [
+      {
+        title: 'KI-Podcast: Whey Protein – Leucin, Timing-Mythos & für wen es wirklich lohnt',
+        audio: 'audio/whey-podcast.mp3',
+        spotify: '6R5g58StzAqk5E6nMrlQWX',
+        lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+      }
+    ]
   },
   // ============ NEU: LONGEVITY & ANTIOXIDANTIEN ============
   {
