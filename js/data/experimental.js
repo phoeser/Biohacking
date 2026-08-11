@@ -950,8 +950,8 @@ const EXPERIMENTAL = [
         title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck',
         audio: 'audio/epitalon-podcast.mp3',
         spotify: '3fwqZGKZCED0D8iimUNcnm',
-        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die verlockende Telomerase-/Telomer-Story ein: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig (kleine, unverblindete russische Studien). Plus die offene Krebsfrage bei einem Telomerase-Aktivator. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 24) · mit Paul & Paula. Frische KI-Dialogfolge mit Fachrecherche zur verlockenden Telomerase-/Telomer-Story: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig (kleine, unverblindete russische Studien). Plus die offene Krebsfrage bei einem Telomerase-Aktivator und der Melatonin-/Schlaf-Bezug. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & Telomerlänge', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
           { title: 'Al-Dulaimi et al., Biogerontology 2025 – unabhängige Replikation der Telomer-Verlängerung (Zellen)', url: 'https://link.springer.com/article/10.1007/s10522-025-10315-x' }
@@ -1136,8 +1136,8 @@ const EXPERIMENTAL = [
         title: 'SS-31: Das FDA-zugelassene Mitochondrien-Peptid – im Faktencheck',
         audio: 'audio/ss-31-podcast.mp3',
         spotify: '5cmnTVvn29gYiC0UDdyN0A',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Kern: SS-31 (Elamipretide/FORZINITY) bekam 2025 tatsächlich eine FDA-Zulassung – aber nur für die seltene Barth-Krankheit, NICHT für Anti-Aging/Energie bei Gesunden. Außerhalb dieser Nische gemischte Bilanz (u. a. verfehlter Endpunkt der MMPOWER-3-Studie), und die Graumarkt-Ampulle ist nicht das zugelassene Medikament. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 26) · mit Paul & Paula. Frische KI-Dialogfolge mit Fachrecherche. Der ehrliche Kern: SS-31 (Elamipretide/FORZINITY) bekam im September 2025 tatsächlich eine FDA-Zulassung – die erste für eine Mitochondrien-Krankheit überhaupt, aber nur für das seltene Barth-Syndrom, NICHT für Anti-Aging/Energie bei Gesunden. Bei Herzschwäche gemischte Bilanz (Hauptendpunkte verfehlt), Longevity-Einsatz unbewiesen, und die Community dosiert einen Mini-Bruchteil der Studien-Menge (≈500 µg vs. 40 mg). Graumarkt-Ampulle ≠ zugelassenes Medikament. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Szeto, Br J Pharmacol 2014 – Wirkmechanismus von SS-31 (Cardiolipin)', url: 'https://pubmed.ncbi.nlm.nih.gov/24328896/' },
           { title: 'FDA Accelerated Approval Elamipretide/FORZINITY 2025 (Barth-Syndrom)', url: 'https://www.fightaging.org/archives/2025/10/fda-approval-for-mitochondrial-therapeutic-elamipretide-formerly-ss-31/' }
