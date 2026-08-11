@@ -1219,11 +1219,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'KI-Podcast: 5-Amino-1MQ – NNMT-Inhibitor & NAD+-Hebel',
+        title: 'KI-Podcast: 5-Amino-1MQ – der NNMT-Hemmer, der Fett über Energieverbrauch angeht',
         audio: 'audio/5-amino-1mq-podcast.mp3',
         spotify: '71gD9FHwpfiLoCfy8BjgTy',
-        lengthLabel: '≈ 6 Min · Deutsch · 2 KI-Stimmen',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser (Folge 8). Frische KI-Dialogfolge (Paul & Paula) mit Fachrecherche: eleganter NAD+- und SAM-Mechanismus, Fettverlust über mehr Energieverbrauch, Muskel/Kraft, Longevity – plus ehrlicher Reality-Check (Tierdaten, keine reifen Humanstudien, Graumarkt). Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Peptide of The Week – 5-Amino-1MQ', url: 'https://open.spotify.com/episode/0RPGxM1H0gS8MDwXBVYUzw' },
           { title: 'The Hunter Williams Podcast – 5-Amino-1MQ', url: 'https://open.spotify.com/episode/5XcHZpVLizSlmsoCjNJwQq' },
@@ -1264,23 +1264,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'KI-Podcast: Tesofensine – Wirkung, Studien & Risiken',
+        title: 'KI-Podcast: Tesofensine – der Zufalls-Fund als Abnehm-Tablette (mit Tesomet-Trick)',
         audio: 'audio/tesofensine-podcast.mp3',
         spotify: '4tCUWipyMuwsmSQ2foeKBV',
-        lengthLabel: '≈ 12 Min · Deutsch · 2 KI-Stimmen',
-        note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und ergänzt mit aktueller Fachrecherche. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
-        sources: [
-          { title: 'THE MANLAB #041 – What is Tesofensine & How It Works', url: 'https://open.spotify.com/episode/3wocVfRwR4d3YapmplsK49' },
-          { title: 'Peptide of The Week – Tesofensine & Methylene Blue', url: 'https://open.spotify.com/episode/5y3PK4s4SnbwNFCeLQ6RHl' },
-          { title: 'West Wellness & Longevity – Tesofensine Explained', url: 'https://open.spotify.com/episode/0PAyFCD0hLeL0wOFVVyJDe' },
-          { title: 'Motivation with Jon Andersen – Tesofensine: The Miracle Molecule', url: 'https://open.spotify.com/episode/4H46sRwmpNIn5sUaZKCECU' }
-        ]
-      },
-      {
-        title: 'Tesofensin stoppt Heißhunger direkt im Gehirn',
-        audio: 'audio/tesofensin-heisshunger.mp3',
-        lengthLabel: '≈ 20 Min · Deutsch',
-        note: 'Deutsche Podcastfolge zu Tesofensine. Nur Information – keine medizinische Beratung.'
+        lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.'
       }
     ]
   },
