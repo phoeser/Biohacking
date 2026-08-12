@@ -45,8 +45,8 @@ const EXPERIMENTAL = [
         title: 'Semaglutid (Ozempic & Wegovy): Die Abnehmspritze im Faktencheck',
         audio: 'audio/semaglutide-podcast.mp3',
         spotify: '5x2XjkIFxdENZQF2LEbRrH',
-        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Anders als Graumarkt-Peptide ein echtes, zugelassenes, hochwirksames Medikament (STEP ~15% Gewicht, SELECT −20% Herz-Kreislauf-Events). Der Faktencheck: Rebound nach Absetzen, Muskelverlust, Nebenwirkungen – und die gefährlichen grauen/gefälschten Versionen mit Dosierungsrisiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, ärztlich begleiten lassen.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 13) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Semaglutid – den GLP-1-Blockbuster hinter Ozempic, Wegovy und der Tablette Rybelsus. Wie es Sättigung, „food noise" und Blutzucker beeinflusst, was die STEP-Studien (~15 % Gewicht) und die SELECT-Studie 2023 (deutlich weniger Herzinfarkte/Schlaganfälle) zeigten, die Echsengift-Ursprungsgeschichte und die spannenden Gehirn-/Sucht-Effekte. Der große Pluspunkt: legal, zugelassen, ärztlich begleitet – kein Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Wilding et al., NEJM 2021 – STEP 1 (Gewichtsverlust)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2032183' },
           { title: 'Lincoff et al., NEJM 2023 – SELECT (kardiovaskulärer Nutzen)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2307563' },
@@ -1083,8 +1083,8 @@ const EXPERIMENTAL = [
         title: 'Semax: Russisches Nootropikum im Faktencheck',
         audio: 'audio/semax-podcast.mp3',
         spotify: '4pI0U5nmVsezSLZIvy74iw',
-        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die echte russische Zulassung/Studienlage (BDNF, Schlaganfall) gegen die Grenzen ein: Evidenz fast nur aus Russland, für den Nootropikum-Einsatz bei Gesunden dünn, N-Acetyl-Varianten kaum untersucht, bei uns Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 11) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Semax, das russische Nootropikum-Peptid: ein ACTH-Fragment ohne Hormonwirkung, das BDNF und NGF – den „Dünger fürs Gehirn" – anhebt und so Fokus, Stimmung und Neuroplastizität fördert. In Russland zugelassen (u. a. beim Schlaganfall, Gusev et al. 2011), schnell über die Nase, sehr gut verträglich, gern mit Selank kombiniert. Ehrlicher Rahmen: Evidenz überwiegend russisch, bei uns Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Kaplan et al., Restor Neurol Neurosci 2002 – Semax und neurotrophe Faktoren (BDNF/NGF)', url: 'https://pubmed.ncbi.nlm.nih.gov/12454361/' },
           { title: 'Gusev et al., Cerebrovasc Dis 2011 – Semax bei ischämischem Schlaganfall (RCT)', url: 'https://pubmed.ncbi.nlm.nih.gov/21654167/' }
@@ -1787,8 +1787,8 @@ const EXPERIMENTAL = [
         title: 'DSIP: Das Schlafpeptid im Faktencheck',
         audio: 'audio/dsip-podcast.mp3',
         spotify: '2Cz5bXpDtURKddAZ4MrbTO',
-        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: seit 1977 bekannt und körpereigen, trägt „Schlaf" im Namen – trotzdem unklarer Mechanismus, dünne und widersprüchliche Humandaten und nie als Schlafmittel zugelassen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 12) · mit Paul & Paula. Frische, positive KI-Dialogfolge über DSIP, das Delta-Schlaf-induzierende Peptid – 1977 im Blut schlafender Kaninchen entdeckt. Kein Knockout-Schlafmittel, sondern ein sanfter Regler, der den Delta-Tiefschlaf fördert und das Stress-/Cortisol-System beruhigt. Warum Tiefschlaf (Wachstumshormon, glymphatische Gehirn-Müllabfuhr) ein starker Longevity-Hebel ist. Ehrlicher Rahmen: Datenlage alt und dünn, bei uns Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Schneider-Helmert & Schoenenberger – DSIP & menschliches Schlafverhalten', url: 'https://pubmed.ncbi.nlm.nih.gov/6895513/' },
           { title: 'Graf & Kastin, Neurosci Biobehav Rev 1984 – DSIP: Ein Überblick', url: 'https://pubmed.ncbi.nlm.nih.gov/6145137/' }
