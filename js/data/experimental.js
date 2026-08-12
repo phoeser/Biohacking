@@ -1606,8 +1606,8 @@ const EXPERIMENTAL = [
         title: 'AOD-9604: Der „saubere Fatburner" im Faktencheck',
         audio: 'audio/aod-9604-podcast.mp3',
         spotify: '07ERvc8IuGfiucQuhRJ7al',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Fett-Biologie gegen die entscheidende Realität ein: Die große Phase-2-Humanstudie verfehlte ihren Gewichtsverlust-Endpunkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 9) · mit Paul & Paula. Frische KI-Dialogfolge mit Fachrecherche. Elegantes Konzept (das Fett-Endstück des Wachstumshormons ohne IGF-1) und erstaunlich gute Sicherheit über ~900 Studien-Teilnehmer – aber die große Phase-2-Humanstudie verfehlte ihren Gewichtsverlust-Endpunkt (getestet als Tablette, evtl. ein Bioverfügbarkeits-Problem). Fazit: wahrscheinlich harmlos, aber unbewiesen wirksam; im Sport ein Doping-Reizthema (Essendon). Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Ng et al., Diabetes Obes Metab 2000 – Lipolytische Wirkung des GH-Fragments AOD-9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11225653/' },
           { title: 'Heffernan et al., Endocrinology 2001 – AOD-9604 & Beta-3-Adrenozeptoren im Fettgewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/11713208/' },
