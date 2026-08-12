@@ -248,6 +248,41 @@ const EXPERIMENTAL = [
     ]
   },
   {
+    id: 'hgh',
+    name: 'HGH (Wachstumshormon / Somatropin)',
+    altNames: 'Somatropin, Growth Hormone, GH, rhGH',
+    class: 'Rekombinantes menschliches Wachstumshormon (191-AS-Protein), verschreibungspflichtig',
+    emoji: '🧬',
+    short: 'Der Longevity- und Anti-Aging-Klassiker: das direkt zugeführte Wachstumshormon selbst – legendär für Muskelaufbau, Fettabbau, Haut und Regeneration und der Referenzpunkt, an dem sich alle GH-Peptide messen.',
+    moa: 'HGH (Somatropin) ist das rekombinant hergestellte, körperidentische Wachstumshormon. Anders als die GH-Peptide (die die eigene, pulsatile Ausschüttung anregen) wird es direkt zugeführt und hebt GH- und IGF-1-Spiegel stark und anhaltend an. IGF-1 vermittelt viele der anabolen Effekte in Muskel, Knochen und Bindegewebe. Die berühmte Rudman-Studie (New England Journal of Medicine, 1990) zeigte bei Männern über 60 mehr Magermasse, weniger Fett und dickere Haut – und löste damit den Anti-Aging-Hype aus. Weil die körpereigene Rückkopplung umgangen wird, gilt exogenes HGH als weniger physiologisch als die GH-Peptide.',
+    benefits: [
+      'Stärkster und direktester Hebel auf GH und IGF-1.',
+      'Kann Magermasse, Fettabbau, Hautqualität und Regeneration deutlich unterstützen.',
+      'Körperidentisches Molekül – seit Jahrzehnten medizinisch erprobt (GH-Mangel, Kinderwachstum).',
+      'Der Referenzpunkt, an dem sich die moderneren GH-Peptide messen.'
+    ],
+    risks: [
+      'Verschreibungspflichtig; Nutzung ohne echten Mangel ist off-label.',
+      'Bei zu hoher Dosis GH-typische Effekte: Wassereinlagerung, Gelenk-/Karpaltunnel-Beschwerden, Insulinresistenz.',
+      'Umgeht die natürliche Rückkopplung – weniger physiologisch als GH-Peptide.',
+      'Im Sport WADA-verboten; Graumarkt-Ware auf Echtheit und Reinheit achten.'
+    ],
+    status: 'Als Somatropin für GH-Mangel und weitere Indikationen zugelassen; in DE verschreibungspflichtig. Anti-Aging-/Biohacking-Nutzung off-label.',
+    sources: [
+      { title: 'Rudman et al., N Engl J Med 1990 – Growth Hormone in Men over 60', url: 'https://www.nejm.org/doi/full/10.1056/NEJM199007053230101' },
+      { title: 'PeptideDeck – Best Growth Hormone Peptides 2026', url: 'https://www.peptidedeck.com/peptides/best-growth-hormone-peptides-2026' }
+    ],
+    podcasts: [
+      {
+        title: 'KI-Podcast: HGH & Longevity – das Wachstumshormon im Faktencheck',
+        audio: 'audio/hgh-podcast.mp3',
+        spotify: '1lwRuMTHAicORZOpMgJ1k0',
+        lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 37) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das menschliche Wachstumshormon: was HGH im Körper macht, warum es für Muskel, Fett, Haut und Regeneration so gefragt ist, was die Rudman-Studie (1990) zeigte – und warum viele Biohacker die GH-Peptide vorziehen. Reine Information, keine Dosier- oder Anwendungsempfehlung; verschreibungspflichtig, im Sport verboten (WADA).'
+      }
+    ]
+  },
+  {
     id: 'mk-677',
     name: 'MK-677 (Ibutamoren)',
     altNames: 'Ibutamoren, Nutrobal, MK-0677',
