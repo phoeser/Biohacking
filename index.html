@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=94" />
+  <link rel="stylesheet" href="css/style.css?v=95" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -495,21 +495,37 @@
     action-text="Frag Paul – deinen Biohacking-Coach"
     start-call-text="Gespräch starten"></elevenlabs-convai>
   <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+  <!-- Schließen-/Öffnen-Steuerung für den Voice-Coach -->
+  <button id="vc-close" title="Coach schließen" aria-label="Coach schließen"
+    style="position:fixed;right:16px;bottom:104px;z-index:2147483647;width:32px;height:32px;border:none;border-radius:50%;background:#0d1b2a;color:#fff;font-size:18px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.35);opacity:.9;display:flex;align-items:center;justify-content:center;">&times;</button>
+  <button id="vc-open" title="Voice-Coach öffnen"
+    style="display:none;position:fixed;right:16px;bottom:16px;z-index:2147483647;padding:9px 14px;border:none;border-radius:22px;background:#2f8b6a;color:#fff;font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.35);">🎙️ Coach</button>
+  <script>
+    (function(){
+      function el(id){return document.getElementById(id);}
+      var c=el('vc-close'), o=el('vc-open');
+      function widget(){return document.querySelector('elevenlabs-convai');}
+      function hide(){var w=widget(); if(w) w.style.display='none'; c.style.display='none'; o.style.display='';}
+      function show(){var w=widget(); if(w) w.style.display=''; c.style.display='flex'; o.style.display='none';}
+      c.addEventListener('click',hide);
+      o.addEventListener('click',show);
+    })();
+  </script>
 
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=94"></script>
-  <script src="js/data/tips.js?v=94"></script>
-  <script src="js/data/goals.js?v=94"></script>
-  <script src="js/data/products.js?v=94"></script>
-  <script src="js/data/experimental.js?v=94"></script>
-  <script src="js/data/khavinson.js?v=94"></script>
-  <script src="js/data/therapies.js?v=94"></script>
-  <script src="js/vitals.js?v=94"></script>
+  <script src="js/data/supplements.js?v=95"></script>
+  <script src="js/data/tips.js?v=95"></script>
+  <script src="js/data/goals.js?v=95"></script>
+  <script src="js/data/products.js?v=95"></script>
+  <script src="js/data/experimental.js?v=95"></script>
+  <script src="js/data/khavinson.js?v=95"></script>
+  <script src="js/data/therapies.js?v=95"></script>
+  <script src="js/vitals.js?v=95"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=94"></script>
-  <script src="js/app.js?v=94"></script>
+  <script src="js/mydata.js?v=95"></script>
+  <script src="js/app.js?v=95"></script>
 </body>
 </html>
