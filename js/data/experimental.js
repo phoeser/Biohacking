@@ -373,6 +373,13 @@ const EXPERIMENTAL = [
         spotify: '4Lex4pgjZQrVvjEEP2r0sK',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
         note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
+      },
+      {
+        title: 'KI-Podcast: BPC-157 – das Reparatur-Peptid aus dem Magen',
+        audio: 'audio/bpc-157-podcast.mp3',
+        spotify: '3G58RjUupVFwxDMkOdSqX2',
+        lengthLabel: '≈ 12 Min · Deutsch · 2 KI-Stimmen',
+        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) über BPC-157 – warum das „Body Protection Compound" aus dem Magensaft als Reparatur-Peptid für Sehnen, Bänder und Darm so gefeiert wird, was Tiermodelle zeigen und wie es typischerweise angewendet wird (berichtet, keine Empfehlung). Nur Information – keine medizinische Beratung. Research-Peptid, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       }
     ]
   },
@@ -1647,11 +1654,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'KI-Podcast: KPV – das Anti-Entzündungs-Tripeptid',
+        title: 'KI-Podcast: KPV – das kleine Anti-Entzündungs-Tripeptid für Darm & Haut',
         audio: 'audio/kpv-podcast.mp3',
         spotify: '0mPFUWG5UTnN6DWL7GUtoQ',
-        lengthLabel: '≈ 9 Min · Deutsch · 2 KI-Stimmen',
-        note: 'KI-generierte deutsche Folge, inspiriert von 4 englischsprachigen Podcasts und mit Fachrecherche ergänzt. Nur Information – keine medizinische Beratung, keine Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 1) · mit Paul & Paula. Frische, positive KI-Dialogfolge mit Fachrecherche: KPV ist ein winziges Endstück des Hormons alpha-MSH, das den Entzündungs-Hauptschalter NF-κB beruhigt – vielseitig für Darm (leaky gut, Barriere) und Haut (Anti-Aging, Akne), sanft und flexibel als Kapsel, Spritze oder Creme. Kurzer Hinweis: überwiegend Zell-/Tierdaten, Humanstudien stehen noch aus. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'The Hunter Williams Podcast – KPV: Best Anti-Inflammatory Peptide', url: 'https://open.spotify.com/episode/5JbfV3XJhPSQttJkR8GJBB' },
           { title: 'Peptide of The Week – KPV & PT-141', url: 'https://open.spotify.com/episode/4RR6rXWb3jDsBYQOFf4l35' },
