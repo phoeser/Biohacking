@@ -88,8 +88,8 @@ const EXPERIMENTAL = [
         title: 'Tirzepatid (Mounjaro & Zepbound): Der stärkste zugelassene Fatburner im Faktencheck',
         audio: 'audio/tirzepatide-podcast.mp3',
         spotify: '5vOtZhEe08HDu7AU2mwaRx',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der Dual-Agonist (GIP+GLP-1) schlug Semaglutid direkt (SURMOUNT-5: 20,2% vs. 13,7%) und ist das aktuell wirksamste zugelassene Abnehm-Medikament – bei tendenziell besserer Verträglichkeit. Faktencheck: Rebound, Muskelverlust, Warnhinweise und die gefährlichen grauen/gefälschten Versionen. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 14) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Tirzepatid – den Dual-Agonisten (GLP-1 + GIP) hinter Mounjaro und Zepbound. Warum zwei Hormonschalter stärker wirken als einer, was die SURMOUNT-1-Studie (NEJM 2022, ~22 % Gewicht) und das direkte Duell SURPASS-2 gegen Semaglutid zeigten, das GIP-Paradox, die Zulassung sogar bei Schlafapnoe – und der klare Vorteil: legal und ärztlich begleitet statt Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
           { title: 'Jastreboff et al., NEJM 2022 – SURMOUNT-1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2206038' },
           { title: 'SURMOUNT-5 (NEJM) – Tirzepatid vs. Semaglutid, direkter Vergleich', url: 'https://www.appliedclinicaltrialsonline.com/view/tirzepatide-weight-loss-semaglutide-surmount-trial' },
@@ -315,8 +315,8 @@ const EXPERIMENTAL = [
         title: 'MK-677 (Ibutamoren): Wachstumshormon aus der Tablette im Faktencheck',
         audio: 'audio/mk-677-podcast.mp3',
         spotify: '5BFLu2EqcYTVGzEG2XuBXe',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: MK-677 hebt GH und IGF-1 zuverlässig an (oral!) – aber der Preis ist real: steigender Blutzucker/Insulinresistenz, Wassereinlagerung, ein Herzinsuffizienz-Signal in einer Studie (vorzeitig abgebrochen), theoretisches Krebsrisiko. Nie zugelassen, WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 16) · mit Paul & Paula. Frische, positive KI-Dialogfolge über MK-677 (Ibutamoren) – den oralen Wachstumshormon-Anreger: eine Tablette, die über den Ghrelin-Rezeptor die eigene GH- und IGF-1-Ausschüttung ankurbelt. Beliebt für Tiefschlaf, Regeneration, Haut und Magermasse ganz ohne Spritze (Nass et al., Ann Intern Med 2008: jugendliche GH-/IGF-1-Werte bei Älteren). Ehrlich eingeordnet: Appetit, Wassereinlagerung, höherer Blutzucker und ein Herzschwäche-Signal – plus die Longevity-Nuance, dass sehr hohes IGF-1 nicht automatisch lebensverlängernd ist. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Nass et al., Ann Intern Med 2008 – MK-677 bei älteren Erwachsenen', url: 'https://pubmed.ncbi.nlm.nih.gov/19075203/' },
           { title: 'DEA/GetSmart – Gesundheitsrisiken von MK-677 (u. a. Herzinsuffizienz-Signal)', url: 'https://www.getsmartaboutdrugs.gov/news-statistics/2025/07/08/beyond-hype-potential-health-risks-mk-677' }
@@ -360,8 +360,8 @@ const EXPERIMENTAL = [
         title: 'CJC-1295 + Ipamorelin: Der beliebte Wachstumshormon-Stack im Faktencheck',
         audio: 'audio/cjc-ipamorelin-podcast.mp3',
         spotify: '1lAy2Hc9kF0X2YQijcYKg5',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der klassische GH-Stack: GHRH (CJC-1295) + selektives GHRP (Ipamorelin, ohne Cortisol/Prolaktin der alten GHRPs) verstärken sich zu einem mehrfachen GH-Puls. Akute Wirkung real, aber Langzeit-/Anti-Aging-Nutzen bei Gesunden unbelegt; GH-Klassen-Risiken (Blutzucker, IGF-1), FDA-Warnung zu compounded CJC-1295, WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 17) · mit Paul & Paula. Frische, positive KI-Dialogfolge über den beliebten sanften GH-Stack: CJC-1295 (GHRH-Analogon) hebt die Grundlinie, Ipamorelin (sauberes Ghrelin-Mimetikum, kaum Cortisol/Prolaktin/Hunger) setzt die Pulse obendrauf – zusammen bauen sie das jugendliche, pulsierende Wachstumshormon-Muster nach. Warum das physiologischer ist als direktes HGH, der Unterschied CJC mit DAC vs. ohne DAC (Mod GRF), Tiefschlaf/Haut/Regeneration – plus die Longevity-Nuance: moderat und pulsierend schlägt dauerhaft maximal. Reine Information, keine Dosier- oder Anwendungsempfehlung; im Sport verboten.',
         sources: [
           { title: 'Sigalos & Pastuszak 2018 – Review zu Anti-Aging-Peptiden (GH-Sekretagoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' },
           { title: 'Teichman et al. 2006 – CJC-1295 Pharmakokinetik/Sicherheit (Phase 1)', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
@@ -590,8 +590,8 @@ const EXPERIMENTAL = [
         title: 'Tadalafil: Sexpille fürs Gehirn? Prostata, Blutdruck & Kopf im Faktencheck',
         audio: 'audio/tadalafil-podcast.mp3',
         spotify: '4m6SNKGcaneh9bA0VfC0c5',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Trennt Zugelassenes (Erektion, Prostata/BPH, Lungenhochdruck) vom Vorläufigen (Gehirn/Demenz – biologisch plausibel, aber die PASTIS-Studie war nicht überzeugend) und betont die kritische Nitrat-Warnung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig, bitte ärztlich abklären.',
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 21) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das unterschätzte Gefäß-Tool Tadalafil: wie der lang wirksame PDE5-Hemmer (bis zu 36 Stunden) das körpereigene Entspannungssignal der Gefäße verlängert, warum die niedrig dosierte tägliche Einnahme bei Prostata-Beschwerden offiziell zugelassen ist (Yokoyama 2015), was die Szene an Endothel- und Pump-Effekten berichtet – und was die Hirnforschung sagt (PASTIS 2022 ernüchternd, ETLAS-2 in Stroke 2025 mit neuen Hoffnungssignalen). Plus die eine harte Regel: niemals mit Nitraten kombinieren. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
           { title: 'StatPearls (NIH) – Tadalafil', url: 'https://www.ncbi.nlm.nih.gov/books/NBK603743/' },
           { title: 'PASTIS-Studie (Alz. & Dementia 2022) – PDE5-Hemmer bei zerebraler Kleingefäßerkrankung', url: 'https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12559' },
@@ -680,11 +680,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'Rapamycin – die Kurzfolge: mTOR, Osterinsel & Longevity in 4 Minuten',
-        audio: 'audio/rapamycin-kurzfolge.mp3',
+        title: 'Rapamycin: mTOR, Osterinsel & der Star der Longevity-Forschung',
+        audio: 'audio/rapamycin-podcast.mp3',
         spotify: '27E8KrXjumCspX3wHKxw64',
-        lengthLabel: '≈ 4 Min · KI-Kurzfolge (Paul & Paula, ElevenLabs Pro-Stimme)',
-        note: 'Kompakte KI-Kurzfolge mit realistischen Stimmen (neue Pro-Stimme). In vier Minuten: woher Rapamycin (Sirolimus) kommt, wie es über den mTOR-Schalter das zelluläre Aufräumen (Autophagie) anstößt, warum es die stärksten Lebensverlängerungs-Daten in Säugern hat – und der ehrliche Rahmen: off-label, verschreibungspflichtig, Human-Beweis steht aus. Reine Information, kein medizinischer Rat.'
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 30) · mit Paul & Paula. Frische, positive KI-Dialogfolge über den heißesten Longevity-Kandidaten: von der Bodenprobe der Osterinsel (1964) zum mTOR-Schalter, der Wachstum gegen zelluläres Aufräumen (Autophagie) tauscht. Mit den Meilensteinen Harrison (Nature 2009, +9–14 % Lebenszeit bei Mäusen), der PEARL-Humanstudie (2024) und der Everolimus-Impfstudie (Sci Transl Med 2014) – und warum niedrig & gepulst statt hoch & täglich der Schlüssel ist. Reine Information, keine Dosier- oder Anwendungsempfehlung – off-label, verschreibungspflichtig.'
       }
     ]
   },
@@ -764,8 +764,8 @@ const EXPERIMENTAL = [
         title: 'Cagrilintid & CagriSema: Der noch nicht zugelassene Abnehm-Kandidat im Faktencheck',
         audio: 'audio/cagrilintide-podcast.mp3',
         spotify: '0FG5QGQkSFNJouyuKroNIL',
-        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Amylin-Analogon (Cagrilintid) + GLP-1 (Semaglutid) = CagriSema, zwei Sättigungs-Systeme in einer Spritze. REDEFINE-1: >20% Gewichtsverlust – stark, aber knapp unter den Erwartungen. Der Kernpunkt: NOCH NICHT zugelassen (FDA-Antrag Dez. 2025, Prüfung 2026) → alles am Graumarkt ist unbewiesene Research-Ware, oft als DIY-CagriSema selbst gemixt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 15) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Cagrilintid, das langwirksame Amylin-Analogon – Amylin ist ein zweites Sättigungshormon neben GLP-1. Kombiniert mit Semaglutid ergibt es CagriSema: zwei Sättigungssysteme in einer Spritze, die sich verstärken (Lau et al., Lancet 2021; REDEFINE >20 % Gewicht). Wie Amylin entdeckt wurde, das Firmen-Wettrennen Novo vs. Lilly und die muskelschonende Zukunft. Ehrlicher Rahmen: noch nicht zugelassen – Graumarkt ist unbewiesene DIY-Ware. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'REDEFINE-1 – Cagrilintid+Semaglutid: >20% Gewichtsverlust', url: 'https://www.appliedclinicaltrialsonline.com/view/cagrilintide-semaglutide-weight-loss' },
           { title: 'Novo Nordisk – FDA-Zulassungsantrag für CagriSema (Dez. 2025)', url: 'https://www.biospace.com/press-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp-1-and-amylin-analogues-for-weight-management' }
@@ -1744,8 +1744,8 @@ const EXPERIMENTAL = [
         title: 'LL-37: Körpereigenes Abwehr-Peptid – oder Entzündungstreiber?',
         audio: 'audio/ll-37-podcast.mp3',
         spotify: '2zTo5WktERW0Wnik3223ti',
-        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Kern: LL-37 ist ein zweischneidiges Schwert – körpereigenes Cathelicidin mit breiter Abwehrwirkung, aber im Überschuss ein gut belegter Treiber von Psoriasis und Rosazea. Biohacking-Versprechen (Schimmel, Borreliose, Leaky Gut) stammen aus Zell-/Tierdaten, nicht aus Humanstudien. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 27) · mit Paul & Paula. Frische, positive KI-Dialogfolge über unser körpereigenes Antibiotikum: LL-37, das einzige menschliche Cathelicidin, durchlöchert Bakterienmembranen, stört Biofilme und dirigiert die Immunabwehr (Dürr, BBA 2006; Vandamme, Cell Immunol 2012). Der eleganteste Biohack: Vitamin D ist der stärkste Schalter der körpereigenen LL-37-Produktion. Ehrlich eingeordnet: Die Selbstanwendungs-Versprechen der Szene stammen aus Zell-/Tierdaten, und im Übermaß kann LL-37 Entzündung treiben (Psoriasis/Rosazea). Reine Information, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Vandamme et al., Cell Immunol 2012 – LL-37 & Immunmodulation', url: 'https://pubmed.ncbi.nlm.nih.gov/23178275/' },
           { title: 'Cathelicidin LL-37 – Rolle bei entzündlichen Hautkrankheiten (Psoriasis/Rosazea)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3346901/' },
@@ -1999,11 +1999,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'Bronchogen & Chonluten: Zwei Peptide für die Lunge – die Minifolge',
+        title: 'Bronchogen & Chonluten: Das Peptid-Duo für die Lunge',
         audio: 'audio/bronchogen-chonluten-podcast.mp3',
         spotify: '3b8emQB8ibdtFNCIXuiE7U',
-        lengthLabel: '≈ 4 Min · KI-Podcast (Paul & Paula, ElevenLabs Pro-Stimme)',
-        note: 'KI-generierte deutsche Minifolge mit realistischen Stimmen (ElevenLabs, neue Pro-Stimme). Kompakt erklärt: zwei Khavinson-Lungenpeptide, die sich ergänzen – Chonluten (entzündungsregulierend) und Bronchogen (regenerierend). Positiv, aber ehrlich gerahmt: Die Evidenz stammt überwiegend aus der russischen Khavinson-Forschung und aus präklinischen Daten, viele Quellen sind Verkaufs-Shops, und beide sind bei uns nicht zugelassen (Research-Ware). Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Atemprobleme bitte ärztlich abklären.',
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 29) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das vergessene Biohacking-Organ Lunge: zwei ultrakurze Khavinson-Bioregulatoren im Duett – Chonluten (T-34) beruhigt die Atemwegs-Schleimhaut, Bronchogen baut auf (Flimmerepithel, Surfactant). Dazu: warum die Ein-Sekunden-Kapazität einer der besten Langlebigkeits-Marker ist und was Atemtraining leistet. Ehrlich gerahmt: Evidenz überwiegend aus der russischen Khavinson-Schule, bei uns nicht zugelassen (Research-Ware). Reine Information, keine Dosier- oder Anwendungsempfehlung – Atemprobleme ärztlich abklären.',
         sources: [
           { title: 'Jay Campbell – Chonluten (Übersicht)', url: 'https://jaycampbell.com/blog/chonluten-cartilage-peptide/' },
           { title: 'Jay Campbell – Bronchogen (Übersicht)', url: 'https://jaycampbell.com/blog/bronchogen-peptide/' },
