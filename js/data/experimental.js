@@ -1580,6 +1580,50 @@ const EXPERIMENTAL = [
     ]
   },
   {
+    id: 'cjc-1295-dac',
+    name: 'CJC-1295 mit DAC',
+    altNames: 'CJC-1295 DAC, DAC-GRF, Drug Affinity Complex GRF',
+    class: 'Langwirksames GHRH-Analogon (Albumin-gebunden)',
+    emoji: '⚓',
+    short: 'Das GHRH-Analogon mit eingebautem Langzeit-Anker: Der Drug Affinity Complex bindet an Albumin und dehnt die Wirkzeit auf 6–8 Tage – das bequemste Wachstumshormon-Peptid überhaupt.',
+    moa: 'CJC-1295 mit DAC ist Mod GRF 1-29 plus einem Maleimid-Anker (Drug Affinity Complex), der sich kovalent an das Bluteiweiß Albumin bindet. Da Albumin rund drei Wochen im Blut zirkuliert, verlängert sich die Halbwertszeit des Peptids von etwa 30 Minuten auf 6–8 Tage. Es bindet an den GHRH-Rezeptor der Hypophyse und hebt die Wachstumshormon-Ausschüttung dauerhaft an („GH-Bleed" statt reiner Pulse) – die pulsatile Grundstruktur bleibt dabei erhalten, läuft aber auf angehobenem Sockel. IGF-1 steigt messbar und bleibt nach einer Einzelgabe bis zu 11 Tage erhöht (Teichman, JCEM 2006). Die körpereigene Rückkopplung über Somatostatin bleibt intakt.',
+    benefits: [
+      'Nur 1–2 Injektionen pro Woche statt täglicher Gaben – maximale Praxistauglichkeit.',
+      'Humandaten: 2–10-faches Wachstumshormon und 1,5–3-faches IGF-1 über bis zu 11 Tage nach einer Gabe (Teichman, JCEM 2006).',
+      'Planbarer, gut messbarer IGF-1-Anstieg – ideal für datengetriebene Protokolle.',
+      'Stimuliert die eigene Achse statt sie zu ersetzen – Rückkopplung bleibt aktiv (Unterschied zu HGH).',
+      'Berichtete Effekte: tieferer Schlaf, schnellere Regeneration, bessere Haut und Nägel.',
+      'Gleiche Anker-Technologie, die heute auch langwirksame GLP-1-Medikamente nutzen.'
+    ],
+    risks: [
+      'Dauersignal statt reiner Pulse („GH-Bleed") – die physiologische Eleganz der Pulse geht teilweise verloren.',
+      'Häufig Rötung/Quaddeln an der Einstichstelle; möglich: Wassereinlagerung, Kribbeln, mehr Hunger.',
+      'Blutzucker und IGF-1 im Blick behalten; bei aktiver/früherer Krebserkrankung tabu.',
+      'Nie zugelassen (Entwicklung eingestellt); im Sport verboten; Graumarkt – Analysezertifikat Pflicht.'
+    ],
+    status: 'In DE/EU nicht zugelassen; Forschungssubstanz, Entwicklung eingestellt.',
+    sources: [
+      { title: 'Teichman et al., J Clin Endocrinol Metab 2006 – Prolonged stimulation of GH and IGF-1 secretion by CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' },
+      { title: 'Ionescu & Frohman, J Clin Endocrinol Metab 2006 – Pulsatile GH-Sekretion unter CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' }
+    ],
+    community: [
+      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'CJC-1295 mit DAC: Das Langzeit-Signal für Wachstumshormon',
+        audio: 'audio/cjc-1295-dac-podcast.mp3',
+        spotify: '7GY5RM8IJGggpIOemfR00a',
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 37) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das Wachstumshormon-Signal mit Langzeit-Anker: wie der Drug Affinity Complex das Peptid ans Albumin heftet (6–8 Tage Halbwertszeit statt 30 Minuten), die bemerkenswerten Humandaten (Teichman, JCEM 2006: 2–10-faches GH, bis zu 11 Tage erhöhtes IGF-1 nach einer Gabe) und die große Debatte Dauersignal („GH-Bleed") gegen natürliche Pulse. Plus Vergleich mit direktem HGH und die typische berichtete Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.',
+        sources: [
+          { title: 'Teichman et al. 2006 – CJC-1295 Pharmakokinetik/GH/IGF-1', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' },
+          { title: 'Ionescu & Frohman 2006 – Pulsatilität unter CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' }
+        ]
+      }
+    ]
+  },
+  {
     id: 'mod-grf-1-29',
     name: 'Mod GRF 1-29 (CJC-1295 ohne DAC)',
     altNames: 'Modified GRF (1-29), CJC-1295 no DAC, Sermorelin-Analogon',
@@ -1618,6 +1662,17 @@ const EXPERIMENTAL = [
         sources: [
           { title: 'Ionescu & Frohman 2006 – pulsatile vs. kontinuierliche GH-Sekretion (GHRH-Analoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
           { title: 'Teichman et al. 2006 – Pharmakokinetik CJC-1295 (DAC)', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
+        ]
+      },
+      {
+        title: 'CJC-1295 ohne DAC: Das Puls-Peptid – und die Auflösung des Namens-Chaos',
+        audio: 'audio/cjc-1295-no-dac-podcast.mp3',
+        spotify: '78AdX9FlRgHliWEjUnfYRM',
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 38) · mit Paul & Paula. Frische, positive KI-Dialogfolge, die das größte Namens-Rätsel der Peptid-Szene auflöst: CJC-1295 ohne DAC, Mod GRF 1-29 und modifiziertes GRF sind ein und dasselbe Molekül. Warum das kurzlebige GHRH-Analogon die natürlichen Wachstumshormon-Pulse verstärkt statt überdeckt (Ionescu & Frohman, JCEM 2006), was die vier Molekül-Reparaturen bewirken, wo Sermorelin einzuordnen ist, warum Insulin-Timing den Puls entscheidet – und der große Vergleich: DAC oder ohne DAC? Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.',
+        sources: [
+          { title: 'Ionescu & Frohman 2006 – pulsatile GH-Sekretion unter GHRH-Analoga', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
+          { title: 'Teichman et al. 2006 – CJC-1295 (DAC) Pharmakokinetik', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
         ]
       }
     ]
@@ -2520,7 +2575,7 @@ const _EXP_CAT_MAP = {
   'slu-pp-332': 'Exercise',
   '5-amino-1mq': 'Exercise',
   'mk-677': 'Exercise',
-  'cjc-ipamorelin': 'Exercise',
+  'cjc-ipamorelin': 'Exercise', 'cjc-1295-dac': 'Exercise',
   'thymosin-alpha-1': 'Immun',
   'bpc-157': 'Immun',
   'tb-500': 'Immun',
