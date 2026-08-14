@@ -292,11 +292,11 @@ const EXPERIMENTAL = [
     ],
     podcasts: [
       {
-        title: 'KI-Podcast: HGH & Longevity – das Wachstumshormon im Faktencheck',
+        title: 'HGH: Das Wachstumshormon im Faktencheck (Neufassung)',
         audio: 'audio/hgh-podcast.mp3',
         spotify: '1lwRuMTHAicORZOpMgJ1k0',
         lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 37) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das menschliche Wachstumshormon: was HGH im Körper macht, warum es für Muskel, Fett, Haut und Regeneration so gefragt ist, was die Rudman-Studie (1990) zeigte – und warum viele Biohacker die GH-Peptide vorziehen. Reine Information, keine Dosier- oder Anwendungsempfehlung; verschreibungspflichtig, im Sport verboten (WADA).'
+        note: 'Der Podcast von Paul Höser (Folge 52) · mit Paul & Paula. Der König der Anti-Aging-Welt zwischen Hype und Panik: Somatopause, die legendäre Rudman-Studie (NEJM 1990: +9 % Magermasse, −14 % Fett) und die TRIIM-Studie (Fahy, Aging Cell 2019: epigenetische Uhren ~2,5 Jahre zurückgedreht). Risiken neutral sortiert (Wassereinlagerung/Karpaltunnel als Dosis-Signale, Blutzucker, IGF-1-Balance), die Biohacker-Leiter von gratis (Tiefschlaf, HIIT, Fasten) über die Peptide bis zum ärztlich begleiteten Original – Messen statt Raten. Reine Information, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
   },
@@ -524,6 +524,81 @@ const EXPERIMENTAL = [
           { title: 'Pickart & Margolina, Biomolecules 2018 – GHK-Cu: Genexpression & Regeneration', url: 'https://pubmed.ncbi.nlm.nih.gov/29986520/' },
           { title: 'GHK als Anti-Aging-Peptid (Review, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8789089/' }
         ]
+      }
+    ]
+  },
+  {
+    id: 'glow-stack',
+    name: 'GLOW (GHK-Cu + BPC-157 + TB-500)',
+    altNames: 'GLOW-Blend, GLOW 50/70/75, Beauty-Stack',
+    class: 'Peptid-Blend – Kupferpeptid + Wolverine-Duo für Haut & Regeneration',
+    emoji: '✨',
+    short: 'Der gehypteste Beauty-Stack der Peptid-Szene: das Kupferpeptid GHK-Cu plus das Wolverine-Duo BPC-157 + TB-500 – Ziel: Hautverjüngung von innen.',
+    moa: 'Dreier-Logik der Geweberegeneration: TB-500 mobilisiert Reparaturzellen (Aktin-System), BPC-157 baut die Versorgung (Angiogenese über VEGF, Fibroblasten), GHK-Cu liefert den Bauplan – es moduliert ~4000 Gene Richtung Reparatur (Pickart 2015), aktiviert Kollagen-/Elastin-Synthese und transportiert Kupfer als Kofaktor für Lysyl-Oxidase und Superoxid-Dismutase. Der GHK-Spiegel im Blut sinkt mit dem Alter drastisch (Jung-Alt-Biomarker). WICHTIG: Zur Dreier-KOMBINATION existieren keine publizierten Studien – die Evidenz gilt den Einzelteilen (GHK-Cu: Zell-/Kosmetikdaten; BPC-157: Tiermodelle; TB-500: Thymosin-Beta-4-Wunddaten).',
+    benefits: [
+      'Berichtet: pralleres Hautbild, feinere Poren, weniger Knitterfältchen, schnellere Heilung kleiner Makel (ab ~3–6 Wochen).',
+      'Berichtet: vollere Haare und Nägel (GHK-Cu verlängert im Modell die Haarwachstumsphase).',
+      'Drei komplementäre Regenerations-Achsen in einem Vial (Mobilisieren + Versorgen + Bauen).',
+      'Kosmetik-Einstieg ohne Nadel möglich: GHK-Cu-Seren sind die datenstärkste, legale Route.'
+    ],
+    risks: [
+      'Zur Kombination existiert keine einzige Studie – reine Anwender-Empirie auf plausibler Einzelteil-Basis.',
+      'Kupferpeptid kann an der Einstichstelle brennen/röten; Stabilität der Mischung im Vial ungeprüft.',
+      'Angiogenese-Regel: bei aktiven Krebserkrankungen tabu; Graumarkt (Reinheit prüfen), im Sport verboten.'
+    ],
+    status: 'Research-Blend, nicht zugelassen. Einzelteile teils FDA-Category-2 (Compounding untersagt).',
+    sources: [
+      { title: 'Pickart & Margolina 2018 – GHK-Cu Regenerations-Review', url: 'https://pubmed.ncbi.nlm.nih.gov/30022107/' },
+      { title: 'Peptide Protocol Wiki – The Glow Blend (Evidenz-Guide)', url: 'https://www.peptideprotocolwiki.com/blog/glow-blend' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'GLOW (GHK-Cu + BPC-157 + TB-500): Der Beauty-Stack im Faktencheck',
+        audio: 'audio/glow-podcast.mp3',
+        spotify: '1yvGmRZsYrAmEjZm4InKks',
+        lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 51) · mit Paul & Paula. Loren Pickarts Entdeckung von 1973, die 4000-Gene-Analyse, Kupfer als Zündschlüssel der Kollagen-Quervernetzung, die Bauarbeiter-Straßen-Bauplan-Logik – und die ehrliche Einordnung: keine Kombi-Studien. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 22.08.2026, 10:00)'
+      }
+    ]
+  },
+  {
+    id: 'klow-stack',
+    name: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500)',
+    altNames: 'KLOW-Blend, GLOW + KPV, Heilungs-Stack',
+    class: 'Peptid-Blend – GLOW plus KPV für Haut, Darm & Entzündung',
+    emoji: '🧪',
+    short: 'Der große Bruder von GLOW: dieselben drei Zutaten plus die Entzündungsbremse KPV – damit verschiebt sich die Mission von Haut zu Haut + Darm + Entzündung.',
+    moa: 'Vierer-Logik: TB-500 mobilisiert Reparaturzellen, BPC-157 baut Gefäße (und ist als Magensaft-Peptid der Darmschleimhaut-Klassiker), GHK-Cu liefert den Kollagen-Bauplan – und KPV (Lys-Pro-Val, das entzündungsdämpfende Ende des Alpha-MSH) drosselt NF-κB, den Hauptschalter der Entzündungs-Genetik. In Colitis-Tiermodellen reduzierte KPV Entzündungsmarker deutlich, teils oral wirksam (Aufnahme über Peptid-Transporter der Darmzellen). Zur Vierer-KOMBINATION existieren keine publizierten Studien.',
+    benefits: [
+      'Deckt die komplette Heilungs-Kaskade ab: Mobilisieren + Versorgen + Bauen + Beruhigen.',
+      'Berichtet: Darm-Beruhigung oft nach 1–3 Wochen, Gewebe/Gelenke ab Woche 3–6, Haut-Glow wie bei GLOW.',
+      'Für entzündliche Haut (Rötungen, Ekzem-Neigung) und Reizdarm-Themen die logischere Wahl gegenüber GLOW.',
+      'KPV allein ist auch oral nutzbar – kleinste Einstiegs-Hürde für reine Darm-Anwendung.'
+    ],
+    risks: [
+      'Zur Viererkombination existiert keine einzige Studie – Anwender-Empirie auf Einzelteil-Basis.',
+      'Kupfer-Brennen an der Einstichstelle möglich; Stabilität der Mischung ungeprüft.',
+      'Angiogenese-Regel: bei aktiven Krebserkrankungen tabu; Graumarkt, im Sport verboten.',
+      'Darm-Beschwerden gehören zuerst in ärztliche Abklärung – der Blend ist kein Diagnose-Ersatz.'
+    ],
+    status: 'Research-Blend, nicht zugelassen. Evidenz aus Einzelteilen (KPV/BPC-157/TB-500/GHK-Cu) extrapoliert.',
+    sources: [
+      { title: 'Dalmasso et al., Gastroenterology 2008 – KPV bei Colitis (Tiermodell)', url: 'https://pubmed.ncbi.nlm.nih.gov/18061177/' },
+      { title: 'PeptideDeck – KLOW Blend Review', url: 'https://www.peptidedeck.com/blog/klow-peptide-blend-review' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500): Der Heilungs-Stack im Faktencheck',
+        audio: 'audio/klow-podcast.mp3',
+        spotify: '1JtzfQ7YLfHmFcM1V6xXoa',
+        lengthLabel: '≈ 10 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 53) · mit Paul & Paula. Die Substanz aus Folge 1 kehrt zurück: KPV als NF-κB-Bremse macht aus dem Beauty-Stack den Ganzkörper-Heilungs-Stack – mit Darm-Hirn-Achse, Colitis-Daten und GLOW-vs.-KLOW-Entscheidungshilfe. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 23.08.2026, 10:00)'
       }
     ]
   },
@@ -2743,7 +2818,7 @@ const _EXP_CAT_MAP = {
   'ara-290': 'Immun', 'vip': 'Immun',
   'dihexa': 'Sonstige', 'p21': 'Sonstige', 'hcg': 'Sonstige', 'oxytocin': 'Sonstige', 'humanin': 'Longevity',
   'bronchogen-chonluten': 'Immun', 'thymalin': 'Immun',
-  'pentadeca-arginate': 'Immun',
+  'pentadeca-arginate': 'Immun', 'glow-stack': 'Sonstige', 'klow-stack': 'Immun',
   'orforglipron': 'Stoffwechsel', 'amycretin': 'Stoffwechsel',
   'tesamorelin': 'Exercise',
   'enclomiphene': 'Sonstige', 'kisspeptin': 'Sonstige', 'gonadorelin': 'Sonstige', 'cerebrolysin': 'Sonstige',
