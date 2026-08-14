@@ -1023,7 +1023,16 @@ const SUPPLEMENTS = [
     synergies: ['magnesium', 'glycin'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Kirschen, Pistazien (Spurenmengen)'
+    sources: 'Kirschen, Pistazien (Spurenmengen)',
+    podcasts: [
+      {
+        title: 'Melatonin: Das Dunkelheits-Hormon im Faktencheck',
+        audio: 'audio/melatonin-podcast.mp3',
+        spotify: '5zZ1Xwon7b0f2MyWWXZnlp',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 55) \u00b7 mit Paul & Paula. Das meistgekaufte Schlafmittel der Welt, richtig benutzt: Chronobiotikum statt Schlaftablette, die Weniger-ist-mehr-Dosis (Wurtman/MIT: 0,3\u20131 mg), ehrlich bezifferte Meta-Analysen, Jetlag (Cochrane-belegt), Schichtarbeit, das Eulen-Protokoll mit fr\u00fcher Mini-Dosis, die zweite Identit\u00e4t als Mitochondrien-Antioxidans und rotes Licht zwischen Physik und Marketing. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 25.08.2026, 10:00)'
+      }
+    ]
   },
 
   // ============ STOFFWECHSEL ============

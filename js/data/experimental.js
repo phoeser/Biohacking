@@ -1620,6 +1620,15 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'IGF-1 LR3: Der Wachstumsfaktor im Faktencheck',
+        audio: 'audio/igf-1-lr3-podcast.mp3',
+        spotify: '2koyXJxKGO4Xj1Xm4lZR1Y',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 57) \u00b7 mit Paul & Paula. Der entfesselte Wachstumsfaktor: Bindungsprotein-Trick und 20\u201330 Stunden Wirkdauer, Hyperplasie-Faszination vs. null Humanstudien, die drei Stoppschilder (Unterzucker, Wachstums-Frage, Organe), Herkunft als Zellkultur-Reagenz, Mecasermin als seri\u00f6ses Gegenst\u00fcck und das IGF-1-Longevity-Paradox. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 27.08.2026, 10:00)'
+      }
     ]
   },
   {
@@ -2039,6 +2048,15 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Oxytocin: Das Bindungshormon im Faktencheck',
+        audio: 'audio/oxytocin-podcast.mp3',
+        spotify: '3cpwZtQWOR1ocxxuCV2GqA',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 56) \u00b7 mit Paul & Paula. Vom Kuschelhormon zum Longevity-Kandidaten: Kosfeld (Nature 2005), die Berkeley-Muskeldaten (Elabd, Nature Communications 2014), Knochen, Herz und AMPK, der MIT-Fund zu Lactobacillus reuteri, M\u00e4nner-Frauen-Unterschiede, der Wechseljahre-Knick \u2013 und das Gratis-Protokoll aus Ber\u00fchrung, Gemeinschaft und W\u00e4rme. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 26.08.2026, 10:00)'
+      }
     ]
   },
   {
