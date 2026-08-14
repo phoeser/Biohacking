@@ -164,7 +164,16 @@ const SUPPLEMENTS = [
     synergies: ['vitamin-d3', 'kalium', 'zink'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Kürbiskerne, Mandeln, Spinat, dunkle Schokolade, Avocado'
+    sources: 'Kürbiskerne, Mandeln, Spinat, dunkle Schokolade, Avocado',
+    podcasts: [
+      {
+        title: 'Magnesium L-Threonat: Das Gehirn-Magnesium im Faktencheck',
+        audio: 'audio/magnesium-l-threonat-podcast.mp3',
+        spotify: '2CGRCRXb0Lcy3wS05DczPv',
+        lengthLabel: '\u2248 10 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 47) \u00b7 mit Paul & Paula. Die MIT-Entdeckung, die als einzige Magnesium-Form nachweislich ins Gehirn kommt: Slutsky (Neuron 2010), Liu (J Alzheimers Dis 2016: kognitives Alter ~9 Jahre j\u00fcnger), Schlafstudie 2024 (mehr Tief- und REM-Schlaf). Plus Zwei-Gleise-Strategie mit Basis-Magnesium und Kauf-Checkliste. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 18.08.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'zink',
@@ -1044,7 +1053,16 @@ const SUPPLEMENTS = [
     synergies: ['alpha-liponsaeure', 'zimt'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Berberitze, Goldfaden'
+    sources: 'Berberitze, Goldfaden',
+    podcasts: [
+      {
+        title: 'Berberin: Das Natur-Metformin im Faktencheck',
+        audio: 'audio/berberin-podcast.mp3',
+        spotify: '7bSC4EYeFxIAgFjCAvkO8c',
+        lengthLabel: '\u2248 10 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 48) \u00b7 mit Paul & Paula. Der gelbe Pflanzenstoff, der im Direktvergleich mit Metformin mithielt (Yin, Metabolism 2008), der AMPK-Fasten-Schalter, LDL \u221220 mg/dl \u00fcber PCSK9, die Mikrobiom-Pointe (Dihydroberberin), PCOS-Daten und Wechselwirkungen (CYP3A4). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 19.08.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'spermidin',
@@ -1070,7 +1088,16 @@ const SUPPLEMENTS = [
     synergies: ['resveratrol', 'quercetin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Weizenkeime, gereifter Käse, Soja, Pilze'
+    sources: 'Weizenkeime, gereifter Käse, Soja, Pilze',
+    podcasts: [
+      {
+        title: 'Spermidin: Das Zellreinigungs-Molek\u00fcl im Faktencheck',
+        audio: 'audio/spermidin-podcast.mp3',
+        spotify: '23hyzWDQbnBZy7LZkqL1SI',
+        lengthLabel: '\u2248 9 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 50, Jubil\u00e4um!) \u00b7 mit Paul & Paula. Das Fasten-Imitat zum Schlucken: Eisenberg (Nature Medicine 2016: l\u00e4ngeres Leben, elastischere Herzen), Bruneck-Kohorte (Kiechl, AJCN 2018: ~5 Jahre niedrigere Sterblichkeit), Autophagie-Mechanismus, die ehrliche SmartAge-Einordnung und die Spermidin-Speisekarte von Weizenkeimen bis Natto. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 21.08.2026, 10:00)'
+      }
+    ]
   },
 
   // ============ WEITERE ============

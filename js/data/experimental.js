@@ -216,6 +216,15 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    podcasts: [
+      {
+        title: 'Orforglipron: Die Abnehmpille im Faktencheck',
+        audio: 'audio/orforglipron-podcast.mp3',
+        spotify: '0SzsxTG1nbymb8wTzIHPUV',
+        lengthLabel: '\u2248 11 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 45) \u00b7 mit Paul & Paula. Die erste zugelassene nicht-peptidische GLP-1-Tablette der Welt: das Chemie-Wunder aus dem Chugai-Labor, ATTAIN-1 (NEJM 2025: gut 12 % Gewichtsverlust), ACHIEVE (HbA1c \u22121,5 Punkte), US-Zulassung als Foundayo im April 2026, EMA-Stand, ehrlicher Vergleich mit den Spritzen und Muskelschutz-Basics. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 16.08.2026, 10:00)'
+      }
     ]
   },
   {
@@ -245,6 +254,15 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Hunter Williams – Peptide-Protokolle', url: 'https://www.peptideschedule.com/protocols/by/hunter-williams' }
+    ],
+    podcasts: [
+      {
+        title: 'Sermorelin & Tesamorelin: Die GHRH-Klassiker im Faktencheck',
+        audio: 'audio/sermorelin-tesamorelin-podcast.mp3',
+        spotify: '7KdLZhGdPYPWodtUB23U2L',
+        lengthLabel: '\u2248 10 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 49) \u00b7 mit Paul & Paula. Doppelfolge und Finale der Wachstumshormon-Serie: Sermorelin als bezahlbarer, physiologischer Klassiker der US-Anti-Aging-Kliniken \u2013 und Tesamorelin (Egrifta) mit den st\u00e4rksten Daten der Klasse: \u221215 % viszerales Fett (Falutz, NEJM 2007) und \u00fcber ein Drittel weniger Leberfett (Stanley, Lancet HIV 2019). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 20.08.2026, 10:00)'
+      }
     ]
   },
   {
@@ -915,6 +933,15 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Sermorelin & Tesamorelin: Die GHRH-Klassiker im Faktencheck',
+        audio: 'audio/sermorelin-tesamorelin-podcast.mp3',
+        spotify: '7KdLZhGdPYPWodtUB23U2L',
+        lengthLabel: '\u2248 10 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 49) \u00b7 mit Paul & Paula. Doppelfolge und Finale der Wachstumshormon-Serie: Sermorelin als bezahlbarer, physiologischer Klassiker der US-Anti-Aging-Kliniken \u2013 und Tesamorelin (Egrifta) mit den st\u00e4rksten Daten der Klasse: \u221215 % viszerales Fett (Falutz, NEJM 2007) und \u00fcber ein Drittel weniger Leberfett (Stanley, Lancet HIV 2019). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 20.08.2026, 10:00)'
+      }
     ]
   },
   {
