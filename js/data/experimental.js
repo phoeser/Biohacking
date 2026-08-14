@@ -619,6 +619,52 @@ const EXPERIMENTAL = [
     ]
   },
   {
+    id: 'sildenafil',
+    name: 'Viagra (Sildenafil)',
+    altNames: 'Viagra, Revatio, Sildenafil-Generika, PDE5-Hemmer',
+    class: 'Phosphodiesterase-5-Hemmer (PDE5-Hemmer), verschreibungspflichtiges Arzneimittel',
+    emoji: '💊',
+    short: 'Das Original: die berühmteste Pille der Welt – vom gescheiterten Herzmedikament zum ersten zugelassenen Potenzmittel; heute auch spannend für Gefäßgesundheit, Höhenmedizin und die Demenz-Forschung.',
+    moa: 'Sildenafil hemmt das Enzym Phosphodiesterase-5 (PDE5), das den Botenstoff cGMP abbaut. Bei sexueller Erregung setzen Nervenenden Stickstoffmonoxid frei, das die cGMP-Produktion anstößt – cGMP entspannt die Gefäßmuskulatur und lässt Blut einströmen. Sildenafil verlängert und verstärkt dieses Signal (ohne Erregung passiert nichts). Wirkeintritt nach ca. 30–60 Minuten, Wirkdauer 4–6 Stunden – der besser steuerbare Klassiker gegenüber dem lang wirksamen Tadalafil. Da PDE5 auch in den Lungengefäßen sitzt, ist Sildenafil als Revatio bei Lungenhochdruck zugelassen. Beobachtungsdaten verbinden PDE5-Hemmer-Nutzung mit niedrigerem Alzheimer-Risiko (Cleveland Clinic, Nature Aging 2021; Brauer, Neurology 2024) – Korrelation, kein Beweis; kontrollierte Studien laufen.',
+    benefits: [
+      'Zugelassen und exzellent belegt bei erektiler Dysfunktion (Goldstein, NEJM 1998) – das Original seit 1998.',
+      'Als Revatio zugelassen bei pulmonaler arterieller Hypertonie (Lungenhochdruck).',
+      'Die Erektion als Gefäß-Frühwarnsystem: ED-Abklärung deckt Herz-Kreislauf-Risiken oft Jahre früher auf.',
+      'Beobachtungsdaten: deutlich niedrigeres Alzheimer-Risiko bei Nutzern (bis −69 % Cleveland Clinic 2021; −18–44 % UCL/Neurology 2024) – Korrelation, kein Beweis.',
+      'In der Höhenmedizin untersucht (bessere Sauerstoffaufnahme in großer Höhe).',
+      'Längst generisch: günstig und seriös per Telemedizin-Rezept verfügbar – kein Grund für Schwarzmarkt-Fälschungen.'
+    ],
+    risks: [
+      'Wichtig: NIEMALS mit Nitraten (Herzmedikamente) kombinieren – Gefahr eines lebensgefährlichen Blutdruckabfalls; Vorsicht auch mit Alphablockern.',
+      'Häufig harmlos: Kopfschmerz, Gesichtsröte, verstopfte Nase, selten „Blaustich“ im Sehen.',
+      'Selten, aber ernst: Sehstörungen (NAION) und Dauererektion (Priapismus) – Notfälle.',
+      'Verschreibungspflichtig – der sichere Weg führt über Arzt/Telemedizin und Apotheke (riesiger Fälschungsmarkt!).'
+    ],
+    status: 'In DE/EU als Arzneimittel zugelassen (Viagra, Generika, Revatio), verschreibungspflichtig.',
+    sources: [
+      { title: 'Goldstein et al., NEJM 1998 – Zulassungsstudie Sildenafil bei ED', url: 'https://www.nejm.org/doi/full/10.1056/NEJM199805143382001' },
+      { title: 'Fang et al., Nature Aging 2021 – Sildenafil & Alzheimer-Risiko (Cleveland Clinic)', url: 'https://www.nature.com/articles/s43587-021-00138-z' },
+      { title: 'Brauer et al., Neurology 2024 – PDE5-Hemmer & Alzheimer (UCL, ~270.000 Männer)', url: 'https://pubmed.ncbi.nlm.nih.gov/38324745/' }
+    ],
+    community: [
+      { title: 'Verschreibungspflichtig – über Arzt/Telemedizin & Apotheke beziehen', url: 'https://www.gelbe-liste.de/wirkstoffe/Sildenafil_23246' }
+    ],
+    podcasts: [
+      {
+        title: 'Viagra (Sildenafil): Die blaue Pille im Faktencheck',
+        audio: 'audio/viagra-podcast.mp3',
+        spotify: '29knKjmuxKerJDsgdHJSse',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 44) · mit Paul & Paula. Die ganze Geschichte der berühmtesten Pille der Welt: vom gescheiterten Herzmedikament UK-92480 über die walisischen Bergarbeiter und die Zulassungsstudien (Boolell 1996; Goldstein, NEJM 1998) bis zum Nobelpreis-Mechanismus (NO–cGMP–PDE5) und zur Longevity-Wende: −69 % Alzheimer-Risiko in der Cleveland-Clinic-Analyse (Nature Aging 2021), −18–44 % in der UCL-Studie (Brauer, Neurology 2024) – ehrlich eingeordnet. Dazu die Erektion als Gefäß-Frühwarnsystem, Höhenmedizin, die Nitrat-Regel und Fun Facts von Schnittblumen bis Hamster-Jetlag. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig. (Veröffentlichung: 15.08.2026, 10:00)',
+        sources: [
+          { title: 'Goldstein et al., NEJM 1998 – Zulassungsstudie', url: 'https://www.nejm.org/doi/full/10.1056/NEJM199805143382001' },
+          { title: 'Fang et al., Nature Aging 2021 – Alzheimer-Analyse', url: 'https://www.nature.com/articles/s43587-021-00138-z' },
+          { title: 'Brauer et al., Neurology 2024 – UCL-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/38324745/' }
+        ]
+      }
+    ]
+  },
+  {
     id: 'thymosin-alpha-1',
     name: 'Thymosin Alpha-1 (TA1)',
     altNames: 'Zadaxin, Thymalfasin',
@@ -2061,6 +2107,49 @@ const EXPERIMENTAL = [
     ]
   },
   {
+    id: 'thymalin',
+    name: 'Thymalin',
+    altNames: 'Thymus-Polypeptid-Komplex, Thymogen (synthetische Variante), Vladonix (orale Cytomax-Form)',
+    class: 'Khavinson-Bioregulator – Thymus-Peptidkomplex fürs Immunsystem',
+    emoji: '🛡️',
+    short: 'Das Flaggschiff der Khavinson-Schule: ein Thymus-Peptidkomplex gegen die Immunalterung – mit den erstaunlichsten Langzeit-Sterblichkeitsdaten der Peptid-Welt (und dem klassischen Ost-West-Evidenzproblem).',
+    moa: 'Thymalin ist ein Polypeptid-Extrakt aus dem Kälberthymus (seit 1982 in Russland als Arzneimittel zugelassen, ursprünglich fürs Militär entwickelt). Aktiver Kern sind kurze Peptide wie das Dipeptid Glu-Trp (synthetisch: Thymogen). Es fördert Reifung und Balance der T-Zellen (Helfer-/Suppressor-Verhältnis), stärkt Antikörperbildung und Fresszellen-Aktivität und wirkt nach Khavinson epigenetisch: Die Kurzpeptide binden an DNA und regulieren Gene für Immunbotenstoffe und Zellschutz. Hintergrund ist die Thymus-Involution – das Organ schrumpft ab der Pubertät und verfettet im Alter fast vollständig (Immunseneszenz + Inflammaging). Die Khavinson-Langzeitstudien (Neuroendocrinology Letters 2003) berichten über 6–8 Jahre eine ~2-fach niedrigere Sterblichkeit unter Thymalin-Kuren, kombiniert mit Epithalamin ~4-fach. Wichtig: Evidenz fast ausschließlich aus einer russischen Forschungsgruppe, keine unabhängige westliche Replikation.',
+    benefits: [
+      'Adressiert mit der Thymus-Alterung einen zentralen, unterschätzten Alterungs-Treiber (Immunseneszenz).',
+      'Khavinson-Langzeitdaten: ~halbierte Sterblichkeit über 6–8 Jahre; mit Epithalamin kombiniert ~4-fach niedriger (Neuroendocrinol Lett 2003).',
+      'Berichtet: weniger Atemwegsinfekte, bessere Immun-Marker, normalisiertes T-Zell-Profil bei Älteren.',
+      'Vier Jahrzehnte Klinik-Anwendung in Russland; in der Pandemie als Begleittherapie reaktiviert.',
+      'Ausgezeichnete berichtete Verträglichkeit; orale Einstiegsvariante (Vladonix) verfügbar.'
+    ],
+    risks: [
+      'Evidenz überwiegend aus einer Forschungsgruppe/russischen Journalen – keine unabhängige Replikation nach westlichem Standard.',
+      'In der EU nicht zugelassen; Bezug = Graumarkt (Reinheit ist Anbietersache, Analysen-Zertifikate prüfen).',
+      'Bei Autoimmunerkrankungen oder nach Transplantation nur mit ärztlicher Begleitung – im Zweifel Finger weg.',
+      'Selten: lokale Reaktionen an der Einstichstelle, Allergien.'
+    ],
+    status: 'In Russland seit 1982 als Arzneimittel zugelassen; in der EU nicht zugelassen (Research-/Graumarkt).',
+    sources: [
+      { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003 – Thymus-/Pinealpeptide & Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
+      { title: 'Biology Bulletin Reviews 2021 – Thymalin: Immunokorrektur & molekulare Aspekte', url: 'https://link.springer.com/article/10.1134/S2079086421040046' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Thymalin: Der Immun-Bioregulator im Faktencheck',
+        audio: 'audio/thymalin-podcast.mp3',
+        spotify: '6aB7vB9kwKPQsukNesmvMT',
+        lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom geheimen Militär-Auftrag in Leningrad zum Flaggschiff der Khavinson-Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov, Neuroendocrinology Letters 2003): rund halbierte Sterblichkeit über 6–8 Jahre, mit Epithalamin vierfach niedriger. Plus die ehrliche Ost-West-Einordnung, die orale Vladonix-Variante und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 17.08.2026, 10:00)',
+        sources: [
+          { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
+          { title: 'Biology Bulletin Reviews 2021 – Thymalin-Review', url: 'https://link.springer.com/article/10.1134/S2079086421040046' }
+        ]
+      }
+    ]
+  },
+  {
     id: 'bronchogen-chonluten',
     name: 'Bronchogen & Chonluten',
     altNames: 'Bronchogen (AEDL, Ala-Glu-Asp-Leu), Chonluten (EDG, Glu-Asp-Gly, T-34), Atemwegs-Bioregulatoren',
@@ -2653,7 +2742,7 @@ const _EXP_CAT_MAP = {
   'sermorelin': 'Exercise', 'igf-1-lr3': 'Exercise', 'follistatin': 'Exercise',
   'ara-290': 'Immun', 'vip': 'Immun',
   'dihexa': 'Sonstige', 'p21': 'Sonstige', 'hcg': 'Sonstige', 'oxytocin': 'Sonstige', 'humanin': 'Longevity',
-  'bronchogen-chonluten': 'Immun',
+  'bronchogen-chonluten': 'Immun', 'thymalin': 'Immun',
   'pentadeca-arginate': 'Immun',
   'orforglipron': 'Stoffwechsel', 'amycretin': 'Stoffwechsel',
   'tesamorelin': 'Exercise',
