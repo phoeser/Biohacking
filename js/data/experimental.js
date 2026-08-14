@@ -222,7 +222,7 @@ const EXPERIMENTAL = [
         title: 'Orforglipron: Die Abnehmpille im Faktencheck',
         audio: 'audio/orforglipron-podcast.mp3',
         spotify: '0SzsxTG1nbymb8wTzIHPUV',
-        lengthLabel: '\u2248 11 Min \u00b7 KI-Podcast (Paul & Paula)',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul H\u00f6ser (Folge 45) \u00b7 mit Paul & Paula. Die erste zugelassene nicht-peptidische GLP-1-Tablette der Welt: das Chemie-Wunder aus dem Chugai-Labor, ATTAIN-1 (NEJM 2025: gut 12 % Gewichtsverlust), ACHIEVE (HbA1c \u22121,5 Punkte), US-Zulassung als Foundayo im April 2026, EMA-Stand, ehrlicher Vergleich mit den Spritzen und Muskelschutz-Basics. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 16.08.2026, 10:00)'
       }
     ]
@@ -260,7 +260,7 @@ const EXPERIMENTAL = [
         title: 'Sermorelin & Tesamorelin: Die GHRH-Klassiker im Faktencheck',
         audio: 'audio/sermorelin-tesamorelin-podcast.mp3',
         spotify: '7KdLZhGdPYPWodtUB23U2L',
-        lengthLabel: '\u2248 10 Min \u00b7 KI-Podcast (Paul & Paula)',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul H\u00f6ser (Folge 49) \u00b7 mit Paul & Paula. Doppelfolge und Finale der Wachstumshormon-Serie: Sermorelin als bezahlbarer, physiologischer Klassiker der US-Anti-Aging-Kliniken \u2013 und Tesamorelin (Egrifta) mit den st\u00e4rksten Daten der Klasse: \u221215 % viszerales Fett (Falutz, NEJM 2007) und \u00fcber ein Drittel weniger Leberfett (Stanley, Lancet HIV 2019). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 20.08.2026, 10:00)'
       }
     ]
@@ -295,7 +295,7 @@ const EXPERIMENTAL = [
         title: 'HGH: Das Wachstumshormon im Faktencheck (Neufassung)',
         audio: 'audio/hgh-podcast.mp3',
         spotify: '1lwRuMTHAicORZOpMgJ1k0',
-        lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul Höser (Folge 52) · mit Paul & Paula. Der König der Anti-Aging-Welt zwischen Hype und Panik: Somatopause, die legendäre Rudman-Studie (NEJM 1990: +9 % Magermasse, −14 % Fett) und die TRIIM-Studie (Fahy, Aging Cell 2019: epigenetische Uhren ~2,5 Jahre zurückgedreht). Risiken neutral sortiert (Wassereinlagerung/Karpaltunnel als Dosis-Signale, Blutzucker, IGF-1-Balance), die Biohacker-Leiter von gratis (Tiefschlaf, HIIT, Fasten) über die Peptide bis zum ärztlich begleiteten Original – Messen statt Raten. Reine Information, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
@@ -559,7 +559,7 @@ const EXPERIMENTAL = [
         title: 'GLOW (GHK-Cu + BPC-157 + TB-500): Der Beauty-Stack im Faktencheck',
         audio: 'audio/glow-podcast.mp3',
         spotify: '1yvGmRZsYrAmEjZm4InKks',
-        lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul Höser (Folge 51) · mit Paul & Paula. Loren Pickarts Entdeckung von 1973, die 4000-Gene-Analyse, Kupfer als Zündschlüssel der Kollagen-Quervernetzung, die Bauarbeiter-Straßen-Bauplan-Logik – und die ehrliche Einordnung: keine Kombi-Studien. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 22.08.2026, 10:00)'
       }
     ]
@@ -597,7 +597,7 @@ const EXPERIMENTAL = [
         title: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500): Der Heilungs-Stack im Faktencheck',
         audio: 'audio/klow-podcast.mp3',
         spotify: '1JtzfQ7YLfHmFcM1V6xXoa',
-        lengthLabel: '≈ 10 Min · KI-Podcast (Paul & Paula)',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul Höser (Folge 53) · mit Paul & Paula. Die Substanz aus Folge 1 kehrt zurück: KPV als NF-κB-Bremse macht aus dem Beauty-Stack den Ganzkörper-Heilungs-Stack – mit Darm-Hirn-Achse, Colitis-Daten und GLOW-vs.-KLOW-Entscheidungshilfe. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 23.08.2026, 10:00)'
       }
     ]
@@ -1060,7 +1060,7 @@ const EXPERIMENTAL = [
         title: 'Sermorelin & Tesamorelin: Die GHRH-Klassiker im Faktencheck',
         audio: 'audio/sermorelin-tesamorelin-podcast.mp3',
         spotify: '7KdLZhGdPYPWodtUB23U2L',
-        lengthLabel: '\u2248 10 Min \u00b7 KI-Podcast (Paul & Paula)',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul H\u00f6ser (Folge 49) \u00b7 mit Paul & Paula. Doppelfolge und Finale der Wachstumshormon-Serie: Sermorelin als bezahlbarer, physiologischer Klassiker der US-Anti-Aging-Kliniken \u2013 und Tesamorelin (Egrifta) mit den st\u00e4rksten Daten der Klasse: \u221215 % viszerales Fett (Falutz, NEJM 2007) und \u00fcber ein Drittel weniger Leberfett (Stanley, Lancet HIV 2019). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 20.08.2026, 10:00)'
       }
     ]
@@ -2233,7 +2233,7 @@ const EXPERIMENTAL = [
         title: 'Thymalin: Der Immun-Bioregulator im Faktencheck',
         audio: 'audio/thymalin-podcast.mp3',
         spotify: '6aB7vB9kwKPQsukNesmvMT',
-        lengthLabel: '≈ 11 Min · KI-Podcast (Paul & Paula)',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom geheimen Militär-Auftrag in Leningrad zum Flaggschiff der Khavinson-Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov, Neuroendocrinology Letters 2003): rund halbierte Sterblichkeit über 6–8 Jahre, mit Epithalamin vierfach niedriger. Plus die ehrliche Ost-West-Einordnung, die orale Vladonix-Variante und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 17.08.2026, 10:00)',
         sources: [
           { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
