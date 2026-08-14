@@ -1148,6 +1148,19 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Pentadeca Arginate (PDA): Der Nachfolger von BPC-157 im Faktencheck',
+        audio: 'audio/pentadeca-arginate-podcast.mp3',
+        spotify: '25P0QX2mR0rtaupodPvMpC',
+        lengthLabel: '≈ 14 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 40) · mit Paul & Paula. Als die FDA Ende 2023 BPC-157 ausbremste, füllte PDA die Lücke: dieselbe 15-Aminosäuren-Sequenz, aber als stabileres Arginat-Salz. Die Folge erzählt die Sikirić-Forschung (Brcic 2009, Seiwerth 2021), den Mechanismus (VEGFR2-Angiogenese, Fibroblasten, NO), Einsatzfelder von Sehne bis Darm, Prä-/Post-OP-Protokolle, den neuen Wolverine-Stack mit TB-500 – und ordnet die Evidenz ehrlich ein (keine eigenen Humanstudien). Reine Information, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Brcic et al., J Physiol Pharmacol 2009 – BPC-157 Sehnen-/Muskelheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/20388954/' },
+          { title: 'Seiwerth et al., Curr Pharm Des 2021 – BPC-157 Review', url: 'https://pubmed.ncbi.nlm.nih.gov/33076807/' }
+        ]
+      }
     ]
   },
   {
@@ -2371,6 +2384,19 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Melanotan 1 (Afamelanotid): Vom Bräunungs-Peptid zum Medikament',
+        audio: 'audio/melanotan-1-podcast.mp3',
+        spotify: '5KqRbraE72fY4bIFSv8Mgl',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 43) · mit Paul & Paula. Die schönste Erfolgsgeschichte der Peptid-Welt: von der Wüsten-Idee der University of Arizona über die MC1R-Selektivität bis zu den Phase-3-Studien im New England Journal of Medicine (Langendonk 2015), die EPP-Patienten – den „Kindern der Nacht" – die Sonne zurückgaben. Dazu MC1R-Genetik (warum Rothaarige verbrennen), das 16-mg-Implantat Scenesse, Vitiligo-Forschung, der Photoaging-Longevity-Blick und die ehrliche Graumarkt-Einordnung. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Langendonk et al., NEJM 2015 – Afamelanotid bei EPP (Phase 3)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa1411481' },
+          { title: 'EMA – Scenesse Produktinformation', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse' }
+        ]
+      }
     ]
   },
   {

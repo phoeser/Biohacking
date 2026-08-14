@@ -300,7 +300,16 @@ const SUPPLEMENTS = [
     synergies: ['vitamin-d3', 'vitamin-e', 'astaxanthin'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Fetter Fisch (Lachs, Sardinen, Makrele), Algenöl (vegan)'
+    sources: 'Fetter Fisch (Lachs, Sardinen, Makrele), Algenöl (vegan)',
+    podcasts: [
+      {
+        title: 'Omega-3: Die Fettsäuren fürs lange Leben im Faktencheck',
+        audio: 'audio/omega-3-podcast.mp3',
+        spotify: '06vNPC2aJxWzRg38tIHdSj',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 42) · mit Paul & Paula. Der ganze Wissenschafts-Krimi: von den Inuit-Beobachtungen über die Null-Studien-Jahre bis zum Comeback mit REDUCE-IT (Bhatt, NEJM 2019) und VITAL (Manson, NEJM 2019) – und der ersten randomisierten Anti-Aging-Evidenz überhaupt: 1 g Omega-3 täglich verlangsamte in der DO-HEALTH-Studie (Bischoff-Ferrari, Nature Aging 2025) die epigenetischen Uhren. Dazu Omega-3-Index (Ziel 8–11 %), EPA vs. DHA, Qualität (TOTOX, Algenöl) und die Vorhofflimmern-Debatte ehrlich eingeordnet. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+      }
+    ]
   },
   {
     id: 'mct-oel',
@@ -555,7 +564,16 @@ const SUPPLEMENTS = [
     synergies: ['magnesium', 'rhodiola'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Kein nennenswertes Vorkommen in Lebensmitteln'
+    sources: 'Kein nennenswertes Vorkommen in Lebensmitteln',
+    podcasts: [
+      {
+        title: 'Ashwagandha: Das Stress-Kraut im Faktencheck',
+        audio: 'audio/ashwagandha-podcast.mp3',
+        spotify: '6fZLYDZp18PqMw0YIWKCt0',
+        lengthLabel: '≈ 13 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 41) · mit Paul & Paula. Dreitausend Jahre Ayurveda treffen auf über sechzig Humanstudien: fast 28 % weniger Cortisol (Chandrasekhar, Indian J Psychol Med 2012), besserer Schlaf (Langade, Cureus 2019), doppelter Kraftzuwachs beim Bankdrücken (Wankhede, JISSN 2015), Testosteron- und Libido-Daten, weniger Stress-Essen. Plus die ehrliche Seite: BfR-Leber-Warnung, Schilddrüsen-Vorsicht, sinnvolle Zyklen und Extrakt-Qualität (KSM-66, Sensoril). Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+      }
+    ]
   },
   {
     id: 'rhodiola',
