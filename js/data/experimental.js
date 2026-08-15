@@ -1632,6 +1632,44 @@ const EXPERIMENTAL = [
     ]
   },
   {
+    id: 'rad140',
+    name: 'RAD140 (Testolone)',
+    altNames: 'Testolone, SARM',
+    class: 'Selektiver Androgen-Rezeptor-Modulator (SARM)',
+    emoji: '\ud83c\udfcb\ufe0f',
+    short: 'Der bekannteste SARM: starke Muskel-Wirkung \u00fcber den Androgen-Rezeptor \u2013 aber nur eine (abgebrochene) Humanstudie und ein ernstes Risikoprofil.',
+    moa: 'RAD140 bindet gewebe-selektiv und st\u00e4rker als Testosteron an den Androgen-Rezeptor \u2013 mit dem Ziel: volle Wirkung in Muskel und Knochen, wenig Wirkung in Prostata und Haut. Entwickelt von Radius Health gegen Muskelschwund und Brustkrebs. Die einzige Humanstudie (Phase 1, LoRusso) zeigte starke Rezeptor-Wirkung \u2013 dosislimitierend waren aber Leberwert-Anstiege. F\u00fcr Muskelaufbau existiert keine kontrollierte Humanstudie; alles Weitere ist Tiermodell plus Anwenderbericht.',
+    benefits: [
+      'Berichtete starke Zuw\u00e4chse an Magermasse und Kraft (8\u201312-Wochen-Zyklen)',
+      'Oral einnehmbar, gewebe-selektives Wirkprinzip (pr\u00e4klinisch belegt)',
+      'SARM-Prinzip mit echter medizinischer Zukunft (Sarkopenie-Forschung)'
+    ],
+    risks: [
+      'Unterdr\u00fcckt die eigene Testosteron-Achse (LH/FSH) \u2013 PCT-Kultur als Reparatur der Nebenwirkung',
+      'Leber: Transaminasen-Anstiege in der Phase-1-Studie, Fallberichte von Lebersch\u00e4den',
+      'Blutfette: HDL f\u00e4llt deutlich, ApoB-Profil verschlechtert sich',
+      'JAMA-Analyse: nur ~50 % der SARM-Produkte enthalten, was das Etikett verspricht',
+      'Keine Langzeitdaten; WADA-verboten, lange nachweisbar; f\u00fcr Frauen besonders ungeeignet'
+    ],
+    status: 'Kein zugelassenes Arzneimittel; Research Chemical, im Sport verboten (WADA).',
+    sources: [
+      { title: 'LoRusso et al. \u2013 Phase-1-Studie RAD140 (Brustkrebs)', url: 'https://pubmed.ncbi.nlm.nih.gov/34697127/' },
+      { title: 'JAMA 2017 \u2013 Analyse von SARM-Produkten', url: 'https://jamanetwork.com/journals/jama/fullarticle/2661582' }
+    ],
+    community: [
+      { title: 'Swolverine \u2013 RAD-140 Side Effects', url: 'https://swolverine.com/blogs/blog/rad-140-side-effects-risks-suppression-liver-stress-and-long-term-concerns' }
+    ],
+    podcasts: [
+      {
+        title: 'RAD140 (Testolone): Das SARM im Faktencheck',
+        audio: 'audio/rad140-podcast.mp3',
+        spotify: '6pdj4nVBmovKQhN7MK0TwA',
+        lengthLabel: '\u2248 13 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 66) \u00b7 mit Paul & Paula. Die brillante SARM-Idee und die ern\u00fcchternde Realit\u00e4t: eine einzige Humanstudie (Leberwerte dosislimitierend), Achsen-Suppression, HDL-Absturz, JAMA-Etiketten-Analyse, Ostarine & Co., Neuroprotektions-Mythos, WADA \u2013 Wissen statt Werbung. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 05.09.2026, 10:00)'
+      }
+    ]
+  },
+  {
     id: 'follistatin',
     name: 'Follistatin / Myostatin-Hemmer',
     altNames: 'Follistatin-344, ACE-031, Myostatin-Inhibitoren',

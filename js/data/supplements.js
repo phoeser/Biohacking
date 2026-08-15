@@ -29,7 +29,16 @@ const SUPPLEMENTS = [
     synergies: ['vitamin-k2', 'magnesium', 'omega-3'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Sonnenlicht, fetter Fisch (Lachs, Makrele), Eigelb'
+    sources: 'Sonnenlicht, fetter Fisch (Lachs, Makrele), Eigelb',
+    podcasts: [
+      {
+        title: 'Vitamin D & K2: Das Sonnen-Duo im Faktencheck',
+        audio: 'audio/vitamin-d-k2-podcast.mp3',
+        spotify: '21fForD7zoAfCgsKKTFHlO',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 61) \u00b7 mit Paul & Paula. Das Sonnenhormon im Faktencheck: VITAL-Studie ehrlich gelesen (u. a. \u221222 % Autoimmunerkrankungen), Badewannen-Logik, Risikogruppen, Messlogik 25-OH-D 40\u201360 ng/ml \u2013 und warum K2 und Magnesium dazugeh\u00f6ren. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 31.08.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'vitamin-k2',
@@ -54,7 +63,16 @@ const SUPPLEMENTS = [
     synergies: ['vitamin-d3', 'magnesium', 'kalzium'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Natto (fermentierte Sojabohnen), Hartkäse, Eigelb von Weidehühnern'
+    sources: 'Natto (fermentierte Sojabohnen), Hartkäse, Eigelb von Weidehühnern',
+    podcasts: [
+      {
+        title: 'Vitamin D & K2: Das Sonnen-Duo im Faktencheck',
+        audio: 'audio/vitamin-d-k2-podcast.mp3',
+        spotify: '21fForD7zoAfCgsKKTFHlO',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 61) \u00b7 mit Paul & Paula. Der Verkehrspolizist f\u00fcrs Calcium: Osteocalcin und Matrix-GLA-Protein, Rotterdam-Studie, Knapen-MK-7-Daten samt ehrlicher Grenzen, Natto und die MK-7-Form. ACHTUNG Wechselwirkung mit Vitamin-K-Antagonisten. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 31.08.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'vitamin-c',
@@ -435,7 +453,16 @@ const SUPPLEMENTS = [
     synergies: ['magnesium', 'l-theanin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Knochenbrühe, Kollagen, Gelatine, Fleisch'
+    sources: 'Knochenbrühe, Kollagen, Gelatine, Fleisch',
+    podcasts: [
+      {
+        title: 'Kollagenpeptide & Glycin: Das Struktur-Duo im Faktencheck',
+        audio: 'audio/kollagen-glycin-podcast.mp3',
+        spotify: '7sEemDFiWAx5G7MBP0kW0F',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 60) \u00b7 mit Paul & Paula. Ein Drittel des Kollagens, 3 g f\u00fcr besseren Schlaf (Kerntemperatur-Trick), Glutathion-Baustein (GlyNAC) und Longevity-Signal im Tiermodell \u2013 f\u00fcr Centbetr\u00e4ge. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 30.08.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'acetyl-l-carnitin',
@@ -914,7 +941,16 @@ const SUPPLEMENTS = [
     synergies: ['vitamin-c', 'alpha-liponsaeure', 'selen'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Spargel, Avocado, Molke (Glutathion instabil in Nahrung)'
+    sources: 'Spargel, Avocado, Molke (Glutathion instabil in Nahrung)',
+    podcasts: [
+      {
+        title: 'Glutathion: Das Master-Antioxidans im Faktencheck',
+        audio: 'audio/glutathion-podcast.mp3',
+        spotify: '0E6RA6fW9xUHQJ9iAY3k72',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 65) \u00b7 mit Paul & Paula. Das Master-Antioxidans: GSH/GSSG, Leber-Phase-2, Altersabfall, orale Daten (Richie 2015), die Baustein-Strategie mit NAC + Glycin (GlyNAC), Schwefel-K\u00fcche, Selen, Tank-Leerer (Alkohol, Paracetamol) und die Hormesis-Falle beim Training. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 04.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'alpha-liponsaeure',
@@ -1134,7 +1170,16 @@ const SUPPLEMENTS = [
     synergies: ['vitamin-c', 'hyaluronsaeure'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Knochenbrühe, Haut/Bindegewebe von Tieren'
+    sources: 'Knochenbrühe, Haut/Bindegewebe von Tieren',
+    podcasts: [
+      {
+        title: 'Kollagenpeptide & Glycin: Das Struktur-Duo im Faktencheck',
+        audio: 'audio/kollagen-glycin-podcast.mp3',
+        spotify: '7sEemDFiWAx5G7MBP0kW0F',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 60) \u00b7 mit Paul & Paula. Das Struktur-Duo: Haut-RCTs (Proksch, Bolke) ehrlich eingeordnet, die st\u00e4rkere Karte Sehnen/Gelenke/Knochen (Clark, Zdzieblik, K\u00f6nig), der Baar-Trick mit Vitamin C vorm Training \u2013 und Glycin als heimlicher Hauptdarsteller. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 30.08.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'probiotika',
@@ -1214,7 +1259,16 @@ const SUPPLEMENTS = [
     synergies: ['l-theanin', 'kreatin'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Kaffee, Grüner Tee, Matcha, Guarana'
+    sources: 'Kaffee, Grüner Tee, Matcha, Guarana',
+    podcasts: [
+      {
+        title: 'Kaffee & Koffein: Der Alltags-Booster im Faktencheck',
+        audio: 'audio/kaffee-koffein-podcast.mp3',
+        spotify: '6A5zsRVuRywSJvV34qhHbG',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 63) \u00b7 mit Paul & Paula. Adenosin-Mechanik, Halbwertszeit und die 8-Stunden-Deadline, die U-Kurve mit 15\u201330 % niedrigerer Sterblichkeit bei 2\u20134 Tassen, Morgen- vs. Ganztags-Trinker, CYP1A2-Genetik, Cafestol und Papierfilter, L-Theanin-Feintuning. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 02.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'whey',
@@ -2065,7 +2119,16 @@ const SUPPLEMENTS = [
     synergies: ['glycin', 'nac', 'alpha-liponsaeure'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Aminosäuren (Glycin-Pulver + NAC-Kapsel/Pulver)'
+    sources: 'Aminosäuren (Glycin-Pulver + NAC-Kapsel/Pulver)',
+    podcasts: [
+      {
+        title: 'Glutathion: Das Master-Antioxidans im Faktencheck',
+        audio: 'audio/glutathion-podcast.mp3',
+        spotify: '0E6RA6fW9xUHQJ9iAY3k72',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 65) \u00b7 mit Paul & Paula. Die GlyNAC-Studie im Detail: Glutathion bei \u00c4lteren zur\u00fcck auf Jung-Niveau, weniger oxidativer Stress, bessere Mitochondrien und Gehgeschwindigkeit (Sekhar, Baylor College). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 04.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'lithium-orotat',
