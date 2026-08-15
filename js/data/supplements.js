@@ -542,7 +542,16 @@ const SUPPLEMENTS = [
     synergies: ['magnesium', 'kreatin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Fleisch, Fisch, Meeresfrüchte'
+    sources: 'Fleisch, Fisch, Meeresfrüchte',
+    podcasts: [
+      {
+        title: 'Taurin: Die untersch\u00e4tzte Aminos\u00e4ure im Faktencheck (Solo-Special)',
+        audio: 'audio/taurin-podcast.mp3',
+        spotify: '5aIzYuKiWVt3H1VX05a9fX',
+        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Solo mit Paul)',
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 67, Solo-Special \u2013 Paula hat Urlaub) \u00b7 nur mit Paul. Die Taurin-Story mit Plot-Twist: Science 2023 (M\u00e4use +10\u201312 % Lebensspanne, Affen-Daten), die NIA-Gegen-Analyse 2025 zur Biomarker-These, belegte Blutdruck- und Sport-Effekte, die Veganer-L\u00fccke und der Abend-Stack mit Magnesium und Glycin. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 06.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: '5-htp',
