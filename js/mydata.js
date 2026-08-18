@@ -155,6 +155,11 @@
     root.appendChild(wearBox);
     loadWearable(wearBox);
 
+    // Apple Health (Kurzbefehl-Sync)
+    var ahBox = el('<div id="md-apple"></div>');
+    root.appendChild(ahBox);
+    renderAppleHealth(ahBox);
+
     // Verlauf (Zeitreihe)
     var verlaufBox = el('<div id="md-verlauf"></div>');
     root.appendChild(verlaufBox);
@@ -649,6 +654,120 @@
   function ensureRoot() {
     root = document.getElementById('mydata-app');
     return !!root;
+  }
+
+  // ================= Apple Health (Kurzbefehl-Sync) =================
+  var unsubHK = null;
+
+  function ahTile(label, value, sub) {
+    return '<div class="mydata-tile"><span class="mydata-tile-label">' + label + '</span>' +
+           '<strong class="mydata-tile-value">' + value + '</strong>' +
+           '<span class="mydata-tile-sub">' + (sub || '') + '</span></div>';
+  }
+
+  function ahRandomToken() {
+    var a = new Uint8Array(24);
+    (window.crypto || window.msCrypto).getRandomValues(a);
+    return Array.prototype.map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+  }
+
+  function ahShortcutUrl(uid) {
+    return 'https://firestore.googleapis.com/v1/projects/' + firebaseConfig.projectId +
+      '/databases/(default)/documents/users/' + uid + '/healthkit/DATUM?key=' + firebaseConfig.apiKey;
+  }
+
+  function ahInstructions(uid, token) {
+    var url = ahShortcutUrl(uid);
+    return '' +
+      '<details style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">📱 Kurzbefehl auf dem iPhone einrichten (einmalig)</summary>' +
+      '<div style="font-size:.9rem;line-height:1.6;margin-top:10px">' +
+      '<p><strong>1.</strong> Kurzbefehle-App → neuer Kurzbefehl „Health → Biohacking".</p>' +
+      '<p><strong>2.</strong> Für jeden Wert eine Aktion <em>„Gesundheitsproben suchen"</em> hinzufügen (Zeitraum: Heute bzw. letzte Nacht, als Statistik/Durchschnitt): Schritte, Aktivitätskalorien, Ruheherzfrequenz, Herzfrequenzvariabilität, Schlafanalyse (Dauer), Körpergewicht, VO₂max – was du davon nutzen willst.</p>' +
+      '<p><strong>3.</strong> Aktion <em>„Datum formatieren"</em>: aktuelles Datum als Muster <code>yyyy-MM-dd</code>.</p>' +
+      '<p><strong>4.</strong> Aktion <em>„Text"</em> mit diesem Inhalt (die GROSSEN Wörter durch die Variablen aus Schritt 2 ersetzen; nicht genutzte Zeilen einfach löschen – Komma-Regeln beachten):</p>' +
+      '<pre style="background:rgba(0,0,0,.3);padding:10px;border-radius:8px;overflow:auto;font-size:.78rem">{"fields":{\n' +
+      ' "token":{"stringValue":"' + token + '"},\n' +
+      ' "date":{"stringValue":"DATUM"},\n' +
+      ' "steps":{"doubleValue":SCHRITTE},\n' +
+      ' "activeKcal":{"doubleValue":KALORIEN},\n' +
+      ' "restingHr":{"doubleValue":RUHEPULS},\n' +
+      ' "hrv":{"doubleValue":HRV},\n' +
+      ' "sleepMin":{"doubleValue":SCHLAFMINUTEN},\n' +
+      ' "weightKg":{"doubleValue":GEWICHT},\n' +
+      ' "vo2max":{"doubleValue":VO2MAX}\n' +
+      '}}</pre>' +
+      '<p><strong>5.</strong> Aktion <em>„Inhalt von URL abrufen"</em>:<br>URL (das Wort DATUM am Ende durch die Datums-Variable aus Schritt 3 ersetzen):<br>' +
+      '<code style="word-break:break-all;font-size:.75rem">' + url + '</code><br>' +
+      'Methode: <strong>PATCH</strong> · Anfragetext: <strong>Datei</strong> → der Text aus Schritt 4 · Header <code>Content-Type: application/json</code>.</p>' +
+      '<p><strong>6.</strong> Kurzbefehle → Automation → „Tageszeit" (z. B. 9:00 Uhr, täglich, „Sofort ausführen") → deinen Kurzbefehl wählen. Fertig – ab dann erscheinen die Werte jeden Morgen hier.</p>' +
+      '<p class="muted">Das Token ist dein privater Schlüssel – der Kurzbefehl darf damit nur Health-Werte in dein Konto schreiben, nichts lesen.</p>' +
+      '</div></details>';
+  }
+
+  function renderAppleHealth(box) {
+    var cfgRef = db.collection('users').doc(currentUser.uid).collection('config').doc('healthkit');
+    box.innerHTML = '';
+    cfgRef.get().then(function (cfg) {
+      if (!cfg.exists) {
+        var card = el(
+          '<div class="mydata-card">' +
+            '<h3>🍏 Apple Health verbinden</h3>' +
+            '<p class="muted">Dein iPhone kann Schritte, Ruhepuls, HRV, Schlaf & Co. jeden Morgen automatisch hierher schicken – per Kurzbefehl, ohne zusätzliche App.</p>' +
+            '<button class="btn btn-primary" id="md-ah-setup">Apple-Health-Sync einrichten</button>' +
+          '</div>');
+        box.appendChild(card);
+        $('#md-ah-setup', box).addEventListener('click', function () {
+          var token = ahRandomToken();
+          cfgRef.set({ token: token, createdAt: new Date().toISOString() }).then(function () {
+            toast('Apple-Health-Sync eingerichtet ✓', 'ok');
+            renderAppleHealth(box);
+          }).catch(function (e) { toast('Einrichten fehlgeschlagen: ' + e.message, 'error'); });
+        });
+        return;
+      }
+
+      var token = cfg.data().token;
+      var card = el(
+        '<div class="mydata-card">' +
+          '<div class="mydata-dash-head"><h3>🍏 Apple Health</h3></div>' +
+          '<div class="mydata-grid" id="md-ah-grid"><p class="muted">Noch keine Werte – richte den Kurzbefehl ein (Anleitung unten) oder führe ihn einmal aus.</p></div>' +
+          '<p class="small muted" id="md-ah-updated"></p>' +
+          ahInstructions(currentUser.uid, token) +
+        '</div>');
+      box.appendChild(card);
+
+      if (unsubHK) { unsubHK(); unsubHK = null; }
+      var col = db.collection('users').doc(currentUser.uid).collection('healthkit');
+      unsubHK = col.doc(todayKey()).onSnapshot(function (doc) {
+        if (doc.exists) { paintHK(box, doc.data(), doc.id); }
+        else {
+          col.get().then(function (qs) {
+            if (qs.empty) return;
+            var docs = qs.docs.slice().sort(function (a, b) { return a.id < b.id ? 1 : -1; });
+            paintHK(box, docs[0].data(), docs[0].id);
+          }).catch(function (e) { console.warn(e); });
+        }
+      }, function (err) { console.warn('[AppleHealth]', err); });
+    }).catch(function (e) {
+      console.warn('[AppleHealth] config', e);
+    });
+  }
+
+  function paintHK(box, v, day) {
+    var grid = $('#md-ah-grid', box);
+    if (!grid) return;
+    function n(x, d) { return (x === null || x === undefined) ? null : Math.round(x * (d ? 10 : 1)) / (d ? 10 : 1); }
+    var tiles = '';
+    if (v.steps != null) tiles += ahTile('Schritte', Math.round(v.steps).toLocaleString('de-DE'), 'heute');
+    if (v.activeKcal != null) tiles += ahTile('Aktivität', Math.round(v.activeKcal) + ' kcal', 'aktive Kalorien');
+    if (v.restingHr != null) tiles += ahTile('Ruhepuls', Math.round(v.restingHr) + ' bpm', 'Apple Watch');
+    if (v.hrv != null) tiles += ahTile('HRV', Math.round(v.hrv) + ' ms', 'SDNN (Apple)');
+    if (v.sleepMin != null) tiles += ahTile('Schlaf', Math.floor(v.sleepMin / 60) + ' h ' + Math.round(v.sleepMin % 60) + ' min', 'letzte Nacht');
+    if (v.weightKg != null) tiles += ahTile('Gewicht', n(v.weightKg, true) + ' kg', 'Körpergewicht');
+    if (v.vo2max != null) tiles += ahTile('VO₂max', n(v.vo2max, true), 'ml/kg/min');
+    grid.innerHTML = tiles || '<p class="muted">Dokument da, aber keine bekannten Felder.</p>';
+    var upd = $('#md-ah-updated', box);
+    if (upd) upd.textContent = 'Stand: ' + (v.date || day || '') + ' · Quelle: Apple Health (Kurzbefehl)';
   }
 
   // Rückkehr von WHOOP auswerten (#mydata?whoop=connected / &whoop=error)
