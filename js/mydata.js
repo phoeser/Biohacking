@@ -671,36 +671,48 @@
     return Array.prototype.map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
   }
 
-  function ahShortcutUrl(uid) {
-    return 'https://firestore.googleapis.com/v1/projects/' + firebaseConfig.projectId +
-      '/databases/(default)/documents/users/' + uid + '/healthkit/DATUM?key=' + firebaseConfig.apiKey;
+  var AH_INGEST = 'https://healthingest-638881356793.europe-west1.run.app/';
+
+  function ahShortcutUrl(uid, token) {
+    return AH_INGEST + '?uid=' + uid + '&token=' + token +
+      '&steps=SCHRITTE&rhr=RUHEPULS&hrv=HRV&sleep=SCHLAF';
+  }
+
+  function ahCopyBtn(id, label) {
+    return '<button class="btn btn-ghost btn-sm" data-copy="' + id + '" style="margin:6px 0">📋 ' + (label || 'Kopieren') + '</button>';
   }
 
   function ahInstructions(uid, token) {
-    var url = ahShortcutUrl(uid);
+    var url = ahShortcutUrl(uid, token);
     return '' +
-      '<details style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">📱 Kurzbefehl auf dem iPhone einrichten (einmalig)</summary>' +
-      '<div style="font-size:.9rem;line-height:1.6;margin-top:10px">' +
-      '<p><strong>1.</strong> Kurzbefehle-App → neuer Kurzbefehl „Health → Biohacking".</p>' +
-      '<p><strong>2.</strong> Für jeden Wert eine Aktion <em>„Gesundheitsproben suchen"</em> hinzufügen (Zeitraum: Heute bzw. letzte Nacht, als Statistik/Durchschnitt): Schritte, Aktivitätskalorien, Ruheherzfrequenz, Herzfrequenzvariabilität, Schlafanalyse (Dauer), Körpergewicht, VO₂max – was du davon nutzen willst.</p>' +
-      '<p><strong>3.</strong> Aktion <em>„Datum formatieren"</em>: aktuelles Datum als Muster <code>yyyy-MM-dd</code>.</p>' +
-      '<p><strong>4.</strong> Aktion <em>„Text"</em> mit diesem Inhalt (die GROSSEN Wörter durch die Variablen aus Schritt 2 ersetzen; nicht genutzte Zeilen einfach löschen – Komma-Regeln beachten):</p>' +
-      '<pre style="background:rgba(0,0,0,.3);padding:10px;border-radius:8px;overflow:auto;font-size:.78rem">{"fields":{\n' +
-      ' "token":{"stringValue":"' + token + '"},\n' +
-      ' "date":{"stringValue":"DATUM"},\n' +
-      ' "steps":{"doubleValue":SCHRITTE},\n' +
-      ' "activeKcal":{"doubleValue":KALORIEN},\n' +
-      ' "restingHr":{"doubleValue":RUHEPULS},\n' +
-      ' "hrv":{"doubleValue":HRV},\n' +
-      ' "sleepMin":{"doubleValue":SCHLAFMINUTEN},\n' +
-      ' "weightKg":{"doubleValue":GEWICHT},\n' +
-      ' "vo2max":{"doubleValue":VO2MAX}\n' +
-      '}}</pre>' +
-      '<p><strong>5.</strong> Aktion <em>„Inhalt von URL abrufen"</em>:<br>URL (das Wort DATUM am Ende durch die Datums-Variable aus Schritt 3 ersetzen):<br>' +
-      '<code style="word-break:break-all;font-size:.75rem">' + url + '</code><br>' +
-      'Methode: <strong>PATCH</strong> · Anfragetext: <strong>Datei</strong> → der Text aus Schritt 4 · Header <code>Content-Type: application/json</code>.</p>' +
-      '<p><strong>6.</strong> Kurzbefehle → Automation → „Tageszeit" (z. B. 9:00 Uhr, täglich, „Sofort ausführen") → deinen Kurzbefehl wählen. Fertig – ab dann erscheinen die Werte jeden Morgen hier.</p>' +
-      '<p class="muted">Das Token ist dein privater Schlüssel – der Kurzbefehl darf damit nur Health-Werte in dein Konto schreiben, nichts lesen.</p>' +
+      '<details style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">📱 Einrichten in 3 Schritten (einmalig, ~5 Minuten, direkt am iPhone)</summary>' +
+      '<div style="font-size:.92rem;line-height:1.65;margin-top:10px">' +
+
+      '<p style="margin:10px 0 4px"><strong>Schritt 1 – Werte holen</strong></p>' +
+      '<p>Öffne die App <strong>Kurzbefehle</strong> auf dem iPhone → „+" (neuer Kurzbefehl). ' +
+      'Füge <strong>4× die Aktion „Gesundheitsproben suchen"</strong> hinzu und stelle sie so ein:</p>' +
+      '<p style="background:rgba(0,0,0,.25);border-radius:10px;padding:10px 12px">' +
+      '1. <strong>Schritte</strong> – Heute – Statistik: Summe<br>' +
+      '2. <strong>Ruheherzfrequenz</strong> – Heute – Durchschnitt<br>' +
+      '3. <strong>Herzfrequenzvariabilität</strong> – Heute – Durchschnitt<br>' +
+      '4. <strong>Schlafanalyse</strong> – Letzte 24 Stunden – Dauer</p>' +
+      '<p class="muted" style="font-size:.82rem">Beim ersten Mal fragt iOS nach Health-Zugriff – einmal erlauben. Du kannst auch mit weniger Werten starten.</p>' +
+
+      '<p style="margin:14px 0 4px"><strong>Schritt 2 – Eine Adresse aufrufen</strong></p>' +
+      '<p>Füge die Aktion <strong>„Inhalt von URL abrufen"</strong> hinzu. Kopiere deine persönliche Adresse:</p>' +
+      '<code id="md-ah-url" style="display:block;word-break:break-all;font-size:.72rem;background:rgba(0,0,0,.3);padding:10px;border-radius:8px">' + url + '</code>' +
+      ahCopyBtn('md-ah-url', 'Adresse kopieren') +
+      '<p>Füge sie in das URL-Feld ein. Dann tippe in der URL nacheinander auf die Wörter ' +
+      '<strong>SCHRITTE, RUHEPULS, HRV, SCHLAF</strong>, lösche sie und wähle stattdessen über „Variable auswählen" die passende Gesundheitsprobe aus Schritt 1. ' +
+      'Mehr ist nicht nötig – keine Methode, kein JSON, keine Header.</p>' +
+      '<p class="muted" style="font-size:.82rem">Dein Login (uid + Token) steckt schon fertig in der Adresse. Werte, die du nicht nutzt, kannst du samt „&name=WORT" einfach aus der URL löschen.</p>' +
+
+      '<p style="margin:14px 0 4px"><strong>Schritt 3 – Automatisch jeden Morgen</strong></p>' +
+      '<p>Kurzbefehle → Tab <strong>„Automation"</strong> → „+" → <strong>Tageszeit</strong> → z. B. 9:00 Uhr, täglich → „Sofort ausführen" → deinen Kurzbefehl wählen. Fertig!</p>' +
+
+      '<p style="background:rgba(47,139,106,.12);border:1px solid rgba(47,139,106,.3);border-radius:10px;padding:10px 12px">' +
+      '<strong>Test:</strong> Tippe den Kurzbefehl einmal von Hand an – wenn „OK" zurückkommt, erscheinen deine Werte hier oben binnen Sekunden.</p>' +
+      '<p class="muted" style="font-size:.82rem">Das Token in der Adresse ist dein privater Schlüssel: Damit kann man nur Health-Werte in dein Konto schreiben, niemals etwas lesen. Bei Bedarf kannst du es jederzeit erneuern (Karte neu einrichten).</p>' +
       '</div></details>';
   }
 
@@ -735,6 +747,24 @@
           ahInstructions(currentUser.uid, token) +
         '</div>');
       box.appendChild(card);
+
+      box.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-copy]');
+        if (!btn) return;
+        var elx = document.getElementById(btn.getAttribute('data-copy'));
+        if (!elx) return;
+        var txt = elx.textContent;
+        function done() { toast('Kopiert ✓ – jetzt in Kurzbefehle einfügen', 'ok'); }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(txt).then(done).catch(function () { fallback(); });
+        } else { fallback(); }
+        function fallback() {
+          var ta = document.createElement('textarea');
+          ta.value = txt; document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); done(); } catch (err) { toast('Bitte manuell kopieren', 'error'); }
+          ta.remove();
+        }
+      });
 
       if (unsubHK) { unsubHK(); unsubHK = null; }
       var col = db.collection('users').doc(currentUser.uid).collection('healthkit');
