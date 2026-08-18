@@ -675,7 +675,7 @@
 
   function ahShortcutUrl(uid, token) {
     return AH_INGEST + '?uid=' + uid + '&token=' + token +
-      '&steps=SCHRITTE&rhr=RUHEPULS&hrv=HRV&sleep=SCHLAF';
+      '&steps=SCHRITTE&rhr=RUHEPULS&hrv=HRV';
   }
 
   function ahCopyBtn(id, label) {
@@ -685,30 +685,37 @@
   function ahInstructions(uid, token) {
     var url = ahShortcutUrl(uid, token);
     return '' +
-      '<details style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">📱 Einrichten in 3 Schritten (einmalig, ~5 Minuten, direkt am iPhone)</summary>' +
+      '<details style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">📱 Einrichten in ~5 Minuten – der Kurzbefehl besteht aus genau 4 Aktionen</summary>' +
       '<div style="font-size:.92rem;line-height:1.65;margin-top:10px">' +
 
-      '<p style="margin:10px 0 4px"><strong>Schritt 1 – Werte holen</strong></p>' +
-      '<p>Öffne die App <strong>Kurzbefehle</strong> auf dem iPhone → „+" (neuer Kurzbefehl). ' +
-      'Füge <strong>4× die Aktion „Gesundheitsproben suchen"</strong> hinzu und stelle sie so ein:</p>' +
-      '<p style="background:rgba(0,0,0,.25);border-radius:10px;padding:10px 12px">' +
-      '1. <strong>Schritte</strong> – Heute – Statistik: Summe<br>' +
-      '2. <strong>Ruheherzfrequenz</strong> – Heute – Durchschnitt<br>' +
-      '3. <strong>Herzfrequenzvariabilität</strong> – Heute – Durchschnitt<br>' +
-      '4. <strong>Schlafanalyse</strong> – Letzte 24 Stunden – Dauer</p>' +
-      '<p class="muted" style="font-size:.82rem">Beim ersten Mal fragt iOS nach Health-Zugriff – einmal erlauben. Du kannst auch mit weniger Werten starten.</p>' +
+      '<p>Öffne die App <strong>Kurzbefehle</strong> → Tab „Kurzbefehle" → <strong>„+"</strong> oben rechts. ' +
+      'Jetzt fragt iOS nach einer Aktion: Das ist einfach die erste der vier unten – alle findest du über das <strong>Suchfeld</strong>. ' +
+      'Kategorien wie Skripte, Steuerung oder Gerät brauchst du nie.</p>' +
 
-      '<p style="margin:14px 0 4px"><strong>Schritt 2 – Eine Adresse aufrufen</strong></p>' +
-      '<p>Füge die Aktion <strong>„Inhalt von URL abrufen"</strong> hinzu. Kopiere deine persönliche Adresse:</p>' +
+      '<p style="margin:14px 0 4px"><strong>Aktion 1 – Schritte</strong></p>' +
+      '<p style="background:rgba(0,0,0,.25);border-radius:10px;padding:10px 12px">' +
+      '1. Ins Suchfeld <strong>„Proben"</strong> oder <strong>„Health"</strong> tippen → <strong>„Gesundheitsproben suchen"</strong> wählen (heißt je nach iOS-Version auch <strong>„Healthwerte suchen"</strong>)<br>' +
+      '&nbsp;&nbsp;&nbsp;⚠️ Nicht in der <em>Health-App-Kachel</em> blättern – dort stehen nur „Training protokollieren" &amp; Co. Die richtige Aktion findet nur die Suche!<br>' +
+      '2. Auf das hervorgehobene Wort <strong>„Alle Gesundheitsproben"</strong> tippen → <strong>Schritte</strong><br>' +
+      '3. <strong>„Filter hinzufügen"</strong> → Startdatum → <strong>„ist heute"</strong><br>' +
+      '4. Aktion aufklappen (Pfeil): gibt es <strong>„Proben kombinieren: Pro Tag"</strong>, schalte es ein – dann kommt ein einzelner Tageswert</p>' +
+
+      '<p style="margin:14px 0 4px"><strong>Aktion 2 – Ruhepuls</strong> · wie Aktion 1, nur Typ <strong>„Ruheherzfrequenz"</strong></p>' +
+      '<p style="margin:14px 0 4px"><strong>Aktion 3 – HRV</strong> · wie Aktion 1, nur Typ <strong>„Herzfrequenzvariabilität"</strong></p>' +
+      '<p class="muted" style="font-size:.82rem">Beim ersten Mal fragt iOS nach Health-Zugriff – einmal erlauben.</p>' +
+
+      '<p style="margin:14px 0 4px"><strong>Aktion 4 – Senden</strong></p>' +
+      '<p>Ins Suchfeld „URL" tippen → <strong>„Inhalt von URL abrufen"</strong> wählen. Kopiere deine persönliche Adresse:</p>' +
       '<code id="md-ah-url" style="display:block;word-break:break-all;font-size:.72rem;background:rgba(0,0,0,.3);padding:10px;border-radius:8px">' + url + '</code>' +
       ahCopyBtn('md-ah-url', 'Adresse kopieren') +
-      '<p>Füge sie in das URL-Feld ein. Dann tippe in der URL nacheinander auf die Wörter ' +
-      '<strong>SCHRITTE, RUHEPULS, HRV, SCHLAF</strong>, lösche sie und wähle stattdessen über „Variable auswählen" die passende Gesundheitsprobe aus Schritt 1. ' +
-      'Mehr ist nicht nötig – keine Methode, kein JSON, keine Header.</p>' +
-      '<p class="muted" style="font-size:.82rem">Dein Login (uid + Token) steckt schon fertig in der Adresse. Werte, die du nicht nutzt, kannst du samt „&name=WORT" einfach aus der URL löschen.</p>' +
+      '<p>Ins URL-Feld einfügen. Dann in der Adresse das Wort <strong>SCHRITTE</strong> löschen und über die Leiste über der Tastatur die Variable der <strong>ersten</strong> ' +
+      'Gesundheitsproben-Aktion antippen („Variable auswählen" zeigt alle Ergebnisse in Reihenfolge). Genauso <strong>RUHEPULS</strong> → zweite Aktion, <strong>HRV</strong> → dritte. ' +
+      'Keine Methode, kein JSON, keine Header nötig. Oben rechts „Fertig".</p>' +
+      '<p class="muted" style="font-size:.82rem">Dein Login (uid + Token) steckt schon fertig in der Adresse. ' +
+      'Später erweiterbar: einfach z. B. <code>&sleep=SCHLAF</code> (Schlafanalyse), <code>&kcal=KALORIEN</code>, <code>&weight=GEWICHT</code> oder <code>&vo2=VO2MAX</code> ans Ende anhängen und die passende Probe als Variable einsetzen.</p>' +
 
-      '<p style="margin:14px 0 4px"><strong>Schritt 3 – Automatisch jeden Morgen</strong></p>' +
-      '<p>Kurzbefehle → Tab <strong>„Automation"</strong> → „+" → <strong>Tageszeit</strong> → z. B. 9:00 Uhr, täglich → „Sofort ausführen" → deinen Kurzbefehl wählen. Fertig!</p>' +
+      '<p style="margin:14px 0 4px"><strong>Zum Schluss – automatisch jeden Morgen</strong></p>' +
+      '<p>Tab <strong>„Automation"</strong> → „+" → <strong>Tageszeit</strong> → z. B. 9:00 Uhr, täglich → <strong>„Sofort ausführen"</strong> → deinen Kurzbefehl wählen. Fertig!</p>' +
 
       '<p style="background:rgba(47,139,106,.12);border:1px solid rgba(47,139,106,.3);border-radius:10px;padding:10px 12px">' +
       '<strong>Test:</strong> Tippe den Kurzbefehl einmal von Hand an – wenn „OK" zurückkommt, erscheinen deine Werte hier oben binnen Sekunden.</p>' +
