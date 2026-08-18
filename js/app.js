@@ -62,6 +62,12 @@
       .replace(/'/g, '&#39;');
   }
 
+  // Erlaubt nur http/https-Links. Alles andere (javascript:, data:, …) wird
+  // auf einen harmlosen Anker umgebogen – KI-generierte URLs sind nicht vertrauenswürdig.
+  function safeHttpUrl(url, fallback) {
+    return (url && /^https?:\/\//i.test(String(url).trim())) ? String(url).trim() : (fallback || '#news');
+  }
+
   function normalizeStr(s) {
     return (s || '')
       .toLowerCase()
@@ -301,7 +307,7 @@ Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten I
       const domain = (() => {
         try { return new URL(n.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; }
       })();
-      const safeUrl = (n.url && /^https?:\/\//i.test(n.url)) ? n.url : '#news';
+      const safeUrl = safeHttpUrl(n.url);
       return `
         <a class="home-news-card" data-news-url="${escapeHtml(safeUrl)}" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">
           <div class="home-news-cat">${escapeHtml(n.category || 'News')}</div>
@@ -923,11 +929,12 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
     statusEl.innerHTML = `<div class="ok">✓ ${data.items.length} News geladen · Stand: ${escapeHtml(when)}${opts.fromCache ? ' · (aus Cache)' : ''}</div>`;
 
     listEl.innerHTML = data.items.map(n => {
-      const domain = (() => { try { return new URL(n.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; } })();
+      const safeUrl = safeHttpUrl(n.url);
+      const domain = (() => { try { return new URL(safeUrl).hostname.replace(/^www\./, ''); } catch (_) { return ''; } })();
       return `
-        <article class="news-card" data-news-url="${escapeHtml(n.url || '')}">
+        <article class="news-card" data-news-url="${escapeHtml(safeUrl)}">
           <div class="news-cat">${escapeHtml(n.category || 'News')}</div>
-          <h3><a href="${escapeHtml(n.url)}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a></h3>
+          <h3><a href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">${escapeHtml(n.title || '')}</a></h3>
           <p>${escapeHtml(n.summary || '')}</p>
           ${domain ? `<div class="news-src">🔗 ${escapeHtml(domain)}</div>` : ''}
         </article>
@@ -938,7 +945,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
       listEl.insertAdjacentHTML('beforeend', `
         <div class="news-sources">
           <h4>Quellen (Web-Suche)</h4>
-          <ul>${data.sources.slice(0, 10).map(s => `<li><a href="${escapeHtml(s.uri)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`).join('')}</ul>
+          <ul>${data.sources.slice(0, 10).map(s => `<li><a href="${escapeHtml(safeHttpUrl(s.uri, '#news'))}" target="_blank" rel="noopener">${escapeHtml(s.title || s.uri || '')}</a></li>`).join('')}</ul>
         </div>
       `);
     }
