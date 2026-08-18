@@ -163,7 +163,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'news', 'mydata', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'news', 'mydata', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
