@@ -53,3 +53,11 @@ const PRODUCTS = [
 const PRODUCT_CATEGORIES = [
   { id: 'all', label: 'Alle' }
 ];
+
+// Zusatzmodul nachladen (Evidenz-Legende, Badge-Tooltips, erweiterte Über-Sektion)
+(function () {
+  var s = document.createElement('script');
+  s.src = 'js/enhance.js?v=1';
+  s.defer = true;
+  document.head.appendChild(s);
+})();
