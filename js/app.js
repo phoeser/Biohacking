@@ -1,5 +1,5 @@
 /* Biohacking Supplement Check – App-Logik
- * 3 Kategorien: Supplement-Check · Symptom · News
+ * 3 Kategorien: Supplement-Check · Symptom · Erfahrungsberichte
  * Hash-Router + lokale DB + Gemini-Fallback.
  */
 
@@ -44,10 +44,8 @@
   const AI_ENDPOINT = (model) =>
     `${AI_PROXY_BASE}/v1beta/models/${model}:generateContent`;
   const URL_CHECK_ENDPOINT = `${AI_PROXY_BASE}/check`;
-  const NEWS_CACHE_KEY = 'bhc_news_cache_v1';
   // TTL nur für "muss ich im Hintergrund neu laden?" – die Anzeige bleibt
   // IMMER sichtbar, auch wenn der Cache älter ist.
-  const NEWS_CACHE_TTL_MS = 60 * 60 * 1000; // 60 min
 
   const $ = (s, root = document) => root.querySelector(s);
   const $$ = (s, root = document) => Array.from(root.querySelectorAll(s));
@@ -65,7 +63,7 @@
   // Erlaubt nur http/https-Links. Alles andere (javascript:, data:, …) wird
   // auf einen harmlosen Anker umgebogen – KI-generierte URLs sind nicht vertrauenswürdig.
   function safeHttpUrl(url, fallback) {
-    return (url && /^https?:\/\//i.test(String(url).trim())) ? String(url).trim() : (fallback || '#news');
+    return (url && /^https?:\/\//i.test(String(url).trim())) ? String(url).trim() : (fallback || '#erfahrungen');
   }
 
   function normalizeStr(s) {
@@ -169,7 +167,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'news', 'mydata', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'erfahrungen', 'mydata', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
@@ -187,7 +185,7 @@
     window.scrollTo({ top: 0 });
     document.body.dataset.view = name;
 
-    if (name === 'news') onEnterNews();
+    if (name === 'erfahrungen') onEnterErfahrungen();
     if (name === 'home') onEnterHome();
     if (name === 'experimental') onEnterExperimental();
     if (name === 'behandlungen') onEnterBehandlungen();
@@ -206,120 +204,58 @@
     if (sSup) sSup.textContent = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.length : '–');
     if (sTip) sTip.textContent = (typeof TIPS !== 'undefined' ? TIPS.length : '–');
     if (sGoal) sGoal.textContent = (typeof GOALS !== 'undefined' ? GOALS.length : '–');
-    loadHomeNewsPreview();
+    renderHomeErfahrungen();
   }
 
-  let homeNewsLoading = false;
-  async function loadHomeNewsPreview() {
-    const statusEl = $('#home-news-status');
-    const listEl = $('#home-news-list');
-    if (!statusEl || !listEl) return;
-
-    // 1) Cache sofort anzeigen (auch wenn alt) – so ist die UI nie leer.
-    const cached = loadNewsFromCache();
-    const haveCache = !!(cached && Array.isArray(cached.items) && cached.items.length);
-    if (haveCache) {
-      renderHomeNews(cached.items.slice(0, 3), cached.fetched, true);
-    }
-
-    // 2) Kein Refresh nötig, wenn Cache frisch ist.
-    if (haveCache && !isNewsCacheStale()) return;
-
-    if (homeNewsLoading) return;
-    homeNewsLoading = true;
-
-    if (!loadApiKey()) {
-      if (!haveCache) {
-        statusEl.innerHTML = '';
-        listEl.innerHTML = `<div class="home-news-error">Kein KI-Key verfügbar.</div>`;
-      }
-      homeNewsLoading = false;
+  // ============ STARTSEITE: ERFAHRUNGSBERICHTE-VORSCHAU ============
+  // Ersetzt seit v118 die frühere KI-News-Vorschau. Rein lokale Daten,
+  // deshalb kein Laden, kein Cache, kein API-Key nötig.
+  function renderHomeErfahrungen() {
+    const statusEl = $('#home-erfahrungen-status');
+    const listEl = $('#home-erfahrungen-list');
+    if (!listEl) return;
+    if (typeof ERFAHRUNGEN === 'undefined') {
+      listEl.innerHTML = '';
+      if (statusEl) statusEl.innerHTML = '';
       return;
     }
 
-    // 3) Nur Loading-Placeholder zeigen, wenn wir GAR KEINEN Cache haben.
-    if (!haveCache) {
-      statusEl.innerHTML = '';
-      listEl.innerHTML = `
-        <div class="home-news-loading">Lade aktuelle News…</div>
-        <div class="home-news-loading">Recherche läuft…</div>
-        <div class="home-news-loading">Quellen werden geprüft…</div>
-      `;
-    } else {
-      // Dezenter Hinweis im Status, Liste bleibt stehen.
-      statusEl.innerHTML = `<span class="home-news-refreshing">↻ aktualisiere…</span>`;
+    const items = allErfahrungen()
+      .slice()
+      .sort((a, b) => String(b.datum || '').localeCompare(String(a.datum || '')))
+      .slice(0, 3);
+
+    if (statusEl) {
+      const n = allErfahrungen().length;
+      statusEl.innerHTML = `<span class="ok">${n} ${n === 1 ? 'Bericht' : 'Berichte'} · ${SHOPS.length} ${SHOPS.length === 1 ? 'Shop' : 'Shops'}</span>`;
     }
 
-    const sys = `Du bist ein Biohacking-News-Redakteur. Liefere die 3 wichtigsten, aktuellsten und seriösesten Nachrichten auf Deutsch.
-Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
-{"items":[{"title":"...","summary":"1-2 knackige Sätze deutsch","category":"Longevity|Supplements|Ernährung|Bewegung|Tech|Forschung","url":"https://..."}]}
-WICHTIG: Innerhalb der Stringwerte (z.B. title/summary) NIEMALS doppelte Anführungszeichen benutzen – verwende stattdessen deutsche Guillemets »...« oder einfache Anführungszeichen \'...\'. JSON-Strings müssen valide sein.
-Genau 3 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten Inhalte – nur was du per Web-Suche belegen kannst.`;
-
-    const prompt = `Recherchiere die 3 wichtigsten aktuellen Nachrichten (letzte 7–14 Tage) aus Biohacking, Longevity, Supplement-Forschung, Ernährung, Schlaf, Wearables. Gib sie als JSON aus.`;
-
-    try {
-      const { text, sources } = await callGemini(prompt, {
-        systemInstruction: sys,
-        temperature: 0.2,
-        grounding: true,
-        maxOutputTokens: 2500
-      });
-
-      const json = extractJson(text);
-      if (!json || !Array.isArray(json.items) || json.items.length === 0) {
-        throw new Error('Ungültige JSON-Antwort vom Modell.');
-      }
-
-      const items = json.items.slice(0, 3);
-      const fetched = Date.now();
-      saveNewsToCache({ items: json.items, sources: sources || [], topic: 'all', fetched });
-      newsData = { items: json.items, sources: sources || [], topic: 'all', fetched };
-      newsLoaded = true;
-
-      // 4) Erst JETZT (erfolgreich) wird die UI getauscht.
-      renderHomeNews(items, fetched, false);
-    } catch (err) {
-      // 5) Wenn Cache sichtbar ist: Fehler leise schlucken, alter Stand bleibt.
-      if (haveCache) {
-        renderHomeNews(cached.items.slice(0, 3), cached.fetched, true);
-        console.warn('[News] Hintergrund-Refresh fehlgeschlagen:', err.message);
-      } else {
-        statusEl.innerHTML = '';
-        listEl.innerHTML = `<div class="home-news-error">News-Ladefehler: ${escapeHtml(err.message)}</div>`;
-      }
-    } finally {
-      homeNewsLoading = false;
+    if (!items.length) {
+      listEl.innerHTML = `<div class="home-erf-empty">Noch keine Berichte veröffentlicht.</div>`;
+      return;
     }
-  }
 
-  function renderHomeNews(items, fetchedTs, fromCache) {
-    const statusEl = $('#home-news-status');
-    const listEl = $('#home-news-list');
-    if (!statusEl || !listEl) return;
-
-    const when = new Date(fetchedTs || Date.now()).toLocaleString('de-DE', {
-      day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
-    });
-    statusEl.innerHTML = `<span class="ok">✓ Stand: ${escapeHtml(when)}${fromCache ? ' · aus Cache' : ''}</span>`;
-
-    listEl.innerHTML = items.map(n => {
-      const domain = (() => {
-        try { return new URL(n.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; }
-      })();
-      const safeUrl = safeHttpUrl(n.url);
+    listEl.innerHTML = items.map(e => {
+      const a = ERFAHRUNG_AUTOREN[e.autor] || ERFAHRUNG_AUTOREN.recherche;
       return `
-        <a class="home-news-card" data-news-url="${escapeHtml(safeUrl)}" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">
-          <div class="home-news-cat">${escapeHtml(n.category || 'News')}</div>
-          <h4>${escapeHtml(n.title || '')}</h4>
-          <p>${escapeHtml(n.summary || '')}</p>
-          ${domain ? `<div class="home-news-src">🔗 ${escapeHtml(domain)}</div>` : ''}
+        <a class="home-erf-card" href="#erfahrungen" data-nav="erfahrungen" data-erf-id="${escapeHtml(e.id)}">
+          <div class="home-erf-top">
+            <span class="erf-badge ${escapeHtml(a.klasse)}">${escapeHtml(a.label)}</span>
+            ${e.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+          </div>
+          <h4>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h4>
+          <p>${escapeHtml(e.fazit || '')}</p>
+          ${renderSterne(e.bewertung)}
         </a>
       `;
     }).join('');
-      validateNewsLinks('#home-news-list');
   }
 
+  function renderSterne(n) {
+    if (!n || typeof n !== 'number') return '';
+    const full = Math.max(0, Math.min(5, Math.round(n)));
+    return `<div class="erf-sterne" aria-label="Bewertung ${full} von 5">${'★'.repeat(full)}${'☆'.repeat(5 - full)}</div>`;
+  }
   function initSupplementView() {
     const input = $('#supplement-search');
     const grid = $('#supplement-grid');
@@ -700,257 +636,372 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     }
   }
 
-  let newsLoaded = false;
-  let newsData = null;
-  let newsCurrentTopic = 'all';
+  // ============ ERFAHRUNGSBERICHTE ============
+  // Ersetzt seit v118 den News-Bereich. Inhalte kommen aus js/data/erfahrungen.js
+  // (fest gepflegt) plus freigegebene Community-Berichte aus Firestore.
 
-  function initNewsView() {
-    const refreshBtn = $('#news-refresh');
-    const chipsBar = $('#news-topic-chips');
-    refreshBtn?.addEventListener('click', () => loadNews(true));
-    chipsBar?.addEventListener('click', (e) => {
-      const c = e.target.closest('.chip');
-      if (!c) return;
-      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === c));
-      newsCurrentTopic = c.dataset.topic;
-      loadNews(false);
+  let erfCurrentCat = 'all';
+  let erfCommunity = [];        // freigegebene Berichte aus Firestore
+  let erfPending = [];          // wartende Berichte (nur für Admin sichtbar)
+  let erfDb = null;
+  let erfAuth = null;
+  let erfUser = null;
+
+  // Alle sichtbaren Berichte: fest gepflegte + freigegebene Community-Berichte.
+  function allErfahrungen() {
+    const base = (typeof ERFAHRUNGEN !== 'undefined') ? ERFAHRUNGEN : [];
+    return base.concat(erfCommunity);
+  }
+
+  function istErfAdmin() {
+    if (!erfUser) return false;
+    const list = (typeof ERFAHRUNG_ADMIN_EMAILS !== 'undefined') ? ERFAHRUNG_ADMIN_EMAILS : [];
+    return list.map(s => String(s).toLowerCase()).includes(String(erfUser.email || '').toLowerCase());
+  }
+
+  function initErfahrungenView() {
+    const chipsBar = $('#erfahrungen-chips');
+    if (chipsBar && typeof ERFAHRUNG_KATEGORIEN !== 'undefined') {
+      chipsBar.innerHTML = ERFAHRUNG_KATEGORIEN.map((c, i) =>
+        `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-erfcat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+      ).join('');
+      chipsBar.addEventListener('click', (e) => {
+        const b = e.target.closest('[data-erfcat]');
+        if (!b) return;
+        $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+        erfCurrentCat = b.dataset.erfcat;
+        renderErfahrungen();
+      });
+    }
+
+    // Klick auf eine Karte öffnet die Detailansicht.
+    $('#erfahrungen-list')?.addEventListener('click', (e) => {
+      const card = e.target.closest('[data-erf-open]');
+      if (!card) return;
+      // Links im Karteninneren (z.B. Shop-Link) nicht abfangen.
+      if (e.target.closest('a[href^="http"]')) return;
+      e.preventDefault();
+      oeffneErfahrungDetail(card.dataset.erfOpen);
+    });
+
+    $('#erf-detail-close')?.addEventListener('click', () => {
+      $('#erf-detail')?.classList.add('hidden');
+    });
+
+    initErfFirestore();
+    initErfFormular();
+  }
+
+  function onEnterErfahrungen() {
+    renderErfahrungen();
+    // Falls von der Startseite aus eine bestimmte Karte angeklickt wurde.
+    if (pendingErfId) {
+      const id = pendingErfId;
+      pendingErfId = null;
+      setTimeout(() => oeffneErfahrungDetail(id), 60);
+    }
+  }
+
+  let pendingErfId = null;
+
+  // ---------- Rendern ----------
+  function renderErfahrungen() {
+    const listEl = $('#erfahrungen-list');
+    const countEl = $('#erfahrungen-count');
+    if (!listEl) return;
+
+    if (erfCurrentCat === 'shops') {
+      const shops = (typeof SHOPS !== 'undefined') ? SHOPS : [];
+      if (countEl) countEl.textContent = `${shops.length} ${shops.length === 1 ? 'Shop' : 'Shops'}`;
+      listEl.innerHTML = shops.length
+        ? shops.map(renderShopCard).join('')
+        : `<div class="erf-empty">Noch keine Shop-Erfahrungen erfasst.</div>`;
+      return;
+    }
+
+    const items = allErfahrungen()
+      .filter(e => erfCurrentCat === 'all' || e.kategorie === erfCurrentCat)
+      .sort((a, b) => String(b.datum || '').localeCompare(String(a.datum || '')));
+
+    if (countEl) countEl.textContent = `${items.length} ${items.length === 1 ? 'Bericht' : 'Berichte'}`;
+    listEl.innerHTML = items.length
+      ? items.map(renderErfCard).join('')
+      : `<div class="erf-empty">Für diese Kategorie gibt es noch keine Berichte.</div>`;
+  }
+
+  function renderErfCard(e) {
+    const a = ERFAHRUNG_AUTOREN[e.autor] || ERFAHRUNG_AUTOREN.recherche;
+    const meta = [
+      e.dauer ? `⏱ ${escapeHtml(e.dauer)}` : '',
+      e.dosis ? `⚖️ ${escapeHtml(e.dosis)}` : '',
+      e.datum ? `📅 ${escapeHtml(formatDatum(e.datum))}` : ''
+    ].filter(Boolean).join(' · ');
+
+    return `
+      <article class="erf-card" data-erf-open="${escapeHtml(e.id)}" tabindex="0" role="button">
+        <div class="erf-card-top">
+          <span class="erf-badge ${escapeHtml(a.klasse)}">${escapeHtml(a.label)}</span>
+          <span class="erf-kat">${escapeHtml(e.kategorie || '')}</span>
+          ${e.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+        </div>
+        <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
+        ${renderSterne(e.bewertung)}
+        <p class="erf-fazit">${escapeHtml(e.fazit || '')}</p>
+        ${meta ? `<div class="erf-meta">${meta}</div>` : ''}
+        <span class="erf-more">Bericht lesen →</span>
+      </article>
+    `;
+  }
+
+  function renderShopCard(s) {
+    const aff = s.affiliate || {};
+    // Pflicht: Sobald ein Affiliate-Link aktiv ist, wird er als Werbung gekennzeichnet.
+    const istWerbung = !!(aff.aktiv && aff.url);
+    const ziel = istWerbung ? aff.url : s.url;
+    const zeilen = [
+      s.versand   ? ['Versand', s.versand] : null,
+      s.zahlung   ? ['Zahlung', s.zahlung] : null,
+      s.qualitaet ? ['Qualität & Nachweise', s.qualitaet] : null,
+      s.zoll      ? ['Zoll & Einfuhr', s.zoll] : null
+    ].filter(Boolean);
+
+    return `
+      <article class="erf-card erf-shop">
+        <div class="erf-card-top">
+          <span class="erf-badge is-shop">Shop</span>
+          ${s.land ? `<span class="erf-kat">${escapeHtml(s.land)}</span>` : ''}
+          ${s.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+          ${istWerbung ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
+        </div>
+        <h3>${escapeHtml(s.name || '')}</h3>
+        ${renderSterne(s.bewertung)}
+        ${s.erfahrung ? `<p class="erf-fazit">${escapeHtml(s.erfahrung)}</p>` : ''}
+        ${zeilen.length ? `<dl class="erf-shop-dl">${zeilen.map(([k, v]) =>
+          `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('')}</dl>` : ''}
+        ${istWerbung && aff.code ? `
+          <div class="erf-code">
+            <span class="erf-code-label">Rabattcode</span>
+            <code>${escapeHtml(aff.code)}</code>
+            ${aff.rabatt ? `<span class="erf-code-rabatt">${escapeHtml(aff.rabatt)}</span>` : ''}
+          </div>` : ''}
+        ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
+        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Dieser Link ist ein Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. Für dich ändert sich der Preis nicht.</p>` : ''}
+      </article>
+    `;
+  }
+
+  function oeffneErfahrungDetail(id) {
+    const e = allErfahrungen().find(x => x.id === id);
+    const box = $('#erf-detail');
+    const body = $('#erf-detail-body');
+    if (!e || !box || !body) return;
+    const a = ERFAHRUNG_AUTOREN[e.autor] || ERFAHRUNG_AUTOREN.recherche;
+
+    body.innerHTML = `
+      <div class="erf-card-top">
+        <span class="erf-badge ${escapeHtml(a.klasse)}">${escapeHtml(a.label)}</span>
+        <span class="erf-kat">${escapeHtml(e.kategorie || '')}</span>
+        ${e.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+      </div>
+      <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
+      ${renderSterne(e.bewertung)}
+      <dl class="erf-detail-dl">
+        ${e.dauer ? `<dt>Zeitraum</dt><dd>${escapeHtml(e.dauer)}</dd>` : ''}
+        ${e.dosis ? `<dt>Einnahme</dt><dd>${escapeHtml(e.dosis)}</dd>` : ''}
+        ${e.datum ? `<dt>Stand</dt><dd>${escapeHtml(formatDatum(e.datum))}</dd>` : ''}
+      </dl>
+      <p class="erf-text">${escapeHtml(e.text || '').replace(/\n/g, '<br>')}</p>
+      ${(e.positiv && e.positiv.length) ? `<div class="erf-pn"><h4>Was gut war</h4><ul>${e.positiv.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>` : ''}
+      ${(e.negativ && e.negativ.length) ? `<div class="erf-pn erf-pn--neg"><h4>Was nicht so gut war</h4><ul>${e.negativ.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>` : ''}
+      ${(e.quelle && e.quelle.url) ? `<p class="erf-quelle">Quelle: <a href="${escapeHtml(safeHttpUrl(e.quelle.url, '#erfahrungen'))}" target="_blank" rel="noopener">${escapeHtml(e.quelle.label || e.quelle.url)}</a></p>`
+        : (e.quelle && e.quelle.label) ? `<p class="erf-quelle">Quelle: ${escapeHtml(e.quelle.label)}</p>` : ''}
+      <p class="erf-disclaimer-inline">Einzelfallbericht, kein Wirksamkeitsnachweis und keine medizinische Empfehlung.</p>
+    `;
+    box.classList.remove('hidden');
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function formatDatum(iso) {
+    try {
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return String(iso);
+      return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    } catch (_) { return String(iso); }
+  }
+
+  // ---------- Firestore: Community-Berichte ----------
+  function initErfFirestore() {
+    if (typeof firebase === 'undefined' || !firebase.apps || !firebase.apps.length) return;
+    try {
+      erfDb = firebase.firestore();
+      erfAuth = firebase.auth();
+    } catch (_) { return; }
+
+    // Freigegebene Berichte sind öffentlich lesbar.
+    erfDb.collection('erfahrungen').where('status', '==', 'approved')
+      .onSnapshot(snap => {
+        erfCommunity = snap.docs.map(d => normalisiereCommunityBericht(d.id, d.data()));
+        renderErfahrungen();
+        renderHomeErfahrungen();
+      }, err => console.warn('[Erfahrungen] Laden fehlgeschlagen:', err.message));
+
+    erfAuth.onAuthStateChanged(user => {
+      erfUser = user;
+      aktualisiereErfFormularZustand();
+      abonniereModeration();
     });
   }
 
-  async function onEnterNews() {
-    // Wenn in-memory Daten zum aktuellen Topic passen: zeigen.
-    if (newsLoaded && newsData && newsData.topic === newsCurrentTopic) {
-      renderNews(newsData, { fromCache: true });
-      // Nur im Hintergrund refreshen, wenn stale.
-      if (isNewsCacheStale()) loadNews(false);
-      return;
-    }
-    const cached = loadNewsFromCache();
-    if (cached && cached.topic === newsCurrentTopic) {
-      newsData = cached;
-      newsLoaded = true;
-      renderNews(cached, { fromCache: true });
-      if (isNewsCacheStale()) loadNews(false);
-      return;
-    }
-    // Kein passender Cache → frisch laden (zeigt Loading).
-    loadNews(false);
-  }
-
-  function loadNewsFromCache() {
-    try {
-      const raw = localStorage.getItem(NEWS_CACHE_KEY);
-      if (!raw) return null;
-      const obj = JSON.parse(raw);
-      if (!obj?.ts || !obj?.data) return null;
-      // Cache wird IMMER zurückgegeben, auch wenn älter als TTL –
-      // damit die UI nie leer ist, bis frische News da sind.
-      return obj.data;
-    } catch (_) { return null; }
-  }
-
-  function isNewsCacheStale() {
-    try {
-      const raw = localStorage.getItem(NEWS_CACHE_KEY);
-      if (!raw) return true;
-      const obj = JSON.parse(raw);
-      if (!obj?.ts) return true;
-      return Date.now() - obj.ts > NEWS_CACHE_TTL_MS;
-    } catch (_) { return true; }
-  }
-
-  function saveNewsToCache(data) {
-    try { localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ ts: Date.now(), data })); } catch (_) {}
-  }
-
-  async function loadNews(_force) {
-    const statusEl = $('#news-status');
-    const listEl = $('#news-list');
-    if (!loadApiKey()) {
-      statusEl.innerHTML = '<div class="err">Kein Gemini-Key verfügbar. Siehe <a href="#about">Über</a>.</div>';
-      return;
-    }
-
-    // Haben wir bereits News im DOM oder Cache? Dann nicht blanken.
-    const cachedForTopic = loadNewsFromCache();
-    const haveVisible = (listEl && listEl.children.length > 0) ||
-      (cachedForTopic && cachedForTopic.topic === newsCurrentTopic &&
-       Array.isArray(cachedForTopic.items) && cachedForTopic.items.length);
-
-    if (haveVisible) {
-      statusEl.innerHTML = '<div class="info">↻ Aktualisiere News im Hintergrund…</div>';
-    } else {
-      statusEl.innerHTML = '<div class="info">🔎 KI recherchiert aktuelle News (mit Web-Suche)…</div>';
-      listEl.innerHTML = '';
-    }
-
-    const topicMap = {
-      all: 'Biohacking, Longevity, Supplement-Forschung, Ernährung, Fasten, Sauerstoff, Bewegung, Schlaf, Wearables',
-      longevity: 'Longevity-Forschung, Lebensverlängerung, Altern, Epigenetik, Telomere, Rapamycin, NAD+',
-      supplements: 'Supplement-Studien, neue Nootropika, Vitamin-/Mineral-Forschung',
-      ernaehrung: 'Ernährung, Intervallfasten, Keto, Protein, Darmgesundheit',
-      bewegung: 'Bewegung, Schlaf-Forschung, zirkadianer Rhythmus, HIIT, Zone 2',
-      tech: 'Wearables, Continuous Glucose Monitoring, Biomarker-Tracking, HealthTech-Gadgets'
+  function normalisiereCommunityBericht(id, d) {
+    return {
+      id: 'fs-' + id,
+      _fsId: id,
+      substanz: d.substanz || '',
+      kategorie: d.kategorie || 'Supplement',
+      emoji: '🗣',
+      autor: 'community',
+      demo: false,
+      datum: d.datum || (d.erstelltAm && d.erstelltAm.toDate ? d.erstelltAm.toDate().toISOString().slice(0, 10) : ''),
+      dauer: d.dauer || null,
+      dosis: d.dosis || null,
+      bewertung: typeof d.bewertung === 'number' ? d.bewertung : null,
+      fazit: d.fazit || '',
+      text: d.text || '',
+      positiv: [], negativ: [], shopId: null,
+      quelle: { label: 'Nutzerbericht' + (d.autorName ? ' von ' + d.autorName : ''), url: '' }
     };
-    const topic = topicMap[newsCurrentTopic] || topicMap.all;
+  }
 
-    const sys = `Du bist ein Biohacking-News-Redakteur. Liefere aktuelle, seriöse Nachrichten auf Deutsch.
-Antworte AUSSCHLIESSLICH mit gültigem JSON (ohne Markdown-Codeblock, ohne Kommentar) im Schema:
-{"items":[{"title":"...","summary":"2-4 Sätze deutsch","category":"Longevity|Supplements|Ernährung|Bewegung|Tech|Forschung","url":"https://..."}]}
-WICHTIG: Innerhalb der Stringwerte (z.B. title/summary) NIEMALS doppelte Anführungszeichen benutzen – verwende stattdessen deutsche Guillemets »...« oder einfache Anführungszeichen \'...\'. JSON-Strings müssen valide sein.
-Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachten Inhalte – nur was du per Web-Suche belegen kannst.`;
+  // ---------- Einreichformular ----------
+  function initErfFormular() {
+    const form = $('#erf-form');
+    if (!form) return;
 
-    const prompt = `Recherchiere die aktuellsten Nachrichten (letzte 7–30 Tage) aus folgenden Bereichen: ${topic}. Gib sie als JSON aus.`;
-
-    try {
-      const { text, sources } = await callGemini(prompt, {
-        systemInstruction: sys,
-        temperature: 0.2,
-        grounding: true,
-        maxOutputTokens: 4096
-      });
-
-      const json = extractJson(text);
-      if (!json || !Array.isArray(json.items)) {
-        throw new Error('Ungültige JSON-Antwort vom Modell.');
-      }
-      const data = { items: json.items, sources: sources || [], topic: newsCurrentTopic, fetched: Date.now() };
-      newsData = data;
-      newsLoaded = true;
-      saveNewsToCache(data);
-      renderNews(data);
-    } catch (err) {
-      // Wenn schon etwas sichtbar ist: alten Stand behalten, leisen Hinweis zeigen.
-      if (haveVisible) {
-        statusEl.innerHTML = `<div class="info">⚠ Refresh fehlgeschlagen – letzter Stand wird weiter angezeigt.</div>`;
-        console.warn('[News] Refresh fehlgeschlagen:', err.message);
-      } else {
-        statusEl.innerHTML = `<div class="err">❌ Konnte News nicht laden: ${escapeHtml(err.message)}</div>`;
-      }
+    const katSel = $('#erf-form-kategorie');
+    if (katSel && typeof ERFAHRUNG_KATEGORIEN !== 'undefined') {
+      katSel.innerHTML = ERFAHRUNG_KATEGORIEN
+        .filter(c => c.id !== 'all' && c.id !== 'shops')
+        .map(c => `<option value="${escapeHtml(c.id)}">${escapeHtml(c.label)}</option>`).join('');
     }
-  }
 
-  function extractJson(text) {
-    if (!text) return null;
-    const cleaned = text.replace(/```(?:json)?/gi, '').replace(/```/g, '').trim();
-    const first = cleaned.indexOf('{');
-    const last = cleaned.lastIndexOf('}');
-    if (first === -1 || last === -1) return null;
-    const body = cleaned.slice(first, last + 1);
-    // Erster Versuch: strikt parsen.
-    try { return JSON.parse(body); } catch (_) { /* fallthrough */ }
-    // Reparatur-Versuch: unescapte " innerhalb von Stringwerten escapen.
-    try { return JSON.parse(repairJsonQuotes(body)); } catch (_) { /* fallthrough */ }
-    return null;
-  }
+    $('#erf-login')?.addEventListener('click', () => {
+      if (!erfAuth) return;
+      erfAuth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
+        .catch(e => setErfFormStatus('Anmeldung fehlgeschlagen: ' + e.message, 'err'));
+    });
 
-  // Heuristischer JSON-Reparer: walkt durch den Text, trackt, ob wir gerade
-  // in einem String-Value sind, und escaped " die nicht von einem gültigen
-  // Terminator (: , } ]  whitespace+ein-solcher) gefolgt werden.
-  function repairJsonQuotes(body) {
-    let out = '';
-    let inString = false;
-    let escaped = false;
-    for (let i = 0; i < body.length; i++) {
-      const c = body[i];
-      if (!inString) {
-        if (c === '"') inString = true;
-        out += c;
-        continue;
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      if (!erfUser || !erfDb) { setErfFormStatus('Bitte melde dich zuerst an.', 'err'); return; }
+
+      const daten = {
+        substanz:  $('#erf-form-substanz').value.trim().slice(0, 120),
+        kategorie: $('#erf-form-kategorie').value,
+        dauer:     $('#erf-form-dauer').value.trim().slice(0, 80),
+        dosis:     $('#erf-form-dosis').value.trim().slice(0, 120),
+        bewertung: parseInt($('#erf-form-bewertung').value, 10) || null,
+        fazit:     $('#erf-form-fazit').value.trim().slice(0, 300),
+        text:      $('#erf-form-text').value.trim().slice(0, 4000)
+      };
+      if (!daten.substanz || !daten.text) {
+        setErfFormStatus('Bitte mindestens Substanz und Bericht ausfüllen.', 'err');
+        return;
       }
-      if (escaped) { out += c; escaped = false; continue; }
-      if (c === '\\') { escaped = true; out += c; continue; }
-      if (c === '"') {
-        // Peek: ist das ein legitimer String-Abschluss?
-        let j = i + 1;
-        while (j < body.length && /\s/.test(body[j])) j++;
-        const next = body[j];
-        if (next === ':' || next === ',' || next === '}' || next === ']' || next === undefined) {
-          inString = false;
-          out += c;
-        } else {
-          out += '\\"'; // unescapte innere Quote → escapen
+      if (!$('#erf-form-einverstanden').checked) {
+        setErfFormStatus('Bitte bestätige die Hinweise zur Veröffentlichung.', 'err');
+        return;
+      }
+
+      setErfFormStatus('Wird übermittelt…', 'info');
+      try {
+        await erfDb.collection('erfahrungen').add(Object.assign({}, daten, {
+          status: 'pending',
+          uid: erfUser.uid,
+          autorName: ($('#erf-form-name').value.trim().slice(0, 60)) || 'anonym',
+          datum: new Date().toISOString().slice(0, 10),
+          erstelltAm: firebase.firestore.FieldValue.serverTimestamp()
+        }));
+        form.reset();
+        setErfFormStatus('Danke! Dein Bericht liegt jetzt zur Prüfung vor und erscheint nach der Freigabe.', 'ok');
+      } catch (e) {
+        setErfFormStatus('Konnte nicht gespeichert werden: ' + e.message, 'err');
+      }
+    });
+  }
+
+  function setErfFormStatus(msg, art) {
+    const el = $('#erf-form-status');
+    if (el) el.innerHTML = `<div class="${art === 'err' ? 'err' : art === 'ok' ? 'ok' : 'info'}">${escapeHtml(msg)}</div>`;
+  }
+
+  function aktualisiereErfFormularZustand() {
+    const angemeldet = !!erfUser;
+    $('#erf-login-hint')?.classList.toggle('hidden', angemeldet);
+    $('#erf-form')?.classList.toggle('hidden', !angemeldet);
+    const who = $('#erf-who');
+    if (who) who.textContent = angemeldet ? (erfUser.displayName || erfUser.email || '') : '';
+  }
+
+  // ---------- Moderation (nur Admin) ----------
+  let unsubErfPending = null;
+
+  function abonniereModeration() {
+    const box = $('#erf-moderation');
+    if (unsubErfPending) { try { unsubErfPending(); } catch (_) {} unsubErfPending = null; }
+    if (!box) return;
+
+    if (!istErfAdmin() || !erfDb) {
+      box.classList.add('hidden');
+      erfPending = [];
+      return;
+    }
+    box.classList.remove('hidden');
+    unsubErfPending = erfDb.collection('erfahrungen').where('status', '==', 'pending')
+      .onSnapshot(snap => {
+        erfPending = snap.docs.map(d => Object.assign({ _id: d.id }, d.data()));
+        renderModeration();
+      }, err => console.warn('[Erfahrungen] Moderation:', err.message));
+
+    $('#erf-moderation-list')?.addEventListener('click', async (ev) => {
+      const btn = ev.target.closest('[data-mod-action]');
+      if (!btn || !erfDb) return;
+      const id = btn.dataset.modId;
+      const aktion = btn.dataset.modAction;
+      btn.disabled = true;
+      try {
+        if (aktion === 'approve') {
+          await erfDb.collection('erfahrungen').doc(id).update({ status: 'approved' });
+        } else if (aktion === 'reject') {
+          await erfDb.collection('erfahrungen').doc(id).update({ status: 'rejected' });
         }
-        continue;
+      } catch (e) {
+        alert('Fehlgeschlagen: ' + e.message);
+        btn.disabled = false;
       }
-      out += c;
-    }
-    return out;
+    }, { once: false });
   }
 
-  // Prüft via Worker, ob eine URL erreichbar ist (HEAD-Request serverseitig).
-  // Returns {ok: bool, status: number}. Bei Netzwerkfehler: ok=true (lieber zeigen als verstecken).
-  async function checkUrlExists(url) {
-    if (!url || !/^https?:\/\//i.test(url)) return { ok: false, status: 0 };
-    try {
-      const r = await fetch(URL_CHECK_ENDPOINT + '?u=' + encodeURIComponent(url), {
-        method: 'GET'
-      });
-      if (!r.ok) return { ok: true, status: 0 }; // Worker-Fehler → großzügig
-      const j = await r.json();
-      return { ok: !!j.ok, status: j.status || 0 };
-    } catch (_) {
-      return { ok: true, status: 0 };
-    }
-  }
-
-  // Markiert alle News-Karten als "Quelle nicht erreichbar" wenn URL 404 zurückgibt.
-  // Asynchron, ändert nur dezent das Karten-Aussehen, blockiert nicht das initiale Rendering.
-  async function validateNewsLinks(containerSel) {
-    const cards = $$(containerSel + ' [data-news-url]');
-    if (!cards.length) return;
-    const results = await Promise.all(cards.map(async (card) => {
-      const u = card.dataset.newsUrl;
-      const res = await checkUrlExists(u);
-      return { card, res };
-    }));
-    for (const { card, res } of results) {
-      if (!res.ok && res.status >= 400 && res.status < 600) {
-        card.classList.add('news-broken');
-        const a = card.querySelector('a[href]');
-        if (a) {
-          a.setAttribute('aria-disabled', 'true');
-          a.setAttribute('title', 'Originalquelle nicht mehr erreichbar (HTTP ' + res.status + ')');
-        }
-        if (!card.querySelector('.news-broken-badge')) {
-          const badge = document.createElement('div');
-          badge.className = 'news-broken-badge';
-          badge.textContent = '⚠ Quelle nicht mehr erreichbar';
-          card.appendChild(badge);
-        }
-      }
-    }
-  }
-
-  function renderNews(data, opts = {}) {
-    const statusEl = $('#news-status');
-    const listEl = $('#news-list');
-    const when = new Date(data.fetched || Date.now()).toLocaleString('de-DE');
-    statusEl.innerHTML = `<div class="ok">✓ ${data.items.length} News geladen · Stand: ${escapeHtml(when)}${opts.fromCache ? ' · (aus Cache)' : ''}</div>`;
-
-    listEl.innerHTML = data.items.map(n => {
-      const safeUrl = safeHttpUrl(n.url);
-      const domain = (() => { try { return new URL(safeUrl).hostname.replace(/^www\./, ''); } catch (_) { return ''; } })();
-      return `
-        <article class="news-card" data-news-url="${escapeHtml(safeUrl)}">
-          <div class="news-cat">${escapeHtml(n.category || 'News')}</div>
-          <h3><a href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">${escapeHtml(n.title || '')}</a></h3>
-          <p>${escapeHtml(n.summary || '')}</p>
-          ${domain ? `<div class="news-src">🔗 ${escapeHtml(domain)}</div>` : ''}
-        </article>
-      `;
-    }).join('');
-
-    if (data.sources?.length) {
-      listEl.insertAdjacentHTML('beforeend', `
-        <div class="news-sources">
-          <h4>Quellen (Web-Suche)</h4>
-          <ul>${data.sources.slice(0, 10).map(s => `<li><a href="${escapeHtml(safeHttpUrl(s.uri, '#news'))}" target="_blank" rel="noopener">${escapeHtml(s.title || s.uri || '')}</a></li>`).join('')}</ul>
-        </div>
-      `);
-    }
-    // Im Hintergrund prüfen, ob die Artikel-URLs noch existieren.
-    validateNewsLinks('#news-list');
+  function renderModeration() {
+    const listEl = $('#erf-moderation-list');
+    const countEl = $('#erf-moderation-count');
+    if (!listEl) return;
+    if (countEl) countEl.textContent = String(erfPending.length);
+    listEl.innerHTML = erfPending.length
+      ? erfPending.map(p => `
+          <div class="erf-mod-item">
+            <div class="erf-mod-head">
+              <strong>${escapeHtml(p.substanz || '')}</strong>
+              <span class="erf-kat">${escapeHtml(p.kategorie || '')}</span>
+              <span class="erf-mod-autor">${escapeHtml(p.autorName || 'anonym')}</span>
+            </div>
+            ${p.fazit ? `<p class="erf-fazit">${escapeHtml(p.fazit)}</p>` : ''}
+            <p class="erf-text">${escapeHtml(p.text || '').slice(0, 800).replace(/\n/g, '<br>')}</p>
+            <div class="erf-mod-actions">
+              <button class="btn btn-primary" data-mod-action="approve" data-mod-id="${escapeHtml(p._id)}">Freigeben</button>
+              <button class="btn btn-ghost" data-mod-action="reject" data-mod-id="${escapeHtml(p._id)}">Ablehnen</button>
+            </div>
+          </div>`).join('')
+      : `<div class="erf-empty">Nichts zu prüfen.</div>`;
   }
 
   // ============ WEARABLES / EMPFEHLUNGEN ============
@@ -996,7 +1047,10 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
         ? `href="${escapeHtml(p.link)}" target="_blank" rel="noopener sponsored"`
         : 'href="#" aria-disabled="true" onclick="return false;"';
       const codeBadge = p.code ? `<span class="product-code">Code: <strong>${escapeHtml(p.code)}</strong></span>` : '';
-      const affBadge = p.affiliate ? `<span class="product-aff" title="Mein persönlicher Tipp – Link enthält Rabatt-Code">⭐ Mein Tipp</span>` : '';
+      // Pflichtkennzeichnung: Affiliate-Links muessen als Werbung erkennbar sein
+      // (§ 5a Abs. 4 UWG, § 6 TMG). Deshalb ein sichtbares Badge plus Fusstext.
+      const affBadge = p.affiliate ? `<span class="product-aff" title="Mein persönlicher Tipp – Link enthält Rabatt-Code">⭐ Mein Tipp</span><span class="erf-badge is-ad">Anzeige</span>` : '';
+      const affHint = p.affiliate ? `<p class="erf-ad-hint">Anzeige: Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. Für dich ändert sich der Preis nicht.</p>` : '';
       return `
         <article class="product-card">
           <div class="product-head">
@@ -1014,6 +1068,7 @@ Gib 6–10 Einträge. URLs müssen zur Originalquelle führen. Keine ausgedachte
             ${codeBadge}
           </div>
           <a class="${ctaClass}" ${ctaAttrs}>${ctaLabel}</a>
+          ${affHint}
         </article>
       `;
     }).join('');
@@ -2116,7 +2171,7 @@ WICHTIG – konservative Gewichtsschätzung:
     initTagescheckView();
     initSupplementView();
     initSymptomView();
-    initNewsView();
+    initErfahrungenView();
     initHomeProducts();
     initExperimentalView();
     initBehandlungenView();
