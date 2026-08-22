@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Biohacking Kompakt – Infos zu Supplements, Symptom-Empfehlungen und aktuelle News aus der Biohacking- & Longevity-Welt." />
+  <meta name="description" content="Biohacking Kompakt – Infos zu Supplements, Symptom-Empfehlungen und Erfahrungsberichte aus der Biohacking- & Longevity-Welt." />
   <meta name="theme-color" content="#2f8b6a" />
   <title>Biohacking Kompakt</title>
 
@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=117" />
+  <link rel="stylesheet" href="css/style.css?v=118" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -71,7 +71,7 @@
         <a href="#experimental" data-nav="experimental">Peptide</a>
         <a href="#behandlungen" data-nav="behandlungen">Behandlungen</a>
         <a href="#signalwege" data-nav="signalwege">Signalwege</a>
-        <a href="#news" data-nav="news">News</a>
+        <a href="#erfahrungen" data-nav="erfahrungen">Erfahrungen</a>
         <a href="#mydata" data-nav="mydata">MyData</a>
         <a href="#about" data-nav="about">Über</a>
       </nav>
@@ -93,7 +93,7 @@
             <span class="gradient-text">Fundiert. Klar. Ohne Hype.</span>
           </h1>
           <p class="hero-lead">
-            Such dir einen Einstieg – konkretes Supplement nachschlagen oder Symptom beschreiben. Darunter: aktuelle News aus der Longevity-Welt.
+            Such dir einen Einstieg – konkretes Supplement nachschlagen oder Symptom beschreiben. Darunter: Erfahrungsberichte aus der Praxis.
           </p>
         </div>
 
@@ -126,16 +126,16 @@
           </a>
         </div>
 
-        <div class="news-preview">
-          <div class="news-preview-head">
+        <div class="erf-preview">
+          <div class="erf-preview-head">
             <div>
-              <span class="eyebrow">Frisch aus der Szene</span>
-              <h3>Aktuelle Longevity- & Biohacking-News</h3>
+              <span class="eyebrow">Aus der Praxis</span>
+              <h3>Erfahrungsberichte</h3>
             </div>
-            <a href="#news" class="news-preview-all" data-nav="news">Alle News →</a>
+            <a href="#erfahrungen" class="erf-preview-all" data-nav="erfahrungen">Alle Berichte →</a>
           </div>
-          <div id="home-news-status" class="home-news-status"></div>
-          <div id="home-news-list" class="home-news-grid"></div>
+          <div id="home-erfahrungen-status" class="home-erf-status"></div>
+          <div id="home-erfahrungen-list" class="home-erf-grid"></div>
         </div>
 
         <div class="hero-stats" id="hero-stats">
@@ -222,30 +222,95 @@
       </div>
     </section>
 
-    <!-- ============ NEWS ============ -->
-    <section class="view hidden" id="view-news" data-view="news">
+    <!-- ============ ERFAHRUNGSBERICHTE ============ -->
+    <section class="view hidden" id="view-erfahrungen" data-view="erfahrungen">
       <div class="container">
         <div class="view-head">
           <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
           <span class="eyebrow">Kategorie 3</span>
-          <h2>Biohacking- & Longevity-News</h2>
-          <p>Aktuelle Themen aus Forschung, Supplementen, Ernährung, Tech & Longevity. KI-kuratiert beim Öffnen der Seite.</p>
+          <h2>Erfahrungsberichte</h2>
+          <p>Selbstversuche, recherchierte Berichte und Erfahrungen mit Bezugsquellen – zu Supplements, Peptiden und Behandlungen.</p>
         </div>
 
-        <div class="news-controls">
-          <div class="chips-bar" id="news-topic-chips">
-            <button class="chip chip--active" data-topic="all">Alles</button>
-            <button class="chip" data-topic="longevity">Longevity</button>
-            <button class="chip" data-topic="supplements">Supplements</button>
-            <button class="chip" data-topic="ernaehrung">Ernährung & Fasten</button>
-            <button class="chip" data-topic="bewegung">Bewegung & Schlaf</button>
-            <button class="chip" data-topic="tech">Tech & Wearables</button>
+        <div class="erf-disclaimer card">
+          <strong>Was du hier liest – und was nicht.</strong>
+          <p>Erfahrungsberichte sind subjektive Einzelfälle. Sie sind <em>kein</em> Wirksamkeitsnachweis, ersetzen keine ärztliche Beratung und sagen nichts darüber aus, wie eine Substanz bei dir wirkt. Was wissenschaftlich belegt ist, steht in der Supplement- und Peptid-Datenbank – nicht hier.</p>
+        </div>
+
+        <div class="erf-controls">
+          <div class="chips-bar" id="erfahrungen-chips"></div>
+          <span class="erf-count" id="erfahrungen-count"></span>
+        </div>
+
+        <div id="erfahrungen-list" class="erf-list"></div>
+
+        <div id="erf-detail" class="erf-detail card hidden">
+          <button type="button" class="erf-detail-close" id="erf-detail-close" aria-label="Schließen">✕</button>
+          <div id="erf-detail-body"></div>
+        </div>
+
+        <!-- ---- Moderation: nur für freigeschaltete Konten sichtbar ---- -->
+        <div id="erf-moderation" class="erf-moderation card hidden">
+          <h3>Zur Prüfung <span class="erf-mod-count" id="erf-moderation-count">0</span></h3>
+          <p class="erf-mod-hint">Eingereichte Berichte erscheinen erst nach deiner Freigabe öffentlich. Du haftest für das, was du freigibst – prüfe besonders Heilaussagen und Angaben zu verschreibungspflichtigen Mitteln.</p>
+          <div id="erf-moderation-list"></div>
+        </div>
+
+        <!-- ---- Bericht einreichen ---- -->
+        <div class="erf-submit card">
+          <h3>Eigenen Bericht einreichen</h3>
+          <p class="erf-submit-intro">Du hast selbst etwas ausprobiert? Teile deine Erfahrung. Berichte werden vor der Veröffentlichung geprüft.</p>
+
+          <div id="erf-login-hint" class="erf-login-hint">
+            <p>Zum Einreichen brauchst du ein Konto – damit Berichte zuordenbar bleiben und Spam draußen bleibt.</p>
+            <button type="button" class="btn btn-primary" id="erf-login">Mit Google anmelden</button>
           </div>
-          <button class="btn btn-ghost" id="news-refresh">🔄 Aktualisieren</button>
-        </div>
 
-        <div id="news-status" class="news-status"></div>
-        <div id="news-list" class="news-list"></div>
+          <form id="erf-form" class="erf-form hidden">
+            <p class="erf-who-line">Angemeldet als <span id="erf-who"></span></p>
+            <div class="erf-form-row">
+              <label>Substanz oder Behandlung *
+                <input type="text" id="erf-form-substanz" maxlength="120" required placeholder="z.B. Magnesium L-Threonat" />
+              </label>
+              <label>Kategorie
+                <select id="erf-form-kategorie"></select>
+              </label>
+            </div>
+            <div class="erf-form-row">
+              <label>Zeitraum
+                <input type="text" id="erf-form-dauer" maxlength="80" placeholder="z.B. 8 Wochen" />
+              </label>
+              <label>Einnahme
+                <input type="text" id="erf-form-dosis" maxlength="120" placeholder="z.B. abends, nach Herstellerangabe" />
+              </label>
+              <label>Bewertung
+                <select id="erf-form-bewertung">
+                  <option value="">– keine –</option>
+                  <option value="5">★★★★★</option>
+                  <option value="4">★★★★☆</option>
+                  <option value="3">★★★☆☆</option>
+                  <option value="2">★★☆☆☆</option>
+                  <option value="1">★☆☆☆☆</option>
+                </select>
+              </label>
+            </div>
+            <label>Kurzes Fazit
+              <input type="text" id="erf-form-fazit" maxlength="300" placeholder="Ein bis zwei Sätze" />
+            </label>
+            <label>Dein Bericht *
+              <textarea id="erf-form-text" rows="7" maxlength="4000" required placeholder="Was hast du genommen, wie lange, was hast du gemerkt – und was nicht?"></textarea>
+            </label>
+            <label>Name für die Veröffentlichung
+              <input type="text" id="erf-form-name" maxlength="60" placeholder="Vorname oder Spitzname – leer lassen für „anonym“" />
+            </label>
+            <label class="erf-check">
+              <input type="checkbox" id="erf-form-einverstanden" />
+              <span>Ich bestätige: Das ist meine eigene Erfahrung, ich mache keine Heilversprechen, und mein Bericht darf – nach Prüfung – hier veröffentlicht werden. Ich kann die Löschung jederzeit über die Kontaktadresse im Impressum verlangen.</span>
+            </label>
+            <div id="erf-form-status" class="erf-form-status"></div>
+            <button type="submit" class="btn btn-primary">Bericht einreichen</button>
+          </form>
+        </div>
       </div>
     </section>
 
@@ -430,7 +495,7 @@
         <div class="about-grid">
           <div class="about-card">
             <h3>🚀 Projekt</h3>
-            <p><strong>Biohacking Kompakt</strong> ist eine schlanke Web-App, die drei Kernbedürfnisse erfüllt: fundierte Infos zu einzelnen Supplements, Empfehlungen bei konkreten Symptomen, und einen Überblick über aktuelle Biohacking- & Longevity-News.</p>
+            <p><strong>Biohacking Kompakt</strong> ist eine schlanke Web-App, die drei Kernbedürfnisse erfüllt: fundierte Infos zu einzelnen Supplements, Empfehlungen bei konkreten Symptomen, und Erfahrungsberichte aus der Praxis – eigene Selbstversuche, recherchierte Berichte und Erfahrungen mit Bezugsquellen.</p>
             <p>Die App läuft im Browser, nutzt eine kuratierte Supplement-Datenbank und Google Gemini für KI-Antworten und Web-Recherche – der API-Key ist zentral hinterlegt, du musst nichts konfigurieren.</p>
           </div>
 
@@ -461,7 +526,14 @@
             <h3>🔐 Datenschutz</h3>
             <p>Die App kommt <strong>ohne Cookies, ohne Tracking und ohne Analytics</strong> aus. Öffentliche Bereiche funktionieren komplett ohne Konto.</p>
             <p class="small">Verarbeitet wird nur, was du selbst auslöst: KI-Anfragen und Tagescheck-Bilder gehen an Google Gemini, MyData-Werte (WHOOP, Apple Health) liegen in deinem eigenen Firebase-Bereich. Die Puls-/Atmungsmessung läuft vollständig lokal – kein Video verlässt dein Gerät.</p>
+            <p class="small">Reichst du einen Erfahrungsbericht ein, speichere ich Text, Anzeigename und dein Konto – geprüft und veröffentlicht wird erst nach meiner Freigabe, Löschung jederzeit auf Zuruf.</p>
             <p><a class="btn btn-ghost" href="datenschutz.html">Vollständige Datenschutzerklärung →</a></p>
+          </div>
+
+          <div class="about-card">
+            <h3>📣 Werbung &amp; Affiliate-Links</h3>
+            <p>Einzelne Links zu Shops und Wearables sind <strong>Affiliate-Links</strong>. Kaufst du darüber, erhalte ich eine Provision – für dich ändert sich der Preis nicht.</p>
+            <p class="small">Solche Links sind überall mit <em>Anzeige</em> gekennzeichnet. Sie haben keinen Einfluss darauf, was in der Supplement- und Peptid-Datenbank steht: Bewertungen dort richten sich ausschließlich nach der Studienlage. Wo ich ein Produkt empfehle, sage ich auch, was dagegen spricht.</p>
           </div>
         </div>
       </div>
@@ -536,20 +608,21 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=117"></script>
-  <script src="js/data/tips.js?v=117"></script>
-  <script src="js/data/goals.js?v=117"></script>
-  <script src="js/data/products.js?v=117"></script>
-  <script src="js/data/experimental.js?v=117"></script>
-  <script src="js/data/khavinson.js?v=117"></script>
-  <script src="js/data/therapies.js?v=117"></script>
-  <script src="js/data/signalwege.js?v=117"></script>
-  <script src="js/vitals.js?v=117"></script>
+  <script src="js/data/supplements.js?v=118"></script>
+  <script src="js/data/tips.js?v=118"></script>
+  <script src="js/data/goals.js?v=118"></script>
+  <script src="js/data/products.js?v=118"></script>
+  <script src="js/data/experimental.js?v=118"></script>
+  <script src="js/data/khavinson.js?v=118"></script>
+  <script src="js/data/therapies.js?v=118"></script>
+  <script src="js/data/signalwege.js?v=118"></script>
+  <script src="js/data/erfahrungen.js?v=118"></script>
+  <script src="js/vitals.js?v=118"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=117"></script>
-  <script src="js/app.js?v=117"></script>
+  <script src="js/mydata.js?v=118"></script>
+  <script src="js/app.js?v=118"></script>
 </body>
 </html>

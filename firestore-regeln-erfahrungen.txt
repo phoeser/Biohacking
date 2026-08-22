@@ -1,0 +1,67 @@
+FIRESTORE-REGELN FÜR DIE ERFAHRUNGSBERICHTE
+===========================================
+Diese Regeln müssen in der Firebase-Konsole eingetragen werden:
+  Firebase Console → Firestore Database → Regeln → einfügen → Veröffentlichen
+
+WICHTIG: Trage unten deine eigene UID (oder E-Mail) ein. Die Liste in
+js/data/erfahrungen.js (ERFAHRUNG_ADMIN_EMAILS) steuert nur, ob die
+Moderationsansicht angezeigt wird — sie schützt nichts. Die eigentliche
+Absicherung passiert hier auf dem Server.
+
+Deine UID findest du in der Firebase Console unter Authentication → Users,
+Spalte "User UID", nachdem du dich einmal in der App angemeldet hast.
+
+-------------------------------------------------------------------------
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---- bestehende Regeln für MyData unverändert lassen ----
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // ---- Erfahrungsberichte ----
+    function istAdmin() {
+      // HIER DEINE UID EINTRAGEN (mehrere mit || verketten):
+      return request.auth != null && request.auth.uid == 'DEINE_UID_HIER';
+    }
+
+    match /erfahrungen/{id} {
+
+      // Öffentlich lesbar sind nur freigegebene Berichte.
+      // Angemeldete sehen zusätzlich ihre eigenen Einreichungen,
+      // der Admin sieht alles.
+      allow read: if resource.data.status == 'approved'
+                  || istAdmin()
+                  || (request.auth != null && request.auth.uid == resource.data.uid);
+
+      // Einreichen darf jede angemeldete Person — aber immer nur mit
+      // status 'pending' und der eigenen uid. Das verhindert, dass jemand
+      // sich selbst freischaltet.
+      allow create: if request.auth != null
+                    && request.resource.data.status == 'pending'
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.substanz is string
+                    && request.resource.data.substanz.size() > 0
+                    && request.resource.data.substanz.size() <= 120
+                    && request.resource.data.text is string
+                    && request.resource.data.text.size() > 0
+                    && request.resource.data.text.size() <= 4000;
+
+      // Freigeben, ablehnen und löschen darf nur der Admin.
+      allow update, delete: if istAdmin();
+    }
+  }
+}
+-------------------------------------------------------------------------
+
+HINWEIS ZUM INDEX
+Die App fragt `where('status','==','approved')` ab. Falls Firestore in der
+Konsole einen Index verlangt, folge einfach dem Link aus der Fehlermeldung —
+für eine einzelne Gleichheitsbedingung ist normalerweise keiner nötig.
+
+WENN DU DIE MODERATION NOCH NICHT NUTZEN WILLST
+Lass ERFAHRUNG_ADMIN_EMAILS in js/data/erfahrungen.js einfach leer. Dann ist
+die Moderationsansicht für niemanden sichtbar, eingereichte Berichte bleiben
+auf 'pending' liegen und erscheinen nirgends öffentlich.
