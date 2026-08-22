@@ -161,6 +161,61 @@ const ERFAHRUNGEN = [
     ],
     shopId: null,
     quelle: { label: 'Mehrfach gehörte Rückmeldungen, weitergegeben von Paul · Einordnung in den Podcast-Folgen zu Melanotan 1 und 2', url: '' }
+  },
+  {
+    id: 'pt-141-umfeld-2026-08',
+    substanz: 'PT-141 (Bremelanotid)',
+    slug: 'pt-141',
+    kategorie: 'Peptid',
+    emoji: '\u{1F525}',
+    autor: 'weitergegeben',
+    demo: false,
+    datum: '2026-08-22',
+    dauer: null,
+    dosis: null,
+    bewertung: null,
+    fazit: 'Wird als sehr wirksam beschrieben – zu Beginn aber begleitet von rund einer halben Stunde unangenehmer Nebenwirkungen.',
+    text: 'Ich habe damit keine eigene Erfahrung. Aber es wird mir auffällig oft und auffällig ähnlich berichtet, deshalb steht es hier.\n\nDie Wirkung wird als sehr deutlich beschrieben – „krass gut“ ist die Formulierung, die ich am häufigsten höre. Der Haken kommt am Anfang: etwa dreißig Minuten lang unangenehme Nebenwirkungen, danach legt es sich.\n\nEinordnung von mir: Das passt zu dem, was aus den Zulassungsstudien bekannt ist. Übelkeit und Hautrötung sind dort die mit Abstand häufigsten Nebenwirkungen, und sie treten kurz nach der Anwendung auf und klingen wieder ab. Der Erfahrungsbericht und die Studienlage erzählen hier also dieselbe Geschichte.\n\nWichtig zur Einordnung: PT-141 ist als Bremelanotid in den USA tatsächlich zugelassen – unter dem Namen Vyleesi, für eine eng umrissene Indikation bei Frauen vor den Wechseljahren. In Europa ist es nicht auf dem Markt. Was in der Szene zirkuliert, stammt nicht aus dieser Zulassung.',
+    positiv: [
+      'Wirkung wird durchweg als sehr deutlich beschrieben',
+      'Nebenwirkungen sind zeitlich begrenzt und klingen ab',
+      'Berichte decken sich mit dem Nebenwirkungsprofil aus den Zulassungsstudien'
+    ],
+    negativ: [
+      'Rund dreißig Minuten unangenehme Nebenwirkungen, vor allem anfangs',
+      'In Europa nicht auf dem Markt – Bezugsquellen entsprechend unklar',
+      'Reines Hörensagen, keine eigene Erfahrung'
+    ],
+    shopId: null,
+    quelle: { label: 'Mehrfach gehörte Rückmeldungen, weitergegeben von Paul · Einordnung in Podcast-Folge 20', url: '' }
+  },
+  {
+    id: 'bpc157-tb500-umfeld-2026-08',
+    substanz: 'BPC-157 mit TB-500 (Blend)',
+    slug: 'wolverine-stack',
+    kategorie: 'Peptid',
+    emoji: '\u{1F9BE}',
+    autor: 'weitergegeben',
+    demo: false,
+    datum: '2026-08-22',
+    dauer: null,
+    dosis: null,
+    bewertung: null,
+    fazit: 'Mehrfach als sehr hilfreich bei Verletzungen berichtet – besonders bei Sportverletzungen und Tennisellenbogen.',
+    text: 'Das ist die Rückmeldung, die mir bei Verletzungen mit Abstand am häufigsten begegnet: BPC-157 hilft, und in Kombination mit TB-500 als Blend noch deutlicher.\n\nZwei Anwendungsfälle werden dabei immer wieder genannt: Sportverletzungen allgemein und der Tennisellenbogen im Besonderen. Bei letzterem höre ich es so oft, dass es auffällt.\n\nEinordnung von mir: Hier ist der Abstand zwischen Erfahrungsbericht und Beleglage besonders groß, und das gehört dazugesagt. Die vielzitierten Sehnen- und Bandheilungsdaten zu BPC-157 stammen praktisch vollständig aus Rattenversuchen. Kontrollierte Studien am Menschen gibt es nicht. Bei Tennisellenbogen kommt hinzu, dass die Beschwerden häufig auch ohne Behandlung über Monate zurückgehen – das macht Einzelberichte schwer zu bewerten.\n\nDazu zwei praktische Punkte: BPC-157 steht seit 2022 auf der Verbotsliste der Welt-Anti-Doping-Agentur, für Wettkampfsportler ist das also keine Option. Und keiner der beiden Stoffe ist als Arzneimittel zugelassen.',
+    positiv: [
+      'Sehr konsistente Rückmeldungen bei Verletzungen',
+      'Der Blend wird als wirksamer beschrieben als BPC-157 allein',
+      'Besonders häufig genannt: Sportverletzungen und Tennisellenbogen'
+    ],
+    negativ: [
+      'Belege stammen fast ausschließlich aus Tierversuchen, keine kontrollierten Humanstudien',
+      'Tennisellenbogen heilt oft auch von selbst – Einzelberichte sind hier wenig aussagekräftig',
+      'BPC-157 steht seit 2022 auf der WADA-Verbotsliste',
+      'Beide Stoffe nicht als Arzneimittel zugelassen'
+    ],
+    shopId: null,
+    quelle: { label: 'Mehrfach gehörte Rückmeldungen, weitergegeben von Paul · Einordnung in den Podcast-Folgen 2, 3 und 36', url: '' }
   }
 ];
 
