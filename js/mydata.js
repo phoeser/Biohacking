@@ -819,6 +819,14 @@
 
   auth.onAuthStateChanged(function (user) {
     currentUser = user;
+    // Beim Abmelden die laufenden Firestore-Listener beenden. Sonst laufen sie
+    // mit ungueltiger Auth weiter und werfen permission-denied in die Konsole.
+    if (!user) {
+      if (unsubVitals) { try { unsubVitals(); } catch (e) {} unsubVitals = null; }
+      if (unsubHK)     { try { unsubHK(); }     catch (e) {} unsubHK = null; }
+      lastVitals = null;
+      verlaufSeries = null;
+    }
     if (ensureRoot()) render();
   });
 

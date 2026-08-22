@@ -196,6 +196,10 @@
     var ts = [], Rs = [], Gs = [], Bs = [];
     var frames = []; // {dataUrl, sharp, t}
     var blinkEvents = 0, blinkState = false;
+    // Zeitpunkt des ersten Landmarker-Treffers. MediaPipe laedt asynchron —
+    // ohne diese Marke wuerde die Blinzelrate durch die volle Messdauer geteilt
+    // und dadurch systematisch zu niedrig ausfallen.
+    var blinkStart = null, blinkEnd = null;
     var lastFrameGrab = 0;
     var t0 = performance.now();
 
@@ -238,6 +242,8 @@
                 else if (cats[c].categoryName === 'eyeBlinkRight') br = cats[c].score;
               }
               var blink = (bl + br) / 2;
+              if (blinkStart === null) blinkStart = now;
+              blinkEnd = now;
               if (!blinkState && blink > 0.5) { blinkState = true; blinkEvents++; }
               else if (blinkState && blink < 0.3) { blinkState = false; }
             }
@@ -333,10 +339,14 @@
           if (result.pulseConfidence == null) result.pulseBpm = null; // kein Fantasiewert
         }
 
-        // Blinzelrate (nur mit MediaPipe)
-        if (_faceLandmarker) {
-          var minutes = durationMs / 60000;
-          result.blinkRate = Math.round(blinkEvents / minutes);
+        // Blinzelrate (nur mit MediaPipe) — bezogen auf das Zeitfenster, in dem
+        // tatsaechlich Landmarken erkannt wurden, nicht auf die volle Messdauer.
+        if (_faceLandmarker && blinkStart !== null && blinkEnd !== null) {
+          var blinkMs = blinkEnd - blinkStart;
+          // Unter 8 s ist die Hochrechnung zu wackelig — dann lieber keinen Wert.
+          if (blinkMs >= 8000) {
+            result.blinkRate = Math.round(blinkEvents / (blinkMs / 60000));
+          }
         }
 
         // Beste Frames wählen: Zeitachse in 6 Buckets, je schärfstes Bild
