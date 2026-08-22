@@ -13,7 +13,7 @@
  *   rendert die App zwingend eine "Anzeige"-Kennzeichnung – siehe app.js.
  *
  *   KEINE konkreten Dosierungsangaben zu nicht zugelassenen Wirkstoffen.
- *   Das faellt in Deutschland unter § 3a HWG (Werbung fuer nicht zugelassene
+ *   Das faellt in Deutschland unter § 3a HWG (Werbung für nicht zugelassene
  *   Arzneimittel). Wirkung beschreiben ja, Handlungsanleitung nein.
  *
  * autor:
@@ -54,6 +54,87 @@ const ERFAHRUNGEN = [
       label: 'Einordnung der Studienlage in Podcast-Folge 68 sowie unter Behandlungen',
       url: ''
     }
+  },
+  {
+    id: 'kreatin-paul-2026-08',
+    substanz: 'Kreatin',
+    slug: 'kreatin',
+    kategorie: 'Supplement',
+    emoji: '\u{1F4AA}',
+    autor: 'paul',
+    demo: false,
+    datum: '2026-08-22',
+    dauer: 'dauerhaft, täglich',
+    dosis: 'mindestens 5 g pro Tag, an schlappen Tagen auch mal 15 g',
+    bewertung: 5,
+    fazit: 'Das unspektakulärste, was ich nehme – und das, bei dem ich am wenigsten zweifle. Regelmäßigkeit ist wichtiger als die Menge.',
+    text: 'Kreatin nehme ich dauerhaft und täglich. Mindestens fünf Gramm, das ist die Basis. An Tagen, an denen ich mich schlapp fuehle, gehe ich auch mal auf fünfzehn Gramm hoch.\n\nWas mir dabei am wichtigsten ist: Es wirkt über die Regelmäßigkeit, nicht über die Einzeldosis. Kreatin fuellt die Speicher in der Muskulatur langsam auf – wer es unregelmäßig nimmt, merkt entsprechend wenig. Deshalb ist täglich hier tatsaechlich der entscheidende Teil und nicht bloß ein guter Vorsatz.\n\nEinordnung von mir: Das ist der Eintrag auf dieser Seite mit der mit Abstand besten Studienlage. Kreatin ist eines der am gründlichsten untersuchten Supplemente überhaupt, frei verkäuflich, und die Wirkung auf Kraft und Muskelleistung ist gut belegt. Genau deshalb steht es hier auch mit konkreten Mengen – anders als bei den nicht zugelassenen Wirkstoffen weiter unten.',
+    positiv: [
+      'Sehr gute Studienlage, frei verkäuflich und günstig',
+      'Bei täglicher Einnahme spürbar – gerade an schwachen Tagen',
+      'Keine Nebenwirkungen bei mir'
+    ],
+    negativ: [
+      'Wirkt nur bei Regelmäßigkeit, einzelne Gaben bringen wenig',
+      'Zu Beginn kann etwas Wasser eingelagert werden'
+    ],
+    shopId: null,
+    quelle: { label: 'Einordnung der Studienlage in Podcast-Folge 32', url: '' }
+  },
+  {
+    id: 'mitocare-paket-paul-2026-08',
+    substanz: 'MiToCare-Paket (ärztlich zusammengestellt)',
+    slug: 'mitocare',
+    kategorie: 'Supplement',
+    emoji: '\u{1F9EA}',
+    autor: 'paul',
+    demo: false,
+    datum: '2026-08-22',
+    dauer: 'laufend',
+    dosis: 'individuelle Zusammenstellung durch den Arzt',
+    bewertung: 5,
+    fazit: 'Sehr teuer, aber klasse. Der eigentliche Unterschied ist für mich nicht die Marke, sondern dass ein Arzt es auf mich zugeschnitten hat.',
+    text: 'Ich nehme ein Paket an MiToCare-Präparaten, das mir mein Arzt zusammengestellt hat – darunter Glutathion, Omega-3 und einiges mehr.\n\nEhrlich zum Preis: Das ist teuer. Deutlich teurer, als wenn man sich die Einzelstoffe selbst zusammensucht. Trotzdem bin ich sehr zufrieden.\n\nWas für mich den Unterschied macht, ist aber nicht das Etikett, sondern der Weg dorthin: Es ist auf mich zugeschnitten und nicht von einer Webseite abgeschrieben. Wer sich fragt, ob sich so ein Paket lohnt, sollte deshalb weniger auf die Marke schauen als darauf, ob jemand mit Sachverstand und Blick auf die eigenen Werte entschieden hat, was drin ist – und was eben nicht.\n\nEinordnung von mir: Zu den einzelnen Bestandteilen gibt es sehr unterschiedliche Datenlagen. Omega-3 ist gut untersucht, bei Glutathion zum Einnehmen ist die Bioverfügbarkeit seit Jahren umstritten. Ein Paket ist immer nur so gut wie seine schwächsten Bestandteile – auch wenn das Gesamtpaket sich gut anfühlt.',
+    positiv: [
+      'Individuell vom Arzt zusammengestellt statt Standard-Stack von der Stange',
+      'Ich bin insgesamt sehr zufrieden',
+      'Enthält gut untersuchte Bausteine wie Omega-3'
+    ],
+    negativ: [
+      'Sehr hoher Preis im Vergleich zum Einzelkauf der Bestandteile',
+      'Datenlage der Einzelstoffe ist sehr unterschiedlich – Glutathion oral etwa ist umstritten',
+      'Ohne Blutwerte vorher und nachher schwer zu sagen, was genau wirkt'
+    ],
+    shopId: null,
+    quelle: { label: 'Einordnung einzelner Bestandteile in den Podcast-Folgen zu Omega-3 und Glutathion', url: '' }
+  },
+  {
+    id: 'trt-paul-2026-08',
+    substanz: 'TRT (Testosteron-Ersatztherapie)',
+    slug: 'testosteron',
+    kategorie: 'Wirkstoff',
+    emoji: '\u{1F4C8}',
+    autor: 'paul',
+    demo: false,
+    datum: '2026-08-22',
+    dauer: 'laufend, unter ärztlicher Aufsicht',
+    dosis: 'ärztlich verordnet und anhand der Blutwerte eingestellt',
+    bewertung: 5,
+    fazit: 'Wirkt bei mir hervorragend – als Injektion. Das Gel davor hat bei mir dagegen kaum etwas gebracht.',
+    text: 'Ich mache TRT unter ärztlicher Aufsicht, mit regelmäßiger Kontrolle der Blutwerte. Die Wirkung ist bei mir sehr gut.\n\nDer für mich lehrreichste Teil kam aber davor: Ich hatte es zuerst als Gel, und da hat sich kaum etwas getan. Erst mit der Injektion kam der Effekt.\n\nEinordnung von mir: Genau das ist ein bekanntes Muster und kein Einzelfall. Wie viel Testosteron aus einem Gel tatsächlich durch die Haut ankommt, schwankt zwischen Menschen erheblich – deutlich stärker als bei der Injektion, wo die Menge feststeht. Wer also mit Gel keine Wirkung sieht, hat nicht zwangsläufig ein Problem mit dem Wirkstoff, sondern womöglich mit dem Aufnahmeweg. Das gehört auf den Tisch, bevor man ganz aufgibt.\n\nWichtig, und deshalb steht hier auch keine Zahl von mir als Empfehlung: Die Dosis ist keine Geschmacksfrage, sondern wird anhand von Blutwerten eingestellt und ärztlich überwacht. Testosteron ist verschreibungspflichtig – zu Recht. Zur Entscheidung gehören Themen, die man vorher besprochen haben sollte: dass die körpereigene Produktion heruntergefahren wird, was das für die Fruchtbarkeit bedeutet, und dass das in aller Regel nichts ist, was man nach ein paar Monaten wieder beendet.',
+    positiv: [
+      'Deutlich spürbare Wirkung als Injektion',
+      'Ärztliche Begleitung mit regelmäßigen Blutwertkontrollen',
+      'Der Wechsel vom Gel zur Injektion war bei mir der entscheidende Punkt'
+    ],
+    negativ: [
+      'Als Gel bei mir kaum Wirkung – die Aufnahme über die Haut schwankt stark',
+      'Verschreibungspflichtig, nichts für den Eigenversuch',
+      'Unterdrückt die körpereigene Produktion, mit Folgen für die Fruchtbarkeit',
+      'In der Regel eine langfristige Entscheidung, kein kurzer Versuch'
+    ],
+    shopId: null,
+    quelle: { label: 'Einordnung der Studienlage in Podcast-Folge 22', url: '' }
   },
   {
     id: 'tesofensine-umfeld-2026-08',
@@ -220,21 +301,103 @@ const ERFAHRUNGEN = [
 ];
 
 const SHOPS = [
+  // ---------------------------------------------------------------------------
+  // Alle Angaben sind WEITERGEGEBENE Berichte Dritter, Stand August 2026 – keine
+  // eigenen Feststellungen. In diesem Umfeld aendert sich das schnell.
+  // Bewusst OHNE klickbare Links: nicht zugelassene Mittel sollen von dieser
+  // Seite aus nicht aktiv bezogen werden koennen.
+  // ---------------------------------------------------------------------------
   {
-    id: 'demo-shop',
-    name: 'Beispiel-Shop',
-    demo: true,
+    id: 'biolabshop',
+    name: 'biolabshop.de',
+    demo: false,
     url: '',
     land: 'DE',
-    kategorien: ['Supplements'],
+    kategorien: ['Peptide'],
+    bewertung: 5,
+    versand: 'Schnelle Lieferung, mehrfach übereinstimmend berichtet.',
+    zahlung: null,
+    qualitaet: 'Qualität wurde durchweg als gut beschrieben.',
+    zoll: null,
+    erfahrung: 'Von mehreren Leuten unabhaengig als seriös beschrieben – und mit der bisher besten Auswahl. Nicht ganz billig, dafür schnell und zuverlässig. Stand August 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    id: 'europa-peptide',
+    name: 'europa-peptide.de',
+    demo: false,
+    url: '',
+    land: 'DE',
+    kategorien: ['Peptide'],
+    bewertung: 4,
+    versand: 'Lieferung wurde als seriös und zuverlässig beschrieben.',
+    zahlung: null,
+    qualitaet: 'Qualität wurde als gut beschrieben.',
+    zoll: null,
+    erfahrung: 'Ebenfalls mehrfach als seriös berichtet, ebenfalls nicht ganz billig. Wichtig: Auf die genaue Schreibweise achten – es existiert eine fast identische Domain ohne das End-e, siehe Warnung weiter unten. Stand August 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    id: 'synthagenlabs',
+    name: 'synthagenlabs.com',
+    demo: false,
+    url: '',
+    land: 'international',
+    kategorien: ['Peptide'],
+    bewertung: 4,
+    versand: 'Schnelle Lieferung berichtet.',
+    zahlung: null,
+    qualitaet: null,
+    zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
+    erfahrung: 'Kleine Auswahl an Vials, dafür sehr günstig und schnell geliefert. Wer etwas Bestimmtes sucht, wird hier nicht immer fündig. Stand August 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    id: 'warnung-europa-peptid',
+    name: 'europa-peptid.de',
+    warnung: true,
+    demo: false,
+    url: '',
+    land: 'Tippfehler-Domain',
+    kategorien: [],
     bewertung: null,
-    versand: 'Hier: Versanddauer und Verpackung aus eigener Bestellung.',
-    zahlung: 'Hier: welche Zahlarten es gab und ob alles glatt lief.',
-    qualitaet: 'Hier: gab es Analysezertifikate (CoA)? Waren Charge und Haltbarkeit angegeben?',
-    zoll: 'Bei Bestellungen ausserhalb der EU: fielen Einfuhrumsatzsteuer oder Zoll an?',
-    erfahrung: 'Beispieltext. Deine eigene Bestellerfahrung in ein paar Saetzen – neutral und nachpruefbar formuliert.',
-    // Solange aktiv:false ist, rendert die App einen neutralen Link ohne Kennzeichnung.
-    // Sobald aktiv:true gesetzt wird, erscheint zwingend die "Anzeige"-Kennzeichnung.
+    versand: null,
+    zahlung: null,
+    qualitaet: null,
+    zoll: null,
+    erfahrung: 'Uns wurde berichtet, dass es sich hierbei nicht um den seriösen Anbieter handelt, sondern um eine Nachahmung. Der Domainname unterscheidet sich nur durch das fehlende End-e von europa-peptide.de. Nachprüfbar ist: Beide Domains existieren, liegen aber auf unterschiedlichen Servern und werden nicht vom selben Betreiber geführt (geprüft am 22.08.2026). Wer bestellt, sollte die Adresse Zeichen für Zeichen kontrollieren, statt aus der Suchmaschine heraus zu klicken.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    id: 'warnung-qingdaosigma',
+    name: 'qingdaosigma.com',
+    warnung: true,
+    demo: false,
+    url: '',
+    land: 'international',
+    kategorien: [],
+    bewertung: null,
+    versand: null,
+    zahlung: null,
+    qualitaet: null,
+    zoll: null,
+    erfahrung: 'Uns wurde von mehreren Seiten berichtet, dass hier nach Zahlung keine Ware ankam. Wir haben das nicht selbst geprüft und geben es als das wieder, was es ist: übereinstimmende Fremdberichte, Stand August 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    id: 'warnung-driada-klone',
+    name: 'Driada Medical – Klon-Shops',
+    warnung: true,
+    demo: false,
+    url: '',
+    land: 'diverse Domains',
+    kategorien: [],
+    bewertung: null,
+    versand: null,
+    zahlung: null,
+    qualitaet: null,
+    zoll: null,
+    erfahrung: 'Hier geht es nicht um den Hersteller selbst, sondern um sein Umfeld: Uns wurde berichtet, dass unter verschiedenen Adressen Nachahmer-Shops auftreten und es entsprechend schwer ist, den echten Anbieter zu erkennen. Das ist das gefährlichste Muster in dieser Liste, weil es sich nicht an einer einzelnen Domain festmachen lässt. Wer hier bestellt, sollte die Bezugsquelle über den Hersteller selbst verifizieren und nicht über Suchergebnisse oder Forenlinks. Stand August 2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   }
 ];
