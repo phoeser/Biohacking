@@ -23,42 +23,33 @@
 
 const ERFAHRUNGEN = [
   {
-    id: 'demo-magnesium-threonat',
-    substanz: 'Magnesium L-Threonat',
-    slug: 'magnesium-l-threonat',
-    kategorie: 'Supplement',
-    emoji: '🧠',
+    id: 'inuspherese-paul-2026-08',
+    substanz: 'INUSpherese (Blut-Apherese)',
+    slug: 'inuspherese',
+    kategorie: 'Behandlung',
+    emoji: '\u{1FA78}',
     autor: 'paul',
-    demo: true,
+    demo: false,
     datum: '2026-08-22',
-    dauer: '8 Wochen',
-    dosis: 'abends, Herstellerangabe',
-    bewertung: 4,
-    fazit: 'Beispieleintrag – hier kommt dein eigenes Fazit in ein bis zwei Saetzen hin.',
-    text: 'Beispieltext. Hier beschreibst du in eigenen Worten, was du genommen hast, ueber welchen Zeitraum, was du gemerkt hast und was nicht. Am besten mit dem, was du objektiv messen konntest – Schlafphasen, HRV, Ruhepuls – und getrennt davon, wie es sich subjektiv angefuehlt hat.',
-    positiv: ['Beispiel: Einschlafzeit kuerzer', 'Beispiel: ruhigere Naechte laut Wearable'],
-    negativ: ['Beispiel: relativ teuer', 'Beispiel: grosse Kapselmenge'],
-    shopId: null,
-    quelle: null
-  },
-  {
-    id: 'demo-kreatin',
-    substanz: 'Kreatin',
-    slug: 'kreatin',
-    kategorie: 'Supplement',
-    emoji: '💪',
-    autor: 'recherche',
-    demo: true,
-    datum: '2026-08-22',
-    dauer: null,
-    dosis: null,
+    dauer: 'zwei Sitzungen im Abstand von zwei Wochen',
+    dosis: 'München, stationär beim Anbieter',
     bewertung: null,
-    fazit: 'Beispieleintrag fuer einen recherchierten Bericht – Zusammenfassung dessen, was in einer benannten Quelle berichtet wird.',
-    text: 'Bei recherchierten Eintraegen fasst du zusammen, was andere berichten – und benennst immer, woher es stammt. Keine anonymen Behauptungen. Die Quelle wird in der App unter dem Bericht verlinkt.',
-    positiv: [],
-    negativ: [],
+    fazit: 'Teuer und aufwändig – aber ich fühle mich seitdem spürbar besser. Die harte Probe kommt mit den nächsten Blutwerten.',
+    text: 'Ich habe die INUSpherese zweimal machen lassen, mit zwei Wochen Abstand dazwischen, hier in München.\n\nEhrlich vorweg: Das ist nichts, was man mal eben nebenbei macht. Es kostet richtig Geld, und jede Sitzung frisst einen halben bis ganzen Tag. Wer damit liebäugelt, sollte beides einplanen – das Budget und die Zeit.\n\nWas ich sagen kann: Ich fühle mich seitdem spürbar besser. Das ist erst einmal genau das – ein Gefühl, mein eigenes, ohne Kontrollgruppe und ohne Vorher-Nachher-Messung, die diesen Namen verdient. Deshalb bin ich gespannt auf die nächsten Blutwerte. Erst die zeigen, ob sich etwas bewegt hat, das man auch messen kann.\n\nIch trage die Werte hier nach, sobald ich sie habe – auch wenn sie unspektakulär ausfallen sollten.',
+    positiv: [
+      'Spürbar besseres Allgemeinbefinden seit der ersten Sitzung',
+      'Professioneller Ablauf, gute Betreuung vor Ort'
+    ],
+    negativ: [
+      'Hohe Kosten – Selbstzahlerleistung, keine Kassenerstattung',
+      'Zeitaufwand pro Sitzung erheblich',
+      'Objektive Belege stehen noch aus – Blutwerte folgen'
+    ],
     shopId: null,
-    quelle: { label: 'Quelle hier eintragen', url: '' }
+    quelle: {
+      label: 'Einordnung der Studienlage in Podcast-Folge 68 sowie unter Behandlungen',
+      url: ''
+    }
   }
 ];
 
