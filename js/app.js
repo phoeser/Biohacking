@@ -757,7 +757,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     const aff = s.affiliate || {};
     // Pflicht: Sobald ein Affiliate-Link aktiv ist, wird er als Werbung gekennzeichnet.
     const istWerbung = !!(aff.aktiv && aff.url);
-    const ziel = istWerbung ? aff.url : s.url;
+    // Warn-Eintraege bekommen nie einen Link – wir schicken niemanden dorthin.
+    const istWarnung = !!s.warnung;
+    const ziel = istWarnung ? '' : (istWerbung ? aff.url : s.url);
     const zeilen = [
       s.versand   ? ['Versand', s.versand] : null,
       s.zahlung   ? ['Zahlung', s.zahlung] : null,
@@ -766,9 +768,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     ].filter(Boolean);
 
     return `
-      <article class="erf-card erf-shop">
+      <article class="erf-card erf-shop${istWarnung ? ' is-warn' : ''}">
         <div class="erf-card-top">
-          <span class="erf-badge is-shop">Shop</span>
+          <span class="erf-badge ${istWarnung ? 'is-warn' : 'is-shop'}">${istWarnung ? '⚠ Warnung' : 'Shop'}</span>
           ${s.land ? `<span class="erf-kat">${escapeHtml(s.land)}</span>` : ''}
           ${s.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
           ${istWerbung ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
@@ -786,6 +788,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           </div>` : ''}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
         ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Dieser Link ist ein Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. Für dich ändert sich der Preis nicht.</p>` : ''}
+        ${istWarnung ? `<p class="erf-warn-hinweis">Bewusst ohne Link. Diese Einordnung gibt wieder, was uns berichtet wurde – sie ist keine eigene Feststellung. Betreiber, die das anders sehen, erreichen uns über die Adresse im Impressum.</p>` : ''}
       </article>
     `;
   }
