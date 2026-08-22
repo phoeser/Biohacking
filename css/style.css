@@ -3069,3 +3069,26 @@ button { font-family: inherit; cursor: pointer; }
   .erf-list { grid-template-columns: 1fr; }
   .erf-detail { padding: 20px; }
 }
+
+/* Warn-Eintraege bei Shops + eigene Farbe fuer weitergegebene Berichte (v119) */
+.erf-badge.is-warn {
+  background: var(--danger);
+  color: #fff;
+}
+.erf-badge.is-weitergegeben {
+  background: rgba(74, 122, 138, 0.18);
+  color: #35606f;
+}
+.erf-shop.is-warn {
+  border-color: rgba(200, 74, 101, 0.45);
+  background: rgba(200, 74, 101, 0.035);
+}
+.erf-shop.is-warn h3 { color: var(--danger); }
+.erf-warn-hinweis {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin: 4px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--surface-border);
+}
