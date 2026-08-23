@@ -1,0 +1,28 @@
+    // ===== Erfahrungsberichte =====
+
+    function istErfahrungsAdmin() {
+      return request.auth != null
+             && request.auth.token.email_verified == true
+             && request.auth.token.email == 'phoeser@web.de';
+    }
+
+    match /erfahrungen/{id} {
+
+      allow read: if resource.data.status == 'approved'
+                  || istErfahrungsAdmin()
+                  || (request.auth != null && request.auth.uid == resource.data.uid);
+
+      allow create: if request.auth != null
+                    && request.resource.data.status == 'pending'
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.substanz is string
+                    && request.resource.data.substanz.size() > 0
+                    && request.resource.data.substanz.size() <= 120
+                    && request.resource.data.text is string
+                    && request.resource.data.text.size() > 0
+                    && request.resource.data.text.size() <= 4000;
+
+      allow update, delete: if istErfahrungsAdmin();
+    }
+
+    // ===== Ende Erfahrungsberichte =====
