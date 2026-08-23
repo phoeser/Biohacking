@@ -3137,3 +3137,19 @@ button { font-family: inherit; cursor: pointer; }
   text-decoration: none;
 }
 .erf-jump a:hover { text-decoration: underline; }
+
+/* Kontaktangebot im Erfahrungsbereich */
+.erf-austausch {
+  padding: 18px 20px;
+  margin-bottom: 24px;
+  border-left: 3px solid var(--accent);
+}
+.erf-austausch p { margin: 0; color: var(--text-muted); font-size: 14px; line-height: 1.55; }
+.erf-austausch-mail { margin-top: 8px !important; }
+.erf-austausch-mail a {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+.erf-austausch-mail a:hover { text-decoration: underline; }
