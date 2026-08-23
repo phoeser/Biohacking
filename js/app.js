@@ -694,6 +694,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
 
   function onEnterErfahrungen() {
     renderErfahrungen();
+    renderShopSection();
     // Falls von der Startseite aus eine bestimmte Karte angeklickt wurde.
     if (pendingErfId) {
       const id = pendingErfId;
@@ -710,15 +711,6 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     const countEl = $('#erfahrungen-count');
     if (!listEl) return;
 
-    if (erfCurrentCat === 'shops') {
-      const shops = (typeof SHOPS !== 'undefined') ? SHOPS : [];
-      if (countEl) countEl.textContent = `${shops.length} ${shops.length === 1 ? 'Shop' : 'Shops'}`;
-      listEl.innerHTML = shops.length
-        ? shops.map(renderShopCard).join('')
-        : `<div class="erf-empty">Noch keine Shop-Erfahrungen erfasst.</div>`;
-      return;
-    }
-
     const items = allErfahrungen()
       .filter(e => erfCurrentCat === 'all' || e.kategorie === erfCurrentCat)
       .sort((a, b) => String(b.datum || '').localeCompare(String(a.datum || '')));
@@ -727,6 +719,25 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     listEl.innerHTML = items.length
       ? items.map(renderErfCard).join('')
       : `<div class="erf-empty">Für diese Kategorie gibt es noch keine Berichte.</div>`;
+  }
+
+  // Bezugsquellen stehen als eigener Block unter den Berichten – nicht hinter
+  // einem Filter versteckt, denn die Warnungen sind der Teil, der Geld spart.
+  function renderShopSection() {
+    const listEl = $('#erf-shops-list');
+    const warnEl = $('#erf-shops-warncount');
+    if (!listEl) return;
+    const shops = (typeof SHOPS !== 'undefined') ? SHOPS : [];
+    const warnungen = shops.filter(s => s.warnung).length;
+
+    if (warnEl) {
+      warnEl.innerHTML = warnungen
+        ? `<span class="erf-badge is-warn">⚠ ${warnungen} ${warnungen === 1 ? 'Warnung' : 'Warnungen'}</span>`
+        : '';
+    }
+    listEl.innerHTML = shops.length
+      ? shops.slice().sort((a, b) => (a.warnung === b.warnung) ? 0 : (a.warnung ? 1 : -1)).map(renderShopCard).join('')
+      : `<div class="erf-empty">Noch keine Bezugsquellen erfasst.</div>`;
   }
 
   function renderErfCard(e) {
