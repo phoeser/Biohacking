@@ -426,5 +426,5 @@ const ERFAHRUNG_AUTOREN = {
  * firestore-regeln-erfahrungen.txt). Beides muss übereinstimmen.
  */
 const ERFAHRUNG_ADMIN_EMAILS = [
-  // 'deine-google-adresse@gmail.com'
+  'phoeser@web.de'
 ];
