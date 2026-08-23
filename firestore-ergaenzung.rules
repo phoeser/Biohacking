@@ -1,3 +1,15 @@
+// STATUS: Am 23.08.2026 veroeffentlicht und aktiv.
+// Diese Datei ist nur noch die Referenz-Kopie des ergaenzten Blocks.
+// Die aktiven Regeln stehen in der Firebase-Konsole:
+//   Firestore Database -> Reiter "Regeln"
+//
+// Der Block wurde in den bestehenden Regelsatz EINGEFUEGT, nicht ersetzt.
+// Die vorhandenen Regeln fuer users, wearables, vitals, supplementLog,
+// recommendations, healthkit, config und oauthStates sind unveraendert.
+//
+// Wenn hier etwas geaendert wird, muss es in der Konsole nachgezogen werden –
+// diese Datei wird von Firebase nicht ausgelesen.
+
     // ===== Erfahrungsberichte =====
 
     function istErfahrungsAdmin() {
