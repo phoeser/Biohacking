@@ -1,36 +1,53 @@
 FIRESTORE-REGELN FÜR DIE ERFAHRUNGSBERICHTE
 ===========================================
-Diese Regeln müssen in der Firebase-Konsole eingetragen werden:
-  Firebase Console → Firestore Database → Regeln → einfügen → Veröffentlichen
 
-WICHTIG: Trage unten deine eigene UID (oder E-Mail) ein. Die Liste in
-js/data/erfahrungen.js (ERFAHRUNG_ADMIN_EMAILS) steuert nur, ob die
-Moderationsansicht angezeigt wird — sie schützt nichts. Die eigentliche
-Absicherung passiert hier auf dem Server.
+FERTIG AUSGEFÜLLT — du musst nichts mehr anpassen.
+Der Block unten zwischen den Strichlinien wird komplett kopiert und in der
+Firebase-Konsole eingefügt.
 
-Deine UID findest du in der Firebase Console unter Authentication → Users,
-Spalte "User UID", nachdem du dich einmal in der App angemeldet hast.
+Der Admin wird über die verifizierte E-Mail-Adresse erkannt, nicht über die
+UID. Grund: Das ist derselbe Wert, der auch in js/data/erfahrungen.js unter
+ERFAHRUNG_ADMIN_EMAILS steht — eine Stelle weniger, an der etwas auseinander
+laufen kann. Bei Google-Anmeldung ist email_verified immer true, deshalb ist
+die Prüfung genauso belastbar wie eine UID.
+
+SO GEHT ES (dauert zwei Minuten)
+--------------------------------
+1. https://console.firebase.google.com/project/biohacking-kompakt/firestore/rules
+   öffnen.
+2. Im Editor alles markieren (Strg+A) und löschen.
+3. Den Block zwischen den Strichlinien komplett einfügen.
+4. Oben rechts auf "Veröffentlichen" klicken.
+5. Fertig. Ab dann siehst du in der App unter Erfahrungen den Kasten
+   "Zur Prüfung", sobald jemand einen Bericht einreicht.
+
+WICHTIG: Schritt 2 nicht überspringen. Die bestehenden MyData-Regeln sind im
+Block unten bereits enthalten — wenn du den Block nur anhängst statt zu
+ersetzen, hast du sie doppelt und Firestore lehnt das Speichern ab.
 
 -------------------------------------------------------------------------
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // ---- bestehende Regeln für MyData unverändert lassen ----
+    // Wer darf Berichte freigeben? Muss mit ERFAHRUNG_ADMIN_EMAILS
+    // in js/data/erfahrungen.js uebereinstimmen.
+    function istAdmin() {
+      return request.auth != null
+             && request.auth.token.email_verified == true
+             && request.auth.token.email == 'phoeser@web.de';
+    }
+
+    // ---- MyData: jeder sieht und schreibt nur seinen eigenen Bereich ----
     match /users/{uid}/{document=**} {
       allow read, write: if request.auth != null && request.auth.uid == uid;
     }
 
     // ---- Erfahrungsberichte ----
-    function istAdmin() {
-      // HIER DEINE UID EINTRAGEN (mehrere mit || verketten):
-      return request.auth != null && request.auth.uid == 'DEINE_UID_HIER';
-    }
-
     match /erfahrungen/{id} {
 
-      // Öffentlich lesbar sind nur freigegebene Berichte.
-      // Angemeldete sehen zusätzlich ihre eigenen Einreichungen,
+      // Oeffentlich lesbar sind nur freigegebene Berichte.
+      // Angemeldete sehen zusaetzlich ihre eigenen Einreichungen,
       // der Admin sieht alles.
       allow read: if resource.data.status == 'approved'
                   || istAdmin()
@@ -49,19 +66,29 @@ service cloud.firestore {
                     && request.resource.data.text.size() > 0
                     && request.resource.data.text.size() <= 4000;
 
-      // Freigeben, ablehnen und löschen darf nur der Admin.
+      // Freigeben, ablehnen und loeschen darf nur der Admin.
       allow update, delete: if istAdmin();
     }
   }
 }
 -------------------------------------------------------------------------
 
-HINWEIS ZUM INDEX
-Die App fragt `where('status','==','approved')` ab. Falls Firestore in der
-Konsole einen Index verlangt, folge einfach dem Link aus der Fehlermeldung —
-für eine einzelne Gleichheitsbedingung ist normalerweise keiner nötig.
+FALLS DU SPÄTER LIEBER DIE UID VERWENDEN WILLST
+Die UID ist unabhängig von der E-Mail-Adresse und damit langfristig stabiler.
+Du findest sie unter
+https://console.firebase.google.com/project/biohacking-kompakt/authentication/users
+in der Spalte "Nutzer-UID". Dann istAdmin() so ersetzen:
 
-WENN DU DIE MODERATION NOCH NICHT NUTZEN WILLST
-Lass ERFAHRUNG_ADMIN_EMAILS in js/data/erfahrungen.js einfach leer. Dann ist
-die Moderationsansicht für niemanden sichtbar, eingereichte Berichte bleiben
-auf 'pending' liegen und erscheinen nirgends öffentlich.
+    function istAdmin() {
+      return request.auth != null && request.auth.uid == 'HIER_DIE_UID';
+    }
+
+TESTEN, OB ES WIRKT
+In der Firebase-Konsole gibt es neben dem Regel-Editor den "Rules Playground".
+Dort kannst du eine Leseabfrage auf /erfahrungen/beliebig simulieren, einmal
+ohne Anmeldung und einmal mit deiner Adresse — ohne echte Daten anzufassen.
+
+WAS PASSIERT, WENN DU NICHTS TUST
+Ohne diese Regeln greifen die alten. Eingereichte Berichte werden dann
+entweder gar nicht erst gespeichert oder bleiben unsichtbar liegen. Kaputt
+geht nichts — die Funktion bleibt nur wirkungslos.
