@@ -353,6 +353,21 @@ const SHOPS = [
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
+    id: 'moleculon',
+    name: 'moleculon.io (Moleculon Europe)',
+    demo: false,
+    url: '',
+    land: 'EU',
+    kategorien: ['Peptide'],
+    bewertung: 4,
+    versand: 'Ablauf und Lieferung wurden als reibungslos beschrieben.',
+    zahlung: null,
+    qualitaet: 'Zur tatsächlichen Wirksamkeit der Produkte liegen uns keine belastbaren Rückmeldungen vor – das ist die offene Frage bei diesem Anbieter.',
+    zoll: null,
+    erfahrung: 'Positiv berichtet: Bestellung, Abwicklung und Lieferung funktionieren zuverlässig. Die Preise schwanken allerdings spürbar, ein Vergleich vor der Bestellung lohnt sich. Was die Wirkung der gelieferten Produkte angeht, ist die Rückmeldungslage dünn – dazu würden wir gern mehr wissen. Stand August 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
     id: 'warnung-europa-peptid',
     name: 'europa-peptid.de',
     warnung: true,
