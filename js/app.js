@@ -167,7 +167,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'erfahrungen', 'mydata', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'mydata', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
@@ -186,6 +186,7 @@
     document.body.dataset.view = name;
 
     if (name === 'erfahrungen') onEnterErfahrungen();
+    if (name === 'blutwerte') onEnterBlutwerte();
     if (name === 'home') onEnterHome();
     if (name === 'experimental') onEnterExperimental();
     if (name === 'behandlungen') onEnterBehandlungen();
@@ -1258,6 +1259,154 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     }).join('');
   }
 
+  // ============ BLUTWERTE ============
+  // Marker-Nachschlagewerk auf Basis von Podcast-Folge 58.
+  // Referenzbereiche variieren je Labor — deshalb steht der Zielbereich
+  // immer NEBEN dem Referenzbereich, nie an dessen Stelle.
+
+  let bwCat = 'all';
+  let bwNurEinsteiger = false;
+
+  function initBlutwerteView() {
+    const chipsBar = $('#bw-chips');
+    if (!chipsBar || typeof BLUTWERT_BAUSTELLEN === 'undefined') return;
+
+    chipsBar.innerHTML =
+      `<button type="button" class="chip chip--active" data-bwcat="all">Alle Werte</button>` +
+      BLUTWERT_BAUSTELLEN.map(b =>
+        `<button type="button" class="chip" data-bwcat="${escapeHtml(b.id)}">${escapeHtml(b.emoji || '')} ${escapeHtml(b.label)}</button>`
+      ).join('');
+
+    chipsBar.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-bwcat]');
+      if (!b) return;
+      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+      bwCat = b.dataset.bwcat;
+      renderBlutwerte();
+    });
+
+    $('#bw-einsteiger')?.addEventListener('change', (e) => {
+      bwNurEinsteiger = !!e.target.checked;
+      renderBlutwerte();
+    });
+
+    renderBlutwertRegeln();
+  }
+
+  function onEnterBlutwerte() {
+    renderBlutwerte();
+  }
+
+  function renderBlutwerte() {
+    const grid = $('#bw-grid');
+    const countEl = $('#bw-count');
+    if (!grid || typeof BLUTWERTE === 'undefined') return;
+
+    let items = BLUTWERTE.slice();
+    if (bwCat !== 'all') items = items.filter(m => m.baustelle === bwCat);
+    if (bwNurEinsteiger) items = items.filter(m => m.einsteiger);
+
+    if (countEl) countEl.textContent = `${items.length} ${items.length === 1 ? 'Wert' : 'Werte'}`;
+
+    const beschreibung = $('#bw-baustelle-text');
+    if (beschreibung) {
+      const b = (typeof BLUTWERT_BAUSTELLEN !== 'undefined') ? BLUTWERT_BAUSTELLEN.find(x => x.id === bwCat) : null;
+      beschreibung.textContent = b ? (b.beschreibung || '') : '';
+      beschreibung.classList.toggle('hidden', !b || !b.beschreibung);
+    }
+
+    if (!items.length) {
+      grid.innerHTML = '<div class="erf-empty">Keine Werte in dieser Auswahl.</div>';
+      return;
+    }
+
+    grid.innerHTML = items.map(m => {
+      const hebel = (m.hebel || []).map(h => `<li>${escapeHtml(h)}</li>`).join('');
+      const stoer = (m.stoerfaktoren || []).map(h => `<li>${escapeHtml(h)}</li>`).join('');
+      return `
+        <article class="bw-card${m.einsteiger ? ' is-einsteiger' : ''}">
+          <div class="bw-head">
+            <div class="bw-titel">
+              <h3>${escapeHtml(m.name || '')}</h3>
+              ${m.kurz && m.kurz !== m.name ? `<span class="bw-kurz">${escapeHtml(m.kurz)}</span>` : ''}
+            </div>
+            ${m.einsteiger ? '<span class="bw-badge">Einsteiger-Panel</span>' : ''}
+          </div>
+
+          <div class="bw-bereiche">
+            <div class="bw-bereich">
+              <span class="bw-label">Laborreferenz</span>
+              <span class="bw-wert">${escapeHtml(m.referenz || '–')}</span>
+            </div>
+            ${m.optimal ? `
+            <div class="bw-bereich bw-bereich--optimal">
+              <span class="bw-label">Longevity-Ziel</span>
+              <span class="bw-wert">${escapeHtml(m.optimal)}</span>
+            </div>` : ''}
+            ${m.einheit ? `<div class="bw-einheit">${escapeHtml(m.einheit)}</div>` : ''}
+          </div>
+
+          <p class="bw-bedeutung">${escapeHtml(m.bedeutung || '')}</p>
+
+          <details class="bw-details">
+            <summary>Was Abweichungen bedeuten können</summary>
+            ${m.hoch ? `<p><strong>Erhöht:</strong> ${escapeHtml(m.hoch)}</p>` : ''}
+            ${m.niedrig ? `<p><strong>Niedrig:</strong> ${escapeHtml(m.niedrig)}</p>` : ''}
+            ${hebel ? `<div class="bw-liste"><strong>Stellschrauben</strong><ul>${hebel}</ul></div>` : ''}
+            ${stoer ? `<div class="bw-liste bw-liste--warn"><strong>Verfälscht den Wert</strong><ul>${stoer}</ul></div>` : ''}
+          </details>
+
+          ${m.folge ? `<div class="bw-folge">Mehr dazu in Podcast-Folge ${escapeHtml(String(m.folge))}</div>` : ''}
+        </article>
+      `;
+    }).join('');
+  }
+
+  function renderBlutwertRegeln() {
+    const box = $('#bw-regeln');
+    if (!box || typeof BLUTWERT_REGELN === 'undefined') return;
+    const R = BLUTWERT_REGELN;
+
+    const liste = (arr) => Array.isArray(arr) && arr.length
+      ? `<ul>${arr.map(i => `<li>${escapeHtml(String(i))}</li>`).join('')}</ul>` : '';
+
+    // einsteigerpanel.marker enthaelt IDs — fuer die Anzeige in Namen aufloesen.
+    const namen = (ids) => (ids || []).map(id => {
+      const m = BLUTWERTE.find(x => x.id === id);
+      return m ? m.name : id;
+    });
+
+    const P = R.einsteigerpanel || {};
+
+    box.innerHTML = `
+      <div class="bw-regel-karte">
+        <h4>Wie oft messen</h4>
+        ${liste(R.messrhythmus)}
+      </div>
+      <div class="bw-regel-karte">
+        <h4>Richtig vorbereiten</h4>
+        ${liste(R.vorbereitung)}
+      </div>
+      <div class="bw-regel-karte bw-regel-karte--warn">
+        <h4>Die großen Verfälscher</h4>
+        ${liste(R.stoerfaktoren)}
+      </div>
+      <div class="bw-regel-karte bw-regel-karte--start">
+        <h4>${escapeHtml(P.titel || 'Womit anfangen')}</h4>
+        ${P.beschreibung ? `<p>${escapeHtml(P.beschreibung)}</p>` : ''}
+        ${liste(namen(P.marker))}
+        ${P.erweiterungHinweis ? `<p class="bw-regel-zusatz">${escapeHtml(P.erweiterungHinweis)}</p>` : ''}
+      </div>
+      <div class="bw-regel-karte">
+        <h4>Wo messen lassen</h4>
+        ${liste(P.wege)}
+      </div>
+    `;
+
+    const regel = $('#bw-hauptregel');
+    if (regel && R.wichtigsteRegel) regel.textContent = R.wichtigsteRegel;
+  }
+
   // ============ MOBILE NAV TOGGLE (Hamburger) ============
   function initNavToggle() {
     const btn = $('#nav-toggle');
@@ -2189,6 +2338,7 @@ WICHTIG – konservative Gewichtsschätzung:
     initHomeProducts();
     initExperimentalView();
     initBehandlungenView();
+    initBlutwerteView();
     initRouter();
     onEnterHome();
   });
