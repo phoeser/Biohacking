@@ -407,8 +407,7 @@ const ERFAHRUNG_KATEGORIEN = [
   { id: 'Supplement',   label: 'Supplements' },
   { id: 'Peptid',       label: 'Peptide' },
   { id: 'Wirkstoff',    label: 'Wirkstoffe' },
-  { id: 'Behandlung',   label: 'Behandlungen' },
-  { id: 'shops',        label: 'Shops' }
+  { id: 'Behandlung',   label: 'Behandlungen' }
 ];
 
 const ERFAHRUNG_AUTOREN = {
