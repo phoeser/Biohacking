@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=121" />
+  <link rel="stylesheet" href="css/style.css?v=122" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -71,6 +71,7 @@
         <a href="#experimental" data-nav="experimental">Peptide</a>
         <a href="#behandlungen" data-nav="behandlungen">Behandlungen</a>
         <a href="#signalwege" data-nav="signalwege">Signalwege</a>
+        <a href="#blutwerte" data-nav="blutwerte">Blutwerte</a>
         <a href="#erfahrungen" data-nav="erfahrungen">Erfahrungen</a>
         <a href="#mydata" data-nav="mydata">MyData</a>
         <a href="#about" data-nav="about">Über</a>
@@ -219,6 +220,47 @@
 
           <div id="symptom-results" class="recommendation-results" aria-live="polite"></div>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ BLUTWERTE ============ -->
+    <section class="view hidden" id="view-blutwerte" data-view="blutwerte">
+      <div class="container">
+        <div class="view-head">
+          <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
+          <span class="eyebrow">Messen statt Raten</span>
+          <h2>🩸 Blutwerte</h2>
+          <p>Welche Werte für Longevity zählen, was sie bedeuten – und der Unterschied zwischen „noch im Referenzbereich" und „im Zielbereich". Nachschlagewerk zur Podcast-Folge 58.</p>
+        </div>
+
+        <div class="bw-hauptregel-box card">
+          <span class="bw-hauptregel-label">Die wichtigste Regel</span>
+          <p id="bw-hauptregel"></p>
+        </div>
+
+        <details class="exp-disclaimer exp-disclaimer--compact">
+          <summary>⚠ Keine Diagnose · keine ärztliche Beratung <span class="exp-disclaimer-toggle">Details ▾</span></summary>
+          <ul>
+            <li><strong>Referenzbereiche variieren je Labor</strong> – maßgeblich ist immer der Bereich auf deinem eigenen Befund, nicht der hier.</li>
+            <li><strong>Zielbereiche sind keine Grenzwerte.</strong> Sie geben wieder, worauf die Longevity-Szene hinarbeitet – das ist etwas anderes als ein medizinischer Normwert.</li>
+            <li><strong>Ein auffälliger Wert ist ein Gesprächsanlass mit dem Arzt</strong>, keine Diagnose zum Selberstellen.</li>
+          </ul>
+        </details>
+
+        <div class="bw-regeln" id="bw-regeln"></div>
+
+        <div class="exp-controls bw-controls">
+          <div class="chips-bar" id="bw-chips" role="tablist"></div>
+          <label class="bw-filter">
+            <input type="checkbox" id="bw-einsteiger" />
+            <span>Nur Einsteiger-Panel</span>
+          </label>
+          <span class="erf-count" id="bw-count"></span>
+        </div>
+
+        <p class="bw-baustelle-text hidden" id="bw-baustelle-text"></p>
+
+        <div id="bw-grid" class="bw-grid"></div>
       </div>
     </section>
 
@@ -627,21 +669,22 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=121"></script>
-  <script src="js/data/tips.js?v=121"></script>
-  <script src="js/data/goals.js?v=121"></script>
-  <script src="js/data/products.js?v=121"></script>
-  <script src="js/data/experimental.js?v=121"></script>
-  <script src="js/data/khavinson.js?v=121"></script>
-  <script src="js/data/therapies.js?v=121"></script>
-  <script src="js/data/signalwege.js?v=121"></script>
-  <script src="js/data/erfahrungen.js?v=121"></script>
-  <script src="js/vitals.js?v=121"></script>
+  <script src="js/data/supplements.js?v=122"></script>
+  <script src="js/data/tips.js?v=122"></script>
+  <script src="js/data/goals.js?v=122"></script>
+  <script src="js/data/products.js?v=122"></script>
+  <script src="js/data/experimental.js?v=122"></script>
+  <script src="js/data/khavinson.js?v=122"></script>
+  <script src="js/data/therapies.js?v=122"></script>
+  <script src="js/data/signalwege.js?v=122"></script>
+  <script src="js/data/blutwerte.js?v=122"></script>
+  <script src="js/data/erfahrungen.js?v=122"></script>
+  <script src="js/vitals.js?v=122"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=121"></script>
-  <script src="js/app.js?v=121"></script>
+  <script src="js/mydata.js?v=122"></script>
+  <script src="js/app.js?v=122"></script>
 </body>
 </html>
