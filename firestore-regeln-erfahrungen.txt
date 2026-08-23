@@ -1,61 +1,75 @@
 FIRESTORE-REGELN FÜR DIE ERFAHRUNGSBERICHTE
 ===========================================
 
-FERTIG AUSGEFÜLLT — du musst nichts mehr anpassen.
-Der Block unten zwischen den Strichlinien wird komplett kopiert und in der
-Firebase-Konsole eingefügt.
+!!! NICHT ERSETZEN — NUR ERGÄNZEN !!!
 
-Der Admin wird über die verifizierte E-Mail-Adresse erkannt, nicht über die
-UID. Grund: Das ist derselbe Wert, der auch in js/data/erfahrungen.js unter
-ERFAHRUNG_ADMIN_EMAILS steht — eine Stelle weniger, an der etwas auseinander
-laufen kann. Bei Google-Anmeldung ist email_verified immer true, deshalb ist
-die Prüfung genauso belastbar wie eine UID.
+Eine frühere Fassung dieser Datei sagte, man solle die bestehenden Regeln
+löschen und komplett ersetzen. Das war falsch und hätte Schaden angerichtet.
 
-SO GEHT ES (dauert zwei Minuten)
---------------------------------
-1. https://console.firebase.google.com/project/biohacking-kompakt/firestore/rules
-   öffnen.
-2. Im Editor alles markieren (Strg+A) und löschen.
-3. Den Block zwischen den Strichlinien komplett einfügen.
-4. Oben rechts auf "Veröffentlichen" klicken.
-5. Fertig. Ab dann siehst du in der App unter Erfahrungen den Kasten
-   "Zur Prüfung", sobald jemand einen Bericht einreicht.
+Die tatsächlich aktiven Regeln des Projekts sind deutlich umfangreicher als
+angenommen. Sie enthalten unter anderem eigene Regeln für:
 
-WICHTIG: Schritt 2 nicht überspringen. Die bestehenden MyData-Regeln sind im
-Block unten bereits enthalten — wenn du den Block nur anhängst statt zu
-ersetzen, hast du sie doppelt und Firestore lehnt das Speichern ab.
+    users, wearables, vitals, supplementLog,
+    recommendations, healthkit, config, oauthStates
+
+mit fein abgestuften Rechten (teils nur lesen, teils nur schreiben, bei
+einer Collection getrennte Rechte für create/update und delete). Wer das
+durch einen pauschalen Block ersetzt, zerlegt die WHOOP-Anbindung, den
+Apple-Health-Import und die OAuth-Verarbeitung — und merkt es erst, wenn
+in der App etwas nicht mehr lädt.
+
+Deshalb steht unten nur noch der ZUSATZ. Alles Bestehende bleibt unangetastet.
+
+
+SO GEHT ES
+----------
+1. Regeln öffnen:
+   Firebase-Konsole → linke Seitenleiste → "Erstellen" aufklappen →
+   Firestore Database → Reiter "Regeln".
+   (Direkt: console.firebase.google.com/project/biohacking-kompakt/firestore
+    — Deeplinks auf den Regel-Reiter leiten manchmal zur Übersicht um, dann
+    einfach über die Seitenleiste klicken.)
+
+2. Im Editor die Zeile suchen, die so aussieht:
+
+       match /databases/{database}/documents {
+
+   Sie steht ganz oben, direkt unter "service cloud.firestore {".
+
+3. Cursor ans Ende dieser Zeile setzen, Enter drücken — und den Block
+   zwischen den Strichlinien dort einfügen.
+
+   Wichtig: NUR einfügen. Nichts markieren, nichts löschen.
+
+4. Oben rechts auf "Veröffentlichen".
+
+Falls der Editor eine rote Fehlermeldung zeigt: nicht veröffentlichen,
+sondern den Fehlertext hierher kopieren. Bis zum Veröffentlichen bleiben die
+alten Regeln aktiv, es kann also nichts kaputtgehen.
 
 -------------------------------------------------------------------------
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
 
-    // Wer darf Berichte freigeben? Muss mit ERFAHRUNG_ADMIN_EMAILS
-    // in js/data/erfahrungen.js uebereinstimmen.
-    function istAdmin() {
+    // ===== Erfahrungsberichte (ergaenzt 08/2026) =====
+
+    // Wer darf eingereichte Berichte freigeben? Muss mit
+    // ERFAHRUNG_ADMIN_EMAILS in js/data/erfahrungen.js uebereinstimmen.
+    function istErfahrungsAdmin() {
       return request.auth != null
              && request.auth.token.email_verified == true
              && request.auth.token.email == 'phoeser@web.de';
     }
 
-    // ---- MyData: jeder sieht und schreibt nur seinen eigenen Bereich ----
-    match /users/{uid}/{document=**} {
-      allow read, write: if request.auth != null && request.auth.uid == uid;
-    }
-
-    // ---- Erfahrungsberichte ----
     match /erfahrungen/{id} {
 
-      // Oeffentlich lesbar sind nur freigegebene Berichte.
-      // Angemeldete sehen zusaetzlich ihre eigenen Einreichungen,
-      // der Admin sieht alles.
+      // Oeffentlich lesbar sind nur freigegebene Berichte. Angemeldete sehen
+      // zusaetzlich ihre eigenen Einreichungen, der Admin sieht alles.
       allow read: if resource.data.status == 'approved'
-                  || istAdmin()
+                  || istErfahrungsAdmin()
                   || (request.auth != null && request.auth.uid == resource.data.uid);
 
       // Einreichen darf jede angemeldete Person — aber immer nur mit
-      // status 'pending' und der eigenen uid. Das verhindert, dass jemand
-      // sich selbst freischaltet.
+      // status 'pending' und der eigenen uid. Das verhindert, dass sich
+      // jemand selbst freischaltet.
       allow create: if request.auth != null
                     && request.resource.data.status == 'pending'
                     && request.resource.data.uid == request.auth.uid
@@ -67,28 +81,35 @@ service cloud.firestore {
                     && request.resource.data.text.size() <= 4000;
 
       // Freigeben, ablehnen und loeschen darf nur der Admin.
-      allow update, delete: if istAdmin();
+      allow update, delete: if istErfahrungsAdmin();
     }
-  }
-}
+
+    // ===== Ende Erfahrungsberichte =====
+
 -------------------------------------------------------------------------
 
-FALLS DU SPÄTER LIEBER DIE UID VERWENDEN WILLST
-Die UID ist unabhängig von der E-Mail-Adresse und damit langfristig stabiler.
-Du findest sie unter
-https://console.firebase.google.com/project/biohacking-kompakt/authentication/users
-in der Spalte "Nutzer-UID". Dann istAdmin() so ersetzen:
 
-    function istAdmin() {
+WARUM E-MAIL UND NICHT UID
+Die UID waere langfristig stabiler, ist aber ein zusaetzlicher Wert, der mit
+js/data/erfahrungen.js synchron gehalten werden muesste. Die verifizierte
+E-Mail ist derselbe Wert wie dort — eine Stelle weniger, an der etwas
+auseinanderlaufen kann. Bei Google-Anmeldung ist email_verified immer true.
+
+Wer lieber die UID will: unter Authentication → Users steht sie in der Spalte
+"Nutzer-UID". Dann istErfahrungsAdmin() so ersetzen:
+
+    function istErfahrungsAdmin() {
       return request.auth != null && request.auth.uid == 'HIER_DIE_UID';
     }
 
-TESTEN, OB ES WIRKT
-In der Firebase-Konsole gibt es neben dem Regel-Editor den "Rules Playground".
-Dort kannst du eine Leseabfrage auf /erfahrungen/beliebig simulieren, einmal
-ohne Anmeldung und einmal mit deiner Adresse — ohne echte Daten anzufassen.
 
-WAS PASSIERT, WENN DU NICHTS TUST
-Ohne diese Regeln greifen die alten. Eingereichte Berichte werden dann
-entweder gar nicht erst gespeichert oder bleiben unsichtbar liegen. Kaputt
-geht nichts — die Funktion bleibt nur wirkungslos.
+VORHER TESTEN
+Neben dem Regel-Editor gibt es den "Rules Playground". Dort laesst sich eine
+Leseabfrage auf /erfahrungen/beliebig simulieren — einmal ohne Anmeldung,
+einmal mit der Admin-Adresse — ohne echte Daten anzufassen.
+
+
+WENN NICHTS GEMACHT WIRD
+Ohne diese Ergaenzung greift die Standardablehnung: Eingereichte Berichte
+werden gar nicht erst gespeichert. Die App bleibt sonst voll funktionsfaehig,
+nur das Einreichen laeuft ins Leere.
