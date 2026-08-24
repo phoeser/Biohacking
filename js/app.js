@@ -243,6 +243,7 @@
           <div class="home-erf-top">
             <span class="erf-badge ${escapeHtml(a.klasse)}">${escapeHtml(a.label)}</span>
             ${e.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+            ${e.anzeige ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
           </div>
           <h4>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h4>
           <p>${escapeHtml(e.fazit || '')}</p>
@@ -741,6 +742,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       : `<div class="erf-empty">Noch keine Bezugsquellen erfasst.</div>`;
   }
 
+  // Pflicht: Besteht zu einem Anbieter eine bezahlte Partnerschaft, muss der
+  // Bericht als Werbung erkennbar sein (§ 5a Abs. 4 UWG, § 6 TMG) – und zwar
+  // rueckwirkend, sobald die Gegenleistung fliesst. Schalter: anzeige: true.
   function renderErfCard(e) {
     const a = ERFAHRUNG_AUTOREN[e.autor] || ERFAHRUNG_AUTOREN.recherche;
     const meta = [
@@ -755,6 +759,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           <span class="erf-badge ${escapeHtml(a.klasse)}">${escapeHtml(a.label)}</span>
           <span class="erf-kat">${escapeHtml(e.kategorie || '')}</span>
           ${e.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+          ${e.anzeige ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
         </div>
         <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
         ${renderSterne(e.bewertung)}
@@ -817,6 +822,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         <span class="erf-badge ${escapeHtml(a.klasse)}">${escapeHtml(a.label)}</span>
         <span class="erf-kat">${escapeHtml(e.kategorie || '')}</span>
         ${e.demo ? '<span class="erf-badge is-demo">Beispiel</span>' : ''}
+        ${e.anzeige ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
       </div>
       <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
       ${renderSterne(e.bewertung)}
@@ -825,6 +831,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         ${e.dosis ? `<dt>Einnahme</dt><dd>${escapeHtml(e.dosis)}</dd>` : ''}
         ${e.datum ? `<dt>Stand</dt><dd>${escapeHtml(formatDatum(e.datum))}</dd>` : ''}
       </dl>
+      ${e.anzeige ? `<p class="erf-ad-hint">Anzeige: Zu diesem Anbieter besteht eine bezahlte Partnerschaft. Der Bericht gibt trotzdem meine eigene Erfahrung wieder.</p>` : ''}
       <p class="erf-text">${escapeHtml(e.text || '').replace(/\n/g, '<br>')}</p>
       ${(e.positiv && e.positiv.length) ? `<div class="erf-pn"><h4>Was gut war</h4><ul>${e.positiv.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>` : ''}
       ${(e.negativ && e.negativ.length) ? `<div class="erf-pn erf-pn--neg"><h4>Was nicht so gut war</h4><ul>${e.negativ.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>` : ''}
