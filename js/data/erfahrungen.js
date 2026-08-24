@@ -28,7 +28,7 @@
 const ERFAHRUNGEN = [
   {
     id: 'naturtreu-paul-2026-08',
-    substanz: 'Naturtreu – Zink & Florazauber',
+    substanz: 'Naturtreu – Zink, Kreatin & Florazauber',
     slug: 'naturtreu',
     kategorie: 'Supplement',
     emoji: '\u{1F33F}',
@@ -42,16 +42,45 @@ const ERFAHRUNGEN = [
     dauer: 'laufend, seit mehreren Monaten',
     dosis: 'nach Herstellerangabe',
     bewertung: 5,
-    fazit: 'Von den Marken, die ich regelmäßig nachkaufe, die verlässlichste. Zink und Florazauber nehme ich dauerhaft.',
-    text: 'Von Naturtreu habe ich inzwischen viele Produkte durch und bin mit der Marke insgesamt sehr zufrieden. Zwei stechen heraus.\n\nZink nehme ich dauerhaft. Das ist eines der wenigen Supplemente, bei denen die Rechtslage eindeutig ist und zugelassene Aussagen existieren – Zink trägt zu einer normalen Funktion des Immunsystems bei, das steht so in der EU-Liste. Genau deshalb halte ich es für eine sinnvolle Basis und nicht für ein Experiment.\n\nFlorazauber ist der Kulturen-Komplex, also ein Probiotikum mit mehreren Bakterienstämmen und Akazienfaser als Ballaststoff. Der Hersteller nennt eine magensaftresistente Kapsel, damit die Kulturen im Darm ankommen und nicht schon im Magen. Ich nehme es ohne feste Kur, einfach laufend. Was man dazu ehrlich sagen muss: Bei Probiotika ist der subjektive Eindruck schwer von Alltagseinflüssen zu trennen, und die Studienlage zu einzelnen Stämmen ist deutlich dünner als bei Zink.\n\nEinordnung von mir: Was ich an Naturtreu schätze, ist weniger ein einzelner Wow-Effekt als die Konstanz – transparente Zusammensetzung, keine Fantasie-Dosierungen, keine überzogenen Versprechen auf der Verpackung. Das ist bei Nahrungsergänzung mehr wert, als es klingt.',
+    fazit: 'Von den Marken, die ich regelmäßig nachkaufe, die verlässlichste. Beim Kreatin stimmt das Preis-Leistungs-Verhältnis besonders.',
+    text: 'Von Naturtreu habe ich inzwischen viele Produkte durch und bin mit der Marke insgesamt sehr zufrieden. Drei stechen heraus.\n\nZink nehme ich dauerhaft. Das ist eines der wenigen Supplemente, bei denen die Rechtslage eindeutig ist und zugelassene Aussagen existieren – Zink trägt zu einer normalen Funktion des Immunsystems bei, das steht so in der EU-Liste. Genau deshalb halte ich es für eine sinnvolle Basis und nicht für ein Experiment.\n\nKreatin nehme ich seit einiger Zeit ebenfalls von Naturtreu, das Kreatinquelle-Pulver. Preis-Leistung finde ich dort richtig gut – das ist der Punkt, an dem sich die Marke aus meiner Sicht am deutlichsten lohnt. Kreatin ist ein Commodity, da geht es nicht um Formulierungskunst, sondern um reines Monohydrat zu einem fairen Kilopreis. Meine allgemeine Einordnung zu Kreatin steht in einem eigenen Bericht hier auf der Seite.\n\nFlorazauber ist der Kulturen-Komplex, also ein Probiotikum mit mehreren Bakterienstämmen und Akazienfaser als Ballaststoff. Der Hersteller nennt eine magensaftresistente Kapsel, damit die Kulturen im Darm ankommen und nicht schon im Magen. Ich nehme es ohne feste Kur, einfach laufend. Was man dazu ehrlich sagen muss: Bei Probiotika ist der subjektive Eindruck schwer von Alltagseinflüssen zu trennen, und die Studienlage zu einzelnen Stämmen ist deutlich dünner als bei Zink.\n\nEinordnung von mir: Was ich an Naturtreu schätze, ist weniger ein einzelner Wow-Effekt als die Konstanz – transparente Zusammensetzung, keine Fantasie-Dosierungen, keine überzogenen Versprechen auf der Verpackung. Das ist bei Nahrungsergänzung mehr wert, als es klingt.',
     positiv: [
       'Zink mit klarer Rechtslage und zugelassenen Angaben – gute Basis',
+      'Kreatin (Kreatinquelle) mit sehr gutem Preis-Leistungs-Verhältnis',
       'Transparente Zusammensetzung, keine überzogenen Versprechen',
       'Florazauber mit magensaftresistenter Kapsel und Ballaststoffanteil'
     ],
     negativ: [
       'Bei Probiotika ist der eigene Eindruck kaum von Alltagseinflüssen zu trennen',
       'Nicht der günstigste Anbieter'
+    ],
+    shopId: null,
+    quelle: { label: 'Eigene Anwendung, Stand August 2026', url: '' }
+  },
+  {
+    id: 'moleqlar-paul-2026-08',
+    substanz: 'MoleQlar – TMG, Kreatin & Resveratrol',
+    slug: 'moleqlar',
+    kategorie: 'Supplement',
+    emoji: '\u{1F9EC}',
+    autor: 'paul',
+    demo: false,
+    // anzeige: bei bestehendem Affiliate-Verhaeltnis auf true setzen.
+    anzeige: false,
+    datum: '2026-08-24',
+    dauer: 'laufend',
+    dosis: 'nach Herstellerangabe',
+    bewertung: 5,
+    fazit: 'Höherpreisig, aber Qualität und Zuverlässigkeit stimmen. Alle drei Pulver nutze ich weiter.',
+    text: 'Von MoleQlar nutze ich drei Produkte: das TMG-Pulver, das Kreatin und das Resveratrol-Pulver. Mit allen drei bin ich sehr zufrieden.\n\nDie Marke ist preislich klar im oberen Bereich – das muss man wissen, bevor man bestellt. Was man dafür bekommt, ist aus meiner Sicht konstante Qualität und Zuverlässigkeit: Es kommt, was bestellt wurde, in der Beschaffenheit, die man erwartet. Bei Einzelstoff-Pulvern ist das mehr wert, als es klingt, weil man dort kaum eine Möglichkeit hat, die Reinheit selbst zu beurteilen.\n\nZu den drei Stoffen kurz die Einordnung, weil sie rechtlich unterschiedlich gelagert sind. TMG (Trimethylglycin, auch Betain) wird bei MoleQlar aus der Zuckerrübe gewonnen und als hochreines Pulver angeboten – ein unproblematischer Stoff. Kreatin ist der am besten untersuchte Wirkstoff in meiner ganzen Datenbank, mit zugelassener Angabe zur Muskelleistung. Bei Resveratrol lohnt der genaue Blick: trans-Resveratrol ist in der EU als neuartiges Lebensmittel zugelassen, aber mit Mengenobergrenze – 150 mg pro Tag für Erwachsene. Wer mehr nimmt, bewegt sich außerhalb dessen, was zugelassen ist. Das ist kein Vorwurf an den Hersteller, sondern eine Sache, die man als Anwender kennen sollte.\n\nEinordnung von mir: Wenn du bei Einzelstoffen sparen willst, ist MoleQlar nicht die richtige Adresse. Wenn dir Zuverlässigkeit bei Stoffen wichtig ist, deren Qualität du selbst nicht prüfen kannst, ist der Aufpreis für mich vertretbar.',
+    positiv: [
+      'Konstante Qualität und zuverlässige Lieferung über alle drei Produkte',
+      'TMG als hochreines Pulver aus der Zuckerrübe',
+      'Kreatin mit der besten Studienlage aller Einträge hier'
+    ],
+    negativ: [
+      'Deutlich höherpreisig als der Marktdurchschnitt',
+      'Bei Resveratrol die EU-Obergrenze von 150 mg pro Tag im Blick behalten'
     ],
     shopId: null,
     quelle: { label: 'Eigene Anwendung, Stand August 2026', url: '' }
@@ -366,6 +395,21 @@ const SHOPS = [
   // Bewusst OHNE klickbare Links: nicht zugelassene Mittel sollen von dieser
   // Seite aus nicht aktiv bezogen werden koennen.
   // ---------------------------------------------------------------------------
+  {
+    id: 'shop-apotheke',
+    name: 'Shop Apotheke',
+    demo: false,
+    url: 'https://www.shop-apotheke.com/',
+    land: 'NL/DE',
+    kategorien: ['Supplements', 'Apotheke'],
+    bewertung: 5,
+    versand: 'Zuverlässig, EU-Versandapotheke mit deutschem Kundenservice.',
+    zahlung: 'Übliche Zahlarten inkl. Rechnung.',
+    qualitaet: 'Apothekenpflichtige und frei verkäufliche Ware aus regulären Lieferketten – bei Nahrungsergänzung der Punkt, der die Bezugsquelle vom Graumarkt unterscheidet.',
+    zoll: 'Kein Thema, Versand aus der EU.',
+    erfahrung: 'Eigene Erfahrung: Ich bestelle dort regelmäßig und bin sehr zufrieden. Für manche Produkte sind sie preislich schlicht unschlagbar – gerade bei Standard-Nahrungsergänzung wie Vitaminen, Mineralstoffen und Omega-3. Für Wirkstoffe, für die es keinen spezialisierten Anbieter gibt, ist es ohnehin oft die einzige seriöse Adresse. Stand August 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
   {
     id: 'biolabshop',
     name: 'biolabshop.de',
