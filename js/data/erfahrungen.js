@@ -27,6 +27,65 @@
 
 const ERFAHRUNGEN = [
   {
+    id: 'naturtreu-paul-2026-08',
+    substanz: 'Naturtreu – Zink & Florazauber',
+    slug: 'naturtreu',
+    kategorie: 'Supplement',
+    emoji: '\u{1F33F}',
+    autor: 'paul',
+    demo: false,
+    // anzeige: sobald hier ein Affiliate-Verhaeltnis besteht, auf true setzen.
+    // Die Kennzeichnungspflicht (§ 5a Abs. 4 UWG) gilt rueckwirkend fuer bereits
+    // veroeffentlichte Beitraege, sobald eine Gegenleistung fliesst.
+    anzeige: false,
+    datum: '2026-08-24',
+    dauer: 'laufend, seit mehreren Monaten',
+    dosis: 'nach Herstellerangabe',
+    bewertung: 5,
+    fazit: 'Von den Marken, die ich regelmäßig nachkaufe, die verlässlichste. Zink und Florazauber nehme ich dauerhaft.',
+    text: 'Von Naturtreu habe ich inzwischen viele Produkte durch und bin mit der Marke insgesamt sehr zufrieden. Zwei stechen heraus.\n\nZink nehme ich dauerhaft. Das ist eines der wenigen Supplemente, bei denen die Rechtslage eindeutig ist und zugelassene Aussagen existieren – Zink trägt zu einer normalen Funktion des Immunsystems bei, das steht so in der EU-Liste. Genau deshalb halte ich es für eine sinnvolle Basis und nicht für ein Experiment.\n\nFlorazauber ist der Kulturen-Komplex, also ein Probiotikum mit mehreren Bakterienstämmen und Akazienfaser als Ballaststoff. Der Hersteller nennt eine magensaftresistente Kapsel, damit die Kulturen im Darm ankommen und nicht schon im Magen. Ich nehme es ohne feste Kur, einfach laufend. Was man dazu ehrlich sagen muss: Bei Probiotika ist der subjektive Eindruck schwer von Alltagseinflüssen zu trennen, und die Studienlage zu einzelnen Stämmen ist deutlich dünner als bei Zink.\n\nEinordnung von mir: Was ich an Naturtreu schätze, ist weniger ein einzelner Wow-Effekt als die Konstanz – transparente Zusammensetzung, keine Fantasie-Dosierungen, keine überzogenen Versprechen auf der Verpackung. Das ist bei Nahrungsergänzung mehr wert, als es klingt.',
+    positiv: [
+      'Zink mit klarer Rechtslage und zugelassenen Angaben – gute Basis',
+      'Transparente Zusammensetzung, keine überzogenen Versprechen',
+      'Florazauber mit magensaftresistenter Kapsel und Ballaststoffanteil'
+    ],
+    negativ: [
+      'Bei Probiotika ist der eigene Eindruck kaum von Alltagseinflüssen zu trennen',
+      'Nicht der günstigste Anbieter'
+    ],
+    shopId: null,
+    quelle: { label: 'Eigene Anwendung, Stand August 2026', url: '' }
+  },
+  {
+    id: 'norsan-omega3-paul-2026-08',
+    substanz: 'NORSAN Omega-3 (Öl & Kapseln)',
+    slug: 'norsan-omega3',
+    kategorie: 'Supplement',
+    emoji: '\u{1F41F}',
+    autor: 'paul',
+    demo: false,
+    // anzeige: siehe Hinweis oben – bei Affiliate-Verhaeltnis auf true setzen.
+    anzeige: false,
+    datum: '2026-08-24',
+    dauer: 'laufend',
+    dosis: 'nach Herstellerangabe',
+    bewertung: 5,
+    fazit: 'Qualität und Schwermetall-Nachweis überzeugen. Das Öl schmeckt deutlich nach Fisch – das ist der Preis dafür.',
+    text: 'Omega-3 nehme ich von NORSAN, sowohl das Öl als auch die Kapseln. Beides funktioniert für mich gut.\n\nDer eigentliche Grund für diese Marke ist bei Fischöl aber nicht der Geschmack, sondern die Reinheit. Fischöl stammt aus Meerestieren, und genau dort reichern sich Schwermetalle an – Quecksilber vor allem. Bei einem Produkt, das man täglich und über Jahre nimmt, ist das die relevanteste Frage überhaupt. NORSAN veröffentlicht dazu Schwermetall-Zertifikate für die einzelnen Produktlinien und gibt an, verkaufsfertige Produkte regelmäßig durch ein unabhängiges Labor prüfen zu lassen sowie die TOTOX-Werte der Rohware chargenweise. TOTOX ist das Maß für Oxidation, also dafür, wie ranzig ein Öl bereits ist – auch das ist bei Fischöl ein echtes Thema.\n\nZum Geschmack, ohne Beschönigung: Das Öl schmeckt schon stark nach Fisch. Wer das nicht mag, ist mit den Kapseln besser bedient – die habe ich genau deshalb parallel im Einsatz.\n\nEinordnung von mir: Omega-3 ist einer der wenigen Werte, die man nicht schätzen muss, sondern messen kann. Der Omega-3-Index steht bei mir im Blutwerte-Bereich, und ich halte das für den sinnvolleren Weg als jede Bauchgefühl-Dosierung: erst messen, dann entscheiden, wie viel man überhaupt braucht.',
+    positiv: [
+      'Schwermetall-Zertifikate werden je Produktlinie veröffentlicht',
+      'TOTOX-Werte der Rohware werden chargenweise geprüft (Oxidationsgrad)',
+      'Öl und Kapseln parallel verfügbar – Kapseln umgehen das Geschmacksthema'
+    ],
+    negativ: [
+      'Das Öl schmeckt deutlich nach Fisch',
+      'Preislich im oberen Bereich',
+      'Prüflabor und genaue Prüfintervalle werden nicht öffentlich benannt'
+    ],
+    shopId: null,
+    quelle: { label: 'Eigene Anwendung; Herstellerangaben laut NORSAN Labor-Zertifikaten, abgerufen 24.08.2026', url: 'https://norsan.de/labor-zertifikate/' }
+  },
+  {
     id: 'inuspherese-paul-2026-08',
     substanz: 'INUSpherese (Blut-Apherese)',
     slug: 'inuspherese',
