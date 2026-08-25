@@ -82,7 +82,7 @@ const ERFAHRUNGEN = [
       'Deutlich höherpreisig als der Marktdurchschnitt',
       'Bei Resveratrol die EU-Obergrenze von 150 mg pro Tag im Blick behalten'
     ],
-    shopId: null,
+    shopId: 'moleqlar',
     quelle: { label: 'Eigene Anwendung, Stand August 2026', url: '' }
   },
   {
@@ -395,6 +395,26 @@ const SHOPS = [
   // Bewusst OHNE klickbare Links: nicht zugelassene Mittel sollen von dieser
   // Seite aus nicht aktiv bezogen werden koennen.
   // ---------------------------------------------------------------------------
+  {
+    id: 'moleqlar',
+    name: 'MoleQlar',
+    demo: false,
+    url: 'https://moleqlar.com/',
+    land: 'DE/AT',
+    kategorien: ['Supplements', 'Longevity'],
+    bewertung: 5,
+    versand: 'Zuverlässig, Versand innerhalb der EU.',
+    zahlung: 'Übliche Zahlarten.',
+    qualitaet: 'Einzelstoff-Pulver mit Reinheitsangaben; TMG aus der Zuckerrübe. Siehe eigener Erfahrungsbericht.',
+    zoll: 'Kein Thema, Versand innerhalb der EU.',
+    erfahrung: 'Eigene Erfahrung: Ich nutze das TMG-Pulver, das Resveratrol-Pulver und zwischendurch das Kreatin. Preislich klar im oberen Bereich, dafür konstante Qualität. Stand August 2026.',
+    // Affiliate-Partnerschaft ab August 2026. Erst nach Unterzeichnung der
+    // Kooperationsbedingungen auf aktiv: true setzen – vorher besteht keine
+    // Vereinbarung, auf die man sich berufen koennte.
+    // Der Eigenbedarfs-Code des Anbieters ist NICHT oeffentlich – der gehoert
+    // Paul persoenlich und darf hier nirgends auftauchen.
+    affiliate: { aktiv: false, url: '', code: 'biohackingkompakt10', rabatt: '10 % auf die gesamte Bestellung' }
+  },
   {
     id: 'naturtreu',
     name: 'Naturtreu',
