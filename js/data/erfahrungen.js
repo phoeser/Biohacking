@@ -37,7 +37,7 @@ const ERFAHRUNGEN = [
     // anzeige: sobald hier ein Affiliate-Verhaeltnis besteht, auf true setzen.
     // Die Kennzeichnungspflicht (§ 5a Abs. 4 UWG) gilt rueckwirkend fuer bereits
     // veroeffentlichte Beitraege, sobald eine Gegenleistung fliesst.
-    anzeige: false,
+    anzeige: true,
     datum: '2026-08-24',
     dauer: 'laufend, seit mehreren Monaten',
     dosis: 'nach Herstellerangabe',
@@ -413,7 +413,8 @@ const SHOPS = [
     // Vereinbarung, auf die man sich berufen koennte.
     // Der Eigenbedarfs-Code des Anbieters ist NICHT oeffentlich – der gehoert
     // Paul persoenlich und darf hier nirgends auftauchen.
-    affiliate: { aktiv: false, url: '', code: 'biohackingkompakt10', rabatt: '10 % auf die gesamte Bestellung' }
+    // Standardprovision laut Dashboard: 10 % netto pro Bestellung.
+    affiliate: { aktiv: false, url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU', code: 'biohackingkompakt10', rabatt: '10 % auf die gesamte Bestellung' }
   },
   {
     id: 'naturtreu',
@@ -431,7 +432,7 @@ const SHOPS = [
     // Affiliate-Partnerschaft besteht seit August 2026 (Direktprogramm, nicht Awin).
     // url und code werden eingetragen, sobald beides vom Anbieter bestaetigt ist.
     // Sobald aktiv: true, kennzeichnet die App automatisch als Anzeige.
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+    affiliate: { aktiv: true, url: 'https://naturtreu.de/?sca_ref=12145206.MbLQiZOVbP', code: '', rabatt: '15 % Rabatt fuer Neukunden ueber den Link' }
   },
   {
     id: 'shop-apotheke',
