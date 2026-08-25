@@ -66,7 +66,7 @@ const ERFAHRUNGEN = [
     autor: 'paul',
     demo: false,
     // anzeige: bei bestehendem Affiliate-Verhaeltnis auf true setzen.
-    anzeige: false,
+    anzeige: true,
     datum: '2026-08-24',
     dauer: 'laufend',
     dosis: 'nach Herstellerangabe',
@@ -414,7 +414,7 @@ const SHOPS = [
     // Der Eigenbedarfs-Code des Anbieters ist NICHT oeffentlich – der gehoert
     // Paul persoenlich und darf hier nirgends auftauchen.
     // Standardprovision laut Dashboard: 10 % netto pro Bestellung.
-    affiliate: { aktiv: false, url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU', code: 'biohackingkompakt10', rabatt: '10 % auf die gesamte Bestellung' }
+    affiliate: { aktiv: true, url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU', code: 'biohackingkompakt10', rabatt: '10 % auf die gesamte Bestellung' }
   },
   {
     id: 'naturtreu',
