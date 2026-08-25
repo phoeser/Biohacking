@@ -54,7 +54,7 @@ const ERFAHRUNGEN = [
       'Bei Probiotika ist der eigene Eindruck kaum von Alltagseinflüssen zu trennen',
       'Nicht der günstigste Anbieter'
     ],
-    shopId: null,
+    shopId: 'naturtreu',
     quelle: { label: 'Eigene Anwendung, Stand August 2026', url: '' }
   },
   {
@@ -395,6 +395,24 @@ const SHOPS = [
   // Bewusst OHNE klickbare Links: nicht zugelassene Mittel sollen von dieser
   // Seite aus nicht aktiv bezogen werden koennen.
   // ---------------------------------------------------------------------------
+  {
+    id: 'naturtreu',
+    name: 'Naturtreu',
+    demo: false,
+    url: 'https://naturtreu.de/',
+    land: 'DE',
+    kategorien: ['Supplements'],
+    bewertung: 5,
+    versand: 'Zuverlässig, Versand aus Deutschland.',
+    zahlung: 'Übliche Zahlarten.',
+    qualitaet: 'Transparente Zusammensetzung, laborgeprüfte Rohstoffe nach Herstellerangabe.',
+    zoll: 'Kein Thema, Versand innerhalb Deutschlands.',
+    erfahrung: 'Eigene Erfahrung: Ich nutze mehrere Produkte dauerhaft, vor allem Zink, das Kreatinquelle-Pulver und Florazauber. Siehe den ausführlichen Erfahrungsbericht weiter oben. Stand August 2026.',
+    // Affiliate-Partnerschaft besteht seit August 2026 (Direktprogramm, nicht Awin).
+    // url und code werden eingetragen, sobald beides vom Anbieter bestaetigt ist.
+    // Sobald aktiv: true, kennzeichnet die App automatisch als Anzeige.
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
   {
     id: 'shop-apotheke',
     name: 'Shop Apotheke',
