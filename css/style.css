@@ -3302,3 +3302,11 @@ button { font-family: inherit; cursor: pointer; }
   .bw-grid { grid-template-columns: 1fr; }
   .bw-regeln { grid-template-columns: 1fr; }
 }
+
+
+/* Bezugsquelle im Erfahrungsbericht-Detail --------------------------------- */
+.erf-bezug { margin: 20px 0 0; padding: 16px; border: 1px solid var(--surface-border); border-radius: 12px; background: var(--surface-hover); }
+.erf-bezug h4 { margin: 0 0 6px; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+.erf-bezug-name { margin: 0 0 10px; font-weight: 600; }
+.erf-bezug .erf-code { margin-bottom: 10px; }
+.erf-bezug .erf-ad-hint { margin-top: 10px; }
