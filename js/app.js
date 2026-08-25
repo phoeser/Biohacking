@@ -772,8 +772,10 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
 
   function renderShopCard(s) {
     const aff = s.affiliate || {};
-    // Pflicht: Sobald ein Affiliate-Link aktiv ist, wird er als Werbung gekennzeichnet.
-    const istWerbung = !!(aff.aktiv && aff.url);
+    // Pflicht: Sobald eine Gegenleistung im Spiel ist, wird gekennzeichnet – auch
+    // wenn nur ein Rabattcode kommuniziert wird und gar kein Link existiert.
+    // Ein Code ist ebenso eine Gegenleistung wie ein Link (§ 5a Abs. 4 UWG).
+    const istWerbung = !!(aff.aktiv && (aff.url || aff.code));
     // Warn-Eintraege bekommen nie einen Link – wir schicken niemanden dorthin.
     const istWarnung = !!s.warnung;
     const ziel = istWarnung ? '' : (istWerbung ? aff.url : s.url);
@@ -835,12 +837,40 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       <p class="erf-text">${escapeHtml(e.text || '').replace(/\n/g, '<br>')}</p>
       ${(e.positiv && e.positiv.length) ? `<div class="erf-pn"><h4>Was gut war</h4><ul>${e.positiv.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>` : ''}
       ${(e.negativ && e.negativ.length) ? `<div class="erf-pn erf-pn--neg"><h4>Was nicht so gut war</h4><ul>${e.negativ.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>` : ''}
+      ${renderErfBezugsquelle(e)}
       ${(e.quelle && e.quelle.url) ? `<p class="erf-quelle">Quelle: <a href="${escapeHtml(safeHttpUrl(e.quelle.url, '#erfahrungen'))}" target="_blank" rel="noopener">${escapeHtml(e.quelle.label || e.quelle.url)}</a></p>`
         : (e.quelle && e.quelle.label) ? `<p class="erf-quelle">Quelle: ${escapeHtml(e.quelle.label)}</p>` : ''}
       <p class="erf-disclaimer-inline">Einzelfallbericht, kein Wirksamkeitsnachweis und keine medizinische Empfehlung.</p>
     `;
     box.classList.remove('hidden');
     box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // Verweist ein Bericht ueber shopId auf eine erfasste Bezugsquelle, blenden wir
+  // sie im Detail ein. Ist dort ein Affiliate-Verhaeltnis hinterlegt, gelten
+  // dieselben Pflichten wie im Shop-Bereich: Kennzeichnung, rel-Attribute.
+  function renderErfBezugsquelle(e) {
+    if (!e || !e.shopId || typeof SHOPS === 'undefined') return '';
+    const s = SHOPS.find(x => x.id === e.shopId);
+    if (!s || s.warnung) return '';
+    const aff = s.affiliate || {};
+    const istWerbung = !!(aff.aktiv && (aff.url || aff.code));
+    const ziel = istWerbung ? (aff.url || '') : (s.url || '');
+    if (!ziel && !(istWerbung && aff.code)) return '';
+    return `
+      <div class="erf-bezug">
+        <h4>Bezugsquelle${istWerbung ? ' <span class="erf-badge is-ad">Anzeige</span>' : ''}</h4>
+        <p class="erf-bezug-name">${escapeHtml(s.name || '')}</p>
+        ${(istWerbung && aff.code) ? `
+          <div class="erf-code">
+            <span class="erf-code-label">Rabattcode</span>
+            <code>${escapeHtml(aff.code)}</code>
+            ${aff.rabatt ? `<span class="erf-code-rabatt">${escapeHtml(aff.rabatt)}</span>` : ''}
+          </div>` : ''}
+        ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
+        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du darüber oder mit dem Code, erhalte ich eine Provision. Für dich ändert sich der Preis nicht – der Rabatt kommt obendrauf.</p>` : ''}
+      </div>
+    `;
   }
 
   function formatDatum(iso) {
