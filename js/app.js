@@ -868,7 +868,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
             ${aff.rabatt ? `<span class="erf-code-rabatt">${escapeHtml(aff.rabatt)}</span>` : ''}
           </div>` : ''}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
-        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du darüber oder mit dem Code, erhalte ich eine Provision. Für dich ändert sich der Preis nicht – der Rabatt kommt obendrauf.</p>` : ''}
+        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du ${aff.code ? 'darüber oder mit dem Code' : 'über diesen Link'}, erhalte ich eine Provision. Für dich ändert sich der Preis nicht${aff.code ? ' – der Rabatt kommt obendrauf' : ''}.</p>` : ''}
       </div>
     `;
   }
