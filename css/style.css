@@ -3310,3 +3310,55 @@ button { font-family: inherit; cursor: pointer; }
 .erf-bezug-name { margin: 0 0 10px; font-weight: 600; }
 .erf-bezug .erf-code { margin-bottom: 10px; }
 .erf-bezug .erf-ad-hint { margin-top: 10px; }
+
+
+/* Rabatt-Block an Bezugsquellen ------------------------------------------- */
+/* Klar lesbar, aber ruhig: kein Signalrahmen, kein Reklameton. */
+.erf-rabatt {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--surface-border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--surface-hover);
+}
+.erf-rabatt-kopf { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.erf-rabatt-prozent {
+  font-size: 19px; font-weight: 700; line-height: 1.2; color: var(--text);
+}
+.erf-rabatt-wort { font-size: 13px; font-weight: 600; color: var(--text-muted); }
+.erf-rabatt-code {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  margin-top: 9px; padding: 8px 10px;
+  background: var(--surface); border: 1px dashed var(--surface-border); border-radius: var(--radius-sm);
+}
+.erf-rabatt-code-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);
+}
+.erf-rabatt-code code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 15px; font-weight: 700; color: var(--text);
+  cursor: pointer; user-select: all; word-break: break-all;
+}
+.erf-copy-btn {
+  margin-left: auto; border: 1px solid var(--surface-border); background: var(--bg-alt);
+  color: var(--text-muted); border-radius: var(--radius-sm); padding: 4px 9px;
+  font-size: 12px; font-weight: 600; cursor: pointer;
+}
+.erf-copy-btn:hover { background: var(--surface-hover); color: var(--text); }
+.erf-copy-btn.is-done { border-color: var(--accent); color: var(--accent); }
+.erf-rabatt-ohnecode { margin: 7px 0 0; font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+.erf-rabatt-bedingung { margin: 7px 0 0; font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+/* Kurzform auf Karten und Teasern */
+.erf-rabatt-chip {
+  display: inline-block; margin: 6px 0 2px;
+  padding: 3px 9px; border-radius: 999px;
+  background: transparent; color: var(--accent);
+  border: 1px solid var(--accent);
+  font-size: 12px; font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .erf-copy-btn { margin-left: 0; }
+}
