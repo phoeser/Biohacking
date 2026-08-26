@@ -28,9 +28,10 @@
 // affiliate-Objekt je Shop:
 //   aktiv   – schaltet die Kennzeichnung und die Rabatt-Anzeige scharf
 //   url     – Affiliate-Link (leer = nur Code kommunizieren)
-//   code    – Rabattcode zum Eintippen (leer = Rabatt laeuft ueber den Link)
-//   prozent – Rabatthoehe, z.B. '10 %'  → wird gross und zuerst angezeigt
-//   rabatt  – Bedingung dazu, z.B. 'auf die gesamte Bestellung'
+//   codes   – Liste der Rabattcodes: { code, prozent, fuer }
+//             Mehrere Eintraege werden gleichwertig untereinander angezeigt
+//             (z.B. Neukunden- und Bestandskunden-Code).
+//             Leere Liste = Rabatt laeuft allein ueber den Link.
 const ERFAHRUNGEN = [
   {
     id: 'naturtreu-paul-2026-08',
@@ -420,7 +421,13 @@ const SHOPS = [
     // Der Eigenbedarfs-Code des Anbieters ist NICHT oeffentlich – der gehoert
     // Paul persoenlich und darf hier nirgends auftauchen.
     // Standardprovision laut Dashboard: 10 % netto pro Bestellung.
-    affiliate: { aktiv: true, url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU', code: 'biohackingkompakt10', prozent: '10 %', rabatt: 'auf die gesamte Bestellung, keine Mindestbestellung' }
+    affiliate: {
+      aktiv: true,
+      url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU',
+      codes: [
+        { code: 'biohackingkompakt10', prozent: '10 %', fuer: 'auf die gesamte Bestellung, ohne Mindestbestellwert' }
+      ]
+    }
   },
   {
     id: 'naturtreu',
@@ -438,7 +445,15 @@ const SHOPS = [
     // Affiliate-Partnerschaft besteht seit August 2026 (Direktprogramm, nicht Awin).
     // url und code werden eingetragen, sobald beides vom Anbieter bestaetigt ist.
     // Sobald aktiv: true, kennzeichnet die App automatisch als Anzeige.
-    affiliate: { aktiv: true, url: 'https://naturtreu.de/?sca_ref=12145206.MbLQiZOVbP', code: '', prozent: '15 %', rabatt: 'fuer Neukunden, automatisch ueber den Link' }
+    // Zwei zugeteilte Codes (26.08.2026), gleichwertig dargestellt.
+    affiliate: {
+      aktiv: true,
+      url: 'https://naturtreu.de/?sca_ref=12145206.MbLQiZOVbP',
+      codes: [
+        { code: 'NT15-KOMPAKT', prozent: '15 %', fuer: 'für Neukunden' },
+        { code: 'NT10-KOMPAKT', prozent: '10 %', fuer: 'für Bestandskunden' }
+      ]
+    }
   },
   {
     id: 'shop-apotheke',
