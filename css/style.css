@@ -3313,7 +3313,7 @@ button { font-family: inherit; cursor: pointer; }
 
 
 /* Rabatt-Block an Bezugsquellen ------------------------------------------- */
-/* Klar lesbar, aber ruhig: kein Signalrahmen, kein Reklameton. */
+/* Klar lesbar, aber ruhig: kein Signalrahmen, kein Reklameton.               */
 .erf-rabatt {
   margin: 12px 0;
   padding: 12px 14px;
@@ -3322,26 +3322,33 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius-sm);
   background: var(--surface-hover);
 }
-.erf-rabatt-kopf { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-.erf-rabatt-prozent {
-  font-size: 19px; font-weight: 700; line-height: 1.2; color: var(--text);
+.erf-rabatt-titel {
+  margin: 0 0 8px; font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim);
 }
-.erf-rabatt-wort { font-size: 13px; font-weight: 600; color: var(--text-muted); }
-.erf-rabatt-code {
-  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  margin-top: 9px; padding: 8px 10px;
-  background: var(--surface); border: 1px dashed var(--surface-border); border-radius: var(--radius-sm);
+/* Eine Zeile je Code – mehrere Codes stehen gleichwertig untereinander. */
+.erf-rabatt-zeile {
+  display: flex; align-items: center; gap: 8px 10px; flex-wrap: wrap;
+  padding: 8px 0;
 }
-.erf-rabatt-code-label {
-  font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);
+.erf-rabatt-zeile + .erf-rabatt-zeile { border-top: 1px solid var(--surface-border); }
+.erf-rabatt-prozent { font-size: 19px; font-weight: 700; line-height: 1.2; color: var(--text); }
+.erf-rabatt-fuer { font-size: 13px; color: var(--text-muted); }
+.erf-rabatt-codewrap {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin-left: auto;
 }
-.erf-rabatt-code code {
+.erf-rabatt-codewrap code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 15px; font-weight: 700; color: var(--text);
+  background: var(--surface); border: 1px dashed var(--surface-border);
+  border-radius: var(--radius-sm); padding: 4px 8px;
   cursor: pointer; user-select: all; word-break: break-all;
 }
+.erf-rabatt-kopf { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.erf-rabatt-wort { font-size: 13px; font-weight: 600; color: var(--text-muted); }
 .erf-copy-btn {
-  margin-left: auto; border: 1px solid var(--surface-border); background: var(--bg-alt);
+  border: 1px solid var(--surface-border); background: var(--bg-alt);
   color: var(--text-muted); border-radius: var(--radius-sm); padding: 4px 9px;
   font-size: 12px; font-weight: 600; cursor: pointer;
 }
@@ -3359,6 +3366,6 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 12px; font-weight: 600;
 }
 
-@media (max-width: 480px) {
-  .erf-copy-btn { margin-left: 0; }
+@media (max-width: 520px) {
+  .erf-rabatt-codewrap { margin-left: 0; width: 100%; }
 }
