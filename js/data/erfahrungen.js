@@ -294,49 +294,137 @@ const ERFAHRUNGEN = [
     emoji: '\u{26A1}',
     autor: 'weitergegeben',
     demo: false,
-    datum: '2026-08-22',
+    datum: '2026-08-26',
     dauer: null,
     dosis: null,
-    bewertung: null,
-    fazit: 'Durchweg positive Rückmeldungen: gibt direkt viel Energie – besonders in Kombination mit Retatrutide.',
-    text: 'Zu MOTS-c habe ich bisher ausschließlich Gutes gehört. Der Punkt, der immer zuerst genannt wird: Es gibt unmittelbar spürbar Energie.\n\nBesonders interessant fand ich den Hinweis, dass es sich gut mit Retatrutide ergänzt. Das ergibt inhaltlich Sinn: Wenn beim Abnehmen unter Retatrutide vor allem die fehlende Power als Nachteil genannt wird, adressiert MOTS-c genau diese Lücke.\n\nEinordnung von mir: Das ist der schwächste Bericht auf dieser Seite, was die Belegbarkeit angeht – ich habe es gehört, nicht selbst erlebt und nicht von einer einzelnen benannten Person. Genau deshalb steht es hier unter „Weitergegeben“ und nicht unter „Selbstversuch“. MOTS-c ist ein Forschungspeptid ohne Zulassung; die Datenlage am Menschen ist dünn.',
+    bewertung: 5,
+    fazit: 'Von mehreren Bekannten uebereinstimmend gelobt: wirkt schon am selben Tag, mit deutlich spuerbarer Power und Energie.',
+    text: 'MOTS-c ist der Eintrag, zu dem ich die einheitlichsten Rueckmeldungen bekomme – und zwar von mehreren Bekannten unabhaengig voneinander. Der Tenor ist immer derselbe: Es wirkt, und es wirkt schnell. Direkt am Tag der Anwendung sei die Power da, spuerbar mehr Energie. Niemand aus dem Kreis hat mir bisher etwas Negatives dazu berichtet.\n\nBesonders interessant fand ich den Hinweis, dass es sich gut mit Retatrutide ergaenzt. Das ergibt inhaltlich Sinn: Wenn beim Abnehmen unter Retatrutide vor allem die fehlende Power als Nachteil genannt wird, adressiert MOTS-c genau diese Luecke.\n\nEinordnung von mir, und die gehoert bei fuenf Sternen besonders dazu: Die Bewertung gibt wieder, wie zufrieden die Berichtenden sind – sie ist kein Wirksamkeitsnachweis. Ich habe MOTS-c nicht selbst angewendet, und es gibt keine Messwerte, nur Eindruecke. Ausserdem ist ein sofort spuerbarer Energieschub genau die Art von Effekt, bei der die Erwartung mitspielt.\n\nMOTS-c ist ein mitochondrial kodiertes Peptid, das den Energiestoffwechsel ueber die AMP-aktivierte Proteinkinase reguliert – denselben Signalweg, den auch Ausdauertraining und Metformin anstossen. Der Mechanismus passt also durchaus zu dem, was berichtet wird. Es ist ein Forschungspeptid ohne Zulassung, und die Datenlage am Menschen ist duenn.',
     positiv: [
-      'Direkt spürbarer Energie-Effekt, durchweg positive Rückmeldungen',
-      'Ergänzt sich plausibel mit Retatrutide, wo Antriebslosigkeit das Hauptproblem ist'
+      'Wirkung setzt schon am Tag der Anwendung ein',
+      'Deutlich spuerbare Power und Energie – uebereinstimmend von mehreren Bekannten berichtet',
+      'Bisher keine negativen Rueckmeldungen aus dem Kreis',
+      'Ergaenzt sich plausibel mit Retatrutide, wo Antriebslosigkeit das Hauptproblem ist'
     ],
     negativ: [
-      'Reines Hörensagen, keine benannte Einzelperson, keine Messwerte',
-      'Forschungspeptid ohne Zulassung, dünne Humandatenlage'
+      'Keine eigene Anwendung, keine Messwerte – die fuenf Sterne geben Zufriedenheit wieder, keinen Nachweis',
+      'Ein sofort spuerbarer Energieschub ist besonders anfaellig fuer Erwartungseffekte',
+      'Forschungspeptid ohne Zulassung, duenne Humandatenlage'
     ],
     shopId: null,
-    quelle: { label: 'Mehrfach gehörte Rückmeldungen, weitergegeben von Paul · Einordnung in Podcast-Folge 4', url: '' }
+    quelle: { label: 'Uebereinstimmende Rueckmeldungen mehrerer Bekannter, weitergegeben von Paul · Einordnung in Podcast-Folge 4', url: '' }
   },
   {
-    id: 'melanotan-1-2-umfeld-2026-08',
-    substanz: 'Melanotan 1 und 2 im Vergleich',
-    slug: 'melanotan',
+    id: 'dsip-spray-umfeld-2026-08',
+    substanz: 'DSIP als Nasenspray',
+    slug: 'dsip',
     kategorie: 'Peptid',
-    emoji: '\u{2600}',
+    emoji: '\u{1F634}',
     autor: 'weitergegeben',
     demo: false,
-    datum: '2026-08-22',
+    datum: '2026-08-26',
+    dauer: null,
+    dosis: null,
+    bewertung: 2,
+    fazit: 'Als Spray keine wirklich spuerbare Veraenderung. Die Vermutung im Umfeld: Man muesste es wohl spritzen.',
+    text: 'Zu DSIP als Nasenspray hoere ich das Gegenteil von MOTS-c: Es passiert wenig. Keine wirklich gute Veraenderung, so wurde es mir erzaehlt – kein deutlich besserer Schlaf, kein klarer Effekt, an dem man es festmachen koennte. Die Vermutung derer, die es probiert haben, ist, dass man es spritzen muesste, damit ueberhaupt etwas ankommt.\n\nEinordnung von mir: Diese Vermutung ist nicht aus der Luft gegriffen. Peptide ueber die Nasenschleimhaut aufzunehmen funktioniert grundsaetzlich schlecht – es sind vergleichsweise grosse Molekuele, und nur ein kleiner Teil schafft es durch die Schleimhaut, bevor der Rest abgebaut oder verschluckt wird. Ein ausbleibender Effekt beim Spray sagt deshalb wenig darueber, ob der Wirkstoff etwas kann; er sagt zuerst etwas ueber den Aufnahmeweg. Genau deshalb steht in dieser Bewertung ausdruecklich „als Nasenspray" und nicht „DSIP".\n\nWas man dazu wissen sollte: DSIP wurde in den siebziger Jahren aus dem Hirnblut von Kaninchen im Tiefschlaf isoliert. Die Humandatenlage ist ausgesprochen duenn und stammt ueberwiegend aus dieser alten Forschungsphase; kontrollierte moderne Studien zum Schlaf gibt es praktisch nicht. Zugelassen ist es nirgends. Dass ein Effekt ausbleibt, ist bei dieser Datenlage also auch nicht ueberraschend – die zwei Sterne stehen fuer die berichtete Erfahrung mit dieser Darreichungsform, nicht fuer ein Urteil ueber den Wirkstoff.',
+    positiv: [
+      'Keine unerwuenschten Wirkungen berichtet',
+      'Nasenspray ist die niedrigschwelligste Darreichungsform'
+    ],
+    negativ: [
+      'Keine spuerbare Veraenderung berichtet – auch nicht beim Schlaf',
+      'Peptide werden ueber die Nasenschleimhaut generell schlecht aufgenommen',
+      'Sehr duenne Humandatenlage, im Wesentlichen aus den Siebzigern',
+      'Nirgends zugelassen, reine Forschungssubstanz'
+    ],
+    shopId: null,
+    quelle: { label: 'Rueckmeldungen aus dem Umfeld, weitergegeben von Paul · Einordnung in Podcast-Folge 12', url: '' }
+  },
+  {
+    id: 'slu-pp-332-umfeld-2026-08',
+    substanz: 'SLU-PP-332',
+    slug: 'slu-pp-332',
+    kategorie: 'Wirkstoff',
+    emoji: '\u{1F3C3}',
+    autor: 'weitergegeben',
+    demo: false,
+    datum: '2026-08-26',
     dauer: null,
     dosis: null,
     bewertung: null,
-    fazit: 'MT2 bräunt deutlich stärker, hat aber unangenehme Nebenwirkungen – vor allem am Anfang. MT1 wirkt schwächer, dafür kaum Nebenwirkungen.',
-    text: 'Zu den beiden Bräunungspeptiden höre ich immer wieder dasselbe Muster, und es ist erstaunlich konsistent.\n\nMelanotan 2 wirkt beim Bräunen stark – deutlich stärker als MT1. Der Preis dafür sind unangenehme Nebenwirkungen, und die treten vor allem bei den ersten Malen auf. Der Rat, der dabei immer mitkommt: niedrig anfangen und langsam steigern, statt gleich einzusteigen.\n\nMelanotan 1 ist das ruhigere Gegenstück: schwächere Wirkung, dafür kaum bis keine Nebenwirkungen.\n\nEinordnung von mir: Das ist eine Abwägung zwischen Wirkstärke und Verträglichkeit, keine Empfehlung für eines von beidem. MT2 ist nirgends zugelassen. MT1 gibt es als Afamelanotid tatsächlich als zugelassenes Medikament – aber für eine seltene Lichtunverträglichkeit, nicht zum Bräunen. Was in der Szene zirkuliert, ist nicht dasselbe Produkt und stammt nicht aus derselben Qualitätskontrolle.',
+    fazit: 'Ein Bericht aus dem Umfeld: super Ausdauer, direkt spuerbar, keine Nebenwirkungen. Ein einzelner Bericht – und die Substanz hat keine einzige Humanstudie.',
+    text: 'Mir hat einer aus dem Umfeld davon erzaehlt, bezogen ueber biolabshop. Sein Fazit war knapp und deutlich: mega. Die Ausdauer sei direkt spuerbar besser gewesen, Nebenwirkungen habe er keine gehabt.\n\nEinordnung von mir, und hier ist der Abstand zwischen Bericht und Beleglage groesser als bei fast allem anderen auf dieser Seite: SLU-PP-332 wird als „Sport in Tablettenform" gehandelt, weil es einen Rezeptor aktiviert, der auch beim Ausdauertraining hochgefahren wird. Die dazugehoerigen Daten stammen aber vollstaendig aus Mausversuchen. Es gibt keine einzige veroeffentlichte Studie am Menschen – weder zur Wirkung noch zur Sicherheit. Was also berichtet wird, laesst sich mit nichts abgleichen.\n\nDeshalb steht hier auch keine Sternebewertung. Ein einzelner Bericht ohne Messwerte, zu einer Substanz ohne Humandaten, ist nichts, was ich mit fuenf Sternen versehen wuerde – auch wenn er positiv ausfaellt. Gerade „direkt spuerbar mehr Ausdauer" ist die Art von Effekt, die man schlecht von Erwartung und Tagesform trennen kann, solange niemand vorher und nachher misst.\n\nSLU-PP-332 ist nirgends als Arzneimittel zugelassen und wird als Forschungschemikalie gehandelt. Fuer Wettkampfsportler kommt hinzu, dass Stoffwechsel-Modulatoren dieser Art in den Doping-Bestimmungen erfasst sind.',
     positiv: [
-      'MT2: deutlich stärkere Bräunungswirkung',
-      'MT1: kaum bis keine Nebenwirkungen berichtet',
-      'Konsistentes Bild über mehrere Rückmeldungen hinweg'
+      'Direkt spuerbar bessere Ausdauer berichtet',
+      'Keine Nebenwirkungen berichtet',
+      'Der Wirkmechanismus passt grundsaetzlich zu dem, was beschrieben wird'
     ],
     negativ: [
-      'MT2: unangenehme Nebenwirkungen, besonders zu Beginn',
-      'MT1: spürbar schwächere Wirkung',
-      'Beide in dieser Verwendung nicht zugelassen, Produktqualität aus grauen Quellen unklar'
+      'Einzelner Bericht, keine Messwerte – deshalb bewusst ohne Sternebewertung',
+      'Keine einzige Humanstudie, weder zur Wirkung noch zur Sicherheit',
+      'Nicht zugelassen, wird als Forschungschemikalie gehandelt',
+      'Fuer Wettkampfsportler dopingrelevant'
+    ],
+    shopId: 'biolabshop',
+    quelle: { label: 'Bericht eines Bekannten, weitergegeben von Paul · Einordnung in Podcast-Folge 5', url: '' }
+  },
+  {
+    id: 'melanotan-1-paul-2026-08',
+    substanz: 'Melanotan 1 (Afamelanotid)',
+    slug: 'melanotan-1',
+    kategorie: 'Peptid',
+    emoji: '\u{1F31E}',
+    autor: 'paul',
+    demo: false,
+    datum: '2026-08-26',
+    dauer: 'wiederholt angewendet',
+    dosis: null,
+    bewertung: 5,
+    fazit: 'Schwaecher als MT2 – aber es wirkt, und es ist sehr angenehm. Fuer mich klare fuenf Sterne.',
+    text: 'Melanotan 1 ist das ruhigere der beiden Braeunungspeptide, und genau deshalb ist es fuer mich das bessere.\n\nDie Wirkung ist schwaecher als bei Melanotan 2, das muss man klar sagen. Es geht langsamer, und der Effekt faellt geringer aus. Dafuer ist die Anwendung sehr angenehm – die unangenehmen Begleiterscheinungen, die ich von MT2 kenne, habe ich hier schlicht nicht. Wenn ich zwischen einem starken Effekt mit Nebenwirkungen und einem schwaecheren ohne waehlen kann, nehme ich das schwaechere.\n\nEinordnung von mir: Der Unterschied zwischen den beiden ist keine Frage der Dosis, sondern der Chemie. Melanotan 1 spricht im Wesentlichen den MC1-Rezeptor an, also den, der fuer die Pigmentierung zustaendig ist. Melanotan 2 aktiviert daneben auch MC4 – und da haengen Uebelkeit, Kreislauf und Libido mit dran. Die schwaechere Wirkung und die bessere Vertraeglichkeit sind also zwei Seiten derselben Sache.\n\nWichtig zur Rechtslage, und das ist bei MT1 besonders leicht misszuverstehen: Der Wirkstoff existiert tatsaechlich als zugelassenes Medikament – Afamelanotid, Handelsname Scenesse, als Implantat. Zugelassen ist es aber fuer eine seltene Lichtunvertraeglichkeit, nicht zum Braeunen. Was in der Szene zirkuliert, ist nicht dieses Praeparat und stammt nicht aus dessen Qualitaetskontrolle. Die Zulassung faerbt nicht auf das Graumarktprodukt ab.\n\nWas ich nicht beurteilen kann: die Langzeitsicherheit. Es gibt fuer die kosmetische Anwendung keine Studien, die ueber Jahre laufen. Wer regelmaessig braeunt, ohne dass UV im Spiel ist, sollte seine Muttermale trotzdem dermatologisch im Blick behalten – der pigmentierende Effekt ist derselbe Mechanismus, um den es bei MT2 in den Fallberichten geht.',
+    positiv: [
+      'Wirkt zuverlaessig, wenn auch langsamer und schwaecher als MT2',
+      'Sehr angenehm in der Anwendung – bei mir keine der MT2-typischen Begleiterscheinungen',
+      'Selektiver auf den Pigment-Rezeptor MC1, dadurch weniger Nebenwirkungen ueber MC4',
+      'Der Wirkstoff ist als Afamelanotid grundsaetzlich pharmazeutisch charakterisiert'
+    ],
+    negativ: [
+      'Deutlich schwaecherer Effekt als Melanotan 2',
+      'Zum Braeunen nirgends zugelassen – die Scenesse-Zulassung gilt einer seltenen Lichtunvertraeglichkeit',
+      'Graumarktware stammt nicht aus der Qualitaetskontrolle des zugelassenen Praeparats',
+      'Keine Langzeitdaten zur kosmetischen Anwendung – Muttermale gehoeren trotzdem kontrolliert'
     ],
     shopId: null,
-    quelle: { label: 'Mehrfach gehörte Rückmeldungen, weitergegeben von Paul · Einordnung in den Podcast-Folgen zu Melanotan 1 und 2', url: '' }
+    quelle: { label: 'Eigene Anwendung, Stand August 2026 · Einordnung der Studienlage in Podcast-Folge 43', url: '' }
+  },
+  {
+    id: 'melanotan-2-paul-2026-08',
+    substanz: 'Melanotan 2',
+    slug: 'melanotan-2',
+    kategorie: 'Peptid',
+    emoji: '\u{2600}',
+    autor: 'paul',
+    demo: false,
+    datum: '2026-08-26',
+    dauer: 'wiederholt angewendet',
+    dosis: null,
+    bewertung: 3,
+    fazit: 'Braeunt deutlich staerker als MT1. Dafuer jedes Mal rund zwanzig Minuten unangenehme Nebenwirkungen zu Beginn – deshalb nur drei Sterne.',
+    text: 'Melanotan 2 wirkt beim Braeunen klar staerker als Melanotan 1. Das ist der Grund, warum es das bekanntere der beiden ist.\n\nDer Haken ist bei mir konstant derselbe, und er ist der Grund fuer den Punktabzug: Es gibt jedes Mal am Anfang etwa zwanzig Minuten, in denen es unangenehm ist. Das ist bei mir nicht auf die ersten Anwendungen beschraenkt und hat sich auch mit der Zeit nicht gelegt – es gehoert einfach dazu. Danach ist es vorbei.\n\nEinordnung von mir: Das passt zum Wirkprinzip. Melanotan 2 aktiviert nicht nur den Pigment-Rezeptor MC1, sondern auch MC4 – und darueber laufen Uebelkeit, Hautroetung und Kreislaufreaktionen. Es ist also keine Verunreinigung und kein Anwendungsfehler, sondern die Substanz selbst. Wer das nicht will, ist mit Melanotan 1 besser bedient; das ist genau die Abwaegung zwischen den beiden.\n\nWorueber man vor der Entscheidung Bescheid wissen sollte, und das wiegt schwerer als die zwanzig Minuten: Es gibt eine dermatologische Fallserie zu Veraenderungen an Muttermalen unter Melanotan (Langan, Journal of the American Academy of Dermatology, 2010) und einen dokumentierten Melanomfall nach Anwendung (Hjuler und Lorentzen, JAMA Dermatology, 2014). Das sind Fallberichte und kein Kausalitaetsbeweis – aber bei einer Substanz, deren ganzer Zweck die Aktivierung pigmentbildender Zellen ist, ist das das Signal, das man ernst nimmt. Wer MT2 nutzt, sollte seine Muttermale regelmaessig dermatologisch kontrollieren lassen. Das ist die eine Sache, die ich hier nicht als Geschmacksfrage stehen lassen will.\n\nMelanotan 2 ist nirgends als Arzneimittel zugelassen, und Behoerden warnen ausdruecklich vor der Anwendung. Kontrollierte Langzeitstudien am Menschen gibt es nicht.',
+    positiv: [
+      'Deutlich staerkere Braeunungswirkung als Melanotan 1',
+      'Der Effekt tritt zuverlaessig ein',
+      'Nach den ersten zwanzig Minuten sind die Begleiterscheinungen vorbei'
+    ],
+    negativ: [
+      'Jedes Mal rund zwanzig Minuten unangenehme Nebenwirkungen zu Beginn – bei mir dauerhaft, nicht nur anfangs',
+      'Fallberichte zu Muttermalveraenderungen (Langan, JAAD 2010) und ein Melanomfall (JAMA Dermatology 2014)',
+      'Nirgends als Arzneimittel zugelassen, Behoerden warnen ausdruecklich',
+      'Keine kontrollierten Langzeitdaten am Menschen; Graumarktqualitaet nicht ueberpruefbar'
+    ],
+    shopId: null,
+    quelle: { label: 'Eigene Anwendung, Stand August 2026 · Einordnung der Studienlage in Podcast-Folge 39', url: '' }
   },
   {
     id: 'pt-141-umfeld-2026-08',
