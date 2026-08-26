@@ -167,7 +167,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'mydata', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'about'];
 
   function currentView() {
     const hash = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
@@ -179,13 +179,19 @@
     $$('.view').forEach(v => {
       v.classList.toggle('hidden', v.dataset.view !== name);
     });
+    // Bezugsquellen sind eine eigene Ansicht, haben aber keinen eigenen
+    // Menuepunkt – die Kopfzeile traegt keinen elften. Der Punkt Erfahrungen
+    // bleibt fuer beide Ansichten hervorgehoben, umgeschaltet wird oben in
+    // der Ansicht selbst.
+    const navName = (name === 'bezugsquellen') ? 'erfahrungen' : name;
     $$('.main-nav a').forEach(a => {
-      a.classList.toggle('active', a.dataset.nav === name);
+      a.classList.toggle('active', a.dataset.nav === navName);
     });
     window.scrollTo({ top: 0 });
     document.body.dataset.view = name;
 
     if (name === 'erfahrungen') onEnterErfahrungen();
+    if (name === 'bezugsquellen') renderShopSection();
     if (name === 'blutwerte') onEnterBlutwerte();
     if (name === 'home') onEnterHome();
     if (name === 'experimental') onEnterExperimental();
@@ -697,7 +703,6 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
 
   function onEnterErfahrungen() {
     renderErfahrungen();
-    renderShopSection();
     // Falls von der Startseite aus eine bestimmte Karte angeklickt wurde.
     if (pendingErfId) {
       const id = pendingErfId;
@@ -724,8 +729,10 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       : `<div class="erf-empty">Für diese Kategorie gibt es noch keine Berichte.</div>`;
   }
 
-  // Bezugsquellen stehen als eigener Block unter den Berichten – nicht hinter
-  // einem Filter versteckt, denn die Warnungen sind der Teil, der Geld spart.
+  // Bezugsquellen haben seit v128 eine eigene Ansicht (#bezugsquellen). Vorher
+  // hingen sie unten an den Erfahrungsberichten und gingen dort unter – dabei
+  // sind die Warnungen der Teil, der Geld spart, und die Rabatte der Teil, den
+  // Leser suchen. Beides gehoert nicht hinter einen Filter und nicht ans Ende.
   function renderShopSection() {
     const listEl = $('#erf-shops-list');
     const warnEl = $('#erf-shops-warncount');
