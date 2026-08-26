@@ -242,19 +242,19 @@ button { font-family: inherit; cursor: pointer; }
     scrollbar-width: none;
   }
   .main-nav::-webkit-scrollbar { display: none; }
-  .main-nav a { white-space: nowrap; }
-}
-@media (min-width: 769px) and (max-width: 1500px) {
+  /* Elf Menuepunkte passen in der Grundgroesse (15px, 28px Abstand) auf keiner
+     ueblichen Desktop-Breite neben Logo und Suchfeld. Deshalb gilt die engere
+     Stufe hier durchgehend und nicht erst ab einer bestimmten Breite. */
   .main-nav { gap: 18px; }
-  .main-nav a { font-size: 14px; }
+  .main-nav a { white-space: nowrap; font-size: 14px; }
 }
-@media (min-width: 769px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1460px) {
   .main-nav { gap: 13px; }
   .main-nav a { font-size: 13px; }
 }
-@media (min-width: 769px) and (max-width: 1300px) {
-  .main-nav { gap: 10px; }
-  .main-nav a { font-size: 12.5px; }
+@media (min-width: 769px) and (max-width: 1330px) {
+  .main-nav { gap: 9px; }
+  .main-nav a { font-size: 12px; }
 }
 
 /* --- Umschalter Erfahrungsberichte / Bezugsquellen (v128) --------------
