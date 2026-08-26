@@ -399,8 +399,10 @@ const SHOPS = [
   // ---------------------------------------------------------------------------
   // Alle Angaben sind WEITERGEGEBENE Berichte Dritter, Stand August 2026 – keine
   // eigenen Feststellungen. In diesem Umfeld aendert sich das schnell.
-  // Bewusst OHNE klickbare Links: nicht zugelassene Mittel sollen von dieser
-  // Seite aus nicht aktiv bezogen werden koennen.
+  // Peptid- und Graumarkt-Anbieter bewusst OHNE klickbare Links: nicht zugelassene
+  // Mittel sollen von dieser Seite aus nicht aktiv bezogen werden koennen.
+  // Regulaere Shops mit Affiliate-Vereinbarung (aktiv: true) bekommen einen Link
+  // samt Anzeige-Kennzeichnung. Warnungen bekommen nie einen Link.
   // ---------------------------------------------------------------------------
   {
     id: 'moleqlar',
