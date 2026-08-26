@@ -179,13 +179,8 @@
     $$('.view').forEach(v => {
       v.classList.toggle('hidden', v.dataset.view !== name);
     });
-    // Bezugsquellen sind eine eigene Ansicht, haben aber keinen eigenen
-    // Menuepunkt – die Kopfzeile traegt keinen elften. Der Punkt Erfahrungen
-    // bleibt fuer beide Ansichten hervorgehoben, umgeschaltet wird oben in
-    // der Ansicht selbst.
-    const navName = (name === 'bezugsquellen') ? 'erfahrungen' : name;
     $$('.main-nav a').forEach(a => {
-      a.classList.toggle('active', a.dataset.nav === navName);
+      a.classList.toggle('active', a.dataset.nav === name);
     });
     window.scrollTo({ top: 0 });
     document.body.dataset.view = name;
