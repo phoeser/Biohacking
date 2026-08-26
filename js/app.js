@@ -751,8 +751,15 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     if (!e || !e.shopId || typeof SHOPS === 'undefined') return '';
     const s = SHOPS.find(x => x.id === e.shopId);
     const aff = s && s.affiliate;
-    if (!aff || !aff.aktiv || !aff.prozent) return '';
-    return `<span class="erf-rabatt-chip">${escapeHtml(aff.prozent)} Rabatt${aff.code ? ' · Code ' + escapeHtml(aff.code) : ''}</span>`;
+    if (!aff || !aff.aktiv) return '';
+    const codes = affCodes(aff);
+    const werte = codes.map(c => c.prozent).filter(Boolean);
+    if (!werte.length && aff.prozent) werte.push(aff.prozent);
+    if (!werte.length) return '';
+    const text = werte.length > 1
+      ? `${escapeHtml(werte.join(' / '))} Rabattcode`
+      : `${escapeHtml(werte[0])} Rabatt${codes.length === 1 ? ' · Code ' + escapeHtml(codes[0].code) : ''}`;
+    return `<span class="erf-rabatt-chip">${text}</span>`;
   }
 
   function renderErfCard(e) {
@@ -781,30 +788,46 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     `;
   }
 
+  // Codes eines Partners in einheitlicher Form – akzeptiert die Liste `codes`
+  // und faellt auf die alten Einzelfelder zurueck, falls noch vorhanden.
+  function affCodes(aff) {
+    if (!aff) return [];
+    if (Array.isArray(aff.codes)) return aff.codes.filter(c => c && c.code);
+    if (aff.code) return [{ code: aff.code, prozent: aff.prozent || '', fuer: aff.rabatt || '' }];
+    return [];
+  }
+
   // Der Rabatt ist fuer Leser die wichtigste Information an einer Bezugsquelle –
-  // deshalb steht die Prozentzahl gross und zuerst, der Code direkt darunter zum
-  // Antippen und Kopieren. Wird nur gerendert, wenn eine Partnerschaft aktiv ist;
-  // die Kennzeichnung als Anzeige haengt am selben Schalter.
+  // deshalb steht je Code die Prozentzahl vorn und der Code direkt daneben zum
+  // Antippen. Mehrere Codes (Neukunde/Bestandskunde) stehen gleichwertig.
   function renderRabattBlock(aff) {
     if (!aff || !aff.aktiv) return '';
-    const prozent = aff.prozent || '';
-    const code    = aff.code || '';
-    const bedingung = aff.rabatt || '';
-    if (!prozent && !code) return '';
+    const codes = affCodes(aff);
+    if (!codes.length) {
+      const p = aff.prozent || '';
+      if (!p) return '';
+      return `
+        <div class="erf-rabatt">
+          <div class="erf-rabatt-kopf">
+            <span class="erf-rabatt-prozent">${escapeHtml(p)}</span>
+            <span class="erf-rabatt-wort">Rabatt für dich</span>
+          </div>
+          <p class="erf-rabatt-ohnecode">Kein Code nötig – der Rabatt wird über den Link unten angewendet.</p>
+          ${aff.rabatt ? `<p class="erf-rabatt-bedingung">${escapeHtml(aff.rabatt)}</p>` : ''}
+        </div>`;
+    }
     return `
       <div class="erf-rabatt">
-        <div class="erf-rabatt-kopf">
-          ${prozent ? `<span class="erf-rabatt-prozent">${escapeHtml(prozent)}</span>` : ''}
-          <span class="erf-rabatt-wort">Rabatt für dich</span>
-        </div>
-        ${code
-          ? `<div class="erf-rabatt-code">
-               <span class="erf-rabatt-code-label">Code</span>
-               <code data-copy-code="${escapeHtml(code)}" title="Zum Kopieren antippen">${escapeHtml(code)}</code>
-               <button type="button" class="erf-copy-btn" data-copy-code="${escapeHtml(code)}">Kopieren</button>
-             </div>`
-          : `<p class="erf-rabatt-ohnecode">Kein Code nötig – der Rabatt wird über den Link unten angewendet.</p>`}
-        ${bedingung ? `<p class="erf-rabatt-bedingung">${escapeHtml(bedingung)}</p>` : ''}
+        <p class="erf-rabatt-titel">${codes.length > 1 ? 'Rabattcodes für dich' : 'Rabattcode für dich'}</p>
+        ${codes.map(c => `
+          <div class="erf-rabatt-zeile">
+            <span class="erf-rabatt-prozent">${escapeHtml(c.prozent || '')}</span>
+            <span class="erf-rabatt-fuer">${escapeHtml(c.fuer || '')}</span>
+            <span class="erf-rabatt-codewrap">
+              <code data-copy-code="${escapeHtml(c.code)}" title="Zum Kopieren antippen">${escapeHtml(c.code)}</code>
+              <button type="button" class="erf-copy-btn" data-copy-code="${escapeHtml(c.code)}">Kopieren</button>
+            </span>
+          </div>`).join('')}
       </div>
     `;
   }
@@ -814,7 +837,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     // Pflicht: Sobald eine Gegenleistung im Spiel ist, wird gekennzeichnet – auch
     // wenn nur ein Rabattcode kommuniziert wird und gar kein Link existiert.
     // Ein Code ist ebenso eine Gegenleistung wie ein Link (§ 5a Abs. 4 UWG).
-    const istWerbung = !!(aff.aktiv && (aff.url || aff.code));
+    const istWerbung = !!(aff.aktiv && (aff.url || affCodes(aff).length));
     // Warn-Eintraege bekommen nie einen Link – wir schicken niemanden dorthin.
     const istWarnung = !!s.warnung;
     const ziel = istWarnung ? '' : (istWerbung ? aff.url : s.url);
@@ -888,7 +911,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     const s = SHOPS.find(x => x.id === e.shopId);
     if (!s || s.warnung) return '';
     const aff = s.affiliate || {};
-    const istWerbung = !!(aff.aktiv && (aff.url || aff.code));
+    const istWerbung = !!(aff.aktiv && (aff.url || affCodes(aff).length));
     const ziel = istWerbung ? (aff.url || '') : (s.url || '');
     if (!ziel && !(istWerbung && aff.code)) return '';
     return `
@@ -897,7 +920,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         <p class="erf-bezug-name">${escapeHtml(s.name || '')}</p>
         ${renderRabattBlock(aff)}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
-        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du ${aff.code ? 'darüber oder mit dem Code' : 'über diesen Link'}, erhalte ich eine Provision. Für dich ändert sich der Preis nicht${aff.code ? ' – der Rabatt kommt obendrauf' : ''}.</p>` : ''}
+        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du ${affCodes(aff).length ? 'darüber oder mit einem der Codes' : 'über diesen Link'}, erhalte ich eine Provision. Für dich ändert sich der Preis nicht${affCodes(aff).length ? ' – der Rabatt kommt obendrauf' : ''}.</p>` : ''}
       </div>
     `;
   }
@@ -909,7 +932,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     const code = el.getAttribute('data-copy-code') || '';
     if (!code) return;
     const melden = () => {
-      const btn = el.closest('.erf-rabatt-code')?.querySelector('.erf-copy-btn');
+      const btn = el.closest('.erf-rabatt-zeile')?.querySelector('.erf-copy-btn');
       if (!btn) return;
       const alt = btn.textContent;
       btn.textContent = 'Kopiert';
