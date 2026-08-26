@@ -247,6 +247,7 @@
           </div>
           <h4>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h4>
           <p>${escapeHtml(e.fazit || '')}</p>
+          ${rabattKurz(e)}
           ${renderSterne(e.bewertung)}
         </a>
       `;
@@ -745,6 +746,15 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
   // Pflicht: Besteht zu einem Anbieter eine bezahlte Partnerschaft, muss der
   // Bericht als Werbung erkennbar sein (§ 5a Abs. 4 UWG, § 6 TMG) – und zwar
   // rueckwirkend, sobald die Gegenleistung fliesst. Schalter: anzeige: true.
+  // Kurzform des Rabatts fuer Karten und Teaser: sichtbar, bevor jemand klickt.
+  function rabattKurz(e) {
+    if (!e || !e.shopId || typeof SHOPS === 'undefined') return '';
+    const s = SHOPS.find(x => x.id === e.shopId);
+    const aff = s && s.affiliate;
+    if (!aff || !aff.aktiv || !aff.prozent) return '';
+    return `<span class="erf-rabatt-chip">${escapeHtml(aff.prozent)} Rabatt${aff.code ? ' · Code ' + escapeHtml(aff.code) : ''}</span>`;
+  }
+
   function renderErfCard(e) {
     const a = ERFAHRUNG_AUTOREN[e.autor] || ERFAHRUNG_AUTOREN.recherche;
     const meta = [
@@ -764,9 +774,38 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
         ${renderSterne(e.bewertung)}
         <p class="erf-fazit">${escapeHtml(e.fazit || '')}</p>
+        ${rabattKurz(e)}
         ${meta ? `<div class="erf-meta">${meta}</div>` : ''}
         <span class="erf-more">Bericht lesen →</span>
       </article>
+    `;
+  }
+
+  // Der Rabatt ist fuer Leser die wichtigste Information an einer Bezugsquelle –
+  // deshalb steht die Prozentzahl gross und zuerst, der Code direkt darunter zum
+  // Antippen und Kopieren. Wird nur gerendert, wenn eine Partnerschaft aktiv ist;
+  // die Kennzeichnung als Anzeige haengt am selben Schalter.
+  function renderRabattBlock(aff) {
+    if (!aff || !aff.aktiv) return '';
+    const prozent = aff.prozent || '';
+    const code    = aff.code || '';
+    const bedingung = aff.rabatt || '';
+    if (!prozent && !code) return '';
+    return `
+      <div class="erf-rabatt">
+        <div class="erf-rabatt-kopf">
+          ${prozent ? `<span class="erf-rabatt-prozent">${escapeHtml(prozent)}</span>` : ''}
+          <span class="erf-rabatt-wort">Rabatt für dich</span>
+        </div>
+        ${code
+          ? `<div class="erf-rabatt-code">
+               <span class="erf-rabatt-code-label">Code</span>
+               <code data-copy-code="${escapeHtml(code)}" title="Zum Kopieren antippen">${escapeHtml(code)}</code>
+               <button type="button" class="erf-copy-btn" data-copy-code="${escapeHtml(code)}">Kopieren</button>
+             </div>`
+          : `<p class="erf-rabatt-ohnecode">Kein Code nötig – der Rabatt wird über den Link unten angewendet.</p>`}
+        ${bedingung ? `<p class="erf-rabatt-bedingung">${escapeHtml(bedingung)}</p>` : ''}
+      </div>
     `;
   }
 
@@ -799,12 +838,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         ${s.erfahrung ? `<p class="erf-fazit">${escapeHtml(s.erfahrung)}</p>` : ''}
         ${zeilen.length ? `<dl class="erf-shop-dl">${zeilen.map(([k, v]) =>
           `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('')}</dl>` : ''}
-        ${istWerbung && aff.code ? `
-          <div class="erf-code">
-            <span class="erf-code-label">Rabattcode</span>
-            <code>${escapeHtml(aff.code)}</code>
-            ${aff.rabatt ? `<span class="erf-code-rabatt">${escapeHtml(aff.rabatt)}</span>` : ''}
-          </div>` : ''}
+        ${renderRabattBlock(aff)}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
         ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Dieser Link ist ein Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. Für dich ändert sich der Preis nicht.</p>` : ''}
         ${istWarnung ? `<p class="erf-warn-hinweis">Bewusst ohne Link. Diese Einordnung gibt wieder, was uns berichtet wurde – sie ist keine eigene Feststellung. Betreiber, die das anders sehen, erreichen uns über die Adresse im Impressum.</p>` : ''}
@@ -861,17 +895,31 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       <div class="erf-bezug">
         <h4>Bezugsquelle${istWerbung ? ' <span class="erf-badge is-ad">Anzeige</span>' : ''}</h4>
         <p class="erf-bezug-name">${escapeHtml(s.name || '')}</p>
-        ${(istWerbung && aff.code) ? `
-          <div class="erf-code">
-            <span class="erf-code-label">Rabattcode</span>
-            <code>${escapeHtml(aff.code)}</code>
-            ${aff.rabatt ? `<span class="erf-code-rabatt">${escapeHtml(aff.rabatt)}</span>` : ''}
-          </div>` : ''}
+        ${renderRabattBlock(aff)}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
         ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du ${aff.code ? 'darüber oder mit dem Code' : 'über diesen Link'}, erhalte ich eine Provision. Für dich ändert sich der Preis nicht${aff.code ? ' – der Rabatt kommt obendrauf' : ''}.</p>` : ''}
       </div>
     `;
   }
+
+  // Code antippen kopiert ihn – auf dem Handy der bequemste Weg.
+  document.addEventListener('click', (ev) => {
+    const el = ev.target.closest('[data-copy-code]');
+    if (!el) return;
+    const code = el.getAttribute('data-copy-code') || '';
+    if (!code) return;
+    const melden = () => {
+      const btn = el.closest('.erf-rabatt-code')?.querySelector('.erf-copy-btn');
+      if (!btn) return;
+      const alt = btn.textContent;
+      btn.textContent = 'Kopiert';
+      btn.classList.add('is-done');
+      setTimeout(() => { btn.textContent = alt; btn.classList.remove('is-done'); }, 1800);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(code).then(melden).catch(() => {});
+    }
+  });
 
   function formatDatum(iso) {
     try {
