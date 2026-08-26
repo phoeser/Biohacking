@@ -558,7 +558,20 @@ const SHOPS = [
     qualitaet: 'Apothekenpflichtige und frei verkäufliche Ware aus regulären Lieferketten – bei Nahrungsergänzung der Punkt, der die Bezugsquelle vom Graumarkt unterscheidet.',
     zoll: 'Kein Thema, Versand aus der EU.',
     erfahrung: 'Eigene Erfahrung: Ich bestelle dort regelmäßig und bin sehr zufrieden. Für manche Produkte sind sie preislich schlicht unschlagbar – gerade bei Standard-Nahrungsergänzung wie Vitaminen, Mineralstoffen und Omega-3. Für Wirkstoffe, für die es keinen spezialisierten Anbieter gibt, ist es ohnehin oft die einzige seriöse Adresse. Stand August 2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+    // Awin-Programm, zugelassen am 26.08.2026. Advertiser-ID 13808, Publisher-ID 3056483.
+    // Cookielaufzeit 30 Tage, Autobestaetigung nach 90 Tagen.
+    // Provision: Neukunden 12 %, mit Gutschein 8 %; Bestandskunden 3,5 %, mit Gutschein 2,5 %.
+    // Ausdruecklich AUSGESCHLOSSEN sind rezeptpflichtige Medikamente, Buecher,
+    // Versandkosten und Saeuglingsanfangsnahrung. Auf Rx also nie verlinken –
+    // das waere ohnehin Publikumswerbung fuer verschreibungspflichtige
+    // Arzneimittel (§ 10 HWG) und wuerde auch keine Provision ausloesen.
+    // codes bleibt leer: Es gibt hier keinen Kundenrabatt. Die App zeigt dann
+    // korrekt keinen Rabattblock an, aber Kennzeichnung und rel-Attribute.
+    affiliate: {
+      aktiv: true,
+      url: 'https://www.awin1.com/cread.php?awinmid=13808&awinaffid=3056483&ued=https%3A%2F%2Fwww.shop-apotheke.com%2F',
+      codes: []
+    }
   },
   {
     id: 'biolabshop',
@@ -634,6 +647,26 @@ const SHOPS = [
     qualitaet: null,
     zoll: null,
     erfahrung: 'Uns wurde berichtet, dass es sich hierbei nicht um den seriösen Anbieter handelt, sondern um eine Nachahmung. Der Domainname unterscheidet sich nur durch das fehlende End-e von europa-peptide.de. Nachprüfbar ist: Beide Domains existieren, liegen aber auf unterschiedlichen Servern und werden nicht vom selben Betreiber geführt (geprüft am 22.08.2026). Wer bestellt, sollte die Adresse Zeichen für Zeichen kontrollieren, statt aus der Suchmaschine heraus zu klicken.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    id: 'warnung-chinesepeptidecompany',
+    name: 'chinesepeptidecompany.net',
+    warnung: true,
+    demo: false,
+    url: '',
+    land: 'China / kein Firmensitz angegeben',
+    kategorien: [],
+    bewertung: null,
+    versand: null,
+    zahlung: null,
+    qualitaet: null,
+    // Basis dieser Einordnung ist ausdruecklich KEIN Fremdbericht, sondern eine
+    // eigene Pruefung der oeffentlich abrufbaren Seiten am 26.08.2026. Alles,
+    // was hier steht, stammt von der Seite selbst und ist nachpruefbar. Es wird
+    // bewusst kein Betrug behauptet – nur beschrieben, was dort zu lesen ist.
+    erfahrung: 'Hier haben wir selbst nachgesehen, statt Berichte weiterzugeben – und die Seite sagt genug ueber sich selbst. Was am 26.08.2026 nachpruefbar war: Es gibt keinen Firmensitz, keine Registernummer und kein Impressum, nur den Namen „Chinese Peptide Company Co., Ltd." und die Ortsangabe Hangzhou. Die Adressen /terms und /privacy liefern den Inhalt der Ueber-uns-Seite aus – es existieren also weder Geschaeftsbedingungen noch eine Datenschutzerklaerung. Der Kontakt laeuft ueber eine E-Mail-Adresse und Telegram; WhatsApp ist als „temporarily unavailable" ausgewiesen. Am wichtigsten ist der Zahlungsweg: Die Seite erklaert selbst, dass Kartenzahlungen im Hintergrund in Krypto umgewandelt werden – man zahle „in USD as normal", ohne selbst mit Krypto zu tun zu haben. Wer so zahlt, hat keinen Kartenzahlungs-Schutz und damit keine Rueckbuchungsmoeglichkeit, auch wenn es sich wie eine normale Kartenzahlung anfuehlt. Direkte Kryptozahlung wird mit 15 % Rabatt beworben. Dazu kommt eine „100% Delivery Guarantee", die ausdruecklich den Fall einer Beschlagnahme durch den Zoll einschliesst, und ein Versand, der laut eigener Angabe unbeschriftet und ohne Branding erfolgt. Uns liegen keine Berichte ueber nicht gelieferte Ware vor. Das hier ist deshalb keine Betrugsbehauptung, sondern eine Risikoeinordnung: Ohne Firmensitz, ohne Geschaeftsbedingungen und ohne Rueckbuchungsmoeglichkeit gibt es im Streitfall niemanden, an den man sich wenden koennte.',
+    zoll: 'Der Anbieter wirbt selbst damit, bei Beschlagnahme durch den Zoll kostenlos nachzuliefern – die Einfuhr ist also einkalkuliert und nicht die Ausnahme.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
