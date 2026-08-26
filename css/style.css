@@ -218,6 +218,80 @@ button { font-family: inherit; cursor: pointer; }
   transition: color 0.2s;
 }
 .main-nav a:hover { color: var(--text); }
+
+/* --- Kopfzeile: Platzverteilung (v128) ---------------------------------
+   Hier lag ein Fehler, der schon vorher bestand: Die Kopfzeile war auf
+   1200px begrenzt, die Menueleiste allein brauchte davon fast 1000px. Das
+   Suchfeld wurde dadurch auf null Breite zusammengedrueckt – sein
+   Eingabefeld behielt aber die browsereigene Mindestbreite und schob sich
+   sichtbar unter den ersten Menuepunkt. Drei Massnahmen dagegen:
+   1. Die Kopfzeile darf breiter werden als der Inhaltsbereich.
+   2. Das Eingabefeld bekommt min-width: 0 und kann nie mehr ueberlaufen.
+   3. Die Menuepunkte ruecken gestuft enger zusammen und scrollen zur Not
+      horizontal, statt Punkte lautlos abzuschneiden.
+   Unterhalb von 768px greift ohnehin das Burger-Menue. */
+@media (min-width: 769px) {
+  .site-header .header-inner { max-width: 1560px; gap: 20px; }
+  .global-search { flex: 0 1 260px; min-width: 140px; margin: 0; }
+  #global-search-input { min-width: 0; }
+  .main-nav {
+    min-width: 0;
+    flex-shrink: 1;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .main-nav a { white-space: nowrap; }
+}
+@media (min-width: 769px) and (max-width: 1500px) {
+  .main-nav { gap: 18px; }
+  .main-nav a { font-size: 14px; }
+}
+@media (min-width: 769px) and (max-width: 1400px) {
+  .main-nav { gap: 13px; }
+  .main-nav a { font-size: 13px; }
+}
+@media (min-width: 769px) and (max-width: 1300px) {
+  .main-nav { gap: 10px; }
+  .main-nav a { font-size: 12.5px; }
+}
+
+/* --- Umschalter Erfahrungsberichte / Bezugsquellen (v128) --------------
+   Beide sind seit v128 eigene Ansichten. Einen elften Menuepunkt vertraegt
+   die Kopfzeile nicht, deshalb steht der Wechsel in beiden Ansichten an
+   derselben Stelle direkt unter der Ueberschrift. */
+.erf-switch {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  margin: 0 0 20px;
+  border: 1px solid var(--surface-border);
+  border-radius: 999px;
+  background: var(--surface);
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.erf-switch::-webkit-scrollbar { display: none; }
+.erf-switch-btn {
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.erf-switch-btn:hover { color: var(--text); }
+.erf-switch-btn.is-active {
+  background: var(--accent-gradient);
+  color: #07121a;
+}
+@media (max-width: 520px) {
+  .erf-switch-btn { padding: 8px 13px; font-size: 13px; }
+}
+
 .btn-nav-toggle {
   display: none; background: none; border: 0; padding: 8px;
   flex-direction: column; gap: 4px;
