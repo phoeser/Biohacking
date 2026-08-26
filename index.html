@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=127" />
+  <link rel="stylesheet" href="css/style.css?v=128" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -271,13 +271,20 @@
           <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
           <span class="eyebrow">Kategorie 3</span>
           <h2>Erfahrungsberichte</h2>
-          <p>Selbstversuche, recherchierte Berichte und Erfahrungen mit Bezugsquellen – zu Supplements, Peptiden und Behandlungen.</p>
+          <p>Selbstversuche und recherchierte Berichte zu Supplements, Peptiden und Behandlungen. Wo es die Mittel gibt, steht unter Bezugsquellen.</p>
+        </div>
+
+        <!-- Umschalter: Berichte und Bezugsquellen sind zwei Haelften eines
+             Themas. Als Navigationspunkt haette Bezugsquellen die Kopfzeile
+             gesprengt (elf Punkte), hier steht die Beziehung sogar klarer. -->
+        <div class="erf-switch" role="tablist" aria-label="Bereich wählen">
+          <a href="#erfahrungen" data-nav="erfahrungen" class="erf-switch-btn is-active" role="tab" aria-selected="true">Erfahrungsberichte</a>
+          <a href="#bezugsquellen" data-nav="bezugsquellen" class="erf-switch-btn" role="tab" aria-selected="false">Bezugsquellen</a>
         </div>
 
         <div class="erf-disclaimer card">
           <strong>Was du hier liest – und was nicht.</strong>
           <p>Erfahrungsberichte sind subjektive Einzelfälle. Sie sind <em>kein</em> Wirksamkeitsnachweis, ersetzen keine ärztliche Beratung und sagen nichts darüber aus, wie eine Substanz bei dir wirkt. Was wissenschaftlich belegt ist, steht in der Supplement- und Peptid-Datenbank – nicht hier.</p>
-          <p class="erf-jump"><a href="#erf-shops">↓ Bezugsquellen &amp; Warnungen zu Shops</a></p>
         </div>
 
         <div class="erf-austausch card">
@@ -297,18 +304,6 @@
           <div id="erf-detail-body"></div>
         </div>
 
-        <!-- ---- Bezugsquellen: eigener Block, nicht hinter einem Filter ---- -->
-        <section class="erf-shops" id="erf-shops">
-          <div class="erf-shops-head">
-            <div>
-              <span class="eyebrow">Woher beziehen</span>
-              <h3>Bezugsquellen &amp; Shop-Erfahrungen</h3>
-            </div>
-            <span id="erf-shops-warncount"></span>
-          </div>
-          <p class="erf-shops-intro">Weitergegebene Berichte Dritter, Stand August 2026 – keine eigenen Feststellungen, und in diesem Umfeld ändert sich schnell etwas. Bewusst ohne klickbare Links.</p>
-          <div id="erf-shops-list" class="erf-list"></div>
-        </section>
 
         <!-- ---- Moderation: nur für freigeschaltete Konten sichtbar ---- -->
         <div id="erf-moderation" class="erf-moderation card hidden">
@@ -601,6 +596,44 @@
     </section>
 
     <!-- ============ MYDATA ============ -->
+    <!-- ============ BEZUGSQUELLEN ============ -->
+    <!-- Seit v128 eine eigene Ansicht. Vorher hing der Block unten an den
+         Erfahrungsberichten und ging dort unter – dabei ist er die Seite mit
+         den Warnungen und den Rabatten, also die mit dem praktischen Nutzen. -->
+    <section class="view hidden" id="view-bezugsquellen" data-view="bezugsquellen">
+      <div class="container">
+        <div class="view-head">
+          <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
+          <span class="eyebrow">Woher beziehen</span>
+          <h2>Bezugsquellen</h2>
+          <p>Wo die Mittel herkommen: Shops, mit denen es gut lief, Anbieter mit Rabattcodes – und Warnungen vor solchen, bei denen es schiefging.</p>
+        </div>
+
+        <!-- Umschalter: Berichte und Bezugsquellen sind zwei Haelften eines
+             Themas. Als Navigationspunkt haette Bezugsquellen die Kopfzeile
+             gesprengt (elf Punkte), hier steht die Beziehung sogar klarer. -->
+        <div class="erf-switch" role="tablist" aria-label="Bereich wählen">
+          <a href="#erfahrungen" data-nav="erfahrungen" class="erf-switch-btn" role="tab" aria-selected="false">Erfahrungsberichte</a>
+          <a href="#bezugsquellen" data-nav="bezugsquellen" class="erf-switch-btn is-active" role="tab" aria-selected="true">Bezugsquellen</a>
+        </div>
+
+        <div class="erf-disclaimer card">
+          <strong>Wie diese Liste zu lesen ist.</strong>
+          <p>Die Einträge geben wieder, was uns berichtet wurde – überwiegend Erfahrungen Dritter, teils eigene. Sie sind <em>keine</em> Empfehlung und keine Garantie für Zuverlässigkeit, Qualität oder Rechtmäßigkeit. Anbieter wechseln in diesem Umfeld schnell; Stand ist August 2026.</p>
+          <p>Wo eine Partnerschaft besteht, steht „Anzeige" an der Karte und der Link ist ein Affiliate-Link. Warnungen bekommen bewusst keinen Link.</p>
+        </div>
+
+        <div class="erf-shops-head">
+          <div>
+            <span class="eyebrow">Übersicht</span>
+            <h3>Shops &amp; Anbieter</h3>
+          </div>
+          <span id="erf-shops-warncount"></span>
+        </div>
+        <div id="erf-shops-list" class="erf-list"></div>
+      </div>
+    </section>
+
     <section class="view hidden" id="view-mydata" data-view="mydata">
       <div class="container">
         <div class="view-head">
@@ -669,23 +702,23 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=127"></script>
-  <script src="js/data/tips.js?v=127"></script>
-  <script src="js/data/goals.js?v=127"></script>
-  <script src="js/data/products.js?v=127"></script>
-  <script src="js/data/experimental.js?v=127"></script>
-  <script src="js/data/khavinson.js?v=127"></script>
-  <script src="js/data/therapies.js?v=127"></script>
-  <script src="js/data/signalwege.js?v=127"></script>
-  <script src="js/data/blutwerte.js?v=127"></script>
-  <script src="js/data/erfahrungen.js?v=127"></script>
-  <script src="js/vitals.js?v=127"></script>
+  <script src="js/data/supplements.js?v=128"></script>
+  <script src="js/data/tips.js?v=128"></script>
+  <script src="js/data/goals.js?v=128"></script>
+  <script src="js/data/products.js?v=128"></script>
+  <script src="js/data/experimental.js?v=128"></script>
+  <script src="js/data/khavinson.js?v=128"></script>
+  <script src="js/data/therapies.js?v=128"></script>
+  <script src="js/data/signalwege.js?v=128"></script>
+  <script src="js/data/blutwerte.js?v=128"></script>
+  <script src="js/data/erfahrungen.js?v=128"></script>
+  <script src="js/vitals.js?v=128"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=127"></script>
-  <script src="js/app.js?v=127"></script>
+  <script src="js/mydata.js?v=128"></script>
+  <script src="js/app.js?v=128"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe
