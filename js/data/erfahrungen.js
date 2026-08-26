@@ -25,6 +25,12 @@
  * demo: true  → Beispieleintrag, wird in der App als solcher markiert.
  */
 
+// affiliate-Objekt je Shop:
+//   aktiv   – schaltet die Kennzeichnung und die Rabatt-Anzeige scharf
+//   url     – Affiliate-Link (leer = nur Code kommunizieren)
+//   code    – Rabattcode zum Eintippen (leer = Rabatt laeuft ueber den Link)
+//   prozent – Rabatthoehe, z.B. '10 %'  → wird gross und zuerst angezeigt
+//   rabatt  – Bedingung dazu, z.B. 'auf die gesamte Bestellung'
 const ERFAHRUNGEN = [
   {
     id: 'naturtreu-paul-2026-08',
@@ -414,7 +420,7 @@ const SHOPS = [
     // Der Eigenbedarfs-Code des Anbieters ist NICHT oeffentlich – der gehoert
     // Paul persoenlich und darf hier nirgends auftauchen.
     // Standardprovision laut Dashboard: 10 % netto pro Bestellung.
-    affiliate: { aktiv: true, url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU', code: 'biohackingkompakt10', rabatt: '10 % auf die gesamte Bestellung' }
+    affiliate: { aktiv: true, url: 'https://moleqlar.com/?sca_ref=12147369.HTahZdm566HChkU', code: 'biohackingkompakt10', prozent: '10 %', rabatt: 'auf die gesamte Bestellung, keine Mindestbestellung' }
   },
   {
     id: 'naturtreu',
@@ -432,7 +438,7 @@ const SHOPS = [
     // Affiliate-Partnerschaft besteht seit August 2026 (Direktprogramm, nicht Awin).
     // url und code werden eingetragen, sobald beides vom Anbieter bestaetigt ist.
     // Sobald aktiv: true, kennzeichnet die App automatisch als Anzeige.
-    affiliate: { aktiv: true, url: 'https://naturtreu.de/?sca_ref=12145206.MbLQiZOVbP', code: '', rabatt: '15 % Rabatt fuer Neukunden ueber den Link' }
+    affiliate: { aktiv: true, url: 'https://naturtreu.de/?sca_ref=12145206.MbLQiZOVbP', code: '', prozent: '15 %', rabatt: 'fuer Neukunden, automatisch ueber den Link' }
   },
   {
     id: 'shop-apotheke',
