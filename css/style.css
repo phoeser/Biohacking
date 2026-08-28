@@ -3495,3 +3495,41 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 520px) {
   .erf-rabatt-codewrap { margin-left: 0; width: 100%; }
 }
+
+/* ============ HEUTE BEI PAUL & PAULA (Startseite) ============ */
+.pod-heute {
+  margin: 18px 0 22px;
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(47,139,106,0.10), rgba(74,122,138,0.10));
+  border: 1px solid var(--surface-border);
+}
+.pod-heute-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.pod-heute-eyebrow { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em; color: var(--text-muted); }
+.pod-heute-alle { font-size: 0.78rem; font-weight: 600; color: var(--accent); text-decoration: none; white-space: nowrap; }
+.pod-heute-main { display: block; margin: 10px 0 4px; text-decoration: none; color: inherit; }
+.pod-heute-nr {
+  display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 3px;
+}
+.pod-heute-titel { display: block; font-size: 1.02rem; font-weight: 700; line-height: 1.3; color: var(--text); }
+.pod-heute-main:hover .pod-heute-titel { text-decoration: underline; }
+.pod-heute-meta { display: block; font-size: 0.76rem; color: var(--text-muted); margin-top: 4px; }
+.pod-heute-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.pod-heute-links a {
+  font-size: 0.82rem; font-weight: 600; text-decoration: none;
+  padding: 8px 13px; border-radius: 10px;
+}
+#pod-heute-spotify { background: #1db954; color: #fff; }
+#pod-heute-thema { background: var(--surface); color: var(--accent); border: 1px solid var(--surface-border); }
+.pod-heute-liste { list-style: none; margin: 14px 0 0; padding: 12px 0 0; border-top: 1px solid var(--surface-border); }
+.pod-heute-liste li + li { margin-top: 6px; }
+.pod-heute-liste a {
+  display: flex; gap: 9px; align-items: baseline;
+  font-size: 0.82rem; color: var(--text-muted); text-decoration: none; line-height: 1.35;
+}
+.pod-heute-liste a:hover { color: var(--text); }
+.pod-liste-nr {
+  flex: 0 0 auto; font-size: 0.7rem; font-weight: 700; color: var(--accent);
+  min-width: 22px;
+}
