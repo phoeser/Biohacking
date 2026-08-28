@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=134" />
+  <link rel="stylesheet" href="css/style.css?v=135" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -75,6 +75,7 @@
         <a href="#erfahrungen" data-nav="erfahrungen">Erfahrungen</a>
         <a href="#bezugsquellen" data-nav="bezugsquellen">Bezugsquellen</a>
         <a href="#mydata" data-nav="mydata">MyData</a>
+        <a href="#aenderungen" data-nav="aenderungen">Änderungen</a>
         <a href="#about" data-nav="about">Über</a>
       </nav>
     </div>
@@ -238,6 +239,22 @@
 
           <div id="symptom-results" class="recommendation-results" aria-live="polite"></div>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ ÄNDERUNGEN ============ -->
+    <section class="view hidden" id="view-aenderungen" data-view="aenderungen">
+      <div class="container">
+        <div class="view-head">
+          <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
+          <span class="eyebrow">Was hat sich geändert?</span>
+          <h2>🔄 Änderungsprotokoll</h2>
+          <p>Wissen altert. Studien werden zurückgezogen, Zulassungswege scheitern, Gerichte entscheiden neu – und manchmal haben wir uns schlicht vertan. Hier steht datiert, wo sich die Grundlage eines Themas verschoben hat und was das für die Einordnung bedeutet.</p>
+        </div>
+
+        <div class="chg-liste" id="chg-liste"></div>
+
+        <p class="chg-fuss">Das Protokoll beginnt im März 2026 und wächst mit. Es dokumentiert nur inhaltliche Verschiebungen – nicht jede Textänderung auf der Website.</p>
       </div>
     </section>
 
@@ -728,24 +745,25 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=134"></script>
-  <script src="js/data/tips.js?v=134"></script>
-  <script src="js/data/goals.js?v=134"></script>
-  <script src="js/data/products.js?v=134"></script>
-  <script src="js/data/experimental.js?v=134"></script>
-  <script src="js/data/khavinson.js?v=134"></script>
-  <script src="js/data/therapies.js?v=134"></script>
-  <script src="js/data/signalwege.js?v=134"></script>
-  <script src="js/data/blutwerte.js?v=134"></script>
-    <script src="js/data/podcast.js?v=134"></script>
-  <script src="js/data/erfahrungen.js?v=134"></script>
-  <script src="js/vitals.js?v=134"></script>
+  <script src="js/data/supplements.js?v=135"></script>
+  <script src="js/data/tips.js?v=135"></script>
+  <script src="js/data/goals.js?v=135"></script>
+  <script src="js/data/products.js?v=135"></script>
+  <script src="js/data/experimental.js?v=135"></script>
+  <script src="js/data/khavinson.js?v=135"></script>
+  <script src="js/data/therapies.js?v=135"></script>
+  <script src="js/data/signalwege.js?v=135"></script>
+  <script src="js/data/blutwerte.js?v=135"></script>
+    <script src="js/data/podcast.js?v=135"></script>
+    <script src="js/data/aenderungen.js?v=135"></script>
+  <script src="js/data/erfahrungen.js?v=135"></script>
+  <script src="js/vitals.js?v=135"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=134"></script>
-  <script src="js/app.js?v=134"></script>
+  <script src="js/mydata.js?v=135"></script>
+  <script src="js/app.js?v=135"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe
