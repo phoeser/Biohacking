@@ -595,12 +595,13 @@ const SHOPS = [
     url: '',
     land: 'DE',
     kategorien: ['Peptide'],
-    bewertung: 4,
-    versand: 'Lieferung wurde als seriös und zuverlässig beschrieben.',
+    bewertung: 5,
+    versand: 'Lieferung wurde durchgehend als zuverlässig beschrieben.',
     zahlung: null,
-    qualitaet: 'Qualität wurde als gut beschrieben.',
+    qualitaet: 'Qualität wurde wiederholt als gut beschrieben.',
+    preis: 'Preislich attraktiv, mit regelmäßigen Aktionen.',
     zoll: null,
-    erfahrung: 'Ebenfalls mehrfach als seriös berichtet, ebenfalls nicht ganz billig. Wichtig: Auf die genaue Schreibweise achten – es existiert eine fast identische Domain ohne das End-e, siehe Warnung weiter unten. Stand August 2026.',
+    erfahrung: 'Inzwischen mehrfach und durchgehend positiv berichtet – zuverlässige Lieferung, gute Qualität. Preislich attraktiv, es gibt regelmäßig Aktionen. Wichtig: Auf die genaue Schreibweise achten – es existiert eine fast identische Domain ohne das End-e, siehe Warnung weiter unten. Stand August 2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
@@ -661,12 +662,10 @@ const SHOPS = [
     versand: null,
     zahlung: null,
     qualitaet: null,
-    // Basis dieser Einordnung ist ausdruecklich KEIN Fremdbericht, sondern eine
-    // eigene Pruefung der oeffentlich abrufbaren Seiten am 26.08.2026. Alles,
-    // was hier steht, stammt von der Seite selbst und ist nachpruefbar. Es wird
-    // bewusst kein Betrug behauptet – nur beschrieben, was dort zu lesen ist.
-    erfahrung: 'Hier haben wir selbst nachgesehen, statt Berichte weiterzugeben – und die Seite sagt genug ueber sich selbst. Was am 26.08.2026 nachpruefbar war: Es gibt keinen Firmensitz, keine Registernummer und kein Impressum, nur den Namen „Chinese Peptide Company Co., Ltd." und die Ortsangabe Hangzhou. Die Adressen /terms und /privacy liefern den Inhalt der Ueber-uns-Seite aus – es existieren also weder Geschaeftsbedingungen noch eine Datenschutzerklaerung. Der Kontakt laeuft ueber eine E-Mail-Adresse und Telegram; WhatsApp ist als „temporarily unavailable" ausgewiesen. Am wichtigsten ist der Zahlungsweg: Die Seite erklaert selbst, dass Kartenzahlungen im Hintergrund in Krypto umgewandelt werden – man zahle „in USD as normal", ohne selbst mit Krypto zu tun zu haben. Wer so zahlt, hat keinen Kartenzahlungs-Schutz und damit keine Rueckbuchungsmoeglichkeit, auch wenn es sich wie eine normale Kartenzahlung anfuehlt. Direkte Kryptozahlung wird mit 15 % Rabatt beworben. Dazu kommt eine „100% Delivery Guarantee", die ausdruecklich den Fall einer Beschlagnahme durch den Zoll einschliesst, und ein Versand, der laut eigener Angabe unbeschriftet und ohne Branding erfolgt. Uns liegen keine Berichte ueber nicht gelieferte Ware vor. Das hier ist deshalb keine Betrugsbehauptung, sondern eine Risikoeinordnung: Ohne Firmensitz, ohne Geschaeftsbedingungen und ohne Rueckbuchungsmoeglichkeit gibt es im Streitfall niemanden, an den man sich wenden koennte.',
-    zoll: 'Der Anbieter wirbt selbst damit, bei Beschlagnahme durch den Zoll kostenlos nachzuliefern – die Einfuhr ist also einkalkuliert und nicht die Ausnahme.',
+    // Eigene Pruefung der oeffentlich abrufbaren Seiten am 26.08.2026.
+    // Bewusst keine Betrugsbehauptung – nur, was dort nachpruefbar zu lesen ist.
+    erfahrung: 'Wir haben selbst nachgesehen, statt Berichte weiterzugeben. Stand 26.08.2026: kein Firmensitz, keine Registernummer, kein Impressum – und die Seiten /terms und /privacy zeigen bloß den Über-uns-Text, es gibt also weder AGB noch Datenschutzerklärung. Entscheidend ist der Zahlungsweg: Der Anbieter erklärt selbst, dass Kartenzahlungen im Hintergrund in Krypto umgewandelt werden. Damit entfällt der Käuferschutz der Karte, obwohl sich der Kauf normal anfühlt. Keine Betrugsbehauptung – uns liegen keine Berichte über nicht gelieferte Ware vor. Aber ohne Firmensitz, ohne AGB und ohne Rückbuchung gibt es im Streitfall niemanden, an den man sich wenden kann.',
+    zoll: 'Der Anbieter wirbt selbst damit, bei Zollbeschlagnahme kostenlos nachzuliefern – die Einfuhr ist einkalkuliert.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {

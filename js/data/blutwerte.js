@@ -794,6 +794,146 @@ const BLUTWERT_BAUSTELLEN = [
 ];
 
 /* Die praktischen Regeln aus Folge 58 */
+/* ============================================================
+ * PANELS – welche Werte lässt man wofür bestimmen
+ * ============================================================
+ * Praktische Bündel, wie man sie bei Arzt oder Labor anfragt.
+ * `werte` verweist auf die IDs oben, wo ein Marker hier detailliert ist.
+ * `zusatz` listet Werte, die zum Panel gehören, hier aber (noch) keine
+ * eigene Karte haben – damit die Liste vollständig bleibt.
+ *
+ * WICHTIG: Reine Orientierung. Was im Einzelfall sinnvoll ist, entscheidet
+ * die Ärztin oder der Arzt – nicht diese Seite.
+ */
+const BLUTWERT_PANELS = [
+  {
+    id: 'kleines-blutbild',
+    label: 'Kleines Blutbild',
+    emoji: '🩸',
+    wofuer: 'Der Standard-Basischeck. Zeigt Blutarmut, Infektzeichen und Auffälligkeiten bei der Blutgerinnung.',
+    werte: ['blutbild'],
+    zusatz: ['Erythrozyten', 'Leukozyten', 'Hämoglobin', 'Hämatokrit', 'Thrombozyten', 'MCV, MCH, MCHC'],
+    wann: 'Bei Beschwerden, vor Operationen, als Teil fast jeder Routineuntersuchung.',
+    kasse: 'Kassenleistung bei ärztlichem Anlass. Als reine Vorsorge ohne Beschwerden meist Selbstzahler.',
+    kosten: 'Selbstzahler etwa 5 bis 15 Euro.'
+  },
+  {
+    id: 'grosses-blutbild',
+    label: 'Großes Blutbild',
+    emoji: '🔬',
+    wofuer: 'Kleines Blutbild plus Aufschlüsselung der weißen Blutkörperchen. Erlaubt eine genauere Einordnung von Infekten, Allergien und Entzündungen.',
+    werte: ['blutbild'],
+    zusatz: ['Alles aus dem kleinen Blutbild', 'Differentialblutbild: Neutrophile, Lymphozyten, Monozyten, Eosinophile, Basophile'],
+    wann: 'Wenn das kleine Blutbild auffällig war oder eine Ursache eingegrenzt werden soll.',
+    kasse: 'Kassenleistung bei ärztlichem Anlass.',
+    kosten: 'Selbstzahler etwa 10 bis 25 Euro.'
+  },
+  {
+    id: 'longevity-einstieg',
+    label: 'Longevity-Einstieg',
+    emoji: '🎯',
+    wofuer: 'Das kleinste sinnvolle Paket für eine erste Standortbestimmung. Deckt die vier Baustellen ab, die laut Folge 58 am meisten erklären.',
+    werte: ['nuechternglukose', 'hba1c', 'insulin-nuechtern', 'apob', 'hscrp', 'vitamin-d', 'ferritin', 'tsh', 'leberwerte', 'kreatinin', 'blutbild'],
+    zusatz: [],
+    wann: 'Einmal als Ausgangswert, danach ein- bis zweimal im Jahr.',
+    kasse: 'Nur teilweise Kassenleistung. Nüchtern-Insulin und ApoB werden ohne Anlass in der Regel nicht übernommen.',
+    kosten: 'Selbstzahler etwa 80 bis 150 Euro, je nach Labor und Umfang.'
+  },
+  {
+    id: 'stoffwechsel',
+    label: 'Zucker und Insulinresistenz',
+    emoji: '🍬',
+    wofuer: 'Die früheste messbare Baustelle. Das Nüchtern-Insulin steigt oft jahrelang, bevor der Blutzucker überhaupt reagiert.',
+    werte: ['nuechternglukose', 'hba1c', 'insulin-nuechtern', 'homa-index', 'trig-hdl-ratio'],
+    zusatz: [],
+    wann: 'Bei Bauchumfang, Müdigkeit nach dem Essen, familiärer Vorbelastung – oder einfach als Basiswert.',
+    kasse: 'Glukose und HbA1c bei Anlass Kassenleistung. Nüchtern-Insulin fast immer Selbstzahler.',
+    kosten: 'Selbstzahler etwa 30 bis 60 Euro.'
+  },
+  {
+    id: 'herz-gefaesse',
+    label: 'Herz und Gefäße',
+    emoji: '❤️',
+    wofuer: 'Das moderne Lipidbild. ApoB zählt die Transportpartikel statt der Cholesterinladung, Lp(a) ist der genetische Wert, den man einmal im Leben kennt.',
+    werte: ['apob', 'ldl', 'lpa', 'trig-hdl-ratio', 'homocystein'],
+    zusatz: ['Gesamtcholesterin', 'HDL', 'Triglyceride'],
+    wann: 'Ab etwa vierzig, früher bei familiärer Vorbelastung. Lp(a) genügt einmalig.',
+    kasse: 'Das klassische Lipidprofil ist Kassenleistung im Check-up. ApoB und Lp(a) meist Selbstzahler.',
+    kosten: 'Selbstzahler etwa 40 bis 80 Euro.'
+  },
+  {
+    id: 'trt-vorher',
+    label: 'Testosteron – vor einer Therapie',
+    emoji: '🧪',
+    wofuer: 'Die Abklärung, bevor überhaupt über eine Behandlung gesprochen wird. Sie klärt zwei Fragen: Liegt wirklich ein Mangel vor, und wo liegt die Ursache?',
+    werte: ['testosteron-gesamt', 'testosteron-frei', 'tsh', 'blutbild'],
+    zusatz: ['SHBG', 'LH und FSH', 'Östradiol', 'Prolaktin', 'PSA (ab etwa 40)', 'Hämatokrit'],
+    wann: 'Zwei Messungen an verschiedenen Tagen, jeweils morgens zwischen sieben und zehn Uhr und nüchtern – Testosteron schwankt im Tagesverlauf erheblich.',
+    kasse: 'Bei entsprechenden Beschwerden Kassenleistung. Ohne Anlass Selbstzahler.',
+    kosten: 'Selbstzahler etwa 60 bis 120 Euro.',
+    hinweis: 'LH und FSH sind der entscheidende Teil: Sie unterscheiden, ob die Ursache im Hoden liegt oder in der Steuerung durch das Gehirn. Diese Unterscheidung ändert die Behandlung grundlegend und gehört in ärztliche Hand.'
+  },
+  {
+    id: 'trt-laufend',
+    label: 'Testosteron – unter laufender Therapie',
+    emoji: '📉',
+    wofuer: 'Die Verlaufskontrolle. Es geht dabei weniger um den Testosteronwert selbst als um die Werte, die sich als Nebenwirkung verändern können.',
+    werte: ['testosteron-gesamt', 'testosteron-frei', 'blutbild', 'leberwerte', 'apob'],
+    zusatz: ['Hämatokrit', 'Östradiol', 'PSA', 'SHBG'],
+    wann: 'Üblicherweise nach sechs bis zwölf Wochen, dann in ärztlich festgelegten Abständen.',
+    kasse: 'Unter ärztlich verordneter Therapie Kassenleistung.',
+    kosten: 'Unter Verordnung in der Regel keine Zusatzkosten.',
+    hinweis: 'Der Hämatokrit ist hier der wichtigste Sicherheitswert – er kann unter Testosteron ansteigen und das Blut verdicken. Deshalb steht er in jeder Verlaufskontrolle, unabhängig davon, wie gut man sich fühlt.'
+  },
+  {
+    id: 'schilddruese',
+    label: 'Schilddrüse',
+    emoji: '🦋',
+    wofuer: 'Die Steuerzentrale des Grundumsatzes. TSH allein reicht oft nicht – es sagt, wie stark das Gehirn drängt, nicht, wie viel Hormon ankommt.',
+    werte: ['tsh', 'ft3', 'ft4'],
+    zusatz: ['TPO-Antikörper und TG-Antikörper bei Verdacht auf eine Autoimmunerkrankung'],
+    wann: 'Bei Müdigkeit, Gewichtsveränderung, Kälteempfindlichkeit, Haarausfall – oder wenn Jod ergänzt werden soll.',
+    kasse: 'TSH ist bei Anlass Kassenleistung, die freien Hormone häufig erst bei auffälligem TSH.',
+    kosten: 'Selbstzahler etwa 30 bis 60 Euro.'
+  },
+  {
+    id: 'naehrstoffe',
+    label: 'Nährstoff-Tanks',
+    emoji: '🔋',
+    wofuer: 'Die Werte, bei denen ein Mangel in Deutschland tatsächlich häufig ist – und bei denen Auffüllen etwas bringt.',
+    werte: ['vitamin-d', 'ferritin', 'b12', 'magnesium-vollblut', 'omega3-index'],
+    zusatz: ['Folsäure', 'Zink', 'Transferrinsättigung bei auffälligem Ferritin'],
+    wann: 'Einmal als Ausgangswert, dann nach acht bis zwölf Wochen Supplementierung zur Kontrolle.',
+    kasse: 'Meist Selbstzahler. Vitamin D und Ferritin werden bei entsprechenden Beschwerden übernommen.',
+    kosten: 'Selbstzahler etwa 60 bis 120 Euro. Der Omega-3-Index kostet separat etwa 40 bis 50 Euro.',
+    hinweis: 'Magnesium bitte im Vollblut messen lassen, nicht im Serum – der Serumwert bleibt lange normal, während die Speicher schon leer sind.'
+  },
+  {
+    id: 'organe',
+    label: 'Organ-Basics',
+    emoji: '🫀',
+    wofuer: 'Leber, Niere und Harnsäure. Unspektakulär, aber die Grundlage dafür, überhaupt zu beurteilen, ob der Körper Substanzen verträgt.',
+    werte: ['leberwerte', 'kreatinin', 'cystatin-c', 'egfr', 'harnsaeure'],
+    zusatz: ['Albumin', 'Elektrolyte'],
+    wann: 'Vor dem Start jeder längeren Supplementierung oder Therapie und dann im Verlauf.',
+    kasse: 'Bei Anlass Kassenleistung, im Check-up ab 35 teilweise enthalten.',
+    kosten: 'Selbstzahler etwa 25 bis 50 Euro.',
+    hinweis: 'Cystatin C ist bei sehr muskulösen Menschen die zuverlässigere Nierenmessung – Kreatinin steigt allein durch Muskelmasse und täuscht dann eine schlechtere Nierenfunktion vor.'
+  },
+  {
+    id: 'entzuendung',
+    label: 'Entzündung',
+    emoji: '🔥',
+    wofuer: 'Stille Dauerentzündung sichtbar machen. Wichtig: das hochsensitive CRP anfordern, nicht das normale.',
+    werte: ['hscrp', 'homocystein', 'ferritin'],
+    zusatz: [],
+    wann: 'Als Teil der Standortbestimmung. Nicht messen während oder kurz nach einem Infekt – der Wert ist dann wertlos.',
+    kasse: 'Normales CRP bei Anlass Kassenleistung, hsCRP meist Selbstzahler.',
+    kosten: 'Selbstzahler etwa 20 bis 40 Euro.',
+    hinweis: 'Ferritin steht hier doppelt: Es ist ein Eisenspeicher-Wert und gleichzeitig ein Entzündungsmarker. Ein hoher Wert bedeutet deshalb nicht automatisch volle Eisenspeicher.'
+  }
+];
+
 const BLUTWERT_REGELN = {
   messrhythmus: [
     'Ein großes Panel ein- bis zweimal im Jahr als Standortbestimmung.',
