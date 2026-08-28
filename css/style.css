@@ -3533,3 +3533,42 @@ button { font-family: inherit; cursor: pointer; }
   flex: 0 0 auto; font-size: 0.7rem; font-weight: 700; color: var(--accent);
   min-width: 22px;
 }
+
+/* ============ ÄNDERUNGSPROTOKOLL ============ */
+.chg-liste { display: grid; gap: 12px; }
+.chg-card {
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-left: 3px solid var(--text-muted);
+}
+.chg-card--evidenz   { border-left-color: #c2410c; }
+.chg-card--recht     { border-left-color: #4a7a8a; }
+.chg-card--korrektur { border-left-color: #2f8b6a; }
+.chg-kopf { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+.chg-datum { font-size: 0.74rem; font-weight: 700; color: var(--text-muted); letter-spacing: 0.02em; }
+.chg-typ {
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 2px 7px; border-radius: 999px; background: rgba(127,127,127,0.13); color: var(--text-muted);
+}
+.chg-card h3 { font-size: 0.98rem; line-height: 1.3; margin: 0 0 6px; }
+.chg-card p { font-size: 0.86rem; line-height: 1.55; color: var(--text-muted); margin: 0; }
+.chg-fuesse { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
+.chg-ziel, .chg-quelle { font-size: 0.79rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+.chg-ziel:hover, .chg-quelle:hover { text-decoration: underline; }
+.chg-fuss { font-size: 0.78rem; color: var(--text-muted); margin-top: 18px; line-height: 1.5; }
+
+/* Kurzfassung in der Substanz-Karte */
+.chg-inline {
+  margin: 12px 0 6px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: rgba(194,65,12,0.06);
+  border: 1px solid rgba(194,65,12,0.22);
+}
+.chg-inline-label { font-size: 0.8rem; font-weight: 700; color: var(--text); margin-bottom: 7px; }
+.chg-inline-item + .chg-inline-item { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--surface-border); }
+.chg-inline-item strong { display: block; font-size: 0.85rem; line-height: 1.3; margin: 2px 0 4px; }
+.chg-inline-item p { font-size: 0.8rem; line-height: 1.5; color: var(--text-muted); margin: 0; }
+.chg-inline-item .chg-quelle { display: inline-block; margin-top: 6px; }
