@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=133" />
+  <link rel="stylesheet" href="css/style.css?v=134" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -98,6 +98,23 @@
             Such dir einen Einstieg – konkretes Supplement nachschlagen oder Symptom beschreiben. Darunter: Erfahrungsberichte aus der Praxis.
           </p>
         </div>
+
+        <section class="pod-heute" id="pod-heute" hidden>
+          <div class="pod-heute-head">
+            <span class="pod-heute-eyebrow">🎙️ Heute bei Paul &amp; Paula</span>
+            <a class="pod-heute-alle" href="#" id="pod-heute-show" target="_blank" rel="noopener">Alle Folgen →</a>
+          </div>
+          <a class="pod-heute-main" href="#" id="pod-heute-link">
+            <span class="pod-heute-nr" id="pod-heute-nr"></span>
+            <span class="pod-heute-titel" id="pod-heute-titel"></span>
+            <span class="pod-heute-meta" id="pod-heute-meta"></span>
+          </a>
+          <div class="pod-heute-links">
+            <a id="pod-heute-spotify" href="#" target="_blank" rel="noopener">▶ Auf Spotify anhören</a>
+            <a id="pod-heute-thema" href="#">Zum Thema in der Datenbank →</a>
+          </div>
+          <ul class="pod-heute-liste" id="pod-heute-liste"></ul>
+        </section>
 
         <div class="main-actions">
           <a href="#supplement" class="action-btn" data-nav="supplement">
@@ -711,23 +728,24 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=133"></script>
-  <script src="js/data/tips.js?v=133"></script>
-  <script src="js/data/goals.js?v=133"></script>
-  <script src="js/data/products.js?v=133"></script>
-  <script src="js/data/experimental.js?v=133"></script>
-  <script src="js/data/khavinson.js?v=133"></script>
-  <script src="js/data/therapies.js?v=133"></script>
-  <script src="js/data/signalwege.js?v=133"></script>
-  <script src="js/data/blutwerte.js?v=133"></script>
-  <script src="js/data/erfahrungen.js?v=133"></script>
-  <script src="js/vitals.js?v=133"></script>
+  <script src="js/data/supplements.js?v=134"></script>
+  <script src="js/data/tips.js?v=134"></script>
+  <script src="js/data/goals.js?v=134"></script>
+  <script src="js/data/products.js?v=134"></script>
+  <script src="js/data/experimental.js?v=134"></script>
+  <script src="js/data/khavinson.js?v=134"></script>
+  <script src="js/data/therapies.js?v=134"></script>
+  <script src="js/data/signalwege.js?v=134"></script>
+  <script src="js/data/blutwerte.js?v=134"></script>
+    <script src="js/data/podcast.js?v=134"></script>
+  <script src="js/data/erfahrungen.js?v=134"></script>
+  <script src="js/vitals.js?v=134"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=133"></script>
-  <script src="js/app.js?v=133"></script>
+  <script src="js/mydata.js?v=134"></script>
+  <script src="js/app.js?v=134"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe
