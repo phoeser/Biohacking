@@ -23,6 +23,18 @@
     wrap.appendChild(f);
   };
 
+  // Podcast-Block. Eine Quelle für alle Bereiche (Supplements, Peptide,
+  // Khavinson, Anwendungen, Blutwerte) – vorher lag der Code doppelt vor.
+  function podcastsHtml(list) {
+    if (!list || !list.length) return '';
+    return `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${list.length})</div>${list.map(p => `<div class="exp-podcast">
+            <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
+            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
+            ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
+            ${(p.sources && p.sources.length) ? `<details class="exp-podcast-src"><summary>Quellen der Folge (${p.sources.length})</summary><ul>${p.sources.map(q => `<li><a href="${escapeHtml(q.url)}" target="_blank" rel="noopener">${escapeHtml(q.title)}</a></li>`).join('')}</ul></details>` : ''}
+          </div>`).join('')}</div>`;
+  }
+
   // Peptide-Bezugsquellen (immer unter "Praxis & Community" gelistet).
   // ►►► HIER PFLEGEN: sobald Affiliate-/Partner-Zugang da ist, 'ref' (Ref-Link) und
   // 'code' (Rabattcode) eintragen. Solange 'ref' leer ist, wird die normale Shop-URL
@@ -422,11 +434,7 @@
           ${syn.length ? `<section><h3>🤝 Synergien</h3><p>${syn.map(n=>`<span class="tag">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
           ${avoid.length ? `<section><h3>🚫 Nicht kombinieren mit</h3><p>${avoid.map(n=>`<span class="tag tag--warn">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
           ${s.sources ? `<section><h3>🥗 Natürliche Quellen</h3><p>${escapeHtml(s.sources)}</p></section>` : ''}
-          ${(s.podcasts && s.podcasts.length) ? `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${s.podcasts.length})</div>${s.podcasts.map(p => `<div class="exp-podcast">
-            <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
-            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
-            ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
-          </div>`).join('')}</div>` : ''}
+          ${podcastsHtml(s.podcasts)}
         </article>
       `;
       detail.classList.remove('hidden');
@@ -1245,6 +1253,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Beworbene Effekte</strong><ul>${benefits}</ul></div>` : ''}
           ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Limitationen</strong><ul>${risks}</ul></div>` : ''}
           <div class="exp-status"><strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}</div>
+          ${podcastsHtml(e.podcasts)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
@@ -1299,12 +1308,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           <div class="exp-status">
             <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
           </div>
-          ${(e.podcasts && e.podcasts.length) ? `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${e.podcasts.length})</div>${e.podcasts.map(p => `<div class="exp-podcast">
-            <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
-            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
-            ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
-            ${(p.sources && p.sources.length) ? `<details class="exp-podcast-src"><summary>Quellen der Folge (${p.sources.length})</summary><ul>${p.sources.map(s => `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`).join('')}</ul></details>` : ''}
-          </div>`).join('')}</div>` : ''}
+          ${podcastsHtml(e.podcasts)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
@@ -1363,6 +1367,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Nutzen</strong><ul>${benefits}</ul></div>` : ''}
           ${indication ? `<div class="exp-section"><strong>Wofür</strong><p>${indication}</p></div>` : ''}
           ${t.note ? `<div class="exp-status"><strong>Hinweis:</strong> ${escapeHtml(t.note)}</div>` : ''}
+          ${podcastsHtml(t.podcasts)}
           ${t.link ? `<details class="exp-sources"><summary>Mehr Infos & Quelle</summary><ul><li><a href="${escapeHtml(t.link)}" target="_blank" rel="noopener">${escapeHtml(t.link.replace(/^https?:\/\//, '').split('/')[0])}</a></li></ul></details>` : ''}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information. Anwendung ärztlich abklären.</div>
         </article>
@@ -1403,6 +1408,13 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
 
     renderBlutwertRegeln();
     renderBlutwertPanels();
+    renderBlutwertPodcast();
+  }
+
+  function renderBlutwertPodcast() {
+    const box = $('#bw-podcast');
+    if (!box || typeof BLUTWERT_PODCAST === 'undefined') return;
+    box.innerHTML = podcastsHtml(BLUTWERT_PODCAST);
   }
 
   function renderBlutwertPanels() {
