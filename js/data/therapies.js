@@ -697,6 +697,150 @@ const THERAPIES = [
     indication: ['Schwermetallbelastung (medizinisch)', 'Umweltmedizin'],
     note: 'Als allgemeine „Entgiftung"/Anti-Aging umstritten und NICHT belegt; ernste Risiken (Nieren, Elektrolytentgleisung, in Einzelfällen tödlich). Nur bei klarer Indikation und streng ärztlich.',
     link: 'https://www.nccih.nih.gov/health/chelation-therapy'
+  },
+  {
+    id: 'fasten-autophagie',
+    name: 'Fasten & Autophagie',
+    category: 'Biohacking',
+    emoji: '⏳',
+    short: 'Geplante Essenspausen von 16:8 bis zum mehrtägigen Fasten: Der Körper schaltet von Wachstum (mTOR) auf Aufräumen um und startet das Zellrecycling.',
+    benefits: [
+      'Essenspausen senken Insulin und verbessern die Insulinsensitivität',
+      'NEJM-Übersicht 2019: bessere Stoffwechsel-Marker, weniger Entzündung, höhere Stressresistenz der Zellen',
+      'Deutliche Autophagie-Signale zeigen sich beim Menschen vor allem jenseits von etwa 24 Stunden Fasten',
+      'Frühes Essfenster (ca. 8–18 Uhr) schneidet bei Blutzucker, Blutdruck und Appetit-Hormonen besser ab'
+    ],
+    indication: ['Stoffwechsel', 'Insulinsensitivität', 'Gewicht', 'Zellreinigung', 'Longevity'],
+    note: 'Nicht geeignet für Schwangere, Stillende, Kinder, Untergewichtige und Menschen mit Essstörungs-Geschichte; mehrtägiges Fasten gehört in medizinische Begleitung.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31881139/',
+    podcasts: [
+      {
+        title: 'Fasten & Autophagie: Das Gratis-Upgrade im Faktencheck',
+        spotify: '1cXqiiDlbzaPmpnfpALk5Q',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 59) · mit Paul & Paula. Wie der Körper vom Wachstums- in den Aufräum-Modus schaltet, ab wann beim Menschen wirklich Autophagie-Signale messbar werden – und warum das frühe Essfenster in den Vergleichsstudien besser abschneidet. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 29.08.2026, 10:00)'
+      }
+    ]
+  },
+  {
+    id: 'schlaf',
+    name: 'Schlaf & Schlafhygiene',
+    category: 'Biohacking',
+    emoji: '🌙',
+    short: 'Der stärkste kostenlose Longevity-Hebel: Im Tiefschlaf laufen Zellreparatur, Hormonpuls und die glymphatische Hirnspülung – Regelmäßigkeit zählt mehr als Dauer.',
+    benefits: [
+      'Im Tiefschlaf laufen Gewebereparatur und der größte Wachstumshormon-Puls des Tages',
+      'Das glymphatische System spült nachts Stoffwechsel-Abfälle wie Beta-Amyloid aus dem Gehirn',
+      'Regelmäßige Schlafzeiten: in UK-Biobank-Daten deutlich niedrigeres Sterberisiko als bei unregelmäßigem Rhythmus',
+      'Ausreichend Schlaf stützt Immunabwehr, Insulinsensitivität und Testosteronspiegel'
+    ],
+    indication: ['Longevity', 'Regeneration', 'Immunsystem', 'Stoffwechsel', 'Kognition'],
+    note: 'Chronische Schlafstörungen, Schnarchen mit Atemaussetzern oder bleierne Tagesmüdigkeit gehören in ärztliche Abklärung – Stichwort Schlafapnoe.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26118561/',
+    podcasts: [
+      {
+        title: 'Schlaf: Der größte Longevity-Hebel im Faktencheck',
+        spotify: '2n0MijPHiFEfDV1u27KHux',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 62) · mit Paul & Paula. Was im Tiefschlaf tatsächlich passiert, warum Regelmäßigkeit in den Kohortendaten stärker wirkt als die reine Stundenzahl – und welche Beschwerden nicht in die Selbstoptimierung, sondern zur Schlafapnoe-Abklärung gehören. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 01.09.2026, 10:00)'
+      }
+    ]
+  },
+  {
+    id: 'hrv-messung',
+    name: 'Herzratenvariabilität (HRV)',
+    category: 'Biohacking',
+    emoji: '💓',
+    short: 'Die Abstände zwischen zwei Herzschlägen schwanken leicht – wie stark, zeigt das Zusammenspiel von Sympathikus und Vagus und damit Stress und Erholung.',
+    benefits: [
+      'RMSSD aus dem Nachtwert spiegelt fast rein die Vagus-Bremse und gilt als Erholungs-Marker',
+      'Niedrige HRV war schon in der Framingham-Herzstudie mit erhöhtem Sterblichkeitsrisiko verbunden',
+      'Ein Abfall über mehrere Tage zeigt Infekt, Übertraining oder Dauerstress vor den Symptomen an',
+      'Resonanz-Atmung mit sechs Atemzügen pro Minute hebt die HRV akut; HRV-Biofeedback ist anerkannt'
+    ],
+    indication: ['Stress & Erholung', 'Trainingssteuerung', 'Schlaf-Feedback', 'Infekt-Frühwarnung'],
+    note: 'Absolute Werte taugen nicht zum Vergleich zwischen Personen – es zählt die eigene Baseline über zwei bis vier Wochen und deren Trend; die HRV ersetzt kein EKG.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/8044959/',
+    podcasts: [
+      {
+        title: 'Herzratenvariabilität (HRV): Der Stress-Kompass im Faktencheck',
+        spotify: '2uotniOFOzK6uWFRmneWYF',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 72) · mit Paul & Paula. Was RMSSD wirklich misst, warum der Vergleich mit anderen nichts bringt und die eigene Baseline alles – und was Resonanz-Atmung mit sechs Atemzügen pro Minute akut bewirkt. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 10.09.2026, 10:00)'
+      }
+    ]
+  },
+  {
+    id: 'zyklus-biohacking',
+    name: 'Zyklus-Tracking & zyklusbasiertes Training',
+    category: 'Biohacking',
+    emoji: '🩸',
+    short: 'Zyklusphasen über Temperatur, Ruhepuls, HRV und Stimmung mitschreiben – und Training, Ernährung und Schlaf am eigenen Muster ausrichten statt an App-Schablonen.',
+    benefits: [
+      'Progesteron hebt die Kerntemperatur um 0,3–0,5 °C – die Lutealphase wird in Wearable-Daten sichtbar',
+      'Sinkende HRV und höherer Ruhepuls in der Lutealphase sind Physiologie, kein Stress-Einbruch',
+      'Grundumsatz und Appetit steigen luteal um etwa 100–300 kcal – Protein und Kohlenhydrate lassen sich planen',
+      'Wiederkehrende PMS-Tage werden vorhersehbar; regelmäßiger Sport ist dagegen gut belegt'
+    ],
+    indication: ['Zyklusverständnis', 'Trainingsplanung', 'Schlaf', 'PMS-Beschwerden', 'Eisen & Ferritin'],
+    note: 'Zyklusbasierte Trainingspläne nach App-Schablone sind nicht belegt: Die Meta-Analyse von McNulty (2020) fand nur triviale Phasenunterschiede bei niedriger Studienqualität, und unter hormoneller Verhütung fehlt der natürliche Zyklus ganz.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32661839/',
+    podcasts: [
+      {
+        title: 'Zyklus & Biohacking: Der weibliche Rhythmus im Faktencheck',
+        spotify: '1qB1UgMcCxMIEvyikU2zxO',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 74) · mit Paul & Paula. Was sich über den Zyklus physiologisch messbar verändert – Temperatur, Ruhepuls, HRV, Grundumsatz – und warum die verbreiteten zyklusbasierten Trainingspläne trotzdem auf dünner Datenlage stehen. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 12.09.2026, 10:00)'
+      }
+    ]
+  },
+  {
+    id: 'alkohol-reduktion',
+    name: 'Alkohol reduzieren',
+    category: 'Biohacking',
+    emoji: '🍷',
+    short: 'Kein Wirkstoff, sondern ein Weglass-Hebel: Weniger Alkohol verbessert messbar Schlaf, HRV und Regeneration – und senkt das Krebsrisiko.',
+    benefits: [
+      'Schlaf: schon ein bis zwei Gläser senken die nächtliche HRV, heben den Ruhepuls und kürzen den REM-Schlaf',
+      'Training: Alkohol nach dem Sport hemmt die Muskelproteinsynthese deutlich, auch mit Protein',
+      'Zwei bis vier Wochen ohne: Blutdruck, Schlafarchitektur und HRV bessern sich, eine beginnende Fettleber bildet sich zurück',
+      'Weniger Acetaldehyd – Alkohol ist von der IARC als Karzinogen der Gruppe 1 eingestuft'
+    ],
+    indication: ['Schlafqualität', 'HRV & Ruhepuls', 'Regeneration', 'Krebsrisiko', 'Leber & Blutdruck'],
+    note: 'Es gibt keine gesundheitlich unbedenkliche Menge, aber die Risikokurve beginnt flach – jede Reduktion zählt, und wer beim Aufhören Schwierigkeiten merkt, gehört zu Hausarzt oder Suchtberatung statt zur Selbstoptimierung.',
+    link: 'https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health',
+    podcasts: [
+      {
+        title: 'Alkohol: Das Genussgift im Faktencheck',
+        spotify: '3pvys3Kan18GwfiT7ArIok',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 77) · mit Paul & Paula. Was ein bis zwei Gläser messbar mit Schlaf, HRV und Ruhepuls machen, was nach zwei bis vier Wochen ohne zurückkommt – und warum die WHO sagt, dass es keine unbedenkliche Menge gibt. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 15.09.2026, 10:00)'
+      }
+    ]
+  },
+  {
+    id: 'zone2-vo2max',
+    name: 'Zone 2 & VO2max-Training',
+    category: 'Biohacking',
+    emoji: '🏃',
+    short: 'Ausdauertraining in zwei Intensitäten: lockere Zone 2 als Fundament plus ein harter VO2max-Reiz pro Woche – die Ausdauer-Währung der Langlebigkeit.',
+    benefits: [
+      'VO2max ist ein starker Sterblichkeits-Marker: Unfiteste hatten rund fünffach höheres Risiko als die Fittesten',
+      'Zone 2 baut Mitochondrien und Kapillaren auf, senkt Laktat und verbessert die Insulinsensitivität',
+      'Das norwegische 4x4-Intervall hebt die VO2max auch bei Älteren und Herzpatienten zuverlässig an',
+      'Schon ein bis zwei Stunden zügige Bewegung pro Woche senken das Sterberisiko am deutlichsten'
+    ],
+    indication: ['Longevity', 'Herz-Kreislauf', 'Insulinsensitivität', 'Ausdauer', 'Regeneration'],
+    note: 'Der Nutzen entsteht über Jahre, nicht Wochen – und wer über vierzig ist, Vorerkrankungen hat oder lange pausiert hat, gehört vor dem harten Vier-mal-vier sportmedizinisch durchgecheckt.',
+    link: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2707428',
+    podcasts: [
+      {
+        title: 'Zone 2 & VO2max: Die Ausdauer-Währung im Faktencheck',
+        spotify: '6uhJDJJ8D3EqhBqh8muvld',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 80) · mit Paul & Paula. Warum die VO2max einer der stärksten Sterblichkeits-Marker überhaupt ist, was Zone 2 im Muskel aufbaut und wie das norwegische Vier-mal-vier-Intervall funktioniert – inklusive der ehrlichen Zeitachse. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 18.09.2026, 10:00)'
+      }
+    ]
   }
 ];
 

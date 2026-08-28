@@ -519,6 +519,41 @@ const SUPPLEMENTS = [
     sources: 'Käse, Mandeln, Avocado, Hülsenfrüchte'
   },
   {
+    id: 'aminosaeuren',
+    name: 'Aminosäuren (EAA & BCAA)',
+    altNames: 'Essenzielle Aminosäuren · EAA · BCAA',
+    category: 'Aminosäure',
+    tags: ['muskeln', 'protein', 'anti-aging', 'sport', 'alter'],
+    short: 'Neun der zwanzig Aminosäuren sind essenziell – Baumaterial für Muskeln, Enzyme und Hormone, mit steigendem Bedarf im Alter.',
+    description: 'Von zwanzig Aminosäuren sind neun essenziell und müssen über die Nahrung kommen. Ab der Lebensmitte kommt zum Muskelverlust die anabole Resistenz: Derselbe Teller Protein löst im älteren Muskel eine schwächere Aufbau-Antwort aus. Isolierte BCAAs sind von der Forschung entzaubert – sie liefern nur drei der neun Bausteine; komplette EAA oder ganzes Protein sind überlegen.',
+    benefits: [
+      'Baumaterial für Muskeln, Knochenmatrix, Enzyme, Hormone und Antikörper',
+      'Leucin aktiviert mTOR und zündet die Muskelproteinsynthese',
+      'Erhält Muskelmasse und Griffkraft – starke Marker für Selbstständigkeit im Alter',
+      'EAA-Pulver als Speziallösung bei wenig Appetit, im Alter oder bei pflanzlicher Kost',
+      'Gleicht die geringere Leucin- und Lysin-Dichte pflanzlicher Ernährung aus'
+    ],
+    risks: [
+      'Isolierte BCAAs sind ein Zündschlüssel ohne Baumaterial – wer genug Protein isst, braucht sie nicht',
+      'Bei Nierenerkrankungen gehört die Proteinmenge in ärztliche Abstimmung',
+      'Dauerhaft hochgefahrenes mTOR ist kein Ziel – Protein-Mahlzeiten und echte Essenspausen im Wechsel'
+    ],
+    dosage: '1,0–1,5 g Protein pro kg Körpergewicht täglich (mit Krafttraining 1,6–2,0), je Mahlzeit rund 30 g mit etwa 3 g Leucin.',
+    intake: 'Auf drei bis vier Mahlzeiten verteilt. Die wichtigste Korrektur ist meist das Frühstück – Eier, Quark, Skyr oder Shake statt Marmeladenbrot.',
+    synergies: ['whey', 'kreatin', 'glycin', 'taurin'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Eier, Fisch, Fleisch, Milchprodukte, Hülsenfrüchte; Whey als konzentrierte Form',
+    podcasts: [
+      {
+        title: 'Aminosäuren: Die Bausteine des Lebens im Faktencheck',
+        spotify: '38NyHB17pe2eBUcTPFg8qk',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 69) · mit Paul & Paula. Die Hierarchie echtes Essen vor Whey vor EAA vor BCAA, die anabole Resistenz ab der Lebensmitte – und warum die eigentliche Stellschraube nicht das Pulver ist, sondern die Verteilung der Proteinmenge über den Tag. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 07.09.2026, 10:00)'
+      }
+    ]
+  },
+  {
     id: 'taurin',
     name: 'Taurin',
     altNames: 'Aminosulfonsäure',
