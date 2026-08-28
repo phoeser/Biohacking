@@ -181,9 +181,61 @@
 
   const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'about'];
 
+  // Khavinson-Eintraege leben in der Experimentelles-Ansicht.
+  const VIEW_ALIAS = { khavinson: 'experimental' };
+
+  // Tiefe Links: #experimental/retatrutide, #behandlungen/hbot, #supplement/kreatin
+  // und #folge/59 (springt auf den Eintrag, der zu dieser Podcast-Folge gehoert).
+  // Wird beim Routen gesetzt und direkt nach dem Rendern der Ansicht abgearbeitet.
+  let offenerSprung = null;
+
   function currentView() {
-    const hash = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
-    return VALID_VIEWS.includes(hash) ? hash : 'home';
+    const roh = (location.hash || '').replace(/^#/, '').split(/[?&]/)[0];
+    const teile = roh.split('/').filter(Boolean);
+    const kopf = teile[0] || '';
+    const rest = teile.slice(1).join('/');
+    offenerSprung = null;
+
+    if (kopf === 'folge' && rest) {
+      const f = (typeof PODCAST_FOLGEN !== 'undefined' ? PODCAST_FOLGEN : [])
+        .find(x => String(x.nr) === rest);
+      if (f && f.ziel && f.ziel.id) {
+        offenerSprung = f.ziel;
+        return VIEW_ALIAS[f.ziel.view] || f.ziel.view;
+      }
+      if (f && f.ziel) return VIEW_ALIAS[f.ziel.view] || f.ziel.view;
+      return 'home';
+    }
+
+    const view = VIEW_ALIAS[kopf] || kopf;
+    if (!VALID_VIEWS.includes(view)) return 'home';
+    if (rest) offenerSprung = { view: kopf, id: rest };
+    return view;
+  }
+
+  function springeZuEintrag(view, id) {
+    if (!id) return;
+    if (view === 'supplement') {
+      const s = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : []).find(x => x.id === id);
+      const inp = document.getElementById('supplement-search');
+      if (s && inp) { inp.value = s.name; inp.dispatchEvent(new Event('input', { bubbles: true })); }
+      return;
+    }
+    if (view === 'experimental' || view === 'khavinson') {
+      currentExpCat = 'all';
+      const chips = document.getElementById('exp-chips');
+      if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.ecat === 'all'));
+      renderExperimental();
+      highlightExpCard((view === 'khavinson' ? 'khcard-' : 'expcard-') + id);
+      return;
+    }
+    if (view === 'behandlungen') {
+      currentThCat = 'all';
+      const chips = document.getElementById('th-chips');
+      if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.tcat === 'all'));
+      renderBehandlungen();
+      highlightExpCard('thcard-' + id);
+    }
   }
 
   function showView(name) {
@@ -204,6 +256,12 @@
     if (name === 'experimental') onEnterExperimental();
     if (name === 'behandlungen') onEnterBehandlungen();
     if (name === 'tagescheck') onEnterTagescheck();
+
+    if (offenerSprung) {
+      const ziel = offenerSprung;
+      offenerSprung = null;
+      setTimeout(() => springeZuEintrag(ziel.view, ziel.id), 180);
+    }
   }
 
   function initRouter() {
@@ -211,7 +269,57 @@
     showView(currentView());
   }
 
+  // "Heute bei Paul & Paula" – die zuletzt veroeffentlichte Folge auf der Startseite.
+  // Quelle ist js/data/podcast.js; terminierte Folgen mit Datum in der Zukunft
+  // werden ausgeblendet, bis sie wirklich draussen sind.
+  function renderPodHeute() {
+    const box = $('#pod-heute');
+    if (!box || typeof PODCAST_FOLGEN === 'undefined') return;
+    const heute = new Date().toISOString().slice(0, 10);
+    const raus = PODCAST_FOLGEN
+      .filter(f => f.datum <= heute)
+      .sort((a, b) => (a.datum === b.datum ? b.nr - a.nr : (a.datum < b.datum ? 1 : -1)));
+    if (!raus.length) return;
+
+    const f = raus[0];
+    const datum = f.datum.split('-').reverse().join('.');
+    const setzen = (id, wert) => { const el = document.getElementById(id); if (el) el.textContent = wert; };
+    setzen('pod-heute-nr', 'Folge ' + f.nr);
+    setzen('pod-heute-titel', f.titel);
+    setzen('pod-heute-meta', datum + ' \u00b7 rund 12 Minuten \u00b7 Faktencheck');
+
+    const spot = document.getElementById('pod-heute-spotify');
+    if (spot) spot.href = 'https://open.spotify.com/episode/' + f.spotify;
+    const show = document.getElementById('pod-heute-show');
+    if (show && typeof PODCAST_SHOW !== 'undefined') show.href = PODCAST_SHOW.spotify;
+
+    const haupt = document.getElementById('pod-heute-link');
+    const thema = document.getElementById('pod-heute-thema');
+    if (f.ziel && f.ziel.id) {
+      const ziel = '#' + f.ziel.view + '/' + f.ziel.id;
+      if (haupt) haupt.href = ziel;
+      if (thema) { thema.href = ziel; thema.hidden = false; }
+    } else if (f.ziel) {
+      if (haupt) haupt.href = '#' + f.ziel.view;
+      if (thema) { thema.href = '#' + f.ziel.view; thema.hidden = false; }
+    } else {
+      if (haupt) haupt.href = 'https://open.spotify.com/episode/' + f.spotify;
+      if (thema) thema.hidden = true;
+    }
+
+    const liste = document.getElementById('pod-heute-liste');
+    if (liste) {
+      liste.innerHTML = raus.slice(1, 4).map(x => {
+        const ziel = (x.ziel && x.ziel.id) ? ('#' + x.ziel.view + '/' + x.ziel.id) : ('#folge/' + x.nr);
+        return '<li><a href="' + escapeHtml(ziel) + '"><span class="pod-liste-nr">' + x.nr +
+               '</span>' + escapeHtml(x.titel) + '</a></li>';
+      }).join('');
+    }
+    box.hidden = false;
+  }
+
   function onEnterHome() {
+    renderPodHeute();
     const sSup = $('#stat-supplements');
     const sTip = $('#stat-tips');
     const sGoal = $('#stat-goals');
