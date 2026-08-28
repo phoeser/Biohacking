@@ -847,6 +847,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       s.versand   ? ['Versand', s.versand] : null,
       s.zahlung   ? ['Zahlung', s.zahlung] : null,
       s.qualitaet ? ['Qualität & Nachweise', s.qualitaet] : null,
+      s.preis     ? ['Preis', s.preis] : null,
       s.zoll      ? ['Zoll & Einfuhr', s.zoll] : null
     ].filter(Boolean);
 
@@ -1401,6 +1402,55 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     });
 
     renderBlutwertRegeln();
+    renderBlutwertPanels();
+  }
+
+  function renderBlutwertPanels() {
+    const wrap = $('#bw-panels');
+    if (!wrap || typeof BLUTWERT_PANELS === 'undefined') return;
+    const marker = (typeof BLUTWERTE !== 'undefined') ? BLUTWERTE : [];
+    wrap.innerHTML = BLUTWERT_PANELS.map(p => {
+      const chips = (p.werte || []).map(id => {
+        const m = marker.find(x => x.id === id);
+        return m ? `<button type="button" class="bw-panel-chip" data-bwjump="${escapeHtml(id)}">${escapeHtml(m.kurz || m.name)}</button>` : '';
+      }).join('');
+      const zusatz = (p.zusatz || []).map(z => `<span class="bw-panel-chip is-plain">${escapeHtml(z)}</span>`).join('');
+      return `
+        <details class="bw-panel">
+          <summary>
+            <span class="bw-panel-emoji">${escapeHtml(p.emoji || '')}</span>
+            <span class="bw-panel-label">${escapeHtml(p.label)}</span>
+            <span class="bw-panel-anzahl">${(p.werte || []).length + (p.zusatz || []).length} Werte</span>
+          </summary>
+          <p class="bw-panel-wofuer">${escapeHtml(p.wofuer || '')}</p>
+          ${chips || zusatz ? `<div class="bw-panel-werte">${chips}${zusatz}</div>` : ''}
+          ${p.hinweis ? `<p class="bw-panel-hinweis">${escapeHtml(p.hinweis)}</p>` : ''}
+          <dl class="bw-panel-meta">
+            ${p.wann   ? `<dt>Wann</dt><dd>${escapeHtml(p.wann)}</dd>` : ''}
+            ${p.kasse  ? `<dt>Kasse</dt><dd>${escapeHtml(p.kasse)}</dd>` : ''}
+            ${p.kosten ? `<dt>Kosten</dt><dd>${escapeHtml(p.kosten)}</dd>` : ''}
+          </dl>
+        </details>`;
+    }).join('');
+
+    wrap.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-bwjump]');
+      if (!b) return;
+      const id = b.dataset.bwjump;
+      bwCat = 'all';
+      bwNurEinsteiger = false;
+      const box = $('#bw-einsteiger'); if (box) box.checked = false;
+      $$('.chip', $('#bw-chips')).forEach(x => x.classList.toggle('chip--active', x.dataset.bwcat === 'all'));
+      renderBlutwerte();
+      requestAnimationFrame(() => {
+        const card = $(`#bw-grid [data-bwid="${CSS.escape(id)}"]`);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.add('is-highlight');
+          setTimeout(() => card.classList.remove('is-highlight'), 2200);
+        }
+      });
+    }, { once: false });
   }
 
   function onEnterBlutwerte() {
@@ -1434,7 +1484,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       const hebel = (m.hebel || []).map(h => `<li>${escapeHtml(h)}</li>`).join('');
       const stoer = (m.stoerfaktoren || []).map(h => `<li>${escapeHtml(h)}</li>`).join('');
       return `
-        <article class="bw-card${m.einsteiger ? ' is-einsteiger' : ''}">
+        <article class="bw-card${m.einsteiger ? ' is-einsteiger' : ''}" data-bwid="${escapeHtml(m.id)}">
           <div class="bw-head">
             <div class="bw-titel">
               <h3>${escapeHtml(m.name || '')}</h3>
