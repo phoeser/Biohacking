@@ -973,3 +973,16 @@ const BLUTWERT_REGELN = {
   },
   wichtigsteRegel: 'Trends schlagen Momentaufnahmen. Ein einzelner Wert ist ein Foto – oft verwackelt durch Infekt, Stress oder das Training am Vortag. Erst die Kurve über Jahre erzählt die Wahrheit. Und die zweite Regel dazu: Ein auffälliger Wert ist ein Gesprächsanlass mit dem Arzt, keine Diagnose zum Selberstellen.'
 };
+
+/* Die Folge, auf der dieser ganze Bereich beruht.
+ * Gleiche Struktur wie die podcasts-Arrays in supplements.js/experimental.js,
+ * damit podcastsHtml() sie unverändert rendern kann. */
+const BLUTWERT_PODCAST = [
+  {
+    title: 'Blutwerte für Biohacker: Das Longevity-Panel im Faktencheck',
+    audio: 'audio/blutwerte-podcast.mp3',
+    spotify: '6AVybJZE9IDg9QHxLI1H7N',
+    lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+    note: 'Der Podcast von Paul Höser (Folge 58) · mit Paul & Paula. Das komplette Panel, sortiert nach Baustellen: Nüchtern-Insulin und HOMA als Frühwarnsystem, ApoB, Lp(a) und das Triglycerid-HDL-Verhältnis für die Gefäße, hsCRP und Homocystein für die Entzündung, die Hormon-Achsen von IGF-1 bis Schilddrüse, die Nährstoff-Tanks und die Organ-Basics. Dazu das Handwerk: wie oft messen, was Werte verfälscht (Training, Infekte, Biotin) und warum Trends Momentaufnahmen schlagen. Reine Information, keine Diagnose.'
+  }
+];

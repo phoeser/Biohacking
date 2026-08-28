@@ -180,7 +180,7 @@ const EXPERIMENTAL = [
         audio: 'audio/testosteron-podcast.mp3',
         spotify: '6uKz3P8CXnqgw4r7c0mlDn',
         lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)',
-        note: 'KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), mit Fachrecherche ergänzt und bewusst positiv, aber verantwortungsvoll gerahmt: TRT bei echtem, ärztlich nachgewiesenem Mangel ist gut belegt und oft sehr wirksam; die TRAVERSE-Studie hat Herz- und Prostata-Sorgen entschärft. Klar benannt: Blutkontrollen (Hämatokrit), unterdrückte Fruchtbarkeit und die strikte Abgrenzung zur Hochdosis-/Graumarkt-Nutzung. Reine Information, kein medizinischer Rat, keine Dosierempfehlung – Testosteron ist verschreibungspflichtig; Mangel bitte ärztlich abklären und Therapie ärztlich begleiten.',
+        note: 'Der Podcast von Paul Höser (Folge 22). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), mit Fachrecherche ergänzt und bewusst positiv, aber verantwortungsvoll gerahmt: TRT bei echtem, ärztlich nachgewiesenem Mangel ist gut belegt und oft sehr wirksam; die TRAVERSE-Studie hat Herz- und Prostata-Sorgen entschärft. Klar benannt: Blutkontrollen (Hämatokrit), unterdrückte Fruchtbarkeit und die strikte Abgrenzung zur Hochdosis-/Graumarkt-Nutzung. Reine Information, kein medizinischer Rat, keine Dosierempfehlung – Testosteron ist verschreibungspflichtig; Mangel bitte ärztlich abklären und Therapie ärztlich begleiten.',
         sources: [
           { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
           { title: 'AAFP 2024 – Testosterone Replacement Therapy for Male Hypogonadism', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' }
@@ -425,14 +425,14 @@ const EXPERIMENTAL = [
         audio: 'audio/wolverine-stack-podcast.mp3',
         spotify: '4Lex4pgjZQrVvjEEP2r0sK',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
+        note: 'Der Podcast von Paul Höser (Folge 36). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       },
       {
         title: 'KI-Podcast: BPC-157 – das Reparatur-Peptid aus dem Magen',
         audio: 'audio/bpc-157-podcast.mp3',
         spotify: '3G58RjUupVFwxDMkOdSqX2',
         lengthLabel: '≈ 12 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) über BPC-157 – warum das „Body Protection Compound" aus dem Magensaft als Reparatur-Peptid für Sehnen, Bänder und Darm so gefeiert wird, was Tiermodelle zeigen und wie es typischerweise angewendet wird (berichtet, keine Empfehlung). Nur Information – keine medizinische Beratung. Research-Peptid, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
+        note: 'Der Podcast von Paul Höser (Folge 2). KI-generierte deutsche Folge (Paul & Paula) über BPC-157 – warum das „Body Protection Compound" aus dem Magensaft als Reparatur-Peptid für Sehnen, Bänder und Darm so gefeiert wird, was Tiermodelle zeigen und wie es typischerweise angewendet wird (berichtet, keine Empfehlung). Nur Information – keine medizinische Beratung. Research-Peptid, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       }
     ]
   },
@@ -472,7 +472,7 @@ const EXPERIMENTAL = [
         audio: 'audio/wolverine-stack-podcast.mp3',
         spotify: '4Lex4pgjZQrVvjEEP2r0sK',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
+        note: 'Der Podcast von Paul Höser (Folge 36). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       },
       {
         title: 'KI-Podcast: TB-500 – das systemische Regenerations-Peptid',
@@ -519,11 +519,50 @@ const EXPERIMENTAL = [
         audio: 'audio/ghk-cu-podcast.mp3',
         spotify: '7GdCodf2PCq47XKo9jmrrK',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: topisch/kosmetisch ist GHK-Cu eines der bestbelegten Peptide (~40 Jahre Forschung, +28% Kollagendichte, Haut/Wundheilung, sehr sicher) – aber der Sprung zum injizierten Ganzkörper-Anti-Aging ist am Menschen kaum belegt und bringt ein Kupfer-Überladungs-Risiko. Belegt ist die Creme, nicht die Nadel. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        note: 'Der Podcast von Paul Höser (Folge 19). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: topisch/kosmetisch ist GHK-Cu eines der bestbelegten Peptide (~40 Jahre Forschung, +28% Kollagendichte, Haut/Wundheilung, sehr sicher) – aber der Sprung zum injizierten Ganzkörper-Anti-Aging ist am Menschen kaum belegt und bringt ein Kupfer-Überladungs-Risiko. Belegt ist die Creme, nicht die Nadel. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'Pickart & Margolina, Biomolecules 2018 – GHK-Cu: Genexpression & Regeneration', url: 'https://pubmed.ncbi.nlm.nih.gov/29986520/' },
           { title: 'GHK als Anti-Aging-Peptid (Review, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8789089/' }
         ]
+      }
+    ]
+  },
+  {
+    id: 'peptid-stacks',
+    name: 'Peptid-Stacks & Blends (Grundlagen)',
+    altNames: 'Stacking, Blend, Kombination, Peptid-Protokoll',
+    class: 'Prinzip – wie Peptide kombiniert werden und warum',
+    emoji: '🧩',
+    short: 'Die Grundlagenfolge hinter Wolverine, GLOW, KLOW und CJC + Ipamorelin: Was ein Stack von einem Blend unterscheidet – und nach welchen Regeln überhaupt kombiniert wird.',
+    moa: 'Ein Stack ist ein Protokoll aus mehreren Einzel-Vials, die getrennt dosiert werden. Ein Blend ist eine Fertig-Mischung in einem festen, vom Hersteller vorgegebenen Verhältnis. Die Logik hinter beidem ist dieselbe: komplementäre Pfade. Sinnvoll kombiniert wird, was an unterschiedlichen Rezeptoren unterschiedliche Aufgaben übernimmt – TB-500 mobilisiert, BPC-157 versorgt, GHK-Cu baut. Zweimal an derselben Klingel zu läuten (etwa zwei GHRH-Analoga nebeneinander) bringt keinen zusätzlichen Effekt, sondern nur zusätzliches Risiko. WICHTIG: Für die meisten populären Kombinationen existieren keine publizierten Studien – die Evidenz gilt jeweils den Einzelsubstanzen, nicht der Mischung.',
+    benefits: [
+      'Fünf Handwerksregeln aus der Folge: einzeln einführen, zwei bis drei Substanzen genügen, Rezeptor-Dopplungen vermeiden, Zyklen respektieren, Blutwerte messen.',
+      'Stack statt Blend heißt: jedes Verhältnis bleibt änderbar, und bei einer Reaktion ist zuordenbar, welche Substanz sie ausgelöst hat.',
+      'Blend statt Stack heißt: weniger Handgriffe, weniger Einstiche – dafür ein zementiertes Verhältnis und ungeprüfte Stabilität der Mischung im Vial.',
+      'Der Rahmen zum Einordnen aller Blend-Einträge der App (GLOW, KLOW, Wolverine, CJC + Ipamorelin).'
+    ],
+    risks: [
+      'Das Zuordnungs-Problem: Wer zwei Substanzen gleichzeitig startet, weiß bei einer Nebenwirkung nicht, welche sie verursacht hat.',
+      'Rezeptor-Dopplung addiert Nebenwirkungen, nicht Wirkung.',
+      'Blends sind Fertigmischungen vom Graumarkt – Verhältnis, Reinheit und Stabilität sind nur über ein Analysenzertifikat prüfbar, und auch das ersetzt keine Zulassung.',
+      'Je mehr Substanzen, desto unübersichtlicher die Wechselwirkungen – und desto weniger sagt die Studienlage der Einzelteile über das Ganze aus.',
+      'Im Sport sind praktisch alle hier genannten Substanzen verboten (WADA-Liste).'
+    ],
+    status: 'Prinzip-Eintrag, keine Substanz. Research-Peptide sind nicht als Arzneimittel zugelassen; Kombinationen gehören in ärztliche Begleitung.',
+    sources: [
+      { title: 'WADA Prohibited List – Peptidhormone und Wachstumsfaktoren', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Peptide Protocol Wiki – Blends: Evidenzlage der Kombinationen', url: 'https://www.peptideprotocolwiki.com/blog/glow-blend' }
+    ],
+    community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [
+      {
+        title: 'Peptid-Stacks & Blends: Warum kombinieren? Die Grundlagen-Folge',
+        audio: 'audio/peptid-stacks-podcast.mp3',
+        spotify: '1vjClyXNbjwk08HCl5Eeq9',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 54) · mit Paul & Paula. Stack oder Blend, das Prinzip der komplementären Pfade („nie zweimal dieselbe Klingel"), die Stack-Galerie des Podcasts, die fünf Handwerksregeln, die ehrliche Blend-Abwägung zwischen Bequemlichkeit und zementierten Verhältnissen – und die Erinnerung, dass der beste Stack gratis ist: Schlaf, Training, Protein, Sonne. Reine Information, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
   },
@@ -638,7 +677,7 @@ const EXPERIMENTAL = [
         audio: 'audio/pt-141-podcast.mp3',
         spotify: '2D3wSp3syLHObeyXzCi2nR',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        note: 'Der Podcast von Paul Höser (Folge 20). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'FDA – Vyleesi (Bremelanotid) Fachinformation', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
           { title: 'Kingsberg et al. 2019 – RECONNECT Phase-3-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' }
@@ -861,7 +900,7 @@ const EXPERIMENTAL = [
         audio: 'audio/metformin-podcast.mp3',
         spotify: '4CQMxRGnxLMeTqnvn6uH2B',
         lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Solides, billiges, zugelassenes Diabetes-Medikament, das über den AMPK-Schalter dieselben Alterns-Signalwege anspricht wie Sport/Fasten. Aber: Longevity bei Gesunden ist Hypothese (TAME-Studie noch offen, ~2026/27), mit realer Kehrseite – Metformin kann Trainings-/Muskelgewinne bremsen. Plus B12-Mangel-Risiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
+        note: 'Der Podcast von Paul Höser (Folge 23). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Solides, billiges, zugelassenes Diabetes-Medikament, das über den AMPK-Schalter dieselben Alterns-Signalwege anspricht wie Sport/Fasten. Aber: Longevity bei Gesunden ist Hypothese (TAME-Studie noch offen, ~2026/27), mit realer Kehrseite – Metformin kann Trainings-/Muskelgewinne bremsen. Plus B12-Mangel-Risiko. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
           { title: 'Bannister et al. 2014 – Mortalität unter Metformin (Beobachtungsdaten)', url: 'https://pubmed.ncbi.nlm.nih.gov/25041462/' },
           { title: 'TAME-Studie – Targeting Aging with Metformin (AFAR)', url: 'https://www.afar.org/tame-trial' },
@@ -1190,7 +1229,7 @@ const EXPERIMENTAL = [
         audio: 'audio/selank-podcast.mp3',
         spotify: '4aVYSN3bbxyUtzXsLmzNGg',
         lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)',
-        note: 'KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die vielversprechende, aber überwiegend russische Studienlage ein: in Russland als Angst-Medikament zugelassen, mildes Sicherheitsprofil – die große internationale Bestätigung steht aber noch aus. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – in Deutschland nicht als Arzneimittel zugelassen.',
+        note: 'Der Podcast von Paul Höser (Folge 25). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die vielversprechende, aber überwiegend russische Studienlage ein: in Russland als Angst-Medikament zugelassen, mildes Sicherheitsprofil – die große internationale Bestätigung steht aber noch aus. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – in Deutschland nicht als Arzneimittel zugelassen.',
         sources: [
           { title: 'Zozulya et al., Bull Exp Biol Med 2008 – Selank bei generalisierter Angststörung', url: 'https://pubmed.ncbi.nlm.nih.gov/19240853/' },
           { title: 'Kolomin et al., J Psychopharmacol 2013 – Selank und Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/22832761/' }
@@ -1478,7 +1517,7 @@ const EXPERIMENTAL = [
         audio: 'audio/tesofensine-podcast.mp3',
         spotify: '4tCUWipyMuwsmSQ2foeKBV',
         lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.'
+        note: 'Der Podcast von Paul Höser (Folge 34). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.'
       }
     ]
   },
@@ -1861,17 +1900,6 @@ const EXPERIMENTAL = [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
-      {
-        title: 'Mod GRF 1-29 (CJC-1295 ohne DAC): Der Wachstumshormon-Puls im Faktencheck',
-        audio: 'audio/mod-grf-1-29-podcast.mp3',
-        spotify: '2QVSWQ1gUwtRm7ExnhVHHf',
-        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. GHRH-Analogon, das die Hirnanhangsdrüse zu einem kurzen, natürlichen GH-Puls anregt. Zentral: der Unterschied „mit vs. ohne DAC" (kurz/pulsatil vs. tagelang erhöht). Wirkprinzip real (zugelassener Verwandter: Tesamorelin), aber für Anti-Aging/Muskel bei Gesunden kaum belegt; GH-Klassen-Risiken (Blutzucker, IGF-1), WADA-verboten, Graumarkt. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
-          { title: 'Ionescu & Frohman 2006 – pulsatile vs. kontinuierliche GH-Sekretion (GHRH-Analoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
-          { title: 'Teichman et al. 2006 – Pharmakokinetik CJC-1295 (DAC)', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
-        ]
-      },
       {
         title: 'CJC-1295 ohne DAC: Das Puls-Peptid – und die Auflösung des Namens-Chaos',
         audio: 'audio/cjc-1295-no-dac-podcast.mp3',
@@ -2364,7 +2392,7 @@ const EXPERIMENTAL = [
         audio: 'audio/prostamax-podcast.mp3',
         spotify: '4N70kUgdRUuMwgCYi9TbvG',
         lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
+        note: 'Der Podcast von Paul Höser (Folge 28). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
         sources: [
           { title: 'Khavinson – Peptide bioregulators (Gerontologie)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
           { title: 'Prostamax Bioregulator – Übersicht & Einordnung', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
@@ -2508,7 +2536,7 @@ const EXPERIMENTAL = [
         audio: 'audio/methylene-blue-podcast.mp3',
         spotify: '6JlLZilupWgb72WX10TBri',
         lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
+        note: 'Der Podcast von Paul Höser (Folge 10). KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
           { title: 'FDA Drug Safety Communication – Methylenblau & Serotonin-Syndrom bei Antidepressiva', url: 'https://www.apsf.org/article/methylene-blue-and-the-risk-of-serotonin-toxicity/' },
           { title: 'Ramsay et al. – Methylenblau hemmt MAO-A (Serotonintoxizität)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2078225/' },

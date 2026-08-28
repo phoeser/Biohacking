@@ -42,6 +42,19 @@ const KHAVINSON = [
     ],
     community: [
       { title: 'Khavinson Peptides – Complete Guide (SeekPeptides)', url: 'https://www.seekpeptides.com/blog/articles/khavinson-peptides-complete-guide' }
+    ],
+    podcasts: [
+      {
+        title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck',
+        audio: 'audio/epitalon-podcast.mp3',
+        spotify: '3fwqZGKZCED0D8iimUNcnm',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 24) · mit Paul & Paula. Die Telomerase-Story: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig – kleine, unverblindete russische Studien. Plus die offene Krebsfrage bei einem Telomerase-Aktivator und der Melatonin-/Schlaf-Bezug. Reine Information, kein medizinischer Rat.',
+        sources: [
+          { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & Telomerlänge', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
+          { title: 'Al-Dulaimi et al., Biogerontology 2025 – unabhängige Replikation (Zellen)', url: 'https://link.springer.com/article/10.1007/s10522-025-10315-x' }
+        ]
+      }
     ]
   },
   {
@@ -160,6 +173,19 @@ const KHAVINSON = [
     ],
     community: [
       { title: 'Khavinson Bioregulators – CalcMyPeptide', url: 'https://www.calcmypeptide.com/blog/khavinson-bioregulators-epithalon-guide' }
+    ],
+    podcasts: [
+      {
+        title: 'Thymalin: Der Immun-Bioregulator im Faktencheck',
+        audio: 'audio/thymalin-podcast.mp3',
+        spotify: '6aB7vB9kwKPQsukNesmvMT',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom Militär-Auftrag in Leningrad zum Flaggschiff der Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov 2003). Plus die ehrliche Ost-West-Einordnung und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
+        sources: [
+          { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
+          { title: 'Biology Bulletin Reviews 2021 – Thymalin-Review', url: 'https://link.springer.com/article/10.1134/S2079086421040046' }
+        ]
+      }
     ]
   },
 
@@ -309,6 +335,18 @@ const KHAVINSON = [
     ],
     community: [
       { title: 'Bioregulator Peptides – Peptide Playbook', url: 'https://www.peptideplaybook.health/peptides/bioregulator-peptides' }
+    ],
+    podcasts: [
+      {
+        title: 'Bronchogen & Chonluten: Das Peptid-Duo für die Lunge',
+        audio: 'audio/bronchogen-chonluten-podcast.mp3',
+        spotify: '3b8emQB8ibdtFNCIXuiE7U',
+        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 29) · mit Paul & Paula. Das vergessene Biohacking-Organ Lunge: Chonluten (T-34) beruhigt die Atemwegs-Schleimhaut, Bronchogen baut auf (Flimmerepithel, Surfactant). Dazu, warum die Ein-Sekunden-Kapazität einer der besten Langlebigkeits-Marker ist. Evidenz überwiegend aus der russischen Khavinson-Schule, bei uns nicht zugelassen. Reine Information – Atemprobleme ärztlich abklären.',
+        sources: [
+          { title: 'Khavinson – Peptide bioregulators (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8619776/' }
+        ]
+      }
     ]
   },
   {

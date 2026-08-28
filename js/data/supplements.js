@@ -399,7 +399,7 @@ const SUPPLEMENTS = [
         audio: 'audio/kreatin-podcast.mp3',
         spotify: '3A2IEPWCGTrgRaBzGLMNiq',
         lengthLabel: '≈ 13 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+        note: 'Der Podcast von Paul Höser (Folge 32). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
   },
@@ -894,7 +894,7 @@ const SUPPLEMENTS = [
         audio: 'audio/nad-nmn-podcast.mp3',
         spotify: '2cRowv4Y2uQOr3AZ48AuU3',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+        note: 'Der Podcast von Paul Höser (Folge 31). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
   },
@@ -1311,7 +1311,7 @@ const SUPPLEMENTS = [
         audio: 'audio/whey-podcast.mp3',
         spotify: '6R5g58StzAqk5E6nMrlQWX',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+        note: 'Der Podcast von Paul Höser (Folge 33). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
   },
@@ -1448,7 +1448,15 @@ const SUPPLEMENTS = [
     synergies: ['coq10', 'pqq', 'nmn'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Indirekt über Ellagsäure: Granatapfel, Walnüsse, Himbeeren (nur bei passender Darmflora)'
+    sources: 'Indirekt über Ellagsäure: Granatapfel, Walnüsse, Himbeeren (nur bei passender Darmflora)',
+    podcasts: [
+      {
+        title: 'Urolithin A: Der Mitochondrien-Erneuerer im Faktencheck',
+        spotify: '1OqKr6DQlwmZyf8v7HQjw2',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 78) · mit Paul & Paula. Die Produktionskette vom Granatapfel bis in die Zelle – und warum sie bei vielen Menschen im Darm gar nicht erst zustande kommt. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 16.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'pterostilben',
@@ -2171,7 +2179,7 @@ const SUPPLEMENTS = [
         audio: 'audio/lithium-podcast.mp3',
         spotify: '7w537EJ55GOs1xwuEbsylM',
         lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser. KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zur NIEDRIG dosierten Mikrodosis (Lithiumorotat), inkl. der Harvard-/Nature-Forschung 2025. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Nicht mit hochdosierter Lithiumtherapie verwechseln; bei Vorerkrankungen, Schwangerschaft oder Medikamenten ärztlich abklären.'
+        note: 'Der Podcast von Paul Höser (Folge 35). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zur NIEDRIG dosierten Mikrodosis (Lithiumorotat), inkl. der Harvard-/Nature-Forschung 2025. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Nicht mit hochdosierter Lithiumtherapie verwechseln; bei Vorerkrankungen, Schwangerschaft oder Medikamenten ärztlich abklären.'
       }
     ]
   },

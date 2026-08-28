@@ -21,7 +21,15 @@ const THERAPIES = [
       'Stärkt die Stressresistenz'
     ],
     indication: ['Erschöpfung', 'Long Covid', 'Sport-Regeneration', 'Anti-Aging'],
-    link: 'https://munichhealthcenter.de/leistungen/hypoxietraining/'
+    link: 'https://munichhealthcenter.de/leistungen/hypoxietraining/',
+    podcasts: [
+      {
+        title: 'IHHT: Das Höhentraining im Faktencheck',
+        spotify: '0bFNeYXib0O5MmSgVVTiTW',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 71) · mit Paul & Paula. Was im Gerät wirklich passiert: Hypoxie-Phasen bei neun bis fünfzehn Prozent Sauerstoff im Wechsel mit sauerstoffangereicherter Erholungsluft, gesteuert über ein Fingerclip-Oximeter. Was am Zell-Kraftwerk-Training belegt ist – und was Studio-Poesie. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 09.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'vns-analyse',
@@ -51,7 +59,15 @@ const THERAPIES = [
       'Sehr verträglich ohne UV-Belastung'
     ],
     indication: ['Schmerzen', 'Wundheilung', 'Regeneration', 'Verspannungen'],
-    link: 'https://munichhealthcenter.de/leistungen/infrarot-a/'
+    link: 'https://munichhealthcenter.de/leistungen/infrarot-a/',
+    podcasts: [
+      {
+        title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck',
+        spotify: '1z2wsgjkeNkKwJYdo4mCdW',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Sauna, Infrarotkabine und medizinische Ganzkörperhyperthermie im Vergleich – und warum wassergefiltertes Infrarot A (wIRA) heute das Mittel der Wahl ist, wenn die Kerntemperatur kontrolliert angehoben werden soll. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'bioadaptive-impuls',
@@ -96,7 +112,15 @@ const THERAPIES = [
       'Begleitend bei chronischen Beschwerden'
     ],
     indication: ['Chronische Infekte', 'Detox', 'Immunsystem', 'Onkologie-Begleitung'],
-    link: 'https://munichhealthcenter.de/leistungen/ganzkoerperhyperthermie/'
+    link: 'https://munichhealthcenter.de/leistungen/ganzkoerperhyperthermie/',
+    podcasts: [
+      {
+        title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck',
+        spotify: '1z2wsgjkeNkKwJYdo4mCdW',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Die Wärme-Leiter von der Sauna über die Infrarotkabine bis zur medizinischen Ganzkörperhyperthermie, bei der die Kerntemperatur kontrolliert auf achtunddreißig bis neununddreißig Grad angehoben wird – künstliches Fieber unter Aufsicht, meist mit wassergefiltertem Infrarot A. Überraschung der Folge: Die Wärme hat einige der saubersten Studien des Feldes. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'vitalpilze-shop',
@@ -328,7 +352,15 @@ const THERAPIES = [
     ],
     indication: ['Schwermetallbelastung', 'Chronische Entzündungen', 'CFS/ME', 'Umweltkrankheiten', 'Long Covid'],
     note: 'INUSpherese® wird nicht im Munich Health Center angeboten – Verfahren der INUS Medical Center GmbH (Alzenau).',
-    link: 'https://www.inus.de/'
+    link: 'https://www.inus.de/',
+    podcasts: [
+      {
+        title: 'INUSpherese: Die Blutwäsche im Faktencheck',
+        spotify: '3hY3H6CWvFVYTiY7AlsaeS',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 68) · mit Paul & Paula. Der seriöse Kern zuerst: Therapeutische Apherese ist seit Jahrzehnten Klinikroutine – Lipid-Apherese bei familiärer Hypercholesterinämie ist kassenfinanziert und leitliniengerecht. Die Folge zieht die Grenze zwischen dieser etablierten Medizin und dem, was die INUSpherese darüber hinaus verspricht. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 06.09.2026, 10:00)'
+      }
+    ]
   },
   // ============ BIOHACKING-METHODEN ============
   {
@@ -345,7 +377,15 @@ const THERAPIES = [
     ],
     indication: ['Regeneration', 'Wundheilung', 'Long Covid', 'Anti-Aging', 'Sport-Erholung'],
     note: 'Wirkung stark protokollabhängig; medizinische HBOT gehört in erfahrene Hände. Longevity-Nutzung ist off-label.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/33206062/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33206062/',
+    podcasts: [
+      {
+        title: 'Die hyperbare Sauerstofftherapie: Die Druckkammer im Faktencheck',
+        spotify: '2yiVzU7q52Y9VmBAp0Eucb',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 70) · mit Paul & Paula. Die Physik dahinter: Bei zwei bis drei Atmosphären und reinem Sauerstoff löst sich das Zehn- bis Fünfzehnfache an Sauerstoff physikalisch im Plasma – damit erreicht er auch schlecht durchblutetes Gewebe. Die Folge sortiert den etablierten Teil (Wundheilung, anerkannte Indikationen) von Forschung und Marketing. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 08.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'rotlicht-pbm',
@@ -361,7 +401,15 @@ const THERAPIES = [
     ],
     indication: ['Haut & Anti-Aging', 'Regeneration', 'Schmerzen', 'Energie', 'Wundheilung'],
     note: 'Verwandt mit der vor Ort angebotenen Infrarot-A-Anwendung (wIRA); Heim-Panels arbeiten meist mit LED.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/28070154/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/28070154/',
+    podcasts: [
+      {
+        title: 'Rotlichttherapie: Photobiomodulation im Faktencheck',
+        spotify: '7Fax0v8xEsuNLpV2b8IjH5',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 76) · mit Paul & Paula. Was rotes und nahinfrarotes Licht in der Zelle wirklich anstellt – und was das Panel von der Wärmekabine unterscheidet. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 14.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'sauna-kaelte',
@@ -377,7 +425,15 @@ const THERAPIES = [
     ],
     indication: ['Herz-Kreislauf', 'Regeneration', 'Stimmung', 'Stressresistenz', 'Longevity'],
     note: 'Vorsicht bei Herz-Kreislauf-Erkrankungen und in der Schwangerschaft – vorher ärztlich abklären. Kälte langsam herantasten.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/25705824/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/25705824/',
+    podcasts: [
+      {
+        title: 'Eisbaden & Kälte: Der Kälte-Reiz im Faktencheck',
+        spotify: '3Mp0IJC6SAYgdodSAqK3g9',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 64) · mit Paul & Paula. Der kontrollierte Alarm: In der Šrámek-Studie stieg bei Immersion in vierzehn Grad kaltem Wasser das Noradrenalin auf das Fünffache, das Dopamin um rund zweihundertfünfzig Prozent – und der Dopamin-Anstieg hält Stunden. Dazu die Überraschung für Sportler: Beim Kältebad ist das Timing entscheidend. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 03.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'nad-infusion',
@@ -489,7 +545,15 @@ const THERAPIES = [
     ],
     indication: ['Stoffwechsel-Optimierung', 'Gewicht', 'Energie/Heißhunger', 'Prädiabetes-Prävention'],
     note: 'Für Nicht-Diabetiker ein Optimierungs-Tool, kein Diagnosegerät. Werte im Kontext interpretieren; einzelne Spitzen sind normal.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10528360/'
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10528360/',
+    podcasts: [
+      {
+        title: 'CGM: Der Blutzucker-Sensor im Faktencheck',
+        spotify: '2gEGQcsJwgJ8ym2dEqr9tX',
+        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
+        note: 'Der Podcast von Paul Höser (Folge 79) · mit Paul & Paula. Wie der Sensor ohne Stechen misst, was er bringt – und wo der Hype die Daten überholt. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 17.09.2026, 10:00)'
+      }
+    ]
   },
   {
     id: 'neurostimulation',
