@@ -35,6 +35,55 @@
           </div>`).join('')}</div>`;
   }
 
+  // ---- Änderungsprotokoll ----------------------------------------------
+  // Eine Quelle (js/data/aenderungen.js), zwei Darstellungen: die vollständige
+  // Liste unter #aenderungen und ein kurzer Kasten in der betroffenen Karte.
+
+  function aenderungenFuer(view, id) {
+    if (typeof AENDERUNGEN === 'undefined') return [];
+    return AENDERUNGEN.filter(a => a.ziel && a.ziel.id === id && a.ziel.view === view);
+  }
+
+  function chgDatum(iso) {
+    const t = String(iso).split('-');
+    return t.length === 3 ? (t[2] + '.' + t[1] + '.' + t[0]) : iso;
+  }
+
+  function aenderungenHtml(view, id) {
+    const liste = aenderungenFuer(view, id);
+    if (!liste.length) return '';
+    return `<div class="chg-inline">
+      <div class="chg-inline-label">🔄 Was sich geändert hat</div>
+      ${liste.map(a => `<div class="chg-inline-item">
+        <span class="chg-datum">${escapeHtml(chgDatum(a.datum))}</span>
+        <strong>${escapeHtml(a.titel)}</strong>
+        <p>${escapeHtml(a.text)}</p>
+        ${a.quelle ? `<a class="chg-quelle" href="${escapeHtml(a.quelle.url)}" target="_blank" rel="noopener">${escapeHtml(a.quelle.titel)}</a>` : ''}
+      </div>`).join('')}
+    </div>`;
+  }
+
+  function renderAenderungen() {
+    const box = $('#chg-liste');
+    if (!box || typeof AENDERUNGEN === 'undefined') return;
+    const sortiert = AENDERUNGEN.slice().sort((a, b) => (a.datum < b.datum ? 1 : a.datum > b.datum ? -1 : 0));
+    box.innerHTML = sortiert.map(a => {
+      const ziel = (a.ziel && a.ziel.id) ? ('#' + a.ziel.view + '/' + a.ziel.id) : null;
+      return `<article class="chg-card chg-card--${escapeHtml((a.typ || '').toLowerCase())}">
+        <div class="chg-kopf">
+          <span class="chg-datum">${escapeHtml(chgDatum(a.datum))}</span>
+          <span class="chg-typ">${escapeHtml(a.typ || '')}</span>
+        </div>
+        <h3>${escapeHtml(a.titel)}</h3>
+        <p>${escapeHtml(a.text)}</p>
+        <div class="chg-fuesse">
+          ${ziel ? `<a class="chg-ziel" href="${escapeHtml(ziel)}">Zum Eintrag →</a>` : ''}
+          ${a.quelle ? `<a class="chg-quelle" href="${escapeHtml(a.quelle.url)}" target="_blank" rel="noopener">${escapeHtml(a.quelle.titel)}</a>` : ''}
+        </div>
+      </article>`;
+    }).join('');
+  }
+
   // Peptide-Bezugsquellen (immer unter "Praxis & Community" gelistet).
   // ►►► HIER PFLEGEN: sobald Affiliate-/Partner-Zugang da ist, 'ref' (Ref-Link) und
   // 'code' (Rabattcode) eintragen. Solange 'ref' leer ist, wird die normale Shop-URL
@@ -179,7 +228,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'aenderungen', 'about'];
 
   // Khavinson-Eintraege leben in der Experimentelles-Ansicht.
   const VIEW_ALIAS = { khavinson: 'experimental' };
@@ -256,6 +305,7 @@
     if (name === 'experimental') onEnterExperimental();
     if (name === 'behandlungen') onEnterBehandlungen();
     if (name === 'tagescheck') onEnterTagescheck();
+    if (name === 'aenderungen') renderAenderungen();
 
     if (offenerSprung) {
       const ziel = offenerSprung;
@@ -543,6 +593,7 @@
           ${avoid.length ? `<section><h3>🚫 Nicht kombinieren mit</h3><p>${avoid.map(n=>`<span class="tag tag--warn">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
           ${s.sources ? `<section><h3>🥗 Natürliche Quellen</h3><p>${escapeHtml(s.sources)}</p></section>` : ''}
           ${podcastsHtml(s.podcasts)}
+          ${aenderungenHtml('supplement', s.id)}
         </article>
       `;
       detail.classList.remove('hidden');
@@ -1362,6 +1413,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Limitationen</strong><ul>${risks}</ul></div>` : ''}
           <div class="exp-status"><strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}</div>
           ${podcastsHtml(e.podcasts)}
+          ${aenderungenHtml('khavinson', e.id)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
@@ -1417,6 +1469,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
             <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
           </div>
           ${podcastsHtml(e.podcasts)}
+          ${aenderungenHtml('experimental', e.id)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
@@ -1476,6 +1529,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${indication ? `<div class="exp-section"><strong>Wofür</strong><p>${indication}</p></div>` : ''}
           ${t.note ? `<div class="exp-status"><strong>Hinweis:</strong> ${escapeHtml(t.note)}</div>` : ''}
           ${podcastsHtml(t.podcasts)}
+          ${aenderungenHtml('behandlungen', t.id)}
           ${t.link ? `<details class="exp-sources"><summary>Mehr Infos & Quelle</summary><ul><li><a href="${escapeHtml(t.link)}" target="_blank" rel="noopener">${escapeHtml(t.link.replace(/^https?:\/\//, '').split('/')[0])}</a></li></ul></details>` : ''}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information. Anwendung ärztlich abklären.</div>
         </article>
