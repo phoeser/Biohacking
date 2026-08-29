@@ -514,18 +514,6 @@
       "beleg": "Für die zugelassenen Indikationen etabliert, für den Longevity-Einsatz dünn: Die vielzitierte Telomer-Arbeit (Hachmo et al., Aging 2020) hatte keine Kontrollgruppe und wertete 25 beziehungsweise 20 Personen aus; die beiden Folge-RCTs arbeiteten mit Warteliste statt Scheinbehandlung, alle stammen aus derselben Gruppe mit kommerziellem Interesse. Die Sicherheit ist aus Jahrzehnten zugelassener Anwendung gut untersucht. Der Sprung von Telomeren in Blutzellen zu „Alterungsumkehr\" ist durch die Daten nicht gedeckt."
     },
     {
-      "id": "hyperthermie",
-      "name": "Ganzkörperhyperthermie",
-      "url": "https://biohackingkompakt.de/thema/hyperthermie.html",
-      "evidenz": 4,
-      "mechanismus": 4,
-      "sicherheit": 4,
-      "hype": 3,
-      "richtung": "gemischt",
-      "label": "Dünne Humanevidenz",
-      "beleg": "Zwei Verfahren unter einem Dach. Für die Ganzkörperhyperthermie bei Depression gibt es genau eine positive randomisierte Studie (Janssen et al., JAMA Psychiatry 2016, n=29) – unrepliziert, und die Verblindung scheiterte: 71 Prozent der Scheinbehandelten erkannten ihre Gruppe. Eine Machbarkeitsstudie 2025 fand in beiden Armen fast dieselbe Besserung. Deutlich besser belegt ist wassergefiltertes Infrarot A – aber für Wundheilung, nicht für Longevity. Der Gemeinsame Bundesausschuss lehnte die Aufnahme in den Leistungskatalog 2005 ab."
-    },
-    {
       "id": "zyklus-biohacking",
       "name": "Zyklus-Tracking & zyklusbasiertes Training",
       "url": "https://biohackingkompakt.de/thema/zyklus-biohacking.html",
@@ -598,18 +586,6 @@
       "beleg": "Viel Evidenz für Surrogatmarker, keine für harte Endpunkte: Ein Umbrella-Review über 23 Meta-Analysen (Sun et al., eClinicalMedicine 2024) fand hohe Ergebnissicherheit nur für 12 Prozent der Zusammenhänge – Taillenumfang, Blutfette, Nüchterninsulin. Sterblichkeit und kardiovaskuläre Ereignisse wurden gar nicht untersucht. Der wiederkehrende Befund: Intervallfasten wirkt etwa so gut wie klassische Kalorienrestriktion, nicht besser. Die populäre Aussage, ab einer bestimmten Stundenzahl schalte die Autophagie an, ist am Menschen nicht belegt."
     },
     {
-      "id": "ihht",
-      "name": "IHHT – Hypoxietraining",
-      "url": "https://biohackingkompakt.de/thema/ihht.html",
-      "evidenz": 3,
-      "mechanismus": 4,
-      "sicherheit": 3,
-      "hype": 2,
-      "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
-      "beleg": "Ein systematisches Review fand acht kleine Studien mit sehr heterogenen Gruppen, die Heterogenität verhinderte sogar eine Meta-Analyse; eine unabhängige Prüfstelle attestiert den verfügbaren RCTs schwerwiegende Mängel und widersprüchliche Ergebnisse. Systematische Nebenwirkungsdaten fehlen, ein kardiologisches Screening findet oft nicht statt. Die Werbung führt den Nobelpreis 2019 an – ausgezeichnet wurde die zelluläre Sauerstoffantwort, nicht der therapeutische Nutzen dieser Geräte."
-    },
-    {
       "id": "tpe-plasmaaustausch",
       "name": "Therapeutischer Plasmaaustausch (TPE)",
       "url": "https://biohackingkompakt.de/thema/tpe-plasmaaustausch.html",
@@ -656,18 +632,6 @@
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Für Anti-Aging bei Gesunden gibt es keine kontrollierte Studie. Was vorliegt, betrifft Altersgebrechlichkeit als Erkrankung – eine Phase-II-Studie mit 30 Teilnehmern, primär auf Sicherheit angelegt. Was Wellness-Kliniken tatsächlich anbieten, ist damit nicht untersucht. Dokumentiert sind schwere Schäden bis zur dauerhaften Erblindung und Todesfälle; in Deutschland wurde 2011 eine Klinik nach dem Tod eines Kindes geschlossen. EMA und Paul-Ehrlich-Institut warnten im März 2025 gemeinsam vor kommerziellen Angeboten mit nicht zugelassenen Zelltherapien."
-    },
-    {
-      "id": "inuspherese",
-      "name": "INUSpherese® (Blut-Apherese)",
-      "url": "https://biohackingkompakt.de/thema/inuspherese.html",
-      "evidenz": 1,
-      "mechanismus": 3,
-      "sicherheit": 2,
-      "hype": 1,
-      "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
-      "beleg": "Keine randomisierten Studien. Die vom Anbieter geführten Arbeiten sind überwiegend kleine unkontrollierte Serien mit Surrogatmarkern – Autoantikörper, Blutfette, Entzündungswerte –, kein einziger harter Endpunkt, keine Kontrollgruppe. Der IGeL-Monitor bewertete die Immun-Apherese bei Long- und Post-COVID 2023 als unklar, weil keine Studien vorlagen. Dass Filtration Plasmabestandteile entfernt, ist gezeigt; dass daraus ein klinischer Nutzen folgt, nicht. Beworben wird sie für Alzheimer, MS, Borreliose und Anti-Aging."
     },
     {
       "id": "nad-infusion",
