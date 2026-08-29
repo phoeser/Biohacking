@@ -5,6 +5,7 @@
 const PODCAST_SHOW = {
   name: 'Biohacking Kompakt',
   spotify: 'https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z',
+  apple: 'https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652',
   rss: 'https://anchor.fm/s/1148b9204/podcast/rss'
 };
 
