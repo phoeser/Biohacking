@@ -325,9 +325,11 @@
   function renderPodHeute() {
     const box = $('#pod-heute');
     if (!box || typeof PODCAST_FOLGEN === 'undefined') return;
-    const heute = new Date().toISOString().slice(0, 10);
+    // Die Folgen erscheinen um 10:00 Ortszeit. Ein reiner Datumsvergleich wuerde
+    // sie ab Mitternacht anzeigen – acht Stunden lang mit totem Spotify-Link.
+    const jetzt = Date.now();
     const raus = PODCAST_FOLGEN
-      .filter(f => f.datum <= heute)
+      .filter(f => new Date(f.ab || (f.datum + 'T00:00:00Z')).getTime() <= jetzt)
       .sort((a, b) => (a.datum === b.datum ? b.nr - a.nr : (a.datum < b.datum ? 1 : -1)));
     if (!raus.length) return;
 
