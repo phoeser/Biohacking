@@ -11,3 +11,5 @@
 .sc-bar span { display:block; height:100%; border-radius:99px; background:var(--akzent) }
 .sc-num { padding-left:12px; font-weight:700; text-align:right; width:26px }
 .sc-hinweis { font-size:.82rem; color:var(--gedaempft) }
+.stand { font-size:.8rem; color:var(--gedaempft); margin-top:28px }
+.sc-hinweis strong { color:var(--text) }

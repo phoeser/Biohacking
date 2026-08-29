@@ -3612,3 +3612,9 @@ button { font-family: inherit; cursor: pointer; }
   .sc-zeile { grid-template-columns: 26px 1fr 96px; }
   .sc-achse { grid-template-columns: 1fr 72px 22px; }
 }
+.sc-disclaimer {
+  font-size: 0.83rem; line-height: 1.55; color: var(--text-muted);
+  background: var(--surface); border: 1px solid var(--surface-border);
+  border-radius: var(--radius); padding: 12px 14px; margin: 0 0 18px;
+}
+.sc-disclaimer strong { color: var(--text); }
