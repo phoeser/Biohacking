@@ -1,0 +1,66 @@
+/* Statische Themenseiten. Bewusst eigenes, schlankes Stylesheet: Diese Seiten
+   sind Sucheinstiege und sollen ohne JavaScript sofort lesbar sein. */
+:root{
+  --bg:#0b1210; --flaeche:#131c19; --rand:#22302b;
+  --text:#e8efec; --gedaempft:#9db0a9; --akzent:#3ddc97; --akzent-dunkel:#2f8b6a;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:400 17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+a{color:var(--akzent)}
+.kopf{
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+  padding:16px 22px; border-bottom:1px solid var(--rand);
+  position:sticky; top:0; background:rgba(11,18,16,.92); backdrop-filter:blur(8px); z-index:5;
+}
+.marke{font-weight:800; letter-spacing:-.01em; text-decoration:none; color:var(--text)}
+.kopf nav a{margin-left:16px; font-size:.86rem; text-decoration:none}
+main{max-width:760px; margin:0 auto; padding:26px 22px 60px}
+.typ{
+  margin:0 0 6px; font-size:.74rem; font-weight:700; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--akzent);
+}
+h1{margin:0 0 6px; font-size:2.05rem; line-height:1.15; letter-spacing:-.02em}
+.unter{margin:0 0 18px; color:var(--gedaempft); font-size:.92rem}
+.lead{font-size:1.14rem; line-height:1.55; color:var(--text)}
+h2{margin:36px 0 10px; font-size:1.12rem; letter-spacing:-.01em}
+h3{margin:6px 0 6px; font-size:1.02rem; line-height:1.3}
+p{margin:0 0 14px}
+ul{margin:0 0 14px; padding-left:22px}
+li{margin:6px 0}
+section{border-top:1px solid var(--rand); padding-top:6px}
+section:first-of-type{border-top:0}
+.q li{font-size:.92rem}
+.q a{word-break:break-word}
+.pod, .chg{
+  border:1px solid var(--rand); border-top:1px solid var(--rand);
+  border-radius:14px; padding:16px 18px; margin:32px 0; background:var(--flaeche);
+}
+.pod h2, .chg h2{margin-top:0}
+.pod-nr{margin:0 0 2px; font-size:.76rem; font-weight:700; color:var(--akzent); letter-spacing:.04em}
+.pod-note{font-size:.92rem; color:var(--gedaempft)}
+.chg{background:rgba(194,65,12,.07); border-color:rgba(194,65,12,.28)}
+.chg-d{margin:0 0 2px; font-size:.76rem; font-weight:700; color:var(--gedaempft)}
+.btn{
+  display:inline-block; padding:12px 18px; border-radius:11px;
+  background:var(--akzent-dunkel); color:#fff; font-weight:600; text-decoration:none;
+}
+.app{margin:34px 0 18px}
+.disc{font-size:.83rem; color:var(--gedaempft); border-top:1px solid var(--rand); padding-top:14px}
+.fuss{
+  max-width:760px; margin:0 auto; padding:20px 22px 40px;
+  font-size:.83rem; color:var(--gedaempft); border-top:1px solid var(--rand);
+}
+.fuss a{color:var(--gedaempft)}
+.idx{list-style:none; padding:0}
+.idx li{padding:9px 0; border-bottom:1px solid var(--rand)}
+.idx a{font-weight:600; text-decoration:none}
+.idx-kurz{display:block; font-size:.85rem; color:var(--gedaempft); margin-top:2px}
+.pod-mark{
+  font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em;
+  color:var(--akzent); border:1px solid var(--akzent-dunkel); border-radius:999px; padding:1px 7px; margin-left:6px;
+}
+@media (max-width:520px){ h1{font-size:1.7rem} body{font-size:16px} }
