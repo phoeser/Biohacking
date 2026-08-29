@@ -35,6 +35,92 @@
           </div>`).join('')}</div>`;
   }
 
+  // ---- BK-Score ---------------------------------------------------------
+  // Vier Achsen, die den WISSENSSTAND bewerten, nicht die Substanz.
+  // Regelwerk und Ankerpunkte stehen im Kopf von js/data/scores.js.
+
+  const SCORE_ACHSEN = [
+    { key: 'evidenz',     label: 'Human-Evidenz',        hilfe: 'Wie viel und wie gute Daten am Menschen?' },
+    { key: 'mechanismus', label: 'Mechanismus',          hilfe: 'Wie gut ist die Wirkkette verstanden?' },
+    { key: 'sicherheit',  label: 'Sicherheits-Datenlage', hilfe: 'Wie gut ist die Sicherheit untersucht? Nicht: wie sicher es ist.' },
+    { key: 'hype',        label: 'Hype-Abstand',         hilfe: '10 heißt: die Werbung bleibt auf Höhe der Daten.' }
+  ];
+
+  function scoreFuer(view, id) {
+    if (typeof BK_SCORES === 'undefined') return null;
+    return BK_SCORES.find(s => s.id === id && s.view === view) || null;
+  }
+
+  function balken(wert) {
+    const breite = Math.max(0, Math.min(10, wert)) * 10;
+    return `<span class="sc-bar"><span class="sc-bar-fill" style="width:${breite}%"></span></span>`;
+  }
+
+  function scoreHtml(view, id) {
+    const s = scoreFuer(view, id);
+    if (!s) return '';
+    return `<div class="sc-block">
+      <div class="sc-kopf">
+        <span class="sc-titel">BK-Score</span>
+        <span class="sc-label">${escapeHtml(bkLabel(s))}</span>
+      </div>
+      <div class="sc-achsen">${SCORE_ACHSEN.map(a => `<div class="sc-achse" title="${escapeHtml(a.hilfe)}">
+        <span class="sc-name">${escapeHtml(a.label)}</span>
+        ${balken(s[a.key])}
+        <span class="sc-wert">${s[a.key]}</span>
+      </div>`).join('')}</div>
+      <p class="sc-beleg">${escapeHtml(s.beleg)}</p>
+      <p class="sc-fuss">Bewertet wird der Wissensstand, nicht die Substanz. <a href="#score">Alle Bewertungen und die Vergaberegeln</a></p>
+    </div>`;
+  }
+
+  let scoreSortierung = 'evidenz';
+
+  function renderScoreListe() {
+    const box = $('#sc-liste');
+    if (!box || typeof BK_SCORES === 'undefined') return;
+    const chips = $('#sc-chips');
+    if (chips && !chips.dataset.fertig) {
+      chips.innerHTML = SCORE_ACHSEN.map((a, i) =>
+        `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-sc="${a.key}">${escapeHtml(a.label)}</button>`).join('');
+      chips.addEventListener('click', e => {
+        const b = e.target.closest('[data-sc]');
+        if (!b) return;
+        $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x === b));
+        scoreSortierung = b.dataset.sc;
+        renderScoreListe();
+      });
+      chips.dataset.fertig = '1';
+    }
+    // Hype-Abstand aufsteigend: die kleinste Zahl ist die interessanteste.
+    const auf = scoreSortierung === 'hype';
+    const liste = BK_SCORES.slice().sort((a, b) =>
+      auf ? a[scoreSortierung] - b[scoreSortierung] : b[scoreSortierung] - a[scoreSortierung]);
+    box.innerHTML = liste.map((s, i) => {
+      const name = nameFuerScore(s);
+      return `<a class="sc-zeile" href="#${escapeHtml(s.view)}/${escapeHtml(s.id)}">
+        <span class="sc-rang">${i + 1}</span>
+        <span class="sc-zeile-name">${escapeHtml(name)}<span class="sc-zeile-label">${escapeHtml(bkLabel(s))}</span></span>
+        <span class="sc-zeile-wert">${balken(s[scoreSortierung])}<b>${s[scoreSortierung]}</b></span>
+      </a>`;
+    }).join('');
+    const hinweis = $('#sc-hinweis');
+    if (hinweis) hinweis.textContent = auf
+      ? 'Aufsteigend sortiert: oben steht, wo die Vermarktung am weitesten vor den Daten liegt.'
+      : 'Absteigend sortiert: oben steht der beste Wert.';
+  }
+
+  function nameFuerScore(s) {
+    const quellen = {
+      supplement: typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : [],
+      experimental: typeof EXPERIMENTAL !== 'undefined' ? EXPERIMENTAL : [],
+      behandlungen: typeof THERAPIES !== 'undefined' ? THERAPIES : [],
+      khavinson: typeof KHAVINSON !== 'undefined' ? KHAVINSON : []
+    };
+    const t = (quellen[s.view] || []).find(x => x.id === s.id);
+    return t ? (t.name || s.id) : s.id;
+  }
+
   // ---- Änderungsprotokoll ----------------------------------------------
   // Eine Quelle (js/data/aenderungen.js), zwei Darstellungen: die vollständige
   // Liste unter #aenderungen und ein kurzer Kasten in der betroffenen Karte.
@@ -228,7 +314,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'aenderungen', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'score', 'aenderungen', 'about'];
 
   // Khavinson-Eintraege leben in der Experimentelles-Ansicht.
   const VIEW_ALIAS = { khavinson: 'experimental' };
@@ -306,6 +392,7 @@
     if (name === 'behandlungen') onEnterBehandlungen();
     if (name === 'tagescheck') onEnterTagescheck();
     if (name === 'aenderungen') renderAenderungen();
+    if (name === 'score') renderScoreListe();
 
     if (offenerSprung) {
       const ziel = offenerSprung;
@@ -597,6 +684,7 @@
           ${avoid.length ? `<section><h3>🚫 Nicht kombinieren mit</h3><p>${avoid.map(n=>`<span class="tag tag--warn">${escapeHtml(n)}</span>`).join(' ')}</p></section>` : ''}
           ${s.sources ? `<section><h3>🥗 Natürliche Quellen</h3><p>${escapeHtml(s.sources)}</p></section>` : ''}
           ${podcastsHtml(s.podcasts)}
+          ${scoreHtml('supplement', s.id)}
           ${aenderungenHtml('supplement', s.id)}
         </article>
       `;
@@ -1417,6 +1505,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Limitationen</strong><ul>${risks}</ul></div>` : ''}
           <div class="exp-status"><strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}</div>
           ${podcastsHtml(e.podcasts)}
+          ${scoreHtml('khavinson', e.id)}
           ${aenderungenHtml('khavinson', e.id)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
@@ -1473,6 +1562,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
             <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
           </div>
           ${podcastsHtml(e.podcasts)}
+          ${scoreHtml('experimental', e.id)}
           ${aenderungenHtml('experimental', e.id)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
           ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Erfahrungs- und Bezugsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. biolabshop, Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
@@ -1533,6 +1623,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${indication ? `<div class="exp-section"><strong>Wofür</strong><p>${indication}</p></div>` : ''}
           ${t.note ? `<div class="exp-status"><strong>Hinweis:</strong> ${escapeHtml(t.note)}</div>` : ''}
           ${podcastsHtml(t.podcasts)}
+          ${scoreHtml('behandlungen', t.id)}
           ${aenderungenHtml('behandlungen', t.id)}
           ${t.link ? `<details class="exp-sources"><summary>Mehr Infos & Quelle</summary><ul><li><a href="${escapeHtml(t.link)}" target="_blank" rel="noopener">${escapeHtml(t.link.replace(/^https?:\/\//, '').split('/')[0])}</a></li></ul></details>` : ''}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information. Anwendung ärztlich abklären.</div>
