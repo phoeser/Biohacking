@@ -546,6 +546,39 @@ const SHOPS = [
     }
   },
   {
+    // Adon Health: Heimlabortests fuer Hormonwerte plus telemedizinische
+    // Auswertung durch Kooperationsaerzte.
+    //
+    // WICHTIG fuer jeden, der diesen Eintrag spaeter anfasst: Adon Health
+    // vermittelt darueber hinaus die Einleitung einer Testosterontherapie
+    // durch Partneraerzte. Testosteron ist verschreibungspflichtig, und der
+    // BGH hat am 26.03.2026 (I ZR 74/25) entschieden, dass bereits ein
+    // Vermittlungsportal fuer ein verschreibungspflichtiges Mittel unzulaessige
+    // Publikumswerbung nach § 10 Abs. 1 HWG darstellt. Deshalb beziehen sich
+    // Beschreibung und Empfehlung hier ausschliesslich auf die DIAGNOSTIK.
+    // Die Therapievermittlung wird bewusst nicht beworben und nicht erwaehnt.
+    id: 'adon-health',
+    name: 'Adon Health',
+    demo: false,
+    url: 'https://adon-health.de/',
+    land: 'DE',
+    kategorien: ['Diagnostik', 'Hormonwerte'],
+    bewertung: 5,
+    versand: 'Testkit kommt per Post, Rücksendung der Probe im vorbereiteten Umschlag.',
+    zahlung: 'Übliche Zahlarten.',
+    qualitaet: 'Laborauswertung über Partnerlabore, Befundbesprechung telemedizinisch durch Kooperationsärzte. Kein Selbsttest zum Ablesen, sondern echte Laboranalytik.',
+    zoll: 'Kein Thema, alles innerhalb Deutschlands.',
+    erfahrung: 'Eigene Erfahrung: Ich habe dort testen lassen und fand den Ablauf durchweg professionell – klare Anleitung, schnelle Rückmeldung, verständlich aufbereiteter Befund. Der Unterschied zu den üblichen Heimtests ist, dass am Ende ein Arzt draufschaut und nicht nur eine Ampelgrafik. Der Anbieter ist auf Männergesundheit spezialisiert; wer nur einzelne Standardwerte will, ist bei einem allgemeinen Labor günstiger dran. Stand August 2026.',
+    // Kooperation seit 29.08.2026 vereinbart, Vertrag unterzeichnet.
+    // aktiv bleibt false, bis der Partner-Link vorliegt - ohne Link gibt es
+    // nichts zu kennzeichnen, und ein Anzeige-Badge ohne Werbung waere falsch.
+    affiliate: {
+      aktiv: false,
+      url: '',
+      codes: []
+    }
+  },
+  {
     id: 'shop-apotheke',
     name: 'Shop Apotheke',
     demo: false,
