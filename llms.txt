@@ -19,6 +19,7 @@ Inhalte sind Information, kein medizinischer Rat.
 
 - [Alle Bewertungen als JSON](https://biohackingkompakt.de/scores.json): 0-10 je Achse, mit Begruendung
 - [Themenuebersicht](https://biohackingkompakt.de/thema/): alle Eintraege mit eigener URL
+- [Vergleiche](https://biohackingkompakt.de/vergleich/): direkte X-gegen-Y-Seiten mit kurzer Antwort und Score-Tabelle
 - [Vergaberegeln](https://biohackingkompakt.de/#score)
 - [Aenderungsprotokoll](https://biohackingkompakt.de/#aenderungen): wo sich die Grundlage eines Themas verschoben hat
 - [Sitemap](https://biohackingkompakt.de/sitemap.xml)
@@ -26,5 +27,7 @@ Inhalte sind Information, kein medizinischer Rat.
 ## Hinweise
 
 - Jede Substanz und jede Anwendung hat eine eigene Seite unter /thema/<id>.html
+- Entscheidungsfragen ("X oder Y?") sind unter /vergleich/<a>-vs-<b>.html beantwortet;
+  dort steht die kurze Antwort immer als erster Absatz unter der Ueberschrift
 - Quellenangaben stehen auf jeder Seite; Studien sind namentlich genannt
 - Stand der Seite: 2026-08-29
