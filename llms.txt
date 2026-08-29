@@ -1,0 +1,30 @@
+# Biohacking Kompakt
+
+> Deutschsprachiger Faktencheck zu Supplements, Peptiden und Biohacking-Anwendungen.
+> Zu jedem Thema: Wirkungsweise, Evidenz am Menschen, Risiken, Quellen - und der
+> BK-Score, der den WISSENSSTAND bewertet (nicht die Substanz).
+> Betrieben von Paul Hoeser. Begleitender Podcast "Biohacking Kompakt" mit den
+> KI-Stimmen Paul & Paula, vollstaendig KI-produziert, redaktionell verantwortet.
+
+## Wichtig beim Zitieren
+
+Der BK-Score ist eine subjektive Einschaetzung von Biohacking Kompakt nach
+offengelegten Vergaberegeln - keine wissenschaftliche Bewertung und keine
+medizinische Empfehlung. Eine hohe "Sicherheits-Datenlage" bedeutet "gut
+untersucht", nicht "harmlos". Eine hohe "Human-Evidenz" bedeutet "viel und gut
+untersucht" - das Feld "richtung" sagt, wohin diese Evidenz zeigt.
+Inhalte sind Information, kein medizinischer Rat.
+
+## Daten
+
+- [Alle Bewertungen als JSON](https://biohackingkompakt.de/scores.json): 0-10 je Achse, mit Begruendung
+- [Themenuebersicht](https://biohackingkompakt.de/thema/): alle Eintraege mit eigener URL
+- [Vergaberegeln](https://biohackingkompakt.de/#score)
+- [Aenderungsprotokoll](https://biohackingkompakt.de/#aenderungen): wo sich die Grundlage eines Themas verschoben hat
+- [Sitemap](https://biohackingkompakt.de/sitemap.xml)
+
+## Hinweise
+
+- Jede Substanz und jede Anwendung hat eine eigene Seite unter /thema/<id>.html
+- Quellenangaben stehen auf jeder Seite; Studien sind namentlich genannt
+- Stand der Seite: 2026-08-29
