@@ -42,76 +42,150 @@
  *     Partner das Produkt verkauft.
  *   - Aendert sich eine Zahl, entsteht ein Eintrag in aenderungen.js.
  *
- * Stand: 29.08.2026 – erste 30 Eintraege.
+ * WICHTIG – Disclaimer: Alle Bewertungen sind subjektive Einschaetzungen von
+ * Biohacking Kompakt auf Basis der oben offengelegten Vergaberegeln. Sie sind
+ * keine wissenschaftliche Bewertung, kein Konsens einer Fachgesellschaft und
+ * keine medizinische Empfehlung. Andere koennen bei derselben Studienlage zu
+ * anderen Zahlen kommen; deshalb stehen die Regeln und die Begruendung dabei.
+ *
+ * richtung: wohin die vorhandene Evidenz zeigt – 'positiv', 'gemischt',
+ * 'negativ' (gut untersucht, Wirkung nicht bestaetigt) oder 'offen'
+ * (zu wenig Daten fuer eine Richtung).
+ *
+ * Stand: 29.08.2026 – 58 Eintraege (Supplements, Peptide, Anwendungen).
  */
 const BK_SCORES = [
   // ---------- Supplements ----------
-  { id: 'kreatin', view: 'supplement', evidenz: 9, mechanismus: 8, sicherheit: 9, hype: 8,
+  { id: 'kreatin', view: 'supplement', evidenz: 9, mechanismus: 8, sicherheit: 9, hype: 8, richtung: 'positiv',
     beleg: 'Eines der am besten untersuchten Supplements überhaupt: zahlreiche RCTs und Meta-Analysen zu Kraft und Magermasse, der Phosphokreatin-Weg ist am Menschen messbar, Sicherheitsdaten reichen über Jahre. Abzug beim Hype-Abstand nur, weil die kognitiven Versprechen über die Daten hinausgehen.' },
-  { id: 'omega-3', view: 'supplement', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 6,
+  { id: 'omega-3', view: 'supplement', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 6, richtung: 'gemischt',
     beleg: 'Grosse randomisierte Studien (u.a. VITAL, REDUCE-IT, STRENGTH) mit harten Endpunkten liegen vor – ihre Ergebnisse widersprechen sich allerdings teils. Mechanismus und Sicherheit sind gut untersucht; beworben wird deutlich mehr, als die Studien hergeben.' },
-  { id: 'vitamin-d3', view: 'supplement', evidenz: 8, mechanismus: 9, sicherheit: 9, hype: 5,
+  { id: 'vitamin-d3', view: 'supplement', evidenz: 8, mechanismus: 9, sicherheit: 9, hype: 5, richtung: 'gemischt',
     beleg: 'Die Rezeptorbiologie ist ausgezeichnet verstanden und mit VITAL und Vergleichbarem gibt es große RCTs. Der Hype-Abstand ist der schlechteste Wert: Vitamin D wird für nahezu jede Erkrankung beworben, die Studien zeigen das nicht.' },
-  { id: 'magnesium', view: 'supplement', evidenz: 7, mechanismus: 8, sicherheit: 9, hype: 6,
+  { id: 'magnesium', view: 'supplement', evidenz: 7, mechanismus: 8, sicherheit: 9, hype: 6, richtung: 'positiv',
     beleg: 'Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit soliden Studien zu Blutdruck und Schlafqualität, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus.' },
-  { id: 'vitamin-k2', view: 'supplement', evidenz: 5, mechanismus: 8, sicherheit: 8, hype: 4,
+  { id: 'vitamin-k2', view: 'supplement', evidenz: 5, mechanismus: 8, sicherheit: 8, hype: 4, richtung: 'gemischt',
     beleg: 'Die Wirkkette über Osteocalcin und Matrix-Gla-Protein ist gut beschrieben, die Humandaten zu Knochen und Gefäßverkalkung bleiben aber dünn und uneinheitlich. Wird trotzdem als Pflichtpartner zu Vitamin D vermarktet.' },
-  { id: 'zink', view: 'supplement', evidenz: 7, mechanismus: 8, sicherheit: 8, hype: 6,
+  { id: 'zink', view: 'supplement', evidenz: 7, mechanismus: 8, sicherheit: 8, hype: 6, richtung: 'positiv',
     beleg: 'Bei Mangel und bei Erkältungsdauer gibt es kontrollierte Studien und Meta-Analysen, die Immunfunktion ist mechanistisch klar. Überdosierung stört den Kupferhaushalt – das steht selten in der Werbung.' },
-  { id: 'taurin', view: 'supplement', evidenz: 4, mechanismus: 6, sicherheit: 8, hype: 4,
+  { id: 'taurin', view: 'supplement', evidenz: 4, mechanismus: 6, sicherheit: 8, hype: 4, richtung: 'gemischt',
     beleg: 'Die Aufmerksamkeit stammt aus einer Tierarbeit zur Lebensspanne; am Menschen liegen kleine Studien zu Blutdruck und Leistung vor, keine Langlebigkeitsdaten. Sicherheit ist durch breite Anwendung gut untersucht.' },
-  { id: 'koffein', view: 'supplement', evidenz: 9, mechanismus: 9, sicherheit: 8, hype: 7,
+  { id: 'koffein', view: 'supplement', evidenz: 9, mechanismus: 9, sicherheit: 8, hype: 7, richtung: 'positiv',
     beleg: 'Der Adenosin-Antagonismus ist am Menschen quantifiziert, zu Leistung, Wachheit und Kaffeekonsum existieren große Kohorten und viele RCTs. Abzug bei der Sicherheit für die Datenlage zu hohen Dosen und Kombipräparaten.' },
-  { id: 'kollagen', view: 'supplement', evidenz: 5, mechanismus: 5, sicherheit: 9, hype: 4,
+  { id: 'kollagen', view: 'supplement', evidenz: 5, mechanismus: 5, sicherheit: 9, hype: 4, richtung: 'gemischt',
     beleg: 'Es gibt RCTs zu Hautfeuchtigkeit und Gelenkbeschwerden, sie sind aber klein und überwiegend herstellerfinanziert. Der Mechanismus bleibt umstritten, weil Kollagen wie jedes Protein verdaut wird. Sehr stark beworben.' },
-  { id: 'whey', view: 'supplement', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 7,
+  { id: 'whey', view: 'supplement', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 7, richtung: 'positiv',
     beleg: 'Zur Muskelproteinsynthese und zum Kraftzuwachs liegen viele RCTs und Meta-Analysen vor, Leucin als Auslöser ist am Menschen gut belegt. Der übliche Überzug betrifft Timing-Versprechen, die die Daten nicht stützen.' },
-  { id: 'nmn', view: 'supplement', evidenz: 3, mechanismus: 6, sicherheit: 5, hype: 2,
+  { id: 'nmn', view: 'supplement', evidenz: 3, mechanismus: 6, sicherheit: 5, hype: 2, richtung: 'offen',
     beleg: 'Am Menschen gibt es kleine Studien mit Surrogatmarkern, keine Endpunktdaten; der NAD-Weg ist plausibel, die Anhebung im Gewebe aber schwach belegt. Sicherheitsdaten nur kurzfristig – und kaum ein Longevity-Produkt wird stärker überhöht.' },
-  { id: 'spermidin', view: 'supplement', evidenz: 3, mechanismus: 6, sicherheit: 6, hype: 3,
+  { id: 'spermidin', view: 'supplement', evidenz: 3, mechanismus: 6, sicherheit: 6, hype: 3, richtung: 'gemischt',
     beleg: 'Die Autophagie-Erzählung ist mechanistisch reizvoll und in Modellorganismen belegt; am Menschen gibt es Kohortendaten und kleine Studien, keine harten Endpunkte. Beworben wird es als Fasten-Ersatz zum Schlucken.' },
-  { id: 'berberin', view: 'supplement', evidenz: 6, mechanismus: 7, sicherheit: 6, hype: 4,
+  { id: 'berberin', view: 'supplement', evidenz: 6, mechanismus: 7, sicherheit: 6, hype: 4, richtung: 'positiv',
     beleg: 'Zu Blutzucker und Blutfetten liegen mehrere RCTs und Meta-Analysen vor, viele davon klein und aus einer Region. Der Beiname "pflanzliches Ozempic" ist der klarste Fall eines Versprechens weit über der Datenlage – dazu relevante Wechselwirkungen über CYP-Enzyme.' },
-  { id: 'ashwagandha', view: 'supplement', evidenz: 5, mechanismus: 4, sicherheit: 5, hype: 4,
+  { id: 'ashwagandha', view: 'supplement', evidenz: 5, mechanismus: 4, sicherheit: 5, hype: 4, richtung: 'gemischt',
     beleg: 'Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt.' },
-  { id: 'melatonin', view: 'supplement', evidenz: 7, mechanismus: 9, sicherheit: 7, hype: 6,
+  { id: 'melatonin', view: 'supplement', evidenz: 7, mechanismus: 9, sicherheit: 7, hype: 6, richtung: 'positiv',
     beleg: 'Die circadiane Wirkkette ist am Menschen quantifiziert, zu Einschlafzeit und Jetlag gibt es Meta-Analysen. Langzeitdaten fehlen weitgehend, und die in Deutschland üblichen Dosierungen liegen deutlich über dem, was die Studien nutzen.' },
-  { id: 'urolithin-a', view: 'supplement', evidenz: 4, mechanismus: 7, sicherheit: 7, hype: 4,
+  { id: 'urolithin-a', view: 'supplement', evidenz: 4, mechanismus: 7, sicherheit: 7, hype: 4, richtung: 'gemischt',
     beleg: 'Die Mitophagie-Wirkkette ist beim Menschen mit Biomarkern belegt, die klinischen Effekte auf Muskelkraft und Ausdauer sind klein und aus wenigen, herstellerfinanzierten Studien. Dass viele Menschen den Stoff im Darm gar nicht bilden, kommt in der Werbung selten vor.' },
-  { id: 'coq10', view: 'supplement', evidenz: 5, mechanismus: 8, sicherheit: 8, hype: 5,
+  { id: 'coq10', view: 'supplement', evidenz: 5, mechanismus: 8, sicherheit: 8, hype: 5, richtung: 'gemischt',
     beleg: 'Die Rolle in der Atmungskette ist gesichert; klinisch überzeugen vor allem Daten bei Herzinsuffizienz, während der Nutzen bei Gesunden und bei Statin-Muskelbeschwerden uneinheitlich bleibt.' },
-  { id: 'resveratrol', view: 'supplement', evidenz: 2, mechanismus: 5, sicherheit: 7, hype: 1,
+  { id: 'resveratrol', view: 'supplement', evidenz: 2, mechanismus: 5, sicherheit: 7, hype: 1, richtung: 'negativ',
     beleg: 'Das Lehrstück der Longevity-Szene: zwanzig Jahre Schlagzeilen, ein Milliardendeal – und am Menschen bis heute keine belastbaren Wirknachweise, dazu Zweifel an zentralen Sirtuin-Arbeiten. Bioverfügbarkeit gering. Der größte Hype-Abstand im ganzen Bestand.' },
 
   // ---------- Peptide und Experimentelles ----------
-  { id: 'semaglutide', view: 'experimental', evidenz: 10, mechanismus: 9, sicherheit: 9, hype: 7,
+  { id: 'semaglutide', view: 'experimental', evidenz: 10, mechanismus: 9, sicherheit: 9, hype: 7, richtung: 'positiv',
     beleg: 'Zugelassen auf Basis der STEP-Studien, kardiovaskulärer Nutzen in SELECT mit hartem Endpunkt, Wirkkette am Menschen quantifiziert, Pharmakovigilanz läuft. Abzug beim Hype-Abstand für den Graumarkt, der mit denselben Zahlen wirbt, ohne dasselbe Produkt zu verkaufen.' },
-  { id: 'tirzepatide', view: 'experimental', evidenz: 10, mechanismus: 9, sicherheit: 8, hype: 7,
+  { id: 'tirzepatide', view: 'experimental', evidenz: 10, mechanismus: 9, sicherheit: 8, hype: 7, richtung: 'positiv',
     beleg: 'Zugelassen auf Basis der SURMOUNT- und SURPASS-Programme; der doppelte Rezeptorangriff ist am Menschen belegt. Weniger Langzeitdaten als bei Semaglutid, weil jünger. Kostenübernahme durch die Kasse ist ausgeschlossen – das fällt in der Werbung unter den Tisch.' },
-  { id: 'retatrutide', view: 'experimental', evidenz: 5, mechanismus: 8, sicherheit: 4, hype: 3,
+  { id: 'retatrutide', view: 'experimental', evidenz: 5, mechanismus: 8, sicherheit: 4, hype: 3, richtung: 'gemischt',
     beleg: 'Beeindruckende Phase-2-Daten, aber keine abgeschlossene Phase III und keine Zulassung; Sicherheitsdaten entsprechend kurz. Wird im Graumarkt schon heute als stärkster Abnehmwirkstoff verkauft – ein Versprechen auf Basis unfertiger Studien.' },
-  { id: 'bpc-157', view: 'experimental', evidenz: 1, mechanismus: 4, sicherheit: 2, hype: 1,
+  { id: 'bpc-157', view: 'experimental', evidenz: 1, mechanismus: 4, sicherheit: 2, hype: 1, richtung: 'offen',
     beleg: 'Trotz enormer Popularität keine publizierte kontrollierte Humanstudie; die Datenlage besteht aus Nagermodellen. Sicherheit nicht systematisch untersucht. Verkauft wird es als Reparaturmittel für nahezu jedes Gewebe.' },
-  { id: 'tb-500', view: 'experimental', evidenz: 1, mechanismus: 4, sicherheit: 2, hype: 1,
+  { id: 'tb-500', view: 'experimental', evidenz: 1, mechanismus: 4, sicherheit: 2, hype: 1, richtung: 'offen',
     beleg: 'Die Humandaten betreffen Thymosin Beta-4 in klinischen Ansätzen, nicht das gehandelte Fragment; kontrollierte Studien zum Research-Produkt fehlen. Sicherheit unerforscht, Vermarktung als Regenerations-Wundermittel.' },
-  { id: 'mk-677', view: 'experimental', evidenz: 6, mechanismus: 8, sicherheit: 5, hype: 3,
+  { id: 'mk-677', view: 'experimental', evidenz: 6, mechanismus: 8, sicherheit: 5, hype: 3, richtung: 'negativ',
     beleg: 'Hier gibt es echte Humanstudien, auch über Monate – und genau die sind ernüchternd: Wachstumshormon und IGF-1 steigen, die erhofften Ergebnisse bei Kraft und Körperzusammensetzung folgen daraus nicht. Blutzuckerverschlechterung ist dokumentiert; beworben wird trotzdem der Peak.' },
-  { id: 'cjc-ipamorelin', view: 'experimental', evidenz: 2, mechanismus: 6, sicherheit: 3, hype: 2,
+  { id: 'cjc-ipamorelin', view: 'experimental', evidenz: 2, mechanismus: 6, sicherheit: 3, hype: 2, richtung: 'offen',
     beleg: 'Zu den Einzelsubstanzen existieren ältere pharmakologische Humandaten, zur beliebten Kombination praktisch keine. Der Weg über GHRH- und Ghrelin-Rezeptor ist verstanden, die Auszahlung nicht belegt.' },
-  { id: 'ghk-cu', view: 'experimental', evidenz: 4, mechanismus: 7, sicherheit: 6, hype: 4,
+  { id: 'ghk-cu', view: 'experimental', evidenz: 4, mechanismus: 7, sicherheit: 6, hype: 4, richtung: 'gemischt',
     beleg: 'Ein geteilter Fall: topisch gibt es brauchbare kosmetische Studien, für die injizierte Anwendung praktisch keine Humandaten. Die Genregulations-Erzählung stammt aus Zellarbeiten und wird für beide Anwendungswege benutzt.' },
-  { id: 'epitalon', view: 'experimental', evidenz: 2, mechanismus: 3, sicherheit: 3, hype: 1,
+  { id: 'epitalon', view: 'experimental', evidenz: 2, mechanismus: 3, sicherheit: 3, hype: 1, richtung: 'offen',
     beleg: 'Die Humandaten stammen fast ausschließlich aus kleinen, unverblindeten Arbeiten einer einzigen Forschungsschule; eine unabhängige Replikation gibt es bislang nur auf Zellebene. Beworben wird Telomerverlängerung als Verjüngung.' },
-  { id: 'rapamycin', view: 'experimental', evidenz: 5, mechanismus: 9, sicherheit: 5, hype: 4,
+  { id: 'rapamycin', view: 'experimental', evidenz: 5, mechanismus: 9, sicherheit: 5, hype: 4, richtung: 'gemischt',
     beleg: 'Der mTOR-Weg ist einer der am besten verstandenen der Alternsforschung und in Modellorganismen überzeugend. Am Menschen gibt es zugelassene Anwendungen in der Transplantationsmedizin, aber keine Longevity-Endpunktdaten; die Off-Label-Nutzung läuft der Evidenz voraus.' },
-  { id: 'dihexa', view: 'experimental', evidenz: 1, mechanismus: 4, sicherheit: 1, hype: 1,
+  { id: 'dihexa', view: 'experimental', evidenz: 1, mechanismus: 4, sicherheit: 1, hype: 1, richtung: 'offen',
     beleg: 'Die mechanistische Schlüsselarbeit ist zurückgezogen, das darauf aufgebaute Medikament in Phase 2/3 gescheitert, registrierte klinische Studien zur Substanz selbst gibt es nicht. Sicherheit völlig unerforscht. Siehe Änderungsprotokoll.' },
-  { id: 'metformin', view: 'experimental', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 5,
-    beleg: 'Für Typ-2-Diabetes seit Jahrzehnten zugelassen, mit Endpunktdaten und umfassender Pharmakovigilanz. Der Longevity-Anspruch ist etwas anderes: Die dafür entscheidende Studie ist nicht abgeschlossen, und es gibt Hinweise, dass Metformin Trainingsanpassungen dämpft.' }
+  { id: 'metformin', view: 'experimental', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 5, richtung: 'gemischt',
+    beleg: 'Für Typ-2-Diabetes seit Jahrzehnten zugelassen, mit Endpunktdaten und umfassender Pharmakovigilanz. Der Longevity-Anspruch ist etwas anderes: Die dafür entscheidende Studie ist nicht abgeschlossen, und es gibt Hinweise, dass Metformin Trainingsanpassungen dämpft.' },
+  // ---------- Anwendungen ----------
+  { id: 'alkohol-reduktion', view: 'behandlungen', evidenz: 9, mechanismus: 9, sicherheit: 8, hype: 8, richtung: 'positiv',
+    beleg: 'Die beste Datenlage aller Anwendungen: 107 Kohortenstudien mit über 4,8 Millionen Teilnehmern (Zhao et al., JAMA Network Open 2023) plus eine randomisierte Studie mit klinischem Endpunkt – bei Vorhofflimmern senkte sechsmonatige Abstinenz die Rezidivrate deutlich (Voskoboinik et al., NEJM 2020). Die Wirkkette ist vom Molekül bis zum Krankheitsendpunkt geschlossen. Die Überhöhung lief historisch in die andere Richtung: Der Rotwein-Schutzeffekt war ein Artefakt der Abstinenzler-Verzerrung; die DGE hat ihre Position 2024 revidiert.' },
+  { id: 'zone2-vo2max', view: 'behandlungen', evidenz: 7, mechanismus: 7, sicherheit: 8, hype: 4, richtung: 'gemischt',
+    beleg: 'Zwei Ebenen, die oft vermengt werden. Die VO2max als Marker ist hervorragend belegt (Kodama et al., JAMA 2009, 33 Kohorten, rund 103.000 Personen) – aber beobachtend. Die Interventionsstudie Generation 100 (Stensvold et al., BMJ 2020, 1.567 Ältere, fünf Jahre) verfehlte ihren primären Endpunkt Gesamtmortalität. Und für Zone 2 speziell fällt der direkte Vergleich eher zugunsten höherer Intensitäten aus. Trainieren ist richtig; die Sonderstellung von Zone 2 ist nicht belegt.' },
+  { id: 'bfr-training', view: 'behandlungen', evidenz: 7, mechanismus: 8, sicherheit: 7, hype: 6, richtung: 'positiv',
+    beleg: 'Die belastbarste Anwendung im Trainingsbereich: Meta-Analyse über 51 Studien mit 1.164 Teilnehmern (Geng et al., Sports Medicine Open 2024), Hypertrophie praktisch gleichwertig zu schwerem Krafttraining. Der Mechanismus ist am Menschen im Zielgewebe gemessen (mTORC1-Aktivierung in der Muskelbiopsie, Fry et al. 2010). Sicherheit systematisch untersucht, aber selektiv – viele Studien erfassten sie gar nicht. Überdehnt wird die Übertragung auf Untrainierte, wo schweres Training überlegen ist.' },
+  { id: 'schlaf', view: 'behandlungen', evidenz: 7, mechanismus: 7, sicherheit: 7, hype: 5, richtung: 'gemischt',
+    beleg: 'Zwei Ebenen: Kohortendaten zeigen eine U-förmige Verbindung von Schlafdauer und Sterblichkeit, die Autoren halten Umkehrkausalität selbst für die plausiblere Erklärung. Auf der Interventionsseite ist die kognitive Verhaltenstherapie bei Insomnie mit 87 RCTs sehr gut belegt – aber für Insomnie-Endpunkte, nicht für Lebensverlängerung. Dass Schlafoptimierung bei Gesunden das Leben verlängert, ist durch keine Interventionsstudie belegt. Tracker-Versprechen zu Tiefschlaf und Schlafscore gehen deutlich über die Messgenauigkeit hinaus.' },
+  { id: 'sauna-kaelte', view: 'behandlungen', evidenz: 6, mechanismus: 6, sicherheit: 6, hype: 5, richtung: 'gemischt',
+    beleg: 'Die einzige Anwendung mit harten Endpunkten – aber beobachtend: In der finnischen KIHD-Kohorte (Laukkanen et al., JAMA Internal Medicine 2015, 2.315 Männer, rund 21 Jahre) war häufige Saunanutzung mit deutlich niedrigerer Sterblichkeit verbunden. Interventionsstudien sind klein. Bei Kälte zeigt die Meta-Analyse von elf RCTs (Cain et al., PLOS ONE 2025) unmittelbar erhöhte statt gesenkte Entzündungsmarker. Ausdrücklicher Widerspruch: Kälte direkt nach dem Krafttraining dämpft den Muskelaufbau.' },
+  { id: 'ems', view: 'behandlungen', evidenz: 6, mechanismus: 7, sicherheit: 7, hype: 3, richtung: 'gemischt',
+    beleg: 'Die Meta-Analyse von Kemmler et al. (Frontiers in Physiology 2021, 16 Studien, 897 Personen) zeigt große Effekte auf Muskelmasse und Kraft – auf die Fettmasse jedoch keinen signifikanten Effekt, also genau auf den meistbeworbenen Endpunkt nicht. Ein zweites Review kommt deutlich zurückhaltender aus. Ungewöhnlich: Die Sicherheitsforschung ist besser als die Wirksamkeitsforschung – bei Erstanwendern stieg die Kreatinkinase auf das 96- bis 137-Fache, weit über den Werten nach einem Marathon; daraus entstand eine eigene Sicherheitsleitlinie und die Fachkundepflicht nach NiSV.' },
+  { id: 'chelat-therapie', view: 'behandlungen', evidenz: 7, mechanismus: 3, sicherheit: 7, hype: 1, richtung: 'negativ',
+    beleg: 'Ein Sonderfall, der zeigt, was diese Achsen messen: Die Human-Evidenz ist hoch, weil zwei große randomisierte Studien mit harten Endpunkten vorliegen – und beide fielen negativ aus. TACT (JAMA 2013, n=1.708) zeigte einen grenzwertigen Effekt mit erheblichen methodischen Mängeln; TACT2 (JAMA 2024, n=1.000) prüfte gezielt die zuvor auffällige Diabetes-Untergruppe und fand keinerlei Unterschied. Die Chelierung funktioniert messbar, der klinische Nutzen fehlt. Dokumentiert sind zudem Todesfälle durch Hypokalzämie nach Verwechslung der EDTA-Salze (CDC 2006).' },
+  { id: 'vagus-stimulation', view: 'behandlungen', evidenz: 5, mechanismus: 6, sicherheit: 7, hype: 3, richtung: 'gemischt',
+    beleg: 'Viele kleine randomisierte Studien mit Skalen-Endpunkten, keine Langzeitdaten. Die Sicherheitsauswertung ist die gründlichste im Anwendungsbereich (177 Studien, 6.322 Probanden), auch wenn gut die Hälfte gar keine Nebenwirkungsdaten berichtete. Wichtig für die Einordnung: Die als Beleg vermarktete HRV-Steigerung hält nicht – eine bayesianische Meta-Analyse über 16 verblindete Studien (Wolf et al., Psychophysiology 2021) fand starke Evidenz für die Nullhypothese. Beworben wird das Verfahren dennoch für ein sehr breites Indikationsspektrum.' },
+  { id: 'rotlicht-pbm', view: 'behandlungen', evidenz: 5, mechanismus: 5, sicherheit: 5, hype: 4, richtung: 'gemischt',
+    beleg: 'Die meisten Studien aller Anwendungen: Ein Umbrella-Review über 15 Meta-Analysen mit 204 RCTs und mehr als 9.000 Teilnehmern (Yon et al., Systematic Reviews 2025) – aber kein einziger Endpunkt erreichte hohe Ergebnissicherheit, über die Hälfte war niedrig oder sehr niedrig. Am besten belegt ist die Haardichte bei androgenetischer Alopezie. Kernproblem: Wellenlänge, Dosis und Bestrahlungsstärke schwanken so stark, dass Photobiomodulation keine einheitliche Anwendung ist. Ganzkörperpanels werben mit Longevity, belegt sind Haut, Haar und lokaler Schmerz.' },
+  { id: 'prp', view: 'behandlungen', evidenz: 5, mechanismus: 4, sicherheit: 6, hype: 3, richtung: 'negativ',
+    beleg: 'Gut untersucht und überwiegend negativ, sobald sauber verblindet wird: Die RESTORE-Studie (JAMA 2021, n=288, zwölf Monate) fand weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalz, und 29 von 31 sekundären Endpunkten blieben ohne Unterschied; ein Cochrane-Review kam zum selben Schluss. Bei der Haardichte gibt es positive kleine Studien. Zusatzrisiko liegt in der Verarbeitung, nicht im Produkt: Die US-Gesundheitsbehörde dokumentierte 2024 HIV-Übertragungen nach unsteriler Anwendung. IGeL-Monitor: tendenziell negativ.' },
+  { id: 'cgm', view: 'behandlungen', evidenz: 4, mechanismus: 5, sicherheit: 6, hype: 3, richtung: 'negativ',
+    beleg: 'Für Stoffwechselgesunde – die beworbene Zielgruppe – ist der Nutzen nicht gezeigt: Die Meta-Analyse über 23 Studien mit 1.074 Nichtdiabetikern fand den glykämischen Vorteil nur bei Prädiabetes, bei Normoglykämen keinen. Dazu ein Messproblem: Eine Untersuchung der University of Bath (Am J Clin Nutr 2025) zeigte, dass die Sensoren bei Gesunden systematisch überschätzen und die Zeit oberhalb der Schwelle um fast das Vierfache zu hoch angaben. Harte Endpunkte wurden nirgends untersucht.' },
+  { id: 'hbot', view: 'behandlungen', evidenz: 4, mechanismus: 6, sicherheit: 7, hype: 3, richtung: 'gemischt',
+    beleg: 'Für die zugelassenen Indikationen etabliert, für den Longevity-Einsatz dünn: Die vielzitierte Telomer-Arbeit (Hachmo et al., Aging 2020) hatte keine Kontrollgruppe und wertete 25 beziehungsweise 20 Personen aus; die beiden Folge-RCTs arbeiteten mit Warteliste statt Scheinbehandlung, alle stammen aus derselben Gruppe mit kommerziellem Interesse. Die Sicherheit ist aus Jahrzehnten zugelassener Anwendung gut untersucht. Der Sprung von Telomeren in Blutzellen zu „Alterungsumkehr" ist durch die Daten nicht gedeckt.' },
+  { id: 'hyperthermie', view: 'behandlungen', evidenz: 4, mechanismus: 4, sicherheit: 4, hype: 3, richtung: 'gemischt',
+    beleg: 'Zwei Verfahren unter einem Dach. Für die Ganzkörperhyperthermie bei Depression gibt es genau eine positive randomisierte Studie (Janssen et al., JAMA Psychiatry 2016, n=29) – unrepliziert, und die Verblindung scheiterte: 71 Prozent der Scheinbehandelten erkannten ihre Gruppe. Eine Machbarkeitsstudie 2025 fand in beiden Armen fast dieselbe Besserung. Deutlich besser belegt ist wassergefiltertes Infrarot A – aber für Wundheilung, nicht für Longevity. Der Gemeinsame Bundesausschuss lehnte die Aufnahme in den Leistungskatalog 2005 ab.' },
+  { id: 'zyklus-biohacking', view: 'behandlungen', evidenz: 4, mechanismus: 5, sicherheit: 6, hype: 4, richtung: 'gemischt',
+    beleg: 'Die Evidenz ist offen widersprüchlich, und das sollte man nicht glattbügeln: Drei Meta-Analysen finden triviale Phaseneffekte auf die Leistung, eine vierte (Muehlbauer et al., Sports 2024, 22 Studien) findet moderate Unterschiede – bei einer Heterogenität bis 95 Prozent, überwiegend niedriger Studienqualität und ohne Hormonbestimmung in gut der Hälfte der Arbeiten. Die Zyklusvorhersage der Apps ist mit einer gepoolten Genauigkeit von 0,88 brauchbar, die Evidenzqualität dafür aber niedrig. Phasenspezifische Trainingspläne sind nicht belegt.' },
+  { id: 'hrv-messung', view: 'behandlungen', evidenz: 4, mechanismus: 7, sicherheit: 8, hype: 3, richtung: 'gemischt',
+    beleg: 'Die Messung ist validiert – nächtliche Werte guter Geräte stimmen eng mit dem EKG überein –, die Entscheidung daraus nicht: Die Meta-Analyse über acht RCTs mit zusammen nur 190 Teilnehmern fand keinen Vorteil HRV-gesteuerten gegenüber vorgeplantem Training. Die vagale Steuerung des Herzschlags ist am Menschen gut verstanden. Eine Messung ohne körperliches Risiko braucht keine Sicherheitsstudien; nicht untersucht ist der psychologische Nebeneffekt täglicher Bereitschaftswerte. Beworben wird eine Entscheidungsvalidierung, vorliegt eine Messvalidierung.' },
+  { id: 'floating', view: 'behandlungen', evidenz: 4, mechanismus: 4, sicherheit: 5, hype: 4, richtung: 'gemischt',
+    beleg: 'Ein systematisches Review führt 63 Studien mit 1.838 Teilnehmern, die mittlere Studiengröße liegt aber bei rund 32 Personen; eine Behördenauswertung fand nur zwei randomisierte Studien mittlerer Qualität. Die methodisch sauberste Arbeit (PLOS ONE 2023, n=75, mit aktivem Vergleichsarm) war ausdrücklich eine Sicherheits- und Machbarkeitsstudie. Keine harten Endpunkte. Beworben werden Blutdrucksenkung, PTBS- und ADHS-Linderung sowie Entgiftung – dafür reicht die Datenlage nicht.' },
+  { id: 'vibrationstraining', view: 'behandlungen', evidenz: 4, mechanismus: 5, sicherheit: 4, hype: 3, richtung: 'gemischt',
+    beleg: 'Der beworbene Knochen-Nutzen ist der am schlechtesten belegte: Eine Übersicht über 15 systematische Reviews bei Frauen nach der Menopause kam zu inkonsistenten Ergebnissen, und 13 der 15 Reviews wurden methodisch als kritisch niedrig eingestuft; Frakturen – der Endpunkt, auf den es ankommt – wurden in keiner Arbeit untersucht. Besser belegt und weniger beworben ist der funktionelle Nutzen bei älteren Menschen. Nur ein Drittel der Reviews erfasste Nebenwirkungen überhaupt.' },
+  { id: 'neurostimulation', view: 'behandlungen', evidenz: 5, mechanismus: 6, sicherheit: 6, hype: 3, richtung: 'gemischt',
+    beleg: 'Zwei sehr ungleiche Verfahren in einem Eintrag. Die repetitive Magnetstimulation ist bei unipolarer Depression in der Nationalen Versorgungsleitlinie verankert, mit klinischem Endpunkt und ärztlicher Indikationsstellung. Die im Biohacking genutzte Gleichstromstimulation ist es nicht: Ein quantitatives Review fand für kognitive Effekte bei Gesunden nach Einzelsitzungen keinen Nachweis, und die deutsche DepressionDC-Studie verfehlte ihren primären Endpunkt. Consumer-Geräte leihen sich Glaubwürdigkeit von einem anderen Verfahren.' },
+  { id: 'fasten-autophagie', view: 'behandlungen', evidenz: 6, mechanismus: 5, sicherheit: 4, hype: 4, richtung: 'gemischt',
+    beleg: 'Viel Evidenz für Surrogatmarker, keine für harte Endpunkte: Ein Umbrella-Review über 23 Meta-Analysen (Sun et al., eClinicalMedicine 2024) fand hohe Ergebnissicherheit nur für 12 Prozent der Zusammenhänge – Taillenumfang, Blutfette, Nüchterninsulin. Sterblichkeit und kardiovaskuläre Ereignisse wurden gar nicht untersucht. Der wiederkehrende Befund: Intervallfasten wirkt etwa so gut wie klassische Kalorienrestriktion, nicht besser. Die populäre Aussage, ab einer bestimmten Stundenzahl schalte die Autophagie an, ist am Menschen nicht belegt.' },
+  { id: 'ihht', view: 'behandlungen', evidenz: 3, mechanismus: 4, sicherheit: 3, hype: 2, richtung: 'offen',
+    beleg: 'Ein systematisches Review fand acht kleine Studien mit sehr heterogenen Gruppen, die Heterogenität verhinderte sogar eine Meta-Analyse; eine unabhängige Prüfstelle attestiert den verfügbaren RCTs schwerwiegende Mängel und widersprüchliche Ergebnisse. Systematische Nebenwirkungsdaten fehlen, ein kardiologisches Screening findet oft nicht statt. Die Werbung führt den Nobelpreis 2019 an – ausgezeichnet wurde die zelluläre Sauerstoffantwort, nicht der therapeutische Nutzen dieser Geräte.' },
+  { id: 'tpe-plasmaaustausch', view: 'behandlungen', evidenz: 3, mechanismus: 4, sicherheit: 6, hype: 3, richtung: 'offen',
+    beleg: 'Für den Anti-Aging-Einsatz existiert genau eine Studie (Fuentealba et al., Aging Cell 2025, n=42, einfach verblindet) mit einem Surrogatendpunkt – epigenetische Uhren sind selbst nicht als Endpunkt validiert –, und die Interessenkonflikte sind erheblich. Die Sicherheit ist vergleichsweise gut fundiert, aber aus anderen Indikationen: Für die wiederholte Anwendung bei Gesunden über Jahre gibt es keine Daten. Aus rund minus 1,3 Jahren auf einer Uhr wird Verjüngung gemacht.' },
+  { id: 'ozontherapie', view: 'behandlungen', evidenz: 2, mechanismus: 2, sicherheit: 2, hype: 1, richtung: 'offen',
+    beleg: 'Die ungünstigste Kombination im ganzen Bestand: sehr niedrige Ergebnissicherheit für die beworbenen Indikationen, für Long COVID laut IGeL-Monitor nicht eine einzige abgeschlossene Studie – und gleichzeitig dokumentierte schwere Zwischenfälle, darunter tödliche Gasembolie, embolischer Schlaganfall und ein Cluster von sechs Hepatitis-C-Infektionen nach ozonangereicherter Eigenbluttransfusion. Eine systematische Erfassung unerwünschter Ereignisse existiert nicht.' },
+  { id: 'exosomen', view: 'behandlungen', evidenz: 2, mechanismus: 3, sicherheit: 1, hype: 1, richtung: 'offen',
+    beleg: 'Die Quellenlage widerspricht sich offen: Eine Meta-Analyse berichtet Effekte auf Faltentiefe und Haardichte aus 39 gemischten Humanstudien, eine deutsche dermatologische Fachdarstellung sieht dagegen keine randomisierten Studien und stuft die Datenbasis als klein und unstandardisiert ein. Für die systemische Longevity-Anwendung gibt es nichts. Die Sicherheit ist von allen Anwendungen am schlechtesten untersucht. Die US-Behörde stellt klar, dass kein Exosomen-Produkt zugelassen ist.' },
+  { id: 'stammzelltherapie', view: 'behandlungen', evidenz: 1, mechanismus: 4, sicherheit: 3, hype: 1, richtung: 'offen',
+    beleg: 'Für Anti-Aging bei Gesunden gibt es keine kontrollierte Studie. Was vorliegt, betrifft Altersgebrechlichkeit als Erkrankung – eine Phase-II-Studie mit 30 Teilnehmern, primär auf Sicherheit angelegt. Was Wellness-Kliniken tatsächlich anbieten, ist damit nicht untersucht. Dokumentiert sind schwere Schäden bis zur dauerhaften Erblindung und Todesfälle; in Deutschland wurde 2011 eine Klinik nach dem Tod eines Kindes geschlossen. EMA und Paul-Ehrlich-Institut warnten im März 2025 gemeinsam vor kommerziellen Angeboten mit nicht zugelassenen Zelltherapien.' },
+  { id: 'inuspherese', view: 'behandlungen', evidenz: 1, mechanismus: 3, sicherheit: 2, hype: 1, richtung: 'offen',
+    beleg: 'Keine randomisierten Studien. Die vom Anbieter geführten Arbeiten sind überwiegend kleine unkontrollierte Serien mit Surrogatmarkern – Autoantikörper, Blutfette, Entzündungswerte –, kein einziger harter Endpunkt, keine Kontrollgruppe. Der IGeL-Monitor bewertete die Immun-Apherese bei Long- und Post-COVID 2023 als unklar, weil keine Studien vorlagen. Dass Filtration Plasmabestandteile entfernt, ist gezeigt; dass daraus ein klinischer Nutzen folgt, nicht. Beworben wird sie für Alzheimer, MS, Borreliose und Anti-Aging.' },
+  { id: 'nad-infusion', view: 'behandlungen', evidenz: 1, mechanismus: 3, sicherheit: 2, hype: 1, richtung: 'offen',
+    beleg: 'Für die intravenöse Form gibt es keine randomisierte Studie mit klinischem Endpunkt. Was existiert, ist eine Pharmakokinetik-Pilotstudie, eine retrospektive Auswertung von 14 Kunden einer Wellness-Kette durch dort angestellte Autoren und ein nicht begutachteter Preprint. Ob intravenöses NAD+ überhaupt intakt in die Zielzellen gelangt, ist ungeklärt. Im einzigen direkten Vergleich hatten alle Infundierten mittelschwere bis schwere Reaktionen. Deutsche Anbieter werben mit DNA-Reparatur, bei rund 450 Euro pro Sitzung, ohne eine einzige Studienangabe.' },
+  { id: 'iv-vitamintherapie', view: 'behandlungen', evidenz: 1, mechanismus: 2, sicherheit: 3, hype: 1, richtung: 'offen',
+    beleg: 'Es existiert im Wesentlichen eine placebokontrollierte Pilotstudie zum Myers-Cocktail. Die Kernprämisse – Gesunde profitierten von supraphysiologischen Vitaminspiegeln – ist nicht belegt; die Nieren normalisieren die Spiegel binnen Stunden. Dokumentierte Risiken: schwere Hämolyse unter hochdosiertem Vitamin C, in einer Fallsammlung überwiegend bei G6PD-Mangel, mit akutem Nierenversagen und einem Todesfall – ein Screening findet in der Praxis oft nicht statt. Beworben werden Immunstärkung, Energie und Anti-Aging.' },
+  { id: 'grounding-earthing', view: 'behandlungen', evidenz: 1, mechanismus: 1, sicherheit: 1, hype: 1, richtung: 'offen',
+    beleg: 'Ein systematisches Review fand drei Studien mit acht, zwölf und 32 Teilnehmern, und schon diese widersprechen sich – eine fand Schmerzreduktion, die randomisierte fand keinen Unterschied zu Placebo. Die postulierte Wirkkette, Elektronen aus dem Erdboden neutralisierten freie Radikale, hat keine Grundlage in der physiologischen Literatur. Kontrollierte Sicherheitsstudien existieren nicht. Zentrale Arbeiten und das dahinterstehende Institut gehen auf denselben Mann zurück, der die Produkte vertreibt.' }
+
 ];
 
-/* Label aus Human-Evidenz und Hype-Abstand – bewusst kein Mittelwert. */
+/* Label aus Human-Evidenz, Richtung der Evidenz und Hype-Abstand – bewusst kein
+ * Mittelwert. Die Richtung ist entscheidend: Eine hohe Human-Evidenz heisst nur,
+ * dass viel und gut untersucht wurde. Bei der Chelat-Therapie etwa liegen zwei
+ * grosse randomisierte Studien mit harten Endpunkten vor – und beide fielen
+ * negativ aus. Ohne das Feld 'richtung' wuerde daraus faelschlich "gut belegt". */
 function bkLabel(s) {
+  if (s.richtung === 'negativ' && s.evidenz >= 6) return 'Gut untersucht – Wirkung nicht bestätigt';
+  if (s.richtung === 'negativ' && s.evidenz >= 4) return 'Untersucht – Nutzen nicht gezeigt';
   if (s.evidenz >= 8 && s.hype >= 6) return 'Gut belegt';
   if (s.evidenz >= 8) return 'Gut belegt, stark überhöht beworben';
   if (s.evidenz >= 6) return 'Belegt, mit Einschränkungen';
