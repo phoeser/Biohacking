@@ -70,7 +70,7 @@
         <span class="sc-wert">${s[a.key]}</span>
       </div>`).join('')}</div>
       <p class="sc-beleg">${escapeHtml(s.beleg)}</p>
-      <p class="sc-fuss">Bewertet wird der Wissensstand, nicht die Substanz. <a href="#score">Alle Bewertungen und die Vergaberegeln</a></p>
+      <p class="sc-fuss">Bewertet wird der Wissensstand, nicht die Substanz. Subjektive Einschätzung von Biohacking Kompakt nach offengelegten Regeln – keine wissenschaftliche Bewertung und keine medizinische Empfehlung. <a href="#score">Alle Bewertungen und die Vergaberegeln</a></p>
     </div>`;
   }
 
