@@ -6,7 +6,8 @@
     "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
     "mechanismus": "Wie gut die Wirkkette verstanden ist",
     "sicherheit": "Wie gut die Sicherheit untersucht ist (nicht: wie sicher es ist)",
-    "hype": "Hype-Abstand: 10 = die Werbung bleibt auf Hoehe der Daten"
+    "hype": "Hype-Abstand: 10 = die Werbung bleibt auf Hoehe der Daten",
+    "anwendung": "Anwendungserfahrung: wie viel dokumentierte Anwendung am Menschen vorliegt (seit wann, wie breit, in welchem Rahmen). Misst NICHT, ob es wirkt - Aderlass haette hier eine 10."
   },
   "eintraege": [
     {
@@ -17,6 +18,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 8,
+      "anwendung": 9,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Eines der am besten untersuchten Supplements überhaupt: zahlreiche RCTs und Meta-Analysen zu Kraft und Magermasse, der Phosphokreatin-Weg ist am Menschen messbar, Sicherheitsdaten reichen über Jahre. Abzug beim Hype-Abstand nur, weil die kognitiven Versprechen über die Daten hinausgehen."
@@ -29,6 +31,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 6,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Gut belegt",
       "beleg": "Grosse randomisierte Studien (u.a. VITAL, REDUCE-IT, STRENGTH) mit harten Endpunkten liegen vor – ihre Ergebnisse widersprechen sich allerdings teils. Mechanismus und Sicherheit sind gut untersucht; beworben wird deutlich mehr, als die Studien hergeben."
@@ -41,6 +44,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 5,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Die Rezeptorbiologie ist ausgezeichnet verstanden und mit VITAL und Vergleichbarem gibt es große RCTs. Der Hype-Abstand ist der schlechteste Wert: Vitamin D wird für nahezu jede Erkrankung beworben, die Studien zeigen das nicht."
@@ -53,6 +57,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 6,
+      "anwendung": 10,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit soliden Studien zu Blutdruck und Schlafqualität, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus."
@@ -65,6 +70,7 @@
       "mechanismus": 8,
       "sicherheit": 8,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Wirkkette über Osteocalcin und Matrix-Gla-Protein ist gut beschrieben, die Humandaten zu Knochen und Gefäßverkalkung bleiben aber dünn und uneinheitlich. Wird trotzdem als Pflichtpartner zu Vitamin D vermarktet."
@@ -77,6 +83,7 @@
       "mechanismus": 8,
       "sicherheit": 8,
       "hype": 6,
+      "anwendung": 10,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Bei Mangel und bei Erkältungsdauer gibt es kontrollierte Studien und Meta-Analysen, die Immunfunktion ist mechanistisch klar. Überdosierung stört den Kupferhaushalt – das steht selten in der Werbung."
@@ -89,6 +96,7 @@
       "mechanismus": 6,
       "sicherheit": 8,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Aufmerksamkeit stammt aus einer Tierarbeit zur Lebensspanne; am Menschen liegen kleine Studien zu Blutdruck und Leistung vor, keine Langlebigkeitsdaten. Sicherheit ist durch breite Anwendung gut untersucht."
@@ -101,6 +109,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 7,
+      "anwendung": 10,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Der Adenosin-Antagonismus ist am Menschen quantifiziert, zu Leistung, Wachheit und Kaffeekonsum existieren große Kohorten und viele RCTs. Abzug bei der Sicherheit für die Datenlage zu hohen Dosen und Kombipräparaten."
@@ -113,6 +122,7 @@
       "mechanismus": 5,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Es gibt RCTs zu Hautfeuchtigkeit und Gelenkbeschwerden, sie sind aber klein und überwiegend herstellerfinanziert. Der Mechanismus bleibt umstritten, weil Kollagen wie jedes Protein verdaut wird. Sehr stark beworben."
@@ -125,6 +135,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 7,
+      "anwendung": 9,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Zur Muskelproteinsynthese und zum Kraftzuwachs liegen viele RCTs und Meta-Analysen vor, Leucin als Auslöser ist am Menschen gut belegt. Der übliche Überzug betrifft Timing-Versprechen, die die Daten nicht stützen."
@@ -137,6 +148,7 @@
       "mechanismus": 6,
       "sicherheit": 5,
       "hype": 2,
+      "anwendung": 5,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Am Menschen gibt es kleine Studien mit Surrogatmarkern, keine Endpunktdaten; der NAD-Weg ist plausibel, die Anhebung im Gewebe aber schwach belegt. Sicherheitsdaten nur kurzfristig – und kaum ein Longevity-Produkt wird stärker überhöht."
@@ -149,6 +161,7 @@
       "mechanismus": 6,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die Autophagie-Erzählung ist mechanistisch reizvoll und in Modellorganismen belegt; am Menschen gibt es Kohortendaten und kleine Studien, keine harten Endpunkte. Beworben wird es als Fasten-Ersatz zum Schlucken."
@@ -161,6 +174,7 @@
       "mechanismus": 7,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Zu Blutzucker und Blutfetten liegen mehrere RCTs und Meta-Analysen vor, viele davon klein und aus einer Region. Der Beiname \"pflanzliches Ozempic\" ist der klarste Fall eines Versprechens weit über der Datenlage – dazu relevante Wechselwirkungen über CYP-Enzyme."
@@ -173,6 +187,7 @@
       "mechanismus": 4,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt."
@@ -185,6 +200,7 @@
       "mechanismus": 9,
       "sicherheit": 7,
       "hype": 6,
+      "anwendung": 9,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die circadiane Wirkkette ist am Menschen quantifiziert, zu Einschlafzeit und Jetlag gibt es Meta-Analysen. Langzeitdaten fehlen weitgehend, und die in Deutschland üblichen Dosierungen liegen deutlich über dem, was die Studien nutzen."
@@ -197,6 +213,7 @@
       "mechanismus": 7,
       "sicherheit": 7,
       "hype": 4,
+      "anwendung": 4,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Mitophagie-Wirkkette ist beim Menschen mit Biomarkern belegt, die klinischen Effekte auf Muskelkraft und Ausdauer sind klein und aus wenigen, herstellerfinanzierten Studien. Dass viele Menschen den Stoff im Darm gar nicht bilden, kommt in der Werbung selten vor."
@@ -209,6 +226,7 @@
       "mechanismus": 8,
       "sicherheit": 8,
       "hype": 5,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Rolle in der Atmungskette ist gesichert; klinisch überzeugen vor allem Daten bei Herzinsuffizienz, während der Nutzen bei Gesunden und bei Statin-Muskelbeschwerden uneinheitlich bleibt."
@@ -221,8 +239,9 @@
       "mechanismus": 5,
       "sicherheit": 7,
       "hype": 1,
+      "anwendung": 7,
       "richtung": "negativ",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Das Lehrstück der Longevity-Szene: zwanzig Jahre Schlagzeilen, ein Milliardendeal – und am Menschen bis heute keine belastbaren Wirknachweise, dazu Zweifel an zentralen Sirtuin-Arbeiten. Bioverfügbarkeit gering. Der größte Hype-Abstand im ganzen Bestand."
     },
     {
@@ -233,6 +252,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Sehr gut untersucht – und genau deshalb fällt die Lücke auf: Der Cochrane-Review (Hemilä & Chalker, CD000980) wertet 29 Studien mit 11.306 Teilnehmern aus und findet in der Allgemeinbevölkerung keine Senkung der Erkältungshäufigkeit (RR 0,97); nur bei extremer körperlicher Belastung – Marathon, Militär – halbiert sich das Risiko (5 Studien, 598 Teilnehmer). Die Dauereinnahme verkürzt die Erkältungsdauer bei Erwachsenen um rund 8 Prozent. Skorbutprävention und Kollagensynthese sind zweifelsfrei belegt; ein Immun-Booster für alle ist es nicht."
@@ -245,6 +265,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 3,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Bei nachgewiesenem Mangel gehört B12 zu den am besten belegten Substanzen überhaupt – bei Normalversorgten kippt das Bild: Eine Meta-Analyse über 16 RCTs mit 6.276 Teilnehmern (Mikkelsen et al., Nutrients 2021) fand bei Serumspiegeln im Normbereich keinen Effekt auf Kognition oder Depression, Cochrane (CD004394) kommt zum selben Schluss. Die Biochemie ist lückenlos verstanden, Sicherheitsdaten reichen über Jahrzehnte. Beworben wird es als Energie-Vitamin für jeden – gezeigt ist die Wirkung nur dort, wo etwas fehlt."
@@ -257,6 +278,7 @@
       "mechanismus": 6,
       "sicherheit": 7,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die große Auswertung (Nutrition Reviews 2021) umfasst 95 Studien mit 46.175 Teilnehmern – aber nur 25 davon sind RCTs, der Rest Kohorten- und Querschnittsdaten. Der Zusammenhang zwischen Folataufnahme und niedrigerem Demenzrisiko (HR 0,61) stammt überwiegend aus Beobachtung, nicht aus Intervention. Die Homocystein-Senkung ist als Surrogatmarker bestätigt, der Sprung zu weniger Demenz in RCTs nicht konsistent. Hochdosiertes B6 hat ein dokumentiertes Neuropathie-Risiko, zu dem BfR und EFSA 2024 Höchstmengen diskutierten."
@@ -269,6 +291,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Für den Eisenmangel ohne Anämie – die häufigste Konstellation bei Frauen – liegt eine Meta-Analyse über 6 RCTs und 6 Querschnittsstudien mit 1.875 Teilnehmern vor (Houston et al., Br J Nutr): Der gepoolte RCT-Effekt auf Fatigue beträgt 0,33 (95 % KI 0,17–0,48). Sauerstofftransport und Enzymfunktion sind am Menschen zweifelsfrei belegt, die Sicherheit aus Jahrzehnten bekannt – einschließlich der Überladung bei Hämochromatose. Der kritische Punkt ist die Diagnostik: Ohne Ferritin-Wert eingenommen, fehlt der Wirkung die Grundlage und das Risiko bleibt."
@@ -281,6 +304,7 @@
       "mechanismus": 7,
       "sicherheit": 9,
       "hype": 3,
+      "anwendung": 9,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Einer der klarsten Fälle im Bestand: Die SELECT-Studie (Lippman et al., JAMA 2009) randomisierte 35.533 Männer über sieben Jahre auf den harten Endpunkt Prostatakrebs – kein Nutzen (HR 1,04). Spätere Auswertungen zeigten zusätzlich ein Diabetes-Risikosignal. Die Rolle als Kofaktor der Glutathionperoxidase ist unbestritten; der Sprung von dort zur Krebsprävention wurde in der größten je durchgeführten Studie widerlegt. EFSA aktualisierte 2023 die Obergrenze, das BfR 2024 die Höchstmengen. Beworben wird weiterhin Krebsschutz."
@@ -293,6 +317,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 4,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Schilddrüsenhormonsynthese ist am Menschen vollständig aufgeklärt und der Nutzen bei Mangel unbestritten – bei ausreichender Versorgung, die in Deutschland durch Jodsalz weitgehend gegeben ist, bleibt kaum etwas übrig: Eine Meta-Analyse über 17 Studien fand bei Erwachsenen einen kognitiven Effekt von d = 0,22 bei einer Heterogenität von 97,9 Prozent. Das BfR empfiehlt für Nahrungsergänzungsmittel höchstens 100 Mikrogramm täglich und warnt ausdrücklich vor stark schwankenden Gehalten in Algenpräparaten – Über- wie Unterversorgung stört die Schilddrüse."
@@ -305,6 +330,7 @@
       "mechanismus": 7,
       "sicherheit": 7,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Dass MCT beim Menschen messbar Ketone erzeugt, ist biochemisch nachgewiesen – die kognitiven Daten stammen aber aus einer anderen Population als der beworbenen: Systematische Reviews (Avgerinos et al., Ageing Res Rev 2019; J Nutr Metab 2024) finden moderate Verbesserungen bei Alzheimer- und MCI-Patienten, bei kleinen Stichproben und kurzer Dauer. Für gesunde Erwachsene existieren keine vergleichbaren RCTs zur Kognition. Aus Jahrzehnten klinischer Anwendung bei Fettmalabsorption sind die dosisabhängigen Magen-Darm-Nebenwirkungen gut dokumentiert."
@@ -317,6 +343,7 @@
       "mechanismus": 6,
       "sicherheit": 6,
       "hype": 5,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Ungewöhnlich breite Datenbasis für ein Nootropikum: Eine Meta-Analyse über 31 RCTs mit 1.168 Teilnehmern (Molecular Psychiatry 2026) findet nach 200 Milligramm Einzeldosis einen Effekt auf Aufmerksamkeit und Reaktionszeit von SMD 0,51. Der Stresseffekt (SMD 0,31) wird allerdings überwiegend von Studien mit hohem Bias-Risiko getragen, Angst und Müdigkeit bleiben inkonsistent. EEG-Studien am Menschen zeigen erhöhte Alpha-Aktivität; die GABA-Erzählung dahinter stammt aus Tierdaten. Die Effekte sind real, aber kleiner als beworben."
@@ -329,6 +356,7 @@
       "mechanismus": 5,
       "sicherheit": 3,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "offen",
       "label": "Dünne Humanevidenz",
       "beleg": "Ein systematisches Review (GeroScience 2023) führt 50 Studien über elf Organsysteme – für den beworbenen Schlafeffekt bleiben davon drei kleine Studien an Gesunden mit drei Gramm über zwei bis vier Nächte, die die Autoren selbst als \"small sample sizes with high risk of bias\" einstufen. Die Thermoregulation über Glycinrezeptoren ist physiologisch plausibel und in kleinen Polysomnographie-Studien angedeutet, in größeren RCTs nicht bestätigt. Langzeitdaten zur Dauereinnahme fehlen vollständig."
@@ -341,6 +369,7 @@
       "mechanismus": 7,
       "sicherheit": 8,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "negativ",
       "label": "Untersucht – Nutzen nicht gezeigt",
       "beleg": "Für genau die beworbene Zielgruppe existiert ein Cochrane-Review – und der fällt negativ aus: \"L-carnitine for cognitive enhancement in people without cognitive impairment\" fand nur zwei einschließbare RCTs mit zusammen rund 200 Teilnehmern und keine Evidenz für Effekte auf Reaktionszeit, Vigilanz oder Gedächtnis. Positive Einzelstudien betreffen ältere oder erkrankte Populationen (Malaguarnera 2008, 96 Teilnehmer). Fettsäureoxidation und Acetylcholin-Vorstufe sind biochemisch bestätigt; diskutiert wird ein TMAO-Signal als kardiovaskulärer Nebeneffekt."
@@ -353,6 +382,7 @@
       "mechanismus": 7,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 6,
       "richtung": "offen",
       "label": "Dünne Humanevidenz",
       "beleg": "Die positiven Befunde stammen fast ausschließlich aus militärischen Extremstress-Paradigmen – Kälte, Hypoxie, Unterdruck – zusammengefasst im Report des Committee on Military Nutrition und einem Rapid Evidence Assessment (Military Medicine 2015). Für milden Alltagsstress, den die Vermarktung adressiert, fehlt der Nachweis; eine Cochrane-Review oder große Meta-Analyse existiert nicht. Dass Tyrosin die Katecholamin-Verfügbarkeit erhöht, ist am Menschen bestätigt. Kontraindikationen bei MAO-Hemmern und Phenylketonurie sind dokumentiert."
@@ -365,6 +395,7 @@
       "mechanismus": 8,
       "sicherheit": 8,
       "hype": 5,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Leucin als mTOR-Auslöser der Muskelproteinsynthese ist mit Isotopenstudien am Menschen bestätigt – der Sprung zu mehr Muskelmasse ist es nicht: Eine Meta-Analyse über 9 Studien mit 511 Teilnehmern ab 65 Jahren (PLOS ONE 2014) fand keinen Effekt auf fettfreie Masse (0,34 kg, p = 0,386) oder Beinkraft. Für isolierte BCAA zeigen mehrere Meta-Analysen zu Muskelkater kleine, heterogene Effekte. Der wiederkehrende Befund: Bei ausreichender Gesamtproteinzufuhr bringt das isolierte Präparat wenig zusätzlich."
@@ -377,8 +408,9 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Der einzige Cochrane-Review sichtete 108 Studien und ließ davon zwei zu – mit zusammen 64 Patienten. Das Ergebnis (Peto OR 4,10) klingt stark, die Autoren selbst halten die Evidenzqualität für unzureichend. Dazu kommt, dass die zugrunde liegende Serotoninmangel-Theorie der Depression durch eine Umbrella-Review (Moncrieff et al., Mol Psychiatry 2022) infrage gestellt wird. Sicherheitsseitig belastet die EMS-Epidemie 1989 durch kontaminierte Chargen die Substanzklasse bis heute; das Serotonin-Syndrom-Risiko mit SSRI ist dokumentiert."
     },
     {
@@ -389,8 +421,9 @@
       "mechanismus": 3,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 7,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Das systematische Review (Ishaque et al., BMC Complement Altern Med 2012) fasst 11 Studien mit rund 446 Teilnehmern zusammen: Bei körperlicher Erschöpfung waren zwei von sechs Studien positiv, bei mentaler drei von fünf – und keine einzige erfüllte die CONSORT-Kriterien. Das Fazit der Autoren lautet wörtlich, die Evidenz reiche nicht aus, um die Wirksamkeit zu beurteilen. Das Adaptogen-Konzept selbst, eine Modulation der HPA-Achse, stammt aus Tierstudien und ist am Menschen nicht bestätigt."
     },
     {
@@ -401,6 +434,7 @@
       "mechanismus": 5,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Meta-Analyse über 8 RCTs (Phytother Res 2024) zeigt Effekte auf MMSE (0,68 Punkte) und ADAS-Cog (−1,10) – beides Skalen, die bei kognitiv beeinträchtigten Menschen eingesetzt werden, nicht bei den gesunden Nutzern, an die sich die Werbung richtet. Die Ginsenosid-Pharmakokinetik ist am Menschen nachgewiesen, die neuroprotektiven Effekte stammen aus Zellkultur und Tier. Dokumentiert ist eine Interaktion mit Warfarin. Für Energie und Fokus bei Gesunden liegt damit kein passender Beleg vor."
@@ -413,8 +447,9 @@
       "mechanismus": 3,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Die Neurogenese-Erzählung ist der eigentliche Befund: Die NGF-Stimulation ist in Zellkultur und Tier gut dokumentiert, am Menschen wurde sie nie gemessen. Die beste Humanstudie ist eine randomisierte Pilotstudie mit 41 gesunden Erwachsenen über 28 Tage (Nutrients 2023) – schnellere Reaktion im Stroop-Test (p = 0,005), aber gleichzeitig schlechterer sofortiger Wortabruf und nur ein nicht signifikanter Stress-Trend (p = 0,051). Die Autoren mahnen selbst zur Vorsicht. Über Wochen hinaus gibt es keine Sicherheitsdaten."
     },
     {
@@ -425,8 +460,9 @@
       "mechanismus": 4,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 7,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Der Cochrane-Review (Jin et al., CD007731) wertet 5 RCTs mit 373 Teilnehmern in der Krebsbegleittherapie aus: Das Tumoransprechen in Kombination mit Chemo- oder Strahlentherapie erreicht keine Signifikanz (RR 1,50; 95 % KI 0,90–2,51), verbessert sind Immunparameter und Lebensqualität. Die methodische Qualität nennen die Autoren generell unbefriedigend. Die Beta-Glucan-Immunmodulation stammt aus Zellkultur und Tier. Fallberichte zu Leberschäden und Blutungsrisiko unter Gerinnungshemmern liegen vor."
     },
     {
@@ -437,6 +473,7 @@
       "mechanismus": 4,
       "sicherheit": 3,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Eine Meta-Analyse über 8 RCTs mit 288 Sportlern (Shu et al., Frontiers in Nutrition 2025) findet bei zwei bis drei Gramm täglich Verbesserungen bei Ausdauer, ventilatorischer Schwelle und VO2peak – alles Leistungssurrogate bei Gesunden, keine Krankheitsendpunkte. Für die zwei am lautesten beworbenen Versprechen, Immunsystem und Anti-Aging, gibt es am Menschen nichts Belastbares; diese Aussagen stammen aus Zellkultur- und Tiermodellen. Die Nebenwirkungserfassung nennt das Review selbst begrenzt."
@@ -449,6 +486,7 @@
       "mechanismus": 5,
       "sicherheit": 5,
       "hype": 5,
+      "anwendung": 7,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Eines der wenigen Nootropika mit reproduzierten Humandaten: Die Meta-Analyse von Kongkeaw et al. (J Ethnopharmacol 2014) wertet 9 RCTs mit 518 Teilnehmern aus und findet konsistente Verbesserungen bei Trail-B-Test (−17,9 ms) und Wahlreaktionszeit (−10,6 ms), beide p < 0,001. Ein früheres Review (Pase et al. 2012) sah Effekte bei 9 von 17 Gedächtnistests. Die Effekte sind klein und betreffen Verarbeitungsgeschwindigkeit, nicht allgemeine Intelligenz; die Wirkkette stammt aus Tiermodellen. Studien laufen typischerweise über zwölf Wochen, Langzeitdaten fehlen."
@@ -461,6 +499,7 @@
       "mechanismus": 4,
       "sicherheit": 7,
       "hype": 3,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Bei Kniearthrose zeigen mehrere Meta-Analysen eine moderate Schmerzreduktion in der Größenordnung von NSAR bei kurzer Anwendung – für Krebsprävention, Anti-Aging und Stimmung fehlt vergleichbare Evidenz. Der Mechanismus hat ein Bioverfügbarkeitsproblem: Viele Zellkulturbefunde beruhen auf Konzentrationen, die oral nicht erreicht werden. Sicherheitsseitig gut dokumentiert: Die DILIN-Fallserie (Am J Med 2022) beschreibt 10 Fälle curcumininduzierter Leberschädigung, davon ein Todesfall; 7 von 10 trugen HLA-B*35:01. Das BfR stellte 2023 fest, dass geprüfte Präparate den EFSA-Wert um das Zwei- bis Zweieinhalbfache überschreiten."
@@ -473,6 +512,7 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Meta-Analyse zur Hautalterung (Nutrients 2021) wertet 11 Studien aus, davon 9 orale RCTs mit 293 Teilnehmern: Feuchtigkeit (SMD 0,53) und Elastizität (SMD 0,77) verbessern sich signifikant – die Faltentiefe, mit der geworben wird, nicht (SMD −0,26, p = 0,11). Eine zweite Meta-Analyse zu oxidativem Stress fand nur mild veränderte Biomarker. Die antioxidative Wirkung im Blut ist am Menschen belegt, alles Weitere stammt aus Zellkultur. Studiendauern liegen im Bereich von Wochen."
@@ -485,8 +525,9 @@
       "mechanismus": 2,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 7,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Die Schwachstelle liegt schon vor der Wirkung: Oral aufgenommenes Glutathion wird im Darm überwiegend in seine Aminosäuren zerlegt, bevor es intakt ankommt – die Grundannahme der gesamten Vermarktung, Schlucken erhöhe den Zellspiegel, ist am Menschen nicht überzeugend gezeigt. Die vorhandenen systematischen Reviews zur Hautaufhellung fassen kleine, kurze, methodisch schwache Studien zusammen. Für Entgiftung, Immunstärkung und Anti-Aging existiert keine belastbare Humanevidenz. Langzeitdaten zur oralen Einnahme fehlen."
     },
     {
@@ -497,6 +538,7 @@
       "mechanismus": 7,
       "sicherheit": 7,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Für eine klar umrissene Indikation gut belegt, für die beworbene deutlich weniger: Eine Meta-Analyse über 10 RCTs mit 1.242 Patienten mit diabetischer Polyneuropathie (Nutrients 2023) zeigt verbesserte Symptomscores (Total Symptom Score −1,69), aber keine Verbesserung von Vibrationsempfinden oder Nervenleitgeschwindigkeit. Eine ältere Bewertung über 4 RCTs mit 585 Patienten nannte den Effekt statistisch, aber nicht klinisch relevant. Für Stoffwechselgesunde als Antioxidans und Anti-Aging-Mittel gibt es diese Datenbasis nicht."
@@ -509,6 +551,7 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Blutdruck-Meta-Analyse (Serban et al., J Am Heart Assoc 2016) über 7 Studien mit 587 Patienten findet eine Senkung um 4,45 mmHg systolisch – aber nur ab 500 Milligramm täglich, darunter gar nichts. Aufschlussreicher ist der regulatorische Befund: Die EFSA hat genau die Claims, mit denen Quercetin beworben wird – Immunsystem, DNA-Schutz vor oxidativem Schaden, Herz-Kreislauf – mangels Evidenz abgelehnt. Die senolytischen und antiviralen Effekte stammen bislang aus Zellkultur und Tier."
@@ -521,6 +564,7 @@
       "mechanismus": 3,
       "sicherheit": 2,
       "hype": 2,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die einzige nennenswerte Humanstudie (J Nutr Health Aging 2024) umfasst 34 ältere Personen mit leichter kognitiver Beeinträchtigung über sechs Wochen – und testete nicht reines PQQ, sondern ein Kombinationspräparat. Signifikant war eine einzelne Subdomäne des ADAS-Cog (p = 0,03), dazu Biomarker wie BDNF und MRT-Metaboliten. Die Erzählung von der Mitochondrien-Biogenese stammt aus Zellkultur und Tier und wurde am Menschen praktisch nie direkt nachgewiesen. Langzeit- oder Sicherheitsdaten liegen nicht vor."
@@ -533,6 +577,7 @@
       "mechanismus": 6,
       "sicherheit": 7,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Für eine eng umrissene Anwendung gut belegt: Cochrane-Reviews zeigen für bestimmte Stämme eine reduzierte Rate antibiotikaassoziierter Durchfälle. Für Darmgesundheit im Allgemeinen, Stimmung und Immunsystem bei Gesunden ist die Evidenz stammspezifisch und nicht auf die Produktklasse übertragbar. Sicherheitsseitig ist das seltene Risiko gut dokumentiert: Ein systematisches Review fand 93 Patienten mit probiotikaassoziierten Infektionen zwischen 1976 und 2018, Mortalität in dieser Sammlung 19,6 Prozent – nahezu ausschließlich Immunsupprimierte, Schwerkranke und Frühgeborene."
@@ -545,6 +590,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 5,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Der Natrium-Glukose-Kotransport zur Flüssigkeitsresorption ist etablierte Humanphysiologie, keine Marketing-Erzählung – der Nutzen ist aber an eine Bedingung geknüpft. Systematische Reviews zur Rehydration zeigen den Vorteil gegenüber reinem Wasser bei relevantem Schweißverlust, also Hitze oder Ausdauerbelastung über 60 bis 90 Minuten. Für normal aktive Menschen ohne solchen Verlust gibt es keine Evidenz für einen Zusatznutzen gegenüber Essen und Trinken. Gut dokumentiert sind sowohl die Hyponatriämie bei Ausdauersportlern als auch die Risiken bei eingeschränkter Nierenfunktion."
@@ -557,6 +603,7 @@
       "mechanismus": 7,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Zwei Welten in einem Eintrag. Als Arzneimittel ist NAC zugelassenes Antidot bei Paracetamol-Überdosierung und hat bei COPD Meta-Analysen-Evidenz zur Exazerbationsreduktion – dort ist die Wirkkette am Menschen klar. Für die Biohacking-Anwendung liegt eine Meta-Analyse über 12 RCTs mit 904 Patienten mit Depression vor (Gen Hosp Psychiatry 2024): SMD −0,24, statistisch signifikant, aber klein und mit breitem Konfidenzintervall. Die Vermarktung für Entgiftung und Anti-Aging bei Gesunden leiht sich die Glaubwürdigkeit der medizinischen Indikationen."
@@ -569,8 +616,9 @@
       "mechanismus": 3,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Für isoliertes Apigenin als Nahrungsergänzungsmittel wurde keine belastbare Humanevidenz gefunden. Was als Beleg zitiert wird, sind Studien zu Kamillenextrakt – der Apigenin enthält, aber auch vieles andere; ein kausaler Rückschluss auf die Einzelsubstanz ist daraus nicht möglich. Die GABA-A-Bindung stammt aus Rezeptorstudien der 1990er in Zellkultur und Tier. Systematische Sicherheitsdaten für die isolierte, hochdosierte Form existieren nicht, ebenso wenig eine Behördenbewertung."
     },
     {
@@ -581,6 +629,7 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Der Abstand zwischen Maus und Mensch ist hier der ganze Befund: Die senolytische Wirkung – die gezielte Beseitigung gealterter Zellen – ist in Maus- und Zellmodellen gut dokumentiert, am Menschen wurde bislang nicht gezeigt, dass orale Gabe seneszente Zellen in relevantem Umfang reduziert. Vorliegend sind erste Sicherheits- und Machbarkeitsdaten und ein kleines RCT bei Kniearthrose (ROPE, NCT04770064), bisher als Konferenzbeitrag. Die Dosierungsschemata umfassen wenige Tage; Langzeitdaten gibt es nicht."
@@ -593,6 +642,7 @@
       "mechanismus": 6,
       "sicherheit": 5,
       "hype": 3,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die belastbarste Humanevidenz betrifft eine Indikation, die mit der Vermarktung nichts zu tun hat: Eine Meta-Analyse über 6 RCTs mit 333 Teilnehmern (2025) zeigt bei Autismus-Spektrum-Störung eine Reduktion der Social Responsiveness Scale nach 4 bis 5 Wochen (SMD −0,98) – ein Effekt, der ab 18 Wochen verschwindet. Für Krebsprävention am Menschen liegen nur Biomarker-Studien zur Enzyminduktion vor, keine klinischen Endpunkte. Die Nrf2-Aktivierung ist über Urin-Metaboliten am Menschen nachgewiesen."
@@ -605,6 +655,7 @@
       "mechanismus": 4,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Für die beworbenen Effekte auf Kognition, Anti-Aging und Herz-Kreislauf existieren keine belastbaren RCTs mit klinischen Endpunkten. Die vorhandene Humanstudie war primär eine Sicherheitsprüfung (Riche et al., J Toxicol 2013) – und ein Nebenbefund aus einer Humanstudie zeigte einen Anstieg des LDL-Cholesterins, also das Gegenteil des kardiovaskulären Versprechens. Die bessere Bioverfügbarkeit gegenüber Resveratrol stammt aus Tierpharmakokinetik, die Sirtuin-Erzählung aus Zellkultur. Als Novel Food in der EU nicht zugelassen."
@@ -617,6 +668,7 @@
       "mechanismus": 6,
       "sicherheit": 7,
       "hype": 2,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Der auffälligste Widerspruch im Supplementbereich: Ein RCT mit 100 Patienten mit leichter kognitiver Beeinträchtigung (BMC Geriatrics 2024) zeigt über zwölf Wochen einen Vorteil im ADAS-Cog – gleichzeitig fand eine koreanische Kohortenstudie mit über zwölf Millionen Personen und zehn Jahren Nachbeobachtung (JAMA Network Open 2021) bei Alpha-GPC-Nutzern ein um 46 Prozent erhöhtes Schlaganfallrisiko mit Dosis-Wirkungs-Trend. Das ist eine Beobachtungsstudie, Confounding nicht ausgeschlossen, und als Mechanismus wird TMAO diskutiert. In der Werbung kommt dieses Signal praktisch nie vor."
@@ -629,6 +681,7 @@
       "mechanismus": 6,
       "sicherheit": 8,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Ein Lehrstück darüber, was passiert, wenn eine große Studie kommt: Ältere Meta-Analysen kleinerer RCTs sahen Vorteile beim Schlaganfall, die ICTUS-Studie (Lancet 2012) randomisierte dann 2.298 Patienten doppelblind auf 2.000 Milligramm täglich – und fand keinen Unterschied im globalen Recovery-Endpunkt nach 90 Tagen (OR 1,03; 95 % KI 0,86–1,25). Für die Nootropika-Anwendung bei Gesunden, mit der geworben wird, existiert ohnehin keine belastbare Evidenz. Die Verträglichkeit ist aus Jahrzehnten klinischer Studien gut bekannt."
@@ -641,6 +694,7 @@
       "mechanismus": 4,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Übersichtsarbeit (Kang & Cui 2022) fasst 9 Studien mit 961 Teilnehmern zusammen – aber nur 5 davon sind RCTs, der Rest Vorher-Nachher-Vergleiche ohne Kontrolle. Der Effekt auf das Gedächtnis zeigt sich bei älteren Erwachsenen mit bereits bestehender kognitiver Beeinträchtigung, gemessen an Testscores, nicht an harten Endpunkten. Die Wirkkette vom Membranphospholipid zur Kognition stammt aus Zell- und Tiermodellen. Vermarktet wird es an gesunde, jüngere Nutzer – eine Gruppe, die in den Studien nicht vorkommt."
@@ -653,6 +707,7 @@
       "mechanismus": 6,
       "sicherheit": 9,
       "hype": 3,
+      "anwendung": 9,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Die größte je durchgeführte Präventionsstudie zu Ginkgo hat das Kernversprechen widerlegt: Die GEM-Studie (DeKosky et al., JAMA 2008) randomisierte 3.069 Personen ab 75 Jahren über rund sechs Jahre; 523 Demenzfälle traten auf, 277 unter Ginkgo, 246 unter Placebo – kein Effekt auf Demenz jeglicher Art oder Alzheimer. Genau diese Studie liefert nebenbei die beste Sicherheitsdatenlage: keine erhöhte Blutungsneigung, was eine Meta-Analyse von RCTs bestätigt, während Fallberichte bei Kombination mit Gerinnungshemmern weiter existieren."
@@ -665,6 +720,7 @@
       "mechanismus": 9,
       "sicherheit": 7,
       "hype": 6,
+      "anwendung": 8,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Selten ist die Wirkkette so sauber am Menschen belegt: Muskelbiopsien zeigen, dass orale Gabe den Carnosingehalt erhöht, und Carnosin puffert den pH-Wert im Muskel. Die Meta-Analysen (Hobson et al. 2012; Saunders et al. 2017) finden entsprechend einen kleinen bis moderaten Effekt – aber ausschließlich bei hochintensiven Belastungen zwischen 60 und 240 Sekunden; darunter und darüber nichts. Das Kribbeln ist eine bekannte, dosisabhängige und harmlose Nebenwirkung. Die Vermarktung dehnt einen engen, gut belegten Nutzen auf allgemeine Fitness aus."
@@ -677,6 +733,7 @@
       "mechanismus": 7,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die aktuellste Meta-Analyse (Nutrients 2026) wertet 30 RCTs mit 644 Teilnehmern und 138 Effektgrößen aus und findet einen Gesamteffekt auf die Trainingsleistung von g = 0,16 bei einer Evidenzsicherheit, die die Autoren selbst als niedrig bis sehr niedrig einstufen. Bemerkenswert ist der zweite Punkt: Die vielzitierte Blutdruck-Meta-Analyse von 2019 wurde zurückgezogen – und kursiert trotzdem weiter in Werbematerial. Dass Citrullin Plasma-Arginin und NO-Marker erhöht, ist am Menschen bestätigt."
@@ -689,8 +746,9 @@
       "mechanismus": 2,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Die entscheidende Frage ist ungeklärt: Ob orales GABA die Blut-Hirn-Schranke überhaupt in relevanter Menge passiert, ist am Menschen nicht belegt – genau das setzt die Werbung aber voraus, wenn sie eine Beruhigung des Gehirns verspricht. Ein systematisches Review (Frontiers in Neuroscience 2020) über 14 Studien nennt die Evidenz für Stressreduktion begrenzt und die für Schlafverbesserung sehr begrenzt. Als Alternativerklärung wird der Umweg über das enterische Nervensystem diskutiert, ebenfalls unbestätigt. Für Wachstumshormon oder Muskelaufbau gibt es nichts."
     },
     {
@@ -701,6 +759,7 @@
       "mechanismus": 7,
       "sicherheit": 7,
       "hype": 5,
+      "anwendung": 7,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Für eine klar definierte Gruppe gut belegt: Eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen mit PCOS (Reprod Biol Endocrinol 2023) zeigt Verbesserungen bei BMI, Testosteron, Nüchternglukose und Insulin sowie bei der Zyklusnormalisierung – gegenüber Metformin nicht unterlegen, bei deutlich weniger Nebenwirkungen (7 statt 53 Prozent). Der Insulin-Signalweg als sekundärer Botenstoff ist am Menschen belegt. Die breite Vermarktung an stoffwechselgesunde Frauen ist von dieser Evidenz nicht gedeckt."
@@ -713,6 +772,7 @@
       "mechanismus": 6,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Meta-Analyse (J Sports Sci 2024) über 17 Studien mit 317 Teilnehmern findet einen Effekt auf Maximalkraft (SMD 0,47), getragen vom Unterkörper (0,49) und der Sprungleistung – bei Oberkörperkraft, Sprint und Muskelausdauer dagegen nichts. Als Methylgruppendonor ist die Homocystein-Senkung biochemisch bestätigt, die Kette zur Kraftsteigerung nicht vollständig aufgeklärt. Die EFSA hat Betain als Novel Food bewertet, was die Sicherheitsdatenlage über den Supplement-Durchschnitt hebt. Beworben wird deutlich mehr als Unterkörperkraft."
@@ -725,6 +785,7 @@
       "mechanismus": 7,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Evidenz ist gut, aber sehr eng: Eine Meta-Analyse (Pharmacopsychiatry 2022) über 9 Studien mit insgesamt 6.707 Patienten zeigt als Zusatztherapie bei SSRI-resistenter Depression eine bessere Ansprechrate (RR 1,25 aus 3 Studien mit 483 Patienten) und Symptomreduktion (SMD −0,38), typischerweise mit 15 Milligramm täglich. Das ist eine Behandlung für eine diagnostizierte Erkrankung, keine Stimmungsoptimierung für Gesunde. Für den pauschalen Rat an alle MTHFR-Träger fehlt diese Datenbasis."
@@ -737,8 +798,9 @@
       "mechanismus": 3,
       "sicherheit": 5,
       "hype": 2,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Die meistzitierte Studie stammt von 1987 und umfasste 12 postmenopausale Frauen – untersucht wurde der Mineralstoffwechsel, nicht Testosteron bei Männern. Die häufig angeführte Bodybuilder-Studie (Ferrando & Green, Int J Sport Nutr 1993) fand keinen Testosteroneffekt über Placebo hinaus. Ein Wirkmechanismus für die beworbene Testosteronsteigerung ist am Menschen nicht etabliert. Immerhin ist die Obergrenze definiert: 20 Milligramm täglich nach NIH, mit einer EFSA-Bewertung von 2004; schwere Vergiftungen betreffen Grammbereiche."
     },
     {
@@ -749,8 +811,9 @@
       "mechanismus": 2,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Ein Fall mit umgekehrtem Vorzeichen: Wirksamkeitsdaten fehlen praktisch vollständig – eine Übersicht der Humanstudien findet nur zwei alte, unkontrollierte, unverblindete sowjetische Arbeiten (Psoriasis 1973, Magengeschwüre 1981), keine registrierte moderne Studie. Dokumentiert sind dagegen Schäden: mehrere Fallberichte zu Oxalat-Nephropathie, darunter ein terminales Nierenversagen nach vier Jahren Einnahme, bei einem gemessenen Produktoxalatgehalt von 14,2 Gramm pro 100 Gramm. Die Immun- und Antioxidationsversprechen stammen aus Zellkultur und Tradition."
     },
     {
@@ -761,6 +824,7 @@
       "mechanismus": 3,
       "sicherheit": 4,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Es gibt Humandaten, aber man muss wissen, woher: Mehrere RCTs, zuletzt mit 150 gesunden Erwachsenen (Sci Rep 2025), zeigen nach 8 bis 12 Wochen Verbesserungen bei Hautfeuchtigkeit, Elastizität und Faltentiefe – gemessen mit kosmetischen Surrogatverfahren, und viele dieser Studien sind von Rohstoffherstellern mitfinanziert. Mechanistisch ist offen, wie ein hochmolekulares Polysaccharid nach dem Abbau im Darm in der Haut wirken soll; erklärt wird es über eine angeregte körpereigene Synthese, belegt ist das am Menschen nicht."
@@ -773,6 +837,7 @@
       "mechanismus": 4,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Der Cochrane-Review (Towheed et al., CD002946) wertet 25 Studien mit 4.963 Arthrose-Patienten aus – und das Ergebnis hängt am Präparat: In den Studien zum Rotta-Produkt war Glucosamin überlegen, in den qualitativ hochwertigen unabhängigen Studien zeigte sich kein Vorteil gegenüber Placebo bei Schmerz und Funktion. Ein Effekt, der sich nur bei einem einzigen Hersteller reproduzieren lässt, ist kein Substanzeffekt. Die Sicherheit ist über Jahrzehnte und tausende Teilnehmer hervorragend untersucht und liegt auf Placeboniveau."
@@ -785,6 +850,7 @@
       "mechanismus": 4,
       "sicherheit": 4,
       "hype": 4,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Meta-Analyse (Medicina 2022) über 5 RCTs mit 232 Männern findet einen deutlichen Testosteronanstieg (SMD 1,352) – bei einer Heterogenität von 87 Prozent und Hinweisen auf Publikationsbias, also genau den beiden Kennzahlen, die ein Ergebnis relativieren. Der Effekt ist bei Männern mit Werten unter 300 ng/dl ausgeprägter als bei Gesunden. Der postulierte SHBG-Mechanismus ist am Menschen nur indirekt über Hormonmessungen gestützt. Die Studien laufen 4 bis 12 Wochen; systematische Langzeitdaten fehlen."
@@ -797,8 +863,9 @@
       "mechanismus": 2,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Der einzige Eintrag im Bestand ohne eine einzige Humanstudie: Die verfügbaren Übersichten stellen ausdrücklich fest, dass bis heute keine durchgeführt wurde. Sämtliche Testosteron- und Libidoversprechen stützen sich auf Rattenstudien – und genau dort liegt auch das Sicherheitssignal: Yakubu et al. (J Ethnopharmacol 2007) sahen nach fünf Tagen einen Testosteronanstieg, bei längerer Gabe über etwa einen Monat dagegen Hinweise auf Hodenschädigung. In der EU läuft seit Juni 2025 ein Novel-Food-Konsultationsverfahren; ein zugelassener Status besteht nicht."
     },
     {
@@ -809,6 +876,7 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die vielzitierte Aussage, das biologische Alter sinke um acht Jahre, stammt aus einer retrospektiven Auswertung von 42 Anwendern eines Fertigprodukts (Aging 2022) – ohne Placebo, ohne Randomisierung, gemessen an einer epigenetischen Uhr, die selbst nicht als Endpunkt validiert ist. Die Autoren benennen das als Limitation. Die Lebensspannenverlängerung ist ein Mausbefund. Ein echtes RCT läuft (ABLE-Studie), Ergebnisse stehen aus. Systematische Sicherheitsdaten existieren nicht."
@@ -821,6 +889,7 @@
       "mechanismus": 6,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Ungewöhnlich viele RCTs für ein Longevity-Supplement – mit einem klaren Muster: Der NAD+-Spiegel im Blut steigt zuverlässig, das ist reproduziert. Eine kritische Übersicht (Science Advances 2023) fasst zusammen, dass die meisten klinischen Endpunkte – Insulinsensitivität, Glukosekontrolle, Körperzusammensetzung, Blutdruck – unbeeinflusst blieben; repliziert ist allein eine Senkung von Entzündungsmarkern. Für Alterung selbst existieren am Menschen keine Endpunktdaten. Die Sicherheit ist über Wochen bis Monate ordentlich untersucht, auch in einer Hochdosisstudie bei Parkinson."
@@ -833,6 +902,7 @@
       "mechanismus": 3,
       "sicherheit": 3,
       "hype": 3,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Es gibt zwei kontrollierte Humanstudien, beide klein und beide auf Hormonwerte begrenzt: Pandit et al. (Andrologia 2016) fanden bei 75 gesunden Männern über 90 Tage einen Anstieg des Gesamttestosterons um 23,5 Prozent, eine zweite Studie zeigte bei Oligospermie verbesserte Spermienparameter. Funktionelle Endpunkte wie Libido oder Kraft wurden nicht gemessen. Der eigentliche Risikopunkt liegt im Produkt: Eine Untersuchung von 2025 fand Thallium in Präparaten, und Analysen zeigen extreme Schwankungen im Fulvinsäuregehalt zwischen Anbietern."
@@ -845,6 +915,7 @@
       "mechanismus": 3,
       "sicherheit": 5,
       "hype": 3,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Meta-Analyse (Nutrients 2020) über 10 RCTs mit 239 Teilnehmern misst genau das, womit geworben wird – Immunglobuline, Lymphozyten, Speichel-IgA – und findet keinen oder nur einen geringen Effekt. Eine 24-Wochen-Studie an 28 Fußballern (Nutrients 2023) sah keine Leistungsverbesserung, aber verändertes IgG und TNF-α. Ältere Befunde zu weniger Atemwegsinfekten bei Sportlern existieren, doch die Autoren nennen den Mechanismus selbst unbekannt – die gemessenen Immunmarker erklären ihn jedenfalls nicht."
@@ -857,6 +928,7 @@
       "mechanismus": 3,
       "sicherheit": 2,
       "hype": 2,
+      "anwendung": 5,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Es existiert genau eine kontrollierte Humanstudie mit funktionellen Endpunkten: 48 Teilnehmer über acht Wochen (Nutrients 2025) mit Verbesserungen bei Bankdrücken, Kniebeuge und Maximalkraft sowie bei Testosteron und Cortisol – unrepliziert und klein. Beworben wird Cistanche dagegen für Libido und Langlebigkeit, also für etwas, das diese Studie gar nicht untersucht hat. Systematische Human-Toxizitätsdaten fehlen; die lange Verwendung in der traditionellen chinesischen Medizin ersetzt keine Sicherheitsstudie."
@@ -869,6 +941,7 @@
       "mechanismus": 3,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 7,
       "richtung": "negativ",
       "label": "Untersucht – Nutzen nicht gezeigt",
       "beleg": "Das Kernversprechen ist untersucht und hält nicht: Ein systematisches Review über 10 RCTs mit 483 Teilnehmern (Nutrients 2025) findet für Testosteron keine robuste Evidenz – 8 von 10 Studien zeigten keinen Effekt, zwei einen moderaten Anstieg von 60 bis 70 ng/dl, und das nur bei niedrigem Ausgangswert. Bei erektiler Dysfunktion waren 3 von 5 Studien positiv, allerdings mit niedriger methodischer Qualität in der Hälfte der Arbeiten. Der Protodioscin-Pfad ist am Menschen nicht bestätigt."
@@ -881,6 +954,7 @@
       "mechanismus": 4,
       "sicherheit": 7,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Ein seltener Fall, in dem die Sicherheit deutlich besser untersucht ist als die Wirkung: Die EFSA hat synthetisches L-Ergothionein 2016 als Novel Food bewertet und 2020 für weitere Gruppen ergänzt. Die einzige Interventionsstudie ist dagegen eine Pilot-RCT mit 19 Personen über ein Jahr (Int Psychogeriatr 2024) – bessere Lernleistung im RAVLT und stabile Neurofilament-Leichtketten als Surrogatmarker. Der Rest sind Beobachtungsdaten: niedrige Plasmaspiegel gehen mit kognitivem Abbau einher, was keine Kausalität zeigt."
@@ -893,6 +967,7 @@
       "mechanismus": 6,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die Behauptung, GlyNAC kehre Merkmale des Alterns um, geht auf eine Studie mit 24 älteren Erwachsenen über 16 Wochen zurück (Sekhar et al., J Gerontol A 2022) – aus einer einzigen Arbeitsgruppe, ohne unabhängige Replikation. Verbessert waren Glutathionstatus, oxidativer Stress, Mitochondrienfunktion sowie Ganggeschwindigkeit und Gehstrecke. Dass Glycin und Cystein die Glutathionsynthese speisen, ist etablierte Humanbiochemie; der Sprung von dort zu Aging-Hallmarks ist es nicht. Harte Endpunkte fehlen, Langzeitdaten über 16 Wochen hinaus ebenfalls."
@@ -905,8 +980,9 @@
       "mechanismus": 4,
       "sicherheit": 3,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Hier steht die Rechtslage vor der Evidenzfrage: Lithium ist in Deutschland und der EU kein zugelassener Nährstoff für Nahrungsergänzungsmittel und steht nicht auf der Positivliste – die Verbraucherzentrale weist ausdrücklich darauf hin. Inhaltlich stützt sich die Longevity-Erzählung auf ökologische Korrelationen zwischen Lithiumgehalt im Trinkwasser und Suizidraten auf Bevölkerungsebene, nicht auf Interventionsstudien. Für therapeutisches Lithiumcarbonat ist die Wirkung bei bipolarer Störung gut belegt – bei enger therapeutischer Breite und ärztlicher Spiegelkontrolle."
     },
     {
@@ -917,6 +993,7 @@
       "mechanismus": 7,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Ketosephysiologie ist gut verstanden und die Blutspiegelerhöhung am Menschen unstrittig – nur folgt daraus offenbar nicht das Beworbene: Die Übersicht des Operation-Supplement-Safety-Programms des US-Verteidigungsministeriums hält fest, dass trotz der Marketingversprechen nur sehr wenig Evidenz für Leistungs- oder kognitive Effekte vorliegt, mit mehrfachen Nullergebnissen bei Lauf- und Radleistung. Eine 28-Tage-Verträglichkeitsstudie liegt vor, Langzeitdaten nicht; Magen-Darm-Beschwerden sind die häufigste Nebenwirkung."
@@ -929,6 +1006,7 @@
       "mechanismus": 6,
       "sicherheit": 4,
       "hype": 4,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Für einen Surrogatmarker konsistent, für den beworbenen Rahmen nicht: Ein RCT mit 64 Teilnehmern über vier Monate (Foods 2024) senkte mit 150 Milligramm standardisierter Flavonoide das LDL um 11,5 Prozent und das Gesamtcholesterin um 8,8 Prozent, mehrere kleinere Studien zeigen dasselbe Muster. Kardiovaskuläre Endpunkte – Herzinfarkt, Sterblichkeit – wurden nie untersucht. Genau darin liegt die Lücke der Bezeichnung als natürliches Statin: Statine sind über harte Endpunkte in großen Studien belegt, Bergamotte über Blutwerte in kleinen."
@@ -941,6 +1019,7 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Beworben wird die Auflösung von Blutgerinnseln, gezeigt ist eine Blutdrucksenkung: Eine Meta-Analyse über 8 RCTs (2024) findet 3,45 mmHg systolisch und 2,32 mmHg diastolisch, die Lipideffekte sind dosisabhängig und uneinheitlich. Keine Studie hat reduzierte thrombotische Ereignisse untersucht. Die fibrinolytische Aktivität ist über Biomarker wie D-Dimer und Fibrinogen belegt, der klinische Schritt nicht. Als konzentriertes Präparat ist Nattokinase deutlich schlechter charakterisiert als das traditionelle Natto; das Blutungsrisiko unter Gerinnungshemmern ist dokumentiert."
@@ -953,6 +1032,7 @@
       "mechanismus": 2,
       "sicherheit": 5,
       "hype": 1,
+      "anwendung": 6,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Der aussagekräftigste Befund kommt vom Hersteller selbst: Der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 freiwillig vom Markt, nachdem eigene Daten die Wirksamkeit nicht bestätigten. Das systematische Review (Bhagat et al., Int J Surg 2013) führt japanische Postmarketing-Studien mit 301 und 252 Patienten, die keinen Effekt bei Schwellung fanden, und eine Studie mit 311 Patienten ohne Unterschied zu Placebo bei Atemwegsbeschwerden. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich."
@@ -965,6 +1045,7 @@
       "mechanismus": 5,
       "sicherheit": 5,
       "hype": 5,
+      "anwendung": 7,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Datenlage ist besser als bei den meisten Pflanzenextrakten, die Formulierung der Werbung trotzdem ungenau: Eine Meta-Analyse (Nutrition Reviews 2024) über 8 Studien zu Depression und 4 zu Angst findet keinen Unterschied zu SSRI (SMD 0,10 beziehungsweise 0,04) bei weniger Nebenwirkungen – das sind Vergleiche gegen einen Wirkstoff, nicht gegen Placebo. Placebokontrollierte Meta-Analysen existieren zusätzlich und fallen positiv aus. Studien laufen mit etwa 30 Milligramm täglich über 6 bis 12 Wochen; hohe Dosen gelten in der Schwangerschaft als problematisch."
@@ -977,6 +1058,7 @@
       "mechanismus": 3,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Das gesamte Alleinstellungsmerkmal beruht auf einem unbestätigten Schritt: Dass diese Magnesiumform als einzige die Blut-Hirn-Schranke überwindet, stammt aus Messungen an Nagerhirngewebe – am lebenden Menschen wurde das Hirnmagnesium in keiner der vorliegenden Studien gemessen. Zwei herstellerfinanzierte RCTs mit 80 und 100 Teilnehmern über drei bis sechs Wochen berichten bessere Schlafqualität und ein um 7,5 Jahre reduziertes kognitives Alter als Kompositscore – in derselben Studienreihe unterschieden sich die objektiven Schlafmessungen zwischen den Gruppen jedoch nicht."
@@ -989,6 +1071,7 @@
       "mechanismus": 9,
       "sicherheit": 7,
       "hype": 5,
+      "anwendung": 7,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Der am besten verstandene Mechanismus unter den Supplements: Der Weg von Nitrat über Nitrit zu Stickstoffmonoxid ist am Menschen direkt über Plasma- und Speichelmessungen nachvollzogen. Die Meta-Analyse über 11 RCTs mit 349 Hypertonikern (Nutr Metab Cardiovasc Dis 2024) zeigt eine systolische Senkung um 5,31 mmHg – diastolisch und in der 24-Stunden-Messung dagegen keinen signifikanten Effekt, bei einer Evidenzsicherheit, die die Autoren selbst als niedrig einstufen. Kaum erwähnt wird, dass Mundspülung die nitratreduzierenden Bakterien abtötet und den Effekt aufhebt."
@@ -1001,6 +1084,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Als Enzymkofaktor für Cytochrom-c-Oxidase, Superoxiddismutase und Caeruloplasmin ist Kupfer lückenlos verstanden, und der Mangel mit Anämie, Neutropenie und Demyelinisierung klar beschrieben – nur ist dieser Mangel bei Gesunden ohne Malabsorption oder Zinküberschuss selten. Für die Supplementierung von Nichtmangelnden ist der Nutzen nicht gezeigt; eine Alzheimer-Studie mit 8 Milligramm täglich veränderte nur einen Amyloid-Biomarker ohne kognitiven Effekt. Die Obergrenze liegt bei 10 Milligramm, doch bereits 7,8 Milligramm über 147 Tage führten zu Zeichen einer Überladung."
@@ -1013,6 +1097,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 7,
+      "anwendung": 9,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Zugelassen auf Basis der STEP-Studien, kardiovaskulärer Nutzen in SELECT mit hartem Endpunkt, Wirkkette am Menschen quantifiziert, Pharmakovigilanz läuft. Abzug beim Hype-Abstand für den Graumarkt, der mit denselben Zahlen wirbt, ohne dasselbe Produkt zu verkaufen."
@@ -1025,6 +1110,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 7,
+      "anwendung": 8,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Zugelassen auf Basis der SURMOUNT- und SURPASS-Programme; der doppelte Rezeptorangriff ist am Menschen belegt. Weniger Langzeitdaten als bei Semaglutid, weil jünger. Kostenübernahme durch die Kasse ist ausgeschlossen – das fällt in der Werbung unter den Tisch."
@@ -1037,6 +1123,7 @@
       "mechanismus": 8,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 4,
       "richtung": "positiv",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden – und seit Ende 2025 aus Phase III statt aus Phase II: TRIUMPH-1 randomisierte 2.339 Teilnehmer über 80 Wochen und erreichte in der höchsten Dosis 28,3 Prozent Gewichtsreduktion; TRIUMPH-4 kam mit 445 Teilnehmern über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Der Dreifach-Agonismus an GLP-1-, GIP- und Glukagon-Rezeptoren ist damit am Menschen belegt. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43 Prozent und Studienabbruch wegen Nebenwirkungen bei bis zu 18 Prozent. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
@@ -1049,8 +1136,9 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Trotz enormer Popularität keine publizierte kontrollierte Humanstudie; die Datenlage besteht aus Nagermodellen. Sicherheit nicht systematisch untersucht. Verkauft wird es als Reparaturmittel für nahezu jedes Gewebe."
     },
     {
@@ -1061,8 +1149,9 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die Humandaten betreffen Thymosin Beta-4 in klinischen Ansätzen, nicht das gehandelte Fragment; kontrollierte Studien zum Research-Produkt fehlen. Sicherheit unerforscht, Vermarktung als Regenerations-Wundermittel."
     },
     {
@@ -1073,6 +1162,7 @@
       "mechanismus": 8,
       "sicherheit": 5,
       "hype": 3,
+      "anwendung": 4,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Hier gibt es echte Humanstudien, auch über Monate – und genau die sind ernüchternd: Wachstumshormon und IGF-1 steigen, die erhofften Ergebnisse bei Kraft und Körperzusammensetzung folgen daraus nicht. Blutzuckerverschlechterung ist dokumentiert; beworben wird trotzdem der Peak."
@@ -1085,6 +1175,7 @@
       "mechanismus": 6,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Zu den Einzelsubstanzen existieren ältere pharmakologische Humandaten, zur beliebten Kombination praktisch keine. Der Weg über GHRH- und Ghrelin-Rezeptor ist verstanden, die Auszahlung nicht belegt."
@@ -1097,6 +1188,7 @@
       "mechanismus": 7,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Ein geteilter Fall: topisch gibt es brauchbare kosmetische Studien, für die injizierte Anwendung praktisch keine Humandaten. Die Genregulations-Erzählung stammt aus Zellarbeiten und wird für beide Anwendungswege benutzt."
@@ -1109,6 +1201,7 @@
       "mechanismus": 3,
       "sicherheit": 3,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die Humandaten stammen fast ausschließlich aus kleinen, unverblindeten Arbeiten einer einzigen Forschungsschule; eine unabhängige Replikation gibt es bislang nur auf Zellebene. Beworben wird Telomerverlängerung als Verjüngung."
@@ -1121,6 +1214,7 @@
       "mechanismus": 9,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Der mTOR-Weg ist einer der am besten verstandenen der Alternsforschung und in Modellorganismen überzeugend. Am Menschen gibt es zugelassene Anwendungen in der Transplantationsmedizin, aber keine Longevity-Endpunktdaten; die Off-Label-Nutzung läuft der Evidenz voraus."
@@ -1133,8 +1227,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die mechanistische Schlüsselarbeit ist zurückgezogen, das darauf aufgebaute Medikament in Phase 2/3 gescheitert, registrierte klinische Studien zur Substanz selbst gibt es nicht. Sicherheit völlig unerforscht. Siehe Änderungsprotokoll."
     },
     {
@@ -1145,6 +1240,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 5,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Für Typ-2-Diabetes seit Jahrzehnten zugelassen, mit Endpunktdaten und umfassender Pharmakovigilanz. Der Longevity-Anspruch ist etwas anderes: Die dafür entscheidende Studie ist nicht abgeschlossen, und es gibt Hinweise, dass Metformin Trainingsanpassungen dämpft."
@@ -1157,6 +1253,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Die Substitution bei diagnostiziertem Hypogonadismus ist seit Jahrzehnten zugelassen und die Wirkkette am Menschen zweifelsfrei belegt – die Frage ist, wer behandelt wird. Die TRAVERSE-Studie (Lincoff et al., NEJM 2023) randomisierte 5.246 Männer über im Mittel 27 Monate: kardiovaskulär nicht unterlegen, aber mehr Vorhofflimmern (91 gegen 63 Fälle) und mehr akutes Nierenversagen. Das BfArM wies 2025 auf die stark steigende Verordnungshäufigkeit hin, die teils außerhalb der Zulassung erfolgt. Für Männer mit niedrig-normalen Werten ohne Diagnose gibt es keine Zulassungsstudie."
@@ -1169,6 +1266,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 3,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Für Wachstumshormonmangel und definierte Syndrome liegen Phase-III- und Registerdaten aus vier Jahrzehnten vor – für die Anti-Aging-Anwendung nichts Vergleichbares. Die dafür stets zitierte Rudman-Arbeit (NEJM 1990) umfasste 21 Männer, war unkontrolliert und kurz. Bekannt sind bei supraphysiologischer Dosierung Ödeme, Karpaltunnelsyndrom und Insulinresistenz. Rechtlich ist Somatropin verschreibungspflichtig; Erwerb ohne Rezept ab der in der Dopingmittel-Mengen-Verordnung genannten Menge ist nach dem Anti-Doping-Gesetz strafbar."
@@ -1181,6 +1279,7 @@
       "mechanismus": 8,
       "sicherheit": 7,
       "hype": 3,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "In den USA seit 2010 zugelassen – aber für eine sehr spezielle Gruppe: die Reduktion viszeralen Fetts bei HIV-assoziierter Lipodystrophie, belegt durch Phase-III-Studien. In der EU existiert diese Zulassung nicht; der Antragsteller zog den Antrag bei der EMA zurück. Als GHRH-Analogon ist die Stimulation der körpereigenen Wachstumshormonausschüttung am Menschen bestätigt. Für Gesunde ohne Lipodystrophie – die beworbene Zielgruppe – wurde keine kontrollierte Studie gefunden."
@@ -1193,6 +1292,7 @@
       "mechanismus": 7,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Das ursprünglich zugelassene Präparat wurde vom Markt genommen; die US-Behörde stellte 2013 ausdrücklich fest, dass dies nicht aus Sicherheits- oder Wirksamkeitsgründen geschah. Die alten Zulassungsdaten betreffen die pädiatrische Diagnostik, nicht die heute beworbene Anti-Aging-Anwendung bei Erwachsenen – dafür wurde keine belastbare aktuelle Humanevidenz gefunden. Die physiologische, pulsatile Stimulation ist am Menschen bestätigt. Seit dem Marktrückzug gibt es keine laufende Pharmakovigilanz."
@@ -1205,6 +1305,7 @@
       "mechanismus": 6,
       "sicherheit": 2,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Es gibt genau eine publizierte kontrollierte Humanstudie: Teichman et al. (J Clin Endocrinol Metab 2006) zeigten an Gesunden nach Einzeldosen über mehrere Tage anhaltend erhöhte Wachstumshormon- und IGF-1-Spiegel. Weitere unabhängige Studien wurden nicht gefunden, die Entwicklung wurde eingestellt, eine Zulassung gab es nie. Was daraus für den Dauergebrauch folgt – insbesondere für dauerhaft erhöhtes IGF-1 – ist nicht untersucht. In Deutschland kein verkehrsfähiges Arzneimittel, auf der WADA-Verbotsliste."
@@ -1217,8 +1318,9 @@
       "mechanismus": 5,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Zu dieser konkreten Verbindung wurden keine eigenen Humanstudien gefunden. Die gesamte Wirkannahme wird aus älteren Daten zu Sermorelin und anderen GHRH-Fragmenten abgeleitet, die diese Modifikation gar nicht tragen – das ist eine Übertragung, kein Beleg. Sicherheitsdaten am Menschen existieren nicht. In Deutschland Forschungschemikalie ohne Arzneimittelstatus. Die zugehörige Podcastfolge wurde aus dem Bestand genommen, weil das Thema in einer späteren Folge sauberer behandelt wurde."
     },
     {
@@ -1229,6 +1331,7 @@
       "mechanismus": 7,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "In Japan existiert eine Zulassung – aber als Diagnostikum für den Wachstumshormon-Stimulationstest, also für eine einmalige Gabe unter ärztlicher Aufsicht. Genau darauf beziehen sich auch die älteren pharmakologischen Studien. Für die beworbene Daueranwendung zu Muskelaufbau und Fettabbau wurde keine belastbare Humanevidenz gefunden. Dass die Substanz akut Wachstumshormon freisetzt, ist bestätigt; dass daraus über Monate ein Nutzen entsteht, nicht. In Deutschland nicht zugelassen, WADA-Verbotsliste."
@@ -1241,6 +1344,7 @@
       "mechanismus": 6,
       "sicherheit": 2,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die einzige auffindbare Humanstudie ist eine kubanische Phase-I-Dosisfindung an 18 gesunden Männern: 23 unerwünschte Ereignisse bei 12 Probanden, keine schwerwiegenden – aber auch keine Wirksamkeitsendpunkte für Muskelaufbau oder Longevity. Publiziert in einer nicht international referenzierten Zeitschrift. Eine kleine Verträglichkeitsstudie ist kein Beleg für eine sichere Dauerkur. Keine Zulassung in irgendeinem Land, in Deutschland Forschungschemikalie, WADA-Verbotsliste."
@@ -1253,6 +1357,7 @@
       "mechanismus": 7,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 2,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Für ein Graumarkt-Peptid ungewöhnlich viele Humandaten – alle aus den 1990ern von derselben Turiner Gruppe (Ghigo, Arvat) in J Clin Endocrinol Metab und anderen: Dosis-Wirkungs-Studien zur Wachstumshormonfreisetzung, kardiale Effekte bei Hypophyseninsuffizienz, akute Hämodynamik während Bypass-Operationen. Die Entwicklung wurde wegen rascher Desensibilisierung eingestellt. Die beworbene Kardioprotektion stützt sich auf Rattenmodelle und akute Surrogatparameter, nicht auf klinische Endpunkte."
@@ -1265,8 +1370,9 @@
       "mechanismus": 5,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die Substanz wurde nie als Arzneimittel für Menschen entwickelt – sie entstand als Zellkultur-Reagenz, das die IGF-Bindungsproteine umgehen sollte. Kontrollierte Humanstudien wurden nicht gefunden. Die theoretischen Risiken – Unterzuckerung durch Kreuzreaktivität am Insulinrezeptor, Wachstumsstimulation von Tumorgewebe – ergeben sich aus der IGF-1-Physiologie und wurden für diese Verbindung am Menschen nie geprüft. Kein Arzneimittel in Deutschland; IGF-1-Analoga stehen auf der WADA-Verbotsliste."
     },
     {
@@ -1277,6 +1383,7 @@
       "mechanismus": 8,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 4,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Wirksamkeitsdaten sind solide: Eine Meta-Analyse über 10 RCTs mit 819 Patienten (Arch Endocrinol Metab 2025) zeigt einen Anstieg des Gesamttestosterons um 273,8 ng/dl gegenüber Placebo, dazu LH und FSH – gegenüber Testosterongel gleichwertig, mit dem Vorteil erhaltener Spermatogenese. Der Haken liegt woanders: Der US-Zulassungsantrag wurde 2016 wegen unzureichender kardiovaskulärer Sicherheitsdaten abgelehnt, und bis heute existiert nirgends ein zugelassenes Fertigarzneimittel. Die Werbung suggeriert eine Zulassungsreife, die formal nie erreicht wurde."
@@ -1289,6 +1396,7 @@
       "mechanismus": 7,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 2,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Es gibt gute Humanphysiologie – nur nicht zu dem, wofür geworben wird: Studien der Gruppe am Imperial College, zuletzt eine randomisierte Crossover-Studie mit 95 gesunden Probanden (J Clin Endocrinol Metab 2025), bestätigen einen robusten LH-Anstieg unter kontrollierter Infusion, fanden aber keinen Effekt auf Angst, Cortisol, Blutdruck oder Herzfrequenz. Für die beworbene Libido- und Fertilitätsoptimierung im Alltag wurde nichts gefunden. Zur chronischen Selbstanwendung existieren keinerlei Daten."
@@ -1301,6 +1409,7 @@
       "mechanismus": 9,
       "sicherheit": 7,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die pulsatile Stimulation der Hypophysen-Gonaden-Achse ist am Menschen vollständig verstanden und seit Jahrzehnten diagnostisch und therapeutisch im Einsatz; Studien zur Pumpentherapie bei angeborenem hypogonadotropem Hypogonadismus zeigen eine frühere Spermatogenese als unter zyklischer Gonadotropintherapie. Der heute im Biohacking beworbene Einsatz ist ein anderer: als Zusatz zu einer Testosterontherapie bei sonst gesunden Männern. Für diese Kombination wurden keine kontrollierten Langzeitdaten gefunden."
@@ -1313,6 +1422,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Seit Jahrzehnten zugelassen und mechanistisch klar: Über den LH-Rezeptor erhält hCG die Leydigzellfunktion. Eine Übersicht (Transl Androl Urol 2018) fasst Studien zusammen, in denen zuvor azoosperme Männer nach im Mittel vier Monaten wieder auf durchschnittlich 22 Millionen Spermien pro Milliliter kamen. Die Kombination mit einer Testosterontherapie zum Fertilitätserhalt ist mechanistisch gut begründet, aber Off-Label. Die als hCG-Diät verbreitete Anwendung zur Gewichtsreduktion hat mit dieser Evidenz nichts zu tun."
@@ -1325,6 +1435,7 @@
       "mechanismus": 7,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 4,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Zugelassen ist die Substanz seit 2019 in den USA – für prämenopausale Frauen mit erworbener Luststörung, belegt durch zwei randomisierte Phase-III-Studien des RECONNECT-Programms (Kingsberg et al., Obstet Gynecol 2019). Beworben wird sie im Biohacking überwiegend für Männer, und dafür wurden keine Zulassungsstudien gefunden. Auch die dokumentierten Nebenwirkungen stammen aus der Frauenpopulation: häufig Übelkeit, dazu Blutdruckanstieg und fleckige Hyperpigmentierung bei wiederholter Gabe. In Deutschland nicht zugelassen."
@@ -1337,6 +1448,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 7,
+      "anwendung": 10,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Eine der am besten belegten Substanzen im gesamten Bestand: seit 2003 zugelassen für erektile Dysfunktion, dazu für die gutartige Prostatavergrößerung und die pulmonale arterielle Hypertonie, jeweils auf Basis umfangreicher Phase-III-Programme. Die PDE5-Hemmung ist am Menschen quantitativ verstanden. Über zwei Jahrzehnte Pharmakovigilanz liefern ein klares Warnprofil – Nitrat-Interaktion, Sehstörungen, Priapismus. Der Abzug betrifft nur die Randvermarktung als allgemeiner Gefäß-Longevity-Wirkstoff, für die es keine Zulassungsstudien gibt."
@@ -1349,6 +1461,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 7,
+      "anwendung": 10,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Seit 1998 zugelassen, auf Basis der Zulassungsstudien um Goldstein et al. (NEJM 1998) mit signifikanter Verbesserung der Erektionsfunktion gegenüber Placebo, später zusätzlich für die pulmonale arterielle Hypertonie. Die PDE5-Hemmung gehört zu den am besten charakterisierten Wirkketten der Pharmakologie. Über 25 Jahre Marktüberwachung liefern ein vollständiges Risikoprofil, einschließlich der Nitrat-Kontraindikation. Beworben wird zunehmend auch ein allgemeiner Durchblutungs- und Anti-Aging-Nutzen – dafür existieren keine Zulassungsdaten."
@@ -1361,6 +1474,7 @@
       "mechanismus": 9,
       "sicherheit": 7,
       "hype": 5,
+      "anwendung": 4,
       "richtung": "positiv",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Die Phase-III-Studie ATTAIN-1 (NEJM, September 2025) randomisierte 3.127 Teilnehmer über 72 Wochen: 12,4 Prozent Gewichtsreduktion in der höchsten Dosis gegenüber 0,9 Prozent unter Placebo. Als erster oral verfügbarer nicht-peptidischer GLP-1-Rezeptoragonist ist die Wirkkette am Menschen über harte Studienendpunkte bestätigt. Die Abbruchrate wegen Nebenwirkungen liegt dosisabhängig bei 5,3 bis 10,3 Prozent, Übelkeit bei rund einem Drittel. Ein Zulassungsantrag läuft; vermarktet wird die Substanz stellenweise bereits, als wäre sie zugelassen."
@@ -1373,6 +1487,7 @@
       "mechanismus": 8,
       "sicherheit": 7,
       "hype": 5,
+      "anwendung": 4,
       "richtung": "positiv",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "REDEFINE 1 (NEJM 2025) randomisierte 3.417 Teilnehmer über 68 Wochen und erreichte 20,4 Prozent Gewichtsreduktion gegenüber 3,0 Prozent unter Placebo, bei voller Therapietreue 22,7 Prozent. Bemerkenswert ist, was danach passierte: Das intern kommunizierte Ziel von 25 Prozent wurde verfehlt, was den Aktienkurs bewegte – die Zahl selbst bleibt eine der höchsten, die je in einer Adipositasstudie erreicht wurde. Die Kombination aus Amylin-Analogon und Semaglutid ist am Menschen bestätigt. Abbruch wegen Nebenwirkungen: 6 gegenüber 3,7 Prozent."
@@ -1385,6 +1500,7 @@
       "mechanismus": 8,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 2,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die vielzitierten 24,3 Prozent Gewichtsreduktion stammen aus einer Phase-1b/2a-Studie mit 125 Teilnehmern über bis zu 36 Wochen (Lancet 2025) – eine frühe, kleine Studie, keine Zulassungsevidenz. Der Preis dafür steht im selben Papier: 82 Prozent Übelkeit, 53 Prozent Erbrechen, 37 Prozent Studienabbruch und ein Fall einer Gallenstein-Pankreatitis. Der Mechanismus als kombinierter GLP-1- und Amylin-Rezeptoragonist ist am Menschen bestätigt. Die Zahl wird in der Vermarktung regelmäßig ohne diesen Kontext zitiert."
@@ -1397,6 +1513,7 @@
       "mechanismus": 8,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 3,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "SYNCHRONIZE-1 (NEJM 2026) randomisierte 725 Teilnehmer über 76 Wochen: 12,2 bis 13,0 Prozent Gewichtsreduktion gegenüber 5,4 Prozent unter Placebo. Der auffällige Wert steht in der Sicherheitsspalte – 17,8 bis 20,2 Prozent brachen wegen Nebenwirkungen ab, gegenüber 2,9 Prozent unter Placebo, deutlich mehr als bei den Konkurrenzsubstanzen. Der duale Glukagon- und GLP-1-Rezeptoragonismus ist am Menschen bestätigt. Beworben wird Gleichrangigkeit mit Tirzepatid, die Verträglichkeit fiel in Phase III schlechter aus als in Phase II."
@@ -1409,6 +1526,7 @@
       "mechanismus": 8,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 3,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Phase-II-Studie (NEJM 2025) umfasste 592 Teilnehmer über 52 Wochen und erreichte rund 20 Prozent Gewichtsreduktion ohne Diabetes und etwa 17 Prozent mit Diabetes, gegenüber 2,6 beziehungsweise 1,4 Prozent unter Placebo. Das Besondere ist die monatliche Gabe, ermöglicht durch die Kopplung von Peptid und Antikörper. Phase III läuft, Daten über ein Jahr hinaus fehlen. Die Abbruchrate wegen Nebenwirkungen lag bei bis zu 7,8 Prozent. Das Bequemlichkeitsargument wird beworben, bevor die Bestätigungsstudie vorliegt."
@@ -1421,6 +1539,7 @@
       "mechanismus": 8,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 4,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "GLORY-1 (NEJM, Mai 2025) randomisierte 610 chinesische Erwachsene über 48 Wochen: 12,05 bis 14,84 Prozent Gewichtsreduktion gegenüber 0,47 Prozent unter Placebo, in GLORY-2 mit höherer Dosis bis 20,1 Prozent. In China ist die Substanz für Typ-2-Diabetes bereits zugelassen. Der duale GLP-1- und Glukagon-Rezeptoragonismus ist am Menschen bestätigt. Die Studien wurden ausschließlich in einer chinesischen Population durchgeführt; in Deutschland gibt es keine Zulassung – ein Punkt, den Vertriebsseiten regelmäßig auslassen."
@@ -1433,6 +1552,7 @@
       "mechanismus": 7,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 3,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die belastbarste veröffentlichte Studie ist zwanzig Jahre alt: Astrup et al. (Lancet 2008) zeigten über rund 24 Wochen eine dosisabhängige Gewichtsreduktion von 4,5 bis 10,6 Prozent. Neuere Phase-III-Ergebnisse existieren laut Herstellerangaben, sind aber nicht als begutachtete Vollpublikation auffindbar – die Werbung stützt sich damit auf Pressemitteilungen. Die Substanz wurde ursprünglich gegen Alzheimer entwickelt und dort wegen Nebenwirkungen aufgegeben; Herzfrequenz- und Blutdruckanstieg waren früh dosislimitierend. In Deutschland nicht zugelassen."
@@ -1445,8 +1565,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es wurden keine publizierten Humanstudien gefunden. Die gesamte Fatburner-Erzählung beruht auf Zell- und Mausmodellen zur Hemmung des Enzyms NNMT und dessen Einfluss auf den NAD+- und SAM-Stoffwechsel. Ob sich das auf den Menschen überträgt, ist offen. Eine systematische Sicherheitsuntersuchung am Menschen existiert nicht; verkauft wird die Substanz als Forschungschemikalie. In Deutschland kein zugelassenes Arzneimittel."
     },
     {
@@ -1457,8 +1578,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 0,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Zu keiner Substanz passt die Bezeichnung Trainingspille schlechter: Es wurden keine Humanstudien gefunden, ausschließlich Nagetierarbeiten, in denen der synthetische ERR-Agonist eine akute Trainingsantwort auslöst. Eine bestätigte Wirkkette beim Menschen existiert nicht, ebenso wenig Sicherheitsdaten. Der Abstand zwischen dem, was gezeigt wurde – eine Maus, die ohne zu laufen Ausdauergene hochreguliert – und dem, was verkauft wird, ist so groß wie im gesamten Bestand selten."
     },
     {
@@ -1469,6 +1591,7 @@
       "mechanismus": 8,
       "sicherheit": 9,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Ein seit Jahrzehnten zugelassenes Diabetesmedikament mit klar verstandener Wirkung – die Hemmung der Alpha-Glukosidase im Darm. Die STOP-NIDDM-Studie zeigte bei gestörter Glukosetoleranz über Jahre eine reduzierte Diabetesinzidenz; die späteren Re-Analysen zum kardiovaskulären Nutzen sind umstritten. Der Gewichtseffekt ist mit ein bis zwei Kilogramm über Monate gering und ein Nebeneffekt, keine Hauptwirkung. In der Longevity-Szene wird die Substanz als Kalorienrestriktions-Mimetikum gehandelt – eine Extrapolation aus Mausdaten."
@@ -1481,6 +1604,7 @@
       "mechanismus": 9,
       "sicherheit": 9,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Seit 2013 in der EU zugelassen, mit dem CANVAS-Programm (NEJM 2017) als kardiovaskulärer Endpunktstudie – die Wirkung über die renale Glukoseausscheidung ist vollständig verstanden. Genau diese hervorragende Datenlage macht den Punkt: In CANVAS traten unter Canagliflozin mehr Amputationen an Zehen und Unterschenkeln sowie mehr Frakturen auf, dazu genitale Pilzinfektionen und selten Ketoazidosen. Der Gewichtseffekt liegt bei zwei bis drei Prozent. Im Longevity-Marketing als Kalorienrestriktions-Mimetikum kommen diese dokumentierten Risiken praktisch nie vor."
@@ -1493,8 +1617,9 @@
       "mechanismus": 8,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Hier ist die Trennung zwischen Wirkprinzip und Produkt entscheidend. Das Prinzip – der Dreifach-Agonismus an GLP-1-, GIP- und Glukagon-Rezeptoren – ist am Menschen inzwischen sehr gut belegt: Retatrutid erreichte in TRIUMPH-1 mit 2.339 Teilnehmern über 80 Wochen 28,3 Prozent Gewichtsreduktion. Deshalb steht der Mechanismus hier hoch, und die Bewertung dieses Wirkprinzips findet sich beim Eintrag Retatrutid. Was unter dem Namen GLP-3 gehandelt wird, ist etwas anderes: Ein Hormon oder Rezeptor dieses Namens existiert nicht, die Bezeichnung stammt aus dem Graumarkt, und die dort verkaufte Ware ist weder chargenkontrolliert noch identisch mit dem Studienwirkstoff. Für sie selbst gibt es keine Studie und keine Sicherheitsbewertung."
     },
     {
@@ -1505,8 +1630,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 0,
+      "anwendung": 0,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die beste vorliegende Evidenz ist eine Primatenstudie (Kolonin et al., Science Translational Medicine 2011), in der adipöse Rhesusaffen durch gezielte Zerstörung der Blutgefäße im Fettgewebe Gewicht verloren – und in derselben Studie dosisabhängige Nierenschäden entwickelten. Eine begutachtete Humanstudie wurde nicht gefunden; ein 2011 angekündigter Phase-I-Versuch führte offenbar nie zu einer Publikation. Beworben werden die Affenergebnisse, die dokumentierte Nierentoxizität wird dabei regelmäßig weggelassen."
     },
     {
@@ -1517,6 +1643,7 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "negativ",
       "label": "Untersucht – Nutzen nicht gezeigt",
       "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 536 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo. Eine kleinere Vorgängerstudie hatte zwei bis zweieinhalb Kilogramm mehr Gewichtsverlust gezeigt, was sich nicht bestätigte. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
@@ -1529,6 +1656,7 @@
       "mechanismus": 8,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 3,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Phase-II-Studie (JAMA Netw Open) mit 75 Teilnehmern über 48 Wochen zeigte eine Reduktion der Fettmasse um 20,5 Prozent bei gleichzeitigem Zuwachs fettfreier Masse um 3,6 Prozent – eine ungewöhnliche Kombination, bestätigt über die Blockade des Activin-Rezeptors. Die wichtigere Studie ist eine andere: Bei älteren Patienten nach Hüftfraktur (Lancet Healthy Longevity 2021) nahm die Muskelmasse zu, ohne dass sich Gehgeschwindigkeit oder Mobilität klar verbesserten. Muskelmasse ist nicht dasselbe wie Muskelfunktion. Häufig waren Durchfall und Muskelkrämpfe."
@@ -1541,8 +1669,9 @@
       "mechanismus": 5,
       "sicherheit": 2,
       "hype": 0,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Der Widerspruch ist so scharf wie nirgends sonst im Bestand: Beworben wird die Substanz als nebenwirkungsarme Alternative zu Anabolika – kontrollierte Wirksamkeitsstudien am Menschen wurden nicht gefunden, und die einzigen publizierten Humandaten sind Schadensfälle. Dokumentiert sind mehrere Fallberichte zu Leberschädigung, darunter einer im Journal of Medical Case Reports 2023, sowie ein Fall arterieller Thrombose. Die US-Behörde warnt für die gesamte SARM-Klasse vor Leberversagen, Herzinfarkt, Schlaganfall und Infertilität. Kein zugelassenes Arzneimittel, Doping-relevant."
     },
     {
@@ -1553,6 +1682,7 @@
       "mechanismus": 7,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Drei sehr verschiedene Dinge tragen denselben Namen. Die Gentherapie wurde in kleinen Phase-1/2a-Studien bei Muskeldystrophie und Einschlusskörperchen-Myositis geprüft; der Myostatin-Antikörper Apitegromab erreichte in Phase III bei spinaler Muskelatrophie seinen Endpunkt. Beides sind Behandlungen schwerer Erkrankungen. Zu dem als Follistatin-344 verkauften injizierbaren Peptid wurden keine Humanstudien gefunden. Genau diese Vermischung ist das Problem: Seriöse Krankheitsstudien werden als Beleg für ein anderes, ungeprüftes Produkt herangezogen."
@@ -1565,6 +1695,7 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 2,
+      "anwendung": 4,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die vorhandenen Studien sind klein und stammen fast vollständig aus russischsprachigen Fachzeitschriften: Zozulia et al. 2008 verglich bei 62 Patienten mit Angststörung Selank gegen Medazepam, Medvedev et al. 2014/2015 gegen Phenazepam. Verglichen wurde also gegen ein Benzodiazepin, nicht gegen Placebo – ein Design, das Wirksamkeit nicht beweisen kann. Eine unabhängige westliche Replikation wurde nicht gefunden. Die zugrunde gelegte GABA-Modulation stammt aus Tiermodellen. Systematische Sicherheitsdaten fehlen; in Deutschland kein zugelassenes Arzneimittel."
@@ -1577,6 +1708,7 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 2,
+      "anwendung": 5,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 und 2005 mit 30 Patienten nach ischämischem Schlaganfall, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz."
@@ -1589,6 +1721,7 @@
       "mechanismus": 4,
       "sicherheit": 5,
       "hype": 2,
+      "anwendung": 7,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Anders als bei den meisten Peptiden gibt es hier eine Cochrane-Bewertung – und sie fällt ungünstig aus: Für den akuten ischämischen Schlaganfall findet der Review 2023 keinen klaren Nutzen und zusätzlich eine höhere Rate schwerwiegender unerwünschter Ereignisse mit Krankenhausaufnahme. Für vaskuläre Demenz sehen die Cochrane-Autoren eine mögliche kognitive Verbesserung, fordern aber wegen niedriger Evidenzqualität ausdrücklich bessere Studien. In Russland, Osteuropa und China ist das Präparat im Markt, in den USA nicht zugelassen; für Deutschland wurde keine Zulassung ermittelt."
@@ -1601,8 +1734,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Alle vorliegenden Humandaten sind Beobachtungen: Studien messen die körpereigenen MOTS-c-Spiegel bei bestimmten Erkrankungen oder nach Sport, etwa an 107 Patienten nach Herz-Lungen-Bypass. Eine abgeschlossene Interventionsstudie, in der Menschen MOTS-c verabreicht wurde, wurde nicht gefunden. Die AMPK-Aktivierung als mitochondriales Peptid stammt aus Zell- und Tiermodellen. Ein gemessener Blutspiegel ist keine gezeigte Wirkung – dieser Unterschied trägt die gesamte Vermarktung. Sicherheitsdaten existieren praktisch nicht."
     },
     {
@@ -1613,6 +1747,7 @@
       "mechanismus": 7,
       "sicherheit": 6,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Selten ist so viel klinisch geprüft worden mit so wenig Ergebnis: Die Phase-III-Studie MMPOWER-3 bei primärer mitochondrialer Myopathie (Neurology 2023) verfehlte den primären Endpunkt, die Studien beim Barth-Syndrom ebenfalls – die US-Behörde erteilte 2021 einen ablehnenden Bescheid. Positive Signale gab es in frühen Studien zur trockenen Makuladegeneration, ohne erfolgreiche Zulassungsstudie. Die Stabilisierung der mitochondrialen Membran über Cardiolipin ist mechanistisch plausibel und die Verträglichkeit gut untersucht. Verkauft wird die Substanz trotzdem als belegter Mitochondrien-Fix."
@@ -1625,8 +1760,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 1,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es existiert keine publizierte Studie, in der Humanin Menschen als Wirkstoff verabreicht wurde. Was es gibt, sind Messungen des körpereigenen Spiegels: in einer Alzheimer-Bewegungsstudie mit 95 Teilnehmern, in einer Krafttrainingsstudie mit einem Anstieg um 35 Prozent im Muskel nach zwölf Wochen, in einer Studie zur hyperbaren Sauerstofftherapie. Das sind Biomarker, keine Therapieeffekte. Die zytoprotektive Wirkung stammt aus Zell- und Tiermodellen. Sicherheitsdaten fehlen, weil es keine Interventionsstudien gibt."
     },
     {
@@ -1637,8 +1773,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 0,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es wurden keine publizierten Humanstudien gefunden. Die Substanz stammt aus der präklinischen Neurowissenschaft als Nachahmer einer BDNF-Schleife am TrkB-Rezeptor und wurde in Tiermodellen zu Schlaganfall und Rett-Syndrom untersucht. Damit wird eine Verbindung, die das Präklinik-Stadium nie verlassen hat, als anwendungsreifes Nootropikum vermarktet. Sicherheitsdaten am Menschen existieren praktisch nicht. In Deutschland kein zugelassenes Arzneimittel."
     },
     {
@@ -1649,6 +1786,7 @@
       "mechanismus": 4,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die Evidenz ist alt und klein: Von 19 Publikationen zwischen 1981 und 2014 sind die relevanten kontrollierten Arbeiten über dreißig Jahre alt – Bes et al. 1992 mit 16 Patienten mit chronischer Schlaflosigkeit im Doppelblinddesign, dazu Polysomnographie-Studien von Monti 1987. Danach kam praktisch nichts mehr; zu einer Zulassung führte es nirgends. Der molekulare Wirkmechanismus beim Menschen ist nicht geklärt. Eine moderne systematische Sicherheitsprüfung existiert nicht."
@@ -1661,6 +1799,7 @@
       "mechanismus": 7,
       "sicherheit": 8,
       "hype": 3,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Zwei Anwendungen, zwei völlig verschiedene Datenlagen. In der Geburtshilfe ist Oxytocin seit Jahrzehnten zugelassen, steht auf der WHO-Liste unentbehrlicher Arzneimittel und gilt wegen des Überstimulationsrisikos als Hochrisiko-Medikament – entsprechend gut überwacht. Die im Biohacking beworbene Nutzung als Bindungs- und Anti-Angst-Hormon ist Off-Label und die Evidenz uneinheitlich: Eine Meta-Analyse fand nur für Autismus einen kombinierten Effekt, eine Studie 2022 zeigte Nutzen bei Drei- bis Fünfjährigen, nicht aber bei älteren Kindern."
@@ -1673,6 +1812,7 @@
       "mechanismus": 6,
       "sicherheit": 7,
       "hype": 2,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Als Notfallmedikament gegen Methämoglobinämie zugelassen und gut charakterisiert – als Alltags-Nootropikum ist es etwas anderes: Das verwandte Molekül LMTM durchlief Phase-III-Studien bei Alzheimer und verfehlte die primären Endpunkte. Für kognitive Verbesserung bei Gesunden wurde keine kontrollierte Evidenz gefunden. Das entscheidende Sicherheitsdetail wird in der Szene selten genannt: Methylenblau wirkt als MAO-Hemmer, weshalb bei Kombination mit SSRI oder SNRI ein Serotonin-Syndrom auftreten kann – dazu existiert eine behördliche Sicherheitswarnung. Bei G6PD-Mangel droht Hämolyse."
@@ -1685,6 +1825,7 @@
       "mechanismus": 5,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 2,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Es gibt echte Phase-II-Daten, aber die Entwicklung kam nie weiter: Kleine randomisierte Studien bei Sarkoidose-assoziierter Small-Fiber-Neuropathie zeigten eine verbesserte corneale Nervenfaserdichte und weniger neuropathische Beschwerden, eine weitere Studie lief bei diabetischer Neuropathie; die Prüfung bei depressiven Symptomen wurde eingestellt. Eine Phase III und damit eine Zulassung gab es nie. Die gewebeschützende Wirkung über den Erythropoetin-Rezeptor ohne Blutbildungseffekt ist in kleinen Studien angedeutet, nicht bestätigt."
@@ -1697,6 +1838,7 @@
       "mechanismus": 6,
       "sicherheit": 4,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Dünne Humanevidenz",
       "beleg": "Die einzige reguläre Zulassung betrifft eine urologische Indikation: die Kombination aus Aviptadil und Phentolamin, in Großbritannien seit 2000 bei erektiler Dysfunktion. Die vasodilatatorische Wirkung ist damit am Menschen belegt. Die im Longevity-Umfeld beworbene entzündungshemmende und immunmodulierende Wirkung stützt sich auf COVID-19-Studien, die zu keiner regulären Zulassung in den USA oder der EU führten und deren Ergebnisse uneinheitlich blieben. In Deutschland kein zugelassenes Präparat für diese Anwendung."
@@ -1709,8 +1851,9 @@
       "mechanismus": 4,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 0,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die Ursprungsarbeit ist berühmt und eindeutig eine Mausstudie: Baar et al. (Cell 2017) zeigten an gealterten Mäusen, dass die gezielte Störung der Bindung zwischen FOXO4 und p53 seneszente Zellen entfernt. Alle zehn seither gefundenen Publikationen sind Tiermodelle, Zellversuche oder Übersichtsarbeiten – keine Humanstudie. Sicherheitsdaten am Menschen existieren nicht. Von allen Senolytika ist hier der Abstand zwischen einer einzelnen Mausarbeit und dem Verjüngungsversprechen am größten."
     },
     {
@@ -1721,6 +1864,7 @@
       "mechanismus": 6,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 2,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Von allen Senolytika die am weitesten fortgeschrittene Kombination – und trotzdem früh: Hickson et al. (EBioMedicine 2019) zeigten bei diabetischer Nierenerkrankung eine reduzierte Last seneszenter Zellen am Menschen, Gonzales et al. (Nature Medicine 2023) belegten in einer offenen Phase-1-Studie bei leichter Alzheimer-Demenz die Aufnahme ins Gehirn, Farr et al. (Nature Medicine 2024) führten ein Phase-2-RCT zum Knochenstoffwechsel durch. Alle klein, überwiegend auf Sicherheit und Biomarker angelegt. Dasatinib ist ein Krebsmedikament mit entsprechendem Nebenwirkungsprofil."
@@ -1733,6 +1877,7 @@
       "mechanismus": 5,
       "sicherheit": 6,
       "hype": 2,
+      "anwendung": 3,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Ein Fall, in dem die Studien vorliegen und das Ergebnis eindeutig ist: Nach mehreren Phase-II-Studien und einer Phase-III-Studie bei Zöliakie stellte der Entwickler 2022 das Programm ein, weil eine ausreichende Wirksamkeit gegenüber Placebo nicht mehr wahrscheinlich erschien. Gescheitert ist es an der Wirksamkeit, nicht an der Sicherheit – das Nebenwirkungsprofil ist aus großen Kollektiven gut charakterisiert. Beworben wird die Substanz heute als Darmbarriere-Reparatur für ein weit breiteres Spektrum, als je geprüft wurde."
@@ -1745,8 +1890,9 @@
       "mechanismus": 5,
       "sicherheit": 3,
       "hype": 0,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Keine Zulassungsstudie, aber eine ungewöhnlich dichte Sammlung von Schadensberichten: publizierte Fälle zu Melanomen und neu aufgetretenen atypischen Muttermalen unter Melanotan-2-Gebrauch, unter anderem im British Journal of Dermatology 2011, in JAAD Case Reports und im Irish Medical Journal 2013. Ob die Substanz Melanome verursacht, ist wissenschaftlich ungeklärt – die Assoziation mit Pigmentveränderungen ist gut dokumentiert. Behörden in Großbritannien, den USA, Dänemark, Irland und Norwegen haben zwischen 2007 und 2009 gewarnt. Reine Schwarzmarktsubstanz."
     },
     {
@@ -1757,6 +1903,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 4,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Gut belegt, stark überhöht beworben",
       "beleg": "Anders als das ähnlich klingende Melanotan 2 ist Afamelanotid ein reguläres Arzneimittel: in der EU seit Januar 2015 zentral zugelassen, in den USA seit Oktober 2019 – für die Prävention der Lichtüberempfindlichkeit bei erythropoetischer Protoporphyrie, einer seltenen Erkrankung. Grundlage waren drei Studien mit insgesamt 244 Patienten an 22 Zentren mit dem Endpunkt schmerzfreie Sonnenexposition. Die Melanocortin-1-vermittelte Melaninbildung ist am Menschen klar nachgewiesen. Im Graumarkt wird diese Zulassung genutzt, um das nicht zugelassene Melanotan 2 als gleichwertig sicher darzustellen."
@@ -1769,8 +1916,9 @@
       "mechanismus": 2,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Für Peptid-Stacks als Prinzip existiert keine einzige Wirksamkeitsstudie. Das Verkaufsargument ist Synergie – also gerade das, was eine Kombinationsstudie zeigen müsste und was nie gemessen wurde. Was vorliegt, ist eine Übersichtsarbeit zum Phänomen selbst (Cureus 2026) über unregulierten Peptidgebrauch, digitale Bewerbung und Graumarkt-Zugang als Risiko für die öffentliche Gesundheit. Interaktionsdaten für Kombinationen gibt es nicht, und die Sicherheitslage der Einzelbestandteile ist höchst unterschiedlich."
     },
     {
@@ -1781,8 +1929,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es wurde keine einzige Humanstudie zu dieser Kombination gefunden – die Datenbanksuche nach allen drei Substanzen zusammen liefert nur Übersichtsarbeiten, die sie nebeneinander aufzählen. Der behauptete Kombinationseffekt ist eine Addition aus Tierdaten der Einzelstoffe. Von diesen hat GHK-Cu begrenzte topische Humandaten, BPC-157 laut Übersichtsliteratur keine abgeschlossene Phase-II-Studie und keine validierte Dosierung, TB-500 praktisch keine Humanstudien. Die US-Behörde nahm BPC-157 2023 in die Liste der für Rezepturarzneimittel nicht freigegebenen Substanzen auf."
     },
     {
@@ -1793,8 +1942,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Dieselbe Lücke wie beim GLOW-Stack, nur mit einer vierten unerforschten Komponente: Zur Kombination wurde keine Humanstudie gefunden. KPV selbst hat keine klinische Studie mit einem Endpunkt am lebenden Menschen – nur eine In-vitro-Arbeit an menschlichen Keratinozyten (J Invest Dermatol 2004), die keinen cAMP-Effekt nachweisen konnte, und Mausmodelle zur Bauchfellentzündung. Vier Substanzen mit jeweils dünner Datenlage werden zu einem Protokoll addiert, dessen Gesamtwirkung nie geprüft wurde."
     },
     {
@@ -1805,8 +1955,9 @@
       "mechanismus": 2,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die Literatursuche zu dieser Substanz liefert null Treffer – keine Humanstudie, keine Tierstudie, keine Publikation zur Verbindung selbst. Es handelt sich um einen Handelsnamen für eine Salzform, die als stabileres BPC-157 vermarktet wird. Damit stützt sich die gesamte Wirkbehauptung auf einen Analogieschluss zu einer Substanz, die selbst nur über Tierdaten verfügt. Von allen Einträgen im Bestand ist dies der vollständigste Evidenz-Leerraum."
     },
     {
@@ -1817,8 +1968,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Von 27 Fundstellen sind die meisten Übersichtsarbeiten zu alpha-MSH-Peptiden allgemein oder Tiermodelle. Die einzige humanbezogene Arbeit ist eine Zellkulturstudie an menschlichen Keratinozyten (Elliott et al., J Invest Dermatol 2004), die den erwarteten cAMP-Anstieg nicht nachweisen konnte. Eine kontrollierte Studie an lebenden Menschen mit klinischem Endpunkt wurde nicht gefunden. Die entzündungshemmende Wirkung über den MC1-Rezeptor stammt aus Maus-Colitis-Modellen. Sicherheitsdaten am Menschen fehlen praktisch vollständig."
     },
     {
@@ -1829,8 +1981,9 @@
       "mechanismus": 5,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 1,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es gibt genau eine auffindbare Injektionsstudie am Menschen – und sie kommt aus einem ganz anderen Kontext: eine Phase-I-Studie zur intratumoralen Gabe bei Melanompatienten mit Hautmetastasen, publiziert im Journal of Cutaneous Pathology 2018, mit dermatologischer Toxizität als Befund. Zur subkutanen oder systemischen Injektion bei Gesunden zum Immun-Boost wurde nichts gefunden. Die antimikrobielle und immunmodulierende Wirkung der Cathelicidin-Familie ist aus Zellkultur und Tier gut beschrieben, nicht aus der beworbenen Anwendung."
     },
     {
@@ -1841,6 +1994,7 @@
       "mechanismus": 7,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Das am besten belegte Peptid dieser Gruppe: In über 35 Ländern, darunter China, als Thymalfasin für chronische Hepatitis B und C zugelassen. Es liegen mehrere randomisierte Studien vor, unter anderem eine multizentrische, placebokontrollierte Phase-III-Studie bei Sepsis (BMJ 2025) und die ETASS-Studie bei schwerer Sepsis (Critical Care 2013). Die Immunmodulation über die T-Zell-Reifung ist am Menschen in klinischen Studien mitbestätigt. In der EU und in Deutschland besteht keine Zulassung; die Vermarktung als allgemeines Immun-Superpeptid für Gesunde geht über die geprüften Indikationen weit hinaus."
@@ -1853,8 +2007,9 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Eine dedizierte Wirksamkeitsstudie am Menschen wurde nicht gefunden. Was die Datenbanken liefern, ist bezeichnend: eine Publikation zur Dopinganalytik (Drug Test Anal 2012) und zwei Übersichtsarbeiten aus der Sport- und Schmerzmedizin, die die Substanz unter aufkommenden Peptiden führen, ohne eine abgeschlossene Humanstudie vorweisen zu können. Die Wirkung über Aktinbindung und Zellmigration stammt aus Zell- und Tiermodellen. Auf der WADA-Verbotsliste – was regulatorische Aufmerksamkeit anzeigt, nicht Sicherheit belegt."
     },
     {
@@ -1865,6 +2020,7 @@
       "mechanismus": 5,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 5,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "In Russland seit Sowjetzeiten als Arzneimittel registriert, mit Publikationen fast ausschließlich aus der Gruppe um Wladimir Chawinson in St. Petersburg – eine unabhängige, nicht-russische Replikation wurde nicht gefunden. Die vielzitierte Arbeit zur Lebensverlängerung (Chawinson & Morozow, Neuro Endocrinol Lett 2003) beobachtete 266 ältere Menschen über sechs bis acht Jahre, ohne dass Randomisierung, Verblindung oder die Erhebung der Sterblichkeit nachvollziehbar beschrieben wären; sie wurde bis heute nur wenige Male zitiert und nie repliziert. Systematische Sicherheitsdaten fehlen."
@@ -1877,8 +2033,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 2,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Zu Bronchogen wurden ausschließlich Tier-, Zell- und sogar Pflanzenstudien gefunden – zur DNA-Thermostabilität, zu Rattenmodellen der chronisch obstruktiven Lungenerkrankung, zu Organkulturen. Zu Chonluten existiert eine Zellkulturarbeit an menschlichen Monozyten (Int J Mol Sci 2022), an der Chawinson selbst als Ko-Autor beteiligt ist. Eine klinische Studie am lebenden Menschen wurde für keines der beiden gefunden. Der Sprung von der Petrischale zum Anti-Aging-Versprechen für die Atemwege überspringt die gesamte klinische Zwischenstufe."
     },
     {
@@ -1889,8 +2046,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Was als Humanevidenz gilt, sind zytogenetische Laborbefunde an entnommenen Zellen: Arbeiten der Tifliser Gruppe zu Chromatin- und Heterochromatinveränderungen in Lymphozyten älterer Menschen (Biofizika 2004, Georgian Medical News 2009 und 2012). Eine klinische Studie an Prostatapatienten mit einem klinischen Endpunkt – PSA-Wert, Beschwerden, Miktionsparameter – wurde nicht gefunden. Damit beruht die beworbene Prostatagesundheit auf Chromatin-Assays an isolierten Blutzellen. Klinische Sicherheitsdaten existieren nicht."
     },
     {
@@ -1901,6 +2059,7 @@
       "mechanismus": 4,
       "sicherheit": 5,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Zwei Anwendungsformen mit völlig verschiedener Datenlage. Topisch ist Acetyl-Hexapeptid-8 ein in der EU zugelassener Kosmetikinhaltsstoff mit vorhandenen Studien, darunter eine randomisierte Doppelblindstudie zu Krähenfüßen (J Clin Aesthet Dermatol 2023) und eine Arbeit zu einer Gelcreme (Clin Ther 2020). Injizierbar wurde keine einzige Studie gefunden. Die postulierte Hemmung des SNARE-Komplexes ist deutlich schwächer als bei Botulinumtoxin, und ob kleine Peptide die Haut überhaupt ausreichend durchdringen, ist umstritten. Ein Kosmetikrohstoff ist nicht steril-pharmazeutisch hergestellt."
@@ -1913,8 +2072,9 @@
       "mechanismus": 4,
       "sicherheit": 5,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "gemischt",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Als Kosmetikinhaltsstoff zugelassen, aber die eigenständigen Belege sind dünn: Die vorhandenen Studien untersuchen SNAP-8 fast immer in Mehrwirkstoff-Formulierungen, etwa in auflösenden Mikronadel-Pflastern (Ann Dermatol 2024) mit verbesserter Faltentiefe und Elastizität gegenüber Placebo – dabei lässt sich der Effekt nicht der Einzelsubstanz zuordnen. Eine kontrollierte Studie zu SNAP-8 allein ist kaum auffindbar, zur injizierbaren Anwendung gar keine. Die Wirkannahme entspricht der von Argireline, mit denselben offenen Fragen zur Hautdurchdringung."
     },
     {
@@ -1925,6 +2085,7 @@
       "mechanismus": 5,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Von den drei Kosmetikpeptiden das am besten belegte – topisch: Robinson et al. (Int J Cosmet Sci 2005) zeigten in einer kontrollierten Anwendungsstudie Verbesserungen an lichtgealterter Gesichtshaut, dazu kommt eine randomisierte Doppelblindstudie zu Krähenfüßen von 2023. Die Kollagenstimulation über das Signalpeptid-Prinzip wird von diesen Humandaten mitgetragen. Zur injizierbaren Anwendung wurde keine Studie am Menschen gefunden, nur eine Zellkulturarbeit. Genau dort liegt das Problem: Solide topische Evidenz wird auf eine ganz andere, ungeprüfte Anwendungsform übertragen."
@@ -1937,8 +2098,9 @@
       "mechanismus": 4,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Das einzige Peptid der Gruppe mit einer unabhängigen Bestätigung – aber nur in der Petrischale: Al-Dulaimi et al. (Biogerontology 2025, Brunel University London, ohne Chawinson als Autor) zeigten in menschlichen Zelllinien eine dosisabhängige Telomerverlängerung. Die Originalarbeit (Chawinson et al., Bull Exp Biol Med 2003) war ebenfalls Zellkultur an fetalen Fibroblasten. Eine begutachtete Studie, in der beim lebenden Menschen die Telomerlänge nach Gabe gemessen wurde, existiert nicht; die im Netz kursierende Aussage dazu stammt aus einer unveröffentlichten Vortragsfolie."
     },
     {
@@ -1949,8 +2111,9 @@
       "mechanismus": 3,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die auffindbaren Humanarbeiten stammen aus der Chawinson-Gruppe und sind arbeitsmedizinische Beobachtungen ohne erkennbare Kontrollgruppe, etwa an Lkw-Fahrern. Eine kontrollierte klinische Studie wurde nicht gefunden, ebenso wenig eine unabhängige Replikation. Die neuroprotektive Wirkung stammt aus Zellkultur an HeLa-Zellen und aus Rattenmodellen zur Karotisokklusion. Systematische Sicherheitsdaten existieren nicht. In Deutschland kein zugelassenes Arzneimittel."
     },
     {
@@ -1961,6 +2124,7 @@
       "mechanismus": 4,
       "sicherheit": 3,
       "hype": 2,
+      "anwendung": 7,
       "richtung": "offen",
       "label": "Dünne Humanevidenz",
       "beleg": "Von allen zwölf Bioregulatoren hat Cortexin die umfangreichste klinische Literatur – und sie ist vollständig russischsprachig: Fedin et al. 2018 führten eine multizentrische randomisierte Studie mit 189 Patienten und chronischer Hirnischämie in drei Armen durch, mit neurologischen Symptomen und oxidativem Stress als Endpunkten, publiziert im Journal für Neurologie und Psychiatrie S. S. Korsakow. Eine nicht-russische Replikation in einem internationalen Journal wurde nicht gefunden. Der molekulare Wirkmechanismus gilt auch in Übersichtsarbeiten als unklar definiert."
@@ -1973,8 +2137,9 @@
       "mechanismus": 3,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die Humandaten sind Laborbefunde an entnommenen Zellen: Chromatin-Reaktivierung in Lymphozyten alter Menschen (Leschawa, Chawinson und andere, 2004). Dazu kommt eine kleine klinische Anwendung bei älteren Krebspatienten aus Belarus mit Chawinson als Ko-Autor, deren Fallzahl aus der Zusammenfassung nicht hervorgeht. Eine unabhängige Replikation wurde nicht gefunden. Ein etablierter Wirkmechanismus am lebenden Menschen fehlt; die übrige Evidenz stammt aus Mausmodellen mit Tumortransplantaten."
     },
     {
@@ -1985,8 +2150,9 @@
       "mechanismus": 5,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 7,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Die Grundlage der Langlebigkeitsbehauptung ist eine einzige Arbeit: Chawinson & Morozow (Neuro Endocrinol Lett 2003) beobachteten 266 ältere Menschen über sechs bis acht Jahre und berichteten eine zwei- bis vierfach reduzierte Sterblichkeit. Randomisierungsverfahren, Verblindung, Ein- und Ausschlusskriterien sowie die Erfassung der Sterbefälle sind nicht nachvollziehbar beschrieben; die Arbeit wurde seit 2003 nur wenige Male zitiert und nie repliziert. Die Studie zu menschlichen Stammzellen von 2020 ist trotz des Titels eine Zellkulturarbeit."
     },
     {
@@ -1997,8 +2163,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es wurde keine Humanstudie gefunden. Sämtliche auffindbaren Publikationen stammen aus der Chawinson-Gruppe und sind Zell- oder Organkulturarbeiten – zur Alterung von Gefäßendothelzellen, zur Differenzierung von Immunzellen der Zirbeldrüse, zu Hypoxieversuchen. Weder Tierstudien mit klinischen Endpunkten noch Sicherheitsdaten am Menschen liegen vor. Damit ist die Evidenzbasis rein präklinisch."
     },
     {
@@ -2009,8 +2176,9 @@
       "mechanismus": 2,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Zu diesem Peptid wurde praktisch keine eigenständige Primärliteratur gefunden – der einzige klar zuordenbare Treffer ist eine russische Organkulturarbeit an Ratten von 2015. Die Suche wird zusätzlich durch ein völlig unverwandtes kardiologisches Forschungsfeld überlagert. Die behauptete gewebespezifische Genregulation taucht nur in den Übersichtsartikeln der Herkunftsgruppe selbst auf, ohne eigene Studie dazu. Weder Human- noch Sicherheitsdaten existieren."
     },
     {
@@ -2021,8 +2189,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die vorhandenen Arbeiten untersuchen entnommene Zellen, nicht behandelte Menschen: Chromatin-Aktivierung in Lymphozyten alter Probanden (Chawinson & Leschawa 2002 und 2004) und eine Enzymhemmung im menschlichen Serum im Reagenzglas (Kost et al. 2003). Eine klinische Interventionsstudie mit einem Wirksamkeitsendpunkt am lebenden Menschen wurde nicht gefunden. Die Tifliser Gruppe arbeitet organisatorisch getrennt von St. Petersburg, bleibt aber bei derselben Ex-vivo-Laboranalytik. Sicherheitsdaten fehlen."
     },
     {
@@ -2033,6 +2202,7 @@
       "mechanismus": 4,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Hier gibt es immerhin eine kleine Studie an Menschen: Korkuschko, Chawinson und Kollegen (Bull Exp Biol Med 2011) verglichen bei 63 älteren Personen – 30 Gesunde und 33 mit Typ-2-Diabetes – Nüchternglukose, Glukosetoleranztest und Insulinresistenz zwischen behandelt und unbehandelt. Ein Hinweis auf Randomisierung oder Verblindung findet sich nicht. Chawinson ist Ko-Autor, eine unabhängige Bestätigung fehlt. Ergänzend liegen Untersuchungen an alten Rhesusaffen vor. Dedizierte Sicherheitsstudien gibt es nicht."
@@ -2045,8 +2215,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Es wurde keine Humanstudie gefunden. Vorliegend sind eine Zellkulturarbeit an menschlichen Monozyten (Int J Mol Sci 2022, mit Chawinson als Ko-Autor) und russische Rattenmodelle einer obstruktiven Lungenerkrankung. Beides sind präklinische Stufen; die klinische Prüfung am Menschen wurde nie durchgeführt. Sicherheitsdaten existieren nicht. In Deutschland weder als Arzneimittel zugelassen noch als Novel Food genehmigt."
     },
     {
@@ -2057,8 +2228,9 @@
       "mechanismus": 3,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 5,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Die Humanevidenz besteht aus mikroskopischen und kalorimetrischen Untersuchungen an entnommenen Lymphozyten, publiziert von der Tifliser Gruppe (Meschi et al. 2004, Kiladse et al. 2009). Eine klinische Interventionsstudie wurde nicht gefunden. Zu beachten ist eine Verwechslungsgefahr: Unter demselben Handelsnamen findet sich in der Literatur auch ein Kupfer-Korrosionsinhibitor, der mit diesem Peptid nichts zu tun hat. Sicherheitsdaten am Menschen existieren nicht."
     },
     {
@@ -2069,8 +2241,9 @@
       "mechanismus": 1,
       "sicherheit": 0,
       "hype": 0,
+      "anwendung": 3,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Zu den als Cytomax oder Cytogen vermarkteten Komplex-Stacks wurde keine Studie gefunden – auch gezielte Kombinationssuchen blieben ohne relevantes Ergebnis. Es handelt sich offenbar um Handelsnamen für Kombinationspräparate mehrerer Kurzpeptide, die als solche nie untersucht wurden. Damit gilt hier dasselbe wie für alle Stacks im Bestand, nur verschärft: Die Einzelbestandteile sind bereits überwiegend präklinisch, die Kombination ist es vollständig."
     },
     {
@@ -2081,6 +2254,7 @@
       "mechanismus": 9,
       "sicherheit": 8,
       "hype": 8,
+      "anwendung": 10,
       "richtung": "positiv",
       "label": "Gut belegt",
       "beleg": "Die beste Datenlage aller Anwendungen: 107 Kohortenstudien mit über 4,8 Millionen Teilnehmern (Zhao et al., JAMA Network Open 2023) plus eine randomisierte Studie mit klinischem Endpunkt – bei Vorhofflimmern senkte sechsmonatige Abstinenz die Rezidivrate deutlich (Voskoboinik et al., NEJM 2020). Die Wirkkette ist vom Molekül bis zum Krankheitsendpunkt geschlossen. Die Überhöhung lief historisch in die andere Richtung: Der Rotwein-Schutzeffekt war ein Artefakt der Abstinenzler-Verzerrung; die DGE hat ihre Position 2024 revidiert."
@@ -2093,6 +2267,7 @@
       "mechanismus": 7,
       "sicherheit": 8,
       "hype": 4,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Zwei Ebenen, die oft vermengt werden. Die VO2max als Marker ist hervorragend belegt (Kodama et al., JAMA 2009, 33 Kohorten, rund 103.000 Personen) – aber beobachtend. Die Interventionsstudie Generation 100 (Stensvold et al., BMJ 2020, 1.567 Ältere, fünf Jahre) verfehlte ihren primären Endpunkt Gesamtmortalität. Und für Zone 2 speziell fällt der direkte Vergleich eher zugunsten höherer Intensitäten aus. Trainieren ist richtig; die Sonderstellung von Zone 2 ist nicht belegt."
@@ -2105,6 +2280,7 @@
       "mechanismus": 8,
       "sicherheit": 7,
       "hype": 6,
+      "anwendung": 6,
       "richtung": "positiv",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die belastbarste Anwendung im Trainingsbereich: Meta-Analyse über 51 Studien mit 1.164 Teilnehmern (Geng et al., Sports Medicine Open 2024), Hypertrophie praktisch gleichwertig zu schwerem Krafttraining. Der Mechanismus ist am Menschen im Zielgewebe gemessen (mTORC1-Aktivierung in der Muskelbiopsie, Fry et al. 2010). Sicherheit systematisch untersucht, aber selektiv – viele Studien erfassten sie gar nicht. Überdehnt wird die Übertragung auf Untrainierte, wo schweres Training überlegen ist."
@@ -2117,6 +2293,7 @@
       "mechanismus": 7,
       "sicherheit": 7,
       "hype": 5,
+      "anwendung": 10,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Zwei Ebenen: Kohortendaten zeigen eine U-förmige Verbindung von Schlafdauer und Sterblichkeit, die Autoren halten Umkehrkausalität selbst für die plausiblere Erklärung. Auf der Interventionsseite ist die kognitive Verhaltenstherapie bei Insomnie mit 87 RCTs sehr gut belegt – aber für Insomnie-Endpunkte, nicht für Lebensverlängerung. Dass Schlafoptimierung bei Gesunden das Leben verlängert, ist durch keine Interventionsstudie belegt. Tracker-Versprechen zu Tiefschlaf und Schlafscore gehen deutlich über die Messgenauigkeit hinaus."
@@ -2129,6 +2306,7 @@
       "mechanismus": 6,
       "sicherheit": 6,
       "hype": 5,
+      "anwendung": 9,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die einzige Anwendung mit harten Endpunkten – aber beobachtend: In der finnischen KIHD-Kohorte (Laukkanen et al., JAMA Internal Medicine 2015, 2.315 Männer, rund 21 Jahre) war häufige Saunanutzung mit deutlich niedrigerer Sterblichkeit verbunden. Interventionsstudien sind klein. Bei Kälte zeigt die Meta-Analyse von elf RCTs (Cain et al., PLOS ONE 2025) unmittelbar erhöhte statt gesenkte Entzündungsmarker. Ausdrücklicher Widerspruch: Kälte direkt nach dem Krafttraining dämpft den Muskelaufbau."
@@ -2141,6 +2319,7 @@
       "mechanismus": 7,
       "sicherheit": 7,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Die Meta-Analyse von Kemmler et al. (Frontiers in Physiology 2021, 16 Studien, 897 Personen) zeigt große Effekte auf Muskelmasse und Kraft – auf die Fettmasse jedoch keinen signifikanten Effekt, also genau auf den meistbeworbenen Endpunkt nicht. Ein zweites Review kommt deutlich zurückhaltender aus. Ungewöhnlich: Die Sicherheitsforschung ist besser als die Wirksamkeitsforschung – bei Erstanwendern stieg die Kreatinkinase auf das 96- bis 137-Fache, weit über den Werten nach einem Marathon; daraus entstand eine eigene Sicherheitsleitlinie und die Fachkundepflicht nach NiSV."
@@ -2153,6 +2332,7 @@
       "mechanismus": 3,
       "sicherheit": 7,
       "hype": 1,
+      "anwendung": 7,
       "richtung": "negativ",
       "label": "Gut untersucht – Wirkung nicht bestätigt",
       "beleg": "Ein Sonderfall, der zeigt, was diese Achsen messen: Die Human-Evidenz ist hoch, weil zwei große randomisierte Studien mit harten Endpunkten vorliegen – und beide fielen negativ aus. TACT (JAMA 2013, n=1.708) zeigte einen grenzwertigen Effekt mit erheblichen methodischen Mängeln; TACT2 (JAMA 2024, n=1.000) prüfte gezielt die zuvor auffällige Diabetes-Untergruppe und fand keinerlei Unterschied. Die Chelierung funktioniert messbar, der klinische Nutzen fehlt. Dokumentiert sind zudem Todesfälle durch Hypokalzämie nach Verwechslung der EDTA-Salze (CDC 2006)."
@@ -2165,6 +2345,7 @@
       "mechanismus": 6,
       "sicherheit": 7,
       "hype": 3,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Viele kleine randomisierte Studien mit Skalen-Endpunkten, keine Langzeitdaten. Die Sicherheitsauswertung ist die gründlichste im Anwendungsbereich (177 Studien, 6.322 Probanden), auch wenn gut die Hälfte gar keine Nebenwirkungsdaten berichtete. Wichtig für die Einordnung: Die als Beleg vermarktete HRV-Steigerung hält nicht – eine bayesianische Meta-Analyse über 16 verblindete Studien (Wolf et al., Psychophysiology 2021) fand starke Evidenz für die Nullhypothese. Beworben wird das Verfahren dennoch für ein sehr breites Indikationsspektrum."
@@ -2177,6 +2358,7 @@
       "mechanismus": 5,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die meisten Studien aller Anwendungen: Ein Umbrella-Review über 15 Meta-Analysen mit 204 RCTs und mehr als 9.000 Teilnehmern (Yon et al., Systematic Reviews 2025) – aber kein einziger Endpunkt erreichte hohe Ergebnissicherheit, über die Hälfte war niedrig oder sehr niedrig. Am besten belegt ist die Haardichte bei androgenetischer Alopezie. Kernproblem: Wellenlänge, Dosis und Bestrahlungsstärke schwanken so stark, dass Photobiomodulation keine einheitliche Anwendung ist. Ganzkörperpanels werben mit Longevity, belegt sind Haut, Haar und lokaler Schmerz."
@@ -2189,6 +2371,7 @@
       "mechanismus": 4,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "negativ",
       "label": "Untersucht – Nutzen nicht gezeigt",
       "beleg": "Gut untersucht und überwiegend negativ, sobald sauber verblindet wird: Die RESTORE-Studie (JAMA 2021, n=288, zwölf Monate) fand weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalz, und 29 von 31 sekundären Endpunkten blieben ohne Unterschied; ein Cochrane-Review kam zum selben Schluss. Bei der Haardichte gibt es positive kleine Studien. Zusatzrisiko liegt in der Verarbeitung, nicht im Produkt: Die US-Gesundheitsbehörde dokumentierte 2024 HIV-Übertragungen nach unsteriler Anwendung. IGeL-Monitor: tendenziell negativ."
@@ -2201,6 +2384,7 @@
       "mechanismus": 5,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "negativ",
       "label": "Untersucht – Nutzen nicht gezeigt",
       "beleg": "Für Stoffwechselgesunde – die beworbene Zielgruppe – ist der Nutzen nicht gezeigt: Die Meta-Analyse über 23 Studien mit 1.074 Nichtdiabetikern fand den glykämischen Vorteil nur bei Prädiabetes, bei Normoglykämen keinen. Dazu ein Messproblem: Eine Untersuchung der University of Bath (Am J Clin Nutr 2025) zeigte, dass die Sensoren bei Gesunden systematisch überschätzen und die Zeit oberhalb der Schwelle um fast das Vierfache zu hoch angaben. Harte Endpunkte wurden nirgends untersucht."
@@ -2213,6 +2397,7 @@
       "mechanismus": 6,
       "sicherheit": 7,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Für die zugelassenen Indikationen etabliert, für den Longevity-Einsatz dünn: Die vielzitierte Telomer-Arbeit (Hachmo et al., Aging 2020) hatte keine Kontrollgruppe und wertete 25 beziehungsweise 20 Personen aus; die beiden Folge-RCTs arbeiteten mit Warteliste statt Scheinbehandlung, alle stammen aus derselben Gruppe mit kommerziellem Interesse. Die Sicherheit ist aus Jahrzehnten zugelassener Anwendung gut untersucht. Der Sprung von Telomeren in Blutzellen zu „Alterungsumkehr\" ist durch die Daten nicht gedeckt."
@@ -2225,6 +2410,7 @@
       "mechanismus": 5,
       "sicherheit": 6,
       "hype": 4,
+      "anwendung": 5,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Evidenz ist offen widersprüchlich, und das sollte man nicht glattbügeln: Drei Meta-Analysen finden triviale Phaseneffekte auf die Leistung, eine vierte (Muehlbauer et al., Sports 2024, 22 Studien) findet moderate Unterschiede – bei einer Heterogenität bis 95 Prozent, überwiegend niedriger Studienqualität und ohne Hormonbestimmung in gut der Hälfte der Arbeiten. Die Zyklusvorhersage der Apps ist mit einer gepoolten Genauigkeit von 0,88 brauchbar, die Evidenzqualität dafür aber niedrig. Phasenspezifische Trainingspläne sind nicht belegt."
@@ -2237,6 +2423,7 @@
       "mechanismus": 7,
       "sicherheit": 8,
       "hype": 3,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Die Messung ist validiert – nächtliche Werte guter Geräte stimmen eng mit dem EKG überein –, die Entscheidung daraus nicht: Die Meta-Analyse über acht RCTs mit zusammen nur 190 Teilnehmern fand keinen Vorteil HRV-gesteuerten gegenüber vorgeplantem Training. Die vagale Steuerung des Herzschlags ist am Menschen gut verstanden. Eine Messung ohne körperliches Risiko braucht keine Sicherheitsstudien; nicht untersucht ist der psychologische Nebeneffekt täglicher Bereitschaftswerte. Beworben wird eine Entscheidungsvalidierung, vorliegt eine Messvalidierung."
@@ -2249,6 +2436,7 @@
       "mechanismus": 4,
       "sicherheit": 5,
       "hype": 4,
+      "anwendung": 6,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Ein systematisches Review führt 63 Studien mit 1.838 Teilnehmern, die mittlere Studiengröße liegt aber bei rund 32 Personen; eine Behördenauswertung fand nur zwei randomisierte Studien mittlerer Qualität. Die methodisch sauberste Arbeit (PLOS ONE 2023, n=75, mit aktivem Vergleichsarm) war ausdrücklich eine Sicherheits- und Machbarkeitsstudie. Keine harten Endpunkte. Beworben werden Blutdrucksenkung, PTBS- und ADHS-Linderung sowie Entgiftung – dafür reicht die Datenlage nicht."
@@ -2261,6 +2449,7 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Der beworbene Knochen-Nutzen ist der am schlechtesten belegte: Eine Übersicht über 15 systematische Reviews bei Frauen nach der Menopause kam zu inkonsistenten Ergebnissen, und 13 der 15 Reviews wurden methodisch als kritisch niedrig eingestuft; Frakturen – der Endpunkt, auf den es ankommt – wurden in keiner Arbeit untersucht. Besser belegt und weniger beworben ist der funktionelle Nutzen bei älteren Menschen. Nur ein Drittel der Reviews erfasste Nebenwirkungen überhaupt."
@@ -2273,6 +2462,7 @@
       "mechanismus": 6,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 7,
       "richtung": "gemischt",
       "label": "Dünne Humanevidenz",
       "beleg": "Zwei sehr ungleiche Verfahren in einem Eintrag. Die repetitive Magnetstimulation ist bei unipolarer Depression in der Nationalen Versorgungsleitlinie verankert, mit klinischem Endpunkt und ärztlicher Indikationsstellung. Die im Biohacking genutzte Gleichstromstimulation ist es nicht: Ein quantitatives Review fand für kognitive Effekte bei Gesunden nach Einzelsitzungen keinen Nachweis, und die deutsche DepressionDC-Studie verfehlte ihren primären Endpunkt. Consumer-Geräte leihen sich Glaubwürdigkeit von einem anderen Verfahren."
@@ -2285,6 +2475,7 @@
       "mechanismus": 5,
       "sicherheit": 4,
       "hype": 4,
+      "anwendung": 8,
       "richtung": "gemischt",
       "label": "Belegt, mit Einschränkungen",
       "beleg": "Viel Evidenz für Surrogatmarker, keine für harte Endpunkte: Ein Umbrella-Review über 23 Meta-Analysen (Sun et al., eClinicalMedicine 2024) fand hohe Ergebnissicherheit nur für 12 Prozent der Zusammenhänge – Taillenumfang, Blutfette, Nüchterninsulin. Sterblichkeit und kardiovaskuläre Ereignisse wurden gar nicht untersucht. Der wiederkehrende Befund: Intervallfasten wirkt etwa so gut wie klassische Kalorienrestriktion, nicht besser. Die populäre Aussage, ab einer bestimmten Stundenzahl schalte die Autophagie an, ist am Menschen nicht belegt."
@@ -2297,6 +2488,7 @@
       "mechanismus": 4,
       "sicherheit": 6,
       "hype": 3,
+      "anwendung": 5,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Für den Anti-Aging-Einsatz existiert genau eine Studie (Fuentealba et al., Aging Cell 2025, n=42, einfach verblindet) mit einem Surrogatendpunkt – epigenetische Uhren sind selbst nicht als Endpunkt validiert –, und die Interessenkonflikte sind erheblich. Die Sicherheit ist vergleichsweise gut fundiert, aber aus anderen Indikationen: Für die wiederholte Anwendung bei Gesunden über Jahre gibt es keine Daten. Aus rund minus 1,3 Jahren auf einer Uhr wird Verjüngung gemacht."
@@ -2309,8 +2501,9 @@
       "mechanismus": 2,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 7,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Die ungünstigste Kombination im ganzen Bestand: sehr niedrige Ergebnissicherheit für die beworbenen Indikationen, für Long COVID laut IGeL-Monitor nicht eine einzige abgeschlossene Studie – und gleichzeitig dokumentierte schwere Zwischenfälle, darunter tödliche Gasembolie, embolischer Schlaganfall und ein Cluster von sechs Hepatitis-C-Infektionen nach ozonangereicherter Eigenbluttransfusion. Eine systematische Erfassung unerwünschter Ereignisse existiert nicht."
     },
     {
@@ -2321,6 +2514,7 @@
       "mechanismus": 3,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 3,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
       "beleg": "Die Quellenlage widerspricht sich offen: Eine Meta-Analyse berichtet Effekte auf Faltentiefe und Haardichte aus 39 gemischten Humanstudien, eine deutsche dermatologische Fachdarstellung sieht dagegen keine randomisierten Studien und stuft die Datenbasis als klein und unstandardisiert ein. Für die systemische Longevity-Anwendung gibt es nichts. Die Sicherheit ist von allen Anwendungen am schlechtesten untersucht. Die US-Behörde stellt klar, dass kein Exosomen-Produkt zugelassen ist."
@@ -2333,8 +2527,9 @@
       "mechanismus": 4,
       "sicherheit": 3,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Für Anti-Aging bei Gesunden gibt es keine kontrollierte Studie. Was vorliegt, betrifft Altersgebrechlichkeit als Erkrankung – eine Phase-II-Studie mit 30 Teilnehmern, primär auf Sicherheit angelegt. Was Wellness-Kliniken tatsächlich anbieten, ist damit nicht untersucht. Dokumentiert sind schwere Schäden bis zur dauerhaften Erblindung und Todesfälle; in Deutschland wurde 2011 eine Klinik nach dem Tod eines Kindes geschlossen. EMA und Paul-Ehrlich-Institut warnten im März 2025 gemeinsam vor kommerziellen Angeboten mit nicht zugelassenen Zelltherapien."
     },
     {
@@ -2345,8 +2540,9 @@
       "mechanismus": 3,
       "sicherheit": 2,
       "hype": 1,
+      "anwendung": 4,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Für die intravenöse Form gibt es keine randomisierte Studie mit klinischem Endpunkt. Was existiert, ist eine Pharmakokinetik-Pilotstudie, eine retrospektive Auswertung von 14 Kunden einer Wellness-Kette durch dort angestellte Autoren und ein nicht begutachteter Preprint. Ob intravenöses NAD+ überhaupt intakt in die Zielzellen gelangt, ist ungeklärt. Im einzigen direkten Vergleich hatten alle Infundierten mittelschwere bis schwere Reaktionen. Deutsche Anbieter werben mit DNA-Reparatur, bei rund 450 Euro pro Sitzung, ohne eine einzige Studienangabe."
     },
     {
@@ -2357,8 +2553,9 @@
       "mechanismus": 2,
       "sicherheit": 3,
       "hype": 1,
+      "anwendung": 6,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Lange angewendet, kaum untersucht",
       "beleg": "Es existiert im Wesentlichen eine placebokontrollierte Pilotstudie zum Myers-Cocktail. Die Kernprämisse – Gesunde profitierten von supraphysiologischen Vitaminspiegeln – ist nicht belegt; die Nieren normalisieren die Spiegel binnen Stunden. Dokumentierte Risiken: schwere Hämolyse unter hochdosiertem Vitamin C, in einer Fallsammlung überwiegend bei G6PD-Mangel, mit akutem Nierenversagen und einem Todesfall – ein Screening findet in der Praxis oft nicht statt. Beworben werden Immunstärkung, Energie und Anti-Aging."
     },
     {
@@ -2369,8 +2566,9 @@
       "mechanismus": 1,
       "sicherheit": 1,
       "hype": 1,
+      "anwendung": 5,
       "richtung": "offen",
-      "label": "Hype weit vor Evidenz",
+      "label": "Nicht am Menschen untersucht",
       "beleg": "Ein systematisches Review fand drei Studien mit acht, zwölf und 32 Teilnehmern, und schon diese widersprechen sich – eine fand Schmerzreduktion, die randomisierte fand keinen Unterschied zu Placebo. Die postulierte Wirkkette, Elektronen aus dem Erdboden neutralisierten freie Radikale, hat keine Grundlage in der physiologischen Literatur. Kontrollierte Sicherheitsstudien existieren nicht. Zentrale Arbeiten und das dahinterstehende Institut gehen auf denselben Mann zurück, der die Produkte vertreibt."
     }
   ]

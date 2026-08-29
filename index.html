@@ -22,7 +22,9 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=142" />
+  <link rel="stylesheet" href="css/style.css?v=143" />
+  <link rel="canonical" href="https://biohackingkompakt.de/" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://biohackingkompakt.de/#organisation","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","founder":{"@type":"Person","name":"Paul Höser"},"email":"kontakt@biohackingkompakt.de","description":"Deutschsprachiger Faktencheck zu Supplements, Peptiden und Biohacking-Anwendungen.","sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"]},{"@type":"WebSite","@id":"https://biohackingkompakt.de/#website","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","inLanguage":"de","publisher":{"@id":"https://biohackingkompakt.de/#organisation"}},{"@type":"WebPage","@id":"https://biohackingkompakt.de/#startseite","url":"https://biohackingkompakt.de/","name":"Biohacking Kompakt","inLanguage":"de","isPartOf":{"@id":"https://biohackingkompakt.de/#website"},"description":"Datenbank mit 218 Substanzen und Verfahren, jeweils mit Evidenz, Risiken und Quellen – plus dem BK-Score, der den Wissensstand bewertet."},{"@type":"PodcastSeries","@id":"https://biohackingkompakt.de/#podcast","name":"Biohacking Kompakt","url":"https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","webFeed":"https://anchor.fm/s/1148b9204/podcast/rss","inLanguage":"de","author":{"@type":"Person","name":"Paul Höser"},"publisher":{"@id":"https://biohackingkompakt.de/#organisation"},"sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"],"numberOfEpisodes":59,"description":"Täglicher Faktencheck zu einem Wirkstoff oder Verfahren. Vollständig KI-produziert mit zwei synthetischen Stimmen, redaktionell verantwortet."},{"@type":"Dataset","@id":"https://biohackingkompakt.de/#score-datensatz","name":"BK-Score","url":"https://biohackingkompakt.de/#score","description":"Bewertung des Wissensstands zu Supplements, Peptiden und Anwendungen auf fünf Achsen von 0 bis 10. Subjektive Einschätzung von Biohacking Kompakt nach offengelegten Vergaberegeln – keine wissenschaftliche Bewertung und keine medizinische Empfehlung.","creator":{"@id":"https://biohackingkompakt.de/#organisation"},"inLanguage":"de","license":"https://biohackingkompakt.de/impressum.html","variableMeasured":[{"@type":"PropertyValue","name":"Human-Evidenz","description":"Wie viel und wie gute Daten am Menschen","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Mechanismus","description":"Wie gut die Wirkkette verstanden ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Sicherheits-Datenlage","description":"Wie gut die Sicherheit untersucht ist – nicht, wie sicher es ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Hype-Abstand","description":"Wie weit die Vermarktung der Evidenz vorausläuft","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Anwendungserfahrung","description":"Wie viel dokumentierte Anwendung am Menschen vorliegt – misst nicht, ob es wirkt","minValue":0,"maxValue":10}],"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://biohackingkompakt.de/scores.json"}}]}</script>
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -252,7 +254,7 @@
           <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
           <span class="eyebrow">Wissensstand statt Werbeversprechen</span>
           <h2>📊 BK-Score</h2>
-          <p>Vier Achsen, je null bis zehn. Entscheidend ist, was jede Achse misst: <strong>den Wissensstand, nicht die Substanz.</strong> „Human-Evidenz 9" heißt, dass es viele gute Studien am Menschen gibt – nicht, dass etwas wirkt. „Sicherheits-Datenlage 9" heißt, dass Sicherheit gut untersucht ist – nicht, dass etwas harmlos ist.</p>
+          <p>Fünf Achsen, je null bis zehn. Entscheidend ist, was jede Achse misst: <strong>den Wissensstand, nicht die Substanz.</strong> „Human-Evidenz 9" heißt, dass es viele gute Studien am Menschen gibt – nicht, dass etwas wirkt. „Sicherheits-Datenlage 9" heißt, dass Sicherheit gut untersucht ist – nicht, dass etwas harmlos ist. „Anwendungserfahrung 9" heißt, dass etwas lange und breit angewendet wird – auch das ist kein Wirksamkeitsbeleg.</p>
         </div>
 
         <p class="sc-disclaimer"><strong>Disclaimer:</strong> Alle Bewertungen sind subjektive Einschätzungen von Biohacking Kompakt auf Basis der unten offengelegten Vergaberegeln. Sie sind keine wissenschaftliche Bewertung, kein Konsens einer Fachgesellschaft und keine medizinische Empfehlung. Andere können bei derselben Studienlage zu anderen Zahlen kommen – deshalb steht bei jeder Bewertung die Begründung dabei.</p>
@@ -274,10 +276,13 @@
           <p>0–2 nicht systematisch untersucht · 3–5 nur Kurzzeitdaten · 6–8 kontrollierte Daten über Monate · 9–10 Langzeitdaten aus Zulassung und Pharmakovigilanz. Eine hohe Zahl heißt „gut untersucht", nicht „harmlos".</p>
           <h3>Hype-Abstand</h3>
           <p>0–2 Versprechen ohne Grundlage · 3–5 ein Einzelbefund wird zur Gesamtaussage · 6–8 überwiegend korrekt, einzelne Überdehnungen · 9–10 die Werbung bleibt auf Höhe der Daten.</p>
+          <h3>Anwendungserfahrung</h3>
+          <p>0–1 praktisch keine Anwendung am Menschen · 2–3 nur in Studien oder in kleinen Graumarktkreisen · 4–5 verbreitet ohne regulatorischen Rahmen, oder Nische mit Zulassung · 6–7 seit vielen Jahren breit angewendet und in mindestens einem Land reguliert · 8–9 jahrzehntelang, breit, unter Aufsicht mit Nebenwirkungserfassung · 10 jahrzehntelang in Millionen Menschen mit systematischer Pharmakovigilanz.</p>
+          <p><strong>Diese Achse misst ausdrücklich nicht, ob etwas wirkt.</strong> Aderlass hätte hier eine 10. Sie existiert, weil lange Anwendungspraxis eine eigene Tatsache ist, die man kennen sollte – und weil sie sonst fälschlich in die Evidenz-Achse gerutscht wäre.</p>
           <h3>Regeln</h3>
           <ul>
             <li>Jede Zahl braucht einen Beleg in einem Satz. Ohne Beleg keine Zahl.</li>
-            <li>Keine Gesamtnote als Mittelwert – die Achsen messen Verschiedenes. Das Label entsteht aus Human-Evidenz und Hype-Abstand.</li>
+            <li>Keine Gesamtnote als Mittelwert – die Achsen messen Verschiedenes. Das Label entsteht aus Human-Evidenz, Richtung, Hype-Abstand und Anwendungserfahrung.</li>
             <li>Shops werden nie bewertet, und keine Bewertung hängt daran, ob ein Partner das Produkt verkauft.</li>
             <li>Ändert sich eine Zahl, entsteht ein Eintrag im <a href="#aenderungen">Änderungsprotokoll</a>.</li>
           </ul>
@@ -791,26 +796,26 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=142"></script>
-  <script src="js/data/tips.js?v=142"></script>
-  <script src="js/data/goals.js?v=142"></script>
-  <script src="js/data/products.js?v=142"></script>
-  <script src="js/data/experimental.js?v=142"></script>
-  <script src="js/data/khavinson.js?v=142"></script>
-  <script src="js/data/therapies.js?v=142"></script>
-  <script src="js/data/signalwege.js?v=142"></script>
-  <script src="js/data/blutwerte.js?v=142"></script>
-    <script src="js/data/podcast.js?v=142"></script>
-    <script src="js/data/aenderungen.js?v=142"></script>
-    <script src="js/data/scores.js?v=142"></script>
-  <script src="js/data/erfahrungen.js?v=142"></script>
-  <script src="js/vitals.js?v=142"></script>
+  <script src="js/data/supplements.js?v=143"></script>
+  <script src="js/data/tips.js?v=143"></script>
+  <script src="js/data/goals.js?v=143"></script>
+  <script src="js/data/products.js?v=143"></script>
+  <script src="js/data/experimental.js?v=143"></script>
+  <script src="js/data/khavinson.js?v=143"></script>
+  <script src="js/data/therapies.js?v=143"></script>
+  <script src="js/data/signalwege.js?v=143"></script>
+  <script src="js/data/blutwerte.js?v=143"></script>
+    <script src="js/data/podcast.js?v=143"></script>
+    <script src="js/data/aenderungen.js?v=143"></script>
+    <script src="js/data/scores.js?v=143"></script>
+  <script src="js/data/erfahrungen.js?v=143"></script>
+  <script src="js/vitals.js?v=143"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=142"></script>
-  <script src="js/app.js?v=142"></script>
+  <script src="js/mydata.js?v=143"></script>
+  <script src="js/app.js?v=143"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe

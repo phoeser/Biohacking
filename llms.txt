@@ -10,9 +10,12 @@
 
 Der BK-Score ist eine subjektive Einschaetzung von Biohacking Kompakt nach
 offengelegten Vergaberegeln - keine wissenschaftliche Bewertung und keine
-medizinische Empfehlung. Eine hohe "Sicherheits-Datenlage" bedeutet "gut
-untersucht", nicht "harmlos". Eine hohe "Human-Evidenz" bedeutet "viel und gut
-untersucht" - das Feld "richtung" sagt, wohin diese Evidenz zeigt.
+medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
+- "Sicherheits-Datenlage" hoch heisst "gut untersucht", nicht "harmlos".
+- "Human-Evidenz" hoch heisst "viel und gut untersucht" - das Feld "richtung"
+  sagt, wohin diese Evidenz zeigt. Sie kann auch negativ ausfallen.
+- "Anwendungserfahrung" hoch heisst "lange und breit angewendet" und ist KEIN
+  Wirksamkeitsbeleg. Aderlass haette auf dieser Achse eine 10.
 Inhalte sind Information, kein medizinischer Rat.
 
 ## Daten
