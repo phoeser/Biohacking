@@ -43,7 +43,8 @@
     { key: 'evidenz',     label: 'Human-Evidenz',        hilfe: 'Wie viel und wie gute Daten am Menschen?' },
     { key: 'mechanismus', label: 'Mechanismus',          hilfe: 'Wie gut ist die Wirkkette verstanden?' },
     { key: 'sicherheit',  label: 'Sicherheits-Datenlage', hilfe: 'Wie gut ist die Sicherheit untersucht? Nicht: wie sicher es ist.' },
-    { key: 'hype',        label: 'Hype-Abstand',         hilfe: '10 heißt: die Werbung bleibt auf Höhe der Daten.' }
+    { key: 'hype',        label: 'Hype-Abstand',         hilfe: '10 heißt: die Werbung bleibt auf Höhe der Daten.' },
+    { key: 'anwendung',   label: 'Anwendungserfahrung',  hilfe: 'Wie viel dokumentierte Anwendung am Menschen vorliegt – seit wann, wie breit, in welchem Rahmen. Misst nicht, ob es wirkt.' }
   ];
 
   function scoreFuer(view, id) {
@@ -211,6 +212,46 @@
   // auf einen harmlosen Anker umgebogen – KI-generierte URLs sind nicht vertrauenswürdig.
   function safeHttpUrl(url, fallback) {
     return (url && /^https?:\/\//i.test(String(url).trim())) ? String(url).trim() : (fallback || '#erfahrungen');
+  }
+
+  // Holt das JSON-Objekt aus einer KI-Antwort.
+  //
+  // Der Prompt bittet um reines JSON ohne Markdown - Modelle halten sich nur
+  // meistens daran. Deshalb drei Stufen: direkt parsen, Codeblock abschaelen,
+  // und zur Not die aeusserste geschweifte Klammer herausschneiden. Gibt null
+  // zurueck, wenn nichts Brauchbares drinsteht; der Aufrufer unterscheidet
+  // dann anhand von finishReason, woran es lag.
+  function extractJson(text) {
+    if (!text) return null;
+    let roh = String(text).trim();
+
+    const versuch = (str) => {
+      try { const o = JSON.parse(str); return (o && typeof o === 'object') ? o : null; }
+      catch (e) { return null; }
+    };
+
+    let out = versuch(roh);
+    if (out) return out;
+
+    // ```json ... ``` oder ``` ... ```
+    const block = roh.match(/```(?:json)?\s*([\s\S]*?)```/i);
+    if (block) {
+      out = versuch(block[1].trim());
+      if (out) return out;
+      roh = block[1].trim();
+    }
+
+    // Von der ersten { bis zur letzten } - faengt vorangestellte Prosa ab.
+    const a = roh.indexOf('{'), b = roh.lastIndexOf('}');
+    if (a !== -1 && b > a) {
+      const kern = roh.slice(a, b + 1);
+      out = versuch(kern);
+      if (out) return out;
+      // Letzter Versuch: nachgestellte Kommas entfernen.
+      out = versuch(kern.replace(/,\s*([}\]])/g, '$1'));
+      if (out) return out;
+    }
+    return null;
   }
 
   function normalizeStr(s) {
