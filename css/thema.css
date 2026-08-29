@@ -1,15 +1,111 @@
+/* Statische Themen- und Vergleichsseiten.
+ *
+ * Diese Seiten sind der Einstieg aus Google und aus KI-Antworten. Bis v142
+ * verwiesen sie auf ein Stylesheet, das nur den Score-Block enthielt - die
+ * Seiten kamen also praktisch ungestylt an. Das hier ist die Grundlage:
+ * dieselben Farben und Schriften wie die App, aber ohne deren Abhaengigkeiten,
+ * damit die Seite ohne JavaScript und ohne Webfont-Nachladen sofort steht.
+ */
+:root {
+  --bg: #fbfcfa;
+  --bg-alt: #f3f5f0;
+  --flaeche: #ffffff;
+  --rand: rgba(45, 90, 70, .12);
+  --text: #1d2420;
+  --gedaempft: #5a6560;
+  --dim: #8a948f;
+  --akzent: #2f8b6a;
+  --akzent-2: #4a7a8a;
+  --akzent-soft: #d8ece2;
+  --radius: 14px;
+  --schatten: 0 6px 20px rgba(45, 90, 70, .06);
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-titel: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
 
-/* BK-Score auf der Themenseite */
-.sc { border:1px solid var(--rand); border-radius:14px; padding:16px 18px; margin:32px 0; background:var(--flaeche) }
-.sc h2 { margin-top:0; display:flex; flex-wrap:wrap; align-items:baseline; gap:10px }
-.sc .sc-label { font-size:.82rem; font-weight:600; color:var(--gedaempft) }
-.sc-tab { width:100%; border-collapse:collapse; margin:0 0 12px }
-.sc-tab th { text-align:left; font-weight:400; font-size:.88rem; padding:5px 10px 5px 0; white-space:nowrap }
-.sc-tab td { padding:5px 0 }
-.sc-tab td:first-of-type { width:100% }
-.sc-bar { display:block; height:7px; border-radius:99px; background:rgba(255,255,255,.13); overflow:hidden }
-.sc-bar span { display:block; height:100%; border-radius:99px; background:var(--akzent) }
-.sc-num { padding-left:12px; font-weight:700; text-align:right; width:26px }
-.sc-hinweis { font-size:.82rem; color:var(--gedaempft) }
-.stand { font-size:.8rem; color:var(--gedaempft); margin-top:28px }
-.sc-hinweis strong { color:var(--text) }
+* { box-sizing: border-box }
+html { -webkit-text-size-adjust: 100% }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: var(--font); font-size: 17px; line-height: 1.65;
+}
+
+/* Kopf und Fuss */
+.kopf {
+  display: flex; flex-wrap: wrap; gap: 12px 20px;
+  align-items: baseline; justify-content: space-between;
+  padding: 16px 22px; border-bottom: 1px solid var(--rand);
+  background: var(--flaeche);
+}
+.kopf .marke { font-family: var(--font-titel); font-weight: 700; font-size: 1.05rem; color: var(--text); text-decoration: none }
+.kopf nav a { color: var(--gedaempft); text-decoration: none; font-size: .92rem; margin-left: 16px }
+.kopf nav a:hover, .kopf .marke:hover { color: var(--akzent) }
+.fuss {
+  margin-top: 56px; padding: 22px; border-top: 1px solid var(--rand);
+  text-align: center; font-size: .87rem; color: var(--gedaempft); background: var(--flaeche);
+}
+.fuss a { color: var(--gedaempft) }
+
+main { max-width: 760px; margin: 0 auto; padding: 8px 22px 0 }
+article > section { margin: 34px 0 }
+
+a { color: var(--akzent); text-underline-offset: 2px }
+
+/* Typografie */
+.typ {
+  font-size: .74rem; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--akzent); font-weight: 700; margin: 30px 0 6px;
+}
+h1 { font-family: var(--font-titel); font-size: 2rem; line-height: 1.2; margin: 0 0 10px; letter-spacing: -.015em }
+h2 { font-family: var(--font-titel); font-size: 1.24rem; margin: 0 0 10px; letter-spacing: -.01em }
+h3 { font-family: var(--font-titel); font-size: 1.02rem; margin: 0 0 6px }
+.unter { color: var(--gedaempft); margin: 0 0 4px; font-size: 1.02rem }
+.lead { font-size: 1.1rem; color: var(--text); margin: 18px 0 }
+ul { padding-left: 1.2em } li { margin: 5px 0 }
+.q li { font-size: .93rem }
+
+/* Buttons und Hinweise */
+.btn {
+  display: inline-block; background: var(--akzent); color: #fff; text-decoration: none;
+  padding: 11px 18px; border-radius: 99px; font-weight: 600; font-size: .95rem;
+}
+.btn:hover { background: #27735a }
+.app { margin: 34px 0 }
+.disc, .disc-score, .stand {
+  font-size: .84rem; color: var(--gedaempft); line-height: 1.55;
+  border-top: 1px solid var(--rand); padding-top: 12px; margin-top: 22px;
+}
+.disc-score { border-top: 0; padding-top: 0 }
+
+/* BK-Score-Block auf der Themenseite */
+.sc { border: 1px solid var(--rand); border-radius: var(--radius); padding: 16px 18px; margin: 32px 0; background: var(--flaeche); box-shadow: var(--schatten) }
+.sc h2 { margin-top: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px }
+.sc .sc-label { font-size: .82rem; font-weight: 600; color: var(--akzent) }
+.sc-tab { width: 100%; border-collapse: collapse; margin: 0 0 12px }
+.sc-tab th { text-align: left; font-weight: 400; font-size: .88rem; padding: 5px 10px 5px 0; white-space: nowrap; color: var(--gedaempft) }
+.sc-tab td { padding: 5px 0 }
+.sc-tab td:first-of-type { width: 100% }
+.sc-bar { display: block; height: 7px; border-radius: 99px; background: var(--bg-alt); overflow: hidden }
+.sc-bar span { display: block; height: 100%; border-radius: 99px; background: var(--akzent) }
+.sc-num { padding-left: 12px; font-weight: 700; text-align: right; width: 26px }
+.sc-hinweis { font-size: .82rem; color: var(--gedaempft) }
+.sc-hinweis strong { color: var(--text) }
+
+/* Podcast- und Aenderungsblock */
+.pod, .chg { border: 1px solid var(--rand); border-radius: var(--radius); padding: 16px 18px; margin: 28px 0; background: var(--flaeche) }
+.pod-nr, .chg-datum { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--akzent); font-weight: 700; margin: 0 0 4px }
+.pod h3 { margin-bottom: 4px }
+.pod-note { color: var(--gedaempft); font-size: .94rem }
+
+/* Themenuebersicht */
+.themen { list-style: none; padding: 0 }
+.themen li { margin: 0; border-bottom: 1px solid var(--rand) }
+.themen a { display: block; padding: 11px 2px; text-decoration: none; color: var(--text) }
+.themen a:hover { color: var(--akzent) }
+
+/* Verweis von der Stoffseite auf die passenden Vergleichsseiten */
+.vgl-hin { border: 1px solid var(--rand); border-left: 3px solid var(--akzent); border-radius: var(--radius); padding: 14px 18px; background: var(--flaeche) }
+.vgl-hin h2 { font-size: 1.05rem }
+.vgl-hin ul { margin: 0; padding-left: 1.1em }
+.vgl-hin li { font-size: .94rem; color: var(--gedaempft) }
+.vgl-hin a { font-weight: 600 }
