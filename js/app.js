@@ -1099,6 +1099,29 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     return [];
   }
 
+  // Einheitlicher Pflichthinweis fuer Affiliate-Links (§ 5a Abs. 4 UWG).
+  //
+  // Der Satz „Fuer dich aendert sich der Preis nicht" stimmt nur dort, wo es
+  // keinen Code gibt. Wo einer hinterlegt ist, wird der Einkauf guenstiger –
+  // das ist fuer den Leser die wichtigere Information und stand vorher an zwei
+  // von drei Stellen nicht drin. Der Text richtet sich deshalb nach den Daten.
+  function affHinweis(aff) {
+    const codes = affCodes(aff);
+    if (!codes.length) {
+      return 'Anzeige: Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. '
+           + 'Für dich ändert sich der Preis dadurch nicht.';
+    }
+    const proz = [...new Set(codes.map(c => (c.prozent || '').trim()).filter(Boolean))];
+    const vorteil = proz.length === 1
+      ? 'Mit dem Code sparst du ' + proz[0] + '.'
+      : (proz.length > 1
+          ? 'Mit den Codes sparst du ' + proz.join(' beziehungsweise ') + '.'
+          : 'Der hinterlegte Code senkt deinen Preis.');
+    return 'Anzeige: Affiliate-Partnerschaft. ' + vorteil
+         + ' Kaufst du über den Link oder mit dem Code, erhalte ich eine Provision – '
+         + 'dein Rabatt wird dadurch nicht kleiner.';
+  }
+
   // Der Rabatt ist fuer Leser die wichtigste Information an einer Bezugsquelle –
   // deshalb steht je Code die Prozentzahl vorn und der Code direkt daneben zum
   // Antippen. Mehrere Codes (Neukunde/Bestandskunde) stehen gleichwertig.
@@ -1166,7 +1189,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('')}</dl>` : ''}
         ${renderRabattBlock(aff)}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
-        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Dieser Link ist ein Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. Für dich ändert sich der Preis nicht.</p>` : ''}
+        ${istWerbung ? `<p class="erf-ad-hint">${affHinweis(aff)}</p>` : ''}
         ${istWarnung ? `<p class="erf-warn-hinweis">Bewusst ohne Link. Diese Einordnung gibt wieder, was uns berichtet wurde – sie ist keine eigene Feststellung. Betreiber, die das anders sehen, erreichen uns über die Adresse im Impressum.</p>` : ''}
       </article>
     `;
@@ -1223,7 +1246,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         <p class="erf-bezug-name">${escapeHtml(s.name || '')}</p>
         ${renderRabattBlock(aff)}
         ${ziel ? `<a class="btn btn-ghost erf-shop-link" href="${escapeHtml(safeHttpUrl(ziel, '#erfahrungen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
-        ${istWerbung ? `<p class="erf-ad-hint">Anzeige: Affiliate-Partnerschaft. Kaufst du ${affCodes(aff).length ? 'darüber oder mit einem der Codes' : 'über diesen Link'}, erhalte ich eine Provision. Für dich ändert sich der Preis nicht${affCodes(aff).length ? ' – der Rabatt kommt obendrauf' : ''}.</p>` : ''}
+        ${istWerbung ? `<p class="erf-ad-hint">${affHinweis(aff)}</p>` : ''}
       </div>
     `;
   }
@@ -1476,7 +1499,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       // Pflichtkennzeichnung: Affiliate-Links muessen als Werbung erkennbar sein
       // (§ 5a Abs. 4 UWG, § 6 TMG). Deshalb ein sichtbares Badge plus Fusstext.
       const affBadge = p.affiliate ? `<span class="product-aff" title="Mein persönlicher Tipp – Link enthält Rabatt-Code">⭐ Mein Tipp</span><span class="erf-badge is-ad">Anzeige</span>` : '';
-      const affHint = p.affiliate ? `<p class="erf-ad-hint">Anzeige: Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. Für dich ändert sich der Preis nicht.</p>` : '';
+      const affHint = p.affiliate
+        ? `<p class="erf-ad-hint">${affHinweis(p.code ? { code: p.code, prozent: p.prozent || '' } : null)}</p>`
+        : '';
       return `
         <article class="product-card">
           <div class="product-head">
