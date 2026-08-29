@@ -1033,13 +1033,13 @@
       "id": "retatrutide",
       "name": "Retatrutide",
       "url": "https://biohackingkompakt.de/thema/retatrutide.html",
-      "evidenz": 5,
+      "evidenz": 9,
       "mechanismus": 8,
-      "sicherheit": 4,
-      "hype": 3,
-      "richtung": "gemischt",
-      "label": "Dünne Humanevidenz",
-      "beleg": "Beeindruckende Phase-2-Daten, aber keine abgeschlossene Phase III und keine Zulassung; Sicherheitsdaten entsprechend kurz. Wird im Graumarkt schon heute als stärkster Abnehmwirkstoff verkauft – ein Versprechen auf Basis unfertiger Studien."
+      "sicherheit": 6,
+      "hype": 4,
+      "richtung": "positiv",
+      "label": "Gut belegt, stark überhöht beworben",
+      "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden – und seit Ende 2025 aus Phase III statt aus Phase II: TRIUMPH-1 randomisierte 2.339 Teilnehmer über 80 Wochen und erreichte in der höchsten Dosis 28,3 Prozent Gewichtsreduktion; TRIUMPH-4 kam mit 445 Teilnehmern über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Der Dreifach-Agonismus an GLP-1-, GIP- und Glukagon-Rezeptoren ist damit am Menschen belegt. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43 Prozent und Studienabbruch wegen Nebenwirkungen bei bis zu 18 Prozent. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
     },
     {
       "id": "bpc-157",
@@ -1489,13 +1489,13 @@
       "id": "glp-3",
       "name": "GLP-3",
       "url": "https://biohackingkompakt.de/thema/glp-3.html",
-      "evidenz": 0,
-      "mechanismus": 2,
-      "sicherheit": 0,
-      "hype": 0,
+      "evidenz": 1,
+      "mechanismus": 8,
+      "sicherheit": 1,
+      "hype": 1,
       "richtung": "offen",
       "label": "Hype weit vor Evidenz",
-      "beleg": "Der Name selbst ist der Befund: Ein Hormon oder Rezeptor namens GLP-3 existiert in der wissenschaftlichen Nomenklatur nicht – etabliert sind GLP-1 und GLP-2. Der Begriff wird auf Graumarktseiten uneinheitlich verwendet, meist als Umschreibung für ein Retatrutid-artiges Dreifach-Peptid. Damit gibt es weder eine definierte Substanz noch eine Studie, noch eine Chargenkontrolle, noch eine Sicherheitsbewertung. Was unter diesem Namen verkauft wird, ist inhaltlich nicht bestimmbar – und genau das ist der Grund für die niedrigste Bewertung im Bestand."
+      "beleg": "Hier ist die Trennung zwischen Wirkprinzip und Produkt entscheidend. Das Prinzip – der Dreifach-Agonismus an GLP-1-, GIP- und Glukagon-Rezeptoren – ist am Menschen inzwischen sehr gut belegt: Retatrutid erreichte in TRIUMPH-1 mit 2.339 Teilnehmern über 80 Wochen 28,3 Prozent Gewichtsreduktion. Deshalb steht der Mechanismus hier hoch, und die Bewertung dieses Wirkprinzips findet sich beim Eintrag Retatrutid. Was unter dem Namen GLP-3 gehandelt wird, ist etwas anderes: Ein Hormon oder Rezeptor dieses Namens existiert nicht, die Bezeichnung stammt aus dem Graumarkt, und die dort verkaufte Ware ist weder chargenkontrolliert noch identisch mit dem Studienwirkstoff. Für sie selbst gibt es keine Studie und keine Sicherheitsbewertung."
     },
     {
       "id": "adipotide",
