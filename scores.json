@@ -1,0 +1,342 @@
+{
+  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
+  "stand": "2026-08-29",
+  "achsen": {
+    "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
+    "mechanismus": "Wie gut die Wirkkette verstanden ist",
+    "sicherheit": "Wie gut die Sicherheit untersucht ist (nicht: wie sicher es ist)",
+    "hype": "Hype-Abstand: 10 = die Werbung bleibt auf Hoehe der Daten"
+  },
+  "eintraege": [
+    {
+      "id": "kreatin",
+      "name": "Kreatin Monohydrat",
+      "url": "https://biohackingkompakt.de/thema/kreatin.html",
+      "evidenz": 9,
+      "mechanismus": 8,
+      "sicherheit": 9,
+      "hype": 8,
+      "label": "Gut belegt",
+      "beleg": "Eines der am besten untersuchten Supplements überhaupt: zahlreiche RCTs und Meta-Analysen zu Kraft und Magermasse, der Phosphokreatin-Weg ist am Menschen messbar, Sicherheitsdaten reichen über Jahre. Abzug beim Hype-Abstand nur, weil die kognitiven Versprechen über die Daten hinausgehen."
+    },
+    {
+      "id": "omega-3",
+      "name": "Omega-3 (EPA/DHA)",
+      "url": "https://biohackingkompakt.de/thema/omega-3.html",
+      "evidenz": 8,
+      "mechanismus": 8,
+      "sicherheit": 9,
+      "hype": 6,
+      "label": "Gut belegt",
+      "beleg": "Grosse randomisierte Studien (u.a. VITAL, REDUCE-IT, STRENGTH) mit harten Endpunkten liegen vor – ihre Ergebnisse widersprechen sich allerdings teils. Mechanismus und Sicherheit sind gut untersucht; beworben wird deutlich mehr, als die Studien hergeben."
+    },
+    {
+      "id": "vitamin-d3",
+      "name": "Vitamin D3",
+      "url": "https://biohackingkompakt.de/thema/vitamin-d3.html",
+      "evidenz": 8,
+      "mechanismus": 9,
+      "sicherheit": 9,
+      "hype": 5,
+      "label": "Gut belegt, stark überhöht beworben",
+      "beleg": "Die Rezeptorbiologie ist ausgezeichnet verstanden und mit VITAL und Vergleichbarem gibt es große RCTs. Der Hype-Abstand ist der schlechteste Wert: Vitamin D wird für nahezu jede Erkrankung beworben, die Studien zeigen das nicht."
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "url": "https://biohackingkompakt.de/thema/magnesium.html",
+      "evidenz": 7,
+      "mechanismus": 8,
+      "sicherheit": 9,
+      "hype": 6,
+      "label": "Belegt, mit Einschränkungen",
+      "beleg": "Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit soliden Studien zu Blutdruck und Schlafqualität, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus."
+    },
+    {
+      "id": "vitamin-k2",
+      "name": "Vitamin K2 (MK-7)",
+      "url": "https://biohackingkompakt.de/thema/vitamin-k2.html",
+      "evidenz": 5,
+      "mechanismus": 8,
+      "sicherheit": 8,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Die Wirkkette über Osteocalcin und Matrix-Gla-Protein ist gut beschrieben, die Humandaten zu Knochen und Gefäßverkalkung bleiben aber dünn und uneinheitlich. Wird trotzdem als Pflichtpartner zu Vitamin D vermarktet."
+    },
+    {
+      "id": "zink",
+      "name": "Zink",
+      "url": "https://biohackingkompakt.de/thema/zink.html",
+      "evidenz": 7,
+      "mechanismus": 8,
+      "sicherheit": 8,
+      "hype": 6,
+      "label": "Belegt, mit Einschränkungen",
+      "beleg": "Bei Mangel und bei Erkältungsdauer gibt es kontrollierte Studien und Meta-Analysen, die Immunfunktion ist mechanistisch klar. Überdosierung stört den Kupferhaushalt – das steht selten in der Werbung."
+    },
+    {
+      "id": "taurin",
+      "name": "Taurin",
+      "url": "https://biohackingkompakt.de/thema/taurin.html",
+      "evidenz": 4,
+      "mechanismus": 6,
+      "sicherheit": 8,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Die Aufmerksamkeit stammt aus einer Tierarbeit zur Lebensspanne; am Menschen liegen kleine Studien zu Blutdruck und Leistung vor, keine Langlebigkeitsdaten. Sicherheit ist durch breite Anwendung gut untersucht."
+    },
+    {
+      "id": "koffein",
+      "name": "Koffein",
+      "url": "https://biohackingkompakt.de/thema/koffein.html",
+      "evidenz": 9,
+      "mechanismus": 9,
+      "sicherheit": 8,
+      "hype": 7,
+      "label": "Gut belegt",
+      "beleg": "Der Adenosin-Antagonismus ist am Menschen quantifiziert, zu Leistung, Wachheit und Kaffeekonsum existieren große Kohorten und viele RCTs. Abzug bei der Sicherheit für die Datenlage zu hohen Dosen und Kombipräparaten."
+    },
+    {
+      "id": "kollagen",
+      "name": "Kollagen-Peptide",
+      "url": "https://biohackingkompakt.de/thema/kollagen.html",
+      "evidenz": 5,
+      "mechanismus": 5,
+      "sicherheit": 9,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Es gibt RCTs zu Hautfeuchtigkeit und Gelenkbeschwerden, sie sind aber klein und überwiegend herstellerfinanziert. Der Mechanismus bleibt umstritten, weil Kollagen wie jedes Protein verdaut wird. Sehr stark beworben."
+    },
+    {
+      "id": "whey",
+      "name": "Whey Protein",
+      "url": "https://biohackingkompakt.de/thema/whey.html",
+      "evidenz": 8,
+      "mechanismus": 8,
+      "sicherheit": 9,
+      "hype": 7,
+      "label": "Gut belegt",
+      "beleg": "Zur Muskelproteinsynthese und zum Kraftzuwachs liegen viele RCTs und Meta-Analysen vor, Leucin als Auslöser ist am Menschen gut belegt. Der übliche Überzug betrifft Timing-Versprechen, die die Daten nicht stützen."
+    },
+    {
+      "id": "nmn",
+      "name": "NMN",
+      "url": "https://biohackingkompakt.de/thema/nmn.html",
+      "evidenz": 3,
+      "mechanismus": 6,
+      "sicherheit": 5,
+      "hype": 2,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Am Menschen gibt es kleine Studien mit Surrogatmarkern, keine Endpunktdaten; der NAD-Weg ist plausibel, die Anhebung im Gewebe aber schwach belegt. Sicherheitsdaten nur kurzfristig – und kaum ein Longevity-Produkt wird stärker überhöht."
+    },
+    {
+      "id": "spermidin",
+      "name": "Spermidin",
+      "url": "https://biohackingkompakt.de/thema/spermidin.html",
+      "evidenz": 3,
+      "mechanismus": 6,
+      "sicherheit": 6,
+      "hype": 3,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Die Autophagie-Erzählung ist mechanistisch reizvoll und in Modellorganismen belegt; am Menschen gibt es Kohortendaten und kleine Studien, keine harten Endpunkte. Beworben wird es als Fasten-Ersatz zum Schlucken."
+    },
+    {
+      "id": "berberin",
+      "name": "Berberin",
+      "url": "https://biohackingkompakt.de/thema/berberin.html",
+      "evidenz": 6,
+      "mechanismus": 7,
+      "sicherheit": 6,
+      "hype": 4,
+      "label": "Belegt, mit Einschränkungen",
+      "beleg": "Zu Blutzucker und Blutfetten liegen mehrere RCTs und Meta-Analysen vor, viele davon klein und aus einer Region. Der Beiname \"pflanzliches Ozempic\" ist der klarste Fall eines Versprechens weit über der Datenlage – dazu relevante Wechselwirkungen über CYP-Enzyme."
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "url": "https://biohackingkompakt.de/thema/ashwagandha.html",
+      "evidenz": 5,
+      "mechanismus": 4,
+      "sicherheit": 5,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt."
+    },
+    {
+      "id": "melatonin",
+      "name": "Melatonin",
+      "url": "https://biohackingkompakt.de/thema/melatonin.html",
+      "evidenz": 7,
+      "mechanismus": 9,
+      "sicherheit": 7,
+      "hype": 6,
+      "label": "Belegt, mit Einschränkungen",
+      "beleg": "Die circadiane Wirkkette ist am Menschen quantifiziert, zu Einschlafzeit und Jetlag gibt es Meta-Analysen. Langzeitdaten fehlen weitgehend, und die in Deutschland üblichen Dosierungen liegen deutlich über dem, was die Studien nutzen."
+    },
+    {
+      "id": "urolithin-a",
+      "name": "Urolithin A",
+      "url": "https://biohackingkompakt.de/thema/urolithin-a.html",
+      "evidenz": 4,
+      "mechanismus": 7,
+      "sicherheit": 7,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Die Mitophagie-Wirkkette ist beim Menschen mit Biomarkern belegt, die klinischen Effekte auf Muskelkraft und Ausdauer sind klein und aus wenigen, herstellerfinanzierten Studien. Dass viele Menschen den Stoff im Darm gar nicht bilden, kommt in der Werbung selten vor."
+    },
+    {
+      "id": "coq10",
+      "name": "Coenzym Q10 (Ubiquinol)",
+      "url": "https://biohackingkompakt.de/thema/coq10.html",
+      "evidenz": 5,
+      "mechanismus": 8,
+      "sicherheit": 8,
+      "hype": 5,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Die Rolle in der Atmungskette ist gesichert; klinisch überzeugen vor allem Daten bei Herzinsuffizienz, während der Nutzen bei Gesunden und bei Statin-Muskelbeschwerden uneinheitlich bleibt."
+    },
+    {
+      "id": "resveratrol",
+      "name": "Resveratrol",
+      "url": "https://biohackingkompakt.de/thema/resveratrol.html",
+      "evidenz": 2,
+      "mechanismus": 5,
+      "sicherheit": 7,
+      "hype": 1,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Das Lehrstück der Longevity-Szene: zwanzig Jahre Schlagzeilen, ein Milliardendeal – und am Menschen bis heute keine belastbaren Wirknachweise, dazu Zweifel an zentralen Sirtuin-Arbeiten. Bioverfügbarkeit gering. Der größte Hype-Abstand im ganzen Bestand."
+    },
+    {
+      "id": "semaglutide",
+      "name": "Semaglutide (Ozempic / Wegovy)",
+      "url": "https://biohackingkompakt.de/thema/semaglutide.html",
+      "evidenz": 10,
+      "mechanismus": 9,
+      "sicherheit": 9,
+      "hype": 7,
+      "label": "Gut belegt",
+      "beleg": "Zugelassen auf Basis der STEP-Studien, kardiovaskulärer Nutzen in SELECT mit hartem Endpunkt, Wirkkette am Menschen quantifiziert, Pharmakovigilanz läuft. Abzug beim Hype-Abstand für den Graumarkt, der mit denselben Zahlen wirbt, ohne dasselbe Produkt zu verkaufen."
+    },
+    {
+      "id": "tirzepatide",
+      "name": "Tirzepatide (Mounjaro / Zepbound)",
+      "url": "https://biohackingkompakt.de/thema/tirzepatide.html",
+      "evidenz": 10,
+      "mechanismus": 9,
+      "sicherheit": 8,
+      "hype": 7,
+      "label": "Gut belegt",
+      "beleg": "Zugelassen auf Basis der SURMOUNT- und SURPASS-Programme; der doppelte Rezeptorangriff ist am Menschen belegt. Weniger Langzeitdaten als bei Semaglutid, weil jünger. Kostenübernahme durch die Kasse ist ausgeschlossen – das fällt in der Werbung unter den Tisch."
+    },
+    {
+      "id": "retatrutide",
+      "name": "Retatrutide",
+      "url": "https://biohackingkompakt.de/thema/retatrutide.html",
+      "evidenz": 5,
+      "mechanismus": 8,
+      "sicherheit": 4,
+      "hype": 3,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Beeindruckende Phase-2-Daten, aber keine abgeschlossene Phase III und keine Zulassung; Sicherheitsdaten entsprechend kurz. Wird im Graumarkt schon heute als stärkster Abnehmwirkstoff verkauft – ein Versprechen auf Basis unfertiger Studien."
+    },
+    {
+      "id": "bpc-157",
+      "name": "BPC-157",
+      "url": "https://biohackingkompakt.de/thema/bpc-157.html",
+      "evidenz": 1,
+      "mechanismus": 4,
+      "sicherheit": 2,
+      "hype": 1,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Trotz enormer Popularität keine publizierte kontrollierte Humanstudie; die Datenlage besteht aus Nagermodellen. Sicherheit nicht systematisch untersucht. Verkauft wird es als Reparaturmittel für nahezu jedes Gewebe."
+    },
+    {
+      "id": "tb-500",
+      "name": "TB-500 (Thymosin Beta-4 Fragment)",
+      "url": "https://biohackingkompakt.de/thema/tb-500.html",
+      "evidenz": 1,
+      "mechanismus": 4,
+      "sicherheit": 2,
+      "hype": 1,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Die Humandaten betreffen Thymosin Beta-4 in klinischen Ansätzen, nicht das gehandelte Fragment; kontrollierte Studien zum Research-Produkt fehlen. Sicherheit unerforscht, Vermarktung als Regenerations-Wundermittel."
+    },
+    {
+      "id": "mk-677",
+      "name": "MK-677 (Ibutamoren)",
+      "url": "https://biohackingkompakt.de/thema/mk-677.html",
+      "evidenz": 6,
+      "mechanismus": 8,
+      "sicherheit": 5,
+      "hype": 3,
+      "label": "Belegt, mit Einschränkungen",
+      "beleg": "Hier gibt es echte Humanstudien, auch über Monate – und genau die sind ernüchternd: Wachstumshormon und IGF-1 steigen, die erhofften Ergebnisse bei Kraft und Körperzusammensetzung folgen daraus nicht. Blutzuckerverschlechterung ist dokumentiert; beworben wird trotzdem der Peak."
+    },
+    {
+      "id": "cjc-ipamorelin",
+      "name": "CJC-1295 + Ipamorelin",
+      "url": "https://biohackingkompakt.de/thema/cjc-ipamorelin.html",
+      "evidenz": 2,
+      "mechanismus": 6,
+      "sicherheit": 3,
+      "hype": 2,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Zu den Einzelsubstanzen existieren ältere pharmakologische Humandaten, zur beliebten Kombination praktisch keine. Der Weg über GHRH- und Ghrelin-Rezeptor ist verstanden, die Auszahlung nicht belegt."
+    },
+    {
+      "id": "ghk-cu",
+      "name": "GHK-Cu (Copper-Tripeptid)",
+      "url": "https://biohackingkompakt.de/thema/ghk-cu.html",
+      "evidenz": 4,
+      "mechanismus": 7,
+      "sicherheit": 6,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Ein geteilter Fall: topisch gibt es brauchbare kosmetische Studien, für die injizierte Anwendung praktisch keine Humandaten. Die Genregulations-Erzählung stammt aus Zellarbeiten und wird für beide Anwendungswege benutzt."
+    },
+    {
+      "id": "epitalon",
+      "name": "Epitalon (Epithalon)",
+      "url": "https://biohackingkompakt.de/thema/epitalon.html",
+      "evidenz": 2,
+      "mechanismus": 3,
+      "sicherheit": 3,
+      "hype": 1,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Die Humandaten stammen fast ausschließlich aus kleinen, unverblindeten Arbeiten einer einzigen Forschungsschule; eine unabhängige Replikation gibt es bislang nur auf Zellebene. Beworben wird Telomerverlängerung als Verjüngung."
+    },
+    {
+      "id": "rapamycin",
+      "name": "Rapamycin (Sirolimus)",
+      "url": "https://biohackingkompakt.de/thema/rapamycin.html",
+      "evidenz": 5,
+      "mechanismus": 9,
+      "sicherheit": 5,
+      "hype": 4,
+      "label": "Dünne Humanevidenz",
+      "beleg": "Der mTOR-Weg ist einer der am besten verstandenen der Alternsforschung und in Modellorganismen überzeugend. Am Menschen gibt es zugelassene Anwendungen in der Transplantationsmedizin, aber keine Longevity-Endpunktdaten; die Off-Label-Nutzung läuft der Evidenz voraus."
+    },
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "url": "https://biohackingkompakt.de/thema/dihexa.html",
+      "evidenz": 1,
+      "mechanismus": 4,
+      "sicherheit": 1,
+      "hype": 1,
+      "label": "Hype weit vor Evidenz",
+      "beleg": "Die mechanistische Schlüsselarbeit ist zurückgezogen, das darauf aufgebaute Medikament in Phase 2/3 gescheitert, registrierte klinische Studien zur Substanz selbst gibt es nicht. Sicherheit völlig unerforscht. Siehe Änderungsprotokoll."
+    },
+    {
+      "id": "metformin",
+      "name": "Metformin",
+      "url": "https://biohackingkompakt.de/thema/metformin.html",
+      "evidenz": 8,
+      "mechanismus": 8,
+      "sicherheit": 9,
+      "hype": 5,
+      "label": "Gut belegt, stark überhöht beworben",
+      "beleg": "Für Typ-2-Diabetes seit Jahrzehnten zugelassen, mit Endpunktdaten und umfassender Pharmakovigilanz. Der Longevity-Anspruch ist etwas anderes: Die dafür entscheidende Studie ist nicht abgeschlossen, und es gibt Hinweise, dass Metformin Trainingsanpassungen dämpft."
+    }
+  ]
+}

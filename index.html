@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=138" />
+  <link rel="stylesheet" href="css/style.css?v=139" />
 </head>
 <body>
   <!-- Hintergrund-Effekte -->
@@ -75,6 +75,7 @@
         <a href="#erfahrungen" data-nav="erfahrungen">Erfahrungen</a>
         <a href="#bezugsquellen" data-nav="bezugsquellen">Bezugsquellen</a>
         <a href="#mydata" data-nav="mydata">MyData</a>
+        <a href="#score" data-nav="score">BK-Score</a>
         <a href="/thema/">Alle Themen</a>
         <a href="#aenderungen" data-nav="aenderungen">Änderungen</a>
         <a href="#about" data-nav="about">Über</a>
@@ -241,6 +242,46 @@
 
           <div id="symptom-results" class="recommendation-results" aria-live="polite"></div>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ BK-SCORE ============ -->
+    <section class="view hidden" id="view-score" data-view="score">
+      <div class="container">
+        <div class="view-head">
+          <a href="#home" class="back-link" data-nav="home">← Zurück zur Startseite</a>
+          <span class="eyebrow">Wissensstand statt Werbeversprechen</span>
+          <h2>📊 BK-Score</h2>
+          <p>Vier Achsen, je null bis zehn. Entscheidend ist, was jede Achse misst: <strong>den Wissensstand, nicht die Substanz.</strong> „Human-Evidenz 9" heißt, dass es viele gute Studien am Menschen gibt – nicht, dass etwas wirkt. „Sicherheits-Datenlage 9" heißt, dass Sicherheit gut untersucht ist – nicht, dass etwas harmlos ist.</p>
+        </div>
+
+        <div class="exp-controls">
+          <div class="chips-bar" id="sc-chips" role="tablist"></div>
+        </div>
+        <p class="sc-hinweis" id="sc-hinweis"></p>
+
+        <div class="sc-liste" id="sc-liste"></div>
+
+        <details class="sc-regeln">
+          <summary>Die Vergaberegeln im Detail</summary>
+          <h3>Human-Evidenz</h3>
+          <p>0–1 keine Humandaten · 2–3 Fallberichte und Anwendererfahrung · 4–5 kleine oder unverblindete Studien, nur Surrogatmarker · 6–7 mehrere RCTs, aber klein, kurz oder uneinheitlich · 8–9 große RCTs oder konsistente Meta-Analysen mit harten Endpunkten · 10 Zulassung für genau diese Indikation.</p>
+          <h3>Mechanismus</h3>
+          <p>0–2 Marketing-Erzählung ohne belegten Pfad · 3–5 plausibel aus Zellkultur und Tiermodell, Übertragbarkeit offen · 6–8 Zielstruktur bekannt und am Menschen bestätigt · 9–10 Wirkkette am Menschen quantifiziert.</p>
+          <h3>Sicherheits-Datenlage</h3>
+          <p>0–2 nicht systematisch untersucht · 3–5 nur Kurzzeitdaten · 6–8 kontrollierte Daten über Monate · 9–10 Langzeitdaten aus Zulassung und Pharmakovigilanz. Eine hohe Zahl heißt „gut untersucht", nicht „harmlos".</p>
+          <h3>Hype-Abstand</h3>
+          <p>0–2 Versprechen ohne Grundlage · 3–5 ein Einzelbefund wird zur Gesamtaussage · 6–8 überwiegend korrekt, einzelne Überdehnungen · 9–10 die Werbung bleibt auf Höhe der Daten.</p>
+          <h3>Regeln</h3>
+          <ul>
+            <li>Jede Zahl braucht einen Beleg in einem Satz. Ohne Beleg keine Zahl.</li>
+            <li>Keine Gesamtnote als Mittelwert – die Achsen messen Verschiedenes. Das Label entsteht aus Human-Evidenz und Hype-Abstand.</li>
+            <li>Shops werden nie bewertet, und keine Bewertung hängt daran, ob ein Partner das Produkt verkauft.</li>
+            <li>Ändert sich eine Zahl, entsteht ein Eintrag im <a href="#aenderungen">Änderungsprotokoll</a>.</li>
+          </ul>
+        </details>
+
+        <p class="sc-fuss">Stand 29.08.2026, erste dreißig Einträge. Der Bestand wächst; die Regeln bleiben.</p>
       </div>
     </section>
 
@@ -748,25 +789,26 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=138"></script>
-  <script src="js/data/tips.js?v=138"></script>
-  <script src="js/data/goals.js?v=138"></script>
-  <script src="js/data/products.js?v=138"></script>
-  <script src="js/data/experimental.js?v=138"></script>
-  <script src="js/data/khavinson.js?v=138"></script>
-  <script src="js/data/therapies.js?v=138"></script>
-  <script src="js/data/signalwege.js?v=138"></script>
-  <script src="js/data/blutwerte.js?v=138"></script>
-    <script src="js/data/podcast.js?v=138"></script>
-    <script src="js/data/aenderungen.js?v=138"></script>
-  <script src="js/data/erfahrungen.js?v=138"></script>
-  <script src="js/vitals.js?v=138"></script>
+  <script src="js/data/supplements.js?v=139"></script>
+  <script src="js/data/tips.js?v=139"></script>
+  <script src="js/data/goals.js?v=139"></script>
+  <script src="js/data/products.js?v=139"></script>
+  <script src="js/data/experimental.js?v=139"></script>
+  <script src="js/data/khavinson.js?v=139"></script>
+  <script src="js/data/therapies.js?v=139"></script>
+  <script src="js/data/signalwege.js?v=139"></script>
+  <script src="js/data/blutwerte.js?v=139"></script>
+    <script src="js/data/podcast.js?v=139"></script>
+    <script src="js/data/aenderungen.js?v=139"></script>
+    <script src="js/data/scores.js?v=139"></script>
+  <script src="js/data/erfahrungen.js?v=139"></script>
+  <script src="js/vitals.js?v=139"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=138"></script>
-  <script src="js/app.js?v=138"></script>
+  <script src="js/mydata.js?v=139"></script>
+  <script src="js/app.js?v=139"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe
