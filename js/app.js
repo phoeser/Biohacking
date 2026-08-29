@@ -342,6 +342,8 @@
     if (spot) spot.href = 'https://open.spotify.com/episode/' + f.spotify;
     const show = document.getElementById('pod-heute-show');
     if (show && typeof PODCAST_SHOW !== 'undefined') show.href = PODCAST_SHOW.spotify;
+    const apple = document.getElementById('pod-heute-apple');
+    if (apple && typeof PODCAST_SHOW !== 'undefined' && PODCAST_SHOW.apple) apple.href = PODCAST_SHOW.apple;
 
     const haupt = document.getElementById('pod-heute-link');
     const thema = document.getElementById('pod-heute-thema');
