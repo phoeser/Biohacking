@@ -18,6 +18,18 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-08-30',
+    typ: 'Korrektur',
+    titel: 'Sprachliche Abrüstung: 27 Einträge und 38 Tipps neu formuliert',
+    text: 'Eine externe inhaltliche Prüfung hat bemängelt, dass die sichtbaren Texte an vielen Stellen Wirkung im Indikativ behaupten, wo der BK-Score nur Zell- oder Tierdaten ausweist. Der Abgleich hat das bestätigt: 27 Einträge mit Human-Evidenz 0–3 oder negativer Richtung standen im Behauptungsmodus, dazu 14 mit Evidenz 4–5. Diese Texte sind jetzt umgeschrieben – aus „aktiviert Sirtuine" wird „aktiviert Sirtuine im Zellversuch", aus einer Prozentzahl wird die Studie, aus der sie stammt. Bei negativer Richtung wird der negative Befund ausdrücklich genannt, etwa bei Larazotid, dessen Phase-3-Studie den primären Endpunkt verfehlte. Absolutwörter wie „nachweislich" oder „einziger bekannter" sind unterhalb von Evidenz 8 vollständig verschwunden.'
+  },
+  {
+    datum: '2026-08-30',
+    typ: 'Korrektur',
+    titel: 'BK-Score jetzt auch für alle 57 Tipps',
+    text: 'Bis heute hatten Supplements, Peptide, Bioregulatoren und Anwendungen einen BK-Score – die 57 Biohacking-Tipps als einzige Kategorie nicht. Das war die größte Lücke der Transparenzseite, denn gerade hier zirkulieren Zahlen, die aus jeweils einer kleinen Studie stammen: die Dopamin-Verdreifachung beim Kaltduschen (acht Probanden), die Sauna-Zahl aus einer finnischen Beobachtungsstudie, die Autophagie-Zeitmarken aus dem Mausversuch. Alle 57 Tipps sind jetzt nach denselben fünf Achsen bewertet. Ein Tipp fällt dabei negativ aus: Dual-N-Back. Mehrere Meta-Analysen zeigen übereinstimmend, dass Arbeitsgedächtnistraining sich nicht auf fluide Intelligenz überträgt – die bisherige Formulierung war die Umkehrung des Befundes.'
+  },
+  {
     datum: '2026-08-28',
     typ: 'Korrektur',
     titel: 'Mod GRF 1-29: Verweis auf Folge 18 entfernt',

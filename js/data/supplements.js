@@ -47,7 +47,7 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['knochen', 'herz', 'kreislauf', 'anti-aging'],
     short: 'Lenkt Kalzium in die Knochen statt in die Arterien. Essenzieller Partner zu Vitamin D3.',
-    description: 'Vitamin K2 aktiviert Osteocalcin (bindet Kalzium in Knochen) und MGP (verhindert Arterienverkalkung). Besonders wichtig bei Vitamin-D3-Supplementierung.',
+    description: 'Vitamin K2 aktiviert Osteocalcin (bindet Kalzium in den Knochen) und das Matrix-Gla-Protein, das die Verkalkung der Gefässwand hemmt – das ist die belegte Biochemie. Ob eine Ergänzung beim Menschen Knochenbrüche oder Gefässverkalkung verhindert, zeigen die Studien bisher nicht eindeutig. Wird trotzdem als Pflichtpartner zu Vitamin D3 vermarktet.',
     benefits: [
       'Verhindert Gefäßverkalkung',
       'Stärkt Knochen und Zähne',
@@ -435,8 +435,8 @@ const SUPPLEMENTS = [
     altNames: 'Aminosäure',
     category: 'Aminosäure',
     tags: ['schlaf', 'entspannung', 'kollagen', 'gehirn'],
-    short: 'Beruhigende Aminosäure, senkt Körperkerntemperatur für besseren Tiefschlaf.',
-    description: 'Glycin wirkt inhibitorisch im Gehirn (wie GABA) und senkt die Körperkerntemperatur – Voraussetzung für tiefen Schlaf. Günstig und effektiv.',
+    short: 'Beruhigende Aminosäure. Kleine Schlafstudien zeigen schnelleres Einschlafen; der Weg darüber ist die Körperkerntemperatur.',
+    description: 'Glycin wirkt inhibitorisch im Gehirn (wie GABA) und senkt die Körperkerntemperatur – das ist der plausible Weg zum tieferen Schlaf. Die Humandaten stammen aus wenigen kleinen japanischen Studien mit drei Gramm vor dem Schlafen. Günstig und gut verträglich.',
     benefits: [
       'Verbessert Schlafqualität',
       'Reduziert Einschlafzeit',
@@ -470,15 +470,15 @@ const SUPPLEMENTS = [
     altNames: 'ALCAR',
     category: 'Aminosäure',
     tags: ['gehirn', 'energie', 'fokus', 'anti-aging', 'fettverbrennung'],
-    short: 'Transportiert Fettsäuren in Mitochondrien. Verbessert Gehirnleistung und Energie.',
-    description: 'Die acetylierte Form überquert die Blut-Hirn-Schranke und steigert Acetylcholin. Energie + Fokus in einem.',
+    short: 'Transportiert Fettsäuren in die Mitochondrien. Der beworbene Kognitionsnutzen ließ sich nicht bestätigen.',
+    description: 'Die acetylierte Form überquert die Blut-Hirn-Schranke. Der Transportmechanismus ist gut verstanden – die Studien an Gesunden zeigen für Kognition und Energie allerdings keinen belastbaren Effekt.',
     benefits: [
-      'Mehr mentale Energie und Klarheit',
-      'Unterstützt Fettverbrennung',
-      'Schützt Nerven und Gehirn',
-      'Kann Depressionssymptome lindern',
-      'Verbesserte Spermienqualität',
-      'Anti-Aging-Effekte'
+      'Wird für mentale Energie und Klarheit beworben',
+      'Rolle im Fettsäuretransport ist biochemisch belegt',
+      'Neuroprotektive Effekte überwiegend aus Tiermodellen',
+      'Kleine Studien zu Depressionssymptomen, uneinheitlich',
+      'Hinweise auf bessere Spermienparameter',
+      'Als Anti-Aging-Stoff beworben – ohne Endpunktdaten'
     ],
     risks: [
       'Nebenwirkungen: Magen-Darm-Beschwerden (selten)',
@@ -623,8 +623,8 @@ const SUPPLEMENTS = [
     altNames: 'Withania somnifera / KSM-66',
     category: 'Adaptogen',
     tags: ['stress', 'schlaf', 'hormone', 'testosteron', 'cortisol'],
-    short: 'Das wohl bekannteste Adaptogen. Senkt Cortisol, verbessert Stress-Resilienz.',
-    description: 'Aus dem Ayurveda. KSM-66 und Sensoril sind klinisch getestete Extrakte. Wirkt langfristig (4–8 Wochen) für maximalen Effekt.',
+    short: 'Das bekannteste Adaptogen. Kleine RCTs zeigen niedrigere Cortisolwerte und weniger Stresserleben – meist über acht Wochen und mit herstellernahen Extrakten.',
+    description: 'Aus dem Ayurveda. KSM-66 und Sensoril sind die in Studien eingesetzten Extrakte – die meisten dieser Studien sind klein und wurden von den Herstellern finanziert. Untersucht wurden Zeiträume von vier bis acht Wochen; zur Daueranwendung gibt es keine Daten.',
     benefits: [
       'Senkt Cortisol um bis zu 30 %',
       'Verbessert Schlafqualität',
@@ -715,14 +715,14 @@ const SUPPLEMENTS = [
     altNames: 'Hericium erinaceus',
     category: 'Pilz',
     tags: ['gehirn', 'fokus', 'nerven', 'gedaechtnis', 'nootropic'],
-    short: 'Der „Nerven-Pilz" – stimuliert NGF (Nerve Growth Factor).',
-    description: 'Stimuliert die Produktion von Nerve Growth Factor (NGF) und Brain-Derived Neurotrophic Factor (BDNF). Fördert Nervenwachstum und Regeneration.',
+    short: 'Der „Nerven-Pilz" – NGF-Anregung stammt aus dem Zellversuch, nicht vom Menschen.',
+    description: 'In Zellkultur regen Inhaltsstoffe die Bildung von Nerve Growth Factor an. Ob das beim Menschen passiert, ist nicht gezeigt – am Menschen liegen nur wenige kleine Studien vor.',
     benefits: [
-      'Verbessert Gedächtnis und Fokus',
-      'Fördert Nervenwachstum (NGF/BDNF)',
+      'Kleine Humanstudien zu Gedächtnis und Fokus, uneinheitlich',
+      'NGF-Anregung im Zellversuch gezeigt',
       'Kann leichte kognitive Einschränkungen lindern',
       'Unterstützt Darmgesundheit',
-      'Reduziert Ängstlichkeit und leichte Depression'
+      'Einzelne kleine Studien zu Stimmung und Ängstlichkeit'
     ],
     risks: [
       'Bei Pilzallergie meiden',
@@ -767,8 +767,8 @@ const SUPPLEMENTS = [
     altNames: 'Cordyceps militaris / sinensis',
     category: 'Pilz',
     tags: ['energie', 'sport', 'ausdauer', 'immun', 'libido'],
-    short: 'Energie- und Leistungs-Pilz. Steigert ATP-Produktion und VO2max.',
-    description: 'Cordyceps erhöht die ATP-Produktion und Sauerstoffaufnahme. Von chinesischen Olympioniken genutzt. Cordyceps militaris (kultiviert) ist vergleichbar mit teurem sinensis.',
+    short: 'Energie- und Leistungs-Pilz. Die Effekte auf ATP und VO2max stammen aus kleinen Studien, oft an untrainierten Älteren.',
+    description: 'Für Cordyceps werden eine höhere ATP-Produktion und bessere Sauerstoffaufnahme berichtet – die Humanstudien dazu sind klein und fanden Effekte vor allem bei Untrainierten, kaum bei Sportlern. Die Geschichte der chinesischen Olympioniken ist Anekdote. Cordyceps militaris (kultiviert) gilt als vergleichbar mit teurem sinensis.',
     benefits: [
       'Mehr Ausdauer und VO2max',
       'Steigert ATP-Produktion',
@@ -877,13 +877,13 @@ const SUPPLEMENTS = [
     altNames: 'Trans-Resveratrol',
     category: 'Antioxidant',
     tags: ['anti-aging', 'herz', 'sirtuine', 'longevity', 'anti-oxidant'],
-    short: 'Polyphenol aus Rotwein-Trauben. Aktiviert Langlebigkeits-Gene (Sirtuine).',
-    description: 'Resveratrol aktiviert SIRT1 und ahmt Kalorienrestriktion nach. Trans-Resveratrol aus japanischem Staudenknöterich ist Goldstandard.',
+    short: 'Polyphenol aus Trauben. Gut untersucht – der Longevity-Nutzen ließ sich am Menschen nicht bestätigen.',
+    description: 'Resveratrol aktiviert SIRT1 in Zellversuchen; die Übertragung auf den Menschen ist umstritten und die Sirtuin-Hypothese wurde mehrfach angezweifelt. Studien an Menschen fanden für die beworbenen Longevity-Effekte keine Bestätigung. Trans-Resveratrol ist die übliche Form.',
     benefits: [
-      'Aktiviert Sirtuine (Langlebigkeits-Gene)',
-      'Schützt Herz und Gefäße',
+      'Aktiviert Sirtuine im Zellversuch – Übertragung umstritten',
+      'Effekte auf Gefäßmarker in kleinen Studien, uneinheitlich',
       'Antioxidative Wirkung',
-      'Kann Blutzucker regulieren',
+      'Einzelne Studien zum Blutzucker, ohne konsistentes Bild',
       'Synergie mit NMN/NR'
     ],
     risks: [
@@ -1055,13 +1055,13 @@ const SUPPLEMENTS = [
     altNames: 'Pyrrolochinolinchinon',
     category: 'Antioxidant',
     tags: ['mitochondrien', 'energie', 'gehirn', 'anti-aging'],
-    short: 'Stimuliert Mitochondrien-Biogenese (neue Mitochondrien).',
-    description: 'PQQ ist der einzige bekannte Stoff, der nachweislich neue Mitochondrien bildet. Synergie mit CoQ10.',
+    short: 'Wird als Mitochondrien-Booster beworben. Am Menschen praktisch nicht untersucht.',
+    description: 'Die Bildung neuer Mitochondrien stammt aus Zell- und Tierversuchen. Die einzige nennenswerte Humanstudie umfasste 34 ältere Personen über sechs Wochen – und testete ein Kombinationspräparat, nicht reines PQQ. Wird oft mit CoQ10 kombiniert.',
     benefits: [
-      'Bildet neue Mitochondrien',
-      'Mehr Energie und Ausdauer',
-      'Schützt Nervenzellen',
-      'Kann Gedächtnis verbessern',
+      'Mitochondrien-Neubildung in Zell- und Tierversuchen',
+      'Wird für Energie und Ausdauer beworben',
+      'Neuroprotektive Effekte im Tiermodell',
+      'Eine kleine Studie zu Gedächtnis, mit Kombinationspräparat',
       'Anti-Aging-Effekte'
     ],
     risks: [
@@ -1384,12 +1384,12 @@ const SUPPLEMENTS = [
     altNames: 'Kamillen-Flavonoid',
     category: 'Longevity',
     tags: ['schlaf', 'longevity', 'entspannung', 'nad', 'cd38', 'entzuendung'],
-    short: 'Flavonoid aus Kamille – hemmt CD38 und erhöht dadurch NAD+. Schlaf-Booster der Longevity-Szene.',
+    short: 'Flavonoid aus Kamille. Die CD38-Hemmung stammt aus dem Labor, nicht vom Menschen.',
     description: 'Apigenin wird von Longevity-Forschern wie David Sinclair empfohlen. Blockiert das Enzym CD38, das NAD+ abbaut – so steigt der Zellenergie-Level. Bindet zusätzlich an Benzodiazepin-Rezeptoren für entspannende Wirkung.',
     benefits: [
-      'Hemmt CD38 → erhöht NAD+ indirekt',
-      'Fördert tiefen Schlaf und schnelleres Einschlafen',
-      'Senkt Entzündungsmarker',
+      'CD38-Hemmung im Laborversuch gezeigt',
+      'Wird für Schlaf beworben – Humandaten fehlen weitgehend',
+      'Entzündungshemmende Effekte in Zell- und Tierversuchen',
       'Anti-östrogene Eigenschaften (bei Männern positiv)',
       'Antioxidative und neuroprotektive Wirkung'
     ],
@@ -1411,13 +1411,13 @@ const SUPPLEMENTS = [
     altNames: 'Flavonoid aus Erdbeeren',
     category: 'Longevity',
     tags: ['senolytisch', 'longevity', 'gehirn', 'anti-aging', 'entzuendung'],
-    short: 'Senolytikum – entfernt seneszente „Zombie-Zellen". Einer der vielversprechendsten Longevity-Stoffe.',
+    short: 'Senolytikum-Kandidat. Die Entfernung alternder Zellen ist bisher nur im Mausmodell gezeigt.',
     description: 'Fisetin hat in Maus-Studien seneszente Zellen abgebaut und die Lebensspanne verlängert. Aktuell laufen Humanstudien an der Mayo Clinic. Klassische Protokolle: hochdosiert über 2 Tage monatlich.',
     benefits: [
-      'Senolytisch: entfernt alternde Zellen, die Entzündung auslösen',
-      'Schützt das Gehirn (Neuroprotektion bei Alzheimer-Modellen)',
+      'Senolytische Wirkung im Mausmodell gezeigt',
+      'Neuroprotektive Effekte in Alzheimer-Modellen (Tier)',
       'Stark antioxidativ',
-      'Kann Sirtuine aktivieren',
+      'Sirtuin-Aktivierung im Zellversuch',
       'Wirkt anti-entzündlich'
     ],
     risks: [
@@ -1499,12 +1499,12 @@ const SUPPLEMENTS = [
     altNames: 'Pterostilbene',
     category: 'Longevity',
     tags: ['anti-aging', 'nad', 'herz', 'gehirn', 'blutzucker'],
-    short: 'Resveratrol-Verwandter – höhere Bioverfügbarkeit und längere Wirkdauer. Oft mit NMN kombiniert.',
-    description: 'Pterostilben wird vom Körper 4-mal besser aufgenommen als Resveratrol und wirkt länger. Aktiviert Sirtuine und AMPK – die zentralen Longevity-Schalter. Beliebt als NMN-Partner statt Resveratrol.',
+    short: 'Resveratrol-Verwandter mit besserer Aufnahme. Am Menschen kaum untersucht.',
+    description: 'Pterostilben wird deutlich besser aufgenommen als Resveratrol – das ist der belegte Teil. Die Aktivierung von Sirtuinen und AMPK stammt aus Zell- und Tierversuchen; ob daraus beim Menschen ein Nutzen wird, ist offen. Beliebt als NMN-Partner.',
     benefits: [
-      'Aktiviert Sirtuine und AMPK (wie Resveratrol, stärker)',
-      'Senkt LDL-Cholesterin und Blutzucker',
-      'Neuroprotektiv: schützt vor kognitivem Abbau',
+      'Aktiviert Sirtuine und AMPK im Zellversuch',
+      'Kleine Studien deuten auf Effekte bei LDL und Blutzucker',
+      'Neuroprotektive Effekte im Tiermodell',
       'Antioxidativ und anti-entzündlich',
       'Stabile orale Bioverfügbarkeit'
     ],
@@ -1662,8 +1662,8 @@ const SUPPLEMENTS = [
     altNames: 'Citrullin Malat',
     category: 'Aminosäure',
     tags: ['sport', 'pump', 'stickoxid', 'durchblutung', 'ausdauer'],
-    short: 'Effektiver als Arginin – erhöht Stickoxid, verbessert Pump und reduziert Muskelkater.',
-    description: 'L-Citrullin wird im Körper zu Arginin umgewandelt und erhöht NO (Stickoxid), was die Gefäße erweitert. Die Malat-Form unterstützt zusätzlich den Energiestoffwechsel.',
+    short: 'Vorstufe von Arginin, hebt den NO-Spiegel zuverlässiger als Arginin selbst. Für Pump gibt es Daten, für Muskelkater kaum.',
+    description: 'L-Citrullin wird im Körper zu Arginin umgewandelt und hebt dadurch NO (Stickoxid) – dieser Umweg ist besser belegt als die direkte Arginin-Gabe. Die Effekte auf Leistung und Muskelkater stammen aus kleinen Sportstudien mit uneinheitlichen Ergebnissen; die Malat-Form ist dabei nicht sauber gegen reines Citrullin geprüft.',
     benefits: [
       'Bessere Durchblutung und Muskelpump',
       'Verbessert Ausdauer um 7–10 %',
@@ -1690,13 +1690,13 @@ const SUPPLEMENTS = [
     altNames: 'Gamma-Aminobuttersäure',
     category: 'Aminosäure',
     tags: ['stress', 'entspannung', 'schlaf', 'angst', 'cortisol'],
-    short: 'Hauptsächlicher hemmender Neurotransmitter – beruhigt nach stressigem Tag.',
+    short: 'Wichtigster hemmender Neurotransmitter. Ob orales GABA ins Gehirn gelangt, ist ungeklärt.',
     description: 'GABA ist der wichtigste beruhigende Neurotransmitter. Ob orales GABA die Blut-Hirn-Schranke überquert, ist umstritten – viele spüren dennoch einen Effekt (möglicherweise über Darm-Hirn-Achse).',
     benefits: [
-      'Fördert Entspannung und reduziert Ängstlichkeit',
-      'Verbessert Schlafqualität (Einschlafen)',
-      'Senkt Blutdruck leicht',
-      'Kann Cortisol dämpfen',
+      'Wird für Entspannung beworben – Humandaten dünn',
+      'Einzelne kleine Studien zum Einschlafen',
+      'Hinweise auf leichte Blutdruckeffekte',
+      'Diskutierter Einfluss auf Cortisol',
       'Gut kombinierbar mit L-Theanin'
     ],
     risks: [
@@ -1800,14 +1800,14 @@ const SUPPLEMENTS = [
     altNames: 'Boron',
     category: 'Mineral',
     tags: ['hormone', 'testosteron', 'knochen', 'gelenke', 'longevity'],
-    short: 'Unterschätztes Spurenelement – erhöht freies Testosteron, stärkt Knochen.',
-    description: 'Bor beeinflusst Hormonspiegel, besonders Testosteron und Östrogen. Studien zeigen einen Anstieg von freiem Testosteron nach 1 Woche Supplementierung. In der Nahrung in Mitteleuropa oft zu niedrig.',
+    short: 'Spurenelement mit Rolle im Knochenstoffwechsel. Als Testo-Booster beworben, Humandaten sehr dünn.',
+    description: 'Bor spielt im Knochen- und Mineralstoffwechsel eine Rolle. Die vielzitierte Testosteron-Studie stammt von 1987 und umfasste zwölf Frauen nach den Wechseljahren – untersucht wurde der Mineralstoffwechsel, nicht Testosteron bei Männern. Eine Studie an Bodybuildern fand keinen Testosteroneffekt gegenüber Placebo.',
     benefits: [
-      'Erhöht freies Testosteron (bis +28 % in Studie)',
-      'Senkt SHBG (bindet Sexualhormone)',
+      'Wird als Testosteron-Booster beworben – am Menschen nicht belegt',
+      'Diskutierter Einfluss auf SHBG',
       'Unterstützt Knochenmineralisierung',
-      'Reduziert Gelenkentzündung',
-      'Kann kognitive Leistung steigern'
+      'Hinweise auf entzündungshemmende Effekte',
+      'Einzelne kleine Studien zur kognitiven Leistung'
     ],
     risks: [
       'Sehr hohe Dosen (>20 mg/Tag) langfristig problematisch',
@@ -1858,10 +1858,10 @@ const SUPPLEMENTS = [
     category: 'Longevity',
     tags: ['haut', 'gelenke', 'augen', 'bindegewebe', 'anti-aging'],
     short: 'Bindet das 1000-fache seines Gewichts an Wasser – für Haut, Gelenke und Augen.',
-    description: 'Hyaluronsäure ist ein natürlicher Bestandteil der extrazellulären Matrix. Mit dem Alter sinken die Eigensynthese-Raten. Orale Einnahme wirkt belegt bei Hautfeuchte und leichter Arthrose.',
+    description: 'Hyaluronsäure ist ein natürlicher Bestandteil der extrazellulären Matrix. Mit dem Alter sinkt die Eigensynthese. Zur oralen Einnahme gibt es Studien zu Hautfeuchte und leichter Arthrose – sie sind klein und überwiegend herstellerfinanziert.',
     benefits: [
       'Verbessert Hautfeuchtigkeit und -elastizität',
-      'Reduziert Gelenkschmerzen bei Arthrose',
+      'Schmerzlinderung bei Arthrose nur in herstellernahen Studien',
       'Unterstützt Augenbefeuchtung (trockene Augen)',
       'Fördert Wundheilung',
       'Schmiert Gelenke wie natürliche Gelenkflüssigkeit'
@@ -1883,14 +1883,14 @@ const SUPPLEMENTS = [
     altNames: 'Glucosamin-Sulfat',
     category: 'Longevity',
     tags: ['gelenke', 'knorpel', 'bewegung', 'anti-aging', 'arthrose'],
-    short: 'Knorpel-Baustein – bei regelmäßiger Einnahme senkt es sogar die Gesamt-Sterblichkeit.',
-    description: 'Glucosamin unterstützt den Knorpelaufbau und hat in Beobachtungsstudien eine ähnliche Wirkung wie regelmäßiges Moderate-Cardio-Training auf die Mortalität. Oft mit Chondroitin kombiniert.',
+    short: 'Knorpel-Baustein. Gut untersucht – in den hochwertigen Studien ohne Effekt auf Arthrose.',
+    description: 'Der Cochrane-Review wertet 25 Studien mit knapp 5.000 Arthrose-Patienten aus: In den Studien zum Präparat eines Herstellers war Glucosamin überlegen, in den unabhängigen hochwertigen Studien zeigte sich kein Unterschied zu Placebo. Kaffeetrinker-artige Beobachtungsdaten verbinden regelmäßige Einnahme mit niedrigerer Sterblichkeit – eine Assoziation, kein belegter Zusammenhang.',
     benefits: [
       'Reduziert Gelenkschmerzen bei Arthrose',
-      'Verlangsamt Knorpelabbau',
-      'Senkt in Beobachtungsstudien Gesamt-Mortalität (-15 %)',
-      'Anti-entzündlich',
-      'Unterstützt Bindegewebe'
+      'Verlangsamter Knorpelabbau nicht konsistent belegt',
+      'In Beobachtungsstudien mit niedrigerer Sterblichkeit verbunden – Assoziation, kein Beweis',
+      'Diskutierte entzündungshemmende Effekte',
+      'Baustein des Bindegewebes'
     ],
     risks: [
       'Bei Schalentier-Allergie: vegane Variante wählen',
@@ -1941,7 +1941,7 @@ const SUPPLEMENTS = [
     short: 'Westafrikanisches Kraut, oft mit Tongkat Ali gestackt: soll über die LH-Stimulation das körpereigene Testosteron und die Libido anheben.',
     description: 'Fadogia Agrestis ist ein Strauch aus Westafrika, dessen Stängelextrakt traditionell für sexuelle Funktion und Vitalität genutzt wird. Der postulierte Mechanismus ist eine Anregung des luteinisierenden Hormons (LH), das die Hoden zur Testosteronproduktion stimuliert – ähnlich wie ein sanfter körpereigener Schub. Populär wurde es v. a. durch die Kombination mit Tongkat Ali. Wichtig: Die Evidenz stammt fast nur aus Tierstudien; kontrollierte Humanstudien fehlen weitgehend.',
     benefits: [
-      'Soll über LH-Stimulation das körpereigene Testosteron anheben (Tierdaten)',
+      'Soll über LH-Stimulation Testosteron anheben – ausschließlich Rattendaten, keine einzige Humanstudie',
       'Traditionell für Libido und sexuelle Funktion genutzt',
       'Beliebter Stack-Partner zu Tongkat Ali',
       'Kann Energie und Antrieb unterstützen (Erfahrungsberichte)'
@@ -2126,12 +2126,12 @@ const SUPPLEMENTS = [
     altNames: 'L-Ergothionein, EGT, „Longevity-Vitamin"',
     category: 'Antioxidant',
     tags: ['anti-aging', 'longevity', 'antioxidans', 'zellschutz'],
-    short: 'Ein einzigartiges Zell-Antioxidans aus Pilzen: reichert sich gezielt in gestressten Zellen an – als mögliches „Longevity-Vitamin" gehandelt.',
+    short: 'Zell-Antioxidans aus Pilzen mit eigenem Transporter. Als „Longevity-Vitamin" gehandelt, Humandaten fehlen.',
     description: 'Ergothionein ist eine schwefelhaltige Aminosäure, die der Körper nicht selbst bildet, sondern über die Nahrung (v. a. Pilze) aufnimmt. Ein spezieller Transporter (OCTN1) reichert es gezielt in Zellen an, die viel oxidativem Stress ausgesetzt sind. Niedrige Spiegel sind mit altersbedingten Erkrankungen assoziiert – daher die Bezeichnung „Longevity-Vitamin".',
     benefits: [
-      'Starkes, zellgängiges Antioxidans (reichert sich in Stresszellen an)',
+      'Antioxidative Wirkung und Anreicherung im Laborversuch gezeigt',
       'Niedrige Spiegel mit altersbedingten Erkrankungen assoziiert',
-      'Schützt Mitochondrien und DNA vor oxidativem Stress',
+      'Schutz von Mitochondrien und DNA in Zellversuchen',
       'Sehr gut verträglich und stabil'
     ],
     risks: [

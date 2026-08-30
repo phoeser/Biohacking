@@ -104,12 +104,12 @@ const THERAPIES = [
     name: 'Ganzkörperhyperthermie',
     category: 'Ausstattung',
     emoji: '🌡️',
-    short: 'Kontrollierte Anhebung der Körperkerntemperatur in den Fieberbereich – aktiviert Immunsystem und entgiftende Prozesse.',
+    short: 'Kontrollierte Anhebung der Körperkerntemperatur in den Fieberbereich. In der Onkologie als Begleitverfahren untersucht – die Anwendung bei chronischen Beschwerden und „Entgiftung" ist es nicht.',
     benefits: [
       'Imitiert „natürliches Fieber"',
       'Aktivierung von Hitzeschockproteinen',
-      'Unterstützt Entgiftung & Immunfunktion',
-      'Begleitend bei chronischen Beschwerden'
+      'Wird für Entgiftung und Immunfunktion beworben – dafür fehlen kontrollierte Daten',
+      'Begleitend bei chronischen Beschwerden eingesetzt, ohne Wirknachweis'
     ],
     indication: ['Chronische Infekte', 'Detox', 'Immunsystem', 'Onkologie-Begleitung'],
     link: 'https://munichhealthcenter.de/leistungen/ganzkoerperhyperthermie/',
@@ -440,12 +440,12 @@ const THERAPIES = [
     name: 'NAD+-Infusion',
     category: 'Biohacking',
     emoji: '💧',
-    short: 'Hochdosiertes NAD+ direkt über die Vene – umgeht den Verdauungsweg und flutet die Zellen mit dem zentralen Energie-Coenzym für Energie, Fokus und Regeneration.',
+    short: 'Hochdosiertes NAD+ direkt über die Vene. Dass der Spiegel dadurch steigt, ist unstrittig – ob daraus mehr Energie, Fokus oder Regeneration werden, ist an Menschen nicht belegt.',
     benefits: [
       'Hebt den zellulären NAD+-Spiegel direkt und stark an',
       'Berichte über mehr Energie, Klarheit und Regeneration',
       'Umgeht die begrenzte orale Aufnahme von NAD-Vorstufen',
-      'In der Longevity-Szene für Zellreparatur und Sirtuine genutzt'
+      'In der Longevity-Szene für Zellreparatur und Sirtuine genutzt – die Begründung ist mechanistisch, nicht klinisch'
     ],
     indication: ['Energie/Fatigue', 'Regeneration', 'Anti-Aging', 'Fokus', 'Sucht-Recovery (experimentell)'],
     note: 'Langsame Infusion nötig (schnelle Gabe verursacht Unwohlsein); klinischer Longevity-Nutzen nicht bewiesen. Nur ärztlich.',
@@ -456,12 +456,12 @@ const THERAPIES = [
     name: 'Therapeutischer Plasmaaustausch (TPE)',
     category: 'Biohacking',
     emoji: '🩸',
-    short: 'Das eigene Blutplasma wird ausgetauscht/ersetzt – entfernt Alterungs- und Entzündungsfaktoren aus dem Blut („Plasma-Verdünnung"), ein aufstrebender Longevity-Ansatz.',
+    short: 'Das eigene Blutplasma wird ausgetauscht – die Idee dahinter: Alterungs- und Entzündungsfaktoren aus dem Blut entfernen („Plasma-Verdünnung"). Medizinisch etabliert bei bestimmten Erkrankungen, als Longevity-Verfahren experimentell.',
     benefits: [
       'Entfernt zirkulierende Entzündungs-/Alterungsfaktoren aus dem Blut',
       'Tierdaten (Plasma-Verdünnung) zeigten Verjüngungseffekte in Geweben',
       'Wird bei Autoimmun-/neurologischen Erkrankungen medizinisch genutzt',
-      'Longevity-Kliniken bieten es als Anti-Aging-Verfahren an'
+      'Longevity-Kliniken bieten es als Anti-Aging-Verfahren an – ohne klinischen Wirknachweis'
     ],
     indication: ['Anti-Aging (experimentell)', 'Entzündung', 'Autoimmun (medizinisch)', 'Entgiftung'],
     note: 'Longevity-Nutzung experimentell und teuer; medizinisch etabliert nur für bestimmte Erkrankungen. Verwandt zur INUSpherese. Nur ärztlich.',
@@ -656,10 +656,10 @@ const THERAPIES = [
     name: 'IV-Vitamintherapie (Myers-Cocktail)',
     category: 'Biohacking',
     emoji: '💉',
-    short: 'Vitamine und Mineralstoffe direkt über die Vene (z. B. „Myers-Cocktail"): umgeht die Verdauung und flutet den Körper schnell mit Mikronährstoffen.',
+    short: 'Vitamine und Mineralstoffe direkt über die Vene (z. B. „Myers-Cocktail"). Der Blutspiegel steigt schnell – ein Nutzen ist vor allem bei nachgewiesenem Mangel oder gestörter Aufnahme plausibel, bei Gesunden nicht.',
     benefits: [
       'Hohe Mikronährstoff-Spiegel unabhängig von der Darmaufnahme',
-      'Beliebt für Energie, Immununterstützung und Erholung',
+      'Beliebt für Energie, Immununterstützung und Erholung – Studien dazu sind dünn',
       'Nützlich bei nachgewiesenen Mängeln oder Aufnahmestörungen',
       'Schneller Effekt (direkt im Blut)'
     ],

@@ -393,13 +393,13 @@ const EXPERIMENTAL = [
     altNames: 'Body Protection Compound 157, PL 14736',
     class: 'Synthetisches Pentadecapeptid (Magenschleimhaut-Derivat)',
     emoji: '🩹',
-    short: 'Das beliebte „Reparatur-Peptid": im Tiermodell breit regenerativ auf Sehnen, Bindegewebe und Magen-Darm-Schleimhaut, säurestabil und ohne hormonelle Wirkung.',
+    short: 'Das beliebte „Reparatur-Peptid" – die regenerativen Effekte auf Sehnen, Bindegewebe und Magen-Darm-Schleimhaut stammen aus Tierversuchen. Kontrollierte Studien am Menschen gibt es bis heute nicht.',
     moa: 'Synthetisches 15-Aminosäuren-Peptid, abgeleitet von einem körpereigenen Schutzprotein des Magensafts und außergewöhnlich säurestabil. Es fördert die Geweberegeneration vor allem über den FAK/Paxillin-Signalweg (Wanderung von Fibroblasten und Sehnenzellen, Kollagen-Typ-I-Synthese) sowie über die VEGFR2/eNOS/NO-Achse (Gefäßneubildung, bessere Durchblutung). Zusätzlich dämpft es Entzündungssignale (NF-κB/COX-2 herunter, Verschiebung von M1- zu M2-Makrophagen) ohne allgemeine Immunsuppression. Im Magen-Darm-Trakt erhöht es schützende Faktoren wie PGE2, Schleimsekretion und die Dichte der Tight Junctions. Die Datenlage stammt überwiegend aus Tiermodellen (v.a. Arbeitsgruppe Sikirić, Zagreb); kontrollierte Humanstudien fehlen weitgehend.',
     benefits: [
       'Beschleunigt im Tiermodell die Heilung von Sehnen, Bändern und Muskelfaserrissen',
-      'Fördert Gefäßneubildung und verbessert die Durchblutung im verletzten Gewebe',
+      'Fördert im Tiermodell Gefäßneubildung und Durchblutung im verletzten Gewebe',
       'Schützt und repariert die Magen-Darm-Schleimhaut (z.B. bei NSAR-Läsionen, überwiegend Tierdaten)',
-      'Wirkt entzündungsmodulierend ohne kortisonähnliche Nebenwirkungen',
+      'Wirkt im Tiermodell entzündungsmodulierend, ohne kortisonähnliche Nebenwirkungen',
       'Säurestabil und daher prinzipiell auch oral aktiv (relevant für Magen-Darm-Themen)',
       'Zeigt im Modell schmerzlindernde Effekte über die NO-Achse, ohne Suchtpotenzial',
       'Keine hormonelle Wirkung, kein Eingriff in die Testosteron-Achse'
@@ -489,7 +489,7 @@ const EXPERIMENTAL = [
     altNames: 'Glycyl-L-Histidyl-L-Lysin-Kupfer',
     class: 'Tripeptid-Kupfer-Komplex',
     emoji: '🧴',
-    short: 'Ein körpereigenes Kupfer-Tripeptid und einer der bestbelegten Haut-Wirkstoffe: kurbelt Kollagen an, glättet die Haut und unterstützt die Wundheilung – topisch hervorragend erforscht.',
+    short: 'Ein körpereigenes Kupfer-Tripeptid und der am besten untersuchte Wirkstoff dieser Liste – allerdings topisch: Für die Haut gibt es kontrollierte Studien, für die Injektion praktisch keine.',
     moa: 'GHK-Cu (Glycyl-L-Histidyl-L-Lysin, komplexiert mit einem Kupfer(II)-Ion) ist ein natürlich im Blutplasma vorkommendes Tripeptid, dessen Spiegel mit dem Alter deutlich sinkt (~200 ng/ml mit 20, ~80 ng/ml mit 60 Jahren). Es wirkt als pleiotroper Signalgeber bzw. epigenetischer Modulator: In Analysen verändert es die Expression von über 4 000 menschlichen Genen Richtung eines „jüngeren" Musters. Es regt Fibroblasten zur Synthese von Kollagen Typ I/III, Elastin und Glykosaminoglykanen an, wobei Kupfer als Cofaktor der quervernetzenden Lysyloxidase dient. Ergänzend fördert es die Gefäßneubildung (VEGF, bFGF), wirkt antioxidativ (SOD) und entzündungshemmend (TNF-α, IL-6, NF-κB herunter). Die Haut-/Wundheilungsdaten sind teils klinisch (topisch), die systemischen Injektionseffekte beruhen jedoch stark auf präklinischen Daten.',
     benefits: [
       'Steigert die Kollagensynthese deutlich und verbessert Hautstruktur und Elastizität',
@@ -1110,7 +1110,7 @@ const EXPERIMENTAL = [
     altNames: 'Mitochondrial-derived peptide',
     class: 'Mitochondriales Peptid (16 Aminosäuren, kodiert in mtDNA)',
     emoji: '🧬',
-    short: 'Ein mitochondriales „Trainings-Peptid": aktiviert AMPK – denselben Schalter wie Sport und Metformin – für Energiestoffwechsel, Insulinsensitivität und Ausdauer.',
+    short: 'Ein mitochondriales „Trainings-Peptid": aktiviert im Labor AMPK – denselben Schalter wie Sport und Metformin. Alles Weitere zu Stoffwechsel, Insulinsensitivität und Ausdauer ist präklinisch.',
     moa: 'Aus 16 Aminosäuren bestehendes, mitochondrial kodiertes Peptid (aus dem 12S-rRNA-Gen der mtDNA), das den Energiestoffwechsel primär über Aktivierung der AMP-aktivierten Proteinkinase (AMPK) reguliert – denselben Signalweg, den auch Metformin und Ausdauertraining anstoßen. Nach zellulärem Stress (oxidativer Stress, Glukosemangel, Belastung) wandert es in den Zellkern und steuert dort Gene für mitochondriale Neubildung (PGC-1α), antioxidative Abwehr (NRF2) und das Insulinsignal. Zusätzlich hemmt es den entzündungsfördernden NF-κB-Weg. Die Effekte ähneln molekular denen von körperlichem Training (Trainings-Mimetikum). Die Daten stammen überwiegend aus Tierstudien plus frühen Kohortendaten beim Menschen.',
     benefits: [
       'Steigert die Insulinsensitivität in Muskel und Leber (AMPK/GLUT4) – präklinisch',
@@ -1157,12 +1157,12 @@ const EXPERIMENTAL = [
     altNames: 'Epithalamin, AEDG-Tetrapeptid',
     class: 'Tetrapeptid (Ala-Glu-Asp-Gly), Pinealdrüsen-Mimetikum',
     emoji: '🌙',
-    short: 'Ein Zirbeldrüsen-Tetrapeptid, das Telomerase aktiviert und die Melatonin-Bildung anregt – die Anti-Aging-Story rund um Telomere und besseren Schlaf, die die Longevity-Szene fasziniert.',
+    short: 'Ein Zirbeldrüsen-Tetrapeptid aus der Khavinson-Schule. Telomerase-Aktivierung und Melatonin-Anstieg stammen aus Zellversuchen und russischen Arbeiten – unabhängige Humanstudien fehlen.',
     moa: 'Synthetisches Tetrapeptid (Ala-Glu-Asp-Gly, ~390 g/mol), abgeleitet aus dem Zirbeldrüsen-Extrakt Epithalamin. Hauptmechanismus ist die Induktion der hTERT-Genexpression (katalytische Telomerase-Untereinheit), wodurch Telomere in somatischen Zellen verlängert und die replikative Zellalterung verzögert werden (in Zellkultur über das Hayflick-Limit hinaus). Parallel hemmt es den p53/p21- und NF-κB-Weg und dämpft so die seneszenz-assoziierte Entzündung. Als zweiten Mechanismus stimuliert Epitalon die Zirbeldrüse zur Melatoninbildung und stabilisiert den Tag-Nacht-Rhythmus. Die Human-Evidenz stammt überwiegend aus russischen Studien einer einzelnen Forschungsgruppe (Khavinson) und ist außerhalb davon kaum unabhängig repliziert.',
     benefits: [
       'Aktiviert Telomerase (hTERT) und verlängert Telomere in somatischen Zellen – Zellkultur/präklinisch',
-      'Verzögert die replikative Zellalterung über Hemmung des p53/p21-Wegs',
-      'Stimuliert die körpereigene Melatoninproduktion und kann Schlaf/Rhythmus verbessern',
+      'Verzögerte in Zellkultur die replikative Alterung über den p53/p21-Weg',
+      'Soll die körpereigene Melatoninproduktion anregen – aus Khavinson-Arbeiten, nicht unabhängig bestätigt',
       'Wirkt antioxidativ (mehr SOD/Katalase, weniger Lipidperoxidation) – präklinisch',
       'Soll die Immunseneszenz mildern (T-Zell-/NK-Zell-Aktivität) – aus Khavinson-Studien',
       'Hormonunabhängiger Mechanismus (keine Bindung an Sexualhormon-Rezeptoren)'
@@ -1201,7 +1201,7 @@ const EXPERIMENTAL = [
     altNames: 'Thr-Lys-Pro-Arg-Pro-Gly-Pro, Tuftsin-Analogon',
     class: 'Synthetisches Tuftsin-Analogon (Heptapeptid), Anxiolytikum',
     emoji: '🌿',
-    short: 'Ein russisches Tuftsin-Peptid, das angstlösend und stabilisierend wirkt – ganz ohne die Sedierung und das Abhängigkeitspotenzial klassischer Beruhigungsmittel.',
+    short: 'Ein russisches Tuftsin-Peptid, dem angstlösende Effekte ohne Sedierung und ohne Abhängigkeitspotenzial zugeschrieben werden. Die Studien dazu stammen fast ausschließlich aus Russland und sind klein.',
     moa: 'Selank ist ein synthetisches Analogon des endogenen Tetrapeptids Tuftsin und wurde zur Stabilisierung gegen enzymatischen Abbau modifiziert. Diskutiert werden Einflüsse auf das GABAerge sowie serotonerge System und eine Modulation der Konzentration von Enkephalinen. In tierexperimentellen und frühen klinischen Untersuchungen wurden anxiolytische und immunmodulierende Effekte beschrieben. Die Anwendung erfolgt in Russland üblicherweise intranasal. Die Evidenz basiert überwiegend auf russischsprachigen Studien mit begrenzter externer Bestätigung.',
     benefits: [
       'In Studien mit angstlösenden Effekten ohne ausgeprägte Sedierung assoziiert.',
@@ -1400,13 +1400,13 @@ const EXPERIMENTAL = [
     altNames: '"Exercise mimetic"',
     class: 'ERR (Estrogen-Related Receptor) α/β/γ-Agonist',
     emoji: '🏃',
-    short: 'Ein „Sport-Mimetikum": Es aktiviert die zellulären Energie-Schalter (ERR) und ahmt so molekular Effekte von Ausdauertraining nach – im Tiermodell mehr Ausdauer und Fettabbau, ganz ohne Laufband.',
+    short: 'Ein „Sport-Mimetikum": Es aktiviert im Labor die zellulären Energie-Schalter (ERR). Mehr Ausdauer und Fettabbau sind bislang ausschließlich Mausdaten – am Menschen ist die Substanz nie untersucht worden.',
     moa: 'Selektiver Agonist der Estrogen-Related Receptors (ERRα, β, γ) – Transkriptionsfaktoren, die mitochondriale Biogenese und Fettoxidation hochregulieren.',
     benefits: [
       'Erhöht Ausdauer in Mäusen ohne Training (+45–50%)',
-      'Reduziert Fettmasse, verbessert Glukose-Toleranz',
-      'Erhöht oxidative Muskelfasern Typ I',
-      'Potenzial gegen Sarkopenie und Stoffwechselerkrankungen'
+      'Reduzierte in Mäusen die Fettmasse und verbesserte die Glukose-Toleranz',
+      'Erhöhte im Mausmodell oxidative Muskelfasern (Typ I)',
+      'Diskutiertes Potenzial gegen Sarkopenie und Stoffwechselerkrankungen – bisher Hypothese'
     ],
     risks: [
       'Noch reine Forschung – Humanstudien fehlen bislang.',
@@ -1445,13 +1445,13 @@ const EXPERIMENTAL = [
     altNames: '5-Amino-1-Methylquinolinium',
     class: 'NNMT-Inhibitor (Nicotinamid-N-Methyltransferase)',
     emoji: '⚗️',
-    short: 'Hemmt das Stoffwechsel-Enzym NNMT und hebt damit den zellulären NAD+-Spiegel – ein spannender Ansatz für Fettabbau, Muskelregeneration und gesundes Altern.',
+    short: 'Hemmt im Labor das Stoffwechsel-Enzym NNMT und hebt dadurch den zellulären NAD+-Spiegel. Fettabbau und Regeneration sind Mausdaten – Studien am Menschen gibt es nicht.',
     moa: 'Selektive Hemmung der Nicotinamid-N-Methyltransferase (NNMT). NNMT-Überaktivität ist mit Fettleibigkeit und Sarkopenie assoziiert. Hemmung erhöht NAD+ und Methylgruppen-Pool.',
     benefits: [
       'Reduziert Fettmasse in adipösen Mäusen (-7% in 11 Tagen)',
-      'Erhöht muskuläres NAD+, verbessert Regeneration',
+      'Erhöhte in Mäusen das muskuläre NAD+ und die Regeneration',
       'Verbessert Insulinsensitivität präklinisch',
-      'Möglicher Anti-Aging-Mechanismus'
+      'Diskutierter Anti-Aging-Mechanismus – ohne Daten am Menschen'
     ],
     risks: [
       'Bisher nur präklinische Daten, noch keine Humanstudien.',
@@ -1681,7 +1681,7 @@ const EXPERIMENTAL = [
     benefits: [
       'Berichtete starke Zuw\u00e4chse an Magermasse und Kraft (8\u201312-Wochen-Zyklen)',
       'Oral einnehmbar, gewebe-selektives Wirkprinzip (pr\u00e4klinisch belegt)',
-      'SARM-Prinzip mit echter medizinischer Zukunft (Sarkopenie-Forschung)'
+      'SARM-Prinzip wird medizinisch weiter erforscht (Sarkopenie) – bisher ohne Zulassung'
     ],
     risks: [
       'Unterdr\u00fcckt die eigene Testosteron-Achse (LH/FSH) \u2013 PCT-Kultur als Reparatur der Nebenwirkung',
@@ -1772,7 +1772,7 @@ const EXPERIMENTAL = [
     altNames: 'Growth Hormone Releasing Peptide-6, SKF-110679',
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '🍽️',
-    short: 'Das erste klassische GH-Peptid: regt die Wachstumshormon-Ausschüttung an und steigert deutlich den Appetit – historisch die Leitstruktur der ganzen Klasse.',
+    short: 'Das erste klassische GH-Peptid: Es stößt über den Ghrelin-Rezeptor eine Wachstumshormon-Ausschüttung an und steigert den Appetit deutlich. Historisch die Leitstruktur der ganzen Klasse – ohne moderne Zulassungsstudien.',
     moa: 'GHRP-6 bindet als Agonist an den Ghrelin-Rezeptor (GHSR-1a) in Hypophyse und Hypothalamus und löst dort die pulsatile Freisetzung von Wachstumshormon aus. Es wirkt synergistisch mit GHRH und unterdrückt gegenregulatorisch Somatostatin. Charakteristisch ist eine ausgeprägte ghrelinartige Appetitsteigerung, die stärker ausfällt als bei GHRP-2. Wie andere Sekretagoga kann es begleitend Cortisol und Prolaktin moderat anheben. GHRP-6 diente historisch als Ausgangsmolekül, aus dem GHRP-2 und Hexarelin entwickelt wurden.',
     benefits: [
       'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon.',
@@ -2131,10 +2131,10 @@ const EXPERIMENTAL = [
     altNames: 'HN, HNG (Humanin-Analogon)',
     class: 'Mitochondriales Peptid (MDP), zytoprotektiv',
     emoji: '🧬',
-    short: 'Das erste entdeckte mitochondriale Peptid: ein körpereigener Zellschützer, dessen Spiegel mit dem Alter sinkt – korreliert mit Langlebigkeit und schützt Nerven- und Stoffwechselgewebe.',
+    short: 'Das erste entdeckte mitochondriale Peptid – ein körpereigener Zellschützer, dessen Spiegel mit dem Alter sinkt. Die Schutzwirkung ist in Zell- und Tiermodellen gezeigt, nicht am Menschen.',
     moa: 'Humanin ist ein kurzes, in der mitochondrialen DNA kodiertes Peptid (Schwester von MOTS-c) und war das erste entdeckte mitochondriale-derived Peptide (MDP). Es wirkt zytoprotektiv: Es hemmt den programmierten Zelltod (Apoptose), schützt vor oxidativem Stress und verbessert die Insulinsensitivität. Höhere körpereigene Spiegel korrelieren mit Langlebigkeit (u.a. bei Hundertjährigen); die Spiegel sinken mit dem Alter. Das potente Analogon HNG wird in der Forschung genutzt.',
     benefits: [
-      'Schützt Zellen vor Stress und programmiertem Zelltod (Apoptose)',
+      'Schützt Zellen im Labor vor Stress und programmiertem Zelltod (Apoptose)',
       'Verbessert die Insulinsensitivität (Tier-/Zelldaten)',
       'Neuroprotektiv – untersucht bei Alzheimer-Modellen',
       'Höhere Spiegel korrelieren mit Langlebigkeit (Hundertjährige)'
@@ -2314,15 +2314,15 @@ const EXPERIMENTAL = [
     altNames: 'Bronchogen (AEDL, Ala-Glu-Asp-Leu), Chonluten (EDG, Glu-Asp-Gly, T-34), Atemwegs-Bioregulatoren',
     class: 'Khavinson-Bioregulatoren – gewebespezifische Kurzpeptide für Lunge & Atemwege',
     emoji: '🫁',
-    short: 'Zwei kurze Lungen-Peptide aus der Khavinson-Schule, die sich schön ergänzen: Chonluten beruhigt Entzündungen, Bronchogen kurbelt die Regeneration des Lungengewebes an – ein eleganter, gewebespezifischer Ansatz für die Atemwege.',
+    short: 'Zwei kurze Lungen-Peptide aus der Khavinson-Schule. Die Arbeitsteilung – Chonluten gegen Entzündung, Bronchogen für die Regeneration – stammt aus russischen Arbeiten, die außerhalb Russlands nie überprüft wurden. Belastbare Humanstudien fehlen.',
     moa: 'Beide sind kurzkettige „Bioregulator"-Peptide aus der russischen Khavinson-Schule, die gewebespezifisch am Lungen- und Bronchialgewebe ansetzen und epigenetisch wirken sollen: Das kurze Peptid gelangt in die Zelle, bindet an die DNA und moduliert dort die Aktivität von Genen für Reparatur, Entzündung und Zellschutz. Chonluten ist ein Tripeptid (Glu-Asp-Gly, auch „T-34"/EDG) und wirkt vor allem entzündungsregulierend – es dämpft Marker wie TNF und Interleukin-6. Bronchogen ist ein Tetrapeptid (Ala-Glu-Asp-Leu, AEDL, ~446 g/mol) und gilt als DNA-Stabilisator, der die Regeneration von Flimmerepithel und Surfactant fördert und die lokale Abwehr (sekretorisches IgA) unterstützt. In der Szene werden beide oft gestackt. Die Evidenz stammt überwiegend aus der Khavinson-Forschung und aus präklinischen Daten.',
     benefits: [
-      'Gewebespezifisch: zielen gezielt auf Lunge/Atemwege und lassen andere Systeme in Ruhe.',
-      'Chonluten wirkt entzündungsregulierend (senkt in Studien TNF, IL-6) – untersucht bei chronischer Bronchitis, Asthma und COPD.',
-      'Bronchogen fördert die Regeneration: Flimmerepithel, weniger überschüssiger Schleim, mehr Surfactant und lokale Abwehr.',
-      'Ergänzen sich als Stack – Chonluten beruhigt, Bronchogen baut auf.',
+      'Konzept der Gewebespezifität: sollen gezielt auf Lunge und Atemwege wirken – so beschrieben, nicht unabhängig überprüft.',
+      'Für Chonluten werden entzündungsregulierende Effekte (TNF, IL-6) berichtet – aus russischen Arbeiten zu chronischer Bronchitis, Asthma und COPD.',
+      'Für Bronchogen wird eine Regeneration des Flimmerepithels und eine bessere Sekretlage beschrieben – ohne kontrollierte Studien.',
+      'Werden als sich ergänzender Stack angeboten – die Begründung dafür ist theoretisch.',
       'Anwenderberichte über weniger Husten, seltenere Schübe und leichteres Atmen; beliebt nach Infekten (z.B. Post-Corona), bei Ex-Rauchern und für mehr Ausdauer.',
-      'Nicht-hormonell und in Studien als gut verträglich beschrieben.'
+      'Nicht-hormonell; die Verträglichkeit ist nur aus denselben Quellen beschrieben, nicht unabhängig geprüft.'
     ],
     risks: [
       'Evidenz stammt fast nur aus der russischen Khavinson-Schule und aus präklinischen Daten; große unabhängige Studien fehlen.',
@@ -2737,13 +2737,13 @@ const EXPERIMENTAL = [
     altNames: 'AT-1001, Zonulin-Antagonist',
     class: 'Tight-Junction-Regulator (Darmbarriere / „Leaky Gut")',
     emoji: '🛡️',
-    short: 'Das am besten erforschte „Leaky-Gut"-Peptid: dichtet die Verbindungen zwischen den Darmzellen ab – am weitesten in der Zöliakie-Forschung (bis Phase 3).',
+    short: 'Das am besten erforschte „Leaky-Gut"-Peptid – und das lehrreichste: In der Phase-3-Studie bei Zöliakie verfehlte Larazotid den primären Endpunkt, die Entwicklung wurde daraufhin eingestellt.',
     moa: 'Larazotide ist ein oral wirksames Peptid, das Zonulin blockiert – den körpereigenen Regulator, der die Tight Junctions (Verbindungen zwischen Darmzellen) öffnet. Dadurch wird die Darmbarriere dichter und die Durchlässigkeit („Leaky Gut") sinkt. Es wirkt lokal im Darm und wurde vor allem als Begleittherapie bei Zöliakie in großen Studien untersucht.',
     benefits: [
-      'Dichtet die Darmbarriere ab (reduziert Durchlässigkeit)',
+      'Verringert in Zell- und Tiermodellen die Durchlässigkeit der Darmbarriere',
       'Oral, wirkt lokal im Darm (kaum systemisch)',
       'Am weitesten erforschtes Barriere-/„Leaky-Gut"-Peptid',
-      'In Zöliakie als Begleittherapie untersucht'
+      'In Zöliakie bis Phase 3 untersucht – ohne Vorteil gegenüber Placebo'
     ],
     risks: [
       'In der Zöliakie-Phase-3 wurde der primäre Endpunkt teils verfehlt',
