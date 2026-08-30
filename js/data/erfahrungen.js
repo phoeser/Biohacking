@@ -307,7 +307,7 @@ const ERFAHRUNGEN = [
       'Ergaenzt sich plausibel mit Retatrutide, wo Antriebslosigkeit das Hauptproblem ist'
     ],
     negativ: [
-      'Keine eigene Anwendung, keine Messwerte – die fuenf Sterne geben Zufriedenheit wieder, keinen Nachweis',
+      'Keine eigene Anwendung, keine Messwerte – weitergegebene Zufriedenheit, kein Nachweis',
       'Ein sofort spuerbarer Energieschub ist besonders anfaellig fuer Erwartungseffekte',
       'Forschungspeptid ohne Zulassung, duenne Humandatenlage'
     ],
@@ -457,6 +457,9 @@ const ERFAHRUNGEN = [
     id: 'bpc157-tb500-umfeld-2026-08',
     substanz: 'BPC-157 mit TB-500 (Blend)',
     slug: 'wolverine-stack',
+    // Kein eigener Datenbankeintrag fuer den Blend. BPC-157 und TB-500 stehen
+    // beide bei Human-Evidenz 1 – der Verweis auf BPC-157 gibt die Lage korrekt wieder.
+    scoreRef: { view: 'experimental', id: 'bpc-157' },
     kategorie: 'Peptid',
     emoji: '\u{1F9BE}',
     autor: 'weitergegeben',

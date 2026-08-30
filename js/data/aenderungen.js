@@ -20,6 +20,12 @@ const AENDERUNGEN = [
   {
     datum: '2026-08-30',
     typ: 'Korrektur',
+    titel: 'Erfahrungsberichte: BK-Score sichtbar, keine Sterne bei weitergegebenen Berichten',
+    text: 'Eine externe Prüfung hat auf einen Widerspruch hingewiesen, der zutraf: Der Erfahrungsbericht zu MOTS-c trug fünf Sterne, während der BK-Score derselben Substanz bei Human-Evidenz 1 von 10 steht und „Nicht am Menschen untersucht" lautet. Auf der Erfahrungsseite wurde der Score bis dahin gar nicht angezeigt. Zwei Änderungen: Erstens erscheint der Score jetzt auf jedem Bericht, zu dem es einen gibt — fünf Sterne neben „Evidenz 1/10" ist kein Widerspruch, sondern eine Aussage: So fühlt es sich an, so ist die Datenlage. Zweitens entfallen Sterne bei Berichten, die aus dem Umfeld weitergegeben wurden und nicht auf eigener Anwendung beruhen; eine Zahl von eins bis fünf suggeriert dort eine Messung, die es nicht gibt. Betroffen waren MOTS-c und DSIP.'
+  },
+  {
+    datum: '2026-08-30',
+    typ: 'Korrektur',
     titel: 'Sprachliche Abrüstung: 27 Einträge und 38 Tipps neu formuliert',
     text: 'Eine externe inhaltliche Prüfung hat bemängelt, dass die sichtbaren Texte an vielen Stellen Wirkung im Indikativ behaupten, wo der BK-Score nur Zell- oder Tierdaten ausweist. Der Abgleich hat das bestätigt: 27 Einträge mit Human-Evidenz 0–3 oder negativer Richtung standen im Behauptungsmodus, dazu 14 mit Evidenz 4–5. Diese Texte sind jetzt umgeschrieben – aus „aktiviert Sirtuine" wird „aktiviert Sirtuine im Zellversuch", aus einer Prozentzahl wird die Studie, aus der sie stammt. Bei negativer Richtung wird der negative Befund ausdrücklich genannt, etwa bei Larazotid, dessen Phase-3-Studie den primären Endpunkt verfehlte. Absolutwörter wie „nachweislich" oder „einziger bekannter" sind unterhalb von Evidenz 8 vollständig verschwunden.'
   },
