@@ -69,6 +69,28 @@
     </span>`;
   }
 
+  // Der Score zu einem Erfahrungsbericht. Die Berichte kennen keine View,
+  // deshalb wird ueber die id gesucht; sie ist ueber alle Views eindeutig
+  // (einzige Ausnahme hbot, dort ist behandlungen der richtige Treffer).
+  // `scoreRef` erlaubt einen abweichenden Verweis, wenn der Bericht anders
+  // heisst als der Datenbankeintrag - etwa beim Wolverine-Stack.
+  function scoreChipErfahrung(e) {
+    if (typeof BK_SCORES === 'undefined' || !e) return '';
+    const id = (e.scoreRef && e.scoreRef.id) || e.slug;
+    const view = (e.scoreRef && e.scoreRef.view) || null;
+    const s = BK_SCORES.find(x => x.id === id && (!view || x.view === view))
+           || BK_SCORES.find(x => x.id === id);
+    return s ? scoreChip(s.view, s.id) : '';
+  }
+
+  // Sterne nur, wo jemand die Sache selbst genommen hat. Ein weitergegebener
+  // Bericht beschreibt fremde Zufriedenheit - eine Zahl von eins bis fuenf
+  // suggeriert dort eine Messung, die es nicht gibt.
+  function erfSterne(e) {
+    if (!e || e.autor === 'weitergegeben') return '';
+    return renderSterne(e.bewertung);
+  }
+
   function scoreHtml(view, id) {
     const s = scoreFuer(view, id);
     if (!s) return '';
@@ -568,7 +590,7 @@
           <h4>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h4>
           <p>${escapeHtml(e.fazit || '')}</p>
           ${rabattKurz(e)}
-          ${renderSterne(e.bewertung)}
+          ${erfSterne(e)}
         </a>
       `;
     }).join('');
@@ -1099,8 +1121,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${e.anzeige ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
         </div>
         <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
-        ${renderSterne(e.bewertung)}
+        ${erfSterne(e)}
         <p class="erf-fazit">${escapeHtml(e.fazit || '')}</p>
+        ${scoreChipErfahrung(e)}
         ${rabattKurz(e)}
         ${meta ? `<div class="erf-meta">${meta}</div>` : ''}
         <span class="erf-more">Bericht lesen →</span>
@@ -1228,7 +1251,8 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         ${e.anzeige ? '<span class="erf-badge is-ad">Anzeige</span>' : ''}
       </div>
       <h3>${escapeHtml(e.emoji ? e.emoji + ' ' : '')}${escapeHtml(e.substanz || '')}</h3>
-      ${renderSterne(e.bewertung)}
+      ${erfSterne(e)}
+      ${scoreChipErfahrung(e)}
       <dl class="erf-detail-dl">
         ${e.dauer ? `<dt>Zeitraum</dt><dd>${escapeHtml(e.dauer)}</dd>` : ''}
         ${e.dosis ? `<dt>Einnahme</dt><dd>${escapeHtml(e.dosis)}</dd>` : ''}
