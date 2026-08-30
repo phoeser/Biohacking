@@ -3598,6 +3598,17 @@ button { font-family: inherit; cursor: pointer; }
   border: 1px solid var(--surface-border); text-decoration: none; color: inherit;
 }
 .sc-zeile:hover { border-color: var(--accent); }
+/* Tipps haben keine Detailseite: Zeile ohne Linkverhalten. */
+.sc-zeile--tipp { cursor: default; }
+.sc-zeile--tipp:hover { border-color: var(--surface-border); }
+/* Kompakter Score auf den Tipp-Kacheln. Volle Achsen unter #score. */
+.sc-chip {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px;
+  margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--surface-border);
+  font-size: 0.74rem; line-height: 1.35; color: var(--text-muted);
+}
+.sc-chip-label { font-weight: 600; }
+.sc-chip-wert { margin-left: auto; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .sc-rang { font-size: 0.82rem; font-weight: 700; color: var(--text-muted); }
 .sc-zeile-name { font-size: 0.92rem; font-weight: 600; line-height: 1.25; }
 .sc-zeile-label { display: block; font-size: 0.74rem; font-weight: 400; color: var(--text-muted); margin-top: 1px; }
