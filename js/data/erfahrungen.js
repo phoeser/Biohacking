@@ -570,12 +570,19 @@ const SHOPS = [
     zoll: 'Kein Thema, alles innerhalb Deutschlands.',
     erfahrung: 'Eigene Erfahrung: Ich habe dort testen lassen und fand den Ablauf durchweg professionell – klare Anleitung, schnelle Rückmeldung, verständlich aufbereiteter Befund. Der Unterschied zu den üblichen Heimtests ist, dass am Ende ein Arzt draufschaut und nicht nur eine Ampelgrafik. Der Anbieter ist auf Männergesundheit spezialisiert; wer nur einzelne Standardwerte will, ist bei einem allgemeinen Labor günstiger dran. Stand August 2026.',
     // Kooperation seit 29.08.2026 vereinbart, Vertrag unterzeichnet.
-    // aktiv bleibt false, bis der Partner-Link vorliegt - ohne Link gibt es
-    // nichts zu kennzeichnen, und ein Anzeige-Badge ohne Werbung waere falsch.
+    // Partnerlink am 30.08.2026 aus dem GoAffPro-Portal uebernommen und aktiv
+    // geschaltet. Verguetung: 20 Euro je Bestellung.
+    //
+    // Bewusst der ALLGEMEINE Link auf die Startseite, nicht der Deep-Link auf
+    // das Testprodukt: Das Produkt heisst beim Anbieter "TRT-Check" und traegt
+    // die Therapie schon im Namen. Ein Link mit diesem Namen wuerde die oben
+    // beschriebene Trennung zwischen Diagnostik und Therapie unterlaufen.
     affiliate: {
-      aktiv: false,
-      url: '',
-      codes: []
+      aktiv: true,
+      url: 'https://adon-health.de/?ref=PH',
+      codes: [
+        { code: 'PH', prozent: '10 %', fuer: 'auf die Bestellung' }
+      ]
     }
   },
   {
