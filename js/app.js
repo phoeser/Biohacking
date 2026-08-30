@@ -57,6 +57,18 @@
     return `<span class="sc-bar"><span class="sc-bar-fill" style="width:${breite}%"></span></span>`;
   }
 
+  // Kompaktform fuer Kacheln: nur Label und Evidenzwert, mit den uebrigen
+  // Achsen im title-Attribut. Der vollstaendige Block steht unter #score.
+  function scoreChip(view, id) {
+    const s = scoreFuer(view, id);
+    if (!s) return '';
+    const tip = SCORE_ACHSEN.map(a => `${a.label} ${s[a.key]}/10`).join(' · ');
+    return `<span class="sc-chip" title="${escapeHtml(tip)}">
+      <span class="sc-chip-label">${escapeHtml(bkLabel(s))}</span>
+      <span class="sc-chip-wert">Evidenz ${s.evidenz}/10</span>
+    </span>`;
+  }
+
   function scoreHtml(view, id) {
     const s = scoreFuer(view, id);
     if (!s) return '';
@@ -99,11 +111,15 @@
       auf ? a[scoreSortierung] - b[scoreSortierung] : b[scoreSortierung] - a[scoreSortierung]);
     box.innerHTML = liste.map((s, i) => {
       const name = nameFuerScore(s);
-      return `<a class="sc-zeile" href="#${escapeHtml(s.view)}/${escapeHtml(s.id)}">
+      // Tipps erscheinen im Symptom-Check und im Tagescheck, haben aber keine
+      // eigene Detailseite - eine Zeile ohne Ziel ist ehrlicher als ein toter Link.
+      const tag = s.view === 'tipps' ? 'div' : 'a';
+      const ziel = s.view === 'tipps' ? '' : ` href="#${escapeHtml(s.view)}/${escapeHtml(s.id)}"`;
+      return `<${tag} class="sc-zeile${s.view === 'tipps' ? ' sc-zeile--tipp' : ''}"${ziel}>
         <span class="sc-rang">${i + 1}</span>
         <span class="sc-zeile-name">${escapeHtml(name)}<span class="sc-zeile-label">${escapeHtml(bkLabel(s))}</span></span>
         <span class="sc-zeile-wert">${balken(s[scoreSortierung])}<b>${s[scoreSortierung]}</b></span>
-      </a>`;
+      </${tag}>`;
     }).join('');
     const hinweis = $('#sc-hinweis');
     if (hinweis) hinweis.textContent = auf
@@ -116,10 +132,11 @@
       supplement: typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : [],
       experimental: typeof EXPERIMENTAL !== 'undefined' ? EXPERIMENTAL : [],
       behandlungen: typeof THERAPIES !== 'undefined' ? THERAPIES : [],
-      khavinson: typeof KHAVINSON !== 'undefined' ? KHAVINSON : []
+      khavinson: typeof KHAVINSON !== 'undefined' ? KHAVINSON : [],
+      tipps: typeof TIPS !== 'undefined' ? TIPS : []
     };
     const t = (quellen[s.view] || []).find(x => x.id === s.id);
-    return t ? (t.name || s.id) : s.id;
+    return t ? (t.name || t.title || s.id) : s.id;
   }
 
   // ---- Änderungsprotokoll ----------------------------------------------
@@ -826,6 +843,7 @@ Kein medizinischer Rat – erwähne am Ende, dass bei Beschwerden eine Fachperso
               <h3>${escapeHtml(t.title)}</h3>
               <p>${escapeHtml(t.short)}</p>
               <p class="tip-how"><strong>Wie:</strong> ${escapeHtml(t.how)}</p>
+              ${scoreChip('tipps', t.id)}
             </article>
           `).join('') + `</div></div>`;
       }
@@ -2621,6 +2639,7 @@ WICHTIG – konservative Gewichtsschätzung:
         <h3>${escapeHtml(t.title)}</h3>
         <p>${escapeHtml(t.short)}</p>
         <p class="tip-how"><strong>Wie:</strong> ${escapeHtml(t.how)}</p>
+        ${scoreChip('tipps', t.id)}
       </article>
     `).join('')}</div></div>` : '';
 
