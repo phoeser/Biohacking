@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=147" />
+  <link rel="stylesheet" href="css/style.css?v=148" />
   <link rel="canonical" href="https://biohackingkompakt.de/" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://biohackingkompakt.de/#organisation","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","founder":{"@type":"Person","name":"Paul Höser"},"email":"kontakt@biohackingkompakt.de","description":"Deutschsprachiger Faktencheck zu Supplements, Peptiden und Biohacking-Anwendungen.","sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"]},{"@type":"WebSite","@id":"https://biohackingkompakt.de/#website","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","inLanguage":"de","publisher":{"@id":"https://biohackingkompakt.de/#organisation"}},{"@type":"WebPage","@id":"https://biohackingkompakt.de/#startseite","url":"https://biohackingkompakt.de/","name":"Biohacking Kompakt","inLanguage":"de","isPartOf":{"@id":"https://biohackingkompakt.de/#website"},"description":"Datenbank mit 218 Substanzen und Verfahren, jeweils mit Evidenz, Risiken und Quellen – plus dem BK-Score, der den Wissensstand bewertet."},{"@type":"PodcastSeries","@id":"https://biohackingkompakt.de/#podcast","name":"Biohacking Kompakt","url":"https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","webFeed":"https://anchor.fm/s/1148b9204/podcast/rss","inLanguage":"de","author":{"@type":"Person","name":"Paul Höser"},"publisher":{"@id":"https://biohackingkompakt.de/#organisation"},"sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"],"numberOfEpisodes":59,"description":"Täglicher Faktencheck zu einem Wirkstoff oder Verfahren. Vollständig KI-produziert mit zwei synthetischen Stimmen, redaktionell verantwortet."},{"@type":"Dataset","@id":"https://biohackingkompakt.de/#score-datensatz","name":"BK-Score","url":"https://biohackingkompakt.de/#score","description":"Bewertung des Wissensstands zu Supplements, Peptiden und Anwendungen auf fünf Achsen von 0 bis 10. Subjektive Einschätzung von Biohacking Kompakt nach offengelegten Vergaberegeln – keine wissenschaftliche Bewertung und keine medizinische Empfehlung.","creator":{"@id":"https://biohackingkompakt.de/#organisation"},"inLanguage":"de","license":"https://biohackingkompakt.de/impressum.html","variableMeasured":[{"@type":"PropertyValue","name":"Human-Evidenz","description":"Wie viel und wie gute Daten am Menschen","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Mechanismus","description":"Wie gut die Wirkkette verstanden ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Sicherheits-Datenlage","description":"Wie gut die Sicherheit untersucht ist – nicht, wie sicher es ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Hype-Abstand","description":"Wie weit die Vermarktung der Evidenz vorausläuft","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Anwendungserfahrung","description":"Wie viel dokumentierte Anwendung am Menschen vorliegt – misst nicht, ob es wirkt","minValue":0,"maxValue":10}],"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://biohackingkompakt.de/scores.json"}}]}</script>
 </head>
@@ -117,6 +117,7 @@
           <div class="pod-heute-links">
             <a id="pod-heute-spotify" href="#" target="_blank" rel="noopener">▶ Auf Spotify anhören</a>
             <a id="pod-heute-apple" href="#" target="_blank" rel="noopener"> Apple Podcasts</a>
+            <a id="pod-heute-amazon" href="#" target="_blank" rel="noopener">Amazon Music</a>
             <a id="pod-heute-thema" href="#">Zum Thema in der Datenbank →</a>
           </div>
           <ul class="pod-heute-liste" id="pod-heute-liste"></ul>
@@ -167,6 +168,21 @@
           <div class="stat"><strong id="stat-supplements">–</strong><span>Supplements in DB</span></div>
           <div class="stat"><strong id="stat-tips">–</strong><span>Biohacking-Tipps</span></div>
           <div class="stat"><strong id="stat-goals">–</strong><span>Symptom-Gruppen</span></div>
+        </div>
+
+        <!-- Partner der Woche: drei Anbieter mit Code, wechselt montags.
+             Bewusst ueber den Wearables-Empfehlungen: wer einen Code sucht,
+             soll ihn finden, ohne die halbe Startseite zu scrollen. -->
+        <div class="home-partner card" id="home-partner" hidden>
+          <div class="home-partner-head">
+            <div>
+              <span class="eyebrow">Anzeige · Partnerangebote</span><span class="home-partner-woche" id="home-partner-woche"></span>
+              <h3>Diese Woche im Angebot</h3>
+              <p class="home-partner-sub">Drei Partner, jeden Montag neu gemischt. Alle stehen dauerhaft unter <a href="#bezugsquellen" data-nav="bezugsquellen">Bezugsquellen</a> – dort mit Erfahrung, Einschränkungen und Warnungen.</p>
+            </div>
+          </div>
+          <div class="home-partner-grid" id="home-partner-list"></div>
+          <p class="home-partner-hinweis">Anzeige: Affiliate-Partnerschaften. Kaufst du über einen Link oder mit einem Code, erhalte ich eine Provision. Dein Rabatt wird dadurch nicht kleiner.</p>
         </div>
 
         <!-- Empfohlene Wearables / Produkte -->
@@ -796,26 +812,26 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=147"></script>
-  <script src="js/data/tips.js?v=147"></script>
-  <script src="js/data/goals.js?v=147"></script>
-  <script src="js/data/products.js?v=147"></script>
-  <script src="js/data/experimental.js?v=147"></script>
-  <script src="js/data/khavinson.js?v=147"></script>
-  <script src="js/data/therapies.js?v=147"></script>
-  <script src="js/data/signalwege.js?v=147"></script>
-  <script src="js/data/blutwerte.js?v=147"></script>
-    <script src="js/data/podcast.js?v=147"></script>
-    <script src="js/data/aenderungen.js?v=147"></script>
-    <script src="js/data/scores.js?v=147"></script>
-  <script src="js/data/erfahrungen.js?v=147"></script>
-  <script src="js/vitals.js?v=147"></script>
+  <script src="js/data/supplements.js?v=148"></script>
+  <script src="js/data/tips.js?v=148"></script>
+  <script src="js/data/goals.js?v=148"></script>
+  <script src="js/data/products.js?v=148"></script>
+  <script src="js/data/experimental.js?v=148"></script>
+  <script src="js/data/khavinson.js?v=148"></script>
+  <script src="js/data/therapies.js?v=148"></script>
+  <script src="js/data/signalwege.js?v=148"></script>
+  <script src="js/data/blutwerte.js?v=148"></script>
+    <script src="js/data/podcast.js?v=148"></script>
+    <script src="js/data/aenderungen.js?v=148"></script>
+    <script src="js/data/scores.js?v=148"></script>
+  <script src="js/data/erfahrungen.js?v=148"></script>
+  <script src="js/vitals.js?v=148"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=147"></script>
-  <script src="js/app.js?v=147"></script>
+  <script src="js/mydata.js?v=148"></script>
+  <script src="js/app.js?v=148"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe
