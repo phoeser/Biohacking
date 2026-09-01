@@ -1897,6 +1897,57 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* ============ WEARABLES / PRODUKT-EMPFEHLUNGEN ============ */
+/* ---- Partner der Woche (Startseite) ------------------------------------
+   Bewusst zurueckhaltend: Werbung, die wie Werbung aussieht, aber die Seite
+   nicht uebernimmt. Der Rahmen ist warm getoent, damit sie sich vom
+   redaktionellen Teil abhebt - das ist auch die kennzeichnungsfreundliche
+   Variante. */
+.home-partner {
+  margin-top: 32px;
+  border: 1px solid rgba(255, 176, 66, 0.28);
+  background: linear-gradient(180deg, rgba(255, 176, 66, 0.05), transparent 60%), var(--surface);
+}
+.home-partner-head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 18px; flex-wrap: wrap; margin-bottom: 16px;
+}
+.home-partner-sub { color: var(--text-muted); font-size: 0.86rem; margin: 6px 0 0; max-width: 62ch; }
+.home-partner-woche {
+  display: inline-block; margin-left: 8px; vertical-align: middle;
+  font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em;
+  color: #e0a44a; border: 1px solid rgba(255, 176, 66, 0.35);
+  padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+}
+.home-partner-woche:empty { display: none; }
+.home-partner-grid {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+.partner-karte {
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 14px 16px; border-radius: var(--radius);
+  background: var(--bg); border: 1px solid var(--surface-border);
+}
+.partner-karte-kopf { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+.partner-karte h4 { margin: 0; font-size: 0.98rem; }
+.partner-prozent { font-size: 1.15rem; font-weight: 800; color: #e0a44a; line-height: 1; }
+.partner-code { margin: 0; }
+/* der Code gehoert links unter den Namen, nicht an den Kartenrand */
+.partner-code .erf-rabatt-codewrap { margin-left: 0; }
+.partner-ohnecode, .partner-bedingung {
+  margin: 0; font-size: 0.76rem; color: var(--text-muted); line-height: 1.4;
+}
+.partner-karte-fuss { display: flex; gap: 10px; align-items: center; margin-top: auto; padding-top: 6px; flex-wrap: wrap; }
+.partner-link {
+  font-size: 0.8rem; font-weight: 700; text-decoration: none;
+  color: var(--accent);
+}
+.partner-mehr { font-size: 0.76rem; color: var(--text-muted); text-decoration: none; }
+.partner-mehr:hover { color: var(--text); }
+.home-partner-hinweis {
+  margin: 14px 0 0; font-size: 0.72rem; line-height: 1.45; color: var(--text-muted);
+}
+
 .home-products {
   margin-top: 32px;
 }
@@ -3521,7 +3572,23 @@ button { font-family: inherit; cursor: pointer; }
   padding: 8px 13px; border-radius: 10px;
 }
 #pod-heute-spotify { background: #1db954; color: #fff; }
+/* Apple und Amazon in ihren Hausfarben, aber gedaempft: die Folge soll die
+   Aufmerksamkeit bekommen, nicht die Knopfleiste. */
+#pod-heute-apple  { background: #8a3ab9; color: #fff; }
+#pod-heute-amazon { background: #0b7f9b; color: #fff; }
 #pod-heute-thema { background: var(--surface); color: var(--accent); border: 1px solid var(--surface-border); }
+
+/* ---- Plattform-Zeile an jeder Folge (Supplements, Anwendungen, Peptide) ---- */
+.exp-podcast-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.plat-link {
+  font-size: 0.76rem; font-weight: 600; text-decoration: none;
+  padding: 6px 11px; border-radius: 9px; line-height: 1.2;
+  border: 1px solid transparent; white-space: nowrap;
+}
+.plat-link.is-spotify { background: rgba(29,185,84,0.14);  color: #35c46a; border-color: rgba(29,185,84,0.32); }
+.plat-link.is-apple   { background: rgba(138,58,185,0.16); color: #b47ae0; border-color: rgba(138,58,185,0.36); }
+.plat-link.is-amazon  { background: rgba(11,127,155,0.16); color: #4fc3d9; border-color: rgba(11,127,155,0.36); }
+.plat-link:hover { filter: brightness(1.18); }
 .pod-heute-liste { list-style: none; margin: 14px 0 0; padding: 12px 0 0; border-top: 1px solid var(--surface-border); }
 .pod-heute-liste li + li { margin-top: 6px; }
 .pod-heute-liste a {
