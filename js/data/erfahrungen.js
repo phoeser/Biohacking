@@ -616,6 +616,55 @@ const SHOPS = [
       codes: []
     }
   },
+  // ---------------------------------------------------------------------------
+  // Wearables. Gehoeren hierher, weil die Frage „wo kaufe ich das" bei Tracker
+  // und Ring genauso gestellt wird wie bei Supplements - und weil zu beiden ein
+  // Empfehlungslink besteht, der gekennzeichnet werden muss. Kein Rabattwert
+  // hinterlegt: was der Anbieter ueber den Link gerade gewaehrt, aendert er
+  // selbst und laufend. Lieber keine Zahl als eine, die naechste Woche falsch ist.
+  // ---------------------------------------------------------------------------
+  {
+    id: 'whoop',
+    name: 'Whoop',
+    demo: false,
+    url: 'https://www.whoop.com/',
+    land: 'EU-Versand',
+    kategorien: ['Wearables'],
+    bewertung: 4,
+    versand: 'Versand innerhalb der EU, Hardware ist im Abo enthalten.',
+    zahlung: 'Abo-Modell, monatlich oder jährlich. Kein Einmalkauf der Hardware.',
+    qualitaet: 'Kein Medizinprodukt. Recovery, HRV, Ruhepuls und Schlafphasen sind Schätzwerte aus optischer Messung – für Trends brauchbar, für Diagnosen nicht.',
+    preis: 'ab rund 30 €/Monat, günstiger im Jahresabo.',
+    zoll: 'Kein Thema, Versand innerhalb der EU.',
+    erfahrung: 'Eigene Erfahrung: Ich trage das Band täglich, die Werte laufen über den MyData-Bereich dieser Seite direkt hier ein. Stärke ist der Verlauf über Wochen, nicht der einzelne Tagesscore. Wer sich vom täglichen Recovery-Wert die Laune verderben lässt, ist damit schlechter beraten als ohne.',
+    affiliate: {
+      aktiv: true,
+      url: 'https://join.whoop.com/5C8D6240',
+      // Empfehlungslink des Anbieters. Was er dem Neukunden gewaehrt, legt
+      // Whoop fest und ändert es – deshalb steht hier bewusst keine Zahl.
+      hinweis: 'Anzeige: Empfehlungslink. Schließt du darüber ab, bekomme ich eine Gutschrift oder Provision. Ob und in welcher Höhe du selbst einen Vorteil hast, legt Whoop fest und ändert es laufend – was gerade gilt, siehst du beim Öffnen des Links.'
+    }
+  },
+  {
+    id: 'oura',
+    name: 'Oura Ring',
+    demo: false,
+    url: 'https://ouraring.com/',
+    land: 'EU-Versand',
+    kategorien: ['Wearables'],
+    bewertung: 4,
+    versand: 'Versand innerhalb der EU. Vor der Bestellung kommt ein kostenloses Größen-Set.',
+    zahlung: 'Einmalkauf der Hardware plus monatliche Mitgliedschaft für die Auswertung.',
+    qualitaet: 'Kein Medizinprodukt. Schlafphasen und Temperaturtrends sind Schätzwerte; als Trend über Wochen aussagekräftiger als als Einzelmessung.',
+    preis: 'ab rund 350 € plus rund 6 €/Monat.',
+    zoll: 'Kein Thema, Versand innerhalb der EU.',
+    erfahrung: 'Kein Selbstversuch – aufgenommen, weil der Ring in der Schlafmessung als Referenz gilt und die Frage nach der Bezugsquelle regelmäßig kommt. Was hier steht, ist recherchiert, nicht erlebt.',
+    affiliate: {
+      aktiv: true,
+      url: 'https://ouraring.com/discount/7ca18ebe07?utm_source=user&utm_medium=iac_raf&utm_type=alwayson-cvr&utm_campaign=2026RAF&utm_variant=2026_raf_mar',
+      hinweis: 'Anzeige: Empfehlungslink. Kaufst du darüber, bekomme ich eine Gutschrift oder Provision. Ob und in welcher Höhe du selbst einen Vorteil hast, legt Oura fest und ändert es laufend – was gerade gilt, siehst du beim Öffnen des Links.'
+    }
+  },
   {
     id: 'biolabshop',
     name: 'biolabshop.de',
