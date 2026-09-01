@@ -23,13 +23,65 @@
     wrap.appendChild(f);
   };
 
+  // ---- Plattform-Links --------------------------------------------------
+  // Gehoert wird ueberall: Spotify, Apple, Amazon. Bisher stand nur Spotify
+  // da - wer Apple nutzt, musste die Folge selbst suchen. Die Zuordnung laeuft
+  // ueber die Spotify-ID, weil die in allen Datensaetzen schon steht.
+  function folgeZuSpotify(spotifyId) {
+    if (!spotifyId || typeof PODCAST_FOLGEN === 'undefined') return null;
+    return PODCAST_FOLGEN.find(f => f.spotify === spotifyId) || null;
+  }
+
+  // Tiefenlink zur Folge, sonst zur Sendung. Nie ein toter Link.
+  function appleUrl(spotifyId) {
+    const show = (typeof PODCAST_SHOW !== 'undefined') ? PODCAST_SHOW : null;
+    const f = folgeZuSpotify(spotifyId);
+    if (f && f.apple && typeof PODCAST_APPLE_BASIS !== 'undefined') {
+      return PODCAST_APPLE_BASIS + f.apple;
+    }
+    return show && show.apple ? show.apple : '';
+  }
+
+  // Amazon kennt fuer jede veroeffentlichte Folge eine eigene Adresse. Kuenftige
+  // Folgen gibt es dort noch nicht - die zeigen auf die Sendungsseite.
+  function amazonUrl(spotifyId) {
+    const show = (typeof PODCAST_SHOW !== 'undefined') ? PODCAST_SHOW : null;
+    const f = folgeZuSpotify(spotifyId);
+    if (f && f.amazon && typeof PODCAST_AMAZON_BASIS !== 'undefined') {
+      return PODCAST_AMAZON_BASIS + f.amazon;
+    }
+    return show && show.amazon ? show.amazon : '';
+  }
+
+  // Eine Zeile, drei Plattformen. Fehlt eine, faellt sie weg statt kaputt
+  // dazustehen.
+  function plattformLinks(spotifyId, klasse) {
+    const teile = [];
+    if (spotifyId) {
+      teile.push('<a class="plat-link is-spotify" href="https://open.spotify.com/episode/' +
+        escapeHtml(spotifyId) + '" target="_blank" rel="noopener">\u25b6 Spotify</a>');
+    }
+    const ap = appleUrl(spotifyId);
+    if (ap) {
+      teile.push('<a class="plat-link is-apple" href="' + escapeHtml(ap) +
+        '" target="_blank" rel="noopener">\uf8ff Apple Podcasts</a>');
+    }
+    const am = amazonUrl(spotifyId);
+    if (am) {
+      teile.push('<a class="plat-link is-amazon" href="' + escapeHtml(am) +
+        '" target="_blank" rel="noopener">Amazon Music</a>');
+    }
+    if (!teile.length) return '';
+    return '<div class="' + (klasse || 'exp-podcast-links') + '">' + teile.join('') + '</div>';
+  }
+
   // Podcast-Block. Eine Quelle für alle Bereiche (Supplements, Peptide,
   // Khavinson, Anwendungen, Blutwerte) – vorher lag der Code doppelt vor.
   function podcastsHtml(list) {
     if (!list || !list.length) return '';
     return `<div class="exp-podcasts"><div class="exp-podcasts-label">🎧 Podcast-Folgen (${list.length})</div>${list.map(p => `<div class="exp-podcast">
             <div class="exp-podcast-head"><span class="exp-podcast-icon">🎧</span><div class="exp-podcast-titles"><div class="exp-podcast-title">${escapeHtml(p.title)}</div>${p.lengthLabel ? `<div class="exp-podcast-meta">${escapeHtml(p.lengthLabel)}</div>` : ''}</div></div>
-            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div><div class="exp-podcast-links"><a href="https://open.spotify.com/episode/${escapeHtml(p.spotify)}" target="_blank" rel="noopener">▶ Auf Spotify anhören</a></div>` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
+            ${p.spotify ? `<div class="exp-podcast-spotify-facade"><button type="button" class="exp-spotify-load" onclick="loadSpotifyEmbed(this,'${escapeHtml(p.spotify)}')" style="width:100%;min-height:56px;margin:8px 0;border:0;border-radius:12px;background:#1db954;color:#fff;font-weight:600;font-size:15px;cursor:pointer">▶ Spotify-Player laden</button></div>${plattformLinks(p.spotify)}` : `<audio class="exp-podcast-audio" controls preload="none" src="${escapeHtml(p.audio)}"></audio>`}
             ${p.note ? `<div class="exp-podcast-note">${escapeHtml(p.note)}</div>` : ''}
             ${(p.sources && p.sources.length) ? `<details class="exp-podcast-src"><summary>Quellen der Folge (${p.sources.length})</summary><ul>${p.sources.map(q => `<li><a href="${escapeHtml(q.url)}" target="_blank" rel="noopener">${escapeHtml(q.title)}</a></li>`).join('')}</ul></details>` : ''}
           </div>`).join('')}</div>`;
@@ -512,7 +564,17 @@
     const show = document.getElementById('pod-heute-show');
     if (show && typeof PODCAST_SHOW !== 'undefined') show.href = PODCAST_SHOW.spotify;
     const apple = document.getElementById('pod-heute-apple');
-    if (apple && typeof PODCAST_SHOW !== 'undefined' && PODCAST_SHOW.apple) apple.href = PODCAST_SHOW.apple;
+    if (apple) {
+      const au = appleUrl(f.spotify);
+      apple.href = au || '#';
+      apple.hidden = !au;
+    }
+    const amazon = document.getElementById('pod-heute-amazon');
+    if (amazon) {
+      const az = amazonUrl(f.spotify);
+      amazon.href = az || '#';
+      amazon.hidden = !az;
+    }
 
     const haupt = document.getElementById('pod-heute-link');
     const thema = document.getElementById('pod-heute-thema');
@@ -539,8 +601,88 @@
     box.hidden = false;
   }
 
+  // ---- Partner der Woche -------------------------------------------------
+  // Drei Anbieter mit Code auf der Startseite, montags wechselnd. Die Auswahl
+  // ist absichtlich NICHT zufaellig: alle Besucher einer Woche sehen dasselbe,
+  // und beim Neuladen springt nichts. Grundlage ist die ISO-Kalenderwoche,
+  // damit der Wechsel immer auf einen Montag faellt.
+  function isoWoche(d) {
+    const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    const tag = t.getUTCDay() || 7;                 // Montag 1 ... Sonntag 7
+    t.setUTCDate(t.getUTCDate() + 4 - tag);         // auf den Donnerstag
+    const anfang = Date.UTC(t.getUTCFullYear(), 0, 1);
+    return { jahr: t.getUTCFullYear(), woche: Math.ceil(((t - anfang) / 86400000 + 1) / 7) };
+  }
+
+  const PARTNER_SLOTS = 3;
+
+  // Der Topf besteht aus Partnern MIT Code - der Block verspricht Codes, also
+  // duerfen dort keine codelosen Empfehlungslinks landen. Nur wenn es weniger
+  // als drei Code-Partner gibt, wird mit den uebrigen aufgefuellt, damit die
+  // Reihe nicht halb leer dasteht. Warnungen kommen nie in Frage.
+  function partnerPool() {
+    const shops = (typeof SHOPS !== 'undefined') ? SHOPS : [];
+    const aktiv = shops.filter(s => !s.warnung && s.affiliate && s.affiliate.aktiv &&
+                                    (s.affiliate.url || affCodes(s.affiliate).length));
+    const mitCode = aktiv.filter(s => affCodes(s.affiliate).length);
+    if (mitCode.length >= PARTNER_SLOTS) return mitCode;
+    return mitCode.concat(aktiv.filter(s => !affCodes(s.affiliate).length)
+                               .slice(0, PARTNER_SLOTS - mitCode.length));
+  }
+
+  function partnerKarte(s) {
+    const aff = s.affiliate || {};
+    const codes = affCodes(aff);
+    const ziel = aff.url || s.url || '';
+    const proz = [...new Set(codes.map(c => (c.prozent || '').trim()).filter(Boolean))];
+    const kopf = proz.length ? proz[0] : (aff.prozent || 'Empfehlung');
+    return `
+      <article class="partner-karte">
+        <div class="partner-karte-kopf">
+          <span class="partner-prozent">${escapeHtml(kopf)}</span>
+          <h4>${escapeHtml(s.name || '')}</h4>
+        </div>
+        ${codes.length ? codes.slice(0, 1).map(c => `
+          <div class="erf-rabatt-zeile partner-code">
+            <span class="erf-rabatt-codewrap">
+              <code data-copy-code="${escapeHtml(c.code)}" title="Zum Kopieren antippen">${escapeHtml(c.code)}</code>
+              <button type="button" class="erf-copy-btn" data-copy-code="${escapeHtml(c.code)}">Kopieren</button>
+            </span>
+          </div>`).join('') : '<p class="partner-ohnecode">Kein Code nötig – der Vorteil hängt am Link.</p>'}
+        ${codes.length && codes[0].fuer ? `<p class="partner-bedingung">${escapeHtml(codes[0].fuer)}</p>` : ''}
+        <div class="partner-karte-fuss">
+          ${ziel ? `<a class="partner-link" href="${escapeHtml(safeHttpUrl(ziel, '#bezugsquellen'))}" target="_blank" rel="noopener nofollow sponsored">Zum Shop →</a>` : ''}
+          <a class="partner-mehr" href="#bezugsquellen" data-nav="bezugsquellen">Erfahrung dazu</a>
+        </div>
+      </article>`;
+  }
+
+  function renderPartnerWoche() {
+    const box = document.getElementById('home-partner');
+    const liste = document.getElementById('home-partner-list');
+    if (!box || !liste) return;
+    const pool = partnerPool();
+    if (!pool.length) { box.hidden = true; return; }
+
+    const w = isoWoche(new Date());
+    const anzahl = Math.min(PARTNER_SLOTS, pool.length);
+    // Fenster um eine Position je Woche weiterschieben: so wechselt ein Partner
+    // pro Woche statt der ganzen Reihe - der Block bleibt wiedererkennbar und
+    // jeder Partner kommt gleich oft dran. Bei genau drei Partnern im Topf
+    // bewegt sich nichts; die Rotation greift ab dem vierten von allein.
+    const start = (w.jahr * 53 + w.woche) % pool.length;
+    const wahl = [];
+    for (let i = 0; i < anzahl; i++) wahl.push(pool[(start + i) % pool.length]);
+
+    liste.innerHTML = wahl.map(partnerKarte).join('');
+    const label = document.getElementById('home-partner-woche');
+    if (label) label.textContent = 'KW ' + w.woche;
+    box.hidden = false;
+  }
+
   function onEnterHome() {
     renderPodHeute();
+    renderPartnerWoche();
     const sSup = $('#stat-supplements');
     const sTip = $('#stat-tips');
     const sGoal = $('#stat-goals');
@@ -1147,6 +1289,10 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
   // das ist fuer den Leser die wichtigere Information und stand vorher an zwei
   // von drei Stellen nicht drin. Der Text richtet sich deshalb nach den Daten.
   function affHinweis(aff) {
+    // Manche Partner geben keinen festen Rabatt, sondern eine wechselnde
+    // Aktion. Dort steht der Hinweis am Datensatz und hat Vorrang – sonst
+    // stuende hier eine Zusage, die der Anbieter jederzeit aendert.
+    if (aff && aff.hinweis) return aff.hinweis;
     const codes = affCodes(aff);
     if (!codes.length) {
       return 'Anzeige: Affiliate-Link. Kaufst du darüber, erhalte ich eine Provision. '
