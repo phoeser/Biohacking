@@ -143,6 +143,52 @@
     return renderSterne(e.bewertung);
   }
 
+  // Eine niedrige Evidenzzahl heisst nicht „wirkt nicht". Sie heisst je nach
+  // Fall zweierlei, und das ist nicht dasselbe: geprueft und nicht bestaetigt,
+  // oder schlicht nicht geprueft. Ohne diesen Satz liest sich ein leerer Balken
+  // wie ein Urteil, das niemand gefaellt hat - und bei Stoffen mit deutlich
+  // spuerbarer Wirkung entsteht der Eindruck, wir wuerden diese bestreiten.
+  function richtungSatz(s) {
+    if (s.richtung === 'negativ') {
+      return '<p class="sc-richtung is-negativ"><strong>Geprüft und nicht bestätigt.</strong> '
+           + 'Es gibt Studien am Menschen, und sie zeigen den beworbenen Nutzen nicht.</p>';
+    }
+    if (s.richtung === 'offen') {
+      return '<p class="sc-richtung is-offen"><strong>Nicht geprüft – nicht widerlegt.</strong> '
+           + 'Eine niedrige Zahl bedeutet hier fehlende Untersuchung, keine widerlegte Wirkung. '
+           + 'Ob etwas spürbar passiert, ist damit nicht beantwortet – nur, ob der Nutzen '
+           + 'kontrolliert belegt ist.</p>';
+    }
+    return '';
+  }
+
+  // Was Anwender und Aerzte uebereinstimmend beobachten - sichtbar, aber
+  // bewusst neben den Achsen und ohne Einfluss auf das Label. Absichtlich
+  // ohne Balken: Ein Balken behauptet eine Messung, das hier ist eine
+  // Einschaetzung, und die beiden duerfen nicht gleich aussehen.
+  const BERICHT_STUFE = {
+    1: 'Vereinzelt berichtet',
+    2: 'Verbreitet und übereinstimmend berichtet',
+    3: 'Verbreitet, übereinstimmend und spezifisch berichtet'
+  };
+
+  function berichtslageHtml(s) {
+    const b = s && s.berichtslage;
+    if (!b || !b.was) return '';
+    const stufe = BERICHT_STUFE[b.stufe] || BERICHT_STUFE[1];
+    return `<div class="sc-bericht sc-bericht--${b.stufe || 1}">
+      <div class="sc-bericht-kopf">
+        <span class="sc-bericht-titel">Was berichtet wird</span>
+        <span class="sc-bericht-stufe">${escapeHtml(stufe)}</span>
+      </div>
+      <p class="sc-bericht-text">${escapeHtml(b.was)}</p>
+      ${b.quellen ? `<p class="sc-bericht-quellen">${escapeHtml(b.quellen)}</p>` : ''}
+      <p class="sc-bericht-fuss">Berichte zeigen, dass etwas passiert – nicht, dass der benannte Stoff
+      die Ursache war und nicht, dass der Nutzen die Risiken aufwiegt. Sie stehen deshalb neben den
+      Achsen und gehen nicht in die Bewertung ein.</p>
+    </div>`;
+  }
+
   function scoreHtml(view, id) {
     const s = scoreFuer(view, id);
     if (!s) return '';
@@ -156,7 +202,9 @@
         ${balken(s[a.key])}
         <span class="sc-wert">${s[a.key]}</span>
       </div>`).join('')}</div>
+      ${richtungSatz(s)}
       <p class="sc-beleg">${escapeHtml(s.beleg)}</p>
+      ${berichtslageHtml(s)}
       <p class="sc-fuss">Bewertet wird der Wissensstand, nicht die Substanz. Subjektive Einschätzung von Biohacking Kompakt nach offengelegten Regeln – keine wissenschaftliche Bewertung und keine medizinische Empfehlung. <a href="#score">Alle Bewertungen und die Vergaberegeln</a></p>
     </div>`;
   }
