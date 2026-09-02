@@ -18,6 +18,13 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-09-02',
+    typ: 'Korrektur',
+    titel: 'Berichtslage auf 42 weitere Einträge ausgeweitet – und bei 43 bewusst weggelassen',
+    text: 'Das am 1. September eingeführte Feld „Was berichtet wird" stand zunächst bei fünf Einträgen. Es steht jetzt bei 47. Neu bewertet wurden ausschließlich Einträge mit der Richtung „offen", also solche, bei denen die Studienlage für eine Aussage nicht reicht – genau dort trägt die Berichtslage am meisten. Entscheidend war nicht, wie viele Menschen berichten, sondern wie spezifisch: Drei Kriterien senken die Stufe trotz vieler Stimmen. Fehlende Unabhängigkeit – bei Fadogia agrestis entstanden praktisch alle Berichte nach derselben Podcast-Empfehlung, viele Stimmen sind dann nicht viele Beobachtungen. Fehlende Trennbarkeit – TB-500 wird fast immer gemeinsam mit BPC-157 angewendet, die Berichte können deshalb nicht sagen, welcher Stoff wirkt, und TB-500 steht darum eine Stufe unter BPC-157, obwohl die Beobachtungen gleich klingen. Und lange Latenz – was erst nach Wochen auftritt, kann viele Ursachen haben. Nur zwei neue Einträge erreichen Stufe 3: RAD-140, wo Anwender die Testosteronunterdrückung im eigenen Blutbild messen und zusätzlich publizierte Fallberichte über schwere Leberschäden vorliegen, und GHRP-6, wo der Hungerschub binnen Minuten auftritt, dosisabhängig ist und exakt zum Ghrelin-Rezeptor passt. Bei 43 weiteren offenen Einträgen wurde das Feld absichtlich nicht gesetzt, weil dort nur unspezifische Berichte vorliegen; NMN steht als Stufe 1 bewusst im Bestand, um sichtbar zu machen, wie eine zahlreiche und trotzdem schwache Berichtslage aussieht. Ein Fall verdient besondere Erwähnung: Zur Löwenmähne gibt es eine hartnäckige Häufung von Berichten über emotionale Abflachung und Libidoverlust. Eine systematische Übersicht von 2025 listet als Nebenwirkungen Magenbeschwerden, Kopfschmerz und allergische Reaktionen – die berichtete Abflachung dagegen nicht. Das widerlegt sie nicht, sondern zeigt, dass sie nie Endpunkt einer Studie war. Genau für diese Lücke wurde das Feld gebaut. Die Berichtslage ändert weiterhin kein Label und keine Achse; sie steht daneben, sichtbar, als Einschätzung – nicht als Balken, weil ein Balken eine Messung behauptet.',
+    quelle: { titel: 'Benefits, side effects, and uses of Hericium erinaceus as a supplement: a systematic review (Frontiers in Nutrition 2025)', url: 'https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1641246/full' }
+  },
+  {
     datum: '2026-09-01',
     typ: 'Korrektur',
     titel: 'Neu: „Was berichtet wird" – Erfahrungen stehen jetzt sichtbar neben der Evidenz',
