@@ -18,6 +18,36 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-09-01',
+    typ: 'Korrektur',
+    titel: 'Neu: „Was berichtet wird" – Erfahrungen stehen jetzt sichtbar neben der Evidenz',
+    text: 'Der BK-Score kannte bisher nur zwei Größen für gelebte Praxis: die Achse Anwendungserfahrung, die misst, WIE VIEL angewendet wird, und die Erfahrungsberichte als eigenes Format. Was fehlte, war das Dazwischen – nämlich WAS Anwender und behandelnde Ärzte übereinstimmend beobachten. Eine Substanz, die eine Million Menschen mit widersprüchlichen Berichten nehmen, und eine, die 5.000 Menschen mit fast identischen, spezifischen Beobachtungen nehmen, wurden bei uns gleich behandelt. Das war falsch. Übereinstimmende, voneinander unabhängige Berichte über einen spezifischen Effekt sind Evidenz – schwache, aber keine Null; die gesamte Arzneimittelsicherheit nach der Zulassung funktioniert so, und bei Melanotan 2 stützt sich unser eigener Beleg auf genau solche Fallberichte. Neu gibt es deshalb den Block „Was berichtet wird" mit drei Stufen: vereinzelt, verbreitet und übereinstimmend, verbreitet und übereinstimmend und spezifisch. Entscheidend ist die Spezifität – „fühle mich besser" ist Rauschen, „Bräunung ohne Sonne binnen einer Woche" ist Signal. Zwei Entscheidungen dazu: Der Block hat bewusst KEINEN Balken bekommen, weil ein Balken eine Messung behauptet und eine Berichtslage eine Einschätzung ist; er sieht deshalb anders aus als die Achsen. Und er beeinflusst das Label nicht – das bleibt rein evidenzbasiert. Gestartet ist der Block bei BPC-157, SLU-PP-332, Melanotan 2, Tesofensin und Selen. Gerade der Selen-Fall zeigt, warum die Trennung nötig ist: viele positive Berichte, direkt neben einer großen Studie, die den beworbenen Nutzen nicht bestätigt hat.'
+  },
+  {
+    datum: '2026-09-01',
+    typ: 'Korrektur',
+    titel: '„Nicht geprüft" ist nicht dasselbe wie „geprüft und widerlegt" – der Score sagt das jetzt dazu',
+    text: 'Ein Leserhinweis hat auf eine Schwäche der Darstellung gezeigt, die zutraf. Der BK-Score unterscheidet im Datenmodell seit jeher zwischen „negativ" (untersucht, Wirkung nicht bestätigt) und „offen" (zu wenig Daten für eine Richtung). In der Anzeige war dieser Unterschied aber kaum zu sehen: Ein fast leeres Balkendiagramm mit einem knappen Label liest sich wie ein Urteil gegen die Substanz, auch wenn gar keines gefällt wurde. Zwei Änderungen: Das Label-Feld ist jetzt farblich getrennt – Rot für Widerlegtes, Bernstein für Ungeklärtes, Grün nur noch für tatsächlich Belegtes. Und unter dem Label steht bei offenen Einträgen ausdrücklich, was gemeint ist: nicht geprüft, nicht widerlegt. Ergänzt wurde außerdem der Beleg zu SLU-PP-332: Der Effekt trat bei Mäusen bereits eine Stunde nach Gabe auf, ein rasch spürbarer Effekt widerspricht dem Mechanismus also nicht. Die Mausdosis lag bei 50 mg/kg intraperitoneal, allometrisch rund 650 mg täglich für einen 80-Kilo-Menschen; berichtet werden 250 Mikrogramm bis 1,5 mg – etwa ein Tausendstel. Die Anwendungserfahrung steigt von 0 auf 2, weil Anwendung in Graumarktkreisen existiert.',
+    ziel: { view: 'experimental', id: 'slu-pp-332' },
+    quelle: { titel: 'Synthetic ERRα/β/γ Agonist Induces an Acute Aerobic Exercise Response (ACS Chem Biol)', url: 'https://pubs.acs.org/doi/10.1021/acschembio.2c00720' }
+  },
+  {
+    datum: '2026-09-01',
+    typ: 'Korrektur',
+    titel: 'BPC-157: Es wurde am Menschen geprüft – die Ergebnisse wurden nie veröffentlicht',
+    ziel: { view: 'experimental', id: 'bpc-157' },
+    text: 'Der Beleg zum BPC-157-Score sagte, die Datenlage bestehe aus Nagermodellen. Das war unvollständig und in einem wichtigen Punkt irreführend. Der kroatische Hersteller Pliva führte Phase-II-Studien (PL-14736) bei Colitis ulcerosa durch; berichtet werden positive Effekte ohne Toxizität, doch die vollständigen Daten wurden nie als eigenständige klinische Arbeit publiziert und sind deshalb nicht überprüfbar. Eine Phase-I-Studie an 42 Gesunden wurde 2016 abgebrochen. „Nie am Menschen versucht" und „versucht, Ergebnis nie veröffentlicht" sehen im Balkendiagramm gleich aus, sind aber zwei verschiedene Dinge – das zweite ist ein Warnzeichen und ein Hinweis zugleich. Ergänzt wurde außerdem der regulatorische Verlauf in den USA: FDA-Kategorie 2 im Jahr 2023 wegen Immunogenität und Verunreinigungen, Entfernung aus Kategorie 2 am 15. April 2026, und am 24. Juli 2026 eine knappe Empfehlung des Beratungsausschusses (8 zu 6) für Kategorie 1 – ausschließlich für Colitis ulcerosa, unverbindlich, und derzeit ohne legale Herstellungsmöglichkeit. Die Anwendungserfahrung steigt von 4 auf 5: jahrelange breite Anwendung in den USA, aber nie mit einer Zulassung in irgendeinem Land. Die Human-Evidenz bleibt bei 1. Anwendungserfahrung ist keine Evidenz – dieselbe Regel, die wir bei Selen anwenden, gilt hier auch. Neu ist zusätzlich ein Label: Statt „Nicht am Menschen untersucht" steht dort jetzt „Am Menschen geprüft, Ergebnisse unveröffentlicht". Das betrifft vorerst nur diesen Eintrag, und es ist die ehrlichere Aussage.',
+    quelle: { titel: 'FDA: Bulk Drug Substances That May Present Significant Safety Risks', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
+  },
+  {
+    datum: '2026-09-01',
+    typ: 'Korrektur',
+    titel: 'Selen: SELECT hat gut versorgte Männer untersucht – das stand nicht dabei',
+    ziel: { view: 'supplement', id: 'selen' },
+    text: 'Der Beleg zum Selen-Score nannte die SELECT-Studie als Widerlegung des Krebsschutzes, ohne die Population zu benennen – und las sich damit absoluter, als die Daten hergeben. Die SELECT-Teilnehmer waren bereits gut mit Selen versorgt, im Mittel 135 ng/ml Plasma-Selen. In der Vorgängerstudie NPC lag der Mittelwert bei 114, und der dort gefundene Schutzeffekt beschränkte sich auf Männer unter 123 ng/ml; 78 Prozent der SELECT-Teilnehmer lagen darüber. Geprüft wurde also, ob zusätzliches Selen bei ausreichender Versorgung nützt – nicht, ob Selen bei Mangel nützt. Für deutsche Leser ist das nicht egal: Europäische Böden sind selenarm, die geschätzte Zufuhr liegt unter den DGE-Referenzwerten von 70 Mikrogramm für Männer und 60 für Frauen. Am Score ändert sich nichts, denn bewertet ist die beworbene Aussage „Selen schützt vor Krebs", und die ist für gut Versorgte widerlegt. Ergänzt wurde außerdem der U-förmige Zusammenhang: Für gut Versorgte ist mehr Selen nicht neutral.',
+    quelle: { titel: 'Selenium and Prostate Cancer Prevention: Insights from SELECT (Nutrients 2013)', url: 'https://www.mdpi.com/2072-6643/5/4/1122' }
+  },
+  {
     datum: '2026-08-30',
     typ: 'Korrektur',
     titel: 'Erfahrungsberichte: BK-Score sichtbar, keine Sterne bei weitergegebenen Berichten',
