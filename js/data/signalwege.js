@@ -159,8 +159,6 @@ const SW_MAP = {
  "ll-37":[["nfkb","mod",0]],
  "aod-9604":[["gh","mod",0]],
  // ---------- Khavinson ----------
- "kh-epitalon":[["epi","mod",0],["circ","mod",0]],
- "kh-thymalin":[["epi","mod",0],["sen","mod",0]],
  "kh-pinealon":[["circ","mod",0]],
  // ---------- Behandlungen ----------
  "ihht":[["hif","up",1],["auto","up",1],["ampk","mod",1]],
