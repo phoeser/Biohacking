@@ -1902,6 +1902,45 @@ button { font-family: inherit; cursor: pointer; }
    nicht uebernimmt. Der Rahmen ist warm getoent, damit sie sich vom
    redaktionellen Teil abhebt - das ist auch die kennzeichnungsfreundliche
    Variante. */
+/* „Was berichtet wird": bewusst eine andere Formensprache als die Achsen –
+   kein Balken, kein Gruen, abgesetzter Rahmen statt Flaeche. Der Leser soll
+   auf den ersten Blick sehen, dass hier nicht gemessen, sondern beobachtet
+   wurde. */
+.sc-bericht {
+  margin: 14px 0 0; padding: 13px 15px;
+  border: 1px dashed var(--surface-border); border-radius: var(--radius);
+  background: transparent;
+}
+.sc-bericht-kopf {
+  display: flex; align-items: baseline; gap: 10px;
+  flex-wrap: wrap; margin-bottom: 7px;
+}
+.sc-bericht-titel {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--text-muted);
+}
+.sc-bericht-stufe {
+  font-size: 0.74rem; font-weight: 600; color: var(--text-dim);
+  border: 1px solid var(--surface-border); border-radius: 999px; padding: 2px 9px;
+}
+.sc-bericht--3 .sc-bericht-stufe { color: var(--text); border-color: var(--text-dim); }
+.sc-bericht-text { margin: 0; font-size: 0.86rem; line-height: 1.55; color: var(--text); }
+.sc-bericht-quellen {
+  margin: 7px 0 0; font-size: 0.74rem; color: var(--text-muted); font-style: italic;
+}
+.sc-bericht-fuss {
+  margin: 9px 0 0; padding-top: 8px; border-top: 1px solid var(--surface-border);
+  font-size: 0.72rem; line-height: 1.45; color: var(--text-muted);
+}
+
+.sc-richtung {
+  margin: 10px 0 0; padding: 10px 13px; border-radius: 10px;
+  font-size: 0.82rem; line-height: 1.5; color: var(--text);
+  border-left: 3px solid var(--text-muted); background: rgba(255,255,255,0.035);
+}
+.sc-richtung.is-negativ { border-left-color: #e96a6a; }
+.sc-richtung.is-offen   { border-left-color: #e0a44a; }
+
 .home-partner {
   margin-top: 32px;
   border: 1px solid rgba(255, 176, 66, 0.28);
