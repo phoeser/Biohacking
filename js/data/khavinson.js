@@ -15,49 +15,6 @@
 const KHAVINSON = [
   // ============ PINEAL & GEHIRN ============
   {
-    id: 'kh-epitalon',
-    name: 'Epitalon (Epithalon)',
-    altNames: 'AEDG · Ala-Glu-Asp-Gly · Epithalamin (Vorläufer)',
-    class: 'Tetrapeptid, Pineal-Bioregulator',
-    emoji: '🌙',
-    short: 'Das bekannteste Khavinson-Peptid. Aktiviert Telomerase, gilt als Anti-Aging-Klassiker der russischen Schule.',
-    moa: 'Bindet an Promotorbereiche von Telomerase-Reverse-Transkriptase (TERT) und Sirtuin-Genen, soll dadurch Telomerverlängerung und epigenetische Gen-Re-Aktivierung fördern. Beeinflusst Melatonin- und Cortisol-Rhythmus.',
-    benefits: [
-      'Verlängerte Telomere in vitro (Khavinson-Studien)',
-      'In Mausmodellen: bis +13% mittlere Lebenserwartung, reduzierte Tumorinzidenz',
-      'Verbesserter Schlaf-Wach-Rhythmus bei älteren Probanden',
-      'Erhöht antioxidative Enzyme (SOD, GPx, GST)'
-    ],
-    risks: [
-      'Datenlage fast ausschließlich aus russischen Studien – außerhalb Russlands begrenzt repliziert',
-      'Telomerase-Aktivierung theoretisch krebsfördernd – langfristige Sicherheit unklar',
-      'Bezugsqualität auf grauem Markt häufig fraglich',
-      'Keine FDA/EMA-Zulassung'
-    ],
-    status: 'Forschungspeptid. In DE/USA nicht verkehrsfähig.',
-    sources: [
-      { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & Telomerlänge', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
-      { title: 'Anisimov VN et al., Mech Ageing Dev 2003 – Lebensspanne in Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/12694675/' },
-      { title: 'Khavinson VK et al., Molecules 2020 – AEDG-Mechanismus (Neurogenese)', url: 'https://www.mdpi.com/1420-3049/25/3/609' }
-    ],
-    community: [
-      { title: 'Khavinson Peptides – Complete Guide (SeekPeptides)', url: 'https://www.seekpeptides.com/blog/articles/khavinson-peptides-complete-guide' }
-    ],
-    podcasts: [
-      {
-        title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck',
-        audio: 'audio/epitalon-podcast.mp3',
-        spotify: '3fwqZGKZCED0D8iimUNcnm',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 24) · mit Paul & Paula. Die Telomerase-Story: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig – kleine, unverblindete russische Studien. Plus die offene Krebsfrage bei einem Telomerase-Aktivator und der Melatonin-/Schlaf-Bezug. Reine Information, kein medizinischer Rat.',
-        sources: [
-          { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & Telomerlänge', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
-          { title: 'Al-Dulaimi et al., Biogerontology 2025 – unabhängige Replikation (Zellen)', url: 'https://link.springer.com/article/10.1007/s10522-025-10315-x' }
-        ]
-      }
-    ]
-  },
-  {
     id: 'kh-pinealon',
     name: 'Pinealon',
     altNames: 'EDR · Glu-Asp-Arg',
@@ -144,48 +101,6 @@ const KHAVINSON = [
     ],
     community: [
       { title: 'Khavinson Bioregulators – CalcMyPeptide', url: 'https://www.calcmypeptide.com/blog/khavinson-bioregulators-epithalon-guide' }
-    ]
-  },
-  {
-    id: 'kh-thymalin',
-    name: 'Thymalin / Thymogen',
-    altNames: 'EW · Glu-Trp (Thymogen) · Thymus-Polypeptid (Thymalin)',
-    class: 'Dipeptid (Thymogen) / Thymus-Extrakt (Thymalin)',
-    emoji: '🩻',
-    short: 'In Russland zugelassenes Immun-Medikament. Soll altersbedingten Thymus-Schwund teilweise ausgleichen.',
-    moa: 'Stimuliert T-Lymphozyten-Differenzierung, balanciert CD4/CD8-Verhältnis und steigert NK-Zellen. Reguliert Cytokine wie IL-2 und IFN-γ.',
-    benefits: [
-      'Russische Klinikstudien: bessere Immunabwehr bei Älteren & Chemotherapie-Patienten',
-      'Reduziert Infekt-Raten in Risikogruppen',
-      'In Long-COVID-Studien (Russland) positive Effekte berichtet',
-      'Gute Langzeit-Verträglichkeit dokumentiert'
-    ],
-    risks: [
-      'Allergische Reaktionen möglich',
-      'Bei aktiven Autoimmunerkrankungen Vorsicht',
-      'Studien überwiegend aus Russland, methodisch nicht immer westlichen Standards entsprechend',
-      'Keine westliche Zulassung'
-    ],
-    status: 'In RU zugelassen. In DE NICHT verkehrsfähig.',
-    sources: [
-      { title: 'Khavinson VK et al., Biogerontology 2020 – Thymalin & Immunseneszenz', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=thymalin+khavinson' },
-      { title: 'Khavinson VK et al. – Thymogen Glu-Trp Mechanismus', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=thymogen+glu+trp' }
-    ],
-    community: [
-      { title: 'Khavinson Bioregulators – CalcMyPeptide', url: 'https://www.calcmypeptide.com/blog/khavinson-bioregulators-epithalon-guide' }
-    ],
-    podcasts: [
-      {
-        title: 'Thymalin: Der Immun-Bioregulator im Faktencheck',
-        audio: 'audio/thymalin-podcast.mp3',
-        spotify: '6aB7vB9kwKPQsukNesmvMT',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom Militär-Auftrag in Leningrad zum Flaggschiff der Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov 2003). Plus die ehrliche Ost-West-Einordnung und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
-          { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
-          { title: 'Biology Bulletin Reviews 2021 – Thymalin-Review', url: 'https://link.springer.com/article/10.1134/S2079086421040046' }
-        ]
-      }
     ]
   },
 
@@ -309,49 +224,8 @@ const KHAVINSON = [
     ]
   },
   {
-    id: 'kh-bronchogen',
-    name: 'Bronchogen / Chonluten',
-    altNames: 'AEDL · Ala-Glu-Asp-Leu',
-    class: 'Tetrapeptid, Bronchial-/Lungen-Bioregulator',
-    emoji: '🫁',
-    short: 'Soll die Schleimhautregeneration in Bronchien und Lunge unterstützen – beworben bei COPD und chronischer Bronchitis.',
-    moa: 'Aktiviert epitheliale Zelldifferenzierung im Bronchialgewebe, soll mukoziliäre Clearance verbessern und chronische Entzündung dämpfen.',
-    benefits: [
-      'Beworben bei COPD, chronischer Bronchitis, Post-COVID-Lungenproblemen',
-      'In Tiermodellen: bessere Epithelregeneration nach Reizung',
-      'Soll Surfactant-Produktion stützen',
-      'Sehr gut verträglich in russischen Klinikstudien'
-    ],
-    risks: [
-      'Keine westlichen pneumologischen Studien',
-      'Bei akuten Atemwegsinfekten kein Ersatz für Antibiose/Bronchodilatatoren',
-      'Bezugsqualität fraglich',
-      'Keine Zulassung'
-    ],
-    status: 'Forschungspeptid. Nicht zugelassen.',
-    sources: [
-      { title: 'Khavinson VK – Bronchogen AEDL', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=bronchogen+OR+chonluten' },
-      { title: 'Khavinson VK et al., Adv Gerontol 2013', url: 'https://link.springer.com/article/10.1134/S2079057013030065' }
-    ],
-    community: [
-      { title: 'Bioregulator Peptides – Peptide Playbook', url: 'https://www.peptideplaybook.health/peptides/bioregulator-peptides' }
-    ],
-    podcasts: [
-      {
-        title: 'Bronchogen & Chonluten: Das Peptid-Duo für die Lunge',
-        audio: 'audio/bronchogen-chonluten-podcast.mp3',
-        spotify: '3b8emQB8ibdtFNCIXuiE7U',
-        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 29) · mit Paul & Paula. Das vergessene Biohacking-Organ Lunge: Chonluten (T-34) beruhigt die Atemwegs-Schleimhaut, Bronchogen baut auf (Flimmerepithel, Surfactant). Dazu, warum die Ein-Sekunden-Kapazität einer der besten Langlebigkeits-Marker ist. Evidenz überwiegend aus der russischen Khavinson-Schule, bei uns nicht zugelassen. Reine Information – Atemprobleme ärztlich abklären.',
-        sources: [
-          { title: 'Khavinson – Peptide bioregulators (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8619776/' }
-        ]
-      }
-    ]
-  },
-  {
     id: 'kh-testagen',
-    name: 'Testagen / Prostamax',
+    name: 'Testagen',
     altNames: 'KEDG · Lys-Glu-Asp-Gly · Prostamax-Komplex',
     class: 'Tetrapeptid, Prostata-/Testis-Bioregulator',
     emoji: '👨',
