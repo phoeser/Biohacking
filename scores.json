@@ -165,6 +165,7 @@
    "beleg": "Am Menschen gibt es kleine Studien mit Surrogatmarkern, keine Endpunktdaten; der NAD-Weg ist plausibel, die Anhebung im Gewebe aber schwach belegt. Sicherheitsdaten nur kurzfristig – und kaum ein Longevity-Produkt wird stärker überhöht.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viel berichtet, aber nichts Greifbares",
     "was": "Berichtet wird viel, aber fast durchweg unspezifisch: mehr Energie, besseres Wohlbefinden. Genau das ist die Kategorie von Beobachtung, die sich von Erwartung, Jahreszeit und Tagesform nicht trennen lässt. Die Berichte sind zahlreich und trotzdem schwach.",
     "quellen": "Anwenderkreise"
    }
@@ -344,6 +345,7 @@
    "beleg": "Einer der klarsten Fälle im Bestand: Die SELECT-Studie (Lippman et al., JAMA 2009) randomisierte 35.533 Männer über sieben Jahre auf den harten Endpunkt Prostatakrebs – kein Nutzen (HR 1,04). Spätere Auswertungen zeigten zusätzlich ein Diabetes-Risikosignal. Die Rolle als Kofaktor der Glutathionperoxidase ist unbestritten; der Sprung von dort zur Krebsprävention wurde in der größten je durchgeführten Studie widerlegt. EFSA aktualisierte 2023 die Obergrenze, das BfR 2024 die Höchstmengen. Beworben wird weiterhin Krebsschutz. Wichtig für die Einordnung: Die SELECT-Teilnehmer waren bereits gut versorgt (im Mittel 135 ng/ml Plasma-Selen); der Schutzeffekt der Vorgängerstudie NPC beschränkte sich auf Männer unter 123 ng/ml. Geprüft wurde also, ob mehr Selen bei ausreichender Versorgung nützt – nicht, ob Selen bei Mangel nützt. Da europäische Böden selenarm sind und die geschätzte Zufuhr hier unter den DGE-Referenzwerten liegen kann, ist dieser Unterschied für deutsche Leser relevant. Für gut Versorgte gilt zudem ein U-förmiger Zusammenhang: mehr ist dort nicht neutral.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Viele berichten Haut, Nägel, Energie",
     "was": "Auch hier wird viel Positives berichtet: Haut, Nägel, Schilddrüse, Energie. Diese Berichte stehen neben einer der größten je durchgeführten Präventionsstudien, die den beworbenen Nutzen nicht bestätigt hat. Genau diese Kombination ist der Grund, warum Berichtslage und Evidenz bei uns getrennt stehen – die eine ersetzt die andere nicht, in keine Richtung.",
     "quellen": "Anwenderkreise · Praxisberichte"
    }
@@ -405,6 +407,7 @@
    "beleg": "Ein systematisches Review (GeroScience 2023) führt 50 Studien über elf Organsysteme – für den beworbenen Schlafeffekt bleiben davon drei kleine Studien an Gesunden mit drei Gramm über zwei bis vier Nächte, die die Autoren selbst als \"small sample sizes with high risk of bias\" einstufen. Die Thermoregulation über Glycinrezeptoren ist physiologisch plausibel und in kleinen Polysomnographie-Studien angedeutet, in größeren RCTs nicht bestätigt. Langzeitdaten zur Dauereinnahme fehlen vollständig.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Schneller eingeschlafen, schon am Abend",
     "was": "Berichtet wird übereinstimmend ein schnelleres Einschlafen bei etwa drei Gramm vor dem Zubettgehen – ein akuter, am selben Abend bemerkbarer Effekt. Er deckt sich mit kleinen publizierten Schlafstudien, die genau das gemessen haben. Die Berichte stehen hier also nicht allein, sondern neben Daten in dieselbe Richtung.",
     "quellen": "Anwenderkreise · deckungsgleich mit kleinen publizierten Schlafstudien"
    }
@@ -472,6 +475,7 @@
    "beleg": "Der einzige Cochrane-Review sichtete 108 Studien und ließ davon zwei zu – mit zusammen 64 Patienten. Das Ergebnis (Peto OR 4,10) klingt stark, die Autoren selbst halten die Evidenzqualität für unzureichend. Dazu kommt, dass die zugrunde liegende Serotoninmangel-Theorie der Depression durch eine Umbrella-Review (Moncrieff et al., Mol Psychiatry 2022) infrage gestellt wird. Sicherheitsseitig belastet die EMS-Epidemie 1989 durch kontaminierte Chargen die Substanzklasse bis heute; das Serotonin-Syndrom-Risiko mit SSRI ist dokumentiert.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Schneller Schlaf, sehr lebhafte Träume",
     "was": "Übereinstimmend berichtet werden schnelleres Einschlafen und auffällig lebhafte Träume, meist schon in der ersten Nacht. Der akute Zeitverlauf passt zum Mechanismus als direkte Serotonin-Vorstufe. Ebenso regelmäßig berichtet wird die Kehrseite: Übelkeit und, bei gleichzeitiger Einnahme serotonerger Medikamente, Warnzeichen bis hin zum Serotoninsyndrom.",
     "quellen": "Anwenderkreise"
    }
@@ -491,6 +495,7 @@
    "beleg": "Das systematische Review (Ishaque et al., BMC Complement Altern Med 2012) fasst 11 Studien mit rund 446 Teilnehmern zusammen: Bei körperlicher Erschöpfung waren zwei von sechs Studien positiv, bei mentaler drei von fünf – und keine einzige erfüllte die CONSORT-Kriterien. Das Fazit der Autoren lautet wörtlich, die Evidenz reiche nicht aus, um die Wirksamkeit zu beurteilen. Das Adaptogen-Konzept selbst, eine Modulation der HPA-Achse, stammt aus Tierstudien und ist am Menschen nicht bestätigt.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Gegen Erschöpfung, binnen Stunden",
     "was": "Übereinstimmend berichtet wird ein am selben Tag spürbarer Effekt gegen Erschöpfung, oft binnen ein bis zwei Stunden. Die kurze Latenz spricht gegen einen reinen Erwartungseffekt über Wochen. Sie ersetzt aber keine Kontrolle: Müdigkeit schwankt ohnehin stark, und niemand vergleicht sich mit sich selbst ohne Einnahme.",
     "quellen": "Anwenderkreise"
    }
@@ -524,6 +529,7 @@
    "beleg": "Die Neurogenese-Erzählung ist der eigentliche Befund: Die NGF-Stimulation ist in Zellkultur und Tier gut dokumentiert, am Menschen wurde sie nie gemessen. Die beste Humanstudie ist eine randomisierte Pilotstudie mit 41 gesunden Erwachsenen über 28 Tage (Nutrients 2023) – schnellere Reaktion im Stroop-Test (p = 0,005), aber gleichzeitig schlechterer sofortiger Wortabruf und nur ein nicht signifikanter Stress-Trend (p = 0,051). Die Autoren mahnen selbst zur Vorsicht. Über Wochen hinaus gibt es keine Sicherheitsdaten.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Fokus – oder emotionale Abflachung",
     "was": "Die Berichte gehen in beide Richtungen, und beide Seiten sind verbreitet. Positiv: Konzentration, Wortfindung, Nervenregeneration nach mehreren Wochen. Negativ: eine hartnäckige Häufung von Berichten über emotionale Abflachung und Libidoverlust, die teils nach dem Absetzen anhalten soll. Bemerkenswert ist, dass diese zweite Gruppe in der publizierten Literatur nicht auftaucht – eine systematische Übersicht von 2025 listet als Nebenwirkungen Magenbeschwerden, Kopfschmerz und allergische Reaktionen, die berichtete Abflachung dagegen nicht. Das macht die Berichte nicht falsch; es heißt, dass bisher niemand danach gesucht hat.",
     "quellen": "Anwenderkreise · systematische Übersicht Frontiers in Nutrition 2025 (Nebenwirkungsteil)"
    }
@@ -613,6 +619,7 @@
    "beleg": "Die Schwachstelle liegt schon vor der Wirkung: Oral aufgenommenes Glutathion wird im Darm überwiegend in seine Aminosäuren zerlegt, bevor es intakt ankommt – die Grundannahme der gesamten Vermarktung, Schlucken erhöhe den Zellspiegel, ist am Menschen nicht überzeugend gezeigt. Die vorhandenen systematischen Reviews zur Hautaufhellung fassen kleine, kurze, methodisch schwache Studien zusammen. Für Entgiftung, Immunstärkung und Anti-Aging existiert keine belastbare Humanevidenz. Langzeitdaten zur oralen Einnahme fehlen.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Intravenös hellt es die Haut auf",
     "was": "Hier ist zu trennen. Oral berichtete Wirkungen sind unspezifisch und wenig aussagekräftig. Für die intravenöse Anwendung dagegen gibt es einen sehr spezifischen, vielfach berichteten Effekt – eine Aufhellung der Haut –, der so verlässlich eintritt, dass Arzneimittelbehörden mehrerer Länder ausdrücklich davor gewarnt haben. Dass etwas passiert, ist damit belegt. Dass es erwünscht oder unbedenklich ist, nicht.",
     "quellen": "Anwenderkreise · Warnhinweise nationaler Arzneimittelbehörden"
    }
@@ -868,6 +875,7 @@
    "beleg": "Die entscheidende Frage ist ungeklärt: Ob orales GABA die Blut-Hirn-Schranke überhaupt in relevanter Menge passiert, ist am Menschen nicht belegt – genau das setzt die Werbung aber voraus, wenn sie eine Beruhigung des Gehirns verspricht. Ein systematisches Review (Frontiers in Neuroscience 2020) über 14 Studien nennt die Evidenz für Stressreduktion begrenzt und die für Schlafverbesserung sehr begrenzt. Als Alternativerklärung wird der Umweg über das enterische Nervensystem diskutiert, ebenfalls unbestätigt. Für Wachstumshormon oder Muskelaufbau gibt es nichts.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Entspannung in 30 Minuten – nur anders",
     "was": "Ein aufschlussreicher Fall: Viele berichten binnen 20 bis 30 Minuten Wärmegefühl, Kribbeln und Entspannung – spezifisch genug, um ernst genommen zu werden. Zugleich gilt als weitgehend gesichert, dass GABA die Blut-Hirn-Schranke kaum überwindet. Beides zusammen legt nahe, dass der berichtete Effekt real ist, aber anders zustande kommt als beworben – etwa über Rezeptoren im Darm. Die Berichte sagen hier: da passiert etwas. Nicht: die Erklärung stimmt.",
     "quellen": "Anwenderkreise"
    }
@@ -1005,6 +1013,7 @@
    "beleg": "Der einzige Eintrag im Bestand ohne eine einzige Humanstudie: Die verfügbaren Übersichten stellen ausdrücklich fest, dass bis heute keine durchgeführt wurde. Sämtliche Testosteron- und Libidoversprechen stützen sich auf Rattenstudien – und genau dort liegt auch das Sicherheitssignal: Yakubu et al. (J Ethnopharmacol 2007) sahen nach fünf Tagen einen Testosteronanstieg, bei längerer Gabe über etwa einen Monat dagegen Hinweise auf Hodenschädigung. In der EU läuft seit Juni 2025 ein Novel-Food-Konsultationsverfahren; ein zugelassener Status besteht nicht.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Libido steigt, alle aus einer Quelle",
     "was": "Nach der Empfehlung in einem großen Podcast entstand binnen Monaten eine breite Anwenderbasis, die übereinstimmend gesteigerte Libido berichtet, meist innerhalb weniger Tage. Die Berichte sind zahlreich – unabhängig voneinander sind sie aber nicht, denn sie entstanden nahezu alle nach derselben Quelle. Auf der Risikoseite gibt es umgekehrt keine menschlichen Berichte, sondern Tierstudien mit Hodenschäden bei längerer Gabe. Der Nutzen wird berichtet, der Schaden nur vermutet.",
     "quellen": "Anwenderkreise (überwiegend nach einer gemeinsamen Empfehlungsquelle)"
    }
@@ -1080,6 +1089,7 @@
    "beleg": "Es existiert genau eine kontrollierte Humanstudie mit funktionellen Endpunkten: 48 Teilnehmer über acht Wochen (Nutrients 2025) mit Verbesserungen bei Bankdrücken, Kniebeuge und Maximalkraft sowie bei Testosteron und Cortisol – unrepliziert und klein. Beworben wird Cistanche dagegen für Libido und Langlebigkeit, also für etwas, das diese Studie gar nicht untersucht hat. Systematische Human-Toxizitätsdaten fehlen; die lange Verwendung in der traditionellen chinesischen Medizin ersetzt keine Sicherheitsstudie.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Libido, aber uneinheitlich und spät",
     "was": "Berichtet wird überwiegend gesteigerte Libido, allerdings deutlich weniger einheitlich als bei anderen Stoffen mit derselben Bewerbung und meist erst nach Wochen. Der lange Zeitraum macht die Zuordnung schwach.",
     "quellen": "Anwenderkreise"
    }
@@ -1147,6 +1157,7 @@
    "beleg": "Hier steht die Rechtslage vor der Evidenzfrage: Lithium ist in Deutschland und der EU kein zugelassener Nährstoff für Nahrungsergänzungsmittel und steht nicht auf der Positivliste – die Verbraucherzentrale weist ausdrücklich darauf hin. Inhaltlich stützt sich die Longevity-Erzählung auf ökologische Korrelationen zwischen Lithiumgehalt im Trinkwasser und Suizidraten auf Bevölkerungsebene, nicht auf Interventionsstudien. Für therapeutisches Lithiumcarbonat ist die Wirkung bei bipolarer Störung gut belegt – bei enger therapeutischer Breite und ärztlicher Spiegelkontrolle.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Weniger Reizbarkeit, binnen Tagen",
     "was": "Berichtet wird übereinstimmend eine Dämpfung von Reizbarkeit und Gedankenkreisen in niedriger Dosierung, oft innerhalb weniger Tage. Für Lithium in therapeutischer Dosis ist eine Stimmungswirkung unbestritten; offen ist, ob die hier üblichen Mengen – ein Bruchteil davon – dasselbe tun. Die Berichte behaupten es, geprüft wurde es nicht.",
     "quellen": "Anwenderkreise"
    }
@@ -1327,6 +1338,7 @@
    "belegLuecke": "unveroeffentlicht",
    "berichtslage": {
     "stufe": 3,
+    "kurz": "Heilung an Sehnen, seit Jahren gemeldet",
     "was": "Seit Jahren übereinstimmend aus mehreren unabhängigen Kreisen: Sport- und Reha-Praxen in den USA, behandelnde Ärzte, Anwender. Berichtet wird konsistent eine beschleunigte Heilung an Sehnen, Bändern und im Darm – eine auf ein Gewebe bezogene, spezifische Beobachtung, kein allgemeines Wohlbefinden. Das ist der Grund, warum die Substanz trotz fehlender veröffentlichter Studien so verbreitet ist.",
     "quellen": "Sport- und Reha-Praxen USA · behandelnde Ärzte · Anwenderkreise"
    }
@@ -1346,6 +1358,7 @@
    "beleg": "Die Humandaten betreffen Thymosin Beta-4 in klinischen Ansätzen, nicht das gehandelte Fragment; kontrollierte Studien zum Research-Produkt fehlen. Sicherheit unerforscht, Vermarktung als Regenerations-Wundermittel.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Heilung – nie allein angewendet",
     "was": "Die Berichte ähneln denen zu BPC-157 – beschleunigte Heilung an Sehnen und Bändern – und stammen weitgehend aus demselben Umfeld. Genau darin liegt ihre Schwäche: TB-500 wird fast immer zusammen mit BPC-157 angewendet. Die Berichte können deshalb nicht trennen, welcher der beiden Stoffe wirkt, falls einer wirkt. Verbreitet und übereinstimmend ja, zuordenbar nein.",
     "quellen": "Anwenderkreise · Sport- und Reha-Umfeld USA"
    }
@@ -1385,6 +1398,7 @@
    "beleg": "Zu den Einzelsubstanzen existieren ältere pharmakologische Humandaten, zur beliebten Kombination praktisch keine. Der Weg über GHRH- und Ghrelin-Rezeptor ist verstanden, die Auszahlung nicht belegt.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Tieferer Schlaf, IGF-1 messbar hoch",
     "was": "Übereinstimmend berichtet werden tieferer Schlaf in den ersten Wochen, Wassereinlagerung und ein Kribbeln in den Händen. Dazu kommt ein Punkt, der über Gefühl hinausgeht: ein Anstieg des IGF-1 im Blutbild, den viele Anwender selbst messen lassen. Dass die Hormonachse anspringt, ist damit gut belegt. Ob daraus der beworbene Nutzen folgt, ist eine andere Frage – und die ist offen.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen"
    }
@@ -1418,6 +1432,7 @@
    "beleg": "Das einzige Peptid der Gruppe mit einer unabhängigen Bestätigung – aber nur in der Petrischale: Al-Dulaimi et al. (Biogerontology 2025, Brunel University London, ohne Chawinson als Autor) zeigten in menschlichen Zelllinien eine dosisabhängige Telomerverlängerung. Die Originalarbeit (Chawinson et al., Bull Exp Biol Med 2003) war ebenfalls Zellkultur an fetalen Fibroblasten. Eine begutachtete Studie, in der beim lebenden Menschen die Telomerlänge nach Gabe gemessen wurde, existiert nicht; die im Netz kursierende Aussage dazu stammt aus einer unveröffentlichten Vortragsfolie. Beworben wird die Telomerverlängerung gleichwohl als Verjüngung.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -1479,7 +1494,7 @@
    "beleg": "Die Substitution bei diagnostiziertem Hypogonadismus ist seit Jahrzehnten zugelassen und die Wirkkette am Menschen zweifelsfrei belegt – die Frage ist, wer behandelt wird. Die TRAVERSE-Studie (Lincoff et al., NEJM 2023) randomisierte 5.246 Männer über im Mittel 27 Monate: kardiovaskulär nicht unterlegen, aber mehr Vorhofflimmern (91 gegen 63 Fälle) und mehr akutes Nierenversagen. Das BfArM wies 2025 auf die stark steigende Verordnungshäufigkeit hin, die teils außerhalb der Zulassung erfolgt. Für Männer mit niedrig-normalen Werten ohne Diagnose gibt es keine Zulassungsstudie.",
    "berichtslage": {
     "stufe": 3,
-    "kurz": "Klare Effekte — auch ohne nachgewiesenen Mangel",
+    "kurz": "Klare Effekte, auch ohne belegten Mangel",
     "was": "Kaum ein Thema hat so einheitliche Berichte: mehr Antrieb, bessere Stimmung, mehr Libido, oft schon nach zwei bis drei Wochen. Das ist spezifisch, kurzfristig und glaubwuerdig — und es deckt sich mit der Studienlage, denn bei diagnostiziertem Mangel ist die Wirkung unbestritten. Der Haken liegt woanders: Dieselben Effekte werden auch von Maennern mit normalen Ausgangswerten berichtet, und fuer genau diese Gruppe gibt es keine Zulassungsstudie. Die Berichte belegen hier also, dass der Stoff wirkt — nicht, dass die Behandlung angezeigt war. Das ist der Unterschied, den die Werbung verwischt.",
     "quellen": "Anwenderkreise · Praxisberichte · deckungsgleich mit der Studienlage"
    }
@@ -1527,6 +1542,7 @@
    "beleg": "Das ursprünglich zugelassene Präparat wurde vom Markt genommen; die US-Behörde stellte 2013 ausdrücklich fest, dass dies nicht aus Sicherheits- oder Wirksamkeitsgründen geschah. Die alten Zulassungsdaten betreffen die pädiatrische Diagnostik, nicht die heute beworbene Anti-Aging-Anwendung bei Erwachsenen – dafür wurde keine belastbare aktuelle Humanevidenz gefunden. Die physiologische, pulsatile Stimulation ist am Menschen bestätigt. Seit dem Marktrückzug gibt es keine laufende Pharmakovigilanz.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Tieferer Schlaf, IGF-1 messbar hoch",
     "was": "Wie in der ganzen Gruppe der GH-Sekretagoga: übereinstimmend berichtet werden tieferer Schlaf und Wassereinlagerung in den ersten Wochen, dazu ein im Blutbild messbarer IGF-1-Anstieg. Belegt ist damit, dass die Hormonachse reagiert – nicht, dass daraus der beworbene Nutzen folgt.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen"
    }
@@ -1546,6 +1562,7 @@
    "beleg": "Es gibt genau eine publizierte kontrollierte Humanstudie: Teichman et al. (J Clin Endocrinol Metab 2006) zeigten an Gesunden nach Einzeldosen über mehrere Tage anhaltend erhöhte Wachstumshormon- und IGF-1-Spiegel. Weitere unabhängige Studien wurden nicht gefunden, die Entwicklung wurde eingestellt, eine Zulassung gab es nie. Was daraus für den Dauergebrauch folgt – insbesondere für dauerhaft erhöhtes IGF-1 – ist nicht untersucht. In Deutschland kein verkehrsfähiges Arzneimittel, auf der WADA-Verbotsliste.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Tieferer Schlaf, IGF-1 messbar hoch",
     "was": "Wie in der ganzen Gruppe der GH-Sekretagoga: übereinstimmend berichtet werden tieferer Schlaf und Wassereinlagerung in den ersten Wochen, dazu ein im Blutbild messbarer IGF-1-Anstieg. Belegt ist damit, dass die Hormonachse reagiert – nicht, dass daraus der beworbene Nutzen folgt.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen"
    }
@@ -1565,6 +1582,7 @@
    "beleg": "Zu dieser konkreten Verbindung wurden keine eigenen Humanstudien gefunden. Die gesamte Wirkannahme wird aus älteren Daten zu Sermorelin und anderen GHRH-Fragmenten abgeleitet, die diese Modifikation gar nicht tragen – das ist eine Übertragung, kein Beleg. Sicherheitsdaten am Menschen existieren nicht. In Deutschland Forschungschemikalie ohne Arzneimittelstatus. Die zugehörige Podcastfolge wurde aus dem Bestand genommen, weil das Thema in einer späteren Folge sauberer behandelt wurde.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Tieferer Schlaf, IGF-1 messbar hoch",
     "was": "Wie in der ganzen Gruppe der GH-Sekretagoga: übereinstimmend berichtet werden tieferer Schlaf und Wassereinlagerung in den ersten Wochen, dazu ein im Blutbild messbarer IGF-1-Anstieg. Belegt ist damit, dass die Hormonachse reagiert – nicht, dass daraus der beworbene Nutzen folgt.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen"
    }
@@ -1584,6 +1602,7 @@
    "beleg": "In Japan existiert eine Zulassung – aber als Diagnostikum für den Wachstumshormon-Stimulationstest, also für eine einmalige Gabe unter ärztlicher Aufsicht. Genau darauf beziehen sich auch die älteren pharmakologischen Studien. Für die beworbene Daueranwendung zu Muskelaufbau und Fettabbau wurde keine belastbare Humanevidenz gefunden. Dass die Substanz akut Wachstumshormon freisetzt, ist bestätigt; dass daraus über Monate ein Nutzen entsteht, nicht. In Deutschland nicht zugelassen, WADA-Verbotsliste.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Tieferer Schlaf, kaum Hungerschub",
     "was": "Wie in der ganzen Gruppe der GH-Sekretagoga: übereinstimmend berichtet werden tieferer Schlaf, Wassereinlagerung und ein im Blutbild messbarer IGF-1-Anstieg. Der bei GHRP-6 typische Hungerschub wird hier deutlich seltener berichtet – ein Unterschied, den Anwender konsistent beschreiben.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen"
    }
@@ -1603,6 +1622,7 @@
    "beleg": "Die einzige auffindbare Humanstudie ist eine kubanische Phase-I-Dosisfindung an 18 gesunden Männern: 23 unerwünschte Ereignisse bei 12 Probanden, keine schwerwiegenden – aber auch keine Wirksamkeitsendpunkte für Muskelaufbau oder Longevity. Publiziert in einer nicht international referenzierten Zeitschrift. Eine kleine Verträglichkeitsstudie ist kein Beleg für eine sichere Dauerkur. Keine Zulassung in irgendeinem Land, in Deutschland Forschungschemikalie, WADA-Verbotsliste.",
    "berichtslage": {
     "stufe": 3,
+    "kurz": "Heftiger Hunger binnen Minuten",
     "was": "Ein Effekt wird nahezu ausnahmslos berichtet: ein heftiger Hungerschub binnen Minuten nach der Injektion. Er ist dosisabhängig, zeitlich eng an die Gabe gekoppelt und passt exakt zum Mechanismus am Ghrelin-Rezeptor. Spezifischer kann eine Anwenderbeobachtung kaum sein. Über den beworbenen Nutzen – Muskelaufbau, Regeneration – sagt sie allerdings nichts.",
     "quellen": "Anwenderkreise · deckungsgleich mit dem bekannten Mechanismus"
    }
@@ -1664,6 +1684,7 @@
    "beleg": "Es gibt gute Humanphysiologie – nur nicht zu dem, wofür geworben wird: Studien der Gruppe am Imperial College, zuletzt eine randomisierte Crossover-Studie mit 95 gesunden Probanden (J Clin Endocrinol Metab 2025), bestätigen einen robusten LH-Anstieg unter kontrollierter Infusion, fanden aber keinen Effekt auf Angst, Cortisol, Blutdruck oder Herzfrequenz. Für die beworbene Libido- und Fertilitätsoptimierung im Alltag wurde nichts gefunden. Zur chronischen Selbstanwendung existieren keinerlei Daten.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Wenige Berichte, kein Muster",
     "was": "Es gibt Berichte über gesteigerte Erregbarkeit kurz nach der Anwendung, aber wenige – die Anwenderbasis ist klein. Für ein Muster reicht das nicht.",
     "quellen": "vereinzelte Anwenderberichte"
    }
@@ -1837,6 +1858,7 @@
    "beleg": "Die belastbarste veröffentlichte Studie ist zwanzig Jahre alt: Astrup et al. (Lancet 2008) zeigten über rund 24 Wochen eine dosisabhängige Gewichtsreduktion von 4,5 bis 10,6 Prozent. Neuere Phase-III-Ergebnisse existieren laut Herstellerangaben, sind aber nicht als begutachtete Vollpublikation auffindbar – die Werbung stützt sich damit auf Pressemitteilungen. Die Substanz wurde ursprünglich gegen Alzheimer entwickelt und dort wegen Nebenwirkungen aufgegeben; Herzfrequenz- und Blutdruckanstieg waren früh dosislimitierend. In Deutschland nicht zugelassen.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Appetit weg, oft am ersten Tag",
     "was": "Übereinstimmend berichtet wird eine deutliche Appetitdämpfung, häufig schon am ersten Tag. Das deckt sich mit der publizierten Phase-II-Studie und mit dem Wirkmechanismus als Wiederaufnahmehemmer – ein rasch spürbarer Effekt ist hier zu erwarten und kein Rätsel.",
     "quellen": "Anwenderkreise · deckungsgleich mit publizierter Studienlage"
    }
@@ -1870,6 +1892,7 @@
    "beleg": "Wichtig zur Einordnung: Hier steht nicht „geprüft und widerlegt\", sondern „nicht geprüft\". Es wurden keine Humanstudien gefunden, ausschließlich Nagetierarbeiten, in denen der synthetische ERR-Agonist eine akute Trainingsantwort auslöst – bereits eine Stunde nach Gabe, nicht erst nach Wochen. Ein rasch spürbarer Effekt widerspricht dem Mechanismus also nicht. Entscheidend ist die Dosis: Die Mausarbeiten verwendeten 50 mg/kg intraperitoneal; allometrisch umgerechnet entspräche die dort wirksame Tagesmenge beim 80-Kilo-Menschen rund 650 mg. In der Anwendung berichtet werden 250 Mikrogramm bis 1,5 mg subkutan – also etwa ein Tausendstel davon. Für die oralen Tabletten kommt hinzu, dass die orale Bioverfügbarkeit schlecht ist; dieselbe Arbeitsgruppe entwickelte deshalb den Nachfolger SLU-PP-915 mit besserer oraler Wirksamkeit. Eine bestätigte Wirkkette beim Menschen existiert nicht, ebenso wenig Sicherheitsdaten. Der Abstand zwischen dem, was gezeigt wurde – eine Maus, die ohne zu laufen Ausdauergene hochreguliert – und dem, was verkauft wird, ist so groß wie im gesamten Bestand selten.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Ausdauer messbar besser, Dosis unklar",
     "was": "Übereinstimmend berichtet wird ein rasch spürbarer Ausdauereffekt, teilweise an eigenen Zeiten gemessen. Das ist eine objektive Beobachtung und kein reines Gefühl, und ein schneller Effekt passt zum Mechanismus – im Tierversuch trat er bereits eine Stunde nach Gabe auf. Offen bleibt die Zuordnung: Die angewendeten Mengen liegen rund tausendfach unter der dort wirksamen Dosis.",
     "quellen": "Anwenderkreise · Selbstmessungen"
    }
@@ -1973,6 +1996,7 @@
    "beleg": "Der Widerspruch ist so scharf wie nirgends sonst im Bestand: Beworben wird die Substanz als nebenwirkungsarme Alternative zu Anabolika – kontrollierte Wirksamkeitsstudien am Menschen wurden nicht gefunden, und die einzigen publizierten Humandaten sind Schadensfälle. Dokumentiert sind mehrere Fallberichte zu Leberschädigung, darunter einer im Journal of Medical Case Reports 2023, sowie ein Fall arterieller Thrombose. Die US-Behörde warnt für die gesamte SARM-Klasse vor Leberversagen, Herzinfarkt, Schlaganfall und Infertilität. Kein zugelassenes Arzneimittel, Doping-relevant.",
    "berichtslage": {
     "stufe": 3,
+    "kurz": "Muskeln rauf, Testosteron runter",
     "was": "Berichtet wird übereinstimmend und in beide Richtungen. Auf der Wirkungsseite Kraft- und Muskelzuwachs innerhalb weniger Wochen, häufig mit eigenen Trainingsprotokollen unterlegt. Auf der Schadensseite eine unterdrückte körpereigene Testosteronproduktion, die sich im Blutbild nachmessen lässt, und publizierte Fallberichte über schwere Leberschäden. Beide Seiten sind spezifisch und messbar – das hebt diese Berichtslage deutlich über allgemeines Erfahrungsgefühl.",
     "quellen": "Anwenderkreise · Blutbild-Selbstmessungen · publizierte Fallberichte (Journal of Medical Case Reports 2023)"
    }
@@ -2006,6 +2030,7 @@
    "beleg": "Die vorhandenen Studien sind klein und stammen fast vollständig aus russischsprachigen Fachzeitschriften: Zozulia et al. 2008 verglich bei 62 Patienten mit Angststörung Selank gegen Medazepam, Medvedev et al. 2014/2015 gegen Phenazepam. Verglichen wurde also gegen ein Benzodiazepin, nicht gegen Placebo – ein Design, das Wirksamkeit nicht beweisen kann. Eine unabhängige westliche Replikation wurde nicht gefunden. Die zugrunde gelegte GABA-Modulation stammt aus Tiermodellen. Systematische Sicherheitsdaten fehlen; in Deutschland kein zugelassenes Arzneimittel.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Angstlösend binnen Minuten",
     "was": "Wie bei Semax wird ein binnen Minuten nach der Nasenanwendung spürbarer Effekt berichtet, hier angstlösend und ohne Sedierung. Die Berichte stammen aus demselben eng vernetzten Kreis und aus russischer klinischer Anwendung, deren Publikationen westlichen Standards nicht genügen.",
     "quellen": "Anwenderkreise · russische klinische Anwendung"
    }
@@ -2025,6 +2050,7 @@
    "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 und 2005 mit 30 Patienten nach ischämischem Schlaganfall, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Wach und fokussiert binnen Minuten",
     "was": "Übereinstimmend berichtet wird ein binnen Minuten nach der Nasenanwendung spürbarer Effekt auf Wachheit und Fokus. Die kurze Latenz ist das Belastbare daran. Die Berichte stammen allerdings aus einem eng vernetzten Kreis, und ein Vergleich mit einem Placebo-Spray fehlt vollständig. In Russland gibt es jahrzehntelange klinische Anwendung, deren Publikationen westlichen Standards nicht genügen.",
     "quellen": "Anwenderkreise · russische klinische Anwendung"
    }
@@ -2120,6 +2146,7 @@
    "beleg": "Die Evidenz ist alt und klein: Von 19 Publikationen zwischen 1981 und 2014 sind die relevanten kontrollierten Arbeiten über dreißig Jahre alt – Bes et al. 1992 mit 16 Patienten mit chronischer Schlaflosigkeit im Doppelblinddesign, dazu Polysomnographie-Studien von Monti 1987. Danach kam praktisch nichts mehr; zu einer Zulassung führte es nirgends. Der molekulare Wirkmechanismus beim Menschen ist nicht geklärt. Eine moderne systematische Sicherheitsprüfung existiert nicht.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Die Hälfte merkt gar nichts",
     "was": "Die Berichte sind auffällig uneinheitlich: Ein Teil beschreibt tieferen Schlaf, ein ähnlich großer Teil gar keinen Effekt. Bei einem Stoff, der ausdrücklich als Schlafpeptid verkauft wird, ist diese Streuung selbst die Aussage.",
     "quellen": "Anwenderkreise"
    }
@@ -2237,6 +2264,7 @@
    "beleg": "Keine Zulassungsstudie, aber eine ungewöhnlich dichte Sammlung von Schadensberichten: publizierte Fälle zu Melanomen und neu aufgetretenen atypischen Muttermalen unter Melanotan-2-Gebrauch, unter anderem im British Journal of Dermatology 2011, in JAAD Case Reports und im Irish Medical Journal 2013. Ob die Substanz Melanome verursacht, ist wissenschaftlich ungeklärt – die Assoziation mit Pigmentveränderungen ist gut dokumentiert. Behörden in Großbritannien, den USA, Dänemark, Irland und Norwegen haben zwischen 2007 und 2009 gewarnt. Reine Schwarzmarktsubstanz.",
    "berichtslage": {
     "stufe": 3,
+    "kurz": "Bräunung sicher – und Muttermale",
     "was": "An der Wirkung besteht kein Zweifel: Bräunung ohne Sonne, dazu Übelkeit, Flush und weitere melanokortin-typische Effekte – spezifisch, sichtbar, vielfach unabhängig berichtet. Dieselbe Berichtslage umfasst aber auch die unangenehme Seite: publizierte Fallberichte zu Melanomen und neu aufgetretenen atypischen Muttermalen. Berichte zeigen hier in beide Richtungen, und beide zählen.",
     "quellen": "Anwenderkreise · publizierte Fallberichte in dermatologischen Zeitschriften"
    }
@@ -2368,6 +2396,7 @@
    "beleg": "Eine dedizierte Wirksamkeitsstudie am Menschen wurde nicht gefunden. Was die Datenbanken liefern, ist bezeichnend: eine Publikation zur Dopinganalytik (Drug Test Anal 2012) und zwei Übersichtsarbeiten aus der Sport- und Schmerzmedizin, die die Substanz unter aufkommenden Peptiden führen, ohne eine abgeschlossene Humanstudie vorweisen zu können. Die Wirkung über Aktinbindung und Zellmigration stammt aus Zell- und Tiermodellen. Auf der WADA-Verbotsliste – was regulatorische Aufmerksamkeit anzeigt, nicht Sicherheit belegt.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Heilung – nie allein angewendet",
     "was": "Dieselbe Berichtslage wie bei TB-500, dessen Wirkfragment es ist: Heilungsberichte an Sehnen und Bändern, fast immer in Kombination mit BPC-157 angewendet. Was davon worauf zurückgeht, lässt sich aus den Berichten nicht ablesen.",
     "quellen": "Anwenderkreise · Sport- und Reha-Umfeld USA"
    }
@@ -2387,6 +2416,7 @@
    "beleg": "In Russland seit Sowjetzeiten als Arzneimittel registriert, mit Publikationen fast ausschließlich aus der Gruppe um Wladimir Chawinson in St. Petersburg – eine unabhängige, nicht-russische Replikation wurde nicht gefunden. Die Grundlage der Langlebigkeitsbehauptung ist eine einzige Arbeit: Chawinson & Morozow (Neuro Endocrinol Lett 2003) beobachteten 266 ältere Menschen über sechs bis acht Jahre und berichteten eine zwei- bis vierfach reduzierte Sterblichkeit. Randomisierungsverfahren, Verblindung, Ein- und Ausschlusskriterien sowie die Erfassung der Sterbefälle sind nicht nachvollziehbar beschrieben; die Arbeit wurde seit 2003 nur wenige Male zitiert und nie repliziert. Die Studie zu menschlichen Stammzellen von 2020 ist trotz des Titels eine Zellkulturarbeit. Systematische Sicherheitsdaten fehlen.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2406,6 +2436,7 @@
    "beleg": "Zu Bronchogen wurden ausschließlich Tier-, Zell- und sogar Pflanzenstudien gefunden – zur DNA-Thermostabilität, zu Rattenmodellen der chronisch obstruktiven Lungenerkrankung, zu Organkulturen. Zu Chonluten existiert eine Zellkulturarbeit an menschlichen Monozyten (Int J Mol Sci 2022), an der Chawinson selbst als Ko-Autor beteiligt ist. Eine klinische Studie am lebenden Menschen wurde für keines der beiden gefunden, systematische Sicherheitsdaten existieren nicht. In Deutschland ist keines der beiden als Arzneimittel zugelassen oder als Novel Food genehmigt. Der Sprung von der Petrischale zum Anti-Aging-Versprechen für die Atemwege überspringt die gesamte klinische Zwischenstufe.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2425,6 +2456,7 @@
    "beleg": "Was als Humanevidenz gilt, sind zytogenetische Laborbefunde an entnommenen Zellen: Arbeiten der Tifliser Gruppe zu Chromatin- und Heterochromatinveränderungen in Lymphozyten älterer Menschen (Biofizika 2004, Georgian Medical News 2009 und 2012). Eine klinische Studie an Prostatapatienten mit einem klinischen Endpunkt – PSA-Wert, Beschwerden, Miktionsparameter – wurde nicht gefunden. Damit beruht die beworbene Prostatagesundheit auf Chromatin-Assays an isolierten Blutzellen. Klinische Sicherheitsdaten existieren nicht.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2486,6 +2518,7 @@
    "beleg": "Die auffindbaren Humanarbeiten stammen aus der Chawinson-Gruppe und sind arbeitsmedizinische Beobachtungen ohne erkennbare Kontrollgruppe, etwa an Lkw-Fahrern. Eine kontrollierte klinische Studie wurde nicht gefunden, ebenso wenig eine unabhängige Replikation. Die neuroprotektive Wirkung stammt aus Zellkultur an HeLa-Zellen und aus Rattenmodellen zur Karotisokklusion. Systematische Sicherheitsdaten existieren nicht. In Deutschland kein zugelassenes Arzneimittel.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2505,6 +2538,7 @@
    "beleg": "Von allen zwölf Bioregulatoren hat Cortexin die umfangreichste klinische Literatur – und sie ist vollständig russischsprachig: Fedin et al. 2018 führten eine multizentrische randomisierte Studie mit 189 Patienten und chronischer Hirnischämie in drei Armen durch, mit neurologischen Symptomen und oxidativem Stress als Endpunkten, publiziert im Journal für Neurologie und Psychiatrie S. S. Korsakow. Eine nicht-russische Replikation in einem internationalen Journal wurde nicht gefunden. Der molekulare Wirkmechanismus gilt auch in Übersichtsarbeiten als unklar definiert.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2524,6 +2558,7 @@
    "beleg": "Die Humandaten sind Laborbefunde an entnommenen Zellen: Chromatin-Reaktivierung in Lymphozyten alter Menschen (Leschawa, Chawinson und andere, 2004). Dazu kommt eine kleine klinische Anwendung bei älteren Krebspatienten aus Belarus mit Chawinson als Ko-Autor, deren Fallzahl aus der Zusammenfassung nicht hervorgeht. Eine unabhängige Replikation wurde nicht gefunden. Ein etablierter Wirkmechanismus am lebenden Menschen fehlt; die übrige Evidenz stammt aus Mausmodellen mit Tumortransplantaten.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2543,6 +2578,7 @@
    "beleg": "Es wurde keine Humanstudie gefunden. Sämtliche auffindbaren Publikationen stammen aus der Chawinson-Gruppe und sind Zell- oder Organkulturarbeiten – zur Alterung von Gefäßendothelzellen, zur Differenzierung von Immunzellen der Zirbeldrüse, zu Hypoxieversuchen. Weder Tierstudien mit klinischen Endpunkten noch Sicherheitsdaten am Menschen liegen vor. Damit ist die Evidenzbasis rein präklinisch.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2562,6 +2598,7 @@
    "beleg": "Zu diesem Peptid wurde praktisch keine eigenständige Primärliteratur gefunden – der einzige klar zuordenbare Treffer ist eine russische Organkulturarbeit an Ratten von 2015. Die Suche wird zusätzlich durch ein völlig unverwandtes kardiologisches Forschungsfeld überlagert. Die behauptete gewebespezifische Genregulation taucht nur in den Übersichtsartikeln der Herkunftsgruppe selbst auf, ohne eigene Studie dazu. Weder Human- noch Sicherheitsdaten existieren.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2581,6 +2618,7 @@
    "beleg": "Die vorhandenen Arbeiten untersuchen entnommene Zellen, nicht behandelte Menschen: Chromatin-Aktivierung in Lymphozyten alter Probanden (Chawinson & Leschawa 2002 und 2004) und eine Enzymhemmung im menschlichen Serum im Reagenzglas (Kost et al. 2003). Eine klinische Interventionsstudie mit einem Wirksamkeitsendpunkt am lebenden Menschen wurde nicht gefunden. Die Tifliser Gruppe arbeitet organisatorisch getrennt von St. Petersburg, bleibt aber bei derselben Ex-vivo-Laboranalytik. Sicherheitsdaten fehlen.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2600,6 +2638,7 @@
    "beleg": "Hier gibt es immerhin eine kleine Studie an Menschen: Korkuschko, Chawinson und Kollegen (Bull Exp Biol Med 2011) verglichen bei 63 älteren Personen – 30 Gesunde und 33 mit Typ-2-Diabetes – Nüchternglukose, Glukosetoleranztest und Insulinresistenz zwischen behandelt und unbehandelt. Ein Hinweis auf Randomisierung oder Verblindung findet sich nicht. Chawinson ist Ko-Autor, eine unabhängige Bestätigung fehlt. Ergänzend liegen Untersuchungen an alten Rhesusaffen vor. Dedizierte Sicherheitsstudien gibt es nicht.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2619,6 +2658,7 @@
    "beleg": "Die Humanevidenz besteht aus mikroskopischen und kalorimetrischen Untersuchungen an entnommenen Lymphozyten, publiziert von der Tifliser Gruppe (Meschi et al. 2004, Kiladse et al. 2009). Eine klinische Interventionsstudie wurde nicht gefunden. Zu beachten ist eine Verwechslungsgefahr: Unter demselben Handelsnamen findet sich in der Literatur auch ein Kupfer-Korrosionsinhibitor, der mit diesem Peptid nichts zu tun hat. Sicherheitsdaten am Menschen existieren nicht.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2638,6 +2678,7 @@
    "beleg": "Zu den als Cytomax oder Cytogen vermarkteten Komplex-Stacks wurde keine Studie gefunden – auch gezielte Kombinationssuchen blieben ohne relevantes Ergebnis. Es handelt sich offenbar um Handelsnamen für Kombinationspräparate mehrerer Kurzpeptide, die als solche nie untersucht wurden. Damit gilt hier dasselbe wie für alle Stacks im Bestand, nur verschärft: Die Einzelbestandteile sind bereits überwiegend präklinisch, die Kombination ist es vollständig.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
     "was": "Berichte gibt es reichlich, aber sie stammen fast vollständig aus dem Umfeld der Anbieter und aus Publikationen derselben russischen Arbeitsgruppe, die die Präparate entwickelt hat. Damit fehlt genau das, was Anwenderberichte sonst stark macht: Unabhängigkeit. Das macht die Berichte nicht falsch, aber schwach.",
     "quellen": "überwiegend Anbieterumfeld · Publikationen der Entwicklergruppe"
    }
@@ -2927,6 +2968,7 @@
    "beleg": "Für den Anti-Aging-Einsatz existiert genau eine Studie (Fuentealba et al., Aging Cell 2025, n=42, einfach verblindet) mit einem Surrogatendpunkt – epigenetische Uhren sind selbst nicht als Endpunkt validiert –, und die Interessenkonflikte sind erheblich. Die Sicherheit ist vergleichsweise gut fundiert, aber aus anderen Indikationen: Für die wiederholte Anwendung bei Gesunden über Jahre gibt es keine Daten. Aus rund minus 1,3 Jahren auf einer Uhr wird Verjüngung gemacht.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Deutliche Besserung – und Rückfall",
     "was": "Aus dem Umfeld von Long-COVID und ME/CFS gibt es zahlreiche, teils sehr detaillierte Berichte über deutliche Besserung nach mehreren Behandlungen – und ebenso über Rückfälle nach einigen Wochen. Beides zusammen, Ansprechen und Wiederkehr, ist eine spezifischere Beobachtung als bloße Besserung. Erklärt ist damit nichts, und die Selbstauswahl ist erheblich: Wer die Kosten selbst trägt, berichtet anders als wer nicht behandelt wurde.",
     "quellen": "Patientenkreise Long-COVID/ME-CFS · Praxisberichte"
    }
@@ -2946,6 +2988,7 @@
    "beleg": "Die ungünstigste Kombination im ganzen Bestand: sehr niedrige Ergebnissicherheit für die beworbenen Indikationen, für Long COVID laut IGeL-Monitor nicht eine einzige abgeschlossene Studie – und gleichzeitig dokumentierte schwere Zwischenfälle, darunter tödliche Gasembolie, embolischer Schlaganfall und ein Cluster von sechs Hepatitis-C-Infektionen nach ozonangereicherter Eigenbluttransfusion. Eine systematische Erfassung unerwünschter Ereignisse existiert nicht.",
    "berichtslage": {
     "stufe": 1,
+    "kurz": "Viel Anwendung, nichts Greifbares",
     "was": "Trotz jahrzehntelanger Anwendung in vielen Praxen bleiben die Berichte unspezifisch – Wohlbefinden, Energie, Infektanfälligkeit. Die schiere Zahl ersetzt die fehlende Spezifität nicht.",
     "quellen": "Praxisberichte · Anwenderkreise"
    }
@@ -2993,6 +3036,7 @@
    "beleg": "Für die intravenöse Form gibt es keine randomisierte Studie mit klinischem Endpunkt. Was existiert, ist eine Pharmakokinetik-Pilotstudie, eine retrospektive Auswertung von 14 Kunden einer Wellness-Kette durch dort angestellte Autoren und ein nicht begutachteter Preprint. Ob intravenöses NAD+ überhaupt intakt in die Zielzellen gelangt, ist ungeklärt. Im einzigen direkten Vergleich hatten alle Infundierten mittelschwere bis schwere Reaktionen. Deutsche Anbieter werben mit DNA-Reparatur, bei rund 450 Euro pro Sitzung, ohne eine einzige Studienangabe.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Druck auf der Brust bei der Infusion",
     "was": "Ein Effekt wird nahezu ausnahmslos berichtet und ist unverwechselbar: Druck auf der Brust, Übelkeit und Hitzegefühl während der Infusion, die verschwinden, sobald die Tropfgeschwindigkeit gesenkt wird. Das ist eine spezifische, dosisabhängige Beobachtung – sie belegt allerdings nur, dass der Stoff ankommt. Die Berichte zum eigentlichen Zweck, mehr Energie in den Tagen danach, sind demgegenüber unspezifisch.",
     "quellen": "Anwenderkreise · Praxisberichte aus Infusionszentren"
    }
@@ -3858,6 +3902,7 @@
    "beleg": "Die Deutsche Gesellschaft für Nephrologie hat 2022 ausdrücklich Stellung bezogen: Es existieren keine randomisierten kontrollierten Studien, sondern unkontrollierte Fallserien und Einzelberichte, bei denen Störvariablen und Bias nicht auszuschließen sind. Die Fachgesellschaft fordert solche Studien und hält fest, dass ohne sie keine generelle Empfehlung möglich ist; sie nennt das Verfahren allenfalls Ultima Ratio bei schwerer Erkrankung. Die beworbene Entfernung von Umweltgiften ist zudem eine andere Behauptung als die untersuchte Entfernung von Autoantikörpern: Dass ein Filter etwas aus dem Blut holt, ist plausibel und teils messbar; dass dies die Beschwerden verursacht hat und ihre Entfernung sie beendet, ist der ungeprüfte Teil. Der Wirkstoff ist ein Verfahren, kein Molekül – Sicherheitsdaten stammen aus der etablierten Apherese bei anderen Indikationen, nicht aus dieser Anwendung.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Deutliche Besserung – und Rückfall",
     "was": "Aus dem Umfeld von Long-COVID, ME/CFS und Umweltmedizin gibt es zahlreiche, teils sehr detaillierte Berichte über deutliche Besserung nach mehreren Behandlungen, ebenso über Rückfälle nach Wochen. Dieses Muster aus Ansprechen und Wiederkehr ist spezifischer als bloße Besserung. Die Selbstauswahl ist allerdings erheblich: Die Behandlung kostet mehrere tausend Euro und wird selbst bezahlt, und wer so viel investiert, berichtet anders als wer unbehandelt bleibt.",
     "quellen": "Patientenkreise Long-COVID/ME-CFS · Anbieterberichte"
    }
@@ -3877,6 +3922,7 @@
    "beleg": "Die belastbarste Arbeit ist eine kontrollierte Pilotstudie an 145 Long-COVID-Patienten in stationärer Rehabilitation (Doehner et al., Journal of Cachexia, Sarcopenia and Muscle 2024). Die Gruppe mit Hypoxie-Hyperoxie-Training verbesserte sich in der Gehstrecke über sechs Minuten um 91,7 gegenüber 32,6 Metern. Entscheidend ist jedoch das Design: Die Zuteilung erfolgte nicht randomisiert, und die Studie war offen, also unverblindet – bei einem Endpunkt, der von der Anstrengungsbereitschaft abhängt, ist das die Konstellation, in der Erwartung den Effekt mitträgt. Die Arbeit hat in derselben Zeitschrift eine veröffentlichte methodische Kritik samt Autorenantwort nach sich gezogen. Daneben stehen eine randomisierte Studie zum Herzschutz bei Bypass-Operationen und kleine Arbeiten zur Kognition bei geriatrischen Patienten. Für den Einsatz bei Gesunden zur Leistungssteigerung oder Verjüngung existieren diese Daten nicht.",
    "berichtslage": {
     "stufe": 2,
+    "kurz": "Gehstrecke und Treppen messbar besser",
     "was": "Übereinstimmend berichtet werden weniger Erschöpfung und bessere Belastbarkeit nach einigen Wochen, häufig aus Reha-Einrichtungen, die das Verfahren anbieten. Eine Besonderheit macht diese Berichte belastbarer als übliche Erfahrungsberichte: Gehstrecke und Treppensteigzeit lassen sich messen, und genau das wurde in der Pilotstudie auch getan. Offen bleibt, wie viel davon auf das Verfahren und wie viel auf die begleitende Rehabilitation entfällt.",
     "quellen": "Reha-Einrichtungen · Anwenderkreise · messbare Gehstrecken"
    }
