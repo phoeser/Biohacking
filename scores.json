@@ -342,7 +342,7 @@
    "anwendung": 9,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Einer der klarsten Fälle im Bestand: Die SELECT-Studie (Lippman et al., JAMA 2009) randomisierte 35.533 Männer über sieben Jahre auf den harten Endpunkt Prostatakrebs – kein Nutzen (HR 1,04). Spätere Auswertungen zeigten zusätzlich ein Diabetes-Risikosignal. Die Rolle als Kofaktor der Glutathionperoxidase ist unbestritten; der Sprung von dort zur Krebsprävention wurde in der größten je durchgeführten Studie widerlegt. EFSA aktualisierte 2023 die Obergrenze, das BfR 2024 die Höchstmengen. Beworben wird weiterhin Krebsschutz. Wichtig für die Einordnung: Die SELECT-Teilnehmer waren bereits gut versorgt (im Mittel 135 ng/ml Plasma-Selen); der Schutzeffekt der Vorgängerstudie NPC beschränkte sich auf Männer unter 123 ng/ml. Geprüft wurde also, ob mehr Selen bei ausreichender Versorgung nützt – nicht, ob Selen bei Mangel nützt. Da europäische Böden selenarm sind und die geschätzte Zufuhr hier unter den DGE-Referenzwerten liegen kann, ist dieser Unterschied für deutsche Leser relevant. Für gut Versorgte gilt zudem ein U-förmiger Zusammenhang: mehr ist dort nicht neutral.",
+   "beleg": "Einer der klarsten Fälle im Bestand: Die SELECT-Studie (Lippman et al., JAMA 2009) randomisierte 35.533 Männer auf den harten Endpunkt Prostatakrebs, im Mittel fünfeinhalb Jahre beobachtet, Supplementation nach sieben Jahren gestoppt – kein Nutzen (HR 1,04). Spätere Auswertungen zeigten zusätzlich ein Diabetes-Risikosignal. Die Rolle als Kofaktor der Glutathionperoxidase ist unbestritten; der Sprung von dort zur Krebsprävention wurde in der größten je durchgeführten Studie widerlegt. EFSA aktualisierte 2023 die Obergrenze, das BfR 2024 die Höchstmengen. Beworben wird weiterhin Krebsschutz. Wichtig für die Einordnung: Die SELECT-Teilnehmer waren bereits gut versorgt (im Mittel 135 ng/ml Plasma-Selen); der Schutzeffekt der Vorgängerstudie NPC beschränkte sich auf Männer unter 123 ng/ml. Geprüft wurde also, ob mehr Selen bei ausreichender Versorgung nützt – nicht, ob Selen bei Mangel nützt. Da europäische Böden selenarm sind und die geschätzte Zufuhr hier unter den DGE-Referenzwerten liegen kann, ist dieser Unterschied für deutsche Leser relevant. Für gut Versorgte gilt zudem ein U-förmiger Zusammenhang: mehr ist dort nicht neutral.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Viele berichten Haut, Nägel, Energie",
@@ -976,7 +976,7 @@
    "anwendung": 9,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Der Cochrane-Review (Towheed et al., CD002946) wertet 25 Studien mit 4.963 Arthrose-Patienten aus – und das Ergebnis hängt am Präparat: In den Studien zum Rotta-Produkt war Glucosamin überlegen, in den qualitativ hochwertigen unabhängigen Studien zeigte sich kein Vorteil gegenüber Placebo bei Schmerz und Funktion. Ein Effekt, der sich nur bei einem einzigen Hersteller reproduzieren lässt, ist kein Substanzeffekt. Die Sicherheit ist über Jahrzehnte und tausende Teilnehmer hervorragend untersucht und liegt auf Placeboniveau.",
+   "beleg": "Der Cochrane-Review (Towheed et al., CD002946) wertet 25 Studien mit 4.963 Arthrose-Patienten aus – und das Ergebnis hängt am Präparat: In den Studien zum Rotta-Produkt war Glucosamin überlegen, in den qualitativ hochwertigen unabhängigen Studien zeigte sich kein Vorteil gegenüber Placebo bei Schmerz und WOMAC-Funktion, nur im Lequesne-Index ein kleiner Vorteil. Ein Effekt, der sich nur bei einem einzigen Hersteller reproduzieren lässt, ist kein Substanzeffekt. Die Sicherheit ist über Jahrzehnte und tausende Teilnehmer hervorragend untersucht und liegt auf Placeboniveau.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Viele berichten Linderung am Knie",
@@ -1106,7 +1106,7 @@
    "anwendung": 7,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Das Kernversprechen ist untersucht und hält nicht: Ein systematisches Review über 10 RCTs mit 483 Teilnehmern (Nutrients 2025) findet für Testosteron keine robuste Evidenz – 8 von 10 Studien zeigten keinen Effekt, zwei einen moderaten Anstieg von 60 bis 70 ng/dl, und das nur bei niedrigem Ausgangswert. Bei erektiler Dysfunktion waren 3 von 5 Studien positiv, allerdings mit niedriger methodischer Qualität in der Hälfte der Arbeiten. Der Protodioscin-Pfad ist am Menschen nicht bestätigt.",
+   "beleg": "Das Kernversprechen ist untersucht und hält nicht: Ein systematisches Review über 10 Studien mit 483 Teilnehmern (Nutrients 2025) findet für Testosteron keine robuste Evidenz – 8 von 10 Studien zeigten keinen Effekt, zwei einen moderaten Anstieg von 60 bis 70 ng/dl, und das nur bei niedrigem Ausgangswert. Bei erektiler Dysfunktion waren 3 von 5 Studien positiv, allerdings mit niedriger methodischer Qualität in der Hälfte der Arbeiten. Der Protodioscin-Pfad ist am Menschen nicht bestätigt.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Libido berichtet, Testosteron nicht gefunden",
@@ -1216,7 +1216,7 @@
    "anwendung": 6,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Der aussagekräftigste Befund kommt vom Hersteller selbst: Der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 freiwillig vom Markt, nachdem eigene Daten die Wirksamkeit nicht bestätigten. Das systematische Review (Bhagat et al., Int J Surg 2013) führt japanische Postmarketing-Studien mit 301 und 252 Patienten, die keinen Effekt bei Schwellung fanden, und eine Studie mit 311 Patienten ohne Unterschied zu Placebo bei Atemwegsbeschwerden. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich.",
+   "beleg": "Der aussagekräftigste Befund kommt vom Hersteller selbst: Der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 freiwillig vom Markt, nachdem eigene Doppelblindstudien keinen Unterschied zu Placebo zeigten. Das systematische Review (Bhagat et al., Int J Surg 2013) findet für keine der beworbenen Anwendungen belastbare Evidenz. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich.",
    "berichtslage": {
     "stufe": 1,
     "kurz": "Berichte ja — Hersteller hörte trotzdem auf",
@@ -1373,13 +1373,13 @@
    "sicherheit": 5,
    "hype": 3,
    "anwendung": 4,
-   "richtung": "negativ",
-   "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Hier gibt es echte Humanstudien, auch über Monate – und genau die sind ernüchternd: Wachstumshormon und IGF-1 steigen, die erhofften Ergebnisse bei Kraft und Körperzusammensetzung folgen daraus nicht. Blutzuckerverschlechterung ist dokumentiert; beworben wird trotzdem der Peak.",
+   "richtung": "gemischt",
+   "label": "Belegt, mit Einschränkungen",
+   "beleg": "Hier gibt es echte Humanstudien, auch über Monate, und sie zeigen mehr als nur den Mechanismus: Wachstumshormon und IGF-1 steigen, und die fettfreie Masse nimmt messbar zu – bei 65 gesunden Älteren über ein Jahr um 1,1 kg gegenüber −0,5 kg unter Placebo (Nass et al., Ann Intern Med 2008), bei 24 adipösen Männern schon nach acht Wochen (Svensson et al., JCEM 1998). Was in beiden Studien ausblieb: mehr Kraft, bessere Funktion, weniger Fett. Was dazukam: eine Verschlechterung der Glukosetoleranz, Wassereinlagerung, Hunger. Belegt ist die Wirkung auf die Hormonachse und die Magermasse; nicht belegt ist der Nutzen, mit dem geworben wird.",
    "berichtslage": {
     "stufe": 3,
-    "kurz": "Hunger und IGF-1 messbar, Nutzen nicht",
-    "was": "Hier berichten Anwender uebereinstimmend etwas sehr Spezifisches: heftigen Hunger binnen Stunden, Wassereinlagerung, tieferen Schlaf — und einen im Blutbild messbaren IGF-1-Anstieg, den viele selbst bestimmen lassen. Das ist keine Einbildung, und die Studien bestaetigen es ausdruecklich. Der Punkt ist ein anderer: Dass die Hormonachse anspringt, ist belegt; dass daraus Kraft und Koerperzusammensetzung folgen, wurde geprueft und blieb aus. Die Berichte belegen den Mechanismus, nicht den Nutzen.",
+    "kurz": "Hunger, IGF-1 und Magermasse messbar",
+    "was": "Hier berichten Anwender uebereinstimmend etwas sehr Spezifisches: heftigen Hunger binnen Stunden, Wassereinlagerung, tieferen Schlaf — und einen im Blutbild messbaren IGF-1-Anstieg, den viele selbst bestimmen lassen. Das ist keine Einbildung, und die Studien bestaetigen es ausdruecklich, bis hin zur Magermasse: In zwei randomisierten Studien stieg die fettfreie Masse signifikant. Was die Studien nicht fanden, ist der Schritt danach: mehr Kraft, mehr Funktion, weniger Fett. Die Berichte belegen also mehr als den Mechanismus — aber nicht den beworbenen Nutzen.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen · deckungsgleich mit der Studienlage"
    }
   },
@@ -1491,7 +1491,7 @@
    "anwendung": 10,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Die Substitution bei diagnostiziertem Hypogonadismus ist seit Jahrzehnten zugelassen und die Wirkkette am Menschen zweifelsfrei belegt – die Frage ist, wer behandelt wird. Die TRAVERSE-Studie (Lincoff et al., NEJM 2023) randomisierte 5.246 Männer über im Mittel 27 Monate: kardiovaskulär nicht unterlegen, aber mehr Vorhofflimmern (91 gegen 63 Fälle) und mehr akutes Nierenversagen. Das BfArM wies 2025 auf die stark steigende Verordnungshäufigkeit hin, die teils außerhalb der Zulassung erfolgt. Für Männer mit niedrig-normalen Werten ohne Diagnose gibt es keine Zulassungsstudie.",
+   "beleg": "Die Substitution bei diagnostiziertem Hypogonadismus ist seit Jahrzehnten zugelassen und die Wirkkette am Menschen zweifelsfrei belegt – die Frage ist, wer behandelt wird. Die TRAVERSE-Studie (Lincoff et al., NEJM 2023) randomisierte 5.246 Männer, im Mittel 21,7 Monate behandelt und 33 Monate beobachtet: kardiovaskulär nicht unterlegen, aber mehr Vorhofflimmern (91 gegen 63 Fälle) und mehr akutes Nierenversagen. Das BfArM wies 2025 auf die stark steigende Verordnungshäufigkeit hin, die teils außerhalb der Zulassung erfolgt. Für Männer mit niedrig-normalen Werten ohne Diagnose gibt es keine Zulassungsstudie.",
    "berichtslage": {
     "stufe": 3,
     "kurz": "Klare Effekte, auch ohne belegten Mangel",
@@ -1965,7 +1965,7 @@
    "anwendung": 2,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 536 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo. Eine kleinere Vorgängerstudie hatte zwei bis zweieinhalb Kilogramm mehr Gewichtsverlust gezeigt, was sich nicht bestätigte. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
+   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 536 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Eine kleinere Vorgängerstudie hatte zwei bis zweieinhalb Kilogramm mehr Gewichtsverlust gezeigt, was sich nicht bestätigte. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
   },
   {
    "id": "bimagrumab",
@@ -2779,7 +2779,7 @@
    "anwendung": 7,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Ein Sonderfall, der zeigt, was diese Achsen messen: Die Human-Evidenz ist hoch, weil zwei große randomisierte Studien mit harten Endpunkten vorliegen – und beide fielen negativ aus. TACT (JAMA 2013, n=1.708) zeigte einen grenzwertigen Effekt mit erheblichen methodischen Mängeln; TACT2 (JAMA 2024, n=1.000) prüfte gezielt die zuvor auffällige Diabetes-Untergruppe und fand keinerlei Unterschied. Die Chelierung funktioniert messbar, der klinische Nutzen fehlt. Dokumentiert sind zudem Todesfälle durch Hypokalzämie nach Verwechslung der EDTA-Salze (CDC 2006).",
+   "beleg": "Ein Sonderfall, der zeigt, was diese Achsen messen: Die Human-Evidenz ist hoch, weil zwei große randomisierte Studien mit harten Endpunkten vorliegen – und beide fielen negativ aus. TACT (JAMA 2013, n=1.708) zeigte einen grenzwertigen Effekt mit erheblichen methodischen Mängeln; TACT2 (JAMA 2024, n=959) prüfte gezielt die zuvor auffällige Diabetes-Untergruppe und fand keinerlei Unterschied. Die Chelierung funktioniert messbar, der klinische Nutzen fehlt. Dokumentiert sind zudem Todesfälle durch Hypokalzämie nach Verwechslung der EDTA-Salze (CDC 2006).",
    "berichtslage": {
     "stufe": 1,
     "kurz": "Praxisberichte bleiben unspezifisch",
@@ -2827,7 +2827,7 @@
    "anwendung": 7,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Gut untersucht und überwiegend negativ, sobald sauber verblindet wird: Die RESTORE-Studie (JAMA 2021, n=288, zwölf Monate) fand weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalz, und 29 von 31 sekundären Endpunkten blieben ohne Unterschied; ein Cochrane-Review kam zum selben Schluss. Bei der Haardichte gibt es positive kleine Studien. Zusatzrisiko liegt in der Verarbeitung, nicht im Produkt: Die US-Gesundheitsbehörde dokumentierte 2024 HIV-Übertragungen nach unsteriler Anwendung. IGeL-Monitor: tendenziell negativ.",
+   "beleg": "Gut untersucht und überwiegend negativ, sobald sauber verblindet wird: Die RESTORE-Studie (JAMA 2021, n=288, zwölf Monate) fand weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalz, und 29 von 31 sekundären Endpunkten blieben ohne Unterschied; ein Cochrane-Review kam zum selben Schluss. Bei der Haardichte gibt es positive kleine Studien. Zusatzrisiko liegt in der Verarbeitung, nicht im Produkt: Die US-Gesundheitsbehörde dokumentierte 2024 HIV-Übertragungen nach unsteriler kosmetischer Anwendung. IGeL-Monitor: tendenziell negativ.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Besserung berichtet — Scheinspritze auch",
@@ -3585,7 +3585,7 @@
    "anwendung": 7,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Hier gibt es Daten, und sie fallen negativ aus: Mehrere Meta-Analysen kommen übereinstimmend zu dem Schluss, dass Arbeitsgedächtnistraining zwar in der Aufgabe selbst besser macht, sich aber nicht auf fluide Intelligenz überträgt. Die Formulierung „einziges Gehirntraining, das nachweislich wirkt\" ist die Umkehrung des Befundes.",
+   "beleg": "Hier gibt es Daten, und die Meta-Analysen streiten darüber: In der Aufgabe selbst wird man deutlich besser (Soveri et al. 2017: g = 0,62). Beim Transfer auf fluide Intelligenz fand Au et al. 2015 einen kleinen Effekt, Soveri 2017 einen sehr kleinen (g = 0,16, rund ein Prozent erklärter Varianz), und Melby-Lervåg, Redick & Hulme 2016 mit aktiven Kontrollgruppen keinen. Je besser die Kontrollgruppe, desto kleiner der Effekt. Die Formulierung „einziges Gehirntraining, das nachweislich wirkt\" ist die Umkehrung des Befundes.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Viele fühlen sich schärfer — es trägt nicht",
