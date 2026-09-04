@@ -790,7 +790,13 @@
     avatar-orb-color-2="#7ac9a5"
     action-text="Frag Paul – deinen Biohacking-Coach"
     start-call-text="Gespräch starten"></elevenlabs-convai>
-  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+  <!-- Fest auf 0.18.0 genagelt, mit Integritaetspruefung. Ohne Version holt
+       unpkg immer die neueste Fassung: eine fehlerhafte oder untergeschobene
+       Version liefe damit ungefragt auf dieser Seite. Beim Aktualisieren
+       Version UND Pruefsumme zusammen austauschen. -->
+  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed@0.18.0/dist/index.js"
+    integrity="sha384-GUIW26rjZg44Fdm0UF5twcxZgzbVDu9ElCypQgJHAi3Nq0llg2J4K/huuoNjCDP3"
+    crossorigin="anonymous" async type="text/javascript"></script>
   <!-- Schließen-/Öffnen-Steuerung für den Voice-Coach -->
   <button id="vc-close" title="Coach schließen" aria-label="Coach schließen"
     style="position:fixed;right:16px;bottom:104px;z-index:2147483647;width:32px;height:32px;border:none;border-radius:50%;background:#0d1b2a;color:#fff;font-size:18px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.35);opacity:.9;display:flex;align-items:center;justify-content:center;">&times;</button>
