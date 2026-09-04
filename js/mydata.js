@@ -5,6 +5,17 @@
 (function () {
   'use strict';
 
+  /* Nutzertext, der in innerHTML landet, MUSS hier durch.
+     Ein selbst angelegtes Supplement heisst normalerweise "Magnesium" —
+     es kann aber auch "<img src=x onerror=...>" heissen, und dann fuehrt
+     die Seite das aus. Eigene Daten machen das nicht harmlos: sie stehen
+     in Firestore und werden auf jedem Geraet wieder eingesetzt. */
+  function esc(v) {
+    return String(v == null ? '' : v)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
   // --- Firebase Web-Config (öffentlich, kein Secret) ---
   var firebaseConfig = {
     apiKey: 'AIzaSyB5iyW9Dc2nkAP23ehgwtIOq24fxTky0KA',
@@ -359,11 +370,11 @@
       var wrap = $('#md-stack', box); if (!wrap) return;
       if (!stack.length) { wrap.innerHTML = '<span class="muted small">Noch keine Supplements angelegt – füge unten deine hinzu.</span>'; return; }
       wrap.innerHTML = stack.map(function (name) {
-        var on = taken.indexOf(name) !== -1; var esc = name.replace(/"/g, '&quot;');
-        return '<button type="button" class="mydata-supp' + (on ? ' on' : '') + '" data-name="' + esc + '">' +
+        var on = taken.indexOf(name) !== -1; var sicher = esc(name);
+        return '<button type="button" class="mydata-supp' + (on ? ' on' : '') + '" data-name="' + sicher + '">' +
                  '<span class="mydata-supp-check">' + (on ? '✓' : '') + '</span>' +
-                 '<span class="mydata-supp-name">' + name + '</span>' +
-                 '<span class="mydata-supp-x" data-remove="' + esc + '" title="Aus Liste entfernen">&times;</span>' +
+                 '<span class="mydata-supp-name">' + sicher + '</span>' +
+                 '<span class="mydata-supp-x" data-remove="' + sicher + '" title="Aus Liste entfernen">&times;</span>' +
                '</button>';
       }).join('');
       wrap.querySelectorAll('.mydata-supp').forEach(function (b) {
@@ -452,11 +463,11 @@
     list.innerHTML = recs.map(function (r) {
       var chips = (r.items || []).map(function (name) {
         var hit = catRef(name);
-        return hit ? '<a href="#' + hit.view + '">' + hit.name + '</a>' : '<span class="mydata-rec-plain">' + name + '</span>';
+        return hit ? '<a href="#' + esc(hit.view) + '">' + esc(hit.name) + '</a>' : '<span class="mydata-rec-plain">' + esc(name) + '</span>';
       }).join('');
       return '<div class="mydata-rec-item"><span class="md-rec-dot"></span><div>' +
-               '<strong>' + (r.title || '') + '</strong>' +
-               '<span class="muted small">' + (r.why || '') + '</span>' +
+               '<strong>' + esc(r.title || '') + '</strong>' +
+               '<span class="muted small">' + esc(r.why || '') + '</span>' +
                (chips ? '<div class="mydata-rec-names">' + chips + '</div>' : '') +
              '</div></div>';
     }).join('') + '<p class="small muted" style="margin-top:10px">⚕️ Allgemeine Information, kein medizinischer Rat, keine Dosierempfehlung. Peptide sind experimentell und überwiegend nicht als Arzneimittel zugelassen – nur zur Information.</p>';
