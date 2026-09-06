@@ -1817,9 +1817,147 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     }).join('');
   }
 
+  // ---------------------------------------------------------------------
+  // Laborprüfer
+  //
+  // Der Prüfer ruft NICHTS beim Labor ab. Janoshik sperrt maschinelle
+  // Zugriffe ausdrücklich aus (403 auf der Prüfseite, robots.txt mit
+  // ai-train=no und namentlich gesperrten Bots). Das ist keine Hürde, die
+  // man umgeht. Er baut deshalb nur die offizielle Prüfadresse und öffnet
+  // sie — der Nutzer sieht das Ergebnis beim Labor selbst, also dort, wo es
+  // fälschungssicher steht.
+  //
+  // Der eigene Beitrag liegt daneben: die Fallen-Liste, die erklärt, was ein
+  // Bericht NICHT beweist, und die eigene Liste geprüfter Chargen.
+  // ---------------------------------------------------------------------
+
+  const LABOR_ADRESSE = 'https://janoshik.com/verification/';
+
+  // Auftragsnummer: Ziffern, Raute optional. Schlüssel: 8 bis 20 Zeichen,
+  // Buchstaben und Ziffern. Beides absichtlich streng — ein Tippfehler soll
+  // hier auffallen und nicht erst beim Labor.
+  function laborLesen(eingabe) {
+    const roh = String(eingabe || '').trim();
+    if (!roh) return null;
+    let auftrag = '', schluessel = '';
+
+    // Ganzer Link eingefügt
+    if (/^https?:\/\//i.test(roh)) {
+      let u;
+      try { u = new URL(roh); } catch (e) { return null; }
+      if (!/(^|\.)janoshik\.com$/i.test(u.hostname)) return null;
+      auftrag = u.searchParams.get('task') || '';
+      schluessel = u.searchParams.get('key') || '';
+      // Manche Links tragen die Werte im Pfad: /tests/133081-9_5DUSRAWEGJGV
+      if (!auftrag || !schluessel) {
+        const m = u.pathname.match(/\/tests\/(\d+)[-_]([A-Za-z0-9_]+)/);
+        if (m) { auftrag = m[1]; schluessel = m[2]; }
+      }
+    } else {
+      // Zwei Werte, getrennt durch Leerzeichen, Komma, Semikolon oder Schrägstrich
+      const teile = roh.split(/[\s,;/]+/).filter(Boolean);
+      if (teile.length !== 2) return null;
+      auftrag = teile[0];
+      schluessel = teile[1];
+    }
+
+    auftrag = String(auftrag).replace(/^#/, '').trim();
+    schluessel = String(schluessel).trim().toUpperCase();
+    if (!/^\d{3,9}$/.test(auftrag)) return null;
+    if (!/^[A-Z0-9_]{6,24}$/.test(schluessel)) return null;
+    return { auftrag: auftrag, schluessel: schluessel };
+  }
+
+  function laborLink(w) {
+    return LABOR_ADRESSE + '?task=' + encodeURIComponent('#' + w.auftrag)
+         + '&key=' + encodeURIComponent(w.schluessel);
+  }
+
+  function renderLaborFallen() {
+    const el = $('#labor-fallen');
+    if (!el || typeof LABOR_FALLEN === 'undefined') return;
+    el.innerHTML = LABOR_FALLEN.map(f => `
+      <div class="labor-falle">
+        <strong>${escapeHtml(f.titel)}</strong>
+        <p>${escapeHtml(f.text)}</p>
+      </div>`).join('');
+  }
+
+  function renderLaborListe() {
+    const el = $('#labor-liste');
+    if (!el) return;
+    const t = (typeof LABORTESTS !== 'undefined') ? LABORTESTS : [];
+    if (!t.length) {
+      el.innerHTML = `<div class="erf-empty">
+        Noch kein Eintrag. Hier stehen künftig nur Berichte, die wir selbst
+        aufgerufen und gelesen haben — nicht das, was Shops zeigen.
+      </div>`;
+      return;
+    }
+    el.innerHTML = t.slice().sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
+      .map(function (e) {
+        const werte = [
+          e.reinheit != null ? `Reinheit ${escapeHtml(String(e.reinheit))} %` : '',
+          e.menge ? `Menge ${escapeHtml(e.menge)}` : ''
+        ].filter(Boolean).join(' · ');
+        return `<div class="card labor-eintrag">
+          <div class="labor-eintrag-kopf">
+            <h4>${escapeHtml(e.substanz || '')}</h4>
+            <span class="labor-chip">${escapeHtml(e.labor || '')}</span>
+          </div>
+          <p class="labor-eintrag-meta">${escapeHtml(e.anbieter || '')}${e.datum ? ' · ' + escapeHtml(e.datum) : ''}</p>
+          ${werte ? `<p class="labor-eintrag-werte">${werte}</p>` : ''}
+          ${e.anmerkung ? `<p class="labor-eintrag-note">${escapeHtml(e.anmerkung)}</p>` : ''}
+          <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
+             href="${escapeHtml(laborLink({ auftrag: String(e.auftrag || '').replace(/^#/, ''), schluessel: e.schluessel }))}">
+            Bericht beim Labor öffnen →</a>
+        </div>`;
+      }).join('');
+  }
+
+  function initLaborcheck() {
+    const feld = $('#labor-eingabe');
+    const knopf = $('#labor-pruefen');
+    const info = $('#labor-status');
+    const melden = $('#labor-melden');
+    if (!feld || !knopf) return;
+
+    function pruefen() {
+      const w = laborLesen(feld.value);
+      if (!w) {
+        info.className = 'labor-status is-warn';
+        info.textContent = 'Das sieht nicht nach Auftragsnummer und Schlüssel aus. '
+          + 'Entweder den ganzen Prüflink einfügen oder beides getrennt, z. B. 85193 UD6BMCBK162L.';
+        if (melden) melden.hidden = true;
+        return;
+      }
+      const url = laborLink(w);
+      info.className = 'labor-status is-ok';
+      info.innerHTML = 'Auftrag <b>#' + escapeHtml(w.auftrag) + '</b> — der Bericht öffnet sich beim Labor. '
+        + 'Dort steht auch, <b>wer den Auftrag erteilt hat</b>: Ist das nicht dein Shop, belegt der Bericht nichts über ihn.';
+      window.open(url, '_blank', 'noopener');
+      if (melden) {
+        melden.hidden = false;
+        melden.href = 'mailto:kontakt@biohackingkompakt.de'
+          + '?subject=' + encodeURIComponent('Laborbericht für die Liste: #' + w.auftrag)
+          + '&body=' + encodeURIComponent(
+              'Substanz:\nAnbieter:\nGetestete Menge laut Bericht:\nReinheit laut Bericht:\n'
+              + 'Datum des Berichts:\n\nPrüflink: ' + url + '\n\n'
+              + 'Bitte nur senden, wenn du den Bericht selbst geöffnet hast.');
+      }
+    }
+
+    knopf.addEventListener('click', pruefen);
+    feld.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); pruefen(); }
+    });
+  }
+
   function onEnterExperimental() {
     renderExperimental();
     renderKhavinson();
+    renderLaborFallen();
+    renderLaborListe();
   }
 
   function renderExperimental() {
@@ -3069,6 +3207,7 @@ WICHTIG – konservative Gewichtsschätzung:
     initErfahrungenView();
     initHomeProducts();
     initExperimentalView();
+    initLaborcheck();
     initBehandlungenView();
     initBlutwerteView();
     initRouter();
