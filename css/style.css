@@ -3806,3 +3806,62 @@ button { font-family: inherit; cursor: pointer; }
 }
 .labor-wert.is-knapp { background: #f6efdc; color: #8a6a16; }
 .labor-eintrag-fuss { margin: 12px 0 0; font-size: 13px; color: var(--muted-2, #83918d); }
+
+/* ---------------------------------------------------------------
+   Laborprüfer, dreischrittig
+   Die Nummern links sind der eigentliche Bauplan: wer zum ersten Mal
+   ein Zertifikat prüft, weiß nicht, dass es beim Labor noch einen
+   zweiten Klick braucht. Deshalb ist jeder Schritt ein eigener Block
+   mit eigener Überschrift statt eines Absatzes im Fließtext.
+   --------------------------------------------------------------- */
+.labor-schritt { display: flex; gap: 16px; margin: 0 0 26px; }
+.labor-nr {
+  flex: 0 0 32px; height: 32px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--accent, #0e8f63); color: #fff;
+  font-weight: 700; font-size: 15px; font-variant-numeric: tabular-nums;
+}
+.labor-inhalt { flex: 1 1 auto; min-width: 0; }
+.labor-inhalt h4 { margin: 4px 0 8px; font-size: 17px; }
+.labor-erklaer { margin: 0 0 14px; font-size: 15px; line-height: 1.6; max-width: 68ch; color: var(--muted, #5a6b66); }
+.labor-erklaer b { color: var(--text, #111917); }
+
+.labor-felder { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; }
+.labor-feld { flex: 1 1 200px; min-width: 0; }
+.labor-feld label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.labor-feld label span { font-weight: 400; color: var(--muted-2, #83918d); }
+.labor-input {
+  width: 100%; padding: 11px 13px; font-size: 16px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  border: 1px solid var(--line, #c9d4d0); border-radius: 10px;
+  background: var(--bg, #fff); color: inherit;
+}
+.labor-input:focus { outline: 2px solid var(--accent, #0e8f63); outline-offset: 1px; }
+
+/* Urteil: drei gleich große Knöpfe, keiner voreingestellt — die Auswahl
+   soll eine Entscheidung sein und keine Bestätigung eines Vorschlags. */
+.labor-urteil { display: flex; gap: 10px; flex-wrap: wrap; }
+.labor-u {
+  flex: 0 1 auto; padding: 10px 18px; font-size: 15px; font-weight: 600;
+  cursor: pointer; border: 1px solid var(--kante-stark, #c3cfca);
+  border-radius: 10px; background: var(--card, #fff); color: inherit;
+}
+.labor-u:hover { border-color: var(--accent, #0e8f63); }
+.labor-u.is-aktiv { background: var(--accent, #0e8f63); border-color: var(--accent, #0e8f63); color: #fff; }
+.labor-danke { margin: 12px 0 0; font-size: 14px; color: var(--accent-text, #0a6b4a); }
+
+.labor-urteil-chip {
+  font-size: 14px; font-weight: 600; padding: 5px 11px; border-radius: 8px;
+}
+.labor-urteil-chip.is-ok { background: var(--accent-soft, #e4f3ec); color: var(--accent-text, #0a6b4a); }
+.labor-urteil-chip.is-teils { background: #f6efdc; color: #8a6a16; }
+.labor-urteil-chip.is-nein { background: #f7e3e3; color: #8a2020; }
+
+/* Ab einundzwanzig Chargen wird die Liste zum Scrollfeld — sonst schiebt
+   sie die Substanzübersicht immer weiter nach unten. */
+.labor-liste.is-scroll {
+  max-height: 620px; overflow-y: auto; padding-right: 6px;
+  border: 1px solid var(--line, #e3e8e6); border-radius: 12px; padding: 12px;
+}
+.labor-liste-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.labor-zahl { font-size: 14px; color: var(--muted, #5a6b66); font-variant-numeric: tabular-nums; }
