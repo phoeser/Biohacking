@@ -1848,10 +1848,16 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       if (!/(^|\.)janoshik\.com$/i.test(u.hostname)) return null;
       auftrag = u.searchParams.get('task') || '';
       schluessel = u.searchParams.get('key') || '';
-      // Manche Links tragen die Werte im Pfad: /tests/133081-9_5DUSRAWEGJGV
+      // Die Berichtsadresse traegt die Werte im Pfad, dazwischen aber den
+      // Substanznamen: /tests/96518-bpc_157_5mg_Q6HV1KENIDQM. Der Schluessel
+      // ist der letzte Abschnitt, nicht alles hinter der Nummer.
       if (!auftrag || !schluessel) {
-        const m = u.pathname.match(/\/tests\/(\d+)[-_]([A-Za-z0-9_]+)/);
-        if (m) { auftrag = m[1]; schluessel = m[2]; }
+        const m = u.pathname.match(/\/tests\/(\d+)-(.+)$/);
+        if (m) {
+          auftrag = m[1];
+          const stuecke = m[2].split('_');
+          schluessel = stuecke[stuecke.length - 1];
+        }
       }
     } else {
       // Zwei Werte, getrennt durch Leerzeichen, Komma, Semikolon oder Schrägstrich
@@ -1896,25 +1902,38 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     }
     el.innerHTML = t.slice().sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
       .map(function (e) {
-        const werte = [
-          e.reinheit != null ? `Reinheit ${escapeHtml(String(e.reinheit))} %` : '',
-          e.menge ? `Menge ${escapeHtml(e.menge)}` : ''
-        ].filter(Boolean).join(' · ');
+        // Die Menge ist die Zahl, die übersehen wird — deshalb steht sie
+        // hier ausgerechnet und nicht nur abgeschrieben.
+        let mengeHtml = '';
+        if (e.etikett && e.gemessen) {
+          const anteil = Math.round(e.gemessen / e.etikett * 1000) / 10;
+          const knapp = anteil < 95;
+          mengeHtml = `<span class="labor-wert ${knapp ? 'is-knapp' : 'is-gut'}">
+            ${escapeHtml(String(e.gemessen).replace('.', ','))} von
+            ${escapeHtml(String(e.etikett).replace('.', ','))} mg
+            <b>(${escapeHtml(String(anteil).replace('.', ','))} %)</b></span>`;
+        }
+        const rein = (e.reinheit != null)
+          ? `<span class="labor-wert is-gut">Reinheit ${escapeHtml(String(e.reinheit).replace('.', ','))} %</span>`
+          : '';
+        const meta = [e.anbieter, e.charge ? 'Charge ' + e.charge : '', e.datum]
+          .filter(Boolean).map(escapeHtml).join(' · ');
+        const link = laborLink({ auftrag: String(e.auftrag || '').replace(/^#/, ''),
+                                 schluessel: e.schluessel });
         return `<div class="card labor-eintrag">
           <div class="labor-eintrag-kopf">
             <h4>${escapeHtml(e.substanz || '')}</h4>
-            <span class="labor-chip">${escapeHtml(e.labor || '')}</span>
+            <span class="labor-chip">${escapeHtml(e.labor || '')} ${escapeHtml(e.auftrag || '')}</span>
           </div>
-          <p class="labor-eintrag-meta">${escapeHtml(e.anbieter || '')}${e.datum ? ' · ' + escapeHtml(e.datum) : ''}</p>
-          ${werte ? `<p class="labor-eintrag-werte">${werte}</p>` : ''}
+          <p class="labor-eintrag-meta">${meta}</p>
+          <div class="labor-werte">${rein}${mengeHtml}</div>
           ${e.anmerkung ? `<p class="labor-eintrag-note">${escapeHtml(e.anmerkung)}</p>` : ''}
-          <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
-             href="${escapeHtml(laborLink({ auftrag: String(e.auftrag || '').replace(/^#/, ''), schluessel: e.schluessel }))}">
-            Bericht beim Labor öffnen →</a>
+          <p class="labor-eintrag-fuss">Von uns geöffnet am ${escapeHtml(e.geprueft || '—')} ·
+            <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
+               href="${escapeHtml(link)}">selbst nachprüfen →</a></p>
         </div>`;
       }).join('');
   }
-
   function initLaborcheck() {
     const feld = $('#labor-eingabe');
     const knopf = $('#labor-pruefen');
