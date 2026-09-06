@@ -275,6 +275,41 @@
 
         <p class="sc-disclaimer"><strong>Disclaimer:</strong> Alle Bewertungen sind subjektive Einschätzungen von Biohacking Kompakt auf Basis der unten offengelegten Vergaberegeln. Sie sind keine wissenschaftliche Bewertung, kein Konsens einer Fachgesellschaft und keine medizinische Empfehlung. Andere können bei derselben Studienlage zu anderen Zahlen kommen – deshalb steht bei jeder Bewertung die Begründung dabei.</p>
 
+        <!-- Laborprüfer. Steht hier und nicht bei den Bezugsquellen, weil die
+             Frage „ist da drin, was draufsteht" bei genau diesen Substanzen
+             gestellt wird — und weil sie sich hier stellt, BEVOR jemand kauft. -->
+        <div class="labor-section" id="laborcheck">
+          <div class="labor-head">
+            <span class="eyebrow">Laborbericht prüfen</span>
+            <h3>🔬 Ist da drin, was draufsteht?</h3>
+            <p>Seriöse Anbieter lassen ihre Chargen extern analysieren und geben dir Auftragsnummer und Prüfschlüssel. Damit rufst du den Bericht beim Labor selbst auf — nicht beim Shop. Ein Screenshot ist kein Bericht.</p>
+          </div>
+
+          <div class="labor-box card">
+            <label class="labor-label" for="labor-eingabe">Prüflink einfügen — oder Auftragsnummer und Schlüssel</label>
+            <div class="labor-zeile">
+              <input type="text" id="labor-eingabe" class="labor-input"
+                     placeholder="85193 UD6BMCBK162L"
+                     autocomplete="off" spellcheck="false" inputmode="text">
+              <button type="button" id="labor-pruefen" class="labor-btn">Bericht öffnen</button>
+            </div>
+            <p class="labor-status" id="labor-status">Der Bericht öffnet sich beim Labor in einem neuen Tab. Wir fragen dort nichts ab und speichern nichts.</p>
+            <a class="labor-melden" id="labor-melden" href="#" hidden>Diesen Bericht für die Liste melden →</a>
+          </div>
+
+          <div class="labor-fallen" id="labor-fallen"></div>
+
+          <div class="labor-liste-head">
+            <div>
+              <span class="eyebrow">Selbst nachgesehen</span>
+              <h4>Geprüfte Chargen</h4>
+            </div>
+          </div>
+          <div id="labor-liste" class="labor-liste"></div>
+
+          <p class="labor-fuss">Der Prüfer baut nur die offizielle Adresse des Labors und öffnet sie. Er ruft dort keine Daten ab — automatisierte Zugriffe sind bei Janoshik ausdrücklich untersagt, und das respektieren wir.</p>
+        </div>
+
         <div class="exp-controls">
           <div class="chips-bar" id="sc-chips" role="tablist"></div>
         </div>
@@ -604,40 +639,6 @@
           <div id="khavinson-grid" class="exp-grid"></div>
         </div>
 
-        <!-- Laborprüfer. Steht hier und nicht bei den Bezugsquellen, weil die
-             Frage „ist da drin, was draufsteht" bei genau diesen Substanzen
-             gestellt wird — und weil sie sich hier stellt, BEVOR jemand kauft. -->
-        <div class="labor-section" id="laborcheck">
-          <div class="labor-head">
-            <span class="eyebrow">Laborbericht prüfen</span>
-            <h3>🔬 Ist da drin, was draufsteht?</h3>
-            <p>Seriöse Anbieter lassen ihre Chargen extern analysieren und geben dir Auftragsnummer und Prüfschlüssel. Damit rufst du den Bericht beim Labor selbst auf — nicht beim Shop. Ein Screenshot ist kein Bericht.</p>
-          </div>
-
-          <div class="labor-box card">
-            <label class="labor-label" for="labor-eingabe">Prüflink einfügen — oder Auftragsnummer und Schlüssel</label>
-            <div class="labor-zeile">
-              <input type="text" id="labor-eingabe" class="labor-input"
-                     placeholder="85193 UD6BMCBK162L"
-                     autocomplete="off" spellcheck="false" inputmode="text">
-              <button type="button" id="labor-pruefen" class="labor-btn">Bericht öffnen</button>
-            </div>
-            <p class="labor-status" id="labor-status">Der Bericht öffnet sich beim Labor in einem neuen Tab. Wir fragen dort nichts ab und speichern nichts.</p>
-            <a class="labor-melden" id="labor-melden" href="#" hidden>Diesen Bericht für die Liste melden →</a>
-          </div>
-
-          <div class="labor-fallen" id="labor-fallen"></div>
-
-          <div class="labor-liste-head">
-            <div>
-              <span class="eyebrow">Selbst nachgesehen</span>
-              <h4>Geprüfte Chargen</h4>
-            </div>
-          </div>
-          <div id="labor-liste" class="labor-liste"></div>
-
-          <p class="labor-fuss">Der Prüfer baut nur die offizielle Adresse des Labors und öffnet sie. Er ruft dort keine Daten ab — automatisierte Zugriffe sind bei Janoshik ausdrücklich untersagt, und das respektieren wir.</p>
-        </div>
       </div>
     </section>
 
