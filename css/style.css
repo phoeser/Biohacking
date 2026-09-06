@@ -3735,3 +3735,61 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius); padding: 12px 14px; margin: 0 0 18px;
 }
 .sc-disclaimer strong { color: var(--text); }
+
+/* ---------------------------------------------------------------
+   Laborprüfer (Bereich Peptide)
+   Bewusst nüchtern: Das Feld ist ein Werkzeug, kein Angebot. Die
+   Fallen-Karten sind der eigentliche Inhalt und stehen deshalb
+   gleichwertig neben dem Eingabefeld, nicht darunter als Kleingedrucktes.
+   --------------------------------------------------------------- */
+.labor-section { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--line, #e3e8e6); }
+.labor-head h3 { margin: 6px 0 8px; }
+.labor-head p { margin: 0 0 20px; max-width: 62ch; color: var(--muted, #5a6b66); }
+
+.labor-box { padding: 20px; }
+.labor-label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.labor-zeile { display: flex; gap: 10px; flex-wrap: wrap; }
+.labor-input {
+  flex: 1 1 260px; min-width: 0; padding: 12px 14px; font-size: 16px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  border: 1px solid var(--line, #c9d4d0); border-radius: 10px;
+  background: var(--bg, #fff); color: inherit;
+}
+.labor-input:focus { outline: 2px solid var(--accent, #0e8f63); outline-offset: 1px; }
+.labor-btn {
+  padding: 12px 18px; font-size: 15px; font-weight: 600; cursor: pointer;
+  border: 0; border-radius: 10px; background: var(--accent, #0e8f63); color: #fff;
+}
+.labor-btn:hover { filter: brightness(1.07); }
+.labor-status { margin: 12px 0 0; font-size: 14px; color: var(--muted, #5a6b66); }
+.labor-status.is-ok { color: var(--accent-text, #0a6b4a); }
+.labor-status.is-warn { color: #8a6a16; }
+.labor-melden { display: inline-block; margin-top: 12px; font-size: 14px; font-weight: 600; }
+
+.labor-fallen {
+  display: grid; gap: 14px; margin: 24px 0 8px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.labor-falle {
+  padding: 14px 16px; border: 1px solid var(--line, #e3e8e6); border-radius: 12px;
+  background: var(--card, #fff);
+}
+.labor-falle strong { display: block; margin-bottom: 6px; font-size: 15px; }
+.labor-falle p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted, #5a6b66); }
+
+.labor-liste-head { margin: 32px 0 12px; }
+.labor-liste-head h4 { margin: 4px 0 0; }
+.labor-liste { display: grid; gap: 12px; }
+.labor-eintrag { padding: 16px; }
+.labor-eintrag-kopf { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.labor-eintrag-kopf h4 { margin: 0; }
+.labor-chip {
+  font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 99px;
+  background: var(--accent-soft, #e4f3ec); color: var(--accent-text, #0a6b4a);
+}
+.labor-eintrag-meta { margin: 4px 0 0; font-size: 14px; color: var(--muted, #5a6b66); }
+.labor-eintrag-werte { margin: 8px 0 0; font-size: 15px; font-weight: 600; }
+.labor-eintrag-note { margin: 8px 0 0; font-size: 14px; color: var(--muted, #5a6b66); }
+.labor-eintrag-link { display: inline-block; margin-top: 10px; font-size: 14px; font-weight: 600; }
+
+.labor-fuss { margin: 20px 0 0; font-size: 13px; color: var(--muted-2, #83918d); max-width: 70ch; }
