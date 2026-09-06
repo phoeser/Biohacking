@@ -1820,21 +1820,28 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
   // ---------------------------------------------------------------------
   // Laborprüfer
   //
-  // Drei Schritte statt einem Feld: die zwei Zahlen vom Zertifikat abtippen,
-  // beim Labor den Bericht öffnen, dann hier festhalten, ob es passt. Der
-  // dritte Schritt erscheint erst, wenn der zweite ausgelöst wurde — vorher
-  // wäre er eine Frage ohne Grundlage.
+  // Drei Schritte: die zwei Zahlen vom Zertifikat abtippen, beim Labor den
+  // Bericht öffnen, dann hier festhalten, ob es passt. Der dritte Schritt
+  // erscheint erst, wenn der zweite ausgelöst wurde — vorher wäre er eine
+  // Frage ohne Grundlage.
   //
   // Der Prüfer ruft NICHTS beim Labor ab. Janoshik sperrt maschinelle
   // Zugriffe ausdrücklich aus (403 auf der Berichtsseite, robots.txt mit
-  // ai-train=no und namentlich gesperrten Bots). Das ist keine Hürde, die
-  // man umgeht. Er baut nur die offizielle Prüfadresse und öffnet sie.
+  // ai-train=no und namentlich gesperrten Bots). Er baut nur die offizielle
+  // Prüfadresse und öffnet sie.
+  //
+  // Das Urteil geht direkt in die Datenbank, ohne Umweg über eine Mail. Die
+  // Firestore-Regel lässt genau einen Datensatz mit sechs Feldern zu, mehr
+  // nicht: Auftragsnummer nur Ziffern, Prüfnummer nur Grossbuchstaben und
+  // Ziffern, Urteil nur eine von drei Vorgaben. Ändern und Löschen ist
+  // gesperrt. Die freie Anmerkung wird gespeichert, aber NICHT angezeigt —
+  // sonst wäre die Liste ein offener Weg, einen Shop zu beschimpfen.
   // ---------------------------------------------------------------------
 
   const LABOR_ADRESSE = 'https://janoshik.com/verification/';
   const LABOR_SICHTBAR = 20;     // so viele stehen offen, der Rest scrollt
+  let laborGemeldet = [];        // was aus der Datenbank kommt
 
-  // Aus zwei Feldern — oder aus einem eingefügten Link im ersten Feld.
   function laborLesen(auftragRoh, keyRoh) {
     let auftrag = String(auftragRoh || '').trim();
     let schluessel = String(keyRoh || '').trim();
@@ -1885,26 +1892,54 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       </div>`).join('');
   }
 
+  // Firestore: gemeldete Chargen laufen live mit.
+  function initLaborFirestore() {
+    if (typeof firebase === 'undefined' || !firebase.apps || !firebase.apps.length) return;
+    let db;
+    try { db = firebase.firestore(); } catch (_) { return; }
+    db.collection('labortests').onSnapshot(function (snap) {
+      laborGemeldet = snap.docs.map(function (d) {
+        const x = d.data();
+        return {
+          id: 'fs-' + d.id,
+          gemeldet: true,
+          substanz: x.substanz || 'ohne Angabe',
+          anbieter: x.anbieter || '',
+          labor: 'Janoshik',
+          auftrag: '#' + (x.auftrag || ''),
+          schluessel: x.schluessel || '',
+          urteil: x.urteil || null,
+          datum: (x.erstelltAm && x.erstelltAm.toDate)
+            ? x.erstelltAm.toDate().toISOString().slice(0, 10) : ''
+        };
+      });
+      renderLaborListe();
+    }, function (e) { console.warn('[Labor] Laden fehlgeschlagen:', e.message); });
+  }
+
   function renderLaborListe() {
     const el = $('#labor-liste');
     const zahlEl = $('#labor-zahl');
     if (!el) return;
-    const t = (typeof LABORTESTS !== 'undefined') ? LABORTESTS.slice() : [];
+    const fest = (typeof LABORTESTS !== 'undefined') ? LABORTESTS.slice() : [];
+    const t = fest.concat(laborGemeldet);
     if (zahlEl) {
+      const g = laborGemeldet.length;
       zahlEl.textContent = t.length
-        ? (t.length === 1 ? '1 Charge' : t.length + ' Chargen')
+        ? (t.length + (t.length === 1 ? ' Charge' : ' Chargen')
+           + (g ? ' · ' + g + ' gemeldet' : ''))
         : '';
     }
     if (!t.length) {
       el.classList.remove('is-scroll');
       el.innerHTML = `<div class="erf-empty">
-        Noch kein Eintrag. Hier stehen nur Berichte, die wir selbst aufgerufen
-        und gelesen haben — nicht das, was Shops zeigen.
+        Noch kein Eintrag. Prüf ein Zertifikat und halte oben fest, ob es passt —
+        dann steht es hier.
       </div>`;
       return;
     }
-    // Ab einundzwanzig Einträgen wird die Liste zum Scrollfeld, sonst schiebt
-    // sie die Substanzen immer weiter nach unten.
+    // Ab einundzwanzig Chargen wird die Liste zum Scrollfeld, sonst schiebt
+    // sie die Substanzübersicht immer weiter nach unten.
     el.classList.toggle('is-scroll', t.length > LABOR_SICHTBAR);
     el.innerHTML = t.sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
       .map(function (e) {
@@ -1928,17 +1963,22 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           .filter(Boolean).map(escapeHtml).join(' · ');
         const link = laborLink({ auftrag: String(e.auftrag || '').replace(/^#/, ''),
                                  schluessel: e.schluessel });
-        return `<div class="card labor-eintrag">
+        const fuss = e.gemeldet
+          ? `<p class="labor-eintrag-fuss"><span class="labor-roh">Nutzermeldung — von uns noch nicht nachgesehen</span> ·
+               <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
+                  href="${escapeHtml(link)}">selbst nachprüfen →</a></p>`
+          : `<p class="labor-eintrag-fuss">Von uns geöffnet am ${escapeHtml(e.geprueft || '—')} ·
+               <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
+                  href="${escapeHtml(link)}">selbst nachprüfen →</a></p>`;
+        return `<div class="card labor-eintrag${e.gemeldet ? ' is-roh' : ''}">
           <div class="labor-eintrag-kopf">
             <h4>${escapeHtml(e.substanz || '')}</h4>
             <span class="labor-chip">${escapeHtml(e.labor || '')} ${escapeHtml(e.auftrag || '')}</span>
           </div>
-          <p class="labor-eintrag-meta">${meta}</p>
+          ${meta ? `<p class="labor-eintrag-meta">${meta}</p>` : ''}
           <div class="labor-werte">${urteil}${rein}${mengeHtml}</div>
-          ${e.anmerkung ? `<p class="labor-eintrag-note">${escapeHtml(e.anmerkung)}</p>` : ''}
-          <p class="labor-eintrag-fuss">Von uns geöffnet am ${escapeHtml(e.geprueft || '—')} ·
-            <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
-               href="${escapeHtml(link)}">selbst nachprüfen →</a></p>
+          ${(!e.gemeldet && e.anmerkung) ? `<p class="labor-eintrag-note">${escapeHtml(e.anmerkung)}</p>` : ''}
+          ${fuss}
         </div>`;
       }).join('');
   }
@@ -1950,9 +1990,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     const info = $('#labor-status');
     const schritt3 = $('#labor-schritt3');
     const danke = $('#labor-danke');
-    const melden = $('#labor-melden');
     if (!fA || !fK || !knopf) return;
     let offen = null;
+    let laeuft = false;
 
     function pruefen() {
       const w = laborLesen(fA.value, fK.value);
@@ -1975,9 +2015,8 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       window.open(laborLink(w), '_blank', 'noopener');
       if (schritt3) {
         schritt3.hidden = false;
-        if (danke) { danke.hidden = true; danke.textContent = ''; }
-        if (melden) melden.hidden = true;
-        $$('.labor-u').forEach(b => b.classList.remove('is-aktiv'));
+        if (danke) { danke.hidden = true; danke.className = 'labor-danke'; }
+        $$('.labor-u').forEach(b => { b.classList.remove('is-aktiv'); b.disabled = false; });
         schritt3.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       }
     }
@@ -1987,31 +2026,48 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
       if (e.key === 'Enter') { e.preventDefault(); pruefen(); }
     }));
 
+    function melden(art, b) {
+      if (!offen || laeuft) return;
+      if (typeof firebase === 'undefined' || !firebase.apps || !firebase.apps.length) {
+        if (danke) { danke.hidden = false; danke.className = 'labor-danke is-warn';
+          danke.textContent = 'Die Datenbank ist gerade nicht erreichbar — bitte später noch einmal.'; }
+        return;
+      }
+      laeuft = true;
+      $$('.labor-u').forEach(x => { x.classList.toggle('is-aktiv', x === b); x.disabled = true; });
+      if (danke) { danke.hidden = false; danke.className = 'labor-danke'; danke.textContent = 'Wird gespeichert…'; }
+
+      const satz = {
+        auftrag: offen.auftrag,
+        schluessel: offen.schluessel,
+        urteil: art,
+        substanz: ($('#labor-substanz')?.value || '').trim().slice(0, 80),
+        anbieter: ($('#labor-anbieter')?.value || '').trim().slice(0, 80),
+        notiz: ($('#labor-notiz')?.value || '').trim().slice(0, 500),
+        status: 'neu',
+        erstelltAm: firebase.firestore.FieldValue.serverTimestamp()
+      };
+      firebase.firestore().collection('labortests').add(satz)
+        .then(function () {
+          if (danke) {
+            danke.className = 'labor-danke is-ok';
+            danke.textContent = art === 'ok'
+              ? 'Gespeichert. Die Charge steht jetzt unten in der Liste.'
+              : 'Gespeichert — und das ist die wichtigere Sorte Meldung. Sie steht jetzt unten in der Liste.';
+          }
+          ['#labor-substanz', '#labor-anbieter', '#labor-notiz'].forEach(s => { const e = $(s); if (e) e.value = ''; });
+        })
+        .catch(function (e) {
+          laeuft = false;
+          $$('.labor-u').forEach(x => { x.disabled = false; x.classList.remove('is-aktiv'); });
+          if (danke) { danke.className = 'labor-danke is-warn';
+            danke.textContent = 'Konnte nicht gespeichert werden: ' + e.message; }
+        })
+        .then(function () { laeuft = false; });
+    }
+
     $$('.labor-u').forEach(function (b) {
-      b.addEventListener('click', function () {
-        if (!offen) return;
-        const art = b.dataset.urteil;
-        const u = LABOR_URTEIL[art];
-        $$('.labor-u').forEach(x => x.classList.toggle('is-aktiv', x === b));
-        if (danke) {
-          danke.hidden = false;
-          danke.textContent = art === 'ok'
-            ? 'Gut. Schick es uns, dann steht die Charge unten in der Liste.'
-            : 'Das ist die wichtigere Sorte Meldung — schick sie uns, damit andere sie sehen.';
-        }
-        if (melden) {
-          melden.hidden = false;
-          melden.href = 'mailto:kontakt@biohackingkompakt.de'
-            + '?subject=' + encodeURIComponent('Laborbericht #' + offen.auftrag + ' — ' + u.text)
-            + '&body=' + encodeURIComponent(
-                'Ergebnis: ' + u.text + '\n'
-                + 'Auftrag: #' + offen.auftrag + '\n'
-                + 'Prüfnummer: ' + offen.schluessel + '\n'
-                + 'Prüflink: ' + laborLink(offen) + '\n\n'
-                + 'Bei welchem Anbieter gekauft:\n'
-                + 'Was ist dir aufgefallen:\n');
-        }
-      });
+      b.addEventListener('click', function () { melden(b.dataset.urteil, b); });
     });
   }
 
@@ -3270,6 +3326,7 @@ WICHTIG – konservative Gewichtsschätzung:
     initHomeProducts();
     initExperimentalView();
     initLaborcheck();
+    initLaborFirestore();
     initBehandlungenView();
     initBlutwerteView();
     initRouter();
