@@ -19,6 +19,8 @@
  *   etikett    was auf dem Fläschchen steht, in mg
  *   gemessen   was das Labor gefunden hat, in mg
  *   reinheit   Prozent oder null
+ *   urteil     'ok' | 'teils' | 'nein' — passt das Zertifikat zu dem,
+ *              was der Anbieter behauptet?
  *   geprueft   wann WIR den Bericht geöffnet haben, ISO
  *   anmerkung  ein Satz, falls etwas auffällt
  *
@@ -39,6 +41,7 @@ const LABORTESTS = [
     etikett: 5,
     gemessen: 4.23,
     reinheit: 99.227,
+    urteil: 'teils',
     geprueft: '2026-09-06',
     anmerkung: 'Sauberes Peptid, zu wenig davon: 4,23 statt 5 mg. Der Bericht ' +
                'merkt an, dass ein früh laufender Peak als Arginin gewertet und ' +
