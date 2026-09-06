@@ -3865,3 +3865,17 @@ button { font-family: inherit; cursor: pointer; }
 }
 .labor-liste-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .labor-zahl { font-size: 14px; color: var(--muted, #5a6b66); font-variant-numeric: tabular-nums; }
+
+/* Gemeldete Chargen sind sichtbar, aber unterscheidbar: gestrichelter Rand
+   und ein Hinweis in der Fußzeile. Wer sie liest, soll auf den ersten Blick
+   sehen, dass hier noch niemand nachgesehen hat. */
+.labor-eintrag.is-roh { border-style: dashed; }
+.labor-roh {
+  font-weight: 600; color: #8a6a16;
+}
+.labor-input--text { font-family: inherit; }
+.labor-feld--breit { flex: 1 1 100%; margin-top: 12px; }
+.labor-urteil { margin-top: 16px; }
+.labor-u:disabled { opacity: .55; cursor: default; }
+.labor-danke.is-ok { color: var(--accent-text, #0a6b4a); }
+.labor-danke.is-warn { color: #8a6a16; }
