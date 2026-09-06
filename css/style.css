@@ -3765,6 +3765,9 @@ button { font-family: inherit; cursor: pointer; }
 .labor-status.is-ok { color: var(--accent-text, #0a6b4a); }
 .labor-status.is-warn { color: #8a6a16; }
 .labor-melden { display: inline-block; margin-top: 12px; font-size: 14px; font-weight: 600; }
+/* display in einer Klasse schlaegt das hidden-Attribut — ohne diese Zeile
+   stand der Melden-Link schon da, bevor irgendetwas geprueft wurde. */
+.labor-melden[hidden] { display: none; }
 
 .labor-fallen {
   display: grid; gap: 14px; margin: 24px 0 8px;
