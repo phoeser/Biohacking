@@ -202,3 +202,9 @@ const LABOR_FALLEN = [
           'Auftragsnummer und Schlüssel zählt — genau dafür ist dieses Feld da.'
   }
 ];
+
+/* Der Prüfer selbst liegt in js/laborcheck.js und wird hier nachgeladen.
+ * Sauberer wäre ein eigener <script>-Eintrag in index.html; der kommt beim
+ * nächsten Deploy vom Rechner aus dazu, dann fällt diese Zeile weg. */
+document.head.appendChild(Object.assign(document.createElement('script'),
+  { src: 'js/laborcheck.js?v=161' }));
