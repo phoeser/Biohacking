@@ -1820,57 +1820,47 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
   // ---------------------------------------------------------------------
   // Laborprüfer
   //
-  // Der Prüfer ruft NICHTS beim Labor ab. Janoshik sperrt maschinelle
-  // Zugriffe ausdrücklich aus (403 auf der Prüfseite, robots.txt mit
-  // ai-train=no und namentlich gesperrten Bots). Das ist keine Hürde, die
-  // man umgeht. Er baut deshalb nur die offizielle Prüfadresse und öffnet
-  // sie — der Nutzer sieht das Ergebnis beim Labor selbst, also dort, wo es
-  // fälschungssicher steht.
+  // Drei Schritte statt einem Feld: die zwei Zahlen vom Zertifikat abtippen,
+  // beim Labor den Bericht öffnen, dann hier festhalten, ob es passt. Der
+  // dritte Schritt erscheint erst, wenn der zweite ausgelöst wurde — vorher
+  // wäre er eine Frage ohne Grundlage.
   //
-  // Der eigene Beitrag liegt daneben: die Fallen-Liste, die erklärt, was ein
-  // Bericht NICHT beweist, und die eigene Liste geprüfter Chargen.
+  // Der Prüfer ruft NICHTS beim Labor ab. Janoshik sperrt maschinelle
+  // Zugriffe ausdrücklich aus (403 auf der Berichtsseite, robots.txt mit
+  // ai-train=no und namentlich gesperrten Bots). Das ist keine Hürde, die
+  // man umgeht. Er baut nur die offizielle Prüfadresse und öffnet sie.
   // ---------------------------------------------------------------------
 
   const LABOR_ADRESSE = 'https://janoshik.com/verification/';
+  const LABOR_SICHTBAR = 20;     // so viele stehen offen, der Rest scrollt
 
-  // Auftragsnummer: Ziffern, Raute optional. Schlüssel: 8 bis 20 Zeichen,
-  // Buchstaben und Ziffern. Beides absichtlich streng — ein Tippfehler soll
-  // hier auffallen und nicht erst beim Labor.
-  function laborLesen(eingabe) {
-    const roh = String(eingabe || '').trim();
-    if (!roh) return null;
-    let auftrag = '', schluessel = '';
+  // Aus zwei Feldern — oder aus einem eingefügten Link im ersten Feld.
+  function laborLesen(auftragRoh, keyRoh) {
+    let auftrag = String(auftragRoh || '').trim();
+    let schluessel = String(keyRoh || '').trim();
 
-    // Ganzer Link eingefügt
-    if (/^https?:\/\//i.test(roh)) {
+    if (/^https?:\/\//i.test(auftrag)) {
       let u;
-      try { u = new URL(roh); } catch (e) { return null; }
+      try { u = new URL(auftrag); } catch (e) { return null; }
       if (!/(^|\.)janoshik\.com$/i.test(u.hostname)) return null;
-      auftrag = u.searchParams.get('task') || '';
-      schluessel = u.searchParams.get('key') || '';
-      // Die Berichtsadresse traegt die Werte im Pfad, dazwischen aber den
-      // Substanznamen: /tests/96518-bpc_157_5mg_Q6HV1KENIDQM. Der Schluessel
-      // ist der letzte Abschnitt, nicht alles hinter der Nummer.
-      if (!auftrag || !schluessel) {
+      const t = u.searchParams.get('task') || '';
+      const k = u.searchParams.get('key') || '';
+      if (t && k) { auftrag = t; schluessel = k; }
+      else {
+        // Die Berichtsadresse trägt beides im Pfad, dazwischen aber den
+        // Substanznamen: /tests/96518-bpc_157_5mg_Q6HV1KENIDQM.
         const m = u.pathname.match(/\/tests\/(\d+)-(.+)$/);
-        if (m) {
-          auftrag = m[1];
-          const stuecke = m[2].split('_');
-          schluessel = stuecke[stuecke.length - 1];
-        }
+        if (!m) return null;
+        const st = m[2].split('_');
+        auftrag = m[1];
+        schluessel = st[st.length - 1];
       }
-    } else {
-      // Zwei Werte, getrennt durch Leerzeichen, Komma, Semikolon oder Schrägstrich
-      const teile = roh.split(/[\s,;/]+/).filter(Boolean);
-      if (teile.length !== 2) return null;
-      auftrag = teile[0];
-      schluessel = teile[1];
     }
 
-    auftrag = String(auftrag).replace(/^#/, '').trim();
-    schluessel = String(schluessel).trim().toUpperCase();
+    auftrag = auftrag.replace(/^#/, '').replace(/\s+/g, '');
+    schluessel = schluessel.replace(/\s+/g, '').toUpperCase();
     if (!/^\d{3,9}$/.test(auftrag)) return null;
-    if (!/^[A-Z0-9_]{6,24}$/.test(schluessel)) return null;
+    if (!/^[A-Z0-9]{8,20}$/.test(schluessel)) return null;
     return { auftrag: auftrag, schluessel: schluessel };
   }
 
@@ -1878,6 +1868,12 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     return LABOR_ADRESSE + '?task=' + encodeURIComponent('#' + w.auftrag)
          + '&key=' + encodeURIComponent(w.schluessel);
   }
+
+  const LABOR_URTEIL = {
+    ok:    { text: 'Alles passt',  klasse: 'is-ok' },
+    teils: { text: 'Teilweise',    klasse: 'is-teils' },
+    nein:  { text: 'Passt nicht',  klasse: 'is-nein' }
+  };
 
   function renderLaborFallen() {
     const el = $('#labor-fallen');
@@ -1891,16 +1887,26 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
 
   function renderLaborListe() {
     const el = $('#labor-liste');
+    const zahlEl = $('#labor-zahl');
     if (!el) return;
-    const t = (typeof LABORTESTS !== 'undefined') ? LABORTESTS : [];
+    const t = (typeof LABORTESTS !== 'undefined') ? LABORTESTS.slice() : [];
+    if (zahlEl) {
+      zahlEl.textContent = t.length
+        ? (t.length === 1 ? '1 Charge' : t.length + ' Chargen')
+        : '';
+    }
     if (!t.length) {
+      el.classList.remove('is-scroll');
       el.innerHTML = `<div class="erf-empty">
-        Noch kein Eintrag. Hier stehen künftig nur Berichte, die wir selbst
-        aufgerufen und gelesen haben — nicht das, was Shops zeigen.
+        Noch kein Eintrag. Hier stehen nur Berichte, die wir selbst aufgerufen
+        und gelesen haben — nicht das, was Shops zeigen.
       </div>`;
       return;
     }
-    el.innerHTML = t.slice().sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
+    // Ab einundzwanzig Einträgen wird die Liste zum Scrollfeld, sonst schiebt
+    // sie die Substanzen immer weiter nach unten.
+    el.classList.toggle('is-scroll', t.length > LABOR_SICHTBAR);
+    el.innerHTML = t.sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
       .map(function (e) {
         // Die Menge ist die Zahl, die übersehen wird — deshalb steht sie
         // hier ausgerechnet und nicht nur abgeschrieben.
@@ -1916,6 +1922,8 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         const rein = (e.reinheit != null)
           ? `<span class="labor-wert is-gut">Reinheit ${escapeHtml(String(e.reinheit).replace('.', ','))} %</span>`
           : '';
+        const u = LABOR_URTEIL[e.urteil];
+        const urteil = u ? `<span class="labor-urteil-chip ${u.klasse}">${escapeHtml(u.text)}</span>` : '';
         const meta = [e.anbieter, e.charge ? 'Charge ' + e.charge : '', e.datum]
           .filter(Boolean).map(escapeHtml).join(' · ');
         const link = laborLink({ auftrag: String(e.auftrag || '').replace(/^#/, ''),
@@ -1926,7 +1934,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
             <span class="labor-chip">${escapeHtml(e.labor || '')} ${escapeHtml(e.auftrag || '')}</span>
           </div>
           <p class="labor-eintrag-meta">${meta}</p>
-          <div class="labor-werte">${rein}${mengeHtml}</div>
+          <div class="labor-werte">${urteil}${rein}${mengeHtml}</div>
           ${e.anmerkung ? `<p class="labor-eintrag-note">${escapeHtml(e.anmerkung)}</p>` : ''}
           <p class="labor-eintrag-fuss">Von uns geöffnet am ${escapeHtml(e.geprueft || '—')} ·
             <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
@@ -1934,41 +1942,76 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
         </div>`;
       }).join('');
   }
+
   function initLaborcheck() {
-    const feld = $('#labor-eingabe');
+    const fA = $('#labor-auftrag');
+    const fK = $('#labor-key');
     const knopf = $('#labor-pruefen');
     const info = $('#labor-status');
+    const schritt3 = $('#labor-schritt3');
+    const danke = $('#labor-danke');
     const melden = $('#labor-melden');
-    if (!feld || !knopf) return;
+    if (!fA || !fK || !knopf) return;
+    let offen = null;
 
     function pruefen() {
-      const w = laborLesen(feld.value);
+      const w = laborLesen(fA.value, fK.value);
       if (!w) {
         info.className = 'labor-status is-warn';
-        info.textContent = 'Das sieht nicht nach Auftragsnummer und Schlüssel aus. '
-          + 'Entweder den ganzen Prüflink einfügen oder beides getrennt, z. B. 85193 UD6BMCBK162L.';
-        if (melden) melden.hidden = true;
+        info.textContent = 'Das passt noch nicht zusammen. Die Auftragsnummer besteht nur aus '
+          + 'Ziffern, die Prüfnummer aus acht bis zwanzig Buchstaben und Ziffern. '
+          + 'Einen fertigen Prüflink kannst du auch komplett ins erste Feld einfügen.';
+        if (schritt3) schritt3.hidden = true;
         return;
       }
-      const url = laborLink(w);
+      // Sauber zurückschreiben, damit man sieht, was erkannt wurde
+      fA.value = '#' + w.auftrag;
+      fK.value = w.schluessel;
+      offen = w;
       info.className = 'labor-status is-ok';
-      info.innerHTML = 'Auftrag <b>#' + escapeHtml(w.auftrag) + '</b> — der Bericht öffnet sich beim Labor. '
-        + 'Dort steht auch, <b>wer den Auftrag erteilt hat</b>: Ist das nicht dein Shop, belegt der Bericht nichts über ihn.';
-      window.open(url, '_blank', 'noopener');
-      if (melden) {
-        melden.hidden = false;
-        melden.href = 'mailto:kontakt@biohackingkompakt.de'
-          + '?subject=' + encodeURIComponent('Laborbericht für die Liste: #' + w.auftrag)
-          + '&body=' + encodeURIComponent(
-              'Substanz:\nAnbieter:\nGetestete Menge laut Bericht:\nReinheit laut Bericht:\n'
-              + 'Datum des Berichts:\n\nPrüflink: ' + url + '\n\n'
-              + 'Bitte nur senden, wenn du den Bericht selbst geöffnet hast.');
+      info.innerHTML = 'Auftrag <b>#' + escapeHtml(w.auftrag) + '</b> geöffnet. '
+        + 'Beim Labor auf <b>Open report</b> klicken — dort steht unter <b>Client</b>, '
+        + 'wer den Test beauftragt hat.';
+      window.open(laborLink(w), '_blank', 'noopener');
+      if (schritt3) {
+        schritt3.hidden = false;
+        if (danke) { danke.hidden = true; danke.textContent = ''; }
+        if (melden) melden.hidden = true;
+        $$('.labor-u').forEach(b => b.classList.remove('is-aktiv'));
+        schritt3.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       }
     }
 
     knopf.addEventListener('click', pruefen);
-    feld.addEventListener('keydown', function (e) {
+    [fA, fK].forEach(f => f.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') { e.preventDefault(); pruefen(); }
+    }));
+
+    $$('.labor-u').forEach(function (b) {
+      b.addEventListener('click', function () {
+        if (!offen) return;
+        const art = b.dataset.urteil;
+        const u = LABOR_URTEIL[art];
+        $$('.labor-u').forEach(x => x.classList.toggle('is-aktiv', x === b));
+        if (danke) {
+          danke.hidden = false;
+          danke.textContent = art === 'ok'
+            ? 'Gut. Schick es uns, dann steht die Charge unten in der Liste.'
+            : 'Das ist die wichtigere Sorte Meldung — schick sie uns, damit andere sie sehen.';
+        }
+        if (melden) {
+          melden.hidden = false;
+          melden.href = 'mailto:kontakt@biohackingkompakt.de'
+            + '?subject=' + encodeURIComponent('Laborbericht #' + offen.auftrag + ' — ' + u.text)
+            + '&body=' + encodeURIComponent(
+                'Ergebnis: ' + u.text + '\n'
+                + 'Auftrag: #' + offen.auftrag + '\n'
+                + 'Prüfnummer: ' + offen.schluessel + '\n'
+                + 'Prüflink: ' + laborLink(offen) + '\n\n'
+                + 'Bei welchem Anbieter gekauft:\n'
+                + 'Was ist dir aufgefallen:\n');
+        }
+      });
     });
   }
 
