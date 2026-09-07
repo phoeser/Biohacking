@@ -11,12 +11,13 @@
  * Abgefragt wird bei keinem Labor etwas. Beide sperren maschinelle Zugriffe
  * ausdrücklich aus. Das Modul baut nur die offizielle Prüfadresse.
  *
- * Janoshik nimmt beide Werte über die Adresse entgegen — geprüft, der
- * Bericht öffnet sich direkt. Analiza Białek nimmt sie über ein Formular;
- * ob die Adresse auch geht, ist NICHT geprüft. Dort wird deshalb die
- * Ergebnisseite geöffnet und beide Werte liegen mit Kopierknopf daneben,
- * samt Übersetzung der polnischen Feldnamen. Ein sichtbarer Zwischenschritt
- * ist besser als ein Link, der still ins Leere führt.
+ * Beide Labore nehmen die Werte inzwischen über die Adresse entgegen — der
+ * Bericht öffnet sich direkt. Bei Janoshik gehen Auftragsnummer und Schlüssel
+ * in die Adresse, bei Analiza Białek reicht der Schlüssel (am 07.09.2026 an
+ * drei Berichten nachgesehen). Der Kopierkasten für die Formulareingabe wird
+ * dadurch für kein Labor mehr gebraucht; die Verdrahtung bleibt stehen, weil
+ * sie an `direkt` haengt und ein Labor ohne Direktlink jederzeit dazukommen
+ * kann.
  */
 (function () {
   'use strict';
@@ -117,12 +118,13 @@
     + '<div class="labor-schritt"><div class="labor-nr">2</div><div class="labor-inhalt">'
     +   '<h4>Beim Labor den Bericht öffnen</h4>'
     +   '<p class="labor-erklaer">Die Laborseite zeigt zuerst oft nur, dass der Test in '
-    +   'der Datenbank ist — erst ein Klick öffnet das echte Zertifikat. Bei '
-    +   '<b>Janoshik</b> heißt der Knopf <b>Open report</b>, bei <b>Analiza Białek</b> '
-    +   'trägst du die beiden Werte in das polnische Formular ein. Vergleiche im Bericht '
-    +   'vier Dinge mit dem, was dein Anbieter zeigt: wer den Test beauftragt hat '
-    +   '(<b>Client</b>), welche Probe (<b>Sample</b>), welche Charge (<b>Batch</b>) — '
-    +   'und die Ergebniszeilen, denn <b>Menge und Reinheit stehen getrennt</b>.</p>'
+    +   'der Datenbank ist — bei <b>Janoshik</b> öffnet erst ein Klick auf '
+    +   '<b>Open report</b> das echte Zertifikat. Bei <b>Analiza Białek</b> kommt '
+    +   'das PDF sofort. Vergleiche im Bericht vier Dinge mit dem, was dein Anbieter '
+    +   'zeigt: wer den Test beauftragt hat (<b>Client</b>), welche Probe '
+    +   '(<b>Sample</b>), welche Charge (<b>Batch</b>) — und die Ergebniszeilen, denn '
+    +   '<b>Menge und Reinheit stehen getrennt</b>. Steht in einer der beiden Zeilen '
+    +   'nichts, ist sie nicht geprüft worden — das ist kein bestandener Test.</p>'
     +   '<div class="labor-kopieren" id="labor2-kopieren" hidden></div>'
     + '</div></div>'
 
@@ -153,6 +155,14 @@
     + '<div class="labor-fallen" id="labor2-fallen"></div>'
     + '<div class="labor-liste-head"><div><span class="eyebrow">Selbst nachgesehen</span>'
     +   '<h4>Geprüfte Chargen</h4></div><span class="labor-zahl" id="labor2-zahl"></span></div>'
+    // Eine kurze Liste sieht nach Panne aus, wenn niemand sagt, warum sie kurz
+    // ist. Sie ist kurz, weil nur zaehlt, was jemand selbst geoeffnet hat.
+    + '<p class="labor-erklaer">Wenige Einträge — und das mit Absicht. Hier steht nur, '
+    + 'was wir selbst beim Labor aufgerufen haben, nicht was ein Shop zeigt. Dass es so '
+    + 'wenige sind, liegt weniger an uns als daran, dass die meisten öffentlich '
+    + 'geteilten Zertifikate keinen Prüfcode tragen (siehe oben). Hast du einen Bericht '
+    + 'mit Auftragsnummer und Passwort, prüf ihn oben — deine Meldung landet in dieser '
+    + 'Liste.</p>'
     + '<div id="labor2-liste" class="labor-liste"></div>'
     + '<p class="labor-fuss">Der Prüfer baut nur die offizielle Adresse des Labors und '
     + 'öffnet sie. Er ruft dort keine Daten ab — automatisierte Zugriffe sind bei beiden '
@@ -232,7 +242,7 @@
         var an = Math.round(e.gemessen / e.etikett * 1000) / 10;
         menge = '<span class="labor-wert ' + (an < 95 ? 'is-knapp' : 'is-gut') + '">'
           + esc(String(e.gemessen).replace('.', ',')) + ' von '
-          + esc(String(e.etikett).replace('.', ',')) + ' mg <b>('
+          + esc(String(e.etikett).replace('.', ',')) + ' ' + esc(e.einheit || 'mg') + ' <b>('
           + esc(String(an).replace('.', ',')) + ' %)</b></span>';
       }
       var rein = (e.reinheit != null) ? '<span class="labor-wert is-gut">Reinheit '
