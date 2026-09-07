@@ -3958,3 +3958,9 @@ button { font-family: inherit; cursor: pointer; }
 /* Der Abschnitt bringt oben eigenen Abstand und eine Trennlinie mit — beides
    ist im Aufklapper doppelt gemoppelt. */
 .labor-auf .labor-section { margin-top: 8px; padding-top: 0; border-top: 0; }
+/* Die Zusammenfassung sagt schon „Laborbericht prüfen — ist da drin, was
+   draufsteht?". Im Aufklapper stünde dieselbe Überschrift ein zweites Mal;
+   der erklärende Absatz darunter bleibt. */
+.labor-auf .labor-head .eyebrow,
+.labor-auf .labor-head h3 { display: none; }
+.labor-auf .labor-head p { margin-top: 0; }
