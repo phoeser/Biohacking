@@ -3964,3 +3964,100 @@ button { font-family: inherit; cursor: pointer; }
 .labor-auf .labor-head .eyebrow,
 .labor-auf .labor-head h3 { display: none; }
 .labor-auf .labor-head p { margin-top: 0; }
+
+/* ---------------------------------------------------------------------------
+   v165 — Aufklapper prominenter, Chargenliste als Tabelle
+--------------------------------------------------------------------------- */
+.labor-auf {
+  background: linear-gradient(180deg, rgba(47,139,106,0.10) 0%, rgba(47,139,106,0.04) 100%);
+  border: 1px solid rgba(47, 139, 106, 0.30);
+  border-left: 5px solid var(--accent, #2f8b6a);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 0 0 22px;
+  font-size: 14px;
+}
+.labor-auf > summary { align-items: center; }
+.labor-auf-titel { display: flex; flex-direction: column; gap: 2px; }
+.labor-auf-titel b {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a6048;
+  letter-spacing: -0.2px;
+}
+.labor-auf-sub {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted, #5a6560);
+  line-height: 1.4;
+}
+.labor-auf-zahl {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1a6048;
+  background: rgba(47, 139, 106, 0.12);
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+.labor-auf-toggle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent, #2f8b6a);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+.labor-auf > summary:hover .labor-auf-toggle { background: #26735a; }
+.labor-auf[open] { padding-bottom: 18px; }
+
+/* Chargenliste: klassische Tabelle statt Karten. */
+.labor-liste { display: block; }
+.labor-liste.is-scroll { }
+.labor-tab {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  line-height: 1.35;
+}
+.labor-tab thead th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-muted, #5a6560);
+  border-bottom: 2px solid rgba(47, 139, 106, 0.30);
+  padding: 0 10px 6px 0;
+  white-space: nowrap;
+}
+.labor-tab tbody th,
+.labor-tab tbody td {
+  border-bottom: 1px solid var(--line, #e3e8e6);
+  padding: 8px 10px 8px 0;
+  vertical-align: top;
+  text-align: left;
+}
+.labor-tab tbody th { font-weight: 600; color: var(--text); }
+.labor-tab tbody tr:last-child th,
+.labor-tab tbody tr:last-child td { border-bottom: 0; }
+.labor-tab tbody tr.is-roh { background: rgba(212, 138, 40, 0.05); }
+.labor-t-num { text-align: right !important; white-space: nowrap; }
+.labor-t-klein {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-dim, #8a948f);
+  margin-top: 1px;
+}
+.labor-t-wert { font-weight: 700; }
+.labor-t-wert.is-gut { color: #1a6048; }
+.labor-t-wert.is-knapp { color: #8a6a16; }
+.labor-t-leer { color: var(--text-dim, #8a948f); }
+.labor-t-link { font-weight: 600; white-space: nowrap; }
+.labor-tab .labor-urteil-chip { font-size: 11px; }
+.labor-tab .labor-roh { font-style: italic; }
+/* Schmale Fenster: die Tabelle scrollt seitlich, statt zu zerbrechen. */
+@media (max-width: 720px) {
+  .labor-liste { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .labor-tab { min-width: 640px; }
+}
