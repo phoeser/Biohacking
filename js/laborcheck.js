@@ -233,45 +233,56 @@
     // Ab einundzwanzig Chargen wird die Liste zum Scrollfeld, sonst schiebt
     // sie die Substanzübersicht immer weiter nach unten.
     el.classList.toggle('is-scroll', t.length > SICHTBAR);
-    el.innerHTML = t.sort(function (a, b) {
+    var zeilen = t.sort(function (a, b) {
       return String(b.datum || '').localeCompare(String(a.datum || ''));
     }).map(function (e) {
       var d = def(e.labor);
-      // Die Menge ist die Zahl, die übersehen wird — deshalb steht sie hier
-      // ausgerechnet und nicht nur abgeschrieben.
-      var menge = '';
+      // Die Menge ist die Zahl, die uebersehen wird — deshalb steht der
+      // Prozentsatz gross und die abgeschriebenen Rohwerte klein darunter.
+      var menge = '<span class="labor-t-leer">—</span>';
       if (e.etikett && e.gemessen) {
         var an = Math.round(e.gemessen / e.etikett * 1000) / 10;
-        menge = '<span class="labor-wert ' + (an < 95 ? 'is-knapp' : 'is-gut') + '">'
-          + esc(String(e.gemessen).replace('.', ',')) + ' von '
-          + esc(String(e.etikett).replace('.', ',')) + ' ' + esc(e.einheit || 'mg') + ' <b>('
-          + esc(String(an).replace('.', ',')) + ' %)</b></span>';
+        menge = '<b class="labor-t-wert ' + (an < 95 ? 'is-knapp' : 'is-gut') + '">'
+          + esc(String(an).replace('.', ',')) + ' %</b>'
+          + '<span class="labor-t-klein">' + esc(String(e.gemessen).replace('.', ','))
+          + ' von ' + esc(String(e.etikett).replace('.', ',')) + ' '
+          + esc(e.einheit || 'mg') + '</span>';
       }
-      var rein = (e.reinheit != null) ? '<span class="labor-wert is-gut">Reinheit '
-        + esc(String(e.reinheit).replace('.', ',')) + ' %</span>' : '';
+      var rein = (e.reinheit != null)
+        ? esc(String(e.reinheit).replace('.', ',')) + ' %'
+        : '<span class="labor-t-leer">—</span>';
       var u = URTEIL[e.urteil];
-      var urt = u ? '<span class="labor-urteil-chip ' + u.klasse + '">' + esc(u.text) + '</span>' : '';
-      // Eine fehlende Charge ist ein Befund, kein Leerzeichen.
-      var ch = e.gemeldet ? '' : (e.charge ? 'Charge ' + e.charge : 'ohne Chargennummer');
-      var meta = [e.anbieter, ch, e.datum].filter(Boolean).map(esc).join(' · ');
+      var urt = u ? '<span class="labor-urteil-chip ' + u.klasse + '">' + esc(u.text) + '</span>'
+                  : '<span class="labor-t-leer">—</span>';
+      // Eine fehlende Chargennummer ist ein Befund, kein Leerzeichen.
+      var ch = e.gemeldet ? '' : (e.charge ? esc(e.charge) : '<i>ohne Nummer</i>');
       var href = link({ auftrag: String(e.auftrag || '').replace(/^#/, ''),
                         schluessel: e.schluessel, labor: e.labor });
-      var lt = (d && d.direkt) ? 'selbst nachprüfen →' : 'beim Labor nachprüfen →';
-      var fuss = e.gemeldet
-        ? '<p class="labor-eintrag-fuss"><span class="labor-roh">Nutzermeldung — von uns '
-          + 'noch nicht nachgesehen</span> · <a class="labor-eintrag-link" target="_blank" '
-          + 'rel="noopener noreferrer" href="' + esc(href) + '">' + lt + '</a></p>'
-        : '<p class="labor-eintrag-fuss">Von uns geöffnet am ' + esc(e.geprueft || '—')
-          + ' · <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer" '
-          + 'href="' + esc(href) + '">' + lt + '</a></p>';
-      return '<div class="card labor-eintrag' + (e.gemeldet ? ' is-roh' : '') + '">'
-        + '<div class="labor-eintrag-kopf"><h4>' + esc(e.substanz) + '</h4>'
-        + '<span class="labor-chip">' + esc(d ? d.name : '') + ' ' + esc(e.auftrag || '') + '</span></div>'
-        + (meta ? '<p class="labor-eintrag-meta">' + meta + '</p>' : '')
-        + '<div class="labor-werte">' + urt + rein + menge + '</div>'
-        + ((!e.gemeldet && e.anmerkung) ? '<p class="labor-eintrag-note">' + esc(e.anmerkung) + '</p>' : '')
-        + fuss + '</div>';
+      var lt = (d && d.direkt) ? 'nachprüfen' : 'zum Labor';
+      var quelle = e.gemeldet
+        ? '<span class="labor-roh">gemeldet</span>'
+        : ('geprüft ' + esc(e.geprueft || e.datum || '—'));
+      return '<tr' + (e.gemeldet ? ' class="is-roh"' : '') + '>'
+        + '<th scope="row">' + esc(e.substanz)
+        + (e.anmerkung && !e.gemeldet
+            ? '<span class="labor-t-klein">' + esc(e.anmerkung) + '</span>' : '')
+        + '</th>'
+        + '<td>' + esc(e.anbieter || '') + (ch ? '<span class="labor-t-klein">Charge ' + ch + '</span>' : '') + '</td>'
+        + '<td class="labor-t-num">' + menge + '</td>'
+        + '<td class="labor-t-num">' + rein + '</td>'
+        + '<td>' + urt + '</td>'
+        + '<td>' + esc(d ? d.name : '') + '<span class="labor-t-klein">' + quelle + '</span></td>'
+        + '<td><a class="labor-t-link" target="_blank" rel="noopener noreferrer" href="'
+        + esc(href) + '">' + lt + ' →</a></td>'
+        + '</tr>';
     }).join('');
+    el.innerHTML = '<table class="labor-tab"><thead><tr>'
+      + '<th scope="col">Substanz</th><th scope="col">Anbieter</th>'
+      + '<th scope="col" class="labor-t-num">Menge</th>'
+      + '<th scope="col" class="labor-t-num">Reinheit</th>'
+      + '<th scope="col">Urteil</th><th scope="col">Labor</th>'
+      + '<th scope="col"><span class="labor-t-vb">Zertifikat</span></th>'
+      + '</tr></thead><tbody>' + zeilen + '</tbody></table>';
   }
 
   // ----------------------------------------------------------- Datenbank
