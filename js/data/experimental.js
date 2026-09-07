@@ -351,7 +351,7 @@ const EXPERIMENTAL = [
     short: 'Der beliebte GH-Stack: GHRH-Analog plus selektives Ghrelin-Peptid heben die eigene Wachstumshormon-Ausschüttung pulsatil an – geschätzt für Tiefschlaf, Regeneration und Bindegewebe, ohne Cortisol-/Prolaktin-Anstieg.',
     moa: 'CJC-1295 ist ein langwirksames Analogon des Wachstumshormon-Releasing-Hormons (GHRH) und hebt den GH-Grundspiegel an; die DAC-Variante bindet an Albumin und verlängert die Halbwertszeit auf ~6–8 Tage (eine Injektion pro Woche). Ipamorelin ist dagegen ein selektives Ghrelin-Mimetikum (Pentapeptid), das den Rezeptor GHSR-1a aktiviert und kurze, pulsatile GH-Spitzen auslöst (Halbwertszeit ~2 h), laut Quelllage ohne nennenswerten Anstieg von Cortisol oder Prolaktin. Beide stimulieren über unterschiedliche Rezeptorwege dieselbe Achse und wirken daher synergistisch: CJC-1295 liefert die anhaltende Grundanhebung, Ipamorelin die scharfen Pulse darauf. Das Profil ähnelt dem jugendlichen GH-Muster; da das Somatostatin-Feedback erhalten bleibt, gilt der Ansatz als physiologischer als die Gabe von exogenem HGH.',
     benefits: [
-      'Erhöht GH und IGF-1 über kombinierte Grundanhebung plus pulsatile Spitzen',
+      'Hebt GH und IGF-1 über kombinierte Grundanhebung plus pulsatile Spitzen – Mechanismus, kein belegter Endpunkt',
       'Bessere Schlafqualität (mehr Tiefschlaf) bei abendlicher Anwendung – häufigster berichteter Effekt',
       'Unterstützt Muskelaufbau über gesteigerte Proteinsynthese (meist ab Woche 6–12)',
       'Moderater Fettabbau durch GH-vermittelte Lipolyse, v.a. im Kaloriendefizit',
@@ -447,7 +447,7 @@ const EXPERIMENTAL = [
     benefits: [
       'Beschleunigt im Tiermodell die Regeneration von Sehnen, Bändern und Muskelgewebe',
       'Wirkt systemisch und kann mehrere/entfernte Verletzungszonen zugleich erreichen',
-      'Fördert die Gefäßneubildung und damit die Versorgung geschädigten Gewebes',
+      'Fördert im Tiermodell die Gefäßneubildung und damit die Versorgung geschädigten Gewebes – am Menschen nicht belegt',
       'Kann Narbengewebe reduzieren und die funktionelle Heilung begünstigen',
       'Keine hormonelle Wirkung, kein Eingriff in die Testosteron-Achse',
       'Gilt in Anwenderberichten als gut verträglich und gut mit BPC-157 kombinierbar'
@@ -492,7 +492,7 @@ const EXPERIMENTAL = [
     short: 'Ein körpereigenes Kupfer-Tripeptid und der am besten untersuchte Wirkstoff dieser Liste – allerdings topisch: Für die Haut gibt es kontrollierte Studien, für die Injektion praktisch keine.',
     moa: 'GHK-Cu (Glycyl-L-Histidyl-L-Lysin, komplexiert mit einem Kupfer(II)-Ion) ist ein natürlich im Blutplasma vorkommendes Tripeptid, dessen Spiegel mit dem Alter deutlich sinkt (~200 ng/ml mit 20, ~80 ng/ml mit 60 Jahren). Es wirkt als pleiotroper Signalgeber bzw. epigenetischer Modulator: In Analysen verändert es die Expression von über 4 000 menschlichen Genen Richtung eines „jüngeren" Musters. Es regt Fibroblasten zur Synthese von Kollagen Typ I/III, Elastin und Glykosaminoglykanen an, wobei Kupfer als Cofaktor der quervernetzenden Lysyloxidase dient. Ergänzend fördert es die Gefäßneubildung (VEGF, bFGF), wirkt antioxidativ (SOD) und entzündungshemmend (TNF-α, IL-6, NF-κB herunter). Die Haut-/Wundheilungsdaten sind teils klinisch (topisch), die systemischen Injektionseffekte beruhen jedoch stark auf präklinischen Daten.',
     benefits: [
-      'Steigert die Kollagensynthese deutlich und verbessert Hautstruktur und Elastizität',
+      'Steigert in der Zellkultur die Kollagensynthese deutlich; Hautstruktur und Elastizität sind am Menschen nur in kleinen, meist herstellernahen Studien untersucht',
       'Beschleunigt im Modell die Wundheilung über Gefäßneubildung und Granulationsgewebe',
       'Wirkt antioxidativ und entzündungshemmend (relevant u.a. bei entzündlichen Hautproblemen)',
       'Topisch beim Haarwachstum mit Minoxidil 2 % vergleichbar – ohne dessen typische Reizungen',
@@ -1642,7 +1642,7 @@ const EXPERIMENTAL = [
     short: 'Der potente, direkt wirkende Muskel-Wachstumsfaktor: eine langwirksame IGF-1-Variante – kraftvoll in der Bodybuilding-Szene, aber mit ernstem Risikoprofil.',
     moa: 'IGF-1 LR3 ist eine chemisch veränderte, langwirksame Form des Insulin-like Growth Factor 1 (dem Vermittler vieler GH-Effekte). Es bindet weniger an Bindeproteine und bleibt dadurch deutlich länger aktiv. Es fördert direkt Zellwachstum, Proteinsynthese und Muskel-Hyperplasie/Hypertrophie. Wegen der direkten, starken Wachstumswirkung wird es in der Muskelaufbau-Szene genutzt – birgt aber deutliche Risiken.',
     benefits: [
-      'Fördert direkt Muskelwachstum (Proteinsynthese, Zellteilung)',
+      'Soll direkt Muskelwachstum fördern (Proteinsynthese, Zellteilung) – Tier- und Zelldaten, keine Humanstudien',
       'Langwirksam – anhaltender IGF-1-Reiz',
       'Kann die Regeneration von Gewebe unterstützen'
     ],
@@ -1777,7 +1777,7 @@ const EXPERIMENTAL = [
     benefits: [
       'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon.',
       'Ausgeprägte Appetitsteigerung, die in präklinischen Modellen für Kachexie-Forschung untersucht wird.',
-      'Erhöht indirekt IGF-1 über die gesteigerte GH-Sekretion.',
+      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.',
       'Wirkt synergistisch mit GHRH-Analoga für eine verstärkte GH-Antwort.',
       'In Tiermodellen Hinweise auf zytoprotektive Effekte an Herz- und anderen Geweben (präklinisch).',
       'Diente als Leitstruktur für die gesamte Klasse der GH-Sekretagoga.'
@@ -1806,7 +1806,7 @@ const EXPERIMENTAL = [
     moa: 'Hexarelin ist ein Agonist am Ghrelin-Rezeptor (GHSR-1a) und löst eine potente pulsatile Ausschüttung von Wachstumshormon aus. Es gilt als eines der stärksten GH-Sekretagoga der GHRP-Reihe. Neben der zentralen GH-Freisetzung bindet Hexarelin präklinisch an den kardialen CD36-Rezeptor, worüber GH-unabhängige, potenziell kardioprotektive Effekte diskutiert werden. Bei wiederholter Gabe kann eine Abschwächung der GH-Antwort (Desensibilisierung) auftreten. Wie andere Sekretagoga kann es Cortisol und Prolaktin leicht erhöhen.',
     benefits: [
       'Sehr potente Stimulation der körpereigenen GH-Ausschüttung.',
-      'Erhöht indirekt IGF-1 über die gesteigerte GH-Sekretion.',
+      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.',
       'Präklinische Hinweise auf GH-unabhängige kardioprotektive Effekte über CD36.',
       'Weniger ausgeprägte Appetitsteigerung als GHRP-6.',
       'Wurde in klinischen Studien als GH-Provokationsmittel eingesetzt.',
@@ -1882,8 +1882,8 @@ const EXPERIMENTAL = [
       'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon über den GHRH-Weg.',
       'Wirkt synergistisch mit GHRP-Sekretagoga für eine verstärkte GH-Antwort.',
       'Längere Wirkdauer als natives GHRH oder Sermorelin durch die Aminosäureaustausche.',
-      'Erhält die pulsatile GH-Physiologie besser als langwirksame DAC-Varianten.',
-      'Erhöht indirekt IGF-1 über die gesteigerte GH-Sekretion.',
+      'Soll die pulsatile GH-Physiologie besser erhalten als langwirksame DAC-Varianten – pharmakologisch plausibel, am Menschen nicht vergleichend untersucht.',
+      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.',
       'Gilt in der Forschung als vergleichsweise selektiv am GHRH-Rezeptor.'
     ],
     risks: [
@@ -2482,7 +2482,7 @@ const EXPERIMENTAL = [
     short: 'Die klassische „Zombie-Zell-Kur" der Longevity-Forschung: räumt seneszente Zellen gepulst aus dem Gewebe – nur wenige Tage im Monat, mit spannenden ersten Studiendaten.',
     moa: 'Dasatinib blockiert pro-survival Pathways (Ephrin-Tyrosinkinasen). Quercetin hemmt BCL-2/PI3K-Pathways. Senstene Zellen sind auf diese „SCAPs" angewiesen und sterben.',
     benefits: [
-      'Reduziert seneszente Zellen in Fettgewebe & Lunge',
+      'Reduziert seneszente Zellen in Fettgewebe und Lunge – Mausdaten und erste sehr kleine Humanstudien',
       'Erste klinische Studie bei IPF zeigt Verbesserung der körperlichen Funktion',
       'Pulsförmige Anwendung minimiert Toxizität',
       'Mausstudien: längere Healthspan'
