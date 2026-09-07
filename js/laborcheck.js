@@ -159,32 +159,6 @@
     + 'Laboren ausdrücklich untersagt, und das respektieren wir.</p>';
   }
 
-  var CSS = ''
-  + '.labor-wahl{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}'
-  + '.labor-w{display:flex;flex-direction:column;align-items:flex-start;gap:1px;'
-  +   'padding:8px 14px;border:1px solid var(--border,#d8d8d2);border-radius:10px;'
-  +   'background:transparent;cursor:pointer;font:inherit;font-weight:600;'
-  +   'line-height:1.25;color:inherit;transition:border-color .15s,background .15s}'
-  + '.labor-w span{font-weight:400;font-size:.78em;opacity:.62}'
-  + '.labor-w:hover{border-color:var(--accent,#0a6b4a)}'
-  + '.labor-w.is-aktiv{border-color:var(--accent,#0a6b4a);background:var(--accent-soft,rgba(10,107,74,.08))}'
-  + '.labor-wo{margin:0 0 14px;font-size:.92em;opacity:.8}'
-  + '.labor-schritt[hidden]{display:none}'
-  + '.labor-kopieren{margin-top:14px;padding:14px 16px;border:1px solid var(--border,#d8d8d2);'
-  +   'border-radius:10px;background:var(--accent-soft,rgba(10,107,74,.06))}'
-  + '.labor-kopf-hinweis{margin:0 0 10px;font-size:.9em;opacity:.8}'
-  + '.labor-kopierzeile{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:6px 0}'
-  + '.labor-kopierfeld{display:flex;flex-direction:column;gap:2px;min-width:0}'
-  + '.labor-kopierfeld b{font-size:.78em;font-weight:600;opacity:.7}'
-  + '.labor-kopierfeld code{font-size:1.02em;letter-spacing:.03em;overflow-wrap:anywhere}'
-  + '.labor-kopf{flex:0 0 auto;padding:6px 12px;font:inherit;font-size:.85em;'
-  +   'border:1px solid var(--border,#d8d8d2);border-radius:8px;background:var(--card,#fff);cursor:pointer}'
-  + '.labor-kopf:hover{border-color:var(--accent,#0a6b4a)}'
-  + '.labor-u2{padding:10px 18px;font:inherit;font-weight:600;border:1px solid var(--border,#d8d8d2);'
-  +   'border-radius:10px;background:var(--card,#fff);cursor:pointer;margin:0 8px 8px 0}'
-  + '.labor-u2:hover{border-color:var(--accent,#0a6b4a)}'
-  + '.labor-u2.is-aktiv{border-color:var(--accent,#0a6b4a);background:var(--accent-soft,rgba(10,107,74,.1))}'
-  + '.labor-u2:disabled{opacity:.55;cursor:default}';
 
   // ------------------------------------------------------------ Zeichnen
   function zeichneWahl() {
@@ -439,9 +413,6 @@
     var wurzel = document.getElementById('laborcheck');
     if (!wurzel || wurzel.dataset.labor2 === 'ja') return;
     wurzel.dataset.labor2 = 'ja';
-    var st = document.createElement('style');
-    st.textContent = CSS;
-    document.head.appendChild(st);
     wurzel.innerHTML = markup();
     zeichneWahl(); felderSetzen(); zeichneFallen(); zeichneListe(); firestore();
     $('#labor2-pruefen').addEventListener('click', pruefen);
