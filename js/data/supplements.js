@@ -438,9 +438,9 @@ const SUPPLEMENTS = [
     short: 'Beruhigende Aminosäure. Kleine Schlafstudien zeigen schnelleres Einschlafen; der Weg darüber ist die Körperkerntemperatur.',
     description: 'Glycin wirkt inhibitorisch im Gehirn (wie GABA) und senkt die Körperkerntemperatur – das ist der plausible Weg zum tieferen Schlaf. Die Humandaten stammen aus wenigen kleinen japanischen Studien mit drei Gramm vor dem Schlafen. Günstig und gut verträglich.',
     benefits: [
-      'Verbessert Schlafqualität',
-      'Reduziert Einschlafzeit',
-      'Erhöht Kollagenproduktion',
+      'Soll die Schlafqualität verbessern – kleine Studien, meist an wenigen Personen',
+      'Soll die Einschlafzeit verkürzen – dieselben kleinen Studien',
+      'Liefert einen Baustein der Kollagensynthese – dass mehr Glycin zu mehr Kollagen führt, ist nicht belegt',
       'Stützt Entgiftung (Glutathion-Baustein)',
       'Kognitive Verbesserung am Morgen danach'
     ],
@@ -501,9 +501,9 @@ const SUPPLEMENTS = [
     short: 'Vorstufe für Dopamin und Noradrenalin. Hilft bei Stress und mentaler Erschöpfung.',
     description: 'Tyrosin ist besonders nützlich in stressigen Situationen (Prüfung, Schlafmangel, Krisen), wenn Neurotransmitter-Reserven erschöpft sind.',
     benefits: [
-      'Steigert Dopamin und Fokus',
+      'Soll Dopamin und Fokus steigern – gezeigt vor allem unter Belastung wie Schlafmangel, nicht im Normalzustand',
       'Hilft bei akutem Stress',
-      'Verbessert Stimmung',
+      'Soll die Stimmung verbessern – Humandaten dünn',
       'Kognitive Performance unter Schlafmangel'
     ],
     risks: [
@@ -562,9 +562,9 @@ const SUPPLEMENTS = [
     short: 'Vielseitige Aminosäure. Neue Longevity-Forschung zeigt Anti-Aging-Effekte.',
     description: 'Taurin-Spiegel sinken mit dem Alter um 80 %. Eine 2023-Studie an Tieren zeigte 12 % längere Lebensdauer durch Taurin-Supplementierung.',
     benefits: [
-      'Senkt Blutdruck',
-      'Verbessert sportliche Leistung',
-      'Schützt Herz und Mitochondrien',
+      'Soll den Blutdruck senken – kleine Studien mit moderaten Effekten',
+      'Soll die sportliche Leistung verbessern – Studien klein und uneinheitlich',
+      'Herz- und Mitochondrienschutz stammt aus Tierdaten – am Menschen keine Endpunktstudien',
       'Kann Lebensdauer verlängern (Tierstudie)',
       'Beruhigt das Nervensystem'
     ],
@@ -598,8 +598,8 @@ const SUPPLEMENTS = [
     description: 'Aus Griffonia-Samen. Überquert Blut-Hirn-Schranke und wird direkt zu Serotonin. Kurzzeitig sehr wirksam, langfristig Vorsicht.',
     benefits: [
       'Hebt Serotoninspiegel',
-      'Verbessert Stimmung',
-      'Fördert Schlaf (als Melatonin-Vorstufe)',
+      'Soll die Stimmung verbessern – kleine, teils alte Studien',
+      'Soll den Schlaf fördern (als Melatonin-Vorstufe) – Humandaten dünn',
       'Kann Appetit reduzieren'
     ],
     risks: [
@@ -664,10 +664,10 @@ const SUPPLEMENTS = [
     short: 'Adaptogen für Energie, Fokus und mentale Belastbarkeit.',
     description: 'Im Gegensatz zu Ashwagandha eher stimulierend. Sehr wirksam bei Burnout, Erschöpfung und Konzentrationsproblemen. 3 % Rosavine / 1 % Salidrosid als Qualitätsmarker.',
     benefits: [
-      'Erhöht mentale und körperliche Energie',
-      'Reduziert Erschöpfung und Burnout',
-      'Verbessert Fokus und Gedächtnis',
-      'Steigert sportliche Ausdauer',
+      'Soll mentale und körperliche Energie erhöhen – kleine Studien, uneinheitlich',
+      'Soll Erschöpfung reduzieren – dazu gibt es die vergleichsweise besten Studien, sie bleiben klein',
+      'Soll Fokus und Gedächtnis verbessern – Humandaten dünn',
+      'Soll die sportliche Ausdauer steigern – Studien klein und widersprüchlich',
       'Stabilisiert Stimmung'
     ],
     risks: [
@@ -745,9 +745,9 @@ const SUPPLEMENTS = [
     description: 'Reishi enthält Triterpene und Polysaccharide, die das Immunsystem modulieren und Entzündungen reduzieren. Abends eingenommen fördert er erholsamen Schlaf.',
     benefits: [
       'Moduliert Immunsystem',
-      'Verbessert Schlafqualität',
-      'Reduziert Stress und Angst',
-      'Schützt Leber',
+      'Soll die Schlafqualität verbessern – kleine Studien',
+      'Soll Stress und Angst reduzieren – Humandaten dünn',
+      'Leberschutz wird postuliert – überwiegend Tierdaten',
       'Kann Entzündungen reduzieren'
     ],
     risks: [
@@ -771,9 +771,9 @@ const SUPPLEMENTS = [
     description: 'Für Cordyceps werden eine höhere ATP-Produktion und bessere Sauerstoffaufnahme berichtet – die Humanstudien dazu sind klein und fanden Effekte vor allem bei Untrainierten, kaum bei Sportlern. Die Geschichte der chinesischen Olympioniken ist Anekdote. Cordyceps militaris (kultiviert) gilt als vergleichbar mit teurem sinensis.',
     benefits: [
       'Mehr Ausdauer und VO2max',
-      'Steigert ATP-Produktion',
+      'Soll die ATP-Produktion steigern – überwiegend Labordaten',
       'Kann Libido verbessern',
-      'Stärkt Immunsystem',
+      'Soll das Immunsystem stärken – kleine Studien',
       'Unterstützt Nierenfunktion'
     ],
     risks: [
@@ -906,8 +906,8 @@ const SUPPLEMENTS = [
     short: 'NAD+-Vorstufe. Zentrales Longevity-Supplement laut David Sinclair.',
     description: 'NAD+-Spiegel sinken mit dem Alter drastisch. NMN wird zu NAD+ umgewandelt, das für Mitochondrienfunktion und DNA-Reparatur kritisch ist.',
     benefits: [
-      'Steigert NAD+-Spiegel',
-      'Verbessert Mitochondrienfunktion',
+      'Steigert NAD+ im Blut – der Anstieg im Gewebe ist schwach belegt',
+      'Soll die Mitochondrienfunktion verbessern – Tierdaten, am Menschen nur Surrogatmarker',
       'Potenziell Anti-Aging-Effekte',
       'Mehr Energie',
       'Unterstützt DNA-Reparatur'
@@ -972,9 +972,9 @@ const SUPPLEMENTS = [
     benefits: [
       'Master-Antioxidans des Körpers',
       'Unterstützt Phase-II-Entgiftung',
-      'Schützt Leber',
-      'Stärkt Immunsystem',
-      'Reduziert oxidativen Stress'
+      'Leberschutz wird postuliert – Humandaten dünn, die orale Aufnahme ist umstritten',
+      'Soll das Immunsystem stärken – überwiegend Labordaten',
+      'Reduziert oxidativen Stress im Labor – Übertragbarkeit auf die Einnahme offen'
     ],
     risks: [
       'Selten: schwefeliger Geruch/Magenbeschwerden',
@@ -1164,7 +1164,7 @@ const SUPPLEMENTS = [
     benefits: [
       'Aktiviert Autophagie',
       'Unterstützt Haarwuchs',
-      'Schützt Herz',
+      'Herzschutz aus Tier- und Kohortendaten – keine harten Endpunkte am Menschen',
       'Anti-Aging-Effekte',
       'Kann Lebensdauer verlängern'
     ],
@@ -1442,7 +1442,7 @@ const SUPPLEMENTS = [
     description: 'Sulforaphan entsteht aus Glucoraphanin in Broccoli-Sprossen, wenn sie zerkaut werden. Aktiviert den NRF2-Transkriptionsfaktor, der hunderte entgiftende und antioxidative Gene einschaltet. Rhonda Patricks Lieblings-Supplement.',
     benefits: [
       'Aktiviert körpereigene Entgiftung (Phase-II-Enzyme)',
-      'Senkt oxidativen Stress und Entzündung',
+      'Senkt Marker für oxidativen Stress und Entzündung – Surrogatmarker, keine Endpunkte',
       'Starke Schutzwirkung gegen viele Krebsarten (präklinisch)',
       'Unterstützt die Leber-Entgiftung',
       'Kann Insulinresistenz verbessern'
@@ -1468,9 +1468,9 @@ const SUPPLEMENTS = [
     description: 'Urolithin A entsteht im Darm aus Ellagsäure (Granatapfel) – aber nur bei ca. 40 % der Menschen. Als Supplement (Mitopure) direkt verfügbar. Erste Humanstudien zeigen verbesserte Muskelkraft und Ausdauer bei Älteren.',
     benefits: [
       'Stimuliert Mitophagie (Recycling alter Mitochondrien)',
-      'Verbessert Muskelkraft und Ausdauer bei Älteren',
-      'Reduziert Entzündungsmarker',
-      'Schützt das Immunsystem',
+      'Soll Muskelkraft und Ausdauer bei Älteren verbessern – kleine, überwiegend herstellerfinanzierte Studien',
+      'Senkt Entzündungsmarker – Surrogatmarker, keine Endpunkte',
+      'Immunschutz wird postuliert – dafür gibt es am Menschen keine belastbaren Daten',
       'Kann die Hautalterung verlangsamen'
     ],
     risks: [
@@ -1534,7 +1534,7 @@ const SUPPLEMENTS = [
       'Verbessert Gedächtnis und Lernen',
       'Steigert Fokus und geistige Klarheit',
       'Erhöht Kraft-Output im Training (Growth-Hormone-Ausschüttung)',
-      'Schützt das Gehirn im Alter',
+      'Als Hirnschutz im Alter beworben — dem steht eine Kohortenauswertung über 12 Mio. Menschen mit erhöhtem Schlaganfallrisiko gegenüber',
       'Wirkt synergistisch mit Racetamen'
     ],
     risks: [
@@ -2362,7 +2362,7 @@ const SUPPLEMENTS = [
     short: 'Die „Gehirn-Form" von Magnesium: überwindet besonders gut die Blut-Hirn-Schranke – untersucht für Gedächtnis, Lernen und Schlaf.',
     description: 'Magnesium-L-Threonat ist eine spezielle Magnesiumverbindung, die die Blut-Hirn-Schranke besser überwindet und die Magnesiumkonzentration im Gehirn anheben kann. Tierstudien und erste Humandaten deuten auf Verbesserungen bei Gedächtnis, Lernen und kognitivem Altern hin – daher als „Gehirn-Magnesium" beliebt.',
     benefits: [
-      'Erhöht gezielt den Magnesiumspiegel im Gehirn',
+      'Soll gezielt den Magnesiumspiegel im Gehirn erhöhen – am Menschen nicht direkt gemessen, die Daten stammen aus dem Tiermodell',
       'Untersucht für Gedächtnis, Lernen und kognitives Altern',
       'Kann Schlaf und Entspannung unterstützen',
       'Ergänzt normale Magnesiumformen um den Hirn-Fokus'
