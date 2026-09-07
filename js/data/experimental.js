@@ -309,7 +309,7 @@ const EXPERIMENTAL = [
     short: 'Die orale „Peptid-Alternative": eine Tablette, die körpereigenes Wachstumshormon und IGF-1 anhebt – beliebt für Tiefschlaf, Regeneration und Hautqualität, ganz ohne Spritze.',
     moa: 'Aktiviert den Ghrelin/Growth-Hormone-Secretagogue-Rezeptor in der Hypophyse → physiologische GH- und IGF-1-Pulse, oral verfügbar.',
     benefits: [
-      'Erhöht IGF-1 um 40–80% bei 25 mg/Tag',
+      'Hebt IGF-1 bei 25 mg/Tag deutlich an – in der Zweijahresstudie stieg die fettfreie Masse um 1,1 kg, Kraft und Funktion aber nicht, und der Nüchternblutzucker stieg',
       'Tieferer Schlaf (mehr Slow-Wave Sleep)',
       'Subjektive Hautqualität, Haarwuchs',
       'Lean Mass +2–3 kg in 8 Wochen (Sportler-Anekdoten)'
