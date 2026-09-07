@@ -957,19 +957,20 @@ const EXPERIMENTAL = [
     altNames: 'Enclomiphene Citrate, Isomer von Clomifen',
     class: 'Selektiver Östrogenrezeptor-Modulator (SERM), TRT-Alternative',
     emoji: '⚗️',
-    short: 'Die beliebte TRT-Alternative in Tablettenform: hebt das körpereigene Testosteron an und erhält dabei die Fruchtbarkeit – in Studien normalisierte es den Testosteronspiegel bei rund 73 % der Männer.',
+    short: 'Die beliebte TRT-Alternative in Tablettenform: hebt das körpereigene Testosteron an und erhält dabei die Fruchtbarkeit. Die US-Zulassung wurde 2015 abgelehnt – die Studien belegten Laborwerte, keinen klinischen Nutzen.',
     moa: 'Enclomiphen ist das reine trans-Isomer von Clomifen und wirkt als selektiver Östrogenrezeptor-Modulator (SERM). Es blockiert Östrogen-Rezeptoren im Hypothalamus/der Hypophyse, wodurch mehr LH und FSH ausgeschüttet werden – die Hoden produzieren daraufhin mehr eigenes Testosteron. Anders als klassische TRT (die die eigene Produktion und Spermienbildung unterdrückt) erhält Enclomiphen die Fruchtbarkeit und die Hodenfunktion. Deshalb ist es v.a. bei sekundärem Hypogonadismus und bei Kinderwunsch beliebt.',
     benefits: [
       'Hebt das EIGENE Testosteron – ohne Spritze, als Tablette.',
       'Erhält Fruchtbarkeit und Hodenvolumen (im Gegensatz zur klassischen TRT).',
-      'Normalisierte in Studien den Testosteronspiegel bei ~73 % (sekundärer Hypogonadismus).',
+      'In zwei Phase-3-Studien (256 Männer, 16 Wochen) fiel die Spermienkonzentration nur bei 2–5 % unter den kritischen Wert – unter Testosteron-Gel bei 24–49 %.',
       'Sauberer als älteres Clomifen (nur das aktive Isomer, weniger Nebenwirkungen).'
     ],
     risks: [
       'Verschreibungspflichtig – gehört ärztlich begleitet (Blutwerte, Östradiol).',
       'Mögliche Nebenwirkungen: Sehstörungen (selten), Stimmungsschwankungen, Kopfschmerzen.',
       'Wirkt nur bei intakter Hypothalamus-Hypophysen-Hoden-Achse (sekundärer Hypogonadismus).',
-      'In DE nicht breit zugelassen – Bezug oft über Graumarkt (ungeprüft).'
+      'In DE nicht breit zugelassen – Bezug oft über Graumarkt (ungeprüft).',
+      'Die FDA lehnte die Zulassung am 1.12.2015 ab: Das Studiendesign belege keinen klinischen Nutzen. Ob Männer sich damit besser fühlen, haben nur 2 von 10 Studien überhaupt erhoben.'
     ],
     status: 'In den USA als Off-Label-/Compounding-Option verbreitet; in DE nicht breit zugelassen. Verschreibungspflichtig.',
     sources: [
@@ -1714,16 +1715,16 @@ const EXPERIMENTAL = [
     altNames: 'Follistatin-344, ACE-031, Myostatin-Inhibitoren',
     class: 'Myostatin-Blocker (Muskelwachstum durch Wegfall der „Muskelbremse")',
     emoji: '💪',
-    short: 'Die „Muskelbremse lösen": Follistatin und verwandte Stoffe blockieren Myostatin – den körpereigenen Begrenzer des Muskelwachstums. Sehr potent, aber hochexperimentell.',
+    short: 'Die „Muskelbremse lösen": Follistatin und verwandte Stoffe blockieren Myostatin – den körpereigenen Begrenzer des Muskelwachstums. Am Menschen ist bisher jeder Anlauf gescheitert.',
     moa: 'Myostatin ist ein körpereigener Faktor, der das Muskelwachstum bremst. Follistatin bindet und neutralisiert Myostatin (und verwandte Faktoren wie Activin), wodurch die Bremse wegfällt und Muskelmasse zunehmen kann – Tiere mit blockiertem Myostatin zeigen enorme Muskelberge. Verwandte Ansätze (ACE-031, monoklonale Antikörper) zielen auf denselben Signalweg. Beim Menschen ist das überwiegend experimentell; einige Programme wurden wegen Nebenwirkungen gestoppt.',
     benefits: [
-      'Kann Muskelmasse deutlich steigern (Wegfall der Myostatin-Bremse)',
+      'Kann Muskelmasse steigern – im Tierversuch eindrucksvoll, beim Menschen bisher ohne Funktionsgewinn',
       'Untersucht bei Muskelschwund-Erkrankungen (z.B. Muskeldystrophie)',
       'Wirkt unabhängig von Hormonen/Testosteron'
     ],
     risks: [
       'Hochexperimentell – kaum belastbare Humandaten; Gentherapie-Varianten besonders riskant',
-      'Frühere Programme (z.B. ACE-031) wegen Nebenwirkungen (Blutungen, Gefäße) gestoppt',
+      'Drei Programme gescheitert: ACE-031 (2013 eingestellt, Blutungen und erweiterte Hautgefäße), Domagrozumab (2018, Treppenstufen-Test bei 121 Jungen verfehlt), Bimagrumab (Gehstrecke trotz Muskelzuwachs nicht besser)',
       'Nicht zugelassen, im Sport verboten; Graumarkt-Ware höchst unsicher',
       'Langzeitfolgen völlig unklar'
     ],
@@ -2691,6 +2692,7 @@ const EXPERIMENTAL = [
     risks: [
       'Noch nicht zugelassen (Phase 2/3)',
       'Berichtet: Muskelkrämpfe, Durchfall, leichte Akne',
+      'In der RESILIENT-Studie nahm die Muskelmasse zu, die Sechs-Minuten-Gehstrecke fiel dennoch in allen Gruppen – mehr Masse ist nicht mehr Funktion',
       'Langzeitsicherheit offen',
       'Als Antikörper kein Graumarkt-Selbstversuch – gehört in Studien/ärztliche Hände'
     ],
@@ -2746,7 +2748,7 @@ const EXPERIMENTAL = [
       'In Zöliakie bis Phase 3 untersucht – ohne Vorteil gegenüber Placebo'
     ],
     risks: [
-      'In der Zöliakie-Phase-3 wurde der primäre Endpunkt teils verfehlt',
+      'Die Phase-3-Studie CedLara (525 Patienten) wurde am 21.6.2022 nach einer vorab festgelegten Zwischenanalyse wegen Aussichtslosigkeit abgebrochen',
       'Für die allgemeine „Leaky-Gut"-Nutzung wenig belastbarer Beleg',
       'Nicht zugelassen; Research-Ware auf Reinheit achten'
     ],
