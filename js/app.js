@@ -946,7 +946,7 @@
           </header>
 
           ${s.description ? `<section><h3>Überblick</h3><p>${escapeHtml(s.description)}</p></section>` : ''}
-          ${s.benefits?.length ? `<section><h3>✅ Nutzen</h3><ul>${s.benefits.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul></section>` : ''}
+          ${s.benefits?.length ? `<section><h3>Beworbene Effekte</h3><ul>${s.benefits.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul></section>` : ''}
           ${s.risks?.length ? `<section><h3>⚠️ Risiken / Beachten</h3><ul>${s.risks.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul></section>` : ''}
           ${s.dosage ? `<section><h3>💊 Dosierung</h3><p>${escapeHtml(s.dosage)}</p></section>` : ''}
           ${s.intake ? `<section><h3>🕐 Optimale Einnahme</h3><p>${escapeHtml(s.intake)}</p></section>` : ''}
@@ -1817,265 +1817,9 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     }).join('');
   }
 
-  // ---------------------------------------------------------------------
-  // Laborprüfer
-  //
-  // Drei Schritte: die zwei Zahlen vom Zertifikat abtippen, beim Labor den
-  // Bericht öffnen, dann hier festhalten, ob es passt. Der dritte Schritt
-  // erscheint erst, wenn der zweite ausgelöst wurde — vorher wäre er eine
-  // Frage ohne Grundlage.
-  //
-  // Der Prüfer ruft NICHTS beim Labor ab. Janoshik sperrt maschinelle
-  // Zugriffe ausdrücklich aus (403 auf der Berichtsseite, robots.txt mit
-  // ai-train=no und namentlich gesperrten Bots). Er baut nur die offizielle
-  // Prüfadresse und öffnet sie.
-  //
-  // Das Urteil geht direkt in die Datenbank, ohne Umweg über eine Mail. Die
-  // Firestore-Regel lässt genau einen Datensatz mit sechs Feldern zu, mehr
-  // nicht: Auftragsnummer nur Ziffern, Prüfnummer nur Grossbuchstaben und
-  // Ziffern, Urteil nur eine von drei Vorgaben. Ändern und Löschen ist
-  // gesperrt. Die freie Anmerkung wird gespeichert, aber NICHT angezeigt —
-  // sonst wäre die Liste ein offener Weg, einen Shop zu beschimpfen.
-  // ---------------------------------------------------------------------
-
-  const LABOR_ADRESSE = 'https://janoshik.com/verification/';
-  const LABOR_SICHTBAR = 20;     // so viele stehen offen, der Rest scrollt
-  let laborGemeldet = [];        // was aus der Datenbank kommt
-
-  function laborLesen(auftragRoh, keyRoh) {
-    let auftrag = String(auftragRoh || '').trim();
-    let schluessel = String(keyRoh || '').trim();
-
-    if (/^https?:\/\//i.test(auftrag)) {
-      let u;
-      try { u = new URL(auftrag); } catch (e) { return null; }
-      if (!/(^|\.)janoshik\.com$/i.test(u.hostname)) return null;
-      const t = u.searchParams.get('task') || '';
-      const k = u.searchParams.get('key') || '';
-      if (t && k) { auftrag = t; schluessel = k; }
-      else {
-        // Die Berichtsadresse trägt beides im Pfad, dazwischen aber den
-        // Substanznamen: /tests/96518-bpc_157_5mg_Q6HV1KENIDQM.
-        const m = u.pathname.match(/\/tests\/(\d+)-(.+)$/);
-        if (!m) return null;
-        const st = m[2].split('_');
-        auftrag = m[1];
-        schluessel = st[st.length - 1];
-      }
-    }
-
-    auftrag = auftrag.replace(/^#/, '').replace(/\s+/g, '');
-    schluessel = schluessel.replace(/\s+/g, '').toUpperCase();
-    if (!/^\d{3,9}$/.test(auftrag)) return null;
-    if (!/^[A-Z0-9]{8,20}$/.test(schluessel)) return null;
-    return { auftrag: auftrag, schluessel: schluessel };
-  }
-
-  function laborLink(w) {
-    return LABOR_ADRESSE + '?task=' + encodeURIComponent('#' + w.auftrag)
-         + '&key=' + encodeURIComponent(w.schluessel);
-  }
-
-  const LABOR_URTEIL = {
-    ok:    { text: 'Alles passt',  klasse: 'is-ok' },
-    teils: { text: 'Teilweise',    klasse: 'is-teils' },
-    nein:  { text: 'Passt nicht',  klasse: 'is-nein' }
-  };
-
-  function renderLaborFallen() {
-    const el = $('#labor-fallen');
-    if (!el || typeof LABOR_FALLEN === 'undefined') return;
-    el.innerHTML = LABOR_FALLEN.map(f => `
-      <div class="labor-falle">
-        <strong>${escapeHtml(f.titel)}</strong>
-        <p>${escapeHtml(f.text)}</p>
-      </div>`).join('');
-  }
-
-  // Firestore: gemeldete Chargen laufen live mit.
-  function initLaborFirestore() {
-    if (typeof firebase === 'undefined' || !firebase.apps || !firebase.apps.length) return;
-    let db;
-    try { db = firebase.firestore(); } catch (_) { return; }
-    db.collection('labortests').onSnapshot(function (snap) {
-      laborGemeldet = snap.docs.map(function (d) {
-        const x = d.data();
-        return {
-          id: 'fs-' + d.id,
-          gemeldet: true,
-          substanz: x.substanz || 'ohne Angabe',
-          anbieter: x.anbieter || '',
-          labor: 'Janoshik',
-          auftrag: '#' + (x.auftrag || ''),
-          schluessel: x.schluessel || '',
-          urteil: x.urteil || null,
-          datum: (x.erstelltAm && x.erstelltAm.toDate)
-            ? x.erstelltAm.toDate().toISOString().slice(0, 10) : ''
-        };
-      });
-      renderLaborListe();
-    }, function (e) { console.warn('[Labor] Laden fehlgeschlagen:', e.message); });
-  }
-
-  function renderLaborListe() {
-    const el = $('#labor-liste');
-    const zahlEl = $('#labor-zahl');
-    if (!el) return;
-    const fest = (typeof LABORTESTS !== 'undefined') ? LABORTESTS.slice() : [];
-    const t = fest.concat(laborGemeldet);
-    if (zahlEl) {
-      const g = laborGemeldet.length;
-      zahlEl.textContent = t.length
-        ? (t.length + (t.length === 1 ? ' Charge' : ' Chargen')
-           + (g ? ' · ' + g + ' gemeldet' : ''))
-        : '';
-    }
-    if (!t.length) {
-      el.classList.remove('is-scroll');
-      el.innerHTML = `<div class="erf-empty">
-        Noch kein Eintrag. Prüf ein Zertifikat und halte oben fest, ob es passt —
-        dann steht es hier.
-      </div>`;
-      return;
-    }
-    // Ab einundzwanzig Chargen wird die Liste zum Scrollfeld, sonst schiebt
-    // sie die Substanzübersicht immer weiter nach unten.
-    el.classList.toggle('is-scroll', t.length > LABOR_SICHTBAR);
-    el.innerHTML = t.sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
-      .map(function (e) {
-        // Die Menge ist die Zahl, die übersehen wird — deshalb steht sie
-        // hier ausgerechnet und nicht nur abgeschrieben.
-        let mengeHtml = '';
-        if (e.etikett && e.gemessen) {
-          const anteil = Math.round(e.gemessen / e.etikett * 1000) / 10;
-          const knapp = anteil < 95;
-          mengeHtml = `<span class="labor-wert ${knapp ? 'is-knapp' : 'is-gut'}">
-            ${escapeHtml(String(e.gemessen).replace('.', ','))} von
-            ${escapeHtml(String(e.etikett).replace('.', ','))} mg
-            <b>(${escapeHtml(String(anteil).replace('.', ','))} %)</b></span>`;
-        }
-        const rein = (e.reinheit != null)
-          ? `<span class="labor-wert is-gut">Reinheit ${escapeHtml(String(e.reinheit).replace('.', ','))} %</span>`
-          : '';
-        const u = LABOR_URTEIL[e.urteil];
-        const urteil = u ? `<span class="labor-urteil-chip ${u.klasse}">${escapeHtml(u.text)}</span>` : '';
-        const meta = [e.anbieter, e.charge ? 'Charge ' + e.charge : '', e.datum]
-          .filter(Boolean).map(escapeHtml).join(' · ');
-        const link = laborLink({ auftrag: String(e.auftrag || '').replace(/^#/, ''),
-                                 schluessel: e.schluessel });
-        const fuss = e.gemeldet
-          ? `<p class="labor-eintrag-fuss"><span class="labor-roh">Nutzermeldung — von uns noch nicht nachgesehen</span> ·
-               <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
-                  href="${escapeHtml(link)}">selbst nachprüfen →</a></p>`
-          : `<p class="labor-eintrag-fuss">Von uns geöffnet am ${escapeHtml(e.geprueft || '—')} ·
-               <a class="labor-eintrag-link" target="_blank" rel="noopener noreferrer"
-                  href="${escapeHtml(link)}">selbst nachprüfen →</a></p>`;
-        return `<div class="card labor-eintrag${e.gemeldet ? ' is-roh' : ''}">
-          <div class="labor-eintrag-kopf">
-            <h4>${escapeHtml(e.substanz || '')}</h4>
-            <span class="labor-chip">${escapeHtml(e.labor || '')} ${escapeHtml(e.auftrag || '')}</span>
-          </div>
-          ${meta ? `<p class="labor-eintrag-meta">${meta}</p>` : ''}
-          <div class="labor-werte">${urteil}${rein}${mengeHtml}</div>
-          ${(!e.gemeldet && e.anmerkung) ? `<p class="labor-eintrag-note">${escapeHtml(e.anmerkung)}</p>` : ''}
-          ${fuss}
-        </div>`;
-      }).join('');
-  }
-
-  function initLaborcheck() {
-    const fA = $('#labor-auftrag');
-    const fK = $('#labor-key');
-    const knopf = $('#labor-pruefen');
-    const info = $('#labor-status');
-    const schritt3 = $('#labor-schritt3');
-    const danke = $('#labor-danke');
-    if (!fA || !fK || !knopf) return;
-    let offen = null;
-    let laeuft = false;
-
-    function pruefen() {
-      const w = laborLesen(fA.value, fK.value);
-      if (!w) {
-        info.className = 'labor-status is-warn';
-        info.textContent = 'Das passt noch nicht zusammen. Die Auftragsnummer besteht nur aus '
-          + 'Ziffern, die Prüfnummer aus acht bis zwanzig Buchstaben und Ziffern. '
-          + 'Einen fertigen Prüflink kannst du auch komplett ins erste Feld einfügen.';
-        if (schritt3) schritt3.hidden = true;
-        return;
-      }
-      // Sauber zurückschreiben, damit man sieht, was erkannt wurde
-      fA.value = '#' + w.auftrag;
-      fK.value = w.schluessel;
-      offen = w;
-      info.className = 'labor-status is-ok';
-      info.innerHTML = 'Auftrag <b>#' + escapeHtml(w.auftrag) + '</b> geöffnet. '
-        + 'Beim Labor auf <b>Open report</b> klicken — dort steht unter <b>Client</b>, '
-        + 'wer den Test beauftragt hat.';
-      window.open(laborLink(w), '_blank', 'noopener');
-      if (schritt3) {
-        schritt3.hidden = false;
-        if (danke) { danke.hidden = true; danke.className = 'labor-danke'; }
-        $$('.labor-u').forEach(b => { b.classList.remove('is-aktiv'); b.disabled = false; });
-        schritt3.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      }
-    }
-
-    knopf.addEventListener('click', pruefen);
-    [fA, fK].forEach(f => f.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') { e.preventDefault(); pruefen(); }
-    }));
-
-    function melden(art, b) {
-      if (!offen || laeuft) return;
-      if (typeof firebase === 'undefined' || !firebase.apps || !firebase.apps.length) {
-        if (danke) { danke.hidden = false; danke.className = 'labor-danke is-warn';
-          danke.textContent = 'Die Datenbank ist gerade nicht erreichbar — bitte später noch einmal.'; }
-        return;
-      }
-      laeuft = true;
-      $$('.labor-u').forEach(x => { x.classList.toggle('is-aktiv', x === b); x.disabled = true; });
-      if (danke) { danke.hidden = false; danke.className = 'labor-danke'; danke.textContent = 'Wird gespeichert…'; }
-
-      const satz = {
-        auftrag: offen.auftrag,
-        schluessel: offen.schluessel,
-        urteil: art,
-        substanz: ($('#labor-substanz')?.value || '').trim().slice(0, 80),
-        anbieter: ($('#labor-anbieter')?.value || '').trim().slice(0, 80),
-        notiz: ($('#labor-notiz')?.value || '').trim().slice(0, 500),
-        status: 'neu',
-        erstelltAm: firebase.firestore.FieldValue.serverTimestamp()
-      };
-      firebase.firestore().collection('labortests').add(satz)
-        .then(function () {
-          if (danke) {
-            danke.className = 'labor-danke is-ok';
-            danke.textContent = art === 'ok'
-              ? 'Gespeichert. Die Charge steht jetzt unten in der Liste.'
-              : 'Gespeichert — und das ist die wichtigere Sorte Meldung. Sie steht jetzt unten in der Liste.';
-          }
-          ['#labor-substanz', '#labor-anbieter', '#labor-notiz'].forEach(s => { const e = $(s); if (e) e.value = ''; });
-        })
-        .catch(function (e) {
-          laeuft = false;
-          $$('.labor-u').forEach(x => { x.disabled = false; x.classList.remove('is-aktiv'); });
-          if (danke) { danke.className = 'labor-danke is-warn';
-            danke.textContent = 'Konnte nicht gespeichert werden: ' + e.message; }
-        })
-        .then(function () { laeuft = false; });
-    }
-
-    $$('.labor-u').forEach(function (b) {
-      b.addEventListener('click', function () { melden(b.dataset.urteil, b); });
-    });
-  }
-
   function onEnterExperimental() {
     renderExperimental();
     renderKhavinson();
-    renderLaborFallen();
-    renderLaborListe();
   }
 
   function renderExperimental() {
@@ -2114,7 +1858,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
             <strong>Wirkungsweise</strong>
             <p>${escapeHtml(e.moa || '')}</p>
           </div>
-          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Erwartete Vorteile</strong><ul>${benefits}</ul></div>` : ''}
+          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Beworbene Effekte</strong><ul>${benefits}</ul></div>` : ''}
           ${risks ? `<div class="exp-section exp-section--risks"><strong>Risiken & Nebenwirkungen</strong><ul>${risks}</ul></div>` : ''}
           <div class="exp-status">
             <strong>Status:</strong> ${escapeHtml(e.status || 'unbekannt')}
@@ -2177,7 +1921,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
             </div>
           </div>
           <p class="exp-short">${escapeHtml(t.short || '')}</p>
-          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Nutzen</strong><ul>${benefits}</ul></div>` : ''}
+          ${benefits ? `<div class="exp-section exp-section--benefits"><strong>Beworbene Effekte</strong><ul>${benefits}</ul></div>` : ''}
           ${indication ? `<div class="exp-section"><strong>Wofür</strong><p>${indication}</p></div>` : ''}
           ${t.note ? `<div class="exp-status"><strong>Hinweis:</strong> ${escapeHtml(t.note)}</div>` : ''}
           ${podcastsHtml(t.podcasts)}
@@ -3325,8 +3069,6 @@ WICHTIG – konservative Gewichtsschätzung:
     initErfahrungenView();
     initHomeProducts();
     initExperimentalView();
-    initLaborcheck();
-    initLaborFirestore();
     initBehandlungenView();
     initBlutwerteView();
     initRouter();
