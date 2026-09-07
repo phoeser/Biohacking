@@ -17,9 +17,13 @@
  *   auftrag    Auftragsnummer, mit Raute
  *   schluessel Prüfschlüssel
  *   datum      Datum aus dem Bericht (Ende der Analyse), ISO
- *   etikett    was auf dem Fläschchen steht, in mg
- *   gemessen   was das Labor gefunden hat, in mg
- *   reinheit   Prozent oder null
+ *   etikett    was auf dem Fläschchen steht, in der Einheit des Berichts
+ *   gemessen   was das Labor gefunden hat, in derselben Einheit
+ *   einheit    'mg' wenn weggelassen. Nicht jeder Bericht rechnet in mg —
+ *              Kapseln kommen in µg. Umrechnen waere die schlechtere Wahl:
+ *              wer den Bericht danebenlegt, soll dieselben Zahlen sehen.
+ *   reinheit   Prozent, oder null wenn der Bericht das Feld leer laesst —
+ *              das ist selbst ein Befund, genau wie eine fehlende Charge
  *   urteil     'ok' | 'teils' | 'nein'
  *   geprueft   wann WIR den Bericht geöffnet haben, ISO
  *   anmerkung  ein Satz, falls etwas auffällt
@@ -34,11 +38,17 @@
  * Janoshik: Der Direktlink ist geprüft — Auftragsnummer und Schlüssel gehen
  * als Parameter in die Adresse, die Seite öffnet den Bericht.
  *
- * Analiza Białek: Der Direktlink ist NICHT geprüft. Ihre Ergebnisseite nimmt
- * die Werte über ein Formular entgegen; ob sie auch über die Adresse gehen,
- * war von hier aus nicht feststellbar. Deshalb wird die Seite geöffnet und
- * beide Werte werden zum Kopieren danebengelegt. Lieber ein Zwischenschritt,
- * den man sieht, als ein Link, der still ins Leere führt.
+ * Analiza Białek: Der Direktlink ist seit dem 07.09.2026 geprüft — Paul hat
+ * ihn an drei Berichten aufgerufen (E4M26GT5, B287L3M5, S82MLD87), alle drei
+ * öffnen ihr PDF ohne Formular. Bemerkenswert daran: Die Adresse braucht NUR
+ * den Prüfschlüssel, nicht die Auftragsnummer. Gefragt wird nach beidem
+ * trotzdem — die Nummer ist es, die den Bericht identifiziert und die man mit
+ * dem Etikett abgleicht. Gebaut wird der Link aus einem Wert.
+ *
+ * Bis dahin galt hier das Gegenteil, und der Vorbehalt war richtig: Ein Link,
+ * der still ins Leere führt, ist schlimmer als ein Zwischenschritt, den man
+ * sieht. Der Vorbehalt fällt weg, weil jemand nachgesehen hat — nicht, weil
+ * er unbequem war.
  *
  * Abgefragt wird bei keinem der beiden etwas. Beide sperren maschinelle
  * Zugriffe ausdrücklich aus (robots.txt mit ai-train=no und namentlich
@@ -75,17 +85,24 @@ const LABORE = {
     platzhalter: ['100007021', 'B287L3M5'],
     auftragMuster: /^\d{6,12}$/,
     keyMuster: /^[A-Z0-9]{6,20}$/,
-    direkt: false,
+    direkt: true,
     seite: 'https://analizabialek.com/wyniki/',
     gastgeber: /(^|\.)analizabialek\.com$/i,
     wo: 'Auf dem Zertifikat steht oben die <b>Order number</b> — eine '
       + 'neunstellige Zahl, die auch im Strichcode steckt. Das <b>Password</b> '
       + 'steht darunter im Kopf des Berichts.',
-    danach: 'Die Ergebnisseite ist polnisch. <b>Numer zlecenia</b> ist die '
-          + 'Auftragsnummer, <b>Hasło analizy</b> das Passwort — beide stehen '
-          + 'hier zum Kopieren bereit. Achte im Bericht auf <b>Content</b> '
-          + '(die Menge) und <b>Purity</b> (die Reinheit).',
-    link: function () { return this.seite; }
+    danach: 'Der Bericht ist englisch. <b>Content</b> ist die Menge je Kapsel '
+          + 'oder Fläschchen, <b>Purity</b> die Reinheit. Achte darauf, ob in '
+          + 'diesen Zeilen wirklich Zahlen stehen: Eine leere Purity-Zeile ist '
+          + 'keine bestandene Prüfung, sondern eine, die nicht stattgefunden '
+          + 'hat. Dasselbe gilt für <b>Batch number</b> — ohne Charge gilt der '
+          + 'Bericht nur für das eine eingeschickte Stück.',
+    /* Nur der Schluessel geht in die Adresse — am 07.09.2026 an drei
+       Berichten nachgesehen. Die Auftragsnummer wird trotzdem erfragt: sie
+       identifiziert den Bericht und steht im Strichcode. */
+    link: function (w) {
+      return this.seite + 'files/Analiza_' + encodeURIComponent(w.schluessel) + '.pdf';
+    }
   }
 };
 const LABOR_STANDARD = 'janoshik';
@@ -151,6 +168,32 @@ const LABORTESTS = [
                'sagt sie deshalb nur begrenzt etwas.'
   },
   {
+    id: 'tesofensin-biolab-100005806',
+    substanz: 'Tesofensine',
+    anbieter: 'BIOLAB CENTER',
+    hersteller: 'biolabshop.de',
+    charge: null,
+    labor: 'analiza',
+    auftrag: '#100005806',
+    schluessel: 'E4M26GT5',
+    datum: '2024-09-03',
+    etikett: 500,
+    gemessen: 521.41,
+    einheit: 'µg',
+    reinheit: null,
+    urteil: 'teils',
+    geprueft: '2026-09-07',
+    anmerkung: 'Die Menge stimmt: 521,41 statt 500 µg je Kapsel, also gut vier ' +
+               'Prozent über Etikett, bei einem angegebenen Messfehler von ± 0,5 µg. ' +
+               'Auf ok steht der Bericht trotzdem nicht, denn er beantwortet nur die ' +
+               'halbe Frage: Die Spalte Reinheit ist leer. Was neben dem Wirkstoff ' +
+               'noch in der Kapsel ist, hat dieser Test nicht gemessen. Dazu kommt ' +
+               'das Alter — die Probe ging im August 2024 ins Labor — und die ' +
+               'fehlende Chargennummer. Das ist bei BIOLAB CENTER inzwischen der ' +
+               'dritte Bericht ohne Charge; es sieht nach Gewohnheit aus, nicht nach ' +
+               'Versehen.'
+  },
+  {
     id: 'hgh-europa-92426',
     substanz: 'Somatropin (HGH)',
     anbieter: 'Europa-Peptide',
@@ -195,6 +238,15 @@ const LABOR_FALLEN = [
     text: 'Das sind zwei getrennte Zeilen im Bericht, und die zweite wird gern übersehen. ' +
           'Ein Peptid kann zu 99 Prozent rein sein und trotzdem nur vier von fünf ' +
           'Milligramm enthalten. Sterilität und Endotoxine stehen meist gar nicht drin.'
+  },
+  {
+    titel: 'Die meisten geteilten Zertifikate tragen gar keinen Prüfcode',
+    text: 'Nachgesehen am 07.09.2026: Bei einem Sammelportal trug keine der ' +
+          'geöffneten Analysen einen Prüfcode — Nummer, Menge und Reinheit stehen ' +
+          'da, das Passwort fehlt. Auf dem Original-PDF steht es sehr wohl; es ' +
+          'verschwindet beim Weitergeben. Ohne Prüfcode ist ein Zertifikat nicht ' +
+          'zwangsläufig falsch, aber unüberprüfbar — im Ergebnis dasselbe. Frag ' +
+          'den Anbieter nach dem vollständigen Bericht.'
   },
   {
     titel: 'Der Screenshot ist kein Bericht',
