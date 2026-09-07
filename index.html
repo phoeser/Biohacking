@@ -22,7 +22,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=162" />
+  <link rel="stylesheet" href="css/style.css?v=163" />
   <link rel="canonical" href="https://biohackingkompakt.de/" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://biohackingkompakt.de/#organisation","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","founder":{"@type":"Person","name":"Paul Höser"},"email":"kontakt@biohackingkompakt.de","description":"Deutschsprachiger Faktencheck zu Supplements, Peptiden und Biohacking-Anwendungen.","sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"]},{"@type":"WebSite","@id":"https://biohackingkompakt.de/#website","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","inLanguage":"de","publisher":{"@id":"https://biohackingkompakt.de/#organisation"}},{"@type":"WebPage","@id":"https://biohackingkompakt.de/#startseite","url":"https://biohackingkompakt.de/","name":"Biohacking Kompakt","inLanguage":"de","isPartOf":{"@id":"https://biohackingkompakt.de/#website"},"description":"Datenbank mit 218 Substanzen und Verfahren, jeweils mit Evidenz, Risiken und Quellen – plus dem BK-Score, der den Wissensstand bewertet."},{"@type":"PodcastSeries","@id":"https://biohackingkompakt.de/#podcast","name":"Biohacking Kompakt","url":"https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","webFeed":"https://anchor.fm/s/1148b9204/podcast/rss","inLanguage":"de","author":{"@type":"Person","name":"Paul Höser"},"publisher":{"@id":"https://biohackingkompakt.de/#organisation"},"sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"],"numberOfEpisodes":59,"description":"Täglicher Faktencheck zu einem Wirkstoff oder Verfahren. Vollständig KI-produziert mit zwei synthetischen Stimmen, redaktionell verantwortet."},{"@type":"Dataset","@id":"https://biohackingkompakt.de/#score-datensatz","name":"BK-Score","url":"https://biohackingkompakt.de/#score","description":"Bewertung des Wissensstands zu Supplements, Peptiden und Anwendungen auf fünf Achsen von 0 bis 10. Subjektive Einschätzung von Biohacking Kompakt nach offengelegten Vergaberegeln – keine wissenschaftliche Bewertung und keine medizinische Empfehlung.","creator":{"@id":"https://biohackingkompakt.de/#organisation"},"inLanguage":"de","license":"https://biohackingkompakt.de/impressum.html","variableMeasured":[{"@type":"PropertyValue","name":"Human-Evidenz","description":"Wie viel und wie gute Daten am Menschen","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Mechanismus","description":"Wie gut die Wirkkette verstanden ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Sicherheits-Datenlage","description":"Wie gut die Sicherheit untersucht ist – nicht, wie sicher es ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Hype-Abstand","description":"Wie weit die Vermarktung der Evidenz vorausläuft","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Anwendungserfahrung","description":"Wie viel dokumentierte Anwendung am Menschen vorliegt – misst nicht, ob es wirkt","minValue":0,"maxValue":10}],"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://biohackingkompakt.de/scores.json"}}]}</script>
 </head>
@@ -590,7 +590,17 @@
         </details>
 
         <!-- Laborprüfer. Steht vor der Substanzliste, weil die Frage „ist da
-             drin, was draufsteht" sich stellt, BEVOR jemand stöbert. -->
+             drin, was draufsteht" sich stellt, BEVOR jemand stöbert. Seit v163
+             zugeklappt: aufgeklappt schob er die Wirkstoffe rund 2.800 Pixel
+             nach unten — fast vier Bildschirmhöhen. Das <details> steht
+             AUSSERHALB von #laborcheck, damit js/laborcheck.js beim Ersetzen
+             des Inhalts nichts davon anfasst. -->
+        <details class="labor-auf" id="labor-auf">
+          <summary>
+            <span class="labor-auf-titel">🔬 Laborbericht prüfen — ist da drin, was draufsteht?</span>
+            <span class="labor-auf-zahl" id="labor-auf-zahl"></span>
+            <span class="labor-auf-toggle">Öffnen</span>
+          </summary>
         <div class="labor-section" id="laborcheck">
           <div class="labor-head">
             <span class="eyebrow">Laborbericht prüfen</span>
@@ -680,6 +690,7 @@
 
           <p class="labor-fuss">Der Prüfer baut nur die offizielle Adresse des Labors und öffnet sie. Er ruft dort keine Daten ab — automatisierte Zugriffe sind bei Janoshik ausdrücklich untersagt, und das respektieren wir.</p>
         </div>
+        </details>
 
         <div class="exp-controls">
           <div class="chips-bar" id="exp-chips" role="tablist"></div>
@@ -912,28 +923,28 @@
        Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
        die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=162"></script>
-  <script src="js/data/tips.js?v=162"></script>
-  <script src="js/data/goals.js?v=162"></script>
-  <script src="js/data/products.js?v=162"></script>
-  <script src="js/data/experimental.js?v=162"></script>
-  <script src="js/data/khavinson.js?v=162"></script>
-  <script src="js/data/therapies.js?v=162"></script>
-  <script src="js/data/signalwege.js?v=162"></script>
-  <script src="js/data/blutwerte.js?v=162"></script>
-    <script src="js/data/podcast.js?v=162"></script>
-    <script src="js/data/aenderungen.js?v=162"></script>
-    <script src="js/data/scores.js?v=162"></script>
-  <script src="js/data/erfahrungen.js?v=162"></script>
-  <script src="js/data/labortests.js?v=162"></script>
-  <script src="js/laborcheck.js?v=162"></script>
-  <script src="js/vitals.js?v=162"></script>
+  <script src="js/data/supplements.js?v=163"></script>
+  <script src="js/data/tips.js?v=163"></script>
+  <script src="js/data/goals.js?v=163"></script>
+  <script src="js/data/products.js?v=163"></script>
+  <script src="js/data/experimental.js?v=163"></script>
+  <script src="js/data/khavinson.js?v=163"></script>
+  <script src="js/data/therapies.js?v=163"></script>
+  <script src="js/data/signalwege.js?v=163"></script>
+  <script src="js/data/blutwerte.js?v=163"></script>
+    <script src="js/data/podcast.js?v=163"></script>
+    <script src="js/data/aenderungen.js?v=163"></script>
+    <script src="js/data/scores.js?v=163"></script>
+  <script src="js/data/erfahrungen.js?v=163"></script>
+  <script src="js/data/labortests.js?v=163"></script>
+  <script src="js/laborcheck.js?v=163"></script>
+  <script src="js/vitals.js?v=163"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=162"></script>
-  <script src="js/app.js?v=162"></script>
+  <script src="js/mydata.js?v=163"></script>
+  <script src="js/app.js?v=163"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe
