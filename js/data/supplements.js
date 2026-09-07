@@ -1029,17 +1029,17 @@ const SUPPLEMENTS = [
     altNames: 'Quercetin-Dihydrat',
     category: 'Antioxidant',
     tags: ['immun', 'allergie', 'anti-aging', 'senolytikum', 'entzuendung'],
-    short: 'Pflanzliches Flavonoid. Antihistaminisch, anti-entzündlich, senolytisch.',
-    description: 'Quercetin ist ein Senolytikum – es kann alternde („zombie") Zellen eliminieren. Kombiniert mit Fisetin besonders wirksam.',
+    short: 'Pflanzliches Flavonoid. Antihistaminisch und anti-entzündlich; die senolytische Wirkung ist beim Menschen nur zusammen mit Dasatinib geprüft.',
+    description: 'Quercetin gilt als Senolytikum – als Stoff, der alternde Zellen beseitigt. Am Menschen ist das nie allein geprüft worden: In allen vier Humanstudien (diabetische Nierenerkrankung, Lungenfibrose zweimal, Knochenstoffwechsel) wurde Quercetin immer zusammen mit dem verschreibungspflichtigen Krebsmedikament Dasatinib gegeben. Die Kombination existiert, weil beide Substanzen unterschiedliche Typen alternder Zellen erreichen. Dazu kommt: Die Aufnahme im Darm schwankte über die Studien hinweg zwischen null und über fünfzig Prozent der Dosis.',
     benefits: [
       'Wirkt antihistaminisch (bei Allergien)',
       'Starkes Antioxidans',
-      'Senolytischer Effekt (eliminiert alte Zellen)',
+      'Senolytischer Effekt – am Menschen nur in Kombination mit Dasatinib geprüft',
       'Stärkt Immunsystem',
       'Verbessert Herzfunktion'
     ],
     risks: [
-      'Niedrige Bioverfügbarkeit – mit Bromelain/Piperin verbessern',
+      'Aufnahme sehr schwankend (über Studien hinweg 0 bis über 50 % der Dosis) – mit Bromelain/Piperin verbessern',
       'Selten: Kopfschmerzen'
     ],
     dosage: '500–1.000 mg täglich, senolytisch: 1.500 mg 2 Tage/Monat.',
@@ -1411,17 +1411,17 @@ const SUPPLEMENTS = [
     altNames: 'Flavonoid aus Erdbeeren',
     category: 'Longevity',
     tags: ['senolytisch', 'longevity', 'gehirn', 'anti-aging', 'entzuendung'],
-    short: 'Senolytikum-Kandidat. Die Entfernung alternder Zellen ist bisher nur im Mausmodell gezeigt.',
-    description: 'Fisetin hat in Maus-Studien seneszente Zellen abgebaut und die Lebensspanne verlängert. Aktuell laufen Humanstudien an der Mayo Clinic. Klassische Protokolle: hochdosiert über 2 Tage monatlich.',
+    short: 'Senolytikum-Kandidat. Die viel zitierte Mausstudie von 2018 wurde im unabhängigen Testprogramm 2023 nicht bestätigt.',
+    description: 'Fisetin baute in einer viel zitierten Studie von 2018 seneszente Zellen ab und verlängerte die Lebenszeit alter Mäuse. 2023 hat das unabhängige US-Interventions-Testprogramm (ITP) nachgeprüft – und weder eine Lebenszeitverlängerung noch eine Senkung der Seneszenzmarker in Leber, Niere und Gehirn gefunden. Die Humanstudie der Mayo Clinic (AFFIRM, 40 Frauen) läuft seit Februar 2018 und hat bis heute nichts berichtet; die dort geprüfte Dosis liegt mit 20 mg pro Kilogramm weit über üblichen Kapselstärken. Klassische Protokolle: hochdosiert über 2 Tage monatlich.',
     benefits: [
-      'Senolytische Wirkung im Mausmodell gezeigt',
+      'Senolytische Wirkung in einer Mausstudie gezeigt – in der unabhängigen Replikation nicht',
       'Neuroprotektive Effekte in Alzheimer-Modellen (Tier)',
       'Stark antioxidativ',
       'Sirtuin-Aktivierung im Zellversuch',
       'Wirkt anti-entzündlich'
     ],
     risks: [
-      'Langzeitwirkung beim Menschen noch in Studien',
+      'Keine abgeschlossene Humanstudie – die Mayo-Studie läuft seit 2018 ohne Ergebnis',
       'Hoch dosiert sehr kurz anwenden (Hit-&-Run-Protokoll)',
       'Kann Medikamente (Blutverdünner) beeinflussen'
     ],
@@ -1965,16 +1965,16 @@ const SUPPLEMENTS = [
     altNames: 'Alpha-Ketoglutarat, AKG, Calcium-AKG',
     category: 'Longevity',
     tags: ['anti-aging', 'longevity', 'energie', 'knochen'],
-    short: 'Longevity-Favorit: ein zentrales Stoffwechsel-Molekül (Citratzyklus), das in Studien biologische Alterungsmarker senken und die Gesundheitsspanne unterstützen soll.',
-    description: 'Alpha-Ketoglutarat (AKG) ist ein Schlüsselmolekül des Citratzyklus und ein wichtiger Cofaktor für Enzyme, die Epigenetik, Kollagenbildung und Energiestoffwechsel steuern. Die körpereigenen Spiegel sinken mit dem Alter deutlich. In der Calcium-Form (Ca-AKG) wird es supplementiert. Tierstudien zeigten längere Gesundheitsspanne und weniger Entzündung; eine vielbeachtete Humanstudie (Rejuvant) berichtete eine Senkung des biologischen Alters (DNA-Methylierungs-Uhr). Beliebt in Longevity-Protokollen.',
+    short: 'Longevity-Favorit: ein zentrales Stoffwechsel-Molekül (Citratzyklus). Die Mausdaten zeigen vor allem weniger Gebrechlichkeit; im unabhängigen Testprogramm blieb eine Lebenszeitverlängerung aus.',
+    description: 'Alpha-Ketoglutarat (AKG) ist ein Schlüsselmolekül des Citratzyklus und ein wichtiger Cofaktor für Enzyme, die Epigenetik, Kollagenbildung und Energiestoffwechsel steuern. Die körpereigenen Spiegel sinken mit dem Alter deutlich. In der Calcium-Form (Ca-AKG) wird es supplementiert. Tierstudien zeigten längere Gesundheitsspanne und weniger Entzündung; eine vielbeachtete Humanstudie (Rejuvant) berichtete eine Senkung des biologischen Alters (DNA-Methylierungs-Uhr) – allerdings offen, ohne Placebogruppe, an 42 Personen, mit einem Vorstandsmitglied des Herstellers unter den Autoren. Das unabhängige US-Testprogramm (ITP) prüfte Alpha-Ketoglutarat zweimal, mit Beginn im Alter von 18 und von 7 Monaten, und fand beide Male keine Lebenszeitverlängerung. Beliebt in Longevity-Protokollen.',
     benefits: [
-      'Senkte in einer Humanstudie (Rejuvant) das biologische Alter (Methylierungs-Uhr)',
+      'Senkte in einer unkontrollierten Studie an 42 Personen (Rejuvant) das biologische Alter (Methylierungs-Uhr)',
       'Verlängerte in Tierstudien die Gesundheitsspanne und reduzierte Entzündung',
       'Cofaktor für Epigenetik, Kollagen- und Energiestoffwechsel',
       'Kann Knochendichte unterstützen (präklinisch/erste Humandaten)'
     ],
     risks: [
-      'Humanevidenz noch begrenzt (kleine Studien) – vieles beruht auf Tierdaten',
+      'Humanevidenz noch begrenzt (kleine, unkontrollierte Studien); im unabhängigen Mausprogramm ITP zweimal ohne Lebenszeiteffekt',
       'Gut verträglich; selten leichte Magen-Darm-Effekte',
       'Liefert nebenbei etwas Calcium – Gesamtzufuhr im Blick behalten',
       'Kein Ersatz für die Grundlagen (Schlaf, Bewegung, Ernährung)'
