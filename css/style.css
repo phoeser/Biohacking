@@ -4061,3 +4061,12 @@ button { font-family: inherit; cursor: pointer; }
   .labor-liste { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .labor-tab { min-width: 640px; }
 }
+/* v166 — Tabelle enger führen. */
+.labor-tab tbody th { max-width: 34ch; }
+.labor-tab td:nth-child(6) { white-space: nowrap; }
+.labor-t-mehr { color: var(--accent, #2f8b6a); font-weight: 700; cursor: help; }
+.labor-tab tbody th .labor-t-klein[title] { cursor: help; }
+/* Der Einleitungsabsatz wiederholt jetzt, was schon in der Aufklapp-Zeile
+   steht. Im Aufklapper bleibt er weg. */
+.labor-auf .labor-head p { display: none; }
+.labor-auf .labor-head { margin-bottom: 4px; }
