@@ -82,6 +82,12 @@
 
   function link(w) { var d = def(w.labor); return d ? d.link(w) : '#'; }
 
+  // 2026-09-06 -> 06.09.26. Spart in der Tabelle eine Zeile Umbruch.
+  function kurzDatum(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || ''));
+    return m ? (m[3] + '.' + m[2] + '.' + m[1].slice(2)) : (s || '—');
+  }
+
   // ------------------------------------------------------------- Aufbau
   function markup() {
     return ''
@@ -261,12 +267,19 @@
       var lt = (d && d.direkt) ? 'nachprüfen' : 'zum Labor';
       var quelle = e.gemeldet
         ? '<span class="labor-roh">gemeldet</span>'
-        : ('geprüft ' + esc(e.geprueft || e.datum || '—'));
+        : ('geprüft ' + esc(kurzDatum(e.geprueft || e.datum)));
+      // In der Uebersicht steht nur der erste Satz der Anmerkung — er traegt
+      // bei allen Eintraegen die Kernaussage. Der volle Text haengt am
+      // title-Attribut, damit nichts verloren geht.
+      var note = '';
+      if (e.anmerkung && !e.gemeldet) {
+        var satz = String(e.anmerkung).split(/(?<=\.)\s+/)[0];
+        var mehr = satz.length < String(e.anmerkung).length;
+        note = '<span class="labor-t-klein"' + (mehr ? ' title="' + esc(e.anmerkung) + '"' : '')
+          + '>' + esc(satz) + (mehr ? ' <span class="labor-t-mehr">…</span>' : '') + '</span>';
+      }
       return '<tr' + (e.gemeldet ? ' class="is-roh"' : '') + '>'
-        + '<th scope="row">' + esc(e.substanz)
-        + (e.anmerkung && !e.gemeldet
-            ? '<span class="labor-t-klein">' + esc(e.anmerkung) + '</span>' : '')
-        + '</th>'
+        + '<th scope="row">' + esc(e.substanz) + note + '</th>'
         + '<td>' + esc(e.anbieter || '') + (ch ? '<span class="labor-t-klein">Charge ' + ch + '</span>' : '') + '</td>'
         + '<td class="labor-t-num">' + menge + '</td>'
         + '<td class="labor-t-num">' + rein + '</td>'
