@@ -217,11 +217,13 @@
     var el = $('#labor2-liste'), zEl = $('#labor2-zahl');
     if (!el) return;
     var t = LABORTESTS.slice().concat(gemeldet);
-    if (zEl) {
-      var g = gemeldet.length;
-      zEl.textContent = t.length ? (t.length + (t.length === 1 ? ' Charge' : ' Chargen')
-        + (g ? ' · ' + g + ' gemeldet' : '')) : '';
-    }
+    var zText = t.length ? (t.length + (t.length === 1 ? ' Charge' : ' Chargen')
+      + (gemeldet.length ? ' · ' + gemeldet.length + ' gemeldet' : '')) : '';
+    if (zEl) zEl.textContent = zText;
+    // Dieselbe Zahl in die zugeklappte Zusammenfassung, damit man von aussen
+    // sieht, dass hinter dem Aufklapper etwas steht.
+    var aEl = document.getElementById('labor-auf-zahl');
+    if (aEl) aEl.textContent = t.length ? (t.length + ' geprüft') : '';
     if (!t.length) {
       el.classList.remove('is-scroll');
       el.innerHTML = '<div class="erf-empty">Noch kein Eintrag. Prüf ein Zertifikat und '
