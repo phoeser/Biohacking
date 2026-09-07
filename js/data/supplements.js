@@ -85,7 +85,7 @@ const SUPPLEMENTS = [
     benefits: [
       'Stärkt das Immunsystem',
       'Essenziell für Kollagenaufbau (Haut, Gelenke)',
-      'Erhöht Eisenaufnahme um bis zu 300 %',
+      'Erhöht die Aufnahme von pflanzlichem Eisen deutlich (nicht von Eisen aus Fleisch)',
       'Starkes Antioxidans, schützt Zellen',
       'Reduziert oxidativen Stress nach Sport'
     ],
@@ -626,7 +626,7 @@ const SUPPLEMENTS = [
     short: 'Das bekannteste Adaptogen. Kleine RCTs zeigen niedrigere Cortisolwerte und weniger Stresserleben – meist über acht Wochen und mit herstellernahen Extrakten.',
     description: 'Aus dem Ayurveda. KSM-66 und Sensoril sind die in Studien eingesetzten Extrakte – die meisten dieser Studien sind klein und wurden von den Herstellern finanziert. Untersucht wurden Zeiträume von vier bis acht Wochen; zur Daueranwendung gibt es keine Daten.',
     benefits: [
-      'Senkt Cortisol um bis zu 30 %',
+      'Senkte Cortisol in einer kleinen, herstellernahen Studie um knapp 30 % – Einzelbefund, nicht unabhängig bestätigt',
       'Verbessert Schlafqualität',
       'Erhöht Testosteron bei Männern',
       'Steigert Muskelkraft und VO2max',
@@ -1584,7 +1584,7 @@ const SUPPLEMENTS = [
     short: 'Senkt erhöhte Cortisolspiegel – besonders nach Training oder bei Stress. Gut vor dem Schlafen.',
     description: 'Phosphatidylserin ist ein Phospholipid der Zellmembran, besonders reichlich im Gehirn. Studien zeigen signifikante Cortisol-Senkung nach intensivem Training und bessere Schlafqualität.',
     benefits: [
-      'Senkt erhöhtes Cortisol (bis zu 30 % nach Training)',
+      'Senkte erhöhtes Cortisol nach Training deutlich – die Zahl stammt aus einer Studie mit zehn Männern über zehn Tage',
       'Verbessert Schlafqualität bei Gestressten',
       'Unterstützt Gedächtnis und Konzentration',
       'Wirkt bei ADHS-Symptomen',
@@ -1641,7 +1641,7 @@ const SUPPLEMENTS = [
     benefits: [
       'Verlängert Time-to-Exhaustion bei hochintensiver Belastung',
       'Verbessert Sprints, HIIT, CrossFit',
-      'Erhöht intramuskuläres Carnosin um bis zu 60 %',
+      'Erhöht intramuskuläres Carnosin um bis zu 60 % – der Leistungsvorteil zeigt sich vor allem bei Belastungen von ein bis vier Minuten',
       'Antioxidative Wirkung im Muskel',
       'Kann kognitive Funktion unter Stress verbessern'
     ],
@@ -1666,7 +1666,7 @@ const SUPPLEMENTS = [
     description: 'L-Citrullin wird im Körper zu Arginin umgewandelt und hebt dadurch NO (Stickoxid) – dieser Umweg ist besser belegt als die direkte Arginin-Gabe. Die Effekte auf Leistung und Muskelkater stammen aus kleinen Sportstudien mit uneinheitlichen Ergebnissen; die Malat-Form ist dabei nicht sauber gegen reines Citrullin geprüft.',
     benefits: [
       'Bessere Durchblutung und Muskelpump',
-      'Verbessert Ausdauer um 7–10 %',
+      'Rund 6 % mehr Wiederholungen im Krafttraining (Meta-Analyse, 8 Studien, 137 Personen) – kleiner Effekt, bei Oberkörperübungen nicht nachweisbar',
       'Reduziert Muskelkater nach intensivem Training',
       'Kann Blutdruck leicht senken',
       'Unterstützt Erektionsqualität'
