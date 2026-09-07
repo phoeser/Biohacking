@@ -3902,3 +3902,59 @@ button { font-family: inherit; cursor: pointer; }
 .labor-u2:hover{border-color:var(--accent,#0a6b4a)}
 .labor-u2.is-aktiv{border-color:var(--accent,#0a6b4a);background:var(--accent-soft,rgba(10,107,74,.1))}
 .labor-u2:disabled{opacity:.55;cursor:default}
+
+/* ---------------------------------------------------------------------------
+   Laborprüfer als Aufklapper (v163)
+   Aufgeklappt ist der Prüfer rund 2.800 Pixel hoch und schob die 77 Wirkstoffe
+   fast vier Bildschirmhöhen nach unten. Er bleibt an seiner Stelle — die Frage
+   „ist da drin, was draufsteht" gehört vor die Liste —, ist aber zu.
+   Das <details> liegt ausserhalb von #laborcheck, weil js/laborcheck.js dessen
+   Inhalt beim Start komplett ersetzt.
+--------------------------------------------------------------------------- */
+.labor-auf {
+  background: rgba(47, 139, 106, 0.05);
+  border: 1px solid rgba(47, 139, 106, 0.20);
+  border-left: 3px solid var(--accent, #2f8b6a);
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 0 0 18px;
+  font-size: 13px;
+  color: var(--text);
+}
+.labor-auf > summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 500;
+  color: #1f6b50;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.labor-auf > summary::-webkit-details-marker { display: none; }
+.labor-auf-titel { flex: 1 1 auto; min-width: 0; }
+.labor-auf-zahl {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted, #5a6560);
+  white-space: nowrap;
+}
+.labor-auf-toggle {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted, #5a6560);
+  background: rgba(47, 139, 106, 0.10);
+  padding: 2px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.labor-auf-toggle::after { content: ' ▾'; }
+.labor-auf[open] > summary { margin-bottom: 4px; }
+.labor-auf[open] .labor-auf-toggle::after { content: ' ▴'; }
+.labor-auf[open] .labor-auf-toggle { font-size: 0; }
+.labor-auf[open] .labor-auf-toggle::before { content: 'Zuklappen'; font-size: 11px; }
+.labor-auf[open] .labor-auf-toggle::after { content: ' ▴'; font-size: 11px; }
+/* Der Abschnitt bringt oben eigenen Abstand und eine Trennlinie mit — beides
+   ist im Aufklapper doppelt gemoppelt. */
+.labor-auf .labor-section { margin-top: 8px; padding-top: 0; border-top: 0; }
