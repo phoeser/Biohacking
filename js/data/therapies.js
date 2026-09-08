@@ -841,6 +841,54 @@ const THERAPIES = [
         note: 'Der Podcast von Paul Höser (Folge 80) · mit Paul & Paula. Warum die VO2max einer der stärksten Sterblichkeits-Marker überhaupt ist, was Zone 2 im Muskel aufbaut und wie das norwegische Vier-mal-vier-Intervall funktioniert – inklusive der ehrlichen Zeitachse. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 18.09.2026, 10:00)'
       }
     ]
+  },
+  {
+    id: 'hoeren-demenz',
+    name: 'Hören & Demenz (Hörversorgung)',
+    category: 'Biohacking',
+    emoji: '👂',
+    short: 'Unbehandelter Hörverlust gehört zu den beeinflussbaren Demenz-Risikofaktoren – laut Lancet-Kommission 2024 rund 5 % der Fälle, Platz drei hinter geringer Bildung und Bluthochdruck. Hörgeräte sind der einzige Faktor, der in einer großen randomisierten Studie geprüft wurde.',
+    benefits: [
+      'Lancet-Kommission 2024: 14 beeinflussbare Faktoren erklären zusammen rund 45 % der Demenzfälle – Hörverlust 5 %',
+      'ACHIEVE (Lancet 2023, 977 Ältere, 3 Jahre): Hörversorgung gegen ein Gesundheitsprogramm – in der Gesamtgruppe kein Unterschied',
+      'In der vorab geplanten Risikogruppe (ARIC-Kohorte, 238 Personen) war der geistige Abbau um 48 % verlangsamt',
+      'Ein Hörtest ist billig, ungefährlich und der erste Schritt – ob Hörgeräte Demenz verhindern, ist damit nicht bewiesen'
+    ],
+    indication: ['Demenz-Prävention', 'Hörverlust ab der Lebensmitte', 'Kognition', 'Soziale Teilhabe'],
+    note: 'Ein Bevölkerungsanteil ist kein persönliches Risiko: Die 5 % sagen, wie viele Fälle wegfielen, wenn niemand schlecht hörte – nicht, wie stark das eigene Risiko sinkt. Bei Hörproblemen: HNO-Arzt und Hörtest, keine Selbstdiagnose.',
+    link: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01406-X/fulltext'
+  },
+  {
+    id: 'muskel-als-organ',
+    name: 'Muskel als Organ (Griffkraft & Myokine)',
+    category: 'Biohacking',
+    emoji: '💪',
+    short: 'Der Skelettmuskel ist mehr als Antrieb: Er setzt Botenstoffe frei (Myokine) und seine Kraft ist einer der stärksten Vorhersagewerte für die Sterblichkeit – stärker als der Blutdruck, und stärker als die reine Muskelmasse.',
+    benefits: [
+      'PURE-Studie (Lancet 2015, 139.691 Menschen, 17 Länder): je 5 kg weniger Griffkraft 16 % höheres Sterberisiko – als Marker stärker als der systolische Blutdruck',
+      'Health-ABC-Kohorte (2006, 2.292 Ältere): Kraft sagt die Sterblichkeit voraus, die Muskelmasse allein kaum',
+      'LIFE-Studie (JAMA 2014, 1.635 Ältere, randomisiert): strukturiertes Training senkte den Anteil mit Mobilitätsverlust von 35,5 auf 30,1 %',
+      'Myokine wie Irisin sind real, aber die Messmethoden streiten – Kits verschiedener Hersteller wichen im Mittel 18-fach voneinander ab'
+    ],
+    indication: ['Longevity', 'Sarkopenie-Prävention', 'Mobilität im Alter', 'Stoffwechsel', 'Sturzprävention'],
+    note: 'Griffkraft ist vor allem Anzeige, nicht Hebel: Dass Griffkrafttraining das Sterberisiko senkt, ist nicht gezeigt – belegt ist, dass Krafttraining Kraft und Mobilität erhält. Wer über vierzig ist und lange pausiert hat, startet mit Anleitung.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/25982160/'
+  },
+  {
+    id: 'mundmikrobiom',
+    name: 'Mundmikrobiom & Parodontitis',
+    category: 'Biohacking',
+    emoji: '🦷',
+    short: 'Der Mund ist das zweitgrößte Mikrobiom des Körpers. Parodontitis-Keime wie Porphyromonas gingivalis stehen im Verdacht, Herz-Kreislauf-Erkrankungen und Alzheimer mitzutreiben – die Belege reichen von starken Beobachtungsdaten bis zu einem gescheiterten Medikament.',
+    benefits: [
+      'Gingipain-Antigene von P. gingivalis fanden sich in über 90 % untersuchter Alzheimer-Hirnproben (Dominy 2019)',
+      'Die Konsequenz-Studie: Atuzaginstat (Cortexyme, 643 Patienten, 48 Wochen) verfehlte 2021 beide Hauptendpunkte, Programm 2022 wegen Lebertoxizität eingestellt',
+      'Intensive Parodontitis-Behandlung verbesserte nach 6 Monaten die Gefäßfunktion (Tonetti, NEJM 2007, 120 Patienten) – ein Surrogat, kein Herzinfarkt-Endpunkt',
+      'Cochrane 2022: nur zwei randomisierte Studien zu harten Herz-Kreislauf-Endpunkten, keine belastbare Antwort'
+    ],
+    indication: ['Zahnfleischentzündung', 'Herz-Kreislauf-Risiko', 'Demenz-Risiko', 'Mundgesundheit', 'Prävention'],
+    note: 'Was sicher hilft, ist unspektakulär: Zahnzwischenräume reinigen, professionelle Zahnreinigung, Parodontitis behandeln lassen. Mundspülungen mit Chlorhexidin dauerhaft zu nutzen, stört das Mikrobiom eher – Nitrat-reduzierende Bakterien im Mund gehören zur Blutdruckregulation.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/17329698/'
   }
 ];
 
