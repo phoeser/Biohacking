@@ -100,8 +100,9 @@ const ERFAHRUNGEN = [
     emoji: '\u{1F41F}',
     autor: 'paul',
     demo: false,
-    // anzeige: siehe Hinweis oben – bei Affiliate-Verhaeltnis auf true setzen.
-    anzeige: false,
+    // anzeige: Empfehlungsprogramm mit NORSAN seit 08.09.2026 – Kennzeichnung
+    // nach § 5a Abs. 4 UWG gilt damit auch fuer diesen aelteren Bericht.
+    anzeige: true,
     datum: '2026-08-24',
     dauer: 'laufend',
     dosis: 'nach Herstellerangabe',
@@ -118,7 +119,7 @@ const ERFAHRUNGEN = [
       'Preislich im oberen Bereich',
       'Prüflabor und genaue Prüfintervalle werden nicht öffentlich benannt'
     ],
-    shopId: null,
+    shopId: 'norsan',
     quelle: { label: 'Eigene Anwendung; Herstellerangaben laut NORSAN Labor-Zertifikaten, abgerufen 24.08.2026', url: 'https://norsan.de/labor-zertifikate/' }
   },
   {
@@ -614,6 +615,32 @@ const SHOPS = [
       aktiv: true,
       url: 'https://www.awin1.com/cread.php?awinmid=13808&awinaffid=3056483&ued=https%3A%2F%2Fwww.shop-apotheke.com%2F',
       codes: []
+    }
+  },
+  {
+    id: 'norsan',
+    name: 'NORSAN',
+    demo: false,
+    url: 'https://www.norsan.de/',
+    land: 'DE',
+    kategorien: ['Supplements', 'Omega-3'],
+    bewertung: 5,
+    versand: 'Zuverlässig, Versand aus Deutschland; Bestellung auch per E-Mail, Fax oder Telefon möglich.',
+    zahlung: 'Übliche Zahlarten.',
+    qualitaet: 'Schwermetall-Zertifikate je Produktlinie und chargenweise TOTOX-Werte der Rohware nach Herstellerangabe. Siehe eigener Erfahrungsbericht.',
+    zoll: 'Kein Thema, Versand innerhalb Deutschlands.',
+    erfahrung: 'Eigene Erfahrung: Omega-3 nehme ich von NORSAN, Öl und Kapseln parallel. Der Grund ist die Reinheit, nicht der Geschmack – das Öl schmeckt deutlich nach Fisch. Preislich im oberen Bereich. Stand August 2026.',
+    // Empfehlungsprogramm seit 08.09.2026 (Direktprogramm, Fachkreisportal).
+    // Code ES377: 15 % auf die erste Bestellung, dauerhafte Zuordnung der
+    // Kunden ohne erneute Eingabe. Affiliate-Parameter ?norsan=1889 an jede
+    // norsan.de-URL. Rueckverguetung laut Anbieter 10 % netto, quartalsweise.
+    // Auflage des Anbieters: kein Weiterverkauf ueber Amazon oder eBay.
+    affiliate: {
+      aktiv: true,
+      url: 'https://www.norsan.de/?norsan=1889',
+      codes: [
+        { code: 'ES377', prozent: '15 %', fuer: 'auf die erste Bestellung' }
+      ]
     }
   },
   // ---------------------------------------------------------------------------
