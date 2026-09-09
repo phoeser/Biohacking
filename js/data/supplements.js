@@ -2433,6 +2433,33 @@ const SUPPLEMENTS = [
     avoid: [],
     evidence: 'hoch',
     sources: 'Leber, Austern, Nüsse, Kakao; als Bisglycinat-Kapsel'
+  },
+  {
+    id: 'mikronaehrstoff-konzentrate',
+    name: 'Mikronährstoff-Konzentrate (LaVita & Co.)',
+    altNames: 'Vitalstoffkonzentrat, Multivitamin-Konzentrat, LaVita, Cellagon aurum, Regulatpro, Rotbäckchen Vital, Kyäni Sunrise, Juice Plus',
+    category: 'Vitamin',
+    tags: ['immun', 'energie', 'longevity', 'stoffwechsel'],
+    short: 'Flüssige Konzentrate aus Obst-, Gemüse- und Kräuterauszügen mit isoliert zugesetzten Vitaminen, verkauft für 21 bis über 125 Euro im Monat. Ein Nutzen für gesunde Erwachsene ist in großen randomisierten Studien nicht nachweisbar.',
+    description: 'Der Markt für flüssige „Mikronährstoffkonzentrate" wird von LaVita angeführt, dazu kommen Cellagon aurum, Regulatpro von Dr. Niedermaier, Rotbäckchen Vital, Kyäni Sunrise und als Kapsel-Nachbar Juice Plus. Alle verkaufen dieselbe Grundidee: Die Ernährung habe Lücken, das Konzentrat schließe sie. Die Basis ist Fruchtsaftkonzentrat, ergänzt um Gemüse- und Kräuterauszüge — die eigentliche Vitaminmenge stammt aus isoliert zugesetzten Reinstoffen. Damit ist die entscheidende Frage nicht, wie viele Zutaten auf dem Etikett stehen, sondern ob ein Multivitamin einem gesunden Erwachsenen etwas bringt. Genau das ist außergewöhnlich gut untersucht — und die Antwort fällt ernüchternd aus.',
+    benefits: [
+      'Für Menschen mit nachgewiesenem Mangel oder erhöhtem Bedarf ist eine gezielte Supplementierung sinnvoll — dafür braucht es aber kein Breitband-Konzentrat',
+      'Die einzeln beworbenen Wirkungen („trägt bei zu einem normalen Immunsystem", „verringert Müdigkeit") sind rechtlich zugelassene Aussagen; sie gelten allerdings für jedes Multivitamin',
+      'COSMOS (drei Unterstudien, Meta-Analyse 2024): kleiner, aber statistisch robuster Vorteil bei der Denkleistung — 0,07 Standardabweichungen, sekundärer Endpunkt',
+      'Die Darreichung als Saft erleichtert die Einnahme bei Schluckproblemen; ein Nutzennachweis folgt daraus nicht'
+    ],
+    risks: [
+      'Vitamin K in mehreren dieser Produkte: Das BfR sieht ab 150 µg K1 bzw. 45 µg K2 täglich eine messbare Wirkung auf die Gerinnung — wer Marcumar oder Warfarin nimmt, sollte vorher ärztlich Rücksprache halten',
+      'Einzelne Nährstoffe in Hochdosis sind belegt schädlich: Beta-Carotin erhöhte bei Rauchern die Lungenkrebsrate um 18 % (ATBC), Vitamin E das Prostatakrebsrisiko um 17 % (SELECT)',
+      'Bei zwei Portionen täglich überschreiten in manchen Produkten über ein Dutzend Nährstoffe die Referenzmenge; Rotbäckchen Vital enthält 100 µg Vitamin B12 = das Vierfache der BfR-Höchstmenge',
+      'Kosten von 21 bis über 125 Euro im Monat — Geld, das für Obst, Gemüse und eine gezielte Messung fehlt'
+    ],
+    dosage: 'Herstellerempfehlung meist 10–20 ml täglich. Eine sinnvolle Dosis lässt sich nicht angeben, solange kein Nutzen gezeigt ist.',
+    intake: 'Wer supplementiert, tut es sinnvollerweise gezielt nach Messung: Folsäure bei Kinderwunsch, B12 bei veganer Ernährung, Vitamin D bei fehlender Sonne, Jod in Schwangerschaft und Stillzeit, Eisen bei nachgewiesenem Mangel.',
+    synergies: [],
+    avoid: ['vitamin-k2'],
+    evidence: 'hoch',
+    sources: 'Obst und Gemüse selbst — die Studienlage spricht durchgehend dafür, dass die Wirkung am Lebensmittel hängt und sich nicht in ein Konzentrat übertragen lässt'
   }
 ];
 
