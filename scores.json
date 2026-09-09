@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-09-03",
+ "stand": "2026-09-09",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -10,6 +10,20 @@
   "anwendung": "Anwendungserfahrung: wie viel dokumentierte Anwendung am Menschen vorliegt (seit wann, wie breit, in welchem Rahmen). Misst NICHT, ob es wirkt - Aderlass haette hier eine 10."
  },
  "eintraege": [
+  {
+   "id": "mikronaehrstoff-konzentrate",
+   "view": "supplement",
+   "name": "Mikronährstoff-Konzentrate (LaVita & Co.)",
+   "url": "https://biohackingkompakt.de/thema/mikronaehrstoff-konzentrate.html",
+   "evidenz": 9,
+   "mechanismus": 6,
+   "sicherheit": 8,
+   "hype": 8,
+   "anwendung": 9,
+   "richtung": "negativ",
+   "label": "Gut untersucht – Wirkung nicht bestätigt",
+   "beleg": "Kaum eine Produktklasse ist so gut untersucht: 21 randomisierte Studien mit 91.074 Menschen ergaben eine Gesamtsterblichkeit von RR 0,98, die Physicians' Health Study II fand über elf Jahre keinen Herz-Kreislauf-Effekt, COSMOS mit 21.442 Teilnehmern keinen Effekt auf Krebs, Herz-Kreislauf oder Sterblichkeit. Der einzige belastbare Pluspunkt ist ein kleiner Kognitionsvorteil in drei COSMOS-Unterstudien (0,07 Standardabweichungen) — sekundärer Endpunkt, und die Physicians' Health Study fand dort exakt null. Die Anbieterstudien tragen nichts bei: die LaVita-Evidenz ist eine Studie mit 159 Teilnehmern in sechs Publikationen, bei der von 48 gemessenen Laborwerten 20 veröffentlicht wurden und 3 für das Produkt sprachen (Cochrane Österreich). Hohe Anwendungserfahrung, weil Multivitamine seit Jahrzehnten breit genommen werden — ein Wirksamkeitsbeleg ist das nicht."
+  },
   {
    "id": "kreatin",
    "view": "supplement",
