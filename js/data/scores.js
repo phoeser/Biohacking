@@ -95,6 +95,8 @@
  */
 const BK_SCORES = [
   // ---------- Supplements ----------
+  { id: 'mikronaehrstoff-konzentrate', view: 'supplement', evidenz: 9, mechanismus: 6, sicherheit: 8, hype: 8, anwendung: 9, richtung: 'negativ',
+    beleg: 'Kaum eine Produktklasse ist so gut untersucht: 21 randomisierte Studien mit 91.074 Menschen ergaben eine Gesamtsterblichkeit von RR 0,98, die Physicians\' Health Study II fand über elf Jahre keinen Herz-Kreislauf-Effekt, COSMOS mit 21.442 Teilnehmern keinen Effekt auf Krebs, Herz-Kreislauf oder Sterblichkeit. Der einzige belastbare Pluspunkt ist ein kleiner Kognitionsvorteil in drei COSMOS-Unterstudien (0,07 Standardabweichungen) — sekundärer Endpunkt, und die Physicians\' Health Study fand dort exakt null. Die Anbieterstudien tragen nichts bei: die LaVita-Evidenz ist eine Studie mit 159 Teilnehmern in sechs Publikationen, bei der von 48 gemessenen Laborwerten 20 veröffentlicht wurden und 3 für das Produkt sprachen (Cochrane Österreich). Hohe Anwendungserfahrung, weil Multivitamine seit Jahrzehnten breit genommen werden — ein Wirksamkeitsbeleg ist das nicht.' },
   { id: 'kreatin', view: 'supplement', evidenz: 9, mechanismus: 8, sicherheit: 9, hype: 8, anwendung: 9, richtung: 'positiv',
     beleg: 'Eines der am besten untersuchten Supplements überhaupt: zahlreiche RCTs und Meta-Analysen zu Kraft und Magermasse, der Phosphokreatin-Weg ist am Menschen messbar, Sicherheitsdaten reichen über Jahre. Abzug beim Hype-Abstand nur, weil die kognitiven Versprechen über die Daten hinausgehen.' },
   { id: 'omega-3', view: 'supplement', evidenz: 8, mechanismus: 8, sicherheit: 9, hype: 6, anwendung: 10, richtung: 'gemischt',
