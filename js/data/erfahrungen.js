@@ -107,15 +107,14 @@ const ERFAHRUNGEN = [
     dauer: 'laufend',
     dosis: 'nach Herstellerangabe',
     bewertung: 5,
-    fazit: 'Qualität und Schwermetall-Nachweis überzeugen. Das Öl schmeckt deutlich nach Fisch – das ist der Preis dafür.',
-    text: 'Omega-3 nehme ich von NORSAN, sowohl das Öl als auch die Kapseln. Beides funktioniert für mich gut.\n\nDer eigentliche Grund für diese Marke ist bei Fischöl aber nicht der Geschmack, sondern die Reinheit. Fischöl stammt aus Meerestieren, und genau dort reichern sich Schwermetalle an – Quecksilber vor allem. Bei einem Produkt, das man täglich und über Jahre nimmt, ist das die relevanteste Frage überhaupt. NORSAN veröffentlicht dazu Schwermetall-Zertifikate für die einzelnen Produktlinien und gibt an, verkaufsfertige Produkte regelmäßig durch ein unabhängiges Labor prüfen zu lassen sowie die TOTOX-Werte der Rohware chargenweise. TOTOX ist das Maß für Oxidation, also dafür, wie ranzig ein Öl bereits ist – auch das ist bei Fischöl ein echtes Thema.\n\nZum Geschmack, ohne Beschönigung: Das Öl schmeckt schon stark nach Fisch. Wer das nicht mag, ist mit den Kapseln besser bedient – die habe ich genau deshalb parallel im Einsatz.\n\nEinordnung von mir: Omega-3 ist einer der wenigen Werte, die man nicht schätzen muss, sondern messen kann. Der Omega-3-Index steht bei mir im Blutwerte-Bereich, und ich halte das für den sinnvolleren Weg als jede Bauchgefühl-Dosierung: erst messen, dann entscheiden, wie viel man überhaupt braucht.',
+    fazit: 'Reinheit und Schwermetall-Nachweis überzeugen – bei einem Öl, das man täglich über Jahre nimmt, ist das die entscheidende Frage.',
+    text: 'Omega-3 nehme ich von NORSAN, sowohl das Öl als auch die Kapseln. Beides funktioniert für mich gut.\n\nDer eigentliche Grund für diese Marke ist die Reinheit. Fischöl stammt aus Meerestieren, und genau dort reichern sich Schwermetalle an – Quecksilber vor allem. Bei einem Produkt, das man täglich und über Jahre nimmt, ist das die relevanteste Frage überhaupt. NORSAN veröffentlicht dazu Schwermetall-Zertifikate für die einzelnen Produktlinien und gibt an, verkaufsfertige Produkte regelmäßig durch ein unabhängiges Labor prüfen zu lassen sowie die TOTOX-Werte der Rohware chargenweise. TOTOX ist das Maß für Oxidation, also dafür, wie ranzig ein Öl bereits ist – auch das ist bei Fischöl ein echtes Thema.\n\nÖl oder Kapseln ist reine Vorliebe – ich habe beides im Einsatz.\n\nEinordnung von mir: Omega-3 ist einer der wenigen Werte, die man nicht schätzen muss, sondern messen kann. Der Omega-3-Index steht bei mir im Blutwerte-Bereich, und ich halte das für den sinnvolleren Weg als jede Bauchgefühl-Dosierung: erst messen, dann entscheiden, wie viel man überhaupt braucht.',
     positiv: [
       'Schwermetall-Zertifikate werden je Produktlinie veröffentlicht',
       'TOTOX-Werte der Rohware werden chargenweise geprüft (Oxidationsgrad)',
-      'Öl und Kapseln parallel verfügbar – Kapseln umgehen das Geschmacksthema'
+      'Öl und Kapseln parallel verfügbar'
     ],
     negativ: [
-      'Das Öl schmeckt deutlich nach Fisch',
       'Preislich im oberen Bereich',
       'Prüflabor und genaue Prüfintervalle werden nicht öffentlich benannt'
     ],
@@ -629,7 +628,7 @@ const SHOPS = [
     zahlung: 'Übliche Zahlarten.',
     qualitaet: 'Schwermetall-Zertifikate je Produktlinie und chargenweise TOTOX-Werte der Rohware nach Herstellerangabe. Siehe eigener Erfahrungsbericht.',
     zoll: 'Kein Thema, Versand innerhalb Deutschlands.',
-    erfahrung: 'Eigene Erfahrung: Omega-3 nehme ich von NORSAN, Öl und Kapseln parallel. Der Grund ist die Reinheit, nicht der Geschmack – das Öl schmeckt deutlich nach Fisch. Preislich im oberen Bereich. Stand August 2026.',
+    erfahrung: 'Eigene Erfahrung: Omega-3 nehme ich von NORSAN, Öl und Kapseln parallel. Ausschlaggebend ist die Reinheit – Schwermetall-Zertifikate je Produktlinie und chargenweise TOTOX-Werte. Preislich im oberen Bereich. Stand August 2026.',
     // Empfehlungsprogramm seit 08.09.2026 (Direktprogramm, Fachkreisportal).
     // Code ES377: 15 % auf die erste Bestellung, dauerhafte Zuordnung der
     // Kunden ohne erneute Eingabe. Affiliate-Parameter ?norsan=1889 an jede
