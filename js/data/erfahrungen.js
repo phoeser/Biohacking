@@ -108,15 +108,14 @@ const ERFAHRUNGEN = [
     dosis: 'nach Herstellerangabe',
     bewertung: 5,
     fazit: 'Reinheit und Schwermetall-Nachweis überzeugen – bei einem Öl, das man täglich über Jahre nimmt, ist das die entscheidende Frage.',
-    text: 'Omega-3 nehme ich von NORSAN, sowohl das Öl als auch die Kapseln. Beides funktioniert für mich gut.\n\nDer eigentliche Grund für diese Marke ist die Reinheit. Fischöl stammt aus Meerestieren, und genau dort reichern sich Schwermetalle an – Quecksilber vor allem. Bei einem Produkt, das man täglich und über Jahre nimmt, ist das die relevanteste Frage überhaupt. NORSAN veröffentlicht dazu Schwermetall-Zertifikate für die einzelnen Produktlinien und gibt an, verkaufsfertige Produkte regelmäßig durch ein unabhängiges Labor prüfen zu lassen sowie die TOTOX-Werte der Rohware chargenweise. TOTOX ist das Maß für Oxidation, also dafür, wie ranzig ein Öl bereits ist – auch das ist bei Fischöl ein echtes Thema.\n\nÖl oder Kapseln ist reine Vorliebe – ich habe beides im Einsatz.\n\nEinordnung von mir: Omega-3 ist einer der wenigen Werte, die man nicht schätzen muss, sondern messen kann. Der Omega-3-Index steht bei mir im Blutwerte-Bereich, und ich halte das für den sinnvolleren Weg als jede Bauchgefühl-Dosierung: erst messen, dann entscheiden, wie viel man überhaupt braucht.',
+    text: 'Omega-3 nehme ich von NORSAN, sowohl das Öl als auch die Kapseln. Beides funktioniert für mich gut.\n\nDer eigentliche Grund für diese Marke ist die Reinheit. Fischöl stammt aus Meerestieren, und genau dort reichern sich Schwermetalle an – Quecksilber vor allem. Bei einem Produkt, das man täglich und über Jahre nimmt, ist das die relevanteste Frage überhaupt. NORSAN veröffentlicht dazu Schwermetall-Zertifikate für die einzelnen Produktlinien und gibt an, verkaufsfertige Produkte regelmäßig durch ein unabhängiges Labor prüfen zu lassen sowie die TOTOX-Werte der Rohware chargenweise. TOTOX ist das Maß für Oxidation, also dafür, wie ranzig ein Öl bereits ist – auch das ist bei Fischöl ein echtes Thema.\n\nÖl oder Kapseln ist reine Vorliebe – ich habe beides im Einsatz.\n\nZum Preis: Billig ist das nicht, verglichen mit dem Fischöl aus dem Drogeriemarkt. Für die Prüftiefe, die dahintersteht, finde ich es aber noch sehr fair.\n\nEinordnung von mir: Omega-3 ist einer der wenigen Werte, die man nicht schätzen muss, sondern messen kann. Der Omega-3-Index steht bei mir im Blutwerte-Bereich, und ich halte das für den sinnvolleren Weg als jede Bauchgefühl-Dosierung: erst messen, dann entscheiden, wie viel man überhaupt braucht.',
     positiv: [
       'Schwermetall-Zertifikate werden je Produktlinie veröffentlicht',
       'TOTOX-Werte der Rohware werden chargenweise geprüft (Oxidationsgrad)',
       'Öl und Kapseln parallel verfügbar'
     ],
     negativ: [
-      'Preislich im oberen Bereich',
-      'Prüflabor und genaue Prüfintervalle werden nicht öffentlich benannt'
+      'Teurer als Standard-Fischöl aus dem Drogeriemarkt'
     ],
     shopId: 'norsan',
     quelle: { label: 'Eigene Anwendung; Herstellerangaben laut NORSAN Labor-Zertifikaten, abgerufen 24.08.2026', url: 'https://norsan.de/labor-zertifikate/' }
@@ -628,7 +627,7 @@ const SHOPS = [
     zahlung: 'Übliche Zahlarten.',
     qualitaet: 'Schwermetall-Zertifikate je Produktlinie und chargenweise TOTOX-Werte der Rohware nach Herstellerangabe. Siehe eigener Erfahrungsbericht.',
     zoll: 'Kein Thema, Versand innerhalb Deutschlands.',
-    erfahrung: 'Eigene Erfahrung: Omega-3 nehme ich von NORSAN, Öl und Kapseln parallel. Ausschlaggebend ist die Reinheit – Schwermetall-Zertifikate je Produktlinie und chargenweise TOTOX-Werte. Preislich im oberen Bereich. Stand August 2026.',
+    erfahrung: 'Eigene Erfahrung: Omega-3 nehme ich von NORSAN, Öl und Kapseln parallel. Ausschlaggebend ist die Reinheit – Schwermetall-Zertifikate je Produktlinie und chargenweise TOTOX-Werte. Teurer als Drogeriemarkt-Fischöl, für die Prüftiefe aber fair. Stand August 2026.',
     // Empfehlungsprogramm seit 08.09.2026 (Direktprogramm, Fachkreisportal).
     // Code ES377: 15 % auf die erste Bestellung, dauerhafte Zuordnung der
     // Kunden ohne erneute Eingabe. Affiliate-Parameter ?norsan=1889 an jede
