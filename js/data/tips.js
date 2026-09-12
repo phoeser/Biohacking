@@ -143,7 +143,7 @@ const TIPS = [
     icon: '⏱️',
     title: 'Intervallfasten (16:8)',
     short: 'Verbessert in Studien Gewicht und Insulinsensitivität – etwa so gut wie eine gleich große Kalorienreduktion. Die Autophagie ist Theorie.',
-    how: '16 Stunden fasten, 8 Stunden Essen (z. B. 12–20 Uhr). Während Fasten: Wasser, Kaffee, Tee, Elektrolyte. Frauen starten besser mit 14:10.',
+    how: '16 Stunden fasten, 8 Stunden Essen (z. B. 12–20 Uhr). Während Fasten: Wasser, Kaffee, Tee, Elektrolyte. Der verbreitete Rat, Frauen sollten mit 14:10 einsteigen, ist in keiner Studie geprüft.',
     tags: ['fasten', 'autophagie', 'gewicht', 'insulin']
   },
   {
@@ -181,7 +181,7 @@ const TIPS = [
     icon: '💪',
     title: 'Krafttraining 3× pro Woche',
     short: 'Die am besten belegte Einzelmaßnahme dieser Datenbank: Muskelmasse, Knochendichte, Stoffwechsel, Sterblichkeit.',
-    how: '3× pro Woche Ganzkörper oder Split. Schwere zusammengesetzte Übungen: Kniebeuge, Kreuzheben, Bankdrücken, Klimmzüge. Progressive Überlast ist der Schlüssel.',
+    how: '3× pro Woche Ganzkörper oder Split. Schwere zusammengesetzte Übungen: Kniebeuge, Bankdrücken, Rudern, Klimmzüge. Progressive Überlast ist der Schlüssel. Bei fortgeschrittener Osteoporose oder vorhandenen Wirbelbrüchen nennt die S3-Leitlinie Kreuzheben und Tiefsprünge ausdrücklich als kontraindiziert – dort an Geräten trainieren und keine hohe Last in Rumpfbeugung oder -streckung.',
     tags: ['bewegung', 'muskel', 'anti-aging', 'hormone']
   },
   {
@@ -190,7 +190,7 @@ const TIPS = [
     icon: '🚴',
     title: 'Zone-2-Cardio 2–4× pro Woche',
     short: 'Lockeres Ausdauertraining baut Mitochondrien auf. Dass ausgerechnet Zone 2 dafür optimal ist, ist eine populäre Zuspitzung.',
-    how: '30–60 min bei 60–70 % der max. Herzfrequenz (noch Gespräch möglich). Radfahren, Gehen mit Anstieg, Rudern. Ideal als Erholung und metabolischer Treibstoff.',
+    how: '30–60 min in der Intensität, in der ein Gespräch noch möglich ist. Radfahren, Gehen mit Anstieg, Rudern. Die verbreitete Faustformel „60–70 % der maximalen Herzfrequenz" trifft die gemeinte Intensität bei vielen Menschen nicht – die gängigen Zone-2-Marker streuen um 6 bis 29 %. Wer es genau braucht, kommt um einen Laktat- oder Spiroergometrie-Test nicht herum.',
     tags: ['bewegung', 'ausdauer', 'mitochondrien', 'herz']
   },
   {
@@ -542,7 +542,7 @@ const TIPS = [
     icon: '❤️',
     title: 'Zone-2-Cardio 3×/Woche',
     short: 'Intensität, bei der du noch reden kannst – baut Mitochondriendichte auf. Dass Zone 2 dafür die beste ist, ist nicht belegt.',
-    how: '3× pro Woche 45–60 min bei 60–70 % Maximalpuls (≈ 180 minus Alter). Herzfrequenz so halten, dass du noch sprechen kannst – Radfahren, Zügig Gehen, Ruderergometer. Nach 3 Monaten: messbar bessere Laktat-Clearance und VO2max.',
+    how: '3× pro Woche 45–60 min in der Intensität, in der du noch sprechen kannst – Radfahren, zügig Gehen, Ruderergometer. Die Faustformeln (60–70 % Maximalpuls, „180 minus Alter") sind grobe Näherungen und treffen bei vielen Menschen daneben; exakt geht es nur über einen Laktat- oder Spiroergometrie-Test.',
     tags: ['ausdauer', 'mitochondrien', 'herz', 'longevity']
   }
 ];
