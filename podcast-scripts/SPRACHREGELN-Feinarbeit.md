@@ -54,6 +54,8 @@ Regeln dafür: **höchstens eine pro Folge**; der Satzanfang und das Ende ergebe
 
 **Kein offener Satz** im Kaltstart (der Hörer kennt die beiden noch nicht in dieser Folge), keiner im Disclaimer, keiner in „Meine Zahl".
 
+**Echos (Regel A3, verschärft nach dem Lektorat zu 81–88):** höchstens zwei wörtliche Wiederholungen des Vorgängersatzes je Folge — die Hauptzahl und eine zweite. Vier bis sechs Echos waren der auffälligste Unterschied zum Zielklang. Ebenso nicht in jeder Folge: „Der Reihe nach. Was ist X?" / „Sag du." und die Kipp-Begründung „die meisten hören nur den ersten Punkt".
+
 ---
 
 ## D. Kleine Mittel, die schon da sind und Regel werden
