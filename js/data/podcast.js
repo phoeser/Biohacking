@@ -1,4 +1,4 @@
-/* Podcast-Folgen – erzeugt aus dem Spotify-Creators-Backend (Stand 28.08.2026).
+/* Podcast-Folgen – erzeugt aus dem Spotify-Creators-Backend (Stand 12.09.2026, Folgen 1-103).
  * nr, titel, datum (ISO), ab (Zeitpunkt der Veroeffentlichung in UTC), spotify,
  * ziel (view/id in der App). Die Folgen erscheinen um 10:00 Ortszeit – deshalb
  * reicht ein Datumsvergleich nicht, sonst steht die Folge acht Stunden zu frueh
@@ -25,6 +25,29 @@ const PODCAST_APPLE_BASIS = 'https://podcasts.apple.com/de/podcast/biohacking-ko
 const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/episodes/';
 
 const PODCAST_FOLGEN = [
+  { nr: 103, datum: '2026-10-11', ab: '2026-10-11T08:00:00Z', titel: 'Cardio nach der Menopause – warum Zone 2 nie geprüft wurde', spotify: '6dxEr3zcI7WFsILLwJ0zT4' },
+  { nr: 102, datum: '2026-10-10', ab: '2026-10-10T08:00:00Z', titel: 'Intervallfasten nach der Menopause – die Studie mit Durchschnittsalter 32', spotify: '2PeSa8YG5FNe4rX0R9pEVG' },
+  { nr: 101, datum: '2026-10-09', ab: '2026-10-09T08:00:00Z', titel: 'Krafttraining nach der Menopause – die Brücke, die niemand belegt hat', spotify: '4ylIIryQRa5nWoXEzYb5Rd' },
+  { nr: 100, datum: '2026-10-08', ab: '2026-10-08T08:00:00Z', titel: '100 Folgen – was hängengeblieben ist und wie hier entschieden wird', spotify: '0QgeJjV9hMLmkBm4kHCIEI' },
+  { nr: 99, datum: '2026-10-07', ab: '2026-10-07T08:00:00Z', titel: 'Mikronährstoff-Konzentrate – neun von zehn bei der Evidenz, und trotzdem ein Nein', spotify: '7EgRlhEWrkqruHVwX8bbIZ', ziel: { view: 'supplement', id: 'mikronaehrstoff-konzentrate' } },
+  { nr: 98, datum: '2026-10-06', ab: '2026-10-06T08:00:00Z', titel: 'Der Vagusnerv – der Abstand zwischen einer OP und einem Ohrclip', spotify: '4SkvLxvSxrcHcHVONrZSkF', ziel: { view: 'behandlungen', id: 'vagus-stimulation' } },
+  { nr: 97, datum: '2026-10-05', ab: '2026-10-05T08:00:00Z', titel: 'Sermorelin – ein zugelassenes Medikament, das keines mehr ist', spotify: '6AkA23W3qZYb2ReqDKzAbm', ziel: { view: 'experimental', id: 'sermorelin' } },
+  { nr: 96, datum: '2026-10-04', ab: '2026-10-04T08:00:00Z', titel: 'LL-37 – das körpereigene Antibiotikum', spotify: '5HoLYbyDu0kcKysdiFZSSh', ziel: { view: 'experimental', id: 'll-37' } },
+  { nr: 95, datum: '2026-10-03', ab: '2026-10-03T08:00:00Z', titel: 'HCG – eine seit 31 Jahren beantwortete Frage', spotify: '6HNpBS4wYc4MuXdBvtz6HS', ziel: { view: 'experimental', id: 'hcg' } },
+  { nr: 94, datum: '2026-10-02', ab: '2026-10-02T08:00:00Z', titel: 'AOD-9604 – gründlich untersucht, und trotzdem ein Nein', spotify: '7uP6Rt9Y5nms8Noz1K4GBy', ziel: { view: 'experimental', id: 'aod-9604' } },
+  { nr: 93, datum: '2026-10-01', ab: '2026-10-01T08:00:00Z', titel: 'Snap-8 – Botox aus der Tube?', spotify: '4JQDdP8vrX3WOTHan0n0kA', ziel: { view: 'experimental', id: 'snap-8' } },
+  { nr: 92, datum: '2026-09-30', ab: '2026-09-30T08:00:00Z', titel: 'PE-22-28 – das Antidepressivum, das nie einen Menschen erreicht hat', spotify: '2Sg7LDlhgGmz2fKvUO1bCn' },
+  { nr: 91, datum: '2026-09-29', ab: '2026-09-29T08:00:00Z', titel: 'Cagrilintid – 22,7 % und trotzdem „enttäuschend"', spotify: '6uxo38q1ZfX8U3VoBi8szy', ziel: { view: 'experimental', id: 'cagrilintide' } },
+  { nr: 90, datum: '2026-09-28', ab: '2026-09-28T08:00:00Z', titel: 'SS-31 (Elamipretid) – die erste Zulassung, die das Gegenteil beweist', spotify: '0QNUf0JhnVa291asV4ujCj', ziel: { view: 'experimental', id: 'ss-31' } },
+  { nr: 89, datum: '2026-09-27', ab: '2026-09-27T08:00:00Z', titel: 'Lipoprotein(a) – die Studie, die am 4. September scheiterte', spotify: '1ErSKUMunJDlMnMpDIbFSx' },
+  { nr: 88, datum: '2026-09-26', ab: '2026-09-26T08:00:00Z', titel: 'Das Basenbad – ein gutes Ritual mit einer falschen Begründung', spotify: '2Ly0DCgSt26aXyDovTTfdK' },
+  { nr: 87, datum: '2026-09-25', ab: '2026-09-25T08:00:00Z', titel: 'Peptide in der Krebstherapie – zwischen Präzisionsmedizin und einem Warenkorb', spotify: '6xWtM18oLJxG7nPcEkmBE2' },
+  { nr: 86, datum: '2026-09-24', ab: '2026-09-24T08:00:00Z', titel: 'Resveratrol – Aufstieg und Fall eines Longevity-Stars', spotify: '62O02LDJfRUZoIvDlKPHAF', ziel: { view: 'supplement', id: 'resveratrol' } },
+  { nr: 85, datum: '2026-09-23', ab: '2026-09-23T08:00:00Z', titel: 'Ergothionein – eine Tür in jeder Zelle, und die Studie, die niemand zitiert', spotify: '1G7wf2fjt4WcOWJzcGo6o6', ziel: { view: 'supplement', id: 'ergothionein' } },
+  { nr: 84, datum: '2026-09-22', ab: '2026-09-22T08:00:00Z', titel: 'Ca-AKG – acht Jahre jünger, zweimal nachgeprüft, zweimal nichts', spotify: '0pY7LQehX51UhbaJKv2O3y', ziel: { view: 'supplement', id: 'ca-akg' } },
+  { nr: 83, datum: '2026-09-21', ab: '2026-09-21T08:00:00Z', titel: 'Senolytika aus dem Regal – Fisetin, Quercetin und die Studie, die seit acht Jahren läuft', spotify: '1BbbsjA1igB9IPYMNvPk1u', ziel: { view: 'supplement', id: 'fisetin' } },
+  { nr: 82, datum: '2026-09-20', ab: '2026-09-20T08:00:00Z', titel: 'Amycretin – 24,3 % und der Preis, der daneben steht', spotify: '55L32zr2CdnhPBQCgCdkQN', ziel: { view: 'experimental', id: 'amycretin' } },
+  { nr: 81, datum: '2026-09-19', ab: '2026-09-19T08:00:00Z', titel: 'Epigenetische Uhren – was der Test misst, und was er dir nicht sagen kann', spotify: '5w9MxXHUyvkjoqUIiNJC0f' },
   { nr: 80, datum: '2026-09-18', ab: '2026-09-18T08:00:00Z', titel: 'Zone 2 & VO2max: Die Ausdauer-Währung im Faktencheck', spotify: '6uhJDJJ8D3EqhBqh8muvld', ziel: { view: 'behandlungen', id: 'zone2-vo2max' } },
   { nr: 79, datum: '2026-09-17', ab: '2026-09-17T08:00:00Z', titel: 'CGM: Der Blutzucker-Sensor im Faktencheck', spotify: '2gEGQcsJwgJ8ym2dEqr9tX', ziel: { view: 'behandlungen', id: 'cgm' } },
   { nr: 78, datum: '2026-09-16', ab: '2026-09-16T08:00:00Z', titel: 'Urolithin A: Der Mitochondrien-Erneuerer im Faktencheck', spotify: '1OqKr6DQlwmZyf8v7HQjw2', ziel: { view: 'supplement', id: 'urolithin-a' } },
