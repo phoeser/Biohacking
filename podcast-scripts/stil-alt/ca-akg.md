@@ -1,0 +1,57 @@
+Paula: Paul, gestern hast du angekündigt, dass wir heute eine Verjüngungs-Studie komplett auseinandernehmen. Erst aber die Grundfrage: Was ist Ca-AKG?
+
+Paul: Calcium-Alpha-Ketoglutarat – das Calciumsalz einer Substanz, die jeder von uns in diesem Moment in jeder einzelnen Zelle produziert. Alpha-Ketoglutarat, kurz AKG, ist ein zentrales Zwischenprodukt des Citratzyklus – der Drehscheibe des Energiestoffwechsels in unseren Mitochondrien. Und es ist gerade einer der meistdiskutierten Longevity-Kandidaten überhaupt.
+
+Paula: Willkommen bei Biohacking Kompakt. Ich bin Paula.
+
+Paul: Und ich bin Paul. Heute in Folge 84: Ca-AKG – das Molekül aus dem Zellkraftwerk, seine Verjüngungs-Studie und was davon übrig bleibt, im Faktencheck.
+
+Paula: Dann erklär erst, was AKG im Körper alles tut – „Zwischenprodukt" klingt unspektakulär.
+
+Paul: Ist es aber nicht, denn AKG hat mehrere Jobs gleichzeitig. Job eins: Energie – im Citratzyklus ist es eine Station auf dem Weg von der Nahrung zum ATP. Job zwei: Baustoff-Logistik – AKG ist der zentrale Stickstoff-Akzeptor im Aminosäuren-Stoffwechsel und Ausgangsstoff für Glutamin und Glutamat; die Bodybuilding-Szene kennt es deshalb seit Jahrzehnten als Zusatz in Pump-Präparaten, damals mit Arginin kombiniert. Und Job drei, der für uns spannendste: Signalgeber der Epigenetik. Die Enzyme, die Methylierungs-Markierungen von der DNA entfernen – die TET-Enzyme und ihre Verwandten – brauchen AKG als zwingenden Co-Faktor. Da schließt sich der Kreis zur Uhren-Folge 81: AKG sitzt buchstäblich am Radiergummi der epigenetischen Post-its. Und jetzt der Alterungs-Bezug: Die AKG-Spiegel im Blut sinken mit dem Alter deutlich – manche Arbeiten sprechen von einem Faktor zehn zwischen jung und alt. Die Hypothese liegt auf der Hand: Was altersbedingt verschwindet und so zentrale Jobs hat, könnte beim Nachfüllen etwas bewirken.
+
+Paula: Was sagen die Tierdaten?
+
+Paul: Die sind ordentlich und stammen aus guten Häusern. Die wichtigste Arbeit: Shahmirzadi und Kollegen am Buck Institute for Research on Aging, 2020 in Cell Metabolism. Alternde Mäuse bekamen Ca-AKG ins Futter – Ergebnis: etwa zwölf Prozent längere Lebensspanne bei den Weibchen und vor allem eine deutlich komprimierte Krankheitsphase am Lebensende – gesündere letzte Monate, weniger Gebrechlichkeits-Marker, weniger Entzündung. Dieses „Healthspan statt Lifespan"-Profil machte die Studie berühmt, denn genau das wollen die meisten Menschen: nicht zwingend länger leben, aber kürzer krank sein. Davor gab es schon die Würmer: 2014 zeigte ein Nature-Paper, dass AKG beim Fadenwurm die Lebensspanne um rund die Hälfte verlängert, über eine Hemmung von mTOR und ATP-Synthase – Mechanismen, die unsere Rapamycin- und Fasten-Hörer sofort wiedererkennen.
+
+Paula: Und dann kam die Menschen-Studie mit den famosen acht Jahren. Jetzt sezieren wir.
+
+Paul: Die Studie, die das Supplement groß gemacht hat: 2021 im Journal Aging publiziert, getestet wurde „Rejuvant" – ein Ca-AKG-Präparat mit Vitaminzusatz der Firma Ponce de Leon Health. Rund vierzig Nutzer machten im Schnitt sieben Monate lang mit, davor und danach wurde das biologische Alter mit dem TruAge-Methylierungstest gemessen. Ergebnis laut Paper: im Mittel acht Jahre jüngeres biologisches Alter. Acht Jahre in sieben Monaten – das klingt nach Jungbrunnen. Und jetzt die Anatomie der Schwächen, denn die ist lehrreich für jede Studie, die euch künftig begegnet. Erstens: keine Placebogruppe – jeder Teilnehmer wusste, dass er das Produkt nimmt, verglichen wurde nur vorher gegen nachher. Zweitens: keine Randomisierung, die Teilnehmer waren zahlende Kunden der Firma – eine handverlesene, motivierte Gruppe. Drittens: Die Firma hat die Studie finanziert, Mitarbeiter waren Co-Autoren, und der Uhren-Anbieter stand ihr nahe – der Schiedsrichter kam vom Sponsor, genau das Muster aus Folge 81. Viertens: Epigenetische Uhren haben Messrauschen von mehreren Jahren – ohne Kontrollgruppe kann niemand sagen, wie viel davon Regression zur Mitte oder saisonale Effekte sind. Die Longevity-Fachszene, unter anderem die Novos-Analysten, haben genau diese Punkte öffentlich seziert. Fazit der Sektion: Die Studie ist ein interessanter Anfangsverdacht und ein hervorragendes Lehrstück – aber als Verjüngungs-Beweis taugt sie nicht.
+
+Paula: Gibt es bessere Studien – oder kommen welche?
+
+Paul: Es tut sich was, und das rechne ich dem Feld hoch an: Eine unabhängige dänisch-orientierte Forschergruppe hat mit ABLE eine echte randomisierte, placebokontrollierte Studie aufgesetzt – ein Gramm Ca-AKG täglich über ein Jahr bei Mittelalten, mit publiziertem Protokoll in GeroScience und DunedinPACE-artigen Endpunkten. Das ist genau die Sorte Studie, die die Rejuvant-Lücke schließen kann. Erste Resultate werden in der Szene gespannt erwartet; bis dahin gilt: Die Menschen-Daten sind Werbung mit Methodik-Fußnoten. Und bei den Maus-Daten muss ich mich korrigieren, wenn ich ehrlich bin — sie sind nicht so solide, wie sie klingen. Das amerikanische Interventions-Testing-Programm, drei unabhängige Standorte mit festem Protokoll und Veröffentlichung unabhängig vom Ausgang, hat Alpha-Ketoglutarat gleich zweimal geprüft. Einmal mit Beginn im Alter von achtzehn Monaten, also genau wie in der Originalstudie: kein Effekt. Dann noch einmal mit Beginn im Alter von sieben Monaten, weil man vermutete, man habe zu spät angefangen. Bei den Männchen achthunderteinundvierzig gegen achthundertdreizehn Tage, p-Wert null Komma vier zwei neun. Bei den Weibchen achthundertneunundachtzig gegen neunhundertdrei. Also nichts, in keinem Geschlecht, bei keinem Startzeitpunkt. Nebenbefund am Rande: In einer kleinen randomisierten Studie verbesserte AKG die Knochendichte bei älteren Frauen – die Knochen-Schiene könnte am Ende die seriöseste Anwendung werden.
+
+Paula: Bleiben wir kurz bei der Mechanik: Wie soll ein Energie-Molekül denn nun konkret verjüngen? Gib uns die beste Arbeitshypothese.
+
+Paul: Die Forschung diskutiert drei Schienen. Schiene eins, die Entzündungs-These: In der Buck-Studie fiel vor allem auf, dass die behandelten Mäuse deutlich niedrigere Entzündungswerte hatten – AKG scheint das Inflammaging zu dämpfen, möglicherweise über Effekte auf Immunzellen, deren Stoffwechsel eng an den Citratzyklus gekoppelt ist. Schiene zwei, die Epigenetik-These: Mehr AKG bedeutet besser arbeitende TET-Radiergummis – die Zelle kann ihre Methylierungs-Landschaft besser instand halten; das würde elegant erklären, warum ausgerechnet Methylierungs-Uhren auf die Substanz reagieren könnten. Schiene drei, die Stammzell-These: In Wurm- und Zellstudien hält AKG Stammzellen funktionsfähiger und moduliert mTOR – die Verbindung zu Fasten und Rapamycin. Welche Schiene beim Menschen trägt, weiß niemand; wahrscheinlich sind es Anteile von allen dreien. Wichtig zum Verständnis: Oral genommenes AKG erhöht den Blutspiegel nur kurz – die Wirkung, falls vorhanden, liefe also über wiederholte Signal-Impulse, nicht über dauerhaft aufgefüllte Tanks. Auch deshalb sind Kurzzeit-Blutwerte hier kein guter Erfolgs-Messer.
+
+Paula: Der gewohnte Block: die Anwendung, wie Studien und Szene sie beschreiben – keine Empfehlung von uns.
+
+Paul: Die gängige Dosis orientiert sich an Maus-Umrechnung und ABLE-Design: ein bis zwei Gramm Ca-AKG täglich, morgens, mit oder ohne Essen; das Calciumsalz ist gut verträglich, gelegentlich werden Magen-Beschwerden berichtet. Kostenpunkt: je nach Anbieter fünfzehn bis fünfzig Euro im Monat – Markenprodukte mit Verjüngungs-Marketing kosten ein Mehrfaches der Rohstoff-Generika bei identischem Wirkstoff. Wichtig für Rechner: Zwei Gramm Calciumsalz liefern auch nennenswert Calcium – wer ohnehin Calcium supplementiert, addiert das besser. Und die Erwartungshaltung: Wenn AKG wirkt, dann leise und langfristig – niemand spürt seine Epigenetik. Deshalb passt es nur zu Menschen, die entweder den Messaufwand aus Folge 81 betreiben wollen oder mit der Ungewissheit leben können.
+
+Paula: Kann man AKG auch über die Ernährung oder den Lebensstil beeinflussen?
+
+Paul: Teilweise, und die Antwort ist ein alter Bekannter: Training. Intensive Belastung verändert die Spiegel der Citratzyklus-Metaboliten deutlich – eine vielbeachtete Arbeit aus 2020 zeigte sogar, dass AKG nach dem Krafttraining als Signalmolekül wirkt und über einen eigenen Rezeptor Muskelaufbau und Fettabbau bei Mäusen ankurbelte. Der Körper verordnet sich sein AKG also selbst, wenn man ihn fordert. Direkt aus Lebensmitteln ist der Hebel dagegen klein – AKG steckt zwar in Spuren in Obst und Gemüse, aber nicht in supplement-relevanten Mengen. Das ist übrigens ein wiederkehrendes Muster dieser Staffel: Die Kapsel imitiert oft ein Signal, das Training gratis erzeugt – von der Mitophagie bis zum AKG-Puls.
+
+Paula: Wie ordnet sich Ca-AKG neben die Konkurrenz aus unserer Serie ein – NAD, Spermidin, Urolithin?
+
+Paul: Als der Kandidat mit dem besten Preis und der dünnsten Menschen-Evidenz aus diesem Quartett. Urolithin A aus Folge 78 hat echte randomisierte Muskel-Daten. Spermidin aus Folge 50 hat wenigstens Kohorten-Rückenwind. NAD-Vorstufen haben viele kleine Humanstudien mit gemischtem Ausgang. Ca-AKG hat die besten Tierdaten nach Rapamycin – und beim Menschen bisher nur die Firmen-Studie. Dafür kostet es einen Bruchteil und sitzt mechanistisch an einer einzigartigen Stelle: direkt zwischen Energie-Stoffwechsel und Epigenetik. Meine persönliche Sortierung: wissenschaftlich faszinierend, praktisch eine Geduldswette auf ABLE.
+
+Paula: Und für die Sportler unter uns: Lohnt die alte Bodybuilding-Tradition – AKG für den Pump?
+
+Paul: Nostalgisch ja, wissenschaftlich kaum: Die Arginin-AKG-Kombis der Nullerjahre haben in kontrollierten Studien nie überzeugend mehr Kraft oder Muskelmasse geliefert. Wer AKG heute nimmt, nimmt es als Longevity-Wette, nicht als Trainingsbooster – für den Pump gibt es besser belegte Werkzeuge, allen voran das gute alte Kreatin aus Folge 32.
+
+Paula: Ziehen wir Bilanz.
+
+Paul: Ca-AKG ist das perfekte Lehrstück dieser Staffel: ein legitimes, zentrales Stoffwechselmolekül mit einem plausiblen Doppel-Mechanismus, dessen Maus-Befund im unabhängigen Programm zweimal nicht auftauchte — und das trotzdem mit einer Menschen-Studie vermarktet wird, die methodisch auf Sand gebaut ist. Ein fairer Einwand zugunsten der Substanz gehört dazu: Das Testprogramm wollte zwanzigtausend ppm im Futter erreichen und schaffte gemessen nur dreitausendzweihundertzweiundsechzig, also etwa ein Sechstel. Alpha-Ketoglutarat ist im Futter offenbar nicht stabil genug. Wer Ca-AKG verteidigen will, sollte mit diesem Argument kommen und nicht mit dem Vorwurf, die Studie sei schlecht gemacht. Wer es nimmt, nimmt es auf Verdacht und sollte das wissen; wer wartet, bekommt mit ABLE bald echte Antworten. Meine Formel: kleines Geld, kleine Erwartung, große Aufmerksamkeit für die unabhängige Studie – und niemals acht Jahre in sieben Monaten glauben, egal wer sie verspricht.
+
+Paula: Morgen wird es kulinarisch: Ergothionein – das „Longevity-Vitamin" aus dem Pilzregal.
+
+Paul: Die Folge, nach der ihr Steinpilze mit anderen Augen seht.
+
+Paula: Wie immer gilt: Das war reine Information, kein medizinischer Rat. Supplemente gehören bei Erkrankungen und Medikamenteneinnahme ärztlich besprochen – und Nierensteine in der Vorgeschichte sind beim Calcium-Thema ein Arztgespräch wert.
+
+Paul: Das war Biohacking Kompakt – Folge 84. Bleibt neugierig.
+
+Paula: Und bleibt skeptisch, wenn der Jungbrunnen eine Bestellnummer hat. Bis zum nächsten Mal.
