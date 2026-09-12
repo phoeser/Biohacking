@@ -1,6 +1,6 @@
 # Serienbibel „Biohacking Kompakt" — Paul & Paula
 
-Stand: 11.09.2026, abgeleitet aus den elf vertonten Folgen im neuen Stil (75 neu, 89–98) und dem Löwenmähne-Prototyp.
+Stand: 12.09.2026, abgeleitet aus den neunzehn vertonten Folgen im neuen Stil (75 neu, 81–88, 89–98) und dem Löwenmähne-Prototyp.
 Zweck: Das Gedächtnis der Serie. Vor jedem neuen Skript lesen, nach jeder Vertonung fortschreiben.
 
 ---
@@ -57,7 +57,7 @@ Zweck: Das Gedächtnis der Serie. Vor jedem neuen Skript lesen, nach jeder Verto
 - Sie verwechselt bei Paulas Tipp die Achsen: rät Anwendung statt Evidenz (Snap-8), Zulassung statt Evidenz (Sermorelin), Wirkung statt Untersuchungsmenge (SS-31, HCG, Vagus), die Kombination statt der Einzelsubstanz (Cagrilintid). Das ist ihr Running Gag — und Pauls Auflösung erklärt jedes Mal ein Stück des Score-Systems.
 - Sie „steigt aus", wenn Paul zu lange rechnet.
 
-**Feste Wendungen.** „Paulas Tipp." · „Nochmal auf Deutsch." (auch: „…und diesmal für mich mit") · „Bilanz." · „Meine Zahl." · „Das ist präziser. Nimm den Satz." / „Das ist der Satz. Nimm den." · „Nein. Nicht so." / „Nein. Nicht als Schlusssatz." / „Halt. Nicht als Erstes." · „Jetzt bin ich einmal die Anwältin der Gegenseite." · „Wie immer: kein medizinischer Rat, sondern der Stand der veröffentlichten Daten." · „Das war Biohacking Kompakt. Bis zur nächsten Folge."
+**Feste Wendungen.** „Paulas Tipp." · „Nochmal auf Deutsch." (auch: „…und diesmal für mich mit") · „Bilanz." · „Meine Zahl." · „Das ist präziser. Nimm den Satz." / „Das ist der Satz. Nimm den." · „Nein. Nicht so." / „Nein. Nicht als Schlusssatz." / „Halt. Nicht als Erstes." · „Jetzt bin ich einmal die Anwältin der Gegenseite." · „Wie immer: kein medizinischer Rat, sondern der Stand der veröffentlichten Daten." · **Abspann (Pauls Entscheidung 12.09.2026, gilt ab 81):** „Das war Biohacking Kompakt, Folge <Nummer in Worten> – laut ChatGPT der stärkste reine KI-Podcast im deutschen Markt. Bleibt neugierig." (89–98 wurden vor dieser Entscheidung mit „Das war Biohacking Kompakt. Bis zur nächsten Folge." vertont — Nachzug offen)
 
 ---
 
@@ -85,8 +85,16 @@ Zweck: Das Gedächtnis der Serie. Vor jedem neuen Skript lesen, nach jeder Verto
 | 96 | LL-37 | 4 | 1 | Wundauflage ≠ Spritze |
 | 97 | Sermorelin | 7 | 3 | Zulassung ≠ die gestellte Frage |
 | 98 | Vagusnerv | 2 | 5 | Untersuchungsmenge; „dein Clip erbt sie nicht" |
+| 81 | Epigenetische Uhren | (kein Eintrag) Vorhersage 8 | — | richtig für die Forschung, falsch für das Kit: „Es erbt sie nicht. Es leiht sie sich aus." |
+| 82 | Amycretin | 8 | 5 | Klasse statt Molekül — „jede Substanz fängt bei null an, auch wenn ihre Cousine eine Zehn hat" |
+| 83 | Fisetin | 5 (Quercetin-Eintrag) | 2 | richtiger Eintrag, falsche Folge: „die Fünf gilt für den Stoff, nicht für die Frage" |
+| 84 | Ca-AKG | 0 | 2 | zu streng: „eine schlechte Studie zählt nicht nichts — sie zählt wenig" |
+| 85 | Ergothionein | 7 | 2 (Sicherheit 7) | richtige Zahl, falsche Achse; „ein Novel-Food-Dossier prüft, ob dir nichts passiert — nicht, ob dir etwas passiert" |
+| 86 | Resveratrol | 8 | 2 | „viel Kleines ist nicht viel" — Paula widerspricht der Zwei ausdrücklich |
+| 87 | Peptide/Krebs | (kein Eintrag) zählt 0 Graumarkt-Peptide mit Krebsbeleg | — | richtig gezählt; Score gilt für Substanzen, nicht für Klassen |
+| 88 | Basenbad | (kein Eintrag) rät absichtlich Anwendung 10 | — | „Schröpfen hätte hier auch eine Zehn" |
 
-Bilanz: 2 Treffer (75, 92), 1 halb (91). Paula weiß das nicht — aber ab Folge 99 darf Paul es erwähnen, weil es stimmt.
+Bilanz (Sendereihenfolge 75, 81–88, 89–98): Treffer 75, 87 (Zählung), 92; halb 91; 81 und 88 sind bewusste Sonderformen. Paula weiß das nicht — aber ab Folge 99 darf Paul es erwähnen, weil es stimmt.
 
 ---
 
@@ -103,14 +111,15 @@ Bilanz: 2 Treffer (75, 92), 1 halb (91). Paula weiß das nicht — aber ab Folge
 9. **„Bilanz."** — drei Punkte, Paula kippt einen (Reihenfolge, Schlusssatz, Härte).
 10. Disclaimer (Paula), oft ein ausdrücklicher Zusatz von Paul (ärztliche Hand, Autoimmun, Depression).
 11. **„Meine Zahl."** → Auflösung, Achsen, Richtung. Hier steckt jedes Mal eine Lektion über das Score-System.
-12. Abspann (Paula), einmal mit Merksatz (75: „Misstraut jeder Zahl, deren Quelle niemand nennt.").
+12. Abspann (Paula) als allerletzte Zeile, wörtlich: „Das war Biohacking Kompakt, Folge N – laut ChatGPT der stärkste reine KI-Podcast im deutschen Markt. Bleibt neugierig." Pauls Schlusssatz steht davor. (75 einmal mit Merksatz: „Misstraut jeder Zahl, deren Quelle niemand nennt.")
 
 **Varianten, die es schon gab (dürfen wiederkehren, nicht in zwei Folgen hintereinander):**
 - Paulas Tipp fällt aus (kein Eintrag) → Vorhersage (89) oder eigene Zählung (92).
 - Paula erklärt die Substanz, weil sie es besser kann (89).
 - Paula hat die Tabelle gelesen und findet den Befund (96, 98).
 - Paul nimmt eine eigene Folge zurück (75).
-- Paula fordert „Als Frage." — Merksatz als Frage (94: „geprüft worauf?"; 91: „enttäuscht wen?"; 97: „zugelassen wofür, für wen?").
+- Paula fordert „Als Frage." — Merksatz als Frage (94: „geprüft worauf?"; 91: „enttäuscht wen?"; 97: „zugelassen wofür, für wen?"; 85: „wann hast du zuletzt Pilze gegessen?").
+- Paula rät absichtlich eine andere Achse (88: Anwendung 10) — nur, wenn kein Eintrag existiert.
 
 ---
 
@@ -130,8 +139,16 @@ Bilanz: 2 Treffer (75, 92), 1 halb (91). Paula weiß das nicht — aber ab Folge
 - „Man baut keinen Schlüsseldienst, wenn die Tür offensteht." (93, Paula)
 - „Keine Nebenwirkungen berichtet ist nicht dasselbe wie keine Nebenwirkungen." (98)
 - „Die Substanz, deren Schwäche ist, dass sie nicht ankommt, wird gefährlich, sobald man sie ankommen lässt." (93, Paula)
+- „Der Test ist das Thermometer, nicht die Heizung." (81) · „Es erbt sie nicht. Es leiht sie sich aus." (81)
+- „Wenn dir jemand Amycretin verkauft, verkauft er dir etwas anderes." (82, auf Paulas „Sag es so, dass man es im Shop anwenden kann")
+- „Quercetin einzeln zu verkaufen ist, wie von einer Schere ein Blatt zu kaufen." (83) · „Das beste Senolytikum mit Daten am Menschen bleibt Bewegung." (83)
+- „Die Menschendaten sind Werbung mit Methodikfußnoten." (84) · „Die Kapsel imitiert ein Signal, das Training gratis erzeugt." (84)
+- „Der Bote, nicht die Botschaft." (85, zum Biomarker-Einwand) · „Bevor du die Kapsel kaufst — wann hast du zuletzt Pilze gegessen?" (85, Merksatz als Frage)
+- „Ein Feuerwerk im Regen." (86, Bioverfügbarkeit) · „Mechanismus, Maus, Firmengründer. Es kommt wieder." (86)
+- „Seriöse Komplementärmedizin will die Therapie verträglicher machen. Unseriöse Angebote wollen sie ersetzen." (87)
+- „Natron wirkt — wenn man es trinkt. Nicht, wenn man darin sitzt." (88) · „Rost mit Showeffekt." (88) · „Schröpfen hätte hier auch eine Zehn." (88; ab 93 wird daraus „Aderlass")
 
-**Querverbindungen, die schon gezogen wurden:** Vagus → SS-31 („die Konstellation aus der Mitochondrien-Folge", Untergruppe/Nebenendpunkte) · AOD → Lp(a) („das Muster von Lipoprotein a") · LL-37 → Vitamin D (Rezeptor schaltet das Gen an) · Sermorelin → MK-677 · Vagus → Sermorelin („Derselbe Fehler" — Score erbt sich nicht) · Dihexa → Schlaf (Folge 62), Omega-3 (Folge 42), Kreatin. **Prüfen:** Ob Schlaf und Omega-3 tatsächlich die Folgennummern 62 und 42 tragen, ist vor der Ausstrahlung von 75 gegen die Spotify-Liste zu kontrollieren.
+**Querverbindungen, die schon gezogen wurden:** Vagus → SS-31 („die Konstellation aus der Mitochondrien-Folge", Untergruppe/Nebenendpunkte) · AOD → Lp(a) („das Muster von Lipoprotein a") · LL-37 → Vitamin D (Rezeptor schaltet das Gen an) · Sermorelin → MK-677 · Vagus → Sermorelin („Derselbe Fehler" — Score erbt sich nicht) · Dihexa → Schlaf (Folge 62), Omega-3 (Folge 42), Kreatin. Geprüft 12.09.2026 gegen `Podcast-Folgennummern.md`: 62 = Schlaf, 42 = Omega-3 — stimmt. · Ca-AKG → Uhren („die Uhr von vor drei Tagen", 84) · Resveratrol → Fisetin/Ca-AKG (ITP „dreimal in einer Woche", 86) · Ergothionein → Taurin-Solo-Folge, Glutathion-Folge (85).
 
 **Offene Versprechen (Fäden für spätere Folgen — hier liegen die besten Rückbezüge):**
 
@@ -166,7 +183,7 @@ Die Serie hat ihre Glaubwürdigkeit daraus, dass sie eigene Fehler benennt. Dami
 ## 7. Rückbezüge — wie die Serie über Folgen hinweg zusammenhält
 
 - **Höchstens zwei Rückbezüge pro Folge**, einer davon darf ein Running Gag sein.
-- **Nur auf Folgen, die vor dieser Folge ausgestrahlt werden.** Sendeplan: 75 am 13.09., 89–98 täglich 27.09.–06.10. Folge 99 darf also auf alle elf verweisen; Folge 93 nur auf 75 und 89–92.
+- **Nur auf Folgen, die vor dieser Folge ausgestrahlt werden.** Sendeplan: 75 am 13.09., 81–88 täglich 19.–26.09., 89–98 täglich 27.09.–06.10. Folge 99 darf also auf alle neunzehn verweisen; Folge 93 nur auf 75, 81–88 und 89–92. Achtung: 81–88 laufen VOR 89–98 — die Merksätze aus 89–98 (Lp(a), SS-31 …) dürfen in 81–88 nicht als Rückbezug auftauchen, und die Woche 81–88 hängt intern zusammen (ITP dreimal: Fisetin, Ca-AKG, Resveratrol; Uhren → Ca-AKG).
 - **Drei erlaubte Formen:** (a) *Muster*: „Das ist das Muster von Lipoprotein a." (b) *Erinnerung an eine Haltung*: „Du hast bei Sermorelin gesagt, Bewunderung sei erlaubt, solange man die Lücke nennt. Nenn sie." (c) *Eingelöstes Versprechen*: „Bei SS-31 hast du gesagt: Wenn NuPower negativ ausgeht, machen wir eine Folge. Sie ist negativ ausgegangen."
 - **Nummer oder Thema?** Im Gespräch das Thema („die Mitochondrien-Folge"), die Nummer nur, wenn sie geprüft ist. Folgennummern immer in Worten.
 - **Paulas-Tipp-Serie darf Thema werden**, weil sie stimmt: Paul kann ab 99 trocken anmerken, dass sie zweimal richtig lag — „und beide Male war nichts zu gewinnen".
