@@ -751,15 +751,15 @@ const THERAPIES = [
     name: 'Herzratenvariabilität (HRV)',
     category: 'Biohacking',
     emoji: '💓',
-    short: 'Die Abstände zwischen zwei Herzschlägen schwanken leicht – wie stark, zeigt das Zusammenspiel von Sympathikus und Vagus und damit Stress und Erholung.',
+    short: 'Die Abstände zwischen zwei Herzschlägen schwanken leicht. Wie stark sie von Schlag zu Schlag schwanken, bildet überwiegend die vagale Bremse ab – den Gegenspieler lässt die Messung weitgehend offen.',
     benefits: [
-      'RMSSD aus dem Nachtwert spiegelt fast rein die Vagus-Bremse und gilt als Erholungs-Marker',
-      'Niedrige HRV war schon in der Framingham-Herzstudie mit erhöhtem Sterblichkeitsrisiko verbunden',
-      'Ein Abfall über mehrere Tage zeigt Infekt, Übertraining oder Dauerstress vor den Symptomen an',
-      'Resonanz-Atmung mit sechs Atemzügen pro Minute hebt die HRV akut; HRV-Biofeedback ist anerkannt'
+      'RMSSD aus dem Nachtwert bildet überwiegend die vagale Bremse ab und gilt als Erholungs-Marker; die Atmung verschiebt ihn mit',
+      'Niedrige HRV war schon in der Framingham-Herzstudie mit erhöhter Sterblichkeit verbunden – gemessen an der LF-Leistung aus dem Zwei-Stunden-EKG, nicht am App-Wert',
+      'Ein verändertes Muster über mehrere Tage kann einen beginnenden Infekt anzeigen – in den Studien gemeinsam mit Atemfrequenz und Ruhepuls; für Übertraining trägt die Ruhe-HRV das Signal nicht',
+      'Resonanzatmung hebt die HRV akut – die persönliche Frequenz liegt zwischen 4,5 und 6,5 Atemzügen pro Minute; HRV-Biofeedback senkt selbstberichteten Stress mit g = 0,83 gegenüber Kontrollen'
     ],
     indication: ['Stress & Erholung', 'Trainingssteuerung', 'Schlaf-Feedback', 'Infekt-Frühwarnung'],
-    note: 'Absolute Werte taugen nicht zum Vergleich zwischen Personen – es zählt die eigene Baseline über zwei bis vier Wochen und deren Trend; die HRV ersetzt kein EKG.',
+    note: 'Absolute Werte taugen nicht zum Vergleich zwischen Personen – es zählt die eigene Baseline und deren Trend. Belegt sind mindestens drei gültige Messungen pro Woche, beim Nachtwert mindestens fünf von sieben Nächten. Die HRV ersetzt kein EKG.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/8044959/',
     podcasts: [
       {

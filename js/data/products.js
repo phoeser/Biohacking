@@ -46,6 +46,29 @@ const PRODUCTS = [
     link: 'https://ouraring.com/discount/7ca18ebe07?utm_source=user&utm_medium=iac_raf&utm_type=alwayson-cvr&utm_campaign=2026RAF&utm_variant=2026_raf_mar',
     code: '',
     affiliate: true
+  },
+  {
+    id: 'polar-h10',
+    name: 'Polar H10 (Brustgurt)',
+    category: 'Tracker',
+    emoji: '\u{1F493}',
+    tagline: 'Der Messfehler, den die Studien als Referenz nehmen',
+    short: 'EKG-basierter Brustgurt. In den Validierungsstudien der Vergleichsmassstab, gegen den Handgelenk- und Fingergeraete antreten.',
+    pros: [
+      'Mittlerer Fehler gegen EKG rund 2 Prozent - Handgelenkgeraete liegen rund zehnmal hoeher',
+      'Misst die einzelnen Schlagabstaende selbst, rechnet sie nicht aus dem Blutfluss hoch',
+      'Kein Abo, kein Konto noetig; die Rohdaten lassen sich exportieren',
+      'Die HRV-Interventionsstudien wurden praktisch alle mit Brustgurten durchgefuehrt'
+    ],
+    cons: [
+      'Nur fuer die Messung im Wachzustand gedacht - fuer die Nacht sind Ring und Band bequemer',
+      'Muss angelegt werden; kein Dauerbetrieb, keine Schlafphasen, kein Bereitschaftswert',
+      'Elektrodenband braucht Feuchtigkeit und regelmaessiges Waschen'
+    ],
+    priceRange: 'einmalig, kein Abo',
+    link: '',
+    code: '',
+    affiliate: false
   }
 ];
 
