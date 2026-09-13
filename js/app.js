@@ -233,10 +233,9 @@
       auf ? a[scoreSortierung] - b[scoreSortierung] : b[scoreSortierung] - a[scoreSortierung]);
     box.innerHTML = liste.map((s, i) => {
       const name = nameFuerScore(s);
-      // Tipps erscheinen im Symptom-Check und im Tagescheck, haben aber keine
-      // eigene Detailseite - eine Zeile ohne Ziel ist ehrlicher als ein toter Link.
-      const tag = s.view === 'tipps' ? 'div' : 'a';
-      const ziel = s.view === 'tipps' ? '' : ` href="#${escapeHtml(s.view)}/${escapeHtml(s.id)}"`;
+      // Seit die Tipps-Ansicht existiert, hat auch jeder Tipp ein Sprungziel.
+      const tag = 'a';
+      const ziel = ` href="#${escapeHtml(s.view)}/${escapeHtml(s.id)}"`;
       return `<${tag} class="sc-zeile${s.view === 'tipps' ? ' sc-zeile--tipp' : ''}"${ziel}>
         <span class="sc-rang">${i + 1}</span>
         <span class="sc-zeile-name">${escapeHtml(name)}<span class="sc-zeile-label">${escapeHtml(bkLabel(s))}</span></span>
@@ -494,7 +493,7 @@
   // Für MyData nutzbar machen (KI-Empfehlungen über denselben Proxy).
   window.BHKGemini = callGemini;
 
-  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'score', 'aenderungen', 'about'];
+  const VALID_VIEWS = ['home', 'supplement', 'symptom', 'tagescheck', 'experimental', 'behandlungen', 'tipps', 'signalwege', 'blutwerte', 'erfahrungen', 'bezugsquellen', 'mydata', 'score', 'aenderungen', 'about'];
 
   // Khavinson-Eintraege leben in der Experimentelles-Ansicht.
   const VIEW_ALIAS = { khavinson: 'experimental' };
@@ -544,6 +543,14 @@
       highlightExpCard((view === 'khavinson' ? 'khcard-' : 'expcard-') + id);
       return;
     }
+    if (view === 'tipps') {
+      currentTipCat = 'all';
+      const chips = document.getElementById('tip-chips');
+      if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.tipcat === 'all'));
+      renderTipps();
+      highlightExpCard('tipcard-' + id);
+      return;
+    }
     if (view === 'behandlungen') {
       currentThCat = 'all';
       const chips = document.getElementById('th-chips');
@@ -570,6 +577,7 @@
     if (name === 'home') onEnterHome();
     if (name === 'experimental') onEnterExperimental();
     if (name === 'behandlungen') onEnterBehandlungen();
+    if (name === 'tipps') onEnterTipps();
     if (name === 'tagescheck') onEnterTagescheck();
     if (name === 'aenderungen') renderAenderungen();
     if (name === 'score') renderScoreListe();
@@ -1934,6 +1942,70 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
     }).join('');
   }
 
+
+  // ============ TIPPS ============
+  // Strategien ohne Praeparat. Die Tipps lagen bis v172 nur als Karten in
+  // anderen Ansichten; seitdem haben sie eine eigene Ansicht, ein Sprungziel
+  // und je eine statische Seite unter /tipp/.
+
+  let currentTipCat = 'all';
+
+  function tippKategorien() {
+    const seen = [];
+    (typeof TIPS !== 'undefined' ? TIPS : []).forEach(t => {
+      if (t.category && seen.indexOf(t.category) === -1) seen.push(t.category);
+    });
+    return [{ id: 'all', label: 'Alle' }].concat(seen.map(c => ({ id: c, label: c })));
+  }
+
+  function initTippsView() {
+    const chipsBar = $('#tip-chips');
+    if (!chipsBar) return;
+    chipsBar.innerHTML = tippKategorien().map((c, i) =>
+      `<button type="button" class="chip ${i === 0 ? 'chip--active' : ''}" data-tipcat="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+    ).join('');
+    chipsBar.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-tipcat]');
+      if (!b) return;
+      $$('.chip', chipsBar).forEach(x => x.classList.toggle('chip--active', x === b));
+      currentTipCat = b.dataset.tipcat;
+      renderTipps();
+    });
+  }
+
+  function onEnterTipps() {
+    renderTipps();
+  }
+
+  function renderTipps() {
+    const grid = $('#tip-grid');
+    if (!grid || typeof TIPS === 'undefined') return;
+    const items = currentTipCat === 'all' ? TIPS : TIPS.filter(t => t.category === currentTipCat);
+
+    if (!items.length) {
+      grid.innerHTML = '<div class="empty">Keine Tipps in dieser Kategorie.</div>';
+      return;
+    }
+
+    grid.innerHTML = items.map(t => `
+        <article class="exp-card" id="tipcard-${escapeHtml(t.id)}">
+          <div class="exp-head">
+            <div class="exp-emoji">${escapeHtml(t.icon || '\u{1F4A1}')}</div>
+            <div class="exp-title">
+              <h3>${escapeHtml(t.title || t.name || '')}</h3>
+              <div class="exp-class">${escapeHtml(t.category || '')}</div>
+            </div>
+          </div>
+          <p class="exp-short">${escapeHtml(t.short || '')}</p>
+          ${t.how ? `<div class="exp-section"><strong>So machst du es</strong><p>${escapeHtml(t.how)}</p></div>` : ''}
+          ${podcastsHtml(t.podcasts)}
+          ${scoreHtml('tipps', t.id)}
+          ${aenderungenHtml('tipps', t.id)}
+          <div class="exp-disclaimer-mini">Keine Empfehlung \u2013 nur Information.</div>
+        </article>
+      `).join('');
+  }
+
   // ============ BLUTWERTE ============
   // Marker-Nachschlagewerk auf Basis von Podcast-Folge 58.
   // Referenzbereiche variieren je Labor — deshalb steht der Zielbereich
@@ -2989,8 +3061,14 @@ WICHTIG – konservative Gewichtsschätzung:
       if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.tcat === 'all'));
       location.hash = 'behandlungen';
       setTimeout(() => highlightExpCard('thcard-' + id), 160);
+    } else if (type === 'tip') {
+      currentTipCat = 'all';
+      const chips = document.getElementById('tip-chips');
+      if (chips) $$('.chip', chips).forEach(x => x.classList.toggle('chip--active', x.dataset.tipcat === 'all'));
+      location.hash = 'tipps';
+      setTimeout(() => highlightExpCard('tipcard-' + id), 160);
     } else {
-      // Tipp/Ziel/Gadget: auf die Startseite (dort verankert)
+      // Ziel/Gadget: auf die Startseite (dort verankert)
       location.hash = 'home';
     }
   }
@@ -3070,6 +3148,7 @@ WICHTIG – konservative Gewichtsschätzung:
     initHomeProducts();
     initExperimentalView();
     initBehandlungenView();
+    initTippsView();
     initBlutwerteView();
     initRouter();
     onEnterHome();
