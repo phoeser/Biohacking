@@ -2001,6 +2001,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${podcastsHtml(t.podcasts)}
           ${scoreHtml('tipps', t.id)}
           ${aenderungenHtml('tipps', t.id)}
+          <a class="exp-mehr" href="/tipp/${escapeHtml(t.id)}.html">Ausf\u00fchrlich nachlesen \u2192</a>
           <div class="exp-disclaimer-mini">Keine Empfehlung \u2013 nur Information.</div>
         </article>
       `).join('');
