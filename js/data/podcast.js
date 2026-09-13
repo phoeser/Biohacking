@@ -25,9 +25,9 @@ const PODCAST_APPLE_BASIS = 'https://podcasts.apple.com/de/podcast/biohacking-ko
 const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/episodes/';
 
 const PODCAST_FOLGEN = [
-  { nr: 103, datum: '2026-10-11', ab: '2026-10-11T08:00:00Z', titel: 'Cardio nach der Menopause – warum Zone 2 nie geprüft wurde', spotify: '6dxEr3zcI7WFsILLwJ0zT4' },
-  { nr: 102, datum: '2026-10-10', ab: '2026-10-10T08:00:00Z', titel: 'Intervallfasten nach der Menopause – die Studie mit Durchschnittsalter 32', spotify: '2PeSa8YG5FNe4rX0R9pEVG' },
-  { nr: 101, datum: '2026-10-09', ab: '2026-10-09T08:00:00Z', titel: 'Krafttraining nach der Menopause – die Brücke, die niemand belegt hat', spotify: '4ylIIryQRa5nWoXEzYb5Rd' },
+  { nr: 103, datum: '2026-10-11', ab: '2026-10-11T08:00:00Z', titel: 'Cardio nach der Menopause – warum Zone 2 nie geprüft wurde', spotify: '6dxEr3zcI7WFsILLwJ0zT4', ziel: { view: 'tipps', id: 'zone-2' } },
+  { nr: 102, datum: '2026-10-10', ab: '2026-10-10T08:00:00Z', titel: 'Intervallfasten nach der Menopause – die Studie mit Durchschnittsalter 32', spotify: '2PeSa8YG5FNe4rX0R9pEVG', ziel: { view: 'tipps', id: 'fasten-frauen' } },
+  { nr: 101, datum: '2026-10-09', ab: '2026-10-09T08:00:00Z', titel: 'Krafttraining nach der Menopause – die Brücke, die niemand belegt hat', spotify: '4ylIIryQRa5nWoXEzYb5Rd', ziel: { view: 'tipps', id: 'nef-training' } },
   { nr: 100, datum: '2026-10-08', ab: '2026-10-08T08:00:00Z', titel: '100 Folgen – was hängengeblieben ist und wie hier entschieden wird', spotify: '0QgeJjV9hMLmkBm4kHCIEI' },
   { nr: 99, datum: '2026-10-07', ab: '2026-10-07T08:00:00Z', titel: 'Mikronährstoff-Konzentrate – neun von zehn bei der Evidenz, und trotzdem ein Nein', spotify: '7EgRlhEWrkqruHVwX8bbIZ', ziel: { view: 'supplement', id: 'mikronaehrstoff-konzentrate' } },
   { nr: 98, datum: '2026-10-06', ab: '2026-10-06T08:00:00Z', titel: 'Der Vagusnerv – der Abstand zwischen einer OP und einem Ohrclip', spotify: '4SkvLxvSxrcHcHVONrZSkF', ziel: { view: 'behandlungen', id: 'vagus-stimulation' } },
@@ -47,13 +47,13 @@ const PODCAST_FOLGEN = [
   { nr: 84, datum: '2026-09-22', ab: '2026-09-22T08:00:00Z', titel: 'Ca-AKG – acht Jahre jünger, zweimal nachgeprüft, zweimal nichts', spotify: '0pY7LQehX51UhbaJKv2O3y', ziel: { view: 'supplement', id: 'ca-akg' } },
   { nr: 83, datum: '2026-09-21', ab: '2026-09-21T08:00:00Z', titel: 'Senolytika aus dem Regal – Fisetin, Quercetin und die Studie, die seit acht Jahren läuft', spotify: '1BbbsjA1igB9IPYMNvPk1u', ziel: { view: 'supplement', id: 'fisetin' } },
   { nr: 82, datum: '2026-09-20', ab: '2026-09-20T08:00:00Z', titel: 'Amycretin – 24,3 % und der Preis, der daneben steht', spotify: '55L32zr2CdnhPBQCgCdkQN', ziel: { view: 'experimental', id: 'amycretin' } },
-  { nr: 81, datum: '2026-09-19', ab: '2026-09-19T08:00:00Z', titel: 'Epigenetische Uhren – was der Test misst, und was er dir nicht sagen kann', spotify: '5w9MxXHUyvkjoqUIiNJC0f' },
+  { nr: 81, datum: '2026-09-19', ab: '2026-09-19T08:00:00Z', titel: 'Epigenetische Uhren – was der Test misst, und was er dir nicht sagen kann', spotify: '5w9MxXHUyvkjoqUIiNJC0f', ziel: { view: 'behandlungen', id: 'genanalysen' } },
   { nr: 80, datum: '2026-09-18', ab: '2026-09-18T08:00:00Z', titel: 'Zone 2 & VO2max: Die Ausdauer-Währung im Faktencheck', spotify: '6uhJDJJ8D3EqhBqh8muvld', ziel: { view: 'behandlungen', id: 'zone2-vo2max' } },
   { nr: 79, datum: '2026-09-17', ab: '2026-09-17T08:00:00Z', titel: 'CGM: Der Blutzucker-Sensor im Faktencheck', spotify: '2gEGQcsJwgJ8ym2dEqr9tX', ziel: { view: 'behandlungen', id: 'cgm' } },
   { nr: 78, datum: '2026-09-16', ab: '2026-09-16T08:00:00Z', titel: 'Urolithin A: Der Mitochondrien-Erneuerer im Faktencheck', spotify: '1OqKr6DQlwmZyf8v7HQjw2', ziel: { view: 'supplement', id: 'urolithin-a' } },
   { nr: 77, datum: '2026-09-15', ab: '2026-09-15T08:00:00Z', titel: 'Alkohol: Das Genussgift im Faktencheck', spotify: '3pvys3Kan18GwfiT7ArIok', ziel: { view: 'behandlungen', id: 'alkohol-reduktion' } },
   { nr: 76, datum: '2026-09-14', ab: '2026-09-14T08:00:00Z', titel: 'Rotlichttherapie: Photobiomodulation im Faktencheck', spotify: '7Fax0v8xEsuNLpV2b8IjH5', ziel: { view: 'behandlungen', id: 'rotlicht-pbm' } },
-  { nr: 75, datum: '2026-09-13', ab: '2026-09-13T08:00:00Z', titel: 'Cerebrolysin & Dihexa: Gehirn-Peptide im Faktencheck', spotify: '22slcsQFi35dxXptGQGzYa' },
+  { nr: 75, datum: '2026-09-13', ab: '2026-09-13T08:00:00Z', titel: 'Cerebrolysin & Dihexa: Gehirn-Peptide im Faktencheck', spotify: '22slcsQFi35dxXptGQGzYa', ziel: { view: 'experimental', id: 'cerebrolysin' } },
   { nr: 74, datum: '2026-09-12', ab: '2026-09-12T08:00:00Z', titel: 'Zyklus & Biohacking: Der weibliche Rhythmus im Faktencheck', spotify: '1qB1UgMcCxMIEvyikU2zxO', ziel: { view: 'behandlungen', id: 'zyklus-biohacking' } },
   { nr: 73, datum: '2026-09-11', ab: '2026-09-11T08:00:00Z', titel: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck', spotify: '1z2wsgjkeNkKwJYdo4mCdW', ziel: { view: 'behandlungen', id: 'infrarot-a' } },
   { nr: 72, datum: '2026-09-10', ab: '2026-09-10T08:00:00Z', titel: 'Herzratenvariabilität (HRV): Der Stress-Kompass im Faktencheck', spotify: '2uotniOFOzK6uWFRmneWYF', ziel: { view: 'behandlungen', id: 'hrv-messung' } },
