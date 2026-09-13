@@ -487,9 +487,9 @@ const ERFAHRUNGEN = [
     id: 'bpc157-kpv-umfeld-2026-09',
     substanz: 'BPC-157 mit KPV',
     slug: 'kpv',
-    // Kein eigener Datenbankeintrag fuer die Kombination. KPV steht bei
-    // Human-Evidenz 1, BPC-157 ebenfalls - der Verweis auf KPV gibt die Lage
-    // korrekt wieder und ergaenzt den bestehenden BPC-157/TB-500-Eintrag.
+    // Kein eigener Datenbankeintrag für die Kombination. KPV steht bei
+    // Human-Evidenz 1, BPC-157 ebenfalls – der Verweis auf KPV gibt die Lage
+    // korrekt wieder und ergänzt den bestehenden BPC-157/TB-500-Eintrag.
     scoreRef: { view: 'experimental', id: 'kpv' },
     kategorie: 'Peptid',
     emoji: '\u{1FA79}',
@@ -500,26 +500,26 @@ const ERFAHRUNGEN = [
     dosis: null,
     bewertung: null,
     fazit: 'Neben dem Blend mit TB-500 wird mir jetzt auch die Kombination mit KPV als sehr gut berichtet. Zu KPV existiert allerdings keine einzige Humanstudie.',
-    text: 'Bisher war TB-500 der Partner, der bei BPC-157 am haeufigsten genannt wurde. Seit kurzem kommt eine zweite Kombination dazu: BPC-157 zusammen mit KPV, und auch die wird als sehr gut beschrieben.\n\nEinordnung von mir, erst zur Logik: Die Paarung ist nicht zufaellig. KPV ist das hintere Ende des koerpereigenen Hormons Alpha-MSH, ein Baustein aus nur drei Aminosaeuren - Lysin, Prolin, Valin. Es wirkt im Zellversuch entzuendungsdaempfend. BPC-157 wird dagegen vor allem mit Gewebe- und Sehnenheilung in Verbindung gebracht. Bei einem Tennis- oder Golferellenbogen, also einem gereizten Sehnenansatz mit entzuendlichem Anteil, ergibt die Kombination aus Reparatur und Entzuendungsbremse durchaus einen Sinn.\n\nUnd jetzt der Teil, der dazugehoert: Logik ist kein Beleg. Ich habe die Literatur zu KPV durchgesehen - 35 Arbeiten tragen den Begriff im Titel, und keine einzige davon ist eine Studie am Menschen. Es sind Zellversuche, Maus-Darmentzuendungsmodelle und vor allem Arbeiten daran, wie man das Peptid ueberhaupt an seinen Wirkort bekommt: Hydrogele, Nanotraeger, Traegersysteme. Die einzige Arbeit an menschlichem Gewebe (J Pharm Sci 2017) untersucht, ob KPV durch mikroperforierte Haut hindurchgeht - nicht, ob es hilft.\n\nDamit stehen hier zwei Substanzen nebeneinander, fuer die es beim Menschen keine Wirksamkeitsdaten gibt, und die Kombination aus beiden ist noch nie untersucht worden. Das ist ein Schritt weiter weg vom Belegten als der TB-500-Blend, nicht naeher dran. Deshalb steht hier auch keine Sternebewertung.\n\nZur Rechtslage und zum Sport: Weder BPC-157 noch KPV ist irgendwo als Arzneimittel zugelassen. BPC-157 steht seit 2022 namentlich auf der Verbotsliste der Welt-Anti-Doping-Agentur; KPV faellt als nicht zugelassene Substanz unter dieselbe Sammelkategorie. Fuer Wettkampfsportler ist beides keine Option.',
+    text: 'Bisher war TB-500 der Partner, der bei BPC-157 am häufigsten genannt wurde. Seit kurzem kommt eine zweite Kombination dazu: BPC-157 zusammen mit KPV, und auch die wird als sehr gut beschrieben.\n\nEinordnung von mir, erst zur Logik: Die Paarung ist nicht zufällig. KPV ist das hintere Ende des körpereigenen Hormons Alpha-MSH, ein Baustein aus nur drei Aminosäuren – Lysin, Prolin, Valin. Es wirkt im Zellversuch entzündungsdämpfend. BPC-157 wird dagegen vor allem mit Gewebe- und Sehnenheilung in Verbindung gebracht. Bei einem Tennis- oder Golferellenbogen, also einem gereizten Sehnenansatz mit entzündlichem Anteil, ergibt die Kombination aus Reparatur und Entzündungsbremse durchaus einen Sinn.\n\nUnd jetzt der Teil, der dazugehört: Logik ist kein Beleg. Ich habe die Literatur zu KPV durchgesehen – 35 Arbeiten tragen den Begriff im Titel, und keine einzige davon ist eine Studie am Menschen. Es sind Zellversuche, Maus-Darmentzündungsmodelle und vor allem Arbeiten daran, wie man das Peptid überhaupt an seinen Wirkort bekommt: Hydrogele, Nanoträger, Trägersysteme. Die einzige Arbeit an menschlichem Gewebe (J Pharm Sci 2017) untersucht, ob KPV durch mikroperforierte Haut hindurchgeht – nicht, ob es hilft.\n\nDamit stehen hier zwei Substanzen nebeneinander, für die es beim Menschen keine Wirksamkeitsdaten gibt, und die Kombination aus beiden ist noch nie untersucht worden. Das ist ein Schritt weiter weg vom Belegten als der TB-500-Blend, nicht näher dran. Deshalb steht hier auch keine Sternebewertung.\n\nZur Rechtslage und zum Sport: Weder BPC-157 noch KPV ist irgendwo als Arzneimittel zugelassen. BPC-157 steht seit 2022 namentlich auf der Verbotsliste der Welt-Anti-Doping-Agentur; KPV fällt als nicht zugelassene Substanz unter dieselbe Sammelkategorie. Für Wettkampfsportler ist beides keine Option.',
     positiv: [
       'Wird aus demselben Umfeld als sehr gut beschrieben wie der TB-500-Blend',
-      'Die Paarung ergibt mechanistisch Sinn: Gewebeheilung plus Entzuendungsbremse',
-      'KPV ist ein koerpereigenes Fragment von Alpha-MSH, kein synthetisches Konstrukt'
+      'Die Paarung ergibt mechanistisch Sinn: Gewebeheilung plus Entzündungsbremse',
+      'KPV ist ein körpereigenes Fragment von Alpha-MSH, kein synthetisches Konstrukt'
     ],
     negativ: [
-      'Keine einzige Humanstudie zu KPV - 35 Titel-Treffer, alle praeklinisch',
+      'Keine einzige Humanstudie zu KPV – 35 Titel-Treffer, alle präklinisch',
       'Die Kombination aus beiden ist nie untersucht worden',
-      'Einzelne Rueckmeldungen ohne Messwerte, deshalb bewusst ohne Sternebewertung',
+      'Einzelne Rückmeldungen ohne Messwerte, deshalb bewusst ohne Sternebewertung',
       'Beide Stoffe nicht zugelassen; BPC-157 steht namentlich auf der WADA-Liste'
     ],
     shopId: null,
-    quelle: { label: 'Weitergegebene Rueckmeldungen, Stand September 2026 \u00b7 Einordnung zu KPV in Podcast-Folge 1', url: '' }
+    quelle: { label: 'Weitergegebene Rückmeldungen, Stand September 2026 \u00b7 Einordnung zu KPV in Podcast-Folge 1', url: '' }
   },
   {
     id: 'melanotan-1-sonne-umfeld-2026-09',
     substanz: 'Melanotan 1 zusammen mit echter Sonne',
-    // Eigener Slug, damit er sich nicht mit dem Eigenbericht beisst; der Score
-    // kommt ohnehin ueber scoreRef.
+    // Eigener Slug, damit er sich nicht mit dem Eigenbericht beißt; der Score
+    // kommt ohnehin über scoreRef.
     slug: 'melanotan-1-sonne',
     scoreRef: { view: 'experimental', id: 'melanotan-1' },
     kategorie: 'Peptid',
@@ -530,22 +530,22 @@ const ERFAHRUNGEN = [
     dauer: null,
     dosis: null,
     bewertung: null,
-    fazit: 'Sehr gut vertragen, kaum Nebenwirkungen - und mit echter Sonne eine natuerlich wirkende Braeune. Berichtet wird auch mehr Widerstandskraft gegen die Sonne; genau die ist der heikle Punkt.',
-    text: 'Dieser Bericht ergaenzt meinen eigenen Eintrag zu Melanotan 1 um einen Punkt, den ich so noch nicht beschrieben hatte: die Kombination mit echter Sonne.\n\nBerichtet werden drei Dinge. Erstens die Vertraeglichkeit: so gut wie keine direkten Nebenwirkungen, kein Schwindel, keine Kopfschmerzen. Zweitens das Ergebnis: zusammen mit natuerlicher Sonne eine Braeune, die sehr schoen und natuerlich aussieht. Und drittens ein Gefuehl, das schwerer zu fassen ist - die eigene Widerstandskraft gegen die Sonne scheine zu steigen.\n\nEinordnung von mir, Punkt fuer Punkt. Die gute Vertraeglichkeit deckt sich mit meiner eigenen Erfahrung und hat einen Grund: Melanotan 1 spricht im Wesentlichen den Pigment-Rezeptor MC1 an und nicht MC4, an dem Uebelkeit und Kreislauf haengen.\n\nDass die Braeune mit echter Sonne natuerlicher wirkt, ist ebenfalls erwartbar. MC1 hochzufahren heisst, die Pigmentbildung empfindlicher zu machen - den Anstoss gibt aber weiterhin das UV-Licht. Peptid und Sonne arbeiten also nicht nebeneinander, sondern nacheinander an derselben Kette.\n\nZum dritten Punkt gibt es seit diesem Jahr endlich eine Messung, und sie ist aufschlussreich. Eine explorative Studie an neun gesunden Erwachsenen (Photochemical and Photobiological Sciences 2026, PMID 42678656) hat mit einem 16-mg-Implantat des zugelassenen Praeparats genau das geprueft. Die UV-bedingte Hautroetung ging messbar zurueck (Flaeche unter der Dosis-Wirkungs-Kurve von 3,5 auf 2,7, p = 0,018). Die Schwellendosis, ab der die Haut ueberhaupt rot wird, stieg von 21 auf 29,9 mJ/cm2 - dieser Unterschied war allerdings nicht statistisch signifikant. Und der Pigmentgehalt der Haut nahm nur um 2,4 bis 2,9 Prozent zu.\n\nDas heisst uebersetzt: Was sich wie mehr Schutz anfuehlt, ist zum groessten Teil weniger Entzuendung, nicht nennenswert mehr Pigment. Und genau hier liegt der Haken, den ich nicht weglassen will. Die Roetung ist das Warnsignal, nicht der Schaden. Wenn das Warnsignal gedaempft wird, der Pigmentschutz aber kaum steigt, dann faellt die Rueckmeldung weg, die einen sonst aus der Sonne holt. Wer laenger draussen bleibt, weil er nicht mehr so schnell rot wird, hat sich schlechter gestellt, nicht besser. Melanotan 1 ersetzt keinen Sonnenschutz.\n\nDazu die beiden Punkte, die bei diesem Stoff immer dazugehoeren: Der Wirkstoff existiert als zugelassenes Medikament - Afamelanotid, Handelsname Scenesse - aber zugelassen fuer eine seltene Lichtunvertraeglichkeit, nicht zum Braeunen. Die Studie oben wurde mit diesem Praeparat gemacht, nicht mit Graumarktware. Und wer regelmaessig auf diesem Weg braeunt, gehoert mit seinen Muttermalen in dermatologische Kontrolle.',
+    fazit: 'Sehr gut vertragen, kaum Nebenwirkungen – und mit echter Sonne eine natürlich wirkende Bräune. Berichtet wird auch mehr Widerstandskraft gegen die Sonne; genau die ist der heikle Punkt.',
+    text: 'Dieser Bericht ergänzt meinen eigenen Eintrag zu Melanotan 1 um einen Punkt, den ich so noch nicht beschrieben hatte: die Kombination mit echter Sonne.\n\nBerichtet werden drei Dinge. Erstens die Verträglichkeit: so gut wie keine direkten Nebenwirkungen, kein Schwindel, keine Kopfschmerzen. Zweitens das Ergebnis: zusammen mit natürlicher Sonne eine Bräune, die sehr schön und natürlich aussieht. Und drittens ein Gefühl, das schwerer zu fassen ist – die eigene Widerstandskraft gegen die Sonne scheine zu steigen.\n\nEinordnung von mir, Punkt für Punkt. Die gute Verträglichkeit deckt sich mit meiner eigenen Erfahrung und hat einen Grund: Melanotan 1 spricht im Wesentlichen den Pigment-Rezeptor MC1 an und nicht MC4, an dem Übelkeit und Kreislauf hängen.\n\nDass die Bräune mit echter Sonne natürlicher wirkt, ist ebenfalls erwartbar. MC1 hochzufahren heißt, die Pigmentbildung empfindlicher zu machen – den Anstoß gibt aber weiterhin das UV-Licht. Peptid und Sonne arbeiten also nicht nebeneinander, sondern nacheinander an derselben Kette.\n\nZum dritten Punkt gibt es seit diesem Jahr endlich eine Messung, und sie ist aufschlussreich. Eine explorative Studie an neun gesunden Erwachsenen (Photochemical and Photobiological Sciences 2026, PMID 42678656) hat mit einem 16-mg-Implantat des zugelassenen Präparats genau das geprüft. Die UV-bedingte Hautrötung ging messbar zurück (Fläche unter der Dosis-Wirkungs-Kurve von 3,5 auf 2,7, p = 0,018). Die Schwellendosis, ab der die Haut überhaupt rot wird, stieg von 21 auf 29,9 mJ/cm2 – dieser Unterschied war allerdings nicht statistisch signifikant. Und der Pigmentgehalt der Haut nahm nur um 2,4 bis 2,9 Prozent zu.\n\nDas heißt übersetzt: Was sich wie mehr Schutz anfühlt, ist zum größten Teil weniger Entzündung, nicht nennenswert mehr Pigment. Und genau hier liegt der Haken, den ich nicht weglassen will. Die Rötung ist das Warnsignal, nicht der Schaden. Wenn das Warnsignal gedämpft wird, der Pigmentschutz aber kaum steigt, dann fällt die Rückmeldung weg, die einen sonst aus der Sonne holt. Wer länger draußen bleibt, weil er nicht mehr so schnell rot wird, hat sich schlechter gestellt, nicht besser. Melanotan 1 ersetzt keinen Sonnenschutz.\n\nDazu die beiden Punkte, die bei diesem Stoff immer dazugehören: Der Wirkstoff existiert als zugelassenes Medikament – Afamelanotid, Handelsname Scenesse – aber zugelassen für eine seltene Lichtunverträglichkeit, nicht zum Bräunen. Die Studie oben wurde mit diesem Präparat gemacht, nicht mit Graumarktware. Und wer regelmäßig auf diesem Weg bräunt, gehört mit seinen Muttermalen in dermatologische Kontrolle.',
     positiv: [
-      'Sehr gut vertraeglich berichtet - kein Schwindel, keine Kopfschmerzen',
-      'Mit echter Sonne ein natuerlich wirkendes Ergebnis; passt zum Wirkprinzip ueber MC1',
-      'Der berichtete Eindruck von mehr Sonnenvertraeglichkeit hat erstmals eine Messung hinter sich (PMID 42678656)'
+      'Sehr gut verträglich berichtet – kein Schwindel, keine Kopfschmerzen',
+      'Mit echter Sonne ein natürlich wirkendes Ergebnis; passt zum Wirkprinzip über MC1',
+      'Der berichtete Eindruck von mehr Sonnenverträglichkeit hat erstmals eine Messung hinter sich (PMID 42678656)'
     ],
     negativ: [
-      'Der gemessene Effekt ist vor allem weniger Roetung, nicht mehr Pigment - der Melaningehalt stieg nur um 2,4 bis 2,9 Prozent',
-      'Die Schwellendosis fuer Roetung stieg zwar, aber nicht statistisch signifikant; die Studie lief mit neun Personen und war explorativ',
-      'Gedaempfte Roetung heisst weniger Warnsignal - kein Ersatz fuer Sonnenschutz',
-      'Zum Braeunen nirgends zugelassen; Graumarktware stammt nicht aus der Qualitaetskontrolle von Scenesse',
-      'Muttermale gehoeren bei regelmaessiger Anwendung dermatologisch kontrolliert'
+      'Der gemessene Effekt ist vor allem weniger Rötung, nicht mehr Pigment – der Melaningehalt stieg nur um 2,4 bis 2,9 Prozent',
+      'Die Schwellendosis für Rötung stieg zwar, aber nicht statistisch signifikant; die Studie lief mit neun Personen und war explorativ',
+      'Gedämpfte Rötung heißt weniger Warnsignal – kein Ersatz für Sonnenschutz',
+      'Zum Bräunen nirgends zugelassen; Graumarktware stammt nicht aus der Qualitätskontrolle von Scenesse',
+      'Muttermale gehören bei regelmäßiger Anwendung dermatologisch kontrolliert'
     ],
     shopId: null,
-    quelle: { label: 'Weitergegebene Rueckmeldungen, Stand September 2026 \u00b7 Einordnung in Podcast-Folge 43', url: '' }
+    quelle: { label: 'Weitergegebene Rückmeldungen, Stand September 2026 \u00b7 Einordnung in Podcast-Folge 43', url: '' }
   }
 ];
 
