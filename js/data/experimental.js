@@ -915,7 +915,7 @@ const EXPERIMENTAL = [
     altNames: 'NN9838',
     class: 'Amylin-Analog (Cagri) / Amylin+GLP-1 Combo (CagriSema)',
     emoji: '🧬',
-    short: 'Ein Long-acting Amylin-Analogon, allein oder als CagriSema mit Semaglutid kombiniert – zwei Sättigungssysteme in einer Spritze, in Phase 3 mit über 20% Gewichtsverlust und guter Verträglichkeit.',
+    short: 'Ein Long-acting Amylin-Analogon, allein oder als CagriSema mit Semaglutid kombiniert – zwei Sättigungssysteme in einer Spritze, in Phase 3 mit über 20% Gewichtsverlust, aber Magen-Darm-Beschwerden bei fast 80 Prozent.',
     moa: 'Amylin-Rezeptor-Agonist: verlangsamt Magenentleerung, reduziert Glucagon-Sekretion, dämpft Appetit komplementär zu GLP-1.',
     benefits: [
       'CagriSema in Phase 3: ~22% Gewichtsverlust (REDEFINE-1)',
@@ -1045,7 +1045,7 @@ const EXPERIMENTAL = [
     altNames: 'Human Chorionic Gonadotropin, Pregnyl, Ovitrelle',
     class: 'Gonadotropin (LH-Mimetikum)',
     emoji: '🧬',
-    short: 'Der bewährte Klassiker zum Hodenerhalt: hCG ahmt LH nach und regt die Hoden direkt zur Testosteron- und Spermienproduktion an – Standard beim Fruchtbarkeitserhalt unter TRT.',
+    short: 'Der bewährte Klassiker zum Hodenerhalt: hCG ahmt LH nach und regt die Hoden direkt zur Testosteron- und Spermienproduktion an – beim Fruchtbarkeitserhalt unter TRT verbreitet, aber meist off label. Zum Abnehmen ist hCG seit Jahrzehnten widerlegt.',
     moa: 'hCG bindet an den LH-Rezeptor der Hoden und imitiert so das luteinisierende Hormon (LH). Dadurch produzieren die Hoden weiter eigenes Testosteron und Spermien – auch dann, wenn die körpereigene LH-Ausschüttung (z.B. unter TRT) unterdrückt ist. Deshalb ist hCG der klassische Weg, um unter Testosterontherapie Hodenvolumen und Fruchtbarkeit zu erhalten oder eine unterdrückte Achse wieder anzustoßen.',
     benefits: [
       'Erhält unter TRT Hodenvolumen und Fruchtbarkeit (direkt an den Hoden)',
@@ -1074,7 +1074,7 @@ const EXPERIMENTAL = [
     altNames: 'GRF 1-29, GHRH(1-29)',
     class: 'GHRH-Analogon (Wachstumshormon-Releasing-Hormon-Fragment)',
     emoji: '📈',
-    short: 'Der sanfte GH-Klassiker: ein kurzes GHRH-Fragment, das die Hirnanhangsdrüse zu natürlichen Wachstumshormon-Pulsen anregt – mild und gut steuerbar, beliebt als Einstieg.',
+    short: 'Der GH-Klassiker: ein kurzes GHRH-Fragment, das die Hirnanhangsdrüse zu Wachstumshormon-Pulsen anregt – beliebt als Einstieg, für gesunde Erwachsene aber nie zugelassen und nie geprüft.',
     moa: 'Sermorelin entspricht den ersten 29 Aminosäuren des GHRH und stimuliert die Hypophyse zur pulsatilen Ausschüttung von Wachstumshormon (GH). Weil die körpereigene Rückkopplung (Somatostatin) erhalten bleibt, gilt es als besonders physiologischer Ansatz und milder als langwirksame Analoga. Historisch als Diagnostikum genutzt, in der Anti-Aging-Szene für Schlaf, Regeneration und Körperkomposition.',
     benefits: [
       'Regt die eigene, natürliche GH-Ausschüttung an (erhaltene Rückkopplung)',
@@ -1244,7 +1244,7 @@ const EXPERIMENTAL = [
     altNames: 'ACTH(4-7)-Pro-Gly-Pro',
     class: 'Synthetisches ACTH-Fragment-Analogon (Heptapeptid), Nootropikum',
     emoji: '🧠',
-    short: 'Ein in Russland entwickeltes Nootropikum-Peptid, das BDNF/NGF anhebt und neuroprotektiv untersucht wird – intranasal angewendet und dort als gut verträglich beschrieben.',
+    short: 'Ein in Russland entwickeltes Nootropikum-Peptid, das BDNF/NGF anhebt und neuroprotektiv untersucht wird – intranasal angewendet, aber ohne systematische Nebenwirkungserfassung. Im Handel ist meist NA-Semax Amidat, nicht Semax.',
     moa: 'Semax leitet sich von einem Fragment des adrenocorticotropen Hormons ab, wobei die hormonelle ACTH-Wirkung weitgehend fehlt. Diskutiert werden eine Erhöhung von BDNF und NGF sowie modulierende Effekte auf dopaminerge und serotonerge Systeme. In Tiermodellen wurden neuroprotektive und antioxidative Effekte, etwa bei zerebraler Ischämie, beschrieben. Die Applikation erfolgt in der russischen Praxis meist intranasal. Ein Großteil der Evidenz stammt aus russischsprachigen Untersuchungen mit begrenzter internationaler Replikation.',
     benefits: [
       'In Studien mit möglicher Verbesserung von Aufmerksamkeit und Gedächtnis assoziiert.',
@@ -1286,7 +1286,7 @@ const EXPERIMENTAL = [
     altNames: 'FPF-1070, neurotrophes Peptidgemisch',
     class: 'Neurotrophes Peptid-Präparat (aus Schweinehirn-Hydrolysat)',
     emoji: '🧠',
-    short: 'Das Nootropikum-Peptid mit der stärksten klinischen Evidenz: ein Gemisch neurotropher Peptide mit mehreren Phase-3-Studien zu Alzheimer und Schlaganfall – in mehreren Ländern als Medikament zugelassen.',
+    short: 'Ein Gemisch neurotropher Peptide mit randomisierten Mehrzentren-Studien zu Alzheimer und Schlaganfall, in mehreren Ländern als Medikament zugelassen – als Gedächtnismittel für Gesunde gibt es dagegen keine Studienlage.',
     moa: 'Cerebrolysin ist ein standardisiertes Hydrolysat aus Schweinehirn und enthält niedermolekulare neurotrophe Peptide, die die Wirkung körpereigener Wachstumsfaktoren (wie BDNF, GDNF) nachahmen sollen. Es soll das Überleben von Nervenzellen fördern, die Bildung neuer Synapsen unterstützen und neuroprotektiv gegen Schädigung wirken. Anders als die meisten „Biohacking-Peptide" wurde es in echten, großen klinischen Studien untersucht – mit der besten Evidenzbasis aller Nootropika-Peptide. Verabreicht wird es klassisch als Infusion/Injektion.',
     benefits: [
       'Stärkste klinische Evidenz aller Nootropika-Peptide (Phase-3-Studien zu Alzheimer und Schlaganfall-Reha).',
@@ -2217,7 +2217,7 @@ const EXPERIMENTAL = [
     altNames: 'N-Hexanoic-Tyr-Ile-(6)-Aminohexanoic-Amid, PNB-0408',
     class: 'Angiotensin-IV-abgeleitetes Nootropikum-Peptid (HGF/c-Met-Verstärker)',
     emoji: '🧠',
-    short: 'Ein hochpotentes Synaptogenese-Peptid: soll die Bildung neuer Nervenverbindungen antreiben – faszinierend, aber die Schlüsselstudie wurde zurückgezogen.',
+    short: 'Ein Synaptogenese-Peptid: soll die Bildung neuer Nervenverbindungen antreiben – die beworbene Potenz stammt aus einer Pressemitteilung, und drei Arbeiten derselben Gruppe sind zurückgezogen.',
     moa: 'Dihexa ist ein Derivat von Angiotensin IV und verstärkt die Bindung des Wachstumsfaktors HGF an seinen Rezeptor c-Met. In Zellkultur trieb es die Bildung neuer Synapsen (Synaptogenese) im Hippocampus an – in Berichten um ein Vielfaches potenter als BDNF. Untersucht wurde es als möglicher Ansatz bei Alzheimer. Wichtig: Die zentrale Studie wurde zurückgezogen, die Evidenz ist entsprechend eingeschränkt.',
     benefits: [
       'Sehr potente Synaptogenese in Zellmodellen (neue Nervenverbindungen)',
@@ -2739,7 +2739,7 @@ const EXPERIMENTAL = [
     altNames: 'AT-1001, Zonulin-Antagonist',
     class: 'Tight-Junction-Regulator (Darmbarriere / „Leaky Gut")',
     emoji: '🛡️',
-    short: 'Das am besten erforschte „Leaky-Gut"-Peptid – und das lehrreichste: In der Phase-3-Studie bei Zöliakie verfehlte Larazotid den primären Endpunkt, die Entwicklung wurde daraufhin eingestellt.',
+    short: 'Das am besten erforschte „Leaky-Gut"-Peptid – und das lehrreichste: Die Phase-3-Studie bei Zöliakie wurde nach einer Zwischenauswertung wegen Aussichtslosigkeit abgebrochen, die Entwicklung daraufhin eingestellt.',
     moa: 'Larazotide ist ein oral wirksames Peptid, das Zonulin blockiert – den körpereigenen Regulator, der die Tight Junctions (Verbindungen zwischen Darmzellen) öffnet. Dadurch wird die Darmbarriere dichter und die Durchlässigkeit („Leaky Gut") sinkt. Es wirkt lokal im Darm und wurde vor allem als Begleittherapie bei Zöliakie in großen Studien untersucht.',
     benefits: [
       'Verringert in Zell- und Tiermodellen die Durchlässigkeit der Darmbarriere',
@@ -2823,7 +2823,7 @@ const EXPERIMENTAL = [
     altNames: 'Acetyl-Octapeptide-3, Argireline-Analog',
     class: 'Kosmetisches Peptid (verlängertes Argireline-Analog, topisch)',
     emoji: '💆',
-    short: 'Die Weiterentwicklung von Argireline: ein topisches „Botox-like"-Peptid, das Mimikfältchen glätten soll – als etwas potenter beworben.',
+    short: 'Die Weiterentwicklung von Argireline: ein topisches „Botox-like"-Peptid, das Mimikfältchen glätten soll – als etwas potenter beworben. Inzwischen auch als Pulver zum Spritzen verkauft, wofür es keine Grundlage gibt.',
     moa: 'SNAP-8 ist ein Oktapeptid und ein verlängertes Analogon von Argireline. Wie dieses moduliert es die SNARE-/Acetylcholin-vermittelte Muskelkontraktion an der Mimikmuskulatur und soll die Kontraktion etwas stärker dämpfen. Anwendung ausschließlich topisch.',
     benefits: [
       'Glättet Mimikfältchen (topisch)',

@@ -1528,7 +1528,7 @@ const SUPPLEMENTS = [
     altNames: 'L-Alpha-Glycerylphosphorylcholin',
     category: 'Aminosäure',
     tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic', 'acetylcholin'],
-    short: 'Hochbioverfügbare Cholinquelle. Erhöht Acetylcholin im Gehirn – Top-Nootropikum.',
+    short: 'Hochbioverfügbare Cholinquelle. Erhöht Acetylcholin im Gehirn – bei Gesunden ungeprüft, dazu ein Schlaganfallsignal aus einer großen Kohorte.',
     description: 'Alpha-GPC überquert die Blut-Hirn-Schranke und liefert Cholin direkt für die Acetylcholin-Synthese. Klinisch gegen Alzheimer erforscht, bei Sportlern für Kraft-Output beliebt.',
     benefits: [
       'Verbessert Gedächtnis und Lernen',
@@ -2126,7 +2126,7 @@ const SUPPLEMENTS = [
     altNames: 'L-Ergothionein, EGT, „Longevity-Vitamin"',
     category: 'Antioxidant',
     tags: ['anti-aging', 'longevity', 'antioxidans', 'zellschutz'],
-    short: 'Zell-Antioxidans aus Pilzen mit eigenem Transporter. Als „Longevity-Vitamin" gehandelt, Humandaten fehlen.',
+    short: 'Zell-Antioxidans aus Pilzen mit eigenem Transporter. Als „Longevity-Vitamin" gehandelt, die Humanstudien sind klein, kurz und ohne harten Endpunkt.',
     description: 'Ergothionein ist eine schwefelhaltige Aminosäure, die der Körper nicht selbst bildet, sondern über die Nahrung (v. a. Pilze) aufnimmt. Ein spezieller Transporter (OCTN1) reichert es gezielt in Zellen an, die viel oxidativem Stress ausgesetzt sind. Niedrige Spiegel sind mit altersbedingten Erkrankungen assoziiert – daher die Bezeichnung „Longevity-Vitamin".',
     benefits: [
       'Antioxidative Wirkung und Anreicherung im Laborversuch gezeigt',
@@ -2152,7 +2152,7 @@ const SUPPLEMENTS = [
     altNames: 'Glycin + N-Acetyl-Cystein',
     category: 'Aminosäure',
     tags: ['anti-aging', 'longevity', 'glutathion', 'mitochondrien', 'entgiftung'],
-    short: 'Die Longevity-Kombi aus Glycin und NAC: liefert die Bausteine für Glutathion – in Studien mit Verbesserungen bei Mitochondrien, Entzündung und Alterungsmarkern.',
+    short: 'Die Longevity-Kombi aus Glycin und NAC: liefert die Bausteine für Glutathion – in einer kleinen Studie einer einzigen Arbeitsgruppe mit Verbesserungen bei Mitochondrien, Entzündung und Alterungsmarkern.',
     description: 'GlyNAC kombiniert die beiden Aminosäuren Glycin und N-Acetyl-Cystein (NAC) – zusammen die limitierenden Bausteine für das körpereigene Master-Antioxidans Glutathion. Im Alter sinkt Glutathion, während oxidativer Stress steigt. Kleine Humanstudien (v. a. Baylor College) zeigten unter GlyNAC verbesserte Glutathionspiegel, Mitochondrienfunktion, Insulinsensitivität, Entzündungs- und Alterungsmarker.',
     benefits: [
       'Liefert die Bausteine für Glutathion (körpereigenes Master-Antioxidans)',
@@ -2251,7 +2251,7 @@ const SUPPLEMENTS = [
     altNames: 'Bergamotte-Extrakt, Citrus bergamia',
     category: 'Kräuter',
     tags: ['herz', 'cholesterin', 'stoffwechsel', 'anti-aging'],
-    short: 'Extrakt der Bergamotte-Zitrusfrucht: in Studien mit günstigen Effekten auf Cholesterin, Blutfette und Blutzucker – ein natürlicher Herz-Kreislauf-Helfer.',
+    short: 'Extrakt der Bergamotte-Zitrusfrucht: in Studien mit günstigen Effekten auf Cholesterin und Blutfette – ob davon je ein Herz profitiert hat, wurde nie gemessen.',
     description: 'Citrus Bergamot ist reich an speziellen Polyphenolen (u. a. Brutieridin, Melitidin), die dem Statin-Mechanismus ähneln und den Fettstoffwechsel günstig beeinflussen. Studien zeigen Senkungen von LDL-Cholesterin und Triglyzeriden sowie Verbesserungen bei Blutzucker – bei guter Verträglichkeit.',
     benefits: [
       'Kann LDL-Cholesterin und Triglyzeride senken',
@@ -2305,7 +2305,7 @@ const SUPPLEMENTS = [
     altNames: 'Serrapeptidase, Serratiopeptidase',
     category: 'Enzym',
     tags: ['entzündung', 'regeneration', 'atemwege', 'schmerzen'],
-    short: 'Ein proteolytisches Enzym: wird zur Auflösung von entzündlichem Gewebe/Schleim und zur Entzündungs- und Schmerzlinderung genutzt.',
+    short: 'Ein proteolytisches Enzym: beworben zur Auflösung von entzündlichem Gewebe/Schleim und zur Entzündungslinderung – beim Schmerz fanden die Studien nichts.',
     description: 'Serrapeptase ist ein eiweißspaltendes Enzym (ursprünglich aus Seidenraupen-Bakterien), das entzündliches und abgestorbenes Gewebe sowie zähen Schleim abbauen kann. Traditionell in Japan/Europa bei Entzündungen, Schwellungen, Atemwegsschleim und postoperativer Heilung genutzt.',
     benefits: [
       'Kann entzündliches/abgestorbenes Gewebe und Schleim abbauen',

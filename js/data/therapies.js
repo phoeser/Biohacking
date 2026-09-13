@@ -488,7 +488,7 @@ const THERAPIES = [
     name: 'Exosomen-Therapie',
     category: 'Biohacking',
     emoji: '🧪',
-    short: 'Winzige Zell-Botenstoffbläschen (aus Stammzellen) transportieren Wachstums- und Reparatursignale – genutzt für Haut, Haar, Gelenke und Regeneration.',
+    short: 'Winzige Zell-Botenstoffbläschen transportieren Wachstums- und Reparatursignale – in den Praxen oft aus Pflanzenzellen oder Kulturüberstand, am Menschen untersucht fast nur an Haut und Haaren.',
     benefits: [
       'Übertragen regenerative Signale (Wachstumsfaktoren, microRNA) ohne ganze Zellen',
       'Beliebt für Haut-Rejuvenation, Haarwachstum und Gelenke',
