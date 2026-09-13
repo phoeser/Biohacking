@@ -17,8 +17,8 @@ const TIPS = [
     category: 'Schlaf',
     icon: '❄️',
     title: 'Schlafzimmer auf 16–18 °C',
-    short: 'Kühlerer Raum fördert Tiefschlaf und REM-Phasen.',
-    how: 'Fenster auf oder Klimaanlage einstellen. Zum Abkühlen 30 min vor dem Schlafen warm duschen – die Hautgefäße weiten sich, Kerntemperatur sinkt danach.',
+    short: 'Hitze kostet Tiefschlaf und REM – ein kühler Raum verhindert diesen Verlust.',
+    how: 'Fenster auf oder Klimaanlage einstellen. Zum Abkühlen 1 bis 2 Stunden vor dem Schlafen warm duschen (40–42,5 °C, ab 10 Minuten) – die Hautgefäße weiten sich, Kerntemperatur sinkt danach.',
     tags: ['schlaf', 'temperatur', 'tiefschlaf']
   },
   {
@@ -27,7 +27,7 @@ const TIPS = [
     icon: '🟡',
     title: 'Blaulicht-Filter ab Sonnenuntergang',
     short: 'Kurzwelliges Licht dämpft Melatonin. Ob Filter und Brillen daraus messbar besseren Schlaf machen, zeigen die Studien uneinheitlich.',
-    how: 'Orange Blueblocker-Brille 2–3 Stunden vor dem Schlafen tragen. Handy/Computer auf Nachtmodus (f.lux, Night Shift) oder ganz meiden.',
+    how: 'Orange Blueblocker-Brille am Abend tragen. Handy und Computer am besten weglegen oder deutlich dunkler stellen – für den Nachtmodus (f.lux, Night Shift) gibt es keinen Wirksamkeitsnachweis.',
     tags: ['schlaf', 'licht', 'melatonin']
   },
   {
@@ -36,7 +36,7 @@ const TIPS = [
     icon: '⏰',
     title: 'Konstante Schlafzeit',
     short: 'Gleiche Zeiten stärken deinen zirkadianen Rhythmus.',
-    how: 'Jeden Tag (auch am Wochenende) zur gleichen Zeit ins Bett und aufstehen. Toleranz ±30 Minuten. Schlafrhythmus ist wichtiger als die reine Dauer.',
+    how: 'Jeden Tag (auch am Wochenende) zur gleichen Zeit ins Bett und aufstehen; die oft genannte Toleranz von ±30 Minuten ist eine Alltagsfaustregel ohne Studienbeleg. Der Rhythmus sagt Gesundheitsrisiken besser vorher als die reine Dauer – er ersetzt sie aber nicht.',
     tags: ['schlaf', 'zirkadian', 'routine']
   },
   {
@@ -44,8 +44,8 @@ const TIPS = [
     category: 'Schlaf',
     icon: '☕',
     title: 'Kein Koffein nach 14 Uhr',
-    short: 'Koffein hat eine Halbwertszeit von 5–6 Stunden.',
-    how: 'Letzter Kaffee spätestens mittags. Abends bei Bedarf koffeinfreier Tee (Kamille, Lavendel) oder Magnesium-Glycinat.',
+    short: 'Koffein hat eine Halbwertszeit von etwa 4 Stunden – individuell zwischen 2 und 8 Stunden.',
+    how: 'Rechne vom Zubettgehen zurück statt nach der Uhr: mindestens 6 Stunden Abstand, für eine normale Tasse Kaffee eher 9. Abends dann koffeinfreie Getränke.',
     tags: ['schlaf', 'koffein', 'einschlafen']
   },
 
@@ -56,7 +56,7 @@ const TIPS = [
     icon: '☀️',
     title: 'Morgens 10 min Sonnenlicht',
     short: 'Morgenlicht stellt die innere Uhr – einer der bestbelegten chronobiologischen Effekte. Den Cortisol-Rhythmus moduliert es, es setzt ihn nicht.',
-    how: 'Innerhalb 30 min nach dem Aufwachen 5–15 min direkt ins Tageslicht (ohne Sonnenbrille, ohne Fensterscheibe). Selbst bei Wolken 1.000–10.000 Lux.',
+    how: 'Innerhalb 30 min nach dem Aufwachen 5–15 min direkt ins Tageslicht (ohne Fensterscheibe). Draußen sind es typischerweise Zehntausende Lux, im Mittel über 40.000 – die innere Uhr spricht schon weit darunter an, auch mit Sonnenbrille.',
     tags: ['licht', 'cortisol', 'energie', 'stimmung']
   },
   {
@@ -65,7 +65,7 @@ const TIPS = [
     icon: '🔴',
     title: 'Rotlicht-Therapie',
     short: 'Rot- und Infrarotlicht: viele kleine Humanstudien mit sehr unterschiedlichen Geräten und Dosen – vergleichbar sind sie kaum.',
-    how: '10–20 min täglich vor einem hochwertigen Rotlichtpanel (600–850 nm), 30–60 cm Abstand. Gut für Haut, Regeneration, Energie.',
+    how: 'Etwa 20 min vor einem hochwertigen Rotlichtpanel (600–850 nm), zwei- bis dreimal pro Woche. Am besten belegt ist die Haardichte, danach Fibromyalgie-Fatigue und Kniearthrose – „Energie“ bei Gesunden ist nicht untersucht.',
     tags: ['licht', 'mitochondrien', 'regeneration', 'haut']
   },
   {
@@ -74,7 +74,7 @@ const TIPS = [
     icon: '🌞',
     title: 'Mittagssonne für Vitamin D',
     short: 'Mittagssonne liefert UVB – die einzige Quelle für körpereigenes Vitamin D.',
-    how: '10–20 min zur Mittagszeit mit Haut im Sonnenlicht (ohne Sonnenschutz). Nur so bildet der Körper Vitamin D. Gesicht, Arme, Beine reichen.',
+    how: 'Zur Mittagszeit die halbe sonnenbrandwirksame Dosis abholen, zwei- bis dreimal pro Woche – für Hauttyp II bei UV-Index 7 sind das etwa 12 Minuten, für dunklere Haut mehr. Gesicht, Hände und Arme reichen; von Oktober bis März steht die Sonne in Deutschland dafür zu tief.',
     tags: ['licht', 'vitamin-d', 'hormone']
   },
 
@@ -85,7 +85,7 @@ const TIPS = [
     icon: '🥶',
     title: 'Kalt duschen (Wim Hof)',
     short: 'Akuter Kältereiz: Katecholamine steigen messbar. Die verbreiteten Zahlen zu Dopamin und Immunsystem stammen aus zwei sehr kleinen Studien.',
-    how: 'Start: 30 Sekunden kalt am Ende der normalen Dusche. Wöchentlich steigern auf 2–3 Minuten. Studie: +250 % Dopamin für bis zu 2 h.',
+    how: 'Start: 30 Sekunden kalt am Ende der normalen Dusche. Wöchentlich steigern auf 2–3 Minuten. Der viel zitierte Dopamin-Anstieg wurde bei einer Stunde in 14-Grad-Wasser gemessen, nicht in der Dusche – über die Wirkdauer danach sagt die Studie nichts.',
     tags: ['kaelte', 'dopamin', 'immun', 'stress']
   },
   {
@@ -103,7 +103,7 @@ const TIPS = [
     icon: '🔥',
     title: 'Sauna 20 min, 4× pro Woche',
     short: 'In der finnischen Langzeitbeobachtung starben häufige Saunagänger seltener an Herzerkrankungen – ein Zusammenhang, keine gemessene Wirkung.',
-    how: '20 min bei 80–90 °C, 4× pro Woche. Erzeugt Hitzeschock-Proteine und ähnelt Cardio-Training. Wichtig: genug trinken, Elektrolyte ergänzen.',
+    how: '20 min bei 80–90 °C, 4× pro Woche; bei Aufguss ist dieselbe Zeit ein deutlich stärkerer Reiz. Die Herzfrequenz steigt ähnlich wie bei leichter Belastung – die Trainingsanpassungen des Ausdauersports stellen sich in randomisierten Studien aber nicht ein. Wichtig: genug trinken.',
     tags: ['hitze', 'herz', 'anti-aging', 'regeneration']
   },
 
@@ -113,7 +113,7 @@ const TIPS = [
     category: 'Atmung',
     icon: '🫁',
     title: 'Box Breathing (4-4-4-4)',
-    short: 'Aktiviert den Parasympathikus. Navy-SEAL-Technik gegen Stress.',
+    short: 'Dämpft akut Herzfrequenz und Zustandsangst vor Stresssituationen – die Herzratenvariabilität bewegte sich dabei nicht. Die Navy-SEAL-Herkunft ist unbelegt.',
     how: '4 Sek. einatmen – 4 Sek. halten – 4 Sek. ausatmen – 4 Sek. halten. 3–5 Minuten. Ideal vor anspruchsvollen Situationen.',
     tags: ['atmung', 'stress', 'fokus', 'entspannung']
   },
@@ -122,8 +122,8 @@ const TIPS = [
     category: 'Atmung',
     icon: '💨',
     title: 'Wim-Hof-Atmung',
-    short: 'Hyperventilation plus Kälte. Die Immunwirkung stammt aus einer Studie mit zwölf Teilnehmern. Nie im oder am Wasser üben.',
-    how: '30–40 tiefe Atemzüge, dann so lange wie möglich ausatmen (ohne Luft halten). 3 Runden. Morgens auf leerem Magen. Nicht beim Autofahren oder im Wasser!',
+    short: 'Hyperventilation plus Kälte. Die Immunwirkung stammt aus einer Studie mit zwölf Teilnehmern und einer Nachfolgestudie mit 48 – alle jung, männlich, gesund. Nie im oder am Wasser üben.',
+    how: '30–40 tiefe Atemzüge, dann ausatmen und die Atempause so lange wie möglich halten – dieser Schritt drückt die Sättigung auf rund 60 %. 3 Runden, morgens auf leerem Magen, immer im Liegen oder Sitzen. Nicht im oder am Wasser, nicht in der Badewanne, nicht im Stehen, nicht beim Autofahren!',
     tags: ['atmung', 'energie', 'immun', 'stimmung']
   },
   {
@@ -143,7 +143,7 @@ const TIPS = [
     icon: '⏱️',
     title: 'Intervallfasten (16:8)',
     short: 'Verbessert in Studien Gewicht und Insulinsensitivität – etwa so gut wie eine gleich große Kalorienreduktion. Die Autophagie ist Theorie.',
-    how: '16 Stunden fasten, 8 Stunden Essen (z. B. 12–20 Uhr). Während Fasten: Wasser, Kaffee, Tee, Elektrolyte. Der verbreitete Rat, Frauen sollten mit 14:10 einsteigen, ist in keiner Studie geprüft.',
+    how: '16 Stunden fasten, 8 Stunden Essen – lege das Fenster besser früh (z. B. 8–16 Uhr), weil die Glukosetoleranz abends schlechter ist. Während Fasten: Wasser, Kaffee, Tee, Elektrolyte. Der verbreitete Rat, Frauen sollten mit 14:10 einsteigen, ist in keiner Studie geprüft.',
     tags: ['fasten', 'autophagie', 'gewicht', 'insulin']
   },
   {
@@ -152,7 +152,7 @@ const TIPS = [
     icon: '🥩',
     title: '30 g Protein zum Frühstück',
     short: 'Stabilisiert Blutzucker, unterstützt Muskelaufbau, sättigt lange.',
-    how: '30–40 g hochwertiges Protein (Eier, Fisch, Fleisch, Whey) innerhalb 1 h nach dem Aufwachen. Hält den ganzen Tag satt.',
+    how: '30–40 g hochwertiges Protein (Eier, Fisch, Fleisch, Whey) zum Frühstück; die oft genannte Stunde nach dem Aufwachen ist eine Konvention, kein Studienprotokoll. Sättigt in den Stunden bis zur nächsten Mahlzeit messbar stärker.',
     tags: ['ernaehrung', 'muskel', 'energie', 'gewicht']
   },
   {
@@ -161,7 +161,7 @@ const TIPS = [
     icon: '🍎',
     title: 'Apfelessig vor Mahlzeiten',
     short: 'Kleine Studien fanden eine flachere Blutzuckerspitze nach einer Testmahlzeit. Der Zahnschmelz leidet dagegen zuverlässig.',
-    how: '1 EL Apfelessig in einem großen Glas Wasser 15 min vor kohlenhydratreichen Mahlzeiten. Mit Strohhalm trinken (Zahnschmelz schützen).',
+    how: '1 EL flüssigen Apfelessig in einem großen Glas Wasser zur Mahlzeit – in den Studien wurde er direkt zum Essen gegeben, und gewirkt hat er nur bei hoher glykämischer Last. Mit Strohhalm trinken (Zahnschmelz schützen), Tabletten meiden.',
     tags: ['ernaehrung', 'blutzucker', 'verdauung', 'gewicht']
   },
   {
@@ -169,7 +169,7 @@ const TIPS = [
     category: 'Ernährung',
     icon: '🥦',
     title: 'Kohlenhydrate abends reduzieren',
-    short: 'Zur Verteilung der Kohlenhydrate über den Tag widersprechen sich die Studien – manche fanden abends sogar besseren Schlaf.',
+    short: 'Zur Verteilung der Kohlenhydrate über den Tag widersprechen sich die Studien – eine fand abends sogar eine kürzere Einschlafzeit. Belegt ist dagegen, dass dieselbe Menge abends eine höhere Blutzuckerspitze erzeugt als morgens.',
     how: 'Abends fokus auf Protein + Fett + Gemüse. Kleine Mengen komplexe Kohlenhydrate ok (Süßkartoffel, Reis). Keine schnellen Zucker.',
     tags: ['ernaehrung', 'schlaf', 'hormone', 'gewicht']
   },
@@ -181,7 +181,7 @@ const TIPS = [
     icon: '💪',
     title: 'Krafttraining 3× pro Woche',
     short: 'Die am besten belegte Einzelmaßnahme dieser Datenbank: Muskelmasse, Knochendichte, Stoffwechsel, Sterblichkeit.',
-    how: '3× pro Woche Ganzkörper oder Split. Schwere zusammengesetzte Übungen: Kniebeuge, Bankdrücken, Rudern, Klimmzüge. Progressive Überlast ist der Schlüssel. Bei fortgeschrittener Osteoporose oder vorhandenen Wirbelbrüchen nennt die S3-Leitlinie Kreuzheben und Tiefsprünge ausdrücklich als kontraindiziert – dort an Geräten trainieren und keine hohe Last in Rumpfbeugung oder -streckung.',
+    how: '3× pro Woche Ganzkörper oder Split. Schwere zusammengesetzte Übungen: Kniebeuge, Bankdrücken, Rudern, Klimmzüge. Progressive Überlast ist der Schlüssel. Bei vorhandenen Wirbelkörperfrakturen sind laut DVO-S3-Leitlinie Sprünge und intensitätsbetontes axiales Krafttraining mit hohen Lasten kontraindiziert; bei Osteoporose ohne Fraktur sollen hochintensive Sprungformen wie Tiefsprünge entfallen. Flexion der Wirbelsäule unter Last vermeiden und nicht bis zum Muskelversagen trainieren.',
     tags: ['bewegung', 'muskel', 'anti-aging', 'hormone']
   },
   {
@@ -199,7 +199,7 @@ const TIPS = [
     icon: '⚡',
     title: 'HIIT 1–2× pro Woche',
     short: 'Hochintensives Intervalltraining steigert VO2max stark.',
-    how: '8× 20 Sekunden maximal, 10 Sekunden Pause (Tabata). Oder 4× 4 min bei 90 %, 3 min Pause. Nach Aufwärmung. Vorsicht: nicht öfter als 2× pro Woche.',
+    how: '8× 20 Sekunden maximal, 10 Sekunden Pause (Tabata) – die Originalintensität von 170 % VO2max ist im Alltag nicht machbar. Oder 4× 4 min bei 90 % der gemessenen Maximalherzfrequenz, 3 min Pause. Nach Aufwärmung. Zwei Einheiten pro Woche sind der beste Kompromiss aus Gewinn und Durchhaltbarkeit.',
     tags: ['bewegung', 'ausdauer', 'anti-aging']
   },
   {
@@ -207,8 +207,8 @@ const TIPS = [
     category: 'Bewegung',
     icon: '🚶',
     title: '10.000 Schritte täglich',
-    short: 'Der Zusammenhang mit der Sterblichkeit ist in großen Kohorten klar – der Großteil des Gewinns liegt aber schon bei 4.000 bis 8.000 Schritten.',
-    how: 'Treppen statt Aufzug, 10-min-Spaziergang nach jedem Essen, Stehschreibtisch. Jede Bewegung über den Tag zählt mehr als eine einzige Einheit.',
+    short: 'Der Zusammenhang mit der Sterblichkeit ist in großen Kohorten klar – der Großteil des Gewinns liegt je nach Alter aber schon zwischen 6.000 und 10.000 Schritten.',
+    how: 'Treppen statt Aufzug, 10-min-Spaziergang nach jedem Essen, Stehschreibtisch als Zwischenschritt – Gehen wirkt deutlich besser als Stehen. Für den Blutzucker zählen kurze, über den Tag verteilte Einheiten mehr als eine einzige; für harte Endpunkte gibt es diesen Vergleich nicht.',
     tags: ['bewegung', 'gewicht', 'blutzucker', 'stimmung']
   },
   {
@@ -216,8 +216,8 @@ const TIPS = [
     category: 'Bewegung',
     icon: '🚶‍♂️',
     title: '10-min-Gehen nach Mahlzeiten',
-    short: 'Senkt Blutzuckerspitzen um bis zu 30 %.',
-    how: 'Direkt nach dem Essen 10–15 min spazieren. Besonders wirksam nach Mittag- und Abendessen.',
+    short: 'Flacht die Blutzuckerspitze nach dem Essen messbar ab – am deutlichsten nach dem Abendessen.',
+    how: 'Innerhalb der ersten Stunde nach dem Essen 10–15 min locker spazieren – eine Studie spricht sogar für 30 Minuten Wartezeit. Am deutlichsten wirkt es nach dem Abendessen.',
     tags: ['bewegung', 'blutzucker', 'verdauung']
   },
 
@@ -227,8 +227,8 @@ const TIPS = [
     category: 'Stress & Geist',
     icon: '🧘',
     title: 'Meditation 10 min täglich',
-    short: 'Meta-Analysen zeigen kleine bis mittlere Effekte auf Stress, Angst und Fokus. Die Cortisol-Befunde sind uneinheitlich.',
-    how: 'Apps wie Waking Up, Headspace oder einfach still sitzen mit Atembeobachtung. Gleiche Zeit täglich. 8 Wochen für nachweisbare Gehirnveränderungen.',
+    short: 'Meta-Analysen zeigen kleine bis mittlere Effekte auf Angst, Depressivität und Schmerz – für die Aufmerksamkeit reicht die Evidenz nicht. Cortisol sinkt im Mittel messbar, aber wenig und mit großer Streuung.',
+    how: 'Apps wie Waking Up, Headspace oder einfach still sitzen mit Atembeobachtung. Gleiche Zeit täglich. 8 Wochen sind die Standarddauer der Programme, aus denen die psychologischen Effekte stammen – strukturelle Gehirnveränderungen zeigten sich darin nicht.',
     tags: ['stress', 'fokus', 'schlaf', 'stimmung']
   },
   {
@@ -236,8 +236,8 @@ const TIPS = [
     category: 'Stress & Geist',
     icon: '🙏',
     title: 'Dankbarkeits-Journaling',
-    short: 'Randomisierte Studien zeigen kleine Effekte auf Stimmung – meist kurz nach der Übung, gegen aktive Vergleichsgruppen deutlich weniger.',
-    how: 'Jeden Morgen oder Abend 3 Dinge aufschreiben, für die du dankbar bist. 5 Minuten reichen. Verändert neuronale Muster in 4–8 Wochen.',
+    short: 'Randomisierte Studien zeigen kleine Effekte auf Stimmung, die bis in die Nachbeobachtung reichen – gegen aktive Vergleichsgruppen bleibt allerdings deutlich weniger übrig.',
+    how: 'Jeden Morgen oder Abend 3 Dinge aufschreiben, für die du dankbar bist; die 5 Minuten sind eine plausible, aber nie geprüfte Angabe. Schon zwei Wochen reichten in einem randomisierten Versuch für messbare Effekte auf Schlaf, Optimismus und Blutdruck.',
     tags: ['stress', 'stimmung', 'schlaf']
   },
   {
@@ -245,7 +245,7 @@ const TIPS = [
     category: 'Stress & Geist',
     icon: '📵',
     title: 'Kein Handy in der ersten Stunde',
-    short: 'Setzt den Fokus für den Tag, statt ihn fremdbestimmen zu lassen. Der oft genannte Cortisol-Spike ist nie gemessen worden.',
+    short: 'Eine Alltagsheuristik: den Fokus selbst setzen, statt ihn fremdbestimmen zu lassen – geprüft wurde bisher nur die Nutzungsmenge, nie der Zeitpunkt. Der oft genannte Cortisol-Spike ist nie gemessen worden.',
     how: 'Die erste Stunde nach dem Aufwachen ohne Smartphone. Kein E-Mail, kein Social Media. Stattdessen Sonnenlicht, Wasser, Bewegung, Planung.',
     tags: ['stress', 'fokus', 'morgen-routine']
   },
@@ -255,7 +255,7 @@ const TIPS = [
     icon: '🌲',
     title: 'Waldbaden (Shinrin-Yoku)',
     short: 'Zeit im Grünen hängt in großen Kohorten mit besserem Wohlbefinden zusammen. Die Immunbefunde stammen aus kleinen japanischen Studien.',
-    how: '20 min in der Natur, ohne Handy, ohne Ziel. Phytonzide von Bäumen aktivieren NK-Zellen (Immunsystem). 2× pro Woche messbare Effekte.',
+    how: 'Mindestens 120 min pro Woche in der Natur, ohne Handy – verteilt wie es passt, aber gehend: In allen Studien wurde gegangen, nicht gesessen. Als Mechanismus werden Phytonzide diskutiert; geprüft ist das an zwölf Personen ohne Kontrollgruppe.',
     tags: ['stress', 'immun', 'stimmung']
   },
 
@@ -266,7 +266,7 @@ const TIPS = [
     icon: '🌅',
     title: 'Die perfekte Morgen-Routine',
     short: 'Sonne, Wasser, Bewegung, Kälte – bevor du aufs Handy schaust.',
-    how: '1. Sonnenlicht 5–10 min. 2. 500 ml Wasser mit Prise Salz + Zitrone. 3. 5 min Bewegung (Liegestützen, Spaziergang). 4. Kalte Dusche. Dann Frühstück.',
+    how: '1. Sonnenlicht 5–10 min. 2. Ein großes Glas Wasser – Salz und Zitrone sind Gewohnheit, kein belegter Zusatznutzen. 3. 5 min Bewegung (Liegestützen, Spaziergang). 4. Kalte Dusche, 30 Sekunden reichen. Dann Frühstück.',
     tags: ['routine', 'energie', 'hormone', 'morgen']
   },
   {
@@ -274,8 +274,8 @@ const TIPS = [
     category: 'Routine',
     icon: '🌆',
     title: 'Evening Wind-Down',
-    short: 'Aktiviert den Parasympathikus und bereitet auf Schlaf vor.',
-    how: '2 h vor dem Schlafen: Licht dimmen, Blueblocker auf, kein Bildschirm 1 h davor. Ritual: Tee, Buch, Atemübung, warme Dusche. Immer gleiche Reihenfolge.',
+    short: 'Licht dimmen wirkt über das Melatonin, die warme Dusche über die Wärmeregulation, die Atemübung über den Parasympathikus.',
+    how: '2 h vor dem Schlafen: Licht dimmen (am besten belegt), Blueblocker nur als Ergänzung, kein Bildschirm 1 h davor. Ritual: Tee, Buch, Atemübung und die warme Dusche 1 bis 2 Stunden vor dem Hinlegen, nicht direkt davor.',
     tags: ['routine', 'schlaf', 'entspannung']
   },
   {
@@ -283,8 +283,8 @@ const TIPS = [
     category: 'Tracking',
     icon: '📊',
     title: 'HRV täglich messen',
-    short: 'Herzratenvariabilität ist der beste Marker für Regeneration.',
-    how: 'Mit Apple Watch, Whoop, Oura oder HRV4Training täglich morgens messen. Sinkt = zu viel Stress/Training, Pause nötig. Steigt = gut regeneriert.',
+    short: 'Herzratenvariabilität ist einer der am besten untersuchten Marker für die vegetative Balance.',
+    how: 'Am genauesten mit Brustgurt (z. B. HRV4Training), deutlich ungenauer am Handgelenk. Lies nicht den Einzelwert, sondern mittele mindestens drei Messungen pro Woche: Sinkt der Schnitt, reduziere die Intensität, statt zu pausieren – bei sehr gut Trainierten kann ein Rückgang auch mehr Parasympathikus bedeuten.',
     tags: ['tracking', 'regeneration', 'stress']
   },
   {
@@ -292,8 +292,8 @@ const TIPS = [
     category: 'Tracking',
     icon: '🩸',
     title: 'Jährliches Blutbild',
-    short: 'Was nicht gemessen wird, kann nicht optimiert werden.',
-    how: 'Mindestens: Vitamin D, B12, Ferritin, Omega-3-Index, TSH + fT3 + fT4, HbA1c, Testosteron (Männer), CRP. Bei Biohackern ausführlicher.',
+    short: '„Was nicht gemessen wird, kann nicht optimiert werden“ – so die Szene. Messen bringt mehr Diagnosen, aber nachweislich nicht weniger Todesfälle.',
+    how: 'Mindestens: Vitamin D (im Winter messen), B12, Ferritin (zusammen mit CRP lesen), Omega-3-Index, TSH, HbA1c, Testosteron (Männer, nüchtern am Morgen und mit Bestätigungsmessung), CRP. Freies T3 und T4 gehören bei Beschwerdefreien nicht ins Routinescreening.',
     tags: ['tracking', 'hormone', 'vitamine']
   },
   {
@@ -301,8 +301,8 @@ const TIPS = [
     category: 'Stress & Geist',
     icon: '👣',
     title: 'Grounding (Erden)',
-    short: 'Barfuß auf der Erde. Angenehm und harmlos – die behauptete Wirkung auf Entzündung und Cortisol ist nicht belegt.',
-    how: '10–20 min barfuß auf Gras, Erde, Sand oder Stein. Kein Asphalt, kein Holz. Idealerweise morgens mit Sonnenlicht kombiniert.',
+    short: 'Barfuß auf der Erde. Für die meisten angenehm und risikoarm – bei Neuropathie oder Durchblutungsstörung an den Füßen aber nicht; die behauptete Wirkung auf Entzündung und Cortisol ist nicht belegt.',
+    how: 'Barfuß auf Gras, Erde, Sand oder Stein – Dauer und Untergrundregel folgen der Elektronen-Hypothese, nicht den Daten. Belegt ist etwas anderes: Barfußtraining stärkt über Wochen Fußmuskulatur und Gewölbefunktion.',
     tags: ['stress', 'entzuendung', 'schlaf']
   },
   {
@@ -311,7 +311,7 @@ const TIPS = [
     icon: '💧',
     title: 'Gefiltertes Wasser mit Mineralien',
     short: 'Deutsches Leitungswasser ist streng überwacht. Ein Zusatznutzen von Filtern ist nicht belegt – schlecht gewartete Filter können schaden.',
-    how: 'Umkehrosmose-Filter + Remineralisierung (Himalaya-Salz, Mineraltropfen) oder hochwertiges Quellwasser in Glas. 2–3 Liter täglich.',
+    how: 'Leitungswasser trinken – das Umweltbundesamt rät von Filtern in der Hausinstallation ab, und Himalaya-Salz ist fast nur Kochsalz, ersetzt also kein Calcium und Magnesium. Rund 1,5 Liter über Getränke reichen (DGE); bei Bleirohren hilft nur der Rohraustausch.',
     tags: ['ernaehrung', 'entgiftung', 'mineralien']
   },
 
@@ -322,7 +322,7 @@ const TIPS = [
     icon: '🫧',
     title: 'Hyperbare Sauerstofftherapie (HBOT)',
     short: 'Hoher Sauerstoffdruck – bei zugelassenen Indikationen gut belegt. Die Longevity-Anwendung stützt sich auf eine kleine Studie ohne Kontrollgruppe.',
-    how: '60–90 min in einer Druckkammer bei 1,3–2,4 ATA, 10–40 Sitzungen. Anwendung: Regeneration, Long-Covid, Wundheilung, Anti-Aging. Nur in spezialisierten Zentren. Nicht bei COPD, Pneumothorax, bestimmten Ohrenerkrankungen.',
+    how: '60–90 min in einer Druckkammer ab 1,4 ATA, in den Studien typischerweise 2,0–2,4 ATA, 10–40 Sitzungen. Anwendung: Regeneration, Long-Covid, Wundheilung, Anti-Aging. Nur in spezialisierten Zentren. Nicht bei COPD, Pneumothorax, bestimmten Ohrenerkrankungen.',
     tags: ['sauerstoff', 'regeneration', 'anti-aging', 'mitochondrien']
   },
   {
@@ -331,7 +331,7 @@ const TIPS = [
     icon: '💨',
     title: 'EWOT – Exercise With Oxygen Therapy',
     short: 'Training mit Sauerstoffmaske. Beim gesunden Menschen auf Meereshöhe ist das Blut bereits fast vollständig gesättigt – Humandaten fehlen.',
-    how: '15 min moderates Cardio (Rad, Laufband) während du 90–95 % O2 einatmest. 2–3× pro Woche. Verbessert VO2max, Sauerstoffsättigung im Gewebe und Energie.',
+    how: '15 min moderates Cardio (Rad, Laufband) während du 90–95 % O2 einatmest. 2–3× pro Woche. Die VO2max veränderte sich in der einzigen passenden randomisierten Studie nicht; zu Gewebesättigung und „Energie“ gibt es zu diesem Protokoll gar keine Humandaten.',
     tags: ['sauerstoff', 'mitochondrien', 'ausdauer', 'energie']
   },
   {
@@ -340,7 +340,7 @@ const TIPS = [
     icon: '⛰️',
     title: 'Intermittierendes Hypoxietraining (IHT)',
     short: 'Wechsel zwischen sauerstoffarmer und normaler Luft. Kleine Reha-Studien mit uneinheitlichen Ergebnissen; bei Herz- und Lungenleiden ungeprüft.',
-    how: 'Mit Maske oder Gerät zyklisch 5 min reduzierter Sauerstoff (9–12 %), 5 min Normalluft. 3–5 Zyklen, 3× pro Woche. Simuliert Höhentraining. Steigert EPO, Mitochondriendichte und Stressresistenz.',
+    how: 'Mit Maske oder Gerät zyklisch 5 min reduzierter Sauerstoff (10–14 %), dann die Zwischenphase – in den neueren Protokollen mit 30–40 % Sauerstoff statt Normalluft. 3–5 Zyklen, 3× pro Woche. Gemessen sind eine niedrigere Ruheherzfrequenz und ein niedrigerer systolischer Blutdruck; für bessere Blutwerte und für die Mitochondriendichte am Menschen fehlt der Beleg.',
     tags: ['sauerstoff', 'mitochondrien', 'ausdauer', 'anti-aging']
   },
   {
@@ -349,7 +349,7 @@ const TIPS = [
     icon: '🎈',
     title: 'CO2-Toleranz-Training',
     short: 'Ein Messwert aus der Atem- und Tauchszene. Dass ein Training darauf die Sauerstoffverwertung verbessert, ist am Menschen nicht gezeigt.',
-    how: 'BOLT-Test: ruhig ausatmen, Nase zuhalten, Zeit bis zum ersten Atemreiz messen. Ziel > 40 s. Training: 5 min langsame Nasenatmung, dann 10 Schritte mit angehaltener Luft, Wiederholung. Reduziert Dyspnoe.',
+    how: 'BOLT-Test: 15 min ruhig sitzen, dann ausatmen, Nase zuhalten und die Zeit bis zum ersten Atemreiz messen – nicht bis zur Grenze anhalten. Der Zielwert über 40 s ist eine Konvention aus der Buteyko-Methode, an keinem Ergebnis validiert. Training: 5 min langsame Nasenatmung, dann 10 Schritte mit angehaltener Luft, Wiederholung. Weniger Atemnot ist bei Asthma als Zusatz zur Standardtherapie belegt, nicht allgemein.',
     tags: ['sauerstoff', 'atmung', 'ausdauer', 'sport']
   },
   {
@@ -358,7 +358,7 @@ const TIPS = [
     icon: '🏔️',
     title: 'Schlafen in (simulierter) Höhe',
     short: 'Höhenstress stimuliert EPO und rote Blutkörperchen.',
-    how: 'Live high, train low: 2000–2500 m schlafen, niedrig trainieren – oder Höhenzelt. 3–4 Wochen für Effekt. Alternative: regelmäßige Bergwochenenden > 1800 m.',
+    how: 'Live high, train low: 2000–2500 m schlafen, niedrig trainieren – oder Höhenzelt. Gerechnet wird in Stunden: über 14 Stunden täglich über 3–4 Wochen, also mehr als 300 Stunden. Bergwochenenden über 1.800 m erreichen das bei Weitem nicht und haben keine belegte Blutwirkung.',
     tags: ['sauerstoff', 'ausdauer', 'regeneration']
   },
   {
@@ -367,7 +367,7 @@ const TIPS = [
     icon: '🩸',
     title: 'Eisenwerte & Hämoglobin optimieren',
     short: 'Ohne Eisen keine Sauerstofftransport-Kapazität.',
-    how: 'Ferritin jährlich checken (Ziel: Männer 80–150, Frauen 70–120 ng/ml). Bei niedrigen Werten: Leber, rotes Fleisch, Hülsenfrüchte + Vitamin C. Bei Bedarf: Eisenbisglycinat 20–40 mg. Zu hohes Ferritin (> 300) = Hinweis auf Entzündung.',
+    how: 'Ferritin zusammen mit CRP lesen: Mangel beginnt unter 15 µg/l, bei Entzündung schon unter 70 – einen Zielkorridor für Gesunde gibt die Literatur nicht her. Bei niedrigen Werten: Leber, rotes Fleisch, Hülsenfrüchte. Nimm Eisen jeden zweiten Tag statt täglich – gleicher Ferritinwert, deutlich weniger Magen-Darm-Beschwerden. Überladungsrisiko laut WHO ab 150 µg/l (Frauen) bzw. 200 µg/l (Männer).',
     tags: ['sauerstoff', 'energie', 'tracking']
   },
 
@@ -377,7 +377,7 @@ const TIPS = [
     category: 'Fasten',
     icon: '🍽️',
     title: 'OMAD – One Meal A Day',
-    short: 'Ein Essen am Tag. Die wenigen kontrollierten Studien fanden neben Gewichtsverlust auch ungünstige Werte bei Nüchternglukose und Blutfetten.',
+    short: 'Ein Essen am Tag. Die einzige kontrollierte Studie – 15 Teilnehmer, zweimal acht Wochen – fand bei gleichbleibendem Gewicht ungünstige Werte bei Nüchternglukose und Blutfetten.',
     how: 'Eine große, nährstoffdichte Mahlzeit pro Tag, meist nachmittags/abends. Während Fastenphase: Wasser, schwarzer Kaffee, Tee, Elektrolyte. Nur für Fortgeschrittene – erst nach Monaten 16:8.',
     tags: ['fasten', 'autophagie', 'gewicht', 'insulin', 'longevity']
   },
@@ -387,7 +387,7 @@ const TIPS = [
     icon: '🗓️',
     title: '24–72 h verlängertes Fasten',
     short: 'Die bekannten Zeitmarken – Autophagie ab 24 h, Stammzellen ab 72 h – stammen aus dem Mausversuch, nicht vom Menschen.',
-    how: '1× pro Monat 24 h oder 1× pro Quartal 72 h Wasserfasten. Elektrolyte (Salz, Kalium, Magnesium) Pflicht. Nicht bei Untergewicht, Schwangerschaft, Diabetes Typ 1. Brechen mit Knochenbrühe + leicht verdaulichem Protein.',
+    how: '1× pro Monat 24 h oder 1× pro Quartal 72 h Wasserfasten. Elektrolyte (Salz, Kalium, Magnesium) Pflicht. Nicht bei Untergewicht, Schwangerschaft, Stillzeit, Essstörung in der Vorgeschichte, bei Kindern und Jugendlichen, bei Diabetes Typ 1 und nicht unter SGLT-2-Hemmern. Der Nahrungsaufbau danach dauert im Buchinger-Protokoll im Mittel vier Tage von 800 auf 1600 kcal – nicht eine Mahlzeit.',
     tags: ['fasten', 'autophagie', 'anti-aging', 'longevity', 'sirtuine']
   },
   {
@@ -395,8 +395,8 @@ const TIPS = [
     category: 'Fasten',
     icon: '🥑',
     title: 'Fasting-Mimicking-Diet (FMD, 5 Tage)',
-    short: 'Proteinarm, fettreich, ~800 kcal. Randomisierte Studien zeigen Effekte auf Surrogatmarker – Endpunktdaten fehlen.',
-    how: '5 Tage am Stück ~800 kcal (Tag 1) und ~500 kcal (Tag 2–5), dominiert von Fett + Gemüse, unter 10 % Protein. 1× pro Quartal. Im Longo-Protokoll sinkt IGF-1 messbar; die Autophagie wird dabei angenommen, nicht gemessen. Nicht bei Untergewicht, Essstörung, Schwangerschaft oder unter Diabetesmedikation.',
+    short: 'Fettreich, ~800 kcal; dass es proteinarm sein muss, ist nicht belegt. Zwei randomisierte Studien erreichen inzwischen klinische Endpunkte bei Diabetes und Morbus Crohn – harte Endpunkte wie Sterblichkeit fehlen weiterhin.',
+    how: '5 Tage am Stück ~800 kcal (Tag 1) und ~500 kcal (Tag 2–5), dominiert von Fett + Gemüse, unter 10 % Protein. 1× pro Quartal. Im Longo-Protokoll sinkt IGF-1 messbar; die Autophagie wurde inzwischen gemessen, allerdings nur in Blutzellen, nicht in Muskel oder Leber. Nicht bei Untergewicht, Essstörung, Schwangerschaft oder unter Diabetesmedikation.',
     tags: ['fasten', 'autophagie', 'anti-aging', 'gewicht', 'longevity']
   },
   {
@@ -405,7 +405,7 @@ const TIPS = [
     icon: '🍳',
     title: 'Richtig refeeden nach dem Fasten',
     short: 'Der Bruch macht den Unterschied – nicht das Fasten selbst.',
-    how: 'Erst eine kleine Portion: Knochenbrühe, weiches Eigelb, fermentiertes Gemüse oder Avocado. 30–60 min warten. Dann normale Mahlzeit. Kein Zucker, keine großen Kohlenhydratmengen direkt – sonst Insulinspitze + Kreislaufprobleme.',
+    how: 'Erst eine kleine Portion: Knochenbrühe, weiches Eigelb, fermentiertes Gemüse oder Avocado; Reihenfolge und Wartezeit sind Erfahrungswerte, studienbelegt ist ein mehrtägiger Aufbau von 800 auf 1600 kcal. Kein Zucker, keine großen Kohlenhydratmengen direkt. Bei BMI unter 18,5, starkem Gewichtsverlust, Fasten über 5 Tage, niedrigen Elektrolyten oder unter Insulin, Diuretika und Chemotherapie droht ein Refeeding-Syndrom – dann ärztlich begleiten lassen.',
     tags: ['fasten', 'darm', 'blutzucker', 'verdauung']
   },
   {
@@ -413,8 +413,8 @@ const TIPS = [
     category: 'Fasten',
     icon: '🧂',
     title: 'Elektrolyte während Fastenperioden',
-    short: 'Kopfschmerz und Schwäche kommen fast immer von Mangel, nicht vom Fasten.',
-    how: 'Pro Fasttag: ca. 3–5 g Natrium (Prise Meersalz im Wasser), 300–500 mg Magnesium, 1–2 g Kalium. Fertige Fasten-Salts oder selbst mischen. Kein Zucker, keine Zitronensäure im Übermaß.',
+    short: 'Der Natriumverlust im Fasten ist physiologisch gut beschrieben – die Zuordnung einzelner Beschwerden zu einem Mangel ist es nicht.',
+    how: 'Für die Mengen gibt es keine kontrollierte Studie. Als Orientierung: Magnesium höchstens 250 mg pro Tag aus Nahrungsergänzung (BfR), Natrium nicht ohne Not über den EFSA-Wert von 2 g – bei Bluthochdruck, Herzschwäche oder Nierenerkrankung gar nicht in Eigenregie. Am besten dokumentiert sind Brühen und Säfte im Rahmen von 200–250 kcal pro Tag, nicht Pulver.',
     tags: ['fasten', 'mineralien', 'energie']
   },
   {
@@ -423,7 +423,7 @@ const TIPS = [
     icon: '♀️',
     title: 'Fasten für Frauen – Zyklusangepasst',
     short: 'Vorsichtsregel, kein Wirknachweis: Zum zyklusangepassten Fasten gibt es keine kontrollierten Studien.',
-    how: 'Follikelphase (Tag 1–14): 16:8 oder länger ok. Lutealphase (Tag 15–28): max. 13:11, mehr Protein, mehr Kohlenhydrate abends. Zyklus-App nutzen. Stop bei Zyklusverlust.',
+    how: 'Feste Tagesangaben passen nicht – die Follikelphase schwankt zwischen 10 und 30 Tagen. Die belegbare Vorsichtsregel hängt an der Energiemenge, nicht am Zeitfenster: Unter etwa 30 kcal pro kg fettfreier Masse und Tag wird die LH-Pulsatilität gestört. Zyklus-App nutzen, Stop bei Zyklusverlust.',
     tags: ['fasten', 'hormone', 'zyklus']
   },
   {
@@ -431,8 +431,8 @@ const TIPS = [
     category: 'Fasten',
     icon: '☕',
     title: 'Kaffee als Fasten-Booster',
-    short: 'Dämpft den Hunger zuverlässig – das ist der belegte Teil. Die Autophagie-Verstärkung stammt aus dem Mausversuch.',
-    how: 'Schwarzer Kaffee oder Espresso während des Fastens ok. Keine Milch, kein Zucker, keine Süßungsmittel mit Geschmack (löst Insulin aus). Bullet-Proof-Coffee bricht technisch das Fasten.',
+    short: 'Der Hungereffekt ist kleiner und unsicherer als gedacht. Die Autophagie-Verstärkung stammt aus dem Mausversuch – und dort wirkte entkoffeinierter Kaffee genauso gut.',
+    how: 'Schwarzer Kaffee oder Espresso während des Fastens ok. Keine Milch, kein Zucker; Süßungsmittel lässt du besser weg, auch wenn eine Insulinausschüttung im Nüchternzustand nicht belegt ist. Bullet-Proof-Coffee bricht technisch das Fasten.',
     tags: ['fasten', 'autophagie', 'fokus']
   },
 
@@ -443,7 +443,7 @@ const TIPS = [
     icon: '🌬️',
     title: 'Buteyko-Atmung für Allergiker & Asthmatiker',
     short: 'Bei Asthma zeigen Studien weniger Symptome und weniger Bedarfsmedikation – die Lungenfunktion selbst ändert sich nicht.',
-    how: 'Normal durch die Nase ein, leicht aus, 3–5 s Pause. Über 10 min täglich. Wirkt bei Asthma, Heuschnupfen, Panikattacken. Nicht bei akuter Atemnot.',
+    how: 'Normal durch die Nase ein, leicht aus, kurze Pause – die Studien geben zweimal täglich über Monate an, eine Pausendauer in Sekunden nennen sie nicht. Belegt ist die Wirkung bei Asthma; zu Heuschnupfen und Panikattacken fanden sich keine kontrollierten Studien. Nicht bei akuter Atemnot.',
     tags: ['atmung', 'immun', 'allergie', 'stress']
   },
   // ============ NEU: TRACKING & BIOMARKER ============
@@ -452,8 +452,8 @@ const TIPS = [
     category: 'Tracking',
     icon: '📉',
     title: 'Glukose kontinuierlich messen (CGM)',
-    short: 'Sensor am Oberarm, 14 Tage Glukoseverlauf. Bei Diabetes belegt; bei Stoffwechselgesunden gibt es keine Studie zum Nutzen.',
-    how: 'Abbott FreeStyle Libre 3 oder Dexcom G7 an den Oberarm kleben. 14 Tage lang Spikes, Stressreaktion und Schlaf-Glukose tracken. Ideal: 2× pro Jahr. Zeigt individuelle Trigger-Foods (z. B. Haferflocken spiken mehr als erwartet).',
+    short: 'Sensor am Oberarm, 14 Tage Glukoseverlauf. Bei Diabetes belegt, bei Prädiabetes gibt es ein Signal – bei Normoglykämen zeigt sich kein Vorteil.',
+    how: 'Abbott FreeStyle Libre 3 oder Dexcom G7 an den Oberarm kleben und 14 Tage lang Spikes, Stressreaktion und Schlaf-Glukose tracken; wie oft im Jahr sinnvoll ist, hat niemand untersucht. Wenn du ein Lebensmittel testest, teste es mehrfach – dieselbe Mahlzeit schwankt bei derselben Person fast so stark wie verschiedene. Bei Gesunden überschätzt der Sensor systematisch, und Kontaktallergien gegen den Kleber sind gut dokumentiert.',
     tags: ['tracking', 'blutzucker', 'ernaehrung', 'longevity']
   },
   {
@@ -462,7 +462,7 @@ const TIPS = [
     icon: '💍',
     title: 'HRV & Schlafphasen mit Ring/Band',
     short: 'Ring und Band erkennen Schlaf und Wachsein gut, die einzelnen Schlafphasen dagegen unzuverlässig – genau die stehen in der Werbung.',
-    how: 'Jeden Morgen HRV-Trend checken – sinkender Trend = Übertraining, Infekt oder Schlafdefizit. Readiness < 70 → Trainingsintensität reduzieren. Schlaf-Effizienz > 90 % anstreben. Wearable mindestens 14 Tage tragen, bevor Trends aussagekräftig sind.',
+    how: 'Jeden Morgen HRV-Trend checken – ein sinkender Trend spricht für Übertraining, Infekt oder Schlafdefizit, kann bei sehr gut Ausdauertrainierten aber auch mehr Parasympathikus bedeuten. Die Readiness-Schwelle 70 ist eine Herstellerkonvention ohne Studie. Auf die Schlaf-Effizienz als Zielwert kannst du verzichten: Die Geräte unterschätzen sie systematisch – verfolge lieber deine eigene Veränderung über Wochen. Für den nächtlichen HRV-Trend brauchst du mindestens 5 von 7 Nächten.',
     tags: ['tracking', 'schlaf', 'stress', 'ausdauer']
   },
   {
@@ -470,8 +470,8 @@ const TIPS = [
     category: 'Tracking',
     icon: '🩸',
     title: 'Erweitertes Biomarker-Panel',
-    short: 'Jährlich: hsCRP, HbA1c, ApoB, Nüchterninsulin, Homocystein, Vitamin D – das Biohacker-Basispanel.',
-    how: 'Über Hausarzt oder IGeL: hsCRP (Entzündung), HbA1c (Langzeitzucker), ApoB (Herz-Risiko besser als LDL), Nüchterninsulin (Insulinresistenz früh), Homocystein (Methylierung), 25-OH-Vitamin D, freies T3/T4/TSH, Ferritin, Testosteron (Männer).',
+    short: 'hsCRP, HbA1c, ApoB, Nüchterninsulin, Vitamin D – das Biohacker-Basispanel; dass ein jährliches Intervall besser ist als ein längeres, hat keine Studie gezeigt.',
+    how: 'Über Hausarzt oder IGeL: hsCRP (Entzündung), HbA1c (Langzeitzucker), ApoB (zählt die atherogenen Partikel und liefert Information, die LDL-C nicht enthält), Nüchterninsulin plus Nüchternglukose (für HOMA-IR), Homocystein (Marker für B12- oder Folatmangel, nicht fürs Herz-Kreislauf-Risiko), 25-OH-Vitamin D, TSH, Ferritin, Testosteron (Männer).',
     tags: ['tracking', 'longevity', 'herz', 'hormone']
   },
 
@@ -481,8 +481,8 @@ const TIPS = [
     category: 'Stress & Geist',
     icon: '🧠',
     title: 'Nootropika-Starter-Stack',
-    short: 'Koffein + L-Theanin 1:2 als sicherer Einstieg – bei Bedarf mit Löwenmähne für Langzeit-BDNF.',
-    how: 'Morgens: 100 mg Koffein + 200 mg L-Theanin. Fokus-Peaks: zusätzlich 300 mg Alpha-GPC oder 250 mg Citicolin. Langfristig (8+ Wochen): 1 g Löwenmähne täglich für Nervenwachstum. Nicht täglich stapeln – Toleranz vermeiden.',
+    short: 'Koffein + L-Theanin als sicherer Einstieg; das Verhältnis 1:2 ist nie geprüft worden. Die BDNF-Wirkung der Löwenmähne stammt aus Zell- und Tierversuchen.',
+    how: 'Morgens: 100 mg Koffein + 200 mg L-Theanin. Fokus-Peaks: Alpha-GPC höchstens in der von der EFSA bewerteten Menge von 203,7 mg pro Tag – darüber liegt keine Sicherheitsbewertung vor. Langfristig (8+ Wochen): 1 g Löwenmähne täglich; der Weg über Nervenwachstum ist beim Menschen nicht gemessen. Nicht täglich stapeln – Toleranz vermeiden.',
     tags: ['fokus', 'nootropic', 'gehirn', 'energie']
   },
   {
@@ -491,7 +491,7 @@ const TIPS = [
     icon: '🎯',
     title: 'Dual-N-Back fürs Arbeitsgedächtnis',
     short: 'Arbeitsgedächtnistraining, das in der Szene als Intelligenztraining gilt – die Meta-Analysen zeigen: Man wird in der Aufgabe besser, nicht im Denken.',
-    how: 'Apps wie „Brain Workshop" oder „IQ Boost". 20 min 4× pro Woche über 4 Wochen. Schon ab Level N=3 spürbare Verbesserung von Fokus und Arbeitsgedächtnis. Kombinierbar mit Alpha-GPC oder Citicolin für stärkeren Effekt.',
+    how: 'Apps wie „Brain Workshop“ oder „IQ Boost“. 20 min 4× pro Woche über 4 Wochen ist eine Praxisangabe – die Meta-Analyse fand keinen Effekt der Trainingsdosis. Ein Schwellenlevel wurde nie untersucht, und der Transfer auf Arbeitsgedächtnisaufgaben ist klein und unabhängig vom erreichten Level.',
     tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic']
   },
 
@@ -502,7 +502,7 @@ const TIPS = [
     icon: '💪',
     title: 'Testosteron natürlich anheben',
     short: 'Krafttraining, Schlaf, Zink bei Mangel: für die Bausteine gibt es Daten. Die oft genannten „80 % des Hebels" sind geschätzt.',
-    how: '1) Krafttraining 3×/Woche (Compound-Übungen: Kniebeuge, Kreuzheben). 2) 7–9 h Schlaf, besonders REM. 3) Zink 15 mg + Bor 6 mg + Magnesium 400 mg abends. 4) Fett nicht unter 25 % der Kalorien (Cholesterin = Testosteron-Vorläufer). 5) Alkohol minimieren, Körperfett unter 20 %.',
+    how: '1) Krafttraining 3×/Woche (Compound-Übungen: Kniebeuge, Kreuzheben) – der Nutzen läuft über die Körperzusammensetzung, nicht über den Hormonschub nach der Einheit. 2) 7–9 h Schlaf. 3) Zink 15 mg bei nachgewiesenem Mangel; für Bor und für eine Abenddosis Magnesium gibt es beim Mann keine passende Studie. 4) Fett nicht unter 25 % der Kalorien (Cholesterin = Testosteron-Vorläufer). 5) Starken Alkoholkonsum meiden und Gewicht abbauen – je mehr Gewichtsverlust, desto größer der Anstieg, eine Schwelle bei 20 % Körperfett gibt es nicht.',
     tags: ['hormone', 'testosteron', 'muskel', 'schlaf']
   },
   {
@@ -511,7 +511,7 @@ const TIPS = [
     icon: '🌙',
     title: 'Training am Zyklus ausrichten (Frauen)',
     short: 'Follikelphase Kraft, Lutealphase Ausdauer – so die Lehre. Übersichtsarbeiten finden nur kleine Effekte bei großen individuellen Unterschieden.',
-    how: 'Follikelphase (Tag 1–14): Kraftrekorde, HIIT, intensive Einheiten. Östrogen steigt. Lutealphase (Tag 15–28): Zone 2, Yoga, mehr Kohlenhydrate, mehr Schlaf (Progesteron ↑). Tracking: Natural Cycles, Clue, oder Basaltemperatur. In den 3–5 Tagen vor der Periode: keine neuen PRs erwarten.',
+    how: 'Feste Tagesangaben passen nicht: Die Follikelphase dauert im Mittel 17 Tage mit einer Spanne von 10 bis 30, die Lutealphase ist mit rund 12 Tagen die stabilere. Die einzige Phase mit einem messbaren – und winzigen – Nachteil ist die Blutung selbst; vor der Periode unterscheidet sich nichts. Für phasenabhängige Kohlenhydrat- oder Schlafempfehlungen gibt es keine Studie. Tracking am ehesten symptothermal, kalenderbasierte Apps schneiden in der Bewertung am schlechtesten ab.',
     tags: ['hormone', 'sport', 'tracking']
   },
 
@@ -521,8 +521,8 @@ const TIPS = [
     category: 'Longevity',
     icon: '🧬',
     title: 'Monatlicher Senolytikum-Puls',
-    short: 'Fisetin + Quercetin hochdosiert an 2 Tagen pro Monat. Das Schema stammt aus dem Mausversuch – am Menschen ist es ungeprüft.',
-    how: 'An 2 aufeinanderfolgenden Tagen pro Monat: 20 mg/kg Fisetin + 1 g Quercetin (morgens, mit Fett). Pause die restlichen 28 Tage. Beobachtungsstudien deuten auf weniger Entzündung und bessere Gewebefunktion hin. Protokoll nach Mayo Clinic.',
+    short: 'Fisetin hochdosiert an 2 Tagen pro Monat. Eine placebokontrollierte Studie mit genau diesem Schema fand keine auffälligen Nebenwirkungen – und keinen funktionellen Vorteil gegenüber Placebo.',
+    how: 'Das Mayo-Protokoll arbeitet mit Fisetin allein an ein bis zwei aufeinanderfolgenden Tagen; Quercetin gehört nicht dazu, sondern zur getrennten Kombination mit dem verschreibungspflichtigen Dasatinib. Für die Einnahme morgens mit Fett gibt es keinen Beleg. Was an Positivem berichtet wird, stammt aus offenen Pilotstudien mit 14 beziehungsweise 9 Erkrankten ohne Kontrollgruppe, nicht aus Beobachtungsstudien.',
     tags: ['longevity', 'senolytisch', 'anti-aging']
   },
   {
@@ -530,8 +530,8 @@ const TIPS = [
     category: 'Ernährung',
     icon: '🥩',
     title: 'Protein nach Alter anpassen',
-    short: 'Unter 50 J.: 1,2–1,6 g/kg. Über 50 J.: 1,6–2,2 g/kg gegen Sarkopenie.',
-    how: 'Über 50: mehr Protein anstreben – der „mTOR-Bremse wegen Longevity"-Ansatz ignoriert das Sarkopenie-Risiko. Peter Attia empfiehlt 1,6–2,2 g/kg pro Tag, verteilt auf 3–4 Mahlzeiten à 30–50 g. Leucin-Schwelle (2,5 g/Mahlzeit) triggert Muskelaufbau.',
+    short: 'Unter 50 J.: 1,2–1,6 g/kg. Fachgesellschaften nennen für gesunde Ältere 1,0–1,2 g/kg – die Longevity-Szene 1,6–2,2 g/kg.',
+    how: 'Über 50: mehr Protein anstreben – der „mTOR-Bremse wegen Longevity“-Ansatz ignoriert das Sarkopenie-Risiko. Peter Attia empfiehlt 1,6–2,2 g/kg pro Tag, verteilt auf 3–4 Mahlzeiten à 30–50 g; das ist eine Longevity-Empfehlung, keine Leitlinie. Die Leucin-Schwelle von 2,5 g pro Mahlzeit ist eine Faustregel, keine gemessene Schwelle.',
     tags: ['longevity', 'muskel', 'ernaehrung']
   },
 
