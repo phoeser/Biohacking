@@ -4070,3 +4070,7 @@ button { font-family: inherit; cursor: pointer; }
    steht. Im Aufklapper bleibt er weg. */
 .labor-auf .labor-head p { display: none; }
 .labor-auf .labor-head { margin-bottom: 4px; }
+
+/* Link von der Tipp-Karte auf die ausfuehrliche Seite unter /tipp/ */
+.exp-mehr{display:inline-block;margin-top:.6rem;font-weight:600;font-size:.92rem;color:#2f8b6a;text-decoration:none}
+.exp-mehr:hover{text-decoration:underline}

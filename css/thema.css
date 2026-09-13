@@ -187,3 +187,11 @@ ul { padding-left: 1.2em } li { margin: 5px 0 }
 .vw li a { font-weight: 600; text-decoration: none; color: var(--text) }
 .vw li a:hover { color: var(--akzent) }
 @media (max-width: 560px) { .vw-grund { min-width: 100% } }
+
+/* Kurzantwort ganz oben - der Block, den Assistenten und Snippets herausziehen */
+.kurz{background:#f2f8f5;border:1px solid #cfe4d9;border-left:3px solid #2f8b6a;border-radius:8px;padding:1rem 1.2rem;margin:1.4rem 0}
+.kurz h2{margin-top:0;font-size:1.05rem;letter-spacing:.02em;text-transform:uppercase;color:#2f6f58}
+.kurz p{margin:.5rem 0 0}
+.kurz p:first-of-type{margin-top:0}
+/* Kurzbeschreibung in den Uebersichtslisten */
+.gl-kurz{display:block;color:#5a6560;font-size:.92rem;margin-top:.15rem}
