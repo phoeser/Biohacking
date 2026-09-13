@@ -2902,14 +2902,14 @@
    "view": "behandlungen",
    "name": "Herzratenvariabilität (HRV)",
    "url": "https://biohackingkompakt.de/thema/hrv-messung.html",
-   "evidenz": 4,
-   "mechanismus": 7,
+   "evidenz": 6,
+   "mechanismus": 6,
    "sicherheit": 8,
    "hype": 3,
    "anwendung": 8,
    "richtung": "gemischt",
-   "label": "Dünne Humanevidenz",
-   "beleg": "Die Messung ist validiert – nächtliche Werte guter Geräte stimmen eng mit dem EKG überein –, die Entscheidung daraus nicht: Die Meta-Analyse über acht RCTs mit zusammen nur 190 Teilnehmern fand keinen Vorteil HRV-gesteuerten gegenüber vorgeplantem Training. Die vagale Steuerung des Herzschlags ist am Menschen gut verstanden. Eine Messung ohne körperliches Risiko braucht keine Sicherheitsstudien; nicht untersucht ist der psychologische Nebeneffekt täglicher Bereitschaftswerte. Beworben wird eine Entscheidungsvalidierung, vorliegt eine Messvalidierung."
+   "label": "Belegt, mit Einschränkungen",
+   "beleg": "Die Messgröße selbst ist gut untersucht: zwei Framingham-Kohorten mit 736 und 2.501 Personen, eine Normwert-Übersicht über 21.438 Teilnehmer und Biofeedback-Meta-Analysen über 58 randomisierte Studien. Nicht belegt ist die Anwendung als tägliches Steuerinstrument – die Meta-Analyse über acht RCTs mit zusammen nur 190 Teilnehmern fand keinen Vorteil HRV-gesteuerten gegenüber vorgeplantem Training, brauchbare Normwerte gibt es nicht, und die Ruhe-HRV trägt das Übertrainings-Signal nicht. Die vagale Seite ist gut verstanden, die sympathische nicht: Für sie gibt es im Kurzzeit-EKG kein sauberes Maß, und das verbreitete LF/HF-Verhältnis gilt als überholt. Beworben wird eine Entscheidungsvalidierung, vorliegt eine Messvalidierung."
   },
   {
    "id": "floating",
