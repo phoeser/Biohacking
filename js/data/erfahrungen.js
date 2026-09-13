@@ -546,6 +546,66 @@ const ERFAHRUNGEN = [
     ],
     shopId: null,
     quelle: { label: 'Weitergegebene Rückmeldungen, Stand September 2026 \u00b7 Einordnung in Podcast-Folge 43', url: '' }
+  },
+  {
+    id: 'semax-nasenspray-umfeld-2026-09',
+    substanz: 'Semax als Nasenspray',
+    slug: 'semax',
+    scoreRef: { view: 'experimental', id: 'semax' },
+    kategorie: 'Peptid',
+    emoji: '\u{1F9E0}',
+    autor: 'weitergegeben',
+    demo: false,
+    datum: '2026-09-13',
+    dauer: null,
+    dosis: null,
+    bewertung: null,
+    fazit: 'Aus sicherer Quelle: keine Nebenwirkungen, aber auch keine starken Effekte. Wach und etwas klarer, mehr nicht. Genau diese nüchterne Beschreibung ist glaubwürdiger als jede Wunderschilderung.',
+    text: 'Zu Semax als Nasenspray habe ich eine Rückmeldung aus einer Quelle, der ich vertraue. Sie fällt bewusst unspektakulär aus, und deshalb steht sie hier.\n\nBerichtet werden zwei Dinge. Erstens die Verträglichkeit: keine Nebenwirkungen, nichts Unangenehmes, kein Absacken hinterher. Zweitens die Wirkung: vorhanden, aber mild und moderat. Etwas wacher, etwas klarer im Kopf. Wer einen deutlichen Schub erwartet, wird enttäuscht.\n\nEinordnung von mir, und sie fällt hier ungewohnt freundlich aus: Diese Beschreibung passt besser zur Datenlage als alles, was sonst über Semax kursiert. In Anwenderkreisen wird ein binnen Minuten spürbarer Effekt auf Wachheit und Fokus beschrieben. Ein milder Effekt ist genau das, was man von einem Peptid erwarten darf, dessen Wirkung sich in keiner westlichen Studie von Placebo hat trennen lassen.\n\nDenn das ist die Lage: Semax ist in Russland als Arzneimittel registriert, im Westen nirgends. Die auffindbaren Studien stammen im Wesentlichen aus zwei Arbeitsgruppen und sind ausnahmslos russischsprachig, etwa Gusev und Kollegen 1997 mit 30 Patienten nach ischämischem Schlaganfall gegen 80 Kontrollen und 2005 mit 187 Patienten. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal habe ich nicht gefunden. Die Erhöhung des Nervenwachstumsfaktors BDNF als Wirkmechanismus ist im Tierversuch gezeigt, der Nutzen daraus beim Menschen nicht.\n\nUnd der Punkt, der bei dieser Rückmeldung leicht untergeht: Keine Nebenwirkungen bemerkt zu haben ist etwas anderes als unbedenklich. Für Semax existiert keine westliche Pharmakovigilanz, also kein System, das seltene Ereignisse über viele Anwender hinweg einsammelt. Dazu kommt, dass im Handel meist gar nicht Semax selbst steht, sondern das veränderte NA-Semax Amidat. Die russische Studienlage gilt für die ursprüngliche Substanz, nicht für diese Variante.\n\nWeil es sich um eine einzelne weitergegebene Beobachtung ohne Messwerte und ohne Vergleich mit einem Placebo-Spray handelt, steht hier keine Sternebewertung.',
+    positiv: [
+      'Keine Nebenwirkungen berichtet, kein Absacken nach dem Nachlassen',
+      'Wirkung wird als vorhanden, aber mild beschrieben – das deckt sich mit der dünnen Datenlage besser als jede Wunderschilderung',
+      'In Russland seit Jahrzehnten klinisch angewendet und dort als Arzneimittel registriert'
+    ],
+    negativ: [
+      'Effekt ausdrücklich mild und moderat – wer einen deutlichen Schub erwartet, wird enttäuscht',
+      'Keine unabhängige westliche Doppelblind-Replikation auffindbar; die Studien stammen aus wenigen russischsprachigen Arbeitsgruppen',
+      'Im Handel steht meist NA-Semax Amidat, nicht die Substanz aus den Studien',
+      'Keine westliche Pharmakovigilanz – ohne Nebenwirkungen bemerkt zu haben heißt nicht unbedenklich',
+      'In Deutschland kein zugelassenes Arzneimittel'
+    ],
+    shopId: null,
+    quelle: { label: 'Weitergegebene Rückmeldung aus sicherer Quelle, Stand September 2026 · Einordnung in Podcast-Folge 11', url: '' }
+  },
+  {
+    id: 'selank-nasenspray-umfeld-2026-09',
+    substanz: 'Selank als Nasenspray',
+    slug: 'selank',
+    scoreRef: { view: 'experimental', id: 'selank' },
+    kategorie: 'Peptid',
+    emoji: '\u{1F343}',
+    autor: 'weitergegeben',
+    demo: false,
+    datum: '2026-09-13',
+    dauer: null,
+    dosis: null,
+    bewertung: null,
+    fazit: 'Dieselbe Rückmeldung wie zu Semax: gut vertragen, keine Nebenwirkungen, aber ein milder Effekt. Ruhiger, nicht müde – und deutlich weniger, als der Ruf des Stoffes verspricht.',
+    text: 'Selank wird oft im selben Atemzug mit Semax genannt, und auch die Rückmeldung dazu kommt aus derselben verlässlichen Quelle. Sie klingt ähnlich nüchtern.\n\nBerichtet wird: keine Nebenwirkungen, insbesondere keine Müdigkeit und kein Nebel im Kopf, wie man ihn von dämpfenden Mitteln kennt. Und ein Effekt, der da ist, aber mild bleibt. Etwas ruhiger, etwas weniger innere Anspannung. Keine Umkehr eines Zustands, eher eine Verschiebung.\n\nEinordnung von mir: Das Ausbleiben der Sedierung ist der interessanteste Teil, weil genau das der beworbene Unterschied zu Benzodiazepinen ist. Es ist allerdings auch der Teil, den eine unverblindete Einzelbeobachtung am wenigsten belegen kann – dass man nicht müde wird, fällt vor allem auf, wenn man darauf achtet.\n\nDie Studienlage: Die vorhandenen Arbeiten sind klein und stammen fast vollständig aus russischsprachigen Fachzeitschriften. Zozulia und Kollegen verglichen 2008 bei 62 Patienten mit Angststörung Selank gegen Medazepam, Medvedev und Kollegen 2014 und 2015 gegen Phenazepam. Verglichen wurde also jeweils gegen ein Benzodiazepin, nicht gegen Placebo. Ein solches Design kann zeigen, dass zwei Mittel ähnlich abschneiden, aber nicht, dass eines davon wirkt. Die angenommene Modulation des Botenstoffs GABA stammt aus Tiermodellen.\n\nDazu dasselbe wie bei Semax: In Deutschland ist Selank kein zugelassenes Arzneimittel, systematische Sicherheitsdaten fehlen, und eine ausgebliebene Nebenwirkung bei einer Person ersetzt kein Meldesystem. Auch hier steht deshalb keine Sternebewertung.',
+    positiv: [
+      'Keine Nebenwirkungen berichtet, vor allem keine Sedierung und kein Nebel im Kopf',
+      'Der beruhigende Effekt wird als vorhanden beschrieben, ohne müde zu machen',
+      'Die zurückhaltende Schilderung passt zur dünnen Evidenz besser als die üblichen Versprechen'
+    ],
+    negativ: [
+      'Effekt mild und moderat – eine spürbare Verschiebung, keine Umkehr',
+      'Die russischen Studien verglichen gegen Benzodiazepine statt gegen Placebo; so lässt sich Wirksamkeit nicht zeigen',
+      'Keine unabhängige westliche Replikation auffindbar',
+      'Die angenommene GABA-Modulation stammt aus Tiermodellen',
+      'In Deutschland kein zugelassenes Arzneimittel, systematische Sicherheitsdaten fehlen'
+    ],
+    shopId: null,
+    quelle: { label: 'Weitergegebene Rückmeldung aus sicherer Quelle, Stand September 2026 · Einordnung in Podcast-Folge 25', url: '' }
   }
 ];
 
