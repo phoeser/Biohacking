@@ -109,3 +109,56 @@ ul { padding-left: 1.2em } li { margin: 5px 0 }
 .vgl-hin ul { margin: 0; padding-left: 1.1em }
 .vgl-hin li { font-size: .94rem; color: var(--gedaempft) }
 .vgl-hin a { font-weight: 600 }
+
+/* --------------------------------------------------------------- Glossar
+ * Begriffsseiten unter /glossar/. Sie erklaeren keine Wirkstoffe, sondern
+ * das Vokabular der Methode - und verlinken von dort in die Themenseiten.
+ */
+.def {
+  border: 1px solid var(--rand); border-left: 3px solid var(--akzent);
+  border-radius: var(--radius); padding: 14px 18px; margin: 22px 0;
+  background: var(--flaeche);
+}
+.def-label {
+  font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--akzent); font-weight: 700; margin: 0 0 4px;
+}
+.def p:last-child { margin: 0; font-size: 1.06rem }
+.merksatz {
+  font-family: var(--font-titel); font-size: 1.12rem; line-height: 1.45;
+  color: var(--text); border-left: 3px solid var(--akzent-soft);
+  padding: 2px 0 2px 16px; margin: 26px 0;
+}
+.bsp { border-top: 1px solid var(--rand); padding-top: 6px }
+.bsp ul { padding-left: 1.1em }
+.bsp li { margin-bottom: 7px; font-size: .96rem; color: var(--gedaempft) }
+.bsp li a { font-weight: 600 }
+.siehe { font-size: .93rem; color: var(--gedaempft) }
+.cl-text { color: var(--gedaempft); font-size: .95rem; margin: 0 0 8px }
+.gl-liste a { display: flex; flex-wrap: wrap; gap: 2px 12px; align-items: baseline }
+.gl-liste a span { color: var(--gedaempft); font-size: .9rem }
+
+/* ------------------------------------------------------------------- FAQ
+ * <details> statt JavaScript: Der Text steht im DOM, egal ob auf- oder
+ * zugeklappt. Ein per JS nachgeladener Block existiert fuer Crawler nicht.
+ * Die Antworten sind wortgleich mit dem FAQPage-Schema im Kopf der Seite -
+ * beides wird aus derselben Quelle erzeugt.
+ */
+.faq { margin: 32px 0 }
+.faq details {
+  border: 1px solid var(--rand); border-radius: var(--radius);
+  background: var(--flaeche); margin-bottom: 10px; padding: 0 18px;
+}
+.faq summary {
+  cursor: pointer; list-style: none; padding: 14px 0;
+  display: flex; align-items: baseline; gap: 10px;
+}
+.faq summary::-webkit-details-marker { display: none }
+.faq summary::before {
+  content: "+"; color: var(--akzent); font-weight: 700;
+  font-size: 1.1rem; line-height: 1; flex: none;
+}
+.faq details[open] summary::before { content: "–" }
+.faq summary h3 { margin: 0; font-size: 1.02rem; font-weight: 600 }
+.faq details p { margin: 0 0 16px; padding-left: 22px; color: var(--gedaempft) }
+.faq summary:hover h3 { color: var(--akzent) }
