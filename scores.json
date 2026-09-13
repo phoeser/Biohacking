@@ -540,7 +540,7 @@
    "anwendung": 6,
    "richtung": "offen",
    "label": "Lange angewendet, kaum untersucht",
-   "beleg": "Die Neurogenese-Erzählung ist der eigentliche Befund: Die NGF-Stimulation ist in Zellkultur und Tier gut dokumentiert, am Menschen wurde sie nie gemessen. Die beste Humanstudie ist eine randomisierte Pilotstudie mit 41 gesunden Erwachsenen über 28 Tage (Nutrients 2023) – schnellere Reaktion im Stroop-Test (p = 0,005), aber gleichzeitig schlechterer sofortiger Wortabruf und nur ein nicht signifikanter Stress-Trend (p = 0,051). Die Autoren mahnen selbst zur Vorsicht. Über Wochen hinaus gibt es keine Sicherheitsdaten.",
+   "beleg": "Die Neurogenese-Erzählung ist der eigentliche Befund: Die NGF-Stimulation ist in Zellkultur und Tier gut dokumentiert, am Menschen wurde sie nie gemessen. Die beste Humanstudie ist eine randomisierte Pilotstudie mit 41 gesunden Erwachsenen über 28 Tage (Nutrients 2023) – die schnellere Reaktion im Stroop-Test (p = 0,005) wurde 60 Minuten nach einer Einzeldosis gemessen, nach 28 Tagen blieb nur ein nicht signifikanter Stress-Trend (p = 0,051), dazu Nullbefunde und einzelne leicht negative Ergebnisse. Die Autoren mahnen selbst zur Vorsicht. Über Wochen hinaus gibt es keine Sicherheitsdaten.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Fokus – oder emotionale Abflachung",
@@ -790,7 +790,7 @@
    "anwendung": 6,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Der auffälligste Widerspruch im Supplementbereich: Ein RCT mit 100 Patienten mit leichter kognitiver Beeinträchtigung (BMC Geriatrics 2024) zeigt über zwölf Wochen einen Vorteil im ADAS-Cog – gleichzeitig fand eine koreanische Kohortenstudie mit über zwölf Millionen Personen und zehn Jahren Nachbeobachtung (JAMA Network Open 2021) bei Alpha-GPC-Nutzern ein um 46 Prozent erhöhtes Schlaganfallrisiko mit Dosis-Wirkungs-Trend. Das ist eine Beobachtungsstudie, Confounding nicht ausgeschlossen, und als Mechanismus wird TMAO diskutiert. In der Werbung kommt dieses Signal praktisch nie vor."
+   "beleg": "Der auffälligste Widerspruch im Supplementbereich: Ein RCT mit 100 Patienten mit leichter kognitiver Beeinträchtigung (BMC Geriatrics 2024) zeigt über zwölf Wochen einen Vorteil im ADAS-Cog – gleichzeitig fand eine koreanische Kohortenstudie mit über zwölf Millionen Personen und neun Jahren Nachbeobachtung (JAMA Network Open 2021) bei Alpha-GPC-Nutzern ein um 46 Prozent erhöhtes Schlaganfallrisiko mit Dosis-Wirkungs-Trend. Das ist eine Beobachtungsstudie, Confounding nicht ausgeschlossen, und als Mechanismus wird TMAO diskutiert. In der Werbung kommt dieses Signal praktisch nie vor."
   },
   {
    "id": "citicolin",
@@ -1044,7 +1044,7 @@
    "anwendung": 4,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Die vielzitierte Aussage, das biologische Alter sinke um acht Jahre, stammt aus einer retrospektiven Auswertung von 42 Anwendern eines Fertigprodukts (Aging 2022) – ohne Placebo, ohne Randomisierung, gemessen an einer epigenetischen Uhr, die selbst nicht als Endpunkt validiert ist. Die Autoren benennen das als Limitation. Die Lebensspannenverlängerung ist ein Mausbefund. Ein echtes RCT läuft (ABLE-Studie), Ergebnisse stehen aus. Systematische Sicherheitsdaten existieren nicht."
+   "beleg": "Die vielzitierte Aussage, das biologische Alter sinke um acht Jahre, stammt aus einer retrospektiven Auswertung von 42 Anwendern eines Fertigprodukts (Aging 2021) – ohne Placebo, ohne Randomisierung, gemessen an einer epigenetischen Uhr, die selbst nicht als Endpunkt validiert ist. Die Autoren benennen das als Limitation. Die Lebensspannenverlängerung ist ein Mausbefund. Ein echtes RCT läuft (ABLE-Studie), Ergebnisse stehen aus. Systematische Sicherheitsdaten existieren nicht."
   },
   {
    "id": "nicotinamid-ribosid",
@@ -1133,14 +1133,14 @@
    "view": "supplement",
    "name": "Ergothionein",
    "url": "https://biohackingkompakt.de/thema/ergothionein.html",
-   "evidenz": 2,
+   "evidenz": 5,
    "mechanismus": 4,
    "sicherheit": 7,
    "hype": 2,
    "anwendung": 3,
    "richtung": "offen",
-   "label": "Hype weit vor Evidenz",
-   "beleg": "Ein seltener Fall, in dem die Sicherheit deutlich besser untersucht ist als die Wirkung: Die EFSA hat synthetisches L-Ergothionein 2016 als Novel Food bewertet und 2020 für weitere Gruppen ergänzt. Die einzige Interventionsstudie ist dagegen eine Pilot-RCT mit 19 Personen über ein Jahr (Int Psychogeriatr 2024) – bessere Lernleistung im RAVLT und stabile Neurofilament-Leichtketten als Surrogatmarker. Der Rest sind Beobachtungsdaten: niedrige Plasmaspiegel gehen mit kognitivem Abbau einher, was keine Kausalität zeigt."
+   "label": "Dünne Humanevidenz",
+   "beleg": "Ein seltener Fall, in dem die Sicherheit deutlich besser untersucht ist als die Wirkung: Die EFSA hat synthetisches L-Ergothionein 2016 bewertet, die EU es 2017 als neuartiges Lebensmittel zugelassen und 2018 auf weitere Lebensmittelkategorien ausgeweitet. Die Interventionsstudien bleiben dagegen klein und kurz: eine Pilot-RCT mit 19 Personen über ein Jahr (J Alzheimers Dis 2024) – bessere Lernleistung im RAVLT und stabile Neurofilament-Leichtketten als Surrogatmarker –, dazu Arbeiten mit 45 und 92 Teilnehmern; die bisher größte mit 147 Teilnehmern verfehlte ihren primären Endpunkt. Der Rest sind Beobachtungsdaten: niedrige Plasmaspiegel gehen mit kognitivem Abbau einher, was keine Kausalität zeigt."
   },
   {
    "id": "glynac",
@@ -1154,7 +1154,7 @@
    "anwendung": 3,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Die Behauptung, GlyNAC kehre Merkmale des Alterns um, geht auf eine Studie mit 24 älteren Erwachsenen über 16 Wochen zurück (Sekhar et al., J Gerontol A 2022) – aus einer einzigen Arbeitsgruppe, ohne unabhängige Replikation. Verbessert waren Glutathionstatus, oxidativer Stress, Mitochondrienfunktion sowie Ganggeschwindigkeit und Gehstrecke. Dass Glycin und Cystein die Glutathionsynthese speisen, ist etablierte Humanbiochemie; der Sprung von dort zu Aging-Hallmarks ist es nicht. Harte Endpunkte fehlen, Langzeitdaten über 16 Wochen hinaus ebenfalls."
+   "beleg": "Die Behauptung, GlyNAC kehre Merkmale des Alterns um, geht auf eine Studie mit 24 älteren Erwachsenen über 16 Wochen zurück (Kumar et al., J Gerontol A 2023) – aus einer einzigen Arbeitsgruppe, ohne unabhängige Replikation. Verbessert waren Glutathionstatus, oxidativer Stress, Mitochondrienfunktion sowie Ganggeschwindigkeit und Griffkraft – letztere allerdings als Vorher-Nachher-Vergleiche innerhalb der Gruppen. Dass Glycin und Cystein die Glutathionsynthese speisen, ist etablierte Humanbiochemie; der Sprung von dort zu Aging-Hallmarks ist es nicht. Harte Endpunkte fehlen, Langzeitdaten über 16 Wochen hinaus ebenfalls."
   },
   {
    "id": "lithium-orotat",
@@ -1202,7 +1202,7 @@
    "anwendung": 5,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Für einen Surrogatmarker konsistent, für den beworbenen Rahmen nicht: Ein RCT mit 64 Teilnehmern über vier Monate (Foods 2024) senkte mit 150 Milligramm standardisierter Flavonoide das LDL um 11,5 Prozent und das Gesamtcholesterin um 8,8 Prozent, mehrere kleinere Studien zeigen dasselbe Muster. Kardiovaskuläre Endpunkte – Herzinfarkt, Sterblichkeit – wurden nie untersucht. Genau darin liegt die Lücke der Bezeichnung als natürliches Statin: Statine sind über harte Endpunkte in großen Studien belegt, Bergamotte über Blutwerte in kleinen."
+   "beleg": "Für einen Surrogatmarker konsistent, für den beworbenen Rahmen nicht: Mehrere kleinere Studien senken das LDL, in unabhängigen verblindeten Arbeiten um rund 10 Prozent, und zeigen damit dasselbe Muster. Kardiovaskuläre Endpunkte – Herzinfarkt, Sterblichkeit – wurden nie untersucht. Genau darin liegt die Lücke der Bezeichnung als natürliches Statin: Statine sind über harte Endpunkte in großen Studien belegt, Bergamotte über Blutwerte in kleinen."
   },
   {
    "id": "nattokinase",
@@ -1230,7 +1230,7 @@
    "anwendung": 6,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Der aussagekräftigste Befund kommt vom Hersteller selbst: Der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 freiwillig vom Markt, nachdem eigene Doppelblindstudien keinen Unterschied zu Placebo zeigten. Das systematische Review (Bhagat et al., Int J Surg 2013) findet für keine der beworbenen Anwendungen belastbare Evidenz. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich.",
+   "beleg": "Der aussagekräftigste Befund steht am Ende der Marktgeschichte: Nachdem die Behörde eine Neubewertung verlangt hatte, fand sich in placebokontrollierten Doppelblindstudien kein signifikanter Unterschied – der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 vom Markt, statt neue Studien vorzulegen. Das systematische Review (Bhagat et al., Int J Surg 2013) findet für keine der beworbenen Anwendungen belastbare Evidenz. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich.",
    "berichtslage": {
     "stufe": 1,
     "kurz": "Berichte ja — Hersteller hörte trotzdem auf",
@@ -1729,7 +1729,7 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Seit Jahrzehnten zugelassen und mechanistisch klar: Über den LH-Rezeptor erhält hCG die Leydigzellfunktion. Eine Übersicht (Transl Androl Urol 2018) fasst Studien zusammen, in denen zuvor azoosperme Männer nach im Mittel vier Monaten wieder auf durchschnittlich 22 Millionen Spermien pro Milliliter kamen. Die Kombination mit einer Testosterontherapie zum Fertilitätserhalt ist mechanistisch gut begründet, aber Off-Label. Die als hCG-Diät verbreitete Anwendung zur Gewichtsreduktion hat mit dieser Evidenz nichts zu tun."
+   "beleg": "Seit Jahrzehnten zugelassen und mechanistisch klar: Über den LH-Rezeptor erhält hCG die Leydigzellfunktion. Eine Übersicht (Transl Androl Urol 2018) fasst Studien zusammen, in denen zuvor azoosperme Männer nach im Mittel vier Monaten wieder auf durchschnittlich 22 Millionen Spermien pro Milliliter kamen. Die Kombination mit einer Testosterontherapie zum Fertilitätserhalt ist mechanistisch gut begründet, aber Off-Label. Die als hCG-Diät verbreitete Anwendung zur Gewichtsreduktion ist dagegen widerlegt: 14 randomisierte Studien mit 605 Teilnehmern, in 12 davon kein Vorteil gegenüber Placebo oder Diät allein."
   },
   {
    "id": "pt-141",
@@ -1799,7 +1799,7 @@
    "anwendung": 4,
    "richtung": "positiv",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "REDEFINE 1 (NEJM 2025) randomisierte 3.417 Teilnehmer über 68 Wochen und erreichte 20,4 Prozent Gewichtsreduktion gegenüber 3,0 Prozent unter Placebo, bei voller Therapietreue 22,7 Prozent. Bemerkenswert ist, was danach passierte: Das intern kommunizierte Ziel von 25 Prozent wurde verfehlt, was den Aktienkurs bewegte – die Zahl selbst bleibt eine der höchsten, die je in einer Adipositasstudie erreicht wurde. Die Kombination aus Amylin-Analogon und Semaglutid ist am Menschen bestätigt. Abbruch wegen Nebenwirkungen: 6 gegenüber 3,7 Prozent."
+   "beleg": "REDEFINE 1 (NEJM 2025) randomisierte 3.417 Teilnehmer über 68 Wochen und erreichte 20,4 Prozent Gewichtsreduktion gegenüber 2,3 Prozent unter Placebo, bei voller Therapietreue 22,7 Prozent. Bemerkenswert ist, was danach passierte: Das intern kommunizierte Ziel von 25 Prozent wurde verfehlt, was den Aktienkurs bewegte – die Zahl selbst bleibt eine der höchsten, die je in einer Adipositasstudie erreicht wurde. Die Kombination aus Amylin-Analogon und Semaglutid ist am Menschen bestätigt. Abbruch wegen Nebenwirkungen: 6 gegenüber 3,7 Prozent."
   },
   {
    "id": "amycretin",
@@ -1923,7 +1923,7 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Ein seit Jahrzehnten zugelassenes Diabetesmedikament mit klar verstandener Wirkung – die Hemmung der Alpha-Glukosidase im Darm. Die STOP-NIDDM-Studie zeigte bei gestörter Glukosetoleranz über Jahre eine reduzierte Diabetesinzidenz; die späteren Re-Analysen zum kardiovaskulären Nutzen sind umstritten. Der Gewichtseffekt ist mit ein bis zwei Kilogramm über Monate gering und ein Nebeneffekt, keine Hauptwirkung. In der Longevity-Szene wird die Substanz als Kalorienrestriktions-Mimetikum gehandelt – eine Extrapolation aus Mausdaten."
+   "beleg": "Ein seit Jahrzehnten zugelassenes Diabetesmedikament mit klar verstandener Wirkung – die Hemmung der Alpha-Glukosidase im Darm. Die ACE-Studie mit 6.522 Erwachsenen über im Mittel fünf Jahre senkte die Diabetesinzidenz von 16 auf 13 Prozent, verfehlte den kardiovaskulären Hauptendpunkt aber vollständig: Hazard Ratio 0,98 bei einem p-Wert von 0,73. In der Longevity-Szene wird die Substanz als Kalorienrestriktions-Mimetikum gehandelt – eine Extrapolation aus Mausdaten."
   },
   {
    "id": "canagliflozin",
@@ -1979,7 +1979,7 @@
    "anwendung": 2,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 536 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Eine kleinere Vorgängerstudie hatte zwei bis zweieinhalb Kilogramm mehr Gewichtsverlust gezeigt, was sich nicht bestätigte. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
+   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 536 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
   },
   {
    "id": "bimagrumab",
@@ -2061,7 +2061,7 @@
    "anwendung": 5,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 und 2005 mit 30 Patienten nach ischämischem Schlaganfall, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz.",
+   "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 mit 30 Patienten nach ischämischem Schlaganfall gegen 80 Kontrollen und 2005 mit 187 Patienten, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz. Und die Studienlage gilt für Semax, nicht für das im Handel übliche NA-Semax Amidat.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Wach und fokussiert binnen Minuten",
@@ -2115,7 +2115,7 @@
    "anwendung": 3,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Selten ist so viel klinisch geprüft worden mit so wenig Ergebnis: Die Phase-III-Studie MMPOWER-3 bei primärer mitochondrialer Myopathie (Neurology 2023) verfehlte den primären Endpunkt, die Studien beim Barth-Syndrom ebenfalls – die US-Behörde erteilte 2021 einen ablehnenden Bescheid. Positive Signale gab es in frühen Studien zur trockenen Makuladegeneration, ohne erfolgreiche Zulassungsstudie. Die Stabilisierung der mitochondrialen Membran über Cardiolipin ist mechanistisch plausibel und die Verträglichkeit gut untersucht. Verkauft wird die Substanz trotzdem als belegter Mitochondrien-Fix."
+   "beleg": "Viel geprüft, wenig Ergebnis – und am Ende doch eine Zulassung: Die Phase-III-Studie MMPOWER-3 bei primärer mitochondrialer Myopathie (Neurology 2023) verfehlte beide gleichrangigen Hauptendpunkte. Im September 2025 hat die US-Behörde Elamipretid dennoch für das Barth-Syndrom zugelassen, gestützt auf eine offene Studie ohne Verblindung mit 10 Patienten bei einer Krankheit, die etwa 1 von 350.000 Menschen betrifft. Zur altersbedingten Makuladegeneration läuft ein Programm am Menschen, ein Ergebnis liegt nicht vor. Die Stabilisierung der mitochondrialen Membran über Cardiolipin ist mechanistisch plausibel und die Verträglichkeit gut untersucht. Verkauft wird die Substanz trotzdem als belegter Mitochondrien-Fix."
   },
   {
    "id": "humanin",
@@ -2129,7 +2129,7 @@
    "anwendung": 1,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Es existiert keine publizierte Studie, in der Humanin Menschen als Wirkstoff verabreicht wurde. Was es gibt, sind Messungen des körpereigenen Spiegels: in einer Alzheimer-Bewegungsstudie mit 95 Teilnehmern, in einer Krafttrainingsstudie mit einem Anstieg um 35 Prozent im Muskel nach zwölf Wochen, in einer Studie zur hyperbaren Sauerstofftherapie. Das sind Biomarker, keine Therapieeffekte. Die zytoprotektive Wirkung stammt aus Zell- und Tiermodellen. Sicherheitsdaten fehlen, weil es keine Interventionsstudien gibt."
+   "beleg": "Es existiert keine publizierte Studie, in der Humanin Menschen als Wirkstoff verabreicht wurde. Was es gibt, sind Messungen des körpereigenen Spiegels in verschiedenen Zusammenhängen. Das sind Biomarker, keine Therapieeffekte. Die zytoprotektive Wirkung stammt aus Zell- und Tiermodellen. Sicherheitsdaten fehlen, weil es keine Interventionsstudien gibt."
   },
   {
    "id": "p21",
@@ -2372,14 +2372,14 @@
    "view": "experimental",
    "name": "LL-37",
    "url": "https://biohackingkompakt.de/thema/ll-37.html",
-   "evidenz": 1,
+   "evidenz": 4,
    "mechanismus": 5,
    "sicherheit": 1,
    "hype": 1,
    "anwendung": 1,
    "richtung": "offen",
-   "label": "Nicht am Menschen untersucht",
-   "beleg": "Es gibt genau eine auffindbare Injektionsstudie am Menschen – und sie kommt aus einem ganz anderen Kontext: eine Phase-I-Studie zur intratumoralen Gabe bei Melanompatienten mit Hautmetastasen, publiziert im Journal of Cutaneous Pathology 2018, mit dermatologischer Toxizität als Befund. Zur subkutanen oder systemischen Injektion bei Gesunden zum Immun-Boost wurde nichts gefunden. Die antimikrobielle und immunmodulierende Wirkung der Cathelicidin-Familie ist aus Zellkultur und Tier gut beschrieben, nicht aus der beworbenen Anwendung."
+   "label": "Dünne Humanevidenz",
+   "beleg": "Am Menschen untersucht ist die äußerliche Anwendung auf offenen Wunden: eine kleinere Studie von 2014, eine placebokontrollierte Studie mit 148 Patienten über 13 Wochen, die ihren Hauptendpunkt verfehlte, und eine Studie an diabetischen Fußwunden. Injiziert wurde LL-37 am Menschen nur ein einziges Mal, und das in einem ganz anderen Kontext: eine Phase-I-Studie zur intratumoralen Gabe bei Melanompatienten mit Hautmetastasen, publiziert im Journal of Cutaneous Pathology 2018, mit dermatologischer Toxizität als Befund. Zur subkutanen oder systemischen Injektion bei Gesunden zum Immun-Boost wurde nichts gefunden. Antimikrobielle Wirkung, Immunmodulation und Wundheilung sind gut belegt – nur eben nicht für die beworbene Anwendung."
   },
   {
    "id": "thymosin-alpha-1",
@@ -2979,7 +2979,7 @@
    "anwendung": 5,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Für den Anti-Aging-Einsatz existiert genau eine Studie (Fuentealba et al., Aging Cell 2025, n=42, einfach verblindet) mit einem Surrogatendpunkt – epigenetische Uhren sind selbst nicht als Endpunkt validiert –, und die Interessenkonflikte sind erheblich. Die Sicherheit ist vergleichsweise gut fundiert, aber aus anderen Indikationen: Für die wiederholte Anwendung bei Gesunden über Jahre gibt es keine Daten. Aus rund minus 1,3 Jahren auf einer Uhr wird Verjüngung gemacht.",
+   "beleg": "Für den Anti-Aging-Einsatz existiert genau eine kontrollierte Studie (Fuentealba et al., Aging Cell 2025, n=42, einfach verblindet) mit einem Surrogatendpunkt – epigenetische Uhren sind selbst nicht als Endpunkt validiert –, und die Interessenkonflikte sind erheblich. Die Sicherheit ist vergleichsweise gut fundiert, aber aus anderen Indikationen: Für die wiederholte Anwendung bei Gesunden über Jahre gibt es keine Daten. Eine frühere Arbeit mit 8 Personen hatte keine Kontrollgruppe. Aus rund minus 1,3 Jahren auf einer Uhr wird Verjüngung gemacht – nach sechs Sitzungen war in keiner Gruppe mehr ein Unterschied zur Scheingruppe messbar.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Deutliche Besserung – und Rückfall",
@@ -3019,7 +3019,7 @@
    "anwendung": 3,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Die Quellenlage widerspricht sich offen: Eine Meta-Analyse berichtet Effekte auf Faltentiefe und Haardichte aus 39 gemischten Humanstudien, eine deutsche dermatologische Fachdarstellung sieht dagegen keine randomisierten Studien und stuft die Datenbasis als klein und unstandardisiert ein. Für die systemische Longevity-Anwendung gibt es nichts. Die Sicherheit ist von allen Anwendungen am schlechtesten untersucht. Die US-Behörde stellt klar, dass kein Exosomen-Produkt zugelassen ist."
+   "beleg": "Die Quellenlage widerspricht sich offen: Die ausgewertete Übersicht (Queen und Avram 2025) sichtete 48 Arbeiten; klinische Studien gibt es fast nur zum Haarausfall, 9 Arbeiten mit zusammen 125 Patienten, überwiegend ohne Kontrollgruppe. Für die systemische Longevity-Anwendung gibt es nichts. Die Sicherheit ist von allen Anwendungen am schlechtesten untersucht. Die US-Behörde stellt klar, dass kein Exosomen-Produkt zugelassen ist."
   },
   {
    "id": "stammzelltherapie",
