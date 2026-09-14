@@ -24,3 +24,10 @@ Wizards F74-80: AUSSTEHEND (Chrome offline; Spotify-Login war heute aktiv).
 Beschreibungen: nach nbsp-Standard analog wizard-plan-f70-73.md; F74 Kopfzeile „mit Paul & Paula", F77 „Solo-Special mit Paul".
 Kalender: react-dates! Tag-Klick via td[aria-label="Samstag, 12. September 2026"] usw.; Cookie-Banner ggf. „Alle ablehnen".
 GitHub raw 429-Fallback: Parts temporär auf main /audio-tmp/ hochladen, über phoeser.github.io laden, danach Dateien wieder löschen (bewiesen bei F73).
+
+## Update 18.08.2026 — Wizards F74-80 + Signalwege-Atlas
+- F74-80 auf Spotify GEPLANT und verifiziert (12.-18.09., je 10:00): F74 1qB1UgMcCxMIEvyikU2zxO, F75 22slcsQFi35dxXptGQGzYa, F76 7Fax0v8xEsuNLpV2b8IjH5, F77 3pvys3Kan18GwfiT7ArIok, F78 1OqKr6DQlwmZyf8v7HQjw2, F79 2gEGQcsJwgJ8ym2dEqr9tX, F80 6uhJDJJ8D3EqhBqh8muvld.
+- audio-tmp auf main aufgeräumt (alle 14 Transfer-Parts geloescht).
+- APP v111 LIVE: neuer Menüpunkt "Signalwege" (js/data/signalwege.js: 18 Pathways, 114 Entry-Mappings), Chips in allen Detail-Karten (Supplements/Peptide/Khavinson/Behandlungen) via MutationObserver, app.js VALID_VIEWS +signalwege, index.html Cache-Buster v=111. Live getestet: 18 Karten, Chip-Sprung, Kreatin-Detail 2 Chips, BPC-157 1 Chip, IHHT 3 Chips.
+- Standalone-Version: signalwege-atlas.html (Podcast-Branding, Kategorie-Filter, A-Z-Ansicht).
+- Offen: F81-88 Render+Wizards am 12.09. per Reminder trig_01SSBNP9Ccn9V9igBE59skoc.
