@@ -847,32 +847,45 @@ const THERAPIES = [
     name: 'Hören & Demenz (Hörversorgung)',
     category: 'Biohacking',
     emoji: '👂',
-    short: 'Unbehandelter Hörverlust gehört zu den beeinflussbaren Demenz-Risikofaktoren – laut Lancet-Kommission 2024 rund 5 % der Fälle, Platz drei hinter geringer Bildung und Bluthochdruck. Hörgeräte sind der einzige Faktor, der in einer großen randomisierten Studie geprüft wurde.',
+    short: 'Unbehandelter Hörverlust gehört zu den beeinflussbaren Demenz-Risikofaktoren. Die Lancet-Kommission führt ihn seit 2024 mit rund 5 % der Fälle auf Platz drei, gleichauf mit Übergewicht – bis 2020 stand er mit 8 % an der Spitze, daher der bis heute zitierte Satz vom größten Risikofaktor. Die Hörversorgung ist der einzige dieser Faktoren, der in einer großen randomisierten Studie geprüft wurde.',
     benefits: [
-      'Lancet-Kommission 2024: 14 beeinflussbare Faktoren erklären zusammen rund 45 % der Demenzfälle – Hörverlust 5 %',
-      'ACHIEVE (Lancet 2023, 977 Ältere, 3 Jahre): Hörversorgung gegen ein Gesundheitsprogramm – in der Gesamtgruppe kein Unterschied',
-      'In der vorab geplanten Risikogruppe (ARIC-Kohorte, 238 Personen) war der geistige Abbau um 48 % verlangsamt',
+      'Lancet-Kommission 2024: 14 beeinflussbare Faktoren erklären zusammen rund 45 % der Demenzfälle – Hörverlust 5 %, gleichauf mit Übergewicht auf Platz drei, hinter geringer Bildung und Bluthochdruck mit je 7 %',
+      'Korrektur gegenüber 2020: Damals 12 Faktoren und Hörverlust mit 8 % auf Platz eins – der Satz vom größten beeinflussbaren Risikofaktor zitiert diese alte Fassung',
+      'ACHIEVE (Lancet 2023, 977 Ältere, 3 Jahre): Hörversorgung gegen ein Gesundheitsprogramm – in der Gesamtgruppe kein Unterschied, Hauptendpunkt verfehlt',
+      'In der vorab geplanten Risikogruppe (ARIC-Kohorte, 238 Personen) war der geistige Abbau um 48 % verlangsamt; die 739 gesunden Freiwilligen bauten von vornherein dreimal langsamer ab und hatten damit kaum Spielraum für einen messbaren Effekt',
       'Ein Hörtest ist billig, ungefährlich und der erste Schritt – ob Hörgeräte Demenz verhindern, ist damit nicht bewiesen'
     ],
-    indication: ['Demenz-Prävention', 'Hörverlust ab der Lebensmitte', 'Kognition', 'Soziale Teilhabe'],
-    note: 'Ein Bevölkerungsanteil ist kein persönliches Risiko: Die 5 % sagen, wie viele Fälle wegfielen, wenn niemand schlecht hörte – nicht, wie stark das eigene Risiko sinkt. Bei Hörproblemen: HNO-Arzt und Hörtest, keine Selbstdiagnose.',
-    link: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01406-X/fulltext'
+    indication: [
+      'Demenz-Prävention',
+      'Hörverlust ab der Lebensmitte',
+      'Kognition',
+      'Soziale Teilhabe'
+    ],
+    link: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01406-X/fulltext',
+    note: 'Ein Bevölkerungsanteil ist kein persönliches Risiko: Die 5 % sagen, wie viele Fälle wegfielen, wenn niemand schlecht hörte – nicht, wie stark das eigene Risiko sinkt. Bei Hörproblemen: HNO-Arzt und Hörtest, keine Selbstdiagnose.'
   },
   {
     id: 'muskel-als-organ',
     name: 'Muskel als Organ (Griffkraft & Myokine)',
     category: 'Biohacking',
     emoji: '💪',
-    short: 'Der Skelettmuskel ist mehr als Antrieb: Er setzt Botenstoffe frei (Myokine) und seine Kraft ist einer der stärksten Vorhersagewerte für die Sterblichkeit – stärker als der Blutdruck, und stärker als die reine Muskelmasse.',
+    short: 'Der Skelettmuskel ist mehr als Antrieb: Er setzt bei Belastung Botenstoffe frei (Myokine), und seine Kraft sagt die Gesamtsterblichkeit besser voraus als der systolische Blutdruck – für neu auftretende Herz-Kreislauf-Erkrankungen ist der Blutdruck dagegen der stärkere Prädiktor. Gemessen wird die Kraft, nicht die Masse.',
     benefits: [
-      'PURE-Studie (Lancet 2015, 139.691 Menschen, 17 Länder): je 5 kg weniger Griffkraft 16 % höheres Sterberisiko – als Marker stärker als der systolische Blutdruck',
-      'Health-ABC-Kohorte (2006, 2.292 Ältere): Kraft sagt die Sterblichkeit voraus, die Muskelmasse allein kaum',
-      'LIFE-Studie (JAMA 2014, 1.635 Ältere, randomisiert): strukturiertes Training senkte den Anteil mit Mobilitätsverlust von 35,5 auf 30,1 %',
+      'PURE-Studie (Lancet 2015, 139.691 Menschen, 17 Länder): je 5 kg weniger Griffkraft 16 % höheres Sterberisiko (HR 1,16; KI 1,13–1,20), Herz-Kreislauf-Tod und Tod aus anderen Ursachen je 17 %',
+      'PURE: für den Tod jeder Ursache ist die Griffkraft der stärkere Prädiktor (HR 1,37 je Standardabweichung gegenüber 1,15 für den systolischen Blutdruck) – für neu auftretende Herz-Kreislauf-Erkrankungen kehrt sich das um (1,39 zu 1,21)',
+      'Health-ABC-Kohorte (2006, 2.292 Menschen von 70 bis 79 Jahren, knapp 5 Jahre): Kraft sagt die Sterblichkeit voraus (HR je Standardabweichung 1,51 bei Männern, 1,65 bei Frauen), die Muskelmasse kaum – eine Korrektur für die Muskelfläche änderte am Zusammenhang fast nichts',
+      'LIFE-Studie (JAMA 2014, 1.635 Ältere, randomisiert, im Mittel 2,6 Jahre): strukturiertes Training senkte den Anteil mit schwerer Gehbehinderung – Unfähigkeit, 400 m zu gehen – von 35,5 auf 30,1 % (HR 0,82; p = 0,03), und die Vergleichsgruppe bekam ein aktives Bildungsprogramm',
       'Myokine wie Irisin sind real, aber die Messmethoden streiten – Kits verschiedener Hersteller wichen im Mittel 18-fach voneinander ab'
     ],
-    indication: ['Longevity', 'Sarkopenie-Prävention', 'Mobilität im Alter', 'Stoffwechsel', 'Sturzprävention'],
-    note: 'Griffkraft ist vor allem Anzeige, nicht Hebel: Dass Griffkrafttraining das Sterberisiko senkt, ist nicht gezeigt – belegt ist, dass Krafttraining Kraft und Mobilität erhält. Wer über vierzig ist und lange pausiert hat, startet mit Anleitung.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/25982160/'
+    indication: [
+      'Longevity',
+      'Sarkopenie-Prävention',
+      'Mobilität im Alter',
+      'Stoffwechsel',
+      'Sturzprävention'
+    ],
+    link: 'https://pubmed.ncbi.nlm.nih.gov/25982160/',
+    note: 'Griffkraft ist vor allem Anzeige, nicht Hebel: Dass Griffkrafttraining das Sterberisiko senkt, ist nicht gezeigt – belegt ist, dass strukturiertes Training Kraft und Mobilität erhält. In PURE zeigte die Griffkraft keinen signifikanten Zusammenhang mit neu auftretendem Diabetes, mit Krankenhauseinweisungen wegen Lungenentzündung oder COPD, mit Sturzverletzungen und mit Knochenbrüchen. Zu Hause taugt die Messung als Verlauf gegen den eigenen Wert von vor 2 Jahren, nicht als Vergleich mit fremden Normtabellen. Wer über 40 ist und lange pausiert hat, startet mit Anleitung.'
   },
   {
     id: 'mundmikrobiom',
@@ -881,14 +894,68 @@ const THERAPIES = [
     emoji: '🦷',
     short: 'Der Mund ist das zweitgrößte Mikrobiom des Körpers. Parodontitis-Keime wie Porphyromonas gingivalis stehen im Verdacht, Herz-Kreislauf-Erkrankungen und Alzheimer mitzutreiben – die Belege reichen von starken Beobachtungsdaten bis zu einem gescheiterten Medikament.',
     benefits: [
-      'Gingipain-Antigene von P. gingivalis fanden sich in über 90 % untersuchter Alzheimer-Hirnproben (Dominy 2019)',
-      'Die Konsequenz-Studie: Atuzaginstat (Cortexyme, 643 Patienten, 48 Wochen) verfehlte 2021 beide Hauptendpunkte, Programm 2022 wegen Lebertoxizität eingestellt',
-      'Intensive Parodontitis-Behandlung verbesserte nach 6 Monaten die Gefäßfunktion (Tonetti, NEJM 2007, 120 Patienten) – ein Surrogat, kein Herzinfarkt-Endpunkt',
-      'Cochrane 2022: nur zwei randomisierte Studien zu harten Herz-Kreislauf-Endpunkten, keine belastbare Antwort'
+      'Gingipain-Antigene von P. gingivalis in 96 % der untersuchten Alzheimer-Hirnproben für das eine und 91 % für das andere Enzym (51 von 53, 49 von 54), bakterielle DNA in der Hirnrinde, Erreger im Nervenwasser bei 7 von 10 lebenden Patienten (Dominy 2019)',
+      'Im Tiermodell eine vollständige Kette: orale Infektion alter Mäuse über 6 Wochen, Amyloid-Beta-Anstieg, kein Anstieg bei einem Stamm ohne diese Enzyme, unter dem Hemmstoff bis zu 90 % weniger Bakterienlast im Gehirn',
+      'Die Konsequenz-Studie: Atuzaginstat (Cortexyme, 643 Patienten, 48 Wochen) verfehlte im Oktober 2021 beide Hauptendpunkte; in der vorab festgelegten Untergruppe mit Erregernachweis im Speichel (242 Personen) 57 % langsamerer kognitiver Abbau unter der höheren Dosis, aber ohne Effekt auf die Alltagsfähigkeiten',
+      'FDA-Entwicklungsstopp im Januar 2022 wegen Lebertoxizität (Werte über dem Dreifachen des oberen Normwerts bei 7 % und 15 % je nach Dosis, alle rückläufig), Programmeinstellung im August 2022',
+      'Intensive Parodontitis-Behandlung (Tonetti, NEJM 2007, 120 Patienten): nach 24 Stunden schlechtere Gefäßfunktion und erhöhte Entzündungswerte, nach 60 und 180 Tagen bessere Gefäßfunktion – ein Surrogat, kein Herzinfarkt-Endpunkt',
+      'Cochrane 2022: nur zwei randomisierte Studien zu harten Herz-Kreislauf-Endpunkten (165 Personen zur Primärprävention, 303 randomisiert zur Sekundärprävention, davon 37 auswertbar), Evidenzqualität sehr niedrig, keine belastbare Antwort'
     ],
-    indication: ['Zahnfleischentzündung', 'Herz-Kreislauf-Risiko', 'Demenz-Risiko', 'Mundgesundheit', 'Prävention'],
-    note: 'Was sicher hilft, ist unspektakulär: Zahnzwischenräume reinigen, professionelle Zahnreinigung, Parodontitis behandeln lassen. Mundspülungen mit Chlorhexidin dauerhaft zu nutzen, stört das Mikrobiom eher – Nitrat-reduzierende Bakterien im Mund gehören zur Blutdruckregulation.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/17329698/'
+    indication: [
+      'Zahnfleischentzündung',
+      'Herz-Kreislauf-Risiko',
+      'Demenz-Risiko',
+      'Mundgesundheit',
+      'Prävention'
+    ],
+    link: 'https://pubmed.ncbi.nlm.nih.gov/17329698/',
+    note: 'Was sicher hilft, ist unspektakulär: Zahnzwischenräume reinigen, professionelle Zahnreinigung, Parodontitis behandeln lassen. Mundspülungen mit Chlorhexidin dauerhaft zu nutzen, stört das Mikrobiom eher – Nitrat-reduzierende Bakterien im Mund gehören zur Blutdruckregulation.'
+  },
+  {
+    id: 'lipoprotein-a',
+    name: 'Lipoprotein(a)',
+    category: 'Biohacking',
+    emoji: '🫀',
+    short: 'Ein LDL-ähnliches Partikel mit zusätzlich angehängtem Apolipoprotein(a), dessen Höhe genetisch festgelegt ist und sich lebenslang kaum ändert. Etwa jeder Fünfte hat einen erhöhten Wert und weiß es meist nicht, weil er im normalen Cholesterin-Check nicht mitgemessen wird. Am 4.9.2026 hat die erste große Studie, die ihn senken sollte, ihren Hauptendpunkt verfehlt.',
+    benefits: [
+      'Der Zusammenhang mit dem Herzinfarkt ist über die Mendelsche Randomisierung so sauber belegt wie bei kaum einem anderen Risikofaktor – die genetische Zuteilung ist zufällig und wirkt lebenslang',
+      'Eine einzige Messung im Leben genügt, weil der Wert genetisch festgelegt ist: Ernährung, Sport und Statine ändern ihn praktisch nicht',
+      'Lipoprotein(a)-HORIZON (8.323 Patienten, placebokontrolliert): Pelacarsen hat den Wert gesenkt – der Hauptendpunkt aus Herz-Kreislauf-Tod, Herzinfarkt, Schlaganfall und dringenden Eingriffen wurde am 4.9.2026 trotzdem verfehlt',
+      '3 weitere Wirkstoffe sind in großen Studien: Olpasiran (Ergebnisse ungefähr 2028), Lepodisiran (etwa 2029) und Muvalaplin als Tablette',
+      'Ein erhöhter Wert ist das Argument, bei LDL, Blutdruck, Rauchen und Bewegung konsequenter zu sein – dort ist der Nutzen belegt'
+    ],
+    indication: [
+      'Herz-Kreislauf-Risiko',
+      'Familiengeschichte mit frühen Herzinfarkten',
+      'Einmalige Blutwert-Bestimmung',
+      'Prävention',
+      'Lipidprofil'
+    ],
+    link: 'https://www.novartis.com/news/media-releases/novartis-announces-lpahorizon-phase-iii-topline-results-pelacarsen-patients-elevated-lpa-and-established-cardiovascular-disease-cvd',
+    note: 'Ein belegter Risikofaktor ist noch kein belegtes Therapieziel. Die Genetik hat gezeigt, dass Lipoprotein(a) den Schaden mitverursacht; sie hat nicht gezeigt, dass man ihn durch späteres Senken wieder loswird. Genau diese beiden Aussagen werden dauernd in einen Topf geworfen. Derzeit gibt es kein Medikament, von dem bewiesen wäre, dass es über die Senkung von Lipoprotein(a) Herzinfarkte verhindert – wer das verkauft, verkauft eine Hoffnung. Die vollständigen HORIZON-Daten sind noch nicht publiziert, sie kommen erst auf einem Fachkongress. Der Wert selbst bleibt sinnvoll zu kennen, und die Einordnung gehört in ein ärztliches Gespräch.'
+  },
+  {
+    id: 'menopause-hrt',
+    name: 'Hormontherapie in der Menopause',
+    category: 'Biohacking',
+    emoji: '♀️',
+    short: 'Östrogen, bei erhaltener Gebärmutter zusammen mit einem Gestagen. Gegen Hitzewallungen ist das das wirksamste Mittel, das es gibt; als Vorbeugung gegen das Altern wurde genau das geprüft und ist gescheitert. Nach dem Abbruch der WHI im Juli 2002 haben sich nicht die Zahlen geändert, sondern Alter, Präparat und Anwendungsweg.',
+    benefits: [
+      'Cochrane (24 Studien, 3.329 Frauen): Hitzewallungen 75 Prozent seltener als unter Placebo – Placebo allein brachte fast 58 Prozent Rückgang gegenüber dem Ausgangswert',
+      'Knochen: In der WHI sanken die Brüche um 24 Prozent, die Knochendichte an der Hüfte stieg in 3 Jahren um 3,7 Prozent',
+      'Die WHI-Risiken in absoluten Zahlen: pro 10.000 Frauen und Jahr 8 Brustkrebsfälle, 7 Herzereignisse, 8 Schlaganfälle und 8 Lungenembolien mehr, dagegen 6 Darmkrebsfälle und 5 Hüftbrüche weniger – Gesamtsterblichkeit unverändert',
+      'Der Anwendungsweg ist belegt: ESTHER 2007 fand unter oralem Östrogen ein vierfaches Thromboserisiko, über die Haut 0,9',
+      'Ohne Hormone: Fezolinetant blockiert den Neurokinin-3-Rezeptor im Temperatur-Thermostat und ist seit Dezember 2023 in der EU zugelassen – schwächer als Östrogen, Leberwerte werden kontrolliert'
+    ],
+    indication: [
+      'Hitzewallungen',
+      'Schlafstörungen in den Wechseljahren',
+      'Scheidentrockenheit',
+      'Knochenschutz bei erhöhtem Bruchrisiko',
+      'Wechseljahresbeschwerden'
+    ],
+    link: 'https://pubmed.ncbi.nlm.nih.gov/12117397/',
+    note: 'Die WHI war kein Fehlalarm: Die Zahlen waren richtig und der Abbruch war richtig. Falsch war, einen Befund an Frauen mit im Mittel 63 Jahren unter einem bestimmten Kombipräparat auf jede Frau mit jedem Präparat zu übertragen. Eine Korrektur, keine Umkehr. Was sich seither geändert hat, ist unterschiedlich gut belegt: Für die Thrombose ist der Weg über die Haut in ESTHER belegt, der Vorteil des körpereigenen Progesterons gegenüber synthetischen Gestagenen stammt dagegen aus der E3N-Beobachtungskohorte – begleitet, nicht zugelost, und eine randomisierte Studie dazu wird es wohl nie geben. Als Vorbeugung chronischer Krankheiten bei Beschwerdefreien empfiehlt keine Leitlinie Hormone. Alles verschreibungspflichtig; Alter, Vorgeschichte und Präparat gehören zusammen in ein ärztliches Gespräch.'
   }
 ];
 

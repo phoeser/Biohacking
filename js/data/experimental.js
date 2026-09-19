@@ -967,19 +967,25 @@ const EXPERIMENTAL = [
     ],
     risks: [
       'Verschreibungspflichtig – gehört ärztlich begleitet (Blutwerte, Östradiol).',
-      'Mögliche Nebenwirkungen: Sehstörungen (selten), Stimmungsschwankungen, Kopfschmerzen.',
+      'Mögliche Nebenwirkungen: Sehstörungen (selten), Stimmungsschwankungen, Kopfschmerzen. In den Phase-3-Studien wurden bei 21 % Nebenwirkungen gemeldet, keine schwere, kein Unterschied zwischen den Gruppen.',
       'Wirkt nur bei intakter Hypothalamus-Hypophysen-Hoden-Achse (sekundärer Hypogonadismus).',
-      'In DE nicht breit zugelassen – Bezug oft über Graumarkt (ungeprüft).',
-      'Die FDA lehnte die Zulassung am 1.12.2015 ab: Das Studiendesign belege keinen klinischen Nutzen. Ob Männer sich damit besser fühlen, haben nur 2 von 10 Studien überhaupt erhoben.'
+      'In DE nicht zugelassen – Bezug oft über Graumarkt (ungeprüft).',
+      'Die FDA lehnte die Zulassung am 1.12.2015 ab: Das Design der Phase-3-Studien sei nicht mehr geeignet, einen klinischen Nutzen zu belegen, dazu drei Beanstandungen zu Einschlusskriterien, Dosistitration und Validierung der Messmethode. Ob Männer sich damit besser fühlen, haben nur 2 von 10 Studien überhaupt erhoben.',
+      'Schlechtere Sicherheitsdatenlage als die klassische Testosterontherapie – nicht weil die Substanz gefährlicher wäre, sondern weil niemand lange genug hingeschaut hat: 256 Männer über 16 Wochen gegenüber 5246 Männern über etwa 33 Monate (TRAVERSE). Die Übersichtsarbeit nennt ihre eigene Sicherheitsanalyse unterpowert.',
+      'Dopingrelevant: Clomifen steht auf der Verbotsliste der Welt-Anti-Doping-Agentur unter den Hormon- und Stoffwechselmodulatoren; das US-Verteidigungsministerium führt beide Substanzen auf seiner Verbotsliste.'
     ],
-    status: 'In den USA als Off-Label-/Compounding-Option verbreitet; in DE nicht breit zugelassen. Verschreibungspflichtig.',
+    status: 'Enclomifen ist nirgends als Arzneimittel zugelassen – auch nicht in den USA. Was dort angeboten wird, läuft über Rezepturherstellung, weil der Stoff Bestandteil des zugelassenen Clomifens ist. In DE ist Clomifen zugelassen, aber für die Auslösung des Eisprungs bei Frauen; für Männer mit niedrigem Testosteron gibt es keine Zulassung. Im Netz wird die Substanz als Forschungschemikalie deklariert, nicht zum menschlichen Verzehr.',
     sources: [
-      { title: 'FormBlends – hCG vs. Enclomiphen: Fruchtbarkeit', url: 'https://formblends.com/articles/trt-hub/hcg-vs-enclomiphene-fertility-preservation' },
-      { title: 'Peptides.org – Men Hormone Optimization', url: 'https://www.peptidejournal.org/guides/mens-hormone-optimization-peptides-complete-guide' }
+      { title: 'Kim et al., BJU International 2016 — zwei parallele, randomisierte, doppelblinde Phase-3-Studien zu Enclomifen, 256 Männer, 16 Wochen, Vergleich gegen Testosteron-Gel und Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/26496621/' },
+      { title: 'Hohl et al., Archives of Endocrinology and Metabolism 2025 — Übersichtsarbeit über 10 randomisierte Studien zu Clomifen und Enclomifen, 819 Männer – Gesamttestosteron +274 ng/dl gegenüber Placebo, Unterschied zum Gel 5,4 ng/dl (p = 0,83)', url: 'https://pubmed.ncbi.nlm.nih.gov/41066380/' },
+      { title: 'TRAVERSE (Lincoff et al., NEJM 2023) – kardiovaskuläre Sicherheit der Testosterontherapie, 5246 Männer, etwa 33 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/37326322/' },
+      { title: 'Ablehnungsbescheid der US-Zulassungsbehörde vom 1.12.2015', url: 'https://www.sec.gov/Archives/edgar/data/897075/000117184315006596/newsrelease.htm' },
+      { title: 'Verbotsliste der Welt-Anti-Doping-Agentur – Hormon- und Stoffwechselmodulatoren', url: 'https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/prohibited-list' }
     ],
     community: [
       { title: 'ExcelMale – Community-Diskussionen zu Hormonoptimierung', url: 'https://www.excelmale.com/' }
-    ]
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'kisspeptin',
@@ -2481,27 +2487,34 @@ const EXPERIMENTAL = [
     class: 'Senolytische Kombination (Tyrosinkinase-Inhibitor + Flavonoid)',
     emoji: '🧨',
     short: 'Die klassische „Zombie-Zell-Kur" der Longevity-Forschung: räumt seneszente Zellen gepulst aus dem Gewebe – nur wenige Tage im Monat, mit spannenden ersten Studiendaten.',
-    moa: 'Dasatinib blockiert pro-survival Pathways (Ephrin-Tyrosinkinasen). Quercetin hemmt BCL-2/PI3K-Pathways. Senstene Zellen sind auf diese „SCAPs" angewiesen und sterben.',
+    moa: 'Dasatinib blockiert pro-survival Pathways (Ephrin-Tyrosinkinasen). Quercetin hemmt BCL-2/PI3K-Pathways. Seneszente Zellen sind auf diese „SCAPs" angewiesen und sterben. Weil verschiedene seneszente Zelltypen an verschiedenen Überlebenswegen hängen, wird kombiniert; weil sich die Zellen erst über Wochen neu ansammeln, wird gepulst statt täglich dosiert („hit and run").',
     benefits: [
-      'Reduziert seneszente Zellen in Fettgewebe und Lunge – Mausdaten und erste sehr kleine Humanstudien',
-      'Erste klinische Studie bei IPF zeigt Verbesserung der körperlichen Funktion',
-      'Pulsförmige Anwendung minimiert Toxizität',
-      'Mausstudien: längere Healthspan'
+      'Mechanismus am Menschen belegt: 9 Personen mit diabetischer Nierenerkrankung, 3 Tage Einnahme, 11 Tage später 35 % weniger seneszente Zellen im Fettgewebe, ein weiterer Marker −62 %, Entzündungsfresszellen −28 %, dazu gesunkene Entzündungsstoffe im Blut',
+      'Offene Studie bei Lungenfibrose (14 Teilnehmer) zeigte bessere körperliche Funktion – die randomisierte, einfach verblindete Folgestudie derselben Gruppe (12 Teilnehmer) fand keinen bedeutsamen Unterschied mehr',
+      'Affen mittleren Alters (9 behandelt, 7 Kontrolle, 6 Monate, 2 Tage pro Monat): weniger Seneszenzmarker im Fettgewebe, entzündungshemmende Verschiebungen, bessere Nierenwerte, keine schweren Nebenwirkungen',
+      'Mausmodell 2016: gezielte Entfernung seneszenter Zellen per Genschalter verlängerte die mittlere Lebenszeit um rund 18 % bzw. 9 % – das war ein Genschalter, kein Medikament, und die maximale Lebensspanne stieg nicht'
     ],
     risks: [
       'Dasatinib ist ein verschreibungspflichtiges Krebsmedikament – die Anwendung gehört unbedingt in ärztliche Hände.',
+      'Laut Fachinformation sehr häufig (mehr als jeder 10.): Pleuraerguss, Knochenmarksuppression mit Blutarmut sowie Mangel an weißen Blutkörperchen und Blutplättchen, Blutungen. Gelegentlich (seltener als 1 von 100): pulmonale arterielle Hypertonie und QT-Verlängerung. Diese Zahlen stammen aus täglicher Dauergabe bei Leukämiekranken.',
+      'Für die gepulste senolytische Anwendung existiert keine Sicherheitsdatenbank: 60 Frauen über 20 Wochen, ein paar Dutzend weitere Menschen über wenige Wochen, 16 Affen.',
+      'In der placebokontrollierten Lungenfibrose-Studie 65 nicht schwere Nebenwirkungen gegen 22 unter Placebo; Schlafstörungen und Unruhe bei 4 von 6 Behandelten gegen 0 von 6.',
       'Relevante Wechselwirkungen möglich; nicht in Eigenregie.',
       'Quercetin kann die Eisenaufnahme senken.'
     ],
-    status: 'Dasatinib in DE für Leukämien zugelassen (Sprycel); senolytische Nutzung ist Off-Label – nur ärztlich.',
+    status: 'Dasatinib ist in DE bei Leukämien zugelassen (Sprycel). Für die senolytische Anwendung gegen Alterungsprozesse gibt es keine Zulassung – kein Arzt kann Dasatinib gegen Altern verordnen; was in der Szene kursiert, kommt aus dem Ausland oder aus einem Off-Label-Graubereich. Quercetin allein ist frei verkäuflich, ist aber nicht das Protokoll.',
     sources: [
-      { title: 'Justice JN et al., EBioMedicine 2019 – D+Q in IPF', url: 'https://pubmed.ncbi.nlm.nih.gov/30616998/' },
-      { title: 'Hickson LJ et al., EBioMedicine 2019 – D+Q in CKD', url: 'https://pubmed.ncbi.nlm.nih.gov/31542391/' }
+      { title: 'Hickson LJ et al., EBioMedicine 2019 – D+Q bei diabetischer Nierenerkrankung (9 Teilnehmer)', url: 'https://pubmed.ncbi.nlm.nih.gov/31542391/' },
+      { title: 'Justice JN et al., EBioMedicine 2019 – offene Studie bei Lungenfibrose (14 Teilnehmer)', url: 'https://pubmed.ncbi.nlm.nih.gov/30616998/' },
+      { title: 'Nambiar A et al., EBioMedicine 2023 – randomisierte, einfach verblindete Folgestudie bei Lungenfibrose (12 Teilnehmer) – kein bedeutsamer Unterschied in der körperlichen Funktion', url: 'https://pubmed.ncbi.nlm.nih.gov/36857968/' },
+      { title: 'Gonzales MM et al., Nature Medicine 2023 – Phase-1-Studie bei Alzheimer (5 Teilnehmer, 12 Wochen)', url: 'https://pubmed.ncbi.nlm.nih.gov/37679434/' },
+      { title: 'Farr JN et al., Nature Medicine 2024 – Knochenstoffwechsel, 60 Frauen, 20 Wochen, primärer Endpunkt verfehlt', url: 'https://pubmed.ncbi.nlm.nih.gov/38956196/' },
+      { title: 'Baker DJ et al., Nature 2016 – genetische Entfernung seneszenter Zellen bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/26840489/' }
     ],
     community: [
-      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'biolabshop (Dasatinib/Quercetin)', url: 'https://biolabshop.de/' }
-    ]
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
+    ],
+    filterCat: 'Longevity'
   },
   {
     id: 'methylene-blue',
@@ -2870,6 +2883,196 @@ const EXPERIMENTAL = [
     community: [
       { title: 'INCI/Kosmetik-Datenbank – Palmitoyl Pentapeptide-4', url: 'https://incidecoder.com/ingredients/palmitoyl-pentapeptide-4' }
     ]
+  },
+  {
+    id: 'hmg',
+    name: 'HMG (humanes Menopausen-Gonadotropin)',
+    altNames: 'Humanes Menopausengonadotropin, Menotropin, hMG, Menopausen-Gonadotropin',
+    class: 'Gonadotropin-Präparat aus menschlichem Urin, mit FSH- und LH-Wirkung',
+    emoji: '💉',
+    short: 'Aus dem Urin von Frauen nach den Wechseljahren gewonnenes Hormonpräparat, das FSH- und LH-Wirkung zugleich liefert und seit 1961 in der Kinderwunschmedizin eingesetzt wird. In der Szene dient es nach Steroidkuren dazu, die abgeschaltete eigene Achse wieder anzustoßen, weil HCG allein nur das Testosteronsignal zurückbringt.',
+    moa: 'HMG (75 Einheiten FSH + 75 Einheiten LH-Wirkung) → Stimulation von Eierstock bzw. Hoden → Reifung von Eibläschen bzw. Testosteronproduktion und Spermienbildung',
+    benefits: [
+      'Liefert als einziges der gängigen Präparate beide Signale: FSH für die Spermienbildung bzw. Follikelreifung und LH-Wirkung für die Hormonproduktion',
+      'Etabliert in der Kinderwunschmedizin bei Frauen und bei Männern mit Hormonmangel',
+      'Kombinationen aus HCG und FSH-haltigen Präparaten sind in der Andrologie zur Wiederherstellung der Fruchtbarkeit gängige Praxis',
+      'Seit über 60 Jahren im klinischen Einsatz, mit bekannter Zusammensetzung und bekannter Hauptkomplikation'
+    ],
+    risks: [
+      'Überstimulationssyndrom als gefürchtete Komplikation: Flüssigkeit im Bauchraum, Thrombosen, im schweren Fall Krankenhausaufenthalt',
+      'Medizinisch nur mit engmaschiger Kontrolle per Ultraschall und Blutwerten vertretbar; auf dem Graumarkt läuft die Anwendung ohne einen einzigen Laborwert',
+      'Die Rückkehr der eigenen Achse ist weder garantiert noch schnell — nach Nandrolon hält die Unterdrückung teils über ein Jahr an',
+      'Als biologisches Vielstoffgemisch analytisch schwer prüfbar: ob eine Ampulle wirklich 75 Einheiten FSH-Wirkung entfaltet, ist eine andere Messung als eine einfache Mengenbestimmung'
+    ],
+    status: 'In Deutschland zugelassenes, verschreibungspflichtiges Arzneimittel mit Anwendungsgebieten in der Fortpflanzungsmedizin. Der Einsatz nach einer Steroidkur ist davon nicht abgedeckt und findet außerhalb des zugelassenen Rahmens statt, meist über den Graumarkt. Im organisierten Sport gelten zusätzlich die dortigen Dopingbestimmungen, unabhängig vom Arzneimittelrecht.',
+    sources: [
+      { title: 'Gewinnungsverfahren für humanes Menopausen-Gonadotropin, Erstbeschreibung 1949', url: '' },
+      { title: 'Klinische Einführung von HMG in der Fertilitätsbehandlung, 1961', url: '' },
+      { title: 'Fachinformation zu HMG-Präparaten mit 75 Einheiten FSH und 75 Einheiten LH-Wirkung', url: 'https://www.medicines.org.uk/emc/product/1294/smpc' },
+      { title: 'Leitlinie der American Society for Reproductive Medicine (Fertility and Sterility 2016) — ovarielles Überstimulationssyndrom als Komplikation der Gonadotropin-Behandlung', url: 'https://pubmed.ncbi.nlm.nih.gov/27678032/' },
+      { title: 'Muir et al., Clinical Endocrinology 2025 — Metaanalyse zur Gonadotropin-Therapie mit HCG und FSH-haltigen Präparaten in der Andrologie', url: 'https://pubmed.ncbi.nlm.nih.gov/39445789/' },
+      { title: 'Dauer der Achsenunterdrückung nach Nandrolon', url: '' }
+    ],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'klotho',
+    name: 'Klotho',
+    altNames: 'Alpha-Klotho, sKlotho, lösliches Klotho, KL',
+    class: 'Körpereigenes Protein und zirkulierendes Hormon, Longevity-Kandidat ohne Zulassung',
+    emoji: '🧬',
+    short: 'Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird und im Blut zirkuliert. Mäuse ohne Klotho altern rasend schnell, Mäuse mit von der Befruchtung an hochgedrehtem Gen leben 19 bis gut 30 Prozent länger. Am Menschen gibt es bisher nur Beobachtungsdaten, keine einzige reguläre Studie mit Klotho als Medikament.',
+    moa: 'Klotho zirkuliert als Hormon im Blut → dämpft Insulin- und IGF-1-Signale → in der Maus verlangsamtes Altern und längere Lebenszeit; am Menschen ist diese Kette nicht geprüft.',
+    benefits: [
+      'Überexpression verlängerte in zwei unabhängigen Mauslinien die Lebenszeit: Männchen 20 und gut 30 Prozent, Weibchen rund 19 Prozent (Science 2005)',
+      'Träger einer Kopie der Genvariante KL-VS schnitten in Kognitionstests besser ab (718 Menschen, drei Kohorten, Cell Reports 2014)',
+      'Hohe Klothowerte im Blut gingen bei Älteren mit niedrigerer Sterblichkeit einher; das unterste Drittel hatte ein rund 78 Prozent höheres Sterberisiko als das oberste (InCHIANTI, 804 Menschen ab 65, 6 Jahre, 2011)',
+      'Eine einmalige Injektion bei 9 von 18 alten Rhesusaffen verbesserte das Gedächtnis für 2 Wochen (Nature Aging 2023)'
+    ],
+    risks: [
+      'Zur Sicherheit am Menschen liegen praktisch keine Daten vor, weil es praktisch keine Anwendung gab: keine kontrollierten Verträglichkeitsdaten, keine Langzeitbeobachtung',
+      'Die Humangenetik widerspricht sich: zwei Kopien von KL-VS sind mit kürzerer Lebenszeit verknüpft, und in einer schottischen Geburtskohorte sowie einer dänischen Studie mit 1480 Hochbetagten schnitten Träger schlechter ab',
+      'Angebote außerhalb jeder Zulassung, etwa 2 Pilotstudien mit je 14 Menschen in Roatán in Honduras als Plasmid-Gentherapie, laufen ohne Placebo, ohne Verblindung und ohne veröffentlichte Ergebnisse',
+      'Als Klotho-Booster verkaufte Kapseln enthalten kein Klotho; ein Protein dieser Größe wird verdaut, und der Nutzen eines angehobenen Blutwerts ist ungeprüft'
+    ],
+    status: 'In Deutschland, der EU und den USA ist kein Klotho-Präparat zugelassen; es gibt weder eine verordnungsfähige Form noch einen legalen Bezugsweg. Bis heute hat kein Mensch in einer regulären Studie Klotho als Medikament bekommen. Die Nachfolgefirma der Affenarbeit will den Antrag für eine erste Humanstudie Ende 2026 einreichen, Studienstart wäre Anfang 2027. Als Nahrungsergänzung verkaufte Klotho-Booster fallen unter das Lebensmittelrecht, enthalten kein Klotho und dürfen keine Heilversprechen tragen.',
+    sources: [
+      { title: 'Kuro-o et al., Nature 1997 — Genausfall erzeugt Alterssyndrom in der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/9363890/' },
+      { title: 'Kurosu et al., Science 2005 — Klotho-Überexpression, zwei Mauslinien leben länger', url: 'https://pubmed.ncbi.nlm.nih.gov/16123266/' },
+      { title: 'Semba et al., InCHIANTI-Kohorte, Toskana 2011 — Klotho im Blut und Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/21474560/' },
+      { title: 'Dubal et al., Cell Reports 2014 — Genvariante KL-VS und Kognition', url: 'https://pubmed.ncbi.nlm.nih.gov/24813892/' },
+      { title: 'Castner et al. (Labor Dubal), Nature Aging 2023 — Klotho-Injektion bei Rhesusaffen', url: 'https://pubmed.ncbi.nlm.nih.gov/37400721/' }
+    ],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'nandrolon',
+    name: 'Nandrolon-Decanoat',
+    altNames: 'Deca-Durabolin, Nandrolondecanoat, Deca, Nandrolon',
+    class: 'Anabol-androgenes Steroid, verestertes Testosteronderivat mit zusätzlich gestagener Wirkung',
+    emoji: '💉',
+    short: 'Nandrolon-Decanoat ist ein anabol-androgenes Steroid, beschrieben 1960 und ab 1962 in der Medizin. Die Wirkung ist seit 60 Jahren belegt und unbestritten: Gewebeaufbau und Anregung der Blutbildung. Dieselbe lange Datenlage zeigt die Schäden, und genau deshalb wurden die Anwendungsgebiete Schritt für Schritt gestrichen.',
+    moa: 'Nandrolon bindet am Androgenrezeptor → gesteigerter Gewebeaufbau und vermehrte Bildung roter Blutkörperchen bei günstigem Verhältnis von aufbauender zu vermännlichender Wirkung → zugleich Rückkopplung auf die Hormonachse mit Abschaltung der eigenen Testosteronproduktion, dazu gestagene Effekte.',
+    benefits: [
+      'Belegter Gewebeaufbau: seit 60 Jahren unbestritten, Grundlage der medizinischen Anwendung',
+      'Anregung der Bildung roter Blutkörperchen, daher Zulassung bei Blutarmut infolge chronischen Nierenversagens',
+      'Zulassung bei Osteoporose nach den Wechseljahren, in der Vorgeschichte auch bei Auszehrung durch HIV und bestimmten Formen des Brustkrebses als lindernde Behandlung',
+      'Günstiges Verhältnis von aufbauender zu vermännlichender Wirkung — der Grund für den medizinischen Einsatz',
+      'Arzneibuchware mit festgelegten Dosierungen und Qualitätsanforderungen statt Graumarktpräparat'
+    ],
+    risks: [
+      'Herz und Gefäße: Förderung der Arterienverkalkung; laut Sicherheitsinformationen kann Nandrolon auch in üblicher Dosierung eine Herzschwäche auslösen, nicht erst bei Missbrauch',
+      'Leber: Peliosis hepatis mit möglichem Leberversagen sowie Lebertumoren, teils bösartig',
+      'Hormonell: Abschaltung der eigenen Testosteronproduktion, Hodenschrumpfung, fallende Spermienzahl, Erektionsstörungen, Wassereinlagerungen und Brustwachstum beim Mann; bei Frauen Zyklusstörungen, Haarwuchs, Haarausfall nach männlichem Muster, Vergrößerung der Klitoris und eine ausdrücklich nicht rückbildungsfähige Stimmvertiefung',
+      'Psychisch: Stimmungsschwankungen, Reizbarkeit, Aggressivität und Depression, oft nach dem Absetzen, wenn die eigene Produktion noch am Boden liegt'
+    ],
+    status: 'Zugelassenes und verschreibungspflichtiges Arzneimittel, bekanntester Handelsname Deca-Durabolin. Die Anwendungsgebiete wurden ab den 1970er Jahren stark eingeengt, der Verkauf in vielen Ländern eingestellt, die Verfügbarkeit ist entsprechend begrenzt. Was außerhalb von Rezept und Apotheke gehandelt wird, ist Graumarktware ohne die Qualitätsanforderungen des Arzneibuchs. Im Sport steht Nandrolon auf der Verbotsliste, es ist eines der bekanntesten Dopingmittel überhaupt und bleibt sehr lange nachweisbar.',
+    sources: [
+      { title: 'Sicherheitsinformationen zu Nandrolon-Decanoat (Deca-Durabolin), Fachinformation des niederländischen Arzneimittelinstituts', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
+      { title: 'Zugelassene Anwendungsgebiete: renale Blutarmut und Osteoporose nach den Wechseljahren (Fachinformation Deca-Durabolin)', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
+      { title: 'Anabol-androgene Steroide und Arterienverkalkung — Baggish et al., Circulation 2017', url: 'https://pubmed.ncbi.nlm.nih.gov/28533317/' },
+      { title: 'Peliosis hepatis und Lebertumoren unter anabol-androgenen Steroiden — Petrovic et al., World Journal of Gastroenterology 2022', url: 'https://pubmed.ncbi.nlm.nih.gov/36051334/' },
+      { title: 'Nicht rückbildungsfähige Virilisierung bei Frauen, insbesondere Stimmvertiefung (Fachinformation Deca-Durabolin)', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
+      { title: 'Verbotsliste im Sport: anabol-androgene Steroide (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'partielle-reprogrammierung',
+    name: 'Partielle Reprogrammierung (Yamanaka-Faktoren)',
+    altNames: 'Yamanaka-Faktoren, OSKM, OSK, zelluläre Reprogrammierung, epigenetische Reprogrammierung, ER-100',
+    class: 'Gentherapeutisches Verfahren mit Transkriptionsfaktoren, experimentell, ohne Zulassung',
+    emoji: '🔄',
+    short: 'Die vier Yamanaka-Faktoren Oct-4, Sox-2, Klf-4 und c-Myc setzen eine ausgereifte Körperzelle in den Stammzellzustand zurück. Partielle Reprogrammierung schaltet sie nur kurz an und rechtzeitig wieder aus, sodass Gewebe im Tierversuch verjüngt, statt zum Tumor zu werden. Am Menschen läuft seit dem 2. März 2026 eine erste Sicherheitsstudie mit 18 Teilnehmern.',
+    moa: 'Kurzzeitige Expression der Faktoren → Rücksetzung epigenetischer Altersmarken bei erhaltener Zellidentität → Regeneration in gealtertem Gewebe; läuft der Vorgang durch → vollständige Reprogrammierung → Teratom.',
+    benefits: [
+      'Im zyklischen Schema 2 Tage an und 5 Tage aus stieg die mittlere Lebenszeit einer Maus mit vorzeitiger Alterung von 18 auf 24 Wochen (Cell 2016)',
+      'Ohne c-Myc reichten 3 Faktoren in Netzhautzellen der Maus, damit nach einer Verletzung Nervenfasern nachwuchsen und das Sehvermögen zurückkehrte (Nature 2020)',
+      'In normal alternden Tieren zeigten sich unter längerer Behandlung Effekte in Niere und Haut, und die epigenetische Uhr lief rückwärts (Nature Aging 2022)',
+      'Das Grundprinzip ist seit 2006 belegt und wurde 2012 mit dem Nobelpreis ausgezeichnet'
+    ],
+    risks: [
+      'Tumoren sind kein seltener Zwischenfall, sondern der eingebaute Endpunkt derselben Reaktion: Teratome bei kurzer Aktivierung im lebenden Tier (Nature 2013), Tumoren auch nach abgebrochenem Puls über Methylierung statt Mutation (Cell 2014), Teratome bei 8 Wochen Dauerbetrieb (Cell 2016)',
+      'Am Menschen liegen keinerlei Verträglichkeitsdaten vor; die einzige Studie läuft noch und hat keine Ergebnisse veröffentlicht',
+      'Die Affendaten hinter dem Wirkstoff ER-100 wurden nur auf einem Kongress gezeigt und sind in keiner begutachteten Zeitschrift erschienen',
+      'Eine zurückgelaufene epigenetische Uhr ist kein Nachweis von Verjüngung: In Stammzellen zeigt die Horvath-Uhr fast null an, und eine vollständig reprogrammierte Zelle im Körper wäre ein Teratom'
+    ],
+    status: 'In Deutschland, der EU und den USA ist keine Reprogrammierungstherapie zugelassen. Es gibt kein Präparat, keinen legalen Bezugsweg und nichts, was ärztlich verordnet werden könnte. Als Gentherapie fiele ein solches Verfahren in Deutschland unter das Arzneimittelrecht und die europäischen Regeln für Arzneimittel für neuartige Therapien; eine Anwendung außerhalb einer genehmigten klinischen Prüfung ist nicht vorgesehen. Der einzige reguläre Zugang ist die Studie von Life Biosciences mit dem Wirkstoff ER-100, gestartet am 2. März 2026 nach Freigabe durch die amerikanische Behörde Ende Januar 2026, mit 18 Teilnehmern in 4 Zentren, nicht randomisiert und nicht verblindet, mit Sicherheit und Verträglichkeit als Endpunkten.',
+    sources: [
+      { title: 'Takahashi & Yamanaka, Cell 2006 — Reprogrammierung mit vier Faktoren, Nobelpreis 2012', url: 'https://pubmed.ncbi.nlm.nih.gov/16904174/' },
+      { title: 'Abad et al., Nature 2013 — Teratome nach kurzer Faktoraktivierung im lebenden Tier', url: 'https://pubmed.ncbi.nlm.nih.gov/24025773/' },
+      { title: 'Ohnishi et al., Cell 2014 (mit Yamanaka) — Tumoren nach abgebrochenem Puls über Methylierung', url: 'https://pubmed.ncbi.nlm.nih.gov/24529372/' },
+      { title: 'Ocampo et al. (Izpisua Belmonte), Cell 2016 — partielle Reprogrammierung, 2 Tage an und 5 Tage aus', url: 'https://pubmed.ncbi.nlm.nih.gov/27984723/' },
+      { title: 'Lu et al. (Sinclair), Nature 2020 — drei Faktoren in der Netzhaut', url: 'https://pubmed.ncbi.nlm.nih.gov/33268865/' },
+      { title: 'Browder et al., Nature Aging 2022 — normal alternde Tiere, Altos Labs und Genentech', url: 'https://pubmed.ncbi.nlm.nih.gov/37118377/' },
+      { title: 'Horvath, Genome Biology 2013 — epigenetische Uhr aus 353 Stellen, geeicht an 8000 Proben', url: 'https://pubmed.ncbi.nlm.nih.gov/24138928/' },
+      { title: 'Life Biosciences 2026 — ER-100, erste Humanstudie (Registereintrag)', url: 'https://clinicaltrials.gov/study/NCT07290244' }
+    ],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'pe-22-28',
+    name: 'PE-22-28',
+    altNames: 'PE22-28, Spadin-Analogon, verkürztes Spadin',
+    class: 'Synthetisches Peptid aus 7 Aminosäuren, Blocker des Kaliumkanals TREK-1 (Spadin-Analogon)',
+    emoji: '🧠',
+    short: 'PE-22-28 ist die verkürzte, deutlich stärkere Fassung des körpereigenen Peptids Spadin und blockiert im Gehirn den Kaliumkanal TREK-1. Als Antidepressivum mit neuem Angriffspunkt ist die Idee ernstzunehmend, die Tierdaten sind ordentlich. Studien am Menschen gibt es keine.',
+    moa: 'PE-22-28 blockiert den Kaliumkanal TREK-1 → veränderte Erregbarkeit der betroffenen Neurone → im Mausmodell weniger depressionsartiges Verhalten und vermehrte Bildung neuer Nervenzellen.',
+    benefits: [
+      'Angriffspunkt jenseits von Serotonin und Noradrenalin: TREK-1-Blockade, hergeleitet aus Knockout-Mäusen von 2006 und dem körpereigenen Blocker Spadin (PLoS Biology 2010)',
+      'Im Mausmodell weniger depressionsartiges Verhalten und mehr neu gebildete Nervenzellen',
+      'Wirkeintritt in den Verhaltenstests an Mäusen nach 4 Tagen, während übliche Antidepressiva beim Menschen 3 bis 4 Wochen brauchen',
+      'Gegenüber dem Vorbild Spadin um mehrere Größenordnungen stärker am Kanal (0,12 statt 40 bis 60 Nanomolar) und länger im Körper (23 statt 7 Stunden)'
+    ],
+    risks: [
+      'Keine einzige Studie am Menschen: kein Sicherheitsprofil, keine geprüfte Dosis, keine bekannten Wechselwirkungen',
+      'Zeitverlust bei einer gut behandelbaren Krankheit: Wochen mit einem ungeprüften Peptid sind Wochen ohne wirksame Behandlung',
+      'Graumarktware, bei der Inhalt und Reinheit niemand prüft',
+      'Vermarktung reicht echte Mäusezahlen ohne das Wort Maus als Aussage über Menschen weiter'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen, auch nicht in Deutschland; es gibt keine Studien am Menschen, auf die sich eine Zulassung stützen könnte. Kein Nahrungsergänzungsmittel. Der Handel läuft über Peptid-Shops, die es als Forschungssubstanz ohne Bestimmung für den Menschen ausweisen. Im Sport ohne Bedeutung, die Substanz zielt auf Stimmung und nicht auf Leistung.',
+    sources: [
+      { title: 'Heurteaux et al., Nature Neuroscience 2006 — TREK-1-Knockout und depressionsartiges Verhalten im Mausmodell', url: 'https://pubmed.ncbi.nlm.nih.gov/16906152/' },
+      { title: 'Mazella et al., PLoS Biology 2010 — Spadin als körpereigener TREK-1-Blocker', url: 'https://pubmed.ncbi.nlm.nih.gov/20405001/' },
+      { title: 'Djillani et al., Frontiers in Pharmacology 2017 — PE-22-28: verkürztes Spadin-Analogon mit höherer Bindungsstärke und längerer Halbwertszeit', url: 'https://pubmed.ncbi.nlm.nih.gov/28955242/' },
+      { title: 'Moha Ou Maati et al., Neuropharmacology 2012 — Tierdaten zur Verträglichkeit der TREK-1-Blockade', url: 'https://pubmed.ncbi.nlm.nih.gov/21807005/' },
+      { title: 'Recherche in Fachliteratur und zugänglichen Studienregistern: keine Humanstudie zu PE-22-28', url: '' }
+    ],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'psilocybin',
+    name: 'Psilocybin',
+    altNames: 'Psilocin, Magic Mushrooms, Zauberpilze, Psilocybe',
+    class: 'Serotonerges Psychedelikum aus Pilzen der Gattung Psilocybe, Betäubungsmittel nach Anlage 1 BtMG',
+    emoji: '🍄',
+    short: 'Wirkstoff bestimmter Pilze, der im Körper zu Psilocin umgebaut wird und an Serotoninrezeptoren bindet. Bei therapieresistenter Depression ist ein Effekt der hohen Einzeldosis wahrscheinlich echt, aber deutlich kleiner als der Hype, und die staatlich finanzierte deutsche Studie verfehlte ihren Hauptendpunkt. Microdosing war in jeder verblindeten Studie Placebo.',
+    moa: 'Psilocybin → Psilocin → Bindung an Serotoninrezeptoren, vor allem an einen Typ in der Großhirnrinde → stundenlang verändertes Erleben → vermutete Lockerung festgefahrener Muster (am Menschen nicht ausgemessen)',
+    benefits: [
+      'Bei therapieresistenter Depression kurzfristig besser als Scheinvergleich: 6,6 Punkte Unterschied in der Studie von 2022, 3,6 und 3,8 Punkte in den beiden Phase-3-Studien',
+      'Dosisabhängigkeit erkennbar: 25 Milligramm schneiden besser ab als 10 oder 1 Milligramm',
+      'Auch in der gemeinnützig finanzierten Usona-Studie von 2023 mit 104 Menschen gegen aktives Placebo minus 12 Punkte nach 6 Wochen',
+      'Wirkung tritt nach einer einzigen begleiteten Dosis ein, nicht erst nach Wochen täglicher Einnahme'
+    ],
+    risks: [
+      'Bei psychiatrischer Vorgeschichte rund 4 Prozent schwerwiegende Ereignisse laut Metaanalyse von 2024 über mehr als 3500 Studienteilnehmer: Depressionsverschlechterung, suizidales Verhalten, Psychose, Krampfanfälle',
+      'Anhaltende Wahrnehmungsstörung (HPPD) selten, aber real — in EPIsoDE 1 Fall nach der hohen Dosis, dazu mehr Suizidgedanken an Dosierungstagen',
+      'Psilocin bindet auch an den Serotoninrezeptor vom Typ 2 B am Herzen, über den Fenfluramin und Pergolid Herzklappen geschädigt haben; für monatelanges Microdosing eine offene Frage',
+      'Außerhalb von Studien schwankender Wirkstoffgehalt, kein geschützter Rahmen und keine Vorauswahl nach psychiatrischer Vorgeschichte'
+    ],
+    status: 'In Deutschland Anlage 1 des Betäubungsmittelgesetzes: nicht verkehrsfähig und nicht verschreibbar. Kein zugelassenes Präparat in der EU oder in den USA; der amerikanische Zulassungsantrag ist in Teilen eingereicht, Abschluss geplant für Ende 2026. Ausnahmen: Australien seit Juli 2023 durch eigens zugelassene Psychiater, Oregon seit 2023 und Colorado seit 2025 über lizenzierte Zentren, auf US-Bundesebene weiterhin verboten.',
+    sources: [
+      { title: 'Goodwin et al. (Compass Pathways), Phase-2b-Studie zu therapieresistenter Depression, New England Journal of Medicine 2022', url: 'https://pubmed.ncbi.nlm.nih.gov/36322843/' },
+      { title: 'Davis et al. (Johns Hopkins), randomisierte Studie zu Psilocybin bei Depression, JAMA Psychiatry 2021', url: 'https://pubmed.ncbi.nlm.nih.gov/33146667/' },
+      { title: 'Carhart-Harris et al. (Imperial College London), Psilocybin gegen Escitalopram, New England Journal of Medicine 2021', url: 'https://pubmed.ncbi.nlm.nih.gov/33852780/' },
+      { title: 'Raison et al. (Usona-Institut), Psilocybin gegen Niacin bei Depression, JAMA 2023', url: 'https://pubmed.ncbi.nlm.nih.gov/37651119/' },
+      { title: 'Compass Pathways, Pressemitteilung vom 23.6.2025 zur Phase-3-Studie COMP005 (258 Teilnehmer, 3,6 Punkte)', url: 'https://ir.compasspathways.com/News--Events-/news/news-details/2025/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-First-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx' },
+      { title: 'Compass Pathways, Pressemitteilung vom 17.2.2026 zur Phase-3-Studie COMP006 (581 Teilnehmer, 3,8 Punkte)', url: 'https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx' },
+      { title: 'EPIsoDE-Studie, Mertens et al., JAMA Psychiatry 2026', url: 'https://pubmed.ncbi.nlm.nih.gov/41848690/' },
+      { title: 'Szigeti et al. (Imperial College London), selbstverblindete Microdosing-Studie, eLife 2021', url: 'https://pubmed.ncbi.nlm.nih.gov/33648632/' },
+      { title: 'Hinkle et al., Metaanalyse zu unerwünschten Ereignissen unter Psychedelika, JAMA Psychiatry 2024', url: 'https://pubmed.ncbi.nlm.nih.gov/39230883/' }
+    ],
+    filterCat: 'Sonstige'
   }
 ];
 
@@ -2918,6 +3121,8 @@ const _EXP_CAT_MAP = {
   'aod-9604': 'Stoffwechsel', 'glp-3': 'Stoffwechsel',
   'kpv': 'Immun', 'll-37': 'Immun',
   'foxo4-dri': 'Longevity', 'ss-31': 'Longevity',
-  'dsip': 'Sonstige', 'semax': 'Sonstige', 'selank': 'Sonstige', 'melanotan-2': 'Sonstige'
+  'dsip': 'Sonstige', 'semax': 'Sonstige', 'selank': 'Sonstige', 'melanotan-2': 'Sonstige',
+  'klotho': 'Longevity', 'partielle-reprogrammierung': 'Longevity',
+  'nandrolon': 'Exercise', 'hmg': 'Sonstige', 'pe-22-28': 'Sonstige', 'psilocybin': 'Sonstige'
 };
 EXPERIMENTAL.forEach(e => { e.filterCat = _EXP_CAT_MAP[e.id] || 'Sonstige'; });

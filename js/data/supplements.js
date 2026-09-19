@@ -1911,23 +1911,26 @@ const SUPPLEMENTS = [
     altNames: 'Eurycoma longifolia, Longjack',
     category: 'Kräuter',
     tags: ['hormone', 'testosteron', 'energie', 'libido', 'stress'],
-    short: 'Südostasiatisches Wurzelextrakt und Testo-Booster: hob in Studien Testosteron um bis zu 37 % – Huberman-Standard für Männer ab 35.',
-    description: 'Tongkat Ali (Eurycoma longifolia) ist ein traditionelles Wurzelextrakt aus Südostasien. Es wirkt vor allem, indem es gebundenes Testosteron aus dem SHBG freisetzt (mehr freies Testosteron) und zugleich den Cortisolspiegel senkt – dadurch verschiebt sich das Testosteron-Cortisol-Verhältnis günstig. Standardisiert wird meist auf Eurycomanon. Beliebt bei Männern ab etwa 35 für Vitalität, Libido und Stressresistenz.',
+    short: 'Wurzelextrakt aus Südostasien: Bei Männern mit niedrigem Testosteron zeigen mehrere Studien einen kleinen Anstieg, bei gesunden Männern nichts Signifikantes. In der EU nicht zugelassen.',
+    description: 'Tongkat Ali (Eurycoma longifolia) ist die Wurzel eines langsam wachsenden Baums aus Südostasien, traditionell gegen Fieber und für die Manneskraft genutzt. Standardisiert wird meist auf Eurycomanon, ein Quassinoid. Eine Meta-Analyse von 5 randomisierten Studien mit 232 Männern findet einen signifikanten Testosteronanstieg, der jedoch aus der Gruppe mit niedrigem Ausgangswert stammt; in der Untergruppe gesunder Männer ist er nicht mehr signifikant. Der in Produkttexten beworbene SHBG-Mechanismus ist am Menschen geprüft und nicht bestätigt worden: In der Studie an 32 jungen Männern blieben SHBG, LH und FSH unverändert. Die Mechanismusdaten stammen aus Leydig-Zellen von Rattenhoden und deuten auf eine Aromatase-Hemmung. 7 der 9 gesichteten Humanstudien verwendeten denselben Extrakt einer malaysischen Firma.',
     benefits: [
-      'Erhöht in Humanstudien Testosteron (Analyse: bis zu +37 %) und freies Testosteron',
-      'Senkt Cortisol und verbessert die Stressresistenz',
-      'Kann Libido, Energie und Wohlbefinden steigern',
-      'Traditionell auch bei Fruchtbarkeit und Ausdauer genutzt'
+      'Hebt bei Männern mit niedrigem Ausgangstestosteron den Wert messbar an: in der saubersten Doppelblindstudie über 12 Wochen von rund 200 auf 225 ng/dl',
+      'Meta-Analyse über 5 randomisierte Studien mit 232 Männern findet insgesamt einen signifikanten Anstieg',
+      'Traditionell in Südostasien für Vitalität und Libido genutzt'
     ],
     risks: [
-      'Qualität schwankt stark – auf standardisierte Extrakte (z. B. auf Eurycomanon) achten',
-      'Kann bei manchen zu Unruhe/Schlafproblemen führen (dann morgens einnehmen)',
-      'Bei hormonabhängigen Erkrankungen ärztlich abklären',
-      'Langzeitdaten begrenzt; zyklische Einnahme verbreitet'
+      'Bei gesunden Männern kein belastbarer Effekt: die größte Studie mit 109 Teilnehmern über 12 Wochen zeigt keinen Unterschied gegen Placebo',
+      'In der EU nicht zugelassen: Die europäische Lebensmittelbehörde stellte 2021 fest, die Sicherheit sei nicht belegt, nach Hinweisen auf DNA-Schäden in Magen und Zwölffingerdarm',
+      'Leber: publizierter Fall von Gelbsucht 2024 bei einem 47-Jährigen, Erholung nach dem Absetzen; die US-Leberdatenbank führt Tongkat als möglichen seltenen Auslöser',
+      'Produktqualität schlecht belegt: 2004 lagen 36 von 100 malaysischen Produkten über dem Quecksilber-Grenzwert, 2018 enthielten im DNA-Test nur 37 Prozent eindeutig die richtige Pflanze',
+      'Wechselwirkung: Die Aufnahme des Betablockers Propranolol sinkt um fast ein Drittel',
+      '7 der 9 Humanstudien nutzen denselben Firmenextrakt, mehrere sind herstellerfinanziert, die Heterogenität der Meta-Analyse liegt bei 87 Prozent',
+      'Langzeitdaten fehlen: die Studien laufen 2 bis 12 Wochen, eine einzige über 6 Monate',
+      'Bei hormonabhängigen Erkrankungen ärztlich abklären'
     ],
-    dosage: '200–400 mg standardisierter Extrakt täglich (Huberman: ~400 mg).',
-    intake: 'Morgens mit oder ohne Mahlzeit. Bei Schlafthemen nicht abends. Ggf. zyklisch (z. B. 5 Tage on / 2 off).',
-    synergies: ['fadogia-agrestis', 'zink', 'vitamin-d3', 'magnesium'],
+    dosage: 'Keine Dosierungsangabe: Tongkat Ali ist in der EU nicht als Lebensmittel zugelassen. In den Humanstudien kam ein standardisierter Wasserextrakt der Wurzel über 2 bis 12 Wochen zum Einsatz, in einem Fall über 6 Monate.',
+    intake: 'Keine Einnahmeempfehlung. Ein niedriger Testosteronwert ist eine ärztliche Diagnose. Bei laufender Medikation, insbesondere mit Propranolol, und bei hormonabhängigen Erkrankungen ärztlich abklären.',
+    synergies: ['zink', 'vitamin-d3', 'magnesium'],
     avoid: [],
     evidence: 'mittel',
     sources: 'Wurzel von Eurycoma longifolia (Extrakt/Kapsel)'
@@ -1938,23 +1941,26 @@ const SUPPLEMENTS = [
     altNames: 'Fadogia-Agrestis-Stängelextrakt',
     category: 'Kräuter',
     tags: ['hormone', 'testosteron', 'libido', 'energie'],
-    short: 'Westafrikanisches Kraut, oft mit Tongkat Ali gestackt: soll über die LH-Stimulation das körpereigene Testosteron und die Libido anheben.',
-    description: 'Fadogia Agrestis ist ein Strauch aus Westafrika, dessen Stängelextrakt traditionell für sexuelle Funktion und Vitalität genutzt wird. Der postulierte Mechanismus ist eine Anregung des luteinisierenden Hormons (LH), das die Hoden zur Testosteronproduktion stimuliert – ähnlich wie ein sanfter körpereigener Schub. Populär wurde es v. a. durch die Kombination mit Tongkat Ali. Wichtig: Die Evidenz stammt fast nur aus Tierstudien; kontrollierte Humanstudien fehlen weitgehend.',
+    short: 'Strauch aus Nigeria, der als Testosteron-Booster gehandelt wird: Die gesamte Hormonbehauptung stützt sich auf eine Rattenstudie über 5 Tage. Humanstudien gibt es keine.',
+    description: 'Fadogia agrestis ist ein Strauch aus der Kaffeeverwandtschaft, der in Nigeria und der Sahelzone wächst und traditionell gegen Malaria und als Aphrodisiakum genutzt wurde. Die Wirkbehauptung beruht auf einer Arbeit der Universität Ilorin aus dem Jahr 2005: Männliche Ratten bestiegen nach 5 Tagen wässrigem Stängelextrakt die Weibchen häufiger, der Testosteronspiegel stieg dosisabhängig, gemessen an Tag 1, 3 und 5. Der viel zitierte Mechanismus über das luteinisierende Hormon (LH) ist dort nicht gemessen worden und im Abstract nicht erwähnt. Studien am Menschen existieren nicht: Eine PubMed-Suche liefert 10 Treffer, davon 3 Rattenarbeiten aus demselben Labor, der Rest Pflanzenchemie und Marktstudien.',
     benefits: [
-      'Soll über LH-Stimulation Testosteron anheben – ausschließlich Rattendaten, keine einzige Humanstudie',
-      'Traditionell für Libido und sexuelle Funktion genutzt',
-      'Beliebter Stack-Partner zu Tongkat Ali',
-      'Kann Energie und Antrieb unterstützen (Erfahrungsberichte)'
+      'Testosteronanstieg bisher nur bei Ratten gemessen, dosisabhängig an Tag 1, 3 und 5',
+      'Im selben Versuch bestiegen männliche Ratten die Weibchen häufiger',
+      'Traditionell in Nigeria und der Sahelzone gegen Malaria und als Aphrodisiakum genutzt',
+      'Am Menschen ist keine dieser Wirkungen geprüft worden'
     ],
     risks: [
-      'Evidenz überwiegend aus Tierstudien – Humanstudien fehlen weitgehend',
-      'Tierstudien zeigten in hohen Dosen Hinweise auf Hodentoxizität – nicht überdosieren',
-      'Zyklische Einnahme empfohlen (z. B. einige Wochen on, dann Pause)',
-      'Qualität/Standardisierung oft unklar; nicht bei Kinderwunsch ohne ärztliche Rücksprache'
+      'Keine einzige Humanstudie: weder zu Wirkung noch zu Verträglichkeit liegen Daten am Menschen vor',
+      'Bei Ratten verschoben sich nach 28 Tagen die Marker der Hodenfunktion in Richtung Schädigung; nur die niedrigste Dosisstufe erholte sich nach dem Absetzen',
+      'Folgearbeit 2009: Enzyme aus dem Zellinneren im Blut und ein erhöhter Marker für Membranschäden in Leber und Niere',
+      'Von 17 analysierten Produkten enthielten 5 keine nachweisbaren Pflanzenstoffe der Art',
+      'Der LH-Mechanismus ist nicht gemessen, sondern nachträglich erzählt worden',
+      'In der EU nicht zugelassen; ein Antrag als neuartiges Lebensmittel liegt nicht einmal vor',
+      'Nicht bei Kinderwunsch ohne ärztliche Rücksprache'
     ],
-    dosage: 'Üblich 300–600 mg täglich (zyklisch). Vorsichtig dosieren, nicht dauerhaft hochdosiert.',
-    intake: 'Morgens mit Mahlzeit. Oft im Zyklus (z. B. 8 Wochen on / mehrere Wochen off).',
-    synergies: ['tongkat-ali', 'zink', 'vitamin-d3'],
+    dosage: 'Keine Dosierungsangabe. Es gibt keine Humanstudie und damit keine geprüfte Anwendung; die Milligrammzahlen im Netz stammen aus reichweitenstarken Empfehlungen, nicht aus Studien.',
+    intake: 'Keine Einnahmeempfehlung. Ein niedriger Testosteronwert ist eine ärztliche Diagnose.',
+    synergies: [],
     avoid: [],
     evidence: 'niedrig',
     sources: 'Stängel von Fadogia agrestis (Extrakt/Kapsel)'
@@ -2460,6 +2466,76 @@ const SUPPLEMENTS = [
     avoid: ['vitamin-k2'],
     evidence: 'hoch',
     sources: 'Obst und Gemüse selbst — die Studienlage spricht durchgehend dafür, dass die Wirkung am Lebensmittel hängt und sich nicht in ein Konzentrat übertragen lässt'
+  },
+  {
+    id: 'akkermansia',
+    name: 'Akkermansia muciniphila',
+    altNames: 'Akkermansia, pasteurisierte Akkermansia muciniphila, Longevity-Bakterium',
+    category: 'Probiotika',
+    tags: ['darm', 'mikrobiom', 'stoffwechsel', 'insulin', 'longevity', 'novel-food'],
+    short: 'Darmbakterium, das von der Schleimschicht der Darmwand lebt. Schlanke, stoffwechselgesunde Menschen haben davon meist viel, Übergewichtige wenig. In der einzigen Studie am Menschen wirkte ausgerechnet die abgetötete Variante.',
+    description: 'Akkermansia muciniphila wurde 2004 an der Universität Wageningen aus einer Stuhlprobe isoliert. Es baut Mucin ab, den Schleim der Darmwand, und treibt damit dessen Neubildung an — im Tiermodell wird die Barriere dadurch dichter, die stille Entzündung geringer und die Insulinresistenz kleiner. Am Menschen ist die Umkehrbeziehung gut belegt: Wenig Akkermansia geht mit Übergewicht, Typ-2-Diabetes und Bluthochdruck einher. Geprüft wurde das Bakterium selbst in genau einer kontrollierten Studie: Depommier 2019 in Nature Medicine, 40 eingeschlossene Übergewichtige mit Insulinresistenz, 32 Teilnehmer über 3 Monate ausgewertet, 3 Arme. Dort verbesserte die pasteurisierte, also abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent, senkte den Insulinspiegel um rund ein Drittel und das Gesamtcholesterin um knapp 9 Prozent; die lebende Form zeigte das nicht sauber. Im Tiermodell von 2013 war es genau umgekehrt. Der Gewichtsverlust von gut 2 Kilogramm verfehlte die Signifikanz gegen Placebo. In der EU ist nur die pasteurisierte Form als neuartiges Lebensmittel zugelassen.',
+    benefits: [
+      'Verbesserte die Insulinempfindlichkeit in der pasteurisierten Form um fast 29 Prozent (32 Teilnehmer, 3 Monate)',
+      'Senkte Insulinspiegel um rund ein Drittel und Gesamtcholesterin um knapp 9 Prozent',
+      'Verbesserte in derselben Studie einzelne Leber- und Entzündungsmarker',
+      'Im Tiermodell dichtere Darmbarriere, weniger Fettmasse, geringere Insulinresistenz',
+      'Umkehrbeziehung am Menschen gut belegt: viel Akkermansia geht mit besserem Stoffwechselprofil einher'
+    ],
+    risks: [
+      'Keine Langzeitdaten: geprüft sind 3 Monate an wenigen Dutzend Menschen, nicht Jahre an Tausenden',
+      'Der beworbene Gewichtsverlust von gut 2 Kilogramm war gegen Placebo statistisch nicht abgesichert',
+      'Widerspruch zwischen Tier und Mensch ungeklärt: im Tier wirkte nur die lebende, am Menschen nur die abgetötete Form',
+      'Lebende Akkermansia hat in der EU keinen Zulassungsstatus als Lebensmittel; die zentralen Forscher sind am Hersteller beteiligt'
+    ],
+    dosage: 'Berichtete Anwendung, keine Empfehlung: In der Humanstudie nahmen die Teilnehmer täglich 10 Milliarden pasteurisierte Bakterien über 3 Monate. Die EU-Zulassung deckelt die pasteurisierte Form bei höchstens 5 mal 10 hoch 10 Zellen pro Tag.',
+    intake: 'Als Kapsel oder Pulver zum Einnehmen. In der Studie täglich über 3 Monate. Nicht vorgesehen für Schwangere und Stillende.',
+    synergies: ['probiotika', 'metformin', 'urolithin-a'],
+    avoid: 'Lebende Akkermansia-Präparate sind in der EU als Lebensmittel nicht zugelassen. Für Schwangere und Stillende ist die Zulassung der pasteurisierten Form nicht vorgesehen. Bei Immunsuppression oder schwerer Darmerkrankung ärztlich abklären.',
+    evidence: 'niedrig',
+    sources: [
+      { title: 'Derrien et al., International Journal of Systematic and Evolutionary Microbiology 2004 — Erstbeschreibung von Akkermansia muciniphila, Universität Wageningen', url: 'https://pubmed.ncbi.nlm.nih.gov/15388697/' },
+      { title: 'Everard et al. (Labor Cani), PNAS 2013 — Akkermansia bei übergewichtigen Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/23671105/' },
+      { title: 'Depommier et al., Nature Medicine 2019 — randomisierte, doppelblinde Machbarkeitsstudie am Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/31263284/' },
+      { title: 'Perraudeau et al., BMJ Open Diabetes Research & Care 2020 — Fünf-Stämme-Probiotikum bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/32675291/' },
+      { title: 'de la Cuesta-Zuluaga et al., Diabetes Care 2017 — kolumbianische Querschnittsuntersuchung zu Metformin und Akkermansia-Bestand', url: 'https://pubmed.ncbi.nlm.nih.gov/27999002/' },
+      { title: 'EFSA, 2021 — Bewertung der pasteurisierten Akkermansia muciniphila als neuartiges Lebensmittel', url: 'https://doi.org/10.2903/j.efsa.2021.6780' },
+      { title: 'Durchführungsverordnung (EU) 2022/168 vom 8. Februar 2022 — Zulassung der pasteurisierten Form als neuartiges Lebensmittel', url: 'https://eur-lex.europa.eu/eli/reg_impl/2022/168/oj' }
+    ]
+  },
+  {
+    id: 'liposomales-kreatin',
+    name: 'Liposomales Kreatin',
+    altNames: 'Liposomal Creatine, Kreatin in Liposomen, Kreatin mit Sonnenblumenlecithin',
+    category: 'Aminosäure',
+    tags: ['kreatin', 'muskel', 'kraft', 'darreichungsform', 'aufnahme', 'marketing'],
+    short: 'Kreatin-Monohydrat in einer Fetthülle oder mit Lecithin vermischt. Der Wirkstoff ist derselbe wie bei gewöhnlichem Monohydrat, das bereits zu 99 Prozent aufgenommen wird. Studien zur liposomalen Form am Menschen gibt es keine.',
+    description: 'Liposomales Kreatin ist keine neue Substanz, sondern eine Darreichungsform: Kreatin-Monohydrat, verpackt in Phospholipid-Bläschen oder mit Sonnenblumenlecithin vermischt. Die Technik ist bei anderen Wirkstoffen ernstzunehmende Pharmazie, setzt aber voraus, dass bei der Aufnahme überhaupt etwas verloren geht. Bei Kreatin ist das nicht der Fall: Nach der Übersichtsarbeit von Kreider und Kollegen 2022 zerfällt weniger als 1 Prozent im Magen zu Kreatinin, 99 Prozent landen im Blut. Die Obergrenze für eine bessere Verpackung liegt damit bei 1 Prozentpunkt. Zu liposomalem Kreatin als Nahrungsergänzung am Menschen gibt es in PubMed keine einzige Veröffentlichung. Die Packungsangaben von 15 und 21 Prozent bei Cymbiotika stammen aus einer herstellerfinanzierten Studie von 2022 zum Rohstoff CreaBev: 37 trainierte Männer, eine Einzeldosis von 5 Gramm, 6 Stunden Blutabnahme, gemessen als Pulver in Wasser ohne Liposom. Deren Autoren schreiben selbst, dass unklar ist, ob solche Blutwerte physiologisch etwas bedeuten. Frühere Sonderformen sind gescheitert: Ethylester ist weniger verfügbar, gepuffertes Kreatin zeigte gegen Monohydrat bei 36 Kraftsportlern über 28 Tage keinen Vorteil, Nitrat war in niedriger Dosis nicht vom Placebo zu unterscheiden.',
+    benefits: [
+      'Enthält als Rohstoff echtes Kreatin-Monohydrat und bringt dessen belegte Effekte auf Kraft und Muskel',
+      'Flüssige Beutel und Portionspulver sind bequem und unterwegs einfach zu dosieren',
+      'Die zugesetzten Phospholipide und das Sonnenblumenlecithin sind übliche, gut verträgliche Lebensmittelzutaten'
+    ],
+    risks: [
+      'Kein Wirksamkeitsvorteil gegenüber Monohydrat belegt: zu liposomalem Kreatin am Menschen existiert keine einzige Veröffentlichung',
+      'Die Packungsangaben von 15 und 21 Prozent stammen aus einer herstellerfinanzierten Studie zum Rohstoff, gemessen als Pulver in Wasser ohne Liposom',
+      'Preis beim 2- bis gut 10-Fachen von Monohydrat: rund 50 Cent pro Gramm bei Cymbiotika gegenüber 4 bis 5 Cent im deutschen Handel',
+      'Trockenes Pulver mit Lecithin ist kein Liposom; ob sich im Glas überhaupt Bläschen bilden, die Kreatin einschließen, ist nie gemessen worden'
+    ],
+    dosage: 'Für liposomales Kreatin gibt es kein Studienprotokoll, weil es keine Studie gibt. Berichtete Anwendung aus den Monohydrat-Studien, keine Empfehlung: entweder ein Ladeprotokoll mit 4 mal 5 Gramm über 5 bis 7 Tage und danach 3 bis 5 Gramm täglich, oder von Anfang an 3 bis 5 Gramm ohne Ladephase. Beides führt zur gleichen Muskelsättigung.',
+    intake: 'Flüssige Beutel oder Pulver in Wasser, täglich. Der Zeitpunkt spielt keine Rolle, die Regelmäßigkeit schon. Wer 5 Gramm auf einmal schlecht verträgt, kommt mit 3 Gramm täglich ohne Ladephase aus; der Muskel ist dann nach 3 bis 4 Wochen genauso voll.',
+    synergies: ['kreatin', 'beta-alanin', 'whey'],
+    avoid: 'Wer Nierenprobleme hat, spricht vor der Einnahme von Kreatin mit dem Arzt. Für den Aufnahmevorteil, mit dem diese Produkte beworben werden, gibt es keinen Beleg; wer allein deshalb den Aufpreis zahlt, kauft eine unbelegte Eigenschaft.',
+    evidence: 'niedrig',
+    sources: [
+      { title: 'Kreider, Jäger und Purpura, Nutrients 2022 — Übersichtsarbeit zu Kreatinformen, Aufnahme und Sicherheit', url: 'https://pubmed.ncbi.nlm.nih.gov/35268011/' },
+      { title: 'CreaBev-Bioverfügbarkeitsstudie — Antonio et al., Cureus 2022, 37 trainierte Männer, Einzeldosis 5 Gramm, 6 Stunden Blutabnahme, herstellerfinanziert', url: 'https://pubmed.ncbi.nlm.nih.gov/35619864/' },
+      { title: 'Vergleichsstudie gepuffertes Kreatin gegen Monohydrat — Jagim et al., 2012, 36 Kraftsportler, 28 Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/22971354/' },
+      { title: 'Durchsicht aus Split — Bučević Popović et al., Nutrients 2026, 343 randomisierte Kreatinstudien von 1994 bis 2023', url: 'https://pubmed.ncbi.nlm.nih.gov/42654277/' },
+      { title: 'Produktangaben Cymbiotika, Liposomal Advanced Creatine', url: 'https://cymbiotika.com/products/creatine' },
+      { title: 'Produktangaben Codeage, Liposomal Creatine', url: 'https://www.codeage.com/products/liposomal-creatine-monohydrate-powder' },
+      { title: 'Produktangaben KRĒO, Creatine Plus', url: 'https://www.odezalifescience.com/products/kreo-creatine-plus' }
+    ]
   }
 ];
 

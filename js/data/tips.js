@@ -521,8 +521,8 @@ const TIPS = [
     category: 'Longevity',
     icon: '🧬',
     title: 'Monatlicher Senolytikum-Puls',
-    short: 'Fisetin hochdosiert an 2 Tagen pro Monat. Eine placebokontrollierte Studie mit genau diesem Schema fand keine auffälligen Nebenwirkungen – und keinen funktionellen Vorteil gegenüber Placebo.',
-    how: 'Das Mayo-Protokoll arbeitet mit Fisetin allein an ein bis zwei aufeinanderfolgenden Tagen; Quercetin gehört nicht dazu, sondern zur getrennten Kombination mit dem verschreibungspflichtigen Dasatinib. Für die Einnahme morgens mit Fett gibt es keinen Beleg. Was an Positivem berichtet wird, stammt aus offenen Pilotstudien mit 14 beziehungsweise 9 Erkrankten ohne Kontrollgruppe, nicht aus Beobachtungsstudien.',
+    short: 'Fisetin hochdosiert an 2 aufeinanderfolgenden Tagen pro Monat. Die placebokontrollierte Studie, die genau dieses Schema prüft, läuft seit dem 6.2.2018 an 40 Frauen – und hat bis heute kein Ergebnis berichtet.',
+    how: 'Das Mayo-Protokoll (AFFIRM) arbeitet mit Fisetin allein an 2 aufeinanderfolgenden Tagen in 2 aufeinanderfolgenden Monaten; Quercetin gehört nicht dazu, sondern zur getrennten Kombination mit dem verschreibungspflichtigen Dasatinib, und Apigenin ist mit senomorpher statt senolytischer Wirkung eine andere Wirkklasse. Für die Einnahme morgens mit Fett gibt es keinen Beleg. Entscheidend ist der Stand der Belege: Im unabhängigen Interventions-Testprogramm verlängerte Fisetin 2023 weder die Lebenszeit – in keinem Geschlecht, bei keinem der beiden Schemata – noch senkte es die Seneszenzmarker in Leber, Niere oder Gehirn. Was an Positivem berichtet wird, stammt aus der Maus oder aus offenen Pilotstudien mit der verschreibungspflichtigen Kombination bei Erkrankten, nicht aus diesem Protokoll. Die geprüfte Studiendosis liegt zudem weit über dem, was handelsübliche Kapseln enthalten.',
     tags: ['longevity', 'senolytisch', 'anti-aging']
   },
   {
@@ -544,6 +544,48 @@ const TIPS = [
     short: 'Intensität, bei der du noch reden kannst – baut Mitochondriendichte auf. Dass Zone 2 dafür die beste ist, ist nicht belegt.',
     how: '3× pro Woche 45–60 min in der Intensität, in der du noch sprechen kannst – Radfahren, zügig Gehen, Ruderergometer. Die Faustformeln (60–70 % Maximalpuls, „180 minus Alter") sind grobe Näherungen und treffen bei vielen Menschen daneben; exakt geht es nur über einen Laktat- oder Spiroergometrie-Test.',
     tags: ['ausdauer', 'mitochondrien', 'herz', 'longevity']
+  },
+  {
+    id: 'glp1-muskel',
+    category: 'Bewegung',
+    icon: '💪',
+    title: 'Muskelerhalt unter GLP-1',
+    short: 'Unter Abnehmspritzen geht neben Fett auch fettfreie Masse verloren, in STEP 1 rund 38 Prozent des Gewichtsverlusts. Ein guter Teil davon ist Wasser und Glykogen, nicht Muskel. Der belegteste Gegenzug bleibt Krafttraining mit ausreichend Eiweiß.',
+    how: 'Zieh während der gesamten Gewichtsabnahme zwei Dinge parallel hoch: Krafttraining für die großen Muskelgruppen und eine Eiweißzufuhr, die nicht mit der Kalorienmenge mitsinkt. Diese Kombination hat mehr Untersuchungen hinter sich als beide Medikamentenkandidaten zusammen und wirkt unabhängig davon, wodurch das Gewicht sinkt. Miss dazu Funktion statt nur Gewebe, also Treppensteigen und Aufstehen aus dem Stuhl: In der einzigen Studie mit Funktionsmessung, QUALITY mit 168 Menschen ab 60 Jahren über 16 Wochen, hatten unter Enobosarm rund 54 Prozent weniger Teilnehmer einen deutlichen Leistungsabfall. Belegt ist außerdem, dass der gemessene Verlust an fettfreier Masse nah an dem liegt, was jede Diät kostet, etwa 25 Prozent nach alter Faustregel gegenüber 38 Prozent in STEP 1 und etwa 25 Prozent unter Tirzepatid, und dass DXA dabei Wasser, Glykogen und Organgewebe mitzählt. Nicht belegt ist, dass die Medikamente gegen den Verlust am Ende Kraft oder Selbstständigkeit erhalten: Bimagrumab senkte in BELIEVE den Verlust fettfreier Masse von 6,9 auf 2,3 Prozent, gemessen wurde aber ebenfalls mit DXA, und 14 bis 21 Prozent der Teilnehmer brachen die Behandlung ab.',
+    tags: [
+      'GLP-1',
+      'Semaglutid',
+      'Tirzepatid',
+      'Muskelerhalt',
+      'Krafttraining',
+      'Eiweiß',
+      'Körperzusammensetzung',
+      'DXA',
+      'Bimagrumab',
+      'Enobosarm',
+      'Sarkopenie'
+    ]
+  },
+  {
+    id: 'luftqualitaet',
+    category: 'Atmung',
+    icon: '🌬',
+    title: 'Luftqualität und Feinstaub',
+    short: 'Feinstaub führt die Global-Burden-of-Disease-Analyse 2021 mit 8 Prozent aller verlorenen gesunden Lebensjahre an, vor Bluthochdruck und Rauchen, und eine harmlose Schwelle gibt es nicht. Die stärkste Quelle in der eigenen Wohnung ist der Herd. HEPA-Filter senken Feinstaub und Blutdruck, harte Endpunkte hat niemand gemessen.',
+    how: 'Fang bei der Quelle an: beim Braten den Dunstabzug einschalten und das Fenster öffnen, denn eine Seattler Messstudie fand beim standardisierten Anbraten Spitzen von 200 bis 1400 Mikrogramm pro Kubikmeter in Küche und Wohnzimmer, die je nach Lüftung 1 bis 10 Stunden brauchen, bis sie abklingen. Bei einem Gasherd kommt Stickstoffdioxid dazu, das eine kleine Küche ohne Abzug binnen Minuten über den amerikanischen Stundengrenzwert bringt. Ein HEPA-Gerät dimensionierst du über die Reinluftleistung CADR: Die amerikanische Umweltbehörde rechnet mit rund 110 Kubikmetern pro Stunde je 9 Quadratmeter, ein Schlafzimmer mit 20 Quadratmetern braucht also etwa 240, was Geräte ab rund 150 Euro oft nur auf der lautesten Stufe schaffen. In den Studien liefen die Geräte durchgehend im Schlaf- und Wohnraum, in Detroit schnitt ein billigerer HEPA-Typ ähnlich ab wie das teurere Gerät, und in Seattle wirkte das Gerät am besten nahe an der Quelle, also in der Küche. Belegt ist damit die Konzentrationssenkung, in Shanghai um 57 Prozent, in Detroit von 15 auf 7 Mikrogramm, und ein niedrigerer systolischer Blutdruck von etwa 2 bis 4 Millimetern Quecksilbersäule über mehrere randomisierte Studien und zwei Metaanalysen. Nicht belegt ist, dass das Herzinfarkte oder Todesfälle verhindert; die größte Studie mit 540 Schwangeren in Ulan-Bator senkte den Feinstaub um 29 Prozent, ohne das Geburtsgewicht zu verändern. Finger weg von Geräten, die Ozon erzeugen, also Ionisatoren, Plasma und manchen UV-Geräten. Gegen Kohlendioxid hilft kein Filter, sondern nur das Fenster.',
+    tags: [
+      'Feinstaub',
+      'PM2,5',
+      'Innenraumluft',
+      'HEPA',
+      'Luftreiniger',
+      'Kochen',
+      'Dunstabzug',
+      'Lüften',
+      'Blutdruck',
+      'Kohlendioxid',
+      'Umwelt'
+    ]
   }
 ];
 
