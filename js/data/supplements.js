@@ -42,36 +42,32 @@ const SUPPLEMENTS = [
   },
   {
     id: 'vitamin-k2',
-    name: 'Vitamin K2 (MK-7)',
-    altNames: 'Menachinon-7',
+    name: 'Vitamin K2 (MK-7 und MK-4)',
+    altNames: 'Menachinon-7, MK-7, Menachinon-4, MK-4, Menatetrenon',
     category: 'Vitamin',
     tags: ['knochen', 'herz', 'kreislauf', 'anti-aging'],
-    short: 'Lenkt Kalzium in die Knochen statt in die Arterien. Essenzieller Partner zu Vitamin D3.',
-    description: 'Vitamin K2 aktiviert Osteocalcin (bindet Kalzium in den Knochen) und das Matrix-Gla-Protein, das die Verkalkung der Gefässwand hemmt – das ist die belegte Biochemie. Ob eine Ergänzung beim Menschen Knochenbrüche oder Gefässverkalkung verhindert, zeigen die Studien bisher nicht eindeutig. Wird trotzdem als Pflichtpartner zu Vitamin D3 vermarktet.',
+    short: 'Aktiviert Osteocalcin und Matrix-Gla-Protein — das ist am Menschen messbar. Ob eine Ergänzung Brüche oder Gefäßverkalkung verhindert, zeigen die randomisierten Studien bisher nicht.',
+    description: 'Vitamin K2 ist der Sammelname für die Menachinone; im Handel dominiert MK-7, in Japan wird MK-4 als Arzneimittel gegen Osteoporose eingesetzt. Als Cofaktor der Gamma-Carboxylierung aktiviert Vitamin K2 das Osteocalcin im Knochen und das Matrix-Gla-Protein in der Gefäßwand — diese Wirkkette ist am Menschen belegt, MK-7 senkt den Marker dp-ucMGP in einer Dreijahresstudie um 50 Prozent. Der Schritt zum harten Ergebnis gelingt bisher kaum: Mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, eine 2026 veröffentlichte fand erstmals einen. Die EU erlaubt Angaben zu Knochen und Blutgerinnung, nicht zu Herz und Gefäßen.',
     benefits: [
-      'Verhindert Gefäßverkalkung',
-      'Stärkt Knochen und Zähne',
-      'Synergie mit Vitamin D3',
-      'Kann Herzinfarktrisiko senken (Rotterdam Study)'
+      'Aktiviert Osteocalcin und Matrix-Gla-Protein, am Menschen messbar',
+      'Senkt den Marker für inaktives Matrix-Gla-Protein um rund 50 Prozent',
+      'Bremste über 3 Jahre den Knochendichteverlust an Lendenwirbelsäule und Schenkelhals',
+      'EU-Angabe: trägt zur Erhaltung normaler Knochen und zu normaler Blutgerinnung bei'
     ],
     risks: [
-      'Vorsicht bei Blutverdünnern (Marcumar/Warfarin) – Arzt konsultieren',
-      'Gut verträglich auch in hohen Dosen'
+      'Vitamin-K-Antagonisten (Phenprocoumon, Warfarin): schon 10 µg MK-7 täglich verschieben den INR – ärztlich abklären',
+      'Das BfR schlägt für Nahrungsergänzungsmittel höchstens 25,0 µg Vitamin K2 je Tagesverzehrempfehlung vor',
+      'Keine tolerierbare Obergrenze festgelegt, weil die Daten dafür nicht ausreichten',
+      'Keine belastbaren Daten zu Schwangerschaft, Stillzeit und Kindern'
     ],
-    dosage: '100–200 µg MK-7 täglich (bei 2.000–5.000 IE D3). Biohacker bis 300 µg.',
-    intake: 'Mit fetthaltiger Mahlzeit. Morgens kombiniert mit D3.',
+    dosage: 'Studien verwendeten 180, 360 oder 720 µg MK-7 täglich; MK-4 wird in Japan als Arzneimittel in Milligramm eingesetzt und ist in Mikrogramm-Mengen nicht bioverfügbar. Das BfR schlägt für Nahrungsergänzungsmittel höchstens 25,0 µg Vitamin K2 je Tagesverzehrempfehlung vor. Keine Anwendungsempfehlung.',
+    intake: 'Fettlöslich, in den Studien zu einer Mahlzeit gegeben. MK-7 hat eine lange Halbwertszeit und reichert sich bei täglicher Einnahme auf das 7- bis 8-Fache an.',
     synergies: ['vitamin-d3', 'magnesium', 'kalzium'],
     avoid: [],
-    evidence: 'hoch',
-    sources: 'Natto (fermentierte Sojabohnen), Hartkäse, Eigelb von Weidehühnern',
+    evidence: 'mittel',
+    sources: 'Natto (fermentierte Sojabohnen, laut NIH 850 µg Vitamin K je Portion von 3 Unzen), Hartkäse, Eigelb',
     podcasts: [
-      {
-        title: 'Vitamin D & K2: Das Sonnen-Duo im Faktencheck',
-        audio: 'audio/vitamin-d-k2-podcast.mp3',
-        spotify: '21fForD7zoAfCgsKKTFHlO',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 61) \u00b7 mit Paul & Paula. Der Verkehrspolizist f\u00fcrs Calcium: Osteocalcin und Matrix-GLA-Protein, Rotterdam-Studie, Knapen-MK-7-Daten samt ehrlicher Grenzen, Natto und die MK-7-Form. ACHTUNG Wechselwirkung mit Vitamin-K-Antagonisten. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 31.08.2026, 10:00)'
-      }
+      { title: 'Vitamin D & K2: Das Sonnen-Duo im Faktencheck', audio: 'audio/vitamin-d-k2-podcast.mp3', spotify: '21fForD7zoAfCgsKKTFHlO', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 61) · mit Paul & Paula. Der Verkehrspolizist fürs Calcium: Osteocalcin und Matrix-GLA-Protein, Rotterdam-Studie, Knapen-MK-7-Daten samt ehrlicher Grenzen, Natto und die MK-7-Form. ACHTUNG Wechselwirkung mit Vitamin-K-Antagonisten. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 31.08.2026, 10:00)' }
     ]
   },
   {
@@ -81,21 +77,24 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['immun', 'haut', 'anti-oxidant', 'kollagen', 'eisen'],
     short: 'Starkes Antioxidans, essenziell für Kollagensynthese, Immunsystem und Eisenaufnahme.',
-    description: 'Wasserlösliches Vitamin, das der Mensch nicht selbst herstellen kann. Bei Stress, Sport und Krankheit steigt der Bedarf. Hochdosen werden in der orthomolekularen Medizin eingesetzt.',
+    description: 'Wasserlösliches Vitamin, das der Mensch nicht selbst herstellen kann und nicht speichert. Kofaktor der Kollagenhydroxylierung; der Mangel erzeugt Skorbut. Die Aufnahme sättigt sich früh: Immunzellen bei 100 mg am Tag, das Plasma bei 1.000 mg, ab einer Einzeldosis von 500 mg sinkt die Bioverfügbarkeit und das Aufgenommene geht in den Urin.',
     benefits: [
-      'Stärkt das Immunsystem',
-      'Essenziell für Kollagenaufbau (Haut, Gelenke)',
-      'Erhöht die Aufnahme von pflanzlichem Eisen deutlich (nicht von Eisen aus Fleisch)',
-      'Starkes Antioxidans, schützt Zellen',
-      'Reduziert oxidativen Stress nach Sport'
+      'Verkürzt Erkältungen unter Dauereinnahme um rund 8 Prozent bei Erwachsenen und senkt ihre Schwere um rund 15 Prozent',
+      'Halbiert das Erkältungsrisiko unter extremer körperlicher Belastung (Marathon, Skilauf, subarktischer Militäreinsatz)',
+      'Essenziell für Kollagenaufbau (Haut, Gelenke, Gefäße, Zahnfleisch)',
+      'Erhöht die Aufnahme von pflanzlichem Eisen aus derselben Mahlzeit (über die gesamte Kost gemessen deutlich schwächer)',
+      'Schützt Zellen vor oxidativem Stress (EU-zugelassene Angabe) — hohe Dosen rund um das Training können Anpassungen aber dämpfen'
     ],
     risks: [
-      'Über 2 g/Tag: Durchfall, Magenbeschwerden',
-      'Bei Nierensteinen vorsichtig dosieren',
-      'Ascorbinsäure kann Zahnschmelz angreifen (Flüssig)'
+      'Obergrenze 2.000 mg/Tag (US-amerikanisches Institute of Medicine); die EFSA hat keinen Wert abgeleitet',
+      'Ab 3–4 g/Tag vorübergehend Durchfall und Magenbeschwerden (DGE)',
+      'Bei Männern war eine Gesamtzufuhr ab 1.000 mg/Tag mit erhöhtem Nierensteinrisiko verbunden (HR 1,43), bei Frauen nicht',
+      'Bei Hämochromatose und Eisenverwertungsstörungen Vorsicht: Eisenüberladung kann verstärkt werden',
+      'Kann den HDL-Anstieg unter Niacin plus Simvastatin abschwächen; bei Chemotherapie Rücksprache mit der Onkologie',
+      'Saure Kaupräparate greifen Zahnschmelz an (bislang nur In-vitro-Daten)'
     ],
-    dosage: 'Basis: 200–500 mg. Bei Erkältung/Sport: 1.000–3.000 mg verteilt über den Tag.',
-    intake: 'Verteilt über den Tag (kurze Halbwertszeit). Liposomales Vitamin C für höhere Bioverfügbarkeit. Mit eisenhaltigen Mahlzeiten.',
+    dosage: 'DGE-Referenzwert: 110 mg/Tag (Männer), 95 mg/Tag (Frauen), 155 bzw. 135 mg/Tag für Rauchende. Das BfR schlägt für Nahrungsergänzungsmittel 250 mg je Tagesverzehrempfehlung als Höchstmenge vor. Studienlage: Der Cochrane-Review schloss Studien ab 0,2 g/Tag ein; die EU-Angabe zur intensiven körperlichen Betätigung setzt 200 mg zusätzlich voraus. Die Einnahme erst bei Symptombeginn zeigte über 7 Vergleiche und 3.249 Erkältungsepisoden keinen konsistenten Effekt.',
+    intake: 'Verteilt über den Tag, weil eine Einzeldosis ab 500 mg schlechter aufgenommen und der Überschuss ausgeschieden wird. Mit eisenhaltigen pflanzlichen Mahlzeiten, dort wirkt der Effekt auf die Eisenaufnahme. Liposomales Vitamin C erreichte in 9 von 10 Studien höhere Plasmaspiegel, ein klinischer Vorteil ist damit nicht gezeigt.',
     synergies: ['eisen', 'vitamin-e', 'glutathion'],
     avoid: [],
     evidence: 'hoch',
@@ -107,25 +106,27 @@ const SUPPLEMENTS = [
     altNames: 'Methylcobalamin / Cobalamin',
     category: 'Vitamin',
     tags: ['energie', 'nerven', 'gehirn', 'blut', 'vegan'],
-    short: 'Kritisch für Energieproduktion, Nervensystem und Blutbildung. Für Veganer Pflicht.',
-    description: 'B12 kommt fast nur in tierischen Lebensmitteln vor. Aufnahme ist komplex und nimmt mit dem Alter ab. Methylcobalamin ist die bioaktive Form, die der Körper direkt nutzen kann.',
+    short: 'Unverzichtbar für Blutbildung, Nervensystem und den Abbau bestimmter Fett- und Aminosäuren. Bei Mangel hervorragend belegt, bei guter Versorgung nicht.',
+    description: 'B12 kommt fast nur in tierischen Lebensmitteln vor, weil es allein von Mikroorganismen gebildet wird. Die Aufnahme über den Intrinsic Factor ist begrenzt und im Alter oft gestört. Stoffwechselaktiv sind zwei Formen, Methylcobalamin und 5-Desoxyadenosylcobalamin; ein Vorteil einer bestimmten Präparateform gegenüber den anderen ist nicht gezeigt.',
     benefits: [
-      'Energieproduktion in Mitochondrien',
-      'Stützt Nervensystem und Myelinscheide',
-      'Wichtig für Blutbildung (Hämoglobin)',
-      'Senkt Homocystein (Herzschutz)',
-      'Unterstützt Gedächtnis und Stimmung'
+      'Cofaktor der mitochondrialen Methylmalonyl-CoA-Mutase im Energiestoffwechsel',
+      'Notwendig für Myelinscheiden und Nervenfunktion',
+      'Notwendig für die Blutbildung, Mangel verursacht megaloblastäre Anämie',
+      'Senkt Homocystein zuverlässig, ein kardiovaskulärer Nutzen daraus ist nicht belegt',
+      'Bessert Kognition und Stimmung nur dort, wo ein Mangel vorliegt'
     ],
     risks: [
-      'Sehr sicher – keine bekannte Toxizität',
-      'Bei bestimmten genetischen Varianten (MTHFR) Methyl-Form bevorzugen'
+      'Keine tolerierbare Obergrenze festgelegt, das BfR schlägt für Nahrungsergänzungsmittel dennoch 25 µg pro Tagesdosis vor',
+      'Beobachtungsdaten verknüpfen sehr hohe Dauerdosen aus Einzelpräparaten bei Männern mit mehr Lungenkrebs, kein Kausalnachweis',
+      'Bei neurologischen Symptomen oder Verdacht auf gestörte Aufnahme gehört die Abklärung in ärztliche Hand',
+      'Hohe Folsäuredosen können das Blutbild eines B12-Mangels verschleiern'
     ],
-    dosage: 'Vegetarier/Veganer: 250–1.000 µg täglich. Biohacker: 1.000–5.000 µg 1–2× pro Woche.',
-    intake: 'Sublingual (unter der Zunge) oder als Lutschtablette für beste Aufnahme. Morgens.',
+    dosage: 'Referenzwerte: 4 µg täglich für Erwachsene nach DGE und EFSA. Studien zur Korrektur eines nachgewiesenen Mangels verwendeten oral meist 1.000 bis 2.000 µg täglich, weil der aktive Aufnahmeweg gesättigt ist. Das BfR schlägt für Nahrungsergänzungsmittel 25 µg pro Tagesdosis als Höchstmenge vor.',
+    intake: 'Oral, sublingual und intramuskulär schnitten in einer Meta-Analyse gleich ab. Die Injektion bleibt sinnvoll, wenn die Aufnahme über den Darm nicht gesichert ist.',
     synergies: ['vitamin-b-komplex', 'folsaeure'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Leber, Fisch, Fleisch, Eier (fast null in rein pflanzlicher Kost)'
+    sources: 'Leber, Fisch, Fleisch, Eier, Milchprodukte; in rein pflanzlicher Kost praktisch null, dort angereicherte Lebensmittel oder Präparate'
   },
   {
     id: 'vitamin-b-komplex',
@@ -227,21 +228,25 @@ const SUPPLEMENTS = [
     altNames: 'Eisen-Bisglycinat',
     category: 'Mineral',
     tags: ['energie', 'blut', 'frauen', 'sport'],
-    short: 'Essenziell für Sauerstofftransport und Energie. Mangel häufig bei Frauen/Sportlern.',
-    description: 'Nur bei nachgewiesenem Mangel (Ferritin-Wert) supplementieren. Eisen-Bisglycinat ist am besten verträglich. Eisenüberschuss ist oxidativ.',
+    short: 'Essenziell für Sauerstofftransport und Blutbildung. Wirkt bei nachgewiesenem Mangel, häufig bei menstruierenden Frauen und Ausdauersportlern.',
+    description: 'Nur bei nachgewiesenem Mangel supplementieren, und die Diagnose ist der schwierige Teil: Ferritin ist ein Akutphaseprotein und kann bei Entzündung einen leeren Speicher verdecken. Eisen-Bisglycinat ist in Studien besser verträglich, ersetzt aber keine Dosis – 18 mg Bisglycinat erreichten nicht dasselbe Ferritin wie 60 mg Eisensulfat. Der Körper kann überschüssiges Eisen nicht aktiv ausscheiden.',
     benefits: [
-      'Verhindert Erschöpfung/Müdigkeit bei Mangel',
+      'Verhindert Erschöpfung und Müdigkeit bei nachgewiesenem Mangel',
       'Transportiert Sauerstoff (Hämoglobin)',
-      'Wichtig für Sportler (Ausdauer)',
-      'Unterstützt Konzentration'
+      'Senkt in der Schwangerschaft Anämie und Eisenmangel (Cochrane, 57 Studien)',
+      'Füllt bei Ausdauersportlern den Ferritinspeicher – ein Leistungseffekt ist nicht gesichert'
     ],
     risks: [
-      'Nur bei Mangel einnehmen – Überschuss oxidiert',
-      'Verdauungsbeschwerden, Verstopfung',
-      'Ferritin > 200 meiden'
+      'Nur bei nachgewiesenem Mangel einnehmen – der Körper scheidet Eisen nicht aktiv aus',
+      'Verdauungsbeschwerden, Verstopfung, schwarzer Stuhl; häufigster Abbruchgrund',
+      'Ferritin über 150 µg/l bei Frauen und über 200 µg/l bei Männern gilt der WHO als Überladungsrisiko',
+      'Ferritin ist ein Akutphaseprotein – bei Entzündung liegt die Mangelschwelle laut WHO bei unter 70 µg/l statt unter 15',
+      'Hämochromatose: in Deutschland 0,2 bis 0,6 % homozygote Anlageträger; Eisen beschleunigt die Überladung',
+      'Gegenanzeigen der zugelassenen Präparate: Eisenüberladung, Eisenverwertungsstörungen, Anämien ohne Eisenmangel',
+      'Akut toxisch ab 20 mg/kg Körpergewicht – außer Reichweite von Kindern aufbewahren'
     ],
-    dosage: 'Bei Mangel: 25–50 mg elementares Eisen. Alle 2 Tage besser als täglich (Hepcidin-Rebound).',
-    intake: 'Auf nüchternen Magen mit Vitamin C. Nicht mit Kaffee, Tee, Milch oder Zink.',
+    dosage: 'Studien bei Mangel verwendeten 60 bis 100 mg elementares Eisen; im Sport wirkten 16 bis 100 mg täglich. Alternierende Gabe erhöht die anteilige Aufnahme (21,8 statt 16,3 %) und verursacht weniger Magen-Darm-Beschwerden; beim Ferritin nach gleicher Gesamtdosis fand die verblindete Studie jedoch keinen Unterschied. Das BfR empfiehlt für Nahrungsergänzungsmittel höchstens 6 mg pro Tagesdosis.',
+    intake: 'Morgens auf nüchternen Magen mit Vitamin C. 80 mg Ascorbinsäure erhöhten die Aufnahme um 30 %, mehr brachte nichts. Kaffee senkte sie um 54 %, ein Frühstück mit Kaffee um 66 %; nachmittags lag sie 37 % niedriger. 500 mg Calciumcarbonat senkten die Aufnahme aus einer Mahlzeit von 10,2 auf 4,8 %.',
     synergies: ['vitamin-c'],
     avoid: ['zink', 'kalzium', 'magnesium'],
     evidence: 'hoch',
@@ -252,26 +257,30 @@ const SUPPLEMENTS = [
     name: 'Selen',
     altNames: 'Selenomethionin',
     category: 'Mineral',
-    tags: ['schilddruese', 'anti-oxidant', 'immun', 'entgiftung'],
+    tags: ['schilddruese', 'anti-oxidant', 'immun'],
     short: 'Essenzielles Spurenelement für Schilddrüse, Glutathion-Produktion und Immunsystem.',
-    description: 'Deutsche Böden sind selenarm. Selen ist Kofaktor der Glutathionperoxidase, einem wichtigen Antioxidans. Besonders wichtig für Schilddrüsenfunktion.',
+    description: 'Europäische Böden sind selenarm, das BfR schätzt die durchschnittliche Zufuhr in EU-Ländern auf 31 bis 66 µg pro Tag. Selen ist Kofaktor der Glutathionperoxidase und Bestandteil der Deiodasen, die T4 in T3 umwandeln. Der Abstand zwischen Bedarf und Obergrenze ist klein: DGE-Schätzwert 70 µg (Männer) und 60 µg (Frauen), EFSA-Obergrenze 255 µg pro Tag.',
     benefits: [
-      'Unterstützt Schilddrüsenfunktion (T4→T3)',
-      'Produziert Glutathion (Master-Antioxidans)',
-      'Stärkt Immunsystem',
-      'Schützt vor oxidativem Stress'
+      'Bestandteil der Deiodasen, die T4 in T3 umwandeln',
+      'Kofaktor der Glutathionperoxidase (verbraucht Glutathion, bildet es nicht)',
+      'EU-Health-Claim: trägt zu normaler Funktion des Immunsystems bei',
+      'Senkt in selenarmen Regionen das Risiko der Keshan-Kardiomyopathie um 86 %',
+      'Bessert bei milder endokriner Orbitopathie Augenbefund und Lebensqualität (RCT, 159 Patienten)'
     ],
     risks: [
-      'Obergrenze: 200 µg/Tag – darüber toxisch',
-      'Überdosierung: Haarausfall, Knoblauchatem, Nagelveränderungen',
-      'Paranusskonsum genau einplanen'
+      'EFSA-Obergrenze 255 µg/Tag; Haarausfall ab 330 µg/Tag beobachtet',
+      'BfR empfiehlt für Nahrungsergänzungsmittel höchstens 40 µg je Tagesverzehrempfehlung',
+      '200 µg/Tag über Jahre: mehr Typ-2-Diabetes (HR 1,55), im obersten Terzil HR 2,70',
+      'Bei gutem Selenstatus 91 % mehr hochgradige Prostatakarzinome (SELECT-Nachauswertung)',
+      'Selenose: Haarausfall, brüchige Nägel, Knoblauchatem, metallischer Geschmack',
+      'Paranusskonsum genau einplanen: 68 bis 91 µg je Nuss; DGE rät Schwangeren, Stillenden und Kindern wegen Radioaktivität ganz ab'
     ],
-    dosage: '100–200 µg täglich. Eine Paranuss enthält ca. 50–100 µg.',
+    dosage: 'Keine Empfehlung. DGE-Schätzwerte für eine angemessene Zufuhr: 70 µg/Tag (Männer), 60 µg/Tag (Frauen), 75 µg/Tag in der Stillzeit. Das BfR empfiehlt für Nahrungsergänzungsmittel höchstens 40 µg je Tagesverzehrempfehlung, die EFSA-Obergrenze liegt bei 255 µg/Tag. Die großen Studien SELECT und NPC verwendeten 200 µg/Tag - genau die Dosis, unter der das Diabetes-Signal und die Zunahme hochgradiger Prostatakarzinome auftraten.',
     intake: 'Morgens mit Mahlzeit.',
     synergies: ['jod', 'zink', 'vitamin-e'],
     avoid: [],
     evidence: 'hoch',
-    sources: '2 Paranüsse decken Tagesbedarf, Fisch, Eier'
+    sources: 'Fisch, Eier, Fleisch, Paranüsse (68 bis 91 µg je Nuss, 103 µg je 100 g; für Schwangere, Stillende und Kinder rät die DGE wegen radioaktiver Anreicherung ab)'
   },
   {
     id: 'jod',
@@ -279,25 +288,24 @@ const SUPPLEMENTS = [
     altNames: 'Kaliumiodid / Kelp',
     category: 'Mineral',
     tags: ['schilddruese', 'hormone', 'energie', 'gehirn'],
-    short: 'Baustein für Schilddrüsenhormone. Deutschland ist Jodmangelgebiet.',
-    description: 'Ohne Jod keine Schilddrüsenhormone. Selen ist wichtiger Partner. Bei Hashimoto Vorsicht – erst Arzt fragen.',
+    short: 'Baustein für Schilddrüsenhormone. Deutschland ist knapp versorgt, aber kein klassisches Mangelgebiet mehr.',
+    description: 'Ohne Jod keine Schilddrüsenhormone. Etwa ein Drittel der Erwachsenen in Deutschland liegt unter dem geschätzten Bedarf, die Mehrheit nicht. Zu viel stört die Schilddrüse ebenso wie zu wenig. Bei Hashimoto, Knoten oder Autonomie vorher ärztlich klären.',
     benefits: [
       'Baustein für T3/T4',
       'Regelt Stoffwechsel',
-      'Wichtig für Gehirnentwicklung',
-      'Unterstützt Brustgesundheit'
+      'Wichtig für Gehirnentwicklung in der Schwangerschaft'
     ],
     risks: [
-      'Bei Hashimoto/Hyperthyreose NICHT ohne Arzt',
-      'Über 1.000 µg/Tag kann Schilddrüse stören',
-      'Immer mit Selen kombinieren'
+      'Bei Hashimoto, Hyperthyreose, Knoten oder Autonomie nicht ohne Arzt',
+      'Europäische Obergrenze 600 µg/Tag, früherer D-A-CH-Wert 500 µg/Tag',
+      'Algen- und Kelppräparate liefern 5 bis 5.600 µg pro Tagesdosis, völlig unkalkulierbar'
     ],
-    dosage: '100–200 µg täglich. Jodiertes Salz und Fisch oft ausreichend.',
-    intake: 'Morgens mit Mahlzeit. Nicht spät, da anregend.',
+    dosage: 'DGE/ÖGE 2025: 150 µg täglich für Erwachsene, 220 µg in der Schwangerschaft, 230 µg in der Stillzeit. Das BfR schlägt für Nahrungsergänzungsmittel höchstens 100 µg pro Tagesdosis vor. Jodsalz und Seefisch decken den Bedarf meist.',
+    intake: 'Mit einer Mahlzeit.',
     synergies: ['selen'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Seefisch, Algen (Kelp), jodiertes Salz'
+    sources: 'Seefisch, Milch, jodiertes Speisesalz. Algen und Kelp nur mit Vorsicht, der Gehalt schwankt extrem.'
   },
 
   // ============ FETTSÄUREN ============
@@ -409,24 +417,26 @@ const SUPPLEMENTS = [
     altNames: 'Grüntee-Aminosäure',
     category: 'Aminosäure',
     tags: ['fokus', 'stress', 'schlaf', 'koffein', 'gaba'],
-    short: 'Natürliche Aminosäure aus Grüntee. Entspannt ohne müde zu machen.',
-    description: 'L-Theanin erhöht Alpha-Wellen im Gehirn (wacher, entspannter Zustand). Perfekter Partner zu Koffein: reduziert Nervosität, verbessert Fokus.',
+    short: 'Aminosäure aus der Teepflanze. Verbessert kurzfristig die Aufmerksamkeit, ohne müde zu machen.',
+    description: 'L-Theanin ist eines der am besten untersuchten Nootropika: eine Meta-Analyse über 31 randomisierte Studien mit 1.168 Teilnehmern findet nach einer Einzeldosis von 200 Milligramm eine Verbesserung der Wahlreaktionszeit von SMD 0,51. Auf Stress wirkt es schwächer, auf Müdigkeit gar nicht. Die erhöhte Alpha-Aktivität im EEG ist ein Surrogatmarker, kein Ergebnis.',
     benefits: [
-      'Reduziert Stress und Angst',
-      'Verbessert Fokus (besonders mit Koffein)',
-      'Fördert entspannte Wachheit',
-      'Unterstützt Schlaf',
-      'Erhöht GABA, Serotonin und Dopamin'
+      'Verbessert die Aufmerksamkeit nach Einzeldosis (Meta-Analyse, SMD 0,51)',
+      'Kleiner Effekt auf akuten Stress, überwiegend aus Studien mit hohem Bias-Risiko (SMD 0,31)',
+      'Kleine Verbesserungen subjektiver Schlafwerte (Schlafqualität SMD 0,43)',
+      'In Kombination mit Koffein additiv, nicht synergistisch',
+      'Erhöht die Alpha-Aktivität im EEG in Ruhe (Surrogatmarker)'
     ],
     risks: [
-      'Sehr sicher – keine bekannten Nebenwirkungen',
-      'Schwindel möglich bei sehr hohen Dosen'
+      'Gut verträglich – in der Meta-Analyse über 31 Studien keine schwerwiegenden Ereignisse',
+      'Bei alleiniger Gabe wurden mehr Kopfschmerzen und schlechtere Rechenleistung berichtet',
+      'Laufender EU-Novel-Food-Antrag schließt unter 18-Jährige, Schwangere und Stillende aus',
+      'Keine Daten zu Wechselwirkungen mit Psychopharmaka über wenige Wochen hinaus'
     ],
-    dosage: '100–400 mg täglich. Mit Kaffee: 200 mg L-Theanin + 100 mg Koffein.',
-    intake: 'Mit Koffein für Fokus (morgens). Solo abends für Entspannung/Schlaf.',
-    synergies: ['koffein', 'magnesium'],
+    dosage: 'In Studien eingesetzt: 200 Milligramm als Einzeldosis, 30 bis 60 Minuten vor der Aufgabe; 200 bis 400 Milligramm täglich über vier Wochen. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In den Kombinationsstudien mit Koffein wurde beides gleichzeitig eingenommen. Welches Mischungsverhältnis das beste ist, wurde nie geprüft.',
+    synergies: ['koffein'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Grüner Tee, Matcha, Schwarztee (geringer)'
   },
   {
@@ -435,33 +445,31 @@ const SUPPLEMENTS = [
     altNames: 'Aminosäure',
     category: 'Aminosäure',
     tags: ['schlaf', 'entspannung', 'kollagen', 'gehirn'],
-    short: 'Beruhigende Aminosäure. Kleine Schlafstudien zeigen schnelleres Einschlafen; der Weg darüber ist die Körperkerntemperatur.',
-    description: 'Glycin wirkt inhibitorisch im Gehirn (wie GABA) und senkt die Körperkerntemperatur – das ist der plausible Weg zum tieferen Schlaf. Die Humandaten stammen aus wenigen kleinen japanischen Studien mit drei Gramm vor dem Schlafen. Günstig und gut verträglich.',
+    short: 'Aminosäure, Hauptbaustein des Kollagens. Drei kleine Schlafstudien mit 3 Gramm vor dem Zubettgehen zeigen kürzeres Einschlafen – mehr Humandaten zum Schlaf gibt es nicht.',
+    description: 'Glycin ist die häufigste Aminosäure im Kollagen; der Körper stellt selbst deutlich mehr davon her, als eine Portion liefert. Zum Schlaf liegen genau drei kleine Studien mit 3 Gramm vor dem Zubettgehen vor, eine davon mit Polysomnographie: kürzere Einschlafzeit und kürzere Tiefschlaflatenz ohne Verschiebung der Schlafarchitektur. Der Weg über die Körperkerntemperatur ist an Ratten aufgeklärt und läuft dort über NMDA-Rezeptoren, nicht über den hemmenden Glycinrezeptor. Am Menschen ist der Temperaturabfall bisher nicht gezeigt.',
     benefits: [
-      'Soll die Schlafqualität verbessern – kleine Studien, meist an wenigen Personen',
-      'Soll die Einschlafzeit verkürzen – dieselben kleinen Studien',
-      'Liefert einen Baustein der Kollagensynthese – dass mehr Glycin zu mehr Kollagen führt, ist nicht belegt',
-      'Stützt Entgiftung (Glutathion-Baustein)',
-      'Kognitive Verbesserung am Morgen danach'
+      'Kürzere Einschlafzeit und kürzere Tiefschlaflatenz in der einzigen Polysomnographie-Studie (je 11 Teilnehmer, 2 Nächte)',
+      'Bessere subjektive Schlafqualität in allen drei vorliegenden Humanstudien – kleine Stichproben, hohes Verzerrungsrisiko',
+      'Weniger Müdigkeit und kürzere Reaktionszeit am Tag nach verkürztem Schlaf (7 ausgewertete Teilnehmer)',
+      'Verstärkt am Menschen messbar den Glycin-Konjugationsweg zur Ausscheidung von Stoffwechselprodukten',
+      'Hauptbaustein des Kollagens – dass mehr Glycin zu mehr Kollagen führt, ist nur in Zellkultur gezeigt',
+      'Die beste Datenbasis liegt in einem ganz anderen Feld: als Zusatz zu Antipsychotika, Meta-Analyse über 40 Studien mit 4.937 Patienten'
     ],
     risks: [
-      'Sehr sicher – Geschmack süß, gut löslich',
-      'Leichte Übelkeit bei > 10 g möglich'
+      'Gut verträglich in den Studiendosen – süßer Geschmack, gut wasserlöslich',
+      'Keine EFSA- oder BfR-Obergrenze; NOAEL beim Menschen 129,0 mg je kg Körpergewicht und Tag, nur das 2,8-Fache der üblichen Aufnahme',
+      'Kontrollierte Daten an Gesunden reichen nur bis 14 Tage',
+      'Hohe Einzeldosen verschlechtern bei Gesunden messbar die sensomotorische Filterleistung',
+      'Nicht ohne ärztliche Rücksprache bei Clozapin'
     ],
-    dosage: '3–5 g vor dem Schlafengehen.',
-    intake: '30–60 min vor dem Schlafen in Wasser. Lässt sich auch in Tee/Kaffee lösen.',
+    dosage: 'In den drei Schlafstudien verwendet: 3 Gramm, 30 bis 60 Minuten vor dem Zubettgehen. Eine Dosis von 5 Gramm kommt in keiner dieser Studien vor. Das ist eine Studienangabe, keine Verzehrempfehlung.',
+    intake: 'In den Studien in Wasser gelöst und 30 bis 60 Minuten vor dem Zubettgehen eingenommen. Die Studien liefen über 2 bis 4 Nächte; zur längeren Einnahme gibt es bei Gesunden keine kontrollierten Schlafdaten.',
     synergies: ['magnesium', 'l-theanin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Knochenbrühe, Kollagen, Gelatine, Fleisch',
+    sources: 'Knochenbrühe, Kollagen, Gelatine, Fleisch, bindegewebsreiche Teile',
     podcasts: [
-      {
-        title: 'Kollagenpeptide & Glycin: Das Struktur-Duo im Faktencheck',
-        audio: 'audio/kollagen-glycin-podcast.mp3',
-        spotify: '7sEemDFiWAx5G7MBP0kW0F',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 60) \u00b7 mit Paul & Paula. Ein Drittel des Kollagens, 3 g f\u00fcr besseren Schlaf (Kerntemperatur-Trick), Glutathion-Baustein (GlyNAC) und Longevity-Signal im Tiermodell \u2013 f\u00fcr Centbetr\u00e4ge. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 30.08.2026, 10:00)'
-      }
+      { title: 'Kollagenpeptide & Glycin: Das Struktur-Duo im Faktencheck', audio: 'audio/kollagen-glycin-podcast.mp3', spotify: '7sEemDFiWAx5G7MBP0kW0F', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 60) · mit Paul & Paula. Ein Drittel des Kollagens, 3 g für besseren Schlaf (Kerntemperatur-Trick), Glutathion-Baustein (GlyNAC) und Longevity-Signal im Tiermodell – für Centbeträge. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 30.08.2026, 10:00)' }
     ]
   },
   {
@@ -559,33 +567,31 @@ const SUPPLEMENTS = [
     altNames: 'Aminosulfonsäure',
     category: 'Aminosäure',
     tags: ['herz', 'energie', 'sport', 'gehirn', 'anti-aging'],
-    short: 'Vielseitige Aminosäure. Neue Longevity-Forschung zeigt Anti-Aging-Effekte.',
-    description: 'Taurin-Spiegel sinken mit dem Alter um 80 %. Eine 2023-Studie an Tieren zeigte 12 % längere Lebensdauer durch Taurin-Supplementierung.',
+    short: 'Aminosulfonsäure mit belastbaren Humandaten zum Blutdruck. Die Longevity-Erzählung stammt aus dem Tiermodell und ist 2025 korrigiert worden.',
+    description: 'Die Aufmerksamkeit stammt aus einer Science-Arbeit von 2023: Mäuse mittleren Alters lebten unter Taurin im Median rund 10 bis 12 Prozent länger, bei den mituntersuchten Rhesusaffen wurden über 6 Monate nur Gesundheitsmarker gemessen, und der Humanteil war reine Beobachtung. Zwei Arbeiten von 2025 fanden, dass zirkulierendes Taurin mit dem Alter steigt oder gleich bleibt. Am Menschen belegt sind Blutdruck- und kardiometabolische Effekte auf Surrogatmarkern.',
     benefits: [
-      'Soll den Blutdruck senken – kleine Studien mit moderaten Effekten',
-      'Soll die sportliche Leistung verbessern – Studien klein und uneinheitlich',
-      'Herz- und Mitochondrienschutz stammt aus Tierdaten – am Menschen keine Endpunktstudien',
-      'Kann Lebensdauer verlängern (Tierstudie)',
-      'Beruhigt das Nervensystem'
+      'Senkt den Ruheblutdruck – Meta-Analyse über 7 Studien mit 103 Teilnehmern: im Mittel rund 3 mmHg systolisch und diastolisch',
+      'Doppelblinde Studie an 120 Menschen mit Prähypertonie über 12 Wochen: 7,2 gegenüber 2,6 mmHg systolisch',
+      'Bessert kardiometabolische Laborwerte – Meta-Analyse über 34 randomisierte Studien, beste Effekte bei 1,5 bis 3,0 g pro Tag',
+      'Herzinsuffizienz: zwei kleine kontrollierte Studien mit 29 und 17 Patienten positiv, eine dritte 2026 zurückgezogen',
+      'Sportliche Leistung: Meta-Analyse über 23 Studien, kleiner Effekt (g = 0,25), Evidenzqualität nach GRADE niedrig bis sehr niedrig',
+      'Lebensspanne verlängert bei Maus und Fadenwurm – am Menschen dazu keine Daten'
     ],
     risks: [
-      'Sehr sicher',
-      'Selten: leichte Magenbeschwerden'
+      'Breit untersucht: NOAEL 1.000 mg pro Kilogramm Körpergewicht und Tag im Tierversuch, in Humanstudien bei 1.000 bis 1.500 mg pro Tag keine unerwünschten Wirkungen',
+      'Die norwegische Behörde VKM leitet für Erwachsene rund 1.470 mg pro Tag als Schwellenwert ab – das liegt unter dem oberen Ende gängiger Dosierungen',
+      'Selten leichte Magenbeschwerden; bei 4.980 mg pro Tag über 7 Tage ein Fall von leichten Muskelkrämpfen',
+      'Bei SSADH-Defizienz nicht geeignet: 16 g pro Tag führten zu Hypersomnie mit Krankenhausaufnahme',
+      'Blutdrucksenkende Wirkung – Kombination mit Antihypertensiva ärztlich abklären'
     ],
     dosage: '1.000–3.000 mg täglich.',
     intake: 'Jederzeit, ideal mit Mahlzeit oder vor Training.',
     synergies: ['magnesium', 'kreatin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Fleisch, Fisch, Meeresfrüchte',
+    sources: 'Fleisch, Fisch, Meeresfrüchte – in Pflanzen kommt Taurin nicht vor',
     podcasts: [
-      {
-        title: 'Taurin: Die untersch\u00e4tzte Aminos\u00e4ure im Faktencheck (Solo-Special)',
-        audio: 'audio/taurin-podcast.mp3',
-        spotify: '5aIzYuKiWVt3H1VX05a9fX',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Solo mit Paul)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 67, Solo-Special) \u00b7 nur mit Paul, ruhige Solo-Fassung. Die Taurin-Story mit Plot-Twist: Science 2023 (M\u00e4use +10\u201312 % Lebensspanne, Affen-Daten), die NIA-Gegen-Analyse 2025 zur Biomarker-These, belegte Blutdruck- und Sport-Effekte, die Veganer-L\u00fccke und der Abend-Stack mit Magnesium und Glycin. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 16.08.2026, 08:00)'
-      }
+      { title: 'Taurin: Die unterschätzte Aminosäure im Faktencheck (Solo-Special)', audio: 'audio/taurin-podcast.mp3', spotify: '5aIzYuKiWVt3H1VX05a9fX', lengthLabel: '≈ 12 Min · KI-Podcast (Solo mit Paul)', note: 'Der Podcast von Paul Höser (Folge 67, Solo-Special) · nur mit Paul, ruhige Solo-Fassung. Die Taurin-Story mit Plot-Twist: Science 2023 (Mäuse +10–12 % Lebensspanne, Affen-Daten), die NIA-Gegen-Analyse 2025 zur Biomarker-These, belegte Blutdruck- und Sport-Effekte, die Veganer-Lücke und der Abend-Stack mit Magnesium und Glycin. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 16.08.2026, 08:00)' }
     ]
   },
   {
@@ -661,26 +667,32 @@ const SUPPLEMENTS = [
     altNames: 'Rosenwurz',
     category: 'Adaptogen',
     tags: ['stress', 'energie', 'fokus', 'sport', 'ausdauer'],
-    short: 'Adaptogen für Energie, Fokus und mentale Belastbarkeit.',
-    description: 'Im Gegensatz zu Ashwagandha eher stimulierend. Sehr wirksam bei Burnout, Erschöpfung und Konzentrationsproblemen. 3 % Rosavine / 1 % Salidrosid als Qualitätsmarker.',
+    short: 'Adaptogen für Energie und mentale Belastbarkeit. In Europa als traditionelles Arzneimittel registriert, nicht als wirksamkeitsbelegtes.',
+    description: 'Rosenwurz ist in Deutschland seit 2014 und 2016 als traditionelles pflanzliches Arzneimittel gegen Stresssymptome registriert – auf Basis der Anwendungstradition, nicht der Studien. Die EMA hat den Status „well-established use“ im März 2024 ausdrücklich abgelehnt. Am besten belegt ist die Ausdauer: eine Meta-Analyse über 26 RCTs mit 668 Teilnehmern findet kleine, konsistente Effekte. Bei Erschöpfung hängt fast alles an einem einzigen Extrakt. 3 % Rosavine und 1 % Salidrosid sind Marktkonvention, nicht die Spezifikation der Hauptstudien.',
     benefits: [
-      'Soll mentale und körperliche Energie erhöhen – kleine Studien, uneinheitlich',
-      'Soll Erschöpfung reduzieren – dazu gibt es die vergleichsweise besten Studien, sie bleiben klein',
-      'Soll Fokus und Gedächtnis verbessern – Humandaten dünn',
-      'Soll die sportliche Ausdauer steigern – Studien klein und widersprüchlich',
-      'Stabilisiert Stimmung'
+      'Steigert die Ausdauerleistung leicht – Meta-Analyse, 26 RCTs, 668 Teilnehmer, VO2max ES 0,32',
+      'Senkt mentale Ermüdung nach Einzeldosis – größte kontrollierte Studie, 161 Kadetten, p < 0,001',
+      'Reduziert Erschöpfung bei diagnostiziertem Erschöpfungssyndrom – 60 Teilnehmer, 28 Tage, p = 0,047',
+      'Verbessert antioxidative Marker deutlicher als Leistungswerte – SOD ES 1,16, MDA ES -1,21',
+      'Wirkt bei leichter Depression schwächer als Sertralin, aber mit weniger Nebenwirkungen – 30,0 % gegen 63,2 %',
+      'Soll Fokus und Gedächtnis verbessern – Humandaten dünn und ohne Kontrollgruppe'
     ],
     risks: [
-      'Bei manischen Tendenzen meiden',
-      'Nicht spät am Abend (stimulierend)',
-      'Selten: Reizbarkeit'
+      'Kopfschmerz, Nervosität, Schlaflosigkeit, Schwindel, Übelkeit, Hautausschlag – Häufigkeit laut EMA unbekannt',
+      'Wechselwirkungssignale mit SSRI und SNRI, publizierter Verdachtsfall eines serotonergen Syndroms unter Paroxetin',
+      'Probandenversuch zeigte eine um 21 % veränderte CYP2C9-Aktivität nach 14 Tagen',
+      'Unter 18 Jahren sowie in Schwangerschaft und Stillzeit nicht empfohlen – keine Daten',
+      'Nicht spät am Abend, da eher anregend',
+      'Bei manischen Tendenzen wird Vorsicht empfohlen – das ist nicht belegt, Rhodiola fehlt im systematischen Review über 35 Manie-Fallberichte',
+      'Handelsware häufig nicht authentisch – etwa ein Fünftel von rund 40 europäischen Produkten ohne Rosavin',
+      'Spuren von Arsen, Cobalt und Blei in allen sieben untersuchten US-Kapselprodukten'
     ],
-    dosage: '200–600 mg standardisierter Extrakt täglich.',
-    intake: 'Morgens und mittags vor dem Essen.',
+    dosage: 'Die EU-Monografie nennt für Trockenextrakt (DER 1,5–5:1, Ethanol 67–70 %) eine Einzeldosis von 144 bis 200 Milligramm, ein- bis zweimal täglich, Tagesdosis 144 bis 400 Milligramm, Erwachsene ab 18 Jahren. In den Studien wurden 50 bis 660 Milligramm pro Kapsel und bis zu 1.500 Milligramm täglich eingesetzt. Das sind Monografie- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In den registrierten Präparaten morgens und mittags, etwa 30 Minuten vor dem Essen. Bei Beschwerden über zwei Wochen sieht die Monografie eine ärztliche Abklärung vor.',
     synergies: ['ashwagandha', 'l-theanin'],
     avoid: [],
-    evidence: 'hoch',
-    sources: 'Wildgesammelte Pflanze aus arktischen Regionen'
+    evidence: 'mittel',
+    sources: 'Wildgesammelte und kultivierte Pflanze aus arktischen und hoch gelegenen Regionen. Seit Februar 2023 steht die gesamte Gattung Rhodiola in CITES-Anhang II; Rohware und Extrakte sind genehmigungspflichtig, fertig abgepackte Endprodukte nicht.'
   },
   {
     id: 'ginseng',
@@ -793,18 +805,21 @@ const SUPPLEMENTS = [
     altNames: 'Brahmi',
     category: 'Adaptogen',
     tags: ['gehirn', 'gedaechtnis', 'fokus', 'stress', 'nootropic'],
-    short: 'Ayurvedisches Kraut für Gedächtnis und Lernen. Wirkt über Wochen kumulativ.',
-    description: 'Bacopa braucht 8–12 Wochen für volle Wirkung. Standardisiert auf Bacoside (45–55 %). Besonders wirksam fürs Langzeitgedächtnis.',
+    short: 'Ayurvedisches Kraut. Die belegte Wirkung sitzt fast nur im Gedächtnis und braucht rund zwölf Wochen.',
+    description: 'Der Effekt zeigt sich in den Studien nach rund zwölf Wochen täglicher Einnahme, gemessen wird er beim verzögerten Abruf. Untersucht werden standardisierte Extrakte; der bestuntersuchte, CDRI 08, ist auf nicht weniger als 55 % Bacoside eingestellt.',
     benefits: [
-      'Verbessert Gedächtnis und Lernen',
-      'Reduziert Angst',
-      'Schützt Nerven',
-      'Antioxidative Wirkung'
+      'Verbessert den verzögerten Abruf von Gelerntem (Gedächtnis)',
+      'Verlangsamt das Vergessen neu gelernter Information',
+      'Wirkung auf Angst uneinheitlich: positiv in zwei RCTs, kein Effekt in zwei weiteren',
+      'Neuroprotektion und antioxidative Wirkung bisher nur in Zellkultur und Tiermodell'
     ],
     risks: [
-      'Kann Magen reizen (mit Nahrung nehmen)',
-      'Kann Schilddrüsenhormone beeinflussen',
-      'Nicht vor OP'
+      'Magen-Darm-Beschwerden sind die häufigste dokumentierte Nebenwirkung: vermehrter Stuhlgang, Bauchkrämpfe, Übelkeit',
+      'Tierdaten zeigen einen Anstieg von T4; Vorsicht bei Schilddrüsenüberfunktion und unter Schilddrüsenmedikation, Humandaten fehlen',
+      'Hemmt mehrere Cytochrom-Isoenzyme; Fallberichte zu Agomelatin und Moclobemid',
+      'Cholinerge Wirkung: kritisch bei Acetylcholinesterase-Hemmern, langsamem Puls, Asthma, COPD, Magengeschwür',
+      'Absetzen vor Operationen wird empfohlen, ist aber nur mechanistisch begründet',
+      'Keine Daten für Schwangerschaft und Stillzeit'
     ],
     dosage: '300–600 mg standardisiert (50 % Bacoside).',
     intake: 'Mit fetthaltiger Mahlzeit (fettlöslich). Morgens oder mittags.',
@@ -819,26 +834,32 @@ const SUPPLEMENTS = [
     altNames: 'Curcumin C3 Complex',
     category: 'Kräuter',
     tags: ['entzuendung', 'gelenke', 'gehirn', 'anti-aging', 'anti-oxidant'],
-    short: 'Starkes natürliches Entzündungshemmer. Mit Piperin/Liposomal für Bioverfügbarkeit.',
-    description: 'Curcumin hat sehr niedrige Bioverfügbarkeit. Mit Piperin (schwarzer Pfeffer) × 2000. Liposomale oder Meriva-Formen sind noch besser.',
+    short: 'Bei Kniearthrose so wirksam wie Ibuprofen, mit weniger Magenbeschwerden. Die Bioverfügbarkeitstricks, die dafür nötig sind, fallen zugleich in den Fallserien zur Leberschädigung auf.',
+    description: 'Curcumin wird schlecht aufgenommen: In einer Dosiseskalation war bis zu einer Einzeldosis von 8.000 mg kein Curcumin im Serum nachweisbar. Deshalb arbeiten Präparate mit Piperin, Mizellen oder Phospholipid-Komplexen. Diese Wege unterscheiden sich pharmakokinetisch stark, und eigene Wirksamkeitsdaten gibt es nicht für jede Form. Klinisch am besten belegt ist die Kniearthrose. Für Krebsprävention, Anti-Aging und Leber-Entgiftung fehlt Vergleichbares.',
     benefits: [
-      'Stark entzündungshemmend',
-      'Lindert Gelenkschmerzen',
-      'Schützt Gehirn',
-      'Antioxidative Wirkung',
-      'Kann Depressionssymptome lindern',
-      'Unterstützt Leber-Entgiftung'
+      'Lindert bei Kniearthrose Schmerz und Funktionseinschränkung: Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten, -1,63 auf der Schmerzskala und -18,85 im WOMAC-Gesamtscore',
+      'War in einer Studie mit 367 Patienten über 4 Wochen gegenüber Ibuprofen nicht unterlegen, bei weniger Bauchbeschwerden',
+      'Senkt bei Kniearthrose CRP und TNF-alpha (Meta-Analyse über 21 Studien mit 1.705 Patienten), nicht aber Interleukin-6 und Prostaglandin E2',
+      'Als Zusatz zu Mesalazin bei aktiver Colitis ulcerosa: 53,8 % klinische Remission nach 4 Wochen gegenüber keinem Patienten unter Placebo',
+      'Bessert bei Fettleber die Steatose (Odds Ratio 4,39); eine zweite Meta-Analyse findet für ALT keinen Effekt',
+      'Verbessert in 18 doppelblinden Studien gedächtnisbezogene Endpunkte (standardisierte mittlere Differenz 0,57), andere kognitive Domänen nicht',
+      'Kann depressive Symptome lindern, der Effekt ist aber heterogen und laut den Autoren fragil'
     ],
     risks: [
-      'Mit Blutverdünnern vorsichtig',
-      'Bei Gallensteinen meiden',
-      'Hohe Dosen: Magenreizung'
+      'LiverTox führt Kurkuma mit dem Likelihood Score A als gut dokumentierte Ursache klinisch manifester Leberschädigung, Latenz typischerweise 1 bis 4 Monate',
+      'DILIN-Fallserie: 10 Fälle, 5 Krankenhausaufenthalte, 1 Todesfall durch akutes Leberversagen',
+      'HLA-B*35:01 bei 7 von 10 dieser Fälle – die Veranlagung ist vorher nicht erkennbar',
+      'Betroffen waren vor allem hoch dosierte und bioverfügbarkeitsoptimierte Präparate, oft mit Piperin',
+      'Laut EU-Monographie nicht empfohlen bei Verschluss der Gallenwege, Cholangitis, Lebererkrankung und Gallensteinen',
+      'Nicht in Schwangerschaft und Stillzeit; für unter 18-Jährige mangels Daten nicht belegt',
+      'Mögliche Wechselwirkungen mit NSAR, Thrombozytenaggregationshemmern, Lipidsenkern, Immunsuppressiva und Warfarin – klinische Belege laut EMA unzureichend',
+      'Vom BfR geprüfte Nahrungsergänzungsmittel überschritten den ADI von 3 mg/kg Körpergewicht deutlich (8,3 und 6,1 mg/kg)'
     ],
-    dosage: '500–2.000 mg täglich mit Piperin, oder 200–500 mg Liposomal.',
-    intake: 'Mit fetthaltiger Mahlzeit. Aufgeteilt 2× täglich.',
+    dosage: 'Die EFSA nennt für Curcumin einen ADI von 3 mg pro Kilogramm Körpergewicht und Tag, und zwar über alle Quellen zusammen. Studien lagen darüber: Die Vergleichsstudie gegen Ibuprofen verwendete 1.500 mg Curcuma-domestica-Extrakt pro Tag über 4 Wochen, die Colitis-Studie 3 g Curcumin pro Tag. Die EU-Monographie für das traditionelle Arzneimittel erlaubt höchstens 4 g Kurkuma pro Tag, das entspricht maximal 209 mg Curcuminoiden.',
+    intake: 'Fettlöslich, daher zu einer Mahlzeit. Wichtiger als die Tageszeit ist die Dauer: Leberschäden traten typischerweise nach 1 bis 4 Monaten auf. Bauchschmerzen, dunkler Urin oder eine Gelbfärbung von Haut oder Augen sind ein Grund, das Präparat abzusetzen und ärztlichen Rat zu suchen.',
     synergies: ['omega-3', 'resveratrol'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Kurkuma-Wurzel (goldene Milch)'
   },
 
@@ -846,29 +867,32 @@ const SUPPLEMENTS = [
   {
     id: 'coq10',
     name: 'Coenzym Q10 (Ubiquinol)',
-    altNames: 'Ubiquinol / Ubiquinon',
+    altNames: 'Ubiquinon (oxidiert) / Ubiquinol (reduziert)',
     category: 'Antioxidant',
     tags: ['herz', 'energie', 'anti-aging', 'mitochondrien', 'haut'],
-    short: 'Mitochondrien-Treibstoff. Ubiquinol ist die aktive, besser verfügbare Form.',
-    description: 'CoQ10 ist zentral für ATP-Produktion. Ab 40 Jahren sinkt körpereigene Produktion. Statine blockieren die Synthese – dann Supplementierung besonders wichtig.',
+    short: 'Träger der Atmungskette. Ubiquinol wird besser aufgenommen, die Studien mit harten Endpunkten nutzten aber Ubiquinon.',
+    description: 'CoQ10 transportiert in der Atmungskette Elektronen und ist damit an der ATP-Produktion beteiligt. Das BfR stuft es nicht als essentiellen Nährstoff ein, weil der gesunde Körper es selbst bildet. Am besten belegt ist der Einsatz bei chronischer Herzinsuffizienz. Statine senken den CoQ10-Spiegel im Blut messbar – ob eine Zufuhr Muskelbeschwerden lindert, ist strittig.',
     benefits: [
-      'Mehr Zellenergie (ATP)',
-      'Schützt Herz',
-      'Wichtig bei Statin-Einnahme',
-      'Antioxidant für Mitochondrien',
-      'Verbessert Hautqualität',
-      'Kann Migräne reduzieren'
+      'Senkte bei chronischer Herzinsuffizienz kardiovaskuläre Ereignisse und Sterblichkeit (Q-SYMBIO, Cochrane: Evidenz moderater Qualität)',
+      'Reduziert in Meta-Analysen die Migräne-Attackenfrequenz',
+      'Verbessert bei idiopathischer männlicher Unfruchtbarkeit Spermienkonzentration und Motilität',
+      'Erhöht die CoQ10-Blutspiegel zuverlässig – auch unter Statintherapie',
+      'Senkt den systolischen Blutdruck leicht, der Befund ist jedoch nicht stabil',
+      'Kleine Studie: weniger Falten und Mikrorelieflinien nach 12 Wochen'
     ],
     risks: [
-      'Sehr sicher',
-      'Selten: leichte Übelkeit',
-      'Nicht abends (energetisch)'
+      'Bis 300 mg täglich gelegentlich Übelkeit, Sodbrennen, Magenbeschwerden, Durchfall',
+      'Ab 100 mg täglich wurde leichte Schlaflosigkeit berichtet – deshalb nicht abends',
+      'Wechselwirkung mit Cumarin-Antikoagulanzien und Blutdrucksenkern laut BfR unzureichend untersucht',
+      'Warfarin-Therapieversagen unter CoQ10 beschrieben (reversibel)',
+      'Nicht bei laufender Chemotherapie, Gallenwegsverschluss oder bekannter Überempfindlichkeit',
+      'Keine Daten für Schwangerschaft und Stillzeit'
     ],
-    dosage: '100–300 mg Ubiquinol täglich.',
-    intake: 'Mit fetthaltiger Mahlzeit. Morgens oder mittags.',
+    dosage: 'Das BfR empfiehlt für Nahrungsergänzungsmittel bis zu 100 mg pro Tag und rät darüber zu ärztlichem Rat. Studien verwendeten mehr: Q-SYMBIO dreimal täglich 100 mg, KiSel-10 200 mg mit Selen, Statin-Studien 100 bis 600 mg pro Tag.',
+    intake: 'Fettlöslich, daher mit einer fetthaltigen Mahlzeit. Morgens oder mittags, weil ab 100 mg täglich leichte Schlaflosigkeit berichtet wurde.',
     synergies: ['omega-3', 'vitamin-e', 'pqq'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Innereien, fetter Fisch, Rindfleisch'
   },
   {
@@ -939,22 +963,25 @@ const SUPPLEMENTS = [
     altNames: 'Haematococcus pluvialis',
     category: 'Antioxidant',
     tags: ['anti-oxidant', 'haut', 'augen', 'ausdauer', 'entzuendung'],
-    short: 'Das stärkste natürliche Antioxidans. 500× stärker als Vitamin E.',
-    description: 'Astaxanthin überquert die Blut-Hirn- und Blut-Retina-Schranke. Gibt Lachs seine rote Farbe. Aus Süßwasseralgen gewonnen.',
+    short: 'Carotinoid aus Mikroalgen. Am Menschen belegt für Hautfeuchtigkeit, Hautelastizität und Regeneration nach harten Einheiten.',
+    description: 'Astaxanthin gibt Lachs und Krill seine rote Farbe und wird für Nahrungsergänzungsmittel aus der Süßwasseralge Haematococcus pluvialis gewonnen. In der EU ist es ein zulassungspflichtiges neuartiges Lebensmittel mit altersgestaffelten Höchstmengen.',
     benefits: [
-      'Extrem starkes Antioxidans',
-      'Schutz vor UV-Schäden (von innen)',
-      'Verbessert Hautelastizität',
-      'Schützt Augen vor Blaulicht',
-      'Reduziert Entzündungen',
-      'Verbessert Ausdauer'
+      'Verbessert Hautfeuchtigkeit und Hautelastizität (Meta-Analyse über 8 RCTs)',
+      'Senkt die Kreatinkinase nach belastendem Training (Meta-Analyse über 24 RCTs)',
+      'Bessert Nüchternblutzucker, HbA1c und LDL bei Prädiabetes und Typ-2-Diabetes',
+      'Senkt oxidierte Plasmaproteine am Menschen messbar',
+      'Senkt einzelne Entzündungsmarker, nicht alle',
+      'UV-Schutz von innen: Einzelbefund aus einer Studie mit 23 Teilnehmern'
     ],
     risks: [
-      'Sehr sicher',
-      'Haut kann leicht rötlicher werden (pigment)',
-      'Nur auf Fermentations-Herkunft achten'
+      'In der EU ab 14 Jahren auf 8 mg pro Tag begrenzt; für Kinder unter 3 Jahren nicht zugelassen',
+      'Bei Kindern von 10 bis unter 14 Jahren überschreitet schon die zugelassene Menge den EFSA-Tagesrichtwert',
+      'In Schwangerschaft und Stillzeit nicht ausreichend untersucht',
+      'Während Chemo- oder Strahlentherapie abgeraten: Antioxidantien können die Behandlung schwächen',
+      'Mögliche Beeinflussung von Cytochrom-P450-Enzymen und damit des Arzneimittelabbaus',
+      'Krillprodukte bei Krebstierallergie problematisch'
     ],
-    dosage: '4–12 mg täglich.',
+    dosage: 'In der EU ab 14 Jahren bis 8 mg täglich zugelassen (Oleoresin aus Haematococcus pluvialis). Studien haben 2 bis 12 mg täglich eingesetzt.',
     intake: 'Mit fetthaltiger Mahlzeit (fettlöslich).',
     synergies: ['omega-3', 'vitamin-e', 'coq10'],
     avoid: [],
@@ -964,36 +991,33 @@ const SUPPLEMENTS = [
   {
     id: 'glutathion',
     name: 'Glutathion',
-    altNames: 'Liposomales Glutathion / NAC',
+    altNames: 'Liposomales Glutathion / GSH / S-Acetyl-Glutathion',
     category: 'Antioxidant',
     tags: ['entgiftung', 'anti-aging', 'immun', 'leber', 'anti-oxidant'],
-    short: 'Das „Master-Antioxidans". Zentral für Entgiftung und Leberschutz.',
-    description: 'Glutathion wird aus Cystein, Glycin und Glutamin gebildet. NAC ist die Vorstufe. Liposomales oder sublinguales Glutathion direkt einnehmen.',
+    short: 'Das wichtigste körpereigene Antioxidans. Umstritten ist, ob geschlucktes Glutathion dort ankommt, wo es arbeitet.',
+    description: 'Glutathion ist ein Tripeptid aus Cystein, Glutaminsäure und Glycin, das jede Zelle selbst bildet; N-Acetylcystein ist eine Vorstufe und ein eigener Stoff. Im Darm wird Glutathion durch die Gamma-Glutamyltransferase gespalten. Ob liposomale, sublinguale oder mizellare Formen das relevant ändern, ist am Blutspiegel gezeigt, nicht am klinischen Ergebnis.',
     benefits: [
-      'Master-Antioxidans des Körpers',
-      'Unterstützt Phase-II-Entgiftung',
-      'Leberschutz wird postuliert – Humandaten dünn, die orale Aufnahme ist umstritten',
-      'Soll das Immunsystem stärken – überwiegend Labordaten',
-      'Reduziert oxidativen Stress im Labor – Übertragbarkeit auf die Einnahme offen'
+      'Mengenmäßig wichtigstes körpereigenes Antioxidans',
+      'Kofaktor der Phase-II-Konjugation und der Glutathionperoxidase – körpereigene Biochemie, kein gezeigter Effekt der Einnahme',
+      'Hebt die messbaren Glutathionspeicher über Monate an – randomisiert über sechs Monate gezeigt, gegenüber dem Ausgangswert',
+      'Senkt den Melanin-Index an sonnenexponierter Haut leicht – mehrere randomisierte Studien, kleine Effekte, eine größere Studie ohne Signifikanz',
+      'Leberschutz, Entgiftung und Immunstärkung als Effekt der Einnahme – keine belastbaren Humandaten'
     ],
     risks: [
-      'Selten: schwefeliger Geruch/Magenbeschwerden',
-      'Orales Glutathion wenig wirksam – NAC oder liposomal'
+      'Selten: schwefeliger Geruch, Magen-Darm-Beschwerden',
+      'Bei Asthma und Sulfitempfindlichkeit: vernebeltes Glutathion löste in einer kontrollierten Provokation eine deutliche Atemwegsverengung aus',
+      'Intravenöse Anwendung zur Hautaufhellung ist von Arzneimittelbehörden beanstandet – berichtet wurden schwere Hautreaktionen, Schilddrüsen- und Nierenfunktionsstörungen, Luftembolie und Sepsis',
+      'Wechselwirkungen mit Arzneimitteln sind für die orale Form nicht systematisch untersucht',
+      'Keine Langzeitdaten über sechs Monate hinaus'
     ],
-    dosage: '250–500 mg liposomal oder 600–1.800 mg NAC täglich.',
-    intake: 'Auf leeren Magen morgens oder vor dem Schlafen.',
+    dosage: 'In den Studien eingesetzt wurden 250 bis 1.000 mg Glutathion täglich über bis zu sechs Monate. Das BVL erlaubt seit 2017 für Importe aus dem EU- und EWR-Raum höchstens 200 mg je Kapsel bei zwei Kapseln als empfohlener Tagesverzehrsmenge; die EFSA hat für S-Acetyl-Glutathion 300 mg täglich für Erwachsene als sicher bewertet.',
+    intake: 'In den Studien wurde die Einnahme unterschiedlich gehandhabt. Ein Vorteil einer bestimmten Tageszeit oder der Einnahme auf leeren Magen ist nicht untersucht.',
     synergies: ['vitamin-c', 'alpha-liponsaeure', 'selen'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Spargel, Avocado, Molke (Glutathion instabil in Nahrung)',
     podcasts: [
-      {
-        title: 'Glutathion: Das Master-Antioxidans im Faktencheck',
-        audio: 'audio/glutathion-podcast.mp3',
-        spotify: '0E6RA6fW9xUHQJ9iAY3k72',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 65) \u00b7 mit Paul & Paula. Das Master-Antioxidans: GSH/GSSG, Leber-Phase-2, Altersabfall, orale Daten (Richie 2015), die Baustein-Strategie mit NAC + Glycin (GlyNAC), Schwefel-K\u00fcche, Selen, Tank-Leerer (Alkohol, Paracetamol) und die Hormesis-Falle beim Training. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 04.09.2026, 10:00)'
-      }
+      { title: 'Glutathion: Das Master-Antioxidans im Faktencheck', audio: 'audio/glutathion-podcast.mp3', spotify: '0E6RA6fW9xUHQJ9iAY3k72', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 65) · mit Paul & Paula. Das Master-Antioxidans: GSH/GSSG, Leber-Phase-2, Altersabfall, orale Daten (Richie 2015), die Baustein-Strategie mit NAC + Glycin (GlyNAC), Schwefel-Küche, Selen, Tank-Leerer (Alkohol, Paracetamol) und die Hormesis-Falle beim Training. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 04.09.2026, 10:00)' }
     ]
   },
   {
@@ -1002,22 +1026,26 @@ const SUPPLEMENTS = [
     altNames: 'R-ALA',
     category: 'Antioxidant',
     tags: ['blutzucker', 'anti-oxidant', 'nerven', 'leber', 'mitochondrien'],
-    short: 'Wasser- und fettlösliches Antioxidans. Reguliert Blutzucker und recycelt andere Antioxidantien.',
-    description: 'R-ALA ist die biologisch aktive Form. Reguliert Blutzucker, regeneriert Vitamin C, E und Glutathion. Wirkt in Mitochondrien.',
+    short: 'Wasser- und fettlösliches Antioxidans und körpereigener Cofaktor im Energiestoffwechsel. Gut belegt gegen die Missempfindungen der diabetischen Polyneuropathie, in Deutschland dafür als Arzneimittel zugelassen.',
+    description: 'Schwefelhaltige Fettsäure, die der Körper selbst bildet und die als fest gebundener Cofaktor in mitochondrialen Dehydrogenase-Komplexen sitzt. Die R-Form ist die natürlich vorkommende und wird besser aufgenommen als die S-Form, ist aber weniger stabil; die gesamte klinische Evidenz und das zugelassene Arzneimittel beruhen auf dem Racemat (DL-alpha-Liponsäure), nicht auf R-ALA.',
     benefits: [
-      'Verbessert Insulin-Sensitivität',
-      'Senkt Blutzucker',
-      'Wasser- und fettlöslich (universell)',
-      'Recycelt andere Antioxidantien',
-      'Hilft bei diabetischer Neuropathie'
+      'Lindert die sensiblen Symptome der diabetischen Polyneuropathie (10 RCTs, 1.242 Patienten)',
+      'Bessert den Defizitscore und die Patientenzufriedenheit in denselben Studien',
+      'Senkt HbA1c geringfügig (0,35 Punkte über 41 Arbeiten) — ohne messbaren Effekt auf Insulin und HOMA-IR',
+      'Kleiner Gewichtseffekt: 1,27 kg gegenüber Placebo über 10 doppelblinde Studien',
+      'Wasser- und fettlöslich, wirkt als Cofaktor direkt in den Mitochondrien'
     ],
     risks: [
-      'Bei Hypoglykämie Vorsicht',
-      'Kann Biotin-Aufnahme blockieren',
-      'Seltener Hautausschlag'
+      'Insulin-Autoimmun-Syndrom mit schweren Unterzuckerungen bei bestimmten HLA-Varianten (EFSA 2021, 49 Fallberichte); seit 2015 Warnhinweis in der europäischen Produktinformation',
+      'Verstärkt die Wirkung von Insulin und oralen Antidiabetika',
+      'Übelkeit, Erbrechen und Schwindel nehmen mit der Dosis zu',
+      'Wirkungsverlust von Cisplatin möglich',
+      'Komplexbildung mit Eisen, Magnesium, calciumhaltigen Präparaten und Milchprodukten — zeitlicher Abstand nötig',
+      'Biotin teilt sich mit Lipoat den Transporter SLC5A6; eine dadurch ausgelöste Biotin-Unterversorgung ist am Menschen nicht gezeigt',
+      'Nicht geeignet für Kinder, Schwangere und Stillende'
     ],
-    dosage: '300–600 mg R-ALA täglich.',
-    intake: 'Auf leeren Magen, 30 min vor Mahlzeit.',
+    dosage: 'Das in Deutschland zugelassene Arzneimittel enthält 600 mg racemische (DL-)alpha-Liponsäure täglich; die Neuropathie-Studien haben 600 bis 1.800 mg geprüft und 600 mg als bestes Nutzen-Risiko-Verhältnis beschrieben.',
+    intake: 'Nüchtern, etwa 30 Minuten vor der ersten Mahlzeit; Abstand zu Eisen, Magnesium, calciumhaltigen Präparaten und Milchprodukten.',
     synergies: ['acetyl-l-carnitin', 'coq10'],
     avoid: [],
     evidence: 'mittel',
@@ -1029,21 +1057,26 @@ const SUPPLEMENTS = [
     altNames: 'Quercetin-Dihydrat',
     category: 'Antioxidant',
     tags: ['immun', 'allergie', 'anti-aging', 'senolytikum', 'entzuendung'],
-    short: 'Pflanzliches Flavonoid. Antihistaminisch und anti-entzündlich; die senolytische Wirkung ist beim Menschen nur zusammen mit Dasatinib geprüft.',
-    description: 'Quercetin gilt als Senolytikum – als Stoff, der alternde Zellen beseitigt. Am Menschen ist das nie allein geprüft worden: In allen vier Humanstudien (diabetische Nierenerkrankung, Lungenfibrose zweimal, Knochenstoffwechsel) wurde Quercetin immer zusammen mit dem verschreibungspflichtigen Krebsmedikament Dasatinib gegeben. Die Kombination existiert, weil beide Substanzen unterschiedliche Typen alternder Zellen erreichen. Dazu kommt: Die Aufnahme im Darm schwankte über die Studien hinweg zwischen null und über fünfzig Prozent der Dosis.',
+    short: 'Pflanzliches Flavonol. Am besten belegt ist eine leichte Blutdrucksenkung ab 500 mg täglich; die senolytische Wirkung ist beim Menschen nur zusammen mit Dasatinib geprüft.',
+    description: 'Quercetin ist das häufigste Flavonol der Ernährung. Das am besten untersuchte Feld ist der Blutdruck: Drei Meta-Analysen über 7, 10 und 17 randomisierte Studien finden eine Senkung um 2,38 bis 3,09 mmHg systolisch, deutlicher ab 500 mg täglich und deutlicher bei bereits erhöhtem Blutdruck. Nach harter Belastung beschleunigt Quercetin die Erholung; die Ausdauerleistung selbst verbessert es bei Trainierten nicht. Als Senolytikum ist es am Menschen nie allein geprüft worden – in allen fünf Humanstudien stand es neben dem verschreibungspflichtigen Dasatinib, und die einzige Phase-2-Studie hat ihren primären Endpunkt verfehlt. Die Aufnahme hängt stark von der chemischen Form ab: 52 % aus Zwiebel-Glucosiden, 24 % aus dem Aglykon, 17 % aus Rutinosid.',
     benefits: [
-      'Wirkt antihistaminisch (bei Allergien)',
-      'Starkes Antioxidans',
-      'Senolytischer Effekt – am Menschen nur in Kombination mit Dasatinib geprüft',
-      'Stärkt Immunsystem',
-      'Verbessert Herzfunktion'
+      'Senkt den Blutdruck leicht – 2,38 bis 3,09 mmHg systolisch in drei Meta-Analysen, ab 500 mg täglich deutlicher',
+      'Wirkt vor allem bei bereits erhöhtem Blutdruck; bei Prähypertonie zeigte sich keine Änderung',
+      'Beschleunigt die Erholung nach harter Belastung: weniger Muskelkater, niedrigere Kreatinkinase (13 RCTs, 249 Teilnehmer)',
+      'Bessert Nasensymptome bei allergischer Rhinitis – Polyphenole gemeinsam ausgewertet, Vertrauen in die Evidenz niedrig bis sehr niedrig',
+      'Senolytischer Effekt – am Menschen nur in Kombination mit Dasatinib geprüft, nie allein'
     ],
     risks: [
-      'Aufnahme sehr schwankend (über Studien hinweg 0 bis über 50 % der Dosis) – mit Bromelain/Piperin verbessern',
+      'Aufnahme hängt stark von der chemischen Form ab: 52 % aus Zwiebel-Glucosiden, 24 % aus dem Aglykon, 17 % aus Rutinosid – mit Nahrungsfett oder als Phytosom verbessern',
+      'BfR: keine ausreichenden Daten für die Anwendung über mehr als 12 Wochen bei Dosen ab 1.000 mg täglich',
+      'BfR aus Tierdaten: könnte nierenschädigende Effekte an vorgeschädigter Niere verstärken',
+      'BfR aus Tierdaten: könnte die Tumorentwicklung bei östrogenabhängigen Krebserkrankungen fördern',
+      'Verändert die Bioverfügbarkeit bestimmter Arzneimittel – nicht neben eng dosierter Dauermedikation',
+      'Sehr hohe Antioxidantiendosen können Trainingsanpassungen bremsen (ISSN Position Stand 2026)',
       'Selten: Kopfschmerzen'
     ],
-    dosage: '500–1.000 mg täglich, senolytisch: 1.500 mg 2 Tage/Monat.',
-    intake: 'Mit fetthaltiger Mahlzeit. Mit Bromelain für Aufnahme.',
+    dosage: 'Studien verwendeten 500 mg täglich (Blutdruck) und 1.000 mg täglich (Sport und Regeneration); senolytisch 1.000 bis 1.250 mg an wenigen Tagen pro Woche, immer zusammen mit Dasatinib.',
+    intake: 'Mit fetthaltiger Mahlzeit; Ballaststoffe verdoppeln die Aufnahme etwa. Belegte Formen mit besserer Aufnahme sind Glucoside, Oligoglucoside und Lecithin-Phytosom.',
     synergies: ['vitamin-c', 'fisetin', 'bromelain'],
     avoid: [],
     evidence: 'mittel',
@@ -1119,38 +1152,39 @@ const SUPPLEMENTS = [
   {
     id: 'berberin',
     name: 'Berberin',
-    altNames: 'Berberis aristata',
+    altNames: 'Berberis aristata, Berberis vulgaris, Coptis chinensis, Phellodendron amurense, Hydrastis canadensis',
     category: 'Kräuter',
     tags: ['blutzucker', 'stoffwechsel', 'darm', 'gewicht', 'cholesterin'],
-    short: 'Pflanzenstoff, fast so wirksam wie Metformin bei Blutzucker.',
-    description: 'Berberin aktiviert AMPK, einen zentralen Energiesensor. Reguliert Blutzucker und Cholesterin auf natürlichem Weg.',
+    short: 'Senkt Blutzucker und Blutfette in mehreren Meta-Analysen, meist kleine Studien aus einer Region. Rechtlich hat sich die Lage 2026 gedreht: Die EFSA konnte für keine berberinhaltige Zubereitung eine sichere Aufnahmemenge ableiten.',
+    description: 'Berberin ist ein Isochinolin-Alkaloid aus Berberitze, Goldfaden, Korkbaum und Goldwurzel. Bei Typ-2-Diabetes senkt es Blutzuckerwerte und Blutfette, gepoolt über mehr als 30 Studien aber nur um 0,19 Prozentpunkte HbA1c. Die AMPK-Erzählung hat ein Aufnahmeproblem: Die orale Bioverfügbarkeit liegt bei der Ratte bei 0,68 Prozent, beim Menschen werden nur Plasmaspiegel im niedrigen Nanogramm-pro-Milliliter-Bereich erreicht. Am 29. Januar 2026 billigte das EFSA-NDA-Panel einen Entwurf, wonach sich für keine der 13 geprüften berberinhaltigen Pflanzenzubereitungen eine sichere Aufnahmemenge ableiten lässt.',
     benefits: [
-      'Senkt Blutzucker (ähnlich Metformin)',
-      'Senkt Cholesterin',
-      'Unterstützt Gewichtsverlust',
-      'Verbessert Darmflora',
-      'Aktiviert AMPK'
+      'Senkt bei Typ-2-Diabetes Blutzuckerwerte: Meta-Analyse über 27 randomisierte Studien mit 2.569 Patienten, zusätzlich zur Lebensstilintervention stärker als diese allein',
+      'Gepoolt über mehr als 30 Studien mit mehr als 2.000 Teilnehmern: Nüchternglukose −0,71 mmol/l, HbA1c −0,19 Prozentpunkte, von den Autoren selbst als klinisch bescheiden eingeordnet',
+      'Senkt Blutfette: 16 randomisierte Studien mit 2.147 Teilnehmern, Gesamtcholesterin −0,47 mmol/l, LDL −0,38 mmol/l, Triglyzeride −0,28 mmol/l, HDL +0,08 mmol/l',
+      'Eigener Lipidmechanismus, verschieden von dem der Statine: Stabilisierung der LDL-Rezeptor-mRNA über die 3-untranslatierte Region, im Hamster 3,5-facher mRNA-Anstieg',
+      'Verringert das Wiederauftreten von Dickdarmadenomen: doppelblind, 1.108 randomisierte Teilnehmer, 36 Prozent gegenüber 47 Prozent, relatives Risiko 0,77',
+      'Verändert die Zusammensetzung der Darmflora: 6 von 7 randomisierten Studien fanden signifikante Verschiebungen, die Richtung ist laut den Autoren aber nicht einheitlich günstig'
     ],
     risks: [
-      'Kann Magen-Darm reizen',
-      'Niedrige Bioverfügbarkeit',
-      'Nicht in Schwangerschaft',
-      'Interagiert mit vielen Medikamenten'
+      'In Nahrungsergänzungsmitteln in der EU derzeit nicht verwendbar; die EFSA konnte am 29. Januar 2026 für keine der 13 geprüften Zubereitungen eine sichere Aufnahmemenge ableiten',
+      'Hemmt und induziert CYP3A4, hemmt CYP2D6 und CYP2C9 quasi-irreversibel über einen Metabolit-Intermediat-Komplex',
+      'Moduliert P-Glykoprotein sowie die Transporter OCT1, OCT2 und MATE1',
+      'Belegter klinischer Fall: Bei Nierentransplantierten stieg die Ciclosporin-Exposition um 34,5 Prozent, der Talspiegel lag 29,3 Prozent über dem der Kontrolle',
+      'Additive Effekte bei Unterzuckerung, Blutdruckabfall und QT-Verlängerung',
+      'Hinweise auf Genotoxizität in Zellversuchen (Genmutation, Chromosomenschäden), im lebenden Organismus noch nicht bestätigt; Hydrastis-canadensis-Zubereitungen zeigten im Nagerversuch Leberadenome',
+      'Magen-Darm-Beschwerden häufig: 20 von 58 Patienten (34,5 Prozent) in der Metformin-Vergleichsstudie',
+      'Die ANSES rät ab bei Schwangeren und Stillenden, Kindern und Jugendlichen sowie bei Diabetes, Leber- und Herzerkrankungen',
+      'Schwankende handelsübliche Wirkstärke; die nationalen Obergrenzen in Europa unterscheiden sich um mehr als eine Größenordnung',
+      'Sehr geringe Aufnahme: 0,68 Prozent orale Bioverfügbarkeit bei der Ratte'
     ],
-    dosage: '500 mg 2–3× täglich (Gesamt 1.000–1.500 mg).',
-    intake: 'Vor oder zu den Mahlzeiten.',
-    synergies: ['alpha-liponsaeure', 'zimt'],
+    dosage: 'Keine Empfehlung. Berberin ist in Deutschland kein zugelassenes Arzneimittel, weshalb § 3a Heilmittelwerbegesetz greift, und darf in Nahrungsergänzungsmitteln in der EU derzeit nicht verwendet werden. Zur Einordnung: Die französische ANSES leitete 2019 einen indikativen Toxizitätswert von 1,7 Mikrogramm je Kilogramm Körpergewicht und Tag ab und gibt selbst an, dass daraus für eine Person von 60 kg eine Tagesmenge von 0,1 mg folgt. Belegte pharmakologische Wirkungen sieht die ANSES ab 400 mg pro Tag, unerwünschte Wirkungen wurden ab 600 mg pro Tag beobachtet. Auf dem französischen Markt reichten die empfohlenen Tagesdosen zugleich von 250 bis 1.200 mg.',
+    intake: 'Keine Einnahmeempfehlung. Wer bereits Medikamente einnimmt, sollte den Stoff wegen der Wechselwirkungen über CYP3A4, CYP2D6, CYP2C9 und P-Glykoprotein in jedem Fall ärztlich oder in der Apotheke ansprechen, statt ihn auf eigene Faust zu kombinieren.',
+    synergies: [],
     avoid: [],
-    evidence: 'hoch',
-    sources: 'Berberitze, Goldfaden',
+    evidence: 'mittel',
+    sources: 'Berberitze, chinesischer Goldfaden, Korkbaum, nordamerikanische Goldwurzel. Kein Lebensmittel im üblichen Sinn und in Deutschland kein zugelassenes Arzneimittel.',
     podcasts: [
-      {
-        title: 'Berberin: Das Natur-Metformin im Faktencheck',
-        audio: 'audio/berberin-podcast.mp3',
-        spotify: '7bSC4EYeFxIAgFjCAvkO8c',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 48) \u00b7 mit Paul & Paula. Der gelbe Pflanzenstoff, der im Direktvergleich mit Metformin mithielt (Yin, Metabolism 2008), der AMPK-Fasten-Schalter, LDL \u221220 mg/dl \u00fcber PCSK9, die Mikrobiom-Pointe (Dihydroberberin), PCOS-Daten und Wechselwirkungen (CYP3A4). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 19.08.2026, 10:00)'
-      }
+      { title: 'Berberin: Das Natur-Metformin im Faktencheck', audio: 'audio/berberin-podcast.mp3', spotify: '7bSC4EYeFxIAgFjCAvkO8c', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 48) · mit Paul & Paula. Der gelbe Pflanzenstoff, der im Direktvergleich mit Metformin mithielt (Yin, Metabolism 2008), der AMPK-Fasten-Schalter, LDL −20 mg/dl über PCSK9, die Mikrobiom-Pointe (Dihydroberberin), PCOS-Daten und Wechselwirkungen (CYP3A4). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 19.08.2026, 10:00)' }
     ]
   },
   {
@@ -1159,33 +1193,29 @@ const SUPPLEMENTS = [
     altNames: 'Polyamin',
     category: 'Longevity',
     tags: ['anti-aging', 'autophagie', 'longevity', 'haare', 'herz'],
-    short: 'Induziert Autophagie (zelluläre Selbstreinigung) – wie Fasten in Pillenform.',
-    description: 'Spermidin triggert Autophagie, den Recycling-Prozess der Zellen. In Weizenkeimen und gereiftem Käse besonders hoch.',
+    short: 'Polyamin aus Weizenkeimen, das in Hefe, Fliegen und Mäusen Autophagie anschiebt – am Menschen bisher nur in einer Pilotstudie gemessen.',
+    description: 'Spermidin ist ein körpereigenes Polyamin, das in Weizenkeimen und Pilzen besonders hoch konzentriert ist. Der Autophagie-Mechanismus ist im Tiermodell kausal belegt, die Kohortendaten zur Sterblichkeit sind stark – die grösste randomisierte Studie am Menschen hat ihren primären Endpunkt aber verfehlt.',
     benefits: [
-      'Aktiviert Autophagie',
-      'Unterstützt Haarwuchs',
-      'Herzschutz aus Tier- und Kohortendaten – keine harten Endpunkte am Menschen',
-      'Anti-Aging-Effekte',
-      'Kann Lebensdauer verlängern'
+      'Höhere Spermidinzufuhr aus dem Essen geht in zwei Kohorten mit niedrigerer Sterblichkeit einher – Bruneck mit 829 und UK Biobank mit 184.732 Teilnehmern',
+      'Autophagie-Induktion in Hefe, Fliegen, Würmern und Mäusen kausal belegt; am Menschen einmal gemessen, in einer Pilotstudie mit 40 Teilnehmern und nur in B-Zellen',
+      'Herzschutz und Lebensverlängerung bislang nur im Tiermodell – keine harten Endpunkte am Menschen',
+      'Hinweis auf längere Wachstumsphase der Haare aus einer herstellerfinanzierten Studie zu einem Kombinationspräparat unbekannter Zusammensetzung',
+      'Weniger Mundtrockenheit nach Kopf-Hals-Bestrahlung in einer randomisierten Proof-of-Concept-Studie mit 58 Patienten'
     ],
     risks: [
-      'Sehr sicher',
-      'In der Schwangerschaft meiden'
+      'Gut verträglich in den untersuchten Mengen – kontrollierte Daten reichen bis 12 Monate, darüber hinaus fehlen sie',
+      'In Schwangerschaft und Stillzeit meiden – die EU-Zulassung schliesst beide aus',
+      'Bei Krebserkrankung oder immunsuppressiver Therapie nur nach ärztlicher Rücksprache',
+      'Rohstoff ist Weizenkeim – bei Glutenunverträglichkeit ungeeignet'
     ],
-    dosage: '1–6 mg täglich.',
+    dosage: 'In der EU sind höchstens 6 mg Spermidin pro Tag als Lebensmittel zugelassen. Die Studien verwendeten 0,9 mg (SmartAge), 1 mg, 1,2 mg, 6 mg, 15 mg, 24 mg und 40 mg täglich.',
     intake: 'Morgens auf leeren Magen.',
     synergies: ['resveratrol', 'quercetin'],
     avoid: [],
-    evidence: 'mittel',
-    sources: 'Weizenkeime, gereifter Käse, Soja, Pilze',
+    evidence: 'schwach',
+    sources: 'Weizenkeime (höchster gemessener Polyamingehalt überhaupt), Pilze, grüne Paprika, Erbsen, Zitrusfrüchte, Soja und Tempeh; in gereiftem Käse dominiert Putrescin, nicht Spermidin',
     podcasts: [
-      {
-        title: 'Spermidin: Das Zellreinigungs-Molek\u00fcl im Faktencheck',
-        audio: 'audio/spermidin-podcast.mp3',
-        spotify: '23hyzWDQbnBZy7LZkqL1SI',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 50, Jubil\u00e4um!) \u00b7 mit Paul & Paula. Das Fasten-Imitat zum Schlucken: Eisenberg (Nature Medicine 2016: l\u00e4ngeres Leben, elastischere Herzen), Bruneck-Kohorte (Kiechl, AJCN 2018: ~5 Jahre niedrigere Sterblichkeit), Autophagie-Mechanismus, die ehrliche SmartAge-Einordnung und die Spermidin-Speisekarte von Weizenkeimen bis Natto. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 21.08.2026, 10:00)'
-      }
+      { title: 'Spermidin: Das Zellreinigungs-Molekül im Faktencheck', audio: 'audio/spermidin-podcast.mp3', spotify: '23hyzWDQbnBZy7LZkqL1SI', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 50, Jubiläum!) · mit Paul & Paula. Das Fasten-Imitat zum Schlucken: Eisenberg (Nature Medicine 2016: längeres Leben, elastischere Herzen), Bruneck-Kohorte (Kiechl, AJCN 2018: ~5 Jahre niedrigere Sterblichkeit), Autophagie-Mechanismus, die ehrliche SmartAge-Einordnung und die Spermidin-Speisekarte von Weizenkeimen bis Natto. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 21.08.2026, 10:00)' }
     ]
   },
 
@@ -1228,28 +1258,31 @@ const SUPPLEMENTS = [
   {
     id: 'probiotika',
     name: 'Probiotika',
-    altNames: 'Lactobacillus / Bifidobakterien',
+    altNames: 'Lactobacillus / Bifidobakterien, Saccharomyces boulardii, Milchsäurebakterien',
     category: 'Probiotika',
-    tags: ['darm', 'immun', 'stimmung', 'verdauung', 'haut'],
-    short: 'Lebende Bakterien für Darmgesundheit. Qualität und Vielfalt sind entscheidend.',
-    description: 'Ein hochwertiges Probiotikum enthält mehrere Stämme, mindestens 10–50 Mrd. KBE und magensaftresistente Kapseln.',
+    tags: ['darm', 'immun', 'stimmung', 'verdauung'],
+    short: 'Belege gelten für einen Stamm in einer Indikation, nicht für die Produktklasse. Am dichtesten sind sie bei Durchfall unter Antibiotika.',
+    description: 'Probiotika sind lebende Mikroorganismen, meist Laktobazillen, Bifidobakterien oder die Hefe Saccharomyces boulardii. Entscheidend ist der Stamm, nicht die Gattung: Lactobacillus rhamnosus GG verhindert bei Kindern Durchfall unter Antibiotika, beim akuten Magen-Darm-Infekt derselben Altersgruppe wirkte er in einer Studie mit 971 Kindern nicht. Am besten belegt sind antibiotikabedingter Durchfall, die Clostridioides-difficile-Diarrhö bei hohem Ausgangsrisiko, Atemwegsinfekte und einzelne Stämme beim Reizdarm. Nach einer Antibiotikakur kann ein mehrstämmiges Präparat die Rückkehr der eigenen Darmflora sogar verzögern. In der EU ist keine gesundheitsbezogene Angabe für Probiotika zugelassen, der Begriff „probiotisch" selbst ist unzulässig.',
     benefits: [
-      'Verbessert Verdauung',
-      'Stärkt Immunsystem',
-      'Gut-Brain-Axis: beeinflusst Stimmung',
-      'Hilft bei Reizdarm',
-      'Kann Hautprobleme lindern'
+      'Antibiotikadurchfall bei Kindern: 8 statt 19 Prozent in 33 randomisierten Studien',
+      'Clostridioides-difficile-Diarrhö: 1,5 statt 4,0 Prozent, deutlich nur bei Ausgangsrisiko über 5 Prozent',
+      'Akute Atemwegsinfekte: relatives Risiko 0,76, und weniger verschriebene Antibiotika',
+      'Reizdarm: fünf Einzelstämme haben in Meta-Analysen Kernsymptome gebessert',
+      'Nekrotisierende Enterokolitis bei sehr unreifen Frühgeborenen: relatives Risiko 0,54'
     ],
     risks: [
-      'Initial: Blähungen möglich',
-      'Bei stark immunsupprimierten Personen Arzt fragen'
+      'Anfangs Blähungen, weiche Stühle, Bauchkrämpfe und Übelkeit möglich',
+      'Nicht bei Immunsuppression nach Organ- oder Knochenmarktransplantation und nicht bei Schwerkranken',
+      'Nicht bei akuter Gastroenteritis; bei Schwangeren, Stillenden und Kindern ärztlich abklären',
+      'Seltene Infektionen durch den zugeführten Keim: 93 gesammelte Fälle von 1976 bis 2018, Gesamtsterblichkeit dieser Sammlung 19,6 Prozent',
+      '2023 FDA-Warnung nach dem Tod eines Frühgeborenen unter 1.000 Gramm an einer Sepsis mit dem Keim aus dem Präparat'
     ],
-    dosage: '10–100 Mrd. KBE täglich, verschiedene Stämme.',
-    intake: 'Auf nüchternen Magen morgens oder abends vor dem Schlafen.',
+    dosage: 'Was die Studien verwendet haben: Die einzige glaubwürdige Dosisschwelle einer Cochrane-Übersicht liegt bei 5 Milliarden KBE täglich, darüber sank die Number needed to treat bei Kindern von 9 auf 6. Studien zu Atemwegsinfekten arbeiteten mit 10 hoch 9 bis 10 hoch 11 KBE täglich über mehr als drei Monate, PLACIDE mit 6 mal 10 hoch 10 Organismen täglich über 21 Tage. Mehr Stämme oder höhere Zahlen auf der Packung sind kein belegtes Qualitätsmerkmal. Keine Anwendungsempfehlung.',
+    intake: 'Die Studien geben Stamm, Dosis und Dauer an, nicht den Zeitpunkt relativ zur Mahlzeit; für eine bestimmte Tageszeit gibt es keinen Beleg. Verabreicht wurde in den Studien mit Milchprodukten, als Pulver oder in Kapseln.',
     synergies: ['praebiotika'],
     avoid: [],
-    evidence: 'hoch',
-    sources: 'Sauerkraut, Kefir, Kimchi, Joghurt (fermentierte Lebensmittel)'
+    evidence: 'mittel',
+    sources: 'Sauerkraut, Kefir, Kimchi, Joghurt (fermentierte Lebensmittel). In einer randomisierten Studie über 17 Wochen mit 18 Teilnehmern je Arm erhöhte eine Kost mit viel fermentierten Lebensmitteln die Vielfalt des Mikrobioms und senkte Entzündungsmarker.'
   },
   {
     id: 'elektrolyte',
@@ -1355,28 +1388,34 @@ const SUPPLEMENTS = [
     id: 'nac',
     name: 'NAC (N-Acetyl-Cystein)',
     altNames: 'N-Acetylcystein',
-    category: 'Aminosäure',
-    tags: ['detox', 'immun', 'leber', 'atmung', 'glutathion', 'anti-aging'],
-    short: 'Vorläufer von Glutathion – dem Master-Antioxidans des Körpers. Standard-Biohacker-Supplement.',
-    description: 'NAC liefert die Aminosäure Cystein, aus der der Körper Glutathion aufbaut. Wird klinisch bei Paracetamol-Vergiftung und Lungenerkrankungen eingesetzt. Beliebtes Supplement für Detox, Immunsystem und mentale Gesundheit.',
+    category: 'Arzneistoff (Derivat der Aminosäure L-Cystein)',
+    tags: ['atmung', 'leber', 'glutathion', 'anti-oxidant', 'arzneimittel'],
+    short: 'Zugelassenes Arzneimittel, kein Nahrungsergänzungsmittel: Antidot bei Paracetamol-Vergiftung und Schleimlöser. Liefert Cystein für die Glutathion-Herstellung.',
+    description: 'NAC ist das acetylierte Derivat der Aminosäure L-Cystein und liefert den Baustein, der bei der Glutathion-Herstellung limitiert. In Deutschland ist es ein zugelassenes Arzneimittel und kein Nahrungsergänzungsmittel: oral als Schleimlöser apothekenpflichtig und rezeptfrei, als Antidot bei Paracetamol-Vergiftung verschreibungspflichtig. Bei COPD senkt es die Exazerbationsrate (14 RCTs, 2.856 Patienten, RR 0,87), ohne Lungenfunktion, Lebensqualität oder Glutathionspiegel zu verändern.',
     benefits: [
-      'Erhöht Glutathion-Spiegel in Leber, Lunge und Gehirn',
-      'Schützt Leber vor Alkohol- und Medikamenten-Belastung',
-      'Löst zähen Schleim in den Atemwegen',
-      'Wirkt bei OCD, Trichotillomanie und Sucht-Verlangen',
-      'Reduziert oxidativen Stress'
+      'Zugelassenes Antidot bei Paracetamol-Vergiftung: 6,1 % Leberschädigung bei Behandlungsbeginn innerhalb von 10 Stunden gegenüber 26,4 % bei Beginn nach 10 bis 24 Stunden (2.540 Patienten)',
+      'Zugelassen zur Schleimlösung und zum erleichterten Abhusten bei Atemwegserkrankungen mit zähem Schleim',
+      'Senkt bei COPD akute Exazerbationen (Meta-Analyse, 14 RCTs, 2.856 Patienten, RR 0,87); offene Empfehlung der Nationalen VersorgungsLeitlinie COPD für die Dauertherapie',
+      'Kleiner Zusatzeffekt auf depressive Symptome (12 RCTs, 904 Patienten, SMD −0,24)',
+      'Trichotillomanie bei Erwachsenen: 56 % gegenüber 16 % deutlich oder sehr deutlich gebessert (RCT, 50 Teilnehmer, 12 Wochen) — bei 39 Kindern nicht reproduzierbar',
+      'Füllt Glutathion dort auf, wo ein Mangel vorliegt (Mukoviszidose, 18 Patienten) — nicht nachweisbar im Gehirn Gesunder'
     ],
     risks: [
-      'Selten: Übelkeit, Durchfall',
-      'Schwefelgeschmack möglich',
-      'Bei Asthmatikern erste Dosis vorsichtig testen'
+      'Gegenanzeige bei Kindern unter 2 Jahren (Sekret kann die Atemwege verlegen); 200-mg-Tabletten zusätzlich unter 6 Jahren',
+      'Bei Asthma Vorsicht: Bronchospasmus als seltene Nebenwirkung beschrieben',
+      'Schwere Hautreaktionen berichtet: Stevens-Johnson-Syndrom und Lyell-Syndrom',
+      'Mindestens 2 Stunden Abstand zu oralen Antibiotika',
+      'Nicht mit Hustenstillern kombinieren: Gefahr eines gefährlichen Sekretstaus',
+      'Kann die gefäßerweiternde Wirkung von Nitroglycerin verstärken',
+      'Magen-Darm-Beschwerden häufigste Nebenwirkung (6 % gegenüber 5 % in Kontrollgruppen)',
+      'Anaphylaktoide Reaktionen bei intravenöser Gabe im Krankenhaus'
     ],
-    dosage: '600–1.800 mg täglich, aufgeteilt auf 1–2 Dosen.',
-    intake: 'Nüchtern oder mit Vitamin C kombinieren für bessere Aufnahme.',
+    dosage: 'Keine Empfehlung — NAC ist in Deutschland ein Arzneimittel mit zugelassener Dosierung, kein Nahrungsergänzungsmittel. Die zugelassene orale Erwachsenendosis als Schleimlöser beträgt 400 bis 600 mg täglich. Studien verwendeten: 600 mg zweimal täglich bei COPD (PANTHEON und Zhou 2024), 1.000 bis 3.000 mg täglich bei Depression, 1.200 bis 2.400 mg täglich bei Trichotillomanie, 600 mg täglich in der Spermienstudie. Das Antidot-Schema bei Paracetamol-Vergiftung gibt 150 mg/kg in den ersten 60 Minuten und insgesamt 300 mg/kg über 21 Stunden, ausschließlich intravenös im Krankenhaus.',
+    intake: 'Mindestens 2 Stunden Abstand zu oralen Antibiotika einhalten. Für den verbreiteten Rat, NAC nüchtern oder zusammen mit Vitamin C einzunehmen, wurden keine Humandaten gefunden.',
     synergies: ['glutathion', 'vitamin-c', 'glycin', 'alpha-liponsaeure'],
     avoid: [],
     evidence: 'hoch',
-    sources: 'Keine nennenswerten Nahrungsquellen – nur als Supplement.'
+    sources: 'Keine nennenswerten Nahrungsquellen. In Deutschland als Arzneimittel in der Apotheke, nicht als Nahrungsergänzungsmittel.'
   },
   {
     id: 'apigenin',
@@ -1607,26 +1646,29 @@ const SUPPLEMENTS = [
     altNames: 'Fächerblattbaum-Extrakt',
     category: 'Kräuter',
     tags: ['gehirn', 'durchblutung', 'gedaechtnis', 'nootropic', 'tinnitus'],
-    short: 'Erhöht die zerebrale Durchblutung. Klassiker gegen altersbedingte Gedächtnisprobleme.',
-    description: 'Ginkgo-Blatt-Extrakt (EGb 761) ist eines der am besten erforschten Phytopharmaka. Verbessert die Mikrozirkulation, hat antioxidative Eigenschaften. In Deutschland Teil der leitliniengerechten Demenz-Behandlung.',
+    short: 'Definierter Blatt-Extrakt, in Deutschland als Arzneimittel zugelassen. Wirkt in der Behandlung leichter Demenz, verhindert sie aber nicht.',
+    description: 'Ginkgo-Blatt-Extrakt (EGb 761) gehört zu den am besten untersuchten Phytopharmaka überhaupt. Die entscheidende Trennlinie verläuft zwischen Vorbeugung und Behandlung: Zwei große Präventionsstudien, GEM mit 3.069 Teilnehmern über median 6,1 Jahre und GuidAge mit 2.854 Teilnehmern über 5 Jahre, verfehlten beide ihren primären Endpunkt. Bei bereits bestehender Demenz zeigt EGb 761 bei 240 Milligramm täglich dagegen messbare Effekte auf Kognition und Alltagsfunktionen, und die S3-Leitlinie Demenzen führt Ginkgo als schwache Empfehlung. Was in Studien geprüft wurde, ist der standardisierte Arzneimittel-Extrakt, nicht beliebige Nahrungsergänzung.',
     benefits: [
-      'Verbessert zerebrale Durchblutung',
-      'Unterstützt Gedächtnis bei altersbedingtem Abbau',
-      'Wirkt bei Tinnitus und Schwindel',
-      'Antioxidative Wirkung im Gehirn',
-      'Kann periphere arterielle Durchblutung fördern'
+      'Verbessert Kognition und Alltagsfunktionen bei bestehender Demenz (Meta-Analyse, 2.561 Patienten, 240 mg täglich)',
+      'In der S3-Leitlinie Demenzen als Therapieoption geführt (Empfehlung 69, schwach dafür)',
+      'Senkt die Blutviskosität messbar (Meta-Analyse von 18 RCTs, 1.985 Erwachsene)',
+      'Verhindert keine Demenz — in zwei großen Präventionsstudien kein Effekt',
+      'Bei kognitiv Gesunden kein Effekt auf Gedächtnis, Aufmerksamkeit oder Exekutivfunktion'
     ],
     risks: [
-      'Blutverdünnend – 2 Wochen vor OPs absetzen',
-      'Nicht mit Aspirin, ASS, Warfarin kombinieren (ohne Arzt)',
+      'Blutungsneigung: EMA empfiehlt 3 bis 4 Tage vor Operationen abzusetzen',
+      'Kombination mit Gerinnungshemmern nur unter ärztlicher Überwachung',
+      'Gegenanzeigen laut EU-Monographie: Überempfindlichkeit und Schwangerschaft',
+      'Bei Epilepsie lassen sich weitere Anfälle nicht ausschließen',
+      'IARC-Einstufung Gruppe 2B auf Basis von Lebertumoren in zweijährigen Mäusestudien',
       'Selten: Kopfschmerzen, Magenbeschwerden'
     ],
-    dosage: '120–240 mg täglich standardisierter Extrakt (EGb 761).',
-    intake: 'Aufgeteilt auf 2 Dosen, mit Mahlzeiten.',
+    dosage: 'In den Behandlungsstudien und in der EU-Monographie verwendet: 240 Milligramm standardisierter Trockenextrakt täglich, Behandlungsdauer mindestens 8 Wochen. Das sind Studien- und Monographieangaben, keine Empfehlung.',
+    intake: 'In den großen Studien wurde zweimal täglich 120 Milligramm gegeben.',
     synergies: ['omega-3', 'vitamin-b-komplex'],
-    avoid: ['Blutverdünner'],
+    avoid: ['Blutverdünner', 'Schwangerschaft'],
     evidence: 'hoch',
-    sources: 'Ausschließlich als Extrakt – rohe Blätter nicht empfohlen.'
+    sources: 'Ausschließlich als definierter Extrakt. Rohe Blätter und Ginkgo-Samen sind etwas anderes: Samen enthalten einen Vitamin-B6-Antagonisten, nach größeren Mengen sind Krampfanfälle dokumentiert. Zugelassene Arzneimittel sind in Deutschland an geprüfte Spezifikationen gebunden, Nahrungsergänzungsmittel nicht.'
   },
 
   // ============ NEU: AMINOSÄUREN & PERFORMANCE ============
@@ -2365,22 +2407,24 @@ const SUPPLEMENTS = [
     altNames: 'Magtein, Mg-Threonat',
     category: 'Mineral',
     tags: ['gehirn', 'gedächtnis', 'schlaf', 'stimmung'],
-    short: 'Die „Gehirn-Form" von Magnesium: überwindet besonders gut die Blut-Hirn-Schranke – untersucht für Gedächtnis, Lernen und Schlaf.',
-    description: 'Magnesium-L-Threonat ist eine spezielle Magnesiumverbindung, die die Blut-Hirn-Schranke besser überwindet und die Magnesiumkonzentration im Gehirn anheben kann. Tierstudien und erste Humandaten deuten auf Verbesserungen bei Gedächtnis, Lernen und kognitivem Altern hin – daher als „Gehirn-Magnesium" beliebt.',
+    short: 'Magnesium gebunden an L-Threonsäure, vermarktet als „Gehirn-Form": Dass sie Magnesium besser ins Gehirn bringt, ist bislang nur an Ratten gemessen – am Menschen gibt es drei herstellerfinanzierte Studien zu Gedächtnis und Schlaf.',
+    description: 'Magnesium-L-Threonat ist ein Salz aus Magnesium und L-Threonsäure, einem Abbauprodukt von Vitamin C. Laut EU-Spezifikation besteht es nur zu 7,2 % bis 8,3 % aus Magnesium; der Rest ist Threonat. Der Ruf als „Gehirn-Magnesium" beruht auf einer Rattenstudie von 2010, in der die Magnesiumkonzentration im Nervenwasser nach 24 Tagen rund 7 % über dem Ausgangswert und rund 16 % über der Kontrollgruppe lag. Am Menschen wurde Hirn- oder Nervenwassermagnesium in keiner Studie gemessen; es liegen drei randomisierte Studien mit 51, 80 und 100 Teilnehmern über 3 bis 12 Wochen vor, alle von Herstellern oder Rohstofflieferanten finanziert. Seit dem 7. November 2024 ist der Stoff in der EU als neuartiges Lebensmittel zugelassen.',
     benefits: [
-      'Soll gezielt den Magnesiumspiegel im Gehirn erhöhen – am Menschen nicht direkt gemessen, die Daten stammen aus dem Tiermodell',
-      'Untersucht für Gedächtnis, Lernen und kognitives Altern',
-      'Kann Schlaf und Entspannung unterstützen',
-      'Ergänzt normale Magnesiumformen um den Hirn-Fokus'
+      'Soll gezielt den Magnesiumspiegel im Gehirn erhöhen – am Menschen nicht gemessen, die Werte aus dem Nervenwasser stammen aus dem Rattenmodell',
+      'Untersucht für Gedächtnis und kognitive Leistung: In zwei RCTs verbesserte sich der kognitive Kompositscore gegenüber Placebo (51 Ältere über 12 Wochen; 100 Erwachsene über 6 Wochen)',
+      'Für Schlaf ist die Datenlage uneinheitlich: subjektive Verbesserungen ja, objektive Messwerte nur in einer der beiden Schlafstudien',
+      'Sicherheitsbewertet und in der EU zugelassen – mit Spezifikation, Reinheitskriterien und einem Höchstgehalt von 250 mg je Tag'
     ],
     risks: [
-      'Teurer als Standard-Magnesium (Citrat/Glycinat)',
-      'Human-Evidenz noch begrenzt (viel aus Tierstudien)',
-      'Enthält wenig elementares Magnesium pro Gramm',
-      'Bei Nierenschwäche Magnesium generell ärztlich abklären'
+      'Das Alleinstellungsmerkmal ist am Menschen unbelegt: Kein Direktvergleich gegen Citrat, Glycinat oder eine andere Magnesiumform existiert',
+      'Alle drei randomisierten Studien sind herstellerfinanziert; zwei wurden erst nach der Datenerhebung registriert, eine musste ihre Interessenerklärung per Corrigendum nachreichen',
+      'Enthält wenig elementares Magnesium pro Gramm (7,2 % bis 8,3 % laut EU-Spezifikation) und ist teurer als Standard-Magnesium',
+      'Laut EU-Zulassung nur für Erwachsene, ausgenommen Schwangere und Stillende – ein entsprechender Etikettenhinweis ist Pflicht',
+      'Bei Nierenschwäche Magnesium generell ärztlich abklären; Wechselwirkungen mit Bisphosphonaten, Tetrazyklinen und Chinolonen',
+      'Bis zum 7. November 2029 darf die Verbindung in der EU nur vom Zulassungsinhaber AIDP Inc. in Verkehr gebracht werden'
     ],
-    dosage: 'Typisch ~2.000 mg Mg-L-Threonat (≈144 mg elementares Mg) täglich, oft abends.',
-    intake: 'Abends (kann Schlaf unterstützen), ggf. geteilt.',
+    dosage: 'In den Studien wurden 1 g bis 2 g Magnesium-L-Threonat täglich eingesetzt; 2 g entsprachen dort 145 mg elementarem Magnesium. Die EU-Zulassung nennt für Nahrungsergänzungsmittel einen Höchstgehalt von 250 mg je Tag.',
+    intake: 'In den Studien abends beziehungsweise auf morgens und abends verteilt eingenommen.',
     synergies: ['magnesium', 'glycin', 'vitamin-d3'],
     avoid: [],
     evidence: 'niedrig',
