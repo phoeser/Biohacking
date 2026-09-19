@@ -606,6 +606,36 @@ const ERFAHRUNGEN = [
     ],
     shopId: null,
     quelle: { label: 'Weitergegebene Rückmeldung aus sicherer Quelle, Stand September 2026 · Einordnung in Podcast-Folge 25', url: '' }
+  },
+  {
+    id: 'glow-umfeld-2026-09',
+    substanz: 'GLOW (GHK-Cu + BPC-157 + TB-500)',
+    slug: 'glow-stack',
+    scoreRef: { view: 'experimental', id: 'glow-stack' },
+    kategorie: 'Peptid',
+    emoji: '\u{2728}',
+    autor: 'weitergegeben',
+    demo: false,
+    datum: '2026-09-19',
+    dauer: 'zwei Wochen, laufend',
+    dosis: null,
+    bewertung: 5,
+    fazit: 'Nach zwei Wochen täglicher Anwendung ein leicht besseres Hautbild und keine Nebenwirkungen \u2013 ein sehr frühes, aber positives Zwischenfazit.',
+    text: 'Mir wurde der Blend täglich subkutan angewendet beschrieben. Nach zwei Wochen berichtet die Person von einem leicht besseren Hautbild und ausdrücklich von keinerlei Nebenwirkungen. Die eigene Bewertung bisher: sehr gut.\n\nEinordnung von mir: Zwei Wochen sind für eine Beurteilung sehr kurz, und \u201eleicht besser\u201c ist eine subjektive Selbsteinschätzung ohne Vergleichsgruppe und ohne Verblindung. Genau in diesem Zeitfenster und bei dieser Art von Endpunkt ist die Erwartung selbst ein starker Faktor. Das spricht nicht gegen den Bericht \u2013 es heißt nur, dass er noch nichts belegt.\n\nDass keine Nebenwirkungen auftreten, passt zu dem, was ich zu GHK-Cu, BPC-157 und TB-500 sonst höre. Belastbare Sicherheitsdaten sind das trotzdem nicht: systematisch erfasst wurde das für den Blend nie, und Verträglichkeit über zwei Wochen sagt wenig über Monate.\n\nRechtliche Lage: Keiner der drei Bestandteile ist in Deutschland als Arzneimittel zugelassen. Konkrete Mengenangaben lasse ich hier deshalb bewusst weg. In der Datenbank steht GLOW bei der Human-Evidenz auf null \u2013 es gibt keine klinische Studie zu dieser Kombination.',
+    positiv: [
+      'Keine Nebenwirkungen berichtet',
+      'Nach zwei Wochen bereits ein leicht besseres Hautbild wahrgenommen',
+      'Die Schilderung bleibt zurückhaltend und verspricht nichts'
+    ],
+    negativ: [
+      'Zwei Wochen sind ein sehr kurzer Beobachtungszeitraum',
+      'Hautbild subjektiv beurteilt, ohne Vergleich und ohne Verblindung',
+      'Keine klinische Studie zur Kombination \u2013 Human-Evidenz null',
+      'In Deutschland kein zugelassenes Arzneimittel, keine systematischen Sicherheitsdaten',
+      'Einzelfall aus zweiter Hand, kein Wirksamkeitsbeleg'
+    ],
+    shopId: null,
+    quelle: { label: 'Weitergegebene R\u00fcckmeldung, Stand September 2026 \u00b7 Einordnung in Podcast-Folge 51', url: '' }
   }
 ];
 
