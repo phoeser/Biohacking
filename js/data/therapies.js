@@ -507,12 +507,12 @@ const THERAPIES = [
     short: 'Plättchenreiches Plasma aus dem eigenen Blut, aufkonzentriert und zurückgespritzt – setzt Wachstumsfaktoren frei für Gelenke, Haut und Haar.',
     benefits: [
       'Nutzt körpereigene Wachstumsfaktoren aus den Blutplättchen',
-      'Etabliert bei Sehnen-/Gelenkbeschwerden (z. B. Tennisellenbogen, Arthrose)',
+      'Bei Sehnenbeschwerden (z. B. Tennisellenbogen) offen – dort fehlt die große verblindete Studie noch',
       'Beliebt für Haarwachstum und Haut („Vampir-Lifting")',
       'Körpereigenes Material – geringes Allergierisiko'
     ],
     indication: ['Gelenke/Sehnen', 'Haarwachstum', 'Haut/Ästhetik', 'Regeneration'],
-    note: 'Evidenz je nach Indikation gemischt (bei manchen orthopädischen Anwendungen gut, bei anderen begrenzt). Ärztlich durchführen lassen.',
+    note: 'Bei Kniearthrose gilt der Nutzen als widerlegt: Die größte verblindete Studie (RESTORE, JAMA 2021, n=288) fand nach zwölf Monaten weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalzlösung – und auch in 29 von 31 vorab festgelegten Nebenfragen nicht. Für Sehne und Kopfhaut ist die Frage offen, nicht beantwortet. Ärztlich durchführen lassen.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/33790417/'
   },
   {

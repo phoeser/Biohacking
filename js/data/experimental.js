@@ -24,6 +24,7 @@ const EXPERIMENTAL = [
       '12–15% Gewichtsverlust nach 68 Wochen (STEP-1-Studie)',
       'Senkt kardiovaskuläre Ereignisse (SELECT-Studie)',
       'Reduziert chronische Entzündung, verbessert NAFLD',
+      'Gegen Alzheimer belegt wirkungslos: evoke/evoke+ (Lancet 2026, 3.808 Teilnehmende, zwei Jahre) fand −0,08 Punkte auf der Demenzskala CDR-SB – beide Gruppen verschlechterten sich um 2,3 Punkte',
       'Verschreibungsfähig (mit Indikation) – legale Bezugsquelle'
     ],
     risks: [
@@ -107,7 +108,8 @@ const EXPERIMENTAL = [
     short: 'Der bisher stärkste Abnehm-Wirkstoff aus den Studien: ein Dreifach-Ansatz von Eli Lilly, der den Appetit zügelt und den Energieverbrauch anhebt – in Phase 2 bis zu 24% Gewichtsverlust.',
     moa: 'Aktiviert GLP-1-, GIP- und Glucagon-Rezeptoren. GLP-1+GIP senken Appetit & Blutzucker, Glucagon erhöht den Energieverbrauch (lipolytisch).',
     benefits: [
-      'Bis zu 24% Körpergewichtsverlust nach 48 Wochen (Phase 2)',
+      'Nach 80 Wochen je nach Dosisstufe 19 %, 25,9 % oder 28,3 % Gewichtsverlust gegenüber 2,2 % unter Placebo (TRIUMPH, Kongressvortrag 2026)',
+      'Die überall zitierten 30,3 % gelten nur für den Arm, der von Anfang an die höchste Dosis bekam – ohne Placebo-Vergleich in dieser Verlängerung',
       'Senkt HbA1c und Triglyzeride deutlich',
       'Reduziert Leberfett massiv (NAFLD-Studien laufen)',
       'Stärkerer Effekt als Tirzepatid (Mounjaro/Zepbound)'
@@ -115,7 +117,8 @@ const EXPERIMENTAL = [
     risks: [
       'Noch in der Zulassungsphase (Phase 3) – aktuell nur als ungeprüfte Research-Ware verfügbar.',
       'Zu Beginn oft etwas Übelkeit oder Verdauungsthemen, die sich beim langsamen Eindosieren meist geben.',
-      'Langzeitdaten stehen noch aus.'
+      'Langzeitdaten stehen noch aus.',
+      'Zu TRIUMPH gibt es bis heute keine begutachtete Vollpublikation – alle Zahlen stammen aus Kongressvorträgen und Vorabdrucken.'
     ],
     status: 'In Phase 3 bei Eli Lilly, Zulassung um 2026/27 erwartet. Noch nicht regulär verfügbar.',
     sources: [

@@ -135,7 +135,7 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['energie', 'nerven', 'gehirn', 'stress', 'stoffwechsel'],
     short: 'Alle B-Vitamine in bioaktiver Form – Grundlage für Energiestoffwechsel und Nerven.',
-    description: 'B-Vitamine arbeiten zusammen. Einzelgabe einer Form kann andere ins Ungleichgewicht bringen. Bei Stress, Sport und Alkoholkonsum steigt der Bedarf deutlich.',
+    description: 'B-Vitamine arbeiten zusammen. Einzelgabe einer Form kann andere ins Ungleichgewicht bringen. Bei Stress, Sport und Alkoholkonsum steigt der Bedarf deutlich. Zur B6-Obergrenze: Über das Essen erreicht sie niemand, betroffen sind hochdosierte Präparate – und die sind selten. In einer Auswertung von 2.210 Produkten lag die Hälfte bei ein bis zwei Milligramm, nur gut ein Prozent über 20 mg.',
     benefits: [
       'Energiestoffwechsel aus Kohlenhydraten, Fett und Eiweiß',
       'Unterstützt Nervensystem und Stressresistenz',
@@ -145,7 +145,7 @@ const SUPPLEMENTS = [
     ],
     risks: [
       'Urin kann gelb werden (B2 – normal)',
-      'Hochdosis B6 über Monate: Kribbeln in Händen/Füßen möglich',
+      'Hochdosis B6 über Monate: Kribbeln in Händen/Füßen möglich. Die EFSA hat die als unbedenklich geltende Obergrenze 2023 von 25 auf 12 mg am Tag halbiert – nicht wegen neuer Messungen, sondern weil dieselbe Arbeit von 1987 vorsichtiger gerechnet wurde',
       'Ab 100 mg B3 kann Flush auftreten'
     ],
     dosage: 'Typische Dosis einmal täglich laut Produkt. Auf „methylierte Formen" achten.',

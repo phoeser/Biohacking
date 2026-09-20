@@ -18,6 +18,38 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-09-20',
+    typ: 'Korrektur',
+    titel: 'PRP: Der Eintrag behauptete das Gegenteil seiner eigenen Score-Begründung',
+    text: 'In der Nutzen-Liste stand „Etabliert bei Sehnen-/Gelenkbeschwerden (z. B. Tennisellenbogen, Arthrose)", während die Begründung des Scores denselben Nutzen für das Knie als widerlegt führte. Das war ein Widerspruch im eigenen Eintrag, und die Nutzen-Liste ist die Stelle, die die meisten Menschen lesen. Richtig ist: Die größte verblindete Studie (RESTORE, JAMA 2021, 288 Teilnehmende, zwölf Monate) fand bei Kniearthrose weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalzlösung – und auch in 29 von 31 vorab festgelegten Nebenfragen nicht. Für Sehne und Kopfhaut fehlt eine Studie dieser Größe; dort ist die Frage offen, nicht beantwortet. Nutzen-Liste und Hinweistext sind entsprechend umgeschrieben.',
+    ziel: { view: 'behandlungen', id: 'prp' },
+    quelle: { titel: 'Folge 112 · RESTORE (JAMA 2021)', url: 'https://pubmed.ncbi.nlm.nih.gov/34783008/' }
+  },
+  {
+    datum: '2026-09-20',
+    typ: 'Evidenz',
+    titel: 'Semaglutid gegen Alzheimer: das Ergebnis ist da, und es ist negativ',
+    text: 'Die beiden Phase-3-Studien evoke und evoke+ haben 3.808 Menschen mit früher Alzheimer-Erkrankung zwei Jahre lang begleitet. Der Behandlungsunterschied auf der Demenzskala CDR-SB beträgt minus null Komma null acht Punkte – so nah an null, dass man es null nennen kann. Beide Gruppen verschlechterten sich um 2,3 Punkte. Damit ist die größte Hoffnung der GLP-eins-Erzählung im Gehirn beantwortet. Über eine Vorbeugung Jahrzehnte vorher sagt das Ergebnis nichts – diese Frage hat bisher niemand gestellt. Der Eintrag nennt den Befund jetzt.',
+    ziel: { view: 'experimental', id: 'semaglutide' },
+    quelle: { titel: 'evoke / evoke+ (Lancet 2026; 407: 2167–2179)', url: 'https://pubmed.ncbi.nlm.nih.gov/41865758/' }
+  },
+  {
+    datum: '2026-09-20',
+    typ: 'Korrektur',
+    titel: 'Retatrutid: die vielzitierten 30,3 Prozent gehören nicht allen',
+    text: 'Der Eintrag nannte bisher „bis zu 24 % nach 48 Wochen" aus der Phase 2. Inzwischen liegen 80-Wochen-Zahlen vor, und dabei ist eine Verwechslung im Umlauf, die auch hier zu korrigieren war: Die Zahl 30,3 Prozent, die überall zitiert wird, gilt nicht für die gesamte Verlängerungsgruppe, sondern nur für den Arm, der von Beginn an die höchste Dosis bekam – und in dieser Verlängerung gab es keine Placebo-Gruppe. Nach Dosisstufe liegen die Werte bei 19, 25,9 und 28,3 Prozent gegenüber 2,2 Prozent unter Placebo. Ebenfalls im Eintrag ergänzt: Zu TRIUMPH gibt es bis heute keine begutachtete Vollpublikation; alle Zahlen stammen aus Kongressvorträgen und Vorabdrucken.',
+    ziel: { view: 'experimental', id: 'retatrutide' },
+    quelle: { titel: 'Folge 106 · TRIUMPH-Kongressvortrag 2026 (keine Vollpublikation)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2301972' }
+  },
+  {
+    datum: '2026-09-20',
+    typ: 'Evidenz',
+    titel: 'Vitamin B6: die Obergrenze wurde halbiert, ohne eine einzige neue Messung',
+    text: 'Die in Europa als unbedenklich geltende Obergrenze für Vitamin B6 lag bei 25 Milligramm am Tag; seit 2023 sind es zwölf. Dazwischen liegen dreiundzwanzig Jahre und keine neue Untersuchung an Menschen – dieselbe Arbeit von 1987 wurde zweimal gelesen und ergab zwei Werte. Es wurde nichts vertuscht und nichts neu entdeckt, es wurde vorsichtiger gerechnet. Über das Essen erreicht diese Grenze niemand, betroffen sind hochdosierte Präparate. Überraschend war die Marktlage: In einer Auswertung von 2.210 Produkten lag die Hälfte bei ein bis zwei Milligramm, nur gut ein Prozent über 20 mg. Beides steht jetzt im Eintrag.',
+    ziel: { view: 'supplement', id: 'vitamin-b-komplex' },
+    quelle: { titel: 'Folge 115 · EFSA-Neubewertung 2023', url: 'https://www.efsa.europa.eu/en/efsajournal/pub/8006' }
+  },
+  {
     datum: '2026-09-02',
     typ: 'Korrektur',
     titel: 'Testosteron: Berichtslage ergänzt – die Berichte belegen die Wirkung, nicht die Indikation',
