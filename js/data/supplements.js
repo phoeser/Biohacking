@@ -3,6 +3,30 @@
  * Evidenzlevel: "hoch" = zahlreiche Humanstudien, "mittel" = einige Studien, "niedrig" = vorläufig/tierexperimentell.
  */
 const SUPPLEMENTS = [
+  {
+    id: 'erythrit-xylit',
+    name: 'Erythrit und Xylit',
+    altNames: 'Erythritol, Xylitol, Zuckeralkohole, Zuckeraustauschstoffe',
+    category: 'Kräuter',
+    tags: ['blutzucker', 'herz-kreislauf', 'ernaehrung', 'zahn'],
+    short: 'Die Zuckeralkohole hinter „zuckerfrei". Nach 30 Gramm Erythrit steigt der Blutspiegel um mehr als das Tausendfache – gemessen an zehn Menschen je Gruppe.',
+    description: 'Erythrit und Xylit ersetzen Zucker in Riegeln, Getränken und Backmischungen, weil sie süß schmecken, kaum Kalorien liefern und den Blutzucker nicht anheben. Seit 2023 gibt es eine Debatte um die Gefäßwirkung. Der Stand ist unentschieden, nicht entlastend: Der Mechanismus ist gezeigt, der Zusammenhang mit tatsächlichen Ereignissen nicht bewiesen – und der Körper stellt beide Stoffe selbst her, was die Zuordnung von Ursache und Wirkung erschwert.',
+    benefits: [
+      'Hebt den Blutzucker praktisch nicht an – der Grund, warum die Stoffe in Diabetiker- und Low-Carb-Produkten stehen',
+      'Xylit ist für die Zahngesundheit gut belegt und deshalb in Zahnpflegekaugummis',
+      'Deutlich weniger Kalorien als Zucker bei ähnlicher Süßkraft'
+    ],
+    risks: [
+      'Nach 30 Gramm Erythrit stieg der Plasmaspiegel von 3,75 auf 6.480 Mikromol je Liter – mehr als das Tausendfache (ATVB 2024, zehn Teilnehmer je Gruppe)',
+      'In derselben Arbeit reagierten die Blutplättchen danach stärker – bei allen Probanden, bei jedem Reizstoff, bei jeder Stufe. Traubenzucker als Vergleich tat das nicht',
+      'Der Zusammenhang mit Herzinfarkt und Schlaganfall stammt aus Beobachtung an über 4.000 Herzpatienten, bei denen niemand die Zufuhr gemessen hat – nur den Blutspiegel',
+      'Der Körper bildet beide Stoffe selbst, bei gestörtem Zuckerstoffwechsel mehr. Derselbe Messwert kann Ursache oder bloß Anzeige einer Stoffwechsellage sein',
+      'Größere Mengen wirken abführend – das ist die häufigste Alltagsnebenwirkung'
+    ],
+    dosage: 'Keine sinnvolle „Dosis" – es geht um die Menge im Lebensmittel. Die Interventionsstudie verwendete 30 Gramm auf einmal, das entspricht etwa einem großen gesüßten Getränk oder mehreren Riegeln.',
+    intake: 'Wer die Debatte ernst nimmt, verteilt statt zu häufen: gelegentlich ein gesüßtes Produkt ist etwas anderes als täglich mehrere. Für Xylit in Kaugummi gilt die Diskussion praktisch nicht – dort sind die Mengen klein.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38864216/'
+  },
   // ============ VITAMINE ============
   {
     id: 'vitamin-d3',

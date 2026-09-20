@@ -2,6 +2,33 @@
  * Strategien jenseits von Supplements.
  */
 const TIPS = [
+  {
+    id: 'stehschreibtisch',
+    category: 'Bewegung',
+    icon: '🧍',
+    title: 'Stehschreibtisch – gegen das Sitzen, nicht fürs Stehen',
+    short: 'In der größten Messung an 83.013 Erwachsenen hatte Stehen keinen Zusammenhang mit schweren Herz-Kreislauf-Ereignissen. Der Schaden des langen Sitzens ging fast vollständig auf das Sitzen zurück.',
+    how: 'Nutze den Tisch, um Sitzzeit zu ersetzen, nicht um Stehzeit zu sammeln. Oberhalb von etwa zwei Stunden Stehen am Tag stieg in derselben Kohorte das Risiko für Venenleiden – und zwei Stunden sind dort bereits der Durchschnitt. Der beste Effekt liegt im Wechsel und im Gehen dazwischen.',
+    tags: ['bewegung', 'sitzen', 'herz-kreislauf', 'buero']
+  },
+  {
+    id: 'blutdruck-zielwert',
+    category: 'Tracking',
+    icon: '🩺',
+    title: 'Blutdruck-Zielwert – die Hundertzwanzig zu Hause ist eine andere',
+    short: 'Der Zielwert unter 120 mmHg stammt aus SPRINT: 9.361 Menschen mit erhöhtem Risiko, aber ohne Diabetes, 27 Prozent geringere Gesamtsterblichkeit. Gemessen wurde dort streng nach Vorschrift.',
+    how: 'Miss nach derselben Regel, nach der die Studien gemessen haben: fünf Minuten sitzen, Rücken angelehnt, Arm auf Herzhöhe, nicht sprechen, Mittelwert aus mehreren Messungen. Ein Wert, den du im Stehen zwischen zwei Terminen nimmst, bedeutet etwas anderes als die 120 aus der Studie. Einordnen muss ihn deine Ärztin – dein Gerät zählt, es zählt nur anders.',
+    tags: ['tracking', 'blutdruck', 'herz-kreislauf', 'messung']
+  },
+  {
+    id: 'ballaststoffe',
+    category: 'Ernährung',
+    icon: '🌾',
+    title: 'Ballaststoffe – der am besten belegte Bestandteil des Essens',
+    short: '185 Beobachtungsstudien mit zusammen 135 Millionen Personenjahren: 15 bis 30 Prozent niedrigere Gesamt- und Herz-Kreislauf-Sterblichkeit in der Gruppe mit der höchsten Aufnahme.',
+    how: 'Ziel sind 25 bis 29 Gramm am Tag – dort lag in der Auswertung die größte Risikominderung. Gemessen wurde das an Lebensmitteln, nicht an Pulver: Vollkorn, Hülsenfrüchte, Gemüse, Obst, Nüsse. Wer deutlich darunter liegt, hat den größten Hebel; die Kurven deuten an, dass mehr noch etwas bringt, sicher ist das aber nicht.',
+    tags: ['ernaehrung', 'darm', 'herz-kreislauf', 'longevity']
+  },
   // SCHLAF
   {
     id: 'schlaf-dunkel',

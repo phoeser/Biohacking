@@ -7,6 +7,67 @@
  *   - Extern:     Verfahren außerhalb MHC (z.B. Inuspherese)
  */
 const THERAPIES = [
+  {
+    id: 'schlafapnoe-cpap',
+    name: 'CPAP bei Schlafapnoe',
+    category: 'Biohacking',
+    emoji: '😴',
+    short: 'Die Atemmaske beseitigt die nächtlichen Atemaussetzer fast vollständig – in der größten Studie verhinderte sie dadurch aber keine Herzinfarkte und Schlaganfälle.',
+    benefits: [
+      'Senkt die Atemaussetzer gemessen von 29 auf 3,7 je Stunde – fast neunzig Prozent weg',
+      'Verbessert Schnarchen, Tagesschläfrigkeit, Lebensqualität und Stimmung – in derselben Studie belegt',
+      'Nicht-medikamentös, sofort wirksam, jederzeit absetzbar'
+    ],
+    indication: ['Schlafapnoe', 'Schnarchen', 'Tagesmüdigkeit', 'Schlafqualität'],
+    note: 'Der Nutzen fürs Herz ist nicht gezeigt: SAVE (NEJM 2016) randomisierte 2.717 Erwachsene zwischen 45 und 75 mit mittelschwerer bis schwerer Schlafapnoe UND bestehender Herz-Kreislauf-Erkrankung und fand nach 3,7 Jahren ein Risikoverhältnis von 1,1 (95 % KI 0,91–1,32) für den kombinierten Endpunkt. Das ist kein Grund, das Gerät in den Schrank zu legen – die belegten Effekte auf Schlaf und Befinden bleiben. Es ist ein Grund, es nicht als Herzschutz zu verkaufen. Diagnose und Einstellung gehören ins Schlaflabor.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27571048/'
+  },
+  {
+    id: 'krebs-frueherkennung-bluttest',
+    name: 'Krebs-Bluttest (Multi-Cancer-Früherkennung)',
+    category: 'Biohacking',
+    emoji: '🩸',
+    short: 'Ein Bluttest, der viele Krebsarten auf einmal sucht. Die erste randomisierte Studie hat ihr Hauptziel verfehlt.',
+    benefits: [
+      'Falscher Alarm ist selten – und wenn er kommt, weist er meist auf das richtige Organ',
+      'Eine einzige Blutabnahme deckt Krebsarten ab, für die es sonst keine Vorsorge gibt',
+      'Erstmals überhaupt randomisiert geprüft: NHS-Galleri mit 142.250 Teilnehmenden zwischen 50 und 77'
+    ],
+    indication: ['Früherkennung', 'Vorsorge', 'Screening'],
+    note: 'Der Hauptendpunkt wurde verfehlt: Das Inzidenzratenverhältnis für Krebs im Stadium III oder IV lag bei 1,03 (95 % KI 0,92–1,14; p = 0,63) – kein Unterschied zur üblichen Vorsorge. Der Test findet etwa drei von zehn Krebsen. Entscheidend ist, was daraus folgt: Ein unauffälliges Ergebnis ist keine Entwarnung. Wer deswegen Darmspiegelung, Mammographie oder Hautkontrolle sein lässt, hat sich verschlechtert, nicht verbessert.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41727826/'
+  },
+  {
+    id: 'mikrobiom-tests',
+    name: 'Mikrobiom-Tests mit Ernährungsplan',
+    category: 'Biohacking',
+    emoji: '🦠',
+    short: 'Stuhlprobe einschicken, personalisierten Ernährungsplan zurückbekommen. Die Streuung, auf der das Angebot beruht, ist echt – der Beitrag der Gene dazu liegt unter einem Prozent.',
+    benefits: [
+      'Die individuelle Antwort auf dasselbe Essen ist real und groß: 103 Prozent Streuung beim Blutfett, 68 Prozent beim Blutzucker (PREDICT 1, 1.002 Erwachsene)',
+      'Das Mikrobiom trägt zur Vorhersage der Fettantwort mehr bei als die Nährstoffzusammensetzung der Mahlzeit (7,1 gegen 3,6 Prozent der Varianz)',
+      'Nicht-invasiv, ohne Risiko'
+    ],
+    indication: ['Ernährung', 'Darm', 'Blutzucker', 'Personalisierung'],
+    note: 'Drei Einschränkungen, die vor dem Bezahlen wichtig sind. Erstens: Der Beitrag der genetischen Information zur Vorhersage ist klein – 9,5 Prozent beim Blutzucker, 0,8 Prozent beim Blutfett, 0,2 Prozent beim C-Peptid. Zweitens: Beim Blutzucker schlägt die Mahlzeit das Mikrobiom deutlich (15,4 gegen 6,0 Prozent). Drittens: Die Messung selbst ist zwischen zwei Anbietern heute nicht zuverlässig wiederholbar – wer bei zwei Firmen einschickt, bekommt nicht dasselbe Ergebnis.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32066975/'
+  },
+  {
+    id: 'langzeit-basenbaden',
+    name: 'Langzeit-Basenbaden',
+    category: 'Biohacking',
+    emoji: '🛁',
+    short: 'Stundenlang im warmen Wasser. Die Begründung auf der Packung trägt nicht – die Wirkung gibt es trotzdem, nur über einen anderen Weg.',
+    benefits: [
+      'Immersion treibt messbar Wasser und Salz aus: 758 ml Urin und 56 mmol Natrium in drei Stunden, rund drei Gramm Kochsalz (Farrow 1992, 13 Männer)',
+      'Der Effekt hängt an der Wassertemperatur: bei 32 und 34,5 °C sechsfache Ausscheidung, bei 36 °C nur dreifache (Nakamitsu 1994)',
+      'Muskelentspannung und Schwerelosigkeitsgefühl sind unmittelbar und werden zuverlässig berichtet',
+      'Billig, ohne Wirkstoff, ohne Rezept'
+    ],
+    indication: ['Entspannung', 'Rücken/Muskulatur', 'Ritual', 'Schlaf'],
+    note: 'Die Erklärung auf der Verpackung stimmt nicht: Über die Haut wird keine nennenswerte Säure ausgeschieden. Der Maßstab dafür ist die Niere – sie scheidet rund 71 mmol Säure am Tag aus (Sebastian, NEJM 1994). Was tatsächlich passiert, ist Immersionsdiurese: Der Wasserdruck verschiebt Blut nach innen, ANP steigt, Aldosteron fällt, die Niere macht Wasser und Natrium locker. Das erklärt auch das leichtere Gefühl danach. Bei Herzschwäche, niedrigem Blutdruck oder unter entwässernden Medikamenten ist stundenlange Immersion nichts zum Selbstausprobieren – das Herzzeitvolumen steigt dabei um bis zu 80 Prozent.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/1400058/'
+  },
   // ============ AUSSTATTUNG (8) ============
   {
     id: 'ihht',

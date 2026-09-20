@@ -13,6 +13,72 @@
  */
 const EXPERIMENTAL = [
   {
+    id: 'aspirin-praevention',
+    name: 'Aspirin zur Vorbeugung (Primärprävention)',
+    altNames: 'ASS 100, Acetylsalicylsäure niedrig dosiert',
+    class: 'Thrombozytenaggregationshemmer (COX-1-Hemmer), niedrig dosiert',
+    emoji: '💊',
+    short: 'Nach Herzinfarkt oder Schlaganfall belegt. Bei Gesunden ab siebzig fand die größte Studie keinen Nutzen – und mehr Todesfälle als unter Placebo.',
+    moa: 'Hemmt COX-1 in den Blutplättchen irreversibel und senkt damit die Thromboxan-A2-Bildung – die Gerinnungsneigung sinkt, das Blutungsrisiko steigt.',
+    benefits: [
+      'Nach Herzinfarkt oder Schlaganfall ist der Nutzen belegt und unstrittig – dort gilt dieser Eintrag ausdrücklich nicht',
+      'Sehr gut untersucht: ASPREE randomisierte 19.114 gesunde ältere Menschen, Median 4,7 Jahre',
+      'Billig, überall verfügbar, jahrzehntelange Erfahrung'
+    ],
+    risks: [
+      'Bei Gesunden ab siebzig kein Nutzen beim Hauptziel: 21,5 gegen 21,2 Ereignisse je tausend Personenjahre (HR 1,01; p = 0,79)',
+      'Die Gesamtsterblichkeit lag unter Aspirin höher (HR 1,14) – mehr Todesfälle, nicht weniger',
+      'Mehr schwere Blutungen – der bekannteste und wichtigste Schaden dieser Substanz',
+      'Wer es nach einem Ereignis nimmt, setzt es nicht eigenmächtig ab, sondern spricht vorher mit der Ärztin'
+    ],
+    status: 'Zugelassen und etabliert in der Sekundärprävention. Für die Primärprävention bei Gesunden raten die Leitlinien seit ASPREE (NEJM 2018) überwiegend ab.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30221595/'
+  },
+  {
+    id: 'finasterid',
+    name: 'Finasterid',
+    altNames: 'Propecia, Proscar',
+    class: '5-alpha-Reduktase-Hemmer (Typ II), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Der Effekt am Haar ist gezählt, nicht behauptet: 107 Haare mehr als unter Placebo nach einem Jahr. Seit September 2025 steht ein Rote-Hand-Brief zu Suizidgedanken daneben.',
+    moa: 'Hemmt die 5-alpha-Reduktase Typ II und senkt damit die Umwandlung von Testosteron zu Dihydrotestosteron (DHT) – dem Hormon, das bei erblich bedingtem Haarausfall die Follikel verkleinert.',
+    benefits: [
+      '107 Haare mehr als unter Placebo nach einem Jahr, 138 nach zwei – ausgezählt auf 5,1 Quadratzentimetern am Wirbel (Ausgangswert 876 Haare), p < 0,001',
+      'Zwei verblindete Studien mit zusammen 1.553 Männern zwischen 18 und 41, verblindete Verlängerung mit 1.215 Männern im zweiten Jahr',
+      'Oral, einmal täglich, langjährige Anwendungserfahrung'
+    ],
+    risks: [
+      'Suizidgedanken stehen seit dem Rote-Hand-Brief vom 15. September 2025 als Nebenwirkung in der Produktinformation – Häufigkeit ausdrücklich unbekannt',
+      'Sexuelle Funktionsstörungen sind die bekannteste Nebenwirkung und der häufigste Abbruchgrund',
+      'Das „Post-Finasterid-Syndrom" ist als Krankheitsbild nicht etabliert; die größte Auswertung dazu lief an Männern über fünfzig mit der höheren Dosis und ist nicht auf junge Anwender übertragbar',
+      'Verschreibungspflichtig – gehört in ärztliche Hand, auch wegen der psychischen Nebenwirkungen'
+    ],
+    status: 'In Deutschland zugelassen (1 mg bei androgenetischer Alopezie, 5 mg bei gutartiger Prostatavergrößerung). Rote-Hand-Brief vom 15.09.2025.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/9777765/'
+  },
+  {
+    id: 'nikotin-ohne-rauch',
+    name: 'Nikotin ohne Rauch (Beutel, Pflaster, Lutschtabletten)',
+    altNames: 'Nikotinbeutel, Pouches, Nicotine Replacement',
+    class: 'Nikotinischer Acetylcholinrezeptor-Agonist',
+    emoji: '🚭',
+    short: 'Der kognitive Effekt ist echt, klein und kurz. Darüber steht eine Abhängigkeit – und genau die ist der Grund, warum Rauchen die größte vermeidbare Todesursache ist.',
+    moa: 'Bindet an nikotinische Acetylcholinrezeptoren im Gehirn, steigert kurzfristig Aufmerksamkeit und Reaktionsgeschwindigkeit – und aktiviert dasselbe Belohnungssystem, über das die Abhängigkeit entsteht.',
+    benefits: [
+      'In einer Meta-Analyse über 41 doppelblinde Studien in sechs von neun Leistungsbereichen besser als Placebo – Effektstärken 0,16 bis 0,44, im Labor, für etwa eine Stunde',
+      'Als Ersatztherapie beim Rauchstopp belegt wirksam (Cochrane 2018) – das ist die Anwendung mit echtem Nutzen',
+      'Ohne Verbrennung entfallen Teer und Kohlenmonoxid, also der Hauptteil des Rauchschadens'
+    ],
+    risks: [
+      'Macht abhängig – dieselbe Arbeit, die den Leistungseffekt zeigt, sagt das ausdrücklich dazu',
+      'Zum Dauergebrauch bei Nichtrauchern gibt es keine Daten – weder zu Nutzen noch zu Schaden',
+      'Nikotinbeutel sind in Deutschland als Lebensmittel nicht verkehrsfähig; gemessene Nikotindosen einzelner Beutel liegen hoch (Mallock-Ohnesorg 2024)',
+      'Bei Jugendlichen ist der Einstieg über Beutel ein eigenes Problem – die Drogenaffinitätsstudie 2025 erhebt das gesondert'
+    ],
+    status: 'Nikotinersatzprodukte (Pflaster, Kaugummi, Lutschtabletten) sind zugelassen. Tabakfreie Nikotinbeutel sind in Deutschland nicht verkehrsfähig.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/20414766/'
+  },
+  {
     id: 'semaglutide',
     name: 'Semaglutide (Ozempic / Wegovy)',
     altNames: 'Ozempic, Wegovy, Rybelsus',
