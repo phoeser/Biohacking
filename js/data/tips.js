@@ -233,7 +233,7 @@ const TIPS = [
     id: 'bewegung-alltag',
     category: 'Bewegung',
     icon: '🚶',
-    title: '10.000 Schritte täglich',
+    title: '6.000 bis 10.000 Schritte am Tag',
     short: 'Der Zusammenhang mit der Sterblichkeit ist in großen Kohorten klar – der Großteil des Gewinns liegt je nach Alter aber schon zwischen 6.000 und 10.000 Schritten.',
     how: 'Treppen statt Aufzug, 10-min-Spaziergang nach jedem Essen, Stehschreibtisch als Zwischenschritt – Gehen wirkt deutlich besser als Stehen. Für den Blutzucker zählen kurze, über den Tag verteilte Einheiten mehr als eine einzige; für harte Endpunkte gibt es diesen Vergleich nicht.',
     tags: ['bewegung', 'gewicht', 'blutzucker', 'stimmung']

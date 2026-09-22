@@ -18,6 +18,30 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-09-22',
+    typ: 'Korrektur',
+    titel: 'Kurkuma: Leber-Entgiftung war als Nutzen geführt, ohne Beleg',
+    text: 'Im Eintrag stand als Nutzen, Kurkuma unterstütze die Leber-Entgiftung. Dafür gab es keine Studie; der Satz stammte aus der Erzählung über das Gewürz. Gleichzeitig führt LiverTox Kurkuma als gut dokumentierte Ursache klinisch auffälliger Leberschäden. Der Nutzen ist gestrichen, die Leberrisiken stehen jetzt ausführlich im Eintrag. Belegt bleibt vor allem die Kniearthrose.',
+    ziel: { view: 'supplement', id: 'kurkuma' },
+    quelle: { titel: 'Folge 111 · LiverTox: Turmeric', url: 'https://www.ncbi.nlm.nih.gov/books/NBK548561/' }
+  },
+  {
+    datum: '2026-09-22',
+    typ: 'Korrektur',
+    titel: '10.000 Schritte: Der Titel war eine Werbezahl',
+    text: 'Der Tipp hieß „10.000 Schritte täglich". Die Zahl stammt aus der Vermarktung eines japanischen Schrittzählers von 1965, nicht aus einer Studie. Die großen Kohorten zeigen den Großteil des Gewinns je nach Alter schon zwischen 6.000 und 10.000 Schritten. Der Titel nennt jetzt diesen Bereich. An der Bewertung ändert sich nichts: Sie gilt dem Gehen, nicht der Zahl.',
+    ziel: { view: 'tipps', id: 'bewegung-alltag' },
+    quelle: { titel: 'Folge 113', url: 'https://biohackingkompakt.de/folge/113.html' }
+  },
+  {
+    datum: '2026-09-22',
+    typ: 'Korrektur',
+    titel: 'Probiotika: Stimmung gestrichen, Erholung nach Antibiotika präzisiert',
+    text: 'Das Schlagwort Stimmung ist entfernt, weil sich die Meta-Analysen dazu widersprechen und in der Nutzen-Liste nichts dazu steht. Außerdem nennt der Eintrag jetzt, wie lange die Darmflora nach Antibiotika ohne Präparat brauchte: rund drei Wochen. Nach wenigen Tagen zurück war sie nur mit der Rücktransplantation des eigenen Stuhls. Der Abstand zum mehrstämmigen Präparat bleibt bestehen, er ist nur kleiner, als die Schlagzeile klang.',
+    ziel: { view: 'supplement', id: 'probiotika' },
+    quelle: { titel: 'Folge 120', url: 'https://biohackingkompakt.de/folge/120.html' }
+  },
+  {
     datum: '2026-09-20',
     typ: 'Korrektur',
     titel: 'PRP: Der Eintrag behauptete das Gegenteil seiner eigenen Score-Begründung',

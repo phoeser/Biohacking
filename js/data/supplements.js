@@ -1284,9 +1284,9 @@ const SUPPLEMENTS = [
     name: 'Probiotika',
     altNames: 'Lactobacillus / Bifidobakterien, Saccharomyces boulardii, Milchsäurebakterien',
     category: 'Probiotika',
-    tags: ['darm', 'immun', 'stimmung', 'verdauung'],
+    tags: ['darm', 'immun', 'verdauung'],
     short: 'Belege gelten für einen Stamm in einer Indikation, nicht für die Produktklasse. Am dichtesten sind sie bei Durchfall unter Antibiotika.',
-    description: 'Probiotika sind lebende Mikroorganismen, meist Laktobazillen, Bifidobakterien oder die Hefe Saccharomyces boulardii. Entscheidend ist der Stamm, nicht die Gattung: Lactobacillus rhamnosus GG verhindert bei Kindern Durchfall unter Antibiotika, beim akuten Magen-Darm-Infekt derselben Altersgruppe wirkte er in einer Studie mit 971 Kindern nicht. Am besten belegt sind antibiotikabedingter Durchfall, die Clostridioides-difficile-Diarrhö bei hohem Ausgangsrisiko, Atemwegsinfekte und einzelne Stämme beim Reizdarm. Nach einer Antibiotikakur kann ein mehrstämmiges Präparat die Rückkehr der eigenen Darmflora sogar verzögern. In der EU ist keine gesundheitsbezogene Angabe für Probiotika zugelassen, der Begriff „probiotisch" selbst ist unzulässig.',
+    description: 'Probiotika sind lebende Mikroorganismen, meist Laktobazillen, Bifidobakterien oder die Hefe Saccharomyces boulardii. Entscheidend ist der Stamm, nicht die Gattung: Lactobacillus rhamnosus GG verhindert bei Kindern Durchfall unter Antibiotika, beim akuten Magen-Darm-Infekt derselben Altersgruppe wirkte er in einer Studie mit 971 Kindern nicht. Am besten belegt sind antibiotikabedingter Durchfall, die Clostridioides-difficile-Diarrhö bei hohem Ausgangsrisiko, Atemwegsinfekte und einzelne Stämme beim Reizdarm. Nach einer Antibiotikakur kann ein mehrstämmiges Präparat die Rückkehr der eigenen Darmflora sogar verzögern: Ohne Präparat war sie nach rund drei Wochen weitgehend zurück, mit Präparat blieb sie laut Übersichtsarbeiten bis zu fünf Monate unvollständig. In der EU ist keine gesundheitsbezogene Angabe für Probiotika zugelassen, der Begriff „probiotisch" selbst ist unzulässig.',
     benefits: [
       'Antibiotikadurchfall bei Kindern: 8 statt 19 Prozent in 33 randomisierten Studien',
       'Clostridioides-difficile-Diarrhö: 1,5 statt 4,0 Prozent, deutlich nur bei Ausgangsrisiko über 5 Prozent',
