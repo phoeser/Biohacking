@@ -908,12 +908,12 @@ const THERAPIES = [
     name: 'Hören & Demenz (Hörversorgung)',
     category: 'Biohacking',
     emoji: '👂',
-    short: 'Unbehandelter Hörverlust gehört zu den beeinflussbaren Demenz-Risikofaktoren. Die Lancet-Kommission führt ihn seit 2024 mit rund 5 % der Fälle auf Platz drei, gleichauf mit Übergewicht – bis 2020 stand er mit 8 % an der Spitze, daher der bis heute zitierte Satz vom größten Risikofaktor. Die Hörversorgung ist der einzige dieser Faktoren, der in einer großen randomisierten Studie geprüft wurde.',
+    short: 'Unbehandelter Hörverlust gehört zu den beeinflussbaren Demenz-Risikofaktoren. Die Lancet-Kommission führt ihn 2024 mit rund 7 % der Fälle an der Spitze, gleichauf mit hohem LDL-Cholesterin – der oft zitierte Satz vom größten beeinflussbaren Risikofaktor stimmt also weiterhin. Die Hörversorgung ist der einzige dieser Faktoren, der in einer großen randomisierten Studie geprüft wurde.',
     benefits: [
-      'Lancet-Kommission 2024: 14 beeinflussbare Faktoren erklären zusammen rund 45 % der Demenzfälle – Hörverlust 5 %, gleichauf mit Übergewicht auf Platz drei, hinter geringer Bildung und Bluthochdruck mit je 7 %',
-      'Korrektur gegenüber 2020: Damals 12 Faktoren und Hörverlust mit 8 % auf Platz eins – der Satz vom größten beeinflussbaren Risikofaktor zitiert diese alte Fassung',
+      'Lancet-Kommission 2024: 14 beeinflussbare Faktoren erklären zusammen rund 45 % der Demenzfälle – Hörverlust und hohes LDL-Cholesterin mit je 7 % an der Spitze, geringe Bildung und soziale Isolation je 5 %, Bluthochdruck 2 %',
+      'Fassung 2020: 12 Faktoren, zusammen 40 %, Hörverlust mit 8 % allein vorn – 2024 etwas niedriger, aber weiter an der Spitze',
       'ACHIEVE (Lancet 2023, 977 Ältere, 3 Jahre): Hörversorgung gegen ein Gesundheitsprogramm – in der Gesamtgruppe kein Unterschied, Hauptendpunkt verfehlt',
-      'In der vorab geplanten Risikogruppe (ARIC-Kohorte, 238 Personen) war der geistige Abbau um 48 % verlangsamt; die 739 gesunden Freiwilligen bauten von vornherein dreimal langsamer ab und hatten damit kaum Spielraum für einen messbaren Effekt',
+      'In der vorab geplanten Risikogruppe (ARIC-Kohorte, 238 Personen) war der geistige Abbau um 48 % verlangsamt; in der Kontrollgruppe bauten die ARIC-Teilnehmer 2,7-mal so schnell ab wie die 739 gesunden Freiwilligen, die damit kaum Spielraum für einen messbaren Effekt hatten',
       'Ein Hörtest ist billig, ungefährlich und der erste Schritt – ob Hörgeräte Demenz verhindern, ist damit nicht bewiesen'
     ],
     indication: [
@@ -923,7 +923,7 @@ const THERAPIES = [
       'Soziale Teilhabe'
     ],
     link: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01406-X/fulltext',
-    note: 'Ein Bevölkerungsanteil ist kein persönliches Risiko: Die 5 % sagen, wie viele Fälle wegfielen, wenn niemand schlecht hörte – nicht, wie stark das eigene Risiko sinkt. Bei Hörproblemen: HNO-Arzt und Hörtest, keine Selbstdiagnose.'
+    note: 'Ein Bevölkerungsanteil ist kein persönliches Risiko: Die 7 % sagen, wie viele Fälle wegfielen, wenn niemand schlecht hörte – nicht, wie stark das eigene Risiko sinkt. Bei Hörproblemen: HNO-Arzt und Hörtest, keine Selbstdiagnose.'
   },
   {
     id: 'muskel-als-organ',
@@ -959,6 +959,8 @@ const THERAPIES = [
       'Im Tiermodell eine vollständige Kette: orale Infektion alter Mäuse über 6 Wochen, Amyloid-Beta-Anstieg, kein Anstieg bei einem Stamm ohne diese Enzyme, unter dem Hemmstoff bis zu 90 % weniger Bakterienlast im Gehirn',
       'Die Konsequenz-Studie: Atuzaginstat (Cortexyme, 643 Patienten, 48 Wochen) verfehlte im Oktober 2021 beide Hauptendpunkte; in der vorab festgelegten Untergruppe mit Erregernachweis im Speichel (242 Personen) 57 % langsamerer kognitiver Abbau unter der höheren Dosis, aber ohne Effekt auf die Alltagsfähigkeiten',
       'FDA-Entwicklungsstopp im Januar 2022 wegen Lebertoxizität (Werte über dem Dreifachen des oberen Normwerts bei 7 % und 15 % je nach Dosis, alle rückläufig), Programmeinstellung im August 2022',
+      'Nachfolgestudie SPRING (Lighthouse Pharmaceuticals, von der früheren Cortexyme-Führung gegründet): rund 300 Patienten mit Erregernachweis im Speichel, US-Förderung 49,2 Mio. Dollar, im Juli 2026 in Rekrutierung',
+      'Stellungnahme der American Heart Association (Circulation, Dezember 2025): Zusammenhang zwischen Parodontitis und Herz-Kreislauf-Erkrankungen belegt, Ursächlichkeit nicht bestätigt, kein direkter Beleg, dass die Behandlung Herz-Kreislauf-Erkrankungen verhindert',
       'Intensive Parodontitis-Behandlung (Tonetti, NEJM 2007, 120 Patienten): nach 24 Stunden schlechtere Gefäßfunktion und erhöhte Entzündungswerte, nach 60 und 180 Tagen bessere Gefäßfunktion – ein Surrogat, kein Herzinfarkt-Endpunkt',
       'Cochrane 2022: nur zwei randomisierte Studien zu harten Herz-Kreislauf-Endpunkten (165 Personen zur Primärprävention, 303 randomisiert zur Sekundärprävention, davon 37 auswertbar), Evidenzqualität sehr niedrig, keine belastbare Antwort'
     ],

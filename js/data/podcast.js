@@ -1,4 +1,4 @@
-/* Podcast-Folgen – erzeugt aus dem Spotify-Creators-Backend (Stand 20.09.2026, Folgen 1-123).
+/* Podcast-Folgen – erzeugt aus dem Spotify-Creators-Backend (Stand 23.09.2026, Folgen 1-138).
  * nr, titel, datum (ISO), ab (Zeitpunkt der Veroeffentlichung in UTC), spotify,
  * ziel (view/id in der App). Folgen 1-103 erscheinen um 10:00 Ortszeit, ab Folge 104
  * um 08:00 Ortszeit – deshalb reicht ein Datumsvergleich nicht, sonst steht die Folge
@@ -27,6 +27,21 @@ const PODCAST_APPLE_BASIS = 'https://podcasts.apple.com/de/podcast/biohacking-ko
 const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/episodes/';
 
 const PODCAST_FOLGEN = [
+  { nr: 138, datum: '2026-11-15', ab: '2026-11-15T07:00:00Z', titel: 'Follistatin und Myostatin-Hemmer – Muskeln ohne Training, zwanzig Jahre später', spotify: '0NMmVGbDL9j0gXbhq2P9zP', ziel: { view: 'experimental', id: 'follistatin' } },
+  { nr: 137, datum: '2026-11-14', ab: '2026-11-14T07:00:00Z', titel: 'GlyNAC – zwei billige Bausteine, ein Patent und die Frage nach der Summe', spotify: '6SjoDjt0RRLDsmd858yEak', ziel: { view: 'supplement', id: 'glynac' } },
+  { nr: 136, datum: '2026-11-13', ab: '2026-11-13T07:00:00Z', titel: 'Mundmikrobiom – ein Zahnfleischkeim im Gehirn und der bessere Grund für Zahnseide', spotify: '5U1mcwzTJfTn3YbImfKZr1', ziel: { view: 'behandlungen', id: 'mundmikrobiom' } },
+  { nr: 135, datum: '2026-11-12', ab: '2026-11-12T07:00:00Z', titel: 'Canagliflozin – vierzehn Prozent für Männchen, und was mit den Weibchen passierte', spotify: '1pdYVfvzdFxSW8JpsfDyxz', ziel: { view: 'experimental', id: 'canagliflozin' } },
+  { nr: 134, datum: '2026-11-11', ab: '2026-11-11T07:00:00Z', titel: 'Tongkat Ali und Fadogia – eine Pflanze geprüft, eine nicht', spotify: '2aHxBvJGlRyFGiOwrNPXyB', ziel: { view: 'supplement', id: 'tongkat-ali' } },
+  { nr: 133, datum: '2026-11-10', ab: '2026-11-10T07:00:00Z', titel: 'Hormontherapie in den Wechseljahren – acht Fälle, zwei falsche Schlagzeilen', spotify: '4fRKaF7BVQr2uLmnNPksUH', ziel: { view: 'behandlungen', id: 'menopause-hrt' } },
+  { nr: 132, datum: '2026-11-09', ab: '2026-11-09T07:00:00Z', titel: 'Psilocybin – von sechs Komma sechs auf drei Komma sechs, und was Anwender erleben', spotify: '2IYWWCAXEuFEGi69r9msby', ziel: { view: 'experimental', id: 'psilocybin' } },
+  { nr: 131, datum: '2026-11-08', ab: '2026-11-08T07:00:00Z', titel: 'Liposomales Kreatin – fünfzehn Prozent bessere Aufnahme und was die Studie zeigt', spotify: '4RTM4sjuAUYCFIVPd7ok3j', ziel: { view: 'supplement', id: 'liposomales-kreatin' } },
+  { nr: 130, datum: '2026-11-07', ab: '2026-11-07T07:00:00Z', titel: 'Luftqualität – der zweitgrößte Risikofaktor der Welt und der Kasten im Schlafzimmer', spotify: '0cWW7zpkCqUfUkB4aRzSv6', ziel: { view: 'tipps', id: 'luftqualitaet' } },
+  { nr: 129, datum: '2026-11-06', ab: '2026-11-06T07:00:00Z', titel: 'Dasatinib plus Quercetin – die Zombiezell-Kur, ein Mechanismus und ein Placebo', spotify: '3BsP38mJh5LYpeGRZpCUho', ziel: { view: 'experimental', id: 'senolytic-dq' } },
+  { nr: 128, datum: '2026-11-05', ab: '2026-11-05T07:00:00Z', titel: 'Akkermansia – das Darmbakterium, das abgetötet besser wirkt, und die Frage: für wen?', spotify: '6vlIJsX2SwBSEL5DPduM33', ziel: { view: 'supplement', id: 'akkermansia' } },
+  { nr: 127, datum: '2026-11-04', ab: '2026-11-04T07:00:00Z', titel: 'Hören und Demenz – der Satz, der hält, und die Studie, die ihr Ziel verfehlte', spotify: '0Goc10RPYQxktqpyCmKwtG', ziel: { view: 'behandlungen', id: 'hoeren-demenz' } },
+  { nr: 126, datum: '2026-11-03', ab: '2026-11-03T07:00:00Z', titel: 'Enclomifen – zweimal abgelehnt, und die Studien stimmen trotzdem', spotify: '6W3jpjHsamFLwfbk4HfS1c', ziel: { view: 'experimental', id: 'enclomiphene' } },
+  { nr: 125, datum: '2026-11-02', ab: '2026-11-02T07:00:00Z', titel: 'Löwenmähne – was der Nerven-Pilz am Menschen wirklich zeigt', spotify: '4eH3wDWOtugL66kz5mHlnP', ziel: { view: 'supplement', id: 'loewenmaehne' } },
+  { nr: 124, datum: '2026-11-01', ab: '2026-11-01T07:00:00Z', titel: 'Muskel als Organ – was deine Griffkraft wirklich verrät', spotify: '7Jco9e4PLz6DN6ESB8c1Rw', ziel: { view: 'behandlungen', id: 'muskel-als-organ' } },
   { nr: 123, datum: '2026-10-31', ab: '2026-10-31T07:00:00Z', titel: 'Nikotin ohne Rauch – ein echter Effekt und eine Abhängigkeit darüber', spotify: '4WkVhC6oDuWs3ADw5Buh2n', ziel: { view: 'experimental', id: 'nikotin-ohne-rauch' } },
   { nr: 122, datum: '2026-10-30', ab: '2026-10-30T07:00:00Z', titel: 'Mikrobiom-Tests – hundertdrei Prozent Unterschied, null Komma acht aus den Genen', spotify: '5kfa62Qyf4sGMvevzfyFz0', ziel: { view: 'behandlungen', id: 'mikrobiom-tests' } },
   { nr: 121, datum: '2026-10-29', ab: '2026-10-29T07:00:00Z', titel: 'Ballaststoffe – hundertfünfunddreißig Millionen Personenjahre für sechs Gramm', spotify: '6U2tdMmjSNIWmPvqy8O6Me', ziel: { view: 'tipps', id: 'ballaststoffe' } },

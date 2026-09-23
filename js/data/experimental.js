@@ -1039,7 +1039,7 @@ const EXPERIMENTAL = [
       'Mögliche Nebenwirkungen: Sehstörungen (selten), Stimmungsschwankungen, Kopfschmerzen. In den Phase-3-Studien wurden bei 21 % Nebenwirkungen gemeldet, keine schwere, kein Unterschied zwischen den Gruppen.',
       'Wirkt nur bei intakter Hypothalamus-Hypophysen-Hoden-Achse (sekundärer Hypogonadismus).',
       'In DE nicht zugelassen – Bezug oft über Graumarkt (ungeprüft).',
-      'Die FDA lehnte die Zulassung am 1.12.2015 ab: Das Design der Phase-3-Studien sei nicht mehr geeignet, einen klinischen Nutzen zu belegen, dazu drei Beanstandungen zu Einschlusskriterien, Dosistitration und Validierung der Messmethode. Ob Männer sich damit besser fühlen, haben nur 2 von 10 Studien überhaupt erhoben.',
+      'Die FDA lehnte die Zulassung am 1.12.2015 ab: Das Design der Phase-3-Studien sei nicht mehr geeignet, einen klinischen Nutzen zu belegen, dazu drei Beanstandungen zu Einschlusskriterien, Dosistitration und Validierung der Messmethode. Beschwerde-Fragebögen gibt es nur in einzelnen Clomifen-Studien, mit gemischtem Ergebnis; für Enclomifen selbst wurden sie nie erhoben. Auch die Europäische Arzneimittel-Agentur lehnte 2018 die Zulassung ab: Symptome nicht untersucht, Risiko venöser Thromboembolien.',
       'Schlechtere Sicherheitsdatenlage als die klassische Testosterontherapie – nicht weil die Substanz gefährlicher wäre, sondern weil niemand lange genug hingeschaut hat: 256 Männer über 16 Wochen gegenüber 5246 Männern über etwa 33 Monate (TRAVERSE). Die Übersichtsarbeit nennt ihre eigene Sicherheitsanalyse unterpowert.',
       'Dopingrelevant: Clomifen steht auf der Verbotsliste der Welt-Anti-Doping-Agentur unter den Hormon- und Stoffwechselmodulatoren; das US-Verteidigungsministerium führt beide Substanzen auf seiner Verbotsliste.'
     ],
@@ -1800,6 +1800,8 @@ const EXPERIMENTAL = [
     risks: [
       'Hochexperimentell – kaum belastbare Humandaten; Gentherapie-Varianten besonders riskant',
       'Drei Programme gescheitert: ACE-031 (2013 eingestellt, Blutungen und erweiterte Hautgefäße), Domagrozumab (2018, Treppenstufen-Test bei 121 Jungen verfehlt), Bimagrumab (Gehstrecke trotz Muskelzuwachs nicht besser)',
+      'Ein vierter Anlauf war erfolgreich, aber bei einer anderen Krankheit: Apitegromab erreichte bei spinaler Muskelatrophie (SAPPHIRE, 188 Teilnehmende) den Hauptendpunkt knapp; der europäische Zulassungsantrag wurde im September 2026 zurückgezogen',
+      'Graumarktware: In einer Laboranalyse von 14 gehandelten ACE-031-Produkten enthielten 2 kein passendes Protein und 12 nicht ACE-031, sondern den vollständigen Activin-Rezeptor IIB',
       'Nicht zugelassen, im Sport verboten; Graumarkt-Ware höchst unsicher',
       'Langzeitfolgen völlig unklar'
     ],
@@ -2555,13 +2557,13 @@ const EXPERIMENTAL = [
     altNames: 'D+Q-Protokoll',
     class: 'Senolytische Kombination (Tyrosinkinase-Inhibitor + Flavonoid)',
     emoji: '🧨',
-    short: 'Die klassische „Zombie-Zell-Kur" der Longevity-Forschung: räumt seneszente Zellen gepulst aus dem Gewebe – nur wenige Tage im Monat, mit spannenden ersten Studiendaten.',
+    short: 'Die klassische „Zombie-Zell-Kur" der Longevity-Forschung: räumt seneszente Zellen gepulst aus dem Gewebe – nur wenige Tage im Monat. Der Mechanismus ist am Menschen in Gewebeproben gezeigt; in den placebokontrollierten Studien blieb der Nutzen bisher aus.',
     moa: 'Dasatinib blockiert pro-survival Pathways (Ephrin-Tyrosinkinasen). Quercetin hemmt BCL-2/PI3K-Pathways. Seneszente Zellen sind auf diese „SCAPs" angewiesen und sterben. Weil verschiedene seneszente Zelltypen an verschiedenen Überlebenswegen hängen, wird kombiniert; weil sich die Zellen erst über Wochen neu ansammeln, wird gepulst statt täglich dosiert („hit and run").',
     benefits: [
       'Mechanismus am Menschen belegt: 9 Personen mit diabetischer Nierenerkrankung, 3 Tage Einnahme, 11 Tage später 35 % weniger seneszente Zellen im Fettgewebe, ein weiterer Marker −62 %, Entzündungsfresszellen −28 %, dazu gesunkene Entzündungsstoffe im Blut',
       'Offene Studie bei Lungenfibrose (14 Teilnehmer) zeigte bessere körperliche Funktion – die randomisierte, einfach verblindete Folgestudie derselben Gruppe (12 Teilnehmer) fand keinen bedeutsamen Unterschied mehr',
       'Affen mittleren Alters (9 behandelt, 7 Kontrolle, 6 Monate, 2 Tage pro Monat): weniger Seneszenzmarker im Fettgewebe, entzündungshemmende Verschiebungen, bessere Nierenwerte, keine schweren Nebenwirkungen',
-      'Mausmodell 2016: gezielte Entfernung seneszenter Zellen per Genschalter verlängerte die mittlere Lebenszeit um rund 18 % bzw. 9 % – das war ein Genschalter, kein Medikament, und die maximale Lebensspanne stieg nicht'
+      'Mausmodell 2016: gezielte Entfernung seneszenter Zellen per Genschalter verlängerte die mittlere Lebenszeit um 27 % bzw. 24 % je nach Mauslinie – das war ein Genschalter, kein Medikament, und die Höchstlebensdauer stieg nur in einer der beiden Linien'
     ],
     risks: [
       'Dasatinib ist ein verschreibungspflichtiges Krebsmedikament – die Anwendung gehört unbedingt in ärztliche Hände.',
@@ -2678,7 +2680,7 @@ const EXPERIMENTAL = [
     ],
     status: 'Als Invokana für Typ-2-Diabetes zugelassen. Longevity-Nutzung off-label.',
     sources: [
-      { title: 'ITP – Canagliflozin verlängert Lebensspanne männlicher Mäuse', url: 'https://pubmed.ncbi.nlm.nih.gov/32112506/' },
+      { title: 'ITP – Canagliflozin verlängert Lebensspanne männlicher Mäuse', url: 'https://pubmed.ncbi.nlm.nih.gov/32990681/' },
       { title: 'Bolds Media – Latest Longevity Research 2026', url: 'https://www.boldsmedia.com/latest-longevity-researches/' }
     ],
     community: [

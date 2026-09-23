@@ -762,13 +762,13 @@ const SUPPLEMENTS = [
     ],
     risks: [
       'Bei Pilzallergie meiden',
-      'Sehr sicher und gut verträglich'
+      'In Studien bis 49 Wochen meist gut vertragen (Magen-Darm, Hautausschlag); Wechselwirkungen nicht untersucht, Langzeitdaten fehlen'
     ],
     dosage: '500–3.000 mg Dual-Extrakt täglich.',
     intake: 'Morgens mit Mahlzeit. Dual-Extrakte (Wasser + Alkohol) bevorzugen.',
     synergies: ['acetyl-l-carnitin', 'omega-3'],
     avoid: [],
-    evidence: 'mittel',
+    evidence: 'gering',
     sources: 'Essbarer Pilz (sieht aus wie Löwenmähne)'
   },
   {
@@ -2233,6 +2233,8 @@ const SUPPLEMENTS = [
       'Beide Komponenten gut verfügbar und günstig'
     ],
     risks: [
+      'Die einzige Studie außerhalb der Baylor-Gruppe (Nestlé, 114 Personen, 2 Wochen) verfehlte ihren Hauptendpunkt – allerdings mit weniger als der halben Baylor-Dosis',
+      'Mausstudie 2025: Herzvorteil nur bei Männchen, Weibchen mit schlechterer Laufleistung',
       'Human-Evidenz aus kleinen Studien (überwiegend eine Forschungsgruppe)',
       'NAC selten mit Magen-Darm-Effekten; bei Asthma vorsichtig',
       'Kein Ersatz für Schlaf, Bewegung, Ernährung',
@@ -2541,7 +2543,7 @@ const SUPPLEMENTS = [
     altNames: 'Akkermansia, pasteurisierte Akkermansia muciniphila, Longevity-Bakterium',
     category: 'Probiotika',
     tags: ['darm', 'mikrobiom', 'stoffwechsel', 'insulin', 'longevity', 'novel-food'],
-    short: 'Darmbakterium, das von der Schleimschicht der Darmwand lebt. Schlanke, stoffwechselgesunde Menschen haben davon meist viel, Übergewichtige wenig. In der einzigen Studie am Menschen wirkte ausgerechnet die abgetötete Variante.',
+    short: 'Darmbakterium, das von der Schleimschicht der Darmwand lebt. Schlanke, stoffwechselgesunde Menschen haben davon meist viel, Übergewichtige wenig. In der ersten Studie am Menschen wirkte die pasteurisierte, also abgetötete Form am deutlichsten; inzwischen gibt es vier kleine randomisierte Studien mit gemischten Ergebnissen.',
     description: 'Akkermansia muciniphila wurde 2004 an der Universität Wageningen aus einer Stuhlprobe isoliert. Es baut Mucin ab, den Schleim der Darmwand, und treibt damit dessen Neubildung an — im Tiermodell wird die Barriere dadurch dichter, die stille Entzündung geringer und die Insulinresistenz kleiner. Am Menschen ist die Umkehrbeziehung gut belegt: Wenig Akkermansia geht mit Übergewicht, Typ-2-Diabetes und Bluthochdruck einher. Geprüft wurde das Bakterium selbst in genau einer kontrollierten Studie: Depommier 2019 in Nature Medicine, 40 eingeschlossene Übergewichtige mit Insulinresistenz, 32 Teilnehmer über 3 Monate ausgewertet, 3 Arme. Dort verbesserte die pasteurisierte, also abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent, senkte den Insulinspiegel um rund ein Drittel und das Gesamtcholesterin um knapp 9 Prozent; die lebende Form zeigte das nicht sauber. Im Tiermodell von 2013 war es genau umgekehrt. Der Gewichtsverlust von gut 2 Kilogramm verfehlte die Signifikanz gegen Placebo. In der EU ist nur die pasteurisierte Form als neuartiges Lebensmittel zugelassen.',
     benefits: [
       'Verbesserte die Insulinempfindlichkeit in der pasteurisierten Form um fast 29 Prozent (32 Teilnehmer, 3 Monate)',
@@ -2553,7 +2555,7 @@ const SUPPLEMENTS = [
     risks: [
       'Keine Langzeitdaten: geprüft sind 3 Monate an wenigen Dutzend Menschen, nicht Jahre an Tausenden',
       'Der beworbene Gewichtsverlust von gut 2 Kilogramm war gegen Placebo statistisch nicht abgesichert',
-      'Widerspruch zwischen Tier und Mensch ungeklärt: im Tier wirkte nur die lebende, am Menschen nur die abgetötete Form',
+      'Kein echter Widerspruch zwischen Tier und Mensch: Die unwirksame Tierform von 2013 war autoklaviert, pasteurisiert wirkte sie auch in der Maus. Unklar bleibt, für wen die Kapsel etwas bringt – in mehreren Studien profitierten vor allem Menschen mit wenig eigenem Akkermansia',
       'Lebende Akkermansia hat in der EU keinen Zulassungsstatus als Lebensmittel; die zentralen Forscher sind am Hersteller beteiligt'
     ],
     dosage: 'Berichtete Anwendung, keine Empfehlung: In der Humanstudie nahmen die Teilnehmer täglich 10 Milliarden pasteurisierte Bakterien über 3 Monate. Die EU-Zulassung deckelt die pasteurisierte Form bei höchstens 5 mal 10 hoch 10 Zellen pro Tag.',

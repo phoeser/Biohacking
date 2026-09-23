@@ -20,6 +20,38 @@ const AENDERUNGEN = [
   {
     datum: '2026-09-22',
     typ: 'Korrektur',
+    titel: 'Hören und Demenz: Hörverlust steht auch 2024 an der Spitze',
+    text: 'Der Eintrag führte Hörverlust nach der Neuberechnung der Lancet-Kommission 2024 mit 5 % auf Platz drei. Richtig ist: Hörverlust und hohes LDL-Cholesterin liegen mit je 7 % der Demenzfälle gemeinsam vorn, geringe Bildung und soziale Isolation folgen mit je 5 %, Bluthochdruck mit 2 %. Der oft zitierte Satz vom größten beeinflussbaren Risikofaktor stimmt also weiterhin. An der Bewertung der Hörversorgung ändert das nichts: Die große ACHIEVE-Studie hat ihr Hauptziel verfehlt.',
+    ziel: { view: 'behandlungen', id: 'hoeren-demenz' },
+    quelle: { titel: 'Folge 127 · Lancet-Kommission 2024', url: 'https://biohackingkompakt.de/folge/127.html' }
+  },
+  {
+    datum: '2026-09-22',
+    typ: 'Korrektur',
+    titel: 'Senolytika: Die Mauszahlen von 2016 waren zu niedrig angegeben',
+    text: 'Das Entfernen seneszenter Zellen per Genschalter verlängerte die mittlere Lebenszeit nicht um 18 und 9 %, sondern um 27 und 24 %, je nach Mauslinie; die Höchstlebensdauer stieg in einer der beiden Linien. Die Bewertung von Dasatinib plus Quercetin am Menschen bleibt: In den placebokontrollierten Studien blieb der Nutzen aus.',
+    ziel: { view: 'experimental', id: 'senolytic-dq' },
+    quelle: { titel: 'Folge 129', url: 'https://biohackingkompakt.de/folge/129.html' }
+  },
+  {
+    datum: '2026-09-22',
+    typ: 'Evidenz',
+    titel: 'Akkermansia: Der Widerspruch zwischen Tier und Mensch löst sich auf',
+    text: 'Der Eintrag nannte es ungeklärt, dass im Tier nur lebende und am Menschen nur abgetötete Bakterien wirkten. Die unwirksame Tierform von 2013 war im Autoklaven abgetötet; schonend pasteurisiert wirkte sie auch in der Maus. Inzwischen gibt es vier kleine Studien am Menschen mit gemischten Ergebnissen.',
+    ziel: { view: 'supplement', id: 'akkermansia' },
+    quelle: { titel: 'Folge 128', url: 'https://biohackingkompakt.de/folge/128.html' }
+  },
+  {
+    datum: '2026-09-22',
+    typ: 'Korrektur',
+    titel: 'Tongkat Ali und Fadogia: keine Kombination ohne Studie',
+    text: 'Die Themenseiten verknüpften Tongkat Ali und Fadogia Agrestis als „wirkt zusammen mit". Für die Kombination gibt es keine Studie, und Fadogia selbst ist am Menschen nie geprüft worden. Die Verknüpfung ist entfernt.',
+    ziel: { view: 'supplement', id: 'tongkat-ali' },
+    quelle: { titel: 'Folge 134', url: 'https://biohackingkompakt.de/folge/134.html' }
+  },
+  {
+    datum: '2026-09-22',
+    typ: 'Korrektur',
     titel: 'Kurkuma: Leber-Entgiftung war als Nutzen geführt, ohne Beleg',
     text: 'Im Eintrag stand als Nutzen, Kurkuma unterstütze die Leber-Entgiftung. Dafür gab es keine Studie; der Satz stammte aus der Erzählung über das Gewürz. Gleichzeitig führt LiverTox Kurkuma als gut dokumentierte Ursache klinisch auffälliger Leberschäden. Der Nutzen ist gestrichen, die Leberrisiken stehen jetzt ausführlich im Eintrag. Belegt bleibt vor allem die Kniearthrose.',
     ziel: { view: 'supplement', id: 'kurkuma' },
