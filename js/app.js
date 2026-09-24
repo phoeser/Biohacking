@@ -745,6 +745,24 @@
     if (sSup) sSup.textContent = (typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS.length : '–');
     if (sTip) sTip.textContent = (typeof TIPS !== 'undefined' ? TIPS.length : '–');
     if (sGoal) sGoal.textContent = (typeof GOALS !== 'undefined' ? GOALS.length : '–');
+    // Themen = alle Eintraege mit eigener Seite; Folgen = nur die schon
+    // erschienenen (gleiche Regel wie der Heute-Kasten), keine eingeplanten.
+    const sThemen = $('#stat-themen');
+    if (sThemen) {
+      const anz = (x) => (Array.isArray(x) ? x.length : 0);
+      const n = anz(typeof SUPPLEMENTS !== 'undefined' ? SUPPLEMENTS : null) +
+        anz(typeof EXPERIMENTAL !== 'undefined' ? EXPERIMENTAL : null) +
+        anz(typeof KHAVINSON !== 'undefined' ? KHAVINSON : null) +
+        anz(typeof THERAPIES !== 'undefined' ? THERAPIES : null) +
+        anz(typeof TIPS !== 'undefined' ? TIPS : null);
+      sThemen.textContent = n || '–';
+    }
+    const sFolgen = $('#stat-folgen');
+    if (sFolgen && typeof PODCAST_FOLGEN !== 'undefined') {
+      const jetzt = Date.now();
+      sFolgen.textContent = PODCAST_FOLGEN
+        .filter(f => new Date(f.ab || (f.datum + 'T00:00:00Z')).getTime() <= jetzt).length;
+    }
     renderHomeErfahrungen();
   }
 
