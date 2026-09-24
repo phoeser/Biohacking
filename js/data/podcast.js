@@ -1,4 +1,4 @@
-/* Podcast-Folgen – erzeugt aus dem Spotify-Creators-Backend (Stand 24.09.2026, Folgen 1-138).
+/* Podcast-Folgen – erzeugt aus dem Spotify-Creators-Backend (Stand 24.09.2026, Folgen 1-154).
  * nr, titel, datum (ISO), ab (Zeitpunkt der Veroeffentlichung in UTC), spotify,
  * ziel (view/id in der App). Folgen 1-103 erscheinen um 10:00 Ortszeit, ab Folge 104
  * um 08:00 Ortszeit – deshalb reicht ein Datumsvergleich nicht, sonst steht die Folge
@@ -27,6 +27,22 @@ const PODCAST_APPLE_BASIS = 'https://podcasts.apple.com/de/podcast/biohacking-ko
 const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/episodes/';
 
 const PODCAST_FOLGEN = [
+  { nr: 154, datum: '2026-12-01', ab: '2026-12-01T07:00:00Z', titel: 'Nandrolon – ein Steroid, eine Zahnpasta und sechzig Jahre Daten', spotify: '4SCbOG4smY5TJlDzGvs0oK', ziel: { view: 'experimental', id: 'nandrolon' } },
+  { nr: 153, datum: '2026-11-30', ab: '2026-11-30T07:00:00Z', titel: 'HMG – das Hormon aus dem Kloster, zwischen Kinderwunsch und Steroidkur', spotify: '5BnjYdb7Ocepy65VqHxBYI', ziel: { view: 'experimental', id: 'hmg' } },
+  { nr: 152, datum: '2026-11-29', ab: '2026-11-29T07:00:00Z', titel: 'Hexarelin – das stärkste Wachstumshormon-Peptid, und was nach Wochen bleibt', spotify: '34BieD9hLQTkemWKjXk18o', ziel: { view: 'experimental', id: 'hexarelin' } },
+  { nr: 151, datum: '2026-11-28', ab: '2026-11-28T07:00:00Z', titel: 'Larazotid – der Riegel gegen den durchlässigen Darm, gebaut nach einem Cholera-Gift', spotify: '27ZcqxKIjyyOPgbZgpqxs1', ziel: { view: 'experimental', id: 'larazotide' } },
+  { nr: 150, datum: '2026-11-27', ab: '2026-11-27T07:00:00Z', titel: 'Semax – das russische Nasenspray, das in Amerika eine Abstimmung gewann', spotify: '531TtwTZvMiSwUyQFt2DCW', ziel: { view: 'experimental', id: 'semax' } },
+  { nr: 149, datum: '2026-11-26', ab: '2026-11-26T07:00:00Z', titel: 'Klotho – das Anti-Aging-Protein aus einer verunglückten Maus', spotify: '39MdEL1R7HXwfYDHYaQ8TO', ziel: { view: 'experimental', id: 'klotho' } },
+  { nr: 148, datum: '2026-11-25', ab: '2026-11-25T07:00:00Z', titel: 'Exosomen – die Post der Zellen und was von ihr in der Flasche ankommt', spotify: '3rzErw7H9i8TZGAmjCQTus', ziel: { view: 'behandlungen', id: 'exosomen' } },
+  { nr: 147, datum: '2026-11-24', ab: '2026-11-24T07:00:00Z', titel: 'Cerebrolysin – 70 Jahre Schweinehirn-Extrakt und eine offene Frage', spotify: '15wScRwBgWsAkS1HkWxgGU', ziel: { view: 'experimental', id: 'cerebrolysin' } },
+  { nr: 146, datum: '2026-11-23', ab: '2026-11-23T07:00:00Z', titel: 'Nattokinase & Serrapeptase – was Anwender berichten und was die Studien zeigen', spotify: '0zIq8Z15gvxZM2K23K7Ark', ziel: { view: 'supplement', id: 'nattokinase' } },
+  { nr: 145, datum: '2026-11-22', ab: '2026-11-22T07:00:00Z', titel: 'Muskelerhalt unter der Abnehmspritze – was die Waage verschweigt', spotify: '1koik71mQkCfd1d9Qflxcw', ziel: { view: 'tipps', id: 'glp1-muskel' } },
+  { nr: 144, datum: '2026-11-21', ab: '2026-11-21T07:00:00Z', titel: 'Acarbose – ein Diabetesmittel aus Kenia, ein Mäuserekord und ein Bagel-Test', spotify: '2HFJAY2ve5QXLZzPVHiEXb', ziel: { view: 'experimental', id: 'acarbose' } },
+  { nr: 143, datum: '2026-11-20', ab: '2026-11-20T07:00:00Z', titel: 'Alpha-GPC & Citicolin – zwei Studien aus Korea, zwei Richtungen', spotify: '1qB2xXFESgORzj7xYLus6P', ziel: { view: 'supplement', id: 'alpha-gpc' } },
+  { nr: 142, datum: '2026-11-19', ab: '2026-11-19T07:00:00Z', titel: 'Plasmaaustausch gegen das Altern – Verdünnen statt junges Blut?', spotify: '2cf6TrANLkwB97diHkuGa2', ziel: { view: 'behandlungen', id: 'tpe-plasmaaustausch' } },
+  { nr: 141, datum: '2026-11-18', ab: '2026-11-18T07:00:00Z', titel: 'Humanin – das Peptid aus dem Teil des Gehirns, der heil geblieben war', spotify: '6Wavtei3Mx6Cj0A1z6e7MV', ziel: { view: 'experimental', id: 'humanin' } },
+  { nr: 140, datum: '2026-11-17', ab: '2026-11-17T07:00:00Z', titel: 'Citrus Bergamot – das „natürliche Statin“ aus Kalabrien und was es wirklich kann', spotify: '1P5n4IIdWjR0KIUu3iS00T', ziel: { view: 'supplement', id: 'citrus-bergamot' } },
+  { nr: 139, datum: '2026-11-16', ab: '2026-11-16T07:00:00Z', titel: 'Die GLP-1-Welle – Semaglutid zwischen Herzschutz, Ruhe im Kopf und Schwarzmarkt', spotify: '2MBsebnelzIX1FrnjYN7go', ziel: { view: 'experimental', id: 'semaglutide' } },
   { nr: 138, datum: '2026-11-15', ab: '2026-11-15T07:00:00Z', titel: 'Follistatin und Myostatin-Hemmer – Muskeln ohne Training, zwanzig Jahre später', spotify: '0NMmVGbDL9j0gXbhq2P9zP', ziel: { view: 'experimental', id: 'follistatin' } },
   { nr: 137, datum: '2026-11-14', ab: '2026-11-14T07:00:00Z', titel: 'GlyNAC – zwei billige Bausteine, ein Patent und die Frage nach der Summe', spotify: '6SjoDjt0RRLDsmd858yEak', ziel: { view: 'supplement', id: 'glynac' } },
   { nr: 136, datum: '2026-11-13', ab: '2026-11-13T07:00:00Z', titel: 'Mundmikrobiom – ein Zahnfleischkeim im Gehirn und der bessere Grund für Zahnseide', spotify: '5U1mcwzTJfTn3YbImfKZr1', ziel: { view: 'behandlungen', id: 'mundmikrobiom' } },
