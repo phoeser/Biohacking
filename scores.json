@@ -962,7 +962,13 @@
    "anwendung": 6,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Der auffälligste Widerspruch im Supplementbereich: Ein RCT mit 100 Patienten mit leichter kognitiver Beeinträchtigung (BMC Geriatrics 2024) zeigt über zwölf Wochen einen Vorteil im ADAS-Cog – gleichzeitig fand eine koreanische Kohortenstudie mit über zwölf Millionen Personen und neun Jahren Nachbeobachtung (JAMA Network Open 2021) bei Alpha-GPC-Nutzern ein um 46 Prozent erhöhtes Schlaganfallrisiko mit Dosis-Wirkungs-Trend. Das ist eine Beobachtungsstudie, Confounding nicht ausgeschlossen, und als Mechanismus wird TMAO diskutiert. In der Werbung kommt dieses Signal praktisch nie vor."
+   "beleg": "Der auffälligste Widerspruch im Supplementbereich: Ein RCT mit 100 Patienten mit leichter kognitiver Beeinträchtigung (BMC Geriatrics 2024) zeigt über zwölf Wochen einen Vorteil im ADAS-Cog – gleichzeitig fand eine koreanische Kohortenstudie mit über zwölf Millionen Personen und neun Jahren Nachbeobachtung (JAMA Network Open 2021) bei Alpha-GPC-Nutzern ein um 46 Prozent erhöhtes Schlaganfallrisiko mit Dosis-Wirkungs-Trend. Das ist eine Beobachtungsstudie, Confounding nicht ausgeschlossen, und als Mechanismus wird TMAO diskutiert. In der Werbung kommt dieses Signal praktisch nie vor. Eine zweite koreanische Kohorte (J Prev Alzheimers Dis 2025, 508.107 Menschen mit leichter kognitiver Beeinträchtigung) fand weniger Übergänge in eine Demenz und im gematchten Vergleich kein erhöhtes Schlaganfallrisiko. Die behördlich angeordneten Placebostudien in Korea (48 Wochen, leichte kognitive Beeinträchtigung) verfehlten 2026 laut Presseberichten den Primärendpunkt, die Per-Protocol-Analyse war positiv (67,8 gegenüber 60,1 Prozent); eine Publikation fehlt. Die EFSA sah im Mai 2026 bei Alpha-GPC als neuartigem Lebensmittel keine Sicherheitsbedenken bei begrenzter Tagesmenge.",
+   "berichtslage": {
+    "stufe": 1,
+    "kurz": "Etwas Antrieb, klarerer Kopf",
+    "was": "In einer Umfrage aus Nootropika-Foren (2014, 15 Bewertungen für Alpha-GPC) lag Alpha-GPC im Mittel bei 5,1 von 10, gut einen Punkt über dem einfachen Cholinsalz, das der Umfrageautor als Maßstab für den Placeboeffekt nimmt. Gesucht werden vor allem Antrieb und ein klarerer Kopf; oft wird es als Begleiter von Racetamen gegen Kopfschmerz genommen. Die Richtung deckt sich mit kleinen Studien an Gesunden, belegt aber nichts: Selbstauskunft, keine Placebokontrolle, sehr kleine Zahl.",
+    "quellen": "Nootropika-Umfrage Slate Star Codex 2014 (nicht begutachtet)"
+   }
   },
   {
    "id": "citicolin",
@@ -1374,7 +1380,13 @@
    "anwendung": 5,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Für einen Surrogatmarker konsistent, für den beworbenen Rahmen nicht: Mehrere kleinere Studien senken das LDL, in unabhängigen verblindeten Arbeiten um rund 10 Prozent, und zeigen damit dasselbe Muster. Kardiovaskuläre Endpunkte – Herzinfarkt, Sterblichkeit – wurden nie untersucht. Genau darin liegt die Lücke der Bezeichnung als natürliches Statin: Statine sind über harte Endpunkte in großen Studien belegt, Bergamotte über Blutwerte in kleinen."
+   "beleg": "Für einen Surrogatmarker konsistent, für den beworbenen Rahmen nicht: Mehrere kleinere Studien senken das LDL, in verblindeten Arbeiten außerhalb Italiens um rund 10 Prozent – auch diese mit Herstellerbeteiligung –, und zeigen damit dasselbe Muster. Die Meta-Analyse von Chambari 2026 über 9 randomisierte Studien mit 615 Teilnehmenden bestätigt die Richtung, stuft die Evidenz für LDL aber als sehr niedrig ein und findet in größeren Studien kleinere Effekte. Kardiovaskuläre Endpunkte – Herzinfarkt, Sterblichkeit – wurden nie untersucht. Genau darin liegt die Lücke der Bezeichnung als natürliches Statin: Statine sind über harte Endpunkte in großen Studien belegt, Bergamotte über Blutwerte in kleinen.",
+   "berichtslage": {
+    "stufe": 1,
+    "kurz": "Teils Senkung, teils gar nichts",
+    "was": "Gemischt: In einer kleinen US-Bewertungssammlung (24 Bewertungen aus 2015 bis 2024) vergibt gut die Hälfte vier oder fünf Sterne und berichtet teils LDL-Senkungen von 10 bis 20 Prozent ohne Nebenwirkungen, fast vier von zehn vergeben einen Stern – kein Effekt oder steigende Werte. Dazu kommen Einzelberichte über niedrigen Blutdruck und Sonnenempfindlichkeit. Hintergrund: In Reddit-Diskussionen über Statine geht es in knapp der Hälfte um Alternativen (Liu 2026).",
+    "quellen": "WebMD-Bewertungen (24, 2015–2024) · Liu 2026 (J Med Internet Res)"
+   }
   },
   {
    "id": "nattokinase",
@@ -1388,7 +1400,13 @@
    "anwendung": 6,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Beworben wird die Auflösung von Blutgerinnseln, gezeigt ist eine Blutdrucksenkung: Eine Meta-Analyse über 8 RCTs (2024) findet 3,45 mmHg systolisch und 2,32 mmHg diastolisch, die Lipideffekte sind dosisabhängig und uneinheitlich. Keine Studie hat reduzierte thrombotische Ereignisse untersucht. Die fibrinolytische Aktivität ist über Biomarker wie D-Dimer und Fibrinogen belegt, der klinische Schritt nicht. Als konzentriertes Präparat ist Nattokinase deutlich schlechter charakterisiert als das traditionelle Natto; das Blutungsrisiko unter Gerinnungshemmern ist dokumentiert."
+   "beleg": "Beworben wird die Auflösung von Blutgerinnseln, gezeigt ist eine Blutdrucksenkung: Eine Meta-Analyse über 6 RCTs mit 546 Teilnehmenden (Li 2023, Rev Cardiovasc Med) findet −3,45 mmHg systolisch und −2,32 mmHg diastolisch, die Lipideffekte sind dosisabhängig und uneinheitlich. Keine Studie hat reduzierte thrombotische Ereignisse untersucht. Die fibrinolytische Aktivität ist über Biomarker wie D-Dimer und Fibrinogen belegt, der klinische Schritt nicht. Als konzentriertes Präparat ist Nattokinase deutlich schlechter charakterisiert als das traditionelle Natto; das Blutungsrisiko unter Gerinnungshemmern ist dokumentiert. Die einzige lange placebokontrollierte Studie (Hodis 2021, 265 Personen, median 3 Jahre) zeigt keinen Effekt auf Karotis-Wanddicke, Gefäßsteifigkeit, Blutdruck oder Gerinnungs- und Fibrinolysewerte. Die Plaque-Daten (Chen 2022, 1.062 Personen) stammen aus einer retrospektiven Aktenauswertung ohne Kontrollgruppe mit Herstellerbeteiligung.",
+   "berichtslage": {
+    "stufe": 2,
+    "kurz": "Long Covid: viele berichten Besserung",
+    "was": "In einer großen Online-Umfrage (PNAS 2025, 3.925 Menschen mit Long Covid oder ME/CFS, verteilt u. a. über Reddit) bewerteten 475 Menschen Nattokinase oder Lumbrokinase, als eine Gruppe gezählt: 55 Prozent besser, 7 Prozent schlechter. Zum Vergleich orales Vitamin C, das die Autoren mangels Placebo als Maßstab nutzen: 27 Prozent besser. Eine qualitative Social-Media-Analyse (LISTEN 2025) findet neben positiven Berichten viel Enttäuschung und Frust über die Kosten. Selbstauskunft, Auswahl über Patientengruppen, keine Placebokontrolle; Studien am Menschen zu Long Covid gibt es nicht.",
+    "quellen": "Eckey 2025 (PNAS) · Martin 2025 (Front Big Data) · Baptista 2026 (Front Med)"
+   }
   },
   {
    "id": "serrapeptase",
@@ -1402,12 +1420,12 @@
    "anwendung": 6,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Der aussagekräftigste Befund steht am Ende der Marktgeschichte: Nachdem die Behörde eine Neubewertung verlangt hatte, fand sich in placebokontrollierten Doppelblindstudien kein signifikanter Unterschied – der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 vom Markt, statt neue Studien vorzulegen. Das systematische Review (Bhagat et al., Int J Surg 2013) findet für keine der beworbenen Anwendungen belastbare Evidenz. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich.",
+   "beleg": "Der aussagekräftigste Befund steht am Ende der Marktgeschichte: Nachdem die Behörde eine Neubewertung verlangt hatte, fand sich in placebokontrollierten Doppelblindstudien kein signifikanter Unterschied – der japanische Originalanbieter nahm die entzündungshemmende Formulierung 2011 vom Markt, statt neue Studien vorzulegen. Das systematische Review (Bhagat et al., Int J Surg 2013) findet für keine der beworbenen Anwendungen belastbare Evidenz. Dokumentiert sind seltene, aber schwere Reaktionen bis zur eosinophilen Pneumonitis. Dass ein großes Enzymprotein oral intakt wirkt, ist mechanistisch fraglich. 2026 kamen zwei Arbeiten hinzu: eine retrospektive Kohorte nach Liposuktion bei Lipödem (50 Frauen) ohne Effekt auf Fibrose und Schmerz (Bruno 2026) und eine nicht randomisierte Beobachtungsstudie bei Unfallpatienten (813 ausgewertet) mit schnellerer Schmerzlinderung, bei der die Ärzte über die Zuteilung entschieden (Hanif 2026).",
    "berichtslage": {
     "stufe": 1,
-    "kurz": "Berichte ja — Hersteller hörte trotzdem auf",
-    "was": "Es gibt Berichte ueber weniger Schwellung und freiere Atemwege, meist einzeln und ohne gemeinsames Muster. Dagegen steht ein ungewoehnlich starkes Gegenargument: Der japanische Originalhersteller hat das Produkt selbst vom Markt genommen, nachdem eigene Daten die Wirkung nicht bestaetigten. Wenn der Anbieter gegen sein eigenes Interesse entscheidet, wiegt das schwerer als vereinzelte Berichte.",
-    "quellen": "vereinzelte Anwenderberichte"
+    "kurz": "Berichte ja, aber nicht von Vitamin C zu unterscheiden",
+    "was": "In der PNAS-Umfrage 2025 unter Menschen mit Long Covid oder ME/CFS bewerteten 104 Menschen Serrapeptase allein: 37,5 Prozent besser, 8,7 Prozent schlechter, statistisch nicht von oralem Vitamin C (27 Prozent besser) zu unterscheiden, das die Autoren mangels Placebo als Maßstab nutzen. In Kombination mit Nattokinase oder Lumbrokinase (430 Bewertungen) nannten 61 Prozent eine Besserung. Eine Social-Media-Analyse (LISTEN 2025) findet vereinzelt positive Berichte. Dagegen steht, dass der japanische Originalhersteller das Präparat 2011 vom Markt nahm, nachdem Doppelblindstudien keinen Unterschied zu Placebo zeigten.",
+    "quellen": "Eckey 2025 (PNAS) · Martin 2025 (Front Big Data)"
    }
   },
   {
@@ -1478,7 +1496,13 @@
    "anwendung": 9,
    "richtung": "positiv",
    "label": "Gut belegt",
-   "beleg": "Zugelassen auf Basis der STEP-Studien, kardiovaskulärer Nutzen in SELECT mit hartem Endpunkt, Wirkkette am Menschen quantifiziert, Pharmakovigilanz läuft. Abzug beim Hype-Abstand für den Graumarkt, der mit denselben Zahlen wirbt, ohne dasselbe Produkt zu verkaufen."
+   "beleg": "Zugelassen auf Basis der STEP-Studien, kardiovaskulärer Nutzen in SELECT mit hartem Endpunkt, Wirkkette am Menschen quantifiziert, Pharmakovigilanz läuft. Abzug beim Hype-Abstand für den Graumarkt, der mit denselben Zahlen wirbt, ohne dasselbe Produkt zu verkaufen.",
+   "berichtslage": {
+    "stufe": 3,
+    "kurz": "Ruhe im Kopf — und Übelkeit",
+    "was": "Anwender beschreiben vor allem, dass das ständige Denken ans Essen („Food Noise\") leiser wird; eine herstellerfinanzierte Umfrage (n = 550) fand auf dem Food-Noise-Fragebogen im Median einen Rückgang von 13 auf 6 von 20 Punkten, allerdings mit erinnertem Ausgangswert. In 410.198 Reddit-Beiträgen nennen gut vier von zehn Selbstanwendern mindestens eine Nebenwirkung, vorn Übelkeit; neu auffällig sind Zyklusveränderungen und Temperaturbeschwerden. Häufig berichtet wird weniger Lust auf Alkohol — eine kleine RCT (n = 48) stützt das teilweise.",
+    "quellen": "Hayashi 2026 (Nutr Diabetes) · Arnaut 2026 (Adv Ther, INFORM) · Plenn 2025 (Obes Sci Pract) · Sehgal 2026 (medRxiv, Vorabdruck) · Quddos 2023 (Sci Rep) · Hendershot 2025 (JAMA Psychiatry)"
+   }
   },
   {
    "id": "tirzepatide",
@@ -1521,13 +1545,13 @@
    "richtung": "offen",
    "label": "Am Menschen geprüft, Ergebnisse unveröffentlicht",
    "beleg": "Der Fall zeigt den Unterschied zwischen „nie am Menschen versucht\" und „versucht, Ergebnis nie veröffentlicht\": Der kroatische Hersteller Pliva führte Phase-II-Studien (PL-14736) bei Colitis ulcerosa durch, die positive Effekte ohne Toxizität gezeigt haben sollen – die vollständigen Daten wurden nie als eigenständige klinische Arbeit publiziert und sind damit nicht überprüfbar. Eine Phase-I-Studie an 42 Gesunden (NCT02637284) wurde 2016 abgebrochen, ohne Ergebnisse. Eine publizierte randomisierte kontrollierte Humanstudie existiert bis heute zu keiner Indikation; die belastbare Datenlage besteht aus Nagermodellen. Die Anwendung ist dagegen real und umfangreich: In den USA wurde BPC-157 jahrelang in Compounding-Apotheken hergestellt und in Sport- und Reha-Praxen eingesetzt. Die FDA stufte es 2023 wegen Immunogenität und Verunreinigungen in Kategorie 2 ein, nahm es am 15. April 2026 dort wieder heraus, und der Pharmacy Compounding Advisory Committee stimmte am 24. Juli 2026 mit 8 zu 6 dafür, es für die Indikation Colitis ulcerosa in Kategorie 1 aufzunehmen – unverbindlich, und legal herstellbar ist es derzeit nicht. Verkauft wird es als Reparaturmittel für nahezu jedes Gewebe. Die Anwendungserfahrung ist also erheblich – sie ersetzt die fehlende Evidenz nicht.",
+   "belegLuecke": "unveroeffentlicht",
    "berichtslage": {
     "stufe": 3,
     "kurz": "Heilung an Sehnen, seit Jahren gemeldet",
     "was": "Seit Jahren übereinstimmend aus mehreren unabhängigen Kreisen: Sport- und Reha-Praxen in den USA, behandelnde Ärzte, Anwender. Berichtet wird konsistent eine beschleunigte Heilung an Sehnen, Bändern und im Darm – eine auf ein Gewebe bezogene, spezifische Beobachtung, kein allgemeines Wohlbefinden. Das ist der Grund, warum die Substanz trotz fehlender veröffentlichter Studien so verbreitet ist.",
     "quellen": "Sport- und Reha-Praxen USA · behandelnde Ärzte · Anwenderkreise"
-   },
-   "belegLuecke": "unveroeffentlicht"
+   }
   },
   {
    "id": "tb-500",
@@ -1825,7 +1849,7 @@
    "anwendung": 2,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Für ein Graumarkt-Peptid ungewöhnlich viele Humandaten – alle aus den 1990ern von derselben Turiner Gruppe (Ghigo, Arvat) in J Clin Endocrinol Metab und anderen: Dosis-Wirkungs-Studien zur Wachstumshormonfreisetzung, kardiale Effekte bei Hypophyseninsuffizienz, akute Hämodynamik während Bypass-Operationen. Die Entwicklung wurde wegen rascher Desensibilisierung eingestellt. Die beworbene Kardioprotektion stützt sich auf Rattenmodelle und akute Surrogatparameter, nicht auf klinische Endpunkte."
+   "beleg": "Für ein Graumarkt-Peptid ungewöhnlich viele Humandaten – alle aus den 1990ern von derselben Turiner Gruppe (Ghigo, Arvat) in J Clin Endocrinol Metab und anderen: Dosis-Wirkungs-Studien zur Wachstumshormonfreisetzung, kardiale Effekte bei Hypophyseninsuffizienz, akute Hämodynamik während Bypass-Operationen. Die klinische Entwicklung wurde nach den Arbeiten der Neunzigerjahre nicht weitergeführt; im US-Studienregister ist keine Studie eingetragen (Stand 24.09.2026). Die beworbene Kardioprotektion stützt sich auf Rattenmodelle und akute Surrogatparameter, nicht auf klinische Endpunkte."
   },
   {
    "id": "igf-1-lr3",
@@ -2101,7 +2125,13 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Ein seit Jahrzehnten zugelassenes Diabetesmedikament mit klar verstandener Wirkung – die Hemmung der Alpha-Glukosidase im Darm. Die ACE-Studie mit 6.522 Erwachsenen über im Mittel fünf Jahre senkte die Diabetesinzidenz von 16 auf 13 Prozent, verfehlte den kardiovaskulären Hauptendpunkt aber vollständig: Hazard Ratio 0,98 bei einem p-Wert von 0,73. In der Longevity-Szene wird die Substanz als Kalorienrestriktions-Mimetikum gehandelt – eine Extrapolation aus Mausdaten."
+   "beleg": "Ein seit Jahrzehnten zugelassenes Diabetesmedikament mit klar verstandener Wirkung – die Hemmung der Alpha-Glukosidase im Darm. Die ACE-Studie mit 6.522 Erwachsenen über im Mittel fünf Jahre senkte die Diabetesinzidenz von 16 auf 13 Prozent, verfehlte den kardiovaskulären Hauptendpunkt aber vollständig: Hazard Ratio 0,98 bei einem p-Wert von 0,73. In der Longevity-Szene wird die Substanz als Kalorienrestriktions-Mimetikum gehandelt – eine Extrapolation aus Mausdaten.",
+   "berichtslage": {
+    "stufe": 1,
+    "kurz": "Flachere Kurve auf dem Sensor, Blähungen als Preis",
+    "was": "In der einzigen Pilotstudie an Gesunden (12 Personen mit Glukosesensor, vom Anbieter finanziert) fiel der Zuckergipfel nach einer stärkereichen Mahlzeit um gut 17 Prozent niedriger aus, ohne Unterschied bei den Beschwerden. Auf einem amerikanischen Bewertungsportal (nur 7 Bewertungen, keine Statistik) sind Blähungen das wiederkehrende Thema, die bei manchen nachlassen; fünf der sieben vergeben 8 bis 10 von 10 Punkten. In der großen ACE-Studie blieb die Lebensqualität über Jahre unverändert. Eine publizierte Auswertung von Longevity-Anwendern fehlt.",
+    "quellen": "Isman 2023 (Transl Med Aging) · drugs.com (7 Bewertungen) · Leal 2022 (J Diabetes)"
+   }
   },
   {
    "id": "canagliflozin",
@@ -2239,11 +2269,11 @@
    "anwendung": 5,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 mit 30 Patienten nach ischämischem Schlaganfall gegen 80 Kontrollen und 2005 mit 187 Patienten, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz. Und die Studienlage gilt für Semax, nicht für das im Handel übliche NA-Semax Amidat.",
+   "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 mit 30 Patienten nach ischämischem Schlaganfall gegen 80 Kontrollen und 2005 mit 187 Patienten, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz. Und die Studienlage gilt für Semax, nicht für das im Handel übliche NA-Semax Amidat. Einzige gefundene placebokontrollierte Humanarbeit: Lebedeva 2018 (24 Gesunde, 14 Semax/10 Placebo, fMRT nach 5 und 20 min, Veränderung im Default-Mode-Netzwerk; Surrogat, Entwickler als Koautor). FDA-Briefing 2026: ischämiebezogene Literatur nur auf Russisch, unkontrollierte Migränestudie, „insufficient evidence of effectiveness“, keine Akut- oder Wiederholungstoxizitätsstudien vorgelegt.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Wach und fokussiert binnen Minuten",
-    "was": "Übereinstimmend berichtet wird ein binnen Minuten nach der Nasenanwendung spürbarer Effekt auf Wachheit und Fokus. Die kurze Latenz ist das Belastbare daran. Die Berichte stammen allerdings aus einem eng vernetzten Kreis, und ein Vergleich mit einem Placebo-Spray fehlt vollständig. In Russland gibt es jahrzehntelange klinische Anwendung, deren Publikationen westlichen Standards nicht genügen.",
+    "was": "Übereinstimmend berichtet wird ein binnen Minuten nach der Nasenanwendung spürbarer Effekt auf Wachheit und Fokus. Die kurze Latenz ist das Belastbare daran. Die Berichte stammen allerdings aus einem eng vernetzten Kreis, und ein Vergleich mit einem Placebo-Spray fehlt vollständig. In Russland gibt es jahrzehntelange klinische Anwendung, deren Publikationen westlichen Standards nicht genügen. Welche Fassung (Semax oder NA-Semax Amidat) gesprüht wird, geht aus den Berichten meist nicht hervor. Das berichtete Zeitfenster deckt sich mit dem Messfenster der einzigen placebokontrollierten fMRT-Studie (5–20 min).",
     "quellen": "Anwenderkreise · russische klinische Anwendung"
    }
   },
@@ -2263,8 +2293,8 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Kliniken Osteuropas berichten Fortschritte",
-    "was": "Aus Kliniken in Russland, Osteuropa und China gibt es seit Jahrzehnten Berichte ueber Fortschritte in der Rehabilitation nach Schlaganfall, und dort ist das Praeparat im Markt. Diese Berichte sind zahlreich, aber sie stammen ueberwiegend aus demselben Versorgungssystem, das das Mittel einsetzt. Die Cochrane-Bewertung hat dieselbe Frage kontrolliert untersucht und keinen klaren Nutzen gefunden, dafuer mehr schwerwiegende Ereignisse.",
-    "quellen": "Kliniken in Osteuropa · Anwenderkreise"
+    "was": "Aus Kliniken in Russland, Osteuropa und China gibt es seit Jahrzehnten Berichte über Fortschritte in der Rehabilitation nach Schlaganfall, und dort ist das Präparat im Markt. Diese Berichte sind zahlreich, aber sie stammen überwiegend aus demselben Versorgungssystem, das das Mittel einsetzt. Die Cochrane-Bewertung hat dieselbe Frage kontrolliert untersucht und keinen klaren Nutzen gefunden, dafür mehr schwerwiegende Ereignisse. In einer Umfrage aus Nootropika-Foren (Slate Star Codex 2016, n = 22 Anwender) gab fast jeder Vierte die Höchstnote, der Mittelwert lag mit 5,6 von 10 im Mittelfeld; der Autor der Umfrage hält den hohen Anteil an Höchstnoten bei so wenigen Antworten für Zufall. Die Fachinformation nennt eine erwünschte antriebssteigernde Wirkung, selten Unruhe und Schlaflosigkeit.",
+    "quellen": "Kliniken in Osteuropa · Anwenderkreise · Nootropika-Umfrage 2016 · Fachinformation AT"
    }
   },
   {
@@ -3161,8 +3191,8 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Deutliche Besserung – und Rückfall",
-    "was": "Aus dem Umfeld von Long-COVID und ME/CFS gibt es zahlreiche, teils sehr detaillierte Berichte über deutliche Besserung nach mehreren Behandlungen – und ebenso über Rückfälle nach einigen Wochen. Beides zusammen, Ansprechen und Wiederkehr, ist eine spezifischere Beobachtung als bloße Besserung. Erklärt ist damit nichts, und die Selbstauswahl ist erheblich: Wer die Kosten selbst trägt, berichtet anders als wer nicht behandelt wurde.",
-    "quellen": "Patientenkreise Long-COVID/ME-CFS · Praxisberichte"
+    "was": "Aus dem Umfeld von Long-COVID und ME/CFS gibt es zahlreiche, teils sehr detaillierte Berichte über deutliche Besserung nach mehreren Behandlungen – und ebenso über Rückfälle nach einigen Wochen. Beides zusammen, Ansprechen und Wiederkehr, ist eine spezifischere Beobachtung als bloße Besserung. Erklärt ist damit nichts, und die Selbstauswahl ist erheblich: Wer die Kosten selbst trägt, berichtet anders als wer nicht behandelt wurde. In scheinkontrollierten Studien (Spanien 2025, Mainz 2026 mit einem verwandten Filterverfahren, Suriname 2026 als Vorabdruck) schnitten die Scheingruppen nicht schlechter ab; in Suriname halbierte sich der Erschöpfungswert in beiden Gruppen.",
+    "quellen": "Patientenkreise Long-COVID/ME-CFS · Praxisberichte · BMJ 2022 (Reportage) · Stein 2025 (Charité, Immunadsorption: 7 von 20 nach Ansprechen verschlechtert) · Wossidlo 2026 (Antikörper nach 3–6 Monaten zurück) · España-Cueto 2025 (Nat Commun) · Stortz 2026 (Lancet Reg Health Eur) · Suriname-Vorabdruck 2026 (F1000Research)"
    }
   },
   {
@@ -3197,7 +3227,13 @@
    "anwendung": 3,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Die Quellenlage widerspricht sich offen: Die ausgewertete Übersicht (Queen und Avram 2025) sichtete 48 Arbeiten; klinische Studien gibt es fast nur zum Haarausfall, 9 Arbeiten mit zusammen 125 Patienten, überwiegend ohne Kontrollgruppe. Für die systemische Longevity-Anwendung gibt es nichts. Die Sicherheit ist von allen Anwendungen am schlechtesten untersucht. Die US-Behörde stellt klar, dass kein Exosomen-Produkt zugelassen ist."
+   "beleg": "Die Quellenlage widerspricht sich offen: Die ausgewertete Übersicht (Queen und Avram 2025) sichtete 48 Arbeiten; klinische Studien gibt es fast nur zum Haarausfall, 9 Arbeiten mit zusammen 125 Patienten, überwiegend ohne Kontrollgruppe. Bei der Haut zeigte eine randomisierte Gesichtshälften-Studie (Park 2023, 28 Personen, Microneedling mit Exosomen gegen Microneedling mit Kochsalz) Vorteile bei Falten, Elastizität und Pigmentierung. Die erste doppelblinde, kochsalzkontrollierte Studie beim Haar (Luna-Garza 2026, JEADV, 48 Personen, Microneedling mit oder ohne Fettstammzell-Exosomen, 12 Wochen; zitiert nach der Übersicht Tang 2026) fand keinen Unterschied in den Haarwerten; die Lebensqualität besserte sich in beiden Armen. Eine Metaanalyse (Stack 2026, 39 Studien) poolt überwiegend Vorher-nachher-Veränderungen. Für eine Infusion gegen Altern gibt es keine Humanstudie. Systemisch geprüft wurde eine Knochenmark-EV-Infusion bei COVID-ARDS (Phase 2, 102 Patienten, primärer Endpunkt verfehlt, Post-hoc-Untergruppe positiv); Phase 3 (NCT05354141, 970 geplant) läuft bis voraussichtlich Ende 2027. Die Sicherheit ist von allen Anwendungen am schlechtesten untersucht. Die US-Behörde stellt klar, dass kein Exosomen-Produkt zugelassen ist.",
+   "berichtslage": {
+    "stufe": 2,
+    "kurz": "Hohe Zufriedenheit nach Serum mit Microneedling",
+    "was": "In Klinikauswertungen berichten Behandelte hohe Zufriedenheit (Südkorea, 40 Personen: 87,5 % zufrieden, 85 % würden weiterempfehlen). Im ersten doppelblinden Vergleich beim Haar besserte sich die Lebensqualität aber auch ohne Exosomen, nur durch Microneedling. Nach Injektionen außerhalb von Arztpraxen sind hartnäckige Entzündungen und Narben beschrieben. Eine systematische Auswertung von Forenbeiträgen gibt es nicht.",
+    "quellen": "Cho 2026 · Luna-Garza 2026 · Park 2025"
+   }
   },
   {
    "id": "stammzelltherapie",
@@ -4159,7 +4195,13 @@
    "anwendung": 7,
    "richtung": "positiv",
    "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 5: Es gibt mehrere randomisierte Studien mit vierstelligen (STEP 1, 1961 Teilnehmer) bis dreistelligen Teilnehmerzahlen (BELIEVE, 507; QUALITY, 168), aber fast alle Endpunkte sind DXA-Surrogate, und die einzige Funktionsmessung stammt aus einer Firmenmitteilung statt aus einer begutachteten Veröffentlichung. Mechanismus 7: Der Myostatin-Weg ist am Menschen bestätigt, Bimagrumab allein steigerte die fettfreie Masse um 1,1 Prozent, und auch der Verwässerungseffekt über Glykogen, das etwa 3 Gramm Wasser je Gramm bindet, ist am Menschen messbar. Sicherheit 6: Für Bimagrumab liegen kontrollierte Daten über 48 Wochen samt Abbruchraten von 14 bis 21 Prozent, 3 Pankreatitiden und 4 Hautkrebsfällen vor, für Enobosarm nur 16 Wochen ohne veröffentlichte Vollpublikation. Hype 4: Die Leitzahl vom Drittel Muskelverlust misst Nicht-Fett statt Muskel und wird trotzdem als Muskelverlust verkauft, während die Primärliteratur die DXA-Grenze selbst benennt. Anwendung 7: Krafttraining und Eiweiß werden seit Jahrzehnten breit angewendet, die medikamentösen Gegenmittel dagegen bislang nur in Studien."
+   "beleg": "Evidenz 5: Es gibt mehrere randomisierte Studien mit vierstelligen (STEP 1, 1961 Teilnehmer) bis dreistelligen Teilnehmerzahlen (BELIEVE, 507; QUALITY, 168), aber fast alle Endpunkte sind DXA-Surrogate, und die Funktionsdaten sind dünn: In BELIEVE besserte sich die Griffkraft nur in einer von vier Kombinationen, und die Treppenmessung aus QUALITY stammt aus einer Firmenmitteilung statt aus einer begutachteten Veröffentlichung. Mechanismus 7: Der Myostatin-Weg ist am Menschen bestätigt, Bimagrumab allein steigerte die fettfreie Masse über 48 Wochen um 1,0 bis 1,1 Prozent, und auch der Verwässerungseffekt über Glykogen, das etwa 3 Gramm Wasser je Gramm bindet, ist am Menschen messbar. Sicherheit 6: Für Bimagrumab liegen kontrollierte Daten über 48 Wochen vor, mit Abbruchraten von 14 bis 21 Prozent unter Bimagrumab allein und häufig Muskelkrämpfen (57 bis 64 Prozent) und Akne (43 bis 55 Prozent) in den Kombinationsgruppen, für Enobosarm nur 16 Wochen ohne veröffentlichte Vollpublikation. Hype 4: Die Leitzahl vom Drittel Muskelverlust misst Nicht-Fett statt Muskel und wird trotzdem als Muskelverlust verkauft, während die Primärliteratur die DXA-Grenze selbst benennt. Anwendung 7: Krafttraining und Eiweiß werden seit Jahrzehnten breit angewendet, die medikamentösen Gegenmittel dagegen bislang nur in Studien.",
+   "berichtslage": {
+    "stufe": 2,
+    "kurz": "Sorge um Muskeln und Müdigkeit",
+    "was": "In einer britischen Umfrage unter 544 aktuellen und früheren Anwendern (u. a. über Reddit- und Facebook-Gruppen rekrutiert) waren viele hochzufrieden; zugleich sorgte sich fast die Hälfte mehr als ein bisschen um Muskelverlust, 62 Prozent berichteten so wenig Energie, dass Bewegung oder Alltag darunter litten, und 62 Prozent ließen mindestens zwei- bis dreimal pro Woche Mahlzeiten aus. In Forenauswertungen beschreiben viele Anwender eiweißreiche Kost und Krafttraining, was sich mit der Empfehlung der Fachgesellschaften deckt. Selbstauskünfte, motivierte Stichprobe, nicht gemessen.",
+    "quellen": "Tallis 2026 (BMC Public Health) · Plenn 2025 (Obes Sci Pract) · Sehgal 2026 (medRxiv, Vorabdruck)"
+   }
   },
   {
    "id": "hmg",
@@ -4173,7 +4215,13 @@
    "anwendung": 9,
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Evidenz 6: Für die zugelassene Anwendung in der Fortpflanzungsmedizin ist die Datenlage erstklassig, für die eigentliche Szeneanwendung nach einer Steroidkur gibt es dagegen nur etablierte andrologische Praxis und keine kontrollierten Studien. Mechanismus 9: Die Wirkkette ist am Menschen nicht nur bestätigt, sondern quantifiziert — wie viele Follikel heranwachsen, wird im Ultraschall gemessen, die Hormonantwort im Labor. Sicherheit 9: Seit 1961 in der Versorgung, mit dem Überstimulationssyndrom als gut charakterisierter Hauptkomplikation; das theoretisch diskutierte Übertragungsrisiko aus dem Urinursprung wurde nie nachgewiesen. Hype 6: Die medizinischen Aussagen bleiben auf Höhe der Daten, überdehnt wird nur die Erwartung, ein paar Wochen HMG holten die Achse zuverlässig zurück. Anwendung 9: über 60 Jahre unter ärztlicher Aufsicht eingesetzt."
+   "beleg": "Evidenz 6: Für die zugelassene Anwendung in der Fortpflanzungsmedizin ist die Datenlage erstklassig; bei Männern mit Gonadotropinmangel fand eine Metaanalyse aus 41 Studien mit 1.673 Patienten nach median 18 Monaten bei 78 % wieder Spermien, mit HCG plus FSH besser als HCG allein (Muir 2025). Für die eigentliche Szeneanwendung nach einer Steroidkur gibt es dagegen nur etablierte andrologische Praxis, einen Fallbericht (Menon 2003) und eine retrospektive Kohorte zur Nachbehandlung (İbis 2026), aber keine kontrollierte Studie zu HMG. Mechanismus 9: Die Wirkkette ist am Menschen nicht nur bestätigt, sondern quantifiziert — wie viele Follikel heranwachsen, wird im Ultraschall gemessen, die Hormonantwort im Labor. Sicherheit 9: Seit 1961 in der Versorgung, mit dem Überstimulationssyndrom als gut charakterisierter Hauptkomplikation; das theoretisch diskutierte Übertragungsrisiko aus dem Urinursprung wurde nie nachgewiesen. Hype 6: Die medizinischen Aussagen bleiben auf Höhe der Daten, überdehnt wird nur die Erwartung, ein paar Wochen HMG holten die Achse zuverlässig zurück. Anwendung 9: über 60 Jahre unter ärztlicher Aufsicht eingesetzt.",
+   "berichtslage": {
+    "stufe": 2,
+    "kurz": "Kinderwunsch: Sorge ums Anmischen – Steroidszene: HMG kaum Thema",
+    "was": "Frauen in Kinderwunschbehandlung wünschen sich vor allem, eine falsch eingestellte Dosis korrigieren zu können, und beschreiben Angst beim Anmischen des Pulvers (Pen-Studie 2023, vom Hersteller finanziert). In Kinderwunschgruppen auf Facebook und Reddit dreht sich jede achte Frage um Medikamente, jede sechste um seelischen Halt (JARG 2025). In einer Auswertung von 5.059 Beiträgen australischer Steroidforen zur Nachbehandlung (Easton 2025) kommt HMG nicht vor; diskutiert werden HCG, Clomifen und Tamoxifen. In einer Umfrage unter 470 Männern (Grant 2023) berichteten 95 % Beschwerden beim Absetzen; wer nachbehandelte, schätzte die Linderung auf rund 60 %, und 52 % sorgten sich um Testosteron und Fruchtbarkeit.",
+    "quellen": "Patient Prefer Adherence 2023 · J Assist Reprod Genet 2025 · Drug Alcohol Rev 2025 · Subst Abuse Treat Prev Policy 2023"
+   }
   },
   {
    "id": "hoeren-demenz",
@@ -4201,7 +4249,7 @@
    "anwendung": 2,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "evidenz 2: Am Menschen existiert keine einzige interventionelle Studie — alles ist Beobachtung (718 Menschen zur Genvariante KL-VS 2014, 804 Menschen in InCHIANTI 2011), und die Genetik widerspricht sich zwischen der schottischen, der dänischen und der US-Auswertung. mechanismus 5: Der Pfad über Insulin- und IGF-1-Dämpfung ist in Maus und Affe belegt und beim Menschen durch Genvariante und Blutwert immerhin angedeutet, aber nie am Menschen geprüft. sicherheit 1: Es gab fast keine Anwendung, entsprechend keine systematisch erhobenen Verträglichkeitsdaten; aus dem Affenversuch stammt eine Einmalgabe mit 2 Wochen Beobachtung. hype 2: Die 20 bis 30 Prozent Lebensverlängerung stehen überall, die Bedingung — das Gen war von der Befruchtung an hochgedreht — nirgends, und Kapseln werden als Klotho-Booster verkauft, obwohl ein Protein aus über 1000 Aminosäuren verdaut wird. anwendung 2: Angewendet wird Klotho nur in Studien und im Graumarkt, etwa in 2 Pilotstudien mit je 14 Menschen in Honduras."
+   "beleg": "evidenz 2: Am Menschen liegt keine interventionelle Studie mit Ergebnissen vor — alles ist Beobachtung (718 Menschen zur Genvariante KL-VS 2014, 804 Menschen in InCHIANTI 2011), und die Genetik widerspricht sich zwischen der schottischen, der dänischen und der US-Auswertung. mechanismus 5: Der Pfad über Insulin- und IGF-1-Dämpfung ist in Maus und Affe belegt und beim Menschen durch Genvariante und Blutwert immerhin angedeutet, aber nie am Menschen geprüft. sicherheit 1: Es gab fast keine Anwendung, entsprechend keine systematisch erhobenen Verträglichkeitsdaten; aus dem Affenversuch stammt eine Einmalgabe mit 2 Wochen Beobachtung. hype 2: Die 20 bis 30 Prozent Lebensverlängerung stehen überall, die Bedingung — das Gen war von der Befruchtung an hochgedreht — nirgends, und Kapseln werden als Klotho-Booster verkauft, obwohl ein Protein aus über 1000 Aminosäuren verdaut wird. anwendung 2: Angewendet wird Klotho nur in Studien und im Graumarkt, etwa in 2 Pilotstudien mit je 14 Menschen in Honduras; seit Februar 2026 läuft dort zudem die erste verblindete, placebokontrollierte Studie mit 21 Teilnehmenden, Ergebnisse stehen aus."
   },
   {
    "id": "lipoprotein-a",
@@ -4317,7 +4365,13 @@
    "anwendung": 9,
    "richtung": "positiv",
    "label": "Gut belegt",
-   "beleg": "Evidenz 8, weil Nandrolon auf klinischen Daten für konkrete Indikationen zugelassen ist — renale Blutarmut, Osteoporose nach den Wechseljahren — und die aufbauende Wirkung seit 60 Jahren unbestritten ist; die Höchstnote bleibt aus, weil der hier gefragte Zweck, Muskelaufbau bei Gesunden, kein zugelassenes Anwendungsgebiet ist. Mechanismus 9, weil die Wirkkette am Menschen bekannt und quantifiziert ist, bis hin zum günstigen Verhältnis von aufbauender zu vermännlichender Wirkung und der gestagenen Zusatzwirkung. Sicherheit 9, weil aus 64 Jahren Zulassung und Beobachtung ein detailliertes Schadensprofil vorliegt, von der Herzschwäche in üblicher Dosierung über Peliosis hepatis und Lebertumoren bis zur nicht rückbildungsfähigen Stimmvertiefung — eine hohe Zahl heißt hier gut untersucht und ausdrücklich nicht harmlos. Hype 6, weil die Wirkversprechen stimmen, die Schadensseite beim Handel außerhalb der Medizin aber regelmäßig fehlt; Anwendung 9, weil die Substanz seit 1962 unter ärztlicher Aufsicht eingesetzt wurde, die Anwendungsgebiete seit den 1970er Jahren jedoch eingeengt und der Verkauf vielerorts eingestellt wurde."
+   "beleg": "Evidenz 8, weil Nandrolon auf klinischen Daten für konkrete Indikationen zugelassen ist — renale Blutarmut, Osteoporose nach den Wechseljahren — und die aufbauende Wirkung seit 60 Jahren unbestritten ist; die Höchstnote bleibt aus, weil der hier gefragte Zweck, Muskelaufbau bei Gesunden, kein zugelassenes Anwendungsgebiet ist. Mechanismus 9, weil die Wirkkette am Menschen bekannt und quantifiziert ist, bis hin zum günstigen Verhältnis von aufbauender zu vermännlichender Wirkung und der gestagenen Zusatzwirkung. Sicherheit 9, weil aus 64 Jahren Zulassung und Beobachtung ein detailliertes Schadensprofil vorliegt, von Ödemen mit oder ohne Herzschwäche bei vorbestehender Erkrankung über seltene Leberfunktionsstörungen bis zur Stimmveränderung, die bei längerer Behandlung bleiben kann — eine hohe Zahl heißt hier gut untersucht und ausdrücklich nicht harmlos. Hype 6, weil die Wirkversprechen stimmen, die Schadensseite beim Handel außerhalb der Medizin aber regelmäßig fehlt; Anwendung 9, weil die Substanz seit 1962 unter ärztlicher Aufsicht eingesetzt wurde, die Anwendungsgebiete seit den 1970er Jahren jedoch eingeengt und der Verkauf vielerorts eingestellt wurde.",
+   "berichtslage": {
+    "stufe": 2,
+    "kurz": "Anwender spüren Kraft – und Nebenwirkungen",
+    "was": "In der niederländischen HAARLEM-Studie (100 Männer mit selbst geplanter Steroidkur, Steroide allgemein, ein Jahr begleitet) berichteten alle positive Effekte, vor allem mehr Kraft, und alle mindestens eine Nebenwirkung: Wassereinlagerung 56 %, Unruhe 36 %, Libidoverlust nach der Kur 58 %; dazu 4 schwere Ereignisse. Nach einem Jahr lag das meiste wieder auf dem Ausgangswert; 48 % bezeichneten sich als abhängig. In der Folgestudie 2026 kamen während der Kur 4,4 kg fettfreie Masse dazu, drei Monate danach waren davon noch 1,2 kg übrig. In Foren heißt es verbreitet, Nandrolon lindere Gelenkschmerzen; eine unkontrollierte Pilotstudie (18 von 48 antworteten, 13 besser) stützt das vorsichtig. Im Global Drug Survey 2024 (1.146 Männer, Steroide allgemein) gaben 55,8 % keine psychischen Beschwerden an, 63,9 % mindestens eine körperliche Sorge, am häufigsten ums Herz (36 %).",
+    "quellen": "Smit 2020/2021 · Verdegaal 2026 JCEM · Tatem 2020 · Magnolini 2025 · Global Drug Survey 2024 (Drug Alcohol Rev 2026)"
+   }
   },
   {
    "id": "partielle-reprogrammierung",

@@ -45,6 +45,15 @@ for (const liste of [SUPPLEMENTS, EXPERIMENTAL, KHAVINSON, THERAPIES, TIPS])
   for (const k of liste) karten.set(k.id, k.name || k.title || k.id);
 
 const fehlend = [];
+// Tipps liegen unter /tipp/, alles andere unter /thema/. Gibt es keine
+// statische Seite, zeigt der Link in die App statt ins Leere.
+const WURZEL = path.join(DATEN, '..', '..');
+function seitenUrl(s) {
+  const seite = (s.view === 'tipps' ? 'tipp/' : 'thema/') + s.id + '.html';
+  return fs.existsSync(path.join(WURZEL, seite))
+    ? 'https://biohackingkompakt.de/' + seite
+    : 'https://biohackingkompakt.de/#' + s.view + '/' + s.id;
+}
 const eintraege = BK_SCORES.map(s => {
   const name = karten.get(s.id);
   if (!name) fehlend.push(s.id);
@@ -52,7 +61,7 @@ const eintraege = BK_SCORES.map(s => {
     id: s.id,
     view: s.view,
     name: name || s.id,
-    url: 'https://biohackingkompakt.de/thema/' + s.id + '.html',
+    url: seitenUrl(s),
     evidenz: s.evidenz, mechanismus: s.mechanismus, sicherheit: s.sicherheit,
     hype: s.hype, anwendung: s.anwendung,
     richtung: s.richtung,
