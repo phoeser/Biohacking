@@ -1594,22 +1594,20 @@ const SUPPLEMENTS = [
     short: 'Hochbioverfügbare Cholinquelle. Erhöht Acetylcholin im Gehirn – bei Gesunden ungeprüft, dazu ein Schlaganfallsignal aus einer großen Kohorte.',
     description: 'Alpha-GPC überquert die Blut-Hirn-Schranke und liefert Cholin direkt für die Acetylcholin-Synthese. Klinisch gegen Alzheimer erforscht, bei Sportlern für Kraft-Output beliebt.',
     benefits: [
-      'Verbessert Gedächtnis und Lernen',
+      'Kleine Studien: Vorteile bei leichter kognitiver Beeinträchtigung; die Placebostudien in Korea verfehlten 2026 laut Presseberichten ihr Hauptziel',
       'Steigert Fokus und geistige Klarheit',
-      'Erhöht Kraft-Output im Training (Growth-Hormone-Ausschüttung)',
-      'Als Hirnschutz im Alter beworben — dem steht eine Kohortenauswertung über 12 Mio. Menschen mit erhöhtem Schlaganfallrisiko gegenüber',
-      'Wirkt synergistisch mit Racetamen'
+      'Als Hirnschutz im Alter beworben — dem steht eine Kohortenauswertung über 12 Mio. Menschen mit erhöhtem Schlaganfallrisiko gegenüber'
     ],
     risks: [
       'Selten: Kopfschmerzen, Reizbarkeit bei zu hoher Dosis',
       'Kann Depressionen bei dispositionierten Personen verstärken',
-      'Möglicher Zusammenhang mit Herz-Kreislauf-Risiko (in Diskussion)'
+      'Schlaganfallsignal in einer Kohorte mit 12 Mio. Menschen (+46 %), in einer zweiten Kohorte (leichte kognitive Beeinträchtigung) nicht bestätigt; beides Beobachtung'
     ],
-    dosage: '300–600 mg täglich. Vor Training: 400 mg.',
+    dosage: 'Keine Dosierungsangabe: Wirkstoff ohne Zulassung als Arzneimittel.',
     intake: 'Morgens oder vor kognitiver/körperlicher Leistung. Mit Fett einnehmen.',
     synergies: ['l-theanin', 'koffein', 'loewenmaehne', 'omega-3'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Eier, Leber, Milch (geringe Mengen)'
   },
   {
@@ -2326,24 +2324,25 @@ const SUPPLEMENTS = [
     category: 'Kräuter',
     tags: ['herz', 'cholesterin', 'stoffwechsel', 'anti-aging'],
     short: 'Extrakt der Bergamotte-Zitrusfrucht: in Studien mit günstigen Effekten auf Cholesterin und Blutfette – ob davon je ein Herz profitiert hat, wurde nie gemessen.',
-    description: 'Citrus Bergamot ist reich an speziellen Polyphenolen (u. a. Brutieridin, Melitidin), die dem Statin-Mechanismus ähneln und den Fettstoffwechsel günstig beeinflussen. Studien zeigen Senkungen von LDL-Cholesterin und Triglyzeriden sowie Verbesserungen bei Blutzucker – bei guter Verträglichkeit.',
+    description: 'Citrus Bergamot ist reich an speziellen Polyphenolen (u. a. Brutieridin, Melitidin), die chemisch einem Teil der Statine ähneln; in Zellversuchen hemmen sie das Statin-Enzym aber nicht direkt (Huang 2021). Studien zeigen Senkungen von LDL-Cholesterin und Triglyzeriden sowie Hinweise auf niedrigeren Blutzucker. In kurzen Studien gut verträglich; Langzeitdaten fehlen.',
     benefits: [
       'Kann LDL-Cholesterin und Triglyzeride senken',
       'Kann HDL („gutes" Cholesterin) leicht anheben',
-      'Günstige Effekte auf Blutzucker und Entzündung',
-      'Natürliche Ergänzung/Alternative bei leicht erhöhten Blutfetten'
+      'Hinweise auf niedrigeren Blutzucker (Evidenz sehr niedrig, Chambari 2026)',
+      'Ergänzung bei leicht erhöhten Blutfetten – kein Ersatz für eine verordnete Therapie'
     ],
     risks: [
       'Kein Ersatz für verordnete Statine bei hohem Risiko – ärztlich abklären',
       'Qualität/Standardisierung (Polyphenolgehalt) beachten',
       'Selten Magen-Darm-Beschwerden',
-      'Wechselwirkungen mit Blutfett-Medikamenten möglich'
+      'Bergamottin hemmt das Leberenzym CYP3A4 – eine Wechselwirkung mit manchen Statinen ist denkbar, am Menschen aber nicht untersucht',
+      'Bergamotte-Öl enthält phototoxische Furocumarine (Berloque-Dermatitis); für den patentierten Saftextrakt ist ihre weitgehende Entfernung beschrieben, für andere Produkte fehlen Daten – Angaben je Produkt prüfen'
     ],
     dosage: 'Typisch 500–1.000 mg standardisierter Extrakt täglich.',
     intake: 'Mit einer Mahlzeit, oft zum Abendessen.',
-    synergies: ['omega-3', 'berberin', 'coenzym-q10'],
+    synergies: ['omega-3'],
     avoid: [],
-    evidence: 'mittel',
+    evidence: 'niedrig',
     sources: 'Schale/Saft der Bergamotte (standardisierter Extrakt)'
   },
   {
@@ -2353,21 +2352,21 @@ const SUPPLEMENTS = [
     category: 'Enzym',
     tags: ['herz', 'kreislauf', 'blut', 'anti-aging'],
     short: 'Ein Enzym aus fermentierten Sojabohnen (Natto): unterstützt die Fließeigenschaften des Blutes und die Herz-Kreislauf-Gesundheit.',
-    description: 'Nattokinase ist ein fibrinolytisches Enzym aus dem japanischen Natto. Es kann Fibrin (den Baustein von Blutgerinnseln) abbauen und so die Fließeigenschaften des Blutes und den Blutdruck günstig beeinflussen. Beliebt in der Herz-Kreislauf-Prävention.',
+    description: 'Nattokinase ist ein fibrinolytisches Enzym aus dem japanischen Natto. Es kann Fibrin (den Baustein von Blutgerinnseln) abbauen und so die Fließeigenschaften des Blutes und den Blutdruck günstig beeinflussen. Beliebt in der Herz-Kreislauf-Prävention. In der EU ist fermentierter Sojabohnenextrakt (NSK-SD) als neuartiges Lebensmittel zugelassen (Durchführungsbeschluss (EU) 2017/115).',
     benefits: [
-      'Kann Fibrin abbauen und die Blut-Fließeigenschaften verbessern',
+      'Löst Fibrin im Reagenzglas; ob aktives Enzym aufgenommen wird, ist offen (EFSA 2016); in der dreijährigen Placebostudie keine Wirkung auf Gerinnungs- und Fibrinolysewerte',
       'In Studien mild blutdrucksenkend',
-      'Unterstützt die Herz-Kreislauf-Gesundheit',
       'Pflanzlich, aus traditionellem Lebensmittel'
     ],
     risks: [
       'Blutverdünnende Wirkung – nicht mit Gerinnungshemmern kombinieren (Blutungsrisiko), ärztlich abklären',
       'Vor Operationen absetzen',
       'Qualität/Aktivität (in FU) beachten',
-      'Bei Blutungsneigung meiden'
+      'Bei Blutungsneigung meiden',
+      'Fallbericht: Ersatz von Warfarin durch Nattokinase nach mechanischem Herzklappenersatz führte zu einem Gerinnsel auf der Klappe (Elahi 2015) – kein Ersatz für verschriebene Gerinnungshemmer'
     ],
-    dosage: 'Typisch 2.000–4.000 FU täglich.',
-    intake: 'Auf leeren Magen (bessere Aufnahme), oft abends.',
+    dosage: 'In der placebokontrollierten Langzeitstudie 2.000 FU täglich. Die EFSA-Bewertung (2016) des zugelassenen Extrakts NSK-SD gilt für höchstens 100 mg pro Tag bei gesunden Erwachsenen über 35; höhere Mengen liegen außerhalb dieser Bewertung.',
+    intake: 'Auf leeren Magen, oft abends.',
     synergies: ['omega-3', 'vitamin-k2'],
     avoid: [],
     evidence: 'mittel',
@@ -2380,20 +2379,20 @@ const SUPPLEMENTS = [
     category: 'Enzym',
     tags: ['entzündung', 'regeneration', 'atemwege', 'schmerzen'],
     short: 'Ein proteolytisches Enzym: beworben zur Auflösung von entzündlichem Gewebe/Schleim und zur Entzündungslinderung – beim Schmerz fanden die Studien nichts.',
-    description: 'Serrapeptase ist ein eiweißspaltendes Enzym (ursprünglich aus Seidenraupen-Bakterien), das entzündliches und abgestorbenes Gewebe sowie zähen Schleim abbauen kann. Traditionell in Japan/Europa bei Entzündungen, Schwellungen, Atemwegsschleim und postoperativer Heilung genutzt.',
+    description: 'Serrapeptase ist ein eiweißspaltendes Enzym (ursprünglich aus Seidenraupen-Bakterien), das entzündliches und abgestorbenes Gewebe sowie zähen Schleim abbauen kann. Traditionell in Japan/Europa bei Entzündungen, Schwellungen, Atemwegsschleim und postoperativer Heilung genutzt. Status: In der EU gilt Serrapeptase als neuartiges Lebensmittel ohne Zulassung (Sicherheitsbewertung nach VO 2015/2283 nötig); Food Standards Scotland verlangte 2022 die Marktrücknahme; in Japan zog der Originalhersteller Takeda das Präparat 2011 zurück; in Indien ist es ein Arzneiwirkstoff.',
     benefits: [
       'Kann entzündliches/abgestorbenes Gewebe und Schleim abbauen',
-      'Entzündungs- und schwellungsmindernd (Studien bei HNO/Zahn-OP)',
+      'In kleinen, methodisch schwachen Studien teils weniger Schwellung nach Zahn-OP; Schmerz meist ohne Effekt; Neubewertung in Japan ohne Unterschied zu Placebo',
       'Kann zähen Atemwegsschleim verflüssigen',
       'Wird bei Schmerzen/Schwellungen unterstützend genutzt'
     ],
     risks: [
       'Studienlage gemischt und teils älter/klein',
       'Auf nüchternen Magen einnehmen (magensaftresistent), sonst inaktiviert',
-      'Blutungsrisiko bei Gerinnungshemmern beachten',
+      'Blutungsrisiko bei Gerinnungshemmern plausibel, aber kein dokumentierter Fall gefunden',
       'Selten Magen-Darm-/Hautreaktionen'
     ],
-    dosage: 'Typisch 10.000–40.000 SPU (bzw. 40.000–120.000 IU) täglich.',
+    dosage: 'Keine Dosierungsangabe: Serrapeptase ist in der EU nicht als Lebensmittel zugelassen. Als Arzneimittel wurde es in Studien über wenige Tage nach Operationen gegeben.',
     intake: 'Auf leeren Magen (min. 30 Min vor/2 h nach dem Essen), magensaftresistente Form.',
     synergies: ['nattokinase', 'kurkuma-curcumin'],
     avoid: [],

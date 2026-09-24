@@ -87,7 +87,8 @@ const EXPERIMENTAL = [
     short: 'Der Blockbuster der „Abnehmspritzen": als Ozempic/Wegovy zugelassen, hochwirksam beim Gewicht und mit belegtem Herz-Kreislauf-Nutzen – ein legaler, ärztlich begleiteter Weg.',
     moa: 'Aktiviert den GLP-1-Rezeptor → verzögerte Magenentleerung, gesteigerte Sättigung, verbesserte Insulinsekretion und reduzierte Glucagon-Ausschüttung.',
     benefits: [
-      '12–15% Gewichtsverlust nach 68 Wochen (STEP-1-Studie)',
+      '14,9 % Gewichtsverlust gegenüber 2,4 % unter Placebo nach 68 Wochen (STEP 1)',
+      'Nach dem Absetzen kehren binnen eines Jahres rund zwei Drittel des Verlusts zurück (STEP-1-Verlängerung, 327 Teilnehmende)',
       'Senkt kardiovaskuläre Ereignisse (SELECT-Studie)',
       'Reduziert chronische Entzündung, verbessert NAFLD',
       'Gegen Alzheimer belegt wirkungslos: evoke/evoke+ (Lancet 2026, 3.808 Teilnehmende, zwei Jahre) fand −0,08 Punkte auf der Demenzskala CDR-SB – beide Gruppen verschlechterten sich um 2,3 Punkte',
@@ -96,16 +97,19 @@ const EXPERIMENTAL = [
     risks: [
       'Verschreibungspflichtig – am besten ärztlich begleiten.',
       'Zu Beginn oft Übelkeit/Verdauungsthemen, meist vorübergehend.',
+      'Gallenblasen- und Gallenwegserkrankungen treten unter GLP-1-Rezeptor-Agonisten häufiger auf (Meta-Analyse über 76 RCTs, relatives Risiko 1,37).',
+      'Sehr seltene Nebenwirkung: NAION, eine Durchblutungsstörung des Sehnervs (EMA/PRAC, Juni 2025) – bei plötzlichem Sehverlust sofort ärztlich abklären.',
       'Auf Muskelerhalt achten (Eiweiß + Krafttraining); Ware nur aus geprüfter Quelle.'
     ],
-    status: 'In DE für Typ-2-Diabetes (Ozempic) und Adipositas (Wegovy) zugelassen.',
+    status: 'In DE für Typ-2-Diabetes (Ozempic) und Adipositas (Wegovy) zugelassen; Wegovy seit 01.09.2026 auch als Tablette in deutschen Apotheken (EU-Zulassung Juli 2026). Bei Adipositas keine Kassenleistung (§ 34 SGB V).',
     sources: [
       { title: 'Wilding JPH et al., NEJM 2021 – STEP 1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2032183' },
-      { title: 'Lincoff AM et al., NEJM 2023 – SELECT trial', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2307563' }
+      { title: 'Lincoff AM et al., NEJM 2023 – SELECT trial', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2307563' },
+      { title: 'Wilding JPH et al., Diabetes Obes Metab 2022 – STEP-1-Verlängerung (Absetzen)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9542252/' },
+      { title: 'He L et al., JAMA Intern Med 2022 – Gallenblase und Gallenwege unter GLP-1-RA', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8961394/' }
     ],
     community: [
-      { title: 'Iron Mike: GLP-1 Microdosing', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'biolabshop (Semaglutide-Forschungspeptid)', url: 'https://biolabshop.de/' }
+      { title: 'Iron Mike: GLP-1 Microdosing (zur Mikrodosierung gibt es keine randomisierte Studie)', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
       {
@@ -1322,21 +1326,26 @@ const EXPERIMENTAL = [
     short: 'Ein in Russland entwickeltes Nootropikum-Peptid, das BDNF/NGF anhebt und neuroprotektiv untersucht wird – intranasal angewendet, aber ohne systematische Nebenwirkungserfassung. Im Handel ist meist NA-Semax Amidat, nicht Semax.',
     moa: 'Semax leitet sich von einem Fragment des adrenocorticotropen Hormons ab, wobei die hormonelle ACTH-Wirkung weitgehend fehlt. Diskutiert werden eine Erhöhung von BDNF und NGF sowie modulierende Effekte auf dopaminerge und serotonerge Systeme. In Tiermodellen wurden neuroprotektive und antioxidative Effekte, etwa bei zerebraler Ischämie, beschrieben. Die Applikation erfolgt in der russischen Praxis meist intranasal. Ein Großteil der Evidenz stammt aus russischsprachigen Untersuchungen mit begrenzter internationaler Replikation.',
     benefits: [
-      'In Studien mit möglicher Verbesserung von Aufmerksamkeit und Gedächtnis assoziiert.',
+      'Russischsprachige, nicht placebokontrollierte Arbeiten berichten bessere Aufmerksamkeit und Gedächtnisleistung; bei Gesunden gibt es nur Bildgebungsbefunde (fMRT) gegen Placebo.',
       'Diskutierte neuroprotektive Effekte in Modellen von Schlaganfall und Ischämie.',
       'Hinweise auf antioxidative und entzündungsmodulierende Eigenschaften.',
       'In Berichten mit Stressresistenz und Stimmungsstabilisierung in Verbindung gebracht.',
       'Nicht-hormonelles ACTH-Derivat ohne relevante corticotrope Wirkung.',
-      'In der russischen Anwendung als gut verträglich beschrieben.'
+      'In der russischen Anwendung als gut verträglich beschrieben; systematische Nebenwirkungserfassung fehlt.'
     ],
     risks: [
       'Evidenz stammt fast nur aus Russland; unabhängige Bestätigung ist dünn.',
-      'In DE/EU nicht zugelassen; als Research-Ware auf Reinheit achten.'
+      'In DE/EU nicht zugelassen; als Research-Ware auf Reinheit achten.',
+      'FDA (2026): bei unklaren Verunreinigungen und Aggregaten Immunogenität nicht auszuschließen; ein FAERS-Bericht (Augenschmerz/Brennen nach Nasentropfen, 2024).',
+      'Für NA-Semax Amidat keine Humandaten; im Zellversuch hob die N-Acetylierung den Schutz vor Kupfertoxizität auf (Magrì 2016).'
     ],
-    status: 'In Russland registriert; in DE/EU nicht zugelassen.',
+    status: 'In Russland registriert; in DE/EU nicht zugelassen. Russland: registriert per Erlass Nr. 294 vom 20.12.1994 als Nasentropfen, eine stärkere Form seit 2001; laut Hersteller auf der Liste lebenswichtiger Arzneimittel. USA: Das FDA-Beratergremium für Rezepturarzneimittel (PCAC) stimmte am 24.07.2026 laut Presseberichten mit 8 : 5 (1 Enthaltung) für die Aufnahme in die 503A-Rezepturliste, gegen die Empfehlung der FDA-Fachleute; nicht bindend, Entscheidung der FDA offen (Stand 24.09.2026).',
     sources: [
       { title: 'Kaplan et al., Restor Neurol Neurosci 2002 – Semax und neurotrophe Faktoren', url: 'https://pubmed.ncbi.nlm.nih.gov/12454361/' },
-      { title: 'Gusev et al., Cerebrovasc Dis 2011 – Semax bei ischämischem Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/21654167/' }
+      { title: 'Gusev et al., Cerebrovasc Dis 2011 – Semax bei ischämischem Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/21654167/' },
+      { title: 'FDA, Briefing zum Pharmacy Compounding Advisory Committee 2026 – Bewertung von Semax', url: 'https://www.fda.gov/media/193348/download' },
+      { title: 'Lebedeva et al., Bull Exp Biol Med 2018 – fMRT nach Semax gegen Placebo bei 24 Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/30225715/' },
+      { title: 'Magrì et al., J Inorg Biochem 2016 – Acetylierung hebt Zellschutz vor Kupfertoxizität auf', url: 'https://pubmed.ncbi.nlm.nih.gov/27586814/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
@@ -1362,23 +1371,29 @@ const EXPERIMENTAL = [
     class: 'Neurotrophes Peptid-Präparat (aus Schweinehirn-Hydrolysat)',
     emoji: '🧠',
     short: 'Ein Gemisch neurotropher Peptide mit randomisierten Mehrzentren-Studien zu Alzheimer und Schlaganfall, in mehreren Ländern als Medikament zugelassen – als Gedächtnismittel für Gesunde gibt es dagegen keine Studienlage.',
-    moa: 'Cerebrolysin ist ein standardisiertes Hydrolysat aus Schweinehirn und enthält niedermolekulare neurotrophe Peptide, die die Wirkung körpereigener Wachstumsfaktoren (wie BDNF, GDNF) nachahmen sollen. Es soll das Überleben von Nervenzellen fördern, die Bildung neuer Synapsen unterstützen und neuroprotektiv gegen Schädigung wirken. Anders als die meisten „Biohacking-Peptide" wurde es in echten, großen klinischen Studien untersucht – mit der besten Evidenzbasis aller Nootropika-Peptide. Verabreicht wird es klassisch als Infusion/Injektion.',
+    moa: 'Cerebrolysin ist ein standardisiertes Hydrolysat aus Schweinehirn und enthält niedermolekulare neurotrophe Peptide, die die Wirkung körpereigener Wachstumsfaktoren (wie BDNF, GDNF) nachahmen sollen. Es soll das Überleben von Nervenzellen fördern, die Bildung neuer Synapsen unterstützen und neuroprotektiv gegen Schädigung wirken. Anders als die meisten „Biohacking-Peptide" wurde es in echten, großen klinischen Studien untersucht. Was darin wirkt, ist offen: Eine Analyse einer Internetprobe (Drug Test Anal 2015) fand 638 Peptide, vor allem aus Tubulin, Aktin und Myelin-Basisprotein, aber keine Fragmente bekannter Wachstumsfaktoren. Seit 2025 wurden mindestens sieben Tierversuchsarbeiten zu Cerebrolysin aus zwei Laboren zurückgezogen; Patientenstudien sind davon nicht betroffen. Verabreicht wird es klassisch als Infusion/Injektion.',
     benefits: [
-      'Stärkste klinische Evidenz aller Nootropika-Peptide (Phase-3-Studien zu Alzheimer und Schlaganfall-Reha).',
+      'Randomisierte Studien bei Schlaganfall, Demenz und Schädel-Hirn-Trauma; Reha-Studie CARS (n = 208) positiv für Armfunktion; als Nootropikum für Gesunde keine Studien.',
       'In mehreren Ländern als Arzneimittel zugelassen.',
-      'Wirkt neurotrop/neuroprotektiv – unterstützt Nervenzellen und Synapsen.',
+      'Soll neurotrophe Wirkung nachahmen (Tierdaten; Teile davon zurückgezogen); am Menschen nicht als Mechanismus belegt.',
       'Wird für kognitive Erholung nach Schlaganfall und bei Demenz eingesetzt.'
     ],
     risks: [
-      'In DE/EU nicht als Arzneimittel zugelassen – Bezug meist über Graumarkt.',
+      'In Deutschland keine Zulassung ermittelt; außerhalb ärztlicher Behandlung Bezug über den Graumarkt, Inhalt ungeprüft.',
       'Als Injektion/Infusion: Anwendungs-, Infektions- und Fehldosier-Risiken.',
       'Selten allergische Reaktionen möglich (tierisches Hydrolysat).',
-      'Effektstärke bei Gesunden (Biohacking) ist weniger belegt als bei Erkrankungen.'
+      'Effektstärke bei Gesunden (Biohacking) ist weniger belegt als bei Erkrankungen.',
+      'Gegenanzeigen laut Fachinformation: Status epilepticus, schwere Nierenfunktionsstörungen; Vorsicht bei Epilepsie. Selten Unruhe und Schlaflosigkeit.',
+      'Cochrane 2023: nicht tödliche schwerwiegende Ereignisse häufiger (RR 2,39; moderate Sicherheit).'
     ],
-    status: 'In mehreren Ländern (u.a. Russland, Asien) als Arzneimittel zugelassen. In DE/EU nicht zugelassen.',
+    status: 'In Österreich (EU) national als verschreibungspflichtiges Arzneimittel zugelassen (Zulassungsnr. 1-21380, EVER Neuro Pharma, Unterach); verbreitet in Russland, Osteuropa, China. In den USA nicht registriert. Für Deutschland keine Zulassung ermittelt.',
     sources: [
-      { title: 'Outliyr – Best Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' },
-      { title: 'PeptideDeck – Best Peptides for Cognitive Function 2026', url: 'https://www.peptidedeck.com/blog/best-peptides-for-cognitive-function' }
+      { title: 'Ziganshina et al., Cochrane Database Syst Rev 2023 (CD007026.pub7) — Cerebrolysin beim akuten ischämischen Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/37818733/' },
+      { title: 'Cui et al., Cochrane Database Syst Rev 2019 (CD008900.pub3) — Cerebrolysin bei vaskulärer Demenz', url: 'https://pubmed.ncbi.nlm.nih.gov/31710397/' },
+      { title: 'Strilciuc et al., Pharmaceuticals 2021;14:1297 — Sicherheitsauswertung von 12 randomisierten Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/34959697/' },
+      { title: 'Muresanu et al., Stroke 2016 — CARS-Studie zur Erholung nach Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/26564102/' },
+      { title: 'Gevaert et al., Drug Test Anal 2015 — Peptidprofil einer im Internet gekauften Probe', url: 'https://pubmed.ncbi.nlm.nih.gov/26017115/' },
+      { title: 'Fachinformation Cerebrolysin, Österreich (Zulassungsnr. 1-21380), Arzneispezialitätenregister des BASG', url: 'https://aspregister.basg.gv.at/' }
     ],
     community: [
       { title: 'Peptides.nyc – Cognitive Health Peptides', url: 'https://peptides.nyc/learn/goal/cognitive' }
@@ -1880,25 +1895,39 @@ const EXPERIMENTAL = [
     altNames: 'Examorelin, EP-23905',
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '🫀',
-    short: 'Eines der potentesten GH-Peptide der GHRP-Reihe – mit zusätzlich untersuchten, herzschützenden Effekten im Tiermodell.',
-    moa: 'Hexarelin ist ein Agonist am Ghrelin-Rezeptor (GHSR-1a) und löst eine potente pulsatile Ausschüttung von Wachstumshormon aus. Es gilt als eines der stärksten GH-Sekretagoga der GHRP-Reihe. Neben der zentralen GH-Freisetzung bindet Hexarelin präklinisch an den kardialen CD36-Rezeptor, worüber GH-unabhängige, potenziell kardioprotektive Effekte diskutiert werden. Bei wiederholter Gabe kann eine Abschwächung der GH-Antwort (Desensibilisierung) auftreten. Wie andere Sekretagoga kann es Cortisol und Prolaktin leicht erhöhen.',
+    short: 'Eines der potentesten GH-Peptide der GHRP-Reihe, mit herzschützenden Effekten im Tiermodell. Unter Dauergabe lässt die Wachstumshormon-Antwort rasch und teilweise nach, der größte Teil davon in der ersten Woche; nach dem Absetzen erholt sie sich.',
+    moa: 'Hexarelin ist ein Agonist am Ghrelin-Rezeptor (GHSR-1a) und löst eine potente pulsatile Ausschüttung von Wachstumshormon aus. Es gilt als eines der stärksten GH-Sekretagoga der GHRP-Reihe. Neben der zentralen GH-Freisetzung bindet Hexarelin präklinisch an den kardialen CD36-Rezeptor, worüber GH-unabhängige, potenziell kardioprotektive Effekte diskutiert werden. Bei wiederholter Gabe schwächt sich die GH-Antwort ab (Desensibilisierung). Wie andere Sekretagoga hebt es akut auch ACTH, Cortisol und Prolaktin an.',
     benefits: [
       'Sehr potente Stimulation der körpereigenen GH-Ausschüttung.',
-      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.',
+      'Die gesteigerte GH-Sekretion soll indirekt IGF-1 anheben – bei gesunden Älteren blieben IGF-I und IGFBP-3 über 16 Wochen jedoch unverändert (Rahim 1998); ein IGF-I-Anstieg ist nur bei kleinwüchsigen Kindern unter intranasaler Gabe beschrieben (Klinger 1996, Laron 1995).',
       'Präklinische Hinweise auf GH-unabhängige kardioprotektive Effekte über CD36.',
+      'Am Menschen kurzfristig positiv inotrop (stärkere Pumpleistung), auch ohne GH-Anstieg: höhere Auswurffraktion bei GH-Mangel (Bisi 1999) und während Bypass-Operationen bei koronarer Herzkrankheit von 10 bis 90 Minuten nach der Gabe, anders als unter rhGH, GHRH und Placebo (Broglio 2002). Bei dilatativer Kardiomyopathie kein Effekt (Imazio 2002).',
       'Weniger ausgeprägte Appetitsteigerung als GHRP-6.',
       'Wurde in klinischen Studien als GH-Provokationsmittel eingesetzt.',
       'In Tiermodellen Untersuchungen zu Effekten auf Muskel- und Herzgewebe.'
     ],
     risks: [
-      'Bei häufiger Gabe lässt die GH-Antwort nach (Gewöhnung).',
-      'Kann Cortisol/Prolaktin leicht anheben; nicht zugelassen, im Sport verboten.',
+      'Die GH-Antwort lässt unter Dauergabe nach: Über 16 Wochen fiel sie auf rund 55 % des Ausgangswerts, der größte Teil des Verlusts trat innerhalb der ersten Woche ein. Vier Wochen nach dem Absetzen war der Ausgangswert wieder erreicht (Rahim 1998).',
+      'Akut steigen ACTH und Cortisol in einer Größenordnung, die der Reaktion auf hCRH entspricht (Arvat 1997, Ghigo 1997); unter 16-wöchiger Gabe blieben freies Cortisol im Urin, basales Cortisol, ACTH- und Prolaktin-Antwort dagegen unverändert (Rahim 1999). Kurzfristig deutlich, im Dauergebrauch nicht nachweisbar.',
+      'Nächtliche Gabe verringerte bei sieben gesunden jungen Männern den Tiefschlaf (Stadium 4 und Delta-Leistung) und erhöhte GH, Prolaktin, ACTH und Cortisol im Schlaf (Frieboes 2004). Das körpereigene Ghrelin wirkt auf den Tiefschlaf gegenteilig.',
+      'Nicht zugelassen; im Sport verboten (WADA-Liste 2026, S2).',
       'Forschungssubstanz – auf Reinheit achten.'
     ],
     status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
-      { title: 'Ghigo et al., J Clin Endocrinol Metab 1994 – GH-freisetzende Wirkung von Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/7962331/' },
-      { title: 'Broglio et al., Endocrine 2003 – Kardiovaskuläre und endokrine Effekte von Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/12668875/' }
+      { title: 'Ghigo et al., J Clin Endocrinol Metab 1994 – GH-freisetzende Wirkung von Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/8126144/' },
+      { title: 'Broglio et al., Endocrine 2001 – GH-unabhängige kardiotrope Wirkungen von GH-freisetzenden Peptiden', url: 'https://pubmed.ncbi.nlm.nih.gov/11322491/' },
+      { title: 'Arvat et al., Peptides 1997 – GHRP-2 und Hexarelin auf GH, Prolaktin, ACTH und Cortisol (6 gesunde junge Erwachsene)', url: 'https://pubmed.ncbi.nlm.nih.gov/9285939/' },
+      { title: 'Ghigo et al., J Clin Endocrinol Metab 1997 – ACTH- und Cortisol-freisetzende Wirkung von Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/9253314/' },
+      { title: 'Rahim et al., J Clin Endocrinol Metab 1998 – GH-Status unter 16 Wochen Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/9589671/' },
+      { title: 'Rahim et al., Clin Endocrinol 1999 – Hypophysen-Nebennieren-Achse und Prolaktin unter 16 Wochen Hexarelin', url: 'https://pubmed.ncbi.nlm.nih.gov/10341859/' },
+      { title: 'Klinger et al., Eur J Endocrinol 1996 – Desensibilisierung unter intranasalem Hexarelin bei kleinwüchsigen Kindern', url: 'https://pubmed.ncbi.nlm.nih.gov/8766941/' },
+      { title: 'Bisi et al., Eur J Pharmacol 1999 – Herzwirkung von Hexarelin bei Erwachsenen mit Hypophyseninsuffizienz', url: 'https://pubmed.ncbi.nlm.nih.gov/10528131/' },
+      { title: 'Broglio et al., Eur J Pharmacol 2002 – Hexarelin während Bypass-Operation bei koronarer Herzkrankheit', url: 'https://pubmed.ncbi.nlm.nih.gov/12144941/' },
+      { title: 'Imazio et al., Eur J Heart Fail 2002 – Hexarelin bei dilatativer und ischämischer Kardiomyopathie', url: 'https://pubmed.ncbi.nlm.nih.gov/11959048/' },
+      { title: 'Bodart et al., Circ Res 2002 – CD36 vermittelt die Herzwirkung von GH-freisetzenden Peptiden', url: 'https://pubmed.ncbi.nlm.nih.gov/11988484/' },
+      { title: 'Frieboes et al., Psychoneuroendocrinology 2004 – Hexarelin verringert den Tiefschlaf', url: 'https://pubmed.ncbi.nlm.nih.gov/15177700/' },
+      { title: 'Dominikowski et al., Front Endocrinol 2026 – Leistungssteigernde Peptide der GH-IGF-1-Achse: Studienlage und Selbstanwendung', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13322892/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
@@ -2209,23 +2238,28 @@ const EXPERIMENTAL = [
     altNames: 'HN, HNG (Humanin-Analogon)',
     class: 'Mitochondriales Peptid (MDP), zytoprotektiv',
     emoji: '🧬',
-    short: 'Das erste entdeckte mitochondriale Peptid – ein körpereigener Zellschützer, dessen Spiegel mit dem Alter sinkt. Die Schutzwirkung ist in Zell- und Tiermodellen gezeigt, nicht am Menschen.',
-    moa: 'Humanin ist ein kurzes, in der mitochondrialen DNA kodiertes Peptid (Schwester von MOTS-c) und war das erste entdeckte mitochondriale-derived Peptide (MDP). Es wirkt zytoprotektiv: Es hemmt den programmierten Zelltod (Apoptose), schützt vor oxidativem Stress und verbessert die Insulinsensitivität. Höhere körpereigene Spiegel korrelieren mit Langlebigkeit (u.a. bei Hundertjährigen); die Spiegel sinken mit dem Alter. Das potente Analogon HNG wird in der Forschung genutzt.',
+    short: 'Das erste entdeckte mitochondriale Peptid – ein körpereigener Zellschützer, dessen Spiegel bei Maus und Rhesusaffe mit dem Alter sinkt. Die Schutzwirkung ist in Zell- und Tiermodellen gezeigt, nicht am Menschen.',
+    moa: 'Humanin ist ein kurzes, in der mitochondrialen DNA kodiertes Peptid (Schwester von MOTS-c) und war das erste entdeckte mitochondriale-derived Peptide (MDP). Es wirkt zytoprotektiv: Es hemmt den programmierten Zelltod (Apoptose), schützt vor oxidativem Stress und verbessert die Insulinsensitivität. Zu den körpereigenen Spiegeln sind die Beobachtungsdaten am Menschen uneinheitlich; bei Maus und Rhesusaffe sinken sie mit dem Alter. Das potente Analogon HNG wird in der Forschung genutzt. Humanin hat im Blut eine Halbwertszeit von etwa 30 Minuten; die Autoren der Lebenszeitstudie führen das Ausbleiben eines Lebenszeiteffekts bei zweimal wöchentlicher Gabe darauf zurück (Yen 2020).',
     benefits: [
       'Schützt Zellen im Labor vor Stress und programmiertem Zelltod (Apoptose)',
       'Verbessert die Insulinsensitivität (Tier-/Zelldaten)',
       'Neuroprotektiv – untersucht bei Alzheimer-Modellen',
-      'Höhere Spiegel korrelieren mit Langlebigkeit (Hundertjährige)'
+      'Kinder Hundertjähriger hatten in einer kleinen Studie höhere Spiegel (18 gegenüber 19 Personen, Yen 2020); eine größere italienische Kohorte (102 gegenüber 92) fand keinen Unterschied und bei Gesunden einen Anstieg mit dem Alter (Conte 2021) – die Beobachtungsdaten am Menschen sind uneinheitlich',
+      'Der körpereigene Spiegel ist trainierbar: +35 % Humanin im Skelettmuskel nach 12 Wochen Krafttraining bei Männern mit gestörter Glukoseregulation, im Serum kein Anstieg (Gidlund 2016); akuter Anstieg in Muskel und Plasma nach hochintensivem Intervalltraining (Woodhead 2020)'
     ],
     risks: [
       'Evidenz überwiegend präklinisch; kaum Humanstudien zur Supplementierung',
       'Optimale Dosierung/Protokolle nicht etabliert',
+      'In einem Mausmodell des triple-negativen Mammakarzinoms beschleunigte exogenes Humanin das Tumorwachstum und schwächte die Wirkung der Chemotherapie; die Autoren raten ausdrücklich zur Vorsicht bei therapeutischer Gabe (Moreno Ayala 2020, Sci Rep)',
       'Nicht zugelassen; sehr experimentelle Research-Ware'
     ],
     status: 'Reines Forschungs-Peptid (MDP); nicht zugelassen.',
     sources: [
       { title: 'Mitochondriale Peptide in Aging & Healthspan (JCI)', url: 'https://www.jci.org/articles/view/158449' },
-      { title: 'Humanin & SHLP – Review (Springer)', url: 'https://link.springer.com/article/10.1007/s10989-023-10558-7' }
+      { title: 'Humanin & SHLP – Review (Springer)', url: 'https://link.springer.com/article/10.1007/s10989-023-10558-7' },
+      { title: 'Yen K et al., Aging 2020 – Humanin reguliert Lebenszeit und Healthspan', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7343442/' },
+      { title: 'Conte M et al., GeroScience 2021 – Mitokine bei Diabetes, Alzheimer und gesundem Altern', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8110619/' },
+      { title: 'Moreno Ayala MA et al., Sci Rep 2020 – Humanin und Tumorprogression (Mausmodell)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7244539/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
@@ -2638,9 +2672,10 @@ const EXPERIMENTAL = [
     class: 'Alpha-Glucosidase-Hemmer (Antidiabetikum, Longevity-Kandidat)',
     emoji: '🔵',
     short: 'Alter Diabetes-Wirkstoff mit Longevity-Bonus: bremst die Aufnahme von Zucker aus Stärke – und verlängerte im großen US-Alterungsprogramm (ITP) die Lebensspanne von Mäusen.',
-    moa: 'Acarbose hemmt im Darm das Enzym Alpha-Glucosidase, das komplexe Kohlenhydrate spaltet. Dadurch wird Zucker langsamer und geringer aufgenommen, Blutzuckerspitzen nach dem Essen werden abgeflacht. Im Interventions-Testing-Programm (ITP) verlängerte Acarbose die Lebensspanne von Mäusen – vermutlich über die geglättete Glukose-/Insulinbelastung und Effekte auf das Darmmikrobiom.',
+    moa: 'Acarbose hemmt im Darm das Enzym Alpha-Glucosidase, das komplexe Kohlenhydrate spaltet. Dadurch wird Zucker langsamer und geringer aufgenommen, Blutzuckerspitzen nach dem Essen werden abgeflacht. Im Interventions-Testing-Programm (ITP) verlängerte Acarbose die Lebensspanne von Mäusen – vermutlich über die geglättete Glukose-/Insulinbelastung und Effekte auf das Darmmikrobiom. Ein Mikrobiom-Beitrag ist bei Mäusen plausibel (mehr kurzkettige Fettsäuren wie Propionat, die die Lebensdauer mit vorhersagten); beim Menschen zeigte eine kleine Studie nach zwei Wochen keinen messbaren Effekt auf das Mikrobiom.',
     benefits: [
       'Flacht Blutzuckerspitzen nach Mahlzeiten ab',
+      'Verzögert Typ-2-Diabetes bei gestörter Glukosetoleranz (ACE: 13 vs. 16 %; wirkt nur, solange es genommen wird)',
       'Verlängerte im ITP die Lebensspanne von Mäusen (v.a. Männchen)',
       'Günstig, jahrzehntelang als Diabetesmittel im Einsatz',
       'Wirkt lokal im Darm (kaum systemisch aufgenommen)'
@@ -2648,12 +2683,16 @@ const EXPERIMENTAL = [
     risks: [
       'Verschreibungspflichtig; Longevity-Nutzung ist off-label',
       'Häufig Blähungen/Darmwind (durch unverdaute Kohlenhydrate)',
-      'Longevity-Nutzen beim Menschen nicht bewiesen (Tierdaten)'
+      'Longevity-Nutzen beim Menschen nicht bewiesen (Tierdaten)',
+      'Bei Unterzuckerung (in Kombination mit anderen Diabetesmitteln) hilft nur Traubenzucker, nicht Haushaltszucker',
+      'Kein Herz-Kreislauf-Nutzen in der großen ACE-Studie (HR 0,98)'
     ],
-    status: 'Als Glucobay für Typ-2-Diabetes zugelassen. Longevity-Nutzung off-label.',
+    status: 'Als Glucobay für Typ-2-Diabetes zugelassen, in Deutschland seit 1990, verschreibungspflichtig, Generika verfügbar. Longevity-Nutzung off-label.',
     sources: [
       { title: 'ITP / NIA – Acarbose verlängert Lebensspanne bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/24245565/' },
-      { title: 'Bolds Media – Latest Longevity Research 2026', url: 'https://www.boldsmedia.com/latest-longevity-researches/' }
+      { title: 'Harrison DE et al., Aging Cell 2019 – ITP, Acarbose in drei Dosisstufen', url: 'https://pubmed.ncbi.nlm.nih.gov/30688027/' },
+      { title: 'Holman RR et al., Lancet Diabetes Endocrinol 2017 – ACE-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/28917545/' },
+      { title: 'Chiasson JL et al., Lancet 2002 – STOP-NIDDM', url: 'https://pubmed.ncbi.nlm.nih.gov/12086760/' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
@@ -2820,26 +2859,29 @@ const EXPERIMENTAL = [
   {
     id: 'larazotide',
     name: 'Larazotide (AT-1001)',
-    altNames: 'AT-1001, Zonulin-Antagonist',
+    altNames: 'AT-1001, Zonulin-Antagonist (Achtung: Das Kürzel AT1001 wurde auch für Migalastat von Amicus Therapeutics gegen Morbus Fabry verwendet)',
     class: 'Tight-Junction-Regulator (Darmbarriere / „Leaky Gut")',
     emoji: '🛡️',
     short: 'Das am besten erforschte „Leaky-Gut"-Peptid – und das lehrreichste: Die Phase-3-Studie bei Zöliakie wurde nach einer Zwischenauswertung wegen Aussichtslosigkeit abgebrochen, die Entwicklung daraufhin eingestellt.',
-    moa: 'Larazotide ist ein oral wirksames Peptid, das Zonulin blockiert – den körpereigenen Regulator, der die Tight Junctions (Verbindungen zwischen Darmzellen) öffnet. Dadurch wird die Darmbarriere dichter und die Durchlässigkeit („Leaky Gut") sinkt. Es wirkt lokal im Darm und wurde vor allem als Begleittherapie bei Zöliakie in großen Studien untersucht.',
+    moa: 'Larazotide ist ein oral wirksames Peptid, das Zonulin blockiert – den körpereigenen Regulator, der die Tight Junctions (Verbindungen zwischen Darmzellen) öffnet. Das soll die Darmbarriere dichter machen und die Durchlässigkeit („Leaky Gut") senken; im Labor ist das belegt, beim Menschen zeigte der Durchlässigkeitstest (Laktulose-Mannitol) unter Glutenbelastung keinen Unterschied zu Placebo (Kelly 2013). Es wirkt lokal im Darm und wurde vor allem als Begleittherapie bei Zöliakie in großen Studien untersucht.',
     benefits: [
       'Verringert in Zell- und Tiermodellen die Durchlässigkeit der Darmbarriere',
       'Oral, wirkt lokal im Darm (kaum systemisch)',
       'Am weitesten erforschtes Barriere-/„Leaky-Gut"-Peptid',
+      'Phase 2b mit 342 Erwachsenen: Die niedrigste Dosisstufe besserte die Beschwerden, die höheren Stufen waren nicht besser als Placebo (Leffler 2015)',
       'In Zöliakie bis Phase 3 untersucht – ohne Vorteil gegenüber Placebo'
     ],
     risks: [
-      'Die Phase-3-Studie CedLara (525 Patienten) wurde am 21.6.2022 nach einer vorab festgelegten Zwischenanalyse wegen Aussichtslosigkeit abgebrochen',
+      'Die Phase-3-Studie CedLara (geplant 525, bis zum Abbruch 307 eingeschlossen) wurde am 21.6.2022 nach einer Zwischenanalyse von etwa der Hälfte der Zielgröße wegen Aussichtslosigkeit abgebrochen',
       'Für die allgemeine „Leaky-Gut"-Nutzung wenig belastbarer Beleg',
       'Nicht zugelassen; Research-Ware auf Reinheit achten'
     ],
-    status: 'Klinische Prüfung (Zöliakie); nicht zugelassen.',
+    status: 'Entwicklung bei Zöliakie 2022 eingestellt (Phase 3 CedLara wegen Aussichtslosigkeit abgebrochen), Entwickler 9 Meters Biopharma 2023 insolvent. Akademische Phase-2-Studien: MIS-C (12 Kinder, Sci Transl Med 2025) und Long COVID (107 Teilnehmende, abgeschlossen Juni 2026, Ergebnisse ausstehend). Nicht zugelassen.',
     sources: [
-      { title: 'Larazotide bei Zöliakie – Übersicht (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7071717/' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Leffler et al., Gastroenterology 2015 – Phase 2b bei anhaltenden Zöliakie-Beschwerden trotz glutenfreier Ernährung (342 Erwachsene)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4446229/' },
+      { title: 'Kelly et al., Aliment Pharmacol Ther 2013 – Gluten-Provokationsstudie, Durchlässigkeitstest ohne Unterschied zu Placebo (184 Teilnehmende)', url: 'https://pubmed.ncbi.nlm.nih.gov/23163616/' },
+      { title: 'Frontiers in Nutrition 2024 – Übersicht zu Phase-2-Studien nicht-diätetischer Therapien bei Zöliakie', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11748180/' },
+      { title: 'ClinicalTrials.gov NCT03569007 – CedLara, Phase 3 (geplant 525, eingeschlossen 307)', url: 'https://clinicaltrials.gov/study/NCT03569007' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
@@ -2962,27 +3004,32 @@ const EXPERIMENTAL = [
     class: 'Gonadotropin-Präparat aus menschlichem Urin, mit FSH- und LH-Wirkung',
     emoji: '💉',
     short: 'Aus dem Urin von Frauen nach den Wechseljahren gewonnenes Hormonpräparat, das FSH- und LH-Wirkung zugleich liefert und seit 1961 in der Kinderwunschmedizin eingesetzt wird. In der Szene dient es nach Steroidkuren dazu, die abgeschaltete eigene Achse wieder anzustoßen, weil HCG allein nur das Testosteronsignal zurückbringt.',
-    moa: 'HMG (75 Einheiten FSH + 75 Einheiten LH-Wirkung) → Stimulation von Eierstock bzw. Hoden → Reifung von Eibläschen bzw. Testosteronproduktion und Spermienbildung',
+    moa: 'HMG (75 Einheiten FSH + 75 Einheiten LH-Wirkung; die LH-Wirkung stammt überwiegend aus hCG, ggf. aus dem Urin Schwangerer zugesetzt, laut Fachinformation) → Stimulation von Eierstock bzw. Hoden → Reifung von Eibläschen bzw. Testosteronproduktion und Spermienbildung',
     benefits: [
-      'Liefert als einziges der gängigen Präparate beide Signale: FSH für die Spermienbildung bzw. Follikelreifung und LH-Wirkung für die Hormonproduktion',
+      'Liefert beide Signale aus einer Quelle: FSH für die Spermienbildung bzw. Follikelreifung und LH-Wirkung für die Hormonproduktion (rekombinantes FSH und LH gibt es einzeln oder als feste Kombination, Follitropin alfa/Lutropin alfa)',
       'Etabliert in der Kinderwunschmedizin bei Frauen und bei Männern mit Hormonmangel',
       'Kombinationen aus HCG und FSH-haltigen Präparaten sind in der Andrologie zur Wiederherstellung der Fruchtbarkeit gängige Praxis',
       'Seit über 60 Jahren im klinischen Einsatz, mit bekannter Zusammensetzung und bekannter Hauptkomplikation'
     ],
     risks: [
       'Überstimulationssyndrom als gefürchtete Komplikation: Flüssigkeit im Bauchraum, Thrombosen, im schweren Fall Krankenhausaufenthalt',
-      'Medizinisch nur mit engmaschiger Kontrolle per Ultraschall und Blutwerten vertretbar; auf dem Graumarkt läuft die Anwendung ohne einen einzigen Laborwert',
-      'Die Rückkehr der eigenen Achse ist weder garantiert noch schnell — nach Nandrolon hält die Unterdrückung teils über ein Jahr an',
-      'Als biologisches Vielstoffgemisch analytisch schwer prüfbar: ob eine Ampulle wirklich 75 Einheiten FSH-Wirkung entfaltet, ist eine andere Messung als eine einfache Mengenbestimmung'
+      'Medizinisch nur mit engmaschiger Kontrolle per Ultraschall und Blutwerten vertretbar; auf dem Graumarkt ohne ärztliche Kontrolle, und in beschlagnahmten Mitteln zur Nachbehandlung fehlte in 34,9 % der deklarierte Wirkstoff (Front Chem 2025)',
+      'Die Rückkehr der eigenen Achse ist weder garantiert noch schnell: Die Erholung dauert meist 6–18 Monate, die Spermienbildung im Mittel gut 14 Monate (Shankara-Narayana 2020); ein spezifischer Beleg für Nandrolon allein wurde nicht gefunden',
+      'Als biologisches Vielstoffgemisch analytisch schwer prüfbar: ob eine Ampulle wirklich 75 Einheiten FSH-Wirkung entfaltet, ist eine andere Messung als eine einfache Mengenbestimmung',
+      'LH-/hCG-Wirkung: bei Männern nach der WADA-Liste (S2.2.1) jederzeit verboten'
     ],
     status: 'In Deutschland zugelassenes, verschreibungspflichtiges Arzneimittel mit Anwendungsgebieten in der Fortpflanzungsmedizin. Der Einsatz nach einer Steroidkur ist davon nicht abgedeckt und findet außerhalb des zugelassenen Rahmens statt, meist über den Graumarkt. Im organisierten Sport gelten zusätzlich die dortigen Dopingbestimmungen, unabhängig vom Arzneimittelrecht.',
     sources: [
-      { title: 'Gewinnungsverfahren für humanes Menopausen-Gonadotropin, Erstbeschreibung 1949', url: '' },
-      { title: 'Klinische Einführung von HMG in der Fertilitätsbehandlung, 1961', url: '' },
+      { title: 'Gewinnungsverfahren für humanes Menopausen-Gonadotropin, Erstbeschreibung 1949 (Donini und Montezemolo, Serono); zitiert in Front Endocrinol 2025 (PMID 40255498)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12006903/' },
+      { title: 'Klinische Einführung von HMG in der Fertilitätsbehandlung, 1961 — Lunenfeld, Reprod Med Biol 2011', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5906949/' },
       { title: 'Fachinformation zu HMG-Präparaten mit 75 Einheiten FSH und 75 Einheiten LH-Wirkung', url: 'https://www.medicines.org.uk/emc/product/1294/smpc' },
       { title: 'Leitlinie der American Society for Reproductive Medicine (Fertility and Sterility 2016) — ovarielles Überstimulationssyndrom als Komplikation der Gonadotropin-Behandlung', url: 'https://pubmed.ncbi.nlm.nih.gov/27678032/' },
       { title: 'Muir et al., Clinical Endocrinology 2025 — Metaanalyse zur Gonadotropin-Therapie mit HCG und FSH-haltigen Präparaten in der Andrologie', url: 'https://pubmed.ncbi.nlm.nih.gov/39445789/' },
-      { title: 'Dauer der Achsenunterdrückung nach Nandrolon', url: '' }
+      { title: 'Shankara-Narayana et al., J Clin Endocrinol Metab 2020 — Erholung nach Androgenmissbrauch: meist 6–18 Monate, Spermienbildung im Mittel 14,1 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/32030409/' },
+      { title: 'İbis et al., BJU International 2026 — Nachbehandlung nach kurzer Steroidkur, retrospektive Kohorte mit 79 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/41147237/' },
+      { title: 'Menon, Fertility and Sterility 2003 — Fallbericht: Azoospermie nach Steroiden, behandelt mit HCG und HMG', url: 'https://pubmed.ncbi.nlm.nih.gov/12801577/' },
+      { title: 'Front Chem 2025 — beschlagnahmte Mittel zur Nachbehandlung, in 34,9 % fehlte der deklarierte Wirkstoff', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11962791/' },
+      { title: 'WADA-Verbotsliste 2026, S2.2.1 — Stoffe mit LH- und HCG-Wirkung bei Männern', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
     filterCat: 'Sonstige'
   },
@@ -2992,27 +3039,37 @@ const EXPERIMENTAL = [
     altNames: 'Alpha-Klotho, sKlotho, lösliches Klotho, KL',
     class: 'Körpereigenes Protein und zirkulierendes Hormon, Longevity-Kandidat ohne Zulassung',
     emoji: '🧬',
-    short: 'Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird und im Blut zirkuliert. Mäuse ohne Klotho altern rasend schnell, Mäuse mit von der Befruchtung an hochgedrehtem Gen leben 19 bis gut 30 Prozent länger. Am Menschen gibt es bisher nur Beobachtungsdaten, keine einzige reguläre Studie mit Klotho als Medikament.',
+    short: 'Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird und im Blut zirkuliert. Mäuse ohne Klotho altern rasend schnell, Mäuse mit von der Befruchtung an hochgedrehtem Gen leben 19 bis gut 30 Prozent länger. Am Menschen gibt es bisher nur Beobachtungsdaten; die erste verblindete, placebokontrollierte Studie mit Klotho läuft seit Februar 2026 in Honduras, Ergebnisse stehen aus.',
     moa: 'Klotho zirkuliert als Hormon im Blut → dämpft Insulin- und IGF-1-Signale → in der Maus verlangsamtes Altern und längere Lebenszeit; am Menschen ist diese Kette nicht geprüft.',
     benefits: [
       'Überexpression verlängerte in zwei unabhängigen Mauslinien die Lebenszeit: Männchen 20 und gut 30 Prozent, Weibchen rund 19 Prozent (Science 2005)',
-      'Träger einer Kopie der Genvariante KL-VS schnitten in Kognitionstests besser ab (718 Menschen, drei Kohorten, Cell Reports 2014)',
-      'Hohe Klothowerte im Blut gingen bei Älteren mit niedrigerer Sterblichkeit einher; das unterste Drittel hatte ein rund 78 Prozent höheres Sterberisiko als das oberste (InCHIANTI, 804 Menschen ab 65, 6 Jahre, 2011)',
-      'Eine einmalige Injektion bei 9 von 18 alten Rhesusaffen verbesserte das Gedächtnis für 2 Wochen (Nature Aging 2023)'
+      'Erstmals Lebenszeitverlängerung nach Behandlung im Erwachsenenalter: AAV9-vermittelte Gabe von sekretiertem Klotho an normal alternde Wildtyp-Mäuse verlängerte die Gesamtlebenszeit männlicher Tiere von 26,3 auf 31,5 Monate (+19,7 %, p = 0,005); die Daten der Weibchen haben die Autoren wegen gehäufter Hauterkrankungen selbst verworfen (Roig-Soriano 2025, Mol Ther)',
+      'Träger einer Kopie der Genvariante KL-VS schnitten in Kognitionstests besser ab (718 Menschen, drei Kohorten, Cell Reports 2014); repliziert hat sich der Kognitionsvorteil nicht: In der Heinz-Nixdorf-Recall-Studie (1812 Erwachsene) lagen Träger in allen Tests leicht darunter, ebenso bei 1480 dänischen Hochbetagten',
+      'Bei APOE4-Trägern ab 60 Jahren ging eine Kopie KL-VS mit einem um ein Viertel niedrigeren Alzheimer-Risiko einher (Odds Ratio 0,75; Belloy 2020, JAMA Neurology)',
+      'Hohe Klothowerte im Blut gingen bei Älteren mit niedrigerer Sterblichkeit einher; das unterste Drittel hatte ein rund 78 Prozent höheres Sterberisiko als das oberste (InCHIANTI, 804 Menschen ab 65, 6 Jahre, 2011). Mehr ist aber nicht automatisch besser: In einer US-Auswertung (NHANES 2007–2016) verlief der Zusammenhang U-förmig, das unterste Fünftel hatte ein rund 37 Prozent, das oberste ein rund 21 Prozent höheres Sterberisiko als die Mitte (J Gerontol A 2025)',
+      'Eine einmalige Injektion verbesserte bei alten Rhesusaffen das Gedächtnis für mindestens 2 Wochen; von drei geprüften Dosisstufen wirkte nur die niedrigste (Nature Aging 2023)',
+      'Der eigene Spiegel ist trainierbar: Zwei Metaanalysen von 2026 (30 Studien mit 2765 Teilnehmenden bzw. 14 randomisierte Studien mit 893 Teilnehmenden) finden deutliche Anstiege des löslichen Klotho nach Ausdauer- und besonders Krafttraining; die Autoren betonen jedoch hohe Verzerrungsrisiken und dass der Blutwert ein Reaktionsmarker und kein geprüftes Behandlungsziel ist'
     ],
     risks: [
       'Zur Sicherheit am Menschen liegen praktisch keine Daten vor, weil es praktisch keine Anwendung gab: keine kontrollierten Verträglichkeitsdaten, keine Langzeitbeobachtung',
       'Die Humangenetik widerspricht sich: zwei Kopien von KL-VS sind mit kürzerer Lebenszeit verknüpft, und in einer schottischen Geburtskohorte sowie einer dänischen Studie mit 1480 Hochbetagten schnitten Träger schlechter ab',
-      'Angebote außerhalb jeder Zulassung, etwa 2 Pilotstudien mit je 14 Menschen in Roatán in Honduras als Plasmid-Gentherapie, laufen ohne Placebo, ohne Verblindung und ohne veröffentlichte Ergebnisse',
+      'Angebote außerhalb jeder Zulassung: 2 registrierte Pilotstudien mit je 14 Menschen in Roatán in Honduras als Plasmid-Gentherapie (NCT07216781, Start Oktober 2025; NCT07285629, Klotho plus Follistatin, abgeschlossen im April 2026) sind einarmig, unverblindet und ohne Placebo; Ergebnisse sind im Register nicht hinterlegt',
       'Als Klotho-Booster verkaufte Kapseln enthalten kein Klotho; ein Protein dieser Größe wird verdaut, und der Nutzen eines angehobenen Blutwerts ist ungeprüft'
     ],
-    status: 'In Deutschland, der EU und den USA ist kein Klotho-Präparat zugelassen; es gibt weder eine verordnungsfähige Form noch einen legalen Bezugsweg. Bis heute hat kein Mensch in einer regulären Studie Klotho als Medikament bekommen. Die Nachfolgefirma der Affenarbeit will den Antrag für eine erste Humanstudie Ende 2026 einreichen, Studienstart wäre Anfang 2027. Als Nahrungsergänzung verkaufte Klotho-Booster fallen unter das Lebensmittelrecht, enthalten kein Klotho und dürfen keine Heilversprechen tragen.',
+    status: 'In Deutschland, der EU und den USA ist kein Klotho-Präparat zugelassen; es gibt weder eine verordnungsfähige Form noch einen legalen Bezugsweg. Die erste verblindete, placebokontrollierte Studie am Menschen läuft seit Februar 2026 in Honduras (NCT07544420, Klotho-mRNA, Phase 1b, 21 Teilnehmende, primärer Abschluss geplant für den 30.11.2026); in der EU und den USA ist weiterhin nichts zugelassen. Die Nachfolgefirma der Affenarbeit, Jocasta Neuroscience (Wirkstoff JN-0413, unter die Haut), hat im August 2025 35 Mio. US-Dollar Serie A aufgenommen und im August 2026 ihre UCSF-Lizenz erweitert; sie will den Antrag für eine erste Humanstudie im vierten Quartal 2026 einreichen, Studienstart wäre Anfang 2027. Als Nahrungsergänzung verkaufte Klotho-Booster fallen unter das Lebensmittelrecht, enthalten kein Klotho und dürfen keine Heilversprechen tragen.',
     sources: [
       { title: 'Kuro-o et al., Nature 1997 — Genausfall erzeugt Alterssyndrom in der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/9363890/' },
       { title: 'Kurosu et al., Science 2005 — Klotho-Überexpression, zwei Mauslinien leben länger', url: 'https://pubmed.ncbi.nlm.nih.gov/16123266/' },
       { title: 'Semba et al., InCHIANTI-Kohorte, Toskana 2011 — Klotho im Blut und Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/21474560/' },
       { title: 'Dubal et al., Cell Reports 2014 — Genvariante KL-VS und Kognition', url: 'https://pubmed.ncbi.nlm.nih.gov/24813892/' },
-      { title: 'Castner et al. (Labor Dubal), Nature Aging 2023 — Klotho-Injektion bei Rhesusaffen', url: 'https://pubmed.ncbi.nlm.nih.gov/37400721/' }
+      { title: 'Castner et al. (Labor Dubal), Nature Aging 2023 — Klotho-Injektion bei Rhesusaffen', url: 'https://pubmed.ncbi.nlm.nih.gov/37400721/' },
+      { title: 'Roig-Soriano et al., Mol Ther 2025 — Klotho-Gentherapie verlängert Lebenszeit erwachsener Wildtyp-Mäuse', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11997498/' },
+      { title: 'Heinz-Nixdorf-Recall-Studie, Sci Rep 2021 — KL-VS ohne Kognitionsvorteil', url: 'https://pubmed.ncbi.nlm.nih.gov/34226614/' },
+      { title: 'Belloy et al., JAMA Neurology 2020 — KL-VS und Alzheimer-Risiko bei APOE4-Trägern', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7154955/' },
+      { title: 'Chen et al., J Gerontol A 2025 — NHANES, U-förmiger Zusammenhang von Klotho und Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/40392566/' },
+      { title: 'J Physiol Biochem 2026 — Metaanalyse Training und lösliches Klotho', url: 'https://pubmed.ncbi.nlm.nih.gov/42067671/' },
+      { title: 'Front Sports Act Living 2026 — Metaanalyse Training und Alpha-Klotho', url: 'https://pubmed.ncbi.nlm.nih.gov/42756318/' },
+      { title: 'ClinicalTrials.gov NCT07544420 — Phase 1b, Klotho-mRNA, placebokontrolliert', url: 'https://clinicaltrials.gov/study/NCT07544420' }
     ],
     filterCat: 'Longevity'
   },
@@ -3022,29 +3079,37 @@ const EXPERIMENTAL = [
     altNames: 'Deca-Durabolin, Nandrolondecanoat, Deca, Nandrolon',
     class: 'Anabol-androgenes Steroid, verestertes Testosteronderivat mit zusätzlich gestagener Wirkung',
     emoji: '💉',
-    short: 'Nandrolon-Decanoat ist ein anabol-androgenes Steroid, beschrieben 1960 und ab 1962 in der Medizin. Die Wirkung ist seit 60 Jahren belegt und unbestritten: Gewebeaufbau und Anregung der Blutbildung. Dieselbe lange Datenlage zeigt die Schäden, und genau deshalb wurden die Anwendungsgebiete Schritt für Schritt gestrichen.',
+    short: 'Nandrolon-Decanoat ist ein anabol-androgenes Steroid, erstmals 1950 synthetisiert, als Decanoat seit 1962 in der Medizin. Die Wirkung ist seit 60 Jahren belegt und unbestritten: Gewebeaufbau und Anregung der Blutbildung. Dieselbe lange Datenlage zeigt die Schäden, und genau deshalb wurden die Anwendungsgebiete Schritt für Schritt gestrichen.',
     moa: 'Nandrolon bindet am Androgenrezeptor → gesteigerter Gewebeaufbau und vermehrte Bildung roter Blutkörperchen bei günstigem Verhältnis von aufbauender zu vermännlichender Wirkung → zugleich Rückkopplung auf die Hormonachse mit Abschaltung der eigenen Testosteronproduktion, dazu gestagene Effekte.',
     benefits: [
-      'Belegter Gewebeaufbau: seit 60 Jahren unbestritten, Grundlage der medizinischen Anwendung',
+      'Belegter Gewebeaufbau: seit 60 Jahren unbestritten, Grundlage der medizinischen Anwendung; Metaanalyse 2026 aus 20 randomisierten Studien: +1,6 kg Magermasse, kein gesicherter Effekt auf die Griffkraft (Prokopidis 2026)',
       'Anregung der Bildung roter Blutkörperchen, daher Zulassung bei Blutarmut infolge chronischen Nierenversagens',
-      'Zulassung bei Osteoporose nach den Wechseljahren, in der Vorgeschichte auch bei Auszehrung durch HIV und bestimmten Formen des Brustkrebses als lindernde Behandlung',
-      'Günstiges Verhältnis von aufbauender zu vermännlichender Wirkung — der Grund für den medizinischen Einsatz',
-      'Arzneibuchware mit festgelegten Dosierungen und Qualitätsanforderungen statt Graumarktpräparat'
+      'Zulassung bei Osteoporose nach den Wechseljahren; historisch weitere Indikationen – eine Kommission beim Bundesgesundheitsamt fand 1991 für 17 damals beworbene Anwendungsgebiete keinen hinreichenden Wirksamkeitsnachweis',
+      'Günstiges Verhältnis von aufbauender zu vermännlichender Wirkung — der Grund für den medizinischen Einsatz'
     ],
     risks: [
-      'Herz und Gefäße: Förderung der Arterienverkalkung; laut Sicherheitsinformationen kann Nandrolon auch in üblicher Dosierung eine Herzschwäche auslösen, nicht erst bei Missbrauch',
-      'Leber: Peliosis hepatis mit möglichem Leberversagen sowie Lebertumoren, teils bösartig',
-      'Hormonell: Abschaltung der eigenen Testosteronproduktion, Hodenschrumpfung, fallende Spermienzahl, Erektionsstörungen, Wassereinlagerungen und Brustwachstum beim Mann; bei Frauen Zyklusstörungen, Haarwuchs, Haarausfall nach männlichem Muster, Vergrößerung der Klitoris und eine ausdrücklich nicht rückbildungsfähige Stimmvertiefung',
-      'Psychisch: Stimmungsschwankungen, Reizbarkeit, Aggressivität und Depression, oft nach dem Absetzen, wenn die eigene Produktion noch am Boden liegt'
+      'Herz und Gefäße: laut Fachinformation bei vorbestehender Herz-, Nieren- oder Lebererkrankung Ödeme mit oder ohne Herzinsuffizienz; bei Langzeit-Missbrauch von Steroiden reduzierte Pumpfunktion und mehr Koronarplaque (Baggish 2017: Auswurffraktion 52 gegenüber 63 %)',
+      'Leber: für Nandrolon (nicht 17α-alkyliert) laut Fachinformation seltene, leichte Leberfunktionsstörungen einschließlich Peliosis, vor allem bei hohen Dosen; Lebertumoren und schwere Cholestase sind vor allem für orale, 17α-alkylierte Steroide beschrieben',
+      'Hormonell: Abschaltung der eigenen Testosteronproduktion, Hodenschrumpfung, fallende Spermienzahl, Erektionsstörungen, Wassereinlagerungen und Brustwachstum beim Mann; bei Frauen Zyklusstörungen, Haarwuchs, Haarausfall nach männlichem Muster, Vergrößerung der Klitoris und eine Stimmveränderung, bei längerer Behandlung möglicherweise irreversibel (Heiserkeit als erstes Zeichen)',
+      'Psychisch: Stimmungsschwankungen, Reizbarkeit, Aggressivität und Depression; laut Fachinformation Abhängigkeit und Entzugssymptome'
     ],
-    status: 'Zugelassenes und verschreibungspflichtiges Arzneimittel, bekanntester Handelsname Deca-Durabolin. Die Anwendungsgebiete wurden ab den 1970er Jahren stark eingeengt, der Verkauf in vielen Ländern eingestellt, die Verfügbarkeit ist entsprechend begrenzt. Was außerhalb von Rezept und Apotheke gehandelt wird, ist Graumarktware ohne die Qualitätsanforderungen des Arzneibuchs. Im Sport steht Nandrolon auf der Verbotsliste, es ist eines der bekanntesten Dopingmittel überhaupt und bleibt sehr lange nachweisbar.',
+    status: 'In Deutschland derzeit kein Präparat auf dem Markt (Gelbe Liste, Stand 09/2026). Zugelassen u. a. in Österreich, den Niederlanden und der Schweiz (Deca-Durabolin, Aspen), vor allem bei schwerer postmenopausaler Osteoporose; in den Niederlanden zusätzlich bei Blutarmut infolge Niereninsuffizienz und aplastischer Anämie. Zugelassene Präparate unterliegen Qualitätsanforderungen; in Analysen enthielten nur 47 % der Schwarzmarktproben den angegebenen Stoff (HAARLEM), in Zürich waren 52 % gefälscht. In Deutschland steht Nandrolon in der Anlage des Anti-Doping-Gesetzes (§ 2 Abs. 3: Erwerb und Besitz in nicht geringer Menge zum Doping verboten); im Sport steht es auf der Verbotsliste.',
     sources: [
       { title: 'Sicherheitsinformationen zu Nandrolon-Decanoat (Deca-Durabolin), Fachinformation des niederländischen Arzneimittelinstituts', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
-      { title: 'Zugelassene Anwendungsgebiete: renale Blutarmut und Osteoporose nach den Wechseljahren (Fachinformation Deca-Durabolin)', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
-      { title: 'Anabol-androgene Steroide und Arterienverkalkung — Baggish et al., Circulation 2017', url: 'https://pubmed.ncbi.nlm.nih.gov/28533317/' },
+      { title: 'Zugelassene Anwendungsgebiete in den Niederlanden: schwere Osteoporose nach den Wechseljahren, Blutarmut bei Niereninsuffizienz, aplastische Anämie (Fachinformation Deca-Durabolin)', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
+      { title: 'Anabol-androgene Steroide, Pumpfunktion und Koronarplaque — Baggish et al., Circulation 2017', url: 'https://pubmed.ncbi.nlm.nih.gov/28533317/' },
       { title: 'Peliosis hepatis und Lebertumoren unter anabol-androgenen Steroiden — Petrovic et al., World Journal of Gastroenterology 2022', url: 'https://pubmed.ncbi.nlm.nih.gov/36051334/' },
-      { title: 'Nicht rückbildungsfähige Virilisierung bei Frauen, insbesondere Stimmvertiefung (Fachinformation Deca-Durabolin)', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
-      { title: 'Verbotsliste im Sport: anabol-androgene Steroide (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+      { title: 'Virilisierung bei Frauen, Stimmveränderung bei längerer Behandlung möglicherweise irreversibel (Fachinformation Deca-Durabolin)', url: 'https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf' },
+      { title: 'Verbotsliste im Sport: anabol-androgene Steroide (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Johansen et al., JAMA 1999 — Nandrolon bei Dialysepatienten: mehr fettfreie Masse, Griffkraft unverändert', url: 'https://pubmed.ncbi.nlm.nih.gov/10208142/' },
+      { title: 'Prokopidis et al., J Cachexia Sarcopenia Muscle 2026 — Metaanalyse aus 20 randomisierten Studien zu Magermasse und Griffkraft', url: 'https://pubmed.ncbi.nlm.nih.gov/41936385/' },
+      { title: 'Câmara et al., Cureus 2025 — Nandrolon bei Osteoporose nach den Wechseljahren, 7 randomisierte Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/41477377/' },
+      { title: 'Smit et al., Scand J Med Sci Sports 2020 — HAARLEM-Studie, Ausgangsdaten: 47 % der Proben enthielten den angegebenen Stoff', url: 'https://pubmed.ncbi.nlm.nih.gov/31663164/' },
+      { title: 'Smit et al., Scand J Med Sci Sports 2021 — HAARLEM-Studie: Effekte und Nebenwirkungen einer selbst geplanten Steroidkur über ein Jahr', url: 'https://pubmed.ncbi.nlm.nih.gov/33038020/' },
+      { title: 'Verdegaal et al., J Clin Endocrinol Metab 2026 — Körperzusammensetzung während und nach der Steroidkur', url: 'https://pubmed.ncbi.nlm.nih.gov/41915785/' },
+      { title: 'Magnolini et al., Harm Reduction Journal 2025 — Zürcher Drug-Checking für Steroide: 52 % der Proben gefälscht', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12147309/' },
+      { title: 'van Os et al., Front Endocrinol 2025 — anhaltender Hypogonadismus nach Androgenmissbrauch', url: 'https://pubmed.ncbi.nlm.nih.gov/40678315/' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' }
     ],
     filterCat: 'Exercise'
   },

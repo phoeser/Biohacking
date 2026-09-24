@@ -519,13 +519,13 @@ const THERAPIES = [
     emoji: '🩸',
     short: 'Das eigene Blutplasma wird ausgetauscht – die Idee dahinter: Alterungs- und Entzündungsfaktoren aus dem Blut entfernen („Plasma-Verdünnung"). Medizinisch etabliert bei bestimmten Erkrankungen, als Longevity-Verfahren experimentell.',
     benefits: [
-      'Entfernt zirkulierende Entzündungs-/Alterungsfaktoren aus dem Blut',
+      'Soll altersbedingt erhöhte Blutfaktoren verdünnen (Hypothese aus Mausversuchen)',
       'Tierdaten (Plasma-Verdünnung) zeigten Verjüngungseffekte in Geweben',
       'Wird bei Autoimmun-/neurologischen Erkrankungen medizinisch genutzt',
       'Longevity-Kliniken bieten es als Anti-Aging-Verfahren an – ohne klinischen Wirknachweis'
     ],
-    indication: ['Anti-Aging (experimentell)', 'Entzündung', 'Autoimmun (medizinisch)', 'Entgiftung'],
-    note: 'Longevity-Nutzung experimentell und teuer; medizinisch etabliert nur für bestimmte Erkrankungen. Verwandt zur INUSpherese. Nur ärztlich.',
+    indication: ['Anti-Aging (experimentell)', 'Entzündung', 'Autoimmun (medizinisch)'],
+    note: 'Longevity-Nutzung experimentell und teuer; medizinisch etabliert nur für bestimmte Erkrankungen. Verwandt zur INUSpherese. Risiken laut Register der Welt-Apherese-Gesellschaft: Nebenwirkungen bei 8,4 % der ersten und 5,5 % der folgenden Sitzungen, schwere (vor allem Kollaps oder Blutdruckabfall) bei 0,4 %; typisch sind Kribbeln durch das Zitrat und Blutdruckabfall, häufiger bei Albumin als Ersatz. Mit dem Plasma gehen Antikörper und Gerinnungsfaktoren verloren; ein zentraler Venenzugang erhöht die Nebenwirkungsrate (AMBAR: 20,1 % gegenüber 13,1 %). Nur ärztlich.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/32474458/'
   },
   {
@@ -552,12 +552,12 @@ const THERAPIES = [
     short: 'Winzige Zell-Botenstoffbläschen transportieren Wachstums- und Reparatursignale – in den Praxen oft aus Pflanzenzellen oder Kulturüberstand, am Menschen untersucht fast nur an Haut und Haaren.',
     benefits: [
       'Übertragen regenerative Signale (Wachstumsfaktoren, microRNA) ohne ganze Zellen',
-      'Beliebt für Haut-Rejuvenation, Haarwachstum und Gelenke',
-      'Entzündungsmodulierend und heilungsfördernd (präklinisch/erste Daten)',
+      'Beliebt für Haut-Rejuvenation und Haarwachstum; für Gelenke keine kontrollierten Humandaten',
+      'Entzündungsmodulierend und heilungsfördernd (präklinisch/erste Daten), am Menschen nicht belegt',
       'Als „zellfreie" Alternative zur Stammzelltherapie beworben'
     ],
     indication: ['Haut & Haar', 'Gelenke', 'Regeneration', 'Anti-Aging'],
-    note: 'Weitgehend unreguliert; die FDA warnt vor nicht zugelassenen Exosomen-Produkten. Qualität und Sicherheit sehr anbieterabhängig.',
+    note: 'USA: kein Exosomen-Produkt zugelassen (FDA, Stand 2026); die FDA hat Warnbriefe an Hersteller verschickt. EU/Deutschland: kein als Arzneimittel oder Medizinprodukt zugelassenes Exosomen-Produkt bekannt; topisch läuft die Anwendung als Kosmetik, Injektion oder Infusion wäre ein zulassungspflichtiges Arzneimittel. Risiken: Nach Injektion nicht zugelassener Präparate sind anhaltende Knoten, Granulome und Narben beschrieben (Park 2025, 4 Fälle). Nach einer Infusion aus Plazentagewebe fanden sich Bakterien im Blut, u. a. E. coli und Enterobacter (Nebraska 2019, FDA-Warnung). Qualität und Sterilität sind anbieterabhängig.',
     link: 'https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/consumer-alert-regenerative-medicine-products-including-stem-cells-and-exosomes'
   },
   {
