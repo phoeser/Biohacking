@@ -978,7 +978,7 @@ const SUPPLEMENTS = [
     ],
     dosage: '250–1.000 mg täglich (umstritten).',
     intake: 'Morgens auf leeren Magen. Sublingual oder liposomal für Bioverfügbarkeit.',
-    synergies: ['resveratrol', 'trimethylglycin'],
+    synergies: ['resveratrol', 'tmg'],
     avoid: [],
     evidence: 'niedrig',
     sources: 'Brokkoli, Avocado (sehr geringe Mengen)',
@@ -2136,7 +2136,7 @@ const SUPPLEMENTS = [
     ],
     dosage: 'Studienangaben, keine persönliche Empfehlung: In der Testosteronstudie 2 × 250 mg eines gereinigten Extrakts täglich über 90 Tage, in der Kraftstudie 250 oder 500 mg täglich über 8 Wochen.',
     intake: 'In den Studien als Kapsel eines standardisierten Extrakts. Zu Harz oder in Wasser gelöster Einnahme gibt es keine Studien.',
-    synergies: ['tongkat-ali', 'coenzym-q10', 'vitamin-d3'],
+    synergies: ['tongkat-ali', 'coq10', 'vitamin-d3'],
     avoid: [],
     evidence: 'niedrig',
     sources: 'Mineralharz aus Gebirgsgestein (gereinigt, als Harz/Kapsel)'
@@ -2191,7 +2191,7 @@ const SUPPLEMENTS = [
     ],
     dosage: 'Üblich 300–1.000 mg Extrakt täglich (standardisiert auf Echinacoside).',
     intake: 'Mit Mahlzeit. Dauerhafte oder zyklische Einnahme.',
-    synergies: ['tongkat-ali', 'panax-ginseng'],
+    synergies: ['tongkat-ali', 'ginseng'],
     avoid: [],
     evidence: 'niedrig',
     sources: 'Wüstenpflanze Cistanche (Stängel-Extrakt)'
@@ -2422,7 +2422,7 @@ const SUPPLEMENTS = [
     ],
     dosage: 'Keine Dosierungsangabe: Serrapeptase ist in der EU nicht als Lebensmittel zugelassen. Als Arzneimittel wurde es in Studien über wenige Tage nach Operationen gegeben.',
     intake: 'Auf leeren Magen (min. 30 Min vor/2 h nach dem Essen), magensaftresistente Form.',
-    synergies: ['nattokinase', 'kurkuma-curcumin'],
+    synergies: ['nattokinase', 'kurkuma'],
     avoid: [],
     evidence: 'niedrig',
     sources: 'Mikrobiell hergestelltes Enzym; als magensaftresistente Kapsel'
@@ -2510,7 +2510,7 @@ const SUPPLEMENTS = [
     ],
     dosage: 'Der IOC-Konsens nennt für akute Leistungseffekte 5 bis 9 mmol Nitrat (310 bis 560 mg). In einer Dosisstudie wirkte ein 70-mL-Shot mit 4,2 mmol nicht, 140 mL mit 8,4 mmol schon; 16,8 mmol brachten keinen Zusatznutzen. Blutdruckstudien verwendeten 200 bis 800 mg Nitrat täglich. Das sind Studienangaben, keine Verzehrempfehlung.',
     intake: 'Akute Effekte in Studien meist 2 bis 3 Stunden nach der Einnahme; Nitritspitze im Blut nach 2 bis 3 Stunden. Einnahme über mehr als 3 Tage laut IOC ebenfalls vorteilhaft. Keine antiseptische Mundspülung.',
-    synergies: ['l-citrullin', 'l-arginin'],
+    synergies: ['citrullin', 'l-arginin'],
     avoid: [],
     evidence: 'hoch',
     sources: 'Rote-Bete-Saft/-Pulver; nitratreiches Gemüse (Rucola, Spinat)'
