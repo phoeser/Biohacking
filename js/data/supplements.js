@@ -2290,7 +2290,7 @@ const SUPPLEMENTS = [
     id: 'lithium-orotat',
     name: 'Lithium-Orotat (niedrig dosiert)',
     altNames: 'Low-Dose Lithium, Lithiumorotat',
-    category: 'Mineral',
+    category: 'Spurenelement – in der EU kein zulässiges Nahrungsergänzungsmittel',
     tags: ['stimmung', 'gehirn', 'neuroprotektion', 'longevity', 'schlaf'],
     short: 'Lithium als Spurenelement fürs Gehirn, in Mikrodosen weit unter der Medikamenten-Dosis: Eine Nature-Studie 2025 fand es bei beginnender Gedächtnisstörung im Gehirn vermindert, bei Mäusen verhinderte Lithiumorotat Alzheimer-Schäden. Humanstudien zur Mikrodosis fehlen; in der EU nicht als Nahrungsergänzung zulässig.',
     description: 'Lithium ist – jenseits der hochdosierten Psychiatrie-Anwendung als Lithiumcarbonat – ein natürliches Spurenelement in Wasser, Nahrung und Gehirn. Lithiumorotat wird in Mikrodosen für Neuroprotektion und Stimmung genutzt. Eine Nature-Studie (Aron 2025) fand Lithium als einziges von 27 Metallen im Gehirn bei leichter kognitiver Störung vermindert; bei Mäusen löste Lithiummangel Alzheimer-typische Veränderungen aus, niedrig dosiertes Lithiumorotat verhinderte sie. Bevölkerungsdaten verbinden mehr Lithium im Trinkwasser mit weniger Suiziden und – nichtlinear – weniger Demenz, aber nicht alle Studien. Kontrollierte Humanstudien zur Mikrodosis fehlen.',
