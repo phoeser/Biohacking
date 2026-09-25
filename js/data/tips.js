@@ -348,8 +348,8 @@ const TIPS = [
     category: 'Sauerstoff',
     icon: '🫧',
     title: 'Hyperbare Sauerstofftherapie (HBOT)',
-    short: 'Hoher Sauerstoffdruck – bei zugelassenen Indikationen gut belegt. Die Longevity-Anwendung stützt sich auf eine kleine Studie ohne Kontrollgruppe.',
-    how: '60–90 min in einer Druckkammer ab 1,4 ATA, in den Studien typischerweise 2,0–2,4 ATA, 10–40 Sitzungen. Anwendung: Regeneration, Long-Covid, Wundheilung, Anti-Aging. Nur in spezialisierten Zentren. Nicht bei COPD, Pneumothorax, bestimmten Ohrenerkrankungen.',
+    short: 'Reiner Sauerstoff unter Überdruck – beim diabetischen Fußulkus belegt und dort Kassenleistung. Für die Longevity-Anwendung gibt es eine Telomer-Studie ohne Kontrollgruppe und zwei kleine randomisierte Studien zu Kognition und Ausdauer, alle aus einem Zentrum.',
+    how: 'In den Studien 90 Minuten bei 2 ATA und 100 Prozent Sauerstoff mit 5-minütigen Luftpausen alle 20 Minuten; Longevity-Protokolle 60 Sitzungen über 3 Monate, Wundbehandlung nach Befund. Nur in ärztlich geführten Druckkammerzentren mit Eingangsuntersuchung (Ohren, Lunge). Soft-Kammern mit 1,3–1,5 ATA und angereicherter Luft sind mit den Studien nicht vergleichbar. Nicht bei unbehandeltem Pneumothorax; Vorsicht bei schweren Lungenerkrankungen, Schwangerschaft und Ohrproblemen.',
     tags: ['sauerstoff', 'regeneration', 'anti-aging', 'mitochondrien']
   },
   {

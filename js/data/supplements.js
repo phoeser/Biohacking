@@ -376,21 +376,25 @@ const SUPPLEMENTS = [
     altNames: 'Mittelkettige Triglyceride',
     category: 'Fettsäure',
     tags: ['energie', 'keto', 'fokus', 'fettverbrennung', 'gehirn'],
-    short: 'Schnelle Energiequelle, die direkt zur Leber gelangt und Ketone bildet.',
-    description: 'C8 (Caprylsäure) ist das potenteste MCT für Ketonproduktion. Wird direkt zur Leber transportiert und zu Energie umgewandelt – ohne Insulinantwort.',
+    short: 'Mittelkettige Fette, die direkt zur Leber gehen und dort Ketone bilden. Positive Studien bei leichter kognitiver Störung, kleiner Gewichtseffekt, kein Vorteil für die Ausdauer.',
+    description: 'MCT-Öl erhöht zuverlässig die Ketonkörper im Blut, reine Caprylsäure (C8) am stärksten; Kokosöl erreichte in einer Vergleichsstudie nur 25 % der C8-Ketonspitze. Bei leichter kognitiver Störung verbesserten sich in einer 6-monatigen RCT mehrere Gedächtnis- und Sprachtests, die Ketonaufnahme im Gehirn stieg messbar. Statt langkettiger Fette eingesetzt, senkt MCT das Gewicht leicht (-0,51 kg). Für Sportleistung und für die Kognition gesunder Erwachsener fehlt ein klarer Nutzen.',
     benefits: [
-      'Schnelle Energie für Gehirn und Muskeln',
-      'Unterstützt ketogene Ernährung',
-      'Kann Appetit reduzieren',
-      'Verbesserte mentale Klarheit',
-      'Antibakteriell (gegen Candida)'
+      'Erzeugt eine leichte Ketose, C8 am stärksten; in einem 8-Stunden-Test Insulin unverändert',
+      'Verbesserte bei leichter kognitiver Störung über 6 Monate mehrere Gedächtnis- und Sprachtests (RCT, 39 vs. 44 Teilnehmer)',
+      'Meta-Analysen bei MCI und Alzheimer: kleine Verbesserung der allgemeinen Kognition, stärker ohne APOE4',
+      'Statt langkettiger Fette: -0,51 kg Gewicht und -1,46 cm Taillenumfang (Meta-Analyse, 13 RCTs)',
+      'Weniger Energieaufnahme bei der nächsten Mahlzeit, ohne dass der Appetit sinkt',
+      'Seit Jahrzehnten in der Ernährungstherapie bei Fettmalabsorption und Epilepsie eingesetzt'
     ],
     risks: [
-      'Zu schnelle Dosissteigerung: Magenkrämpfe, Durchfall',
-      'Kalorienreich (9 kcal/g)'
+      'Durchfall und Magen-Darm-Beschwerden, dosisabhängig: 75 % der Teilnehmer bei 30 g täglich',
+      'Triglyceride steigen leicht (+0,14 mmol/L); gegenüber ungesättigten Ölen steigt LDL-Cholesterin',
+      'Reines Fett und entsprechend energiereich',
+      'Gegenanzeigen laut klinischer Literatur: Ketose, Azidose, Leberzirrhose',
+      'Bei Diabetes mit Insulin oder Blutzuckersenkern vorher ärztlich abklären'
     ],
-    dosage: 'Start: 1 TL, steigern auf 1–2 EL täglich.',
-    intake: 'Morgens im Bulletproof Coffee oder vor Workout. Langsam aufbauen.',
+    dosage: 'In Studien verwendet: 15 g zweimal täglich über 6 Monate (leichte kognitive Störung), 12 bis 18 g täglich über 4 Wochen (junge Gesunde), 30 g täglich über 14 Tage (gesunde Ältere, 75 % Durchfall). Eine Sport-Übersicht nennt 30 g als praktische Obergrenze. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In der BENEFIC-Studie auf zwei Portionen als Getränk verteilt. Eine frühe Mahlzeit ohne anschließendes Mittagessen verstärkte die Ketonwirkung im 8-Stunden-Test.',
     synergies: ['omega-3'],
     avoid: [],
     evidence: 'mittel',
@@ -502,23 +506,26 @@ const SUPPLEMENTS = [
     altNames: 'ALCAR',
     category: 'Aminosäure',
     tags: ['gehirn', 'energie', 'fokus', 'anti-aging', 'fettverbrennung'],
-    short: 'Transportiert Fettsäuren in die Mitochondrien. Der beworbene Kognitionsnutzen ließ sich nicht bestätigen.',
-    description: 'Die acetylierte Form überquert die Blut-Hirn-Schranke. Der Transportmechanismus ist gut verstanden – die Studien an Gesunden zeigen für Kognition und Energie allerdings keinen belastbaren Effekt.',
+    short: 'Die Carnitin-Form, die das Gehirn erreicht. Am besten belegt bei depressiven Symptomen, bei Gesunden kaum untersucht.',
+    description: 'ALCAR schleust Fettsäuren in die Mitochondrien, liefert Acetylgruppen für Acetylcholin und passiert die Blut-Hirn-Schranke. Eine Meta-Analyse über 12 randomisierte Studien mit 791 Teilnehmern fand eine deutliche Senkung depressiver Symptome (SMD -1,10), vergleichbar mit Antidepressiva. Kleinere positive Befunde gibt es bei diabetischen Nervenschmerzen und leichter kognitiver Störung. Für Fokus und Energie bei Gesunden fehlen Studien. In einer großen Studie verstärkte ALCAR die Nervenschäden durch Taxan-Chemotherapie.',
     benefits: [
-      'Wird für mentale Energie und Klarheit beworben',
-      'Rolle im Fettsäuretransport ist biochemisch belegt',
-      'Neuroprotektive Effekte überwiegend aus Tiermodellen',
-      'Kleine Studien zu Depressionssymptomen, uneinheitlich',
-      'Hinweise auf bessere Spermienparameter',
-      'Als Anti-Aging-Stoff beworben – ohne Endpunktdaten'
+      'Senkt depressive Symptome gegenüber Placebo (Meta-Analyse, 12 RCTs, 791 Teilnehmer, SMD -1,10), am stärksten bei Älteren',
+      'Kleiner Vorteil bei leichter kognitiver Störung und früher Alzheimer-Demenz (Meta-Analyse, Effektstärke 0,201)',
+      'Linderte diabetische Nervenschmerzen um 9,16 mm auf der 100-mm-Skala (Cochrane, sehr niedrige Evidenzsicherheit)',
+      'Weniger Erschöpfung bei Älteren in einer Studie mit 96 Teilnehmern über 70 Jahren',
+      'Passiert die Blut-Hirn-Schranke, liefert Acetylgruppen für Acetylcholin',
+      'In Italien als Arzneimittel bei Schäden peripherer Nerven zugelassen'
     ],
     risks: [
-      'Nebenwirkungen: Magen-Darm-Beschwerden (selten)',
-      'Nicht spät am Abend (anregend)',
-      'Bei Schilddrüsenproblemen Arzt fragen'
+      'Verstärkte in einer RCT mit 409 Frauen die Nervenschäden durch Taxan-Chemotherapie – nicht ohne onkologische Rücksprache',
+      'Magen-Darm-Beschwerden, Kopfschmerz, Missempfindungen; ab etwa 3 g Carnitin täglich auch fischiger Körpergeruch',
+      'L-Carnitin bremst die Wirkung von Schilddrüsenhormonen in den Zellen – bei Schilddrüsentherapie ärztlich abklären',
+      'Fallberichte über verstärkte Wirkung von Cumarin-Gerinnungshemmern',
+      'Bei Anfallsleiden sind Krampfanfälle unter Carnitin beschrieben',
+      'Keine Daten zu Schwangerschaft und Stillzeit'
     ],
-    dosage: '500–2.000 mg täglich.',
-    intake: 'Morgens auf leeren Magen oder vor Workout.',
+    dosage: 'In Studien verwendet: 1.500 bis 3.000 mg täglich über 6 bis 12 Monate (Nervenschmerzen), 1,5 bis 3,0 g täglich über 3 bis 12 Monate (Gedächtnisstörungen). Das italienische Arzneimittel sieht 0,5 bis 1,5 g täglich vor. Das sind Studien- und Fachinformationsangaben, keine Verzehrempfehlung.',
+    intake: 'In Studien und Fachinformation meist auf 2 bis 3 Gaben über den Tag verteilt.',
     synergies: ['alpha-liponsaeure', 'coq10'],
     avoid: [],
     evidence: 'mittel',
@@ -560,29 +567,25 @@ const SUPPLEMENTS = [
     description: 'Von zwanzig Aminosäuren sind neun essenziell und müssen über die Nahrung kommen. Ab der Lebensmitte kommt zum Muskelverlust die anabole Resistenz: Derselbe Teller Protein löst im älteren Muskel eine schwächere Aufbau-Antwort aus. Isolierte BCAAs sind von der Forschung entzaubert – sie liefern nur drei der neun Bausteine; komplette EAA oder ganzes Protein sind überlegen.',
     benefits: [
       'Baumaterial für Muskeln, Knochenmatrix, Enzyme, Hormone und Antikörper',
-      'Leucin aktiviert mTOR und zündet die Muskelproteinsynthese',
-      'Erhält Muskelmasse und Griffkraft – starke Marker für Selbstständigkeit im Alter',
+      'Leucin aktiviert mTORC1 und stößt die Muskelproteinsynthese an – am Menschen mit Isotopenstudien belegt',
+      'Zusätzliches Protein verstärkt den Muskelaufbau durch Krafttraining (Meta-Analyse, 49 Studien, 1.863 Teilnehmer)',
       'EAA-Pulver als Speziallösung bei wenig Appetit, im Alter oder bei pflanzlicher Kost',
       'Gleicht die geringere Leucin- und Lysin-Dichte pflanzlicher Ernährung aus'
     ],
     risks: [
       'Isolierte BCAAs sind ein Zündschlüssel ohne Baumaterial – wer genug Protein isst, braucht sie nicht',
+      'Isolierte Aminosäure- und Proteinpräparate brachten Älteren ohne Training keinen signifikanten Muskelzuwachs (Meta-Analyse, 9 Studien)',
       'Bei Nierenerkrankungen gehört die Proteinmenge in ärztliche Abstimmung',
       'Dauerhaft hochgefahrenes mTOR ist kein Ziel – Protein-Mahlzeiten und echte Essenspausen im Wechsel'
     ],
-    dosage: '1,0–1,5 g Protein pro kg Körpergewicht täglich (mit Krafttraining 1,6–2,0), je Mahlzeit rund 30 g mit etwa 3 g Leucin.',
-    intake: 'Auf drei bis vier Mahlzeiten verteilt. Die wichtigste Korrektur ist meist das Frühstück – Eier, Quark, Skyr oder Shake statt Marmeladenbrot.',
+    dosage: 'Referenzwerte und Studienangaben, keine Verzehrempfehlung: DGE 0,8 g Protein pro kg Körpergewicht für Erwachsene unter 65, 1,0 g ab 65; PROT-AGE-Gruppe für über 65-Jährige mindestens 1,0–1,2 g, bei Erkrankung 1,2–1,5 g. In einer Meta-Analyse zu Krafttraining brachte eine Gesamtzufuhr über 1,62 g/kg keinen weiteren Zuwachs an fettfreier Masse.',
+    intake: 'Auf drei bis vier Mahlzeiten verteilt; bei Älteren gelten etwa 0,40 g Protein pro kg und Mahlzeit als Menge, die den Muskelaufbau maximal anregt. Die wichtigste Korrektur ist meist das Frühstück – Eier, Quark, Skyr oder Shake statt Marmeladenbrot.',
     synergies: ['whey', 'kreatin', 'glycin', 'taurin'],
     avoid: [],
     evidence: 'hoch',
     sources: 'Eier, Fisch, Fleisch, Milchprodukte, Hülsenfrüchte; Whey als konzentrierte Form',
     podcasts: [
-      {
-        title: 'Aminosäuren: Die Bausteine des Lebens im Faktencheck',
-        spotify: '38NyHB17pe2eBUcTPFg8qk',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 69) · mit Paul & Paula. Die Hierarchie echtes Essen vor Whey vor EAA vor BCAA, die anabole Resistenz ab der Lebensmitte – und warum die eigentliche Stellschraube nicht das Pulver ist, sondern die Verteilung der Proteinmenge über den Tag. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 07.09.2026, 10:00)'
-      }
+      { title: 'Aminosäuren: Die Bausteine des Lebens im Faktencheck', spotify: '38NyHB17pe2eBUcTPFg8qk', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 69) · mit Paul & Paula. Die Hierarchie echtes Essen vor Whey vor EAA vor BCAA, die anabole Resistenz ab der Lebensmitte – und warum die eigentliche Stellschraube nicht das Pulver ist, sondern die Verteilung der Proteinmenge über den Tag. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 07.09.2026, 10:00)' }
     ]
   },
   {
@@ -624,22 +627,24 @@ const SUPPLEMENTS = [
     altNames: '5-Hydroxytryptophan',
     category: 'Aminosäure',
     tags: ['stimmung', 'schlaf', 'appetit', 'serotonin'],
-    short: 'Direkte Serotonin-Vorstufe. Für Stimmung und Schlaf.',
-    description: 'Aus Griffonia-Samen. Überquert Blut-Hirn-Schranke und wird direkt zu Serotonin. Kurzzeitig sehr wirksam, langfristig Vorsicht.',
+    short: 'Direkte Serotonin-Vorstufe aus Griffonia-Samen. Hebt Serotonin im Blut messbar an; für Stimmung und Schlaf gibt es positive Signale aus kleinen Studien, das größte moderne Placebo-Experiment war negativ.',
+    description: 'Wird aus den Samen von Griffonia simplicifolia gewonnen, überwindet die Blut-Hirn-Schranke und überspringt den langsamsten Schritt der Serotoninsynthese. Im Blut steigen 5-HTP und Serotonin unter Einnahme nachweislich an. Ob daraus bessere Stimmung, besserer Schlaf oder weniger Appetit folgt, ist nur in kleinen, oft alten Studien untersucht; placebokontrolliert und methodisch sauber sind bei Depression nach Cochrane nur 2 Studien mit 64 Patienten. In Deutschland kein zugelassenes Arzneimittel mehr (Levothym 1992 vom Markt).',
     benefits: [
-      'Hebt Serotoninspiegel',
-      'Soll die Stimmung verbessern – kleine, teils alte Studien',
-      'Soll den Schlaf fördern (als Melatonin-Vorstufe) – Humandaten dünn',
-      'Kann Appetit reduzieren'
+      'Erhöht Serotonin im Blut messbar (RCT mit 166 Teilnehmern, Surrogatmarker)',
+      'Soll die Stimmung verbessern – positive, aber kleine und überwiegend nicht placebokontrollierte Studien',
+      'Soll den Schlaf fördern – eine kleine Studie mit 30 älteren Erwachsenen, Effekt nur bei schlechten Schläfern',
+      'Kann den Appetit dämpfen – eine kleine doppelblinde Studie mit 20 Teilnehmern'
     ],
     risks: [
-      'NICHT mit Antidepressiva (Serotonin-Syndrom)',
-      'Nicht über Monate ohne Pause',
-      'Mit B6 und EGCG kombinieren für Periphere-Conversion-Blockade',
-      'Kann Träume intensivieren'
+      'NICHT mit Antidepressiva oder anderen serotonergen Mitteln (Serotonin-Syndrom)',
+      'Übelkeit, Erbrechen, Durchfall, Kopfschmerzen, Schlaflosigkeit, Herzrasen; in einer Studie 19,6 Prozent mit Müdigkeit, Übelkeit oder Erbrechen',
+      'Verunreinigungen: ein Familienfallbericht mit Eosinophilie nach verunreinigtem 5-HTP; Zusammenhang mit dem Eosinophilie-Myalgie-Syndrom laut Cochrane ungeklärt',
+      'Überdosis-Fallbericht mit reversibler Hippocampus-Schädigung nach der zehnfachen Dosis',
+      'Keine Langzeit- und keine Schwangerschaftsdaten',
+      'Für Haustiere giftig – Vergiftungen bei Hunden dokumentiert'
     ],
-    dosage: '50–200 mg. Bei Schlaf abends, bei Stimmung morgens.',
-    intake: 'Auf leeren Magen, 30 min vor Mahlzeit oder dem Schlafen.',
+    dosage: 'Keine Dosierungsangabe. 5-HTP ist in Deutschland kein zugelassenes Arzneimittel, deshalb greift § 3a Heilmittelwerbegesetz; zudem gibt Biohacking Kompakt für 5-HTP keine Kaufempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer Medikamente nimmt, insbesondere Antidepressiva, klärt 5-HTP vorher ärztlich.',
     synergies: ['magnesium'],
     avoid: [],
     evidence: 'mittel',
@@ -724,22 +729,24 @@ const SUPPLEMENTS = [
     altNames: 'Koreanischer Ginseng',
     category: 'Adaptogen',
     tags: ['energie', 'fokus', 'immun', 'libido', 'anti-aging'],
-    short: 'Klassisches Adaptogen aus der TCM. Energie, Libido und kognitive Schärfe.',
-    description: 'Panax ginseng enthält Ginsenoside. Roter Ginseng (gedämpft) ist stärker als weißer. Wirkt langfristig kumulativ.',
+    short: 'Klassische Heilpflanze aus Asien. Kleine, belegte Effekte auf Erschöpfung, Gedächtnis und Nüchternblutzucker; für sportliche Leistung kein Nutzen.',
+    description: 'Panax ginseng enthält Ginsenoside. Rot und weiß bezeichnen zwei Verarbeitungsarten derselben Wurzel. Die EMA führt Ginseng als traditionelles pflanzliches Arzneimittel bei Erschöpfung und Schwäche; die meisten Studien sind klein und kürzer als 3 Monate.',
     benefits: [
-      'Steigert körperliche und mentale Energie',
-      'Verbessert kognitive Funktion',
-      'Unterstützt Libido und sexuelle Funktion',
-      'Stärkt Immunsystem',
-      'Kann Blutzucker regulieren'
+      'Kann Erschöpfung lindern, vor allem die geistige (kleine Effekte)',
+      'Kleiner Effekt auf das Gedächtnis (Meta-Analyse über 15 RCTs); kein Effekt auf Aufmerksamkeit und exekutive Funktionen',
+      'Männer mit Erektionsstörungen berichten häufiger, Geschlechtsverkehr haben zu können (Cochrane); der Effekt auf die Erektionsfunktion ist geringfügig',
+      'Senkt den Nüchternblutzucker leicht (−0,31 mmol/l über 16 Studien), ohne Effekt auf HbA1c',
+      'Immunsystem: nur sehr vorläufige Daten'
     ],
     risks: [
-      'Bei Bluthochdruck Vorsicht',
-      'Kann Schlaf stören (nicht abends)',
-      'Bei Östrogen-sensitiven Erkrankungen Arzt fragen'
+      'Schlafstörungen sind die häufigste Nebenwirkung',
+      'Wechselwirkung mit Warfarin möglich (Fallbericht; beschleunigter Warfarin-Abbau bei Gesunden)',
+      'Kann den Blutzucker senken: bei Diabetesmedikamenten ärztlich abstimmen',
+      'Nicht in Schwangerschaft und Stillzeit, nicht unter 18 Jahren (EMA)',
+      'Blutdruck: Meta-Analyse über 17 RCTs ohne Blutdruckanstieg'
     ],
-    dosage: '200–400 mg standardisiert (4 % Ginsenoside).',
-    intake: 'Morgens oder mittags. Kur-artig 8 Wochen mit Pause.',
+    dosage: 'EU-Monographie der EMA: für den auf 4 % Ginsenoside standardisierten Trockenextrakt 40–200 mg täglich (in den ersten 5 Tagen in besonderen Situationen bis 600 mg). In Studien zu geistiger Leistung wurden Einzeldosen von 200 und 400 mg verwendet, zu Erschöpfung 1–2 g Extrakt täglich.',
+    intake: 'Morgens oder mittags. Anwendung laut EMA-Monographie bis 3 Monate.',
     synergies: ['rhodiola', 'ashwagandha'],
     avoid: [],
     evidence: 'mittel',
@@ -777,25 +784,28 @@ const SUPPLEMENTS = [
     altNames: 'Ganoderma lucidum',
     category: 'Pilz',
     tags: ['immun', 'schlaf', 'stress', 'leber', 'anti-aging'],
-    short: 'Der „Pilz der Unsterblichkeit" in der TCM. Beruhigend und immunstärkend.',
-    description: 'Reishi enthält Triterpene und Polysaccharide, die das Immunsystem modulieren und Entzündungen reduzieren. Abends eingenommen fördert er erholsamen Schlaf.',
+    short: 'Traditioneller Vitalpilz der TCM. Hinweise gegen Erschöpfung und für die Lebensqualität bei Krebspatienten; kein Effekt auf Blutzucker, Blutfette und Entzündungswerte, für Schlaf keine Humanstudie.',
+    description: 'Reishi (Ganoderma lucidum, chinesisch Lingzhi) enthält Polysaccharide wie Beta-Glucane, Triterpenoide und Nukleoside. In einer doppelblinden Studie mit 132 Patienten besserte ein Reishi-Extrakt Erschöpfungszustände deutlich stärker als Placebo; bei Krebspatienten stiegen laut Cochrane einige Immunzellwerte leicht, die Lebensqualität war besser. Für Blutzucker, Blutfette, Blutdruck und Entzündungsmarker zeigen Cochrane-Auswertungen und eine Meta-Analyse keinen Effekt, die Evidenzqualität ist durchweg niedrig. Einen schlaffördernden Effekt belegen bisher nur Mausversuche.',
     benefits: [
-      'Moduliert Immunsystem',
-      'Soll die Schlafqualität verbessern – kleine Studien',
-      'Soll Stress und Angst reduzieren – Humandaten dünn',
-      'Leberschutz wird postuliert – überwiegend Tierdaten',
-      'Kann Entzündungen reduzieren'
+      'Weniger Erschöpfung – ein RCT mit 132 Patienten mit Neurasthenie, eine Pilotstudie bei Krebs-Fatigue',
+      'Leicht erhöhte Immunzellwerte und bessere Lebensqualität bei Krebspatienten – Cochrane, Studien von unbefriedigender Qualität',
+      'Bei Sportlern niedrigeres Laktat und höherer Hämatokrit – Meta-Analyse über 6 kleine Studien',
+      'Soll den Schlaf verbessern – bisher nur Tierdaten, keine Humanstudie',
+      'Leberschutz wird postuliert – am Menschen nicht gezeigt, kein Effekt auf Leberenzyme'
     ],
     risks: [
-      'Bei Blutverdünnern Vorsicht',
-      'Selten: Magenbeschwerden, Nasenbluten (sehr hohe Dosen)'
+      'Selten Leberschäden, Einzelfälle bis hin zu einem tödlichen Verlauf (LiverTox)',
+      'Unterzuckerung möglich, auch ohne Diabetes – Vorsicht mit Diabetes-Medikamenten',
+      'Unter Gerinnungshemmern nicht untersucht – vorher ärztlich klären (bei Gesunden keine Gerinnungsveränderung)',
+      'Beta-Glucan-Extrakte nicht zusammen mit Kortison oder entzündungshemmenden Schmerzmitteln',
+      'Mundtrockenheit, Verstopfung, Schlaflosigkeit, Juckreiz, Schwindel (Patientenbefragung, 9,1 Prozent mit Nebenwirkungen)'
     ],
-    dosage: '500–2.000 mg Dual-Extrakt täglich.',
-    intake: 'Abends für Schlafförderung.',
+    dosage: 'Keine Dosierungsangabe. Nach Einschätzung von BVL und BfArM (2015) sind Ganoderma-Produkte als Arzneimittel anzusehen; zugelassen sind sie in Deutschland nicht, deshalb greift § 3a Heilmittelwerbegesetz.',
+    intake: 'Keine Einnahmeempfehlung. Eine abendliche Einnahme für besseren Schlaf ist durch Humanstudien nicht gestützt.',
     synergies: ['ashwagandha', 'glycin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Essbarer Pilz (Extrakt empfohlen)'
+    sources: 'Pilz; verwendet werden Fruchtkörper, Extrakte und Sporen'
   },
   {
     id: 'cordyceps',
@@ -803,25 +813,26 @@ const SUPPLEMENTS = [
     altNames: 'Cordyceps militaris / sinensis',
     category: 'Pilz',
     tags: ['energie', 'sport', 'ausdauer', 'immun', 'libido'],
-    short: 'Energie- und Leistungs-Pilz. Die Effekte auf ATP und VO2max stammen aus kleinen Studien, oft an untrainierten Älteren.',
-    description: 'Für Cordyceps werden eine höhere ATP-Produktion und bessere Sauerstoffaufnahme berichtet – die Humanstudien dazu sind klein und fanden Effekte vor allem bei Untrainierten, kaum bei Sportlern. Die Geschichte der chinesischen Olympioniken ist Anekdote. Cordyceps militaris (kultiviert) gilt als vergleichbar mit teurem sinensis.',
+    short: 'Ausdauer-Pilz der TCM. Kleine Studien und eine Meta-Analyse zeigen leichte Verbesserungen von Schwelle und Sauerstoffaufnahme, bei gut trainierten Radfahrern blieb der Effekt aus.',
+    description: 'Sammelbegriff für mehrere Schlauchpilze: den seltenen Chinesischen Raupenpilz (Cordyceps sinensis), den gezüchteten Cordyceps militaris und Myzelien verwandter Pilze. Eine Meta-Analyse von 2025 fand für Cordyceps sinensis bei Sportlern kleine, signifikante Verbesserungen von Ausdauer, ventilatorischer Schwelle und VO2peak, allerdings aus je 2 bis 3 Studien; bei gut trainierten Radfahrern zeigte sich nichts. Die Rekorde chinesischer Läuferinnen von 1993, mit denen der Pilz berühmt wurde, sind ein Bericht, kein Beleg; 2016 wurde ein Brief über erzwungenes Doping bekannt. Ob gezüchteter militaris wie sinensis wirkt, ist am Menschen nicht verglichen.',
     benefits: [
-      'Mehr Ausdauer und VO2max',
-      'Soll die ATP-Produktion steigern – überwiegend Labordaten',
-      'Kann Libido verbessern',
-      'Soll das Immunsystem stärken – kleine Studien',
-      'Unterstützt Nierenfunktion'
+      'Leicht bessere Ausdauer-Kennwerte (ventilatorische Schwelle, VO2peak) – Meta-Analyse aus je 2 bis 3 kleinen Studien',
+      'Soll die ATP-Produktion steigern – nur an Mäusen gezeigt',
+      'Höhere Aktivität natürlicher Killerzellen in zwei RCTs mit je 79 Gesunden – Blutwerte, keine Infekt-Endpunkte',
+      'Bei chronischer Nierenerkrankung als Zusatztherapie bessere Kreatininwerte – Cochrane, Evidenz von niedriger Qualität'
     ],
     risks: [
-      'Selten: trockener Mund, Übelkeit',
-      'Bei Autoimmunerkrankungen Arzt fragen'
+      'In Studien meist gut vertragen, Nebenwirkungen aber kaum systematisch erfasst',
+      'Qualität und Identität der Ware unsicher; Arsen in Cordyceps sinensis nachgewiesen',
+      'Hebt Immunmarker an – bei Autoimmunerkrankungen oder unter Immunsuppressiva vorher ärztlich klären',
+      'Keine Daten für Schwangerschaft und Stillzeit'
     ],
-    dosage: '1.000–3.000 mg Dual-Extrakt täglich.',
-    intake: 'Morgens oder vor dem Workout.',
+    dosage: 'Keine Dosierungsangabe. Nach Einschätzung von BVL und BfArM (2015) sind Cordyceps-sinensis-Produkte als Arzneimittel anzusehen; zugelassen sind sie in Deutschland nicht, deshalb greift § 3a Heilmittelwerbegesetz.',
+    intake: 'Keine Einnahmeempfehlung. Die Studien liefen über 2 bis 12 Wochen; ein Effekt nach nur einer Woche zeigte sich in einer Studie nicht.',
     synergies: ['rhodiola', 'kreatin'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Pilz (wild sehr selten, kultivierte Form genauso wirksam)'
+    sources: 'Pilz (Wildform selten und gefährdet; gezüchtete Formen und Myzelien sind andere Präparate, ihre Gleichwertigkeit ist nicht belegt)'
   },
   {
     id: 'bacopa',
@@ -1112,21 +1123,22 @@ const SUPPLEMENTS = [
     altNames: 'Pyrrolochinolinchinon',
     category: 'Antioxidant',
     tags: ['mitochondrien', 'energie', 'gehirn', 'anti-aging'],
-    short: 'Wird als Mitochondrien-Booster beworben. Am Menschen praktisch nicht untersucht.',
-    description: 'Die Bildung neuer Mitochondrien stammt aus Zell- und Tierversuchen. Die einzige nennenswerte Humanstudie umfasste 34 ältere Personen über sechs Wochen – und testete ein Kombinationspräparat, nicht reines PQQ. Wird oft mit CoQ10 kombiniert.',
+    short: 'Redox-Coenzym, das in Zellversuchen neue Mitochondrien anstößt. Drei kleine Humanstudien über 12 Wochen fanden Verbesserungen bei Gedächtnis und Aufmerksamkeit.',
+    description: 'PQQ (Pyrrolochinolinchinon) aktiviert in Zellkultur über CREB und PGC-1α die Bildung neuer Mitochondrien. Am Menschen gibt es mehrere kleine placebokontrollierte Studien: Mit 20 bis 21,5 mg täglich über 12 Wochen verbesserten sich Teilbereiche von Gedächtnis und Aufmerksamkeit, unter Ausdauertraining stieg der Mitochondrienmarker PGC-1α, die Leistung nicht. Die Studien sind klein und teils vom Hersteller. In der EU ist PQQ-Dinatriumsalz seit 2018 als neuartiges Lebensmittel zugelassen, Höchstmenge 20 mg pro Tag. Wird oft mit CoQ10 kombiniert.',
     benefits: [
-      'Mitochondrien-Neubildung in Zell- und Tierversuchen',
-      'Wird für Energie und Ausdauer beworben',
-      'Neuroprotektive Effekte im Tiermodell',
-      'Eine kleine Studie zu Gedächtnis, mit Kombinationspräparat',
-      'Anti-Aging-Effekte'
+      'Verbesserte Teilbereiche von Gedächtnis und Aufmerksamkeit in drei kleinen RCTs über 12 Wochen',
+      'Mitochondrien-Neubildung über PGC-1α in Zellkultur und Tier, am Menschen Anstieg des Markers unter Training',
+      'Senkte in einer kleinen Crossover-Studie CRP und IL-6',
+      'Von der EFSA bis 20 mg pro Tag als sicher bewertet'
     ],
     risks: [
-      'Gut verträglich',
-      'Selten: Kopfschmerzen, Schlafstörungen bei hohen Dosen'
+      'Nicht für Schwangere und Stillende (EU-Zulassung nur für Erwachsene)',
+      'EU-Höchstmenge 20 mg pro Tag',
+      'Keine Leistungssteigerung im Sport gezeigt',
+      'Studien klein und kurz, teils vom Hersteller; Langzeitdaten fehlen'
     ],
-    dosage: '10–20 mg täglich.',
-    intake: 'Morgens mit Frühstück.',
+    dosage: 'Die Studien verwendeten 20 bis 21,5 mg täglich über bis zu 12 Wochen. EU-Höchstmenge in Nahrungsergänzungsmitteln: 20 mg pro Tag.',
+    intake: 'Täglich über mehrere Wochen, die Studien liefen 8 bis 12 Wochen. Zum Einnahmezeitpunkt gibt es keine Daten.',
     synergies: ['coq10', 'nmn'],
     avoid: [],
     evidence: 'mittel',
@@ -1501,24 +1513,26 @@ const SUPPLEMENTS = [
     altNames: 'Broccoli-Sprossen-Extrakt',
     category: 'Antioxidant',
     tags: ['detox', 'anti-aging', 'krebs', 'nrf2', 'entzuendung', 'leber'],
-    short: 'Aktiviert den NRF2-Pathway – den Master-Schalter für körpereigene Antioxidantien.',
-    description: 'Sulforaphan entsteht aus Glucoraphanin in Broccoli-Sprossen, wenn sie zerkaut werden. Aktiviert den NRF2-Transkriptionsfaktor, der hunderte entgiftende und antioxidative Gene einschaltet. Rhonda Patricks Lieblings-Supplement.',
+    short: 'Aktiviert den Nrf2-Signalweg und damit körpereigene Entgiftungsenzyme, am Menschen über die Schadstoffausscheidung gemessen.',
+    description: 'Sulforaphan entsteht aus Glucoraphanin in Brokkoli und Brokkolisprossen, wenn das Enzym Myrosinase beim Zerkauen freigesetzt wird. Es aktiviert den Transkriptionsfaktor Nrf2, der Schutz- und Entgiftungsgene einschaltet. Am Menschen belegt ist eine gesteigerte Ausscheidung von Luftschadstoffen wie Benzol; bei Autismus zeigen zwei Meta-Analysen Verbesserungen sozialer Symptome. Für Krebsvorbeugung gibt es am Menschen nur Biomarker, und die Qualität von Brokkoli-Präparaten schwankt stark.',
     benefits: [
-      'Aktiviert körpereigene Entgiftung (Phase-II-Enzyme)',
-      'Senkt Marker für oxidativen Stress und Entzündung – Surrogatmarker, keine Endpunkte',
-      'Starke Schutzwirkung gegen viele Krebsarten (präklinisch)',
-      'Unterstützt die Leber-Entgiftung',
-      'Kann Insulinresistenz verbessern'
+      'Aktiviert die Phase-II-Entgiftung: Benzol-Ausscheidung +61 % in einer RCT mit 291 Teilnehmern',
+      'Verbessert bei Autismus soziale Symptome nach 4 bis 10 Wochen (zwei Meta-Analysen über je 6 RCTs)',
+      'Schutzwirkung gegen Krebs in Labor- und Tierversuchen, am Menschen nur Biomarker',
+      'Senkte den Nüchternblutzucker bei Prädiabetes leicht, der primäre Endpunkt wurde verfehlt',
+      'Unerwünschte Ereignisse in Studien nicht häufiger als unter Placebo'
     ],
     risks: [
-      'Bei Schilddrüsenunterfunktion hohe Dosen meiden (goitrogen)',
-      'Selten Magenbeschwerden'
+      'Magen-Darm-Beschwerden möglich',
+      'Einzelne Krampfanfälle in einer Autismus-Studie mit hoher Dosis, bei Epilepsie ärztlich abklären',
+      'Schilddrüsenwerte blieben in einer Studie über 84 Tage unverändert, Langzeitdaten fehlen',
+      'Gehalt in Brokkoli-Präparaten schwankt stark, teils kein Glucoraphanin nachweisbar'
     ],
-    dosage: 'Täglich: 10–40 mg Sulforaphan oder 30 g frische Broccoli-Sprossen.',
-    intake: 'Am besten morgens, mit Senf gegessen (Myrosinase aktiviert es). Supplement-Kapseln stabiler.',
+    dosage: 'Die große Entgiftungsstudie verwendete täglich 600 µmol Glucoraphanin und 40 µmol Sulforaphan; Autismus-Studien 50 bis 150 µmol Sulforaphan je nach Körpergewicht.',
+    intake: 'Frische Brokkolisprossen gut kauen. Zu gekochtem Brokkoli etwas Senfpulver geben, das Myrosinase liefert: In einer Studie mit 1 g Senfpulver war die Ausbeute mehr als 4-mal so hoch. Bei Präparaten auf aktive Myrosinase und belegten Gehalt achten.',
     synergies: ['kurkuma', 'omega-3', 'glutathion'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Broccoli-Sprossen (höchste Konzentration), Broccoli, Rosenkohl, Rucola'
   },
   {
@@ -1527,33 +1541,29 @@ const SUPPLEMENTS = [
     altNames: 'Mitopure',
     category: 'Longevity',
     tags: ['mitochondrien', 'muskel', 'longevity', 'energie', 'autophagie'],
-    short: 'Fördert Mitophagie – recycelt beschädigte Mitochondrien. Neueste Longevity-Entdeckung.',
-    description: 'Urolithin A entsteht im Darm aus Ellagsäure (Granatapfel) – aber nur bei ca. 40 % der Menschen. Als Supplement (Mitopure) direkt verfügbar. Erste Humanstudien zeigen verbesserte Muskelkraft und Ausdauer bei Älteren.',
+    short: 'Regt die Mitophagie an – das Recycling verbrauchter Mitochondrien. Einer der wenigen Longevity-Stoffe mit randomisierten Studien am Menschen, wenn auch klein und herstellerfinanziert.',
+    description: 'Urolithin A entsteht im Darm aus Ellagitanninen (Granatapfel, Walnüsse, Beeren) – nach Granatapfelsaft bildeten aber nur rund 40 % der Menschen nennenswerte Mengen. Als Reinsubstanz (Mitopure) ist es direkt verfügbar. Zwei randomisierte Studien über 4 Monate zeigten bessere Muskelausdauer bei Älteren und rund 12 % mehr Beinkraft bei Mittelalten; die Hauptzielgrößen beider Studien wurden verfehlt.',
     benefits: [
-      'Stimuliert Mitophagie (Recycling alter Mitochondrien)',
-      'Soll Muskelkraft und Ausdauer bei Älteren verbessern – kleine, überwiegend herstellerfinanzierte Studien',
-      'Senkt Entzündungsmarker – Surrogatmarker, keine Endpunkte',
+      'Stimuliert die Mitophagie (Recycling alter Mitochondrien); beim Menschen schaltet es Mitochondrien-Gene im Muskel an',
+      'Bessere Muskelausdauer bei Älteren und rund 12 % mehr Beinkraft bei Mittelalten – kleine, herstellerfinanzierte Studien, Hauptzielgrößen verfehlt',
+      'Senkt Entzündungsmarker wie CRP – Surrogatmarker, keine Endpunkte',
       'Immunschutz wird postuliert – dafür gibt es am Menschen keine belastbaren Daten',
-      'Kann die Hautalterung verlangsamen'
+      'Haut: erste kleine Studien, noch keine belastbare Aussage'
     ],
     risks: [
-      'Gut verträglich, selten Magenbeschwerden',
+      'In Studien über bis zu 4 Monate so gut verträglich wie Placebo',
       'Teuer als Markensupplement (Mitopure)',
-      'Langzeitdaten beim Menschen noch ausstehend'
+      'Langzeitdaten beim Menschen fehlen; kontrollierte Daten enden nach 4 Monaten',
+      'Fast alle Humanstudien vom Hersteller finanziert, unabhängige Wiederholung fehlt'
     ],
-    dosage: '500 mg täglich (Standard-Biohacker-Dosis).',
+    dosage: 'In Studien eingesetzt: 500 bis 1.000 mg täglich über bis zu 4 Monate; die Muskelstudien bei Älteren nutzten 1.000 mg. Das sind Studienangaben, keine Verzehrempfehlung.',
     intake: 'Mit einer Mahlzeit, bevorzugt morgens.',
-    synergies: ['coq10', 'pqq', 'nmn'],
+    synergies: ['coq10', 'pqq'],
     avoid: [],
     evidence: 'mittel',
     sources: 'Indirekt über Ellagsäure: Granatapfel, Walnüsse, Himbeeren (nur bei passender Darmflora)',
     podcasts: [
-      {
-        title: 'Urolithin A: Der Mitochondrien-Erneuerer im Faktencheck',
-        spotify: '1OqKr6DQlwmZyf8v7HQjw2',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 78) · mit Paul & Paula. Die Produktionskette vom Granatapfel bis in die Zelle – und warum sie bei vielen Menschen im Darm gar nicht erst zustande kommt. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 16.09.2026, 10:00)'
-      }
+      { title: 'Urolithin A: Der Mitochondrien-Erneuerer im Faktencheck', spotify: '1OqKr6DQlwmZyf8v7HQjw2', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 78) · mit Paul & Paula. Die Produktionskette vom Granatapfel bis in die Zelle – und warum sie bei vielen Menschen im Darm gar nicht erst zustande kommt. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 16.09.2026, 10:00)' }
     ]
   },
   {
@@ -1616,20 +1626,20 @@ const SUPPLEMENTS = [
     altNames: 'Cytidin-5-Diphosphocholin',
     category: 'Aminosäure',
     tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic', 'acetylcholin'],
-    short: 'Duales Nootropikum – liefert Cholin UND Uridin. Stabilisiert Zellmembranen im Gehirn.',
-    description: 'Citicolin wird im Körper zu Cholin und Cytidin gespalten. Das Cytidin wird zu Uridin – beide verbessern Neurotransmitter-Funktion. In Europa als Medikament gegen Schlaganfall-Folgen zugelassen.',
+    short: 'Cholin-Lieferant mit Zusatz-Baustein Cytidin. Gut verträglich, verändert messbar den Membranstoffwechsel im Gehirn – für Gedächtnis und Konzentration bei Gesunden gibt es aber nur einzelne kleine Studien.',
+    description: 'Citicolin wird im Körper zu Cholin und Cytidin gespalten, das Cytidin zu Uridin umgewandelt – beides fließt in den Aufbau von Zellmembranen. In einigen Ländern ist es seit den 1970er-Jahren ein Arzneimittel, in der EU seit 2014 ein neuartiges Lebensmittel. Die größte Schlaganfallstudie (ICTUS, 2.298 Patienten) fand keinen Nutzen, die EFSA lehnte 2024 eine Gedächtnis-Angabe ab.',
     benefits: [
-      'Verbessert Aufmerksamkeit und Reaktionsgeschwindigkeit',
-      'Steigert Gedächtnis, besonders bei Älteren',
-      'Schützt Nervenzellen (Neuroprotektion)',
-      'Unterstützt Dopamin-Rezeptor-Dichte',
-      'Beliebtes Baseline-Nootropikum (z.B. im „Mind Lab Pro")'
+      'Verändert beim Menschen messbar den Energie- und Membranstoffwechsel im Stirnhirn (Spektroskopie, 16 Gesunde)',
+      'Einzelne kleine Studien: bessere Aufmerksamkeit bei Jugendlichen, besseres episodisches Gedächtnis bei Älteren – herstellerfinanziert, Befunde aus Nebenzielen',
+      'Sehr gut verträglich, auch in großen klinischen Studien',
+      'Beliebte Cholinquelle in Nootropika-Stacks'
     ],
     risks: [
-      'Gut verträglich, selten Kopfschmerzen',
+      'Gut verträglich; in der großen Schlaganfallstudie keine Häufung von Nebenwirkungen',
+      'Für Gedächtnis und Konzentration bei Gesunden kein ausreichender Beleg (EFSA 2024)',
       'Teurer als Alpha-GPC'
     ],
-    dosage: '250–500 mg täglich. Klinische Studien: bis 2.000 mg.',
+    dosage: 'In Studien bei Gesunden eingesetzt: 250–500 mg täglich über 28 Tage bis 12 Wochen; in der Schlaganfallstudie deutlich mehr. EU-Höchstmenge in Nahrungsergänzungsmitteln: 500 mg pro Tag. Das sind Studien- und Rechtsangaben, keine Verzehrempfehlung.',
     intake: 'Morgens oder vor kognitiver Anforderung. Mit Mahlzeit.',
     synergies: ['l-theanin', 'koffein', 'omega-3', 'loewenmaehne'],
     avoid: [],
@@ -1640,26 +1650,28 @@ const SUPPLEMENTS = [
     id: 'phosphatidylserin',
     name: 'Phosphatidylserin (PS)',
     altNames: 'PS',
-    category: 'Aminosäure',
-    tags: ['stress', 'cortisol', 'gedaechtnis', 'schlaf', 'gehirn'],
-    short: 'Senkt erhöhte Cortisolspiegel – besonders nach Training oder bei Stress. Gut vor dem Schlafen.',
-    description: 'Phosphatidylserin ist ein Phospholipid der Zellmembran, besonders reichlich im Gehirn. Studien zeigen signifikante Cortisol-Senkung nach intensivem Training und bessere Schlafqualität.',
+    category: 'Stress & Geist',
+    tags: ['stress', 'cortisol', 'gedaechtnis', 'gehirn'],
+    short: 'Membran-Phospholipid des Gehirns. Verbesserte in kontrollierten Studien das Gedächtnis älterer Menschen mit kognitivem Abbau – vor allem in der alten Form aus Rinderhirn – und dämpfte in kleinen Studien den Cortisolanstieg unter Belastung.',
+    description: 'Phosphatidylserin ist ein Phospholipid der Zellmembran, besonders reichlich im Gehirn. Die stärksten Studien zum Gedächtnis älterer Menschen (494 Patienten über 6 Monate; 149 Patienten über 12 Wochen) nutzten PS aus Rinderhirn, das wegen Prionen-Bedenken ersetzt wurde; die heutige Soja-Form blieb in ihrer größten Prüfung (120 Personen, 12 Wochen) ohne Effekt. Eine Meta-Analyse von 9 Studien mit 961 Teilnehmern findet einen positiven Effekt auf das Gedächtnis bei kognitivem Abbau. Unter körperlicher Belastung dämpfte PS in zwei kleinen Studien den Anstieg von ACTH und Cortisol.',
     benefits: [
-      'Senkte erhöhtes Cortisol nach Training deutlich – die Zahl stammt aus einer Studie mit zehn Männern über zehn Tage',
-      'Verbessert Schlafqualität bei Gestressten',
-      'Unterstützt Gedächtnis und Konzentration',
-      'Wirkt bei ADHS-Symptomen',
-      'Sicher bei Langzeitanwendung'
+      'Gedächtnis bei älteren Menschen mit kognitivem Abbau: positiver Effekt in einer Meta-Analyse (9 Studien, davon 5 RCTs, 961 Teilnehmer)',
+      'Größte Einzelstudie: 494 Patienten, 6 Monate, Verhalten und Gedächtnis verbessert – mit PS aus Rinderhirn',
+      'Senkte das Spitzen-Cortisol nach Training um 39 % – die Zahl stammt aus einer Studie mit zehn Männern über zehn Tage',
+      'Bei psychischem Stress normalisierte PS mit Phosphatidsäure die Stressreaktion nur bei stark chronisch Gestressten (75 Männer, 42 Tage)',
+      'Aufmerksamkeit bei Kindern mit ADHS verbessert (3 RCTs, 216 Kinder); Gesamtsymptome nicht signifikant, Evidenz niedrig'
     ],
     risks: [
+      'Gut verträglich: bis 600 mg Soja-PS über 12 Wochen ohne Unterschiede zu Placebo',
       'Selten: Magenbeschwerden bei hoher Dosis',
-      'Abends einnehmen kann Schlafqualität verbessern, nicht bei jedem tagsüber sinnvoll'
+      'Soja-PS: bei Sojaallergie auf die Quelle achten',
+      'Kontrollierte Daten reichen bis 6 Monate – Langzeitdaten fehlen'
     ],
-    dosage: '100–300 mg täglich. Abends oder nach Training.',
+    dosage: 'Studienangaben, keine persönliche Empfehlung: In den Gedächtnisstudien 100–300 mg täglich über 6 Wochen bis 6 Monate. In den Cortisol-Studien 600–800 mg täglich über 10 Tage.',
     intake: 'Mit einer fetthaltigen Mahlzeit.',
     synergies: ['ashwagandha', 'magnesium', 'omega-3', 'glycin'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Innereien (v.a. Hirn – historisch), Lecithin, Sojabohnen'
   },
   {
@@ -1700,21 +1712,24 @@ const SUPPLEMENTS = [
     altNames: 'β-Alanin',
     category: 'Aminosäure',
     tags: ['sport', 'ausdauer', 'muskel', 'carnosin', 'leistung'],
-    short: 'Vorläufer von Carnosin – puffert Muskelsäure ab. Verlängert die Leistung bei 1–4 min Belastung.',
-    description: 'Beta-Alanin wird im Muskel mit Histidin zu Carnosin verknüpft. Carnosin puffert Wasserstoff-Ionen bei intensiver Belastung. Das „Kribbeln" (Paraesthesie) nach Einnahme ist harmlos.',
+    short: 'Vorläufer von Carnosin, puffert Säure im Muskel. Kleiner, gut belegter Vorteil bei harten Belastungen von etwa 1 bis 4 Minuten, nicht bei kurzen Sprints.',
+    description: 'Beta-Alanin wird im Muskel mit Histidin zu Carnosin verknüpft, das Wasserstoffionen bei intensiver Belastung puffert. Der Anstieg ist per Muskelbiopsie belegt und braucht Wochen. Das Kribbeln (Parästhesie) nach der Einnahme ist nach heutigem Wissen reversibel und hängt von der Einzeldosis ab.',
     benefits: [
-      'Verlängert Time-to-Exhaustion bei hochintensiver Belastung',
-      'Verbessert Sprints, HIIT, CrossFit',
-      'Erhöht intramuskuläres Carnosin um bis zu 60 % – der Leistungsvorteil zeigt sich vor allem bei Belastungen von ein bis vier Minuten',
-      'Antioxidative Wirkung im Muskel',
-      'Kann kognitive Funktion unter Stress verbessern'
+      'Erhöht den Carnosingehalt im Muskel, per Biopsie belegt: +64,2 % nach 4 Wochen mit 6,4 g täglich, +80,1 % nach 10 Wochen',
+      'Verlängert die Zeit bis zur Erschöpfung bei hochintensiver Belastung',
+      'Größter Nutzen bei Belastungen von etwa 1 bis 4 Minuten, belegt bis 10 Minuten',
+      'Kein Vorteil bei wiederholten kurzen Sprints (Meta-Analyse über 17 RCTs)',
+      'Kognition und antioxidative Wirkung: bisher uneinheitliche beziehungsweise nur vorläufige Daten'
     ],
     risks: [
-      'Kribbeln/Prickeln auf der Haut (harmlos, vermeidbar durch Aufteilen)',
-      'Benötigt 4+ Wochen Aufsättigung, um zu wirken'
+      'Kribbeln, Jucken, Hitzegefühl (Parästhesie) schon ab Einzeldosen um 10 mg/kg Körpergewicht; reversibel, klingt meist innerhalb von 60 bis 90 Minuten ab',
+      'BfR 2026: nur Einzeldosen unter 400 mg und unter 1,2 g pro Tag als unbedenklich eingestuft, Einnahme unter 12 Wochen',
+      'Keine Sicherheitsdaten über 24 Wochen hinaus',
+      'Nicht für Kinder, Jugendliche, Schwangere, Stillende und Menschen ab 65 Jahren (BfR)',
+      'Die EMA sieht Hinweise auf seltene anaphylaktische Reaktionen'
     ],
-    dosage: '3,2–6,4 g täglich, aufgeteilt auf 2–4 Dosen à 800 mg.',
-    intake: 'Mit Mahlzeiten. Timing nicht kritisch – Akkumulation zählt.',
+    dosage: 'In den Leistungsstudien 3,2–6,4 g täglich, aufgeteilt auf Einzeldosen von 400–800 mg (Retardform bis 1,6 g), über 4 bis 24 Wochen. Das BfR stuft 2026 nur Einzeldosen unter 400 mg und weniger als 1,2 g pro Tag über weniger als 12 Wochen als unbedenklich ein.',
+    intake: 'Mit Mahlzeiten, über den Tag verteilt. Der Effekt entsteht über den Carnosinspeicher, der sich über Wochen füllt.',
     synergies: ['kreatin', 'taurin'],
     avoid: [],
     evidence: 'hoch',
@@ -1726,24 +1741,27 @@ const SUPPLEMENTS = [
     altNames: 'Citrullin Malat',
     category: 'Aminosäure',
     tags: ['sport', 'pump', 'stickoxid', 'durchblutung', 'ausdauer'],
-    short: 'Vorstufe von Arginin, hebt den NO-Spiegel zuverlässiger als Arginin selbst. Für Pump gibt es Daten, für Muskelkater kaum.',
-    description: 'L-Citrullin wird im Körper zu Arginin umgewandelt und hebt dadurch NO (Stickoxid) – dieser Umweg ist besser belegt als die direkte Arginin-Gabe. Die Effekte auf Leistung und Muskelkater stammen aus kleinen Sportstudien mit uneinheitlichen Ergebnissen; die Malat-Form ist dabei nicht sauber gegen reines Citrullin geprüft.',
+    short: 'Vorstufe von Arginin, hebt den Arginin-Spiegel im Blut zuverlässiger als Arginin selbst. Im Training ein kleiner, in Meta-Analysen wiederholt gefundener Vorteil; beim Blutdruck und beim Pump sind die Daten uneinheitlich.',
+    description: 'L-Citrullin wird in der Niere zu Arginin umgebaut und liefert so den Rohstoff für Stickoxid (NO). Dass dieser Umweg besser funktioniert als die direkte Arginin-Gabe, ist am Menschen gemessen. Die größte Meta-Analyse (30 RCTs, 644 Teilnehmer) findet einen kleinen Leistungseffekt von g = 0,16 bei niedriger bis sehr niedriger Evidenzsicherheit. Reines Citrullin und Citrullin-Malat unterschieden sich im direkten Vergleich (33 Männer, 6 Wochen) nicht. Eine Blutdruck-Meta-Analyse von 2019 wurde zurückgezogen.',
     benefits: [
-      'Bessere Durchblutung und Muskelpump',
-      'Rund 6 % mehr Wiederholungen im Krafttraining (Meta-Analyse, 8 Studien, 137 Personen) – kleiner Effekt, bei Oberkörperübungen nicht nachweisbar',
-      'Reduziert Muskelkater nach intensivem Training',
-      'Kann Blutdruck leicht senken',
-      'Unterstützt Erektionsqualität'
+      '6,4 % mehr Wiederholungen bis zur Erschöpfung (Meta-Analyse, 8 Studien, 137 Personen) – kleiner Effekt, für den Oberkörper allein nicht signifikant',
+      'Kleiner Gesamteffekt auf die Trainingsleistung, g = 0,16 (Meta-Analyse, 30 RCTs, 644 Teilnehmer; Evidenzsicherheit niedrig bis sehr niedrig)',
+      'Weniger Muskelkater 24 Stunden nach dem Training (Meta-Analyse, 13 Studien, 206 Teilnehmer); nach 48 und 72 Stunden kein signifikanter Unterschied',
+      'Hebt Plasma-Arginin dosisabhängig stärker als Arginin selbst (20 Probanden, doppelblind)',
+      'Blutdruck: systolisch minus 4,10 mmHg in einer Meta-Analyse, eine andere fand keinen Effekt',
+      'Erektionshärte: in einer kleinen, einfach verblindeten Studie (24 Männer) verbesserten sich 50 % unter Citrullin gegenüber 8,3 % unter Placebo'
     ],
     risks: [
-      'Sehr gut verträglich',
-      'Selten: Magenbeschwerden'
+      'Gut verträglich: Einzeldosen bis 15 g blieben in einer Dosisstudie ohne Nebenwirkungen',
+      'Magenbeschwerden bei 14,63 % nach 8 g Citrullin-Malat in einer Trainingsstudie',
+      'Bei Blutdrucksenkern, Nieren- oder Lebererkrankung ärztlich abklären',
+      'Kontrollierte Studien liefen höchstens 17 Wochen – Langzeitdaten fehlen'
     ],
-    dosage: '6–8 g Citrullin-Malat 30–60 min vor Training. Täglich: 3–5 g.',
-    intake: 'Vor dem Workout mit Wasser. Nüchtern gut aufgenommen.',
+    dosage: 'Studienangaben, keine persönliche Empfehlung: In den Kraftstudien meist 6–8 g Citrullin-Malat als Einzeldosis 40–60 Minuten vor dem Training. In den Blutdruckstudien 3–9 g L-Citrullin täglich über 1–17 Wochen.',
+    intake: 'In den Studien mit Wasser, 40–60 Minuten vor dem Training.',
     synergies: ['kreatin', 'beta-alanin', 'elektrolyte'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Wassermelone (höchste natürliche Quelle), Kürbis, Gurke'
   },
 
@@ -1754,22 +1772,25 @@ const SUPPLEMENTS = [
     altNames: 'Gamma-Aminobuttersäure',
     category: 'Aminosäure',
     tags: ['stress', 'entspannung', 'schlaf', 'angst', 'cortisol'],
-    short: 'Wichtigster hemmender Neurotransmitter. Ob orales GABA ins Gehirn gelangt, ist ungeklärt.',
-    description: 'GABA ist der wichtigste beruhigende Neurotransmitter. Ob orales GABA die Blut-Hirn-Schranke überquert, ist umstritten – viele spüren dennoch einen Effekt (möglicherweise über Darm-Hirn-Achse).',
+    short: 'Wichtigster beruhigender Botenstoff im Gehirn. Als Supplement mit kleinen positiven Studien zu Stress, Blutdruck und Wachstumshormon – ob es das Gehirn erreicht, ist ungeklärt.',
+    description: 'GABA wird nach Einnahme schnell ins Blut aufgenommen (Spitze nach 0,5 bis 1 Stunde) und ist kurzfristig gut verträglich. Ein Review über 14 placebokontrollierte Studien fand begrenzte Evidenz für weniger Stress und sehr begrenzte für besseren Schlaf. Kleine RCTs zeigen eine systolische Blutdrucksenkung und einen akuten Anstieg des Wachstumshormons. Ob orales GABA die Blut-Hirn-Schranke überwindet oder über das Nervensystem des Darms wirkt, ist offen.',
     benefits: [
-      'Wird für Entspannung beworben – Humandaten dünn',
-      'Einzelne kleine Studien zum Einschlafen',
-      'Hinweise auf leichte Blutdruckeffekte',
-      'Diskutierter Einfluss auf Cortisol',
-      'Gut kombinierbar mit L-Theanin'
+      'Begrenzte Evidenz für weniger Stress, vor allem bei Markern wie Herzfrequenzvariabilität und Cortisol (Review, 14 Studien)',
+      'Kleine Studie im Schlaflabor: kürzere Einschlafzeit nach 4 Wochen mit 300 mg täglich',
+      'Senkte in zwei kleinen RCTs den systolischen Blutdruck bei leicht erhöhten Werten',
+      '3 g erhöhten das Wachstumshormon akut deutlich (RCT, 11 Männer); mit Molkenprotein mehr fettfreie Masse in einer kleinen RCT',
+      'Viele Anwender berichten von spürbarer Entspannung – die Ursache ist ungeklärt',
+      'Kombination mit L-Theanin nur in einer kleinen Studie ohne Placebogruppe untersucht'
     ],
     risks: [
-      'Selten: Kribbeln, Kurzatmigkeit bei hohen Dosen',
-      'Wirkung individuell sehr unterschiedlich',
-      'Tagsüber kann es müde machen'
+      'Leichte Nebenwirkungen: Bauchbeschwerden, Kopfschmerz, Schläfrigkeit',
+      'Bei mehreren Gramm kurzes Brennen im Hals, teils mit Atemnot; Etiketten nennen Hautkribbeln und leichte Kurzatmigkeit',
+      'Kann den Blutdruck senken – Vorsicht bei Blutdruckmedikamenten',
+      'Kann Wachstumshormon und Prolaktin erhöhen; keine Daten zu Schwangerschaft und Stillzeit',
+      'Keine Langzeitdaten über Monate'
     ],
-    dosage: '100–750 mg bei Bedarf. Zum Schlafen: 500–750 mg.',
-    intake: 'Abends oder bei akutem Stress. Auf nüchternen Magen.',
+    dosage: 'In Studien verwendet: 20 mg zweimal täglich in GABA-reicher Chlorella (Blutdruck, 12 Wochen), 300 mg täglich (Schlaf, 4 Wochen), 100 mg täglich mit Molkenprotein (12 Wochen), 3 g einmalig (Wachstumshormon). Die kanadische Monographie nennt höchstens 750 mg pro Einzeldosis. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'Blutspiegel nach 0,5 bis 1 Stunde am höchsten, Halbwertszeit etwa 5 Stunden. Subjektive Schlafeffekte zeigten sich in Studien erst nach mindestens einer Woche regelmäßiger Einnahme.',
     synergies: ['l-theanin', 'magnesium', 'glycin', 'ashwagandha'],
     avoid: [],
     evidence: 'niedrig',
@@ -1778,27 +1799,31 @@ const SUPPLEMENTS = [
   {
     id: 'inositol',
     name: 'Myo-Inositol',
-    altNames: 'Vitamin B8',
+    altNames: 'Inositol (als Vitamin B8 vermarktet, aber kein Vitamin im engeren Sinn)',
     category: 'Vitamin',
     tags: ['angst', 'hormone', 'blutzucker', 'pcos', 'stimmung'],
-    short: 'Zuckeralkohol mit Vitamin-ähnlicher Funktion – hilft bei Angst, PCOS und Insulinresistenz.',
-    description: 'Inositol reguliert Insulin- und Serotonin-Signalwege. Besonders wirksam bei PCOS (polyzystisches Ovarialsyndrom) und Panikstörung. Kombination Myo- + D-Chiro-Inositol (40:1) gilt als Goldstandard bei PCOS.',
+    short: 'Körpereigener, zuckerähnlicher Signalstoff. Bei PCOS gut untersucht: normalisiert den Zyklus häufiger als Placebo und ist besser verträglich als Metformin, der klinische Nutzen bleibt laut Leitlinie begrenzt.',
+    description: 'Myo-Inositol ist Baustein der Botenstoffe, die das Insulinsignal weitergeben, und wird im Körper aus Glukose gebildet. Bei PCOS zeigt eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen häufiger einen regelmäßigen Zyklus (RR 1,79) und leicht bessere Stoffwechsel- und Hormonwerte; die internationale PCOS-Leitlinie 2023 hält Inositol für eine Option, empfiehlt aber keine bestimmte Form, Dosis oder Mischung. Das beworbene Verhältnis Myo- zu D-Chiro-Inositol von 40:1 stützt sich auf Mausmodelle. In der Schwangerschaft senkte Myo-Inositol das Risiko für Schwangerschaftsdiabetes (Cochrane, Evidenz niedrig). Für Panikstörung gibt es zwei kleine positive Studien, eine Meta-Analyse zu Angst und Depression fand keinen signifikanten Effekt.',
     benefits: [
-      'Verbessert Insulinsensitivität',
-      'Reguliert Zyklus und Fruchtbarkeit bei PCOS',
-      'Wirkt bei Angststörung und Panikattacken',
-      'Unterstützt Stimmung bei Depression',
-      'Senkt Triglyzeride'
+      'PCOS: häufiger regelmäßiger Zyklus als unter Placebo (26 RCTs, RR 1,79), gegenüber Metformin nicht unterlegen',
+      'PCOS: leicht bessere Werte bei Nüchternglukose, Insulin, Testosteron und BMI',
+      'Deutlich besser verträglich als Metformin (Nebenwirkungen 7 statt 53 Prozent)',
+      'Schwangerschaft: weniger Schwangerschaftsdiabetes (Cochrane, 7 RCTs, Evidenz niedrig)',
+      'Senkt Triglyzeride und LDL bei Stoffwechselerkrankungen (14 RCTs)',
+      'Panikstörung: zwei kleine positive Studien mit sehr hohen Mengen – Meta-Analyse über Angststörungen ohne signifikanten Effekt'
     ],
     risks: [
-      'Hohe Dosen (>12 g): Magenbeschwerden, Durchfall',
-      'Wirkung braucht 2–8 Wochen'
+      'Ab 12 g täglich leichte Magen-Darm-Beschwerden (Übelkeit, Blähungen, Durchfall)',
+      'Senkt den Blutzucker leicht – mit Diabetes-Medikamenten ärztlich abstimmen',
+      'Lithium und Valproat greifen in den Inositolstoffwechsel ein – nur nach Rücksprache',
+      'Kinderwunsch: laut Leitlinie experimentell, Nutzen unsicher',
+      'Langzeitfolgen einer Einnahme in der Schwangerschaft nicht untersucht'
     ],
-    dosage: '2–4 g 2× täglich. PCOS: 4 g täglich.',
-    intake: 'Morgens und abends in Wasser. Auch zu Mahlzeiten.',
+    dosage: 'Die PCOS-Studien verwendeten 1.000 bis 4.000 mg Myo-Inositol täglich, am häufigsten 4.000 mg über 12 bis 24 Wochen; die Panikstudien 12 g bis 18 g täglich. Die internationale PCOS-Leitlinie 2023 empfiehlt keine bestimmte Form, Dosis oder Kombination. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien über 12 bis 24 Wochen eingenommen. Wer Diabetes-Medikamente, Lithium oder Valproat nimmt, stimmt Inositol vorher ärztlich ab.',
     synergies: ['magnesium', 'chrom', 'vitamin-b-komplex'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Obst (v.a. Zitrus), Bohnen, Getreide'
   },
 
@@ -1835,25 +1860,26 @@ const SUPPLEMENTS = [
     altNames: '5-MTHF, L-Methylfolat',
     category: 'Vitamin',
     tags: ['methylierung', 'stimmung', 'schwangerschaft', 'homocystein', 'mthfr'],
-    short: 'Aktive Form von Folat – essenziell für Methylierung. Besonders für MTHFR-Genvariante.',
-    description: 'Methylfolat ist die bioaktive Form, die der Körper direkt nutzen kann. Rund 40 % der Menschen haben eine MTHFR-Genvariante, die Folsäure schlecht aktiviert. Wichtig für DNA-Reparatur, Neurotransmitter und Schwangerschaft.',
+    short: 'Aktive Form von Folat. Hebt den Folatstatus mindestens so gut wie Folsäure; als hoch dosierter Zusatz bei Depression mit kleinem Effekt untersucht.',
+    description: 'Methylfolat (L-5-Methyltetrahydrofolat) ist die Folatform, die direkt in den Stoffwechsel einfließt; Folsäure muss erst in mehreren Schritten umgewandelt werden. Die MTHFR-Variante C677T ist häufig, laut CDC können Träger aber auch Folsäure verarbeiten. Folat wird für die DNA-Synthese und den Homocystein-Stoffwechsel gebraucht.',
     benefits: [
-      'Wirkt bei Depression (besonders MTHFR-Träger)',
-      'Essenziell in der Schwangerschaft (Neuralrohr)',
-      'Senkt Homocystein',
-      'Unterstützt DNA-Reparatur',
-      'Besser verträglich als Folsäure'
+      'Hebt Folatspiegel in Plasma und Erythrozyten mindestens so gut wie Folsäure',
+      'Senkt Homocystein (−14,6 % gegenüber Placebo über 24 Wochen)',
+      'Als Zusatz zu Antidepressiva bei unzureichendem Ansprechen: höhere Ansprechrate (RR 1,25), mit 15 mg täglich unter ärztlicher Begleitung',
+      'Schwangerschaft: Folat senkt das Neuralrohrdefekt-Risiko; nachgewiesen ist das für Folsäure, das BfR empfiehlt Methylfolat in äquivalenter Menge als Alternative',
+      'Weniger unverstoffwechselte Folsäure im Blut als unter Folsäure'
     ],
     risks: [
-      'Überdosis kann Reizbarkeit, Schlafprobleme auslösen (Überstimulation)',
-      'Nicht einfach Folsäure gegen Methylfolat tauschen – niedrig anfangen',
-      'Bei B12-Mangel maskierbar – B12 mittesten'
+      'Hohe Folatmengen können einen Vitamin-B12-Mangel verdecken: B12-Status bei hoher Dosierung prüfen',
+      'EFSA-Obergrenze 1.000 µg pro Tag für Folsäure und Methylfolat zusammen',
+      'Depressionsdosen von 7,5–15 mg liegen weit über der Obergrenze; Langzeitdaten fehlen',
+      'Kein Ersatz für ärztliche Behandlung einer Depression'
     ],
-    dosage: '400–800 µg täglich (Standard). Therapeutisch: bis 5 mg.',
-    intake: 'Morgens mit B12 zusammen. Langsam aufdosieren.',
+    dosage: 'Das BfR schlägt für Nahrungsergänzungsmittel 200 µg Folsäure oder eine äquivalente Menge Methylfolat pro Tagesdosis vor; zur Neuralrohrdefekt-Prävention 400 µg Folsäure oder eine äquivalente Menge. EFSA-Obergrenze 1.000 µg/Tag. In Depressionsstudien 7,5–15 mg als Zusatz zu Antidepressiva, unter ärztlicher Kontrolle.',
+    intake: 'Bei hoch dosierter Einnahme den Vitamin-B12-Status ärztlich prüfen lassen.',
     synergies: ['vitamin-b12', 'vitamin-b-komplex', 'tmg'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Dunkelgrünes Blattgemüse, Linsen, Spargel, Leber'
   },
 
@@ -1921,24 +1947,25 @@ const SUPPLEMENTS = [
     altNames: 'HA',
     category: 'Longevity',
     tags: ['haut', 'gelenke', 'augen', 'bindegewebe', 'anti-aging'],
-    short: 'Bindet das 1000-fache seines Gewichts an Wasser – für Haut, Gelenke und Augen.',
-    description: 'Hyaluronsäure ist ein natürlicher Bestandteil der extrazellulären Matrix. Mit dem Alter sinkt die Eigensynthese. Zur oralen Einnahme gibt es Studien zu Hautfeuchte und leichter Arthrose – sie sind klein und überwiegend herstellerfinanziert.',
+    short: 'Wasserbindender Baustein von Haut und Gelenken. Als Kapsel verbessert sie in mehreren RCTs Hautfeuchtigkeit und Elastizität, gemessen mit kosmetischen Verfahren.',
+    description: 'Hyaluronsäure ist ein natürlicher Bestandteil der extrazellulären Matrix in Haut, Gelenkflüssigkeit und Auge. Oral eingenommen verbesserte sie in einer Meta-Analyse über 7 RCTs Hautfeuchtigkeit, Elastizität und Faltentiefe; die größte Studie mit 150 Erwachsenen zeigte nach 12 Wochen eine Dosisabhängigkeit. Bei leichter Arthrose berichten 9 von 11 kleinen Studien weniger Beschwerden. Die Studien sind klein und oft von Rohstoffherstellern getragen, die Aufnahme über den Darm ist nur im Tiermodell gezeigt.',
     benefits: [
-      'Verbessert Hautfeuchtigkeit und -elastizität',
-      'Schmerzlinderung bei Arthrose nur in herstellernahen Studien',
-      'Unterstützt Augenbefeuchtung (trockene Augen)',
-      'Fördert Wundheilung',
-      'Schmiert Gelenke wie natürliche Gelenkflüssigkeit'
+      'Verbessert Hautfeuchtigkeit, Elastizität und Faltentiefe (Meta-Analyse, 7 RCTs)',
+      'In der größten Studie wirkten 120 mg täglich deutlicher als 60 mg',
+      'Weniger Arthrose-Beschwerden in 9 von 11 kleinen Studien',
+      'Als Augentropfen etabliert bei trockenen Augen; als Kapsel nur eine Pilotstudie'
     ],
     risks: [
-      'Sehr gut verträglich oral',
+      'Oral gut verträglich, Nebenwirkungen in Studien selten und mild',
+      'Keine Daten zu Schwangerschaft und Stillzeit',
+      'Viele Studien von Rohstoffherstellern, unabhängige Bestätigung fehlt',
       'Injizierbare Form nur vom Arzt'
     ],
-    dosage: '120–240 mg täglich (oral).',
-    intake: 'Mit einer Mahlzeit. Mit Vitamin C für bessere Kollagenbildung.',
+    dosage: 'Hautstudien verwendeten 60 bis 120 mg täglich über 12 Wochen, Arthrose-Studien 30 bis 300 mg täglich.',
+    intake: 'Täglich über mindestens 8 bis 12 Wochen, so lange liefen die Hautstudien. Zum Einnahmezeitpunkt gibt es keine Daten.',
     synergies: ['kollagen', 'vitamin-c', 'glucosamin'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Knochenbrühe (wenig), nur als Extrakt in sinnvoller Dosis.'
   },
   {
@@ -1947,22 +1974,24 @@ const SUPPLEMENTS = [
     altNames: 'Glucosamin-Sulfat',
     category: 'Longevity',
     tags: ['gelenke', 'knorpel', 'bewegung', 'anti-aging', 'arthrose'],
-    short: 'Knorpel-Baustein. Gut untersucht – in den hochwertigen Studien ohne Effekt auf Arthrose.',
-    description: 'Der Cochrane-Review wertet 25 Studien mit knapp 5.000 Arthrose-Patienten aus: In den Studien zum Präparat eines Herstellers war Glucosamin überlegen, in den unabhängigen hochwertigen Studien zeigte sich kein Unterschied zu Placebo. Kaffeetrinker-artige Beobachtungsdaten verbinden regelmäßige Einnahme mit niedrigerer Sterblichkeit – eine Assoziation, kein belegter Zusammenhang.',
+    short: 'Knorpel-Baustein, sehr gut verträglich und gründlich untersucht. Positiv waren vor allem die Studien mit einem als Arzneimittel vertriebenen Glucosaminsulfat; unabhängige hochwertige Studien fanden keinen klinisch relevanten Effekt auf den Arthroseschmerz.',
+    description: 'Der Cochrane-Review wertet 25 Studien mit 4.963 Arthrose-Patienten aus: Das Präparat des Herstellers Rotta war dem Placebo überlegen, andere Präparate und die methodisch saubersten Studien zeigten keinen Unterschied. Die große unabhängige GAIT-Studie (1.583 Patienten, 24 Wochen) verfehlte ihr Hauptziel. Eine Gesamtschau von 19 Übersichtsarbeiten (2026) findet einen kleinen Schmerzeffekt und eine etwas langsamere Gelenkspaltverschmälerung, beides an oder unter der Schwelle klinischer Relevanz. Beobachtungsdaten verbinden regelmäßige Einnahme mit niedrigerer Sterblichkeit; eine methodische Analyse zeigt, dass Selektionsverzerrung diesen Befund erklären kann.',
     benefits: [
-      'Reduziert Gelenkschmerzen bei Arthrose',
-      'Verlangsamter Knorpelabbau nicht konsistent belegt',
-      'In Beobachtungsstudien mit niedrigerer Sterblichkeit verbunden – Assoziation, kein Beweis',
-      'Diskutierte entzündungshemmende Effekte',
-      'Baustein des Bindegewebes'
+      'Kleiner Schmerzeffekt in der Gesamtschau von 19 Übersichtsarbeiten (SMD −0,36) – an oder unter der Schwelle, ab der Patienten einen Unterschied spüren',
+      'Mit dem Rotta-Präparat in 10 placebokontrollierten Studien deutlich weniger Schmerz (Cochrane 2005); unabhängige Studien fanden das nicht',
+      'Etwas langsamere Gelenkspaltverschmälerung in 2 Studien über 3 Jahre mit Glucosaminsulfat; GAIT fand nach 2 Jahren keinen Unterschied',
+      'In Beobachtungsstudien mit niedrigerer Sterblichkeit verbunden – Assoziation, durch Selektionsverzerrung erklärbar, kein Beweis',
+      'Nebenwirkungen auf Placeboniveau über viele Studien'
     ],
     risks: [
-      'Bei Schalentier-Allergie: vegane Variante wählen',
-      'Kann Blutzucker leicht erhöhen – bei Diabetes beobachten',
-      'Wechselwirkung mit Warfarin möglich'
+      'Bei Krebstierallergie: Glucosamin aus Getreidefermentation wählen',
+      'Kann bei manchen Menschen den Blutzucker erhöhen – bei Diabetes überwachen',
+      'Erhöhtes Blutungsrisiko unter Warfarin und anderen Cumarinen beschrieben',
+      'Mögliche seltene Ursache von Leberschäden (LiverTox, Grad D)',
+      'Für Schwangere, Stillende, Kinder und Jugendliche keine Bewertung möglich'
     ],
-    dosage: '1.500 mg täglich (als Sulfat).',
-    intake: 'Mit Mahlzeit. Aufteilen auf 2–3 Dosen reduziert Magenbeschwerden.',
+    dosage: 'Studienangaben, keine persönliche Empfehlung: 1.500 mg täglich, als Glucosaminsulfat einmal täglich oder aufgeteilt in 3 × 500 mg. Das deutsche Arzneimittel enthält 1.500 mg Glucosaminhemisulfat pro Beutel.',
+    intake: 'Mit Mahlzeit. Die Studien liefen 24 Wochen bis 3 Jahre.',
     synergies: ['kollagen', 'hyaluronsaeure', 'omega-3', 'vitamin-c'],
     avoid: [],
     evidence: 'mittel',
@@ -2089,22 +2118,24 @@ const SUPPLEMENTS = [
     altNames: 'Mumijo, Fulvinsäure-Mineralharz',
     category: 'Mineral',
     tags: ['energie', 'hormone', 'testosteron', 'mitochondrien', 'anti-aging'],
-    short: 'Mineralreiches Harz aus dem Himalaya: liefert Fulvinsäure und Spurenelemente – traditionell für Energie, Testosteron und mitochondriale Vitalität.',
-    description: 'Shilajit ist ein teerartiges Mineralharz aus Gebirgsregionen (v. a. Himalaya), reich an Fulvin- und Huminsäuren sowie über 80 Spurenelementen. Es soll den mitochondrialen Energiestoffwechsel (CoQ10-Recycling), die Testosteronproduktion und die Nährstoffaufnahme unterstützen. Traditionell in der ayurvedischen Medizin für Vitalität und „Rasayana" (Verjüngung) genutzt.',
+    short: 'Mineralharz aus Gebirgsgestein, in der ayurvedischen Medizin ein Verjüngungsmittel. In einer placebokontrollierten Studie stieg das Testosteron nach 90 Tagen um 20,45 %; die wenigen kontrollierten Studien sind klein und herstellerfinanziert, die Produktqualität schwankt.',
+    description: 'Shilajit (Mumijo) ist ein teerartiges Harz aus Gebirgsregionen, vor allem aus Humin- und Fulvinsäuren, weiteren organischen Verbindungen und Mineralstoffen; in Herkunft und Zusammensetzung ist es nicht eindeutig definiert. Traditionell gilt es in der ayurvedischen Medizin als Rasayana (Verjüngung). Am Menschen gibt es wenige kontrollierte Studien: Bei 75 ausgewerteten Männern zwischen 45 und 55 Jahren stieg das Gesamttestosteron nach 90 Tagen um 20,45 % und lag über Placebo; bei 500 mg täglich blieb in einer Untergruppe mehr Kraft nach Ermüdung erhalten. Beide Studien finanzierte der Hersteller des Extrakts. Für die beworbene Wirkung auf Mitochondrien und Coenzym Q10 gibt es keine Humandaten.',
     benefits: [
-      'Kann in Studien den Testosteronspiegel bei Männern erhöhen',
-      'Unterstützt den mitochondrialen Energiestoffwechsel (Fulvinsäure, CoQ10)',
-      'Liefert bioverfügbare Spurenelemente',
-      'Traditionell für Energie, Ausdauer und Regeneration genutzt'
+      'Gesamttestosteron nach 90 Tagen plus 20,45 % gegenüber Ausgangswert und signifikant über Placebo (Männer 45 bis 55 Jahre, 75 ausgewertet, herstellerfinanziert)',
+      'Weniger Kraftverlust nach Ermüdung bei 500 mg täglich: 8,9 % gegenüber 16,0 % unter Placebo, nur in der stärkeren Hälfte von 63 Männern',
+      'Bessere Spermienwerte bei Oligospermie: Gesamtspermienzahl plus 61,4 % nach 90 Tagen (28 Männer, ohne Placebogruppe)',
+      'Bessere Hautdurchblutung nach 14 Wochen bei gesunden Frauen (placebokontrolliert)',
+      'Traditionell in der ayurvedischen Medizin als Verjüngungsmittel genutzt'
     ],
     risks: [
-      'Rohes Shilajit kann mit Schwermetallen belastet sein – nur gereinigte, geprüfte Ware kaufen',
-      'Qualität schwankt stark; auf Laborprüfung (Schwermetalle) achten',
+      'Thallium in Rohshilajit und Präparaten nachgewiesen, teils mehr im Präparat als im Rohstoff – nur Ware mit unabhängiger Laborprüfung auf Schwermetalle kaufen',
+      'Zusammensetzung nicht eindeutig definiert; Studien nutzten standardisierte Extrakte, der Handel nicht unbedingt',
       'Bei Gicht/hohem Harnsäurespiegel vorsichtig',
-      'Datenlage überwiegend klein; als Ergänzung, nicht als Heilmittel'
+      'Verändert in Studien Hormonwerte – bei hormonabhängigen Erkrankungen ärztlich abklären',
+      'Kontrollierte Daten nur bis 14 Wochen; keine Daten zu Schwangerschaft, Stillzeit, Kindern'
     ],
-    dosage: 'Üblich 300–500 mg gereinigtes Shilajit täglich (standardisiert auf Fulvinsäure).',
-    intake: 'Morgens, oft in Wasser aufgelöst. Dauerhafte oder zyklische Einnahme.',
+    dosage: 'Studienangaben, keine persönliche Empfehlung: In der Testosteronstudie 2 × 250 mg eines gereinigten Extrakts täglich über 90 Tage, in der Kraftstudie 250 oder 500 mg täglich über 8 Wochen.',
+    intake: 'In den Studien als Kapsel eines standardisierten Extrakts. Zu Harz oder in Wasser gelöster Einnahme gibt es keine Studien.',
     synergies: ['tongkat-ali', 'coenzym-q10', 'vitamin-d3'],
     avoid: [],
     evidence: 'niedrig',
@@ -2116,22 +2147,23 @@ const SUPPLEMENTS = [
     altNames: 'Erstmilch, Bovines Kolostrum',
     category: 'Protein',
     tags: ['immun', 'darm', 'regeneration', 'sport'],
-    short: 'Die Erstmilch der Kuh, reich an Immunfaktoren und Wachstumsfaktoren: unterstützt Darmbarriere, Immunsystem und Regeneration – ein Trend-Supplement 2026.',
-    description: 'Kolostrum ist die erste Milch nach der Geburt und enthält konzentriert Immunglobuline (IgG), Laktoferrin, Wachstumsfaktoren (IGF-1) und antimikrobielle Peptide. Bovines Kolostrum wird supplementiert, um die Darmbarriere („Leaky Gut"), das Immunsystem und die Regeneration zu unterstützen – beliebt bei Sportlern und für die Darmgesundheit.',
+    short: 'Die Erstmilch der Kuh: In Meta-Analysen weniger Atemwegsinfekte bei Trainierenden und eine stabilere Darmbarriere unter Belastung, der Mechanismus ist noch offen.',
+    description: 'Bovines Kolostrum ist die gefriergetrocknete Erstmilch von Kühen und enthält Immunglobuline (IgG), Laktoferrin, antimikrobielle Peptide und Wachstumsfaktoren wie IGF-1. Am besten belegt ist es bei Menschen, die regelmäßig trainieren: weniger Tage mit Atemwegssymptomen und ein gedämpfter Anstieg der Darmdurchlässigkeit nach harter Belastung. Die Studien sind klein, und die gemessenen Immunmarker erklären den Effekt nicht. Das IGF-1 aus dem Pulver erhöht den Blutspiegel in Studien nicht.',
     benefits: [
-      'Unterstützt die Darmbarriere und kann „Leaky Gut" mildern',
-      'Immunfaktoren (IgG, Laktoferrin) stärken die Abwehr',
-      'Kann bei Sportlern Infekt-Anfälligkeit und Darmstress reduzieren',
-      'Liefert Wachstumsfaktoren für Regeneration'
+      'Weniger Tage mit Atemwegssymptomen bei Trainierenden (Meta-Analyse, 5 RCTs, Rate Ratio 0,56)',
+      'Dämpft den Anstieg der Darmdurchlässigkeit nach harter Belastung (Meta-Analyse, Surrogatmarker)',
+      'Senkte in 15 von 20 Studienarmen die Durchfallhäufigkeit bei Magen-Darm-Erkrankungen',
+      'Verändert messbar Teile der angeborenen Abwehr (Neutrophilenfunktion), klassische Immunmarker kaum',
+      'Kein Anstieg des IGF-1 im Blut bei 20 bis 60 g täglich'
     ],
     risks: [
-      'Bei Milch-/Laktose-Allergie ungeeignet',
-      'Qualität/Herkunft entscheidend (weidebasiert, schonend verarbeitet)',
-      'Datenlage gemischt; Effekte oft moderat',
-      'Enthält IGF-1 – bei entsprechenden Vorerkrankungen ärztlich abklären'
+      'Bei Milcheiweißallergie ungeeignet, enthält Milchzucker',
+      'WADA rät Athleten wegen IGF-1 ab, verboten ist es nicht',
+      'Studien klein und überwiegend mit Verzerrungsrisiko, Leistungseffekte kaum belegt',
+      'Bei hormonabhängigen Erkrankungen vorher ärztlich abklären'
     ],
-    dosage: 'Typisch 10–20 g täglich (Pulver), sportbezogen teils höher.',
-    intake: 'Auf leeren Magen oder zwischen den Mahlzeiten, in Wasser. Nicht zu heiß auflösen.',
+    dosage: 'Die meisten Humanstudien verwendeten 10 bis 20 g Pulver täglich über 8 bis 12 Wochen, einzelne Studien mehr.',
+    intake: 'Täglich über mehrere Wochen, wie in den Studien. Zum besten Einnahmezeitpunkt gibt es keine vergleichenden Daten.',
     synergies: ['probiotika', 'glutamin', 'zink'],
     avoid: [],
     evidence: 'mittel',
@@ -2260,34 +2292,29 @@ const SUPPLEMENTS = [
     altNames: 'Low-Dose Lithium, Lithiumorotat',
     category: 'Mineral',
     tags: ['stimmung', 'gehirn', 'neuroprotektion', 'longevity', 'schlaf'],
-    short: 'Mikrodosiertes Lithium (weit unter Medikamenten-Dosis): als Spurenelement für Stimmung, Neuroprotektion und gesundes Hirnaltern diskutiert.',
-    description: 'Lithium ist – jenseits der hochdosierten Psychiatrie-Anwendung – auch ein natürliches Spurenelement (u. a. im Trinkwasser). In sehr niedrigen Dosen (Mikrodosierung) wird Lithiumorotat für Stimmung, Stressresilienz und Neuroprotektion genutzt. Bevölkerungsdaten verknüpfen höheres Lithium im Trinkwasser mit niedrigeren Demenz- und Suizidraten; die Interventionsevidenz bei Gesunden ist aber begrenzt.',
+    short: 'Lithium als Spurenelement fürs Gehirn, in Mikrodosen weit unter der Medikamenten-Dosis: Eine Nature-Studie 2025 fand es bei beginnender Gedächtnisstörung im Gehirn vermindert, bei Mäusen verhinderte Lithiumorotat Alzheimer-Schäden. Humanstudien zur Mikrodosis fehlen; in der EU nicht als Nahrungsergänzung zulässig.',
+    description: 'Lithium ist – jenseits der hochdosierten Psychiatrie-Anwendung als Lithiumcarbonat – ein natürliches Spurenelement in Wasser, Nahrung und Gehirn. Lithiumorotat wird in Mikrodosen für Neuroprotektion und Stimmung genutzt. Eine Nature-Studie (Aron 2025) fand Lithium als einziges von 27 Metallen im Gehirn bei leichter kognitiver Störung vermindert; bei Mäusen löste Lithiummangel Alzheimer-typische Veränderungen aus, niedrig dosiertes Lithiumorotat verhinderte sie. Bevölkerungsdaten verbinden mehr Lithium im Trinkwasser mit weniger Suiziden und – nichtlinear – weniger Demenz, aber nicht alle Studien. Kontrollierte Humanstudien zur Mikrodosis fehlen.',
     benefits: [
-      'Kann Stimmung und emotionale Stabilität unterstützen',
-      'Neuroprotektiv diskutiert (fördert BDNF, hemmt GSK-3β)',
-      'Bevölkerungsdaten: mehr Lithium im Wasser ↔ weniger Demenz/Suizid',
+      'Lithium ist bei leichter kognitiver Störung als einziges von 27 Metallen im Gehirn vermindert (Nature 2025, Hirngewebe)',
+      'Niedrig dosiertes Lithiumorotat verhinderte bei Mäusen Amyloid, Tau-Verklumpung, Synapsenverlust und Gedächtnisverlust – ohne veränderte Nieren- und TSH-Werte',
+      'Wirkt über Hemmung von GSK3β, einem Schlüsselenzym der Tau-Pathologie',
+      'Bevölkerungsdaten: mehr Lithium im Trinkwasser ↔ weniger Suizide (Meta-Analyse, 15 Studien) und oberhalb von 15,0 µg/L weniger Demenz (Dänemark)',
       'Mikrodosis liegt weit unter der psychiatrischen Dosis'
     ],
     risks: [
-      'Nur NIEDRIG dosiert (mg-Bereich) – nicht mit hochdosierter Lithiumtherapie verwechseln',
-      'Höhere Dosen brauchen ärztliche Kontrolle (Schilddrüse, Nieren, Blutspiegel)',
-      'Interventionsevidenz bei Gesunden begrenzt',
-      'Bei Nieren-/Schilddrüsenproblemen oder Medikamenten ärztlich abklären'
+      'In der EU nicht als Nahrungsergänzungsmittel zulässig; zugelassen ist nur Lithiumcarbonat als verschreibungspflichtiges Arzneimittel',
+      'Nicht mit hochdosierter Lithiumtherapie verwechseln – dort Nieren-, Schilddrüsen- und Nebenschilddrüsenschäden möglich',
+      'Keine kontrollierten Humanstudien zur Mikrodosis; Trinkwasserdaten teils widersprüchlich',
+      'Bei Nieren- oder Schilddrüsenerkrankung, Entwässerungstabletten, Schwangerschaft oder Medikamenten fürs Nervensystem ärztlich abklären'
     ],
-    dosage: 'Mikrodosis: typisch 1–5 mg elementares Lithium/Tag (als Orotat).',
-    intake: 'Mit Mahlzeit, oft abends (kann Schlaf unterstützen). Ausreichend trinken.',
+    dosage: 'Keine Dosierangabe: Lithium ist in der EU nicht als Nahrungsergänzungsmittel zulässig, Lithiumorotat ist kein zugelassenes Arzneimittel.',
+    intake: 'Keine Einnahmeempfehlung; bei Interesse ärztlich abklären.',
     synergies: ['omega-3', 'magnesium', 'vitamin-b12'],
     avoid: [],
     evidence: 'niedrig',
     sources: 'Spurenelement (Trinkwasser); als Lithiumorotat-Kapsel',
     podcasts: [
-      {
-        title: 'KI-Podcast: Lithium – das Spurenelement fürs Gehirn (Longevity & Neuroschutz)',
-        audio: 'audio/lithium-podcast.mp3',
-        spotify: '7w537EJ55GOs1xwuEbsylM',
-        lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser (Folge 35). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zur NIEDRIG dosierten Mikrodosis (Lithiumorotat), inkl. der Harvard-/Nature-Forschung 2025. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Nicht mit hochdosierter Lithiumtherapie verwechseln; bei Vorerkrankungen, Schwangerschaft oder Medikamenten ärztlich abklären.'
-      }
+      { title: 'KI-Podcast: Lithium – das Spurenelement fürs Gehirn (Longevity & Neuroschutz)', audio: 'audio/lithium-podcast.mp3', spotify: '7w537EJ55GOs1xwuEbsylM', lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 35). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zur NIEDRIG dosierten Mikrodosis (Lithiumorotat), inkl. der Harvard-/Nature-Forschung 2025. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Nicht mit hochdosierter Lithiumtherapie verwechseln; bei Vorerkrankungen, Schwangerschaft oder Medikamenten ärztlich abklären.' }
     ]
   },
   {
@@ -2351,12 +2378,13 @@ const SUPPLEMENTS = [
     altNames: 'Natto-Enzym',
     category: 'Enzym',
     tags: ['herz', 'kreislauf', 'blut', 'anti-aging'],
-    short: 'Ein Enzym aus fermentierten Sojabohnen (Natto): unterstützt die Fließeigenschaften des Blutes und die Herz-Kreislauf-Gesundheit.',
-    description: 'Nattokinase ist ein fibrinolytisches Enzym aus dem japanischen Natto. Es kann Fibrin (den Baustein von Blutgerinnseln) abbauen und so die Fließeigenschaften des Blutes und den Blutdruck günstig beeinflussen. Beliebt in der Herz-Kreislauf-Prävention. In der EU ist fermentierter Sojabohnenextrakt (NSK-SD) als neuartiges Lebensmittel zugelassen (Durchführungsbeschluss (EU) 2017/115).',
+    short: 'Ein Enzym aus fermentierten Sojabohnen (Natto): baut im Reagenzglas Fibrin ab und senkt in Studien leicht den Blutdruck. In der EU als neuartiges Lebensmittel zugelassen; ob es Gerinnsel im Körper auflöst, ist nicht gezeigt.',
+    description: 'Nattokinase ist ein fibrinolytisches Enzym aus dem japanischen Natto, 1987 beschrieben. Im Reagenzglas baut es Fibrin (den Baustein von Blutgerinnseln) ab; am Menschen ist eine leichte Blutdrucksenkung belegt (Meta-Analyse, 6 RCTs, 546 Teilnehmer), ein Schutz vor Thrombosen dagegen nicht untersucht. Ob aktives Enzym aufgenommen wird, ist laut EFSA (2016) offen. Beliebt in der Herz-Kreislauf-Prävention und bei Long Covid. In der EU ist fermentierter Sojabohnenextrakt (NSK-SD, um Vitamin K2 bereinigt) als neuartiges Lebensmittel zugelassen (Durchführungsbeschluss (EU) 2017/115).',
     benefits: [
       'Löst Fibrin im Reagenzglas; ob aktives Enzym aufgenommen wird, ist offen (EFSA 2016); in der dreijährigen Placebostudie keine Wirkung auf Gerinnungs- und Fibrinolysewerte',
-      'In Studien mild blutdrucksenkend',
-      'Pflanzlich, aus traditionellem Lebensmittel'
+      'In Studien mild blutdrucksenkend (6 RCTs, 546 Teilnehmer: −3,45/−2,32 mmHg)',
+      'Aus einem traditionellen fermentierten Lebensmittel; EU-zugelassener Extrakt mit definierter Enzymaktivität',
+      'Viele Long-Covid- und ME/CFS-Betroffene berichten Besserung (Selbstauskunft, keine kontrollierte Studie)'
     ],
     risks: [
       'Blutverdünnende Wirkung – nicht mit Gerinnungshemmern kombinieren (Blutungsrisiko), ärztlich abklären',
@@ -2405,23 +2433,25 @@ const SUPPLEMENTS = [
     altNames: 'Crocus sativus, Saffron-Extrakt',
     category: 'Kräuter',
     tags: ['stimmung', 'schlaf', 'augen', 'stress'],
-    short: 'Das teuerste Gewürz der Welt als Stimmungsaufheller: Safran-Extrakt zeigte in Studien antidepressive Effekte – teils vergleichbar mit leichten Medikamenten.',
-    description: 'Safran (aus den Narben des Krokus) enthält Wirkstoffe wie Crocin und Safranal. Mehrere Humanstudien zeigten bei leichter bis mittlerer Depression Effekte, die mit niedrig dosierten Antidepressiva vergleichbar waren – bei guter Verträglichkeit. Auch für Augen (Makula) und PMS untersucht.',
+    short: 'Das teuerste Gewürz der Welt als Stimmungsaufheller: Safran-Extrakt bessert in Dutzenden Studien depressive Beschwerden und schnitt in direkten Vergleichen etwa so gut ab wie SSRI.',
+    description: 'Safran (aus den Narben des Krokus) enthält Crocine, Picrocrocin und Safranal. Randomisierte Studien zeigen bei leichter bis mittlerer Depression und depressiver Verstimmung eine Besserung, vor allem in Selbstauskunftsskalen; in Vergleichsstudien mit SSRI zeigte sich kein Wirkungsunterschied bei weniger Nebenwirkungen. Auch für PMS, Schlaf und Augen (Makula) untersucht.',
     benefits: [
-      'Kann Stimmung heben (Studien bei leichter/mittlerer Depression)',
-      'Gut verträglich, kaum sedierend',
-      'Auch für Augengesundheit (Makula) und PMS untersucht',
-      'Natürliche Ergänzung zur Stimmungsunterstützung'
+      'Bessert depressive Symptome bei leichter bis mittlerer Depression und Verstimmung (Meta-Analyse über 34 RCTs, v. a. Selbstauskunft)',
+      'In direkten Vergleichen mit SSRI kein Wirkungsunterschied, weniger Nebenwirkungen (8 Studien)',
+      'Kann Angstsymptome und Schlafqualität verbessern (kleinere Studien)',
+      'Linderung prämenstrueller Beschwerden (Meta-Analyse); Augen (Makula) in kleinen Studien untersucht',
+      'Von der WFSBP-CANMAT-Taskforce bei Depression vorläufig empfohlen'
     ],
     risks: [
       'Kein Ersatz für ärztliche Behandlung bei Depression',
-      'Höhere Dosen können Nebenwirkungen/Toxizität haben – nicht überdosieren',
-      'Qualität/Fälschung ein Thema (auf standardisierte Extrakte achten)',
-      'In der Schwangerschaft meiden (höhere Dosen wehenfördernd)'
+      'Nebenwirkungen meist mild, vor allem Magen-Darm; vereinzelt Unruhe und hypomane Symptome berichtet',
+      'Höhere Dosen wie 200–400 mg nur in wenigen, kurzen Studien untersucht; in der Schwangerschaft werden höhere Dosen mit Wehenanregung und Fehlgeburtsrisiko verbunden',
+      'Vorsicht mit Gerinnungshemmern: hemmt im Labor die Plättchenaggregation, Fallbericht einer Blutung unter Rivaroxaban',
+      'Häufig gefälscht: weltweit schätzungsweise 20–30 % der Handelsware, auch Nahrungsergänzungsmittel betroffen'
     ],
-    dosage: 'Typisch 28–30 mg standardisierter Safran-Extrakt täglich.',
-    intake: 'Mit einer Mahlzeit, oft geteilt morgens/abends.',
-    synergies: ['5-htp', 'omega-3', 'magnesium'],
+    dosage: 'In den Studien häufig 28–30 mg standardisierter Extrakt täglich über 8 bis 12 Wochen, teils als 14 mg zweimal täglich.',
+    intake: 'In Studien oft auf zwei Gaben à 14 mg verteilt.',
+    synergies: ['omega-3', 'magnesium'],
     avoid: [],
     evidence: 'mittel',
     sources: 'Narben des Safran-Krokus (standardisierter Extrakt)'
@@ -2461,22 +2491,25 @@ const SUPPLEMENTS = [
     altNames: 'Beetroot, Nitrat, NO-Booster',
     category: 'Kräuter',
     tags: ['sport', 'ausdauer', 'herz', 'kreislauf', 'blutdruck'],
-    short: 'Natürlicher Stickstoffmonoxid-Booster: das Nitrat aus Roter Bete erweitert die Gefäße – für mehr Ausdauer, bessere Durchblutung und niedrigeren Blutdruck.',
-    description: 'Rote Bete ist reich an Nitrat, das der Körper zu Stickstoffmonoxid (NO) umwandelt. NO erweitert die Blutgefäße, verbessert die Durchblutung und die Sauerstoffnutzung der Muskeln. Gut belegt für mehr Ausdauerleistung und eine milde Blutdrucksenkung.',
+    short: 'Nitrat aus Roter Bete wird über Mundbakterien zu Nitrit und Stickstoffmonoxid. Kleiner, gut belegter Leistungsgewinn bei Freizeitsportlern und eine leichte Senkung des systolischen Blutdrucks.',
+    description: 'Rote Bete ist reich an Nitrat, das Bakterien im Mund zu Nitrit umbauen; daraus entsteht im Körper Stickstoffmonoxid, das Gefäße weitet und die Muskelarbeit effizienter macht. Eine Meta-Analyse über 80 Studien zeigt einen kleinen, klaren Leistungsgewinn bei Freizeitsportlern, der IOC zählt Nitrat zu den wenigen gut belegten Supplements. Bei gut trainierten Ausdauerathleten ist kein Effekt nachweisbar. Bei Bluthochdruck sinkt der systolische Praxiswert um 5,31 mmHg, bei niedriger Evidenzsicherheit.',
     benefits: [
-      'Steigert die Ausdauerleistung (bessere Sauerstoffnutzung)',
-      'Erweitert Gefäße und verbessert die Durchblutung (NO)',
-      'Senkt mild den Blutdruck',
-      'Natürlich, als Saft/Pulver leicht verfügbar'
+      'Verbessert die Ausdauerleistung bei Freizeitsportlern (Meta-Analyse, 80 Studien); Zeit bis zur Erschöpfung laut IOC +4 bis 25 %',
+      'Zeitfahren unter 40 Minuten laut IOC +1 bis 3 %, intermittierender Mannschaftssport +3 bis 5 %',
+      'Senkt den systolischen Praxisblutdruck bei Hypertonie um 5,31 mmHg (11 RCTs, niedrige Evidenzsicherheit)',
+      'Verbesserte in einer 4-Wochen-Studie die Gefäßfunktion um etwa 20 %',
+      'Nitrat-Nitrit-NO-Weg am Menschen direkt nachgewiesen'
     ],
     risks: [
-      'Färbt Urin/Stuhl rötlich (harmlos)',
-      'Bei Neigung zu Nierensteinen (Oxalat) beachten',
-      'Antibakterielle Mundspülung kann die NO-Bildung blockieren',
-      'Wirkung individuell; Timing (2–3 h vor Sport) wichtig'
+      'Rötlicher Urin (Beeturie) bei 10 bis 14 % der Bevölkerung – harmlos',
+      'Rote Bete ist sehr oxalatreich – bei Nierensteinen mit erhöhtem Urin-Oxalat ärztlich abklären',
+      'Antiseptische Mundspülung blockiert die Umwandlung zu Nitrit',
+      'Mögliche Magen-Darm-Beschwerden – vor Wettkämpfen im Training testen',
+      'Wirkt zusätzlich zu Blutdruckmedikamenten – bei Therapie ärztlich besprechen',
+      'Bei gut trainierten Ausdauerathleten kaum Effekt'
     ],
-    dosage: 'Ziel ~300–600 mg Nitrat (z. B. 70 ml Beetroot-Shot) täglich bzw. vor dem Sport.',
-    intake: 'Ca. 2–3 Stunden vor der Belastung; als Saft, Shot oder Pulver.',
+    dosage: 'Der IOC-Konsens nennt für akute Leistungseffekte 5 bis 9 mmol Nitrat (310 bis 560 mg). In einer Dosisstudie wirkte ein 70-mL-Shot mit 4,2 mmol nicht, 140 mL mit 8,4 mmol schon; 16,8 mmol brachten keinen Zusatznutzen. Blutdruckstudien verwendeten 200 bis 800 mg Nitrat täglich. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Akute Effekte in Studien meist 2 bis 3 Stunden nach der Einnahme; Nitritspitze im Blut nach 2 bis 3 Stunden. Einnahme über mehr als 3 Tage laut IOC ebenfalls vorteilhaft. Keine antiseptische Mundspülung.',
     synergies: ['l-citrullin', 'l-arginin'],
     avoid: [],
     evidence: 'hoch',

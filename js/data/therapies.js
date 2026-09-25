@@ -74,22 +74,26 @@ const THERAPIES = [
     name: 'IHHT – Hypoxietraining',
     category: 'Ausstattung',
     emoji: '🫁',
-    short: 'Intervall-Hypoxie/Hyperoxie-Training – wechselnde Sauerstoff-Mangel- und Überschuss-Phasen aktivieren mitochondriale Regeneration.',
+    short: 'Intervall-Hypoxie-Hyperoxie-Training: im Liegen abwechselnd sauerstoffarme und sauerstoffangereicherte Luft atmen, überwacht über die Sättigung. Mehrere kleine kontrollierte Studien bei Kranken und Älteren, uneinheitliche Ergebnisse – für Gesunde nicht belegt.',
     benefits: [
-      'Trainiert defekte Mitochondrien aus dem System',
-      'Verbessert Zellatmung und Energieproduktion',
-      'Unterstützt Regeneration nach Belastung & Long-Covid',
-      'Stärkt die Stressresistenz'
+      'Nutzt den Sauerstoffsensor HIF, dessen Entdeckung 2019 mit dem Medizin-Nobelpreis ausgezeichnet wurde',
+      'Bessere Gehstrecke bei Long-Covid-Patienten in stationärer Reha: 91,7 gegenüber 32,6 Meter (145 Patienten, nicht randomisiert, unverblindet)',
+      'Bessere kognitive Testwerte und Gehstrecke bei geriatrischen Patienten gegenüber Scheinbehandlung (34 Patienten, randomisiert, doppelblind)',
+      'Weniger Komplikationen nach Bypass-Operation nach hypoxisch-hyperoxischer Vorbehandlung: 23,3 gegenüber 41,1 Prozent (120 Patienten, randomisiert)',
+      'Deutlich niedrigerer Blutdruck bei metabolischem Syndrom über 3 Wochen (65 Patienten, randomisiert, Scheinbehandlung)',
+      'In den Studien gut verträglich, auch bei Patienten bis 92 Jahren, mit laufender Überwachung der Sauerstoffsättigung',
+      'Die Mitochondrien-Erzählung ist eine Hypothese aus Zell- und Tiermodellen, am Menschen nicht direkt nachgewiesen'
     ],
-    indication: ['Erschöpfung', 'Long Covid', 'Sport-Regeneration', 'Anti-Aging'],
+    indication: [
+      'Erschöpfung nach Long Covid (in Reha-Kontext untersucht)',
+      'Belastbarkeit und Kognition in hohem Alter',
+      'Metabolisches Syndrom (Blutdruck, Blutfette)',
+      'Vorbehandlung vor Herzoperationen (klinischer Kontext)'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/hypoxietraining/',
+    note: 'Kein Arzneimittel und keine Kassenleistung; Selbstzahlerleistung mit Medizinprodukten, die Einweisung und laufende Überwachung der Sauerstoffsättigung voraussetzen. Die Studien sind klein (21 bis 145 Teilnehmer), kurz (3 bis 7 Wochen) und überwiegend an Kranken oder Hochaltrigen; eine systematische Übersicht über 38 Arbeiten hält fest, dass keine Studie eine längere Lebenserwartung beim Menschen belegt. Nicht geeignet bei frischem Herzinfarkt, instabiler Herzerkrankung, unkontrolliertem Bluthochdruck, schweren Lungenerkrankungen, Sichelzellanämie, akuten Infekten und in der Schwangerschaft; bei Vorerkrankungen nur ärztlich begleitet.',
     podcasts: [
-      {
-        title: 'IHHT: Das Höhentraining im Faktencheck',
-        spotify: '0bFNeYXib0O5MmSgVVTiTW',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 71) · mit Paul & Paula. Was im Gerät wirklich passiert: Hypoxie-Phasen bei neun bis fünfzehn Prozent Sauerstoff im Wechsel mit sauerstoffangereicherter Erholungsluft, gesteuert über ein Fingerclip-Oximeter. Was am Zell-Kraftwerk-Training belegt ist – und was Studio-Poesie. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 09.09.2026, 10:00)'
-      }
+      { title: 'IHHT: Das Höhentraining im Faktencheck', spotify: '0bFNeYXib0O5MmSgVVTiTW', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 71) · mit Paul & Paula. Was im Gerät wirklich passiert: Hypoxie-Phasen bei neun bis fünfzehn Prozent Sauerstoff im Wechsel mit sauerstoffangereicherter Erholungsluft, gesteuert über ein Fingerclip-Oximeter. Was am Zell-Kraftwerk-Training belegt ist – und was Studio-Poesie. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 09.09.2026, 10:00)' }
     ]
   },
   {
@@ -165,22 +169,23 @@ const THERAPIES = [
     name: 'Ganzkörperhyperthermie',
     category: 'Ausstattung',
     emoji: '🌡️',
-    short: 'Kontrollierte Anhebung der Körperkerntemperatur in den Fieberbereich. In der Onkologie als Begleitverfahren untersucht – die Anwendung bei chronischen Beschwerden und „Entgiftung" ist es nicht.',
+    short: 'Kontrollierte Anhebung der Körperkerntemperatur in den Fieberbereich, meist mit wassergefiltertem Infrarot A. In kleinen scheinkontrollierten Studien wirksam bei Fibromyalgie-Schmerz und Depression; für „Entgiftung" und chronische Infekte gibt es keine Daten.',
     benefits: [
-      'Imitiert „natürliches Fieber"',
-      'Aktivierung von Hitzeschockproteinen',
-      'Wird für Entgiftung und Immunfunktion beworben – dafür fehlen kontrollierte Daten',
-      'Begleitend bei chronischen Beschwerden eingesetzt, ohne Wirknachweis'
+      'Imitiert kontrolliert „natürliches Fieber" (Kerntemperatur meist 38 bis 39 Grad)',
+      'Aktivierung von Hitzeschockproteinen, Gefäßerweiterung, passives Kreislauftraining',
+      'Bei Fibromyalgie in einer scheinkontrollierten Studie weniger Schmerz, auch noch in Woche 30',
+      'Bei Depression senkte eine einzige Sitzung die Symptome in einer doppelblinden Studie über 6 Wochen – eine zweite Studie fand keinen Vorteil gegenüber Schein',
+      'Wird für Entgiftung und Immunfunktion beworben – dafür fehlen kontrollierte Daten'
     ],
-    indication: ['Chronische Infekte', 'Detox', 'Immunsystem', 'Onkologie-Begleitung'],
+    indication: [
+      'Fibromyalgie / chronischer Schmerz',
+      'Depression (in Studien)',
+      'Onkologie-Begleitung (Klinik)',
+      'Regeneration und Wohlbefinden'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/ganzkoerperhyperthermie/',
     podcasts: [
-      {
-        title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck',
-        spotify: '1z2wsgjkeNkKwJYdo4mCdW',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Die Wärme-Leiter von der Sauna über die Infrarotkabine bis zur medizinischen Ganzkörperhyperthermie, bei der die Kerntemperatur kontrolliert auf achtunddreißig bis neununddreißig Grad angehoben wird – künstliches Fieber unter Aufsicht, meist mit wassergefiltertem Infrarot A. Überraschung der Folge: Die Wärme hat einige der saubersten Studien des Feldes. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)'
-      }
+      { title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck', spotify: '1z2wsgjkeNkKwJYdo4mCdW', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Die Wärme-Leiter von der Sauna über die Infrarotkabine bis zur medizinischen Ganzkörperhyperthermie, bei der die Kerntemperatur kontrolliert auf achtunddreißig bis neununddreißig Grad angehoben wird – künstliches Fieber unter Aufsicht, meist mit wassergefiltertem Infrarot A. Überraschung der Folge: Die Wärme hat einige der saubersten Studien des Feldes. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)' }
     ]
   },
   {
@@ -404,23 +409,24 @@ const THERAPIES = [
     name: 'INUSpherese® (Blut-Apherese)',
     category: 'Extern',
     emoji: '🩸',
-    short: 'Therapeutische Blutwäsche, die Umweltgifte (Schwermetalle, Pestizide, Mikroplastik, PFAS) und Entzündungsmediatoren aus dem Blut filtert.',
+    short: 'Blutwäsche per Doppelfiltrations-Apherese, die Umweltgifte, Mikroplastik und Entzündungsstoffe aus dem Blut filtern soll. Die Technik ist etablierte Medizin, ein Nutzen für die beworbenen Anwendungen ist nicht in kontrollierten Studien belegt.',
     benefits: [
-      'Entfernt gezielt körperfremde Umweltbelastungen',
-      'Reduziert chronische Entzündungs-Last (z.B. CRP, TNF-α)',
-      'Kann bei umweltbedingten Beschwerden Symptome lindern',
-      'Verfahren wird ausschließlich von spezialisierten Zentren angeboten'
+      'Beruht auf der etablierten Doppelfiltrations-Apherese, die in der Klinik für klar definierte Erkrankungen eingesetzt wird',
+      'Im Filterrückstand fanden Dresdner Forscher 14 Substanzen mit kunststoffähnlicher Signatur – qualitativ, ohne Mengenangabe',
+      'In unkontrollierten Auswertungen bei Long Covid sanken Autoantikörper, Blutfette und Entzündungsmarker bei Patienten, die sich besser fühlten',
+      'Verfahren wird ausschließlich von spezialisierten ärztlichen Zentren angeboten'
     ],
-    indication: ['Schwermetallbelastung', 'Chronische Entzündungen', 'CFS/ME', 'Umweltkrankheiten', 'Long Covid'],
-    note: 'INUSpherese® wird nicht im Munich Health Center angeboten – Verfahren der INUS Medical Center GmbH (Alzenau).',
+    indication: [
+      'Schwermetallbelastung',
+      'Chronische Entzündungen',
+      'CFS/ME',
+      'Umweltkrankheiten',
+      'Long Covid'
+    ],
     link: 'https://www.inus.de/',
+    note: 'INUSpherese® wird nicht im Munich Health Center angeboten – Verfahren der INUS Medical Center GmbH (Alzenau). Keine randomisierten Studien; die Deutsche Gesellschaft für Nephrologie lehnt Apherese bei Long-/Post-COVID außerhalb von Studien ab. Für Leistungssportler: Apherese fällt unter die WADA-Verbotsliste (M1).',
     podcasts: [
-      {
-        title: 'INUSpherese: Die Blutwäsche im Faktencheck',
-        spotify: '3hY3H6CWvFVYTiY7AlsaeS',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 68) · mit Paul & Paula. Der seriöse Kern zuerst: Therapeutische Apherese ist seit Jahrzehnten Klinikroutine – Lipid-Apherese bei familiärer Hypercholesterinämie ist kassenfinanziert und leitliniengerecht. Die Folge zieht die Grenze zwischen dieser etablierten Medizin und dem, was die INUSpherese darüber hinaus verspricht. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 06.09.2026, 10:00)'
-      }
+      { title: 'INUSpherese: Die Blutwäsche im Faktencheck', spotify: '3hY3H6CWvFVYTiY7AlsaeS', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 68) · mit Paul & Paula. Der seriöse Kern zuerst: Therapeutische Apherese ist seit Jahrzehnten Klinikroutine – Lipid-Apherese bei familiärer Hypercholesterinämie ist kassenfinanziert und leitliniengerecht. Die Folge zieht die Grenze zwischen dieser etablierten Medizin und dem, was die INUSpherese darüber hinaus verspricht. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 06.09.2026, 10:00)' }
     ]
   },
   // ============ BIOHACKING-METHODEN ============
@@ -568,13 +574,13 @@ const THERAPIES = [
     short: 'Plättchenreiches Plasma aus dem eigenen Blut, aufkonzentriert und zurückgespritzt – setzt Wachstumsfaktoren frei für Gelenke, Haut und Haar.',
     benefits: [
       'Nutzt körpereigene Wachstumsfaktoren aus den Blutplättchen',
-      'Bei Sehnenbeschwerden (z. B. Tennisellenbogen) offen – dort fehlt die große verblindete Studie noch',
-      'Beliebt für Haarwachstum und Haut („Vampir-Lifting")',
-      'Körpereigenes Material – geringes Allergierisiko'
+      'Haarausfall: Meta-Analyse von 43 randomisierten Studien zeigt mehr Haardichte und weniger Haarverlust (mäßige Evidenz)',
+      'Bei Sehnenbeschwerden (z. B. Tennisellenbogen) offen – langfristig besser als Kortison, aber nicht besser als Kochsalzlösung',
+      'Gut verträglich: meist nur leichte, vorübergehende Schmerzen und Schwellung, keine schweren Nebenwirkungen in 32 randomisierten Studien'
     ],
     indication: ['Gelenke/Sehnen', 'Haarwachstum', 'Haut/Ästhetik', 'Regeneration'],
-    note: 'Bei Kniearthrose gilt der Nutzen als widerlegt: Die größte verblindete Studie (RESTORE, JAMA 2021, n=288) fand nach zwölf Monaten weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalzlösung – und auch in 29 von 31 vorab festgelegten Nebenfragen nicht. Für Sehne und Kopfhaut ist die Frage offen, nicht beantwortet. Ärztlich durchführen lassen.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/33790417/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/34812863/',
+    note: 'Bei Kniearthrose gilt der Nutzen als widerlegt: Die größte verblindete Studie (RESTORE, JAMA 2021, n=288) fand nach zwölf Monaten weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalzlösung – und auch in 29 von 31 vorab festgelegten Nebenfragen nicht. Für Sehne und Kopfhaut ist die Frage offen, nicht beantwortet. Ärztlich durchführen lassen.'
   },
   {
     id: 'ozontherapie',
@@ -701,16 +707,17 @@ const THERAPIES = [
     name: 'Vagusnerv-Stimulation (aktiv)',
     category: 'Biohacking',
     emoji: '🧠',
-    short: 'Gezielte Reizung des Vagusnervs (z. B. per Ohr-Elektrode): soll das parasympathische Nervensystem stärken – für Entspannung, HRV und Entzündungsregulation.',
+    short: 'Gezielte Reizung des Vagusnervs – als Implantat seit 1997 zugelassene Medizin, als Ohrclip ein Wellnessprodukt. 80 bis 90 Prozent der Nervenfasern laufen zum Gehirn; die Stimulation wirkt vor allem als Signal an Hirnregionen für Aufmerksamkeit, Stimmung und Entzündung.',
     benefits: [
-      'Aktiviert den Parasympathikus (Ruhe-/Erholungsmodus)',
-      'Kann die Herzratenvariabilität (HRV) und Stressresistenz verbessern',
-      'Entzündungshemmende Effekte über den „cholinergen Reflex" untersucht',
-      'Nicht-invasive Ohr-Geräte (taVNS) verfügbar'
+      'Implantierte Stimulation in den USA zugelassen gegen schwer behandelbare Epilepsie (1997), therapieresistente Depression (2005) und für die Schlaganfall-Reha (2021)',
+      'RECOVER (493 Menschen mit schwerer Depression, ein Jahr, scheinkontrolliert): Hauptendpunkt verfehlt, aber mehrere Nebenendpunkte zu Symptomen und Lebensqualität zugunsten der Stimulation',
+      'Ohrstimulation steigerte bei 28 Gesunden nach sieben Tagen die maximale Sauerstoffaufnahme um 3,8 Prozent (European Heart Journal 2025)',
+      'Ohrstimulation ist gut verträglich: in 177 Studien kein höheres Nebenwirkungsrisiko als unter Kontrolle',
+      'Die beworbene HRV-Steigerung durch Ohrgeräte ist nicht belegt – eine Meta-Analyse über 16 verblindete Studien spricht klar dagegen'
     ],
     indication: ['Stress & HRV', 'Entspannung', 'Stimmung', 'Entzündung'],
-    note: 'Medizinische VNS-Implantate sind zugelassen (z. B. Epilepsie/Depression); Heim-Ohr-Geräte (taVNS) sind weniger reguliert, Evidenz gemischt. Ergänzt die vorhandene HRV-Analyse.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5859128/'
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5859128/',
+    note: 'Medizinische VNS-Implantate sind zugelassen (Epilepsie, Depression, Schlaganfall-Reha); nicht-invasive Halsgeräte sind in den USA gegen Cluster-Kopfschmerz und Migräne freigegeben. Heim-Ohrgeräte (taVNS) sind meist Wellnessprodukte ohne Zulassung für eine Krankheit; die Evidenz ist gemischt, und die HRV eignet sich nicht als Wirkungsnachweis.'
   },
   {
     id: 'iv-vitamintherapie',
@@ -749,15 +756,18 @@ const THERAPIES = [
     name: 'Chelat-Therapie',
     category: 'Biohacking',
     emoji: '🧲',
-    short: 'Infusion von Bindemitteln (z. B. EDTA), die Schwermetalle im Blut binden und ausleiten – medizinisch bei nachgewiesener Vergiftung, sonst umstritten.',
+    short: 'Infusion von Bindemitteln (meist EDTA), die Schwermetalle im Blut binden und über die Niere ausleiten. Bei nachgewiesener Vergiftung etablierte Medizin; als Behandlung verkalkter Gefäße zweimal groß geprüft – die Bestätigungsstudie fiel negativ aus.',
     benefits: [
-      'Etabliert und wirksam bei nachgewiesener Schwermetallvergiftung (z. B. Blei)',
-      'Bindet Metalle, die dann über die Niere ausgeschieden werden',
-      'Wird in der Umweltmedizin zur Entgiftung eingesetzt'
+      'Etabliert und wirksam bei nachgewiesener Schwermetallvergiftung: zugelassene Chelatbildner sind verschreibungspflichtig und für Indikationen wie Bleivergiftung und Eisenüberladung zugelassen (FDA)',
+      'Die Chelierung selbst funktioniert messbar: Bleispiegel im Blut im Median von 9,03 auf 3,46 Mikrogramm je Liter, unter Placebo nur von 9,3 auf 8,7 (TACT2, JAMA 2024)',
+      'Die Fragestellung ist gut untersucht: zwei große randomisierte Studien mit harten Endpunkten, 1.708 und 959 behandelte Patienten'
     ],
-    indication: ['Schwermetallbelastung (medizinisch)', 'Umweltmedizin'],
-    note: 'Als allgemeine „Entgiftung"/Anti-Aging umstritten und NICHT belegt; ernste Risiken (Nieren, Elektrolytentgleisung, in Einzelfällen tödlich). Nur bei klarer Indikation und streng ärztlich.',
-    link: 'https://www.nccih.nih.gov/health/chelation-therapy'
+    indication: [
+      'Nachgewiesene Schwermetallvergiftung (etwa Blei), ärztlich gesichert',
+      'Eisenüberladung (mit den dafür zugelassenen Präparaten)'
+    ],
+    link: 'https://www.nccih.nih.gov/health/chelation-for-coronary-heart-disease-what-you-need-to-know',
+    note: 'Als allgemeine Entgiftung oder Anti-Aging NICHT belegt: In TACT2 traten Tod, Infarkt, Schlaganfall, Gefäßeingriff oder Klinikaufnahme bei 35,6 gegenüber 35,7 Prozent auf, die Sterblichkeit lag bei 17,4 gegenüber 17,6 Prozent, obwohl die Studie eine Senkung um 30 Prozent sicher gefunden hätte. Auch der zweite Studienarm mit hochdosierten Vitaminen und Mineralstoffen (28 Bestandteile) blieb ohne Wirkung. Die auffällige Diabetes-Untergruppe der Vorgängerstudie TACT bestätigte sich nicht. Für beschwerdefreie Menschen mit behaupteter Belastung ist das Verfahren nicht widerlegt, sondern ungeprüft: Es existiert keine Studie mit harten Endpunkten. Ernste Risiken: Hypokalzämie und Nierenschäden; in TACT schwerwiegende unerwünschte Ereignisse bei 11,9 Prozent der Behandelten, 15 Prozent Abbrüche wegen Nebenwirkungen. Die CDC dokumentierte 3 Todesfälle (2003 bis 2005) durch Kalziummangel mit Herzstillstand, in einem Fall nach Verwechslung der beiden EDTA-Salze. Nur bei klarer Indikation und streng ärztlich; von Chelat-Produkten für den Heimgebrauch rät die FDA ab.'
   },
   {
     id: 'fasten-autophagie',
@@ -838,21 +848,23 @@ const THERAPIES = [
     emoji: '🩸',
     short: 'Zyklusphasen über Temperatur, Ruhepuls, HRV und Stimmung mitschreiben – und Training, Ernährung und Schlaf am eigenen Muster ausrichten statt an App-Schablonen.',
     benefits: [
-      'Progesteron hebt die Kerntemperatur um 0,3–0,5 °C – die Lutealphase wird in Wearable-Daten sichtbar',
-      'Sinkende HRV und höherer Ruhepuls in der Lutealphase sind Physiologie, kein Stress-Einbruch',
-      'Grundumsatz und Appetit steigen luteal um etwa 100–300 kcal – Protein und Kohlenhydrate lassen sich planen',
-      'Wiederkehrende PMS-Tage werden vorhersehbar; regelmäßiger Sport ist dagegen gut belegt'
+      'Progesteron hebt die Kerntemperatur in der Lutealphase um rund 0,3 °C – die zweite Zyklushälfte wird in Wearable-Daten sichtbar',
+      'Sinkende HRV (3 bis 9 Prozent) und höherer Ruhepuls gegen Zyklusende sind Physiologie, kein Stress-Einbruch',
+      'Der Ruheumsatz steigt luteal nur leicht, um etwa 30 bis 120 kcal am Tag – Appetit vor der Periode ist real, aber kein Freibrief für große Extra-Portionen',
+      'Wearables erkennen das fruchtbare Fenster mit einer gepoolten Genauigkeit von 0,88',
+      'Wiederkehrende PMS-Tage werden vorhersehbar; regelmäßiger Sport gegen PMS-Beschwerden ist in einer Meta-Analyse über 20 Studien belegt'
     ],
-    indication: ['Zyklusverständnis', 'Trainingsplanung', 'Schlaf', 'PMS-Beschwerden', 'Eisen & Ferritin'],
-    note: 'Zyklusbasierte Trainingspläne nach App-Schablone sind nicht belegt: Die Meta-Analyse von McNulty (2020) fand nur triviale Phasenunterschiede bei niedriger Studienqualität, und unter hormoneller Verhütung fehlt der natürliche Zyklus ganz.',
+    indication: [
+      'Zyklusverständnis',
+      'Trainingsplanung',
+      'Schlaf',
+      'PMS-Beschwerden',
+      'Eisen & Ferritin'
+    ],
     link: 'https://pubmed.ncbi.nlm.nih.gov/32661839/',
+    note: 'Zyklusbasierte Trainingspläne nach App-Schablone sind nicht belegt: Die Meta-Analyse von McNulty (2020, 78 Studien) fand nur triviale Phasenunterschiede bei niedriger Studienqualität, die Muskelproteinsynthese reagiert in beiden Phasen gleich auf Krafttraining, und unter hormoneller Verhütung fehlt der natürliche Zyklus ganz.',
     podcasts: [
-      {
-        title: 'Zyklus & Biohacking: Der weibliche Rhythmus im Faktencheck',
-        spotify: '1qB1UgMcCxMIEvyikU2zxO',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 74) · mit Paul & Paula. Was sich über den Zyklus physiologisch messbar verändert – Temperatur, Ruhepuls, HRV, Grundumsatz – und warum die verbreiteten zyklusbasierten Trainingspläne trotzdem auf dünner Datenlage stehen. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 12.09.2026, 10:00)'
-      }
+      { title: 'Zyklus & Biohacking: Der weibliche Rhythmus im Faktencheck', spotify: '1qB1UgMcCxMIEvyikU2zxO', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 74) · mit Paul & Paula. Was sich über den Zyklus physiologisch messbar verändert – Temperatur, Ruhepuls, HRV, Grundumsatz – und warum die verbreiteten zyklusbasierten Trainingspläne trotzdem auf dünner Datenlage stehen. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 12.09.2026, 10:00)' }
     ]
   },
   {
@@ -862,21 +874,23 @@ const THERAPIES = [
     emoji: '🍷',
     short: 'Kein Wirkstoff, sondern ein Weglass-Hebel: Weniger Alkohol verbessert messbar Schlaf, HRV und Regeneration – und senkt das Krebsrisiko.',
     benefits: [
-      'Schlaf: schon ein bis zwei Gläser senken die nächtliche HRV, heben den Ruhepuls und kürzen den REM-Schlaf',
-      'Training: Alkohol nach dem Sport hemmt die Muskelproteinsynthese deutlich, auch mit Protein',
-      'Zwei bis vier Wochen ohne: Blutdruck, Schlafarchitektur und HRV bessern sich, eine beginnende Fettleber bildet sich zurück',
-      'Weniger Acetaldehyd – Alkohol ist von der IARC als Karzinogen der Gruppe 1 eingestuft'
+      'Schlaf: schon geringe Mengen senken die nächtliche HRV-basierte Erholung und heben den Puls im Schlaf (4.098 Personen); bei moderaten und hohen Mengen sinkt der REM-Anteil',
+      'Training: eine große Menge Alkohol (im Mittel 12 Standardgetränke) nach dem Sport senkte die Muskelproteinsynthese um 24 %, trotz Protein',
+      'Ein Monat ohne: Insulinresistenz, Blutdruck und Gewicht sanken messbar (Beobachtungsstudie, 94 Teilnehmer)',
+      'Bei Vorhofflimmern senkte Abstinenz in einer randomisierten Studie die Rückfälle nach 6 Monaten von 73 auf 53 %',
+      'Weniger Acetaldehyd – Alkohol ist von der IARC als Karzinogen der Gruppe 1 eingestuft, mit mindestens 7 Krebsarten verknüpft'
     ],
-    indication: ['Schlafqualität', 'HRV & Ruhepuls', 'Regeneration', 'Krebsrisiko', 'Leber & Blutdruck'],
-    note: 'Es gibt keine gesundheitlich unbedenkliche Menge, aber die Risikokurve beginnt flach – jede Reduktion zählt, und wer beim Aufhören Schwierigkeiten merkt, gehört zu Hausarzt oder Suchtberatung statt zur Selbstoptimierung.',
+    indication: [
+      'Schlafqualität',
+      'HRV & Ruhepuls',
+      'Regeneration',
+      'Krebsrisiko',
+      'Leber & Blutdruck'
+    ],
     link: 'https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health',
+    note: 'Es gibt keine gesundheitlich unbedenkliche Menge, aber die Risikokurve beginnt flach – jede Reduktion zählt, und wer beim Aufhören Schwierigkeiten merkt, gehört zu Hausarzt oder Suchtberatung statt zur Selbstoptimierung.',
     podcasts: [
-      {
-        title: 'Alkohol: Das Genussgift im Faktencheck',
-        spotify: '3pvys3Kan18GwfiT7ArIok',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 77) · mit Paul & Paula. Was ein bis zwei Gläser messbar mit Schlaf, HRV und Ruhepuls machen, was nach zwei bis vier Wochen ohne zurückkommt – und warum die WHO sagt, dass es keine unbedenkliche Menge gibt. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 15.09.2026, 10:00)'
-      }
+      { title: 'Alkohol: Das Genussgift im Faktencheck', spotify: '3pvys3Kan18GwfiT7ArIok', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 77) · mit Paul & Paula. Was ein bis zwei Gläser messbar mit Schlaf, HRV und Ruhepuls machen, was nach zwei bis vier Wochen ohne zurückkommt – und warum die WHO sagt, dass es keine unbedenkliche Menge gibt. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 15.09.2026, 10:00)' }
     ]
   },
   {

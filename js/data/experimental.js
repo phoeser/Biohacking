@@ -175,25 +175,30 @@ const EXPERIMENTAL = [
     altNames: 'LY3437943',
     class: 'GLP-1 / GIP / Glucagon Triagonist',
     emoji: '💉',
-    short: 'Der bisher stärkste Abnehm-Wirkstoff aus den Studien: ein Dreifach-Ansatz von Eli Lilly, der den Appetit zügelt und den Energieverbrauch anhebt – in Phase 2 bis zu 24% Gewichtsverlust.',
+    short: 'Der bisher stärkste Abnehm-Wirkstoff aus den Studien: ein Dreifach-Agonist von Eli Lilly an GLP-1-, GIP- und Glukagon-Rezeptoren. Begutachtet sind 24,2 Prozent Gewichtsverlust nach 48 Wochen in Phase 2; die Phase-3-Zahlen bis 28,3 Prozent stammen bisher nur aus Herstellerangaben.',
     moa: 'Aktiviert GLP-1-, GIP- und Glucagon-Rezeptoren. GLP-1+GIP senken Appetit & Blutzucker, Glucagon erhöht den Energieverbrauch (lipolytisch).',
     benefits: [
-      'Nach 80 Wochen je nach Dosisstufe 19 %, 25,9 % oder 28,3 % Gewichtsverlust gegenüber 2,2 % unter Placebo (TRIUMPH, Kongressvortrag 2026)',
-      'Die überall zitierten 30,3 % gelten nur für den Arm, der von Anfang an die höchste Dosis bekam – ohne Placebo-Vergleich in dieser Verlängerung',
-      'Senkt HbA1c und Triglyzeride deutlich',
-      'Reduziert Leberfett massiv (NAFLD-Studien laufen)',
-      'Stärkerer Effekt als Tirzepatid (Mounjaro/Zepbound)'
+      'Phase 2 (NEJM 2023, 338 Teilnehmende): 24,2 Prozent Gewichtsverlust nach 48 Wochen in der höchsten Dosisstufe gegenüber 2,1 Prozent unter Placebo',
+      'TRIUMPH-1 (2.339 Teilnehmende, 80 Wochen) laut Hersteller: 19,0, 25,9 oder 28,3 Prozent je nach Dosisstufe gegenüber 2,2 Prozent; nach der strengeren Auswertung aller Randomisierten bis 25,0 Prozent',
+      'Die überall zitierten 30,3 Prozent gelten nur für eine ausgewählte Gruppe von 532 Teilnehmenden in der Verlängerung auf 104 Wochen, ohne Placebo-Vergleich',
+      'Leberfett sank in der Phase-2-Substudie um bis zu 82,4 Prozent nach 24 Wochen; 86 Prozent erreichten einen normalen Leberfettgehalt (Nat Med 2024)',
+      'Senkt bei Typ-2-Diabetes den HbA1c um bis zu 1,94 Prozentpunkte nach 40 Wochen (TRANSCEND-T2D-1, Lancet 2026)',
+      'Die Werte liegen über denen von Tirzepatid – ein direkter Vergleich in einer gemeinsamen Studie fehlt aber'
     ],
     risks: [
-      'Noch in der Zulassungsphase (Phase 3) – aktuell nur als ungeprüfte Research-Ware verfügbar.',
-      'Zu Beginn oft etwas Übelkeit oder Verdauungsthemen, die sich beim langsamen Eindosieren meist geben.',
-      'Langzeitdaten stehen noch aus.',
-      'Zu TRIUMPH gibt es bis heute keine begutachtete Vollpublikation – alle Zahlen stammen aus Kongressvorträgen und Vorabdrucken.'
+      'Nirgends zugelassen; was im Graumarkt als Research-Peptid verkauft wird, ist nicht der geprüfte Studienwirkstoff.',
+      'Übelkeit häufig und dosisabhängig: in TRIUMPH-1 bis 42,4 Prozent gegenüber 14,8 Prozent unter Placebo; Studienabbruch wegen Nebenwirkungen bis 11,3 Prozent, in TRIUMPH-4 bis 18,2 Prozent.',
+      'Neue Nebenwirkung Dysästhesie (Kribbeln, Missempfindungen der Haut): bis 12,5 Prozent in TRIUMPH-1, bis 20,9 Prozent in TRIUMPH-4.',
+      'Die Herzfrequenz steigt; Langzeitdaten und Daten nach dem Absetzen fehlen.',
+      'Zu TRIUMPH gibt es bis heute keine begutachtete Vollpublikation – alle Phase-3-Zahlen zum Gewicht stammen aus Herstellermitteilungen und Kongressvorträgen.'
     ],
-    status: 'In Phase 3 bei Eli Lilly, Zulassung um 2026/27 erwartet. Noch nicht regulär verfügbar.',
+    status: 'In Phase 3 bei Eli Lilly; der Zulassungsantrag bei der FDA ist für das erste Quartal 2027 geplant. In Deutschland nicht als Arzneimittel verfügbar.',
     sources: [
-      { title: 'Jastreboff AM et al., NEJM 2023 – Retatrutide Phase 2', url: 'https://www.nejm.org/doi/10.1056/NEJMoa2301972' },
-      { title: 'TRIUMPH-Studienreihe (Phase 3, laufend)', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT05882045' }
+      { title: 'Jastreboff AM et al., NEJM 2023 – Retatrutide Phase 2', url: 'https://pubmed.ncbi.nlm.nih.gov/37366315/' },
+      { title: 'Sanyal AJ et al., Nat Med 2024 – Leber-Substudie', url: 'https://pubmed.ncbi.nlm.nih.gov/38858523/' },
+      { title: 'Bajaj HS et al., Lancet 2026 – TRANSCEND-T2D-1 (Phase 3, Typ-2-Diabetes)', url: 'https://pubmed.ncbi.nlm.nih.gov/42250575/' },
+      { title: 'Giblin K et al., Diabetes Obes Metab 2026 – Design der TRIUMPH-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/41090431/' },
+      { title: 'Eli Lilly, Herstellermitteilung zu TRIUMPH-1 (21.05.2026)', url: 'https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss' }
     ],
     community: [
       { title: 'biolabshop – Retatrutide (Triple G)', url: 'https://biolabshop.co.uk/209-retatrutide' },
@@ -201,21 +206,15 @@ const EXPERIMENTAL = [
       { title: 'Retatrutide vs. SLU-PP-332 (Fat Loss Vergleich)', url: 'https://www.youtube.com/watch?v=5fFJIHzrSzQ' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: Retatrutide – der stärkste Abnehm-Triagonist',
-        audio: 'audio/retatrutide-podcast.mp3',
-        spotify: '7kJBUC1x9ZEfzlHN0WCO3f',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 6) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Retatrutide, den „Triple G"-Triagonisten (GLP-1 + GIP + Glukagon): warum der Glukagon-Arm nicht nur Appetit zügelt, sondern auch die Verbrennung und den Leberfett-Abbau ankurbelt, was die Phase-2-Studie im NEJM 2023 (Jastreboff et al.) mit ~24 % Gewichtsverlust zeigte und warum metabolische Gesundheit ein starker Longevity-Hebel ist. Ehrlicher Rahmen: noch in Phase 3, nicht zugelassen. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'KI-Podcast: Retatrutide – der stärkste Abnehm-Triagonist', audio: 'audio/retatrutide-podcast.mp3', spotify: '7kJBUC1x9ZEfzlHN0WCO3f', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 6) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Retatrutide, den „Triple G"-Triagonisten (GLP-1 + GIP + Glukagon): warum der Glukagon-Arm nicht nur Appetit zügelt, sondern auch die Verbrennung und den Leberfett-Abbau ankurbelt, was die Phase-2-Studie im NEJM 2023 (Jastreboff et al.) mit ~24 % Gewichtsverlust zeigte und warum metabolische Gesundheit ein starker Longevity-Hebel ist. Ehrlicher Rahmen: noch in Phase 3, nicht zugelassen. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Peptide of The Week – Retatrutide (GLP-3)', url: 'https://open.spotify.com/episode/2Xt6iBveTeiGWaoTjZDNxZ' },
           { title: 'FettUcation – Retatrutide: warum es stärker wirkt als Mounjaro (Deutsch)', url: 'https://open.spotify.com/episode/0BX2ml5PBu5EFgDA6TwB60' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/6wWUjjB7vxeIopVEmgMPYA' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/7rHHXTAPki0x4087cCgsFB' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/3rCvtt10k3iH0gXWtCSAm0' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'testosteron',
@@ -267,38 +266,34 @@ const EXPERIMENTAL = [
     altNames: 'LY3502970, orales GLP-1, Small-Molecule-GLP-1',
     class: 'Oraler, nicht-peptidischer GLP-1-Rezeptor-Agonist',
     emoji: '💊',
-    short: 'Der Durchbruch bei den Abnehm-Tabletten: das erste orale Small-Molecule-GLP-1 – seit April 2026 in den USA zugelassen (Foundayo), ganz ohne Spritze, Kühlung oder Nüchtern-Auflagen.',
+    short: 'Die erste Abnehm-Tablette aus der GLP-1-Klasse, die kein Peptid ist: seit April 2026 in den USA als Foundayo zugelassen, eine Tablette am Tag ohne Nüchtern-Auflagen. In der EU noch nicht zugelassen.',
     moa: 'Orforglipron ist – anders als Semaglutid oder Tirzepatid – kein Peptid, sondern ein kleines, oral stabiles Molekül, das den GLP-1-Rezeptor aktiviert. Dadurch werden Sättigung und Insulinausschüttung gesteigert und die Magenentleerung verzögert. Weil es kein Peptid ist, übersteht es den Magen und lässt sich als simple Tablette zu jeder Tageszeit einnehmen – ohne die strengen Nüchtern- und Wasserregeln von oralem Semaglutid. Das macht die Produktion günstiger und weltweit skalierbar.',
     benefits: [
-      'Erste orale GLP-1-Tablette ohne Spritze – einfache Einnahme zu jeder Tageszeit.',
-      'Schlug in einer direkten Phase-3-Studie orales Semaglutid (bessere HbA1c-Senkung, mehr Gewichtsverlust).',
-      'Deutlicher Gewichtsverlust und verbesserte Blutzuckerwerte.',
-      'Keine Kühlung nötig – günstig produzierbar, gut skalierbar für breite Verfügbarkeit.'
+      'Erste orale, nicht-peptidische GLP-1-Tablette – einmal täglich, zu jeder Tageszeit, ohne Vorgaben zu Essen und Trinken.',
+      'Phase-3-Studie ATTAIN-1 (3127 Teilnehmer, 72 Wochen): 11,2 Prozent Gewichtsverlust in der höchsten Dosis gegenüber 2,1 Prozent unter Placebo.',
+      'In einer direkten Phase-3-Studie bei Typ-2-Diabetes stärkere HbA1c-Senkung als die Semaglutid-Tablette.',
+      'Keine Kühlung nötig, als klassische Tablette gut skalierbar herstellbar.'
     ],
     risks: [
       'Verschreibungspflichtig – Anwendung ärztlich begleiten.',
-      'Typische GLP-1-Nebenwirkungen v.a. zu Beginn: Übelkeit, Verdauungsthemen (meist mild).',
-      'In DE/EU noch nicht zugelassen (US-Zulassung April 2026) – EU-Verfügbarkeit steht aus.',
+      'Typische GLP-1-Nebenwirkungen v. a. in der Aufdosierung: Übelkeit, Verstopfung, Durchfall, Erbrechen; in ATTAIN-1 brachen 5,3 bis 10,3 Prozent wegen Nebenwirkungen ab.',
+      'In DE/EU noch nicht zugelassen (US-Zulassung 1. April 2026) – Internet-Angebote mit hohem Fälschungsrisiko.',
       'Auf Muskelerhalt achten (Eiweiß + Krafttraining).'
     ],
     status: 'In den USA 2026 als Foundayo zugelassen (Eli Lilly). In DE/EU noch nicht zugelassen.',
     sources: [
-      { title: 'Meto – Next-Generation GLP-1 Drugs 2026 (Orforglipron u.a.)', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' },
-      { title: 'GoodRx – New Weight Loss Drugs (Übersicht 2026)', url: 'https://www.goodrx.com/conditions/weight-loss/new-weight-loss-drugs' },
-      { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' }
+      { title: 'Wharton S et al., N Engl J Med 2025 – ATTAIN-1', url: 'https://pubmed.ncbi.nlm.nih.gov/40960239/' },
+      { title: 'Rosenstock J et al., N Engl J Med 2025 – ACHIEVE-1', url: 'https://pubmed.ncbi.nlm.nih.gov/40544435/' },
+      { title: 'Rosenstock J et al., Lancet 2026 – ACHIEVE-3 gegen orales Semaglutid', url: 'https://pubmed.ncbi.nlm.nih.gov/41765029/' },
+      { title: 'Eli Lilly – FDA-Zulassung von Foundayo, 1. April 2026', url: 'https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
-      {
-        title: 'Orforglipron: Die Abnehmpille im Faktencheck',
-        audio: 'audio/orforglipron-podcast.mp3',
-        spotify: '0SzsxTG1nbymb8wTzIHPUV',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 45) \u00b7 mit Paul & Paula. Die erste zugelassene nicht-peptidische GLP-1-Tablette der Welt: das Chemie-Wunder aus dem Chugai-Labor, ATTAIN-1 (NEJM 2025: gut 12 % Gewichtsverlust), ACHIEVE (HbA1c \u22121,5 Punkte), US-Zulassung als Foundayo im April 2026, EMA-Stand, ehrlicher Vergleich mit den Spritzen und Muskelschutz-Basics. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 16.08.2026, 10:00)'
-      }
-    ]
+      { title: 'Orforglipron: Die Abnehmpille im Faktencheck', audio: 'audio/orforglipron-podcast.mp3', spotify: '0SzsxTG1nbymb8wTzIHPUV', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 45) · mit Paul & Paula. Die erste zugelassene nicht-peptidische GLP-1-Tablette der Welt: das Chemie-Wunder aus dem Chugai-Labor, ATTAIN-1 (NEJM 2025: gut 12 % Gewichtsverlust), ACHIEVE (HbA1c −1,5 Punkte), US-Zulassung als Foundayo im April 2026, EMA-Stand, ehrlicher Vergleich mit den Spritzen und Muskelschutz-Basics. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 16.08.2026, 10:00)' }
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'tesamorelin',
@@ -513,48 +508,40 @@ const EXPERIMENTAL = [
     id: 'tb-500',
     name: 'TB-500 (Thymosin Beta-4 Fragment)',
     altNames: 'TB4, Thymosin β-4',
-    class: 'Synthetisches Peptid-Fragment (43 AS / aktive Region)',
+    class: 'Synthetisches Peptid-Fragment (Ac-LKKTETQ, aktinbindende Region des 43-Aminosäuren-Proteins Thymosin Beta-4)',
     emoji: '🩹',
-    short: 'Das systemisch wirkende Regenerations-Peptid aus der Thymosin-Beta-4-Familie – im Tiermodell fördert es die Heilung von Sehnen, Muskeln und Gewebe und wird gern mit BPC-157 kombiniert.',
+    short: 'Das Regenerations-Peptid aus der Thymosin-Beta-4-Familie: Im Tiermodell fördert das Mutterprotein Wundheilung, Gefäßbildung und Herzreparatur. TB-500 selbst ist am Menschen nicht untersucht und wird gern mit BPC-157 kombiniert.',
     moa: 'Synthetisches Peptid mit der aktiven aktinbindenden Kernsequenz (Ac-LKKTETQ), das die regenerative Region des körpereigenen Proteins Thymosin Beta-4 (Tβ4, 43 AS) nachbildet. Es wirkt nicht-hormonell: Durch Bindung von G-Aktin-Monomeren stellt es ein Reservoir für den Umbau des Zytoskeletts bereit und fördert so die Zellwanderung zur Verletzungsstelle. Zusätzlich stimuliert es die Gefäßneubildung, hemmt entzündungsfördernde Zytokine und reduziert über weniger Myofibroblasten die Narbenbildung. Wichtig: TB-500 und das vollständige Tβ4 sind nicht identisch – die meisten Humanstudien liefen mit komplettem Tβ4, sodass die Wirksamkeit von TB-500 selbst überwiegend aus Tiermodellen extrapoliert wird.',
     benefits: [
-      'Beschleunigt im Tiermodell die Regeneration von Sehnen, Bändern und Muskelgewebe',
-      'Wirkt systemisch und kann mehrere/entfernte Verletzungszonen zugleich erreichen',
-      'Fördert im Tiermodell die Gefäßneubildung und damit die Versorgung geschädigten Gewebes – am Menschen nicht belegt',
-      'Kann Narbengewebe reduzieren und die funktionelle Heilung begünstigen',
-      'Keine hormonelle Wirkung, kein Eingriff in die Testosteron-Achse',
-      'Gilt in Anwenderberichten als gut verträglich und gut mit BPC-157 kombinierbar'
+      'Das Mutterprotein Thymosin Beta-4 beschleunigt im Tiermodell die Heilung von Haut, Hornhaut und Herzmuskel',
+      'Bindet Aktin und fördert die Zellwanderung, im Tiermodell auch die Gefäßneubildung',
+      'Im Tiermodell weniger Myofibroblasten und damit weniger Narbenbildung',
+      'Kleine klinische Studien mit vollständigem Thymosin Beta-4 an Hautgeschwüren, Hornhautdefekten und nach Herzinfarkt zeigen in Teilgruppen positive Signale',
+      'Gilt in Anwenderberichten als gut verträglich'
     ],
     risks: [
-      'Wirkung v.a. aus Tierdaten; Humanstudien unter dem Namen TB-500 fehlen.',
-      'Im Wettkampfsport verboten; nur injizierbar.',
-      'Als Research-Ware auf Reinheit achten.'
+      'Humanstudien mit TB-500 selbst fehlen; die klinischen Daten betreffen das vollständige Thymosin Beta-4.',
+      'Kein systematisch untersuchtes Sicherheitsprofil; bei nicht regulierter Ware Risiken durch Verunreinigung und ungenaue Dosierung.',
+      'Fördert Gefäßbildung und Zellwanderung – bei bekannter oder vermuteter Tumorerkrankung nicht ohne ärztliche Rücksprache.',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S2.3); nur injizierbar.'
     ],
     status: 'Forschungs-Peptid, im Wettkampfsport verboten.',
     sources: [
-      { title: 'Goldstein AL et al., Ann NY Acad Sci 2012 – Thymosin β4', url: 'https://pubmed.ncbi.nlm.nih.gov/22591020/' },
-      { title: 'Crockford D, Ann NY Acad Sci 2007', url: 'https://pubmed.ncbi.nlm.nih.gov/17804520/' }
+      { title: 'Goldstein AL et al., Expert Opin Biol Ther 2012 – Thymosin β4: multifunktionales Regenerationspeptid', url: 'https://pubmed.ncbi.nlm.nih.gov/22074294/' },
+      { title: 'Bock-Marquette I et al., Nature 2004 – Thymosin β4 und Herzreparatur (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/15565145/' },
+      { title: 'Treadwell T et al., Ann N Y Acad Sci 2012 – Hautheilung im Tiermodell und in Phase-2-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/23050815/' },
+      { title: 'Zhang Y et al., Cardiovasc Res 2025 – randomisierte Studie nach Herzinfarkt', url: 'https://pubmed.ncbi.nlm.nih.gov/41229390/' },
+      { title: 'Rahaman KA et al., J Chromatogr B 2024 – TB-500 (Ac-LKKTETQ): Analytik und Abbau', url: 'https://pubmed.ncbi.nlm.nih.gov/38382158/' }
     ],
     community: [
       { title: 'biolabshop – TB-500/BPC-157 Combo', url: 'https://biolabshop.co.uk/peptides/321-tb-4-fragbpc-157-arg-700-mcg-30-caps.html' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: Der Wolverine Stack – BPC-157 + TB-500 (Regenerations-Duo)',
-        audio: 'audio/wolverine-stack-podcast.mp3',
-        spotify: '4Lex4pgjZQrVvjEEP2r0sK',
-        lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser (Folge 36). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
-      },
-      {
-        title: 'KI-Podcast: TB-500 – das systemische Regenerations-Peptid',
-        audio: 'audio/tb-500-podcast.mp3',
-        spotify: '7jlWTnGRAao4lBwzhtUWPg',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 3) · mit Paul & Paula. Frische, positive KI-Dialogfolge über TB-500, das aktive Fragment von Thymosin Beta-4: warum es Zellen wanderfreudig macht und dadurch systemisch heilt (Sehnen, Bänder, Herz, Haut), was die Nature-Studie 2004 zum Herzmuskel zeigte und wie es sich mit BPC-157 zum Wolverine Stack ergänzt. Reine Information, keine Dosier- oder Anwendungsempfehlung; Research-Peptid, im Sport verboten (WADA).'
-      }
-    ]
+      { title: 'KI-Podcast: Der Wolverine Stack – BPC-157 + TB-500 (Regenerations-Duo)', audio: 'audio/wolverine-stack-podcast.mp3', spotify: '4Lex4pgjZQrVvjEEP2r0sK', lengthLabel: '≈ 10 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 36). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche zum „Wolverine Stack" (BPC-157 + TB-500) – wie sich die beiden Peptide über verschiedene Signalwege in verschiedenen Heilungsphasen ergänzen. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Research-Peptide, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).' },
+      { title: 'KI-Podcast: TB-500 – das systemische Regenerations-Peptid', audio: 'audio/tb-500-podcast.mp3', spotify: '7jlWTnGRAao4lBwzhtUWPg', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 3) · mit Paul & Paula. Frische, positive KI-Dialogfolge über TB-500, das aktive Fragment von Thymosin Beta-4: warum es Zellen wanderfreudig macht und dadurch systemisch heilt (Sehnen, Bänder, Herz, Haut), was die Nature-Studie 2004 zum Herzmuskel zeigte und wie es sich mit BPC-157 zum Wolverine Stack ergänzt. Reine Information, keine Dosier- oder Anwendungsempfehlung; Research-Peptid, im Sport verboten (WADA).' }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'ghk-cu',
@@ -606,38 +593,40 @@ const EXPERIMENTAL = [
     altNames: 'Stacking, Blend, Kombination, Peptid-Protokoll',
     class: 'Prinzip – wie Peptide kombiniert werden und warum',
     emoji: '🧩',
-    short: 'Die Grundlagenfolge hinter Wolverine, GLOW, KLOW und CJC + Ipamorelin: Was ein Stack von einem Blend unterscheidet – und nach welchen Regeln überhaupt kombiniert wird.',
-    moa: 'Ein Stack ist ein Protokoll aus mehreren Einzel-Vials, die getrennt dosiert werden. Ein Blend ist eine Fertig-Mischung in einem festen, vom Hersteller vorgegebenen Verhältnis. Die Logik hinter beidem ist dieselbe: komplementäre Pfade. Sinnvoll kombiniert wird, was an unterschiedlichen Rezeptoren unterschiedliche Aufgaben übernimmt – TB-500 mobilisiert, BPC-157 versorgt, GHK-Cu baut. Zweimal an derselben Klingel zu läuten (etwa zwei GHRH-Analoga nebeneinander) bringt keinen zusätzlichen Effekt, sondern nur zusätzliches Risiko. WICHTIG: Für die meisten populären Kombinationen existieren keine publizierten Studien – die Evidenz gilt jeweils den Einzelsubstanzen, nicht der Mischung.',
+    short: 'Das Prinzip hinter GLOW, KLOW, Wolverine und den GH-Kombinationen: Was ein Stack von einem Blend unterscheidet und nach welchen Regeln kombiniert wird. Synergie am Menschen gemessen ist genau eine Kombination – für die populären Mischungen gibt es keine Studie.',
+    moa: 'Ein Stack ist ein Protokoll aus mehreren Einzel-Vials, die getrennt dosiert werden; ein Blend ist eine Fertigmischung in einem festen, vom Anbieter vorgegebenen Verhältnis. Die Logik ist dieselbe: komplementäre Pfade. Sinnvoll kombiniert wird, was an unterschiedlichen Rezeptoren unterschiedliche Aufgaben übernimmt; zwei Substanzen am gleichen Rezeptor konkurrieren und addieren eher Nebenwirkungen als Wirkung. Belegt ist dieses Prinzip am Menschen für eine Paarung: Ein Wachstumshormon-freisetzendes Peptid setzte gemeinsam mit einem Releasing-Hormon mehr Wachstumshormon frei als jede Substanz allein (Bowers et al. 1990, 18 gesunde Männer) – ein Surrogatendpunkt. Wie stark diese Synergie ausfällt, hängt stark von der Person ab: Alter und Bauchfett senken sie, höheres IGF-1 erhöht sie; Bauchfett, IGF-1 und IGFBP-3 erklärten 60 Prozent der Unterschiede (Veldhuis und Bowers 2009, 47 Männer). WICHTIG: Für die populären Kombinationen existiert keine Kombinationsstudie, es gibt keine Interaktionsdaten und keine Prüfung der Mischungsstabilität; die Evidenz gilt jeweils den Einzelsubstanzen.',
     benefits: [
-      'Fünf Handwerksregeln aus der Folge: einzeln einführen, zwei bis drei Substanzen genügen, Rezeptor-Dopplungen vermeiden, Zyklen respektieren, Blutwerte messen.',
+      'Fünf Handwerksregeln aus der Folge: einzeln einführen, wenige Substanzen statt vieler, Rezeptor-Dopplungen vermeiden, Kuren statt Dauerbetrieb, Blutwerte messen.',
       'Stack statt Blend heißt: jedes Verhältnis bleibt änderbar, und bei einer Reaktion ist zuordenbar, welche Substanz sie ausgelöst hat.',
       'Blend statt Stack heißt: weniger Handgriffe, weniger Einstiche – dafür ein zementiertes Verhältnis und ungeprüfte Stabilität der Mischung im Vial.',
+      'Für eine Paarung ist Synergie am Menschen gemessen: Releasing-Hormon plus freisetzendes Peptid setzten mehr Wachstumshormon frei als jede Substanz allein.',
       'Der Rahmen zum Einordnen aller Blend-Einträge der App (GLOW, KLOW, Wolverine, CJC + Ipamorelin).'
     ],
     risks: [
       'Das Zuordnungs-Problem: Wer zwei Substanzen gleichzeitig startet, weiß bei einer Nebenwirkung nicht, welche sie verursacht hat.',
       'Rezeptor-Dopplung addiert Nebenwirkungen, nicht Wirkung.',
-      'Blends sind Fertigmischungen vom Graumarkt – Verhältnis, Reinheit und Stabilität sind nur über ein Analysenzertifikat prüfbar, und auch das ersetzt keine Zulassung.',
-      'Je mehr Substanzen, desto unübersichtlicher die Wechselwirkungen – und desto weniger sagt die Studienlage der Einzelteile über das Ganze aus.',
-      'Im Sport sind praktisch alle hier genannten Substanzen verboten (WADA-Liste).'
+      'Für die populären Blends existiert keine Kombinationsstudie und es gibt keine Interaktionsdaten; auch die Stabilität der Mischung im Vial ist ungeprüft.',
+      'Die belegte Synergie ist personenabhängig und fällt bei höherem Alter und mehr Bauchfett schwächer aus – also bei der Gruppe, die solche Protokolle am häufigsten sucht.',
+      'Die FDA führt mehrere beliebte Bestandteile mit möglichen erheblichen Sicherheitsrisiken: Ipamorelin mit Berichten über schwerwiegende Ereignisse bis zum Tod bei intravenöser Gabe, Melanotan II mit Fallberichten über Melanom und Priapismus, Ibutamoren mit einem Signal für Herzinsuffizienz.',
+      'Graumarktprodukte können etwas anderes enthalten als angegeben; dokumentiert sind Krankenhausaufnahmen nach online gekauften Stoffwechselpeptiden.',
+      'Im Sport sind praktisch alle hier genannten Substanzen verboten: Peptidhormone und Wachstumsfaktoren stehen in Gruppe S2, nicht zugelassene Substanzen zusätzlich in Gruppe S0 – beides jederzeit.'
     ],
-    status: 'Prinzip-Eintrag, keine Substanz. Research-Peptide sind nicht als Arzneimittel zugelassen; Kombinationen gehören in ärztliche Begleitung.',
+    status: 'Prinzip-Eintrag, keine Substanz. Die verwendeten Research-Peptide sind in DE/EU überwiegend nicht als Arzneimittel zugelassen und nicht als Nahrungsergänzungsmittel verkehrsfähig; Fertigmischungen unterliegen weder für Bestandteile noch für Verhältnis oder Stabilität einer Prüfung. Kombinationen gehören in ärztliche Begleitung.',
     sources: [
-      { title: 'WADA Prohibited List – Peptidhormone und Wachstumsfaktoren', url: 'https://www.wada-ama.org/en/prohibited-list' },
-      { title: 'Peptide Protocol Wiki – Blends: Evidenzlage der Kombinationen', url: 'https://www.peptideprotocolwiki.com/blog/glow-blend' }
+      { title: 'Bowers et al., J Clin Endocrinol Metab 1990 – GHRP wirkt synergistisch mit GHRH, 18 gesunde Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/2108187/' },
+      { title: 'Veldhuis und Bowers, Am J Physiol Endocrinol Metab 2009 – Bestimmungsgrößen der GHRH-GHRP-Synergie', url: 'https://pubmed.ncbi.nlm.nih.gov/19240251/' },
+      { title: 'Hailu et al., Cureus 2026 – unregulierter Peptidgebrauch: Graumarkt, Stacking, Produktqualität', url: 'https://pubmed.ncbi.nlm.nih.gov/42437212/' },
+      { title: 'FDA – Bulk Drug Substances mit möglichen erheblichen Sicherheitsrisiken', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' },
+      { title: 'Sterckx und De Keyser, Cureus 2026 – euglykämische Ketoazidose nach gefälschtem Semaglutid', url: 'https://pubmed.ncbi.nlm.nih.gov/41773123/' },
+      { title: 'WADA Prohibited List – Gruppen S0 und S2', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Peptid-Stacks & Blends: Warum kombinieren? Die Grundlagen-Folge',
-        audio: 'audio/peptid-stacks-podcast.mp3',
-        spotify: '1vjClyXNbjwk08HCl5Eeq9',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 54) · mit Paul & Paula. Stack oder Blend, das Prinzip der komplementären Pfade („nie zweimal dieselbe Klingel"), die Stack-Galerie des Podcasts, die fünf Handwerksregeln, die ehrliche Blend-Abwägung zwischen Bequemlichkeit und zementierten Verhältnissen – und die Erinnerung, dass der beste Stack gratis ist: Schlaf, Training, Protein, Sonne. Reine Information, keine Dosier- oder Anwendungsempfehlung.'
-      }
-    ]
+      { title: 'Peptid-Stacks & Blends: Warum kombinieren? Die Grundlagen-Folge', audio: 'audio/peptid-stacks-podcast.mp3', spotify: '1vjClyXNbjwk08HCl5Eeq9', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 54) · mit Paul & Paula. Stack oder Blend, das Prinzip der komplementären Pfade („nie zweimal dieselbe Klingel"), die Stack-Galerie des Podcasts, die fünf Handwerksregeln, die ehrliche Blend-Abwägung zwischen Bequemlichkeit und zementierten Verhältnissen – und die Erinnerung, dass der beste Stack gratis ist: Schlaf, Training, Protein, Sonne. Reine Information, keine Dosier- oder Anwendungsempfehlung.' }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'glow-stack',
@@ -685,10 +674,11 @@ const EXPERIMENTAL = [
     short: 'Der große Bruder von GLOW: dieselben drei Zutaten plus die Entzündungsbremse KPV – damit verschiebt sich die Mission von Haut zu Haut + Darm + Entzündung.',
     moa: 'Vierer-Logik: TB-500 mobilisiert Reparaturzellen, BPC-157 baut Gefäße (und ist als Magensaft-Peptid der Darmschleimhaut-Klassiker), GHK-Cu liefert den Kollagen-Bauplan – und KPV (Lys-Pro-Val, das entzündungsdämpfende Ende des Alpha-MSH) drosselt NF-κB, den Hauptschalter der Entzündungs-Genetik. In Colitis-Tiermodellen reduzierte KPV Entzündungsmarker deutlich, teils oral wirksam (Aufnahme über Peptid-Transporter der Darmzellen). Zur Vierer-KOMBINATION existieren keine publizierten Studien.',
     benefits: [
-      'Deckt die komplette Heilungs-Kaskade ab: Mobilisieren + Versorgen + Bauen + Beruhigen.',
-      'Berichtet: Darm-Beruhigung oft nach 1–3 Wochen, Gewebe/Gelenke ab Woche 3–6, Haut-Glow wie bei GLOW.',
-      'Für entzündliche Haut (Rötungen, Ekzem-Neigung) und Reizdarm-Themen die logischere Wahl gegenüber GLOW.',
-      'KPV allein ist auch oral nutzbar – kleinste Einstiegs-Hürde für reine Darm-Anwendung.'
+      'Konzept: Mobilisieren (TB-500), Versorgen (BPC-157), Bauen (GHK-Cu) und Beruhigen (KPV) – als Kombination nie geprüft.',
+      'KPV hemmt im Labor Entzündungssignale (NF-κB) in menschlichen Darmzellen und milderte bei Mäusen Colitis, auch oral gegeben.',
+      'Berichtet: Darm-Beruhigung oft nach 1–3 Wochen, Gewebe/Gelenke ab Woche 3–6, Haut ähnlich wie bei GLOW (Anwenderberichte, ohne Kontrollgruppe).',
+      'Für entzündliche, zu Rötungen neigende Haut und Darmthemen in der Szene die logischere Wahl gegenüber GLOW.',
+      'KPV wird über den Peptidtransporter PepT1 aufgenommen und war im Tiermodell oral wirksam – Humandaten fehlen.'
     ],
     risks: [
       'Zur Viererkombination existiert keine einzige Studie – Anwender-Empirie auf Einzelteil-Basis.',
@@ -698,21 +688,17 @@ const EXPERIMENTAL = [
     ],
     status: 'Research-Blend, nicht zugelassen. Evidenz aus Einzelteilen (KPV/BPC-157/TB-500/GHK-Cu) extrapoliert.',
     sources: [
-      { title: 'Dalmasso et al., Gastroenterology 2008 – KPV bei Colitis (Tiermodell)', url: 'https://pubmed.ncbi.nlm.nih.gov/18061177/' },
-      { title: 'PeptideDeck – KLOW Blend Review', url: 'https://www.peptidedeck.com/blog/klow-peptide-blend-review' }
+      { title: 'Dalmasso et al., Gastroenterology 2008 – KPV bei Colitis (Zellkultur und Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/18061177/' },
+      { title: 'Vasireddi et al., HSS J 2025 – BPC-157, systematischer Review', url: 'https://pubmed.ncbi.nlm.nih.gov/40756949/' },
+      { title: 'Tewari et al., Am J Sports Med 2026 – Szene-Peptide in der Sportmedizin', url: 'https://pubmed.ncbi.nlm.nih.gov/42578445/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500): Der Heilungs-Stack im Faktencheck',
-        audio: 'audio/klow-podcast.mp3',
-        spotify: '1JtzfQ7YLfHmFcM1V6xXoa',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 53) · mit Paul & Paula. Die Substanz aus Folge 1 kehrt zurück: KPV als NF-κB-Bremse macht aus dem Beauty-Stack den Ganzkörper-Heilungs-Stack – mit Darm-Hirn-Achse, Colitis-Daten und GLOW-vs.-KLOW-Entscheidungshilfe. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 23.08.2026, 10:00)'
-      }
-    ]
+      { title: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500): Der Heilungs-Stack im Faktencheck', audio: 'audio/klow-podcast.mp3', spotify: '1JtzfQ7YLfHmFcM1V6xXoa', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 53) · mit Paul & Paula. Die Substanz aus Folge 1 kehrt zurück: KPV als NF-κB-Bremse macht aus dem Beauty-Stack den Ganzkörper-Heilungs-Stack – mit Darm-Hirn-Achse, Colitis-Daten und GLOW-vs.-KLOW-Entscheidungshilfe. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 23.08.2026, 10:00)' }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'pt-141',
@@ -857,48 +843,46 @@ const EXPERIMENTAL = [
     altNames: 'Zadaxin, Thymalfasin',
     class: 'Immunmodulatorisches Peptid (28 Aminosäuren)',
     emoji: '🛡️',
-    short: 'Das am besten belegte Immun-Peptid dieser Liste: als Zadaxin klinisch zugelassen, stärkt es gezielt die Abwehr und wirkt zugleich ausgleichend – anregend bei Schwäche, beruhigend bei Überaktivierung.',
+    short: 'Das am besten untersuchte Immun-Peptid dieser Liste: als Zadaxin in über 30 Ländern zugelassen, stützt es die T-Zell-Abwehr – am überzeugendsten als Begleitung, wenn Chemotherapie oder Bestrahlung die Abwehrzellen dezimieren.',
     moa: 'Synthetisches, N-acetyliertes 28-Aminosäuren-Peptid aus dem Thymus, das als Immunmodulator wirkt. Es aktiviert die Toll-like-Rezeptoren TLR2 und TLR9 auf dendritischen Zellen, Makrophagen und B-Zellen und induziert darüber Typ-I-Interferone (IFN-α/β), IL-12 und TH1-Zytokine (IFN-γ) – das stärkt die zelluläre Abwehr gegen Viren und Tumorzellen. Zusätzlich fördert es die Reifung von T-Zellen im Thymus. Charakteristisch ist eine bidirektionale Modulation: Stimulation bei Immunschwäche, Dämpfung über regulatorische T-Zellen (FOXP3+) bei Immunüberaktivierung. Unter diesen Peptiden hat es mit Abstand die beste klinische Evidenzbasis.',
     benefits: [
-      'Stärkt antivirale T-Zell-Antworten; in Studien bei chronischer Hepatitis B höhere Serokonversionsraten',
-      'Korrigiert Immunschwäche und altersbedingte Immunseneszenz (mehr naive CD4+-T-Zellen, mehr IL-2)',
-      'Wird als Begleittherapie in der Onkologie untersucht (u.a. nicht-kleinzelliges Lungenkarzinom)',
-      'Senkte in einer kontrollierten Studie die 28-Tage-Sterblichkeit bei Sepsis',
-      'Kann trainingsbedingte Immunschwäche (Open-Window-Phänomen) bei Sportlern abmildern',
-      'Bidirektional wirksam: stimulierend bei Schwäche, regulierend bei Überaktivierung',
-      'Bestes Sicherheits- und Evidenzprofil dieser Peptide; als Zadaxin klinisch zugelassen'
+      'Stützt geschwächte T-Zell-Zahlen: unter Strahlenchemotherapie bei Lungenkrebs deutlich seltener schwere Lymphopenie (19,1 vs. 62,1 %, nicht randomisierte Phase-2-Studie)',
+      'Als Begleitung der Krebstherapie untersucht, nicht als Mittel gegen den Tumor selbst; dort auch seltener Strahlenpneumonitis',
+      'In einer randomisierten Melanom-Studie mit 488 Patienten mehr Tumoransprechen zusätzlich zur Chemotherapie, ohne zusätzliche Toxizität',
+      'Bei schwerem COVID-19 in einer rückblickenden Auswertung mit geringerer Sterblichkeit verbunden',
+      'Immunmodulator statt Booster: stärkt die Abwehr bei Schwäche, ohne sie blind anzuheizen',
+      'Ansatz gegen Immunalterung (Thymus-Rückbildung) plausibel, aber nicht in kontrollierten Studien geprüft',
+      'In Studien sehr gut verträglich; als Zadaxin seit Jahrzehnten klinisch im Einsatz'
     ],
     risks: [
-      'Als Zadaxin in mehreren Ländern zugelassen; in DE/EU (noch) nicht frei verfügbar.',
-      'Bei TH1-dominierten Autoimmunerkrankungen am besten mit ärztlicher Rücksprache.',
+      'Als Zadaxin in über 30 Ländern zugelassen; in DE/EU und den USA nicht zugelassen.',
+      'In der großen Sepsis-Studie (1106 Patienten) kein Überlebensvorteil.',
+      'Bei Autoimmunerkrankungen und zusammen mit Immuntherapien (Checkpoint-Hemmer) nur nach ärztlicher Rücksprache.',
       'Frei bezogene Ware auf Qualität und Sterilität prüfen.'
     ],
-    status: 'Als Zadaxin in Italien, China, Indien u.a. zugelassen (Hepatitis). In DE/USA noch nicht zugelassen.',
+    status: 'Als Zadaxin (Thymalfasin) in über 30 Ländern zugelassen, v. a. bei chronischer Hepatitis B/C, teils als Immunadjuvans. In Deutschland, der EU und den USA nicht zugelassen.',
     sources: [
-      { title: 'Costantini C et al., Clin Microbiol Rev 2019 – TA1 mechanism', url: 'https://pubmed.ncbi.nlm.nih.gov/30728200/' },
-      { title: 'Liu Y et al., Clin Infect Dis 2020 – Thymosin Alpha-1 in COVID-19', url: 'https://pubmed.ncbi.nlm.nih.gov/32442256/' }
+      { title: 'Liu F et al., Int J Radiat Oncol Biol Phys 2022 – GASTO-1043, Lymphopenie und Pneumonitis unter Strahlenchemotherapie', url: 'https://pubmed.ncbi.nlm.nih.gov/35870709/' },
+      { title: 'Maio M et al., J Clin Oncol 2010 – randomisierte Melanom-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/20194853/' },
+      { title: 'Liu Y et al., Clin Infect Dis 2020 – Thymosin Alpha-1 bei schwerem COVID-19', url: 'https://pubmed.ncbi.nlm.nih.gov/32442287/' },
+      { title: 'Wu J et al., BMJ 2025 – TESTS, Thymosin Alpha-1 bei Sepsis (Phase 3)', url: 'https://pubmed.ncbi.nlm.nih.gov/39814420/' },
+      { title: 'Kim SD et al., Pharmaceuticals 2026 – Scoping Review Krebsbegleitung', url: 'https://www.mdpi.com/1424-8247/19/9/1492' }
     ],
     community: [
       { title: 'Peptide Therapies – Thymosin Alpha-1 Übersicht', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
       { title: 'biolabshop (Suche „Thymosin")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung',
-        audio: 'audio/thymosin-alpha-1-podcast.mp3',
-        spotify: '11QZafzo2jGgDsOl3xxA11',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 7) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Thymosin Alpha-1, den „Dirigenten" des Immunsystems: ein körpereigenes Thymus-Peptid, das T-Zellen reifen lässt und die Abwehr ins Gleichgewicht bringt. Als Zadaxin in über 30 Ländern zugelassen; in der COVID-Studie (Liu et al., Clin Infect Dis 2020) mit geringerer Sterblichkeit verbunden. Longevity-Bezug: Thymus-Schrumpfung und Immunoseneszenz. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung', audio: 'audio/thymosin-alpha-1-podcast.mp3', spotify: '11QZafzo2jGgDsOl3xxA11', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 7) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Thymosin Alpha-1, den „Dirigenten" des Immunsystems: ein körpereigenes Thymus-Peptid, das T-Zellen reifen lässt und die Abwehr ins Gleichgewicht bringt. Als Zadaxin in über 30 Ländern zugelassen; in der COVID-Studie (Liu et al., Clin Infect Dis 2020) mit geringerer Sterblichkeit verbunden. Longevity-Bezug: Thymus-Schrumpfung und Immunoseneszenz. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'The Hunter Williams Podcast – How Thymosin Alpha 1 Supercharges Your Immune System', url: 'https://open.spotify.com/episode/5Inu125eta0bSTQ7AWdY8N' },
           { title: 'Der Optimizer – Thymosin Alpha-1 & Thymulin (Deutsch)', url: 'https://open.spotify.com/episode/4U3Ahy6POe7Js8ZyRx684S' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/1IVXJBNOAH80HCowX4Soot' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/1M0R88M2B7ljeslKHwuJVg' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/0VbHRK7AzYhIhFVTbCxEbO' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/0B4cpdxgOA85IAPLGiipsH' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'rapamycin',
@@ -1190,20 +1174,21 @@ const EXPERIMENTAL = [
     altNames: 'Mitochondrial-derived peptide',
     class: 'Mitochondriales Peptid (16 Aminosäuren, kodiert in mtDNA)',
     emoji: '🧬',
-    short: 'Ein mitochondriales „Trainings-Peptid": aktiviert im Labor AMPK – denselben Schalter wie Sport und Metformin. Alles Weitere zu Stoffwechsel, Insulinsensitivität und Ausdauer ist präklinisch.',
+    short: 'Ein Signalpeptid aus dem Erbgut der Mitochondrien: aktiviert im Labor den Energie-Sensor AMPK – denselben Schalter wie Sport und Fasten – und steigt beim Menschen durch Training an. Die Wirkung einer Gabe von außen ist bisher nur an Mäusen gezeigt.',
     moa: 'Aus 16 Aminosäuren bestehendes, mitochondrial kodiertes Peptid (aus dem 12S-rRNA-Gen der mtDNA), das den Energiestoffwechsel primär über Aktivierung der AMP-aktivierten Proteinkinase (AMPK) reguliert – denselben Signalweg, den auch Metformin und Ausdauertraining anstoßen. Nach zellulärem Stress (oxidativer Stress, Glukosemangel, Belastung) wandert es in den Zellkern und steuert dort Gene für mitochondriale Neubildung (PGC-1α), antioxidative Abwehr (NRF2) und das Insulinsignal. Zusätzlich hemmt es den entzündungsfördernden NF-κB-Weg. Die Effekte ähneln molekular denen von körperlichem Training (Trainings-Mimetikum). Die Daten stammen überwiegend aus Tierstudien plus frühen Kohortendaten beim Menschen.',
     benefits: [
-      'Steigert die Insulinsensitivität in Muskel und Leber (AMPK/GLUT4) – präklinisch',
-      'Verbessert mitochondriale Neubildung und ATP-Kapazität über PGC-1α – präklinisch',
-      'Reduziert mitochondrialen oxidativen Stress über NRF2/SOD2 – Tierdaten',
-      'Erhöhte in Nagerversuchen Ausdauerleistung und Fettoxidation',
-      'Wirkt entzündungshemmend (IL-6, TNF-α herunter) – präklinisch',
-      'Höhere körpereigene MOTS-c-Spiegel korrelieren mit Langlebigkeit (Hundertjährige-Kohorten)'
+      'Verhinderte bei Mäusen altersabhängige und ernährungsbedingte Insulinresistenz sowie Übergewicht durch fettreiche Kost – präklinisch',
+      'Aktiviert AMPK über den Folatzyklus; wandert unter Stress in den Zellkern und reguliert antioxidative Gene – Zellkultur',
+      'Steigerte bei jungen, mittelalten und alten Mäusen die Laufleistung, alte Tiere liefen 2-fach länger',
+      'Gehört beim Menschen zur Trainingsantwort: nach Belastung im Muskel 11,9-fach, im Blut 1,6-fach erhöht (10 Probanden)',
+      'Blutspiegel sinkt mit dem Alter (−21 % bei 70- bis 81-Jährigen), der Muskelspiegel steigt dagegen',
+      'Eine nordostasiatische Genvariante im MOTS-c-Abschnitt wird als möglicher Baustein der Langlebigkeit in Japan diskutiert – Hypothese, keine Spiegelmessung'
     ],
     risks: [
-      'Evidenz überwiegend präklinisch; große Humanstudien fehlen noch.',
-      'Kann den Blutzucker senken – in Kombination mit Antidiabetika beachten.',
-      'Im Wettkampfsport auf der WADA-Liste.'
+      'Keine abgeschlossene klinische Studie, in der Menschen MOTS-c erhalten haben; keine systematischen Sicherheitsdaten.',
+      'Verstärkt im Tier die Insulinwirkung – Kombination mit Blutzuckersenkern ist nicht untersucht.',
+      'Seit 2024 namentlich auf der WADA-Liste (S4.4.1 AMPK-Aktivatoren), jederzeit verboten.',
+      'Research-Ware ohne Qualitätskontrolle.'
     ],
     status: 'Forschungs-Peptid, noch nicht zugelassen.',
     sources: [
@@ -1215,21 +1200,15 @@ const EXPERIMENTAL = [
       { title: 'biolabshop (Suche „MOTS-c")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid',
-        audio: 'audio/mots-c-podcast.mp3',
-        spotify: '0QdJ0uUCvxloFqJVXLIWre',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 4) · mit Paul & Paula. Frische, positive KI-Dialogfolge über MOTS-c, das mitochondriale Peptid: warum die Kraftwerke der Zelle ein eigenes Signalmolekül verschicken, wie es über den Energie-Sensor AMPK wirkt („Sport in Molekülform"), was die Studien von Lee (Cell Metab 2015) und Reynolds (Nat Commun 2021) zeigten und warum es für Stoffwechsel und Longevity so spannend ist. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid', audio: 'audio/mots-c-podcast.mp3', spotify: '0QdJ0uUCvxloFqJVXLIWre', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 4) · mit Paul & Paula. Frische, positive KI-Dialogfolge über MOTS-c, das mitochondriale Peptid: warum die Kraftwerke der Zelle ein eigenes Signalmolekül verschicken, wie es über den Energie-Sensor AMPK wirkt („Sport in Molekülform"), was die Studien von Lee (Cell Metab 2015) und Reynolds (Nat Commun 2021) zeigten und warum es für Stoffwechsel und Longevity so spannend ist. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'The Hunter Williams Podcast – The MOTS-c Masterclass', url: 'https://open.spotify.com/episode/1gm3FXwjaB26mzqmf4ClV8' },
           { title: 'Peptide of The Week – MOTS-c', url: 'https://open.spotify.com/episode/50ivCghdwnxWZfcWazeRvI' },
           { title: 'The Peptide Effect – MOTS-c Explained', url: 'https://open.spotify.com/episode/6dgKkSY9T1P80besGDJJ1D' },
           { title: 'THE MANLAB – MOTS-C: Worth the Hype?', url: 'https://open.spotify.com/episode/4LBOdxUgoNVip9cYl8ZIIQ' },
           { title: 'GSD Mode – MOTS-c Peptide Breakdown', url: 'https://open.spotify.com/episode/1VY07hZk7wBKtjshJlyOKL' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Longevity'
   },
   {
     id: 'epitalon',
@@ -1237,24 +1216,27 @@ const EXPERIMENTAL = [
     altNames: 'Epithalamin, AEDG-Tetrapeptid',
     class: 'Tetrapeptid (Ala-Glu-Asp-Gly), Pinealdrüsen-Mimetikum',
     emoji: '🌙',
-    short: 'Ein Zirbeldrüsen-Tetrapeptid aus der Khavinson-Schule. Telomerase-Aktivierung und Melatonin-Anstieg stammen aus Zellversuchen und russischen Arbeiten – unabhängige Humanstudien fehlen.',
+    short: 'Ein Zirbeldrüsen-Tetrapeptid aus der Chawinson-Schule. Die Telomerase-Aktivierung in menschlichen Zellen ist seit 2025 unabhängig bestätigt – Humanstudien mit Epitalon selbst gibt es nicht, die Langzeitdaten stammen vom Extrakt Epithalamin.',
     moa: 'Synthetisches Tetrapeptid (Ala-Glu-Asp-Gly, ~390 g/mol), abgeleitet aus dem Zirbeldrüsen-Extrakt Epithalamin. Hauptmechanismus ist die Induktion der hTERT-Genexpression (katalytische Telomerase-Untereinheit), wodurch Telomere in somatischen Zellen verlängert und die replikative Zellalterung verzögert werden (in Zellkultur über das Hayflick-Limit hinaus). Parallel hemmt es den p53/p21- und NF-κB-Weg und dämpft so die seneszenz-assoziierte Entzündung. Als zweiten Mechanismus stimuliert Epitalon die Zirbeldrüse zur Melatoninbildung und stabilisiert den Tag-Nacht-Rhythmus. Die Human-Evidenz stammt überwiegend aus russischen Studien einer einzelnen Forschungsgruppe (Khavinson) und ist außerhalb davon kaum unabhängig repliziert.',
     benefits: [
-      'Aktiviert Telomerase (hTERT) und verlängert Telomere in somatischen Zellen – Zellkultur/präklinisch',
-      'Verzögerte in Zellkultur die replikative Alterung über den p53/p21-Weg',
-      'Soll die körpereigene Melatoninproduktion anregen – aus Khavinson-Arbeiten, nicht unabhängig bestätigt',
-      'Wirkt antioxidativ (mehr SOD/Katalase, weniger Lipidperoxidation) – präklinisch',
-      'Soll die Immunseneszenz mildern (T-Zell-/NK-Zell-Aktivität) – aus Khavinson-Studien',
-      'Hormonunabhängiger Mechanismus (keine Bindung an Sexualhormon-Rezeptoren)'
+      'Aktiviert in menschlichen Zellkulturen die Telomerase (hTERT) und verlängert Telomere – 2003 von der Entwicklergruppe gezeigt, 2025 unabhängig bestätigt (Brunel University London)',
+      'Behandelte fetale Fibroblasten schafften in Zellkultur 10 zusätzliche Teilungen über ihre natürliche Grenze hinaus',
+      'Bei Mäusen 12,3 Prozent längere maximale Lebensdauer und weniger Chromosomenschäden – die mittlere Lebensdauer änderte sich nicht',
+      'Soll die Melatoninbildung und den Tag-Nacht-Rhythmus stabilisieren; gezeigt wurde das mit dem Extrakt Epithalamin bei älteren Herzpatienten, nicht mit Epitalon selbst',
+      'Anwender berichten als Erstes von besserem Schlaf – Erfahrungsberichte, keine kontrollierten Studien',
+      'Wirkt antioxidativ und auf Immunbotenstoffe – Labor- und Tierdaten'
     ],
     risks: [
-      'Zentrale Humandaten stammen v.a. aus einer russischen Forschungsgruppe; unabhängige Bestätigung ist noch dünn.',
-      'Als Research-Ware auf Reinheit achten; nicht als Arzneimittel zugelassen.'
+      'Randomisierte Humanstudien, Pharmakokinetik-Daten oder registrierte klinische Studien mit Epitalon fehlen; die Humandaten zum Extrakt stammen aus einer einzigen russischen Arbeitsgruppe.',
+      'Telomerase-Aktivierung ist ein zweischneidiger Mechanismus: In der Zellstudie von 2025 verlängerten sich auch in Krebszellen die Telomere. Bei Krebserkrankung oder Krebs in der Vorgeschichte gibt es keine Datengrundlage.',
+      'Als Research-Ware ohne pharmazeutische Qualitätskontrolle; nicht als Arzneimittel zugelassen.'
     ],
-    status: 'Forschungs-Peptid; außerhalb Russlands nicht zugelassen.',
+    status: 'Forschungspeptid; in Deutschland und der EU nicht als Arzneimittel zugelassen.',
     sources: [
-      { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & telomere length', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
-      { title: 'Anisimov VN et al., Mech Ageing Dev 2003 – lifespan in mice', url: 'https://pubmed.ncbi.nlm.nih.gov/12694675/' }
+      { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epithalon induziert Telomerase und Telomerverlängerung', url: 'https://pubmed.ncbi.nlm.nih.gov/12937682/' },
+      { title: 'Anisimov VN et al., Biogerontology 2003 – Lebensdauer und Tumoren bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/14501183/' },
+      { title: 'Al-Dulaimi S et al., Biogerontology 2025 – unabhängige Replikation in menschlichen Zelllinien', url: 'https://pubmed.ncbi.nlm.nih.gov/40908429/' },
+      { title: 'Korkushko OV et al., Bull Exp Biol Med 2006 – Epithalamin, 12 Jahre bei älteren Herzpatienten', url: 'https://pubmed.ncbi.nlm.nih.gov/17426848/' }
     ],
     community: [
       { title: 'Peptide Therapies – inkl. Epitalon', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
@@ -1262,18 +1244,12 @@ const EXPERIMENTAL = [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
-      {
-        title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck',
-        audio: 'audio/epitalon-podcast.mp3',
-        spotify: '3fwqZGKZCED0D8iimUNcnm',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 24) · mit Paul & Paula. Frische KI-Dialogfolge mit Fachrecherche zur verlockenden Telomerase-/Telomer-Story: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig (kleine, unverblindete russische Studien). Plus die offene Krebsfrage bei einem Telomerase-Aktivator und der Melatonin-/Schlaf-Bezug. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'Epitalon: Telomer-Verlängerung als Anti-Aging im Faktencheck', audio: 'audio/epitalon-podcast.mp3', spotify: '3fwqZGKZCED0D8iimUNcnm', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 24) · mit Paul & Paula. Frische KI-Dialogfolge mit Fachrecherche zur verlockenden Telomerase-/Telomer-Story: auf Zellebene gibt es Daten (inkl. unabhängiger Replikation 2025), beim Menschen fehlt der belastbare Beweis fast völlig (kleine, unverblindete russische Studien). Plus die offene Krebsfrage bei einem Telomerase-Aktivator und der Melatonin-/Schlaf-Bezug. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Khavinson VK et al., Bull Exp Biol Med 2003 – Epitalon & Telomerlänge', url: 'https://pubmed.ncbi.nlm.nih.gov/14760439/' },
           { title: 'Al-Dulaimi et al., Biogerontology 2025 – unabhängige Replikation der Telomer-Verlängerung (Zellen)', url: 'https://link.springer.com/article/10.1007/s10522-025-10315-x' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Longevity'
   },
   {
     id: 'selank',
@@ -1284,38 +1260,35 @@ const EXPERIMENTAL = [
     short: 'Ein russisches Tuftsin-Peptid, dem angstlösende Effekte ohne Sedierung und ohne Abhängigkeitspotenzial zugeschrieben werden. Die Studien dazu stammen fast ausschließlich aus Russland und sind klein.',
     moa: 'Selank ist ein synthetisches Analogon des endogenen Tetrapeptids Tuftsin und wurde zur Stabilisierung gegen enzymatischen Abbau modifiziert. Diskutiert werden Einflüsse auf das GABAerge sowie serotonerge System und eine Modulation der Konzentration von Enkephalinen. In tierexperimentellen und frühen klinischen Untersuchungen wurden anxiolytische und immunmodulierende Effekte beschrieben. Die Anwendung erfolgt in Russland üblicherweise intranasal. Die Evidenz basiert überwiegend auf russischsprachigen Studien mit begrenzter externer Bestätigung.',
     benefits: [
-      'In Studien mit angstlösenden Effekten ohne ausgeprägte Sedierung assoziiert.',
-      'Diskutierte Wirkung auf Stimmung und Stressverarbeitung.',
-      'Hinweise auf immunmodulierende Eigenschaften aus dem Tuftsin-Bezug.',
-      'In Berichten ohne das Abhängigkeitspotenzial klassischer Benzodiazepine beschrieben.',
-      'Mögliche Unterstützung kognitiver Stabilität unter Stress.',
+      'In drei russischen Vergleichsstudien mit Angstpatienten (60 bis 70 Teilnehmer) ähnlich angstlösend wie Benzodiazepine, ohne ausgeprägte Sedierung.',
+      'Als Zusatz zu Phenazepam früherer Wirkeintritt und weniger Benzodiazepin-Nebenwirkungen, auch nach dem Absetzen.',
+      'Zusätzlich leicht aktivierende, gegen Erschöpfung gerichtete Wirkung beschrieben.',
+      'Im Labor Feinregler am GABA-System statt Hauptschalter; BDNF-Beteiligung im Tiermodell.',
+      'Hinweise auf immunmodulierende Eigenschaften aus dem Tuftsin-Bezug (Tiermodell).',
       'In der russischen Anwendung als gut verträglich beschrieben.'
     ],
     risks: [
-      'Evidenz überwiegend aus Russland; die große internationale Bestätigung steht aus.',
+      'Evidenz überwiegend aus Russland, kein Placebovergleich; die internationale Bestätigung steht aus.',
+      'Für Gesunde als Nootropikum nicht untersucht; Langzeitdaten fehlen.',
+      'Kombination mit Beruhigungsmitteln nur ärztlich begleitet.',
       'In DE/EU nicht zugelassen; als Research-Ware auf Qualität achten.'
     ],
     status: 'In Russland registriert; in DE/EU nicht zugelassen.',
     sources: [
-      { title: 'Zozulya et al., Bull Exp Biol Med 2008 – Selank bei generalisierter Angststörung', url: 'https://pubmed.ncbi.nlm.nih.gov/19240853/' },
-      { title: 'Kolomin et al., J Psychopharmacol 2013 – Selank und Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/22832761/' }
+      { title: 'Zozulia et al., Zh Nevrol Psikhiatr 2008 – Selank bei generalisierter Angststörung (62 Patienten)', url: 'https://pubmed.ncbi.nlm.nih.gov/18454096/' },
+      { title: 'Medvedev et al., Zh Nevrol Psikhiatr 2015 – Selank als Zusatz zu Phenazepam (70 Patienten)', url: 'https://pubmed.ncbi.nlm.nih.gov/26356395/' },
+      { title: 'Volkova et al., Front Pharmacol 2016 – Selank und GABA-Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/26924987/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
-      {
-        title: 'Selank: Angst lösen ohne Benzo-Nebenwirkungen? Das russische Peptid im Faktencheck',
-        audio: 'audio/selank-podcast.mp3',
-        spotify: '4aVYSN3bbxyUtzXsLmzNGg',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)',
-        note: 'Der Podcast von Paul Höser (Folge 25). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die vielversprechende, aber überwiegend russische Studienlage ein: in Russland als Angst-Medikament zugelassen, mildes Sicherheitsprofil – die große internationale Bestätigung steht aber noch aus. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – in Deutschland nicht als Arzneimittel zugelassen.',
-        sources: [
-          { title: 'Zozulya et al., Bull Exp Biol Med 2008 – Selank bei generalisierter Angststörung', url: 'https://pubmed.ncbi.nlm.nih.gov/19240853/' },
-          { title: 'Kolomin et al., J Psychopharmacol 2013 – Selank und Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/22832761/' }
-        ]
-      }
-    ]
+      { title: 'Selank: Angst lösen ohne Benzo-Nebenwirkungen? Das russische Peptid im Faktencheck', audio: 'audio/selank-podcast.mp3', spotify: '4aVYSN3bbxyUtzXsLmzNGg', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)', note: 'Der Podcast von Paul Höser (Folge 25). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die vielversprechende, aber überwiegend russische Studienlage ein: in Russland als Angst-Medikament zugelassen, mildes Sicherheitsprofil – die große internationale Bestätigung steht aber noch aus. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – in Deutschland nicht als Arzneimittel zugelassen.', sources: [
+          { title: 'Zozulia et al., Zh Nevrol Psikhiatr 2008 – Selank bei generalisierter Angststörung', url: 'https://pubmed.ncbi.nlm.nih.gov/18454096/' },
+          { title: 'Volkova et al., Front Pharmacol 2016 – Selank und GABA-Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/26924987/' }
+        ] }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'semax',
@@ -1405,41 +1378,37 @@ const EXPERIMENTAL = [
     altNames: 'PDA, BPC-157 Arginat-Salz, Pentadecapeptid-Arginat',
     class: 'Synthetisches Pentadecapeptid (stabilisierte BPC-157-Weiterentwicklung)',
     emoji: '🩹',
-    short: 'Der 2025/26-Nachfolger von BPC-157: dieselbe 15-Aminosäuren-Idee zur Geweberegeneration, aber als Arginat-Salz stabiler – in der Heilungs-Szene stark im Kommen.',
-    moa: 'Pentadeca Arginate ist eng mit BPC-157 verwandt (dasselbe 15-Aminosäuren-Grundgerüst), liegt aber als Arginat-Salz vor, was es chemisch stabiler und potenziell besser haltbar/bioverfügbar machen soll. Der postulierte Wirkmechanismus entspricht BPC-157: Förderung der Zellwanderung und Gefäßneubildung (Angiogenese), entzündungsmodulierende Effekte und Unterstützung der Heilung von Sehnen, Bändern, Muskel und Magen-Darm-Schleimhaut. Wichtig: Die Datenlage stammt fast ausschließlich aus BPC-157-Studien (überwiegend Tiermodelle) und Anwenderberichten; eigenständige Studien zu PDA fehlen weitgehend.',
+    short: 'BPC-157 als Arginin-Salz: dieselben 15 Aminosäuren, groß geworden, als die FDA BPC-157 2023 für Rezepturapotheken sperrte. Breite Tierdaten zur Sequenz, aber keine einzige eigene Studie zu PDA.',
+    moa: 'Pentadeca Arginate hat dieselbe 15-Aminosäuren-Sequenz wie BPC-157, liegt aber als Arginat-Salz statt als Acetat vor. Anbieter werben mit höherer Stabilität, besserer Löslichkeit und Aufnahme – veröffentlichte Daten dazu gibt es nicht. Der postulierte Wirkmechanismus entspricht BPC-157: Gefäßneubildung über den VEGFR2-Signalweg, Aktivierung von Fibroblasten und Modulation des Stickstoffmonoxid-Systems, dazu entzündungsdämpfende Effekte. Das ist in Zell- und Tiermodellen konsistent beschrieben; eine NO-abhängige Gefäßerweiterung wurde 2026 an menschlichem Arteriengewebe im Labor gezeigt. Eigenständige Studien zu PDA fehlen; am Menschen gibt es zur Sequenz nur 3 unkontrollierte Pilotstudien.',
     benefits: [
-      'Stabilere Arginat-Form – soll Haltbarkeit und Verträglichkeit gegenüber BPC-157 verbessern.',
-      'Gleiche regenerative Idee: Sehnen, Bänder, Muskel, Magen-Darm (überwiegend aus BPC-157-Daten).',
-      'Fördert (im Modell) Gefäßneubildung und Geweberegeneration.',
-      'Keine hormonelle Wirkung.'
+      'Identische Sequenz wie BPC-157 – stützt sich auf dessen breite Tierdatenbasis.',
+      'Im Tiermodell bessere Heilung von Sehnen, Bändern, Muskel, Knochen und Magen-Darm-Schleimhaut (BPC-157-Daten).',
+      'Fördert im Modell Gefäßneubildung, Fibroblastenaktivität und Durchblutung über das NO-System.',
+      'Arginat-Form laut Anbietern stabiler und besser löslich (Herstellerangabe, nicht publiziert).',
+      'Aus US-Praxen überwiegend positive Anwenderberichte, v. a. bei Sehnen und rund um Operationen (ohne Kontrollgruppe).'
     ],
     risks: [
-      'Eigenständige Studien zu PDA fehlen fast völlig – Wirkung ist aus BPC-157 extrapoliert.',
+      'Eigenständige Studien zu PDA fehlen völlig – Wirkung ist aus BPC-157 übertragen, dort am Menschen nur 3 unkontrollierte Pilotstudien.',
       'Nicht als Arzneimittel zugelassen; reine Research-/Graumarkt-Ware (Reinheit ungewiss).',
-      'Im Wettkampfsport wie BPC-157 als nicht zugelassene Substanz kritisch (WADA S0).',
-      'Langzeitsicherheit unbekannt; theoretisches Risiko über die gefäßfördernde Wirkung.'
+      'Im Wettkampfsport wie BPC-157 verboten bzw. kritisch (WADA S0).',
+      'Keine klinischen Sicherheitsdaten; wegen der gefäßfördernden Wirkung bei aktiven Krebserkrankungen meiden.'
     ],
-    status: 'Neues Forschungs-Peptid, nicht zugelassen. Evidenz weitgehend aus BPC-157 abgeleitet.',
+    status: 'Nicht zugelassen. Keine eigene Publikation; Evidenz aus BPC-157 abgeleitet. USA: BPC-157 seit 2023 für Rezepturapotheken gesperrt, ein FDA-Beratungsgremium empfahl 2026 die Wiederaufnahme (nicht bindend).',
     sources: [
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' },
-      { title: 'PeptideCase – Top 10 Research Peptides 2026', url: 'https://peptidecase.com/blog/top-10-research-peptides-2026' }
+      { title: 'Vasireddi et al., HSS J 2025 – BPC-157 in der orthopädischen Sportmedizin (systematischer Review)', url: 'https://pubmed.ncbi.nlm.nih.gov/40756949/' },
+      { title: 'McGuire et al., Curr Rev Musculoskelet Med 2025 – BPC-157 für Muskel- und Sehnenheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/40789979/' },
+      { title: 'Mateescu et al., Pharmaceutics 2026 – BPC-157 aus Sicht der Arzneimittelentwicklung', url: 'https://pubmed.ncbi.nlm.nih.gov/42198317/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Pentadeca Arginate (PDA): Der Nachfolger von BPC-157 im Faktencheck',
-        audio: 'audio/pentadeca-arginate-podcast.mp3',
-        spotify: '25P0QX2mR0rtaupodPvMpC',
-        lengthLabel: '≈ 14 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 40) · mit Paul & Paula. Als die FDA Ende 2023 BPC-157 ausbremste, füllte PDA die Lücke: dieselbe 15-Aminosäuren-Sequenz, aber als stabileres Arginat-Salz. Die Folge erzählt die Sikirić-Forschung (Brcic 2009, Seiwerth 2021), den Mechanismus (VEGFR2-Angiogenese, Fibroblasten, NO), Einsatzfelder von Sehne bis Darm, Prä-/Post-OP-Protokolle, den neuen Wolverine-Stack mit TB-500 – und ordnet die Evidenz ehrlich ein (keine eigenen Humanstudien). Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
-          { title: 'Brcic et al., J Physiol Pharmacol 2009 – BPC-157 Sehnen-/Muskelheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/20388954/' },
-          { title: 'Seiwerth et al., Curr Pharm Des 2021 – BPC-157 Review', url: 'https://pubmed.ncbi.nlm.nih.gov/33076807/' }
-        ]
-      }
-    ]
+      { title: 'Pentadeca Arginate (PDA): Der Nachfolger von BPC-157 im Faktencheck', audio: 'audio/pentadeca-arginate-podcast.mp3', spotify: '25P0QX2mR0rtaupodPvMpC', lengthLabel: '≈ 14 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 40) · mit Paul & Paula. Als die FDA Ende 2023 BPC-157 ausbremste, füllte PDA die Lücke: dieselbe 15-Aminosäuren-Sequenz, aber als stabileres Arginat-Salz. Die Folge erzählt die Sikirić-Forschung (Brcic 2009, Seiwerth 2021), den Mechanismus (VEGFR2-Angiogenese, Fibroblasten, NO), Einsatzfelder von Sehne bis Darm, Prä-/Post-OP-Protokolle, den neuen Wolverine-Stack mit TB-500 – und ordnet die Evidenz ehrlich ein (keine eigenen Humanstudien). Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
+          { title: 'Brcic et al., J Physiol Pharmacol 2009 – BPC-157 und Gefäßneubildung in Muskel- und Sehnenheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/20388964/' },
+          { title: 'Vasireddi et al., HSS J 2025 – BPC-157 in der orthopädischen Sportmedizin (systematischer Review)', url: 'https://pubmed.ncbi.nlm.nih.gov/40756949/' }
+        ] }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'ss-31',
@@ -1536,43 +1505,48 @@ const EXPERIMENTAL = [
     altNames: '5-Amino-1-Methylquinolinium',
     class: 'NNMT-Inhibitor (Nicotinamid-N-Methyltransferase)',
     emoji: '⚗️',
-    short: 'Hemmt im Labor das Stoffwechsel-Enzym NNMT und hebt dadurch den zellulären NAD+-Spiegel. Fettabbau und Regeneration sind Mausdaten – Studien am Menschen gibt es nicht.',
-    moa: 'Selektive Hemmung der Nicotinamid-N-Methyltransferase (NNMT). NNMT-Überaktivität ist mit Fettleibigkeit und Sarkopenie assoziiert. Hemmung erhöht NAD+ und Methylgruppen-Pool.',
+    short: 'Hemmt das Enzym NNMT und hebt damit in Zellen NAD+ und den Methylgruppen-Spender SAM. Fettverlust ohne Appetitzügelung und mehr Muskelkraft sind an Mäusen gemessen; Studien am Menschen gibt es nicht.',
+    moa: 'Selektive Hemmung der Nicotinamid-N-Methyltransferase (NNMT). NNMT methyliert Nicotinamid mit SAM als Methylgruppenspender und entzieht dem NAD+-Kreislauf damit einen Baustein. Das Enzym ist im weißen Fettgewebe und in der Leber fettleibiger und diabetischer Mäuse verstärkt aktiv. Hemmung senkt in Fettzellen das Reaktionsprodukt 1-Methylnicotinamid, hebt NAD+ und SAM und unterdrückt die Fettneubildung. Dass ein Herunterfahren von NNMT vor ernährungsbedingtem Übergewicht schützt und dabei der Energieverbrauch der Zellen steigt, stammt aus dem genetischen Mausmodell (Kraus et al., Nature 2014); der Wirkstoffversuch von 2018 zeigte Gewichts- und Fettverlust bei unverändertem Fressverhalten, ohne den Energieverbrauch selbst zu messen.',
     benefits: [
-      'Reduziert Fettmasse in adipösen Mäusen (-7% in 11 Tagen)',
-      'Erhöhte in Mäusen das muskuläre NAD+ und die Regeneration',
-      'Verbessert Insulinsensitivität präklinisch',
-      'Diskutierter Anti-Aging-Mechanismus – ohne Daten am Menschen'
+      'Fettleibige Mäuse verloren über 11 Tage 2,0 g Gewicht, während Kontrolltiere 0,6 g zulegten; Bauchfett minus etwa 35 Prozent (Neelakantan et al. 2018).',
+      'Der Verlust lief nicht über den Appetit: Der Futterverzehr war in beiden Gruppen praktisch gleich.',
+      'Hebt in kultivierten Fettzellen NAD+ und SAM und unterdrückt die Fettneubildung; verwandte Methyltransferasen werden nicht gehemmt.',
+      'Bei 24 Monate alten Mäusen nach Muskelverletzung nahezu doppelte Faserquerschnitte und rund 70 Prozent mehr Spitzenkraft (2019).',
+      'Im Trainingsvergleich an alten Mäusen rund 40 Prozent mehr Griffkraft unter Wirkstoff allein, 20 Prozent unter Training allein, rund 60 Prozent in der Kombination (2024).',
+      'Über 28 Tage bessere orale Glukosetoleranz, höhere Insulinsensitivität und mildere Fettleber bei fettleibigen Mäusen (Babula et al. 2024).',
+      'Kleines Molekül statt Peptid: in Ratten oral verfügbar (38,4 Prozent), daher als Kapsel diskutiert.'
     ],
     risks: [
-      'Bisher nur präklinische Daten, noch keine Humanstudien.',
-      'Als Forschungssubstanz auf Reinheit und Dosierung achten.'
+      'Keine veröffentlichte Humanstudie und kein Eintrag in den öffentlichen Studienregistern.',
+      'Pharmakokinetik nur aus Ratten; Verweildauer und Aufnahme beim Menschen unbekannt.',
+      'NNMT ist in vielen Tumoren verstärkt aktiv und greift in NAD+-Stoffwechsel und Methylierung ein; Folgen einer längeren Hemmung beim Menschen sind offen.',
+      'Als Forschungschemikalie verkauft: Reinheit, Gehalt und Beimischungen sind ungeprüft.',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
     ],
-    status: 'Präklinische Forschung; noch nicht zugelassen.',
+    status: 'Präklinische Forschung; in DE/EU kein zugelassenes Arzneimittel und kein zugelassenes Nahrungsergänzungsmittel. Vertrieb als Forschungschemikalie ohne Bestimmung für den menschlichen Gebrauch.',
     sources: [
-      { title: 'Neelakantan H et al., Biochem Pharmacol 2018 – 5-Amino-1MQ in obesity', url: 'https://pubmed.ncbi.nlm.nih.gov/29307490/' },
-      { title: 'Neelakantan H et al., Sci Rep 2019 – muscle regeneration', url: 'https://www.nature.com/articles/s41598-019-46666-y' }
+      { title: 'Kraus et al., Nature 2014 – NNMT-Knockdown schützt Mäuse vor ernährungsbedingtem Übergewicht', url: 'https://pubmed.ncbi.nlm.nih.gov/24717514/' },
+      { title: 'Neelakantan et al., Biochem Pharmacol 2018 – selektive NNMT-Hemmer kehren Übergewicht bei Mäusen um', url: 'https://pubmed.ncbi.nlm.nih.gov/29155147/' },
+      { title: 'Neelakantan et al., Biochem Pharmacol 2019 – Muskelstammzellen und Kraft alter Mäuse', url: 'https://pubmed.ncbi.nlm.nih.gov/30753815/' },
+      { title: 'Dimet-Wiley et al., Sci Rep 2024 – NNMT-Hemmung und Training bei alten Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/38969654/' },
+      { title: 'Babula et al., Diabetes Obes Metab 2024 – 28 Tage 5A1MQ, Glukosetoleranz und Leber', url: 'https://pubmed.ncbi.nlm.nih.gov/39161060/' },
+      { title: 'Awosemo et al., J Pharm Biomed Anal 2021 – Pharmakokinetik in Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/34304009/' },
+      { title: 'ClinicalTrials.gov – keine eingetragene Studie zu 5-Amino-1MQ oder NNMT-Inhibitoren', url: 'https://clinicaltrials.gov/search?term=NNMT%20inhibitor' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'biolabshop (Suche „5-Amino-1MQ")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: 5-Amino-1MQ – der NNMT-Hemmer, der Fett über Energieverbrauch angeht',
-        audio: 'audio/5-amino-1mq-podcast.mp3',
-        spotify: '71gD9FHwpfiLoCfy8BjgTy',
-        lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser (Folge 8). Frische KI-Dialogfolge (Paul & Paula) mit Fachrecherche: eleganter NAD+- und SAM-Mechanismus, Fettverlust über mehr Energieverbrauch, Muskel/Kraft, Longevity – plus ehrlicher Reality-Check (Tierdaten, keine reifen Humanstudien, Graumarkt). Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'KI-Podcast: 5-Amino-1MQ – der NNMT-Hemmer, der Fett über Energieverbrauch angeht', audio: 'audio/5-amino-1mq-podcast.mp3', spotify: '71gD9FHwpfiLoCfy8BjgTy', lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 8). Frische KI-Dialogfolge (Paul & Paula) mit Fachrecherche: eleganter NAD+- und SAM-Mechanismus, Fettverlust über mehr Energieverbrauch, Muskel/Kraft, Longevity – plus ehrlicher Reality-Check (Tierdaten, keine reifen Humanstudien, Graumarkt). Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Peptide of The Week – 5-Amino-1MQ', url: 'https://open.spotify.com/episode/0RPGxM1H0gS8MDwXBVYUzw' },
           { title: 'The Hunter Williams Podcast – 5-Amino-1MQ', url: 'https://open.spotify.com/episode/5XcHZpVLizSlmsoCjNJwQq' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/2jwvG4DQ5ugvDRHp6eQJ62' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/110TpqttgUPRR6QGnKZYK8' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/4VPXGE9vptqGXjiB3Wb0fI' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'tesofensin',
@@ -1580,37 +1554,34 @@ const EXPERIMENTAL = [
     altNames: 'NS2330',
     class: 'Triple Monoamin-Reuptake-Inhibitor (Noradrenalin, Dopamin, Serotonin)',
     emoji: '🧪',
-    short: 'Ursprünglich für Alzheimer entwickelt, zeigt dieser Dreifach-Botenstoff-Hebel in Studien deutliche Gewichtsabnahme und starke Appetitkontrolle – in Mexiko bereits als Adipositas-Mittel zugelassen.',
+    short: 'Ursprünglich für Parkinson und Alzheimer entwickelt, dämpft dieser Dreifach-Wiederaufnahmehemmer den Appetit deutlich: bis 10,6 Prozent Gewichtsverlust in 24 Wochen in einer Phase-2-Studie. Nirgends zugelassen, in Mexiko beantragt.',
     moa: 'Hemmt die Wiederaufnahme von Noradrenalin, Dopamin und Serotonin im Gehirn. Steigert Sättigungsgefühl und reduziert Hungerempfinden.',
     benefits: [
-      '10–11% Gewichtsverlust in 24 Wochen Phase-2-Studie',
-      'Stärkere Reduktion als Sibutramin (vom Markt) oder Orlistat',
-      'Verbessert Insulinresistenz',
-      'In Mexiko unter dem Namen "Tesomet" für Adipositas zugelassen (Saniona)'
+      'Phase-2-Studie (Lancet 2008, 203 Patienten, 24 Wochen): 4,5, 9,2 und 10,6 Prozent Gewichtsverlust je nach Dosis, gegenüber 2,0 Prozent unter Diät und Placebo',
+      'Wirkt vor allem über weniger Appetit und mehr Sättigung, als Tablette ohne Spritze',
+      'Die mittlere Dosis könnte laut den Studienautoren etwa doppelt so viel Gewichtsverlust bewirken wie die 2008 zugelassenen Abnehmmittel – ein direkter Vergleich fehlt',
+      'Kombination mit Metoprolol (Tesomet): in einer kleinen Studie bei hypothalamischer Adipositas zusätzlich 6,3 Prozent Gewichtsverlust ohne signifikante Puls- oder Blutdruckunterschiede'
     ],
     risks: [
-      'Kann Blutdruck und Puls anheben – Herz-Kreislauf gehört daher im Blick.',
-      'Möglich sind Mundtrockenheit, Schlaf- oder Stimmungseffekte.',
-      'In DE/EU noch nicht zugelassen (Phase 3 läuft).'
+      'Hebt den Puls an (in der mittleren Studiendosis um 7,4 Schläge pro Minute) – Herz-Kreislauf gehört daher im Blick.',
+      'Häufig Mundtrockenheit, Schlafstörungen, Übelkeit; möglich sind Unruhe und Stimmungseffekte.',
+      'Nicht zugelassen (DE/EU/USA); Zulassungsantrag in Mexiko ohne erteilte Zulassung. Im Sport im Wettkampf verboten (WADA S6.B).'
     ],
-    status: 'In Mexiko zugelassen (Saniona), in EU/USA in Phase 3. Bei uns noch nicht erhältlich.',
+    status: 'Nirgends zugelassen: In Mexiko liegt ein Zulassungsantrag (positives, nicht bindendes Votum 2023, Zulassung bis September 2026 nicht auffindbar); in DE/EU/USA nicht zugelassen und nicht erhältlich.',
     sources: [
-      { title: 'Astrup A et al., Lancet 2008 – Tesofensine Phase 2', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)61525-1/fulltext' },
-      { title: 'Saniona Press Release Mexico approval 2024', url: 'https://saniona.com/' }
+      { title: 'Astrup A et al., Lancet 2008 – Tesofensine Phase 2', url: 'https://pubmed.ncbi.nlm.nih.gov/18950853/' },
+      { title: 'Huynh K et al., Eur J Endocrinol 2022 – Tesomet bei hypothalamischer Adipositas', url: 'https://pubmed.ncbi.nlm.nih.gov/35294397/' },
+      { title: 'Sjödin A et al., Int J Obes 2010 – Energieverbrauch und Appetit', url: 'https://pubmed.ncbi.nlm.nih.gov/20479765/' },
+      { title: 'Saniona – Tesofensine (Herstellerangabe zum Zulassungsstand)', url: 'https://saniona.com/pipeline/tesofensine/' }
     ],
     community: [
       { title: 'Iron Mike: SLU-PP-332 vs. Tesofensine', url: 'https://www.youtube.com/shorts/kD6FVLFTcK8' },
       { title: 'biolabshop (Suche „Tesofensin")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: Tesofensine – der Zufalls-Fund als Abnehm-Tablette (mit Tesomet-Trick)',
-        audio: 'audio/tesofensine-podcast.mp3',
-        spotify: '4tCUWipyMuwsmSQ2foeKBV',
-        lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser (Folge 34). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.'
-      }
-    ]
+      { title: 'KI-Podcast: Tesofensine – der Zufalls-Fund als Abnehm-Tablette (mit Tesomet-Trick)', audio: 'audio/tesofensine-podcast.mp3', spotify: '4tCUWipyMuwsmSQ2foeKBV', lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 34). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.' }
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'amycretin',
@@ -1618,27 +1589,29 @@ const EXPERIMENTAL = [
     altNames: 'GLP-1/Amylin-Doppelagonist (Novo Nordisk)',
     class: 'GLP-1- und Amylin-Rezeptor-Agonist in einem Molekül',
     emoji: '💉',
-    short: 'Der nächste große Abnehm-Kandidat von Novo Nordisk: kombiniert GLP-1 und Amylin in einem einzigen Molekül – als Tablette UND als Spritze in Phase 3, mit Aussicht auf noch stärkere Effekte.',
-    moa: 'Amycretin aktiviert gleichzeitig den GLP-1-Rezeptor (Sättigung, Insulin, verzögerte Magenentleerung) und den Amylin-Rezeptor (zusätzliche, komplementäre Sättigung). Zwei Sättigungssysteme in einem Molekül – ähnlich der Idee hinter CagriSema, aber vereint. Entwickelt wird sowohl eine orale als auch eine injizierbare Form; frühe Studien zeigten sehr deutliche Gewichtsverluste, die aktuell in Phase 3 bestätigt werden sollen.',
+    short: 'Der nächste große Abnehm-Kandidat von Novo Nordisk: GLP-1 und Amylin in einem einzigen Molekül, als Spritze und als Tablette. In frühen Studien bis zu 24,3 Prozent Gewichtsabnahme nach 36 Wochen – Phase 3 ab 2026 angekündigt.',
+    moa: 'Amycretin aktiviert gleichzeitig den GLP-1-Rezeptor (Sättigung, Insulin, verzögerte Magenentleerung) und den Amylin-Rezeptor (Sättigung über den Hirnstamm, Ende der Mahlzeit); im Labor auch den Calcitonin-Rezeptor. Zwei Sättigungssysteme in einem Molekül – ähnlich der Idee hinter CagriSema, aber vereint. Entwickelt werden eine Wochenspritze und eine Tablette; in placebokontrollierten Frühstudien zeigten beide deutliche Gewichtsabnahmen, die in Phase 3 bestätigt werden sollen.',
     benefits: [
-      'Doppelmechanismus (GLP-1 + Amylin) – potenziell stärkere Wirkung als reine GLP-1-Mittel.',
-      'Sowohl oral als auch injizierbar in Entwicklung.',
-      'Frühe Studien mit ausgeprägtem Gewichtsverlust.',
-      'Ein Molekül statt Kombipräparat – einfacheres Handling.'
+      'Doppelmechanismus (GLP-1 + Amylin) in einem Molekül; in einer Netzwerk-Metaanalyse größter Placebo-Unterschied aller Amylin-basierten Therapien (indirekter Vergleich, niedrige Vertrauenswürdigkeit).',
+      'Spritze: bis zu 24,3 % Gewichtsabnahme nach 36 Wochen in einer placebokontrollierten Lancet-Studie (125 Teilnehmer).',
+      'Tablette: bis zu 13,1 % Gewichtsabnahme nach 12 Wochen in der ersten Studie am Menschen.',
+      'Bei Typ-2-Diabetes laut Firmenmitteilung bis zu 14,5 % Gewichtsabnahme und bis zu 1,8 Prozentpunkte weniger HbA1c (Phase 2, 448 Teilnehmer).'
     ],
     risks: [
-      'Noch in der klinischen Prüfung (Phase 3) – nicht zugelassen und nicht regulär verfügbar.',
-      'Aus der Klasse bekannt: Übelkeit/Verdauungsthemen v.a. zu Beginn.',
-      'Langzeitdaten stehen aus; am Graumarkt gehandelte Ware ist ungeprüft.'
+      'Prüfpräparat, nicht zugelassen und nicht regulär verfügbar; Phase 3 ab 2026 angekündigt.',
+      'Häufig Übelkeit, Erbrechen und andere Magen-Darm-Beschwerden, v. a. in der Aufdosierung; ein Fall einer Gallenstein-Pankreatitis.',
+      'Langzeitdaten fehlen (max. 36 Wochen); am Graumarkt gehandelte Ware ist nicht das Originalmolekül.'
     ],
-    status: 'Phase 3 (Novo Nordisk). Noch nicht zugelassen.',
+    status: 'Prüfpräparat (Novo Nordisk), nicht zugelassen. Phase 3 für Übergewicht ab dem ersten Quartal 2026 und für Typ-2-Diabetes 2026 angekündigt.',
     sources: [
-      { title: 'Drug Discovery News – GLP-1 Pipeline 2026 (Amycretin)', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' },
-      { title: 'Meto – Next-Generation GLP-1 Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' }
+      { title: 'Dahl K et al., Lancet 2025 – Amycretin subkutan, Phase 1b/2a', url: 'https://pubmed.ncbi.nlm.nih.gov/40550231/' },
+      { title: 'Gasiorek A et al., Lancet 2025 – Amycretin oral, Phase 1', url: 'https://pubmed.ncbi.nlm.nih.gov/40550229/' },
+      { title: 'Novo Nordisk – Phase 2 bei Typ-2-Diabetes (Unternehmensmitteilung 25.11.2025)', url: 'https://www.globenewswire.com/news-release/2025/11/25/3194155/0/en/Novo-Nordisk-phase-2-trial-with-amycretin-reports-significant-weight-loss-and-HbA1c-reduction-in-type-2-diabetes.html' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'survodutide',
@@ -1730,74 +1703,69 @@ const EXPERIMENTAL = [
     altNames: 'Long R3 IGF-1, Insulin-like Growth Factor 1 LR3',
     class: 'Langwirksames IGF-1-Analogon (Wachstumsfaktor)',
     emoji: '💪',
-    short: 'Der potente, direkt wirkende Muskel-Wachstumsfaktor: eine langwirksame IGF-1-Variante – kraftvoll in der Bodybuilding-Szene, aber mit ernstem Risikoprofil.',
+    short: 'Die im Labor entfesselte Variante des Wachstumsfaktors IGF-1: entgeht den Bindungsproteinen und wirkt im Tier stärker und länger als das Original. Entwickelt als Zellkultur-Reagenz, beim Menschen nie geprüft, mit ernstem Risikoprofil.',
     moa: 'IGF-1 LR3 ist eine chemisch veränderte, langwirksame Form des Insulin-like Growth Factor 1 (dem Vermittler vieler GH-Effekte). Es bindet weniger an Bindeproteine und bleibt dadurch deutlich länger aktiv. Es fördert direkt Zellwachstum, Proteinsynthese und Muskel-Hyperplasie/Hypertrophie. Wegen der direkten, starken Wachstumswirkung wird es in der Muskelaufbau-Szene genutzt – birgt aber deutliche Risiken.',
     benefits: [
-      'Soll direkt Muskelwachstum fördern (Proteinsynthese, Zellteilung) – Tier- und Zelldaten, keine Humanstudien',
-      'Langwirksam – anhaltender IGF-1-Reiz',
-      'Kann die Regeneration von Gewebe unterstützen'
+      'In Muskelzellkulturen stärkerer Anreiz für Eiweiß- und DNA-Synthese als normales IGF-1 – Zelldaten, keine Humanstudien',
+      'Bei Ratten unter Kortison etwa 2,5-fach so anabol wie IGF-1 – Tierdaten',
+      'Entgeht den IGF-Bindungsproteinen und wirkt dadurch länger als körpereigenes IGF-1',
+      'IGF-1 aktiviert im Tier Satellitenzellen und fördert Muskelregeneration – für gespritztes LR3 beim Menschen nicht gezeigt'
     ],
     risks: [
-      'Ernstes Profil: IGF-1 fördert generelles Zellwachstum – theoretisches Krebsrisiko, besonders bei bestehenden Tumoren',
-      'Unterzuckerung (insulinähnliche Wirkung), Organwachstum bei Überdosierung',
-      'Nicht zugelassen, im Wettkampfsport verboten; Graumarkt-Ware ungeprüft',
-      'Nur mit großer Vorsicht und Sachkenntnis – hohe Missbrauchsgefahr'
+      'Unterzuckerung: IGF-1-Varianten senkten den Blutzucker im Tier 2- bis 3-fach stärker und viel länger als IGF-1; selbst beim zugelassenen Mecasermin ist Hypoglykämie sehr häufig',
+      'Wachstumsfrage: IGF-1 fördert generell Zellwachstum; das zugelassene Mecasermin ist bei aktiver oder vermuteter Neoplasie kontraindiziert – bei Krebs, auch in der Vorgeschichte, keine Datengrundlage',
+      'Organwachstum: Nieren, Darm, Milz und Nebennieren nahmen im Tierversuch zu',
+      'Nicht zugelassen, von der WADA verboten und nachweisbar; Graumarkt-Ware ungeprüft'
     ],
-    status: 'Kein zugelassenes Arzneimittel; Forschungssubstanz, im Sport verboten.',
+    status: 'Kein zugelassenes Arzneimittel; Forschungsreagenz. Im Sport verboten (WADA S2.3, IGF-1 und Analoga). Zugelassenes Gegenstück: Mecasermin für Kinder mit schwerem primärem IGF-1-Mangel.',
     sources: [
-      { title: 'PeptideDeck – Muscle-Growth Peptides 2026', url: 'https://www.peptidedeck.com/peptides/best-growth-hormone-peptides-2026' },
-      { title: 'Musculoskeletal Key – Best Peptides for Muscle Growth 2026', url: 'https://musculoskeletalkey.com/best-peptides-for-muscle-growth-2026-top-options-and-where-to-source-them/' }
+      { title: 'Francis GL et al., J Mol Endocrinol 1992 – lange IGF-1-Varianten und Bindungsproteine', url: 'https://pubmed.ncbi.nlm.nih.gov/1378742/' },
+      { title: 'Tomas FM et al., Biochem J 1992 – LR3 anabol bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/1371669/' },
+      { title: 'Tomas FM et al., J Endocrinol 1997 – stärkere und längere Blutzuckersenkung', url: 'https://pubmed.ncbi.nlm.nih.gov/9415072/' },
+      { title: 'Conlon MA et al., J Endocrinol 1995 – LR3 und Organwachstum', url: 'https://pubmed.ncbi.nlm.nih.gov/7561636/' },
+      { title: 'WADA – Prohibited List, S2.3 Growth Factors', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
-      {
-        title: 'IGF-1 LR3: Der Wachstumsfaktor im Faktencheck',
-        audio: 'audio/igf-1-lr3-podcast.mp3',
-        spotify: '2koyXJxKGO4Xj1Xm4lZR1Y',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 57) \u00b7 mit Paul & Paula. Der entfesselte Wachstumsfaktor: Bindungsprotein-Trick und 20\u201330 Stunden Wirkdauer, Hyperplasie-Faszination vs. null Humanstudien, die drei Stoppschilder (Unterzucker, Wachstums-Frage, Organe), Herkunft als Zellkultur-Reagenz, Mecasermin als seri\u00f6ses Gegenst\u00fcck und das IGF-1-Longevity-Paradox. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 27.08.2026, 10:00)'
-      }
-    ]
+      { title: 'IGF-1 LR3: Der Wachstumsfaktor im Faktencheck', audio: 'audio/igf-1-lr3-podcast.mp3', spotify: '2koyXJxKGO4Xj1Xm4lZR1Y', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 57) · mit Paul & Paula. Der entfesselte Wachstumsfaktor: Bindungsprotein-Trick und 20–30 Stunden Wirkdauer, Hyperplasie-Faszination vs. null Humanstudien, die drei Stoppschilder (Unterzucker, Wachstums-Frage, Organe), Herkunft als Zellkultur-Reagenz, Mecasermin als seriöses Gegenstück und das IGF-1-Longevity-Paradox. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 27.08.2026, 10:00)' }
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'rad140',
     name: 'RAD140 (Testolone)',
     altNames: 'Testolone, SARM',
     class: 'Selektiver Androgen-Rezeptor-Modulator (SARM)',
-    emoji: '\ud83c\udfcb\ufe0f',
-    short: 'Der bekannteste SARM: starke Muskel-Wirkung \u00fcber den Androgen-Rezeptor \u2013 aber nur eine (abgebrochene) Humanstudie und ein ernstes Risikoprofil.',
-    moa: 'RAD140 bindet gewebe-selektiv und st\u00e4rker als Testosteron an den Androgen-Rezeptor \u2013 mit dem Ziel: volle Wirkung in Muskel und Knochen, wenig Wirkung in Prostata und Haut. Entwickelt von Radius Health gegen Muskelschwund und Brustkrebs. Die einzige Humanstudie (Phase 1, LoRusso) zeigte starke Rezeptor-Wirkung \u2013 dosislimitierend waren aber Leberwert-Anstiege. F\u00fcr Muskelaufbau existiert keine kontrollierte Humanstudie; alles Weitere ist Tiermodell plus Anwenderbericht.',
+    emoji: '🏋️',
+    short: 'Der bekannteste SARM: aktiviert den Androgen-Rezeptor, im Tier stark im Muskel und schonend an der Prostata. Beim Menschen ist die Rezeptorwirkung gezeigt, für Muskelaufbau gibt es keine kontrollierte Studie – dafür häufige Leberwert-Anstiege und Fallberichte über Leberschäden.',
+    moa: 'RAD140 bindet und aktiviert den Androgen-Rezeptor gewebe-selektiv – mit dem Ziel: volle Wirkung in Muskel und Knochen, wenig Wirkung in Prostata und Haut; in Ratten wurde die Prostata weitgehend ausgespart. Entwickelt von Radius Health gegen Muskelschwund und Brustkrebs. Die einzige klinische Humanstudie (Phase 1, LoRusso 2022, 22 Frauen mit metastasiertem Brustkrebs) bestätigte die Rezeptorwirkung (SHBG sank bei 18 von 18, PSA stieg bei 16 von 20); häufigste Nebenwirkung waren Leberwert-Anstiege (AST bei 59,1 %). Für Muskelaufbau existiert keine kontrollierte Humanstudie; alles Weitere ist Tiermodell plus Anwenderbericht.',
     benefits: [
-      'Berichtete starke Zuw\u00e4chse an Magermasse und Kraft (8\u201312-Wochen-Zyklen)',
-      'Oral einnehmbar, gewebe-selektives Wirkprinzip (pr\u00e4klinisch belegt)',
-      'SARM-Prinzip wird medizinisch weiter erforscht (Sarkopenie) – bisher ohne Zulassung'
+      'Berichtete starke Zuwächse an Magermasse und Kraft innerhalb weniger Wochen (Anwenderberichte, keine Studie)',
+      'Oral wirksam; Rezeptorwirkung beim Menschen bestätigt, Gewebeselektivität im Tier gezeigt',
+      'SARM-Prinzip wird medizinisch weiter erforscht (Muskelschwund, Brustkrebs) – bisher ohne Zulassung'
     ],
     risks: [
-      'Unterdr\u00fcckt die eigene Testosteron-Achse (LH/FSH) \u2013 PCT-Kultur als Reparatur der Nebenwirkung',
-      'Leber: Transaminasen-Anstiege in der Phase-1-Studie, Fallberichte von Lebersch\u00e4den',
-      'Blutfette: HDL f\u00e4llt deutlich, ApoB-Profil verschlechtert sich',
-      'JAMA-Analyse: nur ~50 % der SARM-Produkte enthalten, was das Etikett verspricht',
-      'Keine Langzeitdaten; WADA-verboten, lange nachweisbar; f\u00fcr Frauen besonders ungeeignet'
+      'Unterdrückt die eigene Testosteron-Achse (LH/FSH) – Post-Cycle-Therapy als Reparatur der Nebenwirkung',
+      'Leber: AST-Anstieg bei 59,1 % in der Phase-1-Studie, mehrere publizierte Fallberichte von Leberschäden',
+      'Blutfette: beim verwandten SARM LGD-4033 sank HDL dosisabhängig; für RAD140 keine publizierten Lipiddaten',
+      'JAMA-Analyse: nur 52 % der SARM-Produkte enthielten überhaupt einen SARM, nur 41 % die deklarierte Menge',
+      'Fallberichte über Herzmuskelentzündung; keine Langzeitdaten; WADA-verboten (S1.2), nachweisbar; für Frauen besonders ungeeignet'
     ],
     status: 'Kein zugelassenes Arzneimittel; Research Chemical, im Sport verboten (WADA).',
     sources: [
-      { title: 'LoRusso et al. \u2013 Phase-1-Studie RAD140 (Brustkrebs)', url: 'https://pubmed.ncbi.nlm.nih.gov/34697127/' },
-      { title: 'JAMA 2017 \u2013 Analyse von SARM-Produkten', url: 'https://jamanetwork.com/journals/jama/fullarticle/2661582' }
+      { title: 'LoRusso et al., Clin Breast Cancer 2022 – Phase-1-Studie RAD140 (Brustkrebs)', url: 'https://pubmed.ncbi.nlm.nih.gov/34565686/' },
+      { title: 'Van Wagoner et al., JAMA 2017 – Analyse von SARM-Produkten', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' },
+      { title: 'Ladna et al., J Med Case Rep 2023 – Leberschaden unter RAD140', url: 'https://pubmed.ncbi.nlm.nih.gov/36978171/' }
     ],
     community: [
-      { title: 'Swolverine \u2013 RAD-140 Side Effects', url: 'https://swolverine.com/blogs/blog/rad-140-side-effects-risks-suppression-liver-stress-and-long-term-concerns' }
+      { title: 'Swolverine – RAD-140 Side Effects', url: 'https://swolverine.com/blogs/blog/rad-140-side-effects-risks-suppression-liver-stress-and-long-term-concerns' }
     ],
     podcasts: [
-      {
-        title: 'RAD140 (Testolone): Das SARM im Faktencheck',
-        audio: 'audio/rad140-podcast.mp3',
-        spotify: '6pdj4nVBmovKQhN7MK0TwA',
-        lengthLabel: '\u2248 13 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 66) \u00b7 mit Paul & Paula. Die brillante SARM-Idee und die ern\u00fcchternde Realit\u00e4t: eine einzige Humanstudie (Leberwerte dosislimitierend), Achsen-Suppression, HDL-Absturz, JAMA-Etiketten-Analyse, Ostarine & Co., Neuroprotektions-Mythos, WADA \u2013 Wissen statt Werbung. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 05.09.2026, 10:00)'
-      }
-    ]
+      { title: 'RAD140 (Testolone): Das SARM im Faktencheck', audio: 'audio/rad140-podcast.mp3', spotify: '6pdj4nVBmovKQhN7MK0TwA', lengthLabel: '≈ 13 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 66) · mit Paul & Paula. Die brillante SARM-Idee und die ernüchternde Realität: eine einzige Humanstudie (Leberwerte dosislimitierend), Achsen-Suppression, HDL-Absturz, JAMA-Etiketten-Analyse, Ostarine & Co., Neuroprotektions-Mythos, WADA – Wissen statt Werbung. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 05.09.2026, 10:00)' }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'follistatin',
@@ -2070,43 +2038,46 @@ const EXPERIMENTAL = [
     altNames: 'Lysin-Prolin-Valin, alpha-MSH(11-13), Lys-Pro-Val',
     class: 'Tripeptid, C-terminales alpha-MSH-Fragment, entzündungshemmend',
     emoji: '🛡️',
-    short: 'Ein kurzes Tripeptid aus dem alpha-MSH: im Modell fein entzündungsregulierend und antimikrobiell – spannend v.a. rund um Darm- und Hautthemen.',
-    moa: 'KPV entspricht der C-terminalen Sequenz von alpha-MSH und wirkt überwiegend unabhängig von den klassischen Melanocortin-Rezeptoren. In Zell- und Tiermodellen hemmt es proinflammatorische Signalwege, insbesondere die Aktivierung des Transkriptionsfaktors NF-κB, und dämpft dadurch die Ausschüttung von Zytokinen wie TNF-α und IL-6. Nach Aufnahme in Zellen scheint es intrazellulär entzündungsregulierend zu wirken, unter anderem an intestinalem Gewebe. Zusätzlich wurden antimikrobielle Effekte gegen einzelne Bakterien und Pilze beschrieben. Die Datenlage stammt fast ausschließlich aus präklinischer Forschung.',
+    short: 'Ein Tripeptid aus dem Endstück des Hormons alpha-MSH: dämpft in Zell- und Mausversuchen den Entzündungsschalter NF-kappa-B, am stärksten untersucht am Darm. Studien am Menschen fehlen vollständig.',
+    moa: 'KPV entspricht den Positionen 11 bis 13 von alpha-MSH. Aufgenommen wird es über den Peptidtransporter PepT1, der im Dünndarm sitzt und bei chronisch-entzündlicher Darmerkrankung zusätzlich im Kolon gebildet wird. In menschlichen Darmepithel- und T-Zellen hemmt es schon in nanomolaren Konzentrationen die Aktivierung von NF-kappa-B und von MAP-Kinasen und senkt die Freisetzung von Zytokinen wie TNF-alpha und Interleukin-6. Die Wirkung ist zumindest teilweise unabhängig vom Melanocortin-Rezeptor MC1R, der in Colitis-Modellen selbst eine Rolle spielt. In zwei Mausmodellen der Colitis verlief die Entzündung unter KPV milder. Antimikrobielle Effekte gegen Staphylococcus aureus und Candida albicans sind im Labor beschrieben. Die Datenlage ist präklinisch.',
     benefits: [
-      'Dämpft in Tier- und Zellmodellen entzündliche Signalkaskaden über NF-κB.',
-      'Reduziert präklinisch die Freisetzung proinflammatorischer Zytokine.',
-      'Wird im Kontext chronisch-entzündlicher Darmerkrankungen erforscht (Tiermodelle).',
-      'Zeigte in Studien antimikrobielle Aktivität gegen einzelne Erreger.',
-      'Gilt als sehr kurzes Peptid mit im Labor guter Zellgängigkeit.',
-      'Wird in der Community mit Haut- und Wundthemen assoziiert (nicht belegt).'
+      'Hemmt in menschlichen Darm- und Immunzellen die Aktivierung von NF-kappa-B und senkt die Zytokinfreisetzung (Dalmasso et al., Gastroenterology 2008).',
+      'Milderer Verlauf in zwei Mausmodellen der Colitis, mit weniger Infiltraten und niedrigerer Myeloperoxidase im Kolongewebe (Kannengiesser et al. 2008).',
+      'Aufnahme über den Peptidtransporter PepT1 erklärt, warum der Darm der am besten untersuchte Wirkort ist.',
+      'In Nanopartikeln mit gezielter Freisetzung im Kolon genügte eine 12.000-fach geringere Konzentration für vergleichbare Wirkung (Laroui et al. 2010).',
+      'Schützte menschliche Hautzellen und ein 3D-Hautmodell vor feinstaubbedingter Entzündung und Zelltod (Sung et al. 2025).',
+      'Hemmte im Labor Staphylococcus aureus und Candida albicans, ohne die Keimabtötung durch Neutrophile zu verschlechtern (Cutuli et al. 2000).',
+      'Wird in der Szene mit Darm- und Hautthemen verbunden; diese Anwendungen sind nicht belegt.'
     ],
     risks: [
-      'Bislang präklinisch; kontrollierte Humanstudien fehlen.',
-      'Nicht zugelassen; als Research-Ware auf Reinheit achten.'
+      'Keine einzige Studie am Menschen; die FDA hat keine Daten zur Anwendung am Menschen gefunden, über keinen Verabreichungsweg.',
+      'Kein Sicherheitsprofil, keine Interaktions- und keine Langzeitdaten am Menschen.',
+      'Nicht zugelassen; als Forschungsware sind Reinheit, Gehalt und Sterilität nicht gesichert.',
+      'Chronisch-entzündliche Darmerkrankungen sind behandelbar: Eigenbehandlung mit einem ungeprüften Peptid kostet Zeit.',
+      'Im Sport fällt ein nicht zugelassenes Peptid unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
     ],
-    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
+    status: 'In DE/EU nicht als Arzneimittel zugelassen und nicht als Nahrungsergänzungsmittel verkehrsfähig; gehandelt als Forschungssubstanz. In den USA als Ausgangsstoff für Rezepturarzneien nominiert und von der FDA unter den Substanzen mit möglichen erheblichen Sicherheitsrisiken geführt, Nominierung zurückgezogen.',
     sources: [
-      { title: 'Dalmasso et al., Am J Physiol Gastrointest Liver Physiol 2008 – KPV und intestinale Entzündung', url: 'https://pubmed.ncbi.nlm.nih.gov/18497332/' },
-      { title: 'Cutuli et al., J Leukoc Biol 2000 – Antimikrobielle Aktivität von alpha-MSH-Peptiden', url: 'https://pubmed.ncbi.nlm.nih.gov/10673523/' }
+      { title: 'Dalmasso et al., Gastroenterology 2008 – PepT1-vermittelte KPV-Aufnahme senkt intestinale Entzündung', url: 'https://pubmed.ncbi.nlm.nih.gov/18061177/' },
+      { title: 'Kannengiesser et al., Inflammatory Bowel Diseases 2008 – KPV in zwei murinen Colitis-Modellen', url: 'https://pubmed.ncbi.nlm.nih.gov/18092346/' },
+      { title: 'Laroui et al., Gastroenterology 2010 – KPV-Nanopartikel mit Freisetzung im Kolon', url: 'https://pubmed.ncbi.nlm.nih.gov/19909746/' },
+      { title: 'Cutuli et al., J Leukoc Biol 2000 – antimikrobielle Aktivität von alpha-MSH-Peptiden', url: 'https://pubmed.ncbi.nlm.nih.gov/10670585/' },
+      { title: 'Sung et al., Tissue and Cell 2025 – KPV schützt menschliche Keratinozyten vor Feinstaub', url: 'https://pubmed.ncbi.nlm.nih.gov/40073467/' },
+      { title: 'Elliott et al., J Invest Dermatol 2004 – Signalwege von alpha-MSH und KPV in Keratinozyten', url: 'https://pubmed.ncbi.nlm.nih.gov/15102092/' },
+      { title: 'FDA – Bulk Drug Substances: keine Humandaten zu KPV', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: KPV – das kleine Anti-Entzündungs-Tripeptid für Darm & Haut',
-        audio: 'audio/kpv-podcast.mp3',
-        spotify: '0mPFUWG5UTnN6DWL7GUtoQ',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 1) · mit Paul & Paula. Frische, positive KI-Dialogfolge mit Fachrecherche: KPV ist ein winziges Endstück des Hormons alpha-MSH, das den Entzündungs-Hauptschalter NF-κB beruhigt – vielseitig für Darm (leaky gut, Barriere) und Haut (Anti-Aging, Akne), sanft und flexibel als Kapsel, Spritze oder Creme. Kurzer Hinweis: überwiegend Zell-/Tierdaten, Humanstudien stehen noch aus. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'KI-Podcast: KPV – das kleine Anti-Entzündungs-Tripeptid für Darm & Haut', audio: 'audio/kpv-podcast.mp3', spotify: '0mPFUWG5UTnN6DWL7GUtoQ', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 1) · mit Paul & Paula. Frische, positive KI-Dialogfolge mit Fachrecherche: KPV ist ein winziges Endstück des Hormons alpha-MSH, das den Entzündungs-Hauptschalter NF-κB beruhigt – vielseitig für Darm (leaky gut, Barriere) und Haut (Anti-Aging, Akne), sanft und flexibel als Kapsel, Spritze oder Creme. Kurzer Hinweis: überwiegend Zell-/Tierdaten, Humanstudien stehen noch aus. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'The Hunter Williams Podcast – KPV: Best Anti-Inflammatory Peptide', url: 'https://open.spotify.com/episode/5JbfV3XJhPSQttJkR8GJBB' },
           { title: 'Peptide of The Week – KPV & PT-141', url: 'https://open.spotify.com/episode/4RR6rXWb3jDsBYQOFf4l35' },
           { title: 'The Human 5.0 Project – KLOW Peptide Blend (inkl. KPV)', url: 'https://open.spotify.com/episode/0uoOMwyZ1xpclkmWFT2ceK' },
           { title: 'The Peptide Effect – KPV Peptide Explained', url: 'https://open.spotify.com/episode/5ablv4QSXOZH0drjoWKRuK' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'll-37',
@@ -2158,41 +2129,38 @@ const EXPERIMENTAL = [
     altNames: 'Delta Sleep-Inducing Peptide, Delta-Schlaf-induzierendes Peptid',
     class: 'Neuropeptid (Nonapeptid), endogen',
     emoji: '😴',
-    short: 'Ein körpereigenes „Schlaf-Peptid": seit den 1970ern bekannt und mit Schlafregulation sowie der Stressachse in Verbindung gebracht – sanft und gut verträglich beschrieben.',
+    short: 'Ein körpereigenes „Schlaf-Peptid": 1977 im Blut schlafender Kaninchen entdeckt, als sanfter Regler statt Schlafmittel beschrieben. Zwei kleine doppelblinde Studien fanden besseren Schlaf, zwei unabhängige nur schwache Effekte – seit den 1990ern kaum weiter erforscht.',
     moa: 'DSIP wurde in den 1970er-Jahren aus dem venösen Hirnblut von Kaninchen während des Tiefschlafs isoliert. Es scheint modulierend auf das limbische System sowie die Hypothalamus-Hypophysen-Achse zu wirken und beeinflusst mutmaßlich die Ausschüttung mehrerer Hormone. In tierexperimentellen Modellen wurde eine Zunahme von Delta- und Spindelaktivität im EEG sowie eine Reduktion der motorischen Aktivität beobachtet. Der genaue Rezeptor und Signalweg sind bis heute nicht eindeutig geklärt. Aussagekräftige kontrollierte Humanstudien zur Schlafwirkung fehlen weitgehend.',
     benefits: [
-      'In frühen Untersuchungen mit möglicher schlafanstoßender Wirkung assoziiert.',
-      'Diskutierte modulierende Effekte auf die Stressreaktion und Cortisol.',
-      'Tierdaten deuten auf antioxidative Eigenschaften hin.',
-      'In einzelnen Berichten mit Schmerzmodulation in Verbindung gebracht.',
-      'Untersucht im Kontext von Entzugssymptomen und depressiver Verstimmung.',
-      'Sehr kurze Peptidstruktur, in Studien bislang gut verträglich beschrieben.'
+      'Verstärkt im Tierversuch die Delta- und Spindelaktivität des Tiefschlafs im EEG (Kaninchen, doppelblind).',
+      'Erste Humanstudie: 59 % mehr Schlaf innerhalb von 130 Minuten gegenüber Placebo, ohne klassische Sedierung (6 Gesunde).',
+      'Bei 14 chronisch Schlaflosen in einer doppelblinden Studie über 7 Nächte besserer Nachtschlaf und bessere Tagesleistung.',
+      'Diskutierte modulierende Rolle im Stresshormonsystem: DSIP- und Cortisolspiegel hängen beim Menschen eng zusammen.',
+      'In unkontrollierten Fallserien bei Entzugssymptomen und chronischen Schmerzen untersucht.',
+      'In den kleinen Studien gut verträglich, keine oder keine größeren Nebenwirkungen beobachtet.'
     ],
     risks: [
-      'Mechanismus noch unklar; belastbare Humanstudien fehlen weitgehend.',
-      'Nicht zugelassen; als Research-Ware auf Qualität achten.'
+      'Zwei unabhängige doppelblinde Studien (Monti 1987, Bes 1992) fanden keinen klinisch bedeutsamen Effekt; der Tiefschlaf blieb unverändert.',
+      'Gen, Vorläufer und Rezeptor unbekannt; keine moderne Studie, keine systematischen Sicherheitsdaten.',
+      'Nicht zugelassen; als Research-Ware ohne unabhängige Qualitätskontrolle.'
     ],
     status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
-      { title: 'Graf & Kastin, Neurosci Biobehav Rev 1984 – DSIP: Ein Überblick', url: 'https://pubmed.ncbi.nlm.nih.gov/6152762/' },
-      { title: 'Kovalzon & Strekalova, Neurosci Behav Physiol 2006 – Schlaf und DSIP', url: 'https://pubmed.ncbi.nlm.nih.gov/16645768/' }
+      { title: 'Graf & Kastin, Neurosci Biobehav Rev 1984 – DSIP: ein Überblick', url: 'https://pubmed.ncbi.nlm.nih.gov/6145137/' },
+      { title: 'Kovalzon & Strekalova, J Neurochem 2006 – DSIP: ein ungelöstes Rätsel', url: 'https://pubmed.ncbi.nlm.nih.gov/16539679/' },
+      { title: 'Schneider-Helmert et al., 1981 – DSIP und menschliches Schlafverhalten', url: 'https://pubmed.ncbi.nlm.nih.gov/6895513/' },
+      { title: 'Bes et al., Neuropsychobiology 1992 – DSIP bei chronischer Insomnie, doppelblind', url: 'https://pubmed.ncbi.nlm.nih.gov/1299794/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
-      {
-        title: 'DSIP: Das Schlafpeptid im Faktencheck',
-        audio: 'audio/dsip-podcast.mp3',
-        spotify: '2Cz5bXpDtURKddAZ4MrbTO',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 12) · mit Paul & Paula. Frische, positive KI-Dialogfolge über DSIP, das Delta-Schlaf-induzierende Peptid – 1977 im Blut schlafender Kaninchen entdeckt. Kein Knockout-Schlafmittel, sondern ein sanfter Regler, der den Delta-Tiefschlaf fördert und das Stress-/Cortisol-System beruhigt. Warum Tiefschlaf (Wachstumshormon, glymphatische Gehirn-Müllabfuhr) ein starker Longevity-Hebel ist. Ehrlicher Rahmen: Datenlage alt und dünn, bei uns Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'DSIP: Das Schlafpeptid im Faktencheck', audio: 'audio/dsip-podcast.mp3', spotify: '2Cz5bXpDtURKddAZ4MrbTO', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 12) · mit Paul & Paula. Frische, positive KI-Dialogfolge über DSIP, das Delta-Schlaf-induzierende Peptid – 1977 im Blut schlafender Kaninchen entdeckt. Kein Knockout-Schlafmittel, sondern ein sanfter Regler, der den Delta-Tiefschlaf fördert und das Stress-/Cortisol-System beruhigt. Warum Tiefschlaf (Wachstumshormon, glymphatische Gehirn-Müllabfuhr) ein starker Longevity-Hebel ist. Ehrlicher Rahmen: Datenlage alt und dünn, bei uns Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Schneider-Helmert & Schoenenberger – DSIP & menschliches Schlafverhalten', url: 'https://pubmed.ncbi.nlm.nih.gov/6895513/' },
           { title: 'Graf & Kastin, Neurosci Biobehav Rev 1984 – DSIP: Ein Überblick', url: 'https://pubmed.ncbi.nlm.nih.gov/6145137/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'oxytocin',
@@ -2200,37 +2168,34 @@ const EXPERIMENTAL = [
     altNames: 'Bindungshormon, „Kuschelhormon"',
     class: 'Neuropeptid (9 Aminosäuren), Bindungs-/Sozialhormon',
     emoji: '💗',
-    short: 'Das „Bindungshormon": ein körpereigenes Neuropeptid, das Vertrauen, Nähe und Wohlbefinden fördert – in der Szene als Nasenspray für Stimmung und soziale Verbindung genutzt.',
+    short: 'Das „Bindungshormon“: ein körpereigenes Neuropeptid, bewährt in der Geburtshilfe, im Tiermodell an Muskelregeneration und Wundheilung beteiligt – in der Szene als Nasenspray für Nähe und Stimmung genutzt, mit gemischter Studienlage.',
     moa: 'Oxytocin wird im Hypothalamus gebildet und wirkt als Hormon und Botenstoff im Gehirn. Es fördert soziale Bindung, Vertrauen, Empathie und Entspannung und dämpft die Stressachse (Cortisol). Klassisch ist seine Rolle bei Geburt und Stillen. In der Biohacking-Szene wird es als Nasenspray für Stimmung, Nähe und Stressabbau eingesetzt; die Studienlage zu diesen Effekten ist gemischt.',
     benefits: [
-      'Fördert Vertrauen, Nähe, Empathie und Wohlbefinden',
-      'Kann Stress und Cortisol dämpfen (beruhigend)',
-      'Als Nasenspray schnell wirksam',
-      'Körpereigenes Peptid mit gutem Kurzzeit-Verträglichkeitsprofil'
+      'Seit Jahrzehnten bewährtes Arzneimittel in der Geburtshilfe (Wehen, Milchfluss)',
+      'Wirkt im Gehirn messbar auf soziales Verhalten – etwa auf Nähe und Abstand –, allerdings stark kontextabhängig',
+      'Im Tiermodell nötig für die Muskelregeneration; Gabe bei alten Mäusen verbesserte die Reparatur',
+      'Kurzfristig gut verträglich: in der größten Studie bei Kindern Nebenwirkungen wie unter Placebo'
     ],
     risks: [
-      'Studienlage zu den sozialen/stimmungsbezogenen Effekten ist gemischt',
-      'Wirkung oft kurz und kontextabhängig',
-      'Als Biohacking-Nasenspray meist Off-Label/Graumarkt (Reinheit beachten)',
+      'Der berühmte Vertrauenseffekt ließ sich nicht zuverlässig wiederholen; die größte Autismus-Studie (290 Kinder) war negativ',
+      'Wirkung oft kurz und kontextabhängig; Blutspiegel schwer messbar',
+      'Als Biohacking-Nasenspray Off-Label, Graumarkt-Ware mit Reinheitsfragen',
       'Vorsicht in der Schwangerschaft (wehenauslösend)'
     ],
     status: 'Als Arzneimittel (Geburtshilfe) zugelassen; die Biohacking-Nasenspray-Nutzung ist off-label.',
     sources: [
-      { title: 'Oxytocin – soziale/kognitive Effekte (Review, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3260007/' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Kosfeld M et al., Nature 2005 – Oxytocin und Vertrauen', url: 'https://pubmed.ncbi.nlm.nih.gov/15931222/' },
+      { title: 'Nave G et al., Perspect Psychol Sci 2015 – kritische Übersicht Oxytocin und Vertrauen', url: 'https://pubmed.ncbi.nlm.nih.gov/26581735/' },
+      { title: 'Elabd C et al., Nat Commun 2014 – Oxytocin und Muskelregeneration', url: 'https://pubmed.ncbi.nlm.nih.gov/24915299/' },
+      { title: 'Sikich L et al., N Engl J Med 2021 – Oxytocin bei Autismus (SOARS-B)', url: 'https://pubmed.ncbi.nlm.nih.gov/34644471/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Oxytocin: Das Bindungshormon im Faktencheck',
-        audio: 'audio/oxytocin-podcast.mp3',
-        spotify: '3cpwZtQWOR1ocxxuCV2GqA',
-        lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 56) \u00b7 mit Paul & Paula. Vom Kuschelhormon zum Longevity-Kandidaten: Kosfeld (Nature 2005), die Berkeley-Muskeldaten (Elabd, Nature Communications 2014), Knochen, Herz und AMPK, der MIT-Fund zu Lactobacillus reuteri, M\u00e4nner-Frauen-Unterschiede, der Wechseljahre-Knick \u2013 und das Gratis-Protokoll aus Ber\u00fchrung, Gemeinschaft und W\u00e4rme. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 26.08.2026, 10:00)'
-      }
-    ]
+      { title: 'Oxytocin: Das Bindungshormon im Faktencheck', audio: 'audio/oxytocin-podcast.mp3', spotify: '3cpwZtQWOR1ocxxuCV2GqA', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 56) · mit Paul & Paula. Vom Kuschelhormon zum Longevity-Kandidaten: Kosfeld (Nature 2005), die Berkeley-Muskeldaten (Elabd, Nature Communications 2014), Knochen, Herz und AMPK, der MIT-Fund zu Lactobacillus reuteri, Männer-Frauen-Unterschiede, der Wechseljahre-Knick – und das Gratis-Protokoll aus Berührung, Gemeinschaft und Wärme. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 26.08.2026, 10:00)' }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'humanin',
@@ -2384,13 +2349,13 @@ const EXPERIMENTAL = [
     class: 'Khavinson-Bioregulator – Thymus-Peptidkomplex fürs Immunsystem',
     emoji: '🛡️',
     short: 'Das Flaggschiff der Khavinson-Schule: ein Thymus-Peptidkomplex gegen die Immunalterung – mit den erstaunlichsten Langzeit-Sterblichkeitsdaten der Peptid-Welt (und dem klassischen Ost-West-Evidenzproblem).',
-    moa: 'Thymalin ist ein Polypeptid-Extrakt aus dem Kälberthymus (seit 1982 in Russland als Arzneimittel zugelassen, ursprünglich fürs Militär entwickelt). Aktiver Kern sind kurze Peptide wie das Dipeptid Glu-Trp (synthetisch: Thymogen). Es fördert Reifung und Balance der T-Zellen (Helfer-/Suppressor-Verhältnis), stärkt Antikörperbildung und Fresszellen-Aktivität und wirkt nach Khavinson epigenetisch: Die Kurzpeptide binden an DNA und regulieren Gene für Immunbotenstoffe und Zellschutz. Hintergrund ist die Thymus-Involution – das Organ schrumpft ab der Pubertät und verfettet im Alter fast vollständig (Immunseneszenz + Inflammaging). Die Khavinson-Langzeitstudien (Neuroendocrinology Letters 2003) berichten über 6–8 Jahre eine ~2-fach niedrigere Sterblichkeit unter Thymalin-Kuren, kombiniert mit Epithalamin ~4-fach. Wichtig: Evidenz fast ausschließlich aus einer russischen Forschungsgruppe, keine unabhängige westliche Replikation.',
+    moa: 'Thymalin ist ein Polypeptid-Extrakt aus dem Kälberthymus (nach Angaben der Entwickler seit 1982 in der Sowjetunion bzw. Russland als Arzneimittel zugelassen, ursprünglich fürs Militär entwickelt). Als aktive Kurzpeptide wurden das Dipeptid Glu-Trp (synthetisch: Thymogen), das Dipeptid Lys-Glu und das Tripeptid Glu-Asp-Pro isoliert. Es soll Reifung und Balance der T-Zellen fördern, Antikörperbildung und Fresszellen-Aktivität stärken und nach Khavinson epigenetisch wirken: Die Kurzpeptide binden an DNA bzw. Histone und regulieren Gene für Immunbotenstoffe und Zellschutz. Hintergrund ist die Thymus-Involution – das Organ schrumpft ab der Pubertät und verfettet im Alter fast vollständig (Immunseneszenz und Inflammaging). Die Langzeitbeobachtung von Khavinson & Morozov (Neuro Endocrinol Lett 2003, 266 Ältere, 6–8 Jahre) berichtet unter Thymalin eine 2,0- bis 2,1-fach niedrigere Sterblichkeit, in Kombination mit Epithalamin 2,5-fach, in einer gesondert jährlich behandelten Gruppe 4,1-fach. Wichtig: Evidenz fast ausschließlich aus einer russischen Forschungsgruppe, keine unabhängige westliche Replikation.',
     benefits: [
       'Adressiert mit der Thymus-Alterung einen zentralen, unterschätzten Alterungs-Treiber (Immunseneszenz).',
-      'Khavinson-Langzeitdaten: ~halbierte Sterblichkeit über 6–8 Jahre; mit Epithalamin kombiniert ~4-fach niedriger (Neuroendocrinol Lett 2003).',
-      'Berichtet: weniger Atemwegsinfekte, bessere Immun-Marker, normalisiertes T-Zell-Profil bei Älteren.',
-      'Vier Jahrzehnte Klinik-Anwendung in Russland; in der Pandemie als Begleittherapie reaktiviert.',
-      'Ausgezeichnete berichtete Verträglichkeit; orale Einstiegsvariante (Vladonix) verfügbar.'
+      'Khavinson-Langzeitdaten (266 Ältere, 6–8 Jahre): 2,0- bis 2,1-fach niedrigere Sterblichkeit unter Thymalin, 2,5-fach mit Epithalamin, 4,1-fach in einer jährlich über 6 Jahre behandelten Gruppe (Neuro Endocrinol Lett 2003).',
+      'Berichtet: 2,0- bis 2,4-fach weniger akute Atemwegserkrankungen bei Älteren.',
+      'Randomisierte, einfach verblindete Studie bei schwerem COVID-19 (36 vs. 44 Ältere): häufigere klinische Besserung, Krankenhaussterblichkeit 19,4 statt 40,9 % – aus dem Umfeld der Entwicklergruppe.',
+      'Vier Jahrzehnte Klinik-Anwendung in Russland; laut Entwicklergruppe praktisch keine Nebenwirkungen; orale Variante (Vladonix) mit dünnerer Datenlage.'
     ],
     risks: [
       'Evidenz überwiegend aus einer Forschungsgruppe/russischen Journalen – keine unabhängige Replikation nach westlichem Standard.',
@@ -2400,25 +2365,20 @@ const EXPERIMENTAL = [
     ],
     status: 'In Russland seit 1982 als Arzneimittel zugelassen; in der EU nicht zugelassen (Research-/Graumarkt).',
     sources: [
-      { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003 – Thymus-/Pinealpeptide & Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
-      { title: 'Biology Bulletin Reviews 2021 – Thymalin: Immunokorrektur & molekulare Aspekte', url: 'https://link.springer.com/article/10.1134/S2079086421040046' }
+      { title: 'Khavinson & Morozov, Neuro Endocrinol Lett 2003 – Thymus-/Pinealpeptide & Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/14523363/' },
+      { title: 'Biology Bulletin Reviews 2021 – Thymalin: Immunokorrektur & molekulare Aspekte', url: 'https://link.springer.com/article/10.1134/S2079086421040046' },
+      { title: 'Kuznik et al., Adv Gerontol 2021 – Thymalin bei schwerem COVID-19 älterer Patienten', url: 'https://europepmc.org/article/PMC/PMC8654498' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Thymalin: Der Immun-Bioregulator im Faktencheck',
-        audio: 'audio/thymalin-podcast.mp3',
-        spotify: '6aB7vB9kwKPQsukNesmvMT',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom geheimen Militär-Auftrag in Leningrad zum Flaggschiff der Khavinson-Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov, Neuroendocrinology Letters 2003): rund halbierte Sterblichkeit über 6–8 Jahre, mit Epithalamin vierfach niedriger. Plus die ehrliche Ost-West-Einordnung, die orale Vladonix-Variante und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 17.08.2026, 10:00)',
-        sources: [
+      { title: 'Thymalin: Der Immun-Bioregulator im Faktencheck', audio: 'audio/thymalin-podcast.mp3', spotify: '6aB7vB9kwKPQsukNesmvMT', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom geheimen Militär-Auftrag in Leningrad zum Flaggschiff der Khavinson-Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov, Neuroendocrinology Letters 2003): rund halbierte Sterblichkeit über 6–8 Jahre, mit Epithalamin vierfach niedriger. Plus die ehrliche Ost-West-Einordnung, die orale Vladonix-Variante und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 17.08.2026, 10:00)', sources: [
           { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003', url: 'https://pubmed.ncbi.nlm.nih.gov/12743529/' },
           { title: 'Biology Bulletin Reviews 2021 – Thymalin-Review', url: 'https://link.springer.com/article/10.1134/S2079086421040046' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'bronchogen-chonluten',
@@ -2426,46 +2386,49 @@ const EXPERIMENTAL = [
     altNames: 'Bronchogen (AEDL, Ala-Glu-Asp-Leu), Chonluten (EDG, Glu-Asp-Gly, T-34), Atemwegs-Bioregulatoren',
     class: 'Khavinson-Bioregulatoren – gewebespezifische Kurzpeptide für Lunge & Atemwege',
     emoji: '🫁',
-    short: 'Zwei kurze Lungen-Peptide aus der Khavinson-Schule. Die Arbeitsteilung – Chonluten gegen Entzündung, Bronchogen für die Regeneration – stammt aus russischen Arbeiten, die außerhalb Russlands nie überprüft wurden. Belastbare Humanstudien fehlen.',
-    moa: 'Beide sind kurzkettige „Bioregulator"-Peptide aus der russischen Khavinson-Schule, die gewebespezifisch am Lungen- und Bronchialgewebe ansetzen und epigenetisch wirken sollen: Das kurze Peptid gelangt in die Zelle, bindet an die DNA und moduliert dort die Aktivität von Genen für Reparatur, Entzündung und Zellschutz. Chonluten ist ein Tripeptid (Glu-Asp-Gly, auch „T-34"/EDG) und wirkt vor allem entzündungsregulierend – es dämpft Marker wie TNF und Interleukin-6. Bronchogen ist ein Tetrapeptid (Ala-Glu-Asp-Leu, AEDL, ~446 g/mol) und gilt als DNA-Stabilisator, der die Regeneration von Flimmerepithel und Surfactant fördert und die lokale Abwehr (sekretorisches IgA) unterstützt. In der Szene werden beide oft gestackt. Die Evidenz stammt überwiegend aus der Khavinson-Forschung und aus präklinischen Daten.',
+    short: 'Zwei ultrakurze Lungen-Peptide aus der Khavinson-Schule. Chonluten dämpfte in menschlichen Monozyten die TNF-Freisetzung, Bronchogen stellte im Rattenmodell Flimmerepithel, sekretorisches IgA und Surfactant-Protein B wieder her. Eine klinische Studie am Menschen gibt es zu keinem der beiden.',
+    moa: 'Beide sind synthetische Kurzpeptide aus der russischen Khavinson-Schule, die gewebespezifisch am Lungen- und Bronchialgewebe ansetzen sollen. Die Hypothese der Schule ist epigenetisch: Kurze Peptide aus 2 bis 7 Aminosäureresten gelangen in Zellkern und Nukleolus, treten mit DNA und Histonen in Wechselwirkung und beeinflussen die Ablesung von Genen sowie den Methylierungsstatus (Khavinson et al., Molecules 2021). Chonluten ist ein Tripeptid (Glu-Asp-Gly, auch T-34/EDG) und wirkt entzündungsregulierend: In menschlichen THP-1-Monozyten hemmte es nach Lipopolysaccharid-Reiz die TNF-Freisetzung, gemeinsam mit weiteren Peptiden der Schule auch Interleukin-6 (Avolio et al. 2022). Bronchogen ist ein Tetrapeptid (Ala-Glu-Asp-Leu, in der Literatur auch ADEL); es bindet im Laborversuch an DNA in der großen Furche und verändert in Kulturen menschlichen Bronchialepithels die Expression von Differenzierungsgenen, am stärksten in gealterten Kulturen (Lung 2014). Im Rattenmodell einer durch Stickstoffdioxid erzeugten obstruktiven Lungenschädigung gingen unter Bronchogen die Umbauzeichen zurück, Flimmerzellen waren wiederhergestellt, sekretorisches IgA und Surfactant-Protein B stiegen. Die Evidenz ist präklinisch und stammt fast vollständig aus derselben Forschungslinie.',
     benefits: [
-      'Konzept der Gewebespezifität: sollen gezielt auf Lunge und Atemwege wirken – so beschrieben, nicht unabhängig überprüft.',
-      'Für Chonluten werden entzündungsregulierende Effekte (TNF, IL-6) berichtet – aus russischen Arbeiten zu chronischer Bronchitis, Asthma und COPD.',
-      'Für Bronchogen wird eine Regeneration des Flimmerepithels und eine bessere Sekretlage beschrieben – ohne kontrollierte Studien.',
-      'Werden als sich ergänzender Stack angeboten – die Begründung dafür ist theoretisch.',
-      'Anwenderberichte über weniger Husten, seltenere Schübe und leichteres Atmen; beliebt nach Infekten (z.B. Post-Corona), bei Ex-Rauchern und für mehr Ausdauer.',
-      'Nicht-hormonell; die Verträglichkeit ist nur aus denselben Quellen beschrieben, nicht unabhängig geprüft.'
+      'Chonluten hemmte in menschlichen Monozyten nach Lipopolysaccharid-Reiz die TNF-Freisetzung und senkte mit den anderen geprüften Peptiden auch Interleukin-6 (Avolio et al. 2022).',
+      'Bronchogen stellte in Ratten nach 60 Tagen Stickstoffdioxid und einem Monat Behandlung die Struktur des Bronchialepithels weitgehend wieder her, inklusive Flimmerzellen.',
+      'Im selben Modell stiegen sekretorisches Immunglobulin A als Marker der örtlichen Abwehr und das Surfactant-Protein B, die neutrophile Entzündung ging zurück.',
+      'In Kulturen menschlichen Bronchialepithels beeinflusste das Tetrapeptid Differenzierungsgene und Proliferationsmarker, am deutlichsten in gealterten Kulturen.',
+      'Konzept der Gewebespezifität mit publizierter Grundlage: Bindung kurzer Peptide an DNA und Wirkung auf die Genexpression sind im Labor gezeigt.',
+      'Anwenderberichte über weniger Husten, seltenere Schübe und leichteres Atmen; als Bericht zu lesen, nicht als Wirkungsbeleg.',
+      'Nicht-hormonell und oral angeboten; für ultrakurze Peptide ist ein Transport über Peptid- und Aminosäuretransporter im Labor plausibel gemacht.'
     ],
     risks: [
-      'Evidenz stammt fast nur aus der russischen Khavinson-Schule und aus präklinischen Daten; große unabhängige Studien fehlen.',
-      'Viele werbliche Texte im Netz stammen von Shops, die die Peptide verkaufen – kritisch einordnen.',
-      'In DE/EU nicht als Arzneimittel zugelassen; laufen als Research-Ware (Reinheit/Dosis nicht garantiert).',
-      'Wichtig: Anhaltender Husten oder Kurzatmigkeit gehören ärztlich abgeklärt – nicht in Eigenregie behandeln.'
+      'Keine kontrollierte Studie am Menschen mit klinischem Endpunkt; in den öffentlichen Studienregistern ist keine eingetragen.',
+      'Nahezu alle Arbeiten stammen aus derselben Forschungslinie, mehrere mit den Entwicklern als Ko-Autoren; unabhängige Replikation fehlt.',
+      'Die Wirksamkeitsdaten sind Tiermodelldaten mit Surrogatendpunkten aus einem Schadstoffmodell, ein Teil der Literatur zum Tetrapeptid betrifft sogar Pflanzen.',
+      'Keine systematischen Sicherheitsdaten; die Aussage zur guten Verträglichkeit stammt aus denselben Quellen wie die Wirkungsbehauptung.',
+      'In DE/EU nicht als Arzneimittel zugelassen und ohne Novel-Food-Genehmigung; als Research-Ware sind Gehalt, Reinheit und Sequenz ungeprüft.',
+      'Wichtig: Anhaltender Husten, Kurzatmigkeit oder Bluthusten gehören ärztlich abgeklärt; bei Asthma und COPD verordnete Therapien nicht ersetzen.',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
     ],
-    status: 'In DE/EU nicht als Arzneimittel zugelassen; Khavinson-Bioregulatoren, in Russland teils als Nahrungsergänzung/Peptidpräparat gehandelt. Reine Forschungssubstanzen.',
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; als Nahrungsergänzungsmittel fehlt die nach der Novel-Food-Verordnung (EU) 2015/2283 nötige Genehmigung. Gehandelt als Forschungsware oder Importpräparat; in Russland wird die Substanzklasse seit Jahrzehnten vertrieben.',
     sources: [
-      { title: 'Jay Campbell – Chonluten Peptide: Uses, Benefits, Dosage (Übersicht)', url: 'https://jaycampbell.com/blog/chonluten-cartilage-peptide/' },
-      { title: 'Jay Campbell – Bronchogen Peptide: Uses, Benefits, Dosage (Übersicht)', url: 'https://jaycampbell.com/blog/bronchogen-peptide/' },
-      { title: 'Khavinson – Peptide bioregulators (Übersichtsarbeit, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8619776/' }
+      { title: 'Khavinson et al., Molecules 2021 – Peptide Regulation of Gene Expression (systematische Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/34834147/' },
+      { title: 'Avolio et al., Int J Mol Sci 2022 – Chonluten und weitere Khavinson-Peptide in menschlichen Monozyten', url: 'https://pubmed.ncbi.nlm.nih.gov/35408963/' },
+      { title: 'Khavinson et al., Lung 2014 – Tetrapeptid ADEL: Genexpression und DNA-Bindung im Bronchialepithel', url: 'https://pubmed.ncbi.nlm.nih.gov/25015171/' },
+      { title: 'Kuzubova et al., Bull Exp Biol Med 2015 – Bronchogen im Rattenmodell obstruktiver Lungenschädigung', url: 'https://pubmed.ncbi.nlm.nih.gov/26468022/' },
+      { title: 'Titova et al., Ross Fiziol Zh 2017 – Entzündung, sekretorisches IgA und Surfactant-Protein B im selben Modell', url: 'https://pubmed.ncbi.nlm.nih.gov/30199201/' },
+      { title: 'Khavinson et al., Int J Mol Sci 2022 – Transport ultrakurzer Peptide über POT- und LAT-Transporter', url: 'https://pubmed.ncbi.nlm.nih.gov/35887081/' },
+      { title: 'Schünemann et al., Chest 2000 – Lungenfunktion als Langzeitprädiktor der Sterblichkeit (Buffalo Health Study)', url: 'https://pubmed.ncbi.nlm.nih.gov/10988186/' },
+      { title: 'FDA – Bulk Drug Substances: Immunogenität und Verunreinigungen bei Peptiden aus Rezepturquellen', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
     ],
     community: [
       { title: 'Reddit r/PeptideGuide – Bronchogen Bioregulator Dosierung', url: 'https://www.reddit.com/r/PeptideGuide/comments/1e5r8zw/bronchogen_bioregulator_dosage/' },
       { title: 'peptide-bioregulator.com – Chonluten (Produktinfo, nur Grauzone)', url: 'https://peptide-bioregulator.com/product/chonluten/' }
     ],
     podcasts: [
-      {
-        title: 'Bronchogen & Chonluten: Das Peptid-Duo für die Lunge',
-        audio: 'audio/bronchogen-chonluten-podcast.mp3',
-        spotify: '3b8emQB8ibdtFNCIXuiE7U',
-        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 29) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das vergessene Biohacking-Organ Lunge: zwei ultrakurze Khavinson-Bioregulatoren im Duett – Chonluten (T-34) beruhigt die Atemwegs-Schleimhaut, Bronchogen baut auf (Flimmerepithel, Surfactant). Dazu: warum die Ein-Sekunden-Kapazität einer der besten Langlebigkeits-Marker ist und was Atemtraining leistet. Ehrlich gerahmt: Evidenz überwiegend aus der russischen Khavinson-Schule, bei uns nicht zugelassen (Research-Ware). Reine Information, keine Dosier- oder Anwendungsempfehlung – Atemprobleme ärztlich abklären.',
-        sources: [
+      { title: 'Bronchogen & Chonluten: Das Peptid-Duo für die Lunge', audio: 'audio/bronchogen-chonluten-podcast.mp3', spotify: '3b8emQB8ibdtFNCIXuiE7U', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 29) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das vergessene Biohacking-Organ Lunge: zwei ultrakurze Khavinson-Bioregulatoren im Duett – Chonluten (T-34) beruhigt die Atemwegs-Schleimhaut, Bronchogen baut auf (Flimmerepithel, Surfactant). Dazu: warum die Ein-Sekunden-Kapazität einer der besten Langlebigkeits-Marker ist und was Atemtraining leistet. Ehrlich gerahmt: Evidenz überwiegend aus der russischen Khavinson-Schule, bei uns nicht zugelassen (Research-Ware). Reine Information, keine Dosier- oder Anwendungsempfehlung – Atemprobleme ärztlich abklären.', sources: [
           { title: 'Jay Campbell – Chonluten (Übersicht)', url: 'https://jaycampbell.com/blog/chonluten-cartilage-peptide/' },
           { title: 'Jay Campbell – Bronchogen (Übersicht)', url: 'https://jaycampbell.com/blog/bronchogen-peptide/' },
           { title: 'Khavinson – Peptide bioregulators (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8619776/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'prostamax',
@@ -2521,39 +2484,36 @@ const EXPERIMENTAL = [
     short: 'Ein Melanocortin-Peptid, das die Hautbräunung anregt (oft mit wenig UV) und über MC4R zusätzlich Appetit und Libido beeinflusst – in der Szene für die schnelle Bräune bekannt.',
     moa: 'Melanotan 2 ist ein cyclisches Analogon des alpha-MSH und aktiviert nicht selektiv mehrere Melanocortin-Rezeptoren, insbesondere MC1R und MC4R. Über MC1R stimuliert es die Melanogenese und damit die Bräunung der Haut, häufig ohne UV-Exposition. Die Aktivierung von MC4R beeinflusst zentral Appetit und sexuelle Erregung, was erektionsfördernde Effekte erklären kann. Die breite Rezeptorwirkung ist zugleich Ursache zahlreicher unerwünschter Effekte. Kontrollierte Langzeitstudien zur Sicherheit beim Menschen fehlen.',
     benefits: [
-      'Kann eine Verstärkung der Hautpigmentierung auslösen.',
-      'In Untersuchungen mit reduzierter benötigter UV-Exposition für Bräunung assoziiert.',
-      'Über MC4R mit appetithemmenden Effekten in Verbindung gebracht.',
-      'In Berichten mit erektionsfördernder Wirkung assoziiert.',
-      'Wirkung tritt in Beobachtungen bereits bei geringen Mengen ein.'
+      'Löst beim Menschen eine Bräunung ohne Sonne aus – erste Humanstudie 1996 (Dorr, Life Sciences), sehr kleine Pilotstudie',
+      'Löste in doppelblinden, placebokontrollierten Studien bei 8 von 10 Männern mit psychogener Erektionsstörung Erektionen aus und steigerte das sexuelle Verlangen (Wessells 1998 und 2000)',
+      'Über MC4R mit gedämpftem Appetit verbunden – in den Studien als Nebenbefund notiert, nicht als Endpunkt geprüft',
+      'Urahn zweier zugelassener Medikamente: Afamelanotid (Scenesse, EU 2014) und Bremelanotid (PT-141/Vyleesi, USA 2019)',
+      'Anwender berichten von tiefer, gleichmäßiger Bräune mit wenig Sonne, die wochenlang hält – Erfahrungsberichte'
     ],
     risks: [
-      'Wichtig: Muttermale können sich verändern/dunkeln – das erschwert die Hautkrebs-Früherkennung; die Haut regelmäßig checken lassen.',
-      'Möglich sind Übelkeit/Flush und – selten, aber ernst – eine schmerzhafte Dauererektion (Notfall).',
-      'In DE/EU nicht zugelassen; Behörden raten ausdrücklich ab.'
+      'Wichtig: Muttermale können sich verdunkeln, vergrößern oder neu auftreten, teils schon 24 Stunden nach einer Injektion; mehrere publizierte Melanom-Fälle bei Anwendern. Das erschwert die Hautkrebs-Früherkennung – Haut vorher und regelmäßig dermatologisch untersuchen lassen.',
+      'Häufig Übelkeit, Müdigkeit und Gähnen; selten, aber ein Notfall: schmerzhafte Dauererektion (Priapismus).',
+      'In DE/EU nicht zugelassen; das BfArM rät ausdrücklich ab. Research-Ware ohne Qualitätskontrolle, Infektionsrisiko bei geteilten Nadeln.'
     ],
     status: 'In DE/EU nicht zugelassen; Behörden warnen ausdrücklich vor der Anwendung.',
     sources: [
-      { title: 'Langan et al., J Am Acad Dermatol 2010 – Melanotan-assoziierte Nävusveränderungen', url: 'https://pubmed.ncbi.nlm.nih.gov/20605654/' },
-      { title: 'Hjuler & Lorentzen, JAMA Dermatol 2014 – Melanom nach Melanotan-Gebrauch', url: 'https://pubmed.ncbi.nlm.nih.gov/24990396/' }
+      { title: 'Dorr RT et al., Life Sci 1996 – erste Humanstudie: Bräunung ohne Sonne', url: 'https://pubmed.ncbi.nlm.nih.gov/8637402/' },
+      { title: 'Wessells H et al., J Urol 1998 – Erektionen bei Männern mit psychogener ED', url: 'https://pubmed.ncbi.nlm.nih.gov/9679884/' },
+      { title: 'Langan EA et al., Br J Dermatol 2010 – Melanotropic peptides: more than just Barbie drugs', url: 'https://pubmed.ncbi.nlm.nih.gov/20545686/' },
+      { title: 'Hjuler KF & Lorentzen HF, Dermatology 2014 – Melanom nach Melanotan-II-Gebrauch', url: 'https://pubmed.ncbi.nlm.nih.gov/24355990/' },
+      { title: 'BfArM, Pressemitteilung 14/10 (28.10.2010) – Warnung vor melanotanhaltigen Produkten', url: 'https://www.bfarm.de/SharedDocs/Pressemitteilungen/DE/2010/pm14-2010.html' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
-      {
-        title: 'Melanotan 2: Das Bräunungs-Peptid im Faktencheck',
-        audio: 'audio/melanotan-2-podcast.mp3',
-        spotify: '0orxbyC3Wcg2ipQyuEe9Ck',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 39) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das berühmteste Bräunungs-Peptid der Welt: von der Hautkrebs-Präventions-Idee der University of Arizona über den legendären Selbstversuch bis zu zwei zugelassenen Medikamenten-Nachfahren (Afamelanotid/Scenesse und PT-141/Vyleesi). Dazu die Humandaten (Dorr, Life Sciences 1996: Bräunung ohne Sonne; Wessells, J Urol 1998), die drei Effekte über MC1R/MC4R – Bräune, Appetit, Libido – und die ehrliche Schattenseite: Muttermal-Veränderungen (Langan, JAAD 2010), Übelkeit, Graumarkt. Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'Melanotan 2: Das Bräunungs-Peptid im Faktencheck', audio: 'audio/melanotan-2-podcast.mp3', spotify: '0orxbyC3Wcg2ipQyuEe9Ck', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 39) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das berühmteste Bräunungs-Peptid der Welt: von der Hautkrebs-Präventions-Idee der University of Arizona über den legendären Selbstversuch bis zu zwei zugelassenen Medikamenten-Nachfahren (Afamelanotid/Scenesse und PT-141/Vyleesi). Dazu die Humandaten (Dorr, Life Sciences 1996: Bräunung ohne Sonne; Wessells, J Urol 1998), die drei Effekte über MC1R/MC4R – Bräune, Appetit, Libido – und die ehrliche Schattenseite: Muttermal-Veränderungen (Langan, JAAD 2010), Übelkeit, Graumarkt. Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Dorr et al., Life Sciences 1996 – erste Humanstudie: Bräunung ohne Sonne', url: 'https://pubmed.ncbi.nlm.nih.gov/8809217/' },
           { title: 'Wessells et al., J Urol 1998 – Erektionen bei Männern mit ED', url: 'https://pubmed.ncbi.nlm.nih.gov/9720524/' },
           { title: 'Langan et al., JAAD 2010 – Melanotan-assoziierte Nävusveränderungen', url: 'https://pubmed.ncbi.nlm.nih.gov/20605654/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'foxo4-dri',
@@ -2627,43 +2587,41 @@ const EXPERIMENTAL = [
     altNames: 'Methylthioniniumchlorid',
     class: 'Mitochondrialer Elektronen-Donor / Redox-Modulator',
     emoji: '🔷',
-    short: 'Ein 150 Jahre alter Farbstoff und Biohacker-Liebling: in Mikrodosen ein eleganter Mitochondrien- und Hirnstoffwechsel-Booster – sublingual dosiert.',
+    short: 'Ein Farbstoff aus dem 19. Jahrhundert und zugelassenes Notfallmittel: In niedriger Konzentration überträgt Methylenblau Elektronen in den Mitochondrien, eine kleine Studie zeigte mehr Hirnaktivität. Wichtig: nicht mit Antidepressiva kombinieren.',
     moa: 'Bei niedrigen Dosen alternativer Elektronen-Carrier zur Atmungskette → erhöhte ATP-Produktion. Bei hohen Dosen prooxidativ.',
     benefits: [
-      'Mitochondrien-Effizienz & Hirnstoffwechsel-Studien (Methodist Hospital)',
-      'Klinisch zugelassen für Methämoglobinämie & Septischer Schock',
-      'Tiefer Hippokampus-Stoffwechsel-Schub (FDG-PET)',
-      'Antibakterielle und anti-malaria Wirkung'
+      'In der EU seit 2011 und in den USA seit 2016 als Injektion gegen Methämoglobinämie zugelassen',
+      'Überträgt in niedriger Konzentration Elektronen in der Atmungskette und stützt die Cytochrom-c-Oxidase (Zell- und Tierdaten)',
+      'Randomisierte, placebokontrollierte Studie an 26 Gesunden: nach einer niedrigen Einzeldosis mehr Hirnaktivität in der funktionellen Bildgebung und 7 Prozent mehr richtige Antworten beim Gedächtnisabruf',
+      'Historisch eines der ersten synthetischen Medikamente, früh gegen Malaria eingesetzt'
     ],
     risks: [
-      'Wichtig: nicht mit Antidepressiva (SSRI/MAO-Hemmer) kombinieren – Risiko eines Serotonin-Syndroms.',
-      'Bei G6PD-Mangel ungeeignet; nur niedrige Dosen und geprüfte (pharmazeutische) Qualität.',
-      'Färbt Urin/Mund vorübergehend blau.'
+      'Wichtig: nicht mit Antidepressiva (SSRI/SNRI/MAO-Hemmer) oder anderen serotonergen Mitteln kombinieren – Methylenblau hemmt MAO-A stark, die US-Fachinformation warnt vor schwerem Serotonin-Syndrom.',
+      'Bei G6PD-Mangel kontraindiziert (schwere Hämolyse möglich); nur geprüfte pharmazeutische Qualität.',
+      'Hohe Dosen wirken prooxidativ – die Dosis-Wirkungs-Kurve ist hormetisch.',
+      'Färbt Urin, Haut und Mund blau; kann die Pulsoximetrie verfälschen – vor Operationen angeben.'
     ],
-    status: 'Als Injektion für Methämoglobinämie zugelassen; sublinguale Mikrodosen sind Off-Label.',
+    status: 'In der EU (Proveblue, 2011) und den USA (ProvayBlue, 2016) als Injektion für Methämoglobinämie zugelassen; die Einnahme kleiner Mengen als Nootropikum ist Off-Label.',
     sources: [
-      { title: 'Atamna H, Kumar R – Methylene blue mitochondria 2010', url: 'https://pubmed.ncbi.nlm.nih.gov/20667416/' },
-      { title: 'Rodriguez P et al., Radiology 2016 – brain imaging', url: 'https://pubmed.ncbi.nlm.nih.gov/27089023/' }
+      { title: 'Rodriguez P et al., Radiology 2016 – randomisierte fMRT-Studie an Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/27351678/' },
+      { title: 'Atamna H, Kumar R, J Alzheimers Dis 2010 – Methylenblau, Mitochondrien und Cytochrom-c-Oxidase', url: 'https://pubmed.ncbi.nlm.nih.gov/20463399/' },
+      { title: 'Rojas JC et al., Prog Neurobiol 2012 – Mechanismus und hormetische Dosis-Wirkung', url: 'https://pubmed.ncbi.nlm.nih.gov/22067440/' },
+      { title: 'Ramsay RR et al., Br J Pharmacol 2007 – MAO-A-Hemmung', url: 'https://pubmed.ncbi.nlm.nih.gov/17721552/' },
+      { title: 'Gauthier S et al., Lancet 2016 – LMTM-Phase-3-Studie bei Alzheimer', url: 'https://pubmed.ncbi.nlm.nih.gov/27863809/' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'biolabshop (Methylenblau-Forschung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Methylenblau: Wunderdroge oder Hype?',
-        audio: 'audio/methylene-blue-podcast.mp3',
-        spotify: '6JlLZilupWgb72WX10TBri',
-        lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 10). KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'Methylenblau: Wunderdroge oder Hype?', audio: 'audio/methylene-blue-podcast.mp3', spotify: '6JlLZilupWgb72WX10TBri', lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 10). KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'FDA Drug Safety Communication – Methylenblau & Serotonin-Syndrom bei Antidepressiva', url: 'https://www.apsf.org/article/methylene-blue-and-the-risk-of-serotonin-toxicity/' },
           { title: 'Ramsay et al. – Methylenblau hemmt MAO-A (Serotonintoxizität)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2078225/' },
           { title: 'ALZFORUM – LMTM/HMTM (TauRx): verfehlte Alzheimer-Phase-3-Endpunkte', url: 'https://www.alzforum.org/therapeutics/hmtm' },
           { title: 'Rodriguez P et al., Radiology 2016 – Methylenblau & Hirn-Bildgebung', url: 'https://pubmed.ncbi.nlm.nih.gov/27089023/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Longevity'
   },
   {
     id: 'acarbose',
@@ -2762,41 +2720,47 @@ const EXPERIMENTAL = [
     altNames: 'Afamelanotide, MT-1, Scenesse',
     class: 'MC1R-selektiver Melanocortin-Agonist (als Scenesse zugelassen)',
     emoji: '🌤️',
-    short: 'Der „verträglichere Bruder" von Melanotan 2: selektiver auf die Hautbräunung ausgerichtet und als Afamelanotide (Scenesse) sogar zugelassen – für eine seltene Lichtkrankheit.',
-    moa: 'Melanotan 1 (Afamelanotide) ist ein Analogon des alpha-MSH, das vor allem den MC1R-Rezeptor anspricht und damit die Melaninbildung (Hautbräunung, Lichtschutz) anregt. Anders als Melanotan 2 wirkt es kaum am MC4R (Appetit/Libido/Erektion), weshalb typische MT2-Nebenwirkungen seltener sind. Als Implantat unter dem Namen Scenesse ist es zur Vorbeugung von Lichtschäden bei der seltenen Erkrankung Erythropoetische Protoporphyrie (EPP) zugelassen.',
+    short: 'Der MC1R-selektive Verwandte von Melanotan 2: regt die Bildung des Schutzpigments Eumelanin an und ist als Afamelanotid (Scenesse) ein zugelassenes Arzneimittel – allerdings nur zur Vorbeugung von Lichtschäden bei der seltenen Erkrankung EPP.',
+    moa: 'Afamelanotid ist ein Analogon des alpha-MSH mit 13 Aminosäuren, von denen 2 ausgetauscht sind (NDP-alpha-MSH). Der Austausch macht das Peptid serumstabil und im Adenylatzyklase-Test 26-mal wirksamer als alpha-MSH (Sawyer et al., PNAS 1980). Es spricht vor allem den Melanocortin-1-Rezeptor der Pigmentzellen an und regt die Bildung von Eumelanin an, das die Lichtdurchdringung der Haut verringert; UV-Schaden ist dafür nicht nötig. Am MC4R, der Appetit und Erektion beeinflusst, wirkt es anders als Melanotan 2 praktisch nicht. Bei erythropoetischer Protoporphyrie (EPP) filtert das zusätzliche Eumelanin genau jenen sichtbaren Lichtanteil, der die phototoxischen Attacken auslöst. Als Implantat mit 16 mg Wirkstoff, alle 2 Monate von einem Spezialzentrum gesetzt, ist es für diese Indikation zugelassen.',
     benefits: [
-      'Regt Hautbräunung und Lichtschutz an (mehr Melanin)',
-      'Selektiver und verträglicher als Melanotan 2 (kaum MC4R-Effekte)',
-      'Als Scenesse (Afamelanotide) echtes, zugelassenes Medikament (EPP)',
-      'Kein MC4R-typischer Priapismus'
+      'In zwei randomisierten Phase-3-Studien (74 Patienten EU, 94 USA) mehr schmerzfreie Zeit in direkter Sonne: 69,4 gegenüber 40,8 Stunden nach 6 Monaten und 6,0 gegenüber 0,8 Stunden nach 9 Monaten.',
+      'In der EU-Studie 77 statt 146 phototoxische Reaktionen; die Lebensqualität stieg in beiden Studien.',
+      'Echtes zugelassenes Arzneimittel für EPP: EU seit 22.12.2014, USA seit 08.10.2019 auf Grundlage von 3 Studien mit 244 Patienten an 22 Zentren.',
+      'Langzeitdaten aus der Versorgung: 115 Patienten, 1.023 Implantate, bis zu 8 Jahre; Lebensqualität von 31 auf 74 Prozent des Maximums.',
+      'MC1R-selektiv und damit ohne die MC4R-Wirkungen von Melanotan 2 wie Priapismus oder starke Appetitwirkung.',
+      'Bräunung ohne UV ist beim Menschen gezeigt: placebokontrollierte Studie an 28 Männern (1991).',
+      'Bei Vitiligo war Afamelanotid zusätzlich zu Schmalband-UVB der Lichttherapie allein überlegen (55 Teilnehmer, 2015) – Zusatzindikation in Prüfung.'
     ],
     risks: [
-      'Zulassung nur für die seltene Lichtkrankheit EPP – kosmetische Bräunung ist off-label',
-      'Muttermale beobachten (Melanocortin-Wirkung); Hautkrebs-Vorsorge wichtig',
-      'Graumarkt-Ware für Bräunung ungeprüft; ärztlich abklären',
-      'Deutlich teurer/schwerer verfügbar als MT2'
+      'Zulassung nur für EPP; kosmetische Bräunung ist off-label, und dafür existiert nur eine kleine Studie von 1991.',
+      'Die EU-Zulassung erfolgte unter besonderen Bedingungen, weil vollständige Nutzendaten wegen der Seltenheit der Erkrankung nicht zu gewinnen waren.',
+      'Häufigste Nebenwirkungen Übelkeit, Kopfschmerzen und Reaktionen an der Implantatstelle bei etwa 1 von 5 Patienten; nicht anwenden bei eingeschränkter Leber- oder Nierenfunktion.',
+      'Muttermale können unter Melanocortin-Wirkung dunkler werden; dermatologische Kontrolle vor und während der Anwendung ist angezeigt.',
+      'Die Behandlung verbessert bei EPP weder Vitamin-D-Spiegel noch Knochendichte, und ein Teil der Patienten hat weiter Lichtreaktionen.',
+      'Graumarktware zum Spritzen ist nicht zugelassen: Gehalt, Reinheit und Sterilität sind ungeprüft, die Zulassungsdaten gelten dafür nicht.'
     ],
-    status: 'Als Scenesse (Afamelanotide) für EPP zugelassen; kosmetische Nutzung off-label/Graumarkt.',
+    status: 'Als Scenesse (Afamelanotid) in der EU seit 22.12.2014 unter besonderen Bedingungen zugelassen, in den USA seit 08.10.2019, jeweils zur Vorbeugung phototoxischer Reaktionen bei erythropoetischer Protoporphyrie bei Erwachsenen; Verordnung nur durch Spezialisten in anerkannten Zentren. Kosmetische Nutzung off-label; Graumarktware nicht zugelassen.',
     sources: [
-      { title: 'EMA – Scenesse (Afamelanotide) Zulassung', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Langendonk et al., NEJM 2015 – Afamelanotid bei EPP, zwei randomisierte Phase-3-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/26132941/' },
+      { title: 'EMA – Scenesse (Afamelanotid): Zulassung 22.12.2014 unter besonderen Bedingungen', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse' },
+      { title: 'FDA – Zulassungsschreiben Scenesse vom 08.10.2019', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/210797Orig1s000ltr.pdf' },
+      { title: 'FDA – Drug Trials Snapshot Scenesse: 3 Studien, 244 Patienten, 22 Zentren', url: 'https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-scenesse' },
+      { title: 'Biolcati et al., Br J Dermatol 2015 – Langzeitbeobachtung, 115 Patienten, bis zu 8 Jahre', url: 'https://pubmed.ncbi.nlm.nih.gov/25494545/' },
+      { title: 'Homey et al., Photodermatol Photoimmunol Photomed 2025 – deutsche Sicherheitsstudie nach Zulassung, 200 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/40082741/' },
+      { title: 'Lim et al., JAMA Dermatol 2015 – Afamelanotid plus Schmalband-UVB bei Vitiligo', url: 'https://pubmed.ncbi.nlm.nih.gov/25230094/' },
+      { title: 'Sawyer et al., PNAS 1980 – NDP-alpha-MSH, 26-fache Wirkstärke im Zelltest', url: 'https://pubmed.ncbi.nlm.nih.gov/6777774/' },
+      { title: 'Levine et al., JAMA 1991 – Hautbräunung durch NDP-alpha-MSH, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/1658407/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Melanotan 1 (Afamelanotid): Vom Bräunungs-Peptid zum Medikament',
-        audio: 'audio/melanotan-1-podcast.mp3',
-        spotify: '5KqRbraE72fY4bIFSv8Mgl',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 43) · mit Paul & Paula. Die schönste Erfolgsgeschichte der Peptid-Welt: von der Wüsten-Idee der University of Arizona über die MC1R-Selektivität bis zu den Phase-3-Studien im New England Journal of Medicine (Langendonk 2015), die EPP-Patienten – den „Kindern der Nacht" – die Sonne zurückgaben. Dazu MC1R-Genetik (warum Rothaarige verbrennen), das 16-mg-Implantat Scenesse, Vitiligo-Forschung, der Photoaging-Longevity-Blick und die ehrliche Graumarkt-Einordnung. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'Melanotan 1 (Afamelanotid): Vom Bräunungs-Peptid zum Medikament', audio: 'audio/melanotan-1-podcast.mp3', spotify: '5KqRbraE72fY4bIFSv8Mgl', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 43) · mit Paul & Paula. Die schönste Erfolgsgeschichte der Peptid-Welt: von der Wüsten-Idee der University of Arizona über die MC1R-Selektivität bis zu den Phase-3-Studien im New England Journal of Medicine (Langendonk 2015), die EPP-Patienten – den „Kindern der Nacht" – die Sonne zurückgaben. Dazu MC1R-Genetik (warum Rothaarige verbrennen), das 16-mg-Implantat Scenesse, Vitiligo-Forschung, der Photoaging-Longevity-Blick und die ehrliche Graumarkt-Einordnung. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Langendonk et al., NEJM 2015 – Afamelanotid bei EPP (Phase 3)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa1411481' },
           { title: 'EMA – Scenesse Produktinformation', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'bimagrumab',
