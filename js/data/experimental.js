@@ -152,6 +152,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Tirzepatide)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -200,6 +201,7 @@ const EXPERIMENTAL = [
       { title: 'Eli Lilly, Herstellermitteilung zu TRIUMPH-1 (21.05.2026)', url: 'https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss' }
     ],
     community: [
+      { title: 'biolabshop – Retatrutide (Triple G)', url: 'https://biolabshop.co.uk/209-retatrutide' },
       { title: 'Iron Mike: Retatrutide-Q&A', url: 'https://www.youtube.com/post/UgkxvmKFskjZ2XJh0aQDlzNnow5LEYzeIS8-' },
       { title: 'Retatrutide vs. SLU-PP-332 (Fat Loss Vergleich)', url: 'https://www.youtube.com/watch?v=5fFJIHzrSzQ' }
     ],
@@ -391,6 +393,7 @@ const EXPERIMENTAL = [
       { title: 'Murphy MG et al., J Clin Endocrinol Metab 1998', url: 'https://pubmed.ncbi.nlm.nih.gov/9543156/' }
     ],
     community: [
+      { title: 'biolabshop (MK-677)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -435,6 +438,7 @@ const EXPERIMENTAL = [
       { title: 'Teichman SL et al., J Clin Endocrinol Metab 2006 – CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
     ],
     community: [
+      { title: 'biolabshop (CJC/Ipamorelin)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -479,6 +483,7 @@ const EXPERIMENTAL = [
       { title: 'WADA Prohibited List 2022 (BPC-157 added)', url: 'https://www.wada-ama.org/sites/default/files/resources/files/2022list_final_en.pdf' }
     ],
     community: [
+      { title: 'biolabshop – BPC-157 5 mg', url: 'https://biolabshop.co.uk/peptides/115-bpc-157-5mg-5905601708391.html' },
       { title: 'Iron Mike: BPC-157 Wirkung (Instagram)', url: 'https://www.instagram.com/iron_mike69/reel/C-HihgNoYd0/' },
       { title: 'Peptid 1x1 – BPC-157', url: 'https://www.youtube.com/watch?v=j7TDexpVkGE' }
     ],
@@ -529,6 +534,7 @@ const EXPERIMENTAL = [
       { title: 'Rahaman KA et al., J Chromatogr B 2024 – TB-500 (Ac-LKKTETQ): Analytik und Abbau', url: 'https://pubmed.ncbi.nlm.nih.gov/38382158/' }
     ],
     community: [
+      { title: 'biolabshop – TB-500/BPC-157 Combo', url: 'https://biolabshop.co.uk/peptides/321-tb-4-fragbpc-157-arg-700-mcg-30-caps.html' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -564,6 +570,7 @@ const EXPERIMENTAL = [
       { title: 'Pickart L et al., Oxid Med Cell Longev 2012', url: 'https://pubmed.ncbi.nlm.nih.gov/22666519/' }
     ],
     community: [
+      { title: 'biolabshop (GHK-Cu)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -614,6 +621,7 @@ const EXPERIMENTAL = [
       { title: 'WADA Prohibited List – Gruppen S0 und S2', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'Peptid-Stacks & Blends: Warum kombinieren? Die Grundlagen-Folge', audio: 'audio/peptid-stacks-podcast.mp3', spotify: '1vjClyXNbjwk08HCl5Eeq9', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 54) · mit Paul & Paula. Stack oder Blend, das Prinzip der komplementären Pfade („nie zweimal dieselbe Klingel"), die Stack-Galerie des Podcasts, die fünf Handwerksregeln, die ehrliche Blend-Abwägung zwischen Bequemlichkeit und zementierten Verhältnissen – und die Erinnerung, dass der beste Stack gratis ist: Schlaf, Training, Protein, Sonne. Reine Information, keine Dosier- oder Anwendungsempfehlung.' }
@@ -645,6 +653,7 @@ const EXPERIMENTAL = [
       { title: 'Peptide Protocol Wiki – The Glow Blend (Evidenz-Guide)', url: 'https://www.peptideprotocolwiki.com/blog/glow-blend' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -684,6 +693,7 @@ const EXPERIMENTAL = [
       { title: 'Tewari et al., Am J Sports Med 2026 – Szene-Peptide in der Sportmedizin', url: 'https://pubmed.ncbi.nlm.nih.gov/42578445/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500): Der Heilungs-Stack im Faktencheck', audio: 'audio/klow-podcast.mp3', spotify: '1JtzfQ7YLfHmFcM1V6xXoa', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 53) · mit Paul & Paula. Die Substanz aus Folge 1 kehrt zurück: KPV als NF-κB-Bremse macht aus dem Beauty-Stack den Ganzkörper-Heilungs-Stack – mit Darm-Hirn-Achse, Colitis-Daten und GLOW-vs.-KLOW-Entscheidungshilfe. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 23.08.2026, 10:00)' }
@@ -718,6 +728,7 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Sexuelle Funktionsstörungen ärztlich abklären (Ursachensuche, Herz-Kreislauf)', url: 'https://www.gelbe-liste.de/wirkstoffe/Bremelanotid_57503' },
       { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
+      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -763,6 +774,7 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Verschreibungspflichtig – über Arzt & Apotheke beziehen (geprüfte Qualität, Beratung zu Wechselwirkungen)', url: 'https://www.gelbe-liste.de/wirkstoffe/Tadalafil_23331' },
       { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
+      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -858,6 +870,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Peptide Therapies – Thymosin Alpha-1 Übersicht', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
+      { title: 'biolabshop (Suche „Thymosin")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung', audio: 'audio/thymosin-alpha-1-podcast.mp3', spotify: '11QZafzo2jGgDsOl3xxA11', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 7) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Thymosin Alpha-1, den „Dirigenten" des Immunsystems: ein körpereigenes Thymus-Peptid, das T-Zellen reifen lässt und die Abwehr ins Gleichgewicht bringt. Als Zadaxin in über 30 Ländern zugelassen; in der COVID-Studie (Liu et al., Clin Infect Dis 2020) mit geringerer Sterblichkeit verbunden. Longevity-Bezug: Thymus-Schrumpfung und Immunoseneszenz. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -978,6 +991,7 @@ const EXPERIMENTAL = [
       { title: 'REDEFINE Studienreihe (Phase 3)', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT05567796' }
     ],
     community: [
+      { title: 'biolabshop (Cagrilintide-Forschungspeptid)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -1056,6 +1070,7 @@ const EXPERIMENTAL = [
       { title: 'RedFox – hCG vs. Kisspeptin-10 für TRT/Fruchtbarkeit', url: 'https://www.redfoxpeptides.is/hcg-vs-kisspeptin-10-for-trt-fertility/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -1141,6 +1156,7 @@ const EXPERIMENTAL = [
       { title: 'Sigalos & Pastuszak 2018 – Review Anti-Aging-Peptide', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -1181,6 +1197,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Retatrutide / SLU / MOTS-c Diskussion', url: 'https://www.youtube.com/watch?v=hiTorLOAWKQ' },
+      { title: 'biolabshop (Suche „MOTS-c")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid', audio: 'audio/mots-c-podcast.mp3', spotify: '0QdJ0uUCvxloFqJVXLIWre', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 4) · mit Paul & Paula. Frische, positive KI-Dialogfolge über MOTS-c, das mitochondriale Peptid: warum die Kraftwerke der Zelle ein eigenes Signalmolekül verschicken, wie es über den Energie-Sensor AMPK wirkt („Sport in Molekülform"), was die Studien von Lee (Cell Metab 2015) und Reynolds (Nat Commun 2021) zeigten und warum es für Stoffwechsel und Longevity so spannend ist. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1223,6 +1240,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Peptide Therapies – inkl. Epitalon', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
+      { title: 'biolabshop (Suche „Epitalon")', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -1382,6 +1400,7 @@ const EXPERIMENTAL = [
       { title: 'Mateescu et al., Pharmaceutics 2026 – BPC-157 aus Sicht der Arzneimittelentwicklung', url: 'https://pubmed.ncbi.nlm.nih.gov/42198317/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'Pentadeca Arginate (PDA): Der Nachfolger von BPC-157 im Faktencheck', audio: 'audio/pentadeca-arginate-podcast.mp3', spotify: '25P0QX2mR0rtaupodPvMpC', lengthLabel: '≈ 14 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 40) · mit Paul & Paula. Als die FDA Ende 2023 BPC-157 ausbremste, füllte PDA die Lücke: dieselbe 15-Aminosäuren-Sequenz, aber als stabileres Arginat-Salz. Die Folge erzählt die Sikirić-Forschung (Brcic 2009, Seiwerth 2021), den Mechanismus (VEGFR2-Angiogenese, Fibroblasten, NO), Einsatzfelder von Sehne bis Darm, Prä-/Post-OP-Protokolle, den neuen Wolverine-Stack mit TB-500 – und ordnet die Evidenz ehrlich ein (keine eigenen Humanstudien). Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1461,6 +1480,7 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
       { title: 'Dosing SLU-PP-332 + Retatrutide', url: 'https://www.youtube.com/shorts/T6smpOkB4m0' },
+      { title: 'biolabshop (Suche „SLU-PP-332")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -1515,6 +1535,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Suche „5-Amino-1MQ")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'KI-Podcast: 5-Amino-1MQ – der NNMT-Hemmer, der Fett über Energieverbrauch angeht', audio: 'audio/5-amino-1mq-podcast.mp3', spotify: '71gD9FHwpfiLoCfy8BjgTy', lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 8). Frische KI-Dialogfolge (Paul & Paula) mit Fachrecherche: eleganter NAD+- und SAM-Mechanismus, Fettverlust über mehr Energieverbrauch, Muskel/Kraft, Longevity – plus ehrlicher Reality-Check (Tierdaten, keine reifen Humanstudien, Graumarkt). Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1555,6 +1576,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Iron Mike: SLU-PP-332 vs. Tesofensine', url: 'https://www.youtube.com/shorts/kD6FVLFTcK8' },
+      { title: 'biolabshop (Suche „Tesofensin")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'KI-Podcast: Tesofensine – der Zufalls-Fund als Abnehm-Tablette (mit Tesomet-Trick)', audio: 'audio/tesofensine-podcast.mp3', spotify: '4tCUWipyMuwsmSQ2foeKBV', lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 34). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.' }
@@ -1587,6 +1609,7 @@ const EXPERIMENTAL = [
       { title: 'Novo Nordisk – Phase 2 bei Typ-2-Diabetes (Unternehmensmitteilung 25.11.2025)', url: 'https://www.globenewswire.com/news-release/2025/11/25/3194155/0/en/Novo-Nordisk-phase-2-trial-with-amycretin-reports-significant-weight-loss-and-HbA1c-reduction-in-type-2-diabetes.html' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     filterCat: 'Stoffwechsel'
   },
@@ -1615,6 +1638,7 @@ const EXPERIMENTAL = [
       { title: 'Meto – Next-Generation Metabolic Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -1670,6 +1694,7 @@ const EXPERIMENTAL = [
       { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -1769,6 +1794,7 @@ const EXPERIMENTAL = [
       { title: 'Follistatin & Myostatin – Übersicht (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2717722/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2164,6 +2190,7 @@ const EXPERIMENTAL = [
       { title: 'Sikich L et al., N Engl J Med 2021 – Oxytocin bei Autismus (SOARS-B)', url: 'https://pubmed.ncbi.nlm.nih.gov/34644471/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'Oxytocin: Das Bindungshormon im Faktencheck', audio: 'audio/oxytocin-podcast.mp3', spotify: '3cpwZtQWOR1ocxxuCV2GqA', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 56) · mit Paul & Paula. Vom Kuschelhormon zum Longevity-Kandidaten: Kosfeld (Nature 2005), die Berkeley-Muskeldaten (Elabd, Nature Communications 2014), Knochen, Herz und AMPK, der MIT-Fund zu Lactobacillus reuteri, Männer-Frauen-Unterschiede, der Wechseljahre-Knick – und das Gratis-Protokoll aus Berührung, Gemeinschaft und Wärme. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 26.08.2026, 10:00)' }
@@ -2200,6 +2227,7 @@ const EXPERIMENTAL = [
       { title: 'Moreno Ayala MA et al., Sci Rep 2020 – Humanin und Tumorprogression (Mausmodell)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7244539/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2227,6 +2255,7 @@ const EXPERIMENTAL = [
       { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2255,6 +2284,7 @@ const EXPERIMENTAL = [
       { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2282,6 +2312,7 @@ const EXPERIMENTAL = [
       { title: 'PeptPedia – Nootropic Peptides (Dihexa)', url: 'https://peptpedia.org/peptide-class/nootropic-peptides' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2308,6 +2339,7 @@ const EXPERIMENTAL = [
       { title: 'Outliyr – Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2338,6 +2370,7 @@ const EXPERIMENTAL = [
       { title: 'Kuznik et al., Adv Gerontol 2021 – Thymalin bei schwerem COVID-19 älterer Patienten', url: 'https://europepmc.org/article/PMC/PMC8654498' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'Thymalin: Der Immun-Bioregulator im Faktencheck', audio: 'audio/thymalin-podcast.mp3', spotify: '6aB7vB9kwKPQsukNesmvMT', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom geheimen Militär-Auftrag in Leningrad zum Flaggschiff der Khavinson-Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov, Neuroendocrinology Letters 2003): rund halbierte Sterblichkeit über 6–8 Jahre, mit Epithalamin vierfach niedriger. Plus die ehrliche Ost-West-Einordnung, die orale Vladonix-Variante und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 17.08.2026, 10:00)', sources: [
@@ -2426,6 +2459,7 @@ const EXPERIMENTAL = [
     community: [
       { title: 'Verschreibungspflichtige Behandlung von BPH/Prostatitis: über Urologen abklären', url: 'https://www.gelbe-liste.de/krankheiten/benigne-prostatahyperplasie' },
       { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
+      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       {
@@ -2577,6 +2611,7 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
+      { title: 'biolabshop (Methylenblau-Forschung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'Methylenblau: Wunderdroge oder Hype?', audio: 'audio/methylene-blue-podcast.mp3', spotify: '6JlLZilupWgb72WX10TBri', lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 10). KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -2717,6 +2752,7 @@ const EXPERIMENTAL = [
       { title: 'Levine et al., JAMA 1991 – Hautbräunung durch NDP-alpha-MSH, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/1658407/' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
       { title: 'Melanotan 1 (Afamelanotid): Vom Bräunungs-Peptid zum Medikament', audio: 'audio/melanotan-1-podcast.mp3', spotify: '5KqRbraE72fY4bIFSv8Mgl', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 43) · mit Paul & Paula. Die schönste Erfolgsgeschichte der Peptid-Welt: von der Wüsten-Idee der University of Arizona über die MC1R-Selektivität bis zu den Phase-3-Studien im New England Journal of Medicine (Langendonk 2015), die EPP-Patienten – den „Kindern der Nacht" – die Sonne zurückgaben. Dazu MC1R-Genetik (warum Rothaarige verbrennen), das 16-mg-Implantat Scenesse, Vitiligo-Forschung, der Photoaging-Longevity-Blick und die ehrliche Graumarkt-Einordnung. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -2781,6 +2817,7 @@ const EXPERIMENTAL = [
       { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2811,6 +2848,7 @@ const EXPERIMENTAL = [
       { title: 'ClinicalTrials.gov NCT03569007 – CedLara, Phase 3 (geplant 525, eingeschlossen 307)', url: 'https://clinicaltrials.gov/study/NCT03569007' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
@@ -2839,6 +2877,7 @@ const EXPERIMENTAL = [
       { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
     ],
     community: [
+      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ]
   },
   {
