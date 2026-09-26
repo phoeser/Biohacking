@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
+# Arbeitsdateien – nicht für Suchmaschinen
+Disallow: /podcast-scripts/
+Disallow: /docs/
+Disallow: /demo/
+Disallow: /stimmtest.html
+Disallow: /stimmtest.js
+Disallow: /CLAUDE.md
+Disallow: /DEPLOY.md
+Disallow: /PROJEKT.md
+Disallow: /README.md
+Disallow: /deploy-check.sh
+Disallow: /scores-bauen.js
+Disallow: /firestore-ergaenzung.rules
+Disallow: /firestore-regeln-erfahrungen.txt
 
 Sitemap: https://biohackingkompakt.de/sitemap.xml
