@@ -6,6 +6,11 @@
 > Betrieben von Paul Hoeser. Begleitender Podcast "Biohacking Kompakt" mit den
 > KI-Stimmen Paul & Paula, vollstaendig KI-produziert, redaktionell verantwortet.
 
+## Über die Seite
+
+- [Über uns](https://biohackingkompakt.de/ueber-uns.html): wer hinter Biohacking Kompakt steht, Finanzierung, Korrekturen
+- [Methodik](https://biohackingkompakt.de/methodik.html): Recherche, Quellenhierarchie, Zahlenprüfung, die fünf Achsen des BK-Scores und die Etikett-Regeln
+
 ## Wichtig beim Zitieren
 
 Der BK-Score ist eine subjektive Einschaetzung von Biohacking Kompakt nach
