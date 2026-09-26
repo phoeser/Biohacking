@@ -147,7 +147,7 @@ const SUPPLEMENTS = [
     ],
     dosage: 'Referenzwerte: 4 µg täglich für Erwachsene nach DGE und EFSA. Studien zur Korrektur eines nachgewiesenen Mangels verwendeten oral meist 1.000 bis 2.000 µg täglich, weil der aktive Aufnahmeweg gesättigt ist. Das BfR schlägt für Nahrungsergänzungsmittel 25 µg pro Tagesdosis als Höchstmenge vor.',
     intake: 'Oral, sublingual und intramuskulär schnitten in einer Meta-Analyse gleich ab. Die Injektion bleibt sinnvoll, wenn die Aufnahme über den Darm nicht gesichert ist.',
-    synergies: ['vitamin-b-komplex', 'folsaeure'],
+    synergies: ['vitamin-b-komplex', 'methylfolat'],
     avoid: [],
     evidence: 'hoch',
     sources: 'Leber, Fisch, Fleisch, Eier, Milchprodukte; in rein pflanzlicher Kost praktisch null, dort angereicherte Lebensmittel oder Präparate'
@@ -1849,7 +1849,7 @@ const SUPPLEMENTS = [
     ],
     dosage: '500 mg – 2 g täglich. Mit NMN: 1 g pro 500 mg NMN.',
     intake: 'Morgens mit NMN/NR. Alternativ zu Mahlzeiten.',
-    synergies: ['nmn', 'vitamin-b-komplex', 'folat'],
+    synergies: ['nmn', 'vitamin-b-komplex', 'methylfolat'],
     avoid: [],
     evidence: 'hoch',
     sources: 'Rote Beete, Spinat, Quinoa, Weizenkeime'
@@ -2638,6 +2638,241 @@ const SUPPLEMENTS = [
       { title: 'Produktangaben Codeage, Liposomal Creatine', url: 'https://www.codeage.com/products/liposomal-creatine-monohydrate-powder' },
       { title: 'Produktangaben KRĒO, Creatine Plus', url: 'https://www.odezalifescience.com/products/kreo-creatine-plus' }
     ]
+  },
+  {
+    id: 'bromelain',
+    name: 'Bromelain',
+    altNames: 'Ananas-Enzym, Stamm-Bromelain, Bromelainum',
+    category: 'Enzym',
+    tags: ['entzuendung', 'regeneration', 'verdauung'],
+    short: 'Eiweißspaltendes Enzymgemisch aus dem Ananasstamm, in Deutschland als Arzneimittel gegen Schwellungen nach Operationen zugelassen. Am besten belegt ist weniger Schmerz nach Zahn-Operationen; bei Arthrose und Muskelkater tragen die Daten nicht.',
+    description: 'Bromelain ist ein Gemisch aus Cystein-Proteasen, gewonnen vor allem aus dem Stamm der Ananas; die Aktivität wird in F.I.P.-Einheiten angegeben. Nach dem Schlucken ist es im Serum mit erhaltener eiweißspaltender Aktivität nachweisbar, in pikomolaren Konzentrationen. Eine Meta-Analyse über 39 Arbeiten fand einen kleinen, signifikanten Schmerzvorteil gegenüber Kontrolle (9 Studien). Nach Weisheitszahn-Operationen finden mehrere Meta-Analysen weniger Schmerz, bei der Schwellung widersprechen sie sich. In Deutschland ist Bromelain als Arzneimittel zur Begleittherapie akuter Schwellungen nach Operationen und Verletzungen zugelassen, äußerlich als NexoBrid zur Behandlung schwerer Verbrennungen.',
+    benefits: [
+      'Weniger Schmerz nach Weisheitszahn-Operationen: in 4 Meta-Analysen übereinstimmend, z. B. nach 7 Tagen SMD −0,54 (6 RCTs) – moderater Effekt, Schwellung uneinheitlich',
+      'Kleiner, signifikanter Schmerzvorteil über alle Einsatzgebiete (Meta-Analyse, 9 Studien, mittlere Differenz −0,27) – Studien mittlerer Qualität',
+      'Bessere Lebensqualität in der ersten Woche nach Zahn-OP, etwa beim Schlaf (Meta-Analyse, 6 RCTs)',
+      'In Deutschland als Arzneimittel zur Begleittherapie akuter Schwellungen nach Operationen und Verletzungen der Nase und Nebenhöhlen zugelassen',
+      'Sinusitis: möglicher Nutzen laut Meta-Analyse, die US-Behörde NCCIH hält die Forschung aber für nicht ausreichend'
+    ],
+    risks: [
+      'Kann die Blutungszeit verlängern: nicht bei Gerinnungsstörungen und nicht zusammen mit Blutverdünnern oder Thrombozytenhemmern; vor Operationen absetzen',
+      'Allergische Reaktionen (Hautausschlag, asthmaähnliche Beschwerden) laut Fachinformation häufig – bei Ananasallergie meiden',
+      'Magenbeschwerden und Durchfall gelegentlich',
+      'Erhöht die Blutspiegel mancher Antibiotika',
+      'In Schwangerschaft nicht empfohlen, in der Stillzeit nicht einnehmen; Studien liefen höchstens 16 Wochen'
+    ],
+    dosage: 'Studienangaben und Zulassung, keine persönliche Empfehlung: Das deutsche Arzneimittel enthält 500 F.I.P.-Einheiten je magensaftresistenter Tablette, 1- bis 2-mal täglich, ohne ärztlichen Rat nicht länger als 4 bis 5 Tage. Arthrosestudien verwendeten 500 bis 800 mg täglich über 12 bis 16 Wochen, eine Muskelkaterstudie 300 mg 3-mal täglich. Eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht.',
+    intake: 'Laut Fachinformation etwa eine halbe Stunde vor einer Mahlzeit, unzerkaut mit reichlich Flüssigkeit.',
+    synergies: ['quercetin', 'kurkuma'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Ananas, vor allem der Stamm; die Frucht enthält deutlich weniger',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/37157782/'
+  },
+  {
+    id: 'chrom',
+    name: 'Chrom',
+    altNames: 'Chrompicolinat, Chrom(III)-Picolinat, Chromchlorid, Chromhefe',
+    category: 'Mineral',
+    tags: ['blutzucker', 'stoffwechsel', 'appetit', 'fettverbrennung'],
+    short: 'Spurenelement mit Ruf als Blutzucker-Mineral. Bei Typ-2-Diabetes senkt es das HbA1c in Meta-Analysen leicht, die Einzelstudien widersprechen sich; beim Abnehmen bringt es wenig.',
+    description: 'Dreiwertiges Chrom soll die Wirkung von Insulin unterstützen; die EFSA sieht seine essenzielle Funktion aber nicht als belegt an und fand bei Gesunden keinen Nutzen. Bei Typ-2-Diabetes senkte Chrom das HbA1c in Meta-Analysen um 0,55 % (25 RCTs) bzw. 0,71 % (28 Studien, Heterogenität I² 99,8 %); in einer Studie aus China lag das HbA1c unter 1.000 µg bei 6,6 % statt 8,5 %, in einer westlichen Studie mit insulinpflichtigen Patienten gab es keinen Effekt. Am ehesten sprechen stark insulinresistente Menschen an. Beim Gewicht beträgt der Effekt 0,75 bis 1,1 kg bei niedriger Evidenzqualität. Das BfR schlägt für Nahrungsergänzungsmittel höchstens 60 µg pro Tag vor.',
+    benefits: [
+      'Typ-2-Diabetes: HbA1c −0,55 % (Meta-Analyse, 25 RCTs) bzw. −0,71 % (28 Studien) – Einzelstudien widersprüchlich, klinische Zielwerte selten erreicht',
+      'Ansprechen am ehesten bei ausgeprägter Insulinresistenz und höherem HbA1c (RCT mit Clamp-Messung)',
+      'Gewicht: −1,1 kg nach 12 bis 16 Wochen (Cochrane, niedrige Evidenzqualität) bzw. −0,75 kg (Meta-Analyse, 1.316 Teilnehmer)',
+      'Kohlenhydrat-Heißhunger bei atypischer Depression: Ansprechen 65 % vs. 33 % – nur Untergruppe, Hauptendpunkt verfehlt',
+      'Trägt zur Aufrechterhaltung eines normalen Blutzuckerspiegels bei (zugelassene EU-Gesundheitsangabe)'
+    ],
+    risks: [
+      'Unterzuckerung zusammen mit Insulin oder anderen Blutzuckersenkern',
+      'Fallberichte zu Nierenversagen, Leberschäden und Blutarmut bei 1.200 bis 2.400 µg täglich über Monate',
+      'Gleichzeitige Einnahme senkt die Aufnahme von Levothyroxin',
+      'Leichte Nebenwirkungen wie wässriger Stuhl, Schwindel, Kopfschmerzen, Nesselsucht',
+      'Keine Langzeitdaten zu Nutzen und Sicherheit'
+    ],
+    dosage: 'D-A-CH-Schätzwert 30 bis 100 µg pro Tag; die EFSA konnte keinen Bedarf festlegen. Diabetesstudien verwendeten 200 bis 1.000 µg, Gewichtsstudien 200 bis 1.000 µg Chrompicolinat. EFSA: zusätzliche Aufnahme bis 250 µg pro Tag unbedenklich; BfR-Höchstmengenvorschlag für Nahrungsergänzungsmittel: 60 µg pro Tagesdosis. Das sind Referenz- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Nicht zeitgleich mit Levothyroxin oder Säurebindern. Bei Diabetesmedikation nur nach ärztlicher Rücksprache.',
+    synergies: ['inositol', 'vitamin-b-komplex'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Vollkornprodukte, Fleisch, Bierhefe, Traubensaft; Milchprodukte und zuckerreiche Lebensmittel sind chromarm',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27261273/'
+  },
+  {
+    id: 'glutamin',
+    name: 'Glutamin',
+    altNames: 'L-Glutamin, Glutamin-Dipeptid, Alanyl-Glutamin',
+    category: 'Aminosäure',
+    tags: ['darm', 'sport', 'immun', 'regeneration'],
+    short: 'Häufigste Aminosäure im Körper und Treibstoff für Darm- und Immunzellen. Für Muskelaufbau und Abwehr im Sport ohne Effekt, beim Reizdarm nach Darminfektion dagegen mit einem großen Befund in einer randomisierten Studie.',
+    description: 'Glutamin bildet der Körper selbst, vor allem im Skelettmuskel; in Stresssituationen kann es bedingt essenziell werden. Für Athleten fand eine Meta-Analyse aus 25 Studien keinen Effekt auf Leistung, Körperzusammensetzung und Immunsystem. Beim Reizdarm vom Durchfalltyp nach Infektion mit erhöhter Darmdurchlässigkeit sprachen in einer RCT 79,6 % auf 5 g 3-mal täglich an, gegenüber 5,8 % unter Placebo. In den USA ist L-Glutamin seit 2017 als Arzneimittel bei Sichelzellkrankheit zugelassen, in der EU nicht. Bei beatmeten Intensivpatienten mit Multiorganversagen war die Sterblichkeit mit Glutamin höher.',
+    benefits: [
+      'Reizdarm vom Durchfalltyp nach Darminfektion: 79,6 % Ansprechen gegenüber 5,8 % unter Placebo nach 8 Wochen (1 RCT, 54 und 52 Auswertbare) – großer Effekt, aber nur eine Studie in einer eng definierten Gruppe',
+      'Verstärkt eine Low-FODMAP-Diät bei Reizdarm: 88 % gegenüber 60 % deutliche Besserung (RCT, 50 Patienten, 6 Wochen)',
+      'Sichelzellkrankheit: weniger Schmerzkrisen, Median 3,0 gegenüber 4,0 über 48 Wochen (Phase 3, 230 Patienten) – in den USA zugelassen, EMA-Bewertung negativ',
+      'Weniger Muskelkater nach exzentrischem Training in einer kleinen Crossover-Studie (16 Teilnehmer); systematische Übersicht hält die Daten für unzureichend',
+      'Kein Effekt auf Leistung, Körperzusammensetzung und Immunsystem bei Athleten (Meta-Analyse, 25 Studien)'
+    ],
+    risks: [
+      'Schwerkranke Intensivpatienten mit Multiorganversagen: höhere Sterblichkeit unter Glutamin (REDOXS, 1223 Patienten) – nur in ärztlicher Absprache',
+      'In der Sichelzellstudie häufiger leichte Übelkeit, Müdigkeit, Brust- und Muskelschmerzen als unter Placebo',
+      'Sicherheit für Gesunde bis 14 g täglich gut belegt; höhere Mengen für Langzeitaussagen zu dünn dokumentiert',
+      'Keine amtliche Höchstmenge von EFSA oder BfR'
+    ],
+    dosage: 'Studienangaben, keine persönliche Empfehlung: Reizdarm 5 g 3-mal täglich über 8 Wochen oder 15 g täglich über 6 Wochen; Sportstudien häufig 0,3 g pro Kilogramm Körpergewicht. Eine Risikobewertung (Observed Safe Level) sieht die Sicherheit für gesunde Erwachsene bis 14 g täglich als gut belegt. Eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht.',
+    intake: 'Pulver in den Studien in Wasser gelöst, über den Tag verteilt.',
+    synergies: ['probiotika', 'colostrum', 'whey'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Alle eiweißreichen Lebensmittel: Fleisch, Fisch, Milchprodukte, Eier, Hülsenfrüchte',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30108163/'
+  },
+  {
+    id: 'kalium',
+    name: 'Kalium',
+    altNames: 'Kaliumchlorid, Kaliumcitrat, Kaliumgluconat, Kaliumbicarbonat',
+    category: 'Mineral',
+    tags: ['herz', 'kreislauf', 'muskel', 'nerven', 'blutdruck'],
+    short: 'Gegenspieler des Natriums. Senkt bei Bluthochdruck den Blutdruck; kaliumhaltiger Salzersatz senkte in einer Großstudie Schlaganfälle und Todesfälle. Vorsicht bei Nierenerkrankungen und bestimmten Blutdruckmitteln.',
+    description: 'Kalium trägt zu normaler Nerven- und Muskelfunktion und zur Aufrechterhaltung eines normalen Blutdrucks bei. Eine Meta-Analyse für die WHO (22 RCTs) fand bei Hypertonie −3,49/−1,96 mmHg, bei 90 bis 120 mmol pro Tag −7,16 mmHg systolisch; in Kohorten ging mehr Kalium mit 24 % weniger Schlaganfällen einher. In SSaSS (20.995 Teilnehmer, 4,74 Jahre) senkte ein Salzersatz mit 25 % Kaliumchlorid Schlaganfälle (Rate Ratio 0,86), Herz-Kreislauf-Ereignisse und Todesfälle. Die WHO empfiehlt mindestens 3.510 mg pro Tag, viele Menschen liegen darunter. Bei Nierenerkrankung, ACE-Hemmern, Sartanen oder kaliumsparenden Diuretika droht Hyperkaliämie.',
+    benefits: [
+      'Senkt bei Bluthochdruck den Blutdruck um 3,49/1,96 mmHg (Meta-Analyse, 22 RCTs, hohe Evidenzqualität); bei normalem Blutdruck kein signifikanter Effekt',
+      'Kaliumhaltiger Salzersatz: weniger Schlaganfälle (Rate Ratio 0,86), Herz-Kreislauf-Ereignisse und Todesfälle (SSaSS, 20.995 Hochrisikoteilnehmer)',
+      'Höhere Kaliumzufuhr in Kohorten mit 24 % weniger Schlaganfällen verbunden',
+      'Kaliumcitrat senkt die Neubildung kalziumhaltiger Nierensteine (Cochrane, RR 0,26)',
+      'Trägt zu normaler Muskel- und Nervenfunktion bei (zugelassene EU-Gesundheitsangabe)'
+    ],
+    risks: [
+      'Hyperkaliämie bei chronischer Nierenerkrankung, unter ACE-Hemmern, Sartanen, kaliumsparenden Diuretika und bei Typ-1-Diabetes',
+      'Kaliumchlorid-Tabletten können die Magen-Darm-Schleimhaut schädigen',
+      'Fallberichte zu Herzwirkungen nach 5.000 bis 7.000 mg pro Tag aus Supplementen',
+      'U-förmige Dosis-Wirkung: sehr hohe Zusatzmengen können den Blutdruck bei behandelten Hypertonikern wieder erhöhen',
+      'Kalium-Salzersatz nur nach ärztlicher Rücksprache bei Nierenerkrankung oder kaliumsparenden Medikamenten'
+    ],
+    dosage: 'Referenzwerte: WHO mindestens 3.510 mg pro Tag, EFSA 3.500 mg, D-A-CH 4.000 mg – vorrangig über Lebensmittel. Blutdruckstudien gaben meist 30 bis 140 mmol pro Tag als Supplement; der Effekt flachte oberhalb von etwa 30 mmol Zusatzmenge ab. BfR-Höchstmengenvorschlag für Nahrungsergänzungsmittel: 500 mg pro Tagesdosis; EFSA konnte keine Obergrenze ableiten. Das sind Referenz- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Am besten über Gemüse, Hülsenfrüchte, Nüsse, Kartoffeln und Obst. Präparate zu einer Mahlzeit mit ausreichend Flüssigkeit; bei Medikamenten ärztlich abklären.',
+    synergies: ['magnesium', 'elektrolyte'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Bohnen und Erbsen (etwa 1.300 mg pro 100 g), Nüsse (etwa 600 mg pro 100 g), Spinat und Kohl, Kartoffeln, getrocknete Aprikosen, Linsen, Bananen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23558164/'
+  },
+  {
+    id: 'kalzium',
+    name: 'Kalzium',
+    altNames: 'Calcium, Calciumcarbonat, Calciumcitrat',
+    category: 'Mineral',
+    tags: ['knochen', 'zahn', 'muskel', 'schwangerschaft', 'herz'],
+    short: 'Baustoff der Knochen. Mit Vitamin D bei Älteren gegen Hüftfrakturen belegt, in der Schwangerschaft bei kalziumarmer Ernährung gegen Präeklampsie; der Herz-Streit um hochdosierte Tabletten ist offen.',
+    description: 'Kalzium wird für normale Knochen und Zähne, Muskelfunktion und Blutgerinnung benötigt; die DGE empfiehlt Erwachsenen 1.000 mg pro Tag, Männer erreichen im Median 1.052 mg, Frauen 964 mg. Zusammen mit Vitamin D senkt es bei Älteren Hüftfrakturen (Cochrane: RR 0,84, hohe Evidenzqualität), in einer Pflegeheim-Studie um 43 %. Bei Schwangeren mit kalziumarmer Ernährung sinkt das Präeklampsie-Risiko auf RR 0,36. Bei selbstständig lebenden, gut versorgten Menschen ist der Frakturschutz schwach. Ob Supplemente das Herzinfarktrisiko leicht erhöhen, ist umstritten (Meta-Analysen mit HR 1,31 bzw. ohne Zusammenhang); das BfR empfiehlt höchstens 500 mg pro Tag aus Nahrungsergänzungsmitteln.',
+    benefits: [
+      'Mit Vitamin D weniger Hüftfrakturen bei Älteren (Cochrane, 9 Studien, 49.853 Teilnehmer, RR 0,84, hohe Evidenzqualität)',
+      'Pflegeheimbewohnerinnen: 43 % weniger Hüftfrakturen mit 1,2 g Kalzium plus 800 IE Vitamin D3 über 18 Monate (RCT, 3.270 Frauen)',
+      'Schwangerschaft bei kalziumarmer Ernährung: Präeklampsie RR 0,36 (8 Studien, 10.678 Frauen; niedrige Evidenzqualität)',
+      'Verlangsamt den Knochenverlust an Hüfte (0,54 %) und Wirbelsäule (1,19 %) (Meta-Analyse, 29 RCTs)',
+      'Leichte Blutdrucksenkung (−1,43/−0,98 mmHg)'
+    ],
+    risks: [
+      'Mehr Nierensteine (WHI: HR 1,17 unter 1.000 mg plus Vitamin D über 7 Jahre)',
+      'Herz-Kreislauf umstritten: Herzinfarkt HR 1,31 in einer Meta-Analyse ohne Vitamin D, andere Auswertungen ohne Zusammenhang',
+      'Blähungen und Verstopfung, vor allem mit Calciumcarbonat; Kalzium-Alkali-Syndrom bei sehr hohen Carbonatdosen',
+      'Hemmt die Aufnahme von Levothyroxin (4 Stunden Abstand) und Chinolon-Antibiotika (2 Stunden Abstand)',
+      'Vorsicht bei Nierenerkrankung und unter Lithium'
+    ],
+    dosage: 'DGE-Referenzwert: 1.000 mg pro Tag für Erwachsene (13 bis 18 Jahre: 1.200 mg), möglichst über Lebensmittel. Frakturstudien verwendeten 1.000 bis 1.200 mg plus 400 bis 800 IE Vitamin D; Schwangerschaftsstudien ab 1 g, die WHO empfiehlt Schwangeren mit kalziumarmer Ernährung 1,5 bis 2 g. BfR-Höchstmengenvorschlag für Nahrungsergänzungsmittel: 500 mg pro Tag; Obergrenze der Gesamtzufuhr 2.500 mg. Das sind Referenz- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Zu einer Mahlzeit, Einzeldosen bis 500 mg werden am besten aufgenommen. Abstand zu Schilddrüsenhormonen und bestimmten Antibiotika halten.',
+    synergies: ['vitamin-d3', 'vitamin-k2', 'magnesium'],
+    avoid: ['eisen', 'zink'],
+    evidence: 'hoch',
+    sources: 'Milch, Joghurt, Käse, kalziumreiches Mineralwasser, grünes Gemüse wie Grünkohl und Brokkoli',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/24729336/'
+  },
+  {
+    id: 'l-arginin',
+    name: 'L-Arginin',
+    altNames: 'Arginin, Arginin-HCl, Arginin-Base',
+    category: 'Aminosäure',
+    tags: ['herz', 'blutdruck', 'stickoxid', 'durchblutung', 'libido'],
+    short: 'Direkter Rohstoff für Stickstoffmonoxid. Senkt den Blutdruck in Meta-Analysen stabil und hilft bei leichter Erektionsstörung; für die Sportleistung umstritten, nach Herzinfarkt nicht angezeigt.',
+    description: 'L-Arginin ist Substrat der NO-Synthase, die Stickstoffmonoxid für die Gefäßerweiterung bildet. Oral wird nur etwa 20 % aufgenommen, weil Arginase im Darm viel abbaut; die Vorstufe Citrullin hebt den Arginin-Spiegel im Blut stärker. Trotzdem senkt Arginin den Blutdruck: 22 RCTs ergaben systolisch minus 6,40 mmHg und diastolisch minus 2,64 mmHg. Bei leichter bis mittelgradiger Erektionsstörung fand eine Meta-Analyse aus 10 RCTs eine Odds Ratio von 3,37. Nach akutem Herzinfarkt wurde eine Studie wegen 6 Todesfällen unter Arginin gestoppt.',
+    benefits: [
+      'Blutdruck: systolisch −6,40 mmHg, diastolisch −2,64 mmHg (Meta-Analyse, 22 RCTs), bestätigt in einer älteren Meta-Analyse (11 RCTs, 387 Teilnehmer) und in 24-Stunden-Messungen – stabiler, moderater Effekt ohne harte Endpunkte',
+      'Leichte bis mittelgradige Erektionsstörung: Odds Ratio 3,37 für Verbesserung (Meta-Analyse, 10 RCTs, 540 Patienten); PDE5-Hemmer allein wirken stärker',
+      'Sportleistung: großer Effekt auf Ausdauer, kleiner auf intensive Kurzbelastung in einer Meta-Analyse (15 Studien) – stark heterogen und methodisch kritisiert',
+      'Wirksamer Bereich für den systolischen Blutdruck ab 4 g täglich (Dosis-Wirkungs-Analyse)'
+    ],
+    risks: [
+      'Nicht nach akutem Herzinfarkt: in VINTAGE MI 6 Todesfälle unter Arginin, keiner unter Placebo, Studie gestoppt',
+      'Durchfall und Magenbeschwerden vor allem bei Einzelmengen über 9 g; Aufteilen der Menge hilft',
+      'Kann die Wirkung von Blutdrucksenkern verstärken – ärztliche Rücksprache, ebenso bei Nieren- oder Lebererkrankung',
+      'Für Kinder, Schwangere und Stillende sieht die deutsche Allgemeinverfügung einen Ausschluss vor'
+    ],
+    dosage: 'Studienangaben, keine persönliche Empfehlung: Blutdruckstudien 4 bis 24 g täglich, wirksamer Bereich ab 4 g; Studien zur Erektionsstörung 1500 bis 5000 mg. Eine Risikobewertung (Observed Safe Level) sieht die Sicherheit für gesunde Erwachsene bis 20 g täglich als gut belegt. Eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht.',
+    intake: 'Größere Mengen in den Studien über den Tag verteilt, da Einzelmengen über 9 g häufiger Magen-Darm-Beschwerden auslösen.',
+    synergies: ['citrullin', 'rote-bete-nitrat'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Nüsse, Kürbiskerne, Fleisch, Fisch, Hülsenfrüchte',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/34967840/'
+  },
+  {
+    id: 'praebiotika',
+    name: 'Präbiotika',
+    altNames: 'Inulin, FOS (Fructo-Oligosaccharide), GOS (Galacto-Oligosaccharide), Oligofructose',
+    category: 'Probiotika',
+    tags: ['darm', 'verdauung', 'blutzucker', 'immun'],
+    short: 'Futter für die Darmbakterien als Pulver oder Kapsel: Inulin, FOS und GOS. Vermehren Bifidobakterien zuverlässig und verbessern den Stuhlgang bei Verstopfung; beim Reizdarm helfen sie im Schnitt nicht.',
+    description: 'Präbiotika sind Substrate, die von Darmbakterien gezielt verwertet werden und einen gesundheitlichen Nutzen bringen. Als Supplement gibt es vor allem Inulin-Fructane (Inulin, FOS) und Galacto-Oligosaccharide (GOS). Eine Meta-Analyse aus 64 Studien mit 2099 gesunden Erwachsenen zeigt mehr Bifidobakterien, besonders mit Fructanen und GOS, ohne dass sich die Vielfalt der Darmflora ändert. Für Chicorée-Inulin gibt es eine zugelassene EU-Angabe zur normalen Darmfunktion bei 12 g täglich. Diese Seite behandelt isolierte Präbiotika; Ballaststoffe aus dem Essen stehen im Tipp zu Ballaststoffen.',
+    benefits: [
+      'Mehr Bifidobakterien im Stuhl: SMD 0,64 (Meta-Analyse, 64 Studien, 2099 Teilnehmer) – sehr konsistent, aber ein Surrogatmarker',
+      'Verstopfung: Inulin verbessert Stuhlfrequenz, Konsistenz und Transitzeit (Meta-Analyse, 5 RCTs, 252 Teilnehmer); zugelassene EU-Angabe für 12 g Chicorée-Inulin täglich',
+      'Prädiabetes und Typ-2-Diabetes: Nüchternblutzucker −0,60 mmol/l, HbA1c −0,58 % (Meta-Analyse, 33 RCTs, 1346 Teilnehmer); bei Gesunden kein Effekt',
+      'Höhere Kalziumaufnahme und bessere Knochenmineralisierung bei Jugendlichen mit 8 g Inulin-Fructanen täglich (1 RCT)',
+      'Reizdarm: kein Nutzen gegenüber Placebo (Meta-Analyse, 11 RCTs, 729 Patienten)'
+    ],
+    risks: [
+      'Blähbauch, Flatulenz, Bauchschmerzen und Durchfall, stark dosisabhängig – langsam steigern',
+      'Bei Reizdarm verschlechterten Inulin-Fructane die Flatulenz; Fructane und GOS zählen zu den FODMAPs',
+      'Inulin bei gesunden Erwachsenen bis 40 g täglich als sicher beschrieben; keine amtliche Höchstmenge von EFSA oder BfR'
+    ],
+    dosage: 'Studienangaben, keine persönliche Empfehlung: Die EU-Angabe bezieht sich auf 12 g Chicorée-Inulin täglich; die Diabetes-Meta-Analyse leitet 10 g täglich über mindestens 6 Wochen ab; die Kalziumstudie nutzte 8 g Inulin-Fructane täglich, GOS-Studien 3,5 bis 15,0 g täglich. Eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht.',
+    intake: 'Pulver in Wasser, Joghurt oder Müsli; zur besseren Verträglichkeit mit kleinen Mengen beginnen und langsam steigern.',
+    synergies: ['probiotika'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Chicorée und Chicorée-Wurzel, Topinambur, Zwiebeln, Knoblauch, Lauch (Inulin, FOS); Hülsenfrüchte (GOS)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29757343/'
+  },
+  {
+    id: 'vitamin-e',
+    name: 'Vitamin E',
+    altNames: 'Alpha-Tocopherol, Tocopherole, RRR-Alpha-Tocopherol, all-rac-Alpha-Tocopherol, E306–E309',
+    category: 'Vitamin',
+    tags: ['anti-oxidant', 'leber', 'gehirn', 'immun', 'augen'],
+    short: 'Fettlösliches Antioxidans der Zellmembranen. Gut belegt bei Fettleberentzündung und zur Bremsung des Funktionsverlusts bei Alzheimer, zur Herz- und Krebsvorbeugung bei Gesunden ohne Nutzen.',
+    description: 'Vitamin E schützt die mehrfach ungesättigten Fettsäuren in den Zellmembranen vor Oxidation; der Bedarf steigt mit deren Zufuhr. In der PIVENS-Studie verbesserten 800 IE täglich über 96 Wochen die Leberhistologie bei nichtalkoholischer Steatohepatitis bei 43 % gegenüber 19 % unter Placebo. In TEAM-AD bremsten 2000 IE den Verlust der Alltagsfunktion bei Alzheimer um 19 % pro Jahr. Große Präventionsstudien (HOPE, Women\'s Health Study, Physicians\' Health Study II) fanden keinen Schutz vor Herz-Kreislauf-Ereignissen. In SELECT erhöhten 400 IE synthetisches Vitamin E das Prostatakrebsrisiko (HR 1,17); das BfR schlägt für Nahrungsergänzungsmittel höchstens 30 mg pro Tag vor.',
+    benefits: [
+      'Fettleberentzündung (NASH) ohne Diabetes: histologische Verbesserung bei 43 % vs. 19 % unter Placebo (RCT PIVENS, 247 Teilnehmer, 96 Wochen) – Fibrose unverändert',
+      'Alzheimer: 19 % langsamerer Verlust der Alltagsfunktion pro Jahr (RCT TEAM-AD, 613 Patienten); Kognition nicht verbessert, Evidenz aus einer Studie',
+      'Pflegeheimbewohner ab 65: weniger Infekte der oberen Atemwege (44 % vs. 52 %, RCT, 1 Jahr) – kein Effekt auf untere Atemwege',
+      'Bestandteil der AREDS-Kombination, die fortgeschrittene Makuladegeneration bei Hochrisikopatienten um 25 % seltener machte (Einzelbeitrag nicht isoliert)',
+      'Schützt Zellen vor oxidativem Stress (zugelassene EU-Gesundheitsangabe)'
+    ],
+    risks: [
+      'Prostatakrebs: +17 % unter 400 IE synthetischem Vitamin E täglich (SELECT, 35.533 Männer); BfR rät, Männer ab 55 Jahren darauf hinzuweisen',
+      'Hirnblutungen +22 %, ischämische Schlaganfälle −10 % (Meta-Analyse, 118.765 Teilnehmer)',
+      'Mit Gerinnungshemmern wie Warfarin ab 400 IE täglich erhöhtes Blutungsrisiko',
+      'Hochdosierte Antioxidantien können Chemo- und Strahlentherapie abschwächen',
+      'Kein Schutz vor Herzinfarkt oder Schlaganfall in großen Präventionsstudien'
+    ],
+    dosage: 'Referenzwerte: D-A-CH 11–15 mg pro Tag für Erwachsene, EFSA 11 mg (Frauen) bzw. 13 mg (Männer). Studien verwendeten 200 IE (Infekte im Alter), 800 IE (Fettleber) und 2000 IE (Alzheimer) – ärztlich begleitet. Umrechnung: 1 IE natürliches Vitamin E = 0,67 mg, synthetisches = 0,45 mg. BfR-Höchstmengenvorschlag für Nahrungsergänzungsmittel: 30 mg pro Tag; tolerierbare Obergrenze der Gesamtzufuhr (SCF): 300 mg pro Tag. Das sind Referenz- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Fettlöslich, daher zu einer fetthaltigen Mahlzeit. Auf dem Etikett die Form beachten: natürliches RRR- oder synthetisches all-rac-Alpha-Tocopherol.',
+    synergies: ['vitamin-c', 'selen', 'omega-3'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Weizenkeimöl (20,3 mg pro Esslöffel), Sonnenblumenkerne und -öl, Mandeln, Haselnüsse, Distelöl',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/20427778/'
   }
 ];
 
