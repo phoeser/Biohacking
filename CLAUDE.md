@@ -25,7 +25,7 @@ Generell viel Fragen stellen, die helfen, die Arbeit besser zu machen und besser
 - **Keine API-Keys/Tokens** in Commits oder in `auto_deploy.html`.
 - **Keine Dosierungsangaben bei nicht zugelassenen Wirkstoffen** (§ 3a HWG).
 - **Zwei Auslieferungswege synchron halten:** Eine Datenänderung in `js/data/` muss auch in die statischen Seiten unter `/thema/`, `/tipp/`, `/vergleich/` — und umgekehrt. `label` steht nur in `scores.json`, `scores.js` leitet es über `bkLabel()` her.
-- **Cache-Buster `?v=NNN`** in `index.html` bei jeder JS/CSS-Änderung an allen 19 Stellen hochziehen.
+- **Cache-Buster je Datei** (`?v=<8 Zeichen SHA-1>`): nach jeder JS/CSS-Änderung `python3 buster.py` ausführen und `index.html` mit deployen. Nicht mehr pauschal hochzählen — sonst lädt Google alle 20 Dateien neu.
 - **Deploy gilt erst als fertig, wenn die Blob-SHA live gegengeprüft ist.**
 - **`autor: 'weitergegeben'` in Erfahrungsberichten heißt `bewertung: null`** — keine Sterne für etwas, das man nicht selbst erlebt hat.
 - Bezugsquellen-/Wearable-Links: „Rabatt-Link" bzw. „keine Empfehlung/Garantie, Grauzone".

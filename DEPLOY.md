@@ -116,17 +116,19 @@ bleibt `.deploy/bk.py` der Weg (`pull` vor jeder Änderung).
 
 ## Cache-Buster nicht vergessen
 
-Alle Skript- und Stylesheet-Verweise in `index.html` tragen `?v=NNN`. Ohne
-Erhöhung sehen wiederkehrende Besucher die alte Version aus dem Browser-Cache.
+Alle Skript- und Stylesheet-Verweise in `index.html` tragen `?v=<hash>` –
+die ersten 8 Zeichen des SHA-1 des Dateiinhalts (seit 27.09.2026, vorher ein
+gemeinsamer Zähler bis v190). Nach **jeder** Änderung an `js/`- oder
+`css/`-Dateien:
 
-Bei **jeder** Änderung an `js/`- oder `css/`-Dateien: die Zahl in `index.html`
-überall gleichzeitig um eins erhöhen.
+    python3 buster.py
 
-    sed -i 's/?v=172/?v=173/g' index.html
+Das Skript setzt nur bei geänderten Dateien einen neuen Wert. So bekommen
+Browser und Suchmaschinen nur für wirklich geänderte Dateien eine neue
+Adresse; ein pauschales Hochzählen ließ Google bei jedem Deploy alle
+20 Dateien neu laden (70 % aller Crawling-Abrufe waren JavaScript).
 
-Aktueller Stand: **?v=173** an 19 Stellen.
-
-`deploy-check.sh` warnt, wenn in `index.html` mehrere verschiedene Werte stehen.
+`deploy-check.sh` warnt, wenn ein Wert nicht zum Dateiinhalt passt.
 
 ---
 

@@ -23,7 +23,7 @@
        ginge bei jedem Seitenaufruf die IP-Adresse der Besucher an Google. -->
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/style.css?v=190" />
+  <link rel="stylesheet" href="css/style.css?v=ba2e3f44" />
   <link rel="canonical" href="https://biohackingkompakt.de/" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://biohackingkompakt.de/#organisation","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","founder":{"@type":"Person","@id":"https://biohackingkompakt.de/ueber-uns.html#paul-hoeser","name":"Paul Höser","url":"https://biohackingkompakt.de/ueber-uns.html"},"email":"kontakt@biohackingkompakt.de","description":"Deutschsprachiger Faktencheck zu Supplements, Peptiden und Biohacking-Anwendungen.","sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652","https://www.youtube.com/@biohackingkompakt","https://www.tiktok.com/@biohackingkompakt.de"]},{"@type":"WebSite","@id":"https://biohackingkompakt.de/#website","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","inLanguage":"de","publisher":{"@id":"https://biohackingkompakt.de/#organisation"}},{"@type":"WebPage","@id":"https://biohackingkompakt.de/#startseite","url":"https://biohackingkompakt.de/","name":"Biohacking Kompakt","inLanguage":"de","isPartOf":{"@id":"https://biohackingkompakt.de/#website"},"description":"Datenbank zu Supplements, Peptiden, Anwendungen und Biohacking-Tipps, jeweils mit Evidenz, Risiken und Quellen – plus dem BK-Score, der den Wissensstand bewertet."},{"@type":"PodcastSeries","@id":"https://biohackingkompakt.de/#podcast","name":"Biohacking Kompakt","url":"https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","webFeed":"https://anchor.fm/s/1148b9204/podcast/rss","inLanguage":"de","author":{"@type":"Person","@id":"https://biohackingkompakt.de/ueber-uns.html#paul-hoeser","name":"Paul Höser","url":"https://biohackingkompakt.de/ueber-uns.html"},"publisher":{"@id":"https://biohackingkompakt.de/#organisation"},"sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652"],"description":"Täglicher Faktencheck zu einem Wirkstoff oder Verfahren. Vollständig KI-produziert mit zwei synthetischen Stimmen, redaktionell verantwortet."},{"@type":"Dataset","@id":"https://biohackingkompakt.de/#score-datensatz","name":"BK-Score","url":"https://biohackingkompakt.de/#score","description":"Bewertung des Wissensstands zu Supplements, Peptiden und Anwendungen auf fünf Achsen von 0 bis 10. Subjektive Einschätzung von Biohacking Kompakt nach offengelegten Vergaberegeln – keine wissenschaftliche Bewertung und keine medizinische Empfehlung.","creator":{"@id":"https://biohackingkompakt.de/#organisation"},"inLanguage":"de","license":"https://biohackingkompakt.de/impressum.html","variableMeasured":[{"@type":"PropertyValue","name":"Human-Evidenz","description":"Wie viel und wie gute Daten am Menschen","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Mechanismus","description":"Wie gut die Wirkkette verstanden ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Sicherheits-Datenlage","description":"Wie gut die Sicherheit untersucht ist – nicht, wie sicher es ist","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Hype-Abstand","description":"Wie weit die Vermarktung der Evidenz vorausläuft","minValue":0,"maxValue":10},{"@type":"PropertyValue","name":"Anwendungserfahrung","description":"Wie viel dokumentierte Anwendung am Menschen vorliegt – misst nicht, ob es wirkt","minValue":0,"maxValue":10}],"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://biohackingkompakt.de/scores.json"}}]}</script>
 </head>
@@ -915,6 +915,8 @@
         <a href="/folge/">Folgen</a> ·
         <a href="/problem/">Fragen &amp; Beschwerden</a> ·
         <a href="/glossar/">Glossar</a> ·
+        <a href="/vergleich/">Vergleiche</a> ·
+        <a href="/tipp/">Tipps</a> ·
         <a href="https://www.youtube.com/@biohackingkompakt" target="_blank" rel="noopener">YouTube</a> ·
         <a href="https://www.tiktok.com/@biohackingkompakt.de" target="_blank" rel="noopener">TikTok</a> ·
         <a href="#about" data-nav="about">Über</a> ·
@@ -952,7 +954,7 @@
        weibliche Stimme spricht, und meldet das Ergebnis dem Agenten, damit er
        die passende Stimme waehlt statt zu raten. Rechnet lokal, speichert und
        uebertraegt keine Aufnahme. Braucht allow-events am Element oben. -->
-  <script src="js/stimme.js?v=190"></script>
+  <script src="js/stimme.js?v=a1c246d7"></script>
   <!-- Schließen-/Öffnen-Steuerung für den Voice-Coach -->
   <button id="vc-close" title="Coach schließen" aria-label="Coach schließen"
     style="position:fixed;right:16px;bottom:104px;z-index:2147483647;width:32px;height:32px;border:none;border-radius:50%;background:#0d1b2a;color:#fff;font-size:18px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.35);opacity:.9;display:flex;align-items:center;justify-content:center;">&times;</button>
@@ -970,32 +972,32 @@
     })();
   </script>
 
-  <!-- Cache-Buster: EIN gemeinsamer Wert fuer alle eigenen Dateien (?v=NNN).
-       Bei jedem Deploy hochzaehlen und ueberall gleich setzen — dann koennen
-       die Versionsstaende einzelner Dateien nicht mehr auseinanderlaufen. -->
+  <!-- Cache-Buster je Datei: ?v=<8 Zeichen SHA-1 des Inhalts>. Nach jeder
+       JS/CSS-Aenderung `python3 buster.py` laufen lassen — nur geaenderte
+       Dateien bekommen eine neue Adresse (schont Googles Crawling-Budget). -->
   <!-- Daten und App-Logik -->
-  <script src="js/data/supplements.js?v=190"></script>
-  <script src="js/data/tips.js?v=190"></script>
-  <script src="js/data/goals.js?v=190"></script>
-  <script src="js/data/products.js?v=190"></script>
-  <script src="js/data/experimental.js?v=190"></script>
-  <script src="js/data/khavinson.js?v=190"></script>
-  <script src="js/data/therapies.js?v=190"></script>
-  <script src="js/data/signalwege.js?v=190"></script>
-  <script src="js/data/blutwerte.js?v=190"></script>
-    <script src="js/data/podcast.js?v=190"></script>
-    <script src="js/data/aenderungen.js?v=190"></script>
-    <script src="js/data/scores.js?v=190"></script>
-  <script src="js/data/erfahrungen.js?v=190"></script>
-  <script src="js/data/labortests.js?v=190"></script>
-  <script src="js/laborcheck.js?v=190"></script>
-  <script src="js/vitals.js?v=190"></script>
+  <script src="js/data/supplements.js?v=b9480652"></script>
+  <script src="js/data/tips.js?v=ed8ca035"></script>
+  <script src="js/data/goals.js?v=372de699"></script>
+  <script src="js/data/products.js?v=8b585952"></script>
+  <script src="js/data/experimental.js?v=1e2260ff"></script>
+  <script src="js/data/khavinson.js?v=a89dc21a"></script>
+  <script src="js/data/therapies.js?v=3b93ad65"></script>
+  <script src="js/data/signalwege.js?v=360206e8"></script>
+  <script src="js/data/blutwerte.js?v=6fb6d0e2"></script>
+    <script src="js/data/podcast.js?v=3c92f4b0"></script>
+    <script src="js/data/aenderungen.js?v=a0b10c61"></script>
+    <script src="js/data/scores.js?v=93a02f16"></script>
+  <script src="js/data/erfahrungen.js?v=c8567584"></script>
+  <script src="js/data/labortests.js?v=52c27276"></script>
+  <script src="js/laborcheck.js?v=1b1007bb"></script>
+  <script src="js/vitals.js?v=7ce3bf18"></script>
   <!-- Firebase (nur für MyData) -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="js/mydata.js?v=190"></script>
-  <script src="js/app.js?v=190"></script>
+  <script src="js/mydata.js?v=82bdfba2"></script>
+  <script src="js/app.js?v=01c9f1ea"></script>
 
   <!-- Cloudflare Web Analytics: cookielos, keine Wiedererkennung einzelner
        Besucher, damit einwilligungsfrei nach DSGVO und TDDDG. Siehe

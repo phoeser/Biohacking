@@ -60,15 +60,15 @@ done
 printf '%.0s-' {1..70}; printf '\n'
 echo "Abweichungen: $abweichung   fehlend: $fehlt"
 
-# Cache-Buster-Konsistenz pruefen: alle ?v= in index.html muessen gleich sein
+# Cache-Buster pruefen: jeder ?v= in index.html muss zum Dateiinhalt passen
 if [ -f "$BASE/index.html" ]; then
-  versionen=$(grep -o '?v=[0-9]\+' "$BASE/index.html" | sort -u | tr '\n' ' ')
-  anzahl=$(grep -o '?v=[0-9]\+' "$BASE/index.html" | sort -u | wc -l)
-  if [ "$anzahl" -gt 1 ]; then
-    echo "WARNUNG: uneinheitlicher Cache-Buster in index.html: $versionen"
-  else
-    echo "Cache-Buster: $versionen"
-  fi
+  falsch=0
+  for ref in $(grep -o '\(js\|css\)/[^"?]*?v=[0-9a-f]*' "$BASE/index.html"); do
+    datei="${ref%%\?v=*}"; wert="${ref##*\?v=}"
+    soll=$(sha1sum "$BASE/$datei" 2>/dev/null | cut -c1-8)
+    if [ "$soll" != "$wert" ]; then echo "WARNUNG: Cache-Buster veraltet: $datei (python3 buster.py)"; falsch=$((falsch+1)); fi
+  done
+  [ "$falsch" -eq 0 ] && echo "Cache-Buster: alle passend"
 fi
 
 [ "$abweichung" -eq 0 ] && [ "$fehlt" -eq 0 ]
