@@ -3035,6 +3035,18 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 720px) {
   .global-search { order: 3; flex-basis: 100%; max-width: none; margin: 10px 0 2px; }
 }
+/* Ergebnisliste nicht schmaler als 380px, auch wenn das Suchfeld im vollen Kopf nur 150px bekommt */
+.global-search-results {
+  right: auto;
+  width: max(100%, 380px);
+  max-width: calc(100vw - 24px);
+  overflow-x: hidden;
+}
+.gsr-name { line-height: 1.25; overflow-wrap: anywhere; }
+.gsr-badge { align-self: flex-start; margin-top: 2px; }
+@media (max-width: 720px) {
+  .global-search-results { width: 100%; max-width: none; }
+}
 
 /* ============ KI-PODCAST-BLOCK (Experimentelles/Peptide) ============ */
 .exp-podcast {
