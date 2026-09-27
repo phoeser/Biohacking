@@ -2903,6 +2903,95 @@ const SUPPLEMENTS = [
     evidence: 'mittel',
     sources: 'Keine nennenswerten Lebensmittelquellen; wird in der Leber aus Ursodeoxycholsäure und Taurin gebildet',
     link: 'https://pubmed.ncbi.nlm.nih.gov/27893675/'
+  },
+  {
+    id: 'boswellia',
+    name: 'Weihrauch (Boswellia)',
+    altNames: 'Boswellia serrata, Indischer Weihrauch, Frankincense, Boswelliasäuren, AKBA, 5-Loxin, Aflapin',
+    category: 'Kräuter',
+    tags: ['gelenke', 'entzuendung', 'darm'],
+    short: 'Das Harz des Indischen Weihrauchs lindert bei Kniearthrose Schmerz und Steifigkeit, laut Cochrane mit hoher Evidenzqualität für einen angereicherten Extrakt. Die Studien sind aber klein und kurz, die Wirkung hängt am Spezialextrakt, und bei Morbus Crohn hielt der Nutzen in der Langzeitstudie nicht.',
+    description: 'Weihrauch ist das Gummiharz des Baums Boswellia serrata und ein traditionelles Mittel der ayurvedischen Medizin. Als Wirkstoffe gelten die Boswelliasäuren, vor allem AKBA: Im Labor hemmen sie die 5-Lipoxygenase, das Schlüsselenzym der Leukotrienbildung, und die Prostaglandin-E2-Synthase mPGES-1. Klinisch am besten belegt ist die Kniearthrose: Der Cochrane-Review fand für 100 mg angereicherten Extrakt über 90 Tage 17 Punkte weniger Schmerz auf einer 100-Punkte-Skala. Beim strahlenbedingten Hirnödem zeigte eine Pilotstudie mit 44 Patienten ein deutliches Signal, beim Remissionserhalt von Morbus Crohn blieb der Effekt aus. Produkte unterscheiden sich stark in Gehalt und Qualität, und die Aufnahme steigt mit einer fettreichen Mahlzeit deutlich.',
+    benefits: [
+      'Kniearthrose: Schmerz -17 Punkte auf 100 gegenüber Placebo, Funktion +8 Punkte, NNTB 2 (Cochrane 2014, 2 RCTs, 85 Teilnehmende, 90 Tage, hohe Evidenzqualität für angereicherten Extrakt)',
+      'Meta-Analysen bestätigen weniger Schmerz und Steifigkeit: 7 RCTs mit 545 Patienten (Yu 2020); Netzwerk-Meta-Analyse über 39 RCTs: Boswellia mit der höchsten Wahrscheinlichkeit am wirksamsten bei Schmerz und Steifigkeit (Zhang 2025)',
+      'Strahlenbedingtes Hirnödem: über 75 % Rückgang bei 60 % unter Boswellia gegenüber 26 % unter Placebo (doppelblinde Pilot-RCT, 44 Patienten, Kirste 2011)',
+      'Kollagene Kolitis: klinische Remission 63,6 % gegenüber 26,7 % per Protokoll, nach Intention-to-treat nicht signifikant (RCT, 31 Patienten, 6 Wochen, Madisch 2007)',
+      'Gut verträglich bis 52 Wochen, keine Nachteile gegenüber Placebo (Holtmeier 2011); LiverTox: unwahrscheinliche Ursache von Leberschäden (Likelihood score E)'
+    ],
+    risks: [
+      'Leichte Magen-Darm-Beschwerden wie Übelkeit, Durchfall oder Verstopfung, dazu Sodbrennen und allergische Reaktionen',
+      'Verbraucherzentrale rät von der Kombination mit Gerinnungshemmern wie Warfarin ab; im Labor beeinflussen Boswelliasäuren die Blutplättchen in beide Richtungen',
+      'Starke Qualitätsschwankungen: 41 % von 17 untersuchten Produkten entsprachen nicht der Deklaration, eines enthielt keine typische Boswelliasäure (Meins 2016)',
+      'Morbus Crohn: Remissionserhalt über 52 Wochen nicht besser als Placebo, 59,9 % gegenüber 55,3 % (Holtmeier 2011)',
+      'Für Schwangerschaft, Stillzeit und Kinder keine belastbaren Daten'
+    ],
+    dosage: 'Studien verwendeten bei Kniearthrose 100 mg angereicherten Extrakt (5-Loxin oder Aflapin) oder 250 mg 5-Loxin pro Tag über 90 Tage, bei kollagener Kolitis 400 mg dreimal täglich über 6 Wochen, bei Morbus Crohn 3-mal täglich 2 Kapseln à 400 mg über 52 Wochen und beim Hirnödem 4.200 mg pro Tag. LiverTox nennt als übliche Empfehlung 250 bis 500 mg zwei- oder dreimal täglich. Höchstmengen oder Referenzwerte von EFSA, BfR oder DGE gibt es nicht, da Weihrauch kein Nährstoff ist. Die Studienergebnisse gelten für die jeweiligen Spezialextrakte und lassen sich laut AkdÄ nicht auf beliebige Produkte übertragen.',
+    intake: 'Zu einer fettreichen Mahlzeit: Mit Fett stiegen die Blutspiegel der Boswelliasäuren um ein Mehrfaches. Auf ein Produkt mit angegebenem Boswelliasäure-Gehalt achten; bei Gerinnungshemmern vorher ärztlich abklären.',
+    synergies: ['kurkuma'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Keine Lebensmittelquellen; Gummiharz des Weihrauchbaums Boswellia serrata',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/24848732/'
+  },
+  {
+    id: 'maca',
+    name: 'Maca',
+    altNames: 'Lepidium meyenii, Lepidium peruvianum, Peruanischer Ginseng, Maca-Wurzel, gelatinisierte Maca',
+    category: 'Adaptogen',
+    tags: ['libido', 'energie', 'stimmung'],
+    short: 'Andenknolle, die in kleinen Studien das sexuelle Verlangen und die Stimmung verbesserte, ohne Testosteron oder Östradiol zu verändern. Die Studien sind klein, bei Spermienqualität und Sportleistung ist die Datenlage uneinheitlich.',
+    description: 'Maca ist die Knolle eines Kreuzblütlers aus den peruanischen Anden, die dort seit langem erhitzt als Lebensmittel gegessen wird. In einer doppelblinden Studie über 12 Wochen steigerten 1,5 oder 3,0 g gelatinisierte Maca das sexuelle Verlangen gesunder Männer ab Woche 8, während LH, FSH, Prolaktin, Testosteron und Östradiol unverändert blieben. Weitere kleine RCTs zeigen Vorteile bei leichter Erektionsstörung, bei sexuellen Nebenwirkungen von Antidepressiva und bei psychischen Beschwerden in den Wechseljahren, die größte Studie mit 175 Teilnehmenden bessere Stimmung und Energie. Diskutiert werden Macamide, die in Laborversuchen das Anandamid abbauende Enzym FAAH hemmen; am Menschen ist der Mechanismus unklar. Systematische Übersichten werten die Evidenz als begrenzt, und das BfR konnte mangels Sicherheitsdaten keine unbedenkliche Verzehrsmenge ableiten.',
+    benefits: [
+      'Mehr sexuelles Verlangen bei gesunden Männern ab Woche 8, ohne Änderung von Testosteron oder Östradiol (doppelblinde RCT, 12 Wochen, 1,5 oder 3,0 g pro Tag)',
+      'Leicht bessere Erektionsfunktion bei leichter Erektionsstörung: IIEF-5 +1,6 vs. +0,5 Punkte unter Placebo (RCT, 50 Männer, 12 Wochen); Meta-Analyse 2026 wertet die Evidenz für Maca als unzureichend',
+      'Sexuelle Nebenwirkungen von Antidepressiva: Remission bei 30,0 % vs. 20,0 % unter Placebo, vor allem nach der Menopause (RCT, 45 Frauen, 3,0 g, 12 Wochen)',
+      'Weniger Angst- und Depressionssymptome in den Wechseljahren ohne Hormonwirkung (2 kleine Crossover-RCTs mit 14 und 29 Frauen; Übersicht: 4 RCTs günstig, Evidenz begrenzt)',
+      'Bessere Stimmung und mehr Energie (RCT, 175 Teilnehmende, 3 g Extrakt aus roter oder schwarzer Maca, 12 Wochen)'
+    ],
+    risks: [
+      'Keine systematischen Sicherheitsstudien; das BfR konnte keine unbedenkliche Verzehrsmenge ableiten',
+      'Tierversuche mit Effekten an Geschlechtsorganen und Hinweisen auf Wechselwirkungen mit Hormonwirkungen; beim Menschen bisher nicht belegt',
+      'In einer 90-Tage-Studie leichter Anstieg von AST und diastolischem Blutdruck in der Maca-Gruppe',
+      'Alkaloidgehalt schwankt stark zwischen Produkten (56 bis 598 ppm in Fertigprodukten)',
+      'Keine Daten zu Schwangerschaft und Stillzeit; bei hormonabhängigen Erkrankungen Zurückhaltung (schwache östrogenartige Wirkung in Zellversuchen)'
+    ],
+    dosage: 'Studien verwendeten meist 1,5 bis 3,5 g Maca-Pulver oder -Extrakt pro Tag über 6 bis 12 Wochen, in einer Studie zur Erektionsfunktion 2.400 mg Trockenextrakt; bei SSRI-bedingter Dysfunktion wirkten 3,0 g, 1,5 g nicht. Amtliche Referenzwerte oder Höchstmengen gibt es nicht; das BfR konnte 2007 keine unbedenkliche Verzehrsmenge ableiten, damals erfasste Produkte empfahlen 400 bis 5.000 mg, meist 600 bis 2.400 mg täglich. Das sind Studien- und Marktangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien täglich über mindestens 8 bis 12 Wochen, als Pulver oder Kapseln; traditionell wird Maca nur erhitzt verzehrt, gelatinisiertes Pulver ist vorbehandelt.',
+    synergies: ['safran', 'ginseng', 'tongkat-ali'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Maca-Knolle (Hypokotyl), in Peru erhitzt, als Mehl, Brei oder Getränk',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/12472620/'
+  },
+  {
+    id: 'tart-cherry',
+    name: 'Sauerkirsche (Tart Cherry)',
+    altNames: 'Prunus cerasus, Montmorency-Kirsche, Balaton, Sauerkirschsaft, Sauerkirschkonzentrat, Schattenmorelle',
+    category: 'Antioxidant',
+    tags: ['regeneration', 'sport', 'schlaf', 'entzuendung', 'muskel'],
+    short: 'Anthocyanreiches Konzentrat, mit dem sich die Muskelkraft nach harter Belastung schneller erholt (Meta-Analyse, 19 Studien). Beim Schlaf gibt es nur kleine Studien, bei Gicht senkte es die Harnsäure in einer kontrollierten Studie nicht.',
+    description: 'Sauerkirschen (Prunus cerasus, vor allem die Sorte Montmorency) liefern Anthocyane, die im Laborversuch COX-1 und COX-2 hemmen, sowie geringe Mengen Melatonin. Eine Meta-Analyse von 19 Studien mit Athleten zeigte eine schnellere Erholung der Maximalkraft und niedrigeres CRP bis 48 Stunden, aber keinen gesicherten Effekt auf Muskelkater; eine weitere Meta-Analyse aus 10 RCTs fand einen kleinen Vorteil bei der Ausdauerleistung. Bei 20 Gesunden stiegen nach 7 Tagen Konzentrat das Melatonin im Urin und die Schlafzeit; bei Insomnie gibt es nur Pilotstudien, eine Kapselstudie mit 500 mg blieb ohne Effekt. Bei Gicht fand eine RCT mit 50 Betroffenen keine Senkung der Harnsäure, eine Meta-Analyse aus 4 RCTs nur einen kleinen Effekt. Über 3 Monate wurde Konzentrat gut vertragen.',
+    benefits: [
+      'Schnellere Erholung der Maximalkraft nach muskelschädigender Belastung, nach 24 h Effektstärke 1,12 und nach 48 h 1,29 (Meta-Analyse, 19 Studien; Evidenzsicherheit sehr niedrig bis moderat)',
+      'Niedrigeres CRP bis 48 h nach Belastung; bei 20 Marathonläufern auch IL-6 und Harnsäure niedriger',
+      'Kleiner Vorteil bei der Ausdauerleistung, SMD 0,36 (Meta-Analyse, 10 RCTs, 147 Teilnehmende)',
+      'Mehr Melatonin im Urin und längere Schlafzeit bei Gesunden (RCT, 20 Teilnehmende, 7 Tage); bei Insomnie nur Pilotstudien',
+      'Leicht niedrigere Harnsäure in einer Meta-Analyse aus 4 RCTs (SMD -0,22), in der RCT mit 50 Gichtpatienten aber kein Effekt'
+    ],
+    risks: [
+      'Saft und Konzentrat enthalten Fruchtzucker; in einer Studie ein Fall erhöhten Blutzuckers möglicherweise durch das Konzentrat',
+      'Kein Ersatz für eine harnsäuresenkende Gichttherapie',
+      'COX-Hemmung nur im Laborversuch gezeigt; Wechselwirkungen mit Gerinnungshemmern nicht untersucht',
+      'Schlafeffekte uneinheitlich; Kapseln mit 500 mg blieben in einer Studie ohne Wirkung'
+    ],
+    dosage: 'Studien verwendeten meist 30 mL Konzentrat zweimal täglich (bis 3 Monate), 240 mL Saft zweimal täglich (Insomnie-Pilotstudie) oder 60 mL Konzentrat als Einzeldosis; zur Regeneration meist einige Tage vor bis 48 Stunden nach der Belastung. In der Gichtstudie wurden 7,5 bis 30 ml Konzentrat zweimal täglich über 28 Tage ohne Effekt getestet. Amtliche Referenzwerte oder Höchstmengen gibt es nicht. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Konzentrat mit Wasser verdünnt, in den Regenerationsstudien über einige Tage vor und bis 48 Stunden nach einer harten Belastung; in den Schlafstudien über 7 bis 14 Tage.',
+    synergies: ['magnesium', 'glycin', 'kurkuma'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Sauerkirschen (Montmorency, Balaton, Schattenmorelle), Sauerkirschsaft, ungesüßtes Konzentrat',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41945263/'
   }
 ];
 

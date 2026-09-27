@@ -4205,6 +4205,252 @@ const EXPERIMENTAL = [
     ],
     podcasts: [],
     filterCat: 'Exercise'
+  },
+  {
+    id: 'ahk-cu',
+    name: 'AHK-Cu (Kupfer-Tripeptid)',
+    altNames: 'L-Alanyl-L-Histidyl-L-Lysin-Kupfer, AHK, Kupfertripeptid AHK, Copper Tripeptide-3',
+    class: 'Tripeptid-Kupfer-Komplex, kosmetischer Rohstoff, kein zugelassener Wirkstoff',
+    emoji: '🧬',
+    short: 'Das kleine Geschwister von GHK-Cu: gleicher Bauplan, an erster Stelle Alanin statt Glycin. Isolierte menschliche Haarfollikel wuchsen in Organkultur unter AHK-Cu länger, und Haarpapillenzellen teilten sich häufiger — dabei bleibt es aber auch, denn zu AHK-Cu existiert genau eine Arbeit von 2007 und keine Anwendung am Menschen.',
+    moa: 'AHK-Cu ist ein Tripeptid aus L-Alanin, L-Histidin und L-Lysin, das über den Histidinrest ein Kupfer(II)-Ion bindet und als Träger für dieses Kupfer dient. Kupfer ist Cofaktor der Lysyloxidase, die Kollagen und Elastin quervernetzt, sowie von Superoxiddismutasen, Cytochrom-c-Oxidase und Coeruloplasmin — das ist die biochemische Grundlage, auf der Kupferpeptide in der Haut- und Haarpflege diskutiert werden. Für die Peptidklasse ist beschrieben, dass Tripeptid-Kupfer-Komplexe Hautfibroblasten zur Teilung anregen, die Bildung von VEGF heben und die Abgabe von TGF-beta1 senken. Gemessen wurde für AHK-Cu selbst nur in Organ- und Zellkultur: Verlängerung isolierter menschlicher Haarfollikel und Teilung von Haarpapillenzellen bei 10 hoch -12 bis 10 hoch -9 Mol pro Liter, dazu ein zum Zellschutz passendes Muster mit höherem Verhältnis von Bcl-2 zu Bax und weniger gespaltener Caspase-3 und PARP (Pyo et al. 2007). Eine Übersichtsarbeit von 2026 hält ausdrücklich fest, dass der Signalweg von AHK-Cu schlechter charakterisiert ist als der von GHK-Cu.',
+    benefits: [
+      'Verlängerte isolierte menschliche Haarfollikel in Organkultur und regte kultivierte Haarpapillenzellen zur Teilung an, und das in sehr niedrigen Konzentrationen von 10 hoch -12 bis 10 hoch -9 Mol pro Liter (Pyo et al. 2007, menschliches Gewebe, aber ex vivo).',
+      'In denselben Zellen ein zum Zellschutz passendes Muster: höheres Verhältnis von Bcl-2 zu Bax, weniger gespaltene Caspase-3 und weniger gespaltenes PARP (Pyo et al. 2007, Western Blot).',
+      'Trägt Kupfer, den Cofaktor der Lysyloxidase für die Quervernetzung von Kollagen und Elastin sowie von Superoxiddismutasen und Cytochrom-c-Oxidase — ein plausibler Ansatzpunkt für Bindegewebe und Haarwurzel (NIH Office of Dietary Supplements).',
+      'In den geprüften Konzentrationen nicht zellschädigend; die Übersicht 2026 zählt AHK-Cu zu den Peptiden, deren Zellverträglichkeit überhaupt geprüft wurde.',
+      'Ein Vitamin-C-konjugierter AHK-Abkömmling verstärkte in einer Mauszelllinie die BMP-2-getriebene Knochenzelldifferenzierung über Smad1/5/8, ERK1/2 und p38 (Jung et al. 2018, Zellkultur, anderer Stoff als AHK-Cu).'
+    ],
+    risks: [
+      'Die gesamte Datenbasis ist eine Arbeit von 2007. Eine Suche in Europe PMC nach AHK-Cu liefert 5 Treffer, davon hat nur diese eine AHK-Cu selbst untersucht.',
+      'Keine Anwendung am Menschen: keine randomisierte Studie, keine Haut- oder Kopfhautstudie, 0 Einträge in ClinicalTrials.gov, keine Pharmakokinetik und keine Daten zur Aufnahme durch die Haut.',
+      'Der vorgeschlagene Weg über weniger Zelltod war in der Originalarbeit nicht statistisch signifikant; belegt sind Follikelverlängerung und Zellteilung, nicht ihre Erklärung.',
+      'Zahlen wandern bereits ungenau weiter: Die Übersicht 2026 gibt für die Follikelverlängerung 10 hoch -13 bis 10 hoch -7 Mol pro Liter an, der Abstract der Originalarbeit 10 hoch -12 bis 10 hoch -9.',
+      'Nicht für Menschen mit einer Störung des Kupferstoffwechsels wie Morbus Wilson oder mit Kupferallergie. Die tolerierbare obere Kupferaufnahme liegt in den USA bei 10 Milligramm pro Tag, die EFSA erwartet bei 5 Milligramm pro Tag keine Anreicherung.',
+      'Gespritzte Graumarktware bringt die Probleme unregulierter Injektionspeptide mit: Verunreinigungen, Herstellungsrückstände und falsche Gehaltsangaben ohne belastbares Sicherheitsprofil (Moiz et al. 2026).'
+    ],
+    status: 'Kein zugelassenes Arzneimittel in Deutschland, der EU oder den USA, keine eingetragene klinische Prüfung. Nach Anbieterangaben ein kosmetischer Rohstoff: Die EU-Kosmetikverordnung (EG) Nr. 1223/2009 verlangt für kosmetische Mittel eine Sicherheitsbewertung, aber keine Einzelzulassung eines Peptids. Als Nahrungsergänzungsmittel nicht verkehrsfähig, denn Anhang II der Richtlinie 2002/46/EG nennt 8 zugelassene Kupferverbindungen, Kupfertripeptide gehören nicht dazu. Daneben Handel als Forschungspeptid ohne regulatorischen Rahmen. Im Sport stehen Kupferpeptide nicht namentlich in der WADA-Verbotsliste 2026; für injizierbare Ware ohne Zulassung greift grundsätzlich Abschnitt S0.',
+    sources: [
+      { title: 'Pyo et al., Arch Pharm Res 2007 – AHK-Cu verlängert menschliche Haarfollikel in Organkultur', url: 'https://pubmed.ncbi.nlm.nih.gov/17703734/' },
+      { title: 'Fan et al., Biomedicines 2026 – Übersicht zu kurzen Peptiden bei Haarverlust, Einordnung von AHK-Cu', url: 'https://pubmed.ncbi.nlm.nih.gov/42072405/' },
+      { title: 'Jung et al., Differentiation 2018 – Vitamin-C-konjugiertes AHK und BMP-2-getriebene Knochenzelldifferenzierung', url: 'https://pubmed.ncbi.nlm.nih.gov/29567599/' },
+      { title: 'Lee et al., Ann Dermatol 2016 – Komplex aus 5-Aminolävulinsäure und GHK bei 45 Männern mit Haarverlust', url: 'https://pubmed.ncbi.nlm.nih.gov/27489425/' },
+      { title: 'NIH Office of Dietary Supplements – Copper Fact Sheet: Cofaktorfunktionen, Zufuhr, Obergrenze, Morbus Wilson', url: 'https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/' },
+      { title: 'EFSA Scientific Committee, EFSA J 2023 – Kupfer: keine Anreicherung bei 5 mg pro Tag, ADI 0,07 mg pro kg', url: 'https://pubmed.ncbi.nlm.nih.gov/36694841/' },
+      { title: 'Moiz et al., Mo Med 2026 – Risiken unregulierter Injektionspeptide', url: 'https://pubmed.ncbi.nlm.nih.gov/42757290/' },
+      { title: 'Richtlinie 2002/46/EG, Anhang II – zugelassene Kupferverbindungen in Nahrungsergänzungsmitteln', url: 'https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02002L0046-20170726' },
+      { title: 'ClinicalTrials.gov – keine eingetragene Studie zu AHK-Cu (Abfrage 27.09.2026)', url: 'https://clinicaltrials.gov/search?term=AHK-Cu' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'bam15',
+    name: 'BAM15',
+    altNames: 'BAM-15, Mitochondrien-Entkoppler BAM15, Oxadiazolopyrazin-Protonophor',
+    class: 'Chemischer Mitochondrien-Entkoppler (Protonophor), nicht zugelassen',
+    emoji: '🔥',
+    short: 'Ein kleines Molekül, das Protonen an der ATP-Synthase vorbei in die Mitochondrien lässt und damit Nahrungsenergie als Wärme verbraucht: In Mäusen sinkt die Fettmasse ohne Appetitzügelung und ohne Verlust an Magermasse. Am Menschen ist nichts untersucht, es gibt keine eingetragene klinische Studie.',
+    moa: 'BAM15 ist ein lipophiler schwacher Säure-Protonophor, der Protonen unabhängig von der ATP-Synthase in die mitochondriale Matrix transportiert. Damit sinkt die protonenmotorische Kraft, die Atmungskette läuft schneller, und ein Teil der Nahrungsenergie verlässt die Zelle als Wärme statt als ATP — die Kalorieneffizienz sinkt, während die Nährstoffoxidation steigt. Der Unterschied zu den älteren Protonophoren FCCP und 2,4-Dinitrophenol ist die Selektivität: BAM15 depolarisiert die Plasmamembran nicht, erlaubt in Zellen eine höhere maximale Atmungsrate als FCCP und ist weniger zytotoxisch (Kenwood et al., Mol Metab 2014). In Mäusen lagert es sich vor allem im Fettgewebe an, weniger in Leber, Herz und Niere; die anhaltende Nährstoffaufnahme und die Verträglichkeit hängen nach Zellversuchen an der Kinase AMPK (Axelrod et al., EMBO Mol Med 2020). Die Körpertemperatur stieg in beiden Mausarbeiten nicht — anders als beim klassischen Entkoppler-Risiko.',
+    benefits: [
+      'Kehrt bestehendes Übergewicht im Mausmodell um: nach 5 Wochen Behandlung 15 Prozent weniger Körpergewicht als die Kontrollgruppe, fast ausschließlich weniger Fett, kein Unterschied in der fettfreien Masse, gleiche Kalorienaufnahme (Alexopoulos et al. 2020, Tierversuch, 21 Tiere).',
+      'Der Verlust läuft nicht über den Appetit und nicht über schlechtere Fettaufnahme: Futterverzehr unverändert, Triglyzeride und Cholesterin im Kot gleich (Alexopoulos et al. 2020).',
+      'Bessere Insulinwirkung in mehreren Geweben in hyperinsulinämisch-euglykämischen Klemmversuchen; in der zweiten Arbeitsgruppe niedrigere Nüchternglukose, niedrigeres Nüchterninsulin und höherer Energieumsatz ohne Temperaturanstieg (Axelrod et al. 2020, Maus, 3 Wochen).',
+      'Im direkten Vergleich von 15 Entkopplern über 4 Wochen an db/db-Mäusen die wirksamste Substanz: HbA1c zurück auf die 4 Prozent der gesunden Vergleichstiere, während die Kontrolle von 6 auf 8 Prozent stieg, HOMA-IR bis zu 50 Prozent niedriger (Shah et al. 2025).',
+      'Gegen etablierte Mittel gehalten: An weiblichen db/db-Mäusen verbesserten BAM15 und Kalorienrestriktion Körpergewicht und Leberverfettung stärker als Semaglutid, Niclosamid-Ethanolamin und Rosiglitazon (Chen et al. 2024, Tierversuch).',
+      'Wirkungen jenseits des Gewichts, alle im Tier: weniger Sterblichkeit und weniger Nierenschaden im Sepsismodell selbst bei Gabe 12 Stunden nach Auslösung (Tsuji et al. 2023); bei Taufliegen 9 Prozent längere Lebensspanne bei Normalkost und 25 Prozent bei Hochfettkost (Taylor et al. 2024).'
+    ],
+    risks: [
+      'Keine Studie am Menschen: 0 einschlägige Einträge in ClinicalTrials.gov, keine Pharmakokinetik, keine Verträglichkeitsdaten, keine Fallserie. Die gesamte Wirkerzählung stammt aus Zellen, Mäusen und Taufliegen.',
+      'Das gilt für die ganze Klasse: Auch der leberselektiv entwickelte Entkoppler OPC-163493 hat trotz veröffentlichter Tiertoxikologie keine eingetragene klinische Studie; dort waren die Zielorgane je nach Tierart Leber, Blutgefäße oder Niere (Inoue et al. 2022).',
+      'Die Klasse hat eine Schattenseite mit Todesfällen: Bei 2,4-Dinitrophenol schaukelt sich die Entkopplung zu Hyperthermie, Azidose und Hyperkaliämie auf, mit einer funktionellen Halbwertszeit der Wirkung von 4,9 Tagen im überlebten Fall (Lindeman et al. 2026). BAM15 ist chemisch anders und hob die Körpertemperatur in Mäusen nicht an — belegt ist damit aber kein Sicherheitsfenster beim Menschen.',
+      'Sehr kurze Verweildauer: Halbwertszeit 1,7 bis 3 Stunden in Mäusen; in allen Langzeitversuchen wurde deshalb über das Futter dauerhaft zugeführt.',
+      'Als Forschungschemikalie im Umlauf, teils aus Eigensynthese: Eine Netnographie beschreibt eine YouTube-Anleitung zur Herstellung samt Kommentarspalte mit Nachahmungsabsicht — Identität, Reinheit und Gehalt der Ware sind ungeprüft (Turnock und Piatkowski 2025).',
+      'Im Sport verboten: BAM15 steht nicht namentlich in der WADA-Verbotsliste 2026, damit greift Abschnitt S0 für Substanzen ohne aktuelle Zulassung einer staatlichen Gesundheitsbehörde.'
+    ],
+    status: 'Präklinische Forschung. In Deutschland, der EU und den USA kein zugelassenes Arzneimittel und keine eingetragene klinische Prüfung. Als Nahrungsergänzungsmittel nicht verkehrsfähig: Eine synthetische Substanz ohne Verzehrgeschichte wäre ein neuartiges Lebensmittel und bräuchte eine Zulassung nach Verordnung (EU) 2015/2283, die es nicht gibt. Vertrieb als Forschungschemikalie ohne Bestimmung für den menschlichen Gebrauch. Im Sport über Abschnitt S0 der WADA-Verbotsliste 2026 jederzeit verboten.',
+    sources: [
+      { title: 'Kenwood et al., Mol Metab 2014 – Erstbeschreibung von BAM15, kein Depolarisieren der Plasmamembran', url: 'https://pubmed.ncbi.nlm.nih.gov/24634817/' },
+      { title: 'Alexopoulos et al., Nat Commun 2020 – BAM15 kehrt diätinduziertes Übergewicht und Insulinresistenz bei Mäusen um', url: 'https://pubmed.ncbi.nlm.nih.gov/32409697/' },
+      { title: 'Axelrod et al., EMBO Mol Med 2020 – Energieumsatz, AMPK-Abhängigkeit, keine Temperaturerhöhung', url: 'https://pubmed.ncbi.nlm.nih.gov/32519812/' },
+      { title: 'Shah et al., Mol Metab 2025 – 15 Entkoppler im direkten Vergleich, BAM15 am wirksamsten', url: 'https://pubmed.ncbi.nlm.nih.gov/40639664/' },
+      { title: 'Chen et al., Biochim Biophys Acta Mol Basis Dis 2024 – BAM15 gegen Semaglutid, Rosiglitazon und Kalorienrestriktion', url: 'https://pubmed.ncbi.nlm.nih.gov/37793464/' },
+      { title: 'Tsuji et al., J Clin Invest 2023 – BAM15 im Sepsis- und Nierenschadenmodell der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/36757801/' },
+      { title: 'Taylor et al., Aging Cell 2024 – Lebensspanne und Beweglichkeit bei Taufliegen', url: 'https://pubmed.ncbi.nlm.nih.gov/38343281/' },
+      { title: 'Inoue et al., EXCLI J 2022 – Tiertoxikologie des leberselektiven Entkopplers OPC-163493', url: 'https://pubmed.ncbi.nlm.nih.gov/35221841/' },
+      { title: 'Lindeman et al., Toxicol Rep 2026 – zwei Vergiftungsfälle mit 2,4-Dinitrophenol, davon einer tödlich', url: 'https://pubmed.ncbi.nlm.nih.gov/41487961/' },
+      { title: 'Turnock und Piatkowski, Performance Enhancement & Health 2025 – BAM15 in Bodybuilding-Foren und auf YouTube', url: 'https://repository.lincoln.ac.uk/articles/journal_contribution/_The_new_DNP_Discussion_of_the_experimental_fat_burner_BAM15_on_bodybuilding_forums_and_YouTube/30511007' },
+      { title: 'ClinicalTrials.gov – keine eingetragene Studie zu BAM15 (Abfrage 27.09.2026)', url: 'https://clinicaltrials.gov/search?term=BAM15' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „BAM15")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'modafinil',
+    name: 'Modafinil',
+    altNames: 'Vigil, Provigil, Eugeroikum, Smart Drug',
+    class: 'Wachheitsförderndes Arzneimittel (Eugeroikum, Dopamin-Wiederaufnahmehemmer), zugelassen gegen Narkolepsie, verschreibungspflichtig',
+    emoji: '⏰',
+    short: 'Ein zugelassenes Mittel gegen Narkolepsie, das in großen Studien Tagesschläfrigkeit verlässlich senkt und bei Schichtarbeit Unfälle auf dem Heimweg seltener machte. Als Smart Drug für Ausgeruhte ist der Effekt real, aber klein, und es wirkt über das Dopaminsystem stärker wie ein Stimulans als lange gedacht.',
+    moa: 'Modafinil blockiert den Dopamintransporter: In einer PET-Studie mit 10 gesunden Männern belegte es nach 200 und 400 mg rund die Hälfte der Transporter im Striatum (Nucleus caudatus 53,8 %, Putamen 47,2 %) und erhöhte das freie Dopamin, auch im Nucleus accumbens. Dazu steigen die kortikalen Katecholamine, indirekt auch Orexin, Histamin, Glutamat und Serotonin, während GABA sinkt. Die Kombination fördert Wachheit, ohne den Nachtschlaf in den Zulassungsstudien zu stören. Die wirksame Halbwertszeit liegt nach wiederholter Einnahme bei etwa 15 Stunden. Zudem senkt Modafinil die Wirksamkeit hormoneller Verhütungsmittel.',
+    benefits: [
+      'Narkolepsie: Tagesschläfrigkeit in objektiven Tests (MSLT, MWT) deutlich gesenkt (2 doppelblinde RCTs, 283 und 271 Patienten, 9 Wochen, 1998 und 2000), Wirkung über 40 Wochen erhalten',
+      'Schichtarbeitsstörung: klinische Besserung bei 74 % gegenüber 36 %, Unfälle oder Beinahe-Unfälle auf dem Heimweg 29 % gegenüber 54 % (RCT, 209 Patienten, 3 Monate, NEJM 2005)',
+      'Gesunde, ausgeruhte Erwachsene: kleiner, signifikanter Gesamteffekt auf Aufmerksamkeit, Gedächtnis und exekutive Funktionen, g = 0,10 (Meta-Analyse, 19 placebokontrollierte Studien, Kredlow 2019); bei komplexen Aufgaben deutlicher (Battleday 2015)',
+      'Schlafentzug: Wachheit, Gedächtnis und exekutive Funktionen besser erhalten als unter Placebo (systematischer Review, Repantis 2010)',
+      'Depression als Zusatztherapie: bessere Depressionswerte und Remissionsrate, weniger Erschöpfung (Meta-Analyse, 6 RCTs, 910 Patienten, Goss 2013) – nicht zugelassen'
+    ],
+    risks: [
+      'Häufig Kopfschmerz (34 % gegenüber 23 % unter Placebo), Übelkeit (11 % gegenüber 3 %), Nervosität, Angst, Schlaflosigkeit',
+      'Schwere Hautreaktionen bis Stevens-Johnson-Syndrom, bei Kindern häufiger; für unter 18-Jährige nicht zugelassen',
+      'Psychiatrische Nebenwirkungen bis Psychose, teils schon bei therapeutischen Dosen (EMA 2011; Review von 24 Fällen, Sato 2026); Bluthochdruck und Herzrhythmusstörungen',
+      'Blockiert Dopamintransporter wie klassische Stimulanzien; in den USA als Schedule IV eingestuft, Missbrauchsprofil laut FDA vergleichbar mit Methylphenidat',
+      'Schwächt hormonelle Verhütung ab (zusätzliche Verhütung bis 2 Monate nach Absetzen); Fehlbildungssignal in einem US-Register (13,1 % gegenüber 3 %), in französischen Kohorten nicht signifikant',
+      'Graumarkt-Tabletten enthielten 45,5 % bis 80,5 % des angegebenen Gehalts (Nowak 2025)'
+    ],
+    status: 'Deutschland/EU: zugelassenes, verschreibungspflichtiges Arzneimittel (u. a. Vigil); seit der EMA-Überprüfung (Kommissionsentscheidung 27.01.2011) nur noch bei Narkolepsie von Erwachsenen, Schlafapnoe und Schichtarbeitsstörung wurden gestrichen. Seit 2008 kein Betäubungsmittel mehr (21. BtMÄndV), sondern auf normalem Rezept. USA: seit 1998 zugelassen für Narkolepsie, Schlafapnoe und Schichtarbeitsstörung, Schedule IV. Nutzung zur Leistungssteigerung bei Gesunden ist Off-Label. Doping: WADA-Liste 2026 S6.A, nicht-spezifisches Stimulans, im Wettkampf verboten.',
+    sources: [
+      { title: 'US Modafinil in Narcolepsy Multicenter Study Group 1998, Ann Neurol – RCT mit 283 Patienten, Tagesschläfrigkeit gesenkt', url: 'https://pubmed.ncbi.nlm.nih.gov/9450772/' },
+      { title: 'US Modafinil in Narcolepsy Multicenter Study Group 2000, Neurology – RCT mit 271 Patienten, kein Entzug nach Absetzen', url: 'https://pubmed.ncbi.nlm.nih.gov/10720292/' },
+      { title: 'Czeisler et al. 2005, N Engl J Med – Schichtarbeitsstörung, weniger Unfälle auf dem Heimweg', url: 'https://pubmed.ncbi.nlm.nih.gov/16079371/' },
+      { title: 'Kredlow et al. 2019, J Clin Psychopharmacol – Meta-Analyse Kognition bei Ausgeruhten, g = 0,10', url: 'https://pubmed.ncbi.nlm.nih.gov/31433334/' },
+      { title: 'Battleday und Brem 2015, Eur Neuropsychopharmacol – systematischer Review Neuroenhancement', url: 'https://pubmed.ncbi.nlm.nih.gov/26381811/' },
+      { title: 'Repantis et al. 2010, Pharmacol Res – Modafinil und Methylphenidat bei Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/20416377/' },
+      { title: 'Volkow et al. 2009, JAMA – Dopamintransporter-Blockade im PET', url: 'https://pubmed.ncbi.nlm.nih.gov/19293415/' },
+      { title: 'EMA 2011 – Referral: Modafinil nur noch bei Narkolepsie', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/modafinil' },
+      { title: 'FDA-Fachinformation Provigil (DailyMed)', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e16c26ad-7bc2-d155-3a5d-da83ad6492c8' },
+      { title: 'Sato et al. 2026, Ther Adv Psychopharmacol – Modafinil-assoziierte Psychose, 24 Fälle', url: 'https://pubmed.ncbi.nlm.nih.gov/42137740/' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'pregnenolon',
+    name: 'Pregnenolon',
+    altNames: 'Pregnenolone, PREG, Pregnenolonsulfat (PregS, körpereigene Speicherform), Mutterhormon',
+    class: 'Körpereigene Steroid-Hormonvorstufe und Neurosteroid; Status als Nahrungsergänzung in Deutschland ungeklärt',
+    emoji: '🧠',
+    short: 'Das erste Steroid aus Cholesterol und zugleich ein Neurosteroid: Oral eingenommen steigen Pregnenolon, Allopregnanolon und Pregnenolonsulfat im Blut, und in kleinen Placebo-Studien linderte es chronischen Kreuzschmerz, Negativsymptome bei beginnender Schizophrenie und bipolare Depression. Die Studien sind klein und kurz, zu Gedächtnis, Hormonbalance oder Altern bei Gesunden gibt es keine Humandaten.',
+    moa: 'Das Enzym CYP11A1 spaltet die Seitenkette des Cholesterols ab, es entsteht Pregnenolon; daraus bildet der Körper Progesteron, Cortisol und über CYP17A1 in zwei Schritten DHEA (Expertenkommission BVL/BfArM 2025). Im Gehirn wirkt es als Neurosteroid: Sein Abkömmling Allopregnanolon verstärkt die Antwort der GABA-A-Rezeptoren, Pregnenolonsulfat moduliert NMDA-Rezeptoren positiv; beide steigen nach oraler Gabe im Serum (Marx et al. 2014). Eine Einzeldosis von 400 mg senkte in der fMRT die Aktivität von Amygdala und Insula und stärkte deren Kopplung an das Stirnhirn (Sripada et al. 2013). Im Tier hemmt Pregnenolon als signalspezifischer Inhibitor des CB1-Rezeptors mehrere THC-Effekte (Vallée et al. 2014); daraus wurde der Wirkstoff AEF0117 entwickelt. Wie viel geschlucktes Pregnenolon zu Sexualhormonen wird, ist beim Menschen kaum gemessen.',
+    benefits: [
+      'Chronischer Kreuzschmerz: Schmerztagebuch nach 4 Wochen 0,56 Punkte stärker gesenkt als unter Placebo, p = 0,02 (RCT, 94 Veteranen, Naylor et al. 2020)',
+      'Negativsymptome bei kürzlich begonnener Schizophrenie: Effektstärke d = 0,79 unter 50 mg pro Tag über 8 Wochen (RCT, 60 Patienten, Ritsner et al. 2014)',
+      'Bipolare Depression: Remission 61 % vs. 37 % im Selbstbericht nach 12 Wochen, im Fremdurteil nicht signifikant (RCT, 80 Patienten, Brown et al. 2014)',
+      'Schizophrenie: bessere Alltagsfähigkeiten nach 8 Wochen, Kognition unverändert (RCT, 120 Teilnehmende, Marx et al. 2014)',
+      'Messbare Hirnwirkung: Einzeldosis senkte Amygdala-Aktivität und Angst im fMRT (RCT, 16 vs. 15 Gesunde, Sripada et al. 2013)',
+      'Kokainabhängigkeit: stress- und reizausgelöstes Verlangen gedämpft (Pilot-RCTs, 30 und 55 Personen, 2022 und 2025)'
+    ],
+    risks: [
+      'Keine Humanstudie zu Gedächtnis, Energie, Hormonbalance oder Altern bei Gesunden; der Gedächtnis-Ruf stammt aus Mäusen mit Injektion ins Gehirn (Flood et al. 1992)',
+      'Schizophrenie gepoolt ohne Effekt (Meta-Analyse, k = 4, Heringa et al. 2015); größte Studie verfehlte das Kognitionsziel',
+      'Nur Kurzzeitdaten bis 12 Wochen; keine Langzeit- oder Pharmakovigilanzdaten',
+      'Vorstufe von DHEA und Sexualhormonen: bei hormonabhängigen Erkrankungen, in Schwangerschaft und Stillzeit keine Daten',
+      'Uneinheitliche Dosis-Wirkung (30 mg wirksam, 200 mg nicht, Ritsner et al. 2010) und hoher Placeboeffekt in kleinen Studien',
+      'Rechtsstatus als Nahrungsergänzung in Deutschland ungeklärt; FDA nennt es in Warnschreiben nicht zugelassenes Arzneimittel'
+    ],
+    status: 'Deutschland: nicht verschreibungspflichtig (nicht in AMVV Anlage 1), nicht im Anti-Doping-Gesetz; wird in Apotheken und online als Nahrungsergänzungsmittel verkauft, Verkehrsfähigkeit aber behördlich nicht bestätigt. Kein Eintrag im EU-Novel-Food-Statuskatalog; für das Folgeprodukt DHEA stufte die Gemeinsame Expertenkommission von BVL und BfArM 2025 entsprechende Erzeugnisse als Arzneimittel oder nicht zugelassenes Novel Food ein. USA: Status von der FDA nicht ausdrücklich geregelt, in Warnschreiben als nicht zugelassenes neues Arzneimittel bezeichnet. Doping: nicht auf der WADA-Liste (USADA), die Liste 2026 nennt es nicht.',
+    sources: [
+      { title: 'Naylor et al. 2020, JAMA Netw Open – Kreuzschmerz: Schmerz nach 4 Wochen stärker gesenkt als unter Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/32119096/' },
+      { title: 'Marx et al. 2014, Psychopharmacology – Schizophrenie, 120 Teilnehmende: Alltagsfähigkeiten besser, Kognition nicht', url: 'https://pubmed.ncbi.nlm.nih.gov/25030803/' },
+      { title: 'Ritsner et al. 2014, Psychiatry Clin Neurosci – Negativsymptome bei beginnender Schizophrenie gesenkt', url: 'https://pubmed.ncbi.nlm.nih.gov/24548129/' },
+      { title: 'Brown et al. 2014, Neuropsychopharmacology – bipolare Depression: mehr Remissionen im Selbstbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/24917198/' },
+      { title: 'Heringa et al. 2015, Schizophr Res – Meta-Analyse: kein Gesamteffekt von Pregnenolon bei Schizophrenie', url: 'https://pubmed.ncbi.nlm.nih.gov/25914107/' },
+      { title: 'Sripada et al. 2013, Biol Psychiatry – Einzeldosis senkt Amygdala-Aktivität im fMRT', url: 'https://pubmed.ncbi.nlm.nih.gov/23348009/' },
+      { title: 'Vallée et al. 2014, Science – Pregnenolon hemmt im Tier den CB1-Rezeptor und dämpft THC-Effekte', url: 'https://pubmed.ncbi.nlm.nih.gov/24385629/' },
+      { title: 'Flood et al. 1992, Proc Natl Acad Sci USA – Gedächtniseffekte bei Mäusen nach Injektion ins Gehirn', url: 'https://pubmed.ncbi.nlm.nih.gov/1531874/' },
+      { title: 'Expertenkommission BVL/BfArM 2025 – Einstufung von DHEA, Biosynthese aus Pregnenolon', url: 'https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Zulassung/ZulRelThemen/abgrenzung/Expertenkommission/stellungnahmen/2025-01.pdf' },
+      { title: 'USADA – Pregnenolone: nicht auf der WADA-Liste, FDA-Status', url: 'https://www.usada.org/spirit-of-sport/education/pregnenolone/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Pregnenolon")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'sam-e',
+    name: 'SAM-e (S-Adenosylmethionin)',
+    altNames: 'SAMe, S-Adenosyl-L-methionin, AdoMet, Ademetionin (INN), Samyr, Donamet (Italien), Disulfat-Tosylat, Butandisulfonat',
+    class: 'Körpereigener Methylgruppen-Spender; in Deutschland verschreibungspflichtiger Arzneistoff, als Nahrungsergänzung nicht zugelassenes Novel Food',
+    emoji: '🔄',
+    short: 'Der zentrale Methylgruppen-Spender des Körpers, in Italien als Arzneimittel gegen Depression und Gallenstau zugelassen: In einer Meta-Analyse mit 23 Studien half SAM-e gegen Depression mittelstark besser als Placebo und ähnlich gut wie Antidepressiva, bei Arthrose ähnlich wie NSAR. Andere Übersichten und die größte moderne Studie sahen keinen klaren Placebo-Vorteil; in Deutschland ist es verschreibungspflichtig.',
+    moa: 'SAM-e wird in allen Zellen aus Methionin durch die Methionin-Adenosyltransferase gebildet, am meisten in der Leber, und liefert die Methylgruppen für alle bekannten biologischen Methylierungen; außerdem ist es an der Synthese von Glutathion beteiligt (Lu & Mato 2012, Rambaldi & Gluud 2006). Bei chronischen Lebererkrankungen sind Enzymaktivität und SAM-e-Spiegel vermindert; bei Mäusen ohne das Leber-Enzym bildet sich die Fettleberentzündung unter SAM-e zurück (Robinson et al. 2023). Auch chronisch zu hohe SAM-e-Spiegel schädigen die Leber, wie Kinder mit GNMT-Mutation zeigen. Wie SAM-e gegen Depression wirkt, ist am Menschen nicht geklärt; Vitamin-B12- und Folsäuremangel können die Wirkung laut italienischer Fachinformation mindern.',
+    benefits: [
+      'Depression: SMD -0,58 gegenüber Placebo in 11 Studien, kein Unterschied zu Antidepressiva in 7 Studien, moderate Evidenzsicherheit (Meta-Analyse, 23 RCTs, 2183 Teilnehmende, Limveeraprajak et al. 2024)',
+      'Zusatz zu SSRI bei Nonrespondern: Ansprechen 36,1 % vs. 17,6 %, Remission 25,8 % vs. 11,7 % nach 6 Wochen (RCT, 73 Patienten, Papakostas et al. 2010)',
+      'Arthrose: vergleichbar mit NSAR bei weniger Nebenwirkungen (Meta-Analyse, 11 Studien, Soeken et al. 2002); ab dem zweiten Monat gleich wirksam wie Celecoxib (Crossover-RCT, 56 Auswertbare, 16 Wochen, Najm et al. 2004)',
+      'Intrahepatische Cholestase: Leberwerte binnen 2 Wochen gesenkt (systematische Übersicht, 3 randomisierte Studien, Noureddin et al. 2020); dafür in Italien als Arzneimittel zugelassen',
+      'Alkoholische Leberzirrhose: Tod oder Transplantation 16 % vs. 30 % über 2 Jahre, nicht signifikant; ohne Child-C-Patienten 12 % vs. 29 %, signifikant (RCT, 123 Patienten, Mato et al. 1999)'
+    ],
+    risks: [
+      'Bipolare Störung: Umschlag in Hypomanie oder Manie möglich (Cochrane 2016: 2 Fälle bei 441 Behandelten)',
+      'Serotonerge Mittel (SSRI, trizyklische Antidepressiva, Tryptophan, Johanniskraut): Vorsicht, ein Serotoninsyndrom mit Clomipramin beschrieben; Wirkung von Levodopa kann nachlassen',
+      'Magen-Darm-Beschwerden: Magenbeschwerden 19 % und Durchfall 20 % bei 1600 bis 3200 mg pro Tag (Mischoulon et al. 2014), Bauchbeschwerden 31,3 % bei 3200 mg (Sakurai et al. 2020)',
+      'Gegenanzeige: angeborene Defekte des Methioninzyklus, Homocystinurie; Sicherheit in der Schwangerschaft nicht belegt',
+      'Depression uneinheitlich: Cochrane 2016 (8 Studien, 934 Erwachsene) und die größte moderne Studie (189 Patienten) ohne klaren Placebo-Vorteil; Arthrose laut Cochrane 2009 nur 0,4 cm auf 10-cm-Skala'
+    ],
+    status: 'Deutschland: Ademetionin in Anlage 1 der AMVV, verschreibungspflichtig einschließlich seiner Salze. EU: Die in Nahrungsergänzungen übliche Salzform S-Adenosyl-L-methionin-Disulfat-Tosylat ist seit dem 20.05.2026 als nicht zugelassenes Novel Food eingestuft (kein nennenswerter Verzehr vor dem 15. Mai 1997); RASFF-Meldung Italiens vom 02.07.2026. Als Nahrungsergänzung damit nicht verkehrsfähig, wird aber angeboten. Italien: verschreibungspflichtiges Arzneimittel (Samyr, Donamet) gegen depressive Syndrome und intrahepatische Cholestase. USA: als Nahrungsergänzung im Handel. Doping: WADA-Liste 2026 nennt SAM-e nicht.',
+    sources: [
+      { title: 'Limveeraprajak et al. 2024, Prog Neuropsychopharmacol Biol Psychiatry – 23 RCTs: SAM-e allein besser als Placebo, gleich wie Antidepressiva', url: 'https://pubmed.ncbi.nlm.nih.gov/38423354/' },
+      { title: 'Galizia et al. 2016, Cochrane Database Syst Rev – Depression: kein klarer Placebo-Vorteil bei sehr niedriger Datenqualität', url: 'https://pubmed.ncbi.nlm.nih.gov/27727432/' },
+      { title: 'Papakostas et al. 2010, Am J Psychiatry – Zusatz zu SSRI verdoppelt Ansprechen', url: 'https://pubmed.ncbi.nlm.nih.gov/20595412/' },
+      { title: 'Mischoulon et al. 2014, J Clin Psychiatry – weder SAM-e noch Escitalopram schlagen Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/24500245/' },
+      { title: 'Rutjes et al. 2009, Cochrane Database Syst Rev – Arthrose: kleiner Effekt, schwache Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/19821403/' },
+      { title: 'Soeken et al. 2002, J Fam Pract – Arthrose: vergleichbar mit NSAR', url: 'https://pubmed.ncbi.nlm.nih.gov/12019049/' },
+      { title: 'Mato et al. 1999, J Hepatol – alkoholische Zirrhose über 2 Jahre', url: 'https://pubmed.ncbi.nlm.nih.gov/10406187/' },
+      { title: 'Lu & Mato 2012, Physiol Rev – SAM-e in Lebergesundheit, Schaden und Krebs', url: 'https://pubmed.ncbi.nlm.nih.gov/23073625/' },
+      { title: 'NCCIH – SAMe: Sicherheit, Wechselwirkungen, Studienlage', url: 'https://www.nccih.nih.gov/health/sadenosyllmethionine-same-in-depth' },
+      { title: 'EU-Kommission 2026 – S-Adenosyl-L-methionin-Disulfat-Tosylat ist Novel Food', url: 'https://food.ec.europa.eu/document/download/015a8ab1-4c4b-4cee-b079-e15a93158a26_en?filename=novel-food_consult-status_adenosyl-l-methionine-disulfate-tosylate.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'teriparatid',
+    name: 'Teriparatid',
+    altNames: 'Teriparatide, Forsteo (EU), Forteo (USA), rhPTH(1-34), Parathormon-Fragment, Biosimilars z. B. Movymia, Terrosa, Livogiva',
+    class: 'Rekombinantes Parathormon-Fragment PTH(1-34), knochenaufbauendes Osteoporose-Medikament (zugelassen, verschreibungspflichtig)',
+    emoji: '🦴',
+    short: 'Baut Knochen auf und senkt Wirbelbrüche deutlich: In der Zulassungsstudie mit 1637 Frauen 5 gegenüber 14 Prozent, im Vergleich mit Risedronat 5,4 gegenüber 12,0 Prozent. Seit 2003 in der EU zugelassen; kein nachgewiesener Schutz vor Hüftbrüchen, und als Heilungsbeschleuniger für Brüche oder Sehnen überzeugte es in randomisierten Studien bisher nicht.',
+    moa: 'Teriparatid entspricht den ersten 34 Aminosäuren des körpereigenen Parathormons, das aus 84 Aminosäuren besteht, und wird gentechnisch hergestellt. Es aktiviert den PTH1-Rezeptor der knochenbildenden Zellen; die einmal tägliche Gabe regt laut Fachinformation die Knochenbildung stärker an als den Abbau, an den Bälkchen im Inneren wie an der Außenschicht. Die Halbwertszeit nach der Spritze liegt bei etwa 1 Stunde, der Kalziumspiegel erreicht nach 4 bis 6 Stunden sein Maximum und ist nach 16 bis 24 Stunden zurück beim Ausgangswert. Am Menschen ist die Kette bis zur Bruchrate gemessen: Die Knochendichte der Lendenwirbelsäule stieg in der Zulassungsstudie um 9 Prozentpunkte mehr als unter Placebo.',
+    benefits: [
+      'Neue Wirbelbrüche 5 gegenüber 14 Prozent unter Placebo, relatives Risiko 0,35; Brüche außerhalb der Wirbelsäule 3 gegenüber 6 Prozent (Mensch, 1637 Frauen nach den Wechseljahren, median 21 Monate, NEJM 2001).',
+      'Überlegen gegenüber Risedronat: neue Wirbelbrüche 5,4 gegenüber 12,0 Prozent, klinische Brüche 4,8 gegenüber 9,8 Prozent (VERO, doppelblind, 1360 Frauen, 24 Monate, Lancet 2018).',
+      'Bei Osteoporose durch Kortison besser als Alendronat: Knochendichte Lendenwirbelsäule plus 7,2 gegenüber 3,4 Prozent, neue Wirbelbrüche 0,6 gegenüber 6,1 Prozent (428 Patienten, 18 Monate, NEJM 2007).',
+      'Knochendichte bei Männern: Lendenwirbelsäule plus 5,9 Prozent unter der niedrigeren Dosis (437 Männer, median 11 Monate, 2003; Bruchschutz nicht nachgewiesen).',
+      'Schutz hält nach dem Absetzen an: 41 Prozent weniger Frauen mit neuem Wirbelbruch über median 18 Monate Nachbeobachtung (1262 Frauen, laut EU-Fachinformation).',
+      'Kein erhöhtes Osteosarkom-Risiko beim Menschen in 15 Jahren US-Überwachung: 3 beobachtete gegenüber 4,17 erwarteten Fällen (2021).'
+    ],
+    risks: [
+      'Kein nachgewiesener Schutz vor Hüftbrüchen (EU-Fachinformation); Brüche außerhalb der Wirbelsäule im Vergleich mit Risedronat 4,0 gegenüber 6,1 Prozent, nicht signifikant.',
+      'Heilung nicht beschleunigt: Speichenbruch primärer Endpunkt verfehlt (102 Frauen, 2010), Schenkelhalsbruch erneute Operation 17 gegenüber 14 Prozent (159 Patienten, 2016), Rotatorenmanschette kein Unterschied (50 Patienten, 2025); Meta-Analyse von 5 RCTs mit 380 Patienten ohne schnellere Heilung im Röntgenbild.',
+      'Osteosarkome bei Ratten nach fast lebenslanger Gabe, dosisabhängig; deshalb in der EU höchstens 24 Monate im Leben, keine Wiederholung.',
+      'Übelkeit, Gliederschmerzen, Kopfschmerzen, Schwindel; Blutdruckabfall beim Aufstehen in den ersten Anwendungen innerhalb von 4 Stunden; Harnsäure über dem Normbereich bei 2,8 gegenüber 0,7 Prozent.',
+      'Hyperkalzämie häufiger als unter Abaloparatid, 6,4 gegenüber 3,4 Prozent (ACTIVE, 2016); nicht bei vorbestehend erhöhtem Kalzium, schwerer Nierenschwäche, Morbus Paget, früherer Skelettbestrahlung, Knochenkrebs, offenen Wachstumsfugen, in Schwangerschaft und Stillzeit.',
+      'Keine Daten für Gesunde ohne Osteoporose; tägliche Spritze, verschreibungspflichtig.'
+    ],
+    status: 'EU/DE: seit 10.06.2003 als Forsteo zugelassen, dazu Biosimilars (z. B. Movymia seit 11.01.2017, Terrosa, Livogiva); Anwendungsgebiete Osteoporose bei Frauen nach den Wechseljahren und bei Männern mit hohem Bruchrisiko sowie Osteoporose durch langfristige Kortisontherapie; verschreibungspflichtig. Laut Fachinformation 20 Mikrogramm einmal täglich unter die Haut, insgesamt höchstens 24 Monate und nicht wiederholen (Fachinfo-Angabe, keine Anwendungsempfehlung). USA: als Forteo zugelassen; 2020 Streichung des Warnhinweises im schwarzen Kasten zu Osteosarkomen, Anwendung über 2 Jahre nur bei weiter hohem Bruchrisiko. Anwendung zur Bruch- oder Sehnenheilung ist Off-Label. In der deutschen Übersetzung der WADA-Liste 2026 nicht namentlich aufgeführt.',
+    sources: [
+      { title: 'Neer et al. 2001, NEJM – Zulassungsstudie: neue Wirbelbrüche 5 gegenüber 14 Prozent, 1637 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/11346808/' },
+      { title: 'Kendler et al. 2018, Lancet – VERO: Teriparatid gegen Risedronat, 1360 Frauen, 24 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/29129436/' },
+      { title: 'Saag et al. 2007, NEJM – Kortison-bedingte Osteoporose, Teriparatid gegen Alendronat, 428 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/18003959/' },
+      { title: 'Orwoll et al. 2003, J Bone Miner Res – Knochendichte bei 437 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/12510800/' },
+      { title: 'Aspenberg et al. 2010, J Bone Miner Res – Speichenbruch, primärer Endpunkt verfehlt', url: 'https://pubmed.ncbi.nlm.nih.gov/19594305/' },
+      { title: 'Bhandari et al. 2016, Clin Orthop Relat Res – Schenkelhalsbruch, kein Vorteil', url: 'https://pubmed.ncbi.nlm.nih.gov/26932738/' },
+      { title: 'Shi et al. 2016, PLoS One – Meta-Analyse zur Frakturheilung, 5 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/27997614/' },
+      { title: 'Guity et al. 2025, JB JS Open Access – Rotatorenmanschette, kein Vorteil gegenüber Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/40978001/' },
+      { title: 'Gilsenan et al. 2021, J Bone Miner Res – 15 Jahre US-Osteosarkom-Überwachung', url: 'https://pubmed.ncbi.nlm.nih.gov/32990990/' },
+      { title: 'EMA – Forsteo, Fachinformation (deutsch)', url: 'https://www.ema.europa.eu/de/documents/product-information/forsteo-epar-product-information_de.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
   }
 ];
 
@@ -4226,6 +4472,7 @@ const _EXP_CAT_MAP = {
   'cagrilintide': 'Stoffwechsel',
   'slu-pp-332': 'Exercise',
   'aicar': 'Exercise',
+  'bam15': 'Stoffwechsel', 'pregnenolon': 'Longevity',
   'turkesterone': 'Exercise', 's23': 'Exercise', 'nmnh': 'Longevity',
   'ace-031': 'Exercise',
   'andarin': 'Exercise',

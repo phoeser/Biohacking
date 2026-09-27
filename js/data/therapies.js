@@ -507,16 +507,23 @@ const THERAPIES = [
     name: 'NAD+-Infusion',
     category: 'Biohacking',
     emoji: '💧',
-    short: 'Hochdosiertes NAD+ direkt über die Vene. Dass der Spiegel dadurch steigt, ist unstrittig – ob daraus mehr Energie, Fokus oder Regeneration werden, ist an Menschen nicht belegt.',
+    short: 'NAD+ über die Vene ist am Menschen machbar, und in einer chinesischen Studie mit 180 Herzschwäche-Patienten besserte sich die Pumpleistung des Herzens stärker als unter Placebo. Für Energie, Fokus oder Anti-Aging gibt es keine kontrollierte Studie; infundiertes NAD+ wird im Blut rasch zerlegt, und viele spüren während der Infusion Druck auf der Brust und Übelkeit.',
     benefits: [
-      'Hebt den zellulären NAD+-Spiegel direkt und stark an',
-      'Berichte über mehr Energie, Klarheit und Regeneration',
-      'Umgeht die begrenzte orale Aufnahme von NAD-Vorstufen',
-      'In der Longevity-Szene für Zellreparatur und Sirtuine genutzt – die Begründung ist mechanistisch, nicht klinisch'
+      'Herzschwäche nach ischämischer Kardiomyopathie: Auswurfleistung nach 1 Monat 45,44 gegenüber 42,44 Prozent unter Placebo, p = 0,024; 7 Tage NAD+ über die Vene zusätzlich zur Standardtherapie (Mensch, randomisiert, 180 Patienten, ein Zentrum, China, 2026).',
+      'Trend zu weniger schweren Herz- und Hirnereignissen über 6 Monate, 14,6 gegenüber 24,7 Prozent, nicht signifikant (dieselbe Studie, 2026).',
+      'Keine bedeutsamen Veränderungen bei Leber-, Nieren-, Entzündungs- und Schilddrüsenwerten über 30 Tage nach 4 Infusionstagen (Mensch, 6 NAD+-Empfänger, retrospektiv, 2026).',
+      'Bei langsamer Gabe über 6 Stunden keine Nebenwirkungen beobachtet (Mensch, 8 Männer mit NAD+, 3 Kontrollen, Pilotstudie 2019).',
+      'Mechanistische Grundlage aus Tierversuchen: Anhebung von NAD+ verbesserte in Nagetieren häufig Stoffwechsel, Mitochondrien und Entzündungswerte (systematische Übersicht mit 80 Nagetierstudien, 2026).'
     ],
-    indication: ['Energie/Fatigue', 'Regeneration', 'Anti-Aging', 'Fokus', 'Sucht-Recovery (experimentell)'],
-    note: 'Langsame Infusion nötig (schnelle Gabe verursacht Unwohlsein); klinischer Longevity-Nutzen nicht bewiesen. Nur ärztlich.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/31724657/'
+    indication: [
+      'Energie/Fatigue',
+      'Regeneration',
+      'Anti-Aging',
+      'Fokus',
+      'Sucht-Recovery (experimentell)'
+    ],
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31572171/',
+    note: 'Langsame Infusion nötig: Beschwerden wie Übelkeit, Bauchkrämpfe oder Druck auf der Brust sind häufig und enden mit der Infusion. Kein zugelassenes NAD+-Arzneimittel in der EU; nur ärztlich. Für Wettkampfsportler: Infusionen über 100 ml in 12 Stunden sind außerhalb von Klinikbehandlungen nach WADA-Liste verboten.'
   },
   {
     id: 'tpe-plasmaaustausch',
