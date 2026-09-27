@@ -3054,8 +3054,14 @@ WICHTIG – konservative Gewichtsschätzung:
   function highlightExpCard(domId) {
     const el = document.getElementById(domId);
     if (!el) return;
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // Oben am Kartenanfang landen (nicht mittig) – lange Karten sonst mitten im Text
     el.classList.add('search-hit');
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Falls sich das Layout nach dem Rendern noch verschiebt: einmal nachjustieren
+    setTimeout(() => {
+      const top = el.getBoundingClientRect().top;
+      if (top < 40 || top > 160) el.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }, 700);
     setTimeout(() => el.classList.remove('search-hit'), 2600);
   }
 
