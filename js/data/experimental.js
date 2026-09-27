@@ -3173,6 +3173,89 @@ const EXPERIMENTAL = [
       { title: 'Hinkle et al., Metaanalyse zu unerwünschten Ereignissen unter Psychedelika, JAMA Psychiatry 2024', url: 'https://pubmed.ncbi.nlm.nih.gov/39230883/' }
     ],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'adamax',
+    name: 'Adamax',
+    altNames: 'Ac-MEHFPGP^AG-NH2, Adamax 1032, adamantyliertes Semax, N-Acetyl-Semax-Adamantan',
+    class: 'Designer-Analogon von Semax (ACTH-Fragment) mit Adamantan-Endkappe, Nootropikum',
+    emoji: '🧠',
+    short: 'Semax mit den Endkappen des Forschungspeptids P021: vorn acetyliert, hinten ein Adamantan-Baustein, der das Molekül stabiler und hirngängiger machen soll – eine chemisch nachvollziehbare Idee auf einer tierexperimentell belegten Semax-Grundlage. Zu Adamax selbst gibt es keine Studie, der Entwickler ist unbekannt, und Anbieter verkaufen unter dem Namen unterschiedliche Moleküle.',
+    moa: 'Der Kern ist die Semax-Kette Met-Glu-His-Phe-Pro-Gly-Pro, ein ACTH(4-7)-Fragment mit angehängtem Pro-Gly-Pro ohne nennenswerte Hormonwirkung; Semax hob bei Ratten das BDNF-Protein im Hippocampus maximal 1,4-fach und aktivierte dessen Rezeptor TrkB (Dolotov 2006). Adamax trägt zusätzlich die Endkappen von P021: eine Acetylgruppe am Anfang und einen adamantylierten Baustein mit Amid am Ende. Bei P021 wurde diese Adamantan-Kappe ausdrücklich angefügt, um die Blut-Hirn-Schranke besser zu überwinden (Kazim & Iqbal 2016). Die neurotrophe Wirkung von P021 schreiben dessen Entwickler dem CNTF-abgeleiteten Kern DGGL zu, den Adamax nicht enthält – es ist also ein Semax mit Schutzkappe, kein Semax-P21-Hybrid. Ob die Kappe bei Adamax Stabilität, Hirngängigkeit oder Wirkdauer tatsächlich verändert, wurde nie gemessen.',
+    benefits: [
+      'Baut auf Semax auf: einmalige Gabe hob bei Ratten das BDNF-Protein im Hippocampus maximal 1,4-fach (Dolotov et al. 2006, Tierversuch).',
+      'Semax veränderte in einer kleinen placebokontrollierten Studie mit 24 Gesunden (14 Semax, 10 Placebo) nach 5 und 20 Minuten ein Ruhenetzwerk im Gehirn (Lebedeva et al. 2018, Surrogat per fMRT).',
+      'Die Adamantan-Kappe ist ein etabliertes Werkzeug der Wirkstoffchemie für mehr Fettlöslichkeit; bei P021 diente sie ausdrücklich der Blut-Hirn-Schranken-Gängigkeit (Kazim & Iqbal 2016, Übersicht der Entwicklergruppe).',
+      'Das Spenderpeptid P021 verbesserte bei normalen erwachsenen Mäusen Lernen und Gedächtnis und förderte die Neubildung von Nervenzellen (Li et al. 2010, Tierversuch).',
+      'Anwenderberichte (unkontrolliert, Forum 2026): etwas energetisierender und fokussierender als NA-Semax; andere Anwender fanden die Wirkung ähnlich wie NA-Semax bei deutlich höherem Preis.'
+    ],
+    risks: [
+      'Keine Studie zu Adamax selbst – weder am Menschen noch im Tier oder in Zellkultur; 0 Treffer in PubMed, 0 Einträge auf ClinicalTrials.gov, kein Patent gefunden.',
+      'Uneinheitliche Struktur im Handel: Adamantan mal vorn, mal hinten, bei einem Chemikalienanbieter eine Sequenz ohne Adamantan-Baustein, bei einem Händler sogar Dihexa unter dem Namen Adamax.',
+      'Keine Sicherheitsdaten: keine Toxikologie, keine Pharmakokinetik, keine Fallberichte; beim Ausgangsstoff Semax sieht die FDA (2026) mögliche Immunreaktionen durch Aggregate und Verunreinigungen.',
+      'Die Semax-Grundlage ist überwiegend russisch; die FDA fand 2026 keine ausreichenden Belege für die geprüften Anwendungsgebiete.',
+      'Im Sport als nicht zugelassene Substanz unter Gruppe S0 der WADA-Liste jederzeit verboten.'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen; in DE/EU weder Arzneimittel noch zugelassenes Nahrungsergänzungsmittel, Vertrieb als Forschungschemikalie. Neuseeland: Medsafe schlug im Juni 2025 vor, ACTH-Analoga einschließlich Adamax und Semax als verschreibungspflichtig einzustufen; das Klassifizierungskomitee vertagte am 23.07.2025, das Sekretariat empfahl danach die Einstufung. WADA 2026: nicht namentlich gelistet, als nicht zugelassene Substanz unter S0 jederzeit verboten.',
+    sources: [
+      { title: 'Wikipedia – Adamax: Struktur Ac-MEHFPGP^AG-NH2, Semax mit den Endkappen von Peptide 021', url: 'https://en.wikipedia.org/wiki/Adamax' },
+      { title: 'Medsafe, Juni 2025 – Classification of Unscheduled Peptides: Adamax und Semax als ACTH-Analoga', url: 'https://www.medsafe.govt.nz/profs/class/Agendas/Agen74/5.7Peptides.pdf' },
+      { title: 'Medsafe – Protokoll der 74. MCC-Sitzung vom 23.07.2025: Entscheidung zu Peptidgruppen vertagt', url: 'https://www.medsafe.govt.nz/profs/class/Minutes/2021-2025/74mccMin23July2025.htm' },
+      { title: 'Dolotov et al., Brain Res 2006 – Semax hebt BDNF und TrkB im Hippocampus der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/16996037/' },
+      { title: 'Lebedeva et al., Bull Exp Biol Med 2018 – fMRT nach Semax gegen Placebo bei 24 Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/30225715/' },
+      { title: 'Li et al., FEBS Lett 2010 – P021: neurotrophes Peptid mit Adamantan, Lernen und Neurogenese bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/20600002/' },
+      { title: 'Kazim & Iqbal, Mol Neurodegener 2016 – Herleitung von P021, Adamantan-Glycin für die Blut-Hirn-Schranke', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4940708/' },
+      { title: 'FDA, Briefing Pharmacy Compounding Advisory Committee 2026 – Bewertung von Semax', url: 'https://www.fda.gov/media/193348/download' },
+      { title: 'ClinicalTrials.gov – keine eingetragene Studie zu Adamax', url: 'https://clinicaltrials.gov/search?term=Adamax' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Adamax")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'aicar',
+    name: 'AICAR (Acadesin)',
+    altNames: 'AICAr, AICA-Ribosid, Acadesin, 5-Amino-1-beta-D-ribofuranosyl-imidazol-4-carboxamid, ARA 100, GP 1 110',
+    class: 'Purin-Nukleosid-Analogon, AMPK-Aktivator über das AMP-Mimetikum ZMP',
+    emoji: '🏃',
+    short: 'Das Ur-Trainings-Mimetikum: In der Zelle entsteht aus AICAR das AMP-Imitat ZMP, das den Energiesensor AMPK anschaltet; untrainierte Mäuse liefen 2008 daraufhin 44 Prozent weiter. Am Menschen ist der Stoff als Acadesin mit tausenden Patienten geprüft worden – allerdings am Herzen, wo er in Phase III keinen Vorteil zeigte; die Ausdauerwirkung selbst ist am Menschen nie untersucht.',
+    moa: 'AICAR ist ein natürlicher Zwischenschritt der De-novo-Purinsynthese und im Blut und Urin gesunder Menschen vorhanden. In der Zelle wird es zu seinem Monophosphat ZMP phosphoryliert, das beide aktivierenden Wirkungen von AMP auf die AMP-aktivierte Proteinkinase (AMPK) nachahmt – allosterische Aktivierung und Förderung der Phosphorylierung –, ohne die ATP-, ADP- und AMP-Spiegel der Zelle zu verschieben (Corton et al. 1995). Folge in Zellversuchen: Fettsäure- und Sterolsynthese kommen fast zum Erliegen, die Lipolyse wird gebremst. In der klinischen Entwicklung als Acadesin stand dagegen ein zweiter Mechanismus im Vordergrund: die lokale Erhöhung der Adenosinverfügbarkeit in ischämischem Gewebe, ergänzt um eine Thrombozytenhemmung, die über ZMP in roten Blutkörperchen läuft (Bullough et al. 1994). Die Zuordnung zur AMPK ist unsicher: In beiden kontrollierten Humanstudien änderte sich die AMPK-Phosphorylierung im Muskel nicht messbar, und ZMP wirkt nachweislich auch AMPK-unabhängig, etwa über den Hippo-Signalweg (Višnjić et al. 2021, Philippe et al. 2018).',
+    benefits: [
+      'Untrainierte Mäuse liefen nach 4 Wochen AICAR 44 Prozent mehr: rund 23 Prozent länger und rund 44 Prozent weiter als Kontrolltiere (Narkar et al., Cell 2008, n = 15 bis 20, Gabe intraperitoneal).',
+      'Bei 23 Monate alten Mäusen verhinderte eine 31-tägige Gabe den Abfall der Laufleistung, den die Kontrolltiere mit minus 24,5 Prozent zeigten, und erhöhte die tetanische Muskelkraft um 26,4 Prozent (Wilcox et al. 2025, Maus).',
+      'Bei 29 gesunden Männern stieg die Glukoseaufnahme im Muskel nach 3 Stunden um das 2,1-Fache, unter Fahrradbelastung dagegen um das 4,7-Fache; Ganzkörper-Glukoseverwertung plus 7 Prozent (Cuthbertson et al. 2007, Mensch, Surrogatmarker).',
+      'Bei 10 Männern mit Typ-2-Diabetes senkte eine Infusion die Glukoseabgabe der Leber, die Plasmaglukose und die freien Fettsäuren (Boon et al. 2008, Mensch, n = 10).',
+      'Meta-Analyse von 5 randomisierten Studien mit 4043 Bypass-Patienten: perioperative Herzinfarkte minus 27 Prozent (OR 0,69; 95-Prozent-KI 0,51 bis 0,95), Herztod bis Tag 4 minus 50 Prozent (Mangano, JAMA 1997) – in der größeren Folgestudie nicht bestätigt.',
+      'Verbesserte Wasserlabyrinth- und Motorikleistung bei jungen und 23 Monate alten Mäusen; bei Tieren mit muskelspezifisch mutierter AMPK blieb der Effekt aus (Kobilo et al. 2014, Maus).'
+    ],
+    risks: [
+      'Harnsäure ist der Hauptmetabolit beim Menschen: vorübergehende Harnsäureanstiege in den Herzstudien, häufige Hyperurikämie in der Leukämie-Studie, die mit vorbeugendem Allopurinol behandelt wurde.',
+      'In der Leukämie-Studie traten Nierenfunktionsstörungen, vorübergehende Anämie und Thrombozytopenie und ein klinisch bedeutsamer infusionsbedingter Blutdruckabfall auf; eine Studie bei MDS und AML wurde wegen schwerer Nierennebenwirkungen abgebrochen.',
+      'Hemmt in menschlichem Vollblut die Thrombozytenaggregation und senkt akut die Glukoseabgabe der Leber – Kombinationen mit Blutverdünnern oder Blutzuckersenkern sind nicht untersucht.',
+      'Orale Verfügbarkeit beim Menschen unter 5 Prozent, terminale Halbwertszeit 1,4 Stunden; alle klinischen Studien liefen als Infusion.',
+      'Keine Humanstudie zu Ausdauer, Fettmasse oder Körperzusammensetzung; keine Langzeitdaten, am Menschen liegen Stunden bis wenige Gaben vor.',
+      'Seit 2009 im Sport verboten, WADA-Liste 2026 Abschnitt S4.4.1 (AMPK-Aktivatoren), jederzeit; in Deutschland namentlich in der Anlage zum Anti-Doping-Gesetz, damit auch Erwerb und Besitz in nicht geringer Menge zum Zwecke des Dopings strafbar.'
+    ],
+    status: 'Kein zugelassenes Arzneimittel und kein Nahrungsergänzungsmittel in DE/EU/USA; für den Menschen nirgends zur Therapie freigegeben. Zwei EU-Orphan-Designations für Acadesin (EU/3/05/280 vom 27.05.2005, B-Zell-CLL; EU/3/11/881 vom 05.08.2011, Multiples Myelom) – keine Zulassung. Dopingliste: WADA 2026, S4.4.1 AMPK-Aktivatoren, jederzeit verboten; keine Ausnahmegenehmigung möglich. Deutschland: namentlich in der Anlage zum AntiDopG.',
+    sources: [
+      { title: 'Narkar et al., Cell 2008 – AICAR steigert die Laufleistung untrainierter Mäuse um 44 Prozent', url: 'https://pubmed.ncbi.nlm.nih.gov/18674809/' },
+      { title: 'Corton et al., Eur J Biochem 1995 – ZMP als AMP-Mimetikum, Grundlage des Mechanismus', url: 'https://pubmed.ncbi.nlm.nih.gov/7744080/' },
+      { title: 'Dixon et al., J Clin Pharmacol 1991 – Pharmakokinetik am Menschen, orale Verfügbarkeit unter 5 Prozent', url: 'https://pubmed.ncbi.nlm.nih.gov/2037706/' },
+      { title: 'Cuthbertson et al., Diabetes 2007 – Glukoseaufnahme im Muskel gesunder Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/17513706/' },
+      { title: 'Boon et al., Diabetologia 2008 – intravenöses AICAR bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/18709353/' },
+      { title: 'Mangano, JAMA 1997 – Meta-Analyse von 5 Acadesin-Studien, 4043 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/9002496/' },
+      { title: 'Newman et al., JAMA 2012 – RED-CABG, Phase III, Abbruch wegen Aussichtslosigkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/22782417/' },
+      { title: 'Van Den Neste et al., Cancer Chemother Pharmacol 2013 – Phase I/II bei CLL', url: 'https://pubmed.ncbi.nlm.nih.gov/23228986/' },
+      { title: 'Višnjić et al., Cells 2021 – systematische Übersicht zu AMPK-unabhängigen Wirkungen', url: 'https://pubmed.ncbi.nlm.nih.gov/34064363/' },
+      { title: 'Piper et al., Rapid Commun Mass Spectrom 2014 – Isotopenverhältnis zum Nachweis in Dopingkontrollen', url: 'https://pubmed.ncbi.nlm.nih.gov/24760559/' },
+      { title: 'WADA – Prohibited List 2026, S4.4.1 Aktivatoren der AMPK', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Anlage zum deutschen Anti-Doping-Gesetz – AICAR unter den Stoffwechsel-Modulatoren', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
   }
 ];
 
@@ -3193,6 +3276,7 @@ const _EXP_CAT_MAP = {
   'tirzepatide': 'Stoffwechsel',
   'cagrilintide': 'Stoffwechsel',
   'slu-pp-332': 'Exercise',
+  'aicar': 'Exercise',
   '5-amino-1mq': 'Exercise',
   'mk-677': 'Exercise',
   'cjc-ipamorelin': 'Exercise', 'cjc-1295-dac': 'Exercise',
