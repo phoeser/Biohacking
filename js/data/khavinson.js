@@ -283,5 +283,115 @@ const KHAVINSON = [
       { title: 'Bioregulators Overview (Youth & Earth)', url: 'https://youthandearth.com/blogs/learninghub/bioregulators-an-overview-of-their-discovery-function-and-benefits' },
       { title: '30+ Best Bioregulator Peptides (Outliyr)', url: 'https://outliyr.com/best-bioregulator-peptides-review' }
     ]
+  },
+  {
+    id: 'kh-cardiogen',
+    name: 'Cardiogen',
+    altNames: 'AEDR · Ala-Glu-Asp-Arg · Herz-Cytogen (nicht zu verwechseln mit Chelohart oder Cortagen)',
+    class: 'Tetrapeptid, Herzmuskel-Bioregulator (synthetisch)',
+    emoji: '🫀',
+    short: 'Synthetisches Herz-Tetrapeptid der Khavinson-Schule. Im Infarktmodell an Ratten starben in den ersten 24 Stunden 15 statt 45 Prozent der Tiere, in Gewebekulturen regte es Herzmuskelgewebe junger und alter Tiere an. Studien am Menschen gibt es nicht.',
+    moa: 'Cardiogen ist die Sequenz Ala-Glu-Asp-Arg, die laut Entwicklergruppe im Polypeptidkomplex des Herzens nachgewiesen wurde. Nach der Hypothese der Khavinson-Schule gelangen ultrakurze Peptide in den Zellkern, binden an DNA und Histone und beeinflussen so die Ablesung gewebetypischer Gene. Messbar ist ein Teil davon in Zellkultur: AEDR steigerte in Mausfibroblasten die Zytoskelett-Proteine Aktin, Tubulin und Vimentin um das 2- bis 5-Fache und die Lamine A und C um das 2- bis 3-Fache, was die Autoren als Grundlage der Herzschutzwirkung deuten. In Herzmuskel-Explantaten förderte es die Zellvermehrung und senkte den Zelltod-Marker p53. Die Aufnahme in Zellen über die Transporter LAT1, LAT2 und PEPT1 ist nur per Computermodell plausibel gemacht.',
+    benefits: [
+      'Infarktmodell (Koronarligatur, 40 Ratten): Sterblichkeit in den ersten 24 Stunden 15 statt 45 Prozent, kleinere Nekrosezonen, Glykogen im Herzmuskel erhalten – Tierdaten aus dem Patent der Entwickler (US 7,662,789).',
+      'Herzmuskel-Explantate 3 und 24 Monate alter Ratten: stärkste Wachstumsförderung aller getesteten Substanzen, weniger p53 (Chalisova et al. 2009).',
+      'Zellkultur: 2- bis 5-fach mehr Zytoskelett-Proteine und 2- bis 3-fach mehr Kernmatrix-Proteine in Mausfibroblasten (Khavinson et al. 2012).',
+      'Gealterte Ratten mit transplantiertem Sarkom: Tumorwachstum gehemmt statt gefördert, über Nekrose und Apoptose im Tumor (Levdik und Knyazkin 2009).',
+      'Weitere Tiermodelle im Patent: isolierte Meerschweinchenherzen nach Ischämie, Adrenalin-Schädigung und Kalziumchlorid-Rhythmusstörungen, jeweils mit günstiger Richtung.',
+      'Klar definiertes Einzelmolekül statt Organextrakt; Sequenz und Herstellung sind patentiert und dokumentiert.'
+    ],
+    risks: [
+      'Keine veröffentlichte Studie am Menschen, keine Pharmakokinetik, kein Eintrag in öffentlichen Studienregistern.',
+      'Die stärksten Zahlen stehen in einem Patent der Entwickler, nicht in einer begutachteten Arbeit; unabhängige Replikation fehlt.',
+      'Gewebespezifität nicht streng: Cardiogen wirkte auch in gealterten menschlichen Prostata-Fibroblasten; in den Tierversuchen wurde gespritzt, nicht geschluckt.',
+      'Keine Daten zu Wechselwirkungen mit Herzmedikamenten; Herzinsuffizienz, Rhythmusstörungen und Zustand nach Infarkt gehören in kardiologische Behandlung.',
+      'Research-Ware: Gehalt, Reinheit und Sequenz ungeprüft; Verwechslungsgefahr mit Chelohart (Peptidkomplex) und Cortagen (Ala-Glu-Asp-Pro).',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
+    ],
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; als Nahrungsergänzungsmittel fehlt die nach der Novel-Food-Verordnung (EU) 2015/2283 nötige Genehmigung. Gehandelt als Forschungspeptid ohne Bestimmung für den Menschen. WADA-Gruppe S0.',
+    sources: [
+      { title: 'Khavinson et al., US-Patent 7,662,789 (2010) – AEDR stellt Myokardfunktion wieder her (Tierdaten, Toxikologie)', url: 'https://patents.google.com/patent/US7662789B2/en' },
+      { title: 'Khavinson et al., Cells 2022 – SASP von Herz-Kreislauf-Zellen, AEDR und KED als Peptidregulatoren (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/36611900/' },
+      { title: 'Khavinson et al., Bull Exp Biol Med 2012 – AEDR steigert Zytoskelett- und Kernmatrix-Proteine', url: 'https://pubmed.ncbi.nlm.nih.gov/22977870/' },
+      { title: 'Chalisova et al., Adv Gerontol 2009 – Cardiogen in Herzmuskel-Kulturen junger und alter Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/20210190/' },
+      { title: 'Levdik und Knyazkin, Bull Exp Biol Med 2009 – Cardiogen hemmt M-1-Sarkom bei gealterten Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/20396706/' },
+      { title: 'Kheifets et al., Adv Gerontol 2010 – Cardiogen in gealterten menschlichen Prostata-Fibroblasten', url: 'https://pubmed.ncbi.nlm.nih.gov/20586252/' },
+      { title: 'Khavinson et al., Biomolecules 2023 – Transport ultrakurzer Peptide über LAT und PEPT (Modellierung)', url: 'https://pubmed.ncbi.nlm.nih.gov/36979488/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Cardiogen")', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'kh-cartalax',
+    name: 'Cartalax',
+    altNames: 'AED · Ala-Glu-Asp · T-31 · Kartalax · Knorpel-Cytogen (synthetisches Gegenstück zum Sigumir-Komplex)',
+    class: 'Tripeptid, Knorpel-/Gelenk-Bioregulator (synthetisch)',
+    emoji: '🦴',
+    short: 'Synthetisches Knorpel-Tripeptid der Khavinson-Schule. In gealterten menschlichen Stammzellen und Knorpelzellen aktiviert es Knorpelgene und dämpft Alterungssignale; ein Patent berichtet bei 29 Arthrose-Patienten weniger Schmerzen. Begutachtete Humanstudien gibt es nicht.',
+    moa: 'Cartalax ist die Sequenz Ala-Glu-Asp, patentiert als Peptid zur Normalisierung des Stoffwechsels in Knochen- und Knorpelgewebe; nach Angaben der Entwicklergruppe ist AED auch Bestandteil des Knorpel-Polypeptidkomplexes. Nach der Hypothese der Khavinson-Schule gelangen ultrakurze Peptide in den Zellkern und verändern über DNA- und Histonbindung die Genablesung. In replikativ gealterten menschlichen mesenchymalen Stammzellen aktivierte AED die Knorpelmarker SOX9, Aggrecan, Kollagen Typ II und COMP. In gealterten Knorpelzellen normalisierte es den sekretorischen Alterungsphänotyp mit erhöhtem p16, p21, p53, TNF-α und IL-1α und vermindertem Sirt1. Die Wirkung ist nicht knorpelexklusiv: Auch Nierenzellen und Hautfibroblasten reagieren.',
+    benefits: [
+      'Gealterte menschliche Stammzellen: Aktivierung von SOX9, Aggrecan, Kollagen Typ II und COMP, also der Knorpeldifferenzierung (Myakisheva et al. 2023, Zellkultur).',
+      'Gealterte Knorpelzellen: Alterungs- und Entzündungssignatur (p16, p21, p53, TNF-α, IL-1α) normalisiert, Sirt1 wieder angehoben (Myakisheva et al. 2023, Zellkultur).',
+      'Knorpel-Explantate der Ratte: Auswachsen am 3. Tag 26 Prozent über Kontrolle, nach 7 Tagen gleiche Richtung (Patent RU 2299741, 28 Fragmente).',
+      'Patentbericht: 29 Patienten mit Kniegelenksarthrose, randomisiert mit Kochsalz-Kontrolle; weniger Schmerz und mehr Beweglichkeit in 54,5 bis 62,7 Prozent der Fälle nach 20 Tagen Injektionen (Herstellerangabe, nicht begutachtet).',
+      'Alternde menschliche Hautfibroblasten: mehr Sirtuin-1, Sirtuin-6 und Kollagen I (Fridman et al. 2020).',
+      'Kleines, klar definiertes Einzelmolekül statt Organextrakt; Tiertoxikologie über bis zu 6 Monate im Patent ohne pathologische Befunde.'
+    ],
+    risks: [
+      'Keine begutachtete Studie am Menschen und kein Registereintrag; der Patentbericht nennt kein Ergebnis der Kontrollgruppe, keine Skalen, keine Nebenwirkungen.',
+      'Im Röntgen zeigte sich im Patentbericht keine wesentliche Veränderung; ein Knorpelaufbau am Menschen ist nicht belegt.',
+      'Im Patent wurde intramuskulär gespritzt, gehandelt werden meist Kapseln; ob geschlucktes AED im Gelenk ankommt, ist nicht gemessen.',
+      'Nicht gewebeexklusiv: AED wirkt auch auf Nierenzellen, Nierenfunktion alter Ratten und Hautfibroblasten; Studien fast nur aus der Entwicklergruppe.',
+      'Research-Ware: Gehalt und Reinheit ungeprüft; akut geschwollene oder heiße Gelenke gehören ärztlich abgeklärt.',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
+    ],
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; als Nahrungsergänzungsmittel fehlt die nach der Novel-Food-Verordnung (EU) 2015/2283 nötige Genehmigung. In russischsprachigen Ländern und online für Gelenkbeschwerden angeboten, hierzulande als Forschungspeptid. WADA-Gruppe S0.',
+    sources: [
+      { title: 'Khavinson et al., Patent RU 2299741 (2007) – AED normalisiert Knochen- und Knorpelstoffwechsel (Tierdaten, Toxikologie, 29 Arthrose-Patienten)', url: 'https://www.freepatent.ru/patents/2299741' },
+      { title: 'Myakisheva et al., Adv Gerontol 2023 – AED aktiviert Knorpeldifferenzierung gealterter menschlicher Stammzellen', url: 'https://pubmed.ncbi.nlm.nih.gov/37782646/' },
+      { title: 'Myakisheva et al., Adv Gerontol 2023 – AED normalisiert den Alterungsphänotyp von Chondrozyten', url: 'https://pubmed.ncbi.nlm.nih.gov/37356100/' },
+      { title: 'Linkova et al., Int J Mol Sci 2023 – Peptidregulation der chondrogenen Stammzelldifferenzierung (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/37176122/' },
+      { title: 'Ashapkin et al., Mol Biol Rep 2020 – AED, KED und KE in alternden Stammzellkulturen', url: 'https://pubmed.ncbi.nlm.nih.gov/32399807/' },
+      { title: 'Fridman et al., Bull Exp Biol Med 2020 – AED steigert Sirtuine und Kollagen I in Hautfibroblasten', url: 'https://pubmed.ncbi.nlm.nih.gov/33231794/' },
+      { title: 'Khavinson et al., Bull Exp Biol Med 2014 – T-31 (AED) in alternden Nierenzellkulturen', url: 'https://pubmed.ncbi.nlm.nih.gov/24958378/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Cartalax")', url: 'https://biolabshop.de/' }
+    ]
+  },
+  {
+    id: 'kh-cortagen',
+    name: 'Cortagen',
+    altNames: 'AEDP · Ala-Glu-Asp-Pro',
+    class: 'Tetrapeptid, Neuro-Bioregulator (aus Cortexin abgeleitet)',
+    emoji: '🧠',
+    short: 'Synthetisches Tetrapeptid, abgeleitet aus dem Hirnrinden-Extrakt Cortexin. In Ratten wuchsen durchtrennte Nerven unter Cortagen schneller nach und leiteten schneller; Studien am Menschen sind nicht veröffentlicht, die Daten stammen fast nur aus der russischen Khavinson-Forschung.',
+    moa: 'Cortagen (Ala-Glu-Asp-Pro) wurde nach der Aminosäureanalyse des Hirnrinden-Peptidkomplexes Cortexin synthetisiert (Anisimov et al. 2004). Nach der Hypothese der Khavinson-Schule gelangen so kurze Peptide in den Zellkern, binden an DNA und Histone und verändern gewebespezifisch die Ablesung von Genen. Passend dazu regte Cortagen in Organkultur das Wachstum von Hirnrinden-Explantaten der Ratte an (2001), verschob im Mausherz die Aktivität von 234 Genabschnitten (2004) und lockerte in Lymphozyten 75- bis 88-jähriger Spender verdichtetes Chromatin auf (2004). Von Pinealon (Glu-Asp-Arg, Tripeptid) unterscheidet es sich in Länge und Sequenz, von Epitalon (Ala-Glu-Asp-Gly) nur in der letzten Aminosäure. Am Menschen ist keine dieser Wirkungen gemessen.',
+    benefits: [
+      'Ratten nach Durchtrennung des Ischiasnervs: unter Cortagen über 10 Tage 27 Prozent schnelleres Faserwachstum und 40 Prozent höhere Leitgeschwindigkeit (Turchaninova et al. 2000, Tierversuch).',
+      'Ratten mit chronischer Hirnischämie: schnellere Erholung des Verhaltens und weniger Fettoxidation im Hirngewebe, ähnlich wie unter Cortexin (Zarubina & Shabanov 2011, Tierversuch, russisch).',
+      'Weniger Produkte der Fettoxidation und weniger oxidativ veränderte Eiweiße bei Ratten (Kozina 2007, Tierversuch).',
+      'In Lymphozyten von Spendern zwischen 75 und 88 Jahren Auflockerung verdichteten Chromatins und Aktivierung ribosomaler Gene (Khavinson et al. 2004; Lezhava et al. 2023; Zellkultur mit menschlichen Zellen).',
+      'Im Mausherz nach 5 Tagen 234 von 15.247 Genabschnitten signifikant verändert, zugeordnet zu 110 bekannten Genen (Anisimov et al. 2004, Tierversuch).'
+    ],
+    risks: [
+      'Keine veröffentlichte kontrollierte Humanstudie; die Suche in ClinicalTrials.gov ergibt keine Studie zu Cortagen.',
+      'Schmale Datenbasis: 15 PubMed-Einträge, fast alle aus russischen Laboren, die meisten mit Beteiligung Khavinsons; viele Arbeiten nur auf Russisch mit knapper Zusammenfassung, keine unabhängige Wiederholung.',
+      'Nicht jeder Test fiel positiv aus: ohne Effekt auf Thymuszellen (2002), schwächer als Vilon und Epitalon bei Interleukin-2 (2002), ohne Wirkung im Hühnerversuch, in dem Epitalon wirkte (2008).',
+      'Keine Sicherheits- und Pharmakokinetikdaten am Menschen; ob es nach Gabe das Gehirn erreicht, ist nicht gemessen.',
+      'Graumarkt-Ware: Reinheit und Gehalt ungeprüft; im Sport als nicht zugelassene Substanz unter WADA S0 jederzeit verboten.'
+    ],
+    status: 'Forschungspeptid. In DE/EU weder als Arzneimittel noch als Nahrungsergänzungsmittel zugelassen; eine Arzneimittelzulassung in den USA oder in Russland (anders als beim Mutterpräparat Cortexin) war nicht nachweisbar. WADA 2026: als nicht zugelassene Substanz unter S0 jederzeit verboten.',
+    sources: [
+      { title: 'Turchaninova et al. 2000, Bull Exp Biol Med – Cortagen beschleunigt die Regeneration des Ischiasnervs bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/11276314/' },
+      { title: 'Kolosova et al. 2002, Dokl Biol Sci – verzögerte Wirkung auf die Wiederherstellung der Nervenfunktion', url: 'https://pubmed.ncbi.nlm.nih.gov/12134478/' },
+      { title: 'Anisimov, Khavinson, Anisimov 2004, Neuro Endocrinol Lett – Herkunft aus Cortexin, Genaktivität im Mausherz', url: 'https://pubmed.ncbi.nlm.nih.gov/15159690/' },
+      { title: 'Khavinson, Lezhava, Malinin 2004, Bull Exp Biol Med – Chromatin in Lymphozyten Hochbetagter', url: 'https://pubmed.ncbi.nlm.nih.gov/15085253/' },
+      { title: 'Zarubina & Shabanov 2011, Eksp Klin Farmakol – Cortexin und Cortagen bei chronischer Hirnischämie (russisch)', url: 'https://pubmed.ncbi.nlm.nih.gov/21476278/' },
+      { title: 'Kuznik et al. 2008, Adv Gerontol – Epitalon wirkt, Cortagen nicht (Hühnerversuch)', url: 'https://pubmed.ncbi.nlm.nih.gov/19432169/' },
+      { title: 'Khavinson et al. 2020, Stem Cell Rev Rep – kurze Peptide und Zelldifferenzierung (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/31808038/' }
+    ],
+    community: []
   }
 ];

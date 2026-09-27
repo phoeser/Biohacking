@@ -2873,6 +2873,36 @@ const SUPPLEMENTS = [
     evidence: 'mittel',
     sources: 'Weizenkeimöl (20,3 mg pro Esslöffel), Sonnenblumenkerne und -öl, Mandeln, Haselnüsse, Distelöl',
     link: 'https://pubmed.ncbi.nlm.nih.gov/20427778/'
+  },
+  {
+    id: 'tudca',
+    name: 'TUDCA',
+    altNames: 'Tauroursodeoxycholsäure, Tauroursodesoxycholsäure, Taurursodiol, Ursodoxicoltaurin',
+    category: 'Longevity',
+    tags: ['leber', 'verdauung', 'blutzucker', 'nerven'],
+    short: 'Gallensäure, die bei Gallenstau-Erkrankungen so gut wirkt wie das Standardmittel UDCA und in einer kleinen Studie die Insulinwirkung in Leber und Muskel verbesserte. Bei ALS hat die große Phase-III-Studie 2024 den erhofften Nutzen nicht bestätigt.',
+    description: 'TUDCA ist die mit Taurin verbundene Form der Ursodeoxycholsäure (UDCA) und in Italien als verschreibungspflichtiges Gallenmittel zugelassen (Tauro, 250 bis 750 mg täglich). Oral eingenommen verschiebt es den Gallensäurepool beim Menschen hin zu schonenden, wasserlöslichen Gallensäuren; in Zellen wirkt es als chemisches Chaperon gegen ER-Stress. Bei primär biliärer Cholangitis war es in einer RCT mit 199 Patienten gleichwertig zu UDCA, bei 20 Adipösen stieg die Insulinsensitivität in Leber und Muskel nach 4 Wochen um etwa 30 Prozent. Die ALS-Hoffnung aus einer Pilotstudie mit 34 Patienten hielt in der Phase III mit 336 Teilnehmenden nicht. Zum Leberschutz bei Gesunden, bei Alkohol oder oralen Anabolika gibt es keine kontrollierten Studien.',
+    benefits: [
+      'Primär biliäre Cholangitis: ALP-Senkung über 25 % bei 75,97 % unter TUDCA vs. 80,88 % unter UDCA, gleichwertig, weniger Juckreiz (doppelblinde RCT, n = 199, 24 Wochen, Ma et al. 2016)',
+      'Insulinsensitivität in Leber und Muskel etwa 30 % höher nach 4 Wochen 1.750 mg pro Tag, Fettgewebe unverändert (RCT, n = 20 Adipöse, Clamp-Messung, Kars et al. 2010) – klein und kurz',
+      'Verschiebt den Gallensäurepool beim Menschen zu hydrophileren Gallensäuren: Ursodeoxycholat-Anteil in der Galle 34,4 bis 41,6 % (Setchell et al. 1996)',
+      'ALS-Pilotstudie: 87 % vs. 43 % Responder (RCT, n = 34, 54 Wochen, Elia et al. 2016) – in der Phase III TUDCA-ALS (n = 336, 18 Monate) nicht bestätigt',
+      'Gut verträglich über bis zu 18 Monate, überwiegend leichte Magen-Darm-Beschwerden in Verum- und Placeboarm (TUDCA-ALS 2024)'
+    ],
+    risks: [
+      'Magen-Darm-Beschwerden (Übelkeit, weicher Stuhl); in einer Registerstudie 8,1 % Abbruch deswegen',
+      'Gegenanzeigen laut italienischer Packungsbeilage: Schwangerschaft, aktives Magengeschwür, röntgendichte Gallensteine, entzündete Gallenblase oder Gallenwege, Gallengangsverschluss',
+      'Wechselwirkungen: Colestyramin hemmt die Aufnahme; Östrogene, hormonelle Verhütungsmittel und manche Lipidsenker wirken gegenläufig auf die Galle',
+      'Hochdosierte UDCA (28 bis 30 mg/kg) verschlechterte bei primär sklerosierender Cholangitis den Verlauf – kein TUDCA-Befund, aber Grund zur Vorsicht bei hohen Dosen',
+      'Kein Beleg für Leberschutz bei Gesunden, bei Alkohol oder bei oralen Anabolika'
+    ],
+    dosage: 'Studien verwendeten 750 mg pro Tag (primär biliäre Cholangitis, Leberzirrhose, 24 Wochen bis 6 Monate), 1.750 mg pro Tag (Insulinstudie, 4 Wochen) und 1 g zweimal täglich (ALS, 54 Wochen bis 18 Monate). Das italienische Arzneimittel Tauro nennt 5 bis 10 mg/kg, also 250 bis 750 mg täglich. Referenzwerte oder Höchstmengen von EFSA, BfR oder DGE gibt es nicht, da TUDCA kein Nährstoff ist. Das sind Studien- und Zulassungsangaben, keine Verzehrempfehlung.',
+    intake: 'Laut italienischer Packungsbeilage nach den Mahlzeiten, auf mehrere Gaben verteilt. Nicht zusammen mit Colestyramin; bei Leber- oder Gallenerkrankungen nur nach ärztlicher Rücksprache.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Keine nennenswerten Lebensmittelquellen; wird in der Leber aus Ursodeoxycholsäure und Taurin gebildet',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27893675/'
   }
 ];
 

@@ -906,6 +906,25 @@ const SHOPS = [
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
+    // Aufgenommen 27.09.2026 auf Pauls Wunsch: spannendes Sortiment, aber noch
+    // keine Erfahrungsberichte. Wie bei den anderen Peptid-Shops ohne Link und
+    // ohne Sterne. Alles unten ist selbst nachgesehen (Website, Impressum,
+    // Produktliste am 27.09.2026), keine weitergegebenen Berichte.
+    id: 'thepeptidedesk',
+    name: 'thepeptidedesk.io (The Peptide Desk)',
+    demo: false,
+    url: '',
+    land: 'Hongkong / Lager in DE',
+    kategorien: ['Peptide'],
+    bewertung: null,
+    versand: 'Nach eigener Angabe Versand aus einem deutschen Lager mit DHL und Sendungsverfolgung, Expressware in 1–2 Tagen.',
+    zahlung: 'Nach eigener Angabe SEPA, Karte, Apple Pay oder Krypto (Krypto mit Rabatt – dann ohne Käuferschutz der Karte).',
+    qualitaet: 'Wirbt mit unabhängigen Laboranalysen samt Prüfschlüssel je Charge. Von uns noch nicht gegengeprüft.',
+    zoll: 'Kein Thema, solange aus dem deutschen Lager versendet wird.',
+    erfahrung: 'Noch keine Erfahrungsberichte – aufgenommen, weil das Sortiment auffällt: rund 250 Wirkstoffe, darunter viele Peptide, die es anderswo kaum gibt (etwa CagriSema, Eloralintid, ACE-031, die Khavinson-Peptide Cortagen und Cardiogen). Nachprüfbar ist: Betreiber laut Impressum ist die Monvex Limited mit Sitz in Hongkong; einer Verbraucherschlichtung nimmt der Anbieter nicht teil. Wichtig zur Einordnung: Das Sortiment geht weit über Peptide hinaus und umfasst laut Produktliste auch Anabolika, verschreibungspflichtige Medikamente, EPO und DNP – Stoffe, deren Handel und Besitz in Deutschland teils verboten und die teils gefährlich sind. Wenn du dort bestellt hast, schreib mir. Stand 27.09.2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
     id: 'warnung-europa-peptid',
     name: 'europa-peptid.de',
     warnung: true,

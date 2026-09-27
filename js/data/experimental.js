@@ -3256,6 +3256,590 @@ const EXPERIMENTAL = [
     community: [],
     podcasts: [],
     filterCat: 'Exercise'
+  },
+  {
+    id: 'abaloparatid',
+    name: 'Abaloparatid',
+    altNames: 'Abaloparatide, Tymlos (USA), Eladynos (EU), PTHrP(1-34)-Analogon',
+    class: 'Synthetisches PTHrP-Analogon, knochenaufbauendes Osteoporose-Medikament (zugelassen, verschreibungspflichtig)',
+    emoji: '🦴',
+    short: 'Baut Knochen auf, statt nur den Abbau zu bremsen: In der ACTIVE-Studie mit 2463 Frauen sanken neue Wirbelbrüche über 18 Monate von 4,2 auf 0,6 Prozent. In den USA und der EU gegen Osteoporose zugelassen; weniger sicher belegt ist der Schutz vor Brüchen außerhalb der Wirbelsäule, und die Behandlung ist zeitlich begrenzt.',
+    moa: 'Abaloparatid ist ein Peptid aus 34 Aminosäuren, zu 76 Prozent mit dem Parathormon-verwandten Peptid PTHrP(1-34) und zu 41 Prozent mit PTH(1-34) übereinstimmend. Es aktiviert den PTH1-Rezeptor der knochenbildenden Zellen und damit den cAMP-Signalweg; die tägliche kurze Spitze, bei einer Halbwertszeit von etwa 1 Stunde, regt die Knochenneubildung an Bälkchen und Außenschicht an. In Zellversuchen band es bevorzugt an die Rezeptorform RG, die nur kurze Signale auslöst, was den geringeren Kalziumanstieg gegenüber Teriparatid erklären soll (Hattersley et al. 2016, Laborbefund). Am Menschen ist die Kette gemessen: Der Aufbaumarker PINP stieg nach 1 Monat um 93 Prozent, die Knochendichte der Lendenwirbelsäule in 18 Monaten um 9,2 Prozent gegenüber 0,5 Prozent unter Placebo.',
+    benefits: [
+      'Neue Wirbelbrüche über 18 Monate 0,6 gegenüber 4,2 Prozent unter Placebo, relative Senkung um 86 Prozent (ACTIVE, Mensch, 2463 Frauen nach den Wechseljahren, JAMA 2016; Zahlen laut US-Fachinformation).',
+      'Der Vorsprung hält mit anschließendem Alendronat: nach 43 Monaten 0,9 gegenüber 5,6 Prozent neue Wirbelbrüche, relative Senkung um 84 Prozent (ACTIVExtend, 558 und 581 Frauen, 2018).',
+      'Weniger Hyperkalzämie als unter Teriparatid: 3,4 gegenüber 6,4 Prozent (ACTIVE, Teriparatid-Arm offen, 2016).',
+      'Knochendichte der Lendenwirbelsäule bei Männern plus 8,48 gegenüber plus 1,17 Prozent in 12 Monaten (ATOM, 228 Männer, 2022; Bruchschutz dort nicht untersucht).',
+      'In Japan plus 12,5 Prozent Knochendichte der Lendenwirbelsäule gegenüber Placebo über 78 Wochen (ACTIVE-J, 2022).',
+      'Meta-Analyse 2026: starker Schutz der Wirbel, deutlicher Dichtezuwachs, keine Zunahme schwerer Nebenwirkungen; Schutz außerhalb der Wirbelsäule mit mäßiger Sicherheit.'
+    ],
+    risks: [
+      'Brüche außerhalb der Wirbelsäule: US-Auswertung 2,7 gegenüber 4,7 Prozent (p = 0,049); in der EU-Auswertung ohne 2 wegen GCP-Mängeln ausgeschlossene Zentren 2,7 gegenüber 3,6 Prozent, nicht signifikant.',
+      'Puls nach der ersten Spritze im Mittel plus 7,9 gegenüber plus 1,2 Schlägen pro Minute; Herzklopfen 5 gegenüber 0,4 Prozent, Schwindel 10 gegenüber 6 Prozent. Die EMA lehnte 2018 auch wegen der Herzwirkung zunächst ab; die EU-Fachinformation verlangt vor Beginn Blutdruck, Herzstatus und EKG.',
+      'Osteosarkome bei Ratten in einer 2-jährigen Studie, dosisabhängig bei 4- bis 28-facher Menschen-Exposition; Bedeutung für Menschen unbekannt, daher zeitliche Begrenzung (EU höchstens 18 Monate, USA nicht mehr als 2 Jahre im Leben).',
+      'Hyperkalzämie, vermehrtes Kalzium im Urin und Harnsäureanstieg; nicht bei vorbestehender Hyperkalzämie, schwerer Nierenschwäche, Knochentumoren oder früherer Skelettbestrahlung.',
+      'Rötungen an der Einstichstelle im ersten Monat 58 gegenüber 28 Prozent; Behandlungsabbruch wegen Nebenwirkungen 10 gegenüber 6 Prozent.',
+      'Keine Daten für Gesunde ohne Osteoporose oder für Anwendungen wie Verletzungsheilung; tägliche Spritze, verschreibungspflichtig.'
+    ],
+    status: 'USA: seit 2017 als Tymlos zugelassen (Frauen nach den Wechseljahren mit hohem Bruchrisiko, inzwischen auch Knochendichte bei Männern mit Osteoporose). EU/DE: erster Antrag 2018 abgelehnt, seit 12.12.2022 als Eladynos zugelassen, nur für Frauen nach den Wechseljahren mit erhöhtem Bruchrisiko; verschreibungspflichtig, unter zusätzlicher Überwachung. Laut Fachinformation 80 Mikrogramm einmal täglich unter die Haut, Gesamtdauer in der EU höchstens 18 Monate (Fachinfo-Angabe, keine Anwendungsempfehlung). In der deutschen Übersetzung der WADA-Liste 2026 nicht namentlich aufgeführt.',
+    sources: [
+      { title: 'Miller et al. 2016, JAMA – ACTIVE: weniger neue Wirbelbrüche unter Abaloparatid, 2463 Frauen, 18 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/27533157/' },
+      { title: 'Bone et al. 2018, J Clin Endocrinol Metab – ACTIVExtend: 43 Monate mit anschließendem Alendronat', url: 'https://pubmed.ncbi.nlm.nih.gov/29800372/' },
+      { title: 'Czerwinski et al. 2022, J Bone Miner Res – ATOM: Knochendichte bei 228 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/36190391/' },
+      { title: 'Matsumoto et al. 2022, J Clin Endocrinol Metab – ACTIVE-J: Knochendichte in Japan über 78 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/35977548/' },
+      { title: 'Cosman et al. 2020, J Clin Endocrinol Metab – Herz-Kreislauf-Sicherheit in ACTIVE', url: 'https://pubmed.ncbi.nlm.nih.gov/32658264/' },
+      { title: 'Hattersley et al. 2016, Endocrinology – bevorzugte Bindung an die RG-Form des PTH1-Rezeptors', url: 'https://pubmed.ncbi.nlm.nih.gov/26562265/' },
+      { title: 'Bonifacio et al. 2026, J Clin Med – Meta-Analyse zu Wirksamkeit und Sicherheit', url: 'https://pubmed.ncbi.nlm.nih.gov/41598611/' },
+      { title: 'EMA – Eladynos, Fachinformation (deutsch)', url: 'https://www.ema.europa.eu/de/documents/product-information/eladynos-epar-product-information_de.pdf' },
+      { title: 'EMA 2018 – Ablehnung des ersten Zulassungsantrags (GCP-Mängel, Herzwirkung, Brüche außerhalb der Wirbelsäule)', url: 'https://www.ema.europa.eu/en/documents/smop-initial/questions-and-answers-refusal-marketing-authorisation-eladynos-abaloparatide_en.pdf' },
+      { title: 'DailyMed – Tymlos, US-Fachinformation', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'ace-031',
+    name: 'ACE-031 (Ramatercept)',
+    altNames: 'Ramatercept, ACVR2B-Fc, löslicher Activin-Rezeptor IIB, Köderrezeptor',
+    class: 'Löslicher Köderrezeptor: Fusionsprotein aus Activin-Rezeptor IIB und IgG1-Fc, nicht zugelassen',
+    emoji: '🧬',
+    short: 'Fängt Myostatin und verwandte Faktoren ab, bevor sie den Rezeptor erreichen – der Massenaufbau ist am Menschen in zwei kontrollierten Studien belegt. Die Kraft folgte nicht, und die Duchenne-Studie wurde wegen Nasenbluten und erweiterter Hautgefäße abgebrochen.',
+    moa: 'ACE-031 ist ein dimeres Fusionsprotein aus einem Fragment des menschlichen Activin-Rezeptors Typ IIB (ACVR2B) und dem Fc-Teil von menschlichem IgG1; der Fc-Anteil erklärt die Halbwertszeit von 10 bis 15 Tagen. Myostatin (GDF-8) bremst über diesen Rezeptor das Muskelwachstum. ACE-031 greift nicht an der Zelle an, sondern davor: Als löslicher Nachbau des Rezeptors bindet es Myostatin und weitere Liganden derselben Familie, darunter Activin A, und hält sie vom eigentlichen Rezeptor fern – deshalb wirkt es breiter als eine reine Myostatin-Blockade und erhöht im Tier die Querschnittsfläche beider Fasertypen (Cadena et al. 2010). Dieselbe Breite ist sein Problem: Die Gefäßnebenwirkungen werden auf die Mitblockade von BMP9 und BMP10 zurückgeführt, zwei Liganden, die Gefäßstabilität und Endothelfunktion steuern (Suh & Lee 2020; Cadena et al. 2026). Abgrenzung im Bestand: Follistatin ist ein körpereigenes myostatinbindendes Protein, Bimagrumab ein Antikörper gegen den Rezeptor, ACE-031 ein Köderrezeptor – die WADA führt die drei Prinzipien in S4.3 getrennt auf.',
+    benefits: [
+      'Phase 1: Bei 48 gesunden Frauen nach der Menopause stieg nach einer Einzeldosis von 3 mg/kg subkutan die fettfreie Gesamtmasse an Tag 29 um 3,3 Prozent (P = 0,03, DXA) und das Oberschenkelmuskelvolumen um 5,1 Prozent (P = 0,03, MRT) (Attie et al. 2013, Mensch).',
+      'Phase 2 bei Duchenne-Muskeldystrophie: fettfreie Masse plus 3,6 Prozent (P = 0,023) und plus 4,1 Prozent (P = 0,012) gegen plus 2,6 Prozent unter Placebo (P = 0,435), 24 Teilnehmer, 12 Wochen (NCT01099761, Mensch).',
+      'Knochendichte der Lendenwirbelsäule im höheren Dosisschema plus 4,4 Prozent (P = 0,039) gegen plus 0,3 Prozent unter Placebo (NCT01099761, Mensch).',
+      'Maus: Körpergewicht nach 28 Tagen 16 Prozent über der Kontrolle, Muskelfeuchtgewichte plus 33 Prozent (Soleus), 44 Prozent (Plantaris), 46 Prozent (Gastrocnemius), 26 Prozent (EDL); Faserquerschnitt plus 22 und 28 Prozent im Soleus, plus 57 Prozent im Plantaris (Cadena et al. 2010).',
+      'Weißbüschelaffe: 14 Wochen ACE-031, fettfreie Masse am Ende über dem Ausgangswert (in der Kontrollgruppe nicht), größerer Faserquerschnitt in Typ-I- und Typ-II-Fasern, mehr absolute und spezifische Kraft am isolierten Muskel (Cadena et al. 2026).',
+      'Lange Wirkdauer: Halbwertszeit 10 bis 15 Tage, Gabe in den Studien subkutan alle 2 bis 4 Wochen (Attie et al. 2013; NCT01099761).'
+    ],
+    risks: [
+      'Dosislimitierend sind Gefäßnebenwirkungen: Im höheren Dosisschema der Duchenne-Studie Epistaxis bei 5 von 9 und Teleangiektasien bei 5 von 9 Jungen, unter Placebo bei 0 von 6; Abbruch nach dem zweiten Dosierungsschema, ebenso der Verlängerungsstudie mit 11 Teilnehmern.',
+      'Mehr Masse war nicht mehr Kraft: Handmyometrie in allen Gruppen praktisch unverändert (Kniestreckung minus 3,6 und minus 3,3 Prozent gegen minus 3,7 Prozent unter Placebo), 6-Minuten-Gehtest ohne statistische Signifikanz.',
+      'Häufig außerdem Erythem an der Einstichstelle (6 von 9 im höheren Schema, 3 von 6 unter Placebo) und Kopfschmerzen (3 von 9).',
+      'Die Entwicklung wurde im Februar 2011 ausgesetzt und am 02.05.2013 endgültig beendet; seither keine neuen Humandaten. Die Humanbasis bleibt bei 48 Frauen (Einzeldosis), 70 Frauen (unveröffentlichte Mehrfachdosis-Studie) und 24 Jungen über 12 Wochen.',
+      'Graumarktware ist nicht der Studienstoff: Von 14 geprüften Schwarzmarktprodukten enthielten nur 12 ein ACVR2B-reaktives Protein, und diese 12 enthielten den vollständigen Activin-Rezeptor IIB ohne Fc-Anteil statt ACE-031, neben der Hauptkomponente von etwa 58,4 kDa viele weitere Proteine (Reichel et al. 2025).',
+      'Als injiziertes Fusionsprotein potenziell immunogen, Halbwertszeit 10 bis 15 Tage – eine unerwünschte Wirkung lässt sich nicht schnell beenden; Wechselwirkungen nie untersucht; im Sport jederzeit verboten (WADA 2026, S4.3).'
+    ],
+    status: 'Kein zugelassenes Arzneimittel in DE, EU oder USA; klinische Entwicklung 2011 ausgesetzt, am 02.05.2013 von Acceleron und Shire endgültig beendet, beide Duchenne-Studien im Register als abgebrochen geführt (NCT01099761, NCT01239758). Zugelassen ist ein verwandter Stoff derselben Bauart für eine andere Indikation: Luspatercept (Reblozyl), Fusionsprotein aus modifizierter extrazellulärer ActRIIB-Domäne und IgG1-Fc, EU-Zulassung 25.06.2020 gegen Anämie bei myelodysplastischen Syndromen und Beta-Thalassämie. Dopingliste: WADA-Verbotsliste 2026, Abschnitt S4.3 „Agents preventing activin receptor IIB activation“, dort ausdrücklich „Decoy activin receptors (e.g. ACE-031)“; S4.3 ist nicht-spezifiziert und jederzeit verboten. In der Anlage zu § 2 Absatz 3 AntiDopG ist ACE-031 nicht namentlich genannt – dort stehen unter „3. Myostatinfunktionen verändernde Stoffe“ nur Follistatin und seine Derivate sowie Stamulumab; die Verbote des § 2 Absatz 1 AntiDopG knüpfen dagegen an die internationale Verbotsliste an. Nachweisverfahren für die Dopingkontrolle liegen vor (Gelelektrophorese und Western Blot für Schwarzmarktprodukte, LC-HRMS/MS im Humanbereich).',
+    sources: [
+      { title: 'Attie et al., Muscle Nerve 2013 – Phase 1, 48 gesunde Frauen, fettfreie Masse plus 3,3 Prozent', url: 'https://pubmed.ncbi.nlm.nih.gov/23169607/' },
+      { title: 'Campbell et al., Muscle Nerve 2017 – Phase 2 bei Duchenne, Abbruch wegen Epistaxis und Teleangiektasien', url: 'https://pubmed.ncbi.nlm.nih.gov/27462804/' },
+      { title: 'ClinicalTrials.gov NCT01099761 – Ergebnisdaten und Nebenwirkungstabellen der Duchenne-Studie', url: 'https://clinicaltrials.gov/study/NCT01099761' },
+      { title: 'ClinicalTrials.gov NCT01239758 – Verlängerungsstudie, 11 Teilnehmer, abgebrochen', url: 'https://clinicaltrials.gov/study/NCT01239758' },
+      { title: 'Cadena et al., J Appl Physiol 2010 – ACE-031 im Mausmodell, Muskelmasse unabhängig vom Fasertyp', url: 'https://pubmed.ncbi.nlm.nih.gov/20466801/' },
+      { title: 'Cadena et al., PLoS One 2026 – ACE-031 beim Weißbüschelaffen, 14 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/41686840/' },
+      { title: 'Suh & Lee, J Bone Metab 2020 – Übersicht Myostatin-Hemmer, Gefäßnebenwirkungen über BMP9 und BMP10', url: 'https://pubmed.ncbi.nlm.nih.gov/32911580/' },
+      { title: 'Reichel et al., Drug Test Anal 2025 – 14 als ACE-031 gehandelte Schwarzmarktprodukte im Labor', url: 'https://pubmed.ncbi.nlm.nih.gov/40312924/' },
+      { title: 'Sakellariou et al., Sci Rep 2025 – LC-HRMS/MS-Nachweis von Hemmstoffen der Activin-Rezeptor-Signalwege', url: 'https://pubmed.ncbi.nlm.nih.gov/40481031/' },
+      { title: 'EMA – Reblozyl (Luspatercept), EU-Zulassung 25.06.2020', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/reblozyl' },
+      { title: 'Fierce Biotech, 02.05.2013 – Acceleron und Shire beenden die Zusammenarbeit zu ACE-031', url: 'https://www.fiercebiotech.com/biotech/acceleron-and-shire-conclude-collaboration-on-ace-031' },
+      { title: 'WADA – Prohibited List 2026, S4.3 Köderrezeptoren (Beispiel ACE-031)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'andarin',
+    name: 'Andarin (S-4)',
+    altNames: 'Andarine, S-4, S4, GTx-007, GTX-007, Acetamidoxolutamide',
+    class: 'Selektiver Androgenrezeptor-Modulator (SARM), nicht zugelassen',
+    emoji: '💪',
+    short: 'Einer der ersten SARMs: aktiviert im Tier stark den Muskel und schont die Prostata, senkt zugleich die eigene Hormonachse. Am Menschen ist nur die grundsaetzliche Vertraeglichkeit aus Phase-I-Studien bekannt, eine Wirksamkeitsstudie gibt es nicht - der Hersteller gab Andarin zugunsten des Nachfolgers Ostarin auf.',
+    moa: 'Andarin bindet und aktiviert den Androgenrezeptor gewebe-selektiv. In kastrierten Ratten wirkte es als voller anaboler Agonist in Muskel und Knochen, aber nur als schwacher partieller Agonist an Prostata und Samenblase - genau das Profil, das SARMs verspricht. Wie das koerpereigene Testosteron meldet es der Hirnanhangdruese, dass genug Androgen da ist, weshalb es LH und FSH dosisabhaengig senkt. Beim Menschen ist die Rezeptorwirkung von Andarin nicht in einer Publikation quantifiziert; bekannt ist aus Firmenangaben nur ein erster Hinweis auf eine Wachstumsaktivitaet in einer Mehrfachdosis-Studie. Chemisch traegt Andarin eine Nitrogruppe, die als moeglicher Ausgangspunkt fuer Lebertoxizitaet diskutiert wird.',
+    benefits: [
+      'Tissue-selektiver anaboler Effekt im Tier: S-4 (3 und 10 mg/kg, 8 Wochen) stellte in kastrierten Ratten Muskelmasse und -kraft auf intaktes Niveau wieder her, wirkte an der Prostata nur schwach (16 bis 17 Prozent der Kontrolle) im Vergleich zu DHT (Gao et al., Endocrinology 2005).',
+      'Anabole Aktivitaet aehnlich Testosteronpropionat bei geringer androgener Wirkung, ohne signifikante LH-/FSH-Suppression nahe der halbmaximalen Dosis (Yin et al., J Pharmacol Exp Ther 2003, Ratte).',
+      'Knochenschutz im Tier: Bei ovariektomierten Ratten (120 Tage) erhielt S-4 die Knochendichte, erhoehte die Knochenfestigkeit und senkte den Koerperfettanteil (Kearbey et al., Pharm Res 2007).',
+      'Oral wirksam; in Ratten rasche vollstaendige Aufnahme, Halbwertszeit 2,6 bis 5,3 Stunden (Yin et al. 2003).',
+      'Am Menschen in Phase I grundsaetzlich vertraeglich: 86 gesunde Freiwillige in drei Studien, keine schweren Nebenwirkungen, einmal taegliche orale Gabe (GTx SEC-Filing 2003).',
+      'Das SARM-Prinzip wird medizinisch weiter erforscht (Muskelschwund, Knochen), Andarin selbst wurde jedoch zugunsten von Ostarin aufgegeben (GTx 2006).'
+    ],
+    risks: [
+      'Unterdrueckt im Tier die eigene Hormonachse (LH/FSH dosisabhaengig gesenkt); Uebertragung auf den Menschen ueber die Rezeptorwirkung plausibel, aber nicht publiziert (Gao et al. 2005).',
+      'SARM-Klasse: mehrere Fallberichte arzneimittelbedingter Leberschaeden, ein beidseitiger Achillessehnenriss, eine Rhabdomyolyse; in Studien im Mittel 7,1 Prozent erhoehte ALT-Werte (Vignali et al. 2023; Gould et al. 2021).',
+      'Fallbericht zu Andarin in Kombination: Diabetes-Erstmanifestation unter RAD-140, Andarin und Ibutamoren mit verschwommenem Sehen und Hyperglykaemie - Andarin dabei nicht isoliert (Sotornik et al. 2022).',
+      'Keine veroeffentlichte Wirksamkeitsstudie am Menschen; keine Langzeitdaten; die Phase-I-Vertraeglichkeit ist nur ueber Firmenmitteilungen bekannt.',
+      'Graumarkt-Qualitaet unzuverlaessig: in einer JAMA-Analyse enthielten nur 52 Prozent der SARM-Produkte ueberhaupt einen SARM, nur 41 Prozent die deklarierte Menge (Van Wagoner et al. 2017); Andarin wurde in als Tee-Extrakt getarnten Produkten gefunden (Thevis et al. 2009).',
+      'Im Sport jederzeit verboten (WADA S1.2); in Deutschland namentlich im Anti-Doping-Gesetz, Erwerb und Besitz in nicht geringer Menge zum Dopingzweck strafbar; fuer Frauen und in der Schwangerschaft besonders ungeeignet.'
+    ],
+    status: 'Kein zugelassenes Arzneimittel und kein Nahrungsergaenzungsmittel in DE/EU/USA; nie ueber Phase I hinaus entwickelt, vom Hersteller zugunsten von Ostarin aufgegeben. Dopingliste: WADA 2026, S1.2 (Andere anabole Wirkstoffe), SARMs, ausdruecklich andarine, jederzeit verboten. Deutschland: namentlich in der Anlage zum Anti-Doping-Gesetz (Andere anabole Stoffe, SARMs: Andarin (S-4)) - damit Erwerb, Besitz und Verbringen in nicht geringer Menge zum Dopingzweck sowie Handel strafbar. FDA: SARMs sind keine Nahrungsergaenzung, sondern nicht zugelassene Arzneimittel.',
+    sources: [
+      { title: 'Gao et al., Endocrinology 2005 - S-4 verbessert Muskelkraft und Knochen, schont Prostata (Ratte)', url: 'https://pubmed.ncbi.nlm.nih.gov/16099859/' },
+      { title: 'Yin et al., J Pharmacol Exp Ther 2003 - Pharmakodynamik der SARMs, S-4 tissue-selektiv', url: 'https://pubmed.ncbi.nlm.nih.gov/12604714/' },
+      { title: 'Kearbey et al., Pharm Res 2007 - S-4 erhaelt Knochendichte, senkt Koerperfett (Ratte)', url: 'https://pubmed.ncbi.nlm.nih.gov/17063395/' },
+      { title: 'Narayanan et al., Nucl Recept Signal 2008 - SARMs in praeklinischer und klinischer Entwicklung', url: 'https://pubmed.ncbi.nlm.nih.gov/19079612/' },
+      { title: 'GTx, Inc. SEC-Form S-1 2003 - drei Phase-I-Studien, 86 Freiwillige, keine schweren Nebenwirkungen', url: 'https://www.sec.gov/Archives/edgar/data/1260990/000095012303011376/g85196sv1.htm' },
+      { title: 'Thevis et al., Drug Test Anal 2009 - S-4 (Andarine) in einem Schwarzmarktprodukt', url: 'https://pubmed.ncbi.nlm.nih.gov/20355219/' },
+      { title: 'Van Wagoner et al., JAMA 2017 - Analyse von SARM-Produkten aus dem Internet', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' },
+      { title: 'Vignali et al., J Xenobiot 2023 - systematische Uebersicht zur Sicherheit von SARMs', url: 'https://pubmed.ncbi.nlm.nih.gov/37218811/' },
+      { title: 'Sotornik et al., Clin Diabetes 2022 - Diabetes-Fall unter SARM/GHS-Kombination', url: 'https://pubmed.ncbi.nlm.nih.gov/35983415/' },
+      { title: 'WADA - Prohibited List 2026, S1.2 SARMs (andarine)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Andarin“)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'cardarine',
+    name: 'Cardarine (GW501516)',
+    altNames: 'GW501516, GW1516, Endurobol, Cardarin, GSK-516',
+    class: 'PPARdelta-Agonist (Peroxisome Proliferator-Activated Receptor delta), kein SARM, nicht zugelassen',
+    emoji: '🏃',
+    short: 'Das beruehmteste "Ausdauer-in-Pillenform": Der PPARdelta-Agonist kurbelt in Muskelzellen die Fettverbrennung an und liess Maeuse deutlich weiter laufen. Am Menschen ist bisher nur belegt, dass er das Blutfettprofil verbessert; zu Ausdauer oder Fettabbau gibt es keine Humandaten, und der Hersteller stoppte die Entwicklung 2006 wegen Krebs in Langzeit-Tierstudien.',
+    moa: 'GW501516 aktiviert den Kernrezeptor PPARdelta, der in Muskel-, Fett- und Leberzellen Gene fuer den Fettsaeurestoffwechsel steuert. Folge in Zell- und Tierversuchen: Die Muskulatur verbrennt mehr Fettsaeuren, spart Glukose und verschiebt das Blutfettprofil in Richtung mehr HDL und weniger Triglyceride. Am Menschen ist diese Wirkkette ueber die Induktion des Fettsaeuretransporters CPT1b im Muskelbiopsat und gemessene Fettverbrennung bestaetigt (Riserus et al. 2008). Der oft erzaehlte Ausdauereffekt ist an Bedingungen geknuepft: Im Ausgangsexperiment steigerte GW1516 allein in sitzenden Maeusen die Laufleistung nicht, sondern erst zusammen mit Training; eine spaetere Arbeit fuehrt den Ausdauergewinn auf ein Glukose-Sparen zurueck, das den Blutzucker laenger haelt (Narkar et al. 2008; Fan et al. 2017).',
+    benefits: [
+      'Blutfettprofil beim Menschen verbessert: In der groessten Studie (268 Patienten, 12 Wochen) stieg HDL-Cholesterin um bis zu 16,9 Prozent, LDL sank um 7,3 Prozent, Triglyceride um 16,9 Prozent, apoB um 14,9 Prozent (Olson et al., ATVB 2012).',
+      'Bei 6 uebergewichtigen Maennern (10 mg, 2 Wochen) fielen Triglyceride um 30 Prozent, Leberfett um 20 Prozent und ein Marker fuer oxidativen Stress um 30 Prozent (Riserus et al., Diabetes 2008, Mensch, Surrogatmarker).',
+      'Zielstruktur PPARdelta am Menschen bestaetigt: Muskel-Fettverbrennung und CPT1b-Induktion messbar (Riserus et al. 2008).',
+      'Ausdauer im Tier: GW1516 (5 mg/kg oral, 4 Wochen) plus Training steigerte bei Maeusen Laufzeit um 68 und Strecke um 70 Prozent gegenueber trainierten Kontrolltieren (Narkar et al., Cell 2008); ohne Training kein Effekt.',
+      'Bei sitzenden Maeusen verlaengerte GW501516 (40 mg/kg im Futter, 8 Wochen) die Laufzeit um rund 100 Minuten durch Glukose-Sparen (Fan et al., Cell Metab 2017, Maus).',
+      'Bei insulinresistenten Rhesusaffen stieg das HDL-Cholesterin dosisabhaengig, kleine dichte LDL und Nuechtern-Insulin sanken (Oliver et al., PNAS 2001, Primat).'
+    ],
+    risks: [
+      'Krebssignal: GSK stoppte 2006 die klinische Entwicklung, nachdem in langfristigen Tierstudien Toxizitaeten einschliesslich verschiedener Krebsarten auftraten (GSK/Health Canada 2013).',
+      'Ein PPARdelta-Agonist beschleunigte im Apc-min-Mausmodell das Wachstum von Darmpolypen, fuenffach mehr Polypen groesser als 2 mm (Gupta et al., Nat Med 2004); die Datenlage zu PPARdelta und Darmkrebs ist allerdings uneinheitlich.',
+      'Publizierter Vergiftungsfall bei Kombination mit Ostarin: Leberzellschaden (AST bis 2558 U/l) und schwere Rhabdomyolyse (Kreatinkinase bis 86435 U/l), Erholung nach 6 Wochen (Kintz et al. 2021).',
+      'Keine Humandaten zu Ausdauer, Fettabbau oder Koerperzusammensetzung; keine harten Herz-Kreislauf-Endpunkte; keine Langzeitdaten am Menschen.',
+      'Graumarkt-Qualitaet unzuverlaessig: In einer JAMA-Analyse von SARM-Produkten war GW501516 eine nicht deklarierte Beimischung; nur 52 Prozent der Produkte enthielten ueberhaupt den deklarierten Wirkstoff (Van Wagoner et al. 2017).',
+      'Seit Jahren im Sport verboten (WADA S4.4.1, jederzeit); in Deutschland namentlich im Anti-Doping-Gesetz, Erwerb und Besitz in nicht geringer Menge zum Dopingzweck strafbar.'
+    ],
+    status: 'Kein zugelassenes Arzneimittel und kein Nahrungsergaenzungsmittel in DE/EU/USA; nirgends fuer den Menschen freigegeben, klinische Entwicklung 2006 gestoppt. Dopingliste: WADA 2026, S4.4.1 PPARdelta-Agonisten, ausdruecklich GW1516/GW501516, jederzeit verboten. Deutschland: namentlich in der Anlage zum Anti-Doping-Gesetz (Stoffwechsel-Modulatoren, PPARdelta-Agonisten: GW501516, GW1516, Cardarin, Endurobol) - damit Erwerb, Besitz und Verbringen in nicht geringer Menge zum Dopingzweck sowie Handel strafbar. FDA: SARMs und verwandte Wirkstoffe sind keine Nahrungsergaenzung, sondern nicht zugelassene Arzneimittel.',
+    sources: [
+      { title: 'Narkar et al., Cell 2008 - AMPK- und PPARdelta-Agonisten als Trainings-Mimetika (GW1516 plus Training +68/70 Prozent)', url: 'https://pubmed.ncbi.nlm.nih.gov/18674809/' },
+      { title: 'Fan et al., Cell Metab 2017 - PPARdelta steigert Ausdauer durch Glukose-Sparen (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/28467934/' },
+      { title: 'Oliver et al., PNAS 2001 - GW501516 erhoeht HDL bei Rhesusaffen', url: 'https://pubmed.ncbi.nlm.nih.gov/11309497/' },
+      { title: 'Sprecher et al., ATVB 2007 - erste Gabe am Menschen, HDL/Triglyceride', url: 'https://pubmed.ncbi.nlm.nih.gov/17110604/' },
+      { title: 'Riserus et al., Diabetes 2008 - GW501516 bei uebergewichtigen Maennern, Leberfett und Blutfette', url: 'https://pubmed.ncbi.nlm.nih.gov/18024853/' },
+      { title: 'Ooi et al., J Clin Endocrinol Metab 2011 - Lipoproteinstoffwechsel bei Dyslipidaemie', url: 'https://pubmed.ncbi.nlm.nih.gov/21816786/' },
+      { title: 'Olson et al., ATVB 2012 - groesste Humanstudie, n=268, 12 Wochen, Blutfettprofil', url: 'https://pubmed.ncbi.nlm.nih.gov/22814748/' },
+      { title: 'Gupta et al., Nat Med 2004 - PPARdelta-Agonist beschleunigt Darmadenom-Wachstum', url: 'https://pubmed.ncbi.nlm.nih.gov/14758356/' },
+      { title: 'Kintz et al., Toxics 2021 - Vergiftungsfall Cardarine plus Ostarin, Rhabdomyolyse', url: 'https://pubmed.ncbi.nlm.nih.gov/34678947/' },
+      { title: 'GSK/Health Canada 2013 - Entwicklung 2006 wegen Krebs in Tierstudien gestoppt', url: 'https://recalls-rappels.canada.ca/en/alert-recall/gw501516-serious-risks-associated-use-unauthorized-product-public' },
+      { title: 'WADA - Alert zu GW501516 (2013)', url: 'https://www.wada-ama.org/en/news/wada-issues-alert-gw501516' },
+      { title: 'WADA - Prohibited List 2026, S4.4.1 PPARdelta-Agonisten (GW1516, GW501516)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Cardarine“)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'dhea',
+    name: 'DHEA (Dehydroepiandrosteron)',
+    altNames: 'Prasteron, Dehydroepiandrosteron, DHEA-S (Sulfatform im Blut), Intrarosa (vaginales Arzneimittel)',
+    class: 'Steroid-Hormonvorstufe der Nebenniere, Prohormon für Androgene und Östrogene',
+    emoji: '⏳',
+    short: 'Die Hormonvorstufe, deren Spiegel mit dem Alter sinkt: Als Tablette hebt sie bei Frauen nach der Menopause Testosteron und Estradiol messbar an, als Vaginalzäpfchen ist sie in EU und USA zugelassen. Kleine Vorteile für Knochen, Sexualfunktion und Stimmung sind in Meta-Analysen belegt; den Anti-Aging-Nutzen hat eine zweijährige NEJM-Studie nicht bestätigt.',
+    moa: 'DHEA wird vor allem in den Nebennieren gebildet und ist selbst kaum hormonell aktiv. Periphere Gewebe wandeln es bei Bedarf in Testosteron und Östrogene um (Intrakrinologie); nach der Menopause entstehen fast alle Androgene und die gesamten Östrogene einer Frau auf diesem Weg (Zhu et al. 2021). Eine Meta-Analyse über 21 Studien fand bei postmenopausalen Frauen unter DHEA einen Anstieg des Testosterons um 24,31 ng/dl und des Estradiols um 7,86 pg/ml. Vaginal angewendet wirkt Prasteron lokal an der Schleimhaut, während die Serumhormone im postmenopausalen Normbereich bleiben (Labrie et al. 2016). Die Wirkkette zu Hormonspiegeln ist am Menschen belegt, der Weg zu harten Endpunkten wie Knochenbrüchen oder Lebenserwartung nicht.',
+    benefits: [
+      'Vaginales Prasteron 6,5 mg täglich über 12 Wochen: Schmerzen beim Sex 0,36 Punkte besser als Placebo, pH -0,66 (Phase III, 325 Verum vs. 157 Placebo, Labrie et al. 2016) – in EU (2018) und USA (2016) zugelassen',
+      'Knochendichte bei älteren Frauen: Lendenwirbelsäule +1,0 %, Trochanter +0,5 % nach 12 Monaten; bei Männern kein Nutzen (gepoolte Analyse von 4 RCTs, 295 Frauen, 290 Männer, Jankowski et al. 2019)',
+      'Sexualfunktion in den Wechseljahren leicht besser, SMD 0,31 (Cochrane 2015, 5 Studien, 261 Frauen) – eine andere Meta-Analyse mit 23 RCTs knapp nicht signifikant',
+      'Nebenniereninsuffizienz bei Frauen: kleine Verbesserung der Lebensqualität, Effektstärke 0,21 (Meta-Analyse, 10 RCTs, Alkatib et al. 2009)',
+      'Depressive Symptome: SMD -0,28 gegenüber Placebo (Meta-Analyse, 15 Studien, 853 Personen, Peixoto et al. 2020) – Evidenzqualität sehr niedrig'
+    ],
+    risks: [
+      'Androgene Nebenwirkungen, vor allem Akne (OR 3,77, Cochrane 2015); außerdem Gesichtsbehaarung, Haarausfall, tiefere Stimme, steigender Blutdruck möglich',
+      'HDL-Cholesterin sank unter 50 mg pro Tag über 12 Monate (RCT, 58 Frauen und 61 Männer, Jankowski et al. 2011)',
+      'Umwandlung in Östrogene und Testosteron: gilt bei hormonabhängigen Krebsarten (Brust, Eierstock, Prostata) als riskant; Krebsrisiko nicht in Studien untersucht',
+      'Kein Anti-Aging-Nutzen: keine Wirkung auf Körperzusammensetzung, Kraft, Insulinwirkung oder Lebensqualität über 2 Jahre (RCT, 87 Männer, 57 Frauen, Nair et al., NEJM 2006)',
+      'Keine Langzeitdaten zur Tablette über 2 Jahre hinaus; Leitlinie der Endocrine Society (2014) rät vom routinemäßigen Einsatz bei Frauen ab',
+      'Im Sport jederzeit verboten (WADA 2026, S1.1)'
+    ],
+    status: 'Deutschland: verschreibungspflichtig (AMVV Anlage 1, Prasteron und seine Ester); namentlich in der Anlage zum Anti-Doping-Gesetz. EU: Prasteron 6,5 mg Vaginalzäpfchen (Intrarosa) seit 08.01.2018 zugelassen gegen mittelschwere bis schwere Beschwerden der vulvovaginalen Atrophie nach der Menopause. USA: vom Controlled Substances Act ausgenommen und als Nahrungsergänzung erlaubt; Intrarosa seit 17.11.2016 zugelassen. Doping: WADA-Liste 2026, S1.1 anabole androgene Steroide, jederzeit verboten, ebenso 7-Keto-DHEA.',
+    sources: [
+      { title: 'Nair et al. 2006, N Engl J Med – 2 Jahre DHEA bei Älteren: kein Effekt auf Körperzusammensetzung, Kraft, Insulinwirkung, Lebensqualität', url: 'https://pubmed.ncbi.nlm.nih.gov/17050889/' },
+      { title: 'Scheffers et al. 2015, Cochrane Database Syst Rev – Wechseljahre: Sexualfunktion leicht besser, Lebensqualität nicht, mehr Akne', url: 'https://pubmed.ncbi.nlm.nih.gov/25879093/' },
+      { title: 'Elraiyah et al. 2014, J Clin Endocrinol Metab – 23 RCTs: Libido knapp nicht signifikant, keine Stoffwechseleffekte', url: 'https://pubmed.ncbi.nlm.nih.gov/25279571/' },
+      { title: 'Alkatib et al. 2009, J Clin Endocrinol Metab – Nebenniereninsuffizienz: kleiner Lebensqualitätseffekt', url: 'https://pubmed.ncbi.nlm.nih.gov/19773400/' },
+      { title: 'Jankowski et al. 2019, Clin Endocrinol – gepoolte Analyse von 4 RCTs: Knochendichte bei Frauen gestiegen', url: 'https://pubmed.ncbi.nlm.nih.gov/30421439/' },
+      { title: 'Labrie et al. 2016, Menopause – vaginales Prasteron, Phase III', url: 'https://pubmed.ncbi.nlm.nih.gov/26731686/' },
+      { title: 'He et al. 2025, Diabetol Metab Syndr – Testosteron und Estradiol unter DHEA bei postmenopausalen Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/40616152/' },
+      { title: 'Peixoto et al. 2020, J Neurosci Res – depressive Symptome, Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/32930419/' },
+      { title: 'Wierman et al. 2014, J Clin Endocrinol Metab – Leitlinie: kein routinemäßiger DHEA-Einsatz bei Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/25279570/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „DHEA")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'eloralintid',
+    name: 'Eloralintid',
+    altNames: 'Eloralintide, LY3841136 (Eli Lilly)',
+    class: 'Selektiver Amylin-1-Rezeptor-Agonist, Prüfpräparat in Phase 3',
+    emoji: '💉',
+    short: 'Eli Lillys Amylin-Kandidat, der gezielt den Amylin-1-Rezeptor anspricht statt das ganze Rezeptorfeld. In einer placebokontrollierten Phase-2-Studie mit 263 Teilnehmern über 48 Wochen bis zu 20 Prozent Gewichtsabnahme gegenüber 0,4 Prozent unter Placebo; fünf Phase-3-Studien laufen.',
+    moa: 'Amylin wird zusammen mit Insulin aus der Bauchspeicheldrüse ausgeschüttet, verlangsamt die Magenentleerung, bremst die Glukagon-Ausschüttung und beendet über den Hirnstamm die Mahlzeit – ein zweites Sättigungssystem neben GLP-1. Eloralintid ist ein stabilisiertes Amylin-Analogon aus 37 Aminosäuren mit drei nicht natürlichen Bausteinen an den Positionen 11, 15 und 22; die Schwefelbrücke des menschlichen Amylins ist durch eine chemisch stabilere Methylenthioacetal-Brücke ersetzt, und eine Fettdisäure mit 20 Kohlenstoffatomen an Position 26 bindet das Molekül an Albumin. Entscheidend ist die Rezeptorauswahl: Eloralintid aktiviert den menschlichen Amylin-1-Rezeptor 12-fach stärker als den Calcitonin-Rezeptor und 11-fach stärker als den Amylin-3-Rezeptor, während Cagrilintid alle diese Rezeptoren gleichermaßen trifft. Die Halbwertszeit liegt bei etwa 2 Wochen, eine Spritze pro Woche reicht.',
+    benefits: [
+      'Phase 2 über 48 Wochen, 263 Teilnehmer, 46 US-Zentren: 9 bis 20 Prozent Gewichtsabnahme gegenüber 0,4 Prozent unter Placebo, primärer Endpunkt in allen Wirkstoffgruppen erreicht (Billings 2025); Herstellerdarstellung 9,5 bis 20,1 Prozent, in Kilogramm 10,2 bis 21,3',
+      'Rezeptorselektivität am menschlichen Rezeptor bestätigt: 12-fach stärkere Aktivierung des Amylin-1-Rezeptors als des Calcitonin-Rezeptors (Briere 2025, Zellsysteme)',
+      'Phase 1b über 12 Wochen ohne jede Aufdosierung, 100 Teilnehmer: 2,6 bis 11,3 Prozent Gewichtsabnahme, dabei Durchfall bei 10, Übelkeit bei 8 und Erbrechen bei 4 Prozent (Bhattachar 2026)',
+      'Pulsfrequenz sinkt statt zu steigen: minus 14,4 Schläge pro Minute in Woche 12 unter der höchsten Dosis gegenüber minus 3,4 unter Placebo, ohne symptomatische Bradykardie – ein Gegensatz zum Herzfrequenz-Anstieg unter GLP-1-Wirkstoffen (Bhattachar 2026; Sigalov und Frishman 2026)',
+      'In der Netzwerk-Metaanalyse von 6 Studien mit 4642 Teilnehmern zweitstärkster Effekt aller Amylin-Therapien: minus 18,01 Prozent gegenüber Placebo, vor CagriSema und Semaglutid 2,4 mg – indirekter Vergleich, geringe Vertrauenswürdigkeit (Kamrul-Hasan 2026)',
+      'Gewichtsverlust im Tiermodell überwiegend aus Fettmasse (68 bis 85 Prozent des Gesamtverlusts) und weniger konditionierte Geschmacksabneigung als unter Cagrilintid (Briere 2025)'
+    ],
+    risks: [
+      'Verträglichkeit ist dosisabhängig: Übelkeit 11 bis 64 Prozent je Gruppe (Placebo 14 Prozent), Erschöpfung bis 46 Prozent (Placebo 12 Prozent); die höchsten Übelkeitsraten traten ohne Aufdosierung auf (Billings 2025)',
+      'Abbrüche wegen unerwünschter Ereignisse etwa 10 Prozent in der Phase 2, nach einer anderen Auswertung bis 21 Prozent in der 6-mg-Gruppe (Alhazmi 2026; Patil 2026)',
+      'Prüfpräparat, nirgends zugelassen; die längste veröffentlichte Behandlungsdauer beträgt 48 Wochen, Langzeitdaten fehlen',
+      'Keine kardiovaskuläre Endpunktstudie für irgendeinen Amylin-Rezeptor-Agonisten; ob die günstigen Werte für Puls, Blutdruck und Entzündungsmarker Herzinfarkte oder Schlaganfälle verhindern, ist offen (Sigalov und Frishman 2026)',
+      'Stimmungsbezogene Ereignisse bei 4 Teilnehmern der Phase-1b-Studie; alle drei betroffenen Teilnehmer der höchsten Dosisgruppe beendeten die Behandlung, die Ereignisse klangen in 2 bis 4 Tagen ab (Bhattachar 2026)',
+      'Keine Daten für Schwangerschaft, Stillzeit, Kinder und Jugendliche; Studien zu Nieren- und Leberfunktion laufen erst. Was außerhalb von Studien unter diesem Namen angeboten wird, ist nicht das geprüfte Molekül'
+    ],
+    status: 'Prüfpräparat von Eli Lilly, in DE/EU/USA nicht zugelassen und außerhalb klinischer Studien nicht erhältlich. Das Phase-3-Programm ENLIGHTEN läuft: ENLIGHTEN-2 bei Typ-2-Diabetes seit 15.12.2025, ENLIGHTEN-1 bei Adipositas mit 1980 geplanten Teilnehmern seit 06.02.2026, dazu ENLIGHTEN-3 bei obstruktiver Schlafapnoe, ENLIGHTEN-4 bei Knie-Arthrose-Schmerzen und ENLIGHTEN-6 bei anhaltender Adipositas unter wöchentlicher Inkretin-Therapie (ClinicalTrials.gov, Abfrage 27.09.2026). Kombinationen mit Tirzepatid und mit Macupatid werden in Phase 1 und 2 geprüft. Keine Dosierungsangaben; genannte Milligramm-Mengen sind Studiendosen.',
+    sources: [
+      { title: 'Billings LK et al., Lancet 2025 – Phase 2 über 48 Wochen, 263 Teilnehmer, 9 bis 20 Prozent Gewichtsabnahme', url: 'https://pubmed.ncbi.nlm.nih.gov/41207310/' },
+      { title: 'Bhattachar S et al., Diabetes Obes Metab 2026 – Phase 1b über 12 Wochen, Pulsfrequenz, Verträglichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/41559929/' },
+      { title: 'Briere DA et al., Mol Metab 2025 – Molekül, Rezeptorselektivität, Tierdaten, erste Gabe am Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/41109426/' },
+      { title: 'Kamrul-Hasan ABM et al., Endocrinol Diabetes Metab 2026 – Netzwerk-Metaanalyse der Amylin-Therapien', url: 'https://pubmed.ncbi.nlm.nih.gov/42175595/' },
+      { title: 'Alhazmi A, le Roux CW, Diabetes Obes Metab 2026 – Übersicht: Abbruchraten, keine Pankreatitis oder Todesfälle in Phase 2', url: 'https://pubmed.ncbi.nlm.nih.gov/42452898/' },
+      { title: 'Patil M et al., Biosci Rep 2026 – Übersicht mit Abbruchraten und Gewichtsangaben in Kilogramm', url: 'https://pubmed.ncbi.nlm.nih.gov/42307179/' },
+      { title: 'Sigalov A, Frishman WH, Cardiol Rev 2026 – kardiometabolisches Profil, fehlende Endpunktstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/42745233/' },
+      { title: 'ClinicalTrials.gov – ENLIGHTEN-1 (NCT07321886), Phase 3 bei Adipositas', url: 'https://clinicaltrials.gov/study/NCT07321886' },
+      { title: 'Eli Lilly – Unternehmensmitteilung zur Phase-2-Studie, 06.11.2025', url: 'https://www.prnewswire.com/news-releases/lillys-selective-amylin-agonist-eloralintide-demonstrated-meaningful-weight-loss-and-favorable-tolerability-in-a-phase-2-study-of-adults-with-obesity-or-overweight-302607061.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'hgh-fragment-176-191',
+    name: 'HGH-Fragment 176-191',
+    altNames: 'hGH 176-191, HGH Frag 176-191, Fragment 176-191, GH-Fragment; verwandt: AOD9401 (hGH 177-191), AOD-9604 (Tyr-hGH 177-191)',
+    class: 'C-terminales Wachstumshormon-Fragment (lipolytische Domäne), nicht zugelassen',
+    emoji: '🧩',
+    short: 'Das Endstück des Wachstumshormons: Im Tier bremst es Fettneubildung und Gewichtszunahme, ohne IGF-1 oder den Blutzucker hochzutreiben. Im Handel steckt meist die Sequenz von AOD-9604 dahinter – gut verträglich in sechs Humanstudien, aber ohne belegten Abnehmeffekt; das natürliche Fragment selbst wurde nur 1978 an Ratten geprüft.',
+    moa: 'Das Peptid entspricht dem C-terminalen Ende des menschlichen Wachstumshormons, das im Tier die fettstoffwechselaktive Domäne trägt. Das unveränderte Stück 177-191 aktivierte in Rattenfett die hormonsensitive Lipase und hemmte die Acetyl-CoA-Carboxylase, also Fettfreisetzung rauf, Fettneubildung runter (Ng et al. 2000). Die Tyrosin-Variante AOD9604 bindet im Labor nicht an den Wachstumshormon-Rezeptor und löst dort keine Zellteilung aus, weshalb IGF-1 nicht steigt (Heffernan et al. 2001). Sie erhöhte bei Mäusen die Menge des Beta-3-Adrenozeptors im Fett, wirkte akut aber auch ohne diesen Rezeptor; der eigentliche Angriffspunkt ist unbekannt. Im Handel bezeichnet „176-191" meist die AOD9604-Sequenz YLRIVQCRSVEGSCGF; das natürliche Fragment beginnt an Position 176 mit Phenylalanin statt Tyrosin.',
+    benefits: [
+      'Bremste bei fettleibigen Zucker-Ratten über 20 Tage die Gewichtszunahme; mittlerer Fettzelldurchmesser sank von 110 auf 80 Mikrometer, ohne Insulinresistenz (Ng 2000, unverändertes 177-191, Tier)',
+      'Oral bei ob/ob-Mäusen ab Tag 16 geringere Gewichtszunahme bei gleichem Futterverbrauch (Heffernan 2000, n = 10 gegen 8, 30 Tage, Tier)',
+      'Förderte in isoliertem menschlichem Fettgewebe die Lipolyse und hemmte die Lipogenese (Heffernan 2000, ex vivo, kein Mensch behandelt)',
+      'Keine Bindung am Wachstumshormon-Rezeptor, keine Hyperglykämie, mehr Fettoxidation bei Mäusen über 14 Tage (Heffernan 2001, AOD9604, Tier)',
+      'Für die AOD9604-Sequenz sechs placebokontrollierte Humanstudien mit 893 Teilnehmern: kein IGF-1-Anstieg, keine Verschlechterung der Glukosetoleranz, keine Antikörper (Stier 2013, 2001 bis 2006)'
+    ],
+    risks: [
+      'Die große 24-Wochen-Studie mit der AOD9604-Sequenz (534 eingeschlossen, 502 randomisiert) verfehlte laut Hersteller 2007 den Gewichtsendpunkt; begutachtete Wirksamkeitsdaten gibt es nicht.',
+      'Das natürliche Fragment 176-191 hob bei Ratten kurzfristig Blutzucker und Insulin (Ng und Bornstein 1978) – für diese Sequenz keine Humandaten.',
+      'Name und Inhalt passen nicht sicher zusammen: Graumarktware kann die natürliche oder die Tyrosin-Sequenz enthalten oder falsch deklariert sein.',
+      'FDA nennt für AOD-9604 Immunogenitätsrisiko, Verunreinigungen und schwerwiegende Ereignisse mit unklarer Kausalität.',
+      'Nach Infusion berichteten 5 von 23 Probanden leichte Euphorie; häufigstes Ereignis in allen Studien war Kopfschmerz, ähnlich wie unter Placebo.'
+    ],
+    status: 'In DE, EU und USA kein zugelassenes Arzneimittel; Verkauf als Forschungschemikalie. WADA 2026 S2.2.3 (namentlich AOD-9604 und hGH 176-191), im und außerhalb des Wettkampfs verboten; in DE in der Anlage des Anti-Doping-Gesetzes unter Wachstumshormon-Fragmente genannt. FDA: AOD-9604 als Rezeptursubstanz mit möglichen erheblichen Risiken geführt, Nominierung zurückgezogen (Stand 22.04.2026).',
+    sources: [
+      { title: 'Ng FM, Bornstein J, Am J Physiol 1978 – natürliches hGH 176-191 hebt bei Ratten kurzfristig Blutzucker und Insulin', url: 'https://pubmed.ncbi.nlm.nih.gov/645904/' },
+      { title: 'Ng FM et al., J Mol Endocrinol 2000 – AOD9401 (hGH 177-191) bremst Fettzellwachstum bei Zucker-Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/11116208/' },
+      { title: 'Heffernan MA et al., Am J Physiol Endocrinol Metab 2000 – orale Gabe bei ob/ob-Mäusen, Lipolyse in menschlichem Fettgewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/10950816/' },
+      { title: 'Heffernan MA et al., Int J Obes 2001 – AOD9604 ohne GH-Rezeptor-Bindung, mehr Fettoxidation', url: 'https://pubmed.ncbi.nlm.nih.gov/11673763/' },
+      { title: 'Stier H et al., J Endocrinol Metab 2013 – Sicherheit von AOD9604 in sechs placebokontrollierten Studien', url: 'https://www.jofem.org/index.php/jofem/article/view/157' },
+      { title: 'Cox HD et al., Drug Test Anal 2015 – Struktur (Tyr + hGH 177-191) und Nachweis', url: 'https://pubmed.ncbi.nlm.nih.gov/25208511/' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – AOD9604 oft als hGH 176-191 bezeichnet; Evidenzstufe B/C', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' },
+      { title: 'WADA – Prohibited List 2026, S2.2.3 Growth hormone fragments', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „HGH-Fragment 176-191")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'igf-1-des',
+    name: 'IGF-1 DES',
+    altNames: 'IGF-1 DES(1-3), des(1-3)IGF-I, Des-IGF-1, verkürztes IGF-1',
+    class: 'Körpereigene Kurzform des Wachstumsfaktors IGF-1, kein zugelassenes Arzneimittel',
+    emoji: '🧪',
+    short: 'Die um drei Aminosäuren verkürzte Form von IGF-1 – kein Designermolekül, sondern eine 1986 aus menschlichem Hirngewebe isolierte Variante. In Zellkultur etwa 10-fach potenter als IGF-1, im Tier deutlich anaboler, am Menschen nie geprüft.',
+    moa: 'IGF-1 DES ist IGF-1, dem am vorderen Ende die drei Aminosäuren Glycin, Prolin und Glutaminsäure fehlen. Weil die Glutaminsäure an Position 3 wegfällt, bindet die Variante kaum an die IGF-Bindungsproteine, die im Blut sonst den größten Teil des IGF-1 festhalten. In Zellkultur ist sie deshalb etwa 10-fach potenter als IGF-1 bei Zellwachstum und Zellteilung. Im Tier verlässt sie das Blut schneller als IGF-1 (Plasma-Clearance 4,59 gegenüber 1,20 ml/min/kg) und verteilt sich weiter im Gewebe – die Autoren dieser Arbeit sahen darin gerade den Grund für die höhere Wirksamkeit. Anders als IGF-1 LR3, ein Laborkonstrukt mit N-terminaler Verlängerung, ist DES eine im Körper vorkommende Form; das abgespaltene Dreierstück ist heute in Form eines Analogons ein zugelassenes Medikament gegen das Rett-Syndrom.',
+    benefits: [
+      'In Zellkultur etwa 10-fach stärkere Reize auf Zellwachstum und Zellteilung als IGF-1, weil die Bindung an die IGF-Bindungsproteine entfällt (Übersicht Ballard 1996, Zelldaten)',
+      'Bei Ratten unter Dexamethason über 7 Tage etwa 2,5-fach anaboler als IGF-1 bei Körpergewicht und Stickstoffbilanz (Tomas 1992, Tierdaten)',
+      'Bei zuckerkranken Ratten 2,5- bis 3-fach potenter als IGF-1, Muskelproteinsynthese und RNA-Gehalt bis plus 50 Prozent; der Zuwachs war Eiweiß, unter Insulin dagegen Fett (Tomas 1993, Tierdaten)',
+      'Nach Darmoperation an Ratten bessere Gewichts- und Stickstoffbilanz als unter Trägerlösung (Lemmey 1991, Tierdaten)',
+      'Natürlich vorkommende Form, 1986 aus menschlichem fetalem und erwachsenem Hirngewebe isoliert – kein synthetisches Konstrukt (Sara 1986, Carlsson-Skwirut 1986)',
+      'Stärkste Blutzuckersenkung aller geprüften IGF-1-Varianten in Krallenaffe und Schwein – belegt die Wirksamkeit am Rezeptor im Säugetier (Tomas 1997, Tierdaten)'
+    ],
+    risks: [
+      'Unterzuckerung als führendes Risiko: im Tier 2- bis 3-fach stärkere und über 4 Stunden kumulativ 4- bis 8-fach größere Blutzuckersenkung als IGF-1; beim zugelassenen Mecasermin tritt Unterzuckerung bei mehr als 1 von 10 Behandelten auf',
+      'Wachstumsfrage: Mäuse mit dauerhafter Bildung von IGF-1 DES in der Milchdrüse entwickelten bis zum Alter von 23 Monaten in 53 Prozent der Fälle Milchdrüsenkarzinome, 2- bis 3-fach häufiger als unveränderte Tiere; Mecasermin ist bei aktiver oder vermuteter Neoplasie kontraindiziert',
+      'Gewebewachstum an unerwünschter Stelle: Darmgewicht im Tier bis plus 60 Prozent, schwerere Nieren und Thymusdrüse',
+      'Keine einzige Studie am Menschen: keine Publikation mit gespritztem IGF-1 DES und kein Eintrag in den öffentlichen Studienregistern (Stand 27.09.2026)',
+      'Nicht zugelassen und im Sport verboten; Des(1-3)-IGF-I ist namentlich als verbotene Substanz erfasst und aus dem Blut nachweisbar',
+      'Schwarzmarktware: in einer dopinganalytischen Arbeit fanden sich in solchen Produkten deutliche Zeichen minderer Qualität und oxidierte Peptidformen'
+    ],
+    status: 'In DE/EU/USA kein zugelassenes Arzneimittel und kein Nahrungsergänzungsmittel; Vertrieb als Forschungssubstanz ohne Bestimmung für den menschlichen Gebrauch. Im Sport verboten: IGF-1 und seine Analoga einschließlich Des(1-3)-IGF-I sind verbotene Substanzen, ein Blutnachweis per Immunaufreinigung und hochauflösender Massenspektrometrie ist validiert. Zugelassene Gegenstücke auf derselben Achse: Mecasermin (Increlex), EU-Zulassung 03.08.2007 für Kinder und Jugendliche von 2 bis 18 Jahren mit schwerem primärem IGF-1-Mangel, und Trofinetid, ein Analogon des bei DES fehlenden Tripeptids, seit März 2023 in den USA für das Rett-Syndrom ab 2 Jahren.',
+    sources: [
+      { title: 'Ballard FJ et al., Int J Biochem Cell Biol 1996 – Übersicht: des(1-3)IGF-I ist etwa 10-fach potenter in Zellkultur', url: 'https://pubmed.ncbi.nlm.nih.gov/8930132/' },
+      { title: 'Sara VR et al., PNAS 1986 – Isolierung der verkürzten IGF-1-Variante aus menschlichem fetalem Hirngewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/3460078/' },
+      { title: 'Carlsson-Skwirut C et al., FEBS Lett 1986 – dieselbe Variante im Hirngewebe Erwachsener', url: 'https://pubmed.ncbi.nlm.nih.gov/3709807/' },
+      { title: 'Tomas FM et al., Biochem J 1992 – etwa 2,5-fach anaboler als IGF-1 bei Ratten unter Dexamethason', url: 'https://pubmed.ncbi.nlm.nih.gov/1371669/' },
+      { title: 'Tomas FM et al., Biochem J 1993 – Wachstum und Muskelproteinsynthese bei zuckerkranken Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/7683875/' },
+      { title: 'Read LC et al., J Endocrinol 1992 – Darmgewicht bis plus 60 Prozent', url: 'https://pubmed.ncbi.nlm.nih.gov/1613443/' },
+      { title: 'Ballard FJ et al., J Endocrinol 1991 – höhere Clearance und größeres Verteilungsvolumen als IGF-1', url: 'https://pubmed.ncbi.nlm.nih.gov/2005410/' },
+      { title: 'Tomas FM et al., J Endocrinol 1997 – stärkste Blutzuckersenkung aller IGF-1-Varianten', url: 'https://pubmed.ncbi.nlm.nih.gov/9415072/' },
+      { title: 'Hadsell DL et al., Oncogene 2000 – Milchdrüsentumoren im Überexpressionsmodell', url: 'https://pubmed.ncbi.nlm.nih.gov/10702797/' },
+      { title: 'Mongongu C et al., Drug Test Anal 2021 – Nachweisverfahren, Schwarzmarktqualität, nie am Menschen zugelassen', url: 'https://pubmed.ncbi.nlm.nih.gov/33587816/' },
+      { title: 'EMA – EPAR Increlex (Mecasermin): Zulassung 03.08.2007, Hypoglykämie bei mehr als 1 von 10, Kontraindikation Neoplasie', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/increlex' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „IGF-1 DES")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'ligandrol',
+    name: 'Ligandrol (LGD-4033)',
+    altNames: 'LGD-4033, VK5211, VK 5211, SARM',
+    class: 'Selektiver Androgenrezeptor-Modulator (SARM), nicht zugelassen',
+    emoji: '🦴',
+    short: 'Der SARM der Aufbauphase: Placebokontrolliert stieg die fettfreie Masse bei jungen Männern schon in 21 Tagen, in der höchsten Stufe um etwa 1,2 kg, nach Hüftfraktur um bis zu 9,1 Prozent in 12 Wochen. Kraft ist nicht gezeigt, Testosteron und HDL sinken, und es gibt mehrere Fallberichte schwerer Leberschäden.',
+    moa: 'Ligandrol ist ein nichtsteroidaler Wirkstoff, der den Androgenrezeptor mit hoher Affinität bindet und aktiviert. Nach dem SARM-Konzept soll er Muskel und Knochen ansprechen, Prostata und Haut dagegen kaum; als Nicht-Steroid wird er nicht zu DHT oder Östrogen umgebaut. Beim Menschen ist die Rezeptorwirkung belegt: In 21 Tagen stieg die fettfreie Masse dosisabhängig, während Gesamttestosteron, SHBG, HDL und Triglyceride dosisabhängig sanken, reversibel nach dem Absetzen (Basaria 2013). Die Gewebeselektivität am Menschen ist ohne Direktvergleich mit klassischen Androgenen nicht belegt (Bond 2025).',
+    benefits: [
+      'Fettfreie Masse in 21 Tagen dosisabhängig gestiegen, in der höchsten Stufe etwa 1,2 kg über Placebo (Mensch, placebokontrolliert, 76 gesunde Männer, Basaria 2013)',
+      'Nach Hüftfraktur placebobereinigt plus 4,8, 7,2 und 9,1 Prozent fettfreie Masse in 12 Wochen, primärer Endpunkt erreicht (Mensch, Phase 2, 108 ab 65 Jahren, 2017, nur Register und Firmenmitteilung)',
+      'Oral wirksam; Leberwerte, PSA und Blutbild in der 21-Tage-Studie unverändert',
+      'Anwender berichten schnellen Zuwachs an Gewicht und Kraft innerhalb weniger Wochen, oft mit Wassereinlagerung (Bericht, unkontrolliert)'
+    ],
+    risks: [
+      'Kraft nicht gezeigt: Beinkraft in der Studie an jungen Männern unverändert, Funktion nach Hüftfraktur nur explorativ',
+      'Senkt schon in 21 Tagen Gesamttestosteron, SHBG und HDL, in der höchsten Stufe auch FSH und freies Testosteron (Basaria 2013)',
+      'Mehrere Fallberichte schwerer cholestatischer Leberschäden, u. a. Bilirubin 30-fach über der Norm mit Gallengangsschwund (Wallstab 2023)',
+      'Publizierter Anwender-Fall (mit MK-677, 5 Wochen): HDL minus 36,4 Prozent, ALT plus 205,0 Prozent, Testosteron minus 62,3 Prozent, Fettmasse plus 15,4 Prozent (Cardaci 2022)',
+      'Keine kontrollierten Daten über mehr als 12 Wochen; JAMA 2017: nur 52 Prozent der SARM-Produkte enthielten überhaupt einen SARM',
+      'Dopingliste (WADA S1.2), langlebige Abbauprodukte nachweisbar; nicht für Schwangere'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen; nach der Phase 2 bei Hüftfraktur (VK5211, 2017) keine weitere Studie angekündigt. In DE ohne Zulassung, namentlich in der Anlage des Anti-Doping-Gesetzes (Handel zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge verboten). WADA-Liste 2026 S1.2, jederzeit verboten. Die FDA warnt: SARMs sind keine Nahrungsergänzungsmittel, sondern nicht zugelassene Arzneimittel, mit Risiken bis zu Leberversagen.',
+    sources: [
+      { title: 'Basaria et al. 2013, J Gerontol A Biol Sci Med Sci – LGD-4033 bei 76 gesunden jungen Männern, 21 Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/22459616/' },
+      { title: 'ClinicalTrials.gov NCT02578095 – VK5211 nach Hüftfraktur, Registerergebnisse', url: 'https://clinicaltrials.gov/study/NCT02578095' },
+      { title: 'Bond et al. 2025, Front Endocrinol – kritische Bewertung der SARMs', url: 'https://pubmed.ncbi.nlm.nih.gov/41079187/' },
+      { title: 'Cardaci et al. 2022, Exp Physiol – Fallbericht LGD-4033 und MK-677', url: 'https://pubmed.ncbi.nlm.nih.gov/36303408/' },
+      { title: 'Barbara et al. 2020, ACG Case Rep J – Leberschaden durch Ligandrol', url: 'https://pubmed.ncbi.nlm.nih.gov/32637435/' },
+      { title: 'Wallstab et al. 2023, Z Gastroenterol – Ligandrol-induzierter Leberschaden', url: 'https://pubmed.ncbi.nlm.nih.gov/36257328/' },
+      { title: 'Vignali et al. 2023, J Xenobiot – systematische Übersicht zur SARM-Sicherheit', url: 'https://pubmed.ncbi.nlm.nih.gov/37218811/' },
+      { title: 'Van Wagoner et al. 2017, JAMA – Inhalt online verkaufter SARM-Produkte', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „LGD-4033")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'noopept',
+    name: 'Noopept',
+    altNames: 'Omberacetam, GVS-111, N-Phenylacetyl-L-Prolylglycin-Ethylester, Ноопепт',
+    class: 'Dipeptid-Nootropikum (Prodrug von Cyclo-Prolylglycin), in Russland rezeptfreies Arzneimittel',
+    emoji: '🧠',
+    short: 'Ein russisches Dipeptid-Nootropikum, das im Körper zu einem körpereigenen Gedächtnis-Peptid wird und in Russland rezeptfrei gegen leichte kognitive Störungen verkauft wird. Russische Patientenstudien zeigen bessere Testwerte als unter Piracetam; eine placebokontrollierte Studie gibt es nicht, für Gesunde fehlen Daten.',
+    moa: 'Noopept ist der Ethylester von N-Phenylacetyl-L-Prolylglycin und wurde als peptidischer Nachbau von Piracetam entworfen. Bei Ratten wird es rasch zu Cyclo-Prolylglycin umgebaut, einem körpereigenen zyklischen Dipeptid mit gedächtnisfördernder Wirkung im Tierversuch; eine Stunde nach Gabe stieg es im Hirn auf das 2,5-Fache (Gudasheva 1997). Im Hippocampus von Ratten erhöhte Noopept die Bildung von NGF und BDNF, ohne Gewöhnung über 28 Tage (Ostrovskaya 2008). In Zellkultur aktivierte es den Transkriptionsfaktor HIF-1, in Hirnschnitten wirkte es über α7-Nikotinrezeptoren auf hemmende Interneurone. Keiner dieser Mechanismen wurde am Menschen gemessen.',
+    benefits: [
+      'Randomisierter Vergleich mit Piracetam bei leichten kognitiven Störungen nach Gefäßerkrankung oder Hirntrauma (150 Patienten): in der ärztlichen Gesamteinschätzung besser als Piracetam, unerwünschte Ereignisse 25 statt 55 Prozent (Neznamov & Teleshova 2008, Zahlen laut Expertenresolution 2026).',
+      'Randomisierte Drei-Arm-Studie mit 150 Patienten über 45 Tage: MoCA-Gedächtnistest unter Omberacetam von 19,8 auf 23,3 Punkte, stärker als unter Piracetam/Cinnarizin oder Phenibut (Dadasheva 2022, herstellerfinanziert, ohne Placebo).',
+      'Nach Schlaganfall (60 Patienten, offene Studie): nach 2 Monaten bessere Gedächtnis- und Wortflüssigkeitswerte als in der Kontrollgruppe (Amelin 2011).',
+      'Prodrug eines körpereigenen Gedächtnis-Peptids: im Rattenhirn 2,5-fach mehr Cyclo-Prolylglycin nach Gabe (Tierversuch, 1997).',
+      'Mehr NGF und BDNF im Hippocampus von Ratten, ohne Toleranz über 28 Tage (Tierversuch, 2008); wirkt bei Ratten auch nach Gabe über den Mund.',
+      'Seit 2018 WHO-Freiname Omberacetam; in Russland als rezeptfreies Arzneimittel zugelassen.'
+    ],
+    risks: [
+      'Keine placebokontrollierte, doppelblinde Studie; alle klinischen Arbeiten stammen aus Russland, mehrere herstellernah.',
+      'Für Gesunde als Gedächtnisverstärker praktisch nicht untersucht; Mechanismus nur aus Tier, Zellkultur und Hirnschnitten.',
+      'Keine Langzeitdaten über mehr als einige Monate; Pharmakokinetik beim Menschen nur aus der Herstellerinformation.',
+      'Russische Fachinformation: allergische Reaktionen, bei schwerem Bluthochdruck möglicher Blutdruckanstieg; nicht in Schwangerschaft, Stillzeit, unter 18 Jahren, bei schwerer Leber- oder Nierenerkrankung.',
+      'Graumarktware unzuverlässig: in einer US-Analyse 75 Prozent der deklarierten Mengen falsch, teils bis zu 4 nicht zugelassene Wirkstoffe in einem Produkt (Cohen 2021).',
+      'Sport: nicht namentlich auf der WADA-Liste, Status laut Analyse von 2025 unklar (mögliche Nähe zu 4-Phenylpiracetam, S6).'
+    ],
+    status: 'Russland: zugelassenes, rezeptfreies Arzneimittel (Noopept, Reg.-Nr. ЛС-001577); WHO-INN Omberacetam seit 2018. DE/EU: nicht zugelassen, weder als Arzneimittel noch als Nahrungsergänzungsmittel. Ungarn: seit 25.08.2020 auf der Liste neuer psychoaktiver Substanzen. USA: nicht zugelassen, FDA-Warnbrief 2019 an einen Nootropika-Händler. WADA: nicht namentlich gelistet; Status laut Pokrywka et al. 2025 unklar, mögliche Einordnung über Ähnlichkeit zu 4-Phenylpiracetam (S6).',
+    sources: [
+      { title: 'Gudasheva et al. 1997, Eur J Drug Metab Pharmacokinet – Noopept als Prodrug von Cyclo-Prolylglycin im Rattenhirn', url: 'https://pubmed.ncbi.nlm.nih.gov/9358206/' },
+      { title: 'Ostrovskaya et al. 2008, Bull Exp Biol Med – NGF und BDNF im Hippocampus der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/19240853/' },
+      { title: 'Neznamov & Teleshova 2009, Neurosci Behav Physiol – Noopept gegen Piracetam bei leichten kognitiven Störungen', url: 'https://pubmed.ncbi.nlm.nih.gov/19234797/' },
+      { title: 'Dadasheva et al. 2022, Nevrol Neiropsikhiatr Psikhosom – Omberacetam, Piracetam/Cinnarizin und Phenibut, 150 Patienten', url: 'https://doi.org/10.14412/2074-2711-2022-2-49-55' },
+      { title: 'Amelin et al. 2011, Zh Nevrol Psikhiatr – Noopept nach Schlaganfall, 60 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/22500312/' },
+      { title: 'Tkacheva et al. 2026, Russian Journal of Geriatric Medicine – Expertenresolution zu Omberacetam mit Studientabelle', url: 'https://doi.org/10.37586/2686-8636-1-2026-115-123' },
+      { title: 'Cohen et al. 2021, Neurol Clin Pract – fünf nicht zugelassene Wirkstoffe in Gedächtnis-Supplementen', url: 'https://pubmed.ncbi.nlm.nih.gov/34484905/' },
+      { title: 'WHO Drug Information 2018 – Recommended INN List 79: Omberacetam', url: 'https://cdn.who.int/media/docs/default-source/international-nonproprietary-names-(inn)/rl79.pdf' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Noopept")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'ostarin',
+    name: 'Ostarin (Enobosarm)',
+    altNames: 'Enobosarm, MK-2866, GTx-024, S-22, SARM',
+    class: 'Selektiver Androgenrezeptor-Modulator (SARM), nicht zugelassen',
+    emoji: '🦵',
+    short: 'Der am besten untersuchte SARM: In mehreren placebokontrollierten Studien stieg die fettfreie Masse, bei gesunden Älteren um 1,3 kg in 12 Wochen. Die Zulassung scheiterte daran, dass sich die Funktion in zwei Phase-3-Studien nicht signifikant besserte; dazu HDL-Senkung, Testosteron-Suppression und Fallberichte über Leberschäden.',
+    moa: 'Ostarin ist ein nichtsteroidaler Wirkstoff, der den Androgenrezeptor aktiviert, also die Andockstelle von Testosteron. Ziel des SARM-Konzepts ist volle Wirkung in Muskel und Knochen bei geringer Wirkung auf Prostata und Haut; weil Ostarin kein Steroid ist, wird es nicht zu DHT oder Östrogen umgebaut. Beim Menschen ist die Rezeptorwirkung über gesunkenes SHBG, gesunkenes Gesamttestosteron bei Männern, HDL-Senkung und Tumoraktivität bei rezeptorpositivem Brustkrebs belegt. Ob die Gewebeselektivität klinisch so sauber ist wie im Tier, ist offen; einen Direktvergleich mit klassischen Androgenen gibt es nicht (Bond 2025).',
+    benefits: [
+      'Fettfreie Masse plus 1,3 kg gegenüber Placebo in 12 Wochen, Fett etwa minus 0,6 kg (Mensch, doppelblind, 120 gesunde Ältere, Dalton 2011)',
+      'Treppenleistung und Insulinresistenz verbessert (HOMA-IR minus 27,5 Prozent) in derselben Studie',
+      'Bei Krebspatienten Zuwachs fettfreier Masse gegenüber Ausgangswert, Median 1,5 und 1,0 kg (Mensch, Phase 2, 159 Patienten, Dobs 2013)',
+      'Phase 3 POWER: mehr Patienten ohne Muskelverlust, 41,9 gegen 30,4 und 46,5 gegen 37,9 Prozent (Mensch, 321 und 330 Patienten, 2013)',
+      'Unter Semaglutid weniger Verlust fettfreier Masse, minus 1,2 gegen minus 4,1 Prozent (Mensch, 168 über 60, 16 Wochen, QUALITY, nur Firmenmitteilung 2025)',
+      'Anwender berichten langsamen, trockenen Muskel- und Kraftzuwachs, oft zum Muskelerhalt in Diätphasen (Bericht, unkontrolliert)'
+    ],
+    risks: [
+      'Funktion nicht gesichert: In beiden Phase-3-Studien besserte sich die Treppenleistung nicht signifikant, Gesamtkriterien verfehlt (2013)',
+      'HDL-Cholesterin dosisabhängig um bis zu 27 Prozent gesenkt, Gesamttestosteron bei Männern gesenkt (Dalton 2011)',
+      'Leber: ALT-Anstieg bei 5 von 24 in der höchsten Dosisstufe, mehrere Fallberichte schwerer cholestatischer Leberschäden, einmal mit Albumindialyse (Mertens 2024)',
+      'Keine Studie an jungen Trainierenden; Wirksamkeitsdaten nur bei Älteren, Kranken und GLP-1-Patienten',
+      'JAMA 2017: nur 52 Prozent online verkaufter SARM-Produkte enthielten überhaupt einen SARM, nur 41 Prozent die angegebene Menge',
+      'Dopingliste (WADA S1.2), im Urin, in Haaren und Nägeln nachweisbar; nicht für Schwangere'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen; Entwicklung gegen Muskelschwund bei Krebs und gegen Harninkontinenz gescheitert, derzeit Phase 2 als Muskelschutz unter GLP-1-Therapie (Veru). In DE ohne Zulassung, namentlich in der Anlage des Anti-Doping-Gesetzes (Handel zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge verboten). WADA-Liste 2026 S1.2, jederzeit verboten. Die FDA warnt: SARMs sind keine Nahrungsergänzungsmittel, sondern nicht zugelassene Arzneimittel, mit Risiken bis zu Leberversagen.',
+    sources: [
+      { title: 'Dalton et al. 2011, J Cachexia Sarcopenia Muscle – Phase 2, 120 gesunde Ältere, fettfreie Masse und Treppenleistung', url: 'https://pubmed.ncbi.nlm.nih.gov/22031847/' },
+      { title: 'Dobs et al. 2013, Lancet Oncol – Phase 2 bei krebsbedingtem Muskelschwund', url: 'https://pubmed.ncbi.nlm.nih.gov/23499390/' },
+      { title: 'Crawford et al. 2016, Curr Oncol Rep – Design der Phase-3-Studien POWER', url: 'https://pubmed.ncbi.nlm.nih.gov/27138015/' },
+      { title: 'ClinicalTrials.gov NCT01355484 – POWER 1, Registerergebnisse', url: 'https://clinicaltrials.gov/study/NCT01355484' },
+      { title: 'Palmieri et al. 2024, Lancet Oncol – Enobosarm bei AR-positivem Brustkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/38342115/' },
+      { title: 'ClinicalTrials.gov NCT06282458 – QUALITY, Enobosarm unter GLP-1-Therapie (ohne hinterlegte Ergebnisse)', url: 'https://clinicaltrials.gov/study/NCT06282458' },
+      { title: 'Mertens et al. 2024, Z Gastroenterol – schwerer Leberschaden nach Ostarin', url: 'https://pubmed.ncbi.nlm.nih.gov/37871633/' },
+      { title: 'Vignali et al. 2023, J Xenobiot – systematische Übersicht zur SARM-Sicherheit', url: 'https://pubmed.ncbi.nlm.nih.gov/37218811/' },
+      { title: 'Van Wagoner et al. 2017, JAMA – Inhalt online verkaufter SARM-Produkte', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Ostarine")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'peg-mgf',
+    name: 'PEG-MGF',
+    altNames: 'PEGyliertes Mechano Growth Factor, Pegylated MGF; verwandt: MGF-E-Peptid (MGF-24aa-E, MGF-Ct24E), IGF-1Ec (Mensch), IGF-1Eb (Nager)',
+    class: 'PEGyliertes E-Domänen-Peptid der IGF-1-Spleißvariante IGF-1Ec, nicht zugelassen',
+    emoji: '💪',
+    short: 'Die PEG-verlängerte Kunstversion eines Muskel-Reparatursignals: Der Muskel bildet unter Last mehr von der IGF-1-Variante MGF, und das kurze MGF-Peptid schützte im Tier Herz und Nervenzellen. PEG-MGF selbst wurde nie untersucht, weder am Tier noch am Menschen, und zentrale Zellbefunde zum Peptid ließen sich nicht reproduzieren.',
+    moa: 'MGF ist eine Spleißvariante des IGF-1-Gens (beim Menschen IGF-1Ec, bei Nagern IGF-1Eb), deren Endstück, die E-Domäne, durch einen eigenen Einschub verändert ist. Der Muskel bildet ihre Botschaft vermehrt nach Dehnung und Krafttraining. Das gehandelte Peptid entspricht den 24 letzten Aminosäuren dieser E-Domäne; PEG-MGF ist es gekoppelt an Polyethylenglykol, das den Abbau verzögern und die Verweildauer verlängern soll. In einigen Zellstudien steigerte das kurze Peptid die Teilung von Muskelvorläuferzellen und bremste ihre Ausreifung, und zwar nicht über den IGF-1-Rezeptor; der eigentliche Angriffspunkt ist unbekannt. Ein natürlich vorkommendes MGF-Peptid wurde im Körper bisher nicht nachgewiesen, und kurze MGF-Peptide aktivierten den IGF-1-Rezeptor in einer Laborstudie bei keiner Konzentration.',
+    benefits: [
+      'Der Muskel reguliert MGF selbst: Nach schwerem Krafttraining stieg die MGF-Botschaft bei 8 jungen Probanden, bei 7 Älteren von 70 bis 82 Jahren nicht (Hameed 2003, Mensch, Genexpression, keine Gabe)',
+      'Das MGF-E-Peptid aktivierte in Kultur menschliche Satellitenzellen von Neugeborenen und jungen Erwachsenen, nicht von älteren Spendern (Kandalla 2011, Zellkultur)',
+      'Bei Schafen nach Herzinfarkt nach 8 Tagen 35 Prozent weniger geschädigter Herzmuskel unter der MGF-E-Domäne (Carpenter 2008, Tier, nicht PEGyliert)',
+      'Bei Mäusen nach Infarkt bessere Pumpfunktion nach 2 Wochen und bei lokaler Freisetzung geringere Sterblichkeit (Mavrommatis 2013, Peña 2015, Tier)',
+      'Schützte bei Rennmäusen Nervenzellen nach vorübergehender Hirnischämie (Dluzniewska 2005, Tier)'
+    ],
+    risks: [
+      'Keine einzige begutachtete Studie zu PEG-MGF, keine Humandaten zu irgendeinem Verabreichungsweg (FDA, Stand 22.04.2026).',
+      'Zwei Pharmaunternehmen konnten die Zelleffekte des MGF-Peptids nicht reproduzieren (Fornaro 2014).',
+      'Dauerhafte Aktivierung des Nager-E-Peptids machte Mausmuskeln größer, aber schwächer (Brisson 2014).',
+      'Das MGF-E-Peptid regte im Labor Prostatakrebszellen zum Wachstum an, unabhängig vom IGF-1-Rezeptor (Armakolas 2010); bei Krebs oder Krebsvorgeschichte keine Datengrundlage.',
+      'FDA nennt mögliches Immunogenitätsrisiko und Verunreinigungen; im Graumarkt kursieren verschiedene MGF-Varianten.'
+    ],
+    status: 'In DE, EU und USA kein zugelassenes Arzneimittel, nie klinisch entwickelt; Verkauf als Forschungschemikalie. WADA 2026 S2.3 (Mechano growth factors), im und außerhalb des Wettkampfs verboten, MGF-Peptide seit 2005 erfasst; in DE in der Anlage des Anti-Doping-Gesetzes (MGF und MGF-Varianten). FDA: PEG-MGF als Rezeptursubstanz mit möglichen erheblichen Risiken geführt, Nominierung zurückgezogen (Stand 22.04.2026).',
+    sources: [
+      { title: 'Hameed M et al., J Physiol 2003 – MGF-mRNA nach Krafttraining bei Jungen erhöht, bei Älteren nicht', url: 'https://pubmed.ncbi.nlm.nih.gov/12562960/' },
+      { title: 'Yang SY, Goldspink G, FEBS Lett 2002 – MGF-E-Domäne fördert Myoblastenteilung', url: 'https://pubmed.ncbi.nlm.nih.gov/12095637/' },
+      { title: 'Matheny RW et al., Endocrinology 2010 – Übersicht; kein natürliches MGF-Peptid nachgewiesen', url: 'https://pubmed.ncbi.nlm.nih.gov/20130113/' },
+      { title: 'Fornaro M et al., Am J Physiol Endocrinol Metab 2014 – MGF-Peptid ohne Wirkung auf Myoblasten und Muskelstammzellen', url: 'https://pubmed.ncbi.nlm.nih.gov/24253050/' },
+      { title: 'Carpenter V et al., Heart Lung Circ 2008 – MGF-E-Domäne nach Infarkt beim Schaf', url: 'https://pubmed.ncbi.nlm.nih.gov/17581790/' },
+      { title: 'Brisson BK et al., Am J Physiol Endocrinol Metab 2014 – E-Peptide: mehr Muskelmasse, weniger Kraft', url: 'https://pubmed.ncbi.nlm.nih.gov/24569593/' },
+      { title: 'Armakolas A et al., Prostate 2010 – MGF-E-Peptid fördert Wachstum von Prostatakrebszellen', url: 'https://pubmed.ncbi.nlm.nih.gov/20564425/' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – PEG-MGF ohne begutachtete Humanstudien (Evidenzstufe D)', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' },
+      { title: 'FDA – Bulk Drug Substances mit möglichen Sicherheitsrisiken (PEG-MGF)', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „PEG-MGF")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'phenibut',
+    name: 'Phenibut',
+    altNames: 'β-Phenyl-GABA, 4-Amino-3-phenylbuttersäure, Aminophenylbuttersäure, Fenibut, Noofen, Anvifen, Фенибут',
+    class: 'GABA-B-Agonist und Gabapentinoid (α2-δ-Ligand), in Russland verschreibungsfähiges Anxiolytikum',
+    emoji: '😌',
+    short: 'Ein sowjetisches Angst- und Beruhigungsmittel, das in Osteuropa seit den 1960er Jahren verordnet und im Westen online als Nootropikum verkauft wird. Die angstlösende Wirkung ist in russischen Studien beschrieben, eine placebokontrollierte Studie fehlt; bei täglicher Einnahme drohen Toleranz, Abhängigkeit und ein teils schwerer Entzug.',
+    moa: 'Phenibut ist GABA mit einem Phenylring, der das Molekül hirngängig macht; Baclofen ist sein Chlor-Abkömmling. Es aktiviert den GABA-B-Rezeptor, deutlich schwächer als Baclofen (Dissoziationskonstante 92 gegen 6 µM), wobei dort nur die R-Form wirkt. Seit 2015 ist bekannt, dass es wie Gabapentin und Pregabalin an die α2-δ-Untereinheit spannungsabhängiger Calciumkanäle bindet, mit 4-mal höherer Affinität als am GABA-B-Rezeptor (Zvejniece 2015). Russische Arbeiten beschreiben zusätzlich Effekte auf das Dopaminsystem und einen Gegenspieler-Effekt zu Beta-Phenethylamin. Phenibut wird kaum abgebaut und unverändert über die Niere ausgeschieden, Halbwertszeit 5 bis 6 Stunden.',
+    benefits: [
+      'In Osteuropa seit den 1960er Jahren klinisch gegen Angst, Anspannung, Schlafstörungen und Erschöpfung eingesetzt, erstmals 1965 in der Sowjetunion zugelassen (Lapin 2001; Bonnet 2024).',
+      'Systematischer Review: 11 klinische Studien mit 583 Patienten, unerwünschte Ereignisse bei 5,66 Prozent, am häufigsten Schläfrigkeit (Kupats 2020).',
+      'Randomisierte Drei-Arm-Studie mit 150 Patienten über 45 Tage: Angst (Hamilton-Skala) im Phenibut-Arm um 20,0 Punkte gesenkt, ohne Placebo (Dadasheva 2022).',
+      'Angststudie mit 120 Patienten: nach 60-tägigem Kurs Besserung auch einen Monat nach Therapieende erhalten, nach 21 Tagen nicht (Esin 2022, randomisiert ohne Placebo).',
+      'Bei chronischer Erschöpfung nach Gefäßerkrankung Rückgang um 30 bis 50 Prozent bei drei Vierteln der Behandelten (53 Patienten, offen, Vorob\'eva 2017).',
+      'Anwenderberichte (unkontrolliert, 229 Erowid-Berichte): Angstlösung und Redseligkeit, genutzt u. a. gegen Schlafprobleme und Angst; mehrere berichten zugleich, den Konsum schwer begrenzen zu können (Behmer Hansen 2023).'
+    ],
+    risks: [
+      'Toleranz und körperliche Abhängigkeit bei täglicher Einnahme; Entzug teils schon nach 1 Woche, mit Angst, Schlaflosigkeit, Psychose, Delir und Krampfanfällen (8 Prozent), in 44 Prozent der publizierten Fälle Intensivstation (Feldman 2023).',
+      'US-Giftnotrufe 2009 bis 2019: 1.320 Expositionen, 12,6 Prozent schwere Verläufe, 3 Todesfälle; bei Phenibut allein 10,2 Prozent schwer (Graves 2020). Giftinformationszentrum Nord: 17 Fälle, alle leicht bis mittelschwer (Bonnet 2024).',
+      'Gefährlich in Kombination mit Opioiden, Alkohol, Benzodiazepinen oder Gabapentinoiden (Atemdepression); kein Gegenmittel, in Routine-Drogentests nicht nachweisbar.',
+      'Keine placebokontrollierte Studie gefunden; Wirksamkeitsdaten aus Russland und Lettland, teils herstellerfinanziert; nootropische Wirkung bei Gesunden nicht untersucht.',
+      'Online-Ware mit stark abweichendem Gehalt: 3 von 6 Produkten mit deutlich weniger, 1 mit mehr Wirkstoff als angegeben (Upmanis 2024).',
+      'Nach regelmäßiger Einnahme nicht abrupt absetzen; Absetzen ärztlich begleiten.'
+    ],
+    status: 'Deutschland: nicht zugelassen; laut Deutschem Ärzteblatt (Bonnet 2024) vom Neue-psychoaktive-Stoffe-Gesetz erfasst, Handel, Herstellung, Erwerb, Besitz und Weitergabe verboten. Nach derselben Quelle auch in Australien, Frankreich, Großbritannien, Italien, Ungarn und Litauen nicht legal; Australien: Schedule 9 laut TGA-Zwischenentscheidung ab 01.02.2018. Russland: verschreibungsfähiges Arzneimittel; Lettland: als Noofen verschreibungspflichtig registriert (Herstellerangabe). USA: nicht zugelassen, laut FDA kein zulässiger Nahrungsergänzungs-Bestandteil, FDA-Warnbrief 2019. WADA: nicht gelistet, von der US-Antidopingagentur als nicht verboten geführt (laut Pokrywka 2025).',
+    sources: [
+      { title: 'Bonnet et al. 2024, Dtsch Arztebl Int – Phenibut, illegales Nahrungsergänzungsmittel; NpSG, GIZ-Nord-Daten', url: 'https://pubmed.ncbi.nlm.nih.gov/38377332/' },
+      { title: 'Lapin 2001, CNS Drug Rev – Phenibut als Tranquilizer und Nootropikum', url: 'https://pubmed.ncbi.nlm.nih.gov/11830761/' },
+      { title: 'Zvejniece et al. 2015, Pharmacol Biochem Behav – R-Phenibut bindet an die α2-δ-Untereinheit', url: 'https://pubmed.ncbi.nlm.nih.gov/26234470/' },
+      { title: 'Kupats et al. 2020, Pharmacopsychiatry – systematischer Review: 11 Studien, 583 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/32340063/' },
+      { title: 'Graves et al. 2020, MMWR – 1.320 Phenibut-Expositionen an US-Giftnotrufzentralen', url: 'https://pubmed.ncbi.nlm.nih.gov/32881852/' },
+      { title: 'Feldman et al. 2023, Clin Toxicol – systematischer Review zum Phenibut-Entzug', url: 'https://pubmed.ncbi.nlm.nih.gov/38112312/' },
+      { title: 'Weleff et al. 2023, J Addict Med – Vergiftung und Entzug, 62 Fälle', url: 'https://pubmed.ncbi.nlm.nih.gov/37579098/' },
+      { title: 'Dadasheva et al. 2022, Nevrol Neiropsikhiatr Psikhosom – drei Nootropika, 150 Patienten', url: 'https://doi.org/10.14412/2074-2711-2022-2-49-55' },
+      { title: 'Esin et al. 2022, Zh Nevrol Psikhiatr – kurzer gegen langen Kurs bei Angst', url: 'https://pubmed.ncbi.nlm.nih.gov/36537634/' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'stenabolic',
+    name: 'Stenabolic (SR9009)',
+    altNames: 'SR9009, SR-9009, Rev-erb-Agonist, oft falsch als SARM geführt',
+    class: 'Synthetischer Agonist der Uhr-Kernrezeptoren REV-ERBalpha und REV-ERBbeta, nicht zugelassen',
+    emoji: '⏱️',
+    short: 'Greift an zwei Kernrezeptoren der inneren Uhr an, die in der Ausdauermuskulatur Mitochondrien und Fettverbrennung mitsteuern – im Tier messbar mehr Laufleistung und weniger Fett. Am Menschen gibt es keine einzige Studie, und oral erreicht die Substanz den Kreislauf kaum.',
+    moa: 'SR9009 besetzt die Bindetasche der Kernrezeptoren REV-ERBalpha und REV-ERBbeta, deren natürlicher Ligand Häm ist, und verschiebt damit das circadiane Genprogramm in Leber, Muskel und Fettgewebe (Solt et al., Nature 2012; IC50 670 nM an REV-ERBalpha, 800 nM an REV-ERBbeta). Für den Sport interessant ist die Muskelachse: REV-ERBalpha ist in oxidativer Muskulatur stark exprimiert, sein Fehlen senkt Mitochondriengehalt und oxidative Kapazität über den Signalweg Lkb1-Ampk-Sirt1-Ppargc-1alpha, seine Aktivierung erhöhte im Tier die Laufleistung (Woldt et al., Nat Med 2013). Zwei Einschränkungen gehören zum Mechanismus: SR9009 verändert Zellvitalität, Stoffwechsel und Gentranskription auch in Zellen, in denen REV-ERBalpha und REV-ERBbeta beide genetisch entfernt sind, taugt also nicht als Surrogat für REV-ERB-Aktivität (Dierickx et al., PNAS 2019), und es gibt Hinweise auf zusätzliche Aktivität am Leber-X-Rezeptor. Kein SARM: Der Androgenrezeptor ist nicht beteiligt, die WADA führt die Substanz bei den metabolischen Modulatoren (S4.4.1), nicht bei den anabolen Wirkstoffen.',
+    benefits: [
+      'Mäuse liefen unter 100 mg/kg über 30 Tage im Ausdauertest signifikant länger und weiter als Kontrolltiere (Woldt et al., Nat Med 2013, n = 6 pro Gruppe, Gabe intraperitoneal).',
+      'Fettleibige Mäuse (20 Wochen alt, 41 g, 14 Wochen Hochfettdiät) verloren über 12 Tage 60 Prozent mehr Gewicht als die Kontrollgruppe (Solt et al., Nature 2012, Maus, 100 mg/kg zweimal täglich intraperitoneal).',
+      'Blutfette und Blutzucker im selben Versuch: Gesamtcholesterin minus 47 Prozent, freie Fettsäuren minus 23 Prozent, Glukose minus 19 Prozent, Triglyzeride minus 12 Prozent, Leptin minus 80 Prozent (2012, Maus).',
+      'Der Sauerstoffverbrauch stieg um 5 Prozent bei 15 Prozent geringerer Bewegungsaktivität – ein Energieverbrauchseffekt ohne mehr Bewegung (2012, Maus).',
+      'In C2C12-Muskelzellen erhöhten SR9009 und SR9011 in 5 µM den Mitochondriengehalt (Woldt et al. 2013, Zellkultur).',
+      'Der Zielrezeptor selbst ist am Menschen bedeutsam: REV-ERBalpha steuert in oxidativer Muskulatur Mitochondrienzahl, oxidative Funktion und Autophagie (Woldt et al. 2013, Genetik plus Zellversuche).'
+    ],
+    risks: [
+      'Keine Humanstudie zu Wirkung oder Verträglichkeit; Abfragen der ClinicalTrials.gov-Schnittstelle zu SR9009 und Stenabolic geben am 27.09.2026 keinen Studieneintrag zurück.',
+      'Leber: akutes Leberversagen bei einem 17-Jährigen nach etwa 8 Wochen oraler Einnahme eines online gekauften Produkts, mit Enzephalopathie Grad 3 und Notfall-Lebertransplantation (Case Reports Hepatol 2026); hepatozellulärer Leberschaden bei einem 40-Jährigen mit Besserung nach Absetzen (Cureus 2025).',
+      'Oral kommt kaum etwas an: Plasmaspiegel nach Schlundgabe unter 0,3 µg/ml bei Darmspiegeln über 10 µg/ml, Halbwertszeit rund 0,5 Stunden; die Wirkung könnte auf den Darm begrenzt sein (Yu et al., Nat Commun 2021).',
+      'Die Effekte sind nicht sauber dem Zielrezeptor zuzuordnen – sie treten auch ohne REV-ERBalpha und REV-ERBbeta auf (Dierickx et al., PNAS 2019).',
+      'Produktqualität: In 44 als SARM verkauften Internetprodukten enthielten nur 52 Prozent einen SARM, 39 Prozent einen anderen nicht zugelassenen Wirkstoff (darunter SR9009), in 59 Prozent wich die Menge vom Etikett ab (Van Wagoner et al., JAMA 2017).',
+      'Im Sport jederzeit verboten (WADA 2026, S4.4.1) und in Deutschland namentlich in der Anlage zum Anti-Doping-Gesetz; im Tierversuch verkürzten REV-ERB-Agonisten REM- und Tiefschlaf (Banerjee et al. 2014).'
+    ],
+    status: 'Kein zugelassenes Arzneimittel und kein zugelassenes Nahrungsergänzungsmittel in DE, EU oder USA; Vertrieb als Forschungschemikalie oder als nicht zugelassenes Supplement, kein Eintrag in ClinicalTrials.gov. Dopingliste: WADA-Verbotsliste 2026 (in Kraft ab 01.01.2026), Abschnitt S4.4.1 Metabolische Modulatoren, wörtlich „Rev-erbɑ agonists, e.g. SR9009, SR9011“; Klasse S4.4 ist nicht-spezifiziert und jederzeit verboten. Deutschland: „SR9009, synonym Stenabolic“ steht namentlich in der Anlage zu § 2 Absatz 3 AntiDopG unter den Stoffwechsel-Modulatoren – Erwerb, Besitz und Verbringen in nicht geringer Menge zum Zwecke des Dopings sind verboten, ebenso Handel, Abgabe und Verschreiben zu diesem Zweck. Nachweisbar über N-dealkylierte Metaboliten, für die zertifizierte Referenzmaterialien vorliegen.',
+    sources: [
+      { title: 'Solt et al., Nature 2012 – synthetische REV-ERB-Agonisten verändern circadianes Verhalten und Stoffwechsel der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/22460951/' },
+      { title: 'Woldt et al., Nat Med 2013 – Rev-erb-alpha, Mitochondrien und Laufleistung; SR9009 100 mg/kg über 30 Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/23852339/' },
+      { title: 'Dierickx et al., PNAS 2019 – SR9009 wirkt auch in Zellen ohne beide REV-ERB-Rezeptoren', url: 'https://pubmed.ncbi.nlm.nih.gov/31127047/' },
+      { title: 'Yu et al., Nat Commun 2021 – nach oraler Gabe Plasmaspiegel unter 0,3 µg/ml, Wirkung möglicherweise auf den Darm begrenzt', url: 'https://pubmed.ncbi.nlm.nih.gov/34493722/' },
+      { title: 'Chen et al., Adv Sci 2025 – orale Gabe, sehr niedrige Exposition außerhalb des Darms', url: 'https://pubmed.ncbi.nlm.nih.gov/40539410/' },
+      { title: 'Wang et al., Theranostics 2020 – Übersicht REV-ERBalpha als Wirkstoffziel, schlechte Bioverfügbarkeit, Off-Target-Aktivität', url: 'https://pubmed.ncbi.nlm.nih.gov/32226546/' },
+      { title: 'Shams Bin Shaheen et al., Case Reports Hepatol 2026 – akutes Leberversagen nach oraler SR9009-Einnahme', url: 'https://pubmed.ncbi.nlm.nih.gov/42750938/' },
+      { title: 'Govil et al., Cureus 2025 – Leberschaden nach Stenabolic (im Titel fälschlich als SARM bezeichnet)', url: 'https://pubmed.ncbi.nlm.nih.gov/40765588/' },
+      { title: 'Van Wagoner et al., JAMA 2017 – Inhaltsstoffe von 44 als SARM verkauften Internetprodukten', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' },
+      { title: 'Geldof et al., Int J Mol Sci 2016 – SR9009 in einem Schwarzmarktprodukt bestätigt, 8 Metaboliten, 1511 Dopingproben ohne Nachweis', url: 'https://pubmed.ncbi.nlm.nih.gov/27706103/' },
+      { title: 'WADA – Prohibited List 2026, S4.4.1 Rev-erb-alpha-Agonisten', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz – SR9009, synonym Stenabolic', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Stenabolic")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
   }
 ];
 
@@ -3277,6 +3861,17 @@ const _EXP_CAT_MAP = {
   'cagrilintide': 'Stoffwechsel',
   'slu-pp-332': 'Exercise',
   'aicar': 'Exercise',
+  'ace-031': 'Exercise',
+  'andarin': 'Exercise',
+  'cardarine': 'Exercise',
+  'dhea': 'Longevity',
+  'eloralintid': 'Stoffwechsel',
+  'hgh-fragment-176-191': 'Exercise',
+  'igf-1-des': 'Exercise',
+  'ligandrol': 'Exercise',
+  'ostarin': 'Exercise',
+  'peg-mgf': 'Exercise',
+  'stenabolic': 'Exercise',
   '5-amino-1mq': 'Exercise',
   'mk-677': 'Exercise',
   'cjc-ipamorelin': 'Exercise', 'cjc-1295-dac': 'Exercise',
