@@ -136,9 +136,9 @@ const KHAVINSON = [
   },
   {
     id: 'kh-chelohart',
-    name: 'Chelohart / Cardiogen',
-    altNames: 'AED-Pro · Ala-Glu-Asp-Pro · Cytomax A-6',
-    class: 'Tetrapeptid, Herzmuskel-Bioregulator',
+    name: 'Chelohart',
+    altNames: 'Cytomax A-6 · Herz-Peptidkomplex',
+    class: 'Herzmuskel-Bioregulator (Peptidkomplex)',
     emoji: '🫀',
     short: 'Bioregulator-Peptid aus Herzgewebe. Soll Kardiomyozyten-Funktion und Regeneration unterstützen.',
     moa: 'Aktiviert herzspezifische Gen-Expression, soll Stoffwechsel der Herzmuskelzellen und Erholung nach Belastung verbessern.',
@@ -156,7 +156,6 @@ const KHAVINSON = [
     ],
     status: 'Forschungspeptid. Nicht zugelassen.',
     sources: [
-      { title: 'Khavinson VK – Cardiogen AEDP Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=cardiogen+khavinson' },
       { title: 'Khavinson VK et al., Adv Gerontol 2013 – Bioregulators Springer', url: 'https://link.springer.com/article/10.1134/S2079057013030065' }
     ],
     community: [

@@ -212,8 +212,8 @@ const AENDERUNGEN = [
   {
     datum: '2026-08-27',
     typ: 'Korrektur',
-    titel: 'Adamax-Folge: zwei Zahlen berichtigt',
-    text: 'In der Folge zu Adamax waren zwei Angaben falsch: Die Fallzahl der LIFT-AD-Hauptanalyse beträgt 287, nicht 312, und der Vergleich mit dem US-Justizministerium datiert auf Januar 2025, nicht 2024. Beides ist im Skript korrigiert, bevor die Folge vertont wurde.'
+    titel: 'Dihexa-Folge: zwei Zahlen berichtigt',
+    text: 'In der Folge zu Dihexa (Folge 75) waren zwei Angaben falsch: Die Fallzahl der LIFT-AD-Hauptanalyse beträgt 287, nicht 312, und der Vergleich mit dem US-Justizministerium datiert auf Januar 2025, nicht 2024. Beides ist im Skript korrigiert, bevor die Folge vertont wurde.'
   },
   {
     datum: '2026-08-02',

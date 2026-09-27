@@ -2010,8 +2010,8 @@ const EXPERIMENTAL = [
     ],
     status: 'In DE/EU nicht zugelassen; Entwicklung nach Phase 2 eingestellt.',
     sources: [
-      { title: 'Ng et al., Diabetes Obes Metab 2000 – Lipolytische Wirkung des GH-Fragments AOD-9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11225653/' },
-      { title: 'Heffernan et al., Endocrinology 2001 – Effekte von AOD9604 auf den Fettstoffwechsel', url: 'https://pubmed.ncbi.nlm.nih.gov/11713208/' }
+      { title: 'Ng et al., Horm Res 2000 – Stoffwechselstudien zur lipolytischen Domäne AOD9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11146367/' },
+      { title: 'Heffernan et al., Endocrinology 2001 – Effekte von AOD9604 auf den Fettstoffwechsel', url: 'https://pubmed.ncbi.nlm.nih.gov/11713213/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
@@ -2024,8 +2024,8 @@ const EXPERIMENTAL = [
         lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
         note: 'Der Podcast von Paul Höser (Folge 9) · mit Paul & Paula. Frische KI-Dialogfolge mit Fachrecherche. Elegantes Konzept (das Fett-Endstück des Wachstumshormons ohne IGF-1) und erstaunlich gute Sicherheit über ~900 Studien-Teilnehmer – aber die große Phase-2-Humanstudie verfehlte ihren Gewichtsverlust-Endpunkt (getestet als Tablette, evtl. ein Bioverfügbarkeits-Problem). Fazit: wahrscheinlich harmlos, aber unbewiesen wirksam; im Sport ein Doping-Reizthema (Essendon). Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
         sources: [
-          { title: 'Ng et al., Diabetes Obes Metab 2000 – Lipolytische Wirkung des GH-Fragments AOD-9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11225653/' },
-          { title: 'Heffernan et al., Endocrinology 2001 – AOD-9604 & Beta-3-Adrenozeptoren im Fettgewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/11713208/' },
+          { title: 'Ng et al., Horm Res 2000 – Stoffwechselstudien zur lipolytischen Domäne AOD9604', url: 'https://pubmed.ncbi.nlm.nih.gov/11146367/' },
+          { title: 'Heffernan et al., Endocrinology 2001 – AOD-9604 & Beta-3-Adrenozeptoren im Fettgewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/11713213/' },
           { title: 'Metabolic Pharmaceuticals – Phase-2b-Adipositas-Studie (verfehlter Endpunkt)', url: 'https://www.biospace.com/metabolic-pharmaceuticals-s-obesity-trial-update-first-100-subjects-complete-the-phase-2b-trial-of-aod9604' },
           { title: 'WADA-Statement zu AOD-9604 (Verbotsliste)', url: 'https://www.wada-ama.org/en/news/wada-statement-substance-aod-9604' }
         ]
@@ -2308,8 +2308,9 @@ const EXPERIMENTAL = [
     ],
     status: 'Experimentelle Forschungssubstanz; nicht zugelassen. Schlüsselstudie zurückgezogen.',
     sources: [
-      { title: 'Outliyr – Best Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' },
-      { title: 'PeptPedia – Nootropic Peptides (Dihexa)', url: 'https://peptpedia.org/peptide-class/nootropic-peptides' }
+      { title: 'Benoist et al., J Pharmacol Exp Ther 2014 – HGF/c-Met als Wirkweg der Angiotensin-IV-Peptide (2025 zurückgezogen)', url: 'https://pubmed.ncbi.nlm.nih.gov/25187433/' },
+      { title: 'J Pharmacol Exp Ther 2025 – Rückzugsnotiz zur Arbeit von 2014', url: 'https://pubmed.ncbi.nlm.nih.gov/40312093/' },
+      { title: 'Porsteinsson et al., J Alzheimers Dis Rep 2025 – Fosgonimeton bei leichter bis mittelschwerer Alzheimer-Krankheit (LIFT-AD)', url: 'https://pubmed.ncbi.nlm.nih.gov/41393340/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
@@ -2321,8 +2322,8 @@ const EXPERIMENTAL = [
     altNames: 'Cerebrolysin-Fragment, CNTF-Mimetikum',
     class: 'Neurotrophes Peptidfragment (Neurogenese-Förderer)',
     emoji: '🧠',
-    short: 'Ein kleines, aus Cerebrolysin abgeleitetes Peptid, das die Neubildung von Nervenzellen anregen soll – nootropisch spannend, aber bislang präklinisch.',
-    moa: 'P21 ist ein synthetisches Fragment, das die Wirkung des ciliären neurotrophen Faktors (CNTF) nachahmt. Im Tiermodell förderte es – auch intranasal – die Bildung neuer Nervenzellen im Hippocampus (Neurogenese), steigerte BDNF und verbesserte Gedächtnisleistungen. Es gilt als kleineres, stabileres „Destillat" der Cerebrolysin-Idee. Human-Daten fehlen bislang.',
+    short: 'Ein kleines, vom Nervenwachstumsfaktor CNTF abgeleitetes Peptid aus der Alzheimer-Forschung, das die Neubildung von Nervenzellen anregen soll – nootropisch spannend, aber bislang präklinisch.',
+    moa: 'P21 ist ein synthetisches Fragment, das die Wirkung des ciliären neurotrophen Faktors (CNTF) nachahmt. Im Tiermodell förderte es – auch intranasal – die Bildung neuer Nervenzellen im Hippocampus (Neurogenese), steigerte BDNF und verbesserte Gedächtnisleistungen. Entwickelt wurde es in der Alzheimer-Forschung der Arbeitsgruppe um Khalid Iqbal; eine Adamantan-Endgruppe soll es stabiler und hirngängiger machen. Human-Daten fehlen bislang.',
     benefits: [
       'Förderte im Tiermodell die Neurogenese (neue Nervenzellen) im Hippocampus',
       'Steigert BDNF und verbesserte in Studien die Gedächtnisleistung (präklinisch)',
@@ -2335,8 +2336,10 @@ const EXPERIMENTAL = [
     ],
     status: 'Präklinische Forschungssubstanz; nicht zugelassen.',
     sources: [
-      { title: 'P21 & Neurogenese (Studie, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3976982/' },
-      { title: 'Outliyr – Nootropic Brain Peptides 2026', url: 'https://outliyr.com/nootropic-brain-peptides' }
+      { title: 'Kazim et al., Neurobiol Dis 2014 – orale Langzeitgabe von P021 in dreifach transgenen Alzheimer-Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/25046994/' },
+      { title: 'Bolognin et al., Neurobiol Aging 2014 – P021 gegen altersbedingten Gedächtnisabbau', url: 'https://pubmed.ncbi.nlm.nih.gov/24702821/' },
+      { title: 'Kazim et al., Sci Rep 2017 – P021 im Down-Syndrom-Mausmodell Ts65Dn', url: 'https://pubmed.ncbi.nlm.nih.gov/28368015/' },
+      { title: 'Kazim & Iqbal, Mol Neurodegener 2016 – Übersicht zu neurotrophen Kleinmolekül-Mimetika', url: 'https://pubmed.ncbi.nlm.nih.gov/27400746/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
