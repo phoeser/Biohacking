@@ -1339,7 +1339,7 @@ const SUPPLEMENTS = [
       'Nicht übertreiben – Nieren regulieren',
       'Vorsicht bei Bluthochdruck (Natrium)'
     ],
-    dosage: 'Natrium 1–3 g, Kalium 500–1.000 mg, Magnesium 200 mg täglich.',
+    dosage: 'Natrium 1–3 g, vor allem bei starkem Schwitzen; Kalium über Nahrungsergänzung höchstens 500 mg pro Tag (Höchstmengenvorschlag des BfR); Magnesium 200 mg täglich.',
     intake: 'Über den Tag verteilt in Wasser. Beim Sport wichtig.',
     synergies: ['magnesium'],
     avoid: [],

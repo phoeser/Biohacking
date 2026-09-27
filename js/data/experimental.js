@@ -416,44 +416,44 @@ const EXPERIMENTAL = [
     altNames: 'CJC/Ipa, GHRH/GHRP-Stack',
     class: 'GHRH-Analog (CJC-1295) + GHRP / Ghrelin-Mimetic (Ipamorelin)',
     emoji: '🧪',
-    short: 'Der beliebte GH-Stack: GHRH-Analog plus selektives Ghrelin-Peptid heben die eigene Wachstumshormon-Ausschüttung pulsatil an – geschätzt für Tiefschlaf, Regeneration und Bindegewebe, ohne Cortisol-/Prolaktin-Anstieg.',
-    moa: 'CJC-1295 ist ein langwirksames Analogon des Wachstumshormon-Releasing-Hormons (GHRH) und hebt den GH-Grundspiegel an; die DAC-Variante bindet an Albumin und verlängert die Halbwertszeit auf ~6–8 Tage (eine Injektion pro Woche). Ipamorelin ist dagegen ein selektives Ghrelin-Mimetikum (Pentapeptid), das den Rezeptor GHSR-1a aktiviert und kurze, pulsatile GH-Spitzen auslöst (Halbwertszeit ~2 h), laut Quelllage ohne nennenswerten Anstieg von Cortisol oder Prolaktin. Beide stimulieren über unterschiedliche Rezeptorwege dieselbe Achse und wirken daher synergistisch: CJC-1295 liefert die anhaltende Grundanhebung, Ipamorelin die scharfen Pulse darauf. Das Profil ähnelt dem jugendlichen GH-Muster; da das Somatostatin-Feedback erhalten bleibt, gilt der Ansatz als physiologischer als die Gabe von exogenem HGH.',
+    short: 'Der beliebte GH-Stack: ein GHRH-Analogon plus das selektive Ghrelin-Mimetikum Ipamorelin, die über zwei Rezeptoren die eigene Wachstumshormon-Ausschüttung anstoßen. Die Synergie beider Signalwege ist am Menschen gezeigt, Ipamorelin hob in Studien Cortisol und Prolaktin kaum an – zur Kombination selbst gibt es aber keine Humanstudie.',
+    moa: 'CJC-1295 ist ein Analogon der ersten 29 Aminosäuren des Wachstumshormon-Releasing-Hormons (GHRH) mit 4 Aminosäureaustauschen gegen schnellen Abbau; es besetzt den GHRH-Rezeptor der Hypophyse. Im Stack mit Ipamorelin wird laut aktueller Übersicht meist die kurz wirksame Form ohne DAC (Mod GRF 1-29) verwendet, die DAC-Variante bindet an Albumin und hat eine Halbwertszeit von 5,8 bis 8,1 Tagen. Ipamorelin ist ein Pentapeptid, das den Ghrelin-Rezeptor GHSR-1a aktiviert und beim Menschen einen einzelnen GH-Puls auslöst (Halbwertszeit 2 Stunden); im Tier setzte es anders als GHRP-2 und GHRP-6 kein ACTH oder Cortisol frei, Prolaktin blieb unverändert. Dass ein GHRH-Signal und ein Ghrelin-Signal synergistisch wirken, ist am Menschen für die Substanzklassen belegt (Bowers 1990, Veldhuis 2009), nicht für genau diese Kombination. Die Rückkopplung über Somatostatin und IGF-1 bleibt erhalten, anders als bei exogenem HGH.',
     benefits: [
-      'Hebt GH und IGF-1 über kombinierte Grundanhebung plus pulsatile Spitzen – Mechanismus, kein belegter Endpunkt',
-      'Bessere Schlafqualität (mehr Tiefschlaf) bei abendlicher Anwendung – häufigster berichteter Effekt',
-      'Unterstützt Muskelaufbau über gesteigerte Proteinsynthese (meist ab Woche 6–12)',
-      'Moderater Fettabbau durch GH-vermittelte Lipolyse, v.a. im Kaloriendefizit',
-      'Bessere Regeneration von Bindegewebe, Sehnen und Knorpel (mehr Kollagensynthese)',
-      'Positive Effekte auf Hautqualität und langfristig Knochendichte',
-      'Kein Eingriff in die Testosteron-Achse, daher laut Quelle keine PCT nötig'
+      'Ipamorelin setzt beim Menschen verlässlich Wachstumshormon frei: ein einzelner Puls, Halbwertszeit 2 Stunden (Gobburu 1999, randomisierte Phase-1-Studie, 5 Stufen à 8 gesunde Männer)',
+      'Selektiv: im Tier auch bei mehr als 200-facher wirksamer Menge kein ACTH- oder Cortisolanstieg, Prolaktin, LH, FSH und TSH unverändert (Raun 1998); am Menschen laut Übersicht keine nennenswerten Effekte auf andere Hypophysenhormone',
+      'GHRH-Signal und Ghrelin-Signal wirken am Menschen synergistisch auf die GH-Freisetzung (Bowers 1990, 18 Männer; Veldhuis & Bowers 2009, 47 Männer) – belegt für die Substanzklassen, nicht für diesen Stack',
+      'CJC-1295 mit DAC hob in zwei randomisierten Studien an Gesunden GH 2- bis 10-fach und IGF-1 1,5- bis 3-fach über Tage (Teichman 2006) – Hormonspiegel, kein klinischer Endpunkt',
+      'Ipamorelin bis zu 7 Tage gut verträglich, Nebenwirkungen nicht häufiger als unter Placebo (Beck 2014, Phase 2, 114 Patienten)',
+      'Anwenderberichte: tieferer Schlaf, bessere Regeneration, festere Haut, messbar höheres IGF-1 – unkontrolliert, nie in Studien geprüft'
     ],
     risks: [
-      'Meist milde, reversible Effekte wie leichte Wassereinlagerung oder Kribbeln.',
-      'Langzeit-/Zulassungsdaten fehlen; im Wettkampfsport verboten.',
-      'Als Research-Ware auf Reinheit achten.'
+      'Keine einzige Humanstudie zur Kombination; die meist verwendete Form ohne DAC ist am Menschen nicht untersucht (Dominikowski 2026, unterste Evidenzstufe).',
+      'Die einzige Wirksamkeitsstudie zu Ipamorelin (Darmlähmung nach Operation) verfehlte ihren Endpunkt; keine Daten zu Schlaf, Muskel, Fett oder Haut.',
+      'Berichtet: Reaktionen an der Einstichstelle, Wärmegefühl, Kribbeln, Wassereinlagerung; die Insulinempfindlichkeit kann sinken.',
+      'FDA nennt schwerwiegende Ereignisse bis zum Tod nach intravenösem Ipamorelin und bei CJC-1295 erhöhten Puls und Gefäßerweiterungsreaktionen; Langzeit- und Krebsdaten fehlen, bei aktiver Krebserkrankung heikel.',
+      'Graumarktware: in einer Auswertung von 6441 Proben aus 14 Peptiden 41,6 bis 71,1 % mit Qualitätsmängeln, 15 % mit Endotoxin (Preprint 2026).'
     ],
-    status: 'Kein zugelassenes Arzneimittel; Forschungs-Peptide.',
+    status: 'In DE, EU und USA nicht als Arzneimittel zugelassen; Forschungspeptide. Im Sport jederzeit verboten (WADA 2026 S2.2.4; in DE CJC-1295, mod-GRF und Ipamorelin namentlich in der Anlage des Anti-Doping-Gesetzes). FDA: Ipamorelin seit 29.09.2023 in Kategorie 2 der Wirkstoffe mit möglichen erheblichen Sicherheitsrisiken.',
     sources: [
-      { title: 'Sigalos JT, Pastuszak AW – Anti-aging peptides review 2018', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' },
-      { title: 'Teichman SL et al., J Clin Endocrinol Metab 2006 – CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
+      { title: 'Sigalos JT, Pastuszak AW, Sex Med Rev 2018 – Sicherheit und Wirksamkeit von GH-Sekretagoga', url: 'https://pubmed.ncbi.nlm.nih.gov/28400207/' },
+      { title: 'Teichman SL et al., J Clin Endocrinol Metab 2006 – CJC-1295 hebt GH und IGF-1 über Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' },
+      { title: 'Raun K et al., Eur J Endocrinol 1998 – Ipamorelin, der erste selektive GH-Freisetzer', url: 'https://pubmed.ncbi.nlm.nih.gov/9849822/' },
+      { title: 'Gobburu JV et al., Pharm Res 1999 – Ipamorelin bei gesunden Probanden, Halbwertszeit 2 Stunden', url: 'https://pubmed.ncbi.nlm.nih.gov/10496658/' },
+      { title: 'Beck DE et al., Int J Colorectal Dis 2014 – Ipamorelin nach Darmoperation, Phase 2, Endpunkt verfehlt', url: 'https://pubmed.ncbi.nlm.nih.gov/25331030/' },
+      { title: 'Bowers CY et al., J Clin Endocrinol Metab 1990 – Synergie von GHRH und GHRP am Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/2108187/' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
       { title: 'biolabshop (CJC/Ipamorelin)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
-      {
-        title: 'CJC-1295 + Ipamorelin: Der beliebte Wachstumshormon-Stack im Faktencheck',
-        audio: 'audio/cjc-ipamorelin-podcast.mp3',
-        spotify: '1lAy2Hc9kF0X2YQijcYKg5',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 17) · mit Paul & Paula. Frische, positive KI-Dialogfolge über den beliebten sanften GH-Stack: CJC-1295 (GHRH-Analogon) hebt die Grundlinie, Ipamorelin (sauberes Ghrelin-Mimetikum, kaum Cortisol/Prolaktin/Hunger) setzt die Pulse obendrauf – zusammen bauen sie das jugendliche, pulsierende Wachstumshormon-Muster nach. Warum das physiologischer ist als direktes HGH, der Unterschied CJC mit DAC vs. ohne DAC (Mod GRF), Tiefschlaf/Haut/Regeneration – plus die Longevity-Nuance: moderat und pulsierend schlägt dauerhaft maximal. Reine Information, keine Dosier- oder Anwendungsempfehlung; im Sport verboten.',
-        sources: [
-          { title: 'Sigalos & Pastuszak 2018 – Review zu Anti-Aging-Peptiden (GH-Sekretagoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/28676436/' },
+      { title: 'CJC-1295 + Ipamorelin: Der beliebte Wachstumshormon-Stack im Faktencheck', audio: 'audio/cjc-ipamorelin-podcast.mp3', spotify: '1lAy2Hc9kF0X2YQijcYKg5', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 17) · mit Paul & Paula. Frische, positive KI-Dialogfolge über den beliebten sanften GH-Stack: CJC-1295 (GHRH-Analogon) hebt die Grundlinie, Ipamorelin (sauberes Ghrelin-Mimetikum, kaum Cortisol/Prolaktin/Hunger) setzt die Pulse obendrauf – zusammen bauen sie das jugendliche, pulsierende Wachstumshormon-Muster nach. Warum das physiologischer ist als direktes HGH, der Unterschied CJC mit DAC vs. ohne DAC (Mod GRF), Tiefschlaf/Haut/Regeneration – plus die Longevity-Nuance: moderat und pulsierend schlägt dauerhaft maximal. Reine Information, keine Dosier- oder Anwendungsempfehlung; im Sport verboten.', sources: [
+          { title: 'Sigalos & Pastuszak 2018 – Review zu Anti-Aging-Peptiden (GH-Sekretagoga)', url: 'https://pubmed.ncbi.nlm.nih.gov/28400207/' },
           { title: 'Teichman et al. 2006 – CJC-1295 Pharmakokinetik/Sicherheit (Phase 1)', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'bpc-157',
@@ -635,35 +635,34 @@ const EXPERIMENTAL = [
     class: 'Peptid-Blend – Kupferpeptid + Wolverine-Duo für Haut & Regeneration',
     emoji: '✨',
     short: 'Der gehypteste Beauty-Stack der Peptid-Szene: das Kupferpeptid GHK-Cu plus das Wolverine-Duo BPC-157 + TB-500 – Ziel: Hautverjüngung von innen.',
-    moa: 'Dreier-Logik der Geweberegeneration: TB-500 mobilisiert Reparaturzellen (Aktin-System), BPC-157 baut die Versorgung (Angiogenese über VEGF, Fibroblasten), GHK-Cu liefert den Bauplan – es moduliert ~4000 Gene Richtung Reparatur (Pickart 2015), aktiviert Kollagen-/Elastin-Synthese und transportiert Kupfer als Kofaktor für Lysyl-Oxidase und Superoxid-Dismutase. Der GHK-Spiegel im Blut sinkt mit dem Alter drastisch (Jung-Alt-Biomarker). WICHTIG: Zur Dreier-KOMBINATION existieren keine publizierten Studien – die Evidenz gilt den Einzelteilen (GHK-Cu: Zell-/Kosmetikdaten; BPC-157: Tiermodelle; TB-500: Thymosin-Beta-4-Wunddaten).',
+    moa: 'Dreier-Logik der Geweberegeneration, wie die Szene sie beschreibt: TB-500 (Fragment von Thymosin Beta-4) soll Reparaturzellen beweglich machen, BPC-157 die Gefäßneubildung und Bindegewebszellen fördern, GHK-Cu den Aufbau von Kollagen und Elastin steuern. GHK-Cu ist ein körpereigenes Tripeptid, das Kupfer bindet – Kofaktor u. a. der Superoxid-Dismutase und der Kollagen-Quervernetzung. Sein Plasmaspiegel sinkt von etwa 200 ng/mL mit 20 auf 80 ng/mL mit 60 Jahren (Pickart & Margolina 2018). Laut Connectivity-Map-Daten aus Krebszelllinien verändert GHK die Aktivität von mindestens 4000 Genen (Pickart 2015, Auswertung der Entdeckerin). WICHTIG: Zur Dreier-KOMBINATION existieren keine publizierten Studien – die Evidenz gilt den Einzelteilen (GHK-Cu: Zell- und topische Kosmetikdaten; BPC-157: Tiermodelle; TB-500: Wundheilungsdaten der Muttersubstanz Thymosin Beta-4).',
     benefits: [
-      'Berichtet: pralleres Hautbild, feinere Poren, weniger Knitterfältchen, schnellere Heilung kleiner Makel (ab ~3–6 Wochen).',
-      'Berichtet: vollere Haare und Nägel (GHK-Cu verlängert im Modell die Haarwachstumsphase).',
-      'Drei komplementäre Regenerations-Achsen in einem Vial (Mobilisieren + Versorgen + Bauen).',
-      'Kosmetik-Einstieg ohne Nadel möglich: GHK-Cu-Seren sind die datenstärkste, legale Route.'
+      'Berichtet: pralleres Hautbild, feinere Poren, weniger Knitterfältchen, schnellere Heilung kleiner Makel – erste Frische nach 2 bis 3 Wochen, Haupteffekt nach 6 bis 8 Wochen (Erfahrungsberichte, keine Studien).',
+      'GHK-Cu als Creme: 2 randomisierte Studien mit weniger Faltenvolumen und Faltentiefe gegenüber Kontrollen (systematische Übersicht Mokhtar 2026).',
+      'Berichtet: vollere Haare und Nägel; im Labor verlängerte das verwandte Kupferpeptid AHK-Cu isolierte menschliche Haarfollikel (Pyo 2007).',
+      'Drei komplementäre Regenerations-Achsen in einem Blend (Mobilisieren, Versorgen, Bauen) – als Konzept schlüssig, als Kombination ungeprüft.'
     ],
     risks: [
-      'Zur Kombination existiert keine einzige Studie – reine Anwender-Empirie auf plausibler Einzelteil-Basis.',
-      'Kupferpeptid kann an der Einstichstelle brennen/röten; Stabilität der Mischung im Vial ungeprüft.',
-      'Angiogenese-Regel: bei aktiven Krebserkrankungen tabu; Graumarkt (Reinheit prüfen), im Sport verboten.'
+      'Zur Kombination existiert keine einzige Studie – reine Anwender-Empirie auf Basis von Einzelteil-Daten.',
+      'Keine Langzeit-Sicherheitsdaten zur Injektion; die FDA nennt Immunreaktionen, Zusammenlagerung und Verunreinigungen als mögliche Risiken.',
+      'Kupferpeptid kann an der Einstichstelle brennen und röten; Stabilität der Mischung im Fläschchen ungeprüft.',
+      'Gefäß- und zellwanderungsfördernd: bei aktiver Krebserkrankung meiden; Graumarkt-Ware mit unklarer Reinheit; im Sport jederzeit verboten (BPC-157 in S0, TB-500 in S2.3).'
     ],
-    status: 'Research-Blend, nicht zugelassen. Einzelteile teils FDA-Category-2 (Compounding untersagt).',
+    status: 'Research-Blend, keine der drei Komponenten als Arzneimittel zugelassen. GHK-Cu ist als Kosmetik-Wirkstoff verbreitet. Die FDA führt BPC-157, TB-500 und injizierbares GHK-Cu unter Rezeptursubstanzen mit möglichen erheblichen Sicherheitsrisiken, inzwischen als zurückgezogene Nominierungen (früher Kategorie 2). WADA-Liste 2026: BPC-157 (S0) und TB-500 (S2.3) jederzeit verboten.',
     sources: [
-      { title: 'Pickart & Margolina 2018 – GHK-Cu Regenerations-Review', url: 'https://pubmed.ncbi.nlm.nih.gov/30022107/' },
-      { title: 'Peptide Protocol Wiki – The Glow Blend (Evidenz-Guide)', url: 'https://www.peptideprotocolwiki.com/blog/glow-blend' }
+      { title: 'Pickart & Margolina, Int J Mol Sci 2018 – GHK-Cu: Regeneration und Gendaten', url: 'https://pubmed.ncbi.nlm.nih.gov/29986520/' },
+      { title: 'Mokhtar et al., Aesthet Surg J 2026 – systematische Übersicht GHK-Cu in der Ästhetik (20 Studien, 2 RCTs)', url: 'https://pubmed.ncbi.nlm.nih.gov/42619529/' },
+      { title: 'Vasireddi et al., HSS J 2025 – systematischer Review BPC-157', url: 'https://pubmed.ncbi.nlm.nih.gov/40756949/' },
+      { title: 'Treadwell et al., Ann N Y Acad Sci 2012 – Thymosin Beta-4 und Wundheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/23050815/' },
+      { title: 'Tewari et al., Am J Sports Med 2026 – Übersicht zu sechs Szene-Peptiden inkl. BPC-157, TB-500, GHK-Cu', url: 'https://pubmed.ncbi.nlm.nih.gov/42578445/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'GLOW (GHK-Cu + BPC-157 + TB-500): Der Beauty-Stack im Faktencheck',
-        audio: 'audio/glow-podcast.mp3',
-        spotify: '1yvGmRZsYrAmEjZm4InKks',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 51) · mit Paul & Paula. Loren Pickarts Entdeckung von 1973, die 4000-Gene-Analyse, Kupfer als Zündschlüssel der Kollagen-Quervernetzung, die Bauarbeiter-Straßen-Bauplan-Logik – und die ehrliche Einordnung: keine Kombi-Studien. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 22.08.2026, 10:00)'
-      }
-    ]
+      { title: 'GLOW (GHK-Cu + BPC-157 + TB-500): Der Beauty-Stack im Faktencheck', audio: 'audio/glow-podcast.mp3', spotify: '1yvGmRZsYrAmEjZm4InKks', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 51) · mit Paul & Paula. Loren Pickarts Entdeckung von 1973, die 4000-Gene-Analyse, Kupfer als Zündschlüssel der Kollagen-Quervernetzung, die Bauarbeiter-Straßen-Bauplan-Logik – und die ehrliche Einordnung: keine Kombi-Studien. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 22.08.2026, 10:00)' }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'klow-stack',
@@ -1463,41 +1462,39 @@ const EXPERIMENTAL = [
     short: 'Ein „Sport-Mimetikum": Es aktiviert im Labor die zellulären Energie-Schalter (ERR). Mehr Ausdauer und Fettabbau sind bislang ausschließlich Mausdaten – am Menschen ist die Substanz nie untersucht worden.',
     moa: 'Selektiver Agonist der Estrogen-Related Receptors (ERRα, β, γ) – Transkriptionsfaktoren, die mitochondriale Biogenese und Fettoxidation hochregulieren.',
     benefits: [
-      'Erhöht Ausdauer in Mäusen ohne Training (+45–50%)',
-      'Reduzierte in Mäusen die Fettmasse und verbesserte die Glukose-Toleranz',
-      'Erhöhte im Mausmodell oxidative Muskelfasern (Typ I)',
-      'Diskutiertes Potenzial gegen Sarkopenie und Stoffwechselerkrankungen – bisher Hypothese'
+      'Mehr Ausdauer ohne Training im Tierversuch: Nach einer einzigen Gabe liefen Mäuse rund 70 % länger und 45 % weiter (Billon 2023, 6 Tiere je Gruppe).',
+      'Wirkweg im Tier genetisch abgesichert: Ohne ERRα im Muskel blieb der Ausdauergewinn aus (Billon 2023).',
+      'Mehr oxidative Muskelfasern vom Typ IIa und mehr Mitochondrien-DNA im Mausmuskel (Billon 2023).',
+      'Übergewichtige Mäuse wogen nach 28 Tagen rund 12 % weniger, setzten kaum Fett an und wurden insulinempfindlicher, bei gleicher Futteraufnahme (Billon 2024).',
+      'Diskutiertes Potenzial bei Herzschwäche, Nierenalterung, Muskelschwund und Stoffwechselerkrankungen – bisher nur Tier- und Zelldaten (Xu 2024, Wang 2023, Bonanni 2025).'
     ],
     risks: [
-      'Noch reine Forschung – Humanstudien fehlen bislang.',
-      'Langzeitwirkung noch offen; als Research-Ware auf Qualität achten.'
+      'Keine Humanstudien und keine Sicherheitsdaten am Menschen; im Tier nur Kurzzeitdaten.',
+      'Laut den Entwicklern nicht oral bioverfügbar – für Tabletten fehlt die Grundlage (Billon 2026).',
+      'Research-Ware ohne pharmazeutische Qualitätskontrolle; Reinheit und Gehalt unklar.',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, Klasse S0).'
     ],
-    status: 'Frühe präklinische Forschung; noch keine Anwendung am Menschen zugelassen.',
+    status: 'Frühe präklinische Forschung, keine klinischen Studien publiziert; nirgends als Arzneimittel zugelassen, als Research-Chemical verkauft. Im Sport fällt es als nicht zugelassene Substanz unter die Klasse S0 der WADA-Liste 2026 (jederzeit verboten).',
     sources: [
-      { title: 'Billon C et al., Nature Metabolism 2024 – SLU-PP-332 endurance', url: 'https://www.nature.com/articles/s42255-024-01059-y' },
-      { title: 'Pharmakologische Charakterisierung ERR-Agonisten', url: 'https://pubmed.ncbi.nlm.nih.gov/37563174/' }
+      { title: 'Billon C et al., ACS Chem Biol 2023 – SLU-PP-332 steigert Ausdauer bei Mäusen, ERRα-abhängig', url: 'https://pubmed.ncbi.nlm.nih.gov/36988910/' },
+      { title: 'Billon C et al., J Pharmacol Exp Ther 2024 – SLU-PP-332 bei Übergewicht und metabolischem Syndrom (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/37739806/' },
+      { title: 'Xu W et al., Circulation 2024 – ERR-Agonisten im Mausmodell der Herzschwäche', url: 'https://pubmed.ncbi.nlm.nih.gov/37961903/' },
+      { title: 'Billon C et al., J Pharmacol Exp Ther 2026 – SLU-PP-915; SLU-PP-332 nicht oral bioverfügbar', url: 'https://pubmed.ncbi.nlm.nih.gov/41421047/' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'Dosing SLU-PP-332 + Retatrutide', url: 'https://www.youtube.com/shorts/T6smpOkB4m0' },
       { title: 'biolabshop (Suche „SLU-PP-332")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'KI-Podcast: SLU-PP-332 – „Sport in der Spritze"?',
-        audio: 'audio/slu-pp-332-podcast.mp3',
-        spotify: '78sborgd6xvQKQVOI9Qu8m',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 5) · mit Paul & Paula. Frische, positive KI-Dialogfolge über SLU-PP-332, das „Exercise-Mimetikum": ein kleines Molekül, das über die ERR-Schalter die Anpassung an Ausdauertraining nachahmt – mehr Mitochondrien, mehr Fettverbrennung, mehr Ausdauer. Was die Nature-Metabolism-Studie 2024 (Billon et al.) in Mäusen zeigte, die Medizin-Vision „Bewegung in Tablettenform" und der ehrliche Rahmen: bisher nur Tierdaten. Reine Information, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'KI-Podcast: SLU-PP-332 – „Sport in der Spritze"?', audio: 'audio/slu-pp-332-podcast.mp3', spotify: '78sborgd6xvQKQVOI9Qu8m', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 5) · mit Paul & Paula. Frische, positive KI-Dialogfolge über SLU-PP-332, das „Exercise-Mimetikum": ein kleines Molekül, das über die ERR-Schalter die Anpassung an Ausdauertraining nachahmt – mehr Mitochondrien, mehr Fettverbrennung, mehr Ausdauer. Was die Nature-Metabolism-Studie 2024 (Billon et al.) in Mäusen zeigte, die Medizin-Vision „Bewegung in Tablettenform" und der ehrliche Rahmen: bisher nur Tierdaten. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Peptide of The Week – SLU-PP-332: Fat Burn, Endurance', url: 'https://open.spotify.com/episode/4njZIXekQ9KgMLJsKBr58I' },
           { title: 'The Hunter Williams Podcast – SLU-PP-332 Dosage Update', url: 'https://open.spotify.com/episode/5lgJO2L08XJnkiTUSSHQnV' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/2sBfi0qEVnQVWEwYox6ouo' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/7pO3L22D0kWQbmnvHXUNLz' },
           { title: 'Weitere Folge', url: 'https://open.spotify.com/episode/6OJ4FMAtEx8jau6nKmrf6y' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: '5-amino-1mq',
@@ -1907,43 +1904,41 @@ const EXPERIMENTAL = [
     altNames: 'CJC-1295 DAC, DAC-GRF, Drug Affinity Complex GRF',
     class: 'Langwirksames GHRH-Analogon (Albumin-gebunden)',
     emoji: '⚓',
-    short: 'Das GHRH-Analogon mit eingebautem Langzeit-Anker: Der Drug Affinity Complex bindet an Albumin und dehnt die Wirkzeit auf 6–8 Tage – das bequemste Wachstumshormon-Peptid überhaupt.',
-    moa: 'CJC-1295 mit DAC ist Mod GRF 1-29 plus einem Maleimid-Anker (Drug Affinity Complex), der sich kovalent an das Bluteiweiß Albumin bindet. Da Albumin rund drei Wochen im Blut zirkuliert, verlängert sich die Halbwertszeit des Peptids von etwa 30 Minuten auf 6–8 Tage. Es bindet an den GHRH-Rezeptor der Hypophyse und hebt die Wachstumshormon-Ausschüttung dauerhaft an („GH-Bleed" statt reiner Pulse) – die pulsatile Grundstruktur bleibt dabei erhalten, läuft aber auf angehobenem Sockel. IGF-1 steigt messbar und bleibt nach einer Einzelgabe bis zu 11 Tage erhöht (Teichman, JCEM 2006). Die körpereigene Rückkopplung über Somatostatin bleibt intakt.',
+    short: 'Das GHRH-Analogon mit eingebautem Langzeit-Anker: Der Drug Affinity Complex bindet an Albumin und dehnt die Halbwertszeit auf 5,8 bis 8,1 Tage. In zwei randomisierten Studien hob eine einzige Gabe GH und IGF-1 über Tage, die natürlichen Pulse blieben erhalten – Wirksamkeitsdaten jenseits der Hormonspiegel gibt es nicht.',
+    moa: 'CJC-1295 ist eine an 4 Stellen veränderte Form der ersten 29 Aminosäuren von GHRH, an deren Ende ein Lysin mit einer reaktiven Maleimid-Gruppe sitzt (Drug Affinity Complex). Nach der Gabe bindet diese Gruppe fest an die freie Thiolgruppe an Cystein 34 des Albumins; das Peptid ist so vor raschem Abbau geschützt, die Halbwertszeit lag beim Menschen bei 5,8 bis 8,1 Tagen (Teichman 2006). Es aktiviert den GHRH-Rezeptor der Hypophyse und steigert die Ausschüttung von Wachstumshormon und damit IGF-1. Die Pulse bleiben erhalten: Pulsfrequenz und Pulshöhe waren unverändert, der Talspiegel stieg 7,5-fach, das mittlere GH um 46 %, IGF-1 um 45 % (Ionescu & Frohman 2006). Die Rückkopplung über Somatostatin und IGF-1 bleibt intakt, anders als bei exogenem HGH.',
     benefits: [
-      'Nur 1–2 Injektionen pro Woche statt täglicher Gaben – maximale Praxistauglichkeit.',
-      'Humandaten: 2–10-faches Wachstumshormon und 1,5–3-faches IGF-1 über bis zu 11 Tage nach einer Gabe (Teichman, JCEM 2006).',
-      'Planbarer, gut messbarer IGF-1-Anstieg – ideal für datengetriebene Protokolle.',
-      'Stimuliert die eigene Achse statt sie zu ersetzen – Rückkopplung bleibt aktiv (Unterschied zu HGH).',
-      'Berichtete Effekte: tieferer Schlaf, schnellere Regeneration, bessere Haut und Nägel.',
-      'Gleiche Anker-Technologie, die heute auch langwirksame GLP-1-Medikamente nutzen.'
+      'Humandaten aus zwei randomisierten, placebokontrollierten Studien: nach einer Gabe GH 2- bis 10-fach für 6 Tage oder länger, IGF-1 1,5- bis 3-fach für 9 bis 11 Tage (Teichman 2006, Gesunde 21 bis 61 Jahre)',
+      'Lange Wirkdauer durch Albuminbindung: Halbwertszeit 5,8 bis 8,1 Tage; nach mehreren Gaben IGF-1 bis zu 28 Tage über Ausgangswert',
+      'Natürliche Pulsatilität bleibt erhalten, der Zuwachs kommt über den Grundpegel (Ionescu & Frohman 2006, nächtliche Profile alle 20 Minuten)',
+      'Stimuliert die eigene Achse statt sie zu ersetzen – die Rückkopplung bleibt aktiv (Unterschied zu HGH)',
+      'Gleiches Grundprinzip wie langwirksame GLP-1-Medikamente (Albuminbindung), aber andere Technik: feste Maleimid-Bindung statt Fettsäure',
+      'Anwenderberichte: tieferer Schlaf, schnellere Erholung, bessere Haut und Nägel, messbar höheres IGF-1 – unkontrolliert, nie in Studien geprüft'
     ],
     risks: [
-      'Dauersignal statt reiner Pulse („GH-Bleed") – die physiologische Eleganz der Pulse geht teilweise verloren.',
-      'Häufig Rötung/Quaddeln an der Einstichstelle; möglich: Wassereinlagerung, Kribbeln, mehr Hunger.',
-      'Blutzucker und IGF-1 im Blick behalten; bei aktiver/früherer Krebserkrankung tabu.',
-      'Nie zugelassen (Entwicklung eingestellt); im Sport verboten; Graumarkt – Analysezertifikat Pflicht.'
+      'Keine Wirksamkeitsdaten: Die einzige Phase-2-Studie wurde 2006 nach dem Tod eines Teilnehmers gestoppt, Zusammenhang ungeklärt, Ergebnisse nie veröffentlicht.',
+      'Der dauerhaft angehobene Grundpegel und über Wochen erhöhtes IGF-1 sind langfristig nicht untersucht; im Tier Vermehrung der GH-bildenden Hypophysenzellen (Alba 2006).',
+      'Häufig Rötung/Quaddeln an der Einstichstelle; möglich: Wassereinlagerung, Kribbeln, mehr Hunger, sinkende Insulinempfindlichkeit; FDA nennt erhöhten Puls und Gefäßerweiterungsreaktionen. Bei aktiver/früherer Krebserkrankung tabu.',
+      'Graumarkt: Unter dem Namen CJC-1295 wird auch die Form ohne DAC verkauft; in einer Auswertung von 6441 Proben aus 14 Peptiden 41,6 bis 71,1 % mit Qualitätsmängeln (Preprint 2026).'
     ],
-    status: 'In DE/EU nicht zugelassen; Forschungssubstanz, Entwicklung eingestellt.',
+    status: 'In DE, EU und USA nie zugelassen; Entwicklung nach dem Studienabbruch 2006 eingestellt, Vertrieb als Forschungssubstanz. Im Sport jederzeit verboten (WADA 2026 S2.2.4; in DE namentlich in der Anlage des Anti-Doping-Gesetzes).',
     sources: [
       { title: 'Teichman et al., J Clin Endocrinol Metab 2006 – Prolonged stimulation of GH and IGF-1 secretion by CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' },
-      { title: 'Ionescu & Frohman, J Clin Endocrinol Metab 2006 – Pulsatile GH-Sekretion unter CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' }
+      { title: 'Ionescu & Frohman, J Clin Endocrinol Metab 2006 – Pulsatile GH-Sekretion unter CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
+      { title: 'Jetté L et al., Endocrinology 2005 – Albumin-Konjugat, Identifikation von CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/15817669/' },
+      { title: 'Alba M et al., Am J Physiol Endocrinol Metab 2006 – Wachstum bei GHRH-Knockout-Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/16822960/' },
+      { title: 'ClinicalTrials.gov NCT00267527 – Phase-2-Studie bei HIV-assoziiertem Bauchfett, abgebrochen', url: 'https://clinicaltrials.gov/study/NCT00267527' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
+      { title: 'biolabshop (Suche „CJC-1295 DAC")', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'CJC-1295 mit DAC: Das Langzeit-Signal für Wachstumshormon',
-        audio: 'audio/cjc-1295-dac-podcast.mp3',
-        spotify: '7GY5RM8IJGggpIOemfR00a',
-        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 37) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das Wachstumshormon-Signal mit Langzeit-Anker: wie der Drug Affinity Complex das Peptid ans Albumin heftet (6–8 Tage Halbwertszeit statt 30 Minuten), die bemerkenswerten Humandaten (Teichman, JCEM 2006: 2–10-faches GH, bis zu 11 Tage erhöhtes IGF-1 nach einer Gabe) und die große Debatte Dauersignal („GH-Bleed") gegen natürliche Pulse. Plus Vergleich mit direktem HGH und die typische berichtete Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.',
-        sources: [
+      { title: 'CJC-1295 mit DAC: Das Langzeit-Signal für Wachstumshormon', audio: 'audio/cjc-1295-dac-podcast.mp3', spotify: '7GY5RM8IJGggpIOemfR00a', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 37) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das Wachstumshormon-Signal mit Langzeit-Anker: wie der Drug Affinity Complex das Peptid ans Albumin heftet (6–8 Tage Halbwertszeit statt 30 Minuten), die bemerkenswerten Humandaten (Teichman, JCEM 2006: 2–10-faches GH, bis zu 11 Tage erhöhtes IGF-1 nach einer Gabe) und die große Debatte Dauersignal („GH-Bleed") gegen natürliche Pulse. Plus Vergleich mit direktem HGH und die typische berichtete Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.', sources: [
           { title: 'Teichman et al. 2006 – CJC-1295 Pharmakokinetik/GH/IGF-1', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' },
           { title: 'Ionescu & Frohman 2006 – Pulsatilität unter CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'mod-grf-1-29',

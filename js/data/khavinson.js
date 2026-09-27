@@ -39,9 +39,7 @@ const KHAVINSON = [
       { title: 'Khavinson VK – Cortexin-Derivat Pinealon Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=pinealon' },
       { title: 'Anisimov VN et al., Biogerontology 2010 – Peptid-Bioregulatoren-Review', url: 'https://pubmed.ncbi.nlm.nih.gov/19960257/' }
     ],
-    community: [
-      { title: 'Pinealon – Research Evidence (PeptideInsight)', url: 'https://peptideinsight.com/en/peptides/pinealon' }
-    ]
+    community: []
   },
   {
     id: 'kh-cortexin',
@@ -68,9 +66,7 @@ const KHAVINSON = [
       { title: 'Skoromets AA et al. – RCT Cortexin bei Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=cortexin+stroke' },
       { title: 'Khavinson VK – Peptide Medicines: Past, Present, Future', url: 'https://www.clinmedjournal.com/jour/article/view/29' }
     ],
-    community: [
-      { title: 'Cortexin – Research Evidence (PeptideInsight)', url: 'https://peptideinsight.com/en/peptides/cortexin' }
-    ]
+    community: []
   },
 
   // ============ IMMUN / THYMUS ============
