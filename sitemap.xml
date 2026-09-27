@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://biohackingkompakt.de/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://biohackingkompakt.de/thema/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://biohackingkompakt.de/thema/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://biohackingkompakt.de/thema/vitamin-d3.html</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://biohackingkompakt.de/thema/vitamin-k2.html</loc><lastmod>2026-09-19</lastmod></url>
   <url><loc>https://biohackingkompakt.de/thema/vitamin-c.html</loc><lastmod>2026-09-19</lastmod></url>
@@ -525,4 +525,6 @@
   <url><loc>https://biohackingkompakt.de/en/vergleich/semaglutide-vs-tirzepatide.html</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://biohackingkompakt.de/en/vergleich/tadalafil-vs-sildenafil.html</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://biohackingkompakt.de/en/vergleich/vitamin-d3-vs-vitamin-k2.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://biohackingkompakt.de/thema/aicar.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://biohackingkompakt.de/thema/adamax.html</loc><lastmod>2026-09-27</lastmod></url>
 </urlset>
