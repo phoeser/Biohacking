@@ -11,6 +11,36 @@
 - [Über uns](https://biohackingkompakt.de/ueber-uns.html): wer hinter Biohacking Kompakt steht, Finanzierung, Korrekturen
 - [Methodik](https://biohackingkompakt.de/methodik.html): Recherche, Quellenhierarchie, Zahlenprüfung, die fünf Achsen des BK-Scores und die Etikett-Regeln
 
+## English pages
+
+English versions of the most-read pages (the rest of the site is German). Overview: https://biohackingkompakt.de/en/
+
+- [Losing belly fat – what has been shown to work?](https://biohackingkompakt.de/en/problem/abnehmen-bauchfett.html): 
+- [Longevity: Where do I start?](https://biohackingkompakt.de/en/problem/longevity-einstieg.html): 
+- [I sleep badly – what really helps?](https://biohackingkompakt.de/en/problem/schlecht-schlafen.html): 
+- [I'm always tired – what helps?](https://biohackingkompakt.de/en/problem/staendig-muede.html): 
+- [Ashwagandha](https://biohackingkompakt.de/en/thema/ashwagandha.html): Ashwagandha is the best-known adaptogen; meta-analyses show lower stress and cortisol scores over eight weeks.
+- [BPC-157](https://biohackingkompakt.de/en/thema/bpc-157.html): BPC-157 is a synthetic pentadecapeptide sold as a repair agent for tendons, ligaments and the gut lining.
+- [Creatine monohydrate](https://biohackingkompakt.de/en/thema/kreatin.html): Creatine monohydrate is one of the most thoroughly studied food supplements of all – and the strength gain is cleanly documented in controlled studies, in older adults as well as in postmenopausal women.
+- [Magnesium](https://biohackingkompakt.de/en/thema/magnesium.html): Magnesium is a cofactor in more than 300 enzyme reactions – this biochemical role is undisputed, and in a double-blind study with 155 participants the Insomnia Severity Index fell more than under placebo (p = 0.049).
+- [Methylene Blue](https://biohackingkompakt.de/en/thema/methylene-blue.html): Methylene blue is a 19th-century dye, one of the very first synthetic drugs and today an approved emergency medication.
+- [NMN](https://biohackingkompakt.de/en/thema/nmn.html): NMN is a precursor of the cellular molecule NAD+ and is considered a core longevity supplement.
+- [Omega-3 (EPA/DHA)](https://biohackingkompakt.de/en/thema/omega-3.html): Omega-3 fatty acids (EPA and DHA) are among the most thoroughly studied dietary supplements of all.
+- [Rapamycin (Sirolimus)](https://biohackingkompakt.de/en/thema/rapamycin.html): Rapamycin, approved as sirolimus in transplant medicine, inhibits the growth switch mTORC1 and extends lifespan in model organisms.
+- [Retatrutide](https://biohackingkompakt.de/en/thema/retatrutide.html): Retatrutide is the first drug that acts on three hormonal switches of metabolism at the same time: GLP-1, GIP and glucagon.
+- [Semaglutide (Ozempic / Wegovy)](https://biohackingkompakt.de/en/thema/semaglutide.html): In people with overweight and established cardiovascular disease, semaglutide lowers the rate of major cardiovascular events and substantially reduces body weight.
+- [Tirzepatide (Mounjaro / Zepbound)](https://biohackingkompakt.de/en/thema/tirzepatide.html): Tirzepatide activates two gut hormone receptors at once and achieves the highest weight-loss figures in its drug class.
+- [Vitamin D3](https://biohackingkompakt.de/en/thema/vitamin-d3.html): Vitamin D3 (cholecalciferol) is strictly speaking a hormone, and its receptor biology is very well understood.
+- [Ashwagandha vs. Rhodiola Rosea](https://biohackingkompakt.de/en/vergleich/ashwagandha-vs-rhodiola.html): 
+- [BPC-157 vs. TB-500 (Thymosin Beta-4 Fragment)](https://biohackingkompakt.de/en/vergleich/bpc-157-vs-tb-500.html): 
+- [Collagen peptides vs. hyaluronic acid](https://biohackingkompakt.de/en/vergleich/kollagen-vs-hyaluronsaeure.html): 
+- [Magnesium vs. Magnesium L-Threonate](https://biohackingkompakt.de/en/vergleich/magnesium-vs-magnesium-l-threonat.html): 
+- [Metformin vs. Rapamycin (Sirolimus)](https://biohackingkompakt.de/en/vergleich/metformin-vs-rapamycin.html): 
+- [NMN vs. Nicotinamide Riboside (NR)](https://biohackingkompakt.de/en/vergleich/nmn-vs-nicotinamid-ribosid.html): 
+- [Semaglutide (Ozempic / Wegovy) vs. Tirzepatide (Mounjaro / Zepbound)](https://biohackingkompakt.de/en/vergleich/semaglutide-vs-tirzepatide.html): 
+- [Tadalafil vs. Viagra (Sildenafil)](https://biohackingkompakt.de/en/vergleich/tadalafil-vs-sildenafil.html): 
+- [Vitamin D3 vs. Vitamin K2 (MK-7)](https://biohackingkompakt.de/en/vergleich/vitamin-d3-vs-vitamin-k2.html): 
+
 ## Wichtig beim Zitieren
 
 Der BK-Score ist eine subjektive Einschaetzung von Biohacking Kompakt nach
