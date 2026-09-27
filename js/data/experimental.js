@@ -4451,6 +4451,403 @@ const EXPERIMENTAL = [
     community: [],
     podcasts: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'acth',
+    name: 'ACTH (Corticotropin)',
+    altNames: 'Adrenocorticotropes Hormon, Corticotropin, Kortikotropin, Tetracosactid, Synacthen, Synacthen Depot, Acthar Gel, Purified Cortrophin Gel',
+    class: 'Peptidhormon der Hypophyse (Melanocortin), zugelassen als Diagnostikum und bei West-Syndrom, verschreibungspflichtig',
+    emoji: '🧪',
+    short: 'Das Hypophysenhormon, das die Nebenniere zur Cortisolbildung anregt – als Arzneimittel seit Jahrzehnten bewährt für den ACTH-Test, bei infantilen Spasmen und bei MS-Schüben. Für Leistung oder Wohlbefinden bei Gesunden fehlen Belege, im Sport ist es jederzeit verboten, und die Risiken entsprechen einer Kortisontherapie.',
+    moa: 'ACTH ist ein Peptid aus 39 Aminosäuren, das in der Hypophyse aus dem Vorläufer POMC entsteht, von CRH aus dem Hypothalamus angestoßen und von Cortisol gebremst wird. Es bindet an einen spezifischen Rezeptor der Nebennierenrindenzellen und steigert über cAMP die Bildung von Pregnenolon aus Cholesterin und daraus von Cortisol, Aldosteron und in geringerem Maß Androgenen. Tetracosactid (Synacthen) umfasst die ersten 24 Aminosäuren und wirkt genauso; seine Plasma-Halbwertszeiten liegen bei rund 7 Minuten, dann etwa 37 Minuten und terminal ungefähr 3 Stunden. Der Cortisolanstieg 30 Minuten nach Injektion dient als Test der Nebennierenfunktion. Zusätzlich bindet ACTH an Melanocortin-Rezeptoren auf Immunzellen, was eine steroidunabhängige Entzündungshemmung nahelegt (Übersicht 2015), am Menschen aber nicht als eigener Nutzen belegt ist.',
+    benefits: [
+      'Diagnostik: ACTH-Test bestätigt eine sekundäre Nebenniereninsuffizienz zuverlässig, schließt sie aber nicht sicher aus; bei primärer Insuffizienz Sensitivität 92 % (Meta-Analyse, 30 Studien mit 1.209 Erwachsenen bzw. 5 Studien mit 100 Patienten, Ospina 2016)',
+      'Infantile Spasmen: Hormontherapie beendet Anfälle häufiger als Vigabatrin, 73 % gegenüber 54 %, Tetracosactid-Arm 76 % (RCT UKISS, 107 Säuglinge, Lancet 2004); Cochrane 2013 bestätigt die Richtung',
+      'Hochdosiertes ACTH besser als niedrig dosiertes Prednison: 13 von 15 gegenüber 4 von 14 Säuglingen (RCT, 29 Säuglinge, Baram 1996); gegenüber hochdosiertem Prednisolon kein Unterschied (Meta-Analyse, 5 RCTs, 239 Kinder, 2019)',
+      'MS-Schub: ACTH oder Methylprednisolon senken das Risiko einer Verschlechterung in den ersten 5 Wochen, OR 0,37 (Cochrane 2000, 6 RCTs, 377 Teilnehmer, davon 237 in ACTH-Studien); kein Beleg für Einfluss auf den Langzeitverlauf',
+      'Lange Erfahrung: in den USA seit 1952 zugelassen (Acthar), Synacthen in Deutschland seit 1965'
+    ],
+    risks: [
+      'Nebenwirkungen wie bei Kortisontherapie: Infekte, Hyperglykämie, Bluthochdruck, Wassereinlagerung, Hypokaliämie, Osteoporose, Muskelschwäche, Katarakt und Glaukom, Magengeschwüre, Wachstumsstörungen bei Kindern',
+      'Überempfindlichkeitsreaktionen bis zum anaphylaktischen Schock, vor allem bei Allergikern und Asthmatikern, meist innerhalb von 30 Minuten; Gabe nur unter ärztlicher Überwachung',
+      'Psychische Veränderungen von Euphorie und Schlaflosigkeit bis zu Depression und Psychose',
+      'Unterdrückung der eigenen Stressachse bei längerer Gabe, mit Nebennierenschwäche nach dem Absetzen (FDA-Fachinformation Acthar)',
+      'Kein Leistungsgewinn belegt: 8 trainierte Radfahrer fuhren unter Synacthen nicht schneller (placebokontrolliert, 2008); Doping nach WADA S2.2.2 jederzeit verboten'
+    ],
+    status: 'Deutschland: Tetracosactid (Synacthen) seit 1965 zugelassen, verschreibungspflichtig; Anwendungsgebiete Diagnostik der Nebennierenrinden-Unterfunktion und West-Syndrom, daneben Synacthen Depot. USA: Acthar Gel (seit 1952) und Purified Cortrophin Gel, u. a. bei infantilen Spasmen und MS-Schüben. Nutzung zur Leistungssteigerung oder als Anti-Aging-Mittel ist Off-Label und nicht belegt. Doping: WADA-Liste 2026 S2.2.2 (Corticotropine), jederzeit verboten; Corticotropin und Tetracosactid stehen in der Anlage des Anti-Doping-Gesetzes (§ 2 AntiDopG).',
+    sources: [
+      { title: 'Fachinformation Synacthen (Rote Liste, Stand 02.2021) – Zulassung, Anwendungsgebiete, Nebenwirkungen', url: 'https://www.fachinfo.de/fi/detail/022624/synacthen' },
+      { title: 'FDA-Fachinformation Acthar Gel (DailyMed) – Indikationen, Zulassung 1952, Studien bei infantilen Spasmen', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b48ddec-e815-45f4-9ca0-5c0daaf56f30' },
+      { title: 'Lux et al. 2004, Lancet – UKISS: Hormone gegen Vigabatrin, 73 % gegenüber 54 %', url: 'https://pubmed.ncbi.nlm.nih.gov/15541450/' },
+      { title: 'Baram et al. 1996, Pediatrics – hochdosiertes ACTH gegen Prednison bei infantilen Spasmen', url: 'https://pubmed.ncbi.nlm.nih.gov/8604274/' },
+      { title: 'Chang et al. 2019, Ann Clin Transl Neurol – Meta-Analyse: Prednisolon nicht unterlegen', url: 'https://pubmed.ncbi.nlm.nih.gov/31657133/' },
+      { title: 'Filippini et al. 2000, Cochrane – Kortikosteroide oder ACTH beim MS-Schub', url: 'https://pubmed.ncbi.nlm.nih.gov/11034713/' },
+      { title: 'Ospina et al. 2016, J Clin Endocrinol Metab – Meta-Analyse ACTH-Stimulationstest', url: 'https://pubmed.ncbi.nlm.nih.gov/26649617/' },
+      { title: 'Baume et al. 2008, Eur J Appl Physiol – Synacthen ohne Leistungseffekt bei Radfahrern', url: 'https://pubmed.ncbi.nlm.nih.gov/18584198/' },
+      { title: 'Hartung et al. 2018, JAMA Netw Open – Herstellerzahlungen und Acthar-Verordnungen', url: 'https://pubmed.ncbi.nlm.nih.gov/30646086/' },
+      { title: 'Montero-Melendez 2015, Semin Immunol – ACTH: The forgotten therapy (Melanocortin-Rezeptoren)', url: 'https://pubmed.ncbi.nlm.nih.gov/25726511/' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'anabole-steroide',
+    name: 'Anabole Steroide (Anabolika, AAS)',
+    altNames: 'Anabol-androgene Steroide, AAS, Anabolika, Steroide, Roids, Testosteronderivate, Trenbolon, Stanozolol, Metandienon, Oxandrolon, Oxymetholon',
+    class: 'Warnung: Anabol-androgene Steroide, Doping- und Gesundheitsrisiko',
+    emoji: '⚠️',
+    short: 'Anabol-androgene Steroide sind Testosteron und seine künstlichen Abkömmlinge; sie bauen Muskelmasse und Kraft nachweislich auf, mit Training deutlich stärker. Außerhalb einer ärztlichen Therapie ist die Anwendung mit einem 2,81-fach erhöhten Sterberisiko, schweren Herzschäden und einer abgeschalteten eigenen Hormonproduktion verbunden, die sich bei einem Teil der Männer auch Jahre später nicht vollständig erholt.',
+    moa: 'AAS binden an den Androgenrezeptor in Muskel, Knochen, Knochenmark, Haut, Leber und Gehirn und steigern dort Eiweißaufbau und Blutbildung. Anabole (aufbauende) und androgene (vermännlichende) Wirkung lassen sich chemisch nicht vollständig trennen. Hypothalamus und Hypophyse registrieren den hohen Hormonspiegel und drosseln LH und FSH, dadurch fallen die eigene Testosteronproduktion und die Spermienbildung ab. Nach dem Aufhören erholen sich die steuernden Hormone meist innerhalb eines Jahres, bei einem Teil der Anwender bleibt ein Mangel. Medizinisch genutzt werden einzelne Wirkstoffe gezielt: siehe die Einträge Testosteron und Nandrolon.',
+    benefits: [
+      'Warum Menschen es nehmen: supraphysiologisches Testosteron steigerte in 10 Wochen Muskelquerschnitt und Kraft, mit Training +6,1 kg fettfreie Masse (RCT, 43 gesunde Männer, Bhasin, NEJM 1996)',
+      'In der prospektiven HAARLEM-Studie gaben 100 % der 100 Männer während der Anwendung mehr Kraft an (Smit 2021)',
+      'Legitime Medizin: Testosteron bei ärztlich eindeutig nachgewiesenem Mangel (Leitlinie der Endocrine Society 2018, siehe Eintrag Testosteron); Nandrolon in einigen EU-Ländern bei Osteoporose und renaler Blutarmut (siehe Eintrag Nandrolon)',
+      'Verbreitung: weltweit 3,3 % Lebenszeitprävalenz, Männer 6,4 %, Frauen 1,6 % (Meta-Analyse aus 187 Studien, Sagoe 2014) – überwiegend Freizeitsportler, nicht Leistungssportler'
+    ],
+    risks: [
+      'Sterblichkeit: dänische Registerkohorte, 1189 Anwender gegen 59450 Kontrollen, 11,2 Jahre: 33 gegenüber 578 Todesfälle, HR 2,81; unnatürliche Todesfälle HR 3,64, natürliche HR 2,24 (Windfeld-Mathiasen, JAMA 2024); finnische Powerlifter: 12,9 % gegenüber 3,1 % in 12 Jahren (Pärssinen 2000)',
+      'Herz: Kardiomyopathie aHR 8,90, Herzinsuffizienz 3,63, Herzinfarkt 3,00, Thrombosen 2,42, Rhythmusstörungen 2,26 (Windfeld-Mathiasen, Circulation 2025); Auswurffraktion 52 gegenüber 63 % bei Langzeitanwendern (Baggish 2017)',
+      'Hormonachse und Fruchtbarkeit: Abschaltung der eigenen Produktion; 27,2 % der früheren Anwender im Mittel 2,5 Jahre nach dem Aufhören unter dem Testosteron-Referenzwert, dazu mehr Libidoverlust, Erektionsstörungen und depressive Symptome (Rasmussen 2016)',
+      'HAARLEM, 100 Männer: jeder mindestens eine negative Wirkung, 4 schwere Ereignisse (u. a. Herzinsuffizienz, Suizidgedanken); Wassereinlagerung 56 %, Libidoverlust danach 58 %, Akne 28 %, Brustdrüsenwachstum 19 % (Smit 2021)',
+      'Abhängigkeit: in den USA schätzungsweise etwa 1 Million Betroffene unter 2,9 bis 4,0 Millionen Anwendern (Pope 2014); Leber: Gallenstauung, Peliosis hepatis und Lebertumoren beschrieben (Petrovic 2022); Frauen: teils bleibende Vermännlichung',
+      'Schwarzmarkt: 36 % der Proben gefälscht, weitere 37 % mangelhaft (Meta-Analyse, 19 Studien, 5413 Proben, Magnolini 2022)'
+    ],
+    status: 'Keine Nahrungsergänzung, kein legaler Bezug ohne Rezept. Einzelne Wirkstoffe (z. B. Testosteron) sind verschreibungspflichtige Arzneimittel für klar definierte Indikationen. Anti-Doping-Gesetz: Herstellung, Handel, Abgabe und Verschreibung zu Dopingzwecken verboten (§ 2 Abs. 1), Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport verboten (§ 2 Abs. 3, Grenzmengen in der Dopingmittel-Mengen-Verordnung 2023); Strafrahmen bis zu 3 Jahren, in schweren Fällen (u. a. Abgabe an Minderjährige, bandenmäßig) 1 bis 10 Jahre (§ 4); Selbstdoping strafbar für Spitzensportler im Testpool und Sportler mit erheblichen Einnahmen (§ 3, § 4 Abs. 7). WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    sources: [
+      { title: 'Windfeld-Mathiasen et al. 2024, JAMA – Sterblichkeit: HR 2,81 bei 1189 Anwendern gegenüber 59450 Kontrollen', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10941020/' },
+      { title: 'Windfeld-Mathiasen et al. 2025, Circulation – Kardiomyopathie aHR 8,90, Herzinfarkt aHR 3,00', url: 'https://pubmed.ncbi.nlm.nih.gov/39945117/' },
+      { title: 'Bhasin et al. 1996, N Engl J Med – RCT: supraphysiologisches Testosteron steigert Muskelmasse und Kraft', url: 'https://pubmed.ncbi.nlm.nih.gov/8637535/' },
+      { title: 'Baggish et al. 2017, Circulation – geringere Pumpfunktion und mehr Koronarplaque bei Langzeitanwendern', url: 'https://pubmed.ncbi.nlm.nih.gov/28533317/' },
+      { title: 'Rasmussen et al. 2016, PLoS One – niedriges Testosteron und Mangelsymptome Jahre nach dem Aufhören', url: 'https://pubmed.ncbi.nlm.nih.gov/27532478/' },
+      { title: 'Smit et al. 2021, Scand J Med Sci Sports – HAARLEM: positive und negative Wirkungen, 100 Männer, 1 Jahr', url: 'https://pubmed.ncbi.nlm.nih.gov/33038020/' },
+      { title: 'Pärssinen et al. 2000, Int J Sports Med – vorzeitige Sterblichkeit finnischer Powerlifter', url: 'https://pubmed.ncbi.nlm.nih.gov/10834358/' },
+      { title: 'Sagoe et al. 2014, Ann Epidemiol – weltweite Lebenszeitprävalenz 3,3 %, Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/24582699/' },
+      { title: 'Magnolini et al. 2022, BMC Public Health – gefälschte und mangelhafte Anabolika auf dem Schwarzmarkt', url: 'https://pubmed.ncbi.nlm.nih.gov/35842594/' },
+      { title: 'Pope et al. 2014, Endocr Rev – Endocrine Society: gesundheitliche Folgen leistungssteigernder Mittel', url: 'https://pubmed.ncbi.nlm.nih.gov/24423981/' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'benfotiamin',
+    name: 'Benfotiamin',
+    altNames: 'Benfothiamine, S-Benzoylthiamin-O-monophosphat, Allithiamin, fettlösliches Vitamin B1, milgamma protekt, Benfogamma',
+    class: 'Fettlösliche Vitamin-B1-Vorstufe (Allithiamin); in Deutschland apothekenpflichtiges Arzneimittel, als Nahrungsergänzung nicht zugelassen',
+    emoji: '🧬',
+    short: 'Fettlösliche Vorstufe von Vitamin B1, die die Thiaminspiegel im Blut viel stärker hebt als normales Thiamin und in kurzen Studien Beschwerden der diabetischen Polyneuropathie linderte, vor allem Schmerz. In den Studien über 12 und 24 Monate änderte sich die messbare Nervenfunktion nicht, der Schutz vor Glykation ist nur im Tier belegt.',
+    moa: 'Benfotiamin wird nach der Aufnahme zu Thiamin umgebaut und erreicht im Plasma eine weit höhere Bioverfügbarkeit als Thiaminhydrochlorid (1147,3 %, in Erythrozyten 195,8 % für Thiamindiphosphat; Xie 2014). Thiamindiphosphat ist Cofaktor der Transketolase im Pentosephosphatweg. Bei diabetischen Tieren aktivierte Benfotiamin die Transketolase, lenkte angestaute Glykolyse-Zwischenprodukte um und blockierte so Hexosamin-Weg, AGE-Bildung, DAG-PKC-Weg und NF-kappaB; die experimentelle Retinopathie blieb aus (Hammes 2003). Am Menschen ist der Anstieg von Thiamin und seinen Phosphaten gut belegt, eine Senkung von AGEs oder Entzündungsmarkern aber in einer placebokontrollierten Studie über 12 Wochen nicht (Alkhalaf 2012).',
+    benefits: [
+      'Diabetische Polyneuropathie: Neuropathie-Symptom-Score nach 6 Wochen besser, per Protokoll p = 0,033, nach ITT p = 0,055; stärkster Effekt bei Schmerz (Phase-III-RCT BENDIP, 133 Ausgewertete, 300 oder 600 mg, Stracke 2008)',
+      'Pilotstudie BEDIP: Neuropathie-Score p = 0,0287 und Schmerz p = 0,0414 besser als Placebo (RCT, 40 Patienten, 3 Wochen, Haupt 2005)',
+      'Alkoholbedingte Polyneuropathie: Vibrationsempfinden und Motorik besser (RCT, 84 Patienten, 8 Wochen, Woelk 1998)',
+      'Frühe Alzheimer-Krankheit: CDR-Verschlechterung 77 % geringer (p = 0,034), primärer Endpunkt ADAS-Cog verfehlt (p = 0,125) (Phase-IIa-RCT, 70 Teilnehmende, 12 Monate, Gibson 2020); Folgestudie mit 406 Teilnehmenden läuft',
+      'Hebt Thiamin und Thiamindiphosphat im Blut zuverlässig an, bestätigt in RCTs über 12 und 24 Monate (BOND 2026, Fraser 2012)'
+    ],
+    risks: [
+      'Lange Studien ohne Effekt auf die Nervenfunktion: BOND (57 Teilnehmende, 12 Monate) verfehlte den primären Endpunkt, Fraser (67 Teilnehmende, 24 Monate) ebenso',
+      'Kein belegter Glykationsschutz am Menschen: keine Senkung von AGEs, Albuminausscheidung oder Entzündungsmarkern (RCT, 82 Patienten, 12 Wochen, Alkhalaf 2010/2012)',
+      'Selten Überempfindlichkeitsreaktionen (Nesselsucht, Hautausschlag) und Magen-Darm-Beschwerden (Fachtext milgamma protekt); in Phase I häufigster Befund leicht erhöhte ALT, Häufigkeit wie Placebo',
+      'EFSA 2008: toxikologische Daten zu Fortpflanzung, Erbgut und Langzeitwirkung unzureichend; keine Daten zu Schwangerschaft und Stillzeit',
+      'Ersetzt nicht die Abklärung von Nervenbeschwerden und keine Blutzuckereinstellung'
+    ],
+    status: 'Deutschland: zugelassenes, apothekenpflichtiges und nicht verschreibungspflichtiges Arzneimittel (z. B. milgamma protekt 300 mg) gegen Vitamin-B1-Mangel und dadurch bedingte Neuropathien. EU: keine zugelassene Vitamin-B1-Form für Nahrungsergänzungsmittel (Anhang II RL 2002/46/EG nennt nur Thiaminhydrochlorid und Thiaminmononitrat); EFSA konnte 2008 die Sicherheit nicht bestätigen; das OVG Niedersachsen bestätigte am 11.11.2020 (13 ME 400/20) ein Verkaufsverbot für ein Benfotiamin-NEM. Doping: nicht auf der WADA-Liste 2026.',
+    sources: [
+      { title: 'Ziegler et al. 2026, BMJ Open Diabetes Res Care – BOND: 12 Monate ohne Effekt auf Nervenstruktur und -funktion', url: 'https://pubmed.ncbi.nlm.nih.gov/41571333/' },
+      { title: 'Stracke et al. 2008, Exp Clin Endocrinol Diabetes – BENDIP: Symptome nach 6 Wochen besser', url: 'https://pubmed.ncbi.nlm.nih.gov/18473286/' },
+      { title: 'Fraser et al. 2012, Diabetes Care – 24 Monate bei Typ-1-Diabetes ohne Effekt auf Nervenfunktion', url: 'https://pubmed.ncbi.nlm.nih.gov/22446172/' },
+      { title: 'Gibson et al. 2020, J Alzheimers Dis – Phase IIa bei MCI und leichter Alzheimer-Demenz', url: 'https://pubmed.ncbi.nlm.nih.gov/33074237/' },
+      { title: 'Hammes et al. 2003, Nat Med – Transketolase-Aktivierung blockiert drei Schadenswege im Tier', url: 'https://pubmed.ncbi.nlm.nih.gov/12592403/' },
+      { title: 'Alkhalaf et al. 2012, PLoS One – keine Senkung von AGEs und Entzündungsmarkern', url: 'https://pubmed.ncbi.nlm.nih.gov/22792314/' },
+      { title: 'Xie et al. 2014, J Clin Pharmacol – Bioverfügbarkeit im Vergleich zu Thiaminhydrochlorid', url: 'https://pubmed.ncbi.nlm.nih.gov/24399744/' },
+      { title: 'EFSA 2008 – Sicherheit von Benfotiamin als Vitamin-B1-Quelle nicht belegt', url: 'https://www.efsa.europa.eu/en/efsajournal/pub/864' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Benfotiamin")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'cbd',
+    name: 'CBD (Cannabidiol)',
+    altNames: 'Cannabidiol, CBD-Öl, Hanfextrakt, Vollspektrum-CBD, CBD-Isolat, Epidyolex, Epidiolex',
+    class: 'Nicht berauschendes Cannabinoid aus Hanf; in Deutschland verschreibungspflichtiger Arzneistoff, als Lebensmittel nicht zugelassenes Novel Food',
+    emoji: '🌿',
+    short: 'Nicht berauschender Hanfwirkstoff, der in drei großen RCTs Anfälle bei Dravet- und Lennox-Gastaut-Syndrom deutlich senkte und dafür als Epidyolex zugelassen ist; bei Angst zeigen kleine Studien und eine Meta-Analyse einen Vorteil. Für Schlaf und Schmerz ist die Lage dünn oder gemischt, dazu kommen Leberwert-Anstiege und schwankende Produktqualität.',
+    moa: 'CBD aktiviert die klassischen Cannabinoid-Rezeptoren nicht, sondern wirkt an mehreren Zielen (Fachinformation Epidyolex). Gegen Anfälle werden die Modulation von GPR55 und TRPV-1 sowie eine Verstärkung der Adenosin-Signale über die Hemmung des Transporters ENT-1 angenommen; der genaue Mechanismus beim Menschen ist laut EMA unbekannt. CBD hemmt moderat den Abbau des körpereigenen Cannabinoids Anandamid; in einer RCT bei Schizophrenie stieg das Anandamid im Serum und hing mit der Besserung zusammen (Leweke 2012). Die Aufnahme über den Mund schwankt stark und steigt mit einer Mahlzeit; nach wiederholter Einnahme liegt die Halbwertszeit bei 2 bis 5 Tagen (Millar 2018).',
+    benefits: [
+      'Dravet-Syndrom: konvulsive Anfälle im Median von 12,4 auf 5,9 pro Monat, unter Placebo von 14,9 auf 14,1 (RCT, 120 Patienten, 14 Wochen, Devinsky 2017)',
+      'Lennox-Gastaut-Syndrom: Sturzanfälle −43,9 % vs. −21,8 % (171 Patienten, Thiele 2018) und −41,9 % vs. −17,2 % (225 Patienten, Devinsky 2018); EU-Zulassung als Epidyolex 2019',
+      'Angst: Hedges g = −0,92 mit breitem Konfidenzintervall (Meta-Analyse, 8 Studien, 316 Teilnehmende, Han 2024); weniger Angst im Vortragstest bei 24 Parkinson-Patienten (Crossover-RCT, de Faria 2020)',
+      'Neuropathischer Schmerz nach Rückenmarksverletzung: −0,54 Punkte auf der 0-bis-10-Skala gegenüber Placebo (Crossover-RCT, 38 Ausgewertete, 6 Wochen, Robertson 2026)',
+      'Nicht berauschend; auf der WADA-Liste 2026 ausdrücklich erlaubt'
+    ],
+    risks: [
+      'Leber: Werte über dem 3-Fachen der Norm bei 12 % in den Zulassungsstudien, bis 23 % mit Valproat plus Clobazam (Fachinformation); bei 201 Gesunden 5,6 % vs. 0 % unter Placebo nach 28 Tagen (Florian 2025)',
+      'Wechselwirkungen über CYP2C19 und CYP3A4: N-Desmethylclobazam 3- bis 4-fach erhöht; Valproat steigert das Leberrisiko',
+      'Häufig Schläfrigkeit, Appetitminderung, Durchfall, Müdigkeit; EFSA 2026: keine gesicherte Sicherheit für unter 25-Jährige, Schwangere, Stillende und Menschen mit Medikamenten',
+      'Produktqualität: THC in 20 von 26 Ölen, bei der Hälfte würde die Herstellerdosis die akute Referenzdosis für THC überschreiten (BfR 2024); Dopingrisiko durch THC',
+      'Kein Nutzen bei Fibromyalgie (200 Patienten, 24 Wochen, Placebo 0,7 Punkte besser) und als Zusatz zur Expositionstherapie bei Angststörungen (80 Patienten)'
+    ],
+    status: 'EU: Novel Food ohne Zulassung, bisher kein CBD-Lebensmittel zugelassen; EFSA konnte die Sicherheit 2022 und 2026 nicht feststellen und nennt 2026 vorläufig etwa 2 mg pro Tag für 70 kg als sicher (nur gereinigte Präparate, nicht für unter 25-Jährige, Schwangere, Stillende, Menschen mit Medikamenten). Deutschland: laut BVL als Lebensmittel und Nahrungsergänzung nicht verkehrsfähig; Cannabidiol in Anlage 1 der AMVV, also verschreibungspflichtig; zugelassen ist Epidyolex (EU seit 19.09.2019) bei Lennox-Gastaut- und Dravet-Syndrom mit Clobazam ab 2 Jahren sowie bei tuberöser Sklerose. Kein Betäubungsmittel (EuGH C-663/18, 2020). USA: Epidiolex zugelassen, CBD von der Definition Nahrungsergänzung ausgeschlossen. Doping: CBD auf der WADA-Liste 2026 ausgenommen, alle anderen Cannabinoide im Wettkampf verboten; NADA rät wegen THC-Verunreinigung von CBD-Produkten ab.',
+    sources: [
+      { title: 'Devinsky et al. 2017, N Engl J Med – Dravet-Syndrom: weniger konvulsive Anfälle', url: 'https://pubmed.ncbi.nlm.nih.gov/28538134/' },
+      { title: 'Thiele et al. 2018, Lancet – Lennox-Gastaut-Syndrom: weniger Sturzanfälle', url: 'https://pubmed.ncbi.nlm.nih.gov/29395273/' },
+      { title: 'Florian et al. 2025, JAMA Intern Med – Leberwert-Anstiege bei Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/40622698/' },
+      { title: 'Han et al. 2024, Psychiatry Res – Meta-Analyse zu Angststörungen', url: 'https://pubmed.ncbi.nlm.nih.gov/38924898/' },
+      { title: 'Rasmussen et al. 2026, Ann Rheum Dis – Fibromyalgie: kein Vorteil gegenüber Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/40846590/' },
+      { title: 'Leweke et al. 2012, Transl Psychiatry – CBD erhöht Anandamid im Serum', url: 'https://pubmed.ncbi.nlm.nih.gov/22832859/' },
+      { title: 'EFSA NDA Panel 2026, EFSA J – Update: vorläufige sichere Dosis und Datenlücken', url: 'https://pubmed.ncbi.nlm.nih.gov/41668771/' },
+      { title: 'BfR 2024 – Cannabinoide und THC in CBD-Ölen', url: 'https://www.bfr.bund.de/cm/343/cannabinoide-in-cbd-oelen-wieviel-ist-enthalten.pdf' },
+      { title: 'BVL – CBD in Nahrungsergänzungsmitteln nicht verkehrsfähig', url: 'https://www.bvl.bund.de/SharedDocs/FAQ/DE/02_Unternehmer/01_Lebensmittel/03_FAQ_Hanf_THC_CBD/00_FAQ_Cannabidiol_CBD.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'clenbuterol',
+    name: 'Clenbuterol',
+    altNames: 'Clen, Clenbuterolhydrochlorid, Spiropent (Asthma-Tablette DE), Ventipulmin (Tierarzneimittel Pferd), Beta-2-Agonist',
+    class: 'Warnung: Beta-2-Agonist (Asthma- und Tierarzneimittel), als Fatburner missbraucht, Doping- und Herzrisiko',
+    emoji: '⚠️',
+    short: 'Clenbuterol ist ein lang wirksamer Beta-2-Agonist, in Deutschland als verschreibungspflichtiges Asthma-Medikament zugelassen und in der Szene als Fatburner und Muskelaufbauhilfe genutzt; in der ersten randomisierten Humanstudie brachte es 0,91 kg Magermasse, aber keinen Fettabbau. Das Hauptrisiko ist das Herz: Herzrasen, Rhythmusstörungen, niedriges Kalium bis zu Herzinfarkt und Herzstillstand, laut Fachinformation auch tödliche Verläufe bei Missbrauch.',
+    moa: 'Clenbuterol aktiviert Beta-2-Adrenozeptoren in Bronchien, Gefäßen, Herz, Skelettmuskel und Fettgewebe und erhöht über die Adenylatcyclase das cAMP. In den Bronchien erschlafft die glatte Muskulatur, darauf beruht die Asthma-Zulassung. Im Skelettmuskel aktiviert es beim Menschen die Proteinkinase A und steigert den Eiweißgehalt, die Signalwirkung lässt aber schon innerhalb von 2 Wochen nach (Hostrup 2025). Bei Nutztieren verschiebt es den Ansatz von Fett zu Muskel, daher der Ruf als Umverteiler (Mersmann 1998). Am Herzen steigen Frequenz und Kontraktionskraft, der Kaliumspiegel im Blut sinkt; die Halbwertszeit liegt bei 34 Stunden.',
+    benefits: [
+      'Warum Menschen es nehmen: in der Szene als Fatburner für die Definitionsphase und zum Abnehmen; beim Giftnotruf New South Wales waren Bodybuilding und Abnehmen die häufigsten Gründe (Brett 2014)',
+      'Magermasse +0,91 kg in 2 Wochen gegenüber Placebo, Fettmasse unverändert (RCT, Crossover, 11 gesunde Männer, Hostrup, J Physiol 2025)',
+      'Bei Übergewicht 4 Wochen: insulinabhängige Zuckeraufnahme im hinteren Oberschenkelmuskel +13 %, Gewicht und Fettmasse unverändert (RCT, 14 Personen, Van Lier, Nat Commun 2026)',
+      'Legitime Medizin: in Deutschland seit 1988 als verschreibungspflichtige Asthma-Tablette zugelassen (Spiropent); EU-Tiermedizin nur bei Pferden (Atemwege) und zur Wehenhemmung bei Kühen (RL 96/22/EG)'
+    ],
+    risks: [
+      'Kein Humanbeleg für Fettabbau – und schlechtere Ausdauer: maximale Sauerstoffaufnahme −7 %, Belastungskapazität −4 % (Hostrup 2025); bei Herzinsuffizienz sank die Ausdauer (Kamalakkannan 2008)',
+      'Herz: Herzrasen, Rhythmusstörungen, Myokardischämie laut Fachinformation, Herzinfarkt bei einem jungen Bodybuilder (Aggarwal 2025), Herzstillstand bei einem 21-Jährigen (Brett 2014); Fachinformation: tödliche Verläufe bei missbräuchlicher Überdosierung',
+      'Giftnotruf New South Wales 2004 bis 2012: 63 Expositionen, mindestens 84 % stationär, am häufigsten Herzrasen, Magen-Darm-Beschwerden, Zittern (Brett 2014)',
+      'Stoffwechselentgleisung: Kalium im Median 2,5 mEq/L, Laktat 9,4 mmol/L in einer Fallserie mit gestrecktem Heroin (Hieger 2016)',
+      'Lebensmittel: 113 Vergiftungsfälle nach Kalbsleber in Katalonien 1992 (Salleras 1995); U-17-WM Mexiko 2011: 109 von 208 Urinproben positiv durch belastetes Fleisch (Thevis 2013)',
+      'Gegenanzeigen laut Fachinformation: schwere Schilddrüsenüberfunktion, tachykarde Rhythmusstörungen, hypertrophe obstruktive Kardiomyopathie; lange Halbwertszeit von 34 Stunden'
+    ],
+    status: 'Deutschland: verschreibungspflichtiges Arzneimittel, zugelassen seit 11.11.1988 für Asthma und chronisch obstruktive Bronchitis (Spiropent); keine Nahrungsergänzung. Namentlich in der Anlage des Anti-Doping-Gesetzes (I.2 Andere anabole Stoffe): Handel und Abgabe zu Dopingzwecken verboten, Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport verboten (§ 2 Abs. 3, Grenzmenge in der Dopingmittel-Mengen-Verordnung 2023), Strafrahmen bis zu 3 Jahren, schwere Fälle 1 bis 10 Jahre (§ 4). EU: als Mastmittel verboten, tiermedizinisch nur bei Pferden und zur Wehenhemmung bei Kühen (RL 96/22/EG). USA: für Menschen nicht zugelassen. WADA-Verbotsliste 2026: S1.2, jederzeit verboten.',
+    sources: [
+      { title: 'Hostrup et al. 2025, J Physiol – erste RCT: +0,91 kg Magermasse, kein Effekt auf Fettmasse, VO2max −7 %', url: 'https://pubmed.ncbi.nlm.nih.gov/40946331/' },
+      { title: 'Van Lier et al. 2026, Nat Commun – Übergewicht: Zuckeraufnahme im Muskel höher, Gewicht und Fettmasse unverändert', url: 'https://pubmed.ncbi.nlm.nih.gov/42014715/' },
+      { title: 'Kamalakkannan et al. 2008, J Heart Lung Transplant – Herzinsuffizienz: mehr Magermasse, weniger Ausdauer', url: 'https://pubmed.ncbi.nlm.nih.gov/18374884/' },
+      { title: 'Brett et al. 2014, Med J Aust – Giftinformationszentrum New South Wales: 63 Expositionen, 84 % stationär', url: 'https://pubmed.ncbi.nlm.nih.gov/24580525/' },
+      { title: 'Hieger et al. 2016, J Emerg Med – Clenbuterol-gestrecktes Heroin: Hypokaliämie, Laktatazidose', url: 'https://pubmed.ncbi.nlm.nih.gov/27431866/' },
+      { title: 'Salleras et al. 1995, Public Health Rep – 113 Vergiftungsfälle durch Kalbsleber in Katalonien', url: 'https://pubmed.ncbi.nlm.nih.gov/7610227/' },
+      { title: 'Thevis et al. 2013, Drug Test Anal – U-17-WM Mexiko: 109 von 208 Proben positiv durch Fleisch', url: 'https://pubmed.ncbi.nlm.nih.gov/23559541/' },
+      { title: 'Aggarwal et al. 2025, BMJ Case Rep – Herzinfarkt bei einem jungen Bodybuilder', url: 'https://pubmed.ncbi.nlm.nih.gov/40032559/' },
+      { title: 'Mersmann 1998, J Anim Sci – Beta-Agonisten: mehr Muskel, weniger Fett bei Nutztieren', url: 'https://pubmed.ncbi.nlm.nih.gov/9464897/' },
+      { title: 'Richtlinie 96/22/EG, Art. 4 – Beta-Agonisten in der Tierhaltung', url: 'https://www.legislation.gov.uk/eudr/1996/22/article/4' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'dnp',
+    name: 'DNP (2,4-Dinitrophenol)',
+    altNames: '2,4-Dinitrophenol, DNP, 2,4-DNP, Fatburner DNP',
+    class: 'Warnung: Industriechemikalie und Mitochondrien-Entkoppler, als Fettverbrenner missbraucht, lebensgefährlich',
+    emoji: '⚠️',
+    short: 'DNP ist eine Industriechemikalie, die die Energiegewinnung in den Mitochondrien entkoppelt und so Fett verbrennt, indem sie Energie als Wärme freisetzt. Das Hauptrisiko ist eine nicht mehr steuerbare Überhitzung: In Giftnotruf-Auswertungen endeten 11,6 bis 17 Prozent der gemeldeten Vergiftungen tödlich, eine sichere Menge und ein Gegenmittel gibt es nicht.',
+    moa: 'DNP ist ein lipophiles Nitrophenol, das Protonen an der ATP-Synthase vorbei in die mitochondriale Matrix schleust. Die Atmungskette läuft schneller, Fett und Zucker werden verbrannt, aber ein großer Teil der Energie wird statt als ATP als Wärme frei. Anders als der neuere Entkoppler BAM15 depolarisiert DNP in Zellversuchen auch die Plasmamembran (Kenwood et al. 2014, zitiert im Eintrag BAM15). Bei einer Vergiftung kann sich der Prozess selbst verstärken: Die Entkopplung erzeugt viel Kohlendioxid, das saurere Gewebe nimmt mehr DNP auf, die Autoren einer Fallarbeit von 2026 sprechen vom Durchgehen der Entkopplung (Lindeman et al., Toxicol Rep 2026). Im überlebten Fall klang die Wirkung mit einer funktionellen Halbwertszeit von 4,9 Tagen ab, zudem kann sich DNP laut BfR im Körper anreichern.',
+    benefits: [
+      'Senkt das Körpergewicht über erhöhten Energieverbrauch: ab 1933 an der Stanford University beschrieben, berichtet wurden bis zu 1,5 kg pro Woche (historische, unkontrollierte Anwendung; Übersicht Grundlingh et al. 2011).',
+      'Kontrolliert belegt nur für die nicht zugelassene Vorstufe HU6, die in der Leber zu DNP wird: Leberfett nach 61 Tagen relativ minus 26,8 bis minus 35,6 Prozent gegenüber plus 5,4 Prozent unter Placebo (RCT, 80 Teilnehmende, Noureddin et al. 2023).',
+      'HU6 bei Herzschwäche mit Übergewicht: 2,86 kg mehr Gewichtsverlust als Placebo über 19 Wochen, fast nur Fettmasse, aber keine bessere Belastbarkeit (RCT, 66 Teilnehmende, Pandey et al. 2025).',
+      'Deshalb in der Bodybuilder-Szene als Fettverbrenner begehrt; Nutzer beschreiben in Befragungen vor allem den Gewichtsverlust als Motiv (35 Befragte, Petróczi et al. 2015; 14 Interviews, Ainsworth et al. 2018). Eine anerkannte medizinische Anwendung von DNP gibt es nicht.'
+    ],
+    risks: [
+      'Hohe Sterblichkeit bei Vergiftungen: 5 von 30 gemeldeten Fällen tödlich (17 Prozent) in Großbritannien 2007 bis 2013 (Kamour et al. 2015); 11,6 Prozent in den USA und 16,9 Prozent in Großbritannien bei 204 Fällen 2007 bis 2018 (Potts et al. 2021); 11,9 Prozent bei 456 Fällen aus 38 Ländern (Gziut und Thomas 2022).',
+      'Typischer Verlauf: Fieber, Herzrasen, Schwitzen, schnelle Atmung, dann Übersäuerung, Verwirrtheit, Muskelstarre und Organversagen. Übersäuerung, Herzrasen, Unruhe oder Verwirrtheit und Überhitzung sagten den Tod unabhängig voraus (Potts et al. 2021). Kein Gegenmittel (Grundlingh et al. 2011).',
+      'Keine sichere Menge: DNP kann sich anreichern, sodass laut BfR auch wiederholte kleinere Mengen lebensbedrohlich wirken können. Bei längerer Einnahme drohen Grauer Star sowie Schäden an Leber, Niere, Blut, Herz-Kreislauf- und Nervensystem (BfR 046/2015).',
+      'In Deutschland dem BfR zunächst 5 Vergiftungen gemeldet, davon 3 tödlich, 2015 ein weiterer Todesfall. Das BfR berichtet auch von Produkten, in denen DNP nicht deklariert war (BfR 046/2015).',
+      'BAM15 wird als sichereres DNP beworben, ist am Menschen aber nicht untersucht; ein Sicherheitsvorteil ist damit nicht belegt (siehe Eintrag BAM15).'
+    ],
+    status: 'Kein zugelassenes Arzneimittel in Deutschland, der EU oder den USA; als Lebensmittel, Diät- oder Nahrungsergänzungsmittel nicht verkehrsfähig. Wird DNP als Schlankheitsmittel angeboten, kann es als bedenkliches Arzneimittel gelten, dessen Inverkehrbringen nach § 5 und § 95 AMG strafbar ist. Chemikalienrecht: nach CLP-Verordnung (EG) Nr. 1272/2008 als lebensgefährlich beim Verschlucken (H300), giftig bei Hautkontakt und Einatmen (H311, H331) und organschädigend bei wiederholter Exposition (H372) eingestuft. Doping: seit 1. Januar 2024 namentlich in der WADA-Verbotsliste unter S0, jederzeit verboten, auch 2026; § 2 und § 3 AntiDopG knüpfen an diese Liste an, in der Besitzmengen-Anlage des AntiDopG steht DNP nicht. Großbritannien: seit 2023 regulierter Giftstoff.',
+    sources: [
+      { title: 'Grundlingh et al., J Med Toxicol 2011 – DNP als Abnehmmittel mit hoher akuter Toxizität, 62 veröffentlichte Todesfälle', url: 'https://pubmed.ncbi.nlm.nih.gov/21739343/' },
+      { title: 'Kamour et al., Emerg Med J 2015 – Anstieg schwerer DNP-Vergiftungen in Großbritannien, 17 Prozent tödlich', url: 'https://pubmed.ncbi.nlm.nih.gov/24957806/' },
+      { title: 'Potts et al., Clin Toxicol 2021 – 204 Fälle aus USA und Großbritannien, Vorhersager des Todes', url: 'https://pubmed.ncbi.nlm.nih.gov/33021407/' },
+      { title: 'Gziut und Thomas, Clin Toxicol 2022 – Giftnotrufe aus 38 Ländern, Fallsterblichkeit 11,9 Prozent', url: 'https://pubmed.ncbi.nlm.nih.gov/34812657/' },
+      { title: 'Lindeman et al., Toxicol Rep 2026 – zwei Vergiftungsfälle, sich selbst verstärkende Entkopplung', url: 'https://pubmed.ncbi.nlm.nih.gov/41487961/' },
+      { title: 'Noureddin et al., Lancet Gastroenterol Hepatol 2023 – RCT mit der DNP-Vorstufe HU6 bei Fettleber', url: 'https://pubmed.ncbi.nlm.nih.gov/37806314/' },
+      { title: 'Pandey et al., JAMA Cardiol 2025 – RCT mit HU6 bei Herzschwäche und Übergewicht', url: 'https://pubmed.ncbi.nlm.nih.gov/40072462/' },
+      { title: 'Petróczi et al., Subst Abuse Treat Prev Policy 2015 – Internet, Präparate und Nutzerbefragung', url: 'https://pubmed.ncbi.nlm.nih.gov/26466580/' },
+      { title: 'BfR, Mitteilung Nr. 046/2015 – DNP kann zu schweren Vergiftungen bis hin zu Todesfällen führen', url: 'https://www.bfr.bund.de/cm/343/nahrungsergaenzungsmittel-die-dinitrophenol-dnp-enthalten-koennen-zu-schweren-vergiftungen-bis-hin-zu-todesfaellen-fuehren.pdf' },
+      { title: 'Verbraucherzentrale, Stand 16.09.2026 – Rechtslage und Warnung vor DNP', url: 'https://www.verbraucherzentrale.de/wissen/lebensmittel/nahrungsergaenzungsmittel/dinitrophenol-dnp-verbraucherzentralen-warnen-vor-dem-kauf-34333' },
+      { title: 'WADA, Prohibited List 2026 – S0, DNP namentlich genannt', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'epo',
+    name: 'EPO (Erythropoetin)',
+    altNames: 'Erythropoetin, Epoetin alfa, Epoetin beta, Epoetin zeta, Darbepoetin alfa, CERA, rHuEPO, ESA',
+    class: 'Warnung: Blutbildendes Hormon, zugelassen bei Blutarmut, als Dopingmittel verboten, Thrombose- und Schlaganfallrisiko',
+    emoji: '⚠️',
+    short: 'EPO ist ein Hormon, das die Bildung roter Blutkörperchen anregt, und als verschreibungspflichtiges Medikament bei Blutarmut durch Nierenerkrankung oder Chemotherapie zugelassen. Das Hauptrisiko ist dickeres Blut: In großen Patientenstudien stiegen Thrombosen und Schlaganfälle, in TREAT fast auf das Doppelte, während bei trainierten Radfahrern zwar die Laborleistung, nicht aber die Zeit im Bergrennen besser wurde.',
+    moa: 'Erythropoetin ist ein Glykoprotein-Hormon, das der Körper bei Sauerstoffmangel über den HIF-Signalweg ausschüttet. Es bindet an den EPO-Rezeptor auf Vorläuferzellen der roten Blutkörperchen im Knochenmark und aktiviert JAK2 und den JAK2/STAT5-Signalweg; die Zellen teilen sich, reifen und überleben länger (Chlebowska et al. 2026). Nach einigen Wochen steigen Hämoglobin und Hämatokrit, damit die Sauerstoff-Transportkapazität, aber auch die Blutviskosität. Bei chronischer Nierenerkrankung entsteht die Blutarmut meist durch EPO-Mangel, deshalb ist gentechnisch hergestelltes EPO seit 1988 Standardtherapie. Varianten sind Epoetin alfa, beta und zeta, das länger wirkende Darbepoetin und CERA.',
+    benefits: [
+      'Zugelassene Anwendung bei renaler Anämie: Von 18 wirksam behandelten Dialysepatienten brauchten 12 keine Transfusionen mehr (Eschbach et al. 1987, Phase I/II, 25 Patienten); in TREAT 297 gegen 496 Patienten mit Transfusion (Pfeffer et al. 2009, RCT, 4038 Patienten).',
+      'Zugelassene Anwendung bei Chemotherapie: relatives Transfusionsrisiko 0,65 (Cochrane-Review, 91 Studien, 20.102 Krebspatienten, Tonia et al. 2012); weitere Anwendungsgebiete laut Fachinformation sind Eigenblutspende, große orthopädische Eingriffe und Niedrigrisiko-MDS.',
+      'Warum es im Sport genutzt wird: bei 48 trainierten Radfahrern nach 8 Wochen höheres Hämoglobin (9,6 gegen 9,0 mmol/l), VO2max 60,1 gegen 57,4 ml/min/kg und Maximalleistung 351,55 gegen 341,23 Watt (Heuberger et al. 2017, doppelblindes RCT).',
+      'Kein Vorteil im Rennen: im 45-Minuten-Test und beim Bergrennen auf den Mont Ventoux kein Unterschied, 1 h 40 min 32 s gegen 1 h 40 min 15 s (Heuberger et al. 2017).',
+      'Leistungsgewinn ohne Placebovergleich: 3000-m-Lauf bei 20 kenianischen Läufern etwa 5 Prozent schneller direkt nach 4 Wochen, etwa 3 Prozent 4 Wochen später (Haile et al. 2019); systematischer Review mit 10 Studien bestätigt Blutwerte und VO2max, submaximale Leistung offen (Alberdi-Garciandia 2025).'
+    ],
+    risks: [
+      'Schlaganfall: in TREAT 101 gegen 53 Schlaganfälle, Hazard Ratio 1,92, bei unveränderten Hauptendpunkten (Pfeffer et al. 2009, 4038 Patienten).',
+      'Hohe Hämoglobinwerte schaden: in CHOIR 125 gegen 97 schwere Ereignisse bei Ziel 13,5 statt 11,3 g/dl, HR 1,34 (Singh et al. 2006, 1432 Patienten); CREATE ohne Herzschutz über 3 Jahre (603 Patienten).',
+      'Thrombosen und Sterblichkeit bei Krebspatienten: Thromboembolien RR 1,52, Sterblichkeit in der Studienphase HR 1,17 (Tonia et al. 2012); venöse Thrombosen 7,5 gegen 4,9 Prozent (Bennett et al. 2008).',
+      'Bei Trainierten mehr Endothel- und Plättchenaktivierung, nach Maximalbelastung E-Selektin 15,3 Prozent und Plättchenfaktor 4 32,1 Prozent höher als unter Placebo (Heuberger et al. 2020). Zu Missbrauch bei Sportlern gibt es kaum bevölkerungsbezogene Daten, aber Fallberichte über Hirnvenenthrombosen und akute Koronarsyndrome (Chlebowska et al. 2026); die Todesfälle junger Radprofis um 1990 gelten als verdächtig, nicht als bewiesen (Vecchiato et al. 2026).',
+      'Fachinformation: Bluthochdruck, Krampfanfälle, schwere Hautreaktionen, antikörpervermittelte Erythroblastopenie (1998 bis 2004 nahezu 200 Nierenkranke, 37 Prozent erholt; Bennett et al. 2005), bei Krebspatienten mögliche Wachstumsfaktor-Wirkung.'
+    ],
+    status: 'In Deutschland und der EU zugelassenes, verschreibungspflichtiges Arzneimittel (z. B. Epoetin alfa als Binocrit seit 28.08.2007, eingeschränkte ärztliche Verschreibung); Anwendungsgebiete laut Fachinformation: renale Anämie, Anämie unter Chemotherapie, Eigenblutspende, große orthopädische Eingriffe, Niedrigrisiko-MDS. Leistungssteigerung ist keine Indikation. Handel oder Abgabe außerhalb der Apotheke ist nach § 95 AMG strafbar. Doping: WADA-Verbotsliste 2026 S2.1.1, jederzeit verboten. AntiDopG: EPO, Darbepoetin und CERA stehen in der Anlage; Herstellen und Handel zu Dopingzwecken (§ 2 Abs. 1) sowie Erwerb und Besitz nicht geringer Mengen (§ 2 Abs. 3, Grenze in der Dopingmittel-Mengen-Verordnung 2023) sind strafbar, bis zu drei Jahre Freiheitsstrafe; Selbstdoping (§ 3) für Spitzensportler und Sportler mit erheblichen Einnahmen.',
+    sources: [
+      { title: 'Eschbach et al., N Engl J Med 1987 – erste Korrektur der renalen Anämie mit rekombinantem EPO', url: 'https://pubmed.ncbi.nlm.nih.gov/3537801/' },
+      { title: 'EMA, Fachinformation Binocrit (Epoetin alfa) – Anwendungsgebiete und Warnhinweise', url: 'https://www.ema.europa.eu/de/documents/product-information/binocrit-epar-product-information_de.pdf' },
+      { title: 'Pfeffer et al., N Engl J Med 2009 (TREAT) – Darbepoetin, fast doppelt so viele Schlaganfälle', url: 'https://pubmed.ncbi.nlm.nih.gov/19880844/' },
+      { title: 'Singh et al., N Engl J Med 2006 (CHOIR) – hohes Hämoglobin-Ziel mit mehr Ereignissen', url: 'https://pubmed.ncbi.nlm.nih.gov/17108343/' },
+      { title: 'Drüeke et al., N Engl J Med 2006 (CREATE) – kein Herzschutz durch vollständige Korrektur', url: 'https://pubmed.ncbi.nlm.nih.gov/17108342/' },
+      { title: 'Tonia et al., Cochrane 2012 – ESA bei Krebs: weniger Transfusionen, mehr Thrombosen und Todesfälle', url: 'https://pubmed.ncbi.nlm.nih.gov/23235597/' },
+      { title: 'Bennett et al., JAMA 2008 – venöse Thromboembolien unter ESA bei Krebspatienten', url: 'https://pubmed.ncbi.nlm.nih.gov/18314434/' },
+      { title: 'Heuberger et al., Lancet Haematol 2017 – RCT an Radfahrern, Laborleistung besser, Bergrennen nicht', url: 'https://pubmed.ncbi.nlm.nih.gov/28669689/' },
+      { title: 'Heuberger et al., Eur J Appl Physiol 2020 – Endothel- und Plättchenaktivierung unter EPO und Belastung', url: 'https://pubmed.ncbi.nlm.nih.gov/32537688/' },
+      { title: 'Haile et al., Med Sci Sports Exerc 2019 – EPO bei kenianischen Läufern', url: 'https://pubmed.ncbi.nlm.nih.gov/30188362/' },
+      { title: 'Chlebowska et al., Pathophysiology 2026 – Übersicht zu EPO-Doping und Herz-Kreislauf-Risiko', url: 'https://pubmed.ncbi.nlm.nih.gov/42647239/' },
+      { title: 'WADA, Prohibited List 2026 – S2.1 Erythropoetine', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'telmisartan',
+    name: 'Telmisartan',
+    altNames: 'Micardis, Sartan, AT1-Rezeptorblocker, ARB, MicardisPlus (mit Hydrochlorothiazid)',
+    class: 'Angiotensin-II-Rezeptorblocker (Sartan) mit partieller PPAR-gamma-Wirkung im Labor, zugelassener Blutdrucksenker, verschreibungspflichtig',
+    emoji: '🩺',
+    short: 'Ein seit 1998 zugelassener Blutdrucksenker, der in der Studie ONTARGET mit 25.620 Hochrisikopatienten so gut vor Herzinfarkt, Schlaganfall und Herztod schützte wie Ramipril und in Meta-Analysen Insulinwerte und Bauchfett stärker verbessert als andere Blutdrucksenker. Das Longevity-Interesse beruht auf Labor- und Tierdaten; harte Endpunkte wie Diabetes, Kognition und Gehstrecke verbesserten sich in großen Studien nicht, und im Mäuse-Lebensdauerprogramm ITP blieb die Kombination mit Atorvastatin ohne Effekt.',
+    moa: 'Telmisartan blockiert selektiv und lang anhaltend den Angiotensin-II-Rezeptor AT1; laut Fachinformation hemmen 80 mg beim Menschen den durch Angiotensin II ausgelösten Blutdruckanstieg fast vollständig über 24 Stunden, die Halbwertszeit liegt über 20 Stunden. Dadurch sinken Blutdruck, Aldosteron und die Belastung von Herz, Nieren und Gefäßen. Zusätzlich wirkt Telmisartan in Zell- und Rattenversuchen als partieller Agonist des Stoffwechselrezeptors PPAR-gamma, den andere Sartane in üblichen Konzentrationen nicht aktivieren (Benson 2004). Bei Mäusen steigerte es über PPAR-delta und AMPK die Laufausdauer (Feng 2011). Beim Menschen ist der PPAR-Weg nur indirekt belegt, über günstigere Insulinwerte und eine explorative Muskelbiopsie-Studie mit 13 Teilnehmenden.',
+    benefits: [
+      'Herz-Kreislauf-Schutz gleichwertig zu Ramipril: primärer Endpunkt 16,7 % gegenüber 16,5 %, weniger Husten, 1,1 % gegenüber 4,2 % (ONTARGET, doppelblinde RCT, 25.620 Patienten, median 56 Monate, 2008)',
+      'Günstigere Insulinresistenz als unter anderen Blutdrucksenkern: HOMA-IR -15,34 % in 8 doppelblinden Studien (Meta-Analyse, 33 RCTs, 2033 Hypertoniker, 2014)',
+      'Weniger viszerales Fett, -18,13 cm² gegenüber Kontrolle, Unterhautfett unverändert (Meta-Analyse, 15 RCTs, 2016)',
+      'Partieller PPAR-gamma-Agonist, senkte Glukose, Insulin und Triglyzeride bei Ratten (Benson 2004); mehr Laufausdauer bei Mäusen über PPAR-delta (Feng 2011)',
+      'Muskelbiopsien bei pAVK: größere Muskelfasern, weniger Myostatin, aktivierte PPAR-gamma-Signalwege (TELEX-Substudie, 13 Teilnehmende, 2025, explorativ)'
+    ],
+    risks: [
+      'Kein Longevity-Beleg: Atorvastatin plus Telmisartan verlängerte das Leben von Mäusen im ITP nicht (2026); keine Humandaten zur Lebensdauer',
+      'Harte Stoffwechsel-Endpunkte verfehlt: neuer Diabetes 1,7 % gegenüber 2,1 %, nicht signifikant (PRoFESS, 20.332 Patienten); bei Fettleber kein konsistenter Nutzen (6 RCTs, 258 Teilnehmende)',
+      'Keine Verbesserung von Kognition (PRoFESS, ONTARGET/TRANSCEND) oder Gehstrecke (TELEX, 114 Patienten)',
+      'Niedriger Blutdruck, Schwindel, Synkope, erhöhtes Kalium, Nierenfunktionsverschlechterung, selten Angioödem; bei normalem Blutdruck keine Studien',
+      'Kontraindiziert im zweiten und dritten Schwangerschaftsdrittel, bei Gallenabflussstörung und schwerer Leberfunktionsstörung; nicht mit weiteren RAAS-Hemmern kombinieren (ONTARGET: Nierenfunktionsstörung 13,5 % gegenüber 10,2 %); Wechselwirkung mit Lithium und kaliumsparenden Mitteln'
+    ],
+    status: 'Deutschland/EU: zugelassenes, verschreibungspflichtiges Arzneimittel, Micardis seit 16.12.1998, zahlreiche Generika, Kombination mit Hydrochlorothiazid (MicardisPlus) seit 2002. Anwendungsgebiete: essentielle Hypertonie bei Erwachsenen und Senkung der kardiovaskulären Morbidität bei manifester atherothrombotischer Erkrankung oder Typ-2-Diabetes mit Endorganschaden. Nutzung zur Longevity, Stoffwechseloptimierung oder Leistungssteigerung ist Off-Label. Die großen Endpunktstudien verwendeten 80 mg pro Tag (Studienangabe, keine Empfehlung). Doping: Telmisartan steht nicht auf der WADA-Liste; Kombipräparate mit Hydrochlorothiazid enthalten ein unter S5 verbotenes Diuretikum.',
+    sources: [
+      { title: 'ONTARGET Investigators 2008, N Engl J Med – Telmisartan gleichwertig zu Ramipril, 25.620 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/18378520/' },
+      { title: 'TRANSCEND Investigators 2008, Lancet – 5926 ACE-Hemmer-intolerante Patienten, primärer Endpunkt nicht signifikant', url: 'https://pubmed.ncbi.nlm.nih.gov/18757085/' },
+      { title: 'Yusuf et al. 2008, N Engl J Med – PRoFESS, kein Schutz vor erneutem Schlaganfall oder neuem Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/18753639/' },
+      { title: 'Benson et al. 2004, Hypertension – Telmisartan als partieller PPAR-gamma-Agonist', url: 'https://pubmed.ncbi.nlm.nih.gov/15007034/' },
+      { title: 'Feng et al. 2011, J Cell Mol Med – Laufausdauer bei Mäusen über PPAR-delta/AMPK', url: 'https://pubmed.ncbi.nlm.nih.gov/20477906/' },
+      { title: 'Takagi und Umemoto 2014, J Am Soc Hypertens – Meta-Analyse Insulinresistenz, 33 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/25151319/' },
+      { title: 'Choi et al. 2016, Curr Med Res Opin – Meta-Analyse viszerales Fett', url: 'https://pubmed.ncbi.nlm.nih.gov/27010868/' },
+      { title: 'McDermott et al. 2022, JAMA – TELEX, keine bessere Gehstrecke bei pAVK', url: 'https://pubmed.ncbi.nlm.nih.gov/36194220/' },
+      { title: 'Korstanje et al. 2026, Geroscience – ITP, Atorvastatin-Telmisartan ohne Lebensverlängerung', url: 'https://pubmed.ncbi.nlm.nih.gov/41843349/' },
+      { title: 'EMA – Micardis, Produktinformation (deutsch)', url: 'https://www.ema.europa.eu/de/documents/product-information/micardis-epar-product-information_de.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'vinpocetin',
+    name: 'Vinpocetin',
+    altNames: 'Vinpocetine, Ethyl-Apovincaminat, Cavinton, RGH-4405, TCV-3B',
+    class: 'Halbsynthetisches Vinca-Alkaloid, Phosphodiesterase-1-Hemmer; in DE verschreibungspflichtig, kein Fertigarzneimittel im Handel',
+    emoji: '🌸',
+    short: 'Abkömmling eines Alkaloids aus dem Kleinen Immergrün, seit Jahrzehnten als Mittel für die Hirndurchblutung im Einsatz; beim akuten Schlaganfall fand eine Meta-Analyse von 4 Studien weniger Tod oder schwere Behinderung. Für Gesunde fehlen belastbare Daten, die Demenzstudien sind alt und laut Cochrane nicht schlüssig, und die FDA warnt in der Schwangerschaft.',
+    moa: 'Vinpocetin hemmt die Phosphodiesterase 1, die die Botenstoffe cAMP und cGMP abbaut; das soll Hirngefäße erweitern und die Durchblutung verbessern. Zusätzlich blockiert es spannungsabhängige Natriumkanäle (NaV1.8) und dämpft oxidativen Stress, was Nervenzellen bei Sauerstoffmangel schützen soll (präklinisch, Vizi & Kiss 2026). Unabhängig davon hemmt es direkt das Enzym IKK und damit den Entzündungsschalter NF-κB (Zellkultur und Maus, Jeon 2010); bei 60 Schlaganfallpatienten war die NF-κB-Aktivierung unter Vinpocetin-Infusion gedämpft (Zhang 2018). Die orale Bioverfügbarkeit beim Menschen liegt nur bei 6,2 %, mit Mahlzeit steigt die Aufnahme um etwa 60 bis 100 %; die Blutspiegel bleiben weit unter wirksamen Tierspiegeln (Szakács 2001; Lohmann 1992; Meador 2021).',
+    benefits: [
+      'Akuter ischämischer Schlaganfall: Meta-Analyse von 4 placebokontrollierten RCTs (601 gegen 236 Patienten), weniger Tod oder schwere Behinderung nach 1 Monat (RR 0,80) und 3 Monaten (RR 0,67) (Panda 2022).',
+      'CAVIN-Studie (China, 610 Patienten, offen, 2016): Vinpocetin-Infusion zusätzlich zur Standardtherapie, nach 90 Tagen bessere Werte in MMSE, NIHSS und Barthel-Index.',
+      'Chronische zerebrovaskuläre Störungen und leichte Demenz: RCT mit 203 Patienten über 16 Wochen (Hindmarch 1991) und mit 84 Patienten über 90 Tage (Balestreri 1987) positiv.',
+      'Cochrane 2003: 3 RCTs mit 583 Menschen mit Demenz zeigen Vorteile gegenüber Placebo, bei ungenügender Studienqualität.',
+      'Entzündungshemmung am Menschen gemessen: gedämpfte NF-κB-Aktivierung bei 60 Schlaganfallpatienten (Zhang 2018).',
+      'Neues Forschungsfeld: bei seltenen GABA-A-Rezeptor-Epilepsien in einer Beobachtungsserie mit 9 Patienten weniger Anfälle (Gjerulfsen 2026).'
+    ],
+    risks: [
+      'Schwangerschaft: FDA-Warnung 2019 vor Fehlgeburt und Schädigung des Fötus; NTP 2020 mit klarer Entwicklungstoxizität bei Ratten (Embryoverlust, Ventrikelseptumdefekte).',
+      'Für Gesunde keine belastbaren Belege: 8 Gesunde ohne kognitiven Effekt (Meador 2021), 12 Frauen nur in einem Einzeltest verbessert (Subhan 1985).',
+      'Demenzstudien alt und klein; Cochrane 2003 nicht schlüssig; offene Alzheimer-Studie mit 15 Patienten über 1 Jahr ohne Effekt (Thal 1989).',
+      'Nebenwirkungen: Gesichtsrötung, Kopfschmerz, Schlafstörungen, Übelkeit, Schwindel; Vorsicht mit Blutverdünnern (OPSS 2022).',
+      'Sehr niedrige orale Bioverfügbarkeit (6,2 %); die neueren Schlaganfallstudien nutzten Infusionen.',
+      'Produktqualität: in 6 von 23 US-Supplements kein Vinpocetin nachweisbar (Avula 2016).'
+    ],
+    status: 'DE: verschreibungspflichtig (AMVV Anlage 1, Vinpocetin); vinpocetinhaltige Fertigarzneimittel seit 2006 nicht mehr im Handel; als Nahrungsergänzung nicht verkehrsfähig. EU: RASFF-Meldungen als nicht zugelassener Stoff in Nahrungsergänzungsmitteln (Slowenien 2021, Lettland und Niederlande 2026); in anderen Ländern Arzneimittel (Cavinton, Gedeon Richter; laut OPSS u. a. China, Russland). USA: FDA 2016 vorläufig keine zulässige Supplement-Zutat, 2019 Warnung in der Schwangerschaft; auf der DoD-Verbotsliste. WADA-Liste 2026: nicht genannt.',
+    sources: [
+      { title: 'Szatmari & Whitehouse, Cochrane Database Syst Rev 2003 – Demenz, 3 RCTs, 583 Patienten, nicht schlüssig', url: 'https://pubmed.ncbi.nlm.nih.gov/12535455/' },
+      { title: 'Panda et al., Neurocrit Care 2022 – Meta-Analyse, 4 RCTs, akuter ischämischer Schlaganfall', url: 'https://pubmed.ncbi.nlm.nih.gov/35488169/' },
+      { title: 'Bereczki & Fekete, Cochrane Database Syst Rev 2008 – Schlaganfall, 2 Studien, 70 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/18253980/' },
+      { title: 'Zhang W et al., Clin Drug Investig 2016 – CAVIN-Studie, 610 Patienten, offen', url: 'https://pubmed.ncbi.nlm.nih.gov/27283947/' },
+      { title: 'Hindmarch et al., Int Clin Psychopharmacol 1991 – RCT, 203 Patienten, 16 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/2071888/' },
+      { title: 'Meador et al., Epilepsy Behav 2021 – kein kognitiver Effekt bei Gesunden und Epilepsie', url: 'https://pubmed.ncbi.nlm.nih.gov/33957389/' },
+      { title: 'Zhang F et al., Transl Stroke Res 2018 – NF-κB-Hemmung bei 60 Schlaganfallpatienten', url: 'https://pubmed.ncbi.nlm.nih.gov/28691141/' },
+      { title: 'National Toxicology Program 2020 – DART-Report 03, Entwicklungstoxizität bei Ratten und Kaninchen', url: 'https://pubmed.ncbi.nlm.nih.gov/32716616/' },
+      { title: 'FDA – Vinpocetine in Dietary Supplements (Rechtsstatus 2016, Schwangerschaftswarnung 2019)', url: 'https://www.fda.gov/food/information-select-dietary-supplement-ingredients-and-other-substances/vinpocetine-dietary-supplements' },
+      { title: 'Avula et al., Drug Test Anal 2016 – Vinpocetin-Gehalt in 23 US-Supplements', url: 'https://pubmed.ncbi.nlm.nih.gov/26426301/' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'yohimbin',
+    name: 'Yohimbin',
+    altNames: 'Yohimbine, Yohimbinhydrochlorid, Yohimbine HCl, Yohimbe (Pausinystalia yohimbe, Corynanthe johimbe), Johimbin, YOCON-GLENWOOD',
+    class: 'Indolalkaloid, Alpha-2-Rezeptor-Blocker; in DE verschreibungspflichtiges Arzneimittel, Yohimbe-Rinde in Lebensmitteln EU-weit verboten',
+    emoji: '🌳',
+    short: 'Alkaloid aus der Yohimbe-Rinde, das den Sympathikus anschiebt: mehr Noradrenalin, mehr freigesetzte Fettsäuren, und bei Erektionsstörungen in mehreren Meta-Analysen besser als Placebo. Für Fettabbau und Trainingsleistung gibt es nur kleine, widersprüchliche Studien, und Herzrasen, Blutdruckanstieg und Angst sind häufig.',
+    moa: 'Yohimbin blockiert Alpha-2-Adrenozeptoren, die an Nervenenden die Ausschüttung von Noradrenalin bremsen und an Fettzellen den Fettabbau hemmen. Am Menschen ist die Folge gemessen: Plasma-Noradrenalin stieg um 100 % bei nüchternen Frauen (Berlan 1991) und um 66 % bei Bluthochdruckpatienten, deren mittlerer Blutdruck um 5 mm Hg zunahm (Grossman 1993); freie Fettsäuren steigen, ein Betablocker dämpft den Effekt um 70 %, der Fettabbau läuft also überwiegend über mehr Noradrenalin an Beta-Rezeptoren. Die Halbwertszeit lag in zwei Studien bei 0,58 und 0,60 Stunden, die orale Bioverfügbarkeit schwankte zwischen 7 und 87 % (Guthrie 1990). Abgebaut wird Yohimbin über CYP2D6, weshalb die Clearance in einer Studie mit 16 Gesunden zwischen 25,3 und 15.864 mL/min lag (Vay 2020).',
+    benefits: [
+      'Erektile Dysfunktion: Meta-Analyse von 7 placebokontrollierten RCTs, Odds Ratio 3,85 (Ernst & Pittler 1998); neuere Meta-Analyse von 8 RCTs, OR 2,08 für Yohimbin allein (Wibowo 2021) – ältere Studien mit methodischen Mängeln.',
+      'In Deutschland als verschreibungspflichtiges Arzneimittel zur unterstützenden Behandlung leichter bis mittelschwerer Erektionsstörungen zugelassen (Fachinformation 2017).',
+      'Körperfett: RCT mit 20 Profi-Fußballern über 21 Tage, Körperfett 7,1 gegenüber 9,2 % unter Placebo, ohne Leistungsänderung (Ostojic 2006).',
+      'Diät: 20 übergewichtige Frauen, 3 Wochen, 3,55 kg gegenüber 2,21 kg Gewichtsverlust unter Placebo (Kucio 1991).',
+      'Sprintleistung: Crossover mit 18 aktiven Frauen, einmalige Gabe, höhere mittlere Leistung und weniger Ermüdung über 3 Sprints (Barnes 2022).',
+      'Wirkprinzip am Menschen belegt: messbarer Anstieg von Noradrenalin und freien Fettsäuren (Berlan 1991; Galitzky 1990).'
+    ],
+    risks: [
+      'Die längste kontrollierte Studie (47 Männer, 6 Monate) fand keinen Effekt auf Gewicht, Körperfett oder Fettverteilung (Sax 1991).',
+      'Häufig Herzrasen, Blutdruckanstieg, Unruhe, Angst, Schlaflosigkeit, Übelkeit; beim kalifornischen Giftnotruf 238 Fälle, 43 % mit Herzrasen, schwere Verläufe häufiger als im Durchschnitt (Kearney 2010).',
+      'Vergiftungen und Todesfälle dokumentiert; bei 4 gleichzeitig Vergifteten unterschieden sich die Blutspiegel um das 22-Fache (Mueller-Schoell 2021).',
+      'Nicht bei Herzerkrankungen, Blutdruckstörungen, Leber- oder Niereninsuffizienz, Magengeschwür, Glaukom, Epilepsie, Angst- und affektiven Störungen; bei Angstpatienten Panikattacken in 50 % der Fälle (BfR).',
+      'Wechselwirkungen mit Blutdrucksenkern, Clonidin, Antidepressiva, Amphetaminen; CYP2D6-Hemmer wie Paroxetin senken die Clearance mehr als fünffach.',
+      'Produktqualität: von 49 US-Marken nur 2 mit korrekter Mengenangabe und Warnhinweisen (Cohen 2016).'
+    ],
+    status: 'DE: verschreibungspflichtig (AMVV Anlage 1, Yohimbinsäure und ihre Ester), zugelassen zur unterstützenden Behandlung leichter bis mittelschwerer erektiler Dysfunktion (z. B. YOCON-GLENWOOD). EU: Yohimbe-Rinde und Zubereitungen daraus seit VO (EU) 2019/650 in Lebensmitteln verboten (Anhang III Teil A der VO (EG) 1925/2006); Yohimbinhydrochlorid in Nahrungsergänzungsmitteln wird als Arzneistoff beanstandet, 102 RASFF-Meldungen mit Yohimbe/Yohimbin im Betreff seit 2017. USA: als Supplement im Handel, FDA-Warnungen zu verstecktem Yohimbin; Yohimbe-Präparate in Kanada, Australien, Niederlanden und Großbritannien verboten. WADA-Liste 2026: nicht genannt.',
+    sources: [
+      { title: 'Ernst & Pittler, J Urol 1998 – Meta-Analyse, 7 RCTs, erektile Dysfunktion, OR 3,85', url: 'https://pubmed.ncbi.nlm.nih.gov/9649257/' },
+      { title: 'Wibowo et al., Turk J Urol 2021 – Meta-Analyse, 8 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/35118966/' },
+      { title: 'Ostojic, Res Sports Med 2006 – RCT, 20 Fußballprofis, Körperfett gesenkt, Leistung unverändert', url: 'https://pubmed.ncbi.nlm.nih.gov/17214405/' },
+      { title: 'Sax, Int J Obes 1991 – RCT, 47 Männer, 6 Monate, kein Effekt auf Fettverteilung', url: 'https://pubmed.ncbi.nlm.nih.gov/1960007/' },
+      { title: 'Barnes et al., Int J Environ Res Public Health 2022 – Einzeldosis und Sprintleistung, 18 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/35162339/' },
+      { title: 'Berlan et al., Int J Obes 1991 – Noradrenalin und Fettmobilisierung beim Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/1885256/' },
+      { title: 'Vay et al., Clin Pharmacokinet 2020 – CYP2D6-abhängige Clearance', url: 'https://pubmed.ncbi.nlm.nih.gov/32060866/' },
+      { title: 'Kearney et al., Ann Pharmacother 2010 – 238 Fälle beim kalifornischen Giftnotruf', url: 'https://pubmed.ncbi.nlm.nih.gov/20442348/' },
+      { title: 'Cohen et al., Drug Test Anal 2016 – Yohimbin-Gehalt in 49 US-Supplements', url: 'https://pubmed.ncbi.nlm.nih.gov/26391406/' },
+      { title: 'Verordnung (EU) 2019/650 – Yohimbe in Anhang III Teil A (Verbot in Lebensmitteln)', url: 'https://eur-lex.europa.eu/eli/reg/2019/650/oj/eng' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
   }
 ];
 
@@ -4472,6 +4869,7 @@ const _EXP_CAT_MAP = {
   'cagrilintide': 'Stoffwechsel',
   'slu-pp-332': 'Exercise',
   'aicar': 'Exercise',
+  'yohimbin': 'Stoffwechsel', 'benfotiamin': 'Stoffwechsel', 'telmisartan': 'Longevity', 'anabole-steroide': 'Exercise', 'epo': 'Exercise', 'clenbuterol': 'Stoffwechsel', 'dnp': 'Stoffwechsel',
   'bam15': 'Stoffwechsel', 'pregnenolon': 'Longevity',
   'turkesterone': 'Exercise', 's23': 'Exercise', 'nmnh': 'Longevity',
   'ace-031': 'Exercise',

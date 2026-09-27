@@ -388,5 +388,39 @@ const KHAVINSON = [
       { title: 'Khavinson et al. 2020, Stem Cell Rev Rep – kurze Peptide und Zelldifferenzierung (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/31808038/' }
     ],
     community: []
+  },
+  {
+    id: 'kh-crystagen',
+    name: 'Crystagen',
+    altNames: 'EDP · Glu-Asp-Pro · T-36 · Kristagen',
+    class: 'Tripeptid, Immun-Bioregulator (Bestandteil von Thymalin)',
+    emoji: '🛡️',
+    short: 'Synthetisches Tripeptid aus der Khavinson-Schule, das dem alternden Immunsystem helfen soll und als Baustein des Thymus-Präparats Thymalin gilt. In Kulturen aus Thymus und Milz alter Ratten wuchs das Gewebe stärker, am Menschen gibt es nur eine offene Studie aus einer Patentschrift.',
+    moa: 'Crystagen (Glu-Asp-Pro, EDP) wurde von der Khavinson-Gruppe als Peptid mit schützender Wirkung auf das alternde Immunsystem patentiert (RU 2301074, WO2007139435) und laut einer Übersicht von 2021 neben Vilon (KE) und Thymogen (EW) im Thymus-Extrakt Thymalin identifiziert. Nach der Hypothese der Khavinson-Schule gelangen so kurze Peptide in den Zellkern, binden an DNA und Histone und verändern die Ablesung von Genen; ein Computermodell von 2016 ordnet EDP dieselbe DNA-Bindungsstelle zu wie Vilon. In Zellkultur steigerte EDP die spontane Teilung normaler menschlicher Lymphozyten (2011) und die Teilung menschlicher Thymus-Epithelzellen. Wie das oral eingenommene Peptid ins Immunsystem gelangt, ist nur per Computermodell (Transporter PEPT1, LAT1; 2022, 2023) betrachtet, nicht am Menschen gemessen.',
+    benefits: [
+      'Thymus- und Milzgewebe 24 Monate alter Ratten in Kultur: Wachstumsfläche plus 24 bzw. 28 Prozent (Patentschrift WO2007139435, Organkultur).',
+      'Bestrahlungsmodell beschleunigter Thymusalterung: Rinden-Mark-Gliederung des Thymus erhalten, mehr Teilung der Thymuszellen (Patentschrift, Tierversuch an Ratten).',
+      'Offene Studie an 38 älteren Patienten (62 bis 83 Jahre) gegen 32 Kontrollen, 10 Tage zusätzlich zur Standardbehandlung: Immunwerte normalisiert bei 82 gegenüber 56 Prozent, vor allem CD3- und CD4-T-Zellen (Patentschrift; referiert in Khavinson et al. 2021).',
+      'Aktivierung von B-Zellen in alterndem Milzgewebe (Chervyakova et al. 2014, Tierversuch, russisch).',
+      'Mehr spontane Teilung normaler menschlicher Lymphozyten in Kultur (Khavinson et al. 2011, Zellkultur).'
+    ],
+    risks: [
+      'Keine peer-reviewte kontrollierte Humanstudie; die einzige Patientenstudie ist offen, nicht randomisiert und nur in einer Patentschrift beschrieben; ClinicalTrials.gov ohne Eintrag.',
+      'Sehr schmale Literatur: 1 PubMed-Treffer unter dem Namen, 3 in Europe PMC, alle aus dem Umfeld des St. Petersburger Instituts, keine unabhängige Wiederholung.',
+      'Widersprüche: Übersicht 2021 nennt orale Gabe, die Patentschrift Spritzen in den Muskel; Handelsware sind Kapseln, deren Aufnahme am Menschen nicht gemessen ist.',
+      'Nicht jeder Befund positiv: in der alternden Milz keine Zellerneuerung (2014), schwächer gegen Zelltod als Vilon und Thymogen (2019).',
+      'Sicherheitsdaten nur aus Tierversuchen der Patentschrift; bei Autoimmunerkrankungen, Immunsuppression oder Blutkrebs keine Daten. Im Sport unter WADA S0 jederzeit verboten.'
+    ],
+    status: 'Forschungspeptid. In DE/EU weder als Arzneimittel noch als Nahrungsergänzungsmittel zugelassen, keine FDA-Zulassung. In Russland laut Hersteller als Nahrungsergänzung (BAD) im Handel, nicht als Arzneimittel. Patentiert als Mittel gegen altersbedingte Immunstörungen (RU 2301074, WO2007139435). WADA 2026: als nicht zugelassene Substanz unter S0 jederzeit verboten.',
+    sources: [
+      { title: 'Khavinson et al. 2021, Biol Bull Rev – Thymalin und seine Kurzpeptide EW, KE, EDP (Crystagen), Patientenstudie 82 vs. 56 Prozent', url: 'https://europepmc.org/article/PMC/PMC8365293' },
+      { title: 'Khavinson et al., Patent WO2007139435 – Glu-Asp-Pro, Organkultur, Toxikologie, offene Patientenstudie', url: 'https://patents.google.com/patent/WO2007139435A1/en' },
+      { title: 'Chervyakova et al. 2014, Adv Gerontol – B-Zell-Aktivierung, keine Zellerneuerung in der alternden Milz (russisch)', url: 'https://pubmed.ncbi.nlm.nih.gov/28976144/' },
+      { title: 'Khavinson et al. 2011, Bull Exp Biol Med – Tripeptid T-36 an Lymphozyten und Zelllinien', url: 'https://pubmed.ncbi.nlm.nih.gov/22485217/' },
+      { title: 'Voicekhovskaya et al. 2012, Bull Exp Biol Med – T-36 (Glu-Asp-Pro) an Hautkulturen junger und alter Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/22803085/' },
+      { title: 'Khavinson et al. 2016, Bull Exp Biol Med – DNA-Bindung von Kurzpeptiden im Modell', url: 'https://pubmed.ncbi.nlm.nih.gov/27909961/' },
+      { title: 'Khavinson et al. 2022, Int J Mol Sci – Transport ultrakurzer Peptide (Crystagen als Immunprotektor gelistet)', url: 'https://pubmed.ncbi.nlm.nih.gov/35887081/' }
+    ],
+    community: []
   }
 ];

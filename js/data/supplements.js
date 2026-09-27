@@ -2992,6 +2992,94 @@ const SUPPLEMENTS = [
     evidence: 'mittel',
     sources: 'Sauerkirschen (Montmorency, Balaton, Schattenmorelle), Sauerkirschsaft, ungesüßtes Konzentrat',
     link: 'https://pubmed.ncbi.nlm.nih.gov/41945263/'
+  },
+  {
+    id: 'laktoferrin',
+    name: 'Laktoferrin',
+    altNames: 'Lactoferrin, bovines Lactoferrin, Lactoferrin aus Kuhmilch, bLF',
+    category: 'Protein',
+    tags: ['immun', 'blut', 'darm', 'entzuendung'],
+    short: 'Eisenbindendes Milcheiweiß, das in Meta-Analysen vor allem bei Kindern Atemwegsinfekte und Durchfall seltener macht und besser vertragen wird als Eisentabletten. Bei Erwachsenen ist kein Infektschutz belegt, und beim Eisenmangel war es in der größten Studie Eisensulfat unterlegen.',
+    description: 'Laktoferrin ist ein Glykoprotein aus Milch, das Eisen fest bindet und zur angeborenen Abwehr gehört; in reifer Muttermilch stecken im Mittel 2,10 g pro Liter. Präparate enthalten bovines Laktoferrin aus Kuhmilch, das in der EU seit 2012 als neuartiges Lebensmittel zugelassen ist und Säuglingsnahrung zugesetzt wird. Eine Meta-Analyse von 6 RCTs mit 1.194 Teilnehmenden fand weniger Atemwegsinfekte (Odds Ratio 0,57), der Effekt zeigte sich aber bei Kindern (0,78) und nicht bei Erwachsenen (1,00). Bei Schwangerschaftsanämie war es so wirksam wie Eisensulfat und magenfreundlicher, in der größten und neuesten RCT mit 555 Frauen jedoch klar unterlegen. Die Verträglichkeit ist sehr gut, bei Milcheiweißallergie ist es ungeeignet.',
+    benefits: [
+      'Weniger Atemwegsinfekte, Odds Ratio 0,57 (Meta-Analyse, 6 RCTs, 1.194 Teilnehmende, Ali 2021) – Effekt bei Kindern 0,78, bei Erwachsenen 1,00 (Berthon 2022)',
+      'Weniger Durchfall bei Kindern, Odds Ratio 0,56 (Meta-Analyse, 25 RCTs, Mayorga 2025)',
+      'Frühgeborene: weniger späte Sepsis, RR 0,82 (Cochrane 2020, 12 RCTs, 5425 Frühgeborene, niedrige Evidenzsicherheit) – in ELFIN mit 2203 Frühgeborenen kein Effekt',
+      'Schwangerschaftsanämie: Hämoglobin mindestens so gut wie unter Eisensulfat, weniger Magen-Darm-Beschwerden (Meta-Analyse, 4 RCTs, 600 Frauen, 2017)',
+      'Als Zusatz zur Helicobacter-Therapie höhere Eradikationsrate, Odds Ratio 2,22 (Meta-Analyse, 5 RCTs, 682 Teilnehmende, 2009)'
+    ],
+    risks: [
+      'Aus Kuhmilch gewonnen, bei Milcheiweißallergie ungeeignet',
+      'Bei Eisenmangelanämie kein gleichwertiger Ersatz für Eisen: in der RCT mit 555 Frauen Hb -0,2 und 0,0 g/dl gegenüber 1,1 g/dl unter Eisensulfat (Huda 2026)',
+      'Kein Infektschutz bei Erwachsenen belegt; Long-COVID-RCT mit 72 Teilnehmenden ohne Nutzen',
+      'Rechtsstatus als Nahrungsergänzung unklar: Die EU-Zulassung als neuartiges Lebensmittel nennt Nahrungsergänzungsmittel nicht als Kategorie',
+      'Wird im Magen-Darm-Trakt teilweise verdaut; wie viel intakt wirkt, ist offen'
+    ],
+    dosage: 'Studien bei Erwachsenen verwendeten meist 200 bis 400 mg pro Tag über 4 bis 12 Wochen, die Long-COVID-Studie 1200 mg pro Tag über 6 Wochen; Säuglings- und Kinderformeln enthielten 35 bis 833 mg pro Tag. Die EU erlaubt in Lebensmitteln für besondere medizinische Zwecke bis 3 g pro Tag; die EFSA bewertete eine mittlere Aufnahme von etwa 1,4 g pro Tag bei Erwachsenen als sicher. Referenzwerte oder eine Höchstmenge für Nahrungsergänzungsmittel gibt es nicht. Das sind Studien- und Zulassungsangaben, keine Verzehrempfehlung.',
+    intake: 'Täglich über mehrere Wochen, wie in den Studien. Vergleichende Daten zum besten Einnahmezeitpunkt gibt es nicht; eine Eisenmangelanämie gehört ärztlich abgeklärt.',
+    synergies: ['probiotika'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Muttermilch (reife Milch im Mittel 2,10 g pro Liter), Kuhmilch und Molke; in Säuglingsnahrung zugesetzt',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/35481594/'
+  },
+  {
+    id: 'rotschimmelreis',
+    name: 'Rotschimmelreis',
+    altNames: 'Red Yeast Rice, Monascus purpureus, Hongqu, Beni-koji, Monacolin K, Xuezhikang',
+    category: 'Pilz',
+    tags: ['herz', 'cholesterin'],
+    short: 'Mit Monascus-Pilz vergorener Reis, dessen Monacolin K chemisch identisch mit dem Statin Lovastatin ist – er senkt das LDL-Cholesterin nachweislich, in einer großen Studie auch Herzinfarkte. Die EU erlaubt seit 2022 nur weniger als 3 mg Monacoline pro Tag, EFSA fand keine sichere Menge, und ein vollständiges Verbot ist 2026 beschlossen, aber noch nicht veröffentlicht.',
+    description: 'Rotschimmelreis entsteht durch Fermentation von Reis mit dem Schimmelpilz Monascus purpureus und wird in Ostasien seit mehr als tausend Jahren genutzt. Der Hauptwirkstoff Monacolin K ist in seiner Lacton-Form identisch mit Lovastatin und hemmt wie alle Statine die HMG-CoA-Reduktase der Leber. Meta-Analysen zeigen gegenüber Placebo 1,02 mmol/l weniger LDL, im direkten Vergleich so viel wie Statine; in der chinesischen CCSPS-Studie mit 4.870 Herzinfarkt-Patienten sanken schwere koronare Ereignisse über 4,5 Jahre von 10,4 auf 5,7 Prozent. Diese Daten stammen aus Dosen, die in der EU heute nicht mehr erlaubt sind; für weniger als 3 mg Monacoline pro Tag gibt es kaum Wirksamkeitsdaten. EFSA und BfR sehen erhebliche Sicherheitsbedenken, weil die Nebenwirkungen denen von Lovastatin entsprechen und schon ab 3 mg pro Tag Einzelfälle schwerer Nebenwirkungen gemeldet wurden.',
+    benefits: [
+      'LDL-Cholesterin gegenüber Placebo 1,02 mmol/l niedriger, kein Unterschied zu Statinen (Meta-Analyse, 20 randomisierte Studien, Gerards 2015)',
+      'LDL -35,82 mg/dl in 14 doppelblinden Studien über 4 bis 24 Wochen (Meta-Analyse, Trogkanis 2024)',
+      'Nach Herzinfarkt weniger schwere koronare Ereignisse, 5,7 gegenüber 10,4 Prozent, Gesamtsterblichkeit 33 Prozent niedriger (RCT, 4.870 Patienten, 4,5 Jahre, Xuezhikang, Lu 2008) – ein Präparat, Dosis entsprechend 10 mg Lovastatin',
+      'Bei früherer Statin-Unverträglichkeit ähnlich vertragen wie Pravastatin, LDL -30 gegenüber -27 Prozent (kleine RCT, 43 Teilnehmende, 12 Wochen, Halbert 2010)'
+    ],
+    risks: [
+      'Nebenwirkungen wie beim Statin Lovastatin: Muskelschäden bis Rhabdomyolyse, Leberschäden; laut EFSA Einzelfälle schwerer Nebenwirkungen schon ab 3 mg Monacolinen pro Tag, keine sichere Tagesmenge ableitbar (EFSA 2018 und 2025)',
+      'Wechselwirkungen über CYP3A4 (bestimmte Pilzmittel, HIV-Proteasehemmer, Ciclosporin) sowie erhöhtes Myopathierisiko mit Fibraten und Niacin ab 1 g pro Tag (BVL/BfArM)',
+      'Pflichtwarnhinweis: nicht in Schwangerschaft und Stillzeit, unter 18 und über 70 Jahren, nicht mit Cholesterinsenkern oder anderen Rotschimmelreisprodukten',
+      'Verunreinigungen: nierentoxisches Citrinin (Höchstgehalt 100 µg/kg); in Japan 2024 verunreinigte Chargen eines Präparats mit 2.628 Behandelten und 76 möglicherweise zusammenhängenden Todesfällen',
+      'Wirksamkeit der in der EU erlaubten Menge unter 3 mg kaum untersucht; Gehalt schwankt zwischen Produkten'
+    ],
+    dosage: 'Studien verwendeten 2-mal täglich 0,6 g Xuezhikang (laut BVL/BfArM entsprechend 10 mg Lovastatin) über 4,5 Jahre, 2,4 g Rotschimmelreis pro Tag über 12 Wochen, 2.400 mg zweimal täglich über 12 Wochen oder 1.800 mg zweimal täglich. In der EU müssen Einzelportionen für den täglichen Verzehr weniger als 3 mg Monacoline enthalten (VO 2022/860). Ab 5 mg Monacolin K pro Tag gilt ein Produkt laut BVL/BfArM als Arzneimittel. EFSA konnte keine unbedenkliche Aufnahmemenge festlegen, das BfR rät vom Verzehr ab oder nur nach ärztlicher Rücksprache. Referenzwerte der DGE gibt es nicht, da Rotschimmelreis kein Nährstoff ist.',
+    intake: 'Wenn überhaupt, nur nach ärztlicher Rücksprache und mit Kontrolle der Blutfette, nie zusammen mit Cholesterinsenkern oder mehreren Rotschimmelreisprodukten. Bei Muskelschmerzen oder Beschwerden absetzen und ärztlich abklären.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Keine üblichen Lebensmittel in Europa; in Ostasien traditionell zum Färben und Würzen von Speisen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32626016/'
+  },
+  {
+    id: 'saegepalme',
+    name: 'Sägepalme (Saw Palmetto)',
+    altNames: 'Serenoa repens, Sabal serrulata, Saw Palmetto, Sägepalmenfrüchte, Sabalfrüchte, Permixon (Hexan-Extrakt)',
+    category: 'Kräuter',
+    tags: ['prostata', 'hormone', 'haare'],
+    short: 'Extrakt aus den Früchten einer amerikanischen Palme, sehr gut verträglich und bei Prostatabeschwerden weit verbreitet; ein französischer Hexan-Extrakt besserte die Beschwerden in einer großen Studie so stark wie Tamsulosin. Die unabhängigen Placebo-Studien und der Cochrane-Review 2023 fanden aber kaum einen spürbaren Unterschied zu Placebo.',
+    description: 'Die Sägepalme (Serenoa repens) wächst in Florida und im Südosten der USA; ihr fettiger Fruchtextrakt besteht bis zu 90 Prozent aus freien Fettsäuren, denen eine Hemmung der 5-Alpha-Reduktase und antiandrogene sowie entzündungshemmende Effekte zugeschrieben werden – die EMA nennt den Wirkmechanismus unbekannt. Für den französischen Hexan-Extrakt zeigt eine Meta-Analyse gegenüber Placebo 0,64 weniger nächtliche Toilettengänge und 2,75 ml/s mehr Harnfluss, in der PERMAL-Studie mit 704 Männern sank der Symptomscore über 12 Monate so stark wie unter Tamsulosin. Der Cochrane-Review 2023 mit 27 Studien fand dagegen für Sägepalme allein kaum einen Unterschied zu Placebo, und die großen US-Studien STEP und CAMUS blieben ohne Effekt, auch mit dreifacher Dosis. Unbestritten ist die gute Verträglichkeit ohne Einfluss auf Sexualfunktion und PSA-Wert. Die meisten Produkte in Deutschland sind ethanolische Extrakte, der besser untersuchte Hexan-Extrakt wird hier laut Leitlinie nicht angeboten.',
+    benefits: [
+      'Hexan-Extrakt: 0,64 weniger nächtliche Toilettengänge und Harnfluss +2,75 ml/s gegenüber Placebo (Meta-Analyse, 27 Studien, 5.800 Patienten, Vela-Navarrete 2018, herstellernah)',
+      'Hexan-Extrakt 320 mg so wirksam wie Tamsulosin 0,4 mg: Symptomscore in beiden Gruppen -4,4 Punkte, weniger Ejakulationsstörungen (RCT ohne Placebo, 704 Männer, 12 Monate, PERMAL 2002)',
+      'Nebenwirkungen nicht häufiger als unter Placebo (Cochrane 2023: RR 1,01, 12 Studien, 2.399 Teilnehmer); PSA-Wert unverändert auch bei 960 mg pro Tag (CAMUS, Andriole 2013)',
+      'Haarausfall: erste positive Hinweise aus 5 kleinen RCTs und 2 Kohortenstudien, oft Kombinationspräparate (Evron 2020); eine herstellernahe RCT mit 60 Teilnehmenden (Ablon 2026)'
+    ],
+    risks: [
+      'Wirkung auf Prostatabeschwerden unsicher: Cochrane 2023 fand für Sägepalme allein kaum einen Unterschied zu Placebo (IPSS -0,90 Punkte, 9 Studien, 1.681 Teilnehmer, hohe Vertrauenswürdigkeit); STEP und CAMUS ohne Effekt',
+      'Keine Wirkung auf Prostatavolumen und Abflussbehinderung; bei deutlich obstruktiven Befunden laut S2e-Leitlinie nicht einsetzen – Beschwerden vorher ärztlich abklären',
+      'Häufig Bauch- und Kopfschmerzen, gelegentlich Übelkeit, erhöhte Leberwerte, Hautausschlag, reversible Gynäkomastie (EMA-Monografie); seltene Leberschäden laut LiverTox möglich, Rolle unsicher',
+      'Einige Verdachtsfälle erhöhter INR-Werte mit Warfarin (EMA)',
+      'Nur für erwachsene Männer vorgesehen; keine Daten zu Schwangerschaft und Fruchtbarkeit'
+    ],
+    dosage: 'Die EU-Monografie der EMA nennt für den Hexan-Extrakt 320 mg einmal täglich oder 160 mg zweimal täglich, für ethanolische Extrakte 320 mg einmal täglich; Langzeitanwendung ist möglich. Studien verwendeten 320 mg Hexan-Extrakt pro Tag über 12 Monate (PERMAL), 160 mg zweimal täglich über 1 Jahr (STEP) und 320 bis 960 mg pro Tag über 72 Wochen (CAMUS); in Studien zum Haarausfall 100 bis 320 mg. Höchstmengen oder Referenzwerte von EFSA, BfR oder DGE gibt es nicht, da Sägepalme kein Nährstoff ist. Studienergebnisse gelten für den jeweiligen Extrakt und sind laut Leitlinie nicht auf andere Produkte übertragbar.',
+    intake: 'Mit einer Mahlzeit, da Magen-Darm-Beschwerden laut EMA besonders auf nüchternen Magen auftreten. Prostatabeschwerden vorher ärztlich abklären lassen; bei Blut im Urin, Fieber, Schmerzen beim Wasserlassen oder Harnverhalt zum Arzt.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Keine Lebensmittelquellen; Früchte der Sägepalme Serenoa repens',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/37345871/'
   }
 ];
 
