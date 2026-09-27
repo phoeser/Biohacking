@@ -3838,6 +3838,373 @@ const EXPERIMENTAL = [
     ],
     podcasts: [],
     filterCat: 'Exercise'
+  },
+  {
+    id: 'b7-33',
+    name: 'B7-33',
+    altNames: 'B7-33 Peptid, einkettiges Relaxin-2-Analogon, Relaxin-B-Kettenderivat, RXFP1-Agonist B7-33',
+    class: 'Einkettiges Analogon des Hormons Relaxin-2, funktionell selektiver RXFP1-Agonist, nicht zugelassen',
+    emoji: '🫀',
+    short: 'Relaxin-2 auf eine einzige Peptidkette eingekürzt, mit einem Kunstgriff: B7-33 aktiviert am Rezeptor RXFP1 vor allem den ERK1/2-Arm, an dem der Abbau von Bindegewebe hängt, und nur schwach den cAMP-Arm. Im Tier senkt das Fibrose in Herz, Lunge und Niere; am Menschen ist zu B7-33 nichts untersucht, und das vollständige Hormon Serelaxin ist bei akuter Herzinsuffizienz an harten Endpunkten gescheitert.',
+    moa: 'Relaxin-2 wirkt über den G-Protein-gekoppelten Rezeptor RXFP1 und stößt dort mehrere Signalwege an, darunter cAMP und die Kinasen ERK1/2. B7-33 besteht nur aus einem Teil der B-Kette dieses Hormons: sechs Reste am N-Terminus entfernt, die Cysteine an Position 11 und 23 durch Serin ersetzt, dadurch wasserlöslich, während die unveränderte B-Kette unlöslich und funktionslos ist. Es nutzt dieselben Kontaktstellen wie das Hormon, denn Austausch der Schlüsselreste B13, B17 und B20 hebt Bindung und Wirkung vollständig auf; den verwandten Rezeptor RXFP2 aktiviert es nicht. Der Kern des Konzepts ist die Ungleichheit: In Zellen mit überexprimiertem RXFP1 ist B7-33 schwach (pKi 5,54 gegenüber 8,96 für Relaxin-2; cAMP pEC50 5,12 gegenüber 10,49), in Fibroblasten mit natürlicher Rezeptorausstattung aktiviert es ERK1/2 und das kollagenabbauende Enzym MMP-2 wie das Hormon. Nach den Zellversuchen läuft das über Doppelkomplexe aus RXFP1 und dem Angiotensin-II-Typ-2-Rezeptor, da ein Antagonist an einem der beiden den MMP-2-Effekt aufhebt.',
+    benefits: [
+      'Senkt Herzfibrose im Tier: Rattenherz nach Infarkt (Behandlung Woche 8 bis 12, weniger Kollagen im linken Ventrikel und niedrigerer enddiastolischer Druck) und Mausherz im Isoprenalin-Modell (interstitielles Kollagen etwa 51 Prozent niedriger, Relaxin-2 etwa 57 Prozent) bei unverändertem Blutdruck (Hossain et al. 2016, Tierversuch).',
+      'Kardioprotektion nach Ischämie und Wiedereröffnung in der Maus: Infarktgröße 21,99 gegenüber 45,32 Prozent unter Trägerlösung, fraktionelle Verkürzung 29 gegenüber 23 Prozent nach 24 Stunden (Devarakonda et al. 2020, Tierversuch, CD1-Mäuse).',
+      'Im direkten Vergleich senkten B7-33 und Relaxin die Fibrose des linken Ventrikels gleichwertig, der ACE-Hemmer Perindopril nicht (Alam et al. 2023, Maus, Behandlung Tag 7 bis 14).',
+      'Wirkt auch außerhalb des Herzens: normalisierte Epithelverdickung und Lungenkollagen im Ovalbumin-Modell der Maus über 2 Wochen, weniger Nierenfibrose nach Harnleiterligatur mit mehr MMP-2 und weniger TIMP-1 (Hossain et al. 2016; Bhuiyan et al. 2021, Tierversuche).',
+      'Aus B7-33 freisetzenden Implantatbeschichtungen entstand eine um 49,2 Prozent dünnere Bindegewebskapsel über 6 Wochen in der Maus (Welch et al. 2019) — ein Ansatz ohne Injektion.',
+      'Anders als Relaxin-2, das eine implantierte Prostatageschwulst um mehr als 150 Prozent wachsen ließ, tat B7-33 das im selben Mausmodell nicht (Hossain et al. 2016).'
+    ],
+    risks: [
+      'Keine Studie am Menschen: 0 Einträge bei ClinicalTrials.gov, und keine der 12 Arbeiten, die B7-33 im Abstract nennen, hat menschliche Teilnehmer. Keine Toxikologie, keine Pharmakokinetik am Menschen, keine Fallberichte.',
+      'Das Muttermolekül ist an harten Endpunkten gescheitert: Serelaxin verfehlte in RELAX-AHF-2 mit 6545 Patienten beide primären Endpunkte (kardiovaskulärer Tod an Tag 180 8,7 gegenüber 8,9 Prozent; Verschlechterung an Tag 5 6,9 gegenüber 7,7 Prozent). Die antifibrotische Frage wurde dort nicht geprüft, ist also offen und nicht widerlegt.',
+      'Sehr kurze Verweildauer: Halbwertszeit in Serum in vitro etwa 6 Minuten, durch Fettsäure-Konjugation auf 60 Minuten steigerbar. Tierstudien arbeiten mit täglicher Gabe.',
+      'Widersprüchliche Rezeptordaten, von der Entwicklergruppe selbst benannt: schwache Affinität und Potenz am überexprimierten RXFP1, volle Wirkung erst in Fibroblasten; die Erklärung über RXFP1-AT2-Heterodimere stammt aus Antagonistenversuchen in Zellen.',
+      'RXFP1-Aktivierung weitet Gefäße; Serelaxin wurde in den großen Studien nur bei systolischem Blutdruck von mindestens 125 mmHg eingesetzt. Für B7-33 gibt es dazu keine Humandaten.',
+      'Als Forschungspeptid verkauft: Identität, Reinheit und Gehalt der Handelsware sind ungeprüft. Die 97 Prozent Reinheit der Originalarbeit sind eine Laborangabe zu Studienmaterial.'
+    ],
+    status: 'Präklinische Forschung; in DE/EU und den USA kein zugelassenes Arzneimittel und kein verkehrsfähiges Nahrungsergänzungsmittel, kein Eintrag in den Studienregistern. Auch das vollständige Hormon hat keine Zulassung: Die EMA lehnte Reasanz (Serelaxin) am 23. Mai 2014 ab, die FDA erteilte 2014 einen Complete Response Letter. Im Sport jederzeit verboten: Relaxin und seine Analoga stehen nicht namentlich in der WADA-Verbotsliste 2026, damit greift Abschnitt S0 für Substanzen ohne aktuelle Zulassung einer staatlichen Gesundheitsbehörde.',
+    sources: [
+      { title: 'Hossain et al., Chem Sci 2016 – Design von B7-33, funktionelle Selektivität an RXFP1, drei Tiermodelle', url: 'https://pubmed.ncbi.nlm.nih.gov/30155023/' },
+      { title: 'Devarakonda et al., J Am Heart Assoc 2020 – B7-33 bei Ischämie-Reperfusion der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/32295457/' },
+      { title: 'Alam et al., Biomed Pharmacother 2023 – B7-33 gegen Perindopril im Kardiomyopathie-Modell', url: 'https://pubmed.ncbi.nlm.nih.gov/36753958/' },
+      { title: 'Marshall et al., Eur J Pharmacol 2017 – Gefäßwirkungen von B7-33 im Vergleich zu Serelaxin', url: 'https://pubmed.ncbi.nlm.nih.gov/28478069/' },
+      { title: 'Handley et al., Int J Mol Sci 2023 – schwache Affinität am überexprimierten RXFP1, Stand der Weiterentwicklung', url: 'https://pubmed.ncbi.nlm.nih.gov/37628851/' },
+      { title: 'Praveen et al., Int J Mol Sci 2023 – Halbwertszeit in Serum und Lipidierung', url: 'https://pubmed.ncbi.nlm.nih.gov/37047588/' },
+      { title: 'Welch et al., ACS Appl Mater Interfaces 2019 – B7-33 freisetzende Beschichtung, Kapseldicke', url: 'https://pubmed.ncbi.nlm.nih.gov/31713411/' },
+      { title: 'Bhuiyan et al., FASEB J 2021 – Nierenfibrose unter Relaxin, B7-33 und Perindopril', url: 'https://pubmed.ncbi.nlm.nih.gov/33908676/' },
+      { title: 'Metra et al., N Engl J Med 2019 – RELAX-AHF-2, Serelaxin verfehlt beide primären Endpunkte', url: 'https://pubmed.ncbi.nlm.nih.gov/31433919/' },
+      { title: 'EMA – Fragen und Antworten zur Ablehnung der Zulassung von Reasanz (Serelaxin), 23. Mai 2014', url: 'https://www.ema.europa.eu/de/documents/smop-initial/questions-and-answers-refusal-marketing-authorisation-reasanz_de.pdf' },
+      { title: 'ClinicalTrials.gov – keine eingetragene Studie zu B7-33', url: 'https://clinicaltrials.gov/search?term=B7-33' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „B7-33")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'dim',
+    name: 'DIM (Diindolylmethan)',
+    altNames: '3,3\'-Diindolylmethan, Diindolylmethane, BR-DIM, BioResponse DIM, Indol-3-Carbinol-Dimer',
+    class: 'Indol aus Kreuzblütlern (Umbauprodukt von Indol-3-Carbinol), Modulator des Östrogenstoffwechsels, in der EU nicht zugelassenes neuartiges Lebensmittel',
+    emoji: '🥦',
+    short: 'Umbauprodukt aus Brokkoli und Kohl, das den Östrogenabbau beim Menschen messbar zu den schwächer wirksamen 2-Hydroxy-Östrogenen verschiebt und SHBG anhebt – gezeigt in einer 12-Monats-Studie mit 130 Frauen. Ein Nutzen für klinische Endpunkte ist bisher nicht belegt, und unter Tamoxifen sanken die wirksamen Abbauprodukte.',
+    moa: 'Aus Glucobrassicin der Kreuzblütler entsteht durch Myrosinase Indol-3-Carbinol, das im sauren Magen vor allem zu DIM kondensiert. Am besten untersucht ist die Aktivierung des Arylhydrocarbon-Rezeptors: Sie induziert CYP1B1, das Östrogene an Position 2 und 4 hydroxyliert, sodass das Verhältnis von 2- zu 16α-Hydroxy-Östrogenen steigt; 2-Hydroxyöstrogen wirkt schwächer, 16α-Hydroxyöstrogen behält seine östrogene Aktivität. In Prostatakrebszellen ist DIM zudem ein kompetitiver Androgenrezeptor-Antagonist. Beim Menschen wird DIM schnell zu hydroxylierten und konjugierten Metaboliten umgebaut, von denen einer den Arylhydrocarbon-Rezeptor stärker aktiviert als DIM selbst. In Leber- und Darmzellen aktiviert DIM außerdem den Pregnan-X-Rezeptor und induziert CYP3A4 und P-Glykoprotein.',
+    benefits: [
+      'Östrogenabbau verschoben: Verhältnis 2- zu 16α-Hydroxyestron +3,2 unter DIM vs. -0,7 unter Placebo, primärer Endpunkt erreicht (doppelblinde RCT, 130 Frauen unter Tamoxifen, 12 Monate, Thomson et al. 2017)',
+      'SHBG stieg um 25 nmol/L gegenüber 1,1 nmol/L unter Placebo (gleiche Studie)',
+      'Pilotstudie nach Brustkrebs: 2-Hydroxyestron signifikant erhöht, Metaboliten-Verhältnis nicht signifikant um 47 % gestiegen (RCT, n = 19, 30 Tage, Dalessandri et al. 2004)',
+      'Einarmige Studie mit 23 BRCA-Trägerinnen: weniger Drüsengewebe im MRT, Estradiol von 159 auf 102 pmol/l nach 1 Jahr (Yerushalmi et al. 2020) – ohne Placebogruppe',
+      'Über 6 bis 12 Monate gut verträglich, Nebenwirkungen nicht häufiger als unter Placebo (Castañon et al. 2012, n = 551; Thomson et al. 2017)'
+    ],
+    risks: [
+      'Kein klinischer Nutzen belegt: bei 551 Frauen mit leichten Zellveränderungen am Gebärmutterhals CIN2+ 9 % vs. 12 %, nicht signifikant (Castañon et al. 2012); keine Änderung der Brustdichte (Thomson et al. 2017)',
+      'Tamoxifen: Spiegel von Endoxifen und anderen wirksamen Metaboliten sanken unter DIM über 12 Monate (Thomson et al. 2017)',
+      'Hormontherapie: bei Frauen mit Estradiol-Pflaster 6 von 10 Östrogenmetaboliten verändert, mögliche Abschwächung (Newman und Smeaton 2025); in Zellversuchen Induktion von CYP3A4 und P-Glykoprotein',
+      'Höhere Studiendosen: Übelkeit, Kopfschmerz, Erbrechen bei Einzeldosen von 300 mg; Hyponatriämie Grad 3 bei 2 von 4 Patienten unter 300 mg zweimal täglich (Reed et al. 2008; Heath et al. 2010)',
+      'Für populäre Zwecke wie Akne, Östrogendominanz oder Testosteron beim Mann keine randomisierten Studien; Tierdaten widersprüchlich',
+      'In der EU nicht zugelassenes neuartiges Lebensmittel, mehrere RASFF-Meldungen seit 2021'
+    ],
+    status: 'EU/DE: als nicht zugelassenes neuartiges Lebensmittel behandelt (RASFF-Meldungen 2021 bis 2026, zuletzt 2026.7182); nicht als Nahrungsergänzungsmittel verkehrsfähig, kein zugelassenes Arzneimittel, keine Höchstmengen von EFSA oder BfR. USA: als Nahrungsergänzungsmittel im Handel und Prüfsubstanz in klinischen Studien. Doping: auf der WADA-Liste 2026 nicht namentlich genannt.',
+    sources: [
+      { title: 'Thomson et al. 2017, Breast Cancer Res Treat – 12-Monats-RCT unter Tamoxifen: Östrogenabbau verschoben, SHBG höher, Tamoxifen-Metaboliten niedriger', url: 'https://pubmed.ncbi.nlm.nih.gov/28560655/' },
+      { title: 'Castañon et al. 2012, Br J Cancer – RCT mit 551 Frauen: kein signifikanter Effekt auf Zellveränderungen am Gebärmutterhals', url: 'https://pubmed.ncbi.nlm.nih.gov/22075942/' },
+      { title: 'Del Priore et al. 2010, Gynecol Oncol – orales DIM bei CIN 2 und 3, kein Unterschied zu Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/19939441/' },
+      { title: 'Dalessandri et al. 2004, Nutr Cancer – Pilot-RCT, 2-Hydroxyestron erhöht', url: 'https://pubmed.ncbi.nlm.nih.gov/15623462/' },
+      { title: 'Godínez-Martínez et al. 2023, Nutr Cancer – 75 mg DIM bei prämenopausalen Frauen, primärer Endpunkt verfehlt', url: 'https://pubmed.ncbi.nlm.nih.gov/36111381/' },
+      { title: 'Le et al. 2003, J Biol Chem – DIM als Androgenrezeptor-Antagonist in Prostatakrebszellen', url: 'https://pubmed.ncbi.nlm.nih.gov/12665522/' },
+      { title: 'Heath et al. 2010, Am J Transl Res – Phase-I-Dosissteigerung, Hyponatriämie bei 300 mg zweimal täglich', url: 'https://pubmed.ncbi.nlm.nih.gov/20733950/' },
+      { title: 'Newman und Smeaton 2025, Menopause – DIM verändert Östrogenprofil unter Estradiol-Pflaster', url: 'https://pubmed.ncbi.nlm.nih.gov/40298801/' },
+      { title: 'Williams 2021, Front Nutr – Übersicht Indol-3-Carbinol und DIM', url: 'https://pubmed.ncbi.nlm.nih.gov/34660663/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „DIM")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'huperzin-a',
+    name: 'Huperzin A',
+    altNames: 'Huperzine A, HupA, (−)-Huperzin A, Huperzia serrata (Chinesisches Keulenmoos, Qian Ceng Ta), Shuangyiping',
+    class: 'Pflanzliches Alkaloid, reversibler Acetylcholinesterase-Hemmer; in China Arzneimittel, in DE nicht zugelassen',
+    emoji: '🧠',
+    short: 'Alkaloid aus dem chinesischen Keulenmoos, das wie die Alzheimer-Medikamente den Abbau von Acetylcholin bremst; chinesische Studien und ein Cochrane-Review zeigen bessere Gedächtniswerte bei Alzheimer. Die Studien sind aber meist klein, eine US-Phase-2 verfehlte ihren primären Endpunkt, und für Gesunde fehlen Daten.',
+    moa: 'Huperzin A hemmt reversibel und sehr gezielt die Acetylcholinesterase, das Enzym, das den Botenstoff Acetylcholin im synaptischen Spalt abbaut; die verwandte Butyrylcholinesterase bleibt weitgehend unberührt. Beim Menschen ist diese Hemmung gemessen: In einer Phase-Ib-Studie an 12 gesunden Älteren sank die Enzymaktivität in roten Blutkörperchen um 30 bis 40 Prozent auf der niedrigsten und um über 50 Prozent auf der höchsten Stufe, die Butyrylcholinesterase blieb unverändert (Haigh 2008). Die Aufnahme ist schnell, die Halbwertszeit liegt bei rund 12 Stunden (Wu 2017). In Zell- und Tiermodellen wirkt es zusätzlich dämpfend am NMDA-Rezeptor und schützt Nervenzellen vor Glutamat, oxidativem Stress und Beta-Amyloid; ob das beim Menschen eine Rolle spielt, ist nicht untersucht.',
+    benefits: [
+      'Cochrane-Review 2008: 6 RCTs mit 454 Alzheimer-Patienten, Vorteile gegenüber Placebo in MMSE (+2,81 Punkte), ADAS-Cog, klinischem Gesamteindruck und Alltagsfunktionen – mit dem Vorbehalt, dass nur eine Studie ausreichend groß und gut gemacht war.',
+      'Meta-Analyse 2013: 20 RCTs mit 1.823 Teilnehmenden, bessere Kognition und Alltagsfunktion bei Alzheimer, überwiegend chinesische Studien mit hohem Verzerrungsrisiko.',
+      'Multizentrische Doppelblindstudie in China (202 Patienten, 12 Wochen, 2002): ADAS-Cog-Verbesserung um mindestens 4 Punkte bei 56,1 % unter Huperzin A gegenüber 12,5 % unter Placebo.',
+      'Zielstruktur am Menschen bestätigt: messbare Hemmung der Acetylcholinesterase im Blut gesunder Älterer (Phase Ib, 12 Probanden, 2008).',
+      'US-Phase-2 (210 Patienten, 2011): unter der höheren Studiendosis in Woche 11 +2,27 ADAS-Cog-Punkte gegenüber −0,29 unter Placebo – als sekundärer Befund.',
+      'Weiterentwicklung als Arzneimittel: laufende chinesische Phase-II/III-Studie mit geplant 720 Alzheimer-Patienten gegen Placebo und Donepezil.'
+    ],
+    risks: [
+      'Die methodisch stärkste westliche Studie (Rafii 2011) verfehlte ihren primären Endpunkt; Alltagsfunktion und klinischer Gesamteindruck änderten sich nicht.',
+      'Für Gesunde keine belastbaren Daten; bei leichter kognitiver Störung fand Cochrane 2012 keine geeignete Studie.',
+      'Cholinerge Nebenwirkungen: Übelkeit, Durchfall, Schwitzen, Schwindel, Schlaflosigkeit, verlangsamter Puls; bei Überdosierung Zittern und Sehstörungen (RIVM 2024).',
+      'RIVM 2024: kein sicherer Aufnahmewert ableitbar, Hinweise auf Embryotoxizität im Tier; Rat, Huperzin-A-Produkte nicht zu verwenden, besonders nicht in der Schwangerschaft.',
+      'Wechselwirkungen mit anderen Cholinesterasehemmern, cholinergen Arzneimitteln und Anticholinergika wie Scopolamin.',
+      'Keine Langzeitdaten über viele Monate, keine Studien zur chronischen Toxizität.'
+    ],
+    status: 'DE: kein zugelassenes Arzneimittel; in Nahrungsergänzungsmitteln von der Lebensmittelüberwachung beanstandet (RASFF-Meldungen aus DE 2020 als nicht zugelassener Stoff, 2022 als nicht zugelassenes Novel Food nach Art. 6 (2) VO (EU) 2015/2283). EU: nicht harmonisiert, kein Eintrag im Novel-Food-Statuskatalog; viele Mitgliedstaaten werten es als nicht zugelassenes Novel Food, Ausnahmen u. a. Belgien, Frankreich, Rumänien; HoA-Arbeitsgruppe (BVL/NVWA) 2024 vorläufig „vermutlich nicht neuartig“, zugleich unter Stoffen mit Gefährdungspotenzial; RIVM (NL) rät vom Verzehr ab. China: bei Alzheimer als Arzneimittel eingesetzt. USA: als Nahrungsergänzung vermarktet, Rechtslage laut OPSS unklar. WADA-Liste 2026: nicht genannt.',
+    sources: [
+      { title: 'Li et al., Cochrane Database Syst Rev 2008 – Huperzin A bei Alzheimer, 6 RCTs, 454 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/18425924/' },
+      { title: 'Yang et al., PLoS One 2013 – Meta-Analyse, 20 RCTs, 1.823 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/24086396/' },
+      { title: 'Rafii et al., Neurology 2011 – US-Phase-2, primärer Endpunkt verfehlt', url: 'https://pubmed.ncbi.nlm.nih.gov/21502597/' },
+      { title: 'Zhang et al., Zhonghua Yi Xue Za Zhi 2002 – Doppelblindstudie, 202 Patienten, 15 Zentren', url: 'https://pubmed.ncbi.nlm.nih.gov/12181083/' },
+      { title: 'Haigh et al., Chem Biol Interact 2008 – Acetylcholinesterase-Hemmung im Blut gesunder Älterer', url: 'https://pubmed.ncbi.nlm.nih.gov/18572153/' },
+      { title: 'Yue et al., Cochrane Database Syst Rev 2012 – keine geeignete Studie bei leichter kognitiver Störung', url: 'https://pubmed.ncbi.nlm.nih.gov/23235666/' },
+      { title: 'RIVM-Bericht 2024-0028 – Risikobewertung von Huperzia-serrata-Zubereitungen', url: 'https://www.rivm.nl/bibliotheek/rapporten/2024-0028.pdf' },
+      { title: 'BVL 2024 – Bericht der HoA-Arbeitsgruppe Food Supplements', url: 'https://www.bvl.bund.de/SharedDocs/Downloads/01_Lebensmittel/Internationales/report_HoA_WG_FS-en.pdf?__blob=publicationFile&v=6' },
+      { title: 'RASFF 2022.0520 – deutsche Meldung: Huperzin A als nicht zugelassenes Novel Food', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/528818' },
+      { title: 'ClinicalTrials.gov NCT07066826 – Phase-II/III-Studie mit Huperzin-A-Retardtabletten bei Alzheimer', url: 'https://clinicaltrials.gov/study/NCT07066826' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Huperzin A")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'kanna',
+    name: 'Kanna',
+    altNames: 'Sceletium tortuosum, Mesembryanthemum tortuosum, Kougoed, Kauwgoed, Zembrin (standardisierter Extrakt), Mesembrin',
+    class: 'Südafrikanische Heilpflanze mit Mesembrin-Alkaloiden (Serotonintransporter- und PDE4-Hemmung); in der EU nicht zugelassenes Novel Food',
+    emoji: '🌱',
+    short: 'Südafrikanische Sukkulente, deren Alkaloide im Labor am Serotonintransporter und an PDE4 ansetzen; ein standardisierter Extrakt dämpfte im Hirnscan die Angstreaktion und verbesserte in kleinen Placebo-Studien kognitive Flexibilität und Stressangst. Untersucht nur an Gesunden in kleinen, kurzen Studien, meist mit Herstellerbeteiligung.',
+    moa: 'Die Mesembrin-Alkaloide hemmen im Labor den Serotonintransporter (Mesembrin am stärksten, Ki 1,4 nM) und die Phosphodiesterase 4, die den Botenstoff cAMP abbaut; der standardisierte Extrakt Zembrin wirkt an beiden Zielen, nicht an anderen Phosphodiesterasen (Harvey 2011). Eine Zellstudie spricht zusätzlich für eine Monoamin-Freisetzung (Coetzee 2016). Am Menschen dämpfte eine Einzeldosis in der funktionellen MRT die Reaktion der Amygdala auf ängstliche Gesichter und ihre Kopplung an den Hypothalamus (Terburg 2013). Wie die Alkaloide wirken, ist pharmakokinetisch offen: Laut Novel-Food-Antrag sind die Hauptalkaloide nach dem Schlucken systemisch nicht verfügbar, während sie in vitro Mund- und Zungenschleimhaut gut durchdringen (Shikanga 2012) – passend zum traditionellen Kauen.',
+    benefits: [
+      'Einzeldosis dämpfte im Hirnscan die Reaktion der Amygdala auf ängstliche Gesichter (doppelblinde Crossover-Studie, 16 Gesunde, 2013).',
+      'Bessere kognitive Flexibilität und Exekutivfunktion nach 3 Wochen gegenüber Placebo (Crossover-RCT, 21 Gesunde, 2014).',
+      'Geringere subjektive Angst vor einer simulierten Rede nach Einzeldosis (Laborstudie an jungen Gesunden, 2020) – in einer zweiten Laborstudie ohne Effekt.',
+      'Bessere komplexe Reaktionsleistung unter kognitiver Last nach 8 Tagen (RCT, 60 trainierte Erwachsene, 2020) – Stimmung unverändert.',
+      'Über 3 Monate gut verträglich, ohne Unterschied zu Placebo in Labor, EKG und Vitalzeichen (RCT, 37 Gesunde, 2013).',
+      'Lange traditionelle Verwendung in Südafrika als Stimmungsaufheller (seit dem 17. Jahrhundert beschrieben).'
+    ],
+    risks: [
+      'Keine Studie an Menschen mit Angststörung oder Depression; alle Humandaten an Gesunden, klein und kurz.',
+      'Fast alle Studien mit demselben Markenextrakt und mit Beteiligung des Entwicklers; unabhängige Replikation fehlt weitgehend.',
+      'Nicht mit SSRI, SNRI oder anderen serotonergen Psychopharmaka kombinieren; Vorsicht mit PDE4-Hemmern wie Roflumilast.',
+      'Schwangerschaft und Stillzeit nicht untersucht.',
+      'Stark schwankender Alkaloidgehalt in Pflanze und Handelsware; in einem Kanna-Produkt wurde Ephedrin nachgewiesen (2016).'
+    ],
+    status: 'EU/DE: nicht zugelassenes Novel Food; kein Eintrag im Novel-Food-Statuskatalog und nicht in der Unionsliste; RASFF-Meldungen deutscher Behörden 2020, 2025 und 2026 als nicht zugelassene neuartige Zutat, Österreich 2026. Novel-Food-Antrag des Zembrin-Herstellers HG&H für Nahrungsergänzungsmittel läuft. Kein Arzneimittel, nicht im BtMG. USA: ein bestimmter Extrakt seit 2011 per GRAS-Selbstbestätigung im Handel. WADA-Liste 2026: nicht genannt.',
+    sources: [
+      { title: 'Terburg et al., Neuropsychopharmacology 2013 – Amygdala-Reaktion nach Einzeldosis Zembrin', url: 'https://pubmed.ncbi.nlm.nih.gov/23903032/' },
+      { title: 'Chiu et al., Evid Based Complement Alternat Med 2014 – Kognition bei Gesunden, Crossover-RCT', url: 'https://pubmed.ncbi.nlm.nih.gov/25389443/' },
+      { title: 'Nell et al., J Altern Complement Med 2013 – Sicherheit über 3 Monate, 37 Gesunde', url: 'https://pubmed.ncbi.nlm.nih.gov/23441963/' },
+      { title: 'Reay et al., Hum Psychopharmacol 2020 – experimentell ausgelöste Angst', url: 'https://pubmed.ncbi.nlm.nih.gov/32761980/' },
+      { title: 'Hoffman et al., J Strength Cond Res 2020 – Reaktion und Stimmung bei Sportlern', url: 'https://pubmed.ncbi.nlm.nih.gov/32740286/' },
+      { title: 'Harvey et al., J Ethnopharmacol 2011 – Serotonintransporter und PDE4', url: 'https://pubmed.ncbi.nlm.nih.gov/21798331/' },
+      { title: 'Brendler et al., Curr Neuropharmacol 2021 – Tradition, Sicherheit und Regulierung', url: 'https://pubmed.ncbi.nlm.nih.gov/33588735/' },
+      { title: 'de Jong et al., Planta Med 2026 – gemischte Evidenz aus Tier- und Humanstudien', url: 'https://pubmed.ncbi.nlm.nih.gov/41771298/' },
+      { title: 'EU-Kommission – Zusammenfassung des laufenden Novel-Food-Antrags zu Sceletium-Extrakt', url: 'https://food.ec.europa.eu/document/download/a1f0a531-323d-4c4f-9e45-cee8d86a99a8_en?filename=novel-food_sum_ongoing-app_2024-25060.pdf' },
+      { title: 'RASFF 2025.7263 – deutsche Meldung: Kanna als nicht zugelassene neuartige Zutat', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/790584' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Kanna")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'nmnh',
+    name: 'NMNH (reduziertes NMN)',
+    altNames: 'Reduziertes Nicotinamid-Mononukleotid, Dihydronicotinamid-Mononukleotid, reduced NMN, NMN-H, NMNH-Ca, UthPeak',
+    class: 'Reduzierte NAD+-Vorstufe aus der Vitamin-B3-Familie, in der EU nicht zugelassen',
+    emoji: '🔋',
+    short: 'Die reduzierte Form von NMN hebt NAD+ in Zellen und Mäusen deutlich stärker und schneller als NMN oder NR, über einen eigenen Stoffwechselweg. Am Menschen gibt es eine placebokontrollierte Studie mit 80 Teilnehmern über 90 Tage mit dosisabhängigem NAD+-Anstieg im Blut – als Preprint und vom Hersteller finanziert.',
+    moa: 'NMNH ist NMN in reduzierter, energiereicher Form. Anders als NR braucht es die Enzyme NRK und NAMPT nicht, sondern wird vom Enzym NMNAT zunächst zu NADH umgebaut, das die Zelle zu NAD+ weiterverarbeitet (Zapata-Pérez 2021; Liu 2021). So umgeht es den Engpass, der den NAD+-Anstieg durch NMN und NR in Zellen und Tieren auf etwa das Doppelte begrenzt. In Zellen hebt NMNH neben NAD+ auch NADH, hemmt Glykolyse und Citratzyklus und löst in Leberzellen eine breite, stressartige Genantwort mit mehr Glutathion-S-Transferasen aus, ohne Glutathion zu verbrauchen (Vinten 2026). Am Menschen ist bisher nur der Anstieg im Vollblut gemessen.',
+    benefits: [
+      'Erste Humanstudie: NAD+ im Vollblut stieg über 90 Tage dosisabhängig, in der höchsten Stufe von 19,43 auf 59,33 µM, signifikant über Placebo (Mensch, doppelblind, 80 Gesunde von 40 bis 65 Jahren, Li 2026, Preprint).',
+      'In derselben Studie gut verträglich: 6 leichte unerwünschte Ereignisse, keine schweren, keine behandlungsbedingten, keine Abbrüche.',
+      'Explorative Signale bei der höchsten Stufe: berechnetes biologisches Blutalter –5,18 gegenüber +2,62 Jahren unter Placebo, 6-Minuten-Gehstrecke +114 gegenüber +25 m, Lebensqualität in allen 8 SF-36-Bereichen besser (nicht gepowert).',
+      'In Leberkrebszellen NAD+ 5- bis 7-fach, NMN nur leicht; in der Mausleber 4-fach über Kontrolle und 1,5-fach über NMN, NADH 3-fach (Liu 2021, Zell- und Mausdaten).',
+      'Schneller, anhaltender NAD+-Anstieg im Blut von Mäusen und mehr NAD+ in Leber, Niere, Muskel, Gehirn, braunem Fett und Herz; laut Erstautor Blutwert mindestens 20 Stunden verdoppelt (Zapata-Pérez 2021, Maus).',
+      'Schützte Nierentubuluszellen im Modell nach Sauerstoffmangel und beschleunigte die Reparatur (Zapata-Pérez 2021, Zellkultur).'
+    ],
+    risks: [
+      'Nur eine Humanstudie: nicht begutachteter Preprint, 90 Tage, fast nur Männer (69 von 80), nur asiatische Teilnehmer, Hersteller als Sponsor mit 7 angestellten Autoren.',
+      'Gemessen wurde NAD+ im Vollblut; ob es in Muskel, Gehirn oder Leber steigt, ist am Menschen offen.',
+      'Werbung mit „5 Jahre jünger“ stützt sich auf einen explorativen Endpunkt ohne Fallzahlplanung (Herstellerangabe EffePharm).',
+      'In Zellen bremst NMNH Glykolyse, Citratzyklus und Zellwachstum und stellt den Stoffwechsel breiter um als NMN und NR; bei der verwandten Vorstufe NRH zeigten höhere Dosen bei Mäusen Toxizitätszeichen (Liu 2021; Vinten 2026; Rumpler 2026).',
+      'Keine Langzeitdaten, keine Daten zu Schwangerschaft, Kindern, Krebs-, Leber- oder Nierenkranken, keine Wechselwirkungsstudien.'
+    ],
+    status: 'In der EU weder zugelassenes Arzneimittel noch zugelassenes neuartiges Lebensmittel; schon für NMN ist der Novel-Food-Status bestätigt, das positive EFSA-Gutachten von 2026 betrifft nur β-NMN. Zu NMNH ließ sich weder ein EFSA-Gutachten noch eine Zulassung finden – als Nahrungsergänzung in DE nicht verkehrsfähig. USA: vom Hersteller selbst erklärter GRAS-Status (2024), keine FDA-Prüfung belegt. Nicht auf der WADA-Liste.',
+    sources: [
+      { title: 'Li et al., medRxiv 2026 (Preprint) – Phase-I-RCT mit NMNH-Ca, 80 Gesunde, 90 Tage, NAD+ dosisabhängig', url: 'https://doi.org/10.64898/2026.08.11.26360226' },
+      { title: 'Zapata-Pérez et al., FASEB J 2021 – NMNH als neue, starke NAD+-Vorstufe in Zellen und Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/33724555/' },
+      { title: 'Liu et al., J Proteome Res 2021 – NMNH hebt NAD+, hemmt Glykolyse, Citratzyklus und Zellwachstum', url: 'https://pubmed.ncbi.nlm.nih.gov/33793246/' },
+      { title: 'Vinten et al., FASEB J 2026 – reduzierte und oxidierte NAD+-Vorstufen in Leberzellen im Vergleich', url: 'https://pubmed.ncbi.nlm.nih.gov/41701114/' },
+      { title: 'Rumpler et al., Nat Commun 2026 – verwandte Vorstufe NRH bei Mäusen, Toxizitätszeichen bei höheren Dosen', url: 'https://pubmed.ncbi.nlm.nih.gov/41882002/' },
+      { title: 'ClinicalTrials.gov – NCT06889740, einzige registrierte NMNH-Studie', url: 'https://clinicaltrials.gov/study/NCT06889740' },
+      { title: 'EFSA NDA Panel, EFSA J 2026 – Sicherheit von β-NMN als Novel Food (betrifft nicht NMNH)', url: 'https://pubmed.ncbi.nlm.nih.gov/42125559/' },
+      { title: 'EU-Kommission – Novel-Food-Status von NMN bestätigt (Konsultation Tschechien)', url: 'https://food.ec.europa.eu/system/files/2022-10/novel-food_consult-status_nmn-cz.pdf' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „NMNH“)', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'prl-8-53',
+    name: 'PRL-8-53',
+    altNames: 'Methyl-3-(2-(benzylmethylamino)ethyl)benzoat, 3-(2-Benzylmethylaminoethyl)benzoesäuremethylester (Hydrochlorid)',
+    class: 'Synthetischer Phenethylamin-Abkömmling (Benzoesäureester), Nootropikum aus den 1970er-Jahren, nirgends zugelassen',
+    emoji: '📚',
+    short: 'Ein Nootropikum aus den 1970er-Jahren, unter dem in einer doppelblinden, placebokontrollierten Studie Wortlisten signifikant besser behalten wurden, ohne Effekt auf Reaktionszeit oder Motorik. Diese Studie von 1978 stammt vom Erfinder und steht bis heute allein; Mechanismus, Langzeitdaten und Zulassung fehlen.',
+    moa: 'Der Wirkmechanismus ist ungeklärt. PRL-8-53 ist ein kleines Molekül mit Phenethylamin-Grundgerüst und einem Benzoesäure-Methylester, kein Peptid. Das Patent des Erfinders beschreibt die Stoffgruppe als cholinerg und krampflösend; die krampflösende Wirkung wurde am isolierten Darm von Kaninchen gegen Papaverin gemessen. Bei Ratten sollen Lernen und späteres Behalten in Vermeidungs- und Labyrinthtests verbessert gewesen sein (Herstellerangabe ohne publizierte Rohdaten). Online kursierende Angaben zu Dopamin- und Serotoninwirkungen ließen sich in keiner zugänglichen Primärquelle prüfen.',
+    benefits: [
+      'Placebokontrollierte Doppelblindstudie am Menschen: Wortlisten wurden etwas schneller gelernt und statistisch signifikant besser behalten, meist mit p unter 0,01, teils unter 0,001 (Hansl & Mead 1978; eine Studie, Teilnehmerzahl im Abstract nicht angegeben).',
+      'Kein allgemeiner Aufputsch-Effekt: Visuelle Reaktionszeit und Motorik unterschieden sich nicht von Placebo (1978).',
+      'Erstbeschreibung 1974 als neuer Typ einer ZNS-aktivierenden Verbindung mit spezifischer Wirkung auf Lernen und Gedächtnis und ausgeprägter krampflösender Wirkung (Hansl, Experientia).',
+      'Laut Patent besseres Lernen und Behalten bei Ratten in Vermeidungs- und Labyrinthtests (Tierversuch, Herstellerangabe, US 3,870,715).',
+      'Laut Patent geringe Giftigkeit, keine Missbildungen über zwei Nachkommengenerationen, keine Organbefunde nach Dauergabe bei Ratten (Herstellerangabe).'
+    ],
+    risks: [
+      'Die gesamte Humanevidenz ist eine einzige Studie des Erfinders von 1978, nie unabhängig wiederholt; der Volltext mit Fallzahl und Effektgrößen ist nicht frei zugänglich.',
+      'Kein Eintrag bei ClinicalTrials.gov; keine Daten zu Aufnahme und Verweildauer im Körper, Wechselwirkungen oder Langzeitanwendung.',
+      'Tier- und Toxizitätsdaten nur als Zusammenfassung im Patent, ohne unabhängige Prüfung.',
+      'Die in Foren kursierenden Prozentwerte und die Einordnung als Peptid lassen sich nicht belegen beziehungsweise sind falsch.',
+      'In Deutschland nach dem Wortlaut der NpSG-Stoffgruppe der 2-Phenethylamin-Abkömmlinge erfasst: Handel, Erwerb und Besitz verboten.',
+      'Sport: nicht namentlich auf der WADA-Liste; als Phenethylamin-Abkömmling mögliche Einordnung unter S6, sonst S0.'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen; in der EU weder Lebensmittel noch Nahrungsergänzungsmittel. DE: nach dem Wortlaut von Anlage 1 Nr. 1 NpSG (von 2-Phenethylamin abgeleitete Verbindungen) erfasst, damit Handel, Erwerb und Besitz verboten (§ 3 NpSG, Ausnahme anerkannte wissenschaftliche Zwecke); eine behördliche Einzelbewertung wurde nicht gefunden. Nicht im BtMG. Patent US 3,870,715 abgelaufen. WADA 2026: nicht namentlich; mögliche Einordnung unter S6 (Phenethylamin und Abkömmlinge), sonst S0; laut Pokrywka et al. 2025 Status unklar.',
+    sources: [
+      { title: 'Hansl & Mead 1978, Psychopharmacology – doppelblinde Placebostudie: besseres Behalten verbaler Information', url: 'https://pubmed.ncbi.nlm.nih.gov/418433/' },
+      { title: 'Hansl 1974, Experientia – Erstbeschreibung als spasmolytische, ZNS-aktive Verbindung mit Wirkung auf Lernen', url: 'https://pubmed.ncbi.nlm.nih.gov/4824605/' },
+      { title: 'Patent US 3,870,715 (1975) – Aminoethyl-meta-benzoesäureester als lernfördernde und krampflösende Mittel', url: 'https://patents.google.com/patent/US3870715A/en' },
+      { title: 'Napoletano et al. 2020, Front Psychiatry – 142 kognitive Verstärker in Psychonauten-Foren, darunter PRL-8-53', url: 'https://pubmed.ncbi.nlm.nih.gov/33024436/' },
+      { title: 'Pokrywka et al. 2025, Biol Sport – PRL-8-53 mit unklarem WADA-Status (Nähe zu S6)', url: 'https://pubmed.ncbi.nlm.nih.gov/41048238/' },
+      { title: 'Neue-psychoaktive-Stoffe-Gesetz, Anlage 1 Nr. 1 – von 2-Phenethylamin abgeleitete Verbindungen', url: 'https://www.gesetze-im-internet.de/npsg/BJNR261510016.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 's23',
+    name: 'S-23',
+    altNames: 'S23, S 23, SARM S-23, Arylpropionamid-SARM',
+    class: 'Selektiver Androgenrezeptor-Modulator (SARM), nicht zugelassen',
+    emoji: '🧪',
+    short: 'Aus derselben Arbeitsgruppe wie Ostarin und Andarin, aber mit anderem Ziel: S-23 wurde als hormonelles Verhütungsmittel für Männer entwickelt und war in Ratten wirksam und nach Absetzen umkehrbar. Am Menschen gibt es keine klinische Studie, nur Daten der Dopinganalytik.',
+    moa: 'S-23 ist ein nichtsteroidales Arylpropionamid, das den Androgenrezeptor mit hoher Affinität bindet (Ki 1,7 nM) und in vitro als voller Agonist wirkt. In Ratten baut er Muskel und Knochen auf und senkt die Fettmasse; weil er dem Regelkreis im Gehirn wie Testosteron genug Androgen meldet, drosselt er zugleich LH und FSH deutlich, und ohne diese Signale kommt die Spermienbildung zum Erliegen. Genau diese Achsen-Wirkung war der Entwicklungszweck, nicht ein Nebeneffekt; sein Vorläufer C-6 wurde aus demselben Grund weiterverfolgt. Anders als die verwandten SARMs der gleichen Reihe schont S-23 die Prostata nicht, sondern wirkt dort ebenfalls voll agonistisch (Jones 2010). Beim Menschen ist keine dieser Wirkungen gemessen.',
+    benefits: [
+      'Hohe Bindungsaffinität am Androgenrezeptor (Ki 1,7 ± 0,2 nM), voller Agonist in vitro (Jones et al., Endocrinology 2009).',
+      'Muskel spricht bei niedrigerer Dosis an als die Prostata: ED50 am Levator-ani-Muskel 0,079 mg/d, an der Prostata 0,43 mg/d (kastrierte Ratten, 2009).',
+      'Knochendichte und Magermasse dosisabhängig erhöht, Fettmasse gesenkt (Ratte, 2009).',
+      'Als Verhütungskandidat im Tier wirksam und umkehrbar: mit Estradiolbenzoat bei 4 von 6 Tieren keine Spermien im Hoden und 0 von 6 Verpaarungen mit Schwangerschaft, nach 100 Tagen Erholung wieder 100 Prozent Schwangerschaftsrate (Ratte, bis zu 10 Wochen, 2009).',
+      'Bei ovarektomierten Ratten normalisierte S-23 erhöhte LH- und FSH-Werte; Vertreter derselben SARM-Reihe steigerten die sexuelle Motivation ähnlich stark wie Testosteronpropionat (Jones 2010; Übersicht Vasilev 2026).',
+      'Analytisch sehr gut beschrieben: 18 Stoffwechselprodukte im menschlichen Urin, Nachweis von Mikrogramm-Mengen über Tage bis Wochen (Alhalabi 2025).'
+    ],
+    risks: [
+      'Keine klinische Studie und kein Registereintrag: S-23 war laut Dopinganalytikern nie Gegenstand einer klinischen Studie; zu Langzeitfolgen ist nichts veröffentlicht (Alhalabi 2025; Ameline 2022).',
+      'Kräftige Unterdrückung der eigenen Hormonachse im Tier (LH, FSH), im Verhütungsversuch bis zum Ausfall der Spermienbildung; Übertragung auf den Menschen nicht untersucht (Jones 2009).',
+      'Schont die Prostata nicht: In der Analogreihe war S-23 der Vertreter mit voller Wirkung auch in androgenen Geweben (Jones 2010).',
+      'SARM-Klasse: seit 2020 20 Berichte über unerwünschte Ereignisse, überwiegend arzneimittelbedingte Leberschäden mit Gelbsucht; ein Fall mit S-23 plus Ligandrol, hepatozellulärer Leberschaden nach 8 Wochen, ALT 144 IU/L (Leciejewska 2024).',
+      'Produktqualität nicht verlässlich: In 13 online gekauften SARM-Produkten war der deklarierte Wirkstoff nur in etwa 70 Prozent enthalten, in 30 Prozent steckten nicht deklarierte Arzneistoffe; eines von zwei als S-23 verkauften Produkten enthielt gar kein S-23 (Gaudiano 2024).',
+      'Dopingfalle: schon 1 µg war im Mittel bis zu 253 Stunden im Urin nachweisbar, 50 µg bis zu 544 Stunden, über die Haut aufgenommen bis zu 24 Tage; 5 positive Dopingproben mit S-23 für 2022 (Alhalabi 2025; Korsmeier 2025).'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen, kein Nahrungsergänzungsmittel, nie in einer klinischen Studie. Deutschland: namentlich in der Anlage zum Anti-Doping-Gesetz unter den selektiven Androgen-Rezeptor-Modulatoren – Handel und Inverkehrbringen zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge zum Dopingzweck sind verboten (§ 2 AntiDopG). Dopingliste: WADA 2026, S1.2 (Andere anabole Wirkstoffe), ausdrücklich „S-23“, jederzeit verboten; SARMs stehen seit 2008 auf der Liste. FDA: SARM-Produkte sind nicht zugelassene Arzneimittel, keine Nahrungsergänzungsmittel.',
+    sources: [
+      { title: 'Jones et al., Endocrinology 2009 – präklinische Charakterisierung von S-23, Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/18772237/' },
+      { title: 'Jones et al., J Pharmacol Exp Ther 2010 – Analogreihe, S-23 voll agonistisch auch an der Prostata', url: 'https://pubmed.ncbi.nlm.nih.gov/20444881/' },
+      { title: 'Chen et al., J Pharmacol Exp Ther 2005 – Vorläufer C-6, Ausgangspunkt der Linie', url: 'https://pubmed.ncbi.nlm.nih.gov/15347734/' },
+      { title: 'Alhalabi et al., Biomed Chromatogr 2025 – Mikrodosis-Studie, Nachweiszeiten, nie klinisch geprüft', url: 'https://pubmed.ncbi.nlm.nih.gov/40277337/' },
+      { title: 'Korsmeier et al., J Anal Toxicol 2025 – Aufnahme über die Haut, Nachweis bis 24 Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/40632609/' },
+      { title: 'Ameline et al., J Pharm Biomed Anal 2022 – erste Untersuchung am Menschen, Urin bis 28 Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/35182830/' },
+      { title: 'Gheddar et al., J Chromatogr B 2021 – erster Nachweis von S-23 in menschlichem Haar', url: 'https://pubmed.ncbi.nlm.nih.gov/34814052/' },
+      { title: 'Leciejewska et al., Eur J Clin Pharmacol 2024 – SARM-Nebenwirkungen, Fallübersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/38059982/' },
+      { title: 'Gaudiano et al., Sex Med 2024 – Analyse online gekaufter SARM-Produkte', url: 'https://pubmed.ncbi.nlm.nih.gov/38560649/' },
+      { title: 'WADA – Prohibited List 2026, S1.2 SARMs (S-23)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'sunifiram',
+    name: 'Sunifiram',
+    altNames: 'DM235, DM-235, 1-Benzoyl-4-propionylpiperazin, Unifi-Nootropikum',
+    class: 'Piperazin-Nootropikum (ampakinartig, Piracetam-Verwandter), präklinisch, nirgends zugelassen',
+    emoji: '🧪',
+    short: 'Ein Florentiner Piperazin-Nootropikum, das bei Mäusen und Ratten chemisch ausgelöste Vergesslichkeit schon in winzigen Dosen verhinderte, bestätigt von einer zweiten, unabhängigen Gruppe. Am Menschen gibt es keine einzige Studie, und veröffentlichte Giftigkeitsdaten fehlen.',
+    moa: 'Sunifiram entstand 2000 an der Universität Florenz durch Vereinfachung des Ringsystems von Unifiram (DM232) und gilt als Piracetam-Verwandter ohne dessen Pyrrolidon-Ring. Die Entwickler zeigten eine AMPA-abhängige Wirkung: Die durch den AMPA-Blocker NBQX ausgelöste Amnesie wurde aufgehoben, in Hippocampus-Schnitten wirkte Sunifiram NBQX-empfindlich; daher die Einordnung als ampakinartig. Eine unabhängige Gruppe fand 2013 eine Verstärkung der Langzeitpotenzierung über die Glycin-Bindestelle des NMDA-Rezeptors mit Signalweiterleitung über PKC-alpha und CaMKII. Im Rattenkortex verdoppelte Sunifiram die Acetylcholin-Freisetzung 45 Minuten nach Gabe, bei höheren Dosen nicht mehr. An die wichtigsten Rezeptoren bindet es nicht; am Menschen ist keiner dieser Mechanismen untersucht.',
+    benefits: [
+      'Verhinderte bei Mäusen Vergesslichkeit durch Scopolamin, Mecamylamin, Baclofen und Clonidin, gespritzt wie geschluckt; bei Ratten Schutz vor der Scopolamin-bedingten Lernstörung im Wasserlabyrinth (Tierversuch, Ghelardini 2002).',
+      'Hob die durch den AMPA-Blocker NBQX ausgelöste Amnesie auf, in Hirnschnitten AMPA-abhängige Wirkung (Tier und Hirnschnitt, Galeotti 2003).',
+      'Unabhängig bestätigt: Bei Mäusen mit entfernten Riechkolben, einem Modell mit Alzheimer-ähnlichen Ausfällen, besserten sich räumliches und Kurzzeitgedächtnis nach 7 bis 12 Tagen Gabe über den Mund; die Langzeitpotenzierung wurde wiederhergestellt (Tierversuch, Moriguchi 2013).',
+      'Verdoppelte im Rattenkortex die Acetylcholin-Freisetzung 45 Minuten nach der Gabe (Mikrodialyse, Romanelli 2006).',
+      'Wirksame Dosis im Tier 1000- bis 10.000-fach niedriger als bei Piracetam, Aniracetam oder Rolipram; keine Störung von Motorik und Verhalten bei wirksamen Dosen (Tierversuch).'
+    ],
+    risks: [
+      'Keine einzige Studie am Menschen, kein Eintrag bei ClinicalTrials.gov; nie in die klinische Entwicklung gegangen.',
+      'Keine veröffentlichte Toxikologie; die Langzeitgiftigkeit ist laut dem früheren Leiter der Entwicklergruppe unbekannt (Gualtieri 2016).',
+      'Wirkung fast nur gegen künstlich ausgelöste Gedächtnisstörungen gemessen; glockenförmige Dosis-Wirkungs-Kurven, bei höheren Dosen im Tier kein zusätzlicher Effekt.',
+      'Mechanismus nicht geklärt: AMPA-Verstärkung und NMDA-Glycin-Stelle stehen nebeneinander.',
+      'Graumarktware als Forschungschemikalie, Reinheit ungeprüft; die FDA verhängte 2023 gegen einen Importeur, der unter anderem Sunifiram eingeführt hatte, ein Einfuhrverbot für 5 Jahre.',
+      'Sport: nicht namentlich gelistet; als nirgends zugelassener Wirkstoff nach Wortlaut S0 jederzeit verboten, laut Analyse 2025 auch Nähe zu 4-Phenylpiracetam (S6) möglich.'
+    ],
+    status: 'Präklinische Forschungssubstanz, nirgends zugelassen. DE/EU: weder Arzneimittel noch Nahrungsergänzungsmittel; kein Eintrag im BtMG, nach der Struktur in keiner Stoffgruppe des NpSG; Handel als Forschungschemikalie. USA: nicht zugelassen; FDA-Einfuhrverbot 2023 gegen einen Importeur unter anderem von Sunifiram. WADA 2026: nicht namentlich; nach Wortlaut S0 (nicht zugelassene Substanzen), laut Pokrywka et al. 2025 Status unklar mit möglicher Einordnung über Ähnlichkeit zu 4-Phenylpiracetam (S6).',
+    sources: [
+      { title: 'Manetti et al. 2000, J Med Chem – Piperazin-Abkömmlinge mit hoher nootroper Wirkung, Erstbeschreibung von DM235', url: 'https://pubmed.ncbi.nlm.nih.gov/11087574/' },
+      { title: 'Ghelardini et al. 2002, Naunyn Schmiedebergs Arch Pharmacol – Sunifiram verhindert Amnesie bei Mäusen und Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/12070754/' },
+      { title: 'Galeotti et al. 2003, Naunyn Schmiedebergs Arch Pharmacol – AMPA-Rezeptoren und antiamnestische Wirkung', url: 'https://pubmed.ncbi.nlm.nih.gov/14600801/' },
+      { title: 'Romanelli et al. 2006, CNS Drug Rev – pharmakologische Charakterisierung von Unifiram und Sunifiram', url: 'https://pubmed.ncbi.nlm.nih.gov/16834757/' },
+      { title: 'Moriguchi et al. 2013, Hippocampus – Langzeitpotenzierung über die Glycin-Bindestelle des NMDA-Rezeptors', url: 'https://pubmed.ncbi.nlm.nih.gov/23733502/' },
+      { title: 'Moriguchi et al. 2013, Behav Brain Res – Gedächtnis bei Mäusen mit entfernten Riechkolben', url: 'https://pubmed.ncbi.nlm.nih.gov/23295391/' },
+      { title: 'Gualtieri 2016, J Enzyme Inhib Med Chem – Unifi-Nootropika vom Labor ins Netz, Langzeitgiftigkeit unbekannt', url: 'https://pubmed.ncbi.nlm.nih.gov/25831025/' },
+      { title: 'Vialko et al. 2025, Int J Mol Sci – AMPA-Modulatoren: Sunifiram nie klinisch entwickelt', url: 'https://pubmed.ncbi.nlm.nih.gov/40650226/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Sunifiram")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'turkesterone',
+    name: 'Turkesteron',
+    altNames: 'Turkesterone, Ajuga-turkestanica-Extrakt, Phytoecdysteroid (verwandt: Ecdysteron, 20-Hydroxyecdyson, Beta-Ecdysteron)',
+    class: 'Pflanzliches Ecdysteroid (Phytoecdysteroid) aus Ajuga turkestanica, in der EU nicht zugelassenes neuartiges Lebensmittel',
+    emoji: '🌱',
+    short: 'Pflanzensteroid aus dem usbekischen Günsel, dessen Verwandter Ecdysteron im Tier und in einer Trainingsstudie mit 46 Männern Muskelmasse und Kraft steigerte. Für Turkesteron selbst gibt es nur eine Einzeldosis-Studie mit 11 Personen ohne messbaren Effekt, und viele Produkte enthalten kaum Wirkstoff.',
+    moa: 'Turkesteron ist ein Ecdysteroid mit 27 Kohlenstoffatomen und 7 Hydroxygruppen; die OH-Gruppen an C-20 und C-11 gelten als Träger der anabolen Wirkung. Phytoecdysteroide binden trotz Steroidgerüst nicht an die klassischen Steroidrezeptoren im Zellinneren und damit nicht an den Androgenrezeptor. Für den nahen Verwandten Ecdysteron sind eine Wirkung über den Östrogenrezeptor beta und eine Aktivierung des Mas-Rezeptors beschrieben; in Rattenmuskeln und Muskelzellkulturen fördert es das Faserwachstum. Die höhere Wirksamkeit von Turkesteron beruht auf sowjetischen Rattenstudien ab 1976; Aufnahme, Halbwertszeit und Stoffwechsel von Turkesteron beim Menschen sind nicht untersucht.',
+    benefits: [
+      'Ecdysteron vergrößerte bei Ratten die Muskelfasern stärker als Metandienon, Estradienedion und SARM S 1 in gleicher Dosis (5 mg/kg, 21 Tage, Parr et al. 2015) – Tierdaten zur Substanzklasse',
+      'Ecdysteron-Präparat plus 10 Wochen Krafttraining: signifikant mehr Muskelmasse und Bankdrück-Maximalkraft bei 46 jungen Männern, Präparat auf Anabolika geprüft (Isenmann et al. 2019) – nicht Turkesteron, Volltext nicht frei zugänglich',
+      'Sowjetische Rattenstudien ab 1976: mehr Muskelmasse und Eiweiß nach 10 Tagen Phytoecdysteroid-Gabe, darunter Turkesteron – alte Tierdaten, nicht am Menschen nachgeprüft',
+      'Turkesteron-Einzeldosen im Crossover gut verträglich, ohne Magen-Darm- oder Kreislaufauffälligkeiten (n = 11, Harris et al. 2024)',
+      'Gereinigtes Ecdysteron (BIO101) über 6 bis 9 Monate bei 233 älteren Menschen mit Nebenwirkungsraten auf Placeboniveau (Phase 2b, Fielding et al. 2025) – Sicherheitsdaten der Substanzklasse'
+    ],
+    risks: [
+      'Einzige Turkesteron-Humanstudie: 11 Männer, Einzeldosis, kein signifikanter Effekt auf IGF-1, Ruheumsatz oder Stoffwechsel (Harris et al. 2024); keine Trainingsstudie, kein Registereintrag',
+      'Produktqualität: 4 von 8 US-Turkesteron-Produkten ohne nachweisbares Turkesteron, die übrigen mit 0,01 bis 0,1 mg pro Portion (Cohen et al. 2023)',
+      'Ecdysteron-Daten uneinheitlich: kein Effekt bei 45 Trainierten über 8 Wochen (Wilborn et al. 2006); ein Handelspräparat enthielt unter 1 % der deklarierten Menge (Dissemond et al. 2025)',
+      'Verunreinigungen: knapp 20 % getesteter Ecdysteron-Supplemente mit Fremdstoffen, darunter verbotene Anabolika – Dopingrisiko',
+      'Mögliche Wirkung über den Östrogenrezeptor beta; keine Daten für Schwangere, Stillende, Jugendliche oder hormonabhängige Erkrankungen, keine Interaktionsstudien',
+      'In der EU nicht zugelassenes neuartiges Lebensmittel, mehrere RASFF-Meldungen seit 2023'
+    ],
+    status: 'EU/DE: Ajuga turkestanica und Turkesteron gelten als nicht zugelassenes neuartiges Lebensmittel (RASFF-Meldungen 2023 bis 2026, darunter 2026.2203 ausdrücklich zu Turkesteron); nicht als Nahrungsergänzungsmittel verkehrsfähig, kein zugelassenes Arzneimittel. USA: als Nahrungsergänzungsmittel im Handel. Doping: nicht auf der WADA-Verbotsliste 2026; Ecdysteron steht seit 2020 im WADA-Monitoring-Programm (auch 2026), Forscher empfehlen die Aufnahme in S1.2.',
+    sources: [
+      { title: 'Harris et al. 2024, Muscles – Turkesteron-Einzeldosen: kein signifikanter Effekt auf IGF-1 und Ruheumsatz (n = 11)', url: 'https://pubmed.ncbi.nlm.nih.gov/40757520/' },
+      { title: 'Cohen et al. 2023, JAMA Netw Open – 4 von 8 Turkesteron-Produkten ohne nachweisbares Turkesteron', url: 'https://pubmed.ncbi.nlm.nih.gov/37459101/' },
+      { title: 'Isenmann et al. 2019, Arch Toxicol – Ecdysteron steigert Muskelmasse und Kraft bei 46 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/31123801/' },
+      { title: 'Dissemond et al. 2025, J Int Soc Sports Nutr – 12-Wochen-RCT, Präparat enthielt unter 1 % der deklarierten Menge', url: 'https://pubmed.ncbi.nlm.nih.gov/40781783/' },
+      { title: 'Parr et al. 2015, Biol Sport – Ecdysteron im Rattenmuskel stärker als Metandienon', url: 'https://pubmed.ncbi.nlm.nih.gov/26060342/' },
+      { title: 'Fielding et al. 2025, J Cachexia Sarcopenia Muscle – BIO101 (20E) Phase 2b bei Sarkopenie', url: 'https://pubmed.ncbi.nlm.nih.gov/40026058/' },
+      { title: 'Wilborn et al. 2006, J Int Soc Sports Nutr – 200 mg 20E ohne Trainingseffekt', url: 'https://pubmed.ncbi.nlm.nih.gov/18500969/' },
+      { title: 'Todorova et al. 2024, Nutrients – Übersicht Ecdysteron und Turkesteron', url: 'https://pubmed.ncbi.nlm.nih.gov/38732627/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Turkesterone")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
   }
 ];
 
@@ -3859,6 +4226,7 @@ const _EXP_CAT_MAP = {
   'cagrilintide': 'Stoffwechsel',
   'slu-pp-332': 'Exercise',
   'aicar': 'Exercise',
+  'turkesterone': 'Exercise', 's23': 'Exercise', 'nmnh': 'Longevity',
   'ace-031': 'Exercise',
   'andarin': 'Exercise',
   'cardarine': 'Exercise',
