@@ -1530,7 +1530,7 @@
    "anwendung": 4,
    "richtung": "positiv",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden, begutachtet bisher aber nur aus Phase 2: 338 Teilnehmende, 48 Wochen, 24,2 Prozent gegenüber 2,1 Prozent unter Placebo (NEJM 2023). Laut Hersteller randomisierte TRIUMPH-1 2.339 Teilnehmende über 80 Wochen und erreichte in der höchsten Dosis 28,3 Prozent, nach Auswertung aller Randomisierten 25,0 Prozent; TRIUMPH-4 kam mit 445 Teilnehmenden über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Eine begutachtete Vollpublikation zu TRIUMPH gibt es noch nicht, begutachtet in Phase 3 ist bisher nur die Diabetesstudie TRANSCEND-T2D-1 (Lancet 2026). Der Dreifach-Agonismus ist am Menschen belegt, der Anteil des Glukagon-Arms nicht getrennt geprüft. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43,2 Prozent und Studienabbruch wegen Nebenwirkungen bei bis zu 18,2 Prozent. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
+   "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden, begutachtet bisher aber nur aus Phase 2: 338 Teilnehmende, 48 Wochen, 24,2 Prozent gegenüber 2,1 Prozent unter Placebo (NEJM 2023). Laut Hersteller randomisierte TRIUMPH-1 2.339 Teilnehmende über 80 Wochen und erreichte in der höchsten Dosis 28,3 Prozent, nach Auswertung aller Randomisierten 25,0 Prozent; TRIUMPH-4 kam mit 445 Teilnehmenden über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Eine begutachtete Vollpublikation zu TRIUMPH gibt es noch nicht, begutachtet in Phase 3 ist bisher nur die Diabetesstudie TRANSCEND-T2D-1 (Lancet 2026). Der Dreifach-Agonismus ist am Menschen belegt, der Anteil des Glukagon-Arms nicht getrennt geprüft. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43,2 Prozent (höchste Dosis in TRIUMPH-4) und Studienabbruch wegen Nebenwirkungen bei bis zu 18,2 Prozent. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
   },
   {
    "id": "bpc-157",
@@ -1601,11 +1601,11 @@
    "evidenz": 2,
    "mechanismus": 6,
    "sicherheit": 3,
-   "hype": 2,
+   "hype": 3,
    "anwendung": 4,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Zu den Einzelsubstanzen existieren ältere pharmakologische Humandaten, zur beliebten Kombination praktisch keine. Der Weg über GHRH- und Ghrelin-Rezeptor ist verstanden, die Auszahlung nicht belegt.",
+   "beleg": "Zur beliebten Kombination gibt es keine einzige Humanstudie; eine Übersicht von 2026 (Dominikowski) nennt die Praxis weitgehend anekdotisch begründet und stuft das meist verwendete CJC-1295 ohne DAC auf die unterste Evidenzstufe. Belegt sind die Bauteile auf Ebene der Hormonspiegel: Ipamorelin löst beim Menschen einen einzelnen GH-Puls aus (Gobburu 1999, 5 Stufen à 8 Männer) und war im Tier selektiv ohne ACTH- oder Cortisolanstieg (Raun 1998); CJC-1295 mit DAC hob GH und IGF-1 in zwei randomisierten Studien über Tage (Teichman 2006). Die Synergie von GHRH- und Ghrelin-Signal ist am Menschen für die Substanzklassen gezeigt (Bowers 1990). Die einzige Wirksamkeitsstudie zu Ipamorelin verfehlte ihren Endpunkt (Beck 2014, 114 Patienten), war aber gut verträglich. Für Schlaf, Muskel, Fett und Haut gibt es keine Humandaten, Langzeitsicherheit ist offen; die FDA führt Ipamorelin seit 2023 als Wirkstoff mit möglichen erheblichen Sicherheitsrisiken.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Tieferer Schlaf, IGF-1 messbar hoch",
@@ -1762,14 +1762,14 @@
    "view": "experimental",
    "name": "CJC-1295 mit DAC",
    "url": "https://biohackingkompakt.de/thema/cjc-1295-dac.html",
-   "evidenz": 2,
-   "mechanismus": 6,
-   "sicherheit": 2,
-   "hype": 2,
+   "evidenz": 4,
+   "mechanismus": 7,
+   "sicherheit": 3,
+   "hype": 3,
    "anwendung": 3,
    "richtung": "offen",
-   "label": "Hype weit vor Evidenz",
-   "beleg": "Es gibt genau eine publizierte kontrollierte Humanstudie: Teichman et al. (J Clin Endocrinol Metab 2006) zeigten an Gesunden nach Einzeldosen über mehrere Tage anhaltend erhöhte Wachstumshormon- und IGF-1-Spiegel. Weitere unabhängige Studien wurden nicht gefunden, die Entwicklung wurde eingestellt, eine Zulassung gab es nie. Was daraus für den Dauergebrauch folgt – insbesondere für dauerhaft erhöhtes IGF-1 – ist nicht untersucht. In Deutschland kein verkehrsfähiges Arzneimittel, auf der WADA-Verbotsliste.",
+   "label": "Dünne Humanevidenz",
+   "beleg": "Teichman et al. (J Clin Endocrinol Metab 2006) berichten zwei randomisierte, placebokontrollierte, doppelblinde Studien an Gesunden über 28 und 49 Tage: nach einer Gabe GH 2- bis 10-fach für 6 Tage oder länger, IGF-1 1,5- bis 3-fach für 9 bis 11 Tage, Halbwertszeit 5,8 bis 8,1 Tage, keine schweren Nebenwirkungen. Ionescu & Frohman (2006) zeigten, dass die Pulse erhalten bleiben und der Anstieg über den Talspiegel läuft (7,5-fach). Damit ist die Wirkkette bis IGF-1 am Menschen quantifiziert, klinische Endpunkte fehlen aber ganz: Die einzige Phase-2-Studie (NCT00267527) wurde 2006 nach einem Todesfall mit ungeklärtem Zusammenhang abgebrochen, Ergebnisse gibt es nicht, eine Zulassung gab es nie. Was dauerhaft erhöhtes IGF-1 langfristig bedeutet, ist nicht untersucht; die FDA nennt schwerwiegende Ereignisse wie erhöhten Puls und Gefäßerweiterungsreaktionen. In Deutschland kein verkehrsfähiges Arzneimittel, auf der WADA-Verbotsliste.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Tieferer Schlaf, IGF-1 messbar hoch",
@@ -2099,17 +2099,17 @@
    "name": "SLU-PP-332",
    "url": "https://biohackingkompakt.de/thema/slu-pp-332.html",
    "evidenz": 0,
-   "mechanismus": 4,
+   "mechanismus": 5,
    "sicherheit": 1,
    "hype": 1,
-   "anwendung": 2,
+   "anwendung": 3,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Wichtig zur Einordnung: Hier steht nicht „geprüft und widerlegt\", sondern „nicht geprüft\". Es wurden keine Humanstudien gefunden, ausschließlich Nagetierarbeiten, in denen der synthetische ERR-Agonist eine akute Trainingsantwort auslöst – bereits eine Stunde nach Gabe, nicht erst nach Wochen. Ein rasch spürbarer Effekt widerspricht dem Mechanismus also nicht. Entscheidend ist die Dosis: Die Mausarbeiten verwendeten 50 mg/kg intraperitoneal; allometrisch umgerechnet entspräche die dort wirksame Tagesmenge beim 80-Kilo-Menschen rund 650 mg. In der Anwendung berichtet werden 250 Mikrogramm bis 1,5 mg subkutan – also etwa ein Tausendstel davon. Für die oralen Tabletten kommt hinzu, dass die orale Bioverfügbarkeit schlecht ist; dieselbe Arbeitsgruppe entwickelte deshalb den Nachfolger SLU-PP-915 mit besserer oraler Wirksamkeit. Eine bestätigte Wirkkette beim Menschen existiert nicht, ebenso wenig Sicherheitsdaten. Der Abstand zwischen dem, was gezeigt wurde – eine Maus, die ohne zu laufen Ausdauergene hochreguliert – und dem, was verkauft wird, ist so groß wie im gesamten Bestand selten.",
+   "beleg": "Hier steht nicht „geprüft und widerlegt“, sondern „nicht geprüft“: Es gibt keine Humanstudie, nur Tier- und Zellarbeiten. Diese sind allerdings solide. Nach einer einzigen Gabe liefen Mäuse rund 70 % länger und 45 % weiter, übergewichtige Mäuse wogen nach 28 Tagen rund 12 % weniger (Billon 2023, 2024). Mechanismus 5, weil die Abhängigkeit vom Zielrezeptor genetisch gezeigt ist – ohne ERRα im Muskel kein Ausdauergewinn – und erste Daten an menschlichen Muskelvorläuferzellen vorliegen (Bonanni 2025); eine Bestätigung am lebenden Menschen fehlt. Evidenz 0 und Sicherheit 1, weil es weder klinische Wirksamkeits- noch Sicherheitsdaten gibt, im Tier nur Kurzzeitbefunde über 10 Tage. Die Entwickler halten selbst fest, dass SLU-PP-332 nicht oral bioverfügbar ist, und entwickelten deshalb SLU-PP-915 (Billon 2026) – verkaufte Tabletten haben damit keine Grundlage. Hype 1, weil „Sport in der Spritze“ als Versprechen für Menschen auftritt, obwohl die Daten nur von Mäusen stammen. Anwendung 3: in einer Nische als Research-Ware im Umlauf, ohne Studien am Menschen.",
    "berichtslage": {
     "stufe": 2,
-    "kurz": "Ausdauer messbar besser, Dosis unklar",
-    "was": "Übereinstimmend berichtet wird ein rasch spürbarer Ausdauereffekt, teilweise an eigenen Zeiten gemessen. Das ist eine objektive Beobachtung und kein reines Gefühl, und ein schneller Effekt passt zum Mechanismus – im Tierversuch trat er bereits eine Stunde nach Gabe auf. Offen bleibt die Zuordnung: Die angewendeten Mengen liegen rund tausendfach unter der dort wirksamen Dosis.",
+    "kurz": "Ausdauer rasch spürbar, Zuordnung offen",
+    "was": "Übereinstimmend berichtet wird ein rasch spürbarer Ausdauereffekt, teilweise an eigenen Zeiten gemessen. Ein schneller Effekt passt zum Mechanismus – im Tierversuch wirkte bereits eine einzelne Gabe eine Stunde vor dem Laufen. Offen bleibt die Zuordnung: Ob die in der Szene üblichen Mengen und Wege Wirkspiegel wie im Tierversuch erreichen, hat niemand gemessen, und über den Mund ist die Substanz laut ihren Entwicklern nicht bioverfügbar.",
     "quellen": "Anwenderkreise · Selbstmessungen"
    }
   },
@@ -2527,11 +2527,11 @@
    "evidenz": 0,
    "mechanismus": 3,
    "sicherheit": 0,
-   "hype": 0,
+   "hype": 1,
    "anwendung": 3,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Es wurde keine einzige Humanstudie zu dieser Kombination gefunden – die Datenbanksuche nach allen drei Substanzen zusammen liefert nur Übersichtsarbeiten, die sie nebeneinander aufzählen. Der behauptete Kombinationseffekt ist eine Addition aus Tierdaten der Einzelstoffe. Von diesen hat GHK-Cu begrenzte topische Humandaten, BPC-157 laut Übersichtsliteratur keine abgeschlossene Phase-II-Studie und keine validierte Dosierung, TB-500 praktisch keine Humanstudien. Die US-Behörde nahm BPC-157 2023 in die Liste der für Rezepturarzneimittel nicht freigegebenen Substanzen auf."
+   "beleg": "Es wurde keine einzige Studie zu dieser Kombination gefunden; der behauptete Kombinationseffekt ist eine Addition von Einzelbefunden. Am besten belegt ist GHK-Cu als Creme: Eine systematische Übersicht von 2026 fand 20 Studien, davon 18 präklinisch und 2 randomisierte Studien mit weniger Falten gegenüber Kontrollen – für die Injektion gibt es keine Daten. BPC-157 stützt sich auf 36 Studien, davon 35 präklinisch, ohne klinische Sicherheitsdaten (Vasireddi 2025); TB-500 hat nur Daten der Muttersubstanz Thymosin Beta-4. Mechanismus 3, weil jede Zutat eine plausible Zell- und Tierbasis hat, das Zusammenspiel aber ungeprüft ist. Sicherheit 0, weil zur injizierten Mischung nichts systematisch untersucht ist; die FDA nennt Immunreaktionen, Zusammenlagerung und Verunreinigungen als Risiken und führt alle drei Stoffe heute unter zurückgezogenen Nominierungen (früher Kategorie 2). Hype 1: Die Einzelteile haben eine Grundlage, die Übertragung auf die injizierte Kombination als „Hautverjüngung von innen“ nicht. Anwendung 3: in der Szene verbreitet als Fertig-Blend, ohne Studien."
   },
   {
    "id": "klow-stack",
