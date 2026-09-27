@@ -2187,7 +2187,7 @@
    "anwendung": 2,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 536 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
+   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 534 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
   },
   {
    "id": "bimagrumab",
@@ -2351,7 +2351,7 @@
    "anwendung": 0,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Es wurden keine publizierten Humanstudien gefunden. Die Substanz stammt aus der präklinischen Neurowissenschaft als Nachahmer einer BDNF-Schleife am TrkB-Rezeptor und wurde in Tiermodellen zu Schlaganfall und Rett-Syndrom untersucht. Damit wird eine Verbindung, die das Präklinik-Stadium nie verlassen hat, als anwendungsreifes Nootropikum vermarktet. Sicherheitsdaten am Menschen existieren praktisch nicht. In Deutschland kein zugelassenes Arzneimittel."
+   "beleg": "Es wurden keine publizierten Humanstudien gefunden. Die Substanz (P021) stammt aus der Alzheimer-Forschung der Arbeitsgruppe um Khalid Iqbal: ein kurzes, vom Nervenwachstumsfaktor CNTF abgeleitetes Peptid mit Adamantan-Endgruppe, das in Mäusen auch oral wirkt. In Tiermodellen des Alterns, der Alzheimer-Krankheit und des Down-Syndroms förderte es Neurogenese und Synapsen und verbesserte Gedächtnisleistungen (Bolognin 2014; Kazim 2014; Kazim 2017). Damit wird eine Verbindung, die das Präklinik-Stadium nie verlassen hat, als anwendungsreifes Nootropikum vermarktet. Sicherheitsdaten am Menschen existieren praktisch nicht. In Deutschland kein zugelassenes Arzneimittel."
   },
   {
    "id": "dsip",
@@ -2808,7 +2808,7 @@
   {
    "id": "kh-chelohart",
    "view": "khavinson",
-   "name": "Chelohart / Cardiogen",
+   "name": "Chelohart",
    "url": "https://biohackingkompakt.de/thema/kh-chelohart.html",
    "evidenz": 0,
    "mechanismus": 2,
