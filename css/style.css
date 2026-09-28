@@ -4086,3 +4086,58 @@ button { font-family: inherit; cursor: pointer; }
 /* Link von der Tipp-Karte auf die ausfuehrliche Seite unter /tipp/ */
 .exp-mehr{display:inline-block;margin-top:.6rem;font-weight:600;font-size:.92rem;color:#2f8b6a;text-decoration:none}
 .exp-mehr:hover{text-decoration:underline}
+
+/* Startseite: Einstieg „Am besten belegt" und Häufige Fragen (startseite.py) */
+.home-einstieg, .home-faq {
+  max-width: 1180px;
+  margin: 0 auto 56px;
+  padding: 26px 28px;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+.home-faq { margin-top: 48px; }
+.home-einstieg .eyebrow, .home-faq .eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.home-einstieg h2, .home-faq h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3vw, 28px);
+  margin: 0 0 8px;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.home-einstieg-sub { color: var(--text-muted); font-size: 14px; margin: 0 0 16px; max-width: 760px; }
+.home-einstieg-liste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px 22px;
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+.home-einstieg-liste li { padding: 6px 0; border-bottom: 1px solid var(--surface-border); }
+.home-einstieg-liste a { color: var(--text); font-weight: 600; text-decoration: none; }
+.home-einstieg-liste a:hover { color: var(--accent); }
+.home-einstieg-label {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+.home-einstieg-alle { color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; }
+.home-faq details { border-bottom: 1px solid var(--surface-border); padding: 12px 0; }
+.home-faq summary { cursor: pointer; font-weight: 600; color: var(--text); }
+.home-faq details p { color: var(--text-muted); margin: 8px 0 0; line-height: 1.6; }
+@media (max-width: 640px) {
+  .home-einstieg, .home-faq { padding: 20px 16px; margin-left: 16px; margin-right: 16px; }
+}
