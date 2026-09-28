@@ -16,6 +16,7 @@
     if (!wrap) return;
     const f = document.createElement('iframe');
     f.className = 'exp-podcast-spotify';
+    f.title = 'Podcast-Folge im Spotify-Player';
     f.style.cssText = 'border-radius:12px;width:100%;height:152px;border:0;margin:8px 0';
     f.setAttribute('allow', 'clipboard-write; encrypted-media; fullscreen; picture-in-picture');
     f.src = 'https://open.spotify.com/embed/episode/' + id + '?utm_source=generator';
