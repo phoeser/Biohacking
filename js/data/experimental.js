@@ -4848,6 +4848,130 @@ const EXPERIMENTAL = [
     community: [],
     podcasts: [],
     filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'pea',
+    name: 'Phenylethylamin (PEA)',
+    altNames: 'β-Phenylethylamin, 2-Phenylethylamin, Phenethylamin, PEA-HCl, verwandt: Hordenin (N,N-Dimethyltyramin); nicht zu verwechseln mit Palmitoylethanolamid (ebenfalls PEA)',
+    class: 'Körpereigenes Spurenamin, TAAR1-Agonist mit amphetaminähnlicher Wirkung im Zellversuch; in der EU nicht als Lebensmittelzutat zugelassen, im Wettkampfsport verboten',
+    emoji: '⚡',
+    short: 'Körpereigenes Spurenamin, das den Rezeptor TAAR1 aktiviert und im Zellversuch die Transporter für Noradrenalin und Dopamin ähnlich stark hemmt wie Amphetamin; in der Szene als kurzer Stimmungs- und Fokus-Kick beliebt, oft mit Hordenin aus der Gerste. Geschlucktes PEA wird durch MAO-B rasch abgebaut, kontrollierte Studien zu Stimmung, Fokus oder Leistung fehlen.',
+    moa: 'PEA entsteht im Körper aus Phenylalanin und ist voller Agonist am Spurenamin-Rezeptor TAAR1, der vor allem in limbischen und monoaminergen Hirnregionen vorkommt (Borowsky 2001; Rutigliano 2017). In Zellkultur hemmt es den Noradrenalin- und den Dopamin-Transporter mit IC50 0,05 und 1,8 µM, vergleichbar mit D-Amphetamin, nicht aber den Serotonin-Transporter (Rickli 2019). Abgebaut wird PEA durch die Monoaminoxidase B so rasch, dass die Depressionsstudien einen MAO-B-Hemmer dazugaben (Sabelli 1996) und nach oraler Gabe PEA im Urin kaum stieg (Sigmund 2015; Krombholz 2022). Hordenin, oft mitkombiniert, ist in Rattenleber ein selektives MAO-B-Substrat (Barwell 1989) und im Zellversuch ein Dopamin-D2-Agonist (Sommer 2017); ob es den PEA-Abbau beim Menschen bremst, ist nicht untersucht.',
+    benefits: [
+      'Klar definierter Mechanismus: voller Agonist an TAAR1 und amphetaminähnliche Hemmung der Noradrenalin- und Dopamin-Transporter (Zellstudien, 2001 und 2019).',
+      'Nach 30 Minuten Laufen stieg das PEA-Abbauprodukt Phenylessigsäure im Urin um 77 % – möglicher Baustein der stimmungshebenden Wirkung von Sport (Pilotstudie, 20 Männer, 2001; Surrogatmarker).',
+      'Niedrigere Phenylessigsäure in Plasma und Urin bei Depressiven als bei Gesunden (Beobachtungsstudie, 23 bzw. 144 Depressive, 1986).',
+      'Anhaltende Besserung bei 12 von 14 Depressiven über 20 bis 50 Wochen unter PEA plus dem MAO-B-Hemmer Selegilin (offene Nachbeobachtung ohne Kontrollgruppe, 1996).',
+      'Im Tierversuch antriebs- und belohnungssteigernd, vermittelt über Dopamin-D1-Rezeptoren (Mäuse und Ratten, 2021).'
+    ],
+    risks: [
+      'Keine randomisierte Studie zu Stimmung, Fokus, Leistung oder Fettabbau; die einzige Placebostudie (27 Gesunde, 1983) fand Kopfschmerz, Schwindel und Unwohlsein bei einigen Teilnehmern.',
+      'Gefährlich mit MAO-Hemmern (inklusive Selegilin): Spurenamine steigen stark an und können den Blutdruck erhöhen; Fallbericht zu Panikattacken unter Selegilin plus PEA.',
+      'Fallbericht einer Hirnblutung nach einem mit PEA verunreinigten Kratom-Produkt (2020); im Tierversuch Selbstverabreichung als Hinweis auf Missbrauchspotenzial.',
+      'Nicht bei Bluthochdruck, Herzrhythmusstörungen, Angst- oder Panikstörung, zusammen mit Antidepressiva oder Stimulanzien sowie in Schwangerschaft und Stillzeit.',
+      'Produktqualität: niederländische Behörde fand in 264 von 416 Supplements pharmakologisch wirksame Stoffe, darunter PEA und Hordenin.',
+      'WADA-Liste 2026: Phenethylamin und Abkömmlinge im Wettkampf verboten; Einnahme im Urin nachweisbar.'
+    ],
+    status: 'DE/EU: weder als Arzneimittel noch als Lebensmittelzutat zugelassen; kein Eintrag im Novel-Food-Statuskatalog und nicht in der Unionsliste. RASFF-Meldungen: Tschechien 2020 (hoher Gehalt), Polen 2022 (verbotener Stoff), Slowenien 2025 (nicht zugelassene neuartige Zutat); Hordenin: Polen 2023 und 2026. Keine deutsche Meldung und keine BVL- oder BfR-Stellungnahme gefunden. Nicht verschreibungspflichtig, nicht im BtMG; PEA selbst ist aus der NpSG-Stoffgruppe der Phenethylamin-Abkömmlinge ausdrücklich ausgenommen. WADA 2026: „Phenethylamine and its derivatives“ unter S6.b, im Wettkampf verboten (gelistet seit 2015); Hordenin nicht namentlich genannt, laut USADA nicht verboten, von der NCAA verboten.',
+    sources: [
+      { title: 'Borowsky et al. 2001, Proc Natl Acad Sci U S A – Entdeckung der Spurenamin-Rezeptoren (TAAR)', url: 'https://pubmed.ncbi.nlm.nih.gov/11459929/' },
+      { title: 'Rickli et al. 2019, Eur J Pharmacol – PEA hemmt Noradrenalin- und Dopamin-Transporter wie D-Amphetamin', url: 'https://pubmed.ncbi.nlm.nih.gov/31265842/' },
+      { title: 'Sabelli et al. 1996, J Neuropsychiatry Clin Neurosci – PEA plus Selegilin bei Depression, offene Nachbeobachtung', url: 'https://pubmed.ncbi.nlm.nih.gov/9081552/' },
+      { title: 'Szabo et al. 2001, Br J Sports Med – Phenylessigsäure im Urin nach Ausdauerbelastung +77 %', url: 'https://pubmed.ncbi.nlm.nih.gov/11579070/' },
+      { title: 'Lüthy & Schlatter 1983, Z Lebensm Unters Forsch – Placebostudie mit biogenen Aminen, PEA löste Beschwerden aus', url: 'https://pubmed.ncbi.nlm.nih.gov/6364621/' },
+      { title: 'Krombholz et al. 2022, Biomed Chromatogr – orales PEA im Urin kaum nachweisbar, Dopinganalytik', url: 'https://pubmed.ncbi.nlm.nih.gov/34729800/' },
+      { title: 'Sommer et al. 2020, J Agric Food Chem – Hordenin-Kinetik beim Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/31984737/' },
+      { title: 'Van den Eynde 2021, J Neural Transm – Spurenamine und Blutdruckanstieg unter MAO-Hemmern', url: 'https://pubmed.ncbi.nlm.nih.gov/34373944/' },
+      { title: 'Biesterbos et al. 2019, Food Addit Contam – Wirkstoffe in Supplements, Niederlande', url: 'https://pubmed.ncbi.nlm.nih.gov/31294678/' },
+      { title: 'RASFF 2025.9102 – Slowenien: Phenethylamin als nicht zugelassene neuartige Zutat', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/804971' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „PEA")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'sglt2-hemmer',
+    name: 'SGLT2-Hemmer (Empagliflozin, Dapagliflozin)',
+    altNames: 'Gliflozine, SGLT2-Inhibitoren, Empagliflozin (Jardiance), Dapagliflozin (Forxiga, in den USA Farxiga), Natrium-Glucose-Cotransporter-2-Hemmer',
+    class: 'SGLT2-Hemmer (Antidiabetika mit Herz- und Nierenschutz), zugelassen, verschreibungspflichtig, Longevity-Kandidat',
+    emoji: '💧',
+    short: 'Diabetesmittel, die überschüssigen Zucker über die Niere ausscheiden lassen und in großen Studien Herz und Nieren schützten, auch bei Menschen ohne Diabetes: weniger Klinikaufenthalte, langsameres Nierenversagen, teils geringere Sterblichkeit. Für ein längeres Leben gesunder Menschen gibt es bisher nur Mausdaten und Beobachtungsstudien, die Nutzung dafür ist Off-Label.',
+    moa: 'Empagliflozin und Dapagliflozin hemmen in der Niere den Natrium-Glucose-Cotransporter 2, der den Großteil des gefilterten Zuckers zurück ins Blut holt; Empagliflozin ist laut Fachinformation 5 000-mal selektiver für SGLT2 als für den Darm-Transporter SGLT1. Menschen mit Typ-2-Diabetes scheiden dadurch im Mittel etwa 78 g Glucose pro Tag aus, das senkt Blutzucker, Körperfett, Gewicht und Blutdruck, unabhängig von Insulin. Die zusätzliche Natriumausscheidung entlastet Herz und Nieren. Diskutiert wird außerdem, dass SGLT2-Hemmer Zellen in einen fastenähnlichen Zustand versetzen (Hypothese, Packer 2020); bei Mäusen verringerte SGLT2-Hemmung seneszente Zellen über eine bessere Immunabwehr (Katsuumi 2024).',
+    benefits: [
+      'Herzschwäche: weniger Verschlechterungen und kardiovaskuläre Todesfälle, 16,3 % gegenüber 21,2 % (DAPA-HF, RCT, 4744 Patienten, 2019) und 13,8 % gegenüber 17,1 % bei erhaltener Pumpfunktion (EMPEROR-Preserved, 5988 Patienten, 2021), mit und ohne Diabetes',
+      'Nierenschutz: Fortschreiten der Nierenerkrankung -37 %, auch bei 15.605 Teilnehmenden ohne Diabetes (Meta-Analyse, 13 RCTs, 90.409 Teilnehmende, Lancet 2022)',
+      'Geringere Sterblichkeit bei Hochrisiko-Patienten: Tod jeder Ursache 5,7 % gegenüber 8,3 % (EMPA-REG OUTCOME, 7020 Menschen mit Typ-2-Diabetes, 2015); HR 0,92 in der Meta-Analyse von 5 Herzinsuffizienz-Studien mit 21.947 Teilnehmenden (2022)',
+      'Etwas weniger Gewicht und Fett: -1,93 kg gegenüber Placebo nach 24 Wochen (Empagliflozin, Fachinformation); Meta-Analyse 18 Studien: -2,73 kg, Fettmasse -1,16 kg (Typ-2-Diabetes, 2022)',
+      'Hinweise auf Alterungseffekte: seltenere Demenz, HR 0,65 (Kohorte, 110.885 Paare, BMJ 2024, beobachtend); bei Mäusen weniger seneszente Zellen (2024) und +5,9 % mediane Überlebenszeit männlicher Tiere unter Empagliflozin (Einzelstudie, 2024)'
+    ],
+    risks: [
+      'Keine Studien an gesunden Menschen: Lebensverlängerung nur bei Mäusen, im ITP bei Canagliflozin nur bei männlichen Tieren; Longevity-Nutzung ist Off-Label',
+      'Genitale Pilzinfektionen: Empagliflozin 10 mg 4,0 % gegenüber 1,0 % unter Placebo, Dapagliflozin bei Frauen 8,4 % gegenüber 1,2 %; dazu Harnwegsinfekte',
+      'Ketoazidose, auch bei fast normalem Blutzucker und laut Fachinformation auch ohne Diabetes berichtet; Risiko bei eingeschränkter Nahrungsaufnahme, Fasten, Dehydratation, Operation und Alkohol',
+      'Flüssigkeitsmangel und Blutdruckabfall, besonders ab 75 Jahren und mit Diuretika; selten Fournier-Gangrän; Hämatokritanstieg',
+      'Muskelmasse: in einer Meta-Analyse -1,01 kg Skelettmuskelmasse, in Langzeitstudien fettfreie Masse nicht signifikant verändert; keine Daten zu Trainierenden',
+      'Nicht bei Typ-1-Diabetes, in Schwangerschaft und Stillzeit; mit Insulin oder Sulfonylharnstoffen erhöhtes Unterzuckerungsrisiko'
+    ],
+    status: 'Deutschland/EU: zugelassene, verschreibungspflichtige Arzneimittel, Dapagliflozin (Forxiga) seit 2012, Empagliflozin (Jardiance) seit 2014; Anwendungsgebiete Typ-2-Diabetes, chronische Herzinsuffizienz und chronische Nierenkrankheit. USA: beide seit 2014 zugelassen (Farxiga, Jardiance). Nutzung zur Longevity, zum Abnehmen oder zur Stoffwechseloptimierung ohne diese Diagnosen ist Off-Label. Die Herz- und Nierenstudien verwendeten 10 mg einmal täglich (Studienangabe, keine Empfehlung). Doping: auf der WADA-Verbotsliste 2026 nicht namentlich genannt. Canagliflozin hat einen eigenen Eintrag.',
+    sources: [
+      { title: 'Zinman et al. 2015, N Engl J Med – EMPA-REG OUTCOME, weniger kardiovaskuläre Todesfälle und Gesamtsterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/26378978/' },
+      { title: 'McMurray et al. 2019, N Engl J Med – DAPA-HF, Herzschwäche mit und ohne Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/31535829/' },
+      { title: 'Anker et al. 2021, N Engl J Med – EMPEROR-Preserved, Herzschwäche mit erhaltener Pumpfunktion', url: 'https://pubmed.ncbi.nlm.nih.gov/34449189/' },
+      { title: 'Heerspink et al. 2020, N Engl J Med – DAPA-CKD, Nierenschutz und geringere Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/32970396/' },
+      { title: 'EMPA-KIDNEY Collaborative Group 2023, N Engl J Med – Nierenschutz mit Empagliflozin', url: 'https://pubmed.ncbi.nlm.nih.gov/36331190/' },
+      { title: 'Wiviott et al. 2019, N Engl J Med – DECLARE-TIMI 58, keine MACE-Senkung, weniger Herzinsuffizienz', url: 'https://pubmed.ncbi.nlm.nih.gov/30415602/' },
+      { title: 'Nuffield Department of Population Health Renal Studies Group 2022, Lancet – Meta-Analyse, 13 Studien, 90.409 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/36351458/' },
+      { title: 'Shin et al. 2024, BMJ – geringeres Demenzrisiko, Kohortenstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/39197881/' },
+      { title: 'Katsuumi et al. 2024, Nat Aging – SGLT2-Hemmung und seneszente Zellen bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/38816549/' },
+      { title: 'EMA – Jardiance, Produktinformation (deutsch)', url: 'https://www.ema.europa.eu/de/documents/product-information/jardiance-epar-product-information_de.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'theacrin',
+    name: 'Theacrin (Teacrine)',
+    altNames: 'Teacrine, TeaCrine, 1,3,7,9-Tetramethylharnsäure, Tetramethyluric acid, Kucha-Tee-Alkaloid (Camellia assamica var. kucha)',
+    class: 'Koffeinähnliches Purin-Alkaloid (Methylurat) aus Kucha-Tee, Adenosin-Antagonist im Tierversuch; in der EU nicht als Lebensmittelzutat zugelassen',
+    emoji: '🍵',
+    short: 'Koffein-Verwandter aus dem chinesischen Kucha-Tee, der in kleinen Placebostudien das subjektive Energie- und Fokusgefühl hob und über 8 Wochen ohne Gewöhnung gut verträglich war; mit Koffein kombiniert teils kognitiv besser als mehr Koffein allein. Auf Kraft, Sprint und Ausdauer wirkte Theacrin allein in 4 von 5 Studien nicht, die Studien sind klein und oft herstellerfinanziert.',
+    moa: 'Theacrin (1,3,7,9-Tetramethylharnsäure) wird in Kucha-Blättern aus Koffein gebildet und ist strukturell dem Koffein ähnlich (Zheng 2002). Bei Ratten steigerte es die Bewegungsaktivität, hob die Dämpfung durch Adenosin-A1- und -A2A-Agonisten auf und wirkte teilweise über Dopamin-D1- und -D2-Rezeptoren im Nucleus accumbens, ohne Toleranz oder Sensibilisierung (Feduccia 2012). Mausstudien fanden dagegen sedierende Effekte mit verlängertem Non-REM-Schlaf (Xu 2007; Qiao 2017), die Tierdaten sind also uneinheitlich. Beim Menschen erreicht Theacrin die Spitzenkonzentration nach etwa 2 Stunden und hat eine Halbwertszeit von 16 bis 26 Stunden; Koffein erhöht seine Aufnahme (He 2017). Eine Rezeptorwirkung wurde am Menschen nicht gemessen.',
+    benefits: [
+      'Einzeldosis verbesserte subjektive Energie, Müdigkeit und Konzentration gegenüber Placebo, ohne Puls oder Blutdruck zu verändern (doppelblinde Crossover-Studie, 15 Gesunde, 2017, herstellernah).',
+      'Über 8 Wochen gut verträglich, alle Sicherheitsmarker im Normbereich, kein Hinweis auf Gewöhnung (RCT, 60 Gesunde, 2016, herstellerfinanziert).',
+      'Weniger Aussetzer im Wachsamkeitstest am Morgen nach Einnahme am Vortag, ohne signifikanten Effekt auf den Schlaf (Crossover-RCT, 22 Männer, 2024, ohne externe Finanzierung).',
+      'Kombination aus weniger Koffein plus Theacrin kognitiv mindestens so gut wie doppelt so viel Koffein allein (RCT, 20 Personen mit taktischem Training, 2025).',
+      'Längere Zeit bis zur Erschöpfung nach simuliertem Fußballspiel um 27 bis 38 %, knapp nicht signifikant (Crossover, 24 Fußballer, 2019).',
+      'Im Tierversuch anregend ohne Toleranzentwicklung (Ratten, 2012); antidepressiva-ähnliche Effekte in gestressten Mäusen (2021).'
+    ],
+    risks: [
+      'Kein Leistungseffekt von Theacrin allein bei Kraft, Mannschaftssport-Tests, Radzeitfahren und Kanusprint (4 kontrollierte Studien, 12 bis 22 Teilnehmer, 2019 bis 2025).',
+      'Höhere Studiendosen erhöhten Ruheblutdruck und Cortisol und verursachten Magen-Darm-Beschwerden, Herzrasen-Gefühl, Schwindel, Kopfschmerz und Zittern (2 Studien mit je 19 Personen, 2025 und 2026).',
+      'Alle Humanstudien klein, kurz (Einzeldosis bis 8 Wochen) und an Gesunden, mehrere vom Hersteller finanziert; Tierdaten widersprüchlich (anregend bei Ratten, sedierend bei Mäusen).',
+      'Koffein erhöht die aufgenommene Theacrin-Menge; lange Halbwertszeit von 16 bis 26 Stunden – späte Einnahme mit Bedacht.',
+      'Nicht untersucht in Schwangerschaft, Stillzeit, bei Kindern und Jugendlichen sowie bei Bluthochdruck, Herzrhythmusstörungen oder Angststörungen.'
+    ],
+    status: 'EU/DE: kein Eintrag im Novel-Food-Statuskatalog und nicht in der Unionsliste, also nicht als Lebensmittelzutat zugelassen; Schweden meldete Theacrin 2020 und 2021 dreimal im RASFF als Novel Food in Nahrungsergänzungsmitteln, keine deutsche Meldung gefunden. Das oft beigemischte Methylliberin ist laut Katalog nicht zugelassenes Novel Food. Kein Arzneimittel, nicht verschreibungspflichtig, nicht im BtMG. USA: als Zutat von Nahrungsergänzungsmitteln im Handel. WADA-Liste 2026: nicht genannt, Anti-Doping-Status laut Analyse von 2025 unklar; Koffein nur im Monitoring-Programm.',
+    sources: [
+      { title: 'Taylor et al. 2016, J Int Soc Sports Nutr – 8 Wochen Sicherheit, 60 Gesunde, keine Gewöhnung', url: 'https://pubmed.ncbi.nlm.nih.gov/26766930/' },
+      { title: 'Ziegenfuss et al. 2017, J Diet Suppl – Energie, Müdigkeit und Konzentration nach Einzeldosis', url: 'https://pubmed.ncbi.nlm.nih.gov/27164220/' },
+      { title: 'He et al. 2017, J Caffeine Adenosine Res – Wechselwirkung mit Koffein, Kinetik', url: 'https://pubmed.ncbi.nlm.nih.gov/28875060/' },
+      { title: 'Feduccia et al. 2012, Pharmacol Biochem Behav – Adenosin- und Dopaminwirkung bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/22579816/' },
+      { title: 'Cesareo et al. 2019, J Int Soc Sports Nutr – kein Effekt auf Kraft und Ausdauer', url: 'https://pubmed.ncbi.nlm.nih.gov/31660991/' },
+      { title: 'Bello et al. 2019, J Int Soc Sports Nutr – Fußball-Simulation, Ausdauer-Tendenz', url: 'https://pubmed.ncbi.nlm.nih.gov/30999897/' },
+      { title: 'Gardiner et al. 2024, Sci Rep – Wachsamkeit am Folgetag, Schlaf unverändert', url: 'https://pubmed.ncbi.nlm.nih.gov/39562624/' },
+      { title: 'Vieira-Cavalcante et al. 2025, Appl Physiol Nutr Metab – kein Effekt im Radzeitfahren, Nebenwirkungen', url: 'https://pubmed.ncbi.nlm.nih.gov/40048726/' },
+      { title: 'Lints et al. 2025, J Int Soc Sports Nutr – Koffein plus Theacrin und Kognition', url: 'https://pubmed.ncbi.nlm.nih.gov/40693646/' },
+      { title: 'RASFF 2020.2471 – Schweden: Theacrin als Novel Food in Nahrungsergänzungsmitteln', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/429933' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Teacrine")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
   }
 ];
 
@@ -4869,6 +4993,7 @@ const _EXP_CAT_MAP = {
   'cagrilintide': 'Stoffwechsel',
   'slu-pp-332': 'Exercise',
   'aicar': 'Exercise',
+  'sglt2-hemmer': 'Longevity',
   'yohimbin': 'Stoffwechsel', 'benfotiamin': 'Stoffwechsel', 'telmisartan': 'Longevity', 'anabole-steroide': 'Exercise', 'epo': 'Exercise', 'clenbuterol': 'Stoffwechsel', 'dnp': 'Stoffwechsel',
   'bam15': 'Stoffwechsel', 'pregnenolon': 'Longevity',
   'turkesterone': 'Exercise', 's23': 'Exercise', 'nmnh': 'Longevity',
