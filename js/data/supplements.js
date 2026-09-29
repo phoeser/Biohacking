@@ -3080,6 +3080,216 @@ const SUPPLEMENTS = [
     evidence: 'mittel',
     sources: 'Keine Lebensmittelquellen; Früchte der Sägepalme Serenoa repens',
     link: 'https://pubmed.ncbi.nlm.nih.gov/37345871/'
+  },
+  {
+    id: 'astragalus',
+    name: 'Astragalus & Cycloastragenol (TA-65)',
+    altNames: 'Astragalus membranaceus, Astragalus mongholicus, Tragant-Wurzel, Huang Qi, Radix Astragali, Cycloastragenol, TA-65, TA-65MD, Astragaloside',
+    category: 'Adaptogen',
+    tags: ['anti-aging', 'longevity', 'immun'],
+    short: 'Wurzel aus der traditionellen chinesischen Medizin, deren Inhaltsstoff Cycloastragenol (als TA-65 vermarktet) die Telomerase aktiviert und in einer RCT die Telomere in Blutzellen verlängerte. Ob daraus mehr Gesundheit oder ein längeres Leben wird, ist offen; reines Cycloastragenol ist in der EU ein noch nicht zugelassenes neuartiges Lebensmittel.',
+    description: 'Astragalus ist die getrocknete Wurzel von Astragalus membranaceus, laut Cochrane eines der meistverwendeten Kräuter der traditionellen chinesischen Medizin, mit Astragalosiden und Polysacchariden als Hauptinhaltsstoffen. Der Inhaltsstoff Cycloastragenol aktiviert in Zellen und bei Mäusen die Telomerase und verlängert kritisch kurze Telomere; weibliche Mäuse hatten danach bessere Zuckerwerte, Knochen und Haut, lebten aber nicht länger. In einer doppelblinden Studie mit 117 Menschen verlängerten sich die Telomere unter der niedrigen TA-65-Dosis über 12 Monate um 530 Basenpaare, unter Placebo verkürzten sie sich um 290. Eine Meta-Analyse von 8 RCTs bestätigt längere Telomere, findet aber keine Verbesserung bei Gebrechlichkeit oder Entzündung; die meisten Studien finanzierte der Hersteller. Die Wurzel selbst zeigt in überwiegend kleinen chinesischen Studien günstige Immun- und Nierenwerte bei niedriger Studienqualität.',
+    benefits: [
+      'Längere Telomere in Blutzellen: +530 bp unter der niedrigen TA-65-Dosis gegenüber -290 bp unter Placebo (doppelblinde RCT, 117 Teilnehmende, 12 Monate, 2016, herstellerfinanziert); Meta-Analyse 8 RCTs, 750 Teilnehmende: SMD 0,47 (2025)',
+      'Nach Herzinfarkt mehr Lymphozyten (+285 Zellen/µl) und hsCRP 62 % niedriger; primärer Endpunkt (gealterte CD8-Zellen) allerdings verfehlt (RCT, 90 Patienten über 65, 12 Monate, 2023)',
+      'Telomerase-Aktivierung telomeraseabhängig gezeigt: bessere Funktion menschlicher Abwehrzellen im Labor (2008), bei Mäusen längere kurze Telomere, bessere Glukosetoleranz, Knochen und Haut ohne mehr Krebs (2011)',
+      'Wurzel: weniger entzündungsfördernde Zytokine, mehr CD3-Zellen (Meta-Analyse, 19 Studien, 1094 Teilnehmende, starke Heterogenität); bei Nierenerkrankung Proteinurie -0,53 g/24 h (Cochrane, 22 Studien, 1323 Teilnehmende, niedrige Qualität)',
+      'Kleine RCTs mit günstigen Surrogatwerten: Makula-Empfindlichkeit +0,97 dB (38 Patienten, 1 Jahr), höheres HDL und niedrigeres TNF-alpha beim metabolischen Syndrom (40 Patienten, Crossover, 2 × 12 Wochen)'
+    ],
+    risks: [
+      'Cycloastragenol (≥ 98 %) und damit TA-65 ist in der EU ein noch nicht zugelassenes neuartiges Lebensmittel (Novel-Food-Katalog, 2026); legal als NEM sind nur Wurzel und alkoholische Wurzelextrakte',
+      'Theoretisches Krebsrisiko: Telomerase ist in den meisten Tumoren reaktiv; Langzeitdaten fehlen, Studien schlossen Menschen mit Krebs in der Vorgeschichte aus',
+      'Längere Telomere ohne belegten Gesundheitsgewinn: keine Besserung von Gebrechlichkeit und Entzündung in der Meta-Analyse, keine Lebensverlängerung bei Mäusen; überwiegend herstellerfinanzierte Studien mit größeren Effekten',
+      'Leichte Magen-Darm-Beschwerden bei 12,4 % unter TA-65 (Meta-Analyse, 12 Monate)',
+      'Bei Autoimmunerkrankungen meiden, mögliche Wechselwirkung mit Immunsuppressiva; nicht in Schwangerschaft und Stillzeit (WHO, NCCIH)'
+    ],
+    dosage: 'Nur für die Wurzel: Die WHO-Monografie (1999) nennt nach dem chinesischen Arzneibuch 9 bis 30 g getrocknete Wurzel pro Tag oral; nach dem NCCIH scheinen bis zu 60 g pro Tag über bis zu 4 Monate keine Nebenwirkungen zu verursachen. Die klinischen Wurzelstudien verwendeten sehr unterschiedliche Zubereitungen, eine einheitliche Studiendosis gibt es nicht. Amtliche Referenzwerte oder Höchstmengen für Nahrungsergänzungsmittel existieren nicht. Für Cycloastragenol und TA-65 nennen wir keine Mengen, weil reines Cycloastragenol in der EU ein nicht zugelassenes neuartiges Lebensmittel ist. Das sind Monografie- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'Traditionell als Abkochung der getrockneten Wurzel, heute meist als Pulver oder Extrakt in Kapseln; die Studien liefen über Wochen bis 12 Monate.',
+    synergies: ['ginseng', 'reishi'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Getrocknete Astragalus-Wurzel (Radix Astragali, Huang Qi); als Tee oder Abkochung, in üblichen Lebensmitteln sonst kaum enthalten',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26950204/'
+  },
+  {
+    id: 'beta-glucan',
+    name: 'Beta-Glucan',
+    altNames: 'β-Glucan, Hafer-Beta-Glucan, Gersten-Beta-Glucan, Haferkleie, Hefe-Beta-Glucan, Beta-1,3/1,6-Glucan, Wellmune, Yestimun, Lentinan',
+    category: 'Probiotika',
+    tags: ['cholesterin', 'herz', 'blutzucker', 'immun', 'darm'],
+    short: 'Beta-Glucan aus Hafer und Gerste senkt das LDL-Cholesterin, belegt in Dutzenden RCTs und von der EU als Gesundheitsangabe zugelassen. Hefe- und Pilz-Glucane werden fürs Immunsystem beworben, dort sind die Studien kleiner und uneinheitlich.',
+    description: 'Beta-Glucane sind unverdauliche Zuckerketten aus Zellwänden von Getreide, Hefe und Pilzen, und die Quelle entscheidet über die Wirkung. Lösliches Beta-Glucan aus Hafer und Gerste macht den Speisebrei zähflüssig, bindet Gallensäuren und senkt so das LDL-Cholesterin: in Meta-Analysen um 0,19 bis 0,25 mmol/l bei mindestens 3 g pro Tag. Mit einer Mahlzeit gegessen, dämpft es außerdem den Blutzuckeranstieg; für beides gibt es zugelassene EU-Angaben. Die Wirkung hängt an langen Ketten: Niedermolekulares Beta-Glucan wirkte nur halb so stark, und isolierte Extrakte schnitten schlechter ab als ganzer Hafer. Hefe-Beta-Glucan zeigte in einer Meta-Analyse von 13 Studien weniger Atemwegsinfekte, die Studien sind aber klein und heterogen.',
+    benefits: [
+      'LDL-Cholesterin -0,25 mmol/l mit mindestens 3 g Hafer-Beta-Glucan pro Tag (Meta-Analyse, 28 RCTs, 2 bis 12 Wochen, Whitehead 2014); -0,19 mmol/l in der größten Auswertung (58 RCTs, 3.974 Teilnehmende, Ho 2016)',
+      'Gersten-Beta-Glucan senkt LDL um 0,25 mmol/l (Meta-Analyse, 14 RCTs, 615 Teilnehmende, Ho 2016); EFSA bestätigt Ursache-Wirkungs-Beziehung ab 3 g pro Tag',
+      'Dämpft den Blutzuckeranstieg nach Mahlzeiten (zugelassene EU-Angabe ab 4 g pro 30 g verfügbare Kohlenhydrate); bei Typ-2-Diabetes HbA1c -0,21 Prozentpunkte (Meta-Analyse, 4 Studien, 350 Patienten, Shen 2016)',
+      'Hefe-Beta-Glucan: weniger Atemwegsinfekte, OR 0,345 (Meta-Analyse, 13 RCTs, Zhong 2021), aber hohe Heterogenität; größte Einzelstudie mit 299 Teilnehmenden nur mildere Symptome in der ersten Infektwoche (Dharsono 2019)',
+      'Mechanismus am Menschen gezeigt: native Haferkleie steigerte die Gallensäureausscheidung um 144 % (Crossover, 9 Teilnehmende, Ellegård 2007)'
+    ],
+    risks: [
+      'Blähungen und weicher Stuhl möglich, vor allem zu Beginn; in einer Studie mit 3,5 g pro Tag 3 Abbrüche wegen Durchfall (Mysonhimer 2022)',
+      'Wirkung produktabhängig: niedermolekulares Beta-Glucan halb so wirksam (Wolever 2010), isolierte Extrakte ohne Effekt auf Blutzucker (He 2016)',
+      'Immunwirkung nicht als EU-Angabe zugelassen; EFSA lehnte 2010 eine Immunangabe für ein Hefe-Glucan ab',
+      'Nur Surrogatmarker (LDL) untersucht, keine Studien zu Herzinfarkt oder Sterblichkeit mit Beta-Glucan',
+      'Belastbare Humandaten zu Wechselwirkungen mit Medikamenten fehlen; Cholesterinsenker nicht eigenmächtig ersetzen'
+    ],
+    dosage: 'Die EU-Angaben nennen 3 g Beta-Glucan aus Hafer oder Gerste pro Tag für den Cholesterinspiegel (mindestens 1 g pro Portion) und mindestens 4 g pro 30 g verfügbare Kohlenhydrate für den geringeren Blutzuckeranstieg nach einer Mahlzeit. Studien zu Hafer verwendeten 3,0 bis 12,4 g pro Tag über 2 bis 12 Wochen (Median 3,5 g), zu Gerste im Median 6,5 bis 6,9 g pro Tag. Hefe-Beta-Glucan wurde mit 250 mg pro Tag über 90 Tage und 900 mg pro Tag über 16 Wochen untersucht; die EFSA bewertete es für Nahrungsergänzungsmittel bis 375 mg pro Tag als sicher. Höchstmengen von BfR oder DGE gibt es nicht.',
+    intake: 'Hafer-Beta-Glucan am besten mit den Mahlzeiten und über den Tag verteilt, bevorzugt als Haferkleie oder Hafer, da lange, lösliche Ketten entscheidend sind. Langsam steigern und ausreichend trinken.',
+    synergies: ['omega-3', 'citrus-bergamot', 'praebiotika'],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Haferkleie, Haferflocken, Gerste; Backhefe; Speisepilze wie Shiitake',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27724985/'
+  },
+  {
+    id: 'egcg',
+    name: 'Grüntee-Extrakt (EGCG)',
+    altNames: 'Epigallocatechingallat, Epigallocatechin-3-gallat, EGCG, Grüntee-Catechine, Green Tea Extract, GTE, Camellia sinensis, Polyphenon E, Teavigo',
+    category: 'Antioxidant',
+    tags: ['anti-oxidant', 'herz', 'cholesterin', 'blutdruck', 'fettverbrennung'],
+    short: 'Grüntee-Extrakt senkt LDL-Cholesterin und Blutdruck leicht und steigert den Energieverbrauch ein wenig, beim Abnehmen fand Cochrane außerhalb Japans aber keinen relevanten Effekt. Ab 800 mg EGCG pro Tag stiegen die Leberwerte, deshalb gilt in der EU seit 2022 eine Obergrenze mit Warnhinweisen.',
+    description: 'EGCG ist das häufigste Catechin im grünen Tee; Extrakte konzentrieren es, oft entkoffeiniert, hochgereinigtes EGCG mit mindestens 90 % ist ein eigenes zugelassenes Novel Food. Meta-Analysen zeigen kleine Effekte auf Blutfette (31 RCTs, LDL -4,55 mg/dl) und Blutdruck (13 Studien, -2,08/-1,71 mmHg); in der Stoffwechselkammer stieg der Energieverbrauch mit EGCG plus Koffein um 4 %. Beim Gewicht bleibt der Effekt klein und hängt am Koffein, eine große Jahresstudie verfehlte ihren Krebsvorsorge-Endpunkt, und im Interventions Testing Program verlängerte Grüntee-Extrakt das Mäuseleben nicht. Die EFSA fand 2018 ab 800 mg EGCG pro Tag erhöhte Leberwerte und konnte für Extrakte keine sichere Dosis benennen. Die EU-Verordnung 2022/2340 begrenzt die Tagesportion daher auf unter 800 mg EGCG und schreibt Warnhinweise vor; die Extrakte stehen zusätzlich unter Unionsprüfung.',
+    benefits: [
+      'LDL-Cholesterin -4,55 mg/dl, Gesamtcholesterin -4,66 mg/dl (Meta-Analyse, 31 RCTs, 3.321 Teilnehmende, Xu 2020); HDL und Triglyceride unverändert',
+      'Blutdruck -2,08 mmHg systolisch und -1,71 mmHg diastolisch, stärker bei Extrakt und erhöhtem Ausgangswert (Meta-Analyse, 13 Studien, Khalesi 2014)',
+      '24-Stunden-Energieverbrauch +4 % mit EGCG plus Koffein, Koffein allein ohne Effekt (Stoffwechselkammer, 10 Männer, Dulloo 1999)',
+      'Grüner Tee als Getränk: 5 oder mehr Tassen pro Tag mit geringerer Gesamtsterblichkeit verbunden, HR 0,77 bei Frauen, 0,88 bei Männern (Kohorte, 40.530 Teilnehmende, Kuriyama 2006; Tee, nicht Extrakt)',
+      'Sicherheit gut untersucht: Jahres-RCT mit 1.075 Frauen und 843 mg EGCG pro Tag, Nebenwirkungen insgesamt nicht häufiger als unter Placebo (Dostal 2015)'
+    ],
+    risks: [
+      'Leber: ALT-Anstieg bei 6,7 % gegenüber 0,7 % unter 843 mg EGCG pro Tag über 1 Jahr (Dostal 2015); LiverTox Likelihood score A, mehr als 100 Fälle, auch tödliches Leberversagen',
+      'EFSA 2018: keine sichere Dosis für Extrakte bestimmbar; Fallberichte ab 140 mg EGCG pro Tag (USP 2020); nüchterne Einnahme als Einmalgabe erhöht die Blutspiegel deutlich',
+      'Nicht für Schwangere, Stillende und unter 18-Jährige, nicht nüchtern, nicht zusammen mit anderen Grüntee-Produkten am selben Tag (EU-Pflichthinweise)',
+      'Wechselwirkungen: Grüntee senkte die Blutspiegel des Betablockers Nadolol um 85 % (Misaka 2014)',
+      'Abnehmen: Cochrane außerhalb Japans -0,04 kg, nicht signifikant (Jurgens 2012)'
+    ],
+    dosage: 'Studien verwendeten 843 mg EGCG pro Tag über 12 Monate (Minnesota Green Tea Trial), 800 mg einmal oder 400 mg zweimal täglich über 4 Wochen (Chow 2003) und 90 mg EGCG mit 50 mg Koffein zu jeder Mahlzeit (Dulloo 1999). Rechtlich gilt in der EU seit VO 2022/2340: Eine Tagesportion muss weniger als 800 mg EGCG aus Grüntee-Extrakt enthalten, der EGCG-Gehalt je Portion muss angegeben sein. Die EFSA konnte für Extrakte keine sichere Dosis bestimmen; unter 800 mg EGCG pro Tag fand sie in Studien bis 12 Monate keine Lebertoxizität, aber einen Einzelproduktfall bei 375 mg. Zum Vergleich: Grüner Tee als Getränk liefert im Schnitt 90 bis 300 mg EGCG pro Tag.',
+    intake: 'Immer zu einer Mahlzeit und nicht als große Einzelgabe, nie auf nüchternen Magen. Am selben Tag keine weiteren Grüntee-Produkte; bei Lebererkrankungen, Schwangerschaft, Stillzeit und unter 18 Jahren nicht verwenden.',
+    synergies: ['koffein', 'l-theanin'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Grüner Tee (Camellia sinensis) als Aufguss, im Schnitt 90 bis 300 mg EGCG pro Tag bei üblichem Konsum in der EU',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32625874/'
+  },
+  {
+    id: 'forskolin',
+    name: 'Forskolin (Coleus forskohlii)',
+    altNames: 'Coleus forskohlii, Plectranthus forskohlii, Plectranthus barbatus, Indische Buntnessel, Buntnessel, Colforsin, ForsLean, Forcslim',
+    category: 'Kräuter',
+    tags: ['fettverbrennung', 'stoffwechsel', 'blutzucker'],
+    short: 'Wurzelextrakt der Indischen Buntnessel, dessen Wirkstoff Forskolin im Labor den Botenstoff cAMP anschaltet; in einer kleinen Studie sank bei übergewichtigen Männern die Fettmasse und das freie Testosteron stieg. Andere kleine Studien fanden keinen Gewichtsverlust, alle dauerten höchstens 12 Wochen.',
+    description: 'Forskolin ist ein Diterpen aus der Wurzel von Coleus forskohlii, einer Pflanze der ayurvedischen Medizin; die Extrakte sind meist auf 10 Prozent Forskolin eingestellt. Im Labor aktiviert es die Adenylatcyclase direkt und erhöht den Botenstoff cAMP, der in Fettzellen den Fettabbau antreibt; ein wasserlösliches Derivat, Colforsin-Daropat, wird in Japan bei akuter Herzinsuffizienz eingesetzt. In einer RCT mit 30 übergewichtigen Männern sanken über 12 Wochen Fettmasse und Körperfettanteil stärker als unter Placebo, das Körpergewicht blieb gleich. Bei 23 Frauen gab es keinen Gewichtsverlust, bei 30 Erwachsenen unter Diät keinen Gewichtsunterschied, aber bessere Insulinwerte, und eine quasi-randomisierte Studie mit 60 Übergewichtigen fand 1,93 kg weniger als unter Placebo. Wie viel Forskolin nach oraler Einnahme im Körper ankommt, ist kaum untersucht; der Extrakt aktiviert in Tierversuchen Leberenzyme, die Medikamente abbauen.',
+    benefits: [
+      'Weniger Fettmasse und Körperfettanteil, mehr Knochenmasse und freies Testosteron, Körpergewicht unverändert (RCT, 30 übergewichtige Männer, 12 Wochen, 250 mg 10-%-Extrakt zweimal täglich, Godard 2005) – klein, nicht repliziert',
+      'Gewicht −1,93 kg und Taille −1,83 cm gegenüber Placebo (quasi-randomisierte Doppelblindstudie, 60 Übergewichtige, 12 Wochen, Channangihalli Thimmegowda 2026) – Herstellerpräparat',
+      'Nüchterninsulin 9,6 → 6,1 mU/l unter Extrakt vs. 6,8 → 8,5 mU/l unter Placebo, HOMA-IR verbessert, kein Gewichtsunterschied (RCT, 30 Erwachsene mit Diät, 12 Wochen, Loftus 2015)',
+      'Weniger Hunger, Gewichtszunahme tendenziell gebremst, kein Gewichtsverlust (RCT, 23 Frauen, 12 Wochen, Henderson 2005, teilweise vom Hersteller finanziert)',
+      'Wirkprinzip gut beschrieben: direkte Aktivierung der Adenylatcyclase (Seamon 1981); Derivat Colforsin-Daropat in Japan bei akuter Herzinsuffizienz im Einsatz'
+    ],
+    risks: [
+      'Durchfall häufigste Nebenwirkung, dosisabhängig: 10,5 % der Nutzer in einer japanischen Befragung mit Nebenwirkungen, 81,3 % davon Durchfall (Nishijima 2019)',
+      'Wechselwirkungen: Forskolin aktiviert PXR und induziert CYP3A (Ding 2005), CYP3A4-mRNA 3,9-fach in humanisierten Mäusen (Adachi 2024); in Mäusen abgeschwächte Warfarin-Wirkung (Yokotani 2012)',
+      'Dosisabhängige Leberschäden durch den Extrakt in Mäusen, nicht durch reines Forskolin (Virgona 2013) – beim Menschen in Studien bis 12 Wochen keine auffälligen Leberwerte',
+      'Studienlage klein und widersprüchlich: 4 RCTs mit 23 bis 60 Teilnehmenden, höchstens 12 Wochen, keine Meta-Analyse',
+      'Keine Daten zu Schwangerschaft und Stillzeit'
+    ],
+    dosage: 'Die Studien zum Körpergewicht verwendeten 250 mg eines auf 10 % Forskolin standardisierten Extrakts zweimal täglich über 12 Wochen; die Asthma-Studien 10 mg Forskolin pro Tag über 2 bis 6 Monate. Eine japanische Befragung schätzte weniger als 250 mg Extrakt pro Tag als sicher bezüglich Durchfall, 500 mg pro Tag als vermutlich akzeptabel. Höchstmengen oder Referenzwerte von EFSA, BfR oder DGE gibt es nicht, da Forskolin kein Nährstoff ist. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In einer Studie 30 Minuten vor den Hauptmahlzeiten, zweimal täglich. Bei Einnahme von Medikamenten, besonders Gerinnungshemmern, vorher ärztlich abklären.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Keine Lebensmittelquellen; Wurzel der Indischen Buntnessel (Coleus forskohlii)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/16129715/'
+  },
+  {
+    id: 'l-tryptophan',
+    name: 'L-Tryptophan',
+    altNames: 'Tryptophan, Trp, essenzielle Aminosäure, Serotonin-Vorstufe',
+    category: 'Aminosäure',
+    tags: ['schlaf', 'stimmung', 'entspannung'],
+    short: 'Essenzielle Aminosäure und Rohstoff für Serotonin und Melatonin, in Deutschland als rezeptfreies Arzneimittel zur Erleichterung des Einschlafens zugelassen. Eine Meta-Analyse zeigt eine kürzere Wachzeit in der Nacht, doch die Schlafstudien sind meist klein und alt, und bei der Stimmung ist das Bild gemischt.',
+    description: 'L-Tryptophan kommt in allen eiweißhaltigen Lebensmitteln vor; mit der normalen Ernährung nimmt man etwa 0,5 bis 2 g pro Tag auf, und aus 60 mg Tryptophan bildet der Körper etwa 1 mg Niacin. Ins Gehirn gelangt es über einen Transporter, den es sich mit anderen großen neutralen Aminosäuren teilt; steigt Tryptophan im Blut, steigen Aufnahme und Serotoninbildung. Eine Meta-Analyse aus 4 Studien fand eine kürzere Wachzeit nach dem Einschlafen, deutlicher ab 1 g, und bei der prämenstruellen dysphorischen Störung besserten 6 g pro Tag in der zweiten Zyklushälfte die Stimmung um 34,5 gegenüber 10,4 Prozent unter Placebo. Die übrigen Schlafstudien stammen überwiegend aus den Jahren 1979 bis 1987 und widersprechen sich teilweise, bei Gesunden fanden 4 von 11 Stimmungsstudien einen Effekt. Wichtigste Einschränkung ist das Risiko eines Serotonin-Syndroms zusammen mit Antidepressiva.',
+    benefits: [
+      'Kürzere Wachzeit nach dem Einschlafen, mit mindestens 1 g deutlicher als mit weniger (Meta-Analyse aus 4 Studien, Sutanto 2022); andere Schlafparameter unverändert',
+      '1 g verkürzte die Einschlafzeit bei leichten Schlafstörungen (Laborstudie, 15 Personen, Hartmann 1979); in Deutschland als Arzneimittel zur Erleichterung des Einschlafens zugelassen',
+      'Prämenstruelle dysphorische Störung: Stimmungsbeschwerden um 34,5 Prozent gebessert gegenüber 10,4 Prozent unter Placebo (RCT, 37 gegen 34 Frauen, 3 Zyklen, Steinberg 1999)',
+      'Stimmung bei Gesunden: 4 von 11 RCTs mit weniger negativen und mehr positiven Gefühlen (systematische Übersicht, Kikuchi 2021) – uneinheitlich',
+      'Kurzzeitig gut verträglich: bis 5 g pro Tag über je 21 Tage ohne Nebenwirkungen (Crossover-RCT, 17 gesunde Frauen, Hiratsuka 2013)'
+    ],
+    risks: [
+      'Serotonin-Syndrom mit MAO-Hemmern, Serotonin-Wiederaufnahmehemmern und bestimmten Appetitzüglern; Vorsicht bei Lithium, trizyklischen Antidepressiva, Dextromethorphan; Levodopa-Wirkung kann nachlassen (Kalma-Gebrauchsinformation)',
+      'Schwindel, Kopfschmerzen, Müdigkeit am nächsten Morgen, Lichtempfindlichkeit; Reaktionsvermögen und Fahrtüchtigkeit können eingeschränkt sein',
+      'Nicht bei schweren Leber- oder Nierenerkrankungen, nicht in Schwangerschaft und Stillzeit, nicht für Kinder und Jugendliche',
+      'Historisch: 1.531 Fälle von Eosinophilie-Myalgie-Syndrom mit 27 Todesfällen in den USA bis Juli 1990 durch verunreinigtes Tryptophan eines Herstellers (Swygert 1990; Kilbourne 1996) – daher Reinheit nach Europäischem Arzneibuch verlangt',
+      'Keine kontrollierten Langzeitdaten; Schlafstudien klein, alt und teils widersprüchlich'
+    ],
+    dosage: 'Studien verwendeten beim Schlaf 1 g (Hartmann 1979) bis 2 g (Demisch 1987) am Abend; die Meta-Analyse fand ab 1 g deutlichere Effekte. In Stimmungsstudien mit Gesunden wurden 0,14 bis 3 g pro Tag genutzt, bei prämenstrueller Dysphorie 6 g pro Tag in der zweiten Zyklushälfte; bis 5 g pro Tag über 21 Tage blieben ohne Nebenwirkungen. Das zugelassene Arzneimittel sieht 1 g pro Tag vor, nach ärztlicher Rücksprache bis 2 g, 20 bis 30 Minuten vor dem Schlafengehen und mit ärztlicher Prüfung nach 3 bis 4 Wochen. Für Nahrungsergänzungen hat das BVL 2014 eine Tagesmenge von höchstens 500 mg festgelegt. Die normale Ernährung liefert etwa 0,5 bis 2 g pro Tag; eine Höchstmenge von EFSA oder BfR gibt es nicht.',
+    intake: 'In den Schlafstudien und laut Gebrauchsinformation am Abend, kurz vor dem Schlafengehen. Wer Antidepressiva oder andere Psychopharmaka nimmt, klärt die Einnahme vorher ärztlich.',
+    synergies: [],
+    avoid: ['5-htp'],
+    evidence: 'mittel',
+    sources: 'Alle eiweißhaltigen Lebensmittel; besonders reich ist das Molkenprotein Alpha-Lactalbumin',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33942088/'
+  },
+  {
+    id: 'moenchspfeffer',
+    name: 'Mönchspfeffer (Vitex agnus-castus)',
+    altNames: 'Vitex agnus-castus, Keuschlamm, Keuschlammfrüchte, Chasteberry, Agni casti fructus, Ze 440, BNO 1095',
+    category: 'Kräuter',
+    tags: ['hormone', 'frauen', 'stimmung'],
+    short: 'Früchte eines Mittelmeerstrauchs, eines der am besten untersuchten Pflanzenmittel beim prämenstruellen Syndrom: In doppelblinden Studien halbierten sich die Beschwerden deutlich häufiger als unter Placebo, auch bei zyklischen Brustschmerzen zeigt sich ein Effekt. Viele Studien sind methodisch schwach, und die Ergebnisse gelten für bestimmte Extrakte.',
+    description: 'Mönchspfeffer (Vitex agnus-castus) wird aus den getrockneten Früchten gewonnen; in Deutschland gibt es ihn als rezeptfreies pflanzliches Arzneimittel für Zyklusunregelmäßigkeiten, prämenstruelle Beschwerden und Brustspannen und als Nahrungsergänzung. Diterpene aus dem Extrakt aktivieren im Zellmodell Dopamin-D2-Rezeptoren und sollen so die Prolaktinausschüttung bremsen; die EMA nennt den Wirkmechanismus aber unbekannt. In einer BMJ-Studie mit 170 Frauen halbierten sich die PMS-Beschwerden bei 52 Prozent unter Mönchspfeffer und bei 24 Prozent unter Placebo, eine strenge Meta-Analyse mit 520 Frauen fand eine 2,57-fach höhere Chance auf Besserung. Die EMA erkennt einen Extrakt beim prämenstruellen Syndrom als anerkannte medizinische Verwendung an. Die breiteren Meta-Analysen zeigen aber sehr uneinheitliche Ergebnisse und Hinweise auf Publikationsbias, und Nahrungsergänzungen haben keine standardisierte Zusammensetzung.',
+    benefits: [
+      'Prämenstruelles Syndrom: Beschwerden halbiert bei 52 Prozent gegenüber 24 Prozent unter Placebo (doppelblinde RCT, 170 Frauen, 3 Zyklen, Schellenberg 2001); strenge Meta-Analyse aus 3 Studien mit 520 Frauen: RR 2,57 für Remission (Csupor 2019)',
+      'Mittelschweres bis schweres PMS: Tagebuch-Score 29,23 auf 6,41 unter Mönchspfeffer gegenüber 28,14 auf 12,64 unter Placebo (RCT, 217 Frauen, China, He 2009)',
+      'Zyklische Brustschmerzen: mittlerer Effekt gegenüber Placebo, SMD 0,67 (Meta-Analyse aus 6 Studien, 718 Frauen, Ooi 2020); in Deutschland zugelassenes Anwendungsgebiet',
+      'Dosis-Wirkungs-Beziehung: 20 mg Ze 440 besser als Placebo und 8 mg, 30 mg ohne Zusatznutzen (RCT, 162 Frauen, Schellenberg 2012)',
+      'Latent erhöhtes Prolaktin: geringere Prolaktinfreisetzung und normalisierte zweite Zyklushälfte in einer kleinen RCT (37 ausgewertete Frauen, Milewicz 1993)'
+    ],
+    risks: [
+      'Datenqualität: breite Meta-Analyse mit sehr hoher Heterogenität (I² 91 %) und Hinweisen auf Publikationsbias (Verkaik 2017); von 21 Studien erfüllten nur 3 die Kriterien für sauber beschriebene Präparate (Csupor 2019)',
+      'Nebenwirkungen meist mild: Übelkeit, Bauchschmerzen, Kopfschmerzen, Schwindel, Akne, Hautausschlag, Zyklusveränderungen; selten schwere allergische Reaktionen (EMA-Monografie, Daniele 2005)',
+      'Ärztliche Rücksprache bei östrogenempfindlichen Krebserkrankungen, Hypophysenerkrankungen und bei Dopaminagonisten, Dopamin-Antagonisten, Östrogenen oder Antiöstrogenen; kann Symptome eines prolaktinbildenden Tumors verschleiern (EMA)',
+      'Nicht in Schwangerschaft und Stillzeit, nicht unter 18 Jahren (EMA); kann durch Zyklusregulierung die Chance auf eine Schwangerschaft erhöhen',
+      'Nahrungsergänzungen ohne standardisierte Zusammensetzung; Studienergebnisse gelten für Spezialextrakte wie Ze 440 und BNO 1095'
+    ],
+    dosage: 'Die EU-Monografie der EMA nennt für den als anerkannte medizinische Verwendung eingestuften Trockenextrakt 20 mg einmal täglich über 3 Monate, für traditionelle Trockenextrakte zum Beispiel 4 mg oder 2 bis 3 mg einmal täglich. Studien verwendeten 20 mg Ze 440 über 3 Zyklen (8 mg waren zu schwach, 30 mg brachten keinen Zusatznutzen) und BNO 1095 entsprechend 40 mg Droge; in Studien zu Brustschmerzen waren 20 bis 40 mg pro Tag über 3 Monate typisch. Als pharmakologisch wirksam gelten laut Kommission E 30 bis 40 mg Droge pro Tag (BVL-Stoffliste). Höchstmengen oder Referenzwerte von EFSA, BfR oder DGE gibt es nicht, da Mönchspfeffer kein Nährstoff ist.',
+    intake: 'In den Studien einmal täglich, durchgehend über mindestens 3 Zyklen, auch während der Regel. Neue Brustschmerzen oder Zyklusstörungen vorher ärztlich abklären lassen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Keine Lebensmittelquellen; getrocknete Früchte des Mönchspfeffers (Vitex agnus-castus)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31780016/'
+  },
+  {
+    id: 'synephrin',
+    name: 'Synephrin (Bitterorange)',
+    altNames: 'p-Synephrin, Oxedrin, Sympatol, Bitterorange, Pomeranze, Citrus aurantium, Bitter Orange Extract, Advantra Z',
+    category: 'Stimulans',
+    tags: ['fettverbrennung', 'stoffwechsel', 'sport'],
+    short: 'Wirkstoff der Bitterorange, der beim Ausdauersport in mehreren kleinen Studien die Fettverbrennung steigerte, ohne Puls oder Energieverbrauch zu erhöhen. Ein Gewichtsverlust über Wochen ist nicht belegt, und nach 8 Wochen stieg der Blutdruck, besonders zusammen mit Koffein ist Vorsicht geboten.',
+    description: 'p-Synephrin ist ein Pflanzenstoff aus unreifen Früchten und Schalen der Bitterorange (Citrus aurantium), chemisch verwandt mit Adrenalin und Ephedrin; auch Orangen und Mandarinen enthalten es. Es wirkt vor allem über Alpha-1- und Beta-3-Adrenozeptoren und gelangt schlechter ins Gehirn als Ephedrin. In doppelblinden Crossover-Studien mit einer Einzeldosis von 3 mg/kg stieg die maximale Fettverbrennung beim Radfahren von 0,29 auf 0,40 g pro Minute, ohne mehr Energieverbrauch. Die Meta-Analyse von 2022 mit 18 Studien fand aber keinen Gewichtsverlust und nach 8 Wochen einen um 6,37 mmHg höheren systolischen Blutdruck. Das BfR warnt, dass sich Synephrin und Koffein in ihrer Herz-Kreislauf-Wirkung verstärken können; die Expertenkommission von BVL und BfArM empfiehlt höchstens etwa 21 mg pro Tag aus allen Lebensmitteln.',
+    benefits: [
+      'Mehr Fettverbrennung beim Ausdauersport: maximale Fettoxidation 0,29 → 0,40 g/min, Energieverbrauch unverändert (doppelblinde Crossover-RCT, 18 Gesunde, Einzeldosis 3 mg/kg, Gutiérrez-Hellín 2016)',
+      'Bestätigt in weiteren kleinen RCTs derselben Arbeitsgruppe: 37,3 statt 33,6 g Fett in 1 Stunde Radfahren (14 Gesunde, 2020), auch bei 15 Elite-Radsportlern (2021) – Puls jeweils unverändert',
+      'Einzeldosen ohne Koffein oft ohne messbaren Effekt auf Puls, EKG und Blutdruck (18 Gesunde, 49 mg, Shara 2016; 46,9 mg, Haller 2005) – industrienahe Studien, nicht alle Studien einheitlich',
+      'Ruheumsatz 65 kcal höher als unter Placebo nach 50 mg (RCT, 10 Personen pro Gruppe, Stohs 2011, Autoren mit Herstellerbezug)',
+      'Mehr Wiederholungen beim Kniebeugen, 6,0 % mehr als unter Placebo (Crossover, 12 Männer, 100 mg, Ratamess 2015) – Einzelbefund; Sprinter liefen nicht schneller'
+    ],
+    risks: [
+      'Kein Gewichtsverlust belegt: Meta-Analyse, 3 Studien, 6 bis 8 Wochen, 0,60 kg Unterschied, nicht signifikant (Koncz 2022); kein Zusatznutzen in 8 Wochen Krafttraining mit 20 mg (80 Männer, Jung 2017)',
+      'Blutdruck nach 8 Wochen systolisch +6,37 und diastolisch +4,33 mmHg (2 Studien, 75 Teilnehmende, 10 bis 49 mg pro Tag, Koncz 2022); nach 900 mg Extrakt einmalig bis 7,3 mmHg systolisch höher (15 Gesunde, Bui 2006)',
+      'Synephrin und Koffein können sich in ihrer Wirkung auf Herzfrequenz, Rhythmus und Blutdruck verstärken (BfR 2012); 30 Fallberichte mit 35 Patienten, u. a. Herzinfarkt, Rhythmusstörungen, Schlaganfall, meist Mischprodukte mit Koffein (de Jonge 2023)',
+      'Laut BfR nicht geeignet bei Bluthochdruck, Übergewicht oder Herz-Kreislauf-Erkrankungen, nicht für Schwangere, Stillende und Kinder; Vorsicht bei intensivem Sport',
+      'Wechselwirkungen: Bitterorangenextrakt hemmt CYP3A4; mögliche Interaktion mit MAO-Hemmern; Warnhinweise in Kanada auch für Blutdruck- und Schilddrüsenmedikamente und Sympathomimetika'
+    ],
+    dosage: 'Studien verwendeten Einzeldosen von 3 mg/kg Körpergewicht (Fettoxidation beim Sport), 46,9 bis 100 mg p-Synephrin einmalig oder über wenige Tage und 10 bis 54 mg pro Tag über 6 bis 8 Wochen; die Meta-Analyse umfasst Tagesdosen von 6 bis 214 mg. Amtliche Richtwerte: Das BfR empfiehlt aus Nahrungsergänzungsmitteln höchstens etwa 6,7 mg Synephrin pro Tag, die Gemeinsame Expertenkommission von BVL und BfArM höchstens etwa 21 mg pro Tag aus allen Lebensmitteln einschließlich Nahrungsergänzungsmitteln; Frankreich (ANSES) 20 mg, Health Canada 50 mg ohne Koffein oder 40 mg mit höchstens 320 mg Koffein. Eine gesetzliche Höchstmenge gibt es in Deutschland nicht. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'Nicht mit Koffein oder anderen Stimulanzien kombinieren und nicht zusätzlich zu weiteren synephrinhaltigen Produkten nehmen (BfR, Expertenkommission). Bei Bluthochdruck, Herzerkrankung oder Medikamenteneinnahme vorher ärztlich abklären.',
+    synergies: [],
+    avoid: ['koffein'],
+    evidence: 'niedrig',
+    sources: 'Bitterorange (Pomeranze), in kleinen Mengen auch Orangen, Mandarinen, Clementinen und deren Saft; Orangensaft enthält 3 bis 85 mg pro Kilogramm',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/36235672/'
   }
 ];
 
