@@ -139,6 +139,46 @@ https://biohackingkompakt.de/thema/adipotide.html
 
 Ein hochexperimentelles „Fett-weg"-Peptid, das die Blutversorgung des Fettgewebes kappt – im Tiermodell drastischer Fettverlust, aber mit ernsten Sicherheitsfragen.
 
+## Betain-HCl (Betainhydrochlorid)
+https://biohackingkompakt.de/thema/betain-hcl.html
+
+Salz, das im Magen Salzsäure freisetzt: 1500 mg senkten den Magen-pH bei künstlichem Säuremangel innerhalb von Minuten von 5,2 auf 0,6, für gut eine Stunde. Ob das Verdauungsbeschwerden lindert, hat noch keine kontrollierte Studie geprüft; mit Mahlzeit wirkt die gleiche Menge deutlich schwächer.
+
+## DMG (N,N-Dimethylglycin)
+https://biohackingkompakt.de/thema/dmg.html
+
+Körpereigenes Zwischenprodukt des Betain-Stoffwechsels, gut verträglich bis 12 Monate; eine doppelblinde Studie mit 20 Freiwilligen fand 1981 eine vierfach stärkere Impfantwort. Placebokontrollierte Studien zu Autismus, Epilepsie, MS, Sportleistung und Mitochondrienkrankheit fanden keinen Effekt, sie waren allerdings klein.
+
+## Gamma-Butyrobetain (GBB)
+https://biohackingkompakt.de/thema/gamma-butyrobetain.html
+
+Direkte Vorstufe von L-Carnitin, die beim Menschen die Carnitinbildung in einer Studie von 1989 deutlich stärker steigerte als andere Vorstufen. Eine kontrollierte Studie zu Fettabbau oder Leistung gibt es nicht, und bei Gefäßpatienten gehen hohe GBB-Blutwerte mit schlechterer Prognose einher.
+
+## L-Ornithin
+https://biohackingkompakt.de/thema/l-ornithin.html
+
+Aminosäure des Harnstoffzyklus, mit dem die Leber Ammoniak entgiftet; kleine Placebo-Studien zeigen bei Gesunden weniger empfundene Müdigkeit und besseren Schlaf. Als L-Ornithin-L-Aspartat ist sie in Deutschland ein Arzneimittel bei Leberzirrhose – mit möglichem Nutzen, aber sehr niedriger Evidenzqualität.
+
+## Leucin
+https://biohackingkompakt.de/thema/leucin.html
+
+Essenzielle, verzweigtkettige Aminosäure und am Menschen gut belegter Auslöser der Muskelproteinsynthese über mTORC1. Über Monate allein genommen brachte Leucin in Studien aber weder mehr Muskelmasse noch mehr Kraft – messbare Effekte zeigen vor allem Kombinationen mit Protein und Vitamin D.
+
+## MSM (Methylsulfonylmethan)
+https://biohackingkompakt.de/thema/msm.html
+
+Kleine Schwefelverbindung, die in mehreren kleinen Studien Knieschmerzen und Beweglichkeit bei Arthrose leicht verbessert hat und dabei sehr gut verträglich war. Die Effekte sind klein, eine Meta-Analyse und das größte Einzel-RCT fanden keinen signifikanten Nutzen, für Haut, Haare und Allergien gibt es nur einzelne herstellernahe Studien.
+
+## OPC / Kiefernrindenextrakt (Pycnogenol)
+https://biohackingkompakt.de/thema/opc.html
+
+Pflanzenstoffe aus Kiefernrinde und Traubenkernen, die in Studien die Gefäßfunktion verbessert und Blutdruck, Blutzucker und LDL leicht gesenkt haben, mit positiven Signalen auch bei Venenbeschwerden und ADHS. Die Studien sind aber klein, Cochrane bewertet die Datenlage durchgehend als sehr unsicher, und die Blutdruck-Meta-Analysen widersprechen sich.
+
+## Tulsi (Heiliges Basilikum)
+https://biohackingkompakt.de/thema/tulsi.html
+
+Ayurvedisches Adaptogen, das in einer doppelblinden Studie mit 100 gestressten Erwachsenen den wahrgenommenen Stress über 8 Wochen um 37 Prozent senkte, unter Placebo um 19 Prozent. Die übrigen Studien sind klein, kurz und oft von geringer Qualität, die besten Stressstudien stammen vom selben Extrakthersteller.
+
 ## Ärztliche Leistungen
 https://biohackingkompakt.de/thema/aerztliche-leistungen.html
 

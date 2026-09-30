@@ -5017,6 +5017,84 @@ const EXPERIMENTAL = [
     ],
     podcasts: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'dmg',
+    name: 'DMG (N,N-Dimethylglycin)',
+    altNames: 'N,N-Dimethylglycin, Dimethylglycine, DMG-HCl, DMG-Natriumsalz, DMG-Na, Pangamsäure, Vitamin B15 (historisch, kein Vitamin)',
+    class: 'Körpereigenes Glycin-Derivat aus dem Betain-Stoffwechsel; als Nahrungsergänzung angeboten, Novel-Food-Status in der EU ungeklärt',
+    emoji: '🧪',
+    short: 'Körpereigenes Zwischenprodukt des Betain-Stoffwechsels, gut verträglich bis 12 Monate; eine doppelblinde Studie mit 20 Freiwilligen fand 1981 eine vierfach stärkere Impfantwort. Placebokontrollierte Studien zu Autismus, Epilepsie, MS, Sportleistung und Mitochondrienkrankheit fanden keinen Effekt, sie waren allerdings klein.',
+    moa: 'DMG entsteht, wenn Betain über die Betain-Homocystein-Methyltransferase (BHMT) eine Methylgruppe an Homocystein abgibt, und bremst dieses Enzym als Rückkopplung (McGregor 2001). In den Mitochondrien baut die folat- und flavinabhängige Dimethylglycin-Dehydrogenase DMG zu Sarkosin und weiter zu Glycin ab; ein angeborener Defekt führt zu stark erhöhtem DMG, Muskelmüdigkeit und Fischgeruch (Binzak 2001). Beworben wird eine bessere Sauerstoffnutzung und Radikalfängerwirkung: Das Natriumsalz wirkt im Reagenzglas und bei Mäusen antioxidativ (Bai 2016), am Menschen änderte DMG den Sauerstoffverbrauch nicht (Liet 2003). In Mäusen wirkt DMG an der Glycin-Bindungsstelle des NMDA-Rezeptors und antidepressiva-ähnlich (Lin 2016).',
+    benefits: [
+      'Vierfach stärkere Antikörperantwort auf Pneumokokken-Impfung, höhere zelluläre Immunreaktion (doppelblind, 20 Freiwillige, Graber 1981) – nie wiederholt; mehr als vierfache Impfantwort bei Kaninchen (Reap 1990)',
+      'Gut verträglich über 12 Monate mit 125 mg pro Tag, Nebenwirkungen wie Placebo (RCT, 30 MS-Patienten, Wolfsegger 2021); keine Toxizität mit bis zu 600 mg pro Tag über 28 Tage (RCT, 19 Epilepsie-Patienten, Gascon 1989)',
+      'Äußerlich als Natriumsalz mit Koffein im Shampoo weniger Haarausfall im Zupftest: −2,8 vs. 0,6 Haare (RCT, 154 Männer, 24 Wochen, Celleno 2025, herstellerfinanziert) – betrifft nicht die Einnahme',
+      'Antioxidativ im Reagenzglas und bei Mäusen (Bai 2016); antidepressiva-ähnlich bei Mäusen über den NMDA-Rezeptor (Lin 2016)'
+    ],
+    risks: [
+      'Hauptversprechen nicht bestätigt: kein Effekt bei Autismus (RCT, 37 Kinder, 4 Wochen, Kern 2001; Crossover, 8 Personen, Bolman 1999), Epilepsie (19 Personen, Gascon 1989), progredienter MS (30 Personen, 12 Monate, Wolfsegger 2021), Laufbandleistung (16 Athleten, Pangamsäure, Gray 1982)',
+      'Alle Humanstudien klein (5 bis 37 Teilnehmende) und meist nur Wochen lang; keine systematischen Langzeit-Sicherheitsdaten, keine Daten zu Schwangerschaft und Stillzeit',
+      'Hohe körpereigene DMG-Spiegel gehen mit mehr Herzinfarkten einher, HR 1,95 (Kohorte, 4150 Patienten, Svingen 2013) – Beobachtung, zur Einnahme nicht untersucht',
+      'DMG hemmt die BHMT, einen Abbauweg für Homocystein (McGregor 2001); Wirkung der Einnahme auf Homocystein nicht gemessen',
+      'Bei Autismus oder Epilepsie kein Ersatz für eine wirksame Behandlung'
+    ],
+    status: 'EU/DE: kein Eintrag im Novel-Food-Statuskatalog, also weder als nicht neuartig eingestuft noch als neuartiges Lebensmittel zugelassen; eine Verwendung als Lebensmittel in der EU vor 1997 wurde nicht belegt gefunden, der Status ist damit ungeklärt. Wird dennoch über deutsche Versandapotheken als Nahrungsergänzung angeboten; keine RASFF-Meldung. Kein Arzneimittel, nicht verschreibungspflichtig, nicht verboten. DMG-Natriumsalz ist in der EU als Futtermittelzusatz für Masthühner zugelassen. USA: seit 1974 als Nahrungsergänzung vermarktet; die FDA sah 1978 keine Belege für die Versprechen der Pangamsäure. WADA-Liste 2026: nicht genannt.',
+    sources: [
+      { title: 'Graber et al. 1981, J Infect Dis – vierfach stärkere Impfantwort, 20 Freiwillige', url: 'https://pubmed.ncbi.nlm.nih.gov/6163829/' },
+      { title: 'Kern et al. 2001, J Child Neurol – Autismus, 37 Kinder, kein Unterschied zu Placebo', url: 'https://pubmed.ncbi.nlm.nih.gov/11305684/' },
+      { title: 'Gascon et al. 1989, Epilepsia – Epilepsie, 19 Patienten, keine Wirkung auf Anfälle', url: 'https://pubmed.ncbi.nlm.nih.gov/2463912/' },
+      { title: 'Wolfsegger et al. 2021, Neurol Res Pract – progrediente MS, 12 Monate, kein Effekt, gut verträglich', url: 'https://pubmed.ncbi.nlm.nih.gov/34024278/' },
+      { title: 'Gray und Titlow 1982, Med Sci Sports Exerc – Pangamsäure, keine Leistungssteigerung', url: 'https://pubmed.ncbi.nlm.nih.gov/7162387/' },
+      { title: 'Liet et al. 2003, J Pediatr – Sauerstoffverbrauch bei COX-Mangel unverändert', url: 'https://pubmed.ncbi.nlm.nih.gov/12520257/' },
+      { title: 'McGregor et al. 2001, Kidney Int – DMG hemmt die BHMT, Zusammenhang mit Homocystein', url: 'https://pubmed.ncbi.nlm.nih.gov/11380830/' },
+      { title: 'Svingen et al. 2013, Arterioscler Thromb Vasc Biol – Plasma-DMG und Herzinfarktrisiko', url: 'https://pubmed.ncbi.nlm.nih.gov/23723367/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „DMG")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'gamma-butyrobetain',
+    name: 'Gamma-Butyrobetain (GBB)',
+    altNames: 'GBB, γ-Butyrobetain, gamma-Butyrobetaine, 4-(Trimethylammonio)butanoat, Deoxycarnitin, GBB-Ethylester, GBB-HCl, Carnitin-Vorstufe',
+    class: 'Letzte Vorstufe der körpereigenen Carnitinsynthese, als isolierter Stoff in der EU nicht zugelassen',
+    emoji: '🔥',
+    short: 'Direkte Vorstufe von L-Carnitin, die beim Menschen die Carnitinbildung in einer Studie von 1989 deutlich stärker steigerte als andere Vorstufen. Eine kontrollierte Studie zu Fettabbau oder Leistung gibt es nicht, und bei Gefäßpatienten gehen hohe GBB-Blutwerte mit schlechterer Prognose einher.',
+    moa: 'GBB entsteht im Körper aus Bausteinen der Aminosäure Lysin und wird vom Enzym GBB-Hydroxylase (BBOX1) zu L-Carnitin umgebaut, beim Menschen unter anderem in der Niere (Rebouche & Engel 1980). Ein genetischer Ausfall von BBOX1 führt zu Carnitinmangel mit erhöhtem GBB (Li 2025). Darmbakterien bilden aus Nahrungscarnitin ebenfalls GBB und bauen es weiter zu TMA und TMAO ab (Koeth 2014, Maus). Meldonium ist ein Strukturanalogon von GBB, hemmt die GBB-Hydroxylase und den Carnitin-Transporter OCTN2 und lässt GBB ansteigen, bei Gesunden über 4 Wochen etwa auf das Doppelte (Liepinsh 2011). Die in Produkten verbreiteten GBB-Ester sind pharmakologisch etwas anderes: Der Methylester wirkt bei Ratten acetylcholinartig an muskarinischen Rezeptoren, GBB selbst nicht (Dambrova 2004).',
+    benefits: [
+      'Stärkere Carnitinbildung als andere Vorstufen: GBB zu carnitinarmer Kost über 10 Tage (Mensch, unkontrollierte Fütterungsstudie, Rebouche 1989) – einzige Humanstudie zur Einnahme',
+      'Hob bei Ratten nach einer Einzelgabe das Gewebe-Carnitin ebenso stark wie die gleiche Menge L-Carnitin (Tierstudie, Sandor 1991)',
+      'Bei Mäusen mit Carnitin-Transporter-Defekt Plasma-Carnitin etwa doppelt so hoch wie der Kontrollwert, Leberfettsäuren normalisiert; bei gesunden Mäusen kaum Effekt (Tierstudie, Higashi 2001)',
+      'Mehr GBB im Gefäßgewebe schwächte bei Ratten die durch hohe Glukose ausgelöste Endothelfunktionsstörung ab (Vilskersts 2013); unter Meldonium stieg GBB im Rattenherz 7-fach, die Herzschutzwirkung hing mit dem Anstieg zusammen (Liepinsh 2006) – indirekte Tierdaten',
+      'Physiologische Bedeutung am Menschen bestätigt: Ausfall des Enzyms BBOX1 führt zu Carnitinmangel mit erhöhtem GBB (3 Patienten aus 2 Familien, Li 2025)'
+    ],
+    risks: [
+      'Keine randomisierte, placebokontrollierte Studie am Menschen; keine Daten zu Fettabbau, Energieverbrauch oder Leistung, keine registrierte Studie bei ClinicalTrials.gov (Abfrage 30.09.2026)',
+      'TMAO-Achse: GBB wird von Darmbakterien zu TMA und TMAO umgebaut und beschleunigte bei Mäusen die Atherosklerose (Koeth 2014)',
+      'Hohe GBB-Blutwerte bei Gefäßpatienten mit schlechterer Prognose verbunden: kardiovaskulärer Tod HR 3,3 (264 Patienten, Skagen 2016), schwere Beinereignisse HR 1,93 (395 Patienten, Chen 2025) – Beobachtungsdaten, nicht kausal',
+      'In Produkten meist als Ester: Der Methylester wirkt bei Ratten acetylcholinartig und senkt den Blutdruck (Dambrova 2004); das in der Szene beschriebene starke Schwitzen ist am Menschen nicht untersucht',
+      'Keine Sicherheitsdaten zu Langzeiteinnahme, Schwangerschaft, Stillzeit, Kindern und Wechselwirkungen; keine amtlichen Obergrenzen'
+    ],
+    status: 'In der EU weder Arzneimittel noch zugelassenes neuartiges Lebensmittel: kein Eintrag im Novel-Food-Katalog und in der Unionsliste (Abfrage 30.09.2026); ein nennenswerter Verzehr vor dem 15.05.1997 ist nicht belegt, daher nach unserer Einschätzung als Nahrungsergänzung in DE nicht verkehrsfähig (VO (EU) 2015/2283). USA: in Sportprodukten im Handel (Händlerangaben). Doping: GBB steht nicht namentlich auf der WADA-Liste 2026; das Strukturanalogon Meldonium ist seit 2016 verboten (S4.4.3, jederzeit).',
+    sources: [
+      { title: 'Rebouche et al. 1989, J Nutr – GBB steigert beim Menschen die Carnitinbildung stärker als andere Vorstufen (10 Tage, unkontrolliert)', url: 'https://pubmed.ncbi.nlm.nih.gov/2516120/' },
+      { title: 'Rebouche & Engel 1980, J Biol Chem – Carnitinsynthese aus GBB in der menschlichen Niere', url: 'https://pubmed.ncbi.nlm.nih.gov/6773946/' },
+      { title: 'Sandor 1991, Biochim Biophys Acta – GBB hebt Carnitin bei Ratten so stark wie L-Carnitin', url: 'https://pubmed.ncbi.nlm.nih.gov/2036448/' },
+      { title: 'Li et al. 2025, NPJ Genom Med – BBOX1-Defekt: Carnitinmangel und erhöhtes GBB', url: 'https://pubmed.ncbi.nlm.nih.gov/41022783/' },
+      { title: 'Koeth et al. 2014, Cell Metab – GBB als proatherogenes Zwischenprodukt auf dem Weg zu TMAO (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/25440057/' },
+      { title: 'Skagen et al. 2016, Atherosclerosis – GBB im Serum und kardiovaskulärer Tod (264 Patienten)', url: 'https://pubmed.ncbi.nlm.nih.gov/26868510/' },
+      { title: 'Chen et al. 2025, J Am Heart Assoc – GBB und schwere Beinereignisse bei pAVK (395 Patienten)', url: 'https://pubmed.ncbi.nlm.nih.gov/40820985/' },
+      { title: 'Dambrova et al. 2004, Naunyn Schmiedebergs Arch Pharmacol – GBB-Methylester, nicht GBB, wirkt muskarinisch', url: 'https://pubmed.ncbi.nlm.nih.gov/15060760/' },
+      { title: 'Liepinsh et al. 2011, J Pharm Pharmacol – Meldonium senkt Carnitin um 18 % und verdoppelt GBB bei Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/21827492/' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Gamma-Butyrobetain")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
   }
 ];
 
@@ -5031,6 +5109,8 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'dmg': 'Exercise',
+  'gamma-butyrobetain': 'Stoffwechsel',
   'retatrutide': 'Stoffwechsel',
   'tesofensin': 'Stoffwechsel',
   'semaglutide': 'Stoffwechsel',

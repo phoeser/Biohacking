@@ -3308,6 +3308,185 @@ const SUPPLEMENTS = [
     evidence: 'niedrig',
     sources: 'Bitterorange (Pomeranze), in kleinen Mengen auch Orangen, Mandarinen, Clementinen und deren Saft; Orangensaft enthält 3 bis 85 mg pro Kilogramm',
     link: 'https://pubmed.ncbi.nlm.nih.gov/36235672/'
+  },
+  {
+    id: 'betain-hcl',
+    name: 'Betain-HCl (Betainhydrochlorid)',
+    altNames: 'Betainhydrochlorid, Betaine HCl, Betaine hydrochloride, BHCl, Betain-HCl mit Pepsin, Magensäure-Ergänzung',
+    category: 'Aminosäure',
+    tags: ['verdauung', 'darm'],
+    short: 'Salz, das im Magen Salzsäure freisetzt: 1500 mg senkten den Magen-pH bei künstlichem Säuremangel innerhalb von Minuten von 5,2 auf 0,6, für gut eine Stunde. Ob das Verdauungsbeschwerden lindert, hat noch keine kontrollierte Studie geprüft; mit Mahlzeit wirkt die gleiche Menge deutlich schwächer.',
+    description: 'Betain-HCl ist das Hydrochlorid von Betain und zerfällt im Magen in Betain und Salzsäure; 1500 mg liefern 9,7 mmol Säure. Es wird als Ergänzung bei zu wenig Magensäure genommen, etwa bei autoimmuner Gastritis oder gegen Völlegefühl nach eiweißreichem Essen, und ist klar von TMG zu unterscheiden, das Betain ohne Säure enthält. In einer Pilotstudie mit 6 Gesunden unter dem Säureblocker Rabeprazol sank der Magen-pH nach 1500 mg von 5,2 auf 0,6, unter 3 nach 6,3 Minuten, für 73 Minuten; nüchtern stellte Betain-HCl die durch den Säureblocker verlorene Aufnahme des Krebsmittels Dasatinib vollständig wieder her. Mit Mahlzeit reichte die gleiche Menge nicht: Bei Atazanavir kamen nur 12 % der verlorenen Aufnahme zurück, nach einem Frühstück verkürzten erst 4500 mg die Säuerungszeit. Randomisierte Studien zu Beschwerden, Eiweißverdauung oder Nährstoffaufnahme fehlen; Fachübersichten von 2022 und 2024 empfehlen einen Therapieversuch bei autoimmuner Gastritis.',
+    benefits: [
+      'Senkt den Magen-pH schnell und stark: 5,2 → 0,6, pH unter 3 nach 6,3 Minuten, anhaltend 73 Minuten (Pilotstudie ohne Kontrollgruppe, 6 Gesunde mit Säureblocker, 1500 mg einmalig, Yago 2013)',
+      'Hebt nüchtern den Effekt eines Säureblockers auf die Aufnahme von Dasatinib vollständig auf: AUC 121 % der Kontrolle (randomisiertes Crossover, 10 Teilnehmende laut Register, Yago 2014)',
+      'Plausibler Ersatz bei fehlender eigener Magensäure (autoimmune Gastritis); zwei Fachübersichten empfehlen einen Therapieversuch, kontrollierte Studien fehlen (Gomez Cifuentes 2022, Taylor 2024)',
+      'Einzelfall: 76-jähriger Patient nach Speiseröhren-OP mit weniger Übelkeit und Gewichtszunahme unter 500 mg Betain-HCl mit Pepsin, Rückfall beim Absetzen (Fallbericht, Amidon 2024)'
+    ],
+    risks: [
+      'Mit Mahlzeit deutlich schwächer: bei Atazanavir nur 12 % der verlorenen Aufnahme zurück (8 Personen, Faber 2017); nach Frühstück wirkten erst 4500 mg, nicht 1500 oder 3000 mg (9 Personen, Surofchy 2019)',
+      'Nicht bei Magen- oder Zwölffingerdarmgeschwüren; vorher ausschließen, besonders bei H. pylori oder NSAR-Einnahme (Taylor 2024); in einer Beobachtung mit Säure-Pepsin-Präparat brachen 27 von 97 Patienten ab, meist wegen Magen-Darm-Beschwerden',
+      'Verändert die Aufnahme von Medikamenten mit pH-abhängiger Löslichkeit und arbeitet gegen verordnete Säureblocker',
+      'Liefert auch Betain: EFSA hält 400 mg Betain pro Tag zusätzlich zur Nahrung für sicher, bei 4 g pro Tag stieg bei metabolischem Syndrom das LDL; nicht mit TMG verwechseln',
+      'Nur Einzeldosis-Studien mit 6 bis 10 Gesunden, keine Langzeitdaten, keine Daten zu Schwangerschaft und Stillzeit'
+    ],
+    dosage: 'Die Studien verwendeten Einzeldosen von 1500 mg nüchtern (Yago 2013, 2014) sowie 1500, 3000 und 4500 mg 15 Minuten nach einem Frühstück (Surofchy 2019); im Fallbericht 500 mg mit 23,5 mg Pepsin vor eiweißhaltigen Mahlzeiten. Kapseln im Handel enthalten 500 bis 750 mg. Amtliche Referenzwerte oder Höchstmengen für Betain-HCl von EFSA, BfR oder DGE gibt es nicht; für neuartiges Betain hält die EFSA 400 mg pro Tag zusätzlich zur Nahrung für sicher. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'Zu oder unmittelbar vor eiweißhaltigen Mahlzeiten, als Kapsel und nicht offen, weil die Säure sonst Zähne und Speiseröhre reizt. Bei Brennen oder Magenschmerzen absetzen; bei Säureblockern oder anderen Dauermedikamenten vorher ärztlich abklären.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Keine Lebensmittelquelle für Betain-HCl; Betain selbst steckt in Rüben, Spinat und Vollkorn',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23980906/'
+  },
+  {
+    id: 'l-ornithin',
+    name: 'L-Ornithin',
+    altNames: 'Ornithin, L-Ornithin-Hydrochlorid, L-Ornithin-L-Aspartat, LOLA, Ornithinaspartat',
+    category: 'Aminosäure',
+    tags: ['leber', 'schlaf', 'stress', 'energie', 'sport'],
+    short: 'Aminosäure des Harnstoffzyklus, mit dem die Leber Ammoniak entgiftet; kleine Placebo-Studien zeigen bei Gesunden weniger empfundene Müdigkeit und besseren Schlaf. Als L-Ornithin-L-Aspartat ist sie in Deutschland ein Arzneimittel bei Leberzirrhose – mit möglichem Nutzen, aber sehr niedriger Evidenzqualität.',
+    description: 'L-Ornithin wird nicht in Eiweiß eingebaut, sondern dient in der Leber als Ausgangsstoff und Aktivator des Harnstoffzyklus; in Lebensmitteln kommt es nur in kleinen Mengen vor. Als Nahrungsergänzung verbesserten 400 mg pro Tag über 8 Wochen bei 52 gestressten Berufstätigen Cortisol, Ärger und Schlafgefühl, und 1.600 mg über 7 Tage milderten bei 65 Gesunden Müdigkeit nach einem Stresstest – dort ohne Cortisol-Effekt. Die Verbindung L-Ornithin-L-Aspartat (LOLA) ist in Deutschland als apothekenpflichtiges Arzneimittel gegen die hepatische Enzephalopathie zugelassen; die Cochrane-Auswertung von 29 Studien mit 1.891 Patienten sieht weniger Enzephalopathie und Sterblichkeit, aber nur bei sehr niedriger Evidenzqualität. Laut Fachinformation ist Ornithin bei gesunder Leber nicht der begrenzende Faktor der Harnstoffbildung, und beim Sport senkte es das Ammoniak in einer kontrollierten Studie nicht. Eine Sicherheitsübersicht über 22 Studien schätzt den NOAEL auf 12 g pro Tag.',
+    benefits: [
+      'Stress und Schlaf: 400 mg pro Tag über 8 Wochen senkten Cortisol und Ärger und verbesserten die empfundene Schlafqualität (RCT, 52 Gesunde, Miyake 2014)',
+      'Weniger Müdigkeit und Ärger am Morgen nach einem sozialen Stresstest mit 1.600 mg über 7 Tage, Cortisol unverändert (RCT, 65 Gesunde, Moriyasu 2024)',
+      'Weniger empfundene Erschöpfung nach zweistündiger Ergometerbelastung (Crossover-RCT, 17 Gesunde, Sugino 2008)',
+      'L-Ornithin-L-Aspartat bei Leberzirrhose: seltener hepatische Enzephalopathie (RR 0,70; 22 Studien) und geringere Sterblichkeit (RR 0,42; 19 Studien) – Evidenz sehr niedriger Qualität (Cochrane 2018); als Arzneimittel zugelassen',
+      'Gut verträglich: 22 Studien bis 156 Tage, vor allem Magen-Darm-Beschwerden, geschätzter NOAEL 12 g pro Tag (Yang 2025)'
+    ],
+    risks: [
+      'Magen-Darm-Beschwerden wie Übelkeit, Blähungen und Durchfall; sehr selten Gliederschmerzen (Fachinformation Hepa-Merz)',
+      'Arzneimittel LOLA nicht bei stärkeren Nierenfunktionsstörungen; in Schwangerschaft und Stillzeit vermeiden; für Kinder keine Daten',
+      'Bei Leber- oder Nierenerkrankung nur nach ärztlicher Klärung – dort ist LOLA ein Arzneimittel mit Gegenanzeigen',
+      'Nicht in Eigenregie bei Gyratatrophie, einer seltenen Erbkrankheit mit ohnehin hohen Ornithinspiegeln',
+      'Studien bei Gesunden klein (17 bis 65 Teilnehmer), überwiegend subjektive Endpunkte; Ammoniak-Senkung beim Sport nicht bestätigt (Nagayama 2025)'
+    ],
+    dosage: 'Studien bei Gesunden verwendeten 400 mg pro Tag über 8 Wochen (Miyake 2014), 1.600 mg pro Tag über 7 Tage (Moriyasu 2024) und 2.000 mg pro Tag als Hydrochlorid über 7 Tage (Sugino 2008). In einer Verträglichkeitsstudie blieben bis 12 g Ornithin-Hydrochlorid pro Tag über 4 Wochen ohne behandlungsbedingte Nebenwirkungen, eine Sicherheitsübersicht schätzt den NOAEL auf 12 g pro Tag. Für Nahrungsergänzungen hat das BVL 2014 Kapseln mit höchstens 500 mg L-Ornithin bei 2 Kapseln pro Tag erlaubt. Das Arzneimittel mit L-Ornithin-L-Aspartat ist zugelassen mit bis zu 3-mal täglich 1 bis 2 Beuteln à 3,0 g, bei Lebererkrankung und nur ärztlich begleitet. Eine Höchstmenge von EFSA oder BfR ist nicht bekannt. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien täglich über Tage bis Wochen genommen, das Arzneimittel zu oder nach den Mahlzeiten. Bei Leber- oder Nierenerkrankung vorher ärztlich klären.',
+    synergies: ['l-arginin'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Vom Körper selbst gebildet; in Lebensmitteln nur in kleinen Mengen enthalten, auch Fleisch und Fisch sind nicht reich daran',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29762873/'
+  },
+  {
+    id: 'leucin',
+    name: 'Leucin',
+    altNames: 'L-Leucin, Leu, verzweigtkettige Aminosäure, BCAA, HMB (Stoffwechselprodukt)',
+    category: 'Aminosäure',
+    tags: ['muskel', 'sport', 'kraft', 'regeneration', 'alter'],
+    short: 'Essenzielle, verzweigtkettige Aminosäure und am Menschen gut belegter Auslöser der Muskelproteinsynthese über mTORC1. Über Monate allein genommen brachte Leucin in Studien aber weder mehr Muskelmasse noch mehr Kraft – messbare Effekte zeigen vor allem Kombinationen mit Protein und Vitamin D.',
+    description: 'Leucin ist eine der drei verzweigtkettigen Aminosäuren und steckt in allem Eiweiß; 25 g Whey liefern 3,0 g, die WHO setzt den Bedarf bei 39 mg pro Kilogramm Körpergewicht an. Es wirkt als Signal: Über mTORC1 schaltet es im Muskel die Proteinproduktion ein, in einer Tracer-Studie um 110 % mit 3,42 g. Bei Älteren hebt ein höherer Leucinanteil die gedämpfte Aufbauantwort wieder an, und 6,25 g Whey mit Leucin auf 5,0 g wirkten akut fast wie 25 g Whey. Isoliertes Leucin veränderte in einer Meta-Analyse aus 17 RCTs mit 1.418 Älteren aber weder Muskelmasse noch Kraft; Kombinationen mit Vitamin D verbesserten die Handkraft um 2,17 kg. Das Stoffwechselprodukt HMB brachte jungen Trainierenden in einer Meta-Analyse keine zusätzliche Muskelmasse. Das BfR nennt 4,0 g isoliertes Leucin pro Tag zusätzlich zur Nahrung als Orientierungswert.',
+    benefits: [
+      'Stößt die Muskelproteinsynthese an: +110 % mit 3,42 g Leucin (Tracer-Studie, Wilkinson 2013); Meta-Analyse über 9 RCTs bei Älteren bestätigt den Anstieg (Xu 2015)',
+      'Hebt bei Älteren die gedämpfte Aufbauantwort an: Aminosäuremischung mit 41 % statt 26 % Leucin wirkte, die normale nicht (Katsanos 2006)',
+      'Wertet kleine Proteinportionen auf: 6,25 g Whey mit Leucin auf 5,0 g wirkten akut fast wie 25 g Whey (RCT, 40 junge Männer, Churchward-Venne 2014)',
+      'Leucinreiche Protein- und Vitamin-D-Präparate verbessern bei Sarkopenie die Kraft (Meta-Analyse, 6 RCTs, 699 Teilnehmer, Lee 2022; Handkraft +2,17 kg mit Vitamin D, Guo 2022)',
+      'PROVIDE-Studie mit 380 sarkopenen Älteren: Trinknahrung aus Molkenprotein, Leucin und Vitamin D brachte über 13 Wochen 0,17 kg mehr Muskelmasse – primäre Endpunkte aber nicht erreicht'
+    ],
+    risks: [
+      'Isoliertes Leucin allein brachte über Monate keine Muskelmasse oder Kraft (Verhoeven 2009: 7,5 g pro Tag über 3 Monate; Meta-Analyse Guo 2022, 17 RCTs)',
+      'Sehr hohe Mengen erhöhen den Blutammoniakspiegel: über Normalwerten ab über 500 mg pro kg und Tag bei jungen Männern, ab 550 mg pro kg bei Älteren (Akutstudien, 5 bzw. 6 Personen)',
+      'BfR: Kinder, Jugendliche, Schwangere und Stillende sollen auf relevante isolierte BCAA-Mengen verzichten; bei eingeschränkter Nierenfunktion oder eiweißarmer Diät ärztliche Rücksprache',
+      'Nicht bei Ahornsirupkrankheit (angeborene Abbaustörung der verzweigtkettigen Aminosäuren) ohne ärztliche Führung',
+      'Keine Langzeitdaten zur isolierten Zufuhr; die BfR-Orientierungswerte stützen sich mangels Humandaten auf Tierstudien'
+    ],
+    dosage: 'Studien verwendeten 2,5 g zu jeder Hauptmahlzeit (7,5 g pro Tag über 3 Monate, Verhoeven 2009), 3,42 g als Einzelgabe (Wilkinson 2013), Aufstockung einer kleinen Proteinportion auf 5,0 g Leucin (Churchward-Venne 2014) und 5 g 3-mal täglich über 3 Tage (Churchward-Venne 2026). Die WHO nennt als Bedarf 39 mg pro Kilogramm Körpergewicht und Tag, die übliche Zufuhr liegt in den USA im Mittel bei 6,1 g pro Tag. Das BfR hält für Erwachsene 4,0 g isoliertes Leucin pro Tag zusätzlich zur Nahrung für tolerierbar (BCAA gesamt 8,2 g). Das BVL erlaubte 2013 Kapseln mit 600 mg L-Leucin pro Tag. Eine gesetzliche Höchstmenge gibt es nicht. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien zu den Mahlzeiten oder zusammen mit einer Proteinportion nach dem Training. Das BfR empfiehlt, verzweigtkettige Aminosäuren eher kombiniert als einzeln zu nehmen.',
+    synergies: ['whey', 'aminosaeuren', 'vitamin-d3'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Alle eiweißhaltigen Lebensmittel: Fleisch, Fisch, Eier, Milchprodukte, Hülsenfrüchte; Molkenprotein ist besonders reich (25 g Whey enthalten 3,0 g Leucin)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/35845777/'
+  },
+  {
+    id: 'msm',
+    name: 'MSM (Methylsulfonylmethan)',
+    altNames: 'Methylsulfonylmethan, Methylsulfonylmethane, Dimethylsulfon, Methylsulfon, organischer Schwefel, OptiMSM',
+    category: 'Longevity',
+    tags: ['gelenke', 'entzuendung', 'haut', 'haare', 'sport'],
+    short: 'Kleine Schwefelverbindung, die in mehreren kleinen Studien Knieschmerzen und Beweglichkeit bei Arthrose leicht verbessert hat und dabei sehr gut verträglich war. Die Effekte sind klein, eine Meta-Analyse und das größte Einzel-RCT fanden keinen signifikanten Nutzen, für Haut, Haare und Allergien gibt es nur einzelne herstellernahe Studien.',
+    description: 'MSM (Dimethylsulfon) kommt in Spuren in Obst, Gemüse, Kaffee, Tee und Milch vor und ist die oxidierte Form von DMSO. Es soll Entzündungen dämpfen (in Zellkultur Hemmung von NF-κB) und als Schwefelquelle für Kollagen und Keratin dienen, beim Menschen ist die Schwefelspender-Rolle aber nicht gezeigt. Bei Kniearthrose besserten sich Schmerz oder Funktion in kleinen RCTs über 12 Wochen (Kim 2006, 50 Patienten; Debbi 2011, 49 Patienten; Toguchi 2023, 88 Teilnehmende); die Übersicht von Liu 2018 fand einen statistisch signifikanten, klinisch aber unklaren Schmerzeffekt. Die Meta-Analyse von Brien 2011 blieb nicht signifikant, und bei 180 Rekruten verhinderten 3 g pro Tag keine Knieschmerzen (Tennent 2017). Viele Studien nutzen das Produkt eines Herstellers, der mehrere davon gesponsert oder mitverfasst hat. In der EU ist MSM in Nahrungsergänzungsmitteln nicht neuartig und damit verkehrsfähig; alle beantragten Health Claims wurden abgelehnt.',
+    benefits: [
+      'Kniearthrose: WOMAC-Schmerz und Funktion mit 6 g pro Tag über 12 Wochen signifikant besser als Placebo (Pilot-RCT, 50 Patienten, Kim 2006)',
+      'Kniearthrose: WOMAC-Funktion 14,6 mm und Gesamtscore 15,0 mm besser, Schmerz knapp nicht signifikant (RCT, 49 Patienten, 12 Wochen, Debbi 2011; Effekte laut Autoren klein)',
+      'Leichte Knieschmerzen: primärer Endpunkt JKOM nach 12 Wochen erreicht (RCT, 88 Teilnehmende, Toguchi 2023)',
+      'Übersichten: statistisch signifikante, klinisch unklare kurzfristige Schmerzverbesserung (Liu 2018, 69 Studien); bei Steifigkeit unter den 3 besten Präparaten (Netzwerk-Meta-Analyse, 22 Studien, Du 2025)',
+      'Sehr gut verträglich in allen RCTs bis 16 Wochen; FDA-GRAS-Notiz ohne Einwände (GRN 229)'
+    ],
+    risks: [
+      'Nutzen unsicher: Meta-Analyse über 3 RCTs mit 326 Patienten nicht signifikant (Brien 2011); 3 g pro Tag ohne Effekt bei 180 Rekruten (Tennent 2017)',
+      'Haut, Haare, Allergie und Sport nur mit kleinen Studien belegt, teils ohne Placebo oder mit Herstellerbeteiligung (Hewlings 2018, 18 Teilnehmende; Muizzuddin 2022; Withee 2017 ohne signifikante Effekte)',
+      'Einzelner Fallbericht eines Hautausschlags (Kim DH 2016); klinische Wechselwirkungsstudien fehlen, im Labor keine Hemmung von 7 CYP-Enzymen',
+      'Keine Humandaten zu Schwangerschaft, Stillzeit und Kindern; Berichte über stärkere Alkoholempfindlichkeit nur anekdotisch',
+      'Keine zugelassenen Gesundheitsangaben in der EU; Werbung für Gelenke, Kollagen, Haare oder Nägel ist nicht erlaubt'
+    ],
+    dosage: 'Studien verwendeten bei Kniearthrose 500 mg dreimal täglich (Usha 2004), 1,125 g dreimal täglich (Debbi 2011), 10 Tabletten mit je 200 mg (Toguchi 2023) und 3 g zweimal täglich (Kim 2006), jeweils über 12 Wochen; in Sport-, Stoffwechsel- und Hautstudien 1 bis 3 g pro Tag über 21 Tage bis 16 Wochen. Eine Übersicht nennt eine gute Verträglichkeit bis 4 g täglich; laut der US-GRAS-Notiz gilt MSM unter 4.845,6 mg pro Tag als sicher. Höchstmengen oder Referenzwerte von EFSA, BfR oder DGE gibt es nicht, MSM ist kein essenzieller Nährstoff.',
+    intake: 'Die Studien teilten die Tagesmenge meist auf zwei bis drei Einnahmen auf und liefen 12 Wochen; ein Effekt auf Gelenke ist frühestens nach einigen Wochen zu erwarten. Bei Dauermedikation, in Schwangerschaft und Stillzeit vorher ärztlich abklären.',
+    synergies: ['glucosamin', 'boswellia', 'kollagen', 'hyaluronsaeure'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'In Spuren in Obst, Gemüse, Getreide, Kaffee, Tee, Bier und Kuhmilch',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/28300758/'
+  },
+  {
+    id: 'opc',
+    name: 'OPC / Kiefernrindenextrakt (Pycnogenol)',
+    altNames: 'Oligomere Proanthocyanidine, Procyanidine, OPC, Kiefernrindenextrakt, Seekiefernrindenextrakt, Pinienrindenextrakt, Pinus pinaster, French Maritime Pine Bark Extract, Pycnogenol, Traubenkernextrakt, Grape Seed Extract, Vitis vinifera',
+    category: 'Antioxidant',
+    tags: ['anti-oxidant', 'herz', 'blutdruck', 'durchblutung', 'gelenke'],
+    short: 'Pflanzenstoffe aus Kiefernrinde und Traubenkernen, die in Studien die Gefäßfunktion verbessert und Blutdruck, Blutzucker und LDL leicht gesenkt haben, mit positiven Signalen auch bei Venenbeschwerden und ADHS. Die Studien sind aber klein, Cochrane bewertet die Datenlage durchgehend als sehr unsicher, und die Blutdruck-Meta-Analysen widersprechen sich.',
+    description: 'OPC (oligomere Proanthocyanidine) sind kurze Ketten aus Catechin-Bausteinen, konzentriert in Traubenkernen und in der Rinde der Seekiefer (Pinus pinaster); der Markenextrakt Pycnogenol ist auf 70 ± 5 % Procyanidine standardisiert und am besten untersucht. In einem doppelblinden Crossover-RCT mit 23 Herzpatienten verbesserten 200 mg pro Tag über 8 Wochen die Endothelfunktion und senkten einen Oxidationsmarker (Enseleit 2012). Eine Meta-Analyse von 27 RCTs mit 1.685 Teilnehmenden fand kleine Senkungen von Blutdruck, Nüchternzucker, HbA1c, Gewicht und LDL (Mohammadi 2025), eine Auswertung nur doppelblinder Studien sah beim Blutdruck dagegen keinen Effekt (Fogacci 2020). Positive kleine Studien gibt es zu Venenbeschwerden, kurzfristigen Arthroseschmerzen und ADHS bei Kindern; der Cochrane-Review 2020 (27 RCTs, 1.641 Teilnehmende, 10 Erkrankungen) stuft die Vertrauenswürdigkeit aber als sehr niedrig ein. Kiefernrinden- und Traubenkernextrakt sind in der EU in Nahrungsergänzungsmitteln nicht neuartig und damit verkehrsfähig; eine Gesundheitsaussage für OPC allein ist nicht zugelassen.',
+    benefits: [
+      'Endothelfunktion bei koronarer Herzkrankheit verbessert (FMD von 5,3 auf 7,0), Oxidationsmarker gesenkt (doppelblindes Crossover-RCT, 23 Patienten, 8 Wochen, Enseleit 2012)',
+      'Blutdruck −2,26/−2,62 mmHg, Nüchternzucker −6,25 mg/dl, HbA1c −0,32 %, LDL −5,07 mg/dl (Meta-Analyse, 27 RCTs, 1.685 Teilnehmende, Mohammadi 2025); Traubenkernextrakt: Blutdruck gesenkt in 16 RCTs mit 810 Teilnehmenden (Zhang 2016)',
+      'Chronische Veneninsuffizienz: weniger Schmerz, Schweregefühl und Schwellung mit Seekiefernrindenextrakt (Übersicht Gloviczki 2025; Cochrane 2020: Venenmittel verringern Ödeme leicht)',
+      'Kurzfristige Arthroseschmerzen: großer Effekt in der Meta-Analyse von Liu 2018 (69 Studien, 20 Präparate)',
+      'ADHS bei Kindern: Hyperaktivität und Gesamtscore in der Lehrerbewertung besser als Placebo (RCT, 88 Kinder, 10 Wochen, Weyns 2022; kleine Vorstudie mit 61 Kindern, Trebatická 2006)'
+    ],
+    risks: [
+      'Datenlage unsicher: Cochrane 2020 mit 27 RCTs bewertet alle Endpunkte mit sehr niedriger Vertrauenswürdigkeit, Verzerrungsrisiko in 22 Studien unklar',
+      'Blutdruck-Befunde widersprüchlich: kein Effekt in 7 doppelblinden RCTs mit 626 Teilnehmenden (Fogacci 2020); Traubenkernextrakt 300 mg pro Tag in einer RCT mit 70 Teilnehmenden nicht signifikant (Ras 2013), EFSA lehnte den Blutdruck-Claim 2021 ab',
+      'Hemmt die Blutplättchen (100 bis 125 mg ähnlich wie 500 mg Aspirin bei Rauchern, Pütter 1999) – bei Gerinnungshemmern ärztlich abklären; Interaktionsstudien fehlen',
+      'Nebenwirkungen meist mild (Magen-Darm-Beschwerden, Schwindel, Kopfschmerz, Übelkeit; LiverTox Score E); ein Fallbericht schwerer Rhabdomyolyse bei Überdosierung (Kermanshah 2025)',
+      'Keine belastbaren Daten zu Schwangerschaft und Stillzeit; Ergebnisse gelten für den jeweils untersuchten Extrakt'
+    ],
+    dosage: 'Studien verwendeten 200 mg Pycnogenol pro Tag über 8 Wochen (Enseleit 2012), 100 bis 125 mg als Einzelgabe (Pütter 1999), bei Kindern mit ADHS 1 mg/kg/Tag über 4 Wochen (Trebatická 2006) bzw. 20 oder 40 mg pro Tag je nach Körpergewicht über 10 Wochen (Weyns 2022) sowie 300 mg Traubenkernextrakt pro Tag über 8 Wochen (Ras 2013). LiverTox nennt als übliche Tagesmengen 100 bis 400 mg Kiefernrindenextrakt, für Pycnogenol 100 bis 200 mg. Höchstmengen oder Referenzwerte von EFSA, BfR oder DGE gibt es nicht; OPC sind kein essenzieller Nährstoff.',
+    intake: 'Die Studien liefen 4 Wochen bis 6 Monate; Effekte auf Gefäße und Blutdruck zeigten sich frühestens nach einigen Wochen. Auf standardisierte Extrakte mit angegebenem OPC- bzw. Procyanidingehalt achten; bei Gerinnungshemmern, in Schwangerschaft und Stillzeit sowie bei Kindern vorher ärztlich abklären.',
+    synergies: ['l-arginin'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Traubenkerne und Kiefernrinde als konzentrierte Quellen; Catechin-Bausteine in vielen Pflanzen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32990945/'
+  },
+  {
+    id: 'tulsi',
+    name: 'Tulsi (Heiliges Basilikum)',
+    altNames: 'Holy Basil, Heiliges Basilikum, Ocimum tenuiflorum, Ocimum sanctum, Tulasi, Krishna-Tulsi, Thai-Basilikum',
+    category: 'Adaptogen',
+    tags: ['stress', 'schlaf', 'blutzucker', 'immun'],
+    short: 'Ayurvedisches Adaptogen, das in einer doppelblinden Studie mit 100 gestressten Erwachsenen den wahrgenommenen Stress über 8 Wochen um 37 Prozent senkte, unter Placebo um 19 Prozent. Die übrigen Studien sind klein, kurz und oft von geringer Qualität, die besten Stressstudien stammen vom selben Extrakthersteller.',
+    description: 'Tulsi (Ocimum tenuiflorum, früher Ocimum sanctum) ist ein Basilikum aus Indien, das im Ayurveda als Tee und Heilkraut genutzt wird und als Adaptogen gilt; das Kraut enthält unter anderem Eugenol, Methyleugenol, Rosmarinsäure und Ursolsäure. In Zell- und Tierversuchen dämpft ein Extrakt die Stressachse, unter anderem über den CRF1-Rezeptor, und am Menschen war nach 8 Wochen das Haarcortisol niedriger. In einer registrierten, doppelblinden Studie mit 100 Erwachsenen sanken Stress um 37 gegenüber 19 Prozent und Schlaflosigkeit um 48 gegenüber 27 Prozent, die per Tracker gemessene Schlafeffizienz aber nicht stärker als unter Placebo. Eine systematische Übersicht fand 24 Studien mit 1.111 Teilnehmenden, alle mit günstigen Ergebnissen zu Stress, Blutzucker und Immunwerten, doch nur 7 davon galten als hochwertig. Das Kraut ist in der EU als Lebensmittel verkehrsfähig und war in Studien bis 13 Wochen gut verträglich.',
+    benefits: [
+      'Weniger Stress und besserer subjektiver Schlaf: PSS −37 % gegenüber −19 %, Schlaflosigkeit −48 % gegenüber −27 %, niedrigeres Haarcortisol (doppelblinde RCT, 100 Erwachsene, 8 Wochen, Lopresti 2022, herstellerfinanziert)',
+      'Stresssymptome 1,6-mal stärker verbessert als unter Placebo (doppelblinde RCT, 150 Teilnehmende, 6 Wochen, Saxena 2012, Herstellerprodukt)',
+      'Nüchternblutzucker bei Typ-2-Diabetes −17,6 % (einfach verblindete Crossover-RCT, 40 Patienten, je 5 Wochen, Agrawal 1996) – klein und alt',
+      'Mehr NK-Zellen und T-Helferzellen, mehr Interferon-gamma und Interleukin-4 (doppelblinde Crossover-RCT, 24 Gesunde, 4 Wochen, Mondal 2011) – Surrogatmarker',
+      'Schnellere Reaktionszeiten und weniger Fehler in Konzentrationstests (placebokontrolliert, 30 Tage, Sampath 2015; bestätigt in systematischer Übersicht, Marsh 2026)'
+    ],
+    risks: [
+      'Dünne Studienlage: 24 Studien, nur 8 mit Placebo, nur 7 hochwertig, fast alle ohne Doppelverblindung und aus Indien (Jamshidi 2017); Effekte möglicherweise überschätzt',
+      'Tierversuche zeigen weniger und schlechter bewegliche Spermien (Kaninchen, Ratten; reversibel) und veränderte Hormone bei weiblichen Ratten – bei Kinderwunsch, Schwangerschaft und Stillzeit meiden',
+      'Kann den Blutzucker senken: bei Antidiabetika Werte im Blick behalten',
+      'Violetter Tulsi enthält mehr Methyleugenol (potenziell krebserregend); 80 % von 30 Marktproben waren violett (Balaji 2024); ätherisches Öl nicht innerlich verwenden',
+      'Keine Langzeitdaten über 13 Wochen hinaus; objektiv gemessener Schlaf nicht besser als unter Placebo'
+    ],
+    dosage: 'Studien verwendeten 250 mg standardisierten Blattextrakt pro Tag, aufgeteilt auf zweimal 125 mg (Stress und Schlaf, 8 Wochen), 1200 mg Wirkstoffe pro Tag aus einem Ganzpflanzenextrakt (Stress, 6 Wochen), 300 mg ethanolischen Blattextrakt pro Tag (Immunwerte, 4 Wochen; Konzentration, 30 Tage) und 2,5 g Blattpulver pro Tag (Blutzucker, 5 Wochen). Die systematische Übersicht nennt insgesamt 300 bis 3000 mg wässrigen Blattextrakt, 300 bis 1000 mg ethanolischen Blattextrakt und 6 bis 14 g Ganzpflanzen-Zubereitung pro Tag über 2 bis 13 Wochen. Amtliche Referenzwerte oder Höchstmengen von EFSA, BfR oder DGE gibt es nicht. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In der Stressstudie zweimal täglich, mit oder ohne Mahlzeit, über 8 Wochen; die Effekte zeigten sich erst ab Woche 6. Tee und Studienextrakte sind nicht gleichwertig.',
+    synergies: ['ashwagandha', 'rhodiola'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Blätter und Kraut des Heiligen Basilikums, als Tee oder Küchenkraut (im EU-Katalog auch als Thai-Basilikum geführt)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/28400848/'
   }
 ];
 
