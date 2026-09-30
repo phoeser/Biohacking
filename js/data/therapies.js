@@ -90,7 +90,7 @@ const THERAPIES = [
       'Metabolisches Syndrom (Blutdruck, Blutfette)',
       'Vorbehandlung vor Herzoperationen (klinischer Kontext)'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/hypoxietraining/',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/39559920/',
     note: 'Kein Arzneimittel und keine Kassenleistung; Selbstzahlerleistung mit Medizinprodukten, die Einweisung und laufende Überwachung der Sauerstoffsättigung voraussetzen. Die Studien sind klein (21 bis 145 Teilnehmer), kurz (3 bis 7 Wochen) und überwiegend an Kranken oder Hochaltrigen; eine systematische Übersicht über 38 Arbeiten hält fest, dass keine Studie eine längere Lebenserwartung beim Menschen belegt. Nicht geeignet bei frischem Herzinfarkt, instabiler Herzerkrankung, unkontrolliertem Bluthochdruck, schweren Lungenerkrankungen, Sichelzellanämie, akuten Infekten und in der Schwangerschaft; bei Vorerkrankungen nur ärztlich begleitet.',
     podcasts: [
       { title: 'IHHT: Das Höhentraining im Faktencheck', spotify: '0bFNeYXib0O5MmSgVVTiTW', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 71) · mit Paul & Paula. Was im Gerät wirklich passiert: Hypoxie-Phasen bei neun bis fünfzehn Prozent Sauerstoff im Wechsel mit sauerstoffangereicherter Erholungsluft, gesteuert über ein Fingerclip-Oximeter. Was am Zell-Kraftwerk-Training belegt ist – und was Studio-Poesie. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 09.09.2026, 10:00)' }
@@ -114,7 +114,7 @@ const THERAPIES = [
       'Schlafprobleme',
       'Sport-Performance'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/vns-analyse/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29486547/'
   },
   {
     id: 'infrarot-a',
@@ -129,7 +129,7 @@ const THERAPIES = [
       'Ohne UV-Strahlung; ob Infrarot A die Hautalterung fördert, wird diskutiert'
     ],
     indication: ['Wundheilung', 'Schmerzen', 'Verspannungen'],
-    link: 'https://munichhealthcenter.de/leistungen/infrarot-a/',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27408610/',
     podcasts: [
       { title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck', spotify: '1z2wsgjkeNkKwJYdo4mCdW', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Sauna, Infrarotkabine und medizinische Ganzkörperhyperthermie im Vergleich – und warum wassergefiltertes Infrarot A (wIRA) heute das Mittel der Wahl ist, wenn die Kerntemperatur kontrolliert angehoben werden soll. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)' }
     ]
@@ -151,7 +151,7 @@ const THERAPIES = [
       'Chronische Schmerzen (ergänzend)',
       'Verspannungen'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/bioadaptive-impulsanwendung/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/34884273/'
   },
   {
     id: 'espinebot',
@@ -170,7 +170,7 @@ const THERAPIES = [
       'Entspannung',
       'Ergänzung zu aktiver Bewegungstherapie'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/espinebot/'
+    link: 'https://www.physio-deutschland.de/patienten-interessierte/physiotherapeutensuche.html'
   },
   {
     id: 'hyperthermie',
@@ -191,7 +191,7 @@ const THERAPIES = [
       'Onkologie-Begleitung (Klinik)',
       'Regeneration und Wohlbefinden'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/ganzkoerperhyperthermie/',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/37109279/',
     podcasts: [
       { title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck', spotify: '1z2wsgjkeNkKwJYdo4mCdW', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Die Wärme-Leiter von der Sauna über die Infrarotkabine bis zur medizinischen Ganzkörperhyperthermie, bei der die Kerntemperatur kontrolliert auf achtunddreißig bis neununddreißig Grad angehoben wird – künstliches Fieber unter Aufsicht, meist mit wassergefiltertem Infrarot A. Überraschung der Folge: Die Wärme hat einige der saubersten Studien des Feldes. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)' }
     ]
@@ -214,7 +214,7 @@ const THERAPIES = [
       'Konzentration (Löwenmähne, kleine Studienlage)',
       'Ausdauer (Cordyceps, gemischte Daten)'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/vitalpilze-und-nahrungsergaenzungsmittel/'
+    link: 'https://www.bvl.bund.de/SharedDocs/Pressemitteilungen/01_lebensmittel/2015/2015_02_06_pi_Vitalpilze.html'
   },
   {
     id: 'screenings',
@@ -229,7 +229,7 @@ const THERAPIES = [
       'Ergänzung zum Kassen-Check-up (18 bis 34 einmal, ab 35 alle drei Jahre), nicht Ersatz'
     ],
     indication: ['Erstcheck', 'Prävention', 'Verlaufskontrolle'],
-    link: 'https://munichhealthcenter.de/leistungen/screenings/'
+    link: 'https://www.igel-monitor.de/'
   },
 
   // ============ SCHWERPUNKTE / LEISTUNGEN (7) ============
@@ -246,7 +246,7 @@ const THERAPIES = [
       'Langfristige Prävention – die gesetzliche Basis ist der Check-up ab 35 alle drei Jahre'
     ],
     indication: ['Prävention', 'Anti-Aging', 'Familiäre Risiken', 'Longevity'],
-    link: 'https://munichhealthcenter.de/leistungen/praevention-epigenetik-genetik/'
+    link: 'https://www.gfhev.de/diagnostik-und-genetische-beratung/genetische-beratungsstellen'
   },
   {
     id: 'long-covid',
@@ -262,7 +262,7 @@ const THERAPIES = [
       'Geräteverfahren wie Hypoxietraining oder Hyperthermie: erste Signale, aber keine randomisierten Studien'
     ],
     indication: ['Fatigue', 'Atemnot', 'Brain Fog', 'Belastungsintoleranz'],
-    link: 'https://munichhealthcenter.de/leistungen/long-covid-postvirale-belastungszustaende/'
+    link: 'https://www.bmg-longcovid.de/service'
   },
   {
     id: 'chronische-schmerzen',
@@ -278,7 +278,7 @@ const THERAPIES = [
       'Apparative Verfahren wie Elektrostimulation oder Wärme allenfalls als Ergänzung zu aktiven Maßnahmen'
     ],
     indication: ['Rückenschmerzen', 'Fibromyalgie', 'Migräne', 'Gelenkschmerzen'],
-    link: 'https://munichhealthcenter.de/leistungen/chronische-schmerzen/'
+    link: 'https://arztsuche.116117.de/'
   },
   {
     id: 'stoffwechsel-autoimmun',
@@ -298,7 +298,7 @@ const THERAPIES = [
       'Hashimoto (ergänzend zur ärztlichen Therapie)',
       'Rheuma (ergänzend zur ärztlichen Therapie)'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/stoffwechsel-und-autoimmunprozesse/'
+    link: 'https://arztsuche.116117.de/'
   },
   {
     id: 'wirbelsaeule',
@@ -313,7 +313,7 @@ const THERAPIES = [
       'Keine Belege für Regeneration von Bandscheiben oder Wirbelstrukturen'
     ],
     indication: ['Rücken', 'Nacken', 'Verspannungen', 'Ergänzung zu Bewegungstherapie'],
-    link: 'https://munichhealthcenter.de/leistungen/wirbelsaeulenregeneration/'
+    link: 'https://www.physio-deutschland.de/patienten-interessierte/physiotherapeutensuche.html'
   },
   {
     id: 'mikronaehrstoffe',
@@ -333,7 +333,7 @@ const THERAPIES = [
       'Kinderwunsch und Schwangerschaft',
       'Sport'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/mikronaehrstoffe/'
+    link: 'https://www.vdoe.de/expertenpool.html'
   },
   {
     id: 'gesundheitscoaching',
@@ -354,7 +354,7 @@ const THERAPIES = [
       'Lifestyle',
       'Bluthochdruck (begleitend)'
     ],
-    link: 'https://munichhealthcenter.de/leistungen/gesundheitscoaching/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38494402/'
   },
 
   // ============ NETZWERK-PARTNER (5) ============
@@ -371,7 +371,7 @@ const THERAPIES = [
       'Abrechnung nach Gebührenordnung für Ärzte mit Kosteninformation in Textform und schriftlichem Vertrag'
     ],
     indication: ['Komplexe Krankheitsbilder', 'Zweitmeinung', 'Diagnostik-Bedarf'],
-    link: 'https://munichhealthcenter.de/ausstattung/aerztliche-leistungen/'
+    link: 'https://arztsuche.116117.de/'
   },
   {
     id: 'genanalysen',
@@ -386,7 +386,7 @@ const THERAPIES = [
       'Ernährungs- und Sport-Genetik: in zwei randomisierten Studien (DIETFITS, Food4Me) kein Zusatznutzen gegenüber Beratung ohne Gene'
     ],
     indication: ['Personalisierte Medizin', 'Prävention', 'Familiäre Risiken'],
-    link: 'https://munichhealthcenter.de/ausstattung/genanalysen/'
+    link: 'https://www.gfhev.de/diagnostik-und-genetische-beratung/genetische-beratungsstellen'
   },
   {
     id: 'persoenlichkeitsdiagnostik',
@@ -402,7 +402,7 @@ const THERAPIES = [
       'Qualitätsmaßstab für berufsbezogene Verfahren: DIN 33430'
     ],
     indication: ['Coaching', 'Karriereentwicklung', 'Stressbewältigung', 'Teams'],
-    link: 'https://munichhealthcenter.de/ausstattung/melanie-schwarz/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41359557/'
   },
   {
     id: 'epigenetik-coach',
@@ -417,7 +417,7 @@ const THERAPIES = [
       'Verlaufsmessung nur mit derselben Methode im selben Labor sinnvoll; Messunsicherheit beachten'
     ],
     indication: ['Anti-Aging', 'Prävention', 'Lifestyle-Optimierung'],
-    link: 'https://munichhealthcenter.de/ausstattung/epigenetik-coach/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30669119/'
   },
   {
     id: 'mikronaehrstoff-coach',
@@ -437,7 +437,7 @@ const THERAPIES = [
       'Sport',
       'Ernährungsbedingte Erkrankungen (ärztlich begleitet)'
     ],
-    link: 'https://munichhealthcenter.de/ausstattung/mikronaehrstoff-coach/'
+    link: 'https://www.vdoe.de/expertenpool.html'
   },
 
   // ============ EXTERN (1) ============
