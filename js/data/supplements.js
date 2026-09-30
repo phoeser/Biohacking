@@ -158,25 +158,26 @@ const SUPPLEMENTS = [
     altNames: 'B1, B2, B3, B5, B6, B7, B9, B12',
     category: 'Vitamin',
     tags: ['energie', 'nerven', 'gehirn', 'stress', 'stoffwechsel'],
-    short: 'Alle B-Vitamine in bioaktiver Form – Grundlage für Energiestoffwechsel und Nerven.',
-    description: 'B-Vitamine arbeiten zusammen. Einzelgabe einer Form kann andere ins Ungleichgewicht bringen. Bei Stress, Sport und Alkoholkonsum steigt der Bedarf deutlich. Zur B6-Obergrenze: Über das Essen erreicht sie niemand, betroffen sind hochdosierte Präparate – und die sind selten. In einer Auswertung von 2.210 Produkten lag die Hälfte bei ein bis zwei Milligramm, nur gut ein Prozent über 20 mg.',
+    short: 'Alle acht B-Vitamine in einem Präparat – unverzichtbar für Energiestoffwechsel, Nerven und Blutbildung. Klarer Nutzen bei Mangel; bei guter Versorgung senken sie Homocystein und leicht das Schlaganfallrisiko, nicht aber Herzinfarkte oder kognitives Altern.',
+    description: 'B-Vitamine wirken als Coenzyme im Energie-, Eiweiß- und Homocystein-Stoffwechsel. Einzelgaben können einander verdecken: Viel Folsäure korrigiert die Blutarmut eines B12-Mangels, nicht aber die Nervenschäden. In großen Studien senken B6, B12 und Folsäure Homocystein um 26 bis 28 Prozent und Schlaganfälle leicht (4,3 gegenüber 5,1 Prozent), Herzinfarkte, Sterblichkeit und kognitives Altern ändern sich nicht. Bei älteren Menschen mit Gedächtnisproblemen bremsten sie in einer Studie den Hirnschwund, bei Stress zeigt eine Meta-Analyse einen kleinen Effekt. Zur B6-Obergrenze: Die EFSA hat sie 2023 von 25 auf 12 mg am Tag gesenkt, das BfR schlägt 0,9 mg pro Tagesdosis vor. Über das Essen erreicht die Grenze niemand, betroffen sind hochdosierte Präparate – und die sind selten. In einer Auswertung von 2.210 Produkten lag die Hälfte bei 1,01 bis 2,0 mg, nur 1,4 Prozent über 20 mg.',
     benefits: [
-      'Energiestoffwechsel aus Kohlenhydraten, Fett und Eiweiß',
-      'Unterstützt Nervensystem und Stressresistenz',
-      'Wichtig für Neurotransmitter (Serotonin, Dopamin)',
-      'Fördert Hautgesundheit und Haarwuchs',
-      'Bei vielen Menschen mit MTHFR-Mutation kritisch'
+      'Energiestoffwechsel, Nervensystem, Blutbildung – als EU-Health-Claims zugelassen, u. a. Beitrag zur Verringerung von Müdigkeit (Riboflavin, Niacin, Pantothensäure, B6, Folat, B12)',
+      'Senkt Homocystein um 26 bis 28 Prozent (11 Studien, 22.000 Teilnehmer, Clarke 2014) und Schlaganfälle leicht (RR 0,90; Cochrane 2017, 10 RCTs); kein Effekt auf Herzinfarkt und Sterblichkeit',
+      'Bremste den Hirnschwund bei leichter kognitiver Beeinträchtigung (0,76 gegenüber 1,08 Prozent pro Jahr; VITACOG, RCT, 24 Monate) – kognitives Altern in großen Studien aber unverändert',
+      'Kleiner Effekt auf Stress (SMD 0,23; Meta-Analyse, 2.015 Teilnehmer, Young 2019), nicht auf Depression oder Angst',
+      'Klar sinnvoll bei Mangelrisiko: vegane Ernährung, höheres Alter, Metformin, Säureblocker; 400 µg Folsäure für alle, die schwanger werden könnten'
     ],
     risks: [
-      'Urin kann gelb werden (B2 – normal)',
-      'Hochdosis B6 über Monate: Kribbeln in Händen/Füßen möglich. Die EFSA hat die als unbedenklich geltende Obergrenze 2023 von 25 auf 12 mg am Tag halbiert – nicht wegen neuer Messungen, sondern weil dieselbe Arbeit von 1987 vorsichtiger gerechnet wurde',
-      'Ab 100 mg B3 kann Flush auftreten'
+      'Hochdosis B6 über Monate: Kribbeln und Taubheit in Händen und Füßen möglich. Die EFSA hat die als unbedenklich geltende Obergrenze 2023 von 25 auf 12 mg am Tag halbiert; Grundlage ist weiterhin eine Studie von 1987, die vorsichtiger gerechnet wurde',
+      'Folsäure über 1.000 µg pro Tag kann einen B12-Mangel verdecken, während Nervenschäden fortschreiten',
+      'Niacin als Nicotinsäure: Flush typischerweise schon ab 30 bis 50 mg; Nicotinamid verursacht keinen Flush',
+      'Biotin verfälscht Labortests (Schilddrüse, Troponin) – vor Blutabnahmen angeben'
     ],
-    dosage: 'Typische Dosis einmal täglich laut Produkt. Auf „methylierte Formen" achten.',
-    intake: 'Morgens zum Frühstück. Abends kann das Einschlafen stören.',
+    dosage: 'Studien verwendeten sehr unterschiedliche Mengen: In VITACOG waren es täglich 0,8 mg Folsäure, 0,5 mg B12 und 20 mg B6 über 24 Monate – die B6-Menge liegt über der heutigen EFSA-Obergrenze von 12 mg pro Tag. Für Nahrungsergänzungen schlägt das BfR höchstens 0,9 mg B6 pro Tagesdosis vor; für Folsäure gilt eine Obergrenze von 1.000 µg pro Tag, für B12 gibt es keine. Mehrere Präparate addieren sich.',
+    intake: 'Mit einer Mahlzeit. Biotin vor Blutabnahmen angeben; bei Metformin, Säureblockern oder veganer Ernährung B12 gezielt im Blick behalten.',
     synergies: ['magnesium'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Vollkorn, Hefe, Leber, Eier, Hülsenfrüchte, grünes Blattgemüse'
   },
 
@@ -537,25 +538,28 @@ const SUPPLEMENTS = [
     altNames: 'Aminosäure',
     category: 'Aminosäure',
     tags: ['fokus', 'stress', 'stimmung', 'motivation', 'dopamin'],
-    short: 'Vorstufe für Dopamin und Noradrenalin. Hilft bei Stress und mentaler Erschöpfung.',
-    description: 'Tyrosin ist besonders nützlich in stressigen Situationen (Prüfung, Schlafmangel, Krisen), wenn Neurotransmitter-Reserven erschöpft sind.',
+    short: 'Vorstufe von Dopamin und Noradrenalin. Stützt Arbeitsgedächtnis und Wachsamkeit unter akuter Belastung wie Kälte, Schlafentzug oder Multitasking; für Ausdauersport und Stimmung ohne Nachweis.',
+    description: 'Tyrosin ist eine nicht essenzielle Aminosäure aus Milchprodukten, Soja und Fleisch und der Rohstoff für Dopamin und Noradrenalin. In kleinen doppelblinden Studien schützte es das Arbeitsgedächtnis in kaltem Wasser (19 Personen), dämpfte den Leistungsabfall nach einer durchwachten Nacht für etwa 3 Stunden und verbesserte Gedächtnisleistung bei Kadetten im Kampftraining. Eine Bewertung für das US-Militär über 10 RCTs und 4 kontrollierte Studien gibt dafür eine schwache Empfehlung. Tyrosin füllt erschöpfte Reserven auf und wirkt deshalb unter Belastung, kaum im entspannten Alltag; wer schon gut ist, kann sogar schlechter werden. Für Ausdauerleistung zeigt eine Meta-Analyse über 8 Studien keinen Effekt, bei Depression wirkte es in einer RCT mit 65 Patienten nicht.',
     benefits: [
-      'Soll Dopamin und Fokus steigern – gezeigt vor allem unter Belastung wie Schlafmangel, nicht im Normalzustand',
-      'Hilft bei akutem Stress',
-      'Soll die Stimmung verbessern – Humandaten dünn',
-      'Kognitive Performance unter Schlafmangel'
+      'Schützt das Arbeitsgedächtnis unter Kälte (doppelblind, 19 Personen, Mahoney 2007)',
+      'Weniger Leistungsabfall und Aussetzer nach einer durchwachten Nacht, etwa 3 Stunden lang (Neri 1995)',
+      'Bessere Genauigkeit im Arbeitsgedächtnis beim Multitasking, nicht bei einfachen Aufgaben (Thomas 1999)',
+      'Bessere Gedächtnis- und Trackingleistung im militärischen Kampftraining (21 Kadetten, Deijen 1999)',
+      'Schwache Empfehlung bei kognitivem Stress: 10 RCTs und 4 kontrollierte Studien, alle positiv, aber klein (Attipoe 2015)'
     ],
     risks: [
-      'Bei Schilddrüsenproblemen (Hyper) nicht empfohlen',
-      'Nicht mit MAO-Hemmern',
-      'Nicht abends – stimulierend'
+      'Nicht mit MAO-Hemmern: Die US-Fachinformation von Phenelzin nennt L-Tyrosin wegen der Gefahr hypertensiver Krisen',
+      'Schilddrüsenerkrankungen: in der Sicherheitsstudie ausgeschlossen, Schilddrüsenwerte nicht untersucht – ärztlich abklären',
+      'Umgekehrte U-Kurve: Wer schon gut ist, kann schlechter werden (Jongkees 2020); bei Älteren eher Nachteile bei der Reaktionskontrolle (Bloemendaal 2018)',
+      'Ausdauersport: kein Effekt (Meta-Analyse, 8 Studien, Solon-Júnior 2023); Depression: kein Effekt (Gelenberg 1990)',
+      'Sicherheitsdaten nur bis 4 Wochen und 4 g pro Tag bei gesunden Männern (herstellerfinanziert, Matsumoto 2026)'
     ],
-    dosage: '500–2.000 mg 30 min vor Stresssituation.',
-    intake: 'Auf leeren Magen, morgens oder vor anspruchsvollen Tätigkeiten.',
+    dosage: 'Die Kognitionsstudien verwendeten meist 150 mg pro Kilogramm Körpergewicht als Einzelgabe vor der Belastung (Mahoney 2007, Neri 1995, Thomas 1999), eine Studie 2,0 g (Jongkees 2020). In einer vierwöchigen Sicherheitsstudie waren bis 4 g pro Tag ohne Auffälligkeiten. Eine amtliche Höchstmenge gibt es nicht. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien kurz vor einer fordernden Situation genommen, in einer Studie eine Stunde vorher. Als Dauerpräparat ohne Anlass nicht untersucht. Bei MAO-Hemmern nicht, bei Schilddrüsenerkrankung nur nach ärztlicher Rücksprache.',
     synergies: ['vitamin-b-komplex'],
     avoid: [],
     evidence: 'mittel',
-    sources: 'Käse, Mandeln, Avocado, Hülsenfrüchte'
+    sources: 'Milchprodukte, Sojaprodukte, Fleisch; übliche Zufuhr im Mittel etwa 2,79 g pro Tag bei 70 kg Körpergewicht'
   },
   {
     id: 'aminosaeuren',
@@ -1326,21 +1330,24 @@ const SUPPLEMENTS = [
     altNames: 'Natrium / Kalium / Magnesium',
     category: 'Mineral',
     tags: ['energie', 'sport', 'keto', 'fluessigkeit', 'muskel'],
-    short: 'Natrium, Kalium, Magnesium. Essenziell bei Keto, Fasten, Sport und Hitze.',
-    description: 'Bei Low-Carb/Keto verliert der Körper Natrium und Kalium schneller. Elektrolyte beugen Krämpfen, Müdigkeit und Kopfschmerzen vor.',
+    short: 'Natrium, Kalium, Chlorid, Magnesium. Mit Zucker kombiniert halten sie Flüssigkeit besser als Wasser – sinnvoll bei starkem Schwitzen und Durchfall. Gegen Krämpfe im Wettkampf nicht belegt.',
+    description: 'Natrium wird im Darm zusammen mit Glukose aufgenommen, Wasser folgt nach. Deshalb hielt eine Rehydrationslösung bei 72 Männern mehr Flüssigkeit im Körper als Wasser (Hydrationsindex 1,54), ein normales Sportgetränk dagegen nicht; für Kohlenhydrat-Elektrolyt-Lösungen bei langer Ausdauerbelastung sind zwei EU-Gesundheitsangaben zugelassen. Krämpfe im Wettkampf hingen in Studien mit 210 Ironman-Triathleten, 88 Marathonläufern und einem Ultramarathon nicht mit Elektrolytwerten oder der Natriumzufuhr zusammen. Bei Keto gibt es eine physiologische Begründung, aber keine klinischen Studien. Das BfR sieht keinen Grund für Natrium in Nahrungsergänzungsmitteln; das größte Risiko im Ausdauersport ist Hyponatriämie durch zu viel Trinken.',
     benefits: [
-      'Verhindert Muskelkrämpfe',
-      'Mehr Energie und Fokus',
-      'Wichtig bei Keto-Grippe',
-      'Verbessert Sportleistung',
-      'Hilft bei Dehydrierung'
+      'Rehydrationslösung (Natrium plus Glukose) hält Flüssigkeit besser als Wasser: Hydrationsindex 1,54 (72 Männer, Maughan 2016)',
+      'Kohlenhydrat-Elektrolyt-Lösungen: zugelassene EU-Angaben zur Ausdauerleistung bei längerem Training und zur Wasseraufnahme (80 bis 350 kcal und 460 bis 1.150 mg Natrium pro Liter)',
+      'Moderne Rehydrationslösungen senkten bei Kindern mit Durchfall ungeplante Infusionen gegenüber der älteren Standardlösung (Cochrane, 8 Studien, OR 0,59)',
+      'Nach starkem Schwitzen senkte reines Wasser die Krampfschwelle, eine Elektrolytlösung hob sie (Labor, 10 Männer, Lau 2019)',
+      'Keto-Einstieg: physiologisch plausibel, klinisch nicht untersucht (Skartun 2025)'
     ],
     risks: [
-      'Nicht übertreiben – Nieren regulieren',
-      'Vorsicht bei Bluthochdruck (Natrium)'
+      'Hyponatriämie durch zu viel Trinken im Ausdauersport – Salzkapseln schützen nicht zuverlässig (Hoffman 2015; Hew-Butler 2017)',
+      'Natrium: Aufnahme in Deutschland meist über dem Bedarf; bei Bluthochdruck zusätzliches Salz meiden',
+      'Kalium: bei Nierenerkrankung und kaliumsparenden Medikamenten Gefahr der Hyperkaliämie; BfR-Höchstmenge 500 mg pro Tagesdosis',
+      'Magnesium über 250 mg zusätzlich pro Tag: Durchfall (SCF/BfR)',
+      'Krampfschutz im Wettkampf nicht belegt (Schwellnus 2011: 210 Triathleten; Martínez-Navarro 2022: 88 Marathonläufer)'
     ],
-    dosage: 'Natrium 1–3 g, vor allem bei starkem Schwitzen; Kalium über Nahrungsergänzung höchstens 500 mg pro Tag (Höchstmengenvorschlag des BfR); Magnesium 200 mg täglich.',
-    intake: 'Über den Tag verteilt in Wasser. Beim Sport wichtig.',
+    dosage: 'Referenz- und Rechtswerte statt Verzehrempfehlung: EFSA hält 2,0 g Natrium pro Tag für Erwachsene für sicher und angemessen, D-A-CH schätzt 1.500 mg; Männer nehmen im Median 2.940 bis 3.415 mg auf. Das BfR sieht keinen Natriumzusatz in Nahrungsergänzungsmitteln vor und schlägt für Getränke zum Ausgleich erhöhter Natriumverluste 460 bis 1.150 mg pro Liter vor, was den Bedingungen der EU-Angabe für Kohlenhydrat-Elektrolyt-Lösungen entspricht. Höchstmengen pro Tagesdosis in Nahrungsergänzungsmitteln laut BfR: Kalium 500 mg, Magnesium 250 mg.',
+    intake: 'Bei langen, schweißtreibenden Belastungen und bei Durchfall; zum Nachtrinken nach starkem Schwitzen besser als reines Wasser. Nach Durst trinken, nicht darüber hinaus. Schweißverlust über das Körpergewicht vor und nach der Einheit abschätzen.',
     synergies: ['magnesium'],
     avoid: [],
     evidence: 'hoch',
@@ -1459,25 +1466,28 @@ const SUPPLEMENTS = [
     altNames: 'Kamillen-Flavonoid',
     category: 'Longevity',
     tags: ['schlaf', 'longevity', 'entspannung', 'nad', 'cd38', 'entzuendung'],
-    short: 'Flavonoid aus Kamille. Die CD38-Hemmung stammt aus dem Labor, nicht vom Menschen.',
-    description: 'Apigenin wird von Longevity-Forschern wie David Sinclair empfohlen. Blockiert das Enzym CD38, das NAD+ abbaut – so steigt der Zellenergie-Level. Bindet zusätzlich an Benzodiazepin-Rezeptoren für entspannende Wirkung.',
+    short: 'Flavon aus Kamille und Petersilie. Bindet im Labor an die Benzodiazepin-Stelle und hemmt bei Mäusen das NAD+-abbauende Enzym CD38; am Menschen ist nur Kamillenextrakt untersucht, isoliertes Apigenin nicht.',
+    description: 'Apigenin bindet an die zentrale Benzodiazepin-Bindungsstelle (Ki 4 µM) und wirkte bei Mäusen angstlösend. In Zellkultur und bei übergewichtigen Mäusen hemmt es CD38 und erhöht NAD+; beim Menschen wurde das nie gemessen. Aus Petersilie gelangt nur ein kleiner Teil ins Blut. Die Humandaten zu Angst und Schlaf stammen aus Kamillenextrakt: weniger Angstsymptome bei generalisierter Angststörung in einer Placebo-Studie mit 57 Patienten, bessere subjektive Schlafqualität in Meta-Analysen, aber keine längere Schlafdauer. Für isoliertes Apigenin gibt es keine veröffentlichte randomisierte Studie. Isoliertes Apigenin (≥ 98 %) ist in der EU ein nicht zugelassenes neuartiges Lebensmittel.',
     benefits: [
-      'CD38-Hemmung im Laborversuch gezeigt',
-      'Wird für Schlaf beworben – Humandaten fehlen weitgehend',
-      'Entzündungshemmende Effekte in Zell- und Tierversuchen',
-      'Anti-östrogene Eigenschaften (bei Männern positiv)',
-      'Antioxidative und neuroprotektive Wirkung'
+      'Bindet an die Benzodiazepin-Bindungsstelle und wirkte bei Mäusen angstlösend ohne Sedierung (Viola 1995, Rezeptorbindung und Tier)',
+      'Hemmt CD38 und erhöht NAD+ in Zellkultur und bei übergewichtigen Mäusen (Escande 2013) – beim Menschen nicht gemessen',
+      'Kamillenextrakt mit Apigenin senkte Angstsymptome bei generalisierter Angststörung (RCT, 57 Patienten, 8 Wochen, Amsterdam 2009); Rückfallschutz über 26 Wochen als Hauptziel nicht erreicht (Mao 2016)',
+      'Kamille verbesserte die subjektive Schlafqualität (Meta-Analysen, 12 RCTs bzw. 10 Studien mit 772 Teilnehmern), nicht die Schlafdauer',
+      'Für isoliertes Apigenin keine veröffentlichte randomisierte Humanstudie'
     ],
     risks: [
-      'Bei hohen Dosen Blutverdünnung möglich',
-      'Vorsicht bei östrogenabhängigen Erkrankungen – Rücksprache mit Arzt',
-      'Kann Sedierung verstärken (Alkohol, Schlafmittel meiden)'
+      'Sicherheit des hochdosierten Reinstoffs am Menschen nicht systematisch untersucht; keine Obergrenze von EFSA, BfR oder NIH',
+      'Nicht bei Allergie gegen Kamille oder andere Korbblütler (EMA-Monografie Kamillenblüten)',
+      'Hemmt im Labor das Leberenzym CYP2C9 (Abbau u. a. von Losartan, Warfarin) – bei Gerinnungshemmern und Dauermedikation ärztlich klären',
+      'Mögliche Verstärkung von Beruhigungs- und Schlafmitteln oder Alkohol nicht untersucht',
+      'Keine Daten für Schwangerschaft, Stillzeit und Kinder',
+      'Isoliertes Apigenin ist in der EU ein nicht zugelassenes Novel Food'
     ],
-    dosage: '50 mg abends (Standard-Biohacker-Dosis nach Sinclair). Kamillentee liefert zu wenig.',
-    intake: '30–60 min vor dem Schlafengehen. Mit etwas Fett für bessere Aufnahme.',
-    synergies: ['nmn', 'resveratrol', 'magnesium', 'melatonin'],
+    dosage: 'Keine Dosierungsangabe. Apigenin ist kein zugelassener Wirkstoff (§ 3a Heilmittelwerbegesetz), als Reinstoff in der EU ein nicht zugelassenes neuartiges Lebensmittel, und Biohacking Kompakt gibt für Apigenin keine Kaufempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer Gerinnungshemmer, Beruhigungs- oder Schlafmittel nimmt, klärt Apigenin vorher ärztlich.',
+    synergies: [],
     avoid: [],
-    evidence: 'mittel',
+    evidence: 'niedrig',
     sources: 'Kamille, Petersilie, Sellerie, Artischocke (sehr niedrig dosiert)'
   },
   {
@@ -1486,26 +1496,26 @@ const SUPPLEMENTS = [
     altNames: 'Flavonoid aus Erdbeeren',
     category: 'Longevity',
     tags: ['senolytisch', 'longevity', 'gehirn', 'anti-aging', 'entzuendung'],
-    short: 'Senolytikum-Kandidat. Die viel zitierte Mausstudie von 2018 wurde im unabhängigen Testprogramm 2023 nicht bestätigt.',
-    description: 'Fisetin baute in einer viel zitierten Studie von 2018 seneszente Zellen ab und verlängerte die Lebenszeit alter Mäuse. 2023 hat das unabhängige US-Interventions-Testprogramm (ITP) nachgeprüft – und weder eine Lebenszeitverlängerung noch eine Senkung der Seneszenzmarker in Leber, Niere und Gehirn gefunden. Die Humanstudie der Mayo Clinic (AFFIRM, 40 Frauen) läuft seit Februar 2018 und hat bis heute nichts berichtet; die dort geprüfte Dosis liegt mit 20 mg pro Kilogramm weit über üblichen Kapselstärken. Klassische Protokolle: hochdosiert über 2 Tage monatlich.',
+    short: 'Senolytikum-Kandidat. Die viel zitierte Mausstudie von 2018 wurde im unabhängigen Testprogramm nicht bestätigt; beim Menschen senkt Fisetin in kleinen Studien einzelne Entzündungswerte, eine senolytische Wirkung ist nicht gezeigt.',
+    description: 'Fisetin baute in einer viel zitierten Studie von 2018 seneszente Zellen ab und verlängerte die Lebenszeit alter Mäuse. Das unabhängige US-Interventions-Testprogramm (ITP) hat nachgeprüft – und weder eine Lebenszeitverlängerung noch eine Senkung des Seneszenzmarkers p16 in Leber, Niere und Gehirn gefunden. Beim Menschen gibt es kleine randomisierte Studien mit Surrogatmarkern: IL-8 sank bei 37 Darmkrebspatienten gegenüber Placebo, IL-6 und Insulinresistenz bei 44 Männern mit Adipositas. In einer Arthrose-Studie mit 75 Teilnehmern unterschieden sich Nebenwirkungen und Entzündungsmarker nicht von Placebo. Die Frailty-Studie der Mayo Clinic (AFFIRM, 40 Frauen) läuft seit Februar 2018 ohne Ergebnis. Unverändertes Fisetin wird schlecht aufgenommen. Isoliertes Fisetin (≥ 98 %) ist in der EU ein nicht zugelassenes neuartiges Lebensmittel.',
     benefits: [
-      'Senolytische Wirkung in einer Mausstudie gezeigt – in der unabhängigen Replikation nicht',
-      'Neuroprotektive Effekte in Alzheimer-Modellen (Tier)',
-      'Stark antioxidativ',
-      'Sirtuin-Aktivierung im Zellversuch',
-      'Wirkt anti-entzündlich'
+      'Senolytische Wirkung in Zellkultur und Maus, Lebensverlängerung alter Mäuse (Yousefzadeh 2018) – im unabhängigen ITP nicht bestätigt (Harrison 2024)',
+      'Senkte IL-8 gegenüber Placebo bei 37 Darmkrebspatienten unter Chemotherapie (RCT, 7 Wochen, Farsad-Naeimi 2018)',
+      'Senkte IL-6, TNF-α und Insulinresistenz bei 44 Männern mit Adipositas, am stärksten mit Training (RCT, 12 Wochen, Alipour 2026)',
+      'Eine senolytische Wirkung beim Menschen ist nicht gezeigt; Arthrose-RCT mit 75 Teilnehmern ohne Unterschied bei Entzündungsmarkern (NCT04210986)'
     ],
     risks: [
-      'Keine abgeschlossene Humanstudie – die Mayo-Studie läuft seit 2018 ohne Ergebnis',
-      'Hoch dosiert sehr kurz anwenden (Hit-&-Run-Protokoll)',
-      'Kann Medikamente (Blutverdünner) beeinflussen'
+      'Nur Kurzzeitdaten aus kleinen Studien; Langzeitsicherheit unbekannt, die Mayo-Studie AFFIRM läuft seit 2018 ohne Ergebnis',
+      'Wechselwirkungen mit Medikamenten (z. B. Gerinnungshemmern) am Menschen nicht untersucht',
+      'Keine Daten für Schwangerschaft, Stillzeit und Kinder; bei Krebserkrankungen nur in Studien oder ärztlich begleitet',
+      'Isoliertes Fisetin ist in der EU ein nicht zugelassenes Novel Food – keine europäische Sicherheitsprüfung'
     ],
-    dosage: 'Täglich: 100 mg. Senolytischer Puls: 20 mg/kg an 2 aufeinanderfolgenden Tagen pro Monat.',
-    intake: 'Mit fettreicher Mahlzeit (fettlöslich). Schwarzpfeffer/Piperin verbessert Aufnahme.',
+    dosage: 'Keine Dosierungsangabe. Fisetin ist kein zugelassener Wirkstoff (§ 3a Heilmittelwerbegesetz) und als Reinstoff in der EU ein nicht zugelassenes neuartiges Lebensmittel.',
+    intake: 'Keine Einnahmeempfehlung. Die Aufnahme von unverändertem Fisetin aus dem Darm ist gering und hängt stark von der Zubereitung ab (Herstellerstudie, 15 Gesunde).',
     synergies: ['quercetin', 'resveratrol', 'spermidin'],
     avoid: [],
-    evidence: 'mittel',
-    sources: 'Erdbeeren (höchste natürliche Konzentration), Äpfel, Kakis, Zwiebeln'
+    evidence: 'niedrig',
+    sources: 'Erdbeeren, Äpfel, Kakis, Zwiebeln (in kleinen Mengen)'
   },
   {
     id: 'sulforaphan',
@@ -1572,26 +1582,27 @@ const SUPPLEMENTS = [
     altNames: 'Pterostilbene',
     category: 'Longevity',
     tags: ['anti-aging', 'nad', 'herz', 'gehirn', 'blutzucker'],
-    short: 'Resveratrol-Verwandter mit besserer Aufnahme. Am Menschen kaum untersucht.',
-    description: 'Pterostilben wird deutlich besser aufgenommen als Resveratrol – das ist der belegte Teil. Die Aktivierung von Sirtuinen und AMPK stammt aus Zell- und Tierversuchen; ob daraus beim Menschen ein Nutzen wird, ist offen. Beliebt als NMN-Partner.',
+    short: 'Resveratrol-Verwandter, der bei Ratten besser aufgenommen wird. In der einzigen größeren Humanstudie sank der Blutdruck, aber das LDL stieg. In der EU nicht zugelassen, keine Kaufempfehlung.',
+    description: 'Pterostilben ist ein methyliertes Resveratrol-Analogon. An Ratten lag die orale Bioverfügbarkeit bei etwa 80 % gegenüber 20 % für Resveratrol; am Menschen ist das nicht im Vergleich gemessen. In einer randomisierten, doppelblinden Studie mit 80 Erwachsenen mit erhöhtem Cholesterin (6 bis 8 Wochen) war es gut verträglich, senkte in der höheren Dosis den Blutdruck um 7,8/7,3 mmHg und erhöhte das LDL um 17,1 mg/dl. Sirtuin- und AMPK-Aktivierung stammen aus Zell- und Tierversuchen; neuere Humanstudien testen fast nur die Kombination mit Nicotinamid-Ribosid, deren Fettleberstudie ihren Hauptendpunkt verfehlte. Hochreines Pterostilben aus Sandelholz ist in der EU ein nicht zugelassenes neuartiges Lebensmittel. Biohacking Kompakt gibt keine Kaufempfehlung.',
     benefits: [
-      'Aktiviert Sirtuine und AMPK im Zellversuch',
-      'Kleine Studien deuten auf Effekte bei LDL und Blutzucker',
-      'Neuroprotektive Effekte im Tiermodell',
-      'Antioxidativ und anti-entzündlich',
-      'Stabile orale Bioverfügbarkeit'
+      'Bei Ratten etwa 80 % orale Bioverfügbarkeit gegenüber 20 % bei Resveratrol (Kapetanovic 2011) – am Menschen nicht verglichen',
+      'Senkte in einer RCT mit 80 Patienten in der höheren Dosis den Blutdruck um 7,8/7,3 mmHg (Riche 2014)',
+      'Kurzzeitig gut verträglich: keine Leber-, Nieren- oder Zuckerauffälligkeiten über 6 bis 8 Wochen (Riche 2013), keine Nebenwirkungen über 12 Wochen (Otsuka 2025)',
+      'Sirtuin-, AMPK- und Nervenschutz-Effekte nur in Zell- und Tierversuchen'
     ],
     risks: [
-      'Kann LDL leicht erhöhen (selten)',
-      'Wechselwirkung mit Blutverdünnern möglich',
-      'Langzeit-Humanstudien noch begrenzt'
+      'LDL-Cholesterin stieg in der RCT um 17,1 mg/dl unter Pterostilben allein (Riche 2014)',
+      'Hemmt Blutplättchen im Reagenzglas und verlängerte im Mausmodell die Verschlusszeit – Vorsicht mit Gerinnungshemmern',
+      'Hemmt CYP2C9 in Lebermikrosomen – Wechselwirkungen mit über CYP2C9 abgebauten Medikamenten möglich, klinisch ungeprüft',
+      'Keine Langzeitdaten, keine Daten zu Schwangerschaft und Stillzeit',
+      'In der EU nicht zugelassenes neuartiges Lebensmittel (hochreines Pterostilben aus Sandelholz)'
     ],
-    dosage: '50–150 mg täglich.',
-    intake: 'Morgens mit fettreicher Mahlzeit. Ideal mit NMN oder NR.',
-    synergies: ['nmn', 'resveratrol', 'coq10'],
+    dosage: 'Keine Dosierungsangabe. Pterostilben ist kein zugelassener Wirkstoff und in der EU ein nicht zugelassenes neuartiges Lebensmittel, deshalb greift § 3a Heilmittelwerbegesetz; zudem gibt Biohacking Kompakt für Pterostilben keine Kaufempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer Gerinnungshemmer oder andere Dauermedikamente nimmt oder erhöhtes Cholesterin hat, klärt Pterostilben vorher ärztlich.',
+    synergies: [],
     avoid: [],
-    evidence: 'mittel',
-    sources: 'Blaubeeren (höchste Quelle), Trauben, Mandeln'
+    evidence: 'niedrig',
+    sources: 'Nur in Spuren in wenigen Heidelbeersorten (99 bis 520 ng/g Trockenmasse, Rimando 2004); hochreines Pterostilben wird aus Sandelholz gewonnen'
   },
 
   // ============ NEU: NOOTROPIKA ============
@@ -1834,25 +1845,27 @@ const SUPPLEMENTS = [
     altNames: 'Betain',
     category: 'Aminosäure',
     tags: ['methylierung', 'herz', 'leber', 'homocystein', 'longevity'],
-    short: 'Methylgruppen-Spender – essenziell beim NMN-Stack, senkt Homocystein.',
-    description: 'TMG (Betain) liefert Methylgruppen für den Homocystein-Stoffwechsel. NMN und NR verbrauchen Methylgruppen – TMG füllt den Speicher auf. David Sinclair nimmt es täglich mit seinem NMN.',
+    short: 'Methylgruppenspender, der Homocystein zuverlässig senkt (zugelassene EU-Gesundheitsangabe). Kleiner Kraftvorteil im Unterkörper; ab 4 g pro Tag steigt das Cholesterin.',
+    description: 'TMG (Betain) gibt über die Betain-Homocystein-Methyltransferase eine Methylgruppe an Homocystein ab, daraus wird Methionin. Meta-Analysen randomisierter Studien zeigen bei mindestens 4 g pro Tag eine Senkung um 1,23 µmol/l (5 RCTs, McRae 2013); die EU erlaubt die Angabe, dass Betain zu einem normalen Homocystein-Stoffwechsel beiträgt (Wirkung bei 1,5 g täglich). Als Arzneimittel Cystadane ist Betain seit 2007 bei Homocystinurie zugelassen. Im Kraftsport zeigt eine Meta-Analyse über 17 Studien einen kleinen Vorteil (SMD 0,47), vor allem im Unterkörper; Körperzusammensetzung und Fettleber verbesserten sich nicht. Ab 4 g pro Tag steigen Gesamt- und LDL-Cholesterin. Dass TMG als Partner von NMN oder NR nötig ist, hat keine Humanstudie gezeigt.',
     benefits: [
-      'Senkt Homocystein (Herz-Kreislauf-Risikofaktor)',
-      'Unterstützt Leber-Entgiftung',
-      'Gleicht Methylgruppen-Verbrauch durch NMN/NR aus',
-      'Kann Leistungsfähigkeit steigern',
-      'Schützt vor Fettleber'
+      'Senkt Homocystein um 1,23 µmol/l (Meta-Analyse, 5 RCTs, mindestens 4 g pro Tag, McRae 2013); zugelassene EU-Gesundheitsangabe zum Homocystein-Stoffwechsel',
+      'Kleiner Zuwachs an Maximalkraft, vor allem im Unterkörper (SMD 0,47; Meta-Analyse, 17 Studien, 317 Teilnehmende, Zawieja 2024)',
+      'Zugelassenes Arzneimittel zur Zusatzbehandlung der Homocystinurie (Cystadane, EU seit 2007)',
+      'Kein belegter Effekt auf Körperfett oder Gewicht (Meta-Analyse, Ashtary-Larky 2022)',
+      'Fettleber: in einer 12-Monats-RCT mit 55 Patienten keine Verbesserung gegenüber Placebo (Abdelmalek 2009)'
     ],
     risks: [
-      'Kann „fischigen" Körpergeruch verursachen (TMA)',
-      'Hohe Dosen (>15 g): Magenbeschwerden'
+      'Ab 4 g pro Tag steigt das Cholesterin: Gesamtcholesterin +0,34 mmol/l (6 RCTs), LDL +10,26 mg/dl; EU-Pflichthinweis bei Produkten mit Gesundheitsangabe',
+      'Bei Homocystinurie-Patienten Anstieg des Methionins, Hirnödem möglich – nur mit ärztlicher Kontrolle (EMA)',
+      'Homocystein-Senkung ist ein Laborwert: Mit B-Vitaminen senkte sie in 15 RCTs Herzinfarkte und Sterblichkeit nicht (Cochrane 2017)',
+      'Kombination mit NMN oder NR am Menschen nicht untersucht'
     ],
-    dosage: '500 mg – 2 g täglich. Mit NMN: 1 g pro 500 mg NMN.',
-    intake: 'Morgens mit NMN/NR. Alternativ zu Mahlzeiten.',
-    synergies: ['nmn', 'vitamin-b-komplex', 'methylfolat'],
+    dosage: 'Die EU-Gesundheitsangabe setzt mindestens 500 mg je Portion voraus und bezieht sich auf 1,5 g täglich; mehr als 4 g täglich können laut Pflichthinweis den Cholesterinspiegel erheblich erhöhen. Die Meta-Analysen zur Homocystein-Senkung verwendeten mindestens 4 g pro Tag über 6 bis 24 Wochen, eine Fettleberstudie 20 g pro Tag über 12 Monate. Das sind Studien- und Rechtsangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien täglich über Wochen eingenommen, die Kraftwirkung nach mindestens 7 Tagen. Bei erhöhtem Cholesterin unter 4 g bleiben oder ärztlich abklären.',
+    synergies: ['vitamin-b-komplex', 'methylfolat'],
     avoid: [],
-    evidence: 'hoch',
-    sources: 'Rote Beete, Spinat, Quinoa, Weizenkeime'
+    evidence: 'mittel',
+    sources: 'Weizenkleie (1.339 mg pro 100 g), Weizenkeime (1.241 mg), Spinat (645 mg), Garnelen, Weizenbrot'
   },
   {
     id: 'methylfolat',
@@ -1890,25 +1903,27 @@ const SUPPLEMENTS = [
     altNames: 'Boron',
     category: 'Mineral',
     tags: ['hormone', 'testosteron', 'knochen', 'gelenke', 'longevity'],
-    short: 'Spurenelement mit Rolle im Knochenstoffwechsel. Als Testo-Booster beworben, Humandaten sehr dünn.',
-    description: 'Bor spielt im Knochen- und Mineralstoffwechsel eine Rolle. Die vielzitierte Testosteron-Studie stammt von 1987 und umfasste zwölf Frauen nach den Wechseljahren – untersucht wurde der Mineralstoffwechsel, nicht Testosteron bei Männern. Eine Studie an Bodybuildern fand keinen Testosteroneffekt gegenüber Placebo.',
+    short: 'Spurenelement ohne bekannte essenzielle Funktion beim Menschen. Als Testo-Booster beworben, die einzige RCT an Männern war negativ. BfR schlägt für Nahrungsergänzungsmittel höchstens 0,5 mg pro Tag vor.',
+    description: 'Bor beeinflusst in kleinen Studien den Calcium-, Magnesium- und Hormonstoffwechsel: Bei 12 Frauen nach der Menopause senkten 3 mg pro Tag nach borarmer Kost die Mineralverluste und hoben Östradiol und Testosteron (1987), eine Wiederholung fand das nicht. Die einzige randomisierte Studie an Männern (19 Bodybuilder, 2,5 mg, 7 Wochen) zeigte keinen Effekt auf Testosteron, Muskelmasse oder Kraft; positive Männerdaten stammen aus einer unkontrollierten Studie mit 8 Teilnehmern. Für Kniebeschwerden gibt es zwei kurze, herstellernahe Studien mit Calciumfructoborat. EFSA und NIH stufen Bor nicht als essenziell ein. Die EFSA-Obergrenze liegt bei 10 mg pro Tag, das BfR schlägt für Nahrungsergänzungsmittel 0,5 mg pro Tagesdosis und den Hinweis „Für Kinder und Jugendliche nicht geeignet“ vor.',
     benefits: [
-      'Wird als Testosteron-Booster beworben – am Menschen nicht belegt',
-      'Diskutierter Einfluss auf SHBG',
-      'Unterstützt Knochenmineralisierung',
-      'Hinweise auf entzündungshemmende Effekte',
-      'Einzelne kleine Studien zur kognitiven Leistung'
+      'Senkte bei 12 Frauen nach borarmer Kost die Calcium- und Magnesiumausscheidung (Nielsen 1987) – in einer Wiederholungsstudie nicht bestätigt (Beattie 1993)',
+      'Testosteron-Booster für Männer: nicht belegt – RCT mit 19 Bodybuildern ohne Effekt (Ferrando 1993)',
+      'Calciumfructoborat besserte Kniebeschwerden in einer 14-Tage-RCT mit 60 Personen (herstellernah, Pietrzkowski 2014)',
+      'Borarme Kost verschlechterte bei Älteren EEG, Aufmerksamkeit und Kurzzeitgedächtnis gegenüber normaler Zufuhr (Penland 1994)'
     ],
     risks: [
-      'Sehr hohe Dosen (>20 mg/Tag) langfristig problematisch',
-      'Niedriger Bedarf – nicht mehr ist besser'
+      'EFSA-Obergrenze 10 mg pro Tag aus allen Quellen; borreiche Kost und Mineralwasser können schon etwa 9 mg liefern (BfR)',
+      'Nicht für Kinder und Jugendliche: deren Aufnahme kann die Obergrenze schon ohne Supplemente erreichen (BfR)',
+      'Tierversuche: geringeres Fötusgewicht und Schäden an männlichen Fortpflanzungsorganen – Vorsicht in Schwangerschaft, Stillzeit und bei Kinderwunsch',
+      'Hob bei Frauen nach der Menopause das Östradiol – bei hormonabhängigen Erkrankungen ärztlich abklären',
+      'Akute Vergiftung: Übelkeit, Erbrechen, Durchfall, Hautausschlag (NIH)'
     ],
-    dosage: '3–10 mg täglich.',
-    intake: 'Morgens mit einer Mahlzeit.',
+    dosage: 'Studien verwendeten 2,5 mg (Bodybuilder, 7 Wochen), 3 mg (Frauen nach borarmer Kost) und 10 mg Bor pro Tag (8 Männer, 1 Woche). Grenzwerte: EFSA-Obergrenze 10 mg pro Tag für Erwachsene aus allen Quellen; das BfR schlägt für Nahrungsergänzungsmittel höchstens 0,5 mg pro Tagesdosis vor. Die übliche Zufuhr aus der Nahrung liegt bei US-Erwachsenen im Median bei 0,87 bis 1,35 mg. Das sind Studien- und Grenzwertangaben, keine Verzehrempfehlung.',
+    intake: 'Bor kommt vor allem über Obst und Gemüse; als Supplement nur Erwachsene, nicht in Schwangerschaft und Stillzeit, und nicht mehrere borhaltige Produkte kombinieren.',
     synergies: ['vitamin-d3', 'magnesium', 'zink'],
     avoid: [],
-    evidence: 'mittel',
-    sources: 'Rosinen, Avocado, Aprikosen, Mandeln, Wein'
+    evidence: 'niedrig',
+    sources: 'Pflaumensaft (1,43 mg pro Tasse), Avocado (1,07 mg pro halbe Tasse), Rosinen, Pfirsiche, Traubensaft; manche Mineralwässer'
   },
 
   // ============ NEU: PILZE & ADAPTOGENE ============
@@ -1918,25 +1933,26 @@ const SUPPLEMENTS = [
     altNames: 'Inonotus obliquus',
     category: 'Pilz',
     tags: ['immun', 'antioxidant', 'entzuendung', 'longevity', 'darm'],
-    short: 'Einer der stärksten natürlichen Antioxidantien. „König der Heilpilze" in Sibirien.',
-    description: 'Chaga wächst an Birken und enthält extrem viele Melanin, Beta-Glucane und Betulinsäure. ORAC-Wert (antioxidative Kapazität) ist einer der höchsten aller Naturstoffe. Traditionell als Tee getrunken.',
+    short: 'Birkenpilz aus der russischen Volksmedizin. Im Labor antioxidativ und blutzuckersenkend, am Menschen praktisch nicht untersucht; sehr oxalatreich, drei Fälle schwerer Nierenschäden sind dokumentiert.',
+    description: 'Chaga (Inonotus obliquus) wächst an Birken und wird als Tee, Pulver oder Extrakt verkauft. Zell- und Tierstudien zeigen antioxidative, blutzuckersenkende und entzündungshemmende Effekte; am Menschen gibt es nur zwei unkontrollierte sowjetische Studien (Psoriasis 1973, Magengeschwür 1981), keine kontrollierte Studie mit veröffentlichten Ergebnissen. Gemessen wurden 2,8 bis 14,2 g Oxalat pro 100 g Pulver; drei Fallberichte beschreiben Oxalat-Nephropathie bis zur Dialyse nach monate- bis jahrelanger Einnahme, ein Rattenversuch bestätigt den Mechanismus. Als Nahrungsergänzungsmittel in der EU nicht neuartig, in anderen Lebensmitteln neuartig.',
     benefits: [
-      'Höchster ORAC-Wert aller Lebensmittel',
-      'Moduliert das Immunsystem (Beta-Glucane)',
-      'Antiviral und anti-entzündlich',
-      'Unterstützt Darmschleimhaut',
-      'Kann Blutzucker regulieren'
+      'Antioxidativ, blutzuckersenkend und entzündungshemmend in Zell- und Tierstudien – am Menschen nicht geprüft',
+      'Im Reagenzglas weniger oxidative DNA-Schäden in Blutzellen (54,9 % bei Darmerkrankten, 34,9 % bei Gesunden, Najafzadeh 2007)',
+      'Zwei unkontrollierte sowjetische Studien: Besserung bei 50 Psoriasis-Patienten (1973), vorübergehend weniger Schmerz bei 58 Patienten mit Magengeschwür (1981)',
+      'Lange Tradition als Tee in Russland'
     ],
     risks: [
-      'Enthält Oxalate – bei Nierensteinen vorsichtig',
-      'Blutverdünnende Wirkung – vor OPs absetzen',
-      'Bei Autoimmunerkrankungen mit Arzt absprechen'
+      'Sehr oxalatreich (2,8 bis 14,2 g pro 100 g Pulver): drei Fälle von Oxalat-Nephropathie, zwei mit dauerhafter Dialyse (Kikuchi 2014, Lee 2020, Kwon 2022)',
+      'Nicht bei Nierensteinen, eingeschränkter Nierenfunktion oder zusammen mit hochdosiertem Vitamin C',
+      'Hemmt im Mausmodell die Blutplättchen – Vorsicht mit Gerinnungshemmern und vor Operationen (MSKCC)',
+      'Im Labor additive Blutzuckersenkung – bei Diabetesmedikamenten ärztlich abklären',
+      'Keine systematischen Sicherheitsdaten am Menschen, keine Daten zu Schwangerschaft und Stillzeit'
     ],
-    dosage: '500 mg – 2 g Extrakt (doppelt extrahiert) täglich.',
-    intake: 'Morgens oder mittags als Pulver, Tee oder Tinktur.',
-    synergies: ['reishi', 'cordyceps', 'vitamin-c'],
+    dosage: 'Keine Dosierungsangabe. Chaga ist kein zugelassener Wirkstoff, und es gibt keine Dosisstudien am Menschen. Dokumentierte Nierenschäden traten nach 3 g täglich über 4 Jahre und 9 g über 1 Jahr, nach 10 bis 15 g täglich über 3 Monate und nach 4 bis 5 Teelöffeln täglich über 6 Monate auf.',
+    intake: 'Keine Einnahmeempfehlung. Wer Chaga dennoch nutzt, sollte bei Nierenproblemen, Vitamin-C-Hochdosis, Gerinnungshemmern oder Diabetesmedikamenten vorher ärztlich abklären.',
+    synergies: ['reishi', 'cordyceps'],
     avoid: [],
-    evidence: 'mittel',
+    evidence: 'niedrig',
     sources: 'Wächst wild an Birken; meist als Extrakt erhältlich.'
   },
 
@@ -2091,23 +2107,23 @@ const SUPPLEMENTS = [
     altNames: 'NR, Niagen, Nicotinamide Riboside',
     category: 'Longevity',
     tags: ['anti-aging', 'longevity', 'energie', 'nad'],
-    short: 'NAD+-Vorstufe und Schwester von NMN: hebt den zellulären NAD+-Spiegel für Energie, Reparatur und gesundes Altern – die am besten untersuchte NAD-Marke (Niagen).',
-    description: 'Nicotinamid-Ribosid (NR) ist eine Vorstufe von NAD+, einem Coenzym, das für Energiegewinnung, DNA-Reparatur und die Aktivität der „Longevity-Enzyme" (Sirtuine) zentral ist. NAD+ sinkt mit dem Alter. NR wird effizient in NAD+ umgewandelt und ist – neben NMN – die am besten untersuchte NAD-Vorstufe (als Markenrohstoff Niagen). Humanstudien belegen zuverlässig steigende NAD+-Spiegel; der klinische Nutzen für Leistung/Altern wird noch erforscht.',
+    short: 'NAD+-Vorstufe aus der Vitamin-B3-Familie: hebt den NAD+-Spiegel im Blut zuverlässig an und ist in der EU als neuartiges Lebensmittel zugelassen – klinische Effekte auf Stoffwechsel und Altern blieben in den meisten Studien aus.',
+    description: 'Nicotinamid-Ribosid (NR) ist eine Vorstufe von NAD+, einem Coenzym, das unter anderem die Sirtuine benötigen, und eine Quelle für Niacin. In einer 8-wöchigen Placebo-Studie stieg NAD+ im Vollblut mit 100, 300 und 1000 mg um 22, 51 und 142 Prozent; auch im Gehirn ist ein Anstieg messbar. Eine kritische Übersicht über 25 Humanstudien (Science Advances 2023) findet aber nur wenige klinisch relevante Effekte: Insulinsensitivität, Blutzucker, Körperzusammensetzung und Blutdruck blieben meist unverändert, Hinweise gibt es auf weniger Entzündung. Bei Parkinson hob NR in einer Phase-I-Studie das NAD im Gehirn und senkte Entzündungsbotenstoffe; die Phase-III-Studie NOPARK mit 410 Teilnehmern ist abgeschlossen, aber nicht veröffentlicht. Die EFSA hält bis 300 mg am Tag für gesunde Erwachsene für sicher.',
     benefits: [
-      'Hebt in Humanstudien zuverlässig den NAD+-Spiegel im Blut',
-      'Unterstützt Energiestoffwechsel, DNA-Reparatur und Sirtuine',
-      'Gut verträglich und stabil; oral gut bioverfügbar',
-      'Alternative bzw. Ergänzung zu NMN'
+      'Hebt NAD+ im Blut dosisabhängig an (plus 22, 51 und 142 Prozent mit 100, 300 und 1000 mg; RCT, 8 Wochen, Conze 2019), auch im Gehirn messbar',
+      'Gut verträglich, kein Flush wie bei Nicotinsäure; 3000 mg am Tag über 4 Wochen ohne schwere Nebenwirkungen (20 Parkinson-Patienten)',
+      'Hinweise auf weniger Entzündung und Potenzial bei Parkinson (NADPARK, 30 Patienten, Phase I) – Phase-III-Ergebnisse stehen aus',
+      'Keine Verbesserung der Insulinsensitivität (40 Männer mit Adipositas, 12 Wochen) und meist kein Effekt auf Blutdruck oder Körperzusammensetzung'
     ],
     risks: [
-      'Steigende NAD+-Spiegel sind belegt – der Alters-/Leistungsnutzen beim Menschen ist noch nicht eindeutig',
-      'Sehr gut verträglich; selten leichte Übelkeit/Müdigkeit',
-      'Hochwertige (Niagen-)Ware bevorzugen; Qualität schwankt',
+      'Der NAD+-Anstieg ist belegt – ein Nutzen für Stoffwechsel, Leistung oder Altern beim Menschen bisher nicht',
+      'EFSA: bis 300 mg am Tag für gesunde Erwachsene sicher, für Schwangere und Stillende bis 230 mg; Obergrenze für Nicotinamid 900 mg am Tag',
+      'Keine Langzeitdaten über 6 Monate hinaus; für Kinder und Menschen mit Krebserkrankung keine Daten',
       'Kein Ersatz für Schlaf, Bewegung und Ernährung'
     ],
-    dosage: 'Typisch 250–500 mg NR täglich (Studien: 250–1.000 mg).',
-    intake: 'Morgens mit oder ohne Mahlzeit. Dauerhafte Einnahme üblich.',
-    synergies: ['nmn', 'resveratrol', 'pterostilben', 'tmg'],
+    dosage: 'Studien verwendeten 100 bis 2000 mg am Tag über Wochen bis Monate, in Hochdosis-Studien bei Parkinson kurzzeitig 3000 mg. Die EFSA hat NR-Chlorid in Nahrungsergänzungen bis 300 mg am Tag für gesunde Erwachsene als sicher bewertet, für Schwangere und Stillende bis 230 mg. Der NAD-Spiegel erreichte in einer Studie nach etwa 2 Wochen ein Plateau.',
+    intake: 'In den Studien meist einmal oder zweimal täglich; der Blutspiegel stieg über etwa 2 Wochen an und blieb dann stabil.',
+    synergies: [],
     avoid: [],
     evidence: 'mittel',
     sources: 'Spuren in Milch; als NR-/Niagen-Kapsel'
@@ -2175,26 +2191,27 @@ const SUPPLEMENTS = [
     altNames: 'Cistanche tubulosa/deserticola, Wüsten-Ginseng',
     category: 'Kräuter',
     tags: ['hormone', 'testosteron', 'libido', 'energie', 'anti-aging'],
-    short: 'Traditionelles „Wüsten-Ginseng"-Kraut: reich an Echinacosiden – genutzt für Libido, Testosteron-Unterstützung, Energie und (in Tierdaten) Immun- und Longevity-Effekte.',
-    description: 'Cistanche ist eine parasitäre Wüstenpflanze der TCM, reich an Phenylethanoid-Glykosiden (Echinacosid, Verbascosid). Traditionell für „Nieren-Yang", Libido und Vitalität genutzt. In Tier-/Zellstudien zeigt sie antioxidative, immunmodulierende und potenziell testosteronunterstützende Effekte; teils mit Langlebigkeit assoziiert.',
+    short: 'TCM-Tonikum aus der Wüste, reich an Echinacosid. Zwei kleine RCTs zeigen mehr Kraft beim Training und bessere Gehfähigkeit im Alter; für Libido und Potenz gibt es keine Humanstudie. In der EU nicht zugelassenes Novel Food.',
+    description: 'Cistanche deserticola und Cistanche tubulosa sind Wüstenpflanzen der Traditionellen Chinesischen Medizin mit Phenylethanoid-Glykosiden wie Echinacosid und Acteosid. In einer herstellerfinanzierten RCT mit 48 Männern steigerte Cistanche deserticola zusammen mit Krafttraining über 8 Wochen die Kraft stärker als Placebo, vor allem bei Untrainierten, mit günstigeren Testosteron- und Cortisolwerten. In einer universitären RCT mit 26 Personen verbesserte Cistanche tubulosa über 12 Wochen die Gehgeschwindigkeit über 60-Jähriger, ohne die Muskelmasse zu verändern. Drei größere Studien (100, 190, 117 Teilnehmende) testeten nur eine Kombination mit Ginkgo, alle mit Herstellerbeteiligung. Für Libido, Potenz und Langlebigkeit gibt es keine Humanstudie. Beide Arten sind in der EU nicht zugelassene neuartige Lebensmittel.',
     benefits: [
-      'Traditionell für Libido, Potenz und Vitalität',
-      'Reich an antioxidativen Echinacosiden',
-      'Tierdaten zu immunmodulierenden und Longevity-Effekten',
-      'Kann Energie und Ausdauer unterstützen'
+      'Mehr Kraftzuwachs beim Krafttraining als unter Placebo, vor allem bei Untrainierten (RCT, 48 Männer, 8 Wochen, herstellerfinanziert, Tao 2025)',
+      'Bessere Gehgeschwindigkeit und Schrittweite bei über 60-Jährigen, Muskelmasse unverändert (RCT, 26 Personen, 12 Wochen, Inada 2021)',
+      'In Kombination mit Ginkgo bessere Gedächtnis- und Screeningwerte (RCT, 100 Personen, 90 Tage, Herstellerautoren, Chen 2024)',
+      'Libido, Potenz und Langlebigkeit: nur Tradition und Tierversuche, keine Humanstudie'
     ],
     risks: [
-      'Human-Evidenz begrenzt – vieles aus Tradition und Tierstudien',
-      'Qualität/Standardisierung schwankt',
-      'Bei hormonabhängigen Erkrankungen ärztlich abklären',
-      'Als Ergänzung, kein Heilmittel'
+      'In der EU nicht zugelassenes neuartiges Lebensmittel (C. deserticola und C. tubulosa) – keine EU-Sicherheitsbewertung',
+      'Echinacosid hemmt im Labor CYP3A4, CYP2C19, CYP1A2 und CYP2E1 – Wechselwirkungen mit Medikamenten möglich, klinisch ungeprüft',
+      'Veränderte Testosteron- und Cortisolwerte in einer Studie – bei hormonabhängigen Erkrankungen ärztlich abklären',
+      'Keine Langzeitdaten über 90 Tage, keine Daten zu Schwangerschaft, Stillzeit und Kindern',
+      'Studienlage überwiegend herstellernah, unabhängige Wiederholungen fehlen'
     ],
-    dosage: 'Üblich 300–1.000 mg Extrakt täglich (standardisiert auf Echinacoside).',
-    intake: 'Mit Mahlzeit. Dauerhafte oder zyklische Einnahme.',
+    dosage: 'Keine Dosierungsangabe. Cistanche ist kein zugelassener Wirkstoff und in der EU ein nicht zugelassenes neuartiges Lebensmittel, deshalb greift § 3a Heilmittelwerbegesetz.',
+    intake: 'Keine Einnahmeempfehlung. Wer Dauermedikamente nimmt oder eine hormonabhängige Erkrankung hat, klärt Cistanche vorher ärztlich.',
     synergies: ['tongkat-ali', 'ginseng'],
     avoid: [],
     evidence: 'niedrig',
-    sources: 'Wüstenpflanze Cistanche (Stängel-Extrakt)'
+    sources: 'Getrockneter Stängel von Cistanche deserticola oder Cistanche tubulosa, vor allem aus der Inneren Mongolei, Gansu, Xinjiang und Qinghai'
   },
   {
     id: 'tribulus',
@@ -2202,24 +2219,24 @@ const SUPPLEMENTS = [
     altNames: 'Erd-Burzeldorn, Puncture Vine',
     category: 'Kräuter',
     tags: ['libido', 'hormone', 'sport'],
-    short: 'Klassisches Libido-Kraut: steigert in Studien vor allem das sexuelle Verlangen – der Testosteron-Effekt ist dagegen schwach belegt.',
-    description: 'Tribulus Terrestris ist ein traditionelles Kraut mit Saponinen (Protodioscin), lange als Testo-Booster vermarktet. Die Studienlage zeigt: Für die Libido/sexuelle Funktion gibt es Belege, für eine echte Testosteronsteigerung beim Menschen jedoch kaum – der Ruf als Testo-Booster ist überzogen.',
+    short: 'Klassisches Libido-Kraut: verbessert in Placebo-Studien die erektile Funktion, eine Meta-Analyse von 8 Studien bestätigt das – der Testosteron-Effekt bei normalen Werten ist dagegen nicht belegt.',
+    description: 'Tribulus Terrestris ist ein traditionelles Kraut mit steroidalen Saponinen (Protodioscin), lange als Testo-Booster vermarktet. Die Studienlage ist zweigeteilt: Für die erektile Funktion zeigt eine Meta-Analyse von 8 Studien einen Vorteil gegenüber Placebo (IIEF-5 plus 3,23 Punkte), die größte RCT mit 180 Männern war positiv. Beim Testosteron fanden 8 von 10 Studien keine Veränderung, nur 2 Studien bei Hypogonadismus einen kleinen Anstieg um 60 bis 70 ng/dl – der Ruf als Testo-Booster ist überzogen. Der Saponingehalt schwankt zwischen Produkten stark.',
     benefits: [
-      'Kann Libido und sexuelle Funktion verbessern (Studien)',
-      'Traditionell für Vitalität genutzt',
-      'Gut verfügbar und günstig'
+      'Verbessert die erektile Funktion: IIEF-5 um 3,23 Punkte besser als Placebo (Meta-Analyse, 8 Studien, Suharyani 2026); größte RCT mit 180 Männern über 12 Wochen positiv (Kamenov 2017)',
+      'Höhere Werte für sexuelle Funktion bei Frauen (5 RCTs, 279 Teilnehmerinnen) – sehr niedrige Gewissheit',
+      'Kurzfristig gut verträglich, Nebenwirkungen nicht häufiger als Placebo'
     ],
     risks: [
-      'Kaum echter Testosteron-Effekt beim Menschen (entgegen dem Marketing)',
-      'Qualität/Standardisierung (Protodioscin) sehr unterschiedlich',
-      'Selten Magen-Darm-Beschwerden',
-      'Als Libido-Support, nicht als Testo-Booster einordnen'
+      'Kein Testosteron-Effekt bei normalen Ausgangswerten (8 von 10 Studien ohne Änderung; Vilar Neto 2025) – als Libido- und Erektionsmittel einordnen, nicht als Testo-Booster',
+      'Saponingehalt schwankt stark; Studienergebnisse gelten für standardisierte Extrakte',
+      'Leichter Anstieg von AST und PSA in einer Studie mit 70 älteren Männern',
+      'Seltene Fallberichte über akutes Nierenversagen und Gelbsucht – bei Nierenerkrankungen meiden'
     ],
-    dosage: 'Üblich 250–750 mg Extrakt täglich (standardisiert auf Saponine/Protodioscin).',
-    intake: 'Mit Mahlzeit. Oft zyklisch.',
+    dosage: 'Studien verwendeten 400 bis 750 mg Extrakt pro Tag über 1 bis 3 Monate (Review, 10 Studien); die größte RCT gab 3 × 2 Tabletten eines Extrakts mit je 250 mg, standardisiert auf mindestens 112,5 mg Furostanol-Saponine, über 12 Wochen.',
+    intake: 'In der größten Studie nach den Mahlzeiten. Effekte wurden nach 1 bis 3 Monaten gemessen.',
     synergies: ['tongkat-ali', 'zink'],
     avoid: [],
-    evidence: 'niedrig',
+    evidence: 'mittel',
     sources: 'Frucht/Kraut von Tribulus terrestris (Extrakt)'
   },
   {
@@ -2323,22 +2340,23 @@ const SUPPLEMENTS = [
     altNames: 'BHB, Beta-Hydroxybutyrat, Ketone Ester/Salze',
     category: 'Longevity',
     tags: ['energie', 'gehirn', 'sport', 'stoffwechsel', 'fokus'],
-    short: 'Ketone zum Trinken: liefern dem Körper direkt den „Fasten-Treibstoff" BHB – für schnelle mentale und körperliche Energie ohne Kohlenhydrate.',
-    description: 'Exogene Ketone (v. a. Beta-Hydroxybutyrat, BHB) heben den Ketonspiegel im Blut an, ohne dass man fasten oder streng ketogen essen muss. Der Körper kann Ketone als alternativen Treibstoff für Gehirn und Muskeln nutzen. Ketonester wirken stärker (aber bitter/teuer), Ketonsalze milder. Genutzt für Fokus, Ausdauer und als Brücke in die Ketose.',
+    short: 'Ketone zum Trinken: heben den Fasten-Treibstoff BHB im Blut zuverlässig an. Kleiner Vorteil für die geistige Leistung in einer Meta-Analyse, kein Leistungsgewinn im Sport; Ketonsalze sind in der EU nicht zugelassen.',
+    description: 'Exogene Ketone (v. a. Beta-Hydroxybutyrat, BHB) heben den Ketonspiegel im Blut an, ohne dass man fasten oder streng ketogen essen muss. Ketonester wirken stärker (Spitzenwert 2,8 mM gegenüber 1,0 mM mit Salzen), Ketonsalze bestehen oft zur Hälfte aus L-BHB und liefern viel Natrium oder Kalium. Der Spiegel fällt nach 3 bis 4 Stunden wieder ab. Eine Meta-Analyse aus 29 Studienprotokollen fand einen kleinen Vorteil für die Kognition (SMD 0,29), bei Herzinsuffizienz stiegen in 4 kleinen RCTs Herzzeitvolumen und Auswurffraktion. Die sportliche Leistung verbesserte sich in zwei Meta-Analysen nicht. Die längste Sicherheitsstudie lief 28 Tage. BHB-Salze sind in der EU ein nicht zugelassenes Novel Food, die EFSA konnte ihre Sicherheit 2022 nicht feststellen.',
     benefits: [
-      'Schnelle Energie für Gehirn und Muskeln – auch ohne ketogene Ernährung',
-      'Kann Fokus und mentale Klarheit steigern',
-      'Von Ausdauersportlern für Energie und Regeneration genutzt',
-      'Kann Appetit dämpfen'
+      'Hebt den BHB-Spiegel zuverlässig an – Ester deutlich stärker als Salze (Stubbs 2017)',
+      'Kleiner Vorteil für die geistige Leistung gegenüber Placebo (SMD 0,29; Meta-Analyse, 29 Protokolle, 1.117 Teilnehmer, Bonnechère 2026)',
+      'Senkt kurzfristig Ghrelin und Hunger (15 Personen, Stubbs 2018)',
+      'Herzinsuffizienz: Herzzeitvolumen plus 1,11 l/min in 4 kleinen RCTs (Siddiqi 2026) – nur Surrogatmarker',
+      'Sportliche Leistung: kein Effekt in zwei Meta-Analysen (13 RCTs bzw. 8 Studien)'
     ],
     risks: [
-      'Ketonester schmecken unangenehm und sind teuer',
-      'Magen-Darm-Beschwerden bei höherer Dosis möglich',
-      'Ketonsalze liefern viel Natrium/Mineralstoffe (Menge beachten)',
-      'Kein Ersatz für gute Ernährung; Effekte individuell'
+      'Magen-Darm-Beschwerden bei großen Mengen; leichte Übelkeit nach 6 von 2.016 Drinks in 28 Tagen',
+      'Ketonester senkt den Blut-pH leicht (um 0,10); Ketonsalze liefern viel Natrium oder Kalium und enthalten oft zur Hälfte L-BHB',
+      'Senkt den Blutzucker – bei Diabetesmedikation ärztlich klären',
+      'Keine Sicherheitsdaten über 28 Tage hinaus; EFSA konnte die Sicherheit der BHB-Salze 2022 nicht feststellen'
     ],
-    dosage: 'Ketonester: ~10–25 g pro Portion; Ketonsalze nach Herstellerangabe.',
-    intake: 'Vor Sport oder mentaler Belastung; auf nüchternen Magen stärker wirksam.',
+    dosage: 'Keine Dosierungsangabe. Exogene Ketone sind kein zugelassener Wirkstoff, BHB-Salze sind in der EU ein nicht zugelassenes neuartiges Lebensmittel.',
+    intake: 'Nüchtern lag der Ketonspiegel in einer Studie um 33 Prozent höher als nach einer Mahlzeit; eine stärkere Wirkung ist damit nicht belegt. Der Spiegel fällt nach 3 bis 4 Stunden wieder ab.',
     synergies: ['mct-oel', 'elektrolyte', 'koffein'],
     avoid: [],
     evidence: 'mittel',
@@ -2521,22 +2539,22 @@ const SUPPLEMENTS = [
     altNames: 'Copper, Cuprum',
     category: 'Mineral',
     tags: ['immun', 'bindegewebe', 'energie', 'antioxidans'],
-    short: 'Ein essenzielles Spurenelement und wichtiger Zink-Partner: nötig für Bindegewebe, Eisenstoffwechsel, Nerven und antioxidative Enzyme.',
-    description: 'Kupfer ist ein essenzielles Spurenelement und Cofaktor vieler Enzyme (u. a. für Kollagen-/Elastin-Vernetzung, Eisenverwertung, Energiegewinnung und die antioxidative SOD). Wichtig ist die Balance zu Zink: hohe Zink-Dosen über längere Zeit können einen Kupfermangel begünstigen – daher wird Kupfer oft ergänzend dazu genommen.',
+    short: 'Essenzielles Spurenelement und wichtiger Zink-Gegenspieler: nötig für Bindegewebe, Eisenstoffwechsel, Nerven und antioxidative Enzyme. Die Nahrung deckt den Bedarf meist; Präparate vor allem bei hoher Zinkzufuhr oder Aufnahmestörungen.',
+    description: 'Kupfer ist Kofaktor mehrerer Enzyme für Energiegewinnung, Eisenstoffwechsel, Bindegewebe, Botenstoffe im Nervensystem und die antioxidative Superoxiddismutase. In Deutschland liegt die Aufnahme über die Nahrung im Median bei 1,2 bis 1,5 mg (Frauen) und 1,5 bis 1,8 mg (Männer) am Tag, im Bereich des Schätzwerts von 1 bis 1,5 mg. Hohe Zinkmengen blockieren die Kupferaufnahme über Metallothionein im Darm; bei jahrelanger Zinkeinnahme oder zinkhaltiger Haftcreme sind schwere Nervenschäden durch Kupfermangel beschrieben. Für Menschen ohne Mangel ist ein Nutzen von Kupferpräparaten nicht gezeigt, bei Alzheimer änderten 8 mg täglich über 12 Monate die Kognition nicht. Die EU-Obergrenze liegt bei 5 mg am Tag, das BfR schlägt für Nahrungsergänzungen höchstens 1 mg vor.',
     benefits: [
-      'Essenziell für Bindegewebe (Kollagen/Elastin) und Gefäße',
-      'Wichtig für Eisenverwertung und Blutbildung',
-      'Cofaktor der antioxidativen Superoxiddismutase (SOD)',
-      'Gleicht ein Zink-Kupfer-Ungleichgewicht bei hoher Zinkzufuhr aus'
+      'Essenziell für Bindegewebe, Eisentransport, Nervensystem, Immunsystem und Pigmentierung – als EU-Health-Claims zugelassen',
+      'Kofaktor der antioxidativen Superoxiddismutase und von Caeruloplasmin (Eisenstoffwechsel)',
+      'Behebt einen Kupfermangel, etwa nach Magen-Darm-Operationen, bei Zöliakie oder durch hohe Zinkzufuhr – dokumentierte Erholung von Nervenschäden nach Kupfergabe',
+      'Für Menschen ohne Mangel kein Nutzen gezeigt (Alzheimer-RCT mit 8 mg täglich ohne Effekt auf die Kognition)'
     ],
     risks: [
-      'Nur niedrig dosieren – zu viel Kupfer ist prooxidativ/toxisch',
-      'Balance zu Zink beachten (typisch ~10–15:1 Zink:Kupfer)',
+      'Enger Bereich: EU-Obergrenze 5 mg am Tag aus allen Quellen; bei 7 mg zusätzlich zur Nahrung reicherte sich Kupfer an und Immunwerte veränderten sich (9 Männer)',
+      'Hohe Zinkdosen (etwa 60 mg am Tag) senken den Kupferstatus; jahrelange Zinkeinnahme kann schweren Kupfermangel mit Rückenmarksschäden auslösen',
       'Nicht bei Morbus Wilson (Kupferspeicherkrankheit)',
-      'Meist nur bei hoher/längerer Zink-Supplementierung nötig'
+      'Laut BfR nicht für Kinder und Jugendliche in Nahrungsergänzungen'
     ],
-    dosage: 'Typisch 1–2 mg täglich (v. a. als Ausgleich zu höheren Zink-Dosen).',
-    intake: 'Mit einer Mahlzeit; zeitlich etwas versetzt zu hohen Zink-Dosen.',
+    dosage: 'Die Nahrung liefert in Deutschland im Median 1,2 bis 1,8 mg am Tag; Schätzwert für Erwachsene 1 bis 1,5 mg (D-A-CH), EFSA 1,6 mg (Männer) und 1,3 mg (Frauen). Für Nahrungsergänzungen schlägt das BfR höchstens 1 mg pro Tagesdosis vor, mit dem Hinweis „nicht für Kinder und Jugendliche“. EU-Obergrenze für die Gesamtzufuhr 5 mg am Tag.',
+    intake: 'Mit einer Mahlzeit. Wer dauerhaft hochdosiertes Zink nimmt, sollte den Kupferstatus ärztlich prüfen lassen, statt Kupfer auf Verdacht zu ergänzen.',
     synergies: ['zink'],
     avoid: [],
     evidence: 'hoch',

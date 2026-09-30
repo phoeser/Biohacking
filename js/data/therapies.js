@@ -101,14 +101,19 @@ const THERAPIES = [
     name: 'VNS-Analyse (HRV)',
     category: 'Ausstattung',
     emoji: '📈',
-    short: 'Messung der Herzraten-Variabilität zur Beurteilung des vegetativen Nervensystems – objektiver Marker für Stress, Erholung und Belastbarkeit.',
+    short: 'Messung der Herzfrequenzvariabilität (HRV) zur Einschätzung des vegetativen Nervensystems. Die HRV reagiert auf Stress und hängt mit dem Herz-Kreislauf-Risiko zusammen; aussagekräftig ist vor allem der Verlauf unter gleichen Bedingungen, nicht der Einzelwert.',
     benefits: [
-      'Objektiviert Stress- & Regenerationszustand',
-      'Zeigt Sympathikus/Parasympathikus-Balance',
-      'Basis für individuelles Coaching',
-      'Verlaufskontrolle therapeutischer Maßnahmen'
+      'Macht Stress- und Erholungszustand messbar – im Verlauf aussagekräftiger als als Einzelwert',
+      'Zeigt vor allem die Aktivität des Vagusnervs; die angezeigte Sympathikus/Parasympathikus-Balance (LF/HF) ist methodisch umstritten',
+      'Basis für HRV-Biofeedback, das in 58 randomisierten Studien kleine bis mittlere Effekte zeigte',
+      'Verlaufskontrolle für Training und Stressbewältigung'
     ],
-    indication: ['Stress', 'Burnout', 'Schlafprobleme', 'Sport-Performance'],
+    indication: [
+      'Stress',
+      'Erholung und Regeneration',
+      'Schlafprobleme',
+      'Sport-Performance'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/vns-analyse/'
   },
   {
@@ -116,22 +121,17 @@ const THERAPIES = [
     name: 'Infrarot-A (wIRA)',
     category: 'Ausstattung',
     emoji: '🔆',
-    short: 'Wassergefilterte Infrarot-A-Strahlung dringt tief ins Gewebe ein, fördert Mikrozirkulation und Sauerstoffversorgung.',
+    short: 'Wassergefilterte Infrarot-A-Strahlung dringt tief ins Gewebe ein und erhöht dort Temperatur und Sauerstoffdruck. Für die Wundheilung gibt es mehrere randomisierte Studien, für Schmerzen kleinere; für Regeneration bei Gesunden oder Verjüngung keine.',
     benefits: [
-      'Erhöht Durchblutung & Sauerstoffsättigung',
-      'Beschleunigt Wundheilung',
-      'Linderung bei muskuloskelettalen Beschwerden',
-      'Sehr verträglich ohne UV-Belastung'
+      'Erhöht Gewebetemperatur, Durchblutung und Sauerstoffpartialdruck im Gewebe (in Studien in 2 cm Tiefe gemessen)',
+      'Beschleunigt Wundheilung – mehrere randomisierte Studien bei Operationswunden, Verbrennungen und Beingeschwüren',
+      'Linderung bei Wundschmerz; bei Fibromyalgie als milde Ganzkörperhyperthermie in einer scheinkontrollierten Studie',
+      'Ohne UV-Strahlung; ob Infrarot A die Hautalterung fördert, wird diskutiert'
     ],
-    indication: ['Schmerzen', 'Wundheilung', 'Regeneration', 'Verspannungen'],
+    indication: ['Wundheilung', 'Schmerzen', 'Verspannungen'],
     link: 'https://munichhealthcenter.de/leistungen/infrarot-a/',
     podcasts: [
-      {
-        title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck',
-        spotify: '1z2wsgjkeNkKwJYdo4mCdW',
-        lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Sauna, Infrarotkabine und medizinische Ganzkörperhyperthermie im Vergleich – und warum wassergefiltertes Infrarot A (wIRA) heute das Mittel der Wahl ist, wenn die Kerntemperatur kontrolliert angehoben werden soll. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)'
-      }
+      { title: 'Ganzkörperhyperthermie & Infrarot: Die Wärme-Therapie im Faktencheck', spotify: '1z2wsgjkeNkKwJYdo4mCdW', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 73) · mit Paul & Paula. Sauna, Infrarotkabine und medizinische Ganzkörperhyperthermie im Vergleich – und warum wassergefiltertes Infrarot A (wIRA) heute das Mittel der Wahl ist, wenn die Kerntemperatur kontrolliert angehoben werden soll. Reine Information, keine Anwendungsempfehlung. (Veröffentlichung: 11.09.2026, 10:00)' }
     ]
   },
   {
@@ -139,14 +139,18 @@ const THERAPIES = [
     name: 'Bioadaptive Impulsanwendung',
     category: 'Ausstattung',
     emoji: '⚡',
-    short: 'Elektrische Stimulation mit körperangepassten Impulsen reguliert das vegetative Nervensystem bei akuten und chronischen Schmerzen.',
+    short: 'Elektrostimulation über die Haut, bei der das Gerät den Hautwiderstand misst und die Impulse laufend anpasst. Kurzfristige Schmerzlinderung ist für die verwandte TENS gut belegt; für die adaptiven Geräte gibt es wenige Studien, die einzige scheinkontrollierte fand keinen Vorteil gegenüber Schein.',
     benefits: [
-      'Schmerzlinderung über VNS-Aktivierung',
-      'Löst muskuläre Dysfunktionen',
+      'Kurzfristige Schmerzlinderung während und nach der Anwendung (für TENS in 381 Studien belegt)',
+      'Positive Einzelstudien nach Knie-OP und bei Plantarfasziitis – ohne Scheinkontrolle',
       'Nicht-invasiv & medikamentenfrei',
-      'Wirkt schnell, oft schon nach 1–3 Anwendungen'
+      'Sinnvoll als Ergänzung zu aktiven Maßnahmen, nicht als alleinige Behandlung'
     ],
-    indication: ['Rückenschmerzen', 'Migräne', 'Chronische Schmerzen', 'Verspannungen'],
+    indication: [
+      'Rückenschmerzen',
+      'Chronische Schmerzen (ergänzend)',
+      'Verspannungen'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/bioadaptive-impulsanwendung/'
   },
   {
@@ -154,14 +158,18 @@ const THERAPIES = [
     name: 'eSpineBot',
     category: 'Ausstattung',
     emoji: '🦴',
-    short: 'Roboter-gestützte Wirbelsäulen-Entlastung mit gezielter Druckanpassung – „Next-Level Rücken".',
+    short: 'Computergesteuerte Liege, die Vibration, rhythmische Beschleunigung, Luftdruckmassage, sanfte Traktion und Wärme kombiniert. Für das Gerät gibt es keine veröffentlichte kontrollierte Studie; Traktion war bei Kreuzschmerz nicht besser als eine Scheinbehandlung.',
     benefits: [
-      'Mobilisiert einzelne Wirbelsegmente',
-      'Entlastung der Bandscheiben',
-      'Verbessert Beweglichkeit & Haltung',
-      'Sanft, ohne manuelle Manipulation'
+      'Entspannende, nicht-invasive Anwendung im Liegen, nach Anbieterangaben 20 bis 50 Minuten',
+      'Einzelbausteine mit kleinen Effekten als Ergänzung: Wärme und Massage in Kombination mit aktivierenden Maßnahmen (Leitlinie Kreuzschmerz)',
+      'Vibration zeigte als aktives Training auf der Platte in einer Meta-Analyse Schmerzlinderung bei chronischem Kreuzschmerz – passive Anwendung im Liegen nicht untersucht',
+      'Keine Belege für Mobilisierung einzelner Wirbelsegmente oder Entlastung der Bandscheiben'
     ],
-    indication: ['Rückenschmerzen', 'Bandscheibenprobleme', 'Wirbelsäule', 'Haltungsschäden'],
+    indication: [
+      'Verspannungen im Rücken',
+      'Entspannung',
+      'Ergänzung zu aktiver Bewegungstherapie'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/espinebot/'
   },
   {
@@ -193,14 +201,19 @@ const THERAPIES = [
     name: 'Vitalpilze & Nahrungsergänzung',
     category: 'Ausstattung',
     emoji: '🍄',
-    short: 'Kuratierter Shop mit ausgewählten Qualitätsprodukten – Vitalpilze, Mikronährstoffe und Funktional-Supplements.',
+    short: 'Vitalpilze wie Reishi, Cordyceps, Löwenmähne und Chaga sowie weitere Nahrungsergänzungsmittel. Einzelne Effekte sind in kleinen Studien belegt, große Versprechen wie Krebs- oder Immunwirkung nicht; Qualität und Inhalt der Produkte schwanken stark.',
     benefits: [
-      'Geprüfte Qualität verschiedener Anbieter',
-      'Beratung vor Ort',
-      'Abgestimmt auf Behandlungskonzepte',
-      'Reishi, Cordyceps, Löwenmähne, Chaga u.a.'
+      'Reishi-Extrakt besserte in einer doppelblinden Studie Erschöpfung gegenüber Placebo (132 Patienten)',
+      'Löwenmähne verbesserte in einer kleinen Studie Gedächtnistests bei leichter kognitiver Beeinträchtigung – nur solange eingenommen',
+      'Beratung vor Ort kann helfen, Fruchtkörper, Myzel und Extrakte zu unterscheiden',
+      'Qualitätsmerkmale: lateinischer Artname, Angabe Fruchtkörper oder Myzel, Analysezertifikat mit Beta-Glucan, Stärke und Schadstoffen',
+      'Reishi, Cordyceps, Löwenmähne, Chaga u. a.'
     ],
-    indication: ['Immunsystem', 'Energie', 'Fokus', 'Schlaf'],
+    indication: [
+      'Erschöpfung (Reishi, kleine Studienlage)',
+      'Konzentration (Löwenmähne, kleine Studienlage)',
+      'Ausdauer (Cordyceps, gemischte Daten)'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/vitalpilze-und-nahrungsergaenzungsmittel/'
   },
   {
@@ -208,12 +221,12 @@ const THERAPIES = [
     name: 'Screenings',
     category: 'Ausstattung',
     emoji: '🧪',
-    short: 'Kompakte Analysen für eine schnelle Orientierung über ausgewählte Gesundheitswerte als Einstieg in personalisierte Konzepte.',
+    short: 'Kompakte Blutanalysen, oft aus Kapillarblut, zu Fettsäureprofil, Nährstoffstatus und weiteren Werten als Selbstzahlerleistung. Die Messung kann bei validierter Methode verlässlich sein; allgemeine Gesundheitschecks senkten in einer Cochrane-Übersicht aus 17 Studien die Sterblichkeit aber nicht.',
     benefits: [
-      'Zügige Bestandsaufnahme',
-      'Basis für individuelle Empfehlungen',
-      'Verlaufskontrolle möglich',
-      'Niedrigschwelliger Einstieg'
+      'Kapillarblutproben stimmten bei validierter Methode gut mit Venenblut überein (Vitamin D: 90 Prozent der Werte innerhalb von 20 Prozent)',
+      'Omega-3-Index: höhere Spiegel in 17 Kohorten mit 15 bis 18 Prozent niedrigerer Sterblichkeit verbunden – Zusammenhang, kein Wirknachweis',
+      'Verlaufskontrolle, wenn aus einem Wert eine konkrete Maßnahme folgt',
+      'Ergänzung zum Kassen-Check-up (18 bis 34 einmal, ab 35 alle drei Jahre), nicht Ersatz'
     ],
     indication: ['Erstcheck', 'Prävention', 'Verlaufskontrolle'],
     link: 'https://munichhealthcenter.de/leistungen/screenings/'
@@ -225,12 +238,12 @@ const THERAPIES = [
     name: 'Prävention, Epigenetik & Genetik',
     category: 'Schwerpunkt',
     emoji: '🧬',
-    short: 'Spezialisten reflektieren persönliche Gesundheitsressourcen und ordnen Vitalität individuell ein – mit Blick auf Gen- und Epigenetik.',
+    short: 'Prävention mit Blick auf Gene und Epigenetik: Risikoprofil und biologisches Alter aus Gen- und Methylierungsmustern. Epigenetische Uhren sind ein starkes Forschungswerkzeug, für die Einzelperson aber ungenau; dass ein besserer Wert Krankheiten verhindert, ist nicht gezeigt.',
     benefits: [
-      'Individuelle Risikoeinschätzung',
-      'Lifestyle-Hebel auf Gen-Expression',
-      'Langfristige Prävention',
-      'Personalisierte Gesundheitsstrategie'
+      'Ausführliche Risikoeinschätzung aus Familiengeschichte, Laborwerten und bei klarer Indikation Genetik',
+      'Lebensstil wirkt nachweislich: fünf Niedrigrisiko-Faktoren gehen in großen Kohorten mit deutlich längerer Lebenserwartung einher',
+      'Epigenetische Uhren sagen in Studien Sterblichkeit vorher; Kalorienrestriktion verlangsamte in einer großen RCT das gemessene Alterungstempo',
+      'Langfristige Prävention – die gesetzliche Basis ist der Check-up ab 35 alle drei Jahre'
     ],
     indication: ['Prävention', 'Anti-Aging', 'Familiäre Risiken', 'Longevity'],
     link: 'https://munichhealthcenter.de/leistungen/praevention-epigenetik-genetik/'
@@ -240,12 +253,13 @@ const THERAPIES = [
     name: 'Long Covid & Post-Vac',
     category: 'Schwerpunkt',
     emoji: '🦠',
-    short: 'Ganzheitliche Einordnung anhaltender Beschwerden im zeitlichen Zusammenhang mit COVID-19 oder Impfungen.',
+    short: 'Einordnung und Begleitung anhaltender Beschwerden nach COVID-19 oder im zeitlichen Zusammenhang mit einer Impfung. Belegt sind Verhaltenstherapie, kombinierte Reha und dosiertes Training; eine ursächliche Therapie gibt es nicht, Kassenversorgung über die Long-COVID-Richtlinie.',
     benefits: [
-      'Strukturierte Analyse der Symptome',
-      'Kombination aus IHHT, Hyperthermie & VNS',
-      'Mitochondriale Regeneration',
-      'Begleitung über mehrere Wochen'
+      'Strukturierte Analyse der Symptome mit Abklärung anderer Ursachen',
+      'Online-Verhaltenstherapie und kombinierte körperliche und psychische Reha bessern Symptome (moderate Evidenz, 24 randomisierte Studien)',
+      'Dosiertes Intervalltraining verbessert die körperliche Funktion – bei Belastungsintoleranz (PEM) nur mit Pacing',
+      'Begleitung über mehrere Wochen',
+      'Geräteverfahren wie Hypoxietraining oder Hyperthermie: erste Signale, aber keine randomisierten Studien'
     ],
     indication: ['Fatigue', 'Atemnot', 'Brain Fog', 'Belastungsintoleranz'],
     link: 'https://munichhealthcenter.de/leistungen/long-covid-postvirale-belastungszustaende/'
@@ -255,12 +269,13 @@ const THERAPIES = [
     name: 'Chronische Schmerzen',
     category: 'Schwerpunkt',
     emoji: '💢',
-    short: 'Begleitende Ansätze bei chronischen Schmerzzuständen – individuell und technologiegestützt.',
+    short: 'Schmerz, der länger als 3 Monate anhält. Am besten belegt ist die multimodale Schmerztherapie aus Bewegung, psychologischen Verfahren und Aufklärung im interdisziplinären Team – wirksamer als die übliche Versorgung, im Mittel aber mit kleinen Effekten.',
     benefits: [
-      'Multimodaler Ansatz statt Symptomunterdrückung',
-      'Kombiniert Bioadaptive Impulse, Infrarot-A, Hyperthermie',
-      'VNS-Analyse als Basis',
-      'Reduziert Medikamentenbedarf'
+      'Multimodaler Ansatz: Bewegung, psychologische Verfahren und Aufklärung, abgestimmt in einem Team aus mehreren Fachrichtungen',
+      'Bei chronischem Kreuzschmerz wirksamer als die übliche Versorgung (Cochrane-Analyse, 41 Studien), mit kleinen mittleren Effekten',
+      'Bewegungstherapie senkt den Schmerz bei chronischem Kreuzschmerz klinisch relevant (249 Studien)',
+      'Stationär oder tagesklinisch als Kassenleistung möglich, wenn die Voraussetzungen erfüllt sind',
+      'Apparative Verfahren wie Elektrostimulation oder Wärme allenfalls als Ergänzung zu aktiven Maßnahmen'
     ],
     indication: ['Rückenschmerzen', 'Fibromyalgie', 'Migräne', 'Gelenkschmerzen'],
     link: 'https://munichhealthcenter.de/leistungen/chronische-schmerzen/'
@@ -270,14 +285,19 @@ const THERAPIES = [
     name: 'Stoffwechsel & Autoimmun',
     category: 'Schwerpunkt',
     emoji: '🔄',
-    short: 'Individuelle Betrachtung von Stoffwechsel- und Autoimmunprozessen, unterstützt durch moderne Technologien.',
+    short: 'Begleitprogramme für Stoffwechsel- und Autoimmunerkrankungen mit Lebensstil, Mikronährstoffen und Verfahren wie Hypoxietraining oder Hyperthermie. Lebensstil ist bei Prädiabetes stark belegt, Vitamin D senkte neue Autoimmunerkrankungen; für Hypoxietraining und Hyperthermie bei Autoimmunerkrankungen fand sich keine randomisierte Studie.',
     benefits: [
-      'Wurzelursachen-Ansatz',
-      'Mikronährstoff-Optimierung',
-      'IHHT & Hyperthermie modulieren Immunsystem',
-      'Langfristige Begleitung'
+      'Lebensstilprogramm senkte bei erhöhtem Blutzucker neue Diabetesfälle um 58 Prozent (Diabetes Prevention Program)',
+      'Vitamin D senkte in der VITAL-Studie neu auftretende Autoimmunerkrankungen um 22 Prozent',
+      'Selen senkt bei Hashimoto die Schilddrüsenantikörper – Verlaufseffekt offen, Ergänzung nur ärztlich abgestimmt',
+      'Hypoxie-Hyperoxie-Training senkte bei metabolischem Syndrom den Blutdruck; für Autoimmunerkrankungen nicht untersucht'
     ],
-    indication: ['Hashimoto', 'Rheuma', 'Insulinresistenz', 'Übergewicht', 'Allergien'],
+    indication: [
+      'Insulinresistenz und Prädiabetes',
+      'Übergewicht',
+      'Hashimoto (ergänzend zur ärztlichen Therapie)',
+      'Rheuma (ergänzend zur ärztlichen Therapie)'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/stoffwechsel-und-autoimmunprozesse/'
   },
   {
@@ -285,14 +305,14 @@ const THERAPIES = [
     name: 'Wirbelsäulenregeneration',
     category: 'Schwerpunkt',
     emoji: '🧘',
-    short: 'Gezielte Impulse für Balance, Beweglichkeit und spürbare Entlastung der Wirbelsäule.',
+    short: 'Gerätegestützte Programme für Rücken und Nacken aus Vibrationsliege mit Traktion, Infrarot-A-Wärme und elektrischen Impulsen. Belegt ist bei chronischen Rückenschmerzen vor allem aktive Bewegungstherapie; von Traktion mit Gerät und elektrischer Nervenstimulation rät die Leitlinie ab, eine Regeneration der Wirbelsäule ist nicht belegt.',
     benefits: [
-      'Kombiniert eSpineBot, Bioadaptive Impulse, Infrarot-A',
-      'Strukturelle + neuronale Entlastung',
-      'Schnelle Schmerzreduktion',
-      'Nachhaltige Beweglichkeit'
+      'Wärme lindert akute und subakute Kreuzschmerzen kurzfristig, besonders zusammen mit Übungen (Cochrane)',
+      'Kann als Einstieg in aktive Bewegungstherapie dienen – die bei chronischen Rückenschmerzen am besten belegte Maßnahme',
+      'Traktion war nicht besser als Scheinbehandlung; elektrische Nervenstimulation bei chronischem Kreuzschmerz nicht gestützt',
+      'Keine Belege für Regeneration von Bandscheiben oder Wirbelstrukturen'
     ],
-    indication: ['Rücken', 'Nacken', 'Bandscheiben', 'Haltung'],
+    indication: ['Rücken', 'Nacken', 'Verspannungen', 'Ergänzung zu Bewegungstherapie'],
     link: 'https://munichhealthcenter.de/leistungen/wirbelsaeulenregeneration/'
   },
   {
@@ -300,14 +320,19 @@ const THERAPIES = [
     name: 'Mikronährstoff-Beratung',
     category: 'Schwerpunkt',
     emoji: '💊',
-    short: 'Individuelle Empfehlungen zur gezielten Unterstützung von Wohlbefinden und Leistungsfähigkeit.',
+    short: 'Beratung, welche Vitamine und Mineralstoffe tatsächlich fehlen. Gut belegt ist gezielte Ergänzung bei nachgewiesenem Mangel und Folsäure bei Kinderwunsch; der Nutzen eines Laborscreenings ohne Beschwerden ist laut IGeL-Monitor unklar.',
     benefits: [
-      'Auf Laborwerte gestützt',
-      'Vermeidet sinnlose Mehrfach-Supplementierung',
-      'Berücksichtigt Wechselwirkungen',
-      'Verlaufskontrolle möglich'
+      'Gezielte Messung bei Beschwerden oder Risikofaktoren statt Rundum-Screening',
+      'Vermeidet Mehrfach-Einnahme und prüft Wechselwirkungen mit Medikamenten',
+      'Belegt bei Kinderwunsch: Folsäure senkte Neuralrohrdefekte in einer Cochrane-Übersicht deutlich (relatives Risiko 0,31)',
+      'Verlaufskontrolle nach gezielter Ergänzung, Obergrenzen im Blick (z. B. Vitamin B6 höchstens 12 mg pro Tag laut EFSA)'
     ],
-    indication: ['Erschöpfung', 'Mangelzustände', 'Sport', 'Schwangerschaft'],
+    indication: [
+      'Nachgewiesene Mangelzustände',
+      'Erschöpfung mit gemessenem Mangel',
+      'Kinderwunsch und Schwangerschaft',
+      'Sport'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/mikronaehrstoffe/'
   },
   {
@@ -315,14 +340,20 @@ const THERAPIES = [
     name: 'Gesundheitscoaching',
     category: 'Schwerpunkt',
     emoji: '🎯',
-    short: 'Mentor*innen begleiten individuell – alltagsnahe Strategien für Balance, Energie und Lebensqualität.',
+    short: 'Strukturierte Begleitung zur Verhaltensänderung bei Bewegung, Ernährung, Stress und Schlaf. Belegt sind kleine Effekte auf Aktivität, Schmerz und Blutdruck; beim Abnehmen zeigen hochwertige Studien kaum einen Effekt, und die Qualität der Angebote schwankt stark.',
     benefits: [
-      'Praxistaugliche Routinen',
-      'Mindset & Motivation',
-      'Verbindet Lifestyle, Ernährung, Bewegung',
-      'Langfristige Verhaltensänderung'
+      'Praxistaugliche Routinen durch eigene Ziele, kleine Schritte und regelmäßige Rückmeldung',
+      'Mehr körperliche Aktivität, in Meta-Analysen in kleinem Ausmaß belegt',
+      'Bei chronischem Schmerz etwas weniger Schmerz und Beeinträchtigung (26 Studien)',
+      'Bei Bluthochdruck niedrigere Werte in randomisierten Studien (12 Studien)',
+      'Verbindet Lifestyle, Ernährung und Bewegung – ersetzt aber keine ärztliche oder psychotherapeutische Behandlung'
     ],
-    indication: ['Burnout', 'Stressmanagement', 'Lifestyle', 'Schlaf', 'Gewicht'],
+    indication: [
+      'Stressmanagement',
+      'Bewegungsmangel',
+      'Lifestyle',
+      'Bluthochdruck (begleitend)'
+    ],
     link: 'https://munichhealthcenter.de/leistungen/gesundheitscoaching/'
   },
 
@@ -332,12 +363,12 @@ const THERAPIES = [
     name: 'Ärztliche Leistungen',
     category: 'Netzwerk',
     emoji: '👨‍⚕️',
-    short: 'Experten aus funktioneller und regenerativer Medizin im MHC-Netzwerk.',
+    short: 'Ärztliche Sprechstunden mit Schwerpunkt Prävention und Lebensstil, meist als Privat- oder Selbstzahlerleistung. „Funktionelle“ und „regenerative Medizin“ sind keine ärztlichen Weiterbildungsbezeichnungen; zum Konzept gibt es eine Kohortenstudie mit kleinem Effekt und eine negative kleine randomisierte Studie.',
     benefits: [
-      'Schulmedizin + Funktionsmedizin',
-      'Schnittstelle zu Diagnostik',
-      'Rezeptfähige ärztliche Begleitung',
-      'Erfahrene Spezialisten'
+      'Mehr Zeit für Anamnese, Lebensstil und die Einordnung von Befunden',
+      'Rezepte, Überweisungen und Zweitmeinung; bei bestimmten planbaren Eingriffen ist die Zweitmeinung Kassenleistung',
+      'Qualifikation prüfbar über Facharzt- und Zusatzbezeichnungen der Landesärztekammer (z. B. Ernährungsmedizin, Sportmedizin)',
+      'Abrechnung nach Gebührenordnung für Ärzte mit Kosteninformation in Textform und schriftlichem Vertrag'
     ],
     indication: ['Komplexe Krankheitsbilder', 'Zweitmeinung', 'Diagnostik-Bedarf'],
     link: 'https://munichhealthcenter.de/ausstattung/aerztliche-leistungen/'
@@ -347,12 +378,12 @@ const THERAPIES = [
     name: 'Genanalysen',
     category: 'Netzwerk',
     emoji: '🧬',
-    short: 'Präzise Genanalysen für personalisierte Gesundheits- und Präventionsansätze.',
+    short: 'Analyse von Genvarianten aus Speichel oder Blut. Belegt ist der Nutzen vor allem bei erblichen Erkrankungen und in der Pharmakogenetik vor bestimmten Medikamenten; Ernährungs-, Sport- und polygene Risikoprofile haben in Studien keinen Zusatznutzen gezeigt.',
     benefits: [
-      'SNP-basierte Risiko-Profile',
-      'Pharmakogenetik (Medikamenten-Verträglichkeit)',
-      'Ernährungs- & Sport-Genetik',
-      'Basis für Epigenetik-Coaching'
+      'Pharmakogenetik: In einer europäischen Studie mit 6.944 Patienten sanken klinisch relevante Nebenwirkungen nach einem 12-Gen-Panel von 28,6 auf 21,5 Prozent (Lancet 2023)',
+      'Einzelne Tests sind Kassenleistung, etwa die DPD-Testung vor Chemotherapie mit Fluoropyrimidinen seit 1. Oktober 2020',
+      'Abklärung erblicher Erkrankungen bei Verdacht oder familiärer Häufung, mit ärztlicher Beratung nach Gendiagnostikgesetz',
+      'Ernährungs- und Sport-Genetik: in zwei randomisierten Studien (DIETFITS, Food4Me) kein Zusatznutzen gegenüber Beratung ohne Gene'
     ],
     indication: ['Personalisierte Medizin', 'Prävention', 'Familiäre Risiken'],
     link: 'https://munichhealthcenter.de/ausstattung/genanalysen/'
@@ -362,12 +393,13 @@ const THERAPIES = [
     name: 'Persönlichkeitsdiagnostik',
     category: 'Netzwerk',
     emoji: '🧠',
-    short: 'Wissenschaftlich fundierte Innermetrix-Analyse für Selbsterkenntnis und persönliche Entwicklung.',
+    short: 'Fragebogenbasierte Beschreibung von Persönlichkeitsmerkmalen für Selbsterkenntnis und Coaching. Am besten erforscht ist das Fünf-Faktoren-Modell; für viele kommerzielle Typen- und Profiltests fehlen unabhängige Validierungsstudien.',
     benefits: [
-      'Werte, Stärken, Verhaltensmuster sichtbar',
-      'Basis für Coaching & Karriere',
-      'Verbessert Teamarbeit & Kommunikation',
-      'Erkenntnisse für Stress-Mustern'
+      'Macht Werte, Stärken und Verhaltensmuster zum Gesprächsthema',
+      'Basis für Coaching und Karriereplanung – als Anstoß, nicht als Urteil',
+      'Big-Five-Merkmale hängen in großen Meta-Analysen mit Gesundheit, Beruf und Lebenserwartung zusammen',
+      'Zeigt, wie jemand typischerweise auf Belastung reagiert – ohne Krankheiten festzustellen',
+      'Qualitätsmaßstab für berufsbezogene Verfahren: DIN 33430'
     ],
     indication: ['Coaching', 'Karriereentwicklung', 'Stressbewältigung', 'Teams'],
     link: 'https://munichhealthcenter.de/ausstattung/melanie-schwarz/'
@@ -377,12 +409,12 @@ const THERAPIES = [
     name: 'Epigenetik-Coaching',
     category: 'Netzwerk',
     emoji: '🔬',
-    short: 'Epigenetik individuell verstanden und begleitet – Lifestyle-Hebel auf Gen-Aktivität.',
+    short: 'Lebensstil-Begleitung mit Messung epigenetischer Uhren vorher und nachher. Dass Ernährung und Omega-3 die Uhren in randomisierten Studien bewegen, ist gezeigt; ob das Krankheiten verhindert, nicht. Klassische Uhren schwanken zwischen Messungen derselben Probe um bis zu 9 Jahre.',
     benefits: [
-      'Übersetzt Gendaten in Alltag',
-      'Ernährung, Bewegung, Stress als Schalter',
-      'Verlaufsmessung der bio. Alterung',
-      'Synergetisch zu Genanalysen'
+      'Strukturiertes Programm zu Ernährung, Bewegung, Schlaf und Stress – Hebel, die auch unabhängig von der Messung gut belegt sind',
+      'Neuere Uhren (z. B. GrimAge) sagen Sterblichkeit und Krankheiten in großen Studien vorher',
+      'In randomisierten Studien verlangsamten Kalorienrestriktion (CALERIE) und Omega-3 (DO-HEALTH) das gemessene Alterungstempo – kleine Effekte',
+      'Verlaufsmessung nur mit derselben Methode im selben Labor sinnvoll; Messunsicherheit beachten'
     ],
     indication: ['Anti-Aging', 'Prävention', 'Lifestyle-Optimierung'],
     link: 'https://munichhealthcenter.de/ausstattung/epigenetik-coach/'
@@ -392,14 +424,19 @@ const THERAPIES = [
     name: 'Mikronährstoff-Coaching',
     category: 'Netzwerk',
     emoji: '🌿',
-    short: 'Personalisierte Mikronährstoff-Konzepte durch spezialisierte Expert*innen.',
+    short: 'Begleitete Beratung zu Ernährung und Mikronährstoffen über mehrere Termine. Einzelberatung durch qualifizierte Ernährungsfachkräfte ist gut untersucht; Gen-basierte Anpassungen und Detox-Programme sind es nicht. Die Bezeichnung „Coach“ ist nicht geschützt.',
     benefits: [
-      'Labor- statt Bauchgefühl-basiert',
-      'Berücksichtigt Genetik & Stoffwechsel',
-      'Individuelle Dosierung',
-      'Synergien sinnvoll kombiniert'
+      'Einzelberatung durch qualifizierte Fachkräfte verbesserte in einer Übersicht aus 26 randomisierten Studien Blutzucker, Ernährungsqualität und Gewicht',
+      'Laborgestützt: gezielte Korrektur eines nachgewiesenen Mangels, etwa Eisen bei Müdigkeit ohne Blutarmut',
+      'Räumt überlappende Präparate auf und prüft Wechselwirkungen mit Medikamenten',
+      'Gen-Information brachte in der Food4Me-Studie keinen Zusatznutzen gegenüber Beratung ohne Gene'
     ],
-    indication: ['Mangelzustände', 'Chronische Erschöpfung', 'Sport', 'Detox'],
+    indication: [
+      'Nachgewiesene Mangelzustände',
+      'Erschöpfung mit gemessenem Mangel',
+      'Sport',
+      'Ernährungsbedingte Erkrankungen (ärztlich begleitet)'
+    ],
     link: 'https://munichhealthcenter.de/ausstattung/mikronaehrstoff-coach/'
   },
 
@@ -548,14 +585,14 @@ const THERAPIES = [
     emoji: '🧫',
     short: 'Eigene oder gespendete Stammzellen (z. B. mesenchymal) zur Regeneration von Gelenken, Gewebe und – in Longevity-Kliniken – als systemischer Anti-Aging-Ansatz.',
     benefits: [
-      'Potenzial zur Regeneration von Knorpel, Gelenken und Gewebe',
-      'Entzündungsmodulierende und heilungsfördernde Effekte',
-      'Wird bei orthopädischen Problemen und in Longevity-Kliniken genutzt',
-      'Aktives Forschungsfeld mit breitem Potenzial'
+      'Blutstammzelltransplantation bei Blutkrankheiten ist etablierte Medizin; 2024 erste US-Zulassung einer mesenchymalen Stromazelltherapie (Kinder mit schwerer Abstoßungsreaktion)',
+      'Kniearthrose: Zellinjektionen lindern Schmerzen, in der größten Studie (480 Patienten) aber nicht besser als Kortison – kein Knorpelaufbau im MRT',
+      'Gebrechlichkeit im Alter: eine kleine placebokontrollierte Phase-II-Studie, gut verträglich',
+      'Anti-Aging bei Gesunden: keine kontrollierte Studie'
     ],
     indication: ['Gelenke/Orthopädie', 'Regeneration', 'Anti-Aging', 'Entzündung'],
-    note: 'Evidenz je nach Anwendung sehr unterschiedlich; viele Angebote sind unreguliert und teuer. Seriöse Klinik und Aufklärung entscheidend.',
-    link: 'https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/consumer-alert-regenerative-medicine-products-including-stem-cells-and-exosomes'
+    link: 'https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/consumer-alert-regenerative-medicine-products-including-stem-cells-and-exosomes',
+    note: 'Stammzellpräparate sind meist Arzneimittel für neuartige Therapien (ATMP) – nur zugelassen, in genehmigten Studien oder unter der Krankenhausausnahme anwendbar. EMA und Paul-Ehrlich-Institut warnten am 31.03.2025 vor kommerziellen Angeboten mit nicht zugelassenen Zelltherapien. Dokumentiert sind Erblindung und Todesfälle nach ungeprüften Behandlungen.'
   },
   {
     id: 'exosomen',
@@ -594,16 +631,16 @@ const THERAPIES = [
     name: 'Ozontherapie',
     category: 'Biohacking',
     emoji: '🅾️',
-    short: 'Medizinisches Ozon (z. B. als Eigenblutbehandlung) soll Sauerstoffverwertung, Durchblutung und Immunfunktion anregen – populär, aber wissenschaftlich umstritten.',
+    short: 'Sauerstoff-Ozon-Gemisch als Injektion, äußerlich oder als Eigenbluttherapie – soll über einen milden oxidativen Reiz körpereigene Schutzsysteme anregen. Für örtliche Schmerzinjektionen gibt es kleine randomisierte Studien, für die systemische Anwendung kaum Daten.',
     benefits: [
-      'Soll die Sauerstoffverwertung und Durchblutung verbessern',
-      'Berichtete immunmodulierende und antimikrobielle Effekte',
-      'Wird bei chronischen Infekten, Wunden und Erschöpfung eingesetzt',
-      'Verschiedene Anwendungsformen (Eigenblut, lokal)'
+      'Kniearthrose: In 7 kontrollierten Studien mit 409 Menschen linderten Ozon-Injektionen Schmerzen kurz- und mittelfristig stärker als Kortison – bei begrenzter Studienqualität',
+      'Schulter: 5 randomisierte Studien zeigen Besserung von Schmerz und Funktion, länger anhaltend als unter Kortison',
+      'Diabetischer Fuß: kein gesicherter Vorteil bei der Abheilung (Cochrane und Umbrella-Review 2026)',
+      'Große Eigenbluttherapie bei Long-/Post-COVID: keine Studie vorhanden, IGeL-Monitor bewertet sie als unklar'
     ],
     indication: ['Immun/Infekte', 'Durchblutung', 'Wundheilung', 'Erschöpfung'],
-    note: 'Wissenschaftlich umstritten; Evidenz begrenzt und uneinheitlich. Nur bei erfahrenen Behandlern, korrekte Dosierung ist sicherheitskritisch.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6122111/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42346828/',
+    note: 'Evidenzsicherheit laut Umbrella-Review 2026 für alle Endpunkte niedrig oder sehr niedrig. Dokumentierte schwere Komplikationen (Gasembolie, Schlaganfall, Blutzerfall, Infektionen), aber kein Register. Vor Eigenbluttherapie G6PD-Mangel ausschließen; nur bei erfahrenen Behandlern mit festem Protokoll.'
   },
   {
     id: 'cgm',
@@ -636,14 +673,14 @@ const THERAPIES = [
     emoji: '🧠',
     short: 'Sanfte elektrische (tDCS) oder magnetische (TMS) Stimulation des Gehirns – zur Unterstützung von Fokus, Stimmung, Lernen und Erholung.',
     benefits: [
-      'tDCS: schwacher Gleichstrom, soll Erregbarkeit von Hirnarealen anpassen (Fokus, Lernen)',
-      'TMS: magnetische Impulse, medizinisch bei Depression zugelassen',
-      'Nicht-invasiv und schmerzarm',
-      'Aktives Forschungsfeld für Kognition und Stimmung'
+      'rTMS: Magnetimpulse aktivieren die Hirnrinde direkt – bei Depression in 81 randomisierten Studien wirksamer als Schein, von der deutschen Leitlinie bei Therapieresistenz empfohlen',
+      'tDCS: schwacher Gleichstrom verschiebt die Erregbarkeit – bei Depression kleiner Effekt, größte deutsche Studie (DepressionDC) ohne Unterschied zu Schein',
+      'Fokus und Lernen bei Gesunden: für tDCS nach Einzelsitzungen kein Nachweis (59 Analysen ohne signifikanten Effekt)',
+      'Nicht-invasiv; tDCS in über 33.200 Sitzungen ohne schwere Nebenwirkung bei konventionellen Protokollen'
     ],
     indication: ['Fokus/Kognition', 'Stimmung', 'Lernen', 'Erholung'],
-    note: 'TMS medizinisch etabliert (u. a. Depression); tDCS-Heimgeräte sind weniger reguliert – Evidenz gemischt, korrekte Platzierung/Dosis wichtig.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/27090022/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27090022/',
+    note: 'rTMS ist ein ärztliches Verfahren (NVL-Empfehlung bei therapieresistenter Depression). tDCS ist keine Kassenleistung und hat keine Wirksamkeitszulassung bei Depression; für Heim-Hirnstimulationsgeräte ohne medizinische Zweckbestimmung gelten seit 22. Juni 2023 EU-Sicherheitsspezifikationen. Nicht bei Epilepsie, bipolarer Störung oder Implantaten im Kopf ohne ärztliche Rücksprache.'
   },
   {
     id: 'bfr-training',
@@ -652,14 +689,14 @@ const THERAPIES = [
     emoji: '🩸',
     short: 'Krafttraining mit leichter Blutstau-Manschette: erzeugt mit sehr geringen Gewichten einen starken Muskelreiz – ideal für Reha und gelenkschonenden Aufbau.',
     benefits: [
-      'Muskelaufbau mit nur 20–30 % des üblichen Gewichts',
-      'Sehr gelenkschonend – ideal in der Reha und nach Verletzungen',
-      'Starker Wachstumsreiz (Metabolit-Stau, GH-Ausschüttung)',
-      'Zeit- und materialsparend'
+      'Muskelaufbau mit 20 bis 40 Prozent des Maximalgewichts – Hypertrophie in Meta-Analysen ähnlich wie bei schwerem Training',
+      'In der Reha mehr Kraft als leichtes Training ohne Manschette (20 Studien, u. a. Kreuzband und Kniearthrose)',
+      'Wachstumsreiz am Menschen gemessen: Muskelproteinsynthese und mTORC1-Signalweg in der Biopsie aktiviert',
+      'Für Maximalkraft bleibt schweres Training überlegen, besonders bei Untrainierten'
     ],
     indication: ['Muskelaufbau', 'Reha', 'Gelenkschonung', 'Sport-Performance'],
-    note: 'Manschettendruck korrekt dosieren (nicht abbinden!); bei Thrombose-/Gefäßrisiko oder Bluthochdruck vorher ärztlich abklären.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/31696381/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31156448/',
+    note: 'Manschettendruck korrekt dosieren (nicht abbinden!); bei Thrombose-/Gefäßrisiko oder Bluthochdruck vorher ärztlich abklären.'
   },
   {
     id: 'ems',
@@ -668,30 +705,30 @@ const THERAPIES = [
     emoji: '⚡',
     short: 'Elektrische Impulse lassen die Muskeln zusätzlich kontrahieren – für effizientes Ganzkörper-Training in kurzer Zeit oder gezielte Muskelaktivierung.',
     benefits: [
-      'Intensives Ganzkörper-Training in ~20 Minuten',
-      'Aktiviert auch tiefe Muskulatur',
-      'Gelenkschonend (wenig äußere Last)',
-      'Auch für Reha und Muskelaktivierung genutzt'
+      'Große Zuwächse bei Muskelmasse und Kraft in einer Meta-Analyse von 16 Studien mit 897 nicht-sportlichen Erwachsenen',
+      'Kurze Einheiten mit wenig äußerer Last – gelenkschonend, auch für Ältere',
+      'Kein signifikanter Effekt auf die Fettmasse; für trainierte Sportler kaum Zusatznutzen',
+      'Hinweise auf weniger Rückenschmerzen bei Älteren (kleine gepoolte Auswertung)'
     ],
     indication: ['Muskelaufbau', 'Zeiteffizienz', 'Reha', 'Rücken/Core'],
-    note: 'Sehr intensiv – Überlastung/Muskelkater-Risiko; nicht bei Herzschrittmacher, Schwangerschaft oder akuten Erkrankungen. Anleitung wichtig.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6685471/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33716787/',
+    note: 'Sehr intensiver Reiz: Zu harte erste Einheiten können einen schweren Muskelschaden bis zur Rhabdomyolyse auslösen – sanfter Einstieg, Pausen, ausreichend trinken. Seit 31.12.2022 Fachkundepflicht für gewerbliche Anbieter (NiSV). Nicht bei Herzschrittmacher, Schwangerschaft oder akuten Erkrankungen ohne ärztliche Klärung.'
   },
   {
     id: 'vibrationstraining',
     name: 'Vibrationstraining (WBV)',
     category: 'Biohacking',
     emoji: '📳',
-    short: 'Training auf einer vibrierenden Platte: die schnellen Reize lösen viele kleine Muskelkontraktionen aus – für Kraft, Balance und Knochendichte.',
+    short: 'Training auf einer vibrierenden Platte: Die schnellen Schwingungen lösen viele kleine Reflexkontraktionen aus – am besten belegt für Gleichgewicht, Beinkraft und weniger Stürze im Alter, kaum für die Knochendichte.',
     benefits: [
-      'Aktiviert viele Muskelfasern über Vibrationsreflexe',
-      'Kann Kraft, Balance und Beweglichkeit verbessern',
-      'Hinweise auf bessere Knochendichte (Osteoporose-Prävention)',
-      'Gelenkschonend, auch für Ältere geeignet'
+      'Weniger Stürze: Sturzrate bei Erwachsenen ab 50 in einer Meta-Analyse gesenkt, Rate Ratio 0,67 (mittlere Evidenzqualität)',
+      'Verbessert Gleichgewicht, Gang und Beinkraft bei Älteren, auch bei Sarkopenie',
+      'Knochendichte nach der Menopause: kein gesicherter Vorteil, allenfalls kleine Effekte an einzelnen Messorten',
+      'Muskelmasse wächst nicht; für reine Kraft ist klassisches Krafttraining überlegen'
     ],
     indication: ['Kraft & Balance', 'Knochendichte', 'Durchblutung', 'Reha'],
-    note: 'Bei akuten Gelenk-/Bandscheibenproblemen, Thrombose oder Schwangerschaft vorher abklären. Effektstärke variiert je nach Gerät/Protokoll.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/29065839/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29289937/',
+    note: 'Bei akuten Gelenk-/Bandscheibenproblemen, Thrombose oder Schwangerschaft vorher abklären. Effektstärke variiert je nach Gerät/Protokoll.'
   },
   {
     id: 'floating',
@@ -700,14 +737,14 @@ const THERAPIES = [
     emoji: '🛁',
     short: 'Schwerelos treiben in warmem Salzwasser bei Dunkelheit und Stille: tiefe Entspannung, Stressabbau und mentale Erholung im Isolationstank.',
     benefits: [
-      'Tiefe Entspannung und Aktivierung des Parasympathikus',
-      'Kann Stress, Angst und Muskelverspannungen reduzieren',
-      'Fördert mentale Klarheit und Regeneration',
-      'Bittersalz (Magnesium) und Schwerelosigkeit entlasten Gelenke'
+      'Tiefe Entspannung: Eine einzige Stunde senkte in einer Studie mit 50 Angstpatienten die momentane Angst stark',
+      'Generalisierte Angststörung: 12 Sitzungen linderten Symptome gegenüber Warteliste, 37 Prozent erreichten eine Remission (kleine, unverblindete Studie)',
+      'Chronischer Schmerz: in der einzigen placebokontrollierten Studie (99 Patienten) nicht besser als ein Scheintank',
+      'Gut verträglich: keine schweren Nebenwirkungen in randomisierten Studien; eine Magnesiumaufnahme über die Haut ist nicht belegt'
     ],
     indication: ['Stress & Angst', 'Regeneration', 'Schlaf', 'Verspannungen'],
-    note: 'Sehr sicher; bei Klaustrophobie langsam herantasten (Deckel offen möglich). Effekte v. a. subjektiv/Entspannung.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6134492/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40611079/',
+    note: 'Sehr gut verträglich; bei Platzangst Deckel oder Tür offen lassen. Belegt sind vor allem kurzfristige Effekte auf Angst und Stimmung, meist ohne Scheinkontrolle. Bei Epilepsie, Herzerkrankung, Hautinfektion oder Schwangerschaft vorher ärztlich abklären.'
   },
   {
     id: 'vagus-stimulation',
@@ -733,14 +770,19 @@ const THERAPIES = [
     emoji: '💉',
     short: 'Vitamine und Mineralstoffe direkt über die Vene (z. B. „Myers-Cocktail"). Der Blutspiegel steigt schnell – ein Nutzen ist vor allem bei nachgewiesenem Mangel oder gestörter Aufnahme plausibel, bei Gesunden nicht.',
     benefits: [
-      'Hohe Mikronährstoff-Spiegel unabhängig von der Darmaufnahme',
-      'Beliebt für Energie, Immununterstützung und Erholung – Studien dazu sind dünn',
+      'Hohe Mikronährstoff-Spiegel unabhängig von der Darmaufnahme – ein hoher Spiegel ist aber noch kein Nutzen',
       'Nützlich bei nachgewiesenen Mängeln oder Aufnahmestörungen',
-      'Schneller Effekt (direkt im Blut)'
+      'Myers-Cocktail: einzige Placebo-Studie (34 Fibromyalgie-Patienten) ohne Unterschied zur Salzlösung',
+      'Für Energie, Immunstärkung und Anti-Aging bei Gesunden keine kontrollierten Studien'
     ],
-    indication: ['Energie/Fatigue', 'Immununterstützung', 'Regeneration', 'Mangelausgleich'],
-    note: 'Nutzen bei Gesunden meist begrenzt (gut ernährter Körper scheidet Überschuss aus). Nur ärztlich; auf Nierenfunktion/Elektrolyte achten.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2939841/'
+    indication: [
+      'Energie/Fatigue',
+      'Immununterstützung',
+      'Regeneration',
+      'Mangelausgleich'
+    ],
+    link: 'https://pubmed.ncbi.nlm.nih.gov/19250003/',
+    note: 'Nutzen bei Gesunden nicht belegt. Nur ärztlich, mit Blick auf Nierenfunktion und Elektrolyte; vor hochdosiertem Vitamin C Test auf G6PD-Mangel. Für Sportler: Infusionen über 100 ml in 12 Stunden stehen außerhalb von Klinikbehandlungen auf der Anti-Doping-Verbotsliste.'
   },
   {
     id: 'grounding-earthing',
@@ -749,14 +791,14 @@ const THERAPIES = [
     emoji: '🌱',
     short: 'Direkter Hautkontakt zur Erde (barfuß oder per Erdungsmatte): soll über den Ladungsausgleich Entzündung, Schlaf und Erholung günstig beeinflussen.',
     benefits: [
-      'Berichte über besseren Schlaf und weniger Stress',
-      'Kleine Studien: Hinweise auf reduzierte Entzündung und bessere Durchblutung',
+      'Berichte über besseren Schlaf und weniger Stress – in kleinen scheinkontrollierten Studien teils bestätigt',
+      'Nach Muskelbelastung weniger Anstieg des Muskelschadensmarkers CK, beim Schmerz kein Vorteil gegenüber Scheinerdung (randomisiert, 32 Teilnehmer)',
       'Einfach und kostenlos (Barfußgehen auf natürlichem Boden)',
-      'Fördert Zeit in der Natur/Entschleunigung'
+      'Studien klein und überwiegend aus dem Umfeld der Befürworter oder herstellerfinanziert'
     ],
     indication: ['Schlaf', 'Stress', 'Regeneration', 'Wohlbefinden'],
-    note: 'Evidenz überwiegend klein und teils vom Umfeld der Vermarkter; Effekte oft subjektiv. Als angenehme, risikoarme Gewohnheit einzuordnen.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3265077/'
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3265077/',
+    note: 'Evidenz überwiegend klein und teils vom Umfeld der Vermarkter; Effekte oft subjektiv. Als angenehme, risikoarme Gewohnheit einzuordnen.'
   },
   {
     id: 'chelat-therapie',

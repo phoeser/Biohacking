@@ -589,10 +589,6 @@ https://biohackingkompakt.de/thema/jod.html
 
 Jod ist der Rohstoff für die Schilddrüsenhormone T4 und T3, und die Wirkkette dahin ist am Menschen vollständig aufgeklärt. Bei echtem Mangel ist der Nutzen unbestritten — Kaliumiodid ist in Deutschland ein zugelassenes Arzneimittel gegen die Jodmangelstruma. Hierzulande liegt etwa ein Drittel der Erwachsenen und knapp 45 Prozent der Kinder und Jugendlichen unter dem geschätzten Bedarf, die Mehrheit also nicht. Der Haken ist die U-Kurve: Oberhalb des Bedarfs nehmen Schilddrüsenstörungen und Autoimmunthyreoiditis wieder zu. Deshalb schlägt das BfR für Nahrungsergänzungsmittel höchstens 100 µg pro Tagesdosis vor — ein Tropfen Lugolscher Lösung enthält über 6.000 µg.
 
-## Bronchogen / Chonluten
-https://biohackingkompakt.de/thema/kh-bronchogen.html
-
-Soll die Schleimhautregeneration in Bronchien und Lunge unterstützen – beworben bei COPD und chronischer Bronchitis.
 
 ## Chelohart
 https://biohackingkompakt.de/thema/kh-chelohart.html
@@ -609,10 +605,6 @@ https://biohackingkompakt.de/thema/kh-cytomax-complex.html
 
 Sammelbegriff für die kommerziellen Khavinson-Bioregulator-Produkte. Pro Organsystem ein Stack.
 
-## Epitalon (Epithalon)
-https://biohackingkompakt.de/thema/kh-epitalon.html
-
-Das bekannteste Khavinson-Peptid. Aktiviert Telomerase, gilt als Anti-Aging-Klassiker der russischen Schule.
 
 ## Livagen
 https://biohackingkompakt.de/thema/kh-livagen.html
@@ -634,10 +626,6 @@ https://biohackingkompakt.de/thema/kh-testagen.html
 
 Soll die Funktion von Prostata und Hoden unterstützen – beworben bei BPH und altersbedingtem Testosteron-Rückgang.
 
-## Thymalin / Thymogen
-https://biohackingkompakt.de/thema/kh-thymalin.html
-
-In Russland zugelassenes Immun-Medikament. Soll altersbedingten Thymus-Schwund teilweise ausgleichen.
 
 ## Vesugen
 https://biohackingkompakt.de/thema/kh-vesugen.html

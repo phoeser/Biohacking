@@ -51,7 +51,8 @@ for g in daten['goals']:
 def lies(p): return open(p, encoding='utf-8').read()
 
 # ---- Themenseiten, Rubrik, Titel, Text ----------------------------------
-SEITEN = sorted(p for p in glob.glob('thema/*.html') if not p.endswith('index.html'))
+SEITEN = sorted(p for p in glob.glob('thema/*.html') if not p.endswith('index.html')
+                and 'http-equiv="refresh"' not in open(p, encoding='utf-8').read())
 IDS = [os.path.basename(p)[:-5] for p in SEITEN]
 idx = lies('thema/index.html')
 RUBRIK = {}

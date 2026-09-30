@@ -549,43 +549,40 @@ const EXPERIMENTAL = [
     altNames: 'Glycyl-L-Histidyl-L-Lysin-Kupfer',
     class: 'Tripeptid-Kupfer-Komplex',
     emoji: '🧴',
-    short: 'Ein körpereigenes Kupfer-Tripeptid und der am besten untersuchte Wirkstoff dieser Liste – allerdings topisch: Für die Haut gibt es kontrollierte Studien, für die Injektion praktisch keine.',
-    moa: 'GHK-Cu (Glycyl-L-Histidyl-L-Lysin, komplexiert mit einem Kupfer(II)-Ion) ist ein natürlich im Blutplasma vorkommendes Tripeptid, dessen Spiegel mit dem Alter deutlich sinkt (~200 ng/ml mit 20, ~80 ng/ml mit 60 Jahren). Es wirkt als pleiotroper Signalgeber bzw. epigenetischer Modulator: In Analysen verändert es die Expression von über 4 000 menschlichen Genen Richtung eines „jüngeren" Musters. Es regt Fibroblasten zur Synthese von Kollagen Typ I/III, Elastin und Glykosaminoglykanen an, wobei Kupfer als Cofaktor der quervernetzenden Lysyloxidase dient. Ergänzend fördert es die Gefäßneubildung (VEGF, bFGF), wirkt antioxidativ (SOD) und entzündungshemmend (TNF-α, IL-6, NF-κB herunter). Die Haut-/Wundheilungsdaten sind teils klinisch (topisch), die systemischen Injektionseffekte beruhen jedoch stark auf präklinischen Daten.',
+    short: 'Ein körpereigenes Kupfer-Tripeptid, präklinisch eines der am gründlichsten untersuchten Regenerationspeptide. Am Menschen belegt sind eine randomisierte Studie zu diabetischen Fußgeschwüren und kleine, meist nicht begutachtete Kosmetikstudien; für die Injektion gibt es keine Humandaten.',
+    moa: 'GHK-Cu (Glycyl-L-Histidyl-L-Lysin, komplexiert mit einem Kupfer(II)-Ion) ist ein natürlich im Blutplasma vorkommendes Tripeptid, dessen Spiegel mit dem Alter sinkt (etwa 200 ng/ml mit 20, 80 ng/ml mit 60 Jahren). Es gilt als Matrikryptin, das bei Verletzungen aus Bindegewebseiweißen freigesetzt wird. Es regt Fibroblasten zur Synthese von Kollagen, Elastin, Dermatansulfat, Chondroitinsulfat und Decorin an und steuert zugleich die abbauenden Metalloproteinasen; Kupfer dient als Cofaktor der quervernetzenden Lysyloxidase. Ergänzend lockt es Immun- und Gefäßzellen an und fördert die Gefäßneubildung. In Genexpressionsdaten menschlicher Zelllinien (Connectivity Map) veränderte GHK die Aktivität von 31,2 % der Gene um mindestens die Hälfte – ein Zelllinienbefund, kein Nachweis in Gewebe nach Anwendung. Die Wundheilungsdaten sind teils klinisch, systemische Injektionseffekte beruhen auf Tierversuchen.',
     benefits: [
-      'Steigert in der Zellkultur die Kollagensynthese deutlich; Hautstruktur und Elastizität sind am Menschen nur in kleinen, meist herstellernahen Studien untersucht',
-      'Beschleunigt im Modell die Wundheilung über Gefäßneubildung und Granulationsgewebe',
-      'Wirkt antioxidativ und entzündungshemmend (relevant u.a. bei entzündlichen Hautproblemen)',
-      'Topisch beim Haarwachstum mit Minoxidil 2 % vergleichbar – ohne dessen typische Reizungen',
-      'Unterstützt potenziell Gelenk-/Bindegewebe über mehr GAG-Synthese (überwiegend präklinisch)',
-      'Keine hormonelle Wirkung; sowohl injizierbar als auch topisch anwendbar'
+      'Diabetische Fußgeschwüre: GHK-Cu-Gel plus Standardversorgung schloss die Wunden im Median zu 98,5 % gegenüber 60,8 % unter wirkstofffreiem Gel, Infektionen 7 % statt 34 % (Mulder 1994, randomisiert, verblindete Auswertung)',
+      'Kosmetikstudien an Frauen um 50 über 12 Wochen mit weniger Falten und dichterer Haut, z. B. 71 Frauen (Gesicht) und 41 Frauen (Augen, besser als Placebo) – überwiegend Kongressbeiträge und Industrieberichte',
+      'Kleine Biopsiestudie: Kollagenzunahme nach einem Monat bei 70 % der Frauen mit GHK-Cu, 50 % mit Vitamin C, 40 % mit Retinsäure (Abdulghani 1998, Pilotstudie)',
+      'Präklinisch konsistent: Kollagen-, Elastin- und GAG-Synthese, Gefäßneubildung, Wundheilung in mehreren Tierarten',
+      'Keine hormonelle Wirkung; als Kosmetikinhaltsstoff seit Jahrzehnten verbreitet'
     ],
     risks: [
-      'Die Creme ist top belegt; die injizierte Ganzkörper-Wirkung ist noch überwiegend präklinisch.',
-      'Nicht bei Kupferstoffwechselstörung (Morbus Wilson) oder Kupferallergie.',
-      'Injizierbare Ware auf Reinheit und Sterilität achten.'
+      'Die Humandaten zur Haut sind klein und überwiegend nicht begutachtet; systematische Übersichten 2026 nennen die klinische Evidenz dünn, eine kleine Studie nach Laserbehandlung war negativ.',
+      'Injektion: keine Humanstudie; die FDA nennt begrenzte Humandaten und ein Immunrisiko durch Zusammenlagerung und Verunreinigungen; Graumarktproben mit häufigen Qualitätsmängeln (Preprint 2026).',
+      'Nicht bei Morbus Wilson (gestörte Kupferausscheidung).',
+      'Der Vergleich mit Minoxidil beim Haarwachstum und die Formel von mehr als 4.000 verjüngten Genen sind am Menschen nicht belegt.'
     ],
-    status: 'Topisch in Kosmetik frei verkäuflich; injizierbare Form ist Forschungs-Peptid.',
+    status: 'Topisch in Kosmetik frei verkehrsfähig; nirgends als Arzneimittel zugelassen. Injizierbare Form ist Forschungspeptid; FDA: Nominierung für Rezepturen zurückgezogen, Hinweis auf Immunogenitätsrisiko (Stand 22.04.2026). Nicht auf der WADA-Liste.',
     sources: [
-      { title: 'Pickart L, Biomolecules 2018 – GHK-Cu gene expression', url: 'https://pubmed.ncbi.nlm.nih.gov/29382140/' },
-      { title: 'Pickart L et al., Oxid Med Cell Longev 2012', url: 'https://pubmed.ncbi.nlm.nih.gov/22666519/' }
+      { title: 'Pickart L, Margolina A, Int J Mol Sci 2018 – GHK-Cu: regenerative Wirkungen und Gendaten', url: 'https://pubmed.ncbi.nlm.nih.gov/29986520/' },
+      { title: 'Pickart L et al., Oxid Med Cell Longev 2012', url: 'https://pubmed.ncbi.nlm.nih.gov/22666519/' },
+      { title: 'Mulder GD et al., Wound Repair Regen 1994 – GHK-Cu-Gel bei diabetischen Fußgeschwüren (RCT)', url: 'https://pubmed.ncbi.nlm.nih.gov/17147644/' },
+      { title: 'Pickart L et al., Biomed Res Int 2015 – GHK in der Hautregeneration, Übersicht der Kosmetikstudien', url: 'https://pubmed.ncbi.nlm.nih.gov/26236730/' },
+      { title: 'Mateescu DM et al., Pharmaceutics 2026 – Evidenzkarte: präklinisch konsistent, klinisch spärlich', url: 'https://pubmed.ncbi.nlm.nih.gov/42797253/' }
     ],
     community: [
       { title: 'biolabshop (GHK-Cu)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
-      {
-        title: 'GHK-Cu (Kupfer-Tripeptid): Creme top, Spritze Fragezeichen – im Faktencheck',
-        audio: 'audio/ghk-cu-podcast.mp3',
-        spotify: '7GdCodf2PCq47XKo9jmrrK',
-        lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 19). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: topisch/kosmetisch ist GHK-Cu eines der bestbelegten Peptide (~40 Jahre Forschung, +28% Kollagendichte, Haut/Wundheilung, sehr sicher) – aber der Sprung zum injizierten Ganzkörper-Anti-Aging ist am Menschen kaum belegt und bringt ein Kupfer-Überladungs-Risiko. Belegt ist die Creme, nicht die Nadel. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'GHK-Cu (Kupfer-Tripeptid): Creme top, Spritze Fragezeichen – im Faktencheck', audio: 'audio/ghk-cu-podcast.mp3', spotify: '7GdCodf2PCq47XKo9jmrrK', lengthLabel: '≈ 10 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 19). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Der ehrliche Dreh: topisch/kosmetisch ist GHK-Cu eines der bestbelegten Peptide (~40 Jahre Forschung, +28% Kollagendichte, Haut/Wundheilung, sehr sicher) – aber der Sprung zum injizierten Ganzkörper-Anti-Aging ist am Menschen kaum belegt und bringt ein Kupfer-Überladungs-Risiko. Belegt ist die Creme, nicht die Nadel. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Pickart & Margolina, Biomolecules 2018 – GHK-Cu: Genexpression & Regeneration', url: 'https://pubmed.ncbi.nlm.nih.gov/29986520/' },
           { title: 'GHK als Anti-Aging-Peptid (Review, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8789089/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'peptid-stacks',
@@ -705,24 +702,27 @@ const EXPERIMENTAL = [
     altNames: 'Bremelanotid, Vyleesi, Melanocortin-Agonist',
     class: 'Melanocortin-Rezeptor-Agonist (MC4R), zentral wirksames Mittel gegen sexuelle Funktionsstörungen',
     emoji: '❤️‍🔥',
-    short: 'Ein Melanocortin-Peptid, das die Lust zentral im Gehirn steigert – nicht über die Durchblutung wie Viagra. Als Vyleesi (FDA 2019) für Frauen mit Lustlosigkeit zugelassen, in der Szene breit genutzt.',
-    moa: 'PT-141 (Bremelanotid) ist ein synthetischer Melanocortin-Rezeptor-Agonist, der vor allem den MC4-Rezeptor im Hypothalamus aktiviert. Anders als PDE5-Hemmer (Sildenafil/Tadalafil), die über die Durchblutung wirken, setzt PT-141 zentral am sexuellen Verlangen und der Erregung an. Es ist chemisch mit Melanotan 2 verwandt, was die melanocortin-typischen Nebenwirkungen (Hautverfärbung, Übelkeit, Blutdruckanstieg) erklärt. Angewendet wird das zugelassene Präparat als Autoinjektor bei Bedarf; in der Szene kursieren Injektions- und Nasenspray-Formen.',
+    short: 'Ein Melanocortin-Peptid, das die Lust zentral im Gehirn anspricht – nicht über die Durchblutung wie Viagra. Als Vyleesi seit 2019 in den USA für prämenopausale Frauen mit Luststörung zugelassen, belegt durch zwei Phase-3-Studien mit 1.267 Frauen und einem moderaten Effekt; die in der Szene verbreitete Anwendung bei Männern ist nicht zugelassen.',
+    moa: 'PT-141 (Bremelanotid) ist ein zyklisches Heptapeptid und synthetisches Analogon von alpha-MSH, das Melanocortin-Rezeptoren aktiviert, mit hoher Affinität zum MC4-Rezeptor, dem eine Rolle für die sexuelle Funktion zugeschrieben wird. Anders als PDE5-Hemmer (Sildenafil/Tadalafil), die an den Blutgefäßen ansetzen, soll es Hirnbahnen der sexuellen Reaktion beeinflussen. Es ist eng mit Melanotan 2 verwandt, was die melanocortin-typischen Nebenwirkungen erklärt: Übelkeit, Flushing, kurzzeitiger Blutdruckanstieg und fokale Hyperpigmentierung. Zugelassen ist ein Autoinjektor zur subkutanen Bedarfsanwendung; frühe Studien an Männern nutzten auch ein Nasenspray.',
     benefits: [
-      'Als Vyleesi (FDA 2019) für prämenopausale Frauen mit vermindertem sexuellem Verlangen (HSDD) zugelassen – mit Phase-3-Evidenz.',
-      'Wirkt zentral am Verlangen, nicht nur an der Durchblutung – daher auch bei fehlender Lust interessant, wo Potenzmittel nicht greifen.',
-      'Bedarfsanwendung ca. 45 Min vor der Aktivität (kein tägliches Einnehmen nötig).',
-      'Wird off-label auch bei Männern mit Libido-/Erektionsproblemen eingesetzt (nicht zugelassene Anwendung).',
-      'Anderer Mechanismus als Viagra/Cialis – teils kombinierbar (jedoch mit Kreislauf-Vorsicht).'
+      'Als Vyleesi (FDA 2019) für prämenopausale Frauen mit erworbener, generalisierter HSDD zugelassen: zwei Phase-3-RCTs mit 1.267 Frauen über 24 Wochen, Verlangen und Leidensdruck gegenüber Placebo statistisch klar verbessert, im Ausmaß moderat (Kingsberg 2019).',
+      'Effekt über 52 Wochen in einer offenen Verlängerung mit 684 Frauen erhalten, keine neuen Sicherheitssignale (Simon 2019); Meta-Analyse 2026 bestätigt Verbesserung von Verlangen und Erregung.',
+      'Wirkt zentral am Verlangen, nicht an der Durchblutung – ein anderer Ansatz als Potenzmittel.',
+      'Bei Männern mit Erektionsstörung in kleineren kontrollierten Studien wirksam, auch bei ungenügendem Ansprechen auf Viagra (Rosen 2004) und zusammen mit niedrig dosiertem Sildenafil (Diamond 2005, 19 Männer) – nicht zugelassen; die größte Männerstudie (Safarinejad 2008) steht seit 2023 unter einer Expression of Concern.'
     ],
     risks: [
-      'Kann den Blutdruck kurz anheben – bei unkontrolliertem Bluthochdruck oder Herz-Kreislauf-Erkrankung ungeeignet.',
-      'Häufig zu Beginn Übelkeit; möglich ist eine leichte Hautverdunkelung.',
-      'Off-label-/Graumarkt-Nutzung ist ungeprüft – auf Qualität achten.'
+      'Hebt nach jeder Gabe den Blutdruck kurzzeitig an (bis 6 mmHg systolisch, Gipfel nach 2 bis 4 Stunden) – bei unkontrolliertem Bluthochdruck oder Herz-Kreislauf-Erkrankung kontraindiziert.',
+      'Übelkeit bei 40 %, Abbruch deswegen bei 8 %; fokale Hyperpigmentierung bei 1 % (Gesicht, Zahnfleisch, Brust), nicht immer rückbildend.',
+      'Senkt die Aufnahme von oralem Naltrexon deutlich und kann die Magenentleerung verlangsamen; bei Schwangerschaftsverdacht absetzen.',
+      'Off-label-/Graumarkt-Nutzung ist ungeprüft; Graumarkt-Peptide, darunter PT-141, zeigten häufig Qualitätsmängel (Preprint 2026).'
     ],
-    status: 'In den USA als Vyleesi für Frauen mit Lustlosigkeit (HSDD) zugelassen; in DE/EU nicht breit zugelassen.',
+    status: 'In den USA seit 2019 als Vyleesi zugelassen, ausschließlich für prämenopausale Frauen mit erworbener, generalisierter HSDD (nicht für Männer, nicht zur Leistungssteigerung). In DE/EU keine Zulassung dokumentiert. Nicht namentlich auf der WADA-Liste.',
     sources: [
-      { title: 'FDA – Zulassung Vyleesi (Bremelanotid) 2019', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
-      { title: 'Kingsberg et al., Obstet Gynecol 2019 – RECONNECT Phase-3 (Bremelanotid bei HSDD)', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' }
+      { title: 'FDA – Fachinformation Vyleesi (Bremelanotid) 2019', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
+      { title: 'Kingsberg SA et al., Obstet Gynecol 2019 – RECONNECT Phase-3 (Bremelanotid bei HSDD)', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' },
+      { title: 'Simon JA et al., Obstet Gynecol 2019 – 52 Wochen Verlängerung', url: 'https://pubmed.ncbi.nlm.nih.gov/31599847/' },
+      { title: 'Diamond LE et al., Urology 2005 – PT-141 plus Sildenafil bei Männern mit ED', url: 'https://pubmed.ncbi.nlm.nih.gov/15833522/' },
+      { title: 'Dhillon S, Keam SJ, Drugs 2019 – Bremelanotide: First Approval', url: 'https://pubmed.ncbi.nlm.nih.gov/31429064/' }
     ],
     community: [
       { title: 'Sexuelle Funktionsstörungen ärztlich abklären (Ursachensuche, Herz-Kreislauf)', url: 'https://www.gelbe-liste.de/wirkstoffe/Bremelanotid_57503' },
@@ -730,18 +730,12 @@ const EXPERIMENTAL = [
       { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'PT-141 (Bremelanotid): Die Lust-Spritze fürs Gehirn im Faktencheck',
-        audio: 'audio/pt-141-podcast.mp3',
-        spotify: '2D3wSp3syLHObeyXzCi2nR',
-        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 20). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.',
-        sources: [
+      { title: 'PT-141 (Bremelanotid): Die Lust-Spritze fürs Gehirn im Faktencheck', audio: 'audio/pt-141-podcast.mp3', spotify: '2D3wSp3syLHObeyXzCi2nR', lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 20). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'FDA – Vyleesi (Bremelanotid) Fachinformation', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf' },
           { title: 'Kingsberg et al. 2019 – RECONNECT Phase-3-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/31599840/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'tadalafil',
@@ -1049,57 +1043,67 @@ const EXPERIMENTAL = [
     altNames: 'KP-10, Metastin-Fragment',
     class: 'Hypothalamisches Neuropeptid (10 Aminosäuren), Hormonachsen-Trigger',
     emoji: '🔗',
-    short: 'Der oberste Schalter der Hormonachse: ein körpereigenes Peptid, das ganz oben im Hypothalamus ansetzt und die natürliche Testosteron-/Fruchtbarkeitskaskade anstößt – spannend, aber noch investigativ.',
+    short: 'Der oberste Schalter der Hormonachse: ein körpereigenes Peptid, das im Hypothalamus die GnRH-Ausschüttung auslöst. Beim Menschen hebt es LH und Testosteron und veränderte in zwei doppelblinden Studien die Verarbeitung sexueller Reize – zur wiederholten Selbstanwendung gibt es keine Daten.',
     moa: 'Kisspeptin ist ein natürliches Neuropeptid und der zentrale Startknopf der Fortpflanzungsachse: Es stimuliert im Hypothalamus die Ausschüttung von GnRH, was wiederum LH und FSH aus der Hypophyse freisetzt und so die körpereigene Testosteron- bzw. Sexualhormonproduktion anregt. Weil es an der obersten Stelle der Kaskade wirkt, gilt es als besonders „physiologischer" Ansatz. Untersucht wird es u.a. für Libido, Fruchtbarkeit und als Baustein aggressiver Hormon-Restart-Protokolle (Kisspeptin für den Hypothalamus, Gonadorelin für die Hypophyse, hCG für die Hoden).',
     benefits: [
-      'Setzt ganz oben an der Hormonachse an – regt die eigene Produktion physiologisch an.',
-      'Untersucht für Libido und sexuelle Erregung (bei Männern und Frauen).',
-      'Potenzieller Baustein zum Fruchtbarkeitserhalt/Hormon-Restart.',
-      'Körpereigenes Peptid mit kurzer Wirkung, gut steuerbar.'
+      'Setzt ganz oben an der Hormonachse an – erhöht beim Menschen LH, FSH und Testosteron, weniger stark als GnRH.',
+      'In zwei doppelblinden Studien (Männer und Frauen mit vermindertem sexuellem Verlangen) veränderte eine einmalige Infusion die Hirnverarbeitung sexueller Reize; bei Männern stärkere Erektion als unter Placebo.',
+      'Wird als physiologischerer Auslöser der Eizellreifung bei künstlicher Befruchtung erforscht.',
+      'In kurzen Studien gut verträglich, ohne Wirkung auf Angst, Blutdruck oder Puls.'
     ],
     risks: [
-      'Investigativ – nicht für die Hormonoptimierung zugelassen, wenig Langzeitdaten am Menschen.',
-      'Optimale Dosierung/Protokolle sind nicht etabliert.',
-      'Nicht als Arzneimittel zugelassen; Research-Ware auf Reinheit achten.',
+      'Investigativ – nicht zugelassen; Libido-Studien nur mit einmaliger Infusion von Kisspeptin-54, nicht mit wiederholten Kisspeptin-10-Injektionen.',
+      'Dauerreizung kann die Achse abstumpfen: Bei 5 Tagen Dauerinfusion fielen LH und FSH auf Placeboniveau; stabile Analoga senkten bei Ratten das Testosteron auf Kastrationsniveau.',
+      'Keine Studien zum Einsatz rund um eine Testosterontherapie oder zum Hormon-Restart; keine Langzeitdaten.',
+      'Nicht als Arzneimittel zugelassen; Research-Ware auf Reinheit achten; bei Männern im Sport jederzeit verboten (WADA-Liste 2026, S2.2.1).',
       'Hormonelle Eingriffe gehören ärztlich begleitet.'
     ],
     status: 'Forschungssubstanz; nicht als Arzneimittel für die Hormonoptimierung zugelassen.',
     sources: [
-      { title: 'Peptides.org – Best hCG Alternatives (Kisspeptin, Gonadorelin)', url: 'https://www.peptides.org/best-hcg-alternatives/' },
-      { title: 'RedFox – hCG vs. Kisspeptin-10 für TRT/Fruchtbarkeit', url: 'https://www.redfoxpeptides.is/hcg-vs-kisspeptin-10-for-trt-fertility/' }
+      { title: 'Mills EG et al., JAMA Netw Open 2023 – Kisspeptin bei Männern mit vermindertem sexuellem Verlangen', url: 'https://pubmed.ncbi.nlm.nih.gov/36735255/' },
+      { title: 'Thurston L et al., JAMA Netw Open 2022 – Kisspeptin bei Frauen mit vermindertem sexuellem Verlangen', url: 'https://pubmed.ncbi.nlm.nih.gov/36287566/' },
+      { title: 'Yeung AC et al., Eur J Endocrinol 2026 – Kisspeptin-10 über 12 Tage bei gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/42549827/' },
+      { title: 'Jayasena CN et al., Hum Reprod 2015 – Kisspeptin-10, -54 und GnRH im Vergleich', url: 'https://pubmed.ncbi.nlm.nih.gov/26089302/' },
+      { title: 'Cretu AM et al., Front Reprod Health 2026 – Peptid-Strategien unter Testosterontherapie', url: 'https://pubmed.ncbi.nlm.nih.gov/42666625/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'gonadorelin',
     name: 'Gonadorelin',
     altNames: 'GnRH, LHRH, Gonadorelin-Acetat',
-    class: 'GnRH-Analogon (Gonadotropin-Releasing-Hormon)',
+    class: 'Synthetisches GnRH (strukturgleich mit dem körpereigenen Gonadotropin-Releasing-Hormon, 10 Aminosäuren)',
     emoji: '🧬',
-    short: 'Die moderne hCG-Alternative: ein GnRH-Analogon, das die Hypophyse zur Ausschüttung von LH und FSH anregt – beliebt, um unter TRT die Hoden aktiv und die Fruchtbarkeit erhalten zu halten.',
-    moa: 'Gonadorelin ist die synthetische Form des körpereigenen GnRH und wirkt eine Ebene tiefer als Kisspeptin: Es stimuliert direkt die Hypophyse, LH und FSH auszuschütten, was die Hoden zur Testosteron- und Spermienproduktion anregt. Wichtig ist die pulsatile Gabe – eine dauerhafte Stimulation würde die Hypophyse abstumpfen lassen (Downregulation). In der Praxis ersetzt es häufig hCG, um unter TRT das Hodenvolumen und die Fruchtbarkeit zu erhalten.',
+    short: 'Das körpereigene Startsignal der Hormonachse, synthetisch nachgebaut: regt die Hypophyse zur Ausschüttung von LH und FSH an – aber nur im Pulsrhythmus. In Deutschland als Diagnostikum und zur Pumpentherapie zugelassen; als Begleitmittel zur Testosterontherapie nicht untersucht.',
+    moa: 'Gonadorelin ist strukturgleich mit dem körpereigenen GnRH und wirkt eine Ebene tiefer als Kisspeptin: Es stimuliert die Hypophyse, LH und FSH auszuschütten, die beim Mann Testosteron- und Spermienbildung anregen. Entscheidend ist der Rhythmus: Natürlich wird GnRH in etwa einminütigen Pulsen alle 60 bis 120 Minuten freigesetzt, die Halbwertszeit liegt unter 10 Minuten. Pulse regen die Achse an, Dauergabe oder zu häufige hohe Gaben hemmen sie (paradoxe Antifertilitätswirkung). Therapeutisch wird es deshalb per Pumpe gegeben. In der Szene wird es als hCG-Alternative unter Testosterontherapie genutzt – für diesen Einsatz gibt es keine kontrollierten Studien.',
     benefits: [
-      'Hält die Hoden unter TRT aktiv – erhält Volumen und Fruchtbarkeit.',
-      'Moderne, kurzwirksame Alternative zu hCG.',
-      'Regt die eigene LH/FSH- und Testosteronproduktion an.',
-      'Gut in bestehende Hormonprotokolle integrierbar.'
+      'Seit Jahrzehnten zugelassenes Diagnostikum; Wirkung und Nebenwirkungen gut dokumentiert',
+      'Als Pumpentherapie bei angeborenem GnRH-Mangel: Testosteronbildung, Hodenwachstum und Spermien',
+      'Spermienbildung unter Pumpe im Mittel 5,30 Monate früher als unter Gonadotropinen, gleiche Schwangerschaftsrate (Meta-Analyse, 420 Patienten)',
+      'Setzt eine Stufe über hCG an und nutzt die eigene LH-/FSH-Ausschüttung'
     ],
     risks: [
-      'Muss pulsatil dosiert werden – Dauergabe führt zur Downregulation (Gegenteil des Effekts).',
-      'Verschreibungspflichtig; Hormonprotokolle ärztlich begleiten.',
-      'Mögliche lokale Reaktionen an der Einstichstelle.',
-      'Graumarkt-Ware auf Reinheit/Sterilität achten.'
+      'Wirkt nur pulsatil – Dauergabe oder zu häufige hohe Gaben hemmen die Achse (Gegenteil des Effekts)',
+      'Als Begleitmittel zur Testosterontherapie nicht untersucht; für hCG gibt es dazu Studien, für Gonadorelin nicht',
+      'Kopfschmerzen, Bauchschmerzen, Übelkeit, Reaktionen an der Einstichstelle; selten allergische Reaktionen',
+      'Verschreibungspflichtig; in der Schwangerschaft kontraindiziert; Hormonprotokolle ärztlich begleiten',
+      'Bei Männern im Sport jederzeit verboten (WADA-Liste 2026, S2.2.1)'
     ],
-    status: 'Als Diagnostikum/Arzneimittel bekannt; die TRT-Begleitnutzung ist meist off-label/Compounding. Verschreibungspflichtig.',
+    status: 'In Deutschland zugelassen und verschreibungspflichtig (Diagnostikum, pulsatile Therapie bei GnRH-Mangel). Die Nutzung als TRT-Begleitmittel ist eine nicht zugelassene Anwendung.',
     sources: [
-      { title: 'Peptides.org – Best hCG Alternatives (Gonadorelin)', url: 'https://www.peptides.org/best-hcg-alternatives/' },
-      { title: 'PeptideJournal – Men Hormone Optimization with Peptides', url: 'https://www.peptidejournal.org/guides/mens-hormone-optimization-peptides-complete-guide' }
+      { title: 'Fachinformation LHRH Ferring 0,1 mg/1 ml (Stand 09/2014)', url: 'https://www.fachinfo.de/fi/pdf/004568/lhrh-ferring-0-1-mg-1-ml-injektionsloesung' },
+      { title: 'Belchetz PE et al., Science 1978 – pulsatile gegen Dauergabe von GnRH', url: 'https://pubmed.ncbi.nlm.nih.gov/100883/' },
+      { title: 'Wei C et al., World J Mens Health 2021 – Meta-Analyse Pumpe gegen Gonadotropine', url: 'https://pubmed.ncbi.nlm.nih.gov/32777865/' },
+      { title: 'Mao JF et al., Asian J Androl 2017 – Pumpe gegen Gonadotropine, 202 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/28051040/' },
+      { title: 'Cretu AM et al., Front Reprod Health 2026 – Peptid-Strategien unter Testosterontherapie', url: 'https://pubmed.ncbi.nlm.nih.gov/42666625/' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
-    ]
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'hcg',
@@ -1616,27 +1620,31 @@ const EXPERIMENTAL = [
     altNames: 'BI 456906',
     class: 'GLP-1 / Glucagon Dual-Agonist',
     emoji: '💉',
-    short: 'Doppelagonist von Boehringer/Zealand: kombiniert GLP-1 und Glucagon – stark beim Gewicht und mit besonderem Fokus auf die Fettleber (MASH).',
-    moa: 'Survodutide aktiviert den GLP-1-Rezeptor (Sättigung, Insulin) und den Glucagon-Rezeptor (mehr Energieverbrauch, direkte Wirkung in der Leber). Diese Kombination senkt nicht nur das Gewicht, sondern adressiert gezielt Leberfett und -entzündung – daher der starke MASH-Fokus (nicht-alkoholische Fettleber). Aktuell in Phase 3 für Adipositas und Lebererkrankung.',
+    short: 'Doppelagonist von Boehringer Ingelheim: GLP-1 plus Glukagon. In Phase 3 über 76 Wochen 12,2 bis 13,0 Prozent Gewichtsabnahme gegenüber 5,4 Prozent unter Placebo, dazu die stärksten Fettleber-Daten der Klasse – aber Magen-Darm-Beschwerden bei bis zu 89,7 Prozent.',
+    moa: 'Survodutide aktiviert den GLP-1-Rezeptor (Sättigung, Insulin) und den Glukagonrezeptor (direkte Wirkung in der Leber). Diese Kombination senkt nicht nur das Gewicht, sondern adressiert gezielt Leberfett und -entzündung – daher der starke MASH-Fokus. Eine Mediationsanalyse der Phase-2-MASH-Studie (170 Teilnehmer) zeigt, dass die Wirkung auf Fibrose und Entzündung überwiegend NICHT über die Gewichtsabnahme vermittelt ist (36,3 Prozent für die Fibrose-Verbesserung), der Leberfettabbau dagegen weitgehend schon. Ein höherer Energieverbrauch ist für Survodutide am Menschen nicht belegt. Aktuell in Phase 3 für Adipositas und Lebererkrankung.',
     benefits: [
-      'Deutlicher Gewichtsverlust über den GLP-1/Glucagon-Doppelmechanismus',
-      'Starke Wirkung auf Leberfett und -entzündung (MASH-Studien vielversprechend)',
-      'Glucagon-Komponente hebt den Energieverbrauch',
-      'Nur 1× wöchentlich (in Entwicklung)'
+      'Phase 3 SYNCHRONIZE-1 (725 Teilnehmer, 76 Wochen): 12,2 und 13,0 Prozent Gewichtsabnahme gegenüber 5,4 Prozent unter Placebo, beide primären Endpunkte erreicht.',
+      'Phase 3 SYNCHRONIZE-MASLD (216 Teilnehmer, 48 Wochen): mindestens 30 Prozent weniger Leberfett bei 84,2 Prozent gegenüber 24,3 Prozent unter Placebo.',
+      'Wirkung auf Entzündung und Fibrose der Leber überwiegend unabhängig von der Gewichtsabnahme – Hinweis auf eine eigenständige Glukagon-Wirkung in der Leber.',
+      'Besserer Blutdruck, bessere Marker für Betazellfunktion und Insulinempfindlichkeit; nur 1× wöchentlich.'
     ],
     risks: [
-      'Noch in Phase 3 – nicht zugelassen, nicht regulär verfügbar',
-      'Klassentypische Magen-Darm-Effekte v.a. beim Eindosieren',
-      'Langzeitdaten stehen aus; Graumarkt-Ware ungeprüft'
+      'Noch in Phase 3 – nicht zugelassen, nicht regulär verfügbar.',
+      'Verträglichkeit als Schwachpunkt: Magen-Darm-Beschwerden bei 80,9 und 89,7 Prozent gegenüber 47,9 Prozent unter Placebo; in der Phase-2-Studie beendeten nur 60,4 Prozent die 46 Wochen (in beiden Armen ähnlich).',
+      'Herz-Kreislauf-Studie mit 5531 Teilnehmern abgeschlossen, Ergebnisse aber nicht veröffentlicht; klassentypisch höhere Herzfrequenz.',
+      'Kein publizierter direkter Vergleich mit Semaglutid oder Tirzepatid; Graumarkt-Ware ungeprüft.'
     ],
-    status: 'Phase 3 (Boehringer Ingelheim / Zealand Pharma). Noch nicht zugelassen.',
+    status: 'Phase 3 (Boehringer Ingelheim). Studien zu Adipositas und Fettleber abgeschlossen, Leber-Endpunktstudien laufend. Noch nicht zugelassen.',
     sources: [
-      { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' },
-      { title: 'Meto – Next-Generation Metabolic Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' }
+      { title: 'le Roux CW et al., N Engl J Med 2026 – SYNCHRONIZE-1', url: 'https://pubmed.ncbi.nlm.nih.gov/42253238/' },
+      { title: 'Kaplan LM et al., Nat Med 2026 – SYNCHRONIZE-MASLD', url: 'https://pubmed.ncbi.nlm.nih.gov/42252333/' },
+      { title: 'le Roux CW et al., Lancet Diabetes Endocrinol 2024 – Phase-2-Dosisfindung', url: 'https://pubmed.ncbi.nlm.nih.gov/38330987/' },
+      { title: 'Noureddin M et al., Hepatology 2026 – Mediationsanalyse zur Leberwirkung', url: 'https://pubmed.ncbi.nlm.nih.gov/42545725/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'maritide',
@@ -1644,27 +1652,32 @@ const EXPERIMENTAL = [
     altNames: 'AMG 133',
     class: 'GIP-Rezeptor-Antagonist + GLP-1-Agonist (Peptid-Antikörper-Konjugat)',
     emoji: '💉',
-    short: 'Amgens Kandidat mit ungewöhnlichem Ansatz: GLP-1-Agonist plus GIP-BLOCKADE – und der große Vorteil, nur einmal im Monat gespritzt zu werden.',
-    moa: 'MariTide ist ein Peptid-Antikörper-Konjugat, das den GLP-1-Rezeptor aktiviert und gleichzeitig den GIP-Rezeptor BLOCKIERT (Antagonist) – interessanterweise das Gegenteil von Tirzepatid, führt aber ebenfalls zu starkem Gewichtsverlust. Durch die lange Wirkdauer reicht eine Injektion pro Monat. In Phase 2 zeigte sich anhaltender Gewichtsverlust ohne das übliche schnelle Plateau.',
+    short: 'Amgens Kandidat mit ungewöhnlichem Ansatz: GLP-1-Agonist plus GIP-BLOCKADE, nur einmal im Monat gespritzt. In Phase 2 über 52 Wochen 12,3 bis 16,2 Prozent Gewichtsabnahme gegenüber 2,5 Prozent unter Placebo – Phase 3 läuft.',
+    moa: 'MariTide ist ein Peptid-Antikörper-Konjugat: An einen monoklonalen Antikörper sind Peptide gekoppelt, die den GLP-1-Rezeptor aktivieren und den GIP-Rezeptor BLOCKIEREN – das Gegenteil von Tirzepatid, mit ebenfalls starkem Gewichtsverlust. Die Kopplung an den Antikörper verlängert die Wirkdauer, daher eine Injektion pro Monat (in einer Studiengruppe alle 8 Wochen). Warum sowohl Blockade als auch Aktivierung des GIP-Rezeptors günstig wirken, ist unbekannt; für die Blockade sprechen Mäuse ohne GIP-Rezeptor, humangenetische Daten (weniger aktive Varianten, niedrigerer BMI) und Tierversuche.',
     benefits: [
-      'Nur 1× MONATLICH statt wöchentlich – deutlich seltenere Injektion',
-      'Starker, anhaltender Gewichtsverlust in Phase 2',
-      'Neuartiger Mechanismus (GLP-1-Agonismus + GIP-Antagonismus)',
-      'Wenig „Rebound"-Plateau in den bisherigen Daten'
+      'Nur 1× MONATLICH statt wöchentlich – deutlich seltenere Injektion, in einer Studiengruppe sogar alle 8 Wochen.',
+      'Phase 2 (592 Teilnehmer, 52 Wochen): 12,3 bis 16,2 Prozent Gewichtsabnahme ohne Diabetes gegenüber 2,5 Prozent unter Placebo; primärer Endpunkt erreicht.',
+      'Mindestens 15 Prozent Abnahme bei 45,5 bis 62,3 Prozent der Behandelten (Placebo 2,6 Prozent), mindestens 20 Prozent bei 23,4 bis 38,5 Prozent (Placebo 0).',
+      'Bei Typ-2-Diabetes HbA1c minus 1,2 bis 1,6 Prozentpunkte gegenüber plus 0,1 unter Placebo.',
+      'Neuartiger Mechanismus (GLP-1-Agonismus plus GIP-Antagonismus), über Tiermodelle und Humangenetik begründet.'
     ],
     risks: [
-      'Noch in klinischer Prüfung (Phase 3) – nicht zugelassen',
-      'Klassentypische Magen-Darm-Effekte',
-      'Langzeitsicherheit offen; Graumarkt-Ware ungeprüft'
+      'Noch in klinischer Prüfung (Phase 3) – nicht zugelassen, außerhalb von Studien nicht erhältlich.',
+      'Klassentypische Magen-Darm-Effekte, häufig; seltener bei langsamer Aufdosierung und niedrigerer Startdosis.',
+      'Deutlicher Muskelverlust: 8,6 bis 11,6 Prozent der gesamten Muskelmasse gegenüber 2,1 Prozent unter Placebo.',
+      'Langzeitsicherheit offen (längste Studie 52 Wochen), keine Daten zu Herz-Kreislauf-Ereignissen, kein direkter Vergleich mit Semaglutid oder Tirzepatid; am Graumarkt kann das Konjugat nicht echt sein.'
     ],
-    status: 'Phase 3 (Amgen). Noch nicht zugelassen.',
+    status: 'Phase 3 (Amgen), unter anderem kardiovaskuläre Endpunktstudie mit 12.800 geplanten Teilnehmern. Noch nicht zugelassen.',
     sources: [
-      { title: 'Meto – Next-Generation GLP-1 Drugs 2026 (MariTide)', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' },
-      { title: 'GoodRx – New Weight Loss Drugs', url: 'https://www.goodrx.com/conditions/weight-loss/new-weight-loss-drugs' }
+      { title: 'Jastreboff AM et al., N Engl J Med 2025 – Phase-2-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/40549887/' },
+      { title: 'Bassatne A, Rizo I, Adv Ther 2026 – Übersicht mit Studientabelle', url: 'https://pubmed.ncbi.nlm.nih.gov/41954863/' },
+      { title: 'Rosenkilde MM et al., Diabetes 2025 – Begründung der GIP-Rezeptorblockade', url: 'https://pubmed.ncbi.nlm.nih.gov/40521869/' },
+      { title: 'ClinicalTrials.gov NCT07037433 – kardiovaskuläre Endpunktstudie', url: 'https://clinicaltrials.gov/study/NCT07037433' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
-    ]
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'mazdutide',
@@ -1672,27 +1685,30 @@ const EXPERIMENTAL = [
     altNames: 'IBI362, LY3305677',
     class: 'GLP-1 / Glucagon Dual-Agonist',
     emoji: '💉',
-    short: 'GLP-1/Glucagon-Doppelagonist, der in China bereits die Zulassung erreicht hat – mit zusätzlichem Fokus auf Leber und Stoffwechsel.',
-    moa: 'Mazdutide ist ein Doppelagonist an GLP-1- und Glucagon-Rezeptoren (abgeleitet von Oxyntomodulin). GLP-1 zügelt den Appetit, die Glucagon-Komponente steigert den Energieverbrauch und wirkt günstig auf Leberfett und Lipide. In China wurde es 2025/26 für Adipositas/Diabetes zugelassen; westliche Zulassungen stehen aus.',
+    short: 'GLP-1/Glukagon-Doppelagonist, in China seit Juni 2025 zur Gewichtskontrolle und seit September 2025 bei Typ-2-Diabetes zugelassen. In Phase 3 bis 16,65 Prozent Gewichtsabnahme nach 60 Wochen – in Deutschland nicht zugelassen.',
+    moa: 'Mazdutide ist ein von Oxyntomodulin abgeleiteter Doppelagonist an GLP-1- und Glukagonrezeptoren. GLP-1 zügelt den Appetit, verbessert die Insulinantwort und verlangsamt die Magenentleerung; die Glukagon-Komponente soll Energie aus der Leber mobilisieren und den Fettabbau dort fördern. Ein höherer Energieverbrauch ist für Mazdutide am Menschen bisher nicht gemessen. In China im Juni 2025 für Adipositas und im September 2025 für Typ-2-Diabetes zugelassen; westliche Zulassungen stehen aus.',
     benefits: [
-      'In China bereits zugelassen (Adipositas/Diabetes)',
-      'Deutlicher Gewichtsverlust plus günstige Leber-/Lipidwerte',
-      'Glucagon-Anteil hebt den Energieverbrauch',
-      'Wöchentliche Gabe'
+      'In China zugelassen (Juni 2025 Adipositas, September 2025 Typ-2-Diabetes).',
+      'Phase 3 GLORY-1 (610 Teilnehmer): 11,00 bis 14,01 Prozent Gewichtsabnahme nach 48 Wochen; GLORY-2 (461): 16,65 Prozent nach 60 Wochen.',
+      'Bei Typ-2-Diabetes besser als Dulaglutid bei HbA1c und Gewicht (DREAMS-2, 731 Teilnehmer).',
+      'Günstigere Blutfette, Leberenzyme und Harnsäure (Meta-Analyse, 9 RCTs); wöchentliche Gabe.'
     ],
     risks: [
-      'In DE/EU/USA nicht zugelassen',
-      'Klassentypische Magen-Darm-Effekte',
-      'Außerhalb Chinas nur ungeprüfte Graumarkt-Ware'
+      'In DE/EU/USA nicht zugelassen; Phase-3-Daten fast ausschließlich aus China.',
+      'Sehr häufige Magen-Darm-Effekte (GLORY-2: Erbrechen 53,1 Prozent, Übelkeit 46,9 Prozent); klassentypisch höhere Herzfrequenz.',
+      'Keine Daten zu Herz-Kreislauf-Ereignissen, längste Studie 60 Wochen; außerhalb Chinas nur ungeprüfte Graumarkt-Ware.'
     ],
-    status: 'In China zugelassen (Innovent/Eli Lilly); in DE/EU nicht zugelassen.',
+    status: 'In China zugelassen (Innovent/Eli Lilly, Juni 2025 Adipositas, September 2025 Typ-2-Diabetes); in DE/EU nicht zugelassen.',
     sources: [
-      { title: 'Meto – Next-Generation GLP-1 Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' },
-      { title: 'Drug Discovery News – GLP-1 Pipeline 2026', url: 'https://www.drugdiscoverynews.com/glp-1-agonist-clinical-pipeline-2026-semaglutide-tirzepatide-and-what-s-in-phase-2-17286' }
+      { title: 'Ji L et al., N Engl J Med 2025 – GLORY-1', url: 'https://pubmed.ncbi.nlm.nih.gov/40421736/' },
+      { title: 'Gao L et al., JAMA 2026 – GLORY-2', url: 'https://pubmed.ncbi.nlm.nih.gov/42251595/' },
+      { title: 'Kamrul-Hasan ABM et al., Diabetes Obes Metab 2026 – Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/42410325/' },
+      { title: 'Shirley M, Drugs 2025 – Mazdutide: First Approval', url: 'https://pubmed.ncbi.nlm.nih.gov/41028652/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'igf-1-lr3',
@@ -1800,29 +1816,35 @@ const EXPERIMENTAL = [
     altNames: 'Pralmorelin, KP-102, GHRP2',
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '💪',
-    short: 'Ein synthetisches Peptid, das über den Ghrelin-Rezeptor die pulsatile Ausschüttung von körpereigenem Wachstumshormon anregt – potent und gut charakterisiert.',
-    moa: 'GHRP-2 ist ein Agonist am Wachstumshormon-Sekretagogum-Rezeptor (GHSR-1a), dem Ghrelin-Rezeptor der Hypophyse. Durch dessen Aktivierung stimuliert es die Freisetzung von Wachstumshormon (GH) aus den somatotropen Zellen und dämpft zugleich Somatostatin. Der Effekt ist pulsatil und wirkt synergistisch mit GHRH beziehungsweise GHRH-Analoga. Neben GH kann GHRP-2 dosisabhängig auch Prolaktin, ACTH und Cortisol leicht erhöhen. In der Humanmedizin wurde es primär als diagnostisches Provokationsmittel der GH-Sekretion untersucht.',
+    short: 'Ein synthetisches Hexapeptid, das über den Ghrelin-Rezeptor kräftig körpereigenes Wachstumshormon freisetzt – so verlässlich, dass es in Japan als Diagnostikum für den Wachstumshormon-Test dient. Einen Nutzen bei Daueranwendung zeigen die Studien bisher nicht: In einer doppelblinden Studie über 48 Wochen stiegen weder IGF-1 noch das Wachstum.',
+    moa: 'GHRP-2 (Pralmorelin) ist ein Hexapeptid aus der Peptidserie von Cyril Bowers und aktiviert den Wachstumshormon-Sekretagogum-Rezeptor GHSR-1a, den Ghrelin-Rezeptor der Hypophyse. Die GH-Antwort ist kräftiger als nach GHRH und wirkt mit einem GHRH-Signal synergistisch, bei Jüngeren stärker als bei Älteren. Die Wirkung ist kurz: Halbwertszeit 0,55 Stunden bei Kindern, GH-Gipfel innerhalb von etwa 60 Minuten. Wie Ghrelin steigert GHRP-2 den Appetit, und es ist nicht voll selektiv: Prolaktin, ACTH und Cortisol steigen mit. Die Rückkopplung der körpereigenen Achse bleibt erhalten.',
     benefits: [
-      'Regt die Ausschüttung von körpereigenem Wachstumshormon an, ohne exogenes GH zuzuführen.',
-      'Erhöht in Studien indirekt die IGF-1-Spiegel über die gesteigerte GH-Sekretion.',
-      'Wirkt appetitanregend, da es wie Ghrelin am GHSR-1a ansetzt.',
-      'Zeigt synergistische GH-Freisetzung in Kombination mit GHRH-Analoga.',
-      'Gilt in der Forschung als potenter GH-Stimulator mit vergleichsweise geringer Cortisol-Beeinflussung.',
-      'Wurde klinisch als diagnostischer GH-Provokationstest charakterisiert.'
+      'Setzt beim Menschen zuverlässig und stärker als GHRH Wachstumshormon frei (Arvat 1997, 6 junge und 6 ältere Gesunde).',
+      'Als Diagnostikum für Wachstumshormonmangel validiert: Spitzen-GH 84,6 µg/l bei Gesunden gegenüber 1,36 µg/l bei Patienten, Grenzwert 15 µg/l (Chihara 2007, 77 Gesunde, 58 Patienten); in Japan klinisch etabliert.',
+      'Unter 30 Tagen Dauerinfusion bei gesunden Älteren blieb die GH-Ausschüttung erhöht und IGF-1 stieg auf ein stabiles Plateau (Bowers 2004, 17 Teilnehmer) – Hormonspiegel, kein klinischer Endpunkt.',
+      'Normalisierte bei langwierig kritisch kranken Männern IGF-1 und IGFBP-3 (Van den Berghe 2002, RCT, 33 Männer, 5 Tage); weniger Eiweißabbau nur in Kombination mit TRH.',
+      'Deutlich appetitsteigernd: 35,9 % mehr Nahrungsaufnahme bei 7 gesunden Männern (Laferrère 2005); 7 von 10 Kindern mit mehr Appetit (Mericq 2003).'
     ],
     risks: [
-      'Kann Appetit, Prolaktin und Cortisol leicht anheben.',
-      'Nicht als Arzneimittel zugelassen; im Wettkampfsport verboten.',
-      'Als Forschungssubstanz auf Reinheit achten.'
+      'Kein klinischer Nutzen bei Daueranwendung belegt: In der doppelblinden Studie mit 126 Kindern über 48 Wochen weder Wachstum noch IGF-1-Anstieg (Tanaka 2014); keine Studie zu Muskel, Fett oder Schlaf bei Gesunden.',
+      'Nicht selektiv: Prolaktin, ACTH und Cortisol steigen mit (Arvat 1997); dazu deutlich mehr Hunger.',
+      'FDA nennt Berichte über höheren Insulinbedarf, Infektionen, Pankreatitis und Todesfälle kritisch kranker Studienteilnehmer, Kausalität nicht belegt; keine Langzeitdaten.',
+      'Nicht zugelassen, Graumarktware ungeprüft; im Sport verboten und im Urin nachweisbar.'
     ],
-    status: 'In DE/EU nicht als Arzneimittel zugelassen; Forschungssubstanz.',
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; Forschungspeptid. In Japan als Diagnostikum für den GH-Stimulationstest etabliert. USA: seit 29.09.2023 FDA-Kategorie 2 (mögliche erhebliche Sicherheitsrisiken, nicht für Rezepturen). Im Sport jederzeit verboten (WADA 2026 S2.2.4; in DE namentlich in der Anlage des Anti-Doping-Gesetzes).',
     sources: [
-      { title: 'Bowers et al., Endocrinology 1984 – Charakterisierung wachstumshormonfreisetzender Peptide', url: 'https://pubmed.ncbi.nlm.nih.gov/6539197/' },
-      { title: 'Arvat et al., J Clin Endocrinol Metab 1997 – GHRP-2 und Hexarelin auf GH, Prolaktin, ACTH, Cortisol', url: 'https://pubmed.ncbi.nlm.nih.gov/9253340/' }
+      { title: 'Tanaka T et al., Clin Pediatr Endocrinol 2014 – GHRP-2-Nasenspray über 48 Wochen fördert das Wachstum nicht', url: 'https://pubmed.ncbi.nlm.nih.gov/25374440/' },
+      { title: 'Bowers CY et al., J Clin Endocrinol Metab 2004 – 30 Tage GHRP-2 bei Älteren, GH und IGF-1 anhaltend erhöht', url: 'https://pubmed.ncbi.nlm.nih.gov/15126555/' },
+      { title: 'Chihara K et al., Eur J Endocrinol 2007 – GHRP-2-Test bei Wachstumshormonmangel des Erwachsenen', url: 'https://pubmed.ncbi.nlm.nih.gov/17609397/' },
+      { title: 'Arvat E et al., Peptides 1997 – GHRP-2 und Hexarelin auf GH, Prolaktin, ACTH und Cortisol', url: 'https://pubmed.ncbi.nlm.nih.gov/9285939/' },
+      { title: 'Laferrère B et al., J Clin Endocrinol Metab 2005 – GHRP-2 steigert wie Ghrelin die Nahrungsaufnahme', url: 'https://pubmed.ncbi.nlm.nih.gov/15699539/' },
+      { title: 'Bowers CY et al., Endocrinology 1984 – das erste GH freisetzende Hexapeptid (Vorläufer)', url: 'https://pubmed.ncbi.nlm.nih.gov/6714155/' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
-    ]
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'ghrp-6',
@@ -1831,28 +1853,34 @@ const EXPERIMENTAL = [
     class: 'Synthetisches Wachstumshormon-Sekretagogum (Hexapeptid, Ghrelin-Rezeptor-Agonist)',
     emoji: '🍽️',
     short: 'Das erste klassische GH-Peptid: Es stößt über den Ghrelin-Rezeptor eine Wachstumshormon-Ausschüttung an und steigert den Appetit deutlich. Historisch die Leitstruktur der ganzen Klasse – ohne moderne Zulassungsstudien.',
-    moa: 'GHRP-6 bindet als Agonist an den Ghrelin-Rezeptor (GHSR-1a) in Hypophyse und Hypothalamus und löst dort die pulsatile Freisetzung von Wachstumshormon aus. Es wirkt synergistisch mit GHRH und unterdrückt gegenregulatorisch Somatostatin. Charakteristisch ist eine ausgeprägte ghrelinartige Appetitsteigerung, die stärker ausfällt als bei GHRP-2. Wie andere Sekretagoga kann es begleitend Cortisol und Prolaktin moderat anheben. GHRP-6 diente historisch als Ausgangsmolekül, aus dem GHRP-2 und Hexarelin entwickelt wurden.',
+    moa: 'GHRP-6 bindet als Agonist an den Ghrelin-Rezeptor (GHSR-1a) in Hypophyse und Hypothalamus und löst dort die Freisetzung von Wachstumshormon aus; beim Menschen dosisabhängig gezeigt. Mit GHRH wirkt es synergistisch, weil beide über verschiedene Wege ansetzen. Weil der Ghrelin-Rezeptor auch den Appetit steuert, ist ein kräftiger Hungerschub typisch. Bei hohen Gaben steigen Prolaktin und Cortisol etwa auf das Doppelte. GHRP-6 war das erste Peptid seiner Klasse; danach entstanden GHRP-1, GHRP-2 und Hexarelin, und die Suche nach seinem Rezeptor führte zur Entdeckung von Ghrelin.',
     benefits: [
-      'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon.',
-      'Ausgeprägte Appetitsteigerung, die in präklinischen Modellen für Kachexie-Forschung untersucht wird.',
-      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.',
-      'Wirkt synergistisch mit GHRH-Analoga für eine verstärkte GH-Antwort.',
-      'In Tiermodellen Hinweise auf zytoprotektive Effekte an Herz- und anderen Geweben (präklinisch).',
-      'Diente als Leitstruktur für die gesamte Klasse der GH-Sekretagoga.'
+      'Setzt beim Menschen Wachstumshormon frei – dosisabhängig, in mehreren kleinen Studien gezeigt',
+      'Wirkt synergistisch mit GHRH; die Kombination diente in einer Lancet-Studie als zuverlässiger Diagnosetest für Wachstumshormonmangel',
+      'Ausgeprägte Appetitsteigerung über den Ghrelin-Rezeptor (beim Menschen für das verwandte GHRP-2 gemessen)',
+      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen',
+      'Im Tiermodell Schutz von Herz und Organen (Herzinfarkt beim Schwein, Doxorubicin bei Ratten) – präklinisch',
+      'Diente als Leitstruktur für die gesamte Klasse der GH-Sekretagoga'
     ],
     risks: [
-      'Deutliche Appetitsteigerung und leichte Wassereinlagerung möglich.',
-      'Kann Cortisol/Prolaktin anheben; nicht zugelassen, im Sport verboten.',
-      'Forschungssubstanz – auf Qualität achten.'
+      'Keine kontrollierten Studien zu Muskelaufbau, Fettabbau oder Regeneration; keine Langzeitdaten',
+      'Deutliche Appetitsteigerung; Wassereinlagerung und geringere Insulinempfindlichkeit als Klasseneffekte',
+      'Hebt Prolaktin und Cortisol an; verändert den Schlaf',
+      'Nicht zugelassen, im Sport jederzeit verboten (WADA-Liste 2026, S2.2.4)',
+      'Forschungssubstanz – Reinheit und Gehalt ungeprüft'
     ],
     status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
     sources: [
-      { title: 'Bowers et al., Endocrinology 1984 – Wachstumshormonfreisetzung durch GHRP-6', url: 'https://pubmed.ncbi.nlm.nih.gov/6539197/' },
-      { title: 'Cibrian et al., Review 2016 – GHRP-6 und verwandte Sekretagoga', url: 'https://pubmed.ncbi.nlm.nih.gov/26928634/' }
+      { title: 'Bowers CY et al., Endocrinology 1984 – Erstbeschreibung des GH-freisetzenden Hexapeptids', url: 'https://pubmed.ncbi.nlm.nih.gov/6714155/' },
+      { title: 'Bowers CY et al., J Clin Endocrinol Metab 1990 – GH-Freisetzung bei gesunden Männern, Synergie mit GHRH', url: 'https://pubmed.ncbi.nlm.nih.gov/2108187/' },
+      { title: 'Popovic V et al., Lancet 2000 – GHRH plus GHRP-6 als Diagnosetest', url: 'https://pubmed.ncbi.nlm.nih.gov/11030292/' },
+      { title: 'Berlanga-Acosta J et al., Clin Med Insights Cardiol 2017 – Übersicht zu schützenden Effekten der GHRPs', url: 'https://pubmed.ncbi.nlm.nih.gov/28469491/' },
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – Wachstumshormon-Peptide: Evidenz und Selbstanwendung', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
-    ]
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'hexarelin',
@@ -1946,42 +1974,38 @@ const EXPERIMENTAL = [
     altNames: 'Modified GRF (1-29), CJC-1295 no DAC, Sermorelin-Analogon',
     class: 'Synthetisches GHRH-Analogon (Wachstumshormon-Releasing-Hormon-Fragment)',
     emoji: '📈',
-    short: 'Ein stabilisiertes GHRH-Analog, das die eigene Wachstumshormon-Ausschüttung schön pulsatil anregt – meist elegant mit einem GHRP kombiniert.',
-    moa: 'Mod GRF 1-29 ist ein modifiziertes Fragment der ersten 29 Aminosäuren des Wachstumshormon-Releasing-Hormons (GHRH). Es bindet an den GHRH-Rezeptor der Hypophyse und stimuliert so die Synthese und Freisetzung von Wachstumshormon. Vier Aminosäureaustausche schützen das Molekül vor enzymatischem Abbau und verlängern die Wirkdauer gegenüber nativem GHRH beziehungsweise Sermorelin. Anders als die DAC-Variante fehlt der Drug-Affinity-Complex, sodass die Halbwertszeit kürzer bleibt und die GH-Ausschüttung pulsatiler erfolgt. In der Praxis wird es häufig mit einem Ghrelin-Rezeptor-Agonisten wie GHRP-2 oder GHRP-6 kombiniert, da beide Wege synergistisch wirken.',
+    short: 'Ein stabilisiertes GRF(1-29) mit 4 Aminosäureaustauschen, das die eigenen Wachstumshormon-Pulse verstärken soll – das kurz wirksame Geschwister von CJC-1295 mit DAC. Das GRF-Prinzip ist am Menschen belegt, Mod GRF selbst wurde aber nie in einer veröffentlichten Humanstudie untersucht.',
+    moa: 'Mod GRF 1-29 ist ein modifiziertes Fragment der ersten 29 Aminosäuren des Wachstumshormon-Releasing-Hormons (GHRH) mit 4 Aminosäureaustauschen gegenüber nativem GHRH. Es bindet an den GHRH-Rezeptor der Hypophyse und soll so die Freisetzung von Wachstumshormon anregen, bei erhaltener Rückkopplung. Solche Austausche sollen GRF vor dem Abbau durch DPP-IV, chemischer Umlagerung und Oxidation schützen und die Rezeptorbindung verbessern (Peptidchemie, Tier- und Zelldaten). Anders als die DAC-Variante fehlt der Albumin-Anker, die Wirkung gilt deshalb als kurz – eine Halbwertszeit beim Menschen ist allerdings nicht veröffentlicht. In der Praxis wird es häufig mit einem Ghrelin-Rezeptor-Agonisten wie Ipamorelin oder GHRP-2 kombiniert; die Synergie beider Signalwege ist für die Substanzklassen am Menschen belegt, nicht für diese Kombination.',
     benefits: [
-      'Stimuliert die pulsatile Freisetzung von körpereigenem Wachstumshormon über den GHRH-Weg.',
-      'Wirkt synergistisch mit GHRP-Sekretagoga für eine verstärkte GH-Antwort.',
-      'Längere Wirkdauer als natives GHRH oder Sermorelin durch die Aminosäureaustausche.',
-      'Soll die pulsatile GH-Physiologie besser erhalten als langwirksame DAC-Varianten – pharmakologisch plausibel, am Menschen nicht vergleichend untersucht.',
-      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.',
-      'Gilt in der Forschung als vergleichsweise selektiv am GHRH-Rezeptor.'
+      'Das Grundprinzip wirkt beim Menschen: GRF(1-29)-Peptide setzen nach Injektion Wachstumshormon frei (Aitman 1989); Sermorelin (GRF 1-29) war in den USA zugelassen, die Rücknahme 2009 erfolgte nicht aus Sicherheitsgründen.',
+      'Ein verwandtes GRF-Analogon hob bei 19 Älteren über Wochen GH, IGF-1 und IGFBP-3, verdickte die Haut und verbesserte bei Männern Magermasse und Insulinempfindlichkeit (Khorram 1997, einfach verblindet) – nicht Mod GRF selbst.',
+      'Die Aminosäureaustausche machen GRF-Analoga im Labor und im Tier stabiler gegen Abbau (Campbell 1994); ob daraus beim Menschen eine längere Wirkung folgt, ist nicht gemessen.',
+      'Soll die pulsatile GH-Physiologie besser erhalten als langwirksame DAC-Varianten – pharmakologisch plausibel, am Menschen nicht vergleichend untersucht; auch unter CJC-1295 mit DAC blieben die Pulse erhalten (Ionescu 2006).',
+      'Hebt indirekt IGF-1 über die gesteigerte GH-Sekretion – das ist der Mechanismus, kein belegter Nutzen.'
     ],
     risks: [
-      'Meist milde lokale Reaktionen oder leichte Wassereinlagerung.',
-      'Als GH-Stimulator den Blutzucker im Blick behalten; im Sport verboten.',
-      'Nicht zugelassen; Forschungssubstanz – auf Qualität achten.'
+      'Keine einzige begutachtete Humanstudie, keine gemessene Halbwertszeit; unterste Evidenzstufe in der Übersicht Dominikowski 2026. Ein im Tier superaktives GRF-Analogon zeigte beim Menschen keinen Vorteil (Aitman 1989).',
+      'Klasseneffekte: Wassereinlagerung, Kribbeln, Gelenkschmerzen, sinkende Insulinempfindlichkeit; FDA nennt bei CJC-1295 erhöhte Herzfrequenz und Gefäßerweiterungsreaktionen.',
+      'Namenschaos: Als CJC-1295 verkaufte Ware enthält oft Mod GRF (Henninge 2010); Graumarktproben mit häufigen Qualitätsmängeln (Preprint 2026).',
+      'Nicht zugelassen; im Sport verboten.'
     ],
-    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
+    status: 'In DE/EU und den USA nicht zugelassen; Forschungspeptid, oft als CJC-1295 verkauft. Im Sport jederzeit verboten (WADA 2026 S2.2.4; in DE als mod-GRF namentlich in der Anlage des Anti-Doping-Gesetzes).',
     sources: [
-      { title: 'Ionescu & Frohman, J Clin Endocrinol Metab 2006 – Pulsatile vs. kontinuierliche GH-Sekretion durch GHRH-Analoga', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
-      { title: 'Teichman et al., J Clin Endocrinol Metab 2006 – Pharmakokinetik von CJC-1295', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
+      { title: 'Dominikowski A et al., Front Endocrinol 2026 – CJC-1295 ohne DAC: keine begutachtete Humanstudie (Evidenzstufe D)', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' },
+      { title: 'Khorram O et al., J Clin Endocrinol Metab 1997 – GRF(1-29)-Analogon über 16 Wochen bei Älteren', url: 'https://pubmed.ncbi.nlm.nih.gov/9141536/' },
+      { title: 'Aitman TJ et al., Peptides 1989 – im Tier superaktives GRF-Analogon ohne Vorteil beim Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/2546126/' },
+      { title: 'Henninge J et al., Drug Test Anal 2010 – als CJC-1295 verkauftes Präparat enthielt Peptid ohne DAC', url: 'https://pubmed.ncbi.nlm.nih.gov/21204297/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
-      {
-        title: 'CJC-1295 ohne DAC: Das Puls-Peptid – und die Auflösung des Namens-Chaos',
-        audio: 'audio/cjc-1295-no-dac-podcast.mp3',
-        spotify: '78AdX9FlRgHliWEjUnfYRM',
-        lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 38) · mit Paul & Paula. Frische, positive KI-Dialogfolge, die das größte Namens-Rätsel der Peptid-Szene auflöst: CJC-1295 ohne DAC, Mod GRF 1-29 und modifiziertes GRF sind ein und dasselbe Molekül. Warum das kurzlebige GHRH-Analogon die natürlichen Wachstumshormon-Pulse verstärkt statt überdeckt (Ionescu & Frohman, JCEM 2006), was die vier Molekül-Reparaturen bewirken, wo Sermorelin einzuordnen ist, warum Insulin-Timing den Puls entscheidet – und der große Vergleich: DAC oder ohne DAC? Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.',
-        sources: [
+      { title: 'CJC-1295 ohne DAC: Das Puls-Peptid – und die Auflösung des Namens-Chaos', audio: 'audio/cjc-1295-no-dac-podcast.mp3', spotify: '78AdX9FlRgHliWEjUnfYRM', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 38) · mit Paul & Paula. Frische, positive KI-Dialogfolge, die das größte Namens-Rätsel der Peptid-Szene auflöst: CJC-1295 ohne DAC, Mod GRF 1-29 und modifiziertes GRF sind ein und dasselbe Molekül. Warum das kurzlebige GHRH-Analogon die natürlichen Wachstumshormon-Pulse verstärkt statt überdeckt (Ionescu & Frohman, JCEM 2006), was die vier Molekül-Reparaturen bewirken, wo Sermorelin einzuordnen ist, warum Insulin-Timing den Puls entscheidet – und der große Vergleich: DAC oder ohne DAC? Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.', sources: [
           { title: 'Ionescu & Frohman 2006 – pulsatile GH-Sekretion unter GHRH-Analoga', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
           { title: 'Teichman et al. 2006 – CJC-1295 (DAC) Pharmakokinetik', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'aod-9604',
@@ -2231,27 +2255,31 @@ const EXPERIMENTAL = [
     altNames: 'Cibinetide, EPO-Derivat-Peptid',
     class: 'Innate-Repair-Rezeptor-Agonist (nicht-erythropoetisches EPO-Fragment)',
     emoji: '🩹',
-    short: 'Ein EPO-abgeleitetes Peptid ohne Blutbildungs-Effekt: zielt auf Nervenreparatur und Entzündung – untersucht v.a. bei Nervenschmerz und Neuropathie.',
-    moa: 'ARA-290 ist ein kurzes Peptid aus der Helix-B des Erythropoetins (EPO), aber OHNE dessen blutbildende Wirkung. Es aktiviert den „Innate Repair Receptor" und wirkt gewebeschützend und entzündungshemmend, besonders an Nervengewebe. Untersucht wird es vor allem bei kleinen-Faser-Neuropathie (u.a. bei Sarkoidose, Diabetes) zur Linderung von Nervenschmerz und zur Regeneration von Nervenfasern.',
+    short: 'Ein EPO-abgeleitetes Peptid ohne Blutbildungs-Effekt: zielt auf Nervenreparatur und Entzündung. Zwei kleine Studien bei Neuropathie positiv – die größte Studie mit 64 Teilnehmern zeigte bei Beschwerden und Hautbiopsie keinen Vorteil gegenüber Placebo und blieb unpubliziert.',
+    moa: 'ARA-290 ist ein kurzes Peptid aus der Helix-B des Erythropoetins (EPO), aber OHNE dessen blutbildende Wirkung. Es aktiviert den „Innate Repair Receptor" und soll gewebeschützend und entzündungshemmend wirken, besonders an Nervengewebe. Untersucht wurde es vor allem bei Small-Fiber-Neuropathie (bei Sarkoidose und Diabetes) auf Nervenschmerz und Nervenfaserdichte. Am Menschen gemessen sind Beschwerdefragebögen und Nervenfaserdichte, nicht die Wirkkette über den Rezeptor; die breite Mechanismusevidenz stammt aus Zell- und Tiermodellen.',
     benefits: [
-      'Gezielte Nerven-/Geweberegeneration ohne EPO-typische Blutbildung',
-      'Entzündungshemmend und schmerzlindernd bei Neuropathie (Studien)',
-      'Untersucht bei kleiner-Faser-Neuropathie und Sarkoidose',
-      'Kein Doping-typischer Blutbildungseffekt'
+      'Echte kontrollierte Humandaten: verblindete, placebokontrollierte Studie bei Sarkoidose-assoziiertem Verlust kleiner Nervenfasern mit besseren Beschwerden und höherer Hornhautnervenfaserdichte (28 Tage).',
+      'Phase 2 bei Typ-2-Diabetes: bessere PainDetect-Werte, HbA1c und Blutfette über 56 Tage Beobachtung.',
+      '6-Minuten-Gehtest in der größten Studie in allen 3 Dosisgruppen ähnlich besser (plus 17,7 bis 19,3 Meter gegenüber plus 1,2 unter Placebo).',
+      'Regt die Blutbildung nicht an – der klassische EPO-Nachteil entfällt.'
     ],
     risks: [
-      'Noch investigativ – begrenzte, wenn auch vielversprechende Humandaten',
-      'Nicht als Arzneimittel zugelassen; Research-Ware auf Reinheit achten',
-      'Langzeitsicherheit nicht abschließend geklärt'
+      'Die größte Studie (64 Teilnehmer, vierfach verblindet) zeigte bei Symptomfragebögen und Nervenfaserdichte in der Haut keinen Vorteil gegenüber Placebo – und wurde nie publiziert.',
+      'Entwicklung steht still: keine Phase 3, keine laufende Studie, keine Zulassung; Augenstudie vorzeitig beendet, Depressionsstudie ohne veröffentlichte Ergebnisse.',
+      'Nur Kurzzeitdaten (28 Tage, in einer Studie 12 Wochen); schwerwiegende Einzelereignisse traten in der größten Studie ausschließlich in Wirkstoffarmen auf.',
+      'Im Sport nach Wortlaut der WADA-Liste 2026 verboten (S2.1.5, Agonisten des körpereigenen Reparatur-Rezeptors, einschließlich Substanzen ähnlicher Wirkung); Graumarkt-Ware ungeprüft.'
     ],
-    status: 'Investigativ (klinische Studien); nicht zugelassen.',
+    status: 'Investigativ (Phase 2, keine laufende Studie); nicht zugelassen.',
     sources: [
-      { title: 'ARA-290 bei kleiner-Faser-Neuropathie (Studie, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4283549/' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Dahan A et al., Mol Med 2013 – Sarkoidose, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/24136731/' },
+      { title: 'Brines M et al., Mol Med 2015 – Phase 2 bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/25387363/' },
+      { title: 'ClinicalTrials.gov NCT02039687 – Phase 2 mit 64 Teilnehmern, Ergebnisse eingestellt', url: 'https://clinicaltrials.gov/study/NCT02039687' },
+      { title: 'Lois N et al., J Clin Med 2020 – diabetisches Makulaödem', url: 'https://pubmed.ncbi.nlm.nih.gov/32674280/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'vip',
@@ -2259,28 +2287,34 @@ const EXPERIMENTAL = [
     altNames: 'Vasoactive Intestinal Peptide, Aviptadil',
     class: 'Neuropeptid (28 Aminosäuren), immun- und gefäßmodulierend',
     emoji: '🫁',
-    short: 'Ein körpereigenes Peptid mit breiter regulierender Wirkung – als Nasenspray bekannt in der CIRS-/Schimmel-Community und für Immun- und Gefäßfunktion untersucht.',
+    short: 'Körpereigenes Peptid, das Gefäße erweitert und Entzündung dämpft. Als Schwellkörperinjektion mit Phentolamin zugelassen, bei COVID-19 mit gemischten Ergebnissen geprüft; für das Nasenspray gegen CIRS gibt es nur eine offene Studie mit 20 Patienten.',
     moa: 'VIP ist ein körpereigenes Neuropeptid, das Gefäße erweitert, Entzündung dämpft und das Immunsystem sowie den Hormonhaushalt moduliert. In der Biohacking-/CIRS-Szene (chronisches Entzündungssyndrom, z.B. nach Schimmelbelastung) wird es als Nasenspray genutzt, um Entzündungswerte zu normalisieren. Medizinisch (als Aviptadil) wurde es u.a. bei Lungenerkrankungen untersucht.',
     benefits: [
-      'Entzündungsmodulierend und gefäßerweiternd',
-      'In der CIRS-/Schimmel-Community zur Normalisierung von Entzündung genutzt (Nasenspray)',
-      'Untersucht bei Lungen-/Immunerkrankungen (als Aviptadil)',
+      'Gefäßerweiternd – am Menschen belegt, u. a. selektiv in der Lunge (inhaliert) und im Schwellkörper',
+      'Dämpft Entzündung: inhaliert bei Sarkoidose weniger TNF-alpha und mehr regulatorische T-Zellen (offene Studie, 20 Patienten)',
+      'Inhaliertes Aviptadil verkürzte in einer doppelblinden Studie mit 80 Patienten den Klinikaufenthalt bei COVID-19-Pneumonie',
+      'In der CIRS-/Schimmel-Community als Nasenspray genutzt – dazu nur eine offene Studie mit 20 Patienten ohne Kontrollgruppe',
       'Körpereigenes Peptid mit breitem Regulationsprofil'
     ],
     risks: [
-      'Human-Evidenz für die Biohacking-Nutzung ist dünn; vieles anekdotisch',
-      'Kann Blutdruck senken/Flush auslösen (gefäßerweiternd)',
-      'Nicht breit als Arzneimittel zugelassen; Research-Ware auf Reinheit achten',
-      'Anwendung idealerweise ärztlich begleitet (v.a. bei CIRS-Protokollen)'
+      'Für die Nasenspray-Anwendung keine kontrollierten Studien; die größte Studie (Infusion bei COVID-19, 461 Patienten) war negativ',
+      'Gefäßerweiternd: Gesichtsröte (Flush) häufig, Blutdruckabfall möglich',
+      'Dauerhaft stark erhöhtes VIP (VIP-bildende Tumoren) verursacht wässrigen Durchfall und Kaliummangel',
+      'Kein zugelassenes Nasenspray; Rezeptur- oder Graumarktware ohne Qualitätskontrolle',
+      'Anwendung idealerweise ärztlich begleitet'
     ],
-    status: 'Als Aviptadil in Studien; als Biohacking-Nasenspray Off-Label/Graumarkt. In DE nicht breit zugelassen.',
+    status: 'In Deutschland nur als Aviptadil plus Phentolamin (Schwellkörperinjektion bei Erektionsstörungen) zugelassen. Als Nasenspray Rezeptur oder Graumarkt; bei COVID-19 und Sarkoidose in Studien geprüft.',
     sources: [
-      { title: 'VIP – Übersicht Funktion & Therapie (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3648697/' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Delgado M, Ganea D, Amino Acids 2013 – VIP und Immunfunktionen', url: 'https://pubmed.ncbi.nlm.nih.gov/22139413/' },
+      { title: 'Prasse A et al., Am J Respir Crit Care Med 2010 – inhaliertes VIP bei Sarkoidose', url: 'https://pubmed.ncbi.nlm.nih.gov/20442436/' },
+      { title: 'Brown SM et al., Lancet Respir Med 2023 – TESICO, Aviptadil bei COVID-19', url: 'https://pubmed.ncbi.nlm.nih.gov/37348524/' },
+      { title: 'Esendagli D et al., Med Princ Pract 2025 – inhaliertes Aviptadil', url: 'https://pubmed.ncbi.nlm.nih.gov/39870064/' },
+      { title: 'Shoemaker RC et al., Health 2013 – VIP-Nasenspray bei CIRS (offene Studie)', url: 'https://doi.org/10.4236/health.2013.53053' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'dihexa',
@@ -2314,31 +2348,35 @@ const EXPERIMENTAL = [
   {
     id: 'p21',
     name: 'P21 (P021)',
-    altNames: 'Cerebrolysin-Fragment, CNTF-Mimetikum',
+    altNames: 'P021, Peptide 021, CNTF-Mimetikum (nicht zu verwechseln mit dem Zellzyklus-Protein p21)',
     class: 'Neurotrophes Peptidfragment (Neurogenese-Förderer)',
     emoji: '🧠',
-    short: 'Ein kleines, vom Nervenwachstumsfaktor CNTF abgeleitetes Peptid aus der Alzheimer-Forschung, das die Neubildung von Nervenzellen anregen soll – nootropisch spannend, aber bislang präklinisch.',
-    moa: 'P21 ist ein synthetisches Fragment, das die Wirkung des ciliären neurotrophen Faktors (CNTF) nachahmt. Im Tiermodell förderte es – auch intranasal – die Bildung neuer Nervenzellen im Hippocampus (Neurogenese), steigerte BDNF und verbesserte Gedächtnisleistungen. Entwickelt wurde es in der Alzheimer-Forschung der Arbeitsgruppe um Khalid Iqbal; eine Adamantan-Endgruppe soll es stabiler und hirngängiger machen. Human-Daten fehlen bislang.',
+    short: 'Ein winziges, vom Nervenwachstumsfaktor CNTF abgeleitetes Peptid aus der Alzheimer-Forschung, das im Tier die Neubildung von Nervenzellen anregt und das Gedächtnis verbessert – am Menschen nie geprüft.',
+    moa: 'P021 besteht aus 4 Aminosäuren aus der aktiven Region des ciliären neurotrophen Faktors (CNTF, Reste 147 bis 150) und trägt eine Adamantan-Endgruppe, die es stabiler und hirngängiger machen soll. Es hemmt das LIF-Signal und erhöht die Bildung des Wachstumsfaktors BDNF; darüber dämpft es das Tau-Enzym GSK3-beta. In Tiermodellen – oral über das Futter gegeben – förderte es die Neurogenese im Hippocampus, schützte Synapsen und verbesserte Gedächtnisleistungen. Entwickelt wurde es in der Alzheimer-Forschung der Arbeitsgruppe um Khalid Iqbal. Humandaten fehlen.',
     benefits: [
-      'Förderte im Tiermodell die Neurogenese (neue Nervenzellen) im Hippocampus',
-      'Steigert BDNF und verbesserte in Studien die Gedächtnisleistung (präklinisch)',
-      'Klein und stabil; intranasal wirksam (Tierdaten)'
+      'Förderte im Tiermodell die Neurogenese (neue Nervenzellen) im Hippocampus – bei Alzheimer-Mäusen, alten Ratten und im Down-Syndrom-Modell',
+      'Steigert im Tier BDNF und verbesserte Gedächtnisleistungen (präklinisch)',
+      'Klein, stabil und im Tier oral wirksam; 18 Monate Gabe bei Mäusen ohne unerwünschte Wirkungen'
     ],
     risks: [
-      'Bislang rein präklinisch – keine Humanstudien',
-      'Langzeitsicherheit unbekannt',
-      'Nicht zugelassen; Research-Ware auf Reinheit achten'
+      'Bislang rein präklinisch – keine Humanstudien, kein Eintrag im Studienregister',
+      'Fast alle Daten aus der Entwicklergruppe; in einem neueren Tiermodell (CDKL5-Mangel) ohne BDNF-Anstieg und mit begrenztem Nutzen',
+      'Langzeitsicherheit am Menschen unbekannt; das Mutterprotein CNTF verursachte in Humanstudien Appetitverlust, Muskelschmerzen und Gewichtsverlust',
+      'Nicht zugelassen; Research-Ware auf Reinheit achten; im Sport unter S0 der WADA-Liste jederzeit verboten'
     ],
     status: 'Präklinische Forschungssubstanz; nicht zugelassen.',
     sources: [
       { title: 'Kazim et al., Neurobiol Dis 2014 – orale Langzeitgabe von P021 in dreifach transgenen Alzheimer-Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/25046994/' },
       { title: 'Bolognin et al., Neurobiol Aging 2014 – P021 gegen altersbedingten Gedächtnisabbau', url: 'https://pubmed.ncbi.nlm.nih.gov/24702821/' },
       { title: 'Kazim et al., Sci Rep 2017 – P021 im Down-Syndrom-Mausmodell Ts65Dn', url: 'https://pubmed.ncbi.nlm.nih.gov/28368015/' },
-      { title: 'Kazim & Iqbal, Mol Neurodegener 2016 – Übersicht zu neurotrophen Kleinmolekül-Mimetika', url: 'https://pubmed.ncbi.nlm.nih.gov/27400746/' }
+      { title: 'Kazim & Iqbal, Mol Neurodegener 2016 – Übersicht zu neurotrophen Kleinmolekül-Mimetika', url: 'https://pubmed.ncbi.nlm.nih.gov/27400746/' },
+      { title: 'Baazaoui & Iqbal, Biomolecules 2022 – Übersicht zu P021', url: 'https://pubmed.ncbi.nlm.nih.gov/36291618/' },
+      { title: 'Mottolese et al., J Neurodev Disord 2024 – CDKL5-Modell, gemischter Befund', url: 'https://pubmed.ncbi.nlm.nih.gov/39592934/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'thymalin',
@@ -2434,25 +2472,26 @@ const EXPERIMENTAL = [
     altNames: 'Prostagen, KEDP (Lys-Glu-Asp-Pro), Prostata-Bioregulator (Khavinson)',
     class: 'Khavinson-Bioregulator – gewebespezifisches Kurzpeptid für die Prostata',
     emoji: '🧬',
-    short: 'Ein russisches Bioregulator-Peptid für die Prostata, das BPH- und Prostatitis-Beschwerden über einen epigenetischen Ansatz lindern soll – gewebespezifisch und nicht-hormonell.',
-    moa: 'Prostamax ist ein synthetisches Tetrapeptid (Lys-Glu-Asp-Pro) aus der Bioregulator-Schule von Vladimir Khavinson und soll gewebespezifisch im Prostatagewebe wirken. Die postulierte Wirkung ist epigenetisch: Das kurze Peptid soll an die DNA binden, dicht gepackte Chromatin-Bereiche lockern und altersbedingt stillgelegte Gene reaktivieren. Diskutiert werden eine Normalisierung der Androgen-Rezeptor-Expression, eine Dämpfung entzündlicher Zytokine (TNF-alpha, IL-8) im Prostatastroma und die Wiederherstellung der Drüsenzell-Funktion. Die orale Variante Prostagen leitet sich aus Prostata-Gewebeextrakten (Cytamine) ab. Ein Großteil der Evidenz stammt aus Tiermodellen und russischen Anwendungen einer einzigen Forschungsschule.',
+    short: 'Ein Khavinson-Bioregulator für die Prostata: das synthetische Tetrapeptid KEDP, das über das Chromatin gealterte Zellen wieder aktivieren und Prostatabeschwerden lindern soll. Belegt sind Laborbefunde an Blutzellen, ein Rattenversuch und zwei kleine, unverblindete Patientenserien – beschrieben nur in der Patentschrift der Entwickler.',
+    moa: 'Prostamax ist das synthetische Tetrapeptid Lys-Glu-Asp-Pro (KEDP) aus der Bioregulator-Schule von Vladimir Khavinson, 2001 von Khavinson, Malinin und Grigoriev als Regulator der Prostatafunktion patentiert. Die postulierte Wirkung ist epigenetisch: Das kurze Peptid soll an die DNA binden, dicht gepacktes Chromatin lockern und altersbedingt stillgelegte Gene reaktivieren. Im Labor veränderte KEDP die Stabilität doppelsträngiger DNA, und in Lymphozytenkulturen von 75- bis 86-Jährigen stiegen Chromatinmarker wie die Schwesterchromatid-Austausche (von 5,9 auf 12,0 pro Zelle). Wie das Peptid gezielt die Prostata erreicht, ist ungeklärt; in Modellrechnungen der Entwickler band KEDP nicht stark an den Transporter LAT1. Die älteren russischen Präparate Prostatilen und Vitaprost sind Extrakte aus Rinderprostata, nicht dieses Tetrapeptid.',
     benefits: [
-      'In Tiermodellen mit reduzierter Prostata-Entzündung, Schwellung und Vernarbung assoziiert.',
-      'Diskutierte Dämpfung entzündlicher Botenstoffe (TNF-alpha, IL-8) im Prostatagewebe.',
-      'In russischer Anwendung bei BPH-Beschwerden und chronischer Prostatitis eingesetzt.',
-      'Erfahrungsberichte über weniger nächtliches Wasserlassen und besseren Harnfluss.',
-      'Gewebespezifischer, nicht-hormoneller Ansatz ohne klassische Hormonwirkung.',
-      'In der russischen Anwendung als gut verträglich beschrieben.'
+      'In Lymphozytenkulturen alter Menschen Lockerung des Chromatins: Schwesterchromatid-Austausche von 5,9 auf 12,0 pro Zelle, aktive Nukleolus-Regionen von 0,95 auf 2,5 (Dzhokhadze 2012, Zellkultur).',
+      'Im Rattenmodell bakterieller Prostatitis milderer Entzündungsgrad: 1,81 gegenüber 2,91 Punkten, je 11 Tiere (Patent EP1353939, nicht begutachtet).',
+      'Patientenserie der Entwickler: 35 Männer mit chronischer Prostatitis, berichtet 64,0 % Schmerzfreiheit und Harnfluss von 17,3 auf 23,5 ml/s; nicht randomisiert, nicht verblindet, nur im Patent.',
+      'Nicht-hormoneller Ansatz; verwandte Prostata-Extrakte (Prostatilen, Vitaprost) sind in Russland seit Jahrzehnten registriert und in offenen Studien untersucht – für das Tetrapeptid gilt das nicht.'
     ],
     risks: [
       'Prostatabeschwerden bitte ärztlich abklären – Selbstbehandlung kann die Krebs-Früherkennung (PSA) verzögern.',
-      'Evidenz überwiegend aus Russland/Tiermodellen; für BPH gibt es erprobte, zugelassene Therapien.',
-      'Nicht zugelassen; Research-Ware auf Qualität achten.'
+      'Die einzigen Patientendaten stehen in einer Patentschrift der Entwickler; keine begutachtete Studie mit PSA, Prostatavolumen oder Symptomscore. Für BPH und Prostatitis gibt es erprobte, zugelassene Therapien.',
+      'Literatur fast ausschließlich aus Russland und Georgien, überwiegend aus dem Umfeld der Entwickler; keine unabhängige Bestätigung.',
+      'Nicht zugelassen; keine systematischen Sicherheitsdaten am Menschen; Research-Ware in der Qualität ungeprüft.'
     ],
-    status: 'In DE/EU nicht zugelassen; Forschungssubstanz.',
+    status: 'In DE/EU nicht zugelassen; Forschungspeptid bzw. Bioregulator. Eine Arzneimittelzulassung ist auch anderswo nicht dokumentiert; in Russland registriert sind nur die verwandten Prostata-Extrakte Prostatilen und Vitaprost. Nicht namentlich auf der WADA-Liste.',
     sources: [
-      { title: 'Khavinson – Peptide bioregulators & Gerontologie (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
-      { title: 'Muscle&Brawn – Prostamax Bioregulator (Übersicht & Einordnung)', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
+      { title: 'Khavinson VKh, Malinin VV, Grigoriev EI – Patent EP1353939: Tetrapeptid Lys-Glu-Asp-Pro zur Regulation der Prostatafunktion (Tier- und Patientendaten)', url: 'https://patents.google.com/patent/EP1353939B1/en' },
+      { title: 'Dzhokhadze TA et al., Georgian Med News 2012 – Prostamax lockert Chromatin in Lymphozyten alter Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/23221144/' },
+      { title: 'Khavinson V et al., Int J Mol Sci 2022 – Transport ultrakurzer Peptide; KEDP-Prostatafunktion nur per Patent belegt', url: 'https://pubmed.ncbi.nlm.nih.gov/35887081/' },
+      { title: 'Khavinson VKh, Neuro Endocrinol Lett 2002 – Peptides and Ageing (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' }
     ],
     community: [
       { title: 'Verschreibungspflichtige Behandlung von BPH/Prostatitis: über Urologen abklären', url: 'https://www.gelbe-liste.de/krankheiten/benigne-prostatahyperplasie' },
@@ -2460,18 +2499,12 @@ const EXPERIMENTAL = [
       { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
-      {
-        title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck',
-        audio: 'audio/prostamax-podcast.mp3',
-        spotify: '4N70kUgdRUuMwgCYi9TbvG',
-        lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 28). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.',
-        sources: [
+      { title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck', audio: 'audio/prostamax-podcast.mp3', spotify: '4N70kUgdRUuMwgCYi9TbvG', lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 28). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.', sources: [
           { title: 'Khavinson – Peptide bioregulators (Gerontologie)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' },
           { title: 'Prostamax Bioregulator – Übersicht & Einordnung', url: 'https://muscleandbrawn.com/peptides/prostamax-bioregulator/' }
-        ]
-      }
-    ]
+        ] }
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'melanotan-2',
@@ -2520,28 +2553,32 @@ const EXPERIMENTAL = [
     class: 'Senolytisches Peptid, FOXO4-p53-Interaktionshemmer',
     emoji: '🧬',
     short: 'Ein gezieltes Senolytikum aus der Longevity-Forschung: im Mausmodell räumt es seneszente „Zombie-Zellen" gezielt aus und schont gesunde Zellen – ein faszinierendes Forschungswerkzeug.',
-    moa: 'In seneszenten Zellen bindet das Protein FOXO4 den Tumorsuppressor p53 und hält ihn im Zellkern zurück, wodurch die Selbstzerstörung dieser Zellen blockiert wird. FOXO4-DRI ist ein aus D-Aminosäuren aufgebautes, gegen den Abbau stabilisiertes Peptid, das die FOXO4-p53-Bindung stört. Dadurch wird p53 aus dem Kern freigesetzt und leitet in seneszenten Zellen die Apoptose ein, während gesunde teilungsfähige Zellen weitgehend verschont bleiben. Im Mausmodell verbesserte dies Marker von Fitness, Fell und Nierenfunktion. Sämtliche belastbaren Wirkbelege stammen aus präklinischen Studien.',
+    moa: 'In seneszenten Zellen bindet das Protein FOXO4 den Tumorsuppressor p53 und hält ihn im Zellkern fest, wodurch die Selbstzerstörung dieser Zellen blockiert wird. FOXO4-DRI ist ein aus D-Aminosäuren in umgekehrter Reihenfolge aufgebautes, gegen Abbau stabilisiertes Peptid mit angehängtem Zellpenetrationsteil, das die FOXO4-p53-Bindung stört. p53 wird aus dem Kern gedrängt und leitet in seneszenten Zellen die Apoptose ein, während teilungsfähige Zellen weitgehend verschont bleiben. 2025 wurde die Bindung an die Transaktivierungsdomäne von p53 per Kernspinresonanz strukturell aufgeklärt. Sämtliche Wirkbelege stammen aus Zellkultur, menschlichem Gewebe ex vivo und Tiermodellen.',
     benefits: [
-      'Beseitigte in Mausmodellen selektiv seneszente Zellen (senolytischer Effekt).',
-      'Verbesserte im Tierversuch Marker für Vitalität und Nierenfunktion.',
-      'Zielt gezielt auf einen zentralen Alterungsmechanismus (Zellseneszenz).',
-      'D-Aminosäure-Struktur verleiht dem Peptid erhöhte Stabilität gegen Abbau.',
-      'Schonte in Studien überwiegend gesunde, teilungsfähige Zellen.',
-      'Wichtiges Forschungswerkzeug in der Longevity- und Seneszenz-Forschung.'
+      'Beseitigte in Mausmodellen selektiv seneszente Zellen und stellte bei alten und schnell alternden Mäusen Fitness, Felldichte und Nierenfunktion wieder her; schützte vor Doxorubicin-Schäden (Baar 2017, Cell).',
+      'In unabhängigen Tiermodellen wiederholt: weniger altersbedingter Testosteronmangel (Zhang 2020), bessere Spermatogenese (Li 2024), gebremste Lungenfibrose (Han 2022), langsamere Alterung der Aorta (Hu 2025).',
+      'Wirkt auch an menschlichen Zellen ex vivo selektiv: entfernte mehr als die Hälfte stark vermehrter Knorpelzellen, frische kaum (Huang 2021); Apoptose seneszenter Keloid-Fibroblasten (Kong 2025).',
+      'Zielstruktur benannt und Bindung an p53 strukturell aufgeklärt (Bourgeois 2025, NMR).',
+      'D-Retro-Inverso-Bauweise schützt das Peptid vor enzymatischem Abbau.'
     ],
     risks: [
-      'Rein experimentell – belastbare Humanstudien fehlen komplett.',
-      'Der Eingriff in den p53-Weg ist tumorbiologisch heikel; die Anwendung am Menschen ist unerprobt.',
-      'Nicht zugelassen; Research-Ware unsicher in Reinheit.'
+      'Keine einzige Humanstudie, keine registrierte klinische Prüfung, keine Pharmakokinetik- oder Toxikologiedaten am Menschen (Übersicht Mateescu 2026).',
+      'Eingriff in den p53-Weg, den wichtigsten Tumorsuppressor; die p53-abhängige Tumorüberwachung gilt als ungeprüft.',
+      'Weniger Seneszenz heißt nicht automatisch bessere Funktion: In menschlichen Knorpelzellen wurde die Knorpelbildung nicht besser (Huang 2021).',
+      'Nicht zugelassen; Graumarktware in Identität und Reinheit ungeprüft.'
     ],
     status: 'In DE/EU nicht zugelassen; rein experimentelle Forschungssubstanz.',
     sources: [
-      { title: 'Baar et al., Cell 2017 – Gezielte Apoptose seneszenter Zellen durch FOXO4-DRI', url: 'https://pubmed.ncbi.nlm.nih.gov/28340339/' },
-      { title: 'Le et al., Front Bioeng Biotechnol 2021 – FOXO4-DRI entfernt seneszente Chondrozyten in vitro', url: 'https://pubmed.ncbi.nlm.nih.gov/34041226/' }
+      { title: 'Baar MP et al., Cell 2017 – Gezielte Apoptose seneszenter Zellen durch FOXO4-DRI (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/28340339/' },
+      { title: 'Huang Y et al., Front Bioeng Biotechnol 2021 – FOXO4-DRI entfernt seneszente menschliche Knorpelzellen in vitro', url: 'https://pubmed.ncbi.nlm.nih.gov/33996787/' },
+      { title: 'Zhang C et al., Aging 2020 – FOXO4-DRI mildert altersbedingten Testosteronmangel bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/31959736/' },
+      { title: 'Bourgeois B et al., Nat Commun 2025 – Struktur der Bindung von FOXO4-DRI an p53', url: 'https://pubmed.ncbi.nlm.nih.gov/40593617/' },
+      { title: 'Mateescu DM et al., Antioxidants 2026 – Übersicht: präklinisch senolytisch, klinisch nicht validiert', url: 'https://pubmed.ncbi.nlm.nih.gov/42510573/' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
-    ]
+    ],
+    filterCat: 'Longevity'
   },
   {
     id: 'senolytic-dq',
@@ -2685,32 +2722,35 @@ const EXPERIMENTAL = [
   {
     id: 'glp-3',
     name: 'GLP-3',
-    altNames: 'Retatrutid-artig, LY3437943-Konzept, GLP-1/GIP/Glucagon-Triagonist',
+    altNames: 'Spitzname für Retatrutid (LY3437943), GLP-1/GIP/Glucagon-Triagonist',
     class: 'Experimenteller Dreifach-Rezeptoragonist (GLP-1, GIP, Glucagon)',
     emoji: '⚗️',
-    short: 'Ein experimenteller Dreifach-Agonist im Retatrutid-Stil (GLP-1/GIP/Glucagon) – das Konzept hinter dem stärksten Abnehm-Ansatz, das Sättigung und Energieverbrauch zugleich anspricht.',
-    moa: 'Die unter dem Namen GLP-3 vermarktete Substanz entspricht einem Retatrutid-artigen Peptid, das gleichzeitig an GLP-1-, GIP- und Glucagon-Rezeptoren wirkt. Über den GLP-1-Rezeptor werden Insulinsekretion, Sättigung und verzögerte Magenentleerung angesprochen, während die GIP-Komponente die Insulinantwort ergänzt. Die Glucagon-Rezeptor-Aktivierung soll den Energieverbrauch und die Lipolyse steigern. In Phase-2-Studien mit Retatrutid wurden ausgeprägte Gewichtsreduktionen berichtet. Die als GLP-3 gehandelte Graumarktware ist jedoch weder klinisch geprüft noch standardisiert.',
+    short: 'GLP-3 ist kein Hormon, sondern der Szene-Spitzname für Retatrutid, den Dreifach-Agonisten an GLP-1-, GIP- und Glucagon-Rezeptor, dessen Studienwirkstoff bis zu 24,2 Prozent Gewicht in 48 Wochen abbaute. Die als GLP-3 verkaufte Graumarktware erreichte in einer ersten, nicht begutachteten Alltagsauswertung im Mittel nur 7,2 Prozent nach 6 bis 12 Monaten, weniger als halb so viel wie bei Studienteilnehmern.',
+    moa: 'Unter dem Namen GLP-3 wird in der Regel Retatrutid angeboten, ein Peptid, das gleichzeitig an GLP-1-, GIP- und Glucagon-Rezeptoren wirkt; ein Hormon GLP-3 gibt es nicht, aus Proglucagon entstehen nur Glucagon, GLP-1, GLP-2 und Oxyntomodulin. Über den GLP-1-Rezeptor werden Insulinsekretion, Sättigung und verzögerte Magenentleerung angesprochen, die GIP-Komponente ergänzt die Insulinantwort. Die Glucagon-Rezeptor-Aktivierung soll Energieverbrauch und Fettabbau in der Leber steigern. Der Beitrag der einzelnen Arme ist beim Menschen nicht getrennt untersucht. Die als GLP-3 gehandelte Graumarktware ist weder chargenkontrolliert noch identisch mit dem Studienwirkstoff.',
     benefits: [
-      'In klinischen Studien mit Retatrutid wurde eine deutliche Gewichtsreduktion berichtet.',
-      'Diskutierte Verbesserung von Blutzucker- und Insulinparametern.',
-      'Dreifachmechanismus soll Sättigung und Energieverbrauch gleichzeitig ansprechen.',
-      'In Untersuchungen mit günstigen Effekten auf Lipidprofil und Blutdruck assoziiert.',
-      'Verzögerte Magenentleerung kann die Nahrungsaufnahme reduzieren.',
-      'Kombinierter Ansatz gilt als vielversprechendes Forschungskonzept.'
+      'Studienwirkstoff Retatrutid: bis zu 24,2 % Gewichtsverlust nach 48 Wochen gegenüber 2,1 % unter Placebo (Jastreboff 2023, Phase 2, 338 Teilnehmer); in TRIUMPH-1 laut Hersteller bis zu 28,3 % nach 80 Wochen (2.339 Teilnehmer, noch nicht begutachtet).',
+      'Leberfett nach 24 Wochen um bis zu 82,4 % gesenkt, normales Leberfett bei bis zu 86 % (Sanyal 2024, 98 Teilnehmer mit Fettleber).',
+      'Blutzuckersenkung bei Typ-2-Diabetes in einer Phase-3-Studie bestätigt (Bajaj 2026, 537 Teilnehmer, 40 Wochen).',
+      'Auch Graumarktware führt im Alltag zu Gewichtsverlust: im Mittel 7,2 % nach 6 bis 12 Monaten, ähnlich wie Tirzepatid mit 7,7 %, aber weniger als die Hälfte der 15,5 % bei Studienteilnehmern (Murugadoss 2026, Preprint).'
     ],
     risks: [
-      'Als „GLP-3" gehandelte Ware ist ungeprüft – verlässliche Daten zum konkreten Produkt fehlen.',
-      'Aus der Klasse bekannt: Übelkeit/Verdauungsthemen, Pulsanstieg möglich.',
-      'Nicht zugelassen; Research-Ware auf Qualität achten.'
+      'Als GLP-3 gehandelte Ware ist ungeprüft; über 14 Graumarkt-Peptide, darunter Retatrutid, verfehlten 41,6 bis 71,1 % grundlegende Qualitätskriterien (Mendias 2026, Preprint). Die FDA warnt vor Fälschungen mit falschem oder fehlendem Wirkstoff.',
+      'Studienwirkstoff: Übelkeit bis 42,4 %, Abbruch wegen Nebenwirkungen bis 11,3 %, Missempfindungen der Haut bis 12,5 % (TRIUMPH-1, Herstellerangabe); Pulsanstieg (Jastreboff 2023).',
+      'Graumarkt-Nutzer hatten in Patientenakten mehr Herz-Kreislauf- und neuropsychiatrische Beschwerden als Nutzer zugelassener Mittel (Murugadoss 2026, Preprint); Fallbericht schwere Ketose mit Nierenversagen bei Typ-1-Diabetes (Branine 2026).',
+      'Nirgends zugelassen; in DE kein verkehrsfähiges Arzneimittel; im Sport verboten (WADA S0).'
     ],
-    status: 'In DE/EU nicht zugelassen; verwandtes Retatrutid ist in klinischer Prüfung.',
+    status: 'Retatrutid ist in DE/EU und den USA nicht zugelassen; Eli Lilly plant den Zulassungsantrag bei der FDA für Q1 2027. Als GLP-3 verkaufte Ware ist in DE kein verkehrsfähiges Arzneimittel. FDA: Retatrutid darf nicht in Rezepturen verwendet werden, Warnbriefe an Anbieter (Stand 01.09.2026). Im Sport jederzeit verboten (WADA 2026, S0 nicht zugelassene Substanzen).',
     sources: [
-      { title: 'Jastreboff et al., N Engl J Med 2023 – Retatrutid Phase-2 bei Adipositas', url: 'https://pubmed.ncbi.nlm.nih.gov/37366315/' },
-      { title: 'Rosenstock et al., Lancet 2023 – Retatrutid bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/37356449/' }
+      { title: 'Jastreboff AM et al., N Engl J Med 2023 – Retatrutid Phase 2 bei Adipositas', url: 'https://pubmed.ncbi.nlm.nih.gov/37366315/' },
+      { title: 'Sanyal AJ et al., Nat Med 2024 – Retatrutid senkt Leberfett', url: 'https://pubmed.ncbi.nlm.nih.gov/38858523/' },
+      { title: 'Murugadoss K et al., Preprint 2026 – Graumarkt-Retatrutid wirkt schwächer, mehr Herz-Kreislauf-Symptome', url: 'https://www.preprints.org/manuscript/202608.1193' },
+      { title: 'Sehgal NKR et al., medRxiv 2026 – Selbstberichtete Nebenwirkungen bei Reddit-Nutzern', url: 'https://doi.org/10.64898/2026.05.28.26352819' },
+      { title: 'FDA – Concerns with Unapproved GLP-1 Drugs (Retatrutid, Forschungsware), Stand 01.09.2026', url: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss' }
     ],
     community: [
       { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
-    ]
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'melanotan-1',
@@ -2766,29 +2806,33 @@ const EXPERIMENTAL = [
     altNames: 'BYM338',
     class: 'Activin-Typ-II-Rezeptor-Antikörper (Muskel↑ / Fett↓)',
     emoji: '💪',
-    short: 'Ein Antikörper, der zugleich Muskeln aufbaut und Fett abbaut: löst die Myostatin-/Activin-Bremse – besonders spannend gegen den Muskelverlust unter GLP-1.',
+    short: 'Ein Antikörper, der zugleich Fett abbaut und Magermasse aufbaut: löst die Myostatin-/Aktivin-Bremse. Mit Semaglutid mehr Gewichtsverlust bei weitgehend erhaltener Magermasse – mehr Muskelfunktion zeigte sich in Studien an Älteren aber nicht.',
     moa: 'Bimagrumab blockiert den Activin-Typ-II-Rezeptor (ActRII) und hebt damit die hemmende Wirkung von Myostatin und Activin auf das Muskelwachstum auf. Ergebnis: Muskelmasse nimmt zu, während gleichzeitig Fettmasse abnimmt. In Studien (u. a. in Kombination mit Semaglutid) förderte es einen muskelerhaltenden Fettabbau – genau das Problem, das reine GLP-1-Mittel haben.',
     benefits: [
-      'Baut Muskeln auf UND reduziert Fett – gleichzeitig',
-      'Interessant gegen den Muskelverlust unter GLP-1-Abnehmspritzen',
-      'Nur etwa monatliche Infusion (langwirksamer Antikörper)',
-      'In Studien mit Semaglutid muskelerhaltender Fettabbau'
+      'Weniger Fett, mehr Magermasse – konsistent in mehreren randomisierten Studien (bei Typ-2-Diabetes: Fettmasse −20,5 Prozent, Magermasse +3,6 Prozent über 48 Wochen)',
+      'Mit Semaglutid kombiniert mehr Gewichtsverlust als Semaglutid allein (17,8 gegenüber 14,2 kg), Magermasse weitgehend erhalten',
+      'Senkt bei Typ-2-Diabetes den Langzeitblutzucker HbA1c',
+      'Herzmuskelmasse und Pumpfunktion blieben in einer Studie an gesunden Älteren über 6 Monate unverändert'
     ],
     risks: [
-      'Noch nicht zugelassen (Phase 2/3)',
-      'Berichtet: Muskelkrämpfe, Durchfall, leichte Akne',
-      'In der RESILIENT-Studie nahm die Muskelmasse zu, die Sechs-Minuten-Gehstrecke fiel dennoch in allen Gruppen – mehr Masse ist nicht mehr Funktion',
-      'Langzeitsicherheit offen',
-      'Als Antikörper kein Graumarkt-Selbstversuch – gehört in Studien/ärztliche Hände'
+      'Nicht zugelassen (Phase 2); nur in Studien erhältlich',
+      'Häufig Muskelkrämpfe, Durchfall, Akne; deutlich mehr Therapieabbrüche als unter Placebo',
+      'Mehr Masse ist nicht mehr Funktion: In Studien zu Sarkopenie, nach Hüftfraktur und bei Einschlusskörpermyositis (RESILIENT) besserten sich Gehen und Körperfunktion nicht stärker als unter Placebo',
+      'LDL-Cholesterin stieg in einer Meta-Analyse; Langzeitsicherheit offen',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S4.3)'
     ],
-    status: 'Klinische Entwicklung (Phase 2/3, u. a. mit Semaglutid). Nicht zugelassen.',
+    status: 'Klinische Entwicklung (Phase 2, u. a. mit Semaglutid). Nicht zugelassen. Auf der WADA-Liste ausdrücklich genannt.',
     sources: [
-      { title: 'Bimagrumab + Semaglutid – muskelerhaltender Fettabbau (Studie)', url: 'https://jamanetwork.com/journals/jama/fullarticle/2818419' },
-      { title: 'Meto – Next-Generation Metabolic Drugs 2026', url: 'https://meto.co/blog/next-generation-glp-1-drugs-2026' }
+      { title: 'Heymsfield SB et al., JAMA Netw Open 2021 – Typ-2-Diabetes, 75 Teilnehmer, 48 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/33439265/' },
+      { title: 'Heymsfield SB et al., Nat Med 2026 – Bimagrumab plus Semaglutid, 507 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/41772149/' },
+      { title: 'Rooks D et al., JAMA Netw Open 2020 – Sarkopenie', url: 'https://pubmed.ncbi.nlm.nih.gov/33074327/' },
+      { title: 'Hofbauer LC et al., Lancet Healthy Longev 2021 – nach Hüftfraktur', url: 'https://pubmed.ncbi.nlm.nih.gov/36098133/' },
+      { title: 'Shao C et al., Diabetes Obes Metab 2026 – Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/42530342/' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
-    ]
+    ],
+    filterCat: 'Exercise'
   },
   {
     id: 'adipotide',
@@ -2796,27 +2840,31 @@ const EXPERIMENTAL = [
     altNames: 'Prohibitin-TP01, FTPP',
     class: 'Pro-apoptotisches Peptid (zielt auf Fettgewebe-Blutgefäße)',
     emoji: '🔥',
-    short: 'Ein hochexperimentelles „Fett-weg"-Peptid, das die Blutversorgung des Fettgewebes kappt – im Tiermodell drastischer Fettverlust, aber mit ernsten Sicherheitsfragen.',
-    moa: 'Adipotide zielt auf das Protein Prohibitin an den Blutgefäßen des weißen Fettgewebes und löst dort gezielt den Zelltod (Apoptose) aus. Ohne Blutversorgung schrumpft das Fettgewebe. In Versuchen an fettleibigen Affen führte es zu deutlichem Gewichts- und Fettverlust – allerdings unter erheblichen Sicherheitsbedenken.',
+    short: 'Ein hochexperimentelles „Fett-weg"-Peptid, das die Blutversorgung des weißen Fettgewebes angreift – bei adipösen Affen 7,4 bis 14,7 Prozent Gewichtsverlust in 4 Wochen, dazu eine dosisabhängige Nierenwirkung. Keine Humanstudie.',
+    moa: 'Adipotide besteht aus einem Adressmotiv, das an das Protein Prohibitin an den Gefäßen des weißen Fettgewebes bindet, und einem zelltötenden Peptid, das dort den programmierten Zelltod auslöst. Ohne Blutversorgung schrumpft das Fettgewebe. Bei adipösen Affen führte das zu deutlichem Gewichts- und Fettverlust, bei schlanken Tieren nicht. Ob der Gewichtsverlust wirklich von der Gefäßzerstörung kommt, ist offen: Die Tiere fraßen weniger, der Energieverbrauch blieb bei Nagern unverändert, und ein Kommentar in derselben Zeitschrift führt den Effekt auf die Futteraufnahme zurück.',
     benefits: [
-      'Im Tiermodell starker, gezielter Fettverlust',
-      'Neuartiger, hormonunabhängiger Ansatz (Fettgewebe-Gefäße)',
-      'Konzeptionell interessant für schwere Adipositas'
+      'Im Primatenversuch gezielter Fettverlust: 38,7 Prozent weniger Körperfett gegenüber 14,8 Prozent bei Kontrollen (15 Rhesusaffen, 4 Wochen).',
+      'Insulinantwort im Glukosetoleranztest bei 2 behandelten Affen um 61,4 und 63,5 Prozent gesunken.',
+      'Zielstruktur belegt: Prohibitin ist als Gefäßmarker des weißen Fettgewebes charakterisiert und kommt auch in menschlichem weißem Fett vor.',
+      'Wirkte im Tier nur bei Übergewicht – schlanke Tiere verloren kein Gewicht.'
     ],
     risks: [
-      'Ernst: in Tierstudien Nierenschädigung – ein zentrales Sicherheitsproblem',
-      'Keine belastbaren Humanstudien; hochexperimentell',
-      'Nicht zugelassen; Graumarkt-Ware höchst unsicher',
-      'Kein Stoff für Selbstversuche'
+      'Ernst: in der Primatenstudie dosisabhängige Störung der Nierenkanälchen (Kreatinin, Eiweiß und Zucker im Urin), größtenteils rückbildungsfähig; beim verwandten Molekül BMTP-11 war das am Menschen die dosislimitierende Nebenwirkung.',
+      'Keine begutachtete Humanstudie; die einzige registrierte Phase-1-Studie wurde mit 4 Teilnehmern abgebrochen und veröffentlichte keine Ergebnisse.',
+      'Nicht zugelassen, nicht verkehrsfähig; Graumarkt-Ware ungeprüft. Nach Klasse S0 der WADA-Liste 2026 im Sport verboten.',
+      'Kein Stoff für Selbstversuche; Prohibitin kommt auch außerhalb des Fettgewebes vor.'
     ],
-    status: 'Präklinisch; nicht zugelassen. Sicherheitsbedenken (Niere).',
+    status: 'Präklinisch; nicht zugelassen. Einzige Humanstudie (NCT01262664) abgebrochen. Sicherheitsbedenken (Niere).',
     sources: [
-      { title: 'Barnhart et al. – Adipotide bei adipösen Primaten (Sci Transl Med)', url: 'https://pubmed.ncbi.nlm.nih.gov/22072637/' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Barnhart KF et al., Sci Transl Med 2011 – Adipotide bei adipösen Primaten', url: 'https://pubmed.ncbi.nlm.nih.gov/22072637/' },
+      { title: 'Kolonin MG et al., Nat Med 2004 – Grundlagenarbeit zum Prohibitin-Motiv', url: 'https://pubmed.ncbi.nlm.nih.gov/15133506/' },
+      { title: 'Criscione L, Sci Transl Med 2012 – Kommentar zur Primatenstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/22539771/' },
+      { title: 'ClinicalTrials.gov NCT01262664 – abgebrochene Phase-1-Studie', url: 'https://clinicaltrials.gov/study/NCT01262664' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Stoffwechsel'
   },
   {
     id: 'larazotide',
@@ -2855,28 +2903,33 @@ const EXPERIMENTAL = [
     altNames: 'Tβ4, TB4 (Vollprotein, nicht das TB-500-Fragment)',
     class: 'Vollständiges Regenerations-Protein (43 Aminosäuren)',
     emoji: '🩹',
-    short: 'Das vollständige Regenerations-Protein, aus dem TB-500 nur ein Fragment ist – tatsächlich liefen viele der Humanstudien mit dem ganzen Molekül.',
+    short: 'Das vollständige Reparatur-Protein, aus dem TB-500 nur ein Fragment ist. Anders als TB-500 ist es am Menschen geprüft: als Augentropfen, Gel und Infusion nach Herzinfarkt, mit positiven Signalen, aber ohne klar gewonnenen Hauptendpunkt.',
     moa: 'Thymosin Beta-4 (Tβ4) ist ein körpereigenes 43-Aminosäuren-Protein, das G-Aktin bindet und so Zellwanderung, Gefäßneubildung und Geweberegeneration fördert sowie Entzündung und Narbenbildung dämpft. Das populäre „TB-500" ist nur die aktive Kernsequenz; die eigentlichen klinischen Studien (Herz, Haut, Hornhaut) liefen oft mit dem kompletten Tβ4.',
     benefits: [
-      'Breite Geweberegeneration (u. a. Herz, Haut, Auge – in Studien)',
-      'Vollständiges Molekül mit mehr Humandaten als das TB-500-Fragment',
-      'Entzündungs- und narbenmodulierend',
-      'Nicht-hormonell'
+      'Bindet Aktin und fördert Zellwanderung; im Tiermodell bessere Heilung von Haut, Hornhaut und Herzmuskel',
+      'Kleine kontrollierte Humanstudien: trockenes Auge, nicht heilende Hornhautdefekte, Kopfhautekzem, Herzinfarkt – Verbesserungen in Nebenendpunkten oder Teilgruppen',
+      'Phase-1-Studie an gesunden Freiwilligen: Infusion über bis zu 10 Tage ohne schwerwiegende Ereignisse',
+      'Deutlich mehr Humandaten als das TB-500-Fragment'
     ],
     risks: [
-      'Nicht zugelassen; im Wettkampfsport verboten',
-      'Teurer und weniger stabil als das TB-500-Fragment',
-      'Theoretisches Tumorrisiko über die gefäßneubildende Wirkung',
-      'Research-Ware auf Reinheit achten'
+      'Nicht zugelassen; keine Humandaten zu Sehnen, Bändern, Muskeln oder Longevity',
+      'Keine Studie hat ihren Hauptendpunkt klar gewonnen; keine Langzeitdaten',
+      'Fördert Zellwanderung und Gefäßbildung; im Mausmodell mehr Metastasen bei Überproduktion in Tumorzellen – bei bekannter oder vermuteter Tumorerkrankung nicht ohne ärztliche Rücksprache',
+      'Graumarkt-Ware: Risiko von Verunreinigung und falscher Dosierung',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S2.3)'
     ],
-    status: 'Klinisch untersucht (diverse Indikationen), nicht zugelassen; im Sport verboten.',
+    status: 'In der EU nicht zugelassen; Augentropfen in klinischer Entwicklung, rekombinante Form in China klinisch untersucht. Im Graumarkt als Forschungspeptid. Im Sport jederzeit verboten.',
     sources: [
-      { title: 'Goldstein et al. – Thymosin β4 (Ann NY Acad Sci)', url: 'https://pubmed.ncbi.nlm.nih.gov/22591020/' },
-      { title: 'PepPal – Complete Peptide List 2026', url: 'https://www.peppal.app/blog/complete-peptide-list' }
+      { title: 'Goldstein AL et al., Expert Opin Biol Ther 2012 – Thymosin β4: Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/22074294/' },
+      { title: 'Sosne G, Ousler GW, Clin Ophthalmol 2015 – trockenes Auge, Phase 2', url: 'https://pubmed.ncbi.nlm.nih.gov/26056426/' },
+      { title: 'Sosne G et al., Int J Mol Sci 2022 – neurotrophe Keratopathie, Phase 3', url: 'https://pubmed.ncbi.nlm.nih.gov/36613994/' },
+      { title: 'Zhang Y et al., Cardiovasc Res 2025 – randomisierte Studie nach Herzinfarkt', url: 'https://pubmed.ncbi.nlm.nih.gov/41229390/' },
+      { title: 'Wang X et al., J Cell Mol Med 2021 – Phase 1 an Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/34346165/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    ],
+    filterCat: 'Immun'
   },
   {
     id: 'argireline',
@@ -2884,26 +2937,33 @@ const EXPERIMENTAL = [
     altNames: 'Acetyl-Hexapeptide-3/8, „Botox aus der Creme"',
     class: 'Kosmetisches Peptid (SNARE-Modulator, topisch)',
     emoji: '💆',
-    short: 'Das „Botox aus der Creme": ein topisches Peptid, das Mimikmuskeln sanft entspannt und feine Fältchen glättet – rein äußerlich und gut verträglich.',
-    moa: 'Argireline hemmt mild die SNARE-vermittelte Freisetzung von Acetylcholin an der Muskel-Nerven-Endplatte und dämpft so die Kontraktion der Mimikmuskulatur – ähnlich der Idee von Botox, aber viel schwächer und nur oberflächlich. Es wird ausschließlich topisch (Creme/Serum) angewendet.',
+    short: 'Das bekannteste Anti-Falten-Peptid in Seren: aufgetragen in kleinen Studien messbar weniger Hautrauheit um die Augen, gut verträglich – die Muskelwirkung am Menschen ist aber nicht belegt.',
+    moa: 'Argireline ist dem N-terminalen Abschnitt des Proteins SNAP-25 nachgebaut. In Zellsystemen hemmen Peptide dieser Art die Bildung des SNARE-Komplexes und damit die kalziumabhängige Ausschüttung von Botenstoffen – dieselbe Maschinerie, an der Botulinumtoxin ansetzt, aber auf anderem Weg. Ob das Peptid aufgetragen die neuromuskulären Endplatten überhaupt erreicht, ist offen: Es ist wasserliebend und relativ groß, die Hornschicht fettliebend. Eine Dämpfung der Mimikmuskulatur am Menschen ist nicht gezeigt. Angewendet wird es topisch in Cremes und Seren.',
     benefits: [
-      'Glättet Mimikfältchen (Stirn, Augenpartie)',
-      'Nicht-invasiv, ohne Nadel, gut verträglich',
-      'Günstige „Botox-Alternative" in der Hautpflege',
-      'Frei verkäuflich in Kosmetik'
+      'Randomisiert und placebokontrolliert bei Fältchen um die Augen: 60 Teilnehmer, 4 Wochen, alle Rauheitsparameter gesunken (objektive Messung an Silikonabdrücken).',
+      'Als Zusatz zu einem Mikronadelpflaster bessere Faltenwerte als das Pflaster allein (52 Frauen, doppelblind, halbseitig).',
+      'Nicht-invasiv und in allen Studien gut verträglich: keine schweren Nebenwirkungen, keine Reizungen.',
+      'Frei verkäuflich in Kosmetik; formal bewertet und bis 0,005 Prozent als sicher eingestuft.'
     ],
     risks: [
-      'Effekt deutlich milder als Botox',
-      'Dringt nur begrenzt in die Haut ein (Formulierung entscheidend)',
-      'Rein kosmetisch; Studien oft herstellernah'
+      'Effekt klein und nicht durchgängig: ein doppelblinder Halbseitenvergleich (19 Frauen) fand keinen Unterschied zur Seite ohne Wirkstoff.',
+      'Dringt nur begrenzt in die Haut ein; die Muskelwirkung am Menschen ist nicht belegt, der Botox-Vergleich trägt nicht.',
+      'Viele positive Studien prüfen Fertigprodukte mit mehreren Wirkstoffen – der Beitrag des Peptids ist daraus nicht ableitbar.',
+      'Gespritzt ohne jede Wirksamkeitsstudie am Menschen; im Tiermodell ohne nachweisbare Gewebewirkung, dazu ein Fallbericht über eine Infektion mit Mycobacterium abscessus nach Gesichtsinjektionen.'
     ],
-    status: 'Kosmetischer Wirkstoff (frei verkäuflich in Hautpflege).',
+    status: 'Kosmetischer Wirkstoff (frei verkäuflich in Hautpflege). Als Injektionslösung kein zugelassenes Arzneimittel.',
     sources: [
-      { title: 'Argireline – kosmetische Anti-Falten-Wirkung (Übersicht, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3080240/' }
+      { title: 'Wang Y et al., Am J Clin Dermatol 2013 – randomisiert, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/23417317/' },
+      { title: 'An JH et al., Ann Dermatol 2019 – doppelblinde Halbseitenstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/33911590/' },
+      { title: 'Henseler H, GMS Interdiscip Plast Reconstr Surg DGPW 2023 – Halbseitenvergleich ohne Effekt', url: 'https://pubmed.ncbi.nlm.nih.gov/38024099/' },
+      { title: 'Zdrada-Nowak J et al., Int J Mol Sci 2025 – Hautdurchdringung und Wirksamkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/40565185/' },
+      { title: 'Aruan RR et al., J Clin Aesthet Dermatol 2023 – Vergleich mit Palmitoyl-Pentapeptid-4', url: 'https://pubmed.ncbi.nlm.nih.gov/36909866/' },
+      { title: 'Johnson W et al., Int J Toxicol 2025 – Sicherheitsbewertung in Kosmetik', url: 'https://pubmed.ncbi.nlm.nih.gov/40673537/' }
     ],
     community: [
       { title: 'INCI/Kosmetik-Datenbank – Acetyl Hexapeptide-8', url: 'https://incidecoder.com/ingredients/acetyl-hexapeptide-8' }
-    ]
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'snap-8',
@@ -2938,26 +2998,32 @@ const EXPERIMENTAL = [
     altNames: 'Matrixyl 3000, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1',
     class: 'Kosmetisches Kollagen-Signalpeptid (topisch)',
     emoji: '✨',
-    short: 'Der Anti-Aging-Klassiker in Seren: ein Signalpeptid, das die Haut zur Kollagenbildung anregt und feine Linien mildert – topisch gut untersucht.',
-    moa: 'Matrixyl (v. a. Palmitoyl-Pentapeptid-4 und -Tripeptid-1) sind Signalpeptide, die Bruchstücke von abgebautem Kollagen nachahmen. Sie „gaukeln" der Haut Reparaturbedarf vor und regen Fibroblasten zu mehr Kollagen- und Elastinbildung an. Anwendung ausschließlich topisch in Seren/Cremes.',
+    short: 'Der Anti-Aging-Klassiker in Seren: ein Signalpeptid, das die Kollagenbildung anregen soll – mit der solidesten klinischen Studie aller Kosmetikpeptide (93 Frauen, 12 Wochen). Die gehört allerdings zum älteren Palmitoyl-Pentapeptid-4, nicht zu Matrixyl 3000.',
+    moa: 'Matrixyl (Palmitoyl-Pentapeptid-4, die Sequenz KTTKS mit Palmitinsäure) ist ein Signalpeptid, das Bruchstücke abgebauten Kollagens nachahmt: Die Haut liest das als Reparaturbedarf. In Zellkultur bindet es an einen Zelloberflächenrezeptor, steigert Kollagen Typ I und III, bremst den Kollagenabbau und regt die Hyaluronsäure-Bildung an. Am Menschen gemessen ist bisher nur, dass die Peptide alle Schichten der Hornschicht erreichen – offenbar auf den Zelloberflächen und nicht in den Zellen. Ob sie die kollagenbildenden Zellen der Lederhaut erreichen, ist nicht gezeigt. Anwendung topisch in Seren und Cremes.',
     benefits: [
-      'Regt Kollagen- und Elastinbildung an',
-      'Glättet feine Linien, verbessert Hautdichte und -struktur',
-      'Gut verträglich, auch für empfindliche Haut',
-      'Einer der bestuntersuchten kosmetischen Wirkstoffe'
+      'Doppelblind, placebokontrolliert, halbseitig: 93 Frauen, 12 Wochen, signifikant weniger Falten und feine Linien gegenüber derselben Creme ohne Peptid.',
+      'Im direkten Vergleich (21 Frauen, 8 Wochen, Vorstudie) besser als Acetyl-Hexapeptid-3 und Placebo.',
+      'Kollagenanregung in Zellkultur mehrfach reproduziert, liposomal verpackt stärker als freies Peptid und als Ascorbinsäure.',
+      'Gut verträglich; in einer bioinformatischen Sicherheitsbewertung Sequenzähnlichkeit zu Hautproteinen ohne Toxin- oder Allergenhinweise.'
     ],
     risks: [
-      'Effekt moderat und langsam (Wochen bis Monate)',
-      'Rein kosmetisch/topisch',
-      'Konzentration und Formulierung im Produkt entscheidend'
+      'Effekt moderat und langsam (Wochen bis Monate); in einer Meta-Analyse über 19 RCTs war der Falteneffekt von Peptiden insgesamt klein.',
+      'Die klinische Evidenz gehört zu Palmitoyl-Pentapeptid-4 – für Matrixyl 3000 (Palmitoyl-Tripeptid-1 plus Tetrapeptid-7) wurde keine eigene randomisierte Studie am Menschen gefunden.',
+      'Rein kosmetisch/topisch; Konzentration und Formulierung im Produkt entscheidend, und zur gespritzten Anwendung gibt es keine Humanstudie.',
+      'Kleine Sequenzänderungen drehen in Zellkultur die Wirkung um; oberhalb bestimmter Konzentrationen sinkt dort die Zellverträglichkeit.'
     ],
-    status: 'Kosmetischer Wirkstoff (frei verkäuflich in Seren/Cremes).',
+    status: 'Kosmetischer Wirkstoff (frei verkäuflich in Seren/Cremes). Als Injektionslösung kein zugelassenes Arzneimittel.',
     sources: [
-      { title: 'Matrixyl / Palmitoyl-Peptide – Kollagen-Wirkung (Übersicht, PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7648446/' }
+      { title: 'Robinson LR et al., Int J Cosmet Sci 2005 – doppelblinde Halbseitenstudie, 93 Teilnehmerinnen', url: 'https://pubmed.ncbi.nlm.nih.gov/18492182/' },
+      { title: 'Aruan RR et al., J Clin Aesthet Dermatol 2023 – Vergleich mit Acetyl-Hexapeptid-3', url: 'https://pubmed.ncbi.nlm.nih.gov/36909866/' },
+      { title: 'Trzaska AH et al., Int J Pharm 2026 – Eindringen in die Hornschicht am Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/42790608/' },
+      { title: 'Vitali A et al., Pharmaceutics 2024 – Kollagenbildung in Zellkultur', url: 'https://pubmed.ncbi.nlm.nih.gov/38399273/' },
+      { title: 'Bjerke DL et al., Curr Res Toxicol 2026 – Sicherheitsbewertung von Kosmetikpeptiden', url: 'https://pubmed.ncbi.nlm.nih.gov/41953401/' }
     ],
     community: [
       { title: 'INCI/Kosmetik-Datenbank – Palmitoyl Pentapeptide-4', url: 'https://incidecoder.com/ingredients/palmitoyl-pentapeptide-4' }
-    ]
+    ],
+    filterCat: 'Sonstige'
   },
   {
     id: 'hmg',
