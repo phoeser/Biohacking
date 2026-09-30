@@ -28,6 +28,7 @@ Generell viel Fragen stellen, die helfen, die Arbeit besser zu machen und besser
 - **Cache-Buster je Datei** (`?v=<8 Zeichen SHA-1>`): nach jeder JS/CSS-Änderung `python3 buster.py` ausführen und `index.html` mit deployen. Nicht mehr pauschal hochzählen — sonst lädt Google alle 20 Dateien neu.
 - **Englische Testseiten unter `/en/`** (25 Seiten + `/en/index.html`, seit 27.09.2026): Nach jedem Neubau deutscher Seiten `python3 sprachen.py` ausführen (setzt hreflang + DE|EN-Umschalter in beiden Fassungen). Ändert sich der Inhalt einer dieser 25 deutschen Seiten, die englische Fassung nachziehen.
 - **Startseite:** Die Blöcke „Am besten belegt“ und „Häufige Fragen“ (samt FAQPage-Schema) in `index.html` erzeugt `python3 startseite.py` aus `scores.json`. Nach jedem neuen Score-Stand erneut ausführen, nie von Hand zwischen den Markierungen editieren.
+- **Verwandte Themen:** Die Kästen „Ähnliche Themen“ und „Fragen dazu“ sowie der Link auf die Folgenseite im Podcast-Kasten der Themenseiten erzeugt `python3 verwandt.py` (idempotent, zwischen `<!-- verwandt:start/end -->`). Nach jedem Neubau von Themen-, Frage- oder Vergleichsseiten erneut ausführen, danach `sprachen.py`.
 - **Deploy gilt erst als fertig, wenn die Blob-SHA live gegengeprüft ist.**
 - **`autor: 'weitergegeben'` in Erfahrungsberichten heißt `bewertung: null`** — keine Sterne für etwas, das man nicht selbst erlebt hat.
 - Bezugsquellen-/Wearable-Links: „Rabatt-Link" bzw. „keine Empfehlung/Garantie, Grauzone".
