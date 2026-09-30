@@ -321,7 +321,6 @@ const EXPERIMENTAL = [
       { title: 'PeptideDeck – Best Growth Hormone Peptides 2026', url: 'https://www.peptidedeck.com/peptides/best-growth-hormone-peptides-2026' }
     ],
     community: [
-      { title: 'Hunter Williams – Peptide-Protokolle', url: 'https://www.peptideschedule.com/protocols/by/hunter-williams' }
     ],
     podcasts: [
       {
@@ -726,7 +725,6 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Sexuelle Funktionsstörungen ärztlich abklären (Ursachensuche, Herz-Kreislauf)', url: 'https://www.gelbe-liste.de/wirkstoffe/Bremelanotid_57503' },
-      { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
       { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
@@ -766,7 +764,6 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Verschreibungspflichtig – über Arzt & Apotheke beziehen (geprüfte Qualität, Beratung zu Wechselwirkungen)', url: 'https://www.gelbe-liste.de/wirkstoffe/Tadalafil_23331' },
-      { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
       { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
@@ -1283,7 +1280,6 @@ const EXPERIMENTAL = [
       { title: 'Volkova et al., Front Pharmacol 2016 – Selank und GABA-Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/26924987/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       { title: 'Selank: Angst lösen ohne Benzo-Nebenwirkungen? Das russische Peptid im Faktencheck', audio: 'audio/selank-podcast.mp3', spotify: '4aVYSN3bbxyUtzXsLmzNGg', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)', note: 'Der Podcast von Paul Höser (Folge 25). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die vielversprechende, aber überwiegend russische Studienlage ein: in Russland als Angst-Medikament zugelassen, mildes Sicherheitsprofil – die große internationale Bestätigung steht aber noch aus. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – in Deutschland nicht als Arzneimittel zugelassen.', sources: [
@@ -1324,7 +1320,6 @@ const EXPERIMENTAL = [
       { title: 'Magrì et al., J Inorg Biochem 2016 – Acetylierung hebt Zellschutz vor Kupfertoxizität auf', url: 'https://pubmed.ncbi.nlm.nih.gov/27586814/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       {
@@ -1372,7 +1367,6 @@ const EXPERIMENTAL = [
       { title: 'Fachinformation Cerebrolysin, Österreich (Zulassungsnr. 1-21380), Arzneispezialitätenregister des BASG', url: 'https://aspregister.basg.gv.at/' }
     ],
     community: [
-      { title: 'Peptides.nyc – Cognitive Health Peptides', url: 'https://peptides.nyc/learn/goal/cognitive' }
     ]
   },
   {
@@ -1441,7 +1435,6 @@ const EXPERIMENTAL = [
       { title: 'Reid Thompson et al., Genet Med 2021 – Elamipretide beim Barth-Syndrom (klinische Studie)', url: 'https://pubmed.ncbi.nlm.nih.gov/33298753/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       {
@@ -1773,7 +1766,6 @@ const EXPERIMENTAL = [
       { title: 'Ladna et al., J Med Case Rep 2023 – Leberschaden unter RAD140', url: 'https://pubmed.ncbi.nlm.nih.gov/36978171/' }
     ],
     community: [
-      { title: 'Swolverine – RAD-140 Side Effects', url: 'https://swolverine.com/blogs/blog/rad-140-side-effects-risks-suppression-liver-stress-and-long-term-concerns' }
     ],
     podcasts: [
       { title: 'RAD140 (Testolone): Das SARM im Faktencheck', audio: 'audio/rad140-podcast.mp3', spotify: '6pdj4nVBmovKQhN7MK0TwA', lengthLabel: '≈ 13 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 66) · mit Paul & Paula. Die brillante SARM-Idee und die ernüchternde Realität: eine einzige Humanstudie (Leberwerte dosislimitierend), Achsen-Suppression, HDL-Absturz, JAMA-Etiketten-Analyse, Ostarine & Co., Neuroprotektions-Mythos, WADA – Wissen statt Werbung. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 05.09.2026, 10:00)' }
@@ -1842,7 +1834,6 @@ const EXPERIMENTAL = [
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     filterCat: 'Exercise'
   },
@@ -1878,7 +1869,6 @@ const EXPERIMENTAL = [
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Wachstumshormon-Peptide: Evidenz und Selbstanwendung', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     filterCat: 'Exercise'
   },
@@ -1923,7 +1913,6 @@ const EXPERIMENTAL = [
       { title: 'Dominikowski et al., Front Endocrinol 2026 – Leistungssteigernde Peptide der GH-IGF-1-Achse: Studienlage und Selbstanwendung', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13322892/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ]
   },
   {
@@ -1997,7 +1986,6 @@ const EXPERIMENTAL = [
       { title: 'Henninge J et al., Drug Test Anal 2010 – als CJC-1295 verkauftes Präparat enthielt Peptid ohne DAC', url: 'https://pubmed.ncbi.nlm.nih.gov/21204297/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       { title: 'CJC-1295 ohne DAC: Das Puls-Peptid – und die Auflösung des Namens-Chaos', audio: 'audio/cjc-1295-no-dac-podcast.mp3', spotify: '78AdX9FlRgHliWEjUnfYRM', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 38) · mit Paul & Paula. Frische, positive KI-Dialogfolge, die das größte Namens-Rätsel der Peptid-Szene auflöst: CJC-1295 ohne DAC, Mod GRF 1-29 und modifiziertes GRF sind ein und dasselbe Molekül. Warum das kurzlebige GHRH-Analogon die natürlichen Wachstumshormon-Pulse verstärkt statt überdeckt (Ionescu & Frohman, JCEM 2006), was die vier Molekül-Reparaturen bewirken, wo Sermorelin einzuordnen ist, warum Insulin-Timing den Puls entscheidet – und der große Vergleich: DAC oder ohne DAC? Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.', sources: [
@@ -2033,7 +2021,6 @@ const EXPERIMENTAL = [
       { title: 'Heffernan et al., Endocrinology 2001 – Effekte von AOD9604 auf den Fettstoffwechsel', url: 'https://pubmed.ncbi.nlm.nih.gov/11713213/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       {
@@ -2086,7 +2073,6 @@ const EXPERIMENTAL = [
       { title: 'FDA – Bulk Drug Substances: keine Humandaten zu KPV', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       { title: 'KI-Podcast: KPV – das kleine Anti-Entzündungs-Tripeptid für Darm & Haut', audio: 'audio/kpv-podcast.mp3', spotify: '0mPFUWG5UTnN6DWL7GUtoQ', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 1) · mit Paul & Paula. Frische, positive KI-Dialogfolge mit Fachrecherche: KPV ist ein winziges Endstück des Hormons alpha-MSH, das den Entzündungs-Hauptschalter NF-κB beruhigt – vielseitig für Darm (leaky gut, Barriere) und Haut (Anti-Aging, Akne), sanft und flexibel als Kapsel, Spritze oder Creme. Kurzer Hinweis: überwiegend Zell-/Tierdaten, Humanstudien stehen noch aus. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -2125,7 +2111,6 @@ const EXPERIMENTAL = [
       { title: 'Dürr et al., Biochim Biophys Acta 2006 – Struktur und antimikrobielle Funktion von LL-37', url: 'https://pubmed.ncbi.nlm.nih.gov/16716248/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       {
@@ -2171,7 +2156,6 @@ const EXPERIMENTAL = [
       { title: 'Bes et al., Neuropsychobiology 1992 – DSIP bei chronischer Insomnie, doppelblind', url: 'https://pubmed.ncbi.nlm.nih.gov/1299794/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       { title: 'DSIP: Das Schlafpeptid im Faktencheck', audio: 'audio/dsip-podcast.mp3', spotify: '2Cz5bXpDtURKddAZ4MrbTO', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 12) · mit Paul & Paula. Frische, positive KI-Dialogfolge über DSIP, das Delta-Schlaf-induzierende Peptid – 1977 im Blut schlafender Kaninchen entdeckt. Kein Knockout-Schlafmittel, sondern ein sanfter Regler, der den Delta-Tiefschlaf fördert und das Stress-/Cortisol-System beruhigt. Warum Tiefschlaf (Wachstumshormon, glymphatische Gehirn-Müllabfuhr) ein starker Longevity-Hebel ist. Ehrlicher Rahmen: Datenlage alt und dünn, bei uns Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -2454,8 +2438,7 @@ const EXPERIMENTAL = [
       { title: 'FDA – Bulk Drug Substances: Immunogenität und Verunreinigungen bei Peptiden aus Rezepturquellen', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
     ],
     community: [
-      { title: 'Reddit r/PeptideGuide – Bronchogen Bioregulator Dosierung', url: 'https://www.reddit.com/r/PeptideGuide/comments/1e5r8zw/bronchogen_bioregulator_dosage/' },
-      { title: 'peptide-bioregulator.com – Chonluten (Produktinfo, nur Grauzone)', url: 'https://peptide-bioregulator.com/product/chonluten/' }
+      { title: 'Reddit r/PeptideGuide – Bronchogen Bioregulator Dosierung', url: 'https://www.reddit.com/r/PeptideGuide/comments/1e5r8zw/bronchogen_bioregulator_dosage/' }
     ],
     podcasts: [
       { title: 'Bronchogen & Chonluten: Das Peptid-Duo für die Lunge', audio: 'audio/bronchogen-chonluten-podcast.mp3', spotify: '3b8emQB8ibdtFNCIXuiE7U', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 29) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das vergessene Biohacking-Organ Lunge: zwei ultrakurze Khavinson-Bioregulatoren im Duett – Chonluten (T-34) beruhigt die Atemwegs-Schleimhaut, Bronchogen baut auf (Flimmerepithel, Surfactant). Dazu: warum die Ein-Sekunden-Kapazität einer der besten Langlebigkeits-Marker ist und was Atemtraining leistet. Ehrlich gerahmt: Evidenz überwiegend aus der russischen Khavinson-Schule, bei uns nicht zugelassen (Research-Ware). Reine Information, keine Dosier- oder Anwendungsempfehlung – Atemprobleme ärztlich abklären.', sources: [
@@ -2495,7 +2478,6 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Verschreibungspflichtige Behandlung von BPH/Prostatitis: über Urologen abklären', url: 'https://www.gelbe-liste.de/krankheiten/benigne-prostatahyperplasie' },
-      { title: 'Particle Peptides (Research – nur Grauzone, keine Empfehlung)', url: 'https://particlepeptides.com/en/16-buy-peptides' },
       { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
     ],
     podcasts: [
@@ -2535,7 +2517,6 @@ const EXPERIMENTAL = [
       { title: 'BfArM, Pressemitteilung 14/10 (28.10.2010) – Warnung vor melanotanhaltigen Produkten', url: 'https://www.bfarm.de/SharedDocs/Pressemitteilungen/DE/2010/pm14-2010.html' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     podcasts: [
       { title: 'Melanotan 2: Das Bräunungs-Peptid im Faktencheck', audio: 'audio/melanotan-2-podcast.mp3', spotify: '0orxbyC3Wcg2ipQyuEe9Ck', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 39) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das berühmteste Bräunungs-Peptid der Welt: von der Hautkrebs-Präventions-Idee der University of Arizona über den legendären Selbstversuch bis zu zwei zugelassenen Medikamenten-Nachfahren (Afamelanotid/Scenesse und PT-141/Vyleesi). Dazu die Humandaten (Dorr, Life Sciences 1996: Bräunung ohne Sonne; Wessells, J Urol 1998), die drei Effekte über MC1R/MC4R – Bräune, Appetit, Libido – und die ehrliche Schattenseite: Muttermal-Veränderungen (Langan, JAAD 2010), Übelkeit, Graumarkt. Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -2576,7 +2557,6 @@ const EXPERIMENTAL = [
       { title: 'Mateescu DM et al., Antioxidants 2026 – Übersicht: präklinisch senolytisch, klinisch nicht validiert', url: 'https://pubmed.ncbi.nlm.nih.gov/42510573/' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     filterCat: 'Longevity'
   },
@@ -2748,7 +2728,6 @@ const EXPERIMENTAL = [
       { title: 'FDA – Concerns with Unapproved GLP-1 Drugs (Retatrutid, Forschungsware), Stand 01.09.2026', url: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss' }
     ],
     community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
     ],
     filterCat: 'Stoffwechsel'
   },

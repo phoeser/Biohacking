@@ -259,7 +259,6 @@ const KHAVINSON = [
       { title: 'Khavinson et al. 2013, Bull Exp Biol Med – Pancragen und Differenzierung alternder Pankreaszellen', url: 'https://pubmed.ncbi.nlm.nih.gov/23486591/' }
     ],
     community: [
-      { title: 'Khavinson Peptides Complete Guide (SuperPower)', url: 'https://superpower.com/guides/khavinson-peptides' }
     ]
   },
   {
@@ -328,8 +327,6 @@ const KHAVINSON = [
       { title: 'Ryzhak et al. 2003, Bull Exp Biol Med – Herstellung und Reinheit natürlicher Peptidregulatoren', url: 'https://pubmed.ncbi.nlm.nih.gov/12717513/' }
     ],
     community: [
-      { title: 'Bioregulators Overview (Youth & Earth)', url: 'https://youthandearth.com/blogs/learninghub/bioregulators-an-overview-of-their-discovery-function-and-benefits' },
-      { title: '30+ Best Bioregulator Peptides (Outliyr)', url: 'https://outliyr.com/best-bioregulator-peptides-review' }
     ]
   },
   {
