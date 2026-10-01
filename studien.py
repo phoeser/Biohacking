@@ -372,6 +372,33 @@ def bauen(q, cache):
              'hinweis': 'Studientyp aus PubMed/Europe PMC abgeleitet - Orientierung, keine Qualitaetsnote.',
              'typen': {k: n for k, n in TYPEN}, 'studien': json_studien, 'weitere': json_weitere}
     json.dump(daten, open('studien/studien.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    # Klartext je Seite - fuer Sprach-Assistenten (ElevenLabs-Wissensdatenbank, Auto-Sync) und Sprachmodelle
+    rang = {k: i for i, (k, _) in enumerate(TYPEN)}
+    je_seite = collections.defaultdict(lambda: {'name': '', 'art': '', 'studien': [], 'weitere': []})
+    for st in json_studien:
+        for sz in st['seiten']:
+            ei = je_seite[sz['url']]; ei['name'], ei['art'] = sz['name'], sz['art']; ei['studien'].append(st)
+    for w in json_weitere:
+        for sz in w['seiten']:
+            ei = je_seite[sz['url']]; ei['name'], ei['art'] = sz['name'], sz['art']; ei['weitere'].append(w)
+    zt = ['# Studien-Datenbank von Biohacking Kompakt', '',
+          'Stand: %s. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, '
+          'geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine '
+          'Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der '
+          'jeweiligen Themenseite (BK-Score). Durchsuchbar unter %s/studien/' % (stand, SITE), '']
+    for url, ei in sorted(je_seite.items(), key=lambda x: (x[1]['art'] != 'Thema', x[1]['name'].lower())):
+        zt.append('## %s: %s (%s)' % (ei['art'], ei['name'], url))
+        if ei['studien']:
+            n = collections.Counter(TYPNAME[x['typ']] for x in ei['studien'])
+            zt.append('%d Studien: %s.' % (len(ei['studien']), ', '.join('%d %s' % (v, k) for k, v in n.most_common())))
+        for st in sorted(ei['studien'], key=lambda x: (rang[x['typ']], -(x['jahr'] or 0))):
+            kopf = ', '.join(str(x) for x in (st['typ_name'], st['jahr']) if x)
+            wer = ', '.join(x for x in (st['autor'], st['journal']) if x)
+            zt.append('- %s: %s%s. %s' % (kopf, st['titel'], (' (%s)' % wer) if wer else '', st['url']))
+        for w in ei['weitere']:
+            zt.append('- Behörde/Recht (%s): %s. %s' % (w['herausgeber'], w['text'], w['url']))
+        zt.append('')
+    open('studien/studien.txt', 'w', encoding='utf-8').write('\n'.join(zt))
     print('studien/index.html: %d Studien, %d weitere Quellen, %d KB' % (len(zeilen), n_andere, len(seite.encode()) // 1024))
     print('Typen:', {TYPNAME[k]: zaehl[k] for k, _ in TYPEN})
 
