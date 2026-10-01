@@ -5095,6 +5095,45 @@ const EXPERIMENTAL = [
     ],
     podcasts: [],
     filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'calcium-d-glucarat',
+    name: 'Calcium-D-Glucarat',
+    altNames: 'Calcium-Glucarat, Calcium D-glucarate, D-Glucarsäure, Glucarsäure, Zuckersäure, D-Glucaro-1,4-lacton (Wirkform), Saccharolacton',
+    class: 'Calciumsalz der Glucarsäure, Vorstufe eines Beta-Glucuronidase-Hemmers, als Nahrungsergänzung in der EU rechtlich ungeklärt',
+    emoji: '🍊',
+    short: 'Calciumsalz der Glucarsäure aus Obst und Gemüse, aus dem im Körper ein Hemmer der Beta-Glucuronidase entsteht; bei Ratten senkte es die Enzymaktivität und im Brustkrebsmodell die Tumorentwicklung um über 70 %. Für das beworbene Östrogen-Detox gibt es am Menschen keine veröffentlichte kontrollierte Studie, nur einen Kongressbeitrag mit vorläufigen Befunden.',
+    moa: 'Glucarsäure entsteht beim Menschen in kleinen Mengen als Endprodukt des Glucuronsäure-Wegs und steckt in Orangen, Äpfeln, Grapefruit und Kohlgemüse (Zółtaszek 2008). Aus Calcium-D-Glucarat bildet sich im Magen D-Glucaro-1,4-lacton, das aufgenommen, in die Organe verteilt und über den Urin ausgeschieden wird (Walaszek 1997, Ratte). Das Lacton hemmt die Beta-Glucuronidase, ein Enzym in Gewebe und Darmbakterien, das in der Leber an Östrogene und Schadstoffe angehängte Glucuronsäure wieder abspaltet und so deren Ausscheidung verlangsamt (MSKCC). Bei Ratten sank die Enzymaktivität nach einer Einzelgabe im Serum um 57 %, in den Darmbakterien unter glucarathaltigem Futter um 70 % bzw. 54 % (Dwivedi 1990). Der Mechanismus ist nicht einheitlich belegt: In einer Rattenstudie blieben die Enzymspiegel unverändert (Abou-Issa 1993), und in Zellkultur wirkte Glucarat möglicherweise ohne Umweg über das Lacton (Curley 1994).',
+    benefits: [
+      'Hemmt bei Ratten die Beta-Glucuronidase: Serum −57 %, Leber −44 %, Darmbakterien des Dünndarms −70 % (Tierstudie, Dwivedi 1990)',
+      'Brustkrebsmodell der Ratte: Tumorentwicklung um über 70 % gehemmt, Estradiolspiegel gesenkt (Tierstudie, Walaszek 1986); über Initiation und Promotion 50 % weniger Tiere mit Tumoren, 63 % weniger Tumoren je Tier (Abou-Issa 1995)',
+      'Weitere Tiermodelle: Darmkrebs mit einem verwandten Glucarat-Salz um etwa 60 % reduziert (Ratte, Yoshimi 2000), Mundhöhlentumoren weniger aggressiv (76 Hamster, Lajolo 2010)',
+      'Am Menschen nur ein Kongressbeitrag: Beta-Glucuronidase gesenkt, Glucarsäure im Serum erhöht, gut verträglich (Walaszek 2004, laut MSKCC) – keine Teilnehmerzahl, keine vollständige Veröffentlichung'
+    ],
+    risks: [
+      'Keine veröffentlichte kontrollierte Humanstudie zu Östrogenspiegeln, Beschwerden oder Krebsrisiko; laut MSKCC haben keine klinischen Studien diese Wirkungen am Menschen geprüft, Folgestudien sind nie erschienen',
+      'Keine systematischen Sicherheitsdaten am Menschen; keine Daten zu Schwangerschaft, Stillzeit und Kindern',
+      'Einfluss auf Medikamente und Hormontherapien, die über Glucuronidierung laufen, nicht untersucht; das Lacton hemmt im Labor möglicherweise auch die glucuronidierenden UGT-Enzyme (Argikar 2018) – bei Antihormon- oder Hormontherapie ärztlich abklären',
+      'Einzige RCT mit Calcium-Glucarat nutzte ein Kombinationspräparat (47 prä- und 49 postmenopausale Frauen, 28 Tage); der Effekt auf den Östrogenabbau wird Indol-3-Carbinol und Lignan zugeschrieben (Laidlaw 2010)',
+      'Rechtsstatus in der EU ungeklärt: kein Eintrag im Novel-Food-Katalog, nicht in der Liste zulässiger Calciumverbindungen'
+    ],
+    status: 'Kein Arzneimittel. In der EU weder im Novel-Food-Katalog noch in der Unionsliste zugelassener neuartiger Lebensmittel aufgeführt (Abruf 01.10.2026); ein nennenswerter Verzehr vor dem 15.05.1997 ist nicht belegt, und als Calciumquelle steht es nicht auf der EU-Liste zulässiger Nährstoffverbindungen. Die Verkehrsfähigkeit als Nahrungsergänzungsmittel ist damit ungeklärt (VO (EU) 2015/2283), obwohl es in Deutschland über Versandapotheken und Onlinehändler angeboten wird. Keine amtlichen Höchstmengen von EFSA oder BfR. Nicht auf der WADA-Verbotsliste 2026.',
+    sources: [
+      { title: 'Memorial Sloan Kettering Cancer Center 2022, About Herbs – Calcium Glucarate: keine klinischen Studien, nur eine vorläufige Humanstudie', url: 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/calcium-glucarate' },
+      { title: 'Walaszek et al. 1986, Carcinogenesis – Calcium-Glucarat hemmt Brusttumoren bei Ratten um über 70 %', url: 'https://pubmed.ncbi.nlm.nih.gov/3091283/' },
+      { title: 'Abou-Issa et al. 1995, Anticancer Res – Wirkung in Initiation und Promotion im Brustkrebsmodell der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/7645962/' },
+      { title: 'Dwivedi et al. 1990, Biochem Med Metab Biol – Beta-Glucuronidase-Hemmung bei Ratten und Glucarat in Lebensmitteln', url: 'https://pubmed.ncbi.nlm.nih.gov/2346674/' },
+      { title: 'Walaszek et al. 1997, Cancer Detect Prev – Bildung, Verteilung und Ausscheidung von D-Glucaro-1,4-lacton (Ratte)', url: 'https://pubmed.ncbi.nlm.nih.gov/9101079/' },
+      { title: 'Yoshimi et al. 2000, Int J Oncol – Glucarat-Salz senkt Darmtumoren bei Ratten um etwa 60 %', url: 'https://pubmed.ncbi.nlm.nih.gov/10601547/' },
+      { title: 'Abou-Issa et al. 1993, Anticancer Res – Glucarat ohne Effekt auf Beta-Glucuronidase-Spiegel bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/8517653/' },
+      { title: 'Laidlaw et al. 2010, Breast Cancer (Auckl) – RCT mit Kombinationspräparat inklusive Calcium-Glucarat', url: 'https://pubmed.ncbi.nlm.nih.gov/21234288/' },
+      { title: 'EU-Kommission – Novel Food Status Catalogue', url: 'https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search' }
+    ],
+    community: [
+      { title: 'biolabshop (Suche „Calcium-D-Glucarat")', url: 'https://biolabshop.de/' }
+    ],
+    podcasts: [],
+    filterCat: 'Sonstige'
   }
 ];
 
@@ -5111,6 +5150,7 @@ const EXPERIMENTAL_CATEGORIES = [
 const _EXP_CAT_MAP = {
   'dmg': 'Exercise',
   'gamma-butyrobetain': 'Stoffwechsel',
+  'calcium-d-glucarat': 'Sonstige',
   'retatrutide': 'Stoffwechsel',
   'tesofensin': 'Stoffwechsel',
   'semaglutide': 'Stoffwechsel',

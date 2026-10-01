@@ -3487,6 +3487,211 @@ const SUPPLEMENTS = [
     evidence: 'niedrig',
     sources: 'Blätter und Kraut des Heiligen Basilikums, als Tee oder Küchenkraut (im EU-Katalog auch als Thai-Basilikum geführt)',
     link: 'https://pubmed.ncbi.nlm.nih.gov/28400848/'
+  },
+  {
+    id: 'baikal-helmkraut',
+    name: 'Baikal-Helmkraut (Scutellaria baicalensis)',
+    altNames: 'Scutellaria baicalensis, Chinesisches Helmkraut, Chinese Skullcap, Huang Qin, Huangqin, Ogon, Scutellariae radix, Baicalin, Baicalein, Wogonin',
+    category: 'Kräuter',
+    tags: ['entzuendung', 'stress', 'angst'],
+    short: 'Chinesische Heilwurzel, deren Flavone Baicalin, Baicalein und Wogonin im Labor entzündungshemmend und angstlösend wirken; am Menschen gibt es nur einzelne Studien, etwa zu Blutfetten und Entzündungswerten. Klar belegt ist dagegen ein seltenes Leber- und Lungensignal, ein US-Präparat mit Baicalin wurde zurückgerufen.',
+    description: 'Baikal-Helmkraut ist die getrocknete Wurzel von Scutellaria baicalensis, in der chinesischen Medizin als Huang Qin und in Japan als Ogon in Rezepturen genutzt. Ihre Flavone Baicalin, Baicalein und Wogonin hemmen im Labor Entzündungsprozesse, Wogonin bindet zudem an die Benzodiazepin-Stelle des GABA-A-Rezeptors und wirkte bei Mäusen angstlösend. Am Menschen verbesserte Baicalin in einer chinesischen RCT mit 374 Herz- und Rheumapatienten zusätzlich zur Standardtherapie Blutfette und CRP, ein Extrakt in einer kleinen Crossover-Studie die Glukosetoleranz bei Typ-2-Diabetes; eine Kognitionsstudie mit einem Kombinationsprodukt fand keinen Unterschied zu Placebo. Systematische Übersichten von Humanstudien fehlen. Leberschäden sind selten, aber gut belegt: In chinesischen Kliniken betrafen sie 0,095 % der Behandelten, und das Baicalin-haltige US-Präparat Flavocoxid (Limbrel) wurde nach 194 Meldungen zu Leber-, Bauchspeicheldrüsen- und Lungenschäden 2018 zurückgerufen. Nicht verwechseln mit dem Amerikanischen Helmkraut (Scutellaria lateriflora), einer anderen Pflanze.',
+    benefits: [
+      'Bessere Blutfette und niedrigeres CRP zusätzlich zu Atorvastatin und Tocilizumab, LDL 1,73 gegenüber 2,42 mmol/L (doppelblinde RCT, 374 Patienten mit KHK und rheumatoider Arthritis, 500 mg Baicalin/Tag, 12 Wochen, Hang 2018) – ein Zentrum, nicht repliziert',
+      'Bessere Glukosetoleranz und weniger TNF-alpha bei Typ-2-Diabetes unter Metformin (Crossover-RCT, 3,52 g Extrakt/Tag, je 8 Wochen, Shin 2020) – klein',
+      'Wogonin bindet an die Benzodiazepin-Stelle des GABA-A-Rezeptors und wirkte bei Mäusen angstlösend ohne Sedierung (Hui 2002) – nur Tier- und Zelldaten',
+      'Weniger Gelenkschmerz nach 1 Woche mit einer Kombination aus Helmkraut und Acacia catechu, Vergleich mit Naproxen ohne Placebo (RCT, 79 Erwachsene, Arjmandi 2014)'
+    ],
+    risks: [
+      'Seltene Leberschäden: 4 Fälle unter dem Baicalin-Präparat Flavocoxid im US-Register (Chalasani 2012), 194 FDA-Meldungen und Rückruf 2018; in chinesischen Kliniken 0,095 % bestätigte Fälle, höheres Risiko über 10 g/Tag (Fu 2026)',
+      'Lunge: Hypersensitivitätspneumonitis unter Flavocoxid; in Japan Signal für interstitielle Lungenerkrankung unter Scutellaria-haltigen Kampo-Rezepturen, besonders ab 60 Jahren (Oura 2024)',
+      'Wechselwirkungen: Baicalin senkte Rosuvastatin-Spiegel je nach Genotyp um bis zu 47,0 % (Fan 2008); Scutellaria-Wurzel veränderte CYP2C9 (Losartan) und CYP2E1 (Yi 2009)',
+      'Kaum Wirksamkeitsdaten mit Helmkraut allein; die meisten Studien testen Kombinationen, eine Kognitionsstudie ohne Unterschied zu Placebo (Krieger 2025)',
+      'Keine Daten zu Schwangerschaft und Stillzeit; Verwechslung mit Amerikanischem Helmkraut möglich, das früher mit leberschädigendem Gamander verfälscht wurde'
+    ],
+    dosage: 'Studien verwendeten 500 mg Baicalin pro Tag über 12 Wochen (Blutfette), 3,52 g Wurzelextrakt pro Tag über 8 Wochen (Typ-2-Diabetes), 240 mg Helmkraut-Extrakt plus 51 mg Acacia-catechu-Extrakt pro Tag über 4 Wochen (Kognition, ohne Effekt) sowie das Kombinationspräparat Flavocoxid mit 250 mg zweimal täglich über 12 Wochen; Baicalein-Tabletten wurden in Phase-1-Studien mit Einzeldosen von 100 bis 800 mg geprüft. In chinesischen Kliniken stieg das Leberrisiko bei Tagesdosen über 10 g Droge, der Grenze des chinesischen Arzneibuchs. Amtliche Referenzwerte oder Höchstmengen von EFSA, BfR oder DGE gibt es nicht. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien täglich über 1 bis 12 Wochen eingenommen; Langzeitdaten fehlen. Auf den botanischen Namen Scutellaria baicalensis achten und bei Medikamenteneinnahme, besonders Statinen, vorher ärztlich abklären.',
+    synergies: ['l-theanin', 'quercetin'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Keine üblichen Lebensmittel; getrocknete Wurzel als Tee oder Abkochung in der chinesischen Medizin',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/22711078/'
+  },
+  {
+    id: 'biotin',
+    name: 'Biotin (Vitamin B7)',
+    altNames: 'Vitamin B7, Vitamin H, D-Biotin, Coenzym R',
+    category: 'Vitamin',
+    tags: ['haare', 'haut', 'energie', 'stoffwechsel', 'nerven'],
+    short: 'Unverzichtbares B-Vitamin für Haut, Haare und Nägel – bei echtem Mangel klar wirksam. Für mehr Haarwachstum ohne Mangel gibt es keinen kontrollierten Nachweis, und hohe Dosen können Laborwerte verfälschen.',
+    description: 'Biotin ist Cofaktor mehrerer Carboxylasen im Fett-, Aminosäure- und Zuckerstoffwechsel; ein Mangel zeigt sich zuerst an Haut, Haaren und Nägeln. Der angeborene Biotinidase-Mangel (1 : 25.000 Neugeborene) wird im Neugeborenen-Screening erfasst und mit Biotin vollständig behandelt. In einer Zürcher Praxis hatten 38 % von 541 Frauen mit Haarausfall Biotinwerte im Mangelbereich. Für Haarwachstum bei guter Versorgung zeigte die beste placebokontrollierte Studie keinen Unterschied; brüchige Nägel besserten sich in älteren unkontrollierten Serien (41 von 45 Patienten). Milligramm-Dosen stören viele Labortests, darunter Schilddrüsenwerte und Troponin – die FDA warnte 2017 und 2019.',
+    benefits: [
+      'Bei angeborenem oder erworbenem Mangel klar wirksam: Biotinidase-Mangel (1 : 25.000 Neugeborene) ist mit Biotin vollständig behandelbar (Leitlinie Neugeborenen-Screening 2020)',
+      'Haar und Nägel bessern sich bei zugrunde liegendem Mangel oder Erkrankung: 18 Fallberichte, alle mit Besserung (Übersicht Patel 2017) – bei Gesunden nicht belegt',
+      'Brüchige Nägel: 41 von 45 Patienten gebessert unter 2,5 mg täglich (Floersheim 1989), Nageldicke +25 % (n = 8, Colombo 1990) – unkontrollierte Serien',
+      'Leichter Mangel in der Schwangerschaft häufig und korrigierbar: 300 µg täglich über 14 Tage normalisierten einen Stoffwechselmarker (RCT, 26 Schwangere, Mock 2002)',
+      'Zugelassene EU-Gesundheitsangaben u. a. zu Energiestoffwechsel, Nervensystem, normaler Haut und normalen Haaren – nicht zu Nägeln'
+    ],
+    risks: [
+      'Verfälscht Labortests mit Biotin-Streptavidin-Prinzip: 10 mg täglich störten 9 von 23 solcher Tests (Li 2017, JAMA) – falsch hohe Schilddrüsenwerte, falsch niedriges Troponin',
+      'FDA-Warnungen 2017 und 2019; laut NIH ein Todesfall nach falsch niedrigem Troponin. EMA sieht ein Interferenzrisiko ab 150 µg pro Tag',
+      'Störung hielt nach 5 mg etwa 8 Stunden an, nach 10 mg 1 bis 2 Tage (Zhang 2020) – länger bei eingeschränkter Nierenfunktion',
+      'Antiepileptika senken den Biotinspiegel; rohes Eiklar (Avidin) bindet Biotin'
+    ],
+    dosage: 'Referenzwerte: D-A-CH und EFSA 40 µg pro Tag für Erwachsene, 45 µg in der Stillzeit; Zufuhr in Deutschland im Median 43 bis 48 µg (Männer) bzw. 39 bis 42 µg (Frauen). Kein UL und keine BfR-Höchstmenge, weil keine Toxizität bekannt ist; das BfR empfiehlt stattdessen einen Labortest-Hinweis auf jedem Präparat. Studien verwendeten 300 µg (Schwangerschaft), 2,5 mg (brüchige Nägel) und 5 bis 10 mg (Biotinidase-Mangel, ärztlich). Das sind Referenz- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Wasserlöslich, Einnahme unabhängig von Mahlzeiten möglich. Vor jeder Blutabnahme Biotin angeben – auch aus Multivitamin- und Haar-Haut-Nagel-Präparaten.',
+    synergies: ['vitamin-b-komplex'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Leber, Eier (ein gekochtes Ei etwa 10 µg), Fisch, Nüsse und Samen, Süßkartoffel',
+    link: 'https://www.bfr.bund.de/cm/343/hoechstmengenvorschlaege-fuer-biotin-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf'
+  },
+  {
+    id: 'gotu-kola',
+    name: 'Gotu Kola (Centella asiatica)',
+    altNames: 'Centella asiatica, Asiatischer Wassernabel, Hydrocotyle asiatica, Indian Pennywort, Mandukparni, TTFCA, Asiaticosid, Madecassosid',
+    category: 'Kräuter',
+    tags: ['haut', 'durchblutung', 'gehirn', 'kollagen'],
+    short: 'Asiatische Heilpflanze, deren Triterpene in 8 kleinen Studien die Mikrozirkulation bei Venenschwäche verbesserten und in Studien äußerlich wie innerlich Falten glätteten. Für Gedächtnis und Konzentration fand eine Meta-Analyse keinen Unterschied zu Placebo, und seltene Leberschäden sind beschrieben.',
+    description: 'Gotu Kola (Centella asiatica) ist ein Doldenblütler aus Süd- und Südostasien, der in Ayurveda und chinesischer Medizin genutzt und in Asien auch als Lebensmittel und Tee verwendet wird. Wirksam sollen die Triterpene Asiaticosid, Madecassosid, Asiatsäure und Madecassäure sein, die im Labor die Kollagenbildung anregen und Entzündungsbotenstoffe dämpfen; am Menschen sind Asiatsäure und Madecassäure im Blut nachweisbar. Eine systematische Übersicht fand 8 RCTs mit einer gereinigten Triterpenfraktion (TTFCA), die Durchblutungswerte und Knöchelschwellung bei Venenschwäche verbesserten, allerdings klein, alt und schlecht berichtet. Äußerlich verringerte Centella in 5 doppelblinden Studien Falten, und in einer RCT mit 112 Frauen sank auch nach 12 Wochen Einnahme die mittlere Faltentiefe um 11,1 Prozent. Für Kognition fand eine Meta-Analyse keinen Effekt, für den Blutzucker eine 6-Monats-RCT ebenfalls nicht. Das Kraut ist in der EU als Lebensmittel verkehrsfähig; die EMA hat die innere Anwendung wegen Bedenken zu Leber und Fruchtbarkeit nicht in ihre Monografie aufgenommen.',
+    benefits: [
+      'Bessere Mikrozirkulation und weniger Knöchelschwellung bei Venenschwäche (systematische Übersicht, 8 RCTs mit 17 bis 99 Teilnehmenden, 4 bis 8 Wochen, Chong 2013) – Surrogatmarker, alte Studien, 4 von 8 aus derselben Arbeitsgruppe',
+      'Weniger Falten an Augen und Lippen und mehr Hautfeuchtigkeit bei äußerlicher Anwendung (5 doppelblinde RCTs, 172 Frauen, Kongkaew 2020)',
+      'Mittlere Faltentiefe −11,1 % nach Einnahme, stärker als Placebo; Feuchtigkeit und Elastizität nur +2,7 % bzw. +0,7 % (doppelblinde RCT, 112 Frauen, 200 mg/Tag, 12 Wochen, Hur 2026)',
+      'Etwas mehr selbst bewertete Wachheit (SMD 0,71) und weniger Ärger, aber kein Effekt auf Gedächtnis oder Aufmerksamkeit (Meta-Analyse, 11 RCTs, Puttarak 2017)',
+      'Gedämpfter Schreckreflex nach einmalig 12 g als Hinweis auf angstlösende Wirkung (doppelblinde RCT, 40 Gesunde, Bradwejn 2000) – Einzelstudie'
+    ],
+    risks: [
+      'Seltene Leberentzündungen in Fallberichten, teils mit Rückfall bei Wiedereinnahme (Jorge 2005: 3 Frauen); LiverTox stuft das Risiko als selten ein – bei Lebererkrankung meiden, bei Gelbsucht oder dunklem Urin sofort absetzen',
+      'Die EMA hat die innere Anwendung wegen Bedenken zu Leber und Fruchtbarkeit (Rattendaten) nicht in ihre Monografie aufgenommen; bei Kinderwunsch, Schwangerschaft, Stillzeit und unter 18 Jahren meiden',
+      'Häufigste Nebenwirkungen Übelkeit und Magenbeschwerden (14,7 % in einer 6-Monats-RCT, Tawanwongsri 2025)',
+      'Allergie gegen Doldenblütler (Sellerie, Karotte u. a.) ist eine Gegenanzeige; Kontaktdermatitis bei äußerlicher Anwendung beschrieben; Vorsicht mit beruhigenden Mitteln',
+      'Kognitions- und Blutzucker-Versprechen in kontrollierten Studien nicht bestätigt; Zubereitungen (Kraut, Extrakt, Triterpenfraktion) kaum vergleichbar'
+    ],
+    dosage: 'Studien verwendeten bei Venenschwäche eine gereinigte Triterpenfraktion (TTFCA) mit Einzeldosen von 30 bis 120 mg, ein- bis dreimal täglich über 4 bis 8 Wochen, für die Haut 200 mg standardisierten Extrakt pro Tag über 12 Wochen, bei Typ-2-Diabetes 1.200 mg Extrakt pro Tag über 6 Monate und bei älteren Menschen 250 bis 750 mg Extrakt pro Tag über 2 Monate; die EMA nennt für die klinischen Studien insgesamt Tagesdosen von 40 mg bis 12 g. Die EU-Monografie gilt nur äußerlich: 0,6 g Kraut als Umschlag oder Pulver dreimal täglich (1,8 g pro Tag), höchstens 1 Woche. Amtliche Referenzwerte oder Höchstmengen von EFSA, BfR oder DGE gibt es nicht. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'In den Studien als Kapsel oder Tablette ein- bis dreimal täglich über 4 bis 52 Wochen. Kraut, Tee und standardisierte Extrakte sind nicht gleichwertig; auf den botanischen Namen Centella asiatica achten, da auch Bacopa als Brahmi verkauft wird.',
+    synergies: ['bacopa', 'ginkgo', 'kollagen'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Kraut von Centella asiatica, in Asien als Lebensmittel und als Aufguss (Tee) genutzt',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23533507/'
+  },
+  {
+    id: 'l-lysin',
+    name: 'L-Lysin',
+    altNames: 'Lysin, Lys, L-Lysinhydrochlorid, Lysin-HCl, essenzielle Aminosäure',
+    category: 'Aminosäure',
+    tags: ['immun', 'haut', 'stress', 'knochen'],
+    short: 'Essenzielle Aminosäure, die vor allem gegen wiederkehrenden Lippenherpes genommen wird. Kleine Studien fanden mit Mengen ab etwa 1,2 g pro Tag weniger Rückfälle, andere keinen Effekt; die Cochrane-Übersicht sieht keine Belege für Wirksamkeit.',
+    description: 'Lysin ist ein Eiweißbaustein, den der Körper nicht selbst bilden kann; Erwachsene brauchen etwa 30 mg pro Kilogramm und Tag, westliche Kost liefert 3 bis 7 g. Die Herpes-These beruht auf Zellkultur: Lysin wirkt dort als Gegenspieler von Arginin, das das Virus zum Vermehren braucht. In einer Multicenter-Studie mit 52 Auswertbaren brachten 3 g pro Tag über 6 Monate 2,4 Episoden weniger, mit 624 mg pro Tag zeigte sich in einer anderen Studie dagegen nichts, und eine Cochrane-Übersicht über 32 RCTs fand für Lysin keine Belege. Die Sicherheit ist mit 71 Studien gut untersucht, der vorläufige NOAEL liegt bei 6,0 g pro Tag. Die Herzthese von Rath und Pauling zu Lipoprotein(a) beruht auf einer Hypothese und 3 Fallberichten und wurde nie kontrolliert geprüft.',
+    benefits: [
+      'Wiederkehrender Lippenherpes: 3 g pro Tag über 6 Monate senkten die Zahl der Episoden im Mittel um 2,4, mit milderen Symptomen und kürzerer Abheilung (doppelblinde Multicenter-RCT, 52 Auswertbare, Griffith 1987)',
+      'Dosisabhängigkeit: 1.248 mg pro Tag senkte die Rückfallrate, 624 mg nicht (Crossover-RCT, 41 Patienten, McCune 1984); Rückfälle seltener bei Serum-Lysin über 165 nmol/ml (26 Teilnehmer, 12 Monate, Thein 1984)',
+      'Bei lysinarmer, getreidebasierter Ernährung: weniger Angst und Stressreaktion (RCT, Syrien, Smriga 2004) und weniger Durchfallepisoden bei Kindern mit 1 g pro Tag (RCT, 271 Teilnehmer, Ghosh 2010)',
+      'Steigerte in einer kleinen Kurzzeitstudie die Calciumaufnahme im Darm (45 osteoporotische Patienten, Civitelli 1992) – klinische Studien zum Knochenschutz fehlen'
+    ],
+    risks: [
+      'Herpes-Wirkung umstritten: negative RCTs (21 Patienten, 400 mg 3-mal täglich, DiGiovanna 1984) und keine Belege in der Cochrane-Übersicht (32 RCTs, Chi 2015)',
+      'Meist Magen-Darm-Beschwerden wie Übelkeit, Bauchschmerzen, Durchfall; in 71 Studien kein erhöhtes Risiko gegenüber Kontrollen (Hayamizu 2019)',
+      'Ein Fallbericht von Fanconi-Syndrom und Nierenentzündung mit chronischem Nierenversagen (Lo 1996); bei Nierenerkrankung nur nach ärztlicher Rücksprache',
+      'Übersichtsarbeit rät, Menschen mit Herz-Kreislauf- oder Gallenblasenerkrankung auf theoretische Risiken hinzuweisen (Mailoo 2017)',
+      'Pauling-Therapie gegen Arteriosklerose ohne kontrollierte Studien – kein Ersatz für eine kardiologische Behandlung'
+    ],
+    dosage: 'Herpes-Studien verwendeten 1.000 mg 3-mal täglich über 6 Monate (Griffith 1987), 1.248 mg pro Tag (wirksam) gegenüber 624 mg (unwirksam, McCune 1984) und 1.000 mg pro Tag über 12 Monate (Thein 1984); eine Übersicht hält Mengen unter 1 g pro Tag ohne argininarme Kost für unwirksam (Mailoo 2017). Der Bedarf Erwachsener liegt bei etwa 30 mg pro Kilogramm Körpergewicht und Tag, die übliche Zufuhr bei 3 bis 7 g. Als vorläufiger NOAEL für gesunde Erwachsene gelten 6,0 g zusätzliches Lysin pro Tag (Hayamizu 2020, Cynober 2020). Das BVL erlaubte 2013 Kapseln mit 800 mg L-Lysin pro Tag; eine gesetzliche Höchstmenge gibt es nicht. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'In den Herpes-Studien täglich und über Monate genommen, in der größten Studie auf 3 Gaben am Tag verteilt (Griffith 1987).',
+    synergies: ['kalzium'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Fleisch, Fisch, Eier, Milchprodukte; pflanzlich vor allem Hülsenfrüchte und Nüsse. Getreide, Reis und Mais sind lysinarm.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26252373/'
+  },
+  {
+    id: 'shiitake',
+    name: 'Shiitake',
+    altNames: 'Lentinula edodes, Lentinus edodes, Shii-take, Lentinan, LEM, Lentinex, AHCC',
+    category: 'Pilz',
+    tags: ['immun', 'cholesterin', 'darm', 'entzuendung'],
+    short: 'Weltweit zweithäufigster Speisepilz mit dem Beta-Glucan Lentinan, das in Japan als Krebsmedikament gespritzt wird. Shiitake-Verzehr verändert Immunmarker, Infektschutz und Cholesterinsenkung sind am Menschen aber nicht gesichert; roh kann er eine typische Hautreaktion auslösen.',
+    description: 'Shiitake (Lentinula edodes) enthält Beta-Glucane wie Lentinan, dazu Eritadenin, Ballaststoffe und Ergothionein. Gereinigtes Lentinan verlängerte als Injektion zusätzlich zur Chemotherapie bei fortgeschrittenem Magenkrebs das Überleben (650 Patienten, HR 0,80) und ist in Japan als Arzneimittel zugelassen; für Pilzpulver gilt das nicht. 52 junge Erwachsene, die 4 Wochen lang 5 oder 10 g getrocknete Shiitake aßen, hatten aktivere Abwehrzellen, mehr sIgA und ein niedrigeres CRP, die Studie hatte aber keine Kontrollgruppe. Beim Cholesterin ist die Lage widersprüchlich: 3,5 g Shiitake-Beta-Glucan pro Tag änderten die Blutfette nicht, Shiitake-Riegel senkten nur die Triglyceride um 10 %. Das bekannteste Risiko ist die Shiitake-Dermatitis, ein streifenförmiger Ausschlag vor allem nach rohen oder nicht durchgegarten Pilzen.',
+    benefits: [
+      'Aktivere Immunzellen, mehr sIgA, niedrigeres CRP nach 4 Wochen mit 5 oder 10 g getrockneten Shiitake täglich – 52 Gesunde, ohne Kontrollgruppe, Laborwerte statt Infekte (Dai 2015)',
+      'Lentinan als Injektion zusätzlich zur Chemotherapie: längeres Überleben bei fortgeschrittenem Magenkrebs, HR 0,80 (Meta-Analyse, 5 RCTs, 650 Patienten, Oba 2009) – Arzneimittel, nicht auf Pilzpulver übertragbar',
+      'Triglyceride -10 % nach 66 Tagen mit Shiitake-Riegeln (RCT, 68 Personen, Spim 2021); 3,5 g Shiitake-Beta-Glucan pro Tag ohne Wirkung auf Cholesterin (RCT, 52 Personen, Morales 2021)',
+      'Cholesterinsenkung durch Eritadenin – bisher nur im Tierversuch und in einer 7-Tage-Studie der 1970er-Jahre',
+      'AHCC (Myzelextrakt, überwiegend Alpha-Glucan): 14 von 22 Frauen HPV-negativ gegenüber 2 von 19 unter Placebo (Phase-II-RCT, 50 Frauen, Smith 2022) – eigenes Produkt, kein Shiitake-Pulver'
+    ],
+    risks: [
+      'Shiitake-Dermatitis: juckender, streifenförmiger Ausschlag, meist nach rohen oder nicht durchgegarten Pilzen; 59 Fälle an französischen Giftnotrufen 2014 bis 2019, alle folgenlos abgeheilt (Boels 2022); laut BfR auch nach gekochten Pilzen möglich',
+      'Eosinophilie und Magen-Darm-Beschwerden bei 5 von 10 Gesunden unter 4 g Shiitake-Pulver täglich über 10 Wochen (Levy 1998)',
+      'Große, glitschige Stücke können unverdaut einen Darmverschluss auslösen (2 Fälle, Ng 2020)',
+      'Wechselwirkungen mit Medikamenten nicht systematisch untersucht; Krebstherapie nur in Absprache mit dem Behandlungsteam ergänzen',
+      'Nach einer Shiitake-Dermatitis den Pilz künftig meiden'
+    ],
+    dosage: 'Studien verwendeten 5 oder 10 g getrocknete Shiitake pro Tag über 4 Wochen (Dai 2015) und 10,4 g einer Shiitake-Beta-Glucan-Mischung mit 3,5 g Beta-Glucan pro Tag über 8 Wochen (Morales 2021). Unter 4 g Shiitake-Pulver täglich über 10 Wochen trat bei 5 von 10 Gesunden eine Eosinophilie auf (Levy 1998). Für den zugelassenen Myzelextrakt Lentinex gilt in Nahrungsergänzungsmitteln höchstens 2,5 ml pro Tag (2011/73/EU); AHCC wurde mit 3 g pro Tag untersucht. Amtliche Höchstmengen von BfR, DGE oder EFSA für Shiitake-Pulver gibt es nicht.',
+    intake: 'Shiitake als Speisepilz immer gründlich durchgaren und nicht roh essen. Bei Pulver und Kapseln auf Angaben zu Fruchtkörper oder Myzel und zum Beta-Glucan-Gehalt achten.',
+    synergies: ['beta-glucan', 'loewenmaehne', 'zink'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Frische und getrocknete Shiitake-Pilze; Shiitake-Pulver',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/25866155/'
+  },
+  {
+    id: 'tremella',
+    name: 'Tremella',
+    altNames: 'Tremella fuciformis, Silberohr, Schneepilz, Snow Mushroom, Snow Fungus, White Jelly Mushroom, Tremella-Polysaccharide',
+    category: 'Pilz',
+    tags: ['haut', 'gedaechtnis', 'blutzucker', 'darm'],
+    short: 'Gallertartiger Speisepilz, vermarktet als pflanzliche Hyaluronsäure für die Haut. Eine kleine Studie zeigt bessere Gedächtniswerte, für die Haut gibt es bei Einnahme bisher nur Tierdaten.',
+    description: 'Tremella fuciformis (Silberohr, Schneepilz) wird in Asien seit Jahrhunderten gegessen; seine Polysaccharide aus Mannose, Xylose und Glucuronsäure binden viel Wasser. Äußerlich aufgetragen spendet Tremella-Extrakt Feuchtigkeit, für die Einnahme gibt es aber keine Humanstudie mit Hautendpunkten, nur Mausdaten über die Darmflora. Belastbarer ist ein RCT mit 75 Personen: 600 oder 1.200 mg pro Tag verbesserten über 8 Wochen subjektive Gedächtnisbeschwerden und Testleistungen stärker als Placebo. In einer industriefinanzierten Studie mit 56 Personen mit Prädiabetes sanken HbA1c und Taillenumfang leicht innerhalb der Tremella-Gruppe, ein Vergleich gegen Placebo wird nicht berichtet.',
+    benefits: [
+      'Weniger subjektive Gedächtnisbeschwerden, besseres Kurzzeitgedächtnis und bessere exekutive Funktionen mit 600 oder 1.200 mg pro Tag über 8 Wochen – RCT, 75 Personen, nicht wiederholt (Ban 2018)',
+      'HbA1c 6,03 auf 5,96 % und Taillenumfang 95,2 auf 93,46 cm nach 12 Wochen Tremella-Getränk – RCT, 56 Personen mit Prädiabetes, nur Vergleich innerhalb der Gruppe, industriefinanziert (Gitsomboon 2024)',
+      'Äußerlich feuchtigkeitsspendend: Handgel mit 10 % Tremella-Extrakt, 20 Freiwillige, Wirkung bis 180 Minuten (Lourith 2021)',
+      'Hautfeuchtigkeit und Hautbarriere bei Einnahme – bisher nur im Mausmodell, keine Humanstudie (Xie 2022; Wang 2026)'
+    ],
+    risks: [
+      'Keine systematischen Sicherheits- oder Langzeitdaten; in Studien über 8 bis 12 Wochen Nebenwirkungen nicht häufiger als Placebo',
+      'Frischer oder lange eingeweichter Pilz kann Burkholderia gladioli tragen (16,6 % frischer Proben in Shanghai); die giftbildende Variante erzeugt Bongkreksäure ohne Gegenmittel – nicht 24 Stunden oder länger einweichen',
+      'Wechselwirkungen am Menschen nicht untersucht; wegen Tierdaten zur Blutzuckersenkung bei Diabetesmedikamenten ärztlich abklären',
+      'Keine Daten zu Schwangerschaft und Stillzeit'
+    ],
+    dosage: 'Studien verwendeten 600 mg oder 1.200 mg Tremella pro Tag über 8 Wochen (Ban 2018) und ein tägliches Getränk mit 180 ml und 15 % Tremella über 12 Wochen (Gitsomboon 2024). Amtliche Referenzwerte oder Höchstmengen von BfR, DGE oder EFSA gibt es nicht.',
+    intake: 'Pulver oder Extrakt aus dem Fruchtkörper wählen, da Myzel in der EU nicht als Lebensmittel zugelassen ist. Getrockneten Pilz für die Küche nur kurz einweichen und frisch verarbeiten.',
+    synergies: ['hyaluronsaeure', 'kollagen'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Getrockneter oder frischer Tremella-Pilz (Silberohr)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42792150/'
+  },
+  {
+    id: 'vitamin-a',
+    name: 'Vitamin A (Retinol)',
+    altNames: 'Retinol, Retinylpalmitat, Retinylacetat, Retinylester, Provitamin A, Beta-Carotin',
+    category: 'Vitamin',
+    tags: ['augen', 'immun', 'haut', 'schwangerschaft'],
+    short: 'Unverzichtbar für Sehen, Haut, Schleimhäute und Abwehr – bei Mangel lebensrettend. In Deutschland meist ausreichend versorgt, mit sehr geringem Abstand zur Obergrenze: Hochdosiertes Retinol ist in der Schwangerschaft riskant, Beta-Carotin-Präparate bei Rauchern.',
+    description: 'Fertiges Vitamin A (Retinol) stammt aus tierischen Lebensmitteln, Provitamin A wie Beta-Carotin aus Pflanzen; der Körper wandelt Beta-Carotin nur bei Bedarf um. Bei Mangel senkt Vitamin A die Kindersterblichkeit um 12 % (Cochrane 2022, 19 Studien, 1.202.382 Kinder). In Deutschland liegt die übliche Zufuhr laut Nationaler Verzehrsstudie über den Empfehlungen, die Obergrenze für Retinol (3.000 µg pro Tag) wird von Teilen der Bevölkerung schon fast erreicht. Mehr als 10.000 IE Retinol aus Supplementen in der Frühschwangerschaft gingen mit 4,8-fach häufigeren Fehlbildungen aus der kranialen Neuralleiste einher. Beta-Carotin erhöhte bei Rauchern das Lungenkrebsrisiko (ATBC +18 %, CARET RR 1,28). Das BfR schlägt für NEM höchstens 0,2 mg Vitamin A oder gar keinen Zusatz vor.',
+    benefits: [
+      'Bei Mangel lebensrettend: Kindersterblichkeit −12 % (RR 0,88; Cochrane 2022, 19 Studien, 1.202.382 Kinder, hohe Vertrauenswürdigkeit), weniger Masern und Nachtblindheit',
+      'Masern bei Kindern unter zwei Jahren in Mangelgebieten: zwei Dosen senkten die Sterblichkeit (RR 0,18; Cochrane 2005)',
+      'Grundlage des Sehens im Dunkeln (Rhodopsin); Nachtblindheit ist das erste Mangelzeichen',
+      'Zugelassene EU-Gesundheitsangaben zu Sehkraft, Haut, Schleimhäuten, Immunsystem und Eisenstoffwechsel',
+      'Für gut versorgte Erwachsene kein belegter Zusatznutzen (Cochrane 2012: Vitamin A allein ohne Effekt auf die Sterblichkeit)'
+    ],
+    risks: [
+      'Schwangerschaft: mehr als 10.000 IE Retinol aus Supplementen täglich – Neuralleisten-Fehlbildungen 4,8-fach häufiger, etwa 1 von 57 Kindern betroffen (Rothman 1995); in der Schwangerschaft keine Leber (BfR, EFSA)',
+      'Beta-Carotin-Präparate bei Rauchern: Lungenkrebs +18 % (ATBC, 20 mg), RR 1,28 mit Retinol (CARET) – EFSA rät Rauchern ab',
+      'Geringer Sicherheitsabstand: Leber enthält im Mittel 17 bis 29 mg pro 100 g; UL 3.000 µg pro Tag (EFSA 2024)',
+      'Knochen: höheres Hüftbruchrisiko bei sehr hoher Retinolzufuhr in Beobachtungsdaten (RR 1,48), laut EFSA 2024 bis 3.000 µg nicht gestützt',
+      'Nicht mit Retinoid-Medikamenten (z. B. Isotretinoin) kombinieren; Orlistat senkt die Aufnahme'
+    ],
+    dosage: 'Referenzwerte: D-A-CH 0,85 mg (Männer unter 65) bzw. 0,70 mg (Frauen) Retinolaktivitätsäquivalente pro Tag, Schwangere 0,80 mg, Stillende 1,30 mg; EFSA 0,75 bzw. 0,65 mg. Umrechnung: 1 µg Retinol = 12 µg Beta-Carotin (D-A-CH) bzw. 6 µg (EFSA); 1 IE Retinol = 0,3 µg. Tolerierbare Obergrenze für fertiges Vitamin A: 3.000 µg pro Tag (EFSA 2024, auch für Schwangere). BfR-Vorschlag für NEM: kein Zusatz oder höchstens 0,2 mg Vitamin A pro Tagesdosis; Beta-Carotin höchstens 3,5 mg. Studien verwendeten 20 mg Beta-Carotin (ATBC) und 30 mg Beta-Carotin plus 25.000 IE Retinol (CARET) – mit Schaden bei Rauchern. Das sind Referenz- und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Fettlöslich, daher zu einer fetthaltigen Mahlzeit. In der Schwangerschaft und bei Kinderwunsch nur nach ärztlicher Rücksprache; Raucher meiden Beta-Carotin-Präparate.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Retinol: Leber (sehr viel), Fisch, Eier, Milchprodukte, angereicherte Margarine; Beta-Carotin: Süßkartoffel, Karotten, Spinat, Kürbis',
+    link: 'https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2024.8814'
   }
 ];
 
