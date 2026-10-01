@@ -61,6 +61,7 @@ Inhalte sind Information, kein medizinischer Rat.
 - [Vergleiche](https://biohackingkompakt.de/vergleich/): direkte X-gegen-Y-Seiten mit kurzer Antwort und Score-Tabelle
 - [Podcast-Folgen zum Nachlesen](https://biohackingkompakt.de/folge/): jede Folge mit Kernaussagen und Grenzen der Daten
 - [Glossar](https://biohackingkompakt.de/glossar/): Methodenbegriffe (primärer Endpunkt, Surrogatmarker, relative/absolute Wirkung)
+- [Studien-Datenbank](https://biohackingkompakt.de/studien/): alle zitierten Studien (Originaltitel, Jahr, Studientyp) und Behördenquellen mit Verweis auf die Themenseiten
 - [Vergaberegeln](https://biohackingkompakt.de/#score)
 - [Änderungsprotokoll](https://biohackingkompakt.de/#aenderungen)
 - [Sitemap](https://biohackingkompakt.de/sitemap.xml)
