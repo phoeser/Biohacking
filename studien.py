@@ -213,6 +213,12 @@ def bauen(q, cache):
         ss = sorted(seiten, key=lambda x: (x[1] != 'Thema', x[2].lower()))
         return ' · '.join('<a href="%s">%s</a>' % (e(p), e(t)) for p, _, t in ss)
 
+    def seiten_json(seiten):
+        ss = sorted(seiten, key=lambda x: (x[1] != 'Thema', x[2].lower()))
+        return [{'art': art, 'name': t, 'url': SITE + p,
+                 'thema_id': p[len('/thema/'):-5] if p.startswith('/thema/') else None} for p, art, t in ss]
+
+    json_studien = []
     zeilen, zaehl = [], collections.Counter()
     for schl, s in studien.items():
         m = s['meta']; typ = studientyp(m, s['url']); zaehl[typ] += 1
@@ -223,6 +229,9 @@ def bauen(q, cache):
         au = erstautor(m.get('autoren'))
         meta_teile = [x for x in (au, jour, jahr) if x]
         n = notiz(s['text']) if m.get('titel') else ''
+        json_studien.append({'titel': titel, 'autor': au or None, 'journal': jour or None, 'jahr': int(jahr) if jahr.isdigit() else None,
+                             'typ': typ, 'typ_name': TYPNAME[typ], 'url': s['url'], 'pmid': m.get('pmid') or None,
+                             'doi': m.get('doi') or None, 'notiz': n or None, 'seiten': seiten_json(s['seiten'])})
         zeilen.append((jahr or '0000', titel.lower(), (
             '<li data-typ="%s"><a class="st-t" href="%s" rel="noopener">%s</a>'
             '<span class="st-m"><span class="st-b st-%s">%s</span> %s</span>%s'
@@ -356,6 +365,13 @@ def bauen(q, cache):
 '''
     os.makedirs('studien', exist_ok=True)
     open('studien/index.html', 'w', encoding='utf-8').write(seite)
+    json_studien.sort(key=lambda x: (-(x['jahr'] or 0), x['titel'].lower()))
+    json_weitere = [{'herausgeber': name, 'text': x['text'], 'url': x['url'], 'seiten': seiten_json(x['seiten'])}
+                    for name in sorted(andere) for x in sorted(andere[name], key=lambda x: x['text'].lower())]
+    daten = {'stand': time.strftime('%Y-%m-%d'), 'quelle': SITE + '/studien/',
+             'hinweis': 'Studientyp aus PubMed/Europe PMC abgeleitet - Orientierung, keine Qualitaetsnote.',
+             'typen': {k: n for k, n in TYPEN}, 'studien': json_studien, 'weitere': json_weitere}
+    json.dump(daten, open('studien/studien.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     print('studien/index.html: %d Studien, %d weitere Quellen, %d KB' % (len(zeilen), n_andere, len(seite.encode()) // 1024))
     print('Typen:', {TYPNAME[k]: zaehl[k] for k, _ in TYPEN})
 
