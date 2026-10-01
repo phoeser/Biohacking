@@ -296,7 +296,7 @@ def bauen(q, cache):
 <body>
 <header class="kopf">
   <a class="marke" href="/">Biohacking&nbsp;Kompakt</a>
-  <nav><a href="/thema/">Alle Themen</a> <a href="/glossar/">Glossar</a> <a href="/vergleich/">Vergleiche</a> <a href="/#aenderungen">Änderungen</a></nav>
+  <nav><a href="/thema/">Alle Themen</a> <a href="/glossar/">Glossar</a> <a href="/studien/">Studien</a> <a href="/vergleich/">Vergleiche</a> <a href="/#aenderungen">Änderungen</a></nav>
 </header>
 <main>
   <article>
@@ -359,6 +359,41 @@ def bauen(q, cache):
     print('studien/index.html: %d Studien, %d weitere Quellen, %d KB' % (len(zeilen), n_andere, len(seite.encode()) // 1024))
     print('Typen:', {TYPNAME[k]: zaehl[k] for k, _ in TYPEN})
 
+# ---------------------------------------------------------------- Verlinken
+S_START, S_ENDE = '<!-- studien:start -->', '<!-- studien:end -->'
+NAV_LINK = '<a href="/studien/">Studien</a>'
+
+def verlinken():
+    """Menüpunkt „Studien" in allen deutschen Seiten mit Kopfzeile und je Quellen-Abschnitt
+    ein Link in die Studien-Datenbank, vorgefiltert auf das Thema. Idempotent."""
+    n_nav = n_q = 0
+    for p in sorted(glob.glob('thema/*.html') + glob.glob('tipp/*.html') + glob.glob('vergleich/*.html') +
+                    glob.glob('problem/*.html') + glob.glob('glossar/*.html') + glob.glob('folge/*.html') +
+                    ['methodik.html', 'ueber-uns.html']):
+        if not os.path.exists(p): continue
+        alt = s = open(p, encoding='utf-8').read()
+        m = re.search(r'<nav>(.*?)</nav>', s, re.S)
+        if m and NAV_LINK not in m.group(1):
+            nav = m.group(1)
+            if '<a href="/glossar/">Glossar</a>' in nav:
+                nav = nav.replace('<a href="/glossar/">Glossar</a>', '<a href="/glossar/">Glossar</a> ' + NAV_LINK, 1)
+            elif '<a href="/thema/">Alle Themen</a>' in nav:
+                nav = nav.replace('<a href="/thema/">Alle Themen</a>', '<a href="/thema/">Alle Themen</a> ' + NAV_LINK, 1)
+            else:
+                nav = nav.replace('</a>', '</a> ' + NAV_LINK, 1)
+            s = s[:m.start(1)] + nav + s[m.end(1):]
+            n_nav += 1
+        s = re.sub(r'\n?[ \t]*%s.*?%s' % (re.escape(S_START), re.escape(S_ENDE)), '', s, flags=re.S)
+        q = re.search(r'<h2>Quellen</h2>.*?(</ul>)', s, re.S)
+        if q and not p.startswith(('glossar/', 'folge/')) and not p.endswith('index.html'):
+            such = urllib.parse.quote(seitentitel(s))
+            block = ('\n      %s<p class="quellen-db" style="font-size:.9rem;margin-top:12px"><a href="/studien/?q=%s">Diese Studien mit Studientyp und Jahr in der Studien-Datenbank '
+                     'ansehen</a></p>%s' % (S_START, such, S_ENDE))
+            s = s[:q.end(1)] + block + s[q.end(1):]
+        if s != alt:
+            open(p, 'w', encoding='utf-8').write(s); n_q += 1
+    print('verlinken: Menüpunkt in %d Seiten neu, %d Seiten geändert' % (n_nav, n_q))
+
 if __name__ == '__main__':
     q = sammeln()
     cache = json.load(open(CACHE, encoding='utf-8')) if os.path.exists(CACHE) else {}
@@ -369,3 +404,4 @@ if __name__ == '__main__':
             if k in ('pmid', 'pmcid', 'doi') and f'{k}:{v}' not in cache and v not in grp[k]: grp[k].append(v)
         if grp: metadaten_liste(grp, cache)
     bauen(q, cache)
+    verlinken()
