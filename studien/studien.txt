@@ -869,10 +869,12 @@ Stand: 01.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Intrarosa (Prasteron), Zulassung. https://www.ema.europa.eu/en/medicines/human/EPAR/intrarosa
 
 ## Thema: Dihexa (https://biohackingkompakt.de/thema/dihexa.html)
-3 Studien: 2 Tier- oder Laborstudie, 1 Studienregister.
+4 Studien: 2 Tier- oder Laborstudie, 1 Sonstige Studie, 1 Studienregister.
 - Tier- oder Laborstudie, 2014: The procognitive and synaptogenic effects of angiotensin IV-derived peptides are dependent on activation of the hepatocyte growth factor/c-met system (Benoist CC et al., J Pharmacol Exp Ther). https://pubmed.ncbi.nlm.nih.gov/25187433/
 - Tier- oder Laborstudie, 2013: Evaluation of metabolically stabilized angiotensin IV analogs as procognitive/antidementia agents (McCoy AT et al., J Pharmacol Exp Ther). https://pubmed.ncbi.nlm.nih.gov/23055539/
 - Studienregister: ClinicalTrials.gov NCT04488419 (LIFT-AD, Phase 2/3 mit Fosgonimeton, Ergebnis September 2024). https://clinicaltrials.gov/study/NCT04488419
+- Sonstige Studie, 2025: Fosgonimeton in mild-to-moderate Alzheimer's disease (Porsteinsson AP et al., J Alzheimers Dis Rep). https://pubmed.ncbi.nlm.nih.gov/41393340/
+- Behörde/Recht (Weitere Quellen): Pressemitteilung der Washington State University, 11. Oktober 2012. https://archive.news.wsu.edu/news/2012/10/11/prospective-alzheimer%C2%92s-drug-builds-new-brain-cell-connections/
 
 ## Thema: DIM (Diindolylmethan) (https://biohackingkompakt.de/thema/dim.html)
 9 Studien: 5 Randomisierte Studie, 1 Beobachtungsstudie, 1 Übersichtsartikel, 1 Sonstige Studie, 1 Tier- oder Laborstudie.
