@@ -2002,7 +2002,7 @@ const EXPERIMENTAL = [
     class: 'Modifiziertes Wachstumshormon-Fragment (lipolytisches Peptidfragment)',
     emoji: '🔥',
     short: 'Ein Wachstumshormon-Fragment, das gezielt auf Fettabbau ausgelegt wurde – ohne die klassischen GH-Effekte auf Blutzucker und IGF-1, mit gutem Kurzzeit-Sicherheitsprofil.',
-    moa: 'AOD-9604 leitet sich vom C-terminalen Abschnitt (Aminosäuren 176-191) des humanen Wachstumshormons ab, ergänzt um ein N-terminales Tyrosin. Dieser Bereich vermittelt in präklinischen Modellen die lipolytischen Eigenschaften von GH, ohne dessen wachstumsfördernde oder blutzuckerwirksame Effekte auszulösen. Die postulierte Wirkung ist eine Stimulation der Fettverbrennung und Hemmung der Lipogenese, überwiegend belegt in Tier- und Zellmodellen. Anders als vollständiges GH soll AOD-9604 die IGF-1-Spiegel und die Insulinsensitivität nicht relevant beeinflussen. In humanen Phase-II-Studien zur Adipositas verfehlte es jedoch klinisch überzeugende Gewichtsverlust-Endpunkte.',
+    moa: 'AOD-9604 leitet sich vom C-terminalen Abschnitt (Aminosäuren 177-191) des humanen Wachstumshormons ab, ergänzt um ein N-terminales Tyrosin. Dieser Bereich vermittelt in präklinischen Modellen die lipolytischen Eigenschaften von GH, ohne dessen wachstumsfördernde oder blutzuckerwirksame Effekte auszulösen. Die postulierte Wirkung ist eine Stimulation der Fettverbrennung und Hemmung der Lipogenese, überwiegend belegt in Tier- und Zellmodellen. Anders als vollständiges GH soll AOD-9604 die IGF-1-Spiegel und die Insulinsensitivität nicht relevant beeinflussen. In humanen Phase-II-Studien zur Adipositas verfehlte es jedoch klinisch überzeugende Gewichtsverlust-Endpunkte.',
     benefits: [
       'In Tiermodellen Hinweise auf gesteigerte Lipolyse und gehemmte Fetteinlagerung.',
       'Soll GH-typische Effekte auf IGF-1 und Blutzucker weitgehend vermeiden.',
@@ -2321,9 +2321,11 @@ const EXPERIMENTAL = [
     ],
     status: 'Experimentelle Forschungssubstanz; nicht zugelassen. Schlüsselstudie zurückgezogen.',
     sources: [
+      { title: 'McCoy et al., J Pharmacol Exp Ther 2013 – Einführung von Dihexa als oral wirksames, hirngängiges Angiotensin-IV-Analogon, Rattenversuche (seit 2021 unter Expression of Concern)', url: 'https://pubmed.ncbi.nlm.nih.gov/23055539/' },
       { title: 'Benoist et al., J Pharmacol Exp Ther 2014 – HGF/c-Met als Wirkweg der Angiotensin-IV-Peptide (2025 zurückgezogen)', url: 'https://pubmed.ncbi.nlm.nih.gov/25187433/' },
       { title: 'J Pharmacol Exp Ther 2025 – Rückzugsnotiz zur Arbeit von 2014', url: 'https://pubmed.ncbi.nlm.nih.gov/40312093/' },
-      { title: 'Porsteinsson et al., J Alzheimers Dis Rep 2025 – Fosgonimeton bei leichter bis mittelschwerer Alzheimer-Krankheit (LIFT-AD)', url: 'https://pubmed.ncbi.nlm.nih.gov/41393340/' }
+      { title: 'Porsteinsson et al., J Alzheimers Dis Rep 2025 – Fosgonimeton bei leichter bis mittelschwerer Alzheimer-Krankheit (LIFT-AD)', url: 'https://pubmed.ncbi.nlm.nih.gov/41393340/' },
+      { title: 'Washington State University, Pressemitteilung vom 11.10.2012 – Herkunft der Angabe, Dihexa sei sieben Zehnerpotenzen stärker als BDNF', url: 'https://archive.news.wsu.edu/news/2012/10/11/prospective-alzheimer%C2%92s-drug-builds-new-brain-cell-connections/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }

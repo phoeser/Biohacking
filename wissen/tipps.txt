@@ -1,0 +1,500 @@
+# Biohacking-Tipps – Biohacking Kompakt
+
+Stand: 01.10.2026. 62 Einträge. Alltagsstrategien jenseits von Supplements. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+
+
+## Box Breathing (4-4-4-4)
+Bereich: Atmung
+Warum: Dämpft akut Herzfrequenz und Zustandsangst vor Stresssituationen – die Herzratenvariabilität bewegte sich dabei nicht. Die Navy-SEAL-Herkunft ist unbelegt.
+Wie: 4 Sek. einatmen – 4 Sek. halten – 4 Sek. ausatmen – 4 Sek. halten. 3–5 Minuten. Ideal vor anspruchsvollen Situationen.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 6/10).
+Begründung: Dass langsames Atmen um sechs Atemzüge pro Minute die Herzratenvariabilität und den Vagustonus akut erhöht, ist gut gemessen – Box Breathing mit 4-4-4-4 liegt allerdings nicht in diesem Resonanzbereich, und die einzige HRV-Messung dazu fand keine Veränderung. Über die akute Wirkung hinaus – Angst, Leistung, Stressresistenz – sind die Studien klein und kurz.
+Seite: https://biohackingkompakt.de/tipp/box-breathing.html
+
+## Buteyko-Atmung für Allergiker & Asthmatiker
+Bereich: Atmung
+Warum: Bei Asthma zeigen Studien weniger Symptome und weniger Bedarfsmedikation – die Lungenfunktion selbst ändert sich nicht.
+Wie: Normal durch die Nase ein, leicht aus, kurze Pause – die Studien geben zweimal täglich über Monate an, eine Pausendauer in Sekunden nennen sie nicht. Belegt ist die Wirkung bei Asthma; zu Heuschnupfen und Panikattacken fanden sich keine kontrollierten Studien. Nicht bei akuter Atemnot.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 7/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 4/10).
+Begründung: Kontrollierte Studien bei Asthma zeigen weniger Symptome und weniger Bedarfsmedikation – die objektive Lungenfunktion ändert sich aber nicht. Der CO2-Anstieg durch Atemumschulung ist messbar und hat einen eigenen Anteil am Effekt; die weitergehende Buteyko-Annahme, chronische Hyperventilation sei die Ursache von Asthma, ist dagegen nicht belegt.
+Seite: https://biohackingkompakt.de/tipp/atmung-buteyko.html
+
+## Luftqualität und Feinstaub
+Bereich: Atmung
+Warum: Feinstaub führt die Global-Burden-of-Disease-Analyse 2021 mit 8 Prozent aller verlorenen gesunden Lebensjahre an, vor Bluthochdruck und Rauchen, und eine harmlose Schwelle gibt es nicht. Die stärkste Quelle in der eigenen Wohnung ist der Herd. HEPA-Filter senken Feinstaub und Blutdruck, harte Endpunkte hat niemand gemessen.
+Wie: Fang bei der Quelle an: beim Braten den Dunstabzug einschalten und das Fenster öffnen, denn eine Seattler Messstudie fand beim standardisierten Anbraten Spitzen von 200 bis 1400 Mikrogramm pro Kubikmeter in Küche und Wohnzimmer, die je nach Lüftung 1 bis 10 Stunden brauchen, bis sie abklingen. Bei einem Gasherd kommt Stickstoffdioxid dazu, das eine kleine Küche ohne Abzug binnen Minuten über den amerikanischen Stundengrenzwert bringt. Ein HEPA-Gerät dimensionierst du über die Reinluftleistung CADR: Die amerikanische Umweltbehörde rechnet mit rund 110 Kubikmetern pro Stunde je 9 Quadratmeter, ein Schlafzimmer mit 20 Quadratmetern braucht also etwa 240, was Geräte ab rund 150 Euro oft nur auf der lautesten Stufe schaffen. In den Studien liefen die Geräte durchgehend im Schlaf- und Wohnraum, in Detroit schnitt ein billigerer HEPA-Typ ähnlich ab wie das teurere Gerät, und in Seattle wirkte das Gerät am besten nahe an der Quelle, also in der Küche. Belegt ist damit die Konzentrationssenkung, in Shanghai um 57 Prozent, in Detroit von 15 auf 7 Mikrogramm, und ein niedrigerer systolischer Blutdruck von etwa 2 bis 4 Millimetern Quecksilbersäule über mehrere randomisierte Studien und zwei Metaanalysen. Nicht belegt ist, dass das Herzinfarkte oder Todesfälle verhindert; die größte Studie mit 540 Schwangeren in Ulan-Bator senkte den Feinstaub um 29 Prozent, ohne das Geburtsgewicht zu verändern. Finger weg von Geräten, die Ozon erzeugen, also Ionisatoren, Plasma und manchen UV-Geräten. Gegen Kohlendioxid hilft kein Filter, sondern nur das Fenster.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 7/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 5/10).
+Begründung: Evidenz 6: Für den Risikofaktor gibt es Kohortendaten an knapp 61 Millionen Menschen über 13 Jahre mit 7,3 Prozent mehr Sterblichkeit je 10 Mikrogramm, für die Intervention mehrere randomisierte Studien und zwei Metaanalysen, die aber klein sind, über Tage laufen und nur Blutdruck und Entzündungsmarker messen. Mechanismus 8: Die Kette ist am Menschen messbar, von der Partikelgröße unter 2,5 Mikrometern über den Übertritt ins Blut bis zu 68 Prozent der Todesfälle durch Herzinfarkt und Schlaganfall, und der Filter senkt Konzentration, Entzündungsmarker und Blutdruck in derselben Studie. Sicherheit 7: Filtergeräte wurden in kontrollierten Studien über Zeiträume von 2 Tagen bis zu einer ganzen Schwangerschaft eingesetzt, ohne relevante Schäden; die Ausnahme sind ozonbildende Geräte, von denen die Umweltbehörde abrät. Hype 5: Die Konzentrationssenkung ist unstrittig, daraus wird aber Gesundheitsschutz gemacht, und die zweite Metaanalyse stuft die Evidenz ausdrücklich als sehr unsicher ein und warnt vor Werbeaussagen. Anwendung 9: HEPA-Filtration, Dunstabzug und Lüften sind seit Jahrzehnten in Millionen Haushalten verbreitet und über genormte Kennzahlen wie CADR sowie über EU-Grenzwerte reguliert.
+Seite: https://biohackingkompakt.de/tipp/luftqualitaet.html
+
+## Nur durch die Nase atmen
+Bereich: Atmung
+Warum: Die Nase befeuchtet, filtert und liefert Stickstoffmonoxid – das ist gesichert. Die Versprechen zu Schlaf und Ausdauer sind es nicht.
+Wie: Tagsüber bewusst nur durch die Nase atmen. Mund-Tape für die Nacht ist populär, aber schlecht untersucht – bei Schnarchen mit Atemaussetzern zuerst eine Schlafapnoe abklären lassen, sonst wird ein Warnsignal zugeklebt.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 6/10).
+Begründung: Dass die Nasennebenhöhlen Stickstoffmonoxid abgeben und die Nase die Atemluft anfeuchtet und filtert, ist gesichert. Die weitergehenden Versprechen – besserer Schlaf, mehr Ausdauer – stützen sich auf kleine Studien und Selbstberichte.
+Seite: https://biohackingkompakt.de/tipp/nasenatmung.html
+
+## Wim-Hof-Atmung
+Bereich: Atmung
+Warum: Hyperventilation plus Kälte. Die Immunwirkung stammt aus einer Studie mit zwölf Teilnehmern und einer Nachfolgestudie mit 48 – alle jung, männlich, gesund. Nie im oder am Wasser üben.
+Wie: 30–40 tiefe Atemzüge, dann ausatmen und die Atempause so lange wie möglich halten – dieser Schritt drückt die Sättigung auf rund 60 %. 3 Runden, morgens auf leerem Magen, immer im Liegen oder Sitzen. Nicht im oder am Wasser, nicht in der Badewanne, nicht im Stehen, nicht beim Autofahren!
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 6/10, Sicherheitsdaten 4/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 3/10).
+Begründung: Die Endotoxin-Studie aus Nijmegen mit zwölf trainierten Teilnehmern wurde von derselben Gruppe mit 48 gesunden Männern reproduziert – darüber hinaus gibt es kaum etwas, und alle Teilnehmer waren jung, männlich und gesund. Die Sicherheits-Datenlage ist der niedrigste Wert dieser Liste: Hyperventilation mit anschliessendem Luftanhalten hat im Wasser wiederholt zu Todesfällen geführt, und an Land fällt die Sättigung auf rund 60 %.
+Seite: https://biohackingkompakt.de/tipp/wim-hof-atmung.html
+
+## 10-min-Gehen nach Mahlzeiten
+Bereich: Bewegung
+Warum: Flacht die Blutzuckerspitze nach dem Essen messbar ab – am deutlichsten nach dem Abendessen.
+Wie: Innerhalb der ersten Stunde nach dem Essen 10–15 min locker spazieren – eine Studie spricht sogar für 30 Minuten Wartezeit. Am deutlichsten wirkt es nach dem Abendessen.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 10/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 7/10).
+Begründung: Inzwischen zeigen mindestens vier Meta-Analysen, dass kurze Spaziergänge nach dem Essen die Blutzuckerspitze abflachen – der Mechanismus über die muskuläre Glukoseaufnahme ist am Menschen belegt. Die verbreitete Prozentzahl steht allerdings in keiner dieser Arbeiten, und die neueste stuft die Evidenzsicherheit für alle primären Endpunkte als niedrig ein.
+Seite: https://biohackingkompakt.de/tipp/bewegung-post-meal.html
+
+## 6.000 bis 10.000 Schritte am Tag
+Bereich: Bewegung
+Warum: Der Zusammenhang mit der Sterblichkeit ist in großen Kohorten klar – der Großteil des Gewinns liegt je nach Alter aber schon zwischen 6.000 und 10.000 Schritten.
+Wie: Treppen statt Aufzug, 10-min-Spaziergang nach jedem Essen, Stehschreibtisch als Zwischenschritt – Gehen wirkt deutlich besser als Stehen. Für den Blutzucker zählen kurze, über den Tag verteilte Einheiten mehr als eine einzige; für harte Endpunkte gibt es diesen Vergleich nicht.
+BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 8/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 10/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 5/10).
+Begründung: Grosse Kohorten mit Schrittzählern zeigen einen klaren Zusammenhang zwischen Schrittzahl und Sterblichkeit – mit dem Grossteil des Gewinns je nach Alter schon zwischen 6.000 und 10.000 Schritten. Für die 10.000 als Ziel gibt es wenig Evidenz, wie die Kohortenarbeiten selbst festhalten; für Demenz liegt das Optimum allerdings bei fast genau 10.000 Schritten.
+Seite: https://biohackingkompakt.de/tipp/bewegung-alltag.html
+
+## HIIT 1–2× pro Woche
+Bereich: Bewegung
+Warum: Hochintensives Intervalltraining steigert VO2max stark.
+Wie: 8× 20 Sekunden maximal, 10 Sekunden Pause (Tabata) – die Originalintensität von 170 % VO2max ist im Alltag nicht machbar. Oder 4× 4 min bei 90 % der gemessenen Maximalherzfrequenz, 3 min Pause. Nach Aufwärmung. Zwei Einheiten pro Woche sind der beste Kompromiss aus Gewinn und Durchhaltbarkeit.
+BK-Score: Gut belegt (Studien am Menschen 8/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 8/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 7/10).
+Begründung: Die Steigerung der VO2max durch Intervalltraining ist in vielen randomisierten Studien und Meta-Analysen gemessen. Abzug bei der Sicherheit für die Datenlage bei Herzvorerkrankten und Untrainierten, die in den Studien meist ausgeschlossen waren.
+Seite: https://biohackingkompakt.de/tipp/hiit.html
+
+## Krafttraining 3× pro Woche
+Bereich: Bewegung
+Warum: Die am besten belegte Einzelmaßnahme dieser Datenbank: Muskelmasse, Knochendichte, Stoffwechsel, Sterblichkeit.
+Wie: 3× pro Woche Ganzkörper oder Split. Schwere zusammengesetzte Übungen: Kniebeuge, Bankdrücken, Rudern, Klimmzüge. Progressive Überlast ist der Schlüssel. Bei vorhandenen Wirbelkörperfrakturen sind laut DVO-S3-Leitlinie Sprünge und intensitätsbetontes axiales Krafttraining mit hohen Lasten kontraindiziert; bei Osteoporose ohne Fraktur sollen hochintensive Sprungformen wie Tiefsprünge entfallen. Flexion der Wirbelsäule unter Last vermeiden und nicht bis zum Muskelversagen trainieren.
+BK-Score: Gut belegt (Studien am Menschen 9/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 8/10).
+Begründung: Krafttraining ist die am besten belegte Einzelmassnahme dieser gesamten Datenbank: Meta-Analysen zeigen Effekte auf Muskelmasse, Knochendichte und Stoffwechsel. Bei der Sterblichkeit ist es ein Zusammenhang aus Kohortenstudien, keine gemessene Wirkung, und die Dosis-Wirkungs-Kurve ist J-förmig mit einem Optimum bei 30 bis 60 Minuten pro Woche. Der Abzug betrifft die Formulierung „nichts ist so anti-aging“ – ein Vergleich, den keine Studie so angestellt hat.
+Seite: https://biohackingkompakt.de/tipp/nef-training.html
+
+## Muskelerhalt unter GLP-1
+Bereich: Bewegung
+Warum: Unter Abnehmspritzen geht neben Fett auch fettfreie Masse verloren, in STEP 1 knapp 40 Prozent des Gewichtsverlusts (DXA-Teilstudie, 140 Teilnehmende), über mehr als 40 DXA-Berichte im Mittel 29 Prozent. Ein guter Teil davon ist Wasser und Glykogen, nicht Muskel. Der belegteste Gegenzug bleibt Krafttraining mit ausreichend Eiweiß.
+Wie: Zieh während der gesamten Gewichtsabnahme zwei Dinge parallel hoch: Krafttraining für die großen Muskelgruppen und eine Eiweißzufuhr, die nicht mit der Kalorienmenge mitsinkt. Diese Kombination hat mehr Untersuchungen hinter sich als beide Medikamentenkandidaten zusammen und wirkt unabhängig davon, wodurch das Gewicht sinkt. Miss dazu Funktion statt nur Gewebe, also Treppensteigen und Aufstehen aus dem Stuhl: In QUALITY mit 168 Menschen ab 60 Jahren über 16 Wochen hatten unter Enobosarm 19,4 statt 42,6 Prozent der Teilnehmer einen Abfall der Treppenleistung um mindestens 10 Prozent, also rund 54 Prozent weniger; das stammt aus einer Firmenmitteilung und ist bis September 2026 nicht begutachtet veröffentlicht. Belegt ist außerdem, dass der gemessene Verlust an fettfreier Masse nah an dem liegt, was jede Diät kostet, etwa 25 Prozent nach alter Faustregel gegenüber 38 Prozent in STEP 1 und etwa 25 Prozent unter Tirzepatid, und dass DXA dabei Wasser, Glykogen und Organgewebe mitzählt. Zwei Meta-Analysen von 2026 sind uneins, ob Inkretine mehr fettfreie Masse kosten als eine Diät (Eisa: kein signifikanter Unterschied, Lebensstil 26 Prozent; Busk-Cirera: 33 gegenüber 22 Prozent bei Diät ohne Bewegung), einig sind sie beim Training: 17,5 Prozent mit Krafttraining beziehungsweise 7,7 Prozent bei Diät mit Bewegung. In einer nachträglichen Kernspin-Auswertung unter Tirzepatid bei Typ-2-Diabetes (SURPASS-3 MRI, von Lilly finanziert) sank das Oberschenkelmuskelvolumen im für den Gewichtsverlust erwarteten Maß, die Fetteinlagerung im Muskel stärker als erwartet. Nicht belegt ist, dass die Medikamente gegen den Verlust am Ende Kraft oder Selbstständigkeit erhalten: Bimagrumab senkte in BELIEVE den Verlust fettfreier Masse von 6,9 auf 2,3 Prozent, gemessen wurde aber ebenfalls mit DXA, und unter Bimagrumab allein brachen 14 bis 21 Prozent der Teilnehmer die Behandlung ab, in den Kombinationsgruppen 5,5 bis 12,5 Prozent, unter Semaglutid allein 3,6 bis 8,9 Prozent und unter Placebo 3,6 Prozent. Enobosarm ist Ostarin (MK-2866), ein SARM, der auf der Dopingliste steht und nicht zugelassen ist; es gibt Fallberichte über Leberschäden, und Graumarktware ist nicht das Studienpräparat. Die Nachfolgestudie PLATEAU (239 Eingeschlossene ab 65 Jahren, 68 Wochen) hat die Gewichtsänderung als Hauptziel, Muskel und Treppenleistung sind Nebenziele; eine Zwischenauswertung kündigt Veru für das erste Quartal 2027 an.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 6/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 4/10).
+Begründung: Evidenz 5: Es gibt mehrere randomisierte Studien mit vierstelligen (STEP 1, 1961 Teilnehmer) bis dreistelligen Teilnehmerzahlen (BELIEVE, 507; QUALITY, 168), aber fast alle Endpunkte sind DXA-Surrogate, und die Funktionsdaten sind dünn: In BELIEVE besserte sich die Griffkraft nur in einer von vier Kombinationen, und die Treppenmessung aus QUALITY stammt aus einer Firmenmitteilung statt aus einer begutachteten Veröffentlichung. Mechanismus 7: Der Myostatin-Weg ist am Menschen bestätigt, Bimagrumab allein steigerte die fettfreie Masse über 48 Wochen um 1,0 bis 1,1 Prozent, und auch der Verwässerungseffekt über Glykogen, das etwa 3 Gramm Wasser je Gramm bindet, ist am Menschen messbar. Sicherheit 6: Für Bimagrumab liegen kontrollierte Daten über 48 Wochen vor, mit Abbruchraten von 14 bis 21 Prozent unter Bimagrumab allein und häufig Muskelkrämpfen (57 bis 64 Prozent) und Akne (43 bis 55 Prozent) in den Kombinationsgruppen, für Enobosarm nur 16 Wochen ohne veröffentlichte Vollpublikation. Hype 4: Die Leitzahl vom Drittel Muskelverlust misst Nicht-Fett statt Muskel und wird trotzdem als Muskelverlust verkauft, während die Primärliteratur die DXA-Grenze selbst benennt. Anwendung 7: Krafttraining und Eiweiß werden seit Jahrzehnten breit angewendet, die medikamentösen Gegenmittel dagegen bislang nur in Studien.
+Seite: https://biohackingkompakt.de/tipp/glp1-muskel.html
+
+## Stehschreibtisch – gegen das Sitzen, nicht fürs Stehen
+Bereich: Bewegung
+Warum: In der größten Messung an 83.013 Erwachsenen hatte Stehen keinen Zusammenhang mit schweren Herz-Kreislauf-Ereignissen. Der Schaden des langen Sitzens ging fast vollständig auf das Sitzen zurück.
+Wie: Nutze den Tisch, um Sitzzeit zu ersetzen, nicht um Stehzeit zu sammeln. Oberhalb von etwa zwei Stunden Stehen am Tag stieg in derselben Kohorte das Risiko für Venenleiden – und zwei Stunden sind dort bereits der Durchschnitt. Der beste Effekt liegt im Wechsel und im Gehen dazwischen.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 9/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 6/10).
+Begründung: Die Datenlage ist gut, das Ergebnis aber ein anderes als der Verkaufsprospekt: In der bisher größten Arbeit mit Handgelenk-Messgerät (Ahmadi 2024, 83.013 Erwachsene, im Mittel 6,9 Jahre Nachbeobachtung) fand sich über den gesamten gemessenen Bereich kein Zusammenhang zwischen Stehen und schweren Herz-Kreislauf-Ereignissen. Was sich zeigte, war der Schaden des Sitzens: oberhalb von zehn Stunden am Tag stieg das Risiko je weiterer Stunde um 15 Prozent. Für das Stehen selbst gab es einen anderen Befund – 2.042 orthostatische Ereignisse, und oberhalb von rund zwei Stunden Stehen am Tag stieg das Risiko für Venenleiden. Der Hype-Abzug betrifft genau diese Verschiebung: Der Tisch wirkt, indem er Sitzzeit ersetzt, nicht indem er Stehzeit schafft.
+Seite: https://biohackingkompakt.de/#tipps/stehschreibtisch
+
+## Zone-2-Cardio 2–4× pro Woche
+Bereich: Bewegung
+Warum: Lockeres Ausdauertraining baut Mitochondrien auf. Dass ausgerechnet Zone 2 dafür optimal ist, ist eine populäre Zuspitzung.
+Wie: 30–60 min in der Intensität, in der ein Gespräch noch möglich ist. Radfahren, Gehen mit Anstieg, Rudern. Die verbreitete Faustformel „60–70 % der maximalen Herzfrequenz" trifft die gemeinte Intensität bei vielen Menschen nicht – die gängigen Zone-2-Marker streuen um 6 bis 29 %. Wer es genau braucht, kommt um einen Laktat- oder Spiroergometrie-Test nicht herum.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 7/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
+Begründung: Dass Ausdauertraining die Mitochondriendichte erhöht, geht auf Holloszy 1967 zurück – eine Rattenstudie; die Humandaten sind jünger, und die aktuellste Meta-Analyse stuft ihre Sicherheit selbst als sehr niedrig bis niedrig ein. Dass ausgerechnet die Zone-2-Intensität das Maximum darstellt, ist eine populäre Zuspitzung – im direkten Vergleich schneidet hochintensives Training bei der Mitochondrien-Biogenese oft ebenso gut ab.
+Seite: https://biohackingkompakt.de/tipp/zone-2.html
+
+## Zone-2-Cardio 3×/Woche
+Bereich: Bewegung
+Warum: Intensität, bei der du noch reden kannst – baut Mitochondriendichte auf. Dass Zone 2 dafür die beste ist, ist nicht belegt.
+Wie: 3× pro Woche 45–60 min in der Intensität, in der du noch sprechen kannst – Radfahren, zügig Gehen, Ruderergometer. Die Faustformeln (60–70 % Maximalpuls, „180 minus Alter") sind grobe Näherungen und treffen bei vielen Menschen daneben; exakt geht es nur über einen Laktat- oder Spiroergometrie-Test.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 7/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
+Begründung: Dass Ausdauertraining die Mitochondriendichte erhöht, stammt im Kern aus Rattenstudien; die Humandaten umfassen 14 Studien mit 184 Teilnehmern bei sehr niedriger bis niedriger Evidenzsicherheit. Dass die Zone-2-Intensität dafür die beste ist, ist eine populäre Zuspitzung und im direkten Vergleich mit intensiverem Training nicht bestätigt.
+Seite: https://biohackingkompakt.de/tipp/zone2-mito.html
+
+## 30 g Protein zum Frühstück
+Bereich: Ernährung
+Warum: Stabilisiert Blutzucker, unterstützt Muskelaufbau, sättigt lange.
+Wie: 30–40 g hochwertiges Protein (Eier, Fisch, Fleisch, Whey) zum Frühstück; die oft genannte Stunde nach dem Aufwachen ist eine Konvention, kein Studienprotokoll. Sättigt in den Stunden bis zur nächsten Mahlzeit messbar stärker.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 7/10).
+Begründung: Sättigungswirkung und Muskelproteinsynthese sind am Menschen gut untersucht; die Grössenordnung von 25–35 g pro Mahlzeit ist eine Zusammenfassung mehrerer Dosis-Wirkungs-Studien, keine unmittelbar gemessene Zahl. Dass ausgerechnet das Frühstück entscheidend wäre, ist dagegen nicht belegt.
+Seite: https://biohackingkompakt.de/tipp/proteine-morgen.html
+
+## Apfelessig vor Mahlzeiten
+Bereich: Ernährung
+Warum: Kleine Studien fanden eine flachere Blutzuckerspitze nach einer Testmahlzeit. Der Zahnschmelz leidet dagegen zuverlässig.
+Wie: 1 EL flüssigen Apfelessig in einem großen Glas Wasser zur Mahlzeit – in den Studien wurde er direkt zum Essen gegeben, und gewirkt hat er nur bei hoher glykämischer Last. Mit Strohhalm trinken (Zahnschmelz schützen), Tabletten meiden.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 3/10).
+Begründung: Die Prozentzahl stammt aus kleinen Crossover-Versuchen mit oft weniger als zwanzig Teilnehmern und einer definierten Testmahlzeit. Für den Alltag lässt sich daraus keine verlässliche Grösse ableiten; der Zahnschmelz leidet dagegen messbar.
+Seite: https://biohackingkompakt.de/tipp/apfelessig.html
+
+## Ballaststoffe – der am besten belegte Bestandteil des Essens
+Bereich: Ernährung
+Warum: 185 Beobachtungsstudien mit zusammen 135 Millionen Personenjahren: 15 bis 30 Prozent niedrigere Gesamt- und Herz-Kreislauf-Sterblichkeit in der Gruppe mit der höchsten Aufnahme.
+Wie: Ziel sind 25 bis 29 Gramm am Tag – dort lag in der Auswertung die größte Risikominderung. Gemessen wurde das an Lebensmitteln, nicht an Pulver: Vollkorn, Hülsenfrüchte, Gemüse, Obst, Nüsse. Wer deutlich darunter liegt, hat den größten Hebel; die Kurven deuten an, dass mehr noch etwas bringt, sicher ist das aber nicht.
+BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 10/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 2/10).
+Begründung: So gut belegt, wie Ernährungsforschung es hergibt: Die Auswertung von Reynolds (Lancet 2019) fasst 185 prospektive Kohortenstudien mit zusammen 135 Millionen Personenjahren und 58 randomisierte Studien mit 4.635 Erwachsenen zusammen. Höchste gegen niedrigste Aufnahme bedeutete 15 bis 30 Prozent niedrigere Gesamt- und Herz-Kreislauf-Sterblichkeit und 16 bis 24 Prozent weniger koronare Herzkrankheit, Schlaganfall, Typ-2-Diabetes und Darmkrebs; absolut 13 Todesfälle weniger je tausend Menschen. Die größte Risikominderung lag bei 25 bis 29 Gramm am Tag. Zwei Einschränkungen bleiben: Der Hauptteil ist Beobachtung, die randomisierten Studien reichen nur bis zu Risikofaktoren – und gemessen wurde an Lebensmitteln, nicht an Pulver.
+Seite: https://biohackingkompakt.de/#tipps/ballaststoffe
+
+## Gefiltertes Wasser mit Mineralien
+Bereich: Ernährung
+Warum: Deutsches Leitungswasser ist streng überwacht. Ein Zusatznutzen von Filtern ist nicht belegt – schlecht gewartete Filter können schaden.
+Wie: Leitungswasser trinken – das Umweltbundesamt rät von Filtern in der Hausinstallation ab, und Himalaya-Salz ist fast nur Kochsalz, ersetzt also kein Calcium und Magnesium. Rund 1,5 Liter über Getränke reichen (DGE); bei Bleirohren hilft nur der Rohraustausch.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung offen, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
+Begründung: Deutsches Leitungswasser ist eines der am strengsten überwachten Lebensmittel; ein gesundheitlicher Nutzen zusätzlicher Filterung ist in Studien nicht gezeigt. Umgekehrt können schlecht gewartete Filter die Keimzahl erhöhen.
+Seite: https://biohackingkompakt.de/tipp/wasser-qualitaet.html
+
+## Intervallfasten (16:8)
+Bereich: Ernährung
+Warum: Verbessert in Studien Gewicht und Insulinsensitivität – etwa so gut wie eine gleich große Kalorienreduktion. Die Autophagie ist Theorie.
+Wie: 16 Stunden fasten, 8 Stunden Essen – lege das Fenster besser früh (z. B. 8–16 Uhr), weil die Glukosetoleranz abends schlechter ist. Während Fasten: Wasser, Kaffee, Tee, Elektrolyte. Der verbreitete Rat, Frauen sollten mit 14:10 einsteigen, ist in keiner Studie geprüft.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 8/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
+Begründung: Es gibt zahlreiche randomisierte Studien. Ihr gemeinsames Ergebnis: Zeitfenster-Essen wirkt so gut wie eine gleich grosse Kalorienreduktion – nicht besser. Die Autophagie ist der Hype-Abzug: Sie ist beim fastenden Menschen nie direkt gemessen worden.
+Seite: https://biohackingkompakt.de/tipp/intervallfasten.html
+
+## Kohlenhydrate abends reduzieren
+Bereich: Ernährung
+Warum: Zur Verteilung der Kohlenhydrate über den Tag widersprechen sich die Studien – eine fand abends sogar eine kürzere Einschlafzeit. Belegt ist dagegen, dass dieselbe Menge abends eine höhere Blutzuckerspitze erzeugt als morgens.
+Wie: Abends fokus auf Protein + Fett + Gemüse. Kleine Mengen komplexe Kohlenhydrate ok (Süßkartoffel, Reis). Keine schnellen Zucker.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung offen, Mechanismus 4/10, Sicherheitsdaten 8/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
+Begründung: Zur Verteilung der Kohlenhydrate über den Tag gibt es einzelne kleine Studien mit widersprüchlichen Ergebnissen – eine fand bei abendlicher Kohlenhydratzufuhr eine kürzere Einschlafzeit, sonst keinen Schlafparameter verändert. Gut belegt ist nur der akute Glukoseverlauf: dieselbe Menge erzeugt abends eine höhere Spitze. Für das Gewicht gibt die Datenlage keine belastbare Empfehlung her.
+Seite: https://biohackingkompakt.de/tipp/low-carb-abend.html
+
+## Protein nach Alter anpassen
+Bereich: Ernährung
+Warum: Unter 50 J.: 1,2–1,6 g/kg. Fachgesellschaften nennen für gesunde Ältere 1,0–1,2 g/kg – die Longevity-Szene 1,6–2,2 g/kg.
+Wie: Über 50: mehr Protein anstreben – der „mTOR-Bremse wegen Longevity“-Ansatz ignoriert das Sarkopenie-Risiko. Peter Attia empfiehlt 1,6–2,2 g/kg pro Tag, verteilt auf 3–4 Mahlzeiten à 30–50 g; das ist eine Longevity-Empfehlung, keine Leitlinie. Die Leucin-Schwelle von 2,5 g pro Mahlzeit ist eine Faustregel, keine gemessene Schwelle.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 7/10).
+Begründung: Dass ältere Menschen für dieselbe Muskelproteinsynthese mehr Protein brauchen (anabole Resistenz), ist am Menschen gemessen – 0,40 gegenüber 0,24 g/kg pro Mahlzeit. Die genannten Mengen von 1,6 bis 2,2 g/kg liegen allerdings deutlich über den Empfehlungen der geriatrischen Fachgesellschaften (PROT-AGE und ESPEN: 1,0 bis 1,2 g/kg für gesunde Ältere) und stammen aus dem Longevity-Umfeld, nicht aus einer Leitlinie. Bei eingeschränkter Nierenfunktion gilt das nicht.
+Seite: https://biohackingkompakt.de/tipp/protein-longevity.html
+
+## Testosteron natürlich anheben
+Bereich: Ernährung
+Warum: Krafttraining, Schlaf, Zink bei Mangel: für die Bausteine gibt es Daten. Die oft genannten „80 % des Hebels" sind geschätzt.
+Wie: 1) Krafttraining 3×/Woche (Compound-Übungen: Kniebeuge, Kreuzheben) – der Nutzen läuft über die Körperzusammensetzung, nicht über den Hormonschub nach der Einheit. 2) 7–9 h Schlaf. 3) Zink 15 mg bei nachgewiesenem Mangel; für Bor und für eine Abenddosis Magnesium gibt es beim Mann keine passende Studie. 4) Fett nicht unter 25 % der Kalorien (Cholesterin = Testosteron-Vorläufer). 5) Starken Alkoholkonsum meiden und Gewicht abbauen – je mehr Gewichtsverlust, desto größer der Anstieg, eine Schwelle bei 20 % Körperfett gibt es nicht.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 7/10, Sicherheitsdaten 8/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
+Begründung: Für die Einzelbausteine – Schlaf, Krafttraining, Zink bei Mangel – gibt es jeweils Humandaten. Die Zahl „80 % des Hebels" ist dagegen frei geschätzt; ein gemeinsamer Effekt des Bündels ist nie gemessen worden.
+Seite: https://biohackingkompakt.de/tipp/testosteron-natural.html
+
+## 24–72 h verlängertes Fasten
+Bereich: Fasten
+Warum: Die bekannten Zeitmarken – Autophagie ab 24 h, Stammzellen ab 72 h – stammen aus dem Mausversuch, nicht vom Menschen.
+Wie: 1× pro Monat 24 h oder 1× pro Quartal 72 h Wasserfasten. Elektrolyte (Salz, Kalium, Magnesium) Pflicht. Nicht bei Untergewicht, Schwangerschaft, Stillzeit, Essstörung in der Vorgeschichte, bei Kindern und Jugendlichen, bei Diabetes Typ 1 und nicht unter SGLT-2-Hemmern. Der Nahrungsaufbau danach dauert im Buchinger-Protokoll im Mittel vier Tage von 800 auf 1600 kcal – nicht eine Mahlzeit.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 5/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 2/10).
+Begründung: Die Zeitangaben – Autophagie ab 24 Stunden, Stammzellerneuerung ab 72 – stammen aus Mausversuchen. Beim Menschen wurden systemische Veränderungen im Plasmaproteom erst nach drei Tagen vollständigen Fastens sichtbar, und Autophagie ist im Fasten nie direkt gemessen worden.
+Seite: https://biohackingkompakt.de/tipp/fasten-extended.html
+
+## Elektrolyte während Fastenperioden
+Bereich: Fasten
+Warum: Der Natriumverlust im Fasten ist physiologisch gut beschrieben – die Zuordnung einzelner Beschwerden zu einem Mangel ist es nicht.
+Wie: Für die Mengen gibt es keine kontrollierte Studie. Als Orientierung: Magnesium höchstens 250 mg pro Tag aus Nahrungsergänzung (BfR), Natrium nicht ohne Not über den EFSA-Wert von 2 g – bei Bluthochdruck, Herzschwäche oder Nierenerkrankung gar nicht in Eigenregie. Am besten dokumentiert sind Brühen und Säfte im Rahmen von 200–250 kcal pro Tag, nicht Pulver.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 7/10).
+Begründung: Der Natrium- und Kaliumverlust im Fasten ist physiologisch beschrieben und erklärt die typischen Beschwerden gut. Kontrollierte Studien, die eine bestimmte Zufuhr belegen, gibt es allerdings nicht – die Mengenangaben in der Szene sind Erfahrungswerte.
+Seite: https://biohackingkompakt.de/tipp/fasten-elektrolyte.html
+
+## Fasten für Frauen – Zyklusangepasst
+Bereich: Fasten
+Warum: Vorsichtsregel, kein Wirknachweis: Zum zyklusangepassten Fasten gibt es keine kontrollierten Studien.
+Wie: Feste Tagesangaben passen nicht – die Follikelphase schwankt zwischen 10 und 30 Tagen. Die belegbare Vorsichtsregel hängt an der Energiemenge, nicht am Zeitfenster: Unter etwa 30 kcal pro kg fettfreier Masse und Tag wird die LH-Pulsatilität gestört. Zyklus-App nutzen, Stop bei Zyklusverlust.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 2/10, Richtung offen, Mechanismus 4/10, Sicherheitsdaten 5/10, Anwendungserfahrung 6/10, Abstand Werbung zu Daten 3/10).
+Begründung: Zum zyklusangepassten Fasten gibt es keine kontrollierten Studien. Was es gibt, sind Hinweise, dass starke Energiedefizite die Hypothalamus-Hypophysen-Achse stören können – daraus ist die Vorsichtsregel abgeleitet, nicht aus einem Wirknachweis.
+Seite: https://biohackingkompakt.de/tipp/fasten-frauen.html
+
+## Fasting-Mimicking-Diet (FMD, 5 Tage)
+Bereich: Fasten
+Warum: Fettreich, ~800 kcal; dass es proteinarm sein muss, ist nicht belegt. Zwei randomisierte Studien erreichen inzwischen klinische Endpunkte bei Diabetes und Morbus Crohn – harte Endpunkte wie Sterblichkeit fehlen weiterhin.
+Wie: 5 Tage am Stück ~800 kcal (Tag 1) und ~500 kcal (Tag 2–5), dominiert von Fett + Gemüse, unter 10 % Protein. 1× pro Quartal. Im Longo-Protokoll sinkt IGF-1 messbar; die Autophagie wurde inzwischen gemessen, allerdings nur in Blutzellen, nicht in Muskel oder Leber. Nicht bei Untergewicht, Essstörung, Schwangerschaft oder unter Diabetesmedikation.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 6/10, Abstand Werbung zu Daten 4/10).
+Begründung: Es gibt randomisierte Studien mit rund hundert Teilnehmern, die Veränderungen bei Blutdruck, Blutzucker und Entzündungsmarkern zeigen – überwiegend Surrogatmarker über wenige Zyklen; zwei Studien erreichen inzwischen klinische Endpunkte bei Diabetes und Morbus Crohn. Harte Endpunkte wie Sterblichkeit fehlen. Die Ursprungsstudien stammen aus dem Umfeld des Entwicklers, die neueren Arbeiten nicht mehr.
+Seite: https://biohackingkompakt.de/tipp/fasten-fmd.html
+
+## Kaffee als Fasten-Booster
+Bereich: Fasten
+Warum: Der Hungereffekt ist kleiner und unsicherer als gedacht. Die Autophagie-Verstärkung stammt aus dem Mausversuch – und dort wirkte entkoffeinierter Kaffee genauso gut.
+Wie: Schwarzer Kaffee oder Espresso während des Fastens ok. Keine Milch, kein Zucker; Süßungsmittel lässt du besser weg, auch wenn eine Insulinausschüttung im Nüchternzustand nicht belegt ist. Bullet-Proof-Coffee bricht technisch das Fasten.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung offen, Mechanismus 4/10, Sicherheitsdaten 8/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 3/10).
+Begründung: Die Autophagie-Verstärkung durch Kaffee stammt aus Mausversuchen, und dort wirkte entkoffeinierter Kaffee ebenso gut – das Koffein trägt den Befund also nicht einmal im Mausmodell. Beim Menschen ist die Hungerdämpfung durch Koffein uneinheitlich: In der am besten kontrollierten Einzelstudie unterschied sich die spätere Energieaufnahme nicht.
+Seite: https://biohackingkompakt.de/tipp/fasten-koffein.html
+
+## OMAD – One Meal A Day
+Bereich: Fasten
+Warum: Ein Essen am Tag. Die einzige kontrollierte Studie – 15 Teilnehmer, zweimal acht Wochen – fand bei gleichbleibendem Gewicht ungünstige Werte bei Nüchternglukose und Blutfetten.
+Wie: Eine große, nährstoffdichte Mahlzeit pro Tag, meist nachmittags/abends. Während Fastenphase: Wasser, schwarzer Kaffee, Tee, Elektrolyte. Nur für Fortgeschrittene – erst nach Monaten 16:8.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 6/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 3/10).
+Begründung: Es gibt genau eine kontrollierte Studie zu einer Mahlzeit pro Tag – 15 Teilnehmer, in zwei Auswertungen publiziert. Sie war gewichtserhaltend angelegt und fand bei gleichem Gewicht weniger Fettmasse, aber ungünstige Veränderungen bei Nüchternglukose und Blutfetten, die nach Rückkehr zu drei Mahlzeiten sofort verschwanden. Die Datenlage trägt keine Empfehlung, weder dafür noch dagegen.
+Seite: https://biohackingkompakt.de/tipp/fasten-omad.html
+
+## Richtig refeeden nach dem Fasten
+Bereich: Fasten
+Warum: Der Bruch macht den Unterschied – nicht das Fasten selbst.
+Wie: Erst eine kleine Portion: Knochenbrühe, weiches Eigelb, fermentiertes Gemüse oder Avocado; Reihenfolge und Wartezeit sind Erfahrungswerte, studienbelegt ist ein mehrtägiger Aufbau von 800 auf 1600 kcal. Kein Zucker, keine großen Kohlenhydratmengen direkt. Bei BMI unter 18,5, starkem Gewichtsverlust, Fasten über 5 Tage, niedrigen Elektrolyten oder unter Insulin, Diuretika und Chemotherapie droht ein Refeeding-Syndrom – dann ärztlich begleiten lassen.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 6/10).
+Begründung: Das Refeeding-Syndrom ist eine anerkannte klinische Entität mit klaren Leitlinien – das ist der belegte Kern. Die Übertragung auf mehrtägiges freiwilliges Fasten bei Gesunden ist plausibel, aber nicht studienbelegt.
+Seite: https://biohackingkompakt.de/tipp/fasten-refeed.html
+
+## Eisbad
+Bereich: Kälte & Hitze
+Warum: Stärkster Kältereiz mit deutlicher Katecholamin-Antwort. Bei Herzvorerkrankungen nie systematisch untersucht.
+Wie: 2–5 min bei 10–15 °C, 1–3× pro Woche. Nach dem Training kann Muskelwachstum hemmen – dann besser abends oder an Ruhetagen.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 6/10, Sicherheitsdaten 5/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 3/10).
+Begründung: Die akute Katecholamin-Antwort ist gut messbar, langfristige Effekte auf Stoffwechsel und Gesundheit sind es nicht. Die Sicherheits-Datenlage ist der schwächste Wert: Kälteschock und Herzrhythmus sind bei Vorerkrankungen nie systematisch untersucht worden.
+Seite: https://biohackingkompakt.de/tipp/eisbad.html
+
+## Kalt duschen (Wim Hof)
+Bereich: Kälte & Hitze
+Warum: Akuter Kältereiz: Katecholamine steigen messbar. Die verbreiteten Zahlen zu Dopamin und Immunsystem stammen aus zwei sehr kleinen Studien.
+Wie: Start: 30 Sekunden kalt am Ende der normalen Dusche. Wöchentlich steigern auf 2–3 Minuten. Der viel zitierte Dopamin-Anstieg wurde bei einer Stunde in 14-Grad-Wasser gemessen, nicht in der Dusche – über die Wirkdauer danach sagt die Studie nichts.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 3/10).
+Begründung: Die viel zitierte Dopamin-Verdreifachung stammt aus einer Untersuchung an einer sehr kleinen Gruppe junger Männer im 14-°C-Wasser, nicht aus der Dusche. Die Immundaten kommen aus einer niederländischen Studie, in der Kaltduscher sich seltener krankmeldeten – aber nicht seltener krank waren; eine Meta-Analyse über elf RCTs fand gar keinen Immuneffekt.
+Seite: https://biohackingkompakt.de/tipp/kaltduschen.html
+
+## Sauna 20 min, 4× pro Woche
+Bereich: Kälte & Hitze
+Warum: In der finnischen Langzeitbeobachtung starben häufige Saunagänger seltener an Herzerkrankungen – ein Zusammenhang, keine gemessene Wirkung.
+Wie: 20 min bei 80–90 °C, 4× pro Woche; bei Aufguss ist dieselbe Zeit ein deutlich stärkerer Reiz. Die Herzfrequenz steigt ähnlich wie bei leichter Belastung – die Trainingsanpassungen des Ausdauersports stellen sich in randomisierten Studien aber nicht ein. Wichtig: genug trinken.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 6/10, Sicherheitsdaten 8/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 4/10).
+Begründung: Die finnische Kuopio-Kohorte begleitete über 2.300 Männer mehr als zwanzig Jahre – häufige Saunagänger starben seltener an Herzerkrankungen. Das ist eine Beobachtung an Menschen, die sich auch sonst unterscheiden, keine randomisierte Studie. Die verbreitete Prozentzahl beschreibt einen Zusammenhang, keine Wirkung.
+Seite: https://biohackingkompakt.de/tipp/sauna.html
+
+## Mittagssonne für Vitamin D
+Bereich: Licht
+Warum: Mittagssonne liefert UVB – die einzige Quelle für körpereigenes Vitamin D.
+Wie: Zur Mittagszeit die halbe sonnenbrandwirksame Dosis abholen, zwei- bis dreimal pro Woche – für Hauttyp II bei UV-Index 7 sind das etwa 12 Minuten, für dunklere Haut mehr. Gesicht, Hände und Arme reichen; von Oktober bis März steht die Sonne in Deutschland dafür zu tief.
+BK-Score: Gut belegt (Studien am Menschen 8/10, Richtung gemischt, Mechanismus 9/10, Sicherheitsdaten 7/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 6/10).
+Begründung: Dass UVB in der Haut Vitamin D bildet, ist gesicherte Physiologie. Gemischt ist die Richtung wegen der Kehrseite: Dieselbe Strahlung ist der wichtigste Risikofaktor für Hautkrebs – die Dosis entscheidet, und dafür gibt es keine allgemeingültige Zahl.
+Seite: https://biohackingkompakt.de/tipp/licht-mittag.html
+
+## Morgens 10 min Sonnenlicht
+Bereich: Licht
+Warum: Morgenlicht stellt die innere Uhr – einer der bestbelegten chronobiologischen Effekte. Den Cortisol-Rhythmus moduliert es, es setzt ihn nicht.
+Wie: Innerhalb 30 min nach dem Aufwachen 5–15 min direkt ins Tageslicht (ohne Fensterscheibe). Draußen sind es typischerweise Zehntausende Lux, im Mittel über 40.000 – die innere Uhr spricht schon weit darunter an, auch mit Sonnenbrille.
+BK-Score: Gut belegt (Studien am Menschen 8/10, Richtung positiv, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 6/10).
+Begründung: Die Phasenverschiebung der inneren Uhr durch Morgenlicht gehört zu den am besten untersuchten chronobiologischen Effekten überhaupt. Der Abzug beim Hype-Abstand gilt dem Cortisol: Die Aufwachreaktion wird vom Licht moduliert, nicht von ihm gesetzt.
+Seite: https://biohackingkompakt.de/tipp/licht-morgen.html
+
+## Rotlicht-Therapie
+Bereich: Licht
+Warum: Rot- und Infrarotlicht: viele kleine Humanstudien mit sehr unterschiedlichen Geräten und Dosen – vergleichbar sind sie kaum.
+Wie: Etwa 20 min vor einem hochwertigen Rotlichtpanel (600–850 nm), zwei- bis dreimal pro Woche. Am besten belegt ist die Haardichte, danach Fibromyalgie-Fatigue und Kniearthrose – „Energie“ bei Gesunden ist nicht untersucht.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 6/10, Abstand Werbung zu Daten 3/10).
+Begründung: Es gibt viele kleine Humanstudien zu Haut, Muskelregeneration und Wundheilung, aber sehr unterschiedliche Geräte, Wellenlängen und Dosen – vergleichbar sind sie kaum. Der Mechanismus über Cytochrom-c-Oxidase ist plausibel, am Menschen aber nicht quantifiziert.
+Seite: https://biohackingkompakt.de/tipp/licht-rot.html
+
+## Monatlicher Senolytikum-Puls
+Bereich: Longevity
+Warum: Fisetin hochdosiert an 2 aufeinanderfolgenden Tagen pro Monat. Die placebokontrollierte Studie, die genau dieses Schema prüft, läuft seit dem 6.2.2018 an 40 Frauen – und hat bis heute kein Ergebnis berichtet.
+Wie: Das Mayo-Protokoll (AFFIRM) arbeitet mit Fisetin allein an 2 aufeinanderfolgenden Tagen in 2 aufeinanderfolgenden Monaten; Quercetin gehört nicht dazu, sondern zur getrennten Kombination mit dem verschreibungspflichtigen Dasatinib, und Apigenin ist mit senomorpher statt senolytischer Wirkung eine andere Wirkklasse. Für die Einnahme morgens mit Fett gibt es keinen Beleg. Entscheidend ist der Stand der Belege: Im unabhängigen Interventions-Testprogramm verlängerte Fisetin 2023 weder die Lebenszeit – in keinem Geschlecht, bei keinem der beiden Schemata – noch senkte es die Seneszenzmarker in Leber, Niere oder Gehirn. Was an Positivem berichtet wird, stammt aus der Maus oder aus offenen Pilotstudien mit der verschreibungspflichtigen Kombination bei Erkrankten, nicht aus diesem Protokoll. Die geprüfte Studiendosis liegt zudem weit über dem, was handelsübliche Kapseln enthalten.
+BK-Score: Nicht am Menschen untersucht (Studien am Menschen 1/10, Richtung negativ, Mechanismus 3/10, Sicherheitsdaten 2/10, Anwendungserfahrung 4/10, Abstand Werbung zu Daten 2/10).
+Begründung: Evidenz 1: Zum Pulsschema gibt es keine berichteten Humandaten – die einzige placebokontrollierte Studie dazu (AFFIRM, 40 Frauen ab 70 Jahren) läuft seit dem 6.2.2018 und hat nichts veröffentlicht, im Register steht der 1.11.2026. Mechanismus 3: Zellkultur-Screening und die Mausarbeit von 2018 stützen den Pfad, aber das Interventions-Testprogramm fand 2023 keine Senkung der Seneszenzmarker in Leber, Niere und Gehirn, sodass der Mechanismus über die Erstbeschreibung hinaus unbestätigt ist. Sicherheit 2: Ohne berichtete Humanstudie gibt es keine systematisch erhobene Sicherheitsdatenlage für hohe Pulse, bekannt sind nur Wechselwirkungen von Quercetin mit Blutverdünnern und einigen Antibiotika. Hype 2 bleibt, weil Packungen Zellerneuerung versprechen, während der Mechanismus in der besten Replikation nicht auffindbar war, und Anwendung 4 bleibt, weil Fisetin breit und ohne regulatorischen Rahmen im Regal steht; die Richtung wird von offen auf negativ gesetzt, da mit dem Testprogramm Daten vorliegen, die gegen die Wirkung sprechen.
+Seite: https://biohackingkompakt.de/tipp/senolytikum-pulse.html
+
+## Die perfekte Morgen-Routine
+Bereich: Routine
+Warum: Sonne, Wasser, Bewegung, Kälte – bevor du aufs Handy schaust.
+Wie: 1. Sonnenlicht 5–10 min. 2. Ein großes Glas Wasser – Salz und Zitrone sind Gewohnheit, kein belegter Zusatznutzen. 3. 5 min Bewegung (Liegestützen, Spaziergang). 4. Kalte Dusche, 30 Sekunden reichen. Dann Frühstück.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 5/10).
+Begründung: Die einzelnen Bausteine sind unterschiedlich gut belegt – Morgenlicht gut, Kälte dünn. Das Bündel als Ganzes ist nie gegen eine Kontrollgruppe getestet worden; wer es befolgt, weiss hinterher nicht, welcher Teil gewirkt hat.
+Seite: https://biohackingkompakt.de/tipp/morning-routine.html
+
+## Evening Wind-Down
+Bereich: Routine
+Warum: Licht dimmen wirkt über das Melatonin, die warme Dusche über die Wärmeregulation, die Atemübung über den Parasympathikus.
+Wie: 2 h vor dem Schlafen: Licht dimmen (am besten belegt), Blueblocker nur als Ergänzung, kein Bildschirm 1 h davor. Ritual: Tee, Buch, Atemübung und die warme Dusche 1 bis 2 Stunden vor dem Hinlegen, nicht direkt davor.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung positiv, Mechanismus 6/10, Sicherheitsdaten 10/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 6/10).
+Begründung: Schlafhygiene-Programme sind in der Verhaltenstherapie der Insomnie untersucht und wirksam – allerdings meist als Teil eines Gesamtpakets (KVT-I), nicht als isolierte Abendroutine.
+Seite: https://biohackingkompakt.de/tipp/evening-routine.html
+
+## CO2-Toleranz-Training
+Bereich: Sauerstoff
+Warum: Ein Messwert aus der Atem- und Tauchszene. Dass ein Training darauf die Sauerstoffverwertung verbessert, ist am Menschen nicht gezeigt.
+Wie: BOLT-Test: 15 min ruhig sitzen, dann ausatmen, Nase zuhalten und die Zeit bis zum ersten Atemreiz messen – nicht bis zur Grenze anhalten. Der Zielwert über 40 s ist eine Konvention aus der Buteyko-Methode, an keinem Ergebnis validiert. Training: 5 min langsame Nasenatmung, dann 10 Schritte mit angehaltener Luft, Wiederholung. Weniger Atemnot ist bei Asthma als Zusatz zur Standardtherapie belegt, nicht allgemein.
+BK-Score: Hype weit vor Evidenz (Studien am Menschen 2/10, Richtung offen, Mechanismus 4/10, Sicherheitsdaten 6/10, Anwendungserfahrung 5/10, Abstand Werbung zu Daten 3/10).
+Begründung: Der CO2-Toleranztest ist ein Messwert aus der Tauch- und Atemszene, kein validierter Parameter. Dass ein Training darauf die Sauerstoffverwertung verbessert, ist am Menschen nicht gezeigt.
+Seite: https://biohackingkompakt.de/tipp/co2-tolerance.html
+
+## Eisenwerte & Hämoglobin optimieren
+Bereich: Sauerstoff
+Warum: Ohne Eisen keine Sauerstofftransport-Kapazität.
+Wie: Ferritin zusammen mit CRP lesen: Mangel beginnt unter 15 µg/l, bei Entzündung schon unter 70 – einen Zielkorridor für Gesunde gibt die Literatur nicht her. Bei niedrigen Werten: Leber, rotes Fleisch, Hülsenfrüchte. Nimm Eisen jeden zweiten Tag statt täglich – gleicher Ferritinwert, deutlich weniger Magen-Darm-Beschwerden. Überladungsrisiko laut WHO ab 150 µg/l (Frauen) bzw. 200 µg/l (Männer).
+BK-Score: Gut belegt (Studien am Menschen 8/10, Richtung positiv, Mechanismus 9/10, Sicherheitsdaten 8/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 7/10).
+Begründung: Der Zusammenhang zwischen Eisenmangel, Hämoglobin und Leistungsfähigkeit ist ausgezeichnet belegt. Die Richtung gilt aber nur beim Mangel – ohne nachgewiesenen Mangel schadet Eisen mehr, als es nützt, weshalb hier gemessen und nicht geraten werden muss.
+Seite: https://biohackingkompakt.de/tipp/eisen-ferritin.html
+
+## EWOT – Exercise With Oxygen Therapy
+Bereich: Sauerstoff
+Warum: Training mit Sauerstoffmaske. Beim gesunden Menschen auf Meereshöhe ist das Blut bereits fast vollständig gesättigt – Humandaten fehlen.
+Wie: 15 min moderates Cardio (Rad, Laufband) während du 90–95 % O2 einatmest. 2–3× pro Woche. Die VO2max veränderte sich in der einzigen passenden randomisierten Studie nicht; zu Gewebesättigung und „Energie“ gibt es zu diesem Protokoll gar keine Humandaten.
+BK-Score: Nicht am Menschen untersucht (Studien am Menschen 1/10, Richtung offen, Mechanismus 3/10, Sicherheitsdaten 5/10, Anwendungserfahrung 4/10, Abstand Werbung zu Daten 2/10).
+Begründung: Zu EWOT selbst gibt es keine Daten, wohl aber zwei randomisierte Studien zur Nachbarfrage – Training unter Hyperoxie bei Gesunden und bei Menschen mit belastungsinduzierter Entsättigung – und beide sind negativ ausgegangen. Der behauptete Mechanismus setzt eine Sauerstoffunterversorgung voraus, die beim gesunden Menschen auf Meereshöhe nicht vorliegt.
+Seite: https://biohackingkompakt.de/tipp/ewot.html
+
+## Hyperbare Sauerstofftherapie (HBOT)
+Bereich: Sauerstoff
+Warum: Reiner Sauerstoff unter Überdruck – beim diabetischen Fußulkus belegt und dort Kassenleistung. Für die Longevity-Anwendung gibt es eine Telomer-Studie ohne Kontrollgruppe und zwei kleine randomisierte Studien zu Kognition und Ausdauer, alle aus einem Zentrum.
+Wie: In den Studien 90 Minuten bei 2 ATA und 100 Prozent Sauerstoff mit 5-minütigen Luftpausen alle 20 Minuten; Longevity-Protokolle 60 Sitzungen über 3 Monate, Wundbehandlung nach Befund. Nur in ärztlich geführten Druckkammerzentren mit Eingangsuntersuchung (Ohren, Lunge). Soft-Kammern mit 1,3–1,5 ATA und angereicherter Luft sind mit den Studien nicht vergleichbar. Nicht bei unbehandeltem Pneumothorax; Vorsicht bei schweren Lungenerkrankungen, Schwangerschaft und Ohrproblemen.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 6/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 3/10).
+Begründung: Am ehesten belegt ist das diabetische Fußulkus, und dort für den Sechs-Wochen-Endpunkt; für die meistgenannte Indikation Kohlenmonoxidvergiftung fand die Cochrane-Auswertung keinen signifikanten Vorteil. Die Longevity-Anwendung stützt sich auf eine kleine israelische Studie ohne Kontrollgruppe, deren Telomer-Befund unabhängig nicht bestätigt ist.
+Seite: https://biohackingkompakt.de/tipp/hbot.html
+
+## Intermittierendes Hypoxietraining (IHT)
+Bereich: Sauerstoff
+Warum: Wechsel zwischen sauerstoffarmer und normaler Luft. Kleine Reha-Studien mit uneinheitlichen Ergebnissen; bei Herz- und Lungenleiden ungeprüft.
+Wie: Mit Maske oder Gerät zyklisch 5 min reduzierter Sauerstoff (10–14 %), dann die Zwischenphase – in den neueren Protokollen mit 30–40 % Sauerstoff statt Normalluft. 3–5 Zyklen, 3× pro Woche. Gemessen sind eine niedrigere Ruheherzfrequenz und ein niedrigerer systolischer Blutdruck; für bessere Blutwerte und für die Mitochondriendichte am Menschen fehlt der Beleg.
+BK-Score: Hype weit vor Evidenz (Studien am Menschen 3/10, Richtung offen, Mechanismus 5/10, Sicherheitsdaten 5/10, Anwendungserfahrung 5/10, Abstand Werbung zu Daten 3/10).
+Begründung: Es gibt kleine Studien aus der Rehabilitation mit uneinheitlichen Ergebnissen und wechselnden Protokollen; die neueren kontrollierten Arbeiten kommen aus Österreich, Spanien, Italien und Deutschland. Die Sicherheits-Datenlage ist dünn, gerade bei Herz- und Lungenvorerkrankungen, und eine vielzitierte Arbeit wurde zurückgezogen.
+Seite: https://biohackingkompakt.de/tipp/iht.html
+
+## Schlafen in (simulierter) Höhe
+Bereich: Sauerstoff
+Warum: Höhenstress stimuliert EPO und rote Blutkörperchen.
+Wie: Live high, train low: 2000–2500 m schlafen, niedrig trainieren – oder Höhenzelt. Gerechnet wird in Stunden: über 14 Stunden täglich über 3–4 Wochen, also mehr als 300 Stunden. Bergwochenenden über 1.800 m erreichen das bei Weitem nicht und haben keine belegte Blutwirkung.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 8/10, Sicherheitsdaten 6/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 5/10).
+Begründung: Das Prinzip „live high, train low“ ist im Leistungssport gut untersucht und die EPO-Antwort messbar. Für Höhenzelte fand die einzige placebokontrollierte Studie mit normobarer Hypoxie gar keinen Effekt, und auch eine kontrollierte Studie in echter Höhe blieb ohne Befund. In der klassischen Responder-Analyse waren 15 von 32 eingeteilten Läufern Non-Responder.
+Seite: https://biohackingkompakt.de/tipp/altitude-training.html
+
+## Blaulicht-Filter ab Sonnenuntergang
+Bereich: Schlaf
+Warum: Kurzwelliges Licht dämpft Melatonin. Ob Filter und Brillen daraus messbar besseren Schlaf machen, zeigen die Studien uneinheitlich.
+Wie: Orange Blueblocker-Brille am Abend tragen. Handy und Computer am besten weglegen oder deutlich dunkler stellen – für den Nachtmodus (f.lux, Night Shift) gibt es keinen Wirksamkeitsnachweis.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
+Begründung: Die Melatonin-Unterdrückung durch kurzwelliges Licht ist belegt. Ob Blaulichtfilter und Brillen daraus messbar besseren Schlaf machen, zeigen die Studien uneinheitlich – sie sind klein und schwer zu verblinden.
+Seite: https://biohackingkompakt.de/tipp/schlaf-blaulicht.html
+
+## Kein Koffein nach 14 Uhr
+Bereich: Schlaf
+Warum: Koffein hat eine Halbwertszeit von etwa 4 Stunden – individuell zwischen 2 und 8 Stunden.
+Wie: Rechne vom Zubettgehen zurück statt nach der Uhr: mindestens 6 Stunden Abstand, für eine normale Tasse Kaffee eher 9. Abends dann koffeinfreie Getränke.
+BK-Score: Gut belegt (Studien am Menschen 8/10, Richtung positiv, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 8/10).
+Begründung: Die Halbwertszeit von etwa vier Stunden stammt aus publizierten pharmakokinetischen Messungen, nicht aus Schlafstudien, und der Adenosin-Antagonismus ist am Menschen quantifiziert. Die Uhrzeit 14 Uhr ist daraus abgeleitet – individuell verschieden, je nach Abbaugeschwindigkeit (CYP1A2) und Rezeptorempfindlichkeit (ADORA2A).
+Seite: https://biohackingkompakt.de/tipp/schlaf-koffein.html
+
+## Komplette Dunkelheit im Schlafzimmer
+Bereich: Schlaf
+Warum: Licht am Abend dämpft die Melatonin-Ausschüttung. Gemessen wurde das mit Raumlicht – die Standby-Leuchte ist eine andere Größenordnung.
+Wie: Blackout-Vorhänge, Schlafmaske und alle LEDs abkleben. Wenn du nachts ohne Licht nicht aufstehen kannst, verwende eine rote Taschenlampe.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 6/10).
+Begründung: Dass Licht am Abend die Melatonin-Ausschüttung dämpft, ist am Menschen mehrfach im Schlaflabor gemessen worden, die Wirkkette über die Ganglienzellen der Netzhaut ist bekannt. Der Hype-Abzug betrifft die Dosis: Die Studien arbeiten mit Raumlicht, nicht mit der Standby-Leuchte am Fernseher.
+Seite: https://biohackingkompakt.de/tipp/schlaf-dunkel.html
+
+## Konstante Schlafzeit
+Bereich: Schlaf
+Warum: Gleiche Zeiten stärken deinen zirkadianen Rhythmus.
+Wie: Jeden Tag (auch am Wochenende) zur gleichen Zeit ins Bett und aufstehen; die oft genannte Toleranz von ±30 Minuten ist eine Alltagsfaustregel ohne Studienbeleg. Der Rhythmus sagt Gesundheitsrisiken besser vorher als die reine Dauer – er ersetzt sie aber nicht.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 10/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 8/10).
+Begründung: Grosse Kohorten zeigen: Die Regelmässigkeit der Schlafzeiten sagt Sterblichkeit besser vorher als die Schlafdauer. Kausal belegt ist das nicht, aber der Zusammenhang ist konsistent und der Rat kostet nichts.
+Seite: https://biohackingkompakt.de/tipp/schlaf-zeit.html
+
+## Schlafzimmer auf 16–18 °C
+Bereich: Schlaf
+Warum: Hitze kostet Tiefschlaf und REM – ein kühler Raum verhindert diesen Verlust.
+Wie: Fenster auf oder Klimaanlage einstellen. Zum Abkühlen 1 bis 2 Stunden vor dem Schlafen warm duschen (40–42,5 °C, ab 10 Minuten) – die Hautgefäße weiten sich, Kerntemperatur sinkt danach.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 7/10).
+Begründung: Die Thermoregulation des Einschlafens ist gut verstanden und in Schlaflabor-Studien untersucht. Die konkrete Spanne 16–18 °C ist allerdings eine Faustregel, keine studienbelegte Optimalzone.
+Seite: https://biohackingkompakt.de/tipp/schlaf-temperatur.html
+
+## Dankbarkeits-Journaling
+Bereich: Stress & Geist
+Warum: Randomisierte Studien zeigen kleine Effekte auf Stimmung, die bis in die Nachbeobachtung reichen – gegen aktive Vergleichsgruppen bleibt allerdings deutlich weniger übrig.
+Wie: Jeden Morgen oder Abend 3 Dinge aufschreiben, für die du dankbar bist; die 5 Minuten sind eine plausible, aber nie geprüfte Angabe. Schon zwei Wochen reichten in einem randomisierten Versuch für messbare Effekte auf Schlaf, Optimismus und Blutdruck.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 10/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 5/10).
+Begründung: Randomisierte Studien zeigen kleine Effekte auf Stimmung und Wohlbefinden, oft nur kurz nach der Intervention. Neuere Übersichtsarbeiten mit aktiven Kontrollgruppen finden deutlich weniger als die frühen Arbeiten.
+Seite: https://biohackingkompakt.de/tipp/dankbarkeit.html
+
+## Dual-N-Back fürs Arbeitsgedächtnis
+Bereich: Stress & Geist
+Warum: Arbeitsgedächtnistraining, das in der Szene als Intelligenztraining gilt – die Meta-Analysen zeigen: Man wird in der Aufgabe besser, nicht im Denken.
+Wie: Apps wie „Brain Workshop“ oder „IQ Boost“. 20 min 4× pro Woche über 4 Wochen ist eine Praxisangabe – die Meta-Analyse fand keinen Effekt der Trainingsdosis. Ein Schwellenlevel wurde nie untersucht, und der Transfer auf Arbeitsgedächtnisaufgaben ist klein und unabhängig vom erreichten Level.
+BK-Score: Gut untersucht – Wirkung nicht bestätigt (Studien am Menschen 6/10, Richtung negativ, Mechanismus 3/10, Sicherheitsdaten 10/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 2/10).
+Begründung: Hier gibt es Daten, und die Meta-Analysen streiten darüber: In der Aufgabe selbst wird man deutlich besser (Soveri et al. 2017: g = 0,62). Beim Transfer auf fluide Intelligenz fand Au et al. 2015 einen kleinen Effekt, Soveri 2017 einen sehr kleinen (g = 0,16, rund ein Prozent erklärter Varianz), und Melby-Lervåg, Redick & Hulme 2016 mit aktiven Kontrollgruppen keinen. Je besser die Kontrollgruppe, desto kleiner der Effekt. Die Formulierung „einziges Gehirntraining, das nachweislich wirkt" ist die Umkehrung des Befundes.
+Seite: https://biohackingkompakt.de/tipp/dual-n-back.html
+
+## Grounding (Erden)
+Bereich: Stress & Geist
+Warum: Barfuß auf der Erde. Für die meisten angenehm und risikoarm – bei Neuropathie oder Durchblutungsstörung an den Füßen aber nicht; die behauptete Wirkung auf Entzündung und Cortisol ist nicht belegt.
+Wie: Barfuß auf Gras, Erde, Sand oder Stein – Dauer und Untergrundregel folgen der Elektronen-Hypothese, nicht den Daten. Belegt ist etwas anderes: Barfußtraining stärkt über Wochen Fußmuskulatur und Gewölbefunktion.
+BK-Score: Nicht am Menschen untersucht (Studien am Menschen 1/10, Richtung offen, Mechanismus 2/10, Sicherheitsdaten 8/10, Anwendungserfahrung 5/10, Abstand Werbung zu Daten 2/10).
+Begründung: Die vorliegenden Studien sind sehr klein, überwiegend unverblindet und stammen weitgehend aus dem Umfeld der Anbieter von Erdungsprodukten. Ein Mechanismus, über den Erdkontakt Entzündungsmarker senken sollte, ist nicht beschrieben.
+Seite: https://biohackingkompakt.de/tipp/grounding.html
+
+## Kein Handy in der ersten Stunde
+Bereich: Stress & Geist
+Warum: Eine Alltagsheuristik: den Fokus selbst setzen, statt ihn fremdbestimmen zu lassen – geprüft wurde bisher nur die Nutzungsmenge, nie der Zeitpunkt. Der oft genannte Cortisol-Spike ist nie gemessen worden.
+Wie: Die erste Stunde nach dem Aufwachen ohne Smartphone. Kein E-Mail, kein Social Media. Stattdessen Sonnenlicht, Wasser, Bewegung, Planung.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 2/10, Richtung offen, Mechanismus 3/10, Sicherheitsdaten 10/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 3/10).
+Begründung: Der behauptete Cortisol-Anstieg durch das morgendliche Smartphone ist nie gemessen worden. Für weniger Social-Media-Nutzung gibt es inzwischen eine Meta-Analyse randomisierter Studien mit einem kleinen, konsistenten Effekt auf depressive Symptome – geprüft ist damit aber die Menge, nicht der Zeitpunkt. Der Rat ist harmlos; für die Stunde nach dem Aufwachen belegt ist er nicht.
+Seite: https://biohackingkompakt.de/tipp/digital-detox.html
+
+## Meditation 10 min täglich
+Bereich: Stress & Geist
+Warum: Meta-Analysen zeigen kleine bis mittlere Effekte auf Angst, Depressivität und Schmerz – für die Aufmerksamkeit reicht die Evidenz nicht. Cortisol sinkt im Mittel messbar, aber wenig und mit großer Streuung.
+Wie: Apps wie Waking Up, Headspace oder einfach still sitzen mit Atembeobachtung. Gleiche Zeit täglich. 8 Wochen sind die Standarddauer der Programme, aus denen die psychologischen Effekte stammen – strukturelle Gehirnveränderungen zeigten sich darin nicht.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 5/10).
+Begründung: Es gibt viele randomisierte Studien; Meta-Analysen finden kleine bis mittlere Effekte auf Angst, Stress und Depressivität – meist gegen Wartelisten, seltener gegen aktive Vergleichsgruppen. Für Cortisol zeigt die neueste Meta-Analyse einen kleinen, aber messbaren Rückgang bei weiterhin grosser Streuung zwischen den Studien.
+Seite: https://biohackingkompakt.de/tipp/meditation.html
+
+## Nootropika-Starter-Stack
+Bereich: Stress & Geist
+Warum: Koffein + L-Theanin als sicherer Einstieg; das Verhältnis 1:2 ist nie geprüft worden. Die BDNF-Wirkung der Löwenmähne stammt aus Zell- und Tierversuchen.
+Wie: Morgens: 100 mg Koffein + 200 mg L-Theanin. Fokus-Peaks: Alpha-GPC höchstens in der von der EFSA bewerteten Menge von 203,7 mg pro Tag – darüber liegt keine Sicherheitsbewertung vor. Langfristig (8+ Wochen): 1 g Löwenmähne täglich; der Weg über Nervenwachstum ist beim Menschen nicht gemessen. Nicht täglich stapeln – Toleranz vermeiden.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung positiv, Mechanismus 7/10, Sicherheitsdaten 8/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 6/10).
+Begründung: Die Kombination aus Koffein und L-Theanin ist in mehreren randomisierten Studien auf Aufmerksamkeit und Aufgabenwechsel untersucht, mit kleinen, aber wiederholt gefundenen Effekten. Für die Löwenmähne gilt das nicht – dort fehlen die Humandaten.
+Seite: https://biohackingkompakt.de/tipp/nootropic-stack.html
+
+## Waldbaden (Shinrin-Yoku)
+Bereich: Stress & Geist
+Warum: Zeit im Grünen hängt in großen Kohorten mit besserem Wohlbefinden zusammen. Die Immunbefunde stammen aus kleinen japanischen Studien.
+Wie: Mindestens 120 min pro Woche in der Natur, ohne Handy – verteilt wie es passt, aber gehend: In allen Studien wurde gegangen, nicht gesessen. Als Mechanismus werden Phytonzide diskutiert; geprüft ist das an zwölf Personen ohne Kontrollgruppe.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 10/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
+Begründung: Die bekannten Befunde zu natürlichen Killerzellen stammen aus kleinen japanischen Studien einer einzigen Arbeitsgruppe und sind unabhängig kaum repliziert. Der Zusammenhang zwischen Grünflächen und Wohlbefinden ist in grossen Kohorten dagegen konsistent.
+Seite: https://biohackingkompakt.de/tipp/natur.html
+
+## Blutdruck-Zielwert – die Hundertzwanzig zu Hause ist eine andere
+Bereich: Tracking
+Warum: Der Zielwert unter 120 mmHg stammt aus SPRINT: 9.361 Menschen mit erhöhtem Risiko, aber ohne Diabetes, 27 Prozent geringere Gesamtsterblichkeit. Gemessen wurde dort streng nach Vorschrift.
+Wie: Miss nach derselben Regel, nach der die Studien gemessen haben: fünf Minuten sitzen, Rücken angelehnt, Arm auf Herzhöhe, nicht sprechen, Mittelwert aus mehreren Messungen. Ein Wert, den du im Stehen zwischen zwei Terminen nimmst, bedeutet etwas anderes als die 120 aus der Studie. Einordnen muss ihn deine Ärztin – dein Gerät zählt, es zählt nur anders.
+BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 6/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 3/10).
+Begründung: SPRINT (NEJM 2015) randomisierte 9.361 Menschen mit erhöhtem kardiovaskulärem Risiko, aber ohne Diabetes, auf einen systolischen Zielwert unter 120 gegenüber unter 140 mmHg. Der primäre Endpunkt lag bei 1,65 gegen 2,19 Prozent pro Jahr (HR 0,75), die Gesamtsterblichkeit 27 Prozent niedriger (HR 0,73) – die Studie wurde nach median 3,26 Jahren vorzeitig beendet. Der Sicherheitsabzug ist real und steht im selben Abstract: Hypotonie, Synkopen, Elektrolytstörungen und akutes Nierenversagen traten häufiger auf; Stürze mit Verletzung nicht. Entscheidend für die Übertragung nach Hause ist die Messmethode: SPRINT maß mit einem festgelegten Oberarmautomaten nach Protokoll. Derselbe Zahlenwert entsteht am Küchentisch anders.
+Seite: https://biohackingkompakt.de/#tipps/blutdruck-zielwert
+
+## Erweitertes Biomarker-Panel
+Bereich: Tracking
+Warum: hsCRP, HbA1c, ApoB, Nüchterninsulin, Vitamin D – das Biohacker-Basispanel; dass ein jährliches Intervall besser ist als ein längeres, hat keine Studie gezeigt.
+Wie: Über Hausarzt oder IGeL: hsCRP (Entzündung), HbA1c (Langzeitzucker), ApoB (zählt die atherogenen Partikel und liefert Information, die LDL-C nicht enthält), Nüchterninsulin plus Nüchternglukose (für HOMA-IR), Homocystein (Marker für B12- oder Folatmangel, nicht fürs Herz-Kreislauf-Risiko), 25-OH-Vitamin D, TSH, Ferritin, Testosteron (Männer).
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 10/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 7/10).
+Begründung: Die genannten Marker sind einzeln gut validiert – ApoB und HbA1c gehören zu den bestuntersuchten Risikoparametern überhaupt. Was fehlt, ist eine Studie zu diesem Panel als Bündel bei Gesunden.
+Seite: https://biohackingkompakt.de/tipp/blutbild-erweitert.html
+
+## Glukose kontinuierlich messen (CGM)
+Bereich: Tracking
+Warum: Sensor am Oberarm, 14 Tage Glukoseverlauf. Bei Diabetes belegt, bei Prädiabetes gibt es ein Signal – bei Normoglykämen zeigt sich kein Vorteil.
+Wie: Abbott FreeStyle Libre 3 oder Dexcom G7 an den Oberarm kleben und 14 Tage lang Spikes, Stressreaktion und Schlaf-Glukose tracken; wie oft im Jahr sinnvoll ist, hat niemand untersucht. Wenn du ein Lebensmittel testest, teste es mehrfach – dieselbe Mahlzeit schwankt bei derselben Person fast so stark wie verschiedene. Bei Gesunden überschätzt der Sensor systematisch, und Kontaktallergien gegen den Kleber sind gut dokumentiert.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung offen, Mechanismus 7/10, Sicherheitsdaten 8/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 3/10).
+Begründung: Bei Diabetes ist der Nutzen belegt. Bei Stoffwechselgesunden gibt es keine Studie, die zeigt, dass das Vermeiden von Glukosespitzen zu besseren Ergebnissen führt – wohl aber Berichte über Verunsicherung und unnötige Einschränkung.
+Seite: https://biohackingkompakt.de/tipp/cgm-tracking.html
+
+## HRV & Schlafphasen mit Ring/Band
+Bereich: Tracking
+Warum: Ring und Band erkennen Schlaf und Wachsein gut, die einzelnen Schlafphasen dagegen unzuverlässig – genau die stehen in der Werbung.
+Wie: Jeden Morgen HRV-Trend checken – ein sinkender Trend spricht für Übertraining, Infekt oder Schlafdefizit, kann bei sehr gut Ausdauertrainierten aber auch mehr Parasympathikus bedeuten. Die Readiness-Schwelle 70 ist eine Herstellerkonvention ohne Studie. Auf die Schlaf-Effizienz als Zielwert kannst du verzichten: Die Geräte unterschätzen sie systematisch – verfolge lieber deine eigene Veränderung über Wochen. Für den nächtlichen HRV-Trend brauchst du mindestens 5 von 7 Nächten.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 6/10, Sicherheitsdaten 10/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 3/10).
+Begründung: Validierungsstudien gegen Polysomnographie zeigen: Die Geräte erkennen Schlaf und Wachsein recht gut, die einzelnen Schlafphasen dagegen unzuverlässig. Genau diese Phasen stehen aber im Mittelpunkt der Vermarktung.
+Seite: https://biohackingkompakt.de/tipp/oura-whoop.html
+
+## HRV täglich messen
+Bereich: Tracking
+Warum: Herzratenvariabilität ist einer der am besten untersuchten Marker für die vegetative Balance.
+Wie: Am genauesten mit Brustgurt (z. B. HRV4Training), deutlich ungenauer am Handgelenk. Lies nicht den Einzelwert, sondern mittele mindestens drei Messungen pro Woche: Sinkt der Schnitt, reduziere die Intensität, statt zu pausieren – bei sehr gut Trainierten kann ein Rückgang auch mehr Parasympathikus bedeuten.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 7/10, Sicherheitsdaten 10/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
+Begründung: Die Herzratenvariabilität bildet die vegetative Balance nachweislich ab, und HRV-gesteuertes Training zeigt in kleinen Sportstudien Vorteile. Dass ein einzelner Tageswert am Handgelenk brauchbar steuert, ist dagegen nicht belegt – die Tagesschwankung ist gross.
+Seite: https://biohackingkompakt.de/tipp/hrv-tracking.html
+
+## Jährliches Blutbild
+Bereich: Tracking
+Warum: „Was nicht gemessen wird, kann nicht optimiert werden“ – so die Szene. Messen bringt mehr Diagnosen, aber nachweislich nicht weniger Todesfälle.
+Wie: Mindestens: Vitamin D (im Winter messen), B12, Ferritin (zusammen mit CRP lesen), Omega-3-Index, TSH, HbA1c, Testosteron (Männer, nüchtern am Morgen und mit Bestätigungsmessung), CRP. Freies T3 und T4 gehören bei Beschwerdefreien nicht ins Routinescreening.
+BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 10/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 7/10).
+Begründung: Für einzelne Marker gibt es hervorragende Daten. Für das jährliche Screening bei Beschwerdefreien ist der Nutzen dagegen umstritten: Grosse Studien zu allgemeinen Gesundheits-Checks fanden keine Senkung der Sterblichkeit.
+Seite: https://biohackingkompakt.de/tipp/blutwerte.html
+
+## Training am Zyklus ausrichten (Frauen)
+Bereich: Tracking
+Warum: Follikelphase Kraft, Lutealphase Ausdauer – so die Lehre. Übersichtsarbeiten finden nur kleine Effekte bei großen individuellen Unterschieden.
+Wie: Feste Tagesangaben passen nicht: Die Follikelphase dauert im Mittel 17 Tage mit einer Spanne von 10 bis 30, die Lutealphase ist mit rund 12 Tagen die stabilere. Die einzige Phase mit einem messbaren – und winzigen – Nachteil ist die Blutung selbst; vor der Periode unterscheidet sich nichts. Für phasenabhängige Kohlenhydrat- oder Schlafempfehlungen gibt es keine Studie. Tracking am ehesten symptothermal, kalenderbasierte Apps schneiden in der Bewertung am schlechtesten ab.
+BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 9/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 3/10).
+Begründung: Übersichtsarbeiten zum zyklusbasierten Training kommen zu einem ernüchternden Ergebnis: Die Effekte sind klein, die Studien methodisch schwach und die individuellen Unterschiede grösser als der Phaseneffekt.
+Seite: https://biohackingkompakt.de/tipp/zyklus-tracking.html
