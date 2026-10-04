@@ -53,17 +53,17 @@ const PRODUCTS = [
     category: 'Tracker',
     emoji: '\u{1F493}',
     tagline: 'Der Messfehler, den die Studien als Referenz nehmen',
-    short: 'EKG-basierter Brustgurt. In den Validierungsstudien der Vergleichsmassstab, gegen den Handgelenk- und Fingergeraete antreten.',
+    short: 'EKG-basierter Brustgurt. In den Validierungsstudien der Vergleichsmassstab, gegen den Handgelenk- und Fingergeräte antreten.',
     pros: [
-      'Mittlerer Fehler gegen EKG rund 2 Prozent - Handgelenkgeraete liegen rund zehnmal hoeher',
+      'Mittlerer Fehler gegen EKG rund 2 Prozent - Handgelenkgeräte liegen rund zehnmal höher',
       'Misst die einzelnen Schlagabstaende selbst, rechnet sie nicht aus dem Blutfluss hoch',
-      'Kein Abo, kein Konto noetig; die Rohdaten lassen sich exportieren',
-      'Die HRV-Interventionsstudien wurden praktisch alle mit Brustgurten durchgefuehrt'
+      'Kein Abo, kein Konto nötig; die Rohdaten lassen sich exportieren',
+      'Die HRV-Interventionsstudien wurden praktisch alle mit Brustgurten durchgeführt'
     ],
     cons: [
-      'Nur fuer die Messung im Wachzustand gedacht - fuer die Nacht sind Ring und Band bequemer',
+      'Nur für die Messung im Wachzustand gedacht - für die Nacht sind Ring und Band bequemer',
       'Muss angelegt werden; kein Dauerbetrieb, keine Schlafphasen, kein Bereitschaftswert',
-      'Elektrodenband braucht Feuchtigkeit und regelmaessiges Waschen'
+      'Elektrodenband braucht Feuchtigkeit und regelmäßiges Waschen'
     ],
     priceRange: 'einmalig, kein Abo',
     link: '',

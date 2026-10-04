@@ -345,17 +345,17 @@ const SUPPLEMENTS = [
     benefits: [
       'Senkt Entzündungen im Körper',
       'Unterstützt Gehirnfunktion und Stimmung',
-      'Senkt Triglyceride und schützt Herz',
+      'Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH)',
       'Verbessert Hautbild (Ekzem, Akne)',
       'Unterstützt Augengesundheit',
       'Wichtig in Schwangerschaft für Gehirnentwicklung'
     ],
     risks: [
       'Niedrig-qualitative Öle oxidieren (ranzig)',
-      'Bei Blutverdünnern: Arzt fragen',
-      'Vor OP 1 Woche absetzen'
+      'Bei hohen Dosen, unter Gerinnungshemmern und vor Operationen ärztlich Rücksprache halten',
+      'Vorhofflimmern: erhöhtes Risiko bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich (Meta-Analyse 2026, 35 RCTs, PMID 42517224)'
     ],
-    dosage: '1.000–3.000 mg EPA+DHA täglich (nicht Fischöl gesamt).',
+    dosage: 'Ernährungsempfehlungen liegen deutlich unter 1–3 g: Die EFSA nennt für Erwachsene 250 mg EPA+DHA täglich als angemessene Zufuhr. Grammdosen wurden in klinischen Fragestellungen geprüft, etwa bei erhöhten Triglyceriden und in Herz-Kreislauf-Studien (VITAL und ASCEND 1 g, STRENGTH 4 g). Das sind Studienangaben, keine Verzehrempfehlung.',
     intake: 'Zu fetthaltiger Mahlzeit. Tiefgefrorene Kapseln reduzieren Aufstoßen. Mit Vitamin E zum Schutz.',
     synergies: ['vitamin-d3', 'vitamin-e', 'astaxanthin'],
     avoid: [],
@@ -978,9 +978,9 @@ const SUPPLEMENTS = [
     risks: [
       'Forschung noch in Entwicklung',
       'Hohe Kosten',
-      'Teilweise regulatorische Unsicherheit (EU)'
+      'EU: als neuartiges Lebensmittel eingestuft, EFSA-Gutachten 2026 liegt vor, die Zulassung steht aus'
     ],
-    dosage: '250–1.000 mg täglich (umstritten).',
+    dosage: 'Keine Dosierungsangabe: NMN ist in der EU als neuartiges Lebensmittel eingestuft und noch nicht zugelassen.',
     intake: 'Morgens auf leeren Magen. Sublingual oder liposomal für Bioverfügbarkeit.',
     synergies: ['resveratrol', 'tmg'],
     avoid: [],
@@ -1816,7 +1816,7 @@ const SUPPLEMENTS = [
     short: 'Körpereigener, zuckerähnlicher Signalstoff. Bei PCOS gut untersucht: normalisiert den Zyklus häufiger als Placebo und ist besser verträglich als Metformin, der klinische Nutzen bleibt laut Leitlinie begrenzt.',
     description: 'Myo-Inositol ist Baustein der Botenstoffe, die das Insulinsignal weitergeben, und wird im Körper aus Glukose gebildet. Bei PCOS zeigt eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen häufiger einen regelmäßigen Zyklus (RR 1,79) und leicht bessere Stoffwechsel- und Hormonwerte; die internationale PCOS-Leitlinie 2023 hält Inositol für eine Option, empfiehlt aber keine bestimmte Form, Dosis oder Mischung. Das beworbene Verhältnis Myo- zu D-Chiro-Inositol von 40:1 stützt sich auf Mausmodelle. In der Schwangerschaft senkte Myo-Inositol das Risiko für Schwangerschaftsdiabetes (Cochrane, Evidenz niedrig). Für Panikstörung gibt es zwei kleine positive Studien, eine Meta-Analyse zu Angst und Depression fand keinen signifikanten Effekt.',
     benefits: [
-      'PCOS: häufiger regelmäßiger Zyklus als unter Placebo (26 RCTs, RR 1,79), gegenüber Metformin nicht unterlegen',
+      'PCOS: häufiger regelmäßiger Zyklus als unter Placebo (26 RCTs, RR 1,79); im Vergleich mit Metformin beim Zyklus kein klarer Unterschied, die Leitlinien-Meta-Analyse nennt die Evidenz begrenzt (Fitz 2024)',
       'PCOS: leicht bessere Werte bei Nüchternglukose, Insulin, Testosteron und BMI',
       'Deutlich besser verträglich als Metformin (Nebenwirkungen 7 statt 53 Prozent)',
       'Schwangerschaft: weniger Schwangerschaftsdiabetes (Cochrane, 7 RCTs, Evidenz niedrig)',
@@ -2396,7 +2396,7 @@ const SUPPLEMENTS = [
     altNames: 'Natto-Enzym',
     category: 'Enzym',
     tags: ['herz', 'kreislauf', 'blut', 'anti-aging'],
-    short: 'Ein Enzym aus fermentierten Sojabohnen (Natto): baut im Reagenzglas Fibrin ab und senkt in Studien leicht den Blutdruck. In der EU als neuartiges Lebensmittel zugelassen; ob es Gerinnsel im Körper auflöst, ist nicht gezeigt.',
+    short: 'Ein Enzym aus fermentierten Sojabohnen (Natto): baut im Reagenzglas Fibrin ab und senkt in Studien leicht den Blutdruck. In der EU ist ein spezifizierter fermentierter Sojabohnenextrakt als neuartiges Lebensmittel zugelassen; ob es Gerinnsel im Körper auflöst, ist nicht gezeigt.',
     description: 'Nattokinase ist ein fibrinolytisches Enzym aus dem japanischen Natto, 1987 beschrieben. Im Reagenzglas baut es Fibrin (den Baustein von Blutgerinnseln) ab; am Menschen ist eine leichte Blutdrucksenkung belegt (Meta-Analyse, 6 RCTs, 546 Teilnehmer), ein Schutz vor Thrombosen dagegen nicht untersucht. Ob aktives Enzym aufgenommen wird, ist laut EFSA (2016) offen. Beliebt in der Herz-Kreislauf-Prävention und bei Long Covid. In der EU ist fermentierter Sojabohnenextrakt (NSK-SD, um Vitamin K2 bereinigt) als neuartiges Lebensmittel zugelassen (Durchführungsbeschluss (EU) 2017/115).',
     benefits: [
       'Löst Fibrin im Reagenzglas; ob aktives Enzym aufgenommen wird, ist offen (EFSA 2016); in der dreijährigen Placebostudie keine Wirkung auf Gerinnungs- und Fibrinolysewerte',
@@ -2407,11 +2407,12 @@ const SUPPLEMENTS = [
     risks: [
       'Blutverdünnende Wirkung – nicht mit Gerinnungshemmern kombinieren (Blutungsrisiko), ärztlich abklären',
       'Vor Operationen absetzen',
+      'Bei Einnahme von Arzneimitteln nur unter ärztlicher Aufsicht (Pflichthinweis der EU-Zulassung)',
       'Qualität/Aktivität (in FU) beachten',
       'Bei Blutungsneigung meiden',
       'Fallbericht: Ersatz von Warfarin durch Nattokinase nach mechanischem Herzklappenersatz führte zu einem Gerinnsel auf der Klappe (Elahi 2015) – kein Ersatz für verschriebene Gerinnungshemmer'
     ],
-    dosage: 'In der placebokontrollierten Langzeitstudie 2.000 FU täglich. Die EFSA-Bewertung (2016) des zugelassenen Extrakts NSK-SD gilt für höchstens 100 mg pro Tag bei gesunden Erwachsenen über 35; höhere Mengen liegen außerhalb dieser Bewertung.',
+    dosage: 'In der placebokontrollierten Langzeitstudie 2.000 FU täglich. Die EU-Zulassung (Durchführungsbeschluss (EU) 2017/115) erlaubt in Nahrungsergänzungsmitteln höchstens 100 mg Extrakt pro Tag für Erwachsene, ausgenommen Schwangere und Stillende. Die EFSA-Bewertung (2016) des Extrakts NSK-SD galt gesunden Erwachsenen über 35; höhere Mengen liegen außerhalb dieser Bewertung.',
     intake: 'Auf leeren Magen, oft abends.',
     synergies: ['omega-3', 'vitamin-k2'],
     avoid: [],
@@ -2567,7 +2568,7 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['immun', 'energie', 'longevity', 'stoffwechsel'],
     short: 'Flüssige Konzentrate aus Obst-, Gemüse- und Kräuterauszügen mit isoliert zugesetzten Vitaminen, verkauft für 21 bis über 125 Euro im Monat. Ein Nutzen für gesunde Erwachsene ist in großen randomisierten Studien nicht nachweisbar.',
-    description: 'Der Markt für flüssige „Mikronährstoffkonzentrate" wird von LaVita angeführt, dazu kommen Cellagon aurum, Regulatpro von Dr. Niedermaier, Rotbäckchen Vital, Kyäni Sunrise und als Kapsel-Nachbar Juice Plus. Alle verkaufen dieselbe Grundidee: Die Ernährung habe Lücken, das Konzentrat schließe sie. Die Basis ist Fruchtsaftkonzentrat, ergänzt um Gemüse- und Kräuterauszüge — die eigentliche Vitaminmenge stammt aus isoliert zugesetzten Reinstoffen. Damit ist die entscheidende Frage nicht, wie viele Zutaten auf dem Etikett stehen, sondern ob ein Multivitamin einem gesunden Erwachsenen etwas bringt. Genau das ist außergewöhnlich gut untersucht — und die Antwort fällt ernüchternd aus.',
+    description: 'Der Markt für flüssige „Mikronährstoffkonzentrate" wird von LaVita angeführt, dazu kommen Cellagon aurum, Regulatpro von Dr. Niedermaier, Rotbäckchen Vital, Kyäni Sunrise und als Kapsel-Nachbar Juice Plus. Alle verkaufen dieselbe Grundidee: Die Ernährung habe Lücken, das Konzentrat schließe sie. Die Basis ist Fruchtsaftkonzentrat, ergänzt um Gemüse- und Kräuterauszüge — die eigentliche Vitaminmenge stammt aus isoliert zugesetzten Reinstoffen. Damit ist die entscheidende Frage nicht, wie viele Zutaten auf dem Etikett stehen, sondern ob ein Multivitamin einem gesunden Erwachsenen etwas bringt. Genau das ist außergewöhnlich gut untersucht — und die Antwort fällt ernüchternd aus. Die großen Studien betreffen klassische Multivitamine; die Konzentrate selbst sind kaum untersucht: Zu LaVita gibt es eine Studie mit 159 Teilnehmern, eine randomisierte Studie der TU München zu Regulatpro fand bei Typ-2-Diabetes keinen Effekt auf den Blutzucker (PMID 27343205).',
     benefits: [
       'Für Menschen mit nachgewiesenem Mangel oder erhöhtem Bedarf ist eine gezielte Supplementierung sinnvoll — dafür braucht es aber kein Breitband-Konzentrat',
       'Die einzeln beworbenen Wirkungen („trägt bei zu einem normalen Immunsystem", „verringert Müdigkeit") sind rechtlich zugelassene Aussagen; sie gelten allerdings für jedes Multivitamin',

@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-10-01",
+ "stand": "2026-10-04",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -31,12 +31,12 @@
    "url": "https://biohackingkompakt.de/#experimental/finasterid",
    "evidenz": 9,
    "mechanismus": 9,
-   "sicherheit": 4,
+   "sicherheit": 8,
    "hype": 4,
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Der Effekt am Haar gehört zu den am saubersten vermessenen in diesem Feld: zwei verblindete Studien mit 1.553 Männern zwischen 18 und 41, ausgezählt auf 5,1 Quadratzentimetern am Wirbel (Ausgangswert 876 Haare). Nach einem Jahr 107 Haare mehr als unter Placebo, nach zwei Jahren 138, jeweils p < 0,001, mit verblindeter Verlängerung an 1.215 Männern. Der Sicherheitsabzug ist der Grund für die gemischte Richtung: Seit dem Rote-Hand-Brief vom 15. September 2025 stehen Suizidgedanken als Nebenwirkung in der Produktinformation, Häufigkeit ausdrücklich unbekannt. Sexuelle Funktionsstörungen sind der häufigste Abbruchgrund.",
+   "beleg": "Der Effekt am Haar gehört zu den am saubersten vermessenen in diesem Feld: zwei verblindete Studien mit 1.553 Männern zwischen 18 und 41, ausgezählt auf 5,1 Quadratzentimetern am Wirbel (Ausgangswert 876 Haare). Nach einem Jahr 107 Haare mehr als unter Placebo, nach zwei Jahren 138, jeweils p < 0,001, mit verblindeter Verlängerung an 1.215 Männern. Sicherheits-Datenlage 8, weil die Nebenwirkungen aus Zulassungsstudien und jahrzehntelanger Anwendung gut dokumentiert sind; die Achse bewertet die Datenlage, nicht die Gefahr. Die Nebenwirkungen sind der Grund für die gemischte Richtung: Seit dem Rote-Hand-Brief vom 15. September 2025 stehen Suizidgedanken als Nebenwirkung in der Produktinformation, Häufigkeit ausdrücklich unbekannt. Sexuelle Funktionsstörungen sind der häufigste Abbruchgrund.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Wirkung bestätigt, Nebenwirkungen umstritten",
@@ -51,12 +51,12 @@
    "url": "https://biohackingkompakt.de/#experimental/nikotin-ohne-rauch",
    "evidenz": 8,
    "mechanismus": 9,
-   "sicherheit": 2,
+   "sicherheit": 8,
    "hype": 7,
    "anwendung": 8,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Der akute Effekt ist gut belegt und klein: Eine Meta-Analyse über 41 doppelblinde Studien (Heishman, Psychopharmacology 2010) fand in sechs von neun Leistungsbereichen einen Vorteil, Effektstärken 0,16 bis 0,44 – im Labor, für etwa eine Stunde. Genau diese Arbeit benennt die Abhängigkeit als zugehörigen Befund. Der Sicherheitswert ist der niedrigste, den dieses Raster vergibt, und er steht nicht für akute Giftigkeit, sondern für das Suchtpotenzial: Diese Abhängigkeit ist der Grund, warum Rauchen die größte vermeidbare Todesursache ist. Zum Dauergebrauch bei Nichtrauchern gibt es keine Daten. Für den Rauchstopp dagegen ist Nikotinersatz belegt wirksam (Cochrane 2018) – das ist die eine Anwendung mit klarem Nutzen. Tabakfreie Nikotinbeutel sind in Deutschland nicht verkehrsfähig."
+   "beleg": "Der akute Effekt ist gut belegt und klein: Eine Meta-Analyse über 41 doppelblinde Studien (Heishman, Psychopharmacology 2010) fand in sechs von neun Leistungsbereichen einen Vorteil, darunter Feinmotorik, Aufmerksamkeit, Reaktionszeit und Kurzzeitgedächtnis, Effektstärken 0,16 bis 0,44 – im Labor, für etwa eine Stunde. Genau diese Arbeit benennt die Abhängigkeit als zugehörigen Befund. Die Sicherheits-Datenlage ist gut: Nikotinersatz ist in über hundert randomisierten Studien geprüft (Cochrane 2018). Das heißt gut untersucht, nicht harmlos. Die Richtung bleibt negativ, weil über dem kleinen, kurzen Effekt eine Abhängigkeit steht – und diese Abhängigkeit ist der Grund, warum Rauchen die größte vermeidbare Todesursache ist. Zum Dauergebrauch bei Nichtrauchern gibt es keine Daten. Für den Rauchstopp dagegen ist Nikotinersatz belegt wirksam (Cochrane 2018) – das ist die eine Anwendung mit klarem Nutzen. Tabakfreie Nikotinbeutel sind in Deutschland nicht verkehrsfähig."
   },
   {
    "id": "erythrit-xylit",
@@ -194,7 +194,7 @@
    "anwendung": 9,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Kaum eine Produktklasse ist so gut untersucht: 21 randomisierte Studien mit 91.074 Menschen ergaben eine Gesamtsterblichkeit von RR 0,98, die Physicians' Health Study II fand über elf Jahre keinen Herz-Kreislauf-Effekt, COSMOS mit 21.442 Teilnehmern keinen Effekt auf Krebs, Herz-Kreislauf oder Sterblichkeit. Der einzige belastbare Pluspunkt ist ein kleiner Kognitionsvorteil in drei COSMOS-Unterstudien (0,07 Standardabweichungen) — sekundärer Endpunkt, und die Physicians' Health Study fand dort exakt null. Die Anbieterstudien tragen nichts bei: die LaVita-Evidenz ist eine Studie mit 159 Teilnehmern in sechs Publikationen, bei der von 48 gemessenen Laborwerten 20 veröffentlicht wurden und 3 für das Produkt sprachen (Cochrane Österreich). Hohe Anwendungserfahrung, weil Multivitamine seit Jahrzehnten breit genommen werden — ein Wirksamkeitsbeleg ist das nicht."
+   "beleg": "Die hohe Evidenzzahl beruht auf Studien zu klassischen Multivitaminen – die Konzentrate liefern ihre Vitaminmenge ebenfalls aus zugesetzten Reinstoffen, sind als Produkte aber kaum untersucht. Für Multivitamine gilt: 21 randomisierte Studien mit 91.074 Menschen ergaben eine Gesamtsterblichkeit von RR 0,98, die Physicians' Health Study II fand über elf Jahre keinen Herz-Kreislauf-Effekt, COSMOS mit 21.442 Teilnehmern keinen Effekt auf Krebs, Herz-Kreislauf oder Sterblichkeit. Der einzige belastbare Pluspunkt ist ein kleiner Kognitionsvorteil in drei COSMOS-Unterstudien (0,07 Standardabweichungen) — sekundärer Endpunkt, und die Physicians' Health Study fand dort exakt null. Die Anbieterstudien tragen nichts bei: die LaVita-Evidenz ist eine Studie mit 159 Teilnehmern in sechs Publikationen, bei der von 48 gemessenen Laborwerten 20 veröffentlicht wurden und 3 für das Produkt sprachen (Cochrane Österreich); eine randomisierte Crossover-Studie der TU München zu einem Regulatpro-Produkt fand bei 31 auswertbaren Menschen mit Typ-2-Diabetes keinen Effekt auf den HbA1c (Lee 2016, PMID 27343205). Hohe Anwendungserfahrung, weil Multivitamine seit Jahrzehnten breit genommen werden — ein Wirksamkeitsbeleg ist das nicht."
   },
   {
    "id": "kreatin",
@@ -341,14 +341,14 @@
    "view": "supplement",
    "name": "NMN",
    "url": "https://biohackingkompakt.de/thema/nmn.html",
-   "evidenz": 3,
+   "evidenz": 5,
    "mechanismus": 6,
    "sicherheit": 5,
    "hype": 2,
    "anwendung": 5,
-   "richtung": "offen",
-   "label": "Hype weit vor Evidenz",
-   "beleg": "Am Menschen gibt es kleine Studien mit Surrogatmarkern, keine Endpunktdaten; der NAD-Weg ist plausibel, die Anhebung im Gewebe aber schwach belegt. Sicherheitsdaten nur kurzfristig – und kaum ein Longevity-Produkt wird stärker überhöht.",
+   "richtung": "gemischt",
+   "label": "Dünne Humanevidenz",
+   "beleg": "Am Menschen gibt es inzwischen 15 kleine randomisierte Studien über 2 bis 24 Wochen; eine Meta-Analyse (Yang 2026) findet keine Effekte auf Gewicht, Blutzucker, Blutfette oder Blutdruck, eine weitere keinen auf die Muskelfunktion. Endpunktdaten fehlen; der NAD-Weg ist plausibel, die Anhebung im Gewebe aber schwach belegt. Sicherheitsdaten nur kurzfristig – und kaum ein Longevity-Produkt wird stärker überhöht.",
    "berichtslage": {
     "stufe": 1,
     "kurz": "Viel berichtet, aber nichts Greifbares",
@@ -456,7 +456,7 @@
    "berichtslage": {
     "stufe": 1,
     "kurz": "Kaum jemand berichtet etwas Spürbares",
-    "was": "Trotz zwanzig Jahren Schlagzeilen und breiter Anwendung berichtet kaum jemand einen spuerbaren Effekt. Das ist kein Widerspruch: Ein Stoff, der ueber Jahrzehnte wirken soll, muesste sich kurzfristig auch nicht bemerkbar machen. Es heisst aber, dass die Berichtslage hier nichts beitraegt — weder dafuer noch dagegen. Wer Resveratrol nimmt, tut das auf Grundlage von Erzaehlungen ueber Mechanismen, nicht auf Grundlage eigener Beobachtung.",
+    "was": "Trotz zwanzig Jahren Schlagzeilen und breiter Anwendung berichtet kaum jemand einen spürbaren Effekt. Das ist kein Widerspruch: Ein Stoff, der über Jahrzehnte wirken soll, müsste sich kurzfristig auch nicht bemerkbar machen. Es heisst aber, dass die Berichtslage hier nichts beiträgt — weder dafür noch dagegen. Wer Resveratrol nimmt, tut das auf Grundlage von Erzählungen über Mechanismen, nicht auf Grundlage eigener Beobachtung.",
     "quellen": "Anwenderkreise"
    }
   },
@@ -614,7 +614,7 @@
    "berichtslage": {
     "stufe": 1,
     "kurz": "Berichte gehen auseinander",
-    "was": "Die Berichte sind auffaellig uneinheitlich: Ein Teil beschreibt mehr geistige Frische, ein ebenso grosser Teil gar nichts. Bei einem Stoff, der als Wachmacher fuer den Kopf verkauft wird, ist diese Streuung selbst die Aussage — und sie deckt sich mit dem Cochrane-Befund fuer Gesunde.",
+    "was": "Die Berichte sind auffällig uneinheitlich: Ein Teil beschreibt mehr geistige Frische, ein ebenso grosser Teil gar nichts. Bei einem Stoff, der als Wachmacher für den Kopf verkauft wird, ist diese Streuung selbst die Aussage — und sie deckt sich mit dem Cochrane-Befund für Gesunde.",
     "quellen": "Anwenderkreise"
    }
   },
@@ -986,7 +986,7 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Nootropika-Kreise berichten klaren Kopf",
-    "was": "In Nootropika-Kreisen wird uebereinstimmend ein spuerbar klarerer Kopf berichtet, oft schon nach Tagen. Die Berichte sind zahlreich und untereinander aehnlich. Sie stammen allerdings aus einem Umfeld, in dem fast nie einzeln und fast nie gegen Placebo getestet wird, und sie betreffen Gesunde — also genau die Gruppe, fuer die keine belastbare Evidenz vorliegt. Die grosse Schlaganfallstudie sagt nichts ueber diese Anwendung, weder dafuer noch dagegen.",
+    "was": "In Nootropika-Kreisen wird übereinstimmend ein spürbar klarerer Kopf berichtet, oft schon nach Tagen. Die Berichte sind zahlreich und untereinander ähnlich. Sie stammen allerdings aus einem Umfeld, in dem fast nie einzeln und fast nie gegen Placebo getestet wird, und sie betreffen Gesunde — also genau die Gruppe, für die keine belastbare Evidenz vorliegt. Die grosse Schlaganfallstudie sagt nichts über diese Anwendung, weder dafür noch dagegen.",
     "quellen": "Anwenderkreise"
    }
   },
@@ -1020,7 +1020,7 @@
    "berichtslage": {
     "stufe": 1,
     "kurz": "Viel angewendet, wenig Konkretes berichtet",
-    "was": "Bemerkenswert ist hier, wie wenig berichtet wird, gemessen daran wie viele es nehmen. Die Aussagen bleiben vage — etwas wacher, etwas klarer. Bei einem Mittel, das seit Jahrzehnten millionenfach eingenommen wird, waere ein spuerbarer Effekt laengst in Form konkreter Beobachtungen aufgetaucht. Das Ausbleiben spezifischer Berichte ist hier selbst die Information, und es passt zu dem, was die grosse Praeventionsstudie gemessen hat.",
+    "was": "Bemerkenswert ist hier, wie wenig berichtet wird, gemessen daran wie viele es nehmen. Die Aussagen bleiben vage — etwas wacher, etwas klarer. Bei einem Mittel, das seit Jahrzehnten millionenfach eingenommen wird, wäre ein spürbarer Effekt längst in Form konkreter Beobachtungen aufgetaucht. Das Ausbleiben spezifischer Berichte ist hier selbst die Information, und es passt zu dem, was die grosse Präventionsstudie gemessen hat.",
     "quellen": "Anwenderkreise"
    }
   },
@@ -1084,7 +1084,7 @@
    "anwendung": 7,
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Für PCOS gut untersucht, mit begrenztem klinischem Nutzen. Eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen (Reprod Biol Endocrinol 2023) zeigt gegenüber Placebo häufiger einen regelmäßigen Zyklus (RR 1,79; 95 % KI 1,13–2,85) und Verbesserungen bei BMI, Testosteron, Nüchternglukose und Insulin; gegenüber Metformin nicht unterlegen bei weniger Nebenwirkungen (7 statt 53 Prozent in 4 Studien). Die Meta-Analyse für die internationale PCOS-Leitlinie (30 Studien, 2.230 Teilnehmerinnen, J Clin Endocrinol Metab 2024) nennt die Evidenz begrenzt und nicht schlüssig; die Leitlinie 2023 empfiehlt keine bestimmte Form, Dosis oder Kombination – das 40:1-Verhältnis stützt sich auf Mausmodelle – und stuft Inositol bei Kinderwunsch als experimentell ein. Ein Cochrane-Review (7 RCTs, 1.319 Schwangere) findet weniger Schwangerschaftsdiabetes (RR 0,53) bei niedriger Evidenzsicherheit. Für Depression und Angststörungen zeigt eine Meta-Analyse (7 bzw. 4 RCTs) keinen signifikanten Effekt; die Panikdaten stammen aus 2 kleinen Crossover-Studien. Der Insulin-Signalweg als sekundärer Botenstoff ist am Menschen belegt. Die breite Vermarktung an stoffwechselgesunde Frauen und gegen Angst ist von dieser Evidenz nicht gedeckt."
+   "beleg": "Für PCOS gut untersucht, mit begrenztem klinischem Nutzen. Eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen (Reprod Biol Endocrinol 2023) zeigt gegenüber Placebo häufiger einen regelmäßigen Zyklus (RR 1,79; 95 % KI 1,13–2,85) und Verbesserungen bei BMI, Testosteron, Nüchternglukose und Insulin; im direkten Vergleich mit Metformin beim Zyklus ohne klaren Unterschied, bei weniger Nebenwirkungen (7 statt 53 Prozent in 4 Studien); eine formale Nichtunterlegenheit ist das nicht, und laut Leitlinien-Meta-Analyse wirkt Metformin bei Hirsutismus und Taille-Hüft-Verhältnis besser. Die Meta-Analyse für die internationale PCOS-Leitlinie (30 Studien, 2.230 Teilnehmerinnen, J Clin Endocrinol Metab 2024) nennt die Evidenz begrenzt und nicht schlüssig; die Leitlinie 2023 empfiehlt keine bestimmte Form, Dosis oder Kombination – das 40:1-Verhältnis stützt sich auf Mausmodelle – und stuft Inositol bei Kinderwunsch als experimentell ein. Ein Cochrane-Review (7 RCTs, 1.319 Schwangere) findet weniger Schwangerschaftsdiabetes (RR 0,53) bei niedriger Evidenzsicherheit. Für Depression und Angststörungen zeigt eine Meta-Analyse (7 bzw. 4 RCTs) keinen signifikanten Effekt; die Panikdaten stammen aus 2 kleinen Crossover-Studien. Der Insulin-Signalweg als sekundärer Botenstoff ist am Menschen belegt. Die breite Vermarktung an stoffwechselgesunde Frauen und gegen Angst ist von dieser Evidenz nicht gedeckt."
   },
   {
    "id": "tmg",
@@ -1302,7 +1302,7 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Libido berichtet, Testosteron nicht gefunden",
-    "was": "Berichte und Studien widersprechen sich hier nicht so, wie es aussieht: Berichtet wird ueberwiegend gesteigerte Libido, und tatsaechlich waren drei von fuenf Studien zur erektilen Funktion positiv. Nicht gefunden wurde der beworbene Testosteronanstieg. Die Anwender spueren also moeglicherweise etwas Reales — nur nicht das, womit geworben wird. Das ist ein Unterschied, den die Werbung verwischt und die Berichte allein nicht aufloesen koennen.",
+    "was": "Berichte und Studien widersprechen sich hier nicht so, wie es aussieht: Berichtet wird überwiegend gesteigerte Libido, und tatsächlich waren drei von fünf Studien zur erektilen Funktion positiv. Nicht gefunden wurde der beworbene Testosteronanstieg. Die Anwender spüren also möglicherweise etwas Reales — nur nicht das, womit geworben wird. Das ist ein Unterschied, den die Werbung verwischt und die Berichte allein nicht auflösen können.",
     "quellen": "Anwenderkreise · teilweise deckungsgleich mit der Studienlage"
    }
   },
@@ -1544,7 +1544,7 @@
    "anwendung": 5,
    "richtung": "offen",
    "label": "Am Menschen geprüft, Ergebnisse unveröffentlicht",
-   "beleg": "Der Fall zeigt den Unterschied zwischen „nie am Menschen versucht\" und „versucht, Ergebnis nie veröffentlicht\": Der kroatische Hersteller Pliva führte Phase-II-Studien (PL-14736) bei Colitis ulcerosa durch, die positive Effekte ohne Toxizität gezeigt haben sollen – die vollständigen Daten wurden nie als eigenständige klinische Arbeit publiziert und sind damit nicht überprüfbar. Eine Phase-I-Studie an 42 Gesunden (NCT02637284) wurde 2016 abgebrochen, ohne Ergebnisse. Eine publizierte randomisierte kontrollierte Humanstudie existiert bis heute zu keiner Indikation; die belastbare Datenlage besteht aus Nagermodellen. Die Anwendung ist dagegen real und umfangreich: In den USA wurde BPC-157 jahrelang in Compounding-Apotheken hergestellt und in Sport- und Reha-Praxen eingesetzt. Die FDA stufte es 2023 wegen Immunogenität und Verunreinigungen in Kategorie 2 ein, nahm es am 15. April 2026 dort wieder heraus, und der Pharmacy Compounding Advisory Committee stimmte am 24. Juli 2026 mit 8 zu 6 dafür, es für die Indikation Colitis ulcerosa in Kategorie 1 aufzunehmen – unverbindlich, und legal herstellbar ist es derzeit nicht. Verkauft wird es als Reparaturmittel für nahezu jedes Gewebe. Die Anwendungserfahrung ist also erheblich – sie ersetzt die fehlende Evidenz nicht.",
+   "beleg": "Der Fall zeigt den Unterschied zwischen „nie am Menschen versucht\" und „versucht, Ergebnis nie veröffentlicht\": Der kroatische Hersteller Pliva führte Phase-II-Studien (PL-14736) bei Colitis ulcerosa durch, die positive Effekte ohne Toxizität gezeigt haben sollen – die vollständigen Daten wurden nie als eigenständige klinische Arbeit publiziert und sind damit nicht überprüfbar. Eine Phase-I-Studie an 42 Gesunden (NCT02637284) wurde 2016 abgebrochen, ohne Ergebnisse. Eine publizierte randomisierte kontrollierte Humanstudie existiert bis heute zu keiner Indikation; die belastbare Datenlage besteht aus Nagermodellen. Die Anwendung ist dagegen real und umfangreich: In den USA wurde BPC-157 jahrelang in Compounding-Apotheken hergestellt und in Sport- und Reha-Praxen eingesetzt. Die FDA stufte es 2023 wegen Immunogenität und Verunreinigungen in Kategorie 2 ein und nahm es am 15. April 2026 dort wieder heraus. Am 23./24. Juli 2026 beriet ein Expertengremium der FDA, ob BPC-157 für Rezepturarzneien in den USA zugelassen werden soll. Die FDA-Fachleute rieten ab, das Gremium stimmte dennoch mehrheitlich dafür (Stimmen 8:6, 1 Enthaltung). Eine Entscheidung der FDA steht aus; ein formelles Verfahren dürfte frühestens 2027 beginnen. Legal herstellbar ist es derzeit nicht. Verkauft wird es als Reparaturmittel für nahezu jedes Gewebe. Die Anwendungserfahrung ist also erheblich – sie ersetzt die fehlende Evidenz nicht.",
    "belegLuecke": "unveroeffentlicht",
    "berichtslage": {
     "stufe": 3,
@@ -1562,10 +1562,10 @@
    "mechanismus": 4,
    "sicherheit": 2,
    "hype": 1,
-   "anwendung": 4,
+   "anwendung": 3,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Die Humandaten betreffen Thymosin Beta-4 in klinischen Ansätzen, nicht das gehandelte Fragment; kontrollierte Studien zum Research-Produkt fehlen. Sicherheit unerforscht, Vermarktung als Regenerations-Wundermittel.",
+   "beleg": "Die Humandaten betreffen Thymosin Beta-4 in klinischen Ansätzen, nicht das gehandelte Fragment; kontrollierte Studien zum Research-Produkt fehlen. Sicherheit unerforscht, Vermarktung als Regenerations-Wundermittel. Anwendung 3 (bisher 4): Die Anwendung ist nur aus Anwenderberichten bekannt; die FDA fand keine Daten zur Exposition am Menschen.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Heilung – nie allein angewendet",
@@ -1585,11 +1585,11 @@
    "anwendung": 4,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Hier gibt es echte Humanstudien, auch über Monate, und sie zeigen mehr als nur den Mechanismus: Wachstumshormon und IGF-1 steigen, und die fettfreie Masse nimmt messbar zu – bei 65 gesunden Älteren über ein Jahr um 1,1 kg gegenüber −0,5 kg unter Placebo (Nass et al., Ann Intern Med 2008), bei 24 adipösen Männern schon nach acht Wochen (Svensson et al., JCEM 1998). Was in beiden Studien ausblieb: mehr Kraft, bessere Funktion, weniger Fett. Was dazukam: eine Verschlechterung der Glukosetoleranz, Wassereinlagerung, Hunger. Belegt ist die Wirkung auf die Hormonachse und die Magermasse; nicht belegt ist der Nutzen, mit dem geworben wird.",
+   "beleg": "Hier gibt es echte Humanstudien, auch über Monate, und sie zeigen mehr als nur den Mechanismus: Wachstumshormon und IGF-1 steigen, und die fettfreie Masse nimmt messbar zu – bei 65 gesunden Älteren über ein Jahr um 1,1 kg gegenüber −0,5 kg unter Placebo (Nass et al., Ann Intern Med 2008), bei 24 adipösen Männern schon nach acht Wochen (Svensson et al., JCEM 1998). Was in beiden Studien ausblieb: mehr Kraft, bessere Funktion, weniger Fett. Was dazukam: eine Verschlechterung der Glukosetoleranz, Wassereinlagerung, Hunger. Eine weitere Studie an 123 älteren Hüftfrakturpatienten wurde vorzeitig beendet, weil sich ein Signal für Herzinsuffizienz zeigte (Adunsky et al. 2011). Belegt ist die Wirkung auf die Hormonachse und die Magermasse; nicht belegt ist der Nutzen, mit dem geworben wird.",
    "berichtslage": {
     "stufe": 3,
     "kurz": "Hunger, IGF-1 und Magermasse messbar",
-    "was": "Hier berichten Anwender uebereinstimmend etwas sehr Spezifisches: heftigen Hunger binnen Stunden, Wassereinlagerung, tieferen Schlaf — und einen im Blutbild messbaren IGF-1-Anstieg, den viele selbst bestimmen lassen. Das ist keine Einbildung, und die Studien bestaetigen es ausdruecklich, bis hin zur Magermasse: In zwei randomisierten Studien stieg die fettfreie Masse signifikant. Was die Studien nicht fanden, ist der Schritt danach: mehr Kraft, mehr Funktion, weniger Fett. Die Berichte belegen also mehr als den Mechanismus — aber nicht den beworbenen Nutzen.",
+    "was": "Hier berichten Anwender übereinstimmend etwas sehr Spezifisches: heftigen Hunger binnen Stunden, Wassereinlagerung, tieferen Schlaf — und einen im Blutbild messbaren IGF-1-Anstieg, den viele selbst bestimmen lassen. Das ist keine Einbildung, und die Studien bestätigen es ausdrücklich, bis hin zur Magermasse: In zwei randomisierten Studien stieg die fettfreie Masse signifikant. Was die Studien nicht fanden, ist der Schritt danach: mehr Kraft, mehr Funktion, weniger Fett. Die Berichte belegen also mehr als den Mechanismus — aber nicht den beworbenen Nutzen.",
     "quellen": "Anwenderkreise · IGF-1-Selbstmessungen · deckungsgleich mit der Studienlage"
    }
   },
@@ -1632,14 +1632,14 @@
    "view": "experimental",
    "name": "Epitalon (Epithalon)",
    "url": "https://biohackingkompakt.de/thema/epitalon.html",
-   "evidenz": 2,
+   "evidenz": 0,
    "mechanismus": 3,
    "sicherheit": 2,
    "hype": 1,
    "anwendung": 5,
    "richtung": "offen",
-   "label": "Hype weit vor Evidenz",
-   "beleg": "Das einzige Peptid der Gruppe mit einer unabhängigen Bestätigung – aber nur in der Petrischale: Al-Dulaimi et al. (Biogerontology 2025, Brunel University London, ohne Chawinson als Autor) zeigten in normalen menschlichen Zellen eine dosisabhängige Telomerverlängerung über hTERT und Telomerase, in Krebszellen ebenfalls, dort über den ALT-Weg. Die Originalarbeit (Chawinson et al., Bull Exp Biol Med 2003) war Zellkultur an fetalen Fibroblasten. Bei Mäusen stieg die maximale Lebensdauer um 12,3 Prozent, die mittlere nicht. Die Humandaten – weniger Todesfälle über 12 Jahre bei älteren Herzpatienten – betreffen den Zirbeldrüsen-Extrakt Epithalamin und stammen aus derselben Arbeitsgruppe; randomisierte Studien, Pharmakokinetik oder registrierte Studien mit dem Tetrapeptid selbst sind nicht veröffentlicht (Übersicht 2026). Die Sicherheit am Menschen ist damit nicht systematisch untersucht, und eine Zulassung des Tetrapeptids in irgendeinem Land ließ sich nicht belegen; es wird ohne regulatorischen Rahmen als Research-Ware gehandelt. Beworben wird die Telomerverlängerung gleichwohl als Verjüngung.",
+   "label": "Nicht am Menschen untersucht",
+   "beleg": "Das einzige Peptid der Gruppe mit einer unabhängigen Bestätigung – aber nur in der Petrischale: Al-Dulaimi et al. (Biogerontology 2025, Brunel University London, ohne Chawinson als Autor) zeigten in normalen menschlichen Zellen eine dosisabhängige Telomerverlängerung über hTERT und Telomerase, in Krebszellen ebenfalls, dort über den ALT-Weg. Die Originalarbeit (Chawinson et al., Bull Exp Biol Med 2003) war Zellkultur an fetalen Fibroblasten. Bei Mäusen stieg die maximale Lebensdauer um 12,3 Prozent, die mittlere nicht. Die Humandaten – weniger Todesfälle über 12 Jahre bei älteren Herzpatienten – betreffen den Zirbeldrüsen-Extrakt Epithalamin und stammen aus derselben Arbeitsgruppe; randomisierte Studien, Pharmakokinetik oder registrierte Studien mit dem Tetrapeptid selbst sind nicht veröffentlicht (Übersicht 2026). Deshalb Human-Evidenz 0: Für Epitalon selbst gibt es keine Humandaten, die Epithalamin-Daten zählen nicht für das Tetrapeptid. Die Sicherheit am Menschen ist damit nicht systematisch untersucht, und eine Zulassung des Tetrapeptids in irgendeinem Land ließ sich nicht belegen; es wird ohne regulatorischen Rahmen als Research-Ware gehandelt. Beworben wird die Telomerverlängerung gleichwohl als Verjüngung.",
    "berichtslage": {
     "stufe": 1,
     "kurz": "Viele Berichte, alle aus dem Anbieterkreis",
@@ -1666,14 +1666,14 @@
    "view": "experimental",
    "name": "Dihexa",
    "url": "https://biohackingkompakt.de/thema/dihexa.html",
-   "evidenz": 1,
+   "evidenz": 0,
    "mechanismus": 4,
    "sicherheit": 1,
    "hype": 1,
    "anwendung": 2,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Die mechanistische Schlüsselarbeit ist zurückgezogen, das darauf aufgebaute Medikament in Phase 2/3 gescheitert, registrierte klinische Studien zur Substanz selbst gibt es nicht. Sicherheit völlig unerforscht. Siehe Änderungsprotokoll."
+   "beleg": "Die mechanistische Schlüsselarbeit ist zurückgezogen, die Einführungsarbeit von 2013 steht unter Expression of Concern. Das nach demselben Prinzip entwickelte, chemisch andere Medikament Fosgonimeton ist in Phase 2/3 gescheitert. Zu Dihexa selbst gibt es am Menschen keinerlei Daten, auch keine registrierte klinische Studie. Sicherheit völlig unerforscht. Siehe Änderungsprotokoll."
   },
   {
    "id": "metformin",
@@ -1705,7 +1705,7 @@
    "berichtslage": {
     "stufe": 3,
     "kurz": "Klare Effekte, auch ohne belegten Mangel",
-    "was": "Kaum ein Thema hat so einheitliche Berichte: mehr Antrieb, bessere Stimmung, mehr Libido, oft schon nach zwei bis drei Wochen. Das ist spezifisch, kurzfristig und glaubwuerdig — und es deckt sich mit der Studienlage, denn bei diagnostiziertem Mangel ist die Wirkung unbestritten. Der Haken liegt woanders: Dieselben Effekte werden auch von Maennern mit normalen Ausgangswerten berichtet, und fuer genau diese Gruppe gibt es keine Zulassungsstudie. Die Berichte belegen hier also, dass der Stoff wirkt — nicht, dass die Behandlung angezeigt war. Das ist der Unterschied, den die Werbung verwischt.",
+    "was": "Kaum ein Thema hat so einheitliche Berichte: mehr Antrieb, bessere Stimmung, mehr Libido, oft schon nach zwei bis drei Wochen. Das ist spezifisch, kurzfristig und glaubwuerdig — und es deckt sich mit der Studienlage, denn bei diagnostiziertem Mangel ist die Wirkung unbestritten. Der Haken liegt woanders: Dieselben Effekte werden auch von Männern mit normalen Ausgangswerten berichtet, und für genau diese Gruppe gibt es keine Zulassungsstudie. Die Berichte belegen hier also, dass der Stoff wirkt — nicht, dass die Behandlung angezeigt war. Das ist der Unterschied, den die Werbung verwischt.",
     "quellen": "Anwenderkreise · Praxisberichte · deckungsgleich mit der Studienlage"
    }
   },
@@ -1721,7 +1721,7 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Für Wachstumshormonmangel und definierte Syndrome liegen Phase-III- und Registerdaten aus vier Jahrzehnten vor – für die Anti-Aging-Anwendung nichts Vergleichbares. Die dafür stets zitierte Rudman-Arbeit (NEJM 1990) umfasste 21 Männer, war unkontrolliert und kurz. Bekannt sind bei supraphysiologischer Dosierung Ödeme, Karpaltunnelsyndrom und Insulinresistenz. Rechtlich ist Somatropin verschreibungspflichtig; Erwerb ohne Rezept ab der in der Dopingmittel-Mengen-Verordnung genannten Menge ist nach dem Anti-Doping-Gesetz strafbar."
+   "beleg": "Für Wachstumshormonmangel und definierte Syndrome liegen Phase-III- und Registerdaten aus vier Jahrzehnten vor – für die Anti-Aging-Anwendung nichts Vergleichbares. Die dafür stets zitierte Rudman-Arbeit (NEJM 1990) umfasste 21 Männer, 12 behandelte und 9 unbehandelte Vergleichspersonen, war nicht randomisiert und kurz. Bei gesunden Älteren zeigt die Übersicht von Liu 2007 nur eine moderat veränderte Körperzusammensetzung ohne Funktionsgewinn, bei mehr Nebenwirkungen. Bekannt sind bei supraphysiologischer Dosierung Ödeme, Karpaltunnelsyndrom und Insulinresistenz. Rechtlich ist Somatropin verschreibungspflichtig; Erwerb ohne Rezept ab der in der Dopingmittel-Mengen-Verordnung genannten Menge ist nach dem Anti-Doping-Gesetz strafbar."
   },
   {
    "id": "tesamorelin",
@@ -1730,12 +1730,12 @@
    "url": "https://biohackingkompakt.de/thema/tesamorelin.html",
    "evidenz": 7,
    "mechanismus": 8,
-   "sicherheit": 7,
+   "sicherheit": 6,
    "hype": 3,
    "anwendung": 5,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "In den USA seit 2010 zugelassen – aber für eine sehr spezielle Gruppe: die Reduktion viszeralen Fetts bei HIV-assoziierter Lipodystrophie, belegt durch Phase-III-Studien. In der EU existiert diese Zulassung nicht; der Antragsteller zog den Antrag bei der EMA zurück. Als GHRH-Analogon ist die Stimulation der körpereigenen Wachstumshormonausschüttung am Menschen bestätigt. Für Gesunde ohne Lipodystrophie – die beworbene Zielgruppe – wurde keine kontrollierte Studie gefunden."
+   "beleg": "In den USA seit 2010 zugelassen – aber für eine sehr spezielle Gruppe: die Reduktion viszeralen Fetts bei HIV-assoziierter Lipodystrophie, belegt durch Phase-III-Studien. In der EU existiert diese Zulassung nicht; der Antragsteller zog den Antrag bei der EMA zurück. Als GHRH-Analogon ist die Stimulation der körpereigenen Wachstumshormonausschüttung am Menschen bestätigt. Für Gesunde ohne Lipodystrophie – die beworbene Zielgruppe – wurde keine kontrollierte Studie gefunden. Sicherheit 6 (bisher 7): Langzeitdaten fehlen, beide Langzeit-Sicherheitsstudien wurden abgebrochen, und laut US-Fachinformation ist die langfristige kardiovaskuläre Sicherheit nicht belegt."
   },
   {
    "id": "sermorelin",
@@ -1782,7 +1782,7 @@
    "view": "experimental",
    "name": "Mod GRF 1-29 (CJC-1295 ohne DAC)",
    "url": "https://biohackingkompakt.de/thema/mod-grf-1-29.html",
-   "evidenz": 1,
+   "evidenz": 0,
    "mechanismus": 5,
    "sicherheit": 1,
    "hype": 1,
@@ -1809,7 +1809,7 @@
    "anwendung": 3,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Dass GHRP-2 beim Menschen kräftig Wachstumshormon freisetzt, ist so sicher belegt, dass es in Japan als Diagnostikum dient (Chihara 2007, 77 Gesunde, 58 Patienten). Unter 30 Tagen Dauerinfusion bei gesunden Älteren stiegen GH und IGF-1 anhaltend (Bowers 2004, 17 Teilnehmer), bei kritisch Kranken normalisierte es IGF-1 (Van den Berghe 2002, RCT, 33 Männer). Die größte kontrollierte Studie verfehlte aber den klinischen Endpunkt: Bei 126 Kindern mit Wachstumshormonmangel stiegen über 48 Wochen weder Wachstum noch IGF-1 (Tanaka 2014, doppelblind). Gut belegt ist die Appetitsteigerung (Laferrère 2005, 35,9 % mehr Nahrung), ebenso der Mitanstieg von Prolaktin, ACTH und Cortisol (Arvat 1997). Für Muskelaufbau oder Fettabbau bei Gesunden gibt es keine Studie, Langzeitsicherheitsdaten fehlen, und die FDA führt GHRP-2 seit 2023 als Wirkstoff mit möglichen erheblichen Sicherheitsrisiken.",
+   "beleg": "Dass GHRP-2 beim Menschen kräftig Wachstumshormon freisetzt, ist so sicher belegt, dass es in Japan als Diagnostikum dient (Chihara 2007, 77 Gesunde, 58 Patienten). Unter 30 Tagen Dauerinfusion bei gesunden Älteren stiegen GH und IGF-1 anhaltend (Bowers 2004, 17 Teilnehmer), bei kritisch Kranken normalisierte es IGF-1 (Van den Berghe 2002, RCT, 33 Männer). Die größte kontrollierte Studie verfehlte aber den klinischen Endpunkt: Bei 126 Kindern mit Wachstumshormonmangel stiegen über 48 Wochen weder Wachstum noch IGF-1 (Tanaka 2014, doppelblind). Gut belegt ist die Appetitsteigerung (Laferrère 2005, 35,9 % mehr Nahrung), ebenso der Mitanstieg von Prolaktin, ACTH und Cortisol (Arvat 1997). Für Muskelaufbau oder Fettabbau bei Gesunden gibt es keine Studie, Langzeitsicherheitsdaten fehlen, und die FDA führt GHRP-2 zur Injektion und als Nasenspray seit 2023 in Kategorie 2 der 503B-Übergangsregelung, als Wirkstoff mit möglichen erheblichen Sicherheitsrisiken.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Tieferer Schlaf, kaum Hungerschub",
@@ -1931,7 +1931,7 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Seit Jahrzehnten zugelassen und mechanistisch klar: Über den LH-Rezeptor erhält hCG die Leydigzellfunktion. Eine Übersicht (Transl Androl Urol 2018) fasst Studien zusammen, in denen zuvor azoosperme Männer nach im Mittel vier Monaten wieder auf durchschnittlich 22 Millionen Spermien pro Milliliter kamen. Die Kombination mit einer Testosterontherapie zum Fertilitätserhalt ist mechanistisch gut begründet, aber Off-Label. Die als hCG-Diät verbreitete Anwendung zur Gewichtsreduktion ist dagegen widerlegt: 14 randomisierte Studien mit 605 Teilnehmern, in 12 davon kein Vorteil gegenüber Placebo oder Diät allein."
+   "beleg": "Seit Jahrzehnten zugelassen und mechanistisch klar: Über den LH-Rezeptor erhält hCG die Leydigzellfunktion. Eine Übersicht (Transl Androl Urol 2018) fasst Studien zusammen, in denen zuvor azoosperme Männer nach im Mittel vier Monaten wieder auf durchschnittlich 22 Millionen Spermien pro Milliliter kamen. Die Kombination mit einer Testosterontherapie zum Fertilitätserhalt ist mechanistisch gut begründet, aber Off-Label; am Menschen gestützt durch eine kleine randomisierte Studie zum Testosteron im Hoden (Coviello 2005) und eine retrospektive Auswertung, in der keiner von 26 Männern azoosperm wurde (Hsieh 2013), kontrollierte Fruchtbarkeitsdaten fehlen. Die als hCG-Diät verbreitete Anwendung zur Gewichtsreduktion ist dagegen widerlegt: 14 randomisierte Studien mit 605 Teilnehmern, in 12 davon kein Vorteil gegenüber Placebo oder Diät allein."
   },
   {
    "id": "pt-141",
@@ -2001,7 +2001,7 @@
    "anwendung": 4,
    "richtung": "positiv",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "REDEFINE 1 (NEJM 2025) randomisierte 3.417 Teilnehmer über 68 Wochen und erreichte 20,4 Prozent Gewichtsreduktion gegenüber 2,3 Prozent unter Placebo, bei voller Therapietreue 22,7 Prozent. Bemerkenswert ist, was danach passierte: Das intern kommunizierte Ziel von 25 Prozent wurde verfehlt, was den Aktienkurs bewegte – die Zahl selbst bleibt eine der höchsten, die je in einer Adipositasstudie erreicht wurde. Die Kombination aus Amylin-Analogon und Semaglutid ist am Menschen bestätigt. Abbruch wegen Nebenwirkungen: 6 gegenüber 3,7 Prozent."
+   "beleg": "REDEFINE 1 (NEJM 2025) randomisierte 3.417 Teilnehmer über 68 Wochen und erreichte 20,4 Prozent Gewichtsreduktion gegenüber 3,0 Prozent unter Placebo, bei voller Therapietreue 22,7 Prozent. Bemerkenswert ist, was danach passierte: Das intern kommunizierte Ziel von 25 Prozent wurde verfehlt, was den Aktienkurs bewegte – die Zahl selbst bleibt eine der höchsten, die je in einer Adipositasstudie erreicht wurde. Die Kombination aus Amylin-Analogon und Semaglutid ist am Menschen bestätigt. Abbruch wegen Nebenwirkungen: 6 gegenüber 3,7 Prozent. Im direkten Vergleich mit Tirzepatid (REDEFINE 4, 84 Wochen) verfehlte CagriSema mit 23,0 gegenüber 25,5 Prozent die Nichtunterlegenheit."
   },
   {
    "id": "amycretin",
@@ -2043,7 +2043,7 @@
    "anwendung": 3,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Die Phase-II-Studie (NEJM 2025, NCT05669599) umfasste 592 Teilnehmer in 11 Gruppen über 52 Wochen und erreichte ihren primären Endpunkt: 12,3 bis 16,2 Prozent Gewichtsreduktion ohne Diabetes gegenüber 2,5 Prozent unter Placebo, mit Diabetes 8,4 bis 12,3 Prozent gegenüber 1,7 Prozent, HbA1c minus 1,2 bis minus 1,6 Prozentpunkte. Die oft zitierten Werte um 20 Prozent stehen so nicht in der Publikation – erreicht haben mindestens 20 Prozent Abnahme 23,4 bis 38,5 Prozent der Behandelten, unter Placebo niemand. Das Besondere ist die monatliche Gabe, ermöglicht durch die Kopplung von Peptid und Antikörper. Wenig beworben wird der Muskelverlust: 8,6 bis 11,6 Prozent der gesamten Muskelmasse gegenüber 2,1 Prozent unter Placebo. Phase III läuft breit, darunter eine kardiovaskuläre Endpunktstudie mit 12.800 geplanten Teilnehmern; Daten über ein Jahr hinaus und jeder direkte Vergleich mit Semaglutid oder Tirzepatid fehlen. Das Bequemlichkeitsargument wird beworben, bevor die Bestätigungsstudien vorliegen."
+   "beleg": "Die Phase-II-Studie (NEJM 2025, NCT05669599) umfasste 592 Teilnehmer in 11 Gruppen über 52 Wochen und erreichte ihren primären Endpunkt: 12,3 bis 16,2 Prozent Gewichtsreduktion ohne Diabetes gegenüber 2,5 Prozent unter Placebo, mit Diabetes 8,4 bis 12,3 Prozent gegenüber 1,7 Prozent, HbA1c minus 1,2 bis minus 1,6 Prozentpunkte. Die oft zitierten Werte um 20 Prozent stehen so nicht in der Publikation – erreicht haben mindestens 20 Prozent Abnahme 23,4 bis 38,5 Prozent der Behandelten, unter Placebo niemand. Das Besondere ist die monatliche Gabe, ermöglicht durch die Kopplung von Peptid und Antikörper. Wenig beworben wird der Verlust an fettfreier Masse: 8,6 bis 11,6 Prozent, per DXA gemessen, gegenüber 2,1 Prozent unter Placebo. Phase III läuft breit, darunter eine kardiovaskuläre Endpunktstudie mit 12.800 geplanten Teilnehmern; publizierte Daten über ein Jahr hinaus und jeder direkte Vergleich mit Semaglutid oder Tirzepatid fehlen, zum zweiten Studienjahr gibt es bisher nur Herstellerangaben. Das Bequemlichkeitsargument wird beworben, bevor die Bestätigungsstudien vorliegen."
   },
   {
    "id": "mazdutide",
@@ -2159,7 +2159,7 @@
    "anwendung": 4,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Hier ist die Trennung zwischen Wirkprinzip und Produkt entscheidend. Das Prinzip, der Dreifach-Agonismus an GLP-1-, GIP- und Glucagon-Rezeptoren, ist am Menschen sehr gut belegt: Retatrutid erreichte in Phase 2 bis zu 24,2 Prozent Gewichtsverlust nach 48 Wochen (Jastreboff 2023) und in TRIUMPH-1 mit 2.339 Teilnehmern laut Hersteller bis zu 28,3 Prozent nach 80 Wochen; deshalb steht der Mechanismus hoch, die Bewertung des Wirkstoffs findet sich beim Eintrag Retatrutid. Ein Hormon namens GLP-3 existiert nicht, der Name ist ein Szene-Spitzname, und die Ware ist weder chargenkontrolliert noch identisch mit dem Studienwirkstoff. Zu ihr gibt es inzwischen erste Humandaten, beide nicht begutachtet: In US-Patientenakten verloren Graumarkt-Nutzer im Mittel 7,2 Prozent nach 6 bis 12 Monaten, Studienteilnehmer 15,5 Prozent, bei mehr Herz-Kreislauf-Beschwerden (Murugadoss 2026), und eine Reddit-Auswertung zählte 13.589 Anwender (Sehgal 2026). Die Nutzung ist damit verbreitet und wächst, eine kontrollierte Studie oder Sicherheitsbewertung für die Ware gibt es nicht."
+   "beleg": "Hier ist die Trennung zwischen Wirkprinzip und Produkt entscheidend: Bewertet wird die als „GLP-3“ verkaufte Graumarkt-Ware, nicht das pharmazeutische Retatrutid von Eli Lilly. Das Prinzip, der Dreifach-Agonismus an GLP-1-, GIP- und Glucagon-Rezeptoren, ist am Menschen sehr gut belegt: Retatrutid erreichte in Phase 2 bis zu 24,2 Prozent Gewichtsverlust nach 48 Wochen (Jastreboff 2023) und laut Hersteller in TRIUMPH-1 mit 2.339 Teilnehmern bis zu 28,3 Prozent nach 80 Wochen, in TRIUMPH-2 bei Typ-2-Diabetes bis zu 20,8 und in TRIUMPH-3 bei schwerer Adipositas mit Herz-Kreislauf-Erkrankung bis zu 22,6 Prozent; deshalb steht der Mechanismus hoch, die Bewertung des Wirkstoffs findet sich beim Eintrag Retatrutid. Ein Hormon namens GLP-3 existiert nicht, der Name ist ein Szene-Spitzname, und die Ware ist weder chargenkontrolliert noch identisch mit dem Studienwirkstoff. Zu ihr gibt es inzwischen erste Humandaten, beide nicht begutachtet: In US-Patientenakten verloren Graumarkt-Nutzer im Mittel 7,2 Prozent nach 6 bis 12 Monaten, Studienteilnehmer 15,5 Prozent, bei mehr Herz-Kreislauf-Beschwerden (Murugadoss 2026), und eine Reddit-Auswertung zählte 13.589 Anwender (Sehgal 2026). Die Nutzung ist damit verbreitet und wächst, eine kontrollierte Studie oder Sicherheitsbewertung für die Ware gibt es nicht."
   },
   {
    "id": "adipotide",
@@ -2182,12 +2182,12 @@
    "url": "https://biohackingkompakt.de/thema/aod-9604.html",
    "evidenz": 5,
    "mechanismus": 5,
-   "sicherheit": 4,
+   "sicherheit": 5,
    "hype": 1,
    "anwendung": 2,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 534 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm."
+   "beleg": "Hier gibt es eine große Studie – und sie ist negativ: Die Phase-IIb-Studie mit 534 Teilnehmern über 24 Wochen verfehlte 2007 ihren primären Endpunkt, es gab keinen signifikanten Gewichtsunterschied zu Placebo – nach Firmenangaben; begutachtet veröffentlicht wurde die Studie nie. Die Entwicklung wurde eingestellt, eine Phase III nie begonnen. Werbeseiten zitieren fast ausschließlich die frühe positive Pilotstudie und verschweigen das gescheiterte größere Programm. Sicherheit 5 (bisher 4): Die Sicherheitsdaten der 6 randomisierten Studien erschienen 2013 als gepoolte Auswertung in einer Fachzeitschrift, mitverfasst vom Entwickler."
   },
   {
    "id": "bimagrumab",
@@ -2235,7 +2235,7 @@
    "anwendung": 2,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Drei sehr verschiedene Dinge tragen denselben Namen. Die Gentherapie wurde in kleinen Phase-1/2a-Studien bei Muskeldystrophie und Einschlusskörperchen-Myositis geprüft; der Myostatin-Antikörper Apitegromab erreichte in Phase III bei spinaler Muskelatrophie seinen Endpunkt. Beides sind Behandlungen schwerer Erkrankungen. Zu dem als Follistatin-344 verkauften injizierbaren Peptid wurden keine Humanstudien gefunden. Genau diese Vermischung ist das Problem: Seriöse Krankheitsstudien werden als Beleg für ein anderes, ungeprüftes Produkt herangezogen."
+   "beleg": "Drei sehr verschiedene Dinge tragen denselben Namen. Die Gentherapie wurde in kleinen Phase-1/2a-Studien bei Muskeldystrophie und Einschlusskörperchen-Myositis geprüft; der Myostatin-Antikörper Apitegromab erreichte in Phase III bei spinaler Muskelatrophie seinen Endpunkt und ist seit September 2026 in den USA dafür zugelassen. Beides sind Behandlungen schwerer Erkrankungen. Zu dem als Follistatin-344 verkauften injizierbaren Peptid wurden keine Humanstudien gefunden. Genau diese Vermischung ist das Problem: Seriöse Krankheitsstudien werden als Beleg für ein anderes, ungeprüftes Produkt herangezogen."
   },
   {
    "id": "selank",
@@ -2269,7 +2269,7 @@
    "anwendung": 5,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren Studien, etwa Gusev et al. 1997 mit 30 Patienten nach ischämischem Schlaganfall gegen 80 Kontrollen und 2005 mit 187 Patienten, sind ausnahmslos russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist tierexperimentell gezeigt, der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz. Und die Studienlage gilt für Semax, nicht für das im Handel übliche NA-Semax Amidat. Einzige gefundene placebokontrollierte Humanarbeit: Lebedeva 2018 (24 Gesunde, 14 Semax/10 Placebo, fMRT nach 5 und 20 min, Veränderung im Default-Mode-Netzwerk; Surrogat, Entwickler als Koautor). FDA-Briefing 2026: ischämiebezogene Literatur nur auf Russisch, unkontrollierte Migränestudie, „insufficient evidence of effectiveness“, keine Akut- oder Wiederholungstoxizitätsstudien vorgelegt.",
+   "beleg": "In Russland als Arzneimittel registriert, im Westen nicht – und die Evidenz erklärt, warum: Die auffindbaren klinischen Studien, etwa Gusev et al. 1997 mit 30 Patienten nach ischämischem Schlaganfall gegen 80 Kontrollen und 2005 mit 187 Patienten mit chronischer Minderdurchblutung des Gehirns, sind fast ausschließlich russischsprachig und stammen im Wesentlichen aus denselben zwei Arbeitsgruppen. Eine unabhängige Doppelblind-Replikation in einem internationalen Journal wurde nicht gefunden. Die BDNF-Erhöhung als Wirkmechanismus ist vorklinisch gezeigt und am Menschen nur in einer nicht randomisierten Studie gemessen (Gusev 2018, BDNF im Blut), der klinische Nutzen daraus nicht. Keine westliche Pharmakovigilanz. Und die Studienlage gilt für Semax, nicht für das im Handel übliche NA-Semax Amidat. Einzige gefundene placebokontrollierte Humanarbeit: Lebedeva 2018 (24 Gesunde, 14 Semax/10 Placebo, fMRT nach 5 und 20 min, Veränderung im Default-Mode-Netzwerk; Surrogat, Entwickler als Koautor). FDA-Briefing 2026: ischämiebezogene Literatur nur auf Russisch, unkontrollierte Migränestudie, „insufficient evidence of effectiveness“, keine Akut- oder Wiederholungstoxizitätsstudien vorgelegt.",
    "berichtslage": {
     "stufe": 2,
     "kurz": "Wach und fokussiert binnen Minuten",
@@ -2302,14 +2302,14 @@
    "view": "experimental",
    "name": "MOTS-c",
    "url": "https://biohackingkompakt.de/thema/mots-c.html",
-   "evidenz": 1,
+   "evidenz": 0,
    "mechanismus": 4,
    "sicherheit": 1,
    "hype": 1,
    "anwendung": 4,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Alle Humandaten sind Messungen des körpereigenen Spiegels: nach dem Training stieg MOTS-c bei 10 jungen Männern im Muskel 11,9-fach (Reynolds, Nat Commun 2021), im Blut ist es bei 70- bis 81-Jährigen um 21 % niedriger, im Muskel dagegen höher (D'Souza, Aging 2020), bei 107 Patienten nach Herz-Lungen-Maschine gingen niedrigere Werte mit Lungenschädigung einher. Eine abgeschlossene klinische Studie mit Gabe von MOTS-c am Menschen gibt es nicht (USADA). Insulinsensitivität, Ausdauer und Gewichtseffekte stammen aus Maus- und Zellmodellen (Lee, Cell Metab 2015; Kim, Cell Metab 2018). Die Verbindung zu Hundertjährigen ist ein Hypothesenpapier zu einer Genvariante (Fuku, Aging Cell 2015). Sicherheitsdaten existieren praktisch nicht. Die Anwendung ist trotzdem verbreitet: Laut USADA wird MOTS-c von Anti-Aging-Kliniken und in sozialen Medien breit beworben; seit 2024 steht es auf der WADA-Liste."
+   "beleg": "Alle Humandaten sind Messungen des körpereigenen Spiegels: nach dem Training stieg MOTS-c bei 10 jungen Männern im Muskel 11,9-fach (Reynolds, Nat Commun 2021), im Blut ist es bei 70- bis 81-Jährigen um 21 % niedriger, im Muskel dagegen höher (D'Souza, Aging 2020), bei 107 Patienten nach Herz-Lungen-Maschine gingen niedrigere Werte mit Lungenschädigung einher. Eine abgeschlossene klinische Studie mit Gabe von MOTS-c am Menschen gibt es nicht (USADA); eine placebokontrollierte Phase-2a-Studie mit 120 geplanten Teilnehmern rekrutiert seit Februar 2026 (NCT07505745). Insulinsensitivität, Ausdauer und Gewichtseffekte stammen aus Maus- und Zellmodellen (Lee, Cell Metab 2015; Kim, Cell Metab 2018). Die Verbindung zu Hundertjährigen ist ein Hypothesenpapier zu einer Genvariante (Fuku, Aging Cell 2015). Sicherheitsdaten existieren praktisch nicht. Die Anwendung ist trotzdem verbreitet: Laut USADA wird MOTS-c von Anti-Aging-Kliniken und in sozialen Medien breit beworben; seit 2024 steht es auf der WADA-Liste."
   },
   {
    "id": "ss-31",
@@ -2323,7 +2323,7 @@
    "anwendung": 3,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Viel geprüft, wenig Ergebnis – und am Ende doch eine Zulassung: Die Phase-III-Studie MMPOWER-3 bei primärer mitochondrialer Myopathie (Neurology 2023) verfehlte beide gleichrangigen Hauptendpunkte. Im September 2025 hat die US-Behörde Elamipretid dennoch für das Barth-Syndrom zugelassen, gestützt auf eine offene Studie ohne Verblindung mit 10 Patienten bei einer Krankheit, die etwa 1 von 350.000 Menschen betrifft. Zur altersbedingten Makuladegeneration läuft ein Programm am Menschen, ein Ergebnis liegt nicht vor. Die Stabilisierung der mitochondrialen Membran über Cardiolipin ist mechanistisch plausibel und die Verträglichkeit gut untersucht. Verkauft wird die Substanz trotzdem als belegter Mitochondrien-Fix."
+   "beleg": "Viel geprüft, wenig Ergebnis – und am Ende doch eine Zulassung: Die Phase-III-Studie MMPOWER-3 bei primärer mitochondrialer Myopathie (Neurology 2023) verfehlte beide gleichrangigen Hauptendpunkte. Im September 2025 hat die US-Behörde Elamipretid dennoch für das Barth-Syndrom zugelassen, bei einer Krankheit, die etwa 1 von 350.000 Menschen betrifft: Die randomisierte Crossover-Studie mit 12 Patienten verfehlte ihre Hauptendpunkte, die beschleunigte Zulassung (ab 30 kg) stützt sich auf die Kniestreckerkraft in der offenen Verlängerung mit 10 Patienten; eine Bestätigungsstudie mit 48 Patienten läuft seit Juli 2026. Zur trockenen Makuladegeneration verfehlte eine Phase-2-Studie mit 176 Patienten ihre Hauptendpunkte, eine Phase-3-Studie läuft. Die Stabilisierung der mitochondrialen Membran über Cardiolipin ist mechanistisch plausibel und die Verträglichkeit gut untersucht. Verkauft wird die Substanz trotzdem als belegter Mitochondrien-Fix."
   },
   {
    "id": "humanin",
@@ -2455,7 +2455,7 @@
    "anwendung": 2,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "evidenz 5: Am Menschen liegen zwar mehrere Studien vor, aber nur zwei davon sind randomisiert und kontrolliert – 12 Teilnehmer bei Lungenfibrose und 60 Frauen über 20 Wochen –, der Rest sind unkontrollierte Serien mit 9, 14 und 5 Teilnehmern, durchweg auf Surrogat- und Funktionsmarker angelegt. mechanismus 7: Die Zielstruktur ist am Menschen bestätigt, nicht nur plausibel – Biopsien nach 3 Tabletten-Tagen zeigten 35 % weniger seneszente Zellen im Fettgewebe, einen weiteren Marker −62 % und gesunkene Entzündungsstoffe im Blut; die Kette bis zum klinischen Ergebnis ist jedoch nicht quantifiziert. sicherheit 4: nur Kurzzeitdaten für diese Anwendung – 60 Frauen über 20 Wochen, wenige Dutzend Menschen über wenige Wochen, 16 Affen; das Dasatinib-Profil (Pleuraerguss, Knochenmarksuppression, Blutungen) stammt aus der Dauertherapie bei Leukämie. hype 3: Zitiert wird die offene Lungenfibrose-Studie, die kontrollierte Wiederholung mit dem Nullergebnis kaum – ein Einzelbefund wird zur Gesamtaussage. anwendung 2: Anwendung nur in Studien und kleinen Graumarktkreisen, für Altern existiert keine Verordnungsmöglichkeit. richtung negativ statt „gemischt\" (kein zulässiger Wert): Beide Male, wenn ein Placebo danebenstand, wurde der Nutzen kleiner oder verschwand – bei der Lungenfibrose vollständig, beim Knochenstoffwechsel auf dem primären Endpunkt (−4,1 % gegen −7,7 %, p = 0,61)."
+   "beleg": "evidenz 5: Am Menschen liegen zwar mehrere Studien vor, aber nur zwei davon sind randomisiert und kontrolliert – 12 Teilnehmer bei Lungenfibrose und 60 Frauen über 20 Wochen –, der Rest sind unkontrollierte Serien mit 9, 14 und 5 Teilnehmern, durchweg auf Surrogat- und Funktionsmarker angelegt. mechanismus 7: Die Zielstruktur ist am Menschen bestätigt, nicht nur plausibel – Biopsien nach 3 Tabletten-Tagen zeigten 35 % weniger seneszente Zellen im Fettgewebe, einen weiteren Marker −62 % und gesunkene Entzündungsstoffe im Blut; die Kette bis zum klinischen Ergebnis ist jedoch nicht quantifiziert. sicherheit 4: nur Kurzzeitdaten für diese Anwendung – 60 Frauen über 20 Wochen, wenige Dutzend Menschen über wenige Wochen, 16 Affen; das Dasatinib-Profil (Pleuraerguss, Knochenmarksuppression, Blutungen) stammt aus der Dauertherapie bei Leukämie. hype 3: Zitiert wird die offene Lungenfibrose-Studie, die kontrollierte Wiederholung mit dem Nullergebnis kaum – ein Einzelbefund wird zur Gesamtaussage. anwendung 2: Anwendung nur in Studien und kleinen Graumarktkreisen, für Altern existiert keine Zulassung, nur die Off-Label-Verordnung in ärztlicher Verantwortung. richtung negativ statt „gemischt\" (kein zulässiger Wert): Beide Male, wenn ein Placebo danebenstand, wurde der Nutzen kleiner oder verschwand – bei der Lungenfibrose vollständig, beim Knochenstoffwechsel auf dem primären Endpunkt (−4,1 % gegen −7,7 %, p = 0,61)."
   },
   {
    "id": "larazotide",
@@ -2531,7 +2531,7 @@
    "anwendung": 3,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Es wurde keine einzige Studie zu dieser Kombination gefunden; der behauptete Kombinationseffekt ist eine Addition von Einzelbefunden. Am besten belegt ist GHK-Cu als Creme: Eine systematische Übersicht von 2026 fand 20 Studien, davon 18 präklinisch und 2 randomisierte Studien mit weniger Falten gegenüber Kontrollen – für die Injektion gibt es keine Daten. BPC-157 stützt sich auf 36 Studien, davon 35 präklinisch, ohne klinische Sicherheitsdaten (Vasireddi 2025); TB-500 hat nur Daten der Muttersubstanz Thymosin Beta-4. Mechanismus 3, weil jede Zutat eine plausible Zell- und Tierbasis hat, das Zusammenspiel aber ungeprüft ist. Sicherheit 0, weil zur injizierten Mischung nichts systematisch untersucht ist; die FDA nennt Immunreaktionen, Zusammenlagerung und Verunreinigungen als Risiken und führt alle drei Stoffe heute unter zurückgezogenen Nominierungen (früher Kategorie 2). Hype 1: Die Einzelteile haben eine Grundlage, die Übertragung auf die injizierte Kombination als „Hautverjüngung von innen“ nicht. Anwendung 3: in der Szene verbreitet als Fertig-Blend, ohne Studien."
+   "beleg": "Es wurde keine einzige Studie zu dieser Kombination gefunden; der behauptete Kombinationseffekt ist eine Addition von Einzelbefunden. Am besten belegt ist GHK-Cu als Creme: Eine systematische Übersicht von 2026 fand 20 Studien, davon 18 präklinisch und 2 randomisierte Studien mit weniger Falten gegenüber Kontrollen – für die Injektion gibt es keine Daten. BPC-157 stützt sich auf 36 Studien, davon 35 präklinisch, ohne klinische Sicherheitsdaten (Vasireddi 2025); TB-500 hat nur Daten der Muttersubstanz Thymosin Beta-4. Mechanismus 3, weil jede Zutat eine plausible Zell- und Tierbasis hat, das Zusammenspiel aber ungeprüft ist. Sicherheit 0, weil zur injizierten Mischung nichts systematisch untersucht ist; die FDA nennt Immunreaktionen, Zusammenlagerung und Verunreinigungen als Risiken und führt alle drei Stoffe auf ihrer Risikoseite unter zurückgezogenen Nominierungen (früher Kategorie 2); über BPC-157 und TB-500 beriet im Juli 2026 ein FDA-Gremium, eine Entscheidung der FDA steht aus. Hype 1: Die Einzelteile haben eine Grundlage, die Übertragung auf die injizierte Kombination als „Hautverjüngung von innen“ nicht. Anwendung 3: in der Szene verbreitet als Fertig-Blend, ohne Studien."
   },
   {
    "id": "klow-stack",
@@ -2566,14 +2566,14 @@
    "view": "experimental",
    "name": "KPV",
    "url": "https://biohackingkompakt.de/thema/kpv.html",
-   "evidenz": 1,
+   "evidenz": 0,
    "mechanismus": 5,
    "sicherheit": 1,
    "hype": 3,
    "anwendung": 2,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Evidenz 1, weil keine Studie am Menschen existiert: Die FDA hat im Verfahren zu Ausgangsstoffen für Rezepturarzneien festgehalten, dass sie zu KPV keinerlei Daten zur Anwendung am Menschen gefunden hat, über keinen Verabreichungsweg; eine eigene Suche in Europe PMC und ClinicalTrials.gov bestätigt das. Die humanbezogenen Arbeiten sind Zellversuche: Elliott et al. 2004 an menschlichen Keratinozyten, die den erwarteten cAMP-Anstieg nicht fand, und Sung et al. 2025, die an HaCaT-Zellen und einem 3D-Hautmodell Schutz vor Feinstaubschäden zeigte. Mechanismus 5, weil die Wirkkette präklinisch sauber gezeigt ist – Aufnahme über PepT1, Hemmung von NF-kappa-B und MAP-Kinasen in menschlichen Darm- und Immunzellen, milderer Verlauf in zwei Mausmodellen der Colitis, teils unabhängig vom MC1-Rezeptor – am lebenden Menschen aber nichts davon bestätigt wurde. Sicherheit 1, weil eine systematische Untersuchung am Menschen fehlt und die FDA ausdrücklich erklärt, ihr fehlten wichtige Informationen zu Sicherheitsfragen. Hype 3, weil die Vermarktung echte Zell- und Mausbefunde zu Darmbarriere, Akne und Anti-Aging als Aussagen über Menschen weiterreicht, die Zahlen selbst aber meist korrekt sind. Anwendung 2, weil KPV allein in Graumarktkreisen und in Studien vorkommt. Korrektur am Bestand: Die beiden im Eintrag geführten PMIDs 18497332 und 10673523 gehören zu themenfremden Arbeiten (Gallensäuretransport, Kinderonkologie); richtig sind 18061177 und 10670585."
+   "beleg": "Evidenz 0, weil keine Studie am Menschen existiert: Die FDA hat im Verfahren zu Ausgangsstoffen für Rezepturarzneien festgehalten, dass sie zu KPV keinerlei Daten zur Anwendung am Menschen gefunden hat, über keinen Verabreichungsweg; eine eigene Suche in Europe PMC und ClinicalTrials.gov bestätigt das. Die humanbezogenen Arbeiten sind Zellversuche: Elliott et al. 2004 an menschlichen Keratinozyten, die den erwarteten cAMP-Anstieg nicht fand, und Sung et al. 2025, die an HaCaT-Zellen und einem 3D-Hautmodell Schutz vor Feinstaubschäden zeigte. Mechanismus 5, weil die Wirkkette präklinisch sauber gezeigt ist – Aufnahme über PepT1, Hemmung von NF-kappa-B und MAP-Kinasen in menschlichen Darm- und Immunzellen, milderer Verlauf in zwei Mausmodellen der Colitis, teils unabhängig vom MC1-Rezeptor – am lebenden Menschen aber nichts davon bestätigt wurde. Sicherheit 1, weil eine systematische Untersuchung am Menschen fehlt und die FDA ausdrücklich erklärt, ihr fehlten wichtige Informationen zu Sicherheitsfragen. Hype 3, weil die Vermarktung echte Zell- und Mausbefunde zu Darmbarriere, Akne und Anti-Aging als Aussagen über Menschen weiterreicht, die Zahlen selbst aber meist korrekt sind. Anwendung 2, weil KPV allein in Graumarktkreisen und in Studien vorkommt. Korrektur am Bestand: Die beiden im Eintrag geführten PMIDs 18497332 und 10673523 gehören zu themenfremden Arbeiten (Gallensäuretransport, Kinderonkologie); richtig sind 18061177 und 10670585."
   },
   {
    "id": "ll-37",
@@ -2587,7 +2587,7 @@
    "anwendung": 1,
    "richtung": "offen",
    "label": "Dünne Humanevidenz",
-   "beleg": "Am Menschen untersucht ist die äußerliche Anwendung auf offenen Wunden: eine kleinere Studie von 2014, eine placebokontrollierte Studie mit 148 Patienten über 13 Wochen, die ihren Hauptendpunkt verfehlte, und eine Studie an diabetischen Fußwunden. Injiziert wurde LL-37 am Menschen nur ein einziges Mal, und das in einem ganz anderen Kontext: eine Phase-I-Studie zur intratumoralen Gabe bei Melanompatienten mit Hautmetastasen, publiziert im Journal of Cutaneous Pathology 2018, mit dermatologischer Toxizität als Befund. Zur subkutanen oder systemischen Injektion bei Gesunden zum Immun-Boost wurde nichts gefunden. Antimikrobielle Wirkung, Immunmodulation und Wundheilung sind gut belegt – nur eben nicht für die beworbene Anwendung."
+   "beleg": "Am Menschen untersucht ist die äußerliche Anwendung auf offenen Wunden: eine kleinere Studie von 2014, eine placebokontrollierte Studie mit 148 Patienten über 13 Wochen, die ihren Hauptendpunkt verfehlte, und eine Studie an diabetischen Fußwunden. Gespritzt wurde LL-37 am Menschen bisher nur in einem ganz anderen Kontext: in einer Phase-I-Studie direkt in Hautmetastasen von Melanompatienten. Daraus stammt ein Fallbericht (Dolkar et al., Journal of Cutaneous Pathology 2018) über eine Patientin, die 8 wöchentliche Injektionen erhielt und danach Hautveränderungen als Nebenwirkung entwickelte. Zur subkutanen oder systemischen Injektion bei Gesunden zum Immun-Boost wurde nichts gefunden. Antimikrobielle Wirkung, Immunmodulation und Wundheilung sind gut belegt – nur eben nicht für die beworbene Anwendung."
   },
   {
    "id": "thymosin-alpha-1",
@@ -2601,7 +2601,7 @@
    "anwendung": 6,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Das am besten belegte Peptid dieser Gruppe: In über 30 Ländern als Thymalfasin zugelassen, vor allem bei chronischer Hepatitis. Am stärksten sind die Daten zur Immunstütze in der Krebsbegleitung: In der Phase-2-Studie GASTO-1043 sank schwere Lymphopenie unter Strahlenchemotherapie auf 19,1 gegenüber 62,1 Prozent, in einer randomisierten Melanom-Studie mit 488 Patienten gab es mehr Tumoransprechen ohne zusätzliche Toxizität. Die große placebokontrollierte Sepsis-Studie TESTS (BMJ 2025, 1106 Patienten) fand dagegen keinen Überlebensvorteil (23,4 vs. 24,1 Prozent), die frühere ETASS-Studie (Critical Care 2013) war nur grenzwertig. Die onkologische Literatur ist überwiegend retrospektiv und zu 80,8 Prozent chinesisch, der Cochrane-Review 2026 zu Hepatitis B bewertet die Evidenz als sehr niedrig. Die Sicherheitsdatenlage ist dank placebokontrollierter Studien und langjähriger Zulassung gut. In der EU und in Deutschland besteht keine Zulassung; die Vermarktung als allgemeines Immun-Superpeptid für Gesunde geht über die geprüften Indikationen hinaus."
+   "beleg": "Das am besten belegte Immun-Peptid unter den Research-Peptiden: In über 30 Ländern als Thymalfasin zugelassen, vor allem bei chronischer Hepatitis. Am stärksten sind die Daten zur Immunstütze in der Krebsbegleitung: In der Phase-2-Studie GASTO-1043 sank schwere Lymphopenie unter Strahlenchemotherapie auf 19,1 gegenüber 62,1 Prozent, in einer randomisierten Melanom-Studie mit 488 Patienten gab es mehr Tumoransprechen ohne zusätzliche Toxizität. Die große placebokontrollierte Sepsis-Studie TESTS (BMJ 2025, 1106 Patienten) fand dagegen keinen Überlebensvorteil (23,4 vs. 24,1 Prozent), die frühere ETASS-Studie (Critical Care 2013) war nur grenzwertig. Die seit 2016 erschienene onkologische Literatur ist überwiegend retrospektiv und zu 80,8 Prozent chinesisch, der Cochrane-Review 2026 zu Hepatitis B bewertet die Evidenz als sehr niedrig. Die Sicherheitsdatenlage ist dank placebokontrollierter Studien und langjähriger Zulassung gut. Eine EU-weite Zulassung besteht nicht, wohl aber eine nationale in Italien; in Deutschland ist es nicht zugelassen; die Vermarktung als allgemeines Immun-Superpeptid für Gesunde geht über die geprüften Indikationen hinaus."
   },
   {
    "id": "thymosin-beta-4",
@@ -3005,7 +3005,7 @@
    "berichtslage": {
     "stufe": 1,
     "kurz": "Praxisberichte bleiben unspezifisch",
-    "was": "Aus Praxen, die das Verfahren anbieten, gibt es Berichte ueber mehr Belastbarkeit und Wohlbefinden. Sie bleiben unspezifisch und stammen aus dem wirtschaftlichen Umfeld der Behandlung. Zwei grosse randomisierte Studien mit harten Endpunkten haben dieselbe Frage gestellt und nichts gefunden. Was messbar funktioniert, ist die Chelierung selbst — nicht der klinische Nutzen.",
+    "was": "Aus Praxen, die das Verfahren anbieten, gibt es Berichte über mehr Belastbarkeit und Wohlbefinden. Sie bleiben unspezifisch und stammen aus dem wirtschaftlichen Umfeld der Behandlung. Zwei grosse randomisierte Studien mit harten Endpunkten haben dieselbe Frage gestellt und nichts gefunden. Was messbar funktioniert, ist die Chelierung selbst — nicht der klinische Nutzen.",
     "quellen": "Praxisberichte · Anwenderkreise"
    }
   },
@@ -3053,7 +3053,7 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Besserung berichtet — Scheinspritze auch",
-    "was": "Aus orthopaedischen Praxen und von Patienten kommen zahlreiche Berichte deutlicher Besserung nach der Behandlung. Sie sind der Grund, warum das Verfahren so verbreitet ist. Die entscheidende Zahl steht daneben: In der verblindeten Studie ging es der Kochsalzgruppe genauso gut. Eine Spritze ins Knie ist eine der wirksamsten Scheinbehandlungen, die die Medizin kennt — die Besserung ist echt, die Zuordnung zum Eigenblut ist es nicht.",
+    "was": "Aus orthopädischen Praxen und von Patienten kommen zahlreiche Berichte deutlicher Besserung nach der Behandlung. Sie sind der Grund, warum das Verfahren so verbreitet ist. Die entscheidende Zahl steht daneben: In der verblindeten Studie ging es der Kochsalzgruppe genauso gut. Eine Spritze ins Knie ist eine der wirksamsten Scheinbehandlungen, die die Medizin kennt — die Besserung ist echt, die Zuordnung zum Eigenblut ist es nicht.",
     "quellen": "Patientenberichte · orthopädische Praxen"
    }
   },
@@ -3073,7 +3073,7 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Anwender berichten echte Aha-Momente",
-    "was": "Was Anwender berichten, ist nicht der gemessene Endpunkt: Sie beschreiben, dass sie zum ersten Mal gesehen haben, was ein bestimmtes Fruehstueck bei ihnen tut, und ihr Verhalten daraufhin geaendert haben. Das ist spezifisch und plausibel — ein Sensor zeigt tatsaechlich etwas, das man sonst nicht sieht. Die Studien haben eine andere Frage gestellt, naemlich ob sich daraus bei Stoffwechselgesunden ein gesundheitlicher Vorteil ergibt. Dass die Sensoren bei Gesunden systematisch ueberschaetzen, macht die Aha-Momente allerdings angreifbar.",
+    "was": "Was Anwender berichten, ist nicht der gemessene Endpunkt: Sie beschreiben, dass sie zum ersten Mal gesehen haben, was ein bestimmtes Frühstück bei ihnen tut, und ihr Verhalten daraufhin geändert haben. Das ist spezifisch und plausibel — ein Sensor zeigt tatsächlich etwas, das man sonst nicht sieht. Die Studien haben eine andere Frage gestellt, nämlich ob sich daraus bei Stoffwechselgesunden ein gesundheitlicher Vorteil ergibt. Dass die Sensoren bei Gesunden systematisch überschätzen, macht die Aha-Momente allerdings angreifbar.",
     "quellen": "Anwenderkreise · Selbstmessungen"
    }
   },
@@ -3817,7 +3817,7 @@
    "berichtslage": {
     "stufe": 2,
     "kurz": "Viele fühlen sich schärfer — es trägt nicht",
-    "was": "Uebereinstimmend berichtet wird, sich nach einigen Wochen wacher und konzentrierter zu fuehlen. Das ist ernst zu nehmen und zugleich der Kern des Problems: Genau dieses Gefuehl ist das, was die Meta-Analysen gemessen und als nicht uebertragbar befunden haben. Man wird in der Aufgabe besser und merkt das — nur bleibt es dort. Ein selteneres Muster: Die Berichte sind echt, die Schlussfolgerung daraus ist es nicht.",
+    "was": "Übereinstimmend berichtet wird, sich nach einigen Wochen wacher und konzentrierter zu fühlen. Das ist ernst zu nehmen und zugleich der Kern des Problems: Genau dieses Gefühl ist das, was die Meta-Analysen gemessen und als nicht übertragbar befunden haben. Man wird in der Aufgabe besser und merkt das — nur bleibt es dort. Ein selteneres Muster: Die Berichte sind echt, die Schlussfolgerung daraus ist es nicht.",
     "quellen": "Anwenderkreise"
    }
   },
@@ -4601,7 +4601,7 @@
    "anwendung": 3,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "Evidenz 2, weil es keine einzige veroeffentlichte Wirksamkeitsstudie am Menschen gibt: Alle Wirksamkeitsdaten stammen aus Nagern (Gao 2005; Yin 2003; Kearbey 2007), und die drei bis vier abgeschlossenen Phase-I-Studien an 86 Freiwilligen sind nur ueber Firmenmitteilungen bekannt, nicht peer-reviewed publiziert (GTx SEC-Filings 2003 bis 2007). Mechanismus 5, weil der Androgenrezeptor eine gut belegte Zielstruktur ist und die Gewebeselektivitaet im Tier klar gezeigt wurde, die Wirkkette von Andarin am Menschen aber nicht quantifiziert ist - bekannt ist nur ein Firmenhinweis auf eine Wachstumsaktivitaet. Sicherheit 3, weil kontrollierte Sicherheitsdaten am Menschen fehlen; es liegen nur eine unpublizierte Phase-I-Vertraeglichkeit sowie Fallberichte zur SARM-Klasse vor (Leberschaeden, Achillessehnenriss, ein Diabetes-Fall unter Dreier-Kombination), Langzeitdaten fehlen (Vignali 2023; Gould 2021; Sotornik 2022). Hype 2, weil Andarin in der Szene fuer Definition und Fettabbau beworben wird, ohne dass es dazu Humandaten gibt, und weil die verbreitete Erzaehlung vom Abbruch wegen Sehstoerungen sich in keiner Primaerquelle belegen liess - die Firmenangaben nennen ausdruecklich keine schweren Nebenwirkungen und als Grund die Bevorzugung des Nachfolgers Ostarin. Anwendung 3, weil Andarin am Menschen praktisch nur in Studien und auf dem Graumarkt vorkommt, keinen regulatorischen Rahmen hat und im Sport verboten ist. Richtung offen, weil es am Menschen keine Wirksamkeitsdaten gibt, die fuer oder gegen die beworbene Wirkung sprechen; die Tierdaten stuetzen einen anabolen Effekt, die Uebertragung auf den Menschen ist ungeklaert."
+   "beleg": "Evidenz 2, weil es keine einzige veröffentlichte Wirksamkeitsstudie am Menschen gibt: Alle Wirksamkeitsdaten stammen aus Nagern (Gao 2005; Yin 2003; Kearbey 2007), und die drei bis vier abgeschlossenen Phase-I-Studien an 86 Freiwilligen sind nur über Firmenmitteilungen bekannt, nicht peer-reviewed publiziert (GTx SEC-Filings 2003 bis 2007). Mechanismus 5, weil der Androgenrezeptor eine gut belegte Zielstruktur ist und die Gewebeselektivität im Tier klar gezeigt wurde, die Wirkkette von Andarin am Menschen aber nicht quantifiziert ist - bekannt ist nur ein Firmenhinweis auf eine Wachstumsaktivität. Sicherheit 3, weil kontrollierte Sicherheitsdaten am Menschen fehlen; es liegen nur eine unpublizierte Phase-I-Verträglichkeit sowie Fallberichte zur SARM-Klasse vor (Leberschäden, Achillessehnenriss, ein Diabetes-Fall unter Dreier-Kombination), Langzeitdaten fehlen (Vignali 2023; Gould 2021; Sotornik 2022). Hype 2, weil Andarin in der Szene für Definition und Fettabbau beworben wird, ohne dass es dazu Humandaten gibt, und weil die verbreitete Erzählung vom Abbruch wegen Sehstörungen sich in keiner Primärquelle belegen liess - die Firmenangaben nennen ausdrücklich keine schweren Nebenwirkungen und als Grund die Bevorzugung des Nachfolgers Ostarin. Anwendung 3, weil Andarin am Menschen praktisch nur in Studien und auf dem Graumarkt vorkommt, keinen regulatorischen Rahmen hat und im Sport verboten ist. Richtung offen, weil es am Menschen keine Wirksamkeitsdaten gibt, die für oder gegen die beworbene Wirkung sprechen; die Tierdaten stützen einen anabolen Effekt, die Übertragung auf den Menschen ist ungeklärt."
   },
   {
    "id": "cardarine",
@@ -4615,7 +4615,7 @@
    "anwendung": 3,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 5, weil es zwar mehrere kontrollierte Humanstudien gibt (Sprecher 2007, n=24; Riserus 2008, 6 pro Gruppe; Ooi 2011, n=13; Olson 2012, n=268, 12 Wochen), diese aber ausschliesslich Surrogat-Blutfettwerte messen und keine einzige die Anwendung betrifft, fuer die Cardarine bekannt ist: Ausdauer und Fettabbau sind am Menschen nie untersucht worden, harte Endpunkte fehlen, die Entwicklung wurde vorher gestoppt. Mechanismus 6, weil die Zielstruktur PPARdelta am Menschen bestaetigt ist und die Wirkkette ueber CPT1b-Induktion und gemessene Fettverbrennung teilweise quantifiziert wurde (Riserus 2008); der Ausdauereffekt selbst ist nur tierexperimentell und im Ausgangsbefund an Training gebunden - GW1516 allein steigerte die Laufleistung sitzender Maeuse nicht (Narkar 2008). Sicherheit 5, weil kontrollierte Humandaten nur ueber Wochen bis 12 Wochen vorliegen, Langzeitdaten fehlen und das entscheidende Krebssignal aus langfristigen Tierstudien stammt (GSK/Health Canada 2013; Apc-min-Modell Gupta 2004); dazu ein Vergiftungsfall mit Rhabdomyolyse in Kombination mit Ostarin (Kintz 2021). Hype 2, weil die Erzaehlung \"Ausdauer in Pillenform\" zwei Dinge weglaesst: Die tragenden Zahlen stammen von Maeusen und nur mit Training, und dass der Hersteller die Entwicklung wegen Krebs abgebrochen hat, kommt in der Vermarktung nicht vor; die populaeren 44 Prozent gehoeren ausserdem zu AICAR, nicht zu GW1516. Anwendung 3, weil GW501516 am Menschen praktisch nur in Studien und auf dem Graumarkt vorkommt, keinen regulatorischen Rahmen hat und im Sport verboten ist. Richtung gemischt: Mechanismus und die humanen Blutfettdaten tragen, aber fuer die beworbene Wirkung fehlen Humandaten, und das Krebssignal steht dagegen."
+   "beleg": "Evidenz 5, weil es zwar mehrere kontrollierte Humanstudien gibt (Sprecher 2007, n=24; Riserus 2008, 6 pro Gruppe; Ooi 2011, n=13; Olson 2012, n=268, 12 Wochen), diese aber ausschließlich Surrogat-Blutfettwerte messen und keine einzige die Anwendung betrifft, für die Cardarine bekannt ist: Ausdauer und Fettabbau sind am Menschen nie untersucht worden, harte Endpunkte fehlen, die Entwicklung wurde vorher gestoppt. Mechanismus 6, weil die Zielstruktur PPARdelta am Menschen bestätigt ist und die Wirkkette über CPT1b-Induktion und gemessene Fettverbrennung teilweise quantifiziert wurde (Riserus 2008); der Ausdauereffekt selbst ist nur tierexperimentell und im Ausgangsbefund an Training gebunden - GW1516 allein steigerte die Laufleistung sitzender Mäuse nicht (Narkar 2008). Sicherheit 5, weil kontrollierte Humandaten nur über Wochen bis 12 Wochen vorliegen, Langzeitdaten fehlen und das entscheidende Krebssignal aus langfristigen Tierstudien stammt (GSK/Health Canada 2013; Apc-min-Modell Gupta 2004); dazu ein Vergiftungsfall mit Rhabdomyolyse in Kombination mit Ostarin (Kintz 2021). Hype 2, weil die Erzählung \"Ausdauer in Pillenform\" zwei Dinge weglässt: Die tragenden Zahlen stammen von Mäusen und nur mit Training, und dass der Hersteller die Entwicklung wegen Krebs abgebrochen hat, kommt in der Vermarktung nicht vor; die populären 44 Prozent gehören außerdem zu AICAR, nicht zu GW1516. Anwendung 3, weil GW501516 am Menschen praktisch nur in Studien und auf dem Graumarkt vorkommt, keinen regulatorischen Rahmen hat und im Sport verboten ist. Richtung gemischt: Mechanismus und die humanen Blutfettdaten tragen, aber für die beworbene Wirkung fehlen Humandaten, und das Krebssignal steht dagegen."
   },
   {
    "id": "dhea",
@@ -4650,14 +4650,14 @@
    "view": "experimental",
    "name": "HGH-Fragment 176-191",
    "url": "https://biohackingkompakt.de/thema/hgh-fragment-176-191.html",
-   "evidenz": 3,
+   "evidenz": 1,
    "mechanismus": 4,
-   "sicherheit": 4,
+   "sicherheit": 1,
    "hype": 2,
    "anwendung": 3,
    "richtung": "gemischt",
-   "label": "Hype weit vor Evidenz",
-   "beleg": "Evidenz 3, weil das natürliche Fragment 176-191 nur in einer akuten Rattenstudie von 1978 geprüft wurde, die kurzfristig Blutzucker und Insulin anhob, und weil die Humandaten ausschließlich die Tyrosin-Variante AOD9604 betreffen, die im Handel oft unter diesem Namen läuft: sechs placebokontrollierte Studien mit 893 Teilnehmern (Stier 2013), deren größte über 24 Wochen mit 502 Randomisierten laut Hersteller 2007 den Gewichtsendpunkt verfehlte. Mechanismus 4: Im Tier ist die Wirkkette am Fettgewebe gezeigt – hormonsensitive Lipase rauf, Acetyl-CoA-Carboxylase runter, keine Bindung am Wachstumshormon-Rezeptor (Ng 2000, Heffernan 2001) – und in menschlichem Fettgewebe ex vivo bestätigt, der Rezeptor ist aber unbekannt. Sicherheit 4, weil kontrollierte Daten über bis zu 24 Wochen vorliegen, allerdings nur für die AOD9604-Sequenz, aus Sponsor-Nähe und ohne Daten zum natürlichen Fragment. Hype 2, weil das Fragment als Fettabbau-Peptid gehandelt wird, obwohl der Humanbeleg für Gewichtsverlust fehlt und die Namensgleichheit die Humandaten eines anderen Moleküls überträgt. Anwendung 3: Die Tyrosin-Sequenz lief nur in Studien; der Szenegebrauch ist verbreitet, aber nicht beziffert. Richtung gemischt: im Tier konsistent positiv, am Menschen (oral) kein Gewichtseffekt, das natürliche Fragment im Tier eher blutzuckersteigernd."
+   "label": "Nicht am Menschen untersucht",
+   "beleg": "Evidenz 1, weil das natürliche Fragment 176-191 am Menschen nie geprüft wurde, sondern nur in einer akuten Rattenstudie von 1978, die kurzfristig Blutzucker und Insulin anhob. Humandaten gibt es nur zur Variante AOD-9604 (Tyrosin statt Phenylalanin am Anfang), die im Handel oft unter diesem Namen läuft; für das Fragment gelten sie nur indirekt: sechs placebokontrollierte Studien mit 893 Teilnehmern (Stier 2013), deren größte über 24 Wochen mit 502 Randomisierten laut Hersteller 2007 den Gewichtsendpunkt verfehlte. Mechanismus 4: Im Tier ist die Wirkkette am Fettgewebe gezeigt – hormonsensitive Lipase rauf, Acetyl-CoA-Carboxylase runter, keine Bindung am Wachstumshormon-Rezeptor (Ng 2000, Heffernan 2001) – und in menschlichem Fettgewebe ex vivo bestätigt, der Rezeptor ist aber unbekannt. Sicherheit 1, weil es für das natürliche Fragment keine Sicherheitsdaten am Menschen gibt; die kontrollierten Daten über bis zu 24 Wochen betreffen nur die AOD9604-Sequenz, stammen aus Sponsor-Nähe und lassen sich nur indirekt übertragen. Hype 2, weil das Fragment als Fettabbau-Peptid gehandelt wird, obwohl der Humanbeleg für Gewichtsverlust fehlt und die Namensgleichheit die Humandaten eines anderen Moleküls überträgt. Anwendung 3: Die Tyrosin-Sequenz lief nur in Studien; der Szenegebrauch ist verbreitet, aber nicht beziffert. Richtung gemischt: im Tier konsistent positiv, am Menschen (oral) kein Gewichtseffekt, das natürliche Fragment im Tier eher blutzuckersteigernd."
   },
   {
    "id": "igf-1-des",
@@ -4741,7 +4741,7 @@
    "anwendung": 6,
    "richtung": "offen",
    "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 4, weil es mehrere klinische Studien an Patienten mit leichten kognitiven Störungen gibt, darunter zwei randomisierte Vergleiche mit je 150 Patienten gegen Piracetam (Neznamov & Teleshova 2008) beziehungsweise gegen Piracetam/Cinnarizin und Phenibut (Dadasheva 2022, MoCA 19,8 auf 23,3 in 45 Tagen), aber keine einzige placebokontrollierte, doppelblinde Studie; alle Arbeiten sind russisch, mehrere herstellernah, und die Endpunkte sind Testskalen statt harter Endpunkte. Mechanismus 4, weil die Wirkkette – Umbau zu Cyclo-Prolylglycin (2,5-fach im Rattenhirn, Gudasheva 1997), mehr NGF und BDNF im Hippocampus (Ostrovskaya 2008), HIF-1-Aktivierung in Zellkultur – plausibel und präklinisch gut beschrieben, am Menschen aber nicht bestätigt ist. Sicherheit 4, weil kontrollierte Verträglichkeitsdaten nur über Wochen bis wenige Monate vorliegen (unerwünschte Ereignisse 25 statt 55 Prozent unter Piracetam), dazu eine sechsmonatige Tierstudie ohne bleibende Organschäden, aber keine veröffentlichte Langzeit- oder Pharmakovigilanzauswertung. Hype 3, weil die Szene Noopept als Gedächtnisverstärker für Gesunde vermarktet, wofür keine Daten existieren, und die Formel tausendmal stärker als Piracetam aus der im Tierversuch 1000-fach niedrigeren wirksamen Dosis stammt (Ostrovskaia 2002). Anwendung 6, weil Noopept in Russland seit Jahren als rezeptfreies Arzneimittel unter Aufsicht verkauft wird, außerhalb davon nur im Graumarkt. Richtung offen, weil die vorhandenen Studien zwar einheitlich positiv ausfallen, ohne Placebovergleich aber nicht zeigen können, wie viel davon Wirkstoff ist."
+   "beleg": "Evidenz 4, weil es mehrere klinische Studien an Patienten mit leichten kognitiven Störungen gibt, darunter eine kleine randomisierte Vergleichsstudie gegen Piracetam (Neznamov & Teleshova 2008) und ein randomisierter Vergleich mit 150 Patienten gegen Piracetam/Cinnarizin und Phenibut (Dadasheva 2022, MoCA 19,8 auf 23,3 in 45 Tagen), aber keine einzige placebokontrollierte, doppelblinde Studie; alle Arbeiten sind russisch, mehrere herstellernah, und die Endpunkte sind Testskalen statt harter Endpunkte. Mechanismus 4, weil die Wirkkette – Umbau zu Cyclo-Prolylglycin (2,5-fach im Rattenhirn, Gudasheva 1997), mehr NGF und BDNF im Hippocampus (Ostrovskaya 2008), HIF-1-Aktivierung in Zellkultur – plausibel und präklinisch gut beschrieben, am Menschen aber nicht bestätigt ist. Sicherheit 4, weil kontrollierte Verträglichkeitsdaten nur über Wochen bis wenige Monate vorliegen (unerwünschte Ereignisse 25 statt 55 Prozent unter Piracetam), dazu eine sechsmonatige Tierstudie ohne bleibende Organschäden, aber keine veröffentlichte Langzeit- oder Pharmakovigilanzauswertung. Hype 3, weil die Szene Noopept als Gedächtnisverstärker für Gesunde vermarktet, wofür keine Daten existieren, und die Formel tausendmal stärker als Piracetam aus der im Tierversuch 1000-fach niedrigeren wirksamen Dosis stammt (Ostrovskaia 2002). Anwendung 6, weil Noopept in Russland seit Jahren als rezeptfreies Arzneimittel unter Aufsicht verkauft wird, außerhalb davon nur im Graumarkt. Richtung offen, weil die vorhandenen Studien zwar einheitlich positiv ausfallen, ohne Placebovergleich aber nicht zeigen können, wie viel davon Wirkstoff ist."
   },
   {
    "id": "ostarin",
@@ -4839,7 +4839,7 @@
    "anwendung": 5,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Evidenz 6, weil mehrere doppelblinde RCTs vorliegen, diese aber meist Surrogatmarker messen und bei klinischen Endpunkten ohne signifikanten Effekt blieben: Verschiebung des Östrogenabbaus (+3,2 vs. -0,7) und SHBG +25 nmol/L bei 130 Frauen über 12 Monate (Thomson et al., Breast Cancer Res Treat 2017), aber bei 551 Frauen mit leichten Zellveränderungen am Gebärmutterhals CIN2+ 9 % vs. 12 %, RR 0,7 (0,4 bis 1,2) (Castañon et al., Br J Cancer 2012), kein Unterschied bei 64 Frauen mit CIN 2 oder 3 (Del Priore et al. 2010) und ein verfehlter primärer Endpunkt bei 60 prämenopausalen Frauen (Godínez-Martínez et al. 2023). Mechanismus 6, weil die Wirkung über den Arylhydrocarbon-Rezeptor und CYP1B1 aus Zell- und Tierdaten gut beschrieben ist und die Verschiebung der Östrogenmetaboliten sowie der SHBG-Anstieg am Menschen gemessen sind (Williams, Front Nutr 2021; Thomson et al. 2017), der Weg zu klinischen Effekten aber nicht. Sicherheit 6, weil kontrollierte Daten über 6 und 12 Monate vorliegen, dazu Dosisfindungsstudien mit Hyponatriämie bei 2 von 4 Patienten unter 300 mg zweimal täglich (Heath et al. 2010), aber keine Langzeit-Pharmakovigilanz und relevante Interaktionen mit Tamoxifen und Estradiol-Pflastern (Newman und Smeaton 2025). Hype 4, weil der real messbare Effekt auf den Östrogenabbau zu Versprechen wie Östrogen-Detox, Akne-Heilung oder Testosteron-Boost ausgebaut wird, für die es keine randomisierten Studien gibt. Anwendung 5, weil DIM seit Jahren in den USA breit als Supplement genutzt wird, ohne regulatorisch geprüft zu sein, und in der EU nicht zugelassen ist. Richtung gemischt: positiv beim Hormonstoffwechsel, ohne Effekt bei den bisher gemessenen klinischen Endpunkten."
+   "beleg": "Evidenz 6, weil mehrere doppelblinde RCTs vorliegen, diese aber meist Surrogatmarker messen und bei klinischen Endpunkten ohne signifikanten Effekt blieben: Verschiebung des Östrogenabbaus (+3,2 vs. -0,7) und SHBG +25 nmol/L bei 130 Frauen über 12 Monate (Thomson et al., Breast Cancer Res Treat 2017), aber bei 551 Frauen mit leichten Zellveränderungen am Gebärmutterhals CIN2+ 9 % vs. 12 %, RR 0,7 (0,4 bis 1,2) (Castañon et al., Br J Cancer 2012), kein Unterschied bei 64 Frauen mit CIN 2 oder 3 (Del Priore et al. 2010) und ein verfehlter primärer Endpunkt bei 60 prämenopausalen Frauen (Godínez-Martínez et al. 2023). Mechanismus 6, weil die Wirkung über den Arylhydrocarbon-Rezeptor und die Enzyme CYP1A1 und CYP1B1 aus Zell- und Tierdaten gut beschrieben ist und die Verschiebung der Östrogenmetaboliten sowie der SHBG-Anstieg am Menschen gemessen sind (Williams, Front Nutr 2021; Thomson et al. 2017), der Weg zu klinischen Effekten aber nicht. Sicherheit 6, weil kontrollierte Daten über 6 und 12 Monate vorliegen, dazu Dosisfindungsstudien mit Hyponatriämie bei 2 von 4 Patienten unter 300 mg zweimal täglich (Heath et al. 2010), aber keine Langzeit-Pharmakovigilanz und relevante Interaktionen mit Tamoxifen und Estradiol-Pflastern (Newman und Smeaton 2025). Hype 4, weil der real messbare Effekt auf den Östrogenabbau zu Versprechen wie Östrogen-Detox, Akne-Heilung oder Testosteron-Boost ausgebaut wird, für die es keine randomisierten Studien gibt. Anwendung 5, weil DIM seit Jahren in den USA breit als Supplement genutzt wird, ohne regulatorisch geprüft zu sein, und in der EU nicht zugelassen ist. Richtung gemischt: positiv beim Hormonstoffwechsel, ohne Effekt bei den bisher gemessenen klinischen Endpunkten."
   },
   {
    "id": "huperzin-a",
@@ -5517,7 +5517,7 @@
    "id": "baikal-helmkraut",
    "view": "supplement",
    "name": "Baikal-Helmkraut (Scutellaria baicalensis)",
-   "url": "https://biohackingkompakt.de/#supplement/baikal-helmkraut",
+   "url": "https://biohackingkompakt.de/thema/baikal-helmkraut.html",
    "evidenz": 4,
    "mechanismus": 4,
    "sicherheit": 6,
@@ -5531,7 +5531,7 @@
    "id": "biotin",
    "view": "supplement",
    "name": "Biotin (Vitamin B7)",
-   "url": "https://biohackingkompakt.de/#supplement/biotin",
+   "url": "https://biohackingkompakt.de/thema/biotin.html",
    "evidenz": 5,
    "mechanismus": 7,
    "sicherheit": 8,
@@ -5545,7 +5545,7 @@
    "id": "calcium-d-glucarat",
    "view": "experimental",
    "name": "Calcium-D-Glucarat",
-   "url": "https://biohackingkompakt.de/#experimental/calcium-d-glucarat",
+   "url": "https://biohackingkompakt.de/thema/calcium-d-glucarat.html",
    "evidenz": 2,
    "mechanismus": 3,
    "sicherheit": 2,
@@ -5559,7 +5559,7 @@
    "id": "gotu-kola",
    "view": "supplement",
    "name": "Gotu Kola (Centella asiatica)",
-   "url": "https://biohackingkompakt.de/#supplement/gotu-kola",
+   "url": "https://biohackingkompakt.de/thema/gotu-kola.html",
    "evidenz": 5,
    "mechanismus": 5,
    "sicherheit": 5,
@@ -5573,7 +5573,7 @@
    "id": "l-lysin",
    "view": "supplement",
    "name": "L-Lysin",
-   "url": "https://biohackingkompakt.de/#supplement/l-lysin",
+   "url": "https://biohackingkompakt.de/thema/l-lysin.html",
    "evidenz": 5,
    "mechanismus": 4,
    "sicherheit": 7,
@@ -5587,7 +5587,7 @@
    "id": "shiitake",
    "view": "supplement",
    "name": "Shiitake",
-   "url": "https://biohackingkompakt.de/#supplement/shiitake",
+   "url": "https://biohackingkompakt.de/thema/shiitake.html",
    "evidenz": 4,
    "mechanismus": 5,
    "sicherheit": 6,
@@ -5601,7 +5601,7 @@
    "id": "tremella",
    "view": "supplement",
    "name": "Tremella",
-   "url": "https://biohackingkompakt.de/#supplement/tremella",
+   "url": "https://biohackingkompakt.de/thema/tremella.html",
    "evidenz": 4,
    "mechanismus": 3,
    "sicherheit": 4,
@@ -5615,7 +5615,7 @@
    "id": "vitamin-a",
    "view": "supplement",
    "name": "Vitamin A (Retinol)",
-   "url": "https://biohackingkompakt.de/#supplement/vitamin-a",
+   "url": "https://biohackingkompakt.de/thema/vitamin-a.html",
    "evidenz": 8,
    "mechanismus": 9,
    "sicherheit": 9,

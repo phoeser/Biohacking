@@ -61,7 +61,10 @@ def sammeln():
             url = html.unescape(h.group(1)).strip()
             if not url.startswith('http'): continue
             text = html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', li))).strip()
-            e = quellen.setdefault(url, {'text': text, 'seiten': set()})
+            # Studien (PMID/DOI/NCT) einmal je URL; andere Quellen (Behördenseiten, WADA-Liste …)
+            # je URL + Beschriftung, sonst trägt jede Seite den Text der ersten (QK F1, 10/2026)
+            schl = url if kennung(url)[0] else url + '\x00' + text
+            e = quellen.setdefault(schl, {'url': url, 'text': text, 'seiten': set()})
             e['seiten'].add(seite)
     return quellen
 
@@ -92,11 +95,30 @@ def kurz_meta(r):
         'jahr': str(r.get('pubYear') or ''),
         'pmid': r.get('pmid') or '', 'pmcid': r.get('pmcid') or '', 'doi': (r.get('doi') or '').lower(),
         'typen': typen, 'mesh': mesh, 'quelle': r.get('source', ''),
+        'korr': korrekturen(r, typen),
     }
+
+def korrekturen(r, typen):
+    """Rückzug / Expression of Concern aus pubTypeList und commentCorrectionList."""
+    k = set()
+    if 'Retracted Publication' in typen: k.add('zurueckgezogen')
+    for c in (r.get('commentCorrectionList') or {}).get('commentCorrection', []):
+        t = (c.get('type') or '').lower()
+        if t.startswith('retraction in'): k.add('zurueckgezogen')
+        elif t.startswith('expression of concern in'): k.add('eoc')
+    return sorted(k)
+
+# Von Hand bestätigt (QK 10/2026) – greift auch offline und bei alten Cache-Einträgen
+KORREKTUR_FEST = {'31671598': ['zurueckgezogen'], '25187433': ['zurueckgezogen'],
+                  '23055539': ['eoc'], '18950853': ['eoc'], '18206919': ['eoc']}
+KORR_NAME = {'zurueckgezogen': 'Zurückgezogen', 'eoc': 'Expression of Concern'}
+
+def korr_von(m):
+    return sorted(set(m.get('korr') or []) | set(KORREKTUR_FEST.get(m.get('pmid') or '', [])))
 
 if __name__ == '__main__' and '--nur-sammeln' in sys.argv:  # Diagnose
     q = sammeln()
-    arten = collections.Counter(kennung(u)[0] for u in q)
+    arten = collections.Counter(kennung(d['url'])[0] for d in q.values())
     print(len(q), 'Quellen', dict(arten))
     sys.exit()
 
@@ -142,8 +164,13 @@ LABOR_MESH = {'Cells, Cultured', 'Cell Line', 'Cell Line, Tumor', 'In Vitro Tech
 BEOB_MESH = {'Surveys and Questionnaires', 'Prevalence', 'Registries', 'Risk Factors', 'Incidence', 'Cohort Studies', 'Prospective Studies', 'Retrospective Studies', 'Cross-Sectional Studies',
              'Case-Control Studies', 'Longitudinal Studies', 'Follow-Up Studies'}
 
+# Von Hand korrigierte Studientypen (Datenbankangabe falsch oder unvollständig, QK 10/2026)
+TYP_KORREKTUR = {'17147644': 'rct',          # Mulder 1994, GHK-Cu, randomisiert placebokontrolliert
+                 '21325617': 'beobachtung'}  # Guevara-Aguirre 2011, Laron-Kohorte Ecuador
+
 def studientyp(m, url):
     if 'clinicaltrials.gov' in url: return 'register'
+    if m.get('pmid') in TYP_KORREKTUR: return TYP_KORREKTUR[m['pmid']]
     t = set(m.get('typen', [])); mesh = set(m.get('mesh', [])); ti = (m.get('titel') or '').lower()
     if t & {'Meta-Analysis', 'Network Meta-Analysis', 'Systematic Review', 'systematic-review'} \
             or re.search(r'meta-analy|systematic review|umbrella review', ti): return 'meta'
@@ -197,7 +224,8 @@ def notiz(text):
 
 def bauen(q, cache):
     studien, andere = {}, collections.defaultdict(list)
-    for url, d in q.items():
+    for d in q.values():
+        url = d['url']
         k, v = kennung(url)
         m = cache.get(f'{k}:{v}') if k in ('pmid', 'pmcid', 'doi') else None
         if k in ('pmid', 'pmcid', 'doi', 'nct'):
@@ -229,14 +257,17 @@ def bauen(q, cache):
         au = erstautor(m.get('autoren'))
         meta_teile = [x for x in (au, jour, jahr) if x]
         n = notiz(s['text']) if m.get('titel') else ''
+        korr = korr_von(m)
+        warn = ''.join('<span class="st-b st-rx">%s</span>' % e(KORR_NAME[x]) for x in korr)
         json_studien.append({'titel': titel, 'autor': au or None, 'journal': jour or None, 'jahr': int(jahr) if jahr.isdigit() else None,
                              'typ': typ, 'typ_name': TYPNAME[typ], 'url': s['url'], 'pmid': m.get('pmid') or None,
-                             'doi': m.get('doi') or None, 'notiz': n or None, 'seiten': seiten_json(s['seiten'])})
+                             'doi': m.get('doi') or None, 'notiz': n or None,
+                             'hinweis': [KORR_NAME[x] for x in korr] or None, 'seiten': seiten_json(s['seiten'])})
         zeilen.append((jahr or '0000', titel.lower(), (
             '<li data-typ="%s"><a class="st-t" href="%s" rel="noopener">%s</a>'
-            '<span class="st-m"><span class="st-b st-%s">%s</span> %s</span>%s'
+            '<span class="st-m">%s<span class="st-b st-%s">%s</span> %s</span>%s'
             '<span class="st-bei">Bei uns: %s</span></li>') % (
-                typ, e(s['url']), e(titel), typ, e(TYPNAME[typ]), e(' · '.join(meta_teile)),
+                typ, e(s['url']), e(titel), warn, typ, e(TYPNAME[typ]), e(' · '.join(meta_teile)),
                 ('<span class="st-n">%s</span>' % e(n)) if n else '', seitenlinks(s['seiten']))))
     zeilen.sort(key=lambda z: (z[0], z[1]), reverse=True)
     zeilen.sort(key=lambda z: z[0], reverse=True)
@@ -298,6 +329,7 @@ def bauen(q, cache):
 .st-bei{{font-size:.85rem;color:var(--dim)}} .st-bei a{{color:var(--akzent-2)}}
 .st-b{{display:inline-block;font-size:.72rem;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--bg-alt);color:var(--gedaempft);margin-right:4px}}
 .st-meta,.st-rct{{background:var(--akzent-soft);color:#1f5c46}} .st-tier{{background:#f3ece0;color:#7a5a2a}}
+.st-rx{{background:#fbe3e3;color:#9b2c2c}}
 .st-z{{color:var(--dim);font-weight:400}}
 .st-mehr{{font:inherit;margin:14px 0;padding:9px 16px;border-radius:10px;border:1px solid var(--akzent);background:var(--flaeche);color:var(--akzent);cursor:pointer}}
 </style>
@@ -442,9 +474,12 @@ if __name__ == '__main__':
     cache = json.load(open(CACHE, encoding='utf-8')) if os.path.exists(CACHE) else {}
     if '--offline' not in sys.argv:
         grp = collections.defaultdict(list)
-        for u in q:
-            k, v = kennung(u)
-            if k in ('pmid', 'pmcid', 'doi') and f'{k}:{v}' not in cache and v not in grp[k]: grp[k].append(v)
+        for d in q.values():
+            k, v = kennung(d['url'])
+            ck = f'{k}:{v}'
+            # fehlend, oder alter Eintrag ohne Rückzugs-Prüfung ('korr') -> neu laden
+            alt = ck in cache and cache[ck] and 'korr' not in cache[ck]
+            if k in ('pmid', 'pmcid', 'doi') and (ck not in cache or alt or '--korr' in sys.argv) and v not in grp[k]: grp[k].append(v)
         if grp: metadaten_liste(grp, cache)
     bauen(q, cache)
     verlinken()
