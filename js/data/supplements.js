@@ -71,7 +71,7 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['knochen', 'herz', 'kreislauf', 'anti-aging'],
     short: 'Aktiviert Osteocalcin und Matrix-Gla-Protein — das ist am Menschen messbar. Ob eine Ergänzung Brüche oder Gefäßverkalkung verhindert, zeigen die randomisierten Studien bisher nicht.',
-    description: 'Vitamin K2 ist der Sammelname für die Menachinone; im Handel dominiert MK-7, in Japan wird MK-4 als Arzneimittel gegen Osteoporose eingesetzt. Als Cofaktor der Gamma-Carboxylierung aktiviert Vitamin K2 das Osteocalcin im Knochen und das Matrix-Gla-Protein in der Gefäßwand — diese Wirkkette ist am Menschen belegt, MK-7 senkt den Marker dp-ucMGP in einer Dreijahresstudie um 50 Prozent. Der Schritt zum harten Ergebnis gelingt bisher kaum: Mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, eine 2026 veröffentlichte fand erstmals einen. Die EU erlaubt Angaben zu Knochen und Blutgerinnung, nicht zu Herz und Gefäßen.',
+    description: 'Vitamin K2 ist der Sammelname für die Menachinone; im Handel dominiert MK-7, in Japan wird MK-4 als Arzneimittel gegen Osteoporose eingesetzt. Als Cofaktor der Gamma-Carboxylierung aktiviert Vitamin K2 das Osteocalcin im Knochen und das Matrix-Gla-Protein in der Gefäßwand — diese Wirkkette ist am Menschen belegt, MK-7 senkt den Marker dp-ucMGP in einer Dreijahresstudie um 50 Prozent. Der Schritt zum harten Ergebnis gelingt bisher kaum: Mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, eine 2026 veröffentlichte fand einen. Die EU erlaubt Angaben zu Knochen und Blutgerinnung, nicht zu Herz und Gefäßen.',
     benefits: [
       'Aktiviert Osteocalcin und Matrix-Gla-Protein, am Menschen messbar',
       'Senkt den Marker für inaktives Matrix-Gla-Protein um rund 50 Prozent',
@@ -225,22 +225,19 @@ const SUPPLEMENTS = [
     altNames: 'Zink-Bisglycinat / Zinkpicolinat',
     category: 'Mineral',
     tags: ['immun', 'hormone', 'testosteron', 'haut', 'wundheilung'],
-    short: 'Essentiell für Immunsystem, Testosteron, Wundheilung und über 300 Enzyme.',
-    description: 'Zink-Bisglycinat und -picolinat sind am besten verfügbar. Zink konkurriert mit Kupfer um Aufnahme – bei langfristiger Hochdosis Kupfer beachten.',
+    short: 'Essentiell für Immunsystem, Wundheilung und über 300 Enzyme.',
+    description: 'Essentieller Mineralstoff in über 300 Enzymen. Welche Zinkverbindung besser wirkt, ist in den Erkältungsstudien nicht geklärt. Zink konkurriert mit Kupfer um die Aufnahme.',
     benefits: [
-      'Stärkt Immunsystem (verkürzt Erkältungen)',
-      'Wichtig für Testosteronproduktion',
-      'Verbessert Hautbild (Akne)',
+      'Kann die Erkältungsdauer verkürzen, die Größe des Effekts ist unsicher',
       'Fördert Wundheilung',
-      'Beteiligt an DNA-Synthese',
-      'Wirkt antioxidativ'
+      'Beteiligt an DNA-Synthese'
     ],
     risks: [
       'Über 40 mg/Tag dauerhaft: Kupfermangel',
       'Auf nüchternen Magen: Übelkeit möglich',
-      'Bei Langzeit-Hochdosis Kupfer 1–2 mg ergänzen'
+      'Dauerhaft hohe Zufuhr kann einen Kupfermangel auslösen, das gehört ärztlich abgeklärt.'
     ],
-    dosage: '15–25 mg täglich. Bei akuter Erkältung kurzfristig bis 50 mg.',
+    dosage: 'Keine Empfehlung. Das BfR schlägt für Nahrungsergänzungsmittel höchstens 6,5 mg pro Tagesdosis vor; die tolerierbare Obergrenze aus allen Quellen liegt bei 25 mg pro Tag. In den Erkältungsstudien wurden Lutschtabletten mit 45 bis 276 mg pro Tag über 4,5 bis 21 Tage eingesetzt, das sind Studienangaben.',
     intake: 'Nicht auf leeren Magen. Abends mit Snack. Nicht gleichzeitig mit Eisen oder Kalzium.',
     synergies: ['vitamin-c', 'vitamin-d3'],
     avoid: ['eisen', 'kalzium'],
@@ -482,7 +479,7 @@ const SUPPLEMENTS = [
       'Weniger Müdigkeit und kürzere Reaktionszeit am Tag nach verkürztem Schlaf (7 ausgewertete Teilnehmer)',
       'Verstärkt am Menschen messbar den Glycin-Konjugationsweg zur Ausscheidung von Stoffwechselprodukten',
       'Hauptbaustein des Kollagens – dass mehr Glycin zu mehr Kollagen führt, ist nur in Zellkultur gezeigt',
-      'Die beste Datenbasis liegt in einem ganz anderen Feld: als Zusatz zu Antipsychotika, Meta-Analyse über 40 Studien mit 4.937 Patienten'
+      'Die beste Datenbasis liegt in einem ganz anderen Feld: als Zusatz zu Antipsychotika – Glycin ist eine von mehreren NMDA-Substanzen in einer Meta-Analyse über 40 Studien mit 4.937 Patienten'
     ],
     risks: [
       'Gut verträglich in den Studiendosen – süßer Geschmack, gut wasserlöslich',
@@ -615,8 +612,8 @@ const SUPPLEMENTS = [
       'Bei SSADH-Defizienz nicht geeignet: 16 g pro Tag führten zu Hypersomnie mit Krankenhausaufnahme',
       'Blutdrucksenkende Wirkung – Kombination mit Antihypertensiva ärztlich abklären'
     ],
-    dosage: '1.000–3.000 mg täglich.',
-    intake: 'Jederzeit, ideal mit Mahlzeit oder vor Training.',
+    dosage: 'In den Studien verwendet: 1 bis 6 g pro Tag in der Blutdruck-Meta-Analyse, 1,6 g pro Tag über 12 Wochen in der Prähypertonie-Studie; die kardiometabolischen Effekte waren bei 1,5 bis 3,0 g pro Tag am deutlichsten. Die norwegische Behörde VKM nennt für einen 70 kg schweren Erwachsenen rund 1.470 mg pro Tag als Schwellenwert. Das sind Studien- und Behördenangaben, keine Verzehrempfehlung.',
+    intake: 'Die Studien legen keinen bestimmten Einnahmezeitpunkt fest.',
     synergies: ['magnesium', 'kreatin'],
     avoid: [],
     evidence: 'mittel',
@@ -701,7 +698,7 @@ const SUPPLEMENTS = [
     category: 'Adaptogen',
     tags: ['stress', 'energie', 'fokus', 'sport', 'ausdauer'],
     short: 'Adaptogen für Energie und mentale Belastbarkeit. In Europa als traditionelles Arzneimittel registriert, nicht als wirksamkeitsbelegtes.',
-    description: 'Rosenwurz ist in Deutschland seit 2014 und 2016 als traditionelles pflanzliches Arzneimittel gegen Stresssymptome registriert – auf Basis der Anwendungstradition, nicht der Studien. Die EMA hat den Status „well-established use“ im März 2024 ausdrücklich abgelehnt. Am besten belegt ist die Ausdauer: eine Meta-Analyse über 26 RCTs mit 668 Teilnehmern findet kleine, konsistente Effekte. Bei Erschöpfung hängt fast alles an einem einzigen Extrakt. 3 % Rosavine und 1 % Salidrosid sind Marktkonvention, nicht die Spezifikation der Hauptstudien.',
+    description: 'Rosenwurz ist in Deutschland seit 2014 und 2016 als traditionelles pflanzliches Arzneimittel gegen Stresssymptome registriert – auf Basis der Anwendungstradition, nicht der Studien. Die EMA hat den Status „well-established use“ im März 2024 ausdrücklich abgelehnt. Am besten belegt ist die Ausdauer: eine Meta-Analyse über 26 RCTs mit 668 Teilnehmern findet kleine, gleichgerichtete Effekte bei hoher Heterogenität. Bei Erschöpfung hängt fast alles an einem einzigen Extrakt. 3 % Rosavine und 1 % Salidrosid sind Marktkonvention, nicht die Spezifikation der Hauptstudien.',
     benefits: [
       'Steigert die Ausdauerleistung leicht – Meta-Analyse, 26 RCTs, 668 Teilnehmer, VO2max ES 0,32',
       'Senkt mentale Ermüdung nach Einzeldosis – größte kontrollierte Studie, 161 Kadetten, p < 0,001',
@@ -767,16 +764,16 @@ const SUPPLEMENTS = [
     benefits: [
       'Kleine Humanstudien zu Gedächtnis und Fokus, uneinheitlich',
       'NGF-Anregung im Zellversuch gezeigt',
-      'Kann leichte kognitive Einschränkungen lindern',
-      'Unterstützt Darmgesundheit',
+      'Leichte kognitive Einschränkung: eine kleine Studie mit 30 Teilnehmern über 16 Wochen positiv, 4 Wochen nach dem Absetzen fielen die Werte wieder ab',
+      'Darmgesundheit: am Menschen nicht untersucht',
       'Einzelne kleine Studien zu Stimmung und Ängstlichkeit'
     ],
     risks: [
       'Bei Pilzallergie meiden',
       'In Studien bis 49 Wochen meist gut vertragen (Magen-Darm, Hautausschlag); Wechselwirkungen nicht untersucht, Langzeitdaten fehlen'
     ],
-    dosage: '500–3.000 mg Dual-Extrakt täglich.',
-    intake: 'Morgens mit Mahlzeit. Dual-Extrakte (Wasser + Alkohol) bevorzugen.',
+    dosage: 'In den Studien verwendet: rund 3 Gramm Fruchtkörperpulver täglich (Japan, 16 Wochen), 3 Kapseln Myzel mit 5 Milligramm Erinacin A pro Gramm (Taiwan, 49 Wochen), 1,8 Gramm (Großbritannien). Sogenannte Dual-Extrakte wurden in keiner dieser Studien geprüft. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Die Studien legen keinen Einnahmezeitpunkt fest. Ob ein Produkt Fruchtkörper oder Myzel enthält, ist ohne Analysenzertifikat nicht erkennbar.',
     synergies: ['acetyl-l-carnitin', 'omega-3'],
     avoid: [],
     evidence: 'gering',
@@ -873,7 +870,7 @@ const SUPPLEMENTS = [
     altNames: 'Curcumin C3 Complex',
     category: 'Kräuter',
     tags: ['entzuendung', 'gelenke', 'gehirn', 'anti-aging', 'anti-oxidant'],
-    short: 'Bei Kniearthrose so wirksam wie Ibuprofen, mit weniger Magenbeschwerden. Die Bioverfügbarkeitstricks, die dafür nötig sind, fallen zugleich in den Fallserien zur Leberschädigung auf.',
+    short: 'Lindert bei Kniearthrose den Schmerz gegenüber Placebo, in einer Vergleichsstudie Ibuprofen nicht unterlegen. Die Bioverfügbarkeitstricks fallen zugleich in den Fallserien zur Leberschädigung auf.',
     description: 'Curcumin wird schlecht aufgenommen: In einer Dosiseskalation war bis zu einer Einzeldosis von 8.000 mg kein Curcumin im Serum nachweisbar. Deshalb arbeiten Präparate mit Piperin, Mizellen oder Phospholipid-Komplexen. Diese Wege unterscheiden sich pharmakokinetisch stark, und eigene Wirksamkeitsdaten gibt es nicht für jede Form. Klinisch am besten belegt ist die Kniearthrose. Für Krebsprävention, Anti-Aging und Leber-Entgiftung fehlt Vergleichbares.',
     benefits: [
       'Lindert bei Kniearthrose Schmerz und Funktionseinschränkung: Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten, -1,63 auf der Schmerzskala und -18,85 im WOMAC-Gesamtscore',
@@ -940,21 +937,21 @@ const SUPPLEMENTS = [
     altNames: 'Trans-Resveratrol',
     category: 'Antioxidant',
     tags: ['anti-aging', 'herz', 'sirtuine', 'longevity', 'anti-oxidant'],
-    short: 'Polyphenol aus Trauben. Gut untersucht – der Longevity-Nutzen ließ sich am Menschen nicht bestätigen.',
+    short: 'Polyphenol aus Trauben. Der beworbene Longevity-Nutzen ließ sich am Menschen nicht bestätigen; die vorliegenden Studien fielen überwiegend negativ aus.',
     description: 'Resveratrol aktiviert SIRT1 in Zellversuchen; die Übertragung auf den Menschen ist umstritten und die Sirtuin-Hypothese wurde mehrfach angezweifelt. Studien an Menschen fanden für die beworbenen Longevity-Effekte keine Bestätigung. Trans-Resveratrol ist die übliche Form.',
     benefits: [
       'Aktiviert Sirtuine im Zellversuch – Übertragung umstritten',
       'Effekte auf Gefäßmarker in kleinen Studien, uneinheitlich',
       'Antioxidative Wirkung',
-      'Einzelne Studien zum Blutzucker, ohne konsistentes Bild',
-      'Synergie mit NMN/NR'
+      'Einzelne Studien zum Blutzucker, ohne konsistentes Bild'
     ],
     risks: [
       'Bei Blutverdünnern Vorsicht',
-      'Östrogenische Wirkung: Vorsicht bei hormonsensitiven Erkrankungen'
+      'Östrogenische Wirkung: Vorsicht bei hormonsensitiven Erkrankungen',
+      'Kombination mit NMN/NR wird beworben, ist aber nicht untersucht'
     ],
-    dosage: '250–500 mg täglich Trans-Resveratrol.',
-    intake: 'Morgens mit fetthaltiger Mahlzeit (fettlöslich).',
+    dosage: 'Keine Dosierungsangabe. Trans-Resveratrol ist in der EU als neuartiges Lebensmittel für Nahrungsergänzungsmittel mit höchstens 150 mg pro Tag für Erwachsene zugelassen. In den geprüften Studien kamen 75 mg täglich über zwölf Wochen und 250 mg täglich über acht Wochen zum Einsatz.',
+    intake: 'Keine Einnahmeempfehlung. Bei Blutverdünnern und hormonsensitiven Erkrankungen ärztlich abklären.',
     synergies: ['nmn', 'quercetin', 'pterostilben'],
     avoid: [],
     evidence: 'mittel',
@@ -1156,13 +1153,11 @@ const SUPPLEMENTS = [
     altNames: 'Schlafhormon',
     category: 'Hormon',
     tags: ['schlaf', 'jetlag', 'anti-oxidant', 'hormone'],
-    short: 'Natürliches Schlafhormon. Niedrig dosieren – weniger ist mehr.',
-    description: 'Studien zeigen: 0,3–0,5 mg sind oft wirksamer als die üblichen 3–10 mg. Auch ein potentes Antioxidans in den Mitochondrien.',
+    short: 'Körpereigenes Dunkelheitssignal. Wirkt am stärksten bei Jetlag und verschobener Schlafphase, bei gewöhnlicher Insomnie nur wenige Minuten.',
+    description: 'Körpereigenes Signal für Dunkelheit, das die innere Uhr verschiebt. Bei Jetlag wirkten 0,5 bis 5 mg ähnlich, 5 mg ließen schneller einschlafen als 0,5 mg, darüber zeigte sich kein Zusatznutzen. Bei gewöhnlicher Insomnie ist der Effekt klein.',
     benefits: [
       'Verkürzt Einschlafzeit',
       'Hilft bei Jetlag',
-      'Starkes Antioxidans',
-      'Unterstützt Immunsystem',
       'Reguliert zirkadianen Rhythmus'
     ],
     risks: [
@@ -1171,11 +1166,11 @@ const SUPPLEMENTS = [
       'Bei hormonellen Erkrankungen Arzt fragen',
       'Nicht ideal für Kinder/Teenager'
     ],
-    dosage: '0,3–1 mg etwa 30–60 min vor dem Schlafen. Bei Jetlag bis 3 mg.',
+    dosage: 'Keine Empfehlung. In Studien eingesetzt: 0,5 bis 5 mg nahe der Ziel-Schlafenszeit bei Jetlag; oberhalb von 5 mg kein Zusatznutzen. Als Arzneimittel ist eine retardierte 2-mg-Form verschreibungspflichtig zugelassen.',
     intake: 'Abends bei gedämpftem Licht. Nicht bei heller Beleuchtung.',
     synergies: ['magnesium', 'glycin'],
     avoid: [],
-    evidence: 'hoch',
+    evidence: 'mittel',
     sources: 'Kirschen, Pistazien (Spurenmengen)',
     podcasts: [
       {
@@ -1206,7 +1201,7 @@ const SUPPLEMENTS = [
       'Verändert die Zusammensetzung der Darmflora: 6 von 7 randomisierten Studien fanden signifikante Verschiebungen, die Richtung ist laut den Autoren aber nicht einheitlich günstig'
     ],
     risks: [
-      'In Nahrungsergänzungsmitteln in der EU derzeit nicht verwendbar; die EFSA konnte am 29. Januar 2026 für keine der 13 geprüften Zubereitungen eine sichere Aufnahmemenge ableiten',
+      'Isoliertes Berberin gilt nach Einschätzung der Verbraucherzentrale als nicht zugelassenes neuartiges Lebensmittel; die EFSA konnte am 29. Januar 2026 für keine der 13 geprüften Zubereitungen eine sichere Aufnahmemenge ableiten',
       'Hemmt und induziert CYP3A4, hemmt CYP2D6 und CYP2C9 quasi-irreversibel über einen Metabolit-Intermediat-Komplex',
       'Moduliert P-Glykoprotein sowie die Transporter OCT1, OCT2 und MATE1',
       'Belegter klinischer Fall: Bei Nierentransplantierten stieg die Ciclosporin-Exposition um 34,5 Prozent, der Talspiegel lag 29,3 Prozent über dem der Kontrolle',
@@ -1217,7 +1212,7 @@ const SUPPLEMENTS = [
       'Schwankende handelsübliche Wirkstärke; die nationalen Obergrenzen in Europa unterscheiden sich um mehr als eine Größenordnung',
       'Sehr geringe Aufnahme: 0,68 Prozent orale Bioverfügbarkeit bei der Ratte'
     ],
-    dosage: 'Keine Empfehlung. Berberin ist in Deutschland kein zugelassenes Arzneimittel, weshalb § 3a Heilmittelwerbegesetz greift, und darf in Nahrungsergänzungsmitteln in der EU derzeit nicht verwendet werden. Zur Einordnung: Die französische ANSES leitete 2019 einen indikativen Toxizitätswert von 1,7 Mikrogramm je Kilogramm Körpergewicht und Tag ab und gibt selbst an, dass daraus für eine Person von 60 kg eine Tagesmenge von 0,1 mg folgt. Belegte pharmakologische Wirkungen sieht die ANSES ab 400 mg pro Tag, unerwünschte Wirkungen wurden ab 600 mg pro Tag beobachtet. Auf dem französischen Markt reichten die empfohlenen Tagesdosen zugleich von 250 bis 1.200 mg.',
+    dosage: 'Keine Empfehlung. Berberin ist in Deutschland kein zugelassenes Arzneimittel, weshalb § 3a Heilmittelwerbegesetz greift, und isoliertes Berberin darf nach Einschätzung der Verbraucherzentrale als nicht zugelassenes neuartiges Lebensmittel in Nahrungsergänzungsmitteln derzeit nicht verwendet werden. Zur Einordnung: Die französische ANSES leitete 2019 einen indikativen Toxizitätswert von 1,7 Mikrogramm je Kilogramm Körpergewicht und Tag ab und gibt selbst an, dass daraus für eine Person von 60 kg eine Tagesmenge von 0,1 mg folgt. Belegte pharmakologische Wirkungen sieht die ANSES ab 400 mg pro Tag, unerwünschte Wirkungen wurden ab 600 mg pro Tag beobachtet. Auf dem französischen Markt reichten die empfohlenen Tagesdosen zugleich von 250 bis 1.200 mg.',
     intake: 'Keine Einnahmeempfehlung. Wer bereits Medikamente einnimmt, sollte den Stoff wegen der Wechselwirkungen über CYP3A4, CYP2D6, CYP2C9 und P-Glykoprotein in jedem Fall ärztlich oder in der Apotheke ansprechen, statt ihn auf eigene Faust zu kombinieren.',
     synergies: [],
     avoid: [],
@@ -1249,7 +1244,7 @@ const SUPPLEMENTS = [
       'Rohstoff ist Weizenkeim – bei Glutenunverträglichkeit ungeeignet'
     ],
     dosage: 'In der EU sind höchstens 6 mg Spermidin pro Tag als Lebensmittel zugelassen. Die Studien verwendeten 0,9 mg (SmartAge), 1 mg, 1,2 mg, 6 mg, 15 mg, 24 mg und 40 mg täglich.',
-    intake: 'Morgens auf leeren Magen.',
+    intake: 'Die Studien legen keinen bestimmten Einnahmezeitpunkt fest.',
     synergies: ['resveratrol', 'quercetin'],
     avoid: [],
     evidence: 'schwach',
@@ -1266,21 +1261,19 @@ const SUPPLEMENTS = [
     altNames: 'Hydrolysiertes Kollagen Typ I & III',
     category: 'Protein',
     tags: ['haut', 'gelenke', 'haare', 'anti-aging', 'darm'],
-    short: 'Baustein für Haut, Haare, Nägel und Gelenke. Körpereigene Produktion sinkt ab 25.',
-    description: 'Kollagen macht 30 % des Körperproteins aus. Mit Vitamin C eingenommen für bessere Synthese. Grass-fed oder Meeresfisch bevorzugen.',
+    short: 'Hydrolysiertes Kollagen. Hauteffekte zeigen sich nur in herstellerfinanzierten Studien, bei Kniearthrose ein kleines Schmerzsignal.',
+    description: 'Kollagen macht rund 30 % des Körperproteins aus. Als Nahrungsergänzung wird es wie jedes Protein verdaut; dass die Bruchstücke gezielt in der Haut wieder zu Kollagen werden, ist nicht gesichert. Zu Haaren, Nägeln und Darm liegen keine belastbaren Studien vor.',
     benefits: [
-      'Verbessert Hautelastizität',
-      'Stärkt Haare und Nägel',
-      'Lindert Gelenkschmerzen',
-      'Unterstützt Darmgesundheit',
+      'Hautfeuchtigkeit und Elastizität nur in herstellerfinanzierten Studien verbessert',
+      'Kniearthrose: Schmerz SMD −0,58 in 4 Studien mit 507 Teilnehmenden, alle mit hohem Verzerrungsrisiko',
       'Gute Glycin-Quelle'
     ],
     risks: [
       'Sehr sicher',
       'Bei Allergien auf Fisch/Rind beachten'
     ],
-    dosage: '10–20 g täglich.',
-    intake: 'Morgens mit Vitamin C im Kaffee/Smoothie. Oder nach dem Training.',
+    dosage: 'Keine Empfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Zum Nutzen von Vitamin C oder einem bestimmten Einnahmezeitpunkt liegen in den geprüften Belegen keine Daten vor.',
     synergies: ['vitamin-c', 'hyaluronsaeure'],
     avoid: [],
     evidence: 'mittel',
@@ -1441,7 +1434,7 @@ const SUPPLEMENTS = [
       'Senkt bei COPD akute Exazerbationen (Meta-Analyse, 14 RCTs, 2.856 Patienten, RR 0,87); offene Empfehlung der Nationalen VersorgungsLeitlinie COPD für die Dauertherapie',
       'Kleiner Zusatzeffekt auf depressive Symptome (12 RCTs, 904 Patienten, SMD −0,24)',
       'Trichotillomanie bei Erwachsenen: 56 % gegenüber 16 % deutlich oder sehr deutlich gebessert (RCT, 50 Teilnehmer, 12 Wochen) — bei 39 Kindern nicht reproduzierbar',
-      'Füllt Glutathion dort auf, wo ein Mangel vorliegt (Mukoviszidose, 18 Patienten) — nicht nachweisbar im Gehirn Gesunder'
+      'Füllt Glutathion dort auf, wo ein Mangel vorliegt (Mukoviszidose, 18 Patienten) — nicht nachweisbar im Gehirn (offene Studie, 8 Personen, 5 davon mit Parkinson)'
     ],
     risks: [
       'Gegenanzeige bei Kindern unter 2 Jahren (Sekret kann die Atemwege verlegen); 200-mg-Tabletten zusätzlich unter 6 Jahren',
@@ -1567,7 +1560,7 @@ const SUPPLEMENTS = [
       'Fast alle Humanstudien vom Hersteller finanziert, unabhängige Wiederholung fehlt'
     ],
     dosage: 'In Studien eingesetzt: 500 bis 1.000 mg täglich über bis zu 4 Monate; die Muskelstudien bei Älteren nutzten 1.000 mg. Das sind Studienangaben, keine Verzehrempfehlung.',
-    intake: 'Mit einer Mahlzeit, bevorzugt morgens.',
+    intake: 'Die Studien legen keinen bestimmten Einnahmezeitpunkt fest.',
     synergies: ['coq10', 'pqq'],
     avoid: [],
     evidence: 'mittel',
@@ -1616,7 +1609,7 @@ const SUPPLEMENTS = [
     description: 'Alpha-GPC überquert die Blut-Hirn-Schranke und liefert Cholin direkt für die Acetylcholin-Synthese. Klinisch gegen Alzheimer erforscht, bei Sportlern für Kraft-Output beliebt.',
     benefits: [
       'Kleine Studien: Vorteile bei leichter kognitiver Beeinträchtigung; die Placebostudien in Korea verfehlten 2026 laut Presseberichten ihr Hauptziel',
-      'Steigert Fokus und geistige Klarheit',
+      'Fokus und geistige Klarheit bei Gesunden: beworben, nicht untersucht',
       'Als Hirnschutz im Alter beworben — dem steht eine Kohortenauswertung über 12 Mio. Menschen mit erhöhtem Schlaganfallrisiko gegenüber'
     ],
     risks: [

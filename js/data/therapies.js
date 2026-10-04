@@ -472,15 +472,15 @@ const THERAPIES = [
     name: 'Hyperbare Sauerstofftherapie (HBOT)',
     category: 'Biohacking',
     emoji: '🤿',
-    short: 'Reiner Sauerstoff unter Überdruck in einer Druckkammer – flutet das Gewebe mit Sauerstoff, fördert Gefäßneubildung, Regeneration und Zellreparatur.',
+    short: 'Reiner Sauerstoff unter Überdruck in einer Druckkammer. Belegt ist der kurzfristige Nutzen beim diabetischen Fußulkus; die Longevity-Daten stammen aus kleinen Studien eines einzigen Zentrums.',
     benefits: [
       'Stark erhöhte Sauerstoffversorgung von Gewebe und Wunden',
       'Fördert Gefäßneubildung und Stammzellmobilisierung',
       'Eine Studie (Hachmo 2020) zeigte längere Telomere und weniger seneszente Zellen',
-      'Beliebt für Regeneration, Wundheilung und kognitive Erholung'
+      'Für Sport-Regeneration und Muskelkater zeigten randomisierte Studien keinen signifikanten Nutzen'
     ],
-    indication: ['Regeneration', 'Wundheilung', 'Long Covid', 'Anti-Aging', 'Sport-Erholung'],
-    note: 'Wirkung stark protokollabhängig; medizinische HBOT gehört in erfahrene Hände. Longevity-Nutzung ist off-label.',
+    indication: ['Regeneration', 'Wundheilung', 'Long Covid', 'Anti-Aging'],
+    note: 'Wirkung stark protokollabhängig; medizinische HBOT gehört in erfahrene Hände. Longevity-Anwendungen sind Selbstzahlerleistungen ohne anerkannte Indikation.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/33206062/',
     podcasts: [
       {
@@ -496,11 +496,11 @@ const THERAPIES = [
     name: 'Rotlicht / Photobiomodulation (PBM)',
     category: 'Biohacking',
     emoji: '🔴',
-    short: 'Rotes und nah-infrarotes Licht (ca. 630–850 nm) regt die Mitochondrien an – für Energie, Hautqualität, Regeneration und Entzündungshemmung.',
+    short: 'Rotes und nahinfrarotes Licht (ca. 630–850 nm), gedacht zur Anregung der Mitochondrien. Viele Studien, wenig Ergebnissicherheit: moderat belegt sind nur einzelne Endpunkte wie Haardichte, Kniearthrose und Fibromyalgie.',
     benefits: [
-      'Stimuliert die Mitochondrien (Cytochrom-c-Oxidase) → mehr zelluläre Energie',
-      'Verbessert Hautqualität, Kollagen und Wundheilung',
-      'Kann Muskelregeneration und Gelenkbeschwerden unterstützen',
+      'Mechanismus: Licht wird von der Cytochrom-c-Oxidase der Mitochondrien aufgenommen (Übersicht de Freitas & Hamblin 2016)',
+      'Hautalterung und Wundheilung: bisher keine belastbaren Belege',
+      'Moderat belegt: weniger Funktionseinschränkung bei Kniearthrose und weniger Fatigue bei Fibromyalgie (Umbrella-Review Son 2025)',
       'Nicht-invasiv, gut verträglich, zuhause per Panel nutzbar'
     ],
     indication: ['Haut & Anti-Aging', 'Regeneration', 'Schmerzen', 'Energie', 'Wundheilung'],
@@ -520,12 +520,12 @@ const THERAPIES = [
     name: 'Sauna & Kälte (Hormesis)',
     category: 'Biohacking',
     emoji: '🧊',
-    short: 'Zwei klassische Hormesis-Reize: Hitze (Sauna) und Kälte (Eisbad/Kryo) – kurzer Stress, der Herz-Kreislauf, Regeneration, Stimmung und Stressresistenz trainiert.',
+    short: 'Zwei Hormesis-Reize: Hitze (Sauna) und Kälte (Eisbad). Häufiges Saunieren ist in einer großen Beobachtungskohorte mit niedrigerer Sterblichkeit verbunden; für Kälte zeigen Studien bisher keinen Regenerationsvorteil gegenüber Ausruhen.',
     benefits: [
-      'Sauna: in Bevölkerungsstudien mit weniger Herz-Kreislauf-Ereignissen und Sterblichkeit verknüpft (Laukkanen)',
-      'Hitze aktiviert Hitzeschockproteine und verbessert die Gefäßfunktion',
-      'Kälte: kann Stimmung, Wachheit und Stressresistenz steigern (Noradrenalin-Anstieg)',
-      'Beide unterstützen Regeneration und mentale Widerstandskraft'
+      'Sauna: in der finnischen KIHD-Kohorte mit weniger plötzlichem Herztod und niedrigerer Sterblichkeit verbunden (Beobachtung, Laukkanen 2015)',
+      'Sauna zusätzlich zum Sport: im RCT kein Zusatzeffekt auf die Herzratenvariabilität (Lee 2025)',
+      'Kälte: hebt Noradrenalin und Dopamin akut deutlich an',
+      'Eisbad zur Regeneration: in einer Netzwerk-Metaanalyse nicht besser als passive Erholung (Jin 2026)'
     ],
     indication: ['Herz-Kreislauf', 'Regeneration', 'Stimmung', 'Stressresistenz', 'Longevity'],
     note: 'Vorsicht bei Herz-Kreislauf-Erkrankungen und in der Schwangerschaft – vorher ärztlich abklären. Kälte langsam herantasten.',
@@ -548,7 +548,7 @@ const THERAPIES = [
     benefits: [
       'Herzschwäche nach ischämischer Kardiomyopathie: Auswurfleistung nach 1 Monat 45,44 gegenüber 42,44 Prozent unter Placebo, p = 0,024; 7 Tage NAD+ über die Vene zusätzlich zur Standardtherapie (Mensch, randomisiert, 180 Patienten, ein Zentrum, China, 2026).',
       'Trend zu weniger schweren Herz- und Hirnereignissen über 6 Monate, 14,6 gegenüber 24,7 Prozent, nicht signifikant (dieselbe Studie, 2026).',
-      'Keine bedeutsamen Veränderungen bei Leber-, Nieren-, Entzündungs- und Schilddrüsenwerten über 30 Tage nach 4 Infusionstagen (Mensch, 6 NAD+-Empfänger, retrospektiv, 2026).',
+      'Keine bedeutsamen Veränderungen bei ALT, AST, CRP, Nierenwerten und TSH über 30 Tage nach 4 Infusionstagen; die alkalische Phosphatase sank, blieb aber im Normbereich (Mensch, 6 NAD+-Empfänger, retrospektiv, 2026).',
       'Bei langsamer Gabe über 6 Stunden keine Nebenwirkungen beobachtet (Mensch, 8 Männer mit NAD+, 3 Kontrollen, Pilotstudie 2019).',
       'Mechanistische Grundlage aus Tierversuchen: Anhebung von NAD+ verbesserte in Nagetieren häufig Stoffwechsel, Mitochondrien und Entzündungswerte (systematische Übersicht mit 80 Nagetierstudien, 2026).'
     ],
@@ -592,7 +592,7 @@ const THERAPIES = [
     ],
     indication: ['Gelenke/Orthopädie', 'Regeneration', 'Anti-Aging', 'Entzündung'],
     link: 'https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/consumer-alert-regenerative-medicine-products-including-stem-cells-and-exosomes',
-    note: 'Stammzellpräparate sind meist Arzneimittel für neuartige Therapien (ATMP) – nur zugelassen, in genehmigten Studien oder unter der Krankenhausausnahme anwendbar. EMA und Paul-Ehrlich-Institut warnten am 31.03.2025 vor kommerziellen Angeboten mit nicht zugelassenen Zelltherapien. Dokumentiert sind Erblindung und Todesfälle nach ungeprüften Behandlungen.'
+    note: 'Stammzellpräparate sind meist Arzneimittel für neuartige Therapien (ATMP) – nur zugelassen, in genehmigten Studien oder unter der Krankenhausausnahme anwendbar. EMA und die Leitungen der europäischen Arzneimittelbehörden, darunter das Paul-Ehrlich-Institut, warnten am 31.03.2025 vor kommerziellen Angeboten mit nicht zugelassenen Zelltherapien. Dokumentiert sind Erblindung und Todesfälle nach ungeprüften Behandlungen.'
   },
   {
     id: 'exosomen',
@@ -649,14 +649,14 @@ const THERAPIES = [
     emoji: '📟',
     short: 'Ein kleiner Sensor am Arm misst rund um die Uhr den Blutzucker – macht sichtbar, wie Essen, Sport, Stress und Schlaf den Glukoseverlauf beeinflussen.',
     benefits: [
-      'Zeigt in Echtzeit, wie einzelne Mahlzeiten den Blutzucker treiben',
-      'Hilft, Glukosespitzen zu glätten (bessere Energie, weniger Heißhunger)',
-      'Individuelles Feedback für Ernährung, Sport und Schlaf',
-      'Objektiver Marker für metabolische Gesundheit'
+      'Zeigt in Echtzeit, wie einzelne Mahlzeiten den gemessenen Glukosewert verändern',
+      'Bessere Energie und weniger Heißhunger werden versprochen, von der Fachliteratur aber nicht gestützt',
+      'Bei Prädiabetes in kleinen Studien bessere Blutzuckerwerte, bei Stoffwechselgesunden kein Vorteil (Meta-Analyse, 23 Studien)',
+      'Bei Gesunden kein validierter Normbereich; Sensoren überschätzten in einer Laborstudie systematisch'
     ],
     indication: ['Stoffwechsel-Optimierung', 'Gewicht', 'Energie/Heißhunger', 'Prädiabetes-Prävention'],
-    note: 'Für Nicht-Diabetiker ein Optimierungs-Tool, kein Diagnosegerät. Werte im Kontext interpretieren; einzelne Spitzen sind normal.',
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10528360/',
+    note: 'Für Nicht-Diabetiker ein Messgerät ohne validierten Normbereich, kein Diagnosegerät. Einzelne Spitzen sind normal.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41588451/',
     podcasts: [
       {
         title: 'CGM: Der Blutzucker-Sensor im Faktencheck',
@@ -797,8 +797,8 @@ const THERAPIES = [
       'Studien klein und überwiegend aus dem Umfeld der Befürworter oder herstellerfinanziert'
     ],
     indication: ['Schlaf', 'Stress', 'Regeneration', 'Wohlbefinden'],
-    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3265077/',
-    note: 'Evidenz überwiegend klein und teils vom Umfeld der Vermarkter; Effekte oft subjektiv. Als angenehme, risikoarme Gewohnheit einzuordnen.'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26443876/',
+    note: 'Evidenz klein und überwiegend aus dem Umfeld der Vermarkter; Effekte meist in Fragebögen. Kontrollierte Sicherheitsdaten fehlen, bei Erdungsmatten hängt die Sicherheit von der Hauselektrik ab.'
   },
   {
     id: 'chelat-therapie',
@@ -823,12 +823,13 @@ const THERAPIES = [
     name: 'Fasten & Autophagie',
     category: 'Biohacking',
     emoji: '⏳',
-    short: 'Geplante Essenspausen von 16:8 bis zum mehrtägigen Fasten: Der Körper schaltet von Wachstum (mTOR) auf Aufräumen um und startet das Zellrecycling.',
+    short: 'Geplante Essenspausen von 16:8 bis zum mehrtägigen Fasten. Versprochen wird ein Umschalten von Wachstum (mTOR) auf Zellrecycling; am Menschen ist das kaum gemessen, und beim Gewicht bringt das Zeitfenster nicht mehr als ein gleich großes Kaloriendefizit.',
     benefits: [
-      'Essenspausen senken Insulin und verbessern die Insulinsensitivität',
+      'Gewichtsverlust etwa so groß wie bei gleich großem Kaloriendefizit, nicht größer (12-Monats-Studie, 139 Personen)',
       'NEJM-Übersicht 2019: bessere Stoffwechsel-Marker, weniger Entzündung, höhere Stressresistenz der Zellen',
-      'Deutliche Autophagie-Signale zeigen sich beim Menschen vor allem jenseits von etwa 24 Stunden Fasten',
-      'Frühes Essfenster (ca. 8–18 Uhr) schneidet bei Blutzucker, Blutdruck und Appetit-Hormonen besser ab'
+      'Versprochen wird ein Umschalten auf Zellrecycling; eine Stundenschwelle ist am Menschen nicht belegt',
+      'Kurzfristig niedrigere 24-Stunden-Glukose in einer kleinen Überkreuzstudie (11 Personen, 4 Tage)',
+      'Keine Studien zu Sterblichkeit oder Herz-Kreislauf-Ereignissen'
     ],
     indication: ['Stoffwechsel', 'Insulinsensitivität', 'Gewicht', 'Zellreinigung', 'Longevity'],
     note: 'Nicht geeignet für Schwangere, Stillende, Kinder, Untergewichtige und Menschen mit Essstörungs-Geschichte; mehrtägiges Fasten gehört in medizinische Begleitung.',
@@ -847,16 +848,17 @@ const THERAPIES = [
     name: 'Schlaf & Schlafhygiene',
     category: 'Biohacking',
     emoji: '🌙',
-    short: 'Der stärkste kostenlose Longevity-Hebel: Im Tiefschlaf laufen Zellreparatur, Hormonpuls und die glymphatische Hirnspülung – Regelmäßigkeit zählt mehr als Dauer.',
+    short: 'Feste Zeiten, dunkler Raum, wenig späte Reize: Schlafhygiene bessert Insomnie-Beschwerden messbar, aber schwächer als kognitive Verhaltenstherapie. Dass gezielte Schlafoptimierung bei Gesunden das Leben verlängert, ist nicht belegt.',
     benefits: [
-      'Im Tiefschlaf laufen Gewebereparatur und der größte Wachstumshormon-Puls des Tages',
-      'Das glymphatische System spült nachts Stoffwechsel-Abfälle wie Beta-Amyloid aus dem Gehirn',
-      'Regelmäßige Schlafzeiten: in UK-Biobank-Daten deutlich niedrigeres Sterberisiko als bei unregelmäßigem Rhythmus',
+      'Kurzer und langer Schlaf gehen in Kohorten mit höherer Sterblichkeit einher (U-Kurve, Beobachtungsdaten)',
+      'Mehr Schlaf senkte in einer randomisierten Studie die Energieaufnahme um 270 kcal pro Tag (80 Teilnehmende, 2 Wochen)',
+      'Versprochen wird, dass im Tiefschlaf Gewebereparatur, Wachstumshormon-Puls und eine glymphatische Spülung von Beta-Amyloid aus dem Gehirn laufen; ein Nutzen gezielter Schlafoptimierung ist damit nicht gezeigt',
+      'Regelmäßige Schlafzeiten gingen in UK-Biobank-Beobachtungsdaten mit niedrigerem Sterberisiko einher; eine Interventionsstudie dazu gibt es nicht',
       'Ausreichend Schlaf stützt Immunabwehr, Insulinsensitivität und Testosteronspiegel'
     ],
     indication: ['Longevity', 'Regeneration', 'Immunsystem', 'Stoffwechsel', 'Kognition'],
     note: 'Chronische Schlafstörungen, Schnarchen mit Atemaussetzern oder bleierne Tagesmüdigkeit gehören in ärztliche Abklärung – Stichwort Schlafapnoe.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/26118561/',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/20469800/',
     podcasts: [
       {
         title: 'Schlaf: Der größte Longevity-Hebel im Faktencheck',
@@ -947,12 +949,12 @@ const THERAPIES = [
     name: 'Zone 2 & VO2max-Training',
     category: 'Biohacking',
     emoji: '🏃',
-    short: 'Ausdauertraining in zwei Intensitäten: lockere Zone 2 als Fundament plus ein harter VO2max-Reiz pro Woche – die Ausdauer-Währung der Langlebigkeit.',
+    short: 'Ausdauertraining in unterschiedlichen Intensitäten. Die VO2max ist ein sehr starker Sterblichkeitsmarker; dass gerade lockeres Zone-2-Training oder eine bestimmte Verteilung diesen Vorteil erzeugt, ist kaum untersucht.',
     benefits: [
       'VO2max ist ein starker Sterblichkeits-Marker: Unfiteste hatten rund fünffach höheres Risiko als die Fittesten',
-      'Zone 2 baut Mitochondrien und Kapillaren auf, senkt Laktat und verbessert die Insulinsensitivität',
+      'Zone 2 gilt als Grundlage für Mitochondrien und Kapillaren; ein Vorteil gegenüber anderen Intensitätsverteilungen ist nicht belegt',
       'Das norwegische 4x4-Intervall hebt die VO2max auch bei Älteren und Herzpatienten zuverlässig an',
-      'Schon ein bis zwei Stunden zügige Bewegung pro Woche senken das Sterberisiko am deutlichsten'
+      'In Beobachtungsstudien ist schon wenig regelmäßige Bewegung mit niedrigerer Sterblichkeit verbunden; die große Interventionsstudie Generation 100 verfehlte ihren Mortalitätsendpunkt'
     ],
     indication: ['Longevity', 'Herz-Kreislauf', 'Insulinsensitivität', 'Ausdauer', 'Regeneration'],
     note: 'Der Nutzen entsteht über Jahre, nicht Wochen – und wer über vierzig ist, Vorerkrankungen hat oder lange pausiert hat, gehört vor dem harten Vier-mal-vier sportmedizinisch durchgecheckt.',

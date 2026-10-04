@@ -65333,6 +65333,38 @@
 "Journal Article"
 ]
 },
+"pmid:40345145": {
+"autoren": "Bensalem J, Teong XT, Hattersley KJ, Hein LK, Fourrier C, Dang LVP, Singh S, Liu K, Wittert GA, Hutchison AT, Heilbronn LK, Sargeant TJ.",
+"doi": "10.1113/jp287938",
+"iso": "J Physiol",
+"jahr": "2025",
+"journal": "The Journal of physiology",
+"korr": [],
+"mesh": [
+"Leukocytes, Mononuclear",
+"Humans",
+"Obesity",
+"Triglycerides",
+"Caloric Restriction",
+"Adult",
+"Aged",
+"Middle Aged",
+"Autophagy",
+"Female",
+"Male",
+"Intermittent Fasting"
+],
+"pmcid": "",
+"pmid": "40345145",
+"quelle": "MED",
+"titel": "Intermittent time-restricted eating may increase autophagic flux in humans: an exploratory analysis.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40360723": {
 "autoren": "Suharyani S, Amanda B, Angellee J, William W, Hariyanto TI, I'tishom R.",
 "doi": "10.1038/s41443-025-01086-7",

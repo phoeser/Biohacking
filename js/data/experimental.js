@@ -233,7 +233,7 @@ const EXPERIMENTAL = [
     altNames: 'Testosteron-Ersatztherapie, TRT, Testosteron-Substitution, Testosterongel, Testosteron-Enantat',
     class: 'Androgenes Sexualhormon · Hormonersatztherapie bei Hypogonadismus (Testosteronmangel)',
     emoji: '💪',
-    short: 'Bei echtem, ärztlich festgestelltem Testosteronmangel eine gut belegte und oft sehr wirksame Hormontherapie – sie bringt spürbar mehr Energie, Muskelkraft, Libido und Lebensfreude zurück. Am schönsten mit ärztlicher Begleitung.',
+    short: 'Bei ärztlich festgestelltem Testosteronmangel eine zugelassene Hormontherapie mit gut belegter Wirkung auf Libido, Muskelmasse, Körperfett und Knochendichte. Für Männer ohne diagnostizierten Mangel gibt es keine Zulassungsstudie.',
     moa: 'Testosteron ist das wichtigste männliche Sexualhormon und wirkt über Androgenrezeptoren auf Muskeln, Knochen, Blutbildung, Fettstoffwechsel, Libido, Antrieb und Stimmung; ein Teil wird zu Östradiol aromatisiert (physiologisch nötig, u.a. für Knochen und Libido). Der Spiegel sinkt ab etwa Mitte 30 langsam; bei ausgeprägtem Mangel mit Symptomen spricht man von Hypogonadismus. Die TRT ersetzt das fehlende Hormon (Injektion, Gel, Pflaster oder Depot), um den Spiegel in einen gesunden Bereich zu bringen. Ziel ist der Ausgleich eines Mangels, nicht die Supraphysiologie.',
     benefits: [
       'Bei echtem Mangel: mehr sexuelles Verlangen und bessere Erektionsfähigkeit.',
@@ -241,16 +241,17 @@ const EXPERIMENTAL = [
       'Verbesserte Knochendichte.',
       'Oft bessere Stimmung, mehr Antrieb und Lebensqualität (mangelbedingte, depressionsähnliche Symptome bessern sich).',
       'Hinweise auf bessere Insulinempfindlichkeit und günstige Stoffwechseleffekte, v.a. bei Übergewicht + Mangel.',
-      'Aktuelle Sicherheitsdaten (TRAVERSE-Studie): kein erhöhtes Risiko für schwere Herz-Kreislauf-Ereignisse und keine erhöhte Prostatakrebsrate bei sachgemäßem Einsatz.'
+      'Aktuelle Sicherheitsdaten (TRAVERSE-Studie): kein erhöhtes Risiko für schwere Herz-Kreislauf-Ereignisse. Zum Prostatakrebs gab es zu wenige Fälle für eine Aussage in die eine oder andere Richtung.'
     ],
     risks: [
       'Verschreibungspflichtig – Diagnose und Begleitung gehören in ärztliche Hände (inkl. regelmäßiger Blutkontrollen).',
       'Unterdrückt vorübergehend die eigene Spermienproduktion; bei Kinderwunsch gibt es schonendere Wege.',
-      'Kann die roten Blutkörperchen anheben – mit Kontrollen gut steuerbar.'
+      'Kann die roten Blutkörperchen anheben – mit Kontrollen gut steuerbar.',
+      'In TRAVERSE häufiger Vorhofflimmern (91 gegen 63 Fälle), akute Nierenschädigung und Lungenembolie; Metaanalyse: Herzrhythmusstörungen RR 1,53. Die FDA hat 2025 eine Warnung zu Blutdruckanstieg ergänzt.'
     ],
     status: 'Zugelassenes, verschreibungspflichtiges Medikament bei Testosteronmangel. Am besten ärztlich abklären und begleiten lassen.',
     sources: [
-      { title: 'Endocrine Society / AUA – Guidelines Testosterontherapie bei Hypogonadismus', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' },
+      { title: 'AAFP 2024 – Testosteronersatztherapie bei männlichem Hypogonadismus (Übersicht)', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' },
       { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit von Testosterontherapie', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
       { title: 'Cleveland Clinic – Testosterone Replacement Therapy (TRT): Überblick', url: 'https://my.clevelandclinic.org/health/treatments/testosterone-replacement-therapy-trt' }
     ],
@@ -263,7 +264,7 @@ const EXPERIMENTAL = [
         audio: 'audio/testosteron-podcast.mp3',
         spotify: '6uKz3P8CXnqgw4r7c0mlDn',
         lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)',
-        note: 'Der Podcast von Paul Höser (Folge 22). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), mit Fachrecherche ergänzt und bewusst positiv, aber verantwortungsvoll gerahmt: TRT bei echtem, ärztlich nachgewiesenem Mangel ist gut belegt und oft sehr wirksam; die TRAVERSE-Studie hat Herz- und Prostata-Sorgen entschärft. Klar benannt: Blutkontrollen (Hämatokrit), unterdrückte Fruchtbarkeit und die strikte Abgrenzung zur Hochdosis-/Graumarkt-Nutzung. Reine Information, kein medizinischer Rat, keine Dosierempfehlung – Testosteron ist verschreibungspflichtig; Mangel bitte ärztlich abklären und Therapie ärztlich begleiten.',
+        note: 'Der Podcast von Paul Höser (Folge 22). KI-generierte deutsche Folge mit realistischen Stimmen (ElevenLabs), mit Fachrecherche ergänzt und bewusst positiv, aber verantwortungsvoll gerahmt: TRT bei echtem, ärztlich nachgewiesenem Mangel ist gut belegt und oft sehr wirksam; die TRAVERSE-Studie hat die Herzsorgen entschärft, beim Prostatarisiko bleibt die Frage offen. Klar benannt: Blutkontrollen (Hämatokrit), unterdrückte Fruchtbarkeit und die strikte Abgrenzung zur Hochdosis-/Graumarkt-Nutzung. Reine Information, kein medizinischer Rat, keine Dosierempfehlung – Testosteron ist verschreibungspflichtig; Mangel bitte ärztlich abklären und Therapie ärztlich begleiten.',
         sources: [
           { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
           { title: 'AAFP 2024 – Testosterone Replacement Therapy for Male Hypogonadism', url: 'https://www.aafp.org/pubs/afp/issues/2024/0600/testosterone-replacement-therapy.html' }
@@ -790,7 +791,7 @@ const EXPERIMENTAL = [
         audio: 'audio/tadalafil-podcast.mp3',
         spotify: '4m6SNKGcaneh9bA0VfC0c5',
         lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 21) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das unterschätzte Gefäß-Tool Tadalafil: wie der lang wirksame PDE5-Hemmer (bis zu 36 Stunden) das körpereigene Entspannungssignal der Gefäße verlängert, warum die niedrig dosierte tägliche Einnahme bei Prostata-Beschwerden offiziell zugelassen ist (Yokoyama 2015), was die Szene an Endothel- und Pump-Effekten berichtet – und was die Hirnforschung sagt (PASTIS 2022 ernüchternd, ETLAS-2 in Stroke 2025 mit neuen Hoffnungssignalen). Plus die eine harte Regel: niemals mit Nitraten kombinieren. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
+        note: 'Der Podcast von Paul Höser (Folge 21) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das unterschätzte Gefäß-Tool Tadalafil: wie der lang wirksame PDE5-Hemmer (bis zu 36 Stunden) das körpereigene Entspannungssignal der Gefäße verlängert, warum die niedrig dosierte tägliche Einnahme bei Prostata-Beschwerden offiziell zugelassen ist (Yokoyama 2015), was die Szene an Endothel- und Pump-Effekten berichtet – und was die Hirnforschung sagt (PASTIS 2022 ernüchternd, ETLAS-2 in Stroke 2025 verfehlte sein Hauptziel, bei vielen Nebenwirkungen und nur einem nicht signifikanten Trend bei Veränderungen der weißen Substanz). Plus die eine harte Regel: niemals mit Nitraten kombinieren. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
           { title: 'StatPearls (NIH) – Tadalafil', url: 'https://www.ncbi.nlm.nih.gov/books/NBK603743/' },
           { title: 'PASTIS-Studie (Alz. & Dementia 2022) – PDE5-Hemmer bei zerebraler Kleingefäßerkrankung', url: 'https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12559' },
@@ -806,12 +807,12 @@ const EXPERIMENTAL = [
     class: 'Phosphodiesterase-5-Hemmer (PDE5-Hemmer), verschreibungspflichtiges Arzneimittel',
     emoji: '💊',
     short: 'Das Original: die berühmteste Pille der Welt – vom gescheiterten Herzmedikament zum ersten zugelassenen Potenzmittel; heute auch spannend für Gefäßgesundheit, Höhenmedizin und die Demenz-Forschung.',
-    moa: 'Sildenafil hemmt das Enzym Phosphodiesterase-5 (PDE5), das den Botenstoff cGMP abbaut. Bei sexueller Erregung setzen Nervenenden Stickstoffmonoxid frei, das die cGMP-Produktion anstößt – cGMP entspannt die Gefäßmuskulatur und lässt Blut einströmen. Sildenafil verlängert und verstärkt dieses Signal (ohne Erregung passiert nichts). Wirkeintritt nach ca. 30–60 Minuten, Wirkdauer 4–6 Stunden – der besser steuerbare Klassiker gegenüber dem lang wirksamen Tadalafil. Da PDE5 auch in den Lungengefäßen sitzt, ist Sildenafil als Revatio bei Lungenhochdruck zugelassen. Beobachtungsdaten verbinden PDE5-Hemmer-Nutzung mit niedrigerem Alzheimer-Risiko (Cleveland Clinic, Nature Aging 2021; Brauer, Neurology 2024) – Korrelation, kein Beweis; kontrollierte Studien laufen.',
+    moa: 'Sildenafil hemmt das Enzym Phosphodiesterase-5 (PDE5), das den Botenstoff cGMP abbaut. Bei sexueller Erregung setzen Nervenenden Stickstoffmonoxid frei, das die cGMP-Produktion anstößt – cGMP entspannt die Gefäßmuskulatur und lässt Blut einströmen. Sildenafil verlängert und verstärkt dieses Signal (ohne Erregung passiert nichts). Wirkeintritt nach ca. 30–60 Minuten, Wirkdauer 4–6 Stunden – der besser steuerbare Klassiker gegenüber dem lang wirksamen Tadalafil. Da PDE5 auch in den Lungengefäßen sitzt, ist Sildenafil als Revatio bei Lungenhochdruck zugelassen. Beobachtungsdaten zum Alzheimer-Risiko unter PDE5-Hemmern sind widersprüchlich: niedrigeres Risiko in einzelnen Auswertungen (Cleveland Clinic, Nature Aging 2021; Adesuyan, Neurology 2024), kein Effekt in einer großen israelischen Kohorte, Gegenrichtung in einer genetischen Analyse – kein Wirksamkeitsnachweis; kontrollierte Studien laufen.',
     benefits: [
       'Zugelassen und exzellent belegt bei erektiler Dysfunktion (Goldstein, NEJM 1998) – das Original seit 1998.',
       'Als Revatio zugelassen bei pulmonaler arterieller Hypertonie (Lungenhochdruck).',
       'Die Erektion als Gefäß-Frühwarnsystem: ED-Abklärung deckt Herz-Kreislauf-Risiken oft Jahre früher auf.',
-      'Beobachtungsdaten: deutlich niedrigeres Alzheimer-Risiko bei Nutzern (bis −69 % Cleveland Clinic 2021; −18–44 % UCL/Neurology 2024) – Korrelation, kein Beweis.',
+      'Demenzrisiko: Beobachtungsdaten widersprüchlich – niedrigeres Risiko in einzelnen Auswertungen (Neurology 2024: −18 %), kein Effekt in einer israelischen Kohorte mit 133.336 Patienten, Gegenrichtung in einer genetischen Analyse. Kein Wirksamkeitsnachweis.',
       'In der Höhenmedizin untersucht (bessere Sauerstoffaufnahme in großer Höhe).',
       'Längst generisch: günstig und seriös per Telemedizin-Rezept verfügbar – kein Grund für Schwarzmarkt-Fälschungen.'
     ],
@@ -825,7 +826,7 @@ const EXPERIMENTAL = [
     sources: [
       { title: 'Goldstein et al., NEJM 1998 – Zulassungsstudie Sildenafil bei ED', url: 'https://www.nejm.org/doi/full/10.1056/NEJM199805143382001' },
       { title: 'Fang et al., Nature Aging 2021 – Sildenafil & Alzheimer-Risiko (Cleveland Clinic)', url: 'https://www.nature.com/articles/s43587-021-00138-z' },
-      { title: 'Brauer et al., Neurology 2024 – PDE5-Hemmer & Alzheimer (UCL, ~270.000 Männer)', url: 'https://pubmed.ncbi.nlm.nih.gov/38324745/' }
+      { title: 'Adesuyan et al., Neurology 2024 – PDE5-Hemmer & Alzheimer (UCL, ~270.000 Männer)', url: 'https://pubmed.ncbi.nlm.nih.gov/38324745/' }
     ],
     community: [
       { title: 'Verschreibungspflichtig – über Arzt/Telemedizin & Apotheke beziehen', url: 'https://www.gelbe-liste.de/wirkstoffe/Sildenafil_23246' }
@@ -3241,7 +3242,7 @@ const EXPERIMENTAL = [
     benefits: [
       'Bei therapieresistenter Depression kurzfristig besser als Scheinvergleich: 6,6 Punkte Unterschied in der Studie von 2022, 3,6 und 3,8 Punkte in den beiden Phase-3-Studien',
       'Dosisabhängigkeit erkennbar: 25 Milligramm schneiden besser ab als 10 oder 1 Milligramm',
-      'Auch in der gemeinnützig finanzierten Usona-Studie von 2023 mit 104 Menschen gegen aktives Placebo minus 12 Punkte nach 6 Wochen',
+      'Auch in der gemeinnützig finanzierten Usona-Studie von 2023 mit 104 Menschen: 12,3 Punkte Unterschied zum aktiven Placebo Niacin nach 6 Wochen',
       'Wirkung tritt nach einer einzigen begleiteten Dosis ein, nicht erst nach Wochen täglicher Einnahme'
     ],
     risks: [
@@ -3250,7 +3251,7 @@ const EXPERIMENTAL = [
       'Psilocin bindet auch an den Serotoninrezeptor vom Typ 2 B am Herzen, über den Fenfluramin und Pergolid Herzklappen geschädigt haben; für monatelanges Microdosing eine offene Frage',
       'Außerhalb von Studien schwankender Wirkstoffgehalt, kein geschützter Rahmen und keine Vorauswahl nach psychiatrischer Vorgeschichte'
     ],
-    status: 'In Deutschland Anlage 1 des Betäubungsmittelgesetzes: nicht verkehrsfähig und nicht verschreibbar. Kein zugelassenes Präparat in der EU oder in den USA; der amerikanische Zulassungsantrag ist in Teilen eingereicht, Abschluss geplant für Ende 2026. Ausnahmen: Australien seit Juli 2023 durch eigens zugelassene Psychiater, Oregon seit 2023 und Colorado seit 2025 über lizenzierte Zentren, auf US-Bundesebene weiterhin verboten.',
+    status: 'In Deutschland Anlage 1 des Betäubungsmittelgesetzes: nicht verkehrsfähig und nicht verschreibbar. Kein zugelassenes Präparat in der EU oder in den USA; der amerikanische Zulassungsantrag ist in Teilen eingereicht, Abschluss geplant für Ende 2026. Ausnahmen: Australien seit Juli 2023 durch eigens zugelassene Psychiater, Oregon seit 2023 und Colorado seit 2025 über lizenzierte Zentren, auf US-Bundesebene weiterhin verboten. In Deutschland seit Juli 2025 ein vom BfArM bestätigtes Härtefallprogramm für therapieresistente Depression an zwei Zentren (Mannheim, Berlin), keine Zulassung. In Tschechien ist die therapeutische Gabe seit Januar 2026 gesetzlich erlaubt, die Versorgung läuft erst an.',
     sources: [
       { title: 'Goodwin et al. (Compass Pathways), Phase-2b-Studie zu therapieresistenter Depression, New England Journal of Medicine 2022', url: 'https://pubmed.ncbi.nlm.nih.gov/36322843/' },
       { title: 'Davis et al. (Johns Hopkins), randomisierte Studie zu Psilocybin bei Depression, JAMA Psychiatry 2021', url: 'https://pubmed.ncbi.nlm.nih.gov/33146667/' },
@@ -3779,7 +3780,7 @@ const EXPERIMENTAL = [
     benefits: [
       'Fettfreie Masse plus 1,3 kg gegenüber Placebo in 12 Wochen, Fett etwa minus 0,6 kg (Mensch, doppelblind, 120 gesunde Ältere, Dalton 2011)',
       'Treppenleistung und Insulinresistenz verbessert (HOMA-IR minus 27,5 Prozent) in derselben Studie',
-      'Bei Krebspatienten Zuwachs fettfreier Masse gegenüber Ausgangswert, Median 1,5 und 1,0 kg (Mensch, Phase 2, 159 Patienten, Dobs 2013)',
+      'Bei Krebspatienten Zuwachs fettfreier Masse gegenüber Ausgangswert, Median 1,5 und 1,0 kg (Mensch, Phase 2, 159 Patienten, davon 100 für die Wirksamkeit auswertbar, Dobs 2013)',
       'Phase 3 POWER: mehr Patienten ohne Muskelverlust, 41,9 gegen 30,4 und 46,5 gegen 37,9 Prozent (Mensch, 321 und 330 Patienten, 2013)',
       'Unter Semaglutid weniger Verlust fettfreier Masse, minus 1,2 gegen minus 4,1 Prozent (Mensch, 168 über 60, 16 Wochen, QUALITY, nur Firmenmitteilung 2025)',
       'Anwender berichten langsamen, trockenen Muskel- und Kraftzuwachs, oft zum Muskelerhalt in Diätphasen (Bericht, unkontrolliert)'
@@ -4408,7 +4409,7 @@ const EXPERIMENTAL = [
       'Schwächt hormonelle Verhütung ab (zusätzliche Verhütung bis 2 Monate nach Absetzen); Fehlbildungssignal in einem US-Register (13,1 % gegenüber 3 %), in französischen Kohorten nicht signifikant',
       'Graumarkt-Tabletten enthielten 45,5 % bis 80,5 % des angegebenen Gehalts (Nowak 2025)'
     ],
-    status: 'Deutschland/EU: zugelassenes, verschreibungspflichtiges Arzneimittel (u. a. Vigil); seit der EMA-Überprüfung (Kommissionsentscheidung 27.01.2011) nur noch bei Narkolepsie von Erwachsenen, Schlafapnoe und Schichtarbeitsstörung wurden gestrichen. Seit 2008 kein Betäubungsmittel mehr (21. BtMÄndV), sondern auf normalem Rezept. USA: seit 1998 zugelassen für Narkolepsie, Schlafapnoe und Schichtarbeitsstörung, Schedule IV. Nutzung zur Leistungssteigerung bei Gesunden ist Off-Label. Doping: WADA-Liste 2026 S6.A, nicht-spezifisches Stimulans, im Wettkampf verboten.',
+    status: 'Deutschland/EU: zugelassenes, verschreibungspflichtiges Arzneimittel (u. a. Vigil); seit der EMA-Überprüfung (Kommissionsentscheidung 27.01.2011) nur noch bei Narkolepsie von Erwachsenen, Schlafapnoe und Schichtarbeitsstörung wurden gestrichen. Seit 2008 kein Betäubungsmittel mehr (21. BtMÄndV), sondern auf normalem Rezept. USA: seit 1998 zugelassen für Narkolepsie, seit 2004 auch für Schlafapnoe und Schichtarbeitsstörung, Schedule IV. Nutzung zur Leistungssteigerung bei Gesunden ist Off-Label. Doping: WADA-Liste 2026 S6.A, nicht-spezifisches Stimulans, im Wettkampf verboten.',
     sources: [
       { title: 'US Modafinil in Narcolepsy Multicenter Study Group 1998, Ann Neurol – RCT mit 283 Patienten, Tagesschläfrigkeit gesenkt', url: 'https://pubmed.ncbi.nlm.nih.gov/9450772/' },
       { title: 'US Modafinil in Narcolepsy Multicenter Study Group 2000, Neurology – RCT mit 271 Patienten, kein Entzug nach Absetzen', url: 'https://pubmed.ncbi.nlm.nih.gov/10720292/' },

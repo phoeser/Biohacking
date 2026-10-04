@@ -625,7 +625,9 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Fachinformation Cerebrolysin, Österreich (Zulassungsnr. 1-21380). https://aspregister.basg.gv.at/
 
 ## Thema: CGM (https://biohackingkompakt.de/thema/cgm.html)
-5 Studien: 2 Übersichtsartikel, 1 Beobachtungsstudie, 1 Klinische Studie, 1 Randomisierte Studie.
+7 Studien: 2 Übersichtsartikel, 2 Randomisierte Studie, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht, 1 Klinische Studie.
+- Meta-Analyse / Übersicht, 2026: Continuous glucose monitoring in non-diabetic populations: a systematic review of observational and interventional studies with meta-analysis (Liao X et al., Eur J Med Res). https://pubmed.ncbi.nlm.nih.gov/41588451/
+- Randomisierte Studie, 2025: Continuous glucose monitor overestimates glycemia, with the magnitude of bias varying by postprandial test and individual - a randomized crossover trial (Hutchins KM et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/40021059/
 - Randomisierte Studie, 2025: The Role of Continuous Glucose Monitoring in Supporting Lifestyle Changes for Cardiovascular Disease Prevention: A Randomized Clinical Trial (Svenšek A et al., Stud Health Technol Inform). https://europepmc.org/article/MED/40776216
 - Klinische Studie, 2025: Effectiveness of an Individualized Diabetes Health Education Program Using Real-Time Continuous Glucose Monitoring in Improving Blood Glucose: A Pilot Interventional Study on Subjects with Prediabetes (Ma Y et al., Diabetes Metab Syndr Obes). https://europepmc.org/article/MED/40538565
 - Beobachtungsstudie, 2026: Associations of continuous glucose monitor derived time in range and glycaemic variability with diet lifestyle and demographics (Bermingham KM et al., Nat Commun). https://europepmc.org/article/MED/41896538
@@ -1096,7 +1098,8 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): PubMed-Recherche Fadogia agrestis: 10 Treffer, keine Humanstudie. https://pubmed.ncbi.nlm.nih.gov/?term=%22Fadogia+agrestis%22
 
 ## Thema: Fasten & Autophagie (https://biohackingkompakt.de/thema/fasten-autophagie.html)
-4 Studien: 3 Randomisierte Studie, 1 Studienregister.
+5 Studien: 4 Randomisierte Studie, 1 Studienregister.
+- Randomisierte Studie, 2025: Intermittent time-restricted eating may increase autophagic flux in humans: an exploratory analysis (Bensalem J et al., J Physiol). https://europepmc.org/article/MED/40345145
 - Randomisierte Studie, 2022: Calorie Restriction with or without Time-Restricted Eating in Weight Loss (Liu D et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/35443107/
 - Randomisierte Studie, 2020: Effects of Time-Restricted Eating on Weight Loss and Other Metabolic Parameters in Women and Men With Overweight and Obesity: The TREAT Randomized Clinical Trial (Lowe DA et al., JAMA Intern Med). https://europepmc.org/article/MED/32986097
 - Randomisierte Studie, 2019: Early Time-Restricted Feeding Improves 24-Hour Glucose Levels and Affects Markers of the Circadian Clock, Aging, and Autophagy in Humans (Jamshed H et al., Nutrients). https://europepmc.org/article/MED/31151228
@@ -1432,11 +1435,12 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA, Verbotsliste 2026, Abschnitt S2.2.1. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Herzratenvariabilität (HRV) (https://biohackingkompakt.de/thema/hrv-messung.html)
-17 Studien: 8 Meta-Analyse / Übersicht, 5 Beobachtungsstudie, 2 Übersichtsartikel, 1 Klinische Studie, 1 Sonstige Studie.
+18 Studien: 9 Meta-Analyse / Übersicht, 5 Beobachtungsstudie, 2 Übersichtsartikel, 1 Klinische Studie, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2026: Effects of Heart Rate Variability Biofeedback on Cardiac Autonomic Function in Patients with Cardiovascular Disease: A Systematic Review and Meta-analysis (Kaneko K et al., Appl Psychophysiol Biofeedback). https://doi.org/10.1007/s10484-025-09765-3
 - Meta-Analyse / Übersicht, 2024: Effects of Exercise Training on Heart Rate Variability in Healthy Adults: A Systematic Review and Meta-analysis of Randomized Controlled Trials (Amekran Y et al., Cureus). https://doi.org/10.7759/cureus.62465
 - Meta-Analyse / Übersicht, 2022: Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis (Laborde S et al., Neurosci Biobehav Rev). https://doi.org/10.1016/j.neubiorev.2022.104711
 - Meta-Analyse / Übersicht, 2021: A meta-analysis on heart rate variability biofeedback and depressive symptoms (Pizzoli SFM et al., Sci Rep). https://doi.org/10.1038/s41598-021-86149-7
+- Meta-Analyse / Übersicht, 2021: Heart Rate Variability-Guided Training for Enhancing Cardiac-Vagal Modulation, Aerobic Fitness, and Endurance Performance: A Methodological Systematic Review with Meta-Analysis (Manresa-Rocamora A et al., Int J Environ Res Public Health). https://pubmed.ncbi.nlm.nih.gov/34639599/
 - Meta-Analyse / Übersicht, 2017: The effect of heart rate variability biofeedback training on stress and anxiety: a meta-analysis (Goessl VC et al., Psychol Med). https://doi.org/10.1017/s0033291717001003
 - Meta-Analyse / Übersicht, 2016: Monitoring Athletic Training Status Through Autonomic Heart Rate Regulation: A Systematic Review and Meta-Analysis (Bellenger CR et al., Sports Med). https://doi.org/10.1007/s40279-016-0484-2
 - Meta-Analyse / Übersicht, 2016: Sex differences in healthy human heart rate variability: A meta-analysis (Koenig J et al., Neurosci Biobehav Rev). https://doi.org/10.1016/j.neubiorev.2016.03.007

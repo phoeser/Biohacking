@@ -56,6 +56,56 @@ English versions of the most-read pages (the rest of the site is German). Overvi
 - [MariTide (Maridebart Cafraglutide)](https://biohackingkompakt.de/en/thema/maritide.html): MariTide is Amgen's weight-loss candidate with the most unusual approach: it activates the GLP-1 receptor and at the same time blocks the GIP receptor, exactly the opposite of tirzepatide.
 - [Mazdutide](https://biohackingkompakt.de/en/thema/mazdutide.html): Mazdutide is a weight-loss drug that mimics two hormone signals at once: GLP-1, the principle behind semaglutide, and glucagon.
 - [Orforglipron (Foundayo)](https://biohackingkompakt.de/en/thema/orforglipron.html): Orforglipron is the first weight-loss tablet from the GLP-1 class that is not a peptide but a small, stomach-stable molecule.
+- [Melatonin](https://biohackingkompakt.de/en/thema/melatonin.html): Melatonin shortens the time it takes to fall asleep – most clearly where the internal clock runs against the desired sleep time: in delayed sleep phase syndrome by 38.8 minutes, and for jet lag across at least five time zones, 9 of 10 randomized trials showed an effect.
+- [Berberine](https://biohackingkompakt.de/en/thema/berberin.html): Berberine is a yellow plant compound from barberry, goldthread and related species.
+- [NAC (N-acetylcysteine)](https://biohackingkompakt.de/en/thema/nac.html): NAC is the substance used in emergency departments to treat paracetamol poisoning.
+- [Zinc](https://biohackingkompakt.de/en/thema/zink.html): As a component of more than 300 enzymes, zinc is involved in immune function, and in a meta-analysis with 5,446 adults, there were 5 fewer respiratory infections per 100 person-months under zinc – a number needed to treat of 20, with moderate certainty of evidence.
+- [Vitamin B12](https://biohackingkompakt.de/en/thema/vitamin-b12.html): Vitamin B12 is one of the few nutrients where a deficiency causes measurable damage and correcting it reliably repairs that damage.
+- [Coenzyme Q10 (Ubiquinol)](https://biohackingkompakt.de/en/thema/coq10.html): Coenzyme Q10 sits right in the middle of the mitochondrial respiratory chain — a place, in other words, whose role is hard to argue away.
+- [Collagen peptides](https://biohackingkompakt.de/en/thema/kollagen.html): Collagen peptides are among the most heavily advertised skin products of all.
+- [Turmeric (curcumin)](https://biohackingkompakt.de/en/thema/kurkuma.html): Turmeric is the rare food supplement in which a clear clinical finding and a clear safety signal stand side by side.
+- [L-theanine](https://biohackingkompakt.de/en/thema/l-theanin.html): L-theanine is an amino acid found almost exclusively in the tea plant.
+- [Rhodiola rosea](https://biohackingkompakt.de/en/thema/rhodiola.html): Roseroot is the adaptogen for the other direction: not calming down, but staying alert.
+- [Lion's Mane](https://biohackingkompakt.de/en/thema/loewenmaehne.html): Lion's mane, Hericium erinaceus, is an edible mushroom that has been researched since 1991 as a stimulator of nerve growth factor, NGF.
+- [Probiotics](https://biohackingkompakt.de/en/thema/probiotika.html): Probiotics are not a substance class with one effect, but a collection of individual bacterial strains, each with its own body of evidence.
+- [Glycine](https://biohackingkompakt.de/en/thema/glycin.html): Glycine is the smallest of the twenty amino acids and the most abundant in collagen.
+- [Taurine](https://biohackingkompakt.de/en/thema/taurin.html): Taurine is a sulfur-containing aminosulfonic acid that your body makes itself and that you take in through fish, meat and seafood.
+- [Nicotinamide riboside (NR)](https://biohackingkompakt.de/en/thema/nicotinamid-ribosid.html): Nicotinamide riboside, NR for short, is a form of vitamin B3 and a precursor of NAD+, the coenzyme that drives energy production and repair in every cell.
+- [Urolithin A](https://biohackingkompakt.de/en/thema/urolithin-a.html): Urolithin A is formed in the gut when bacteria digest tannins from pomegranate, walnuts or berries.
+- [Spermidine](https://biohackingkompakt.de/en/thema/spermidin.html): Spermidine is a polyamine that your body makes itself and that is found in wheat germ and mushrooms.
+- [Fisetin](https://biohackingkompakt.de/en/thema/fisetin.html): Fisetin is a yellow plant pigment from the flavonol group, found in strawberries, apples and onions, among other foods.
+- [Resveratrol](https://biohackingkompakt.de/en/thema/resveratrol.html): Resveratrol is a polyphenol from grapes that activates sirtuins in cell experiments.
+- [Tongkat Ali](https://biohackingkompakt.de/en/thema/tongkat-ali.html): Tongkat Ali is a root extract from Southeast Asia that is sold as a testosterone booster.
+- [Shilajit](https://biohackingkompakt.de/en/thema/shilajit.html): Shilajit, also called mumijo, is a tar-like resin from mountain rock that has long been regarded as a rejuvenating remedy in Ayurvedic medicine.
+- [Alpha-GPC](https://biohackingkompakt.de/en/thema/alpha-gpc.html): Alpha-GPC is a choline source that reaches the brain well and releases choline there for the production of acetylcholine.
+- [Apigenin](https://biohackingkompakt.de/en/thema/apigenin.html): Apigenin is a flavone from chamomile, parsley and celery.
+- [Vitamin K2 (MK-7 and MK-4)](https://biohackingkompakt.de/en/thema/vitamin-k2.html): Vitamin K2 activates two proteins that regulate calcium: osteocalcin in bone and matrix Gla protein in the vessel wall.
+- [Glutathione](https://biohackingkompakt.de/en/thema/glutathion.html): Glutathione is quantitatively the most important antioxidant in your cells.
+- [Metformin](https://biohackingkompakt.de/en/thema/metformin.html): Metformin is a biguanide and has been a standard drug for type 2 diabetes for decades.
+- [Tadalafil](https://biohackingkompakt.de/en/thema/tadalafil.html): Tadalafil improves two conditions at once: erectile dysfunction and the symptoms of benign prostatic enlargement.
+- [Viagra (Sildenafil)](https://biohackingkompakt.de/en/thema/sildenafil.html): Sildenafil reliably improves erectile function and is among the best-supported drugs of all for this indication.
+- [Testosterone & TRT](https://biohackingkompakt.de/en/thema/testosteron.html): Testosterone is the most important male sex hormone; testosterone replacement therapy (TRT) supplies it from outside when a deficiency has been diagnosed by a physician.
+- [DHEA (Dehydroepiandrosterone)](https://biohackingkompakt.de/en/thema/dhea.html): DHEA is a hormone of the adrenal glands whose levels fall markedly with age.
+- [Modafinil](https://biohackingkompakt.de/en/thema/modafinil.html): Modafinil is a medicine for the sleep disorder narcolepsy and at the same time one of the best-known smart drugs.
+- [CBD (cannabidiol)](https://biohackingkompakt.de/en/thema/cbd.html): CBD, short for cannabidiol, is the non-intoxicating main active compound of the hemp plant and is approved as a medicine for rare, severe forms of epilepsy.
+- [Ostarine (enobosarm)](https://biohackingkompakt.de/en/thema/ostarin.html): Ostarine, called enobosarm in research, is the best-studied SARM of all.
+- [RAD140 (Testolone)](https://biohackingkompakt.de/en/thema/rad140.html): RAD140, called Testolone in the scene, is the best-known representative of the SARMs, the selective androgen receptor modulators.
+- [Cardarine (GW501516)](https://biohackingkompakt.de/en/thema/cardarine.html): Cardarine, often called Endurobol in the scene, is considered the prototype of endurance in pill form.
+- [Enclomiphene](https://biohackingkompakt.de/en/thema/enclomiphene.html): Enclomiphene is the tablet meant to raise the body’s own testosterone instead of replacing it from outside.
+- [Psilocybin](https://biohackingkompakt.de/en/thema/psilocybin.html): Psilocybin is the active ingredient of certain mushrooms and is listed in Germany in Schedule 1 of the Narcotics Act.
+- [Sauna & cold (hormesis)](https://biohackingkompakt.de/en/thema/sauna-kaelte.html): Sauna and cold baths are considered hormesis stimuli: short, dosed stress to which the body is supposed to respond with adaptation.
+- [Zone 2 & VO2max training](https://biohackingkompakt.de/en/thema/zone2-vo2max.html): Maximal oxygen uptake is one of the best-supported mortality markers of all.
+- [Hyperbaric oxygen therapy (HBOT)](https://biohackingkompakt.de/en/thema/hbot.html): In hyperbaric oxygen therapy, you lie in a pressure chamber and breathe pure oxygen under increased pressure.
+- [Red light / photobiomodulation (PBM)](https://biohackingkompakt.de/en/thema/rotlicht-pbm.html): Photobiomodulation applies red and near-infrared light to skin or tissue.
+- [CGM – continuous glucose monitoring](https://biohackingkompakt.de/en/thema/cgm.html): For the advertised target group, metabolically healthy non-diabetics, this research found no randomized trial demonstrating a health benefit of continuous glucose monitoring.
+- [Fasting & autophagy](https://biohackingkompakt.de/en/thema/fasten-autophagie.html): Intermittent fasting shifts mealtimes; autophagy is considered its most important promise.
+- [Heart rate variability (HRV)](https://biohackingkompakt.de/en/thema/hrv-messung.html): Your heart does not beat to the rhythm of a metronome.
+- [NAD+ infusion](https://biohackingkompakt.de/en/thema/nad-infusion.html): NAD+ straight into the vein: longevity practices and infusion centers offer this as a shortcut to more cellular energy.
+- [IV vitamin therapy (Myers' cocktail)](https://biohackingkompakt.de/en/thema/iv-vitamintherapie.html): In IV vitamin therapy, vitamins and minerals run as an infusion directly into a vein, best known as the Myers' cocktail.
+- [Sleep & sleep hygiene](https://biohackingkompakt.de/en/thema/schlaf.html): In large observational studies, sleep duration and mortality are linked in a U-shape: too little and too much sleep are associated with higher mortality.
+- [Therapeutic plasma exchange (TPE)](https://biohackingkompakt.de/en/thema/tpe-plasmaaustausch.html): In therapeutic plasma exchange, your own blood plasma is removed and replaced with an albumin solution.
+- [Stem cell therapy](https://biohackingkompakt.de/en/thema/stammzelltherapie.html): Stem cells can renew themselves and turn into other cell types.
+- [Grounding / Earthing](https://biohackingkompakt.de/en/thema/grounding-earthing.html): Grounding, also called earthing, means direct skin contact with the earth, barefoot on grass and sand or via a mat connected to the protective earth conductor of a power outlet.
 - [Ashwagandha vs. Rhodiola Rosea](https://biohackingkompakt.de/en/vergleich/ashwagandha-vs-rhodiola.html): 
 - [BPC-157 vs. TB-500 (Thymosin Beta-4 Fragment)](https://biohackingkompakt.de/en/vergleich/bpc-157-vs-tb-500.html): 
 - [Collagen peptides vs. hyaluronic acid](https://biohackingkompakt.de/en/vergleich/kollagen-vs-hyaluronsaeure.html): 
