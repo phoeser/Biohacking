@@ -3686,7 +3686,38 @@ const SUPPLEMENTS = [
     evidence: 'mittel',
     sources: 'Retinol: Leber (sehr viel), Fisch, Eier, Milchprodukte, angereicherte Margarine; Beta-Carotin: Süßkartoffel, Karotten, Spinat, Kürbis',
     link: 'https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2024.8814'
+  },
+  {
+    id: 'nootropika-stacks',
+    name: 'Nootropika-Fertigmischungen',
+    altNames: 'Nootropic Stacks, Brain Supplements, Fokus-Kapseln; Beispiele: Alpha Brain, Mind Lab Pro, Qualia Mind',
+    category: 'Stress & Geist',
+    tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic'],
+    short: 'Kapseln oder Pulver, die viele Zutaten wie Citicolin, Bacopa, L-Theanin oder Alpha-GPC in einer Portion bündeln, bei Mind Lab Pro sind es elf. Zu den bekannten Marken gibt es je ein bis zwei kleine, meist herstellerfinanzierte Studien: teils bessere Gedächtniswerte, teils kein Unterschied zu Placebo. Was die Einzelstoffe können, steht auf deren eigenen Seiten.',
+    description: 'Nootropika-Fertigmischungen kombinieren Pflanzenextrakte, Cholinquellen, Aminosäuren und Vitamine zu einem Produkt, das Gedächtnis, Konzentration und geistige Energie verbessern soll. Geprüft wird bei diesen Studien immer die ganze Mischung, nicht die einzelne Zutat. Für Alpha Brain liegen eine positive Studie mit 63 jungen Erwachsenen und eine Studie mit 43 Soldaten ohne Unterschied zu Placebo vor, für Mind Lab Pro eine unausgewogen verteilte Gedächtnisstudie mit 49 Personen und eine 60-Tage-Studie ohne bessere Leistung. Die Studie zu Qualia Mind ist registriert und seit 2020 abgeschlossen, Ergebnisse sind nicht veröffentlicht.',
+    benefits: [
+      'Alpha Brain: Nach 6 Wochen bei 63 gesunden Erwachsenen zwischen 18 und 35 Jahren besser als Placebo beim verzögerten Wortabruf und bei exekutiven Funktionen; doppelblind, mit Placebo-Vorlaufphase (Solomon 2016)',
+      'Mind Lab Pro: Nach 30 Tagen bei 49 gesunden Erwachsenen bessere Werte beim sofortigen und verzögerten Abruf als in der Kontrollgruppe; zugeteilt wurden 36 Personen zum Präparat und 13 zu Placebo, laut Autoren pseudo-randomisiert (Abbott-Imboden 2023)',
+      'Eine koffeinhaltige Pulvermischung (Evo-Gamers) verbesserte bei 26 jungen Erwachsenen 30 Minuten nach Einnahme die Reaktionszeit in mehreren Tests gegenüber Placebo, Effektstärken 0,4 bis 0,6; Crossover, dreifach verblindet, herstellerfinanziert (Medrano 2022)',
+      'Mehrere Zutaten sind einzeln untersucht, etwa Bacopa, Citicolin, L-Theanin mit Koffein oder Phosphatidylserin – deren Datenlage gilt aber für die dort geprüften Mengen'
+    ],
+    risks: [
+      'Alpha Brain verbesserte bei 43 Soldaten über 30 Tage weder Trefferquote noch Reaktionszeit beim Schießtraining gegenüber Placebo; die Studie wurde vom Hersteller Onnit finanziert (Barringer 2018)',
+      'Mind Lab Pro verbesserte nach 60 Tagen weder Genauigkeit noch Reaktionszeit bei einer Entscheidungsaufgabe; gefunden wurden nur Veränderungen in EEG-Kennwerten, deren Bedeutung offen ist (O’Reilly 2025, finanziert von der Performance Lab Group)',
+      'Qualia Mind: Die einzige registrierte Studie (60 Teilnehmer, abgeschlossen 2020) hat bis heute weder Ergebnisse im Register noch eine Veröffentlichung',
+      'Einzelne Mischungen enthalten Stoffe mit eigenem Risikoprofil oder unklarem Rechtsstatus, etwa Vinpocetin oder Huperzia-Extrakt (Huperzin A); Vinpocetin ist in Deutschland verschreibungspflichtig',
+      'Die Mengen liegen teils unter denen der Einzelstudien: Mind Lab Pro enthält je Portion 150 mg Bacopa, 100 mg L-Theanin und 50 mg Rhodiola, in den Studien zu den Einzelstoffen wurden 300 bis 600 mg, 200 bis 400 mg und 144 bis 400 mg verwendet; Ergebnisse der Einzelstoffe lassen sich nicht auf die Mischung übertragen und umgekehrt',
+      'Koffein in manchen Mischungen kann einen kurzfristigen Effekt allein erklären'
+    ],
+    dosage: 'Keine Verzehrempfehlung. Geprüft wurde in den Studien jeweils die vom Hersteller vorgesehene Portion, zum Beispiel bei Mind Lab Pro zwei Kapseln mit unter anderem 250 mg Citicolin, 150 mg Bacopa monnieri, 100 mg Phosphatidylserin und 100 mg L-Theanin (O’Reilly 2025), bei Alpha Brain in der Soldatenstudie drei Kapseln mit zusammen 1.925 mg (Barringer 2018). Für einzelne Zutaten gelten eigene Grenzen, etwa für Citicolin in Nahrungsergänzungsmitteln höchstens 500 mg pro Tag.',
+    intake: 'Keine Einnahmeempfehlung. Wer Medikamente nimmt, schwanger ist oder stillt, sollte die Zutatenliste mit Ärztin, Arzt oder Apotheke durchgehen – die Wechselwirkungen ergeben sich aus den Einzelstoffen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Keine natürliche Quelle; Fertigprodukte aus Pflanzenextrakten, Cholinquellen, Aminosäuren und Vitaminen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26876224/'
   }
+
 ];
 
 // Kategorien für Filter

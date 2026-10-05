@@ -5713,6 +5713,278 @@ const EXPERIMENTAL = [
     community: [],
     podcasts: [],
     filterCat: 'Exercise'
+  },
+  {
+    id: 'liraglutid',
+    name: 'Liraglutid (Saxenda / Victoza)',
+    altNames: 'Liraglutide, Saxenda, Victoza, Ablymico, Liraglutide STADA',
+    class: 'GLP-1-Rezeptor-Agonist, täglich gespritzt, verschreibungspflichtig',
+    emoji: '💉',
+    short: 'Der ältere GLP-1-Rezeptor-Agonist, seit 2009 gegen Typ-2-Diabetes und seit 2015 als Saxenda zum Abnehmen zugelassen. Er senkt das Gewicht belegt, aber deutlich weniger als Semaglutid: Im direkten Vergleich 6,4 gegenüber 15,8 Prozent. Dafür gibt es Langzeitdaten aus über 15 Jahren und einen harten Herz-Kreislauf-Endpunkt bei Typ-2-Diabetes.',
+    moa: 'Liraglutid ist ein Abkömmling des Darmhormons GLP-1 und aktiviert wie Semaglutid den GLP-1-Rezeptor: Die Magenentleerung verzögert sich, das Sättigungsgefühl steigt, die Insulinausschüttung wird verstärkt und Glucagon gedämpft. Der praktische Unterschied liegt in der Wirkdauer: Liraglutid wird einmal täglich gespritzt, Semaglutid einmal pro Woche. Tirzepatid und Retatrutid greifen zusätzlich an weiteren Hormonrezeptoren an, Liraglutid nur am GLP-1-Rezeptor.',
+    benefits: [
+      'Gewicht: 8,4 gegenüber 2,8 kg nach 56 Wochen; mindestens 5 Prozent verloren 63,2 gegenüber 27,1 Prozent, mehr als 10 Prozent 33,1 gegenüber 10,6 Prozent (SCALE, RCT, 3.731 Erwachsene ohne Diabetes, Pi-Sunyer 2015)',
+      'Diabetes-Vorbeugung: Bei Prädiabetes erhielten nach 160 Wochen 2 Prozent unter Liraglutid und 6 Prozent unter Placebo die Diagnose Typ-2-Diabetes, Hazard Ratio 0,21 (2.254 Teilnehmende, le Roux 2017)',
+      'Herz-Kreislauf bei Typ-2-Diabetes: schwere Ereignisse bei 13,0 gegenüber 14,9 Prozent, Hazard Ratio 0,87, kardiovaskulärer Tod 4,7 gegenüber 6,0 Prozent (LEADER, 9.340 Patienten, 3,8 Jahre, Marso 2016)',
+      'Jugendliche mit Adipositas: mindestens 5 Prozent BMI-Senkung bei 43,3 gegenüber 18,7 Prozent (RCT, 251 Jugendliche, Kelly 2020)',
+      'Seit 2009 in der EU zugelassen; seit Juli 2026 gibt es chemisch hergestellte Nachfolgepräparate (Ablymico, Liraglutide STADA)'
+    ],
+    risks: [
+      'Verschreibungspflichtig; zur Gewichtsabnahme keine Kassenleistung (§ 34 SGB V)',
+      'Schwächer als Semaglutid: im direkten Vergleich 6,4 gegenüber 15,8 Prozent Gewichtsverlust; 27,6 Prozent beendeten Liraglutid vorzeitig, 13,5 Prozent Semaglutid (STEP 8, Rubino 2022)',
+      'Magen-Darm-Beschwerden häufig, vor allem Übelkeit und Durchfall; bei Jugendlichen 64,8 gegenüber 36,5 Prozent (Kelly 2020)',
+      'Gallenblasen- und Gallenwegserkrankungen unter GLP-1-Rezeptor-Agonisten häufiger, bei Abnehm-Studien relatives Risiko 2,29 (Meta-Analyse, 76 RCTs, He 2022)',
+      'Nach dem Absetzen steigt der BMI wieder an (Kelly 2020); laut Fachinformation absetzen, wenn nach 12 Wochen auf voller Dosis nicht mindestens 5 Prozent abgenommen wurden',
+      'Suizidgedanken: Die EMA fand 2024 keinen Beleg für einen ursächlichen Zusammenhang'
+    ],
+    status: 'In der EU zugelassen und in Deutschland verschreibungspflichtig: Victoza seit 30.06.2009 gegen Typ-2-Diabetes, Saxenda seit 23.03.2015 zum Gewichtsmanagement bei Erwachsenen mit BMI ab 30 oder ab 27 mit Begleiterkrankung sowie bei Jugendlichen ab 12 Jahren; Erhaltungsdosis laut Zulassung 3,0 mg täglich. Seit 15.07.2026 zusätzlich chemisch hergestellte Präparate (Ablymico zum Gewichtsmanagement, Liraglutide STADA bei Diabetes). Zum Abnehmen keine Kassenleistung (§ 34 SGB V). Nicht auf der WADA-Verbotsliste 2026; im Überwachungsprogramm stehen nur Semaglutid und Tirzepatid.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26132939/',
+    sources: [
+      { title: 'Pi-Sunyer X et al., N Engl J Med 2015 – SCALE Obesity and Prediabetes, RCT mit 3.731 Erwachsenen, 56 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/26132939/' },
+      { title: 'le Roux CW et al., Lancet 2017 – drei Jahre Liraglutid bei Prädiabetes, 2.254 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/28237263/' },
+      { title: 'Marso SP et al., N Engl J Med 2016 – LEADER, Herz-Kreislauf-Endpunkte bei 9.340 Patienten mit Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/27295427/' },
+      { title: 'Rubino DM et al., JAMA 2022 – STEP 8, Semaglutid gegen Liraglutid, 338 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/35015037/' },
+      { title: 'Kelly AS et al., N Engl J Med 2020 – Liraglutid bei Jugendlichen mit Adipositas, 251 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/32233338/' },
+      { title: 'He L et al., JAMA Intern Med 2022 – Meta-Analyse Gallenblase und Gallenwege unter GLP-1-Rezeptor-Agonisten', url: 'https://pubmed.ncbi.nlm.nih.gov/35344001/' },
+      { title: 'EMA – Saxenda, europäischer Bewertungsbericht (EPAR)', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/saxenda' },
+      { title: 'EMA – Ablymico (Liraglutid, STADA), europäischer Bewertungsbericht', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/ablymico' },
+      { title: 'EMA/PRAC, Sitzung 8.–11.04.2024 – kein ursächlicher Zusammenhang zwischen GLP-1-Rezeptor-Agonisten und Suizidgedanken', url: 'https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-april-2024' },
+      { title: 'WADA Prohibited List 2026 (zweisprachige Fassung der JADA)', url: 'https://www.playtruejapan.org/entry_img/2026_prohibited_List_jpn.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'bempedoinsaeure',
+    name: 'Bempedoinsäure (Nilemdo)',
+    altNames: 'Bempedoic acid, Nilemdo, Nustendi (mit Ezetimib), Nexletol, ETC-1002, ACL-Hemmer',
+    class: 'ATP-Citrat-Lyase-Hemmer (Cholesterinsenker), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Ein Cholesterinsenker für Menschen, die Statine nicht vertragen. Er greift einen Schritt vor dem Statin-Enzym in die Cholesterinbildung ein, wird aber erst in der Leber aktiviert und nicht im Muskel. In CLEAR Outcomes mit 13.970 Patienten senkte er schwere Herz-Kreislauf-Ereignisse von 13,3 auf 11,7 Prozent; das LDL sank um gut 21 Prozentpunkte stärker als unter Placebo. Gicht und Gallensteine traten häufiger auf.',
+    moa: 'Bempedoinsäure ist eine Vorstufe, die erst durch das Enzym ACSVL1 aktiviert wird. Dieses Enzym kommt in der Leber vor, im Skelettmuskel fehlt es. Die aktive Form hemmt die ATP-Citrat-Lyase, die in der Cholesterinbildung vor der HMG-CoA-Reduktase liegt, dem Angriffspunkt der Statine. Die Leber bildet weniger Cholesterin, baut mehr LDL-Rezeptoren ein und holt mehr LDL aus dem Blut. Eine genetische Studie an 654.783 Menschen zeigt, dass Varianten im ACLY-Gen pro gesenktem LDL das Herz-Kreislauf-Risiko ähnlich senken wie Varianten im Statin-Zielgen.',
+    benefits: [
+      'Harter Endpunkt: schwere Herz-Kreislauf-Ereignisse bei 11,7 gegenüber 13,3 Prozent, Hazard Ratio 0,87; Herzinfarkt 3,7 gegenüber 4,8 Prozent (CLEAR Outcomes, 13.970 Statin-Unverträgliche, 40,6 Monate, Nissen 2023)',
+      'LDL-Cholesterin nach 6 Monaten um 21,1 Prozentpunkte stärker gesenkt als unter Placebo (CLEAR Outcomes)',
+      'Primärprävention: bei 4.206 Hochrisiko-Patienten ohne frühere Herz-Kreislauf-Erkrankung schwere Ereignisse 5,3 gegenüber 7,6 Prozent, Hazard Ratio 0,70 (Teilauswertung, Nissen 2023)',
+      'Zusätzlich zu Statinen: LDL nach 12 Wochen um 18,1 Prozentpunkte stärker gesenkt als Placebo, Nebenwirkungen insgesamt nicht häufiger (CLEAR Harmony, 2.230 Patienten, Ray 2019)',
+      'Genetische Bestätigung des Wirkprinzips: ACLY-Varianten senken pro 10 mg/dl LDL das Herz-Kreislauf-Risiko um ähnlich viel wie Statin-Varianten, ohne erhöhtes Krebsrisiko (Ference 2019)'
+    ],
+    risks: [
+      'Gicht häufiger: 3,1 gegenüber 2,1 Prozent (CLEAR Outcomes); Harnsäure steigt',
+      'Gallensteine häufiger: 2,2 gegenüber 1,2 Prozent (CLEAR Outcomes)',
+      'Leichte Anstiege von Kreatinin und Leberwerten (CLEAR Outcomes)',
+      'Kein Effekt auf Schlaganfall, kardiovaskulären Tod und Gesamtsterblichkeit in der Gesamtstudie (CLEAR Outcomes)',
+      'In CLEAR Harmony brachen 10,9 Prozent wegen Nebenwirkungen ab, unter Placebo 7,1 Prozent',
+      'Nicht in Schwangerschaft und Stillzeit; zusammen mit Simvastatin höchstens 40 mg Simvastatin pro Tag (EMA)'
+    ],
+    status: 'In der EU seit 01.04.2020 als Nilemdo zugelassen (Kombination mit Ezetimib als Nustendi seit 27.03.2020), in Deutschland verschreibungspflichtig (Anlage 1 AMVV). Anwendungsgebiete laut EMA: primäre Hypercholesterinämie und gemischte Dyslipidämie bei Erwachsenen sowie Senkung des kardiovaskulären Risikos bei bestehender oder hoch riskanter atherosklerotischer Herz-Kreislauf-Erkrankung. In den USA seit 21.02.2020 als Nexletol zugelassen, im März 2024 um die Herz-Kreislauf-Indikation erweitert (FDA). Die Nutzung zur LDL- oder ApoB-Senkung als Longevity-Maßnahme ohne diese Indikationen ist nicht zugelassen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/36876740/',
+    sources: [
+      { title: 'Nissen SE et al., N Engl J Med 2023 – CLEAR Outcomes, Herz-Kreislauf-Endpunkte bei 13.970 Statin-Unverträglichen', url: 'https://pubmed.ncbi.nlm.nih.gov/36876740/' },
+      { title: 'Nissen SE et al., JAMA 2023 – CLEAR Outcomes, Primärprävention bei 4.206 Hochrisiko-Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/37354546/' },
+      { title: 'Ray KK et al., N Engl J Med 2019 – CLEAR Harmony, Bempedoinsäure zusätzlich zu Statinen, 2.230 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/30865796/' },
+      { title: 'Ference BA et al., N Engl J Med 2019 – Mendelsche Randomisierung zu ACLY und Herz-Kreislauf-Erkrankung, 654.783 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/30865797/' },
+      { title: 'Pinkosky SL et al., Nat Commun 2016 – leberspezifische Aktivierung über ACSVL1, Grundlage für fehlende Muskelwirkung', url: 'https://pubmed.ncbi.nlm.nih.gov/27892461/' },
+      { title: 'EMA – Nilemdo, europäischer Bewertungsbericht (EPAR)', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/nilemdo' },
+      { title: 'FDA, Drugs@FDA – Nexletol (NDA 211616), Zulassung 21.02.2020, Erweiterung 22.03.2024', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211616' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 (Bempedoinsäure und ihre Ester)', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'armodafinil',
+    name: 'Armodafinil',
+    altNames: 'Nuvigil, R-Modafinil, (R)-Modafinil,Eugeroikum, Smart Drug',
+    class: 'Wachheitsförderndes Arzneimittel (Eugeroikum), R-Enantiomer von Modafinil; in den USA zugelassen, in Deutschland nicht',
+    emoji: '⏰',
+    short: 'Die länger wirksame Hälfte von Modafinil: Modafinil ist ein Gemisch aus zwei spiegelbildlichen Molekülen, Armodafinil nur die R-Form. In US-Zulassungsstudien hielt es Menschen mit Narkolepsie, Schichtarbeitsstörung und Schlafapnoe besser wach. Dass es stärker wirkt als Modafinil, ist nicht gezeigt: Im einzigen direkten Vergleich schnitten beide gleich ab. In Deutschland ist es nicht zugelassen.',
+    moa: 'Modafinil besteht zu gleichen Teilen aus R- und S-Modafinil. Die S-Form wird schnell abgebaut, die R-Form, also Armodafinil, bleibt länger im Blut. Bei gleicher Milligramm-Menge lag die Gesamtmenge im Blut unter Armodafinil um 33 bis 40 Prozent höher, und die Spiegel blieben später am Tag höher, obwohl die Halbwertszeit mit etwa 13 Stunden gleich war (Darwish 2009). Der Wirkort gilt als derselbe wie bei Modafinil: Laut US-Fachinformation bindet der Wirkstoff an den Dopamin-Wiederaufnahmetransporter und erhöht das Dopamin außerhalb der Nervenzellen. Eine eigene Bildgebungsstudie zu Armodafinil wurde bei der Recherche nicht gefunden.',
+    benefits: [
+      'Narkolepsie: länger wach im Wachbleibe-Test (MWT), plus 1,3 bzw. 2,6 Minuten gegenüber minus 1,9 Minuten unter Placebo; Besserung des Gesamtzustands bei 71 gegenüber 33 Prozent (RCT, 196 Patienten, 12 Wochen, Harsh 2006)',
+      'Schichtarbeitsstörung: Einschlaflatenz in der Nachtschicht von 2,3 auf 5,3 Minuten gegenüber 2,4 auf 2,8 Minuten; weniger Schläfrigkeit auch auf dem Heimweg (RCT, 254 Nachtarbeiter, 12 Wochen, Czeisler 2009)',
+      'Gesunde nach 24 Stunden Schlafentzug: im Wachbleibe-Test 27,6 gegenüber 15,3 Minuten unter Placebo, Einzelgabe (RCT, 135 Männer, Gasior 2014)',
+      'Bipolare Depression als Zusatztherapie: in der Meta-Analyse aus fünf RCTs mehr Ansprechen (RR 1,18) und Remission (RR 1,38), aber eine von zwei großen Armodafinil-Studien verfehlte ihr Ziel (Nunez 2020, Ketter 2015) – nicht zugelassen',
+      'Im direkten Vergleich mit Modafinil bei Schichtarbeitsstörung gleich wirksam: 72,1 gegenüber 74,3 Prozent Ansprechen (RCT, 211 Patienten, Tembe 2011)'
+    ],
+    risks: [
+      'Häufig Kopfschmerzen, Übelkeit, Schwindel und Schlaflosigkeit (US-Fachinformation)',
+      'Schwere Hautreaktionen bis Stevens-Johnson-Syndrom, DRESS, Angioödem; bei Ausschlag laut Fachinformation sofort absetzen',
+      'Psychiatrische Nebenwirkungen; Vorsicht bei Psychose, Depression oder Manie in der Vorgeschichte; bei Herz-Kreislauf-Erkrankungen engere Überwachung',
+      'Missbrauch und Weitergabe nach der Markteinführung beschrieben; in den USA Schedule IV',
+      'Schwangerschaft: Daten unzureichend, Wachstumsverzögerung und Fehlgeburten unter Armodafinil und Modafinil gemeldet',
+      'Im Doping verboten: Die WADA-Liste 2026 führt Modafinil unter S6.A und schließt ausdrücklich alle optischen Isomere ein'
+    ],
+    status: 'Deutschland: kein zugelassenes Arzneimittel mit Armodafinil, auch keine zentrale EU-Zulassung (EMA-Arzneimittelliste). Armodafinil steht nicht im Betäubungsmittelgesetz; die Arzneimittelverschreibungsverordnung nennt in Anlage 1 Modafinil, Armodafinil aber nicht eigens. USA: seit 15.06.2007 als Nuvigil zugelassen gegen übermäßige Schläfrigkeit bei Schlafapnoe, Narkolepsie und Schichtarbeitsstörung, Schedule IV. Nutzung zur Leistungssteigerung bei Gesunden ist nirgends zugelassen. Doping: WADA-Liste 2026 S6.A (Modafinil einschließlich optischer Isomere), im Wettkampf verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/19880686/',
+    sources: [
+      { title: 'Harsh JR et al., Curr Med Res Opin 2006 – Armodafinil bei Narkolepsie, RCT mit 196 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/16684437/' },
+      { title: 'Czeisler CA et al., Mayo Clin Proc 2009 – Armodafinil bei Schichtarbeitsstörung, RCT mit 254 Nachtarbeitern', url: 'https://pubmed.ncbi.nlm.nih.gov/19880686/' },
+      { title: 'Gasior M et al., J Clin Psychopharmacol 2014 – Wachheit nach 24 Stunden Schlafentzug, 135 gesunde Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/25159886/' },
+      { title: 'Darwish M et al., Clin Drug Investig 2009 – unterschiedliche Pharmakokinetik von Armodafinil und Modafinil', url: 'https://pubmed.ncbi.nlm.nih.gov/19663523/' },
+      { title: 'Tembe DV et al., Neurol Res Int 2011 – Armodafinil gegen Modafinil bei Schichtarbeitsstörung, RCT mit 211 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/21766023/' },
+      { title: 'Calabrese JR et al., J Clin Psychiatry 2014 – Armodafinil als Zusatz bei bipolarer Depression, 433 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/25099397/' },
+      { title: 'Ketter TA et al., J Affect Disord 2015 – zweite Phase-3-Studie bipolare Depression, Ziel verfehlt', url: 'https://pubmed.ncbi.nlm.nih.gov/25933099/' },
+      { title: 'Nunez NA et al., Bipolar Disord 2020 – Meta-Analyse Modafinil/Armodafinil bei bipolarer Depression, 5 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/31643130/' },
+      { title: 'FDA, Drugs@FDA – Nuvigil (NDA 021875), Zulassung 15.06.2007, Fachinformation', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021875' },
+      { title: 'WADA Prohibited List 2026 (zweisprachige Fassung der JADA)', url: 'https://www.playtruejapan.org/entry_img/2026_prohibited_List_jpn.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'nad-nasenspray',
+    name: 'NAD+ als Nasenspray und Spritze',
+    altNames: 'NAD+ Nasal Spray, NAD+-Injektion, subkutanes NAD+, Nicotinamid-Adenin-Dinukleotid',
+    class: 'Coenzym (Nicotinamid-Adenin-Dinukleotid), in diesen Darreichungsformen nicht zugelassen',
+    emoji: '👃',
+    short: 'NAD+ direkt in die Nase oder unter die Haut, statt über die Vorstufen NMN und NR oder per Infusion. Am Menschen gibt es für beide Wege keine Wirksamkeitsstudie; unter die Haut gespritzt wurde NAD+ in einer vorläufigen Sicherheitsstudie an 6 Personen über 3 Tage. Für das Nasenspray stammen alle Daten aus Ratten- und Mausversuchen.',
+    moa: 'NAD+ ist ein Coenzym, das jede Zelle für den Energiestoffwechsel und für Enzyme wie Sirtuine und PARP braucht; mit dem Alter sinkt der Spiegel in mehreren Geweben. Die Vorstufen NMN und NR werden geschluckt und erst in der Zelle zu NAD+ umgebaut. Beim Nasenspray ist die Idee, NAD+ über die Riechschleimhaut direkt Richtung Gehirn zu bringen; bei Ratten stieg der NAD+-Gehalt im Gehirn nach Gabe in die Nase (Ying 2007). Bei der Spritze unter die Haut soll NAD+ den Verdauungstrakt umgehen. Offen ist, wie viel davon unzerlegt in die Zellen gelangt: Über die Vene infundiertes NAD+ verschwand beim Menschen in den ersten 2 Stunden vollständig aus dem Blutplasma, die Abbauprodukte passten zu einer raschen Zerlegung durch Enzyme (Grant 2019).',
+    benefits: [
+      'Unter die Haut, in den Muskel oder in die Vene gespritzt wurde NAD+ in einer randomisierten Pilotstudie über 3 Tage gegeben (unter die Haut 6, in den Muskel 4, in die Vene 5 Personen); alle blieben in der Studie, auf die Injektionen zurückführbare unerwartete Nebenwirkungen traten nicht auf (Nkrumah-Elie 2026, Preprint)',
+      'Bei Ratten erhöhte NAD+ in die Nase den NAD+-Gehalt im Gehirn und verringerte nach einem künstlich ausgelösten Schlaganfall die Infarktgröße; Nicotinamid auf demselben Weg tat das nicht (Ying 2007)',
+      'Bei Mäusen mit chemisch ausgelöstem Geruchsverlust stellte NAD+ in die Nase den Geruchssinn und die Riechschleimhaut teilweise wieder her; in Zellkultur förderte NAD+ die Reifung menschlicher Riech-Stammzellen (Yoo 2026)',
+      'Als Nahrungsergänzung zum Schlucken stuft der Novel-Food-Katalog der EU-Kommission NAD+ als nicht neuartig ein, eine Novel-Food-Zulassung ist dafür nicht nötig – für Nasenspray und Spritze gilt das nicht, sie sind keine Lebensmittel'
+    ],
+    risks: [
+      'Für das Nasenspray gibt es keine einzige Studie am Menschen, weder zur Wirkung noch zur Verträglichkeit',
+      'Für die Spritze unter die Haut liegen Sicherheitsdaten von 6 Personen über 3 Tage vor, aus einem noch nicht begutachteten Preprint; Langzeit- und Wechselwirkungsdaten fehlen',
+      'Injektionen von NAD+ oder NR waren in den Pilotstudien mit Beschwerden an der Einstichstelle verbunden; in der Folgestudie mit NR berichteten 45,9 Prozent über Schmerzen länger als 2 Minuten nach der Spritze',
+      'Selbst gespritzte oder selbst angemischte Lösungen aus dem Graumarkt: keine Qualitätskontrolle, Risiko von Verunreinigung und Infektion an der Einstichstelle',
+      'Unklar ist, ob unzerlegtes NAD+ in nennenswerter Menge in die Zellen gelangt; über die Vene gegeben wurde es im Blut rasch abgebaut (Grant 2019)'
+    ],
+    status: 'Kein zugelassenes Arzneimittel mit NAD+ als Nasenspray oder Injektion in Deutschland oder der EU gefunden. Nasenspray und Spritze sind keine Lebensmittel, weil Lebensmittel nach EU-Recht zum Verzehr bestimmt sind; als Produkt zur Beeinflussung von Körperfunktionen wären sie Arzneimittel, die ohne Zulassung nicht in Verkehr gebracht werden dürfen. Als Nahrungsergänzung zum Schlucken stuft der Novel-Food-Katalog der EU-Kommission NAD+ als nicht neuartig ein (Eintrag vom 01.02.2024).',
+    link: 'https://europepmc.org/article/PPR/PPR1265369',
+    sources: [
+      { title: 'Nkrumah-Elie Y et al., medRxiv 2026 (Preprint) – vorläufige Sicherheitsauswertung zweier Pilotstudien mit Injektionen von NR und NAD+ unter die Haut, in den Muskel und in die Vene', url: 'https://europepmc.org/article/PPR/PPR1265369' },
+      { title: 'Grant R et al., Front Aging Neurosci 2019 – NAD+-Metabolom in Plasma und Urin während einer 6-stündigen NAD+-Infusion, Pilotstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/31572171/' },
+      { title: 'Ying W et al., Front Biosci 2007 – NAD+ in die Nase verringert die Hirnschädigung bei Ratten nach vorübergehender Ischämie', url: 'https://pubmed.ncbi.nlm.nih.gov/17127275/' },
+      { title: 'Yoo SH et al., Exp Mol Med 2026 – NAD+ in die Nase bei Geruchsverlust, Maus und menschliche Riech-Stammzellen', url: 'https://pubmed.ncbi.nlm.nih.gov/42380286/' },
+      { title: 'ClinicalTrials.gov NCT06919328 – Aufnahme und Verträglichkeit von injiziertem NR im Vergleich zu NAD+, randomisiert, verblindet', url: 'https://clinicaltrials.gov/study/NCT06919328' },
+      { title: 'ClinicalTrials.gov NCT07251608 – Sicherheitsstudie mit wiederholten Injektionen von NR unter die Haut und in den Muskel über 100 Tage', url: 'https://clinicaltrials.gov/study/NCT07251608' },
+      { title: 'EU-Kommission, Novel-Food-Katalog – Nicotinamide adenine dinucleotide (NAD+): nicht neuartig in Nahrungsergänzungsmitteln', url: 'https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search/details/POL-NF-09841' },
+      { title: 'Verordnung (EG) Nr. 178/2002, Artikel 2 – Begriff Lebensmittel', url: 'https://eur-lex.europa.eu/eli/reg/2002/178/oj' },
+      { title: 'Arzneimittelgesetz § 21 – Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' }
+    ],
+    community: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'c60',
+    name: 'Fulleren C60 in Olivenöl',
+    altNames: 'C60, Buckminsterfulleren, [60]Fulleren, C60-OO, C60-EVOO, C60-Olivenöl',
+    class: 'Kohlenstoff-Molekül (Fulleren), in Öl gelöst; in der EU nicht als Lebensmittel zugelassen',
+    emoji: '⚽',
+    short: 'Ein fußballförmiges Molekül aus 60 Kohlenstoffatomen, gelöst in Olivenöl. Der Ruf stammt aus einer Rattenstudie von 2012, in der eine kleine Gruppe fast doppelt so lange lebte. Zwei spätere Mäusestudien fanden keine echte Lebensverlängerung, eine davon zeigte, dass C60-Öl unter Licht giftige Stoffe bildet. Am Menschen ist C60 nicht untersucht.',
+    moa: 'C60 fängt im Reagenzglas sehr effektiv freie Radikale ab und gilt deshalb als starkes Antioxidans. In Olivenöl gelöst wird es bei Ratten über den Darm aufgenommen und innerhalb einiger zehn Stunden wieder ausgeschieden; die Autoren der Rattenstudie führten die längere Lebensdauer vor allem auf weniger altersbedingten oxidativen Stress zurück (Baati 2012). Belegt ist diese Wirkkette nicht: Bei Mäusen ließ sich der Lebenszeiteffekt nicht wiederholen, und unter Umgebungslicht entstehen in C60-Öl Abbauprodukte, die selbst schädlich sind (Grohn 2021).',
+    benefits: [
+      'Rattenstudie 2012: Eine kleine Gruppe Ratten, die C60 in Olivenöl bekam, lebte deutlich länger als Ratten mit Olivenöl oder ohne Behandlung; die Wiederholungsstudie beziffert den Unterschied auf 90 Prozent mehr mittlere Lebensdauer (Baati 2012)',
+      'In derselben Arbeit dämpfte C60-Öl die Leberschädigung durch Tetrachlorkohlenstoff bei Ratten und zeigte keine chronische Giftigkeit (Baati 2012)',
+      'Bei CBA/Ca-Mäusen lebten Tiere mit C60 länger als Tiere mit reinem Olivenöl, aber nicht länger als Tiere mit Wasser; die Autoren erklären das mit einem nachteiligen Effekt des Olivenöls, den C60 ausglich (Shytikov 2021)',
+      'In einer nach OECD-Leitlinie durchgeführten 14-Tage-Studie an Ratten traten unter C60-Öl keine Nebenwirkungen auf (Burres 2024); im Mikrokerntest an Mäusen fand sich keine Erbgutschädigung (Moussa 2025) – an beiden Arbeiten war F. Moussa beteiligt, Mitautor der Rattenstudie von 2012'
+    ],
+    risks: [
+      'Keine einzige Studie am Menschen, weder zur Wirkung noch zur Verträglichkeit',
+      'Der Lebenszeiteffekt ließ sich nicht wiederholen: Bei C57BL/6-Mäusen brachte C60 in nativem Olivenöl gegenüber unbehandelten Tieren weder mehr Lebenszeit noch mehr gesunde Lebenszeit; bei CB6F1-Mäusen mit Gabe in die Bauchhöhle betrug die mittlere Lebensdauer 144 gegenüber 145 Wochen unter Olivenöl (Grohn 2021)',
+      'C60-Öl bildet unter Licht in der Stärke normaler Raumbeleuchtung giftige Stoffe, die bei Mäusen innerhalb von 2 Wochen zu schweren Erkrankungen und Todesfällen führten (Grohn 2021)',
+      'Online gekaufte Produkte unterschieden sich deutlich in Aussehen, Verunreinigungen, C60-Gehalt und Aktivität von frisch hergestelltem C60-Öl (Grohn 2021)',
+      'Der wissenschaftliche Ausschuss für Verbrauchersicherheit der EU konnte 2023 die Sicherheit von Fullerenen in Kosmetika nicht bestätigen und ein erbgutschädigendes Potenzial von C60 und C70 nicht ausschließen',
+      'Ein Antrag, C60 als Lebensmittelzusatzstoff zu verwenden, wurde 2010 vom norwegischen Wissenschaftskomitee als ungeeignet für eine Bewertung eingestuft: Die meisten zentralen Sicherheitsdaten fehlten'
+    ],
+    status: 'In der EU weder als Lebensmittel noch als Arzneimittel zugelassen. Der Novel-Food-Katalog der EU-Kommission enthält keinen Eintrag zu Fullerenen (Abfrage 05.10.2026), eine Zulassung als neuartiges Lebensmittel nach Verordnung (EU) 2015/2283 wurde bei der Recherche nicht gefunden. Da C60 ein synthetisch hergestellter Stoff ist, der vor dem 15. Mai 1997 nicht verzehrt wurde, bräuchte er für den Verkauf als Lebensmittel eine solche Zulassung. Für Kosmetika konnte der Ausschuss SCCS 2023 die Sicherheit nicht bestätigen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33123847/',
+    sources: [
+      { title: 'Baati T et al., Biomaterials 2012 – Verlängerung der Lebensdauer von Ratten durch wiederholte orale Gabe von C60', url: 'https://pubmed.ncbi.nlm.nih.gov/22498298/' },
+      { title: 'Grohn KJ et al., GeroScience 2021 – C60 in Olivenöl: lichtabhängige Giftigkeit, keine Lebensverlängerung bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/33123847/' },
+      { title: 'Shytikov D et al., Rejuvenation Res 2021 – Langzeitgabe von C60 bei CBA/Ca-Mäusen, Vergleich mit Olivenöl und Wasser', url: 'https://pubmed.ncbi.nlm.nih.gov/33849306/' },
+      { title: 'Burres C et al., EXCLI J 2024 – Kurzzeit-Toxizitätsstudie zu gelöstem C60 bei Ratten nach OECD-Leitlinie', url: 'https://pubmed.ncbi.nlm.nih.gov/38983781/' },
+      { title: 'Moussa F, Nanomaterials 2025 – Mikrokerntest zu C60/C70 in Olivenöl bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/40497917/' },
+      { title: 'SCCS (Wissenschaftlicher Ausschuss Verbrauchersicherheit der EU), Stellungnahme SCCS/1649/23 vom 26.10.2023 – Fullerene und hydroxylierte Fullerene in Kosmetika', url: 'https://health.ec.europa.eu/system/files/2023-11/sccs_o_271.pdf' },
+      { title: 'VKM (Norwegisches Wissenschaftskomitee für Lebensmittelsicherheit), Bericht 2010:41 – Antrag auf Verwendung von Fulleren C60 als Lebensmittelzusatzstoff', url: 'https://vkm.no/english/riskassessments/allpublications/evaluationofanapplicationtousefullerenec60asafoodadditive.4.72c3261615e09f2472f47c99.html' },
+      { title: 'EU-Kommission, Novel-Food-Katalog (Suche, kein Eintrag zu Fullerenen, Abfrage 05.10.2026)', url: 'https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search' },
+      { title: 'Verordnung (EU) 2015/2283 über neuartige Lebensmittel', url: 'https://eur-lex.europa.eu/eli/reg/2015/2283/oj' }
+    ],
+    community: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'ketamin',
+    name: 'Ketamin / Esketamin (Spravato)',
+    altNames: 'Esketamin, Spravato, Ketanest, Ketamin-Infusion, Special K, K',
+    class: 'NMDA-Rezeptor-Antagonist, Narkosemittel; Esketamin-Nasenspray als Antidepressivum zugelassen, verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Esketamin-Nasenspray (Spravato) ist in der EU seit 2019 bei therapieresistenter Depression zugelassen, nur unter ärztlicher Aufsicht. Ketamin-Infusionen gegen Depression wirken in randomisierten Studien schnell, sind aber eine nicht zugelassene Anwendung. Für Freizeitkonsum und Microdosing gibt es keine Nutzenbelege, dafür gut dokumentierte Blasenschäden und ein Abhängigkeitsrisiko bei häufigem Gebrauch.',
+    moa: 'Ketamin blockiert den NMDA-Rezeptor, eine Andockstelle des Botenstoffs Glutamat; Esketamin ist die eine Spiegelbildform des Moleküls. In Narkosedosis schaltet das Bewusstsein ab, darunter entstehen Abgelöstheit von Körper und Umgebung (Dissoziation). Der antidepressive Effekt setzt innerhalb von Stunden ein, viel schneller als bei klassischen Antidepressiva; wie genau er zustande kommt, ist noch umstritten. Die Blasenschäden gehen nach heutigem Verständnis auf Ketamin und seine Abbauprodukte im Urin zurück.',
+    benefits: [
+      'Esketamin-Nasenspray plus neues Antidepressivum senkte die Depressionsskala nach 4 Wochen um 4,0 Punkte stärker als Antidepressivum plus Schein-Spray (TRANSFORM-2, 227 Patienten, Popova 2019)',
+      'Rückfallschutz: Bei Patienten in stabiler Remission erlitten unter fortgesetztem Esketamin 26,7 % einen Rückfall, nach Umstellung auf Placebo 45,3 % (SUSTAIN-1, Daly 2019)',
+      'Im direkten Vergleich mit Quetiapin nach 8 Wochen Remission bei 27,1 % gegenüber 17,6 % (ESCAPE-TRD, 676 Patienten, offen mit verblindeten Bewertern, Reif 2023)',
+      'Eine einzelne Ketamin-Infusion senkte die Depressionsskala nach 24 Stunden um 7,95 Punkte stärker als das Vergleichsnarkotikum Midazolam, Ansprechen 64 % gegenüber 28 % (73 Patienten, Murrough 2013)',
+      'Ketamin-Infusionen schnitten bei therapieresistenter Depression ohne Psychose nicht schlechter ab als Elektrokrampftherapie: Ansprechen 55,4 % gegenüber 41,2 % (ELEKT-D, 403 Patienten, offen, Anand 2023)'
+    ],
+    risks: [
+      'Dissoziation bei 27 % der Esketamin-Behandelten, dazu Schwindel, Übelkeit, Benommenheit und vorübergehender Blutdruckanstieg; deshalb Überwachung in der Praxis bis zur Stabilisierung (Fachinformation)',
+      'Abhängigkeit und Toleranz sind bei längerem Ketamin-Gebrauch beschrieben, beim Absetzen Verlangen, Angst, Zittern, Schwitzen, Herzklopfen (Fachinformation)',
+      'Blase: Bei Freizeitkonsumenten in 45 Studien mit 4.921 Patienten häufiger Harndrang bei 77,1 %, Blasenschmerz bei 60,4 %, Harnstau in den Nieren bei 30,2 %; Besserung nur mit Abstinenz (Chan 2022)',
+      'Interstitielle Zystitis ist bei täglichem, langem Gebrauch hoher Mengen berichtet; in den Esketamin-Studien keine Fälle, aber mehr Beschwerden beim Wasserlassen als unter Placebo (Fachinformation)',
+      'Leberschäden sind bei chronischem Ketamin-Gebrauch berichtet; in einer Langzeitstudie mit Esketamin über bis zu 79 Monate kein Hinweis darauf (Fachinformation)',
+      'Vorsicht bei Psychose, Manie oder bipolarer Störung in der Vorgeschichte; Gegenanzeige, wenn ein Blutdruck- oder Hirndruckanstieg gefährlich wäre (Fachinformation)'
+    ],
+    status: 'EU: Esketamin-Nasenspray (Spravato) seit 18.12.2019 zugelassen, zusammen mit einem SSRI oder SNRI bei Erwachsenen mit therapieresistenter Depression nach mindestens zwei erfolglosen Antidepressiva, außerdem als Kurzzeitbehandlung bei einem psychiatrischen Notfall; Anwendung nur unter Aufsicht von Fachpersonal. USA: zugelassen bei therapieresistenter Depression auch als alleinige Behandlung, Betäubungsmittel der Schedule III, Abgabe nur über ein Sicherheitsprogramm (REMS). Deutschland: Ketamin und Esketamin sind verschreibungspflichtig (Anlage 1 der Arzneimittelverschreibungsverordnung) und stehen nicht in den Anlagen des Betäubungsmittelgesetzes (Stand Oktober 2026). Ketamin-Infusionen gegen Depression sind eine nicht zugelassene Anwendung (off label). Freizeitkonsum ist eine missbräuchliche Verwendung eines Arzneimittels; die Abgabe ohne Rezept ist verboten.',
+    link: 'https://www.ema.europa.eu/en/documents/product-information/spravato-epar-product-information_en.pdf',
+    sources: [
+      { title: 'EMA, Spravato: Produktinformation (EPAR), zuletzt aktualisiert 23.01.2025', url: 'https://www.ema.europa.eu/en/documents/product-information/spravato-epar-product-information_en.pdf' },
+      { title: 'US-Fachinformation Spravato (DailyMed, Fassung September 2026)', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 (Ketamin, Esketamin)', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Popova V et al., Am J Psychiatry 2019 – TRANSFORM-2, Esketamin-Nasenspray plus Antidepressivum, 227 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/31109201/' },
+      { title: 'Daly EJ et al., JAMA Psychiatry 2019 – SUSTAIN-1, Rückfallschutz mit Esketamin', url: 'https://pubmed.ncbi.nlm.nih.gov/31166571/' },
+      { title: 'Reif A et al., N Engl J Med 2023 – ESCAPE-TRD, Esketamin gegen Quetiapin, 676 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/37792613/' },
+      { title: 'Murrough JW et al., Am J Psychiatry 2013 – Ketamin-Infusion gegen Midazolam, 73 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/23982301/' },
+      { title: 'Anand A et al., N Engl J Med 2023 – ELEKT-D, Ketamin gegen Elektrokrampftherapie, 403 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/37224232/' },
+      { title: 'Nikolin S et al., EClinicalMedicine 2023 – Meta-Analyse, 49 RCTs zu Ketamin und Esketamin bei Depression', url: 'https://pubmed.ncbi.nlm.nih.gov/37593223/' },
+      { title: 'Chan EOT et al., Hong Kong Med J 2022 – systematische Übersicht und Meta-Analyse zur Ketamin-Uropathie', url: 'https://pubmed.ncbi.nlm.nih.gov/36464318/' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'lsd-microdosing',
+    name: 'LSD-Microdosing',
+    altNames: 'LSD, Lysergid, Lysergsäurediethylamid, Microdosing, Mikrodosierung, MM120, DT120',
+    class: 'Serotonerges Psychedelikum in sehr niedriger, nicht berauschender Menge; Betäubungsmittel nach Anlage I BtMG',
+    emoji: '🧪',
+    short: 'Beim Microdosing wird LSD wiederholt in so kleinen Mengen genommen, dass kein Rausch entsteht; versprochen werden mehr Kreativität, Fokus und bessere Stimmung. In placebokontrollierten Studien fühlten sich Teilnehmende an Einnahmetagen etwas besser, dauerhafte Verbesserungen von Stimmung, Kreativität oder ADHS-Symptomen blieben aber aus. LSD ist in Deutschland nicht verkehrsfähig; in voller Dosis wird es von einem Hersteller gegen Angststörung entwickelt, das ist kein Microdosing.',
+    moa: 'LSD bindet vor allem an den Serotoninrezeptor 5-HT2A in der Großhirnrinde, darüber entstehen in voller Dosis die veränderten Wahrnehmungen. Beim Microdosing soll eine Menge unterhalb dieser Schwelle die Stimmung und das Denken über Tage anheben. Dass auch niedrige Mengen messbar wirken, ist gezeigt: Teilnehmende spüren dosisabhängig etwas. Ein Weg von dort zu einer anhaltenden Verbesserung ist am Menschen nicht belegt. LSD bindet außerdem an den Serotoninrezeptor 5-HT2B am Herzen, über den andere Wirkstoffe bei Dauereinnahme Herzklappen geschädigt haben.',
+    benefits: [
+      'Spürbare Akuteffekte: In einer doppelblinden Laborstudie mit 20 Gesunden riefen einzelne niedrige Mengen dosisabhängige subjektive Effekte hervor, bei der höchsten Stufe mehr Tatkraft (Bershad 2019)',
+      'An Einnahmetagen höhere Werte für Kreativität, Verbundenheit, Energie, Glück und Wohlbefinden, aber auch für Gereiztheit, bei 80 gesunden Männern über 6 Wochen (Murphy 2023)',
+      'In einer offenen Studie ohne Kontrollgruppe berichteten 19 Menschen mit Depression im Mittel 60 % weniger Symptome; an Einnahmetagen bessere Stimmung, aber nicht weniger Depression (Daldegan-Bueno 2026)'
+    ],
+    risks: [
+      'Angst als häufigste behandlungsbedingte Nebenwirkung: 4 von 40 Männern in der LSD-Gruppe brachen deshalb ab (Murphy 2023)',
+      'Herzklappen: LSD aktiviert den Rezeptor 5-HT2B; ob monatelanges Microdosing Herzklappen schädigt, wurde nie in einer geeigneten Studie geprüft (Tagen 2023)',
+      'Die Studien liefen über 4 bis 8 Wochen, meist an gesunden Freiwilligen; Daten zu monate- oder jahrelanger Einnahme fehlen',
+      'Außerhalb von Studien ist der Gehalt unbekannt, und als Betäubungsmittel der Anlage I ist schon der Besitz strafbar'
+    ],
+    status: 'Deutschland: Lysergid (LSD) steht in Anlage I des Betäubungsmittelgesetzes, ist also nicht verkehrsfähig und nicht verschreibbar; Besitz ist strafbar. Kein zugelassenes LSD-Präparat in der EU oder in den USA, für Microdosing gibt es auch kein Zulassungsverfahren. Der Hersteller Definium Therapeutics (früher MindMed) entwickelt eine LSD-Schmelztablette (MM120, jetzt DT120) als einmalige volle Dosis gegen generalisierte Angststörung; zwei Phase-3-Studien waren nach Herstellerangaben 2026 positiv, ein Zulassungsantrag in den USA ist für das erste Halbjahr 2027 geplant. Eine Microdosing-Studie desselben Herstellers bei ADHS verfehlte ihren Hauptendpunkt.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/36997080/',
+    sources: [
+      { title: 'Szigeti B et al., eLife 2021 – selbstverblindete Microdosing-Studie (LSD und Psilocybin), 191 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/33648632/' },
+      { title: 'Murphy RJ et al., Biol Psychiatry 2023 – randomisierte LSD-Microdosing-Studie zu Hause, 80 gesunde Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/36997080/' },
+      { title: 'Murphy RJ et al., Psychopharmacology 2025 – Kreativitätstests nach akutem und sechswöchigem LSD-Microdosing', url: 'https://pubmed.ncbi.nlm.nih.gov/39235512/' },
+      { title: 'Bershad AK et al., Biol Psychiatry 2019 – akute Effekte niedriger LSD-Mengen, doppelblind, 20 Gesunde', url: 'https://pubmed.ncbi.nlm.nih.gov/31331617/' },
+      { title: 'ClinicalTrials.gov NCT05200936 – niedrig dosiertes MM120 bei ADHS, Phase 2a, 53 Erwachsene, Ergebnisse', url: 'https://clinicaltrials.gov/study/NCT05200936' },
+      { title: 'Daldegan-Bueno D et al., Prog Neuropsychopharmacol Biol Psychiatry 2026 – offene Phase-2a-Studie LSD-Microdosing bei Depression, 19 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/41713673/' },
+      { title: 'Robison R et al., JAMA 2025 – MM120 (Lysergid) als Einzeldosis bei generalisierter Angststörung, Phase 2b, 198 Erwachsene', url: 'https://pubmed.ncbi.nlm.nih.gov/40906494/' },
+      { title: 'Definium Therapeutics, Pressemitteilung vom 14.09.2026 zur Phase-3-Studie Panorama (245 Teilnehmende)', url: 'https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder' },
+      { title: 'Tagen M et al., J Psychopharmacol 2023 – Herzklappenrisiko bei chronischem Microdosing', url: 'https://pubmed.ncbi.nlm.nih.gov/37572027/' },
+      { title: 'Betäubungsmittelgesetz, Anlage I (Lysergid)', url: 'https://www.gesetze-im-internet.de/btmg_1981/anlage_i.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
   }
 
 ];
@@ -5728,6 +6000,10 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'c60': 'Longevity',
+  'nad-nasenspray': 'Longevity',
+  'bempedoinsaeure': 'Stoffwechsel',
+  'liraglutid': 'Stoffwechsel',
   'yk-11': 'Exercise',
   'liothyronin': 'Stoffwechsel',
   'thymulin': 'Immun',

@@ -19245,6 +19245,39 @@
 "Journal Article"
 ]
 },
+"pmid:16684437": {
+"autoren": "Harsh JR, Hayduk R, Rosenberg R, Wesnes KA, Walsh JK, Arora S, Niebler GE, Roth T.",
+"doi": "10.1185/030079906x100050",
+"iso": "Curr Med Res Opin",
+"jahr": "2006",
+"journal": "Current medical research and opinion",
+"korr": [],
+"mesh": [
+"Humans",
+"Narcolepsy",
+"Benzhydryl Compounds",
+"Central Nervous System Stimulants",
+"Treatment Outcome",
+"Double-Blind Method",
+"Wakefulness",
+"Sleep Stages",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Modafinil"
+],
+"pmcid": "",
+"pmid": "16684437",
+"quelle": "MED",
+"titel": "The efficacy and safety of armodafinil as treatment for adults with excessive sleepiness associated with narcolepsy.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:16688716": {
 "autoren": "Michl J, Scharf B, Schmidt A, Huynh C, Hannan R, von Gizycki H, Friedman FK, Brandt-Rauf P, Fine RL, Pincus MR.",
 "doi": "10.1002/ijc.22029",
@@ -19975,6 +20008,36 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:17127275": {
+"autoren": "Ying W, Wei G, Wang D, Wang Q, Tang X, Shi J, Zhang P, Lu H.",
+"doi": "10.2741/2267",
+"iso": "Front Biosci",
+"jahr": "2007",
+"journal": "Frontiers in bioscience : a journal and virtual library",
+"korr": [],
+"mesh": [
+"Animals",
+"Rats",
+"Rats, Sprague-Dawley",
+"Ischemic Attack, Transient",
+"Myocardial Infarction",
+"Disease Models, Animal",
+"NAD",
+"Administration, Intranasal",
+"Male",
+"Poly(ADP-ribose) Polymerase Inhibitors",
+"Poly (ADP-Ribose) Polymerase-1"
+],
+"pmcid": "",
+"pmid": "17127275",
+"quelle": "MED",
+"titel": "Intranasal administration with NAD+ profoundly decreases brain injury in a rat model of transient focal ischemia.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Research Support, U.S. Gov't, Non-P.H.S.",
 "Journal Article"
 ]
 },
@@ -21522,6 +21585,32 @@
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:18382932": {
+"autoren": "Leppäluoto J, Westerlund T, Huttunen P, Oksa J, Smolander J, Dugué B, Mikkelsson M.",
+"doi": "10.1080/00365510701516350",
+"iso": "Scand J Clin Lab Invest",
+"jahr": "2008",
+"journal": "Scandinavian journal of clinical and laboratory investigation",
+"korr": [],
+"mesh": [
+"Humans",
+"Catecholamines",
+"Hydrocortisone",
+"beta-Endorphin",
+"Cytokines",
+"Reference Values",
+"Female",
+"Adrenocorticotropic Hormone",
+"Cold Temperature"
+],
+"pmcid": "",
+"pmid": "18382932",
+"quelle": "MED",
+"titel": "Effects of long-term whole-body cold exposures on plasma concentrations of ACTH, beta-endorphin, cortisol, catecholamines and cytokines in healthy females.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -23831,6 +23920,38 @@
 "Journal Article"
 ]
 },
+"pmid:19663523": {
+"autoren": "Darwish M, Kirby M, Hellriegel ET, Robertson P.",
+"doi": "10.2165/11315280-000000000-00000",
+"iso": "Clin Drug Investig",
+"jahr": "2009",
+"journal": "Clinical drug investigation",
+"korr": [],
+"mesh": [
+"Humans",
+"Benzhydryl Compounds",
+"Central Nervous System Stimulants",
+"Stereoisomerism",
+"Half-Life",
+"Time Factors",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Modafinil"
+],
+"pmcid": "",
+"pmid": "19663523",
+"quelle": "MED",
+"titel": "Armodafinil and modafinil have substantially different pharmacokinetic profiles despite having the same terminal half-lives: analysis of data from three randomized, single-dose, pharmacokinetic studies.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:19664276": {
 "autoren": "Henderson ST, Vogel JL, Barr LJ, Garvin F, Jones JJ, Costantini LC.",
 "doi": "10.1186/1743-7075-6-31",
@@ -24135,6 +24256,55 @@
 "research-article",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:19880686": {
+"autoren": "Czeisler CA, Walsh JK, Wesnes KA, Arora S, Roth T.",
+"doi": "10.1016/s0025-6196(11)60666-6",
+"iso": "Mayo Clin Proc",
+"jahr": "2009",
+"journal": "Mayo Clinic proceedings",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Disorders, Circadian Rhythm",
+"Disorders of Excessive Somnolence",
+"Benzhydryl Compounds",
+"Central Nervous System Stimulants",
+"Electrocardiography",
+"Polysomnography",
+"Treatment Outcome",
+"Drug Administration Schedule",
+"Severity of Illness Index",
+"Probability",
+"Risk Assessment",
+"Statistics, Nonparametric",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Task Performance and Analysis",
+"Dose-Response Relationship, Drug",
+"Work Schedule Tolerance",
+"Adult",
+"Aged",
+"Middle Aged",
+"Medical Staff, Hospital",
+"Academic Medical Centers",
+"Minnesota",
+"Female",
+"Male",
+"Young Adult",
+"Modafinil"
+],
+"pmcid": "PMC2770907",
+"pmid": "19880686",
+"quelle": "MED",
+"titel": "Armodafinil for treatment of excessive sleepiness associated with shift work disorder: a randomized controlled study.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:19880844": {
@@ -27289,6 +27459,34 @@
 "Journal Article"
 ]
 },
+"pmid:21491410": {
+"autoren": "Griffin XL, Costa ML, Parsons N, Smith N.",
+"doi": "10.1002/14651858.cd008471.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2011",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Arm Injuries",
+"Fractures, Ununited",
+"Tibial Fractures",
+"Leg Injuries",
+"Fracture Healing",
+"Adult",
+"Randomized Controlled Trials as Topic",
+"Magnetic Field Therapy"
+],
+"pmcid": "PMC12754039",
+"pmid": "21491410",
+"quelle": "MED",
+"titel": "Electromagnetic field stimulation for treating delayed union or non-union of long bone fractures in adults.",
+"typen": [
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:21502597": {
 "autoren": "Rafii MS, Walsh S, Little JT, Behan K, Reynolds B, Ward C, Jin S, Thomas R, Aisen PS, Alzheimer's Disease Cooperative Study.",
 "doi": "10.1212/wnl.0b013e318216eb7b",
@@ -27684,6 +27882,23 @@
 "Meta-Analysis",
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:21766023": {
+"autoren": "Tembe DV, Dhavale A, Desai H, Mane DN, Raut SK, Dhingra G, Sardesai U, Saoji S, Rohra M, Shinde VG, Padsalge M, Paliwal A, Abbasi K, Devnani P, Papinwar S, Phadke S, Mehta H, Bhailume V.",
+"doi": "10.1155/2011/514351",
+"iso": "Neurol Res Int",
+"jahr": "2011",
+"journal": "Neurology research international",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC3135062",
+"pmid": "21766023",
+"quelle": "MED",
+"titel": "Armodafinil versus Modafinil in Patients of Excessive Sleepiness Associated with Shift Work Sleep Disorder: A Randomized Double Blind Multicentric Clinical Trial.",
+"typen": [
+"other",
 "Journal Article"
 ]
 },
@@ -29109,6 +29324,34 @@
 "quelle": "MED",
 "titel": "Effect of tripeptides on lymphoid and stem cells.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:22498298": {
+"autoren": "Baati T, Bourasset F, Gharbi N, Njim L, Abderrabba M, Kerkeni A, Szwarc H, Moussa F.",
+"doi": "10.1016/j.biomaterials.2012.03.036",
+"iso": "Biomaterials",
+"jahr": "2012",
+"journal": "Biomaterials",
+"korr": [],
+"mesh": [
+"Animals",
+"Rats",
+"Rats, Wistar",
+"Fullerenes",
+"Plant Oils",
+"Administration, Oral",
+"Oxidative Stress",
+"Aging",
+"Male",
+"Olive Oil"
+],
+"pmcid": "",
+"pmid": "22498298",
+"quelle": "MED",
+"titel": "The prolongation of the lifespan of rats by repeated oral administration of [60]fullerene.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -32503,6 +32746,45 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:23982301": {
+"autoren": "Murrough JW, Iosifescu DV, Chang LC, Al Jurdi RK, Green CE, Perez AM, Iqbal S, Pillemer S, Foulkes A, Shah A, Charney DS, Mathew SJ.",
+"doi": "10.1176/appi.ajp.2013.13030392",
+"iso": "Am J Psychiatry",
+"jahr": "2013",
+"journal": "The American journal of psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Ketamine",
+"Excitatory Amino Acid Antagonists",
+"Antidepressive Agents",
+"Infusions, Intravenous",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Personality Inventory",
+"Psychometrics",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Depressive Disorder, Treatment-Resistant",
+"Major Depressive Disorder"
+],
+"pmcid": "PMC3992936",
+"pmid": "23982301",
+"quelle": "MED",
+"titel": "Antidepressant efficacy of ketamine in treatment-resistant major depression: a two-site randomized controlled trial.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:2398610": {
 "autoren": "Swygert LA, Maes EF, Sewell LE, Miller L, Falk H, Kilbourne EM.",
 "doi": "10.1001/jama.1990.03450130070029",
@@ -33287,6 +33569,33 @@
 "titel": "The effect of protein timing on muscle strength and hypertrophy: a meta-analysis.",
 "typen": [
 "review-article",
+"Journal Article"
+]
+},
+"pmid:24338431": {
+"autoren": "Li S, Yu B, Zhou D, He C, Zhuo Q, Hulme JM.",
+"doi": "10.1002/14651858.cd003523.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2013",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis",
+"Electric Stimulation Therapy",
+"Electromagnetic Fields",
+"Randomized Controlled Trials as Topic",
+"Magnetic Field Therapy"
+],
+"pmcid": "PMC13080287",
+"pmid": "24338431",
+"quelle": "MED",
+"titel": "Electromagnetic fields for treating osteoarthritis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
 "Journal Article"
 ]
 },
@@ -35415,6 +35724,40 @@
 "Journal Article"
 ]
 },
+"pmid:25099397": {
+"autoren": "Calabrese JR, Frye MA, Yang R, Ketter TA, Armodafinil Treatment Trial Study Network.",
+"doi": "10.4088/jcp.13m08951",
+"iso": "J Clin Psychiatry",
+"jahr": "2014",
+"journal": "The Journal of clinical psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Benzhydryl Compounds",
+"Placebos",
+"Treatment Outcome",
+"Double-Blind Method",
+"Bipolar Disorder",
+"Drug Synergism",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Wakefulness-Promoting Agents",
+"Modafinil",
+"Major Depressive Disorder"
+],
+"pmcid": "",
+"pmid": "25099397",
+"quelle": "MED",
+"titel": "Efficacy and safety of adjunctive armodafinil in adults with major depressive episodes associated with bipolar I disorder: a randomized, double-blind, placebo-controlled, multicenter trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:25114079": {
 "autoren": "Tan MS, Yu JT, Tan CC, Wang HF, Meng XF, Wang C, Jiang T, Zhu XC, Tan L.",
 "doi": "10.3233/jad-140837",
@@ -35505,6 +35848,41 @@
 "typen": [
 "Meta-Analysis",
 "Review",
+"Journal Article"
+]
+},
+"pmid:25159886": {
+"autoren": "Gasior M, Freeman J, Zammit G, Donnelly P, Gao J, Ferreira-Cornwell MC, Roth T.",
+"doi": "10.1097/jcp.0000000000000202",
+"iso": "J Clin Psychopharmacol",
+"jahr": "2014",
+"journal": "Journal of clinical psychopharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Deprivation",
+"Dextroamphetamine",
+"Benzhydryl Compounds",
+"Administration, Oral",
+"Double-Blind Method",
+"Wakefulness",
+"Health Status",
+"Time Factors",
+"Adult",
+"Male",
+"Young Adult",
+"Wakefulness-Promoting Agents",
+"Lisdexamfetamine Dimesylate",
+"Modafinil"
+],
+"pmcid": "",
+"pmid": "25159886",
+"quelle": "MED",
+"titel": "Maintenance of wakefulness with lisdexamfetamine dimesylate, compared with placebo and armodafinil in healthy adult males undergoing acute sleep loss.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -37276,6 +37654,37 @@
 "Journal Article"
 ]
 },
+"pmid:25933099": {
+"autoren": "Ketter TA, Yang R, Frye MA.",
+"doi": "10.1016/j.jad.2015.04.012",
+"iso": "J Affect Disord",
+"jahr": "2015",
+"journal": "Journal of affective disorders",
+"korr": [],
+"mesh": [
+"Humans",
+"Benzhydryl Compounds",
+"Antidepressive Agents",
+"Drug Therapy, Combination",
+"Double-Blind Method",
+"Bipolar Disorder",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Modafinil"
+],
+"pmcid": "",
+"pmid": "25933099",
+"quelle": "MED",
+"titel": "Adjunctive armodafinil for major depressive episodes associated with bipolar I disorder.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:25946838": {
 "autoren": "Khavinson VKh, Tarnovskaia SI, Lin'kova NS, Poliakova VO, Durnova AO, Nichik TE, Kvetnoĭ IM, D'iakonov MM, Iakutseni PP.",
 "doi": "",
@@ -37838,6 +38247,47 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Review",
+"Journal Article"
+]
+},
+"pmid:26132939": {
+"autoren": "Pi-Sunyer X, Astrup A, Fujioka K, Greenway F, Halpern A, Krempf M, Lau DC, le Roux CW, Violante Ortiz R, Jensen CB, Wilding JP, SCALE Obesity and Prediabetes NN8022-1839 Study Group.",
+"doi": "10.1056/nejmoa1411892",
+"iso": "N Engl J Med",
+"jahr": "2015",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Weight Loss",
+"Diarrhea",
+"Nausea",
+"Blood Glucose",
+"Hypoglycemic Agents",
+"Body Mass Index",
+"Combined Modality Therapy",
+"Exercise",
+"Diet, Reducing",
+"Injections, Subcutaneous",
+"Double-Blind Method",
+"Counseling",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Liraglutide"
+],
+"pmcid": "",
+"pmid": "26132939",
+"quelle": "MED",
+"titel": "A Randomized, Controlled Trial of 3.0 mg of Liraglutide in Weight Management.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -38443,6 +38893,38 @@
 "titel": "Modafinil for cognitive neuroenhancement in healthy non-sleep-deprived subjects: A systematic review.",
 "typen": [
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:26383887": {
+"autoren": "Costello JT, Baker PR, Minett GM, Bieuzen F, Stewart IB, Bleakley C.",
+"doi": "10.1002/14651858.cd010789.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2015",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise",
+"Cryotherapy",
+"Air",
+"Rest",
+"Adult",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Young Adult",
+"Extreme Cold",
+"Myalgia"
+],
+"pmcid": "PMC9579836",
+"pmid": "26383887",
+"quelle": "MED",
+"titel": "Whole-body cryotherapy (extreme cold air exposure) for preventing and treating muscle soreness after exercise in adults.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"systematic-review",
 "Journal Article"
 ]
 },
@@ -39875,6 +40357,40 @@
 "Journal Article"
 ]
 },
+"pmid:26876224": {
+"autoren": "Solomon TM, Leech J, deBros GB, Murphy CA, Budson AE, Vassey EA, Solomon PR.",
+"doi": "10.1002/hup.2520",
+"iso": "Hum Psychopharmacol",
+"jahr": "2016",
+"journal": "Human psychopharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Nootropic Agents",
+"Pharmaceutical Preparations",
+"Treatment Outcome",
+"Administration, Oral",
+"Double-Blind Method",
+"Mental Recall",
+"Speech Perception",
+"Sleep",
+"Neuropsychological Tests",
+"Dietary Supplements",
+"Adolescent",
+"Adult",
+"Young Adult",
+"Executive Function"
+],
+"pmcid": "",
+"pmid": "26876224",
+"quelle": "MED",
+"titel": "A randomized, double-blind, placebo controlled, parallel group, efficacy study of alpha BRAIN® administered orally.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:26886521": {
 "autoren": "Snyder PJ, Bhasin S, Cunningham GR, Matsumoto AM, Stephens-Shields AJ, Cauley JA, Gill TM, Barrett-Connor E, Swerdloff RS, Wang C, Ensrud KE, Lewis CE, Farrar JT, Cella D, Rosen RC, Pahor M, Crandall JP, Molitch ME, Cifelli D, Dougar D, Fluharty L, Resnick SM, Storer TW, Anton S, Basaria S, Diem SJ, Hou X, Mohler ER, Parsons JK, Wenger NK, Zeldow B, Landis JR, Ellenberg SS, Testosterone Trials Investigators.",
 "doi": "10.1056/nejmoa1506119",
@@ -40453,6 +40969,42 @@
 "Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:27295427": {
+"autoren": "Marso SP, Daniels GH, Brown-Frandsen K, Kristensen P, Mann JF, Nauck MA, Nissen SE, Pocock S, Poulter NR, Ravn LS, Steinberg WM, Stockner M, Zinman B, Bergenstal RM, Buse JB, LEADER Steering Committee, LEADER Trial Investigators.",
+"doi": "10.1056/nejmoa1603827",
+"iso": "N Engl J Med",
+"jahr": "2016",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Gastrointestinal Diseases",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Diabetes Mellitus, Type 2",
+"Hypoglycemic Agents",
+"Treatment Outcome",
+"Double-Blind Method",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Stroke",
+"Liraglutide"
+],
+"pmcid": "PMC4985288",
+"pmid": "27295427",
+"quelle": "MED",
+"titel": "Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:27343205": {
@@ -41583,6 +42135,46 @@
 "Journal Article"
 ]
 },
+"pmid:27892461": {
+"autoren": "Pinkosky SL, Newton RS, Day EA, Ford RJ, Lhotak S, Austin RC, Birch CM, Smith BK, Filippov S, Groot PHE, Steinberg GR, Lalwani ND.",
+"doi": "10.1038/ncomms13457",
+"iso": "Nat Commun",
+"jahr": "2016",
+"journal": "Nature communications",
+"korr": [],
+"mesh": [
+"Liver",
+"Hepatocytes",
+"Animals",
+"Mice, Inbred C57BL",
+"Mice, Knockout",
+"Humans",
+"Disease Progression",
+"Dicarboxylic Acids",
+"ATP Citrate (pro-S)-Lyase",
+"Adenylate Kinase",
+"Fatty Acids",
+"Receptors, LDL",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Enzyme Inhibitors",
+"Organ Specificity",
+"Up-Regulation",
+"Enzyme Activation",
+"Models, Biological",
+"Atherosclerosis",
+"Lipid Metabolism",
+"Cholesterol, LDL"
+],
+"pmcid": "PMC5133702",
+"pmid": "27892461",
+"quelle": "MED",
+"titel": "Liver-specific ATP-citrate lyase inhibition by bempedoic acid decreases LDL-C and attenuates atherosclerosis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:27893675": {
 "autoren": "Ma H, Zeng M, Han Y, Yan H, Tang H, Sheng J, Hu H, Cheng L, Xie Q, Zhu Y, Chen G, Gao Z, Xie W, Wang J, Wu S, Wang G, Miao X, Fu X, Duan L, Xu J, Wei L, Shi G, Chen C, Chen M, Ning Q, Yao C, Jia J.",
 "doi": "10.1097/md.0000000000005391",
@@ -42070,6 +42662,49 @@
 "Journal Article"
 ]
 },
+"pmid:28237263": {
+"autoren": "le Roux CW, Astrup A, Fujioka K, Greenway F, Lau DCW, Van Gaal L, Ortiz RV, Wilding JPH, Skjøth TV, Manning LS, Pi-Sunyer X, SCALE Obesity Prediabetes NN8022-1839 Study Group.",
+"doi": "10.1016/s0140-6736(17)30069-7",
+"iso": "Lancet",
+"jahr": "2017",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Prediabetic State",
+"Obesity",
+"Body Weight",
+"Weight Loss",
+"Blood Glucose",
+"Placebos",
+"Hypoglycemic Agents",
+"Body Mass Index",
+"Treatment Outcome",
+"Injections, Subcutaneous",
+"Double-Blind Method",
+"Risk Reduction Behavior",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Incretins",
+"Glucagon-Like Peptide-1 Receptor",
+"Liraglutide",
+"Glucagon-Like Peptide-1 Receptor Agonists"
+],
+"pmcid": "",
+"pmid": "28237263",
+"quelle": "MED",
+"titel": "3 years of liraglutide versus placebo for type 2 diabetes risk reduction and weight management in individuals with prediabetes: a randomised, double-blind trial.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:28237870": {
 "autoren": "Verkaik S, Kamperman AM, van Westrhenen R, Schulte PFJ.",
 "doi": "10.1016/j.ajog.2017.02.028",
@@ -42308,6 +42943,40 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:28335000": {
+"autoren": "Schabus M, Griessenberger H, Gnjezda MT, Heib DPJ, Wislowska M, Hoedlmoser K.",
+"doi": "10.1093/brain/awx011",
+"iso": "Brain",
+"jahr": "2017",
+"journal": "Brain : a journal of neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Electroencephalography",
+"Polysomnography",
+"Treatment Outcome",
+"Double-Blind Method",
+"Wakefulness",
+"Sleep",
+"Placebo Effect",
+"Research Design",
+"Quality of Life",
+"Adult",
+"Female",
+"Male",
+"Neurofeedback"
+],
+"pmcid": "PMC5382955",
+"pmid": "28335000",
+"quelle": "MED",
+"titel": "Better than sham? A double-blind placebo-controlled neurofeedback study in primary insomnia.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -44357,6 +45026,35 @@
 "Journal Article"
 ]
 },
+"pmid:29127510": {
+"autoren": "Wilson LJ, Cockburn E, Paice K, Sinclair S, Faki T, Hills FA, Gondek MB, Wood A, Dimitriou L.",
+"doi": "10.1007/s00421-017-3757-z",
+"iso": "Eur J Appl Physiol",
+"jahr": "2018",
+"journal": "European journal of applied physiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Baths",
+"Hypothermia, Induced",
+"Recovery of Function",
+"Muscle Fatigue",
+"Running",
+"Adult",
+"Middle Aged",
+"Male",
+"Myalgia",
+"Physical Conditioning, Human"
+],
+"pmcid": "",
+"pmid": "29127510",
+"quelle": "MED",
+"titel": "Recovery following a marathon: a comparison of cold water immersion, whole body cryotherapy and a placebo control.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:29127724": {
 "autoren": "Andres S, Pevny S, Ziegenhagen R, Bakhiya N, Schäfer B, Hirsch-Ernst KI, Lampen A.",
 "doi": "10.1002/mnfr.201700447",
@@ -45846,6 +46544,39 @@
 "Meta-Analysis",
 "Systematic Review",
 "systematic-review",
+"Journal Article"
+]
+},
+"pmid:29855372": {
+"autoren": "Barringer N, Crombie A, Kotwal R.",
+"doi": "10.1186/s12970-018-0229-8",
+"iso": "J Int Soc Sports Nutr",
+"jahr": "2018",
+"journal": "Journal of the International Society of Sports Nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Hydrocortisone",
+"Nootropic Agents",
+"Double-Blind Method",
+"Affect",
+"Psychomotor Performance",
+"Reaction Time",
+"Body Composition",
+"Firearms",
+"Dietary Supplements",
+"Adult",
+"Military Personnel",
+"Female",
+"Male"
+],
+"pmcid": "PMC5984413",
+"pmid": "29855372",
+"quelle": "MED",
+"titel": "Impact of a purported nootropic supplementation on measures of mood, stress, and marksmanship performance in U.S. active duty soldiers.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -48205,6 +48936,85 @@
 "Journal Article"
 ]
 },
+"pmid:30865796": {
+"autoren": "Ray KK, Bays HE, Catapano AL, Lalwani ND, Bloedon LT, Sterling LR, Robinson PL, Ballantyne CM, CLEAR Harmony Trial.",
+"doi": "10.1056/nejmoa1803917",
+"iso": "N Engl J Med",
+"jahr": "2019",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypercholesterolemia",
+"Dicarboxylic Acids",
+"Cholesterol",
+"ATP Citrate (pro-S)-Lyase",
+"Fatty Acids",
+"Peptide Fragments",
+"C-Reactive Protein",
+"Apolipoproteins B",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Hypoglycemic Agents",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL"
+],
+"pmcid": "",
+"pmid": "30865796",
+"quelle": "MED",
+"titel": "Safety and Efficacy of Bempedoic Acid to Reduce LDL Cholesterol.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:30865797": {
+"autoren": "Ference BA, Ray KK, Catapano AL, Ference TB, Burgess S, Neff DR, Oliver-Williams C, Wood AM, Butterworth AS, Di Angelantonio E, Danesh J, Kastelein JJP, Nicholls SJ.",
+"doi": "10.1056/nejmoa1806747",
+"iso": "N Engl J Med",
+"jahr": "2019",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Cardiovascular Diseases",
+"Diabetes Mellitus",
+"Hypercholesterolemia",
+"Genetic Predisposition to Disease",
+"Dicarboxylic Acids",
+"ATP Citrate (pro-S)-Lyase",
+"Hydroxymethylglutaryl CoA Reductases",
+"Fatty Acids",
+"Triglycerides",
+"Lipoproteins",
+"Membrane Transport Proteins",
+"Membrane Proteins",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Odds Ratio",
+"Risk",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Mendelian Randomization Analysis",
+"Hypolipidemic Agents"
+],
+"pmcid": "PMC7612927",
+"pmid": "30865797",
+"quelle": "MED",
+"titel": "Mendelian Randomization Study of &lt;i&gt;ACLY&lt;/i&gt; and Cardiovascular Disease.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:30881246": {
 "autoren": "Mailoo VJ, Rampes S.",
 "doi": "",
@@ -48810,6 +49620,44 @@
 "Journal Article"
 ]
 },
+"pmid:31109201": {
+"autoren": "Popova V, Daly EJ, Trivedi M, Cooper K, Lane R, Lim P, Mazzucco C, Hough D, Thase ME, Shelton RC, Molero P, Vieta E, Bajbouj M, Manji H, Drevets WC, Singh JB.",
+"doi": "10.1176/appi.ajp.2019.19020172",
+"iso": "Am J Psychiatry",
+"jahr": "2019",
+"journal": "The American journal of psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Sertraline",
+"Citalopram",
+"Ketamine",
+"Antidepressive Agents",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Administration, Intranasal",
+"Administration, Oral",
+"Double-Blind Method",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Depressive Disorder, Treatment-Resistant",
+"Duloxetine Hydrochloride",
+"Venlafaxine Hydrochloride",
+"Major Depressive Disorder"
+],
+"pmcid": "",
+"pmid": "31109201",
+"quelle": "MED",
+"titel": "Efficacy and Safety of Flexibly Dosed Esketamine Nasal Spray Combined With a Newly Initiated Oral Antidepressant in Treatment-Resistant Depression: A Randomized Double-Blind Active-Controlled Study.",
+"typen": [
+"Clinical Trial, Phase III",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:31123801": {
 "autoren": "Isenmann E, Ambrosio G, Joseph JF, Mazzarino M, de la Torre X, Zimmer P, Kazlauskas R, Goebel C, Botrè F, Diel P, Parr MK.",
 "doi": "10.1007/s00204-019-02490-x",
@@ -49085,6 +49933,45 @@
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:31166571": {
+"autoren": "Daly EJ, Trivedi MH, Janik A, Li H, Zhang Y, Li X, Lane R, Lim P, Duca AR, Hough D, Thase ME, Zajecka J, Winokur A, Divacka I, Fagiolini A, Cubala WJ, Bitter I, Blier P, Shelton RC, Molero P, Manji H, Drevets WC, Singh JB.",
+"doi": "10.1001/jamapsychiatry.2019.1189",
+"iso": "JAMA Psychiatry",
+"jahr": "2019",
+"journal": "JAMA psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Ketamine",
+"Antidepressive Agents",
+"Drug Therapy, Combination",
+"Remission Induction",
+"Administration, Intranasal",
+"Administration, Oral",
+"Double-Blind Method",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Secondary Prevention",
+"Nasal Sprays",
+"Depressive Disorder, Treatment-Resistant",
+"Outcome Assessment, Health Care",
+"Major Depressive Disorder"
+],
+"pmcid": "PMC6551577",
+"pmid": "31166571",
+"quelle": "MED",
+"titel": "Efficacy of Esketamine Nasal Spray Plus Oral Antidepressant Treatment for Relapse Prevention in Patients With Treatment-Resistant Depression: A Randomized Clinical Trial.",
+"typen": [
+"Clinical Trial, Phase III",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:31195972": {
@@ -49412,6 +50299,42 @@
 "titel": "A health risk for consumers: the presence of adulterated food supplements in the Netherlands.",
 "typen": [
 "Journal Article"
+]
+},
+"pmid:31331617": {
+"autoren": "Bershad AK, Schepers ST, Bremmer MP, Lee R, de Wit H.",
+"doi": "10.1016/j.biopsych.2019.05.019",
+"iso": "Biol Psychiatry",
+"jahr": "2019",
+"journal": "Biological psychiatry",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Lysergic Acid Diethylamide",
+"Hallucinogens",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Affect",
+"Cognition",
+"Dose-Response Relationship, Drug",
+"Adolescent",
+"Adult",
+"Male",
+"Young Adult",
+"Healthy Volunteers",
+"Surveys and Questionnaires"
+],
+"pmcid": "PMC6814527",
+"pmid": "31331617",
+"quelle": "MED",
+"titel": "Acute Subjective and Behavioral Effects of Microdoses of Lysergic Acid Diethylamide in Healthy Human Volunteers.",
+"typen": [
+"research-article",
+"Clinical Trial, Phase I",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:31336819": {
@@ -50156,6 +51079,31 @@
 "quelle": "MED",
 "titel": "Selank, Peptide Analogue of Tuftsin, Protects Against Ethanol-Induced Memory Impairment by Regulating of BDNF Content in the Hippocampus and Prefrontal Cortex in Rats.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:31643130": {
+"autoren": "Nunez NA, Singh B, Romo-Nava F, Joseph B, Veldic M, Cuellar-Barboza A, Cabello Arreola A, Vande Voort JL, Croarkin P, Moore KM, Biernacka J, McElroy SL, Frye MA.",
+"doi": "10.1111/bdi.12859",
+"iso": "Bipolar Disord",
+"jahr": "2020",
+"journal": "Bipolar disorders",
+"korr": [],
+"mesh": [
+"Humans",
+"Bipolar Disorder",
+"Female",
+"Randomized Controlled Trials as Topic",
+"Modafinil"
+],
+"pmcid": "",
+"pmid": "31643130",
+"quelle": "MED",
+"titel": "Efficacy and tolerability of adjunctive modafinil/armodafinil in bipolar depression: A meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -51391,6 +52339,43 @@
 "Research Support, Non-U.S. Gov't",
 "Systematic Review",
 "systematic-review",
+"Journal Article"
+]
+},
+"pmid:32233338": {
+"autoren": "Kelly AS, Auerbach P, Barrientos-Perez M, Gies I, Hale PM, Marcus C, Mastrandrea LD, Prabhu N, Arslanian S, NN8022-4180 Trial Investigators.",
+"doi": "10.1056/nejmoa1916038",
+"iso": "N Engl J Med",
+"jahr": "2020",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Gastrointestinal Diseases",
+"Blood Glucose",
+"Body Mass Index",
+"Combined Modality Therapy",
+"Injections, Subcutaneous",
+"Double-Blind Method",
+"Adolescent",
+"Child",
+"Female",
+"Male",
+"Incretins",
+"Pediatric Obesity",
+"Liraglutide",
+"Healthy Lifestyle",
+"Glycated Hemoglobin"
+],
+"pmcid": "",
+"pmid": "32233338",
+"quelle": "MED",
+"titel": "A Randomized, Controlled Trial of Liraglutide for Adolescents with Obesity.",
+"typen": [
+"Clinical Trial, Phase III",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -53124,6 +54109,34 @@
 "Journal Article"
 ]
 },
+"pmid:32853703": {
+"autoren": "Neurofeedback Collaborative Group.",
+"doi": "10.1016/j.jaac.2020.07.906",
+"iso": "J Am Acad Child Adolesc Psychiatry",
+"jahr": "2021",
+"journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Electroencephalography",
+"Treatment Outcome",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Attention Deficit Disorder with Hyperactivity",
+"Child",
+"Neurofeedback"
+],
+"pmcid": "PMC7904968",
+"pmid": "32853703",
+"quelle": "MED",
+"titel": "Double-Blind Placebo-Controlled Randomized Clinical Trial of Neurofeedback for Attention-Deficit/Hyperactivity Disorder With 13-Month Follow-up.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:32874213": {
 "autoren": "EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA), Turck D, Castenmiller J, de Henauw S, Hirsch-Ernst KI, Kearney J, Maciuk A, Mangelsdorf I, McArdle HJ, Naska A, Pelaez C, Pentieva K, Siani A, Thies F, Tsabouri S, Vinceti M, Cubadda F, Engel KH, Frenzel T, Heinonen M, Marchelli R, Neuhäuser-Berthold M, Poulsen M, Sanz Y, Schlatter JR, van Loveren H, Ackerl R, Gelbmann W, Steinkellner H, Knutsen HK.",
 "doi": "10.2903/j.efsa.2020.5993",
@@ -53790,6 +54803,33 @@
 "Clinical Trial",
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:33123847": {
+"autoren": "Grohn KJ, Moyer BS, Wortel DC, Fisher CM, Lumen E, Bianchi AH, Kelly K, Campbell PS, Hagrman DE, Bagg RG, Clement J, Wolfe AJ, Basso A, Nicoletti C, Lai G, Provinciali M, Malavolta M, Moody KJ.",
+"doi": "10.1007/s11357-020-00292-z",
+"iso": "Geroscience",
+"jahr": "2021",
+"journal": "GeroScience",
+"korr": [],
+"mesh": [
+"Animals",
+"Mice, Inbred C57BL",
+"Mice",
+"Antioxidants",
+"Longevity",
+"Female",
+"Male",
+"Olive Oil"
+],
+"pmcid": "PMC8110650",
+"pmid": "33123847",
+"quelle": "MED",
+"titel": "C<sub>60</sub> in olive oil causes light-dependent toxicity and does not extend lifespan in mice.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -55128,6 +56168,32 @@
 "Research Support, Non-U.S. Gov't",
 "research-article",
 "Multicenter Study",
+"Journal Article"
+]
+},
+"pmid:33849306": {
+"autoren": "Shytikov D, Shytikova I, Rohila D, Kulaga A, Dubiley T, Pishel I.",
+"doi": "10.1089/rej.2020.2403",
+"iso": "Rejuvenation Res",
+"jahr": "2021",
+"journal": "Rejuvenation research",
+"korr": [],
+"mesh": [
+"Animals",
+"Mice, Inbred CBA",
+"Mice",
+"Fullerenes",
+"Prospective Studies",
+"Health Status",
+"Longevity",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "33849306",
+"quelle": "MED",
+"titel": "Effect of Long-Term Treatment with C<sub>60</sub> Fullerenes on the Lifespan and Health Status of CBA/Ca Mice.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -56577,6 +57643,31 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:34655758": {
+"autoren": "Doets JJR, Topper M, Nugter AM.",
+"doi": "10.1016/j.ctim.2021.102783",
+"iso": "Complement Ther Med",
+"jahr": "2021",
+"journal": "Complementary therapies in medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Cryotherapy",
+"Depression",
+"Mental Health",
+"Quality of Life"
+],
+"pmcid": "",
+"pmid": "34655758",
+"quelle": "MED",
+"titel": "A systematic review and meta-analysis of the effect of whole body cryotherapy on mental health problems.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:34660663": {
 "autoren": "Williams DE.",
 "doi": "10.3389/fnut.2021.734334",
@@ -57207,6 +58298,49 @@
 "Journal Article"
 ]
 },
+"pmid:35015037": {
+"autoren": "Rubino DM, Greenway FL, Khalid U, O'Neil PM, Rosenstock J, Sørrig R, Wadden TA, Wizert A, Garvey WT, STEP 8 Investigators.",
+"doi": "10.1001/jama.2021.23619",
+"iso": "JAMA",
+"jahr": "2022",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus",
+"Obesity",
+"Body Weight",
+"Weight Loss",
+"Placebos",
+"Hypoglycemic Agents",
+"Treatment Outcome",
+"Exercise",
+"Diet Therapy",
+"Injections, Subcutaneous",
+"Drug Administration Schedule",
+"Odds Ratio",
+"Middle Aged",
+"Patient Dropouts",
+"United States",
+"Female",
+"Male",
+"Overweight",
+"Glucagon-Like Peptides",
+"Liraglutide",
+"Semaglutide"
+],
+"pmcid": "PMC8753508",
+"pmid": "35015037",
+"quelle": "MED",
+"titel": "Effect of Weekly Subcutaneous Semaglutide vs Daily Liraglutide on Body Weight in Adults With Overweight or Obesity Without Diabetes: The STEP 8 Randomized Clinical Trial.",
+"typen": [
+"Clinical Trial, Phase III",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:35026158": {
 "autoren": "Neale RE, Baxter C, Romero BD, McLeod DSA, English DR, Armstrong BK, Ebeling PR, Hartel G, Kimlin MG, O'Connell R, van der Pols JC, Venn AJ, Webb PM, Whiteman DC, Waterhouse M.",
 "doi": "10.1016/s2213-8587(21)00345-4",
@@ -57293,6 +58427,28 @@
 "Research Support, Non-U.S. Gov't",
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:35077249": {
+"autoren": "Sun X, Huang L, Wang L, Fu C, Zhang Q, Cheng H, Pei G, Wang Y, He C, Wei Q.",
+"doi": "10.1177/02692155221074052",
+"iso": "Clin Rehabil",
+"jahr": "2022",
+"journal": "Clinical rehabilitation",
+"korr": [],
+"mesh": [
+"Humans",
+"Low Back Pain",
+"Electromagnetic Fields"
+],
+"pmcid": "",
+"pmid": "35077249",
+"quelle": "MED",
+"titel": "Efficacy of pulsed electromagnetic field on pain and physical function in patients with low back pain: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -57570,6 +58726,29 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Clinical Trial, Phase I",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:35238767": {
+"autoren": "Klemm P, Hoffmann J, Asendorf T, Aykara I, Frommer K, Dischereit G, Müller-Ladner U, Neumann E, Lange U.",
+"doi": "10.55563/clinexprheumatol/lrff6k",
+"iso": "Clin Exp Rheumatol",
+"jahr": "2022",
+"journal": "Clinical and experimental rheumatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Arthritis, Rheumatoid",
+"Pain",
+"Cytokines",
+"Cryotherapy"
+],
+"pmcid": "",
+"pmid": "35238767",
+"quelle": "MED",
+"titel": "Whole-body cryotherapy for the treatment of rheumatoid arthritis: a monocentric, single-blinded, randomised controlled trial.",
+"typen": [
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -57883,6 +59062,31 @@
 "Meta-Analysis",
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:35362792": {
+"autoren": "Markovic L, Wagner B, Crevenna R.",
+"doi": "10.1007/s00508-022-02020-3",
+"iso": "Wien Klin Wochenschr",
+"jahr": "2022",
+"journal": "Wiener klinische Wochenschrift",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis, Knee",
+"Pain",
+"Electromagnetic Fields",
+"Magnetic Field Therapy",
+"Systematic Reviews as Topic"
+],
+"pmcid": "PMC9213303",
+"pmid": "35362792",
+"quelle": "MED",
+"titel": "Effects of pulsed electromagnetic field therapy on outcomes associated with osteoarthritis : A systematic review of systematic reviews.",
+"typen": [
+"Systematic Review",
+"review-article",
 "Journal Article"
 ]
 },
@@ -58354,6 +59558,23 @@
 "pmid": "35626373",
 "quelle": "MED",
 "titel": "Treatment and Companion Diagnostics of Lower Back Pain Using Self-Controlled Energo-Neuroadaptive Regulator (SCENAR) and Passive Microwave Radiometry (MWR).",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:35634417": {
+"autoren": "Medrano M, Molina-Hidalgo C, Alcantara JMA, Ruiz JR, Jurado-Fasoli L.",
+"doi": "10.3389/fnut.2022.858910",
+"iso": "Front Nutr",
+"jahr": "2022",
+"journal": "Frontiers in nutrition",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC9133906",
+"pmid": "35634417",
+"quelle": "MED",
+"titel": "Acute Effect of a Dietary Multi-Ingredient Nootropic as a Cognitive Enhancer in Young Healthy Adults: A Randomized, Triple-Blinded, Placebo-Controlled, Crossover Trial.",
 "typen": [
 "research-article",
 "Journal Article"
@@ -59957,6 +61178,31 @@
 "Journal Article"
 ]
 },
+"pmid:36464318": {
+"autoren": "Chan EOT, Chan VWS, Tang TST, Cheung V, Wong MCS, Yee CH, Ng CF, Teoh JYC.",
+"doi": "10.12809/hkmj209194",
+"iso": "Hong Kong Med J",
+"jahr": "2022",
+"journal": "Hong Kong medical journal = Xianggang yi xue za zhi",
+"korr": [],
+"mesh": [
+"Humans",
+"Pain",
+"Urologic Diseases",
+"Cystitis",
+"Ketamine",
+"Urinary Bladder"
+],
+"pmcid": "",
+"pmid": "36464318",
+"quelle": "MED",
+"titel": "Systematic review and meta-analysis of ketamine-associated uropathy.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:36473304": {
 "autoren": "Meng F, Jiang Y, Yu P, Song Y, Zhou L, Xu Y, Zhou Y.",
 "doi": "10.1016/j.ijnurstu.2022.104406",
@@ -60741,6 +61987,35 @@
 "Journal Article"
 ]
 },
+"pmid:36876740": {
+"autoren": "Nissen SE, Lincoff AM, Brennan D, Ray KK, Mason D, Kastelein JJP, Thompson PD, Libby P, Cho L, Plutzky J, Bays HE, Moriarty PM, Menon V, Grobbee DE, Louie MJ, Chen CF, Li N, Bloedon L, Robinson P, Horner M, Sasiela WJ, McCluskey J, Davey D, Fajardo-Campos P, Petrovic P, Fedacko J, Zmuda W, Lukyanov Y, Nicholls SJ, CLEAR Outcomes Investigators.",
+"doi": "10.1056/nejmoa2215024",
+"iso": "N Engl J Med",
+"jahr": "2023",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Dicarboxylic Acids",
+"Fatty Acids",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Myocardial Revascularization",
+"Administration, Oral",
+"Double-Blind Method",
+"Stroke",
+"Hypolipidemic Agents"
+],
+"pmcid": "",
+"pmid": "36876740",
+"quelle": "MED",
+"titel": "Bempedoic Acid and Cardiovascular Outcomes in Statin-Intolerant Patients.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:36896254": {
 "autoren": "Handelsman DJ, Gild M, Clifton-Bligh R, Speers N, Kouzios D, McMartin MC, Desai R.",
 "doi": "10.1210/jendso/bvad027",
@@ -60943,6 +62218,34 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:36997080": {
+"autoren": "Murphy RJ, Sumner R, Evans W, Ponton R, Ram S, Godfrey K, Forsyth A, Cavadino A, Krishnamurthy Naga V, Smith T, Hoeh NR, Menkes DB, Muthukumaraswamy S.",
+"doi": "10.1016/j.biopsych.2023.03.013",
+"iso": "Biol Psychiatry",
+"jahr": "2023",
+"journal": "Biological psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Lysergic Acid Diethylamide",
+"Hallucinogens",
+"Affect",
+"Anxiety",
+"Cognition",
+"Adult",
+"Male",
+"Healthy Volunteers"
+],
+"pmcid": "",
+"pmid": "36997080",
+"quelle": "MED",
+"titel": "Acute Mood-Elevating Properties of Microdosed Lysergic Acid Diethylamide in Healthy Volunteers: A Home-Administered Randomized Controlled Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -61351,6 +62654,35 @@
 "Journal Article"
 ]
 },
+"pmid:37194920": {
+"autoren": "Abbott-Imboden C, Gonzalez Y, Utley A.",
+"doi": "10.1002/hup.2872",
+"iso": "Hum Psychopharmacol",
+"jahr": "2023",
+"journal": "Human psychopharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Memory Disorders",
+"Nootropic Agents",
+"Double-Blind Method",
+"Memory, Short-Term",
+"Dietary Supplements",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Young Adult"
+],
+"pmcid": "",
+"pmid": "37194920",
+"quelle": "MED",
+"titel": "Efficacy of the nootropic supplement Mind Lab Pro on memory in adults: Double blind, placebo-controlled study.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:37207271": {
 "autoren": "EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA), Turck D, Bohn T, Castenmiller J, de Henauw S, Hirsch-Ernst KI, Knutsen HK, Maciuk A, Mangelsdorf I, McArdle HJ, Pelaez C, Pentieva K, Siani A, Thies F, Tsabouri S, Vinceti M, Fairweather-Tait S, Vrolijk M, Fabiani L, Titz A, Naska A.",
 "doi": "10.2903/j.efsa.2023.8006",
@@ -61440,6 +62772,38 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:37224232": {
+"autoren": "Anand A, Mathew SJ, Sanacora G, Murrough JW, Goes FS, Altinay M, Aloysi AS, Asghar-Ali AA, Barnett BS, Chang LC, Collins KA, Costi S, Iqbal S, Jha MK, Krishnan K, Malone DA, Nikayin S, Nissen SE, Ostroff RB, Reti IM, Wilkinson ST, Wolski K, Hu B.",
+"doi": "10.1056/nejmoa2302399",
+"iso": "N Engl J Med",
+"jahr": "2023",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Ketamine",
+"Antidepressive Agents",
+"Treatment Outcome",
+"Psychotic Disorders",
+"Electroconvulsive Therapy",
+"Quality of Life",
+"Depressive Disorder, Treatment-Resistant",
+"Administration, Intravenous",
+"Major Depressive Disorder"
+],
+"pmcid": "",
+"pmid": "37224232",
+"quelle": "MED",
+"titel": "Ketamine versus ECT for Nonpsychotic Treatment-Resistant Major Depression.",
+"typen": [
+"Comparative Study",
+"Equivalence Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -61634,6 +62998,36 @@
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:37354546": {
+"autoren": "Nissen SE, Menon V, Nicholls SJ, Brennan D, Laffin L, Ridker P, Ray KK, Mason D, Kastelein JJP, Cho L, Libby P, Li N, Foody J, Louie MJ, Lincoff AM.",
+"doi": "10.1001/jama.2023.9696",
+"iso": "JAMA",
+"jahr": "2023",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Dicarboxylic Acids",
+"Fatty Acids",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Primary Prevention",
+"Aged",
+"Female",
+"Male",
+"Stroke"
+],
+"pmcid": "PMC10336623",
+"pmid": "37354546",
+"quelle": "MED",
+"titel": "Bempedoic Acid for Primary Prevention of Cardiovascular Events in Statin-Intolerant Patients.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
 ]
 },
 "pmid:37356100": {
@@ -62081,6 +63475,32 @@
 "Journal Article"
 ]
 },
+"pmid:37572027": {
+"autoren": "Tagen M, Mantuani D, van Heerden L, Holstein A, Klumpers LE, Knowles R.",
+"doi": "10.1177/02698811231190865",
+"iso": "J Psychopharmacol",
+"jahr": "2023",
+"journal": "Journal of psychopharmacology (Oxford, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Heart Valve Diseases",
+"Serotonin",
+"N-Methyl-3,4-methylenedioxyamphetamine",
+"Mescaline",
+"Lysergic Acid Diethylamide",
+"Hallucinogens",
+"Psilocybin"
+],
+"pmcid": "",
+"pmid": "37572027",
+"quelle": "MED",
+"titel": "The risk of chronic psychedelic and MDMA microdosing for valvular heart disease.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:37579098": {
 "autoren": "Weleff J, Kovacevich A, Burson J, Nero N, Anand A.",
 "doi": "10.1097/adm.0000000000001141",
@@ -62134,6 +63554,23 @@
 "titel": "Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
+"pmid:37593223": {
+"autoren": "Nikolin S, Rodgers A, Schwaab A, Bahji A, Zarate C, Vazquez G, Loo C.",
+"doi": "10.1016/j.eclinm.2023.102127",
+"iso": "EClinicalMedicine",
+"jahr": "2023",
+"journal": "EClinicalMedicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC10430179",
+"pmid": "37593223",
+"quelle": "MED",
+"titel": "Ketamine for the treatment of major depression: a systematic review and meta-analysis.",
+"typen": [
 "research-article",
 "Journal Article"
 ]
@@ -62416,6 +63853,29 @@
 "Journal Article"
 ]
 },
+"pmid:37770960": {
+"autoren": "Legrand FD, Dugué B, Costello J, Bleakley C, Miller E, Broatch JR, Polidori G, Lubkowska A, Louis J, Lombardi G, Bieuzen F, Capodaglio P.",
+"doi": "10.1186/s40001-023-01385-z",
+"iso": "Eur J Med Res",
+"jahr": "2023",
+"journal": "European journal of medical research",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise",
+"Cryotherapy",
+"Aged"
+],
+"pmcid": "PMC10537204",
+"pmid": "37770960",
+"quelle": "MED",
+"titel": "Evaluating safety risks of whole-body cryotherapy/cryostimulation (WBC): a scoping review from an international consortium.",
+"typen": [
+"Scoping Review",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:37782636": {
 "autoren": "Khavinson VK, Linkova NS, Ashapkin VV, Shilovsky GA, Borushko NV, Petukhov MG, Vanuyshin BF.",
 "doi": "",
@@ -62495,6 +63955,41 @@
 "typen": [
 "Journal Article",
 "English Abstract"
+]
+},
+"pmid:37792613": {
+"autoren": "Reif A, Bitter I, Buyze J, Cebulla K, Frey R, Fu DJ, Ito T, Kambarov Y, Llorca PM, Oliveira-Maia AJ, Messer T, Mulhern-Haughey S, Rive B, von Holt C, Young AH, Godinov Y, ESCAPE-TRD Investigators.",
+"doi": "10.1056/nejmoa2304145",
+"iso": "N Engl J Med",
+"jahr": "2023",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Recurrence",
+"Ketamine",
+"Antidepressive Agents",
+"Delayed-Action Preparations",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Single-Blind Method",
+"Depression",
+"Nasal Sprays",
+"Depressive Disorder, Treatment-Resistant",
+"Quetiapine Fumarate",
+"Serotonin and Noradrenaline Reuptake Inhibitors",
+"Selective Serotonin Reuptake Inhibitors"
+],
+"pmcid": "",
+"pmid": "37792613",
+"quelle": "MED",
+"titel": "Esketamine Nasal Spray versus Quetiapine for Treatment-Resistant Depression.",
+"typen": [
+"Clinical Trial, Phase III",
+"Comparative Study",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:37793464": {
@@ -64159,6 +65654,30 @@
 "Journal Article"
 ]
 },
+"pmid:38723734": {
+"autoren": "Pfeiffer M, Kübler A, Hilger K.",
+"doi": "10.1016/j.neubiorev.2024.105696",
+"iso": "Neurosci Biobehav Rev",
+"jahr": "2024",
+"journal": "Neuroscience and biobehavioral reviews",
+"korr": [],
+"mesh": [
+"Frontal Lobe",
+"Humans",
+"Theta Rhythm",
+"Neurofeedback"
+],
+"pmcid": "",
+"pmid": "38723734",
+"quelle": "MED",
+"titel": "Modulation of human frontal midline theta by neurofeedback: A systematic review and quantitative meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:38753230": {
 "autoren": "Miller RA, Harrison DE, Cortopassi GA, Dehghan I, Fernandez E, Garratt M, Geisler JG, Ginsburg BC, Han ML, Kaczorowski CC, Kumar N, Leiser SF, Lopez-Cruzan M, Milne G, Mitchell JR, Nelson JF, Reifsnyder PC, Salmon AB, Korstanje R, Rosenthal N, Strong R.",
 "doi": "10.1007/s11357-024-01176-2",
@@ -64660,6 +66179,23 @@
 "Journal Article"
 ]
 },
+"pmid:38983781": {
+"autoren": "Burres C, Wong R, Pedreira F, Da Silva Pimenta M, Moussa F.",
+"doi": "10.17179/excli2024-7084",
+"iso": "EXCLI J",
+"jahr": "2024",
+"journal": "EXCLI journal",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11231456",
+"pmid": "38983781",
+"quelle": "MED",
+"titel": "A regulatory compliant short-term oral toxicity study of soluble [60]fullerenes in rats.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:38987829": {
 "autoren": "Tee PYE, Krishnan T, Cheong XT, Maniam SAP, Looi CY, Ooi YY, Chua CLL, Fung SY, Chia AYY.",
 "doi": "10.1186/s40694-024-00176-3",
@@ -65107,6 +66643,38 @@
 "Meta-Analysis",
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:39235512": {
+"autoren": "Murphy RJ, Sumner RL, Godfrey K, Mabidikama A, Roberts RP, Sundram F, Muthukumaraswamy S.",
+"doi": "10.1007/s00213-024-06680-z",
+"iso": "Psychopharmacology (Berl)",
+"jahr": "2025",
+"journal": "Psychopharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Lysergic Acid Diethylamide",
+"Hallucinogens",
+"Double-Blind Method",
+"Problem Solving",
+"Neuropsychological Tests",
+"Dose-Response Relationship, Drug",
+"Adolescent",
+"Adult",
+"Male",
+"Young Adult",
+"Creativity",
+"Surveys and Questionnaires"
+],
+"pmcid": "PMC11775047",
+"pmid": "39235512",
+"quelle": "MED",
+"titel": "Multimodal creativity assessments following acute and sustained microdosing of lysergic acid diethylamide.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -65825,6 +67393,24 @@
 "Journal Article"
 ]
 },
+"pmid:39568666": {
+"autoren": "Recio-Rodriguez JI, Fernandez-Crespo M, Sanchez-Aguadero N, Gonzalez-Sanchez J, Garcia-Yu IA, Alonso-Dominguez R, Chiu HY, Tsai PS, Lee HC, Rihuete-Galve MI.",
+"doi": "10.3389/fnins.2024.1450163",
+"iso": "Front Neurosci",
+"jahr": "2024",
+"journal": "Frontiers in neuroscience",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11576419",
+"pmid": "39568666",
+"quelle": "MED",
+"titel": "Neurofeedback to enhance sleep quality and insomnia: a systematic review and meta-analysis of randomized clinical trials.",
+"typen": [
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:39574155": {
 "autoren": "Karaa A, Bertini E, Carelli V, Cohen B, Ennes GM, Falk MJ, Goldstein A, Gorman G, Haas R, Hirano M, Klopstock T, Koenig MK, Kornblum C, Lamperti C, Lehman A, Longo N, Molnar MJ, Parikh S, Phan H, Pitceathly RDS, Saneto R, Scaglia F, Servidei S, Tarnopolsky M, Toscano A, Van Hove JLK, Vissing J, Vockley J, Finman JS, Abbruscato A, Brown DA, Sullivan A, Shiffer JA, Mancuso M, MMPOWER-3 Trial Investigators.",
 "doi": "10.1186/s13023-024-03421-5",
@@ -65979,6 +67565,31 @@
 "titel": "Symptom improvements and adverse effects with Reishi mushroom use: A Cross-Sectional survey of cancer patients.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:39661381": {
+"autoren": "Westwood SJ, Aggensteiner PM, Kaiser A, Nagy P, Donno F, Merkl D, Balia C, Goujon A, Bousquet E, Capodiferro AM, Derks L, Purper-Ouakil D, Carucci S, Holtmann M, Brandeis D, Cortese S, Sonuga-Barke EJS, European ADHD Guidelines Group (EAGG).",
+"doi": "10.1001/jamapsychiatry.2024.3702",
+"iso": "JAMA Psychiatry",
+"jahr": "2025",
+"journal": "JAMA psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Attention Deficit Disorder with Hyperactivity",
+"Child",
+"Randomized Controlled Trials as Topic",
+"Neurofeedback"
+],
+"pmcid": "PMC11800020",
+"pmid": "39661381",
+"quelle": "MED",
+"titel": "Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -67332,6 +68943,52 @@
 "Journal Article"
 ]
 },
+"pmid:40149748": {
+"autoren": "O'Reilly D, Bolam J, Delis I, Utley A.",
+"doi": "10.3390/brainsci15030226",
+"iso": "Brain Sci",
+"jahr": "2025",
+"journal": "Brain sciences",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11940127",
+"pmid": "40149748",
+"quelle": "MED",
+"titel": "Effect of a Plant-Based Nootropic Supplement on Perceptual Decision-Making and Brain Network Interdependencies: A Randomised, Double-Blinded, and Placebo-Controlled Study.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:40186347": {
+"autoren": "Tomschi F, Schmidt A, Cegla T, Hilberg T.",
+"doi": "10.1002/ejp.70017",
+"iso": "Eur J Pain",
+"jahr": "2025",
+"journal": "European journal of pain (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Pain Measurement",
+"Cryotherapy",
+"Cross-Over Studies",
+"Pain Threshold",
+"Adult",
+"Male",
+"Young Adult",
+"Pain Perception",
+"Pain Management"
+],
+"pmcid": "PMC11971597",
+"pmid": "40186347",
+"quelle": "MED",
+"titel": "Cryo-Induced Hypoalgesia: The Effects of an Acute Cryochamber Exposure on Pain Perception-A Randomised Controlled Cross-Over Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40188830": {
 "autoren": "Moel M, Harinath G, Lee V, Nyquist A, Morgan SL, Isman A, Zalzala S.",
 "doi": "10.18632/aging.206235",
@@ -67476,6 +69133,31 @@
 "Letter"
 ]
 },
+"pmid:40270441": {
+"autoren": "Yu CL, Cheng MY, An X, Chueh TY, Wu JH, Wang KP, Hung TM.",
+"doi": "10.1111/sms.70055",
+"iso": "Scand J Med Sci Sports",
+"jahr": "2025",
+"journal": "Scandinavian journal of medicine & science in sports",
+"korr": [],
+"mesh": [
+"Humans",
+"Electroencephalography",
+"Motor Skills",
+"Athletic Performance",
+"Neurofeedback"
+],
+"pmcid": "PMC12019780",
+"pmid": "40270441",
+"quelle": "MED",
+"titel": "The Effect of EEG Neurofeedback Training on Sport Performance: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
+"Journal Article"
+]
+},
 "pmid:40275690": {
 "autoren": "Prokopidis K, Moriarty F, Bahat G, McLean J, Church DD, Patel HP.",
 "doi": "10.1002/jcsm.13799",
@@ -67562,6 +69244,24 @@
 "research-article",
 "Journal Article",
 "Observational Study"
+]
+},
+"pmid:40303546": {
+"autoren": "Capodaglio P, Alito A, Duguè BM, Bouzigon R, Lombardi G, Miller ED, Verme F, Modaffari G, Piterà P, Ziemann E, Fontana JM.",
+"doi": "10.3389/fresc.2025.1567402",
+"iso": "Front Rehabil Sci",
+"jahr": "2025",
+"journal": "Frontiers in rehabilitation sciences",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12037594",
+"pmid": "40303546",
+"quelle": "MED",
+"titel": "Contraindications to Whole-Body Cryostimulation (WBC). A position paper from the WBC Working Group of the International Institute of Refrigeration and the multidisciplinary expert panel.",
+"typen": [
+"review-article",
+"Review",
+"Journal Article"
 ]
 },
 "pmid:40312093": {
@@ -68173,6 +69873,23 @@
 "Journal Article"
 ]
 },
+"pmid:40497917": {
+"autoren": "Moussa F.",
+"doi": "10.3390/nano15110870",
+"iso": "Nanomaterials (Basel)",
+"jahr": "2025",
+"journal": "Nanomaterials (Basel, Switzerland)",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12156957",
+"pmid": "40497917",
+"quelle": "MED",
+"titel": "A Regulatory-Compliant Genotoxicity Study of a Mixture of C60 and C70 Fullerenes Dissolved in Olive Oil Using the Mammalian Micronucleus Test.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:40506665": {
 "autoren": "Nagayama C, Hamada Y, Kamemoto K, Hasumura T, Minegishi Y, Matsui Y, Ota N, Miyashita M.",
 "doi": "10.1007/s00421-025-05833-y",
@@ -68372,6 +70089,32 @@
 "titel": "Intestinal Clock Promotes Cognitive Memory Through Adenosine Signaling.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:40540924": {
+"autoren": "Mansour MEM, Amin M, Alsaadany KR, Ahmed MAE, Ahmed MAE, Elmetwalli AE, Abdelhamid MR, Mahmoud RI, Ayman P, Helal MM.",
+"doi": "10.1016/j.msard.2025.106549",
+"iso": "Mult Scler Relat Disord",
+"jahr": "2025",
+"journal": "Multiple sclerosis and related disorders",
+"korr": [],
+"mesh": [
+"Humans",
+"Multiple Sclerosis",
+"Fatigue",
+"Quality of Life",
+"Randomized Controlled Trials as Topic",
+"Magnetic Field Therapy",
+"Outcome Assessment, Health Care"
+],
+"pmcid": "",
+"pmid": "40540924",
+"quelle": "MED",
+"titel": "Efficacy and safety of pulsed electromagnetic field therapy for fatigue in patients with multiple sclerosis: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -69687,6 +71430,23 @@
 "Journal Article"
 ]
 },
+"pmid:40800414": {
+"autoren": "Kimura I, Noyama H, Onagawa R, Takemi M, Osu R, Kawahara JI.",
+"doi": "10.1162/imag_a_00053",
+"iso": "Imaging Neurosci (Camb)",
+"jahr": "2024",
+"journal": "Imaging neuroscience (Cambridge, Mass.)",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12224457",
+"pmid": "40800414",
+"quelle": "MED",
+"titel": "Efficacy of neurofeedback training for improving attentional performance in healthy adults: A systematic review and meta-analysis.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:40806131": {
 "autoren": "Zhang Y, Gui Y, Adams R, Farragher J, Itsiopoulos C, Bow K, Cai M, Han J.",
 "doi": "10.3390/nu17152547",
@@ -70020,6 +71780,78 @@
 "Meta-Analysis",
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:40903800": {
+"autoren": "Karppinen JE, Suojanen L, Heinonen S, Kaye S, van der Kolk BW, White JW, Orava J, Lee SHT, Dillon E, Muniandy M, Rissanen A, le Roux CW, Docherty N, Pajukanta P, Virtanen KA, Pietiläinen KH.",
+"doi": "10.1002/oby.70019",
+"iso": "Obesity (Silver Spring)",
+"jahr": "2025",
+"journal": "Obesity (Silver Spring, Md.)",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Obesity",
+"Weight Loss",
+"Blood Glucose",
+"Treatment Outcome",
+"Cryotherapy",
+"Energy Metabolism",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Adipose Tissue, Brown",
+"Obesity Management"
+],
+"pmcid": "PMC12559775",
+"pmid": "40903800",
+"quelle": "MED",
+"titel": "Effects of Whole-Body Cryotherapy Combined With Conventional Obesity Management Versus Obesity Management Alone: A Clinical Trial.",
+"typen": [
+"Clinical Trial",
+"research-article",
+"Journal Article"
+]
+},
+"pmid:40906494": {
+"autoren": "Robison R, Barrow R, Conant C, Foster E, Freedman JM, Jacobsen PL, Jemison J, Karas SM, Karlin DR, Solomon TM, Halperin Wernli M, Fava M.",
+"doi": "10.1001/jama.2025.13481",
+"iso": "JAMA",
+"jahr": "2025",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Hallucinations",
+"Illusions",
+"Headache",
+"Nausea",
+"Lysergic Acid Diethylamide",
+"Anti-Anxiety Agents",
+"Treatment Outcome",
+"Severity of Illness Index",
+"Double-Blind Method",
+"Psychiatric Status Rating Scales",
+"Dose-Response Relationship, Drug",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Minimal Clinically Important Difference",
+"Generalized Anxiety Disorder"
+],
+"pmcid": "PMC12412041",
+"pmid": "40906494",
+"quelle": "MED",
+"titel": "Single Treatment With MM120 (Lysergide) in Generalized Anxiety Disorder: A Randomized Clinical Trial.",
+"typen": [
+"Clinical Trial, Phase II",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -72528,6 +74360,38 @@
 "Journal Article"
 ]
 },
+"pmid:41713673": {
+"autoren": "Daldegan-Bueno D, Donegan CJ, Sumner R, Forsyth A, Jeong SH, Evans W, Alshakhouri M, Murphy RJ, Reynolds L, Hoeh N, Allen N, Sundram F, Menkes DB, Muthukumaraswamy S.",
+"doi": "10.1016/j.pnpbp.2026.111645",
+"iso": "Prog Neuropsychopharmacol Biol Psychiatry",
+"jahr": "2026",
+"journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Lysergic Acid Diethylamide",
+"Hallucinogens",
+"Treatment Outcome",
+"Administration, Sublingual",
+"Affect",
+"Psychiatric Status Rating Scales",
+"Dose-Response Relationship, Drug",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Major Depressive Disorder"
+],
+"pmcid": "",
+"pmid": "41713673",
+"quelle": "MED",
+"titel": "LSD microdosing for major depressive disorder: Mood and pharmacokinetic outcomes from a Phase 2a trial.",
+"typen": [
+"Clinical Trial, Phase II",
+"Journal Article"
+]
+},
 "pmid:41716304": {
 "autoren": "Zhu Y, Yang L, Liu T, Yao F, Wang Q, Yi Z.",
 "doi": "10.3389/fspor.2026.1738075",
@@ -73735,6 +75599,33 @@
 "Journal Article"
 ]
 },
+"pmid:42075549": {
+"autoren": "Chang YS, Lin CY, Huang WC.",
+"doi": "10.3390/medicina62040677",
+"iso": "Medicina (Kaunas)",
+"jahr": "2026",
+"journal": "Medicina (Kaunas, Lithuania)",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis, Knee",
+"Pain Measurement",
+"Treatment Outcome",
+"Electromagnetic Fields",
+"Randomized Controlled Trials as Topic",
+"Magnetic Field Therapy"
+],
+"pmcid": "PMC13117759",
+"pmid": "42075549",
+"quelle": "MED",
+"titel": "Pulsed Electromagnetic Field Therapy in People with Knee Osteoarthritis: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
+"Journal Article"
+]
+},
 "pmid:42098808": {
 "autoren": "Chang Y, Wang L, Wang H, Zhan E.",
 "doi": "10.1186/s12986-026-01129-w",
@@ -74869,6 +76760,36 @@
 "typen": [
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:42380286": {
+"autoren": "Yoo SH, Jang JY, Bae JS, Ventura R, Kim EH, Kim AY, Mo JH, Park J, Kang K, Yun Y, Lee JH, Kim YJ, Lee DJ, Kim JH.",
+"doi": "10.1038/s12276-026-01761-9",
+"iso": "Exp Mol Med",
+"jahr": "2026",
+"journal": "Experimental & molecular medicine",
+"korr": [],
+"mesh": [
+"Olfactory Mucosa",
+"Olfactory Receptor Neurons",
+"Cells, Cultured",
+"Animals",
+"Humans",
+"Mice",
+"Olfaction Disorders",
+"Disease Models, Animal",
+"NAD",
+"Administration, Intranasal",
+"Cell Differentiation",
+"Male"
+],
+"pmcid": "PMC13434466",
+"pmid": "42380286",
+"quelle": "MED",
+"titel": "Therapeutic effect of intranasal nicotinamide adenine dinucleotide in the restoration of olfactory dysfunction.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },

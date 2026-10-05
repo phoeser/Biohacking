@@ -1084,7 +1084,56 @@ const THERAPIES = [
     ],
     link: 'https://pubmed.ncbi.nlm.nih.gov/12117397/',
     note: 'Die WHI war kein Fehlalarm: Die Zahlen waren richtig und der Abbruch war richtig. Falsch war, einen Befund an Frauen mit im Mittel 63 Jahren unter einem bestimmten Kombipräparat auf jede Frau mit jedem Präparat zu übertragen. Eine Korrektur, keine Umkehr. Was sich seither geändert hat, ist unterschiedlich gut belegt: Für die Thrombose ist der Weg über die Haut in ESTHER belegt, der Vorteil des körpereigenen Progesterons gegenüber synthetischen Gestagenen stammt dagegen aus der E3N-Beobachtungskohorte – begleitet, nicht zugelost, und eine randomisierte Studie dazu wird es wohl nie geben. Als Vorbeugung chronischer Krankheiten bei Beschwerdefreien empfiehlt keine Leitlinie Hormone. Alles verschreibungspflichtig; Alter, Vorgeschichte und Präparat gehören zusammen in ein ärztliches Gespräch.'
+  },
+  {
+      id: 'kryotherapie',
+      name: 'Kryotherapie (Ganzkörper-Kältekammer)',
+      category: 'Biohacking',
+      emoji: '❄️',
+      short: 'Zwei bis drei Minuten in trockener Luft von rund minus 110 Grad. Kurzfristig steigen Noradrenalin und Schmerzschwelle messbar, bei rheumatoider Arthritis linderte die Kammer in einer kleinen Studie die Schmerzen; für Regeneration nach dem Sport ist der Nutzen nicht belegt.',
+      benefits: [
+        'Hebt das Noradrenalin bei jeder Anwendung auf das Zwei- bis Dreifache, auch nach zwölf Wochen Gewöhnung (Leppäluoto 2008)',
+        'Rheumatoide Arthritis: in einer randomisierten Studie aus Deutschland weniger Schmerz als ohne Kälte, 58 Prozent reduzierten Schmerzmittel (Klemm 2022)',
+        'Muskelkater und Regeneration: Cochrane-Auswertung mit sehr niedriger Evidenzqualität, nach einem Marathon nicht besser als Placebo (Wilson 2018)',
+        'Fettabbau: in einer kontrollierten Studie kein zusätzlicher Gewichtsverlust (Karppinen 2025); Stimmung: positive Meta-Analyse aus kleinen, uneinheitlichen Studien'
+      ],
+      indication: ['Schmerzen', 'Rheumatische Erkrankungen (ergänzend)', 'Regeneration', 'Stimmung', 'Gewicht'],
+      note: 'Nicht dasselbe wie Eisbaden: In der Kammer kühlt vor allem die Haut aus. Davon zu unterscheiden ist die Kryosauna, bei der der Kopf herausragt und mit verdampftem Stickstoff gekühlt wird. Eine europäische Expertengruppe nennt 2025 unter anderem unkontrollierten Bluthochdruck, instabile Herzerkrankungen, Raynaud-Syndrom, Kälteunverträglichkeit, akute Infekte und Schwangerschaft als Gegenanzeigen; bei Herz-Kreislauf-Erkrankungen vorher ärztlich abklären.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/26383887/'
+  },
+  {
+      id: 'pemf',
+      name: 'PEMF (gepulste elektromagnetische Felder)',
+      category: 'Biohacking',
+      emoji: '🧲',
+      short: 'Matten, Auflagen und Spulen, die schwache, gepulste Magnetfelder erzeugen. Bei Arthrose und chronischen Rückenschmerzen linderten sie in Studien die Schmerzen etwas, die Funktion besserte sich kaum; für Zellenergie, Schlaf oder Longevity gibt es keine Belege.',
+      benefits: [
+        'Arthrose: in der Cochrane-Auswertung (9 Studien, 636 Teilnehmende) 15 Punkte mehr Schmerzlinderung auf einer 100er-Skala als unter Schein, keine bessere Funktion',
+        'Chronische Rückenschmerzen: weniger Schmerz in einer Meta-Analyse aus 14 Studien, keine bessere Funktion (Sun 2022)',
+        'Fatigue bei Multipler Sklerose: kleiner Effekt gegenüber Schein in 7 Studien (Mansour 2025)',
+        'Knochen, die nicht heilen: Cochrane-Auswertung ohne signifikanten Vorteil (Griffin 2011)'
+      ],
+      indication: ['Schmerzen', 'Gelenkschmerzen', 'Rückenschmerzen', 'Regeneration', 'Schlaf'],
+      note: 'Die Studien verwenden sehr unterschiedliche Frequenzen, Feldstärken und Behandlungsdauern; Ergebnisse eines Geräts lassen sich nicht auf ein anderes übertragen. Magnetfeldtherapie ohne implantierte Spulen ist nach der Heilmittel-Richtlinie des G-BA nicht verordnungsfähig. Bei Herzschrittmacher oder anderen elektronischen Implantaten und in der Schwangerschaft vorher ärztlich abklären.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/24338431/'
+  },
+  {
+      id: 'neurofeedback',
+      name: 'Neurofeedback (EEG-Biofeedback)',
+      category: 'Biohacking',
+      emoji: '📊',
+      short: 'Elektroden messen die Hirnströme, ein Bildschirm oder Ton meldet sie in Echtzeit zurück, und du lernst, bestimmte Muster zu verstärken. Dass sich die Hirnaktivität so trainieren lässt, ist belegt; bei ADHS, Schlafproblemen und Aufmerksamkeit war das echte Training in verblindeten Studien aber nicht besser als ein Scheintraining.',
+      benefits: [
+        'EEG-Muster lassen sich trainieren: frontales Theta stieg in einer Meta-Analyse mit mittlerem Effekt (Pfeiffer 2024)',
+        'ADHS: in 38 randomisierten Studien bei verblindeter Bewertung keine Besserung der Kernsymptome, mit Standardprotokollen ein kleiner Effekt (Westwood 2025)',
+        'Schlaflosigkeit: im doppelblinden Vergleich so wirksam wie Scheinfeedback (Schabus 2017)',
+        'Sport: positiver Effekt auf motorische Aufgaben in 21 Studien, meist ohne Scheintraining (Yu 2025)'
+      ],
+      indication: ['Fokus/Kognition', 'Konzentration', 'Schlaf', 'Stress', 'Sport-Performance'],
+      note: 'Neurofeedback misst nur und gibt keinen Strom ins Gehirn – anders als tDCS oder TMS (siehe Neurostimulation). Die Heilmittel-Richtlinie des G-BA führt Neurofeedback nicht. Bei ADHS ersetzt es keine leitliniengerechte Behandlung.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/39661381/'
   }
+
 ];
 
 const THERAPY_CATEGORIES = [
