@@ -5985,6 +5985,974 @@ const EXPERIMENTAL = [
     ],
     community: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'trenbolon',
+    name: 'Trenbolon',
+    altNames: 'Trenbolonacetat, 17β-Trenbolon, Parabolan, Tren',
+    class: 'Anabol-androgenes Steroid aus der Nandrolon-Gruppe, Tierarzneimittel zur Rindermast, für Menschen nicht zugelassen',
+    emoji: '⚠️',
+    short: 'Trenbolon ist ein anabol-androgenes Steroid aus der Nandrolon-Gruppe, in den USA als Implantat für Mastrinder zugelassen, für Menschen nicht. Eine kontrollierte Studie zur Wirkung am Menschen gibt es nicht. Was es gibt, sind Fallberichte, Interviews und eine große Befragung, in der Trenbolon-Anwender deutlich häufiger über psychische, Herz- und Leberbeschwerden berichteten als Anwender anderer Steroide.',
+    moa: 'Trenbolon ist ein synthetischer Abkömmling des Testosterons aus der Nandrolon-Gruppe und wirkt über den Androgenrezeptor stark aufbauend bei begrenzter vermännlichender Wirkung (Übersicht Borecki 2024). Wie bei allen anabol-androgenen Steroiden drosselt der hohe Hormonspiegel die körpereigene Steuerung der Hoden, und die eigene Testosteronproduktion fällt ab. Wie stark Trenbolon im Vergleich zu anderen Steroiden am Menschen wirkt, ist nicht gemessen; die Angaben zur Wirkstärke stammen aus Tier- und Laborversuchen. Grundlagen zur Wirkweise: siehe Eintrag Anabole Steroide.',
+    benefits: [
+      'Warum Menschen es nehmen: Trenbolon gilt als besonders stark aufbauendes Steroid mit begrenzter vermännlichender Wirkung (Übersicht Borecki 2024); kontrollierte Humandaten zu Muskelmasse oder Kraft gibt es nicht',
+      'Tiermedizin: in den USA als Implantat für Mastrinder zugelassen, Anwendungsgebiet verbesserte Futterverwertung, nur auf tierärztliche Anordnung (21 CFR 522.2476)',
+      'Verbreitung: Im Global Drug Survey 2024 hatten 237 von 1.146 Männern mit Steroidgebrauch im Vorjahr injizierbares Trenbolon genutzt (Bonenti 2026)'
+    ],
+    risks: [
+      'Psyche: Trenbolon-Anwender berichteten signifikant häufiger über Stimmungsschwankungen, Reizbarkeit und depressive Symptome als Anwender anderer Steroide (Befragung, 1.146 Männer, p < 0,001, kleine bis mittlere Effekte, Bonenti 2026); in Interviews mit 16 Anwendern galt Trenbolon als das Steroid mit den schwersten Folgen, genannt wurden Aggression, Gewalt und Probleme mit der Impulskontrolle (Piatkowski 2023)',
+      'Herz und Leber: Herz-Kreislauf- und Leberbeschwerden wurden von Trenbolon-Anwendern signifikant häufiger angegeben (Bonenti 2026); Fallbericht eines Herzinfarkts bei einem 23-jährigen Bodybuilder nach längerem Gebrauch (Shahsavari Nia 2014); schwere Gallenstauung mit Bilirubin bis 65,5 mg/dl bei einem 21-Jährigen, behandelt mit Leberdialyse (Anand 2006)',
+      'Weitere Befunde: wiederkehrende akute Bauchspeicheldrüsenentzündung, die nach erneutem Gebrauch zurückkam (Fallbericht, Kumar 2019); laut Übersicht schwere Akne und Brustdrüsenwachstum bei etwa einem Drittel der Anwender, dazu Bluthochdruck und Herzrhythmusstörungen (Borecki 2024)',
+      'Hormonachse: Abschaltung der eigenen Testosteronproduktion wie bei allen anabol-androgenen Steroiden; Trenbolon-spezifische Daten zur Erholung danach fehlen',
+      'Kein Humanarzneimittel: Alles, was für Menschen gehandelt wird, ist weder zugelassen noch geprüft; Gehalt und Reinheit sind unbekannt, und die Erkenntnisse stammen fast nur von Menschen, die mehrere Steroide gleichzeitig nehmen'
+    ],
+    status: 'Für Menschen nicht als Arzneimittel zugelassen; in den USA als Implantat für Mastrinder auf tierärztliche Anordnung zugelassen (21 CFR 522.2476). In Deutschland dürfen Fertigarzneimittel nur mit Zulassung in Verkehr gebracht werden (§ 21 AMG). Trenbolon steht namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellung, Handel und Abgabe zu Dopingzwecken sind verboten (§ 2 Abs. 1), Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport ebenfalls (§ 2 Abs. 3), Verstöße sind strafbar. WADA-Verbotsliste: S1.1 anabol-androgene Steroide, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42037159/',
+    sources: [
+      { title: 'Bonenti et al., Drug Alcohol Rev 2026 – Global Drug Survey 2024: Beschwerden bei 1.146 Steroid-Anwendern mit und ohne Trenbolon', url: 'https://pubmed.ncbi.nlm.nih.gov/42037159/' },
+      { title: 'Piatkowski et al., Drug Alcohol Rev 2023 – Interviews mit Anwendern: Trenbolon und psychische Folgen', url: 'https://pubmed.ncbi.nlm.nih.gov/36992616/' },
+      { title: 'Borecki et al., Endokrynol Pol 2024 – Übersicht: Wirkungen von Trenbolon auf einzelne Organe', url: 'https://pubmed.ncbi.nlm.nih.gov/38887114/' },
+      { title: 'Shahsavari Nia et al., Emergency 2014 – Herzinfarkt bei einem 23-Jährigen nach Trenbolonacetat (Fallbericht)', url: 'https://pubmed.ncbi.nlm.nih.gov/26495342/' },
+      { title: 'Anand et al., ASAIO J 2006 – schwere Gallenstauung nach Parabolan, Behandlung mit Leberdialyse (Fallbericht)', url: 'https://pubmed.ncbi.nlm.nih.gov/16436902/' },
+      { title: 'Kumar et al., Clin Toxicol 2019 – wiederkehrende akute Pankreatitis nach Trenbolonacetat (Fallbericht)', url: 'https://pubmed.ncbi.nlm.nih.gov/30101635/' },
+      { title: 'US Code of Federal Regulations, 21 CFR 522.2476 – Trenbolonacetat als Implantat für Mastrinder', url: 'https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-522/section-522.2476' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Trenbolon)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' },
+      { title: 'Verbotsliste im Sport: anabol-androgene Steroide, S1.1 (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'oxandrolon',
+    name: 'Oxandrolon (Anavar)',
+    altNames: 'Anavar, Oxandrin, Oxandrolone, Var',
+    class: 'Orales anabol-androgenes Steroid (17α-alkyliert); in den USA 1964 zugelassen, Zulassung 2023 von der FDA widerrufen',
+    emoji: '💊',
+    short: 'Oxandrolon (Anavar) ist ein orales Steroid, das in randomisierten Studien bei Schwerbrandverletzten, HIV-bedingtem Gewichtsverlust und älteren Männern Gewicht und fettfreie Masse steigerte. Die FDA hat die Zulassung 2023 dennoch widerrufen: Der Nutzen sei nicht ausreichend belegt, dagegen stünden Leberschäden, Lebertumoren und ungünstige Blutfettwerte. Der Ruf als „mildes" Steroid hält den Daten nicht stand.',
+    moa: 'Oxandrolon bindet am Androgenrezeptor und steigert den Eiweißaufbau in Muskel und Gewebe. Es ist am Kohlenstoffatom 17 alkyliert, damit es geschluckt wirkt; genau diese Gruppe von Steroiden ist am engsten mit Gallenstauung, Peliosis hepatis und Lebertumoren verbunden (LiverTox). Wie andere Androgene drosselt es die Hormonachse: In einer randomisierten Studie sanken LH, FSH, SHBG sowie Gesamt- und freies Testosteron (Grunfeld 2006).',
+    benefits: [
+      'Schwere Verbrennungen: Metaanalyse aus 14 randomisierten Studien mit 2.822 Patienten – weniger Operationen, kürzere Klinikaufenthalte im Verhältnis zur verbrannten Fläche und mehr fettfreie Masse, aber kein Effekt auf Sterblichkeit und Infektionen (Lou 2025)',
+      'HIV-bedingter Gewichtsverlust: randomisierte Studie mit 262 Männern über 12 Wochen – Gewicht und Körperzellmasse stiegen auch unter Placebo; ein Vorteil gegenüber Placebo zeigte sich nur in einem Teil der Dosisgruppen (Grunfeld 2006)',
+      'Ältere Männer: 32 gesunde Männer zwischen 60 und 87 Jahren, 12 Wochen – fettfreie Masse +3,0 kg, Kraft je nach Übung 5 bis 9 Prozent höher, Fettmasse −1,9 kg; 12 Wochen nach dem Absetzen lagen fettfreie Masse und Kraft wieder auf dem Ausgangswert, die Fettabnahme blieb weitgehend (Schroeder 2004)',
+      'Turner-Syndrom: bei Mädchen unter Wachstumshormon 4,6 cm mehr Endgröße als unter Placebo (randomisiert, doppelblind, 82 Ausgewertete, Gault 2011)'
+    ],
+    risks: [
+      'Leber: Die FDA nennt aus der Fachinformation Peliosis hepatis, teils mit Leberversagen und Blutungen in den Bauchraum, Leberzelltumoren, teils tödlich, und cholestatische Hepatitis (FDA 2023); in der Verbrennungs-Metaanalyse erhöhte Leberwerte bei Erwachsenen 19 gegenüber 5 Prozent unter Placebo (Lou 2025)',
+      'Blutfette: HDL sank und LDL stieg in der HIV-Studie signifikant (Grunfeld 2006); laut FDA Blutfettveränderungen, die mit einem erhöhten Arterioskleroserisiko verbunden sind',
+      'Hormonachse: Unterdrückung von LH, FSH, SHBG sowie Gesamt- und freiem Testosteron (Grunfeld 2006)',
+      'Nicht in jeder Lage nützlich: Bei 41 beatmeten chirurgischen Patienten verlängerte Oxandrolon die Beatmungszeit (21,7 gegenüber 16,4 Tage, Bulger 2004); laut FDA zudem Risiken für erhöhtes Kalzium bei Brustkrebs sowie für Prostatavergrößerung und Prostatakrebs bei Älteren',
+      'Psyche und Herz: Für Oxandrolon gibt es dazu keine eigenen kontrollierten Langzeitdaten; die Befunde zu Steroiden allgemein (siehe Eintrag Anabole Steroide) gelten als Warnsignal, nicht als Entwarnung'
+    ],
+    status: 'In den USA 1964 zugelassen (Oxandrin), als Zusatztherapie zur Gewichtszunahme nach Gewichtsverlust durch große Operationen, chronische Infektionen oder schwere Verletzungen, gegen Eiweißabbau unter langer Kortisontherapie und gegen Knochenschmerzen bei Osteoporose. Ein Beratergremium der FDA fand bereits 1984 keinen Wirksamkeitsnachweis; zum 28.06.2023 hat die FDA die Zulassung aller Oxandrolon-Tabletten widerrufen, weil die möglichen Probleme schwer genug seien, das Mittel vom Markt zu nehmen. In Deutschland ist kein Oxandrolon-Präparat zugelassen; Fertigarzneimittel dürfen hier nur mit Zulassung in Verkehr gebracht werden (§ 21 AMG). Oxandrolon steht namentlich in der Anlage des Anti-Doping-Gesetzes: Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport sind verboten (§ 2 Abs. 3), Handel und Abgabe zu Dopingzwecken ebenso (§ 2 Abs. 1). WADA-Verbotsliste: S1.1, jederzeit verboten.',
+    link: 'https://www.federalregister.gov/documents/2023/06/28/2023-13733/gemini-laboratories-llc-et-al-withdrawal-of-approval-of-one-new-drug-application-for-oxandrin',
+    sources: [
+      { title: 'FDA, Federal Register 28.06.2023 – Widerruf der Zulassung von Oxandrin und allen Oxandrolon-Tabletten', url: 'https://www.federalregister.gov/documents/2023/06/28/2023-13733/gemini-laboratories-llc-et-al-withdrawal-of-approval-of-one-new-drug-application-for-oxandrin' },
+      { title: 'Lou et al., World J Emerg Surg 2025 – Metaanalyse aus 14 randomisierten Studien bei Brandverletzten', url: 'https://pubmed.ncbi.nlm.nih.gov/41023744/' },
+      { title: 'Grunfeld et al., J Acquir Immune Defic Syndr 2006 – randomisierte Studie bei HIV-bedingtem Gewichtsverlust, 262 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/16540931/' },
+      { title: 'Schroeder et al., J Appl Physiol 2004 – 32 ältere Männer: Effekte und ihre Dauer nach dem Absetzen', url: 'https://pubmed.ncbi.nlm.nih.gov/14578370/' },
+      { title: 'Bulger et al., Ann Surg 2004 – beatmete chirurgische Patienten: längere Beatmung unter Oxandrolon', url: 'https://pubmed.ncbi.nlm.nih.gov/15319718/' },
+      { title: 'Gault et al., BMJ 2011 – Turner-Syndrom: Endgröße unter Oxandrolon, randomisiert und placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/21493672/' },
+      { title: 'LiverTox (NIH) – Androgenic Steroids: Leberschäden durch 17α-alkylierte Steroide', url: 'https://www.ncbi.nlm.nih.gov/books/NBK548931/' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Oxandrolon)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' },
+      { title: 'Verbotsliste im Sport: anabol-androgene Steroide, S1.1 (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'methandrostenolon',
+    name: 'Methandrostenolon (Dianabol)',
+    altNames: 'Metandienon, Methandienon, Dianabol, D-Bol, Methandrostenolone',
+    class: 'Orales anabol-androgenes Steroid (17α-alkyliert), früher als Arzneimittel vermarktet, in Deutschland verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Methandrostenolon, bekannt als Dianabol, ist eines der ältesten oralen Steroide und seit Jahrzehnten ein Klassiker im Kraftsport. In kleinen kontrollierten Studien der 1970er Jahre nahmen trainierende Männer darunter mehr Gewicht zu als unter Placebo; ob das normales Muskelgewebe war, blieb offen, und die Kraft stieg in der ersten Studie nicht stärker. Gut dokumentiert sind dagegen Leberschäden bis zur schweren Gallenstauung.',
+    moa: 'Methandrostenolon wirkt über den Androgenrezeptor und ist am Kohlenstoffatom 17 alkyliert, damit es geschluckt wirkt; diese Gruppe von Steroiden ist am engsten mit Gallenstauung, Peliosis hepatis und Lebertumoren verbunden (LiverTox). In einer kontrollierten Studie stiegen Kalium und Stickstoff im Körper stark an, aber in einem Verhältnis, das nicht zu normalem Muskelgewebe passt (Hervey 1981). Zugleich sank das Testosteron im Blut, und das Cortisol stieg (Hervey 1976).',
+    benefits: [
+      'Doppelblinde Crossover-Studie mit 11 trainierenden Männern, je 6 Wochen: unter Methandienon im Mittel 3,3 kg mehr Gewicht, nur im fettfreien Anteil, und größere Muskeln; Kraft und Leistung stiegen aber nicht signifikant stärker als unter Placebo (Hervey 1976)',
+      'Wiederholung mit 7 Gewichthebern: Gewicht +2,3 kg, Muskelumfang, Beinleistung und Kraft stiegen nur in der Wirkstoffphase; die Autoren schließen, dass der Zuwachs kein normales Muskelgewebe ist (Hervey 1981)',
+      'Osteoporose: randomisierte, doppelblinde Studie über 24 Monate – das Körperkalium stieg, ein Zuwachs an Knochenmasse ließ sich nicht sicher nachweisen (Aloia 1981)'
+    ],
+    risks: [
+      'Leber: Gallenstauung mit Gelbsucht ist für Methandrostenolon mehrfach beschrieben, in einem Fall bei einer 71-jährigen Frau bis zum Leberversagen mit Tod (LiverTox); Fallbericht eines 50-Jährigen mit schwerer Gallenstauung (Bilirubin 922 µmol/l), akutem Nierenversagen und Bauchspeicheldrüsenentzündung nach achtwöchigem Gebrauch (Rosenfeld 2011)',
+      'Hormonachse: Das Testosteron im Blut sank unter Methandienon, das Cortisol stieg (Hervey 1976)',
+      'Blutfette: Für Steroide sind deutliche HDL-Senkungen belegt, etwa um 25 Prozent in einer prospektiven Studie mit Testosteron oder Nandrolon (LiverTox); kontrollierte Lipiddaten speziell zu Methandrostenolon haben wir nicht gefunden',
+      'Herz: Plötzlicher Tod eines 34-Jährigen nach dem Training, mit verdicktem Herzmuskel; nachgewiesen wurden unter anderem Methandienon, Stanozolol und Clenbuterol (Lehmann 2019) – bei solchem Mischkonsum lassen sich Einzelwirkungen kaum trennen',
+      'Psyche: Für Methandrostenolon allein gibt es keine kontrollierten Daten; die Befunde zu Steroiden allgemein (siehe Eintrag Anabole Steroide) gelten auch hier als Warnsignal'
+    ],
+    status: 'In Deutschland verschreibungspflichtig (Anlage 1 der Arzneimittelverschreibungsverordnung: Metandienon und seine Ester); ein zugelassenes Präparat ist nicht im Handel, und Fertigarzneimittel dürfen nur mit Zulassung in Verkehr gebracht werden (§ 21 AMG). Früher als Dianabol vermarktet. Metandienon steht namentlich in der Anlage des Anti-Doping-Gesetzes: Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport sind verboten (§ 2 Abs. 3), Handel und Abgabe zu Dopingzwecken ebenso (§ 2 Abs. 1). WADA-Verbotsliste: S1.1, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/61389/',
+    sources: [
+      { title: 'Hervey et al., Lancet 1976 – Methandienon bei 11 trainierenden Männern, doppelblinde Crossover-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/61389/' },
+      { title: 'Hervey et al., Clin Sci 1981 – Methandienon bei 7 Gewichthebern: Gewichtszunahme ist kein normales Muskelgewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/7018798/' },
+      { title: 'Aloia et al., Metabolism 1981 – Methandrostenolon bei Osteoporose, randomisiert über 24 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/7026971/' },
+      { title: 'Rosenfeld et al., J Med Case Rep 2011 – Gallenstauung, Nierenversagen und Pankreatitis nach Methandrostenolon (Fallbericht)', url: 'https://pubmed.ncbi.nlm.nih.gov/21470406/' },
+      { title: 'Lehmann et al., Forensic Sci Int 2019 – Todesfall nach Missbrauch von Clenbuterol, Stanozolol und Metandienon', url: 'https://pubmed.ncbi.nlm.nih.gov/31499423/' },
+      { title: 'LiverTox (NIH) – Androgenic Steroids: Leberschäden durch 17α-alkylierte Steroide', url: 'https://www.ncbi.nlm.nih.gov/books/NBK548931/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Metandienon und seine Ester', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Metandienon)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' },
+      { title: 'Verbotsliste im Sport: anabol-androgene Steroide, S1.1 (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'oxymetholon',
+    name: 'Oxymetholon (Anadrol)',
+    altNames: 'Anadrol, Anadrol-50, Oxymetholone',
+    class: 'Anabol-androgenes Steroid zum Einnehmen, 17α-alkyliert; in den USA für Blutarmut zugelassen gewesen',
+    emoji: '💊',
+    short: 'Oxymetholon ist ein anabol-androgenes Steroid zum Einnehmen, in den USA seit 1972 als Anadrol-50 gegen Blutarmut durch mangelnde Blutbildung zugelassen. In randomisierten Studien an Kranken und älteren Männern baute es fettfreie Masse auf. Dieselben Studien zeigen den Preis: deutlich steigende Leberwerte, ein fallendes HDL-Cholesterin und in Fallsammlungen Lebertumoren.',
+    moa: 'Oxymetholon bindet am Androgenrezeptor → mehr Eiweißaufbau und, laut US-Fachinformation, eine gesteigerte Bildung und Ausscheidung von Erythropoetin bei Blutarmut durch Knochenmarkversagen → mehr rote Blutkörperchen. Aufbauende und vermännlichende Wirkung lassen sich nicht vollständig trennen. Die 17α-Alkylierung macht es als Tablette wirksam, belastet aber die Leber; zugleich drosselt der hohe Hormonspiegel die Hypophyse und damit die eigene Testosteronproduktion.',
+    benefits: [
+      'Blutarmut: in den USA zugelassen bei Anämien durch mangelnde Bildung roter Blutkörperchen, etwa bei erworbener oder angeborener aplastischer Anämie und Myelofibrose (Fachinformation Anadrol-50)',
+      'Aplastische Anämie, rückblickend mit Vergleichsgruppen ausgewertet: Ansprechen nach einem Jahr bei 54,1 % der nicht schweren gegenüber 13,5 % der schweren Fälle (74 Patienten, Pengthina 2022)',
+      'Dialyse: zusätzlich zu Erythropoetin nach 6 Monaten Hämoglobin 12,9 gegenüber 11,0 g/dl unter Placebo (doppelblind, 24 Patienten, Aramwit 2010)',
+      'HIV-bedingter Gewichtsverlust: in 16 Wochen +3,0 bis +3,5 kg gegenüber +1,0 kg unter Placebo, mehr Körperzellmasse und Appetit (RCT, 89 Männer und Frauen, Hengge 2003)',
+      'Ältere Männer (65 bis 80 Jahre): in 12 Wochen +3,3 bzw. +4,2 kg fettfreie Masse gegenüber 0,0 kg unter Placebo, mehr Kraft im Oberkörper, weniger Bauchfett (RCT, 31 Männer, Schroeder 2003)'
+    ],
+    risks: [
+      'Leber: Werte mehr als fünffach über Ausgangswert bei 35 % bzw. 27 % gegenüber 0 % unter Placebo (Hengge 2003); laut Fachinformation Gallenstauung mit Gelbsucht, selten Leberversagen, Peliosis hepatis und Lebertumoren; in einer Fallsammlung von 133 Lebertumoren unter Androgenen war Oxymetholon der häufigste Wirkstoff, Leberzellkrebs trat vor allem unter Oxymetholon und Methyltestosteron auf (Velazquez 2004)',
+      'Blutfette: HDL-Cholesterin fiel bei älteren Männern in 12 Wochen um 19 bis 23 mg/dl (Schroeder 2003); die Fachinformation warnt vor teils sehr deutlichen Veränderungen mit Bedeutung für Arteriosklerose',
+      'Herz und Kreislauf: Wassereinlagerungen mit oder ohne Herzschwäche bei vorbestehender Herz-, Nieren- oder Lebererkrankung; verstärkte Wirkung von Gerinnungshemmern wie Warfarin mit Blutungsgefahr (Fachinformation)',
+      'Hormonachse: Unterdrückung der Hodenfunktion, Hodenschrumpfung, verminderte Spermienzahl, Erektionsstörungen, Brustwachstum beim Mann; bei Frauen Stimmvertiefung, Haarwuchs, Zyklusstörungen, Vergrößerung der Klitoris, teils bleibend (Fachinformation)',
+      'Psyche und Nervensystem: Erregung, Schlaflosigkeit, mehr oder weniger Libido (Fachinformation); zu Abhängigkeit und psychischen Folgen bei nichtmedizinischer Anwendung siehe Anabole Steroide'
+    ],
+    status: 'In Deutschland verschreibungspflichtig (AMVV, Anlage 1); ein in Deutschland zugelassenes Fertigarzneimittel fand sich bei der Recherche nicht. In den USA seit 1972 als Anadrol-50 zugelassen (NDA 016848), laut FDA-Datenbank derzeit als nicht mehr vertrieben geführt (Stand 10/2026); dort Betäubungsmittel der Klasse III. Oxymetholon steht in der Anlage des Anti-Doping-Gesetzes: Herstellung, Handel und Abgabe zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge zum Doping im Sport sind verboten. WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/12388137/',
+    sources: [
+      { title: 'Fachinformation Anadrol-50 (Oxymetholon), US-Zulassungstext Stand 08/2004 – Anwendungsgebiete, Warnhinweise zu Leber, Blutfetten und Vermännlichung', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/16848s021lbl.pdf' },
+      { title: 'FDA, Drugs@FDA – Anadrol-50, NDA 016848: Zulassung 1972, Status nicht mehr vertrieben', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=016848' },
+      { title: 'Hengge UR et al., AIDS 2003 – RCT bei HIV-bedingtem Gewichtsverlust, 89 Patienten, 16 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/12646793/' },
+      { title: 'Schroeder ET et al., Am J Physiol Endocrinol Metab 2003 – RCT bei 31 älteren Männern: fettfreie Masse, Kraft, HDL und Leberwerte', url: 'https://pubmed.ncbi.nlm.nih.gov/12388137/' },
+      { title: 'Aramwit P et al., Int J Clin Pharmacol Ther 2010 – Oxymetholon plus Erythropoetin bei Peritonealdialyse, doppelblind, 24 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/21084036/' },
+      { title: 'Pengthina W, Saelue P, J Blood Med 2022 – Oxymetholon bei erworbener aplastischer Anämie, 74 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/36514313/' },
+      { title: 'Velazquez I, Alter BP, Am J Hematol 2004 – Androgene und Lebertumoren, Fallsammlung', url: 'https://pubmed.ncbi.nlm.nih.gov/15495253/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html' },
+      { title: 'Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide, jederzeit verboten (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'stanozolol',
+    name: 'Stanozolol (Winstrol)',
+    altNames: 'Winstrol, Winstrol Depot, Winny',
+    class: 'Anabol-androgenes Steroid, 17α-alkyliert, zum Einnehmen und als Spritze; in den USA früher zugelassen',
+    emoji: '💊',
+    short: 'Stanozolol ist ein 17α-alkyliertes anabol-androgenes Steroid, in den USA 1962 als Winstrol zugelassen und dort heute nicht mehr vertrieben. Am Menschen untersucht ist es vor allem bei erblichem Angioödem, Osteoporose und Venenleiden. Besonders gut vermessen ist eine Nebenwirkung: Es senkt das HDL-Cholesterin stärker als Testosteron, in einer Crossover-Studie um 33 gegenüber 9 Prozent.',
+    moa: 'Stanozolol bindet am Androgenrezeptor → Eiweißaufbau und Vermännlichung, nicht vollständig trennbar → Drosselung von LH und eigener Testosteronproduktion. Über die Leber steigert es stark die hepatische Lipase; dadurch fallen HDL-Cholesterin und Apolipoprotein A-I, das LDL steigt. Die 17α-Alkylierung macht es als Tablette wirksam und belastet die Leber. Medizinisch genutzt wurden zudem die Anhebung von Komplementfaktoren beim erblichen Angioödem und die Förderung der Fibrinolyse.',
+    benefits: [
+      'Erbliches Angioödem: bei 21 Patienten über 20 bis 40 Jahre Behandlung Anfallskontrolle; Nebenwirkungen bei 10 von 21, meist durch Dosisreduktion beherrscht (Sloane 2007)',
+      'Osteoporose nach den Wechseljahren: Gesamtkörperkalzium +4,4 % über 29 Monate, unter Placebo unverändert; keine neuen Wirbelbrüche gegenüber 3 unter Placebo, am Unterarm kein Unterschied (doppelblind, 46 Frauen, Chesnut 1983)',
+      'In den USA 1962 als Winstrol zugelassen; laut FDA-Datenbank heute nicht mehr vertrieben',
+      'Gewichtszunahme bei Kraftsportlern ähnlich wie unter hochdosiertem Testosteron (Crossover, 11 Gewichtheber, 6 Wochen, Thompson 1989); kontrollierte Studien zu Muskelmasse oder Kraft bei Gesunden fehlen'
+    ],
+    risks: [
+      'Blutfette: HDL-Cholesterin −33 % (HDL2 −71 %), LDL +29 % gegenüber −9 % HDL und −16 % LDL unter Testosteron (Thompson 1989); bei älteren Patienten HDL-Abfall bei 91 % (RCT, 44 Patienten, Carson 2015)',
+      'Leber: vorübergehend erhöhte Leberwerte in einer randomisierten Studie (Carson 2015) und bei 76 % in der Osteoporose-Studie Leberwert-Erhöhungen oder andere Nebenwirkungen (Chesnut 1983); Fallbericht schwerer Gallenstauung mit Bilirubin bis 56,6 mg/dl bei einem 19-Jährigen nach zwei Monaten Eigengebrauch, Erholung nach 5 Monaten (Stępień 2015)',
+      'Hormonachse: bei 9 gesunden Männern in 14 Tagen Testosteron −55 %, auch LH und SHBG fielen, nach Absetzen rückläufig (Small 1984)',
+      'Bei Frauen in der Langzeitbehandlung Haarwuchs, Zyklusstörungen oder Blutungen nach den Wechseljahren, Akne, Gewichtszunahme; dazu Stimmungsschwankungen (Sloane 2007)'
+    ],
+    status: 'In Deutschland verschreibungspflichtig (AMVV, Anlage 1); ein in Deutschland zugelassenes Fertigarzneimittel fand sich bei der Recherche nicht. In den USA 1962 als Winstrol zugelassen (NDA 012885), laut FDA-Datenbank nicht mehr vertrieben (Stand 10/2026). Stanozolol steht in der Anlage des Anti-Doping-Gesetzes: Herstellung, Handel und Abgabe zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge zum Doping im Sport sind verboten. WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/2915439/',
+    sources: [
+      { title: 'FDA, Drugs@FDA – Winstrol, NDA 012885: Zulassung 1962, Status nicht mehr vertrieben', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=012885' },
+      { title: 'Thompson PD et al., JAMA 1989 – Testosteron gegen Stanozolol: Blutfette bei 11 Gewichthebern, Crossover', url: 'https://pubmed.ncbi.nlm.nih.gov/2915439/' },
+      { title: 'Carson P et al., Int J Low Extrem Wounds 2015 – RCT: Leberwerte und Blutfette unter Stanozolol, 44 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/25652757/' },
+      { title: 'Chesnut CH et al., Metabolism 1983 – Stanozolol bei Osteoporose nach den Wechseljahren, doppelblind, 46 Frauen, 29 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/6341772/' },
+      { title: 'Sloane DE et al., J Allergy Clin Immunol 2007 – erbliches Angioödem: Sicherheit nach 20 bis 40 Jahren Stanozolol', url: 'https://pubmed.ncbi.nlm.nih.gov/17765757/' },
+      { title: 'Small M et al., Clin Endocrinol 1984 – Hormonveränderungen bei 9 gesunden Männern unter Stanozolol', url: 'https://pubmed.ncbi.nlm.nih.gov/6430603/' },
+      { title: 'Stępień PM et al., Clin Exp Hepatol 2015 – schwere Gallenstauung und Leberversagen nach Stanozolol, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/28856252/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html' },
+      { title: 'Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide, jederzeit verboten (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'metenolon',
+    name: 'Metenolon (Primobolan)',
+    altNames: 'Primobolan, Primobolan Depot, Methenolon, Metenolonacetat, Metenolonenantat, Primo',
+    class: 'Anabol-androgenes Steroid (Acetat zum Einnehmen, Enantat als Spritze); in Japan zugelassen',
+    emoji: '💉',
+    short: 'Metenolon, bekannt als Primobolan, ist ein anabol-androgenes Steroid, das in Japan bis heute als Tablette gegen Osteoporose, schwere Auszehrung und Blutarmut bei aplastischer Anämie zugelassen ist. Kontrollierte Studien am Menschen gibt es kaum; die Daten stammen aus kleinen, alten Fallserien. Dokumentiert sind Leberschäden, Blutfettstörungen und eine Stimmveränderung bei Frauen, die bleiben kann.',
+    moa: 'Metenolon bindet am Androgenrezeptor → laut japanischer Fachinformation mehr Eiweißaufbau, weniger Eiweißabbau, mehr Einlagerung von Kalzium und Phosphor und eine Zunahme von Hämoglobin und roten Blutkörperchen. Es ist ein 1-Methyl-Steroid und nicht 17α-alkyliert; trotzdem nennt die Fachinformation Leberfunktionsstörungen und Gelbsucht als schwere Nebenwirkung. Wie bei allen Steroiden wird die Hodenfunktion bei längerer Gabe gedrosselt.',
+    benefits: [
+      'In Japan als Primobolan-Tabletten verschreibungspflichtig zugelassen: Osteoporose, schwere Auszehrung bei chronischer Nierenerkrankung, Krebs, Verletzungen und Verbrennungen, Knochenmarkschwäche bei aplastischer Anämie (Fachinformation Stand 08/2020)',
+      'Laut Fachinformation in kleinen Untersuchungen an Gesunden und Patienten Stickstoff-, Kalzium- und Phosphoreinlagerung sowie Anstieg von Hämoglobin und roten Blutkörperchen',
+      'Therapierefraktäre Blutarmut: Remission bei 3 von 6 Patienten mit Panzytopenie und 2 von 4 mit Bizytopenie, ohne erkennbare Lebensverlängerung (unkontrollierte Serie, 19 Patienten, Lockner 1979)',
+      'Kontrollierte Studien zu Muskelmasse oder Kraft bei Gesunden fehlen'
+    ],
+    risks: [
+      'Blutfette und Herz: bei 12 von 28 Frauen mit Brustkrebs unter Metenolon eine Hyperlipoproteinämie, eine Patientin erlitt einen Herzinfarkt; nach dem Absetzen in allen Fällen rückläufig (Garbrecht 1981)',
+      'Leber: Leberfunktionsstörungen mit deutlich erhöhten Werten und Gelbsucht als schwere Nebenwirkung, regelmäßige Leberwerte bei längerer Gabe; Lebertumoren nach langer, hochdosierter Gabe von Anabolika bei aplastischer Anämie beschrieben (Fachinformation; Velazquez 2004)',
+      'Hormonachse: beim Mann Hemmung der Hodenfunktion mit weniger Spermien und Samenflüssigkeit, Impotenz, Dauererektion; bei Frauen Heiserkeit und Stimmveränderung, die fortgeschritten schwer rückgängig zu machen ist, dazu Haarwuchs, Akne, Zyklusstörungen, Vergrößerung der Klitoris (Fachinformation)',
+      'Wassereinlagerung bei Herz- und Nierenerkrankung, verschlechterte Zuckertoleranz, verstärkte Wirkung von Warfarin (Fachinformation)',
+      'Psyche: laut Fachinformation gesteigerte Libido; für Steroide insgesamt sind Abhängigkeit, Entzugssyndrom und psychische Störungen beschrieben (Pope 2014)'
+    ],
+    status: 'In Deutschland verschreibungspflichtig (AMVV, Anlage 1, Metenolon und seine Ester); ein in Deutschland zugelassenes Fertigarzneimittel fand sich bei der Recherche nicht. In Japan als Primobolan-Tabletten (Metenolonacetat) zugelassen und verschreibungspflichtig. Metenolon steht in der Anlage des Anti-Doping-Gesetzes: Herstellung, Handel und Abgabe zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge zum Doping im Sport sind verboten. WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    link: 'https://www.kegg.jp/medicus-bin/japic_med?japic_code=00002278',
+    sources: [
+      { title: 'Fachinformation Primobolan-Tabletten (Metenolonacetat), Japan, Stand 08/2020 – Anwendungsgebiete, Nebenwirkungen, Wirkweise (KEGG/JAPIC, japanisch)', url: 'https://www.kegg.jp/medicus-bin/japic_med?japic_code=00002278' },
+      { title: 'Lockner D, Acta Med Scand 1979 – Metenolon bei therapierefraktärer Blutarmut, 19 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/367090/' },
+      { title: 'Garbrecht M et al., Dtsch Med Wochenschr 1981 – Hyperlipoproteinämie unter Metenolon bei 28 Frauen mit Brustkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/7215163/' },
+      { title: 'Velazquez I, Alter BP, Am J Hematol 2004 – Androgene und Lebertumoren, Fallsammlung', url: 'https://pubmed.ncbi.nlm.nih.gov/15495253/' },
+      { title: 'Pope HG et al., Endocr Rev 2014 – Endocrine Society: gesundheitliche Folgen leistungssteigernder Mittel', url: 'https://pubmed.ncbi.nlm.nih.gov/24423981/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html' },
+      { title: 'Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide, jederzeit verboten (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'drostanolon',
+    name: 'Drostanolon (Masteron)',
+    altNames: 'Drostanolonpropionat, Dromostanolon, Masteron, Masteril, Masterid, Drolban, 2α-Methyl-Dihydrotestosteron',
+    class: 'Anabol-androgenes Steroid, Abkömmling des Dihydrotestosterons (DHT); früher Arzneimittel bei fortgeschrittenem Brustkrebs',
+    emoji: '💉',
+    short: 'Drostanolon ist ein Abkömmling des Dihydrotestosterons, der in den 1960er und 1970er Jahren als Arzneimittel gegen fortgeschrittenen Brustkrebs bei Frauen eingesetzt wurde. Aus dieser Zeit stammen die einzigen kontrollierten Humanstudien – zum Tumoransprechen, nicht zu Muskeln. Heute ist es vor allem ein Dopingmittel vom Schwarzmarkt, mit den bekannten Klassenrisiken der Anabolika und kaum substanzeigenen Sicherheitsdaten.',
+    moa: 'Drostanolon ist ein am Kohlenstoffatom 2 methyliertes Dihydrotestosteron (2α-Methyl-DHT) und bindet wie DHT am Androgenrezeptor → aufbauende und vermännlichende Wirkung, Rückkopplung auf die Hormonachse mit Abschaltung der eigenen Testosteronproduktion. Als 5α-reduziertes Androgen wird es nicht zu Östrogen umgewandelt; darauf beruhte der Einsatz bei hormonabhängigem Brustkrebs. Verwendet wurde es als gespritzter Ester (Propionat); in 17α-Position ist es nicht alkyliert. Wie stark die aufbauende Wirkung beim Menschen ist, wurde nie gemessen.',
+    benefits: [
+      'Randomisierte Studie bei metastasiertem Brustkrebs (1975): Testosterondecanoat, Drostanolon und Testolacton erreichten als alleinige Hormontherapie ähnliche Raten an objektivem Tumoransprechen, 22 bis 25 %; mit zusätzlicher Chemotherapie stieg die Rate auf 46 bis 55 % (Rieche und Wolff 1975)',
+      'Kontrollierte Studie mit 91 Patientinnen mit fortgeschrittenem Brustkrebs: Testolacton, Drostanolon und Nandrolon wirkten gleich gut, nach 4 Wochen sprachen im Mittel 24 % an (Wolff und Rieche 1978)',
+      'In den USA als Drolban (Eli Lilly) zugelassen; die Zulassung wird heute als eingestellt geführt (Drugs@FDA)',
+      'Damit gehört Drostanolon zu den wenigen Szene-Steroiden mit kontrollierten Humandaten – allerdings nur zur Tumortherapie, nicht zu Muskelmasse, Kraft oder Körperfett bei Gesunden'
+    ],
+    risks: [
+      'Klassenrisiken der Anabolika: Abschaltung der eigenen Hormonachse mit verminderter Fruchtbarkeit, Belastung von Herz und Gefäßen, psychische und metabolische Effekte; die Endocrine Society nennt die verbreitete Annahme, die Anwendung sei sicher oder beherrschbar, eine Fehleinschätzung (Pope 2014)',
+      'Blutfette: Bei Dialysepatienten, die Dromostanolon gegen Blutarmut einnahmen, stiegen die Triglyceride (Choi 1974)',
+      'Bei Frauen wirkt es wie jedes Androgen vermännlichend',
+      'Leber: Als gespritztes, nicht 17α-alkyliertes Steroid gehört Drostanolon nicht zu der Gruppe, für die die typische Gallenstauung und Lebertumoren vor allem beschrieben sind (Petrovic 2022); substanzeigene Leberdaten gibt es nicht',
+      'Keine modernen Sicherheitsstudien und keine Pharmakovigilanz; was heute als Masteron gehandelt wird, ist ungeprüfte Ware ohne Zulassung',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1); in Deutschland in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Ein aktuell zugelassenes Präparat haben wir weder in Deutschland noch in den USA gefunden; in den USA wird die Zulassung von Drolban (Eli Lilly) als eingestellt geführt. Fertigarzneimittel dürfen in Deutschland nur mit Zulassung in Verkehr gebracht werden (§ 21 AMG). Drostanolon steht in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben und Inverkehrbringen zum Doping sind verboten, ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2, strafbar nach § 4). Im Sport ist es nach der WADA-Liste 2026 (S1.1 Anabol-androgene Steroide) jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/1243528/',
+    sources: [
+      { title: 'Rieche K, Wolff G, Arch Geschwulstforsch 1975 – randomisierter Vergleich von Testosterondecanoat, Drostanolon und Testolacton bei metastasiertem Brustkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/1243528/' },
+      { title: 'Wolff G, Rieche K, Onkologie 1978 – kontrollierte Studie Nandrolon, Testolacton und Drostanolon, 91 Patientinnen', url: 'https://pubmed.ncbi.nlm.nih.gov/362297/' },
+      { title: 'Choi ES et al., Am J Clin Nutr 1974 – Hypertriglyceridämie bei Dialysepatienten unter Dromostanolon gegen Blutarmut', url: 'https://pubmed.ncbi.nlm.nih.gov/4606631/' },
+      { title: 'de Boer D et al., J Steroid Biochem Mol Biol 1992 – die methylierten Dihydrotestosterone Mesterolon und Drostanolon, Ausscheidung im Urin', url: 'https://pubmed.ncbi.nlm.nih.gov/1606052/' },
+      { title: 'Drugs@FDA – NDA 012936, Drolban (Dromostanolonpropionat, Eli Lilly), Status eingestellt', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=012936' },
+      { title: 'Petrovic A et al., World J Gastroenterol 2022 – Leberschäden durch anabol-androgene Steroide (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/36051334/' },
+      { title: 'Pope HG et al., Endocr Rev 2014 – gesundheitliche Folgen leistungssteigernder Substanzen, Stellungnahme der Endocrine Society', url: 'https://pubmed.ncbi.nlm.nih.gov/24423981/' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'boldenon',
+    name: 'Boldenon (Equipoise)',
+    altNames: 'Boldenonundecylenat, Boldenon-Undecylenat, Equipoise, EQ, Androsta-1,4-dien-17β-ol-3-on',
+    class: 'Anabol-androgenes Steroid, Testosteronabkömmling; nur als Tierarzneimittel zugelassen (USA, Pferde), für Menschen nicht zugelassen',
+    emoji: '⚠️',
+    short: 'Boldenon ist ein Abkömmling des Testosterons, der als Boldenonundecylenat (Equipoise) in den USA als Tierarzneimittel für geschwächte Pferde zugelassen ist. Für Menschen ist es nicht zugelassen, und eine Studie zur Wirkung am Menschen gibt es nicht. Am Menschen untersucht sind nur Abbau und Ausscheidung; die Schadensseite kennt man aus Fallberichten und aus den Klassenrisiken der Anabolika.',
+    moa: 'Boldenon unterscheidet sich von Testosteron durch eine zusätzliche Doppelbindung im A-Ring (Androsta-1,4-dien-17β-ol-3-on). Es bindet am Androgenrezeptor → aufbauende und vermännlichende Wirkung, Rückkopplung auf die Hormonachse mit Abschaltung der eigenen Testosteronproduktion. Im Tierarzneimittel liegt es als Undecylensäureester zur Injektion vor. Wie stark diese Effekte beim Menschen sind, ist nicht gemessen; die Annahmen stammen aus der Tiermedizin und aus der Analogie zu anderen Anabolika.',
+    benefits: [
+      'Als Tierarzneimittel in den USA zugelassen: zur Unterstützung geschwächter Pferde, wenn Gewicht, Fell oder Allgemeinzustand besser werden sollen; nicht für Pferde, die der Lebensmittelgewinnung dienen, und nur auf tierärztliche Verordnung (21 CFR 522.204)',
+      'Am Menschen untersucht ist der Stoffwechsel: Eine Ausscheidungsstudie identifizierte Boldenon und neun Abbauprodukte im Urin, mehr als 95 % davon als stabile Konjugate (Schänzer und Donike 1992)',
+      'Eine Studie zu Muskelmasse, Kraft, Blutbildung oder Leistung am Menschen gibt es nicht; ClinicalTrials.gov führt keine einschlägige Studie (Stand 10/2026)'
+    ],
+    risks: [
+      'Herz: Bei einem 39-jährigen Kraftsportler mit akuter schwerer Herzschwäche (Pumpfunktion der linken Kammer etwa 15 %) wurde die Erkrankung auf Testosteron und Boldenon in den drei Monaten zuvor zurückgeführt (White 2018, Fallbericht)',
+      'Laborwerte: Bei einem 37-Jährigen führte ein durch Boldenon stark erhöhtes Kreatinin zum Verdacht auf eine Nierenerkrankung, die nicht vorlag (Winnett 2011, Fallbericht) – wer Blutwerte bestimmen lässt, sollte die Anwendung offenlegen, damit sie richtig gedeutet werden',
+      'Klassenrisiken der Anabolika: Abschaltung der eigenen Hormonachse mit verminderter Fruchtbarkeit, Belastung von Herz und Gefäßen, psychische und metabolische Effekte, bei Frauen Vermännlichung; die Endocrine Society nennt die verbreitete Annahme, die Anwendung sei sicher oder beherrschbar, eine Fehleinschätzung (Pope 2014)',
+      'Schwarzmarktware: Beim Zürcher Drug-Checking für Steroide gaben 39 % der Klienten an, Boldenon aktuell oder früher zu verwenden; insgesamt waren 52 % der geprüften Steroidproben gefälscht (Magnolini 2025)',
+      'Weder Tierarzneimittel noch Untergrundware sind für die Anwendung am Menschen geprüft',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1); weil Boldenon in geringen Mengen auch körpereigen entstehen kann, braucht die Dopinganalytik eigene Prüfverfahren zur Herkunft (Piper 2010)'
+    ],
+    status: 'Für Menschen nicht zugelassen. In den USA ist Boldenonundecylenat als verschreibungspflichtiges Tierarzneimittel für Pferde zugelassen (21 CFR 522.204). Fertigarzneimittel dürfen in Deutschland nur mit Zulassung in Verkehr gebracht werden (§ 21 AMG). Boldenon steht in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben und Inverkehrbringen zum Doping sind verboten, ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2, strafbar nach § 4). Im Sport ist es nach der WADA-Liste 2026 (S1.1 Anabol-androgene Steroide) jederzeit verboten.',
+    link: 'https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-522/section-522.204',
+    sources: [
+      { title: 'Code of Federal Regulations, 21 CFR 522.204 – Boldenon: Zulassung als Tierarzneimittel für Pferde', url: 'https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-522/section-522.204' },
+      { title: 'Piper T et al., Drug Test Anal 2010 – Kohlenstoff-Isotopenverhältnis von Boldenon im Urin; nicht für Menschen zugelassen, körpereigene Bildung möglich', url: 'https://pubmed.ncbi.nlm.nih.gov/20468009/' },
+      { title: 'Schänzer W, Donike M, Biol Mass Spectrom 1992 – Stoffwechsel von Boldenon beim Menschen, Ausscheidung im Urin', url: 'https://pubmed.ncbi.nlm.nih.gov/1591280/' },
+      { title: 'White M et al., Can J Cardiol 2018 – akute schwere Herzschwäche nach Testosteron und Boldenon, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/30205989/' },
+      { title: 'Winnett G et al., Nephrol Dial Transplant 2011 – scheinbare Nierenerkrankung durch erhöhtes Kreatinin unter Boldenon, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/20980358/' },
+      { title: 'Magnolini R et al., Harm Reduction Journal 2025 – Zürcher Drug-Checking für Steroide: 52 % der Proben gefälscht', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12147309/' },
+      { title: 'Pope HG et al., Endocr Rev 2014 – gesundheitliche Folgen leistungssteigernder Substanzen, Stellungnahme der Endocrine Society', url: 'https://pubmed.ncbi.nlm.nih.gov/24423981/' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'methasteron',
+    name: 'Methasteron (Superdrol)',
+    altNames: 'Methasterone, Methyldrostanolon, 17α-Methyldrostanolon, Superdrol, 2α,17α-Dimethyl-Dihydrotestosteron',
+    class: 'Designer-Steroid, 17α-methyliertes Anabolikum; nicht als Arzneimittel zugelassen, als „Nahrungsergänzung“ verkauft',
+    emoji: '⚠️',
+    short: 'Methasteron ist ein Anabolikum, das 1956 erstmals beschrieben, aber nicht als Arzneimittel zugelassen wurde und Mitte der 2000er Jahre als „Superdrol“ in Nahrungsergänzungsmitteln auftauchte. Eine Studie zur Wirkung am Menschen gibt es nicht. Dokumentiert sind Fallberichte über schwere Gallenstauung bis zum Nierenversagen, ein Warnbrief der FDA und die Einstufung als kontrolliertes Anabolikum in den USA.',
+    moa: 'Methasteron ist Drostanolon mit einer zusätzlichen Methylgruppe in 17α-Position (2α,17α-Dimethyl-5α-androstan-17β-ol-3-on). Es bindet am Androgenrezeptor; in Tierversuchen ab 1959 wirkte es stark aufbauend bei schwacher vermännlichender Wirkung, neuere Versuche an kastrierten Ratten bestätigten die Androgenwirkung. Die 17α-Alkylgruppe bremst den Abbau in der Leber, und genau Steroide mit dieser Gruppe sind mit einer typischen akuten Gallenstauung verbunden (Petrovic 2022). Am Menschen ist keine dieser Wirkungen gemessen.',
+    benefits: [
+      'Keine Humanstudie zur Wirkung: Für Muskelmasse, Kraft oder Leistung gibt es keine klinische Studie und keinen Registereintrag (ClinicalTrials.gov, Stand 10/2026); Fachleute für Designer-Steroide beschreiben genau dieses Fehlen klinischer Studien (Joseph und Parr 2015)',
+      'Belegt ist die Androgenwirkung im Tierversuch: Synthese 1956, aufbauende Wirkung bei Ratten 1959 beschrieben; eine für die US-Drogenbehörde durchgeführte Untersuchung an kastrierten Ratten bestätigte aufbauende und vermännlichende Effekte (DEA 2011)'
+    ],
+    risks: [
+      'Leber: Fünf zuvor gesunde Anwender entwickelten etwa zwei Wochen nach dem Absetzen eine Gelbsucht; nach der Vorstellung in der Klinik stieg das Bilirubin noch zwei bis drei Wochen weiter, etwa zwölf Wochen nach der Vorstellung hatten sich alle ohne bleibende Leberfunktionsstörung erholt (Shah 2008, Fallserie)',
+      'Weitere Fallberichte: schwere Gallenstauung mit Nierenversagen (Nasr und Ahmad 2009); Gelbsucht und IgA-Nephropathie, eine Nierenentzündung, nach einem frei verkäuflichen Produkt, das als harmlos und ohne hormonelle Wirkung beworben war (Jasiurkowski 2006)',
+      'Unerkannte Aufnahme: In New York traten 2012 und 2013 bei etwa 16 Menschen Beschwerden wie Müdigkeit, Haarausfall und Muskelschmerzen auf; gemeinsamer Nenner waren Vitamin-B- und Mineralstoffpräparate eines Anbieters, die Methasteron und verwandte Steroide enthielten. Ein Patient kam mit Leberschaden ins Krankenhaus, ein Kind zeigte eine ausgeprägte Vermännlichung (Tran 2023)',
+      'Klasse der 17α-alkylierten Steroide: Die typische akute Gallenstauung, Peliosis hepatis und Lebertumoren sind vor allem für diese Gruppe beschrieben; meist normalisiert sich die Leber nach dem Absetzen, manche Folgen bleiben (Petrovic 2022)',
+      'Dazu kommen die allgemeinen Anabolika-Risiken für Hormonachse, Herz und Psyche; substanzeigene Daten dazu gibt es nicht',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1); in Deutschland in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Nicht als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA. In den USA erging 2006 ein Warnbrief der FDA wegen Gesundheitsschäden im Zusammenhang mit Superdrol; bis März 2010 zählte die Drogenbehörde DEA 62 Nahrungsergänzungsmittel, die Methasteron enthalten sollten, und stufte es 2012 als Anabolikum in Schedule III ein. In Deutschland steht Methasteron in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben und Inverkehrbringen zum Doping sind verboten, ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2, strafbar nach § 4). Im Sport ist es nach der WADA-Liste 2026 (S1.1 Anabol-androgene Steroide) jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/18187367/',
+    sources: [
+      { title: 'Shah NL et al., Clin Gastroenterol Hepatol 2008 – Leberschäden mit Gallenstauung unter Methasteron, 5 Fälle', url: 'https://pubmed.ncbi.nlm.nih.gov/18187367/' },
+      { title: 'Nasr J, Ahmad J, Dig Dis Sci 2009 – schwere Gallenstauung und Nierenversagen unter Superdrol, Fallbericht und Literaturübersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/18720005/' },
+      { title: 'Jasiurkowski B et al., Am J Gastroenterol 2006 – Gelbsucht und IgA-Nephropathie nach Superdrol, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/16952289/' },
+      { title: 'Tran BN et al., Steroids 2023 – Methasteron in Vitamin-B- und Mineralstoffpräparaten, Gesundheitsschäden in New York', url: 'https://pubmed.ncbi.nlm.nih.gov/36796473/' },
+      { title: 'Petrovic A et al., World J Gastroenterol 2022 – Leberschäden durch anabol-androgene Steroide (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/36051334/' },
+      { title: 'Joseph JF, Parr MK, Curr Neuropharmacol 2015 – synthetische Androgene als Designer-Nahrungsergänzung', url: 'https://pubmed.ncbi.nlm.nih.gov/26074745/' },
+      { title: 'DEA, Federal Register 2011 – Begründung der Einstufung von Prostanozol und Methasteron als Anabolika (Synthese, Tierdaten, FDA-Warnbrief 2006)', url: 'https://www.govinfo.gov/content/pkg/FR-2011-11-23/html/2011-30081.htm' },
+      { title: 'DEA, Federal Register 2012 – endgültige Einstufung von Prostanozol und Methasteron in Schedule III', url: 'https://pubmed.ncbi.nlm.nih.gov/22844688/' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'turinabol',
+    name: 'Oral-Turinabol (Dehydrochlormethyltestosteron)',
+    altNames: 'Turinabol, Turi, OT, DHCMT, Dehydrochlormethyltestosteron, 4-Chlordehydromethyltestosteron, Chlordehydromethyltestosteron',
+    class: 'Orales anabol-androgenes Steroid mit 17α-Methyl-Struktur, früheres DDR-Arzneimittel von Jenapharm, heute ohne Zulassung',
+    emoji: '💊',
+    short: 'Oral-Turinabol ist ein Steroid aus Jena, 1965 in der DDR für die Klinik eingeführt und ab 1966 das am häufigsten eingesetzte Mittel des staatlichen Dopingprogramms. Dass es Kraft und Leistung steigert, belegen interne DDR-Akten, kontrollierte Studien dazu gibt es nicht. Was es an Menschen hinterlassen hat, ist dagegen an Hunderten ehemaliger Athletinnen und Athleten untersucht – mit der Einschränkung, dass sich Substanz und System kaum trennen lassen.',
+    moa: 'Dehydrochlormethyltestosteron ist eine chlorierte Abwandlung des Metandienons und bindet wie alle anabol-androgenen Steroide am Androgenrezeptor → Eiweißaufbau in Muskel und anderen Geweben, vermännlichende Wirkung, Rückkopplung auf die Hormonachse mit Drosselung der eigenen Hormonproduktion. Es trägt eine 17α-Methyl-Gruppe und wird als Tablette eingenommen. Am Menschen gut vermessen ist vor allem der Abbau: Stoffwechselprodukte waren nach einer einzigen Einnahme in einer kontrollierten Studie mit 5 Männern bis zu 45 Tage im Urin nachweisbar (Loke 2021).',
+    benefits: [
+      'Warum es bekannt ist: In der DDR war es ab 1966 das am häufigsten verwendete Dopingmittel; ein geheimer Bericht von 1973 wertete die Leistungsentwicklung von 40 Weltklasse-Werfern unter dem Mittel aus, bei einer Kugelstoßerin stieg die Leistung in 11 Wochen um rund 2 m (Franke & Berendonk 1997)',
+      'Die Wirkung war bei Frauen besonders ausgeprägt; die DDR setzte das Mittel ab 1968 gezielt bei Athletinnen und Minderjährigen ein (Franke & Berendonk 1997)',
+      'Was fehlt: keine einzige randomisierte Studie zu Muskelaufbau, Kraft oder Leistung; die Belege stammen aus Geheimakten ohne Kontrollgruppe'
+    ],
+    risks: [
+      'Langzeitfolgen bei ehemaligen DDR-Athleten: Störungen der Hormonregulation, Wachstums- und Organschäden, Herz-Kreislauf-Erkrankungen, Tumoren, Verschleiß des Bewegungsapparats; psychische Störungen mit einer Lebenszeitprävalenz von bis zu 98 % (Übersicht, Spitzer & Bley 2026)',
+      'Vergleich gedopter mit nicht gedopten Leistungssportlern und Nichtsportlern: mehr körperliche und psychische Erkrankungen; bei Männern häufiger gestörte Leberfunktion, Depression und Tumoren (Berger 2024)',
+      'Bei 107 anerkannten Dopingopfern (56 Frauen, 51 Männer) dominieren Verschleißerkrankungen des Bewegungsapparats, an zweiter Stelle psychische Erkrankungen (Raschka & Koch 2024); 65,19 % der befragten früheren Athleten mit ausgeprägter depressiver Symptomatik (Buhrmann 2023)',
+      'Vermännlichung bei Frauen, die bleiben kann – in der DDR fielen 1976 die tiefen Stimmen der Schwimmerinnen öffentlich auf (Franke & Berendonk 1997)',
+      'Einschränkung der Langzeitdaten: Die Betroffenen erhielten meist mehrere Mittel und standen unter massivem Druck; die Studien können die Folgen nicht allein der Substanz zuordnen (Berger 2024)',
+      'Im Sport jederzeit verboten (WADA S1.1); in Deutschland Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'In Deutschland ist kein Arzneimittel mit diesem Wirkstoff gelistet (Gelbe Liste, Stand 10/2026); Oral-Turinabol wurde 1965 in der DDR für die Klinik eingeführt. Dehydrochlormethyltestosteron steht namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellung, Handel, Abgabe und Verschreibung zu Dopingzwecken sind verboten (§ 2 Abs. 1), ebenso Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport (§ 2 Abs. 3). Ein nicht zugelassenes Fertigarzneimittel darf nicht in Verkehr gebracht werden (§ 21 AMG). WADA-Verbotsliste 2026: S1.1, jederzeit verboten. Für die Opfer des DDR-Staatsdopings gab es zwei Hilfegesetze; nach Angaben der Bundesregierung wurden 1.643 von 2.062 Anträgen bewilligt.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/9216474/',
+    sources: [
+      { title: 'Franke WW, Berendonk B, Clin Chem 1997 – Hormondoping und Androgenisierung von Athleten: das geheime Programm der DDR-Regierung', url: 'https://pubmed.ncbi.nlm.nih.gov/9216474/' },
+      { title: 'Spitzer C, Bley B, Bundesgesundheitsblatt 2026 – Staatsdoping im DDR-Leistungssport: gesundheitliche Folgen, Aufarbeitung, rechtlicher Ausgleich', url: 'https://pubmed.ncbi.nlm.nih.gov/42045688/' },
+      { title: 'Berger K et al., Orthopädie 2024 – Langzeitfolgen von Steroiddoping im Jugendalter, Vergleich mit nicht gedopten Sportlern und Nichtsportlern', url: 'https://pubmed.ncbi.nlm.nih.gov/38653791/' },
+      { title: 'Raschka C, Koch HJ, MMW Fortschr Med 2024 – Schäden bei 107 anerkannten DDR-Dopingopfern', url: 'https://pubmed.ncbi.nlm.nih.gov/39653949/' },
+      { title: 'Buhrmann SF et al., Psychiatr Prax 2023 – Psychopathologie ehemaliger DDR-Leistungssportler im Vergleich zur Allgemeinbevölkerung', url: 'https://pubmed.ncbi.nlm.nih.gov/37487510/' },
+      { title: 'Loke S et al., J Steroid Biochem Mol Biol 2021 – kontrollierte Gabe an 5 Männer: Ausscheidung und Langzeit-Nachweis', url: 'https://pubmed.ncbi.nlm.nih.gov/34418529/' },
+      { title: 'Deutscher Bundestag, hib 128/2023 – Dopingopferhilfe: 1.643 von 2.062 Anträgen bewilligt', url: 'https://www.bundestag.de/presse/hib/kurzmeldungen-935274' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'mesterolon',
+    name: 'Mesterolon (Proviron)',
+    altNames: 'Proviron, Pro-Viron, Mesterolone, 1α-Methyl-Dihydrotestosteron, 1-Methyl-DHT',
+    class: 'Orales Androgen, Abkömmling des Dihydrotestosterons (DHT) ohne 17α-Alkylierung; in mehreren EU-Ländern verschreibungspflichtiges Arzneimittel, in Deutschland derzeit nicht im Handel',
+    emoji: '💊',
+    short: 'Mesterolon ist ein Androgen in Tablettenform, das als Proviron in mehreren europäischen Ländern bis heute bei Androgenmangel des Mannes zugelassen ist. In den 1970er und 1980er Jahren wurde es in randomisierten Studien gegen männliche Unfruchtbarkeit und Depression geprüft – beide Male ohne Vorteil gegenüber Placebo. Vor dem Einsatz zum Muskelaufbau bei Gesunden warnt die Packungsbeilage ausdrücklich, Studien zu diesem Zweck gibt es nicht.',
+    moa: 'Mesterolon ist chemisch 1α-Methyl-Dihydrotestosteron, also ein Abkömmling des DHT. Es bindet am Androgenrezeptor und fördert laut Packungsbeilage Wachstum, Entwicklung und Funktion androgenabhängiger Organe. Anders als die meisten Tabletten-Steroide trägt es keine 17α-Alkylgruppe. Am Menschen gemessen ist die Rückkopplung auf die Hormonachse: In einer placebokontrollierten Studie mit 52 depressiven Männern sanken unter Mesterolon das Gesamttestosteron und das gebundene Testosteron deutlich (Itil 1984).',
+    benefits: [
+      'Zugelassenes Arzneimittel: In Belgien und Luxemburg als Proviron bei Androgenmangel des Mannes infolge gestörter Hodenfunktion zugelassen, Packungsbeilage zuletzt 07/2024 genehmigt; 2019 nationale Zulassungen u. a. in Ungarn, der Slowakei, Italien, Malta, Spanien, Griechenland und Portugal (EMA-Liste)',
+      'Bei Männern mit Androgenmangel besserten sich Libido, Erektionen und Stimmung unter Testosteronundecanoat nach 4 Wochen deutlich stärker als unter Mesterolon (doppelblinde Vergleichsstudie, 26 Patienten, Luisi 1980)',
+      'Männliche Unfruchtbarkeit: in der WHO-Studie mit 248 Paaren über 6 Monate keine signifikant höhere Schwangerschaftsrate als unter Placebo (Schwangerschaftsraten nach 8 Monaten 9 % unter Placebo, 12 % und 16 % in den beiden Mesterolon-Gruppen; WHO Task Force 1989); in einer zweiten Studie mit 52 Männern über 12 Monate 26 % unter Mesterolon gegenüber 48 % unter Placebo (Gerris 1991)',
+      'Depression: In einer doppelblinden, placebokontrollierten Studie mit 52 Männern über 6 Wochen besserten sich die Beschwerden unter Mesterolon und unter Placebo, ohne Unterschied zwischen den Gruppen (Itil 1984)'
+    ],
+    risks: [
+      'Leber: Die Packungsbeilage nennt seltene gutartige und noch seltenere bösartige Lebertumoren nach hormonalen Wirkstoffen dieser Art, vereinzelt mit lebensgefährlichen Blutungen in die Bauchhöhle',
+      'Laut Packungsbeilage nicht als Mittel zum Bodybuilding oder Muskelaufbau bei Gesunden: schwerwiegende Risiken für Herz und Gefäße (bis zum Tod), Leber und psychische Gesundheit sowie Abhängigkeit',
+      'Nebenwirkungen laut Packungsbeilage: häufige oder anhaltende Erektionen bis zum Priapismus, Wasser- und Salzeinlagerung, Akne, Haarausfall, Kopfschmerzen, Bauchschmerzen; Gegenanzeigen Prostatakrebs und Lebertumoren',
+      'Hormonachse: Abfall des eigenen Testosterons unter Mesterolon gemessen (Itil 1984)',
+      'Gerinnung: Nach einer tiefen Beinvenenthrombose unter Mesterolon fand eine Studie an 9 gesunden Männern über 21 Tage keine messbare Veränderung der Gerinnungswerte (Lowe 1979)'
+    ],
+    status: 'In Deutschland ist derzeit kein Präparat auf dem Markt (Gelbe Liste, Stand 10/2026: Wirkstoff ohne zugeordnetes Präparat); in der EMA-Liste national zugelassener Präparate von 2019 ist Deutschland nicht aufgeführt. Mesterolon und seine Ester sind verschreibungspflichtig (Anlage 1 der Arzneimittelverschreibungsverordnung). In Belgien und Luxemburg ist Proviron verschreibungspflichtig zugelassen. Mesterolon steht namentlich in der Anlage des Anti-Doping-Gesetzes: Handel, Abgabe und Verschreibung zu Dopingzwecken sind verboten (§ 2 Abs. 1), ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2 Abs. 3). WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/2680994/',
+    sources: [
+      { title: 'Gebrauchsinformation Proviron Tabletten, Belgien und Luxemburg (FAGG, genehmigt 07/2024)', url: 'https://app.fagg-afmps.be/pharma-status/api/files/62bc88be1e5c015ab30d5f6b' },
+      { title: 'EMA 2019 – Liste national zugelassener Arzneimittel mit Mesterolon (PSUSA/00010551/201901)', url: 'https://www.ema.europa.eu/en/documents/psusa/mesterolone-list-nationally-authorised-medicinal-products-psusa00010551201901_en.pdf' },
+      { title: 'WHO Task Force, Int J Androl 1989 – Mesterolon bei idiopathischer männlicher Unfruchtbarkeit, doppelblind, 248 Paare', url: 'https://pubmed.ncbi.nlm.nih.gov/2680994/' },
+      { title: 'Gerris J et al., Fertil Steril 1991 – placebokontrollierte Studie, hoch dosiertes Mesterolon bei männlicher Unfruchtbarkeit, 52 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/1900485/' },
+      { title: 'Itil TM et al., Methods Find Exp Clin Pharmacol 1984 – Mesterolon bei depressiven Männern, doppelblind, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/6431212/' },
+      { title: 'Luisi M, Franchi F, J Endocrinol Invest 1980 – Testosteronundecanoat gegen Mesterolon bei Androgenmangel, doppelblind', url: 'https://pubmed.ncbi.nlm.nih.gov/7000879/' },
+      { title: 'Lowe GD et al., Br J Clin Pharmacol 1979 – Thrombose unter Mesterolon und Gerinnungsstudie an 9 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/760733/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1: Mesterolon und seine Ester', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'trestolon',
+    name: 'Trestolon (MENT)',
+    altNames: 'MENT, 7α-Methyl-19-nortestosteron, 7alpha-Methyl-19-nortestosteron, Trestolone, Trestolonacetat, MENT-Acetat',
+    class: 'Synthetisches Androgen (Nandrolon-Abkömmling), als Verhütungsmittel für Männer und als Hormonersatz klinisch erprobt, nie zugelassen',
+    emoji: '💉',
+    short: 'Trestolon, in der Forschung MENT genannt, wurde vom Population Council als Implantat für die Verhütung beim Mann entwickelt. In kleinen Studien mit insgesamt rund 140 Männern unterdrückte es die Spermienbildung, teils bis auf null, und hielt bei Männern mit Hormonmangel Libido und Stimmung aufrecht. Zugelassen wurde es nie; zur Muskelwirkung beim Menschen gibt es keine einzige Studie.',
+    moa: 'Trestolon bindet am Androgenrezeptor und ist stärker wirksam als Testosteron. Es wird nicht durch die 5α-Reduktase umgebaut und wirkt deshalb an der Prostata schwächer, kann aber zu Östrogen umgewandelt werden (Anderson 2003). Über die Rückkopplung drosselt es LH, FSH und das eigene Testosteron: Bei 24 gesunden Männern sanken nach sechs täglichen Spritzen in der höchsten Dosisgruppe Testosteron um 74 %, LH um 70 % und FSH um 57 % (Suvisaari 1997). Genau diese Drosselung legt die Spermienbildung still, der Grund für die Entwicklung als Verhütungsmittel.',
+    benefits: [
+      'Spermienunterdrückung: In einer randomisierten Studie mit 35 gesunden Männern und Implantaten in drei Dosisgruppen wurden in der höchsten Gruppe 8 von 12 Männern spermienfrei, 2 sprachen nicht an; in der niedrigsten Gruppe keiner (von Eckardstein 2003)',
+      'Zusammen mit einem Gestagen-Implantat sank die Spermienzahl nach 12 Wochen bei 8 von 10 Männern unter 1 Million pro ml, ähnlich wie unter Testosteron; danach ließ die Wirkung nach, weil die Implantate weniger freisetzten (Walton 2007, 29 Männer)',
+      'Hormonersatz: Bei 20 Männern mit Hormonmangel steigerte es sexuelles Interesse, Aktivität und spontane Erektionen ähnlich wie Testosteronenantat (Crossover über je 6 Wochen, Anderson 1999)',
+      'Prostata: Bei 16 Männern mit Hormonmangel fiel das PSA über 24 Wochen, das Prostatavolumen sank teilweise – erster Beleg am Menschen für die Schonung der Prostata (Anderson 2003)'
+    ],
+    risks: [
+      'Knochen: Unter MENT nahm die Knochendichte der Lendenwirbelsäule über 24 Wochen ab (Anderson 2003)',
+      'Blut und Fette: Anstieg von roten Blutkörperchen, Hämatokrit und Hämoglobin, Abfall von SHBG; Veränderungen der Blutfette und kleine Veränderungen der Leberwerte, in den Studien rückläufig (von Eckardstein 2003); Abfall des HDL-Cholesterins (Walton 2007)',
+      'Libidoverlust bei 6 Männern, als die Freisetzung aus den Implantaten nachließ (Walton 2007); bei zu niedrigem Spiegel nahmen sexuelles Verhalten und Erektionen ab (Anderson 2003)',
+      'Sicherheitsdaten stammen aus Studien von höchstens 12 Monaten mit jeweils 16 bis 35 Teilnehmern; eine Studie des Population Council zum Blutdruck mit 68 Männern wurde 2014 abgeschlossen, Ergebnisse sind im Register nicht veröffentlicht (NCT00812630)',
+      'Am Menschen nicht untersucht: Muskelaufbau, Herz und Gefäße, Anwendung außerhalb von Studien; die oft zitierte zehnfach stärkere aufbauende Wirkung als Testosteron stammt aus Untersuchungen der 1960er Jahre im Rahmen der Krebsforschung (Piper 2026)',
+      'Im Sport jederzeit verboten (WADA S1.1)'
+    ],
+    status: 'In keinem Land als Arzneimittel zugelassen; die Entwicklung als Verhütungsimplantat für Männer kam über kleine klinische Studien nicht hinaus, die letzte registrierte Studie endete 2014. In Deutschland ist kein Präparat gelistet (Gelbe Liste, Stand 10/2026); ein nicht zugelassenes Fertigarzneimittel darf nicht in Verkehr gebracht werden (§ 21 AMG). Trestolon steht auf der WADA-Verbotsliste 2026 (S1.1, jederzeit verboten); damit sind Herstellung, Handel, Abgabe und Verschreibung zu Dopingzwecken nach § 2 Abs. 1 Anti-Doping-Gesetz verboten. In der Anlage des Anti-Doping-Gesetzes, die Erwerb und Besitz in nicht geringer Menge regelt, ist es nicht namentlich genannt; die Anlage führt allgemein „andere mit anabol-androgenen Steroiden verwandte Stoffe“ auf.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/14602755/',
+    sources: [
+      { title: 'von Eckardstein S et al., J Clin Endocrinol Metab 2003 – MENT-Implantate als Langzeitverhütung für Männer, 35 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/14602755/' },
+      { title: 'Walton MJ et al., J Androl 2007 – MENT gegen Testosteron, jeweils mit Etonogestrel-Implantat, 29 gesunde Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/17460095/' },
+      { title: 'Anderson RA et al., J Clin Endocrinol Metab 2003 – Gewebeselektivität von MENT bei 16 Männern mit Hormonmangel', url: 'https://pubmed.ncbi.nlm.nih.gov/12788888/' },
+      { title: 'Anderson RA et al., J Clin Endocrinol Metab 1999 – MENT erhält Sexualverhalten und Stimmung bei Männern mit Hormonmangel', url: 'https://pubmed.ncbi.nlm.nih.gov/10522995/' },
+      { title: 'Suvisaari J et al., Hum Reprod 1997 – Pharmakokinetik und Hormonsenkung nach Injektion bei gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/9194649/' },
+      { title: 'ClinicalTrials.gov NCT00812630 – Population Council, MENT und Blutdruck, 68 Männer, abgeschlossen 2014, ohne veröffentlichte Ergebnisse', url: 'https://clinicaltrials.gov/study/NCT00812630' },
+      { title: 'Piper T et al., Drug Test Anal 2026 – Stoffwechsel von Trestolon am Menschen, Nachweis in der Dopingkontrolle', url: 'https://pubmed.ncbi.nlm.nih.gov/41407450/' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'Verbotsliste im Sport 2026: S1.1, Trestolon (WADA Prohibited List)', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'anastrozol',
+    name: 'Anastrozol',
+    altNames: 'Arimidex, Anastrozole',
+    class: 'Aromatasehemmer (nicht-steroidal), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen gegen hormonabhängigen Brustkrebs nach den Wechseljahren und dort in einer Studie mit 9.366 Frauen besser als Tamoxifen. Bei Männern hebt es Testosteron und senkt Östradiol – in einer einjährigen Studie aber ohne Gewinn an Muskelmasse oder Kraft, dafür mit Abnahme der Knochendichte.',
+    moa: 'Anastrozol hemmt selektiv das Enzym Aromatase, das Androgene wie Testosteron und Androstendion in Östrogene umwandelt. Bei Frauen nach den Wechseljahren senkt die zugelassene Dosis Östradiol laut US-Fachinformation innerhalb von 24 Stunden um etwa 70 Prozent; das bremst hormonabhängigen Brustkrebs. Beim Mann lockert weniger Östradiol die Rückkopplung auf die Hypophyse, sie schüttet mehr LH aus, und der Testosteronspiegel steigt. Östradiol ist beim Mann aber kein Störfaktor: Es ist an Knochenstoffwechsel, Fettverteilung und Sexualfunktion beteiligt.',
+    benefits: [
+      'Brustkrebs nach den Wechseljahren: in ATAC (9.366 Frauen, 5 Jahre) weniger Rückfälle als unter Tamoxifen – krankheitsfreies Überleben HR 0,87, Zeit bis zum Rückfall HR 0,79, Brustkrebs der Gegenseite 35 gegenüber 59 Fälle (Howell 2005)',
+      'Bei älteren Männern mit niedrigem Testosteron stieg der Spiegel binnen 3 Monaten von 11,2 auf 18,2 nmol/l, Östradiol sank moderat (RCT, 88 Männer, 1 Jahr, Burnett-Bowie 2009) – ein Laborwert, kein klinischer Nutzen',
+      'Anwendungsgebiete, Dosis und Gegenanzeigen sind EU-weit vereinheitlicht (EMA, Entscheidung 2011); breite Anwendung in der Brustkrebstherapie'
+    ],
+    risks: [
+      'Knochen: Bei älteren Männern sank die Knochendichte der Lendenwirbelsäule unter Anastrozol, unter Placebo stieg sie leicht (p = 0,0014, Burnett-Bowie 2009); bei Frauen in ATAC mehr Knochenbrüche als unter Tamoxifen',
+      'Östradiol zu niedrig: In einer Studie mit 400 gesunden Männern ging die Zunahme an Körperfett vor allem auf Östrogenmangel zurück, und er trug zum Rückgang der Sexualfunktion bei (Finkelstein 2013)',
+      'Kein Nutzen für Muskeln oder Kraft: trotz höherem Testosteron keine Veränderung von Körperzusammensetzung und Kraft über ein Jahr (Burnett-Bowie 2009)',
+      'Gegen Brustdrüsenvergrößerung bei Jungen in der Pubertät nicht besser als Placebo – Ansprechen 38,5 gegenüber 31,4 Prozent (Plourde 2004)',
+      'Blutfette und Herz: In ATAC häufiger erhöhtes Cholesterin als unter Tamoxifen (9 gegenüber 3,5 Prozent), bei vorbestehender koronarer Herzkrankheit mehr ischämische Ereignisse (17 gegenüber 10 Prozent, US-Fachinformation); bei den Männern blieben die Blutfette über ein Jahr unverändert',
+      'Gelenkschmerzen häufiger als unter Tamoxifen (Howell 2005)',
+      'Dopingrelevant: WADA-Verbotsliste S4.1, zu allen Zeiten verboten; in Deutschland in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Zugelassen und verschreibungspflichtig (Arimidex): hormonrezeptor-positiver Brustkrebs bei Frauen nach den Wechseljahren, fortgeschritten und unterstützend nach der Operation; zugelassene Dosis 1 mg einmal täglich (EU-weit vereinheitlicht, Entscheidung der Europäischen Kommission vom 19.05.2011). Die Anwendung bei Männern – bei niedrigem Testosteron, zur Östradiol-Senkung oder gegen eine Brustdrüsenvergrößerung – ist nicht zugelassen. WADA-Verbotsliste 2026: S4.1 Aromatasehemmer, zu allen Zeiten verboten. Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/18616708/',
+    sources: [
+      { title: 'Howell A et al., Lancet 2005 – ATAC, Anastrozol gegen Tamoxifen nach Brustkrebs, 9.366 Frauen, 5 Jahre', url: 'https://pubmed.ncbi.nlm.nih.gov/15639680/' },
+      { title: 'Burnett-Bowie SA et al., Clin Endocrinol 2009 – Anastrozol bei älteren Männern mit niedrigem Testosteron, RCT mit 88 Männern, 1 Jahr', url: 'https://pubmed.ncbi.nlm.nih.gov/18616708/' },
+      { title: 'Burnett-Bowie SA et al., J Clin Endocrinol Metab 2009 – Knochendichte unter Anastrozol bei älteren Männern, RCT mit 69 Männern, 1 Jahr', url: 'https://pubmed.ncbi.nlm.nih.gov/19820017/' },
+      { title: 'Finkelstein JS et al., N Engl J Med 2013 – Testosteron, Östradiol, Körperzusammensetzung, Kraft und Sexualfunktion bei 400 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/24024838/' },
+      { title: 'Plourde PV et al., J Clin Endocrinol Metab 2004 – Anastrozol bei Brustdrüsenvergrößerung in der Pubertät, RCT mit 80 Jungen', url: 'https://pubmed.ncbi.nlm.nih.gov/15356042/' },
+      { title: 'EMA, Arimidex – Harmonisierungsverfahren, Entscheidung 19.05.2011: Anwendungsgebiete, Dosis, Gegenanzeigen', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/arimidex' },
+      { title: 'US-Fachinformation Arimidex (DailyMed) – Wirkung auf Östradiol, Warnhinweise zu Knochendichte, Cholesterin und ischämischen Ereignissen', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, zu allen Zeiten verboten', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 1. Aromatasehemmer', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'letrozol',
+    name: 'Letrozol',
+    altNames: 'Femara, Letrozole',
+    class: 'Aromatasehemmer (nicht-steroidal), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen gegen hormonabhängigen Brustkrebs nach den Wechseljahren und dort an 8.010 Frauen besser als Tamoxifen. Bei übergewichtigen Männern hob es Testosteron in einer placebokontrollierten Studie deutlich an – ohne messbare Wirkung auf Körper oder Psyche.',
+    moa: 'Letrozol hemmt hochspezifisch das Enzym Aromatase, das Androgene in Östrogene umwandelt. Bei Frauen nach den Wechseljahren sinken Östradiol, Östron und Östronsulfat laut US-Fachinformation um 75 bis 95 Prozent, die Bildung von Nebennierenhormonen bleibt unberührt. Beim Mann lockert weniger Östradiol die Rückkopplung auf die Hypophyse: LH steigt, die Hoden bilden mehr Testosteron. Bei stark übergewichtigen Männern, deren Fettgewebe viel Testosteron in Östradiol umwandelt, ist dieser Effekt besonders ausgeprägt.',
+    benefits: [
+      'Brustkrebs nach den Wechseljahren: in BIG 1-98 (8.010 Frauen) weniger Rückfälle als unter Tamoxifen – HR 0,81, für Fernmetastasen HR 0,73 (Thürlimann 2005)',
+      'Bei stark übergewichtigen Männern mit niedrigem Testosteron stieg der Spiegel von 8,6 auf 21,5 nmol/l (RCT, 42 Männer, 6 Monate, Loves 2013) – ohne messbare Wirkung auf Psyche, Körperzusammensetzung, Belastbarkeit oder Stoffwechsel',
+      'Bei Männern mit schwerer Fruchtbarkeitsstörung verbesserte sich die Kategorie der Spermienkonzentration häufiger als in der Kontrollgruppe: 14,3 gegenüber 5,4 Prozent (RCT, offen, 296 Männer, 3 Monate, Sun 2026)',
+      'Anwendungsgebiete EU-weit vereinheitlicht (EMA, Entscheidung 2012); breite Anwendung in der Brustkrebstherapie'
+    ],
+    risks: [
+      'Knochen: Bei Frauen sank die Knochendichte der Lendenwirbelsäule nach 24 Monaten im Median um 4,1 Prozent, unter Tamoxifen stieg sie um 0,3 Prozent; Knochenbrüche 14,7 gegenüber 11,4 Prozent (US-Fachinformation, BIG 1-98)',
+      'Cholesterin und Herz: In BIG 1-98 häufiger erhöhtes Cholesterin sowie mehr Herz- und Knochenereignisse als unter Tamoxifen',
+      'Bei Männern stieg das freie Testosteron in einer Pilotstudie bei 7 von 12 über den Normalbereich (Loves 2008); bei der höchsten geprüften Dosis überschießender LH-Anstieg (de Boer 2005)',
+      'Weniger Libido bei 12,2 gegenüber 5,4 Prozent der Männer in der Fruchtbarkeitsstudie (Sun 2026)',
+      'Müdigkeit, Schwindel und Schläfrigkeit möglich – Vorsicht beim Bedienen von Maschinen (US-Fachinformation)',
+      'Daten bei Männern reichen höchstens sechs Monate; Langzeitfolgen für Knochen und Herz sind bei Männern nicht untersucht',
+      'Dopingrelevant: WADA-Verbotsliste S4.1, zu allen Zeiten verboten; in Deutschland in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Zugelassen und verschreibungspflichtig (Femara): Brustkrebs bei Frauen nach den Wechseljahren – unterstützend nach der Operation, erweitert unterstützend nach fünf Jahren Tamoxifen, fortgeschritten sowie vor der Operation; zugelassene Dosis 2,5 mg einmal täglich (EU-weit vereinheitlicht, Entscheidung der Europäischen Kommission vom 22.05.2012). Die Anwendung bei Männern – bei niedrigem Testosteron, bei Unfruchtbarkeit oder zur Östradiol-Senkung – ist nicht zugelassen. WADA-Verbotsliste 2026: S4.1 Aromatasehemmer, zu allen Zeiten verboten. Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23949882/',
+    sources: [
+      { title: 'BIG 1-98 Collaborative Group (Thürlimann B et al.), N Engl J Med 2005 – Letrozol gegen Tamoxifen nach Brustkrebs, 8.010 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/16382061/' },
+      { title: 'Loves S et al., Eur J Endocrinol 2013 – Letrozol bei adipösen Männern mit niedrigem Testosteron, RCT mit 42 Männern, 6 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/23949882/' },
+      { title: 'Loves S et al., Eur J Endocrinol 2008 – Letrozol bei adipösen Männern, offene Pilotstudie mit 12 Männern, 6 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/18426834/' },
+      { title: 'de Boer H et al., Diabetes Obes Metab 2005 – Letrozol bei 10 stark übergewichtigen Männern, 6 Wochen, ohne Kontrollgruppe', url: 'https://pubmed.ncbi.nlm.nih.gov/15811136/' },
+      { title: 'Sun Y et al., JAMA Netw Open 2026 – Letrozol bei schwerer männlicher Fruchtbarkeitsstörung, RCT mit 296 Männern, 3 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/42313386/' },
+      { title: 'EMA, Femara – Harmonisierungsverfahren, Entscheidung 22.05.2012: Anwendungsgebiete', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/femara' },
+      { title: 'US-Fachinformation Femara (DailyMed) – Dosis, Wirkung auf Östrogene, Knochendichte, Knochenbrüche, Cholesterin', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, zu allen Zeiten verboten', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 1. Aromatasehemmer', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'exemestan',
+    name: 'Exemestan',
+    altNames: 'Aromasin, Exemestane',
+    class: 'Aromatasehemmer (steroidal, irreversibel), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Gegen hormonabhängigen Brustkrebs nach den Wechseljahren in zwei großen Studien gut belegt. Für Männer gibt es eine einzige Studie: zehn Tage, 12 junge Männer, gemessen wurden Hormonwerte.',
+    moa: 'Exemestan ist ein steroidaler Aromatasehemmer, chemisch dem natürlichen Substrat Androstendion verwandt. Laut US-Fachinformation wird es von der Aromatase als falsches Substrat umgesetzt und blockiert das Enzym dauerhaft („Suizidhemmung“). In der zugelassenen Dosis sinken die Östrogene bei Frauen nach den Wechseljahren um mindestens 85 bis 95 Prozent. Exemestan selbst bindet kaum an den Androgenrezeptor, sein Abbauprodukt 17-Dihydroexemestan etwa 100-mal stärker. Bei jungen Männern sank Östradiol und Testosteron stieg.',
+    benefits: [
+      'Brustkrebs nach den Wechseljahren: Wechsel von Tamoxifen auf Exemestan senkte das Rückfallrisiko (IES, 4.724 Frauen, HR 0,76, absoluter Vorteil 3,3 Prozentpunkte; Coombes 2007)',
+      'Vorbeugung bei erhöhtem Risiko: 65 Prozent weniger invasive Brustkrebse als unter Placebo, 11 gegenüber 32 Fälle (MAP.3, 4.560 Frauen; Goss 2011)',
+      'Bei 12 jungen gesunden Männern sank Östradiol nach 10 Tagen um 32 bis 38 Prozent, Testosteron stieg um 56 bis 60 Prozent; Blutfette unverändert (Mauras 2003) – nur Laborwerte'
+    ],
+    risks: [
+      'Knochen: Bei Frauen sank die Knochendichte nach 24 Monaten an der Lendenwirbelsäule um 3,1 Prozent, unter Tamoxifen um 0,2 Prozent (US-Fachinformation); Knochendichte-Messung und Vitamin-D-Kontrolle vor Beginn empfohlen',
+      'Daten beim Mann: eine Studie über 10 Tage an 12 Männern – zu Knochen, Herz, Blutfetten und Sexualfunktion bei längerer Anwendung gibt es nichts',
+      'Östradiol zu niedrig: In Studien mit Anastrozol an 400 gesunden Männern führte Östrogenmangel zu mehr Körperfett, trug zum Rückgang der Sexualfunktion bei und senkte die Knochendichte – unabhängig von der Testosterondosis (Finkelstein 2013, 2016)',
+      'Ein Abbauprodukt bindet an den Androgenrezeptor; was das beim Mann klinisch bedeutet, ist nicht untersucht',
+      'Dopingrelevant: WADA-Verbotsliste S4.1, zu allen Zeiten verboten; in Deutschland in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Zugelassenes Brustkrebs-Arzneimittel (Aromasin): Laut US-Fachinformation unterstützende Behandlung nach zwei bis drei Jahren Tamoxifen bis zu insgesamt fünf Jahren sowie fortgeschrittener Brustkrebs nach Tamoxifen, jeweils bei Frauen nach den Wechseljahren; zugelassene Dosis 25 mg einmal täglich nach einer Mahlzeit. In Deutschland verschreibungspflichtig (Anlage 1 AMVV). Die Anwendung bei Männern ist nicht zugelassen. WADA-Verbotsliste 2026: S4.1 Aromatasehemmer, zu allen Zeiten verboten. Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/14671195/',
+    sources: [
+      { title: 'Coombes RC et al., Lancet 2007 – IES, Wechsel auf Exemestan nach 2–3 Jahren Tamoxifen, 4.724 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/17307102/' },
+      { title: 'Goss PE et al., N Engl J Med 2011 – MAP.3, Exemestan zur Vorbeugung von Brustkrebs, 4.560 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/21639806/' },
+      { title: 'Mauras N et al., J Clin Endocrinol Metab 2003 – Pharmakokinetik und Dosisfindung von Exemestan bei jungen Männern, Crossover mit 12 Männern, 10 Tage', url: 'https://pubmed.ncbi.nlm.nih.gov/14671195/' },
+      { title: 'Finkelstein JS et al., N Engl J Med 2013 – Testosteron, Östradiol, Körperzusammensetzung, Kraft und Sexualfunktion bei 400 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/24024838/' },
+      { title: 'Finkelstein JS et al., J Clin Invest 2016 – Testosteron, Östradiol und Knochen bei 400 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/26901812/' },
+      { title: 'US-Fachinformation Aromasin (DailyMed) – Anwendungsgebiete, Dosis, Wirkmechanismus, Knochendichte', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, zu allen Zeiten verboten', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 1. Aromatasehemmer', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'tamoxifen',
+    name: 'Tamoxifen',
+    altNames: 'Nolvadex, Tamoxifencitrat, Tamoxifen AbZ',
+    class: 'Selektiver Östrogenrezeptor-Modulator (SERM), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen gegen Brustkrebs und dort einer der am besten untersuchten Wirkstoffe: Etwa fünf Jahre Tamoxifen senken bei hormonempfindlichem Tumor die Brustkrebssterblichkeit über 15 Jahre um rund ein Drittel. Bei Männern wird es außerhalb der Zulassung gegen Brustdrüsenwachstum genutzt – randomisiert geprüft ist das nur bei Antiandrogen-Therapie gegen Prostatakrebs. Daneben stehen Thrombosen, Gebärmutterkrebs und Linsentrübungen.',
+    moa: 'Tamoxifen bindet an den Östrogenrezeptor und wirkt je nach Gewebe unterschiedlich: im Brustgewebe als Gegenspieler des Östrogens, an Gebärmutterschleimhaut und Knochen teilweise östrogenartig. Daraus erklären sich Nutzen (weniger Brustkrebs, weniger Knochenbrüche) und Schaden (Wucherungen und Krebs der Gebärmutterschleimhaut). Wirksam wird es erst nach Umbau in der Leber, vor allem über das Enzym CYP2D6 zum aktiven Stoffwechselprodukt Endoxifen; bei fehlender CYP2D6-Aktivität liegt Endoxifen laut Fachinformation um etwa 75 Prozent niedriger. Beim Mann blockiert Tamoxifen zusätzlich die Östrogen-Rückkopplung im Gehirn, sodass FSH und Testosteron steigen, und hemmt im Brustdrüsengewebe die Östrogenwirkung.',
+    benefits: [
+      'Brustkrebs, adjuvant: Etwa fünf Jahre Tamoxifen senkten bei östrogenrezeptorpositivem Tumor die Rückfallrate in den ersten vier Jahren fast um die Hälfte (RR 0,53) und die Brustkrebssterblichkeit über 15 Jahre um etwa ein Drittel (Meta-Analyse, 20 Studien, 21.457 Frauen, EBCTCG 2011)',
+      'Vorbeugung bei erhöhtem Risiko: 49 Prozent weniger invasiver Brustkrebs, 22,0 gegenüber 43,4 Fällen je 1.000 Frauen (NSABP P-1, 13.388 Frauen, Fisher 1998); nach 7 Jahren außerdem 32 Prozent weniger osteoporotische Brüche (Fisher 2005)',
+      'Gynäkomastie unter Antiandrogen-Therapie: In einer doppelblinden Studie mit 282 Männern mit Prostatakrebs traten Brustvergrößerung oder Brustschmerz je nach Tamoxifen-Dosisstufe bei 86,2 bis 8,8 Prozent auf, unter Placebo bei 96,7 Prozent (Fradet 2007); eine Meta-Analyse über drei randomisierte Tamoxifen-Studien bestätigt den Effekt (Viani 2012)',
+      'Idiopathische Gynäkomastie: In einer Kohorte mit 81 Männern bildete sich die Brustvergrößerung bei 90,1 Prozent vollständig zurück – ohne Kontrollgruppe (Mannu 2018)',
+      'Seit Jahrzehnten breit angewendet; Nebenwirkungen in großen Studien und in der Fachinformation beziffert'
+    ],
+    risks: [
+      'Gebärmutterschleimhaut: Krebsrisiko in P-1 um das 2,53-Fache erhöht, vor allem ab 50 Jahren (Fisher 1998); laut Fachinformation steigt es mit der Behandlungsdauer auf das 2- bis 4-Fache, selten treten Uterussarkome auf; jährliche gynäkologische Kontrolle vorgesehen',
+      'Thrombosen, Lungenembolien und Schlaganfälle traten in P-1 häufiger auf, vor allem ab 50 Jahren (Fisher 1998); unter gleichzeitiger Chemotherapie steigt die Thrombosehäufigkeit weiter (Fachinformation)',
+      'Augen: häufig nur teilweise umkehrbare Sehstörungen durch Katarakte, Hornhauttrübungen und Netzhautveränderungen; das Kataraktrisiko steigt mit der Einnahmedauer (Fachinformation, mehr Katarakte auch in P-1)',
+      'Bei Männern unter Antiandrogen-Therapie mehr Hitzewallungen ab den mittleren Dosisstufen (Fradet 2007); in der Meta-Analyse sechsmal mehr Nebenwirkungen als unter vorbeugender Bestrahlung der Brust (Viani 2012)',
+      'Wechselwirkungen: Starke CYP2D6-Hemmer wie Paroxetin senken den aktiven Wirkspiegel; mit Gerinnungshemmern vom Cumarin-Typ verändert sich die Gerinnung (Fachinformation)',
+      'Genotoxisches Potenzial: Laut Fachinformation sollen Männer während der Behandlung und 6 Monate danach verhüten und kein Kind zeugen',
+      'Dopingrelevant: WADA-Liste 2026, S4.2, im Wettkampf und außerhalb verboten; namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'In Deutschland zugelassen und verschreibungspflichtig zur adjuvanten Therapie nach Primärbehandlung des Mammakarzinoms und beim metastasierenden Mammakarzinom (z. B. Tamoxifen AbZ 20 mg, Zulassung 23.06.1998); zugelassene Dosis laut Fachinformation 20 bis 40 mg täglich, in der Regel 20 mg. Die Anwendung gegen Gynäkomastie ist eine nicht zugelassene Anwendung. WADA-Verbotsliste 2026, S4.2 (antiöstrogene Substanzen), im Wettkampf und außerhalb verboten; in der Anlage des Anti-Doping-Gesetzes unter den antiestrogenen Stoffen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/21802721/',
+    sources: [
+      { title: 'Early Breast Cancer Trialists’ Collaborative Group (EBCTCG), Lancet 2011 – Meta-Analyse adjuvantes Tamoxifen, 20 Studien, 21.457 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/21802721/' },
+      { title: 'Fisher B et al., J Natl Cancer Inst 1998 – NSABP P-1, Tamoxifen zur Brustkrebsvorbeugung, 13.388 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/9747868/' },
+      { title: 'Fisher B et al., J Natl Cancer Inst 2005 – NSABP P-1 nach 7 Jahren: Brüche, Thrombosen, Katarakte, Gebärmutterkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/16288118/' },
+      { title: 'Fradet Y et al., Eur Urol 2007 – Tamoxifen gegen Gynäkomastie unter Bicalutamid, doppelblind, 282 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/17270340/' },
+      { title: 'Viani GA et al., Int J Radiat Oncol Biol Phys 2012 – Meta-Analyse Tamoxifen oder Bestrahlung gegen Gynäkomastie unter Hormonentzug, 6 Studien, 777 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/22704706/' },
+      { title: 'Mannu GS et al., Breast J 2018 – Tamoxifen bei idiopathischer Gynäkomastie, prospektive Kohorte, 81 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/30079473/' },
+      { title: 'Chua ME et al., Andrology 2013 – Meta-Analyse zu Clomifen oder Tamoxifen bei unerklärter männlicher Unfruchtbarkeit, 11 randomisierte Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/23970453/' },
+      { title: 'Fachinformation Tamoxifen AbZ 20 mg Tabletten (Stand April 2026)', url: 'https://www.fachinfo.de/fi/pdf/008652/tamoxifen-abz-20-mg-tabletten' },
+      { title: 'WADA-Verbotsliste 2026, S4.2 Antiöstrogene Substanzen – amtliche Bekanntmachung im Bundesgesetzblatt II 2025 Nr. 312', url: 'https://www.recht.bund.de/bgbl/2/2025/312/regelungstext.pdf' },
+      { title: 'Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 2. Antiestrogene Stoffe', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'clomifen',
+    name: 'Clomifen',
+    altNames: 'Clomifencitrat, Clomiphene, Clomid, Clomifen-ratiopharm',
+    class: 'Selektiver Östrogenrezeptor-Modulator (SERM), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen, um bei Frauen mit ausbleibendem Eisprung die Ovulation auszulösen. Außerhalb der Zulassung wird es bei Männern mit niedrigem Testosteron eingesetzt: Es hebt den Spiegel zuverlässig, ob es Beschwerden bessert, ist kaum kontrolliert untersucht. Clomifen ist ein Gemisch aus Enclomifen und Zuclomifen – genau das unterscheidet es vom reinen Enclomifen.',
+    moa: 'Clomifen blockiert Östrogenrezeptoren im Hypothalamus. Das Gehirn registriert scheinbar zu wenig Östrogen und schüttet mehr GnRH, LH und FSH aus; bei der Frau reift ein Follikel heran, beim Mann bilden die Hoden mehr eigenes Testosteron. Laut Fachinformation besteht Clomifen zu 62 Prozent aus Enclomifen (trans-Isomer, antiöstrogen) und zu 38 Prozent aus Zuclomifen (cis-Isomer); die Halbwertszeit von Clomifen liegt bei 5 Tagen. Weil die beiden Isomere unterschiedlich lange im Körper bleiben, verschiebt sich das Verhältnis: Bei Männern unter Dauertherapie lag Zuclomifen im Blut im Median 20-fach höher als Enclomifen (Helo 2017). Das reine Enclomifen wird als eigene Substanz angeboten, zugelassen ist es nirgends.',
+    benefits: [
+      'Zugelassene Anwendung: In einer doppelblinden Studie mit 750 Frauen mit PCOS führte Clomifen bei 19,1 Prozent zu einer Lebendgeburt, Letrozol bei 27,5 Prozent – Clomifen wirkt, Letrozol war besser (Legro 2014)',
+      'Männer mit funktionellem Hypogonadismus: Übersichtsarbeit randomisierter Studien zu Clomifen und Enclomifen – Gesamttestosteron +274 ng/dl gegenüber Placebo, LH und FSH steigen, beim Testosteronspiegel kein Unterschied zum Testosteron-Gel (Hohl 2025)',
+      'Bei unerklärter männlicher Unfruchtbarkeit höhere Schwangerschaftsrate (OR 2,42) sowie mehr Spermien und bessere Beweglichkeit in einer Meta-Analyse über 11 randomisierte Studien zu Clomifen oder Tamoxifen (Chua 2013)',
+      'Langzeitdaten aus der Praxis: Von 120 Männern mit mehr als 3 Jahren Behandlung erreichten 88 Prozent normale Testosteronwerte, 77 Prozent berichteten weniger Beschwerden – rückblickend, ohne Kontrollgruppe (Krzastek 2019)',
+      'In Deutschland seit Jahrzehnten zugelassen (Clomifen-ratiopharm seit 1990), Nebenwirkungen bei Frauen gut dokumentiert'
+    ],
+    risks: [
+      'Sehstörungen: Flimmern, verschwommenes Sehen, Fleckensehen und verlängerte Nachbilder, laut Fachinformation häufiger mit steigender Gesamtdosis und meist Tage bis Wochen nach dem Absetzen verschwunden; Einzelfälle mit Skotomen und Linsentrübung. Sehstörungen bei früherer Clomifen-Behandlung sind eine Gegenanzeige',
+      'Bei Frauen: Überstimulation der Eierstöcke, bei schwerem Verlauf mit Thromboserisiko; Mehrlingsschwangerschaften (186 von 2.369 Schwangerschaften, 7,9 Prozent, laut Fachinformation)',
+      'Bei Männern stieg das Östradiol unter Behandlung deutlich; berichtet wurden Stimmungsänderungen, verschwommenes Sehen und Brustspannen (Krzastek 2019)',
+      'Zuclomifen reichert sich unter Dauertherapie an (im Median 20-fach über Enclomifen, Helo 2017); welche Folgen das langfristig beim Mann hat, ist nicht untersucht',
+      'Beschwerdebesserung bei Männern kaum kontrolliert geprüft: Die randomisierten Studien werteten vor allem Testosteron, LH und FSH aus; Fragebogen-Daten stammen überwiegend aus rückblickenden Auswertungen ohne Kontrollgruppe (Krzastek 2019, Anno 2026)',
+      'Dopingrelevant: WADA-Liste 2026, S4.2, im Wettkampf und außerhalb verboten; namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'In Deutschland zugelassen und verschreibungspflichtig (z. B. Clomifen-ratiopharm 50 mg, Zulassung 27.09.1990): Auslösung des Eisprungs bei Frauen mit Sterilität infolge ausbleibender Ovulation. Zugelassene Dosis laut Fachinformation im ersten Behandlungszyklus 50 mg täglich über 5 Tage; mehr als 6 Behandlungszyklen sollen nicht durchgeführt werden. Für Männer gibt es keine Zulassung, die Anwendung bei Hypogonadismus oder Unfruchtbarkeit des Mannes ist eine nicht zugelassene Anwendung. Enclomifen, das reine trans-Isomer, ist nirgends als Arzneimittel zugelassen. WADA-Verbotsliste 2026, S4.2, im Wettkampf und außerhalb verboten; in der Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41066380/',
+    sources: [
+      { title: 'Fachinformation Clomifen-ratiopharm 50 mg Tabletten (Stand August 2016)', url: 'https://www.fachinfo.de/fi/pdf/003764/clomifen-ratiopharm-r-50-mg-tabletten' },
+      { title: 'Legro RS et al., N Engl J Med 2014 – Letrozol gegen Clomifen bei Unfruchtbarkeit durch PCOS, doppelblind, 750 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/25006718/' },
+      { title: 'Hohl A et al., Arch Endocrinol Metab 2025 – Meta-Analyse randomisierter Studien zu Clomifen und Enclomifen bei männlichem Hypogonadismus', url: 'https://pubmed.ncbi.nlm.nih.gov/41066380/' },
+      { title: 'Chua ME et al., Andrology 2013 – Meta-Analyse zu Clomifen oder Tamoxifen bei unerklärter männlicher Unfruchtbarkeit, 11 randomisierte Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/23970453/' },
+      { title: 'Krzastek SC et al., J Urol 2019 – Langzeitanwendung von Clomifen bei Hypogonadismus, rückblickend, 400 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/31216250/' },
+      { title: 'Helo S et al., BJU Int 2017 – Enclomifen- und Zuclomifen-Spiegel bei Männern unter Clomifen-Dauertherapie, 15 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/27511863/' },
+      { title: 'Anno Y et al., Int J Urol 2026 – Clomifen bei Late-Onset-Hypogonadismus, Beschwerde-Fragebogen über ein Jahr, rückblickend, 54 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/41250569/' },
+      { title: 'WADA-Verbotsliste 2026, S4.2 Antiöstrogene Substanzen – amtliche Bekanntmachung im Bundesgesetzblatt II 2025 Nr. 312', url: 'https://www.recht.bund.de/bgbl/2/2025/312/regelungstext.pdf' },
+      { title: 'Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 2. Antiestrogene Stoffe', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'raloxifen',
+    name: 'Raloxifen',
+    altNames: 'Evista, Optruma, Raloxifenhydrochlorid',
+    class: 'Selektiver Östrogenrezeptor-Modulator (SERM), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen zur Behandlung und Vorbeugung der Osteoporose nach den Wechseljahren: weniger Wirbelbrüche, aber nicht weniger Hüftbrüche. Nebenbei sinkt das Brustkrebsrisiko, dafür steigt das Thromboserisiko. Bei Männern wird es außerhalb der Zulassung gegen Brustdrüsenwachstum genutzt – dazu gibt es nur eine rückblickende Auswertung bei Jugendlichen.',
+    moa: 'Raloxifen bindet an den Östrogenrezeptor und wirkt gewebeabhängig: am Knochen östrogenartig, an Brust und Gebärmutter als Gegenspieler. Es bremst so den Knochenabbau, ohne die Gebärmutterschleimhaut anzuregen – in der MORE-Studie verursachte es weder Blutungen noch Brustschmerzen. Beim Mann stieg unter Raloxifen in einer kleinen Studie das Testosteron um 20 Prozent, gleichzeitig sank IGF-1 um 24,5 Prozent; die Autoren führen das auf die teilweise östrogenartige Wirkung zurück (Duschek 2005).',
+    benefits: [
+      'Wirbelbrüche: In MORE mit 7.705 Frauen mit Osteoporose sank der Anteil mit neuem Wirbelbruch über 3 Jahre von 10,1 auf 6,6 Prozent in der zugelassenen Dosis (RR 0,7); Brüche außerhalb der Wirbelsäule wurden nicht seltener (Ettinger 1999)',
+      'Brustkrebs: In RUTH mit 10.101 Frauen 44 Prozent weniger invasiver Brustkrebs (HR 0,56), absolut 1,2 Fälle weniger je 1.000 Frauen und Behandlungsjahr (Barrett-Connor 2006); in STAR mit 19.747 Frauen so wirksam wie Tamoxifen, mit weniger Thromboembolien und Katarakten (Vogel 2006)',
+      'Gebärmutter: anders als Tamoxifen keine Anregung der Schleimhaut; in STAR 23 gegenüber 36 Fällen von Gebärmutterkrebs, statistisch nicht signifikant (Vogel 2006)',
+      'Gynäkomastie bei Jugendlichen: In einer rückblickenden Auswertung von 38 Jungen mit anhaltender Pubertätsgynäkomastie schrumpfte der Knoten unter Raloxifen bei 86 Prozent um mehr als die Hälfte, unter Tamoxifen bei 41 Prozent – nicht randomisiert (Lawrence 2004)',
+      'Männer unter Hormonentzug wegen Prostatakrebs: Knochendichte der Hüfte +1,1 Prozent statt −2,6 Prozent ohne Raloxifen (offene randomisierte Studie, 48 Männer, Smith 2004)'
+    ],
+    risks: [
+      'Venöse Thromboembolien: in MORE etwa dreimal so häufig wie unter Placebo (RR 3,1), in RUTH HR 1,44 – absolut 1,2 zusätzliche Fälle je 1.000 Frauen und Jahr',
+      'Tödliche Schlaganfälle in RUTH häufiger (59 gegenüber 39, HR 1,49), Schlaganfälle insgesamt nicht (Barrett-Connor 2006)',
+      'Kein Schutz vor Herzinfarkt: koronare Ereignisse in RUTH unverändert (HR 0,95)',
+      'Häufigste Nebenwirkungen laut EMA: Hitzewallungen und grippeähnliche Beschwerden; Gegenanzeigen unter anderem frühere oder bestehende Thrombosen und Lungenembolien, Lebererkrankung, schwere Nierenerkrankung, ungeklärte Gebärmutterblutungen',
+      'Beim Mann sank IGF-1 um 24,5 Prozent (30 ältere Männer, 3 Monate, Duschek 2005); Langzeitdaten zu Männern fehlen',
+      'Dopingrelevant: WADA-Liste 2026, S4.2, im Wettkampf und außerhalb verboten; namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'In der EU zentral zugelassen (Evista, seit 05.08.1998) und verschreibungspflichtig: Behandlung und Vorbeugung der Osteoporose bei Frauen nach den Wechseljahren; zugelassene Dosis eine Tablette mit 60 mg einmal täglich, für die Langzeitanwendung vorgesehen. Laut EMA ist eine deutliche Senkung von Wirbel-, nicht aber von Hüftbrüchen belegt. Für Männer gibt es keine Zulassung; die Anwendung gegen Gynäkomastie ist eine nicht zugelassene Anwendung. WADA-Verbotsliste 2026, S4.2, im Wettkampf und außerhalb verboten; in der Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/10517716/',
+    sources: [
+      { title: 'EMA – Evista (Raloxifen), europäischer Bewertungsbericht und Zusammenfassung', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/evista' },
+      { title: 'Ettinger B et al., JAMA 1999 – MORE, Raloxifen und Wirbelbrüche, 7.705 Frauen mit Osteoporose', url: 'https://pubmed.ncbi.nlm.nih.gov/10517716/' },
+      { title: 'Barrett-Connor E et al., N Engl J Med 2006 – RUTH, Raloxifen, Herz-Kreislauf-Ereignisse und Brustkrebs, 10.101 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/16837676/' },
+      { title: 'Vogel VG et al., JAMA 2006 – STAR, Tamoxifen gegen Raloxifen zur Brustkrebsvorbeugung, 19.747 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/16754727/' },
+      { title: 'Cuzick J et al., Lancet 2013 – Meta-Analyse der SERM-Vorbeugungsstudien, 83.399 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/23639488/' },
+      { title: 'Duschek EJ et al., Maturitas 2005 – Raloxifen, Testosteron und IGF-1 bei 30 älteren Männern, randomisiert, doppelblind', url: 'https://pubmed.ncbi.nlm.nih.gov/15978972/' },
+      { title: 'Lawrence SE et al., J Pediatr 2004 – Raloxifen und Tamoxifen bei Pubertätsgynäkomastie, rückblickend, 38 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/15238910/' },
+      { title: 'Smith MR et al., J Clin Endocrinol Metab 2004 – Raloxifen gegen Knochenverlust unter GnRH-Agonisten, 48 Männer mit Prostatakrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/15292315/' },
+      { title: 'WADA-Verbotsliste 2026, S4.2 Antiöstrogene Substanzen – amtliche Bekanntmachung im Bundesgesetzblatt II 2025 Nr. 312', url: 'https://www.recht.bund.de/bgbl/2/2025/312/regelungstext.pdf' },
+      { title: 'Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 2. Antiestrogene Stoffe', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'minoxidil',
+    name: 'Minoxidil',
+    altNames: 'Regaine, Alopexy, Lonolox, orales Minoxidil, LDOM',
+    class: 'Kaliumkanalöffner und Vasodilatator; als Lösung oder Schaum bis 5 % rezeptfrei in der Apotheke, als Tablette verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Als Lösung oder Schaum auf der Kopfhaut seit Jahrzehnten gegen erblich bedingten Haarausfall zugelassen und in verblindeten Studien belegt. Die Tablette ist in Deutschland nur gegen schwer behandelbaren Bluthochdruck zugelassen; gegen Haarausfall wird sie außerhalb der Zulassung verschrieben. Im bisher einzigen verblindeten Direktvergleich war sie dem Schaum nicht überlegen.',
+    moa: 'Als Tablette erweitert Minoxidil über sein Stoffwechselprodukt Minoxidilsulfat die kleinen Arterien, indem es Kaliumkanäle in der Gefäßmuskulatur öffnet; der Blutdruck sinkt, Herzfrequenz und Salz-Wasser-Rückhalt steigen gegenläufig. Wie es das Haarwachstum anregt, ist trotz über 30 Jahren Anwendung nur teilweise verstanden: Im Tierversuch verkürzt es die Ruhephase der Haarfollikel, beim Menschen wahrscheinlich ebenso; zudem verlängert es vermutlich die Wachstumsphase und vergrößert die Follikel. Ob dabei dieselben Kaliumkanäle beteiligt sind, ist nicht bewiesen.',
+    benefits: [
+      'Auf der Kopfhaut belegt: In einer verblindeten Studie mit 393 Männern war die 5-%-Lösung nach 48 Wochen der 2-%-Lösung und Placebo bei Haarzählung und Einschätzung von Teilnehmern und Prüfärzten überlegen, mit 45 % mehr Nachwuchs als unter 2 % (Olsen 2002)',
+      'Bei Frauen wirkte 5-%-Schaum einmal täglich in einer Studie mit 113 Frauen nicht schlechter als 2-%-Lösung zweimal täglich, bei weniger Juckreiz und Schuppen (Blume-Peytavi 2011)',
+      'Oral in niedriger Dosis: In einer verblindeten Studie mit 90 Männern war die Tablette nach 24 Wochen der 5-%-Lösung bei der Haardichte nicht überlegen; nur in der Fotobewertung am Wirbel schnitt sie besser ab (Penha 2024)',
+      'In einer Netzwerk-Meta-Analyse aus 23 Studien an Männern zeigte orales Minoxidil nach 24 Wochen den größten Zuwachs an Terminalhaaren – ein indirekter Vergleich, keine direkte Studie (Gupta 2022)',
+      'Auf der Kopfhaut seit Jahrzehnten angewendet, bis 5 % ohne Rezept in der Apotheke erhältlich'
+    ],
+    risks: [
+      'Tablette: In der Fachinformation stehen Perikarderguss (bei 3 bis 5 % der behandelten Bluthochdruck-Patienten ohne Dialyse, gelegentlich mit Tamponade), Salz- und Wasserrückhalt mit Ödemen, Reflextachykardie und Angina pectoris – erhoben bei Blutdruckdosen, für die niedrige Dosis gegen Haarausfall gibt es keine vergleichbaren kontrollierten Daten',
+      'Hypertrichose: verstärkter Haarwuchs an Gesicht und Körper bei 49 % unter der Tablette in der Studie von Penha 2024 und bei 15,1 % in einer rückblickenden Auswertung von 1.404 Patienten (Vañó-Galván 2021)',
+      'In derselben Auswertung Benommenheit (1,7 %), Wassereinlagerungen (1,3 %) und Herzrasen (0,9 %); keine lebensbedrohlichen Ereignisse, aber ohne Kontrollgruppe',
+      'Auf der Kopfhaut: Juckreiz und Hautreizung, häufiger mit 5 % als mit 2 %; Säuglinge bekamen nach Hautkontakt mit behandelten Stellen der Eltern Hypertrichose, die sich nach Monaten zurückbildete (EMA 2024)',
+      'Gegenanzeigen der Tablette unter anderem Phäochromozytom und Lungenhochdruck durch Mitralstenose; die Tablette gehört in ärztliche Hand, gegen Haarausfall ist sie eine nicht zugelassene Anwendung'
+    ],
+    status: 'Zur Anwendung auf der Kopfhaut bei erblich bedingtem Haarausfall bis 5 % nicht verschreibungspflichtig (Ausnahme in der Arzneimittelverschreibungsverordnung), als Arzneimittel aber apothekenpflichtig. Tabletten (Lonolox) verschreibungspflichtig und nur bei therapieresistentem Bluthochdruck zugelassen; gegen Haarausfall eine nicht zugelassene Anwendung. Seit 2024 Warnhinweis zu Hypertrichose bei Säuglingen nach Hautkontakt (EU-weites PSUR-Verfahren).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38598226/',
+    sources: [
+      { title: 'Olsen EA et al., J Am Acad Dermatol 2002 – 5 % gegen 2 % Minoxidil-Lösung und Placebo, 393 Männer, 48 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/12196747/' },
+      { title: 'Blume-Peytavi U et al., J Am Acad Dermatol 2011 – 5-%-Schaum gegen 2-%-Lösung bei 113 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/21700360/' },
+      { title: 'Penha MA et al., JAMA Dermatol 2024 – orales gegen topisches Minoxidil, randomisierte Studie mit 90 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/38598226/' },
+      { title: 'Gupta AK et al., JAMA Dermatol 2022 – Netzwerk-Meta-Analyse Minoxidil, Finasterid und Dutasterid bei Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/35107565/' },
+      { title: 'Vañó-Galván S et al., J Am Acad Dermatol 2021 – Sicherheit von niedrig dosiertem oralem Minoxidil, 1.404 Patienten, retrospektiv', url: 'https://pubmed.ncbi.nlm.nih.gov/33639244/' },
+      { title: 'Messenger AG, Rundegren J, Br J Dermatol 2004 – Wirkmechanismen von Minoxidil am Haar', url: 'https://pubmed.ncbi.nlm.nih.gov/14996087/' },
+      { title: 'Fachinformation Lonolox (Minoxidil-Tabletten, Stand November 2023)', url: 'https://www.fachinfo.de/fi/pdf/001272' },
+      { title: 'EMA/CMDh 2024 – Minoxidil zur Anwendung auf der Haut: Hypertrichose bei Säuglingen nach Hautkontakt (PSUSA/00002067/202310)', url: 'https://www.ema.europa.eu/en/documents/psusa/minoxidil-topical-formulation-cmdh-scientific-conclusions-grounds-variation-amendments-product-information-timetable-implementation-psusa-00002067-202310_en.pdf' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 – Minoxidil, ausgenommen zur topischen Anwendung bei androgenetischer Alopezie bis 5 %', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Arzneimittelgesetz § 43 – Apothekenpflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__43.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'dutasterid',
+    name: 'Dutasterid',
+    altNames: 'Avodart, Zagallo, Dutasteride',
+    class: '5-alpha-Reduktase-Hemmer (Typ I und II), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'In Deutschland gegen die gutartige Prostatavergrößerung zugelassen, gegen Haarausfall eine nicht zugelassene Anwendung – in Japan und Südkorea dafür zugelassen. In verblindeten Studien über 24 Wochen wuchs mehr Haar als unter Finasterid. Daneben stehen eine Halbwertszeit von Wochen und dieselben Warnhinweise wie bei Finasterid.',
+    moa: 'Hemmt beide Formen der 5-alpha-Reduktase (Typ I und Typ II) und senkt damit die Umwandlung von Testosteron zu Dihydrotestosteron (DHT) stärker als Finasterid, das nur Typ II hemmt. Bei Männern mit Prostatavergrößerung sank das DHT im Blut unter der zugelassenen Dosis nach einem Jahr im Median um 94 %. DHT ist das Hormon, das bei erblich bedingtem Haarausfall die Follikel verkleinert. Die Halbwertszeit liegt bei 3 bis 5 Wochen.',
+    benefits: [
+      'In einer verblindeten Studie mit 917 Männern zwischen 20 und 50 steigerte die zugelassene Prostata-Dosis nach 24 Wochen Haarzahl und Haardicke stärker als Finasterid 1 mg und Placebo, bei ähnlicher Nebenwirkungsrate (Gubelin Harcha 2014)',
+      'Dosisabhängiger Effekt auf die Haarzahl in einer verblindeten Studie mit 416 Männern; Kopfhaut- und Blut-DHT sanken mit steigender Dosis (Olsen 2006)',
+      'In einer koreanischen Phase-III-Studie mit 153 Männern 12,2 Haare pro Quadratzentimeter mehr nach sechs Monaten, unter Placebo 4,7 (Eun 2010)',
+      'In einer Netzwerk-Meta-Analyse aus 23 Studien der größte Zuwachs der Gesamthaarzahl nach 24 Wochen, 7,1 Haare pro Quadratzentimeter mehr als unter Finasterid 1 mg (Gupta 2022)',
+      'Gegen Haarausfall bei Männern in Südkorea und seit 2015 in Japan zugelassen; gegen Prostatavergrößerung in über 100 Ländern'
+    ],
+    risks: [
+      'Sexuelle Nebenwirkungen: In einer Studie mit 117 Männern mit Haarausfall traten Erektionsstörungen, Libidoverlust und Ejakulationsstörungen unter Dutasterid bei 16 % auf, unter Placebo bei 8 %; sie bildeten sich zurück (Tsai 2018)',
+      'Stimmung: Seit 2025 nennt die Produktinformation depressive Verstimmung und Suizidgedanken, die unter Finasterid berichtet wurden; ein Zusammenhang mit Dutasterid ließ sich in der europäischen Prüfung nicht belegen, der Hinweis gilt vorsorglich',
+      'Prostatakrebs: In der REDUCE-Studie insgesamt weniger Prostatakrebs, aber mehr hochgradige Tumoren (Gleason 8 bis 10: 12 gegen 1 in den Jahren 3 und 4); der PSA-Wert halbiert sich unter der Behandlung und muss neu bewertet werden',
+      'Gegenanzeige bei Frauen, Kindern und Jugendlichen; undichte Kapseln dürfen sie nicht berühren, bei schwangerer Partnerin wird ein Kondom empfohlen, weil männliche Föten geschädigt werden können',
+      'Lange Halbwertszeit von 3 bis 5 Wochen; Spermienzahl, Ejakulatvolumen und Beweglichkeit sanken in einer Studie an 27 gesunden Männern nach einem Jahr um 23, 26 und 18 % (Fachinformation)',
+      'Die Studien zum Haar liefen meist nur 24 Wochen; Daten zur jahrelangen Anwendung stammen von älteren Männern mit Prostatavergrößerung'
+    ],
+    status: 'In Deutschland zugelassen und verschreibungspflichtig (Avodart 0,5 mg) bei mäßigen bis schweren Beschwerden durch gutartige Prostatavergrößerung. Gegen Haarausfall in Deutschland eine nicht zugelassene Anwendung; zugelassen dafür in Japan (Zagallo, 2015) und Südkorea. Rote-Hand-Brief zu Finasterid und Dutasterid vom 15.09.2025.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/24411083/',
+    sources: [
+      { title: 'Gubelin Harcha W et al., J Am Acad Dermatol 2014 – Dutasterid gegen Finasterid und Placebo bei Haarausfall, 917 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/24411083/' },
+      { title: 'Olsen EA et al., J Am Acad Dermatol 2006 – Dutasterid in mehreren Dosen gegen Finasterid und Placebo, 416 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/17110217/' },
+      { title: 'Eun HC et al., J Am Acad Dermatol 2010 – Phase-III-Studie Dutasterid gegen Placebo, 153 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/20605255/' },
+      { title: 'Gupta AK et al., JAMA Dermatol 2022 – Netzwerk-Meta-Analyse Minoxidil, Finasterid und Dutasterid bei Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/35107565/' },
+      { title: 'Tsai TF et al., J Dermatol 2018 – sexuelle Funktion unter Dutasterid bei Haarausfall, 117 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/29667763/' },
+      { title: 'Andriole GL et al., N Engl J Med 2010 – REDUCE-Studie, Dutasterid und Prostatakrebsrisiko', url: 'https://pubmed.ncbi.nlm.nih.gov/20357281/' },
+      { title: 'Fachinformation Avodart 0,5 mg Weichkapseln (Stand September 2025)', url: 'https://www.fachinfo.de/fi/pdf/001806/avodart-0-5-mg-weichkapseln' },
+      { title: 'PMDA/MHLW 2015 – Zulassungsbericht Zagallo (Dutasterid) bei androgenetischer Alopezie des Mannes, Japan', url: 'https://www.pmda.go.jp/files/000245812.pdf' },
+      { title: 'EMA, Überprüfung finasterid- und dutasteridhaltiger Arzneimittel 2025 – Suizidgedanken', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products' },
+      { title: 'BfArM, Rote-Hand-Brief zu Finasterid und Dutasterid vom 15.09.2025 – Suizidgedanken', url: 'https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RHB/2025/rhb-finasterid.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'tretinoin',
+    name: 'Tretinoin',
+    altNames: 'Retinsäure, all-trans-Retinsäure, Vitamin-A-Säure, Cordes VAS, Renova, Retin-A',
+    class: 'Retinoid zur Anwendung auf der Haut, verschreibungspflichtig',
+    emoji: '🧴',
+    short: 'In Deutschland als Creme gegen Akne zugelassen und verschreibungspflichtig. Gegen lichtbedingte Hautalterung ist es eines der wenigen Anti-Aging-Mittel mit verblindeten Studien bis zwei Jahre – der Effekt betrifft vor allem feine Fältchen und ist kleiner, als „Verjüngung“ klingt. In der Schwangerschaft ist es kontraindiziert.',
+    moa: 'Tretinoin ist die Säureform von Vitamin A und wirkt über Retinsäure-Rezeptoren im Zellkern auf die Genablesung in der Haut. Bei Akne normalisiert es die Verhornung im Haarfollikel. Bei lichtgeschädigter Haut verdickt sich die Oberhaut, die Hornschicht wird kompakter, und in der Lederhaut steigt ein Marker der Kollagenneubildung. Die Wirkkette ist am Menschen gut beschrieben, auch in Gewebeproben.',
+    benefits: [
+      'Akne: In einer Netzwerk-Meta-Analyse aus 221 randomisierten Studien mit über 65.000 Teilnehmern wirkten topische Retinoide auf entzündliche Läsionen vergleichbar mit Antibiotika; am stärksten waren Kombinationen mit einem topischen Retinoid (Huang 2023)',
+      'Lichtalterung: In der ersten verblindeten Studie besserten sich alle 30 behandelten Unterarme; im Gesicht 14 von 15 Teilnehmern unter Tretinoin, keiner unter der wirkstofffreien Creme (Weiss 1988)',
+      'In einer Studie mit 296 Teilnehmern besserte sich die Lichtalterung nach 24 Wochen unter 0,05-%-Creme bei 68 %, unter der wirkstofffreien Creme bei 43 %; niedrigere Konzentrationen unterschieden sich nicht signifikant (Olsen 1992)',
+      'Über zwei Jahre mit 204 Teilnehmern: mehr Besserung bei Fältchen, Pigmentflecken und fahler Haut als unter Placebo, ein Marker der Kollagenneubildung stieg, keine Zunahme auffälliger Zellveränderungen (Kang 2005)',
+      'In den USA ist eine 0,02-%-Creme ausdrücklich zur Milderung feiner Gesichtsfältchen zugelassen'
+    ],
+    risks: [
+      'Kontraindiziert in der Schwangerschaft und bei Frauen, die eine Schwangerschaft planen – vorsorglich, obwohl die Aufnahme über die Haut gering ist (EMA 2018)',
+      'Häufig Rötung, Schuppung, Brennen, Stechen, Trockenheit und Juckreiz, vor allem am Anfang; zu Beginn kann sich die Akne vorübergehend verschlechtern',
+      'Erhöhte Lichtempfindlichkeit; in Mausversuchen verstärkte Tretinoin möglicherweise die tumorauslösende Wirkung von UV-Strahlung, für den Menschen ist das nicht untersucht',
+      'Laut US-Zulassung beseitigt es keine Falten, repariert keine Lichtschäden und kehrt Hautalterung nicht um; auf tiefe Falten, Schlaffheit und Altersflecken ist kein Effekt belegt',
+      'Gegen Hautalterung ist es in Deutschland nicht zugelassen; die Anwendung dafür ist eine nicht zugelassene Anwendung und gehört in ärztliche Hand'
+    ],
+    status: 'In Deutschland verschreibungspflichtig (Arzneimittelverschreibungsverordnung) und als Creme gegen Akne vulgaris zugelassen (z. B. Cordes VAS 0,05 %); gegen Hautalterung nicht zugelassen. In den USA ist Tretinoin-Creme 0,02 % (Renova) als Zusatzmaßnahme gegen feine Gesichtsfältchen zugelassen. EU-Prüfverfahren 2018: topische Retinoide in der Schwangerschaft kontraindiziert.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/16060712/',
+    sources: [
+      { title: 'Weiss JS et al., JAMA 1988 – Tretinoin bessert lichtgealterte Haut, doppelblinde Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/3336176/' },
+      { title: 'Olsen EA et al., J Am Acad Dermatol 1992 – Tretinoin-Creme in drei Konzentrationen gegen Vehikel, 296 Teilnehmer, 24 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/1552056/' },
+      { title: 'Kang S et al., Am J Clin Dermatol 2005 – Tretinoin 0,05 % gegen Placebo über zwei Jahre, 204 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/16060712/' },
+      { title: 'Huang CY et al., Ann Fam Med 2023 – Netzwerk-Meta-Analyse von 221 randomisierten Studien zur Aknebehandlung', url: 'https://pubmed.ncbi.nlm.nih.gov/37487721/' },
+      { title: 'Fachinformation Cordes VAS 0,5 mg/g Creme (Tretinoin, Stand Juli 2024)', url: 'https://www.fachinfo.de/fi/pdf/005779/cordes-r-vas' },
+      { title: 'US-Fachinformation Renova (Tretinoin-Creme 0,02 %), DailyMed', url: 'https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=9f0a0e8d-1051-48a4-80c5-1bd260dd9c36&type=pdf' },
+      { title: 'EMA, Überprüfung retinoidhaltiger Arzneimittel 2018 – Schwangerschaftsverhütung und topische Retinoide', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 – Tretinoin', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'isotretinoin',
+    name: 'Isotretinoin',
+    altNames: 'Accutane, Roaccutan, Aknenormin, 13-cis-Retinsäure, orales Isotretinoin',
+    class: 'Retinoid (Vitamin-A-Säure) zum Einnehmen, verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen gegen schwere Akne, die auf Antibiotika und äußerliche Mittel nicht anspricht, und seit den 1980er-Jahren im Einsatz. Die Wirkung ist dosisabhängig gezeigt, die Studienqualität laut Cochrane aber überwiegend niedrig. Isotretinoin ist stark fruchtschädigend, deshalb gilt ein Schwangerschaftsverhütungsprogramm. Sexuelle Funktionsstörungen stehen seit 2017 in der EU-Produktinformation; einen ursächlichen Zusammenhang mit psychischen Störungen konnte die EMA nicht belegen.',
+    moa: 'Isotretinoin ist eine Form der Vitamin-A-Säure (13-cis-Retinsäure) und wird als Kapsel eingenommen. Laut Cochrane-Übersicht ist es das einzige Aknemittel, das an allen Hauptursachen der Akne ansetzt. Retinoide greifen zugleich in die Entwicklung des Embryos ein: Die Fehlbildungen nach Isotretinoin betreffen typischerweise Gesicht, Herz, Thymus und Nervensystem und ähneln denen aus Tierversuchen; als möglicher Mechanismus gilt eine Störung der Neuralleistenzellen (Lammer 1985). Wie psychische und sexuelle Nebenwirkungen entstehen, ist nicht geklärt; für die sexuellen nennt der Sicherheitsausschuss der EMA einen Abfall des Testosterons im Blut als möglichen Mechanismus.',
+    benefits: [
+      'Zugelassen bei schweren Formen der Akne (knotig, konglobiert oder mit Narbenrisiko), die auf Antibiotika zum Einnehmen und äußerliche Behandlung nicht ansprechen (harmonisierte EU-Fachinformation 2003)',
+      'Dosisabhängige Wirkung bei schwerer Akne: Eine Abnahme der entzündlichen Läsionen um 95 Prozent erreichten nach 20 Wochen 58, 80 und 90 Prozent unter 0,1, 0,5 und 1 mg/kg täglich (RCT mit 150 Teilnehmenden, ausgewertet in Costa 2018)',
+      'Gegenüber Antibiotika plus äußerlicher Behandlung ärztliche Gesamtbeurteilung möglicherweise um 15 Prozent besser, RR 1,15 (2 Studien, 351 Teilnehmende), bei niedriger Evidenzqualität (Cochrane, Costa 2018)',
+      'Niedrigere Tagesdosis bei mittelschwerer Akne: 0,25–0,4 mg/kg ähnlich wirksam wie 0,5–0,7 mg/kg, mit weniger Nebenwirkungen; Rückfall nach einem Jahr bei 3 von 17 gegenüber 2 von 16 Patienten (RCT, 60 Patienten, Lee 2011)',
+      'Auf Bevölkerungsebene kein erhöhtes Risiko psychischer Erkrankungen, RR 1,08 (0,99 bis 1,19), in einer Meta-Analyse über 25 Studien mit 1.625.891 Teilnehmenden (Tan 2024)'
+    ],
+    risks: [
+      'Stark fruchtschädigend: Von 154 dokumentierten Schwangerschaften unter Isotretinoin endeten 21 mit fehlgebildeten Kindern und 12 mit Fehlgeburten; relatives Risiko für ausgewählte schwere Fehlbildungen 25,6 (Lammer 1985)',
+      'Schwangerschaftsverhütungsprogramm: Schwangerschaftstests vor, während und nach der Behandlung, mindestens eine wirksame Verhütungsmethode und ein Bestätigungsformular (EMA 2018)',
+      'Psychische Veränderungen: Depression, psychotische Symptome und selten Suizidversuche und Suizide wurden berichtet; die EMA konnte 2018 keinen ursächlichen Zusammenhang belegen, verlangt aber Aufklärung und Beobachtung',
+      'Sexuelle Funktionsstörungen einschließlich Erektionsstörungen und verminderter Libido stehen seit 2017 in der EU-Produktinformation (PRAC/CMDh)',
+      'Häufige, meist leichte Nebenwirkungen wie trockene Haut und Lippen, Lippenentzündung und Übelkeit; gegenüber Antibiotika 67 Prozent häufiger, RR 1,67 (Costa 2018)',
+      'Niedrige Dauerdosis bei leichter bis mittelschwerer Akne ist nicht zugelassen; eine anhaltende Remission ist laut Meta-Analyse unter konventioneller Dosis wahrscheinlicher (Al Muqarrab 2022, niedrige Evidenzqualität)'
+    ],
+    status: 'Als Arzneimittel zum Einnehmen zugelassen und in Deutschland verschreibungspflichtig (Anlage 1 AMVV). Anwendungsgebiet laut harmonisierter EU-Fachinformation: schwere Akne, die auf Antibiotika zum Einnehmen und äußerliche Behandlung nicht anspricht. Zugelassene Dosierung: Beginn mit 0,5 mg pro kg Körpergewicht täglich, Bereich 0,5 bis 1,0 mg/kg; eine Behandlung dauert meist 16 bis 24 Wochen, als Gesamtdosis gelten 120 bis 150 mg/kg. Für Frauen im gebärfähigen Alter gilt ein Schwangerschaftsverhütungsprogramm mit Verhütung ab einem Monat vor bis einen Monat nach der Behandlung, 2018 von der EMA aktualisiert. Die Anwendung in niedriger Dauerdosis bei leichter bis mittelschwerer Akne ist nicht zugelassen. In Großbritannien müssen seit Oktober 2023 bei unter 18-Jährigen zwei unabhängige Verordner zustimmen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30484286/',
+    sources: [
+      { title: 'Costa CS et al., Cochrane Database Syst Rev 2018 – Isotretinoin zum Einnehmen bei Akne, 31 RCTs mit 3.836 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/30484286/' },
+      { title: 'Lee JW et al., Br J Dermatol 2011 – konventionelle, niedrige und intermittierende Dosis im Vergleich, RCT mit 60 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/21114478/' },
+      { title: 'Al Muqarrab F, Almohssen A, Dermatol Ther 2022 – Meta-Analyse niedrig dosiertes Isotretinoin bei leichter bis mittelschwerer Akne', url: 'https://pubmed.ncbi.nlm.nih.gov/35000295/' },
+      { title: 'Tan NKW et al., JAMA Dermatol 2024 – Meta-Analyse zu Suizid und psychischen Erkrankungen, 25 Studien mit 1.625.891 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/38019562/' },
+      { title: 'Lammer EJ et al., N Engl J Med 1985 – Retinsäure-Embryopathie, 154 Schwangerschaften unter Isotretinoin', url: 'https://pubmed.ncbi.nlm.nih.gov/3162101/' },
+      { title: 'EMA – Überprüfung retinoidhaltiger Arzneimittel 2018: Schwangerschaftsverhütungsprogramm und Warnhinweis zu psychischen Störungen', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products' },
+      { title: 'EMA/CPMP – Isotretinoin, Schiedsverfahren nach Artikel 29, harmonisierte Fachinformation 2003', url: 'https://www.ema.europa.eu/en/documents/referral/isotretinoin-article-29-referral-annex-i-ii-iii_en.pdf' },
+      { title: 'EMA/CMDh – Isotretinoin zum Einnehmen, PSUSA-Bewertung 2017: sexuelle Funktionsstörungen als Nebenwirkung', url: 'https://www.ema.europa.eu/en/documents/psusa/isotretinoin-oral-formulations-cmdh-scientific-conclusions-and-grounds-variation-amendments-product-information-and-timetable-implementation-psusa00010488201611_en.pdf' },
+      { title: 'MHRA, 31.10.2023 – Isotretinoin: zwei Verordner bei unter 18-Jährigen, Abfrage von psychischer Gesundheit und Sexualfunktion', url: 'https://www.gov.uk/government/news/treatment-with-isotretinoin-for-patients-under-18-must-be-approved-by-two-prescribers-under-new-mhra-rules' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe)', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'orlistat',
+    name: 'Orlistat (Xenical / alli)',
+    altNames: 'Xenical, alli, Orlistat 60 mg, Orlistat 120 mg, Lipasehemmer',
+    class: 'Lipasehemmer zum Einnehmen, 120 mg verschreibungspflichtig, 60 mg rezeptfrei',
+    emoji: '💊',
+    short: 'Hemmt die Fettverdauung im Darm: Etwa 30 Prozent des Nahrungsfetts werden unverdaut ausgeschieden. Seit 1998 in der EU zum Abnehmen zugelassen, mit 120 mg verschreibungspflichtig, mit 60 mg rezeptfrei. Der Effekt ist belegt und klein, 2,6 bis 2,9 kg mehr als unter Placebo nach einem Jahr; über vier Jahre gab es bei gestörter Glukosetoleranz weniger neue Diabetesfälle.',
+    moa: 'Orlistat hemmt die fettspaltenden Enzyme (Lipasen) in Magen und Darm. Dadurch werden etwa 30 Prozent des Fetts einer Mahlzeit nicht verdaut und unverändert ausgeschieden (EMA). Der Wirkstoff wird kaum ins Blut aufgenommen und setzt im Verdauungstrakt an, nicht am Appetit; GLP-1-Rezeptor-Agonisten wie Semaglutid oder Liraglutid wirken dagegen über Sättigung und Magenentleerung. Aus dem Wirkprinzip folgen die typischen Nebenwirkungen, fettige Stühle und Stuhldrang, und eine möglicherweise schlechtere Aufnahme der fettlöslichen Vitamine A, D, E und K.',
+    benefits: [
+      'Gewicht nach einem Jahr: 2,9 kg mehr Gewichtsverlust als unter Placebo (Meta-Analyse, 16 Studien, 10.631 Teilnehmende, Rucker 2007); 2,6 kg in einer Netzwerk-Meta-Analyse, mindestens 5 Prozent verloren 44 gegenüber 23 Prozent unter Placebo (Khera 2016)',
+      'Diabetes-Vorbeugung: nach 4 Jahren 6,2 gegenüber 9,0 Prozent neue Typ-2-Diabetes-Fälle, relative Senkung 37,3 Prozent; der Effekt zeigte sich nur bei gestörter Glukosetoleranz (XENDOS, 3.305 Teilnehmende, Torgerson 2004)',
+      'Gewicht nach 4 Jahren 5,8 gegenüber 3,0 kg (XENDOS)',
+      'Rezeptfreie 60-mg-Dosis: 3,05 gegenüber 1,90 kg nach 16 Wochen, dazu leicht gesenktes Gesamt- und LDL-Cholesterin (RCT, 391 Übergewichtige, Anderson 2006)',
+      'Seit 1998 in der EU zugelassen; laut EMA bis 2012 von über 53 Millionen Menschen weltweit angewendet'
+    ],
+    risks: [
+      'Magen-Darm-Nebenwirkungen häufig: öliger Ausfluss, Bauchbeschwerden, Stuhldrang, Fettstühle, Blähungen, vor allem zu Beginn (EMA)',
+      'Kleiner Effekt: In einer Netzwerk-Meta-Analyse schnitt Orlistat unter fünf Abnehmwirkstoffen am schwächsten ab, Liraglutid erreichte 5,3 kg gegenüber 2,6 kg (Khera 2016)',
+      'Viele Abbrüche: In den Langzeitstudien schieden 30 bis 40 Prozent aus (Rucker 2007), in XENDOS beendeten 52 Prozent unter Orlistat die vier Jahre',
+      'Fettlösliche Vitamine A, D, E und K werden möglicherweise schlechter aufgenommen; die Fachinformation von alli sieht deshalb ein Multivitaminpräparat zur Nacht vor',
+      'Gegenanzeigen unter anderem Ciclosporin, Warfarin und andere Gerinnungshemmer zum Einnehmen, chronische Malabsorption, Cholestase, Schwangerschaft und Stillzeit; Vorsicht bei Levothyroxin, Antiepileptika, Amiodaron und bei der Pille, wenn starker Durchfall auftritt (alli)',
+      'Leber: Die EMA prüfte 2012 einzelne schwere Fälle und fand keinen guten Beleg für einen ursächlichen Zusammenhang; seither wird in der Produktinformation auf sehr seltene Lebernebenwirkungen hingewiesen'
+    ],
+    status: 'In der EU zugelassen: Xenical (120 mg) seit 29.07.1998, verschreibungspflichtig, für Erwachsene mit einem BMI ab 30 oder über 28 mit Risikofaktoren, zusammen mit einer leicht kalorienreduzierten Kost; zugelassene Dosis 120 mg zu jeder Hauptmahlzeit, Abbruch nach 12 Wochen, wenn nicht mindestens 5 Prozent abgenommen wurden. alli (60 mg) seit 22.07.2007 ohne Rezept, für Erwachsene mit einem BMI ab 28; zugelassene Dosis 60 mg dreimal täglich, höchstens drei Kapseln in 24 Stunden und höchstens sechs Monate. In Deutschland ist Orlistat verschreibungspflichtig, ausgenommen Präparate mit höchstens 60 mg je Einheit und höchstens 180 mg pro Tag (Anlage 1 AMVV). Zum Abnehmen keine Kassenleistung (§ 34 SGB V).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/14693982/',
+    sources: [
+      { title: 'Torgerson JS et al., Diabetes Care 2004 – XENDOS, Orlistat zur Diabetes-Vorbeugung, RCT mit 3.305 Teilnehmenden über 4 Jahre', url: 'https://pubmed.ncbi.nlm.nih.gov/14693982/' },
+      { title: 'Rucker D et al., BMJ 2007 – Meta-Analyse zur Langzeit-Pharmakotherapie bei Adipositas, 16 Orlistat-Studien mit 10.631 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/18006966/' },
+      { title: 'Khera R et al., JAMA 2016 – Netzwerk-Meta-Analyse von fünf Abnehmwirkstoffen, 28 RCTs mit 29.018 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/27299618/' },
+      { title: 'Anderson JW et al., Ann Pharmacother 2006 – Orlistat 60 mg, RCT mit 391 Übergewichtigen über 16 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/16940406/' },
+      { title: 'EMA – Xenical, europäischer Bewertungsbericht (EPAR)', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/xenical' },
+      { title: 'EMA – alli, europäischer Bewertungsbericht (EPAR)', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/alli' },
+      { title: 'EMA – alli, Produktinformation (Fachinformation)', url: 'https://www.ema.europa.eu/en/documents/product-information/alli-epar-product-information_en.pdf' },
+      { title: 'EMA, 16.02.2012 – positives Nutzen-Risiko-Verhältnis orlistathaltiger Arzneimittel nach Prüfung von Leberschäden bestätigt', url: 'https://www.ema.europa.eu/en/news/european-medicines-agency-confirms-positive-benefit-risk-balance-orlistat-containing-medicines' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe)', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Sozialgesetzbuch V, § 34 – von der Versorgung ausgeschlossene Arzneimittel', url: 'https://www.gesetze-im-internet.de/sgb_5/__34.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'vardenafil',
+    name: 'Vardenafil (Levitra)',
+    altNames: 'Levitra, Levitra Schmelztablette, PDE5-Hemmer',
+    class: 'Phosphodiesterase-5-Hemmer (PDE5-Hemmer), verschreibungspflichtiges Arzneimittel',
+    emoji: '💊',
+    short: 'Der dritte PDE5-Hemmer in der EU, seit 2003 als Levitra gegen Erektionsstörungen zugelassen. Er wirkt wie Sildenafil und Tadalafil über das Enzym PDE5 und ähnlich kurz wie Sildenafil. Die Wirkung ist in zahlreichen RCTs belegt, auch bei Diabetes. Im großen Netzwerkvergleich war Vardenafil 10 mg weniger wirksam als Sildenafil 50 mg, bei ähnlich vielen Nebenwirkungen.',
+    moa: 'Vardenafil hemmt wie Sildenafil und Tadalafil das Enzym Phosphodiesterase-5 (PDE5), das den Botenstoff cGMP abbaut. Bei sexueller Erregung setzen Nervenenden Stickstoffmonoxid frei, das die cGMP-Bildung anstößt; cGMP entspannt die glatte Muskulatur der Gefäße im Schwellkörper. Vardenafil verstärkt dieses Signal, ohne sexuelle Stimulation wirkt es nicht. Laut Fachinformation hemmt es PDE5 mehr als 15-fach stärker als PDE6, das in der Netzhaut vorkommt, und mehr als 300-fach stärker als PDE11. Die Halbwertszeit liegt bei etwa 4 bis 5 Stunden, also im Bereich von Sildenafil; Tadalafil wirkt deutlich länger.',
+    benefits: [
+      'Meta-Analyse über 14 RCTs mit 3.221 Patienten: Erektionsfunktion (IIEF-EF) 7,93 Punkte besser als unter Placebo, Anteil gelungener Penetrationen 26 und gelungener Geschlechtsverkehre 35 Prozentpunkte höher (Wang 2021)',
+      'Diabetes: verbesserte Erektionen bei 57 Prozent (10 mg) und 72 Prozent (20 mg) gegenüber 13 Prozent unter Placebo nach 12 Wochen (RCT, 452 Männer mit Diabetes, Goldstein 2003)',
+      'Nach erfolglosem Sildenafil: verbesserte Erektionen bei 61,8 gegenüber 14,7 Prozent; der Anteil gelungener Geschlechtsverkehre stieg unter Vardenafil von 10,5 auf 46,1 Prozent (RCT, 463 Männer, Carson 2004)',
+      'Seit 06.03.2003 in der EU zugelassen, als Filmtablette und als Schmelztablette'
+    ],
+    risks: [
+      'Gegenanzeige mit Nitraten und Stickstoffmonoxid-Donatoren sowie mit Riociguat – Gefahr eines starken Blutdruckabfalls',
+      'Gegenanzeige mit starken CYP3A4-Hemmern wie Ketoconazol, Itraconazol, Ritonavir oder Indinavir; Ritonavir verlängerte die Halbwertszeit auf 25,7 Stunden (Fachinformation)',
+      'QT-Zeit: Einzeldosen von 10 und 80 mg verlängerten das QTc-Intervall im Mittel um 8 und 10 Millisekunden; klinische Bedeutung unklar, bei Risikofaktoren wie angeborenem langem QT oder niedrigem Kalium besser vermeiden (Fachinformation)',
+      'Häufige Nebenwirkungen: Kopfschmerz, Gesichtsröte, Verdauungsbeschwerden, Schnupfen; in der Netzwerk-Meta-Analyse ähnlich viele Nebenwirkungen wie unter Sildenafil 50 mg bei geringerer Wirksamkeit (Chen 2015)',
+      'Selten: plötzlicher Sehverlust durch nicht-arteriitische anteriore ischämische Optikusneuropathie (NAION); Gegenanzeige, wenn ein Auge durch NAION bereits Sehkraft verloren hat',
+      'Vorsicht mit Alphablockern; Grapefruit erhöht die Wirkstoffspiegel'
+    ],
+    status: 'In der EU seit 06.03.2003 als Levitra zugelassen, in Deutschland verschreibungspflichtig (Anlage 1 AMVV). Anwendungsgebiet: erektile Dysfunktion bei erwachsenen Männern. Zugelassene Dosierung laut Fachinformation: 10 mg bei Bedarf etwa 25 bis 60 Minuten vor dem Geschlechtsverkehr, je nach Wirkung und Verträglichkeit 5 oder höchstens 20 mg, höchstens einmal täglich. Anders als Sildenafil und Tadalafil ist Vardenafil nicht für Lungenhochdruck zugelassen, anders als Tadalafil auch nicht für Beschwerden der gutartigen Prostatavergrößerung.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33432539/',
+    sources: [
+      { title: 'Wang H et al., Adv Ther 2021 – Meta-Analyse zu Vardenafil bei erektiler Dysfunktion, 14 Studien mit 3.221 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/33432539/' },
+      { title: 'Chen L et al., Eur Urol 2015 – Netzwerk-Meta-Analyse der PDE5-Hemmer, 82 Studien mit 47.626 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/25817916/' },
+      { title: 'Goldstein I et al., Diabetes Care 2003 – Vardenafil bei Männern mit Diabetes, RCT mit 452 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/12610037/' },
+      { title: 'Carson CC et al., BJU Int 2004 – Vardenafil nach erfolglosem Sildenafil, RCT mit 463 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/15610110/' },
+      { title: 'EMA – Levitra, europäischer Bewertungsbericht (EPAR)', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/levitra' },
+      { title: 'EMA – Levitra, Produktinformation (Fachinformation)', url: 'https://www.ema.europa.eu/en/documents/product-information/levitra-epar-product-information_en.pdf' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe)', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'avanafil',
+    name: 'Avanafil (Spedra)',
+    altNames: 'Spedra, Stendra, PDE5-Hemmer',
+    class: 'Phosphodiesterase-5-Hemmer (PDE5-Hemmer), verschreibungspflichtiges Arzneimittel',
+    emoji: '💊',
+    short: 'Seit 2013 als Spedra gegen Erektionsstörungen in der EU zugelassen und damit deutlich jünger als Sildenafil, Tadalafil und Vardenafil. Herausgestellt wird der schnelle Wirkeintritt: Nach etwa 15 Minuten gelang Geschlechtsverkehr bei 25,9 bis 29,1 Prozent der Versuche, unter Placebo bei 14,9 Prozent. Im Netzwerkvergleich war Avanafil 100 mg deutlich weniger wirksam als Sildenafil 50 mg, bei ähnlich vielen Nebenwirkungen.',
+    moa: 'Avanafil hemmt wie die anderen PDE5-Hemmer den Abbau des Botenstoffs cGMP und verstärkt so das Stickstoffmonoxid-Signal, das bei sexueller Erregung die Gefäßmuskulatur im Schwellkörper entspannt; ohne Stimulation wirkt es nicht. Laut Fachinformation hemmt es PDE5 mehr als 100-fach stärker als PDE6, das in der Netzhaut vorkommt. Es wird rasch aufgenommen: Die höchste Konzentration im Blut ist im Median nach 30 bis 45 Minuten erreicht, die Halbwertszeit liegt bei etwa 6 bis 17 Stunden. Eine fettreiche Mahlzeit verzögert die Aufnahme im Mittel um 1,25 Stunden.',
+    benefits: [
+      'Zulassungsstudie: alle drei Dosen besser als Placebo bei Erektionsfunktion und gelungenem Geschlechtsverkehr; Versuche innerhalb von 15 Minuten nach Einnahme zu 64 bis 71 Prozent erfolgreich gegenüber 27 Prozent unter Placebo (Phase 3, 646 Männer, 12 Wochen, Goldstein 2012)',
+      'Wirkeintritt gezielt gemessen: erfolgreicher Geschlechtsverkehr innerhalb von etwa 15 Minuten bei 25,9 Prozent (100 mg) und 29,1 Prozent (200 mg) der Versuche gegenüber 14,9 Prozent unter Placebo (RCT, 440 Männer, Hellstrom 2015)',
+      'Meta-Analyse über 8 RCTs mit 3.709 Patienten: gelungene Penetration RR 3,20, gelungener Geschlechtsverkehr RR 2,53, Erektionsfunktion (IIEF-EF) 4,57 Punkte besser als unter Placebo (Li 2019)',
+      'Nach nervenschonender Prostataentfernung: alle drei Hauptendpunkte mit 100 und 200 mg erreicht, weniger als 2 Prozent Abbrüche wegen Nebenwirkungen (Phase 3, 298 Patienten, Mulhall 2013)',
+      'Seit 21.06.2013 in der EU zugelassen'
+    ],
+    risks: [
+      'Gegenanzeige mit Nitraten und Stickstoffmonoxid-Donatoren; Avanafil verstärkte die blutdrucksenkende Wirkung von Nitraten (Fachinformation)',
+      'Gegenanzeige mit starken CYP3A4-Hemmern wie Ketoconazol, Ritonavir oder Clarithromycin; Ritonavir erhöhte die Wirkstoffmenge im Blut auf etwa das 13-Fache (Fachinformation)',
+      'Häufigste Nebenwirkungen Kopfschmerz, Gesichtsröte und verstopfte Nase; Nebenwirkungen insgesamt häufiger als unter Placebo, RR 1,78 (Li 2019)',
+      'Alkohol kann zusammen mit Avanafil Blutdruckabfall, Schwindel oder Ohnmacht begünstigen (Fachinformation)',
+      'NAION (plötzlicher Sehverlust) und plötzlicher Hörverlust wurden selten unter anderen PDE5-Hemmern berichtet, in den Avanafil-Studien nicht; Gegenanzeige bei schwerer Nieren- oder Leberfunktionsstörung',
+      'Kürzere Marktbeobachtung als bei Sildenafil, Tadalafil und Vardenafil'
+    ],
+    status: 'In der EU seit 21.06.2013 als Spedra zugelassen, in Deutschland verschreibungspflichtig (Anlage 1 AMVV). Anwendungsgebiet: erektile Dysfunktion bei erwachsenen Männern. Zugelassene Dosierung laut Fachinformation: 100 mg bei Bedarf etwa 15 bis 30 Minuten vor dem Geschlechtsverkehr, je nach Wirkung und Verträglichkeit 50 mg oder höchstens 200 mg, höchstens einmal täglich. Andere Anwendungsgebiete wie Lungenhochdruck oder Prostatabeschwerden deckt die Zulassung nicht ab.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/22248153/',
+    sources: [
+      { title: 'Goldstein I et al., J Sex Med 2012 – Phase-3-Studie zu Avanafil, 646 Männer über 12 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/22248153/' },
+      { title: 'Hellstrom WJ et al., J Urol 2015 – Wirksamkeit 15 Minuten nach Einnahme, RCT mit 440 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/25591992/' },
+      { title: 'Li J et al., Am J Mens Health 2019 – Meta-Analyse zu Avanafil, 8 RCTs mit 3.709 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/31672076/' },
+      { title: 'Mulhall JP et al., J Urol 2013 – Phase-3-Studie nach nervenschonender radikaler Prostatektomie, 298 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/23219537/' },
+      { title: 'Chen L et al., Eur Urol 2015 – Netzwerk-Meta-Analyse der PDE5-Hemmer, 82 Studien mit 47.626 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/25817916/' },
+      { title: 'EMA – Spedra, europäischer Bewertungsbericht (EPAR)', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/spedra' },
+      { title: 'EMA – Spedra, Produktinformation (Fachinformation)', url: 'https://www.ema.europa.eu/en/documents/product-information/spedra-epar-product-information_en.pdf' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe)', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
   }
 
 ];
@@ -6000,6 +6968,19 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'orlistat': 'Stoffwechsel',
+  'trestolon': 'Exercise',
+  'mesterolon': 'Exercise',
+  'turinabol': 'Exercise',
+  'methasteron': 'Exercise',
+  'boldenon': 'Exercise',
+  'drostanolon': 'Exercise',
+  'metenolon': 'Exercise',
+  'stanozolol': 'Exercise',
+  'oxymetholon': 'Exercise',
+  'methandrostenolon': 'Exercise',
+  'oxandrolon': 'Exercise',
+  'trenbolon': 'Exercise',
   'c60': 'Longevity',
   'nad-nasenspray': 'Longevity',
   'bempedoinsaeure': 'Stoffwechsel',

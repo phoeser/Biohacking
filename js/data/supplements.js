@@ -3716,6 +3716,600 @@ const SUPPLEMENTS = [
     evidence: 'niedrig',
     sources: 'Keine natürliche Quelle; Fertigprodukte aus Pflanzenextrakten, Cholinquellen, Aminosäuren und Vitaminen',
     link: 'https://pubmed.ncbi.nlm.nih.gov/26876224/'
+  },
+  {
+    id: 'arjuna',
+    name: 'Arjuna',
+    altNames: 'Terminalia arjuna, Arjuna-Rinde, Arjun',
+    category: 'Kräuter',
+    tags: ['herz', 'blutdruck', 'cholesterin'],
+    short: 'Rinde eines indischen Baums, im Ayurveda seit langem als Herzmittel verwendet. Es gibt mehrere kleine Studien, fast alle aus Indien: bei stabiler Angina positiv, bei Herzschwäche in der größten placebokontrollierten Studie ohne Wirkung auf die Pumpfunktion.',
+    description: 'Arjuna ist die Stammrinde von Terminalia arjuna, einem Baum aus Indien. Sie enthält unter anderem Triterpensäuren wie Arjunasäure, Glykoside (Arjunoside), Flavone und Gerbstoffe. Eine Meta-Analyse von 2026 über 9 randomisierte Studien mit 537 Menschen mit Herzschwäche fand eine geringere linksventrikuläre Masse und ein höheres HDL-Cholesterin, aber keine signifikante Verbesserung der Auswurfleistung. Die größte doppelblinde Einzelstudie mit 100 Patienten fand nach 12 Wochen keinen Unterschied bei der Auswurfleistung. Die Studien sind klein, kurz und stammen überwiegend aus Indien.',
+    benefits: [
+      'Stabile Angina: In einer doppelblinden Crossover-Studie mit 58 Männern weniger Anginaanfälle und längere Belastungsdauer auf dem Laufband als unter Placebo, ähnlich wie unter Isosorbidmononitrat; jede Behandlungsphase dauerte nur eine Woche (Bharani 2002)',
+      'Herzschwäche: Meta-Analyse über 9 randomisierte Studien mit 537 Patienten, linksventrikuläre Masse gesunken (mittlere Differenz −44,32), HDL gestiegen (mittlere Differenz 3,53), Auswurfleistung nicht signifikant verbessert (Kumar 2026)',
+      'Blutdruck: In einer dreifach verblindeten Studie mit 44 Menschen mit Bluthochdruck Stufe 1, alle zusätzlich mit Telmisartan behandelt, sank der Blutdruck nach 28 Tagen stärker als unter Placebo (Nazir 2026)',
+      'Blutfette: In einer randomisierten Studie mit 105 Patienten mit koronarer Herzkrankheit sanken nach 30 Tagen Rindenpulver Gesamtcholesterin um 9,7 Prozent und LDL um 15,8 Prozent, verglichen mit den Ausgangswerten derselben Gruppe (Gupta 2001)'
+    ],
+    risks: [
+      'Die größte placebokontrollierte Studie (100 Patienten mit Herzschwäche, 12 Wochen) fand keine Verbesserung der Auswurfleistung und bei keiner sekundären Zielgröße einen Unterschied außer einem Antioxidans-Marker (Maulik 2016)',
+      'Sicherheitsdaten reichen nur über Tage bis wenige Monate; in den Studien wurden keine relevanten Nebenwirkungen berichtet, Langzeitdaten fehlen',
+      'Die Qualität ayurvedischer Produkte ist laut der Gemeinsamen Expertenkommission von BVL und BfArM sehr heterogen; amtliche Untersuchungen einzelner eingeführter ayurvedischer Nahrungsergänzungsmittel fanden sehr hohe Gehalte an Blei, Quecksilber und Arsen',
+      'Die Studien prüften Arjuna fast immer zusätzlich zu einer Standardtherapie; Wechselwirkungen mit Herzmedikamenten sind nicht systematisch untersucht',
+      'Zu Schwangerschaft, Stillzeit und Kindern liegen in den ausgewerteten Studien keine Daten vor'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge gibt es nicht. In Studien verwendet: 500 mg Rindenextrakt alle 8 Stunden über je eine Woche (Bharani 2002), 750 mg wässriger Extrakt zweimal täglich über 12 Wochen (Maulik 2016), 500 mg Rindenpulver täglich über 30 Tage (Gupta 2001). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Bei Herzerkrankungen gehört die Entscheidung in ärztliche Hände, weil die Studien Arjuna nur zusätzlich zur Standardtherapie geprüft haben.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Stammrinde des Arjuna-Baums (Terminalia arjuna), als Pulver oder Extrakt',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42389976/'
+  },
+  {
+    id: 'schwarzer-knoblauch',
+    name: 'Schwarzer Knoblauch',
+    altNames: 'Black Garlic, Aged Black Garlic (ABG), fermentierter Knoblauch',
+    category: 'Kräuter',
+    tags: ['herz', 'blutdruck', 'cholesterin', 'anti-oxidant'],
+    short: 'Knoblauch, der wochenlang bei Hitze und hoher Luftfeuchte gereift ist, dadurch schwarz und mild im Geruch. Kleine Studien finden eine leichte Blutdrucksenkung, bei den Blutfetten bleiben die Ergebnisse uneinheitlich. Nicht zu verwechseln mit gealtertem Knoblauchextrakt (AGE).',
+    description: 'Schwarzer Knoblauch entsteht aus frischem Knoblauch, der über längere Zeit bei 60 bis 90 Grad und 80 bis 90 Prozent Luftfeuchte gehalten wird. Dabei sinkt der Gehalt an Allicin, der scharfe Geruch verschwindet; das Produkt ist reich an S-Allylcystein. Das ist etwas anderes als gealterter Knoblauchextrakt (Aged Garlic Extract, AGE), für den roher Knoblauch mehr als zehn Monate in wässrigem Ethanol lagert, und als Knoblauchpulver aus frischem Knoblauch. Am Menschen gibt es wenige kleine randomisierte Studien, mehrere davon mit standardisierten Extrakten wie ABG10+. Gemessen wurden Blutdruck und Blutfette, keine Herz-Kreislauf-Ereignisse.',
+    benefits: [
+      'Diastolischer Blutdruck: 67 Menschen mit erhöhtem LDL, doppelblinde Crossover-Studie, 6 Wochen 250 mg standardisierter Extrakt gegen Placebo, diastolisch −5,85 mmHg, vor allem bei Männern (Valls 2022)',
+      'Zusätzlich zu Blutdruckmedikamenten: Bei Bluthochdruck Stufe 1 sank der Blutdruck nach 12 Wochen um 1,8 mmHg systolisch und 1,5 mmHg diastolisch stärker als unter Placebo, dreifach verblindet (Serrano 2023)',
+      'HDL: In einer doppelblinden Studie mit 60 Menschen mit leicht erhöhtem Cholesterin stieg nach 12 Wochen mit 6 g täglich das HDL, Apolipoprotein B sank; Gesamtcholesterin, LDL und Triglyzeride blieben unverändert (Jung 2014)',
+      'Herzschwäche: In einer randomisierten Studie mit 120 Patienten mit koronarer Herzkrankheit verbesserten sich nach 6 Monaten Auswurfleistung, NT-proBNP und Lebensqualität gegenüber Placebo; Einzelstudie aus China (Liu 2018)',
+      'Als Lebensmittel: 12 g, etwa 4 Zehen, täglich über 12 Wochen erhöhten Apolipoprotein A1 und senkten Adhäsionsmoleküle im Blut; Vorher-nachher-Vergleich ohne Placebo (Villaño 2023)'
+    ],
+    risks: [
+      'Blutfette: In der neuesten dreifach verblindeten Studie mit 75 Teilnehmenden änderten sich nach 12 Wochen Gesamtcholesterin, LDL, HDL und Triglyzeride nicht (Serrano 2026)',
+      'Die Blutdruckeffekte sind klein und stammen aus wenigen kleinen Studien mit standardisierten Extrakten; unabhängige Wiederholungen fehlen',
+      'Für Knoblauchzubereitungen allgemein nennt die EMA ein Blutungsrisiko: Vorsicht unter Gerinnungshemmern und Thrombozytenaggregationshemmern, Verzicht 7 Tage vor Operationen; ob das für schwarzen Knoblauch im gleichen Maß gilt, ist nicht eigens untersucht',
+      'Gegenanzeige für Knoblauchzubereitungen laut EMA: HIV-Therapie mit Saquinavir und Ritonavir, weil der Wirkspiegel sinken kann',
+      'Von der EMA beschriebene Nebenwirkungen von Knoblauchzubereitungen: Mundgeruch und Körpergeruch, Magen-Darm-Beschwerden, allergische Reaktionen, Kopfschmerzen, Blutungen'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge gibt es nicht. In Studien verwendet: 250 mg standardisierter Extrakt täglich über 6 bis 12 Wochen (Valls 2022, Serrano 2026), 6 g täglich über 12 Wochen (Jung 2014), 12 g, also etwa 4 Zehen, täglich über 12 Wochen (Villaño 2023). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Als Lebensmittel wird schwarzer Knoblauch pur gegessen oder in Speisen verwendet. Wer Gerinnungshemmer nimmt oder eine Operation vor sich hat, sollte Knoblauchpräparate ärztlich ansprechen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Gereifter Knoblauch (Allium sativum), als ganze Knolle, Paste oder Extrakt',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/35276764/'
+  },
+  {
+    id: 'diosmin',
+    name: 'Diosmin',
+    altNames: 'Diosminum, mikronisiertes Diosmin, MPFF (mikronisierte gereinigte Flavonoidfraktion aus 90 Prozent Diosmin und 10 Prozent Hesperidin), Daflon',
+    category: 'Antioxidant',
+    tags: ['durchblutung', 'kreislauf', 'arzneimittel'],
+    short: 'Ein Flavonoid, das in Österreich als rezeptfreies Venenmittel zugelassen ist und zugleich als Nahrungsergänzung verkauft wird. Bei Venenschwäche gehen Schwellungen leicht zurück, die Lebensqualität ändert sich laut Cochrane kaum; bei Hämorrhoiden weniger Blutungen, in Studien mit methodischen Schwächen.',
+    description: 'Diosmin gehört zu den Venenmitteln (Phlebotonika). Im Darm wird es von der Darmflora zu Diosmetin gespalten und in dieser Form aufgenommen; die orale Bioverfügbarkeit von mikronisiertem Diosmin liegt laut österreichischer Fachinformation bei etwa 60 Prozent. Viele Studien prüften nicht reines Diosmin, sondern die mikronisierte gereinigte Flavonoidfraktion (MPFF) aus 90 Prozent Diosmin und 10 Prozent Hesperidin. Der Cochrane-Review von 2020 über Venenmittel bei chronischer Veneninsuffizienz findet mit moderater Sicherheit eine leichte Abnahme von Beinödemen, aber kaum einen Unterschied bei der Lebensqualität. In Deutschland war Diosmin als Venenmittel im Handel, heute wird es hier auch als Nahrungsergänzungsmittel angeboten; verschreibungspflichtig ist es nicht.',
+    benefits: [
+      'Ödeme bei chronischer Veneninsuffizienz: Venenmittel insgesamt verringern Schwellungen leicht (relatives Risiko 0,70; 13 Studien, 1.245 Teilnehmende) und den Knöchelumfang um 4,27 mm, jeweils moderate Evidenzsicherheit; 11 der 56 auswertbaren Studien betrafen Hidrosmin und Diosmin (Cochrane, Martinez-Zapata 2020)',
+      'Hämorrhoiden: Venenmittel verringerten in 20 Studien mit 2.344 Teilnehmenden Blutung, Juckreiz und Ausfluss und besserten die Gesamtbeschwerden; beim Schmerz war der Effekt nicht signifikant, die Autoren nennen methodische Schwächen (Cochrane, Perera 2012)',
+      'Venöses Beingeschwür: Zusätzlich zu Kompression und Wundversorgung heilten Geschwüre unter MPFF nach 6 Monaten häufiger (relative Verbesserung 32 Prozent; 5 Studien, 723 Patienten) und schneller, im Mittel 16 statt 21 Wochen (Coleridge-Smith 2005)',
+      'Niedrig dosiertes Diosmin (450 mg täglich) verringerte in einer doppelblinden Studie mit 72 Auswertbaren nach 8 Wochen Beinumfang und Schmerzwerte gegenüber Placebo (Serra 2021)',
+      'Venentonus: MPFF verstärkte bei 10 venengesunden Frauen ab der ersten Stunde nach Einnahme den Venentonus, gemessen per Plethysmografie (Amiel 1998)'
+    ],
+    risks: [
+      'Kaum Einfluss auf die Lebensqualität (standardisierte Mittelwertdifferenz −0,06; 5 Studien, 1.639 Teilnehmende) und bei der Geschwürheilung kein Effekt über alle Venenmittel (relatives Risiko 0,94; niedrige Evidenzsicherheit) im Cochrane-Review 2020',
+      'Mehr Nebenwirkungen als unter Placebo (relatives Risiko 1,14; 37 Studien, 5.789 Teilnehmende), am häufigsten Magen-Darm-Beschwerden (Cochrane 2020)',
+      'Laut Fachinformation häufig Durchfall, Verdauungsbeschwerden, Übelkeit und Erbrechen; selten Kopfschmerzen und Schwindel',
+      'Hemmt bei Gesunden Cytochrom-P450-Enzyme; die Fachinformation nennt mögliche Veränderungen der Pharmakokinetik von Diclofenac und Metronidazol',
+      'In der Schwangerschaft laut Fachinformation vorsichtshalber meiden, in der Stillzeit und unter 18 Jahren nicht empfohlen',
+      'Wirkt laut Fachinformation nicht bei Beinschwellungen durch Herz-, Leber- oder Nierenerkrankungen; plötzliche oder einseitige Schwellungen gehören ärztlich abgeklärt'
+    ],
+    dosage: 'Keine Empfehlung. In Österreich ist das Arzneimittel Diosmin Genericon mit 1.000 mg mikronisiertem Diosmin je Tablette rezeptfrei in Apotheken zugelassen; die Fachinformation sieht bei chronischer Veneninsuffizienz eine Tablette täglich vor, bei akuten Hämorrhoidalbeschwerden kurzfristig mehr. In Studien verwendet: 450 mg niedrig dosiertes Diosmin täglich über 8 Wochen (Serra 2021). Eine amtliche Höchstmenge für Nahrungsergänzungsmittel gibt es nicht.',
+    intake: 'Keine Einnahmeempfehlung. Laut Fachinformation wird das Arzneimittel zu einer Mahlzeit eingenommen. Wer Medikamente nimmt, die über Cytochrom-P450-Enzyme abgebaut werden, sollte Diosmin in der Apotheke oder ärztlich ansprechen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Flavonoid; in Präparaten meist als mikronisiertes Diosmin oder als MPFF (90 Prozent Diosmin, 10 Prozent Hesperidin)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33141449/'
+  },
+  {
+    id: 'krilloel',
+    name: 'Krillöl',
+    altNames: 'Krill Oil, Lipidextrakt aus antarktischem Krill (Euphausia superba)',
+    category: 'Fettsäure',
+    tags: ['herz', 'cholesterin', 'gelenke', 'muskel'],
+    short: 'Öl aus antarktischem Krill, das die Omega-3-Fettsäuren EPA und DHA überwiegend als Phospholipide liefert statt als Triglyceride wie Fischöl. Ob es dadurch besser aufgenommen wird, ist uneinheitlich belegt; bei Blutfetten wirkt es pro Gramm Omega-3 wie Fischöl, gegen Knieschmerz bei Arthrose half es in einer großen Studie nicht.',
+    description: 'Krillöl wird aus antarktischem Krill gewonnen, kleinen Krebstieren. Es enthält EPA und DHA vorwiegend als Phospholipide, Fischöl dagegen als Triglyceride. Daraus wird eine bessere Aufnahme abgeleitet. Die Studien dazu widersprechen sich: In einer doppelblinden Studie von 2026 stiegen EPA und DHA im Plasma unter Krillöl etwa 1,5-mal stärker als unter Fischöl, in einer 12-Wochen-Studie mit niedrigen Mengen stieg der Omega-3-Index gleich stark. Für Blutfette fand eine Netzwerk-Meta-Analyse über 64 Studien keinen Unterschied zu Fischöl, entscheidend war die Menge an Omega-3-Fettsäuren. In der EU ist der Lipidextrakt aus Krill als neuartiges Lebensmittel zugelassen.',
+    benefits: [
+      'Hebt EPA und DHA im Blut: in einer doppelblinden Studie mit 72 Gesunden bei gleicher Omega-3-Menge (1,1 g täglich, 12 Wochen) etwa 1,5-mal stärker als Fischöl (Loukil 2026)',
+      'Senkt Triglyzeride: in einer Netzwerk-Meta-Analyse über 64 randomisierte Studien um 23,26 mg/dl gegenüber Kontrolle (Kim 2020); ein Krillöl-Präparat senkte bei stark erhöhten Werten (520 Patienten) die Triglyzeride nach 12 Wochen um 10,9 Prozentpunkte stärker als Placebo (Mozaffarian 2022)',
+      'Muskel im Alter: 4 g täglich über 6 Monate steigerten bei 102 gesunden Menschen über 65 Jahren Kniestreckkraft (+9,3 Prozent), Griffkraft (+10,9 Prozent) und Muskeldicke (+3,5 Prozent) gegenüber Placebo; körperliche Leistungstests und Lebensqualität änderten sich nicht (Alkhedhairi 2022)',
+      'Liefert EPA und DHA, für die die EU die Angabe „EPA und DHA tragen zu einer normalen Herzfunktion bei“ zulässt; die positive Wirkung stellt sich laut Verordnung bei 250 mg EPA und DHA täglich ein'
+    ],
+    risks: [
+      'Kniearthrose: 2 g täglich über 24 Wochen verbesserten bei 262 Menschen mit Kniearthrose und Gelenkerguss den Schmerz nicht stärker als Placebo (Laslett 2024, JAMA)',
+      'Kein Vorteil gegenüber Fischöl bei den Blutfetten: Unterschied bei Triglyzeriden −4,07 mg/dl, nicht signifikant; pro Gramm Omega-3 senken beide ähnlich (Kim 2020)',
+      'Der Aufnahmevorteil ist nicht einheitlich: Bei rund 250 bis 290 mg EPA und DHA täglich stieg der Omega-3-Index unter Krillöl, Fischöl und Calanusöl gleich stark (Vosskötter 2023); eine Netzwerk-Meta-Analyse sieht einen Vorteil vor allem bei Mengen unter 2.000 mg (Pham 2024)',
+      'Krill ist ein Krebstier: Die EU-Zulassung schreibt die Bezeichnung „Lipidextrakt aus dem Krebstier antarktischer Krill“ vor, wichtig bei Krebstierallergie',
+      'Die EU begrenzt EPA und DHA aus Krillöl in Nahrungsergänzungsmitteln auf 3.000 mg täglich, für Schwangere und Stillende auf 450 mg',
+      'Bei Gerinnungshemmern und vor Operationen gilt dieselbe Vorsicht wie bei Fischöl'
+    ],
+    dosage: 'Keine Verzehrempfehlung. Die EU-Zulassung als neuartiges Lebensmittel erlaubt in Nahrungsergänzungsmitteln höchstens 3.000 mg EPA und DHA aus Krillöl pro Tag, für Schwangere und Stillende 450 mg. Die EU-Angabe zur Herzfunktion setzt 250 mg EPA und DHA pro Tag voraus. In Studien verwendet: 2 g Krillöl täglich über 24 Wochen (Laslett 2024), 4 g täglich über 6 Monate (Alkhedhairi 2022), 1,1 g Omega-3 aus Krillöl täglich über 12 Wochen (Loukil 2026). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. In den Studien wurde Krillöl als Kapsel eingenommen. Bei Krebstierallergie meiden.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Antarktischer Krill (Euphausia superba), ein kleines Krebstier',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38776073/'
+  },
+  {
+      id: 'bittermelone',
+      name: 'Bittermelone',
+      altNames: 'Momordica charantia, Bittergurke, Balsambirne, Bitter Melon, Karela',
+      category: 'Kräuter',
+      tags: ['blutzucker', 'stoffwechsel', 'cholesterin', 'gewicht'],
+      short: 'Tropisches Gemüse, als Extrakt gegen hohen Blutzucker vermarktet. Die Meta-Analysen widersprechen sich: Einige finden kleine Senkungen von HbA1c und Nüchternzucker, eine Auswertung placebokontrollierter Studien fand keinen Effekt. Zusammen mit Diabetesmedikamenten droht Unterzuckerung.',
+      description: 'Die Bittermelone (Momordica charantia) ist ein Kürbisgewächs, das in Asien, Afrika und Südamerika als Gemüse gegessen und traditionell bei Diabetes eingesetzt wird. Als Nahrungsergänzung wird sie als Pulver oder Extrakt angeboten. Am Menschen ist die Lage uneinheitlich: Eine GRADE-geprüfte Meta-Analyse über 25 Studien fand 2025 kleine bis mittlere Senkungen von Nüchternzucker und HbA1c, eine Meta-Analyse von 2023 über 9 placebokontrollierte Studien mit 414 Teilnehmenden fand dagegen weder beim Blutzucker noch bei Blutfetten oder Gewicht einen signifikanten Effekt. Die Studien sind klein, dauern 4 bis 16 Wochen und verwenden sehr unterschiedliche Zubereitungen. Der Wirkmechanismus beruht überwiegend auf Labor- und Tierdaten; eine Übersicht von 2003 beschreibt strukturelle Ähnlichkeiten einzelner Bestandteile mit tierischem Insulin.',
+      benefits: [
+        'Typ-2-Diabetes, gegen Placebo: Nüchternzucker −0,72 mmol/l, HbA1c −0,26 Prozentpunkte (Meta-Analyse, 10 Studien, 1.045 Teilnehmende, Peter 2019) – Evidenzqualität niedrig bis sehr niedrig',
+        'Prädiabetes und Typ-2-Diabetes: Nüchternzucker SMD −0,46, HbA1c SMD −0,57, HOMA-IR SMD −0,52, keine Wirkung auf die Betazellfunktion (Meta-Analyse, 25 Studien, Mkhize 2025)',
+        'Typ-2-Diabetes: HbA1c −0,38 Prozentpunkte, Gesamtcholesterin −0,38 mmol/l, LDL, HDL und Triglyzeride unverändert (Meta-Analyse, 8 Studien, 423 Patienten, Zhang 2024)',
+        'Blutfette: Gesamtcholesterin −9,7 mg/dl und Triglyzeride −10,2 mg/dl, LDL und HDL nicht signifikant (Meta-Analyse, 8 RCTs, 423 Teilnehmende, Amini 2024)',
+        'Seit Jahrhunderten als Gemüse verzehrt'
+      ],
+      risks: [
+        'Widersprüchliche Wirksamkeit: Gegen Placebo fand eine Meta-Analyse über 9 Studien mit 414 Teilnehmenden keinen signifikanten Effekt auf Nüchternzucker, HbA1c, Blutfette, Gewicht oder Blutdruck (Laczkó-Zöld 2023); eine frühere Auswertung von 4 RCTs mit 208 Teilnehmenden ebenfalls nicht (Yin 2014)',
+        'Unterzuckerung: In der Literatur sind hypoglykämisches Koma und Krampfanfälle bei Kindern beschrieben; zusammen mit blutzuckersenkenden Medikamenten sind additive Effekte möglich (Basch 2003)',
+        'Ein Favismus-ähnliches Krankheitsbild ist beschrieben, relevant bei Glukose-6-phosphat-Dehydrogenase-Mangel (Basch 2003)',
+        'Eingeschränkte Fruchtbarkeit wurde bei Mäusen beobachtet; Daten zu Schwangerschaft und Stillzeit am Menschen fehlen (Basch 2003)',
+        'Einzelfallbericht einer pflanzlich bedingten Leberschädigung nach zwei bis drei Wochen Einnahme, bestätigt durch Gewebeprobe (Guerra 2026)',
+        'Kurze Studiendauer von höchstens 16 Wochen; Langzeitsicherheit ist nicht untersucht'
+      ],
+      dosage: 'Keine Empfehlung. Eine amtliche Höchstmenge von BfR oder EFSA gibt es nicht. Studien verwendeten sehr unterschiedliche Zubereitungen (Saft, Fruchtpulver, Extrakte) über 4 bis 16 Wochen; eine Lipid-Meta-Analyse fand Effekte in der Untergruppe mit bis zu 2.000 mg pro Tag (Amini 2024).',
+      intake: 'Keine Einnahmeempfehlung. Wer Insulin oder andere blutzuckersenkende Medikamente nimmt, sollte Bittermelonen-Präparate wegen des Unterzuckerungsrisikos nur nach ärztlicher Rücksprache und mit Blutzuckerkontrolle verwenden; ein Ersatz für eine Diabetestherapie ist sie nicht.',
+      synergies: [],
+      avoid: [],
+      evidence: 'mittel',
+      sources: 'Frische Bittermelone (Bittergurke) als Gemüse, vor allem in der asiatischen Küche',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/38274207/'
+    },
+  {
+      id: 'garcinia-cambogia',
+      name: 'Garcinia cambogia (Hydroxycitronensäure)',
+      altNames: 'Garcinia gummi-gutta, Malabar-Tamarinde, Hydroxycitronensäure, HCA, Hydroxycitric Acid',
+      category: 'Kräuter',
+      tags: ['gewicht', 'fettverbrennung', 'appetit', 'leber'],
+      short: 'Fruchtschalen-Extrakt mit Hydroxycitronensäure, verkauft als Fatburner. Der Gewichtseffekt liegt in Meta-Analysen bei rund einem Kilogramm, die größte frühe Placebo-Studie fand keinen. Dazu kommen Fälle schwerer Leberschäden: Frankreich hat den Verkauf ausgesetzt, die EFSA konnte keine sichere Aufnahmemenge ableiten.',
+      description: 'Garcinia cambogia, botanisch Garcinia gummi-gutta, ist ein Baum aus Südindien und Südostasien, dessen getrocknete Fruchtschale als Würzmittel dient. Der Hauptinhaltsstoff Hydroxycitronensäure (HCA) hemmt im Labor die ATP-Citrat-Lyase, ein Enzym am Anfang der Fettneubildung; daraus leitet sich die Vermarktung als Fatburner ab. Am Menschen fiel der Effekt klein aus: Eine Meta-Analyse über 9 auswertbare Studien fand 0,88 kg mehr Gewichtsverlust als unter Placebo, die Autoren nennen die klinische Bedeutung unsicher. Parallel sind schwere Leberschäden dokumentiert. Das EFSA-NDA-Panel billigte am 28. Januar 2026 den Entwurf einer Stellungnahme nach Artikel 8 der Verordnung (EG) Nr. 1925/2006, wonach sich keine sichere Aufnahmemenge festlegen lässt; in Frankreich sind Nahrungsergänzungsmittel mit Garcinia cambogia seit April 2025 vom Markt genommen.',
+      benefits: [
+        'Gewicht: 0,88 kg mehr Gewichtsverlust als unter Placebo, Konfidenzintervall bis −0,00 kg (Meta-Analyse, 12 RCTs, davon 9 gepoolt, Onakpoya 2011) – laut Autoren klein und klinisch unsicher',
+        'Gewicht −1,34 kg, BMI −0,99 kg/m², Taillenumfang −4,16 cm gegenüber Placebo (Meta-Analyse, 8 Studien, 530 Teilnehmende, Golzarand 2020)',
+        'Hemmt im Labor die ATP-Citrat-Lyase, ein Enzym der Fettneubildung – der Wirkweg ist biochemisch beschrieben, am Menschen aber nicht als Ursache eines Gewichtseffekts belegt'
+      ],
+      risks: [
+        'Schwere Leberschäden: Im US-Netzwerk DILIN wurden von 2004 bis 2018 22 Fälle mit hoher Sicherheit Garcinia zugeordnet, meist zusammen mit Grüntee; 91 Prozent im Krankenhaus, eine Lebertransplantation, ein Todesfall; das Merkmal HLA-B*35:01 trat gehäuft auf (Vuppalanchi 2022)',
+        'Die französische ANSES erfasste von 2009 bis März 2024 38 Meldungen unerwünschter Wirkungen, darunter akute Hepatitis, Bauchspeicheldrüsenentzündung, Herz- und Muskelschäden, auch bei Menschen ohne Vorerkrankung, und rät der gesamten Bevölkerung vom Verzehr ab (5. März 2025)',
+        'EFSA-Entwurf vom 28. Januar 2026: Für Hydroxycitronensäure und Garcinia-Zubereitungen lässt sich keine sichere Aufnahmemenge festlegen',
+        'Hodentoxizität bei männlichen Ratten unter hohen Dosen bestimmter Extrakte; am Menschen laut BfR bisher ohne Hinweise, aber nicht gezielt untersucht (BfR-Jahresbericht 2015)',
+        'Die Placebo-kontrollierte Studie von Heymsfield 1998 (135 Teilnehmende, 12 Wochen) fand keinen Unterschied bei Gewicht und Fettmasse',
+        'Viele Produkte sind Mischungen; bei den Hydroxycut-Fällen von 2009 konnte die FDA keinen einzelnen verursachenden Inhaltsstoff benennen'
+      ],
+      dosage: 'Keine Empfehlung. Eine amtliche Höchstmenge gibt es nicht; die EFSA konnte im Entwurf vom 28. Januar 2026 keine sichere Aufnahmemenge ableiten. Zur Einordnung der Studien: Heymsfield 1998 gab 1.500 mg Hydroxycitronensäure pro Tag über 12 Wochen.',
+      intake: 'Keine Einnahmeempfehlung. Bei Gelbsucht, dunklem Urin, Oberbauchschmerzen oder ungewohnter Müdigkeit während der Einnahme ist eine ärztliche Abklärung der Leberwerte angezeigt.',
+      synergies: [],
+      avoid: [],
+      evidence: 'mittel',
+      sources: 'Getrocknete Fruchtschale der Malabar-Tamarinde, in Südindien als säuerliches Würzmittel verwendet',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/21197150/'
+    },
+  {
+      id: 'ingwer',
+      name: 'Ingwer',
+      altNames: 'Zingiber officinale, Ingwerwurzel, Zingiberis rhizoma, Ginger, Gingerol',
+      category: 'Kräuter',
+      tags: ['verdauung', 'schwangerschaft', 'blutzucker', 'entzuendung'],
+      short: 'Am besten belegt ist Ingwer gegen Übelkeit: in der Schwangerschaft, nach Operationen und als Ergänzung bei Chemotherapie. Die EMA erkennt ihn als Arzneipflanze zur Vorbeugung von Reiseübelkeit an. Bei Erbrechen und anderen Anwendungen sind die Effekte kleiner oder unsicher.',
+      description: 'Ingwer ist der Wurzelstock von Zingiber officinale, Gewürz und Arzneipflanze zugleich. Die Scharfstoffe Gingerole und Shogaole gelten als wirksame Bestandteile. Am stärksten belegt ist die Wirkung gegen Übelkeit: Eine Meta-Analyse über 12 randomisierte Studien mit 1.278 Schwangeren fand weniger Übelkeit als unter Placebo, aber keine signifikant geringere Zahl an Erbrechen. Nach Operationen senkte mindestens 1 g Ingwer das Risiko für Übelkeit und Erbrechen. Bei Chemotherapie wirkte er in einigen Auswertungen als Ergänzung zu Standard-Antiemetika, nicht als Ersatz. Die EMA führt Ingwerpulver in ihrer EU-Monografie (Revision 2024) als Arzneipflanze mit allgemein anerkannter Verwendung zur Vorbeugung von Übelkeit und Erbrechen bei Reisekrankheit.',
+      benefits: [
+        'Übelkeit in der Schwangerschaft: weniger Übelkeit als unter Placebo, Erbrechen nicht signifikant seltener (Meta-Analyse, 12 RCTs, 1.278 Schwangere, Viljoen 2014)',
+        'Übelkeit und Erbrechen nach Operationen: relatives Risiko 0,69 für Übelkeit und Erbrechen, 0,61 für Erbrechen bei mindestens 1 g Ingwer (Meta-Analyse, 5 RCTs, 363 Patienten, Chaiyakunapruk 2006); geringere Schwere (10 RCTs, 918 Patienten, Tóth 2018)',
+        'Chemotherapie: als Ergänzung zu Standard-Antiemetika weniger schwere akute Übelkeit, RR 0,19 (Meta-Analyse, 35 RCTs, Lin 2025); in einer anderen Auswertung nur weniger akutes Erbrechen, kein Effekt auf Übelkeit (Crichton 2019)',
+        'Von der EMA als pflanzliches Arzneimittel mit allgemein anerkannter Verwendung zur Vorbeugung von Reiseübelkeit eingestuft (EU-Monografie, Revision 1, 2024)',
+        'Typ-2-Diabetes: HbA1c −0,47 Prozentpunkte gegenüber Placebo laut Umbrella-Review, bei begrenzter Qualität der zugrunde liegenden Übersichten (Li 2025)'
+      ],
+      risks: [
+        'Häufig Magenbeschwerden, Aufstoßen, Sodbrennen und Übelkeit (EMA-Monografie)',
+        'Die EMA rät als Vorsichtsmaßnahme von Ingwer-Arzneimitteln in Schwangerschaft und Stillzeit ab, obwohl die vorliegenden Daten keine Fehlbildungen zeigen; die Meta-Analyse von Viljoen fand gegenüber Placebo kein signifikant erhöhtes Fehlgeburtsrisiko, bei sehr breitem Konfidenzintervall',
+        'Für Kinder und Jugendliche unter 18 Jahren bei Reiseübelkeit von der EMA nicht empfohlen, da Daten fehlen',
+        'Allergie gegen Ingwer ist die einzige in der Monografie genannte Gegenanzeige; Wechselwirkungen sind dort keine bekannt',
+        'Wirkung bei Chemotherapie uneinheitlich: Übelkeit insgesamt in einer Meta-Analyse nicht signifikant beeinflusst (Crichton 2019)'
+      ],
+      dosage: 'Keine persönliche Empfehlung. Die EMA-Monografie nennt für Arzneimittel zur Vorbeugung von Reiseübelkeit bei Erwachsenen 1 bis 2 g Ingwerpulver eine Stunde vor Reisebeginn. In der Meta-Analyse zu Operationen wirkte eine feste Dosis von mindestens 1 g (Chaiyakunapruk 2006); in der Schwangerschafts-Analyse schnitten Tagesmengen unter 1.500 mg bei der Übelkeit besser ab (Viljoen 2014). Eine amtliche Höchstmenge für Nahrungsergänzungsmittel gibt es nicht.',
+      intake: 'Keine Einnahmeempfehlung. In der Schwangerschaft gehört die Behandlung von Übelkeit in ärztliche Begleitung oder die der Hebamme; bei Chemotherapie wurde Ingwer in Studien zusätzlich zu, nicht anstelle von Standard-Antiemetika gegeben.',
+      synergies: [],
+      avoid: [],
+      evidence: 'hoch',
+      sources: 'Frische und getrocknete Ingwerwurzel, Ingwertee, Gewürz',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/24642205/'
+    },
+  {
+      id: 'triphala',
+      name: 'Triphala',
+      altNames: 'Triphala Churna, Haritaki, Bibhitaki, Amalaki, Terminalia chebula, Terminalia bellirica, Phyllanthus emblica, Amla',
+      category: 'Kräuter',
+      tags: ['verdauung', 'darm', 'cholesterin', 'zahn'],
+      short: 'Ayurvedische Mischung aus drei getrockneten Früchten, traditionell für die Verdauung. Am Menschen gibt es meist kleine Studien mit gemischten Ergebnissen, die doppelblinde Cholesterinstudie aus Italien blieb ohne Vorteil. Ein eigenes Thema ist die Produktqualität: Jedes fünfte online gekaufte Ayurveda-Präparat enthielt in einer US-Untersuchung Blei, Quecksilber oder Arsen.',
+      description: 'Triphala bedeutet „drei Früchte" und besteht zu gleichen Teilen aus Haritaki (Terminalia chebula), Bibhitaki (Terminalia bellirica) und Amalaki (Phyllanthus emblica, Amla). In der ayurvedischen Medizin gilt die Mischung als mildes Abführ- und Verdauungsmittel. Die Früchte enthalten viel Gerbstoffe und Polyphenole wie Gallussäure, Chebulagin- und Chebulinsäure; Wirkmechanismen sind überwiegend im Labor und am Tier beschrieben. Eine systematische Übersicht über 12 randomisierte Studien mit 749 Teilnehmenden fand in einem Teil der Studien niedrigere Blutfette, Blutzucker- und Gewichtswerte, verlangt aber größere, sauber geplante Studien. Die einzige doppelblinde, placebokontrollierte Studie aus Europa (Guggulu plus Triphala, 90 Teilnehmende) fand keinen Vorteil gegenüber Placebo. Für die traditionelle Hauptanwendung, die Verdauung, liegen kaum belastbare kontrollierte Daten vor.',
+      benefits: [
+        'Blutfette, Blutzucker und Gewicht: in einem Teil von 12 randomisierten Studien mit 749 Teilnehmenden niedrigere Werte, Nüchternzucker nur bei Diabetes gesenkt; keine schweren Nebenwirkungen berichtet (systematische Übersicht, Phimarn 2021) – kleine Studien, uneinheitliche Zubereitungen',
+        'Als Mundspülung bei Zahnfleischentzündung in 7 RCTs ähnlich wirksam wie Chlorhexidin, bei starker Heterogenität (Meta-Analyse, AlJameel 2020) – betrifft die äußerliche Anwendung, nicht die Einnahme',
+        'Einarmige Sicherheitsstudie an 20 Gesunden: 2.500 mg wässriger Extrakt über vier Wochen ohne schwere Nebenwirkungen (Phetkate 2020)',
+        'Seit Jahrhunderten in der ayurvedischen Medizin verwendet'
+      ],
+      risks: [
+        'Doppelblinde, placebokontrollierte Studie (90 Teilnehmende, drei Monate, Kombination mit Guggulu): kein Vorteil bei Gesamt- und LDL-Cholesterin, BMI oder Taillenumfang; 2 von 46 Teilnehmenden der Verumgruppe bekamen einen allergischen Hautausschlag (Donato 2021)',
+        'Schwermetalle in Ayurveda-Produkten: 20,7 Prozent von 193 online gekauften Ayurveda-Präparaten enthielten nachweisbar Blei, Quecksilber oder Arsen, bei US- wie indischen Herstellern; alle belasteten Produkte überschritten mindestens einen Grenzwert für die tolerierbare tägliche Aufnahme (Saper 2008, JAMA) – die Untersuchung betraf Ayurveda-Präparate allgemein, nicht gezielt Triphala',
+        'Daten zu Schwangerschaft, Stillzeit, Kindern und Langzeiteinnahme fehlen',
+        'Hemmt in menschlichen Lebermikrosomen die Abbauenzyme CYP1A2, CYP3A4, CYP2C9 und CYP2D6 und erhöhte bei Ratten die Bioverfügbarkeit von Midazolam um rund 41 Prozent (Nontakham 2022); Wechselwirkungen am Menschen sind nicht untersucht'
+      ],
+      dosage: 'Keine Empfehlung. Eine amtliche Höchstmenge gibt es nicht. Studien verwendeten unterschiedliche Pulver und Extrakte, etwa 2.500 mg wässrigen Extrakt pro Tag über vier Wochen in einer Sicherheitsstudie an Gesunden (Phetkate 2020).',
+      intake: 'Keine Einnahmeempfehlung. Bei Ayurveda-Präparaten lohnt der Blick auf eine Schwermetallanalyse des Herstellers; nach Saper 2008 schützte die Angabe guter Herstellungspraxis allein nicht vor belasteten Produkten.',
+      synergies: [],
+      avoid: [],
+      evidence: 'niedrig',
+      sources: 'Getrocknete Früchte von Haritaki, Bibhitaki und Amalaki (Amla)',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/33886393/'
+    },
+  {
+    id: 'traubensilberkerze',
+    name: 'Traubensilberkerze (Cimicifuga)',
+    altNames: 'Cimicifuga racemosa, Actaea racemosa, Black Cohosh, Juli-Silberkerze, Cimicifugae rhizoma, Cimicifuga-Wurzelstock',
+    category: 'Kräuter',
+    tags: ['hormone', 'frauen'],
+    short: 'Wurzelstock einer nordamerikanischen Staude, in Deutschland als pflanzliches Arzneimittel gegen Hitzewallungen und Schwitzen in den Wechseljahren zugelassen. Die Studienlage ist umfangreich, aber widersprüchlich: Eine neuere Meta-Analyse findet einen mittleren Effekt, der Cochrane-Review von 2012 keinen Unterschied zu Placebo. Arzneimittel tragen einen Leber-Warnhinweis, für Lebensmittel empfehlen die Behörden den Stoff nicht.',
+    description: 'Die Traubensilberkerze (Cimicifuga racemosa, heute Actaea racemosa) ist eine Arzneipflanze, deren Wurzelstock als Ethanol- oder Isopropanol-Trockenextrakt verwendet wird. Die EMA führt sie seit 2018 in einer überarbeiteten EU-Monografie als Arzneimittel mit anerkannter medizinischer Verwendung zur Linderung von Wechseljahresbeschwerden wie Hitzewallungen und übermäßigem Schwitzen. Eine Meta-Analyse von 2023 über 22 Arbeiten mit 2.310 Frauen fand gegenüber Placebo eine Besserung der Gesamtbeschwerden mit Hedges g 0,575 und der Hitzewallungen mit g 0,315, der Cochrane-Review von 2012 mit 16 Studien und 2.027 Frauen dagegen keinen signifikanten Unterschied bei der Zahl der Hitzewallungen. Wie die Pflanze wirkt, ist nicht geklärt; Hormonspiegel blieben in den Studien unverändert. Leberschäden sind als Nebenwirkung in der EU-Monografie aufgeführt, die Häufigkeit ist unbekannt. Die Pflanzenliste von BVL und Bundesländern empfiehlt die Verwendung in Lebensmitteln nicht (Liste A).',
+    benefits: [
+      'Wechseljahresbeschwerden insgesamt: Hedges g 0,575 (0,283 bis 0,867) gegenüber Placebo, Hitzewallungen g 0,315 (0,107 bis 0,524), körperliche Beschwerden g 0,418; Meta-Analyse über 22 Arbeiten mit 2.310 Frauen (Sadahiro 2023)',
+      'Keine signifikante Wirkung auf Angst (g 0,194) und depressive Symptome (g 0,406) in derselben Meta-Analyse; die Abbruchrate lag auf Placeboniveau (Sadahiro 2023)',
+      'Cochrane-Review mit 16 randomisierten Studien und 2.027 Frauen: kein signifikanter Unterschied zu Placebo bei der Zahl der Hitzewallungen (0,07 pro Tag, 3 Studien, 393 Frauen) und bei Beschwerde-Scores (SMD −0,10, 4 Studien, 357 Frauen); Hormontherapie wirkte stärker (Leach 2012)',
+      'Isopropanol-Extrakt iCR: standardisierte Mittelwertdifferenz −0,694 gegenüber Placebo über 35 Studien; die Übersicht stammt teilweise von Mitarbeitenden des Herstellers (Castelo-Branco 2021)',
+      'Von der EMA als Arzneimittel mit anerkannter medizinischer Verwendung bei Hitzewallungen und übermäßigem Schwitzen in den Wechseljahren eingestuft (EU-Monografie 2018)'
+    ],
+    risks: [
+      'Leberschäden einschließlich Hepatitis, Gelbsucht und veränderter Leberwerte sind in der EU-Monografie als Nebenwirkung aufgeführt, Häufigkeit unbekannt; bei Müdigkeit, Appetitlosigkeit, Gelbfärbung von Haut oder Augen, starken Oberbauchschmerzen oder dunklem Urin sofort absetzen und ärztlich abklären lassen (EMA)',
+      'Eine Auswertung der Leberwerte aus 5 randomisierten Studien mit 1.117 Frauen fand für den Isopropanol-Extrakt keine Veränderung über 3 bis 6 Monate (Naser 2011, Autoren aus dem Herstellerumfeld); seltene Leberschäden lassen sich mit solchen Studiengrößen nicht ausschließen',
+      'Nicht zusammen mit Östrogenen ohne ärztlichen Rat; nach oder während einer Brustkrebs- oder anderen hormonabhängigen Tumorbehandlung nur nach ärztlicher Rücksprache (EMA)',
+      'Bei Scheidenblutungen ärztlich abklären lassen; in Schwangerschaft und Stillzeit nicht empfohlen (EMA)',
+      'Allergische Hautreaktionen, Gesichts- und Beinödeme sowie Magen-Darm-Beschwerden beschrieben, Häufigkeit unbekannt (EMA)',
+      'Laut EMA ohne ärztlichen Rat nicht länger als 6 Monate',
+      'In der Pflanzenliste von BVL und Bundesländern in Liste A: Verwendung in Lebensmitteln wird wegen bekannter Risiken unabhängig von der Dosierung nicht empfohlen'
+    ],
+    dosage: 'Für zugelassene Arzneimittel nennt die EU-Monografie je nach Extrakt Tagesdosen von 5,6 mg (Ethanol 58 %), 6,5 mg (Ethanol 60 %) oder 5,0 mg Trockenextrakt (Isopropanol 40 %). In den Studien des Cochrane-Reviews lag die mittlere Tagesdosis bei 40 mg, die Behandlung dauerte im Mittel 23 Wochen. Für Lebensmittel gibt es keine Höchstmenge, weil die Behörden die Verwendung dort nicht empfehlen.',
+    intake: 'Keine Einnahmeempfehlung. Die Traubensilberkerze ist in Deutschland ein Arzneimittel; Fragen zur Anwendung gehören in die Apotheke oder Arztpraxis, besonders bei Lebererkrankungen, Hormontherapie oder nach Brustkrebs.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Keine Lebensmittelquellen; getrockneter Wurzelstock der Traubensilberkerze (Actaea racemosa)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/37192826/'
+  },
+  {
+    id: 'nachtkerzenoel',
+    name: 'Nachtkerzenöl',
+    altNames: 'Oenothera biennis, Oenothera lamarckiana, Evening Primrose Oil, EPO, Nachtkerzensamenöl, Gamma-Linolensäure, GLA',
+    category: 'Fettsäure',
+    tags: ['haut', 'frauen', 'entzuendung'],
+    short: 'Samenöl der Nachtkerze, beworben wegen seiner Gamma-Linolensäure bei Neurodermitis, Brustschmerzen, PMS und Wechseljahresbeschwerden. Gerade dort ist es gut untersucht und schneidet nicht besser ab als Placebo: im Cochrane-Review zu Ekzemen ebenso wie in einer Meta-Analyse zu Brustschmerzen. Die EMA erkennt nur eine traditionelle Anwendung gegen Juckreiz bei trockener Haut an.',
+    description: 'Nachtkerzenöl wird aus den Samen von Oenothera biennis oder Oenothera lamarckiana gepresst oder extrahiert. Es enthält Gamma-Linolensäure (GLA), eine Omega-6-Fettsäure, aus der der Körper Dihomo-Gamma-Linolensäure (DGLA) bildet; zusammen mit Fischöl eingenommen stiegen beide Fettsäuren im Blut messbar an. Ob daraus ein klinischer Nutzen folgt, ist die eigentliche Frage. Der Cochrane-Review von 2013 mit 19 Studien zu Nachtkerzenöl fand bei der Gesamtbesserung von Ekzemen keinen Unterschied zu Placebo, eine Meta-Analyse über 13 Studien mit 1.752 Frauen ebenso wenig bei zyklischen Brustschmerzen. Bei Hitzewallungen gibt es kleine, uneinheitliche Studien. Die EMA stuft Nachtkerzenöl nur als traditionelles pflanzliches Arzneimittel gegen Juckreiz bei trockener Haut ein, ohne ausreichenden Wirksamkeitsnachweis.',
+    benefits: [
+      'Traditionelle Anwendung: Die EMA erkennt Nachtkerzenöl als traditionelles pflanzliches Arzneimittel zur Linderung von Juckreiz bei akut und chronisch trockener Haut an, gestützt auf langjährige Verwendung, nicht auf Studien (EU-Monografie 2018)',
+      'Hitzewallungen: In einer Meta-Analyse über 6 Studien mit 450 Frauen sank die Zahl der Hitzewallungen um 2,13 pro Tag, nicht signifikant; signifikant kürzer war nur die Dauer, die Evidenzqualität moderat bis niedrig (Larki 2025)',
+      'In einer 6-Wochen-Studie mit 56 Frauen besserte sich nur die Stärke der Hitzewallungen signifikant stärker als unter Placebo, Häufigkeit und Dauer nicht (Farzaneh 2013)',
+      'Messbare Aufnahme: Mit Fischöl plus Nachtkerzenöl stiegen Gamma-Linolensäure und Dihomo-Gamma-Linolensäure im Plasma gesunder Frauen, Arachidonsäure sank nicht (Geppert 2008)',
+      'Gut verträglich: In der Meta-Analyse zu Brustschmerzen traten Übelkeit, Blähungen, Kopfschmerzen oder Gewichtszunahme nicht häufiger auf als unter Placebo (Ahmad Adni 2021)'
+    ],
+    risks: [
+      'Neurodermitis: Cochrane-Review mit 27 Studien und 1.596 Teilnehmenden, davon 19 zu Nachtkerzenöl; Gesamtbesserung nach Einschätzung der Betroffenen MD −2,22 (−10,48 bis 6,04) und der Ärztinnen und Ärzte MD −3,26 (−6,96 bis 0,45) auf einer Skala von 0 bis 100, beides nicht besser als Placebo (Bamford 2013)',
+      'Zyklische Brustschmerzen: 13 randomisierte Studien mit 1.752 Frauen, die Zahl der Frauen mit Schmerzlinderung unterschied sich nicht von Placebo oder anderen Behandlungen (Ahmad Adni 2021)',
+      'Prämenstruelles Syndrom: Nur 7 placebokontrollierte Studien, die beiden am besten kontrollierten zeigten keinen Nutzen (Budeiri 1996)',
+      'Nebenwirkungen laut EMA: Verdauungsbeschwerden, Übelkeit, weicher Stuhl, Temperaturanstieg, Hautausschlag als allergische Reaktion und Kopfschmerzen, Häufigkeit unbekannt',
+      'In Schwangerschaft und Stillzeit sowie unter 12 Jahren laut EMA nicht empfohlen, weil Daten fehlen'
+    ],
+    dosage: 'Die EU-Monografie nennt für das traditionelle Arzneimittel 4 bis 6 g Öl pro Tag, aufgeteilt auf Einzeldosen von 2 bis 3 g, für Jugendliche ab 12 Jahren und Erwachsene; halten die Beschwerden länger als 8 Wochen an, ist ärztlicher Rat angezeigt. In der Hitzewallungsstudie von Farzaneh 2013 wurden zwei Kapseln mit je 500 mg pro Tag über 6 Wochen gegeben. Eine amtliche Höchstmenge für Nahrungsergänzungsmittel gibt es nicht.',
+    intake: 'Keine Einnahmeempfehlung. In den Studien wurde das Öl täglich über mehrere Wochen eingenommen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Samen der Nachtkerze (Oenothera biennis, Oenothera lamarckiana); Gamma-Linolensäure steckt auch in Borretschöl',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23633319/'
+  },
+  {
+    id: 'mastix',
+    name: 'Mastix (Mastixharz)',
+    altNames: 'Pistacia lentiscus, Pistacia lentiscus var. Chia, Mastic Gum, Chios Mastic, Mastiha, Mastixstrauch-Harz',
+    category: 'Kräuter',
+    tags: ['verdauung', 'darm', 'entzuendung'],
+    short: 'Harz des Mastixstrauchs von der griechischen Insel Chios, seit Langem bei Magenbeschwerden genutzt. Bei funktioneller Dyspepsie gibt es eine positive placebokontrollierte Studie, gegen Helicobacter pylori reicht Mastix allein in kleinen Studien nicht aus. Die EMA erkennt nur eine traditionelle Anwendung bei leichten Verdauungsbeschwerden an.',
+    description: 'Mastix ist das getrocknete Harz von Pistacia lentiscus var. Chia, das als Pulver oder in Kapseln eingenommen wird. Die EMA führt es seit 2016 in einer EU-Monografie als traditionelles pflanzliches Arzneimittel bei leichten Verdauungsbeschwerden und, äußerlich, bei leichten Hautentzündungen und kleinen Wunden; 2024 sah sie nach erneuter Prüfung keinen Anlass zur Änderung. In einer doppelblinden Studie mit 148 Menschen mit funktioneller Dyspepsie besserten sich die Beschwerden bei 77 Prozent unter Mastix und bei 40 Prozent unter Placebo. Gegen Helicobacter pylori wirkt Mastix im Labor, am Menschen gelang die Eradikation mit Mastix allein nur bei 4 bis 5 von 13 Behandelten, in einer weiteren kleinen Studie bei keinem. Die meisten Studien stammen aus Griechenland und sind klein.',
+    benefits: [
+      'Funktionelle Dyspepsie: deutliche Besserung bei 77 Prozent unter Mastix gegenüber 40 Prozent unter Placebo, Symptom-Score 14,78 gegenüber 19,96 nach 3 Wochen (doppelblinde RCT, 148 Patienten, Dabos 2010); besser waren vor allem Oberbauchschmerz und Sodbrennen',
+      'Funktionelle Dyspepsie: weniger Blähgefühl im Oberbauch, Brennen in der Magengegend und Sodbrennen unter Mastix-Kapseln im Vergleich zu einer Phase ohne Behandlung (randomisierte Crossover-Studie, ohne Placebo, Kleftaki 2025)',
+      'Helicobacter pylori als Zusatz zur Vierfachtherapie: Eradikation 85 gegenüber 67 Prozent, nicht signifikant (p = 0,19), aber stärkere Linderung der Dyspepsie-Beschwerden (einfach verblindete Pilot-RCT, 64 Patienten, Tulsian 2026)',
+      'Chronisch-entzündliche Darmerkrankungen: Eine systematische Übersicht über 8 Arbeiten, überwiegend aus Griechenland, sieht antioxidative und entzündungshemmende Effekte, verlangt aber bessere Studien (Mavroudi 2023)',
+      'Von der EMA als traditionelles pflanzliches Arzneimittel bei leichten Verdauungsbeschwerden anerkannt, gestützt auf langjährige Verwendung (EU-Monografie 2016)'
+    ],
+    risks: [
+      'Helicobacter pylori: Mastix allein eradizierte den Keim bei 4 von 13 und 5 von 13 Behandelten, zusammen mit Pantoprazol bei keinem, die Standardtherapie bei 10 von 13 (Dabos 2010); in einer weiteren Studie blieben alle 8 Behandelten positiv (Bebb 2003). Mastix ersetzt keine Eradikationstherapie',
+      'Allergische Reaktionen möglich: Bei Menschen mit Allergie gegen einen mastixhaltigen medizinischen Hautkleber reagierten 13 von 18 auf Mastix (laut EMA-Überprüfung 2024); Überempfindlichkeit ist die einzige Gegenanzeige der Monografie',
+      'Unter 18 Jahren für die Anwendung bei Verdauungsbeschwerden laut EMA nicht empfohlen, weil Daten fehlen',
+      'Bei Beschwerden, die länger als 2 Wochen anhalten, ist laut EMA ärztlicher Rat angezeigt; Oberbauchbeschwerden können eine behandlungsbedürftige Ursache haben',
+      'Kleine Studien, kurze Dauer von 2 bis 4 Wochen, überwiegend eine Forschungsregion; Ergebnisse gelten für die jeweils geprüfte Zubereitung'
+    ],
+    dosage: 'Die EU-Monografie nennt für das traditionelle Arzneimittel bei leichten Verdauungsbeschwerden 0,5 bis 1 g Mastixpulver zweimal täglich, also 1 bis 2 g pro Tag, für Erwachsene. In den Studien wurden 350 mg dreimal täglich über 3 Wochen (Dabos 2010, Dyspepsie), 1,4 g pro Tag über 4 Wochen (Kleftaki 2025) sowie 350 mg bis 1,05 g dreimal täglich über 14 Tage (Dabos 2010, Helicobacter) eingesetzt. Eine amtliche Höchstmenge für Lebensmittel gibt es nicht.',
+    intake: 'Keine Einnahmeempfehlung. In den Studien wurde Mastix über 2 bis 4 Wochen täglich eingenommen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Harz des Mastixstrauchs (Pistacia lentiscus var. Chia) von Chios',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/19961914/'
+  },
+  {
+    id: 'dgl-suessholz',
+    name: 'DGL-Süßholz (deglycyrrhiziniert)',
+    altNames: 'Deglycyrrhizinated Licorice, DGL, deglycyrrhizinierte Süßholzwurzel, Glycyrrhiza glabra, Lakritzwurzel ohne Glycyrrhizin, GutGard',
+    category: 'Kräuter',
+    tags: ['verdauung', 'darm'],
+    short: 'Süßholzwurzel-Extrakt, aus dem das Glycyrrhizin weitgehend entfernt wurde, der Stoff hinter Bluthochdruck und Kaliumverlust durch Lakritz. Beworben gegen Sodbrennen, Reizmagen und Magengeschwüre: Ältere placebokontrollierte Studien bei Magen- und Zwölffingerdarmgeschwüren fanden keinen Nutzen, neuere Studien mit einem indischen Spezialextrakt zeigen bessere Werte bei Dyspepsie und Reflux.',
+    description: 'DGL steht für deglycyrrhiziniertes Süßholz. Normale Süßholzwurzel enthält Glycyrrhizin, das in größeren Mengen Natrium im Körper zurückhält, Kalium ausschwemmt und den Blutdruck steigen lässt; das BfR rät, weniger als 100 mg Glycyrrhizin pro Tag aufzunehmen. Bei DGL wird dieser Stoff weitgehend entfernt, der Spezialextrakt GutGard enthält zum Beispiel höchstens 3 Prozent. Damit entfällt das bekannte Lakritzrisiko weitgehend, nicht aber die Frage nach der Wirkung. In placebokontrollierten Studien der 1970er-Jahre heilten Magen- und Zwölffingerdarmgeschwüre unter DGL nicht besser als unter Placebo. Drei neuere doppelblinde Studien mit dem Spezialextrakt GutGard fanden bessere Werte bei funktioneller Dyspepsie, bei Refluxbeschwerden und beim Helicobacter-Atemtest. Die EU-Monografie der EMA zur traditionellen Anwendung bei Verdauungsbeschwerden mit Brennen betrifft Zubereitungen der normalen Süßholzwurzel, nicht DGL.',
+    benefits: [
+      'Funktionelle Dyspepsie: geringere Beschwerde-Scores an Tag 15 und 30 und bessere Lebensqualität als unter Placebo (doppelblinde RCT mit GutGard, Raveendra 2012)',
+      'Refluxbeschwerden: bessere Lebensqualität nach 28 Tagen (p = 0,014) und schnellerer Rückgang von Sodbrennen und Aufstoßen als unter Placebo (doppelblinde RCT mit GutGard, 200 Teilnehmende, Raj 2025)',
+      'Helicobacter pylori: nach 60 Tagen Stuhl-Antigentest negativ bei 56 Prozent unter GutGard gegenüber 4 Prozent unter Placebo, Atemtest negativ bei 48 Prozent (doppelblinde RCT, 107 Patienten, Puram 2013); nicht mit einer Eradikationstherapie verglichen',
+      'Glycyrrhizin weitgehend entfernt: Damit ist das bekannte Risiko von Lakritz für Blutdruck und Kaliumhaushalt deutlich verringert, sofern der Restgehalt niedrig ist (GutGard höchstens 3 Prozent)'
+    ],
+    risks: [
+      'Magengeschwür: Bei 96 Patienten kein Unterschied zu Placebo bei Abheilung, Verkleinerung des Geschwürs und Beschwerden nach 4 Wochen (Bardhan 1978); in einer doppelblinden Crossover-Studie mit einem DGL-Präparat (Caved-S) keine schnellere Heilung (Engqvist 1973)',
+      'Zwölffingerdarmgeschwür: Bei 47 Patienten kein Vorteil gegenüber Placebo nach einem Monat (Feldman 1971)',
+      'Die positiven neueren Studien liefen alle mit demselben Spezialextrakt GutGard und kamen überwiegend aus Indien; auf andere DGL-Produkte lassen sie sich nicht übertragen',
+      'Restgehalt an Glycyrrhizin ist bei Nahrungsergänzungen nicht einheitlich geregelt; das BfR rät zu weniger als 100 mg Glycyrrhizin pro Tag aus allen Quellen, weil zu viel zu Natriumrückhalt, Kaliumverlust, Bluthochdruck, Wassereinlagerungen und Muskelschwäche führen kann',
+      'Bei Bluthochdruck, Herz- oder Nierenerkrankungen, niedrigem Kalium oder Medikamenten, die Kalium senken, nur nach ärztlicher Rücksprache; das gilt vor allem, wenn der Glycyrrhizingehalt des Produkts nicht angegeben ist',
+      'Anhaltendes Sodbrennen oder Oberbauchschmerzen ärztlich abklären lassen, bevor man selbst behandelt'
+    ],
+    dosage: 'Keine Verzehrempfehlung. In den Studien mit GutGard wurden 75 mg zweimal täglich über 30 Tage (Raveendra 2012) und 150 mg einmal täglich über 60 Tage (Puram 2013) eingesetzt; in einer älteren Magengeschwür-Studie 760 mg dreimal täglich über 4 Wochen (Engqvist 1973). Für Glycyrrhizin rät das BfR zu weniger als 100 mg pro Tag aus allen Lebensmitteln zusammen.',
+    intake: 'Keine Einnahmeempfehlung. Wer Medikamente gegen Bluthochdruck, Entwässerungsmittel oder Herzmedikamente nimmt, sollte den Glycyrrhizingehalt des Produkts mit Ärztin, Arzt oder Apotheke besprechen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Süßholzwurzel (Glycyrrhiza glabra), aus der das Glycyrrhizin weitgehend entfernt wurde; normales Lakritz enthält Glycyrrhizin und ist kein DGL',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/21747893/'
+  },
+  {
+    id: 'd-ribose',
+    name: 'D-Ribose',
+    altNames: 'Ribose, Pentose, Bioenergy Ribose',
+    category: 'Longevity',
+    tags: ['herz', 'energie', 'mitochondrien', 'sport', 'blutzucker'],
+    short: 'Zucker mit fünf Kohlenstoffatomen, aus dem der Körper das Grundgerüst des Energieträgers ATP baut. Bei Herzschwäche und Durchblutungsstörungen des Herzens gibt es kleine, teils positive Studien, bei chronischer Erschöpfung nur eine Studie ohne Kontrollgruppe, beim Sport keine Leistungssteigerung. D-Ribose kann den Blutzucker senken.',
+    description: 'D-Ribose ist Baustein von ATP, RNA und anderen Nukleotiden; die Idee ist, dass zusätzliche Ribose die Neubildung von ATP in erschöpften Zellen beschleunigt. Bei 20 Männern mit koronarer Herzkrankheit verlängerten 3 Tage Ribose die Belastungszeit bis zu ersten EKG-Zeichen einer Durchblutungsstörung von 223 auf 276 Sekunden, die Zeit bis zu mäßiger Angina nicht (Pliml 1992). Bei 15 Patienten mit Herzschwäche verbesserten sich in einer Crossover-Studie einzelne Ultraschallwerte der Herzfüllung und die Lebensqualität (Omran 2003). Eine Studie mit 216 Patienten mit Herzschwäche bei erhaltener Pumpfunktion meldete bessere Symptome und Pumpfunktion unter Ubiquinol und/oder D-Ribose, die Gehstrecke änderte sich nicht (Pierce 2022). Bei Fibromyalgie und chronischem Erschöpfungssyndrom gibt es nur eine offene Studie ohne Kontrollgruppe (Teitelbaum 2006). Beim Sport verbesserte Ribose weder Leistung noch ATP-Erholung im Muskel (Op ’t Eijnde 2001, Kerksick 2005). Ribose senkt den Blutzucker; die EFSA leitete daraus 2018 eine Obergrenze ab, und die EU ließ D-Ribose 2019 als neuartiges Lebensmittel für bestimmte Lebensmittel zu.',
+    benefits: [
+      'Koronare Herzkrankheit: längere Belastungszeit bis 1 mm ST-Senkung im EKG, 276 gegenüber 223 Sekunden unter Placebo; die Zeit bis zu mäßiger Angina unterschied sich nicht (RCT, 20 Männer, 3 Tage, Pliml 1992)',
+      'Herzschwäche bei koronarer Herzkrankheit: bessere Vorhofbeteiligung an der Herzfüllung (40 auf 45 Prozent), kürzere E-Wellen-Dezeleration und bessere Lebensqualität im SF-36, unter Placebo keine Änderungen (Crossover-RCT, 15 Patienten, je 3 Wochen, Omran 2003)',
+      'Herzschwäche mit erhaltener Pumpfunktion: in den Gruppen mit Ubiquinol und/oder D-Ribose besserer Symptomscore (KCCQ +17,3 bis +25,8 Punkte), Ejektionsfraktion +7,1 bis +8,0 Prozentpunkte und niedrigeres BNP über 12 Wochen; 6-Minuten-Gehtest unverändert (RCT, 216 Patienten, Pierce 2022)',
+      'Fibromyalgie und chronisches Erschöpfungssyndrom: rund 66 Prozent der 41 Teilnehmer berichteten Besserung von Energie, Schlaf und Wohlbefinden – offene Studie ohne Kontrollgruppe (Teitelbaum 2006)'
+    ],
+    risks: [
+      'Senkt den Blutzucker: bei 9 Gesunden fiel die Serumglukose unter Dauergabe um 25 Prozent (Gross 1991); die EFSA wertete Abfälle des Blutzuckers und vorübergehende Unterzuckerungen ab 10 g als kritischen Effekt (EFSA 2018)',
+      'Kein Leistungsplus beim Sport: weder bei wiederholten Maximalbelastungen mit ATP-Messung im Muskel (Op ’t Eijnde 2001, 19 Teilnehmer, 6 Tage) noch bei Sprints auf dem Radergometer (Kerksick 2005, 12 Radfahrer)',
+      'Die Erschöpfungs- und Fibromyalgie-Daten stammen aus einer einzigen Studie ohne Kontrollgruppe; Placeboeffekte lassen sich nicht abgrenzen (Teitelbaum 2006)',
+      'Herzstudien klein und kurz, teils ohne Kontrollgruppe (Bayram 2015: 11 Patienten, nur 1 berichtete subjektiven Nutzen); harte Endpunkte wie Klinikaufenthalte oder Sterblichkeit wurden nicht untersucht',
+      'Bei Diabetes, blutzuckersenkenden Medikamenten, in Schwangerschaft und Stillzeit sowie bei Kindern nur nach ärztlicher Klärung; für Kinder fehlen laut EFSA Humandaten'
+    ],
+    dosage: 'Keine Verzehrempfehlung. Die EFSA hält D-Ribose für die Allgemeinbevölkerung bis 36 mg pro Kilogramm Körpergewicht und Tag für sicher, das sind bei 70 kg rund 2,5 g; für Erwachsene setzte sie den NOAEL in Bezug auf Unterzuckerung bei 70 mg pro Kilogramm (EFSA 2018). Die EU-Zulassung als neuartiges Lebensmittel regelt Höchstgehalte für Riegel, Backwaren, Sportgetränke und andere Lebensmittel, die einen Hinweis tragen müssen, dass sie nicht am selben Tag wie Nahrungsergänzungen mit D-Ribose verzehrt werden sollen (Durchführungsverordnung (EU) 2019/506). Studien verwendeten 60 g pro Tag über 3 Tage bei koronarer Herzkrankheit (Pliml 1992), 15 g pro Tag über 12 Wochen bei Herzschwäche (Pierce 2022), 5 g dreimal täglich bei Fibromyalgie und Erschöpfung (Teitelbaum 2006) und 4 g viermal täglich beim Sport (Op ’t Eijnde 2001). Das sind Studien- und Behördenangaben, keine Empfehlung.',
+    intake: 'In den Studien als Pulver in Flüssigkeit, über den Tag verteilt. Wegen der blutzuckersenkenden Wirkung bei Diabetes oder blutzuckersenkenden Medikamenten vorher ärztlich klären.',
+    synergies: ['coq10'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Vom Körper selbst gebildet; in Lebensmitteln vor allem gebunden in RNA und Nukleotiden, frei nur in kleinen Mengen; als Supplement durch Fermentation hergestellt',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/14607200/'
+  },
+  {
+    id: 'hmb',
+    name: 'HMB (β-Hydroxy-β-Methylbutyrat)',
+    altNames: 'Beta-Hydroxy-Beta-Methylbutyrat, HMB, Calcium-HMB, CaHMB, HMB-Freisäure, HMB-FA, Leucin-Stoffwechselprodukt',
+    category: 'Aminosäure',
+    tags: ['muskel', 'sport', 'kraft', 'regeneration', 'alter'],
+    short: 'Stoffwechselprodukt der Aminosäure Leucin, beworben für Muskelaufbau und Regeneration. Bei Trainierten zeigen mehrere Meta-Analysen keinen Zusatznutzen für Kraft und Muskelmasse, bei Untrainierten kleine Kraftgewinne, bei Kranken mit Muskelschwund kleine Effekte. Die spektakulären Ergebnisse einer Arbeitsgruppe um Jacob Wilson sind umstritten.',
+    description: 'HMB entsteht im Körper beim Abbau von Leucin. Verkauft wird es meist als Calciumsalz, seltener als Freisäure. Bei Trainierten fanden zwei Meta-Analysen keine Wirkung auf Kraft und Körperzusammensetzung (Rowlands 2009, Sanchez-Martinez 2018: 6 RCTs mit 193 Athleten), bei jungen Erwachsenen im Krafttraining blieben Magermasse und Kraft unverändert (Jakubowski 2020, 11 Studien). Bei Untrainierten stieg die Beinkraft um knapp 10 Prozent (Rowlands 2009). In klinischen Gruppen mit Muskelschwund fand eine Meta-Analyse über 15 RCTs mit 2.137 Patienten kleine Effekte auf Muskelmasse und Kraft (Bear 2019), bei Älteren mit Krafttraining brachte HMB in 13 RCTs keinen Zusatznutzen (Wang 2026). Eine 12-Wochen-Studie mit HMB-Freisäure bei Trainierten meldete 7,4 kg Magermassezuwachs gegenüber 2,1 kg unter Placebo (Wilson 2014); andere Forscher kritisierten Unstimmigkeiten in den Veröffentlichungen dieser Gruppe, die Autoren wiesen das zurück.',
+    benefits: [
+      'Untrainierte im Krafttraining: kleine, klare Kraftgewinne, Beinkraft +9,9 Prozent, durchschnittliche Kraft +6,6 Prozent (Meta-Analyse, 9 Studien, 394 junge Männer, Rowlands 2009)',
+      'Klinische Gruppen mit Muskelschwund: Muskelkraft SMD 0,31 und Muskelmasse SMD 0,25 (Meta-Analyse, 15 RCTs, 2.137 Patienten, Bear 2019) – kleine Effekte, keine Studie mit durchgehend niedrigem Verzerrungsrisiko',
+      'Kurzzeit-Sicherheitsdaten: In 9 Studien mit 3 g pro Tag über 3 bis 8 Wochen keine ungünstigen Veränderungen von Blut- und Organwerten (Nissen 2000)',
+      'Eine 12-Wochen-Studie mit HMB-Freisäure bei Trainierten meldete deutlich mehr Kraft und Magermasse als Placebo (Wilson 2014); das Ergebnis wurde von anderen Gruppen nicht bestätigt'
+    ],
+    risks: [
+      'Trainierte und Leistungssportler: kein Effekt auf Bankdrücken, Beinpresse, Magermasse oder Fettmasse (Meta-Analyse, 6 RCTs, 193 Athleten, Sanchez-Martinez 2018)',
+      'Junge Erwachsene im Krafttraining: keine signifikanten Effekte auf Magermasse, Fettmasse oder Kraft, nur ein kleiner Anstieg des Körpergewichts (Meta-Analyse, 11 Studien, Jakubowski 2020)',
+      'Ältere ab 50 Jahren mit Krafttraining: kein Zusatznutzen für Muskelmasse, Fettmasse oder Kraft (Meta-Analyse, 13 RCTs, 561 Teilnehmer, Wang 2026)',
+      'Die Wilson-Studien zu HMB-Freisäure wurden wegen Unstimmigkeiten bei Teilnehmerzahlen und -merkmalen öffentlich kritisiert (Gentles und Phillips 2017); der Erstautor sah darin ein Missverständnis (Wilson 2017)',
+      'Sicherheitsdaten vor allem aus Studien über wenige Wochen bis Monate; eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht',
+      'Keine in der EU zugelassene gesundheitsbezogene Angabe; die EFSA prüfte 2011 beantragte Angaben zu Magermasse, Kraft, Ausdauer und Erholung'
+    ],
+    dosage: 'Keine Verzehrempfehlung. In den Studien wurden meist 3 g HMB pro Tag verwendet, so in den 9 Studien der Sicherheitsauswertung über 3 bis 8 Wochen (Nissen 2000) und in der 12-Wochen-Studie mit HMB-Freisäure (Wilson 2014). Eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht. Das sind Studienangaben, keine Empfehlung.',
+    intake: 'In den Studien täglich über Wochen bis Monate, meist auf mehrere Portionen verteilt und mit Krafttraining kombiniert. Bei Erkrankungen, Schwangerschaft und Stillzeit vorher ärztlich klären.',
+    synergies: ['leucin', 'whey', 'kreatin'],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Entsteht im Körper beim Abbau von Leucin; als Supplement meist als Calciumsalz, seltener als Freisäure',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30982854/'
+  },
+  {
+    id: 'aakg',
+    name: 'AAKG (Arginin-Alpha-Ketoglutarat)',
+    altNames: 'L-Arginin-Alpha-Ketoglutarat, Arginin-AKG, A-AKG, Arginin-α-Ketoglutarat',
+    category: 'Aminosäure',
+    tags: ['sport', 'stickoxid', 'durchblutung', 'pump', 'muskel'],
+    short: 'Salz aus der Aminosäure Arginin und Alpha-Ketoglutarat, verkauft als Stickoxid-Booster für den „Pump“ im Training. AAKG hebt den Arginin-Spiegel im Blut, mehr Durchblutung oder mehr Stickoxid als unter Placebo zeigte sich aber nicht. Es gibt nur wenige kleine Studien, die Ergebnisse zur Leistung widersprechen sich.',
+    description: 'AAKG verbindet L-Arginin mit Alpha-Ketoglutarat, einem Zwischenprodukt des Citratzyklus; 1.000 mg AAKG enthalten rund 544 mg Arginin und 450 mg Alpha-Ketoglutarat (VKM 2016). Die Idee: mehr Arginin, mehr Stickstoffmonoxid, weitere Gefäße und mehr Blutfluss im Muskel. Nach 7 Tagen mit 12 g pro Tag stieg bei 24 Männern zwar das Plasma-Arginin, Blutfluss, Blutdruck und Stickoxid-Abbauprodukte unterschieden sich aber nicht von Placebo (Willoughby 2011). Eine Einzelgabe von 3 g verbesserte weder Maximalkraft noch Wiederholungszahl (Wax 2012). In einer 8-Wochen-Studie mit 35 Trainierten berichteten die Autoren bessere Werte beim Bankdrücken und bei der Spitzenleistung im Wingate-Test, nicht aber bei Körperzusammensetzung und Ausdauer (Campbell 2006). Die norwegische Lebensmittelbehörde VKM konnte 2016 mangels Daten keine AAKG-Menge in Nahrungsergänzungen bewerten. Zu Arginin selbst ist die Datenlage deutlich breiter.',
+    benefits: [
+      'Hebt den Arginin-Spiegel im Blut: gemessen nach Einzelgaben von 4 g (Campbell 2006) und nach 7 Tagen mit 12 g pro Tag (Willoughby 2011)',
+      'In einer 8-Wochen-Studie mit 35 krafttrainierenden Männern berichteten die Autoren Verbesserungen beim Bankdrücken (1RM) und bei der Spitzenleistung im Wingate-Test; Körperzusammensetzung, Ausdauer und Beinmuskel-Ausdauer blieben unverändert (Campbell 2006)',
+      'Eine Kombination aus Kreatin, AAKG und weiteren Zutaten steigerte über 10 Tage die Spitzenleistung im Wingate-Test, Kreatin allein nicht (Little 2008) – der Anteil von AAKG lässt sich daraus nicht ablesen',
+      'In den kontrollierten Studien über bis zu 8 Wochen wurden keine schweren Nebenwirkungen berichtet (Campbell 2006; VKM 2016)'
+    ],
+    risks: [
+      'Kein Mehr an Durchblutung: Blutfluss in der Armarterie, Blutdruck und Stickoxid-Abbauprodukte stiegen nach dem Training mit AAKG nicht stärker als unter Placebo (Willoughby 2011, 24 Männer)',
+      'Keine akute Leistungssteigerung: 3 g AAKG vor dem Training änderten Maximalkraft und Wiederholungszahl bei Trainierten und Untrainierten nicht (Wax 2012, 16 Männer, Crossover)',
+      'Drei Fallberichte aus der Notaufnahme mit Herzrasen, Schwindel und Beinahe-Ohnmacht nach AAKG-haltigen Präparaten; ein ursächlicher Zusammenhang ist nicht gesichert, andere Ursachen ließen sich nicht ausschließen (Prosser 2009)',
+      'Die norwegische Behörde VKM konnte 2016 mangels Studien keine AAKG-Menge in Nahrungsergänzungen bewerten; die Studien sind klein, kurz und fast nur an Männern',
+      'Wie bei Arginin: kann die Wirkung von Blutdrucksenkern verstärken; nach akutem Herzinfarkt ist Arginin nicht angezeigt (siehe L-Arginin)'
+    ],
+    dosage: 'Keine Verzehrempfehlung. In den Studien wurden 3 g als Einzelgabe vor dem Training (Wax 2012), 4 g dreimal täglich, also 12 g pro Tag, über 8 Wochen (Campbell 2006) und 12 g pro Tag über 7 Tage (Willoughby 2011) verwendet. Die norwegische Behörde VKM fand 2016 in Nahrungsergänzungen 1.000 bis 2.000 mg AAKG pro Tag und konnte mangels Daten keine dieser Mengen bewerten. Eine amtliche Höchstmenge von EFSA oder BfR gibt es nicht. Das sind Studien- und Behördenangaben, keine Empfehlung.',
+    intake: 'In den Studien vor dem Training oder über den Tag verteilt. Wer Blutdruckmittel nimmt, eine Herz-, Nieren- oder Lebererkrankung hat, schwanger ist oder stillt, klärt das vorher ärztlich.',
+    synergies: ['l-arginin', 'citrullin'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Kein Lebensmittelbestandteil in dieser Form; Arginin steckt in Nüssen, Kürbiskernen, Fleisch, Fisch und Hülsenfrüchten, Alpha-Ketoglutarat entsteht im Stoffwechsel',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/21813912/'
+  },
+  {
+    id: 'lola',
+    name: 'LOLA (L-Ornithin-L-Aspartat)',
+    altNames: 'L-Ornithin-L-Aspartat, Ornithinaspartat, Ornithin-Aspartat, Hepa-Merz',
+    category: 'Aminosäure',
+    tags: ['leber', 'entgiftung', 'arzneimittel', 'sport'],
+    short: 'Salz aus den Aminosäuren Ornithin und Aspartat, das die Ammoniakentgiftung der Leber antreibt. In Deutschland ist LOLA als apothekenpflichtiges Arzneimittel gegen die hepatische Enzephalopathie bei Leberzirrhose zugelassen. Dort zeigen viele Studien einen Nutzen, die Cochrane-Auswertung stuft die Evidenz aber als sehr niedrig ein. Für Gesunde gibt es kaum Daten.',
+    description: 'L-Ornithin-L-Aspartat wird nach der Aufnahme rasch in Ornithin und Aspartat gespalten. Laut Fachinformation wirken beide auf zwei Schlüsselwege der Ammoniakentgiftung, die Harnstoffsynthese und die Glutaminsynthese; unter normalen Bedingungen sind sie für die Harnstoffsynthese aber nicht begrenzend. In Deutschland ist LOLA als Hepa-Merz Granulat und als Infusionslösungs-Konzentrat apothekenpflichtig zugelassen, zur Behandlung der latenten und manifesten hepatischen Enzephalopathie, einer Hirnfunktionsstörung durch Ammoniak bei schwerer Lebererkrankung. Die Cochrane-Auswertung von 29 Studien mit 1.891 Menschen mit Zirrhose fand weniger Enzephalopathie und Sterblichkeit, in den Studien mit niedrigem Verzerrungsrisiko verschwand der Effekt aber (Goh 2018). Beim akuten Leberversagen senkte LOLA weder Ammoniak noch Sterblichkeit (Acharya 2009). Für Gesunde, Sportler oder als Mittel nach Alkohol gibt es keine belastbaren Studien.',
+    benefits: [
+      'Leberzirrhose: seltener hepatische Enzephalopathie (RR 0,70; 22 Studien, 1.375 Teilnehmer) und geringere Sterblichkeit (RR 0,42; 19 Studien, 1.489 Teilnehmer) gegenüber Placebo oder keiner Behandlung – Evidenz sehr niedriger Qualität (Cochrane, Goh 2018)',
+      'Infusionen über 7 Tage senkten bei 126 Patienten mit Zirrhose das Ammoniak nach einer Eiweißmahlzeit und verbesserten Zahlenverbindungstest und geistigen Zustand stärker als Placebo (Kircheis 1997)',
+      'Als Granulat über 14 Tage bei 66 Patienten bessere Ammoniakwerte und Testleistungen als Placebo, ohne beobachtete Nebenwirkungen (Stauch 1998)',
+      'Schwere Enzephalopathie Grad III bis IV: zusätzlich zu Laktulose und Rifaximin häufiger Besserung (92,5 gegenüber 66 Prozent) und geringere 28-Tage-Sterblichkeit (16,4 gegenüber 41,8 Prozent; RCT, 140 Patienten, Jain 2022)',
+      'Als Arzneimittel zugelassen und unter Pharmakovigilanz (Fachinformation); nicht schwere Nebenwirkungen traten in 14 Studien mit 1.076 Teilnehmern nicht häufiger auf als unter Placebo (Goh 2018)'
+    ],
+    risks: [
+      'In den methodisch besten Studien kein Nutzen bei Enzephalopathie (RR 0,96; 1 Studie mit niedrigem Verzerrungsrisiko) und Sterblichkeit (4 Studien); gegenüber Laktulose und Rifaximin kein Unterschied (Goh 2018)',
+      'Akutes Leberversagen: Infusionen über 3 Tage senkten bei 201 Patienten weder Ammoniak noch Sterblichkeit (42,4 gegenüber 33,3 Prozent, nicht signifikant; Acharya 2009)',
+      'Gelegentlich Übelkeit, Erbrechen, Magenschmerzen, Blähungen und Durchfall, sehr selten Gliederschmerzen (Fachinformation)',
+      'Gegenangezeigt bei stärkeren Nierenfunktionsstörungen; in Schwangerschaft und Stillzeit vermeiden; für Kinder keine Daten; das Granulat enthält Fructose und den Farbstoff Gelborange S (Fachinformation)',
+      'Für Gesunde nur eine kleine Sportstudie mit einer Kombination aus verzweigtkettigen Aminosäuren und LOLA, in der das Ammoniak am Ende der Dauerbelastung sogar höher lag als unter Placebo (Mikulski 2015)',
+      'Ob LOLA in Deutschland als Nahrungsergänzung verkehrsfähig ist, ist amtlich nicht geklärt; der Stoff ist Wirkstoff eines zugelassenen Arzneimittels'
+    ],
+    dosage: 'Keine Verzehrempfehlung. Als Arzneimittel zugelassen ist Hepa-Merz Granulat 3000 mit bis zu 3-mal täglich dem Inhalt von 1 bis 2 Beuteln à 3,0 g Ornithinaspartat, das Infusionslösungs-Konzentrat mit bis zu 4 Ampullen täglich, jeweils nur bei Lebererkrankung und ärztlich begleitet (Fachinformationen). Studien verwendeten 18 g pro Tag als Granulat über 14 Tage (Stauch 1998), 20 g pro Tag als Infusion über 7 Tage (Kircheis 1997) und 12 g zusammen mit 16 g verzweigtkettigen Aminosäuren vor einer Belastung (Mikulski 2015). Für Nahrungsergänzungen gibt es keine amtliche Höchstmenge. Das sind Zulassungs- und Studienangaben, keine Empfehlung.',
+    intake: 'Das Arzneimittel wird laut Fachinformation in reichlich Flüssigkeit gelöst zu oder nach den Mahlzeiten eingenommen. Bei Leber- oder Nierenerkrankung gehört LOLA in ärztliche Hände, nicht in Selbstbehandlung.',
+    synergies: ['l-ornithin'],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Kein Lebensmittelbestandteil in dieser Form; Ornithin bildet der Körper selbst, Aspartat steckt in allen eiweißhaltigen Lebensmitteln',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29762873/'
+  },
+  {
+    id: 'monolaurin',
+    name: 'Monolaurin',
+    altNames: 'Glycerinmonolaurat, Glycerolmonolaurat, GML, Glyceryllaurat, Laurinsäure-Monoglycerid',
+    category: 'Fettsäure',
+    tags: ['immun', 'darm', 'mikrobiom'],
+    short: 'Ein Baustein aus Laurinsäure und Glycerin, der im Reagenzglas Bakterien, Pilze und behüllte Viren hemmt. Als Kapsel geschluckt ist Monolaurin am Menschen nicht untersucht; die wenigen Humanstudien prüften Gels für Scheide und Nase.',
+    description: 'Monolaurin (Glycerinmonolaurat, GML) ist ein Monoglycerid: ein Glycerinmolekül, an das eine Laurinsäure gebunden ist. Es kommt natürlich in Muttermilch vor und gehört chemisch zur Zusatzstoffgruppe E 471, den als Emulgator zugelassenen Mono- und Diglyceriden von Speisefettsäuren. Fast alle Wirkdaten stammen aus Laborversuchen, Nutztierfütterung und Affenversuchen. Eine Literaturübersicht von 2019 fand nur drei begutachtete Arbeiten mit antimikrobiellen Effekten am Menschen, alle mit äußerlicher Anwendung in Scheide oder Mund, und keine einzige zur Einnahme als Nahrungsergänzung. Die größte kontrollierte Studie, ein Scheidengel gegen bakterielle Vaginose bei 109 Frauen, heilte nicht besser als Placebo.',
+    benefits: [
+      'Hemmt im Reagenzglas zahlreiche Bakterien, Pilze und behüllte Viren; die Daten stammen überwiegend aus Laborversuchen',
+      'Als 5-prozentiges Nasengel bei 40 gesunden Freiwilligen: Staphylococcus aureus in der Nase um drei Zehnerpotenzen verringert, für zwei bis drei Tage; ohne Kontrollgruppe (Schlievert 2020)',
+      'Im Affenmodell schützte GML in der Scheide Rhesusaffen trotz wiederholter hoher Virusdosen vor einer Ansteckung mit SIV, dem Affen-Verwandten von HIV (Li 2009)',
+      'Trägt laut einer Laborarbeit zur antibakteriellen Wirkung von Muttermilch bei: rund 3000 µg/ml in Muttermilch, 150 µg/ml in Kuhmilch, keines in Säuglingsnahrung (Schlievert 2019)',
+      'In einer italienischen Beobachtungsstudie mit 1000 Beschäftigten im Gesundheitswesen ging ein höherer Monolaurinspiegel im Blut mit seltenerer Corona-Infektion einher – ein Zusammenhang, kein Wirkungsnachweis (Sola 2025)'
+    ],
+    risks: [
+      'Zur Einnahme als Kapsel gibt es keine Sicherheitsstudie am Menschen',
+      'Im Scheidengel-RCT meldeten zwei Drittel beider Gruppen leichte bis mittlere Beschwerden im Genitalbereich, ohne Unterschied zu Placebo (Mancuso 2020)',
+      'Hemmt in Laborversuchen die Aktivierung menschlicher T-Zellen und deren Botenstoffproduktion (Zhang 2016); ob das bei Einnahme eine Rolle spielt, ist nicht untersucht',
+      'Wird als breit wirksames Mittel gegen Viren, Candida und Infekte verkauft – dafür gibt es keine klinische Studie mit Einnahme'
+    ],
+    dosage: 'Keine Verzehrempfehlung. Für die Einnahme als Nahrungsergänzung gibt es keine Humanstudie, aus der sich eine Menge ableiten ließe. In den Studien am Menschen wurde Monolaurin ausschließlich äußerlich als 5-prozentiges Gel verwendet, in der Vaginose-Studie zweimal täglich über drei Tage. Eine amtliche Höchstmenge für Nahrungsergänzungsmittel ließ sich nicht finden.',
+    intake: 'Keine Einnahmeempfehlung. Für Infektionen gibt es geprüfte Behandlungen; für Monolaurin als Kapsel fehlt jeder Wirksamkeitsnachweis, deshalb gehört ein Infekt in ärztliche Hände.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Muttermilch; die Laurinsäure als Ausgangsstoff steckt vor allem in Kokos- und Palmkernfett',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32952476/'
+  },
+  {
+    id: 'pau-d-arco',
+    name: 'Pau d’Arco (Lapacho)',
+    altNames: 'Lapacho, Lapachorinde, Taheebo, Ipê roxo, Tabebuia impetiginosa, Tabebuia avellanedae, Handroanthus impetiginosus',
+    category: 'Kräuter',
+    tags: ['immun', 'entzuendung'],
+    short: 'Innere Rinde eines südamerikanischen Baums, in Deutschland als Lapachotee bekannt. Beworben gegen Pilze, Infekte und sogar Krebs; am Menschen gibt es eine einzige kleine Studie ohne Kontrollgruppe. Der Inhaltsstoff Lapachol war im Tierversuch stark fruchtschädigend.',
+    description: 'Pau d’Arco ist die innere Rinde von Tabebuia impetiginosa (heute Handroanthus impetiginosus), einem Baum aus Südamerika, wo sie traditionell als Abkochung gegen Infektionen, Fieber und Magenbeschwerden getrunken wird. In den 1960er-Jahren wurde sie in Brasilien als Wundermittel gegen Krebs bekannt; das US-amerikanische National Cancer Institute untersuchte die Pflanze und den Inhaltsstoff Lapachol damals ausführlich. Die wichtigsten Wirkstoffe sind Naphthochinone wie Lapachol und Beta-Lapachon, deren Effekte fast ausschließlich aus Zell- und Tierversuchen stammen. Am Menschen liegt zur Rinde eine einzige offene Studie mit zwölf Frauen vor. Für die Rinde ist eine Störung des Vitamin-K-Kreislaufs beschrieben, und die Handelsware schwankt laut einer Übersicht stark in Qualität und Zusammensetzung.',
+    benefits: [
+      'Entzündungshemmende, antibakterielle und pilzhemmende Effekte in Zell- und Tierversuchen, zusammengefasst in Übersichtsarbeiten (Zhang 2020); klinisch nicht geprüft',
+      'Einzige Humanstudie zur Rinde: 12 Frauen mit Regelschmerzen, 1.050 mg täglich über 8 Wochen, offen und ohne Kontrollgruppe; die Schmerzstärke sank gegenüber dem Ausgangswert, 9 von 12 beendeten die Studie (McClure 2022)',
+      'Lange Tradition als Abkochung in Südamerika; in Deutschland als Tee bekannt (BVL-Stoffliste)'
+    ],
+    risks: [
+      'Der Inhaltsstoff Lapachol war im Rattenversuch stark fruchtschädigend: Nach Gabe in der Frühschwangerschaft starben 99,2 Prozent der Feten ab (Guerra 2001)',
+      'Für die Rinde ist eine Störung des Vitamin-K-Kreislaufs beschrieben (Gómez Castellanos 2009) – relevant für die Blutgerinnung und für Gerinnungshemmer',
+      'In der offenen Studie meldeten 9 von 12 Frauen unerwünschte Ereignisse, meist leicht, keines schwerwiegend; einzelne Laborwerte waren leicht auffällig (McClure 2022)',
+      'Naphthochinone reizen Haut und Schleimhaut; große Mengen verursachen laut BVL-Stoffliste zytotoxische Effekte und Störungen des Verdauungstrakts',
+      'Qualität und Zusammensetzung der Handelsware schwanken stark (Gómez Castellanos 2009)'
+    ],
+    dosage: 'Keine Verzehrempfehlung. Die einzige Humanstudie zur Rinde verwendete 1.050 mg Pau d’Arco in Kapseln täglich über acht Wochen (McClure 2022); daraus lässt sich weder eine wirksame noch eine sichere Menge ableiten. Eine amtliche Höchstmenge gibt es nicht.',
+    intake: 'Keine Einnahmeempfehlung. Wegen der Lapachol-Daten aus dem Tierversuch und der beschriebenen Störung des Vitamin-K-Kreislaufs sind Schwangerschaft, Stillzeit und die gleichzeitige Einnahme von Gerinnungshemmern ein Fall für die ärztliche Rücksprache.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Innere Rinde von Tabebuia impetiginosa; traditionell als Abkochung oder Tee',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/18992801/'
+  },
+  {
+    id: 'phosphatidylcholin',
+    name: 'Phosphatidylcholin',
+    altNames: 'PC, Lecithin (Hauptbestandteil), Polyenylphosphatidylcholin (PPC), essenzielle Phospholipide (EPL), Sojalecithin',
+    category: 'Fettsäure',
+    tags: ['leber', 'gehirn', 'darm', 'acetylcholin'],
+    short: 'Hauptbestandteil von Lecithin und eine wichtige Cholinquelle. Bei Fettleber senkte ein Phospholipid-Präparat in einer neuen Studie den Leberfettwert; bei alkoholbedingter Leberfibrose, Colitis ulcerosa und Demenz blieben große oder zusammengefasste Studien ohne Nutzen.',
+    description: 'Phosphatidylcholin ist ein Phospholipid aus Glycerin, zwei Fettsäuren, Phosphat und Cholin und ein Grundbaustein der Zellmembranen. Es ist der Hauptbestandteil von Lecithin, das als Zusatzstoff E 322 zugelassen ist, und steckt unter anderem in Eigelb und Soja. Über den Cholinanteil hängt es an zugelassenen EU-Angaben: Cholin trägt zu einem normalen Fettstoffwechsel, zu einem normalen Homocystein-Stoffwechsel und zur Erhaltung einer normalen Leberfunktion bei. Die EFSA nennt als angemessene Cholinzufuhr für Erwachsene 400 mg pro Tag. Klinisch ist das Bild gemischt: Bei Fettleber mit Stoffwechselrisiken senkten essenzielle Phospholipide in einer doppelblinden Studie mit 193 Patienten den Leberfettwert, bei 789 Alkoholikern bremste Polyenylphosphatidylcholin die Fibrose nicht. Darmbakterien bauen den Cholinanteil zu TMAO um, dessen Blutspiegel mit Herz-Kreislauf-Ereignissen zusammenhängt.',
+    benefits: [
+      'Fettleber mit Typ-2-Diabetes, Fettstoffwechselstörung oder Übergewicht: essenzielle Phospholipide senkten über 6 Monate den Leberfettwert (CAP) gegenüber Placebo, dazu HbA1c und den Müdigkeitswert (RCT, 193 randomisierte Patienten, Stefan 2026)',
+      'Zugelassene EU-Angaben für Cholin: normaler Fettstoffwechsel, normaler Homocystein-Stoffwechsel, Erhaltung einer normalen Leberfunktion – ab 82,5 mg Cholin je 100 g, 100 ml oder Portion',
+      'Cholinquelle: Die EFSA setzt die angemessene Zufuhr für Erwachsene auf 400 mg Cholin pro Tag, in der Schwangerschaft auf 480 mg und in der Stillzeit auf 520 mg',
+      'Alkoholbedingte Leberfibrose: kein Unterschied zu Placebo nach 2 Jahren (RCT, 789 Teilnehmer, Lieber 2003)',
+      'Colitis ulcerosa: Nach positiven frühen Studien wurde die große Einleitungsstudie mit verzögert freigesetztem Phosphatidylcholin (466 Patienten) wegen Aussichtslosigkeit abgebrochen (Dignass 2024)',
+      'Demenz: Ein Cochrane-Review über 12 randomisierte Studien fand keinen klaren klinischen Nutzen von Lecithin (Higgins 2003)'
+    ],
+    risks: [
+      'Darmbakterien bauen den Cholinanteil zu TMAO um; ein höherer TMAO-Spiegel ging bei 4007 Herzpatienten mit mehr Herzinfarkten, Schlaganfällen und Todesfällen einher (höchstes gegen niedrigstes Viertel HR 2,54, Tang 2013) – ein Zusammenhang, kein Beleg, dass Phosphatidylcholin-Kapseln das Herzrisiko erhöhen',
+      'In den großen Studien gut verträglich: verzögert freigesetztes Phosphatidylcholin über bis zu 48 Wochen ohne Sicherheitsprobleme (Dignass 2024), keine Sicherheitsbedenken in der Fettleberstudie (Stefan 2026)',
+      'Ersetzt keine Behandlung einer Lebererkrankung; bei Alkoholikern hing der Verlauf in der großen Studie vor allem am Trinken, nicht am Präparat (Lieber 2003)'
+    ],
+    dosage: 'Amtlicher Bezugswert ist die Cholinzufuhr: Die EFSA nennt 400 mg Cholin pro Tag als angemessene Zufuhr für Erwachsene, 480 mg in der Schwangerschaft und 520 mg in der Stillzeit; die EU-Angaben setzen mindestens 82,5 mg Cholin je 100 g, 100 ml oder Portion voraus. In Studien: verzögert freigesetztes Phosphatidylcholin bei Colitis ulcerosa 3,2 g täglich (0,8 g viermal oder 1,6 g zweimal täglich); bei Alkoholikern drei Tabletten Polyenylphosphatidylcholin täglich. Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Phosphatidylcholin steckt in Eigelb und Soja; Kapseln ersetzen keine ärztliche Behandlung einer Lebererkrankung.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Eigelb, Sojabohnen; Lecithin aus Soja oder Sonnenblumen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41889076/'
+  },
+  {
+    id: 'natriumbutyrat',
+    name: 'Natriumbutyrat',
+    altNames: 'Butyrat, Natriumsalz der Buttersäure, Sodium Butyrate, mikroverkapseltes Natriumbutyrat',
+    category: 'Probiotika',
+    tags: ['darm', 'verdauung', 'mikrobiom', 'blutzucker'],
+    short: 'Das Natriumsalz der Buttersäure, die Darmbakterien sonst selbst aus Ballaststoffen bilden. Als Kapsel gibt es kleine Studien bei Reizdarm, Colitis und Übergewicht mit teils positiven Ergebnissen; bei Bluthochdruck stieg der Blutdruck dagegen an.',
+    description: 'Butyrat ist eine kurzkettige Fettsäure und ein wichtiger Energielieferant der Dickdarmschleimhaut. Normalerweise entsteht es im Dickdarm, wenn Bakterien Ballaststoffe vergären; eine Übersicht von 2008 beschreibt entzündungshemmende und schleimhautstärkende Effekte, hält aber fest, dass Humandaten begrenzt sind. Als Nahrungsergänzung wird Natriumbutyrat meist mikroverkapselt angeboten, damit es weiter unten im Darm ankommt. Die Humanstudien sind klein und kurz: Bei Reizdarm (66 Patienten) besserten sich einzelne Beschwerden, bei Colitis ulcerosa (98 Patienten) als Zusatztherapie die Remissionsraten, bei Kindern mit Adipositas (54) der BMI. Bei 23 Menschen mit Bluthochdruck stieg der Blutdruck unter Butyrat dagegen an. Kapsel-Butyrat und Butyrat aus Ballaststoffen sind nicht dasselbe: In der Blutdruckstudie stieg der Butyratspiegel im Blut, im Stuhl aber nicht.',
+    benefits: [
+      'Reizdarm: mikroverkapseltes Natriumbutyrat zusätzlich zur Standardtherapie verringerte nach 4 Wochen Schmerzen beim Stuhlgang, nach 12 Wochen auch Stuhldrang und Stuhlunregelmäßigkeiten; Bauchschmerz und Blähungen besserten sich nicht signifikant (RCT, 66 Patienten, Banasiewicz 2013)',
+      'Colitis ulcerosa, leicht bis mittelschwer: als Zusatztherapie über 8 Wochen klinische Besserung bei 51 Prozent und Remission bei 31,4 Prozent der Butyrat-Gruppe, laut Autoren signifikant; die Placebo-Raten nennt die Zusammenfassung nicht (RCT, 98 Patienten, Karłowicz 2025)',
+      'Kinder mit Adipositas: zusätzlich zur Standardbehandlung erreichten 96 gegenüber 56 Prozent eine BMI-Senkung um mindestens 0,25 Standardabweichungen in 6 Monaten (RCT, 54 Kinder, Coppola 2022)',
+      'Übergewichtige Erwachsene ohne Diabetes: −7,0 gegenüber −3,2 kg in 12 Wochen bei gleicher Diät; mit Typ-2-Diabetes kein Unterschied beim Gewicht, aber niedrigere Triglyzeride (RCT, 46 Teilnehmer, Testa 2026)',
+      'Typ-2-Diabetes mit Reizdarm-Beschwerden: weniger Bauchschmerz, Durchfall und Blähungen nach 12 Wochen, ausgewertet vor allem innerhalb der Gruppen (RCT, 52 Patienten, Panufnik 2026)'
+    ],
+    risks: [
+      'Bei 23 Menschen mit Bluthochdruck stieg der Tagesblutdruck nach 4 Wochen um 9,6 mmHg systolisch und 5,1 mmHg diastolisch gegenüber Placebo (Verhaar 2024)',
+      'Natriumbutyrat besteht zu etwa einem Fünftel aus Natrium',
+      'Die Studien sind klein und dauern 4 Wochen bis 6 Monate; Langzeitdaten fehlen',
+      'Tributyrin, eine verwandte Butyratquelle, gilt in der EU seit 2024 als nicht zugelassenes neuartiges Lebensmittel; für Natriumbutyrat hat der Novel-Food-Katalog keinen Eintrag'
+    ],
+    dosage: 'Keine Verzehrempfehlung. In Studien: 600 mg mikroverkapseltes Natriumbutyrat täglich (2 × 300 mg) bei Colitis ulcerosa, 1,5 g täglich bei Typ-2-Diabetes, 1.875 mg täglich bei Übergewicht, 20 mg je Kilogramm Körpergewicht täglich bei Kindern mit Adipositas. Eine amtliche Höchstmenge gibt es nicht.',
+    intake: 'Keine Einnahmeempfehlung. Butyrat entsteht im Darm aus Ballaststoffen; ob Kapseln diesen Weg ersetzen, ist nicht gezeigt. Bei Bluthochdruck gehört Butyrat wegen der Blutdruckstudie in die ärztliche Rücksprache.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Entsteht im Dickdarm bei der Vergärung von Ballaststoffen; Buttersäure kommt außerdem in Butter vor',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/22738315/'
   }
 
 ];

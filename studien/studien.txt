@@ -27,6 +27,15 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Gelbe Liste): Gelbe Liste, Wirkstoff Oxitriptan. https://www.gelbe-liste.de/wirkstoffe/Oxitriptan_45412
 - Behörde/Recht (Verbraucherzentrale): Verbraucherzentrale, 5-HTP aus der afrikanischen Schwarzbohne, 2024. https://www.verbraucherzentrale.de/faq/5hydroxytryptophan-5htp-aus-der-afrikanischen-schwarzbohne-32172
 
+## Thema: AAKG (Arginin-Alpha-Ketoglutarat) (https://biohackingkompakt.de/thema/aakg.html)
+5 Studien: 2 Sonstige Studie, 2 Randomisierte Studie, 1 Fallbericht.
+- Randomisierte Studie, 2011: Effects of 7 days of arginine-alpha-ketoglutarate supplementation on blood flow, plasma L-arginine, nitric oxide metabolites, and asymmetric dimethyl arginine after resistance exercise (Willoughby DS et al., Int J Sport Nutr Exerc Metab). https://pubmed.ncbi.nlm.nih.gov/21813912/
+- Randomisierte Studie, 2006: Pharmacokinetics, safety, and effects on exercise performance of L-arginine alpha-ketoglutarate in trained adult men (Campbell B et al., Nutrition). https://pubmed.ncbi.nlm.nih.gov/16928472/
+- Fallbericht, 2009: Adverse effects associated with arginine alpha-ketoglutarate containing supplements (Prosser JM et al., Hum Exp Toxicol). https://pubmed.ncbi.nlm.nih.gov/19755457/
+- Sonstige Studie, 2012: Acute L-arginine alpha ketoglutarate supplementation fails to improve muscular performance in resistance trained and untrained men (Wax B et al., J Int Soc Sports Nutr). https://pubmed.ncbi.nlm.nih.gov/22510253/
+- Sonstige Studie, 2008: Creatine, arginine alpha-ketoglutarate, amino acids, and medium-chain triglycerides and endurance and performance (Little JP et al., Int J Sport Nutr Exerc Metab). https://pubmed.ncbi.nlm.nih.gov/19033611/
+- Behörde/Recht (Weitere Quellen): VKM 2016 – Risikobewertung von L-Arginin und Arginin-Alpha-Ketoglutarat in Nahrungsergänzungen (Norwegen). https://vkm.no/download/18.645b840415d03a2fe8f26066/1502798687898/Risk+assessment+of+%22other+substances%22+-+L-arginine+and+arginine+alpha-ketoglutarate.pdf
+
 ## Thema: Abaloparatid (https://biohackingkompakt.de/thema/abaloparatid.html)
 7 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie.
 - Meta-Analyse / Übersicht, 2026: The Efficacy and Safety of Abaloparatide in Osteoporosis: A Systematic Review and Meta-Analysis (Bonifacio M et al., J Clin Med). https://pubmed.ncbi.nlm.nih.gov/41598611/
@@ -234,6 +243,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2014: Adverse health consequences of performance-enhancing drugs: an Endocrine Society scientific statement (Pope HG et al., Endocr Rev). https://pubmed.ncbi.nlm.nih.gov/24423981/
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, § 2 bis § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html
 
+## Thema: Anastrozol (https://biohackingkompakt.de/thema/anastrozol.html)
+5 Studien: 4 Randomisierte Studie, 1 Klinische Studie.
+- Randomisierte Studie, 2013: Gonadal steroids and body composition, strength, and sexual function in men (Finkelstein JS et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/24024838/
+- Randomisierte Studie, 2009: Effects of aromatase inhibition in hypogonadal older men: a randomized, double-blind, placebo-controlled trial (Burnett-Bowie SA et al., Clin Endocrinol (Oxf)). https://pubmed.ncbi.nlm.nih.gov/18616708/
+- Randomisierte Studie, 2009: Effects of aromatase inhibition on bone mineral density and bone turnover in older men with low testosterone levels (Burnett-Bowie SA et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/19820017/
+- Randomisierte Studie, 2004: Safety and efficacy of anastrozole for the treatment of pubertal gynecomastia: a randomized, double-blind, placebo-controlled trial (Plourde PV et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/15356042/
+- Klinische Studie, 2005: Results of the ATAC (Arimidex, Tamoxifen, Alone or in Combination) trial after completion of 5 years' adjuvant treatment for breast cancer (Howell A et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/15639680/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 1. Aromatasehemmer. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 – Verschreibungspflicht. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Arimidex (DailyMed) – Wirkung auf Östradiol, Warnhinweise zu Knochendichte, Cholesterin und ischämischen Ereignissen. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Arimidex – Harmonisierungsverfahren, Entscheidung 19.05.2011: Anwendungsgebiete, Dosis, Gegenanzeigen. https://www.ema.europa.eu/en/medicines/human/referrals/arimidex
+- Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, zu allen Zeiten verboten. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
 ## Thema: Andarin (S-4) (https://biohackingkompakt.de/thema/andarin.html)
 7 Studien: 3 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2023: Systematic Review of Safety of Selective Androgen Receptor Modulators in Healthy Adults: Implications for Recreational Users (Vignali JD et al., J Xenobiot). https://pubmed.ncbi.nlm.nih.gov/37218811/
@@ -290,6 +312,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2023: Investigating the effects of Argireline in a skin serum containing hyaluronic acids on skin surface wrinkles using the Visia® Complexion Analysis camera system for objective skin analysis (Henseler H, GMS Interdiscip Plast Reconstr Surg DGPW). https://pubmed.ncbi.nlm.nih.gov/38024099/
 - Sonstige Studie, 2019: Anti-Wrinkle Efficacy of Cross-Linked Hyaluronic Acid-Based Microneedle Patch with Acetyl Hexapeptide-8 and Epidermal Growth Factor on Korean Skin (An JH et al., Ann Dermatol). https://pubmed.ncbi.nlm.nih.gov/33911590/
 
+## Thema: Arjuna (https://biohackingkompakt.de/thema/arjuna.html)
+6 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2026: Evaluation of the Therapeutic Potential and Safety of Terminalia arjuna in Heart Failure Management: A Systematic Review and Meta-analysis of Randomized Controlled Trials (Kumar A et al., Ann Afr Med). https://pubmed.ncbi.nlm.nih.gov/42389976/
+- Randomisierte Studie, 2026: Efficacy of Terminalia arjuna in essential hypertension: A randomized controlled study (Nazir A et al., Explore (NY)). https://pubmed.ncbi.nlm.nih.gov/42753288/
+- Randomisierte Studie, 2016: Clinical efficacy of water extract of stem bark of Terminalia arjuna (Roxb. ex DC.) Wight & Arn. in patients of chronic heart failure: a double-blind, randomized controlled trial (Maulik SK et al., Phytomedicine). https://pubmed.ncbi.nlm.nih.gov/26988798/
+- Randomisierte Studie, 2002: Efficacy of Terminalia arjuna in chronic stable angina: a double-blind, placebo-controlled, crossover study comparing Terminalia arjuna with isosorbide mononitrate (Bharani A et al., Indian Heart J). https://pubmed.ncbi.nlm.nih.gov/12086380/
+- Randomisierte Studie, 2001: Antioxidant and hypocholesterolaemic effects of Terminalia arjuna tree-bark powder: a randomised placebo-controlled trial (Gupta R et al., J Assoc Physicians India). https://pubmed.ncbi.nlm.nih.gov/11225136/
+- Randomisierte Studie, 1995: Salutary effect of Terminalia Arjuna in patients with severe refractory heart failure (Bharani A et al., Int J Cardiol). https://pubmed.ncbi.nlm.nih.gov/7649665/
+- Behörde/Recht (Bundesamt für Verbraucherschutz (BVL)): Gemeinsame Expertenkommission BVL/BfArM 2020 – Stellungnahme zur Einstufung von Produkten der ayurvedischen Tradition (01/2020). https://www.bvl.bund.de/SharedDocs/Downloads/01_Lebensmittel/expertenkommission/Stellungnahme_Ayurveda.pdf?__blob=publicationFile&v=2
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – Liste der zulässigen gesundheitsbezogenen Angaben über Lebensmittel. https://eur-lex.europa.eu/eli/reg/2012/432/oj
+
 ## Thema: Armodafinil (https://biohackingkompakt.de/thema/armodafinil.html)
 8 Studien: 7 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2020: Efficacy and tolerability of adjunctive modafinil/armodafinil in bipolar depression: A meta-analysis of randomized controlled trials (Nunez NA et al., Bipolar Disord). https://pubmed.ncbi.nlm.nih.gov/31643130/
@@ -341,6 +374,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Kommission): EU-Kommission – Novel Food Status Catalogue (Astragalus membranaceus, Cycloastragenol). https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search
 - Behörde/Recht (NIH – NCCIH): NCCIH – Astragalus (Stand Mai 2025). https://www.nccih.nih.gov/health/astragalus
 - Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO monographs on selected medicinal plants, Band 1 (1999) – Radix Astragali. https://iris.who.int/handle/10665/42052
+
+## Thema: Avanafil (Spedra) (https://biohackingkompakt.de/thema/avanafil.html)
+5 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2019: Avanafil for the Treatment of men With Erectile Dysfunction: A Systematic Review and Meta-analysis of Randomized Controlled Trials (Li J et al., Am J Mens Health). https://pubmed.ncbi.nlm.nih.gov/31672076/
+- Meta-Analyse / Übersicht, 2015: Phosphodiesterase 5 inhibitors for the treatment of erectile dysfunction: a trade-off network meta-analysis (Chen L et al., Eur Urol). https://pubmed.ncbi.nlm.nih.gov/25817916/
+- Randomisierte Studie, 2015: Efficacy of Avanafil 15 Minutes after Dosing in Men with Erectile Dysfunction: A Randomized, Double-Blind, Placebo Controlled Study (Hellstrom WJ et al., J Urol). https://pubmed.ncbi.nlm.nih.gov/25591992/
+- Randomisierte Studie, 2013: A phase 3, placebo controlled study of the safety and efficacy of avanafil for the treatment of erectile dysfunction after nerve sparing radical prostatectomy (Mulhall JP et al., J Urol). https://pubmed.ncbi.nlm.nih.gov/23219537/
+- Randomisierte Studie, 2012: A randomized, double-blind, placebo-controlled evaluation of the safety and efficacy of avanafil in subjects with erectile dysfunction (Goldstein I et al., J Sex Med). https://pubmed.ncbi.nlm.nih.gov/22248153/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe). https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Spedra, europäischer Bewertungsbericht (EPAR). https://www.ema.europa.eu/en/medicines/human/EPAR/spedra
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Spedra, Produktinformation (Fachinformation). https://www.ema.europa.eu/en/documents/product-information/spedra-epar-product-information_en.pdf
 
 ## Thema: B7-33 (https://biohackingkompakt.de/thema/b7-33.html)
 9 Studien: 5 Sonstige Studie, 3 Tier- oder Laborstudie, 1 Randomisierte Studie.
@@ -505,6 +549,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NIH Office of Dietary Supplements): NIH Office of Dietary Supplements, Biotin Fact Sheet for Health Professionals. https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Biotin Interference with Troponin Lab Tests – Assays Subject to Biotin Interference. https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference
 
+## Thema: Bittermelone (https://biohackingkompakt.de/thema/bittermelone.html)
+9 Studien: 7 Meta-Analyse / Übersicht, 1 Fallbericht, 1 Übersichtsartikel.
+- Meta-Analyse / Übersicht, 2025: Efficacy of Momordica charantia in glycaemic control and insulin resistance among patients with prediabetes and type 2 diabetes. A GRADE-adherent meta-analysis of randomised controlled trials (Mkhize SAL et al., Metabol Open). https://pubmed.ncbi.nlm.nih.gov/41280283/
+- Meta-Analyse / Übersicht, 2025: The efficacy and safety of herbal medicines for glycaemic control and insulin resistance in individuals with type 2 diabetes: an umbrella review (Li E et al., BMC Complement Med Ther). https://pubmed.ncbi.nlm.nih.gov/41029669/
+- Meta-Analyse / Übersicht, 2024: Effects of Momordica charantia L. supplementation on glycemic control and lipid profile in type 2 diabetes mellitus patients: A systematic review and meta-analysis of randomized controlled trials (Zhang X et al., Heliyon). https://pubmed.ncbi.nlm.nih.gov/38784554/
+- Meta-Analyse / Übersicht, 2024: The Effects of Bitter Melon ( Mormordica charantia ) on Lipid Profile: A Systematic Review and Meta-Analysis of Randomized Controlled Trials (Amini MR et al., Phytother Res). https://pubmed.ncbi.nlm.nih.gov/39444254/
+- Meta-Analyse / Übersicht, 2023: The metabolic effect of Momordica charantia cannot be determined based on the available clinical evidence: a systematic review and meta-analysis of randomized clinical trials (Laczkó-Zöld E et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/38274207/
+- Meta-Analyse / Übersicht, 2019: Momordica charantia L. lowers elevated glycaemia in type 2 diabetes mellitus patients: Systematic review and meta-analysis (Peter EL et al., J Ethnopharmacol). https://pubmed.ncbi.nlm.nih.gov/30385422/
+- Meta-Analyse / Übersicht, 2014: The effect of bitter melon (Mormordica charantia) in patients with diabetes mellitus: a systematic review and meta-analysis (Yin RV et al., Nutr Diabetes). https://pubmed.ncbi.nlm.nih.gov/25504465/
+- Fallbericht, 2026: Herb-Induced Liver Injury (HILI) Associated With Asowosi (Momordica charantia): A Case Report (Guerra D et al., Cureus). https://pubmed.ncbi.nlm.nih.gov/41700226/
+- Übersichtsartikel, 2003: Bitter melon (Momordica charantia): a review of efficacy and safety (Basch E et al., Am J Health Syst Pharm). https://pubmed.ncbi.nlm.nih.gov/12625217/
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA – Gesundheitsbezogene Angaben nach Artikel 13, darunter 1.548 zurückgestellte Angaben zu Pflanzenstoffen. https://www.efsa.europa.eu/en/topics/health-claims-art-13
+
 ## Thema: Blood-Flow-Restriction-Training (BFR) (https://biohackingkompakt.de/thema/bfr-training.html)
 7 Studien: 4 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Übersichtsartikel, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2026: Effectiveness and safety of blood flow restriction training for patients with type 2 diabetes mellitus: a systematic review with meta analysis (Li Y et al., BMC Sports Sci Med Rehabil). https://pubmed.ncbi.nlm.nih.gov/42702720/
@@ -514,6 +571,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2010: Blood flow restriction exercise stimulates mTORC1 signaling and muscle protein synthesis in older men (Fry CS et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/20150565/
 - Beobachtungsstudie, 2022: Overall Safety and Risks Associated with Blood Flow Restriction Therapy: A Literature Review (Anderson KD et al., Mil Med). https://pubmed.ncbi.nlm.nih.gov/35284924/
 - Übersichtsartikel, 2019: Blood Flow Restriction Exercise: Considerations of Methodology, Application, and Safety (Patterson SD et al., Front Physiol). https://pubmed.ncbi.nlm.nih.gov/31156448/
+
+## Thema: Boldenon (Equipoise) (https://biohackingkompakt.de/thema/boldenon.html)
+6 Studien: 2 Fallbericht, 2 Sonstige Studie, 1 Klinische Studie, 1 Übersichtsartikel.
+- Klinische Studie, 2025: Evaluation of implementing drug checking services for anabolic androgenic steroids in Switzerland: a pilot study (Magnolini R et al., Harm Reduct J). https://pmc.ncbi.nlm.nih.gov/articles/PMC12147309/
+- Fallbericht, 2018: Anabolic Androgenic Steroid Use as a Cause of Fulminant Heart Failure (White M et al., Can J Cardiol). https://pubmed.ncbi.nlm.nih.gov/30205989/
+- Fallbericht, 2011: Apparent renal disease due to elevated creatinine levels associated with the use of boldenone (Winnett G et al., Nephrol Dial Transplant). https://pubmed.ncbi.nlm.nih.gov/20980358/
+- Übersichtsartikel, 2014: Adverse health consequences of performance-enhancing drugs: an Endocrine Society scientific statement (Pope HG et al., Endocr Rev). https://pubmed.ncbi.nlm.nih.gov/24423981/
+- Sonstige Studie, 2010: Determination of (13)C/(12)C ratios of urinary excreted boldenone and its main metabolite 5beta-androst-1-en-17beta-ol-3-one (Piper T et al., Drug Test Anal). https://pubmed.ncbi.nlm.nih.gov/20468009/
+- Sonstige Studie, 1992: Metabolism of boldenone in man: gas chromatographic/mass spectrometric identification of urinary excreted metabolites and determination of excretion rates (Schänzer W et al., Biol Mass Spectrom). https://pubmed.ncbi.nlm.nih.gov/1591280/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (Weitere Behörden): Code of Federal Regulations, 21 CFR 522.204 – Boldenon: Zulassung als Tierarzneimittel für Pferde. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-522/section-522.204
 
 ## Thema: Bor (Boron) (https://biohackingkompakt.de/thema/bor.html)
 7 Studien: 4 Sonstige Studie, 3 Randomisierte Studie.
@@ -824,6 +894,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 1995: Epidemiologic study of an outbreak of clenbuterol poisoning in Catalonia, Spain (Salleras L et al., Public Health Rep). https://pubmed.ncbi.nlm.nih.gov/7610227/
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, § 2 bis § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html
 
+## Thema: Clomifen (https://biohackingkompakt.de/thema/clomifen.html)
+6 Studien: 2 Beobachtungsstudie, 2 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2025: Clomiphene or enclomiphene citrate for the treatment of male hypogonadism: a systematic review and meta-analysis of randomized controlled trials (Hohl A et al., Arch Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/41066380/
+- Meta-Analyse / Übersicht, 2013: Revisiting oestrogen antagonists (clomiphene or tamoxifen) as medical empiric therapy for idiopathic male infertility: a meta-analysis (Chua ME et al., Andrology). https://pubmed.ncbi.nlm.nih.gov/23970453/
+- Randomisierte Studie, 2014: Letrozole versus clomiphene for infertility in the polycystic ovary syndrome (Legro RS et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/25006718/
+- Beobachtungsstudie, 2026: Efficacy and Safety of Clomiphene Citrate for Late-Onset Hypogonadism as Evaluated by Aging Male Symptom Rating Scale Over One Year (Anno Y et al., Int J Urol). https://pubmed.ncbi.nlm.nih.gov/41250569/
+- Beobachtungsstudie, 2019: Long-Term Safety and Efficacy of Clomiphene Citrate for the Treatment of Hypogonadism (Krzastek SC et al., J Urol). https://pubmed.ncbi.nlm.nih.gov/31216250/
+- Sonstige Studie, 2017: Serum levels of enclomiphene and zuclomiphene in men with hypogonadism on long-term clomiphene citrate treatment (Helo S et al., BJU Int). https://pubmed.ncbi.nlm.nih.gov/27511863/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 2. Antiestrogene Stoffe. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Fachinformationen): Fachinformation Clomifen-ratiopharm 50 mg Tabletten (Stand August 2016). https://www.fachinfo.de/fi/pdf/003764/clomifen-ratiopharm-r-50-mg-tabletten
+- Behörde/Recht (Weitere Behörden): WADA-Verbotsliste 2026, S4.2 Antiöstrogene Substanzen – amtliche Bekanntmachung im Bundesgesetzblatt II 2025 Nr. 312. https://www.recht.bund.de/bgbl/2/2025/312/regelungstext.pdf
+
 ## Thema: Coenzym Q10 (Ubiquinol) (https://biohackingkompakt.de/thema/coq10.html)
 9 Studien: 5 Meta-Analyse / Übersicht, 4 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2026: Nutritional supplements for migraine prevention: evaluating evidence sufficiency and effect modifiers through network meta-analysis, trial sequential analysis, and meta-regression (Peng J et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/42707444/
@@ -916,6 +998,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Tier- oder Laborstudie, 2001: Tissue-specific effects of peptides (Khavinson VK, Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/11713572/
 - Behörde/Recht (NADA): NADA, Verbotsliste 2026 – informatorische Übersetzung. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
+## Thema: D-Ribose (https://biohackingkompakt.de/thema/d-ribose.html)
+9 Studien: 5 Randomisierte Studie, 2 Sonstige Studie, 2 Klinische Studie.
+- Randomisierte Studie, 2022: Effects of Ubiquinol and/or D-ribose in Patients With Heart Failure With Preserved Ejection Fraction (Pierce JD et al., Am J Cardiol). https://pubmed.ncbi.nlm.nih.gov/35644694/
+- Randomisierte Studie, 2005: Effects of ribose supplementation prior to and during intense exercise on anaerobic capacity and metabolic markers (Kerksick C et al., Int J Sport Nutr Exerc Metab). https://pubmed.ncbi.nlm.nih.gov/16521849/
+- Randomisierte Studie, 2003: D-Ribose improves diastolic function and quality of life in congestive heart failure patients: a prospective feasibility study (Omran H et al., Eur J Heart Fail). https://pubmed.ncbi.nlm.nih.gov/14607200/
+- Randomisierte Studie, 2001: No effects of oral ribose supplementation on repeated maximal exercise and de novo ATP resynthesis (Eijnde BO et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/11641371/
+- Randomisierte Studie, 1992: Effects of ribose on exercise-induced ischaemia in stable coronary artery disease (Pliml W et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/1354276/
+- Klinische Studie, 2015: D-ribose aids heart failure patients with preserved ejection fraction and diastolic dysfunction: a pilot study (Bayram M et al., Ther Adv Cardiovasc Dis). https://pubmed.ncbi.nlm.nih.gov/25701016/
+- Klinische Studie, 2006: The use of D-ribose in chronic fatigue syndrome and fibromyalgia: a pilot study (Teitelbaum JE et al., J Altern Complement Med). https://pubmed.ncbi.nlm.nih.gov/17109576/
+- Sonstige Studie, 2018: Safety of d-ribose as a novel food pursuant to Regulation (EU) 2015/2283 (EFSA Panel on Dietetic Products et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/32625902/
+- Sonstige Studie, 1991: Serum levels of glucose, insulin, and C-peptide during long-term D-ribose administration in man (Gross M et al., Klin Wochenschr). https://pubmed.ncbi.nlm.nih.gov/1901925/
+- Behörde/Recht (EU-Recht (EUR-Lex)): Durchführungsverordnung (EU) 2019/506 – Zulassung von D-Ribose als neuartiges Lebensmittel. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019R0506
+
 ## Thema: Dasatinib + Quercetin (Senolytic-Stack) (https://biohackingkompakt.de/thema/senolytic-dq.html)
 7 Studien: 4 Klinische Studie, 2 Randomisierte Studie, 1 Tier- oder Laborstudie.
 - Randomisierte Studie, 2024: Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial (Farr JN et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38956196/
@@ -939,6 +1034,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 1985: The effects of dermorphin on the endocrine system in man (Degli Uberti EC et al., Peptides). https://pubmed.ncbi.nlm.nih.gov/3008118/
 - Sonstige Studie, 1985: Tolerance and physical dependence induced by dermorphin in rats (Broccardo M et al., Eur J Pharmacol). https://pubmed.ncbi.nlm.nih.gov/4040026/
 - Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppen S0 und S7). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
+## Thema: DGL-Süßholz (deglycyrrhiziniert) (https://biohackingkompakt.de/thema/dgl-suessholz.html)
+6 Studien: 6 Randomisierte Studie.
+- Randomisierte Studie, 2025: Efficacy and Safety of GutGard® in Managing Gastroesophageal Reflux-Related Symptoms: A Phase III, Single-Centre, Double-Blind, Randomized Placebo-Controlled Trial (Raj JP et al., Complement Med Res). https://pubmed.ncbi.nlm.nih.gov/39929150/
+- Randomisierte Studie, 2013: Effect of GutGard in the Management of Helicobacter pylori: A Randomized Double Blind Placebo Controlled Study (Puram S et al., Evid Based Complement Alternat Med). https://pubmed.ncbi.nlm.nih.gov/23606875/
+- Randomisierte Studie, 2012: An Extract of Glycyrrhiza glabra (GutGard) Alleviates Symptoms of Functional Dyspepsia: A Randomized, Double-Blind, Placebo-Controlled Study (Raveendra KR et al., Evid Based Complement Alternat Med). https://pubmed.ncbi.nlm.nih.gov/21747893/
+- Randomisierte Studie, 1978: Clinical trial of deglycyrrhizinised liquorice in gastric ulcer (Bardhan KD et al., Gut). https://pubmed.ncbi.nlm.nih.gov/361512/
+- Randomisierte Studie, 1973: Double-blind trial of deglycyrrhizinated liquorice in gastric ulcer (Engqvist A et al., Gut). https://pubmed.ncbi.nlm.nih.gov/4584640/
+- Randomisierte Studie, 1971: A trial of deglycyrrhizinated liquorice in the treatment of duodenal ulcer (Feldman H et al., Gut). https://pubmed.ncbi.nlm.nih.gov/4933135/
+- Behörde/Recht (Bundesamt für Verbraucherschutz (BVL)): BVL – Pflanzenliste der Stoffliste des Bundes und der Bundesländer, Einträge A–K (2. Auflage). https://www.bvl.bund.de/SharedDocs/Berichte/08_Stoffliste_Bund_Bundeslaender/Pflanzenliste_Eintraege_A-K_2_Aufl_10_2020.html
+- Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR – Gesundheitliche Bewertung von Lakritz (Glycyrrhizin unter 100 mg pro Tag). https://www.bfr.bund.de/en/food-safety/health-assessment-of-special-food-groups/selected-foods/health-assessment-of-liquorice/
 
 ## Thema: DHEA (Dehydroepiandrosteron) (https://biohackingkompakt.de/thema/dhea.html)
 9 Studien: 5 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Sonstige Studie, 1 Leitlinie / Konsens.
@@ -974,6 +1080,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2010: A phase I dose-escalation study of oral BR-DIM (BioResponse 3,3'- Diindolylmethane) in castrate-resistant, non-metastatic prostate cancer (Heath EI et al., Am J Transl Res). https://pubmed.ncbi.nlm.nih.gov/20733950/
 - Behörde/Recht (EU-Kommission): RASFF Window – Meldungen zu DIM als nicht zugelassenem neuartigem Lebensmittel. https://webgate.ec.europa.eu/rasff-window/screen/search
 
+## Thema: Diosmin (https://biohackingkompakt.de/thema/diosmin.html)
+5 Studien: 3 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2020: Phlebotonics for venous insufficiency (Martinez-Zapata MJ et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/33141449/
+- Meta-Analyse / Übersicht, 2012: Phlebotonics for haemorrhoids (Perera N et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/22895941/
+- Meta-Analyse / Übersicht, 2005: Venous leg ulcer: a meta-analysis of adjunctive therapy with micronized purified flavonoid fraction (Coleridge-Smith P et al., Eur J Vasc Endovasc Surg). https://pubmed.ncbi.nlm.nih.gov/15936227/
+- Randomisierte Studie, 2021: Efficacy of a Low-Dose Diosmin Therapy on Improving Symptoms and Quality of Life in Patients with Chronic Venous Disease: Randomized, Double-Blind, Placebo-Controlled Trial (Serra R et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/33808784/
+- Randomisierte Studie, 1998: [Study of the pharmacodynamic activity of daflon 500 mg] (Amiel M et al., Ann Cardiol Angeiol (Paris)). https://pubmed.ncbi.nlm.nih.gov/9772947/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – verschreibungspflichtige Stoffe. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – Liste der zulässigen gesundheitsbezogenen Angaben über Lebensmittel. https://eur-lex.europa.eu/eli/reg/2012/432/oj
+- Behörde/Recht (Weitere Quellen): arznei-telegramm 2002, Jg. 33, Nr. 10, S. 107 – Venentonika, Diosmin (Tovene). https://www.arznei-telegramm.de/register/0210107.pdf
+- Behörde/Recht (Weitere Quellen): BASG – Fachinformation Diosmin Genericon 1000 mg Filmtabletten (Österreich, Stand Oktober 2025). https://medikamente.basg.gv.at/documents/141540__DOTC_FACH_INFO.pdf
+
 ## Thema: DMG (N,N-Dimethylglycin) (https://biohackingkompakt.de/thema/dmg.html)
 10 Studien: 7 Randomisierte Studie, 2 Sonstige Studie, 1 Beobachtungsstudie.
 - Randomisierte Studie, 2021: N,N-Dimethylglycine in patients with progressive multiple sclerosis: result of a pilot double-blind, placebo, controlled randomized clinical trial (Wolfsegger T et al., Neurol Res Pract). https://pubmed.ncbi.nlm.nih.gov/34024278/
@@ -1000,6 +1118,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR, Mitteilung Nr. 046/2015. https://www.bfr.bund.de/cm/343/nahrungsergaenzungsmittel-die-dinitrophenol-dnp-enthalten-koennen-zu-schweren-vergiftungen-bis-hin-zu-todesfaellen-fuehren.pdf
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA, Prohibited List 2026. https://www.wada-ama.org/en/prohibited-list
 
+## Thema: Drostanolon (Masteron) (https://biohackingkompakt.de/thema/drostanolon.html)
+6 Studien: 3 Randomisierte Studie, 2 Übersichtsartikel, 1 Sonstige Studie.
+- Randomisierte Studie, 1978: [Androgen therapy of incurable breast neoplasms. Controlled clinical study: nandrolone-testololactone-drostanolone] (Wolff G et al., Onkologie). https://pubmed.ncbi.nlm.nih.gov/362297/
+- Randomisierte Studie, 1975: Comparison of testosterone decanoate, drostanolone and testololactone in disseminated breast cancer--a randomized clinical study (Rieche K et al., Arch Geschwulstforsch). https://pubmed.ncbi.nlm.nih.gov/1243528/
+- Randomisierte Studie, 1974: Hypertriglyceridemia in hemodialysis patients during oral dromostanolone therapy for anemia (Choi ES et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/4606631/
+- Übersichtsartikel, 2022: Anabolic androgenic steroid-induced liver injury: An update (Petrovic A et al., World J Gastroenterol). https://pubmed.ncbi.nlm.nih.gov/36051334/
+- Übersichtsartikel, 2014: Adverse health consequences of performance-enhancing drugs: an Endocrine Society scientific statement (Pope HG et al., Endocr Rev). https://pubmed.ncbi.nlm.nih.gov/24423981/
+- Sonstige Studie, 1992: The methyl-5 alpha-dihydrotestosterones mesterolone and drostanolone; gas chromatographic/mass spectrometric characterization of the urinary metabolites (de Boer D et al., J Steroid Biochem Mol Biol). https://pubmed.ncbi.nlm.nih.gov/1606052/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): Drugs@FDA – NDA 012936, Drolban (Dromostanolonpropionat, Eli Lilly), Status eingestellt. https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=012936
+
 ## Thema: DSIP (https://biohackingkompakt.de/thema/dsip.html)
 10 Studien: 4 Randomisierte Studie, 2 Übersichtsartikel, 2 Tier- oder Laborstudie, 1 Beobachtungsstudie, 1 Sonstige Studie.
 - Randomisierte Studie, 1992: Effects of delta sleep-inducing peptide on sleep of chronic insomniac patients. A double-blind study (Bes F et al., Neuropsychobiology). https://pubmed.ncbi.nlm.nih.gov/1299794/
@@ -1013,6 +1144,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 1984: Delta-sleep-inducing peptide (DSIP): a review (Graf MV et al., Neurosci Biobehav Rev). https://pubmed.ncbi.nlm.nih.gov/6145137/
 - Sonstige Studie, 1983: Successful treatment of withdrawal symptoms with delta sleep-inducing peptide, a neuropeptide with potential agonistic activity on opiate receptors (Dick P et al., Neuropsychobiology). https://pubmed.ncbi.nlm.nih.gov/6328354/
 - Behörde/Recht (Weitere Quellen): McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
+
+## Thema: Dutasterid (https://biohackingkompakt.de/thema/dutasterid.html)
+6 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2022: Relative Efficacy of Minoxidil and the 5-α Reductase Inhibitors in Androgenetic Alopecia Treatment of Male Patients: A Network Meta-analysis (Gupta AK et al., JAMA Dermatol). https://pubmed.ncbi.nlm.nih.gov/35107565/
+- Randomisierte Studie, 2018: Prospective randomized study of sexual function in men taking dutasteride for the treatment of androgenetic alopecia (Tsai TF et al., J Dermatol). https://pubmed.ncbi.nlm.nih.gov/29667763/
+- Randomisierte Studie, 2014: A randomized, active- and placebo-controlled study of the efficacy and safety of different doses of dutasteride versus placebo and finasteride in the treatment of male subjects with androgenetic alopecia (Gubelin Harcha W et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/24411083/
+- Randomisierte Studie, 2010: Effect of dutasteride on the risk of prostate cancer (Andriole GL et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/20357281/
+- Randomisierte Studie, 2010: Efficacy, safety, and tolerability of dutasteride 0.5 mg once daily in male patients with male pattern hair loss: a randomized, double-blind, placebo-controlled, phase III study (Eun HC et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/20605255/
+- Randomisierte Studie, 2006: The importance of dual 5alpha-reductase inhibition in the treatment of male pattern hair loss: results of a randomized placebo-controlled study of dutasteride versus finasteride (Olsen EA et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/17110217/
+- Behörde/Recht (BfArM): BfArM, Rote-Hand-Brief zu Finasterid und Dutasterid vom 15.09.2025 – Suizidgedanken. https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RHB/2025/rhb-finasterid.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Überprüfung finasterid- und dutasteridhaltiger Arzneimittel 2025 – Suizidgedanken. https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products
+- Behörde/Recht (Fachinformationen): Fachinformation Avodart 0,5 mg Weichkapseln (Stand September 2025). https://www.fachinfo.de/fi/pdf/001806/avodart-0-5-mg-weichkapseln
+- Behörde/Recht (Weitere Quellen): PMDA/MHLW 2015 – Zulassungsbericht Zagallo (Dutasterid) bei androgenetischer Alopezie des Mannes, Japan. https://www.pmda.go.jp/files/000245812.pdf
 
 ## Thema: Eisen (https://biohackingkompakt.de/thema/eisen.html)
 10 Studien: 4 Randomisierte Studie, 3 Meta-Analyse / Übersicht, 2 Sonstige Studie, 1 Beobachtungsstudie.
@@ -1134,6 +1278,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2014: Effect of whole-body periodic acceleration on exercise-induced muscle damage after eccentric exercise (Serravite DH et al., Int J Sports Physiol Perform). https://pubmed.ncbi.nlm.nih.gov/24662009/
 - Tier- oder Laborstudie, 2019: Whole body periodic acceleration improves survival and microvascular leak in a murine endotoxin model (Adams JA et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/30682019/
 - Behörde/Recht (Weitere Quellen): Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage 2017, Kurzfassung. https://www.uniklinik-ulm.de/fileadmin/default/Zentren/Wirbelsaeulenzentrum/Downloads/kreuzschmerz-2aufl-vers1-kurz.pdf
+
+## Thema: Exemestan (https://biohackingkompakt.de/thema/exemestan.html)
+5 Studien: 5 Randomisierte Studie.
+- Randomisierte Studie, 2016: Gonadal steroid-dependent effects on bone turnover and bone mineral density in men (Finkelstein JS et al., J Clin Invest). https://pubmed.ncbi.nlm.nih.gov/26901812/
+- Randomisierte Studie, 2013: Gonadal steroids and body composition, strength, and sexual function in men (Finkelstein JS et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/24024838/
+- Randomisierte Studie, 2011: Exemestane for breast-cancer prevention in postmenopausal women (Goss PE et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/21639806/
+- Randomisierte Studie, 2007: Survival and safety of exemestane versus tamoxifen after 2-3 years' tamoxifen treatment (Intergroup Exemestane Study): a randomised controlled trial (Coombes RC et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/17307102/
+- Randomisierte Studie, 2003: Pharmacokinetics and dose finding of a potent aromatase inhibitor, aromasin (exemestane), in young males (Mauras N et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/14671195/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 1. Aromatasehemmer. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 – Verschreibungspflicht. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Aromasin (DailyMed) – Anwendungsgebiete, Dosis, Wirkmechanismus, Knochendichte. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3
+- Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, zu allen Zeiten verboten. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
 ## Thema: Exogene Ketone / Ketonester (https://biohackingkompakt.de/thema/exogene-ketone.html)
 8 Studien: 5 Meta-Analyse / Übersicht, 1 Klinische Studie, 1 Randomisierte Studie, 1 Sonstige Studie.
@@ -1297,6 +1453,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2016: Heat for wounds - water-filtered infrared-A (wIRA) for wound healing - a review (Hoffmann G et al., Ger Med Sci). https://pubmed.ncbi.nlm.nih.gov/27408610/
 - Sonstige Studie, 2025: Predictors of Successful Whole-Body Hyperthermia in Cancer Patients: Target Temperature Achievement and Safety Analysis (Hohneck AL et al., Cancers (Basel)). https://pubmed.ncbi.nlm.nih.gov/40867345/
 - Sonstige Studie, 2023: Investigating the Influential Factors of Mild Water-Filtered Infrared-A Whole-Body Hyperthermia for Pain Relief in Fibromyalgia: A Mixed-Methods Approach Focusing on Predictors and Patient Perspectives (Öznur Ö et al., Biomedicines). https://pubmed.ncbi.nlm.nih.gov/38001951/
+
+## Thema: Garcinia cambogia (Hydroxycitronensäure) (https://biohackingkompakt.de/thema/garcinia-cambogia.html)
+5 Studien: 3 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2025: The effects of Garcinia cambogia on glycaemic control and liver enzymes in adults: a systematic review and meta-analysis of randomised controlled trials (Tavakoli S et al., J Nutr Sci). https://pubmed.ncbi.nlm.nih.gov/39943939/
+- Meta-Analyse / Übersicht, 2020: Effect of Garcinia cambogia supplement on obesity indices: A systematic review and dose-response meta-analysis (Golzarand M et al., Complement Ther Med). https://pubmed.ncbi.nlm.nih.gov/32951714/
+- Meta-Analyse / Übersicht, 2011: The Use of Garcinia Extract (Hydroxycitric Acid) as a Weight loss Supplement: A Systematic Review and Meta-Analysis of Randomised Clinical Trials (Onakpoya I et al., J Obes). https://pubmed.ncbi.nlm.nih.gov/21197150/
+- Randomisierte Studie, 1998: Garcinia cambogia (hydroxycitric acid) as a potential antiobesity agent: a randomized controlled trial (Heymsfield SB et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/9820262/
+- Sonstige Studie, 2022: Garcinia cambogia, Either Alone or in Combination With Green Tea, Causes Moderate to Severe Liver Injury (Vuppalanchi R et al., Clin Gastroenterol Hepatol). https://pubmed.ncbi.nlm.nih.gov/34400337/
+- Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Jahresbericht 2015, S. 61 – Hydroxycitronensäure aus Garcinia cambogia. https://www.bfr.bund.de/epaper_jahresbericht_deutsch_2015/files/assets/common/downloads/page0061.pdf
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA 2026 – Entwurf der Stellungnahme zu Hydroxycitronensäure, gebilligt am 28. Januar 2026 (Stakeholder-Treffen). https://www.efsa.europa.eu/en/events/targeted-stakeholder-meeting-interested-food-business-representatives-efsas-draft-opinion
+- Behörde/Recht (Weitere Quellen): ANSES, 5. März 2025 – Warnung vor Nahrungsergänzungsmitteln mit Garcinia cambogia. https://www.anses.fr/en/news/do-not-consume-food-supplements-containing-garcinia-cambogia
+- Behörde/Recht (Weitere Quellen): FDA, 2009 – Warnung vor Hydroxycut-Produkten wegen Leberschäden (Archivkopie). https://ia801504.us.archive.org/12/items/www.fda.gov/www.fda.gov/NewsEvents/PublicHealthFocus/ucm155817.htm
+- Behörde/Recht (Weitere Quellen): Légifrance – Erlass vom 16. April 2026 zur Verlängerung der Aussetzung von Garcinia-cambogia-Nahrungsergänzungsmitteln (Erstaussetzung: Erlass vom 15. April 2025). https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053907152
 
 ## Thema: Genanalysen (https://biohackingkompakt.de/thema/genanalysen.html)
 6 Studien: 3 Randomisierte Studie, 1 Beobachtungsstudie, 1 Sonstige Studie, 1 Meta-Analyse / Übersicht.
@@ -1582,6 +1751,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Stier et al., J Endocrinol Metab 2013 (Sicherheit am Menschen, sechs Studien). https://www.jofem.org/index.php/jofem/article/view/157
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA, Verbotsliste 2026, Abschnitt S2.2.3. https://www.wada-ama.org/en/prohibited-list
 
+## Thema: HMB (β-Hydroxy-β-Methylbutyrat) (https://biohackingkompakt.de/thema/hmb.html)
+9 Studien: 5 Meta-Analyse / Übersicht, 2 Sonstige Studie, 1 Randomisierte Studie, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2026: Efficacy of HMB supplementation as an adjunct to resistance training in older adults: a comprehensive meta-analysis (Wang G et al., Age Ageing). https://pubmed.ncbi.nlm.nih.gov/41934514/
+- Meta-Analyse / Übersicht, 2020: Supplementation with the Leucine Metabolite β-hydroxy-β-methylbutyrate (HMB) does not Improve Resistance Exercise-Induced Changes in Body Composition or Strength in Young Subjects: A Systematic Review and Meta-Analysis (Jakubowski JS et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/32456217/
+- Meta-Analyse / Übersicht, 2019: β-Hydroxy-β-methylbutyrate and its impact on skeletal muscle mass and physical function in clinical practice: a systematic review and meta-analysis (Bear DE et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/30982854/
+- Meta-Analyse / Übersicht, 2018: Effects of beta-hydroxy-beta-methylbutyrate supplementation on strength and body composition in trained and competitive athletes: A meta-analysis of randomized controlled trials (Sanchez-Martinez J et al., J Sci Med Sport). https://pubmed.ncbi.nlm.nih.gov/29249685/
+- Meta-Analyse / Übersicht, 2009: Effects of beta-hydroxy-beta-methylbutyrate supplementation during resistance training on strength, body composition, and muscle damage in trained and untrained young men: a meta-analysis (Rowlands DS et al., J Strength Cond Res). https://pubmed.ncbi.nlm.nih.gov/19387395/
+- Randomisierte Studie, 2014: The effects of 12 weeks of beta-hydroxy-beta-methylbutyrate free acid supplementation on muscle mass, strength, and power in resistance-trained individuals: a randomized, double-blind, placebo-controlled study (Wilson JM et al., Eur J Appl Physiol). https://pubmed.ncbi.nlm.nih.gov/24599749/
+- Beobachtungsstudie, 2000: beta-hydroxy-beta-methylbutyrate (HMB) supplementation in humans is safe and may decrease cardiovascular risk factors (Nissen S et al., J Nutr). https://pubmed.ncbi.nlm.nih.gov/10917905/
+- Sonstige Studie, 2017: Discrepancies in publications related to HMB-FA and ATP supplementation (Gentles JA et al., Nutr Metab (Lond)). https://pubmed.ncbi.nlm.nih.gov/28680453/
+- Sonstige Studie, 2017: Response to discrepancies in publications related to HMB-FA and ATP supplementation (Wilson JM, Nutr Metab (Lond)). https://pubmed.ncbi.nlm.nih.gov/29209404/
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA 2011 – Bewertung gesundheitsbezogener Angaben zu HMB (EFSA Journal 2011;9(6):2227). https://www.efsa.europa.eu/en/efsajournal/pub/2227
+
 ## Thema: HMG (humanes Menopausen-Gonadotropin) (https://biohackingkompakt.de/thema/hmg.html)
 8 Studien: 2 Beobachtungsstudie, 2 Meta-Analyse / Übersicht, 2 Übersichtsartikel, 1 Sonstige Studie, 1 Fallbericht.
 - Meta-Analyse / Übersicht, 2025: Efficacy of Gonadotropin Treatment for Induction of Spermatogenesis in Men With Pathologic Gonadotropin Deficiency: A Meta-Analysis (Muir CA et al., Clin Endocrinol (Oxf)). https://pubmed.ncbi.nlm.nih.gov/39445789/
@@ -1714,6 +1896,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2008: The role of near infrared radiation in photoaging of the skin (Schroeder P et al., Exp Gerontol). https://pubmed.ncbi.nlm.nih.gov/18534799/
 - Sonstige Studie, 2007: Water-filtered infrared-A radiation (wIRA) is not implicated in cellular degeneration of human skin (Gebbers N et al., Ger Med Sci). https://pubmed.ncbi.nlm.nih.gov/19675716/
 
+## Thema: Ingwer (https://biohackingkompakt.de/thema/ingwer.html)
+6 Studien: 6 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2025: Efficacy and Safety of Ginger on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-analysis of Randomized Controlled Trials (Lin CY et al., Cancer Nurs). https://pubmed.ncbi.nlm.nih.gov/38625733/
+- Meta-Analyse / Übersicht, 2025: The efficacy and safety of herbal medicines for glycaemic control and insulin resistance in individuals with type 2 diabetes: an umbrella review (Li E et al., BMC Complement Med Ther). https://pubmed.ncbi.nlm.nih.gov/41029669/
+- Meta-Analyse / Übersicht, 2019: Efficacy of Ginger (Zingiber officinale) in Ameliorating Chemotherapy-Induced Nausea and Vomiting and Chemotherapy-Related Outcomes: A Systematic Review Update and Meta-Analysis (Crichton M et al., J Acad Nutr Diet). https://pubmed.ncbi.nlm.nih.gov/31519467/
+- Meta-Analyse / Übersicht, 2018: Ginger (Zingiber officinale): An alternative for the prevention of postoperative nausea and vomiting. A meta-analysis (Tóth B et al., Phytomedicine). https://pubmed.ncbi.nlm.nih.gov/30466995/
+- Meta-Analyse / Übersicht, 2014: A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting (Viljoen E et al., Nutr J). https://pubmed.ncbi.nlm.nih.gov/24642205/
+- Meta-Analyse / Übersicht, 2006: The efficacy of ginger for the prevention of postoperative nausea and vomiting: a meta-analysis (Chaiyakunapruk N et al., Am J Obstet Gynecol). https://pubmed.ncbi.nlm.nih.gov/16389016/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Zingiberis rhizoma, EU-Pflanzenmonografie (Revision 1, 2024). https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA – Gesundheitsbezogene Angaben nach Artikel 13, darunter 1.548 zurückgestellte Angaben zu Pflanzenstoffen. https://www.efsa.europa.eu/en/topics/health-claims-art-13
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Verbotsliste 2026 (Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
 ## Thema: INUSpherese® (Blut-Apherese) (https://biohackingkompakt.de/thema/inuspherese.html)
 5 Studien: 1 Leitlinie / Konsens, 1 Fallbericht, 1 Sonstige Studie, 1 Randomisierte Studie, 1 Beobachtungsstudie.
 - Randomisierte Studie, 2024: IA-PACS-CFS: a double-blinded, randomized, sham-controlled, exploratory trial of immunoadsorption in patients with chronic fatigue syndrome (CFS) including patients with post-acute COVID-19 CFS (PACS-CFS) (Preßler H et al., Trials). https://pubmed.ncbi.nlm.nih.gov/38454468/
@@ -1725,6 +1919,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Deutsche Gesellschaft für Nephrologie, Stellungnahme vom 03.01.2022 — Lipidapherese bei Long- oder Post-COVID. https://www.dgfn.eu/stellungnahmen-details/stellungnahme-der-deutschen-gesellschaft-fuer-nephrologie-zu-lipidapherese-bei-long-oder-post-covid.html
 - Behörde/Recht (Weitere Quellen): Deutsche Gesellschaft für Nephrologie, Stellungnahme vom 11.08.2022 — Apheresetherapie bei Long-/Post-COVID. https://www.dgfn.eu/stellungnahmen-details/apheresetherapie-long-post-covid-syndrom.html
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, amtlich veröffentlicht im österreichischen Bundesgesetzblatt III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
+
+## Thema: Isotretinoin (https://biohackingkompakt.de/thema/isotretinoin.html)
+5 Studien: 3 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2024: Risk of Suicide and Psychiatric Disorders Among Isotretinoin Users: A Meta-Analysis (Tan NKW et al., JAMA Dermatol). https://pubmed.ncbi.nlm.nih.gov/38019562/
+- Meta-Analyse / Übersicht, 2022: Low-dose oral isotretinoin for the treatment of adult patients with mild-to-moderate acne vulgaris: Systematic review and meta-analysis (Al Muqarrab F et al., Dermatol Ther). https://pubmed.ncbi.nlm.nih.gov/35000295/
+- Meta-Analyse / Übersicht, 2018: Oral isotretinoin for acne (Costa CS et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/30484286/
+- Randomisierte Studie, 2011: Effectiveness of conventional, low-dose and intermittent oral isotretinoin in the treatment of acne: a randomized, controlled comparative study (Lee JW et al., Br J Dermatol). https://pubmed.ncbi.nlm.nih.gov/21114478/
+- Beobachtungsstudie, 1985: Retinoic acid embryopathy (Lammer EJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/3162101/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe). https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Überprüfung retinoidhaltiger Arzneimittel 2018: Schwangerschaftsverhütungsprogramm und Warnhinweis zu psychischen Störungen. https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/CMDh – Isotretinoin zum Einnehmen, PSUSA-Bewertung 2017: sexuelle Funktionsstörungen als Nebenwirkung. https://www.ema.europa.eu/en/documents/psusa/isotretinoin-oral-formulations-cmdh-scientific-conclusions-and-grounds-variation-amendments-product-information-and-timetable-implementation-psusa00010488201611_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/CPMP – Isotretinoin, Schiedsverfahren nach Artikel 29, harmonisierte Fachinformation 2003. https://www.ema.europa.eu/en/documents/referral/isotretinoin-article-29-referral-annex-i-ii-iii_en.pdf
+- Behörde/Recht (Weitere Quellen): MHRA, 31.10.2023 – Isotretinoin: zwei Verordner bei unter 18-Jährigen, Abfrage von psychischer Gesundheit und Sexualfunktion. https://www.gov.uk/government/news/treatment-with-isotretinoin-for-patients-under-18-must-be-approved-by-two-prescribers-under-new-mhra-rules
 
 ## Thema: IV-Vitamintherapie (Myers-Cocktail) (https://biohackingkompakt.de/thema/iv-vitamintherapie.html)
 5 Studien: 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Übersichtsartikel, 1 Fallbericht.
@@ -1878,6 +2085,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 2 Studien: 1 Sonstige Studie, 1 Randomisierte Studie.
 - Randomisierte Studie, 2026: Performance of a multi-cancer early detection test in the randomized controlled NHS-Galleri trial (Neal RD et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/42773209/
 - Sonstige Studie, 2026: Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis (Sasieni P et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42776074/
+
+## Thema: Krillöl (https://biohackingkompakt.de/thema/krilloel.html)
+7 Studien: 5 Randomisierte Studie, 2 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2024: Comparison of Omega-3 polyunsaturated fatty acids bioavailability in fish oil and krill oil: Network Meta-analyses (Pham TP et al., Food Chem X). https://pubmed.ncbi.nlm.nih.gov/39974718/
+- Meta-Analyse / Übersicht, 2020: Lipid-modifying effects of krill oil vs fish oil: a network meta-analysis (Kim MG et al., Nutr Rev). https://pubmed.ncbi.nlm.nih.gov/32073633/
+- Randomisierte Studie, 2026: Krill oil increases plasma omega-3 fatty acids more than fish oil in healthy adults: a double-blind randomized controlled trial (Loukil I et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/42144109/
+- Randomisierte Studie, 2024: Krill Oil for Knee Osteoarthritis: A Randomized Clinical Trial (Laslett LL et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/38776073/
+- Randomisierte Studie, 2023: Equal bioavailability of omega-3 PUFA from Calanus oil, fish oil and krill oil: A 12-week randomized parallel study (Vosskötter F et al., Lipids). https://pubmed.ncbi.nlm.nih.gov/36960737/
+- Randomisierte Studie, 2022: Effectiveness of a Novel ω-3 Krill Oil Agent in Patients With Severe Hypertriglyceridemia: A Randomized Clinical Trial (Mozaffarian D et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/34989797/
+- Randomisierte Studie, 2022: The effect of krill oil supplementation on skeletal muscle function and size in older adults: A randomised controlled trial (Alkhedhairi SA et al., Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/35504165/
+- Behörde/Recht (EU-Recht (EUR-Lex)): Durchführungsverordnung (EU) 2017/2470 – Unionsliste der neuartigen Lebensmittel, Lipidextrakt aus antarktischem Krill. https://eur-lex.europa.eu/eli/reg_impl/2017/2470/oj
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – Liste der zulässigen gesundheitsbezogenen Angaben über Lebensmittel. https://eur-lex.europa.eu/eli/reg/2012/432/oj
 
 ## Thema: Kryotherapie (Ganzkörper-Kältekammer) (https://biohackingkompakt.de/thema/kryotherapie.html)
 9 Studien: 3 Randomisierte Studie, 2 Übersichtsartikel, 2 Meta-Analyse / Übersicht, 1 Klinische Studie, 1 Sonstige Studie.
@@ -2037,6 +2256,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2011: Zonulin and its regulation of intestinal barrier function: the biological door to inflammation, autoimmunity, and cancer (Fasano A, Physiol Rev). https://pubmed.ncbi.nlm.nih.gov/21248165/
 - Studienregister: ClinicalTrials.gov NCT03569007 (CedLara, Phase-3-Studie zu Larazotid bei Zöliakie). https://clinicaltrials.gov/study/NCT03569007
 
+## Thema: Letrozol (https://biohackingkompakt.de/thema/letrozol.html)
+5 Studien: 3 Randomisierte Studie, 2 Klinische Studie.
+- Randomisierte Studie, 2026: Letrozole and Infertility Among Males With Spermatogenic Failure: A Randomized Clinical Trial (Sun Y et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/42313386/
+- Randomisierte Studie, 2013: Somatic and psychological effects of low-dose aromatase inhibition in men with obesity-related hypogonadotropic hypotestosteronemia (Loves S et al., Eur J Endocrinol). https://pubmed.ncbi.nlm.nih.gov/23949882/
+- Randomisierte Studie, 2005: A comparison of letrozole and tamoxifen in postmenopausal women with early breast cancer (Breast International Group (BIG) 1-98 Collaborative Group et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/16382061/
+- Klinische Studie, 2008: Letrozole once a week normalizes serum testosterone in obesity-related male hypogonadism (Loves S et al., Eur J Endocrinol). https://pubmed.ncbi.nlm.nih.gov/18426834/
+- Klinische Studie, 2005: Letrozole normalizes serum testosterone in severely obese men with hypogonadotropic hypogonadism (de Boer H et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/15811136/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 1. Aromatasehemmer. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 – Verschreibungspflicht. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Femara (DailyMed) – Dosis, Wirkung auf Östrogene, Knochendichte, Knochenbrüche, Cholesterin. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Femara – Harmonisierungsverfahren, Entscheidung 22.05.2012: Anwendungsgebiete. https://www.ema.europa.eu/en/medicines/human/referrals/femara
+- Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, zu allen Zeiten verboten. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
 ## Thema: Leucin (https://biohackingkompakt.de/thema/leucin.html)
 9 Studien: 5 Randomisierte Studie, 3 Meta-Analyse / Übersicht, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2022: The Effect of Leucine Supplementation on Sarcopenia-Related Measures in Older Adults: A Systematic Review and Meta-Analysis of 17 Randomized Controlled Trials (Guo Y et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/35845777/
@@ -2149,6 +2381,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Fallbericht, 2018: Dermatologic toxicity from novel therapy using antimicrobial peptide LL-37 in melanoma: A detailed examination of the clinicopathologic features (Dolkar T et al., J Cutan Pathol). https://pubmed.ncbi.nlm.nih.gov/29665030/
 - Tier- oder Laborstudie, 2007: Increased serine protease activity and cathelicidin promotes skin inflammation in rosacea (Yamasaki K et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/17676051/
 
+## Thema: LOLA (L-Ornithin-L-Aspartat) (https://biohackingkompakt.de/thema/lola.html)
+6 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2018: L-ornithine L-aspartate for prevention and treatment of hepatic encephalopathy in people with cirrhosis (Goh ET et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/29762873/
+- Randomisierte Studie, 2022: L-ornithine L-aspartate in acute treatment of severe hepatic encephalopathy: A double-blind randomized controlled trial (Jain A et al., Hepatology). https://pubmed.ncbi.nlm.nih.gov/34822189/
+- Randomisierte Studie, 2015: Effects of supplementation with branched chain amino acids and ornithine aspartate on plasma ammonia and central fatigue during exercise in healthy men (Mikulski T et al., Folia Neuropathol). https://pubmed.ncbi.nlm.nih.gov/26785372/
+- Randomisierte Studie, 2009: Efficacy of L-ornithine L-aspartate in acute liver failure: a double-blind, randomized, placebo-controlled study (Acharya SK et al., Gastroenterology). https://pubmed.ncbi.nlm.nih.gov/19505424/
+- Randomisierte Studie, 1998: Oral L-ornithine-L-aspartate therapy of chronic hepatic encephalopathy: results of a placebo-controlled double-blind study (Stauch S et al., J Hepatol). https://pubmed.ncbi.nlm.nih.gov/9625322/
+- Randomisierte Studie, 1997: Therapeutic efficacy of L-ornithine-L-aspartate infusions in patients with cirrhosis and hepatic encephalopathy: results of a placebo-controlled, double-blind study (Kircheis G et al., Hepatology). https://pubmed.ncbi.nlm.nih.gov/9185752/
+- Behörde/Recht (Fachinformationen): Fachinformation Hepa-Merz Granulat 3000. https://www.fachinfo.de/fi/pdf/001010/hepa-merz-r-granulat-3000
+- Behörde/Recht (Fachinformationen): Fachinformation Hepa-Merz Infusionslösungs-Konzentrat. https://www.fachinfo.de/fi/pdf/001011/hepa-merz-r-infusionsloesungs-konzentrat
+
 ## Thema: Long Covid & Post-Vac (https://biohackingkompakt.de/thema/long-covid.html)
 8 Studien: 2 Meta-Analyse / Übersicht, 2 Beobachtungsstudie, 2 Übersichtsartikel, 1 Fallbericht, 1 Klinische Studie.
 - Meta-Analyse / Übersicht, 2025: Effectiveness and tolerance of exercise interventions for long COVID: a systematic review of randomised controlled trials (McDowell CP et al., BMJ Open). https://pubmed.ncbi.nlm.nih.gov/40122540/
@@ -2241,6 +2484,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Clinical Trials Arena, 14.01.2026 (Amgen-Angaben zum zweiten Studienjahr, Herstellerangabe). https://www.clinicaltrialsarena.com/news/jpm26-amgen-maritide-obesity-t2d-phase-ii/
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, BGBl. III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
+## Thema: Mastix (Mastixharz) (https://biohackingkompakt.de/thema/mastix.html)
+7 Studien: 4 Randomisierte Studie, 2 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2023: The Effect of Mastic Chios Supplementation in Inflammatory Bowel Disease: A Systematic Literature Review (Mavroudi A et al., J Med Food). https://pubmed.ncbi.nlm.nih.gov/37001176/
+- Randomisierte Studie, 2026: Mastic gum as an adjunct therapy to standard bismuth quadruple therapy for Helicobacter pylori eradication: A randomized single-blind pilot study (Tulsian V et al., Indian J Gastroenterol). https://pubmed.ncbi.nlm.nih.gov/41832367/
+- Randomisierte Studie, 2025: A randomized, three-way crossover clinical trial on the efficacy of Mastiha based therapies (Pistacia lentiscus var. Chia) in functional dyspepsia (Kleftaki SA et al., Pharmacol Res). https://pubmed.ncbi.nlm.nih.gov/41197785/
+- Randomisierte Studie, 2010: Is Chios mastic gum effective in the treatment of functional dyspepsia? A prospective randomised double-blind placebo controlled trial (Dabos KJ et al., J Ethnopharmacol). https://pubmed.ncbi.nlm.nih.gov/19961914/
+- Randomisierte Studie, 2010: The effect of mastic gum on Helicobacter pylori: a randomized pilot study (Dabos KJ et al., Phytomedicine). https://pubmed.ncbi.nlm.nih.gov/19879118/
+- Sonstige Studie, 2003: Mastic gum has no effect on Helicobacter pylori load in vivo (Bebb JR et al., J Antimicrob Chemother). https://pubmed.ncbi.nlm.nih.gov/12888582/
+- Sonstige Studie, 1986: Mastic in treatment of benign gastric ulcers (Huwez FU et al., Gastroenterol Jpn). https://pubmed.ncbi.nlm.nih.gov/3732760/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Addendum zum Bewertungsbericht Mastix, periodische Überprüfung 2024. https://www.ema.europa.eu/en/documents/herbal-report/final-addendum-assessment-report-pistacia-lentiscus-l-resina-mastic_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – EU-Monografie Pistacia lentiscus L., resina (Mastix), 2016. https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-pistacia-lentiscus-l-resin-mastic_en.pdf
+
 ## Thema: Matrixyl (Palmitoyl-Pentapeptid) (https://biohackingkompakt.de/thema/matrixyl.html)
 9 Studien: 6 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Übersichtsartikel, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2026: Oral and topical peptides for skin aging: systematic review and meta-analysis of randomized controlled trials (Nukaly HY et al., Front Med (Lausanne)). https://pubmed.ncbi.nlm.nih.gov/41924746/
@@ -2313,6 +2568,30 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2002: Melatonin for the prevention and treatment of jet lag (Herxheimer A et al., Cochrane Database Syst Rev). https://europepmc.org/article/MED/12076414
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Stellungnahme 42/2024 vom 17.09.2024 – melatoninhaltige Nahrungsergänzungsmittel. https://www.bfr.bund.de/cm/343/melatoninhaltige-nahrungsergaenzungsmittel-bfr-weist-auf-moegliche-gesundheitsrisiken-hin-2024.pdf
 
+## Thema: Mesterolon (Proviron) (https://biohackingkompakt.de/thema/mesterolon.html)
+5 Studien: 3 Randomisierte Studie, 1 Klinische Studie, 1 Fallbericht.
+- Randomisierte Studie, 1991: Placebo-controlled trial of high-dose Mesterolone treatment of idiopathic male infertility (Gerris J et al., Fertil Steril). https://pubmed.ncbi.nlm.nih.gov/1900485/
+- Randomisierte Studie, 1989: Mesterolone and idiopathic male infertility: a double-blind study. World Health Organization Task Force on the Diagnosis and Treatment of Infertility (Int J Androl). https://pubmed.ncbi.nlm.nih.gov/2680994/
+- Randomisierte Studie, 1980: Double-blind group comparative study of testosterone undecanoate and mesterolone in hypogonadal male patients (Luisi M et al., J Endocrinol Invest). https://pubmed.ncbi.nlm.nih.gov/7000879/
+- Klinische Studie, 1984: The effects of mesterolone, a male sex hormone in depressed patients (a double blind controlled study) (Itil TM et al., Methods Find Exp Clin Pharmacol). https://pubmed.ncbi.nlm.nih.gov/6431212/
+- Fallbericht, 1979: Mesterolone: thrombosis during treatment, and a study of its prothrombotic effects (Lowe GD et al., Br J Clin Pharmacol). https://pubmed.ncbi.nlm.nih.gov/760733/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1: Mesterolon und seine Ester. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA 2019 – Liste national zugelassener Arzneimittel mit Mesterolon (PSUSA/00010551/201901). https://www.ema.europa.eu/en/documents/psusa/mesterolone-list-nationally-authorised-medicinal-products-psusa00010551201901_en.pdf
+- Behörde/Recht (Weitere Quellen): Gebrauchsinformation Proviron Tabletten, Belgien und Luxemburg (FAGG, genehmigt 07/2024). https://app.fagg-afmps.be/pharma-status/api/files/62bc88be1e5c015ab30d5f6b
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Metenolon (Primobolan) (https://biohackingkompakt.de/thema/metenolon.html)
+4 Studien: 1 Übersichtsartikel, 1 Beobachtungsstudie, 1 Sonstige Studie, 1 Klinische Studie.
+- Klinische Studie, 1979: Treatment of refractory anemias with methenolone (Lockner D, Acta Med Scand). https://pubmed.ncbi.nlm.nih.gov/367090/
+- Beobachtungsstudie, 2004: Androgens and liver tumors: Fanconi's anemia and non-Fanconi's conditions (Velazquez I et al., Am J Hematol). https://pubmed.ncbi.nlm.nih.gov/15495253/
+- Übersichtsartikel, 2014: Adverse health consequences of performance-enhancing drugs: an Endocrine Society scientific statement (Pope HG et al., Endocr Rev). https://pubmed.ncbi.nlm.nih.gov/24423981/
+- Sonstige Studie, 1981: [Hyperlipoproteinaemia during additional methenolone administration in the treatment of metastasizing carcinoma of the breast] (Garbrecht M et al., Dtsch Med Wochenschr). https://pubmed.ncbi.nlm.nih.gov/7215163/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Weitere Quellen): Fachinformation Primobolan-Tabletten (Metenolonacetat), Japan, Stand 08/2020 – Anwendungsgebiete, Nebenwirkungen, Wirkweise (KEGG/JAPIC, japanisch). https://www.kegg.jp/medicus-bin/japic_med?japic_code=00002278
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide, jederzeit verboten (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
 ## Thema: Metformin (https://biohackingkompakt.de/thema/metformin.html)
 5 Studien: 3 Randomisierte Studie, 1 Übersichtsartikel, 1 Sonstige Studie.
 - Randomisierte Studie, 2019: Metformin blunts muscle hypertrophy in response to progressive resistance exercise training in older adults: A randomized, double-blind, placebo-controlled, multicenter trial: The MASTERS trial (Walton RG et al., Aging Cell). https://europepmc.org/article/MED/31557380
@@ -2320,6 +2599,32 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2002: Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin (Knowler WC et al., N Engl J Med). https://europepmc.org/article/MED/11832527
 - Übersichtsartikel, 2026: Beyond disease treatment and prevention: From geroscience and molecular hallmarks to gerotherapeutics and precision geromedicine (Peng LN et al., J Chin Med Assoc). https://europepmc.org/article/MED/41957871
 - Sonstige Studie, 2026: Musi 2026, medRxiv (Preprint, nicht begutachtet) - Metformin und Gebrechlichkeit, randomisiert, 145 Ältere (PMID 42620010). https://europepmc.org/article/MED/42620010
+
+## Thema: Methandrostenolon (Dianabol) (https://biohackingkompakt.de/thema/methandrostenolon.html)
+5 Studien: 3 Randomisierte Studie, 2 Fallbericht.
+- Randomisierte Studie, 1981: Changes in body composition following therapy of osteoporosis with methandrostenolone (Aloia JF et al., Metabolism). https://pubmed.ncbi.nlm.nih.gov/7026971/
+- Randomisierte Studie, 1981: Effects of methandienone on the performance and body composition of men undergoing athletic training (Hervey GR et al., Clin Sci (Lond)). https://pubmed.ncbi.nlm.nih.gov/7018798/
+- Randomisierte Studie, 1976: "Anabolic" effects of methandienone in men undergoing athletic training (Hervey GR et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/61389/
+- Fallbericht, 2019: Death after misuse of anabolic substances (clenbuterol, stanozolol and metandienone) (Lehmann S et al., Forensic Sci Int). https://pubmed.ncbi.nlm.nih.gov/31499423/
+- Fallbericht, 2011: Cholestatic jaundice, acute kidney injury and acute pancreatitis secondary to the recreational use of methandrostenolone: a case report (Rosenfeld GA et al., J Med Case Rep). https://pubmed.ncbi.nlm.nih.gov/21470406/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Metandienon). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Metandienon und seine Ester. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox (NIH) – Androgenic Steroids: Leberschäden durch 17α-alkylierte Steroide. https://www.ncbi.nlm.nih.gov/books/NBK548931/
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport: anabol-androgene Steroide, S1.1 (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Methasteron (Superdrol) (https://biohackingkompakt.de/thema/methasteron.html)
+7 Studien: 3 Fallbericht, 2 Übersichtsartikel, 1 Beobachtungsstudie, 1 Sonstige Studie.
+- Beobachtungsstudie, 2023: Androgenic steroids in Over-the-Counter dietary Supplements: Analysis for association with adverse health effects (Tran BN et al., Steroids). https://pubmed.ncbi.nlm.nih.gov/36796473/
+- Fallbericht, 2009: Severe cholestasis and renal failure associated with the use of the designer steroid Superdrol (methasteron): a case report and literature review (Nasr J et al., Dig Dis Sci). https://pubmed.ncbi.nlm.nih.gov/18720005/
+- Fallbericht, 2008: Methasteron-associated cholestatic liver injury: clinicopathologic findings in 5 cases (Shah NL et al., Clin Gastroenterol Hepatol). https://pubmed.ncbi.nlm.nih.gov/18187367/
+- Fallbericht, 2006: Cholestatic jaundice and IgA nephropathy induced by OTC muscle building agent superdrol (Jasiurkowski B et al., Am J Gastroenterol). https://pubmed.ncbi.nlm.nih.gov/16952289/
+- Übersichtsartikel, 2022: Anabolic androgenic steroid-induced liver injury: An update (Petrovic A et al., World J Gastroenterol). https://pubmed.ncbi.nlm.nih.gov/36051334/
+- Übersichtsartikel, 2015: Synthetic androgens as designer supplements (Joseph JF et al., Curr Neuropharmacol). https://pubmed.ncbi.nlm.nih.gov/26074745/
+- Sonstige Studie, 2012: Classification of two steroids, prostanozol and methasterone, as Schedule III anabolic steroids under the Controlled Substance Act. Final rule (Drug Enforcement Administration (DEA) et al., Fed Regist). https://pubmed.ncbi.nlm.nih.gov/22844688/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (Weitere Behörden): DEA, Federal Register 2011 – Begründung der Einstufung von Prostanozol und Methasteron als Anabolika (Synthese, Tierdaten, FDA-Warnbrief 2006). https://www.govinfo.gov/content/pkg/FR-2011-11-23/html/2011-30081.htm
 
 ## Thema: Methylene Blue (Methylenblau) (https://biohackingkompakt.de/thema/methylene-blue.html)
 6 Studien: 2 Randomisierte Studie, 2 Übersichtsartikel, 2 Sonstige Studie.
@@ -2384,6 +2689,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Leitlinie / Konsens, 2022: Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: US Preventive Services Task Force Recommendation Statement (US Preventive Services Task Force et al., JAMA). https://europepmc.org/article/MED/35727271
 - Behörde/Recht (Weitere Quellen): USPSTF – Empfehlung zur Vitaminsupplementierung zur Prävention von CVD und Krebs. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication
 
+## Thema: Minoxidil (https://biohackingkompakt.de/thema/minoxidil.html)
+6 Studien: 3 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Tier- oder Laborstudie.
+- Meta-Analyse / Übersicht, 2022: Relative Efficacy of Minoxidil and the 5-α Reductase Inhibitors in Androgenetic Alopecia Treatment of Male Patients: A Network Meta-analysis (Gupta AK et al., JAMA Dermatol). https://pubmed.ncbi.nlm.nih.gov/35107565/
+- Randomisierte Studie, 2024: Oral Minoxidil vs Topical Minoxidil for Male Androgenetic Alopecia: A Randomized Clinical Trial (Penha MA et al., JAMA Dermatol). https://pubmed.ncbi.nlm.nih.gov/38598226/
+- Randomisierte Studie, 2011: A randomized, single-blind trial of 5% minoxidil foam once daily versus 2% minoxidil solution twice daily in the treatment of androgenetic alopecia in women (Blume-Peytavi U et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/21700360/
+- Randomisierte Studie, 2002: A randomized clinical trial of 5% topical minoxidil versus 2% topical minoxidil and placebo in the treatment of androgenetic alopecia in men (Olsen EA et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/12196747/
+- Beobachtungsstudie, 2021: Safety of low-dose oral minoxidil for hair loss: A multicenter study of 1404 patients (Vañó-Galván S et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/33639244/
+- Tier- oder Laborstudie, 2004: Minoxidil: mechanisms of action on hair growth (Messenger AG et al., Br J Dermatol). https://pubmed.ncbi.nlm.nih.gov/14996087/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz § 43 – Apothekenpflicht. https://www.gesetze-im-internet.de/amg_1976/__43.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 – Minoxidil, ausgenommen zur topischen Anwendung bei androgenetischer Alopezie bis 5 %. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/CMDh 2024 – Minoxidil zur Anwendung auf der Haut: Hypertrichose bei Säuglingen nach Hautkontakt (PSUSA/00002067/202310). https://www.ema.europa.eu/en/documents/psusa/minoxidil-topical-formulation-cmdh-scientific-conclusions-grounds-variation-amendments-product-information-timetable-implementation-psusa-00002067-202310_en.pdf
+- Behörde/Recht (Fachinformationen): Fachinformation Lonolox (Minoxidil-Tabletten, Stand November 2023). https://www.fachinfo.de/fi/pdf/001272
+
 ## Thema: MK-677 (Ibutamoren) (https://biohackingkompakt.de/thema/mk-677.html)
 6 Studien: 3 Randomisierte Studie, 2 Fallbericht, 1 Übersichtsartikel.
 - Randomisierte Studie, 2018: Oral ghrelin receptor agonist MK-0677 increases serum insulin-like growth factor 1 in hemodialysis patients: a randomized blinded study (Campbell GA et al., Nephrol Dial Transplant). https://europepmc.org/article/MED/28340044
@@ -2417,6 +2735,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (DailyMed (NLM)): FDA-Fachinformation Provigil (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e16c26ad-7bc2-d155-3a5d-da83ad6492c8
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Referral Modafinil 2011. https://www.ema.europa.eu/en/medicines/human/referrals/modafinil
 - Behörde/Recht (NADA): NADA – WADA-Verbotsliste 2026, informatorische Übersetzung. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
+## Thema: Monolaurin (https://biohackingkompakt.de/thema/monolaurin.html)
+7 Studien: 3 Sonstige Studie, 1 Beobachtungsstudie, 1 Randomisierte Studie, 1 Übersichtsartikel, 1 Tier- oder Laborstudie.
+- Randomisierte Studie, 2020: Five Percent Monolaurin Vaginal Gel for the Treatment of Bacterial Vaginosis: A Randomized Placebo-Controlled Trial (Mancuso AC et al., J Low Genit Tract Dis). https://pubmed.ncbi.nlm.nih.gov/32379102/
+- Beobachtungsstudie, 2025: Higher Serum Monolaurin Is Associated with a Lower Risk of COVID-19: Results from a Prospective Observational Cohort Study (Sola D et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/40141096/
+- Tier- oder Laborstudie, 2009: Glycerol monolaurate prevents mucosal SIV transmission (Li Q et al., Nature). https://pubmed.ncbi.nlm.nih.gov/19262509/
+- Übersichtsartikel, 2019: The Clinical Use of Monolaurin as a Dietary Supplement: A Review of the Literature (Barker LA et al., J Chiropr Med). https://pubmed.ncbi.nlm.nih.gov/32952476/
+- Sonstige Studie, 2020: Decolonization of Human Anterior Nares of Staphylococcus aureus with Use of a Glycerol Monolaurate Nonaqueous Gel (Schlievert PM et al., mSphere). https://pubmed.ncbi.nlm.nih.gov/32727862/
+- Sonstige Studie, 2019: Glycerol Monolaurate Contributes to the Antimicrobial and Anti-inflammatory Activity of Human Milk (Schlievert PM et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/31601928/
+- Sonstige Studie, 2016: Glycerol Monolaurate (GML) inhibits human T cell signaling and function by disrupting lipid dynamics (Zhang MS et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/27456316/
+- Behörde/Recht (EU-Kommission): EU-Kommission, Datenbank der Lebensmittelzusatzstoffe – E 471 Mono- und Diglyceride von Speisefettsäuren. https://ec.europa.eu/food/food-feed-portal/screen/food-additives/search/details/POL-FAD-IMPORT-3176
+- Behörde/Recht (EU-Kommission): EU-Kommission, Novel-Food-Katalog (kein Eintrag zu Monolaurin, Stand 10/2026). https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search
 
 ## Thema: MOTS-c (https://biohackingkompakt.de/thema/mots-c.html)
 7 Studien: 3 Tier- oder Laborstudie, 2 Sonstige Studie, 1 Beobachtungsstudie, 1 Studienregister.
@@ -2499,6 +2829,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2005: Effects of N-acetylcysteine on outcomes in chronic obstructive pulmonary disease (Bronchitis Randomized on NAC Cost-Utility Study, BRONCUS): a randomised placebo-controlled trial (Decramer M et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/15866309/
 - Klinische Studie, 1988: Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose. Analysis of the national multicenter study (1976 to 1985) (Smilkstein MJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/3059186/
 
+## Thema: Nachtkerzenöl (https://biohackingkompakt.de/thema/nachtkerzenoel.html)
+6 Studien: 4 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2025: The Effect of Evening Primrose Oil on Menopausal Symptoms Management: A Systematic Review and Meta-Analysis (Larki M et al., J Caring Sci). https://pubmed.ncbi.nlm.nih.gov/41883983/
+- Meta-Analyse / Übersicht, 2021: A Systematic Review and Meta-Analysis of the Efficacy of Evening Primrose Oil for Mastalgia Treatment (Ahmad Adni LL et al., Int J Environ Res Public Health). https://pubmed.ncbi.nlm.nih.gov/34200727/
+- Meta-Analyse / Übersicht, 2013: Oral evening primrose oil and borage oil for eczema (Bamford JT et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/23633319/
+- Meta-Analyse / Übersicht, 1996: Is evening primrose oil of value in the treatment of premenstrual syndrome? (Budeiri D et al., Control Clin Trials). https://pubmed.ncbi.nlm.nih.gov/8721802/
+- Randomisierte Studie, 2013: The effect of oral evening primrose oil on menopausal hot flashes: a randomized clinical trial (Farzaneh F et al., Arch Gynecol Obstet). https://pubmed.ncbi.nlm.nih.gov/23625331/
+- Randomisierte Studie, 2008: Co-supplementation of healthy women with fish oil and evening primrose oil increases plasma docosahexaenoic acid, gamma-linolenic acid and dihomo-gamma-linolenic acid levels without reducing arachidonic acid concentrations (Geppert J et al., Br J Nutr). https://pubmed.ncbi.nlm.nih.gov/17678567/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – EU-Monografie Oenothera biennis L. oder Oenothera lamarckiana L., oleum, Revision 1 (2018). https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-oenothera-biennis-l-oenothera-lamarckiana-l-oleum-revision-1_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Zusammenfassung für die Öffentlichkeit: Evening primrose oil (2018). https://www.ema.europa.eu/en/documents/herbal-summary/evening-primrose-oil-summary-public_en.pdf
+
 ## Thema: NAD+ als Nasenspray und Spritze (https://biohackingkompakt.de/thema/nad-nasenspray.html)
 5 Studien: 2 Tier- oder Laborstudie, 2 Studienregister, 1 Klinische Studie.
 - Klinische Studie, 2019: A Pilot Study Investigating Changes in the Human Plasma and Urine NAD+ Metabolome During a 6 Hour Intravenous Infusion of NAD (Grant R et al., Front Aging Neurosci). https://pubmed.ncbi.nlm.nih.gov/31572171/
@@ -2540,6 +2881,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Virilisierung bei Frauen, Stimmveränderung bei längerer Behandlung möglicherweise irreversibel (Fachinformation Deca-Durabolin). https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf
 - Behörde/Recht (Weitere Quellen): Zugelassene Anwendungsgebiete in den Niederlanden: schwere Osteoporose nach den Wechseljahren, Blutarmut bei Niereninsuffizienz, aplastische Anämie (Fachinformation Deca-Durabolin). https://www.geneesmiddeleninformatiebank.nl/smpc/h00126_smpc.pdf
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport: anabol-androgene Steroide (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Natriumbutyrat (https://biohackingkompakt.de/thema/natriumbutyrat.html)
+7 Studien: 6 Randomisierte Studie, 1 Übersichtsartikel.
+- Randomisierte Studie, 2026: Effect of microencapsulated sodium butyrate on abdominal symptoms and carbohydrate metabolism in patients with type 2 diabetes: a randomized placebo-controlled trial (Panufnik P et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/41974937/
+- Randomisierte Studie, 2026: Targeting weight loss and blood glucose control with oral sodium butyrate in overweight/obese adults with and without type 2 diabetes: A proof-of-concept randomized controlled trial (Testa R et al., Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/41880673/
+- Randomisierte Studie, 2025: Efficacy of Microencapsulated Sodium Butyrate as Add-On Therapy in Inducing Remission in Patients with Mild-To-Moderate Ulcerative Colitis: Results From a Multi-Center, Double-Blind, Randomized, Placebo-Controlled Study (Karłowicz K et al., Med Sci Monit). https://pubmed.ncbi.nlm.nih.gov/41422374/
+- Randomisierte Studie, 2024: Effects of Oral Butyrate on Blood Pressure in Patients With Hypertension: A Randomized, Placebo-Controlled Trial (Verhaar BJH et al., Hypertension). https://pubmed.ncbi.nlm.nih.gov/39034917/
+- Randomisierte Studie, 2022: Therapeutic Effects of Butyrate on Pediatric Obesity: A Randomized Clinical Trial (Coppola S et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/36469320/
+- Randomisierte Studie, 2013: Microencapsulated sodium butyrate reduces the frequency of abdominal pain in patients with irritable bowel syndrome (Banasiewicz T et al., Colorectal Dis). https://pubmed.ncbi.nlm.nih.gov/22738315/
+- Übersichtsartikel, 2008: Review article: the role of butyrate on colonic function (Hamer HM et al., Aliment Pharmacol Ther). https://pubmed.ncbi.nlm.nih.gov/17973645/
+- Behörde/Recht (EU-Kommission): EU-Kommission, Novel-Food-Katalog – Tributyrin: noch nicht zugelassenes neuartiges Lebensmittel (kein Eintrag zu Natriumbutyrat). https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search/details/POL-NF-12281
 
 ## Thema: Nattokinase (https://biohackingkompakt.de/thema/nattokinase.html)
 9 Studien: 3 Sonstige Studie, 2 Randomisierte Studie, 2 Fallbericht, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
@@ -2658,6 +3010,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2021: MegaNatural®-BP grape seed extract and maintenance of normal blood pressure: evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006 (EFSA Panel on Nutrition et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/34400974/
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox (NIH) – Pine Bark. https://www.ncbi.nlm.nih.gov/books/NBK619972/
 
+## Thema: Oral-Turinabol (Dehydrochlormethyltestosteron) (https://biohackingkompakt.de/thema/turinabol.html)
+6 Studien: 3 Sonstige Studie, 2 Beobachtungsstudie, 1 Übersichtsartikel.
+- Beobachtungsstudie, 2024: [Damage to doping victims of the GDR] (Raschka C et al., MMW Fortschr Med). https://pubmed.ncbi.nlm.nih.gov/39653949/
+- Beobachtungsstudie, 2023: [Psychopathology of Former GDR Competitive Athletes in Comparison to The General Population] (Buhrmann SF et al., Psychiatr Prax). https://pubmed.ncbi.nlm.nih.gov/37487510/
+- Übersichtsartikel, 2026: [State-sponsored doping in GDR elite sport: health consequences, reappraisal, and questions of legal compensation] (Spitzer C et al., Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz). https://pubmed.ncbi.nlm.nih.gov/42045688/
+- Sonstige Studie, 2024: Long-term effects of doping with anabolic steroids during adolescence on physical and mental health (Berger K et al., Orthopadie (Heidelb)). https://pubmed.ncbi.nlm.nih.gov/38653791/
+- Sonstige Studie, 2021: Controlled administration of dehydrochloromethyltestosterone in humans: Urinary excretion and long-term detection of metabolites for anti-doping purpose (Loke S et al., J Steroid Biochem Mol Biol). https://pubmed.ncbi.nlm.nih.gov/34418529/
+- Sonstige Studie, 1997: Hormonal doping and androgenization of athletes: a secret program of the German Democratic Republic government (Franke WW et al., Clin Chem). https://pubmed.ncbi.nlm.nih.gov/9216474/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (Weitere Quellen): Deutscher Bundestag, hib 128/2023 – Dopingopferhilfe: 1.643 von 2.062 Anträgen bewilligt. https://www.bundestag.de/presse/hib/kurzmeldungen-935274
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
 ## Thema: Orexin B (https://biohackingkompakt.de/thema/orexin-b.html)
 8 Studien: 3 Randomisierte Studie, 3 Tier- oder Laborstudie, 2 Sonstige Studie.
 - Randomisierte Studie, 2026: Oveporexton for Narcolepsy Type 1 - Results from Two Phase 3 Trials (Dauvilliers Y et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42714024/
@@ -2684,6 +3049,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Eli Lilly, Pressemitteilung vom 1. April 2026 — FDA-Zulassung von Foundayo. https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill
 - Behörde/Recht (Weitere Quellen): MHRA, Mitteilung vom 10. August 2026 — Zulassung von Orforglipron in Großbritannien. https://www.gov.uk/government/news/uk-first-in-europe-to-authorise-orforglipron-for-weight-management-and-type-2-diabetes
 
+## Thema: Orlistat (Xenical / alli) (https://biohackingkompakt.de/thema/orlistat.html)
+4 Studien: 2 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2016: Association of Pharmacological Treatments for Obesity With Weight Loss and Adverse Events: A Systematic Review and Meta-analysis (Khera R et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/27299618/
+- Meta-Analyse / Übersicht, 2007: Long term pharmacotherapy for obesity and overweight: updated meta-analysis (Rucker D et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/18006966/
+- Randomisierte Studie, 2006: Low-dose orlistat effects on body weight of mildly to moderately overweight individuals: a 16 week, double-blind, placebo-controlled trial (Anderson JW et al., Ann Pharmacother). https://pubmed.ncbi.nlm.nih.gov/16940406/
+- Randomisierte Studie, 2004: XENical in the prevention of diabetes in obese subjects (XENDOS) study: a randomized study of orlistat as an adjunct to lifestyle changes for the prevention of type 2 diabetes in obese patients (Torgerson JS et al., Diabetes Care). https://pubmed.ncbi.nlm.nih.gov/14693982/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe). https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Sozialgesetzbuch V, § 34 – von der Versorgung ausgeschlossene Arzneimittel. https://www.gesetze-im-internet.de/sgb_5/__34.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – alli, europäischer Bewertungsbericht (EPAR). https://www.ema.europa.eu/en/medicines/human/EPAR/alli
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – alli, Produktinformation (Fachinformation). https://www.ema.europa.eu/en/documents/product-information/alli-epar-product-information_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Xenical, europäischer Bewertungsbericht (EPAR). https://www.ema.europa.eu/en/medicines/human/EPAR/xenical
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, 16.02.2012 – positives Nutzen-Risiko-Verhältnis orlistathaltiger Arzneimittel nach Prüfung von Leberschäden bestätigt. https://www.ema.europa.eu/en/news/european-medicines-agency-confirms-positive-benefit-risk-balance-orlistat-containing-medicines
+
 ## Thema: Ostarin (Enobosarm) (https://biohackingkompakt.de/thema/ostarin.html)
 9 Studien: 3 Randomisierte Studie, 2 Studienregister, 1 Fallbericht, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2023: Systematic Review of Safety of Selective Androgen Receptor Modulators in Healthy Adults: Implications for Recreational Users (Vignali JD et al., J Xenobiot). https://pubmed.ncbi.nlm.nih.gov/37218811/
@@ -2709,6 +3087,32 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 - Behörde/Recht (Patente): Khavinson et al., Patent WO2007139430 – H-Glu-Asp-Leu-OH für die Leberregeneration: Organkultur, Tiermodelle, Toxikologie, Patientenbeispiel. https://patents.google.com/patent/WO2007139430A1/en
 - Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach Ovagen ohne eingetragene Studie. https://clinicaltrials.gov/search?term=ovagen
+
+## Thema: Oxandrolon (Anavar) (https://biohackingkompakt.de/thema/oxandrolon.html)
+5 Studien: 4 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2025: Oxandrolone for burn patients: a systematic review and updated meta-analysis of randomized controlled trials from 2005 to 2025 (Lou J et al., World J Emerg Surg). https://pubmed.ncbi.nlm.nih.gov/41023744/
+- Randomisierte Studie, 2011: Effect of oxandrolone and timing of pubertal induction on final height in Turner's syndrome: randomised, double blind, placebo controlled trial (Gault EJ et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/21493672/
+- Randomisierte Studie, 2006: Oxandrolone in the treatment of HIV-associated weight loss in men: a randomized, double-blind, placebo-controlled study (Grunfeld C et al., J Acquir Immune Defic Syndr). https://pubmed.ncbi.nlm.nih.gov/16540931/
+- Randomisierte Studie, 2004: Oxandrolone does not improve outcome of ventilator dependent surgical patients (Bulger EM et al., Ann Surg). https://pubmed.ncbi.nlm.nih.gov/15319718/
+- Randomisierte Studie, 2004: Treatment with oxandrolone and the durability of effects in older men (Schroeder ET et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/14578370/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Oxandrolon). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox (NIH) – Androgenic Steroids: Leberschäden durch 17α-alkylierte Steroide. https://www.ncbi.nlm.nih.gov/books/NBK548931/
+- Behörde/Recht (Weitere Behörden): FDA, Federal Register 28.06.2023 – Widerruf der Zulassung von Oxandrin und allen Oxandrolon-Tabletten. https://www.federalregister.gov/documents/2023/06/28/2023-13733/gemini-laboratories-llc-et-al-withdrawal-of-approval-of-one-new-drug-application-for-oxandrin
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport: anabol-androgene Steroide, S1.1 (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Oxymetholon (Anadrol) (https://biohackingkompakt.de/thema/oxymetholon.html)
+5 Studien: 3 Randomisierte Studie, 1 Sonstige Studie, 1 Beobachtungsstudie.
+- Randomisierte Studie, 2010: The efficacy of oxymetholone in combination with erythropoietin on hematologic parameters and muscle mass in CAPD patients (Aramwit P et al., Int J Clin Pharmacol Ther). https://pubmed.ncbi.nlm.nih.gov/21084036/
+- Randomisierte Studie, 2003: Double-blind, randomized, placebo-controlled phase III trial of oxymetholone for the treatment of HIV wasting (Hengge UR et al., AIDS). https://pubmed.ncbi.nlm.nih.gov/12646793/
+- Randomisierte Studie, 2003: Effects of an oral androgen on muscle and metabolism in older, community-dwelling men (Schroeder ET et al., Am J Physiol Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/12388137/
+- Beobachtungsstudie, 2004: Androgens and liver tumors: Fanconi's anemia and non-Fanconi's conditions (Velazquez I et al., Am J Hematol). https://pubmed.ncbi.nlm.nih.gov/15495253/
+- Sonstige Studie, 2022: Efficacy of Oxymetholone in Severe and Nonsevere Acquired Aplastic Anemia: A Propensity Score Matching Analysis (Pengthina W et al., J Blood Med). https://pubmed.ncbi.nlm.nih.gov/36514313/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): Fachinformation Anadrol-50 (Oxymetholon), US-Zulassungstext Stand 08/2004 – Anwendungsgebiete, Warnhinweise zu Leber, Blutfetten und Vermännlichung. https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/16848s021lbl.pdf
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Drugs@FDA – Anadrol-50, NDA 016848: Zulassung 1972, Status nicht mehr vertrieben. https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=016848
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide, jederzeit verboten (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Oxytocin (https://biohackingkompakt.de/thema/oxytocin.html)
 10 Studien: 4 Randomisierte Studie, 2 Tier- oder Laborstudie, 1 Sonstige Studie, 1 Übersichtsartikel, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
@@ -2782,6 +3186,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Tier- oder Laborstudie, 2013: Reprogramming in vivo produces teratomas and iPS cells with totipotency features (Abad M et al., Nature). https://pubmed.ncbi.nlm.nih.gov/24025773/
 - Tier- oder Laborstudie, 2006: Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors (Takahashi K et al., Cell). https://pubmed.ncbi.nlm.nih.gov/16904174/
 - Studienregister: Life Biosciences 2026 — ER-100, erste Humanstudie (Registereintrag). https://clinicaltrials.gov/study/NCT07290244
+
+## Thema: Pau d’Arco (Lapacho) (https://biohackingkompakt.de/thema/pau-d-arco.html)
+7 Studien: 2 Klinische Studie, 2 Übersichtsartikel, 2 Tier- oder Laborstudie, 1 Sonstige Studie.
+- Klinische Studie, 2022: Safety and tolerability of Pau d' Arco (Tabebuia avellanedae) for primary dysmenorrhea: A single-arm, open-label trial on adults ages 18-45 (McClure C et al., Adv Integr Med). https://pubmed.ncbi.nlm.nih.gov/36960315/
+- Klinische Studie, 1974: Early clinical studies with lapachol (NSC-11905) (Block JB et al., Cancer Chemother Rep 2). https://pubmed.ncbi.nlm.nih.gov/4614904/
+- Tier- oder Laborstudie, 2002: Fetal growth in rats treated with lapachol (Felício AC et al., Contraception). https://pubmed.ncbi.nlm.nih.gov/12413627/
+- Tier- oder Laborstudie, 2001: Toxicology of Lapachol in rats: embryolethality (Guerra Mde O et al., Braz J Biol). https://pubmed.ncbi.nlm.nih.gov/11340475/
+- Übersichtsartikel, 2020: Tabebuia impetiginosa: A Comprehensive Review on Traditional Uses, Phytochemistry, and Immunopharmacological Properties (Zhang J et al., Molecules). https://pubmed.ncbi.nlm.nih.gov/32962180/
+- Übersichtsartikel, 2009: Red Lapacho (Tabebuia impetiginosa)--a global ethnopharmacological commodity? (Gómez Castellanos JR et al., J Ethnopharmacol). https://pubmed.ncbi.nlm.nih.gov/18992801/
+- Sonstige Studie, 2014: BVL – Stoffliste des Bundes und der Bundesländer, Kategorie Pflanzen und Pflanzenteile (2014). https://doi.org/10.1007/978-3-319-05807-8
+- Behörde/Recht (EU-Kommission): EU-Kommission, Novel-Food-Katalog (kein Eintrag zu Tabebuia oder Lapacho, Stand 10/2026). https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search
 
 ## Thema: PE-22-28 (https://biohackingkompakt.de/thema/pe-22-28.html)
 4 Studien: 3 Sonstige Studie, 1 Tier- oder Laborstudie.
@@ -2872,6 +3287,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2019: A health risk for consumers: the presence of adulterated food supplements in the Netherlands (Biesterbos JWH et al., Food Addit Contam Part A Chem Anal Control Expo Risk Assess). https://pubmed.ncbi.nlm.nih.gov/31294678/
 - Sonstige Studie, 1986: Clinical studies on the phenylethylamine hypothesis of affective disorder: urine and blood phenylacetic acid and phenylalanine dietary supplements (Sabelli HC et al., J Clin Psychiatry). https://pubmed.ncbi.nlm.nih.gov/3944066/
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA, Verbotsliste 2026. https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Phosphatidylcholin (https://biohackingkompakt.de/thema/phosphatidylcholin.html)
+5 Studien: 3 Randomisierte Studie, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2003: Lecithin for dementia and cognitive impairment (Higgins JP et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/12917896/
+- Randomisierte Studie, 2026: Effect of Essential Phospholipids in Metabolic Dysfunction-Associated Steatotic Liver Disease: A Randomised Phase 4 Clinical Trial (Stefan N et al., Liver Int). https://pubmed.ncbi.nlm.nih.gov/41889076/
+- Randomisierte Studie, 2024: Modified-Release Phosphatidylcholine (LT-02) for Ulcerative Colitis: Two Double-Blind, Randomized, Placebo-Controlled Trials (Dignass A et al., Clin Gastroenterol Hepatol). https://pubmed.ncbi.nlm.nih.gov/37806372/
+- Randomisierte Studie, 2003: II. Veterans Affairs Cooperative Study of polyenylphosphatidylcholine in alcoholic liver disease (Lieber CS et al., Alcohol Clin Exp Res). https://pubmed.ncbi.nlm.nih.gov/14634492/
+- Beobachtungsstudie, 2013: Intestinal microbial metabolism of phosphatidylcholine and cardiovascular risk (Tang WH et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/23614584/
+- Behörde/Recht (EU-Kommission): EU-Kommission, Datenbank der Lebensmittelzusatzstoffe – E 322 Lecithine. https://ec.europa.eu/food/food-feed-portal/screen/food-additives/search/details/POL-FAD-IMPORT-3095
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – zugelassene gesundheitsbezogene Angaben, darunter drei zu Cholin. https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02012R0432-20210517
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA NDA Panel 2016 – Referenzwerte für die Zufuhr von Cholin (EFSA Journal 14(8):4484). https://www.efsa.europa.eu/en/efsajournal/pub/4484
 
 ## Thema: Phosphatidylserin (PS) (https://biohackingkompakt.de/thema/phosphatidylserin.html)
 9 Studien: 6 Randomisierte Studie, 2 Sonstige Studie, 1 Meta-Analyse / Übersicht.
@@ -3081,6 +3507,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA: Certain bodybuilding products put consumers at risk. https://www.fda.gov/drugs/fraudulent-products/certain-bodybuilding-products-put-consumers-risk-heart-attack-stroke-serious-liver-damage-and-more
 - Behörde/Recht (Weitere Quellen): WADA, Prohibited List 2026. https://ita.sport/uploads/2025/09/2026list_en_final_clean_september_2025.pdf
 
+## Thema: Raloxifen (https://biohackingkompakt.de/thema/raloxifen.html)
+7 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2013: Selective oestrogen receptor modulators in prevention of breast cancer: an updated meta-analysis of individual participant data (Cuzick J et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/23639488/
+- Randomisierte Studie, 2006: Effects of raloxifene on cardiovascular events and breast cancer in postmenopausal women (Barrett-Connor E et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/16837676/
+- Randomisierte Studie, 2006: Effects of tamoxifen vs raloxifene on the risk of developing invasive breast cancer and other disease outcomes: the NSABP Study of Tamoxifen and Raloxifene (STAR) P-2 trial (Vogel VG et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/16754727/
+- Randomisierte Studie, 2005: Comparison of effects of the rise in serum testosterone by raloxifene and oral testosterone on serum insulin-like growth factor-1 and insulin-like growth factor binding protein-3 (Duschek EJ et al., Maturitas). https://pubmed.ncbi.nlm.nih.gov/15978972/
+- Randomisierte Studie, 2004: Raloxifene to prevent gonadotropin-releasing hormone agonist-induced bone loss in men with prostate cancer: a randomized controlled trial (Smith MR et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/15292315/
+- Randomisierte Studie, 1999: Reduction of vertebral fracture risk in postmenopausal women with osteoporosis treated with raloxifene: results from a 3-year randomized clinical trial. Multiple Outcomes of Raloxifene Evaluation (MORE) Investigators (Ettinger B et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/10517716/
+- Beobachtungsstudie, 2004: Beneficial effects of raloxifene and tamoxifen in the treatment of pubertal gynecomastia (Lawrence SE et al., J Pediatr). https://pubmed.ncbi.nlm.nih.gov/15238910/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 2. Antiestrogene Stoffe. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Evista (Raloxifen), europäischer Bewertungsbericht und Zusammenfassung. https://www.ema.europa.eu/en/medicines/human/EPAR/evista
+- Behörde/Recht (Weitere Behörden): WADA-Verbotsliste 2026, S4.2 Antiöstrogene Substanzen – amtliche Bekanntmachung im Bundesgesetzblatt II 2025 Nr. 312. https://www.recht.bund.de/bgbl/2/2025/312/regelungstext.pdf
+
 ## Thema: Rapamycin (Sirolimus) (https://biohackingkompakt.de/thema/rapamycin.html)
 4 Studien: 2 Randomisierte Studie, 1 Übersichtsartikel, 1 Studienregister.
 - Randomisierte Studie, 2026: Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial (Stanfield B et al., J Cachexia Sarcopenia Muscle). https://europepmc.org/article/MED/41985884
@@ -3232,6 +3671,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2025: Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis (Ruan JY et al., Sleep Med Rev). https://pubmed.ncbi.nlm.nih.gov/40449065/
 - Meta-Analyse / Übersicht, 2010: Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies (Cappuccio FP et al., Sleep). https://europepmc.org/article/MED/20469800
 - Randomisierte Studie, 2022: Effect of Sleep Extension on Objectively Assessed Energy Intake Among Adults With Overweight in Real-life Settings: A Randomized Clinical Trial (Tasali E et al., JAMA Intern Med). https://pubmed.ncbi.nlm.nih.gov/35129580/
+
+## Thema: Schwarzer Knoblauch (https://biohackingkompakt.de/thema/schwarzer-knoblauch.html)
+9 Studien: 5 Randomisierte Studie, 3 Sonstige Studie, 1 Übersichtsartikel.
+- Randomisierte Studie, 2026: Effects of aged black garlic (ABG10+®) on lipoprotein subclass composition in Grade I hypertension: a randomized, triple-blind controlled trial with sex-stratified sequential allocation (Serrano JCE et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/42577101/
+- Randomisierte Studie, 2023: Antihypertensive Effects of an Optimized Aged Garlic Extract in Subjects with Grade I Hypertension and Antihypertensive Drug Therapy: A Randomized, Triple-Blind Controlled Trial (Serrano JCE et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/37686723/
+- Randomisierte Studie, 2023: Effect of Black Garlic Consumption on Endothelial Function and Lipid Profile: A Before-and-After Study in Hypercholesterolemic and Non-Hypercholesterolemic Subjects (Villaño D et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/37513556/
+- Randomisierte Studie, 2022: Effects of an Optimized Aged Garlic Extract on Cardiovascular Disease Risk Factors in Moderate Hypercholesterolemic Subjects: A Randomized, Crossover, Double-Blind, Sustainedand Controlled Study (Valls RM et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/35276764/
+- Randomisierte Studie, 2014: Reduction of blood lipid parameters by a 12-wk supplementation of aged black garlic: a randomized controlled trial (Jung ES et al., Nutrition). https://pubmed.ncbi.nlm.nih.gov/24976429/
+- Übersichtsartikel, 2017: Black garlic: A critical review of its production, bioactivity, and application (Kimura S et al., J Food Drug Anal). https://pubmed.ncbi.nlm.nih.gov/28911544/
+- Sonstige Studie, 2026: Metabolomics Analysis of Aged Garlic Extract for the Identification of Novel Compounds (Nakamoto M et al., Metabolites). https://pubmed.ncbi.nlm.nih.gov/42346349/
+- Sonstige Studie, 2023: Bioavailability of Organosulfur Compounds after the Ingestion of Black Garlic by Healthy Humans (Moreno-Ortega A et al., Antioxidants (Basel)). https://pubmed.ncbi.nlm.nih.gov/37107300/
+- Sonstige Studie, 2018: Black Garlic Improves Heart Function in Patients With Coronary Heart Disease by Improving Circulating Antioxidant Levels (Liu J et al., Front Physiol). https://pubmed.ncbi.nlm.nih.gov/30443217/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/HMPC 2017 – Unionsmonografie zu Allium sativum L., bulbus (Knoblauch). https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-allium-sativum-l-bulbus_en.pdf
 
 ## Thema: Screenings (https://biohackingkompakt.de/thema/screenings.html)
 5 Studien: 2 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Beobachtungsstudie, 1 Randomisierte Studie.
@@ -3406,6 +3858,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): ALS-Zentrum der Charité 2011, Stammzellbehandlung am XCell-Center gestoppt. https://als-charite.de/stammzellbehandlung-am-xcell-center-gestoppt/
 - Behörde/Recht (Weitere Quellen): Paul-Ehrlich-Institut 2025, Warnung vor nicht zugelassenen ATMP. https://www.pei.de/DE/newsroom/hp-meldungen/2025/250331-vorsicht-kommerzielle-behandlungsangebote-nicht-zugelassene-atmp.html
 
+## Thema: Stanozolol (Winstrol) (https://biohackingkompakt.de/thema/stanozolol.html)
+6 Studien: 2 Sonstige Studie, 1 Randomisierte Studie, 1 Fallbericht, 1 Beobachtungsstudie, 1 Klinische Studie.
+- Randomisierte Studie, 2015: Liver enzymes and lipid levels in patients with lipodermatosclerosis and venous ulcers treated with a prototypic anabolic steroid (stanozolol): a prospective, randomized, double-blinded, placebo-controlled trial (Carson P et al., Int J Low Extrem Wounds). https://pubmed.ncbi.nlm.nih.gov/25652757/
+- Klinische Studie, 1983: Stanozolol in postmenopausal osteoporosis: therapeutic efficacy and possible mechanisms of action (Chesnut CH et al., Metabolism). https://pubmed.ncbi.nlm.nih.gov/6341772/
+- Beobachtungsstudie, 2007: Hereditary angioedema: Safety of long-term stanozolol therapy (Sloane DE et al., J Allergy Clin Immunol). https://pubmed.ncbi.nlm.nih.gov/17765757/
+- Fallbericht, 2015: Severe intrahepatic cholestasis and liver failure after stanozolol usage - case report and review of the literature (Stępień PM et al., Clin Exp Hepatol). https://pubmed.ncbi.nlm.nih.gov/28856252/
+- Sonstige Studie, 1989: Contrasting effects of testosterone and stanozolol on serum lipoprotein levels (Thompson PD et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/2915439/
+- Sonstige Studie, 1984: Alteration of hormone levels in normal males given the anabolic steroid stanozolol (Small M et al., Clin Endocrinol (Oxf)). https://pubmed.ncbi.nlm.nih.gov/6430603/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2 bis § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/BJNR221010015.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Drugs@FDA – Winstrol, NDA 012885: Zulassung 1962, Status nicht mehr vertrieben. https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=012885
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide, jederzeit verboten (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
 ## Thema: Stenabolic (SR9009) (https://biohackingkompakt.de/thema/stenabolic.html)
 9 Studien: 5 Tier- oder Laborstudie, 2 Sonstige Studie, 1 Fallbericht, 1 Übersichtsartikel.
 - Fallbericht, 2025: When Gains Go Wrong: A Case of Selective Androgen Receptor Modulator-Related Liver Injury (Govil D et al., Cureus). https://pubmed.ncbi.nlm.nih.gov/40765588/
@@ -3501,6 +3966,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2013: Efficacy and safety of tadalafil monotherapy for lower urinary tract symptoms secondary to benign prostatic hyperplasia: a meta-analysis (Dong Y et al., Urol Int). https://europepmc.org/article/MED/23816815
 - Randomisierte Studie, 2019: Efficacy and safety of tadalafil 5 mg once-daily in Asian men with both lower urinary tract symptoms associated with benign prostatic hyperplasia and erectile dysfunction: A phase 3, randomized, double-blind, parallel, placebo- and tamsulosin-controlled study (Zhang Z et al., Int J Urol). https://europepmc.org/article/MED/30362173
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA - Cialis, europäischer Bewertungsbericht. https://www.ema.europa.eu/en/medicines/human/EPAR/cialis
+
+## Thema: Tamoxifen (https://biohackingkompakt.de/thema/tamoxifen.html)
+7 Studien: 3 Meta-Analyse / Übersicht, 3 Randomisierte Studie, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2013: Revisiting oestrogen antagonists (clomiphene or tamoxifen) as medical empiric therapy for idiopathic male infertility: a meta-analysis (Chua ME et al., Andrology). https://pubmed.ncbi.nlm.nih.gov/23970453/
+- Meta-Analyse / Übersicht, 2012: Prevention of gynecomastia and breast pain caused by androgen deprivation therapy in prostate cancer: tamoxifen or radiotherapy? (Viani GA et al., Int J Radiat Oncol Biol Phys). https://pubmed.ncbi.nlm.nih.gov/22704706/
+- Meta-Analyse / Übersicht, 2011: Relevance of breast cancer hormone receptors and other factors to the efficacy of adjuvant tamoxifen: patient-level meta-analysis of randomised trials (Early Breast Cancer Trialists' Collaborative Group (EBCTCG) et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/21802721/
+- Randomisierte Studie, 2007: Tamoxifen as prophylaxis for prevention of gynaecomastia and breast pain associated with bicalutamide 150 mg monotherapy in patients with prostate cancer: a randomised, placebo-controlled, dose-response study (Fradet Y et al., Eur Urol). https://pubmed.ncbi.nlm.nih.gov/17270340/
+- Randomisierte Studie, 2005: Tamoxifen for the prevention of breast cancer: current status of the National Surgical Adjuvant Breast and Bowel Project P-1 study (Fisher B et al., J Natl Cancer Inst). https://pubmed.ncbi.nlm.nih.gov/16288118/
+- Randomisierte Studie, 1998: Tamoxifen for prevention of breast cancer: report of the National Surgical Adjuvant Breast and Bowel Project P-1 Study (Fisher B et al., J Natl Cancer Inst). https://pubmed.ncbi.nlm.nih.gov/9747868/
+- Beobachtungsstudie, 2018: Role of tamoxifen in idiopathic gynecomastia: A 10-year prospective cohort study (Mannu GS et al., Breast J). https://pubmed.ncbi.nlm.nih.gov/30079473/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – III. Hormon- und Stoffwechsel-Modulatoren, 2. Antiestrogene Stoffe. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Fachinformationen): Fachinformation Tamoxifen AbZ 20 mg Tabletten (Stand April 2026). https://www.fachinfo.de/fi/pdf/008652/tamoxifen-abz-20-mg-tabletten
+- Behörde/Recht (Weitere Behörden): WADA-Verbotsliste 2026, S4.2 Antiöstrogene Substanzen – amtliche Bekanntmachung im Bundesgesetzblatt II 2025 Nr. 312. https://www.recht.bund.de/bgbl/2/2025/312/regelungstext.pdf
 
 ## Thema: Taurin (https://biohackingkompakt.de/thema/taurin.html)
 8 Studien: 3 Sonstige Studie, 2 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Beobachtungsstudie.
@@ -3715,6 +4193,16 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Studienregister: ClinicalTrials.gov NCT00131482 – Phase 2b bei Handgelenksbruch, 274 Teilnehmer, abgebrochen ohne Nutzen gegenüber Placebo. https://clinicaltrials.gov/study/NCT00131482
 - Behörde/Recht (NADA): NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung) – S0. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
+## Thema: Traubensilberkerze (Cimicifuga) (https://biohackingkompakt.de/thema/traubensilberkerze.html)
+4 Studien: 4 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2023: Black cohosh extracts in women with menopausal symptoms: an updated pairwise meta-analysis (Sadahiro R et al., Menopause). https://pubmed.ncbi.nlm.nih.gov/37192826/
+- Meta-Analyse / Übersicht, 2021: Review & meta-analysis: isopropanolic black cohosh extract iCR for menopausal symptoms - an update on the evidence (Castelo-Branco C et al., Climacteric). https://pubmed.ncbi.nlm.nih.gov/33021111/
+- Meta-Analyse / Übersicht, 2012: Black cohosh (Cimicifuga spp.) for menopausal symptoms (Leach MJ et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/22972105/
+- Meta-Analyse / Übersicht, 2011: Suspected black cohosh hepatotoxicity: no evidence by meta-analysis of randomized controlled clinical trials for isopropanolic black cohosh extract (Naser B et al., Menopause). https://pubmed.ncbi.nlm.nih.gov/21228727/
+- Behörde/Recht (Bundesamt für Verbraucherschutz (BVL)): BVL – Pflanzenliste der Stoffliste des Bundes und der Bundesländer, Einträge A–K (2. Auflage). https://www.bvl.bund.de/SharedDocs/Berichte/08_Stoffliste_Bund_Bundeslaender/Pflanzenliste_Eintraege_A-K_2_Aufl_10_2020.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – EU-Monografie Cimicifuga racemosa (L.) Nutt., rhizoma, Revision 1 (2018). https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-cimicifuga-racemosa-l-nutt-rhizome-revision-1_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Übersichtsseite Cimicifugae rhizoma (Black Cohosh). https://www.ema.europa.eu/en/medicines/herbal/cimicifugae-rhizoma
+
 ## Thema: Tremella (https://biohackingkompakt.de/thema/tremella.html)
 8 Studien: 2 Übersichtsartikel, 2 Sonstige Studie, 2 Randomisierte Studie, 2 Tier- oder Laborstudie.
 - Randomisierte Studie, 2024: Tremella fuciformis beverage improves glycated hemoglobin A1c and waist circumference in overweight/obese prediabetic subjects: a randomized controlled trial (Gitsomboon S et al., BMC Nutr). https://pubmed.ncbi.nlm.nih.gov/38439104/
@@ -3726,6 +4214,43 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2025: Isolation and Identification of Burkholderia gladioli pathovar cocovenenans from Black Fungus and Characteristics of the Bon Gene Cluster - Shanghai Municipality, China, 2023 (Xiao Q et al., China CDC Wkly). https://pubmed.ncbi.nlm.nih.gov/40620660/
 - Sonstige Studie, 2021: Formulation and efficacy evaluation of the safe and efficient moisturizing snow mushroom hand sanitizer (Lourith N et al., J Cosmet Dermatol). https://pubmed.ncbi.nlm.nih.gov/32531816/
 - Behörde/Recht (EU-Kommission – Lebensmittel): Europäische Kommission – Novel-Food-Konsultation Chondroitinsulfat aus Tremella fuciformis, 2025. https://food.ec.europa.eu/document/download/326130ee-9a3a-4095-9a04-1cb11a1f21f8_en?filename=novel-food_consult-status_chondroitin-sulfate-from-tremella-fuciformis_green-droitin_cz.pdf
+
+## Thema: Trenbolon (https://biohackingkompakt.de/thema/trenbolon.html)
+6 Studien: 3 Fallbericht, 2 Sonstige Studie, 1 Übersichtsartikel.
+- Fallbericht, 2019: Acute pancreatitis secondary to the use of the anabolic steroid trenbolone acetate (Kumar V et al., Clin Toxicol (Phila)). https://pubmed.ncbi.nlm.nih.gov/30101635/
+- Fallbericht, 2014: A Young Man with Myocardial Infarction due to Trenbolone Acetate; a Case Report (Shahsavari Nia K et al., Emerg (Tehran)). https://pubmed.ncbi.nlm.nih.gov/26495342/
+- Fallbericht, 2006: Cholestasis induced by parabolan successfully treated with the molecular adsorbent recirculating system (Anand JS et al., ASAIO J). https://pubmed.ncbi.nlm.nih.gov/16436902/
+- Übersichtsartikel, 2024: Impact of trenbolone on selected organs (Borecki R et al., Endokrynol Pol). https://pubmed.ncbi.nlm.nih.gov/38887114/
+- Sonstige Studie, 2026: The Trenbolo(g)ne Sandwich: An International Study Comparing Health Harms Among Men Who Use Anabolic-Androgenic Steroids With and Without Trenbolone (Bonenti B et al., Drug Alcohol Rev). https://pubmed.ncbi.nlm.nih.gov/42037159/
+- Sonstige Studie, 2023: 'My mind pretty much went to mush': A qualitative exploration of trenbolone in the performance and image enhancing drug community (Piatkowski TM et al., Drug Alcohol Rev). https://pubmed.ncbi.nlm.nih.gov/36992616/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Trenbolon). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (Weitere Behörden): US Code of Federal Regulations, 21 CFR 522.2476 – Trenbolonacetat als Implantat für Mastrinder. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-522/section-522.2476
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport: anabol-androgene Steroide, S1.1 (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Trestolon (MENT) (https://biohackingkompakt.de/thema/trestolon.html)
+7 Studien: 5 Randomisierte Studie, 1 Sonstige Studie, 1 Studienregister.
+- Randomisierte Studie, 2007: 7alpha-methyl-19-nortestosterone (MENT) vs testosterone in combination with etonogestrel implants for spermatogenic suppression in healthy men (Walton MJ et al., J Androl). https://pubmed.ncbi.nlm.nih.gov/17460095/
+- Randomisierte Studie, 2003: A clinical trial of 7 alpha-methyl-19-nortestosterone implants for possible use as a long-acting contraceptive for men (von Eckardstein S et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/14602755/
+- Randomisierte Studie, 2003: Evidence for tissue selectivity of the synthetic androgen 7 alpha-methyl-19-nortestosterone in hypogonadal men (Anderson RA et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/12788888/
+- Randomisierte Studie, 1999: 7Alpha-methyl-19-nortestosterone maintains sexual behavior and mood in hypogonadal men (Anderson RA et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/10522995/
+- Randomisierte Studie, 1997: Pharmacokinetics and pharmacodynamics of 7alpha-methyl-19-nortestosterone after intramuscular administration in healthy men (Suvisaari J et al., Hum Reprod). https://pubmed.ncbi.nlm.nih.gov/9194649/
+- Studienregister: ClinicalTrials.gov NCT00812630 – Population Council, MENT und Blutdruck, 68 Männer, abgeschlossen 2014, ohne veröffentlichte Ergebnisse. https://clinicaltrials.gov/study/NCT00812630
+- Sonstige Studie, 2026: Investigations Into the Human Metabolism of Trestolone (7α-Methyl-19-Nortestosterone) (Piper T et al., Drug Test Anal). https://pubmed.ncbi.nlm.nih.gov/41407450/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1, Trestolon (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
+
+## Thema: Tretinoin (https://biohackingkompakt.de/thema/tretinoin.html)
+4 Studien: 3 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2023: Comparative Efficacy of Pharmacological Treatments for Acne Vulgaris: A Network Meta-Analysis of 221 Randomized Controlled Trials (Huang CY et al., Ann Fam Med). https://pubmed.ncbi.nlm.nih.gov/37487721/
+- Randomisierte Studie, 2005: Long-term efficacy and safety of tretinoin emollient cream 0.05% in the treatment of photodamaged facial skin: a two-year, randomized, placebo-controlled trial (Kang S et al., Am J Clin Dermatol). https://pubmed.ncbi.nlm.nih.gov/16060712/
+- Randomisierte Studie, 1992: Tretinoin emollient cream: a new therapy for photodamaged skin (Olsen EA et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/1552056/
+- Randomisierte Studie, 1988: Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled study (Weiss JS et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/3336176/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 – Tretinoin. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Renova (Tretinoin-Creme 0,02 %), DailyMed. https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=9f0a0e8d-1051-48a4-80c5-1bd260dd9c36&type=pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Überprüfung retinoidhaltiger Arzneimittel 2018 – Schwangerschaftsverhütung und topische Retinoide. https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products
+- Behörde/Recht (Fachinformationen): Fachinformation Cordes VAS 0,5 mg/g Creme (Tretinoin, Stand Juli 2024). https://www.fachinfo.de/fi/pdf/005779/cordes-r-vas
 
 ## Thema: TRH (Protirelin) (https://biohackingkompakt.de/thema/trh.html)
 8 Studien: 7 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
@@ -3752,6 +4277,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2014: Tribulus terrestris versus placebo in the treatment of erectile dysfunction: A prospective, randomized, double blind study (Santos CA et al., Actas Urol Esp). https://pubmed.ncbi.nlm.nih.gov/24630840/
 - Übersichtsartikel, 2020: A Comprehensive Review of the Phytochemical, Pharmacological, and Toxicological Properties of Tribulus terrestris L (Ștefănescu R et al., Biomolecules). https://pubmed.ncbi.nlm.nih.gov/32408715/
 - Behörde/Recht (EU-Kommission – Lebensmittel): EU-Kommission, Novel-Food-Katalog. https://food.ec.europa.eu/food-safety/novel-food/novel-food-catalogue_en
+
+## Thema: Triphala (https://biohackingkompakt.de/thema/triphala.html)
+7 Studien: 2 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie, 1 Randomisierte Studie, 1 Klinische Studie, 1 Übersichtsartikel, 1 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2021: Effects of Triphala on Lipid and Glucose Profiles and Anthropometric Parameters: A Systematic Review (Phimarn W et al., J Evid Based Integr Med). https://pubmed.ncbi.nlm.nih.gov/33886393/
+- Meta-Analyse / Übersicht, 2020: Effect of triphala mouthrinse on plaque and gingival inflammation: A systematic review and meta-analysis of randomized controlled trials (AlJameel AH et al., Int J Dent Hyg). https://pubmed.ncbi.nlm.nih.gov/32383334/
+- Randomisierte Studie, 2021: Guggulu and Triphala for the Treatment of Hypercholesterolaemia: A Placebo-Controlled, Double-Blind, Randomised Trial (Donato F et al., Complement Med Res). https://pubmed.ncbi.nlm.nih.gov/33242870/
+- Klinische Studie, 2020: Study of the safety of oral Triphala aqueous extract on healthy volunteers (Phetkate P et al., J Integr Med). https://pubmed.ncbi.nlm.nih.gov/31680053/
+- Tier- oder Laborstudie, 2022: Inhibitory effects of Triphala on CYP isoforms in vitro and its pharmacokinetic interactions with phenacetin and midazolam in rats (Nontakham J et al., Heliyon). https://pubmed.ncbi.nlm.nih.gov/35785236/
+- Übersichtsartikel, 2018: Triphala: current applications and new perspectives on the treatment of functional gastrointestinal disorders (Tarasiuk A et al., Chin Med). https://pubmed.ncbi.nlm.nih.gov/30034512/
+- Sonstige Studie, 2008: Lead, mercury, and arsenic in US- and Indian-manufactured Ayurvedic medicines sold via the Internet (Saper RB et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/18728265/
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA – Gesundheitsbezogene Angaben nach Artikel 13, darunter 1.548 zurückgestellte Angaben zu Pflanzenstoffen. https://www.efsa.europa.eu/en/topics/health-claims-art-13
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Verbotsliste 2026 (Prohibited List). https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Triptorelin (https://biohackingkompakt.de/thema/triptorelin.html)
 4 Studien: 3 Randomisierte Studie, 1 Sonstige Studie.
@@ -3826,6 +4363,16 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2018: Vagus Nerve as Modulator of the Brain-Gut Axis in Psychiatric and Inflammatory Disorders (Breit S et al., Front Psychiatry). https://pubmed.ncbi.nlm.nih.gov/29593576/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, PMA P210007 (Vivistim, Schlaganfall-Reha, 2021). https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210007
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, PMA P970003 (Epilepsie, 1997). https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P970003
+
+## Thema: Vardenafil (Levitra) (https://biohackingkompakt.de/thema/vardenafil.html)
+4 Studien: 2 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2021: Vardenafil in the Treatment of Male Erectile Dysfunction: A Systematic Review and Meta-Analysis (Wang H et al., Adv Ther). https://pubmed.ncbi.nlm.nih.gov/33432539/
+- Meta-Analyse / Übersicht, 2015: Phosphodiesterase 5 inhibitors for the treatment of erectile dysfunction: a trade-off network meta-analysis (Chen L et al., Eur Urol). https://pubmed.ncbi.nlm.nih.gov/25817916/
+- Randomisierte Studie, 2004: Erectile response with vardenafil in sildenafil nonresponders: a multicentre, double-blind, 12-week, flexible-dose, placebo-controlled erectile dysfunction clinical trial (Carson CC et al., BJU Int). https://pubmed.ncbi.nlm.nih.gov/15610110/
+- Randomisierte Studie, 2003: Vardenafil, a new phosphodiesterase type 5 inhibitor, in the treatment of erectile dysfunction in men with diabetes: a multicenter double-blind placebo-controlled fixed-dose study (Goldstein I et al., Diabetes Care). https://pubmed.ncbi.nlm.nih.gov/12610037/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 (verschreibungspflichtige Stoffe). https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Levitra, europäischer Bewertungsbericht (EPAR). https://www.ema.europa.eu/en/medicines/human/EPAR/levitra
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Levitra, Produktinformation (Fachinformation). https://www.ema.europa.eu/en/documents/product-information/levitra-epar-product-information_en.pdf
 
 ## Thema: Vesugen (https://biohackingkompakt.de/thema/kh-vesugen.html)
 8 Studien: 4 Tier- oder Laborstudie, 2 Sonstige Studie, 1 Beobachtungsstudie, 1 Klinische Studie.
