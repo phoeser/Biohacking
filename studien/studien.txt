@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 5-Amino-1MQ (https://biohackingkompakt.de/thema/5-amino-1mq.html)
 8 Studien: 5 Tier- oder Laborstudie, 3 Sonstige Studie.
@@ -287,6 +287,12 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2026: Safety of 8-Week Administration With Ashwagandha (Withania somnifera) Root Extract in Adults With Stress and Anxiety: Findings From a Prospective, Randomized, Multi-Center, Double-Blinded, Placebo-Controlled Study (Pakhale K et al., Phytother Res). https://europepmc.org/article/MED/41943502
 - Sonstige Studie, 2026: Ashwagandha-Induced Herb-Induced Liver Injury Assessed With the Updated 2016 RUCAM (Pérez Pérez S et al., Case Reports Hepatol). https://europepmc.org/article/MED/42529606
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Mitteilung 039/2024 vom 10.09.2024 – Warnung vor Leberschäden. https://www.bfr.bund.de/cm/343/ashwagandha-schlafbeeren-praeparate-mit-moeglichen-gesundheitsrisiken.pdf
+
+## Thema: Aspirin zur Vorbeugung (Primärprävention) (https://biohackingkompakt.de/thema/aspirin-praevention.html)
+3 Studien: 3 Randomisierte Studie.
+- Randomisierte Studie, 2018: Effect of Aspirin on All-Cause Mortality in the Healthy Elderly (McNeil JJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/30221595/
+- Randomisierte Studie, 2018: Effect of Aspirin on Cardiovascular Events and Bleeding in the Healthy Elderly (McNeil JJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/30221597/
+- Randomisierte Studie, 2018: Effect of Aspirin on Disability-free Survival in the Healthy Elderly (McNeil JJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/30221596/
 
 ## Thema: Astaxanthin (https://biohackingkompakt.de/thema/astaxanthin.html)
 9 Studien: 5 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Übersichtsartikel, 1 Sonstige Studie.
@@ -837,6 +843,10 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Tier- oder Laborstudie, 2017: [Peptide drug cortexin inhibits brain caspase-8] (Yakovlev AA et al., Biomed Khim). https://pubmed.ncbi.nlm.nih.gov/28251948/
 - Sonstige Studie, 2019: [Epigenetic Mechanisms of Peptide-Driven Regulation and Neuroprotective Protein FKBP1b] (Kuznik BI et al., Mol Biol (Mosk)). https://pubmed.ncbi.nlm.nih.gov/31099784/
 
+## Thema: CPAP bei Schlafapnoe (https://biohackingkompakt.de/thema/schlafapnoe-cpap.html)
+1 Studien: 1 Randomisierte Studie.
+- Randomisierte Studie, 2016: CPAP for Prevention of Cardiovascular Events in Obstructive Sleep Apnea (McEvoy RD et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/27571048/
+
 ## Thema: Crystagen (https://biohackingkompakt.de/thema/kh-crystagen.html)
 7 Studien: 3 Sonstige Studie, 3 Tier- oder Laborstudie, 1 Übersichtsartikel.
 - Tier- oder Laborstudie, 2016: Short Peptides Regulate Gene Expression (Khavinson VK et al., Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/27909961/
@@ -1052,6 +1062,11 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2018: Prolonging healthy aging: Longevity vitamins and proteins (Ames BN, Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/30322941/
 - Sonstige Studie, 2017: Administration of Pure Ergothioneine to Healthy Human Subjects: Uptake, Metabolism, and Effects on Biomarkers of Oxidative Damage and Inflammation (Cheah IK et al., Antioxid Redox Signal). https://pubmed.ncbi.nlm.nih.gov/27488221/
 
+## Thema: Erythrit und Xylit (https://biohackingkompakt.de/thema/erythrit-xylit.html)
+2 Studien: 1 Klinische Studie, 1 Beobachtungsstudie.
+- Klinische Studie, 2024: Ingestion of the Non-Nutritive Sweetener Erythritol, but Not Glucose, Enhances Platelet Reactivity and Thrombosis Potential in Healthy Volunteers-Brief Report (Witkowski M et al., Arterioscler Thromb Vasc Biol). https://pubmed.ncbi.nlm.nih.gov/39114916/
+- Beobachtungsstudie, 2023: The artificial sweetener erythritol and cardiovascular event risk (Witkowski M et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/36849732/
+
 ## Thema: eSpineBot (https://biohackingkompakt.de/thema/espinebot.html)
 5 Studien: 3 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2025: Non-pharmacological and non-surgical treatments for low back pain in adults: an overview of Cochrane reviews (Rizzo RR et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/40139265/
@@ -1104,6 +1119,12 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2020: Effects of Time-Restricted Eating on Weight Loss and Other Metabolic Parameters in Women and Men With Overweight and Obesity: The TREAT Randomized Clinical Trial (Lowe DA et al., JAMA Intern Med). https://europepmc.org/article/MED/32986097
 - Randomisierte Studie, 2019: Early Time-Restricted Feeding Improves 24-Hour Glucose Levels and Affects Markers of the Circadian Clock, Aging, and Autophagy in Humans (Jamshed H et al., Nutrients). https://europepmc.org/article/MED/31151228
 - Studienregister: Liu 2022, Studienregistrierung NCT03745612, ClinicalTrials.gov. https://classic.clinicaltrials.gov/ct2/show/NCT03745612
+
+## Thema: Finasterid (https://biohackingkompakt.de/thema/finasterid.html)
+1 Studien: 1 Randomisierte Studie.
+- Randomisierte Studie, 1998: Finasteride in the treatment of men with androgenetic alopecia. Finasteride Male Pattern Hair Loss Study Group (Kaufman KD et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/9777765/
+- Behörde/Recht (BfArM): BfArM, Rote-Hand-Brief zu Finasterid und Dutasterid vom 15.09.2025 – Suizidgedanken. https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RHB/2025/rhb-finasterid.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Überprüfung finasterid- und dutasteridhaltiger Arzneimittel 2025 – Suizidgedanken als Nebenwirkung von Finasterid bestätigt. https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products
 
 ## Thema: Fisetin (https://biohackingkompakt.de/thema/fisetin.html)
 9 Studien: 4 Randomisierte Studie, 2 Studienregister, 1 Tier- oder Laborstudie, 1 Klinische Studie, 1 Sonstige Studie.
@@ -1769,6 +1790,11 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2026: The cognitive effects of creatine supplementation in older adults and preclinical models of dementia: A scoping review (Whitford T et al., Ageing Res Rev). https://europepmc.org/article/MED/42668123
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA 2016 – Health-Claim-Bewertung zu Kreatin und Muskelkraft. https://www.efsa.europa.eu/en/efsajournal/pub/4400
 
+## Thema: Krebs-Bluttest (Multi-Cancer-Früherkennung) (https://biohackingkompakt.de/thema/krebs-frueherkennung-bluttest.html)
+2 Studien: 1 Sonstige Studie, 1 Randomisierte Studie.
+- Randomisierte Studie, 2026: Performance of a multi-cancer early detection test in the randomized controlled NHS-Galleri trial (Neal RD et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/42773209/
+- Sonstige Studie, 2026: Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis (Sasieni P et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42776074/
+
 ## Thema: Kupfer (https://biohackingkompakt.de/thema/kupfer.html)
 5 Studien: 2 Fallbericht, 2 Klinische Studie, 1 Randomisierte Studie.
 - Randomisierte Studie, 2008: Intake of copper has no effect on cognition in patients with mild Alzheimer's disease: a pilot phase 2 clinical trial (Kessler H et al., J Neural Transm (Vienna)). https://pubmed.ncbi.nlm.nih.gov/18587525/
@@ -1898,6 +1924,12 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2019: Enteral lactoferrin supplementation for very preterm infants: a randomised placebo-controlled trial (ELFIN trial investigators group, Lancet). https://pubmed.ncbi.nlm.nih.gov/30635141/
 - Sonstige Studie, 2012: Scientific Opinion on bovine lactoferrin (EFSA Panel on Dietetic Products et al., EFSA J). https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2012.2701
 - Behörde/Recht (EU-Recht (EUR-Lex)): Durchführungsverordnung (EU) 2017/2470 – Unionsliste neuartiger Lebensmittel. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R2470-20260810
+
+## Thema: Langzeit-Basenbaden (https://biohackingkompakt.de/thema/langzeit-basenbaden.html)
+3 Studien: 2 Randomisierte Studie, 1 Sonstige Studie.
+- Randomisierte Studie, 1994: Effect of water temperature on diuresis-natriuresis: AVP, ANP, and urodilatin during immersion in men (Nakamitsu S et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/7836219/
+- Randomisierte Studie, 1992: Vasopressin inhibits diuresis induced by water immersion in humans (Farrow S et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/1400058/
+- Sonstige Studie, 1994: Improved mineral balance and skeletal metabolism in postmenopausal women treated with potassium bicarbonate (Sebastian A et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/8190153/
 
 ## Thema: Larazotide (AT-1001) (https://biohackingkompakt.de/thema/larazotide.html)
 6 Studien: 3 Übersichtsartikel, 2 Randomisierte Studie, 1 Studienregister.
@@ -2160,6 +2192,11 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR, Höchstmengenvorschläge Folsäure, Aktualisierung 2024. https://www.bfr.bund.de/cm/343/aktualisierung-2024-hoechstmengenvorschlaege-fuer-folsaeure-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf
 - Behörde/Recht (CDC): CDC, MTHFR Gene Variant and Folic Acid Facts, 2026. https://www.cdc.gov/folic-acid/data-research/mthfr/index.html
 
+## Thema: Mikrobiom-Tests mit Ernährungsplan (https://biohackingkompakt.de/thema/mikrobiom-tests.html)
+2 Studien: 2 Sonstige Studie.
+- Sonstige Studie, 2026: Evaluating the analytical performance of direct-to-consumer gut microbiome testing services (Servetas SL et al., Commun Biol). https://pubmed.ncbi.nlm.nih.gov/41748906/
+- Sonstige Studie, 2020: Human postprandial responses to food and potential for precision nutrition (Berry SE et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/32528151/
+
 ## Thema: Mikronährstoff-Beratung (https://biohackingkompakt.de/thema/mikronaehrstoffe.html)
 6 Studien: 3 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Leitlinie / Konsens, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2025: A systematic review of evidence-based clinical guidelines for vitamin D screening and supplementation over the last decade (Zemp J et al., Arch Public Health). https://pubmed.ncbi.nlm.nih.gov/40883815/
@@ -2375,6 +2412,12 @@ Stand: 04.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Studienregister: ClinicalTrials.gov NCT03568968 (NOPARK). https://clinicaltrials.gov/study/NCT03568968
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA NDA Panel, Erweiterung NR-Chlorid, EFSA Journal 2021. https://www.efsa.europa.eu/en/efsajournal/pub/6843
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA NDA Panel, NR-Chlorid als Novel Food, EFSA Journal 2019. https://www.efsa.europa.eu/en/efsajournal/pub/5775
+
+## Thema: Nikotin ohne Rauch (Beutel, Pflaster, Lutschtabletten) (https://biohackingkompakt.de/thema/nikotin-ohne-rauch.html)
+3 Studien: 2 Meta-Analyse / Übersicht, 1 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2018: Nicotine replacement therapy versus control for smoking cessation (Hartmann-Boyce J et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/29852054/
+- Meta-Analyse / Übersicht, 2010: Meta-analysis of the acute effects of nicotine and smoking on human performance (Heishman SJ et al., Psychopharmacology (Berl)). https://pubmed.ncbi.nlm.nih.gov/20414766/
+- Sonstige Studie, 2024: Small pouches, but high nicotine doses-nicotine delivery and acute effects after use of tobacco-free nicotine pouches (Mallock-Ohnesorg N et al., Front Pharmacol). https://pubmed.ncbi.nlm.nih.gov/38841367/
 
 ## Thema: NMN (https://biohackingkompakt.de/thema/nmn.html)
 5 Studien: 3 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Randomisierte Studie.

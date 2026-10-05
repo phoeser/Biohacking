@@ -25,7 +25,7 @@ const SUPPLEMENTS = [
     ],
     dosage: 'Keine sinnvolle „Dosis" – es geht um die Menge im Lebensmittel. Die Interventionsstudie verwendete 30 Gramm auf einmal, das entspricht etwa einem großen gesüßten Getränk oder mehreren Riegeln.',
     intake: 'Wer die Debatte ernst nimmt, verteilt statt zu häufen: gelegentlich ein gesüßtes Produkt ist etwas anderes als täglich mehrere. Für Xylit in Kaugummi gilt die Diskussion praktisch nicht – dort sind die Mengen klein.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/38864216/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/39114916/'
   },
   // ============ VITAMINE ============
   {

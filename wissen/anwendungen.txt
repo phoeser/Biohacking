@@ -1,6 +1,6 @@
 # Anwendungen und Behandlungen – Biohacking Kompakt
 
-Stand: 04.10.2026. 55 Einträge. Therapien, Geräte und ärztliche Leistungen. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 05.10.2026. 55 Einträge. Therapien, Geräte und ärztliche Leistungen. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## Alkohol reduzieren
@@ -67,7 +67,7 @@ Wofür: Schlafapnoe; Schnarchen; Tagesmüdigkeit; Schlafqualität
 Einordnung: Der Nutzen fürs Herz ist nicht gezeigt: SAVE (NEJM 2016) randomisierte 2.717 Erwachsene zwischen 45 und 75 mit mittelschwerer bis schwerer Schlafapnoe UND bestehender Herz-Kreislauf-Erkrankung und fand nach 3,7 Jahren ein Risikoverhältnis von 1,1 (95 % KI 0,91–1,32) für den kombinierten Endpunkt. Das ist kein Grund, das Gerät in den Schrank zu legen – die belegten Effekte auf Schlaf und Befinden bleiben. Es ist ein Grund, es nicht als Herzschutz zu verkaufen. Diagnose und Einstellung gehören ins Schlaflabor.
 BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung gemischt, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
 Begründung: Ein Lehrstück über den Unterschied zwischen Surrogat und Ergebnis. Dass das Gerät wirkt, ist unstrittig: Der Apnoe-Hypopnoe-Index fiel in SAVE (NEJM 2016) von 29 auf 3,7 je Stunde. Schnarchen, Tagesschläfrigkeit, Lebensqualität und Stimmung besserten sich signifikant. Der harte Endpunkt fehlt: Bei 2.717 Erwachsenen zwischen 45 und 75 mit mittelschwerer bis schwerer Schlafapnoe und bereits bestehender Herz-Kreislauf-Erkrankung lag das Risikoverhältnis für Herztod, Infarkt und Schlaganfall nach 3,7 Jahren bei 1,1 (95 % KI 0,91–1,32; p = 0,34). Der Hype-Abzug gilt der Vermarktung als Herzschutz, nicht dem Gerät.
-Seite: https://biohackingkompakt.de/#behandlungen/schlafapnoe-cpap
+Seite: https://biohackingkompakt.de/thema/schlafapnoe-cpap.html
 
 ## EMS – Elektromuskelstimulation
 Kategorie: Biohacking
@@ -246,7 +246,7 @@ Wofür: Früherkennung; Vorsorge; Screening
 Einordnung: Der Hauptendpunkt wurde verfehlt: Das Inzidenzratenverhältnis für Krebs im Stadium III oder IV lag bei 1,03 (95 % KI 0,92–1,14; p = 0,63) – kein Unterschied zur üblichen Vorsorge. Der Test findet etwa drei von zehn Krebsen. Entscheidend ist, was daraus folgt: Ein unauffälliges Ergebnis ist keine Entwarnung. Wer deswegen Darmspiegelung, Mammographie oder Hautkontrolle sein lässt, hat sich verschlechtert, nicht verbessert.
 BK-Score: Gut untersucht – Wirkung nicht bestätigt (Studien am Menschen 8/10, Richtung negativ, Mechanismus 6/10, Sicherheitsdaten 7/10, Anwendungserfahrung 4/10, Abstand Werbung zu Daten 7/10).
 Begründung: Die Evidenz ist hoch, weil es die erste randomisierte Studie überhaupt zu einem Multi-Krebs-Früherkennungstest gibt – und ihr Hauptendpunkt wurde verfehlt. NHS-Galleri schloss 142.250 Menschen zwischen 50 und 77 ein, drei Blutabnahmen über zwei Jahre, zwölf vorab festgelegte Krebsarten, die zusammen für zwei Drittel der jährlichen Krebstoten stehen. Das Inzidenzratenverhältnis für Stadium III oder IV lag bei 1,03 (95 % KI 0,92–1,14; p = 0,63). Die häufig zitierte Reduktion später Diagnosen stammt aus einem sekundären Befund (Stadium IV: 0,86), dessen Vertrauensbereich fast die Eins berührt. Der Hype-Abstand ist der höchste Posten: Vermarktet wird ein Test, der etwa drei von zehn Krebsen findet – und dessen unauffälliges Ergebnis keine Entwarnung ist.
-Seite: https://biohackingkompakt.de/#behandlungen/krebs-frueherkennung-bluttest
+Seite: https://biohackingkompakt.de/thema/krebs-frueherkennung-bluttest.html
 
 ## Langzeit-Basenbaden
 Kategorie: Biohacking
@@ -256,7 +256,7 @@ Wofür: Entspannung; Rücken/Muskulatur; Ritual; Schlaf
 Einordnung: Die Erklärung auf der Verpackung stimmt nicht: Über die Haut wird keine nennenswerte Säure ausgeschieden. Der Maßstab dafür ist die Niere – sie scheidet rund 71 mmol Säure am Tag aus (Sebastian, NEJM 1994). Was tatsächlich passiert, ist Immersionsdiurese: Der Wasserdruck verschiebt Blut nach innen, ANP steigt, Aldosteron fällt, die Niere macht Wasser und Natrium locker. Das erklärt auch das leichtere Gefühl danach. Bei Herzschwäche, niedrigem Blutdruck oder unter entwässernden Medikamenten ist stundenlange Immersion nichts zum Selbstausprobieren – das Herzzeitvolumen steigt dabei um bis zu 80 Prozent.
 BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 7/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 6/10).
 Begründung: Getrennt bewerten: Begründung und Wirkung. Die Begründung trägt nicht – über die Haut wird keine nennenswerte Säure ausgeschieden; der Maßstab ist die renale Netto-Säureausscheidung von rund 71 mmol am Tag (Sebastian, NEJM 1994). Die Wirkung ist dagegen gut vermessen: In Immersionsversuchen schieden 13 Männer in drei Stunden 758 ml Urin und 56 mmol Natrium aus, ANP stieg, Aldosteron fiel (Farrow, J Appl Physiol 1992). Die Temperatur entscheidet mit: bei 32 und 34,5 °C sechsfache Ausscheidung, bei 36 °C nur dreifache (Nakamitsu 1994). Der Sicherheitsabzug betrifft die Dauer: Das Herzzeitvolumen steigt um bis zu 80 Prozent – bei Herzschwäche, niedrigem Blutdruck oder unter Diuretika ist stundenlange Immersion nichts zum Selbstausprobieren.
-Seite: https://biohackingkompakt.de/#behandlungen/langzeit-basenbaden
+Seite: https://biohackingkompakt.de/thema/langzeit-basenbaden.html
 
 ## Lipoprotein(a)
 Kategorie: Biohacking
@@ -284,7 +284,7 @@ Wofür: Ernährung; Darm; Blutzucker; Personalisierung
 Einordnung: Drei Einschränkungen, die vor dem Bezahlen wichtig sind. Erstens: Der Beitrag der genetischen Information zur Vorhersage ist klein – 9,5 Prozent beim Blutzucker, 0,8 Prozent beim Blutfett, 0,2 Prozent beim C-Peptid. Zweitens: Beim Blutzucker schlägt die Mahlzeit das Mikrobiom deutlich (15,4 gegen 6,0 Prozent). Drittens: Die Messung selbst ist zwischen zwei Anbietern heute nicht zuverlässig wiederholbar – wer bei zwei Firmen einschickt, bekommt nicht dasselbe Ergebnis.
 BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 6/10, Richtung gemischt, Mechanismus 7/10, Sicherheitsdaten 9/10, Anwendungserfahrung 6/10, Abstand Werbung zu Daten 7/10).
 Begründung: Die Grundlage ist gut: PREDICT 1 (Nat Med 2020) maß an 1.002 britischen Erwachsenen standardisierte Testmahlzeiten über neun bis elf Tage, unabhängig bestätigt an 100 Menschen in den USA. Die individuelle Streuung ist real und groß – 103 Prozent beim Blutfett, 68 beim Blutzucker, 59 beim Insulin. Für die Fettantwort trug das Mikrobiom mehr bei als die Nährstoffzusammensetzung (7,1 gegen 3,6 Prozent der Varianz), beim Blutzucker war es umgekehrt (6,0 gegen 15,4). Der Beitrag genetischer Varianten zur Vorhersage ist klein: 9,5 Prozent beim Blutzucker, 0,8 beim Blutfett, 0,2 beim C-Peptid. Der Hype-Abzug betrifft den Sprung von dieser Forschung zum verkauften Ernährungsplan – und die Tatsache, dass die Messung zwischen Anbietern heute nicht zuverlässig wiederholbar ist.
-Seite: https://biohackingkompakt.de/#behandlungen/mikrobiom-tests
+Seite: https://biohackingkompakt.de/thema/mikrobiom-tests.html
 
 ## Mikronährstoff-Beratung
 Kategorie: Schwerpunkt

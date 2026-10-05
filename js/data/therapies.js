@@ -35,7 +35,7 @@ const THERAPIES = [
     ],
     indication: ['Früherkennung', 'Vorsorge', 'Screening'],
     note: 'Der Hauptendpunkt wurde verfehlt: Das Inzidenzratenverhältnis für Krebs im Stadium III oder IV lag bei 1,03 (95 % KI 0,92–1,14; p = 0,63) – kein Unterschied zur üblichen Vorsorge. Der Test findet etwa drei von zehn Krebsen. Entscheidend ist, was daraus folgt: Ein unauffälliges Ergebnis ist keine Entwarnung. Wer deswegen Darmspiegelung, Mammographie oder Hautkontrolle sein lässt, hat sich verschlechtert, nicht verbessert.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/41727826/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42776074/'
   },
   {
     id: 'mikrobiom-tests',
@@ -50,7 +50,7 @@ const THERAPIES = [
     ],
     indication: ['Ernährung', 'Darm', 'Blutzucker', 'Personalisierung'],
     note: 'Drei Einschränkungen, die vor dem Bezahlen wichtig sind. Erstens: Der Beitrag der genetischen Information zur Vorhersage ist klein – 9,5 Prozent beim Blutzucker, 0,8 Prozent beim Blutfett, 0,2 Prozent beim C-Peptid. Zweitens: Beim Blutzucker schlägt die Mahlzeit das Mikrobiom deutlich (15,4 gegen 6,0 Prozent). Drittens: Die Messung selbst ist zwischen zwei Anbietern heute nicht zuverlässig wiederholbar – wer bei zwei Firmen einschickt, bekommt nicht dasselbe Ergebnis.',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/32066975/'
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32528151/'
   },
   {
     id: 'langzeit-basenbaden',

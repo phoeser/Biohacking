@@ -15870,6 +15870,38 @@
 "Journal Article"
 ]
 },
+"pmid:1400058": {
+"autoren": "Farrow S, Banta G, Schallhorn S, May R, Mers A, Cadaret L, Rydstedt L, Lockette W.",
+"doi": "10.1152/jappl.1992.73.3.932",
+"iso": "J Appl Physiol (1985)",
+"jahr": "1992",
+"journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+"korr": [],
+"mesh": [
+"Humans",
+"Aldosterone",
+"Atrial Natriuretic Factor",
+"Immersion",
+"Diuresis",
+"Natriuresis",
+"Blood Volume",
+"Adult",
+"Middle Aged",
+"Deamino Arginine Vasopressin",
+"Male"
+],
+"pmcid": "",
+"pmid": "1400058",
+"quelle": "MED",
+"titel": "Vasopressin inhibits diuresis induced by water immersion in humans.",
+"typen": [
+"Controlled Clinical Trial",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
 "pmid:1408386": {
 "autoren": "Pavlenko VS, Khlystov VV, Andreeva LI, Ershov VI, Khavinson VKh.",
 "doi": "",
@@ -24570,6 +24602,35 @@
 "Research Support, Non-U.S. Gov't",
 "research-article",
 "Journal Article"
+]
+},
+"pmid:20414766": {
+"autoren": "Heishman SJ, Kleykamp BA, Singleton EG.",
+"doi": "10.1007/s00213-010-1848-1",
+"iso": "Psychopharmacology (Berl)",
+"jahr": "2010",
+"journal": "Psychopharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Nicotine",
+"Smoking",
+"Memory",
+"Psychomotor Performance",
+"Motor Skills",
+"Attention",
+"Dose-Response Relationship, Drug"
+],
+"pmcid": "PMC3151730",
+"pmid": "20414766",
+"quelle": "MED",
+"titel": "Meta-analysis of the acute effects of nicotine and smoking on human performance.",
+"typen": [
+"Meta-Analysis",
+"Research Support, N.I.H., Intramural",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:20416377": {
@@ -39913,6 +39974,38 @@
 "Journal Article"
 ]
 },
+"pmid:27571048": {
+"autoren": "McEvoy RD, Antic NA, Heeley E, Luo Y, Ou Q, Zhang X, Mediano O, Chen R, Drager LF, Liu Z, Chen G, Du B, McArdle N, Mukherjee S, Tripathi M, Billot L, Li Q, Lorenzi-Filho G, Barbe F, Redline S, Wang J, Arima H, Neal B, White DP, Grunstein RR, Zhong N, Anderson CS, SAVE Investigators and Coordinators.",
+"doi": "10.1056/nejmoa1606599",
+"iso": "N Engl J Med",
+"jahr": "2016",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Apnea, Obstructive",
+"Cerebrovascular Disorders",
+"Cardiovascular Diseases",
+"Treatment Outcome",
+"Hospitalization",
+"Continuous Positive Airway Pressure",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Coronary Artery Disease",
+"Intention to Treat Analysis"
+],
+"pmcid": "",
+"pmid": "27571048",
+"quelle": "MED",
+"titel": "CPAP for Prevention of Cardiovascular Events in Obstructive Sleep Apnea.",
+"typen": [
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:27586814": {
 "autoren": "Magrì A, Tabbì G, Giuffrida A, Pappalardo G, Satriano C, Naletova I, Nicoletti VG, Attanasio F.",
 "doi": "10.1016/j.jinorgbio.2016.08.013",
@@ -44328,6 +44421,40 @@
 "Journal Article"
 ]
 },
+"pmid:29852054": {
+"autoren": "Hartmann-Boyce J, Chepkin SC, Ye W, Bullen C, Lancaster T.",
+"doi": "10.1002/14651858.cd000146.pub5",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2018",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Nicotine",
+"Nicotinic Agonists",
+"Tablets",
+"Administration, Inhalation",
+"Administration, Cutaneous",
+"Smoking Cessation",
+"Time Factors",
+"Chewing Gum",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Smoking Prevention",
+"Tobacco Use Cessation Devices"
+],
+"pmcid": "PMC6353172",
+"pmid": "29852054",
+"quelle": "MED",
+"titel": "Nicotine replacement therapy versus control for smoking cessation.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:29856155": {
 "autoren": "Byun JI, Shin YY, Chung SE, Shin WC.",
 "doi": "10.3988/jcn.2018.14.3.291",
@@ -44991,6 +45118,124 @@
 "titel": "Effect of Portable Air Filtration Systems on Personal Exposure to Fine Particulate Matter and Blood Pressure Among Residents in a Low-Income Senior Facility: A Randomized Clinical Trial.",
 "typen": [
 "research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:30221595": {
+"autoren": "McNeil JJ, Nelson MR, Woods RL, Lockery JE, Wolfe R, Reid CM, Kirpach B, Shah RC, Ives DG, Storey E, Ryan J, Tonkin AM, Newman AB, Williamson JD, Margolis KL, Ernst ME, Abhayaratna WP, Stocks N, Fitzgerald SM, Orchard SG, Trevaks RE, Beilin LJ, Donnan GA, Gibbs P, Johnston CI, Radziszewska B, Grimm R, Murray AM, ASPREE Investigator Group.",
+"doi": "10.1056/nejmoa1803955",
+"iso": "N Engl J Med",
+"jahr": "2018",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Hemorrhage",
+"Aspirin",
+"Platelet Aggregation Inhibitors",
+"Treatment Failure",
+"Administration, Oral",
+"Mortality",
+"Cause of Death",
+"Follow-Up Studies",
+"Aged",
+"Aged, 80 and over",
+"United States",
+"Australia",
+"Female",
+"Male",
+"Independent Living"
+],
+"pmcid": "PMC6433466",
+"pmid": "30221595",
+"quelle": "MED",
+"titel": "Effect of Aspirin on All-Cause Mortality in the Healthy Elderly.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:30221596": {
+"autoren": "McNeil JJ, Woods RL, Nelson MR, Reid CM, Kirpach B, Wolfe R, Storey E, Shah RC, Lockery JE, Tonkin AM, Newman AB, Williamson JD, Margolis KL, Ernst ME, Abhayaratna WP, Stocks N, Fitzgerald SM, Orchard SG, Trevaks RE, Beilin LJ, Donnan GA, Gibbs P, Johnston CI, Ryan J, Radziszewska B, Grimm R, Murray AM, ASPREE Investigator Group.",
+"doi": "10.1056/nejmoa1800722",
+"iso": "N Engl J Med",
+"jahr": "2018",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Dementia",
+"Hemorrhage",
+"Aspirin",
+"Platelet Aggregation Inhibitors",
+"Disease-Free Survival",
+"Treatment Failure",
+"Administration, Oral",
+"Incidence",
+"Mortality",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Aged",
+"Aged, 80 and over",
+"United States",
+"Australia",
+"Female",
+"Male",
+"Independent Living",
+"Persons with Disabilities"
+],
+"pmcid": "PMC6426126",
+"pmid": "30221596",
+"quelle": "MED",
+"titel": "Effect of Aspirin on Disability-free Survival in the Healthy Elderly.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:30221597": {
+"autoren": "McNeil JJ, Wolfe R, Woods RL, Tonkin AM, Donnan GA, Nelson MR, Reid CM, Lockery JE, Kirpach B, Storey E, Shah RC, Williamson JD, Margolis KL, Ernst ME, Abhayaratna WP, Stocks N, Fitzgerald SM, Orchard SG, Trevaks RE, Beilin LJ, Johnston CI, Ryan J, Radziszewska B, Jelinek M, Malik M, Eaton CB, Brauer D, Cloud G, Wood EM, Mahady SE, Satterfield S, Grimm R, Murray AM, ASPREE Investigator Group.",
+"doi": "10.1056/nejmoa1805819",
+"iso": "N Engl J Med",
+"jahr": "2018",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Hemorrhage",
+"Aspirin",
+"Platelet Aggregation Inhibitors",
+"Treatment Failure",
+"Administration, Oral",
+"Double-Blind Method",
+"Aged",
+"Aged, 80 and over",
+"United States",
+"Australia",
+"Female",
+"Male",
+"Independent Living"
+],
+"pmcid": "PMC6289056",
+"pmid": "30221597",
+"quelle": "MED",
+"titel": "Effect of Aspirin on Cardiovascular Events and Bleeding in the Healthy Elderly.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
@@ -50412,6 +50657,52 @@
 "Clinical Trial, Phase II",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:32528151": {
+"autoren": "Berry SE, Valdes AM, Drew DA, Asnicar F, Mazidi M, Wolf J, Capdevila J, Hadjigeorgiou G, Davies R, Al Khatib H, Bonnett C, Ganesh S, Bakker E, Hart D, Mangino M, Merino J, Linenberg I, Wyatt P, Ordovas JM, Gardner CD, Delahanty LM, Chan AT, Segata N, Franks PW, Spector TD.",
+"doi": "10.1038/s41591-020-0934-0",
+"iso": "Nat Med",
+"jahr": "2020",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Insulin",
+"C-Peptide",
+"Dietary Carbohydrates",
+"Blood Glucose",
+"Dietary Fats",
+"Triglycerides",
+"Dietary Proteins",
+"Glucose Tolerance Test",
+"Individuality",
+"Postprandial Period",
+"Polymorphism, Single Nucleotide",
+"Dietary Fiber",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Genetic Variation",
+"Young Adult",
+"Healthy Volunteers",
+"Machine Learning",
+"Gastrointestinal Microbiome",
+"Precision Medicine",
+"Nutrients"
+],
+"pmcid": "PMC8265154",
+"pmid": "32528151",
+"quelle": "MED",
+"titel": "Human postprandial responses to food and potential for precision nutrition.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:32531816": {
@@ -58530,6 +58821,32 @@
 "Journal Article"
 ]
 },
+"pmid:36849732": {
+"autoren": "Witkowski M, Nemet I, Alamri H, Wilcox J, Gupta N, Nimer N, Haghikia A, Li XS, Wu Y, Saha PP, Demuth I, König M, Steinhagen-Thiessen E, Cajka T, Fiehn O, Landmesser U, Tang WHW, Hazen SL.",
+"doi": "10.1038/s41591-023-02223-9",
+"iso": "Nat Med",
+"jahr": "2023",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Heart",
+"Humans",
+"Myocardial Infarction",
+"Erythritol",
+"Sweetening Agents",
+"Prospective Studies"
+],
+"pmcid": "PMC10334259",
+"pmid": "36849732",
+"quelle": "MED",
+"titel": "The artificial sweetener erythritol and cardiovascular event risk.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:36857968": {
 "autoren": "Nambiar A, Kellogg D, Justice J, Goros M, Gelfond J, Pascual R, Hashmi S, Masternak M, Prata L, LeBrasseur N, Limper A, Kritchevsky S, Musi N, Tchkonia T, Kirkland J.",
 "doi": "10.1016/j.ebiom.2023.104481",
@@ -61982,6 +62299,23 @@
 "Journal Article"
 ]
 },
+"pmid:38841367": {
+"autoren": "Mallock-Ohnesorg N, Rabenstein A, Stoll Y, Gertzen M, Rieder B, Malke S, Burgmann N, Laux P, Pieper E, Schulz T, Franzen K, Luch A, Rüther T.",
+"doi": "10.3389/fphar.2024.1392027",
+"iso": "Front Pharmacol",
+"jahr": "2024",
+"journal": "Frontiers in pharmacology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11150668",
+"pmid": "38841367",
+"quelle": "MED",
+"titel": "Small pouches, but high nicotine doses-nicotine delivery and acute effects after use of tobacco-free nicotine pouches.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:38842918": {
 "autoren": "Dalsgaard NB, Gasbjerg LS, Hansen LS, Nielsen DS, Rasmussen TS, Knop FK.",
 "doi": "10.1530/ec-24-0052",
@@ -62522,6 +62856,46 @@
 "Systematic Review",
 "review-article",
 "Journal Article"
+]
+},
+"pmid:39114916": {
+"autoren": "Witkowski M, Wilcox J, Province V, Wang Z, Nemet I, Tang WHW, Hazen SL.",
+"doi": "10.1161/atvbaha.124.321019",
+"iso": "Arterioscler Thromb Vasc Biol",
+"jahr": "2024",
+"journal": "Arteriosclerosis, thrombosis, and vascular biology",
+"korr": [],
+"mesh": [
+"Blood Platelets",
+"Humans",
+"Thrombosis",
+"Erythritol",
+"Serotonin",
+"Glucose",
+"Platelet Factor 4",
+"Sweetening Agents",
+"Platelet Function Tests",
+"Prospective Studies",
+"Platelet Aggregation",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Tandem Mass Spectrometry",
+"Young Adult",
+"Healthy Volunteers",
+"Non-Nutritive Sweeteners"
+],
+"pmcid": "PMC11338701",
+"pmid": "39114916",
+"quelle": "MED",
+"titel": "Ingestion of the Non-Nutritive Sweetener Erythritol, but Not Glucose, Enhances Platelet Reactivity and Thrombosis Potential in Healthy Volunteers-Brief Report.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:39115257": {
@@ -69955,6 +70329,31 @@
 "Journal Article"
 ]
 },
+"pmid:41748906": {
+"autoren": "Servetas SL, Gierz KS, Hoffmann D, Ravel J, Jackson SA.",
+"doi": "10.1038/s42003-025-09301-3",
+"iso": "Commun Biol",
+"jahr": "2026",
+"journal": "Communications biology",
+"korr": [],
+"mesh": [
+"Feces",
+"Humans",
+"Reproducibility of Results",
+"Quality Control",
+"Gastrointestinal Microbiome",
+"Direct-To-Consumer Screening and Testing"
+],
+"pmcid": "PMC12946161",
+"pmid": "41748906",
+"quelle": "MED",
+"titel": "Evaluating the analytical performance of direct-to-consumer gut microbiome testing services.",
+"typen": [
+"research-article",
+"Evaluation Study",
+"Journal Article"
+]
+},
 "pmid:41765029": {
 "autoren": "Rosenstock J, Yabe D, Cox D, Li J, Denning M, Wu WS, Liu R, Zhao Y, ACHIEVE-3 Investigators.",
 "doi": "10.1016/s0140-6736(26)00202-3",
@@ -73537,6 +73936,38 @@
 "Journal Article"
 ]
 },
+"pmid:42773209": {
+"autoren": "Neal RD, Dolly S, Johnson P, Jones H, Kumar SH, Lee LYW, Lee Y, Liang W, Round T, Smittenaar R, Warwick J, Sasieni P, Swanton C.",
+"doi": "10.1038/s41591-026-04652-8",
+"iso": "Nat Med",
+"jahr": "2026",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42773209",
+"quelle": "MED",
+"titel": "Performance of a multi-cancer early detection test in the randomized controlled NHS-Galleri trial.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:42776074": {
+"autoren": "Sasieni P, Johnson P, Round T, Warwick J, Jones H, Dolly S, Lee L, Lee Y, Kumar H, Liang W, Smittenaar R, Neal RD, Swanton C.",
+"doi": "10.1056/nejmoa2505723",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42776074",
+"quelle": "MED",
+"titel": "Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42787770": {
 "autoren": "Najafi N, Maatouk H, Vardanyan KG, Vartanian KB, Agrawal DK.",
 "doi": "10.26502/aimr.0255",
@@ -74549,6 +74980,46 @@
 "Journal Article"
 ]
 },
+"pmid:7836219": {
+"autoren": "Nakamitsu S, Sagawa S, Miki K, Wada F, Nagaya K, Keil LC, Drummer C, Gerzer R, Greenleaf JE, Hong SK.",
+"doi": "10.1152/jappl.1994.77.4.1919",
+"iso": "J Appl Physiol (1985)",
+"jahr": "1994",
+"journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+"korr": [],
+"mesh": [
+"Humans",
+"Sodium",
+"Water",
+"Norepinephrine",
+"Atrial Natriuretic Factor",
+"Renin",
+"Peptide Fragments",
+"Electrocardiography",
+"Body Temperature",
+"Immersion",
+"Temperature",
+"Diuresis",
+"Natriuresis",
+"Adult",
+"Male",
+"Arginine Vasopressin",
+"Hemodynamics"
+],
+"pmcid": "",
+"pmid": "7836219",
+"quelle": "MED",
+"titel": "Effect of water temperature on diuresis-natriuresis: AVP, ANP, and urodilatin during immersion in men.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
 "pmid:7889884": {
 "autoren": "Penland JG.",
 "doi": "10.1289/ehp.94102s765",
@@ -74715,6 +75186,41 @@
 "Clinical Trial",
 "Research Support, U.S. Gov't, P.H.S.",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:8190153": {
+"autoren": "Sebastian A, Harris ST, Ottaway JH, Todd KM, Morris RC.",
+"doi": "10.1056/nejm199406233302502",
+"iso": "N Engl J Med",
+"jahr": "1994",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Bone and Bones",
+"Humans",
+"Osteoporosis, Postmenopausal",
+"Bone Resorption",
+"Bicarbonates",
+"Potassium",
+"Sodium",
+"Calcium",
+"Phosphorus",
+"Minerals",
+"Potassium Compounds",
+"Postmenopause",
+"Bone Density",
+"Aged",
+"Middle Aged",
+"Female"
+],
+"pmcid": "",
+"pmid": "8190153",
+"quelle": "MED",
+"titel": "Improved mineral balance and skeletal metabolism in postmenopausal women treated with potassium bicarbonate.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
