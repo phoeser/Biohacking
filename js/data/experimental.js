@@ -5187,7 +5187,534 @@ const EXPERIMENTAL = [
     ],
     podcasts: [],
     filterCat: 'Sonstige'
+  },
+  {
+      id: 'tp508',
+      name: 'TP508 (Rusalatide, Chrysalin)',
+      altNames: 'Rusalatide-Acetat, Rusalatid, Chrysalin, Thrombin-Peptid TP508, TP-508',
+      class: 'Synthetisches Thrombin-Fragment (23 Aminosäuren, Prothrombin 508–530), Forschungssubstanz, nie zugelassen',
+      emoji: '🩹',
+      short: 'Ein Bruchstück aus Thrombin, das in den 2000ern als Heilmittel für Wunden und Knochenbrüche entwickelt wurde. Eine kleine Studie an diabetischen Fußgeschwüren war positiv, die große Studie an Handgelenksbrüchen wurde ohne Nutzen gegenüber Placebo abgebrochen. Zugelassen wurde TP508 nirgends.',
+      moa: 'TP508 ist ein synthetisches Peptid aus 23 Aminosäuren (AGYKPDEGKRGDACEGDSGGPFV), das den Abschnitt 508 bis 530 des menschlichen Prothrombins nachbildet. Laut der Entwicklergruppe ist das die Bindungsstelle, über die Thrombin an eine Untergruppe von Rezeptoren auf Fibroblasten andockt, ohne die gerinnungsaktive Spaltfunktion des ganzen Enzyms. In menschlichen Endothelzellen löste TP508 binnen 5 Minuten eine Freisetzung von Stickstoffmonoxid aus, ähnlich stark wie der Wachstumsfaktor VEGF, aber über einen anderen Signalweg (Olszewska-Pazdrak 2010). In Tiermodellen förderte es Gefäßneubildung, Wund- und Frakturheilung; bei Mäusen verbesserte eine einzelne Gabe 24 Stunden nach tödlicher Bestrahlung das Überleben (Kantara 2015). Der Rezeptor ist nicht eindeutig identifiziert; die Entwickler selbst schrieben 2010, die molekularen Mechanismen seien unklar.',
+      benefits: [
+        'Diabetische Fußgeschwüre: In einer randomisierten, doppelblinden Phase-I/II-Studie mit 60 Teilnehmern heilten unter äußerlich aufgetragenem TP508 mehr als doppelt so viele Geschwüre vollständig ab wie unter Placebo, die mediane Zeit bis zum vollständigen Verschluss sank um etwa 40 % (Fife 2007; der Dosiseffekt wurde in der Per-Protokoll-Auswertung berichtet)',
+        'Fersengeschwüre in derselben Studie: 6 von 7 vollständig abgeheilt gegenüber 0 von 5 unter Placebo – eine sehr kleine Teilgruppe',
+        'Lokale Reaktionen und Nebenwirkungen waren in dieser Studie gleich häufig wie unter Placebo, schwere Nebenwirkungen wurden nicht berichtet',
+        'Wirkweg in Zellkultur beschrieben: rasche NO-Freisetzung in menschlichen Endothelzellen (Olszewska-Pazdrak 2010)'
+      ],
+      risks: [
+        'Die große Studie an Handgelenksbrüchen (Phase 2b, 274 Teilnehmer, eine Gabe an die Bruchstelle) wurde abgebrochen; laut Register zeigte TP508 keinen Nutzen gegenüber Placebo (NCT00131482). Die Entwickler berichten für eine Phase-III-Frakturstudie mit demselben Hauptendpunkt schnellere Heilung im Röntgenbild und einen Effekt bei Frauen mit Osteopenie – der Hauptendpunkt wurde in der Gesamtgruppe verfehlt (Carney 2008)',
+        'Alle Humandaten betreffen äußerliche Anwendung auf Wunden oder eine einmalige Gabe direkt an die Bruchstelle; zu wiederholten Injektionen unter die Haut gibt es keine Studie am Menschen',
+        'Sicherheitsdaten nur aus kleinen, kurzen Studien, keine Langzeitdaten',
+        'Graumarkt-Ware „nur für Forschungszwecke“: Reinheit, Gehalt und Sterilität sind ungeprüft',
+        'Im Sport jederzeit verboten (WADA-Liste 2026, S0 nicht zugelassene Substanzen)'
+      ],
+      status: 'Nirgends zugelassen. Entwickelt wurde TP508 als Chrysalin für Wunden und Knochenbrüche; die Frakturstudie wurde im März 2007 abgebrochen (NCT00131482), eine spätere Studie am Menschen ist im Register nicht eingetragen (Abfrage 05.10.2026). Danach wurde es im Tier als Mittel gegen Strahlenschäden untersucht (Kantara 2015). In Deutschland ist es kein zugelassenes Arzneimittel und nicht als verschreibungspflichtig gelistet; angeboten wird es als Forschungschemikalie. Doping: WADA-Liste 2026 S0, jederzeit verboten.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/17244316/',
+      sources: [
+        { title: 'Fife C et al., Wound Repair Regen 2007 – Phase I/II, diabetische Fußgeschwüre, 60 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/17244316/' },
+        { title: 'ClinicalTrials.gov NCT00131482 – Phase 2b bei Handgelenksbruch, 274 Teilnehmer, abgebrochen ohne Nutzen gegenüber Placebo', url: 'https://clinicaltrials.gov/study/NCT00131482' },
+        { title: 'Carney DH, Olszewska-Pazdrak B, Expert Opin Pharmacother 2008 – Übersicht der Entwickler, Phase-III-Frakturstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/18803458/' },
+        { title: 'Ryaby JT et al., J Bone Joint Surg Am 2006 – Wirkweg und frühe Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/17079379/' },
+        { title: 'Olszewska-Pazdrak B et al., J Vasc Res 2010 – NO-Freisetzung in menschlichen Endothelzellen', url: 'https://pubmed.ncbi.nlm.nih.gov/19893317/' },
+        { title: 'Kantara C et al., Lab Invest 2015 – Strahlenschäden im Mausmodell, Sequenz und Herkunft', url: 'https://pubmed.ncbi.nlm.nih.gov/26280221/' },
+        { title: 'NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung) – S0', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+      ],
+      community: [
+        { title: 'biolabshop (TP508)', url: 'https://biolabshop.de/' }
+      ],
+      podcasts: [],
+      filterCat: 'Immun'
+    },
+  {
+      id: 'trh',
+      name: 'TRH (Protirelin)',
+      altNames: 'Thyreoliberin, Thyrotropin-Releasing-Hormon, Protirelin, TRH Ferring, Relefact TRH',
+      class: 'Tripeptid-Hormon des Hypothalamus, in Deutschland als Diagnostikum zugelassen, verschreibungspflichtig',
+      emoji: '🧬',
+      short: 'Das Hormon des Hypothalamus, das die Schilddrüsenachse anstößt – in Deutschland für den TRH-Test zugelassen. Kleine Studien sahen eine rasche, kurze Stimmungsaufhellung bei Depression; die großen Studien zur Lungenreifung Frühgeborener fanden keinen Nutzen und mehr Nebenwirkungen.',
+      moa: 'TRH (Thyreoliberin, als Arzneistoff Protirelin) wird im Hypothalamus gebildet und gelangt über die Portalgefäße zum Hypophysenvorderlappen. Dort löst es die Ausschüttung von Thyreotropin (TSH) aus, bei Gesunden zugleich von Prolaktin; die höchsten TSH-Spiegel folgen nach 20 bis 30 Minuten. Das Tripeptid wird in Blut und Gewebe rasch abgebaut, die Halbwertszeit im Serum liegt bei etwa 3 bis 6,5 Minuten (Fachinformation TRH Ferring). Daneben werden TRH Wirkungen auf Antrieb und Stimmung zugeschrieben. Aus dem Blut gelangt es aber schlecht ins Gehirn, weshalb eine Forschergruppe es Depressiven direkt in den Rückenmarkskanal gab (Marangell 1997). Wie die Stimmungswirkung zustande kommt, ist nicht geklärt.',
+      benefits: [
+        'Diagnostik: Der TRH-Test zeigt über den TSH-Anstieg nach etwa 30 Minuten, wie Schilddrüse und Hypophyse reagieren; dafür ist Protirelin in Deutschland zugelassen (Fachinformation TRH Ferring)',
+        'Depression: 5 von 8 therapieresistenten Patienten sprachen auf TRH im Rückenmarkskanal an, die Suizidalität sank deutlich (doppelblind gegen Schein-Punktion, Marangell 1997)',
+        'Bipolare Depression: Nach einer nächtlichen Infusion halbierten 60 % gegenüber 10 % unter Kochsalz ihren Depressionswert binnen 24 Stunden (20 Patienten, Szuba 2005)',
+        'Krebsbedingte Erschöpfung: In einer kleinen Pilot-Crossover-Studie mit 8 Teilnehmern besserten sich Energie- und Erschöpfungswerte (Kamath 2012)'
+      ],
+      risks: [
+        'Lungenreifung bei drohender Frühgeburt: In 15 Studien mit über 4.600 Frauen brachte TRH zusätzlich zu Kortison keinen Nutzen; die Kinder brauchten häufiger Atemunterstützung (RR 1,16) und hatten häufiger niedrige Apgar-Werte (RR 1,48) (Cochrane 2013)',
+        'Stimmungseffekte sind kurz; bei wiederholter Gabe in die Vene beschrieb eine Arbeitsgruppe an 2 Patienten eine nachlassende Wirkung (Callahan 1997)',
+        'Nebenwirkungen schon bei der Einzelgabe: Hitzegefühl, Übelkeit, Harndrang, Kopfschmerzen, Flush, Blutdruck- und Pulsanstieg; selten Krampfanfälle bei Neigung dazu und Asthmaanfälle bei Asthmatikern (Fachinformation)',
+        'Bei großen Hypophysentumoren sind Tumorvergrößerung und Einblutung in zeitlichem Zusammenhang mit der Gabe beschrieben; Gegenanzeigen u. a. akuter Herzinfarkt, instabile Angina pectoris, erhöhte Krampfbereitschaft, ausgeprägte Bronchialobstruktion',
+        'ALS: Weder einzelne Infusionen noch tägliche Injektionen über 3 Monate zeigten einen Nutzen (Mitsumoto 1986)',
+        'Wiederholte Anwendung bei Gesunden ist nicht untersucht; Protirelin ist verschreibungspflichtig, Graumarkt-Ware ist ungeprüft'
+      ],
+      status: 'Deutschland: TRH Ferring 0,2 mg/ml Injektionslösung zugelassen (Zulassung 01.09.1998, verlängert 04.08.2015), verschreibungspflichtig. Einziges Anwendungsgebiet ist der TRH-Test in der Schilddrüsen- und Hypophysendiagnostik; zugelassen ist dafür bei Erwachsenen in der Regel eine einmalige Gabe von 200 µg in die Vene. Die Nutzung gegen Depression, Erschöpfung oder als Antriebsmittel ist Off-Label und nicht belegt. Doping: In der WADA-Liste 2026 ist Protirelin nicht namentlich aufgeführt; S0 greift nicht, weil es als Arzneimittel zugelassen ist.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/24265169/',
+      sources: [
+        { title: 'Fachinformation TRH Ferring 0,2 mg/ml Injektionslösung (Stand 08/2015) – Anwendungsgebiet, Dosierung, Nebenwirkungen', url: 'https://www.fachinfo.de/fi/detail/003946/trh-ferring-0-2-mg-injektionsloesung' },
+        { title: 'Crowther CA et al., Cochrane 2013 – TRH zusätzlich zu Kortison vor Frühgeburt, 15 Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/24265169/' },
+        { title: 'ACTOBAT Study Group, Lancet 1995 – TRH vor Frühgeburt, 1.234 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/7707809/' },
+        { title: 'Ballard RA et al., N Engl J Med 1998 – TRH vor Frühgeburt, 996 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/9468465/' },
+        { title: 'Marangell LB et al., Arch Gen Psychiatry 1997 – TRH in den Rückenmarkskanal bei therapieresistenter Depression', url: 'https://pubmed.ncbi.nlm.nih.gov/9075462/' },
+        { title: 'Szuba MP et al., J Clin Psychopharmacol 2005 – nächtliche TRH-Infusion bei bipolarer Depression', url: 'https://pubmed.ncbi.nlm.nih.gov/16012274/' },
+        { title: 'Callahan AM et al., Biol Psychiatry 1997 – TRH in Vene und Rückenmarkskanal, Toleranz', url: 'https://pubmed.ncbi.nlm.nih.gov/9024949/' },
+        { title: 'Kamath J et al., Support Care Cancer 2012 – TRH bei krebsbedingter Erschöpfung', url: 'https://pubmed.ncbi.nlm.nih.gov/21947558/' },
+        { title: 'Mitsumoto H et al., Neurology 1986 – TRH bei ALS', url: 'https://pubmed.ncbi.nlm.nih.gov/3080695/' },
+        { title: 'NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+      ],
+      community: [],
+      podcasts: [],
+      filterCat: 'Sonstige'
+    },
+  {
+      id: 'lz1',
+      name: 'LZ1',
+      altNames: 'LZ1-Peptid, LZ-1, VKRWKKWWRKWKKWV-NH2',
+      class: 'Synthetisches antimikrobielles Peptid (15 Aminosäuren), vom Schlangen-Cathelicidin abgeleitet, Forschungssubstanz',
+      emoji: '🛡️',
+      short: 'Ein im Labor entworfenes Abwehrpeptid aus 15 Aminosäuren, das als Mittel gegen Akne gehandelt wird. In Zellkultur und bei Mäusen wirkte es gegen Aknebakterien und entzündungshemmend. Am Menschen ist es nicht untersucht, und eine unabhängige Laborprüfung fand eine deutlich schwächere Wirkung.',
+      moa: 'LZ1 hat die Sequenz VKRWKKWWRKWKKWV-NH2 und wurde 2013 von einer chinesischen Arbeitsgruppe als neu entworfenes antimikrobielles Peptid beschrieben (Zhang 2013); spätere Arbeiten derselben Gruppe führen es als Abkömmling eines Cathelicidins aus Schlangengift (Fang 2019, Xu 2019). Im Reagenzglas tötete es Aknebakterien sowie Staphylococcus epidermidis und S. aureus und hemmte die Ausschüttung der Entzündungsbotenstoffe TNF-α und IL-1β. In Malaria-infizierten roten Blutkörperchen hemmte es die Pyruvatkinase und damit die Energiegewinnung des Erregers (Fang 2019). In Bauchspeicheldrüsenkrebs-Zellen band es an Nucleolin auf der Zelloberfläche und löste über AMPK einen autophagieabhängigen Zelltod aus (Xu 2019). Alle diese Befunde stammen aus Zellkultur und Mausmodellen.',
+      benefits: [
+        'Im Reagenzglas hemmte LZ1 drei Stämme des Aknebakteriums bei 0,6 µg/ml, laut Autoren einer viermal niedrigeren Konzentration als Clindamycin (Zhang 2013)',
+        'Im Mausohr-Modell senkte ein LZ1-Gel Bakterienzahl, Schwellung und Entzündungszellen (Zhang 2013)',
+        'Wenig Zellschädigung an menschlichen Keratinozyten, keine nennenswerte Auflösung roter Blutkörperchen und stabil in menschlichem Plasma (Zhang 2013); eine unabhängige Gruppe sah ebenfalls keine Hämolyse und keine Schädigung von Keratinozyten bis 200 µg/ml (Ramata-Stunda 2023)',
+        'Weitere Laborbefunde: Wirkung gegen Malariaerreger in Zellkultur und Maus (Fang 2019), Wachstumshemmung von Bauchspeicheldrüsenkrebs in Zellkultur und Maus (Xu 2019)'
+      ],
+      risks: [
+        'Keine einzige Studie am Menschen; ClinicalTrials.gov führt keine Studie (Abfrage 05.10.2026)',
+        'Unabhängige Nachprüfung schwächer: Gegen Aknebakterien lag die minimale Hemmkonzentration bei 8 µg/ml statt unter 1 µg/ml, und an Mäuse-Bindegewebszellen (Balb/c 3T3) wirkte LZ1 ab 62,5 µg/ml schädigend (Ramata-Stunda 2023)',
+        'Verträglichkeit nur in Zellkultur und kurzen Mausversuchen geprüft; Daten zu Hautreizung, Allergie und Langzeitanwendung am Menschen fehlen, zu Injektionen gibt es keine',
+        'Graumarkt-Ware „nur für Forschungszwecke“: Reinheit, Gehalt und Sterilität sind ungeprüft',
+        'Als nicht zugelassene, pharmakologisch wirksame Substanz fällt LZ1 unter S0 der WADA-Liste 2026 und ist im Sport jederzeit verboten'
+      ],
+      status: 'Nirgends als Arzneimittel zugelassen, keine klinische Entwicklung bekannt; im Register ClinicalTrials.gov ist keine Studie eingetragen (Abfrage 05.10.2026). In Deutschland nicht zugelassen und nicht als verschreibungspflichtig gelistet; angeboten wird es als Forschungschemikalie. Doping: WADA-Liste 2026 S0, jederzeit verboten.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/24013774/',
+      sources: [
+        { title: 'Zhang Z et al., PLoS One 2013 – LZ1 gegen Aknebakterien, Zellkultur und Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/24013774/' },
+        { title: 'Fang Y et al., Toxins 2019 – LZ1 gegen Malaria, Zellkultur und Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/31262018/' },
+        { title: 'Xu C et al., Oncogene 2019 – LZ1, Nucleolin und Autophagie bei Bauchspeicheldrüsenkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/30356139/' },
+        { title: 'Ramata-Stunda A et al., Antibiotics 2023 – unabhängiger Laborvergleich antimikrobieller Peptide inklusive LZ1', url: 'https://pubmed.ncbi.nlm.nih.gov/36978418/' },
+        { title: 'ClinicalTrials.gov – Registerabfrage „LZ1“ ohne passenden Eintrag', url: 'https://clinicaltrials.gov/search?term=LZ1%20peptide' },
+        { title: 'NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung) – S0', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+      ],
+      community: [],
+      podcasts: [],
+      filterCat: 'Immun'
+    },
+  {
+    id: 'lipotropin',
+    name: 'Lipotropin (als Fettabbau-Peptid verkauft)',
+    altNames: 'Beta-Lipotropin, β-LPH, LPH; im Handel teils als Wachstumshormon-Fragment 176-191 beschrieben',
+    class: 'Handelsname mit unklarer Identität: körpereigenes Hypophysenhormon (Beta-Lipotropin) oder Wachstumshormon-Fragment, nicht zugelassen',
+    emoji: '🧩',
+    short: 'Unter dem Namen „Lipotropin" wird ein Fettabbau-Peptid verkauft, dessen Identität nicht geklärt ist. Echtes Beta-Lipotropin ist ein Hypophysenhormon aus 89 Aminosäuren, das im Zellversuch Fett aus Fettzellen freisetzt. Händlertexte beschreiben die Ware dagegen als 16 Aminosäuren langes Stück des Wachstumshormons (176-191) und nennen im selben Text auch Beta-Lipotropin. Als Fettabbau-Mittel am Menschen geprüft ist keine der beiden Varianten.',
+    moa: 'Beta-Lipotropin ist ein Teilstück des Hypophysen-Vorläuferproteins POMC (Richter und Schwandt 1985). 1964 erstmals beschrieben (Li 1964), ist die menschliche Sequenz mit 89 Aminosäuren seit 1981 bekannt; ihre fettfreisetzende Wirksamkeit im Testsystem entsprach der des Schafhormons (Li und Chung 1981). Es ist zugleich Vorstufe von Beta-Endorphin und Enkephalinen: Das intakte Molekül wirkt selbst nicht opioidartig, im Labor entstehen daraus aber Bruchstücke ab Position 61 wie Met-Enkephalin (61-65) und Alpha-Endorphin (61-76), die es tun (Lazarus 1976). In Fettzellen von Kaninchen regte Beta-Lipotropin schon in Konzentrationen nahe den Blutspiegeln die Fettfreisetzung an (Richter und Schwandt 1985). In menschlichem Fettgewebe wirkte keines von 40 getesteten Peptidhormonen im klassischen Zellversuch; erst in einem verbesserten Messsystem setzte Beta-Lipotropin Fett frei, ähnlich stark wie Noradrenalin in gleicher Konzentration (Richter 1988). Was als „Lipotropin" gehandelt wird, beschreiben Händler als Wachstumshormon-Fragment 176-191, das ohne IGF-1-Anstieg den Fettabbau fördern soll – ein anderes Molekül mit eigener, ebenfalls dünner Datenlage (siehe HGH-Fragment 176-191 und AOD-9604). Die Ware wird teils als Kapsel angeboten. Eine unabhängige Analyse, welcher Stoff tatsächlich enthalten ist, liegt nicht vor.',
+    benefits: [
+      'Beta-Lipotropin ist ein seit 1964 bekanntes körpereigenes Hypophysenhormon; die menschliche Sequenz mit 89 Aminosäuren ist seit 1981 aufgeklärt (Li 1964, Li und Chung 1981)',
+      'Regte in Fettzellen von Kaninchen schon in Konzentrationen nahe den Blutspiegeln die Fettfreisetzung an (Richter und Schwandt 1985, Zellversuch)',
+      'Setzte in menschlichem Fettgewebe im Reagenzglas Fett frei, vergleichbar mit Noradrenalin in gleicher Konzentration – als einziges Peptid einer getesteten Gruppe von Hypophysenpeptiden (Richter 1988, ex vivo, kein Mensch behandelt)',
+      'Falls die Ware die AOD-9604-Sequenz enthält: Sicherheitsdaten aus sechs randomisierten, placebokontrollierten Humanstudien ohne IGF-1-Anstieg und ohne Verschlechterung der Glukosetoleranz – sie gelten nur für genau diese Sequenz (Stier 2013)'
+    ],
+    risks: [
+      'Identität unklar: Der Name steht für ein körpereigenes Hormon, die Händlerbeschreibung für ein Wachstumshormon-Fragment – was enthalten ist, ist nicht unabhängig geprüft',
+      'Keine einzige Humanstudie zur Gabe von Beta-Lipotropin als Fettabbau-Mittel; alle Wirkdaten stammen aus Zell- und Gewebeversuchen',
+      'Beta-Lipotropin ist Vorstufe opioidartig wirksamer Peptide (Endorphine, Enkephaline); welche Spaltprodukte bei Zufuhr von außen entstehen, ist am Menschen nicht untersucht',
+      'Für das Wachstumshormon-Fragment und die verwandte AOD-9604-Sequenz ist am Menschen kein Abnehmeffekt belegt (siehe HGH-Fragment 176-191)',
+      'Im Sport: Wachstumshormon-Fragmente wie hGH 176-191 sind nach WADA-Liste 2026 (S2.2.3) jederzeit verboten und stehen in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'In DE, EU und USA kein zugelassenes Arzneimittel; Verkauf als Forschungschemikalie. Beta-Lipotropin ist weder auf der WADA-Liste 2026 noch in der Anlage des Anti-Doping-Gesetzes namentlich genannt. Enthält die Ware das Wachstumshormon-Fragment hGH 176-191, gilt WADA 2026 S2.2.3 (im und außerhalb des Wettkampfs verboten) und die Anlage des Anti-Doping-Gesetzes (Wachstumshormon-Fragmente).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/3235059/',
+    sources: [
+      { title: 'Li CH, Nature 1964 – Lipotropin, ein neues aktives Peptid aus der Hypophyse', url: 'https://pubmed.ncbi.nlm.nih.gov/14132790/' },
+      { title: 'Li CH, Chung D, Int J Pept Protein Res 1981 – Isolierung und Sequenz von Beta-Lipotropin aus menschlichen Hypophysen (89 Aminosäuren)', url: 'https://pubmed.ncbi.nlm.nih.gov/7228494/' },
+      { title: 'Lazarus LH et al., PNAS 1976 – Beta-Lipotropin als Vorstufe von Endorphinen und Enkephalinen', url: 'https://pubmed.ncbi.nlm.nih.gov/1064883/' },
+      { title: 'Richter WO, Schwandt P, Metabolism 1985 – physiologische Konzentrationen von Beta-Lipotropin regen Lipolyse in Kaninchen-Fettzellen an', url: 'https://pubmed.ncbi.nlm.nih.gov/3999975/' },
+      { title: 'Richter WO et al., Horm Metab Res Suppl 1988 – Lipolyse durch Peptidhormone in menschlichem Fettgewebe in vitro', url: 'https://pubmed.ncbi.nlm.nih.gov/3235059/' },
+      { title: 'Stier H et al., J Endocrinol Metab 2013 – Sicherheit von AOD9604 in sechs placebokontrollierten Studien', url: 'https://www.jofem.org/index.php/jofem/article/view/157' },
+      { title: 'WADA – Prohibited List 2026, S2.2.3 Growth hormone fragments', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Anti-Doping-Gesetz, Anlage – Wachstumshormon-Fragmente (AOD-9604, hGH-Fragment 176-191)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [
+      { title: 'biolabshop (Lipotropin)', url: 'https://biolabshop.de/' }
+    ],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'alarelin',
+    name: 'Alarelin',
+    altNames: 'Alarelinacetat, Alarelin Acetate, GnRH-Agonist',
+    class: 'GnRH-Agonist (synthetisches Nonapeptid), in DE, EU und USA nicht zugelassen',
+    emoji: '🧬',
+    short: 'Ein synthetischer GnRH-Agonist, der vor allem in China klinisch verwendet wird, etwa bei Endometriose und in der künstlichen Befruchtung. Wie seine Verwandten Triptorelin und Leuprorelin schaltet er bei Dauergabe die Hormonachse ab. Im Peptidhandel taucht er als Mittel rund um LH und Testosteron auf – für diesen Einsatz gibt es keine einzige Studie.',
+    moa: 'Alarelin ist ein synthetisches Nonapeptid, das wie das körpereigene GnRH am GnRH-Rezeptor der Hypophyse bindet (Yuan 2025). Für die ganze Klasse der GnRH-Agonisten gilt: Nach der ersten Gabe steigen LH, FSH und die Sexualhormone kurz an, bei anhaltender Gabe wird die Hypophyse unempfindlich und die Achse schaltet ab – klinisch erwünscht als umkehrbarer Hypogonadismus bei Endometriose oder hormonabhängigen Tumoren (Yuan 2025; für Triptorelin in der Fachinformation beschrieben). In einer chinesischen Vergleichsstudie zur künstlichen Befruchtung regelte Alarelin die Hypophyse ähnlich zuverlässig herunter wie Triptorelin (Duan 2010). Eigene veröffentlichte Daten zu Rezeptorbindung und Pharmakokinetik am Menschen sind rar. Der im Handel nahegelegte Nutzen für LH und Testosteron widerspricht dem Klassenprinzip: Anregend wirkt nur pulsatil gegebenes GnRH (siehe Gonadorelin), anhaltende Agonisten-Gabe hemmt die Achse.',
+    benefits: [
+      'Vergleichsstudie zur künstlichen Befruchtung mit 122 Frauen: ähnliche Herunterregulierung der Hypophyse und ähnliche Schwangerschaftsraten wie unter Triptorelin, weniger abgebrochene Zyklen (Duan 2010; Gruppen ungleich groß, Zuteilung nicht als randomisiert beschrieben)',
+      'In China als Arzneimittel bei Endometriose und hormonabhängigen Tumoren im Einsatz (Yuan 2025)',
+      'Das Wirkprinzip der GnRH-Agonisten ist am Menschen gut verstanden und durch zugelassene Verwandte wie Triptorelin gut dokumentiert'
+    ],
+    risks: [
+      'Erster dokumentierter Fall einer schweren Leberschädigung: gesunde 37-jährige Studienteilnehmerin, Kausalität nach RUCAM-Score 6 als wahrscheinlich bewertet, Leberwerte nach 18 Tagen normalisiert (Yuan 2025, Fallbericht)',
+      'Klasseneffekte der GnRH-Agonisten bei Dauergabe: Abfall der Sexualhormone mit Hitzewallungen, Libidoverlust und Abnahme der Knochendichte',
+      'Bei Männern als Testosteron- oder LH-Mittel eingesetzt kann es das Gegenteil bewirken: Anhaltende Gabe senkt LH, FSH und Testosteron',
+      'Keine Studie zum Einsatz bei Männern zur Unterstützung von Testosteron oder Fruchtbarkeit; Phase-I-Daten sind nicht veröffentlicht',
+      'Im Sport bei Männern jederzeit verboten (WADA-Liste 2026, S2.2.1: GnRH und seine agonistischen Analoga)'
+    ],
+    status: 'In DE, EU und USA nicht zugelassen; in China als Arzneimittel verwendet. Weder in Anlage 1 der Arzneimittelverschreibungsverordnung noch in der Anlage des Anti-Doping-Gesetzes namentlich genannt (dort unter anderem Gonadorelin, Leuprorelin und Triptorelin). Als GnRH-Agonist fällt es unter WADA 2026 S2.2.1, bei Männern im und außerhalb des Wettkampfs verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/20873594/',
+    sources: [
+      { title: 'Duan JL et al., Zhonghua Nan Ke Xue 2010 – Alarelin gegen Triptorelin im langen Protokoll der künstlichen Befruchtung, 122 Patientinnen', url: 'https://pubmed.ncbi.nlm.nih.gov/20873594/' },
+      { title: 'Yuan F et al., Front Med 2025 – Leberschädigung unter Alarelinacetat, Fallbericht und Literaturübersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/41090118/' },
+      { title: 'Fachinformation Pamorelin LA 3,75 mg (Triptorelin, Stand 04/2026) – Wirkprinzip der GnRH-Agonisten', url: 'https://www.fachinfo.de/fi/pdf/025739/pamorelin-r-la-3-75-mg' },
+      { title: 'WADA – Prohibited List 2026, S2.2.1 Testosterone-stimulating peptides in males', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Anti-Doping-Gesetz, Anlage – Releasingfaktoren von CG und LH (namentliche Liste)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [
+      { title: 'biolabshop (Alarelin)', url: 'https://biolabshop.de/' }
+    ],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'triptorelin',
+    name: 'Triptorelin',
+    altNames: 'Triptorelinacetat, Triptorelinembonat, Pamorelin LA, Salvacyl, Decapeptyl, GnRH-Agonist',
+    class: 'GnRH-Agonist (Depot-Peptid), in Deutschland zugelassen und verschreibungspflichtig',
+    emoji: '🧬',
+    short: 'Ein langwirksamer GnRH-Agonist, zugelassen bei Prostata- und Brustkrebs und zur Senkung des Sexualtriebs. Anders als Gonadorelin, das im Pulsrhythmus die Hormonachse anregt, schaltet Triptorelin sie nach einem kurzen Anstieg ab – beim Mann bis auf Kastrationsniveau. In Steroid-Foren wird es als einmaliger „Neustart" der Achse nach Anabolika diskutiert; dafür gibt es keine prospektive Studie.',
+    moa: 'Triptorelin ist ein synthetisches GnRH-Analogon und wirkt am GnRH-Rezeptor der Hypophyse. Laut Fachinformation steigen nach der Gabe LH, FSH und Testosteron zunächst vorübergehend an; bei längerer, kontinuierlicher Gabe sinken LH und FSH, die Steroidbildung in Hoden und Eierstöcken wird unterdrückt, und beim Mann fällt das Testosteron etwa 2 bis 4 Wochen nach Therapiebeginn in den Bereich nach chirurgischer Kastration. Die Wirkung ist nach dem Absetzen im Allgemeinen umkehrbar. Bei gesunden Männern stieg das Testosteron nach einer einzigen Depotinjektion bis Tag 4 an, sank bis Woche 4 auf ein niedriges Niveau und war erst ab Woche 8 nicht mehr erniedrigt. Abgrenzung zu Gonadorelin: Gonadorelin ist strukturgleich mit dem körpereigenen GnRH, wirkt nur Minuten und regt die Achse nur im Pulsrhythmus an. Triptorelin ist ein gezielt veränderter Agonist, der als Depot über Wochen wirkt – und genau deshalb die Achse abschaltet. Beide binden am selben Rezeptor, verfolgen in der Anwendung aber entgegengesetzte Ziele.',
+    benefits: [
+      'Prostatakrebs: randomisierte Studie mit 284 Männern – Kastrationsniveau nach 57 Tagen bei 97,7 gegenüber 97,1 Prozent unter Leuprorelin, Erhaltung über 9 Monate gleichwertig (Heyns 2003)',
+      'Schutz der Eierstöcke während Chemotherapie: frühe Menopause bei 8,9 gegenüber 25,9 Prozent ohne Triptorelin (PROMISE-GIM6, 281 Frauen mit Brustkrebs, Del Mastro 2011)',
+      'Brustkrebs: In SOFT und TEXT (4.690 prämenopausale Frauen) diente Triptorelin der Ovarsuppression; mit Exemestan lag das krankheitsfreie Überleben nach 5 Jahren bei 91,1 gegenüber 87,3 Prozent mit Tamoxifen (Pagani 2014)',
+      'In Deutschland als Pamorelin LA seit 2005 zugelassen; Wirkung und Nebenwirkungen in der Fachinformation ausführlich beschrieben'
+    ],
+    risks: [
+      'Erst Anstieg, dann Abschalten: Nach einer einzigen Depotinjektion war das Testosteron bei gesunden Männern ab Woche 4 niedrig und erst ab Woche 8 nicht mehr erniedrigt (Fachinformation)',
+      'Folgen des Hormonentzugs: Hitzewallungen, Libidoverlust, Erektionsstörungen, Abnahme der Knochendichte; erhöhtes Risiko für Depressionen, die schwer verlaufen können',
+      'QT-Verlängerung möglich; unter Androgenentzug Hinweise auf Glukoseintoleranz und erhöhtes Herz-Kreislauf-Risiko; selten Hypophysenapoplexie bei unerkanntem Hypophysenadenom, Krampfanfälle berichtet',
+      'Als „Neustart" nach Anabolika nicht untersucht – in Steroid-Foren wird selbst vor chemischer Kastration durch Fehlanwendung gewarnt (Easton 2025)',
+      'Bei Männern im Sport jederzeit verboten (WADA-Liste 2026, S2.2.1); im Anti-Doping-Gesetz namentlich gelistet'
+    ],
+    status: 'In Deutschland zugelassen und verschreibungspflichtig, unter anderem als Pamorelin LA (Prostata- und Brustkrebs; zugelassene Dosis 3,75 mg alle 4 Wochen) und Salvacyl (Senkung des Sexualtriebs bei erwachsenen Männern mit schwerer sexueller Abnormität, Einleitung durch einen Psychiater; zugelassene Dosis 11,25 mg alle 12 Wochen). Die Anwendung zur Anregung der Hormonachse nach Anabolika ist keine zugelassene Anwendung. Namentlich in der Anlage des Anti-Doping-Gesetzes und auf der WADA-Liste 2026 (S2.2.1).',
+    link: 'https://www.fachinfo.de/fi/pdf/025739/pamorelin-r-la-3-75-mg',
+    sources: [
+      { title: 'Fachinformation Pamorelin LA 3,75 mg (Triptorelin, Stand 04/2026)', url: 'https://www.fachinfo.de/fi/pdf/025739/pamorelin-r-la-3-75-mg' },
+      { title: 'Fachinformation Salvacyl 11,25 mg (Triptorelin, Stand 04/2025)', url: 'https://www.fachinfo.de/fi/pdf/011698/salvacyl-r-11-25-mg-pulver-und-loesungsmittel' },
+      { title: 'Heyns CF et al., BJU Int 2003 – Triptorelin gegen Leuprorelin bei fortgeschrittenem Prostatakrebs, 284 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/12887472/' },
+      { title: 'Del Mastro L et al., JAMA 2011 – PROMISE-GIM6, Triptorelin gegen chemotherapiebedingte frühe Menopause, 281 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/21771987/' },
+      { title: 'Pagani O et al., NEJM 2014 – SOFT/TEXT, Exemestan mit Ovarsuppression, 4.690 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/24881463/' },
+      { title: 'Easton J et al., Drug Alcohol Rev 2025 – Post-Cycle-Therapie in australischen Steroid-Foren', url: 'https://pubmed.ncbi.nlm.nih.gov/41032454/' },
+      { title: 'WADA – Prohibited List 2026, S2.2.1 Testosterone-stimulating peptides in males', url: 'https://www.wada-ama.org/en/prohibited-list' },
+      { title: 'Anti-Doping-Gesetz, Anlage – Releasingfaktoren von CG und LH (Triptorelin)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+      id: 'thymulin',
+      name: 'Thymulin',
+      altNames: 'Zink-Thymulin, FTS-Zn, Facteur thymique sérique (FTS), Serum-Thymusfaktor, Nonathymulin (synthetische Form)',
+      class: 'Thymushormon, Nonapeptid aus 9 Aminosäuren, nur mit gebundenem Zink aktiv',
+      emoji: '🛡️',
+      short: 'Ein echtes Thymushormon, das nur mit gebundenem Zink wirkt und im Blut ab der Jugend absinkt. In den 1980er-Jahren in kleinen Studien bei Rheuma und Multipler Sklerose geprüft, nie zugelassen. Für die heute beworbene Immunverjüngung gibt es keine Humandaten, für Haarwuchs keine Studie.',
+      moa: 'Thymulin wird von den Epithelzellen des Thymus gebildet und besteht aus neun Aminosäuren. Biologisch aktiv ist es nur mit einem gebundenen Zinkion im Verhältnis 1:1, ohne Zink ist das Peptid wirkungslos (Dardenne 1982). Es fördert Reifung und Funktion von T-Zellen. Beim Menschen steigt der Blutspiegel bis ins Alter von 5 bis 10 Jahren, fällt ab der Pubertät und erreicht um das 36. Lebensjahr seinen Tiefstwert, auf dem er bis 80 bleibt (Consolini 2000, 93 Gesunde). Bei leichtem Zinkmangel sinkt die Thymulin-Aktivität im Blut und steigt nach Zinkgabe wieder (Prasad 1988). Eine Mausstudie von 2026 fand, dass Thymulin über eine Hemmung von NF-κB altersbedingte Entzündung in Fresszellen dämpft und die Krebsimmuntherapie verstärkt; behandelt wurden Mäuse, nicht Menschen.',
+      benefits: [
+        'Gut beschriebenes körpereigenes Hormon: Aufbau, Zinkabhängigkeit und Altersverlauf beim Menschen sind belegt',
+        'Zwei randomisierte, doppelblinde Studien bei rheumatoider Arthritis (Amor 1987): globale Besserung bei 56 Prozent unter der wirksamsten Dosisstufe gegenüber 17 Prozent unter Placebo, bei geringen Nebenwirkungen',
+        'Fallserie mit drei immundefizienten Kindern (Lancet 1982): seltenere Infekte, bessere Zellabwehr, erstmals messbares IgA; nach Unterbrechung Rückgang, nach Wiederaufnahme erneute Besserung',
+        'Mausdaten 2026 (Nat Commun): weniger altersbedingte Entzündung, bessere Tumorkontrolle und stärkeres Ansprechen auf eine Immuntherapie bei alten Tieren'
+      ],
+      risks: [
+        'Die Humanstudien sind klein, stammen aus den 1980er-Jahren und wurden nie wiederholt; zur beworbenen Immunverjüngung gibt es keine Humanstudie, zum Haarwuchs keine Studie',
+        'Bei Multipler Sklerose ohne Wirkung: doppelblinde Pilotstudie mit 40 Personen über 6 Monate ohne Unterschied zu Placebo (Roullet 1989)',
+        'Sicherheitsdaten nur aus diesen kurzen Studien; Langzeitdaten fehlen, Auswirkungen bei Autoimmunerkrankungen, nach Transplantation oder unter Immuntherapie sind nicht untersucht',
+        'Nicht zugelassen; bei Graumarkt-Ware sind Reinheit, Gehalt und Zinkbeladung ungeprüft. Im Sport fällt es als nicht zugelassene Substanz unter Klasse S0 der WADA-Liste (jederzeit verboten)'
+      ],
+      status: 'Weder in Deutschland noch in der EU oder den USA als Arzneimittel zugelassen. Die synthetische Form Nonathymulin wurde in den 1980er-Jahren klinisch geprüft, eine Zulassung folgte nicht; im Studienregister ClinicalTrials.gov ist keine Studie mit Thymulin als Wirkstoff eingetragen. Angebot als Forschungspeptid.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/3310925/',
+      sources: [
+        { title: 'Dardenne M et al., Proc Natl Acad Sci USA 1982 – erst gebundenes Zink macht den Serum-Thymusfaktor aktiv (Thymulin)', url: 'https://pubmed.ncbi.nlm.nih.gov/6957870/' },
+        { title: 'Consolini R et al., Clin Exp Immunol 2000 – Thymulin-Spiegel bei 93 Gesunden von der Geburt bis 80 Jahre', url: 'https://pubmed.ncbi.nlm.nih.gov/10971509/' },
+        { title: 'Prasad AS et al., J Clin Invest 1988 – Thymulin bei leichtem Zinkmangel des Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/3262625/' },
+        { title: 'Brignola C et al., Aliment Pharmacol Ther 1993 – Zinkgabe hebt Thymulin bei Morbus Crohn, randomisiert mit 27 Personen', url: 'https://pubmed.ncbi.nlm.nih.gov/8364132/' },
+        { title: 'Bordigoni P et al., Lancet 1982 – synthetischer Serum-Thymusfaktor bei drei immundefizienten Kindern', url: 'https://pubmed.ncbi.nlm.nih.gov/6124716/' },
+        { title: 'Amor B et al., Ann Rheum Dis 1987 – Nonathymulin bei rheumatoider Arthritis, zwei placebokontrollierte Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/3310925/' },
+        { title: 'Roullet E et al., Acta Neurol Scand 1989 – Nonathymulin bei Multipler Sklerose, doppelblinde Pilotstudie mit 40 Personen', url: 'https://pubmed.ncbi.nlm.nih.gov/2618585/' },
+        { title: 'Kanemaru H et al., Nat Commun 2026 – Thymulin, Entzündung im Alter und Krebsimmuntherapie (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/42481458/' },
+        { title: 'ClinicalTrials.gov – Suche nach Thymulin, keine Studie mit Thymulin als Wirkstoff', url: 'https://clinicaltrials.gov/search?term=thymulin' },
+        { title: 'WADA Prohibited List – Klasse S0, nicht zugelassene Substanzen', url: 'https://www.wada-ama.org/en/prohibited-list' }
+      ],
+      community: [],
+      filterCat: 'Immun'
+    },
+  {
+      id: 'pnc-27',
+      name: 'PNC-27',
+      altNames: 'p53-Penetratin-Peptid, HDM-2-bindendes Anti-Krebs-Peptid; kürzere Variante PNC-28',
+      class: 'Synthetisches Hybridpeptid (p53-Abschnitt 12–26 plus Zellpenetrationssequenz Penetratin), präklinische Forschungssubstanz',
+      emoji: '🧪',
+      short: 'Ein Laborpeptid, das in Zellkultur und Mausmodellen Krebszellen über Poren in der Zellmembran zerstört und gesunde Zellen verschont. Am Menschen nie geprüft. Als Krebsmittel vermarktet, nannte die FDA es 2017 als Beispiel nach einem Bakterienfund in einer Probe.',
+      moa: 'PNC-27 verbindet den Abschnitt des Tumorsuppressors p53, der an das Eiweiß HDM-2 bindet (Aminosäuren 12 bis 26), mit Penetratin, einer Sequenz, die Peptide durch Zellmembranen schleust. Nach den Arbeiten der Entwicklergruppe an der State University of New York tragen viele Krebszellen HDM-2 auch in ihrer äußeren Membran, gesunde Zellen kaum. PNC-27 bindet dort an HDM-2, die Komplexe bilden Poren, und die Krebszelle läuft aus, eine Nekrose statt eines programmierten Zelltods. Normale Zellen, denen man im Labor membranständiges HDM-2 einbaute, wurden ebenfalls angreifbar (Sarafraz-Yazdi 2010). In Zellkultur wirkt es auch bei Krebszellen ohne funktionierendes p53. Alle Befunde stammen aus Zellkultur, aus Tumorzellen im Labor und aus Mäusen.',
+      benefits: [
+        'In Zellkultur gegen viele menschliche Krebszelllinien wirksam, auch ohne funktionierendes p53; normale Zellen einschließlich Stammzellen aus Nabelschnurblut blieben unbeeinträchtigt (Kanovsky 2001)',
+        'Zielstruktur benannt: HDM-2 in der Membran von Krebszellen; der Mechanismus über Porenbildung ist in mehreren Arbeiten beschrieben',
+        'Im Mausmodell zerstörte die kürzere Variante PNC-28 gleichzeitig eingepflanzte Bauchspeicheldrüsentumoren und bremste das Wachstum entfernter Tumoren (Michl 2006)',
+        'Eine von den Entwicklern unabhängige Arbeitsgruppe bestätigte 2020 im Mausmodell der akuten myeloischen Leukämie die Abtötung von Leukämiezellen bei geschonten gesunden Blutstammzellen (Wang 2020)'
+      ],
+      risks: [
+        'Keine einzige Studie am Menschen, kein Eintrag im Studienregister ClinicalTrials.gov; Wirksamkeit, Verträglichkeit und Verhalten im Körper sind unbekannt',
+        'Ein FDA-Labor fand im Januar 2017 in einer Probe von PNC-27, das als Behandlung oder Heilmittel gegen Krebs beworben wurde, das Bakterium Variovorax paradoxus',
+        'Das größte Risiko ist indirekt: Wer eine wirksame Krebstherapie aufschiebt oder ersetzt, verliert Zeit, die sich nicht zurückholen lässt',
+        'Nicht zugelassen; Werbung, die ein Arzneimittel außerhalb der Fachkreise mit der Behandlung von Krebs verbindet, ist in Deutschland nach § 12 HWG verboten'
+      ],
+      status: 'Nirgends als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA; keine registrierte klinische Studie. Präklinische Forschungssubstanz. Die FDA führt PNC-27 seit 2017 als Beispiel für ein illegal als Krebsmittel vertriebenes, verunreinigtes Produkt.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/20080680/',
+      sources: [
+        { title: 'Kanovsky M et al., Proc Natl Acad Sci USA 2001 – p53-Peptide mit Penetratin, selektiv toxisch für Krebszellen (Zellkultur)', url: 'https://pubmed.ncbi.nlm.nih.gov/11606716/' },
+        { title: 'Sarafraz-Yazdi E et al., Proc Natl Acad Sci USA 2010 – PNC-27 bindet HDM-2 in der Membran von Krebszellen', url: 'https://pubmed.ncbi.nlm.nih.gov/20080680/' },
+        { title: 'Michl J et al., Int J Cancer 2006 – PNC-28 bremst Bauchspeicheldrüsentumoren in Nacktmäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/16688716/' },
+        { title: 'Wang H et al., Leukemia 2020 – membranständiges HDM2 als Ziel bei akuter myeloischer Leukämie (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/31337857/' },
+        { title: 'Sarafraz-Yazdi E et al., Ann Clin Lab Sci 2015 – PNC-27 an frisch gewonnenen Eierstockkrebszellen im Labor', url: 'https://pubmed.ncbi.nlm.nih.gov/26663795/' },
+        { title: 'Pincus MR et al., Biomedicines 2024 – Übersicht der Entwicklergruppe zur Porenbildung', url: 'https://pubmed.ncbi.nlm.nih.gov/38927351/' },
+        { title: 'FDA, Fragen und Antworten zu illegal vertriebenen Krebsmitteln – Bakterienfund in PNC-27 (Januar 2017)', url: 'https://www.fda.gov/consumers/health-fraud-scams/questions-and-answers-fda-alerts-companies-stop-illegal-sale-products-claiming-treat-cancer' },
+        { title: 'Heilmittelwerbegesetz, Anlage zu § 12 – kein Publikumswerben für Arzneimittel bei bösartigen Neubildungen', url: 'https://www.gesetze-im-internet.de/heilmwerbg/anlage.html' },
+        { title: 'ClinicalTrials.gov – Suche nach PNC-27, keine registrierte Studie', url: 'https://clinicaltrials.gov/search?term=PNC-27' }
+      ],
+      community: [],
+      filterCat: 'Sonstige'
+    },
+  {
+      id: 'ptd-dbm',
+      name: 'PTD-DBM',
+      altNames: 'Protein Transduction Domain – Dishevelled Binding Motif, CXXC5-Dishevelled-Kompetitorpeptid',
+      class: 'Synthetisches Peptid, das die Bindung von CXXC5 an Dishevelled stört und so den Wnt/β-Catenin-Signalweg aktiviert; präklinische Forschungssubstanz',
+      emoji: '💇',
+      short: 'Ein Laborpeptid aus Seoul, das eine Bremse des Haarwachstums-Signalwegs Wnt löst. Bei Mäusen wuchsen Haare schneller nach, und in Hautwunden bildeten sich neue Follikel. Am Menschen ist es nicht untersucht.',
+      moa: 'Der Wnt/β-Catenin-Signalweg steuert Wachstum und Neubildung von Haarfollikeln. Das Eiweiß CXXC5 bremst diesen Weg, indem es an das Signalprotein Dishevelled bindet. PTD-DBM besteht aus dem Dishevelled-bindenden Abschnitt von CXXC5 (DBM) und einer Transportsequenz (PTD), die das Peptid in die Zelle bringt. Dort konkurriert es mit CXXC5 um Dishevelled, die Bremse fällt weg, β-Catenin steigt. In verkleinerten Haarfollikeln kahler menschlicher Kopfhaut fand die Entwicklergruppe mehr CXXC5, in menschlichen Haarpapillenzellen hemmte CXXC5 Wachstumsmarker (Lee 2017). 2023 beschrieb dieselbe Gruppe CXXC5 bei Mäusen als Glied der Kette von DHT über Prostaglandin D2 zum Haarausfall. Alle Wirkungsdaten zu PTD-DBM stammen aus Zellkultur und Mäusen.',
+      benefits: [
+        'Angriffspunkt mit menschlichem Bezug: mehr CXXC5 in verkleinerten Follikeln kahler Kopfhaut, Wachstumshemmung durch CXXC5 in menschlichen Haarpapillenzellen im Labor (Lee 2017)',
+        'Im Mausmodell schnelleres Nachwachsen der Haare und Neubildung von Haarfollikeln in Hautwunden (Lee 2017)',
+        'Bei Mäusen hob es den durch Prostaglandin D2 ausgelösten Haarausfall auf (Ryu 2023)',
+        'Zusammen mit Valproinsäure beschleunigte es im Mausmodell auch die Wundheilung (Lee 2015)'
+      ],
+      risks: [
+        'Keine Studie am Menschen, kein Eintrag im Studienregister ClinicalTrials.gov; ob es auf der Kopfhaut ankommt, wirkt und vertragen wird, ist unbekannt',
+        'Alle Befunde stammen aus einer Arbeitsgruppe der Yonsei-Universität in Seoul; eine unabhängige Bestätigung fehlt',
+        'Der Wnt/β-Catenin-Weg spielt auch bei Krebs eine Rolle; dieselbe Gruppe nennt das als Grund für die Zurückhaltung bei Wirkstoffen an diesem Weg und fand ihn im Plattenepithelkarzinom der Haut aktiviert (Lee 2025)',
+        'Nicht zugelassen; Ware ohne geprüften Gehalt. Für erblich bedingten Haarausfall gibt es zugelassene, am Menschen geprüfte Wirkstoffe'
+      ],
+      status: 'Nirgends als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA; keine registrierte klinische Studie. Präklinische Forschungssubstanz.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/28595998/',
+      sources: [
+        { title: 'Lee SH et al., J Invest Dermatol 2017 – CXXC5 und Haarwachstum, PTD-DBM im Mausmodell', url: 'https://pubmed.ncbi.nlm.nih.gov/28595998/' },
+        { title: 'Kim D, Garza LA, J Invest Dermatol 2017 – Kommentar zur CXXC5-Arbeit', url: 'https://pubmed.ncbi.nlm.nih.gov/28967390/' },
+        { title: 'Lee SH et al., J Exp Med 2015 – CXXC5 bremst die Wundheilung, PTD-DBM im Mausmodell', url: 'https://pubmed.ncbi.nlm.nih.gov/26056233/' },
+        { title: 'Ryu YC et al., Cells 2023 – CXXC5 vermittelt DHT- und Prostaglandin-D2-bedingten Haarausfall (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/36831222/' },
+        { title: 'Fan C et al., Biomedicines 2026 – Übersicht kurzer Peptide gegen Haarausfall, PTD-DBM nur mit Tierdaten', url: 'https://pubmed.ncbi.nlm.nih.gov/42072405/' },
+        { title: 'Lee SH et al., Exp Mol Med 2025 – Wnt/β-Catenin im Plattenepithelkarzinom der Haut', url: 'https://pubmed.ncbi.nlm.nih.gov/40887499/' },
+        { title: 'ClinicalTrials.gov – Suche nach PTD-DBM, keine registrierte Studie', url: 'https://clinicaltrials.gov/search?term=PTD-DBM' }
+      ],
+      community: [],
+      filterCat: 'Sonstige'
+    },
+  {
+    id: 'orexin-b',
+    name: 'Orexin B',
+    altNames: 'Hypocretin-2, OxB, Orexin-B (human)',
+    class: 'Körpereigenes Neuropeptid (28 Aminosäuren), Agonist am Orexin-Rezeptor 2',
+    emoji: '🌅',
+    short: 'Eines der beiden Wachheits-Peptide des Hypothalamus, 1998 von zwei Gruppen gleichzeitig beschrieben. Als Peptid ist Orexin B am Menschen nie untersucht: Es wird im Blut schnell abgebaut und gelangt von außen nicht ins Gehirn. Wirksam am Orexin-System ist stattdessen ein oral verfügbarer OX2R-Agonist, der seit August 2026 in den USA gegen Narkolepsie Typ 1 zugelassen ist.',
+    moa: 'Aus dem Vorläufer Prepro-Orexin entstehen zwei Peptide: Orexin A mit 33 und Orexin B mit 28 Aminosäuren. Die Zellen, die sie bilden, liegen im lateralen und hinteren Hypothalamus und stabilisieren den Wachzustand. Orexin A bindet an beide Orexin-Rezeptoren, Orexin B bevorzugt den Rezeptor 2 (OX2R); aus dieser Vorliebe wurde 2003 ein OX2R-selektiver Agonist auf Orexin-B-Basis entwickelt. Bei Narkolepsie Typ 1 gehen die Orexin-Neurone verloren, deshalb ist das System ein Ziel für Medikamente. Der entscheidende Punkt für ein Peptid von außen ist der Weg ins Gehirn: Markiertes Orexin A tritt bei Mäusen durch einfache Diffusion aus dem Blut ins Hirngewebe über, Orexin B wird im Blut schnell abgebaut und war nach Gabe in die Vene im Gehirn nicht mehr in intakter Form nachweisbar; der Verteilungskoeffizient in Octanol lag bei 0,030 gegenüber 0,232 für Orexin A. Die Humanversuche am Orexin-System arbeiten daher mit Orexin A über die Nase oder mit kleinen Molekülen, die den Rezeptor direkt besetzen.',
+    benefits: [
+      'Die Rolle im Wach-Schlaf-System ist gut belegt: Beide Peptide wurden 1998 unabhängig beschrieben, und der Verlust der Orexin-Neurone erklärt Narkolepsie Typ 1.',
+      'Der Wirkweg lässt sich am Menschen beeinflussen – allerdings mit einem Tablettenwirkstoff, nicht mit dem Peptid: Oveporexton, ein OX2R-selektiver Agonist, verlängerte in zwei Phase-3-Studien mit 168 und 105 Teilnehmenden die Einschlaflatenz im Wachbleibe-Test um 14,3 bis 19,8 Minuten gegenüber -0,4 bis -0,8 Minuten unter Placebo.',
+      'Aus Orexin B wurde 2003 der OX2R-selektive Agonist [Ala11, D-Leu15]Orexin B abgeleitet, der in der Forschung als Werkzeug dient.',
+      'Tier- und Zellbefunde zu Orexin B betreffen Herzmuskelzellen, Fettgewebe, Eierstockzellen und Nervenzellen – keiner davon ist am Menschen bestätigt.',
+      'Beworben wird Orexin B als Wachheits-Peptid gegen Tagesmüdigkeit; dafür existiert keine Humanstudie.'
+    ],
+    risks: [
+      'Keine einzige Studie am Menschen mit Orexin B, auch kein Eintrag in öffentlichen Studienregistern; die Humanarbeiten am Orexin-System verwenden Orexin A oder zugelassene Wirkstoffe.',
+      'Der Weg ins Gehirn fehlt: Orexin B wird im Blut rasch abgebaut, ist wenig fettlöslich und war im Tierversuch nach Gabe in die Vene im Hirngewebe nicht intakt nachweisbar.',
+      'Auch der Weg über die Nase ist unsicher: Eine PET-Untersuchung mit markiertem Orexin A fand nach Gabe in die Nase nur geringe Aufnahme ins Gehirn, vergleichbar mit der Gabe in die Vene.',
+      'Dass eine Aktivierung des Rezeptors nicht nebenwirkungsfrei ist, zeigt der zugelassene OX2R-Agonist: In den Zulassungsstudien traten bei der Mehrheit der Behandelten vermehrter Harndrang, häufigeres Wasserlassen und vorübergehende Schlaflosigkeit auf, dazu mehr Speichelfluss.',
+      'Anhaltende Tagesmüdigkeit, Schlafattacken oder Kataplexie gehören in schlafmedizinische Abklärung; Narkolepsie Typ 1 ist behandelbar, und Selbstversuche verschleppen die Diagnose.',
+      'Gehandelt wird Laborware mit dem Zusatz „nur für Forschungszwecke", ohne Prüfung von Gehalt, Reinheit und Sterilität.',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
+    ],
+    status: 'In Deutschland und der EU ist Orexin B kein zugelassenes Arzneimittel; als Nahrungsergänzungsmittel fehlt die nach der Novel-Food-Verordnung (EU) 2015/2283 nötige Genehmigung. Verkauft wird es als Laborpeptid für Forschungszwecke. Zugelassen ist am Orexin-System nicht das Peptid, sondern der orale OX2R-Agonist Oveporexton: Die US-Arzneimittelbehörde FDA erteilte am 05.08.2026 die Zulassung als Orzeyful für Erwachsene mit Narkolepsie Typ 1, die Einordnung in das US-Betäubungsmittelrecht war zum Zulassungszeitpunkt empfohlen und noch offen. WADA 2026: als nicht zugelassene Substanz unter S0 jederzeit verboten.',
+    sources: [
+      { title: 'Sakurai et al., Cell 1998 – Erstbeschreibung von Orexin A und Orexin B und ihrer Rezeptoren', url: 'https://pubmed.ncbi.nlm.nih.gov/9491897/' },
+      { title: 'de Lecea et al., PNAS 1998 – die Hypocretine als hypothalamusspezifische Peptide', url: 'https://pubmed.ncbi.nlm.nih.gov/9419374/' },
+      { title: 'Kastin und Akerstrom, J Pharmacol Exp Ther 1999 – Orexin A, aber nicht Orexin B, gelangt aus dem Blut ins Gehirn', url: 'https://pubmed.ncbi.nlm.nih.gov/10087007/' },
+      { title: 'Asahi et al., Bioorg Med Chem Lett 2003 – OX2R-selektiver Agonist auf Orexin-B-Basis', url: 'https://pubmed.ncbi.nlm.nih.gov/12467628/' },
+      { title: 'Van de Bittner et al., ACS Chem Neurosci 2018 – PET-Messung der Gehirnaufnahme von Orexin A über die Nase', url: 'https://pubmed.ncbi.nlm.nih.gov/29035509/' },
+      { title: 'Weinhold et al., Behav Brain Res 2014 – Orexin A über die Nase bei Narkolepsie mit Kataplexie, 14 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/24406723/' },
+      { title: 'Dauvilliers et al., N Engl J Med 2026 – Oveporexton in zwei Phase-3-Studien bei Narkolepsie Typ 1', url: 'https://pubmed.ncbi.nlm.nih.gov/42714024/' },
+      { title: 'FDA, Pressemitteilung vom 05.08.2026 – Zulassung von Orzeyful (Oveporexton)', url: 'https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms' },
+      { title: 'ClinicalTrials.gov – Suche nach Orexin B ohne Studie zum Peptid', url: 'https://clinicaltrials.gov/search?term=orexin%20B' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'dermorphin',
+    name: 'Dermorphin',
+    altNames: 'Hyp6-Dermorphin, „Frog Juice" (Begriff aus dem Pferdesport)',
+    class: 'Opioid-Peptid aus Froschhaut (Heptapeptid), Agonist am My-Opioid-Rezeptor',
+    emoji: '⚠️',
+    short: 'Ein Opioid-Peptid aus der Haut südamerikanischer Frösche, das am My-Opioid-Rezeptor um ein Vielfaches stärker wirkt als Morphin. Die Humanforschung endete 1985 nach einer einzigen verblindeten Studie zur Schmerzbehandlung; bekannt geworden ist der Stoff später als Dopingmittel im Pferderennsport. In Deutschland gibt es keine Zulassung, der Handel als Arzneimittel ist strafbar, und die Risiken sind die eines hochpotenten Opioids.',
+    moa: 'Dermorphin wurde 1981 von der Arbeitsgruppe um Vittorio Erspamer aus der Haut der Frösche Phyllomedusa sauvagei und Phyllomedusa rhodei isoliert und als Heptapeptid mit der Sequenz Tyr-D-Ala-Phe-Gly-Tyr-Pro-Ser-NH2 bestimmt – eines der ersten Tierpeptide mit einer D-Aminosäure, die es gegen den schnellen Abbau durch Peptidasen schützt. Es bindet sehr selektiv an den My-Opioid-Rezeptor, denselben Rezeptor, über den Morphin und Fentanyl wirken, und löst damit die typische Opioid-Kette aus: gedämpfte Schmerzweiterleitung im Rückenmark, Eingriff in Hormonachsen, Dämpfung des Atemantriebs. In Zahlen des analytischen Fachartikels von 2013 ist Dermorphin am Rezeptor 30- bis 40-mal stärker als Morphin. Dass die Wirkung über Opioid-Rezeptoren läuft, ist am Menschen geprüft: Der Gegenspieler Naloxon hob die Hormoneffekte vollständig auf, die Hemmung eines Schmerzreflexes dagegen nur etwa zur Hälfte, was die Autoren als Hinweis auf mehrere beteiligte Rezeptor-Populationen deuteten.',
+    benefits: [
+      'Eine randomisierte, doppelblinde Studie an 150 Patienten nach planbaren Operationen (1985): Die Schmerzfreiheit hielt im Mittel 43,4 Stunden an gegenüber 34,5 Stunden unter Morphin und 10,8 Stunden unter der damals üblichen Vergleichsbehandlung; die Nebenwirkungen Harnverhalt, Erbrechen und Kopfschmerz unterschieden sich zwischen den Gruppen nicht wesentlich.',
+      'Bei gesunden Freiwilligen hob eine Infusion die Schwelle eines spinalen Schmerzreflexes deutlich und lang anhaltend an; derselbe Effekt zeigte sich bei einer Person mit vollständiger Querschnittlähmung, was für einen Angriffspunkt im Rückenmark spricht (1986).',
+      'Die Opioid-Wirkung am Menschen ist auch an Hormonen messbar: Prolaktin, Wachstumshormon, Thyreotropin und die Reninaktivität stiegen, Cortisol sank, und Naloxon verhinderte diese Effekte (Zusammenfassung mehrerer Studien an Gesunden, 1985).',
+      'Danach brach die klinische Forschung ab: Eine Übersicht von 2018 beschreibt, dass die Studie von 1985 in der klinischen Literatur praktisch nie zitiert wurde, und schlägt neue Studien für die Schmerzmedizin vor – Dermorphin ist seit 40 Jahren kein Arzneimittel geworden.',
+      'Gut untersucht ist der Nachweis: Für Pferdeplasma und -urin sowie für menschlichen Urin liegen validierte massenspektrometrische Verfahren für die Dopingkontrolle vor.'
+    ],
+    risks: [
+      'Es ist ein hochpotentes Opioid. Damit gehören Atemdämpfung, Bewusstseinstrübung, Übelkeit, Harnverhalt, Toleranz und Abhängigkeit zum Wirkprofil; im Tierversuch entstand nach wenigen Tagen Dauergabe eine körperliche Abhängigkeit mit Entzugssyndrom wie bei Morphin.',
+      'Es gibt keine moderne Sicherheitsstudie, keine Dosis-Wirkungs-Daten am Menschen aus den letzten vier Jahrzehnten und keine Pharmakovigilanz; die Humanarbeiten stammen aus den Jahren 1983 bis 1986 und wurden unter klinischer Überwachung durchgeführt.',
+      'Die hohe Wirkstärke macht jede Selbstanwendung besonders gefährlich: Zwischen wirksamer und atemdämpfender Menge liegt bei Opioiden wenig Spielraum, und Graumarkt-Ware ist in Gehalt und Reinheit ungeprüft.',
+      'Im Pferderennsport wurde Dermorphin bis 2011 unbemerkt eingesetzt; in einer Untersuchung an 10 Pferden folgten der Gabe in die Vene Erregung und ein Anstieg der Herzfrequenz, nachweisbar war der Stoff im Urin bis zu 48 bis 72 Stunden. Der Einsatz bei Tieren ist ein Tierschutz- und Rennbetrugsthema, kein Wirksamkeitsbeleg für Menschen.',
+      'Eine Anwendung beim Menschen außerhalb von Studien ist in der Dopingliteratur beschrieben, aber nirgends geprüft oder zugelassen.',
+      'Opioid-Wechselwirkungen sind erheblich: mit Beruhigungs- und Schlafmitteln, Alkohol und anderen atemdämpfenden Stoffen. Starke Schmerzen gehören in ärztliche Behandlung, in der es zugelassene und steuerbare Opioide gibt.',
+      'Im Sport jederzeit verboten: Dermorphin ist auf der Verbotsliste nicht namentlich aufgeführt, fällt aber als nicht zugelassene Substanz unter die Gruppe S0.'
+    ],
+    status: 'In Deutschland und der EU ist Dermorphin kein zugelassenes Arzneimittel, ebenso nicht in den USA. Es steht nicht in den Anlagen I bis III des Betäubungsmittelgesetzes und ist auch von den Stoffgruppen des Neue-psychoaktive-Stoffe-Gesetzes nicht erfasst – es ist also kein Betäubungsmittel im Rechtssinn. Das macht es nicht frei verkäuflich: Ein Stoff, der zur Schmerzbehandlung angeboten wird, ist ein Arzneimittel, und das Inverkehrbringen eines Arzneimittels ohne Zulassung ist nach dem Arzneimittelgesetz strafbar. Gehandelt wird es als Forschungschemikalie mit dem Zusatz „nur für Forschungszwecke". Im Pferdesport gilt es als klassischer Dopingfall, seit 2011 mit eigenen Nachweisverfahren. WADA 2026: als nicht zugelassene Substanz unter S0 jederzeit verboten; die namentliche Liste der Narkotika unter S7 führt Dermorphin nicht.',
+    sources: [
+      { title: 'Montecucchi et al., Int J Pept Protein Res 1981 – Aminosäuresequenz von Dermorphin aus Phyllomedusa sauvagei', url: 'https://pubmed.ncbi.nlm.nih.gov/7287299/' },
+      { title: 'Basso et al., Peptides 1985 – randomisierte Doppelblindstudie zur postoperativen Schmerzbehandlung, 150 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/3831962/' },
+      { title: 'Sandrini et al., Brain Res 1986 – Dermorphin hemmt den spinalen Schmerzreflex beim Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/3697765/' },
+      { title: 'Degli Uberti et al., Peptides 1985 – Hormonwirkungen von Dermorphin bei Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/3008118/' },
+      { title: 'Broccardo et al., Eur J Pharmacol 1985 – Toleranz und körperliche Abhängigkeit bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/4040026/' },
+      { title: 'Keppel Hesselink und Schatman, J Pain Res 2018 – Dermorphin als vergessener Arzneistoff (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/30538538/' },
+      { title: 'Guan et al., Anal Bioanal Chem 2013 – Nachweis in Pferdeplasma und -urin, Wirkstärke und Missbrauch im Rennsport', url: 'https://pubmed.ncbi.nlm.nih.gov/23571464/' },
+      { title: 'Robinson et al., J Vet Pharmacol Ther 2015 – Pharmakokinetik und Wirkung bei 10 Pferden', url: 'https://pubmed.ncbi.nlm.nih.gov/25376170/' },
+      { title: 'Castro et al., J Mass Spectrom 2020 – Nachweisverfahren für menschlichen Urin in der Dopingkontrolle', url: 'https://pubmed.ncbi.nlm.nih.gov/32805775/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppen S0 und S7)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'cabergolin',
+    name: 'Cabergolin',
+    altNames: 'Dostinex, Cabergolin-ratiopharm, Dopamin-Agonist',
+    class: 'Dopamin-Agonist (Ergolin-Derivat), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Zugelassen gegen zu hohes Prolaktin und zum Abstillen; dort normalisiert es den Prolaktinspiegel zuverlässiger als Bromocriptin. Außerhalb der Zulassung wird es für mehr Libido und als „Prolaktin-Bremse" genutzt – dafür gibt es eine kleine Studie an 10 gesunden Männern. Daneben stehen Herzklappenveränderungen, die bei hohen Dosen gut belegt sind.',
+    moa: 'Cabergolin stimuliert direkt die Dopamin-D2-Rezeptoren an den prolaktinbildenden Zellen der Hypophyse und senkt so lange anhaltend den Prolaktinspiegel. Oberhalb der dafür nötigen Dosis wirkt es laut Fachinformation auch zentral dopaminerg. Als Ergolin-Derivat aktiviert es zusätzlich den Serotonin-5-HT2B-Rezeptor; diese Eigenschaft gilt als Ursache der Fibrosen und Herzklappenveränderungen, die nach längerer Anwendung auftreten. Prolaktin steigt nach dem Orgasmus an; die Idee hinter der Lifestyle-Nutzung ist, diesen Anstieg zu dämpfen und so Lust und Erholungszeit zu beeinflussen.',
+    benefits: [
+      'Bei Hyperprolaktinämie gut belegt: normaler Prolaktinspiegel bei 83 % gegenüber 59 % unter Bromocriptin, Eisprung oder Schwangerschaft bei 72 % gegenüber 52 % (RCT, 459 Frauen, Webster 1994)',
+      'Seltener abgebrochen als Bromocriptin: 3 % gegenüber 12 % wegen Unverträglichkeit (Webster 1994)',
+      'Lifestyle-Nutzung: In einer einfach verblindeten Crossover-Studie an 10 gesunden Männern steigerte eine Einzelgabe Cabergolin sexuelles Verlangen, sexuelle Funktion und das Erleben der Erholungsphase nach dem Orgasmus (Krüger 2003)',
+      'Bei Männern mit Orgasmusstörung berichteten in einer rückblickenden Auswertung 87 von 131 (66,4 %) eine subjektive Besserung – ohne Kontrollgruppe (Hollander 2016)',
+      'In Deutschland seit 1995 als Dostinex zugelassen, Nebenwirkungen über Jahrzehnte dokumentiert'
+    ],
+    risks: [
+      'Herzklappen: Unter Parkinson-Medikation stieg das Risiko für neue Klappeninsuffizienz um das 4,9-Fache (Schade 2007); die EMA senkte 2008 die Höchstdosis auf 3 mg pro Tag und schrieb Echokardiographien vor',
+      'Bei niedrigen Dosen gegen Prolaktin häufiger Trikuspidal-Insuffizienz im Ultraschall (Meta-Analyse, OR 3,74), aber keine Beschwerden dadurch (Stiles 2018); keine Häufung von Klappenoperationen oder Herzschwäche bei 646 Behandelten (Stiles 2021)',
+      'Impulskontrollstörungen: Hypersexualität, Spielsucht, Kaufzwang, Essattacken laut Fachinformation; bei Prolaktinom-Patienten häufiger als ohne Dopamin-Agonist (RR 1,71, Penchev 2025)',
+      'Fibrosen an Lunge, Herzbeutel und im Retroperitonealraum; Gegenanzeige bei entsprechender Vorgeschichte und bei Herzklappenerkrankung vor Langzeitbehandlung',
+      'Übelkeit, Schwindel, Kopfschmerzen, Blutdruckabfall, plötzliches Einschlafen; nicht zusammen mit Antipsychotika',
+      'Bei gesunden Frauen änderte Cabergolin das sexuelle Erleben nicht (Crossover, 13 Frauen, Krüger 2018)'
+    ],
+    status: 'In Deutschland zugelassen und verschreibungspflichtig (Dostinex, seit 24.02.1995): primäres Abstillen und Störungen durch Hyperprolaktinämie; Höchstdosis 3 mg pro Tag. Die Anwendung für Libido, Orgasmus oder zur Prolaktinsenkung bei Gesunden ist eine nicht zugelassene Anwendung. EMA-Risikobewertung 2008 zu Fibrosen und Herzklappen. Nicht in der Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/14656205/',
+    sources: [
+      { title: 'Webster J et al., N Engl J Med 1994 – Cabergolin gegen Bromocriptin bei hyperprolaktinämischer Amenorrhoe, RCT mit 459 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/7915824/' },
+      { title: 'Krüger TH et al., J Endocrinol 2003 – akute Prolaktinsenkung und sexuelles Erleben, Crossover mit 10 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/14656205/' },
+      { title: 'Krüger THC et al., J Sex Marital Ther 2018 – kein Effekt auf sexuelles Erleben bei 13 gesunden Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/28406384/' },
+      { title: 'Hollander AB et al., Sex Med 2016 – Cabergolin bei männlicher Orgasmusstörung, retrospektiv, 131 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/26944776/' },
+      { title: 'Schade R et al., N Engl J Med 2007 – Dopamin-Agonisten und Herzklappeninsuffizienz, Fall-Kontroll-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/17202453/' },
+      { title: 'Stiles CE et al., J Clin Endocrinol Metab 2018 – Meta-Analyse Herzklappen unter Cabergolin bei Hyperprolaktinämie', url: 'https://pubmed.ncbi.nlm.nih.gov/30215804/' },
+      { title: 'Stiles CE et al., J Clin Endocrinol Metab 2021 – harte Herzendpunkte bei 646 Prolaktinom-Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/33247916/' },
+      { title: 'Penchev P et al., J Clin Neurosci 2025 – Meta-Analyse Impulskontrollstörungen unter Dopamin-Agonisten bei Prolaktinom', url: 'https://pubmed.ncbi.nlm.nih.gov/40480033/' },
+      { title: 'EMA, Pressemitteilung 26.06.2008 – neue Warnhinweise und Gegenanzeigen für Ergot-Dopamin-Agonisten', url: 'https://www.ema.europa.eu/en/documents/press-release/emea-recommends-new-warnings-and-contraindications-ergot-derived-dopamine-agonists_en.pdf' },
+      { title: 'Fachinformation Dostinex (Stand März 2024)', url: 'https://www.fachinfo.de/fi/pdf/006655/dostinex-r' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'liothyronin',
+    name: 'Liothyronin (T3)',
+    altNames: 'T3, Trijodthyronin, Thybon, Cytomel (USA)',
+    class: 'Schilddrüsenhormon (aktive Form), verschreibungspflichtig; als Fatburner missbraucht',
+    emoji: '💊',
+    short: 'Liothyronin ist das aktive Schilddrüsenhormon T3, zugelassen für eng umrissene Schilddrüsen-Situationen. In der Szene wird es zum Fettabbau genutzt – die Fachinformation sagt ausdrücklich, dass normale Dosen bei gesunder Schilddrüse kein Gewicht senken und höhere lebensbedrohlich werden können. Eine systematische Übersicht fand keinen konsistenten Effekt beim Abnehmen.',
+    moa: 'Liothyronin (T3) ist das eigentliche Wirkprinzip der Schilddrüse; das Hauptprodukt Levothyroxin (T4) ist ein Prähormon, das vor allem in Leber und Niere zu T3 umgewandelt wird. T3 wirkt über Kernrezeptoren auf die Ablesung von Genen und steigert Sauerstoffverbrauch sowie Zucker-, Fett- und Eiweißstoffwechsel; es wirkt auch auf Herz, Kreislauf, Knochen und Gehirn. Die Halbwertszeit liegt bei etwa einem Tag. Von außen zugeführt unterdrückt es das TSH der Hypophyse und damit die eigene Schilddrüse. Die Idee hinter dem Missbrauch: mehr Grundumsatz, mehr Fettverbrennung. Der Haken: Dieselbe Steigerung trifft auch Herz, Kreislauf und Knochen.',
+    benefits: [
+      'Warum Menschen es nehmen: zum Abnehmen und zur Leistungssteigerung; die Nutzung zu Dopingzwecken war die häufigste Ursache publizierter Vergiftungen mit Schilddrüsenhormonen (systematische Übersicht, Skrzypiec-Spring 2025)',
+      'Bei Hypothyreose lag das Gewicht unter T3 bei 68,5 kg gegenüber 70,6 kg unter T4 bei gleichem TSH, das LDL-Cholesterin sank um 13,3 % (RCT, Crossover, 14 Personen, Celi 2011) – an Patienten mit Unterfunktion, nicht an Gesunden',
+      'Zugelassene Anwendungen in Deutschland: Überbrückung vor Radiojod-Therapie beim Schilddrüsenkarzinom, Hypothyreose mit Umwandlungsschwäche (meist mit Levothyroxin), Schilddrüsensuppressionstest',
+      'Physiologie und Pharmakologie seit Jahrzehnten gut beschrieben'
+    ],
+    risks: [
+      'Kein belegter Abnehmeffekt: In der systematischen Übersicht ließ sich bei Übergewicht unter Kalorienreduktion kein konsistenter Effekt auf Gewicht, Eiweißabbau oder Grundumsatz nachweisen (Kaptein 2009)',
+      'Fachinformation und US-Warnhinweis: nicht zur Gewichtsreduktion; normale Dosen wirken bei gesunder Schilddrüse nicht, höhere können lebensbedrohlich sein, besonders mit appetitzügelnden Mitteln',
+      'Herz: Herzklopfen sehr häufig, Herzrasen häufig, Rhythmusstörungen und Angina pectoris möglich; Fälle von plötzlichem Herztod nach langjährigem Missbrauch beschrieben (Fachinformation)',
+      'Ein niedriges TSH ging bei über 60-Jährigen mit dreifachem Risiko für Vorhofflimmern in 10 Jahren einher (Sawin 1994)',
+      'Vergiftungen: 34 publizierte Fälle in 30 Jahren mit steigender Tendenz, 2 davon tödlich durch akutes Herzversagen (Skrzypiec-Spring 2025)',
+      'Knochen: Überdosierung steigert den Knochenabbau und senkt die Knochendichte (US-Fachinformation)'
+    ],
+    status: 'In Deutschland zugelassen und verschreibungspflichtig (Thybon 20/100 Henning); Gewichtsreduktion ist ausdrücklich keine Anwendung. USA: Cytomel mit Warnhinweis „nicht zur Behandlung von Übergewicht oder zur Gewichtsabnahme". Im Sport nach dem WADA-Code nicht verboten (Handelsman 2023, Skrzypiec-Spring 2025) und nicht in der Anlage des Anti-Doping-Gesetzes.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/19737920/',
+    sources: [
+      { title: 'Kaptein EM et al., J Clin Endocrinol Metab 2009 – Schilddrüsenhormon bei Übergewicht und anderen Erkrankungen, systematische Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/19737920/' },
+      { title: 'Celi FS et al., J Clin Endocrinol Metab 2011 – Liothyronin gegen Levothyroxin bei Hypothyreose, Crossover-RCT mit 14 Personen', url: 'https://pubmed.ncbi.nlm.nih.gov/21865366/' },
+      { title: 'Skrzypiec-Spring M et al., Pharmaceuticals 2025 – Vergiftungen durch missbräuchlich genutzte Schilddrüsenhormone, systematische Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/41471297/' },
+      { title: 'Handelsman DJ et al., J Endocr Soc 2023 – Schilddrüsenhormon-Missbrauch bei Spitzensportlern, nicht WADA-verboten', url: 'https://pubmed.ncbi.nlm.nih.gov/36896254/' },
+      { title: 'Sawin CT et al., N Engl J Med 1994 – niedriges TSH und Vorhofflimmern bei über 60-Jährigen', url: 'https://pubmed.ncbi.nlm.nih.gov/7935681/' },
+      { title: 'Fachinformation Thybon 20/100 Henning (Stand November 2024)', url: 'https://www.fachinfo.de/fi/pdf/007748/thybon-r-20-100-henning' },
+      { title: 'FDA-Fachinformation Cytomel (DailyMed) – Warnhinweis: nicht zur Gewichtsabnahme', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'yk-11',
+    name: 'YK-11',
+    altNames: 'YK11, YK 11',
+    class: 'Steroid-Derivat, Teilagonist am Androgen-Rezeptor (als SARM vermarktet), nicht zugelassen',
+    emoji: '🏋️',
+    short: 'YK-11 wird als SARM und „Myostatin-Hemmer" verkauft, ist aber chemisch ein Steroid. Die Myostatin-Geschichte stammt aus Zellkulturen: Dort bildeten Muskelvorläuferzellen unter YK-11 mehr Follistatin. Am Menschen gibt es keine einzige Wirksamkeits- oder Sicherheitsstudie, dafür Leberschäden in Fallberichten mit Mischkonsum.',
+    moa: 'YK-11 ist ein synthetisches Steroid mit einem 19-Norpregnan-Grundgerüst, das den Androgen-Rezeptor nur teilweise aktiviert. In Muskelvorläuferzellen der Maus (C2C12) förderte es die Ausreifung zu Muskelzellen stärker als DHT und steigerte dabei die Bildung von Follistatin; ein Antikörper gegen Follistatin hob den Effekt auf (Kanno 2013). Follistatin bindet Myostatin, daher die Vermarktung als Myostatin-Hemmer. In Knochenzellen der Maus förderte YK-11 Wachstum und Mineralisierung (Yatsu 2018). Alle Wirkdaten stammen aus Zellkultur und Tier; ob irgendetwas davon im Menschen passiert, ist nicht untersucht. Der Körper baut YK-11 stark um, im Urin ist die unveränderte Substanz nicht nachweisbar, wohl aber Abbauprodukte (Piper 2018).',
+    benefits: [
+      'Warum Menschen es nehmen: als „Myostatin-Hemmer" für Muskelaufbau; YK-11 wurde zuerst in einem beschlagnahmten Schwarzmarktprodukt identifiziert (Piper 2018)',
+      'Zellkultur: stärkere Muskelzell-Ausreifung als DHT, vermittelt über Follistatin (Kanno 2013)',
+      'Zellkultur: Wachstum und Mineralisierung von Knochenzellen (Yatsu 2018)',
+      'Keine Humanstudie zur Wirkung; kein Eintrag bei ClinicalTrials.gov'
+    ],
+    risks: [
+      'Nicht am Menschen untersucht – weder Wirksamkeit noch Sicherheit noch Langzeitfolgen',
+      'Leber: cholestatischer Leberschaden bei einem 23-jährigen Soldaten nach LGD-4033, RAD140 und YK-11, Krankenhausaufenthalt (Lee 2023); in der US-Meldedatenbank ein 23-Jähriger mit Leberversagen nach YK-11 (Leciejewska 2024)',
+      'SARM-Klasse: 15 Fallberichte über Leberschäden bei gesunden Anwendern, dazu Sehnenriss und Muskelzerfall (systematische Übersicht, Vignali 2023)',
+      'Gehirn im Tierversuch: oxidativer Stress, Entzündungsmarker und schlechtere Gedächtnisbildung im Hippocampus von Ratten (Dahleh 2023, 2024)',
+      'Graumarktware ohne Qualitätskontrolle; im Sport verboten und über Abbauprodukte nachweisbar'
+    ],
+    status: 'Kein zugelassenes Arzneimittel in Deutschland, der EU oder den USA; keine registrierte klinische Studie. Namentlich in der Anlage des Anti-Doping-Gesetzes (I.2, Selektive Androgen-Rezeptor-Modulatoren): Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport verboten (§ 2 Abs. 3 AntiDopG); Herstellung, Handel und Abgabe zu Dopingzwecken verboten (§ 2 Abs. 1). Im Sport jederzeit verboten (WADA, S1.2 Andere anabole Wirkstoffe).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23995658/',
+    sources: [
+      { title: 'Kanno Y et al., Biol Pharm Bull 2013 – YK11 steuert die Muskelzell-Ausreifung in C2C12-Zellen über Follistatin', url: 'https://pubmed.ncbi.nlm.nih.gov/23995658/' },
+      { title: 'Yatsu T et al., Biol Pharm Bull 2018 – YK11 fördert Knochenzellen (MC3T3-E1)', url: 'https://pubmed.ncbi.nlm.nih.gov/29491216/' },
+      { title: 'Piper T et al., Drug Test Anal 2018 – Stoffwechsel von YK11 und Metaboliten für Dopingkontrollen', url: 'https://pubmed.ncbi.nlm.nih.gov/30379415/' },
+      { title: 'Thevis M et al., Rapid Commun Mass Spectrom 2017 – YK-11 für Dopingkontrollen, SARMs WADA-verboten', url: 'https://pubmed.ncbi.nlm.nih.gov/28440570/' },
+      { title: 'Lee BK et al., Mil Med 2023 – SARM-bedingter Leberschaden bei einem aktiven Soldaten (LGD-4033, RAD140, YK11)', url: 'https://pubmed.ncbi.nlm.nih.gov/35253885/' },
+      { title: 'Leciejewska N et al., Eur J Clin Pharmacol 2024 – SARM-Nebenwirkungen und Leberschäden, Auswertung von Verdachtsfällen', url: 'https://pubmed.ncbi.nlm.nih.gov/38059982/' },
+      { title: 'Vignali JD et al., J Xenobiot 2023 – Sicherheit von SARMs bei gesunden Erwachsenen, systematische Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/37218811/' },
+      { title: 'Dahleh MMM et al., J Steroid Biochem Mol Biol 2023 – YK11, oxidativer Stress und Mitochondrien im Hippocampus der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/37468001/' },
+      { title: 'Dahleh MMM et al., Chem Biol Interact 2024 – YK11 und Hippocampus-Funktion der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/38521455/' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), Anlage zu § 2 Abs. 3 – YK-11 namentlich genannt', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
   }
+
 ];
 
 const EXPERIMENTAL_CATEGORIES = [
@@ -5201,6 +5728,12 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'yk-11': 'Exercise',
+  'liothyronin': 'Stoffwechsel',
+  'thymulin': 'Immun',
+  'lipotropin': 'Stoffwechsel',
+  'lz1': 'Immun',
+  'tp508': 'Immun',
   'dmg': 'Exercise',
   'gamma-butyrobetain': 'Stoffwechsel',
   'calcium-d-glucarat': 'Sonstige',

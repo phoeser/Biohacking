@@ -151,6 +151,15 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2004: Akkermansia muciniphila gen. nov., sp. nov., a human intestinal mucin-degrading bacterium (Derrien M et al., Int J Syst Evol Microbiol). https://pubmed.ncbi.nlm.nih.gov/15388697/
 - Behörde/Recht (EU-Recht (EUR-Lex)): Durchführungsverordnung (EU) 2022/168 vom 8. Februar 2022 — Zulassung der pasteurisierten Form als neuartiges Lebensmittel. https://eur-lex.europa.eu/eli/reg_impl/2022/168/oj
 
+## Thema: Alarelin (https://biohackingkompakt.de/thema/alarelin.html)
+2 Studien: 1 Fallbericht, 1 Randomisierte Studie.
+- Randomisierte Studie, 2010: [Comparison of Alarelin and Triptorelin in the long-protocol ovulation induction in in vitro fertilization and embryo transfer] (Duan JL et al., Zhonghua Nan Ke Xue). https://pubmed.ncbi.nlm.nih.gov/20873594/
+- Fallbericht, 2025: Pharmacogenomic analysis of alarelin acetate-induced hepatotoxicity: a case report and literature review (Yuan F et al., Front Med (Lausanne)). https://pubmed.ncbi.nlm.nih.gov/41090118/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – Releasingfaktoren von CG und LH (namentliche Liste). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Fachinformationen): Fachinformation Pamorelin LA 3,75 mg (Triptorelin, Stand 04/2026) – Wirkprinzip der GnRH-Agonisten. https://www.fachinfo.de/fi/pdf/025739/pamorelin-r-la-3-75-mg
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Prohibited List 2026, S2.2.1 Testosterone-stimulating peptides in males. https://www.wada-ama.org/en/prohibited-list
+
 ## Thema: Alkohol reduzieren (https://biohackingkompakt.de/thema/alkohol-reduktion.html)
 8 Studien: 4 Beobachtungsstudie, 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2023: Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses (Zhao J et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/37000449/
@@ -536,6 +545,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Tier- oder Laborstudie, 2020: Alpha-Ketoglutarate, an Endogenous Metabolite, Extends Lifespan and Compresses Morbidity in Aging Mice (Asadi Shahmirzadi A et al., Cell Metab). https://pubmed.ncbi.nlm.nih.gov/32877690/
 - Sonstige Studie, 2021: Rejuvant®, a potential life-extending compound formulation with alpha-ketoglutarate and vitamins, conferred an average 8 year reduction in biological aging, after an average of 7 months of use, in the TruAge DNA methylation test (Demidenko O et al., Aging (Albany NY)). https://pubmed.ncbi.nlm.nih.gov/34847066/
 
+## Thema: Cabergolin (https://biohackingkompakt.de/thema/cabergolin.html)
+8 Studien: 2 Meta-Analyse / Übersicht, 2 Beobachtungsstudie, 2 Randomisierte Studie, 2 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2025: Impulse control disorders in prolactinoma patients treated with dopamine agonists: a systematic review and meta-analysis with trial sequential analysis (Penchev P et al., J Clin Neurosci). https://pubmed.ncbi.nlm.nih.gov/40480033/
+- Meta-Analyse / Übersicht, 2018: A meta-analysis of the prevalence of cardiac valvulopathy in hyperprolactinemic patients treated with Cabergoline (Stiles CE et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/30215804/
+- Randomisierte Studie, 2018: Lack of Increase in Sexual Drive and Function After Dopaminergic Stimulation in Women (Krüger THC et al., J Sex Marital Ther). https://pubmed.ncbi.nlm.nih.gov/28406384/
+- Randomisierte Studie, 1994: A comparison of cabergoline and bromocriptine in the treatment of hyperprolactinemic amenorrhea. Cabergoline Comparative Study Group (Webster J et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/7915824/
+- Beobachtungsstudie, 2021: Incidence of Cabergoline-Associated Valvulopathy in Primary Care Patients With Prolactinoma Using Hard Cardiac Endpoints (Stiles CE et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/33247916/
+- Beobachtungsstudie, 2007: Dopamine agonists and the risk of cardiac-valve regurgitation (Schade R et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/17202453/
+- Sonstige Studie, 2016: Cabergoline in the Treatment of Male Orgasmic Disorder-A Retrospective Pilot Analysis (Hollander AB et al., Sex Med). https://pubmed.ncbi.nlm.nih.gov/26944776/
+- Sonstige Studie, 2003: Effects of acute prolactin manipulation on sexual drive and function in males (Krüger TH et al., J Endocrinol). https://pubmed.ncbi.nlm.nih.gov/14656205/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Pressemitteilung 26.06.2008 – neue Warnhinweise und Gegenanzeigen für Ergot-Dopamin-Agonisten. https://www.ema.europa.eu/en/documents/press-release/emea-recommends-new-warnings-and-contraindications-ergot-derived-dopamine-agonists_en.pdf
+- Behörde/Recht (Fachinformationen): Fachinformation Dostinex (Stand März 2024). https://www.fachinfo.de/fi/pdf/006655/dostinex-r
+
 ## Thema: Cagrilintide / CagriSema (https://biohackingkompakt.de/thema/cagrilintide.html)
 4 Studien: 3 Randomisierte Studie, 1 Übersichtsartikel.
 - Randomisierte Studie, 2025: Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity (Garvey WT et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/40544433/
@@ -880,6 +902,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Klinische Studie, 2019: Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study (Justice JN et al., EBioMedicine). https://pubmed.ncbi.nlm.nih.gov/30616998/
 - Tier- oder Laborstudie, 2016: Naturally occurring p16(Ink4a)-positive cells shorten healthy lifespan (Baker DJ et al., Nature). https://pubmed.ncbi.nlm.nih.gov/26840489/
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Fachinformation Dasatinib (Sprycel), Europäische Arzneimittel-Agentur. https://www.ema.europa.eu/en/medicines/human/EPAR/sprycel
+
+## Thema: Dermorphin (https://biohackingkompakt.de/thema/dermorphin.html)
+9 Studien: 4 Sonstige Studie, 3 Tier- oder Laborstudie, 1 Übersichtsartikel, 1 Randomisierte Studie.
+- Randomisierte Studie, 1985: Intrathecal dermorphine in postoperative analgesia (Basso N et al., Peptides). https://pubmed.ncbi.nlm.nih.gov/3831962/
+- Tier- oder Laborstudie, 2015: Pharmacokinetics and pharmacodynamics of dermorphin in the horse (Robinson MA et al., J Vet Pharmacol Ther). https://pubmed.ncbi.nlm.nih.gov/25376170/
+- Tier- oder Laborstudie, 2013: Detection, quantification, and identification of dermorphin in equine plasma and urine by LC-MS/MS for doping control (Guan F et al., Anal Bioanal Chem). https://pubmed.ncbi.nlm.nih.gov/23571464/
+- Tier- oder Laborstudie, 1981: Amino acid composition and sequence of dermorphin, a novel opiate-like peptide from the skin of Phyllomedusa sauvagei (Montecucchi PC et al., Int J Pept Protein Res). https://pubmed.ncbi.nlm.nih.gov/7287299/
+- Übersichtsartikel, 2018: Rediscovery of old drugs: the forgotten case of dermorphin for postoperative pain and palliation (Hesselink JMK et al., J Pain Res). https://pubmed.ncbi.nlm.nih.gov/30538538/
+- Sonstige Studie, 2020: A high throughput approach for determination of dermorphin in human urine using liquid chromatography-mass spectrometry for doping control purposes (Castro JL et al., J Mass Spectrom). https://pubmed.ncbi.nlm.nih.gov/32805775/
+- Sonstige Studie, 1986: Dermorphin inhibits spinal nociceptive flexion reflex in humans (Sandrini G et al., Brain Res). https://pubmed.ncbi.nlm.nih.gov/3697765/
+- Sonstige Studie, 1985: The effects of dermorphin on the endocrine system in man (Degli Uberti EC et al., Peptides). https://pubmed.ncbi.nlm.nih.gov/3008118/
+- Sonstige Studie, 1985: Tolerance and physical dependence induced by dermorphin in rats (Broccardo M et al., Eur J Pharmacol). https://pubmed.ncbi.nlm.nih.gov/4040026/
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppen S0 und S7). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
 ## Thema: DHEA (Dehydroepiandrosteron) (https://biohackingkompakt.de/thema/dhea.html)
 9 Studien: 5 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Sonstige Studie, 1 Leitlinie / Konsens.
@@ -1966,6 +2001,16 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2017: Chemical Composition and Labeling of Substances Marketed as Selective Androgen Receptor Modulators and Sold via the Internet (Van Wagoner RM et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/29183075/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA 2025 — Warnung vor SARM-haltigen Bodybuilding-Produkten. https://www.fda.gov/drugs/fraudulent-products/certain-bodybuilding-products-put-consumers-risk-heart-attack-stroke-serious-liver-damage-and-more
 
+## Thema: Liothyronin (T3) (https://biohackingkompakt.de/thema/liothyronin.html)
+5 Studien: 2 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Randomisierte Studie, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2025: Poisoning with Thyroid Hormones Used Illegally-Systematic Review (Skrzypiec-Spring M et al., Pharmaceuticals (Basel)). https://pubmed.ncbi.nlm.nih.gov/41471297/
+- Meta-Analyse / Übersicht, 2009: Thyroid hormone therapy for obesity and nonthyroidal illnesses: a systematic review (Kaptein EM et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/19737920/
+- Randomisierte Studie, 2011: Metabolic effects of liothyronine therapy in hypothyroidism: a randomized, double-blind, crossover trial of liothyronine versus levothyroxine (Celi FS et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/21865366/
+- Beobachtungsstudie, 1994: Low serum thyrotropin concentrations as a risk factor for atrial fibrillation in older persons (Sawin CT et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/7935681/
+- Sonstige Studie, 2023: Thyroid Hormone Abuse Among Elite Athletes (Handelsman DJ et al., J Endocr Soc). https://pubmed.ncbi.nlm.nih.gov/36896254/
+- Behörde/Recht (DailyMed (NLM)): FDA-Fachinformation Cytomel (DailyMed) – Warnhinweis: nicht zur Gewichtsabnahme. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3
+- Behörde/Recht (Fachinformationen): Fachinformation Thybon 20/100 Henning (Stand November 2024). https://www.fachinfo.de/fi/pdf/007748/thybon-r-20-100-henning
+
 ## Thema: Lipoprotein(a) (https://biohackingkompakt.de/thema/lipoprotein-a.html)
 6 Studien: 4 Studienregister, 1 Beobachtungsstudie, 1 Sonstige Studie.
 - Beobachtungsstudie, 2018: Association of LPA Variants With Risk of Coronary Disease and the Implications for Lipoprotein(a)-Lowering Therapies: A Mendelian Randomization Analysis (Burgess S et al., JAMA Cardiol). https://pubmed.ncbi.nlm.nih.gov/29926099/
@@ -1985,6 +2030,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Produktangaben Codeage, Liposomal Creatine. https://www.codeage.com/products/liposomal-creatine-monohydrate-powder
 - Behörde/Recht (Weitere Quellen): Produktangaben Cymbiotika, Liposomal Advanced Creatine. https://cymbiotika.com/products/creatine
 - Behörde/Recht (Weitere Quellen): Produktangaben KRĒO, Creatine Plus. https://www.odezalifescience.com/products/kreo-creatine-plus
+
+## Thema: Lipotropin (als Fettabbau-Peptid verkauft) (https://biohackingkompakt.de/thema/lipotropin.html)
+5 Studien: 3 Sonstige Studie, 2 Tier- oder Laborstudie.
+- Tier- oder Laborstudie, 1988: On the in vitro lipolytic activity of peptide hormones in human adipose tissue (Richter WO et al., Horm Metab Res Suppl). https://pubmed.ncbi.nlm.nih.gov/3235059/
+- Tier- oder Laborstudie, 1985: Physiologic concentrations of beta-lipotropin stimulate lipolysis in rabbit adipocytes (Richter WO et al., Metabolism). https://pubmed.ncbi.nlm.nih.gov/3999975/
+- Sonstige Studie, 1981: Isolation, characterization and amino acid sequence of beta-lipotropin from human pituitary glands (Li CH et al., Int J Pept Protein Res). https://pubmed.ncbi.nlm.nih.gov/7228494/
+- Sonstige Studie, 1976: beta-Lipotropin as a prohormone for the morphinomimetic peptides endorphins and enkephalins (Lazarus LH et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/1064883/
+- Sonstige Studie, 1964: LIPOTROPIN, A NEW ACTIVE PEPTIDE FROM PITUITARY GLANDS (LI CH, Nature). https://pubmed.ncbi.nlm.nih.gov/14132790/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – Wachstumshormon-Fragmente (AOD-9604, hGH-Fragment 176-191). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Weitere Quellen): Stier H et al., J Endocrinol Metab 2013 – Sicherheit von AOD9604 in sechs placebokontrollierten Studien. https://www.jofem.org/index.php/jofem/article/view/157
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Prohibited List 2026, S2.2.3 Growth hormone fragments. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Lithium-Orotat (niedrig dosiert) (https://biohackingkompakt.de/thema/lithium-orotat.html)
 6 Studien: 3 Sonstige Studie, 2 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
@@ -2030,6 +2086,15 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2022: A clinical case definition of post-COVID-19 condition by a Delphi consensus (Soriano JB et al., Lancet Infect Dis). https://pubmed.ncbi.nlm.nih.gov/34951953/
 - Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Gemeinsamer Bundesausschuss — Versorgung bei Long-COVID, Post-COVID, ME/CFS und ähnlichen Erkrankungen. https://www.g-ba.de/themen/long-covid/
 - Behörde/Recht (Weitere Quellen): S1-Leitlinie Long/Post-COVID, AWMF 020-027, Stand 05.03.2023. https://www.kvsh.de/fileadmin/user_upload/dokumente/Praxis/Praxisfuehrung/Coronavirus/LongPostCOVID/2024_02_02_020-027l_S1_Long-Post-Covid_2023-11.pdf
+
+## Thema: LZ1 (https://biohackingkompakt.de/thema/lz1.html)
+4 Studien: 3 Tier- oder Laborstudie, 1 Sonstige Studie.
+- Tier- oder Laborstudie, 2019: In Vitro and In Vivo Antimalarial Activity of LZ1, a Peptide Derived from Snake Cathelicidin (Fang Y et al., Toxins (Basel)). https://pubmed.ncbi.nlm.nih.gov/31262018/
+- Tier- oder Laborstudie, 2019: Targeting surface nucleolin induces autophagy-dependent cell death in pancreatic cancer via AMPK activation (Xu C et al., Oncogene). https://pubmed.ncbi.nlm.nih.gov/30356139/
+- Tier- oder Laborstudie, 2013: A small peptide with therapeutic potential for inflammatory acne vulgaris (Zhang Z et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/24013774/
+- Sonstige Studie, 2023: Comparative Evaluation of Existing and Rationally Designed Novel Antimicrobial Peptides for Treatment of Skin and Soft Tissue Infections (Ramata-Stunda A et al., Antibiotics (Basel)). https://pubmed.ncbi.nlm.nih.gov/36978418/
+- Behörde/Recht (NADA): NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung) – S0. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Registerabfrage „LZ1“ ohne passenden Eintrag. https://clinicaltrials.gov/search?term=LZ1%20peptide
 
 ## Thema: Löwenmähne (Lion's Mane) (https://biohackingkompakt.de/thema/loewenmaehne.html)
 8 Studien: 4 Randomisierte Studie, 3 Sonstige Studie, 1 Tier- oder Laborstudie.
@@ -2472,6 +2537,20 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2021: MegaNatural®-BP grape seed extract and maintenance of normal blood pressure: evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006 (EFSA Panel on Nutrition et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/34400974/
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox (NIH) – Pine Bark. https://www.ncbi.nlm.nih.gov/books/NBK619972/
 
+## Thema: Orexin B (https://biohackingkompakt.de/thema/orexin-b.html)
+8 Studien: 3 Randomisierte Studie, 3 Tier- oder Laborstudie, 2 Sonstige Studie.
+- Randomisierte Studie, 2026: Oveporexton for Narcolepsy Type 1 - Results from Two Phase 3 Trials (Dauvilliers Y et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42714024/
+- Randomisierte Studie, 2025: Oveporexton, an Oral Orexin Receptor 2-Selective Agonist, in Narcolepsy Type 1 (Dauvilliers Y et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/40367374/
+- Randomisierte Studie, 2014: The effect of intranasal orexin-A (hypocretin-1) on sleep, wakefulness and attention in narcolepsy with cataplexy (Weinhold SL et al., Behav Brain Res). https://pubmed.ncbi.nlm.nih.gov/24406723/
+- Tier- oder Laborstudie, 2018: Positron Emission Tomography Assessment of the Intranasal Delivery Route for Orexin A (Van de Bittner GC et al., ACS Chem Neurosci). https://pubmed.ncbi.nlm.nih.gov/29035509/
+- Tier- oder Laborstudie, 1999: Orexin A but not orexin B rapidly enters brain from blood by simple diffusion (Kastin AJ et al., J Pharmacol Exp Ther). https://pubmed.ncbi.nlm.nih.gov/10087007/
+- Tier- oder Laborstudie, 1998: The hypocretins: hypothalamus-specific peptides with neuroexcitatory activity (de Lecea L et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/9419374/
+- Sonstige Studie, 2003: Development of an orexin-2 receptor selective agonist, [Ala(11), D-Leu(15)]orexin-B (Asahi S et al., Bioorg Med Chem Lett). https://pubmed.ncbi.nlm.nih.gov/12467628/
+- Sonstige Studie, 1998: Orexins and orexin receptors: a family of hypothalamic neuropeptides and G protein-coupled receptors that regulate feeding behavior (Sakurai T et al., Cell). https://pubmed.ncbi.nlm.nih.gov/9491897/
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Pressemitteilung vom 05.08.2026 – Zulassung von Orzeyful (Oveporexton). https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach Orexin B ohne Studie zum Peptid. https://clinicaltrials.gov/search?term=orexin%20B
+
 ## Thema: Orforglipron (Foundayo) (https://biohackingkompakt.de/thema/orforglipron.html)
 6 Studien: 3 Randomisierte Studie, 1 Klinische Studie, 1 Sonstige Studie, 1 Übersichtsartikel.
 - Randomisierte Studie, 2026: Efficacy and safety of once-daily oral orforglipron compared with oral semaglutide in adults with type 2 diabetes (ACHIEVE-3): a multinational, multicentre, non-inferiority, open-label, randomised, phase 3 trial (Rosenstock J et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/41765029/
@@ -2496,6 +2575,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Studienregister: ClinicalTrials.gov NCT06282458 — QUALITY, Enobosarm unter GLP-1-Therapie. https://clinicaltrials.gov/study/NCT06282458
 - Sonstige Studie, 2017: Chemical Composition and Labeling of Substances Marketed as Selective Androgen Receptor Modulators and Sold via the Internet (Van Wagoner RM et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/29183075/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA 2025 — Warnung vor SARM-haltigen Bodybuilding-Produkten. https://www.fda.gov/drugs/fraudulent-products/certain-bodybuilding-products-put-consumers-risk-heart-attack-stroke-serious-liver-damage-and-more
+
+## Thema: Ovagen (https://biohackingkompakt.de/thema/kh-ovagen.html)
+7 Studien: 5 Tier- oder Laborstudie, 1 Übersichtsartikel, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2021: Peptide Regulation of Gene Expression: A Systematic Review (Khavinson VK et al., Molecules). https://pubmed.ncbi.nlm.nih.gov/34834147/
+- Tier- oder Laborstudie, 2018: [The influence of peptides on the morphofunctional state of old rats kidneys.] (Zamorskii II et al., Adv Gerontol). https://pubmed.ncbi.nlm.nih.gov/30607912/
+- Tier- oder Laborstudie, 2017: Nephroprotective Effect of EDL Peptide at Acute Injury of Kidneys of Different Genesis (Zamorskii II et al., Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/28744634/
+- Tier- oder Laborstudie, 2015: Peptides Restore Functional State of the Kidneys During Cisplatin-Induced Acute Renal Failure (Zamorskii II et al., Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/26515176/
+- Tier- oder Laborstudie, 2014: [Tripeptides slow down aging process in renal cell culture] (Khavinson VKh et al., Adv Gerontol). https://pubmed.ncbi.nlm.nih.gov/25946838/
+- Tier- oder Laborstudie, 2014: Peptides regulate expression of signaling molecules in kidney cell cultures during in vitro aging (Khavinson VKh et al., Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/24958378/
+- Übersichtsartikel, 2022: Transport of Biologically Active Ultrashort Peptides Using POT and LAT Carriers (Khavinson V et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/35887081/
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (Patente): Khavinson et al., Patent WO2007139430 – H-Glu-Asp-Leu-OH für die Leberregeneration: Organkultur, Tiermodelle, Toxikologie, Patientenbeispiel. https://patents.google.com/patent/WO2007139430A1/en
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach Ovagen ohne eingetragene Studie. https://clinicaltrials.gov/search?term=ovagen
 
 ## Thema: Oxytocin (https://biohackingkompakt.de/thema/oxytocin.html)
 10 Studien: 4 Randomisierte Studie, 2 Tier- oder Laborstudie, 1 Sonstige Studie, 1 Übersichtsartikel, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
@@ -2675,6 +2767,18 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2015: [EFFECT OF SYNTHETIC PEPTIDES ON AGING OF PATIENTS WITH CHRONIC POLYMORBIDITY AND ORGANIC BRAIN SYNDROME OF THE CENTRAL NERVOUS SYSTEM IN REMISSION] (Meshchaninov VN et al., Adv Gerontol). https://pubmed.ncbi.nlm.nih.gov/26390612/
 - Behörde/Recht (Weitere Quellen): Roseland, Substack 2023 – Anwenderbericht zu Pinealon (mit Affiliate-Links). https://jonathanroseland.substack.com/p/will-this-peptide-activate-your-pineal
 
+## Thema: PNC-27 (https://biohackingkompakt.de/thema/pnc-27.html)
+6 Studien: 3 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Übersichtsartikel.
+- Tier- oder Laborstudie, 2010: Anticancer peptide PNC-27 adopts an HDM-2-binding conformation and kills cancer cells by binding to HDM-2 in their membranes (Sarafraz-Yazdi E et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/20080680/
+- Tier- oder Laborstudie, 2006: PNC-28, a p53-derived peptide that is cytotoxic to cancer cells, blocks pancreatic cancer cell growth in vivo (Michl J et al., Int J Cancer). https://pubmed.ncbi.nlm.nih.gov/16688716/
+- Übersichtsartikel, 2024: Poptosis or Peptide-Induced Transmembrane Pore Formation: A Novel Way to Kill Cancer Cells without Affecting Normal Cells (Pincus MR et al., Biomedicines). https://pubmed.ncbi.nlm.nih.gov/38927351/
+- Sonstige Studie, 2020: Targeting cell membrane HDM2: A novel therapeutic approach for acute myeloid leukemia (Wang H et al., Leukemia). https://pubmed.ncbi.nlm.nih.gov/31337857/
+- Sonstige Studie, 2015: Ex vivo Efficacy of Anti-Cancer Drug PNC-27 in the Treatment of Patient-Derived Epithelial Ovarian Cancer (Sarafraz-Yazdi E et al., Ann Clin Lab Sci). https://pubmed.ncbi.nlm.nih.gov/26663795/
+- Sonstige Studie, 2001: Peptides from the amino terminal mdm-2-binding domain of p53, designed from conformational analysis, are selectively cytotoxic to transformed cells (Kanovsky M et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/11606716/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Heilmittelwerbegesetz, Anlage zu § 12 – kein Publikumswerben für Arzneimittel bei bösartigen Neubildungen. https://www.gesetze-im-internet.de/heilmwerbg/anlage.html
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Fragen und Antworten zu illegal vertriebenen Krebsmitteln – Bakterienfund in PNC-27 (Januar 2017). https://www.fda.gov/consumers/health-fraud-scams/questions-and-answers-fda-alerts-companies-stop-illegal-sale-products-claiming-treat-cancer
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach PNC-27, keine registrierte Studie. https://clinicaltrials.gov/search?term=PNC-27
+
 ## Thema: PQQ (https://biohackingkompakt.de/thema/pqq.html)
 8 Studien: 5 Randomisierte Studie, 2 Sonstige Studie, 1 Tier- oder Laborstudie.
 - Randomisierte Studie, 2024: The impact of six-week dihydrogen-pyrroloquinoline quinone supplementation on mitochondrial biomarkers, brain metabolism, and cognition in elderly individuals with mild cognitive impairment: a randomized controlled trial (Baltic S et al., J Nutr Health Aging). https://pubmed.ncbi.nlm.nih.gov/38908296/
@@ -2796,6 +2900,16 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2007: Melanocortins in the treatment of male and female sexual dysfunction (Shadiack AM et al., Curr Top Med Chem). https://pubmed.ncbi.nlm.nih.gov/17584134/
 - Sonstige Studie, 2026: Evaluation of Research Grade Peptides Marketed Directly to Consumers Reveals Extensive Variability in Purity and Measured Abundance (Mendias CL et al., Preprints.org). https://doi.org/10.20944/preprints202604.1748.v1
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Fachinformation Vyleesi 2019. https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf
+
+## Thema: PTD-DBM (https://biohackingkompakt.de/thema/ptd-dbm.html)
+6 Studien: 3 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Übersichtsartikel.
+- Tier- oder Laborstudie, 2025: Novel small molecules downregulate CDK1 expression and inhibit Wnt/β-catenin signaling in cutaneous squamous cell carcinoma by targeting its distinct tumor-specific cellular landscape (Lee SH et al., Exp Mol Med). https://pubmed.ncbi.nlm.nih.gov/40887499/
+- Tier- oder Laborstudie, 2017: Targeting of CXXC5 by a Competing Peptide Stimulates Hair Regrowth and Wound-Induced Hair Neogenesis (Lee SH et al., J Invest Dermatol). https://pubmed.ncbi.nlm.nih.gov/28595998/
+- Übersichtsartikel, 2026: Overview of Short Peptides for Hair Loss (Fan C et al., Biomedicines). https://pubmed.ncbi.nlm.nih.gov/42072405/
+- Sonstige Studie, 2023: CXXC5 Mediates DHT-Induced Androgenetic Alopecia via PGD2 (Ryu YC et al., Cells). https://pubmed.ncbi.nlm.nih.gov/36831222/
+- Sonstige Studie, 2017: The Negative Regulator CXXC5: Making WNT Look a Little Less Dishevelled (Kim D et al., J Invest Dermatol). https://pubmed.ncbi.nlm.nih.gov/28967390/
+- Sonstige Studie, 2015: The Dishevelled-binding protein CXXC5 negatively regulates cutaneous wound healing (Lee SH et al., J Exp Med). https://pubmed.ncbi.nlm.nih.gov/26056233/
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach PTD-DBM, keine registrierte Studie. https://clinicaltrials.gov/search?term=PTD-DBM
 
 ## Thema: Pterostilben (https://biohackingkompakt.de/thema/pterostilben.html)
 9 Studien: 4 Randomisierte Studie, 3 Sonstige Studie, 1 Klinische Studie, 1 Tier- oder Laborstudie.
@@ -3411,6 +3525,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2012: Thymosin β4: a multi-functional regenerative peptide. Basic properties and clinical applications (Goldstein AL et al., Expert Opin Biol Ther). https://pubmed.ncbi.nlm.nih.gov/22074294/
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, amtlich veröffentlicht im österreichischen Bundesgesetzblatt III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
+## Thema: Thymulin (https://biohackingkompakt.de/thema/thymulin.html)
+8 Studien: 3 Randomisierte Studie, 2 Tier- oder Laborstudie, 2 Sonstige Studie, 1 Fallbericht.
+- Randomisierte Studie, 1993: Zinc supplementation restores plasma concentrations of zinc and thymulin in patients with Crohn's disease (Brignola C et al., Aliment Pharmacol Ther). https://pubmed.ncbi.nlm.nih.gov/8364132/
+- Randomisierte Studie, 1989: Nonathymulin treatment of multiple sclerosis: double-blind pilot study (Roullet E et al., Acta Neurol Scand). https://pubmed.ncbi.nlm.nih.gov/2618585/
+- Randomisierte Studie, 1987: Nonathymulin in rheumatoid arthritis: two double blind, placebo controlled trials (Amor B et al., Ann Rheum Dis). https://pubmed.ncbi.nlm.nih.gov/3310925/
+- Fallbericht, 1982: Improvement of cellular immunity and IgA production in immunodeficient children after treatment with synthetic serum thymic factor (FTS) (Bordigoni P et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/6124716/
+- Tier- oder Laborstudie, 2026: Thymulin restrains age-associated myeloid inflammation and enhances cancer immunotherapy (Kanemaru H et al., Nat Commun). https://pubmed.ncbi.nlm.nih.gov/42481458/
+- Tier- oder Laborstudie, 1982: Contribution of zinc and other metals to the biological activity of the serum thymic factor (Dardenne M et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/6957870/
+- Sonstige Studie, 2000: Distribution of age-related thymulin titres in normal subjects through the course of life (Consolini R et al., Clin Exp Immunol). https://pubmed.ncbi.nlm.nih.gov/10971509/
+- Sonstige Studie, 1988: Serum thymulin in human zinc deficiency (Prasad AS et al., J Clin Invest). https://pubmed.ncbi.nlm.nih.gov/3262625/
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach Thymulin, keine Studie mit Thymulin als Wirkstoff. https://clinicaltrials.gov/search?term=thymulin
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA Prohibited List – Klasse S0, nicht zugelassene Substanzen. https://www.wada-ama.org/en/prohibited-list
+
 ## Thema: Tirzepatide (Mounjaro / Zepbound) (https://biohackingkompakt.de/thema/tirzepatide.html)
 5 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2026: Comparative Effects of Antidiabetic Drugs on Body Composition: A Systematic Review and Network Meta-Analysis (Rakhsha SS et al., Diabetes Obes Metab). https://europepmc.org/article/MED/42304171
@@ -3446,6 +3573,16 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2004: Determination of mercury by cold vapor atomic absorption spectrophotometer in Tongkat Ali preparations obtained in Malaysia (Ang HH et al., Int J Toxicol). https://pubmed.ncbi.nlm.nih.gov/15162849/
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): US-Leberdatenbank LiverTox, Monographie Tongkat Ali. https://www.ncbi.nlm.nih.gov/books/NBK609015/
 
+## Thema: TP508 (Rusalatide, Chrysalin) (https://biohackingkompakt.de/thema/tp508.html)
+6 Studien: 2 Tier- oder Laborstudie, 2 Übersichtsartikel, 1 Randomisierte Studie, 1 Studienregister.
+- Randomisierte Studie, 2007: Thrombin peptide Chrysalin stimulates healing of diabetic foot ulcers in a placebo-controlled phase I/II study (Fife C et al., Wound Repair Regen). https://pubmed.ncbi.nlm.nih.gov/17244316/
+- Tier- oder Laborstudie, 2015: Novel regenerative peptide TP508 mitigates radiation-induced gastrointestinal damage by activating stem cells and preserving crypt integrity (Kantara C et al., Lab Invest). https://pubmed.ncbi.nlm.nih.gov/26280221/
+- Tier- oder Laborstudie, 2010: Thrombin peptide TP508 stimulates rapid nitric oxide production in human endothelial cells (Olszewska-Pazdrak B et al., J Vasc Res). https://pubmed.ncbi.nlm.nih.gov/19893317/
+- Übersichtsartikel, 2008: Could rusalatide acetate be the future drug of choice for diabetic foot ulcers and fracture repair? (Carney DH et al., Expert Opin Pharmacother). https://pubmed.ncbi.nlm.nih.gov/18803458/
+- Übersichtsartikel, 2006: Thrombin peptide TP508 stimulates cellular events leading to angiogenesis, revascularization, and repair of dermal and musculoskeletal tissues (Ryaby JT et al., J Bone Joint Surg Am). https://pubmed.ncbi.nlm.nih.gov/17079379/
+- Studienregister: ClinicalTrials.gov NCT00131482 – Phase 2b bei Handgelenksbruch, 274 Teilnehmer, abgebrochen ohne Nutzen gegenüber Placebo. https://clinicaltrials.gov/study/NCT00131482
+- Behörde/Recht (NADA): NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung) – S0. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
 ## Thema: Tremella (https://biohackingkompakt.de/thema/tremella.html)
 8 Studien: 2 Übersichtsartikel, 2 Sonstige Studie, 2 Randomisierte Studie, 2 Tier- oder Laborstudie.
 - Randomisierte Studie, 2024: Tremella fuciformis beverage improves glycated hemoglobin A1c and waist circumference in overweight/obese prediabetic subjects: a randomized controlled trial (Gitsomboon S et al., BMC Nutr). https://pubmed.ncbi.nlm.nih.gov/38439104/
@@ -3457,6 +3594,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2025: Isolation and Identification of Burkholderia gladioli pathovar cocovenenans from Black Fungus and Characteristics of the Bon Gene Cluster - Shanghai Municipality, China, 2023 (Xiao Q et al., China CDC Wkly). https://pubmed.ncbi.nlm.nih.gov/40620660/
 - Sonstige Studie, 2021: Formulation and efficacy evaluation of the safe and efficient moisturizing snow mushroom hand sanitizer (Lourith N et al., J Cosmet Dermatol). https://pubmed.ncbi.nlm.nih.gov/32531816/
 - Behörde/Recht (EU-Kommission – Lebensmittel): Europäische Kommission – Novel-Food-Konsultation Chondroitinsulfat aus Tremella fuciformis, 2025. https://food.ec.europa.eu/document/download/326130ee-9a3a-4095-9a04-1cb11a1f21f8_en?filename=novel-food_consult-status_chondroitin-sulfate-from-tremella-fuciformis_green-droitin_cz.pdf
+
+## Thema: TRH (Protirelin) (https://biohackingkompakt.de/thema/trh.html)
+8 Studien: 7 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2013: Thyrotropin-releasing hormone added to corticosteroids for women at risk of preterm birth for preventing neonatal respiratory disease (Crowther CA et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/24265169/
+- Randomisierte Studie, 2012: Thyrotropin-releasing hormone as a treatment for cancer-related fatigue: a randomized controlled study (Kamath J et al., Support Care Cancer). https://pubmed.ncbi.nlm.nih.gov/21947558/
+- Randomisierte Studie, 2005: Rapid antidepressant response after nocturnal TRH administration in patients with bipolar type I and bipolar type II major depression (Szuba MP et al., J Clin Psychopharmacol). https://pubmed.ncbi.nlm.nih.gov/16012274/
+- Randomisierte Studie, 1998: Antenatal thyrotropin-releasing hormone to prevent lung disease in preterm infants. North American Thyrotropin-Releasing Hormone Study Group (Ballard RA et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/9468465/
+- Randomisierte Studie, 1997: Comparative antidepressant effects of intravenous and intrathecal thyrotropin-releasing hormone: confounding effects of tolerance and implications for therapeutics (Callahan AM et al., Biol Psychiatry). https://pubmed.ncbi.nlm.nih.gov/9024949/
+- Randomisierte Studie, 1997: Effects of intrathecal thyrotropin-releasing hormone (protirelin) in refractory depressed patients (Marangell LB et al., Arch Gen Psychiatry). https://pubmed.ncbi.nlm.nih.gov/9075462/
+- Randomisierte Studie, 1995: Australian collaborative trial of antenatal thyrotropin-releasing hormone (ACTOBAT) for prevention of neonatal respiratory disease (Lancet). https://pubmed.ncbi.nlm.nih.gov/7707809/
+- Randomisierte Studie, 1986: Amyotrophic lateral sclerosis: effects of acute intravenous and chronic subcutaneous administration of thyrotropin-releasing hormone in controlled trials (Mitsumoto H et al., Neurology). https://pubmed.ncbi.nlm.nih.gov/3080695/
+- Behörde/Recht (Fachinformationen): Fachinformation TRH Ferring 0,2 mg/ml Injektionslösung (Stand 08/2015) – Anwendungsgebiet, Dosierung, Nebenwirkungen. https://www.fachinfo.de/fi/detail/003946/trh-ferring-0-2-mg-injektionsloesung
+- Behörde/Recht (NADA): NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
 ## Thema: Tribulus Terrestris (https://biohackingkompakt.de/thema/tribulus.html)
 9 Studien: 5 Meta-Analyse / Übersicht, 3 Randomisierte Studie, 1 Übersichtsartikel.
@@ -3470,6 +3620,17 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2014: Tribulus terrestris versus placebo in the treatment of erectile dysfunction: A prospective, randomized, double blind study (Santos CA et al., Actas Urol Esp). https://pubmed.ncbi.nlm.nih.gov/24630840/
 - Übersichtsartikel, 2020: A Comprehensive Review of the Phytochemical, Pharmacological, and Toxicological Properties of Tribulus terrestris L (Ștefănescu R et al., Biomolecules). https://pubmed.ncbi.nlm.nih.gov/32408715/
 - Behörde/Recht (EU-Kommission – Lebensmittel): EU-Kommission, Novel-Food-Katalog. https://food.ec.europa.eu/food-safety/novel-food/novel-food-catalogue_en
+
+## Thema: Triptorelin (https://biohackingkompakt.de/thema/triptorelin.html)
+4 Studien: 3 Randomisierte Studie, 1 Sonstige Studie.
+- Randomisierte Studie, 2014: Adjuvant exemestane with ovarian suppression in premenopausal breast cancer (Pagani O et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/24881463/
+- Randomisierte Studie, 2011: Effect of the gonadotropin-releasing hormone analogue triptorelin on the occurrence of chemotherapy-induced early menopause in premenopausal women with breast cancer: a randomized trial (Del Mastro L et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/21771987/
+- Randomisierte Studie, 2003: Comparative efficacy of triptorelin pamoate and leuprolide acetate in men with advanced prostate cancer (Heyns CF et al., BJU Int). https://pubmed.ncbi.nlm.nih.gov/12887472/
+- Sonstige Studie, 2025: Looking for the Best Way to Come Off Steroids Safely? Exploring Post-Cycle Therapy, Cessation, and Recovery Discourse and Practice in Australian Steroid Consumer Forums (Easton J et al., Drug Alcohol Rev). https://pubmed.ncbi.nlm.nih.gov/41032454/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage – Releasingfaktoren von CG und LH (Triptorelin). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Fachinformationen): Fachinformation Pamorelin LA 3,75 mg (Triptorelin, Stand 04/2026). https://www.fachinfo.de/fi/pdf/025739/pamorelin-r-la-3-75-mg
+- Behörde/Recht (Fachinformationen): Fachinformation Salvacyl 11,25 mg (Triptorelin, Stand 04/2025). https://www.fachinfo.de/fi/pdf/011698/salvacyl-r-11-25-mg-pulver-und-loesungsmittel
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Prohibited List 2026, S2.2.1 Testosterone-stimulating peptides in males. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: TUDCA (https://biohackingkompakt.de/thema/tudca.html)
 9 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Klinische Studie, 1 Tier- oder Laborstudie.
@@ -3743,6 +3904,19 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2008: Transcutaneous electrical nerve stimulation (TENS) versus placebo for chronic low-back pain (Khadilkar A et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/18843638/
 - Meta-Analyse / Übersicht, 2006: Superficial heat or cold for low back pain (French SD et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/16437495/
 - Behörde/Recht (Weitere Quellen): Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage 2017, Kurzfassung. https://www.uniklinik-ulm.de/fileadmin/default/Zentren/Wirbelsaeulenzentrum/Downloads/kreuzschmerz-2aufl-vers1-kurz.pdf
+
+## Thema: YK-11 (https://biohackingkompakt.de/thema/yk-11.html)
+9 Studien: 4 Tier- oder Laborstudie, 3 Sonstige Studie, 1 Übersichtsartikel, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2023: Systematic Review of Safety of Selective Androgen Receptor Modulators in Healthy Adults: Implications for Recreational Users (Vignali JD et al., J Xenobiot). https://pubmed.ncbi.nlm.nih.gov/37218811/
+- Tier- oder Laborstudie, 2024: From gains to gaps? How Selective Androgen Receptor Modulator (SARM) YK11 impact hippocampal function: In silico, in vivo, and ex vivo perspectives (Dahleh MMM et al., Chem Biol Interact). https://pubmed.ncbi.nlm.nih.gov/38521455/
+- Tier- oder Laborstudie, 2023: YK11 induces oxidative stress and mitochondrial dysfunction in hippocampus: The interplay between a selective androgen receptor modulator (SARM) and exercise (Dahleh MMM et al., J Steroid Biochem Mol Biol). https://pubmed.ncbi.nlm.nih.gov/37468001/
+- Tier- oder Laborstudie, 2018: Selective Androgen Receptor Modulator, YK11, Up-Regulates Osteoblastic Proliferation and Differentiation in MC3T3-E1 Cells (Yatsu T et al., Biol Pharm Bull). https://pubmed.ncbi.nlm.nih.gov/29491216/
+- Tier- oder Laborstudie, 2013: Selective androgen receptor modulator, YK11, regulates myogenic differentiation of C2C12 myoblasts by follistatin expression (Kanno Y et al., Biol Pharm Bull). https://pubmed.ncbi.nlm.nih.gov/23995658/
+- Übersichtsartikel, 2024: Selective androgen receptor modulator use and related adverse events including drug-induced liver injury: Analysis of suspected cases (Leciejewska N et al., Eur J Clin Pharmacol). https://pubmed.ncbi.nlm.nih.gov/38059982/
+- Sonstige Studie, 2023: Selective Androgen Receptor Modulator-Induced Liver Injury in Active Duty Male (Lee BK et al., Mil Med). https://pubmed.ncbi.nlm.nih.gov/35253885/
+- Sonstige Studie, 2018: Studies on the in vivo metabolism of the SARM YK11: Identification and characterization of metabolites potentially useful for doping controls (Piper T et al., Drug Test Anal). https://pubmed.ncbi.nlm.nih.gov/30379415/
+- Sonstige Studie, 2017: Mass spectrometric characterization of the selective androgen receptor modulator (SARM) YK-11 for doping control purposes (Thevis M et al., Rapid Commun Mass Spectrom). https://pubmed.ncbi.nlm.nih.gov/28440570/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), Anlage zu § 2 Abs. 3 – YK-11 namentlich genannt. https://www.gesetze-im-internet.de/antidopg/anlage.html
 
 ## Thema: Yohimbin (https://biohackingkompakt.de/thema/yohimbin.html)
 9 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 2 Sonstige Studie, 1 Klinische Studie, 1 Beobachtungsstudie.

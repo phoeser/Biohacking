@@ -12197,6 +12197,45 @@
 "Journal Article"
 ]
 },
+"pmid:10087007": {
+"autoren": "Kastin AJ, Akerstrom V.",
+"doi": "10.1016/s0022-3565(24)38126-1",
+"iso": "J Pharmacol Exp Ther",
+"jahr": "1999",
+"journal": "The Journal of pharmacology and experimental therapeutics",
+"korr": [],
+"mesh": [
+"Blood-Brain Barrier",
+"Capillaries",
+"Brain",
+"Animals",
+"Mice, Inbred ICR",
+"Mice",
+"Iodine Radioisotopes",
+"Octanols",
+"Technetium Tc 99m Aggregated Albumin",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Carrier Proteins",
+"Buffers",
+"Chromatography, High Pressure Liquid",
+"Injections, Intravenous",
+"Diffusion",
+"Solubility",
+"Male",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "10087007",
+"quelle": "MED",
+"titel": "Orexin A but not orexin B rapidly enters brain from blood by simple diffusion.",
+"typen": [
+"Comparative Study",
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
 "pmid:100883": {
 "autoren": "Belchetz PE, Plant TM, Nakai Y, Keogh EJ, Knobil E.",
 "doi": "10.1126/science.100883",
@@ -12650,6 +12689,38 @@
 "Journal Article"
 ]
 },
+"pmid:1064883": {
+"autoren": "Lazarus LH, Ling N, Guillemin R.",
+"doi": "10.1073/pnas.73.6.2156",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "1976",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Ileum",
+"Brain",
+"Etorphine",
+"Morphine Derivatives",
+"Naloxone",
+"Oligopeptides",
+"Nerve Tissue Proteins",
+"Protein Precursors",
+"Receptors, Drug",
+"Binding, Competitive",
+"Amino Acid Sequence",
+"Structure-Activity Relationship",
+"beta-Lipotropin"
+],
+"pmcid": "PMC430469",
+"pmid": "1064883",
+"quelle": "MED",
+"titel": "beta-Lipotropin as a prohormone for the morphinomimetic peptides endorphins and enkephalins.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:10668348": {
 "autoren": "Roberts BW, DelVecchio WF.",
 "doi": "10.1037/0033-2909.126.1.3",
@@ -12859,6 +12930,41 @@
 "pmid": "10950816",
 "quelle": "MED",
 "titel": "Effects of oral administration of a synthetic fragment of human growth hormone on lipid metabolism.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:10971509": {
+"autoren": "Consolini R, Legitimo A, Calleri A, Milani M.",
+"doi": "10.1046/j.1365-2249.2000.01315.x",
+"iso": "Clin Exp Immunol",
+"jahr": "2000",
+"journal": "Clinical and experimental immunology",
+"korr": [],
+"mesh": [
+"Thymus Gland",
+"T-Lymphocytes",
+"Humans",
+"Thymic Factor, Circulating",
+"Aging",
+"Reference Values",
+"Adolescent",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Child",
+"Child, Preschool",
+"Infant",
+"Infant, Newborn",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "10971509",
+"quelle": "MED",
+"titel": "Distribution of age-related thymulin titres in normal subjects through the course of life.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Journal Article"
@@ -13763,6 +13869,48 @@
 "quelle": "MED",
 "titel": "Inhibitory effect of peptide vilon on the development of induced rat urinary bladder tumors in rats.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:11606716": {
+"autoren": "Kanovsky M, Raffo A, Drew L, Rosal R, Do T, Friedman FK, Rubinstein P, Visser J, Robinson R, Brandt-Rauf PW, Michl J, Fine RL, Pincus MR.",
+"doi": "10.1073/pnas.211280698",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "2001",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Cell Line, Transformed",
+"Stem Cells",
+"Animals",
+"Xenopus laevis",
+"Humans",
+"Rats",
+"Peptide Fragments",
+"Proto-Oncogene Proteins",
+"Nuclear Proteins",
+"Antineoplastic Agents",
+"Probability",
+"Cell Division",
+"Apoptosis",
+"Binding Sites",
+"Amino Acid Sequence",
+"Protein Conformation",
+"Genes, ras",
+"Molecular Sequence Data",
+"Female",
+"Tumor Suppressor Protein p53",
+"Proto-Oncogene Proteins c-mdm2"
+],
+"pmcid": "PMC60072",
+"pmid": "11606716",
+"quelle": "MED",
+"titel": "Peptides from the amino terminal mdm-2-binding domain of p53, designed from conformational analysis, are selectively cytotoxic to transformed cells.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Research Support, U.S. Gov't, Non-P.H.S.",
 "Journal Article"
 ]
 },
@@ -14904,6 +15052,38 @@
 "Journal Article"
 ]
 },
+"pmid:12467628": {
+"autoren": "Asahi S, Egashira S, Matsuda M, Iwaasa H, Kanatani A, Ohkubo M, Ihara M, Morishima H.",
+"doi": "10.1016/s0960-894x(02)00851-x",
+"iso": "Bioorg Med Chem Lett",
+"jahr": "2003",
+"journal": "Bioorganic & medicinal chemistry letters",
+"korr": [],
+"mesh": [
+"CHO Cells",
+"Animals",
+"Humans",
+"Rats",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Receptors, G-Protein-Coupled",
+"Receptors, Neuropeptide",
+"Amino Acid Substitution",
+"Calcium Signaling",
+"Protein Structure, Secondary",
+"Drug Design",
+"Cricetinae",
+"Orexin Receptors",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "12467628",
+"quelle": "MED",
+"titel": "Development of an orexin-2 receptor selective agonist, [Ala(11), D-Leu(15)]orexin-B.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:12472620": {
 "autoren": "Gonzales GF, Córdova A, Vega K, Chung A, Villena A, Góñez C, Castillo S.",
 "doi": "10.1046/j.1439-0272.2002.00519.x",
@@ -15589,6 +15769,43 @@
 "Journal Article"
 ]
 },
+"pmid:12887472": {
+"autoren": "Heyns CF, Simonin MP, Grosgurin P, Schall R, Porchet HC, South African Triptorelin Study Group.",
+"doi": "10.1046/j.1464-410x.2003.04308.x",
+"iso": "BJU Int",
+"jahr": "2003",
+"journal": "BJU international",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Neoplasms",
+"Testosterone",
+"Leuprolide",
+"Analgesics",
+"Antineoplastic Agents, Hormonal",
+"Treatment Outcome",
+"Castration",
+"Survival Analysis",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Male",
+"Gonadotropin-Releasing Hormone",
+"Triptorelin Pamoate"
+],
+"pmcid": "",
+"pmid": "12887472",
+"quelle": "MED",
+"titel": "Comparative efficacy of triptorelin pamoate and leuprolide acetate in men with advanced prostate cancer.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:12937682": {
 "autoren": "Khavinson VKh, Bondarev IE, Butyugov AA.",
 "doi": "10.1023/a:1025493705728",
@@ -15958,6 +16175,33 @@
 "Journal Article"
 ]
 },
+"pmid:14132790": {
+"autoren": "LI CH.",
+"doi": "10.1038/201924a0",
+"iso": "Nature",
+"jahr": "1964",
+"journal": "Nature",
+"korr": [],
+"mesh": [
+"Pituitary Gland",
+"Pituitary Hormones",
+"Pituitary Hormones, Anterior",
+"Peptides",
+"Lipotropic Agents",
+"Chromatography",
+"Electrophoresis",
+"Research",
+"Adrenocorticotropic Hormone",
+"beta-Lipotropin"
+],
+"pmcid": "",
+"pmid": "14132790",
+"quelle": "MED",
+"titel": "LIPOTROPIN, A NEW ACTIVE PEPTIDE FROM PITUITARY GLANDS.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:1421309": {
 "autoren": "Babenko AP, Kazantseva ST, Khavinson VKh.",
 "doi": "10.1007/bf00790060",
@@ -16161,6 +16405,43 @@
 "quelle": "MED",
 "titel": "Role of thymosin beta4 in tumor metastasis and angiogenesis.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:14656205": {
+"autoren": "Krüger TH, Haake P, Haverkamp J, Krämer M, Exton MS, Saller B, Leygraf N, Hartmann U, Schedlowski M.",
+"doi": "10.1677/joe.0.1790357",
+"iso": "J Endocrinol",
+"jahr": "2003",
+"journal": "The Journal of endocrinology",
+"korr": [],
+"mesh": [
+"Humans",
+"Epinephrine",
+"Norepinephrine",
+"Ergolines",
+"Prolactin",
+"Thyrotropin",
+"Dopamine Agonists",
+"Cross-Over Studies",
+"Single-Blind Method",
+"Sexual Behavior",
+"Psychometrics",
+"Orgasm",
+"Blood Pressure",
+"Heart Rate",
+"Erotica",
+"Adult",
+"Male",
+"Thyrotropin-Releasing Hormone",
+"Cabergoline"
+],
+"pmcid": "",
+"pmid": "14656205",
+"quelle": "MED",
+"titel": "Effects of acute prolactin manipulation on sexual drive and function in males.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -17926,6 +18207,43 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:16012274": {
+"autoren": "Szuba MP, Amsterdam JD, Fernando AT, Gary KA, Whybrow PC, Winokur A.",
+"doi": "10.1097/01.jcp.0000169037.17884.79",
+"iso": "J Clin Psychopharmacol",
+"jahr": "2005",
+"journal": "Journal of clinical psychopharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Thyrotropin",
+"Thyroid Hormones",
+"Treatment Outcome",
+"Chronotherapy",
+"Infusions, Intravenous",
+"Double-Blind Method",
+"Bipolar Disorder",
+"Psychological Tests",
+"Time Factors",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Thyrotropin-Releasing Hormone"
+],
+"pmcid": "",
+"pmid": "16012274",
+"quelle": "MED",
+"titel": "Rapid antidepressant response after nocturnal TRH administration in patients with bipolar type I and bipolar type II major depression.",
+"typen": [
+"Clinical Trial",
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:16037156": {
 "autoren": "Kwok Y, Ng KFJ, Li CCF, Lam CCK, Man RYK.",
 "doi": "10.1213/01.ane.0000155286.20467.28",
@@ -18927,6 +19245,38 @@
 "Journal Article"
 ]
 },
+"pmid:16688716": {
+"autoren": "Michl J, Scharf B, Schmidt A, Huynh C, Hannan R, von Gizycki H, Friedman FK, Brandt-Rauf P, Fine RL, Pincus MR.",
+"doi": "10.1002/ijc.22029",
+"iso": "Int J Cancer",
+"jahr": "2006",
+"journal": "International journal of cancer",
+"korr": [],
+"mesh": [
+"Cell Line, Tumor",
+"Animals",
+"Humans",
+"Mice",
+"Mice, Nude",
+"Rats",
+"Pancreatic Neoplasms",
+"Peptide Fragments",
+"Xenograft Model Antitumor Assays",
+"Cell Proliferation",
+"Dose-Response Relationship, Drug",
+"Tumor Suppressor Protein p53"
+],
+"pmcid": "",
+"pmid": "16688716",
+"quelle": "MED",
+"titel": "PNC-28, a p53-derived peptide that is cytotoxic to cancer cells, blocks pancreatic cancer cell growth in vivo.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:16749416": {
 "autoren": "González-Sánchez R, Trujillo X, Trujillo X, Trujillo-Hernández B, Vásquez C, Huerta M, Elizalde A.",
 "doi": "10.1177/147323000603400210",
@@ -19497,6 +19847,33 @@
 "Journal Article"
 ]
 },
+"pmid:17079379": {
+"autoren": "Ryaby JT, Sheller MR, Levine BP, Bramlet DG, Ladd AL, Carney DH.",
+"doi": "10.2106/jbjs.f.00892",
+"iso": "J Bone Joint Surg Am",
+"jahr": "2006",
+"journal": "The Journal of bone and joint surgery. American volume",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Rats",
+"Diabetic Foot",
+"Radius Fractures",
+"Thrombin",
+"Peptide Fragments",
+"Wound Healing",
+"Neovascularization, Physiologic"
+],
+"pmcid": "",
+"pmid": "17079379",
+"quelle": "MED",
+"titel": "Thrombin peptide TP508 stimulates cellular events leading to angiogenesis, revascularization, and repair of dermal and musculoskeletal tissues.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:17108343": {
 "autoren": "Singh AK, Szczech L, Tang KL, Barnhart H, Sapp S, Wolfson M, Reddan D, CHOIR Investigators.",
 "doi": "10.1056/nejmoa065485",
@@ -19683,6 +20060,42 @@
 "Journal Article"
 ]
 },
+"pmid:17202453": {
+"autoren": "Schade R, Andersohn F, Suissa S, Haverkamp W, Garbe E.",
+"doi": "10.1056/nejmoa062222",
+"iso": "N Engl J Med",
+"jahr": "2007",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Parkinson Disease",
+"Heart Valve Diseases",
+"Ergolines",
+"Pergolide",
+"Dopamine Agonists",
+"Antiparkinson Agents",
+"Logistic Models",
+"Case-Control Studies",
+"Cohort Studies",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Serotonin Receptor Agonists",
+"Serotonin 5-HT2 Receptor Agonists",
+"Cabergoline"
+],
+"pmcid": "",
+"pmid": "17202453",
+"quelle": "MED",
+"titel": "Dopamine agonists and the risk of cardiac-valve regurgitation.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:17210875": {
 "autoren": "Selvin E, Paynter NP, Erlinger TP.",
 "doi": "10.1001/archinte.167.1.31",
@@ -19765,6 +20178,44 @@
 "Research Support, U.S. Gov't, Non-P.H.S.",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:17244316": {
+"autoren": "Fife C, Mader JT, Stone J, Brill L, Satterfield K, Norfleet A, Zwernemann A, Ryaby JT, Carney DH.",
+"doi": "10.1111/j.1524-475x.2006.00181.x",
+"iso": "Wound Repair Regen",
+"jahr": "2007",
+"journal": "Wound repair and regeneration : official publication of the Wound Healing Society [and] the European Tissue Repair Society",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetic Foot",
+"Thrombin",
+"Peptide Fragments",
+"Treatment Outcome",
+"Drug Administration Schedule",
+"Prospective Studies",
+"Pilot Projects",
+"Double-Blind Method",
+"Wound Healing",
+"Dose-Response Relationship, Drug",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "17244316",
+"quelle": "MED",
+"titel": "Thrombin peptide Chrysalin stimulates healing of diabetic foot ulcers in a placebo-controlled phase I/II study.",
+"typen": [
+"Clinical Trial, Phase II",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Clinical Trial, Phase I",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:17251929": {
@@ -21984,6 +22435,32 @@
 "Journal Article"
 ]
 },
+"pmid:18803458": {
+"autoren": "Carney DH, Olszewska-Pazdrak B.",
+"doi": "10.1517/14656566.9.15.2717",
+"iso": "Expert Opin Pharmacother",
+"jahr": "2008",
+"journal": "Expert opinion on pharmacotherapy",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetic Foot",
+"Thrombin",
+"Peptide Fragments",
+"Fracture Healing",
+"Amino Acid Sequence",
+"Molecular Sequence Data",
+"Clinical Trials as Topic"
+],
+"pmcid": "",
+"pmid": "18803458",
+"quelle": "MED",
+"titel": "Could rusalatide acetate be the future drug of choice for diabetic foot ulcers and fracture repair?",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:18806122": {
 "autoren": "Gleeson M.",
 "doi": "10.1093/jn/138.10.2045s",
@@ -23388,6 +23865,42 @@
 "Journal Article"
 ]
 },
+"pmid:19737920": {
+"autoren": "Kaptein EM, Beale E, Chan LS.",
+"doi": "10.1210/jc.2009-0899",
+"iso": "J Clin Endocrinol Metab",
+"jahr": "2009",
+"journal": "The Journal of clinical endocrinology and metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Weight Loss",
+"Triiodothyronine",
+"Thyroxine",
+"Anti-Obesity Agents",
+"Basal Metabolism",
+"Treatment Outcome",
+"Caloric Restriction",
+"Heart Rate",
+"Observation",
+"Research Design",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "",
+"pmid": "19737920",
+"quelle": "MED",
+"titel": "Thyroid hormone therapy for obesity and nonthyroidal illnesses: a systematic review.",
+"typen": [
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:19755438": {
 "autoren": "Yakubu MT, Oladiji AT, Akanji MA.",
 "doi": "10.1177/0960327109106973",
@@ -23700,6 +24213,45 @@
 "Journal Article"
 ]
 },
+"pmid:19893317": {
+"autoren": "Olszewska-Pazdrak B, Hart-Vantassell A, Carney DH.",
+"doi": "10.1159/000255963",
+"iso": "J Vasc Res",
+"jahr": "2010",
+"journal": "Journal of vascular research",
+"korr": [],
+"mesh": [
+"Cells, Cultured",
+"Endothelial Cells",
+"Animals",
+"Cattle",
+"Humans",
+"Calcium",
+"Nitric Oxide",
+"Thrombin",
+"Protein Kinase C",
+"src-Family Kinases",
+"Vascular Endothelial Growth Factor A",
+"Peptide Fragments",
+"Protein Kinase Inhibitors",
+"Signal Transduction",
+"Up-Regulation",
+"Phosphorylation",
+"Dose-Response Relationship, Drug",
+"Time Factors",
+"Proto-Oncogene Proteins c-akt",
+"Phosphatidylinositol 3-Kinases",
+"Phosphoinositide-3 Kinase Inhibitors"
+],
+"pmcid": "",
+"pmid": "19893317",
+"quelle": "MED",
+"titel": "Thrombin peptide TP508 stimulates rapid nitric oxide production in human endothelial cells.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:19909746": {
 "autoren": "Laroui H, Dalmasso G, Nguyen HT, Yan Y, Sitaraman SV, Merlin D.",
 "doi": "10.1053/j.gastro.2009.11.003",
@@ -24005,6 +24557,51 @@
 "Clinical Trial",
 "Research Support, Non-U.S. Gov't",
 "Journal Article"
+]
+},
+"pmid:20080680": {
+"autoren": "Sarafraz-Yazdi E, Bowne WB, Adler V, Sookraj KA, Wu V, Shteyler V, Patel H, Oxbury W, Brandt-Rauf P, Zenilman ME, Michl J, Pincus MR.",
+"doi": "10.1073/pnas.0909364107",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "2010",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Cell Line",
+"Cell Line, Tumor",
+"Cell Membrane",
+"Humans",
+"Peptide Fragments",
+"Recombinant Fusion Proteins",
+"Antineoplastic Agents",
+"Fluorescent Dyes",
+"Microscopy, Confocal",
+"Crystallography, X-Ray",
+"Nuclear Magnetic Resonance, Biomolecular",
+"Transfection",
+"Cell Death",
+"Binding Sites",
+"Amino Acid Sequence",
+"Base Sequence",
+"Protein Conformation",
+"Plasmids",
+"Models, Molecular",
+"Molecular Sequence Data",
+"Female",
+"Male",
+"Tumor Suppressor Protein p53",
+"Proto-Oncogene Proteins c-mdm2"
+],
+"pmcid": "PMC2836618",
+"pmid": "20080680",
+"quelle": "MED",
+"titel": "Anticancer peptide PNC-27 adopts an HDM-2-binding conformation and kills cancer cells by binding to HDM-2 in their membranes.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:20082925": {
@@ -25764,6 +26361,35 @@
 "Journal Article"
 ]
 },
+"pmid:20873594": {
+"autoren": "Duan JL, Jiang YH, Liu Y, Zeng QF, Huang YD.",
+"doi": "",
+"iso": "Zhonghua Nan Ke Xue",
+"jahr": "2010",
+"journal": "Zhonghua nan ke xue = National journal of andrology",
+"korr": [],
+"mesh": [
+"Pituitary Gland",
+"Humans",
+"Infertility, Female",
+"Embryo Transfer",
+"Fertilization in Vitro",
+"Ovulation Induction",
+"Adult",
+"Female",
+"Gonadotropin-Releasing Hormone",
+"Triptorelin Pamoate"
+],
+"pmcid": "",
+"pmid": "20873594",
+"quelle": "MED",
+"titel": "[Comparison of Alarelin and Triptorelin in the long-protocol ovulation induction in in vitro fertilization and embryo transfer].",
+"typen": [
+"Controlled Clinical Trial",
+"Comparative Study",
+"Journal Article"
+]
+},
 "pmid:21036578": {
 "autoren": "Hung SK, Perry R, Ernst E.",
 "doi": "10.1016/j.phymed.2010.08.014",
@@ -27061,6 +27687,49 @@
 "Journal Article"
 ]
 },
+"pmid:21771987": {
+"autoren": "Del Mastro L, Boni L, Michelotti A, Gamucci T, Olmeo N, Gori S, Giordano M, Garrone O, Pronzato P, Bighin C, Levaggi A, Giraudi S, Cresti N, Magnolfi E, Scotto T, Vecchio C, Venturini M.",
+"doi": "10.1001/jama.2011.991",
+"iso": "JAMA",
+"jahr": "2011",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Breast Neoplasms",
+"Infertility, Female",
+"Cisplatin",
+"Tamoxifen",
+"Fluorouracil",
+"Methotrexate",
+"Goserelin",
+"Luteolytic Agents",
+"Antineoplastic Agents",
+"Antineoplastic Agents, Hormonal",
+"Antineoplastic Combined Chemotherapy Protocols",
+"Chemotherapy, Adjuvant",
+"Neoadjuvant Therapy",
+"Injections, Intramuscular",
+"Menopause",
+"Premenopause",
+"Adult",
+"Middle Aged",
+"Female",
+"Primary Ovarian Insufficiency",
+"Triptorelin Pamoate"
+],
+"pmcid": "",
+"pmid": "21771987",
+"quelle": "MED",
+"titel": "Effect of the gonadotropin-releasing hormone analogue triptorelin on the occurrence of chemotherapy-induced early menopause in premenopausal women with breast cancer: a randomized trial.",
+"typen": [
+"Clinical Trial, Phase III",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:21775755": {
 "autoren": "Ziegler D, Low PA, Litchy WJ, Boulton AJ, Vinik AI, Freeman R, Samigullin R, Tritschler H, Munzel U, Maus J, Schütte K, Dyck PJ.",
 "doi": "10.2337/dc11-0503",
@@ -27337,6 +28006,47 @@
 "Journal Article"
 ]
 },
+"pmid:21865366": {
+"autoren": "Celi FS, Zemskova M, Linderman JD, Smith S, Drinkard B, Sachdev V, Skarulis MC, Kozlosky M, Csako G, Costello R, Pucino F.",
+"doi": "10.1210/jc.2011-1329",
+"iso": "J Clin Endocrinol Metab",
+"jahr": "2011",
+"journal": "The Journal of clinical endocrinology and metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypothyroidism",
+"Cholesterol",
+"Thyroid Hormones",
+"Triiodothyronine",
+"Thyroxine",
+"Apolipoproteins B",
+"Treatment Outcome",
+"Drug Administration Schedule",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Body Composition",
+"Bone Density",
+"Quality of Life",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC3205882",
+"pmid": "21865366",
+"quelle": "MED",
+"titel": "Metabolic effects of liothyronine therapy in hypothyroidism: a randomized, double-blind, crossover trial of liothyronine versus levothyroxine.",
+"typen": [
+"Research Support, N.I.H., Intramural",
+"Comparative Study",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:21875351": {
 "autoren": "Allen J, Bradley RD.",
 "doi": "10.1089/acm.2010.0716",
@@ -27437,6 +28147,41 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:21947558": {
+"autoren": "Kamath J, Feinn R, Winokur A.",
+"doi": "10.1007/s00520-011-1268-8",
+"iso": "Support Care Cancer",
+"jahr": "2012",
+"journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Fatigue",
+"Placebos",
+"Treatment Outcome",
+"Linear Models",
+"Pilot Projects",
+"Cross-Over Studies",
+"Quality of Life",
+"Middle Aged",
+"Female",
+"Male",
+"Thyrotropin-Releasing Hormone",
+"Surveys and Questionnaires"
+],
+"pmcid": "",
+"pmid": "21947558",
+"quelle": "MED",
+"titel": "Thyrotropin-releasing hormone as a treatment for cancer-related fatigue: a randomized controlled study.",
+"typen": [
+"Clinical Trial, Phase II",
+"Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
@@ -30937,6 +31682,32 @@
 "Journal Article"
 ]
 },
+"pmid:23571464": {
+"autoren": "Guan F, Uboh CE, Soma LR, Robinson M, Maylin GA, Li X.",
+"doi": "10.1007/s00216-013-6907-0",
+"iso": "Anal Bioanal Chem",
+"jahr": "2013",
+"journal": "Analytical and bioanalytical chemistry",
+"korr": [],
+"mesh": [
+"Animals",
+"Horses",
+"Opioid Peptides",
+"Analgesics, Opioid",
+"Chromatography, Liquid",
+"Substance Abuse Detection",
+"Doping in Sports",
+"Tandem Mass Spectrometry"
+],
+"pmcid": "",
+"pmid": "23571464",
+"quelle": "MED",
+"titel": "Detection, quantification, and identification of dermorphin in equine plasma and urine by LC-MS/MS for doping control.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:23594003": {
 "autoren": "Heyland D, Muscedere J, Wischmeyer PE, Cook D, Jones G, Albert M, Elke G, Berger MM, Day AG, Canadian Critical Care Trials Group.",
 "doi": "10.1056/nejmoa1212722",
@@ -31768,6 +32539,39 @@
 "Journal Article"
 ]
 },
+"pmid:23995658": {
+"autoren": "Kanno Y, Ota R, Someya K, Kusakabe T, Kato K, Inouye Y.",
+"doi": "10.1248/bpb.b13-00231",
+"iso": "Biol Pharm Bull",
+"jahr": "2013",
+"journal": "Biological & pharmaceutical bulletin",
+"korr": [],
+"mesh": [
+"Cell Line",
+"Myoblasts",
+"Animals",
+"Mice",
+"Flutamide",
+"Norpregnadienes",
+"Androgen Antagonists",
+"Follistatin",
+"MyoD Protein",
+"Myogenin",
+"Receptors, Androgen",
+"RNA, Messenger",
+"Androgens",
+"Cell Differentiation",
+"Myogenic Regulatory Factor 5"
+],
+"pmcid": "",
+"pmid": "23995658",
+"quelle": "MED",
+"titel": "Selective androgen receptor modulator, YK11, regulates myogenic differentiation of C2C12 myoblasts by follistatin expression.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:23997720": {
 "autoren": "McRae MP.",
 "doi": "10.1016/j.jcm.2012.11.001",
@@ -31782,6 +32586,39 @@
 "titel": "Betaine supplementation decreases plasma homocysteine in healthy adult participants: a meta-analysis.",
 "typen": [
 "review-article",
+"Journal Article"
+]
+},
+"pmid:24013774": {
+"autoren": "Zhang Z, Mu L, Tang J, Duan Z, Wang F, Wei L, Rong M, Lai R.",
+"doi": "10.1371/journal.pone.0072923",
+"iso": "PLoS One",
+"jahr": "2013",
+"journal": "PloS one",
+"korr": [],
+"mesh": [
+"Erythrocytes",
+"Cell Line",
+"Keratinocytes",
+"Animals",
+"Humans",
+"Mice",
+"Propionibacterium acnes",
+"Acne Vulgaris",
+"Disease Models, Animal",
+"Peptides",
+"Tumor Necrosis Factor-alpha",
+"Anti-Bacterial Agents",
+"Dose-Response Relationship, Drug",
+"Interleukin-1beta"
+],
+"pmcid": "PMC3755965",
+"pmid": "24013774",
+"quelle": "MED",
+"titel": "A small peptide with therapeutic potential for inflammatory acne vulgaris.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -32259,6 +33096,38 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:24265169": {
+"autoren": "Crowther CA, Alfirevic Z, Han S, Haslam RR.",
+"doi": "10.1002/14651858.cd000019.pub3",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2013",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Respiratory Distress Syndrome, Newborn",
+"Glucocorticoids",
+"Drug Therapy, Combination",
+"Pregnancy",
+"Infant, Newborn",
+"Infant, Premature",
+"Female",
+"Obstetric Labor, Premature",
+"Thyrotropin-Releasing Hormone",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC7263441",
+"pmid": "24265169",
+"quelle": "MED",
+"titel": "Thyrotropin-releasing hormone added to corticosteroids for women at risk of preterm birth for preventing neonatal respiratory disease.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:24284442": {
 "autoren": "Churchward-Venne TA, Breen L, Di Donato DM, Hector AJ, Mitchell CJ, Moore DR, Stellingwerff T, Breuille D, Offord EA, Baker SK, Phillips SM.",
 "doi": "10.3945/ajcn.113.068775",
@@ -32619,6 +33488,40 @@
 "pmid": "24402825",
 "quelle": "MED",
 "titel": "The oral bioavailability of curcumin from micronized powder and liquid micelles is significantly increased in healthy humans and differs between sexes.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:24406723": {
+"autoren": "Weinhold SL, Seeck-Hirschner M, Nowak A, Hallschmid M, Göder R, Baier PC.",
+"doi": "10.1016/j.bbr.2013.12.045",
+"iso": "Behav Brain Res",
+"jahr": "2014",
+"journal": "Behavioural brain research",
+"korr": [],
+"mesh": [
+"Humans",
+"Narcolepsy",
+"Cataplexy",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Administration, Intranasal",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Attention",
+"Wakefulness",
+"Sleep, REM",
+"Adult",
+"Female",
+"Male",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "24406723",
+"quelle": "MED",
+"titel": "The effect of intranasal orexin-A (hypocretin-1) on sleep, wakefulness and attention in narcolepsy with cataplexy.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
@@ -33871,6 +34774,50 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:24881463": {
+"autoren": "Pagani O, Regan MM, Walley BA, Fleming GF, Colleoni M, Láng I, Gomez HL, Tondini C, Burstein HJ, Perez EA, Ciruelos E, Stearns V, Bonnefoi HR, Martino S, Geyer CE, Pinotti G, Puglisi F, Crivellari D, Ruhstaller T, Winer EP, Rabaglio-Poretti M, Maibach R, Ruepp B, Giobbie-Hurder A, Price KN, Bernhard J, Luo W, Ribi K, Viale G, Coates AS, Gelber RD, Goldhirsch A, Francis PA, TEXT and SOFT Investigators, International Breast Cancer Study Group.",
+"doi": "10.1056/nejmoa1404037",
+"iso": "N Engl J Med",
+"jahr": "2014",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Breast Neoplasms",
+"Osteoporosis",
+"Tamoxifen",
+"Androstadienes",
+"Estradiol",
+"Antineoplastic Agents, Hormonal",
+"Antineoplastic Combined Chemotherapy Protocols",
+"Aromatase Inhibitors",
+"Disease-Free Survival",
+"Chemotherapy, Adjuvant",
+"Mastectomy",
+"Follow-Up Studies",
+"Premenopause",
+"Quality of Life",
+"Adult",
+"Middle Aged",
+"Female",
+"Kaplan-Meier Estimate",
+"Triptorelin Pamoate"
+],
+"pmcid": "PMC4175521",
+"pmid": "24881463",
+"quelle": "MED",
+"titel": "Adjuvant exemestane with ovarian suppression in premenopausal breast cancer.",
+"typen": [
+"Clinical Trial, Phase III",
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:24889392": {
 "autoren": "Miyake M, Kirisako T, Kokubo T, Miura Y, Morishita K, Okamura H, Tsuda A.",
 "doi": "10.1186/1475-2891-13-53",
@@ -34106,6 +35053,34 @@
 "pmid": "24957806",
 "quelle": "MED",
 "titel": "Increasing frequency of severe clinical toxicity after use of 2,4-dinitrophenol in the UK: a report from the National Poisons Information Service.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:24958378": {
+"autoren": "Khavinson VKh, Lin'kova NS, Polyakova VO, Durnova AO, Nichik TE, Kvetnoi IM.",
+"doi": "10.1007/s10517-014-2540-y",
+"iso": "Bull Exp Biol Med",
+"jahr": "2014",
+"journal": "Bulletin of experimental biology and medicine",
+"korr": [],
+"mesh": [
+"Kidney",
+"Cells, Cultured",
+"Animals",
+"Rats",
+"Rats, Wistar",
+"Peptides",
+"Ki-67 Antigen",
+"Interleukin-8",
+"Tumor Suppressor Protein p53",
+"Matrix Metalloproteinase 14",
+"Cellular Senescence"
+],
+"pmcid": "",
+"pmid": "24958378",
+"quelle": "MED",
+"titel": "Peptides regulate expression of signaling molecules in kidney cell cultures during in vitro aging.",
 "typen": [
 "Journal Article"
 ]
@@ -35121,6 +36096,33 @@
 "titel": "Increased Secretion of Endogenous GH after Treatment with an Intranasal GH-releasing Peptide-2 Spray Does Not Promote Growth in Short Children with GH Deficiency.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:25376170": {
+"autoren": "Robinson MA, Guan F, McDonnell S, Uboh CE, Soma LR.",
+"doi": "10.1111/jvp.12179",
+"iso": "J Vet Pharmacol Ther",
+"jahr": "2015",
+"journal": "Journal of veterinary pharmacology and therapeutics",
+"korr": [],
+"mesh": [
+"Animals",
+"Horses",
+"Opioid Peptides",
+"Analgesics, Opioid",
+"Area Under Curve",
+"Pilot Projects",
+"Half-Life",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "25376170",
+"quelle": "MED",
+"titel": "Pharmacokinetics and pharmacodynamics of dermorphin in the horse.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -36598,6 +37600,52 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:26056233": {
+"autoren": "Lee SH, Kim MY, Kim HY, Lee YM, Kim H, Nam KA, Roh MR, Min do S, Chung KY, Choi KY.",
+"doi": "10.1084/jem.20141601",
+"iso": "J Exp Med",
+"jahr": "2015",
+"journal": "The Journal of experimental medicine",
+"korr": [],
+"mesh": [
+"Fibroblasts",
+"Keratinocytes",
+"Animals",
+"Mice, Knockout",
+"Humans",
+"Mice",
+"Indoles",
+"Collagen",
+"Actins",
+"Galactosides",
+"Intracellular Signaling Peptides and Proteins",
+"Adaptor Proteins, Signal Transducing",
+"DNA-Binding Proteins",
+"Phosphoproteins",
+"Transcription Factors",
+"DNA Primers",
+"Blotting, Western",
+"Immunohistochemistry",
+"Histological Techniques",
+"Reverse Transcriptase Polymerase Chain Reaction",
+"Immunoprecipitation",
+"Wound Healing",
+"beta Catenin",
+"Keratin-14",
+"Skin Physiological Phenomena",
+"Wnt Signaling Pathway",
+"Dishevelled Proteins"
+],
+"pmcid": "PMC4493411",
+"pmid": "26056233",
+"quelle": "MED",
+"titel": "The Dishevelled-binding protein CXXC5 negatively regulates cutaneous wound healing.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:26056426": {
 "autoren": "Sosne G, Ousler GW.",
 "doi": "10.2147/opth.s80954",
@@ -37000,6 +38048,35 @@
 "Journal Article"
 ]
 },
+"pmid:2618585": {
+"autoren": "Roullet E, Cesaro P, Simon-Lavoine N, Degos JD, Marteau R.",
+"doi": "10.1111/j.1600-0404.1989.tb03929.x",
+"iso": "Acta Neurol Scand",
+"jahr": "1989",
+"journal": "Acta neurologica Scandinavica",
+"korr": [],
+"mesh": [
+"Humans",
+"Multiple Sclerosis",
+"Thymus Hormones",
+"Thymic Factor, Circulating",
+"Double-Blind Method",
+"Adult",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "2618585",
+"quelle": "MED",
+"titel": "Nonathymulin treatment of multiple sclerosis: double-blind pilot study.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:26188003": {
 "autoren": "Hoendermis ES, Liu LC, Hummel YM, van der Meer P, de Boer RA, Berger RM, van Veldhuisen DJ, Voors AA.",
 "doi": "10.1093/eurheartj/ehv336",
@@ -37159,6 +38236,37 @@
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:26280221": {
+"autoren": "Kantara C, Moya SM, Houchen CW, Umar S, Ullrich RL, Singh P, Carney DH.",
+"doi": "10.1038/labinvest.2015.103",
+"iso": "Lab Invest",
+"jahr": "2015",
+"journal": "Laboratory investigation; a journal of technical methods and pathology",
+"korr": [],
+"mesh": [
+"Gastrointestinal Tract",
+"Adherens Junctions",
+"Stem Cells",
+"Animals",
+"Mice, Inbred ICR",
+"Mice",
+"Thrombin",
+"Peptide Fragments",
+"Survival Analysis",
+"Cell Proliferation",
+"Male"
+],
+"pmcid": "PMC4626368",
+"pmid": "26280221",
+"quelle": "MED",
+"titel": "Novel regenerative peptide TP508 mitigates radiation-induced gastrointestinal damage by activating stem cells and preserving crypt integrity.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:26284906": {
@@ -37806,6 +38914,36 @@
 "Journal Article"
 ]
 },
+"pmid:26515176": {
+"autoren": "Zamorskii II, Shchudrova TS, Lin'kova NS, Nichik TE, Khavinson VKh.",
+"doi": "10.1007/s10517-015-3062-y",
+"iso": "Bull Exp Biol Med",
+"jahr": "2015",
+"journal": "Bulletin of experimental biology and medicine",
+"korr": [],
+"mesh": [
+"Kidney",
+"Animals",
+"Animals, Outbred Strains",
+"Rats",
+"Cisplatin",
+"Potassium",
+"Sodium",
+"Creatinine",
+"Peptides",
+"Glomerular Filtration Rate",
+"Diuresis",
+"Cytoprotection",
+"Acute Kidney Injury"
+],
+"pmcid": "",
+"pmid": "26515176",
+"quelle": "MED",
+"titel": "Peptides Restore Functional State of the Kidneys During Cisplatin-Induced Acute Renal Failure.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:26519439": {
 "autoren": "Liu G, Weinger JG, Lu ZL, Xue F, Sadeghpour S.",
 "doi": "10.3233/jad-150538",
@@ -38197,6 +39335,33 @@
 "systematic-review",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:26663795": {
+"autoren": "Sarafraz-Yazdi E, Gorelick C, Wagreich AR, Salame G, Angert M, Gartman CH, Gupta V, Bowne WB, Lee YC, Abulafia O, Pincus MR, Michl J.",
+"doi": "",
+"iso": "Ann Clin Lab Sci",
+"jahr": "2015",
+"journal": "Annals of clinical and laboratory science",
+"korr": [],
+"mesh": [
+"Tumor Cells, Cultured",
+"Humans",
+"Neoplasms, Glandular and Epithelial",
+"Cystadenocarcinoma, Serous",
+"Ovarian Neoplasms",
+"Antineoplastic Agents",
+"Dose-Response Relationship, Drug",
+"Female",
+"Tumor Suppressor Protein p53",
+"Carcinoma, Ovarian Epithelial"
+],
+"pmcid": "",
+"pmid": "26663795",
+"quelle": "MED",
+"titel": "Ex vivo Efficacy of Anti-Cancer Drug PNC-27 in the Treatment of Patient-Derived Epithelial Ovarian Cancer.",
+"typen": [
+"Journal Article"
 ]
 },
 "pmid:26683514": {
@@ -38758,6 +39923,23 @@
 "pmid": "26924987",
 "quelle": "MED",
 "titel": "Selank Administration Affects the Expression of Some Genes Involved in GABAergic Neurotransmission.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:26944776": {
+"autoren": "Hollander AB, Pastuszak AW, Hsieh TC, Johnson WG, Scovell JM, Mai CK, Lipshultz LI.",
+"doi": "10.1016/j.esxm.2015.09.001",
+"iso": "Sex Med",
+"jahr": "2016",
+"journal": "Sexual medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC4822480",
+"pmid": "26944776",
+"quelle": "MED",
+"titel": "Cabergoline in the Treatment of Male Orgasmic Disorder-A Retrospective Pilot Analysis.",
 "typen": [
 "research-article",
 "Journal Article"
@@ -41373,6 +42555,34 @@
 "Journal Article"
 ]
 },
+"pmid:28406384": {
+"autoren": "Krüger THC, Keil L, Jung S, Kahl KG, Wittfoth M, Leeners B, Hartmann U.",
+"doi": "10.1080/0092623x.2017.1318797",
+"iso": "J Sex Marital Ther",
+"jahr": "2018",
+"journal": "Journal of sex & marital therapy",
+"korr": [],
+"mesh": [
+"Humans",
+"Ergolines",
+"Dopamine Agonists",
+"Double-Blind Method",
+"Sexual Behavior",
+"Arousal",
+"Adult",
+"Female",
+"Sexual Dysfunction, Physiological",
+"Cabergoline"
+],
+"pmcid": "",
+"pmid": "28406384",
+"quelle": "MED",
+"titel": "Lack of Increase in Sexual Drive and Function After Dopaminergic Stimulation in Women.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:28418065": {
 "autoren": "Farina N, Llewellyn D, Isaac MGEKN, Tabet N.",
 "doi": "10.1002/14651858.cd002854.pub5",
@@ -41400,6 +42610,22 @@
 "typen": [
 "Systematic Review",
 "systematic-review",
+"Journal Article"
+]
+},
+"pmid:28440570": {
+"autoren": "Thevis M, Piper T, Dib J, Lagojda A, Kühne D, Packschies L, Geyer H, Schänzer W.",
+"doi": "10.1002/rcm.7886",
+"iso": "Rapid Commun Mass Spectrom",
+"jahr": "2017",
+"journal": "Rapid communications in mass spectrometry : RCM",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "28440570",
+"quelle": "MED",
+"titel": "Mass spectrometric characterization of the selective androgen receptor modulator (SARM) YK-11 for doping control purposes.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -41706,6 +42932,45 @@
 "typen": [
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:28595998": {
+"autoren": "Lee SH, Seo SH, Lee DH, Pi LQ, Lee WS, Choi KY.",
+"doi": "10.1016/j.jid.2017.04.038",
+"iso": "J Invest Dermatol",
+"jahr": "2017",
+"journal": "The Journal of investigative dermatology",
+"korr": [],
+"mesh": [
+"Hair Follicle",
+"Cells, Cultured",
+"Hair",
+"Animals",
+"Humans",
+"Mice",
+"Alopecia",
+"Wounds and Injuries",
+"Disease Models, Animal",
+"Valproic Acid",
+"Peptides",
+"Intracellular Signaling Peptides and Proteins",
+"DNA-Binding Proteins",
+"Transcription Factors",
+"Random Allocation",
+"Regeneration",
+"Gene Expression Regulation",
+"Up-Regulation",
+"beta Catenin",
+"Wnt Signaling Pathway",
+"Dishevelled Proteins"
+],
+"pmcid": "",
+"pmid": "28595998",
+"quelle": "MED",
+"titel": "Targeting of CXXC5 by a Competing Peptide Stimulates Hair Regrowth and Wound-Induced Hair Neogenesis.",
+"typen": [
+"Review",
 "Journal Article"
 ]
 },
@@ -42031,6 +43296,37 @@
 "Comparative Study",
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:28744634": {
+"autoren": "Zamorskii II, Shchudrova TS, Lin'kova NS, Nichik TE, Khavinson VK.",
+"doi": "10.1007/s10517-017-3811-1",
+"iso": "Bull Exp Biol Med",
+"jahr": "2017",
+"journal": "Bulletin of experimental biology and medicine",
+"korr": [],
+"mesh": [
+"Animals",
+"Animals, Outbred Strains",
+"Rats",
+"Proteinuria",
+"Oliguria",
+"Reperfusion Injury",
+"Gentamicins",
+"Peptides",
+"Protective Agents",
+"Antioxidants",
+"Kidney Function Tests",
+"Lipid Peroxidation",
+"Azotemia",
+"Acute Kidney Injury"
+],
+"pmcid": "",
+"pmid": "28744634",
+"quelle": "MED",
+"titel": "Nephroprotective Effect of EDL Peptide at Acute Injury of Kidneys of Different Genesis.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -42599,6 +43895,42 @@
 "Journal Article"
 ]
 },
+"pmid:28967390": {
+"autoren": "Kim D, Garza LA.",
+"doi": "10.1016/j.jid.2017.07.826",
+"iso": "J Invest Dermatol",
+"jahr": "2017",
+"journal": "The Journal of investigative dermatology",
+"korr": [],
+"mesh": [
+"Hair Follicle",
+"Animals",
+"Humans",
+"Mice",
+"Alopecia",
+"Valproic Acid",
+"Intracellular Signaling Peptides and Proteins",
+"Carrier Proteins",
+"DNA-Binding Proteins",
+"Transcription Factors",
+"Sensitivity and Specificity",
+"Regeneration",
+"Signal Transduction",
+"Gene Expression Regulation",
+"Wnt Proteins",
+"beta Catenin",
+"Wnt Signaling Pathway"
+],
+"pmcid": "PMC6399733",
+"pmid": "28967390",
+"quelle": "MED",
+"titel": "The Negative Regulator CXXC5: Making WNT Look a Little Less Dishevelled.",
+"typen": [
+"article-commentary",
+"Comment",
+"Journal Article"
+]
+},
 "pmid:28973622": {
 "autoren": "Li D, Radulescu A, Shrestha RT, Root M, Karger AB, Killeen AA, Hodges JS, Fan SL, Ferguson A, Garg U, Sokoll LJ, Burmeister LA.",
 "doi": "10.1001/jama.2017.13705",
@@ -42828,6 +44160,39 @@
 "Comparative Study",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:29035509": {
+"autoren": "Van de Bittner GC, Van de Bittner KC, Wey HY, Rowe W, Dharanipragada R, Ying X, Hurst W, Giovanni A, Alving K, Gupta A, Hoekman J, Hooker JM.",
+"doi": "10.1021/acschemneuro.7b00357",
+"iso": "ACS Chem Neurosci",
+"jahr": "2018",
+"journal": "ACS chemical neuroscience",
+"korr": [],
+"mesh": [
+"Brain",
+"Animals",
+"Macaca mulatta",
+"Rats, Sprague-Dawley",
+"Carbon Radioisotopes",
+"Raclopride",
+"Positron-Emission Tomography",
+"Administration, Intranasal",
+"Molecular Structure",
+"Methylation",
+"Male",
+"Wakefulness-Promoting Agents",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "29035509",
+"quelle": "MED",
+"titel": "Positron Emission Tomography Assessment of the Intranasal Delivery Route for Orexin A.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:29043659": {
@@ -43641,6 +45006,35 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:29491216": {
+"autoren": "Yatsu T, Kusakabe T, Kato K, Inouye Y, Nemoto K, Kanno Y.",
+"doi": "10.1248/bpb.b17-00748",
+"iso": "Biol Pharm Bull",
+"jahr": "2018",
+"journal": "Biological & pharmaceutical bulletin",
+"korr": [],
+"mesh": [
+"3T3 Cells",
+"Osteoblasts",
+"Animals",
+"Mice",
+"Norpregnadienes",
+"Androgens",
+"Cell Differentiation",
+"Cell Proliferation",
+"Up-Regulation",
+"Calcification, Physiologic",
+"Osteogenesis",
+"Oncogene Protein v-akt"
+],
+"pmcid": "",
+"pmid": "29491216",
+"quelle": "MED",
+"titel": "Selective Androgen Receptor Modulator, YK11, Up-Regulates Osteoblastic Proliferation and Differentiation in MC3T3-E1 Cells.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -44821,6 +46215,38 @@
 "Journal Article"
 ]
 },
+"pmid:3008118": {
+"autoren": "Degli Uberti EC, Trasforini G, Salvadori S, Margutti A, Tomatis R, Pansini R.",
+"doi": "10.1016/0196-9781(85)90370-5",
+"iso": "Peptides",
+"jahr": "1985",
+"journal": "Peptides",
+"korr": [],
+"mesh": [
+"Humans",
+"Aldosterone",
+"Hydrocortisone",
+"Hormones",
+"Prolactin",
+"Growth Hormone",
+"Thyrotropin",
+"Renin",
+"Opioid Peptides",
+"Oligopeptides",
+"Secretory Rate",
+"Female",
+"Male",
+"Adrenocorticotropic Hormone"
+],
+"pmcid": "",
+"pmid": "3008118",
+"quelle": "MED",
+"titel": "The effects of dermorphin on the endocrine system in man.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:30108163": {
 "autoren": "Zhou Q, Verne ML, Fields JZ, Lefante JJ, Basra S, Salameh H, Verne GN.",
 "doi": "10.1136/gutjnl-2017-315136",
@@ -45121,6 +46547,22 @@
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:30215804": {
+"autoren": "Stiles CE, Tetteh-Wayoe ET, Bestwick J, Steeds RP, Drake WM.",
+"doi": "10.1210/jc.2018-01071",
+"iso": "J Clin Endocrinol Metab",
+"jahr": "2018",
+"journal": "The Journal of clinical endocrinology and metabolism",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "30215804",
+"quelle": "MED",
+"titel": "A meta-analysis of the prevalence of cardiac valvulopathy in hyperprolactinemic patients treated with Cabergoline.",
+"typen": [
+"Journal Article"
 ]
 },
 "pmid:30221595": {
@@ -45499,6 +46941,47 @@
 "Journal Article"
 ]
 },
+"pmid:30356139": {
+"autoren": "Xu C, Wang Y, Tu Q, Zhang Z, Chen M, Mwangi J, Li Y, Jin Y, Zhao X, Lai R.",
+"doi": "10.1038/s41388-018-0556-x",
+"iso": "Oncogene",
+"jahr": "2019",
+"journal": "Oncogene",
+"korr": [],
+"mesh": [
+"Cells, Cultured",
+"Animals",
+"Mice, Inbred BALB C",
+"Humans",
+"Mice",
+"Mice, Nude",
+"Carcinoma, Pancreatic Ductal",
+"Pancreatic Neoplasms",
+"Adenylate Kinase",
+"Peptide Fragments",
+"RNA-Binding Proteins",
+"Phosphoproteins",
+"Antineoplastic Agents",
+"Antigens, Surface",
+"Xenograft Model Antitumor Assays",
+"Signal Transduction",
+"Cell Death",
+"Autophagy",
+"Male",
+"HEK293 Cells",
+"Molecular Targeted Therapy",
+"Human Umbilical Vein Endothelial Cells",
+"Nucleolin"
+],
+"pmcid": "",
+"pmid": "30356139",
+"quelle": "MED",
+"titel": "Targeting surface nucleolin induces autophagy-dependent cell death in pancreatic cancer via AMPK activation.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:30362173": {
 "autoren": "Zhang Z, Li H, Zhang X, Dai Y, Park HJ, Jiann BP, Li P, Lou Y, Ye Z, Viktrup L.",
 "doi": "10.1111/iju.13828",
@@ -45533,6 +47016,32 @@
 "Clinical Trial, Phase III",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:30379415": {
+"autoren": "Piper T, Dib J, Putz M, Fusshöller G, Pop V, Lagojda A, Kuehne D, Geyer H, Schänzer W, Thevis M.",
+"doi": "10.1002/dta.2527",
+"iso": "Drug Test Anal",
+"jahr": "2018",
+"journal": "Drug testing and analysis",
+"korr": [],
+"mesh": [
+"Humans",
+"Norpregnadienes",
+"Androgens",
+"Magnetic Resonance Spectroscopy",
+"Substance Abuse Detection",
+"Doping in Sports",
+"Male",
+"Gas Chromatography-Mass Spectrometry",
+"Tandem Mass Spectrometry"
+],
+"pmcid": "",
+"pmid": "30379415",
+"quelle": "MED",
+"titel": "Studies on the in vivo metabolism of the SARM YK11: Identification and characterization of metabolites potentially useful for doping controls.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -45821,6 +47330,24 @@
 "Research Support, Non-U.S. Gov't",
 "Systematic Review",
 "systematic-review",
+"Journal Article"
+]
+},
+"pmid:30538538": {
+"autoren": "Hesselink JMK, Schatman ME.",
+"doi": "10.2147/jpr.s186082",
+"iso": "J Pain Res",
+"jahr": "2018",
+"journal": "Journal of pain research",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC6260176",
+"pmid": "30538538",
+"quelle": "MED",
+"titel": "Rediscovery of old drugs: the forgotten case of dermorphin for postoperative pain and palliation.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -46611,6 +48138,46 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:3080695": {
+"autoren": "Mitsumoto H, Salgado ED, Negroski D, Hanson MR, Salanga VD, Wilber JF, Wilbourn AJ, Breuer AC, Leatherman J.",
+"doi": "10.1212/wnl.36.2.152",
+"iso": "Neurology",
+"jahr": "1986",
+"journal": "Neurology",
+"korr": [],
+"mesh": [
+"Muscles",
+"Humans",
+"Amyotrophic Lateral Sclerosis",
+"Pulse",
+"Electromyography",
+"Infusions, Parenteral",
+"Injections, Intravenous",
+"Injections, Subcutaneous",
+"Double-Blind Method",
+"Random Allocation",
+"Isometric Contraction",
+"Time Factors",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Thyrotropin-Releasing Hormone",
+"Clinical Trials as Topic"
+],
+"pmcid": "",
+"pmid": "3080695",
+"quelle": "MED",
+"titel": "Amyotrophic lateral sclerosis: effects of acute intravenous and chronic subcutaneous administration of thyrotropin-releasing hormone in controlled trials.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -47657,6 +49224,42 @@
 "Observational Study"
 ]
 },
+"pmid:31262018": {
+"autoren": "Fang Y, He X, Zhang P, Shen C, Mwangi J, Xu C, Mo G, Lai R, Zhang Z.",
+"doi": "10.3390/toxins11070379",
+"iso": "Toxins (Basel)",
+"jahr": "2019",
+"journal": "Toxins",
+"korr": [],
+"mesh": [
+"Liver",
+"Erythrocytes",
+"Animals",
+"Mice",
+"Snakes",
+"Plasmodium berghei",
+"Plasmodium falciparum",
+"Malaria",
+"Alanine Transaminase",
+"Aspartate Aminotransferases",
+"Pyruvate Kinase",
+"Antimicrobial Cationic Peptides",
+"Adenosine Triphosphate",
+"Cytokines",
+"Antimalarials",
+"Male",
+"Cathelicidins"
+],
+"pmcid": "PMC6669622",
+"pmid": "31262018",
+"quelle": "MED",
+"titel": "In Vitro and In Vivo Antimalarial Activity of LZ1, a Peptide Derived from Snake Cathelicidin.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:31263284": {
 "autoren": "Depommier C, Everard A, Druart C, Plovier H, Van Hul M, Vieira-Silva S, Falony G, Raes J, Maiter D, Delzenne NM, de Barsy M, Loumaye A, Hermans MP, Thissen JP, de Vos WM, Cani PD.",
 "doi": "10.1038/s41591-019-0495-2",
@@ -47834,6 +49437,36 @@
 "typen": [
 "discussion",
 "Journal Article"
+]
+},
+"pmid:31337857": {
+"autoren": "Wang H, Zhao D, Nguyen LX, Wu H, Li L, Dong D, Troadec E, Zhu Y, Hoang DH, Stein AS, Al Malki M, Aldoss I, Lin A, Ghoda LY, McDonald T, Pichiorri F, Carlesso N, Kuo YH, Zhang B, Jin J, Marcucci G.",
+"doi": "10.1038/s41375-019-0522-9",
+"iso": "Leukemia",
+"jahr": "2020",
+"journal": "Leukemia",
+"korr": [],
+"mesh": [
+"Cell Membrane",
+"Animals",
+"Humans",
+"Mice",
+"Cell Survival",
+"Tumor Suppressor Protein p53",
+"Proto-Oncogene Proteins c-mdm2",
+"Neoplastic Stem Cells",
+"Leukemia, Myeloid, Acute",
+"Heterografts"
+],
+"pmcid": "PMC7951797",
+"pmid": "31337857",
+"quelle": "MED",
+"titel": "Targeting cell membrane HDM2: A novel therapeutic approach for acute myeloid leukemia.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:31397289": {
@@ -50012,6 +51645,35 @@
 "Journal Article"
 ]
 },
+"pmid:3235059": {
+"autoren": "Richter WO, Robl H, Schwandt P.",
+"doi": "",
+"iso": "Horm Metab Res Suppl",
+"jahr": "1988",
+"journal": "Hormone and metabolic research. Supplement series",
+"korr": [],
+"mesh": [
+"Adipose Tissue",
+"Humans",
+"Hormones",
+"Gastrointestinal Hormones",
+"Pituitary Hormones, Anterior",
+"Pituitary Hormones, Posterior",
+"Endorphins",
+"Lipolysis",
+"Kinetics",
+"Reference Values",
+"In Vitro Techniques"
+],
+"pmcid": "",
+"pmid": "3235059",
+"quelle": "MED",
+"titel": "On the in vitro lipolytic activity of peptide hormones in human adipose tissue.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:32362099": {
 "autoren": "Kuznik BI, Khasanova NB, Ryzhak GA, Mezsheriakova IE, Khavinson VK.",
 "doi": "",
@@ -50946,6 +52608,41 @@
 "Journal Article"
 ]
 },
+"pmid:3262625": {
+"autoren": "Prasad AS, Meftah S, Abdallah J, Kaplan J, Brewer GJ, Bach JF, Dardenne M.",
+"doi": "10.1172/jci113717",
+"iso": "J Clin Invest",
+"jahr": "1988",
+"journal": "The Journal of clinical investigation",
+"korr": [],
+"mesh": [
+"Blood Platelets",
+"Granulocytes",
+"Lymphocytes",
+"Humans",
+"Zinc",
+"Thymus Hormones",
+"Thymic Factor, Circulating",
+"Interleukin-2",
+"Diet",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC442670",
+"pmid": "3262625",
+"quelle": "MED",
+"titel": "Serum thymulin in human zinc deficiency.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
 "pmid:32637435": {
 "autoren": "Barbara M, Dhingra S, Mindikoglu AL.",
 "doi": "10.14309/crj.0000000000000370",
@@ -51397,6 +53094,33 @@
 "Meta-Analysis",
 "Systematic Review",
 "systematic-review",
+"Journal Article"
+]
+},
+"pmid:32805775": {
+"autoren": "Castro JL, Martucci MEP, Pereira HMG, de Sousa VP.",
+"doi": "10.1002/jms.4593",
+"iso": "J Mass Spectrom",
+"jahr": "2020",
+"journal": "Journal of mass spectrometry : JMS",
+"korr": [],
+"mesh": [
+"Humans",
+"Opioid Peptides",
+"Analgesics, Opioid",
+"Chromatography, High Pressure Liquid",
+"Substance Abuse Detection",
+"Doping in Sports",
+"Tandem Mass Spectrometry",
+"Solid Phase Extraction",
+"Limit of Detection"
+],
+"pmcid": "",
+"pmid": "32805775",
+"quelle": "MED",
+"titel": "A high throughput approach for determination of dermorphin in human urine using liquid chromatography-mass spectrometry for doping control purposes.",
+"typen": [
+"Validation Study",
 "Journal Article"
 ]
 },
@@ -52039,6 +53763,36 @@
 "Journal Article"
 ]
 },
+"pmid:3310925": {
+"autoren": "Amor B, Dougados M, Mery C, Dardenne M, Bach JF.",
+"doi": "10.1136/ard.46.7.549",
+"iso": "Ann Rheum Dis",
+"jahr": "1987",
+"journal": "Annals of the rheumatic diseases",
+"korr": [],
+"mesh": [
+"Humans",
+"Arthritis, Rheumatoid",
+"Thymus Hormones",
+"Thymic Factor, Circulating",
+"Double-Blind Method",
+"Random Allocation",
+"Dose-Response Relationship, Drug",
+"Female",
+"Male",
+"Clinical Trials as Topic"
+],
+"pmcid": "PMC1002191",
+"pmid": "3310925",
+"quelle": "MED",
+"titel": "Nonathymulin in rheumatoid arthritis: two double blind, placebo controlled trials.",
+"typen": [
+"Clinical Trial",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:33131010": {
 "autoren": "Conte M, Sabbatinelli J, Chiariello A, Martucci M, Santoro A, Monti D, Arcaro M, Galimberti D, Scarpini E, Bonfigli AR, Giuliani A, Olivieri F, Franceschi C, Salvioli S.",
 "doi": "10.1007/s11357-020-00287-w",
@@ -52346,6 +54100,43 @@
 "typen": [
 "research-article",
 "Practice Guideline",
+"Journal Article"
+]
+},
+"pmid:33247916": {
+"autoren": "Stiles CE, Lloyd G, Bhattacharyya S, Steeds RP, Boomla K, Bestwick JP, Drake WM.",
+"doi": "10.1210/clinem/dgaa882",
+"iso": "J Clin Endocrinol Metab",
+"jahr": "2021",
+"journal": "The Journal of clinical endocrinology and metabolism",
+"korr": [],
+"mesh": [
+"Heart Valves",
+"Humans",
+"Prolactinoma",
+"Pituitary Neoplasms",
+"Hyperprolactinemia",
+"Heart Valve Diseases",
+"Echocardiography",
+"Incidence",
+"Case-Control Studies",
+"Cohort Studies",
+"Adult",
+"Middle Aged",
+"Primary Health Care",
+"London",
+"Female",
+"Male",
+"Biomarkers",
+"Cabergoline"
+],
+"pmcid": "PMC7823250",
+"pmid": "33247916",
+"quelle": "MED",
+"titel": "Incidence of Cabergoline-Associated Valvulopathy in Primary Care Patients With Prolactinoma Using Hard Cardiac Endpoints.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -55814,6 +57605,22 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:35253885": {
+"autoren": "Lee BK, Park BB, Bower RJ.",
+"doi": "10.1093/milmed/usac039",
+"iso": "Mil Med",
+"jahr": "2023",
+"journal": "Military medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "35253885",
+"quelle": "MED",
+"titel": "Selective Androgen Receptor Modulator-Induced Liver Injury in Active Duty Male.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:35268011": {
 "autoren": "Kreider RB, Jäger R, Purpura M.",
 "doi": "10.3390/nu14051035",
@@ -58821,6 +60628,37 @@
 "Journal Article"
 ]
 },
+"pmid:36831222": {
+"autoren": "Ryu YC, Park J, Kim YR, Choi S, Kim GU, Kim E, Hwang Y, Kim H, Han G, Lee SH, Choi KY.",
+"doi": "10.3390/cells12040555",
+"iso": "Cells",
+"jahr": "2023",
+"journal": "Cells",
+"korr": [],
+"mesh": [
+"Hair",
+"Humans",
+"Alopecia",
+"DNA-Binding Proteins",
+"Transcription Factors",
+"Preimplantation Diagnosis",
+"Adolescent",
+"Aged",
+"Female",
+"Male",
+"beta Catenin",
+"Glycogen Synthase Kinase 3 beta"
+],
+"pmcid": "PMC9954685",
+"pmid": "36831222",
+"quelle": "MED",
+"titel": "CXXC5 Mediates DHT-Induced Androgenetic Alopecia via PGD<sub>2</sub>.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:36849732": {
 "autoren": "Witkowski M, Nemet I, Alamri H, Wilcox J, Gupta N, Nimer N, Haghikia A, Li XS, Wu Y, Saha PP, Demuth I, König M, Steinhagen-Thiessen E, Cajka T, Fiehn O, Landmesser U, Tang WHW, Hazen SL.",
 "doi": "10.1038/s41591-023-02223-9",
@@ -58903,6 +60741,23 @@
 "Journal Article"
 ]
 },
+"pmid:36896254": {
+"autoren": "Handelsman DJ, Gild M, Clifton-Bligh R, Speers N, Kouzios D, McMartin MC, Desai R.",
+"doi": "10.1210/jendso/bvad027",
+"iso": "J Endocr Soc",
+"jahr": "2023",
+"journal": "Journal of the Endocrine Society",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC9989342",
+"pmid": "36896254",
+"quelle": "MED",
+"titel": "Thyroid Hormone Abuse Among Elite Athletes.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:36909866": {
 "autoren": "Aruan RR, Hutabarat H, Widodo AA, Firdiyono MTCC, Wirawanty C, Fransiska L.",
 "doi": "",
@@ -58945,6 +60800,36 @@
 "Journal Article"
 ]
 },
+"pmid:3697765": {
+"autoren": "Sandrini G, Degli Uberti EC, Salvadori S, Margutti A, Trasforini G, Tomatis R, Nappi G, Pansini R.",
+"doi": "10.1016/0006-8993(86)90376-8",
+"iso": "Brain Res",
+"jahr": "1986",
+"journal": "Brain research",
+"korr": [],
+"mesh": [
+"Spinal Cord",
+"Nociceptors",
+"Humans",
+"Paraplegia",
+"Opioid Peptides",
+"Oligopeptides",
+"Reflex",
+"Infusions, Parenteral",
+"Neural Inhibition",
+"Time Factors",
+"Adult",
+"Male"
+],
+"pmcid": "",
+"pmid": "3697765",
+"quelle": "MED",
+"titel": "Dermorphin inhibits spinal nociceptive flexion reflex in humans.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:36978171": {
 "autoren": "Ladna M, Taylor K, Bhat A, Dideban B.",
 "doi": "10.1186/s13256-023-03847-8",
@@ -58972,6 +60857,23 @@
 "Journal Article",
 "Case Reports",
 "case-report"
+]
+},
+"pmid:36978418": {
+"autoren": "Ramata-Stunda A, Boroduskis M, Kaktina E, Patetko L, Kalnenieks U, Lasa Z, Rubina M, Strazdina I, Kalnins G, Rutkis R.",
+"doi": "10.3390/antibiotics12030551",
+"iso": "Antibiotics (Basel)",
+"jahr": "2023",
+"journal": "Antibiotics (Basel, Switzerland)",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC10044245",
+"pmid": "36978418",
+"quelle": "MED",
+"titel": "Comparative Evaluation of Existing and Rationally Designed Novel Antimicrobial Peptides for Treatment of Skin and Soft Tissue Infections.",
+"typen": [
+"research-article",
+"Journal Article"
 ]
 },
 "pmid:36979488": {
@@ -59980,6 +61882,37 @@
 "titel": "Presence and Quantity of Botanical Ingredients With Purported Performance-Enhancing Properties in Sports Supplements.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:37468001": {
+"autoren": "Dahleh MMM, Bortolotto VC, Guerra GP, Boeira SP, Prigol M.",
+"doi": "10.1016/j.jsbmb.2023.106364",
+"iso": "J Steroid Biochem Mol Biol",
+"jahr": "2023",
+"journal": "The Journal of steroid biochemistry and molecular biology",
+"korr": [],
+"mesh": [
+"Hippocampus",
+"Mitochondria",
+"Animals",
+"Humans",
+"Rats",
+"Rats, Wistar",
+"Norpregnadienes",
+"Androgen Antagonists",
+"Receptors, Androgen",
+"Androgens",
+"Oxidative Stress",
+"Male",
+"Molecular Docking Simulation"
+],
+"pmcid": "",
+"pmid": "37468001",
+"quelle": "MED",
+"titel": "YK11 induces oxidative stress and mitochondrial dysfunction in hippocampus: The interplay between a selective androgen receptor modulator (SARM) and exercise.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -61514,6 +63447,41 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:3831962": {
+"autoren": "Basso N, Marcelli M, Ginaldi A, De Marco M.",
+"doi": "10.1016/0196-9781(85)90371-7",
+"iso": "Peptides",
+"jahr": "1985",
+"journal": "Peptides",
+"korr": [],
+"mesh": [
+"Humans",
+"Postoperative Complications",
+"Pentazocine",
+"Morphine",
+"Opioid Peptides",
+"Oligopeptides",
+"Analgesics",
+"Postoperative Period",
+"Double-Blind Method",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "3831962",
+"quelle": "MED",
+"titel": "Intrathecal dermorphine in postoperative analgesia.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:38326288": {
 "autoren": "Welsh JA, Goberdhan DCI, O'Driscoll L, Buzas EI, Blenkiron C, Bussolati B, Cai H, Di Vizio D, Driedonks TAP, Erdbrügger U, Falcon-Perez JM, Fu QL, Hill AF, Lenassi M, Lim SK, Mahoney MG, Mohanty S, Möller A, Nieuwland R, Ochiya T, Sahoo S, Torrecilhas AC, Zheng L, Zijlstra A, Abuelreich S, Bagabas R, Bergese P, Bridges EM, Brucale M, Burger D, Carney RP, Cocucci E, Crescitelli R, Hanser E, Harris AL, Haughey NJ, Hendrix A, Ivanov AR, Jovanovic-Talisman T, Kruh-Garcia NA, Ku'ulei-Lyn Faustino V, Kyburz D, Lässer C, Lennon KM, Lötvall J, Maddox AL, Martens-Uzunova ES, Mizenko RR, Newman LA, Ridolfi A, Rohde E, Rojalin T, Rowland A, Saftics A, Sandau US, Saugstad JA, Shekari F, Swift S, Ter-Ovanesyan D, Tosar JP, Useckaite Z, Valle F, Varga Z, van der Pol E, van Herwijnen MJC, Wauben MHM, Wehman AM, Williams S, Zendrini A, Zimmerman AJ, MISEV Consortium, Théry C, Witwer KW.",
 "doi": "10.1002/jev2.12404",
@@ -62001,6 +63969,36 @@
 "Journal Article"
 ]
 },
+"pmid:38521455": {
+"autoren": "Dahleh MMM, Bortolotto VC, Boeira SP, Segat HJ, Guerra GP, Prigol M.",
+"doi": "10.1016/j.cbi.2024.110971",
+"iso": "Chem Biol Interact",
+"jahr": "2024",
+"journal": "Chemico-biological interactions",
+"korr": [],
+"mesh": [
+"Hippocampus",
+"Animals",
+"Rats",
+"Rats, Sprague-Dawley",
+"Cholestenone 5 alpha-Reductase",
+"Receptor, trkB",
+"Brain-Derived Neurotrophic Factor",
+"Receptors, Androgen",
+"Physical Conditioning, Animal",
+"Apoptosis",
+"Male",
+"3-Oxo-5-alpha-Steroid 4-Dehydrogenase",
+"Molecular Docking Simulation"
+],
+"pmcid": "",
+"pmid": "38521455",
+"quelle": "MED",
+"titel": "From gains to gaps? How Selective Androgen Receptor Modulator (SARM) YK11 impact hippocampal function: In silico, in vivo, and ex vivo perspectives.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:38541865": {
 "autoren": "Zafar T, Zaki S, Alam MF, Sharma S, Babkair RA, Nuhmani S, Pandita S.",
 "doi": "10.3390/jcm13061639",
@@ -62483,6 +64481,24 @@
 "typen": [
 "Meta-Analysis",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:38927351": {
+"autoren": "Pincus MR, Silberstein M, Zohar N, Sarafraz-Yazdi E, Bowne WB.",
+"doi": "10.3390/biomedicines12061144",
+"iso": "Biomedicines",
+"jahr": "2024",
+"journal": "Biomedicines",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11201261",
+"pmid": "38927351",
+"quelle": "MED",
+"titel": "Poptosis or Peptide-Induced Transmembrane Pore Formation: A Novel Way to Kill Cancer Cells without Affecting Normal Cells.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -64651,6 +66667,36 @@
 "Journal Article"
 ]
 },
+"pmid:3999975": {
+"autoren": "Richter WO, Schwandt P.",
+"doi": "10.1016/0026-0495(85)90191-x",
+"iso": "Metabolism",
+"jahr": "1985",
+"journal": "Metabolism: clinical and experimental",
+"korr": [],
+"mesh": [
+"Adipose Tissue",
+"Animals",
+"Swine",
+"Rabbits",
+"Glycerol",
+"Chromatography, High Pressure Liquid",
+"Perfusion",
+"Lipolysis",
+"Female",
+"Melanocyte-Stimulating Hormones",
+"beta-Lipotropin",
+"In Vitro Techniques"
+],
+"pmcid": "",
+"pmid": "3999975",
+"quelle": "MED",
+"titel": "Physiologic concentrations of beta-lipotropin stimulate lipolysis in rabbit adipocytes.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:40014233": {
 "autoren": "Hecht KA, Marwah M, Wood V, Nishida Y, Bach AE, Gerson J, Hom MM, Schnackenberg J, Raote S, Srivastava S, Negi P, Caston E.",
 "doi": "10.1007/s12325-025-03125-7",
@@ -65794,6 +67840,44 @@
 "Journal Article"
 ]
 },
+"pmid:40367374": {
+"autoren": "Dauvilliers Y, Plazzi G, Mignot E, Lammers GJ, Del Río Villegas R, Khatami R, Taniguchi M, Abraham A, Hang Y, Kadali H, Lamberton M, Sheikh S, Stukalin E, Neuwirth R, Swick TJ, Tanaka S, von Hehn C, von Rosenstiel P, Wang H, Cai A, Naylor M, Olsson T.",
+"doi": "10.1056/nejmoa2405847",
+"iso": "N Engl J Med",
+"jahr": "2025",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Narcolepsy",
+"Cataplexy",
+"Sleep Initiation and Maintenance Disorders",
+"Treatment Outcome",
+"Administration, Oral",
+"Incidence",
+"Double-Blind Method",
+"Wakefulness",
+"Urination",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Orexin Receptors",
+"Sleep Latency"
+],
+"pmcid": "",
+"pmid": "40367374",
+"quelle": "MED",
+"titel": "Oveporexton, an Oral Orexin Receptor 2-Selective Agonist, in Narcolepsy Type 1.",
+"typen": [
+"Clinical Trial, Phase II",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40392566": {
 "autoren": "Wei K, Zhang Q, Chen C, Yang Y, Sun S, Wang L, Chen X, Luo X, Chen Q.",
 "doi": "10.1093/gerona/glaf109",
@@ -65844,6 +67928,38 @@
 "typen": [
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:4040026": {
+"autoren": "Broccardo M, Improta G, Negri L, Melchiorri P.",
+"doi": "10.1016/0014-2999(85)90028-7",
+"iso": "Eur J Pharmacol",
+"jahr": "1985",
+"journal": "European journal of pharmacology",
+"korr": [],
+"mesh": [
+"Animals",
+"Rats, Inbred Strains",
+"Humans",
+"Rats",
+"Catalepsy",
+"Opioid-Related Disorders",
+"Morphine",
+"Naloxone",
+"Opioid Peptides",
+"Oligopeptides",
+"Narcotics",
+"Brain Chemistry",
+"Drug Tolerance",
+"Male"
+],
+"pmcid": "",
+"pmid": "4040026",
+"quelle": "MED",
+"titel": "Tolerance and physical dependence induced by dermorphin in rats.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -66029,6 +68145,31 @@
 "typen": [
 "Research Support, N.I.H., Intramural",
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:40480033": {
+"autoren": "Penchev P, Milanova-Ilieva D, Gaydarski L, Husain N, Chenkov Y, Petrov PP, Kirovakov Z, Stanchev P.",
+"doi": "10.1016/j.jocn.2025.111363",
+"iso": "J Clin Neurosci",
+"jahr": "2025",
+"journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+"korr": [],
+"mesh": [
+"Humans",
+"Prolactinoma",
+"Pituitary Neoplasms",
+"Dopamine Agonists",
+"Male",
+"Disruptive, Impulse Control, and Conduct Disorders"
+],
+"pmcid": "",
+"pmid": "40480033",
+"quelle": "MED",
+"titel": "Impulse control disorders in prolactinoma patients treated with dopamine agonists: a systematic review and meta-analysis with trial sequential analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -67820,6 +69961,37 @@
 "Journal Article"
 ]
 },
+"pmid:40887499": {
+"autoren": "Lee SH, Kang MJ, Roh MR, Choi KY.",
+"doi": "10.1038/s12276-025-01532-y",
+"iso": "Exp Mol Med",
+"jahr": "2025",
+"journal": "Experimental & molecular medicine",
+"korr": [],
+"mesh": [
+"Cell Line, Tumor",
+"Animals",
+"Humans",
+"Mice",
+"Carcinoma, Squamous Cell",
+"Skin Neoplasms",
+"CDC2 Protein Kinase",
+"Antineoplastic Agents",
+"Down-Regulation",
+"Gene Expression Regulation, Neoplastic",
+"beta Catenin",
+"Small Molecule Libraries",
+"Wnt Signaling Pathway"
+],
+"pmcid": "PMC12508097",
+"pmid": "40887499",
+"quelle": "MED",
+"titel": "Novel small molecules downregulate CDK1 expression and inhibit Wnt/β-catenin signaling in cutaneous squamous cell carcinoma by targeting its distinct tumor-specific cellular landscape.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:40898469": {
 "autoren": "Zhang H, Yang Y, Liu S, Yang Y, Liu Z.",
 "doi": "10.1097/md.0000000000044043",
@@ -68321,6 +70493,32 @@
 "Journal Article"
 ]
 },
+"pmid:41032454": {
+"autoren": "Easton J, Grant B, Spurling G, Magnolini R, Piatkowski T.",
+"doi": "10.1111/dar.70042",
+"iso": "Drug Alcohol Rev",
+"jahr": "2025",
+"journal": "Drug and alcohol review",
+"korr": [],
+"mesh": [
+"Humans",
+"Substance Withdrawal Syndrome",
+"Anabolic Agents",
+"Australia",
+"Female",
+"Male",
+"Social Media"
+],
+"pmcid": "PMC12581923",
+"pmid": "41032454",
+"quelle": "MED",
+"titel": "Looking for the Best Way to Come Off Steroids Safely? Exploring Post-Cycle Therapy, Cessation, and Recovery Discourse and Practice in Australian Steroid Consumer Forums.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:41041444": {
 "autoren": "Yin F, Wu H, Tong D, Luo G, Deng Z, Yan Q, Zhang Y.",
 "doi": "10.3389/fmed.2025.1636181",
@@ -68472,6 +70670,24 @@
 "Systematic Review",
 "systematic-review",
 "Journal Article"
+]
+},
+"pmid:41090118": {
+"autoren": "Yuan F, Zhang P, Liu M, Li Y, Xu B, Li X.",
+"doi": "10.3389/fmed.2025.1634101",
+"iso": "Front Med (Lausanne)",
+"jahr": "2025",
+"journal": "Frontiers in medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12515876",
+"pmid": "41090118",
+"quelle": "MED",
+"titel": "Pharmacogenomic analysis of alarelin acetate-induced hepatotoxicity: a case report and literature review.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
 ]
 },
 "pmid:41090431": {
@@ -69376,6 +71592,24 @@
 "quelle": "MED",
 "titel": "Coenzyme Q10 supplementation increases blood concentrations but shows limited and inconsistent effects on exercise performance: a systematic review and meta-analysis.",
 "typen": [
+"Review",
+"Journal Article"
+]
+},
+"pmid:41471297": {
+"autoren": "Skrzypiec-Spring M, Kujawa K, Wietrzyk A, Matuła P, Materna M, Michalska W, Szumny D, Szeląg A.",
+"doi": "10.3390/ph18121808",
+"iso": "Pharmaceuticals (Basel)",
+"jahr": "2025",
+"journal": "Pharmaceuticals (Basel, Switzerland)",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12736065",
+"pmid": "41471297",
+"quelle": "MED",
+"titel": "Poisoning with Thyroid Hormones Used Illegally-Systematic Review.",
+"typen": [
+"review-article",
 "Review",
 "Journal Article"
 ]
@@ -72882,6 +75116,41 @@
 "Journal Article"
 ]
 },
+"pmid:42481458": {
+"autoren": "Kanemaru H, Luong S, Yamamoto Y, Mizukami Y, Ito F.",
+"doi": "10.1038/s41467-026-75383-0",
+"iso": "Nat Commun",
+"jahr": "2026",
+"journal": "Nature communications",
+"korr": [],
+"mesh": [
+"Cell Line, Tumor",
+"Myeloid Cells",
+"Animals",
+"Mice, Inbred C57BL",
+"Humans",
+"Mice",
+"Neoplasms",
+"Inflammation",
+"Thymic Factor, Circulating",
+"NF-kappa B",
+"Cytokines",
+"Immunotherapy",
+"Signal Transduction",
+"Aging",
+"Female",
+"Tumor Microenvironment"
+],
+"pmcid": "PMC13389034",
+"pmid": "42481458",
+"quelle": "MED",
+"titel": "Thymulin restrains age-associated myeloid inflammation and enhances cancer immunotherapy.",
+"typen": [
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:42506369": {
 "autoren": "Bajić D, Andrijević L, Todorović N, Lalić-Popović M, Zarić B, Dimić S, Stojčević Maletić J, Lendak D, Milijašević B, Milošević N.",
 "doi": "10.3390/medsci14030400",
@@ -73708,6 +75977,43 @@
 "Journal Article"
 ]
 },
+"pmid:42714024": {
+"autoren": "Dauvilliers Y, Mignot E, Antczak J, Arnulf I, Barateau L, Buntinx E, Corser B, Iranzo A, Khatami R, Lammers GJ, Lederer K, Nilsen KB, Pizza F, Schmidt MH, Sivam S, Sum-Ping O, Taniguchi M, Zhan S, Abraham A, Cai A, Du Y, Etherton MR, Faessel H, Hsiao S, Kadali H, Koundourakis E, Naylor M, Neuwirth R, Olsson T, Rogers R, Sheikh S, Tanaka S, von Rosenstiel P, von Hehn C, Hang Y, Yao B, Del Rio Villegas R, Plazzi G, The First Light and The Radiant Light.",
+"doi": "10.1056/nejmoa2601598",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Narcolepsy",
+"Sleep Initiation and Maintenance Disorders",
+"Treatment Outcome",
+"Double-Blind Method",
+"Wakefulness",
+"Sleep",
+"Urination",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Orexin Receptors",
+"Sleep Latency"
+],
+"pmcid": "",
+"pmid": "42714024",
+"quelle": "MED",
+"titel": "Oveporexton for Narcolepsy Type 1 - Results from Two Phase 3 Trials.",
+"typen": [
+"Clinical Trial, Phase III",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42729683": {
 "autoren": "Guo J, Chen H.",
 "doi": "10.3389/fphar.2026.1933018",
@@ -74165,6 +76471,41 @@
 "Journal Article"
 ]
 },
+"pmid:6124716": {
+"autoren": "Bordigoni P, Faure G, Bene MC, Dardenne M, Bach JF, Duheille J, Olive D.",
+"doi": "10.1016/s0140-6736(82)90271-9",
+"iso": "Lancet",
+"jahr": "1982",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Bronchiectasis",
+"Ataxia Telangiectasia",
+"Dysgammaglobulinemia",
+"IgA Deficiency",
+"Thymus Hormones",
+"Thymic Factor, Circulating",
+"Immunoglobulin A",
+"Immunoglobulin E",
+"Injections, Intravenous",
+"Antibody Formation",
+"Immunity, Cellular",
+"Adolescent",
+"Child",
+"Child, Preschool",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "6124716",
+"quelle": "MED",
+"titel": "Improvement of cellular immunity and IgA production in immunodeficient children after treatment with synthetic serum thymic factor (FTS).",
+"typen": [
+"Journal Article",
+"Case Reports"
+]
+},
 "pmid:6145137": {
 "autoren": "Graf MV, Kastin AJ.",
 "doi": "10.1016/0149-7634(84)90022-8",
@@ -74580,6 +76921,34 @@
 "Journal Article"
 ]
 },
+"pmid:6957870": {
+"autoren": "Dardenne M, Pléau JM, Nabarra B, Lefrancier P, Derrien M, Choay J, Bach JF.",
+"doi": "10.1073/pnas.79.17.5370",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "1982",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Lymphocytes",
+"Animals",
+"Mice, Inbred C57BL",
+"Mice",
+"Zinc",
+"Thymus Hormones",
+"Thymic Factor, Circulating",
+"Thymectomy",
+"Biological Assay",
+"Rosette Formation"
+],
+"pmcid": "PMC346898",
+"pmid": "6957870",
+"quelle": "MED",
+"titel": "Contribution of zinc and other metals to the biological activity of the serum thymic factor.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:7162387": {
 "autoren": "Gray ME, Titlow LW.",
 "doi": "10.1249/00005768-198206000-00003",
@@ -74609,6 +76978,56 @@
 "Controlled Clinical Trial",
 "Clinical Trial",
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:7228494": {
+"autoren": "Li CH, Chung D.",
+"doi": "10.1111/j.1399-3011.1981.tb01976.x",
+"iso": "Int J Pept Protein Res",
+"jahr": "1981",
+"journal": "International journal of peptide and protein research",
+"korr": [],
+"mesh": [
+"Humans",
+"Pituitary Hormones, Anterior",
+"Amino Acids",
+"Amino Acid Sequence",
+"beta-Lipotropin"
+],
+"pmcid": "",
+"pmid": "7228494",
+"quelle": "MED",
+"titel": "Isolation, characterization and amino acid sequence of beta-lipotropin from human pituitary glands.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:7287299": {
+"autoren": "Montecucchi PC, de Castiglione R, Piani S, Gozzini L, Erspamer V.",
+"doi": "10.1111/j.1399-3011.1981.tb01993.x",
+"iso": "Int J Pept Protein Res",
+"jahr": "1981",
+"journal": "International journal of peptide and protein research",
+"korr": [],
+"mesh": [
+"Skin",
+"Animals",
+"Anura",
+"Amino Acids",
+"Opioid Peptides",
+"Endorphins",
+"Oligopeptides",
+"Biological Assay",
+"Amino Acid Sequence"
+],
+"pmcid": "",
+"pmid": "7287299",
+"quelle": "MED",
+"titel": "Amino acid composition and sequence of dermorphin, a novel opiate-like peptide from the skin of Phyllomedusa sauvagei.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -74879,6 +77298,41 @@
 "Journal Article"
 ]
 },
+"pmid:7707809": {
+"autoren": "",
+"doi": "10.1016/s0022-3476(95)70186-9",
+"iso": "Lancet",
+"jahr": "1995",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Respiratory Distress Syndrome, Newborn",
+"Adrenal Cortex Hormones",
+"Apgar Score",
+"Infusions, Intravenous",
+"Gestational Age",
+"Pregnancy",
+"Maternal-Fetal Exchange",
+"Pregnancy, Multiple",
+"Infant, Newborn",
+"Australia",
+"Female",
+"Obstetric Labor, Premature",
+"Thyrotropin-Releasing Hormone"
+],
+"pmcid": "",
+"pmid": "7707809",
+"quelle": "MED",
+"titel": "Australian collaborative trial of antenatal thyrotropin-releasing hormone (ACTOBAT) for prevention of neonatal respiratory disease.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:7744080": {
 "autoren": "Corton JM, Gillespie JG, Hawley SA, Hardie DG.",
 "doi": "10.1111/j.1432-1033.1995.tb20498.x",
@@ -75057,6 +77511,74 @@
 "Clinical Trial",
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:7915824": {
+"autoren": "Webster J, Piscitelli G, Polli A, Ferrari CI, Ismail I, Scanlon MF.",
+"doi": "10.1056/nejm199410063311403",
+"iso": "N Engl J Med",
+"jahr": "1994",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Hyperprolactinemia",
+"Amenorrhea",
+"Ergolines",
+"Bromocriptine",
+"Prolactin",
+"Dopamine Agents",
+"Double-Blind Method",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Female",
+"Cabergoline"
+],
+"pmcid": "",
+"pmid": "7915824",
+"quelle": "MED",
+"titel": "A comparison of cabergoline and bromocriptine in the treatment of hyperprolactinemic amenorrhea. Cabergoline Comparative Study Group.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:7935681": {
+"autoren": "Sawin CT, Geller A, Wolf PA, Belanger AJ, Baker E, Bacharach P, Wilson PW, Benjamin EJ, D'Agostino RB.",
+"doi": "10.1056/nejm199411103311901",
+"iso": "N Engl J Med",
+"jahr": "1994",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Atrial Fibrillation",
+"Hyperthyroidism",
+"Thyrotropin",
+"Thyroxine",
+"Incidence",
+"Confidence Intervals",
+"Risk Factors",
+"Follow-Up Studies",
+"Age Factors",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "7935681",
+"quelle": "MED",
+"titel": "Low serum thyrotropin concentrations as a risk factor for atrial fibrillation in older persons.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, U.S. Gov't, Non-P.H.S.",
 "Journal Article"
 ]
 },
@@ -75314,6 +77836,36 @@
 "titel": "The influence of a low-boron diet and boron supplementation on bone, major mineral and sex steroid metabolism in postmenopausal women.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:8364132": {
+"autoren": "Brignola C, Belloli C, De Simone G, Evangelisti A, Parente R, Mancini R, Iannone P, Mocheggiani E, Fabris N, Morini MC.",
+"doi": "10.1111/j.1365-2036.1993.tb00098.x",
+"iso": "Aliment Pharmacol Ther",
+"jahr": "1993",
+"journal": "Alimentary pharmacology & therapeutics",
+"korr": [],
+"mesh": [
+"Thymus Gland",
+"Lymphocytes",
+"Humans",
+"Crohn Disease",
+"Zinc",
+"Thymus Hormones",
+"Blood Cell Count",
+"Leukocyte Count",
+"Double-Blind Method",
+"Nutritional Status",
+"Adult"
+],
+"pmcid": "",
+"pmid": "8364132",
+"quelle": "MED",
+"titel": "Zinc supplementation restores plasma concentrations of zinc and thymulin in patients with Crohn's disease.",
+"typen": [
+"Clinical Trial",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -76038,6 +78590,76 @@
 "Journal Article"
 ]
 },
+"pmid:9024949": {
+"autoren": "Callahan AM, Frye MA, Marangell LB, George MS, Ketter TA, L'Herrou T, Post RM.",
+"doi": "10.1016/s0006-3223(97)00372-7",
+"iso": "Biol Psychiatry",
+"jahr": "1997",
+"journal": "Biological psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Antidepressive Agents",
+"Injections, Intravenous",
+"Injections, Spinal",
+"Injections, Subcutaneous",
+"Double-Blind Method",
+"Affect",
+"Bipolar Disorder",
+"Psychiatric Status Rating Scales",
+"Drug Tolerance",
+"Middle Aged",
+"Female",
+"Male",
+"Thyrotropin-Releasing Hormone"
+],
+"pmcid": "",
+"pmid": "9024949",
+"quelle": "MED",
+"titel": "Comparative antidepressant effects of intravenous and intrathecal thyrotropin-releasing hormone: confounding effects of tolerance and implications for therapeutics.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article",
+"Case Reports"
+]
+},
+"pmid:9075462": {
+"autoren": "Marangell LB, George MS, Callahan AM, Ketter TA, Pazzaglia PJ, L'Herrou TA, Leverich GS, Post RM.",
+"doi": "10.1001/archpsyc.1997.01830150034007",
+"iso": "Arch Gen Psychiatry",
+"jahr": "1997",
+"journal": "Archives of general psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Hospitalization",
+"Injections, Spinal",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Affect",
+"Depressive Disorder",
+"Psychiatric Status Rating Scales",
+"Personality Inventory",
+"Middle Aged",
+"Female",
+"Male",
+"Thyrotropin-Releasing Hormone"
+],
+"pmcid": "",
+"pmid": "9075462",
+"quelle": "MED",
+"titel": "Effects of intrathecal thyrotropin-releasing hormone (protirelin) in refractory depressed patients.",
+"typen": [
+"Controlled Clinical Trial",
+"Clinical Trial",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:9081552": {
 "autoren": "Sabelli H, Fink P, Fawcett J, Tom C.",
 "doi": "10.1176/jnp.8.2.168",
@@ -76360,6 +78982,48 @@
 "Journal Article"
 ]
 },
+"pmid:9419374": {
+"autoren": "de Lecea L, Kilduff TS, Peyron C, Gao X, Foye PE, Danielson PE, Fukuhara C, Battenberg EL, Gautvik VT, Bartlett FS, Frankel WN, van den Pol AN, Bloom FE, Gautvik KM, Sutcliffe JG.",
+"doi": "10.1073/pnas.95.1.322",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "1998",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Hypothalamus, Posterior",
+"Neurons",
+"Synaptic Vesicles",
+"Chromosomes",
+"Animals",
+"Mice",
+"Rats",
+"Rats, Wistar",
+"Secretin",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Carrier Proteins",
+"Protein Precursors",
+"Neurotransmitter Agents",
+"Amino Acid Sequence",
+"Base Sequence",
+"Consensus Sequence",
+"Homeostasis",
+"Molecular Sequence Data",
+"Male",
+"Orexins"
+],
+"pmcid": "PMC18213",
+"pmid": "9419374",
+"quelle": "MED",
+"titel": "The hypocretins: hypothalamus-specific peptides with neuroexcitatory activity.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
 "pmid:9450772": {
 "autoren": "",
 "doi": "10.1002/ana.410430115",
@@ -76427,6 +79091,92 @@
 "typen": [
 "Review",
 "Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
+"pmid:9468465": {
+"autoren": "Ballard RA, Ballard PL, Cnaan A, Pinto-Martin J, Davis DJ, Padbury JF, Phibbs RH, Parer JT, Hart MC, Mannino FL, Sawai SK.",
+"doi": "10.1056/nejm199802193380802",
+"iso": "N Engl J Med",
+"jahr": "1998",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Lung Diseases",
+"Respiratory Distress Syndrome, Newborn",
+"Infant, Premature, Diseases",
+"Chronic Disease",
+"Dexamethasone",
+"Glucocorticoids",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Prenatal Care",
+"Double-Blind Method",
+"Pregnancy",
+"Adult",
+"Infant, Newborn",
+"Infant, Premature",
+"Female",
+"Obstetric Labor, Premature",
+"Male",
+"Thyrotropin-Releasing Hormone"
+],
+"pmcid": "",
+"pmid": "9468465",
+"quelle": "MED",
+"titel": "Antenatal thyrotropin-releasing hormone to prevent lung disease in preterm infants. North American Thyrotropin-Releasing Hormone Study Group.",
+"typen": [
+"Clinical Trial",
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:9491897": {
+"autoren": "Sakurai T, Amemiya A, Ishii M, Matsuzaki I, Chemelli RM, Tanaka H, Williams SC, Richardson JA, Kozlowski GP, Wilson S, Arch JR, Buckingham RE, Haynes AC, Carr SA, Annan RS, McNulty DE, Liu WS, Terrett JA, Elshourbagy NA, Bergsma DJ, Yanagisawa M.",
+"doi": "10.1016/s0092-8674(00)80949-6",
+"iso": "Cell",
+"jahr": "1998",
+"journal": "Cell",
+"korr": [],
+"mesh": [
+"Kidney",
+"Hypothalamus",
+"Neurons",
+"CHO Cells",
+"Animals",
+"Rabbits",
+"Humans",
+"Rats",
+"Rats, Wistar",
+"GTP-Binding Proteins",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Carrier Proteins",
+"Receptors, G-Protein-Coupled",
+"Receptors, Neuropeptide",
+"Protein Precursors",
+"RNA, Messenger",
+"Chromatography, High Pressure Liquid",
+"Fasting",
+"Feeding Behavior",
+"Sequence Homology, Amino Acid",
+"Molecular Sequence Data",
+"Cricetinae",
+"Male",
+"Orexin Receptors",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "9491897",
+"quelle": "MED",
+"titel": "Orexins and orexin receptors: a family of hypothalamic neuropeptides and G protein-coupled receptors that regulate feeding behavior.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },

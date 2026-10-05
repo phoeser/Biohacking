@@ -472,5 +472,46 @@ const KHAVINSON = [
       { title: 'Khavinson et al. 2022, Int J Mol Sci – Transport ultrakurzer Peptide (Crystagen als Immunprotektor gelistet)', url: 'https://pubmed.ncbi.nlm.nih.gov/35887081/' }
     ],
     community: []
+  },
+  {
+    id: 'kh-ovagen',
+    name: 'Ovagen',
+    altNames: 'EDL · Glu-Asp-Leu · T-35 (nicht zu verwechseln mit Livagen, Lys-Glu-Asp-Ala, oder mit dem Eierstock-Komplex Zhenoluten)',
+    class: 'Tripeptid, als Leber-Bioregulator vermarktet; im Patent als Leber-Peptid, in der Fachliteratur vor allem als Nieren-Peptid untersucht',
+    emoji: '🟫',
+    short: 'Kurzpeptid der Khavinson-Schule aus Glutaminsäure, Asparaginsäure und Leucin, verkauft als Leber-Bioregulator. Der Name klingt nach Eierstock, gemeint ist Leber: Das Entwicklerpatent beschreibt Lebergewebe, die begutachtete Literatur fast ausschließlich die Niere der Ratte. Die einzige Anwendung am Menschen steht als Beispiel im Patent.',
+    moa: 'Nach der Hypothese der Khavinson-Schule gelangen ultrakurze Peptide in den Zellkern, binden an DNA und Histone und verändern so die Ablesung von Genen im Zielgewebe. Für EDL ist das in Zellkultur und Tiermodell nachgezeichnet: In alternden Nierenzellkulturen senkten AED und EDL die Alterungsmarker p16, p21 und p53, steigerten SIRT-6 und die Zellteilung, und ein Modell ordnet die Bindung der Peptide der kleinen Furche AT-reicher DNA-Abschnitte zu. In einer zweiten Arbeit derselben Gruppe war die Gelatinase MMP-14, ein Enzym des Gewebeumbaus, das eigentliche Ziel von EDL, während das Schwesterpeptid AED die Zellerneuerung antrieb – die Gewebespezifität ist also auch hier nicht scharf. Im Lebermodell des Patents steigerte EDL das Wachstum von Leberexplantaten und die Zellteilung nach Teilentfernung der Leber. Wie das geschluckte Peptid in Leber oder Niere ankommt, ist nur per Computermodell über die Transporter PEPT und LAT betrachtet, nicht am Menschen gemessen.',
+    benefits: [
+      'Leberexplantate von 27 Wistar-Ratten: Wachstumsfläche bei 10 ng pro Milliliter um 28 Prozent über der Kontrolle (Patent WO2007139430, Organkultur).',
+      'Nach Entfernung von zwei Dritteln der Leber bei 18 Ratten: nach 96 Stunden doppelt so viele Zellteilungen und 75 Prozent mehr teilungsaktive Zellen als unter Kochsalz (Patent, Tierversuch).',
+      'Leberzirrhose-Modell mit Tetrachlorkohlenstoff an 45 Ratten: normalisierte Werte für Bilirubin, ALT und AST (Patent, Tierversuch).',
+      'Niere: In Modellen für akutes Nierenversagen durch Gentamicin, Durchblutungsstopp und Cisplatin verhinderte EDL bei Ratten den Harnmengenabfall und die Harnstofferhöhung, senkte die Eiweißausscheidung und stützte die antioxidativen Enzyme (Zamorskii et al. 2015, 2017).',
+      'Alte Ratten: Harnmenge um das 1,2- bis 1,4-Fache, Natriumausscheidung um das 1,6-Fache erhöht, ohne Hinweis auf Nierenschäden (Zamorskii et al. 2018).',
+      'Einzige Anwendung am Menschen: 34 Patienten mit chronischer Hepatitis im Alter von 30 bis 56 Jahren, dazu eine Kontrollgruppe von 15 Patienten mit herkömmlicher Behandlung; 89 Prozent der Behandelten berichteten über weniger Erschöpfung und besseren Appetit, 53 Prozent über deutlich weniger Schmerzen, dazu normalisierten sich Bilirubin und ALT. Randomisierung oder Verblindung sind im Patent nicht beschrieben.'
+    ],
+    risks: [
+      'Keine begutachtete Studie am Menschen; die einzige Patientenanwendung steht im Patent der Entwickler, ohne Randomisierung, Verblindung oder veröffentlichte Einzelwerte der Kontrollgruppe. ClinicalTrials.gov führt keinen Eintrag.',
+      'Behandelt wurde im Patent per Injektion; ob das Peptid als Kapsel beim Menschen überhaupt ankommt, ist nicht gemessen.',
+      'Die begutachtete Literatur betrifft überwiegend die Niere der Ratte, der Verkauf dagegen die Leber – die Übertragung auf den Menschen ist in beiden Richtungen offen.',
+      'Der Name führt in die Irre: Ovagen hat mit Eierstöcken nichts zu tun, und die Verwechslung mit dem Leber-Tetrapeptid Livagen (KEDA) ist in Shops verbreitet.',
+      'Fettleber, alkoholbedingte Leberschäden und Leberfibrose beim Menschen sind nie gezielt untersucht; aktive Lebererkrankungen und Nierenerkrankungen gehören in ärztliche Behandlung, und Wechselwirkungen mit Medikamenten sind nicht untersucht.',
+      'Research-Ware mit ungeprüftem Gehalt und Reinheit; Sicherheitsdaten stammen aus Tierversuchen der Patentschrift.',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
+    ],
+    status: 'In DE/EU nicht als Arzneimittel zugelassen; als Nahrungsergänzungsmittel fehlt die nach der Novel-Food-Verordnung (EU) 2015/2283 nötige Genehmigung. Patentiert als Peptid zur Anregung der Leberregeneration (RU 2297239, WO2007139430, Priorität 30.05.2006). Gehandelt als Kapselpräparat oder Forschungspeptid. WADA 2026: als nicht zugelassene Substanz unter S0 jederzeit verboten.',
+    sources: [
+      { title: 'Khavinson et al., Patent WO2007139430 – H-Glu-Asp-Leu-OH für die Leberregeneration: Organkultur, Tiermodelle, Toxikologie, Patientenbeispiel', url: 'https://patents.google.com/patent/WO2007139430A1/en' },
+      { title: 'Zamorskii et al., Bull Exp Biol Med 2017 – nierenschützende Wirkung von EDL bei akutem Nierenschaden', url: 'https://pubmed.ncbi.nlm.nih.gov/28744634/' },
+      { title: 'Zamorskii et al., Bull Exp Biol Med 2015 – Peptide bei Cisplatin-bedingtem akutem Nierenversagen', url: 'https://pubmed.ncbi.nlm.nih.gov/26515176/' },
+      { title: 'Zamorskii et al., Adv Gerontol 2018 – Peptide und die Nierenfunktion alter Ratten (russisch)', url: 'https://pubmed.ncbi.nlm.nih.gov/30607912/' },
+      { title: 'Khavinson et al., Adv Gerontol 2014 – AED und EDL bremsen die Alterung in Nierenzellkulturen (russisch)', url: 'https://pubmed.ncbi.nlm.nih.gov/25946838/' },
+      { title: 'Khavinson et al., Bull Exp Biol Med 2014 – Signalmoleküle in alternden Nierenzellkulturen, MMP-14 als Ziel von EDL', url: 'https://pubmed.ncbi.nlm.nih.gov/24958378/' },
+      { title: 'Khavinson et al., Molecules 2021 – Peptide und Genexpression: EDL (Ovagen) als Nieren- und Leberpeptid (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/34834147/' },
+      { title: 'Khavinson et al., Int J Mol Sci 2022 – Transport ultrakurzer Peptide über POT- und LAT-Träger (Ovagen gelistet)', url: 'https://pubmed.ncbi.nlm.nih.gov/35887081/' },
+      { title: 'ClinicalTrials.gov – Suche nach Ovagen ohne eingetragene Studie', url: 'https://clinicaltrials.gov/search?term=ovagen' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: []
   }
+
 ];
