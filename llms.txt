@@ -804,4 +804,4 @@ Inhalte sind Information, kein medizinischer Rat.
 - Entscheidungsfragen („X oder Y?") sind unter /vergleich/<a>-vs-<b>.html beantwortet
 - Alltagsfragen sind unter /problem/<id>.html beantwortet, mit Warnzeichen für ärztliche Abklärung
 - Quellenangaben stehen auf jeder Seite; Studien sind namentlich genannt und verlinkt
-- Stand der Seite: 2026-09-26
+- Stand der Seite: 2026-10-06
