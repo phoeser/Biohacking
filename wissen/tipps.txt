@@ -1,6 +1,6 @@
 # Biohacking-Tipps – Biohacking Kompakt
 
-Stand: 05.10.2026. 62 Einträge. Alltagsstrategien jenseits von Supplements. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 06.10.2026. 62 Einträge. Alltagsstrategien jenseits von Supplements. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## Box Breathing (4-4-4-4)
@@ -144,7 +144,7 @@ Bereich: Ernährung
 Warum: Verbessert in Studien Gewicht und Insulinsensitivität – etwa so gut wie eine gleich große Kalorienreduktion. Die Autophagie ist Theorie.
 Wie: 16 Stunden fasten, 8 Stunden Essen – lege das Fenster besser früh (z. B. 8–16 Uhr), weil die Glukosetoleranz abends schlechter ist. Während Fasten: Wasser, Kaffee, Tee, Elektrolyte. Der verbreitete Rat, Frauen sollten mit 14:10 einsteigen, ist in keiner Studie geprüft.
 BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 8/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 4/10).
-Begründung: Es gibt zahlreiche randomisierte Studien. Ihr gemeinsames Ergebnis: Zeitfenster-Essen wirkt so gut wie eine gleich grosse Kalorienreduktion – nicht besser. Die Autophagie ist der Hype-Abzug: Sie ist beim fastenden Menschen nie direkt gemessen worden.
+Begründung: Es gibt zahlreiche randomisierte Studien. Ihr gemeinsames Ergebnis: Zeitfenster-Essen wirkt so gut wie eine gleich grosse Kalorienreduktion – nicht besser. Die Autophagie ist der Hype-Abzug: Sie ist beim fastenden Menschen kaum gemessen, eine Zunahme bisher nur in einer explorativen Auswertung angedeutet.
 Seite: https://biohackingkompakt.de/tipp/intervallfasten.html
 
 ## Kohlenhydrate abends reduzieren
@@ -176,7 +176,7 @@ Bereich: Fasten
 Warum: Die bekannten Zeitmarken – Autophagie ab 24 h, Stammzellen ab 72 h – stammen aus dem Mausversuch, nicht vom Menschen.
 Wie: 1× pro Monat 24 h oder 1× pro Quartal 72 h Wasserfasten. Elektrolyte (Salz, Kalium, Magnesium) Pflicht. Nicht bei Untergewicht, Schwangerschaft, Stillzeit, Essstörung in der Vorgeschichte, bei Kindern und Jugendlichen, bei Diabetes Typ 1 und nicht unter SGLT-2-Hemmern. Der Nahrungsaufbau danach dauert im Buchinger-Protokoll im Mittel vier Tage von 800 auf 1600 kcal – nicht eine Mahlzeit.
 BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 3/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 5/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 2/10).
-Begründung: Die Zeitangaben – Autophagie ab 24 Stunden, Stammzellerneuerung ab 72 – stammen aus Mausversuchen. Beim Menschen wurden systemische Veränderungen im Plasmaproteom erst nach drei Tagen vollständigen Fastens sichtbar, und Autophagie ist im Fasten nie direkt gemessen worden.
+Begründung: Die Zeitangaben – Autophagie ab 24 Stunden, Stammzellerneuerung ab 72 – stammen aus Mausversuchen. Beim Menschen wurden systemische Veränderungen im Plasmaproteom erst nach drei Tagen vollständigen Fastens sichtbar, und Autophagie ist im Fasten kaum gemessen, ohne Vergleich verschiedener Fastendauern.
 Seite: https://biohackingkompakt.de/tipp/fasten-extended.html
 
 ## Elektrolyte während Fastenperioden

@@ -1,6 +1,6 @@
 # Anwendungen und Behandlungen – Biohacking Kompakt
 
-Stand: 05.10.2026. 58 Einträge. Therapien, Geräte und ärztliche Leistungen. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 06.10.2026. 58 Einträge. Therapien, Geräte und ärztliche Leistungen. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## Alkohol reduzieren
@@ -186,7 +186,8 @@ Kurz: Reiner Sauerstoff unter Überdruck in einer Druckkammer. Belegt ist der ku
 Was dafür spricht: Stark erhöhte Sauerstoffversorgung von Gewebe und Wunden; Fördert Gefäßneubildung und Stammzellmobilisierung; Eine Studie (Hachmo 2020) zeigte längere Telomere und weniger seneszente Zellen; Für Sport-Regeneration und Muskelkater zeigten randomisierte Studien keinen signifikanten Nutzen
 Wofür: Regeneration; Wundheilung; Long Covid; Anti-Aging
 Einordnung: Wirkung stark protokollabhängig; medizinische HBOT gehört in erfahrene Hände. Longevity-Anwendungen sind Selbstzahlerleistungen ohne anerkannte Indikation.
-BK-Score: keiner vergeben.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 4/10, Richtung gemischt, Mechanismus 6/10, Sicherheitsdaten 7/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 3/10).
+Begründung: Am ehesten belegt ist das diabetische Fußulkus, und dort für den Sechs-Wochen-Endpunkt (Cochrane 2015: in 5 gepoolten Studien mit 205 Teilnehmern relatives Risiko 2,35 nach sechs Wochen; nach einem Jahr kein Vorteil mehr); in Deutschland ist die Therapie dafür seit dem G-BA-Beschluss 2017 auch ambulant Kassenleistung. Für die meistgenannte Indikation Kohlenmonoxidvergiftung fand die Cochrane-Auswertung (6 Studien, 1.361 Patienten) keinen signifikanten Vorteil. Die Longevity-Anwendung stützt sich auf eine israelische Studie ohne Kontrollgruppe (35 Teilnehmer, 60 Sitzungen), deren Telomer-Befund unabhängig nicht bestätigt ist, und auf zwei kleine randomisierte Studien derselben Gruppe mit je 63 Älteren, die Verbesserungen bei Kognition und maximaler Sauerstoffaufnahme zeigten – gegen Nichtstun, nicht gegen Scheinbehandlung.
 Seite: https://biohackingkompakt.de/thema/hbot.html
 
 ## Hören & Demenz (Hörversorgung)

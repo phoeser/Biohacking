@@ -443,7 +443,7 @@ Fadogia agrestis ist ein Strauch aus der Kaffeeverwandtschaft, der in Nigeria un
 ## Fasten & Autophagie
 https://biohackingkompakt.de/thema/fasten-autophagie.html
 
-Intervallfasten verschiebt die Essenszeiten; die Autophagie gilt als sein wichtigstes Versprechen. In der längsten Vergleichsstudie verloren beide Gruppen deutlich Gewicht – das Zeitfenster jedoch nicht mehr als das gleich große Kaloriendefizit, und beim Menschen wurde Autophagie nie direkt gemessen
+Intervallfasten verschiebt die Essenszeiten; die Autophagie gilt als sein wichtigstes Versprechen. In der längsten Vergleichsstudie verloren beide Gruppen deutlich Gewicht – das Zeitfenster jedoch nicht mehr als das gleich große Kaloriendefizit, und eine Zunahme der Autophagie ist beim Menschen bisher nur in einer explorativen Auswertung angedeutet
 
 ## Fisetin
 https://biohackingkompakt.de/thema/fisetin.html
@@ -1574,7 +1574,7 @@ Belegt sind bei Herz-Kreislauf-Patienten Effekte auf Kreislaufwerte: In einer Me
 ## Intervallfasten (16:8)
 https://biohackingkompakt.de/tipp/intervallfasten.html
 
-Zeitfenster-Essen wirkt. Gegenüber unverändertem Essverhalten senkt es das Gewicht um −1,37 kg (95 %-KI −1,99 bis −0,75), zusammengefasst über 29 randomisierte Studien mit 2485 Teilnehmenden. Gegenüber einer gleich großen Kalorienreduktion bringt es über zwölf Monate dagegen keinen zusätzlichen Vorteil: Die Nettodifferenz lag bei −1,8 kg (95 %-KI −4,0 bis 0,4; p = 0,11). Am klarsten fallen die Studien mit frühem Fenster aus – 7 bis 15 Uhr brachte −2,3 kg gegenüber einem Fenster von zwölf Stunden oder mehr, während 12 bis 20 Uhr ohne Kalorienvorgabe praktisch nichts brachte. Die Autophagie, mit der 16:8 meistens beworben wird, ist beim fastenden Menschen nie direkt gemessen worden.
+Zeitfenster-Essen wirkt. Gegenüber unverändertem Essverhalten senkt es das Gewicht um −1,37 kg (95 %-KI −1,99 bis −0,75), zusammengefasst über 29 randomisierte Studien mit 2485 Teilnehmenden. Gegenüber einer gleich großen Kalorienreduktion bringt es über zwölf Monate dagegen keinen zusätzlichen Vorteil: Die Nettodifferenz lag bei −1,8 kg (95 %-KI −4,0 bis 0,4; p = 0,11). Am klarsten fallen die Studien mit frühem Fenster aus – 7 bis 15 Uhr brachte −2,3 kg gegenüber einem Fenster von zwölf Stunden oder mehr, während 12 bis 20 Uhr ohne Kalorienvorgabe praktisch nichts brachte. Die Autophagie, mit der 16:8 meistens beworben wird, ist beim fastenden Menschen kaum gemessen; eine Zunahme ist bisher nur in einer explorativen Auswertung angedeutet.
 
 ## Kalt duschen (Wim Hof)
 https://biohackingkompakt.de/tipp/kaltduschen.html

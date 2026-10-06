@@ -1,6 +1,6 @@
 # Supplements – Biohacking Kompakt
 
-Stand: 05.10.2026. 143 Einträge. Nahrungsergänzungsmittel, in Deutschland verkehrsfähig. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 06.10.2026. 143 Einträge. Nahrungsergänzungsmittel, in Deutschland verkehrsfähig. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## 5-HTP
@@ -119,8 +119,8 @@ Risiken: Sicherheit des hochdosierten Reinstoffs am Menschen nicht systematisch 
 Dosierung laut Studien und Referenzwerten: Keine Dosierungsangabe. Apigenin ist kein zugelassener Wirkstoff (§ 3a Heilmittelwerbegesetz), als Reinstoff in der EU ein nicht zugelassenes neuartiges Lebensmittel, und Biohacking Kompakt gibt für Apigenin keine Kaufempfehlung.
 Einnahme: Keine Einnahmeempfehlung. Wer Gerinnungshemmer, Beruhigungs- oder Schlafmittel nimmt, klärt Apigenin vorher ärztlich.
 Evidenz: niedrig
-BK-Score: Nicht am Menschen untersucht (Studien am Menschen 1/10, Richtung offen, Mechanismus 3/10, Sicherheitsdaten 2/10, Anwendungserfahrung 4/10, Abstand Werbung zu Daten 1/10).
-Begründung: Für isoliertes Apigenin als Nahrungsergänzungsmittel wurde keine belastbare Humanevidenz gefunden. Was als Beleg zitiert wird, sind Studien zu Kamillenextrakt – der Apigenin enthält, aber auch vieles andere; ein kausaler Rückschluss auf die Einzelsubstanz ist daraus nicht möglich. Die GABA-A-Bindung stammt aus Rezeptorstudien der 1990er in Zellkultur und Tier. Systematische Sicherheitsdaten für die isolierte, hochdosierte Form existieren nicht, ebenso wenig eine Behördenbewertung.
+BK-Score: Am Menschen geprüft, Ergebnisse unveröffentlicht (Studien am Menschen 1/10, Richtung offen, Mechanismus 3/10, Sicherheitsdaten 2/10, Anwendungserfahrung 4/10, Abstand Werbung zu Daten 1/10).
+Begründung: Für isoliertes Apigenin als Nahrungsergänzungsmittel wurde keine veröffentlichte belastbare Humanevidenz gefunden. Die einzige registrierte Studie mit dem Reinstoff (20 ältere Sepsis-Patienten) wurde 2024 abgeschlossen, ihre Ergebnisse sind bis heute nicht veröffentlicht. Was als Beleg zitiert wird, sind Studien zu Kamillenextrakt – der Apigenin enthält, aber auch vieles andere; ein kausaler Rückschluss auf die Einzelsubstanz ist daraus nicht möglich. Die GABA-A-Bindung stammt aus Rezeptorstudien der 1990er in Zellkultur und Tier. Systematische Sicherheitsdaten für die isolierte, hochdosierte Form existieren nicht, ebenso wenig eine Behördenbewertung.
 Seite: https://biohackingkompakt.de/thema/apigenin.html
 
 ## Arjuna
@@ -520,7 +520,7 @@ Passt zu: vitamin-c
 Meiden: zink; kalzium; magnesium
 Evidenz: hoch
 BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung gemischt, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 5/10).
-Begründung: Für die Anwendung bei Mangel ist die Datenlage außergewöhnlich: Eisen ist in Deutschland als Arzneimittel gegen Eisenmangel zugelassen, und der Cochrane-Review über 57 randomisierte Studien mit 48.971 Frauen senkt die Eisenmangelanämie am Geburtstermin von 18,4 auf 5,0 %. Für den Eisenmangel ohne Anämie zeigt die Übersicht von Houston et al. (BMJ Open 2018, 18 RCTs, 1.170 Patienten) einen Effekt auf selbstberichtete Erschöpfung von SMD −0,38 (95 % KI −0,52 bis −0,23), aber keinen auf die maximale Sauerstoffaufnahme (SMD 0,11; −0,15 bis 0,37). Sauerstofftransport und Hepcidin-Regelkreis sind am Menschen mit Isotopen quantifiziert, die Sicherheit aus Jahrzehnten Arzneimittelanwendung bekannt – einschließlich der Überladung bei Hämochromatose. Der kritische Punkt bleibt die Diagnostik: Ohne Ferritin-Wert eingenommen, fehlt der Wirkung die Grundlage und das Risiko bleibt; zusätzlich verdeckt Ferritin als Akutphaseprotein bei Entzündung einen leeren Speicher. Korrektur am Bestand: Der frühere Beleg nannte „Houston et al., Br J Nutr“ mit 6 RCTs, 6 Querschnittsstudien, 1.875 Teilnehmern und einem Effekt von 0,33 (0,17–0,48). Eine solche Arbeit war nicht auffindbar; Zeitschrift, Studienzahl, Teilnehmerzahl und Effektgröße waren falsch.
+Begründung: Für die Anwendung bei Mangel ist die Datenlage außergewöhnlich: Eisen ist in Deutschland als Arzneimittel gegen Eisenmangel zugelassen, und der Cochrane-Review über 57 randomisierte Studien mit 48.971 Frauen senkt die Eisenmangelanämie am Geburtstermin von 18,4 auf 5,0 %. Für den Eisenmangel ohne Anämie zeigt die Übersicht von Houston et al. (BMJ Open 2018, 18 RCTs, 1.170 Patienten) einen Effekt auf selbstberichtete Erschöpfung von SMD −0,38 (95 % KI −0,52 bis −0,23), aber keinen auf die maximale Sauerstoffaufnahme (SMD 0,11; −0,15 bis 0,37). Sauerstofftransport und Hepcidin-Regelkreis sind am Menschen mit Isotopen quantifiziert, die Sicherheit aus Jahrzehnten Arzneimittelanwendung bekannt – einschließlich der Überladung bei Hämochromatose. Der kritische Punkt bleibt die Diagnostik: Ohne Ferritin-Wert eingenommen, fehlt der Wirkung die Grundlage und das Risiko bleibt; zusätzlich verdeckt Ferritin als Akutphaseprotein bei Entzündung einen leeren Speicher.
 Seite: https://biohackingkompakt.de/thema/eisen.html
 
 ## Elektrolyte
@@ -1235,7 +1235,7 @@ Einnahme: Abends bei gedämpftem Licht. Nicht bei heller Beleuchtung.
 Passt zu: magnesium; glycin
 Evidenz: mittel
 BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 9/10, Sicherheitsdaten 7/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 6/10).
-Begründung: Die circadiane Wirkkette ist am Menschen quantifiziert, zu Einschlafzeit und Jetlag gibt es Meta-Analysen. Langzeitdaten fehlen weitgehend, und die in Deutschland üblichen Dosierungen liegen deutlich über dem, was die Studien nutzen.
+Begründung: Die circadiane Wirkkette ist am Menschen quantifiziert, zu Einschlafzeit und Jetlag gibt es Meta-Analysen. Langzeitdaten fehlen weitgehend. Die Tagesmengen der in Deutschland gelisteten Präparate reichen laut BfR von 0,1 bis 3 mg und liegen damit nicht über den in Studien meist verwendeten 0,5 bis 5 mg; online werden auch Produkte mit bis zu 10 mg angeboten.
 Seite: https://biohackingkompakt.de/thema/melatonin.html
 
 ## Methylfolat
@@ -1615,8 +1615,8 @@ Dosierung laut Studien und Referenzwerten: Keine Dosierungsangabe. Trans-Resvera
 Einnahme: Keine Einnahmeempfehlung. Bei Blutverdünnern und hormonsensitiven Erkrankungen ärztlich abklären.
 Passt zu: nmn; quercetin; pterostilben
 Evidenz: mittel
-BK-Score: Lange angewendet, kaum untersucht (Studien am Menschen 2/10, Richtung negativ, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 1/10).
-Begründung: Das Lehrstück der Longevity-Szene: zwanzig Jahre Schlagzeilen, ein Milliardendeal – und am Menschen bis heute keine belastbaren Wirknachweise, dazu Zweifel an zentralen Sirtuin-Arbeiten. Bioverfügbarkeit gering. Der größte Hype-Abstand im ganzen Bestand.
+BK-Score: Untersucht – Nutzen nicht gezeigt (Studien am Menschen 4/10, Richtung negativ, Mechanismus 5/10, Sicherheitsdaten 7/10, Anwendungserfahrung 7/10, Abstand Werbung zu Daten 1/10).
+Begründung: Das Lehrstück der Longevity-Szene: zwanzig Jahre Schlagzeilen, ein Milliardendeal – und am Menschen bis heute keine belastbaren Wirknachweise, dazu Zweifel an zentralen Sirtuin-Arbeiten. Untersucht ist Resveratrol am Menschen durchaus: Allein zu Typ-2-Diabetes gibt es zehn Metaanalysen, und ein Umbrella-Review darüber fand außer bei der LDL-Senkung keine signifikanten Effekte (Ghalichi 2026). Bioverfügbarkeit gering. Der größte Hype-Abstand im ganzen Bestand.
 Seite: https://biohackingkompakt.de/thema/resveratrol.html
 
 ## Rhodiola Rosea

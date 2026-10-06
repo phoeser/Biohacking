@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 06.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 5-Amino-1MQ (https://biohackingkompakt.de/thema/5-amino-1mq.html)
 8 Studien: 5 Tier- oder Laborstudie, 3 Sonstige Studie.
@@ -4658,8 +4658,9 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2025: Short bouts of accumulated exercise: Review and consensus statement on definition, efficacy, feasibility, practical applications, and future directions (Yin M et al., J Sport Health Sci). https://doi.org/10.1016/j.jshs.2025.101088
 
 ## Tipp: 24–72 h verlängertes Fasten (https://biohackingkompakt.de/tipp/fasten-extended.html)
-7 Studien: 3 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Fallbericht, 1 Leitlinie / Konsens, 1 Beobachtungsstudie.
+8 Studien: 3 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Fallbericht, 1 Leitlinie / Konsens, 1 Beobachtungsstudie.
 - Meta-Analyse / Übersicht, 2026: Duration-dependent effects of water-only fasting on blood lipids: a systematic review, meta-analysis, and threshold meta-regression (Çamli A et al., Front Nutr). https://doi.org/10.3389/fnut.2026.1772246
+- Randomisierte Studie, 2025: Intermittent time-restricted eating may increase autophagic flux in humans: an exploratory analysis (Bensalem J et al., J Physiol). https://europepmc.org/article/MED/40345145
 - Beobachtungsstudie, 2019: Safety, health improvement and well-being during a 4 to 21-day fasting period in an observational study including 1422 subjects (Wilhelmi de Toledo F et al., PLoS One). https://doi.org/10.1371/journal.pone.0209353
 - Fallbericht, 2025: Wernicke's Encephalopathy Following 40 Days of Water-Only Fasting: A Case Report (Aweer RA et al., Clin Case Rep). https://doi.org/10.1002/ccr3.71049
 - Leitlinie / Konsens, 2020: ASPEN Consensus Recommendations for Refeeding Syndrome (da Silva JSV et al., Nutr Clin Pract). https://doi.org/10.1002/ncp.10474
@@ -5087,9 +5088,10 @@ Stand: 05.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Retraktionsnotiz, International Journal of Molecular Sciences 2024. https://www.mdpi.com/1422-0067/25/9/5039
 
 ## Tipp: Intervallfasten (16:8) (https://biohackingkompakt.de/tipp/intervallfasten.html)
-8 Studien: 5 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Klinische Studie.
+9 Studien: 6 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Klinische Studie.
 - Meta-Analyse / Übersicht, 2024: Intermittent fasting and health outcomes: an umbrella review of systematic reviews and meta-analyses of randomised controlled trials (Sun ML et al., EClinicalMedicine). https://doi.org/10.1016/j.eclinm.2024.102519
 - Meta-Analyse / Übersicht, 2024: Meal Timing and Anthropometric and Metabolic Outcomes: A Systematic Review and Meta-Analysis (Liu HY et al., JAMA Netw Open). https://doi.org/10.1001/jamanetworkopen.2024.42163
+- Randomisierte Studie, 2025: Intermittent time-restricted eating may increase autophagic flux in humans: an exploratory analysis (Bensalem J et al., J Physiol). https://europepmc.org/article/MED/40345145
 - Randomisierte Studie, 2022: Calorie Restriction with or without Time-Restricted Eating in Weight Loss (Liu D et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/35443107/
 - Randomisierte Studie, 2022: Effectiveness of Early Time-Restricted Eating for Weight Loss, Fat Loss, and Cardiometabolic Health in Adults With Obesity: A Randomized Clinical Trial (Jamshed H et al., JAMA Intern Med). https://doi.org/10.1001/jamainternmed.2022.3050
 - Randomisierte Studie, 2020: Effects of Time-Restricted Eating on Weight Loss and Other Metabolic Parameters in Women and Men With Overweight and Obesity: The TREAT Randomized Clinical Trial (Lowe DA et al., JAMA Intern Med). https://europepmc.org/article/MED/32986097
