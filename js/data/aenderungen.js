@@ -18,6 +18,14 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-10-07',
+    typ: 'Korrektur',
+    titel: 'Sermorelin: Seattle-Studie nachgetragen, Human-Evidenz 3 → 4',
+    ziel: { view: 'experimental', id: 'sermorelin' },
+    text: 'Der Eintrag nannte für gesunde Erwachsene nur kleine, kurze Studien ohne belastbares Ergebnis. Übersehen war das placebokontrollierte Seattle-Programm (University of Washington): sechs Monate Sermorelin (Geref) bei gesunden Älteren, IGF-1 rund ein Drittel höher, mehr Magermasse, weniger Körperfett, bessere Ergebnisse in mehreren Denktests, kein Gewinn bei Kraft, Ausdauer und Tiefschlaf. Die Human-Evidenz steigt deshalb von 3 auf 4, das Label wechselt zu „Dünne Humanevidenz“.',
+    quelle: { titel: 'Hersch & Merriam, Clin Interv Aging 2008 (Übersicht der Seattle-Daten)', url: 'https://pubmed.ncbi.nlm.nih.gov/18488883/' }
+  },
+  {
     datum: '2026-09-22',
     typ: 'Korrektur',
     titel: 'Hören und Demenz: Hörverlust steht auch 2024 an der Spitze',

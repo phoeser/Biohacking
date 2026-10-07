@@ -1160,14 +1160,15 @@ const EXPERIMENTAL = [
     altNames: 'GRF 1-29, GHRH(1-29)',
     class: 'GHRH-Analogon (Wachstumshormon-Releasing-Hormon-Fragment)',
     emoji: '📈',
-    short: 'Der GH-Klassiker: ein kurzes GHRH-Fragment, das die Hirnanhangsdrüse zu Wachstumshormon-Pulsen anregt. Für gesunde Erwachsene war Sermorelin nie zugelassen. Es gibt nur wenige kleine, kurze Studien an Älteren aus den 1990er-Jahren mit uneinheitlichen Ergebnissen, aber nichts Belastbares.',
+    short: 'Der GH-Klassiker: ein kurzes GHRH-Fragment, das die Hirnanhangsdrüse zu Wachstumshormon-Pulsen anregt. Für gesunde Erwachsene war Sermorelin nie zugelassen. Die beste Studie an Erwachsenen (Seattle, sechs Monate, placebokontrolliert, gesunde Ältere) zeigt mehr IGF-1, mehr Magermasse, weniger Körperfett und bessere Denktests – Kraft, Ausdauer und Tiefschlaf verbesserten sich nicht.',
     moa: 'Sermorelin entspricht den ersten 29 Aminosäuren des GHRH und stimuliert die Hypophyse zur pulsatilen Ausschüttung von Wachstumshormon (GH). Weil die körpereigene Rückkopplung (Somatostatin) erhalten bleibt, gilt es als besonders physiologischer Ansatz und milder als langwirksame Analoga. Historisch als Diagnostikum genutzt, in der Anti-Aging-Szene für Schlaf, Regeneration und Körperkomposition.',
     benefits: [
       'Regt die körpereigene, pulsatile GH-Ausschüttung an; die Rückkopplung bleibt erhalten.',
-      'Früher zugelassen für Kinder mit GH-Mangel (Therapie) und zur Diagnostik.'
+      'Früher zugelassen für Kinder mit GH-Mangel (Therapie) und zur Diagnostik.',
+      'Sechsmonatige Placebo-Studie an gesunden Älteren (Seattle): IGF-1 rund ein Drittel höher, mehr Magermasse, weniger Körperfett, bessere Ergebnisse in mehreren Denktests.'
     ],
     risks: [
-      'Für gesunde Erwachsene keine belastbaren Nutzendaten.',
+      'Für gesunde Erwachsene im Kern eine einzige größere Studie (sechs Monate, gesunde Ältere); Kraft, Ausdauer und Tiefschlaf verbesserten sich darin nicht.',
       'Im Sport verboten.',
       'Graumarkt-Ware ohne pharmazeutische Qualitätsprüfung.'
     ],
@@ -1175,7 +1176,10 @@ const EXPERIMENTAL = [
     sources: [
       { title: 'Prakash & Goa, BioDrugs 1999 – Sermorelin in Diagnostik und Therapie bei Kindern mit GH-Mangel', url: 'https://pubmed.ncbi.nlm.nih.gov/18031173/' },
       { title: 'Sigalos & Pastuszak, Sex Med Rev 2018 – Sicherheit und Wirksamkeit von GH-Sekretagoga', url: 'https://pubmed.ncbi.nlm.nih.gov/28400207/' },
-      { title: 'Vittone J et al., Metabolism 1997 – Sermorelin bei 11 gesunden älteren Männern, 6 Wochen, ohne Kontrollgruppe', url: 'https://pubmed.ncbi.nlm.nih.gov/9005976/' }
+      { title: 'Vittone J et al., Metabolism 1997 – Sermorelin bei 11 gesunden älteren Männern, 6 Wochen, ohne Kontrollgruppe', url: 'https://pubmed.ncbi.nlm.nih.gov/9005976/' },
+      { title: 'Vitiello MV et al., Dialogues Clin Neurosci 2001 – Seattle-Programm: Sermorelin (Geref) sechs Monate gegen Placebo bei gesunden Älteren', url: 'https://pubmed.ncbi.nlm.nih.gov/22034239/' },
+      { title: 'Hersch EC & Merriam GR, Clin Interv Aging 2008 – GHRH bei Älteren: IGF-1, Körperzusammensetzung, Funktion', url: 'https://pubmed.ncbi.nlm.nih.gov/18488883/' },
+      { title: 'Vitiello MV et al., Neurobiol Aging 2006 – 89 gesunde Ältere, sechs Monate GHRH oder Placebo, Kognition', url: 'https://pubmed.ncbi.nlm.nih.gov/16399214/' }
     ],
     community: [
       { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }

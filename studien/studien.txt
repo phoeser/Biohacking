@@ -4268,11 +4268,14 @@ Stand: 07.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: Sermorelin (https://biohackingkompakt.de/thema/sermorelin.html)
-4 Studien: 2 Übersichtsartikel, 1 Randomisierte Studie, 1 Klinische Studie.
+7 Studien: 3 Übersichtsartikel, 2 Randomisierte Studie, 1 Sonstige Studie, 1 Klinische Studie.
 - Randomisierte Studie, 2008: Effects of an oral ghrelin mimetic on body composition and clinical outcomes in healthy older adults: a randomized trial (Nass R et al., Ann Intern Med). https://europepmc.org/article/MED/18981485
+- Randomisierte Studie, 2006: Growth hormone releasing hormone improves the cognition of healthy older adults (Vitiello MV et al., Neurobiol Aging). https://pubmed.ncbi.nlm.nih.gov/16399214/
 - Klinische Studie, 1997: Effects of single nightly injections of growth hormone-releasing hormone (GHRH 1-29) in healthy elderly men (Vittone J et al., Metabolism). https://pubmed.ncbi.nlm.nih.gov/9005976/
 - Übersichtsartikel, 2018: The Safety and Efficacy of Growth Hormone Secretagogues (Sigalos JT et al., Sex Med Rev). https://pubmed.ncbi.nlm.nih.gov/28400207/
+- Übersichtsartikel, 2008: Growth hormone (GH)-releasing hormone and GH secretagogues in normal aging: Fountain of Youth or Pool of Tantalus? (Hersch EC et al., Clin Interv Aging). https://pubmed.ncbi.nlm.nih.gov/18488883/
 - Übersichtsartikel, 1999: Sermorelin: a review of its use in the diagnosis and treatment of children with idiopathic growth hormone deficiency (Prakash A et al., BioDrugs). https://pubmed.ncbi.nlm.nih.gov/18031173/
+- Sonstige Studie, 2001: Treating age-related changes in somatotrophic hormones, sleep, and cognition (Vitiello MV et al., Dialogues Clin Neurosci). https://pubmed.ncbi.nlm.nih.gov/22034239/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): Geref (Sermorelin), Zulassung als Diagnostikum 1990 und zur Behandlung bei Kindern 1997, EMD Serono. https://www.accessdata.fda.gov/scripts/cder/daf/
 - Behörde/Recht (USADA): USADA, Sermorelin im Sport (Stand 26.02.2026). https://www.usada.org/spirit-of-sport/athletes-know-sermorelin/
 - Behörde/Recht (Weitere Behörden): Federal Register 2013: Feststellung zur Marktrücknahme, nicht aus Gründen der Sicherheit oder Wirksamkeit. https://www.federalregister.gov/documents/2013/03/04/2013-04827

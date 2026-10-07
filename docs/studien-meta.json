@@ -20713,6 +20713,42 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:16399214": {
+"autoren": "Vitiello MV, Moe KE, Merriam GR, Mazzoni G, Buchner DH, Schwartz RS.",
+"doi": "10.1016/j.neurobiolaging.2005.01.010",
+"iso": "Neurobiol Aging",
+"jahr": "2006",
+"journal": "Neurobiology of aging",
+"korr": [],
+"mesh": [
+"Humans",
+"Case-Control Studies",
+"Cognition Disorders",
+"Intelligence Tests",
+"Neuropsychological Tests",
+"Age Factors",
+"Aging",
+"Time Factors",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Growth Hormone-Releasing Hormone"
+],
+"pmcid": "",
+"pmid": "16399214",
+"quelle": "MED",
+"titel": "Growth hormone releasing hormone improves the cognition of healthy older adults.",
+"typen": [
+"Controlled Clinical Trial",
+"Comparative Study",
+"Clinical Trial",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:16407641": {
 "autoren": "Meyer H, Bolarinwa A, Wolfram G, Linseisen J.",
 "doi": "10.1159/000090736",
@@ -25009,6 +25045,38 @@
 "typen": [
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:18488883": {
+"autoren": "Hersch EC, Merriam GR.",
+"doi": "10.2147/cia.s3247",
+"iso": "Clin Interv Aging",
+"jahr": "2008",
+"journal": "Clinical interventions in aging",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Atrophy",
+"Piperidines",
+"Pyrazoles",
+"Growth Hormone",
+"Neurotransmitter Agents",
+"Injections",
+"Cognition",
+"Aging",
+"Aged",
+"Frail Elderly",
+"Growth Hormone-Releasing Hormone"
+],
+"pmcid": "PMC2544358",
+"pmid": "18488883",
+"quelle": "MED",
+"titel": "Growth hormone (GH)-releasing hormone and GH secretagogues in normal aging: Fountain of Youth or Pool of Tantalus?",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -33544,6 +33612,23 @@
 "pmid": "22031847",
 "quelle": "MED",
 "titel": "The selective androgen receptor modulator GTx-024 (enobosarm) improves lean body mass and physical function in healthy elderly men and postmenopausal women: results of a double-blind, placebo-controlled phase II trial.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:22034239": {
+"autoren": "Vitiello MV, Schwartz RS, Moe KE, Mazzoni G, Merriam GR.",
+"doi": "10.31887/dcns.2001.3.3/mvvitiello",
+"iso": "Dialogues Clin Neurosci",
+"jahr": "2001",
+"journal": "Dialogues in clinical neuroscience",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC3181657",
+"pmid": "22034239",
+"quelle": "MED",
+"titel": "Treating age-related changes in somatotrophic hormones, sleep, and cognition.",
 "typen": [
 "research-article",
 "Journal Article"
