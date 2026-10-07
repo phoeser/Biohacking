@@ -1806,7 +1806,7 @@ const EXPERIMENTAL = [
   {
     id: 'follistatin',
     name: 'Follistatin / Myostatin-Hemmer',
-    altNames: 'Follistatin-344, ACE-031, Myostatin-Inhibitoren',
+    altNames: 'Follistatin-344, FST-344, ACE-031, Myostatin-Inhibitoren',
     class: 'Myostatin-Blocker (Muskelwachstum durch Wegfall der „Muskelbremse")',
     emoji: '💪',
     short: 'Die „Muskelbremse lösen": Follistatin und verwandte Stoffe blockieren Myostatin – den körpereigenen Begrenzer des Muskelwachstums. Am Menschen sind drei große Programme gescheitert; erfolgreich war bisher nur der Antikörper Apitegromab bei spinaler Muskelatrophie, mit kleinem Effekt.',
@@ -6953,6 +6953,1256 @@ const EXPERIMENTAL = [
     community: [],
     podcasts: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'petrelintid',
+    name: 'Petrelintid (Petrelintide)',
+    altNames: 'Petrelintide, ZP8396, RO7895515',
+    class: 'Langwirksames Amylin-Analogon (Zealand Pharma, gemeinsam mit Roche entwickelt), Prüfpräparat',
+    emoji: '💉',
+    short: 'Ein Nachbau des körpereigenen Sättigungshormons Amylin, einmal pro Woche gespritzt. In der veröffentlichten Phase-2-Studie mit 493 Teilnehmern sank das Gewicht nach 28 Wochen um 7,9 bis 9,8 Prozent, bei auffallend wenig Erbrechen. Seit September 2026 läuft unter Roche das Phase-3-Programm; zugelassen ist Petrelintid nirgends.',
+    moa: 'Amylin wird nach dem Essen zusammen mit Insulin aus der Bauchspeicheldrüse ausgeschüttet und meldet dem Gehirn Sättigung, bremst die Magenentleerung und dämpft Glucagon. Petrelintid ist ein chemisch stabilisiertes Analogon des menschlichen Amylins, das sich bei nahezu neutralem pH formulieren lässt und damit auch für Kombinationen mit anderen Peptiden taugt (Fischer Munch 2025). Die Halbwertszeit liegt bei etwa 10 Tagen, was die wöchentliche Gabe erlaubt (Brændholt Olsen 2026). Anders als GLP-1-Agonisten wie Semaglutid setzt es an einem eigenen Sättigungssignal an; die Hoffnung ist ein Gewichtsverlust mit weniger Magen-Darm-Beschwerden. Welcher Anteil des Gewichtsverlusts auf Fett und welcher auf Muskelmasse entfällt, ist in den veröffentlichten Abstracts nicht berichtet.',
+    benefits: [
+      'Phase 2 ZUPREME 1 (493 Teilnehmer ohne Diabetes, 42 Wochen): nach 28 Wochen 7,9 bis 9,8 Prozent Gewichtsabnahme gegenüber 1,7 Prozent unter Placebo, bis Woche 42 weiter fallend auf bis zu 10,7 Prozent (Garvey 2026)',
+      'Magen-Darm-Verträglichkeit nahe Placebo: Erbrechen bei 3 Prozent gegenüber 6 Prozent, Durchfall 7 gegenüber 7 Prozent; Übelkeit vor allem in der Aufdosierung (20 gegenüber 6 Prozent)',
+      'Zwei randomisierte Phase-1-Studien ohne schwere unerwünschte Ereignisse, bis zu 8,6 Prozent Gewichtsabnahme nach 16 Wochen (Brændholt Olsen 2026)',
+      'Eigenes, von GLP-1 unabhängiges Sättigungssignal; als Kombinationspartner für Inkretine entwickelt',
+      'Phase-3-Programm mit drei Studien und zusammen rund 7.000 geplanten Teilnehmern seit September 2026 (ClinicalTrials.gov)'
+    ],
+    risks: [
+      'Nicht zugelassen; Langzeitdaten über 42 Wochen hinaus fehlen',
+      'Übelkeit bei 20 Prozent der Behandelten in Phase 2, vor allem während der Aufdosierung',
+      'Der Gewichtsverlust liegt in Phase 2 unter dem, was GLP-1- und Kombinationspräparate erreichen; ein direkter Vergleich fehlt',
+      'Keine veröffentlichten Daten zu Muskelmasse, Herz-Kreislauf-Endpunkten oder zur Gewichtsentwicklung nach dem Absetzen',
+      'Die Phase-2-Studie bei Typ-2-Diabetes (ZUPREME 2) ist abgeschlossen, Ergebnisse sind nicht in einer Fachzeitschrift veröffentlicht',
+      'Im Sport als nirgends zugelassene Substanz nach WADA-Liste 2026 (S0) jederzeit verboten'
+    ],
+    status: 'Prüfpräparat, weltweit nicht zugelassen (Stand Oktober 2026). Phase 3 unter Roche seit 30.09.2026 (Adipositas, Typ-2-Diabetes, Herz-Kreislauf-Erkrankung). In Deutschland kein verkehrsfähiges Arzneimittel. Als nirgends zugelassene Substanz fällt es unter WADA 2026 S0.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42810355/',
+    sources: [
+      { title: 'Garvey WT et al., Lancet Diabetes Endocrinol 2026 – ZUPREME 1, Phase 2, 493 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/42810355/' },
+      { title: 'Brændholt Olsen M et al., Diabetes Obes Metab 2026 – zwei randomisierte Phase-1-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/42017294/' },
+      { title: 'Fischer Munch H et al., J Med Chem 2025 – Entwicklung von Petrelintid', url: 'https://pubmed.ncbi.nlm.nih.gov/41217931/' },
+      { title: 'ClinicalTrials.gov NCT06926842 – ZUPREME 2, Phase 2 bei Typ-2-Diabetes', url: 'https://clinicaltrials.gov/study/NCT06926842' },
+      { title: 'ClinicalTrials.gov NCT07843498 – Phase 3 bei Übergewicht und Adipositas (Roche)', url: 'https://clinicaltrials.gov/study/NCT07843498' },
+      { title: 'WADA – Prohibited List 2026, S0 Non-approved substances', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'vk2735',
+    name: 'VK2735',
+    altNames: 'VK-2735, orales VK2735',
+    class: 'Dualer GLP-1- und GIP-Rezeptoragonist (Viking Therapeutics), als Spritze und als Tablette in Entwicklung, Prüfpräparat',
+    emoji: '💉',
+    short: 'Ein Wirkstoff aus derselben Klasse wie Tirzepatid: Er aktiviert die Rezeptoren für GLP-1 und GIP und wird sowohl als Wochenspritze als auch als Tablette entwickelt. In der veröffentlichten Phase-2-Studie VENTURE sank das Gewicht in nur 13 Wochen um bis zu 14,7 Prozent. Die Phase-3-Studien VANQUISH laufen bis 2027, zugelassen ist VK2735 nirgends.',
+    moa: 'VK2735 bindet an zwei Rezeptoren für Darmhormone, die nach dem Essen ausgeschüttet werden: GLP-1 verzögert die Magenentleerung, verstärkt das Sättigungsgefühl und die Insulinausschüttung, GIP wirkt ebenfalls auf Insulin und Appetitregulation. Das Prinzip ist durch Tirzepatid, den ersten zugelassenen dualen GLP-1/GIP-Agonisten, am Menschen gut belegt. Für VK2735 selbst ist die Wirkkette über Gewicht und Verträglichkeit in einer Phase-2-Studie gemessen (Bays 2026). Besonders ist die Entwicklung in zwei Darreichungsformen: als Spritze einmal pro Woche und als Tablette; die Tablettenstudie VENTURE-Oral ist abgeschlossen, ihre Ergebnisse sind aber nicht in einer Fachzeitschrift erschienen.',
+    benefits: [
+      'Phase 2 VENTURE (174 ausgewertete Teilnehmer ohne Diabetes, 13 Wochen): 9,1 bis 14,7 Prozent Gewichtsabnahme gegenüber 1,7 Prozent unter Placebo, also 9,2 bis 14,6 kg (Bays 2026)',
+      '93 Prozent der Behandelten verloren mindestens 5 Prozent ihres Gewichts, unter Placebo 12 Prozent',
+      'Magen-Darm-Beschwerden wurden nach der Aufdosierung seltener berichtet',
+      'Wirkprinzip am Menschen durch die Wirkstoffklasse (Tirzepatid) gut belegt',
+      'Phase 3 VANQUISH mit rund 4.500 und 1.100 Teilnehmern über 78 Wochen läuft (ClinicalTrials.gov)'
+    ],
+    risks: [
+      'Nicht zugelassen; publiziert ist bisher nur eine 13-wöchige Studie an 174 Menschen',
+      'Häufigste Nebenwirkungen sind Magen-Darm-Beschwerden; genaue Raten und Abbrüche stehen nicht im veröffentlichten Abstract',
+      'Daten zur Tablette liegen nur als Herstellerangaben vor, nicht als begutachtete Veröffentlichung',
+      'Keine Daten zu Langzeitverlauf, Muskelmasse, Herz-Kreislauf-Endpunkten oder zum Absetzen',
+      'Seltene Nebenwirkungen lassen sich in einer 13-wöchigen Studie dieser Größe nicht erkennen',
+      'Im Sport als nirgends zugelassene Substanz nach WADA-Liste 2026 (S0) jederzeit verboten'
+    ],
+    status: 'Prüfpräparat, weltweit nicht zugelassen (Stand Oktober 2026). Phase 3 VANQUISH 1 und 2 seit Juni 2025, primärer Abschluss laut Register geplant für Juli 2027. In Deutschland kein verkehrsfähiges Arzneimittel. Als nirgends zugelassene Substanz fällt es unter WADA 2026 S0.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41508550/',
+    sources: [
+      { title: 'Bays HE et al., Obesity 2026 – VENTURE, Phase 2, 13 Wochen, Spritze', url: 'https://pubmed.ncbi.nlm.nih.gov/41508550/' },
+      { title: 'ClinicalTrials.gov NCT07104500 – VANQUISH 1, Phase 3 ohne Typ-2-Diabetes, 78 Wochen', url: 'https://clinicaltrials.gov/study/NCT07104500' },
+      { title: 'ClinicalTrials.gov NCT07104383 – VANQUISH 2, Phase 3 mit Typ-2-Diabetes, 78 Wochen', url: 'https://clinicaltrials.gov/study/NCT07104383' },
+      { title: 'ClinicalTrials.gov NCT06828055 – VENTURE-Oral, Phase 2 Tablette, abgeschlossen ohne veröffentlichte Ergebnisse', url: 'https://clinicaltrials.gov/study/NCT06828055' },
+      { title: 'WADA – Prohibited List 2026, S0 Non-approved substances', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'pemvidutid',
+    name: 'Pemvidutid (Pemvidutide)',
+    altNames: 'Pemvidutide, ALT-801',
+    class: 'Dualer GLP-1- und Glucagon-Rezeptoragonist (Altimmune), Prüfpräparat',
+    emoji: '💉',
+    short: 'Ein Wochenpeptid, das neben dem GLP-1-Rezeptor auch den Glucagon-Rezeptor aktiviert und damit direkt an der Leber ansetzt. In Studien senkte es das Leberfett nach 24 Wochen um bis zu 76 Prozent, und in der Phase-2b-Studie IMPACT bildete sich die Fettleberentzündung MASH bei über der Hälfte der Behandelten zurück. Die Fibrose besserte sich nach 24 Wochen nicht signifikant. Seit Juli 2026 läuft Phase 3 bei MASH.',
+    moa: 'Pemvidutid kombiniert zwei Signale: Über den GLP-1-Rezeptor dämpft es den Appetit und senkt so das Gewicht, über den Glucagon-Rezeptor wirkt es direkt in der Leber, wo es die Fettverbrennung anregt und die Neubildung von Fett hemmt. Die Erwartung ist eine stärkere Wirkung auf das Leberfett, als sie allein durch Gewichtsabnahme zu erreichen wäre (Harrison 2025). Am Menschen ist das über Leberfett, Leberwerte und Entzündungsmarker gemessen. Dasselbe Prinzip verfolgen Survodutid und Mazdutid; Pemvidutid wurde in der Phase-2b-Studie ohne Aufdosierung gegeben.',
+    benefits: [
+      '12 Wochen bei Fettleber (94 Teilnehmer): Leberfett minus 46,6 bis 68,5 Prozent gegenüber minus 4,4 Prozent unter Placebo; bei der mittleren Dosis normalisierte sich das Leberfett bei 55,6 Prozent (Harrison 2025)',
+      'Nach 24 Wochen (64 Teilnehmer der Verlängerung): Leberfett minus 56,3 bis 76,4 Prozent gegenüber minus 14,0 Prozent, Gewicht minus 6,2 Prozent (Browne 2025)',
+      'Phase 2b IMPACT (212 Patienten mit MASH und Fibrose F2/F3, 24 Wochen): Rückbildung der MASH ohne Fibrose-Verschlechterung bei 58 und 52 Prozent gegenüber 20 Prozent unter Placebo (Noureddin 2025)',
+      'Wenige Abbrüche wegen Nebenwirkungen in IMPACT: 0 und 1 Prozent gegenüber 2 Prozent unter Placebo',
+      'Meta-Analyse der randomisierten Studien: Besserung von Leberfett, Leberwerten und ELF-Fibrosemarker (Rajab 2026)'
+    ],
+    risks: [
+      'Nicht zugelassen; der zweite primäre Endpunkt in IMPACT, die Besserung der Fibrose, wurde nach 24 Wochen verfehlt (33 und 36 gegenüber 28 Prozent, nicht signifikant)',
+      'Unerwünschte Ereignisse bei 78 bis 81 Prozent gegenüber 67 Prozent unter Placebo, meist leicht bis mittelschwer; Übelkeit häufiger als unter Placebo',
+      'Die Adipositas-Studie MOMENTUM (391 Teilnehmer, 48 Wochen) ist abgeschlossen, Ergebnisse sind weder veröffentlicht noch im Register eingetragen',
+      'Keine Daten zu harten Leber-Endpunkten wie Zirrhose oder Transplantation; sie werden in der Phase-3-Studie über etwa 60 Monate erhoben',
+      'Im Sport als nirgends zugelassene Substanz nach WADA-Liste 2026 (S0) jederzeit verboten'
+    ],
+    status: 'Prüfpräparat, weltweit nicht zugelassen (Stand Oktober 2026). Phase 3 bei nicht-zirrhotischer MASH seit 30.07.2026 (1.800 geplante Teilnehmer, Gewebeendpunkte nach 52 Wochen, klinische Endpunkte über etwa 60 Monate). Phase-2-Studien zu Alkoholkonsumstörung und alkoholbedingter Lebererkrankung. In Deutschland kein verkehrsfähiges Arzneimittel. Als nirgends zugelassene Substanz fällt es unter WADA 2026 S0.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41237796/',
+    sources: [
+      { title: 'Noureddin M et al., Lancet 2025 – IMPACT, Phase 2b bei MASH, 24 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/41237796/' },
+      { title: 'Harrison SA et al., J Hepatol 2025 – Leberfett bei MASLD, 12 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/39002641/' },
+      { title: 'Browne SK et al., JHEP Rep 2025 – Verlängerung auf 24 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/41113119/' },
+      { title: 'Rajab I et al., Naunyn Schmiedebergs Arch Pharmacol 2026 – Meta-Analyse der RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/41879841/' },
+      { title: 'ClinicalTrials.gov NCT05295875 – MOMENTUM, Phase 2 bei Adipositas, 48 Wochen', url: 'https://clinicaltrials.gov/study/NCT05295875' },
+      { title: 'ClinicalTrials.gov NCT07795164 – Phase 3 bei MASH mit klinischen Endpunkten', url: 'https://clinicaltrials.gov/study/NCT07795164' },
+      { title: 'ClinicalTrials.gov NCT06987513 – RECLAIM, Phase 2 bei Alkoholkonsumstörung', url: 'https://clinicaltrials.gov/study/NCT06987513' },
+      { title: 'WADA – Prohibited List 2026, S0 Non-approved substances', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'ecnoglutid',
+    name: 'Ecnoglutid (Ecnoglutide)',
+    altNames: 'Ecnoglutide, XW003, VRB-101 (Tablette)',
+    class: 'cAMP-gerichteter (biased) GLP-1-Rezeptoragonist (Sciwind Biosciences), in China zugelassen',
+    emoji: '💉',
+    short: 'Ein GLP-1-Wochenpeptid aus China, das am Rezeptor bevorzugt das cAMP-Signal auslöst. In der Phase-3-Studie mit 664 Erwachsenen sank das Gewicht nach 40 Wochen um 9,1 bis 13,2 Prozent, bei Typ-2-Diabetes senkte es den Blutzucker etwas stärker als Dulaglutid. Seit Januar 2026 ist es in China bei Typ-2-Diabetes, seit März 2026 zur Gewichtskontrolle zugelassen; in der EU nicht.',
+    moa: 'Ecnoglutid ist ein GLP-1-Analogon mit Fettsäurekette, das einmal pro Woche gespritzt wird; die Halbwertszeit lag in Phase 1 bei 124 bis 138 Stunden (Guo 2023). Wie andere GLP-1-Agonisten verzögert es die Magenentleerung, verstärkt das Sättigungsgefühl und die Insulinausschüttung. Das Besondere ist die „Signal-Gewichtung“: Im Labor löste Ecnoglutid das cAMP-Signal sehr stark aus, führte aber kaum zur Verinnerlichung des Rezeptors in die Zelle (Guo 2023). Die Idee dahinter: Der Rezeptor bleibt länger an der Zelloberfläche ansprechbar. Ob diese Gewichtung am Menschen einen Vorteil gegenüber herkömmlichen GLP-1-Agonisten bringt, ist bisher nicht in einem direkten Vergleich mit Semaglutid veröffentlicht.',
+    benefits: [
+      'Phase 3 bei Übergewicht und Adipositas (664 Erwachsene in China, 40 Wochen): 9,1 bis 13,2 Prozent Gewichtsabnahme gegenüber plus 0,1 Prozent unter Placebo; mindestens 5 Prozent verloren 77 bis 87 Prozent gegenüber 16 Prozent (Ji 2025)',
+      'Phase 3 EECOH-2 (621 Patienten mit Typ-2-Diabetes, 52 Wochen): HbA1c minus 1,91 und 1,89 Prozentpunkte gegenüber 1,65 unter Dulaglutid, nicht unterlegen und in der höheren Dosis statistisch überlegen (He 2025)',
+      'Phase 3 EECOH-1 (211 Patienten, 24 Wochen): HbA1c minus 1,96 und 2,43 gegenüber 0,87 Prozentpunkte unter Placebo (Zhu 2026)',
+      'Abbrüche wegen Nebenwirkungen niedrig: 10 von 499 Behandelten in der Adipositas-Studie, 3 bis 4 Prozent in EECOH-2 (Dulaglutid 3 Prozent)',
+      'In China zugelassen: Januar 2026 Typ-2-Diabetes, März 2026 Gewichtskontrolle (Shirley 2026); Tablettenform in Entwicklung'
+    ],
+    risks: [
+      'In der EU und den USA nicht zugelassen; alle Phase-3-Studien liefen ausschließlich in China',
+      'Unerwünschte Ereignisse bei 93 Prozent gegenüber 84 Prozent unter Placebo, überwiegend leichte bis mittelschwere Magen-Darm-Beschwerden',
+      'Der beworbene Vorteil der cAMP-Gewichtung ist am Menschen nicht im direkten Vergleich mit Semaglutid oder Tirzepatid belegt; die Vergleichsstudie mit Semaglutid läuft noch',
+      'Keine Daten zu Herz-Kreislauf-Endpunkten, Muskelmasse oder zum Gewichtsverlauf nach dem Absetzen',
+      'Was außerhalb Chinas unter diesem Namen angeboten wird, ist nicht das geprüfte Arzneimittel'
+    ],
+    status: 'In China zugelassen (Januar 2026 Typ-2-Diabetes, März 2026 Gewichtskontrolle bei Adipositas oder Übergewicht mit Begleiterkrankung). In DE/EU und USA nicht zugelassen und nicht regulär erhältlich. Auf der WADA-Liste 2026 nicht namentlich genannt; unter die Auffangklasse S0 fällt es wegen der chinesischen Zulassung nicht.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40555243/',
+    sources: [
+      { title: 'Ji L et al., Lancet Diabetes Endocrinol 2025 – Phase 3 bei Übergewicht und Adipositas, 664 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/40555243/' },
+      { title: 'He Y et al., Lancet Diabetes Endocrinol 2025 – EECOH-2, gegen Dulaglutid bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/40854315/' },
+      { title: 'Zhu D et al., Nat Commun 2026 – EECOH-1, gegen Placebo bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/41501026/' },
+      { title: 'Guo W et al., Mol Metab 2023 – Entdeckung, Signal-Gewichtung und Phase 1', url: 'https://pubmed.ncbi.nlm.nih.gov/37364710/' },
+      { title: 'Shirley M, Drugs 2026 – Ecnoglutide: First Approvals', url: 'https://pubmed.ncbi.nlm.nih.gov/42412371/' },
+      { title: 'ClinicalTrials.gov NCT07073417 – Phase 2 im Vergleich mit Semaglutid (SLIMMER-UP-SWITCH)', url: 'https://clinicaltrials.gov/study/NCT07073417' },
+      { title: 'WADA – Prohibited List 2026, S0 Non-approved substances', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'sobetirom',
+    name: 'Sobetirom (GC-1)',
+    altNames: 'Sobetirome, GC-1, QRX-431',
+    class: 'Selektiver Schilddrüsenhormon-Rezeptor-beta-Agonist (Thyromimetikum), Forschungssubstanz, nirgends zugelassen',
+    emoji: '🧪',
+    short: 'Ein synthetischer Abkömmling des Schilddrüsenhormons, der bevorzugt den Rezeptor in der Leber anspricht und das Herz schonen soll. Ursprünglich als Cholesterinsenker entwickelt, durchlief er Phase-1-Studien am Menschen, deren Daten nie vollständig veröffentlicht wurden. Im Graumarkt wird GC-1 zum Fettabbau angeboten; dazu gibt es keine Humanstudie. Dasselbe Wirkprinzip ist mit Resmetirom inzwischen bei Fettleberentzündung zugelassen.',
+    moa: 'Schilddrüsenhormon wirkt über zwei Rezeptortypen: TR-alpha vor allem in Herz, Muskel und Knochen, TR-beta vor allem in der Leber. Sobetirom bindet bevorzugt an TR-beta und reichert sich in der Leber an (Lammel Lindemann 2016). Die Hypothese: Die Leber senkt Cholesterin und verbrennt mehr Fett, ohne dass das Herz rast. In Ratten senkte GC-1 das Cholesterin etwa 30-mal wirksamer, als es den Puls erhöhte, und steigerte den Grundumsatz; bei Javaneraffen sanken Cholesterin und Lipoprotein(a) nach 7 Tagen, das Körpergewicht um etwa 4 Prozent, ohne Pulsanstieg (Grover 2004). Am Menschen ist das Prinzip der Leber-gerichteten TR-beta-Aktivierung durch Resmetirom bestätigt, das in der Phase-3-Studie MAESTRO-NASH Fettleberentzündung und Fibrose besserte und LDL senkte (Harrison 2024). Für Sobetirom selbst fehlen veröffentlichte Humandaten.',
+    benefits: [
+      'Selektivität für den Leber-Rezeptor TR-beta im Labor und Tierversuch gut beschrieben; bei Affen Cholesterin- und Lp(a)-Senkung ohne Pulsanstieg (Grover 2004)',
+      'Phase-1-Studien am Menschen laut Übersichtsarbeiten mit guten Ergebnissen und ohne erkennbare schädliche Nebenwirkungen (Scanlan 2010; Lammel Lindemann 2016)',
+      'Das Wirkprinzip ist durch den verwandten Wirkstoff Resmetirom am Menschen bestätigt: in Phase 3 Rückbildung der MASH bei 25,9 bis 29,9 Prozent gegenüber 9,7 Prozent, LDL minus 13,6 bis 16,3 Prozent (Harrison 2024); EU-Zulassung im August 2025',
+      'Wird als Kandidat für seltene Erkrankungen wie die X-chromosomale Adrenoleukodystrophie diskutiert'
+    ],
+    risks: [
+      'Die Phase-1-Daten am Menschen wurden nie vollständig veröffentlicht; Zahlen sind nicht überprüfbar',
+      'Keine einzige Humanstudie zum Fettabbau oder zur Körperzusammensetzung; die Gewichtsdaten stammen aus Tierversuchen',
+      'Klassenwarnung: Der verwandte Wirkstoff Eprotirom führte bei Menschen mit familiärer Hypercholesterinämie zu Anstiegen der Leberwerte und senkte freies T4; die Phase-3-Studie wurde abgebrochen, nachdem bei Hunden Knorpelschäden aufgetreten waren (Sjouke 2014)',
+      'Schilddrüsenhormon-artige Wirkungen auf Herz, Knochen und die eigene Schilddrüsenachse sind bei unkontrollierter Einnahme nicht auszuschließen und für Sobetirom nicht untersucht',
+      'Graumarkt-Ware: Gehalt und Reinheit nicht unabhängig geprüft',
+      'Im Sport als nirgends zugelassene Substanz nach WADA-Liste 2026 (S0) jederzeit verboten'
+    ],
+    status: 'Weltweit nicht zugelassen; klinische Entwicklung nach Phase 1 nicht fortgeführt, eine im Register eingetragene Studie bei X-chromosomaler Adrenoleukodystrophie wurde zurückgezogen, bevor jemand teilnahm. In Deutschland kein zugelassenes Arzneimittel; Sobetirom steht nicht in Anlage 1 der Arzneimittelverschreibungsverordnung (anders als Resmetirom und Liothyronin). Als nirgends zugelassene Substanz fällt es unter WADA 2026 S0.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26565124/',
+    sources: [
+      { title: 'Scanlan TS, Heart Fail Rev 2010 – Sobetirom: Entwicklungsgeschichte vom Labor bis zur Klinik', url: 'https://pubmed.ncbi.nlm.nih.gov/19002578/' },
+      { title: 'Lammel Lindemann J, Webb P, Expert Opin Ther Targets 2016 – Sobetirom: Vergangenheit, Gegenwart, offene Fragen', url: 'https://pubmed.ncbi.nlm.nih.gov/26565124/' },
+      { title: 'Grover GJ et al., Endocrinology 2004 – GC-1 bei Ratten und Affen: Stoffwechsel, Cholesterin, Puls', url: 'https://pubmed.ncbi.nlm.nih.gov/14701670/' },
+      { title: 'Harrison SA et al., N Engl J Med 2024 – MAESTRO-NASH, Resmetirom Phase 3', url: 'https://pubmed.ncbi.nlm.nih.gov/38324483/' },
+      { title: 'EMA – Rezdiffra (Resmetirom), europäischer Bewertungsbericht', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/rezdiffra' },
+      { title: 'Sjouke B et al., Lancet Diabetes Endocrinol 2014 – Eprotirom, AKKA-Studie, Abbruch', url: 'https://pubmed.ncbi.nlm.nih.gov/24731671/' },
+      { title: 'ClinicalTrials.gov NCT01787578 – Sobetirom bei X-ALD, zurückgezogen', url: 'https://clinicaltrials.gov/study/NCT01787578' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'WADA – Prohibited List 2026, S0 Non-approved substances', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [
+      { title: 'biolabshop (GC-1 Sobetirom)', url: 'https://biolabshop.de/' }
+    ],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'fettweg-spritzen',
+    name: 'Fettweg-Spritzen (Injektionslipolyse)',
+    altNames: 'Injektionslipolyse, Lipolyse-Spritze, Deoxycholsäure, Kybella, Belkyra, Phosphatidylcholin-Lipolyse, Lemon Bottle, Lipo-B, Lipo-C, MIC-Spritze',
+    class: 'Sammelbegriff für Spritzen gegen örtliche Fettpolster: zugelassenes Arzneimittel (Deoxycholsäure), Off-Label-Mischungen (Phosphatidylcholin/Deoxycholat), Kosmetik-Produkte (Lemon Bottle) und „lipotrope“ Vitamin-Aminosäure-Spritzen',
+    emoji: '💉',
+    short: 'Unter „Fettweg-Spritze“ laufen sehr verschiedene Dinge. Am besten belegt ist Deoxycholsäure (Kybella/Belkyra): In zwei Phase-3-Studien mit über 1.000 Teilnehmern wurde das Doppelkinn bei rund zwei Dritteln sichtbar kleiner. Für Phosphatidylcholin-Mischungen gibt es kleinere Studien, für „Lemon Bottle“ eine Behördenwarnung und für lipotrope Lipo-B-, Lipo-C- oder MIC-Spritzen keine Studie zum Abnehmen.',
+    moa: 'Deoxycholsäure ist eine körpereigene Gallensäure. Unter die Haut in das Fettgewebe gespritzt, wirkt sie als Detergens und zerstört Fettzellen (Adipozytolyse, Humphrey 2016); sie wirkt also örtlich, dort, wo gespritzt wird. Bei den klassischen Lipolyse-Mischungen aus Phosphatidylcholin und Deoxycholat machte das Weglassen des Phosphatidylcholins in einer randomisierten Studie keinen Unterschied (Rotunda 2009), was dafür spricht, dass vor allem das Deoxycholat wirkt; eine neuere Phase-2-Studie mit reinem Soja-Phosphatidylcholin fand allerdings ebenfalls einen Effekt (Choi 2025). „Lipotrope“ Spritzen mit Methionin, Inositol, Cholin, Vitamin B12 oder L-Carnitin sollen den Fettstoffwechsel in der Leber unterstützen; einen Wirkweg zur Fettreduktion durch die Spritze gibt es dafür am Menschen nicht belegt. Deoxycholsäure und die Lipolyse-Mischungen zielen auf kleine, örtliche Fettpolster, nicht auf das Körpergewicht.',
+    benefits: [
+      'Deoxycholsäure, REFINE-1 (506 Teilnehmer): sichtbare Besserung des Doppelkinns um mindestens eine Stufe bei 70,0 gegenüber 18,6 Prozent unter Placebo; im MRT messbar kleineres Volumen bei 46,3 gegenüber 5,3 Prozent (Jones 2016)',
+      'Deoxycholsäure, REFINE-2 (516 Teilnehmer): mindestens eine Stufe Besserung bei 66,5 gegenüber 22,2 Prozent, zwei Stufen bei 18,6 gegenüber 3,0 Prozent (Humphrey 2016)',
+      'Als Arzneimittel für das Doppelkinn in den USA, Kanada und auf europäischer Ebene zugelassen; Wirkung durch Meta-Analyse randomisierter Studien bestätigt (Inocêncio 2023)',
+      'Soja-Phosphatidylcholin allein (Phase 2, 96 Teilnehmer): Besserung bei 69,7 Prozent in der niedrigeren Konzentration gegenüber 22,6 Prozent unter Placebo (Choi 2025)',
+      'Injektionslipolyse mit Phosphatidylcholin/Deoxycholat wird seit 2004 untersucht und war laut einer Übersicht von 2010 vor allem in Deutschland verbreitet (Hoffmann 2010)'
+    ],
+    risks: [
+      'Deoxycholsäure: Nekrosen an der Einstichstelle bis hin zu Arteriennekrosen; danach darf nie wieder behandelt werden (Rote-Hand-Brief 2019)',
+      'Vorübergehende Lähmung des Mundwinkel-Nervs bei 4,3 Prozent der Behandelten in REFINE-1; dazu Schwellung, Schmerz, Taubheit, Verhärtungen und Knötchen häufiger als unter Placebo (Jones 2016; Inocêncio 2023)',
+      'Alle randomisierten Deoxycholsäure-Studien sind herstellerfinanziert, nur zwei mit niedrigem Verzerrungsrisiko (Inocêncio 2023)',
+      'Lemon Bottle: Swissmedic fand in Proben keinen der deklarierten Inhaltsstoffe, in einer Probe nur Koffein; als nicht zugelassenes Arzneimittel eingestuft (2024). Der Vertreiber bezeichnet das Original als Kosmetikum nur zur äußerlichen Anwendung',
+      'Lipotrope Lipo-B-, Lipo-C- und MIC-Spritzen: keine kontrollierte Studie zur Fettreduktion gefunden; L-Carnitin zur Injektion ist in Deutschland verschreibungspflichtig',
+      'In ausgewerteten Online-Erfahrungsberichten waren Kybella-Bewertungen deutlich seltener positiv als die zur Fettabsaugung am Kinn (55,2 gegenüber 83,4 Prozent, Fijany 2026)'
+    ],
+    status: 'Deoxycholsäure ist als Arzneimittel zur Behandlung von submentalem Fett zugelassen und in Deutschland verschreibungspflichtig (AMVV Anlage 1); laut Rote-Hand-Brief 2019 war Kybella auf europäischer Ebene zugelassen, in Deutschland aber nicht vermarktet. Die subkutane Gabe von Phosphatidylcholin/Deoxycholat-Präparaten ist eine Off-Label-Anwendung. Spritzbare Produkte gelten nach Swissmedic als Arzneimittel, nicht als Kosmetik; Lemon Bottle ist nirgends als Arzneimittel zugelassen. L-Carnitin zur parenteralen Anwendung ist in Deutschland verschreibungspflichtig.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26673433/',
+    sources: [
+      { title: 'Jones DH et al., Dermatol Surg 2016 – REFINE-1, Deoxycholsäure Phase 3', url: 'https://pubmed.ncbi.nlm.nih.gov/26673433/' },
+      { title: 'Humphrey S et al., J Am Acad Dermatol 2016 – REFINE-2, Deoxycholsäure Phase 3', url: 'https://pubmed.ncbi.nlm.nih.gov/27430612/' },
+      { title: 'Inocêncio GSG et al., Clinics 2023 – Meta-Analyse Deoxycholsäure, Wirksamkeit, Sicherheit, Industrie-Bias', url: 'https://pubmed.ncbi.nlm.nih.gov/37806137/' },
+      { title: 'Rotunda AM et al., Dermatol Surg 2009 – Deoxycholat allein gegen Phosphatidylcholin/Deoxycholat, randomisiert', url: 'https://pubmed.ncbi.nlm.nih.gov/19397673/' },
+      { title: 'Choi SY et al., Clin Ther 2025 – Soja-Phosphatidylcholin (AYP-101), Phase 2', url: 'https://pubmed.ncbi.nlm.nih.gov/40850886/' },
+      { title: 'Hoffmann K, Hautarzt 2010 – Injektionslipolyse, Off-Label-Gebrauch von Lipostabil N', url: 'https://pubmed.ncbi.nlm.nih.gov/20878380/' },
+      { title: 'Fijany AJ et al., Aesthet Surg J 2026 – Auswertung von Online-Erfahrungsberichten: Kybella gegen Fettabsaugung', url: 'https://pubmed.ncbi.nlm.nih.gov/40577594/' },
+      { title: 'AkdÄ – Rote-Hand-Brief Kybella (Deoxycholsäure), 16.01.2019: Nekrosen an der Injektionsstelle', url: 'https://www.akdae.de/fileadmin/user_upload/akdae/Arzneimittelsicherheit/RHB/Archiv/2019/20190116.pdf' },
+      { title: 'Swissmedic – Warnung vor dem illegalen Arzneimittel „Lemon Bottle“ Lipolyse-Lösung (26.03.2024)', url: 'https://www.swissmedic.ch/swissmedic/de/home/humanarzneimittel/marktueberwachung/arzneimittel-aus-dem-internet/drug-safety-current-threats/warnung-lemon-bottle.html' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'low-dose-naltrexon',
+    name: 'Low-Dose-Naltrexon (LDN)',
+    altNames: 'LDN, niedrig dosiertes Naltrexon, Naltrexonhydrochlorid in niedriger Dosis',
+    class: 'Opioidrezeptor-Antagonist in niedriger Dosis, Rezepturarzneimittel außerhalb der Zulassung, verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Ein Bruchteil der zugelassenen Naltrexon-Dosis, seit Jahren außerhalb der Zulassung bei Fibromyalgie, Long Covid und Autoimmunerkrankungen eingesetzt. Kleine frühe Studien waren ermutigend und die Verträglichkeit ist gut; die zwei größten Fibromyalgie-Studien fanden beim Schmerz aber keinen Unterschied zu Placebo, und für Long Covid gibt es noch keine randomisierte Studie.',
+    moa: 'Naltrexon blockiert Opioidrezeptoren; zugelassen ist es in Deutschland als 50-mg-Tablette zur Unterstützung der Abstinenz bei Alkohol- und nach Opioidabhängigkeit. In niedriger Dosis soll es die Rezeptoren nur für wenige Stunden besetzen; die Hypothese ist eine Gegenregulation mit mehr körpereigenen Endorphinen. Eine zweite, unabhängige Hypothese betrifft Mikroglia, die Immunzellen des Nervensystems: LDN könnte dort Entzündungssignale dämpfen, unabhängig von den Opioidrezeptoren (Younger 2014). Beides ist beim Menschen nicht direkt belegt.',
+    benefits: [
+      'Fibromyalgie, frühe Studie: Schmerz um 28,8 % gegenüber 18,0 % unter Placebo gesenkt, p = 0,016; besserer Lebenszufriedenheits- und Stimmungswert (doppelblinde Crossover-Studie, 31 Frauen, Younger 2013)',
+      'Meta-Analyse über 4 RCTs mit 222 Fibromyalgie-Patienten: Schmerzwert im Mittel 0,86 Punkte niedriger als unter Placebo (Vatvani 2024)',
+      'Morbus Crohn: bei 34 Erwachsenen klinisches Ansprechen bei 83 % gegenüber 38 % unter Placebo, endoskopisches Ansprechen 72 % gegenüber 25 %; Remission nicht signifikant häufiger, Evidenz laut Cochrane niedrig (Parker 2018)',
+      'Long Covid: in 4 Vorher-nachher-Studien mit 155 Personen weniger Erschöpfung, Schmerz und Brain Fog und besserer Schlaf – ohne Kontrollgruppe (Byambasuren 2026)',
+      'Gut verträglich: Nebenwirkungen in den Fibromyalgie-Studien etwa so häufig wie unter Placebo (FINAL 84 % gegenüber 86 %, INNOVA 68,8 % gegenüber 72 %); lebhafte Träume und Übelkeit etwas häufiger (Vatvani 2024)'
+    ],
+    risks: [
+      'Die zwei größten Fibromyalgie-RCTs fanden keinen Nutzen beim Schmerz: FINAL (99 Frauen, 12 Wochen) Unterschied -0,34 Punkte, p = 0,27; INNOVA (98 Frauen, 12 Monate) kein klinisch relevanter Unterschied',
+      'Long Covid: bis Mai 2026 keine einzige randomisierte Studie (Byambasuren 2026)',
+      'Eine Übersicht über 105 Studien fand, dass frühe positive Befunde aus unkontrollierten Studien sich in placebokontrollierten Studien selten bestätigten (Gouda 2026)',
+      'Blockiert Opioide: laut Fachinformation der 50-mg-Tablette Gegenanzeige bei Einnahme von Opioid-Schmerzmitteln oder Opioidabhängigkeit ohne Entzug; Vorsicht bei Leber- und Nierenerkrankungen',
+      'Keine zugelassene LDN-Dosis: Anwendung nur als ärztlich verordnetes Rezepturarzneimittel außerhalb der Zulassung'
+    ],
+    status: 'Naltrexon ist in Deutschland verschreibungspflichtig (AMVV Anlage 1) und als 50-mg-Tablette zur Unterstützung der Abstinenz bei Alkohol- und nach Opioidabhängigkeit zugelassen. Für niedrig dosiertes Naltrexon gibt es kein zugelassenes Fertigarzneimittel und keine zugelassene Indikation; es wird ärztlich als Rezepturarzneimittel verordnet und in der Apotheke hergestellt. Jede Anwendung bei Fibromyalgie, Long Covid oder Autoimmunerkrankungen ist Off-Label.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38258677/',
+    sources: [
+      { title: 'Younger J et al., Arthritis Rheum 2013 – niedrig dosiertes Naltrexon bei Fibromyalgie, doppelblinde Crossover-Studie mit 31 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/23359310/' },
+      { title: 'Younger J et al., Clin Rheumatol 2014 – LDN als möglicher Entzündungshemmer im Nervensystem über Mikroglia, Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/24526250/' },
+      { title: 'Due Bruun K et al., Lancet Rheumatol 2024 – FINAL, 6 mg Naltrexon gegen Placebo bei 99 Frauen mit Fibromyalgie, RCT', url: 'https://pubmed.ncbi.nlm.nih.gov/38258677/' },
+      { title: 'Rodríguez-Freire C et al., Eur J Pain 2026 – INNOVA, LDN gegen Placebo über 12 Monate bei 98 Frauen mit Fibromyalgie, RCT', url: 'https://pubmed.ncbi.nlm.nih.gov/42385209/' },
+      { title: 'Vatvani AD et al., Korean J Pain 2024 – Meta-Analyse, 4 RCTs mit 222 Fibromyalgie-Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/39344363/' },
+      { title: 'Parker CE et al., Cochrane Database Syst Rev 2018 – LDN zur Remissionseinleitung bei Morbus Crohn, 2 RCTs mit 46 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/29607497/' },
+      { title: 'Byambasuren O et al., BMJ Open 2026 – LDN bei Long Covid, systematische Übersicht: keine RCTs, 4 Vorher-nachher-Studien mit 155 Personen', url: 'https://pubmed.ncbi.nlm.nih.gov/42463201/' },
+      { title: 'Gouda AHK et al., Adv Ther 2026 – Low-Dose Naltrexone: What is the Evidence? Übersicht über 105 Studien, darunter 15 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/42060160/' },
+      { title: 'Fachinformation Naltrexon-HCl neuraxpharm 50 mg Filmtabletten – Anwendungsgebiete und Gegenanzeigen', url: 'https://www.fachinfo.de/fi/pdf/021387' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Naltrexon verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Immun'
+  },
+  {
+    id: '17-alpha-estradiol',
+    name: '17α-Estradiol (Alfatradiol)',
+    altNames: '17-alpha-Estradiol, 17aE2, Alfatradiol, Ell-Cranell alpha',
+    class: 'Schwach wirksames Östrogen-Isomer; in Deutschland als Kopfhaut-Lösung gegen Haarausfall apothekenpflichtig, sonst verschreibungspflichtig',
+    emoji: '⏳',
+    short: 'Das Spiegelbild des weiblichen Hauptöstrogens, kaum feminisierend: Im Lebensdauerprogramm ITP verlängerte es in drei Studien das Leben männlicher Mäuse um bis zu 19 Prozent, auch bei spätem Start. In Deutschland ist es seit Jahrzehnten als Haarwasser gegen erblichen Haarausfall im Handel. Am Menschen ist es als Longevity-Mittel nicht untersucht.',
+    moa: '17α-Estradiol unterscheidet sich vom körpereigenen 17β-Estradiol nur in der räumlichen Stellung einer Gruppe am Kohlenstoffatom 17, wirkt aber nur schwach feminisierend. Bei männlichen Mäusen senkt es Fettmasse, verbessert die Insulinempfindlichkeit und den Leberstoffwechsel; viele dieser Effekte laufen über den Östrogenrezeptor alpha (ERα), unter anderem im Hypothalamus (Santín-Márquez 2026, Camon 2024). Warum Weibchen nicht profitieren, ist ungeklärt. Am Haarfollikel senkt es im Labor die Bildung von Dihydrotestosteron und steigert die Aromatase, die Testosteron in Östrogene umwandelt (Hoffmann 2002).',
+    benefits: [
+      'ITP 2014: mittlere Lebensdauer männlicher Mäuse um 12 % verlängert (p = 0,002), keine Wirkung bei Weibchen (Harrison 2014)',
+      'ITP 2016: in dreifacher Dosis mittlere und maximale Lebensdauer männlicher Mäuse robust verlängert, wieder nur bei Männchen (Strong 2016)',
+      'ITP 2021: auch bei Beginn im Alter von 16 bzw. 20 Monaten mittlere Lebensdauer männlicher Mäuse um 19 % bzw. 11 % verlängert (Harrison 2021)',
+      'Erste Primatendaten: männliche Weißbüschelaffen vertrugen zwei Dosierungen ohne Feminisierung, Fettmasse und HbA1c sanken leicht, meist nicht signifikant (Pilotstudie, Sathiaseelan 2025)',
+      'Haarausfall: in einer doppelblinden Studie mit 51 Patienten sank der Anteil ausfallender Haare bei 63 % gegenüber 37 % unter Kontrolle; kein neues Haarwachstum (Orfanos 1980)'
+    ],
+    risks: [
+      'Am Menschen als Longevity-Mittel nicht untersucht: keine registrierte klinische Studie zur Einnahme, alle Lebensdauerdaten stammen von Mäusen',
+      'Die Wirkung ist geschlechtsabhängig: weibliche Mäuse lebten nicht länger (Harrison 2014, Strong 2016)',
+      'Bei der Kopfhaut-Lösung im direkten Vergleich schwächer als Minoxidil: Haardichte und Haardicke blieben nach 6 Monaten nahezu unverändert (Blume-Peytavi 2007)',
+      'Als Östrogen-Isomer bei Einnahme mögliche hormonelle Wirkungen; Daten zu Brust, Prostata, Gerinnung und Fruchtbarkeit beim Menschen fehlen',
+      'Bei Mäusen sank das Körpergewicht nach Beginn um etwa 20 % (Harrison 2021) – ob das beim Menschen erwünscht wäre, ist offen'
+    ],
+    status: 'Deutschland: Alfatradiol ist laut AMVV verschreibungspflichtig, ausgenommen zur Anwendung auf der Kopfhaut bei leichter androgenetischer Alopezie ab 18 Jahren; als Lösung zur Anwendung auf der Kopfhaut ist es zugelassen und apothekenpflichtig. Für die Einnahme gibt es kein zugelassenes Arzneimittel und keine Humanstudie; jede systemische Anwendung zur Lebensverlängerung ist experimentell.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33788371/',
+    sources: [
+      { title: 'Harrison DE et al., Aging Cell 2014 – ITP: Acarbose, 17-α-Estradiol und NDGA verlängern das Leben vor allem männlicher Mäuse', url: 'https://pubmed.ncbi.nlm.nih.gov/24245565/' },
+      { title: 'Strong R et al., Aging Cell 2016 – ITP: dreifache Dosis 17-α-Estradiol verlängert mittlere und maximale Lebensdauer männlicher Mäuse', url: 'https://pubmed.ncbi.nlm.nih.gov/27312235/' },
+      { title: 'Harrison DE et al., Aging Cell 2021 – ITP: 17-α-Estradiol auch bei Start mit 16 und 20 Monaten lebensverlängernd bei männlichen Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/33788371/' },
+      { title: 'Santín-Márquez R et al., Ageing Res Rev 2026 – Übersicht: 17α-Estradiol, geschlechtsspezifische Effekte auf Stoffwechsel und Lebensdauer, Rolle von ERα', url: 'https://pubmed.ncbi.nlm.nih.gov/42142594/' },
+      { title: 'Camon C et al., GeroScience 2024 – Stoffwechseleffekte von 17α-Estradiol hängen nicht allein an ERα in bestimmten Nervenzellen (Maus)', url: 'https://pubmed.ncbi.nlm.nih.gov/38776045/' },
+      { title: 'Sathiaseelan R et al., GeroScience 2025 – Pilotstudie zur Verträglichkeit von 17α-Estradiol bei männlichen Weißbüschelaffen', url: 'https://pubmed.ncbi.nlm.nih.gov/39107620/' },
+      { title: 'Orfanos CE und Vogels L, Dermatologica 1980 – 17α-Estradiol-Haarwasser bei androgenetischer Alopezie, kontrollierte doppelblinde Studie mit 51 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/7398983/' },
+      { title: 'Blume-Peytavi U et al., J Dtsch Dermatol Ges 2007 – Minoxidil gegen Alfatradiol bei androgenetischer Alopezie der Frau, randomisiert, 103 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/17451383/' },
+      { title: 'Hoffmann R et al., Exp Dermatol 2002 – 17α-Estradiol steigert die Aromatase-Aktivität in menschlichen Haarfollikeln ex vivo', url: 'https://pubmed.ncbi.nlm.nih.gov/12190948/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Alfatradiol verschreibungspflichtig, ausgenommen zur Anwendung auf der Kopfhaut bei leichter androgenetischer Alopezie ab 18 Jahren', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Longevity'
+  },
+  {
+    id: 'statine',
+    name: 'Statine (Atorvastatin, Rosuvastatin)',
+    altNames: 'HMG-CoA-Reduktase-Hemmer, CSE-Hemmer, Atorvastatin, Rosuvastatin, Simvastatin, Sortis, Crestor',
+    class: 'HMG-CoA-Reduktase-Hemmer (Cholesterinsenker), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Die am besten untersuchten Medikamente der Herz-Kreislauf-Vorbeugung: Jede Senkung des LDL-Cholesterins um 1 mmol/l senkt schwere Gefäßereignisse um gut ein Fünftel, auch bei Menschen ohne Vorerkrankung. Muskelbeschwerden sind überwiegend Nocebo, wie mehrere Placebo-Studien zeigen. Ob Statine bei Gesunden über die Herzvorsorge hinaus das Altern beeinflussen, ist offen.',
+    moa: 'Statine hemmen in der Leber das Enzym HMG-CoA-Reduktase, einen zentralen Schritt der körpereigenen Cholesterinbildung. Die Leberzellen holen daraufhin mehr LDL-Cholesterin aus dem Blut. Die Schutzwirkung folgt der Höhe der LDL-Senkung: In der großen Meta-Analyse sanken schwere Gefäßereignisse je 1 mmol/l weniger LDL um 22 Prozent, ohne erkennbare Untergrenze (CTT 2010). Rosuvastatin senkte in JUPITER zusätzlich das Entzündungsmolekül CRP um 37 Prozent.',
+    benefits: [
+      'Je 1 mmol/l LDL-Senkung 22 % weniger schwere Gefäßereignisse und 10 % geringere Gesamtsterblichkeit; kein Anstieg von Krebs (Meta-Analyse, 26 RCTs, rund 170.000 Teilnehmende, CTT 2010)',
+      'Primärprävention bei scheinbar Gesunden mit erhöhtem CRP: Rosuvastatin halbierte das LDL und senkte Ereignisse von 1,36 auf 0,77 je 100 Personenjahre, HR 0,56; Gesamtsterblichkeit HR 0,80 (JUPITER, 17.802 Personen)',
+      'Mittleres Risiko ohne Vorerkrankung: Herztod, Herzinfarkt oder Schlaganfall bei 3,7 % gegenüber 4,8 %, HR 0,76 über 5,6 Jahre (HOPE-3, 12.705 Personen)',
+      'Muskelbeschwerden sind überwiegend Nocebo: 90 % der Beschwerden unter Statin traten auch unter Placebo auf (SAMSON); kein Unterschied zu Placebo bei Menschen mit früheren Beschwerden (StatinWISE)',
+      'Seit Jahrzehnten breit angewendet, Nebenwirkungen in doppelblinden Studien mit über 120.000 Teilnehmenden ausgewertet (CTT 2022, 2026)'
+    ],
+    risks: [
+      'Kleiner echter Muskeleffekt: im ersten Jahr 11 zusätzliche Meldungen von Muskelschmerz oder -schwäche je 1.000 Personenjahre, höher bei Hochdosis (CTT 2022)',
+      'Etwas mehr neu diagnostizierter Diabetes (JUPITER); in HOPE-3 kein Überschuss',
+      'Leberwerte: Transaminasen-Erhöhung 0,30 % gegenüber 0,22 % pro Jahr; die meisten anderen in Fachinformationen gelisteten Nebenwirkungen wie Gedächtnisstörung, Depression oder Schlafstörung bestätigten sich in doppelblinden Studien nicht (CTT 2026)',
+      'HOPE-3: mehr Kataraktoperationen (3,8 % gegenüber 3,1 %) und Muskelbeschwerden (5,8 % gegenüber 4,7 %)',
+      'Kein Longevity-Beleg über die Herzvorsorge hinaus: Atorvastatin plus Telmisartan verlängerte das Leben von Mäusen im ITP nicht; die Studie STAREE zu behinderungsfreiem Überleben Älterer hat noch keine Ergebnisse veröffentlicht'
+    ],
+    status: 'Deutschland/EU: zugelassene, verschreibungspflichtige Arzneimittel (AMVV Anlage 1), zahlreiche Generika. Eingesetzt zur Senkung erhöhter Blutfette und zur Vorbeugung von Herz-Kreislauf-Ereignissen; die Verordnung richtet sich nach dem persönlichen Herz-Kreislauf-Risiko. Eine Anwendung allein zur Lebensverlängerung ohne erhöhtes Risiko ist nicht Gegenstand der Zulassung.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/21067804/',
+    sources: [
+      { title: 'Cholesterol Treatment Trialists (CTT) Collaboration, Lancet 2010 – Meta-Analyse, 26 randomisierte Studien mit rund 170.000 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/21067804/' },
+      { title: 'Ridker PM et al., N Engl J Med 2008 – JUPITER, Rosuvastatin bei 17.802 scheinbar Gesunden mit erhöhtem CRP', url: 'https://pubmed.ncbi.nlm.nih.gov/18997196/' },
+      { title: 'Yusuf S et al., N Engl J Med 2016 – HOPE-3, Rosuvastatin bei 12.705 Personen mit mittlerem Risiko ohne Herz-Kreislauf-Erkrankung', url: 'https://pubmed.ncbi.nlm.nih.gov/27040132/' },
+      { title: 'Howard JP et al., J Am Coll Cardiol 2021 – SAMSON, Statin, Placebo und leere Monate bei 60 Menschen, die Statine abgesetzt hatten', url: 'https://pubmed.ncbi.nlm.nih.gov/34531021/' },
+      { title: 'Herrett E et al., BMJ 2021 – StatinWISE, 200 N-of-1-Studien zu Muskelbeschwerden unter Atorvastatin', url: 'https://pubmed.ncbi.nlm.nih.gov/33627334/' },
+      { title: 'Cholesterol Treatment Trialists Collaboration, Lancet 2022 – Muskelbeschwerden unter Statinen, 19 doppelblinde Studien mit 123.940 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/36049498/' },
+      { title: 'Cholesterol Treatment Trialists Collaboration, Lancet 2026 – Prüfung der in Fachinformationen gelisteten Statin-Nebenwirkungen anhand doppelblinder Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/41655587/' },
+      { title: 'Korstanje R et al., GeroScience 2026 – ITP, unter anderem Atorvastatin plus Telmisartan ohne Lebensverlängerung bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/41843349/' },
+      { title: 'ClinicalTrials.gov NCT02099123 – STAREE, Atorvastatin für behinderungsfreies Überleben bei 9.971 Älteren ab 70 Jahren', url: 'https://clinicaltrials.gov/study/NCT02099123' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Atorvastatin, Rosuvastatin und Simvastatin verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'colchicin',
+    name: 'Colchicin (niedrig dosiert, Herz-Kreislauf-Vorbeugung)',
+    altNames: 'Colchicine, Lodoco, Colchicin AGEPHA Pharma, Low-Dose-Colchicin, Herbstzeitlosen-Alkaloid',
+    class: 'Entzündungshemmer (Mikrotubuli-Hemmer), verschreibungspflichtig',
+    emoji: '🫀',
+    short: 'Ein altes Gichtmittel, das in niedriger Dosis die Entzündung in den Gefäßen dämpft: In zwei großen Studien senkte 0,5 mg täglich schwere Herz-Kreislauf-Ereignisse um 23 bis 31 Prozent. Seit 2023 in den USA und seit Juli 2026 in der EU dafür zugelassen. Direkt nach einem Herzinfarkt und nach Schlaganfall blieben neuere Studien ohne klaren Nutzen.',
+    moa: 'Colchicin ist ein Alkaloid der Herbstzeitlose und hemmt den Aufbau der Mikrotubuli, des Zellskeletts. In Entzündungszellen bremst das die Wanderung von Granulozyten und die Aktivierung des NLRP3-Inflammasoms, eines Schalters der Entzündungsreaktion, der auch in Gefäßablagerungen aktiv ist. Laut EU-Produktinformation ist der genaue Mechanismus der Herzschutzwirkung nicht geklärt; angenommen wird, dass die gedämpfte Gefäßentzündung das Restrisiko senkt, das trotz Cholesterinsenkung bleibt.',
+    benefits: [
+      'Nach Herzinfarkt: kombinierter Endpunkt 5,5 % gegenüber 7,1 %, HR 0,77; Schlaganfall HR 0,26 (COLCOT, 4.745 Patienten, median 22,6 Monate)',
+      'Chronische koronare Herzkrankheit: 6,8 % gegenüber 9,6 %, HR 0,69; Herztod, Herzinfarkt oder ischämischer Schlaganfall HR 0,72 (LoDoCo2, 5.522 Patienten, median 28,6 Monate)',
+      'Meta-Analyse über 39 RCTs mit 37.812 Teilnehmenden: weniger Herzinfarkte (RR 0,81), Vorhofflimmern (RR 0,74) und Herzbeutelentzündungen (RR 0,48), keine Wirkung auf die Gesamtsterblichkeit (Cueva-Cañola 2026)',
+      'Zugelassen zur Herz-Kreislauf-Vorbeugung: USA seit Juni 2023 (Lodoco), EU seit 24.07.2026 bei seit mindestens 6 Monaten stabiler koronarer Herzkrankheit',
+      'CRP sinkt messbar, auch dort, wo der klinische Endpunkt verfehlt wurde (CLEAR, CONVINCE)'
+    ],
+    risks: [
+      'Direkt nach Herzinfarkt kein Nutzen: 9,1 % gegenüber 9,3 % Ereignisse über 3 Jahre, HR 0,99 (CLEAR, 7.062 Patienten, 2025)',
+      'Nach Schlaganfall oder TIA kein signifikanter Nutzen: HR 0,84, p = 0,12 (CONVINCE, 3.154 Patienten, vorzeitig wegen Budget beendet)',
+      'LoDoCo2: Tod aus nicht kardiovaskulären Ursachen tendenziell häufiger, HR 1,51 (0,99 bis 2,31); COLCOT: Lungenentzündung als schwere Nebenwirkung 0,9 % gegenüber 0,4 %',
+      'Geringe therapeutische Breite: Überdosierung kann zu Multiorganversagen führen; Gegenanzeige bei starken CYP3A4- oder P-Glykoprotein-Hemmern, eGFR unter 50 ml/min, schwerer Leberfunktionsstörung und Blutbildveränderungen (EU-Produktinformation)',
+      'Durchfall häufiger (CLEAR 10,2 % gegenüber 6,6 %); Myopathie und Rhabdomyolyse möglich, verstärkt zusammen mit Statinen; zuverlässige Verhütung während und nach der Behandlung erforderlich'
+    ],
+    status: 'EU/Deutschland: Colchicin AGEPHA Pharma 0,5 mg seit 24.07.2026 EU-weit zugelassen zur Sekundärprävention atherothrombotischer Ereignisse bei Erwachsenen mit seit mindestens 6 Monaten stabiler koronarer Herzkrankheit; zugelassene Dosis 0,5 mg einmal täglich, zugleich Höchstdosis. USA: Lodoco seit Juni 2023 zugelassen zur Senkung von Herzinfarkt, Schlaganfall, Revaskularisation und Herztod bei Atherosklerose oder mehreren Risikofaktoren. Colchicin ist verschreibungspflichtig (AMVV). Eine Anwendung bei Gesunden ohne Herzerkrankung ist von keiner Zulassung gedeckt.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32865380/',
+    sources: [
+      { title: 'Tardif JC et al., N Engl J Med 2019 – COLCOT, 0,5 mg Colchicin nach Herzinfarkt, 4.745 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/31733140/' },
+      { title: 'Nidorf SM et al., N Engl J Med 2020 – LoDoCo2, 0,5 mg Colchicin bei chronischer koronarer Herzkrankheit, 5.522 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/32865380/' },
+      { title: 'Jolly SS et al., N Engl J Med 2025 – CLEAR (CLEAR SYNERGY), Colchicin direkt nach Herzinfarkt, 7.062 Patienten, kein Nutzen', url: 'https://pubmed.ncbi.nlm.nih.gov/39555823/' },
+      { title: 'Kelly P et al., Lancet 2024 – CONVINCE, Colchicin nach Schlaganfall oder TIA, 3.154 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/38857611/' },
+      { title: 'Cueva-Cañola LE et al., Med Clin (Barc) 2026 – Meta-Analyse, 39 RCTs mit 37.812 Teilnehmenden zu Colchicin bei Herz-Kreislauf-Erkrankungen', url: 'https://pubmed.ncbi.nlm.nih.gov/42413351/' },
+      { title: 'FDA, Zulassungsschreiben NDA 215727 – Lodoco (Colchicin 0,5 mg), Juni 2023', url: 'https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/215727Orig1s000ltr.pdf' },
+      { title: 'EMA – Colchicine AGEPHA Pharma, europäischer Bewertungsbericht, EU-Zulassung 24.07.2026', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/colchicine-agepha-pharma' },
+      { title: 'EMA – Colchicin AGEPHA Pharma 0,5 mg Tabletten, Produktinformation (deutsch)', url: 'https://www.ema.europa.eu/de/documents/product-information/colchicine-agepha-pharma-epar-product-information_de.pdf' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Colchicumalkaloide verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Immun'
+  },
+  {
+    id: 'progesteron',
+    name: 'Progesteron (mikronisiert, bioidentisch)',
+    altNames: 'Mikronisiertes Progesteron, bioidentisches Progesteron, Utrogest, Gelbkörperhormon',
+    class: 'Körpereigenes Gelbkörperhormon (Gestagen), verschreibungspflichtig',
+    emoji: '🌙',
+    short: 'Das körpereigene Gelbkörperhormon, als Kapsel zugelassen, um bei einer Östrogen-Hormontherapie die Gebärmutterschleimhaut zu schützen. Es schützt dort so zuverlässig wie synthetische Gestagene, in einer Studie linderte es Hitzewallungen, und es kann gestörten Schlaf verbessern. Der Ruf, sicherer als synthetische Gestagene zu sein, stützt sich auf große Beobachtungsstudien, nicht auf randomisierte Vergleiche.',
+    moa: 'Progesteron ist das Hormon, das der Gelbkörper nach dem Eisprung bildet; es bereitet die Gebärmutterschleimhaut vor und wirkt einem durch Östrogen angeregten Wachstum entgegen. Mikronisiert, also fein vermahlen, wird es nach dem Schlucken ausreichend aufgenommen. „Bioidentisch“ heißt: chemisch identisch mit dem körpereigenen Hormon, anders als synthetische Gestagene wie Medroxyprogesteronacetat. Abbauprodukte von Progesteron wirken im Gehirn dämpfend, was die Schläfrigkeit nach Einnahme und den möglichen Effekt auf gestörten Schlaf erklären könnte (Caufriez 2011).',
+    benefits: [
+      'Schützt die Gebärmutterschleimhaut: Unter Östrogen allein entwickelten 27,7 % eine einfache Hyperplasie gegenüber 0,8 % unter Placebo; mit mikronisiertem Progesteron war die Rate so niedrig wie unter Placebo (PEPI, 596 Frauen, 3 Jahre)',
+      'Hitzewallungen nach der Menopause: Beschwerdewert um 10,0 gegenüber 4,4 Punkte gesenkt (RCT, 133 Frauen, Hitchcock und Prior 2012)',
+      'Gestörter Schlaf: unter Progesteron 53 % weniger Wachzeit und fast 50 % mehr Tiefschlaf als unter Placebo, ungestörter Schlaf unverändert (RCT, 8 Frauen, Caufriez 2011)',
+      'Brustkrebs in Beobachtungsdaten: Östrogen plus Progesteron RR 1,00, Östrogen plus andere Gestagene RR 1,69 (E3N, 80.377 Frauen, Fournier 2008)',
+      'Thrombose in Beobachtungsdaten: kein erhöhtes Risiko mit mikronisiertem Progesteron (OR 0,7), mit Norpregnan-Gestagenen OR 3,9 (ESTHER, Canonico 2007)'
+    ],
+    risks: [
+      'Der Sicherheitsvorteil gegenüber synthetischen Gestagenen stammt aus Beobachtungsstudien (E3N, ESTHER); ein randomisierter Vergleich mit harten Endpunkten fehlt',
+      'In der Perimenopause linderte Progesteron Hitzewallungen nicht signifikant (RCT, 189 Frauen, Prior 2023)',
+      'Schläfrigkeit und Schwindel nach Einnahme, laut Fachinformation vor allem bei Östrogenmangel; Einnahme am Abend vorgesehen',
+      'Gegenanzeigen laut Fachinformation u. a. bei nicht abgeklärter Blutung, schwerer Leberfunktionsstörung, Lebertumoren, Brust- oder Genitalkrebs und Thromboembolien',
+      'Progesteron-Cremes: in 2 von 3 RCTs mit Fertigcremes nicht besser als Placebo gegen Hitzewallungen (Whelan 2013); der Schutz der Gebärmutterschleimhaut ist für die Kapsel belegt (PEPI), nicht für Cremes'
+    ],
+    status: 'Deutschland: Progesteron ist verschreibungspflichtig (AMVV Anlage 1). Als Kapsel (z. B. Utrogest) zugelassen bei Zyklusstörungen durch Progesteronmangel und als Zusatztherapie bei einer Östrogen-Hormonersatztherapie von Frauen nach der Menopause mit Gebärmutter; zugelassene Dosis dort 200 mg vor dem Schlafengehen an mindestens 12 bis 14 Tagen pro Monat. Die Anwendung als Schlafmittel oder als alleinige Behandlung von Hitzewallungen ist nicht zugelassen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/8569016/',
+    sources: [
+      { title: 'Rossouw JE et al., JAMA 2002 – Women’s Health Initiative, konjugierte Östrogene plus Medroxyprogesteronacetat, 16.608 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/12117397/' },
+      { title: 'PEPI Writing Group, JAMA 1996 – Endometrium unter Östrogen allein oder mit Gestagen bzw. mikronisiertem Progesteron, 596 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/8569016/' },
+      { title: 'Fournier A et al., Breast Cancer Res Treat 2008 – E3N-Kohorte, Brustkrebsrisiko je nach Gestagen, 80.377 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/17333341/' },
+      { title: 'Canonico M et al., Circulation 2007 – ESTHER, Thromboserisiko je nach Östrogen-Anwendungsweg und Gestagen, Fall-Kontroll-Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/17309934/' },
+      { title: 'Hitchcock CL und Prior JC, Menopause 2012 – mikronisiertes Progesteron gegen Hitzewallungen, RCT mit 133 Frauen nach der Menopause', url: 'https://pubmed.ncbi.nlm.nih.gov/22453200/' },
+      { title: 'Prior JC et al., Sci Rep 2023 – mikronisiertes Progesteron bei Hitzewallungen in der Perimenopause, RCT mit 189 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/37277418/' },
+      { title: 'Caufriez A et al., J Clin Endocrinol Metab 2011 – Progesteron und Schlaf bei 8 Frauen nach der Menopause, randomisiert, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/21289261/' },
+      { title: 'Whelan AM et al., Ann Pharmacother 2013 – Progesteron-Creme gegen Hitzewallungen, systematische Übersicht über 3 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/23249728/' },
+      { title: 'Fachinformation Utrogest 100 mg/200 mg Weichkapseln (Stand Januar 2023)', url: 'https://www.fachinfo.de/fi/pdf/021431' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Progesteron verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'ivermectin',
+    name: 'Ivermectin',
+    altNames: 'Avermectin-Derivat, Scabioral, Ivermectin-ratiopharm',
+    class: 'Antiparasitikum (Avermectin), verschreibungspflichtig',
+    emoji: '🪱',
+    short: 'Eines der erfolgreichsten Medikamente der Tropenmedizin: Die Entdeckung der Avermectine wurde 2015 mit dem Nobelpreis ausgezeichnet, und Ivermectin ist in Deutschland gegen Krätze und Fadenwürmer zugelassen. Gegen Covid-19 brachte es in drei großen randomisierten Studien keinen relevanten Nutzen. Für Krebs und Langlebigkeit gibt es bislang nur Labordaten und laufende Frühstudien.',
+    moa: 'Ivermectin bindet mit hoher Affinität an glutamatgesteuerte Chloridkanäle in Nerven- und Muskelzellen wirbelloser Tiere. Der Chlorideinstrom lähmt bestimmte Parasiten, die dann absterben. Bei Säugetieren kommen diese Kanäle nicht in gleicher Form vor; Ivermectin kann aber auch mit anderen Chloridkanälen wie dem GABA-Rezeptor interagieren (Fachinformation). Im Labor hemmt es die Vermehrung von Viren und das Wachstum von Krebszellen, in Konzentrationen, deren Übertragbarkeit auf den Menschen offen ist.',
+    benefits: [
+      'Nobelpreis 2015: Avermectin-Derivate haben Flussblindheit und lymphatische Filariose weltweit „radikal“ zurückgedrängt (Nobelversammlung)',
+      'In Deutschland zugelassen gegen Strongyloidiasis, Mikrofilarämie bei lymphatischer Filariose und Krätze; empfohlen ist eine einmalige Gabe von 200 Mikrogramm je kg Körpergewicht (Fachinformation)',
+      'Covid-19: in PRINCIPLE (8.811 Teilnehmende) im Mittel etwa 2 Tage schnellere selbst berichtete Genesung, allerdings unter der vorab festgelegten Schwelle für einen relevanten Effekt',
+      'Krebs: in Zelllinien wachstumshemmend; eine Phase-1/2-Studie mit Immuntherapie bei triple-negativem Brustkrebs rekrutiert (NCT05318469)',
+      'In den großen Covid-Studien gut verträglich, Nebenwirkungen nicht häufiger als unter Placebo (TOGETHER, ACTIV-6)'
+    ],
+    risks: [
+      'Covid-19 ohne Nutzen bei harten Endpunkten: Krankenhausaufnahme 14,7 % gegenüber 16,3 % (TOGETHER, nicht signifikant), Genesungszeit 12 gegenüber 13 Tage (ACTIV-6, nicht signifikant), Krankenhaus oder Tod unverändert (PRINCIPLE)',
+      'Cochrane 2022: wahrscheinlich kaum oder kein Effekt auf Sterblichkeit bei leichter Covid-19; 7 von 14 früheren Studien wegen fehlender Registrierung oder fehlender Randomisierung ausgeschlossen',
+      'Krebs: keine kontrollierte Studie mit klinischem Nutzen; die größte veröffentlichte Anwender-Kohorte mit Mebendazol wurde 2026 zurückgezogen',
+      'Überdosierung: laut Fachinformation Bewusstseinsstörungen und Koma; nach Tierarzneimitteln Krampfanfälle, Ataxie, Atemnot',
+      'Bei starkem Befall mit Loa loa seltene schwere Hirnreaktionen (Enzephalopathie); Wechselwirkungen und Daten zur Langzeiteinnahme hoher Dosen fehlen'
+    ],
+    status: 'Deutschland: verschreibungspflichtig (AMVV Anlage 1); als Tablette zugelassen gegen gastrointestinale Strongyloidiasis, Mikrofilarämie bei lymphatischer Filariose durch Wuchereria bancrofti und Krätze, zugelassene Dosis einmalig 200 Mikrogramm je kg Körpergewicht (bei Filariose in der Fachinformation abweichend). Eine Anwendung gegen Covid-19, Krebs oder zur Lebensverlängerung ist nicht zugelassen. Präparate für Tiere sind nicht für Menschen bestimmt.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38431155/',
+    sources: [
+      { title: 'Nobelversammlung am Karolinska-Institut, Pressemitteilung 05.10.2015 – Nobelpreis für Physiologie oder Medizin an Campbell und Ōmura (Avermectin) sowie Tu Youyou', url: 'https://www.nobelprize.org/prizes/medicine/2015/press-release/' },
+      { title: 'Fachinformation Ivermectin-ratiopharm 3 mg Tabletten (Stand Juli 2026) – Anwendungsgebiete, Dosierung, Warnhinweise', url: 'https://www.fachinfo.de/fi/pdf/023856' },
+      { title: 'Reis G et al., N Engl J Med 2022 – TOGETHER, Ivermectin bei früher Covid-19, 1.358 Patienten in Ivermectin- und Placeboarm', url: 'https://pubmed.ncbi.nlm.nih.gov/35353979/' },
+      { title: 'Naggie S et al., JAMA 2022 – ACTIV-6, Ivermectin gegen Placebo bei leichter bis mittelschwerer Covid-19, 1.591 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/36269852/' },
+      { title: 'Hayward G et al., J Infect 2024 – PRINCIPLE, Ivermectin bei Covid-19 in der Hausarztversorgung, 8.811 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/38431155/' },
+      { title: 'Popp M et al., Cochrane Database Syst Rev 2022 – Ivermectin zur Vorbeugung und Behandlung von Covid-19, 11 Studien mit 3.409 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/35726131/' },
+      { title: 'Mujumdar V et al., Gynecol Oncol Rep 2025 – Ivermectin und gynäkologische Krebserkrankungen: Daten nur aus Zelllinien', url: 'https://pubmed.ncbi.nlm.nih.gov/40851910/' },
+      { title: 'Hulscher N et al., Anticancer Res 2026 – Beobachtungskohorte Ivermectin plus Mebendazol bei Krebs, zurückgezogen (RETRACTED)', url: 'https://pubmed.ncbi.nlm.nih.gov/42203321/' },
+      { title: 'ClinicalTrials.gov NCT05318469 – Ivermectin mit Balstilimab oder Pembrolizumab bei metastasiertem triple-negativem Brustkrebs, Phase 1/2, rekrutierend', url: 'https://clinicaltrials.gov/study/NCT05318469' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Ivermectin verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'orexin-antagonisten',
+    name: 'Orexin-Rezeptor-Antagonisten (Daridorexant, Suvorexant, Lemborexant)',
+    altNames: 'DORA, duale Orexin-Rezeptor-Antagonisten, Daridorexant, Quviviq, Suvorexant, Belsomra, Lemborexant, Dayvigo',
+    class: 'Schlafmittel-Klasse, die das Wachheitssignal Orexin blockiert; Daridorexant (Quviviq) in der EU verschreibungspflichtig zugelassen, Suvorexant und Lemborexant nur in den USA',
+    emoji: '🌙',
+    short: 'Statt das Gehirn wie klassische Schlafmittel insgesamt zu dämpfen, schalten diese Wirkstoffe das Wachheitssignal Orexin leiser. In großen Zulassungsstudien schliefen Menschen mit chronischer Insomnie schneller ein und lagen nachts kürzer wach, nach dem Absetzen ohne Entzug und ohne Rebound. Der Effekt liegt im Schlaflabor bei 10 bis 25 Minuten. In der EU ist seit 2022 Daridorexant (Quviviq) zugelassen.',
+    moa: 'Orexin ist ein Botenstoff aus dem Gehirn, der Wachheit fördert. Daridorexant, Suvorexant und Lemborexant besetzen beide Orexin-Rezeptoren und blockieren so dieses Wachsignal (EMA, Quviviq). Damit setzen sie an einer anderen Stelle an als Benzodiazepine und Z-Substanzen wie Zopiclon, die die hemmende GABA-Wirkung im ganzen Gehirn verstärken. Weil sie das Wachsystem abschwächen, dürfen sie bei Narkolepsie nicht eingesetzt werden; starke CYP3A4-Hemmer sind bei Daridorexant ebenfalls ausgeschlossen (EMA).',
+    benefits: [
+      'Daridorexant: zwei Phase-3-Studien mit zusammen 1.854 Erwachsenen über 3 Monate; mit 50 mg nach drei Monaten 18,3 Minuten weniger Wachzeit nach dem Einschlafen und 11,7 Minuten schnelleres Einschlafen als unter Placebo, im Schlaflabor gemessen; selbst berichtete Schlafzeit plus 19,8 Minuten (Mignot 2022)',
+      'Daridorexant 50 mg verbesserte in der Zulassungsstudie auch die Schläfrigkeit am Tag (IDSIQ minus 1,9 Punkte nach 3 Monaten); 25 mg verfehlte diesen Endpunkt knapp (Mignot 2022)',
+      'Lemborexant bei 1.006 Menschen ab 55 Jahren: nach einem Monat 24 bis 25 Minuten weniger nächtliche Wachzeit als unter Placebo und in der zweiten Nachthälfte 7 bis 8 Minuten weniger als unter Zolpidem retard (Rosenberg 2019)',
+      'Suvorexant 20/15 mg: besseres Ein- und Durchschlafen über 3 Monate, Abbruch wegen Nebenwirkungen bei 3 gegenüber 5,2 Prozent unter Placebo, keine systematischen Entzugs- oder Rebound-Zeichen nach dem Absetzen (Herring 2016)',
+      'Langzeit: In der 40-wöchigen Verlängerung mit 804 Patienten hielt der Effekt von Daridorexant bis zu 12 Monate an; nach dem Absetzen traten weder Entzugssymptome noch Rebound-Schlaflosigkeit auf (Kunz 2023)',
+      'Die Europäische Insomnie-Leitlinie 2023 empfiehlt Daridorexant mit höchstem Empfehlungsgrad (A) für die Kurzzeitbehandlung und lässt Orexin-Rezeptor-Antagonisten bis zu 3 Monate, in Einzelfällen länger, zu (Riemann 2023)'
+    ],
+    risks: [
+      'Häufigste Nebenwirkungen sind Kopfschmerz und Schläfrigkeit, bei bis zu 1 von 10 Behandelten (EMA)',
+      'Fahrtüchtigkeit am Morgen: Im Fahrsimulator verschlechterte Daridorexant 50 mg nach der ersten Einnahme die Spurhaltung (plus 2,19 cm Spurabweichung), nach vier Nächten nicht mehr (Muehlan 2022); die US-Fachinformationen raten bei Suvorexant 20 mg und Lemborexant 10 mg vom Fahren am nächsten Tag ab',
+      'Laut US-Fachinformationen möglich: Schlafparalyse, Halluzinationen beim Einschlafen oder Aufwachen, kataplexieähnliche Symptome, komplexes Schlafverhalten wie Schlafwandeln oder Schlaffahren und eine Verschlechterung von Depression bis zu Suizidgedanken',
+      'Missbrauchspotenzial vorhanden: In einer Studie mit 29 Freizeitnutzern von Beruhigungsmitteln lag das „Drug Liking“ von Lemborexant auf dem Niveau von Zolpidem; in den USA sind Suvorexant und Lemborexant als Schedule IV eingestuft (FDA)',
+      'Nicht bei Narkolepsie, nicht zusammen mit starken CYP3A4-Hemmern (EMA)',
+      'Daten über 12 Monate hinaus fehlen; eine große Netzwerk-Meta-Analyse zählt Daridorexant und Suvorexant zu den Mitteln, die in der Akutbehandlung wirken können, für die aber Langzeitinformationen fehlen oder die Verträglichkeit begrenzt ist (De Crescenzo 2022)'
+    ],
+    status: 'EU/Deutschland: Daridorexant (Quviviq) seit 29.04.2022 zentral zugelassen für Erwachsene mit Insomnie, deren Symptome seit mindestens 3 Monaten bestehen und die Tagesfunktion erheblich beeinträchtigen; verschreibungspflichtig (AMVV Anlage 1), nicht im Betäubungsmittelgesetz. Zugelassene Dosis laut EMA eine Tablette mit 50 mg am Abend, nach ärztlicher Einschätzung 25 mg; die Behandlung soll so kurz wie möglich sein und innerhalb von 3 Monaten ärztlich überprüft werden. Suvorexant (Belsomra, FDA-Zulassung 13.08.2014) und Lemborexant (Dayvigo, FDA-Zulassung 20.12.2019) sind in der EU nicht zugelassen; in den USA sind beide als Schedule IV eingestuft.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/35065036/',
+    sources: [
+      { title: 'Mignot E et al., Lancet Neurol 2022 – Daridorexant, zwei Phase-3-Studien mit 1.854 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/35065036/' },
+      { title: 'Kunz D et al., CNS Drugs 2023 – Daridorexant, 40-wöchige Verlängerungsstudie mit 804 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/36484969/' },
+      { title: 'Herring WJ et al., J Clin Sleep Med 2016 – Suvorexant, gepoolte 3-Monats-Daten der Phase-3-Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/27397664/' },
+      { title: 'Rosenberg R et al., JAMA Netw Open 2019 – Lemborexant gegen Placebo und Zolpidem, SUNRISE 1 mit 1.006 Teilnehmern', url: 'https://pubmed.ncbi.nlm.nih.gov/31880796/' },
+      { title: 'Muehlan C et al., Clin Pharmacol Ther 2022 – Fahrleistung nach Daridorexant im Fahrsimulator, 60 Gesunde', url: 'https://pubmed.ncbi.nlm.nih.gov/35426136/' },
+      { title: 'De Crescenzo F et al., Lancet 2022 – Netzwerk-Meta-Analyse zu Schlafmitteln bei Insomnie, 154 Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/35843245/' },
+      { title: 'Riemann D et al., J Sleep Res 2023 – Europäische Insomnie-Leitlinie 2023', url: 'https://pubmed.ncbi.nlm.nih.gov/38016484/' },
+      { title: 'EMA – Quviviq (Daridorexant), europäischer Bewertungsbericht und Zulassung vom 29.04.2022', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/quviviq' },
+      { title: 'FDA, Drugs@FDA – Belsomra (Suvorexant, NDA 204569), Zulassung 13.08.2014, Fachinformation', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204569' },
+      { title: 'FDA, Drugs@FDA – Dayvigo (Lemborexant, NDA 212028), Zulassung 20.12.2019, Fachinformation', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212028' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'trazodon',
+    name: 'Trazodon',
+    altNames: 'Trittico, Desyrel, Trazodonhydrochlorid, Triazolopyridin',
+    class: 'Antidepressivum mit sedierender Komponente; in Deutschland verschreibungspflichtig zugelassen gegen depressive Erkrankungen, als Schlafmittel nur off-label',
+    emoji: '💊',
+    short: 'Eigentlich ein Antidepressivum, in niedriger Dosis aber häufig als Schlafmittel verordnet, obwohl es dafür nirgends zugelassen ist. Die Studien zeigen einen kleinen Effekt: Menschen mit Insomnie empfinden ihren Schlaf als besser und wachen seltener auf, im Schlaflabor unterscheidet sich der Schlaf aber kaum von Placebo. Die US-Schlafmedizin rät ab, die europäische Leitlinie lässt niedrig dosierte sedierende Antidepressiva für kurze Zeit zu.',
+    moa: 'Trazodon ist laut deutscher Fachinformation ein nichttrizyklisches Antidepressivum mit sedierender Wirkungskomponente: Die Wiederaufnahme von Serotonin und Noradrenalin hemmt es nur schwach, ausgeprägt ist die Affinität zu Alpha-1-Adrenorezeptoren; die US-Fachinformation beschreibt zusätzlich eine Blockade von 5-HT2-Rezeptoren. Eine Simulation der Rezeptorbelegung im Gehirn kam zu dem Ergebnis, dass niedrige Dosen, typischerweise 50 mg, für die schlaffördernden Rezeptoren ausreichen, während die antidepressive Wirkung höhere Dosen braucht (Settimo 2018). Das erklärt, warum die Schlafdosis weit unter der Depressionsdosis liegt.',
+    benefits: [
+      'Meta-Analyse aus 7 placebokontrollierten Studien mit 429 Patienten: besser empfundene Schlafqualität (SMD minus 0,41) und weniger nächtliches Erwachen (SMD minus 0,51); keine Unterschiede bei Abbrüchen wegen Nebenwirkungen (Yi 2018)',
+      'Cochrane-Review: In drei gepoolten Studien mit 370 Teilnehmern moderate Verbesserung der subjektiven Schlafqualität gegenüber Placebo (SMD minus 0,34), Evidenz von niedriger Qualität (Everitt 2018)',
+      'Alzheimer-Demenz mit Schlafstörungen: 30 Patienten, zwei Wochen lang 50 mg abends – 42,5 Minuten mehr Schlaf pro Nacht als unter Placebo, aktigrafisch gemessen, ohne Effekt auf Kognition oder Tagesschläfrigkeit (Camargos 2014)',
+      'Die Europäische Insomnie-Leitlinie 2023 lässt niedrig dosierte sedierende Antidepressiva für die Kurzzeitbehandlung bis 4 Wochen zu (Empfehlungsgrad B) (Riemann 2023)',
+      'Lange Anwendungserfahrung als Antidepressivum: in den USA seit 1981 zugelassen (FDA)'
+    ],
+    risks: [
+      'Im Schlaflabor kaum Effekt: Schlafeffizienz, Einschlafzeit, Gesamtschlafzeit und Wachzeit unterschieden sich in der Meta-Analyse nicht von Placebo (Yi 2018); zwei Polysomnografie-Studien fanden bei der Schlafeffizienz wenig bis keinen Unterschied (Everitt 2018)',
+      'Die Amerikanische Akademie für Schlafmedizin rät von Trazodon gegen Ein- und Durchschlafstörungen ab (schwache Empfehlung, Sateia 2017)',
+      'Mehr Benommenheit am Morgen, Mundtrockenheit und Durst als unter Placebo (Everitt 2018); laut Fachinformation geringer bis mäßiger Einfluss auf die Verkehrstüchtigkeit',
+      'Orthostatischer Blutdruckabfall und Ohnmacht, QT-Verlängerung, Priapismus (schmerzhafte Dauererektion, ein Notfall), Serotonin-Syndrom und erhöhte Blutungsneigung zusammen mit Gerinnungshemmern (US-Fachinformation, deutsche Fachinformation)',
+      'Warnhinweis zu Suizidgedanken bei Kindern, Jugendlichen und jungen Erwachsenen, wie bei allen Antidepressiva (FDA)',
+      'Pflegeheimbewohner ab 66 Jahren: Eine neue Trazodon-Verordnung ging mit ähnlich vielen Stürzen mit Verletzung, Knochenbrüchen und Todesfällen einher wie Zopiclon (Beobachtungsstudie, 3.002 Bewohner, Watt 2023)',
+      'Für Schlafstörungen nirgends zugelassen; Daten zur Langzeitanwendung gegen Insomnie fehlen (Everitt 2018)'
+    ],
+    status: 'Deutschland: zugelassen gegen depressive Erkrankungen, verschreibungspflichtig, nicht im Betäubungsmittelgesetz. Zugelassene Dosierung laut Fachinformation in der ambulanten Depressionsbehandlung 100 mg in der ersten Woche, danach 200 bis 400 mg täglich, stationär bis 600 mg. Gegen Schlafstörungen nicht zugelassen; der Einsatz als Schlafmittel ist Off-Label-Gebrauch in ärztlicher Verantwortung. USA: seit 24.12.1981 zugelassen (Desyrel), ebenfalls nur gegen Depression.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/29680424/',
+    sources: [
+      { title: 'Yi XY et al., Sleep Med 2018 – Trazodon bei Insomnie, Meta-Analyse aus 7 placebokontrollierten Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/29680424/' },
+      { title: 'Everitt H et al., Cochrane Database Syst Rev 2018 – Antidepressiva gegen Insomnie bei Erwachsenen', url: 'https://pubmed.ncbi.nlm.nih.gov/29761479/' },
+      { title: 'Camargos EF et al., Am J Geriatr Psychiatry 2014 – Trazodon bei Schlafstörungen in der Alzheimer-Demenz, RCT mit 30 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/24495406/' },
+      { title: 'Sateia MJ et al., J Clin Sleep Med 2017 – Leitlinie der American Academy of Sleep Medicine zur medikamentösen Insomnie-Therapie', url: 'https://pubmed.ncbi.nlm.nih.gov/27998379/' },
+      { title: 'De Crescenzo F et al., Lancet 2022 – Netzwerk-Meta-Analyse zu Schlafmitteln bei Insomnie, 154 Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/35843245/' },
+      { title: 'Riemann D et al., J Sleep Res 2023 – Europäische Insomnie-Leitlinie 2023', url: 'https://pubmed.ncbi.nlm.nih.gov/38016484/' },
+      { title: 'Settimo L, Taylor D, J Psychopharmacol 2018 – dosisabhängige Rezeptorbelegung von Trazodon', url: 'https://pubmed.ncbi.nlm.nih.gov/29332554/' },
+      { title: 'Watt JA et al., Can Geriatr J 2023 – Stürze und Frakturen unter Zopiclon oder Trazodon im Pflegeheim, Kohortenstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/36865408/' },
+      { title: 'Fachinformation Trazodon-neuraxpharm 100 mg (Stand April 2023)', url: 'https://www.fachinfo.de/pdf/021416' },
+      { title: 'FDA, Drugs@FDA – Desyrel (Trazodon, NDA 018207), Zulassung 24.12.1981', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=018207' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'zopiclon',
+    name: 'Zopiclon',
+    altNames: 'Ximovan, Imovane, Z-Substanz, Z-Drug, Cyclopyrrolon',
+    class: 'Nicht-Benzodiazepin-Schlafmittel (Z-Substanz) aus der Gruppe der Cyclopyrrolone; in Deutschland seit 1990 verschreibungspflichtig zugelassen zur Kurzzeitbehandlung von Schlafstörungen',
+    emoji: '💊',
+    short: 'Zopiclon wirkt schnell und verlässlich: In der größten Netzwerk-Meta-Analyse zu Schlafmitteln gehört es zu den Wirkstoffen mit klarem Effekt gegenüber Placebo. Zugelassen ist es nur für kurze Zeit, höchstens 4 Wochen einschließlich Absetzen, weil mit der Dauer Gewöhnung und Abhängigkeit drohen. Am Morgen danach ist die Fahrleistung in Fahrtests so beeinträchtigt wie unter 0,5 Promille Alkohol.',
+    moa: 'Zopiclon bindet am GABA-A-Rezeptor-Komplex, an einer anderen Stelle als die Benzodiazepine, und verstärkt über den Chloridkanal die hemmende Wirkung von GABA (Fachinformation). Daraus ergeben sich die schlafanstoßende, angstlösende, muskelentspannende und krampflösende Wirkung. Laut Fachinformation verkürzt es die Einschlafzeit, verlängert die Schlafdauer und verringert nächtliches und frühmorgendliches Erwachen; die REM-Schlafphase scheint weniger beeinträchtigt zu werden als unter Benzodiazepinen.',
+    benefits: [
+      'Netzwerk-Meta-Analyse über 154 doppelblinde Studien mit 44.089 Teilnehmern: In der Akutbehandlung gehört Zopiclon zu den Wirkstoffen, die wirksamer waren als Placebo (Effektstärken der Gruppe 0,36 bis 0,83), und war wirksamer als Melatonin, Ramelteon und Zaleplon (De Crescenzo 2022)',
+      'In vergleichenden Studien mindestens so wirksam wie Benzodiazepine; in Kurzzeitstudien bis 4 Wochen zeigte sich keine Toleranz, Rebound-Schlaflosigkeit nach dem Absetzen war in Kurzzeitstudien nicht häufig (Noble 1998)',
+      'Die Europäische Insomnie-Leitlinie 2023 empfiehlt Benzodiazepin-Rezeptor-Agonisten wie Zopiclon mit höchstem Empfehlungsgrad (A) für die Kurzzeitbehandlung bis 4 Wochen (Riemann 2023)',
+      'Über 35 Jahre Anwendung in Deutschland, Zulassung seit 23.03.1990 (Fachinformation Ximovan)'
+    ],
+    risks: [
+      'Gewöhnung und körperliche wie psychische Abhängigkeit; das Risiko steigt mit Dosis und Dauer, deshalb laut Fachinformation höchstens 4 Wochen einschließlich schrittweiser Absetzphase',
+      'Beim plötzlichen Absetzen Rebound-Schlaflosigkeit und Entzugssymptome bis zu Verwirrtheit, Halluzinationen oder Krampfanfällen in schweren Fällen (Fachinformation); Absetzen gehört in ärztliche Begleitung',
+      'Fahrtüchtigkeit: In 10 von 10 Fahrtests mit Gesunden verschlechterte Zopiclon am Morgen die Spurhaltung in einem Ausmaß, das 0,5 Promille Alkohol entspricht; in 5 von 10 Studien wurden Testfahrten vorzeitig abgebrochen (McElroy 2021). Laut Fachinformation mindestens 12 Stunden nach Einnahme nicht fahren',
+      'Norwegisches Register mit 3,1 Millionen Menschen: In der Woche nach Abgabe eines Z-Schlafmittels war das Risiko für Verkehrsunfälle 2,3-fach erhöht (Gustavsen 2008)',
+      'Ältere Menschen: Z-Substanzen gingen in Beobachtungsstudien mit einem erhöhten Risiko für Knochenbrüche einher (OR 1,63) (Treves 2018)',
+      'Komplexes Schlafverhalten wie Schlafwandeln und Autofahren im Halbschlaf mit Erinnerungslücken sowie anterograde Amnesie; Wirkung verstärkt durch Alkohol, Opioide und andere dämpfende Mittel (Fachinformation)',
+      'In der Netzwerk-Meta-Analyse doppelt so viele Studienabbrüche wegen Nebenwirkungen wie unter Placebo (OR 2,00) und mehr als unter Daridorexant oder Suvorexant (De Crescenzo 2022); häufig bitterer Geschmack (Fachinformation)',
+      'Berichtete Abhängigkeitsfälle betreffen überwiegend Menschen mit Sucht- oder psychiatrischer Vorgeschichte (Hajak 2003)'
+    ],
+    status: 'Deutschland: seit 23.03.1990 zugelassen (Ximovan) zur Kurzzeitbehandlung von Schlafstörungen von klinisch bedeutsamem Schweregrad bei Erwachsenen; verschreibungspflichtig (AMVV Anlage 1), nicht im Betäubungsmittelgesetz (anders als Zolpidem, das in höheren Einzeldosen unter Anlage III fällt). Zugelassene Dosis laut Fachinformation 7,5 mg als Einmalgabe direkt vor dem Schlafengehen, bei älteren oder geschwächten Menschen Beginn mit 3,75 mg; Behandlungsdauer einschließlich Absetzphase höchstens 4 Wochen, länger nur nach erneuter ärztlicher Beurteilung. Nicht für Kinder und Jugendliche unter 18 Jahren.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/35843245/',
+    sources: [
+      { title: 'De Crescenzo F et al., Lancet 2022 – Netzwerk-Meta-Analyse zu Schlafmitteln bei Insomnie, 154 Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/35843245/' },
+      { title: 'Noble S et al., Drugs 1998 – Zopiclon, Übersicht zu Pharmakologie, Wirksamkeit und Verträglichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/9506247/' },
+      { title: 'Riemann D et al., J Sleep Res 2023 – Europäische Insomnie-Leitlinie 2023', url: 'https://pubmed.ncbi.nlm.nih.gov/38016484/' },
+      { title: 'McElroy H et al., Sleep Adv 2021 – Schlafmittel und Fahrleistung am Morgen, Meta-Analyse aus 14 Fahrstudien', url: 'https://pubmed.ncbi.nlm.nih.gov/37193564/' },
+      { title: 'Gustavsen I et al., Sleep Med 2008 – Verkehrsunfallrisiko nach Verordnung von Zopiclon, Zolpidem, Flunitrazepam und Nitrazepam', url: 'https://pubmed.ncbi.nlm.nih.gov/18226959/' },
+      { title: 'Treves N et al., Age Ageing 2018 – Z-Substanzen, Stürze und Frakturen bei Älteren, Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/29077902/' },
+      { title: 'Hajak G et al., Addiction 2003 – Missbrauchs- und Abhängigkeitspotenzial von Zolpidem und Zopiclon', url: 'https://pubmed.ncbi.nlm.nih.gov/14519173/' },
+      { title: 'Fachinformation Ximovan 7,5 mg Filmtabletten (Stand Oktober 2022)', url: 'https://fachinfo.de/fi/pdf/003899/ximovan-r' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Betäubungsmittelgesetz (BtMG), Anlage III', url: 'https://www.gesetze-im-internet.de/btmg_1981/anlage_iii.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'ru58841',
+    name: 'RU58841',
+    altNames: 'RU 58841, RU-58841, RU-58841-Myristat (Prodrug)',
+    class: 'Nichtsteroidales Antiandrogen zur Anwendung auf der Haut, nie zugelassen, Forschungschemikalie',
+    emoji: '💊',
+    short: 'Ein in den 1990er-Jahren bei Roussel Uclaf entwickeltes Antiandrogen, das nur in der Haut wirken sollte. An Hamstern, an Affen und an menschlicher Kopfhaut auf Mäusen wuchs mehr Haar. Eine Studie zur Wirkung am Menschen gibt es bis heute nicht, und 2026 war der Stoff nach einmaliger Anwendung auf der Kopfhaut im Blut nachweisbar.',
+    moa: 'RU58841 besetzt den Androgenrezeptor, die Andockstelle, über die Testosteron und Dihydrotestosteron (DHT) an der Haarwurzel wirken. In Prostatakrebszellen hemmte es die DHT-Wirkung ähnlich stark wie Hydroxyflutamid (Pan 1998). Anders als Finasterid und Dutasterid senkt es die DHT-Bildung nicht, sondern blockiert den Rezeptor vor Ort. Gedacht war es als rein örtlich wirkendes Mittel: Bei Hamstern bildete sich ein androgenabhängiges Hautorgan schon bei sehr kleinen Mengen auf der Haut zurück, ohne Wirkung auf die inneren Geschlechtsdrüsen und ohne Änderung des Testosteronspiegels (Battmann 1994). Ob diese Trennung beim Menschen gilt, ist offen: In einer Studie der Deutschen Sporthochschule Köln waren der Wirkstoff und ein Abbauprodukt nach einmaliger Anwendung auf der Kopfhaut im Blut messbar (Okutan 2026).',
+    benefits: [
+      'Menschliche Kopfhaut aus kahlen Stellen, auf Nacktmäuse verpflanzt: Unter RU58841 starteten 8 von 29 aktiven Haarfollikeln (28 %) einen zweiten Wachstumszyklus, unter dem reinen Lösungsmittel 2 von 28 (7 %); das Haar wuchs signifikant schneller (verblindete Studie mit 20 Transplantaten, De Brouwer 1997)',
+      'Stumpfschwanzmakaken, ein Tiermodell für erblich bedingten Haarausfall: deutlich mehr Haardichte, dickere und längere Haare auf der kahlen Stirn, ohne nachweisbare Wirkung im übrigen Körper (Pan 1998)',
+      'Hamster: Talgdrüsen am Ohr schrumpften um bis zu 60 %, nur auf der behandelten Seite, und erreichten nach dem Absetzen binnen vier Wochen wieder ihre normale Größe (Matias 1995)',
+      'Ursprünglich auch gegen Akne und vermehrte Körperbehaarung bei Frauen gedacht; eine Prodrug-Variante in Lipid-Nanopartikeln sollte gezielt den Haarfollikel erreichen (Münster 2005)'
+    ],
+    risks: [
+      'Keine Wirksamkeits- und keine Verträglichkeitsstudie am Menschen; bei ClinicalTrials.gov kein Eintrag (Abfrage 07.10.2026)',
+      'Nicht nur örtlich: Nach einmaliger Anwendung eines im Internet gekauften Haarserums waren Wirkstoff und ein Abbauprodukt bei sechs Männern im Kapillarblut nachweisbar, ein Abbauprodukt im Urin bei einem Teilnehmer noch nach 213 Stunden (Okutan 2026)',
+      'Ob die aufgenommenen Mengen hormonell wirken, wurde nie untersucht; das Steroidprofil im Urin blieb nach einer Einzelanwendung unverändert (Okutan 2026)',
+      'Graumarktware ohne behördliche Prüfung von Gehalt, Reinheit und Lösungsmittel',
+      'Im Sport nach dem Wortlaut von S0 der WADA-Verbotsliste jederzeit verboten (nicht zugelassene Substanz)'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen, keine registrierte klinische Studie (ClinicalTrials.gov, Abfrage 07.10.2026). DE/EU: nicht zugelassen; weder im Betäubungsmittelgesetz noch in der Arzneimittelverschreibungsverordnung genannt; angeboten als Forschungschemikalie oder Haarserum ohne behördliche Qualitätsprüfung. Sport: als nicht zugelassene Substanz nach dem Wortlaut von S0 der WADA-Verbotsliste 2026 jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/9415227/',
+    sources: [
+      { title: 'Battmann T et al., J Steroid Biochem Mol Biol 1994 – RU 58841 als neues topisches Antiandrogen, Versuche an Hamstern und Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/8136306/' },
+      { title: 'Matias JR, Gaillard M, Ann N Y Acad Sci 1995 – örtliche Hemmung der Talgdrüsen am Hamsterohr', url: 'https://pubmed.ncbi.nlm.nih.gov/7625751/' },
+      { title: 'De Brouwer B et al., Br J Dermatol 1997 – RU58841 an menschlichen Kopfhauttransplantaten auf Nacktmäusen, kontrollierte Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/9415227/' },
+      { title: 'Pan HJ et al., Endocrine 1998 – RU58841 in Prostatakrebszellen und auf der kahlen Kopfhaut von Stumpfschwanzmakaken', url: 'https://pubmed.ncbi.nlm.nih.gov/9798729/' },
+      { title: 'Münster U et al., Pharmazie 2005 – RU-58841-Myristat als Prodrug in Lipid-Nanopartikeln', url: 'https://pubmed.ncbi.nlm.nih.gov/15700772/' },
+      { title: 'Okutan A et al., Biomed Chromatogr 2026 – Stoffwechsel und Ausscheidung von RU 58841 beim Menschen, 6 Männer, Einzelanwendung auf der Kopfhaut', url: 'https://pubmed.ncbi.nlm.nih.gov/42615108/' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S0 nicht zugelassene Substanzen', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [
+      { title: 'biolabshop (RU58841-Serum)', url: 'https://biolabshop.de/' }
+    ],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'pyrilutamid',
+    name: 'Pyrilutamid',
+    altNames: 'Pyrilutamide, KX-826, KX826',
+    class: 'Androgenrezeptor-Antagonist zur Anwendung auf der Haut, in klinischer Entwicklung, nirgends als Arzneimittel zugelassen',
+    emoji: '💊',
+    short: 'Eine Tinktur gegen erblich bedingten Haarausfall des chinesischen Herstellers Kintor, die den Androgenrezeptor an der Kopfhaut blockiert. Nach einer gescheiterten Phase-3-Studie 2023 erreichte eine zweite mit 666 Männern 2026 ihr Ziel: rund 10 Haare pro Quadratzentimeter mehr als unter Placebo. Die Zahlen stammen bisher aus Börsenmitteilungen, nicht aus Fachzeitschriften.',
+    moa: 'Pyrilutamid konkurriert in der Haut mit Testosteron und Dihydrotestosteron (DHT) um den Androgenrezeptor und blockiert so das Signal, das bei erblich bedingtem Haarausfall die Haarfollikel verkleinert. Anders als Finasterid oder Dutasterid senkt es die DHT-Bildung nicht. Laut Hersteller dringt es kaum durch die Haut und wird im Körper rasch zu wenig wirksamen Abbauprodukten umgebaut; eine begutachtete Veröffentlichung zur Aufnahme in den Körper gibt es nicht.',
+    benefits: [
+      'Phase-3-Stufe einer Zulassungsstudie in China mit 666 Männern: nach 24 Wochen 15,33 Haare pro Quadratzentimeter mehr als zu Beginn unter der 1-%-Tinktur, 14,46 unter 0,5 %, 4,68 unter Placebo; Abstand zu Placebo 10,65 bzw. 9,78 Haare pro Quadratzentimeter, p < 0,0001 (Kintor, März 2026)',
+      'Phase-2-Studie in China mit 120 Männern: Hauptziel Haarzahl nach 24 Wochen erreicht (Kintor 2021); Phase-2-Studie in den USA mit 123 Männern: rund 10 Haare pro Quadratzentimeter mehr als zu Beginn in der stärksten Gruppe, Abstand zu Placebo nicht beziffert (Kintor 2023)',
+      'Offene Langzeitstudie in China über 52 Wochen: wenige Nebenwirkungen, keine arzneimittelbedingten sexuellen Funktionsstörungen; 46 % der Teilnehmer mit mindestens 10, 20 % mit mindestens 20 Haaren pro Quadratzentimeter mehr (Kintor 2025)',
+      'Wirkt am Rezeptor statt am Hormonspiegel: Ziel ist eine Androgenblockade an der Kopfhaut ohne Hormonsenkung im ganzen Körper'
+    ],
+    risks: [
+      'Die erste Phase-3-Studie mit 740 Männern (0,5 %) zeigte 2023 Haarzuwachs gegenüber Studienbeginn, aber keinen statistisch signifikanten Unterschied zu Placebo (Kintor, November 2023)',
+      'Alle Wirksamkeitsergebnisse stammen aus Börsenmitteilungen des Herstellers; keine der Studien ist in einer begutachteten Fachzeitschrift veröffentlicht, im Register sind keine Ergebnisse hinterlegt',
+      'Verträglichkeit nur zusammenfassend mitgeteilt, ohne Häufigkeiten einzelner Nebenwirkungen; Daten über mehr als ein Jahr fehlen',
+      'Kein direkter Vergleich mit Finasterid oder Minoxidil',
+      'Im Sport nach dem Wortlaut von S0 der WADA-Verbotsliste jederzeit verboten (nicht zugelassene Substanz)'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen. China: Kintor will nach der Phase-3-Stufe (März 2026) 2026 den Zulassungsantrag bei der chinesischen Arzneimittelbehörde stellen und rechnet mit einer Zulassung 2027. Daneben verkauft Kintor Kosmetik der Marke KOSHINÉ mit KX-826 als Hauptwirkstoff. DE/EU: nicht als Arzneimittel zugelassen. Sport: als nicht zugelassene Substanz nach dem Wortlaut von S0 der WADA-Verbotsliste 2026 jederzeit verboten.',
+    link: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801532.pdf',
+    sources: [
+      { title: 'ClinicalTrials.gov NCT05218642 – Phase-2-Studie KX-826 gegen Placebo in den USA, 123 Männer, 24 Wochen', url: 'https://clinicaltrials.gov/study/NCT05218642' },
+      { title: 'ClinicalTrials.gov NCT06126965 – Phase-3-Studie KX-826 0,5 % gegen Placebo in China, 740 Männer', url: 'https://clinicaltrials.gov/study/NCT06126965' },
+      { title: 'ClinicalTrials.gov NCT06622824 – Phase-2/3-Zulassungsstudie KX-826 0,5 % und 1,0 % gegen wirkstofffreie Lösung in China', url: 'https://clinicaltrials.gov/study/NCT06622824' },
+      { title: 'Kintor Pharmaceutical, Börsenmitteilung 08.09.2021 – Phase-2-Studie in China mit 120 Männern, Hauptziel erreicht', url: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0908/2021090801109.pdf' },
+      { title: 'Kintor Pharmaceutical, Börsenmitteilung 11.05.2023 – Phase-2-Studie in den USA, 123 Männer', url: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0511/2023051101083.pdf' },
+      { title: 'Kintor Pharmaceutical, Börsenmitteilung 27.11.2023 – Phase-3-Studie in China ohne signifikanten Unterschied zu Placebo', url: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1127/2023112700172.pdf' },
+      { title: 'Kintor Pharmaceutical, Börsenmitteilung 20.03.2025 – offene Langzeit-Sicherheitsstudie über 52 Wochen', url: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0320/2025032000773.pdf' },
+      { title: 'Kintor Pharmaceutical, Börsenmitteilung 18.03.2026 – Phase-3-Stufe der Zulassungsstudie mit 666 Männern, Hauptziel erreicht', url: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801532.pdf' },
+      { title: 'Kintor Pharmaceutical, Halbjahresbericht vom 19.08.2026 – Zulassungsantrag 2026 geplant, Kosmetik mit KX-826', url: 'https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901703.pdf' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S0 nicht zugelassene Substanzen', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'clascoteron',
+    name: 'Clascoteron',
+    altNames: 'Winlevi, Breezula, Clascoterone, Cortexolon-17α-propionat, CB-03-01',
+    class: 'Androgenrezeptor-Hemmer zur Anwendung auf der Haut; als Creme gegen Akne zugelassen (USA 2020, EU 2025), verschreibungspflichtig; als Lösung gegen Haarausfall in Entwicklung',
+    emoji: '💊',
+    short: 'Der erste zugelassene Androgenrezeptor-Hemmer für die Haut: als Creme Winlevi gegen Akne in den USA seit 2020 und in der EU seit Oktober 2025. Gegen erblich bedingten Haarausfall meldete der Hersteller Ende 2025 zwei erfolgreiche Phase-3-Studien mit 1.465 Männern; bekannt sind bisher nur relative Zahlen, der US-Zulassungsantrag ist für Anfang 2027 geplant.',
+    moa: 'Clascoteron ist ein Steroid, das in der Haut den Androgenrezeptor hemmt und so die Wirkung von Dihydrotestosteron (DHT) an Talgdrüsen und Haarfollikeln abschwächt. Wie genau die Creme gegen Akne wirkt, bezeichnet die US-Fachinformation als nicht geklärt. Im Körper entsteht daraus vermutlich Cortexolon, dessen Blutspiegel nach Anwendung im Gesicht meist unter oder nahe der Nachweisgrenze lagen. Unter maximaler Anwendung kann Clascoteron die Stressachse aus Hypothalamus, Hypophyse und Nebenniere vorübergehend dämpfen (HPA-Achse). Gegen Haarausfall wird eine 5-prozentige Lösung auf der Kopfhaut geprüft.',
+    benefits: [
+      'Akne: zwei identische Phase-3-Studien mit 1.440 Patienten; nach 12 Wochen klare oder fast klare Haut bei 18,4 und 20,3 % gegenüber 9,0 und 6,5 % unter wirkstofffreier Creme, dazu stärkerer Rückgang entzündlicher und nicht entzündlicher Läsionen (Hebert 2020)',
+      'Akne: In der Verlängerung mit Anwendung bis zu 12 Monaten stieg der Behandlungserfolg im Gesicht auf 30,2 %, am Rumpf nach 9 Monaten auf 31,7 % (Eichenfield 2024)',
+      'Haarausfall: zwei Phase-3-Studien (SCALP 1 und 2) mit zusammen 1.465 Männern erreichten laut Hersteller das Hauptziel Haarzahl, mit relativen Verbesserungen von 539 und 168 % gegenüber wirkstofffreier Lösung, p < 0,05 (Cosmo, Dezember 2025)',
+      'Haarausfall: Nach 12 Monaten laut Hersteller weiter zunehmendes Haarwachstum, Verträglichkeit wie unter wirkstofffreier Lösung, keine bedeutsamen hormonellen Nebenwirkungen im Körper (Cosmo, April 2026)',
+      'Von FDA (2020) und EMA (2025) zugelassen und behördlich bewertet'
+    ],
+    risks: [
+      'Dämpfung der HPA-Achse: unter maximaler Anwendung bei 5 von 69 Patienten im Labor nachweisbar, etwa vier Wochen nach Behandlungsende wieder normal, ohne klinische Zeichen (Bhatia 2024); Warnhinweis in der US-Fachinformation, Kinder gelten als empfindlicher',
+      'Häufigste Nebenwirkungen der Creme: Rötung, Juckreiz, Schuppung und Trockenheit bei 7 bis 12 %; erhöhte Kaliumwerte bei 5 % gegenüber 4 % unter wirkstofffreier Creme (US-Fachinformation)',
+      'US-Meldedatenbank: Signale unter anderem für HPA-Achsen-Dämpfung, Dehnungsstreifen und abnormes Haarwachstum; Meldedaten zeigen Auffälligkeiten, keine Häufigkeiten (Tao 2026)',
+      'In der EU in der Schwangerschaft nicht anzuwenden; Verhütung während der Behandlung und mindestens 10 Tage danach; bei Jugendlichen nur im Gesicht (EMA)',
+      'Gegen Haarausfall nicht zugelassen; die 5-%-Lösung wird auf einer größeren Fläche angewendet, Ergebnisse dazu bisher nur aus Pressemitteilungen'
+    ],
+    status: 'USA: Winlevi (Creme 1 %) seit 26.08.2020 von der FDA gegen Akne ab 12 Jahren zugelassen, verschreibungspflichtig. EU/DE: Winlevi seit 17.10.2025 zentral zugelassen (Erwachsene: Akne; Jugendliche von 12 bis unter 18 Jahren: Akne im Gesicht), verschreibungspflichtig, in der Schwangerschaft nicht anzuwenden. Haarausfall: Clascoteron-Lösung 5 % (Breezula) nirgends zugelassen; zwei Phase-3-Studien abgeschlossen, Zulassungsanträge in USA (geplant Anfang 2027) und EU in Vorbereitung.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32320027/',
+    sources: [
+      { title: 'Hebert A et al., JAMA Dermatol 2020 – Clascoteron-Creme 1 % bei Akne, zwei Phase-3-Studien mit 1.440 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/32320027/' },
+      { title: 'Eichenfield LF et al., J Drugs Dermatol 2024 – Wirksamkeit kurz- und langfristig, Verlängerung bis 12 Monate', url: 'https://pubmed.ncbi.nlm.nih.gov/38206145/' },
+      { title: 'Bhatia N et al., J Drugs Dermatol 2024 – HPA-Achse unter Maximalanwendung, 69 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/38834220/' },
+      { title: 'Tao L et al., Ther Innov Regul Sci 2026 – Nebenwirkungsmeldungen zu Clascoteron in der US-Datenbank FAERS', url: 'https://pubmed.ncbi.nlm.nih.gov/42032259/' },
+      { title: 'FDA-Fachinformation Winlevi (Clascoteron-Creme 1 %), DailyMed', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1673a84b-7f5c-47ab-a99c-1e3db21a6a09' },
+      { title: 'EMA – Winlevi, europäischer Bewertungsbericht, Zulassung 17.10.2025', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/winlevi' },
+      { title: 'ClinicalTrials.gov NCT05910450 – SCALP 1, Clascoteron-Lösung 5 % bei Haarausfall, 703 Männer', url: 'https://clinicaltrials.gov/study/NCT05910450' },
+      { title: 'ClinicalTrials.gov NCT05914805 – SCALP 2, Clascoteron-Lösung 5 % bei Haarausfall, 762 Männer', url: 'https://clinicaltrials.gov/study/NCT05914805' },
+      { title: 'Cosmo Pharmaceuticals, Pressemitteilung 03.12.2025 – Phase-3-Ergebnisse SCALP 1 und SCALP 2', url: 'https://www.newsfilecorp.com/release/276765' },
+      { title: 'Cosmo Pharmaceuticals, Pressemitteilung 15.04.2026 – 12-Monats-Daten der Phase-3-Studien, US-Zulassungsantrag Anfang 2027', url: 'https://www.newsfilecorp.com/release/292660/' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'ketoconazol',
+    name: 'Ketoconazol-Shampoo',
+    altNames: 'Ketoconazol, Ketoconazole, Terzolin, Ketozolin, Ketoconazol 2 %',
+    class: 'Antimykotikum (Imidazol); zur äußeren Anwendung rezeptfrei, apothekenpflichtig; gegen Haarausfall nicht zugelassen',
+    emoji: '🧴',
+    short: 'Ein Anti-Pilz-Shampoo aus der Apotheke, zugelassen gegen seborrhoische Dermatitis und Kleienpilzflechte, das seit den 1990er-Jahren als Ergänzung gegen erblich bedingten Haarausfall untersucht wird. Kleine Studien zeigen dickere Haare und weniger Haarverlust; eine placebokontrollierte Studie gegen Haarausfall gibt es nicht.',
+    moa: 'Ketoconazol hemmt bei Pilzen die Bildung von Ergosterol, einem Baustein der Zellmembran, und wirkt so gegen die Malassezia-Hefen der Kopfhaut, die an Schuppen und seborrhoischer Dermatitis beteiligt sind. Für den Haarausfall werden zwei Wege diskutiert: Eine von Hefen angestoßene Entzündung um die Haarfollikel könnte den Haarausfall verstärken, und Ketoconazol wirkt neben der Pilzhemmung entzündungshemmend (Piérard-Franchimont 1998). Außerdem hemmt Ketoconazol im Körper Enzyme der Steroidbildung in der Nebenniere – deshalb ist es als Tablette gegen das Cushing-Syndrom zugelassen (EMA). Ob das Shampoo an der Kopfhaut antiandrogen wirkt, ist nicht belegt; nach Anwendung auf der Kopfhaut ist Ketoconazol im Blut nicht messbar (Fachinformation).',
+    benefits: [
+      'Vergleichsstudie bei erblich bedingtem Haarausfall: 2-%-Shampoo verbesserte Haardichte, Haardicke und Anteil wachsender Haare ähnlich wie 2-%-Minoxidil mit wirkstofffreiem Shampoo (Piérard-Franchimont 1998)',
+      '150 Männer mit Haarausfall und Schuppen, drei Anti-Schuppen-Shampoos über 6 Monate: unter 1-%-Ketoconazol 17,3 % weniger ausfallende Haare, 4,9 % mehr wachsende Haare und 5,4 % dickere Haarschäfte; die Haardichte blieb unverändert (Piérard-Franchimont 2002)',
+      'Offene randomisierte Studie mit 100 Männern über ein Jahr: Finasterid plus Ketoconazol-Shampoo schnitt in der Bewertung besser ab als Minoxidil allein und tendenziell besser als Finasterid allein; in dieser Gruppe waren aber nur 10 Männer (Khandpur 2002)',
+      'Systematische Übersicht: fünf Humanstudien mit 318 Teilnehmern berichten dickere Haarschäfte und klinische Besserung; die Autoren sehen Ketoconazol als vielversprechende Ergänzung und fordern randomisierte Studien (Fields 2020)',
+      'Verträglichkeit des Shampoos in 22 klinischen Studien mit 2.890 Teilnehmern erfasst (Fachinformation Terzolin)'
+    ],
+    risks: [
+      'Keine placebokontrollierte Studie gegen erblich bedingten Haarausfall; die Humanstudien sind klein, teils offen und ohne Placebo',
+      'Gegen Haarausfall nicht zugelassen; zugelassen ist das Shampoo gegen seborrhoische Dermatitis und Kleienpilzflechte',
+      'Die Fachinformation nennt selbst Haarausfall, ungewöhnliche Haarstruktur und Haarverfärbung unter den möglichen Nebenwirkungen; seborrhoische Dermatitis geht häufig mit Haarverlust einher, in seltenen Fällen wurde das auch unter dem Shampoo beobachtet',
+      'Hautreizung, Brennen, Juckreiz, Trockenheit und Kontaktdermatitis möglich; Kontakt mit den Augen vermeiden (Fachinformation)',
+      'Ketoconazol-Tabletten gegen Pilzinfektionen sind in der EU seit 2013 wegen Leberschäden nicht mehr zugelassen; Shampoos und Cremes betrifft das ausdrücklich nicht, weil kaum Wirkstoff in den Körper gelangt (EMA)'
+    ],
+    status: 'Deutschland: Ketoconazol ist verschreibungspflichtig, ausgenommen zum äußeren Gebrauch (Arzneimittelverschreibungsverordnung, Anlage 1); Shampoo und Lösung mit 2 % sind daher rezeptfrei, aber apothekenpflichtig, zugelassen gegen seborrhoische Dermatitis und Kleienpilzflechte (Pityriasis versicolor). Gegen Haarausfall nicht zugelassen. EU: Ketoconazol-Tabletten gegen Pilzinfektionen seit 2013 ausgesetzt (Leberschäden); als Ketoconazole Esteve (früher Ketoconazole HRA) seit 2014 gegen endogenes Cushing-Syndrom zugelassen. Sport: nicht auf der WADA-Verbotsliste.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31858672/',
+    sources: [
+      { title: 'Piérard-Franchimont C et al., Dermatology 1998 – Ketoconazol-Shampoo bei androgenetischer Alopezie, Vergleich mit Minoxidil', url: 'https://pubmed.ncbi.nlm.nih.gov/9669136/' },
+      { title: 'Piérard-Franchimont C et al., Int J Cosmet Sci 2002 – drei Anti-Schuppen-Shampoos bei 150 Männern mit Haarausfall', url: 'https://pubmed.ncbi.nlm.nih.gov/18498517/' },
+      { title: 'Khandpur S et al., J Dermatol 2002 – Finasterid, Minoxidil und Ketoconazol einzeln und kombiniert, offene randomisierte Studie mit 100 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/12227482/' },
+      { title: 'Jiang J et al., J Dermatol 2005 – Ketoconazol fördert Haarwachstum bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/15863844/' },
+      { title: 'Fields JR et al., Dermatol Ther 2020 – topisches Ketoconazol bei androgenetischer Alopezie, systematische Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/31858672/' },
+      { title: 'Fachinformation Ketozolin 2 % Shampoo (Stand Februar 2021) – Anwendungsgebiete, Nebenwirkungen, Pharmakokinetik', url: 'https://fachinfo.de/pdf/014583' },
+      { title: 'Fachinformation Terzolin 2 % Lösung (STADA) – Anwendungsgebiete, Sicherheit aus 22 Studien', url: 'https://www.stada.de/media/2wwnqb2z/terzolin-2-loesung_202208_vero-ff20220915.pdf' },
+      { title: 'Arzneimittelverschreibungsverordnung, Anlage 1 – Ketoconazol, ausgenommen zum äußeren Gebrauch', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'EMA 2013 – Aussetzung oraler Ketoconazol-Arzneimittel wegen Leberschäden, topische Präparate nicht betroffen', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/ketoconazole-containing-medicines' },
+      { title: 'EMA – Ketoconazole Esteve (früher Ketoconazole HRA) gegen Cushing-Syndrom, europäischer Bewertungsbericht', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/ketoconazole-esteve' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'bromantan',
+    name: 'Bromantan',
+    altNames: 'Ladasten, Bromantane, N-(4-Bromphenyl)adamantan-2-amin, Ладастен',
+    class: 'Adamantan-Abkömmling mit anregender und angstlösender Wirkung („Aktoprotektor“), in Russland verschreibungspflichtiges Arzneimittel, in DE/EU nicht zugelassen',
+    emoji: '🧠',
+    short: 'Ein Wirkstoff aus der russischen Forschung an „Aktoprotektoren“, der in Russland als verschreibungspflichtiges Mittel Ladasten gegen Erschöpfungszustände zugelassen ist. Bekannt wurde er 1996 als Dopingfall bei den Olympischen Spielen in Atlanta. Russische Studien zeigen weniger Erschöpfung als unter Placebo; unabhängige Daten und Studien an Gesunden fehlen.',
+    moa: 'Bromantan ist ein Abkömmling von Adamantan, dem Grundgerüst auch von Amantadin und Memantin. Es soll vor allem die Bildung von Dopamin steigern: Bei Ratten erhöhte eine Einzelgabe Menge und Erbgutablesung der Tyrosinhydroxylase, des Schlüsselenzyms der Dopaminsynthese, in mehreren Hirnregionen; in Hirnschnitten verstärkte es über Dopamin-D1/D5-Rezeptoren die synaptische Langzeitverstärkung (Mikhaylova 2007). Russische Autoren ordnen es den „Aktoprotektoren“ zu, Stoffen, die körperliche Belastbarkeit erhöhen sollen, ohne Sauerstoffverbrauch und Wärmebildung zu steigern (Oliynyk 2012). Am Menschen sind diese Mechanismen nicht gemessen.',
+    benefits: [
+      'Randomisierte, verblindete Studie gegen Placebo bei Neurasthenie über 28 Tage: schnellerer und stärkerer Rückgang der Erschöpfungssymptome als unter Placebo, kein Entzugssyndrom nach dem Absetzen (Neznamov 2009)',
+      'Russische Multicenterstudie mit 728 auswertbaren Patienten mit Erschöpfungszuständen über 28 Tage, ohne Kontrollgruppe: Ansprechen bei 76,0 bzw. 90,8 % je nach Skala, Nebenwirkungen bei 3 %, Abbruch bei 0,8 % (Voznesenskaia 2010)',
+      'In russischen Studien eine Kombination aus anregender und angstlösender Wirkung, ungewöhnlich für ein Stimulans (Neznamov 2009)',
+      'Im Tier mehr Dopaminsynthese und verstärkte synaptische Plastizität im Hippocampus (Mikhaylova 2007)',
+      'In Russland als verschreibungspflichtiges Arzneimittel Ladasten gegen Asthenie und Neurasthenie im Handel (Gebrauchsinformation)'
+    ],
+    risks: [
+      'Alle klinischen Studien stammen aus Russland; die Placebostudie ist nur russischsprachig mit knapper Zusammenfassung veröffentlicht, ohne Teilnehmerzahl im Abstract',
+      'Für Gesunde, Konzentration oder sportliche Leistung keine kontrollierten Humanstudien',
+      'Russische Gebrauchsinformation: Überaktivierung und Einschlafstörungen, allergische Reaktionen; Gegenanzeigen Schwangerschaft, Stillzeit, unter 18 Jahren; Halbwertszeit rund 11 Stunden',
+      'Im Sport verboten: WADA-Verbotsliste 2026, S6.A nicht-spezifische Stimulanzien, im Wettkampf',
+      'Außerhalb Russlands nur Graumarktware ohne Qualitätsprüfung'
+    ],
+    status: 'Russland: verschreibungspflichtiges Arzneimittel Ladasten (Hersteller Lekko) gegen Asthenie und Neurasthenie. DE/EU: nicht zugelassen, weder als Arzneimittel noch als Nahrungsergänzungsmittel; kein Eintrag im Betäubungsmittelgesetz oder in der Arzneimittelverschreibungsverordnung. Sport: WADA-Verbotsliste 2026, S6.A nicht-spezifische Stimulanzien, im Wettkampf verboten; 1996 in Atlanta bei russischen Athleten gefunden, die Disqualifikationen hob das Internationale Sportschiedsgericht damals mangels Nachweis der Stimulanzwirkung auf. Anti-Doping-Gesetz: Herstellung, Handel, Abgabe und Verschreibung zu Dopingzwecken im Sport verboten (§ 2 Abs. 1); Bromantan steht nicht in der Anlage des Gesetzes, Erwerb und Besitz fallen daher nicht unter das Verbot in § 2 Abs. 3.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/19491814/',
+    sources: [
+      { title: 'Neznamov GG et al., Zh Nevrol Psikhiatr 2009 – Ladasten gegen Placebo bei Neurasthenie, randomisierte verblindete Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/19491814/' },
+      { title: 'Voznesenskaia TG et al., Zh Nevrol Psikhiatr 2010 – Ladasten bei Asthenie, Multicenterstudie mit 728 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/21322821/' },
+      { title: 'Mikhaylova M et al., Neuropharmacology 2007 – Ladasten, Dopaminsynthese und synaptische Plastizität bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/17854844/' },
+      { title: 'Oliynyk S, Oh S, Biomol Ther 2012 – Pharmakologie der Aktoprotektoren, Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/24009833/' },
+      { title: 'Burnat P et al., Lancet 1997 – Bromantan als neues Dopingmittel', url: 'https://pubmed.ncbi.nlm.nih.gov/9314900/' },
+      { title: 'Internationales Sportschiedsgericht (CAS), Ad-hoc-Kammer Atlanta, Schiedsspruch vom 04.08.1996 – Korneev und Gouliev gegen IOC', url: 'https://www.doping.nl/filter/doc:5578/CAS%20OG_1996_03%20Andrei%20Korneev%20vs%20IOC' },
+      { title: 'Gebrauchsinformation Ladasten (Russland, medi.ru) – verschreibungspflichtig, Anwendungsgebiete, Nebenwirkungen, Halbwertszeit', url: 'https://medi.ru/instrukciya/ladasten_4340/' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S6.A nicht-spezifische Stimulanzien: Bromantan', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz § 2 – unerlaubter Umgang mit Dopingmitteln', url: 'https://www.gesetze-im-internet.de/antidopg/__2.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'phenylpiracetam',
+    name: 'Phenylpiracetam',
+    altNames: 'Fonturacetam, 4-Phenylpiracetam, Carphedon, Phenotropil, Actitropil, Фенотропил',
+    class: 'Racetam mit anregender Wirkung (Hemmung des Dopamintransporters), in Russland verschreibungspflichtiges Arzneimittel, in DE/EU nicht zugelassen',
+    emoji: '🧠',
+    short: 'Piracetam mit einem zusätzlichen Phenylring: In Russland als verschreibungspflichtiges Phenotropil unter anderem gegen Erschöpfung und nach Hirnschäden im Einsatz, im Tier deutlich anregender als Piracetam. Russische Studien zeigen weniger Erschöpfung, eine placebokontrollierte Studie wurde nicht gefunden. Seit 1998 im Sport verboten, als erstes Nootropikum überhaupt.',
+    moa: 'Phenylpiracetam ist Piracetam mit einem Phenylring am Pyrrolidon-Gerüst. Anders als Piracetam wirkt es deutlich anregend: Die Erstbeschreibung von 1983 fand bei Tieren eine stärkere Aktivierung als unter Piracetam, eine Gegenwirkung zur Dämpfung durch Diazepam, Schutz vor Gedächtnisverlust und eine krampfhemmende Wirkung, in hohen Dosen dagegen dämpfende Effekte (Bobkov 1983). Die S-Form hemmt selektiv den Dopamintransporter, ohne Noradrenalin- oder Serotoninrezeptoren zu beeinflussen (Zvejniece 2017). Bei Mäusen steigerten beide Spiegelbild-Formen die Bewegungsaktivität und wirkten antidepressiv, gedächtnisfördernd war nur die R-Form (Zvejniece 2011). Laut russischer Fachinformation wird es nach Einnahme vollständig aufgenommen, die Halbwertszeit liegt bei 3 bis 5 Stunden. Am Menschen gemessen ist die Wirkung am Dopamintransporter nicht.',
+    benefits: [
+      'Meta-Analyse russischer Studien bei Asthenie: 11 Arbeiten mit 549 Patienten; die Erschöpfung auf der MFI-20-Skala sank nach einem Monat im Mittel um 16,3 Punkte gegenüber dem Ausgangswert, Nebenwirkungen bei durchschnittlich 5,5 %, vorübergehend (Devlikamova 2025)',
+      'Nach Schlaganfall: 400 Patienten, davon 200 mit drei Behandlungskursen im ersten Jahr der Rehabilitation; neurologische Funktionen und Alltagsfähigkeit erholten sich signifikant besser als in der Vergleichsgruppe (Kovalchuk 2010)',
+      'Im Tier stärker aktivierend als Piracetam, krampfhemmend, gedächtnisfördernd (R-Form) und antidepressiv (Bobkov 1983; Zvejniece 2011)',
+      'Die S-Form als selektiver Dopamintransporter-Hemmer: bei übergewichtigen Ratten und Mäusen weniger Gewichtszunahme, bessere Blutzuckerwerte, ohne mehr Bewegungsunruhe (Zvejniece 2017)',
+      'In Russland als Phenotropil zugelassen, Registrierung 2025 unbefristet erneuert (Fachinformation)'
+    ],
+    risks: [
+      'Keine placebokontrollierte Studie gefunden; die klinischen Arbeiten stammen aus Russland, die Meta-Analyse wertet Veränderungen gegenüber dem Ausgangswert aus',
+      'Für Gesunde als Nootropikum nicht untersucht',
+      'Russische Fachinformation: Schlaflosigkeit bei Einnahme am Nachmittag, psychomotorische Unruhe, Blutdruckanstieg, Hautrötung und Wärmegefühl in den ersten Tagen; Gegenanzeigen unter 18 Jahren, Schwangerschaft, Stillzeit',
+      'Hemmt den Dopamintransporter wie ein Stimulans; Daten zu Gewöhnung, Missbrauch und Langzeitanwendung fehlen',
+      'Im Sport verboten: WADA-Verbotsliste 2026, S6.A (Fonturacetam), im Wettkampf; 1998 als erstes Nootropikum verboten (Jędrejko 2023)',
+      'In Europa als große Rohstoffmengen sichergestellt; Graumarktware ohne Qualitätsprüfung (Vanhee 2025)'
+    ],
+    status: 'Russland: verschreibungspflichtiges Arzneimittel Phenotropil (Valenta), Registrierung 2025 unbefristet erneuert; Anwendungsgebiete unter anderem Hirnfunktionsstörungen nach Gefäßerkrankung oder Verletzung, neurotische Zustände, Lernstörungen, Übergewicht und Alkoholabhängigkeit; unter dem Namen Fonturacetam auch als Actitropil. DE/EU: nicht zugelassen, weder als Arzneimittel noch als Nahrungsergänzungsmittel; kein Eintrag im Betäubungsmittelgesetz oder in der Arzneimittelverschreibungsverordnung; eine behördliche Einordnung nach dem Neue-psychoaktive-Stoffe-Gesetz wurde nicht gefunden. Sport: WADA-Verbotsliste 2026, S6.A nicht-spezifische Stimulanzien (Fonturacetam), im Wettkampf verboten, seit 1998. Anti-Doping-Gesetz: Herstellung, Handel, Abgabe und Verschreibung zu Dopingzwecken im Sport verboten (§ 2 Abs. 1); nicht in der Anlage, Erwerb und Besitz fallen daher nicht unter das Verbot in § 2 Abs. 3.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40047835/',
+    sources: [
+      { title: 'Bobkov IuG et al., Biull Eksp Biol Med 1983 – Pharmakologie von 4-Phenylpiracetam, Erstbeschreibung', url: 'https://pubmed.ncbi.nlm.nih.gov/6403074/' },
+      { title: 'Zvejniece L et al., Basic Clin Pharmacol Toxicol 2011 – unterschiedliche Wirkung der R- und S-Form bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/21689376/' },
+      { title: 'Zvejniece L et al., Pharmacol Biochem Behav 2017 – S-Phenylpiracetam als selektiver Dopamintransporter-Hemmer', url: 'https://pubmed.ncbi.nlm.nih.gov/28743458/' },
+      { title: 'Devlikamova FI, Safina DR, Zh Nevrol Psikhiatr 2025 – Fonturacetam bei Asthenie, Meta-Analyse aus 11 Arbeiten mit 549 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/40047835/' },
+      { title: 'Kovalchuk VV et al., Zh Nevrol Psikhiatr 2010 – Phenotropil in der Rehabilitation nach Schlaganfall, 400 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/21626817/' },
+      { title: 'Vanhee C et al., J Xenobiot 2025 – illegale Nootropika in Europa und Australien, Marktüberwachung von 12 Arzneimittelprüflaboren', url: 'https://pubmed.ncbi.nlm.nih.gov/40558871/' },
+      { title: 'Jędrejko K et al., Drug Test Anal 2023 – nicht zugelassene Inhaltsstoffe in Nootropika-Supplementen, Fonturacetam 1998 als erstes Nootropikum verboten', url: 'https://pubmed.ncbi.nlm.nih.gov/37357012/' },
+      { title: 'Fachinformation Phenotropil (Russland, Vidal) – verschreibungspflichtig, Anwendungsgebiete, Nebenwirkungen, Pharmakokinetik', url: 'https://www.vidal.ru/drugs/fenotropil__3366' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S6.A nicht-spezifische Stimulanzien: Fonturacetam', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz § 2 – unerlaubter Umgang mit Dopingmitteln', url: 'https://www.gesetze-im-internet.de/antidopg/__2.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+      id: 'sulbutiamin',
+      name: 'Sulbutiamin',
+      altNames: 'Sulbutiamine, Isobutyrylthiamin-Disulfid, Arcalion, Enerion',
+      class: 'Fettlösliches Vitamin-B1-Derivat (Thiamin-Disulfid); in Frankreich zugelassenes, nicht verschreibungspflichtiges Arzneimittel, in Deutschland nicht zugelassen',
+      emoji: '🧠',
+      short: 'Zwei verbundene Thiamin-Bausteine mit fettlöslichen Seitenketten, die der Körper wieder zu Vitamin B1 umbaut. In Frankreich als Arcalion gegen Antriebslosigkeit und Erschöpfung zugelassen; die größte placebokontrollierte Studie zur Erschöpfung nach Infekten fand nach 28 Tagen keinen Unterschied, Studien an Gesunden zu Fokus oder Motivation fehlen.',
+      moa: 'Sulbutiamin ist ein Disulfid aus zwei Thiamin-Molekülen mit Isobutyrylgruppen und dadurch fettlöslich; im Körper entsteht daraus wieder Thiamin. Laut französischer Fachinformation wird es rasch aufgenommen, erreicht nach 1 bis 2 Stunden die höchste Blutkonzentration und hat eine Halbwertszeit von etwa 5 Stunden. Nach Tierdaten passiert es die Blut-Hirn-Schranke leichter als Thiamin und hebt im Gehirn die Spiegel von Thiamin und seinen Phosphatestern (zusammengefasst bei Sevim 2017); beschrieben werden zusätzlich Effekte auf cholinerge und dopaminerge Signalwege. Die Fachinformation beschreibt eine psychoaktive Wirkung vor allem auf psychische und körperliche Antriebshemmung. Am Menschen ist keiner dieser Wege direkt gemessen.',
+      benefits: [
+        'Schwere depressive Episode, ergänzend zu Clomipramin: nach 4 Wochen signifikant weniger antriebsbezogene Beeinträchtigung als unter Placebo, keine eigene antidepressive Wirkung (RCT, 8 Wochen, Lôo 2000)',
+        'Nächtliches Einnässen bei Kindern: vollständiges Ansprechen nach 6 Monaten bei 52,7 Prozent gegenüber 37,3 Prozent unter Imipramin, weniger Rückfälle (RCT, 450 Kinder, Ahmed Mahmoud 2026)',
+        'Diabetische Polyneuropathie: Nervenleitgeschwindigkeit nach 6 Wochen besser als ohne Behandlung, Beschwerden im Gruppenvergleich nicht (offene randomisierte Studie, 30 Patienten, Kiew 2002)',
+        'Fatigue bei Multipler Sklerose: Fatigue-Score von 77 auf 60,5 nach 60 Tagen, ohne Kontrollgruppe (26 Patienten, Sevim 2017)',
+        'In Frankreich zugelassenes Arzneimittel mit Fachinformation und langer Marktgeschichte'
+      ],
+      risks: [
+        'Größte placebokontrollierte Studie verfehlt: kein Unterschied bei Erschöpfung nach Infekten nach 28 Tagen, nur ein vorübergehender Befund bei Frauen am 7. Tag (RCT, 326 Patienten, Tiev 1999)',
+        'Keine Studien an Gesunden zu Konzentration, Motivation oder geistiger Energie',
+        'Laut Fachinformation gelegentlich Unruhe, Kopfschmerzen, Zittern, Übelkeit, Erbrechen, Hautausschlag; bei Überdosierung Unruhe mit Euphorie und Zittern',
+        'Missbrauch beschrieben: Fallbericht mit steigendem Konsum bei bipolarer Störung (Douzenis 2006); 7,1 Prozent der studentischen Anwender berichteten ein Abhängigkeitsgefühl (Carton 2023)',
+        'Keine Daten zu Fruchtbarkeit; in Schwangerschaft und Stillzeit nicht anwenden; für Kinder und Jugendliche nicht zugelassen, Behandlungsdauer in Frankreich auf 4 Wochen begrenzt',
+        'Keine Langzeitdaten bei Erwachsenen; die placebokontrollierten Studien liefen 4 bis 8 Wochen'
+      ],
+      status: 'Frankreich: zugelassenes, nicht verschreibungspflichtiges und nicht erstattungsfähiges Arzneimittel (Arcalion 200 mg, Servier) bei bestimmten Zuständen körperlicher oder psychischer Hemmung mit verminderter Aktivität und Antriebslosigkeit, Behandlungsdauer höchstens 4 Wochen. Deutschland: kein zugelassenes Arzneimittel; nicht in der Arzneimittelverschreibungsverordnung und nicht im BtMG. Als Nahrungsergänzung nicht zulässig, weil Sulbutiamin keine der in der EU erlaubten Vitamin-B1-Verbindungen ist (Anhang II RL 2002/46/EG in der Fassung der VO 1170/2009).',
+      sources: [
+        { title: 'Tiev KP et al., Rev Med Interne 1999 – 400 oder 600 mg gegen Placebo bei Erschöpfung nach Infekten', url: 'https://pubmed.ncbi.nlm.nih.gov/10573727/' },
+        { title: 'Lôo H et al., Encephale 2000 – ergänzend zu Clomipramin bei schwerer depressiver Episode', url: 'https://pubmed.ncbi.nlm.nih.gov/10858919/' },
+        { title: 'Kiew KK et al., Malays J Med Sci 2002 – diabetische Polyneuropathie, offene randomisierte Studie', url: 'https://pubmed.ncbi.nlm.nih.gov/22969314/' },
+        { title: 'Shah SN, J Assoc Physicians India 2003 – Anwendungsbeobachtung bei Infekt-Asthenie', url: 'https://pubmed.ncbi.nlm.nih.gov/14710977/' },
+        { title: 'Sevim S et al., Mult Scler Relat Disord 2017 – Fatigue bei Multipler Sklerose', url: 'https://pubmed.ncbi.nlm.nih.gov/28755683/' },
+        { title: 'Ahmed Mahmoud T et al., J Pediatr Urol 2026 – RCT gegen Imipramin bei nächtlichem Einnässen', url: 'https://pubmed.ncbi.nlm.nih.gov/42107294/' },
+        { title: 'Douzenis A et al., World J Biol Psychiatry 2006 – Fallbericht zu Missbrauch', url: 'https://pubmed.ncbi.nlm.nih.gov/16861144/' },
+        { title: 'Carton L et al., Dialogues Clin Neurosci 2023 – Umfrage unter Studierenden (PETRA)', url: 'https://pubmed.ncbi.nlm.nih.gov/37837439/' },
+        { title: 'Base de Données Publique des Médicaments – Arcalion 200 mg, Fachinformation', url: 'https://base-donnees-publique.medicaments.gouv.fr/extrait.php?specid=64384738' },
+        { title: 'Verordnung (EG) Nr. 1170/2009 – zulässige Vitaminverbindungen in Nahrungsergänzungsmitteln', url: 'https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32009R1170' }
+      ],
+      community: [],
+      filterCat: 'Sonstige'
+  },
+  {
+      id: '9-me-bc',
+      name: '9-Me-BC (9-Methyl-β-carbolin)',
+      altNames: '9-Methyl-beta-carbolin, 9-Methylnorharman, 9-MBC, 9-Methyl-9H-pyrido[3,4-b]indol',
+      class: 'β-Carbolin (Pyridoindol), Forschungssubstanz, nie am Menschen geprüft, nirgends zugelassen',
+      emoji: '🧪',
+      short: 'Kleines Molekül aus der Familie der β-Carboline, das in Zellkultur und Ratte Dopamin-Nervenzellen anregte, schützte und regenerierte und als möglicher Parkinson-Wirkstoff untersucht wurde. Am Menschen gibt es keine einzige Studie; im Labor schädigen lichtangeregte 9-Methyl-β-carboline die DNA.',
+      moa: 'In Primärkulturen aus dem Mittelhirn steigerte 9-Me-BC die Tyrosinhydroxylase, das Auswachsen von Nervenfortsätzen und die Regeneration nach Rotenon, schützte vor Toxinen, bremste Mikroglia und senkte alpha-Synuclein (Polanski 2010). In Astrozyten regte es über PI3K Wachstumsfaktoren wie BDNF an und hemmte die Monoaminoxidase, halbmaximal bei 1 µM (MAO-A) und 15,5 µM (MAO-B) (Keller 2020). Bei Ratten verbesserte es nach 10 Tagen das räumliche Lernen und hob Dopamin im Hippocampus (Gruss 2012); im Parkinson-Modell normalisierte die Gabe direkt in die Hirnkammer Dopamin und die Zahl der Dopamin-Neuronen (Wernicke 2010). Alle Befunde stammen aus Zellkultur und Tier, überwiegend aus einem Autorenkreis.',
+      benefits: [
+        'Zellkultur: mehr Tyrosinhydroxylase, längere Fortsätze, Schutz vor Toxinen und Regeneration dopaminerger Neuronen nach Rotenon (Polanski 2010)',
+        'Ratte, Parkinson-Modell: Dopamin im Striatum und Zahl der Dopamin-Neuronen nach 14 Tagen Gabe in die Hirnkammer wieder normal (Wernicke 2010)',
+        'Ratte: besseres räumliches Lernen nach 10, nicht nach 5 Tagen, mehr Dopamin im Hippocampus, mehr Dornfortsätze (Gruss 2012)',
+        'Astrozyten: mehr Wachstumsfaktoren wie BDNF; Hemmung von MAO-A und MAO-B im Enzymtest (Keller 2020)'
+      ],
+      risks: [
+        'Keine Humanstudie, keine Pharmakokinetik am Menschen, kein Eintrag in ClinicalTrials.gov (Abfrage 07.10.2026)',
+        'Phototoxisches Potenzial: 9-Methyl-β-carboline einschließlich 9-Methylnorharman schädigten unter UV-A-Licht im Reagenzglas die DNA (Vignoni 2013)',
+        'Hemmt die Monoaminoxidase; mögliche Wechselwirkungen am Menschen, etwa mit Antidepressiva oder Stimulanzien, nicht untersucht',
+        'Chemisch nah am Nervengift 2,9-Dimethyl-β-carbolinium, das bei Ratten Dopamin-Neuronen schädigte (Pavlovic 2006); ob 9-Me-BC im Körper so umgebaut wird, ist nicht untersucht',
+        'Tierdaten schmal und aus einem Autorenkreis; im Parkinson-Modell Gabe direkt ins Gehirn, nicht über den Mund',
+        'Als Forschungschemikalie ohne kontrollierte Reinheit gehandelt; von amtlichen Kontrolllaboren in Europa als nicht zugelassenes Nootropikum aufgegriffen (Vanhee 2025)'
+      ],
+      status: 'Nirgends als Arzneimittel zugelassen, nie in einer klinischen Studie geprüft. Deutschland: weder zugelassenes Arzneimittel noch zugelassenes Lebensmittel; nicht in den Anlagen des BtMG; die Stoffgruppen der NpSG-Anlage beschreiben β-Carboline nicht ausdrücklich. Gehandelt als Forschungschemikalie.',
+      sources: [
+        { title: 'Polanski W et al., J Neurochem 2010 – Anregung, Schutz und Regeneration dopaminerger Neuronen', url: 'https://pubmed.ncbi.nlm.nih.gov/20374418/' },
+        { title: 'Wernicke C et al., Pharmacol Rep 2010 – Parkinson-Modell der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/20360614/' },
+        { title: 'Gruss M et al., J Neurochem 2012 – Lernen und Dopamin im Hippocampus der Ratte', url: 'https://pubmed.ncbi.nlm.nih.gov/22380576/' },
+        { title: 'Keller S et al., J Neural Transm 2020 – MAO-Hemmung und Wachstumsfaktoren in Astrozyten', url: 'https://pubmed.ncbi.nlm.nih.gov/32285253/' },
+        { title: 'Vignoni M et al., Org Biomol Chem 2013 – DNA-Schäden durch lichtangeregte 9-Methyl-β-carboline', url: 'https://pubmed.ncbi.nlm.nih.gov/23842892/' },
+        { title: 'Pavlovic S et al., Neuroscience 2006 – 2,9-Dimethyl-β-carbolinium als Nervengift', url: 'https://pubmed.ncbi.nlm.nih.gov/16517085/' },
+        { title: 'Vanhee C et al., J Xenobiot 2025 – Marktüberwachung nicht zugelassener Nootropika', url: 'https://pubmed.ncbi.nlm.nih.gov/40558871/' },
+        { title: 'ClinicalTrials.gov – Suche 9-methyl-beta-carboline (kein Eintrag)', url: 'https://clinicaltrials.gov/search?term=9-methyl-beta-carboline' }
+      ],
+      community: [],
+      filterCat: 'Sonstige'
+  },
+  {
+    id: 'fluoxymesteron',
+    name: 'Fluoxymesteron (Halotestin)',
+    altNames: 'Halotestin, Ora-Testryl, Android-F, Fluoxymesterone, 9α-Fluor-11β-hydroxy-17α-methyltestosteron',
+    class: 'Anabol-androgenes Steroid zum Einnehmen, 17α-alkyliert und fluoriert; in den USA früher zugelassen',
+    emoji: '💊',
+    short: 'Fluoxymesteron ist ein Androgen in Tablettenform, in den USA 1956 als Halotestin zugelassen – bei Testosteronmangel, verzögerter Pubertät und zur Linderung bei fortgeschrittenem Brustkrebs. Randomisierte Studien gibt es vor allem aus der Krebsmedizin, zu Muskeln oder Kraft bei Gesunden keine. Die Fachinformation warnt vor Gallenstauung, Lebertumoren und Peliosis hepatis; in den USA ist heute kein Präparat mehr im Handel.',
+    moa: 'Fluoxymesteron ist ein Abkömmling des Testosterons mit drei Veränderungen: einer 17α-Methylgruppe, die es als Tablette wirksam macht, einem Fluoratom an Position 9 und einer Hydroxygruppe an Position 11. Es bindet am Androgenrezeptor → Eiweißaufbau, Einlagerung von Stickstoff, vermännlichende Wirkung und laut Fachinformation eine Anregung der Blutbildung. Über die Rückkopplung hemmt es die LH-Ausschüttung der Hypophyse und damit die eigene Testosteronbildung, in hoher Dosis auch die Spermienbildung. Die Halbwertszeit nach Einnahme liegt laut Fachinformation bei etwa 9,2 Stunden.',
+    benefits: [
+      'In den USA 1956 als Halotestin zugelassen: Ersatztherapie bei Testosteronmangel und bei gesicherter verzögerter Pubertät des Mannes, Linderung bei wiederkehrendem, androgenempfindlichem Brustkrebs der Frau (Fachinformation; Drugs@FDA)',
+      'Metastasierter Brustkrebs: zusätzlich zu Tamoxifen Ansprechen bei 53 % gegenüber 42 % unter Tamoxifen allein, Zeit bis zum Fortschreiten im Median 350 gegenüber 199 Tage (statistisch nicht gesichert), kein Überlebensvorteil (RCT, 238 Frauen, Ingle 1988)',
+      'Nach Brustkrebs-Operation: kein Vorteil bei Rückfallfreiheit oder Überleben gegenüber Tamoxifen allein über 11,4 Jahre Nachbeobachtung, mehr Vermännlichung (RCT, 541 Frauen, Ingle 2006)',
+      'Verzögertes Wachstum und verzögerte Pubertät bei Jungen: Längenwachstum während der Behandlung 1,7- bis 2,5-fach beschleunigt, Endgröße 5 bis 6 cm über der Vorhersage, keine unerwünschten androgenen Wirkungen beobachtet (prospektiv, ohne Zufallszuteilung, 82 Jungen, Strickland 1993)',
+      'Kontrollierte Studien zu Muskelmasse, Kraft oder Leistung bei Gesunden fehlen'
+    ],
+    risks: [
+      'Leber: laut Fachinformation Gallenstauung mit Gelbsucht und veränderte Leberwerte; nach langer, hochdosierter Gabe 17α-alkylierter Androgene Leberadenome, Leberzellkrebs und Peliosis hepatis, alle potenziell lebensbedrohlich; regelmäßige Leberwerte vorgesehen',
+      'Für anabol-androgene Steroide insgesamt sind Gallenstauung, Peliosis hepatis und gut- wie bösartige Lebertumoren beschrieben; meist normalisiert sich die Leber nach dem Absetzen, manche Folgen bleiben (Petrovic 2022)',
+      'Blut und Gerinnung: verstärkte Wirkung von Gerinnungshemmern zum Einnehmen mit Blutungsgefahr, zu viele rote Blutkörperchen (Polyzythämie), steigendes Cholesterin möglich (Fachinformation)',
+      'Hormonachse: Brustwachstum beim Mann, zu häufige und zu lange Erektionen, verminderte Spermienzahl bei hoher Dosis; bei Frauen Zyklusstörungen, Stimmvertiefung und Vergrößerung der Klitoris, die meist nicht zurückgehen (Fachinformation); mehr Vermännlichung in der Brustkrebs-Studie (Ingle 2006)',
+      'Krebsbedingte Auszehrung: schwächere Appetitsteigerung als Megestrolacetat oder Dexamethason und kein günstiges Nebenwirkungsprofil (RCT, Loprinzi 1999)',
+      'Wassereinlagerung mit oder ohne Herzschwäche bei Herz-, Nieren- oder Lebererkrankung; Kopfschmerz, Angst, Depression, mehr oder weniger Libido (Fachinformation)'
+    ],
+    status: 'In Deutschland verschreibungspflichtig (AMVV, Anlage 1, Fluoxymesteron und seine Ester); ein in Deutschland zugelassenes Fertigarzneimittel fand sich bei der Recherche nicht. In den USA 1956 als Halotestin zugelassen (NDA 010611); laut FDA-Datenbank werden Halotestin und alle dort zugelassenen Fluoxymesteron-Präparate nicht mehr vertrieben (Stand 10/2026); dort Betäubungsmittel der Klasse III. Fluoxymesteron steht namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellung, Handel und Abgabe zu Dopingzwecken sowie Erwerb und Besitz in nicht geringer Menge zum Doping im Sport sind verboten. WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    link: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09bafc2d-1893-4618-86dc-e9403407cd41',
+    sources: [
+      { title: 'Fachinformation Halotestin (Fluoxymesteron), US-Zulassungstext Stand 05/2002 (DailyMed) – Anwendungsgebiete, Warnhinweise zu Leber, Blut und Vermännlichung', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09bafc2d-1893-4618-86dc-e9403407cd41' },
+      { title: 'FDA, Drugs@FDA – Halotestin, NDA 010611: Zulassung 1956, Status nicht mehr vertrieben', url: 'https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=010611' },
+      { title: 'Ingle JN et al., J Clin Oncol 1988 – RCT: Tamoxifen allein oder mit Fluoxymesteron bei metastasiertem Brustkrebs, 238 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/3284975/' },
+      { title: 'Ingle JN et al., Breast Cancer Res Treat 2006 – RCT: Tamoxifen allein oder mit Fluoxymesteron nach Brustkrebs-Operation, 541 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/16538529/' },
+      { title: 'Loprinzi CL et al., J Clin Oncol 1999 – RCT: Megestrolacetat, Dexamethason oder Fluoxymesteron bei krebsbedingter Auszehrung', url: 'https://pubmed.ncbi.nlm.nih.gov/10506633/' },
+      { title: 'Strickland AL, Pediatrics 1993 – Langzeitergebnisse von niedrig dosiertem Fluoxymesteron bei verzögertem Wachstum und verzögerter Pubertät, 82 Jungen', url: 'https://pubmed.ncbi.nlm.nih.gov/8464656/' },
+      { title: 'Petrovic A et al., World J Gastroenterol 2022 – Leberschäden durch anabol-androgene Steroide (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/36051334/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'methylstenbolon',
+    name: 'Methylstenbolon',
+    altNames: 'Methylstenbolone, MSTEN, 2α,17α-Dimethyl-17β-hydroxy-5α-androst-1-en-3-on, enthalten etwa in „Super DMZ Rx 2.0“',
+    class: 'Designer-Steroid, 17α-methyliertes Anabolikum; nie als Arzneimittel zugelassen, als „Prohormon“ und „Nahrungsergänzung“ verkauft',
+    emoji: '⚠️',
+    short: 'Methylstenbolon ist ein Anabolikum, das nie als Arzneimittel entwickelt wurde und seit Anfang der 2010er Jahre in Produkten auftaucht, die als „Prohormon“ oder Nahrungsergänzung verkauft werden. Eine Studie zur Wirkung am Menschen gibt es nicht; untersucht ist nur, wie lange es im Urin nachweisbar bleibt. Dokumentiert sind ein Fallbericht über eine Gelbsucht durch Gallenstauung und eine Häufung von Beschwerden durch verunreinigte Präparate.',
+    moa: 'Methylstenbolon (2α,17α-Dimethyl-17β-hydroxy-5α-androst-1-en-3-on) ist eng mit Methasteron verwandt: dieselben zwei Methylgruppen, dazu eine Doppelbindung im A-Ring. Als Anabolikum dieser Bauart dürfte es am Androgenrezeptor wirken; gemessen ist das für Methylstenbolon selbst nicht. Verunreinigte Präparate, die Methasteron, Dimethazin und Methylstenbolon enthielten, wirkten im Zellversuch stark androgen (Tran 2023). Die 17α-Methylgruppe bremst den Abbau in der Leber. Am Menschen untersucht ist nur die Ausscheidung: Nach einmaliger Einnahme war der unveränderte Stoff etwa 45 Stunden im Urin nachweisbar, Abbauprodukte über eine Woche (Cavalcanti 2013), in einer neueren Studie einzelne Abbauprodukte noch nach 29 Tagen (Piper 2019).',
+    benefits: [
+      'Keine Humanstudie zur Wirkung: Für Muskelmasse, Kraft oder Leistung gibt es keine klinische Studie; Fachleute für Designer-Steroide beschreiben genau dieses Fehlen klinischer Studien bei nicht zugelassenen Steroiden (Joseph und Parr 2015)',
+      'Warum Menschen es nehmen: Verkauft wurde es als „Nahrungsergänzung“ für schnellen Muskelaufbau, etwa zusammen mit Dimethazin in „Super DMZ Rx 2.0“ (Agbenyefia 2014)',
+      'Am Menschen vermessen ist nur der Nachweis: unverändert etwa 45 Stunden im Urin, Abbauprodukte über eine Woche (4 Freiwillige, Cavalcanti 2013); mit markierter Substanz bis zu 40 Abbauprodukte, drei davon noch nach 29 Tagen nachweisbar (Piper 2019)'
+    ],
+    risks: [
+      'Leber: Gelbsucht durch Gallenstauung bei einem zuvor gesunden 26-Jährigen nach 30 Tagen Einnahme eines Produkts mit Methylstenbolon und Dimethazin, nach Herstellerangaben eingenommen (Agbenyefia 2014, Fallbericht)',
+      'Verunreinigte Präparate: In New York traten 2012 und 2013 bei etwa 16 Menschen Beschwerden wie Müdigkeit, Haarausfall und Muskelschmerzen auf; Vitamin-B- und Mineralstoffpräparate eines Anbieters enthielten Methasteron, Dimethazin und Methylstenbolon. Ein Patient kam mit Leberschaden ins Krankenhaus, ein Kind zeigte eine ausgeprägte Vermännlichung (Tran 2023)',
+      'Falsch deklarierte Ware: Ein als Methylstenbolon gekennzeichnetes Produkt enthielt zusätzlich Methasteron (Geldof 2014)',
+      'Designer-Steroide insgesamt: beschrieben sind Leberschäden, Gallenstauung, Nierenversagen, Unterfunktion der Hoden, Brustwachstum beim Mann und Unfruchtbarkeit; manche Folgen gehen zurück, andere nicht (Rahnema 2015)',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1, als Steroid mit ähnlicher Struktur); in Deutschland namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Nicht als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA; Methylstenbolon wurde nie medizinisch eingesetzt (Tauchen 2021). In Deutschland steht es namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben und Inverkehrbringen zum Doping sind verboten, ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2, strafbar nach § 4). Auf der WADA-Verbotsliste 2026 ist es nicht namentlich genannt, fällt aber unter S1.1 als Substanz mit ähnlicher chemischer Struktur und ist jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26425606/',
+    sources: [
+      { title: 'Agbenyefia P et al., J Investig Med High Impact Case Rep 2014 – Gelbsucht durch Gallenstauung nach Methylstenbolon und Dimethazin, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/26425606/' },
+      { title: 'Tran BN et al., Steroids 2023 – Methasteron, Dimethazin und Methylstenbolon in Vitamin- und Mineralstoffpräparaten, Gesundheitsschäden in New York', url: 'https://pubmed.ncbi.nlm.nih.gov/36796473/' },
+      { title: 'Cavalcanti GA et al., Steroids 2013 – Methylstenbolon in einer „Nahrungsergänzung“, Ausscheidung bei 4 Freiwilligen', url: 'https://pubmed.ncbi.nlm.nih.gov/23200734/' },
+      { title: 'Piper T et al., Drug Test Anal 2019 – Stoffwechsel von Methylstenbolon am Menschen und Langzeit-Nachweis', url: 'https://pubmed.ncbi.nlm.nih.gov/31733090/' },
+      { title: 'Geldof L et al., Biomed Chromatogr 2014 – Stoffwechsel von Methylstenbolon; Produkt enthielt zusätzlich Methasteron', url: 'https://pubmed.ncbi.nlm.nih.gov/24496964/' },
+      { title: 'Rahnema CD et al., Andrology 2015 – Designer-Steroide in frei verkäuflichen Supplements, Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/25684733/' },
+      { title: 'Joseph JF, Parr MK, Curr Neuropharmacol 2015 – synthetische Androgene als Designer-Nahrungsergänzung', url: 'https://pubmed.ncbi.nlm.nih.gov/26074745/' },
+      { title: 'Tauchen J et al., Molecules 2021 – medizinische Verwendung von Testosteron und verwandten Steroiden, Übersicht mit Designer-Steroiden', url: 'https://pubmed.ncbi.nlm.nih.gov/33672087/' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'methyltrienolon',
+    name: 'Methyltrienolon (Metribolon, R1881)',
+    altNames: 'Metribolon, Metribolone, Methyltrienolone, R1881, R 1881, NSC-92858, 17α-Methyltrenbolon, 17β-Hydroxy-17α-methylestra-4,9,11-trien-3-on',
+    class: 'Anabol-androgenes Steroid zum Einnehmen, 17α-methyliertes Trenbolon; nie als Arzneimittel zugelassen, heute Forschungswerkzeug',
+    emoji: '🧪',
+    short: 'Methyltrienolon, auch Metribolon oder R1881, gehört zu den stärksten bekannten Androgenen. In den 1960er Jahren wurde es kurz am Menschen erprobt, auch bei fortgeschrittenem Brustkrebs, kam aber nie auf den Markt – nach einer Übersicht, weil es schon in sehr niedriger Dosis stark lebertoxisch ist. Seitdem dient es im Labor als Standard-Ligand, um Androgenrezeptoren zu messen.',
+    moa: 'Methyltrienolon ist Trenbolon mit einer zusätzlichen Methylgruppe in 17α-Position (17β-Hydroxy-17α-methylestra-4,9,11-trien-3-on). Es bindet sehr fest an den Androgenrezeptor, in Prostatagewebe der Ratte fester als das körpereigene Androstanolon (DHT), wird aber anders als die körpereigenen Androgene nicht vom Transportprotein im Blut gebunden; deshalb wurde es zum Messwerkzeug für Androgenrezeptoren in Geweben und Tumoren (Bonne und Raynaud 1975). In menschlichem Prostatagewebe bindet es zusätzlich an eine Stelle mit Eigenschaften des Progesteronrezeptors (Menon 1978). Im Zellversuch bindet es so fest wie Aldosteron an den Mineralokortikoidrezeptor und blockiert ihn (Takeda 2007). Die 17α-Methylgruppe macht es als Tablette wirksam und belastet die Leber.',
+    benefits: [
+      'Eines der stärksten Androgene: bindet am Androgenrezeptor fester als das körpereigene Androstanolon (DHT), gemessen an Prostatagewebe der Ratte (Bonne und Raynaud 1975)',
+      'Frühe Erprobung am Menschen: kleine klinische Arbeiten aus den 1960er Jahren zum Eiweißaufbau beim Menschen (Trémolières 1965) und zu Wirkung und Toxizität bei fortgeschrittenem Brustkrebs (Halden 1970); Ergebnisse liegen nur in den Originalarbeiten vor, nicht als Kurzfassung',
+      'Breit genutzt in der Forschung: als Ligand, um Androgenrezeptoren in menschlicher Prostata, Haut und Tumoren zu messen (Bonne und Raynaud 1975, Menon 1978)',
+      'Medizinisch eingesetzt wurde es nie: Die Entwicklung als Brustkrebsmittel endete laut einer Übersicht, weil der Stoff schon in sehr niedriger Dosis stark lebertoxisch ist (Tauchen 2021)'
+    ],
+    risks: [
+      'Leber: bereits 1966 eine Arbeit zur Lebertoxizität des neuen Anabolikums (Krüskemper und Noell 1966); laut Übersicht schon in sehr niedriger Dosis stark lebertoxisch (Tauchen 2021)',
+      'Fallbericht: Ein 56-Jähriger spritzte im Internet gekaufte Steroide, laut Etikett Testosteronpropionat, Testosteronacetat, Drostanolonpropionat und Methyltrienolon; es folgten schwere Gelbsucht und ein Nierenschaden durch Gallenzylinder mit 4 Wochen Dialyse, beides erholte sich. Der Inhalt wurde nicht analysiert, der Anteil von Methyltrienolon ist offen (Fisler 2018)',
+      'Mineralokortikoidrezeptor: im Zellversuch blockiert es den Rezeptor, über den Aldosteron in der Niere Salz zurückhält (Takeda 2007); was das am Menschen bedeutet, ist nicht untersucht',
+      'Dazu kommen die allgemeinen Anabolika-Risiken für Hormonachse, Herz und Psyche, siehe Anabole Steroide; substanzeigene Daten dazu gibt es nicht',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1, Metribolon); in Deutschland namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Nicht als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA; Methyltrienolon wurde nie für die Medizin vermarktet (Tauchen 2021). In der Forschung ist es seit den 1970er Jahren ein Standard-Ligand für Androgenrezeptoren. In Deutschland steht es als Metribolon, Synonym Methyltrienolon, namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben und Inverkehrbringen zum Doping sind verboten, ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2, strafbar nach § 4). WADA-Verbotsliste 2026: S1.1 (Metribolon), jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33672087/',
+    sources: [
+      { title: 'Bonne C, Raynaud JP, Steroids 1975 – Methyltrienolon als spezifischer Ligand für Androgenrezeptoren', url: 'https://pubmed.ncbi.nlm.nih.gov/171806/' },
+      { title: 'Menon M et al., J Clin Invest 1978 – Bindung von Methyltrienolon an menschliche Gewebe', url: 'https://pubmed.ncbi.nlm.nih.gov/73547/' },
+      { title: 'Takeda AN et al., Mol Pharmacol 2007 – Methyltrienolon (R1881) als Gegenspieler am Mineralokortikoidrezeptor', url: 'https://pubmed.ncbi.nlm.nih.gov/17105867/' },
+      { title: 'Trémolières J, Péquignot E, Presse Med 1965 – Eiweißaufbau beim Menschen durch das neue Steroid Methyltrienolon (französisch)', url: 'https://pubmed.ncbi.nlm.nih.gov/5831867/' },
+      { title: 'Krüskemper HL, Noell G, Steroids 1966 – Lebertoxizität des neuen Anabolikums Methyltrienolon', url: 'https://pubmed.ncbi.nlm.nih.gov/5955468/' },
+      { title: 'Halden A et al., Cancer Chemother Rep 1970 – Wirkung und Toxizität von Methyltrienolon bei fortgeschrittenem Brustkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/4946014/' },
+      { title: 'Tauchen J et al., Molecules 2021 – medizinische Verwendung von Testosteron und verwandten Steroiden, Übersicht mit Designer-Steroiden', url: 'https://pubmed.ncbi.nlm.nih.gov/33672087/' },
+      { title: 'Fisler A et al., Case Rep Nephrol Dial 2018 – Nierenschaden durch Gallenzylinder nach im Internet gekauften Steroiden, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/29928645/' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'dhb',
+    name: 'DHB (1-Testosteron, Dihydroboldenon)',
+    altNames: '1-Testosteron, 1-Testo, Dihydroboldenon, Dihydroboldenone, 1-Dihydrotestosteron, 17β-Hydroxy-5α-androst-1-en-3-on, Dihydroboldenon-Cypionat',
+    class: 'Anabol-androgenes Steroid, Abkömmling des Dihydrotestosterons mit Doppelbindung im A-Ring; nie als Arzneimittel zugelassen, früher als „Prohormon“ verkauft',
+    emoji: '💉',
+    short: 'DHB, chemisch 1-Testosteron, ist ein Androgen, das nie als Arzneimittel zugelassen war. In den 2000er Jahren wurde es als „Prohormon“ verkauft, eine Übersicht führt es heute als Designer-Steroid zum Spritzen. Im Tierversuch wirkte es so stark aufbauend wie Testosteron. Mit DHB selbst gibt es keine Humanstudie; eine kleine RCT mit einer Vorstufe, die im Körper unter anderem zu 1-Testosteron wird, zeigte mehr Muskel und Kraft, aber deutlich schlechtere Blutfette und Nierenwerte.',
+    moa: '1-Testosteron (17β-Hydroxy-5α-androst-1-en-3-on) entspricht Dihydrotestosteron mit einer Doppelbindung zwischen Kohlenstoff 1 und 2; man kann es auch als Boldenon ohne dessen zweite Doppelbindung lesen, daher der Name Dihydroboldenon. Es bindet hoch selektiv an den Androgenrezeptor und aktiviert ihn stark, auch ohne vorher verstoffwechselt zu werden. Bei Ratten regte es in gleicher molarer Dosis Prostata, Samenblasen und den Musculus levator ani so stark an wie Testosteronpropionat und ließ zusätzlich das Lebergewicht steigen (Friedel 2006). Die Vorstufe 3β-Hydroxy-5α-androst-1-en-17-on („1-Andro“) wird im Körper unter anderem zu 1-Testosteron abgebaut (Parr 2011).',
+    benefits: [
+      'Im Tierversuch so stark aufbauend wie Testosteronpropionat bei gleicher molarer Dosis, hoch selektiv am Androgenrezeptor (Friedel 2006)',
+      'Indirekter Humanbeleg über eine Vorstufe: 3β-Hydroxy-5α-androst-1-en-17-on, das im Körper unter anderem zu 1-Testosteron wird (Parr 2011), steigerte in 4 Wochen Krafttraining die fettfreie Masse um 6,3 gegenüber 0,5 % und die Maximalkraft in der Kniebeuge um 14,3 gegenüber 5,7 % (RCT, 17 trainierte Männer, Granados 2014)',
+      'Keine Studie mit DHB selbst: Für 1-Testosteron gibt es keine klinische Studie zu Wirkung oder Sicherheit; nie als Arzneimittel vermarktet (Tauchen 2021, Joseph und Parr 2015)'
+    ],
+    risks: [
+      'Blutfette (Vorstufe, RCT): HDL −38,7 %, LDL +32,8 %, Verhältnis LDL zu HDL +120 % in 4 Wochen; in der Placebogruppe keine Veränderung (Granados 2014)',
+      'Niere und Leber (Vorstufe, RCT): Kreatinin +19,6 %, geschätzte Filterleistung der Niere −18 %, AST +113,8 % (Granados 2014); im Tierversuch höheres Lebergewicht als unter Testosteronpropionat (Friedel 2006)',
+      'Klassenrisiken der Anabolika: Abschaltung der eigenen Hormonachse mit verminderter Fruchtbarkeit, Belastung von Herz und Gefäßen, psychische Effekte (Pope 2014); substanzeigene Daten fehlen',
+      'Ungeprüfte Ware: Weil es kein zugelassenes Präparat gibt, sind Gehalt und Reinheit von allem, was als DHB gehandelt wird, nicht kontrolliert',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1, 1-Testosteron); in Deutschland namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Nicht als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA; 1-Testosteron wurde nie für die Medizin vermarktet (Tauchen 2021). In den USA steht es ausdrücklich in der gesetzlichen Liste der Anabolika („1-dihydrotestosterone, a.k.a. 1-testosterone“, 21 U.S.C. § 802(41)). In Deutschland steht 1-Testosteron namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben und Inverkehrbringen zum Doping sind verboten, ebenso Erwerb und Besitz in nicht geringer Menge zum Doping im Sport (§ 2, strafbar nach § 4). WADA-Verbotsliste 2026: S1.1, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/16621347/',
+    sources: [
+      { title: 'Friedel A et al., Toxicol Lett 2006 – 1-Testosteron ist ein starkes Androgen mit aufbauender Wirkung (Zell- und Tierversuch)', url: 'https://pubmed.ncbi.nlm.nih.gov/16621347/' },
+      { title: 'Granados J et al., J Appl Physiol 2014 – RCT: Prohormon 3β-Hydroxy-5α-androst-1-en-17-on, Krafttraining, Blutfette, Leber- und Nierenwerte, 17 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/24381122/' },
+      { title: 'Parr MK et al., Steroids 2011 – beschlagnahmtes „1-Androsterone“: Abbau im Körper unter anderem zu 1-Testosteron', url: 'https://pubmed.ncbi.nlm.nih.gov/21310167/' },
+      { title: 'Joseph JF, Parr MK, Curr Neuropharmacol 2015 – synthetische Androgene als Designer-Nahrungsergänzung', url: 'https://pubmed.ncbi.nlm.nih.gov/26074745/' },
+      { title: 'Tauchen J et al., Molecules 2021 – medizinische Verwendung von Testosteron und verwandten Steroiden, Übersicht mit Designer-Steroiden', url: 'https://pubmed.ncbi.nlm.nih.gov/33672087/' },
+      { title: 'Pope HG et al., Endocr Rev 2014 – Endocrine Society: gesundheitliche Folgen leistungssteigernder Mittel', url: 'https://pubmed.ncbi.nlm.nih.gov/24423981/' },
+      { title: '21 U.S.C. § 802(41) – gesetzliche Liste der Anabolika in den USA, mit 1-Testosteron', url: 'https://www.law.cornell.edu/uscode/text/21/802' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'dapoxetin',
+    name: 'Dapoxetin (Priligy)',
+    altNames: 'Priligy, Dapoxetinhydrochlorid, SSRI bei Bedarf',
+    class: 'Kurz wirksamer selektiver Serotonin-Wiederaufnahmehemmer (SSRI), verschreibungspflichtiges Arzneimittel gegen vorzeitigen Samenerguss',
+    emoji: '💊',
+    short: 'Dapoxetin ist in Deutschland seit 2009 als Priligy gegen vorzeitigen Samenerguss zugelassen, als Tablette bei Bedarf. In fünf placebokontrollierten Phase-3-Studien mit 6.081 Männern verlängerte es die Zeit bis zum Samenerguss im Mittel auf das 2,5- bis 3-Fache, unter Placebo auf das 1,6-Fache. Typisch sind Übelkeit und Schwindel, selten kommt es zu Ohnmachten; im Alltag beenden viele Männer die Behandlung innerhalb eines Jahres.',
+    moa: 'Dapoxetin hemmt wie andere SSRI die Wiederaufnahme des Botenstoffs Serotonin in die Nervenzellen; laut Fachinformation beruht die Wirkung beim vorzeitigen Samenerguss vermutlich auf der dadurch verstärkten Serotoninwirkung an Rezeptoren vor und hinter der Synapse. Der Samenerguss wird hauptsächlich über das sympathische Nervensystem und ein Reflexzentrum im Rückenmark gesteuert, das von Kerngebieten im Gehirn beeinflusst wird. Anders als Antidepressiva dieser Gruppe wirkt Dapoxetin kurz: Die Anfangshalbwertszeit liegt bei etwa 1,5 Stunden, 24 Stunden nach Einnahme liegt die Konzentration unter 5 % des Spitzenwerts, die End-Halbwertszeit beträgt etwa 19 Stunden. Deshalb ist es für die Einnahme bei Bedarf entwickelt, nicht für die tägliche Dauertherapie.',
+    benefits: [
+      'Fünf randomisierte, doppelblinde Phase-3-Studien mit 6.081 Männern: mittlere Zeit bis zum Samenerguss nach 12 Wochen 3,1 bzw. 3,6 Minuten unter 30 bzw. 60 mg gegenüber 1,9 Minuten unter Placebo, Ausgangswert 0,9 Minuten; alle Fragebogenwerte zu Kontrolle, Zufriedenheit und Leidensdruck besser (McMahon 2011)',
+      'Zwei US-Studien mit 2.614 Männern: wirksam schon ab der ersten Einnahme (Pryor 2006)',
+      'Studie in 22 Ländern über 24 Wochen: Zeit bis zum Samenerguss von 0,9 auf 3,2 bzw. 3,5 Minuten gegenüber 1,9 Minuten unter Placebo (RCT, 1.162 Männer, Buvat 2009)',
+      'Bei gleichzeitiger Erektionsstörung unter PDE5-Hemmer: 5,2 gegenüber 3,4 Minuten, Zustand mindestens „besser“ bei 56,5 gegenüber 35,4 % (RCT, 495 Männer, McMahon 2013)',
+      'In Deutschland seit 23.04.2009 zugelassen; in einem EU-Schiedsverfahren bestätigte die EMA 2011, dass der Nutzen auch der 60-mg-Tablette die Risiken überwiegt'
+    ],
+    risks: [
+      'Ohnmacht (Synkope): in Phase-3-Studien bei 0,06 % (30 mg) bis 0,23 % (60 mg), bei gesunden Freiwilligen in Phase-1-Studien bis 0,64 %; meist vasovagal, oft mit Vorzeichen wie Übelkeit, Schwindel, Herzklopfen oder Schwitzen in den ersten 3 Stunden (Fachinformation, Kowey 2011)',
+      'Häufige Nebenwirkungen unter 30 bzw. 60 mg: Übelkeit 11,0 bzw. 22,2 %, Schwindel 5,8 bzw. 10,9 %, Kopfschmerz 5,6 bzw. 8,8 %, Durchfall 3,5 bzw. 6,9 % (Fachinformation)',
+      'Vor Beginn ist laut Fachinformation ein Orthostase-Test vorgesehen, also Blutdruck und Puls im Liegen und Stehen; nach einer orthostatischen Reaktion keine Steigerung auf 60 mg',
+      'Gegenanzeigen: Herzschwäche, Leitungsstörungen, ischämische Herzkrankheit, Herzklappenerkrankung, Ohnmacht in der Vorgeschichte, Manie oder schwere Depression, mäßige bis schwere Leberfunktionsstörung; nicht zusammen mit MAO-Hemmern, anderen SSRI, SNRI, trizyklischen Antidepressiva, Johanniskraut, Triptanen, Tramadol oder starken CYP3A4-Hemmern (Fachinformation)',
+      'Alkohol meiden, weil er Schwindel, Benommenheit und das Risiko einer Ohnmacht verstärken kann (Fachinformation)',
+      'Keine Hinweise auf Angst, Akathisie, Suizidalität oder ein Absetzsyndrom nach abruptem Absetzen in den Phase-3-Studien (McMahon 2011)'
+    ],
+    status: 'In Deutschland seit 23.04.2009 als Priligy 30 mg und 60 mg zugelassen, verschreibungspflichtig (AMVV, Anlage 1). Anwendungsgebiet: vorzeitige Ejakulation bei Männern von 18 bis 64 Jahren, die bestimmte Kriterien erfüllen, darunter eine Zeit bis zum Samenerguss unter zwei Minuten und deutlicher Leidensdruck. Zugelassene Dosierung laut Fachinformation: Beginn mit 30 mg bei Bedarf etwa 1 bis 3 Stunden vor der sexuellen Aktivität; bei unzureichender Wirkung und ohne relevante Nebenwirkungen höchstens 60 mg; nicht häufiger als einmal alle 24 Stunden, nicht zur regelmäßigen täglichen Einnahme. Nach 4 Wochen oder spätestens 6 Dosen soll der Arzt Nutzen und Risiko neu abwägen. 2011 bestätigte der Arzneimittelausschuss der EMA in einem Schiedsverfahren, dass der Nutzen beider Stärken die Risiken überwiegt; die Europäische Kommission folgte 2012.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/21059176/',
+    sources: [
+      { title: 'Fachinformation Priligy 30 mg/60 mg Filmtabletten, Stand 07/2021 – Anwendungsgebiet, Dosierung, Synkopen, Nebenwirkungen', url: 'https://www.medical-hub.berlin-chemie.de/sites/g/files/fugoka451/files/2024-04/Priligy_FI-0721.pdf' },
+      { title: 'EMA – Priligy, Schiedsverfahren nach Artikel 29(4), Gutachten 2011, Entscheidung 2012', url: 'https://www.ema.europa.eu/en/medicines/human/referrals/priligy' },
+      { title: 'McMahon CG et al., J Sex Med 2011 – gemeinsame Auswertung von fünf Phase-3-Studien mit 6.081 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/21059176/' },
+      { title: 'Pryor JL et al., Lancet 2006 – zwei randomisierte Studien mit 2.614 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/16962882/' },
+      { title: 'Buvat J et al., Eur Urol 2009 – Phase-3-Studie in 22 Ländern, 1.162 Männer, 24 Wochen', url: 'https://pubmed.ncbi.nlm.nih.gov/19195772/' },
+      { title: 'McMahon CG et al., J Sex Med 2013 – RCT bei gleichzeitiger Erektionsstörung unter PDE5-Hemmer, 495 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/23845016/' },
+      { title: 'Kowey PR et al., Drugs R D 2011 – Herz-Kreislauf-Sicherheit im Zulassungsprogramm, Synkopen', url: 'https://pubmed.ncbi.nlm.nih.gov/21410293/' },
+      { title: 'Park HJ et al., Sex Med 2017 – Abbruch der Behandlung im Alltag, 182 Patienten über 2 Jahre', url: 'https://pubmed.ncbi.nlm.nih.gov/28395997/' },
+      { title: 'Mondaini N et al., Urology 2013 – Annahme und Abbruch der Behandlung, 120 Patienten über 1 Jahr', url: 'https://pubmed.ncbi.nlm.nih.gov/23987156/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'alprostadil',
+    name: 'Alprostadil (Caverject, MUSE, Vitaros)',
+    altNames: 'Prostaglandin E1, PGE1, Caverject, Caverject Impuls, MUSE, Vitaros, SKAT (Schwellkörper-Autoinjektionstherapie)',
+    class: 'Prostaglandin E1, gefäßerweiternd; verschreibungspflichtiges Arzneimittel gegen Erektionsstörungen als Spritze in den Schwellkörper, als Stäbchen für die Harnröhre und als Creme',
+    emoji: '💉',
+    short: 'Alprostadil ist die arzneiliche Form des körpereigenen Prostaglandins E1. Gegen Erektionsstörungen ist es in Deutschland in drei Formen zugelassen: als Spritze in den Schwellkörper (Caverject), als Stäbchen für die Harnröhre (MUSE) und als Creme (Vitaros). Es setzt direkt am Schwellkörper an und gilt als Alternative, wenn Tabletten nicht wirken. Am stärksten sind die Ergebnisse für die Spritze; typisch sind Penisschmerzen, selten Dauererektionen und Vernarbungen.',
+    moa: 'Alprostadil ist chemisch identisch mit Prostaglandin E1. Es entspannt die glatte Muskulatur der Schwellkörperbälkchen und erweitert die Schwellkörperarterien; die Hohlräume füllen sich mit Blut und drücken die abführenden Venen gegen die feste Hülle des Schwellkörpers, so dass das Blut gestaut wird (Fachinformation Caverject). Nach einer Spritze setzt die Erektion meist nach 5 bis 15 Minuten ein, ihre Dauer hängt von der Dosis ab. Damit setzt Alprostadil direkt an der Gefäßmuskulatur an und nicht wie PDE5-Hemmer am Abbau des Botenstoffs cGMP.',
+    benefits: [
+      'Spritze in den Schwellkörper: in einer Dosis-Wirkungs-Studie mit 296 Männern jede geprüfte Dosis besser als Placebo; im 6-monatigen Selbstinjektionsteil mit 683 Männern sexuelle Aktivität nach 94 % der Injektionen möglich, von Männern und Partnerinnen nach 87 bzw. 86 % als befriedigend bewertet (Linet und Ogrinc 1996)',
+      'Langzeit-Selbstinjektion, 848 Männer: Dosis für zu Hause bei 93 % gefunden, bei 86 % höchstens 20 Mikrogramm; 88 % der Injektionen führten zu befriedigender sexueller Aktivität (European Alprostadil Study Group 1998)',
+      'Stäbchen in die Harnröhre (MUSE), 1.511 Männer mit organisch bedingter Erektionsstörung: Erektion für Geschlechtsverkehr in der Praxis bei 65,9 %; zu Hause mindestens einmal erfolgreicher Verkehr bei 64,9 % gegenüber 18,6 % unter Placebo (RCT, Padma-Nathan 1997)',
+      'Creme (Vitaros), 1.732 Männer: Erektionsfunktions-Score nach 12 Wochen +1,6 bis +2,5 Punkte gegenüber −0,7 unter Placebo (zwei RCTs, Padma-Nathan und Yeager 2006)',
+      'Meta-Analyse zu Creme und Harnröhrenform, 11 RCTs und 4 weitere Studien mit 5.869 Patienten: Creme +4,7 Punkte im Erektionsfunktions-Score gegenüber Placebo; Studienqualität laut Autoren niedrig (Papadopoulos 2025)',
+      'In Deutschland zugelassen: Caverject seit 1997, MUSE seit 1999, Vitaros seit 2016, jeweils verschreibungspflichtig (Fachinformationen)'
+    ],
+    risks: [
+      'Spritze: Penisschmerzen bei 30 % der Patienten mindestens einmal, nach 11 % der Injektionen; Penisfibrose mit Verkrümmung oder Knötchen bei 3 %, in längeren Studien etwa 8 %; Erektion von 4 bis 6 Stunden bei 4 %, Priapismus über 6 Stunden bei 0,4 % (Fachinformation Caverject)',
+      'Priapismus ist ein Notfall: Die Behandlung muss innerhalb von höchstens 6 Stunden beginnen (Fachinformation Caverject)',
+      'In den Studien zur Spritze: lange Erektionen bei 5 %, Priapismus bei 1 %, Fibrose bei 2 %, Bluterguss bei 8 % der Männer (Linet und Ogrinc 1996); über 6 Monate Fibrose bei 4 %, Priapismus bei 0,9 % (European Alprostadil Study Group 1998)',
+      'Harnröhrenform: leichte Penisschmerzen nach 10,8 % der Anwendungen, Blutdruckabfall in der Praxis bei 3,3 %; kein Priapismus und keine Fibrose in der Studie (Padma-Nathan 1997)',
+      'Creme: Nebenwirkungen meist an der Auftragsstelle, nach spätestens 2 Stunden abgeklungen (Padma-Nathan und Yeager 2006); häufigste Nebenwirkungen in der Meta-Analyse Penisschmerz und Rötung (Papadopoulos 2025)'
+    ],
+    status: 'In Deutschland gegen Erektionsstörungen zugelassen und verschreibungspflichtig (AMVV, Anlage 1): Caverject zur Injektion in den Schwellkörper seit 30.07.1997, MUSE zur Anwendung in der Harnröhre seit 22.02.1999, Vitaros-Creme mit 300 Mikrogramm seit 09.03.2016. Zugelassene Anwendung laut Fachinformation: Caverject wird in der Arztpraxis individuell auf die niedrigste wirksame Dosis eingestellt; die meisten Patienten sprechen auf 5 bis 20 Mikrogramm an, höchstens 40 Mikrogramm, höchstens einmal täglich und nicht häufiger als dreimal pro Woche. MUSE: höchstens 2 Anwendungen in 24 Stunden und 7 in 7 Tagen. Vitaros: höchstens 2- bis 3-mal pro Woche und einmal in 24 Stunden.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/8596569/',
+    sources: [
+      { title: 'Linet OI, Ogrinc FG, N Engl J Med 1996 – Spritze in den Schwellkörper: drei Studien mit 296, 201 und 683 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/8596569/' },
+      { title: 'European Alprostadil Study Group, Br J Urol 1998 – Langzeitsicherheit der Selbstinjektion, 848 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/9806184/' },
+      { title: 'Padma-Nathan H et al., N Engl J Med 1997 – Alprostadil über die Harnröhre (MUSE), RCT mit 1.511 Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/8970933/' },
+      { title: 'Padma-Nathan H, Yeager JL, Urology 2006 – Alprostadil-Creme, gemeinsame Auswertung zweier RCTs mit 1.732 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/16904458/' },
+      { title: 'Papadopoulos I et al., Andrology 2025 – Meta-Analyse zu Creme und Harnröhrenform, 5.869 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/40105058/' },
+      { title: 'Lundberg L et al., Scand J Urol Nephrol 1996 – Langzeiterfahrung mit der Selbstinjektion, Fragebogen bei 42 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/8936629/' },
+      { title: 'Fachinformation Caverject 10 µg/20 µg, Stand 11/2023 – Dosierung, Wirkweise, Priapismus, Fibrose', url: 'https://www.fachinfo.de/fi/pdf/001775/caverject-r-10-mg-20-mg' },
+      { title: 'Fachinformation MUSE 250/500/1000 µg, Stand 01/2026 – Anwendungsgebiet und Höchstanwendung', url: 'https://www.fachinfo.de/fi/pdf/004784/muse-r-250-500-1000-mg' },
+      { title: 'Fachinformation Vitaros 300 Mikrogramm/100 mg Creme, Stand 05/2022 – Anwendungsgebiet und Anwendungshäufigkeit', url: 'https://www.fachinfo.de/fi/pdf/024321' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'salbutamol',
+    name: 'Salbutamol',
+    altNames: 'Albuterol, Sultanol, Salbutamolsulfat, Beta-2-Agonist, Asthmaspray',
+    class: 'Kurz wirksamer Beta-2-Agonist, verschreibungspflichtiges Asthma-Medikament; im Sport nur inhaliert bis zu einer Höchstmenge erlaubt',
+    emoji: '🫁',
+    short: 'Salbutamol ist ein Bedarfsmittel bei Asthma: Als Spray erweitert es binnen Minuten die Bronchien. Wie Clenbuterol ist es ein Beta-2-Agonist, und Studienautoren berichten von zunehmendem Missbrauch durch junge Männer im Krafttraining. Randomisierte Studien zeigen: Hoch dosierte Tabletten steigern beim Training Muskelmasse und Sprintleistung, bremsen aber die Ausdauer-Anpassung; auf die Ausdauerleistung wirken Beta-2-Agonisten nicht, und ein Beleg für Fettabbau beim Menschen fehlt.',
+    moa: 'Salbutamol aktiviert Beta-2-Adrenozeptoren. In den Bronchien entspannt sich dadurch die glatte Muskulatur, darauf beruht die Wirkung bei Asthma, chronischer Bronchitis und Lungenemphysem (Fachinformation). Dieselben Rezeptoren sitzen im Skelettmuskel, im Herzen und im Fettgewebe: Im Krafttraining verschob Salbutamol die Muskelfasern in Richtung schneller Typ-IIa-Fasern und ließ diese stärker wachsen (Jessen 2021); kurzfristig steigt der Ruheumsatz (Liu 2015), und der Kaliumspiegel im Blut kann sinken (Fachinformation). Die Halbwertszeit liegt nach Infusion bei etwa 6 Stunden (Fachinformation); Clenbuterol wirkt deutlich länger.',
+    benefits: [
+      'Asthma: in Deutschland verschreibungspflichtig zugelassen zur Vorbeugung und Behandlung von Atemwegsverengungen bei Asthma, chronischer Bronchitis und Lungenemphysem; als Spray mit 100 Mikrogramm pro Sprühstoß (Fachinformation Sultanol)',
+      'Warum es im Kraftsport genutzt wird: Studienautoren berichten von zunehmendem Missbrauch von Beta-2-Agonisten durch junge Männer im Krafttraining, um schlanker zu werden (Hostrup 2026)',
+      'Muskelmasse: Salbutamol-Tabletten in einer Dosis deutlich über der Therapie brachten in 11 Wochen Krafttraining 1,8 kg mehr fettfreie Masse als Placebo (RCT, 30 trainierte Männer, Hostrup 2026)',
+      'Sprint: mittlere Leistung im 10-Sekunden-Sprint +12 gegenüber +7 % unter Placebo, schnelle Muskelfasern (Typ IIa) wuchsen um 35 gegenüber 21 %; die Kraft stieg in beiden Gruppen gleich (RCT, 26 Männer, 11 Wochen, Jessen 2021)',
+      'Meta-Analyse über 34 RCTs: Beta-2-Agonisten verbessern Kraft und Sprint bei Gesunden um etwa 5 %, deutlicher als Tablette und in verbotenen Dosen als inhaliert in erlaubten Dosen (Riiser 2020)',
+      'Stoffwechsel: Ruheumsatz kurzfristig erhöht (Liu 2015); einen Beleg für Fettabbau beim Menschen gibt es bisher nicht'
+    ],
+    risks: [
+      'Ausdauer: kein Effekt auf Ausdauerleistung, Zeitfahren oder maximale Sauerstoffaufnahme, unabhängig von Wirkstoff, Dosis und Darreichung (Meta-Analyse über 47 RCTs, Riiser 2021); inhaliert kein Leistungsgewinn im 10-km-Zeitfahren bei Radfahrern mit und ohne Belastungsasthma (RCT, 49 Athleten, Koch 2015)',
+      'Herz und Muskel bei hoher Dosis: im Ultraschall dickere Herzwände; die Ausdauer verbesserte sich nicht, unter Placebo um 7 %; Kapillardichte und oxidative Enzyme im Muskel nahmen ab; im Kardio-MRT keine Unterschiede (Hostrup 2026)',
+      'Laut Fachinformation häufig Zittern, Kopfschmerz und Herzrasen; sehr selten Herzrhythmusstörungen einschließlich Vorhofflimmern; niedriges Kalium möglich, verstärkt durch Theophyllin, Kortison, Entwässerungsmittel oder Digitalis',
+      'Eine deutliche Überschreitung der Einzel- oder Tagesdosis kann wegen der Wirkung auf das Herz gefährlich sein; Vorsicht bei schweren Herzerkrankungen, Herzrasen, unbehandeltem Bluthochdruck, Schilddrüsenüberfunktion und schwer einstellbarem Diabetes (Fachinformation)',
+      'Sport: Die Anwendung kann laut Fachinformation in Dopingkontrollen zu positiven Ergebnissen führen'
+    ],
+    status: 'In Deutschland als Arzneimittel zugelassen und verschreibungspflichtig (AMVV, Anlage 1), etwa als Sultanol Dosier-Aerosol. Anwendungsgebiet: Vorbeugung und Behandlung von Atemwegserkrankungen mit Verengung der Bronchien wie Asthma, chronische Bronchitis und Lungenemphysem; ein Sprühstoß enthält 100 Mikrogramm, die Dosierung richtet sich nach Art und Schwere der Erkrankung. Für Muskelaufbau oder Fettabbau ist Salbutamol nicht zugelassen. WADA-Verbotsliste 2026: S3, alle Beta-2-Agonisten jederzeit verboten; Ausnahme ist inhaliertes Salbutamol bis höchstens 1.600 Mikrogramm in 24 Stunden, aufgeteilt auf Einzeldosen von nicht mehr als 600 Mikrogramm in 8 Stunden; ein Urinwert über 1.000 ng/ml gilt als positiver Befund, sofern keine kontrollierte pharmakokinetische Studie das Gegenteil zeigt. Salbutamol steht nicht in der Anlage des Anti-Doping-Gesetzes, der Besitz ist also nicht nach § 2 Abs. 3 verboten; Herstellen, Handel, Abgabe und Verschreibung zum Doping im Sport sind dagegen nach § 2 Abs. 1 verboten, weil der Stoff auf der internationalen Verbotsliste steht.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32747344/',
+    sources: [
+      { title: 'Fachinformation Sultanol Dosier-Aerosol, Stand 11/2025 – Anwendungsgebiete, Nebenwirkungen, Hinweis auf Dopingkontrollen', url: 'https://www.fachinfo.de/fi/pdf/001150/sultanol-dosier-aerosol' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S3 Beta-2-Agonisten, Ausnahme inhaliertes Salbutamol)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Riiser A et al., Br J Sports Med 2020 – Meta-Analyse: Beta-2-Agonisten und Kraft, Sprint und Schnellkraft, 34 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/32747344/' },
+      { title: 'Riiser A et al., Br J Sports Med 2021 – Meta-Analyse: Beta-2-Agonisten und Ausdauerleistung, 47 RCTs', url: 'https://pubmed.ncbi.nlm.nih.gov/32816795/' },
+      { title: 'Hostrup M et al., Scand J Med Sci Sports 2026 – RCT: hoch dosiertes Salbutamol im Krafttraining, fettfreie Masse, Herz und Muskel, 30 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/42274909/' },
+      { title: 'Jessen S et al., J Appl Physiol 2021 – RCT: Salbutamol im Krafttraining, Fasertypen und Sprintleistung, 26 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/33357007/' },
+      { title: 'Koch S et al., Br J Sports Med 2015 – RCT: inhaliertes Salbutamol und Zeitfahrleistung bei 49 Radfahrern', url: 'https://pubmed.ncbi.nlm.nih.gov/24100289/' },
+      { title: 'Liu AG et al., Obesity 2015 – Koffein und Albuterol: Ruheumsatz beim Menschen, Körperzusammensetzung bei Ratten', url: 'https://pubmed.ncbi.nlm.nih.gov/26239482/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Verschreibungspflicht', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2 – unerlaubter Umgang mit Dopingmitteln', url: 'https://www.gesetze-im-internet.de/antidopg/__2.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'ibogain',
+    name: 'Ibogain',
+    altNames: 'Ibogaine, Iboga, Tabernanthe iboga, Noribogain, Magnesium-Ibogain, MISTIC',
+    class: 'Indolalkaloid aus der Wurzelrinde des Iboga-Strauchs aus dem westlichen Zentralafrika, psychoaktiv; nirgends in EU oder USA als Arzneimittel zugelassen, in den USA Schedule I',
+    emoji: '🌿',
+    short: 'Pflanzlicher Wirkstoff, nach dessen einmaliger Gabe Menschen mit Opioidabhängigkeit in Beobachtungsstudien deutlich weniger Entzug und über Monate weniger Konsum berichteten. In einer Stanford-Studie von 2024 besserten sich bei 30 Veteranen mit Hirnverletzung Alltagsfunktion, PTBS, Depression und Angst stark. Kontrollierte Wirksamkeitsstudien fehlen bisher, und das Herzrisiko über eine verlängerte QT-Zeit ist gut belegt.',
+    moa: 'Ibogain wirkt an mehreren Botenstoffsystemen gleichzeitig und wird in der Leber über das Enzym CYP2D6 zu Noribogain abgebaut, das ebenfalls wirksam ist und lange im Blut bleibt. Wie wenig oder viel Ibogain im Blut ankommt, hängt stark von der CYP2D6-Ausstattung ab: In einer niederländischen Studie stieg die Ausscheidung je Aktivitätspunkt des Enzyms um 30,7 Liter pro Stunde (Knuijver 2024). Die Verlängerung der QT-Zeit im EKG und die Gangunsicherheit hingen dort mit dem Ibogain-Spiegel zusammen, nicht mit Noribogain. Die gleichzeitige Gabe von Magnesium soll das Rhythmusrisiko senken; das ist eine Annahme der Stanford-Gruppe, kein Vergleichsbefund. Welcher Teil der Wirkung den Entzug dämpft und welcher die anhaltenden Effekte trägt, ist am Menschen nicht geklärt.',
+    benefits: [
+      'Opioid-Entzug: Bei 30 Menschen mit Opioidabhängigkeit, die zuvor im Mittel 3,1 Behandlungen hinter sich hatten, sank der Entzugsscore etwa 3 Tage nach der Gabe von 31,0 auf 14,0 Punkte; nach einem Monat hatten 15 von 30 seit 30 Tagen keine Opioide genommen (Beobachtungsstudie, Brown und Alper 2018)',
+      'Anhaltende Wirkung: Bei 14 Menschen in Neuseeland, wo Ibogain auf Rezept erhältlich ist, waren Drogenkonsum-Score und Depressionswerte nach 12 Monaten signifikant niedriger als vorher (Beobachtungsstudie, Noller 2018)',
+      'Veteranen mit Hirnverletzung: Bei 30 ehemaligen Spezialkräften besserten sich Alltagsfunktion, PTBS, Depression und Angst einen Monat nach Magnesium-Ibogain mit großen Effekten (d = 2,20 bis 2,80), ohne unerwartete oder schwere Nebenwirkungen (Stanford, Cherian 2024, Nature Medicine, ohne Kontrollgruppe)',
+      'Wirkung schon nach einer einzigen begleiteten Sitzung, nicht erst nach wochenlanger Einnahme',
+      'Texas hat 2025 per Gesetz ein Programm geschaffen, mit staatlichen Mitteln und gleich hohen privaten Mitteln Zulassungsstudien für Opioidabhängigkeit und weitere Erkrankungen zu finanzieren (SB 2308)'
+    ],
+    risks: [
+      'Herz: Bei 14 Patienten unter ärztlicher Aufsicht verlängerte sich die QT-Zeit im Mittel um 95 Millisekunden, die Hälfte lag zeitweise über 500 Millisekunden, bei 6 von 14 hielt die Verlängerung über 24 Stunden an; keine gefährliche Rhythmusstörung, aber klinisch relevant (Knuijver 2022)',
+      'Todesfälle: 19 Todesfälle zwischen 1990 und 2008 standen zeitlich mit Ibogain in Verbindung, meist bei Vorerkrankungen des Herzens oder gleichzeitigem Drogenkonsum (Alper 2012); in der neuseeländischen Studie starb ein Teilnehmer während der Behandlung',
+      'Starke, vorübergehende Gangunsicherheit bei allen 14 Patienten der niederländischen Studie, Gehen nur mit Hilfe',
+      'Der Abbau über CYP2D6 schwankt stark von Mensch zu Mensch; die Autoren der niederländischen Studie empfehlen, niedrigere oder nach CYP2D6-Typ angepasste Mengen zu prüfen (Knuijver 2024)',
+      'Studienlage: eine systematische Übersicht von 2025 fand zu Psychedelika bei Opioidabhängigkeit überwiegend schwache Studiendesigns mit hohem Verzerrungsrisiko, kaum verblindete oder placebokontrollierte Studien (Weleff 2025)',
+      'Weitere Risikofaktoren laut der Auswertung der Todesfälle: Krampfanfälle beim gleichzeitigen Entzug von Alkohol oder Benzodiazepinen und die Einnahme ungeprüfter Pflanzenzubereitungen (Alper 2012)'
+    ],
+    status: 'Deutschland: Ibogain steht weder in den Anlagen des Betäubungsmittelgesetzes noch in Anlage 1 der Arzneimittelverschreibungsverordnung (Abfrage 07.10.2026); ein zugelassenes Arzneimittel gibt es nicht, weder in Deutschland noch in der EU. USA: Betäubungsmittel der Schedule I, nicht von der FDA zugelassen. Texas: Das 2025 verabschiedete Gesetz SB 2308 regelt ein Konsortium aus Pharmaunternehmen, Hochschule und Krankenhaus, das FDA-Zulassungsstudien für Opioidabhängigkeit und weitere Erkrankungen durchführen soll; staatliche Mittel fließen nur, wenn gleich hohe Mittel aus nicht staatlichen Quellen vorliegen. Neuseeland: auf ärztliches Rezept erhältlich.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38182784/',
+    sources: [
+      { title: 'Cherian KN et al., Nature Medicine 2024 – Magnesium-Ibogain bei 30 Veteranen mit Hirnverletzung (Stanford, MISTIC)', url: 'https://pubmed.ncbi.nlm.nih.gov/38182784/' },
+      { title: 'Brown TK, Alper K, Am J Drug Alcohol Abuse 2018 – Ibogain bei Opioidabhängigkeit, Entzug und Konsum über 12 Monate, 30 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/28541119/' },
+      { title: 'Noller GE et al., Am J Drug Alcohol Abuse 2018 – Ibogain bei Opioidabhängigkeit in Neuseeland, 12-Monats-Beobachtung, 14 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/28402682/' },
+      { title: 'Knuijver T et al., Addiction 2022 – Sicherheit von Ibogain beim Opioidentzug: QT-Zeit, Gangunsicherheit, 14 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/33620733/' },
+      { title: 'Knuijver T et al., J Psychopharmacol 2024 – Pharmakokinetik von Ibogain und Noribogain, Einfluss von CYP2D6', url: 'https://pubmed.ncbi.nlm.nih.gov/38519421/' },
+      { title: 'Alper KR et al., J Forensic Sci 2012 – 19 Todesfälle im zeitlichen Zusammenhang mit Ibogain, 1990 bis 2008', url: 'https://pubmed.ncbi.nlm.nih.gov/22268458/' },
+      { title: 'Weleff J et al., Psychiatry Res 2025 – systematische Übersicht zu Psychedelika bei Opioidabhängigkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/40147088/' },
+      { title: 'Walker J et al., J Psychoactive Drugs 2026 – Interviews mit 10 Anwendern von Ibogain zum Opioidentzug in Neuseeland', url: 'https://pubmed.ncbi.nlm.nih.gov/42171381/' },
+      { title: 'Texas Senate Research Center, Analyse zu SB 2308 (verabschiedete Fassung, 2025) – Ibogain-Konsortium für FDA-Zulassungsstudien, Ibogain in den USA Schedule I', url: 'https://capitol.texas.gov/tlodocs/89R/analysis/html/SB02308F.htm' },
+      { title: 'Betäubungsmittelgesetz, Anlage I (Ibogain nicht gelistet, Abfrage 07.10.2026)', url: 'https://www.gesetze-im-internet.de/btmg_1981/anlage_i.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'mdma-therapie',
+    name: 'MDMA-gestützte Psychotherapie',
+    altNames: 'MDMA, Midomafetamin, MDMA-AT, MDMA-assisted therapy, Methylendioxymethamfetamin, Ecstasy, MAPP1, MAPP2',
+    class: 'Amphetaminabkömmling mit entaktogener Wirkung, in Studien als Begleitung einer Psychotherapie bei PTBS; Betäubungsmittel nach Anlage I BtMG',
+    emoji: '🧠',
+    short: 'In zwei Phase-3-Studien sanken PTBS-Symptome mit MDMA plus Psychotherapie deutlich stärker als mit derselben Therapie und Placebo. Die FDA lehnte die Zulassung im August 2024 trotzdem ab, weil Verblindung, Dauer der Wirkung und Erfassung der Nebenwirkungen nicht überzeugten. Australien erlaubt die Verschreibung durch eigens zugelassene Psychiater seit Juli 2023; in Deutschland ist MDMA nicht verkehrsfähig.',
+    moa: 'MDMA ist ein Abkömmling des Amphetamins und wirkt einige Stunden lang spürbar: Vertrauen, Offenheit und ein Gefühl von Nähe nehmen zu. In der Therapie soll das helfen, belastende Erinnerungen zu bearbeiten, ohne von Angst überwältigt zu werden. Am Menschen ist ein Teil davon gemessen: In einer placebokontrollierten Crossover-Studie mit 30 gesunden Männern lernten die Teilnehmenden unter MDMA schneller, eine konditionierte Angstreaktion abzulegen, und behielten das am nächsten Tag; das Oxytocin im Blut stieg im Mittel auf das Vierfache, hing aber nicht mit dem Lerneffekt zusammen (Vizeli 2022). Ob dieser Weg die Besserung bei PTBS erklärt, ist nicht gezeigt. Gegeben wird MDMA in den Studien in drei begleiteten Sitzungen, eingebettet in vor- und nachbereitende Gespräche.',
+    benefits: [
+      'MAPP1, 90 Menschen mit schwerer PTBS: Bei denen, die die Behandlung abschlossen, sank die PTBS-Skala um 24,4 Punkte mit MDMA gegenüber 13,9 Punkten mit Therapie und Placebo (d = 0,91); auch die Alltagsbeeinträchtigung besserte sich (Mitchell 2021, Nature Medicine)',
+      'MAPP2, 104 Menschen mit mittelschwerer bis schwerer PTBS: minus 23,7 gegenüber minus 14,8 Punkten (d = 0,7), Bewertung durch verblindete unabhängige Gutachter (Mitchell 2023, Nature Medicine)',
+      'Die Studien schlossen Menschen mit Dissoziation, Depression, früherem Alkohol- oder Drogenproblem und Kindheitstrauma ein, also eine schwer belastete Gruppe',
+      'Meta-Analyse 2026 über 9 randomisierte Studien mit 298 Teilnehmenden: deutlich weniger PTBS-Symptome (SMD −1,19) und weniger Dissoziation, bei sehr niedriger Vertrauenswürdigkeit der Evidenz (Fares-Otero 2026)',
+      'In Australien seit Juli 2023 durch eigens zugelassene Psychiater bei PTBS verschreibbar (TGA)'
+    ],
+    risks: [
+      'FDA-Ablehnung (Brief vom 08.08.2024): Positive oder angenehme Effekte wurden nicht als Ereignisse erfasst, an mindestens zwei Studienzentren fanden Inspektoren nicht gemeldete Nebenwirkungen, und die Wirkung war nur bis Woche 18 belegt, 8 Wochen nach der letzten Sitzung',
+      'Rund 40 Prozent der Teilnehmenden hatten schon vor der Studie MDMA genommen, deutlich mehr als in der Bevölkerung; das erschwert die Verblindung (FDA)',
+      'Expertengremium der FDA im Juni 2024: 9 zu 2 Stimmen, dass die Daten keine Wirksamkeit zeigen, 10 zu 1, dass der Nutzen die Risiken nicht überwiegt; genannt wurden Entblindung, Erwartungseffekte, fehlende EKG- und Labordaten, Natriummangel im Blut und Grenzverletzungen in der Therapie',
+      'In MAPP2 hatten 5 von 53 Teilnehmenden (9,4 Prozent) unter MDMA eine schwere Nebenwirkung, unter Placebo 2 von 51 (3,9 Prozent); keine Todesfälle',
+      'Die Meta-Analyse von 2026 fand für Depressionssymptome keinen klaren Vorteil und bei den meisten Studien ein hohes Verzerrungsrisiko bei der Messung',
+      'Im Sport innerhalb des Wettkampfs verboten (WADA-Liste 2026, S6 Stimulanzien)'
+    ],
+    status: 'Deutschland: MDMA steht in Anlage I des Betäubungsmittelgesetzes (nicht verkehrsfähig, nicht verschreibbar). EU: kein zugelassenes Arzneimittel. USA: Zulassungsantrag für Midomafetamin bei PTBS am 08.08.2024 abgelehnt (Complete Response Letter), die FDA empfahl eine neue randomisierte, doppelblinde Studie mit verblindeter Langzeitbeobachtung; laut MAPS hat das Nachfolgeunternehmen Resilient Pharmaceuticals (früher Lykos Therapeutics) im August 2026 erneut eingereicht, ohne neue Phase-3-Studie, eine Entscheidung ist nicht bekannt (Stand 07.10.2026). Australien: seit 01.07.2023 Verschreibung durch von der TGA zugelassene Psychiater bei PTBS, ohne zugelassenes Fertigarzneimittel. Sport: innerhalb des Wettkampfs verboten (WADA 2026, S6).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/37709999/',
+    sources: [
+      { title: 'Mitchell JM et al., Nature Medicine 2021 – MAPP1, MDMA-gestützte Therapie bei schwerer PTBS, Phase 3, 90 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/33972795/' },
+      { title: 'Mitchell JM et al., Nature Medicine 2023 – MAPP2, MDMA-gestützte Therapie bei mittelschwerer bis schwerer PTBS, Phase 3, 104 Teilnehmende', url: 'https://pubmed.ncbi.nlm.nih.gov/37709999/' },
+      { title: 'Fares-Otero NE et al., Eur Neuropsychopharmacol 2026 – systematische Übersicht und Meta-Analyse zu MDMA-gestützter Therapie bei PTBS', url: 'https://pubmed.ncbi.nlm.nih.gov/41825162/' },
+      { title: 'Vizeli P et al., Front Pharmacol 2022 – MDMA und das Verlernen konditionierter Angst, Crossover-Studie mit 30 Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/35910354/' },
+      { title: 'FDA, Psychopharmacologic Drugs Advisory Committee, Protokoll der Sitzung vom 04.06.2024 zu Midomafetamin (NDA 215455)', url: 'https://www.fda.gov/media/180463/download' },
+      { title: 'FDA, Complete Response Letter zu NDA 215455 Midomafetamin vom 08.08.2024 (veröffentlicht über openFDA)', url: 'https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf' },
+      { title: 'MAPS, Stellungnahme vom 10.08.2026 zur erneuten Einreichung bei der FDA', url: 'https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/' },
+      { title: 'TGA (Australien), Änderung der Einstufung von Psilocybin und MDMA zur Verschreibung durch zugelassene Psychiater ab 01.07.2023', url: 'https://www.tga.gov.au/news/media-releases/change-classification-psilocybin-and-mdma-enable-prescribing-authorised-psychiatrists' },
+      { title: 'Betäubungsmittelgesetz, Anlage I – Methylendioxymetamfetamin (MDMA)', url: 'https://www.gesetze-im-internet.de/btmg_1981/anlage_i.html' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S6 Stimulanzien, MDMA im Wettkampf verboten', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
   }
 
 ];
@@ -6968,6 +8218,21 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'salbutamol': 'Stoffwechsel',
+  'dhb': 'Exercise',
+  'methyltrienolon': 'Exercise',
+  'methylstenbolon': 'Exercise',
+  'fluoxymesteron': 'Exercise',
+  'colchicin': 'Immun',
+  'statine': 'Stoffwechsel',
+  '17-alpha-estradiol': 'Longevity',
+  'low-dose-naltrexon': 'Immun',
+  'fettweg-spritzen': 'Stoffwechsel',
+  'sobetirom': 'Stoffwechsel',
+  'ecnoglutid': 'Stoffwechsel',
+  'pemvidutid': 'Stoffwechsel',
+  'vk2735': 'Stoffwechsel',
+  'petrelintid': 'Stoffwechsel',
   'orlistat': 'Stoffwechsel',
   'trestolon': 'Exercise',
   'mesterolon': 'Exercise',

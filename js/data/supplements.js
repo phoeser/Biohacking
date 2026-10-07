@@ -4310,6 +4310,500 @@ const SUPPLEMENTS = [
     evidence: 'niedrig',
     sources: 'Entsteht im Dickdarm bei der Vergärung von Ballaststoffen; Buttersäure kommt außerdem in Butter vor',
     link: 'https://pubmed.ncbi.nlm.nih.gov/22738315/'
+  },
+  {
+    id: 'baldrian',
+    name: 'Baldrian (Baldrianwurzel)',
+    altNames: 'Valeriana officinalis, Baldrianwurzel, Valerianae radix, Valerian, Valerensäure',
+    category: 'Kräuter',
+    tags: ['schlaf', 'entspannung', 'stress', 'angst', 'nerven'],
+    short: 'Eines der ältesten pflanzlichen Schlafmittel Europas und behördlich als Arzneipflanze anerkannt: Für ethanolische Trockenextrakte sieht der EU-Kräuterausschuss HMPC die Wirkung bei leichter nervöser Anspannung und Schlafstörungen als durch Studien gestützt an. In Meta-Analysen berichten Anwender häufiger besseren Schlaf als unter Placebo. Bei der Einschlafzeit und im Schlaflabor zeigt sich das nicht.',
+    description: 'Baldrian wird aus der Wurzel des Echten Baldrians gewonnen und ist als Tee, Tinktur, Saft und als Trockenextrakt in Tabletten im Handel. Der Ausschuss für pflanzliche Arzneimittel der EMA (HMPC) stuft ethanolische Trockenextrakte seit 2016 als „well-established use“ ein, also mit Studien belegt, für leichte nervöse Anspannung und Schlafstörungen; Tee, Saft und Tinkturen gelten als traditionelle Anwendung. Die Studienlage ist uneinheitlich: Zwei Meta-Analysen fanden häufiger eine subjektive Besserung als unter Placebo (RR 1,8 bzw. 1,37), aber keinen Unterschied bei der Einschlafzeit; die größte Einzelstudie mit 405 Teilnehmern verfehlte ihr Hauptziel knapp. Als Wirkweg gilt Valerensäure, die im Labor an GABA-A-Rezeptoren bindet. Laut HMPC wirkt Baldrian schrittweise über zwei bis vier Wochen und ist nicht für die akute Einnahme gedacht.',
+    benefits: [
+      'Behördlich anerkannt: Die HMPC-Monographie (2016) stuft ethanolische Trockenextrakte als „well-established use“ für leichte nervöse Anspannung und Schlafstörungen ein; die Studien zeigten bessere Schlafqualität und kürzere Einschlafzeit bei der empfohlenen Dosis (EMA/HMPC)',
+      'Meta-Analyse aus 16 placebokontrollierten Studien mit 1.093 Patienten: Besserung der Schlafqualität 1,8-mal so häufig wie unter Placebo (RR 1,8), bei Hinweisen auf Publikationsbias (Bent 2006)',
+      'Meta-Analyse aus 18 randomisierten Studien: subjektive Besserung der Insomnie häufiger als unter Placebo (RR 1,37), ohne Publikationsbias (Fernández-San-Martín 2010)',
+      'Übersicht über 60 Studien mit 6.894 Teilnehmern: in Meta-Analysen bessere subjektive Schlafqualität (10 Studien) und weniger Angst (8 Studien); schwankende Extraktqualität als mögliche Ursache uneinheitlicher Ergebnisse; keine schweren Nebenwirkungen zwischen 7 und 80 Jahren (Shinjyo 2020)',
+      'Valerensäure und Valerenol binden im Labor an GABA-A-Rezeptoren mit beta3-Untereinheit und wirkten bei Mäusen angstlösend (Benke 2009)'
+    ],
+    risks: [
+      'Objektiv kein Effekt: Die Einschlafzeit unterschied sich in der Meta-Analyse um 0,70 Minuten von Placebo, die auf Skalen gemessene Schlafqualität gar nicht (Fernández-San-Martín 2010)',
+      'Größte Einzelstudie (405 Teilnehmer, Norwegen, 2 Wochen): spürbar besserer Schlaf bei 29 gegenüber 21 Prozent, Hauptziel knapp verfehlt (p = 0,08) (Oxman 2007)',
+      'Die Amerikanische Akademie für Schlafmedizin rät von Baldrian gegen Insomnie ab (schwache Empfehlung, Sateia 2017); die Europäische Insomnie-Leitlinie 2023 empfiehlt Phytotherapeutika nicht (Riemann 2023)',
+      'Übelkeit und Bauchkrämpfe möglich (HMPC); nicht für Kinder unter 12 Jahren, nicht in Schwangerschaft und Stillzeit; kann die Fahrtüchtigkeit beeinflussen (EMA/HMPC)',
+      'Zubereitungen schwanken stark in Auszugsmittel und Gehalt; Studienergebnisse gelten nur für die jeweils geprüften Extrakte (Shinjyo 2020)'
+    ],
+    dosage: 'Für Arzneimittel mit ethanolischem Trockenextrakt nennt die HMPC-Monographie 400 bis 600 mg Trockenextrakt als Einzeldosis, bei Schlafstörungen eine halbe bis eine Stunde vor dem Schlafengehen, höchstens vier Einzeldosen am Tag. Maßgeblich ist die Packungsbeilage des jeweiligen Präparats. Eine amtliche Höchstmenge für Nahrungsergänzungsmittel wurde bei der Recherche nicht gefunden. Das ist eine behördliche Angabe, keine Empfehlung.',
+    intake: 'Laut HMPC baut sich die Wirkung über zwei bis vier Wochen auf; für die akute Einnahme in einer einzelnen schlechten Nacht ist Baldrian nicht gedacht. Wenn die Beschwerden nach zwei Wochen anhalten oder schlimmer werden, ärztlich oder in der Apotheke abklären. Wer andere dämpfende Mittel nimmt, schwanger ist oder stillt, klärt das vorher ab.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Wurzel des Echten Baldrians (Valeriana officinalis); im Handel als Tee, Saft, Tinktur und als Trockenextrakt in Tabletten und Dragees',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/17145239/'
+  },
+  {
+    id: 'lavendeloel',
+    name: 'Lavendelöl oral (Silexan)',
+    altNames: 'Lasea, Silexan, Lavandula angustifolia, Lavendelöl-Kapseln, Linalool',
+    category: 'Kräuter',
+    tags: ['angst', 'stress', 'schlaf', 'entspannung', 'stimmung'],
+    short: 'Ein Arzneiöl aus Lavendelblüten in Kapselform, in Deutschland seit 2009 als Lasea gegen Unruhe bei ängstlicher Verstimmung zugelassen. In fünf placebokontrollierten Studien mit über 1.200 Teilnehmern sank die Angst stärker als unter Placebo, bei generalisierter Angststörung mindestens so stark wie unter Paroxetin, ohne müde zu machen. Die großen Studien entstanden mit Beteiligung des Herstellers.',
+    description: 'Silexan ist ein definiertes ätherisches Öl aus den Blüten des Echten Lavendels, Hauptbestandteil ist Linalool. Als Lasea (80 mg) ist es in Deutschland seit 26.06.2009 zugelassen, apothekenpflichtig, für Unruhezustände bei ängstlicher Verstimmung. Eine Meta-Analyse aller fünf Placebo-Studien mit 1.213 Teilnehmern fand eine stärkere Abnahme der Angst und 1,34-mal so viele Responder. Bei generalisierter Angststörung schnitten 80 und 160 mg in einer Studie mit 539 Patienten besser ab als Placebo, Paroxetin nur im Trend. Der Schlaf besserte sich in einer Studie mit 221 Angstpatienten mit, ohne sedierende Wirkung. Der europäische Kräuterausschuss HMPC hielt die Studien 2012 noch für zu klein und führt Lavendelöl nur als traditionelles Arzneimittel; die große Studie von 2014 und die Meta-Analyse von 2023 kamen danach.',
+    benefits: [
+      'Meta-Analyse aller 5 doppelblinden Placebo-Studien (1.213 Teilnehmer, 80 mg täglich, 10 Wochen): stärkerer Rückgang auf der Hamilton-Angstskala, 1,34-mal so viele Responder und 1,51-mal so viele deutlich Gebesserte; Nebenwirkungen und Abbrüche wie unter Placebo (Dold 2023)',
+      'Generalisierte Angststörung, 539 Patienten, 10 Wochen: Hamilton-Angstwert minus 14,1 (160 mg) und minus 12,8 Punkte (80 mg) gegenüber minus 11,3 unter Paroxetin und minus 9,5 unter Placebo; beide Silexan-Dosen signifikant besser als Placebo, Paroxetin nur im Trend (Kasper 2014)',
+      'Subsyndromale Angst mit Schlafproblemen, 221 Patienten: Ansprechen bei 76,9 gegenüber 49,1 Prozent, der Schlafindex PSQI sank um 44,7 gegenüber 30,9 Prozent, ohne sedierende Wirkung (Kasper 2010)',
+      'Generalisierte Angst im Vergleich mit Lorazepam (6 Wochen): Rückgang der Angstwerte um 45 gegenüber 46 Prozent, also ähnlich stark (Woelk 2010)',
+      'Netzwerk-Meta-Analyse über 100 Studien zu Angstmedikamenten: Silexan wirksam und so gut akzeptiert wie Placebo, mit weniger Nebenwirkungen als Placebo (Müller 2026)',
+      'Keine klinisch relevanten Wechselwirkungen über CYP1A2, 2C9, 2C19, 2D6 und 3A4 und keine Abschwächung der Pille; im Fahrtest kein oder ein zu vernachlässigender Einfluss (Fachinformation Lasea)',
+      'PET-Studie: Nach mindestens 8 Wochen Silexan war bei 17 gesunden Männern die Bindung am Serotonin-1A-Rezeptor in angstrelevanten Hirnregionen verringert (Baldinger 2014)'
+    ],
+    risks: [
+      'Häufig Aufstoßen, außerdem andere Magen-Darm-Beschwerden und allergische Hautreaktionen; schwere Überempfindlichkeitsreaktionen wurden berichtet (Fachinformation Lasea)',
+      'Nicht bei Leberfunktionsstörung, nicht unter 18 Jahren; in Schwangerschaft und Stillzeit nicht empfohlen (Fachinformation Lasea)',
+      'Studien über 3 Monate hinaus fehlen; die zugelassene Behandlungsdauer ist auf 3 Monate begrenzt (Fachinformation Lasea)',
+      'Die großen Studien und die Meta-Analyse entstanden mit Mitarbeitern des Herstellers Dr. Willmar Schwabe als Koautoren (Kasper 2014, Dold 2023); unabhängige Replikationen sind rar',
+      'Der Kräuterausschuss HMPC hielt die Patientenzahlen 2012 für zu klein, um eine Wirkung zu belegen, und führt Lavendelöl nur als traditionelles Arzneimittel (EMA/HMPC)',
+      'Schlaf wurde in den Studien nur bei Menschen mit Angst gemessen; die Ergebnisse gelten für Silexan, nicht für Lavendelöl zum Inhalieren oder andere Öle'
+    ],
+    dosage: 'Lasea ist ein zugelassenes Arzneimittel: laut Fachinformation eine Weichkapsel mit 80 mg Lavendelöl einmal täglich für Erwachsene, Behandlungsdauer höchstens 3 Monate. In der Studie zur generalisierten Angststörung wurden zusätzlich 160 mg täglich geprüft (Kasper 2014). Eine amtliche Höchstmenge für Lavendelöl in Nahrungsergänzungsmitteln wurde bei der Recherche nicht gefunden. Das sind Zulassungs- und Studienangaben, keine Empfehlung.',
+    intake: 'Laut Fachinformation unzerkaut mit Wasser und nicht im Liegen einnehmen. Wenn sich die Beschwerden nach einem Monat nicht bessern oder schlimmer werden, ärztlich abklären. Bei Lebererkrankungen, in Schwangerschaft und Stillzeit nicht anwenden.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Ätherisches Öl aus den Blüten des Echten Lavendels (Lavandula angustifolia), durch Wasserdampfdestillation gewonnen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/36717399/'
+  },
+  {
+    id: 'l-carnitin',
+    name: 'L-Carnitin',
+    altNames: 'Levocarnitin, L-Carnitin-L-Tartrat, L-Carnitin-Fumarat, L-Carnitin-Base, Carnitin',
+    category: 'Aminosäure',
+    tags: ['sport', 'fettverbrennung', 'regeneration', 'energie', 'herz'],
+    short: 'Körpereigener Transporter, der Fettsäuren in die Mitochondrien bringt. In Studien gab es etwas weniger Muskelkater nach Belastung und im Mittel gut ein Kilogramm weniger Körpergewicht. Offen ist, was das Darmprodukt TMAO bedeutet, das unter Carnitin deutlich ansteigt.',
+    description: 'L-Carnitin ist eine körpereigene Verbindung, die langkettige Fettsäuren in die Mitochondrien schleust; über die Nahrung kommt es vor allem aus rotem Fleisch. Angeboten wird es als Base, als L-Carnitin-L-Tartrat oder als Fumarat. Eine Meta-Analyse über 37 randomisierte Studien mit 2.292 Teilnehmern fand im Mittel 1,21 kg weniger Körpergewicht, eine über 7 Studien weniger Muskelkater bis 96 Stunden nach Belastung. Der Carnitingehalt im Muskel stieg in einer 24-Wochen-Studie zusammen mit Kohlenhydraten um 21 Prozent. Darmbakterien bauen zugeführtes Carnitin über Gamma-Butyrobetain zu TMAO ab; bei älteren Frauen stieg TMAO unter Carnitin um das Zehnfache, Atherosklerose-Marker blieben unverändert.',
+    benefits: [
+      'Weniger Muskelkater nach Belastung: Meta-Analyse über 7 randomisierte Studien, Vorteil zu allen Messzeitpunkten bis 96 Stunden; die Muskelschadensmarker CK, Myoglobin und LDH lagen nach 24 Stunden niedriger, danach nicht mehr (Yarizadh 2020)',
+      'Körpergewicht: 37 randomisierte Studien mit 2.292 Teilnehmern, im Mittel −1,21 kg Körpergewicht und −2,08 kg Fettmasse; Taillenumfang und Körperfettanteil unverändert (Talenezhad 2020)',
+      'Mehr Carnitin im Muskel ist möglich: 2 g L-Carnitin-L-Tartrat zweimal täglich mit je 80 g Kohlenhydraten hoben bei 14 Männern nach 24 Wochen den Muskelcarnitingehalt um 21 Prozent, die Arbeitsleistung im Test stieg um 11 Prozent gegenüber dem Ausgangswert (Wall 2011)',
+      'Nach Herzinfarkt: Meta-Analyse über 13 kontrollierte Studien mit 3.629 Patienten, Gesamtsterblichkeit −27 Prozent, ventrikuläre Rhythmusstörungen −65 Prozent, Angina −40 Prozent; die Autoren fordern große Studien unter heutiger Therapie (DiNicolantonio 2013)',
+      'In den USA als Arzneimittel (Levocarnitin) zugelassen bei primärem Carnitinmangel, bei angeborenen Stoffwechselstörungen mit sekundärem Carnitinmangel und bei Dialysepatienten (FDA-Fachinformation)'
+    ],
+    risks: [
+      'TMAO: Bei 72 Fleischessern und Vegetariern bildeten Darmbakterien aus Carnitin über Gamma-Butyrobetain TMAO, bei Fleischessern mehr als 20-mal so viel; regelmäßige Carnitin-Einnahme regte diesen Weg selbst an (Koeth 2019)',
+      'Bei gesunden älteren Frauen stieg TMAO unter 24 Wochen Carnitin um das Zehnfache, Entzündungs- und Atherosklerose-Marker sowie Blutfette blieben unverändert (Samulak 2019); Studien mit harten Endpunkten fehlen',
+      'Im Mausversuch beschleunigte Carnitin über die Darmflora die Atherosklerose; beim Menschen sagten hohe Carnitinspiegel Herzereignisse nur bei gleichzeitig hohem TMAO voraus, eine Beobachtung an 2.595 Patienten (Koeth 2013)',
+      'Magen-Darm-Beschwerden wie Übelkeit, Krämpfe und Durchfall, Körpergeruch; Krampfanfälle bei Menschen mit und ohne Anfallsleiden beschrieben (FDA-Fachinformation)',
+      'Die EFSA prüfte 2011 Angaben zu schnellerer Erholung, Muskelreparatur und Ausdauer; in der EU-Liste zugelassener gesundheitsbezogener Angaben steht L-Carnitin nicht'
+    ],
+    dosage: 'Keine Empfehlung. In Studien verwendet: 2 g L-Carnitin-L-Tartrat zweimal täglich zusammen mit je 80 g Kohlenhydraten über 24 Wochen (Wall 2011); in der Gewichts-Meta-Analyse lag der größte Effekt bei 2.000 mg pro Tag (Talenezhad 2020). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer ein Anfallsleiden hat, sollte Carnitin ärztlich besprechen, weil die US-Fachinformation Krampfanfälle unter Levocarnitin beschreibt.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Vor allem rotes Fleisch; der Körper bildet Carnitin zudem selbst, mit Gamma-Butyrobetain als letzter Vorstufe',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32359762/'
+  },
+  {
+    id: 'niacin',
+    name: 'Niacin (Vitamin B3)',
+    altNames: 'Vitamin B3, Nicotinsäure, Nicotinamid, Nicotinsäureamid, Niacinamid, Inosithexanicotinat',
+    category: 'Vitamin',
+    tags: ['cholesterin', 'herz', 'energie', 'haut', 'nad'],
+    short: 'Vitamin B3 in zwei Formen mit sehr verschiedenem Profil: Nicotinsäure senkt Blutfette und löst den typischen Flush aus, für Nicotinamid liegt die Obergrenze rund 90-mal höher. Zusätzlich zu Statinen verhinderte Nicotinsäure in zwei großen Studien keine Herzereignisse; Nicotinamid senkte in einer Phase-3-Studie neue helle Hautkrebse.',
+    description: 'Niacin ist der Sammelbegriff für Nicotinsäure und Nicotinamid; beide sind Vorstufen von NAD+, und der Körper bildet Niacin zusätzlich aus Tryptophan. Nicotinsäure war jahrzehntelang ein Blutfettsenker: Im Coronary Drug Project lag die Sterblichkeit 15 Jahre nach Beginn 11 Prozent niedriger als unter Placebo. Zusätzlich zu Statinen brachten AIM-HIGH (3.414 Patienten) und HPS2-THRIVE (25.673 Patienten) keinen Vorteil, HPS2-THRIVE zeigte mehr schwere Nebenwirkungen; die EU setzte 2013 die Zulassung von Nicotinsäure mit Laropiprant aus. Nicotinamid senkte in der ONTRAC-Studie neue helle Hautkrebse um 23 Prozent. Das BfR empfiehlt in Nahrungsergänzungsmitteln höchstens 4 mg Nicotinsäure und 160 mg Nicotinamid pro Tagesdosis.',
+    benefits: [
+      'Verbessert Blutfettwerte: In AIM-HIGH stieg HDL nach 2 Jahren von 35 auf 42 mg/dl, Triglyzeride sanken von 164 auf 122 mg/dl, LDL von 74 auf 62 mg/dl (retardierte Nicotinsäure als Arzneimittel)',
+      'Senkt Lipoprotein(a): Meta-Analyse über 14 placebokontrollierte Studien mit 9.013 Teilnehmern, im Mittel −22,9 Prozent (Sahebkar 2016)',
+      'Vor der Statin-Zeit: Im Coronary Drug Project mit 8.341 Männern nach Herzinfarkt weniger erneute nicht tödliche Infarkte; rund 9 Jahre nach Studienende lag die Gesamtsterblichkeit 11 Prozent niedriger als unter Placebo, 52,0 gegenüber 58,2 Prozent (Canner 1986)',
+      'Nicotinamid und Hautkrebs: 386 Menschen mit mindestens zwei hellen Hautkrebsen, 500 mg zweimal täglich über 12 Monate, 23 Prozent weniger neue Basalzell- und Plattenepithelkarzinome und weniger aktinische Keratosen; nach dem Absetzen kein Effekt mehr (Chen 2015, ONTRAC)',
+      'Von der EU zugelassene Angaben, unter anderem zu Energiestoffwechsel, Nervensystem, psychischer Funktion, Haut und Schleimhäuten sowie zur Verringerung von Müdigkeit (Verordnung (EU) Nr. 432/2012)'
+    ],
+    risks: [
+      'Zusätzlich zu Statinen kein Schutz: AIM-HIGH mit 3.414 Patienten wurde nach 3 Jahren wegen fehlender Wirksamkeit beendet (16,4 gegenüber 16,2 Prozent Ereignisse), HPS2-THRIVE mit 25.673 Patienten blieb ohne Vorteil (13,2 gegenüber 13,7 Prozent)',
+      'HPS2-THRIVE: mehr schwere Entgleisungen eines Diabetes (+3,7 Prozentpunkte), mehr neue Diabetesdiagnosen (+1,3), mehr schwere Infektionen (+1,4) und Blutungen (+0,7) sowie mehr schwere Magen-Darm-, Muskel- und Hautprobleme',
+      'Leber: Retardierte Nicotinsäure führte in einer randomisierten Studie bei 12 von 23 Patienten zu Leberschäden, die schnell freisetzende Form bei keinem (McKenney 1994)',
+      'Flush, also Hitzegefühl und Hautrötung, bei Nicotinsäure; er ist die Grundlage der EU-Obergrenze von 10 mg Nicotinsäure pro Tag (SCF 2002, laut BfR)',
+      'Zulassung von Nicotinsäure mit Laropiprant (Tredaptive, Pelzont, Trevaclyn) 2013 EU-weit ausgesetzt, weil der Nutzen die Risiken nicht mehr überwog (EMA)',
+      'Beobachtungsdaten: Hohe Blutspiegel der Abbauprodukte 2PY und 4PY gingen mit mehr Herz-Kreislauf-Ereignissen einher (Hazard Ratio 1,64 bis 2,02); in Mäusen förderte 4PY Gefäßentzündung (Ferrell 2024), ursächlich am Menschen nicht belegt',
+      'Schwangerschaft: Das BfR empfiehlt bei Produkten mit mehr als 16 mg Nicotinamid pro Tagesdosis einen Hinweis, dass Schwangere sie nicht einnehmen sollten'
+    ],
+    dosage: 'Keine Empfehlung. Das BfR empfiehlt für Nahrungsergänzungsmittel Höchstmengen von 160 mg Nicotinamid und 4 mg Nicotinsäure pro Tagesverzehrempfehlung. Der frühere Wissenschaftliche Lebensmittelausschuss der EU (SCF 2002) leitete als tolerierbare Obergrenze für Erwachsene 900 mg Nicotinamid und 10 mg Nicotinsäure pro Tag ab. Die Zufuhrempfehlung liegt für Erwachsene bei 11 bis 16 mg Niacin-Äquivalenten pro Tag (D-A-CH, EFSA). In Studien verwendet: 1.500 bis 2.000 mg retardierte Nicotinsäure täglich als Arzneimittel (AIM-HIGH), 500 mg Nicotinamid zweimal täglich (ONTRAC). Das sind Referenzwerte und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Nicotinsäure in Arzneimittelmengen gehört in ärztliche Hände, weil in den Studien Leber und Blutzucker betroffen waren.',
+    synergies: [],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Breit in der Ernährung enthalten; Erwachsene in Deutschland nehmen laut Nationaler Verzehrsstudie II im Median 24,7 bis 39,9 mg Niacin-Äquivalente pro Tag auf. Der Körper bildet Niacin zudem aus Tryptophan, 60 mg Tryptophan ergeben 1 mg Niacin-Äquivalent.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/25014686/'
+  },
+  {
+    id: 'mangan',
+    name: 'Mangan',
+    altNames: 'Mn, Manganese',
+    category: 'Mineral',
+    tags: ['knochen', 'bindegewebe', 'antioxidans', 'energie'],
+    short: 'Essenzielles Spurenelement und Baustein von Enzymen wie der Superoxiddismutase in den Mitochondrien. Die normale Ernährung liefert in Deutschland im Mittel etwa die empfohlene Menge, ein Mangel ist beim Menschen kaum beschrieben. Zu viel Mangan wirkt auf das Nervensystem, deshalb sind die Höchstmengen für Präparate niedrig.',
+    description: 'Mangan ist Bestandteil mehrerer Enzyme, darunter Arginase, Pyruvatcarboxylase und die manganabhängige Superoxiddismutase. Es steckt vor allem in Nüssen, Teeblättern, Hülsenfrüchten, Vollkorngetreide und einigen Früchten; eine Tasse Tee enthält 300 bis 1.000 Mikrogramm. Die EFSA nennt als angemessene Zufuhr für Erwachsene 3 mg pro Tag, die mittlere Zufuhr in Deutschland liegt bei 2,7 bis 3,0 mg. Bei sieben jungen Männern führte eine fast manganfreie Kost über 39 Tage zu einer flüchtigen Hautveränderung und gesunkenem Cholesterin. Eine Obergrenze konnte die EFSA 2023 nicht ableiten, sie legte eine sichere Aufnahmemenge von 8 mg pro Tag fest; das BfR empfiehlt in Nahrungsergänzungsmitteln höchstens 0,5 mg pro Tagesdosis.',
+    benefits: [
+      'Essenziell: Bestandteil von Arginase, Pyruvatcarboxylase und der manganabhängigen Superoxiddismutase (EFSA 2023)',
+      'Von der EU zugelassene Angaben: Mangan trägt zu einem normalen Energiestoffwechsel, zur Erhaltung normaler Knochen, zu einer normalen Bindegewebsbildung und zum Schutz der Zellen vor oxidativem Stress bei (Verordnung (EU) Nr. 432/2012)',
+      'Knochen: In einer zweijährigen placebokontrollierten Studie mit 59 älteren Frauen nach den Wechseljahren blieb die Knochendichte der Wirbelsäule unter Calcium plus Zink, Mangan und Kupfer stabil (+1,48 Prozent), unter Placebo sank sie um 3,53 Prozent; Mangan wurde dabei nicht allein getestet (Strause 1994)',
+      'Mangelversuch: Bei 7 jungen Männern führte eine Kost mit 0,11 mg Mangan pro Tag über 39 Tage bei 5 von ihnen zu einer flüchtigen Hautveränderung (Miliaria crystallina) und zu niedrigerem Cholesterin; den Mindestbedarf schätzten die Autoren auf 0,74 bis 2,11 mg pro Tag (Friedman 1987)',
+      'Versorgung in Deutschland: mediane Zufuhr 2,7 bis 3,0 mg pro Tag, bei Vegetariern 3,0 bis 3,3 mg (BfR)'
+    ],
+    risks: [
+      'Nervengift bei Überschuss: Manganismus, ein Parkinson-ähnliches Krankheitsbild, ist vor allem nach Einatmen im Bergbau und beim Schweißen bekannt; als Einzelfall beschrieben ist eine Person mit rund 26 mg Mangan täglich aus etwa 3 Litern Schwarztee über mehr als 10 Jahre (EFSA 2023)',
+      'Bei 23 Menschen, die selbst hergestelltes Methcathinon mit Mangan-Rückständen spritzten, entstand eine bleibende Gangstörung mit Manganablagerungen im Gehirn (Stepens 2008); das ist kein Nahrungsweg, zeigt aber die Empfindlichkeit des Nervensystems',
+      'Die EFSA konnte 2023 aus Human- und Tierdaten keine Dosis-Wirkungs-Beziehung für die Nervenschäden ableiten und legte statt einer Obergrenze eine sichere Aufnahmemenge von 8 mg pro Tag für Erwachsene fest',
+      'Das BfR rät von der Anreicherung normaler Lebensmittel mit Mangan ab und hält in Nahrungsergänzungsmitteln höchstens 0,5 mg pro Tagesdosis für vertretbar; damit bleibt laut BfR kein Spielraum für ein zweites manganhaltiges Präparat',
+      'Manganablagerungen im Gehirn sind bei langer künstlicher Ernährung über die Vene und bei Leber- und Gallenwegsschwäche im MRT beschrieben (EFSA 2023)'
+    ],
+    dosage: 'Keine Empfehlung. Das BfR empfiehlt für Nahrungsergänzungsmittel eine Höchstmenge von 0,5 mg Mangan pro Tagesverzehrempfehlung und rät von der Anreicherung sonstiger Lebensmittel ab. Die EFSA nennt als angemessene Zufuhr für Erwachsene 3 mg pro Tag (2013) und als sichere Gesamtaufnahme 8 mg pro Tag (2023). Das sind amtliche Referenzwerte, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer mehrere Mineralstoffpräparate kombiniert, sollte die Manganmengen zusammenrechnen, weil die BfR-Höchstmenge für ein einziges Produkt gedacht ist.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Nüsse, Teeblätter, Hülsenfrüchte, Vollkorngetreide und einige Früchte wie Ananas, Bananen und Beeren; Milchprodukte, Fleisch, Fisch und Eier enthalten wenig',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38075631/'
+  },
+  {
+    id: 'molybdaen',
+    name: 'Molybdän',
+    altNames: 'Mo, Molybdat, Molybdenum',
+    category: 'Mineral',
+    tags: ['stoffwechsel', 'entgiftung'],
+    short: 'Spurenelement, das als Molybdän-Cofaktor in wenigen, aber lebenswichtigen Enzymen sitzt, vor allem in der Sulfitoxidase. Ein Mangel ist beim Menschen praktisch nur unter langer künstlicher Ernährung beschrieben, und die normale Kost liefert in Deutschland nach den vorliegenden Daten mehr als die angemessene Zufuhr.',
+    description: 'Molybdän wird im Körper in den Molybdän-Cofaktor eingebaut, ohne den unter anderem die Sulfitoxidase nicht arbeitet; sie macht das Sulfit unschädlich, das beim Abbau schwefelhaltiger Aminosäuren entsteht. Wie wichtig das ist, zeigt eine seltene Erbkrankheit, der Molybdän-Cofaktor-Mangel Typ A, bei dem sich Sulfit im Gehirn anreichert; dafür ist seit 2022 das Arzneimittel Fosdenopterin in der EU zugelassen. Aus der Nahrung werden 88 bis 93 Prozent aufgenommen, Überschuss scheidet die Niere rasch aus. Die EFSA nennt als angemessene Zufuhr 65 µg pro Tag, eine kleine deutsche Erhebung fand 89 bis 100 µg. Das BfR empfiehlt in Nahrungsergänzungsmitteln höchstens 80 µg pro Tagesdosis.',
+    benefits: [
+      'Essenziell über den Molybdän-Cofaktor: Ohne ihn fehlen Enzyme wie die Sulfitoxidase, und giftiges Sulfit reichert sich im Gehirn an (EMA zu Nulibry)',
+      'Von der EU zugelassene Angabe: Molybdän trägt zu einer normalen Verstoffwechslung schwefelhaltiger Aminosäuren bei (Verordnung (EU) Nr. 432/2012)',
+      'Sehr gute Aufnahme: In Isotopenstudien mit jungen Männern wurden 88 bis 93 Prozent aufgenommen, Überschuss wurde über den Urin ausgeschieden (Turnlund 1995)',
+      'Unter langer künstlicher Ernährung über die Vene ist eine Unverträglichkeit von Aminosäuren beschrieben, die sich unter Molybdat zurückbildete (Abumrad 1981)',
+      'Bei 4 Männern mit nur 22 µg pro Tag über 102 Tage traten keine Mangelzeichen auf; den Mindestbedarf schätzten die Autoren auf etwa 25 µg pro Tag (Turnlund 1995)'
+    ],
+    risks: [
+      'Ein Nutzen zusätzlichen Molybdäns bei normaler Ernährung ist in keiner kontrollierten Studie untersucht',
+      'Tolerierbare Obergrenze 600 µg pro Tag für Erwachsene und 500 µg für 15- bis 17-Jährige (SCF 2000, laut BfR)',
+      'Kontrolliert geprüft wurden 22 bis 1.490 µg pro Tag über je 24 Tage, ohne Nebenwirkungen, aber nur bei 4 Männern (Turnlund 1995)',
+      'Einzelfallbericht: Ein Mann Ende dreißig entwickelte nach 18 Tagen mit 300 bis 800 µg Molybdän täglich aus einem Präparat eine akute Psychose mit Krampfanfällen (Momcilović 1999); ein Einzelfall belegt keinen ursächlichen Zusammenhang',
+      'Beim Molybdän-Cofaktor-Mangel Typ A hilft Molybdän selbst nicht, weil die Vorstufe cPMP fehlt; zugelassen ist dafür das verschreibungspflichtige Fosdenopterin als Infusion (EMA)'
+    ],
+    dosage: 'Keine Empfehlung. Das BfR empfiehlt für Nahrungsergänzungsmittel eine Höchstmenge von 80 µg Molybdän pro Tagesverzehrempfehlung. Die EFSA nennt als angemessene Zufuhr für Erwachsene 65 µg pro Tag, der frühere Wissenschaftliche Lebensmittelausschuss der EU (SCF 2000) als tolerierbare Obergrenze 600 µg pro Tag. Das sind amtliche Referenzwerte, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Nach den vorliegenden Daten liefert die normale Ernährung in Deutschland mehr als die angemessene Zufuhr.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Über die normale Ernährung; eine kleine deutsche Erhebung von 1996 fand bei gemischter Kost im Mittel 89 µg pro Tag bei Frauen und 100 µg bei Männern (laut BfR)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/7733035/'
+  },
+  {
+    id: 'ochsengalle',
+    name: 'Ochsengalle',
+    altNames: 'Rindergalle, Ox Bile, Fel tauri, Gallensalze, konjugierte Gallensäuren',
+    category: 'Enzym',
+    tags: ['verdauung', 'leber', 'darm'],
+    short: 'Getrockneter Extrakt aus Rindergalle, ein Gemisch natürlicher konjugierter Gallensäuren, verkauft als Hilfe bei der Fettverdauung, oft nach Entfernung der Gallenblase. Dass zugeführte Gallensäuren die Fettaufnahme steigern können, ist bei einzelnen Kurzdarm-Patienten gezeigt; nach einer Gallenblasen-OP ist es nicht untersucht.',
+    description: 'Gallensäuren aus der Leber machen Nahrungsfett im Dünndarm verdaulich. Ochsengalle-Extrakt liefert ein Gemisch natürlicher konjugierter Gallensäuren. Bei Patienten mit Kurzdarmsyndrom, denen Gallensäuren fehlen, stieg in Bilanzstudien mit einzelnen Patienten die Fettaufnahme um rund 40 g pro Tag, teils um den Preis von mehr Durchfall. Nach einer Entfernung der Gallenblase fließt die Galle weiter in den Darm, ein Teil der Operierten bekommt eher Durchfall durch zu viele Gallensäuren im Dickdarm. Studien zu Ochsengalle nach Gallenblasenentfernung gibt es nicht. Als Arzneimittel zugelassen ist in der EU reine Cholsäure (Orphacol) für seltene angeborene Störungen der Gallensäurebildung.',
+    benefits: [
+      'Kurzdarmsyndrom mit Stoma: Bei einer stark abgemagerten Patientin steigerten Gallensäuren aus Ochsengalle die Fettaufnahme um etwa 40 g pro Tag, auch die Calciumaufnahme stieg; in 4 Monaten nahm sie von 80 auf 98 Pfund zu, ohne Nebenwirkungen (Gruy-Kapral 1999)',
+      'Kurzdarmsyndrom mit erhaltenem Dickdarm: Natürliche konjugierte Gallensäuren senkten bei einem Patienten die Fettausscheidung im Stuhl von 119 auf 79 g pro Tag, über 3 Monate normalisierte sich die Oxalatausscheidung im Urin und das Gewicht stieg (Emmett 2003)',
+      'Das Prinzip ist als Arzneimittel anerkannt: Cholsäure (Orphacol) ist in der EU seit 2013 bei angeborenen Störungen der Gallensäurebildung zugelassen (EMA)',
+      'Die Rolle der Gallensäuren bei der Fettverdauung ist physiologisch gut verstanden'
+    ],
+    risks: [
+      'Keine Studie zu Ochsengalle nach Gallenblasenentfernung oder bei Gesunden, auch keine kontrollierte Studie bei anderen Erkrankungen',
+      'Mehr Durchfall: Bei 2 Kurzdarm-Patienten mit erhaltenem Dickdarm verringerten natürliche Gallensäuren den Fettverlust weniger als das synthetische Cholylsarcosin und verstärkten den Durchfall deutlich (Kapral 2004)',
+      'Nach Gallenblasenentfernung entsteht Durchfall häufig durch zu viele Gallensäuren im Dickdarm (Huang 2023); in einer Nachbefragung von 3.385 Operierten in China betraf er 14,2 Prozent (Mao 2025). Ob zusätzliche Gallensäuren das verstärken, ist nicht untersucht',
+      'Sicherheitsdaten stammen nur aus Einzelfallstudien über wenige Monate bei Kurzdarm-Patienten',
+      'Selbst die zugelassene Cholsäure darf nur unter Aufsicht eines Leberspezialisten begonnen werden (EMA)',
+      'Gesundheitsbezogene Angaben zur Fettverdauung sind für Ochsengalle in der EU nicht zugelassen (Verordnung (EU) Nr. 432/2012)'
+    ],
+    dosage: 'Keine Empfehlung. In Studien verwendet: 2 g natürliche konjugierte Gallensäuren aus Ochsengalle pro Mahlzeit bei einer Kurzdarm-Patientin (Gruy-Kapral 1999) und 9 g pro Tag bei einem Kurzdarm-Patienten (Emmett 2003). Das sind Angaben aus Einzelfallstudien, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer nach einer Gallenblasenentfernung Verdauungsbeschwerden hat, sollte die Ursache ärztlich klären lassen, weil Durchfall dort häufig durch zu viele Gallensäuren entsteht.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Getrocknete Galle von Rindern; die Leber bildet Gallensäuren selbst',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/9869597/'
+  },
+  {
+    id: 'loewenzahnwurzel',
+    name: 'Löwenzahnwurzel',
+    altNames: 'Taraxacum officinale, Taraxaci radix, Löwenzahnwurzel mit Kraut, Dandelion Root',
+    category: 'Kräuter',
+    tags: ['verdauung', 'leber', 'appetit', 'fluessigkeit'],
+    short: 'Bitterstoffreiche Wurzel des Löwenzahns, in Europa seit langem bei Völlegefühl, Blähungen, Appetitlosigkeit und zur Durchspülung der Harnwege verwendet. Die EU erkennt Löwenzahnwurzel mit Kraut als traditionelles pflanzliches Arzneimittel an, allein auf Grundlage langer Anwendung; klinische Studien dazu gibt es nicht.',
+    description: 'Löwenzahn (Taraxacum officinale) gehört zu den Korbblütlern. Die Wurzel enthält Bitterstoffe aus der Gruppe der Sesquiterpenlactone und je nach Erntezeit 2 Prozent (Frühjahr) bis 40 Prozent (Herbst) Inulin. Der Ausschuss für pflanzliche Arzneimittel der EMA (HMPC) erkennt Löwenzahnwurzel mit Kraut als traditionelles pflanzliches Arzneimittel bei leichten Verdauungsbeschwerden, vorübergehender Appetitlosigkeit und zur Erhöhung der Harnmenge an; in Deutschland sind entsprechende Präparate seit 1976 im Handel. Klinische Studien fand der Ausschuss weder 2009 noch bei der Überprüfung 2019. Am Menschen gibt es zwei kleine Messungen zur Harnmenge: ein Anstieg mit einem Blattextrakt, kein signifikanter Effekt mit Wurzelpulver.',
+    benefits: [
+      'Traditionelles pflanzliches Arzneimittel nach EU-Monographie (HMPC 2009): bei leichten Verdauungsbeschwerden wie Völlegefühl, Blähungen und träger Verdauung, bei vorübergehender Appetitlosigkeit und zur Erhöhung der Harnmenge bei leichten Harnwegsbeschwerden',
+      'Lange dokumentierte Anwendung: Präparate aus Löwenzahnwurzel mit Kraut sind in Deutschland seit 1976 im Handel; ernste Nebenwirkungen sind in der Dokumentation der traditionellen Anwendung in der EU nicht berichtet (HMPC 2009)',
+      'Harnmenge: Bei 17 Freiwilligen stieg nach einem frischen Blattextrakt die Häufigkeit des Wasserlassens in den 5 Stunden nach der ersten Gabe und das Verhältnis von Urin zu Trinkmenge nach der zweiten Gabe (Clare 2009, Pilotstudie ohne Placebogruppe)',
+      'Bitterstoffe regen nach Einschätzung des HMPC die Verdauungssäfte an; im Tierversuch stieg der Gallenfluss',
+      'Enthält Inulin, je nach Erntezeit 2 bis 40 Prozent der Wurzel (HMPC 2009)'
+    ],
+    risks: [
+      'Keine klinischen Studien zur Wurzel mit Kraut: Das HMPC fand 2009 keine und bei der Überprüfung 2019 auch keine neuen; eine Anerkennung als Arzneimittel mit belegter Wirksamkeit war deshalb nicht möglich',
+      'Wurzelpulver ohne messbare harntreibende Wirkung: In einer offenen Crossover-Studie mit 14 aktiven jungen Erwachsenen änderten rund 2,1 g Wurzelpulver mit 1 Liter Wasser die Urinmenge über 4 Stunden nicht signifikant (1.268 gegenüber 1.164 g; Gavin 2026)',
+      'Gegenanzeigen laut Monographie: Allergie gegen Korbblütler, Verschluss oder Entzündung der Gallenwege, Lebererkrankungen, Gallensteine, aktives Magengeschwür und andere Erkrankungen der Gallenwege',
+      'Bei Nierenschwäche, Diabetes oder Herzschwäche soll Löwenzahn wegen eines möglichen Kaliumüberschusses gemieden werden (HMPC)',
+      'Magenschmerzen, Übersäuerung und allergische Reaktionen möglich, Häufigkeit unbekannt; für Schwangerschaft, Stillzeit und Kinder unter 12 Jahren fehlen Daten',
+      'Untersuchungen zu Erbgutschäden, Fortpflanzung und Krebsrisiko fehlen (HMPC)'
+    ],
+    dosage: 'Keine Empfehlung. Für registrierte traditionelle pflanzliche Arzneimittel gelten die Angaben der jeweiligen Packungsbeilage. In der Studie zur Harnmenge wurden einmalig rund 2,1 g Wurzelpulver eingenommen (Gavin 2026). Das ist eine Studienangabe, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Bei Gallensteinen, Gallenwegs- und Lebererkrankungen nennt die EU-Monographie Gegenanzeigen, bei Nierenschwäche, Diabetes und Herzschwäche einen Warnhinweis.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Wurzel, oft zusammen mit dem Kraut, des Gemeinen Löwenzahns; als Tee, Extrakt oder Presssaft',
+    link: 'https://www.ema.europa.eu/en/medicines/herbal/taraxaci-radix-cum-herba'
+  },
+  {
+    id: 'aktivkohle',
+    name: 'Aktivkohle',
+    altNames: 'Medizinische Kohle, Carbo medicinalis, Activated charcoal',
+    category: 'Mineral',
+    tags: ['darm', 'verdauung', 'entgiftung', 'arzneimittel'],
+    short: 'Hochporöser Kohlenstoff, der im Darm gelöste Stoffe bindet. Als medizinische Kohle in Deutschland zugelassen gegen akuten Durchfall und zur Giftbindung bei Vergiftungen, dazu eine EU-Gesundheitsangabe gegen Blähungen nach dem Essen. Für die tägliche Einnahme als „Detox“ bei Gesunden fehlen Studien, und die Kohle bindet auch Medikamente.',
+    description: 'Aktivkohle ist Kohlenstoff mit einer porösen, sehr großen inneren Oberfläche, an der gelöste Teilchen, Bakterien, Bakteriengifte und andere Giftstoffe haften bleiben. Wie stark sie Wirkstoffe im Darm abfängt, ist am Menschen gut gemessen: In einer Meta-Analyse von 64 kontrollierten Studien an Freiwilligen sank die Aufnahme eines Arzneimittels im Median um 88,4 Prozent, wenn die Kohle innerhalb von 5 Minuten folgte, und noch um 27,4 Prozent bei Gabe bis zu 4 Stunden danach. In der Notfallmedizin ist sie ein Standardmittel bei mittelschweren bis lebensbedrohlichen Vergiftungen, ihr klinischer Nutzen ist aber überwiegend in Studien niedriger Qualität untersucht. Für den „Detox“-Gebrauch bei Gesunden liegen keine kontrollierten Studien vor.',
+    benefits: [
+      'Bindet Arzneistoffe im Darm: Meta-Analyse über 64 kontrollierte Studien an Freiwilligen, Aufnahme im Median um 88,4 Prozent gesenkt bei Gabe innerhalb von 5 Minuten, um 27,4 Prozent bei Gabe bis zu 4 Stunden nach dem Arzneimittel (Jürgens 2009)',
+      'Zugelassenes Arzneimittel: Medizinische Kohle ist in Deutschland zugelassen bei akutem Durchfall und zur Verhinderung der Aufnahme von Giftstoffen bei oralen Vergiftungen, nicht apothekenpflichtig (Fachinformation Kohle-Compretten, Stand April 2025)',
+      'EU-Gesundheitsangabe: Aktivkohle trägt zur Verringerung übermäßiger Blähungen nach dem Essen bei, zulässig bei 1 g mindestens 30 Minuten vor und 1 g kurz nach der Mahlzeit (Verordnung 432/2012, gestützt auf EFSA 2011)',
+      'Vergiftungen: Systematische Übersicht über 296 Humanstudien; die Studien höherer Qualität betreffen unter anderem Paracetamol, Carbamazepin, Digoxin, Theophyllin, Salicylate und trizyklische Antidepressiva, und viele Studien berichten einen Nutzen auch bei Gabe nach mehr als einer Stunde (Hoegberg 2021)',
+      'Gicht: In einer doppelblinden Studie mit 348 Patienten senkte Aktivkohle zusätzlich zu Febuxostat die Harnsäure nicht stärker, verringerte aber über 24 Wochen die Zahl der Gichtanfälle und das LDL-Cholesterin (Guo 2026)'
+    ],
+    risks: [
+      'Bindet auch Medikamente: Laut Fachinformation soll medizinische Kohle nicht gleichzeitig mit anderen Arzneimitteln eingenommen werden, weil deren Wirkung vermindert sein kann; das gilt auch für Dauermedikamente',
+      'Unwirksam oder unzureichend wirksam bei Säuren und Laugen, Alkoholen, organischen Lösungsmitteln, anorganischen Salzen und Metallen, etwa Lithium, Thallium, Cyanid, Eisensalzen, Methanol, Ethanol und Ethylenglykol (Zellner 2019, Fachinformation)',
+      'Bei Bewusstseinsstörung und nicht gesicherten Atemwegen droht das Einatmen der Kohle; das ist eine wichtige Gegenanzeige in der Notfallbehandlung (Zellner 2019)',
+      'Nach sehr hohen Dosen bei Vergiftungen in Einzelfällen Verstopfung und Darmverschluss; der Stuhl färbt sich schwarz (Fachinformation)',
+      'Gegenanzeige fieberhafter Durchfall; bleibt die Behandlung nach etwa 3 Tagen erfolglos, sind andere Maßnahmen nötig (Fachinformation)',
+      'Für eine regelmäßige Einnahme als „Detox“ bei Gesunden gibt es keine kontrollierten Studien und keine Langzeitdaten'
+    ],
+    dosage: 'Als Arzneimittel bei akutem Durchfall zugelassen: Laut Fachinformation (Kohle-Compretten, 250 mg medizinische Kohle je Tablette) nehmen Erwachsene und Jugendliche ab 14 Jahren 3- bis 5-mal täglich 2 bis 4 Tabletten, Kinder die halbe Menge. Die EU-Gesundheitsangabe zu Blähungen gilt für 1 g mindestens 30 Minuten vor und 1 g kurz nach der Mahlzeit. Bei Vergiftungen entscheiden Giftnotruf oder Notarzt über Gabe und Menge. Für einen „Detox“-Gebrauch gibt es keine Empfehlung.',
+    intake: 'Nicht zusammen mit Medikamenten einnehmen; wer regelmäßig Arzneimittel nimmt, klärt den zeitlichen Abstand in der Apotheke oder ärztlich. Bei Verdacht auf eine Vergiftung zuerst den Giftnotruf anrufen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Durch Aktivierung hochporös gemachter Kohlenstoff; als Arzneimittel „medizinische Kohle“, als Nahrungsergänzungsmittel „Aktivkohle“',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31219028/'
+  },
+  {
+    id: 'pentadecansaeure',
+    name: 'Pentadecansäure (C15:0)',
+    altNames: 'C15:0, C15, Pentadecanoic acid, Fatty15',
+    category: 'Fettsäure',
+    tags: ['longevity', 'herz', 'stoffwechsel', 'leber', 'cholesterin'],
+    short: 'Gesättigte Fettsäure mit ungerader Kettenlänge, vor allem aus Milchfett. Wer mehr davon im Blut hat, erkrankt in Beobachtungsstudien seltener an Typ-2-Diabetes und Herz-Kreislauf-Leiden. Als Supplement gibt es zwei kleine randomisierte Studien über 12 Wochen; eine genetische Analyse spricht gegen einen ursächlichen Effekt auf den Blutdruck.',
+    description: 'Pentadecansäure (C15:0) ist eine gesättigte Fettsäure mit 15 Kohlenstoffatomen, die in Spuren in Milchfett sowie in einigen Fischen und Pflanzen vorkommt. Im Blut gilt sie als Marker für den Verzehr von Milchfett. In Meta-Analysen von Kohortenstudien gingen höhere Spiegel mit einem geringeren Risiko für Typ-2-Diabetes und Herz-Kreislauf-Erkrankungen einher. Die Forscherin Stephanie Venn-Watson, Mitgründerin des Herstellers Seraphina Therapeutics, fand in Zellversuchen und bei Mäusen und Kaninchen entzündungshemmende und stoffwechselgünstige Effekte und schlägt vor, C15:0 als essenzielle Fettsäure einzustufen. Am Menschen gibt es bisher zwei randomisierte Studien mit 30 und 88 Teilnehmenden über je 12 Wochen.',
+    benefits: [
+      'Typ-2-Diabetes: Meta-Analyse prospektiver Beobachtungsstudien, höhere C15:0-Werte in Plasmaphospholipiden und roten Blutkörperchen gingen mit einem geringeren Risiko einher (relatives Risiko 0,68 je 0,1 Prozentpunkte höherem Anteil an den Fettsäuren), moderate Evidenzsicherheit (Schaefer 2026)',
+      'Herz-Kreislauf: Meta-Analyse über 18 Beobachtungsstudien, höchstes gegen niedrigstes Drittel relatives Risiko 0,88 für Herz-Kreislauf-Erkrankungen; mit der Gesamtsterblichkeit kein Zusammenhang (Trieu 2021)',
+      'Erste randomisierte Studie: 30 junge Erwachsene mit Übergewicht, 12 Wochen, der Blutspiegel stieg gegenüber Placebo um 1,88 µg/ml; wer über 5 µg/ml kam, hatte stärker gesunkene Leberwerte (ALT −29 U/l) und mehr Hämoglobin als die übrigen Teilnehmenden der Behandlungsgruppe (Robinson 2024)',
+      'Fettleber: In der TANGO-Studie mit 88 Frauen mit Fettleber senkte C15:0 zusätzlich zu einer mediterran angelegten Kost das LDL-Cholesterin stärker als die Kost allein und erhöhte den Anteil von Bifidobacterium adolescentis im Darm (Chooi 2024)',
+      'Zellversuche: dosisabhängige Aktivitäten in 10 von 12 menschlichen Zellsystemen, 24 davon geteilt mit Rapamycin; C15:0 aktiviert AMPK und hemmt mTOR (Venn-Watson 2023)'
+    ],
+    risks: [
+      'Beobachtung ist keine Ursache: Eine Mendelsche Randomisierung fand keinen Hinweis auf einen ursächlichen Effekt auf Blutdruck, Ruhepuls oder Bluthochdruck, und mit neuen Herz-Kreislauf-Erkrankungen hing der C15:0-Spiegel in zwei Kohorten nicht zusammen (Steffen 2026)',
+      'C15:0 im Blut spiegelt vor allem den Verzehr von Milchfett wider; die Kohortendaten können nicht trennen, ob die Fettsäure selbst oder andere Bestandteile von Milchprodukten hinter den Zusammenhängen stehen (Trieu 2021)',
+      'In der Robinson-Studie war der Blutspiegel der primäre Endpunkt; die günstigeren Leberwerte zeigten sich im Vergleich innerhalb der Behandlungsgruppe, nicht gegenüber Placebo',
+      'Sicherheitsdaten am Menschen nur aus zwei Studien über je 12 Wochen; bei Robinson 2024 traten keine bedeutsamen unerwünschten Ereignisse auf',
+      'Interessenkonflikte: Die Zell- und Tierstudien stammen von Mitgründern des Herstellers, der die Lizenzrechte zur Vermarktung hält; die erste randomisierte Studie wurde von ihm mit Prüfpräparat und Placebo unterstützt',
+      'In der Unionsliste der zugelassenen neuartigen Lebensmittel der EU steht Pentadecansäure nicht (konsolidierte Fassung vom 10.08.2026)',
+      'Zu Schwangerschaft, Stillzeit und Kindern liegen keine Daten vor'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge gibt es nicht. In Studien verwendet: 200 mg täglich über 12 Wochen (Robinson 2024). Das ist eine Studienangabe, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer wegen Leberwerten oder Blutfetten über C15:0 nachdenkt, bespricht das besser ärztlich, weil die Daten aus zwei kleinen Studien stammen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Milchfett und Milchprodukte, in Spuren auch einige Fische und Pflanzen',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/39069269/'
+  },
+  {
+    id: 'luteolin',
+    name: 'Luteolin',
+    altNames: 'Luteolol, Flavon aus Kamille, PEA-LUT (Kombination mit Palmitoylethanolamid)',
+    category: 'Antioxidant',
+    tags: ['gehirn', 'entzuendung', 'anti-oxidant', 'nerven'],
+    short: 'Pflanzliches Flavon, unter anderem aus Kamille, das in Zell- und Tierversuchen Entzündungen im Nervensystem dämpft. Am Menschen gibt es offene Pilotstudien bei Kindern mit Autismus und randomisierte Studien zu Long COVID mit der Kombination aus Palmitoylethanolamid und Luteolin. Eine randomisierte Studie mit Luteolin allein haben wir nicht gefunden.',
+    description: 'Luteolin ist ein Flavonoid aus der Gruppe der Flavone, chemisch verwandt mit Apigenin. In Zell- und Tierversuchen wirkt es antioxidativ und entzündungshemmend, bremst Mastzellen und schützt Nervenzellen; in einem Mausmodell für Autismus verbesserte es die kognitive Leistung. Am Menschen stammen die meisten Daten aus einer griechischen Pilotstudie mit 50 Kindern mit Autismus, die ein Kombinationspräparat aus Luteolin, Quercetin und Rutin ohne Kontrollgruppe erhielten, sowie aus randomisierten Studien zu Long COVID mit PEA-LUT, einer Verbindung aus Palmitoylethanolamid und Luteolin. Welcher Anteil der Effekte auf Luteolin selbst entfällt, lässt sich aus diesen Studien nicht ablesen.',
+    benefits: [
+      'Autismus, offene Pilotstudie: 50 Kinder von 4 bis 10 Jahren, 26 Wochen, Kombination aus Luteolin, Quercetin und Rutin; bei den 40 Kindern, die die Studie beendeten, verbesserten sich die Alltagsfähigkeiten um 7 bis 8,4 Monate Entwicklungsalter und auffälliges Verhalten ging um 26,6 bis 34,8 Prozent zurück (Taliou 2013)',
+      'In derselben Gruppe sanken die erhöhten Blutwerte der Entzündungsbotenstoffe IL-6 und TNF, am deutlichsten bei den Kindern, deren Verhalten sich am stärksten verbesserte (Tsilioni 2015)',
+      'Long COVID, Riechstörung: randomisierte Studie mit 202 Patienten, nach 90 Tagen erholte sich der Geruchssinn deutlich bei 89,2 Prozent unter Riechtraining plus PEA-LUT gegenüber 36,8 Prozent unter Riechtraining plus Placebo (Di Stadio 2023)',
+      'Meta-Analyse über 5 Studien mit 441 Patienten: PEA-LUT zusätzlich zum Riechtraining verbesserte die Erholung des Geruchssinns nach COVID gegenüber der üblichen Behandlung (Capra 2023)',
+      'Long COVID, Erschöpfung und Denkprobleme: randomisierte Studie mit 39 Patienten, unter PEA-LUT über 8 Wochen stiegen ein Messwert der hemmenden GABA-B-Aktivität und die Plastizität der Hirnrinde, unter Placebo nicht (Versace 2023)'
+    ],
+    risks: [
+      'Eine systematische Übersicht fand zu Flavonoiden bei Autismus keine randomisierte placebokontrollierte Studie, nur offene Studien und Fallberichte (Savino 2023)',
+      'Die Autismus-Studie prüfte eine Kombination mit Quercetin und Rutin ohne Kontrollgruppe; die Long-COVID-Studien prüften Luteolin zusammen mit Palmitoylethanolamid, der Beitrag von Luteolin lässt sich nicht trennen',
+      'Vorübergehend mehr Reizbarkeit über 1 bis 8 Wochen bei 27 von 50 Kindern in der Autismus-Studie (Taliou 2013)',
+      'Zu einer viel zitierten Arbeit mit Autismus-Mausmodell und Fallbericht zu PEA-LUT veröffentlichte die Fachzeitschrift 2024 einen Hinweis auf Bedenken (Expression of Concern)',
+      'Langzeitdaten zur Sicherheit von isoliertem Luteolin fehlen, ebenso Daten zu Schwangerschaft und Stillzeit',
+      'In der Unionsliste der zugelassenen neuartigen Lebensmittel der EU steht Luteolin als Einzelstoff nicht (konsolidierte Fassung vom 10.08.2026)'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge gibt es nicht. In Studien verwendet: Kapseln mit 100 mg Luteolin, 70 mg Quercetin und 30 mg Rutin, bei Kindern nach Körpergewicht bemessen, über 26 Wochen (Taliou 2013); 700 mg Palmitoylethanolamid mit 70 mg Luteolin zweimal täglich über 8 Wochen (Versace 2023). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Bei Kindern mit Autismus gehört jede Ergänzung in ärztliche Begleitung, weil kontrollierte Studien fehlen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Kamille und weitere Pflanzen; als Reinstoff oder kombiniert mit Palmitoylethanolamid angeboten',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/23688534/'
+  },
+  {
+    id: 'dihydromyricetin',
+    name: 'Dihydromyricetin (DHM)',
+    altNames: 'DHM, Ampelopsin, Hovenia dulcis, Japanischer Rosinenbaum, Ampelopsis grossedentata',
+    category: 'Antioxidant',
+    tags: ['leber', 'entgiftung', 'gaba', 'blutzucker'],
+    short: 'Flavonoid aus dem Japanischen Rosinenbaum (Hovenia dulcis) und aus Ampelopsis grossedentata, beworben gegen den Kater. Bei Ratten hob DHM über den GABA-A-Rezeptor Alkoholwirkungen auf. Am Menschen gibt es zwei kleine Studien bei Fettleber mit günstigen Leberwerten; zum Kater wurden bisher nur Hovenia-Extrakte geprüft, nicht DHM allein.',
+    description: 'Dihydromyricetin, auch Ampelopsin genannt, ist ein Flavonoid und Hauptwirkstoff von Ampelopsis grossedentata, einer Pflanze, die in China seit Jahrhunderten als Heil- und Nahrungspflanze dient; auch die Früchte des Japanischen Rosinenbaums (Hovenia dulcis) enthalten es. Bekannt wurde DHM durch eine Rattenstudie von 2012: Dort hob es akute Alkoholwirkungen und Entzugszeichen auf, senkte den freiwilligen Alkoholkonsum und setzte an der Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors an. Am Menschen ist DHM in zwei randomisierten Studien bei Fettleber geprüft, mit sinkenden Leberwerten. Für den Kater stammen die klinischen Daten aus zwei kleinen Studien mit Hovenia-Extrakten, nicht mit isoliertem DHM.',
+    benefits: [
+      'Rattenstudie: DHM hob akute Alkoholwirkungen und Entzugszeichen wie Angst und Krampfneigung auf und senkte den freiwilligen Alkoholkonsum; Angriffspunkt ist die Benzodiazepin-Bindungsstelle am GABA-A-Rezeptor (Shen 2012)',
+      'Fettleber: doppelblinde Studie mit 60 Erwachsenen über 3 Monate; ALT, AST, GGT, Blutzucker, LDL-Cholesterin, ApoB und Insulinresistenz sanken gegenüber Placebo, TNF-alpha ging zurück (Chen 2015)',
+      'Fettleber (MASLD): doppelblinde Studie mit 55 Patienten über 12 Monate mit einem Kombinationspräparat aus DHM, Vitamin C und E und Cholin; ALT und GGT normalisierten sich bei 35 gegenüber 5 Prozent unter Placebo (Michailidou 2026)',
+      'Kater: In einer doppelblinden Crossover-Studie mit 30 Teilnehmenden lag die Blutalkoholkonzentration nach Getränken mit Hovenia-Fruchtextrakt nach 0,5 und 6 Stunden niedriger als unter Placebo (Paik 2024)',
+      'Anwenderdaten: In einer Beobachtungsstudie mit 90 Erwachsenen und 2.958 Morgenbefragungen bewerteten Nutzer eines Kombinationsprodukts mit DHM und L-Cystein Energie, Klarheit, Wohlbefinden und Schlaf nach Alkoholabenden etwas besser als nach Alkohol allein, mit kleinen Effekten (Song 2026)'
+    ],
+    risks: [
+      'Isoliertes DHM wurde am Menschen gegen den Kater nicht geprüft; die beiden klinischen Studien zu Alkohol nutzten Hovenia-Extrakte (Skinner 2026)',
+      'Befunde zu Alkoholabbau und Verhalten sind schon in Tierversuchen uneinheitlich (Skinner 2026)',
+      'Die EFSA konnte 2020 die Sicherheit eines Heißwasserextrakts aus Hovenia-Früchten und -Fruchtstielen als neuartiges Lebensmittel für Nahrungsergänzungsmittel nicht feststellen',
+      'Weder DHM noch ein Hovenia-Extrakt steht in der Unionsliste der zugelassenen neuartigen Lebensmittel der EU (konsolidierte Fassung vom 10.08.2026)',
+      'Die Beobachtungsstudie zu Anwendern hatte keine Placebogruppe, die Teilnehmenden entschieden selbst, wann sie das Produkt nahmen, und es enthielt weitere Wirkstoffe (Song 2026)',
+      'Sicherheitsdaten am Menschen reichen über 3 bis 12 Monate in Studien mit 55 und 60 Teilnehmenden; zu Schwangerschaft, Stillzeit und Kindern liegen keine Daten vor'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge gibt es nicht. In Studien verwendet: zweimal täglich 300 mg DHM über 3 Monate (Chen 2015), 300 mg DHM täglich in einem Kombinationspräparat über 12 Monate (Michailidou 2026). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Ein Schutz vor den Folgen von Alkohol ist am Menschen nicht belegt; bei Lebererkrankungen gehört die Entscheidung in ärztliche Hände.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Ampelopsis grossedentata, Früchte und Fruchtstiele des Japanischen Rosinenbaums (Hovenia dulcis)',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/42514290/'
+  },
+  {
+    id: 'hydroxytyrosol',
+    name: 'Hydroxytyrosol und Olivenpolyphenole',
+    altNames: 'HT, Olivenpolyphenole, Oleuropein, Olivenblattextrakt, Olea europaea',
+    category: 'Antioxidant',
+    tags: ['herz', 'cholesterin', 'anti-oxidant', 'blutdruck', 'entzuendung'],
+    short: 'Polyphenol aus Oliven und Olivenöl; Oleuropein aus Olivenblättern liefert ebenfalls Hydroxytyrosol. Für Olivenöl mit mindestens 5 mg Hydroxytyrosol und Derivaten je 20 g gibt es eine EU-Gesundheitsangabe zum Schutz der Blutfette vor oxidativem Stress. Für Olivenblattextrakt finden Meta-Analysen günstige Effekte auf Blutfette und Blutdruck, eine placebokontrollierte Einzelstudie fand keine.',
+    description: 'Hydroxytyrosol ist ein Polyphenol aus der Olive. Es kommt frei und gebunden vor, etwa als Oleuropein, das besonders in Olivenblättern steckt; aus beiden Formen wird Hydroxytyrosol aufgenommen. Die EFSA bewertete 2011 den Zusammenhang zwischen Olivenölpolyphenolen und dem Schutz der LDL-Teilchen vor oxidativen Schäden; die daraus abgeleitete EU-Gesundheitsangabe gilt nur für Olivenöl. In der EUROLIVE-Studie mit 200 Männern sank oxidiertes LDL mit steigendem Polyphenolgehalt des Öls. Für Kapseln mit Hydroxytyrosol oder Olivenblattextrakt gibt es eigene randomisierte Studien und Meta-Analysen mit überwiegend günstigen, teils uneinheitlichen Ergebnissen.',
+    benefits: [
+      'EU-Gesundheitsangabe: Olivenölpolyphenole tragen dazu bei, die Blutfette vor oxidativem Stress zu schützen; zulässig nur für Olivenöl mit mindestens 5 mg Hydroxytyrosol und Derivaten je 20 g, bei täglich 20 g Olivenöl (Verordnung 432/2012, gestützt auf EFSA 2011)',
+      'EUROLIVE: randomisierte Crossover-Studie mit 200 gesunden Männern in 5 Ländern, je 3 Wochen 25 ml Olivenöl mit niedrigem, mittlerem oder hohem Polyphenolgehalt; oxidiertes LDL sank und HDL stieg mit steigendem Polyphenolgehalt (Covas 2006)',
+      'Supplement: 15 mg Hydroxytyrosol täglich über 16 Wochen bei 49 Menschen mit Übergewicht und Prädiabetes senkten oxidiertes LDL, Proteincarbonyle, 8-OHdG und IL-6 gegenüber Placebo; die Blutfette änderten sich nicht (Moratilla-Rivera 2025)',
+      'Meta-Analyse über 14 Interventionsstudien mit 594 Teilnehmenden zu Oleuropein, Hydroxytyrosol und Tyrosol: Gesamtcholesterin, Triglyzeride und Insulin leicht gesenkt (Frumuzachi 2025)',
+      'Olivenblatt: Meta-Analyse über 30 randomisierte Studien mit 1.726 Teilnehmenden zu Olivenblatt und Oliventrester; Olivenblatt senkte Gesamtcholesterin, Triglyzeride, LDL, ApoB, oxidiertes LDL, TNF-alpha, Blutdruck und Körpergewicht, Evidenzsicherheit sehr niedrig bis hoch (Mansouri 2026)',
+      'Sicherheit: Die EFSA hielt synthetisches Hydroxytyrosol 2017 in den beantragten Mengen für sicher, gestützt auf einen NOAEL von 50 mg je kg Körpergewicht und Tag aus einer subchronischen Toxizitätsstudie (EFSA 2017)'
+    ],
+    risks: [
+      'Die EU-Gesundheitsangabe gilt nur für Olivenöl mit dem genannten Polyphenolgehalt, nicht für Kapseln mit Hydroxytyrosol oder Olivenblattextrakt',
+      'In einer placebokontrollierten Studie mit 77 übergewichtigen Erwachsenen mit leicht erhöhtem Cholesterin änderten 500 mg Olivenblattextrakt über 8 Wochen weder Blutfette noch oxidiertes LDL, Blutdruck, Blutzucker oder Insulin (Stevens 2021)',
+      'Synthetisches Hydroxytyrosol ist als neuartiges Lebensmittel nur als Zusatz zu Fisch- und Pflanzenölen (außer Olivenöl) und Streichfetten zugelassen, mit dem Pflichthinweis, dass Kinder unter 3 Jahren, Schwangere und Stillende es nicht verzehren sollen (Unionsliste der neuartigen Lebensmittel)',
+      'Die Meta-Analysen bündeln unterschiedliche Extrakte, Mengen und Gruppen; die Evidenzsicherheit reicht bis sehr niedrig (Mansouri 2026)',
+      'Die hier ausgewerteten Supplementstudien dauerten 8 bis 16 Wochen; Langzeitdaten zu Kapseln fehlen',
+      'Weil Olivenblattextrakt in Meta-Analysen den Blutdruck senkte, gehört die Einnahme bei blutdrucksenkenden Medikamenten in ärztliche Abstimmung'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge für Nahrungsergänzungsmittel gibt es nicht. Die EU-Gesundheitsangabe setzt täglich 20 g Olivenöl mit mindestens 5 mg Hydroxytyrosol und Derivaten voraus. In Studien verwendet: 15 mg Hydroxytyrosol täglich über 16 Wochen (Moratilla-Rivera 2025), 500 mg Olivenblattextrakt täglich über 8 Wochen (Stevens 2021). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Die einzige zugelassene Gesundheitsangabe bezieht sich auf polyphenolreiches Olivenöl, nicht auf Kapseln.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Oliven, natives Olivenöl, Olivenblätter; Hydroxytyrosol wird auch synthetisch hergestellt',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/16954359/'
+  },
+  {
+    id: 'uridin',
+    name: 'Uridin (Uridinmonophosphat)',
+    altNames: 'Uridine, UMP, Uridin-5′-monophosphat, Uridinmonophosphat-Dinatriumsalz',
+    category: 'Stress & Geist',
+    tags: ['gehirn', 'gedaechtnis', 'nootropic', 'stimmung'],
+    short: 'Nukleosid, aus dem der Körper RNA und Bausteine für Zellmembranen bildet. Am Menschen nur als Teil der Mischung Fortasyn Connect (Souvenaid) bei Alzheimer-Krankheit geprüft, mit gemischten Ergebnissen; für Uridin allein und für Gesunde gibt es kaum Daten.',
+    description: 'Uridin wird über UTP zu CTP, das zusammen mit Cholin und Fettsäuren wie DHA zu Phosphatidylcholin verbaut wird, dem Hauptbestandteil von Zellmembranen. In Wüstenrennmäusen stieg das Phosphatidylcholin im Gehirn mit Uridinmonophosphat, Cholin und DHA nach vier Wochen um 45 Prozent, die Synapsenproteine Synapsin-1 und PSD-95 um 41 und 38 Prozent (Wurtman 2006). Am Menschen wurde nur die Mischung Fortasyn Connect geprüft (Uridinmonophosphat, Cholin, Phospholipide, EPA, DHA, Vitamine E, C, B12, B6, Folsäure, Selen): Gedächtnisvorteil bei leichter Alzheimer-Krankheit nach 12 und 24 Wochen (Scheltens 2010, 2012), kein Effekt bei mittelschwerer Erkrankung unter Medikamenten (Shah 2013), verfehlter Hauptendpunkt nach 24 Monaten bei früher Erkrankung und günstigere Werte nach 36 Monaten in einer kleineren Restgruppe (Soininen 2017, 2021). Die Cochrane-Auswertung sieht wahrscheinlich kaum einen Unterschied bei den geistigen Leistungen (Burckhardt 2020).',
+    benefits: [
+      'Im Tier: Uridinmonophosphat mit Cholin und DHA erhöhte nach 4 Wochen Membranbausteine im Gehirn und die Synapsenproteine Synapsin-1 um 41 und PSD-95 um 38 Prozent (Wurtman 2006)',
+      'Leichte Alzheimer-Krankheit ohne Medikamente: besserer verzögerter Wortabruf nach 12 Wochen (RCT, 225 Patienten, Scheltens 2010) und höherer Gedächtnis-Score nach 24 Wochen, Cohen d 0,21 (RCT, Scheltens 2012) – jeweils als Teil der Mischung Fortasyn Connect',
+      'Frühe Alzheimer-Krankheit: nach 36 Monaten 60 Prozent weniger Abbau im Testwert und 45 Prozent beim CDR-SB, ausgewertet bei 81 Teilnehmenden (LipiDiDiet, Soininen 2021)',
+      'Uridin allein: weniger depressive Symptome bei 7 Jugendlichen mit bipolarer Depression nach 6 Wochen, ohne Kontrollgruppe (Kondo 2011)'
+    ],
+    risks: [
+      'Alle kontrollierten Humanstudien prüften eine Mischung aus elf Nährstoffen; der Anteil von Uridin am Effekt ist unbekannt',
+      'Kein Effekt bei mittelschwerer Alzheimer-Krankheit unter Medikamenten (RCT, 527 Patienten, Shah 2013); Hauptendpunkt nach 24 Monaten bei früher Alzheimer-Krankheit verfehlt (p = 0,166, Soininen 2017)',
+      'Cochrane 2020: wahrscheinlich kaum oder kein Unterschied bei geistigen Leistungen; Demenz-Neuerkrankungen nach 24 Monaten RR 1,09 (95 % KI 0,82 bis 1,43)',
+      'Keine Studien an Gesunden zu Gedächtnis, Konzentration oder Stimmung',
+      'DTU Fødevareinstituttet 2020: Gesundheitsrisiko bei 300 mg Uridin pro Tag aus Nahrungsergänzung nicht auszuschließen, weil Sicherheitsstudien an Tieren und Gesunden fehlen',
+      'Keine amtliche Höchstmenge und keine zugelassene gesundheitsbezogene Angabe'
+    ],
+    dosage: 'Keine Verzehrempfehlung. In den Souvenaid-Studien enthielt das tägliche 125-ml-Getränk 625 mg Uridinmonophosphat (DTU 2020); die Studien liefen 12 Wochen bis 36 Monate. Eine amtliche Höchstmenge für Nahrungsergänzungsmittel gibt es nicht; die dänische Bewertung konnte ein Risiko bei 300 mg pro Tag nicht ausschließen. In Säuglingsnahrung ist Uridin-5′-monophosphat bis 1,75 mg je 100 kcal zugelassen (Delegierte VO (EU) 2016/127). Das sind Studien- und Rechtsangaben, keine Empfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Gedächtnisstörungen, Depression oder Nervenbeschwerden gehören ärztlich abgeklärt; bei psychischen Erkrankungen, Psychopharmaka, Schwangerschaft und Stillzeit vorher ärztlich besprechen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Vom Körper selbst gebildet; in Lebensmitteln vor allem als Baustein von RNA, in Muttermilch 2,2 mg je kg (DTU 2020); als Nahrungsergänzung meist Uridin-5′-monophosphat-Dinatriumsalz',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/33320335/'
+  },
+  {
+    id: 'kava',
+    name: 'Kava-Kava',
+    altNames: 'Piper methysticum, Rauschpfeffer, Kawa, Kava, Kavalactone, Kavain',
+    category: 'Kräuter',
+    tags: ['angst', 'stress', 'entspannung', 'arzneimittel'],
+    short: 'Wurzel eines Pfefferstrauchs aus dem Südpazifik, dort seit langem als entspannendes Getränk verbreitet. Eine Cochrane-Übersicht fand in 11 Studien weniger Angst als unter Placebo, die größte und längste Studie bei generalisierter Angststörung aber keinen Vorteil. In Deutschland verschreibungspflichtig; die EMA sieht wegen Leberschäden ein ungünstiges Nutzen-Risiko-Verhältnis.',
+    description: 'Kava ist der Wurzelstock von Piper methysticum, einem Pfeffergewächs aus dem Südpazifik, wo das Wurzelgetränk eine zentrale kulturelle Rolle hat. Als wirksam gelten die Kavalactone, darunter Kavain. Die Cochrane-Übersicht von 2003 wertete 11 doppelblinde Studien mit 645 Teilnehmenden aus und fand auf der Hamilton-Angstskala gepoolt 5,0 Punkte weniger als unter Placebo. Eine Studie mit 75 Menschen mit generalisierter Angststörung bestätigte das 2013, die größere 16-Wochen-Studie mit 171 Menschen fand 2020 keinen Vorteil. Nach Berichten über Leberschäden, darunter Lebertransplantationen und Todesfälle, wurden Kava-Arzneimittel in mehreren EU-Ländern vom Markt genommen; die EMA lehnte 2017 eine EU-Monografie ab.',
+    benefits: [
+      'Cochrane-Übersicht: 11 doppelblinde, placebokontrollierte Studien mit 645 Teilnehmenden; in 6 Studien mit 345 Teilnehmenden sank die Hamilton-Angstskala um 5,0 Punkte mehr als unter Placebo (Pittler und Ernst 2003)',
+      'Generalisierte Angststörung: in einer 6-wöchigen doppelblinden Studie mit 75 Teilnehmenden weniger Angst als unter Placebo (d = 0,62), bei mittelschwerer bis schwerer Störung stärker (d = 0,82); 26 Prozent Remission gegenüber 6 Prozent (Sarris 2013)',
+      'In der Studie von 2013 keine Unterschiede bei den Leberwerten und außer Kopfschmerzen keine häufigeren Nebenwirkungen als unter Placebo',
+      'Messbare Wirkung im Gehirn: Nach 8 Wochen sank das GABA im vorderen Gyrus cinguli bei 20 Menschen mit Kava gegenüber 17 mit Placebo (Savage 2023)',
+      'Lange Tradition: im Südpazifik seit Generationen als Getränk mit sozialer und kultureller Bedeutung verbreitet (Economidis 2025)'
+    ],
+    risks: [
+      'Leber: Die EMA verweist 2017 auf spontan gemeldete Leberschäden einschließlich Leberversagen mit Transplantationen und Todesfällen und auf Hinweise auf krebserregendes Potenzial im Tierversuch; das Nutzen-Risiko-Verhältnis gilt als ungünstig',
+      'Auch traditionelle wässrige Zubereitungen wurden mit Leberschäden in Verbindung gebracht; als mögliche Ursache wird schlechte Rohware diskutiert, etwa Schimmelpilzgifte (Teschke 2012)',
+      'In der 16-Wochen-Studie mit 171 Menschen kein Vorteil gegenüber Placebo, dafür häufiger auffällige Leberwerte, Zittern und schlechteres Gedächtnis; niemand erfüllte die Kriterien eines pflanzlich verursachten Leberschadens (Sarris 2020)',
+      'Eine Meta-Übersicht über Pflanzenpräparate in der Psychiatrie kommt zu dem Schluss, dass Kava bei diagnostizierten Angststörungen nicht wirksam ist (Sarris 2021)',
+      'Sicherheitsdaten aus Studien reichen nur über 1 bis 24 Wochen; Langzeitdaten fehlen',
+      'In Deutschland verschreibungspflichtig (Anlage 1 der Arzneimittelverschreibungsverordnung); im Novel-Food-Katalog der EU gibt es keinen Eintrag zu Piper methysticum, eine Freigabe als Lebensmittel liegt damit nicht vor (Abfrage 07.10.2026)'
+    ],
+    dosage: 'Keine Empfehlung. Kava-Wurzelstock, seine Zubereitungen und Kavain sind in Deutschland verschreibungspflichtig (Anlage 1 der Arzneimittelverschreibungsverordnung), daher greift § 3a Heilmittelwerbegesetz. In Studien verwendet: wässriger Extrakt mit 120 bis 240 mg Kavalactonen pro Tag über 6 Wochen (Sarris 2013) und zweimal täglich 120 mg Kavalactone über 16 Wochen (Sarris 2020). Das sind Studienangaben, keine Verzehr- oder Einnahmeempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Kava gehört in Deutschland in ärztliche Hände, weil es verschreibungspflichtig ist und Leberschäden beschrieben sind.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Wurzelstock des Kava-Strauchs (Piper methysticum), im Südpazifik als Getränk zubereitet, in Europa früher als Extrakt in Arzneimitteln',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/12535473/'
+  },
+  {
+    id: 'cbn',
+    name: 'CBN (Cannabinol)',
+    altNames: 'Cannabinol, CBN-Öl, CBN-Gummies, 11-Hydroxy-CBN',
+    category: 'Kräuter',
+    tags: ['schlaf', 'entspannung', 'novel-food'],
+    short: 'Cannabinoid, das beim Altern von THC entsteht und als Schlafhilfe verkauft wird. Zwei kleine randomisierte Studien verfehlten ihren Hauptendpunkt, fanden aber weniger nächtliches Aufwachen, schnelleres Einschlafen und besseren subjektiven Schlaf. In der EU ist CBN ein nicht zugelassenes neuartiges Lebensmittel.',
+    description: 'Cannabinol (CBN) entsteht, wenn Δ9-THC im Hanf durch Luft und Licht oxidiert. Es wird als Isolat in Ölen und Fruchtgummis gegen Schlafprobleme beworben. Eine Übersicht von 2021 fand dafür keine Studie mit validierten Schlafmessungen und mahnte zur Skepsis. Seitdem gibt es zwei randomisierte Studien: In einer doppelblinden Studie mit 293 Teilnehmenden verfehlte die Schlafqualität knapp die Signifikanz, Aufwachen und Schlafstörung insgesamt besserten sich (Bonn-Miller 2024). Im Schlaflabor änderte CBN bei 20 Menschen mit Insomnie die Wachzeit nach dem Einschlafen nicht, die hohe Dosis verkürzte aber die Einschlafzeit und verbesserte den subjektiven Schlaf (Lavender 2026).',
+    benefits: [
+      'Doppelblinde RCT mit 293 Erwachsenen mit schlechtem Schlaf, 7 Nächte: weniger nächtliches Aufwachen und weniger Schlafstörung insgesamt als unter Placebo; die Schlafqualität als Hauptendpunkt verfehlte die Signifikanz knapp (OR 2,26, p = 0,082); keine Wirkung auf Tagesmüdigkeit; CBD dazu brachte keinen Zusatznutzen (Bonn-Miller 2024)',
+      'Schlaflabor, 20 Menschen mit diagnostizierter Insomnie, je eine Nacht: Die hohe Studiendosis verkürzte die Einschlafzeit (dz = −0,74), verbesserte die subjektive Schlafqualität und verringerte Weckreaktionen im EEG; der Hauptendpunkt Wachzeit nach dem Einschlafen änderte sich nicht (Lavender 2026)',
+      'Bei Ratten verlängerte CBN im Schlaflabor die Gesamtschlafzeit, der Effekt auf den Tiefschlaf lag in der Größenordnung von Zolpidem; der Abbaustoff 11-Hydroxy-CBN wirkt am CB1-Rezeptor ähnlich stark wie THC (Arnold 2025, Tierversuch)',
+      'Anwender: In einer repräsentativen US-Befragung hatten 4,5 Prozent der Erwachsenen schon CBN genommen, als häufigsten medizinischen Grund nannten sie Schlafstörungen (Satybaldiyeva 2025)'
+    ],
+    risks: [
+      'Beide Schlafstudien verfehlten ihren Hauptendpunkt; die Daten reichen über eine einzelne Nacht oder 7 Nächte, Langzeitdaten fehlen',
+      'Im Schlaflabor 247 leichte bis mittlere Nebenwirkungen über alle Studienarme, ohne Aufschlüsselung im Abstract (Lavender 2026)',
+      'Bei Mäusen führte wiederholte Gabe zu Toleranz und körperlicher Abhängigkeit, und CBN ersetzte THC im Unterscheidungstest vollständig (Vanegas 2026, Tierversuch)',
+      'Die Übersicht von 2021 fand die menschlichen Daten zu THC-ähnlichen Effekten von CBN uneinheitlich; handelsübliche Schlafprodukte enthielten damals meist sehr kleine Mengen (Corroon 2021)',
+      'Im Sport innerhalb des Wettkampfs verboten: Die WADA verbietet alle natürlichen und synthetischen Cannabinoide außer Cannabidiol (WADA-Liste 2026, S8)',
+      'In der EU ein nicht zugelassenes neuartiges Lebensmittel (Novel-Food-Katalog, Eintrag Cannabinoide)'
+    ],
+    dosage: 'Keine Empfehlung. CBN ist in der EU als neuartiges Lebensmittel nicht zugelassen und in Deutschland kein zugelassenes Arzneimittel, daher gibt es keine amtliche Höchstmenge und es greift § 3a Heilmittelwerbegesetz. In Studien verwendet: 20 mg an 7 aufeinanderfolgenden Abenden (Bonn-Miller 2024) sowie einmalig 30 oder 300 mg im Schlaflabor (Lavender 2026). Das sind Studienangaben, keine Verzehr- oder Einnahmeempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer Schlafmittel, Beruhigungsmittel oder andere Cannabinoide nimmt oder im Wettkampfsport aktiv ist, sollte CBN nicht auf eigene Faust einsetzen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'niedrig',
+    sources: 'Entsteht im Hanf, wenn THC oxidiert; im Handel als Isolat in Ölen, Kapseln und Fruchtgummis',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41698831/'
   }
 
 ];

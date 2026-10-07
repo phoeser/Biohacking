@@ -1132,6 +1132,55 @@ const THERAPIES = [
       indication: ['Fokus/Kognition', 'Konzentration', 'Schlaf', 'Stress', 'Sport-Performance'],
       note: 'Neurofeedback misst nur und gibt keinen Strom ins Gehirn – anders als tDCS oder TMS (siehe Neurostimulation). Die Heilmittel-Richtlinie des G-BA führt Neurofeedback nicht. Bei ADHS ersetzt es keine leitliniengerechte Behandlung.',
       link: 'https://pubmed.ncbi.nlm.nih.gov/39661381/'
+  },
+  {
+      id: 'wasserstoffwasser',
+      name: 'Molekularer Wasserstoff (Wasserstoffwasser)',
+      category: 'Biohacking',
+      emoji: '💧',
+      short: 'Wasserstoffgas, gelöst in Wasser, aus Tabletten freigesetzt oder eingeatmet. In Zellversuchen fing es gezielt das aggressivste Sauerstoffradikal ab; am Menschen zeigen viele kleine Studien kleine Effekte auf Blutfette und Ermüdung beim Sport, aber keinen Beleg für Anti-Aging.',
+      benefits: [
+        'Blutfette bei Übergewicht: Gesamtcholesterin −6,71 mg/dl, LDL −3,21 mg/dl, Triglyzeride unverändert (Meta-Analyse, 13 RCTs, 757 Teilnehmende, Ye 2026) – laut Autoren zu klein für das Herz-Kreislauf-Risiko',
+        'Sport bei Gesunden: etwas mehr Sprungkraft, weniger empfundene Anstrengung und Laktat; Ausdauer und Kraft unverändert (Meta-Analyse, 27 Publikationen, 597 Teilnehmende, Zhou 2024)',
+        'Oxidativer Stress nach Sport nicht gesenkt, antioxidatives Potenzial leicht erhöht (Meta-Analyse, 6 Studien, 76 Teilnehmende, Li 2024)',
+        'Inhalation nach Herzstillstand: Hauptziel verfehlt (gutes neurologisches Ergebnis 56 gegen 39 Prozent, p = 0,15), 90-Tage-Überleben 85 gegen 61 Prozent (RCT, 73 Patienten, HYBRID II, Tamura 2023)'
+      ],
+      indication: ['Regeneration', 'Anti-Aging', 'Sport-Performance', 'Stoffwechsel'],
+      note: 'Die Studien sind klein, kurz und verwenden sehr unterschiedliche Formen und Mengen; Ergebnisse lassen sich nicht von einem Produkt auf ein anderes übertragen. In Deutschland ein Lebensmittel, als Therapie für keine Erkrankung zugelassen. Wasserstoffgas ist brennbar: Inhalationsgeräte nicht in die Nähe offener Flammen. Bei Fettstoffwechselstörung oder Diabetes kein Ersatz für eine Behandlung.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/41888952/'
+  },
+  {
+      id: 'stosswellentherapie',
+      name: 'Niedrigenergetische Stoßwellentherapie (Li-ESWT)',
+      category: 'Biohacking',
+      emoji: '🌊',
+      short: 'Schwache Schallwellen-Impulse von außen auf den Penis, die die Durchblutung verbessern sollen. Bei Erektionsstörung zeigt die Cochrane-Auswertung aus 21 Studien einen kleinen kurzfristigen Effekt an der Grenze des Spürbaren; die EAU-Leitlinie empfiehlt sie schwach bei leichter gefäßbedingter Erektionsstörung. Für Männer ohne Beschwerden gibt es keine Daten.',
+      benefits: [
+        'Erektionsstörung: Erektionswert IIEF-EF kurzfristig 3,89 Punkte höher als unter Schein, knapp unter der spürbaren Schwelle von 4 Punkten; nach über 3 Monaten 5,25 Punkte (Cochrane, 21 RCTs, 1.357 Männer, geringe Vertrauenswürdigkeit, Ergun 2025)',
+        'EAU-Leitlinie: schwache Empfehlung bei leichter gefäßbedingter Erektionsstörung, für Männer ohne Wunsch nach oder Eignung für Tabletten und bei schlechtem Ansprechen auf PDE-5-Hemmer',
+        'Nach Prostataentfernung: besser nach 8 und 12 Wochen, ab 24 Wochen kein Unterschied mehr (Meta-Analyse, 5 RCTs, 297 Patienten, Zhou 2026)',
+        'Durchblutungswerte im Doppler-Ultraschall unverändert (Meta-Analyse, 12 RCTs, Cayan 2026)',
+        'Fersenschmerz bei Plantarfasziitis: orthopädische Stoßwellentherapie seit G-BA-Beschluss 2018 ambulante Kassenleistung nach 6 Monaten erfolgloser Vorbehandlung'
+      ],
+      indication: ['Erektionsstörung', 'Durchblutung', 'Schmerzen'],
+      note: 'Geräte, Energie, Impulszahl und Sitzungen unterscheiden sich stark zwischen den Studien; kein Teilnehmer wurde länger als 3 Monate behandelt. Keine Studie an Männern ohne Erektionsstörung, ein vorbeugender Nutzen ist nicht untersucht. Bei Erektionsstörung Selbstzahlerleistung; Ursachen wie Gefäßerkrankung, Diabetes oder Hormonstörung vorher ärztlich abklären.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/40654049/'
+  },
+  {
+      id: 'ganzkoerper-mrt',
+      name: 'Ganzkörper-MRT (Selbstzahler-Vorsorge)',
+      category: 'Biohacking',
+      emoji: '🩻',
+      short: 'MRT von Kopf bis Fuß bei Menschen ohne Beschwerden, angeboten von Radiologiepraxen und Ketten wie Prenuvo oder Ezra. In Studien wird bei rund 1,6 Prozent ein Krebs gefunden und bei etwa jedem Dritten ein abklärungsbedürftiger Zufallsbefund; ob die Untersuchung Leben verlängert, ist nicht untersucht.',
+      benefits: [
+        'Bestätigte Krebsdiagnose bei 1,57 Prozent der Untersuchten (Meta-Analyse, 10 Studien, 9.024 Menschen ohne Beschwerden, Martins da Fonseca 2026)',
+        'Kritische Zufallsbefunde bei 13,4 Prozent, unklare bei 13,9 Prozent, zusammen 32,1 Prozent; 16 Prozent falsch-positiv, wo berichtet (12 Studien, 5.373 Personen, Kwee 2019)',
+        'SHIP: potenziell relevante Zufallsbefunde bei 36,2 Prozent von 2.500 Erwachsenen, 57,7 Prozent der mitgeteilten Befunde unklarer Natur (Hegenscheid 2013); ambulante Kosten in den 2 Jahren danach 11,6 Prozent höher (Schmidt 2022)',
+        'Ohne Röntgenstrahlung; 96 Prozent der SHIP-Teilnehmenden waren sehr zufrieden, 28,6 Prozent mit mitgeteiltem Befund berichteten mittlere bis schwere Belastung (Schmidt 2013)'
+      ],
+      indication: ['Prävention', 'Vorsorge', 'Screening'],
+      note: 'Keine randomisierte Studie zu Sterblichkeit oder Krankheitslast; das American College of Radiology empfiehlt die Untersuchung für Menschen ohne Beschwerden, Risikofaktoren oder familiäre Belastung nicht. Ein unauffälliger Befund ist keine Entwarnung für Jahre, Langzeitdaten zu übersehenen Befunden fehlen. Selbstzahlerleistung; vorher klären, wer befundet und wer unklare Befunde abklärt. Ganzkörper-CT als Vorsorge ist nach § 84 StrlSchG nicht zulässig.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/40884613/'
   }
 
 ];

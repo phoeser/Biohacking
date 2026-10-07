@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-06
+Stand: 2026-10-07
 
 # Fragen & Beschwerden
 
@@ -115,6 +115,11 @@ Gegen Hitzewallungen und Nachtschweiß ist die Hormontherapie das wirksamste Mit
 
 # Themen
 
+## 17α-Estradiol (Alfatradiol)
+https://biohackingkompakt.de/thema/17-alpha-estradiol.html
+
+17α-Estradiol ist eines der auffälligsten Ergebnisse des amerikanischen Interventions Testing Program: In drei Studien lebten männliche Mäuse damit länger, zuletzt um 19 Prozent, selbst wenn die Gabe erst im höheren Alter begann. In Deutschland kennt man den Stoff seit Jahrzehnten als Alfatradiol, ein Haarwasser gegen erblichen Haarausfall. Als Mittel zum Einnehmen ist er am Menschen nicht untersucht.
+
 ## 5-Amino-1MQ
 https://biohackingkompakt.de/thema/5-amino-1mq.html
 
@@ -124,6 +129,11 @@ Das Enzym NNMT hängt eine Methylgruppe an Nicotinamid und entzieht dem Körper 
 https://biohackingkompakt.de/thema/5-htp.html
 
 5-HTP ist ein Zwischenprodukt der körpereigenen Serotoninsynthese. Als Präparat hebt es den Serotoninspiegel im Blut messbar an, das zeigen mehrere randomisierte Studien. Für Stimmung, Schlaf und Appetit gibt es positive Signale, aber fast nur aus kleinen oder alten Studien; das größte moderne Placebo-Experiment mit 166 Menschen fand trotz steigender Serotoninwerte keinen klinischen Unterschied. Der wichtigste Haken ist die Kombination mit Antidepressiva und anderen serotonergen Mitteln. In Deutschland ist 5-HTP kein zugelassenes Arzneimittel, deshalb nennt diese Seite keine Dosierung.
+
+## 9-Me-BC (9-Methyl-β-carbolin)
+https://biohackingkompakt.de/thema/9-me-bc.html
+
+Die Laborbefunde sind ungewöhnlich breit: mehr Dopamin-bildende Zellen, längere Nervenfortsätze, Schutz vor Nervengiften, weniger Entzündung, mehr Wachstumsfaktoren wie BDNF und eine Hemmung der Monoaminoxidase. Bei Ratten besserte sich nach zehn Tagen das räumliche Lernen, und in einem Parkinson-Modell erholten sich geschädigte Dopamin-Neuronen. Am Menschen gibt es keine Studie, keine Daten zur Aufnahme, Verteilung oder Verträglichkeit und keinen Eintrag in ClinicalTrials.gov. Verwandte 9-Methyl-β-carboline schädigen unter UV-A-Licht im Reagenzglas die DNA, und ein naher chemischer Verwandter ist im Tier ein Nervengift.
 
 ## AAKG (Arginin-Alpha-Ketoglutarat)
 https://biohackingkompakt.de/thema/aakg.html
@@ -180,6 +190,11 @@ https://biohackingkompakt.de/thema/akkermansia.html
 
 Akkermansia muciniphila baut Mucin ab, den Schleim, der die Darmwand auskleidet, und treibt damit dessen Neubildung an. In der einzigen kontrollierten Studie am Menschen, 3 Monate lang mit 32 auswertbaren Teilnehmern, verbesserte die pasteurisierte, also durch Erhitzen abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent und senkte Insulinspiegel und Gesamtcholesterin; die lebenden Bakterien zeigten das nicht sauber. Der beworbene Gewichtsverlust von gut 2 Kilogramm war in derselben Studie gegen Placebo statistisch nicht abgesichert. In der EU ist ausschließlich die pasteurisierte Form als neuartiges Lebensmittel zugelassen, die lebende nicht. Ob Akkermansia das Leben verlängert, hat nie jemand gemessen.
 
+## Aktivkohle
+https://biohackingkompakt.de/thema/aktivkohle.html
+
+Aktivkohle bindet im Darm gelöste Stoffe an ihre riesige innere Oberfläche, und genau das ist am Menschen gut gemessen: Arzneistoffe gelangen deutlich schlechter ins Blut. Deshalb ist medizinische Kohle in Deutschland als Arzneimittel gegen akuten Durchfall und bei Vergiftungen zugelassen, und die EU erlaubt eine Gesundheitsangabe zu Blähungen. Für den täglichen „Detox“ bei Gesunden gibt es dagegen keine Studien, und die Kohle fängt auch Medikamente ab.
+
 ## Alarelin
 https://biohackingkompakt.de/thema/alarelin.html
 
@@ -199,6 +214,11 @@ Alpha-GPC, ausgeschrieben Alpha-Glycerylphosphorylcholin, liefert Cholin, den Ba
 https://biohackingkompakt.de/thema/alpha-liponsaeure.html
 
 Alpha-Liponsäure ist eine schwefelhaltige Fettsäure, die dein Körper selbst bildet und die als Cofaktor mitochondrialer Enzymkomplexe arbeitet. Der bestbelegte Nutzen liegt bei den brennenden, stechenden und kribbelnden Missempfindungen der diabetischen Polyneuropathie: Eine Meta-Analyse über 10 randomisierte Studien mit 1.242 Patienten fand den Symptomscore um 1,69 Punkte besser als unter Placebo, die Patientenzufriedenheit lag mit einem Odds Ratio von 2,48 klar darüber. Die objektiven Nervenmesswerte besserten sich dagegen nicht, und die beiden längsten Studien haben ihren primären Endpunkt verfehlt. Zwei Dinge noch: Die Evidenz stammt fast vollständig aus dem Racemat, nicht aus der beworbenen R-Form. Und in seltenen Fällen löst die Substanz bei genetisch veranlagten Menschen ein Insulin-Autoimmun-Syndrom mit schweren Unterzuckerungen aus.
+
+## Alprostadil (Caverject, MUSE, Vitaros)
+https://biohackingkompakt.de/thema/alprostadil.html
+
+Für die Spritze in den Schwellkörper, die Schwellkörper-Autoinjektionstherapie, gibt es große Studien: In einer 6-monatigen Studie mit 683 Männern war nach 94 Prozent der Injektionen Sex möglich, Männer und Partnerinnen bewerteten ihn nach 87 und 86 Prozent als befriedigend. Das Stäbchen für die Harnröhre führte bei knapp zwei Dritteln der Männer zu Hause zu mindestens einem erfolgreichen Verkehr, gegenüber knapp einem Fünftel unter Placebo; die Creme verbesserte den Erektionsfunktions-Score moderat. Häufigste Nebenwirkung sind Penisschmerzen; nach Injektionen kommen selten Dauererektionen und Vernarbungen im Schwellkörper vor. Alle drei Formen sind in Deutschland verschreibungspflichtig zugelassen, die Spritze wird in der Arztpraxis auf die individuelle Dosis eingestellt.
 
 ## Aminosäuren (EAA & BCAA)
 https://biohackingkompakt.de/thema/aminosaeuren.html
@@ -300,6 +320,11 @@ https://biohackingkompakt.de/thema/baikal-helmkraut.html
 
 Baikal-Helmkraut (Scutellaria baicalensis) ist eine Wurzel aus der traditionellen chinesischen und japanischen Medizin, deren Flavone im Labor entzündungshemmend wirken und, im Fall von Wogonin, an denselben Rezeptor binden wie Beruhigungsmittel. In einer chinesischen Studie mit 374 Herz- und Rheumapatienten verbesserte Baicalin zusätzlich zur Standardtherapie Blutfette und Entzündungswerte, in einer kleinen Studie die Glukosetoleranz bei Typ-2-Diabetes. Systematische Übersichten von Humanstudien fehlen, und die meisten Studien testen Mischungen. Der Haken: Ein Kombinationspräparat mit Baicalin wurde in den USA nach Leber- und Lungenschäden zurückgerufen, und in China liegt die Rate bestätigter Leberschäden unter Helmkraut bei 0,095 Prozent. Als Nahrungsergänzung ist die Wurzel in Deutschland verkehrsfähig.
 
+## Baldrian (Baldrianwurzel)
+https://biohackingkompakt.de/thema/baldrian.html
+
+Baldrian ist eines der ältesten pflanzlichen Schlafmittel Europas und bis heute behördlich als Arzneipflanze anerkannt: Für ethanolische Trockenextrakte sieht der Kräuterausschuss der Europäischen Arzneimittel-Agentur die Wirkung bei leichter nervöser Anspannung und Schlafstörungen als durch Studien gestützt an. In Meta-Analysen berichten Anwender häufiger besseren Schlaf als unter Placebo, und schwere Nebenwirkungen sind nicht bekannt. Bei der Einschlafzeit und im Schlaflabor zeigt sich der Effekt allerdings nicht.
+
 ## BAM15
 https://biohackingkompakt.de/thema/bam15.html
 
@@ -375,6 +400,11 @@ https://biohackingkompakt.de/thema/bpc-157.html
 
 BPC-157 ist ein synthetisches Pentadecapeptid, das als Reparaturmittel für Sehnen, Bänder und Darmschleimhaut verkauft wird. Der entscheidende Befund ist ein Negativbefund: Es existiert keine einzige publizierte randomisierte kontrollierte Humanstudie.
 
+## Bromantan (Ladasten)
+https://biohackingkompakt.de/thema/bromantan.html
+
+Bromantan stammt aus der russischen Forschung an sogenannten Aktoprotektoren, Stoffen, die körperliche und geistige Belastbarkeit erhöhen sollen. In Russland ist es als Ladasten ein verschreibungspflichtiges Mittel gegen Erschöpfungszustände. International bekannt wurde es 1996 als Dopingfall bei den Olympischen Spielen in Atlanta. Russische Studien zeigen weniger Erschöpfung als unter Placebo; unabhängige Daten fehlen.
+
 ## Bromelain
 https://biohackingkompakt.de/thema/bromelain.html
 
@@ -429,6 +459,11 @@ Cartalax ist ein synthetisches Tripeptid aus der St. Petersburger Bioregulator-F
 https://biohackingkompakt.de/thema/cbd.html
 
 CBD wirkt nicht berauschend und aktiviert die klassischen Cannabinoid-Rezeptoren nicht, sondern greift an mehreren anderen Stellen an, unter anderem bremst es den Abbau des körpereigenen Cannabinoids Anandamid. Sehr gut belegt ist die Wirkung gegen Anfälle bei Dravet- und Lennox-Gastaut-Syndrom, dafür ist das Arzneimittel Epidyolex seit 2019 in der EU zugelassen. Für Angst gibt es positive kleine Studien und eine günstige Meta-Analyse, für Schlaf kaum Studien an Betroffenen, bei Schmerz ein gemischtes Bild. Der Haken sind Leberwerte, Wechselwirkungen mit Medikamenten und die schwankende Qualität frei verkaufter Öle. In Deutschland ist CBD als Nahrungsergänzung nicht verkehrsfähig und als Arzneistoff verschreibungspflichtig.
+
+## CBN (Cannabinol)
+https://biohackingkompakt.de/thema/cbn.html
+
+Die beiden randomisierten Studien zu CBN und Schlaf verfehlten ihren Hauptendpunkt, zeigen aber Bewegung in die erhoffte Richtung: Bei 293 Erwachsenen mit schlechtem Schlaf wachten die Teilnehmenden mit CBN seltener auf, und im Schlaflabor schliefen 20 Menschen mit Insomnie mit der hohen Studiendosis schneller ein und bewerteten ihren Schlaf besser. Bei Ratten verlängerte CBN den Schlaf deutlich, ein Abbaustoff wirkt am Cannabinoid-Rezeptor ähnlich wie THC. Langzeitdaten am Menschen fehlen, bei Mäusen entstanden Toleranz und Abhängigkeit. In der EU ist CBN ein nicht zugelassenes neuartiges Lebensmittel, im Wettkampfsport ist es verboten.
 
 ## Cerebrolysin
 https://biohackingkompakt.de/thema/cerebrolysin.html
@@ -490,6 +525,11 @@ https://biohackingkompakt.de/thema/cjc-1295-dac.html
 
 CJC-1295 mit DAC ist ein langwirksames Analogon des körpereigenen Freisetzungshormons GHRH, das die Hirnanhangsdrüse zu mehr Wachstumshormon anregt. In zwei randomisierten, placebokontrollierten Studien an Gesunden stieg das Wachstumshormon nach einer einzigen Gabe im Mittel auf das 2- bis 10-Fache für 6 Tage oder länger, IGF-1 auf das 1,5- bis 3-Fache für 9 bis 11 Tage, bei einer Halbwertszeit von 5,8 bis 8,1 Tagen. Die natürlichen Pulse blieben dabei erhalten. Wirksamkeitsdaten zu Schlaf, Muskel oder Regeneration gibt es nicht, die einzige Phase-2-Studie wurde 2006 nach einem Todesfall mit ungeklärtem Zusammenhang abgebrochen, zugelassen wurde das Peptid nie.
 
+## Clascoteron (Winlevi / Breezula)
+https://biohackingkompakt.de/thema/clascoteron.html
+
+Clascoteron ist der erste zugelassene Wirkstoff, der den Androgenrezeptor direkt in der Haut hemmt. Als Creme Winlevi ist er gegen Akne in den USA seit 2020 und in der EU seit Oktober 2025 zugelassen. Gegen erblich bedingten Haarausfall hat der Hersteller Ende 2025 zwei erfolgreiche Phase-3-Studien mit 1.465 Männern gemeldet. Wie groß der Effekt in absoluten Haarzahlen ist, steht bisher in keiner Veröffentlichung.
+
 ## Clenbuterol
 https://biohackingkompakt.de/thema/clenbuterol.html
 
@@ -504,6 +544,11 @@ Clomifen ist seit Jahrzehnten zugelassen, um bei Frauen mit ausbleibendem Eispru
 https://biohackingkompakt.de/thema/coq10.html
 
 Coenzym Q10 ist ein körpereigenes, fettlösliches Molekül, das in der Atmungskette Elektronen transportiert und nebenbei als Antioxidans wirkt. Der stärkste klinische Befund kommt aus der Herzinsuffizienz: In der Q-SYMBIO-Studie mit 420 Patienten erreichten über 2 Jahre 15 % der CoQ10-Gruppe den kombinierten Endpunkt schwerer kardiovaskulärer Ereignisse gegenüber 26 % unter Placebo. Der Cochrane-Review stuft Sterblichkeit und Klinikaufenthalte als Evidenz moderater Qualität ein, merkt aber an, dass das Sterblichkeitsergebnis aus genau dieser einen Studie stammt. Für Migräneprophylaxe und Spermienparameter liegen ebenfalls positive Meta-Analysen vor. Der Haken: Bei Gesunden steigen die Blutspiegel zuverlässig, die Leistungsfähigkeit aber nicht messbar, und bei Statin-Muskelbeschwerden widersprechen sich die Studien.
+
+## Colchicin (niedrig dosiert, Herz-Kreislauf-Vorbeugung)
+https://biohackingkompakt.de/thema/colchicin.html
+
+Colchicin ist ein altes Gichtmittel aus der Herbstzeitlose, und es hat eine bemerkenswerte zweite Karriere gemacht: In niedriger Dosis dämpft es die Entzündung in den Gefäßwänden und senkte in zwei großen Studien schwere Herz-Kreislauf-Ereignisse um 23 bis 31 Prozent. Die USA haben es 2023 dafür zugelassen, die EU im Juli 2026. Direkt nach einem Herzinfarkt und nach einem Schlaganfall fanden neuere Studien allerdings keinen klaren Nutzen.
 
 ## Colostrum (bovin)
 https://biohackingkompakt.de/thema/colostrum.html
@@ -545,6 +590,11 @@ https://biohackingkompakt.de/thema/d-ribose.html
 
 D-Ribose ist ein Zucker, aus dem der Körper das Grundgerüst des Energieträgers ATP baut, und wird als Energiequelle bei Herzschwäche, chronischer Erschöpfung und im Sport verkauft. Bei Herzerkrankungen gibt es kleine, teils positive Studien. Bei Erschöpfung und Fibromyalgie fehlt eine kontrollierte Studie, beim Sport blieb ein Effekt aus. Dafür senkt Ribose den Blutzucker.
 
+## Dapoxetin (Priligy)
+https://biohackingkompakt.de/thema/dapoxetin.html
+
+Die Datenlage zu Dapoxetin ist gut: In fünf randomisierten Phase-3-Studien mit 6.081 Männern stieg die mittlere Zeit bis zum Samenerguss von 0,9 Minuten auf 3,1 Minuten unter 30 mg und 3,6 Minuten unter 60 mg, unter Placebo auf 1,9 Minuten. Auch Kontrolle, Zufriedenheit und Leidensdruck besserten sich, und die Wirkung setzte schon mit der ersten Tablette ein. Die häufigste Nebenwirkung ist Übelkeit, das wichtigste Risiko eine Ohnmacht, die bei 0,06 bis 0,23 Prozent der Studienteilnehmer auftrat; deshalb sieht die Fachinformation vor Beginn einen Blutdrucktest im Liegen und Stehen vor. In Beobachtungsstudien beendeten rund 90 Prozent der Männer die Behandlung innerhalb eines Jahres, am häufigsten wegen der Kosten und weil die Tablette jedes Mal nötig ist.
+
 ## Dasatinib + Quercetin (Senolytic-Stack)
 https://biohackingkompakt.de/thema/senolytic-dq.html
 
@@ -560,6 +610,11 @@ https://biohackingkompakt.de/thema/dgl-suessholz.html
 
 DGL ist Süßholzwurzel, aus der das Glycyrrhizin weitgehend entfernt wurde, also genau der Stoff, der bei Lakritz den Blutdruck steigen und Kalium sinken lässt. Beworben wird DGL gegen Sodbrennen, Reizmagen und Magengeschwüre. Die älteren placebokontrollierten Studien bei Geschwüren fanden keinen Nutzen, neuere doppelblinde Studien mit einem einzigen Spezialextrakt zeigen bessere Werte bei Dyspepsie und Reflux.
 
+## DHB (1-Testosteron, Dihydroboldenon)
+https://biohackingkompakt.de/thema/dhb.html
+
+1-Testosteron bindet hoch selektiv am Androgenrezeptor und wirkte bei Ratten so stark aufbauend wie Testosteronpropionat, ließ aber zusätzlich das Lebergewicht steigen. Am Menschen gibt es nur einen indirekten Beleg: Eine Vorstufe, die im Körper unter anderem zu 1-Testosteron wird, steigerte bei 17 trainierten Männern in 4 Wochen die fettfreie Masse um 6,3 Prozent und die Kniebeuge-Maximalkraft um 14,3 Prozent, deutlich mehr als Placebo. In derselben Studie fiel das HDL-Cholesterin um fast 40 Prozent, und Leber- und Nierenwerte verschlechterten sich. Zu DHB selbst gibt es weder Wirkungs- noch Sicherheitsdaten. In Deutschland steht 1-Testosteron namentlich in der Anlage des Anti-Doping-Gesetzes, im Sport ist es jederzeit verboten.
+
 ## DHEA (Dehydroepiandrosteron)
 https://biohackingkompakt.de/thema/dhea.html
 
@@ -569,6 +624,11 @@ DHEA, ausgeschrieben Dehydroepiandrosteron, ist eine Hormonvorstufe, aus der der
 https://biohackingkompakt.de/thema/dihexa.html
 
 Dihexa setzt an einem realen Signalweg an: HGF und c-Met steuern nachweislich, wie Nervenzellen Verästelungen bilden und wie Synapsen reifen. Ob ausgerechnet Dihexa diesen Weg bedient, steht seit April 2025 offen, denn das Journal of Pharmacology and Experimental Therapeutics hat 3 Arbeiten der Ursprungsgruppe zurückgezogen — darunter die von Benoist und Kollegen aus 2014, die den Mechanismus überhaupt erst gezeigt hatte. Am Menschen gibt es zu Dihexa keine einzige eingetragene klinische Studie. Das Wirkprinzip wurde mit einem anderen Molekül geprüft und ist gescheitert: LIFT-AD verfehlte 2024 den Hauptendpunkt bei einem p-Wert von 0,7. Die Zahl, die überall steht — 7 Zehnerpotenzen stärker als BDNF —, stammt aus einer Pressemitteilung.
+
+## Dihydromyricetin (DHM)
+https://biohackingkompakt.de/thema/dihydromyricetin.html
+
+Dihydromyricetin, kurz DHM, ist der Wirkstoff hinter vielen Anti-Kater-Produkten. Die Idee stammt aus einer Rattenstudie, in der DHM Alkoholwirkungen am GABA-A-Rezeptor aufhob, und am Menschen gibt es zwei kleine randomisierte Studien bei Fettleber mit sinkenden Leberwerten. Gegen den Kater wurden bisher nur Extrakte des Japanischen Rosinenbaums geprüft, nicht DHM allein.
 
 ## DIM (Diindolylmethan)
 https://biohackingkompakt.de/thema/dim.html
@@ -604,6 +664,11 @@ DSIP ist ein körpereigenes Nonapeptid aus neun Aminosäuren, das bei Kaninchen 
 https://biohackingkompakt.de/thema/dutasterid.html
 
 Dutasterid hemmt beide Enzyme, die Testosteron in DHT umwandeln, und senkt das Hormon damit stärker als Finasterid. In verblindeten Studien über 24 Wochen wuchs darunter mehr Haar als unter Placebo und als unter Finasterid. In Deutschland ist es aber nur gegen die gutartige Prostatavergrößerung zugelassen; gegen Haarausfall ist es eine nicht zugelassene Anwendung, anders als in Japan und Südkorea. Dazu kommen eine Halbwertszeit von Wochen und dieselben Warnhinweise wie bei Finasterid.
+
+## Ecnoglutid (Ecnoglutide)
+https://biohackingkompakt.de/thema/ecnoglutid.html
+
+Ecnoglutid ist ein GLP-1-Wochenpeptid der chinesischen Firma Sciwind Biosciences, das am Rezeptor bevorzugt das cAMP-Signal auslöst. In einer Phase-3-Studie mit 664 Erwachsenen sank das Gewicht nach 40 Wochen um 9,1 bis 13,2 Prozent, bei Typ-2-Diabetes senkte es den Blutzucker in zwei Phase-3-Studien deutlich, gegenüber Dulaglutid sogar etwas stärker. Seit 2026 ist es in China zugelassen, in der EU nicht.
 
 ## Eisen
 https://biohackingkompakt.de/thema/eisen.html
@@ -685,6 +750,11 @@ https://biohackingkompakt.de/thema/fasten-autophagie.html
 
 Intervallfasten verschiebt die Essenszeiten; die Autophagie gilt als sein wichtigstes Versprechen. In der längsten Vergleichsstudie verloren beide Gruppen deutlich Gewicht – das Zeitfenster jedoch nicht mehr als das gleich große Kaloriendefizit, und eine Zunahme der Autophagie ist beim Menschen bisher nur in einer explorativen Auswertung angedeutet.
 
+## Fettweg-Spritzen (Injektionslipolyse)
+https://biohackingkompakt.de/thema/fettweg-spritzen.html
+
+Hinter dem Wort „Fettweg-Spritze“ stecken sehr unterschiedliche Dinge. Am besten belegt ist Deoxycholsäure, als Kybella oder Belkyra ein zugelassenes Arzneimittel: In zwei Phase-3-Studien mit über 1.000 Teilnehmern wurde das Doppelkinn bei rund zwei Dritteln sichtbar kleiner. Für Mischungen mit Phosphatidylcholin gibt es kleinere Studien. Für das Produkt „Lemon Bottle“ gibt es eine Behördenwarnung, und für lipotrope Lipo-B-, Lipo-C- oder MIC-Spritzen haben wir keine Studie zum Fettabbau gefunden.
+
 ## Finasterid
 https://biohackingkompakt.de/thema/finasterid.html
 
@@ -699,6 +769,11 @@ Fisetin räumte 2018 in Zellkultur und bei Mäusen gealterte, sogenannte senesze
 https://biohackingkompakt.de/thema/floating.html
 
 Floating ist eine Form der Reizreduktion, in der Forschung Flotation-REST genannt. Eine einzelne Stunde senkte in Studien die momentane Angst deutlich, in einer kleinen randomisierten Studie zur generalisierten Angststörung erreichten 37 Prozent der Floater eine Remission. Die Sitzungen sind gut verträglich, schwere Nebenwirkungen wurden nicht beobachtet. Der Haken: Die Studien sind klein, meist ohne Scheinbehandlung, und die einzige mit einem echten Placebo im selben Tank fand bei chronischen Schmerzen keinen Unterschied.
+
+## Fluoxymesteron (Halotestin)
+https://biohackingkompakt.de/thema/fluoxymesteron.html
+
+Fluoxymesteron war über Jahrzehnte ein zugelassenes Arzneimittel, und das macht es unter den Tabletten-Steroiden vergleichsweise gut untersucht. In einer randomisierten Studie mit 238 Frauen mit metastasiertem Brustkrebs sprachen zusätzlich zu Tamoxifen 53 statt 42 Prozent an, einen Überlebensvorteil gab es nicht; nach einer Brustkrebs-Operation brachte es in einer Studie mit 541 Frauen keinen Vorteil. Bei Jungen mit verzögertem Wachstum beschleunigte es das Längenwachstum, ohne die Endgröße zu schmälern. Zu Muskeln, Kraft oder Leistung bei Gesunden fehlen Daten. Die Fachinformation warnt deutlich vor Leberschäden bis zu Tumoren; in den USA ist kein Präparat mehr im Handel, in Deutschland ist der Wirkstoff verschreibungspflichtig und steht in der Anlage des Anti-Doping-Gesetzes.
 
 ## Follistatin / Myostatin-Hemmer
 https://biohackingkompakt.de/thema/follistatin.html
@@ -729,6 +804,11 @@ Orales GABA wird schnell ins Blut aufgenommen und ist kurzfristig gut verträgli
 https://biohackingkompakt.de/thema/gamma-butyrobetain.html
 
 GBB ist die unmittelbare Vorstufe von L-Carnitin, das Fettsäuren in die Mitochondrien bringt. In einer Studie von 1989 steigerte GBB bei Erwachsenen die Carnitinbildung deutlich stärker als andere Vorstufen, allerdings ohne Kontrollgruppe und nur über 10 Tage. Eine placebokontrollierte Studie zu Fettabbau, Energie oder Leistung gibt es nicht, und Beobachtungsdaten verbinden hohe GBB-Blutwerte bei Gefäßpatienten mit einer schlechteren Prognose. In der EU ist isoliertes GBB nicht als Lebensmittel zugelassen. Wichtig für Sportler: GBB selbst steht nicht auf der Dopingliste, sein Gegenspieler Meldonium aber schon.
+
+## Ganzkörper-MRT (Selbstzahler-Vorsorge)
+https://biohackingkompakt.de/thema/ganzkoerper-mrt.html
+
+In einer Meta-Analyse aus zehn Studien mit 9.024 Menschen ohne Beschwerden wurde bei 1,57 Prozent ein Krebs bestätigt. Abklärungsbedürftige Zufallsbefunde, kritische und unklare zusammen, hatte in einer früheren Auswertung etwa jeder Dritte, und rund 16 Prozent der Befunde erwiesen sich als falsch-positiv, wo das berichtet wurde. In der Bevölkerungsstudie SHIP in Vorpommern stiegen nach der Mitteilung von Befunden die ambulanten Kosten über zwei Jahre um 11,6 Prozent. Eine randomisierte Studie zu Sterblichkeit oder Krankheitslast gibt es nicht; das American College of Radiology empfiehlt die Untersuchung für Menschen ohne Beschwerden, Risikofaktoren oder familiäre Belastung nicht.
 
 ## Ganzkörperhyperthermie
 https://biohackingkompakt.de/thema/hyperthermie.html
@@ -885,10 +965,20 @@ https://biohackingkompakt.de/thema/hyaluronsaeure.html
 
 Hyaluronsäure ist ein körpereigener Baustein des Bindegewebes, der in Haut, Gelenkflüssigkeit und Auge Wasser bindet. Als Kapsel eingenommen verbesserte sie in einer Meta-Analyse über 7 randomisierte Studien Hautfeuchtigkeit, Elastizität und Faltentiefe. Die größte Einzelstudie mit 150 Erwachsenen bestätigt das nach 12 Wochen, mit 120 mg deutlicher als mit 60 mg. Bei leichter Arthrose berichten die meisten kleinen Studien weniger Schmerzen. Der Haken: Gemessen wird mit kosmetischen Verfahren, die Studien sind klein und oft von Rohstoffherstellern getragen, und wie die Wirkung zustande kommt, ist am Menschen nicht gezeigt.
 
+## Hydroxytyrosol und Olivenpolyphenole
+https://biohackingkompakt.de/thema/hydroxytyrosol.html
+
+Hydroxytyrosol ist ein Polyphenol der Olive, und für polyphenolreiches Olivenöl erlaubt die EU die Angabe, dass es die Blutfette vor oxidativem Stress schützt. Auch Kapseln mit Hydroxytyrosol oder Olivenblattextrakt verbesserten in Studien Oxidationsmarker, Blutfette und Blutdruck. Die amtliche Angabe gilt aber nur für Olivenöl, und nicht jede Kapselstudie fand einen Effekt.
+
 ## Hyperbare Sauerstofftherapie (HBOT)
 https://biohackingkompakt.de/thema/hbot.html
 
 Unter Überdruck löst sich Sauerstoff zusätzlich direkt im Blutplasma und erreicht so auch schlecht durchblutetes Gewebe. Beim diabetischen Fußulkus heilten in einer Cochrane-Auswertung nach sechs Wochen mehr Wunden, und in Deutschland ist die Therapie dafür Kassenleistung. Für Gesunde im Alter zeigten Studien aus Tel Aviv längere Telomere in Immunzellen nach 60 Sitzungen und in kleinen randomisierten Studien bessere Aufmerksamkeit und höhere Ausdauer. Der Haken: Die Telomer-Studie hatte keine Kontrollgruppe, alle Longevity-Daten stammen aus demselben Zentrum, und die günstigen Soft-Kammern arbeiten mit einem Bruchteil des Studiendrucks.
+
+## Ibogain
+https://biohackingkompakt.de/thema/ibogain.html
+
+Die Signale sind bemerkenswert: In Beobachtungsstudien sank der Opioidentzug nach einer einzigen Gabe deutlich, die Hälfte der Teilnehmenden war nach einem Monat ohne Opioide, und bei 30 Veteranen mit Hirnverletzung besserten sich Alltagsfunktion, PTBS, Depression und Angst stark. Alle diese Studien hatten keine Kontrollgruppe; eine veröffentlichte placebokontrollierte Wirksamkeitsstudie gibt es bisher nicht. Gut belegt ist dagegen das Herzrisiko: Ibogain verlängert die QT-Zeit im EKG deutlich, und Todesfälle sind dokumentiert. In Deutschland steht Ibogain weder im Betäubungsmittelgesetz noch auf der Liste verschreibungspflichtiger Stoffe, ein zugelassenes Arzneimittel gibt es aber nirgends in der EU.
 
 ## IGF-1 DES
 https://biohackingkompakt.de/thema/igf-1-des.html
@@ -930,6 +1020,11 @@ https://biohackingkompakt.de/thema/iv-vitamintherapie.html
 
 Eine Infusion umgeht den Darm, deshalb erreichen etwa Vitamin C und Magnesium im Blut Werte, die mit Tabletten nicht möglich sind. Bei nachgewiesenem Mangel oder gestörter Aufnahme ist das sinnvolle Medizin. Für den Myers-Cocktail gibt es genau eine kontrollierte Studie, eine Pilotstudie mit 34 Fibromyalgie-Patienten: Beiden Gruppen ging es besser, der Infusion und dem Placebo, ein Unterschied zeigte sich nicht. Der Haken: Für Energie, Immunstärkung oder Anti-Aging bei Gesunden fehlen Studien, und hochdosiertes Vitamin C kann bei einem angeborenen Enzymmangel rote Blutkörperchen zerstören.
 
+## Ivermectin
+https://biohackingkompakt.de/thema/ivermectin.html
+
+Ivermectin ist eine der großen Erfolgsgeschichten der Medizin: Die Entdeckung der Avermectine wurde 2015 mit dem Nobelpreis ausgezeichnet, weil sie Flussblindheit und lymphatische Filariose weltweit zurückgedrängt hat. In Deutschland ist Ivermectin gegen Krätze und Fadenwürmer zugelassen. Gegen Covid-19 wurde es in drei großen randomisierten Studien gründlich geprüft und brachte keinen relevanten Nutzen. Für Krebs und Langlebigkeit gibt es bisher nur Labordaten.
+
 ## Jod
 https://biohackingkompakt.de/thema/jod.html
 
@@ -950,10 +1045,20 @@ https://biohackingkompakt.de/thema/kanna.html
 
 Kanna (Sceletium tortuosum) enthält Mesembrin-Alkaloide, die im Labor den Serotonintransporter und das Enzym PDE4 hemmen, also an zwei Stellen ansetzen, die auch in der Behandlung von Angst und Depression eine Rolle spielen. In einer Hirnscan-Studie dämpfte eine Einzeldosis die Reaktion des Angstzentrums auf bedrohliche Gesichter, in kleinen Placebo-Studien verbesserten sich kognitive Flexibilität und das Angstempfinden vor Stress. Der Haken: Alle Studien sind klein, kurz und an Gesunden gemacht, meist mit demselben Markenextrakt. In Deutschland ist Kanna ein nicht zugelassenes Novel Food; ein Zulassungsantrag läuft.
 
+## Kava-Kava
+https://biohackingkompakt.de/thema/kava.html
+
+Kava ist bei Angst in mehreren kontrollierten Studien untersucht: Eine Cochrane-Übersicht über 11 doppelblinde Studien fand weniger Angst als unter Placebo, und eine Studie von 2013 bestätigte das bei generalisierter Angststörung mit einem mittleren Effekt. Die größte und längste Studie mit 171 Menschen über 16 Wochen fand 2020 aber keinen Vorteil, dafür häufiger auffällige Leberwerte. Die EMA sieht wegen gemeldeter Leberschäden bis zu Transplantationen und Todesfällen ein ungünstiges Nutzen-Risiko-Verhältnis. In Deutschland sind Kava-Wurzelstock, seine Zubereitungen und Kavain verschreibungspflichtig, eine Freigabe als Lebensmittel gibt es nicht.
+
 ## Ketamin und Esketamin (Spravato)
 https://biohackingkompakt.de/thema/ketamin.html
 
 Ketamin ist seit Jahrzehnten ein Narkosemittel. Seit 2019 ist eine Form davon, das Esketamin-Nasenspray Spravato, in der EU gegen therapieresistente Depression zugelassen, und Ketamin-Infusionen werden außerhalb der Zulassung gegen Depression eingesetzt. Gleichzeitig ist Ketamin eine Partydroge, und unter dem Stichwort Microdosing wird es auch in kleinen Mengen genommen. Die Datenlage könnte zwischen diesen Welten kaum unterschiedlicher sein.
+
+## Ketoconazol-Shampoo gegen Haarausfall
+https://biohackingkompakt.de/thema/ketoconazol.html
+
+Ketoconazol ist ein Wirkstoff gegen Hautpilze, der als 2-prozentiges Shampoo rezeptfrei in der Apotheke steht. Gegen erblich bedingten Haarausfall ist es nicht zugelassen, wird aber seit den 1990er-Jahren als Ergänzung zu Minoxidil und Finasterid untersucht. Kleine Studien zeigen dickere Haare und weniger Haarverlust. Eine Studie gegen Placebo fehlt bis heute.
 
 ## Kisspeptin-10
 https://biohackingkompakt.de/thema/kisspeptin.html
@@ -1020,6 +1125,11 @@ https://biohackingkompakt.de/thema/l-arginin.html
 
 Arginin senkt den Blutdruck messbar: Eine Meta-Analyse aus 22 randomisierten Studien fand systolisch minus 6,40 mmHg und diastolisch minus 2,64 mmHg, eine ältere aus 11 Studien ein ähnliches Ergebnis. Bei leichter bis mittelgradiger Erektionsstörung verbesserten sich die Beschwerden in 10 Studien deutlich häufiger als unter Placebo, PDE5-Hemmer wirken aber stärker. Für die Sportleistung gibt es eine Meta-Analyse, deren Methodik inzwischen kritisiert wurde. Aus dem Darm wird nur etwa 20 % aufgenommen, weshalb die Vorstufe Citrullin den Arginin-Spiegel besser hebt. Der wichtigste Haken: Nach einem akuten Herzinfarkt starben in einer Studie unter Arginin 6 Patienten, unter Placebo keiner.
 
+## L-Carnitin
+https://biohackingkompakt.de/thema/l-carnitin.html
+
+L-Carnitin ist der körpereigene Transporter, der Fettsäuren in die Kraftwerke der Zelle bringt. Als Supplement hat es mehr Studien hinter sich als die meisten Sportprodukte: Muskelkater fiel in Meta-Analysen etwas geringer aus, das Körpergewicht im Mittel gut ein Kilogramm. Offen ist vor allem eine Frage aus dem Darm, das Abbauprodukt TMAO.
+
 ## L-Citrullin (-Malat)
 https://biohackingkompakt.de/thema/citrullin.html
 
@@ -1064,6 +1174,11 @@ Wer lange im Wasser liegt, scheidet messbar Wasser und Salz aus. In einem Versuc
 https://biohackingkompakt.de/thema/larazotide.html
 
 Larazotid blockiert die Wirkung von Zonulin, einem körpereigenen Eiweiß, das die Tight Junctions zwischen den Darmzellen öffnet. Die Idee ist klar: Wenn das Problem eine offene Tür ist, mach die Tür zu. Geprüft wurde das in der Phase-3-Studie CedLara an Zöliakiepatienten, die trotz strikt glutenfreier Ernährung weiter Beschwerden hatten (geplant 525, bis zum Abbruch 307 eingeschlossen) — die günstigste denkbare Ausgangslage. Am 21. Juni 2022 wurde die Studie wegen Aussichtslosigkeit beendet. Erhöhte Darmdurchlässigkeit ist real und messbar; dass man sie pharmakologisch zudrehen kann und es den Patienten dann besser geht, hat diesen Test nicht bestanden.
+
+## Lavendelöl oral (Silexan)
+https://biohackingkompakt.de/thema/lavendeloel.html
+
+Lavendelöl zum Einnehmen ist mehr als ein Hausmittel: Das definierte Öl Silexan ist in Deutschland seit 2009 als Arzneimittel Lasea zugelassen, gegen Unruhe bei ängstlicher Verstimmung. In fünf placebokontrollierten Studien mit über 1.200 Teilnehmern sank die Angst stärker als unter Placebo, bei generalisierter Angststörung mindestens so stark wie unter dem Antidepressivum Paroxetin, und der Schlaf besserte sich mit, ohne dass das Öl müde machte. Die großen Studien entstanden mit Beteiligung des Herstellers, und für Schlafstörungen ohne Angst gibt es keine eigenen Daten.
 
 ## Letrozol
 https://biohackingkompakt.de/thema/letrozol.html
@@ -1130,15 +1245,30 @@ https://biohackingkompakt.de/thema/long-covid.html
 
 Long Covid oder Post-Covid bezeichnet Beschwerden, die meist 3 Monate nach einer Infektion bestehen, mindestens 2 Monate anhalten und sich nicht anders erklären lassen, typisch sind Erschöpfung, Atemnot und Konzentrationsstörungen. Am besten belegt sind kognitive Verhaltenstherapie, eine kombinierte körperliche und psychische Rehabilitation und vorsichtig dosiertes Training, mit moderater Vertrauenswürdigkeit. Wer nach Belastung einen Einbruch erlebt, braucht Pacing statt Durchhalten. Für Geräteverfahren wie Hypoxietraining oder Hyperthermie gibt es erste Signale, aber keine randomisierten Studien, und eine Therapie, die Mitochondrien regeneriert, ist nicht belegt.
 
+## Low-Dose-Naltrexon (LDN)
+https://biohackingkompakt.de/thema/low-dose-naltrexon.html
+
+Low-Dose-Naltrexon, kurz LDN, ist ein Bruchteil der zugelassenen Naltrexon-Dosis und hat sich seit Jahren eine treue Anhängerschaft bei Fibromyalgie, Long Covid und Autoimmunerkrankungen erarbeitet. Es ist günstig und gut verträglich, und frühe kleine Studien waren ermutigend. Die beiden größten Studien bei Fibromyalgie fanden beim Schmerz allerdings keinen Unterschied zu Placebo, für Long Covid fehlt eine randomisierte Studie bislang ganz.
+
 ## Löwenmähne (Lion's Mane)
 https://biohackingkompakt.de/thema/loewenmaehne.html
 
 Löwenmähne ist ein Pilz, dessen Extrakt in Zellkultur die Produktion von Nervenwachstumsfaktor anregt und der im Tierversuch Gedächtnisverluste abmildert. Ob im menschlichen Gehirn davon etwas ankommt, hat keine Studie gemessen. Es gibt 6 kontrollierte Humanstudien mit zusammen rund 200 Teilnehmern; die beiden positivsten stammen jeweils aus dem Haus eines Herstellers, und der bekannteste Effekt verschwand 4 Wochen nach dem Absetzen wieder. Die einzige lange Studie an Menschen mit leichter Alzheimer-Demenz lief 49 Wochen und fiel zugunsten des Pilzes aus, muss aber von jemandem wiederholt werden, der ihn nicht verkauft. Als Speisepilz ist die Verträglichkeit gut; als Arzneimittel ist er nirgends zugelassen.
 
+## Löwenzahnwurzel
+https://biohackingkompakt.de/thema/loewenzahnwurzel.html
+
+Löwenzahnwurzel gehört zu den klassischen Bittermitteln Europas: bei Völlegefühl, Blähungen, Appetitlosigkeit und um die Harnwege durchzuspülen. Die EU erkennt Löwenzahnwurzel mit Kraut als traditionelles pflanzliches Arzneimittel an, auf Grundlage langer Anwendung. Klinische Studien gibt es dazu nicht, und die einzige Studie mit reinem Wurzelpulver fand keine harntreibende Wirkung.
+
 ## LSD-Microdosing
 https://biohackingkompakt.de/thema/lsd-microdosing.html
 
 Microdosing heißt: LSD wiederholt in so kleinen Mengen nehmen, dass kein Rausch entsteht. Versprochen werden mehr Kreativität, mehr Fokus, bessere Stimmung. Inzwischen gibt es dazu mehrere placebokontrollierte Studien, darunter eine, in der die Teilnehmenden sich selbst verblindet haben. Sie zeichnen ein klares Bild, nur nicht das, das der Trend verspricht.
+
+## Luteolin
+https://biohackingkompakt.de/thema/luteolin.html
+
+Luteolin ist ein Flavonoid aus Pflanzen wie der Kamille, das in Zell- und Tierversuchen Entzündungsprozesse im Nervensystem dämpft. Am Menschen gibt es ermutigende, aber vorläufige Daten: eine offene Pilotstudie bei Kindern mit Autismus und randomisierte Studien zu Long COVID. Geprüft wurde Luteolin dabei immer in Kombination, mit Quercetin oder mit Palmitoylethanolamid.
 
 ## LZ1
 https://biohackingkompakt.de/thema/lz1.html
@@ -1159,6 +1289,11 @@ Magnesium ist Kofaktor von über 300 Enzymreaktionen – diese biochemische Roll
 https://biohackingkompakt.de/thema/magnesium-l-threonat.html
 
 Magnesium-L-Threonat ist ein Salz aus Magnesium und L-Threonsäure, einem Abbauprodukt von Vitamin C. Es liefert wenig Magnesium je Gramm – die EU-Spezifikation nennt 7,2 % bis 8,3 % – und wird nicht wegen der Menge genommen, sondern wegen der Behauptung, es bringe Magnesium besser ins Gehirn. Diese Behauptung ist am Menschen nie gemessen worden: Die Werte aus dem Nervenwasser stammen von Ratten. Drei randomisierte Studien mit 51, 80 und 100 Teilnehmern berichten bessere Testleistungen und teils besseren Schlaf, alle drei sind aber von Herstellern bezahlt. Es fehlt eine unabhängige Bestätigung und jeder Vergleich gegen eine gewöhnliche Magnesiumform.
+
+## Mangan
+https://biohackingkompakt.de/thema/mangan.html
+
+Mangan ist ein Spurenelement, ohne das mehrere Enzyme nicht arbeiten, darunter ein Schutzenzym in den Mitochondrien. Die normale Ernährung liefert in Deutschland im Mittel etwa die empfohlene Menge, zum Beispiel aus Vollkorn, Nüssen und Tee. Zu viel Mangan schadet dem Nervensystem; für Präparate empfiehlt das BfR deshalb eine sehr niedrige Höchstmenge.
 
 ## MariTide (Maridebart Cafraglutide)
 https://biohackingkompakt.de/thema/maritide.html
@@ -1184,6 +1319,11 @@ Mazdutide aktiviert den GLP-1- und den Glukagonrezeptor und wird einmal pro Woch
 https://biohackingkompakt.de/thema/mct-oel.html
 
 MCT-Öl erhöht zuverlässig die Ketonkörper im Blut, am stärksten die reine Caprylsäure C8. In einer 6-monatigen Studie an Menschen mit leichter kognitiver Störung verbesserten sich mehrere Gedächtnis- und Sprachtests, und im Gehirn stieg die Ketonaufnahme messbar. Wer normales Fett durch MCT ersetzt, verliert in Studien etwas Gewicht, im Schnitt 0,51 Kilogramm. Für bessere Ausdauerleistung gibt es dagegen keine Belege, und bei gesunden Erwachsenen sind die Kognitionsdaten klein und widersprüchlich. Der typische Haken ist der Darm: Bei 30 Gramm am Tag bekamen in einer Studie 75 Prozent der Teilnehmer Durchfall.
+
+## MDMA-gestützte Psychotherapie
+https://biohackingkompakt.de/thema/mdma-therapie.html
+
+In zwei randomisierten, doppelblinden Phase-3-Studien mit 90 und 104 Menschen sanken die PTBS-Symptome mit MDMA plus Therapie deutlich stärker als mit derselben Therapie und Placebo, auch bei schwer belasteten Teilnehmenden. Die FDA sah darin im August 2024 trotzdem keinen ausreichenden Beleg: Viele Teilnehmende erkannten, ob sie MDMA bekommen hatten, rund 40 Prozent kannten es schon vorher, die Wirkung war nur bis Woche 18 belegt, und Nebenwirkungen wurden unvollständig erfasst. Australien erlaubt eigens zugelassenen Psychiatern die Verschreibung bei PTBS seit Juli 2023. Laut MAPS wurde der Antrag in den USA im August 2026 erneut eingereicht, eine Entscheidung steht aus. In Deutschland ist MDMA ein nicht verkehrsfähiges Betäubungsmittel.
 
 ## Melanotan 1 (Afamelanotide / Scenesse)
 https://biohackingkompakt.de/thema/melanotan-1.html
@@ -1235,6 +1375,16 @@ https://biohackingkompakt.de/thema/methylfolat.html
 
 Methylfolat, genauer L-5-Methyltetrahydrofolat, ist die biologisch aktive Form des Vitamins Folat. Es hebt den Folatspiegel im Blut mindestens so gut wie Folsäure und senkt Homocystein; in einer Studie über 24 Wochen sogar etwas stärker. Bei Depression, die auf ein SSRI nur unzureichend anspricht, verbesserte ein Zusatz von 15 mg täglich in Studien das Ansprechen mit einem kleinen Effekt, ein internationales Leitlinien-Gremium gibt dafür eine schwache Empfehlung. Die Haken: Diese Dosis liegt weit über der europäischen Obergrenze von 1.000 µg und gehört in ärztliche Hand. Und die verbreitete Aussage, Menschen mit MTHFR-Genvariante könnten Folsäure nicht verwerten, ist nach Angaben der US-Gesundheitsbehörde CDC falsch.
 
+## Methylstenbolon
+https://biohackingkompakt.de/thema/methylstenbolon.html
+
+Methylstenbolon wurde als legal klingende Alternative zu Anabolika vermarktet, oft in Kombination mit Dimethazin. Wie stark es aufbaut, hat niemand am Menschen gemessen; die einzigen Humanstudien stammen aus Dopinglabors und beschreiben die Ausscheidung, mit Abbauprodukten bis zu 29 Tage nach einer einzigen Einnahme. Dokumentiert ist eine Gelbsucht durch Gallenstauung bei einem jungen Mann, der ein solches Produkt nach Herstellerangaben eingenommen hatte, und eine Häufung von Beschwerden in New York, bei der Vitaminpräparate Methylstenbolon und verwandte Steroide enthielten. In Deutschland steht der Stoff namentlich in der Anlage des Anti-Doping-Gesetzes, im Sport ist er jederzeit verboten.
+
+## Methyltrienolon (Metribolon, R1881)
+https://biohackingkompakt.de/thema/methyltrienolon.html
+
+Was Methyltrienolon auszeichnet, ist seine Bindungsstärke: Am Androgenrezeptor haftet es fester als das körpereigene DHT, und anders als dieses wird es im Blut nicht von Transportproteinen abgefangen. Deshalb wurde es in den 1970er Jahren zum Standard-Ligand der Hormonforschung. Am Menschen gibt es nur kleine Arbeiten aus den 1960er Jahren, zum Eiweißaufbau und zur Brustkrebstherapie; ihre Ergebnisse sind nur in den Originalen nachzulesen. Nach einer Übersicht scheiterte die Entwicklung daran, dass der Stoff schon in sehr niedriger Dosis stark lebertoxisch ist. Eine kontrollierte Studie zu Muskeln oder Kraft gibt es nicht. In Deutschland steht der Stoff in der Anlage des Anti-Doping-Gesetzes, im Sport ist er jederzeit verboten.
+
 ## Mikrobiom-Tests mit Ernährungsplan
 https://biohackingkompakt.de/thema/mikrobiom-tests.html
 
@@ -1274,6 +1424,16 @@ Mod GRF 1-29 ist eine Variante der ersten 29 Aminosäuren des Wachstumshormon-Fr
 https://biohackingkompakt.de/thema/modafinil.html
 
 Modafinil fördert die Wachheit und ist in Deutschland verschreibungspflichtig zugelassen, in der EU nur noch gegen Narkolepsie. In großen Studien senkte es die Tagesschläfrigkeit verlässlich, bei Schichtarbeitern kam es seltener zu Unfällen und Beinahe-Unfällen auf dem Heimweg. Bei gesunden, ausgeruhten Menschen verbessert es Aufmerksamkeit und Denkleistung messbar, aber nur wenig: Eine Meta-Analyse über 19 Studien fand einen kleinen Gesamteffekt. Es wirkt über das Dopaminsystem ähnlich wie klassische Stimulanzien, und seltene, aber schwere Haut- und psychiatrische Nebenwirkungen sind bekannt. Die Nutzung zur Leistungssteigerung ist Off-Label.
+
+## Molekularer Wasserstoff (Wasserstoffwasser)
+https://biohackingkompakt.de/thema/wasserstoffwasser.html
+
+In Zellversuchen reagierte Wasserstoff selektiv mit dem Hydroxylradikal und ließ andere reaktive Sauerstoffverbindungen, die der Körper als Signale braucht, unberührt; im Rattenversuch dämpfte eingeatmeter Wasserstoff Hirnschäden nach einem Schlaganfall. Am Menschen senkte Wasserstoffwasser bei Übergewicht das Gesamtcholesterin in 13 Studien um 6,71 mg/dl, zu wenig, um für das Herz-Kreislauf-Risiko zu zählen. Beim Sport fiel die empfundene Anstrengung etwas, Ausdauer und Kraft blieben gleich. Die eindrucksvollste Studie betrifft eingeatmeten Wasserstoff nach Herzstillstand: Ihr Hauptziel verfehlte sie, beim Überleben ohne Folgeschäden lag die Wasserstoffgruppe vorn.
+
+## Molybdän
+https://biohackingkompakt.de/thema/molybdaen.html
+
+Molybdän ist ein Spurenelement, das du nur in winzigen Mengen brauchst, dafür an einer entscheidenden Stelle: im Molybdän-Cofaktor, ohne den der Körper Sulfit nicht entgiften kann. Wie wichtig das ist, zeigt eine seltene Erbkrankheit. Ein Mangel durch die Ernährung ist dagegen praktisch nur unter langer künstlicher Ernährung beschrieben.
 
 ## Mönchspfeffer (Vitex agnus-castus)
 https://biohackingkompakt.de/thema/moenchspfeffer.html
@@ -1355,10 +1515,20 @@ https://biohackingkompakt.de/thema/neurostimulation.html
 
 Die repetitive Magnetstimulation erzeugt mit einer Spule am Kopf kurze Magnetimpulse, die in der Hirnrinde Nervenzellen aktivieren. Bei Depression ist sie in 81 randomisierten Studien mit 4.233 Patienten untersucht und wird von der deutschen Leitlinie bei therapieresistenten Episoden empfohlen. Die Gleichstromstimulation schickt einen schwachen Strom durch die Kopfhaut und verschiebt die Erregbarkeit von Nervenzellen, ohne sie direkt feuern zu lassen. Bei Depression zeigt sie einen kleinen Effekt. Der Haken: Für mehr Fokus oder schnelleres Lernen bei Gesunden fand die größte Auswertung keinen Nachweis.
 
+## Niacin (Vitamin B3)
+https://biohackingkompakt.de/thema/niacin.html
+
+Niacin ist Vitamin B3, und unter dem Namen stecken zwei sehr verschiedene Stoffe. Nicotinsäure war jahrzehntelang ein Blutfettmedikament mit echten Erfolgen vor der Statin-Zeit; zusätzlich zu Statinen schützte sie in zwei großen Studien nicht mehr vor Herzereignissen. Nicotinamid senkte in einer Phase-3-Studie neue helle Hautkrebse.
+
 ## Nicotinamid-Ribosid (NR)
 https://biohackingkompakt.de/thema/nicotinamid-ribosid.html
 
 NR hebt den NAD+-Spiegel im Blut zuverlässig und dosisabhängig an, in einer Studie um 22 bis 142 Prozent, und erreicht auch das Gehirn. Es ist gut verträglich und in der EU seit 2020 als neuartiges Lebensmittel zugelassen, die EFSA hält bis 300 mg am Tag für gesunde Erwachsene für sicher. Bei Insulinsensitivität, Blutzucker, Körperzusammensetzung und Blutdruck blieben die meisten Studien ohne Effekt. Hinweise gibt es auf weniger Entzündung und auf Potenzial bei Parkinson, die große Parkinson-Studie ist abgeschlossen, aber noch nicht veröffentlicht.
+
+## Niedrigenergetische Stoßwellentherapie (Li-ESWT)
+https://biohackingkompakt.de/thema/stosswellentherapie.html
+
+Die Cochrane-Auswertung aus 21 randomisierten Studien mit 1.357 Männern fand kurzfristig eine Verbesserung um 3,89 Punkte auf der Erektionsskala gegenüber einer Scheinbehandlung, knapp unter der Schwelle von 4 Punkten, ab der Männer einen Unterschied spüren; nach mehr als drei Monaten waren es 5,25 Punkte, bei geringer Vertrauenswürdigkeit. Die Europäische Gesellschaft für Urologie empfiehlt die Behandlung schwach, bei leichter gefäßbedingter Erektionsstörung und für Männer, die keine Tabletten wollen oder auf sie schlecht ansprechen. Eine andere, höher dosierte Stoßwellentherapie ist beim Fersenschmerz in Deutschland Kassenleistung.
 
 ## Nikotin ohne Rauch (Beutel, Pflaster, Lutschtabletten)
 https://biohackingkompakt.de/thema/nikotin-ohne-rauch.html
@@ -1385,6 +1555,11 @@ https://biohackingkompakt.de/thema/nootropika-stacks.html
 
 Nootropika-Fertigmischungen bündeln Cholinquellen, Pflanzenextrakte, Aminosäuren und Vitamine in einer Kapsel und versprechen besseres Gedächtnis und mehr Fokus. Zu bekannten Produkten wie Alpha Brain und Mind Lab Pro gibt es je eine Studie mit besseren Gedächtniswerten und je eine ohne Leistungsunterschied, die Studie zu Qualia Mind ist unveröffentlicht. Die Marken stehen hier nur als Beispiele für die Studienlage; was die Einzelstoffe können, steht auf deren eigenen Seiten.
 
+## Ochsengalle
+https://biohackingkompakt.de/thema/ochsengalle.html
+
+Ochsengalle ist getrocknete Rindergalle, ein Gemisch natürlicher Gallensäuren. Angeboten wird sie oft für die Zeit nach einer Entfernung der Gallenblase, weil Gallensäuren für die Fettverdauung gebraucht werden. Dass zugeführte Gallensäuren die Fettaufnahme steigern können, ist bei einzelnen Patienten mit Kurzdarm gezeigt; für die Zeit nach einer Gallenblasen-OP gibt es keine Studie.
+
 ## Omega-3 (EPA/DHA)
 https://biohackingkompakt.de/thema/omega-3.html
 
@@ -1404,6 +1579,11 @@ Dass Oral-Turinabol Kraft und Leistung steigert, ist in internen DDR-Berichten d
 https://biohackingkompakt.de/thema/orexin-b.html
 
 Orexin B ist ein körpereigenes Neuropeptid aus 28 Aminosäuren, das zusammen mit Orexin A den Wachzustand stabilisiert. Zum Peptid selbst gibt es keine einzige Studie am Menschen. Schon 1999 zeigte ein Tierversuch, warum: Orexin B wird im Blut schnell abgebaut, ist kaum fettlöslich und war nach Gabe in die Vene im Hirngewebe nicht mehr intakt nachweisbar, während Orexin A die Blut-Hirn-Schranke durchquert. Was am Orexin-System am Menschen wirkt, ist deshalb etwas anderes: ein oral verfügbarer Wirkstoff, der den Orexin-Rezeptor 2 direkt besetzt und bei Narkolepsie Typ 1 in zwei Phase-3-Studien deutlich wirkte. Wer Orexin B als Wachheits-Peptid kauft, kauft die Begründung des einen Stoffs für einen anderen.
+
+## Orexin-Rezeptor-Antagonisten (Daridorexant, Suvorexant, Lemborexant)
+https://biohackingkompakt.de/thema/orexin-antagonisten.html
+
+Orexin-Rezeptor-Antagonisten sind die jüngste Klasse von Schlafmitteln. Statt das Gehirn wie Benzodiazepine oder Zopiclon insgesamt zu dämpfen, schalten sie das Wachheitssignal Orexin leiser. In großen Zulassungsstudien schliefen Menschen mit chronischer Insomnie schneller ein und lagen nachts kürzer wach, und nach dem Absetzen traten weder Entzug noch Rebound-Schlaflosigkeit auf. Der Effekt liegt im Schlaflabor bei 10 bis 25 Minuten. In der EU ist seit 2022 Daridorexant (Quviviq) zugelassen, Suvorexant und Lemborexant gibt es nur in den USA.
 
 ## Orforglipron (Foundayo)
 https://biohackingkompakt.de/thema/orforglipron.html
@@ -1485,10 +1665,20 @@ https://biohackingkompakt.de/thema/pemf.html
 
 Ein Magnetfeld, das sich schnell ändert, erzeugt im Gewebe schwache elektrische Ströme, das ist Physik. Ob und wie das heilend wirkt, ist am Menschen nicht geklärt. In der Cochrane-Auswertung zur Arthrose berichteten Behandelte nach 4 bis 26 Wochen 15 Punkte mehr Schmerzlinderung auf einer 100er-Skala als unter Schein, Funktion und Lebensqualität besserten sich nicht signifikant. Bei chronischen Rückenschmerzen zeigt sich ein ähnliches Bild. Für die Versprechen der Heimmatten, mehr Zellenergie, besserer Schlaf, Longevity, gibt es keine brauchbaren Studien, und der G-BA hält den Nutzen der Magnetfeldtherapie für nicht nachgewiesen.
 
+## Pemvidutid (Pemvidutide)
+https://biohackingkompakt.de/thema/pemvidutid.html
+
+Pemvidutid ist ein Wochenpeptid von Altimmune, das neben dem GLP-1-Rezeptor auch den Glucagon-Rezeptor aktiviert und damit direkt in der Leber ansetzt. Seine Stärke liegt beim Leberfett: Nach 24 Wochen sank es um bis zu 76 Prozent, und in der Phase-2b-Studie IMPACT bildete sich die Fettleberentzündung MASH bei über der Hälfte der Behandelten zurück. Die Fibrose besserte sich in dieser Zeit nicht signifikant. Seit Juli 2026 läuft Phase 3 bei MASH; zugelassen ist Pemvidutid nirgends.
+
 ## Pentadeca Arginate (PDA)
 https://biohackingkompakt.de/thema/pentadeca-arginate.html
 
 Pentadeca Arginate ist BPC-157 mit einem anderen Salzpartner, dem Arginin. Die Wirkidee ist dieselbe: Gefäßneubildung, aktivere Reparaturzellen und bessere Heilung von Sehnen, Bändern, Muskeln und Darmschleimhaut, gut belegt in zahlreichen Tiermodellen. Am Menschen gibt es zur zugrunde liegenden Sequenz nur 3 unkontrollierte Pilotstudien mit zusammen weniger als 30 Personen, zu PDA selbst gar keine Publikation. Dass die Arginat-Form stabiler oder besser aufgenommen wird, ist eine Anbieterangabe. PDA ist nirgends zugelassen und im Sport kritisch.
+
+## Pentadecansäure (C15:0)
+https://biohackingkompakt.de/thema/pentadecansaeure.html
+
+Pentadecansäure, kurz C15:0, ist eine gesättigte Fettsäure aus Milchfett, die als neue „essenzielle“ Fettsäure und Langlebigkeitsstoff vermarktet wird. Dahinter stehen ernst zu nehmende Beobachtungsdaten: Wer mehr C15:0 im Blut hat, erkrankt seltener an Typ-2-Diabetes. Als Supplement ist sie aber erst in zwei kleinen Studien über zwölf Wochen geprüft, und eine genetische Analyse spricht gegen einen ursächlichen Effekt auf den Blutdruck.
 
 ## Peptid-Stacks & Blends (Grundlagen)
 https://biohackingkompakt.de/thema/peptid-stacks.html
@@ -1500,6 +1690,11 @@ https://biohackingkompakt.de/thema/persoenlichkeitsdiagnostik.html
 
 Persönlichkeitsdiagnostik beschreibt mit Fragebögen, wie jemand typischerweise denkt, fühlt und handelt. Wissenschaftlich am besten gestützt ist das Fünf-Faktoren-Modell, in großen Meta-Analysen hängen seine Merkmale mit Sterblichkeit und beruflichem Erfolg zusammen. Für viele kommerzielle Typen- und Profiltests gibt es dagegen keine unabhängigen Validierungsstudien. Als Anstoß zur Selbstreflexion im Coaching kann ein Profil nützlich sein, eine Diagnose oder eine sichere Vorhersage für die einzelne Person liefert es nicht.
 
+## Petrelintid (Petrelintide)
+https://biohackingkompakt.de/thema/petrelintid.html
+
+Petrelintid ist ein Nachbau des körpereigenen Sättigungshormons Amylin, entwickelt von Zealand Pharma und inzwischen gemeinsam mit Roche. Es wird einmal pro Woche gespritzt und setzt an einem anderen Signal an als Semaglutid oder Tirzepatid. In der veröffentlichten Phase-2-Studie mit 493 Teilnehmern sank das Gewicht nach 28 Wochen um 7,9 bis 9,8 Prozent, bei Magen-Darm-Beschwerden nahe Placebo-Niveau. Seit September 2026 läuft das Phase-3-Programm; zugelassen ist Petrelintid noch nirgends.
+
 ## Phenibut
 https://biohackingkompakt.de/thema/phenibut.html
 
@@ -1509,6 +1704,11 @@ Phenibut ist ein Abkömmling des Botenstoffs GABA mit einem Phenylring, der es i
 https://biohackingkompakt.de/thema/pea.html
 
 PEA ist ein sogenanntes Spurenamin, das der Körper selbst aus der Aminosäure Phenylalanin bildet. Es aktiviert den Rezeptor TAAR1 und hemmt in Zellversuchen ähnlich stark wie Amphetamin die Transporter für Noradrenalin und Dopamin. Der Haken: Geschlucktes PEA wird durch das Enzym MAO-B so schnell abgebaut, dass es im Urin kaum ankommt, und kontrollierte Studien zu Stimmung, Fokus oder Fettabbau gibt es nicht. Die bekannten Depressionsdaten stammen aus unkontrollierten Studien, in denen PEA immer mit einem verschreibungspflichtigen MAO-B-Hemmer kombiniert wurde. Für Wettkampfsportler ist PEA verboten.
+
+## Phenylpiracetam (Phenotropil)
+https://biohackingkompakt.de/thema/phenylpiracetam.html
+
+Phenylpiracetam ist Piracetam mit einem zusätzlichen Phenylring, und dieser kleine Unterschied macht aus einem eher zurückhaltenden Nootropikum ein anregendes Mittel. In Russland ist es als Phenotropil ein verschreibungspflichtiges Arzneimittel, unter anderem gegen Erschöpfung und nach Hirnschäden. Russische Studien zeigen deutliche Besserungen, eine Studie gegen Placebo wurde nicht gefunden. Im Sport ist es seit 1998 verboten.
 
 ## Phosphatidylcholin
 https://biohackingkompakt.de/thema/phosphatidylcholin.html
@@ -1560,6 +1760,11 @@ https://biohackingkompakt.de/thema/probiotika.html
 
 Ein Befund gilt immer für einen Stamm in einer Indikation, nie für die Kapsel an sich. Am besten belegt ist die Vorbeugung von Durchfall unter Antibiotika: Bei Kindern sank die Häufigkeit in 33 Studien mit 6.352 Teilnehmern von 19 auf 8 Prozent, bei der gefährlicheren Clostridioides-difficile-Diarrhö von 4,0 auf 1,5 Prozent. Beim Reizdarm haben fünf Einzelstämme Kernsymptome gebessert, drei andere nicht. Der Haken: Die größte Einzelstudie an älteren Klinikpatienten fand gar keinen Effekt, und nach einer Antibiotikakur kann ein mehrstämmiges Präparat die Rückkehr der eigenen Darmflora verzögern. Wer nichts hat, was er behandeln will, hat von einer Dauerkapsel wenig zu erwarten.
 
+## Progesteron (mikronisiert, bioidentisch)
+https://biohackingkompakt.de/thema/progesteron.html
+
+Progesteron ist das körpereigene Gelbkörperhormon, und in der Hormontherapie der Wechseljahre hat es eine klare Aufgabe: Es schützt die Gebärmutterschleimhaut, wenn Östrogen gegeben wird, und das so zuverlässig wie synthetische Gestagene. Dazu kommen ein positiver Befund bei Hitzewallungen und Hinweise auf besseren Schlaf. Der Ruf, „bioidentisch“ sei sicherer, stützt sich auf große Beobachtungsstudien, ein randomisierter Beleg fehlt.
+
 ## Prostamax
 https://biohackingkompakt.de/thema/prostamax.html
 
@@ -1589,6 +1794,11 @@ PTD-DBM ist ein Laborpeptid, das eine körpereigene Bremse des Haarwachstums-Sig
 https://biohackingkompakt.de/thema/pterostilben.html
 
 Pterostilben ist ein Polyphenol, chemisch ein Resveratrol mit zwei zusätzlichen Methylgruppen. An Ratten wurde es zu etwa 80 Prozent aufgenommen, Resveratrol nur zu etwa 20 Prozent. Am Menschen gibt es eine randomisierte Studie mit 80 Patienten über 6 bis 8 Wochen: Die hohe Dosis senkte den Blutdruck deutlich, gleichzeitig stieg das LDL-Cholesterin um 17,1 mg/dl. Sirtuin-Aktivierung und Anti-Aging-Effekte stammen aus Zell- und Tierversuchen. In der EU ist hochreines Pterostilben ein nicht zugelassenes neuartiges Lebensmittel, und Biohacking Kompakt gibt dafür keine Kaufempfehlung.
+
+## Pyrilutamid (KX-826)
+https://biohackingkompakt.de/thema/pyrilutamid.html
+
+Pyrilutamid, Entwicklungsname KX-826, ist eine Tinktur gegen erblich bedingten Haarausfall vom chinesischen Hersteller Kintor. Sie blockiert den Androgenrezeptor direkt an der Kopfhaut, statt wie Finasterid den Hormonspiegel zu senken. Nach einem Fehlschlag 2023 meldete eine zweite große Phase-3-Studie 2026 einen klaren Vorsprung vor Placebo. Bekannt sind die Zahlen bisher nur aus Börsenmitteilungen.
 
 ## Quercetin
 https://biohackingkompakt.de/thema/quercetin.html
@@ -1645,6 +1855,11 @@ https://biohackingkompakt.de/thema/rotschimmelreis.html
 
 Rotschimmelreis senkt das LDL-Cholesterin, in Meta-Analysen im direkten Vergleich etwa so stark wie Statine, und in einer großen chinesischen Studie mit 4.870 Herzinfarkt-Patienten sanken über 4,5 Jahre auch Herzinfarkte und Sterblichkeit. Der Grund ist einfach: Der Hauptwirkstoff Monacolin K ist identisch mit Lovastatin. Genau das ist auch der Haken. Die EU erlaubt seit 2022 nur noch weniger als 3 mg Monacoline pro Tagesportion, für diese Menge gibt es kaum Wirksamkeitsdaten, und die EFSA konnte keine sichere Tagesmenge festlegen. Ein vollständiges Verbot in Lebensmitteln ist von den Mitgliedstaaten 2026 beschlossen und soll noch veröffentlicht werden.
 
+## RU58841
+https://biohackingkompakt.de/thema/ru58841.html
+
+RU58841 soll den Androgenrezeptor direkt an der Haarwurzel blockieren, ohne den Hormonhaushalt im ganzen Körper zu verändern. Entwickelt wurde es in den 1990er-Jahren beim französischen Hersteller Roussel Uclaf. An Hamstern, an Affen und an menschlicher Kopfhaut, die auf Mäuse verpflanzt war, wirkte es. Eine Studie zur Wirkung am Menschen gibt es bis heute nicht.
+
 ## S-23
 https://biohackingkompakt.de/thema/s23.html
 
@@ -1659,6 +1874,11 @@ Safran sind die getrockneten Narben des Safran-Krokus, als Nahrungsergänzung me
 https://biohackingkompakt.de/thema/saegepalme.html
 
 Sägepalmenextrakt wird vor allem bei Beschwerden durch eine gutartig vergrößerte Prostata genommen, also bei häufigem Harndrang, schwachem Strahl und nächtlichem Wasserlassen. Für einen bestimmten französischen Hexan-Extrakt zeigen Meta-Analysen weniger nächtliche Toilettengänge und einen besseren Harnfluss, und im Vergleich mit dem Standardmedikament Tamsulosin besserten sich die Beschwerden über 12 Monate gleich stark. Die großen unabhängigen Placebo-Studien und der Cochrane-Review von 2023 fanden dagegen kaum einen spürbaren Unterschied zu Placebo. Unbestritten ist die gute Verträglichkeit, ohne Folgen für Sexualfunktion oder PSA-Wert. Für Haarausfall gibt es nur wenige kleine Studien.
+
+## Salbutamol
+https://biohackingkompakt.de/thema/salbutamol.html
+
+Salbutamol ist ein zugelassenes, verschreibungspflichtiges Asthmamittel. Für die Nutzung im Sport ist die Datenlage überraschend gut: Eine Meta-Analyse über 34 randomisierte Studien fand bei Gesunden etwa 5 Prozent mehr Kraft- und Sprintleistung, vor allem bei Tabletten und hohen Dosen. In einer 11-wöchigen Trainingsstudie brachten hoch dosierte Tabletten 1,8 kg mehr fettfreie Masse als Placebo – zugleich verbesserte sich die Ausdauer nicht, der Muskel verlor oxidative Kapazität, und die Herzwände wurden dicker. Auf die Ausdauerleistung wirken Beta-2-Agonisten laut einer Meta-Analyse über 47 Studien nicht. Ein Fettabbau ist beim Menschen nicht belegt. Im Sport ist Salbutamol nur inhaliert bis zu einer Höchstmenge erlaubt.
 
 ## SAM-e (S-Adenosylmethionin)
 https://biohackingkompakt.de/thema/sam-e.html
@@ -1745,6 +1965,11 @@ https://biohackingkompakt.de/thema/snap-8.html
 
 SNAP-8 ist ein kosmetisches Peptid aus der Familie um Argirelin, das einem Bauteil des SNARE-Komplexes nachempfunden ist und die Ausschüttung von Acetylcholin an der Nerv-Muskel-Verbindung stören soll. Als Creme ist es unbedenklich und wahrscheinlich schwächer als beworben: Die überall zitierten 63 Prozent Faltenreduktion in 28 Tagen stammen aus den Produktunterlagen des Rohstoffherstellers und haben keine Fundstelle in einer begutachteten Fachzeitschrift. Die beste Studie dieser ganzen Substanzklasse hatte 10 Teilnehmerinnen. Dazu kommt ein grundsätzliches Problem: Der Zielort liegt unter der Haut, und die Hornschicht ist genau dafür gebaut, große, geladene, wasserliebende Moleküle draußen zu halten. Kritisch wird es erst dort, wo SNAP-8 als Pulver zum Auflösen und Spritzen verkauft wird.
 
+## Sobetirom (GC-1)
+https://biohackingkompakt.de/thema/sobetirom.html
+
+Sobetirom, in der Szene meist GC-1 genannt, ist ein synthetischer Abkömmling des Schilddrüsenhormons, der bevorzugt den Rezeptor in der Leber anspricht. Entwickelt wurde er als Cholesterinsenker, der das Herz schonen sollte, und in Tierversuchen gelang genau das, samt Gewichtsabnahme. Am Menschen wurden Phase-1-Studien durchgeführt, ihre Daten aber nie vollständig veröffentlicht. Das Wirkprinzip hat sich inzwischen mit dem verwandten Resmetirom bewährt, das bei Fettleberentzündung zugelassen ist; für den Fettabbau mit Sobetirom gibt es keine Humanstudie.
+
 ## Spermidin
 https://biohackingkompakt.de/thema/spermidin.html
 
@@ -1765,6 +1990,11 @@ https://biohackingkompakt.de/thema/stanozolol.html
 
 Stanozolol hat eine echte medizinische Geschichte: Beim erblichen Angioödem wurden Patienten über 20 bis 40 Jahre damit behandelt, bei Osteoporose stieg das Gesamtkörperkalzium in einer doppelblinden Studie über 29 Monate um 4,4 Prozent. Für den Zweck, für den es heute meist genommen wird, den Muskelaufbau bei Gesunden, gibt es keine kontrollierte Studie. Gut gemessen ist dagegen der Preis: In einer Crossover-Studie an Gewichthebern fiel das HDL-Cholesterin unter Stanozolol um 33 Prozent, unter hochdosiertem Testosteron um 9 Prozent; das LDL stieg um 29 Prozent. Dazu kommen Leberschäden bis zur schweren Gallenstauung und eine nach zwei Wochen um die Hälfte gedrosselte eigene Testosteronproduktion.
 
+## Statine (Atorvastatin, Rosuvastatin)
+https://biohackingkompakt.de/thema/statine.html
+
+Statine gehören zu den am gründlichsten untersuchten Medikamenten überhaupt: Je stärker sie das LDL-Cholesterin senken, desto seltener kommt es zu Herzinfarkt und Schlaganfall, und das gilt auch für Menschen, die noch keine Herzerkrankung haben. Die vielgefürchteten Muskelbeschwerden sind in Placebo-Studien zum großen Teil Nocebo. In der Longevity-Debatte ist offen, ob Statine über die Herzvorsorge hinaus etwas für gesundes Altern tun.
+
 ## Stenabolic (SR9009)
 https://biohackingkompakt.de/thema/stenabolic.html
 
@@ -1774,6 +2004,11 @@ SR9009 ist ein synthetischer Agonist der Kernrezeptoren REV-ERBalpha und REV-ERB
 https://biohackingkompakt.de/thema/stoffwechsel-autoimmun.html
 
 Für Insulinresistenz und Vorstufen von Diabetes ist Lebensstiländerung hervorragend belegt: Im Diabetes Prevention Program senkte sie die Neuerkrankungen um 58 Prozent. Vitamin D verringerte in einer großen randomisierten Studie neu auftretende Autoimmunerkrankungen, Selen senkt bei Hashimoto die Schilddrüsenantikörper. Intermittierende Hypoxie-Hyperoxie senkte bei metabolischem Syndrom in einer kleinen Studie den Blutdruck. Der Haken: Für Hypoxietraining und Hyperthermie bei Autoimmunerkrankungen fand sich keine randomisierte Studie, und das Gesamtkonzept der Ursachenmedizin war in der einzigen randomisierten Studie bei Typ-2-Diabetes nicht besser als die Standardbehandlung.
+
+## Sulbutiamin
+https://biohackingkompakt.de/thema/sulbutiamin.html
+
+Zwei Thiamin-Bausteine, über eine Schwefelbrücke verbunden und mit fettlöslichen Seitenketten versehen: So entsteht ein Molekül, das der Körper wieder zu Vitamin B1 umbaut. Die französische Fachinformation beschreibt eine psychoaktive Wirkung vor allem auf körperliche und geistige Antriebshemmung. Ergänzend zu einem Antidepressivum waren Patienten nach vier Wochen weniger beeinträchtigt als unter Placebo, bei Kindern mit nächtlichem Einnässen schnitt es in einer großen Studie besser ab als Imipramin. Bei Erschöpfung nach Infekten blieb der Effekt nach 28 Tagen aus, und Studien an Gesunden zu Konzentration oder Motivation gibt es nicht.
 
 ## Sulforaphan
 https://biohackingkompakt.de/thema/sulforaphan.html
@@ -1900,6 +2135,11 @@ https://biohackingkompakt.de/thema/traubensilberkerze.html
 
 Die Traubensilberkerze ist in Deutschland ein zugelassenes pflanzliches Arzneimittel gegen Hitzewallungen und Schwitzen in den Wechseljahren. Ob sie mehr bewirkt als Placebo, beantworten die großen Übersichtsarbeiten unterschiedlich: Eine Meta-Analyse von 2023 findet einen mittleren Effekt, der Cochrane-Review von 2012 keinen Unterschied. Arzneimittel tragen einen Warnhinweis zur Leber, für Lebensmittel empfehlen die Behörden die Pflanze nicht.
 
+## Trazodon
+https://biohackingkompakt.de/thema/trazodon.html
+
+Trazodon ist eigentlich ein Antidepressivum, wird in niedriger Dosis aber häufig als Schlafmittel verordnet, obwohl es dafür nirgends zugelassen ist. Der Grund liegt in seinem Profil: In kleinen Dosen wirkt es vor allem dämpfend, ohne zu den Benzodiazepinen oder Z-Substanzen zu gehören. Die Studien zeigen einen kleinen Effekt: Menschen mit Insomnie empfinden ihren Schlaf als besser und wachen seltener auf. Im Schlaflabor unterscheidet sich der Schlaf aber kaum von Placebo, und die US-Schlafmedizin rät deshalb ab.
+
 ## Tremella
 https://biohackingkompakt.de/thema/tremella.html
 
@@ -1954,6 +2194,11 @@ Tulsi (Ocimum tenuiflorum, früher Ocimum sanctum) ist ein Basilikum aus Indien,
 https://biohackingkompakt.de/thema/turkesterone.html
 
 Turkesteron gehört zu den Ecdysteroiden, Häutungshormonen, die Insekten steuern und die manche Pflanzen zur Abwehr bilden. Die nahe verwandte Substanz Ecdysteron steigerte in einer deutschen Studie mit 46 jungen Männern über 10 Wochen Krafttraining Muskelmasse und Bankdrückkraft stärker als die Kontrolle. Für Turkesteron selbst gibt es bisher nur eine Einzeldosis-Studie mit 11 Männern, die keinen messbaren Effekt auf IGF-1 oder den Ruheumsatz fand. In einer US-Analyse enthielt die Hälfte der Turkesteron-Produkte gar kein nachweisbares Turkesteron. In der EU gilt Turkesteron als nicht zugelassenes neuartiges Lebensmittel.
+
+## Uridin (Uridinmonophosphat)
+https://biohackingkompakt.de/thema/uridin.html
+
+Uridin liefert über mehrere Zwischenstufen den Baustein, mit dem Cholin und Fettsäuren wie DHA zu Phosphatidylcholin verbaut werden, dem Hauptbestandteil von Zellmembranen. In Wüstenrennmäusen hob die Kombination aus Uridinmonophosphat, Cholin und DHA nach vier Wochen Membranbausteine und Synapsenproteine im Gehirn. Am Menschen wurde dieselbe Idee nur als Mischung aus elf Nährstoffen geprüft: Bei leichter Alzheimer-Krankheit besserte sich das Gedächtnis in zwei Studien, bei mittelschwerer nicht, und bei früher Alzheimer-Krankheit verfehlte die Zwei-Jahres-Studie ihr Hauptziel. Die Cochrane-Auswertung sieht wahrscheinlich kaum einen Unterschied bei den geistigen Leistungen.
 
 ## Urolithin A
 https://biohackingkompakt.de/thema/urolithin-a.html
@@ -2040,6 +2285,11 @@ https://biohackingkompakt.de/thema/vitamin-k2.html
 
 Vitamin K2 ist ein Sammelname für die Menachinone. Im Regal stehen fast nur MK-4 und MK-7, und sie verhalten sich im Körper völlig unterschiedlich. Gut belegt ist die Biochemie: MK-7 senkt den Marker für inaktives Matrix-Gla-Protein in einer Dreijahresstudie um 50 Prozent. Beim Schritt zum harten Ergebnis wird es dünn — mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, eine 2026 veröffentlichte fand einen. Unter Vitamin-K-Antagonisten wie Phenprocoumon oder Warfarin ist K2 eine klare Gegenanzeige: Dort verschieben schon 10 µg MK-7 täglich die Gerinnungswerte.
 
+## VK2735
+https://biohackingkompakt.de/thema/vk2735.html
+
+VK2735 stammt von Viking Therapeutics: ein Wirkstoff aus derselben Klasse wie Tirzepatid, der die Rezeptoren für GLP-1 und GIP gleichzeitig aktiviert und als Wochenspritze und als Tablette entwickelt wird. In der veröffentlichten Phase-2-Studie VENTURE sank das Gewicht in nur 13 Wochen um bis zu 14,7 Prozent. Die großen Phase-3-Studien laufen bis 2027, zugelassen ist VK2735 nirgends.
+
 ## VNS-Analyse (HRV)
 https://biohackingkompakt.de/thema/vns-analyse.html
 
@@ -2079,6 +2329,11 @@ Zink greift als Bestandteil von über 300 Enzymen in die Immunfunktion ein, und 
 https://biohackingkompakt.de/thema/zone2-vo2max.html
 
 Die maximale Sauerstoffaufnahme ist einer der am besten belegten Sterblichkeitsmarker überhaupt. Dass eine bestimmte Trainingsverteilung wie Zone 2 oder 80/20 diesen Vorteil erzeugt, ist dagegen kaum untersucht.
+
+## Zopiclon
+https://biohackingkompakt.de/thema/zopiclon.html
+
+Zopiclon ist seit 1990 in Deutschland zugelassen und gehört zu den Z-Substanzen, den Nachfolgern der Benzodiazepine. Es wirkt schnell und verlässlich: In der größten Netzwerk-Meta-Analyse zu Schlafmitteln zählt es zu den Wirkstoffen mit klarem Effekt gegenüber Placebo. Zugelassen ist es aber nur für kurze Zeit, höchstens vier Wochen einschließlich Absetzen, weil mit der Dauer Gewöhnung und Abhängigkeit drohen. Am Morgen danach ist die Fahrleistung in Fahrtests so beeinträchtigt wie unter 0,5 Promille Alkohol.
 
 ## Zyklus-Tracking & zyklusbasiertes Training
 https://biohackingkompakt.de/thema/zyklus-biohacking.html
