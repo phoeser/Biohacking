@@ -1,5 +1,18 @@
 # Serienbibel „Biohacking Kompakt" — Paul & Paula
 
+## LEITLINIE (Paul, 09.10.2026) – hat Vorrang vor allem anderen in dieser Datei
+Paul: „Wir haben lange gute Folgen gemacht. Aber die letzten … viel zu streng, negativ, alles nur noch mechanistisch.“
+1. **Was wir sind:** ein spannender, unterhaltsamer Biohacking- und Longevity-Podcast, der den Themen positiv gegenübersteht. Kein Prüfstand, kein Debunking.
+2. **Kern der Wahrheit statt Formalismus.** Studien und Kernzahlen gehören hinein, aber wir sind keine Paragraphenreiter. Wurde der vorab festgelegte Hauptendpunkt verfehlt und es zeigen sich trotzdem interessante Ergebnisse (Nebenendpunkte, Untergruppen, Signale), dann werden die erzählt, und zwar als echte Hinweise. Nie Sätze wie „zählt nicht“, „nur Untergruppe, also Zufall“ oder „kein RCT, also kein Beleg“.
+3. **Fallberichte, Anwendererfahrungen und Nutzermeinungen zählen** und bekommen in jeder Folge spürbar Raum.
+4. **Gespräch statt Abfrage.** Der Redeanteil von Paul und Paula ist ausgewogen. Beide sprechen in ganzen Gedanken, haben Meinungen, Neugier und Humor. Kein Einzeiler-Ping-Pong, keine Interview-Rollen.
+5. **Viel mehr Varianz in den Formulierungen.** Keine Wendung zweimal in einer Folge. Feste Elemente und Kanon-Formeln (Paulas Tipp, „Notiert.“, „Bilanz“, „Als Frage.“, „Das lasse ich gelten“) sind die seltene Ausnahme, kein Gerüst.
+6. **Menschliche Zwischentöne**, sparsam, aber in jeder Folge: „Entschuldigung, ich unterbrech dich kurz“, Räuspern, kurzes Lachen, sich verhaspeln und neu ansetzen, laut nachdenken. Audio-Tags wie `[clears throat]` vor dem ersten Einsatz in einer Probe prüfen.
+7. **Dosis und Wirkung:** siehe Regel weiter unten. „Mehr hilft mehr“ gilt nie als Prüfstein.
+8. **Grenzen bleiben:** keine Dosierungen bei nicht zugelassenen Stoffen (§ 3a HWG), keine Bezugsquellen, keine Heilversprechen, die KI-Herkunft nie erwähnen.
+Alles Strengere weiter unten in dieser Datei (Endpunkt-Logik, Kanon-Formeln, Segmentfolge) ist dieser Leitlinie untergeordnet.
+
+
 Stand: 12.09.2026, abgeleitet aus den neunzehn vertonten Folgen im neuen Stil (75 neu, 81–88, 89–98) und dem Löwenmähne-Prototyp.
 Zweck: Das Gedächtnis der Serie. Vor jedem neuen Skript lesen, nach jeder Vertonung fortschreiben.
 
@@ -64,7 +77,7 @@ Zweck: Das Gedächtnis der Serie. Vor jedem neuen Skript lesen, nach jeder Verto
 ## 3. Die Beziehung
 
 - **Augenhöhe mit Arbeitsteilung.** Er hat die Zahlen, sie hat den Schlusssatz. Sie gewinnt am Ende fast jeder Folge den Satz; er gewinnt fast jeden Tipp.
-- **Sie findet seine Fehler — in den Daten.** Cagrilintid (20,4 vs. 22,7 — „Gut aufgepasst"), AOD-9604 („Woher hast du die?" — „…Gute Frage."), LL-37 (höhere Dosis schlechter — „Das ist der wichtigste Satz der Folge, und er kommt von dir"), Vagusnerv (Ruhepuls gestiegen — „Da laufen Erzählung und Daten auseinander"). Das ist kein Gag, das ist die Fehlerkultur der Serie (Abschnitt 6).
+- **Sie findet seine Fehler — in den Daten.** Cagrilintid (20,4 vs. 22,7 — „Gut aufgepasst"), AOD-9604 („Woher hast du die?" — „…Gute Frage."), LL-37 (höhere Dosis schlechter — ÜBERHOLT 09.10.2026: daraus nie mehr „Zufall“ ableiten, siehe Regel „Dosis und Wirkung“), Vagusnerv (Ruhepuls gestiegen — „Da laufen Erzählung und Daten auseinander"). Das ist kein Gag, das ist die Fehlerkultur der Serie (Abschnitt 6).
 - **Er gibt nach, aber mit Bedingung.** „Das lasse ich gelten — und trotzdem…" Er kapituliert nie ganz; sie akzeptiert die Bedingung („Angenommen.").
 - **Ein bisschen Rivalität.** „Den Satz hätte ich auch sagen können." — „Hast du aber nicht." (Snap-8, Prototyp). „Ungewohnte Rollenverteilung" (Lp(a)). Sie: „Das ist der ehrlichste Satz, den du mir je gesagt hast." (Sermorelin).
 - **Er ehrt, was sie besser kann.** „…weil du es gestern in einem Satz erklärt hast, den ich besser fand als meinen." (Lp(a)) — Paul lässt Paula erklären, wenn sie es besser kann. Darf wiederkehren, sparsam.
@@ -193,3 +206,13 @@ Die Serie hat ihre Glaubwürdigkeit daraus, dass sie eigene Fehler benennt. Dami
 ## 8. Fortschreiben
 
 Nach jeder vertonten Folge kommen in diese Datei: neue Merksätze mit Folgennummer, Paulas Tipp und Score in die Tabelle, jedes Versprechen in die Fadenliste, jede Korrektur ins Kanon. Was nicht vertont wurde, kommt nicht hinein. Die Datei liegt bei den Skripten in `podcast-scripts/` und wird mit jeder Folge committet.
+
+## Dosis und Wirkung – inhaltliche Regel (Paul, 09.10.2026, nach Folge 100)
+- **Nie** sagen oder andeuten, ein Befund sei „wahrscheinlich Zufall“ oder ein Wirkstoff wirke nicht, weil eine höhere Dosis nicht stärker wirkt. Das ist falsch. Es gibt keine Konstellation, in der man sicher sagen kann „mehr hilft mehr“.
+- Richtig ist: Viele Stoffe wirken bis zu einer Sättigung, nur bei Mangel oder nur in einem Fenster; Dosis-Wirkungs-Kurven sind oft flach, haben eine Schwelle oder kippen bei hoher Dosis. **Wo ein Mangel ist, wirkt Auffüllen; wo keiner ist, oft nicht.**
+- Schneidet eine höhere Dosisstufe gleich oder schlechter ab, wird das neutral erzählt („die höhere Stufe brachte nicht mehr – das kann Sättigung sein“) und nie als Argument gegen die Wirkung verwendet.
+- Der alte Kanon-Satz zu LL-37 („keine Dosis-Wirkungs-Beziehung … der wichtigste Satz der Folge“) ist damit **überholt** und darf nicht mehr zitiert oder als Rückbezug verwendet werden.
+
+## Gesprächston – Pauls Kritik an Folge 100 (09.10.2026)
+- „Total mechanisch … dieses Chit-Chit-Chit.“ Ziel: zwei sympathische Menschen, die sich menschlich und anregend über Biohacking und Longevity unterhalten.
+- Konsequenz bis zur Neuregelung: keine Ping-Pong-Ketten aus Einzeilern, keine Reihe von Rückkanal-Zügen („Mhm.“, „Ja?“, „Die Gründe?“) als Stilmittel, keine Interview-Rolle (einer fragt, einer liefert). Beide erzählen in ganzen Gedanken, haben Meinungen, Neugier, Humor und dürfen abschweifen. Details werden am 10.10.2026 mit Paul festgelegt.
