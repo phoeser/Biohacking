@@ -14,7 +14,7 @@ KONTEN = [
     ('Amazon Music', 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/biohacking-kompakt'),
     ('YouTube', 'https://www.youtube.com/@biohackingkompakt'),
     ('TikTok', 'https://www.tiktok.com/@biohackingkompakt.de'),
-    ('Discord', 'https://discord.gg/pKcgHTu8D'),
+    ('Discord', 'https://discord.gg/MWzNgk3JgJ'),
 ]
 MUSTER = re.compile(r'<!-- konten:start -->.*?<!-- konten:end -->\n?', re.S)
 
