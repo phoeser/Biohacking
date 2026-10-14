@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-10
+Stand: 2026-10-14
 
 # Fragen & Beschwerden
 
@@ -1833,7 +1833,7 @@ Resveratrol ist ein Polyphenol aus Trauben, das im Zellversuch Sirtuine aktivier
 ## Retatrutide
 https://biohackingkompakt.de/thema/retatrutide.html
 
-Retatrutid ist ein einmal wöchentlich gespritzter Triagonist von Eli Lilly: Zwei Andockstellen dämpfen Appetit und Blutzucker, die dritte, Glukagon, soll den Energieverbrauch und den Abbau von Leberfett antreiben. In der begutachteten Phase-2-Studie verloren Erwachsene mit Adipositas in der höchsten Dosisstufe nach 48 Wochen 24,2 Prozent ihres Körpergewichts, unter Placebo 2,1 Prozent. Die Phase-3-Studie TRIUMPH-1 mit 2.339 Teilnehmenden kam laut Hersteller nach 80 Wochen auf bis zu 28,3 Prozent. Der Haken: Zu TRIUMPH gibt es noch keine begutachtete Vollpublikation, Übelkeit betraf in der höchsten Stufe 42,4 Prozent der Teilnehmenden, und was im Graumarkt als Retatrutid verkauft wird, ist nicht der Studienwirkstoff.
+Retatrutid ist ein einmal wöchentlich gespritzter Triagonist von Eli Lilly: Zwei Andockstellen dämpfen Appetit und Blutzucker, die dritte, Glukagon, soll den Energieverbrauch und den Abbau von Leberfett antreiben. In der begutachteten Phase-2-Studie verloren Erwachsene mit Adipositas in der höchsten Dosisstufe nach 48 Wochen 24,2 Prozent ihres Körpergewichts, unter Placebo 2,1 Prozent. Die Phase-3-Studie TRIUMPH-1 mit 2.339 Teilnehmenden ist seit dem 29. September 2026 begutachtet im NEJM erschienen: Nach 80 Wochen verloren die Teilnehmenden in der höchsten Stufe, gerechnet über alle Randomisierten, 25,0 Prozent ihres Gewichts, unter Placebo 3,9 Prozent; der Hersteller nennt für alle, die wie geplant weiterbehandelt wurden, bis zu 28,3 Prozent. Der Haken: Übelkeit betraf in der höchsten Stufe 42,4 Prozent der Teilnehmenden, und was im Graumarkt als Retatrutid verkauft wird, ist nicht der Studienwirkstoff.
 
 ## Rhodiola Rosea
 https://biohackingkompakt.de/thema/rhodiola.html
