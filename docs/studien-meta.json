@@ -16395,6 +16395,37 @@
 "Journal Article"
 ]
 },
+"pmid:12699745": {
+"autoren": "Sznaidman ML, Haffner CD, Maloney PR, Fivush A, Chao E, Goreham D, Sierra ML, LeGrumelec C, Xu HE, Montana VG, Lambert MH, Willson TM, Oliver WR, Sternbach DD.",
+"doi": "10.1016/s0960-894x(03)00207-5",
+"iso": "Bioorg Med Chem Lett",
+"jahr": "2003",
+"journal": "Bioorganic & medicinal chemistry letters",
+"korr": [],
+"mesh": [
+"Cells, Cultured",
+"Animals",
+"Humans",
+"Mice",
+"Phenols",
+"Sulfhydryl Compounds",
+"Thiazoles",
+"Receptors, Cytoplasmic and Nuclear",
+"Transcription Factors",
+"Radioligand Assay",
+"Combinatorial Chemistry Techniques",
+"Structure-Activity Relationship",
+"Transcriptional Activation"
+],
+"pmcid": "",
+"pmid": "12699745",
+"quelle": "MED",
+"titel": "Novel selective small molecule agonists for peroxisome proliferator-activated receptor delta (PPARdelta)--synthesis and biological activity.",
+"typen": [
+"Comparative Study",
+"Journal Article"
+]
+},
 "pmid:12717513": {
 "autoren": "Ryzhak GA, Nekrasov PA, Kiselev OI, Khavinson VKh.",
 "doi": "10.1023/a:1023445912682",
@@ -21396,6 +21427,40 @@
 "Journal Article"
 ]
 },
+"pmid:16618765": {
+"autoren": "Marin HE, Peraza MA, Billin AN, Willson TM, Ward JM, Kennett MJ, Gonzalez FJ, Peters JM.",
+"doi": "10.1158/0008-5472.can-05-4277",
+"iso": "Cancer Res",
+"jahr": "2006",
+"journal": "Cancer research",
+"korr": [],
+"mesh": [
+"Animals",
+"Mice, Inbred C57BL",
+"Mice",
+"Colonic Neoplasms",
+"Azoxymethane",
+"Phenols",
+"Sulfhydryl Compounds",
+"Thiazoles",
+"Cathepsin E",
+"Membrane Proteins",
+"PPAR-beta",
+"RNA, Messenger",
+"Ligands",
+"Male",
+"Fatty Acid-Binding Proteins",
+"Perilipin-2"
+],
+"pmcid": "",
+"pmid": "16618765",
+"quelle": "MED",
+"titel": "Ligand activation of peroxisome proliferator-activated receptor beta inhibits colon carcinogenesis.",
+"typen": [
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:16621347": {
 "autoren": "Friedel A, Geyer H, Kamber M, Laudenbach-Leschowsky U, Schänzer W, Thevis M, Vollmer G, Zierau O, Diel P.",
 "doi": "10.1016/j.toxlet.2006.03.001",
@@ -23570,6 +23635,41 @@
 "Journal Article"
 ]
 },
+"pmid:17540700": {
+"autoren": "Constantin D, Constantin-Teodosiu D, Layfield R, Tsintzas K, Bennett AJ, Greenhaff PL.",
+"doi": "10.1113/jphysiol.2007.135459",
+"iso": "J Physiol",
+"jahr": "2007",
+"journal": "The Journal of physiology",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Mitochondria, Muscle",
+"Animals",
+"Rats",
+"Rats, Wistar",
+"Muscular Atrophy",
+"Creatine",
+"Lactates",
+"Thiazoles",
+"PPAR delta",
+"DNA",
+"RNA, Messenger",
+"Adenosine Triphosphate",
+"Signal Transduction",
+"Energy Metabolism",
+"Male",
+"Pyruvate Dehydrogenase Acetyl-Transferring Kinase",
+"Protein Serine-Threonine Kinases"
+],
+"pmcid": "",
+"pmid": "17540700",
+"quelle": "MED",
+"titel": "PPARdelta agonism induces a change in fuel metabolism and activation of an atrophy programme, but does not impair mitochondrial function in rat skeletal muscle.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:17581790": {
 "autoren": "Carpenter V, Matthews K, Devlin G, Stuart S, Jensen J, Conaglen J, Jeanplong F, Goldspink P, Yang SY, Goldspink G, Bass J, McMahon C.",
 "doi": "10.1016/j.hlc.2007.04.013",
@@ -24413,6 +24513,47 @@
 "Comparative Study",
 "Research Support, Non-U.S. Gov't",
 "Journal Article"
+]
+},
+"pmid:18160631": {
+"autoren": "Deadwyler SA, Porrino L, Siegel JM, Hampson RE.",
+"doi": "10.1523/jneurosci.3878-07.2007",
+"iso": "J Neurosci",
+"jahr": "2007",
+"journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+"korr": [],
+"mesh": [
+"Cerebral Cortex",
+"Animals",
+"Macaca mulatta",
+"Sleep Deprivation",
+"Fluorodeoxyglucose F18",
+"Glucose",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Sympathomimetics",
+"Positron-Emission Tomography",
+"Brain Mapping",
+"Administration, Intranasal",
+"Injections, Intravenous",
+"Analysis of Variance",
+"Behavior, Animal",
+"Task Performance and Analysis",
+"Psychomotor Performance",
+"Cognition Disorders",
+"Dose-Response Relationship, Drug",
+"Male",
+"Orexins"
+],
+"pmcid": "PMC6673447",
+"pmid": "18160631",
+"quelle": "MED",
+"titel": "Systemic and nasal delivery of orexin-A (Hypocretin-1) reduces the effects of sleep deprivation on cognitive performance in nonhuman primates.",
+"typen": [
+"research-article",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:18187367": {
@@ -25691,6 +25832,42 @@
 "Journal Article"
 ]
 },
+"pmid:18718966": {
+"autoren": "Baier PC, Weinhold SL, Huth V, Gottwald B, Ferstl R, Hinze-Selch D.",
+"doi": "10.1093/brain/awn193",
+"iso": "Brain",
+"jahr": "2008",
+"journal": "Brain : a journal of neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Olfaction Disorders",
+"Narcolepsy",
+"Cataplexy",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Sympathomimetics",
+"Case-Control Studies",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Smell",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "18718966",
+"quelle": "MED",
+"titel": "Olfactory dysfunction in patients with narcolepsy with cataplexy is restored by intranasal Orexin A (Hypocretin-1).",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:18720005": {
 "autoren": "Nasr J, Ahmad J.",
 "doi": "10.1007/s10620-008-0457-x",
@@ -26592,6 +26769,42 @@
 "Journal Article"
 ]
 },
+"pmid:19049251": {
+"autoren": "Gao P, Dang CV, Watson J.",
+"doi": "",
+"iso": "J Am Assoc Lab Anim Sci",
+"jahr": "2008",
+"journal": "Journal of the American Association for Laboratory Animal Science : JAALAS",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Mice",
+"Mice, SCID",
+"Lymphoma",
+"Neoplasms, Experimental",
+"Fenbendazole",
+"Vitamins",
+"Anticarcinogenic Agents",
+"Antinematodal Agents",
+"Leukocyte Count",
+"Transplantation, Heterologous",
+"Neoplasm Transplantation",
+"Drug Synergism",
+"Dietary Supplements",
+"Male"
+],
+"pmcid": "PMC2687140",
+"pmid": "19049251",
+"quelle": "MED",
+"titel": "Unexpected antitumorigenic effect of fenbendazole when combined with supplementary vitamins.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:19066370": {
 "autoren": "Lippman SM, Klein EA, Goodman PJ, Lucia MS, Thompson IM, Ford LG, Parnes HL, Minasian LM, Gaziano JM, Hartline JA, Parsons JK, Bearden JD, Crawford ED, Goodman GE, Claudio J, Winquist E, Cook ED, Karp DD, Walther P, Lieber MM, Kristal AR, Darke AK, Arnold KB, Ganz PA, Santella RM, Albanes D, Taylor PR, Probstfield JL, Jagpal TJ, Crowley JJ, Meyskens FL, Baker LH, Coltman CA.",
 "doi": "10.1001/jama.2008.864",
@@ -27189,6 +27402,45 @@
 "Journal Article",
 "English Abstract",
 "Case Reports"
+]
+},
+"pmid:19351742": {
+"autoren": "Wagner N, Jehl-Piétri C, Lopez P, Murdaca J, Giordano C, Schwartz C, Gounon P, Hatem SN, Grimaldi P, Wagner KD.",
+"doi": "10.1093/cvr/cvp106",
+"iso": "Cardiovasc Res",
+"jahr": "2009",
+"journal": "Cardiovascular research",
+"korr": [],
+"mesh": [
+"Myocardium",
+"Coronary Vessels",
+"Heart",
+"Cells, Cultured",
+"Myocytes, Cardiac",
+"Animals",
+"Mice, Inbred C57BL",
+"Mice",
+"Phenols",
+"Sulfhydryl Compounds",
+"Thiazoles",
+"Cyclosporine",
+"Calcineurin",
+"PPAR-beta",
+"Enzyme Inhibitors",
+"Models, Animal",
+"Neovascularization, Physiologic",
+"Male",
+"Cyclin-Dependent Kinase 9",
+"NFATC Transcription Factors",
+"Hypoxia-Inducible Factor 1, alpha Subunit",
+"Calcineurin Inhibitors"
+],
+"pmcid": "",
+"pmid": "19351742",
+"quelle": "MED",
+"titel": "Peroxisome proliferator-activated receptor beta stimulation induces rapid cardiac growth and angiogenesis via direct activation of calcineurin.",
+"typen": [
+"Journal Article"
 ]
 },
 "pmid:19359734": {
@@ -33666,6 +33918,43 @@
 "Journal Article"
 ]
 },
+"pmid:22036605": {
+"autoren": "Baier PC, Hallschmid M, Seeck-Hirschner M, Weinhold SL, Burkert S, Diessner N, Göder R, Aldenhoff JB, Hinze-Selch D.",
+"doi": "10.1016/j.sleep.2011.06.015",
+"iso": "Sleep Med",
+"jahr": "2011",
+"journal": "Sleep medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Narcolepsy",
+"Intracellular Signaling Peptides and Proteins",
+"Neuropeptides",
+"Neurotransmitter Agents",
+"Polysomnography",
+"Treatment Outcome",
+"Administration, Intranasal",
+"Pilot Projects",
+"Wakefulness",
+"Sleep, REM",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "22036605",
+"quelle": "MED",
+"titel": "Effects of intranasal hypocretin-1 (orexin A) on sleep in narcolepsy with cataplexy.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:22038497": {
 "autoren": "Howatson G, Bell PG, Tallent J, Middleton B, McHugh MP, Ellis J.",
 "doi": "10.1007/s00394-011-0263-7",
@@ -35745,6 +36034,32 @@
 "Journal Article"
 ]
 },
+"pmid:22977012": {
+"autoren": "Sobolevsky T, Dikunets M, Sukhanova I, Virus E, Rodchenkov G.",
+"doi": "10.1002/dta.1413",
+"iso": "Drug Test Anal",
+"jahr": "2012",
+"journal": "Drug testing and analysis",
+"korr": [],
+"mesh": [
+"Humans",
+"Phenols",
+"Sulfhydryl Compounds",
+"Thiazoles",
+"PPAR delta",
+"Chromatography, Liquid",
+"Adult",
+"Male",
+"Tandem Mass Spectrometry"
+],
+"pmcid": "",
+"pmid": "22977012",
+"quelle": "MED",
+"titel": "Detection of PPARδ agonists GW1516 and GW0742 and their metabolites in human urine.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:22977870": {
 "autoren": "Khavinson VKh, Lin'kova NS, Polyakova VO, Kvetnoy IM, Benberin VV, D'yakonov MM, Titkov YS.",
 "doi": "10.1007/s10517-012-1766-9",
@@ -37224,6 +37539,31 @@
 "Journal Article"
 ]
 },
+"pmid:23393324": {
+"autoren": "Duan Q, Liu Y, Rockwell S.",
+"doi": "",
+"iso": "Anticancer Res",
+"jahr": "2013",
+"journal": "Anticancer research",
+"korr": [],
+"mesh": [
+"Animals",
+"Mice",
+"Mammary Neoplasms, Experimental",
+"Fenbendazole",
+"Antineoplastic Agents",
+"Female"
+],
+"pmcid": "PMC3580766",
+"pmid": "23393324",
+"quelle": "MED",
+"titel": "Fenbendazole as a potential anticancer drug.",
+"typen": [
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:23417317": {
 "autoren": "Wang Y, Wang M, Xiao S, Pan P, Li P, Huo J.",
 "doi": "10.1007/s40257-013-0009-9",
@@ -38271,6 +38611,44 @@
 "typen": [
 "research-article",
 "Journal Article"
+]
+},
+"pmid:23713684": {
+"autoren": "Nandhikonda P, Yasgar A, Baranowski AM, Sidhu PS, McCallum MM, Pawlak AJ, Teske K, Feleke B, Yuan NY, Kevin C, Bikle DD, Ayers SD, Webb P, Rai G, Simeonov A, Jadhav A, Maloney D, Arnold LA.",
+"doi": "10.1021/bi400321p",
+"iso": "Biochemistry",
+"jahr": "2013",
+"journal": "Biochemistry",
+"korr": [],
+"mesh": [
+"Cell Line, Tumor",
+"HL-60 Cells",
+"Cell Nucleus",
+"Humans",
+"Phenols",
+"Sulfhydryl Compounds",
+"Thiazoles",
+"Rhodamines",
+"PPAR delta",
+"Receptors, Calcitriol",
+"DNA",
+"Ligands",
+"Spectrophotometry",
+"Inhibitory Concentration 50",
+"Protein Binding",
+"Dose-Response Relationship, Drug",
+"Nuclear Receptor Coactivator 2",
+"HEK293 Cells"
+],
+"pmcid": "PMC3724348",
+"pmid": "23713684",
+"quelle": "MED",
+"titel": "Peroxisome proliferation-activated receptor δ agonist GW0742 interacts weakly with multiple nuclear receptors, including the vitamin D receptor.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:23723367": {
@@ -47992,6 +48370,40 @@
 "Journal Article"
 ]
 },
+"pmid:26997622": {
+"autoren": "Manio MC, Inoue K, Fujitani M, Matsumura S, Fushiki T.",
+"doi": "10.14814/phy2.12625",
+"iso": "Physiol Rep",
+"jahr": "2016",
+"journal": "Physiological reports",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Liver",
+"Animals",
+"Mice, Inbred BALB C",
+"Mice",
+"Phenols",
+"Sulfhydryl Compounds",
+"Aminoimidazole Carboxamide",
+"Thiazoles",
+"PPAR delta",
+"Ribonucleotides",
+"Calorimetry",
+"Physical Conditioning, Animal",
+"Physical Endurance",
+"Male",
+"AMP-Activated Protein Kinases"
+],
+"pmcid": "PMC4823600",
+"pmid": "26997622",
+"quelle": "MED",
+"titel": "Combined pharmacological activation of AMPK and PPARδ potentiates the effects of exercise in trained mice.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:27016217": {
 "autoren": "Jonsson K, Kjellgren A.",
 "doi": "10.1186/s12906-016-1089-x",
@@ -55279,6 +55691,39 @@
 "titel": "The effects of dermorphin on the endocrine system in man.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:30093705": {
+"autoren": "Dogra N, Kumar A, Kumar A, Mukhopadhyay T.",
+"doi": "10.1038/s41598-018-30158-6",
+"iso": "Sci Rep",
+"jahr": "2018",
+"journal": "Scientific reports",
+"korr": [],
+"mesh": [
+"Cell Line, Tumor",
+"Animals",
+"Humans",
+"Mice, Nude",
+"Carcinoma, Non-Small-Cell Lung",
+"Lung Neoplasms",
+"Fenbendazole",
+"Hexokinase",
+"Xenograft Model Antitumor Assays",
+"Cell Death",
+"Glycolysis",
+"Female",
+"Tubulin Modulators",
+"Cell Physiological Phenomena",
+"A549 Cells"
+],
+"pmcid": "PMC6085345",
+"pmid": "30093705",
+"quelle": "MED",
+"titel": "Fenbendazole acts as a moderate microtubule destabilizing agent and causes cancer cell death by modulating multiple cellular pathways.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -68170,6 +68615,41 @@
 "Journal Article"
 ]
 },
+"pmid:34768927": {
+"autoren": "Sibille B, Mothe-Satney I, Le Menn G, Lepouse D, Le Garf S, Baudoin E, Murdaca J, Moratal C, Lamghari N, Chinetti G, Neels JG, Rousseau AS.",
+"doi": "10.3390/ijms222111497",
+"iso": "Int J Mol Sci",
+"jahr": "2021",
+"journal": "International journal of molecular sciences",
+"korr": [],
+"mesh": [
+"Cells, Cultured",
+"Animals",
+"Mice, Inbred C57BL",
+"Humans",
+"Mice",
+"Inflammation",
+"Phenols",
+"Sulfhydryl Compounds",
+"Thiazoles",
+"Fatty Acids",
+"PPAR-beta",
+"PPAR delta",
+"Exercise",
+"Substance Abuse Detection",
+"Oxidation-Reduction",
+"T-Lymphocytes, Regulatory",
+"Performance-Enhancing Substances"
+],
+"pmcid": "PMC8584242",
+"pmid": "34768927",
+"quelle": "MED",
+"titel": "Gene Doping with Peroxisome-Proliferator-Activated Receptor Beta/Delta Agonists Alters Immunity but Exercise Training Mitigates the Detection of Effects in Blood Samples.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:3478223": {
 "autoren": "Sumi H, Hamada H, Tsushima H, Mihara H, Muraki H.",
 "doi": "10.1007/bf01956052",
@@ -68803,6 +69283,39 @@
 "typen": [
 "Meta-Analysis",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:35044844": {
+"autoren": "Meusel M, Voß J, Krapalis A, Machleidt F, Vonthein R, Hallschmid M, Sayk F.",
+"doi": "10.1152/jn.00452.2021",
+"iso": "J Neurophysiol",
+"jahr": "2022",
+"journal": "Journal of neurophysiology",
+"korr": [],
+"mesh": [
+"Sympathetic Nervous System",
+"Humans",
+"Administration, Intranasal",
+"Pilot Projects",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Blood Pressure",
+"Heart Rate",
+"Baroreflex",
+"Vasoconstriction",
+"Adult",
+"Male",
+"Young Adult",
+"Orexins"
+],
+"pmcid": "",
+"pmid": "35044844",
+"quelle": "MED",
+"titel": "Intranasal orexin A modulates sympathetic vascular tone: a pilot study in healthy male humans.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -77848,6 +78361,24 @@
 "Journal Article"
 ]
 },
+"pmid:38706451": {
+"autoren": "Thakurdesai A, Rivera-Matos L, Nagra N, Busch B, Mais DD, Cave MC.",
+"doi": "10.14309/crj.0000000000001354",
+"iso": "ACG Case Rep J",
+"jahr": "2024",
+"journal": "ACG case reports journal",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11068125",
+"pmid": "38706451",
+"quelle": "MED",
+"titel": "Severe Drug-Induced Liver Injury Due to Self-administration of the Veterinary Anthelmintic Medication, Fenbendazole.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:38716080": {
 "autoren": "Thomas A, Thilmany S, Hofmann A, Thevis M.",
 "doi": "10.1002/ansa.202200027",
@@ -83608,6 +84139,27 @@
 "Journal Article"
 ]
 },
+"pmid:40605964": {
+"autoren": "Makis W, Baghli I, Martinez P.",
+"doi": "10.1159/000546362",
+"iso": "Case Rep Oncol",
+"jahr": "2025",
+"journal": "Case reports in oncology",
+"korr": [
+"zurueckgezogen"
+],
+"mesh": [],
+"pmcid": "PMC12215191",
+"pmid": "40605964",
+"quelle": "MED",
+"titel": "Fenbendazole as an Anticancer Agent? A Case Series of Self-Administration in Three Patients.",
+"typen": [
+"Retracted Publication",
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:40611079": {
 "autoren": "Lashgari E, Chen E, Gregory J, Maoz U.",
 "doi": "10.1186/s12906-025-04973-0",
@@ -87760,6 +88312,24 @@
 "Journal Article"
 ]
 },
+"pmid:41608149": {
+"autoren": "Krishnan A, Lucas K, Maas L, Woreta TA.",
+"doi": "10.12998/wjcc.v14.i2.116700",
+"iso": "World J Clin Cases",
+"jahr": "2026",
+"journal": "World journal of clinical cases",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12836008",
+"pmid": "41608149",
+"quelle": "MED",
+"titel": "Differentiating fenbendazole-induced liver injury from immunotherapy hepatitis - the importance of structured causality assessment: A case report.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:41612982": {
 "autoren": "Michailidou Ε, Papadakos SP, Κoukoulioti Ε, Paraskevopoulou S, Μela M, Fytili P, Ioannidou P, Cholongitas Ε, Τriantafyllou Κ, Papatheodoridis GV.",
 "doi": "10.20524/aog.2026.1019",
@@ -90019,6 +90589,23 @@
 "typen": [
 "Comparative Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:42118539": {
+"autoren": "Rockwell MS, Kahn KL, Fendrick AM, Vangala S, Mafi JN.",
+"doi": "10.1001/jamanetworkopen.2026.16780",
+"iso": "JAMA Netw Open",
+"jahr": "2026",
+"journal": "JAMA network open",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13169398",
+"pmid": "42118539",
+"quelle": "MED",
+"titel": "Ivermectin-Benzimidazole Prescribing Following Celebrity Endorsement.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
