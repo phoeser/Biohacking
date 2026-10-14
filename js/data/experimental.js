@@ -8211,6 +8211,170 @@ const EXPERIMENTAL = [
     ],
     community: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'rad150',
+    name: 'RAD-150 (TLB-150)',
+    altNames: 'TLB-150, TLB 150 Benzoate, RAD150, RAD140-Benzoat, CAS 1208070-53-4, Abkömmling von RAD140 (Testolon)',
+    class: 'Benzoesäureester des SARM RAD140, Forschungschemikalie, nicht zugelassen',
+    emoji: '🧪',
+    short: 'Chemisch der Benzoesäureester von RAD140: dasselbe SARM-Gerüst, an der Hydroxygruppe mit Benzoesäure verknüpft. Die einzige Messung zur Substanz selbst steht in einem Patent von Radius Health – sie bindet den Androgenrezeptor im Labortest, rund 65-mal schwächer als RAD140. Studien an Tier oder Mensch gibt es nicht.',
+    moa: 'RAD-150 ist laut PubChem (CID 68547459, Synonyme RAD150 und TLB 150 Benzoate, CAS 1208070-53-4) die Verbindung (1R,2S)-1-(3-Chlor-4-cyano-2-methylanilino)-1-[5-(4-cyanophenyl)-1,3,4-oxadiazol-2-yl]propan-2-yl-benzoat, Summenformel C27H20ClN5O3, Molmasse 497,9 g/mol – also RAD140 (C20H16ClN5O2, 393,8 g/mol), dessen Hydroxygruppe mit Benzoesäure verestert ist. Beschrieben ist sie als Beispiel 87 im US-Patent 8,629,167 von Radius Health (Erfinder Chris P. Miller, Priorität 2008): hergestellt durch Umsetzung von RAD140 (Beispiel 22) mit Benzoylchlorid. Im Bindungstest des Patents (zellfreie Fluoreszenzpolarisation, Androgenrezeptor der Ratte) lag die IC50 bei 130 nM, für RAD140 bei 2 nM; In-vivo-Daten gibt es für Beispiel 87 nicht. Das Patent nennt den Ester weder Prodrug noch Depotform. Ob der Körper die Esterbindung spaltet und RAD140 freisetzt oder ob der Ester selbst wirkt, ist nicht untersucht. Der Name RAD-150 stammt nicht aus dem Entwicklungsprogramm von Radius, sondern aus dem Handel.',
+    benefits: [
+      'Die Identität ist ungewöhnlich gut dokumentiert: Struktur, Herstellungsweg und Rezeptorbindung stehen in einem Patent des RAD140-Entwicklers Radius Health (US 8,629,167, Beispiel 87).',
+      'Die Verbindung bindet den Androgenrezeptor der Ratte im zellfreien Test mit einer IC50 von 130 nM (Patent, Einzelwert aus Tabelle 1).',
+      'Der Mutterstoff RAD140 aktiviert den Androgenrezeptor beim Menschen nachweislich: In der Phase-1-Studie sank SHBG bei 18 von 18, PSA stieg bei 16 von 20 Patientinnen (LoRusso 2022) – eine Übertragung, für RAD-150 selbst nicht gemessen.',
+      'Als Analysereferenz ist die Substanz eindeutig beschrieben (PubChem CID 68547459, InChIKey NQUKIBBKKLFEQU-BXKMTCNYSA-N) – damit ließe sich prüfen, ob ein Produkt tatsächlich den Ester enthält.'
+    ],
+    risks: [
+      'Keine Studie an Mensch oder Tier, keine Pharmakokinetik, keine Toxikologie; ClinicalTrials.gov liefert am 14.10.2026 zu RAD150, RAD-150 und TLB-150 keinen Eintrag, Europe PMC keine Publikation zur Substanz.',
+      'Die Werbeversprechen (stärker, länger wirksam, verträglicher als RAD140) beruhen auf keiner veröffentlichten Messung; die einzige Zahl zeigt eine rund 65-fach schwächere Rezeptorbindung als RAD140 im selben Test.',
+      'Übertragung vom Mutterstoff, nicht für RAD-150 gemessen: Unter RAD140 waren erhöhte Leberwerte die häufigste Nebenwirkung (AST bei 59,1 Prozent, ALT bei 45,5 Prozent in der Phase 1), dazu Fallberichte über Leberschäden (u. a. J Med Case Rep 2023).',
+      'Die FDA warnt für die SARM-Klasse vor Leberschäden bis zum Leberversagen, Herzinfarkt und Schlaganfall, Psychosen, Unfruchtbarkeit und Hodenschrumpfung.',
+      'Ob ein als RAD-150 verkauftes Produkt den Ester enthält, ist unbekannt – eine Inhaltsanalyse gibt es nicht; von 44 online gekauften SARM-Produkten enthielten nur 52 Prozent überhaupt einen SARM (JAMA 2017).',
+      'Im Sport jederzeit verboten (WADA 2026, S1.2, SARMs als offene Gruppe).'
+    ],
+    status: 'Nirgends als Arzneimittel zugelassen, nie klinisch entwickelt, kein Nahrungsergänzungsmittel; Vertrieb als Forschungschemikalie. Dopingliste: WADA-Verbotsliste 2026 (in Kraft ab 01.01.2026), S1.2 Andere anabole Wirkstoffe, „including, but not limited to“ selektive Androgenrezeptor-Modulatoren mit RAD140 als Beispiel; RAD-150 ist nicht namentlich genannt, die Gruppe ist offen; jederzeit verboten. Deutschland: Die Anlage zum Anti-Doping-Gesetz führt unter „Andere anabole Stoffe“ die SARMs mit „Zum Beispiel“ und nennt RAD-140, synonym Testolon, namentlich, RAD-150 nicht; Herstellung, Handel und Abgabe zu Dopingzwecken sind für Stoffe der WADA-Liste verboten (§ 2 Abs. 1 AntiDopG). Kein Betäubungsmittel (BtMG), nicht in der AMVV, kein neuer psychoaktiver Stoff im Sinne des NpSG. FDA: SARMs sind keine Nahrungsergänzungsmittel, sondern nicht zugelassene Arzneimittel.',
+    sources: [
+      { title: 'PubChem CID 68547459 – TLB 150 Benzoate (RAD150), Struktur, Summenformel, CAS 1208070-53-4', url: 'https://pubchem.ncbi.nlm.nih.gov/compound/68547459' },
+      { title: 'Radius Health, US-Patent 8,629,167 B2 (2014) – Beispiel 87 (RAD140-Benzoat), Androgenrezeptor-Bindung IC50 130 nM gegenüber 2 nM für RAD140 (Beispiel 22)', url: 'https://patents.google.com/patent/US8629167B2/en' },
+      { title: 'Miller et al., ACS Med Chem Lett 2011 – Design und präklinische Charakterisierung von RAD140', url: 'https://pubmed.ncbi.nlm.nih.gov/24900290/' },
+      { title: 'LoRusso et al., Clin Breast Cancer 2022 – Phase-1-Studie RAD140, 22 Frauen mit metastasiertem Brustkrebs', url: 'https://pubmed.ncbi.nlm.nih.gov/34565686/' },
+      { title: 'Ladna et al., J Med Case Rep 2023 – Leberschaden unter RAD140, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/36978171/' },
+      { title: 'Van Wagoner et al., JAMA 2017 – Inhaltsstoffe von 44 als SARM verkauften Internetprodukten', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' },
+      { title: 'FDA – SARMs in Bodybuilding-Produkten: nicht zugelassene Arzneimittel, Risiken', url: 'https://www.fda.gov/drugs/fraudulent-products/certain-bodybuilding-products-put-consumers-risk-heart-attack-stroke-serious-liver-damage-and-more' },
+      { title: 'WADA – Prohibited List 2026, S1.2 Andere anabole Wirkstoffe (SARMs)', url: 'https://ita.sport/uploads/2025/09/2026list_en_final_clean_september_2025.pdf' },
+      { title: 'Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz – SARMs, zum Beispiel RAD-140, synonym Testolon', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'gw-0742',
+    name: 'GW-0742 (GW610742)',
+    altNames: 'GW0742, GW 0742, GW610742, GW-610742, Fitorine, in Foren als „Cardarine 2.0" gehandelt',
+    class: 'PPARdelta-Agonist (Peroxisome Proliferator-Activated Receptor delta) aus derselben Laborreihe wie GW501516, kein SARM, nicht zugelassen',
+    emoji: '🧪',
+    short: 'Der kleine Bruder von Cardarine: GW-0742 stammt aus derselben Wirkstoffreihe von GlaxoSmithKline und besetzt denselben Kernrezeptor PPARdelta, der in Muskel-, Leber- und Fettzellen die Fettverbrennung steuert. In Zell- und Tierversuchen ist er intensiv untersucht und gehört zu den Standardwerkzeugen der PPARdelta-Forschung. Am Menschen gibt es dagegen keine einzige Wirksamkeits- oder Verträglichkeitsstudie; die einzige veröffentlichte Gabe an Menschen diente der Dopinganalytik.',
+    moa: 'GW-0742 aktiviert den Kernrezeptor PPARdelta, der in Muskel-, Fett- und Leberzellen Gene für den Fettsäurestoffwechsel ablesen lässt. Er wurde in derselben Arbeit beschrieben wie GW501516: eine Optimierungsreihe lipophiler Carbonsäuren, aus der zwei hochselektive PPARdelta-Agonisten hervorgingen, für den optimierten Vertreter mit einer EC50 von 1,1 Nanomol pro Liter und etwa tausendfacher Selektivität gegenüber den anderen PPAR-Formen (Sznaidman et al. 2003). In der Forschung ist GW-0742 deshalb bis heute das Werkzeug, mit dem die PPARdelta-Achse angeschaltet wird. Die Wirkkette ist im Tier gut vermessen: In Rattenmuskel schaltete die Substanz den Brennstoff von Kohlenhydraten auf Fett um, verdoppelte das Schlüsseleiweiß PDK4 und steigerte die Aktivität eines Enzyms der Fettsäureverbrennung, ohne die Leistung der Mitochondrien zu beeinträchtigen (Constantin et al. 2007). In menschlichen Zellen ist die Zielstruktur ebenfalls getroffen: In primären T-Zellen von Menschen erhöhte die PPARdelta-Aktivierung die Fettsäureverbrennungskapazität (Sibille et al. 2021). Am Menschen selbst ist von dieser Kette nichts gemessen. Eine zweite Eigenschaft gehört zum Mechanismus: Bei höheren Konzentrationen wirkt GW-0742 nicht mehr nur als PPAR-Agonist, sondern hemmt mehrere Kernrezeptoren, am stärksten den Vitamin-D- und den Androgenrezeptor (Nandhikonda et al. 2013).',
+    benefits: [
+      'Zielstruktur sauber getroffen: In der Erstbeschreibung der Reihe wird für den optimierten PPARdelta-Agonisten eine EC50 von 1,1 Nanomol pro Liter mit etwa tausendfacher Selektivität gegenüber PPARalpha und PPARgamma angegeben (Sznaidman et al. 2003, Zell- und Rezeptorversuche).',
+      'Brennstoffwechsel im Muskel: In Rattenmuskel verschob GW610742 über sechs Tage den Stoffwechsel von Kohlenhydraten zu Fett, verdoppelte PDK4 und steigerte die Aktivität der beta-Hydroxyacyl-CoA-Dehydrogenase, ohne die maximale ATP-Bildung der Mitochondrien zu senken (Constantin et al., J Physiol 2007, Ratte).',
+      'Ausdauer im Tier, aber nur in Kombination: Bei trainierten Mäusen steigerte GW-0742 zusammen mit dem AMPK-Aktivator AICAR und vierwöchigem Laufbandtraining die Laufzeit um 138 bis 179 Prozent gegenüber trainierten Kontrolltieren; der Effekt wird der Kombination zugeschrieben, GW-0742 allein erhöhte vor allem PGC-1alpha im Muskel (Manio et al., Physiol Rep 2016, Maus).',
+      'Herz im Tier: Eine einzelne Gabe bei Mäusen führte nach fünf Stunden zu mehr Gefäßneubildung und nach 24 Stunden zu einem größeren Herzen durch Zellvergrößerung, ohne Anzeichen krankhafter Hypertrophie, Fibrose oder Funktionsverlust (Wagner et al., Cardiovasc Res 2009, Maus).',
+      'Darm im Tier: Im Modell mit chemisch ausgelöstem Darmkrebs senkte GW-0742 bei Wildtyp-Mäusen die Zahl der Darmpolypen, bei Tieren ohne PPARdelta fehlte der Effekt - ein Hinweis, dass die Wirkung wirklich über den Zielrezeptor läuft (Marin et al., Cancer Res 2006, Maus).',
+      'In menschlichen Zellen messbar: In primären menschlichen T-Zellen erhöhte die PPARdelta-Aktivierung die Fettsäureverbrennungskapazität und verschob die Reifung in Richtung regulatorischer T-Zellen (Sibille et al. 2021, Zellversuch am Menschenmaterial).',
+      'Analytisch gut beschrieben: Abbauwege und Nachweisfenster im Urin sind in einer kontrollierten Ausscheidungsstudie am Menschen bestimmt worden, Hauptabbauweg ist die Oxidation zum Sulfoxid und zum Sulfon (Sobolevsky et al., Drug Test Anal 2012).'
+    ],
+    risks: [
+      'Keine Humanstudie zu Wirkung oder Verträglichkeit: Die Abfrage der Schnittstelle von ClinicalTrials.gov zu GW0742, GW-0742 und GW610742 gibt am 14.10.2026 keinen Studieneintrag zurück; die einzige veröffentlichte Gabe an Menschen war eine Ausscheidungsstudie für die Dopinganalytik ohne Wirksamkeits- oder Sicherheitsendpunkt (Sobolevsky et al. 2012).',
+      'Muskelabbau-Programm im Tier: In Rattenmuskel stiegen unter der höheren Gabe die Abbaumarker MuRF1 und MAFbx auf mRNA- und Eiweißebene, während Akt1 fiel - also das Gegenteil dessen, was ein Muskelmittel leisten soll (Constantin et al. 2007, Ratte).',
+      'Nicht so selektiv wie beworben: Ab etwa 12 Mikromol pro Liter hemmt GW-0742 mehrere Kernrezeptoren, am stärksten Vitamin-D- und Androgenrezeptor, und wirkt am PPAR selbst bei niedriger Konzentration als Agonist, bei höherer als Antagonist (Nandhikonda et al., Biochemistry 2013, Zellversuche).',
+      'Herzwachstum nach einer einzigen Gabe im Mausversuch; ob eine dauerhafte Aktivierung beim Menschen gutartig bliebe, ist nicht untersucht (Wagner et al. 2009).',
+      'Klassenfrage Krebs ungeklärt: Die Entwicklung des nahen Verwandten GW501516 wurde laut Hersteller 2006 nach Krebsbefunden in Langzeit-Tierstudien gestoppt. Für GW-0742 gibt es keine veröffentlichte Langzeit-Karzinogenitätsstudie, und die PPARdelta-Datenlage bei Tumoren ist uneinheitlich: Im Darmmodell wirkte GW-0742 schützend, in anderen Modellen beschleunigten PPARdelta-Liganden das Wachstum von Darmadenomen.',
+      'Immunwirkung: Die Verschiebung zu regulatorischen T-Zellen, im Tier zusammen mit Training verstärkt, kann die Immunantwort dämpfen; die Autoren halten nachteilige Immunwirkungen für möglich, die im Blut kaum auffallen (Sibille et al. 2021).',
+      'Im Sport jederzeit verboten: Die WADA-Verbotsliste 2026 führt in S4.4.1 die Klasse der PPARdelta-Agonisten (Beispiel GW1516/GW501516) als nicht-spezifische Substanzen; GW-0742 ist ein PPARdelta-Agonist und wird in Dopingkontrollen als Sulfon-Metabolit bis etwa 20 Tage nach einer Einzelgabe nachgewiesen (Sobolevsky et al. 2012).',
+      'Graumarktware ohne Qualitätsprüfung: Weder Identität noch Reinheit noch Gehalt sind bei Angeboten für Forschungszwecke geprüft; Verwechslung mit GW501516 liegt nahe, weil die Moleküle sich kaum unterscheiden.'
+    ],
+    status: 'Kein zugelassenes Arzneimittel und kein Nahrungsergänzungsmittel in Deutschland, der EU oder den USA; keine bekannte klinische Entwicklung und kein Eintrag in ClinicalTrials.gov (Abfrage 14.10.2026). Vertrieb ausschließlich als Forschungschemikalie. Dopingliste: WADA-Verbotsliste 2026 (in Kraft ab 01.01.2026), Abschnitt S4.4.1 Stoffwechsel-Modulatoren, Klasse „Peroxisom-Proliferator-aktivierter-Rezeptor-delta-(PPARδ-)Agonisten" mit GW1516/GW501516 als Beispiel - die Klasse ist nicht-spezifiziert und jederzeit verboten, innerhalb und außerhalb des Wettkampfs. Deutschland: Die Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz nennt unter den Stoffwechsel-Modulatoren die Klasse der „PPARδ (Peroxisome Proliferator Activated Receptor Delta)-Agonisten" mit GW501516 als Beispiel und schließt ausdrücklich Isomere, Komplexe und Derivate ein; GW-0742 ist ein PPARdelta-Agonist und fällt damit unter diese Klasse - Erwerb, Besitz und Verbringen in nicht geringer Menge zum Zwecke des Dopings im Sport sind damit verboten, ebenso Handel, Abgabe und Verschreiben zu diesem Zweck. Nachweisbar über die Sulfoxid- und Sulfon-Metaboliten im Urin.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/22977012/',
+    sources: [
+      { title: 'Sznaidman et al., Bioorg Med Chem Lett 2003 - Erstbeschreibung der Reihe mit GW501516 und GW0742, EC50 1,1 nM, tausendfache Selektivität', url: 'https://pubmed.ncbi.nlm.nih.gov/12699745/' },
+      { title: 'Sobolevsky et al., Drug Test Anal 2012 - kontrollierte Ausscheidungsstudie am Menschen, Metaboliten und Nachweisfenster von GW1516 und GW0742', url: 'https://pubmed.ncbi.nlm.nih.gov/22977012/' },
+      { title: 'Constantin et al., J Physiol 2007 - GW610742 im Rattenmuskel: Brennstoffwechsel, PDK4, Atrophie-Programm', url: 'https://pubmed.ncbi.nlm.nih.gov/17540700/' },
+      { title: 'Manio et al., Physiol Rep 2016 - AICAR plus GW0742 und Training bei Mäusen, Laufleistung', url: 'https://pubmed.ncbi.nlm.nih.gov/26997622/' },
+      { title: 'Wagner et al., Cardiovasc Res 2009 - GW0742 löst bei Mäusen Gefäßneubildung und Herzwachstum über Calcineurin aus', url: 'https://pubmed.ncbi.nlm.nih.gov/19351742/' },
+      { title: 'Marin et al., Cancer Res 2006 - GW0742 senkt chemisch ausgelösten Darmkrebs bei Mäusen, PPARdelta-abhängig', url: 'https://pubmed.ncbi.nlm.nih.gov/16618765/' },
+      { title: 'Nandhikonda et al., Biochemistry 2013 - GW0742 hemmt bei höheren Konzentrationen mehrere Kernrezeptoren, darunter den Vitamin-D-Rezeptor', url: 'https://pubmed.ncbi.nlm.nih.gov/23713684/' },
+      { title: 'Sibille et al., Int J Mol Sci 2021 - PPARbeta/delta-Agonisten im Sport, Fettsäureoxidation und T-Zell-Verschiebung', url: 'https://pubmed.ncbi.nlm.nih.gov/34768927/' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA - S4.4.1 PPARδ-Agonisten', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz - Stoffwechsel-Modulatoren, PPARδ-Agonisten einschließlich Derivate', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'orexin-a',
+    name: 'Orexin A',
+    altNames: 'Hypocretin-1, OxA, Hcrt-1, Orexin-A (human)',
+    class: 'Körpereigenes Neuropeptid (33 Aminosäuren), Agonist an beiden Orexin-Rezeptoren',
+    emoji: '☀️',
+    short: 'Das Wachheits-Peptid des Hypothalamus, das bei Narkolepsie Typ 1 fehlt. Anders als Orexin B gelangt es im Tierversuch aus dem Blut ins Gehirn, und über die Nase gegeben zeigte es in vier kleinen placebokontrollierten Humanstudien messbare Effekte auf REM-Schlaf, Riechvermögen, Aufmerksamkeit und Sympathikus. Wacher wurden Narkolepsie-Patienten damit nicht, und die bessere Leistung bei Schlafentzug ist nur an Affen gezeigt.',
+    moa: 'Orexin A entsteht zusammen mit Orexin B aus dem Vorläufer Prepro-Orexin in Nervenzellen des seitlichen Hypothalamus und aktiviert beide Orexin-Rezeptoren. Das System stabilisiert den Wachzustand; bei Narkolepsie Typ 1 gehen die Orexin-Zellen verloren, und im Nervenwasser von Patienten mit Narkolepsie mit Kataplexie ist Orexin A stark vermindert oder nicht nachweisbar. Für ein Peptid von außen ist Orexin A die günstigere der beiden Varianten: Bei Mäusen trat markiertes Orexin A nach Gabe in die Vene durch einfache Diffusion ins Hirngewebe über und kam dort überwiegend intakt an; der Octanol-Verteilungskoeffizient lag bei 0,232 gegenüber 0,030 für Orexin B. Die Humanversuche nutzen die Gabe über die Nase in der Hoffnung auf einen direkten Weg ins Gehirn. Eine PET-Untersuchung an Nagern und Affen fand nach Gabe in die Nase allerdings nur geringe Aufnahme ins Gehirn, in den meisten Regionen vergleichbar mit der Gabe in die Vene, möglicherweise mehr im Riechkolben.',
+    benefits: [
+      'Anders als Orexin B überwindet Orexin A im Tierversuch die Blut-Hirn-Schranke: Bei Mäusen gelangte es nach Gabe in die Vene schnell und überwiegend intakt ins Hirngewebe.',
+      'Bei Rhesusaffen nach 30 bis 36 Stunden Schlafentzug verbesserte Orexin A, in die Vene oder als Sprühnebel in die Nase gegeben, die Leistung in einer Kurzzeitgedächtnis-Aufgabe; der Nasenweg wirkte stärker als die höchste getestete Dosis in die Vene, bei ausgeruhten Tieren änderte sich die Leistung nicht.',
+      'Bei sieben Menschen mit Narkolepsie mit Kataplexie verbesserte Orexin A über die Nase in einem doppelblinden Cross-over-Versuch die Riechschwelle gegenüber Placebo.',
+      'In zwei placebokontrollierten Cross-over-Studien mit 8 und 14 Narkolepsie-Patienten nahmen REM-Schlaf und direkte Übergänge vom Wachen in den REM-Schlaf ab; im Test der geteilten Aufmerksamkeit machten die Patienten nach Orexin A weniger Fehler.',
+      'Bei zehn gesunden jungen Männern steigerte Orexin A über die Nase die gefäßverengende Sympathikusaktivität in der Muskulatur, ein Hinweis auf eine zentrale Wirkung; Blutdruck und Herzfrequenz blieben unverändert.'
+    ],
+    risks: [
+      'Am Menschen gibt es nur vier kleine Studien mit Einzelgaben und 7 bis 14 Teilnehmenden je Studie, drei davon aus derselben Arbeitsgruppe; ClinicalTrials.gov führt keine Studie mit Orexin A als Prüfsubstanz.',
+      'Die beworbene Wirkung als Wachmacher ist am Menschen nicht gezeigt: Bei Narkolepsie-Patienten nahm die Wachheit nicht messbar zu, und Daten bei Schlafentzug gibt es nur von Affen.',
+      'Ob über die Nase genug im Gehirn ankommt, ist offen: Eine PET-Untersuchung an Nagern und Affen fand nach Gabe in die Nase nur geringe Aufnahme ins Gehirn.',
+      'Orexin A steigerte bei Gesunden die gefäßverengende Sympathikusaktivität; welche Folgen wiederholte Gaben für Gefäße und Blutdruck hätten, ist nicht untersucht.',
+      'Zu wiederholter oder längerer Anwendung existieren keine Verträglichkeitsdaten.',
+      'Anhaltende Tagesmüdigkeit, Schlafattacken oder Kataplexie gehören in schlafmedizinische Abklärung; Narkolepsie Typ 1 ist behandelbar, und Selbstversuche verschleppen die Diagnose.',
+      'Gehandelt wird Laborware mit dem Zusatz „nur für Forschungszwecke", ohne Prüfung von Gehalt, Reinheit und Sterilität.',
+      'Im Sport fällt eine nicht zugelassene Substanz unter die Gruppe S0 der Welt-Anti-Doping-Agentur und ist jederzeit verboten.'
+    ],
+    status: 'In Deutschland und der EU ist Orexin A kein zugelassenes Arzneimittel; als Nahrungsergänzungsmittel fehlt die nach der Novel-Food-Verordnung (EU) 2015/2283 nötige Genehmigung. Verkauft wird es als Laborpeptid für Forschungszwecke, teils als Nasenspray. Zugelassen ist am Orexin-System nicht das Peptid, sondern der orale Orexin-Rezeptor-2-Agonist Oveporexton: Die US-Arzneimittelbehörde FDA erteilte am 05.08.2026 die Zulassung als Orzeyful für Erwachsene mit Narkolepsie Typ 1. WADA 2026: als nicht zugelassene Substanz unter S0 jederzeit verboten.',
+    sources: [
+      { title: 'Kastin und Akerstrom, J Pharmacol Exp Ther 1999 – Orexin A gelangt aus dem Blut durch einfache Diffusion ins Gehirn', url: 'https://pubmed.ncbi.nlm.nih.gov/10087007/' },
+      { title: 'Deadwyler et al., J Neurosci 2007 – Orexin A in die Vene und über die Nase bei schlafentzogenen Rhesusaffen', url: 'https://pubmed.ncbi.nlm.nih.gov/18160631/' },
+      { title: 'Baier et al., Brain 2008 – Riechvermögen bei Narkolepsie mit Kataplexie und Orexin A über die Nase', url: 'https://pubmed.ncbi.nlm.nih.gov/18718966/' },
+      { title: 'Baier et al., Sleep Med 2011 – Orexin A über die Nase und Nachtschlaf bei Narkolepsie, 8 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/22036605/' },
+      { title: 'Weinhold et al., Behav Brain Res 2014 – Orexin A über die Nase: Schlaf, Wachheit und Aufmerksamkeit bei Narkolepsie, 14 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/24406723/' },
+      { title: 'Meusel et al., J Neurophysiol 2022 – Orexin A über die Nase und Sympathikusaktivität bei 10 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/35044844/' },
+      { title: 'Van de Bittner et al., ACS Chem Neurosci 2018 – PET-Messung der Gehirnaufnahme von Orexin A über die Nase', url: 'https://pubmed.ncbi.nlm.nih.gov/29035509/' },
+      { title: 'FDA, Pressemitteilung vom 05.08.2026 – Zulassung von Orzeyful (Oveporexton)', url: 'https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms' },
+      { title: 'ClinicalTrials.gov – Suche nach Orexin A als Prüfsubstanz ohne Studie zum Peptid', url: 'https://clinicaltrials.gov/search?intr=orexin%20A' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'fenbendazol',
+    name: 'Fenbendazol',
+    altNames: 'Fenbendazole, FBZ, „Fenben“, Joe-Tippens-Protokoll, Panacur (Tierarzneimittel)',
+    class: 'Benzimidazol-Wurmmittel aus der Tiermedizin, für Menschen nicht zugelassen',
+    emoji: '🐾',
+    short: 'Ein seit Jahrzehnten bewährtes Wurmmittel für Tiere, das seit einigen Jahren als Selbstbehandlung bei Krebs kursiert, bekannt geworden über das sogenannte Joe-Tippens-Protokoll. Im Labor stört es wie verwandte Wirkstoffe die Mikrotubuli von Krebszellen, in Tierversuchen sind die Ergebnisse widersprüchlich. Kontrollierte Studien am Menschen gibt es nicht, dafür mehrere Fallberichte über schwere Leberschäden.',
+    moa: 'Fenbendazol gehört wie Mebendazol und Albendazol zu den Benzimidazolen. Bei Würmern bindet es an Tubulin, den Baustein der Mikrotubuli, und legt so Zellteilung und Nährstoffaufnahme der Parasiten lahm. An Tubulin von Säugetieren bindet es mit mäßiger Affinität; in menschlichen Krebszellen wirkte es in mikromolaren Konzentrationen zytotoxisch, verlagerte das Schutzprotein p53 in die Mitochondrien und hemmte die Glukoseaufnahme sowie das Glykolyse-Enzym Hexokinase II (Dogra 2018). Im Körper wird es unter anderem zu Oxfendazol umgebaut (EMEA/CVMP).',
+    benefits: [
+      'Seit Jahrzehnten breit eingesetztes Tierarzneimittel gegen Magen-Darm-Würmer, Lungenwürmer und Bandwürmer, unter anderem bei Rindern, Schafen, Pferden, Schweinen und Ziegen; akute Giftigkeit gering (EMEA/CVMP)',
+      'Labor: mäßiger Mikrotubuli-Hemmer, in menschlichen Krebszellen zytotoxisch, hemmt Glukoseaufnahme, GLUT-Transporter und Hexokinase II (Dogra 2018)',
+      'Tierversuch: oral gegeben bremste es das Wachstum menschlicher Lungenkrebs-Xenografts in Nacktmäusen (Dogra 2018)',
+      'Zufallsbefund 2008: Lymphom-Xenografts wuchsen in Mäusen nicht an, die Fenbendazol zusammen mit zusätzlichen Vitaminen im Futter erhielten; Fenbendazol allein oder Vitamine allein hatten keinen Effekt (Gao 2008)'
+    ],
+    risks: [
+      'Keine kontrollierte Studie am Menschen; auf ClinicalTrials.gov taucht Fenbendazol nur in der Kandidatenliste einer einarmigen chinesischen Screening-Studie auf, Status seit 2019 unbekannt, keine Ergebnisse (NCT03299452)',
+      'Widersprüchliche Tierdaten: bei Brusttumoren der Maus auch in maximal intensiven Schemata kein Effekt auf das Tumorwachstum und keine Verstärkung der Bestrahlung (Duan 2013)',
+      'Die einzige veröffentlichte Fallserie mit Remissionen (3 Patienten) wurde 2026 zurückgezogen, wegen eines nicht offengelegten Interessenkonflikts des Erstautors (Makis 2025)',
+      'Fallberichte schwerer Leberschäden nach Selbsteinnahme, darunter ein feingeweblich bestätigter Fall (Thakurdesai 2024) und ein Fall unter Immuntherapie, der zunächst wie eine Immuntherapie-Hepatitis aussah (Krishnan 2026)',
+      'Tierstudien: Leberschäden bei wiederholter Gabe an Ratten und Mäuse, fruchtschädigend in mehreren Tierarten; wird in der Humanmedizin nicht verwendet (EMEA/CVMP)',
+      'Kann eine wirksame Krebsbehandlung nicht ersetzen; eine Leberschädigung kann die laufende Therapie unterbrechen'
+    ],
+    status: 'Deutschland: als Humanarzneimittel nicht zugelassen, auch nicht in der EU oder den USA. Tierarzneimittel mit Fenbendazol sind verschreibungspflichtig und dürfen nur auf tierärztliche Verschreibung abgegeben werden (AMVV Anlage 1, „zur Anwendung bei Tieren“). Präparate für Tiere sind nicht für Menschen bestimmt.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30093705/',
+    sources: [
+      { title: 'Dogra N et al., Sci Rep 2018 – Fenbendazol als mäßiger Mikrotubuli-Hemmer, Zellversuche und Xenograft-Mausmodell', url: 'https://pubmed.ncbi.nlm.nih.gov/30093705/' },
+      { title: 'Gao P et al., J Am Assoc Lab Anim Sci 2008 – unerwartete Tumorhemmung durch Fenbendazol nur in Kombination mit zusätzlichen Vitaminen, Lymphom-Xenografts in SCID-Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/19049251/' },
+      { title: 'Duan Q et al., Anticancer Res 2013 – Fenbendazol als mögliches Krebsmittel: kein Effekt auf EMT6-Brusttumoren der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/23393324/' },
+      { title: 'Makis W et al., Case Rep Oncol 2025 – Fallserie mit 3 Patienten unter Fenbendazol-Selbsteinnahme, zurückgezogen (RETRACTED, Rückzug Januar 2026)', url: 'https://pubmed.ncbi.nlm.nih.gov/40605964/' },
+      { title: 'Thakurdesai A et al., ACG Case Rep J 2024 – schwerer, feingeweblich bestätigter Leberschaden nach Selbsteinnahme von Fenbendazol', url: 'https://pubmed.ncbi.nlm.nih.gov/38706451/' },
+      { title: 'Krishnan A et al., World J Clin Cases 2026 – Leberschaden durch Fenbendazol unter Immuntherapie, Abgrenzung von der Immuntherapie-Hepatitis', url: 'https://pubmed.ncbi.nlm.nih.gov/41608149/' },
+      { title: 'Rockwell MS et al., JAMA Netw Open 2026 – Verordnungen von Ivermectin plus Benzimidazol nach Empfehlung in einem Podcast, 68 Millionen Patientenakten', url: 'https://pubmed.ncbi.nlm.nih.gov/42118539/' },
+      { title: 'ClinicalTrials.gov NCT03299452 – einarmige Screening-Studie zu Wirkstoffkombinationen bei fortgeschrittenen soliden Tumoren (China), Fenbendazol in der Kandidatenliste, Status unbekannt', url: 'https://clinicaltrials.gov/study/NCT03299452' },
+      { title: 'EMEA, Ausschuss für Tierarzneimittel (CVMP) – Oxfendazole, Fenbendazole, Febantel, Summary Report (1): Toxikologie und Rückstandshöchstmengen', url: 'https://www.ema.europa.eu/en/documents/mrl-report/oxfendazole-fenbendazole-febantel-summary-report-1-committee-veterinary-medicinal-products_en.pdf' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Fenbendazol zur Anwendung bei Tieren verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
   }
 
 ];
@@ -8226,6 +8390,8 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'gw-0742': 'Exercise',
+  'rad150': 'Exercise',
   'salbutamol': 'Stoffwechsel',
   'dhb': 'Exercise',
   'methyltrienolon': 'Exercise',
