@@ -518,7 +518,7 @@ const EXPERIMENTAL = [
         audio: 'audio/bpc-157-podcast.mp3',
         spotify: '3G58RjUupVFwxDMkOdSqX2',
         lengthLabel: '≈ 12 Min · Deutsch · 2 KI-Stimmen',
-        note: 'Der Podcast von Paul Höser (Folge 2). KI-generierte deutsche Folge (Paul & Paula) über BPC-157 – warum das „Body Protection Compound" aus dem Magensaft als Reparatur-Peptid für Sehnen, Bänder und Darm so gefeiert wird, was Tiermodelle zeigen und wie es typischerweise angewendet wird (berichtet, keine Empfehlung). Nur Information – keine medizinische Beratung. Research-Peptid, nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
+        note: 'Der Podcast von Paul Höser (Folge 2) · mit Paul & Paula. Frische KI-Dialogfolge über BPC-157, das Bruchstück aus einem Schutzprotein des Magensafts, das im Tierversuch Sehnen, Bänder und Darm schneller heilen lässt: von einer Registerstudie mit einem Gummibärchen über die Mechanismen aus dem Tiermodell und die nie vollständig veröffentlichten Patientenstudien bis zu den Erfahrungen aus einem großen Forenthread und der Lage in den USA und in Deutschland. Reine Information, keine Dosier- oder Anwendungsempfehlung; nicht als Arzneimittel zugelassen, im Sport verboten (WADA).'
       }
     ]
   },
