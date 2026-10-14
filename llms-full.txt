@@ -750,6 +750,11 @@ https://biohackingkompakt.de/thema/fasten-autophagie.html
 
 Intervallfasten verschiebt die Essenszeiten; die Autophagie gilt als sein wichtigstes Versprechen. In der längsten Vergleichsstudie verloren beide Gruppen deutlich Gewicht – das Zeitfenster jedoch nicht mehr als das gleich große Kaloriendefizit, und eine Zunahme der Autophagie ist beim Menschen bisher nur in einer explorativen Auswertung angedeutet.
 
+## Fenbendazol
+https://biohackingkompakt.de/thema/fenbendazol.html
+
+Fenbendazol ist ein Wurmmittel, das in der Tiermedizin seit Jahrzehnten bei zahlreichen Tierarten eingesetzt wird. Bekannt wurde es als Selbstbehandlung bei Krebs, nachdem der US-Amerikaner Joe Tippens in einem viel geteilten Video berichtet hatte, sein metastasierter Lungenkrebs sei nach der Einnahme verschwunden. Im Labor greift Fenbendazol tatsächlich die Mikrotubuli von Krebszellen an, in Tierversuchen sind die Ergebnisse widersprüchlich. Kontrollierte Studien am Menschen gibt es nicht, dafür mehrere Fallberichte über schwere Leberschäden.
+
 ## Fettweg-Spritzen (Injektionslipolyse)
 https://biohackingkompakt.de/thema/fettweg-spritzen.html
 
@@ -904,6 +909,11 @@ Die Idee: Der Körper gleicht über die Haut sein elektrisches Potenzial an das 
 https://biohackingkompakt.de/thema/egcg.html
 
 Grüntee-Extrakt senkt das LDL-Cholesterin und den Blutdruck leicht und steigert den Energieverbrauch ein wenig. Beim Abnehmen fand der Cochrane-Review außerhalb Japans keinen relevanten Effekt. Der wichtigste Punkt ist die Leber: Ab 800 mg EGCG pro Tag stiegen in Studien die Leberwerte, und die EFSA konnte für Extrakte keine Dosis benennen, die sie als sicher einstuft. Seit der EU-Verordnung 2022/2340 muss eine Tagesportion deshalb unter 800 mg EGCG liegen, und das Etikett muss vor nüchterner Einnahme warnen. Grüner Tee als Getränk ist davon nicht betroffen.
+
+## GW-0742 (GW610742)
+https://biohackingkompakt.de/thema/gw-0742.html
+
+GW-0742, in Arbeiten auch GW610742 genannt, ist ein hochselektiver PPAR-delta-Agonist aus derselben Optimierungsreihe von GlaxoSmithKline, aus der auch Cardarine hervorging. In Zellen und Tieren ist er gut charakterisiert: Er schaltet im Muskel den Brennstoff von Kohlenhydraten auf Fett um, er wirkt über den Zielrezeptor, und er wird seit zwei Jahrzehnten als Forschungswerkzeug eingesetzt. Was fehlt, ist der Mensch. Es gibt keine Wirksamkeitsstudie, keine Verträglichkeitsstudie und keinen Studieneintrag in ClinicalTrials.gov; die einzige veröffentlichte Einnahme durch Menschen diente dazu, den Nachweis im Urin für Dopingkontrollen zu entwickeln. Im Sport ist die Substanz als PPAR-delta-Agonist jederzeit verboten, und in Deutschland greift die Klassenregelung des Anti-Doping-Gesetzes.
 
 ## hCG (humanes Choriongonadotropin)
 https://biohackingkompakt.de/thema/hcg.html
@@ -1575,6 +1585,11 @@ https://biohackingkompakt.de/thema/turinabol.html
 
 Dass Oral-Turinabol Kraft und Leistung steigert, ist in internen DDR-Berichten dokumentiert, etwa an 40 Weltklasse-Werfern; besonders stark fiel die Wirkung bei Frauen aus. Kontrollierte Studien dazu gibt es nicht, am Menschen kontrolliert untersucht ist nur, wie der Körper den Stoff abbaut. Gut dokumentiert ist dagegen, woran ehemalige DDR-Athletinnen und -Athleten heute leiden: Verschleiß des Bewegungsapparats, psychische Erkrankungen, Hormonstörungen, Herz-Kreislauf-Erkrankungen und Tumoren. Diese Daten können die Substanz nicht sauber vom Druck des Systems und von den übrigen Mitteln trennen. Rechtlich ist die Lage eindeutig: In Deutschland steht der Wirkstoff in der Anlage des Anti-Doping-Gesetzes, im Sport ist er jederzeit verboten.
 
+## Orexin A
+https://biohackingkompakt.de/thema/orexin-a.html
+
+Orexin A ist ein körpereigenes Neuropeptid aus dem Hypothalamus, das beide Orexin-Rezeptoren aktiviert und den Wachzustand stabilisiert. Anders als sein Schwesterpeptid Orexin B gelangt es im Tierversuch aus dem Blut intakt ins Gehirn. Bei Rhesusaffen nach 30 bis 36 Stunden ohne Schlaf verbesserte es, auch als Sprühnebel in die Nase gegeben, die Leistung in einer Gedächtnisaufgabe. Am Menschen gibt es vier kleine placebokontrollierte Studien mit einer einzigen Gabe über die Nase: Bei Narkolepsie-Patienten stabilisierte Orexin A den REM-Schlaf, verbesserte das Riechen und senkte Fehler in einem Aufmerksamkeitstest, bei gesunden Männern steigerte es die Sympathikusaktivität. Wacher wurden die Patienten nicht, Gesunde mit Schlafmangel wurden nie untersucht, und wie viel über die Nase im Gehirn ankommt, ist nach einer PET-Studie fraglich.
+
 ## Orexin B
 https://biohackingkompakt.de/thema/orexin-b.html
 
@@ -1804,6 +1819,11 @@ Pyrilutamid, Entwicklungsname KX-826, ist eine Tinktur gegen erblich bedingten H
 https://biohackingkompakt.de/thema/quercetin.html
 
 Quercetin senkt den Blutdruck leicht, und der Befund ist über drei unabhängige Meta-Analysen stabil: 2,38 bis 3,09 mmHg systolisch, deutlicher ab 500 Milligramm täglich und deutlicher bei bereits erhöhtem Blutdruck. Nach harter Belastung beschleunigt es die Erholung. Die Ausdauerleistung verbessert es messbar, aber so wenig, dass die Autoren beider Sport-Meta-Analysen den Effekt selbst als trivial einordnen. Der senolytische Ruf stammt aus Zellkultur und Tierversuch; am Menschen ist Quercetin dafür nie allein geprüft worden, sondern immer zusammen mit dem verschreibungspflichtigen Dasatinib. Der praktische Haken ist die Aufnahme: je nach chemischer Form schwankt sie zwischen 17 und 52 Prozent.
+
+## RAD-150 (TLB-150)
+https://biohackingkompakt.de/thema/rad150.html
+
+RAD-150 ist der Benzoesäureester von RAD140, Summenformel C27H20ClN5O3, eingetragen in PubChem und beschrieben als Beispiel 87 eines Patents von Radius Health. Dort steht auch die einzige Messung zur Substanz: Sie bindet den Androgenrezeptor der Ratte im zellfreien Test mit einer IC50 von 130 nM, RAD140 im selben Test mit 2 nM. Tierversuche, Pharmakokinetik und Studien am Menschen gibt es nicht, auch keine Fallberichte. Was über Wirkung und Nebenwirkungen bekannt ist, gilt für den Mutterstoff RAD140 und lässt sich nur als Übertragung lesen. Im Sport ist RAD-150 als SARM jederzeit verboten.
 
 ## RAD140 (Testolone)
 https://biohackingkompakt.de/thema/rad140.html
