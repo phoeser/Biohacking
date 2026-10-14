@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 07.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -1752,13 +1752,15 @@ Stand: 07.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, amtliche Veröffentlichung BGBl. III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
 ## Thema: GLP-3 (https://biohackingkompakt.de/thema/glp-3.html)
-7 Studien: 3 Randomisierte Studie, 2 Sonstige Studie, 1 Fallbericht, 1 Übersichtsartikel.
+9 Studien: 4 Randomisierte Studie, 3 Sonstige Studie, 1 Fallbericht, 1 Übersichtsartikel.
 - Randomisierte Studie, 2026: Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial (Bajaj HS et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/42250575/
+- Randomisierte Studie, 2026: Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial (Bellido V et al., Lancet). https://doi.org/10.1016/S0140-6736(26)01861-1
 - Randomisierte Studie, 2024: Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial (Sanyal AJ et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38858523/
 - Randomisierte Studie, 2023: Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial (Jastreboff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37366315/
 - Fallbericht, 2026: Online-Sourced Retatrutide Complicating Impending Diabetic Ketoacidosis in a Patient With Type 1 Diabetes and Concurrent Shigella Gastroenteritis (Branine N, Cureus). https://pubmed.ncbi.nlm.nih.gov/42669023/
 - Übersichtsartikel, 2026: Proglucagon-derived peptides: human physiology and therapeutic potential (Gasbjerg LS et al., Physiol Rev). https://pubmed.ncbi.nlm.nih.gov/40720286/
 - Sonstige Studie, 2026: Evaluation of Research Grade Peptides Marketed Directly to Consumers Reveals Extensive Variability in Purity and Measured Abundance (Mendias CL et al., Preprints.org). https://doi.org/10.20944/preprints202604.1748.v1
+- Sonstige Studie, 2026: Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity (Jastreboff AM et al., N Engl J Med). https://doi.org/10.1056/NEJMoa2604169
 - Sonstige Studie, 2026: Self-Reported Side Effects Among Reddit Users Taking Nonapproved Retatrutide (Sehgal NKR et al., medRxiv). https://doi.org/10.64898/2026.05.28.26352819
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Concerns with Unapproved GLP-1 Drugs, Stand 01.09.2026. https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss
 - Behörde/Recht (Weitere Quellen): Eli Lilly, Mitteilung TRIUMPH-1, 21.05.2026. https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss
@@ -4050,13 +4052,15 @@ Stand: 07.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2012: Resveratrol supplementation does not improve metabolic function in nonobese women with normal glucose tolerance (Yoshino J et al., Cell Metab). https://europepmc.org/article/MED/23102619
 
 ## Thema: Retatrutide (https://biohackingkompakt.de/thema/retatrutide.html)
-7 Studien: 3 Randomisierte Studie, 2 Sonstige Studie, 1 Beobachtungsstudie, 1 Fallbericht.
+9 Studien: 4 Randomisierte Studie, 3 Sonstige Studie, 1 Beobachtungsstudie, 1 Fallbericht.
 - Randomisierte Studie, 2026: Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial (Bajaj HS et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/42250575/
+- Randomisierte Studie, 2026: Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial (Bellido V et al., Lancet). https://doi.org/10.1016/S0140-6736(26)01861-1
 - Randomisierte Studie, 2024: Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial (Sanyal AJ et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38858523/
 - Randomisierte Studie, 2023: Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial (Jastreboff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37366315/
 - Beobachtungsstudie, 2026: Accelerating Use of Unapproved Retatrutide Is Associated with Weaker Weight Loss and Increased Cardiovascular Symptoms (Murugadoss K et al., Preprints.org). https://doi.org/10.20944/preprints202608.1193.v1
 - Fallbericht, 2026: Online-Sourced Retatrutide Complicating Impending Diabetic Ketoacidosis in a Patient With Type 1 Diabetes and Concurrent Shigella Gastroenteritis (Branine N, Cureus). https://pubmed.ncbi.nlm.nih.gov/42669023/
 - Sonstige Studie, 2026: Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials (Giblin K et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/41090431/
+- Sonstige Studie, 2026: Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity (Jastreboff AM et al., N Engl J Med). https://doi.org/10.1056/NEJMoa2604169
 - Sonstige Studie, 2026: Self-Reported Side Effects Among Reddit Users Taking Nonapproved Retatrutide (Sehgal NKR et al., medRxiv). https://doi.org/10.64898/2026.05.28.26352819
 - Behörde/Recht (Weitere Quellen): Eli Lilly, Herstellermitteilung zu TRIUMPH-1, 21.05.2026. https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss
 - Behörde/Recht (Weitere Quellen): Eli Lilly, Herstellermitteilung zu TRIUMPH-2 und TRIUMPH-3, 23.07.2026. https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional
