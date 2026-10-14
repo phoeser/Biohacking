@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-10-10",
+ "stand": "2026-10-14",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -1531,7 +1531,7 @@
    "anwendung": 4,
    "richtung": "positiv",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden, begutachtet bisher aber nur aus Phase 2: 338 Teilnehmende, 48 Wochen, 24,2 Prozent gegenüber 2,1 Prozent unter Placebo (NEJM 2023). Laut Hersteller randomisierte TRIUMPH-1 2.339 Teilnehmende über 80 Wochen und erreichte in der höchsten Dosis 28,3 Prozent, nach Auswertung aller Randomisierten 25,0 Prozent; TRIUMPH-4 kam mit 445 Teilnehmenden über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Eine begutachtete Vollpublikation zu TRIUMPH gibt es noch nicht, begutachtet in Phase 3 ist bisher nur die Diabetesstudie TRANSCEND-T2D-1 (Lancet 2026). Der Dreifach-Agonismus ist am Menschen belegt, der Anteil des Glukagon-Arms nicht getrennt geprüft. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43,2 Prozent (höchste Dosis in TRIUMPH-4) und Studienabbruch wegen Nebenwirkungen bei bis zu 18,2 Prozent. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
+   "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden, inzwischen auch in Phase 3 begutachtet. Phase 2: 338 Teilnehmende, 48 Wochen, 24,2 Prozent gegenüber 2,1 Prozent unter Placebo (NEJM 2023). TRIUMPH-1 (NEJM 2026): 2.339 Teilnehmende ohne Diabetes, 80 Wochen, doppelblind, in der höchsten Dosis 25,0 Prozent gegenüber 3,9 Prozent unter Placebo, gerechnet über alle Randomisierten; laut Hersteller 28,3 Prozent bei allen, die wie geplant weiterbehandelt wurden. Begutachtet sind außerdem TRIUMPH-2 bei Typ-2-Diabetes (Lancet 2026, 18,8 gegenüber 5,1 Prozent) und die Diabetesstudie TRANSCEND-T2D-1 (Lancet 2026). TRIUMPH-4 kam laut Hersteller mit 445 Teilnehmenden über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Der Dreifach-Agonismus ist am Menschen belegt, der Anteil des Glukagon-Arms nicht getrennt geprüft. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43,2 Prozent (höchste Dosis in TRIUMPH-4) und Studienabbruch wegen Nebenwirkungen bei bis zu 18,2 Prozent. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
   },
   {
    "id": "bpc-157",
