@@ -7334,6 +7334,62 @@
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
    "beleg": "Evidenz 4, weil zwei randomisierte, placebokontrollierte Studien vorliegen, die beide ihren Hauptendpunkt verfehlten, aber Nebenbefunde zugunsten von CBN zeigten: weniger nächtliches Aufwachen bei 293 Erwachsenen über 7 Nächte (Bonn-Miller 2024) und schnelleres Einschlafen sowie besserer subjektiver Schlaf bei 20 Menschen mit Insomnie in einer einzigen Nacht im Schlaflabor (Lavender 2026). Mechanismus 4, weil bei Ratten ein schlafverlängernder Effekt und ein am CB1-Rezeptor THC-ähnlich wirkender Abbaustoff gezeigt sind (Arnold 2025), der Weg am Menschen aber nicht untersucht ist. Sicherheit 2, weil Humandaten nur über eine Nacht bis eine Woche reichen und Mäuse bei wiederholter Gabe Toleranz und körperliche Abhängigkeit entwickelten (Vanegas 2026). Hype 3, weil CBN als Schlaf-Cannabinoid vermarktet wurde, bevor es eine einzige Studie mit validierten Schlafmessungen gab (Corroon 2021), und die jetzigen Studien diese Versprechen nur in Teilen stützen. Anwendung 3, weil CBN erst seit wenigen Jahren als Isolat verkauft wird; in den USA hatten 4,5 Prozent der Erwachsenen es schon genommen (Satybaldiyeva 2025), systematische Beobachtungen fehlen. Richtung gemischt: verfehlte Hauptendpunkte neben positiven Nebenbefunden."
+  },
+  {
+   "id": "rad150",
+   "view": "experimental",
+   "name": "RAD-150 (TLB-150)",
+   "url": "https://biohackingkompakt.de/thema/rad150.html",
+   "evidenz": 0,
+   "mechanismus": 3,
+   "sicherheit": 0,
+   "hype": 0,
+   "anwendung": 2,
+   "richtung": "offen",
+   "label": "Nicht am Menschen untersucht",
+   "beleg": "Evidenz 0, weil es zu RAD-150 keine einzige Untersuchung am Menschen gibt, weder Studie noch Fallbericht – ClinicalTrials.gov liefert am 14.10.2026 zu RAD150, RAD-150 und TLB-150 keinen Eintrag, Europe PMC keine Publikation zur Substanz. Mechanismus 3, weil die Identität als Benzoesäureester von RAD140 belegt ist (Radius-Patent US 8,629,167, Beispiel 87; PubChem CID 68547459) und die Verbindung den Androgenrezeptor der Ratte im zellfreien Test bindet, mit einer IC50 von 130 nM gegenüber 2 nM für RAD140 im selben Test; ob sie im Körper zu RAD140 gespalten wird oder selbst wirkt, ist nicht untersucht, Tierdaten fehlen ganz. Sicherheit 0, weil weder Toxikologie noch Pharmakokinetik noch ein Fallbericht vorliegen; was über Leberwerte und Hormonachse bekannt ist, gilt für RAD140 (AST-Anstieg bei 59,1 Prozent in der Phase 1, LoRusso 2022) und ist für RAD-150 nur eine Übertragung. Hype 0, weil die Vermarktung als verbessertes RAD140 mit längerer Wirkdauer und milderen Nebenwirkungen auf keiner veröffentlichten Messung beruht – die einzige Zahl zur Substanz zeigt eine rund 65-fach schwächere Rezeptorbindung. Anwendung 2, weil RAD-150 als Forschungschemikalie im Graumarkt angeboten wird, aber in keiner veröffentlichten Produktanalyse und keinem Fallbericht auftaucht. Richtung offen: Die Frage nach Wirkung und Verträglichkeit am Menschen ist nie gestellt worden."
+  },
+  {
+   "id": "gw-0742",
+   "view": "experimental",
+   "name": "GW-0742 (GW610742)",
+   "url": "https://biohackingkompakt.de/thema/gw-0742.html",
+   "evidenz": 2,
+   "mechanismus": 5,
+   "sicherheit": 1,
+   "hype": 1,
+   "anwendung": 2,
+   "richtung": "offen",
+   "label": "Hype weit vor Evidenz",
+   "beleg": "Evidenz 2, weil es am Menschen keine einzige Wirksamkeits- oder Verträglichkeitsstudie gibt - die Abfrage der ClinicalTrials.gov-Schnittstelle zu GW0742, GW-0742 und GW610742 gibt am 14.10.2026 keinen Eintrag zurück - und die einzige veröffentlichte Gabe an Menschen eine kontrollierte Ausscheidungsstudie für die Dopinganalytik war, die Metaboliten und Nachweisfenster bestimmt hat, aber keinen einzigen Wirkungsendpunkt (Sobolevsky et al. 2012); mehr als 0 oder 1 steht dafür, dass diese Gabe immerhin kontrolliert und publiziert ist. Mechanismus 5, weil die Zielstruktur sauber beschrieben ist (Erstbeschreibung der Reihe mit EC50 1,1 nM und etwa tausendfacher Selektivität, Sznaidman et al. 2003), die Wirkkette im Rattenmuskel bis zu PDK4 und zur Fettsäureverbrennung vermessen wurde (Constantin et al. 2007) und die Fettsäureoxidation auch in menschlichen T-Zellen ansteigt (Sibille et al. 2021), die Selektivität aber nicht so eindeutig ist, wie die Vermarktung sagt: Ab etwa 12 Mikromol pro Liter hemmt GW-0742 mehrere Kernrezeptoren, am stärksten Vitamin-D- und Androgenrezeptor, und wirkt am PPAR je nach Konzentration als Agonist oder Antagonist (Nandhikonda et al. 2013). Sicherheit 1, weil am Menschen nichts systematisch untersucht ist: keine Verträglichkeitsstudie, keine Langzeitdaten, keine Pharmakovigilanz, keine veröffentlichte Karzinogenitätsstudie zu diesem Molekül, während die Entwicklung des nahen Verwandten GW501516 laut Hersteller 2006 nach Krebsbefunden in Langzeit-Tierstudien endete und im Tier ein Muskelabbau-Programm (MuRF1, MAFbx) sowie Herzwachstum nach einer Einzelgabe beschrieben sind (Constantin et al. 2007; Wagner et al. 2009). Hype 1, weil die Substanz als stärkere Cardarine-Variante und als Ausdauer in Kapselform gehandelt wird, obwohl die tragenden Zahlen aus Nagern stammen und der Ausdauergewinn in der meistzitierten Mäusearbeit der Kombination aus AICAR, GW-0742 und vierwöchigem Training zugeschrieben wird, nicht der Substanz allein (Manio et al. 2016). Anwendung 2, weil GW-0742 am Menschen praktisch nur als Forschungschemikalie und in kleinen Mengen auf dem Graumarkt vorkommt, keinen regulatorischen Rahmen hat und im Sport jederzeit verboten ist (WADA 2026, S4.4.1). Richtung offen, weil die Humanfrage nicht beantwortet ist: Der Mechanismus trägt, die Tierdaten weisen in beide Richtungen, und geprüft ist am Menschen nur, wie man den Stoff im Urin findet. Zum Vergleich: Cardarine (5/6/5/2/3) hat für denselben Rezeptor vier kontrollierte Humanstudien zu Blutfetten, Stenabolic (1/4/1/1/4) steht wie GW-0742 ohne Humanstudie da, ist aber länger und breiter im Fitnessmarkt unterwegs."
+  },
+  {
+   "id": "orexin-a",
+   "view": "experimental",
+   "name": "Orexin A",
+   "url": "https://biohackingkompakt.de/thema/orexin-a.html",
+   "evidenz": 2,
+   "mechanismus": 7,
+   "sicherheit": 1,
+   "hype": 2,
+   "anwendung": 2,
+   "richtung": "offen",
+   "label": "Hype weit vor Evidenz",
+   "beleg": "Evidenz 2, weil es am Menschen nur vier kleine doppelblinde, placebokontrollierte Cross-over-Studien mit Einzelgaben über die Nase gibt – mit 7, 8 und 14 Narkolepsie-Patienten (Baier 2008 und 2011, Weinhold 2014) und 10 gesunden Männern (Meusel 2022) –, die Effekte auf Riechschwelle, REM-Schlaf, Aufmerksamkeitsfehler und Sympathikusaktivität zeigen, aber keine Zunahme der Wachheit; ClinicalTrials.gov führt keine Studie mit dem Peptid. Mechanismus 7, weil das Orexin-System gut verstanden ist, Orexin A bei Mäusen intakt aus dem Blut ins Gehirn diffundiert (Kastin und Akerstrom 1999) und die US-Zulassung eines Orexin-Rezeptor-2-Agonisten 2026 zeigt, dass eine Aktivierung des Systems bei Narkolepsie wirkt; offen bleibt, wie viel Peptid über die Nase ankommt, denn eine PET-Untersuchung fand nur geringe Gehirnaufnahme (Van de Bittner 2018). Sicherheit 1, weil nur Einzelgaben in vier Studien mit 7 bis 14 Teilnehmenden vorliegen und keine Daten zu wiederholter Anwendung; der Anstieg der gefäßverengenden Sympathikusaktivität bei Gesunden ist ein Signal, dessen Bedeutung nicht untersucht ist. Hype 2, weil das Versprechen als Wachmacher gegen Schlafmangel nur durch eine Studie an übermüdeten Rhesusaffen gestützt ist (Deadwyler 2007), während Narkolepsie-Patienten am Menschen nicht wacher wurden und schlafentzogene Gesunde nie untersucht sind. Anwendung 2, weil Orexin A am Menschen nur in wenigen Einzelgabe-Studien und sonst als Laborware angewendet wird. Richtung offen: Das Peptid wirkt über die Nase messbar auf das Gehirn, ob es Gesunde wacher oder leistungsfähiger macht, ist nicht geprüft. Zum Vergleich: Orexin B (0/7/0/1/1) für das Schwesterpeptid ohne Humandaten, DSIP (4/3/3/2/3) für ein Schlafpeptid mit alten, dünnen Humandaten, Semax (3/4/2/2/5) für ein über die Nase angewendetes Peptid mit kleinen Studien."
+  },
+  {
+   "id": "fenbendazol",
+   "view": "experimental",
+   "name": "Fenbendazol",
+   "url": "https://biohackingkompakt.de/thema/fenbendazol.html",
+   "evidenz": 1,
+   "mechanismus": 4,
+   "sicherheit": 3,
+   "hype": 1,
+   "anwendung": 3,
+   "richtung": "offen",
+   "label": "Nicht am Menschen untersucht",
+   "beleg": "Evidenz 1, weil es keine kontrollierte Studie am Menschen gibt, sondern nur Fallberichte; die einzige Fallserie mit Remissionen wurde 2026 zurückgezogen, und auf ClinicalTrials.gov taucht Fenbendazol nur in der Kandidatenliste einer einarmigen Screening-Studie ohne Ergebnisse auf. Mechanismus 4, weil die Bindung an Tubulin bei Würmern gut verstanden ist und Zellversuche eine mäßige Wirkung auf die Mikrotubuli und den Zuckerstoffwechsel von Krebszellen zeigen, Tierversuche aber widersprüchlich ausfallen – Tumorhemmung bei Lungenkrebs-Xenografts, keine Wirkung bei Brusttumoren der Maus. Sicherheit 3, weil die Tiertoxikologie behördlich ausgewertet ist (Leberschäden bei wiederholter Gabe, fruchtschädigend in mehreren Tierarten), für den Menschen aber nur Fallberichte vorliegen, darunter mehrere schwere Leberschäden. Hype 1, weil Fenbendazol in sozialen Medien als Krebsmittel verbreitet wird, ohne dass eine einzige kontrollierte Humanstudie existiert. Anwendung 3, weil es seit Jahrzehnten in der Tiermedizin eingesetzt wird, die Einnahme durch Menschen aber erst seit wenigen Jahren verbreitet und nirgends systematisch erfasst ist. Richtung offen: Ob Fenbendazol Menschen mit Krebs nützt, wurde nie geprüft."
   }
  ]
 }

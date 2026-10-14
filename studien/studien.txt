@@ -1490,6 +1490,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2019: Early Time-Restricted Feeding Improves 24-Hour Glucose Levels and Affects Markers of the Circadian Clock, Aging, and Autophagy in Humans (Jamshed H et al., Nutrients). https://europepmc.org/article/MED/31151228
 - Studienregister: Liu 2022, Studienregistrierung NCT03745612, ClinicalTrials.gov. https://classic.clinicaltrials.gov/ct2/show/NCT03745612
 
+## Thema: Fenbendazol (https://biohackingkompakt.de/thema/fenbendazol.html)
+8 Studien: 3 Fallbericht, 2 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Studienregister.
+- Fallbericht, 2026: Differentiating fenbendazole-induced liver injury from immunotherapy hepatitis - the importance of structured causality assessment: A case report (Krishnan A et al., World J Clin Cases). https://pubmed.ncbi.nlm.nih.gov/41608149/
+- Fallbericht, 2025: Fenbendazole as an Anticancer Agent? A Case Series of Self-Administration in Three Patients (Makis W et al., Case Rep Oncol). https://pubmed.ncbi.nlm.nih.gov/40605964/
+- Fallbericht, 2024: Severe Drug-Induced Liver Injury Due to Self-administration of the Veterinary Anthelmintic Medication, Fenbendazole (Thakurdesai A et al., ACG Case Rep J). https://pubmed.ncbi.nlm.nih.gov/38706451/
+- Tier- oder Laborstudie, 2018: Fenbendazole acts as a moderate microtubule destabilizing agent and causes cancer cell death by modulating multiple cellular pathways (Dogra N et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/30093705/
+- Tier- oder Laborstudie, 2013: Fenbendazole as a potential anticancer drug (Duan Q et al., Anticancer Res). https://pubmed.ncbi.nlm.nih.gov/23393324/
+- Studienregister: ClinicalTrials.gov NCT03299452 – einarmige Screening-Studie zu Wirkstoffkombinationen bei fortgeschrittenen soliden Tumoren (China), Fenbendazol in der Kandidatenliste, Status unbekannt. https://clinicaltrials.gov/study/NCT03299452
+- Sonstige Studie, 2026: Ivermectin-Benzimidazole Prescribing Following Celebrity Endorsement (Rockwell MS et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/42118539/
+- Sonstige Studie, 2008: Unexpected antitumorigenic effect of fenbendazole when combined with supplementary vitamins (Gao P et al., J Am Assoc Lab Anim Sci). https://pubmed.ncbi.nlm.nih.gov/19049251/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Fenbendazol zur Anwendung bei Tieren verschreibungspflichtig. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMEA, Ausschuss für Tierarzneimittel (CVMP) – Oxfendazole, Fenbendazole, Febantel, Summary Report (1): Toxikologie und Rückstandshöchstmengen. https://www.ema.europa.eu/en/documents/mrl-report/oxfendazole-fenbendazole-febantel-summary-report-1-committee-veterinary-medicinal-products_en.pdf
+
 ## Thema: Fettweg-Spritzen (Injektionslipolyse) (https://biohackingkompakt.de/thema/fettweg-spritzen.html)
 7 Studien: 4 Randomisierte Studie, 2 Sonstige Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2023: Efficacy, safety, and potential industry bias in using deoxycholic acid for submental fat reduction ‒ A systematic review and meta-analysis of randomized clinical trials (Inocêncio GSG et al., Clinics (Sao Paulo)). https://pubmed.ncbi.nlm.nih.gov/37806137/
@@ -1879,6 +1892,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2018: Scientific opinion on the safety of green tea catechins (EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/32625874/
 - Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) 2022/2340 – Grüntee-Extrakte mit EGCG. https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32022R2340
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox (NIH) – Green Tea. https://www.ncbi.nlm.nih.gov/books/NBK547925/
+
+## Thema: GW-0742 (GW610742) (https://biohackingkompakt.de/thema/gw-0742.html)
+8 Studien: 7 Tier- oder Laborstudie, 1 Sonstige Studie.
+- Tier- oder Laborstudie, 2021: Gene Doping with Peroxisome-Proliferator-Activated Receptor Beta/Delta Agonists Alters Immunity but Exercise Training Mitigates the Detection of Effects in Blood Samples (Sibille B et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/34768927/
+- Tier- oder Laborstudie, 2016: Combined pharmacological activation of AMPK and PPARδ potentiates the effects of exercise in trained mice (Manio MC et al., Physiol Rep). https://pubmed.ncbi.nlm.nih.gov/26997622/
+- Tier- oder Laborstudie, 2013: Peroxisome proliferation-activated receptor δ agonist GW0742 interacts weakly with multiple nuclear receptors, including the vitamin D receptor (Nandhikonda P et al., Biochemistry). https://pubmed.ncbi.nlm.nih.gov/23713684/
+- Tier- oder Laborstudie, 2009: Peroxisome proliferator-activated receptor beta stimulation induces rapid cardiac growth and angiogenesis via direct activation of calcineurin (Wagner N et al., Cardiovasc Res). https://pubmed.ncbi.nlm.nih.gov/19351742/
+- Tier- oder Laborstudie, 2007: PPARdelta agonism induces a change in fuel metabolism and activation of an atrophy programme, but does not impair mitochondrial function in rat skeletal muscle (Constantin D et al., J Physiol). https://pubmed.ncbi.nlm.nih.gov/17540700/
+- Tier- oder Laborstudie, 2006: Ligand activation of peroxisome proliferator-activated receptor beta inhibits colon carcinogenesis (Marin HE et al., Cancer Res). https://pubmed.ncbi.nlm.nih.gov/16618765/
+- Tier- oder Laborstudie, 2003: Novel selective small molecule agonists for peroxisome proliferator-activated receptor delta (PPARdelta)--synthesis and biological activity (Sznaidman ML et al., Bioorg Med Chem Lett). https://pubmed.ncbi.nlm.nih.gov/12699745/
+- Sonstige Studie, 2012: Detection of PPARδ agonists GW1516 and GW0742 and their metabolites in human urine (Sobolevsky T et al., Drug Test Anal). https://pubmed.ncbi.nlm.nih.gov/22977012/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz – Stoffwechsel-Modulatoren einschließlich Derivate. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.4.1 PPARδ-Agonisten. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
 ## Thema: hCG (humanes Choriongonadotropin) (https://biohackingkompakt.de/thema/hcg.html)
 4 Studien: 1 Beobachtungsstudie, 1 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
@@ -3443,6 +3469,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Deutscher Bundestag, hib 128/2023 – Dopingopferhilfe: 1.643 von 2.062 Anträgen bewilligt. https://www.bundestag.de/presse/hib/kurzmeldungen-935274
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste im Sport 2026: S1.1 anabol-androgene Steroide (WADA Prohibited List). https://www.wada-ama.org/en/prohibited-list
 
+## Thema: Orexin A (https://biohackingkompakt.de/thema/orexin-a.html)
+7 Studien: 4 Randomisierte Studie, 3 Tier- oder Laborstudie.
+- Randomisierte Studie, 2022: Intranasal orexin A modulates sympathetic vascular tone: a pilot study in healthy male humans (Meusel M et al., J Neurophysiol). https://pubmed.ncbi.nlm.nih.gov/35044844/
+- Randomisierte Studie, 2014: The effect of intranasal orexin-A (hypocretin-1) on sleep, wakefulness and attention in narcolepsy with cataplexy (Weinhold SL et al., Behav Brain Res). https://pubmed.ncbi.nlm.nih.gov/24406723/
+- Randomisierte Studie, 2011: Effects of intranasal hypocretin-1 (orexin A) on sleep in narcolepsy with cataplexy (Baier PC et al., Sleep Med). https://pubmed.ncbi.nlm.nih.gov/22036605/
+- Randomisierte Studie, 2008: Olfactory dysfunction in patients with narcolepsy with cataplexy is restored by intranasal Orexin A (Hypocretin-1) (Baier PC et al., Brain). https://pubmed.ncbi.nlm.nih.gov/18718966/
+- Tier- oder Laborstudie, 2018: Positron Emission Tomography Assessment of the Intranasal Delivery Route for Orexin A (Van de Bittner GC et al., ACS Chem Neurosci). https://pubmed.ncbi.nlm.nih.gov/29035509/
+- Tier- oder Laborstudie, 2007: Systemic and nasal delivery of orexin-A (Hypocretin-1) reduces the effects of sleep deprivation on cognitive performance in nonhuman primates (Deadwyler SA et al., J Neurosci). https://pubmed.ncbi.nlm.nih.gov/18160631/
+- Tier- oder Laborstudie, 1999: Orexin A but not orexin B rapidly enters brain from blood by simple diffusion (Kastin AJ et al., J Pharmacol Exp Ther). https://pubmed.ncbi.nlm.nih.gov/10087007/
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppe S0). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Pressemitteilung vom 05.08.2026 – Zulassung von Orzeyful (Oveporexton). https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms
+- Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach Orexin A als Prüfsubstanz ohne Studie zum Peptid. https://clinicaltrials.gov/search?intr=orexin%20A
+
 ## Thema: Orexin B (https://biohackingkompakt.de/thema/orexin-b.html)
 8 Studien: 3 Randomisierte Studie, 3 Tier- oder Laborstudie, 2 Sonstige Studie.
 - Randomisierte Studie, 2026: Oveporexton for Narcolepsy Type 1 - Results from Two Phase 3 Trials (Dauvilliers Y et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42714024/
@@ -3998,6 +4037,18 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2024: Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial (Farr JN et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38956196/
 - Randomisierte Studie, 1995: Absorption of dietary quercetin glycosides and quercetin in healthy ileostomy volunteers (Hollman PC et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/7491892/
 - Übersichtsartikel, 2018: Safety Aspects of the Use of Quercetin as a Dietary Supplement (Andres S et al., Mol Nutr Food Res). https://pubmed.ncbi.nlm.nih.gov/29127724/
+
+## Thema: RAD-150 (TLB-150) (https://biohackingkompakt.de/thema/rad150.html)
+4 Studien: 2 Sonstige Studie, 1 Fallbericht, 1 Klinische Studie.
+- Klinische Studie, 2022: A First-in-Human Phase 1 Study of a Novel Selective Androgen Receptor Modulator (SARM), RAD140, in ER+/HER2- Metastatic Breast Cancer (LoRusso P et al., Clin Breast Cancer). https://pubmed.ncbi.nlm.nih.gov/34565686/
+- Fallbericht, 2023: Idiosyncratic drug-induced liver injury related to use of novel selective androgen receptor modulator RAD140 (Testalone): a case report (Ladna M et al., J Med Case Rep). https://pubmed.ncbi.nlm.nih.gov/36978171/
+- Sonstige Studie, 2017: Chemical Composition and Labeling of Substances Marketed as Selective Androgen Receptor Modulators and Sold via the Internet (Van Wagoner RM et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/29183075/
+- Sonstige Studie, 2011: Design, Synthesis, and Preclinical Characterization of the Selective Androgen Receptor Modulator (SARM) RAD140 (Miller CP et al., ACS Med Chem Lett). https://pubmed.ncbi.nlm.nih.gov/24900290/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz — SARMs, zum Beispiel RAD-140. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): PubChem CID 68547459 — TLB 150 Benzoate (RAD150): Struktur, Summenformel, CAS-Nummer. https://pubchem.ncbi.nlm.nih.gov/compound/68547459
+- Behörde/Recht (Patente): Radius Health, US-Patent 8,629,167 B2 (2014) — Beispiel 87, Androgenrezeptor-Bindung im Vergleich zu RAD140. https://patents.google.com/patent/US8629167B2/en
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA — SARMs in Bodybuilding-Produkten: nicht zugelassene Arzneimittel. https://www.fda.gov/drugs/fraudulent-products/certain-bodybuilding-products-put-consumers-risk-heart-attack-stroke-serious-liver-damage-and-more
+- Behörde/Recht (Weitere Quellen): WADA — Prohibited List 2026, Abschnitt S1.2 (Andere anabole Wirkstoffe). https://ita.sport/uploads/2025/09/2026list_en_final_clean_september_2025.pdf
 
 ## Thema: RAD140 (Testolone) (https://biohackingkompakt.de/thema/rad140.html)
 7 Studien: 3 Sonstige Studie, 1 Fallbericht, 1 Klinische Studie, 1 Tier- oder Laborstudie, 1 Randomisierte Studie.
