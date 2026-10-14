@@ -18,6 +18,14 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-10-14',
+    typ: 'Evidenz',
+    titel: 'Retatrutid: Phase-3-Daten jetzt begutachtet im NEJM und im Lancet',
+    ziel: { view: 'experimental', id: 'retatrutide' },
+    text: 'Bisher stand hier, zu den TRIUMPH-Studien gebe es keine begutachtete Vollpublikation. Das ist überholt: Am 29. September 2026 ist TRIUMPH-1 im New England Journal of Medicine erschienen (2.339 Teilnehmende ohne Diabetes, 80 Wochen, doppelblind; gerechnet über alle Randomisierten 25,0 Prozent Gewichtsverlust in der höchsten und 23,7 Prozent in der mittleren Stufe gegenüber 3,9 Prozent unter Placebo), am selben Tag TRIUMPH-2 im Lancet (1.152 Teilnehmende mit Typ-2-Diabetes, 80 Wochen, 18,8 gegenüber 5,1 Prozent in der höchsten Stufe). Die Herstellerzahlen sind damit im Kern bestätigt. Die Score-Achsen bleiben unverändert; TRIUMPH-3, TRIUMPH-4 und die Verlängerung auf 104 Wochen sind weiterhin nur aus Herstellerangaben bekannt.',
+    quelle: { titel: 'Jastreboff et al., N Engl J Med 2026 (TRIUMPH-1) · Bellido et al., Lancet 2026 (TRIUMPH-2)', url: 'https://doi.org/10.1056/NEJMoa2604169' }
+  },
+  {
     datum: '2026-10-07',
     typ: 'Korrektur',
     titel: 'Sermorelin: Seattle-Studie nachgetragen, Human-Evidenz 3 → 4',
