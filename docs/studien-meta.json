@@ -3689,6 +3689,22 @@
 "Journal Article"
 ]
 },
+"doi:10.1016/s0140-6736(26)01861-1": {
+"autoren": "Bellido V, le Roux CW, Ekinci EI, Bjornstad P, Frias JP, Giblin K, Eyde S, Park SY, Ferro J, Johnson C, Taylor A.",
+"doi": "10.1016/s0140-6736(26)01861-1",
+"iso": "Lancet",
+"jahr": "2026",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42810372",
+"quelle": "MED",
+"titel": "Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial.",
+"typen": [
+"Journal Article"
+]
+},
 "doi:10.1016/s0899-9007(96)80058-x": {
 "autoren": "Prasad AS, Mantzoros CS, Beck FW, Hess JW, Brewer GJ.",
 "doi": "10.1016/s0899-9007(96)80058-x",
@@ -4808,6 +4824,22 @@
 "Comparative Study",
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"doi:10.1056/nejmoa2604169": {
+"autoren": "Jastreboff AM, Kaplan LM, Davies MJ, Wilding JPH, Ahmad NN, Murray M, Du Y, Makarova N, Giblin K, Schloot NC, Wang Y, TRIUMPH-1 Investigators.",
+"doi": "10.1056/nejmoa2604169",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42814954",
+"quelle": "MED",
+"titel": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity.",
+"typen": [
 "Journal Article"
 ]
 },
