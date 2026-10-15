@@ -926,6 +926,28 @@ const SHOPS = [
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
+    // Aufgenommen 15.10.2026 auf Pauls Wunsch, 2 Sterne (Pauls Bewertung).
+    // Bericht aus zweiter Hand, nicht selbst geprueft – deshalb als solcher
+    // gekennzeichnet und ohne Betrugs- oder Faelschungsbehauptung. Nachpruefbar
+    // (Trustpilot, abgerufen 15.10.2026): Sitzangabe Sheridan, USA; Gesamt-
+    // bewertung wegen Richtlinienverstoss ausgeblendet; gefaelschte Bewertungen
+    // laut Trustpilot entfernt.
+    id: 'peptiking',
+    name: 'peptiking.com (Pepti King)',
+    demo: false,
+    url: '',
+    land: 'USA (laut Trustpilot-Profil)',
+    kategorien: ['Peptide'],
+    bewertung: 2,
+    versand: 'Bestellung und Abwicklung wurden als sehr professionell beschrieben.',
+    zahlung: null,
+    preis: 'Sehr günstige Preise.',
+    qualitaet: 'Laut Bericht enttäuschend: Die Vials wirkten unprofessionell und teils nicht einwandfrei, die Füllmenge erschien deutlich zu gering. Insgesamt wenig vertrauenswürdig. Von uns nicht selbst geprüft.',
+    zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
+    erfahrung: 'Ein Bericht aus zweiter Hand, und er zeigt, warum ein guter Bestellablauf allein nichts beweist: sehr günstige Preise, ein professioneller Shop und eine reibungslose Bestellung – doch als die Ware kam, war es laut Bericht eine Enttäuschung. Die Vials sahen unprofessionell und zum Teil nicht in Ordnung aus, und der Inhalt wirkte viel zu wenig. Unterm Strich: wenig vertrauenswürdig. Meine Einschätzung daraus: sehr vorsichtig sein, lieber Finger weg. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet, und Trustpilot gibt an, gefälschte Bewertungen für dieses Unternehmen entfernt zu haben. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort anderes erlebt hast, schreib mir. Stand Oktober 2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
     id: 'warnung-europa-peptid',
     name: 'europa-peptid.de',
     warnung: true,
