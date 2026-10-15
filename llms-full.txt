@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-14
+Stand: 2026-10-15
 
 # Fragen & Beschwerden
 
@@ -605,6 +605,11 @@ https://biohackingkompakt.de/thema/dermorphin.html
 
 Dermorphin ist ein Heptapeptid, 1981 aus Froschhaut isoliert, und ein hochselektiver Agonist am My-Opioid-Rezeptor. Was es kann, ist am Menschen gezählt worden: In einer randomisierten Doppelblindstudie an 150 Patienten nach planbaren Operationen hielt die Schmerzfreiheit im Mittel 43,4 Stunden an, gegenüber 34,5 Stunden unter Morphin. Danach brach die klinische Forschung ab. Was fehlt, ist alles, was ein Arzneimittel ausmacht: moderne Sicherheitsdaten, Pharmakovigilanz, eine Zulassung in irgendeinem Land. Was bleibt, sind die Risiken eines hochpotenten Opioids – Atemdämpfung, Toleranz, Abhängigkeit – und eine klare Rechtslage: kein Betäubungsmittel im Rechtssinn, aber ein Arzneimittel ohne Zulassung, dessen Inverkehrbringen strafbar ist.
 
+## DEXA-Scan (Körperzusammensetzung und Knochendichte)
+https://biohackingkompakt.de/thema/dexa-scan.html
+
+Die Knochendichte aus dem DEXA sagt Brüche zuverlässig voraus: je Standardabweichung weniger Dichte steigt das Bruchrisiko auf das 1,5-Fache, an der Hüfte für Hüftbrüche auf das 2,6-Fache. Screening-Programme mit Knochendichtemessung senkten in drei randomisierten Studien mit 42.009 Teilnehmenden die Hüftbrüche um 20 Prozent. Die Strahlendosis eines Ganzkörperscans liegt bei 1 bis 10 Mikrosievert. Bei Körperfett, viszeralem Fett und Muskelmasse ist die Messung sehr wiederholgenau, ihr Zusatznutzen aber offen: Viszerales Fett sagte Herz-Kreislauf-Ereignisse nach Abgleich mit BMI und Taillenumfang nicht mehr unabhängig voraus, und die DXA-Magermasse hing in acht Kohorten nicht konsistent mit Stürzen, Brüchen oder Sterblichkeit zusammen, Griffkraft und Gehtempo dagegen schon. Kassenleistung ist die Knochendichte bei konkretem Behandlungsanlass; eine Lifestyle-Messung ohne medizinischen Anlass hat die Strahlenschutzkommission als nicht zulässig bewertet.
+
 ## DGL-Süßholz (deglycyrrhiziniert)
 https://biohackingkompakt.de/thema/dgl-suessholz.html
 
@@ -699,6 +704,11 @@ Enclomifen ist die antiöstrogene Hälfte des seit Jahrzehnten bekannten Clomife
 https://biohackingkompakt.de/thema/epigenetik-coach.html
 
 Epigenetische Uhren schätzen aus der DNA-Methylierung ein biologisches Alter, neuere Varianten sagen Sterblichkeit und Krankheiten deutlich vorher. In randomisierten Studien verlangsamten Kalorienrestriktion und Omega-3 das gemessene Alterungstempo, ein 8-wöchiges Lebensstilprogramm senkte das Horvath-Alter gegenüber der Kontrolle um 3,23 Jahre. Die Effekte sind meist klein, und ob sie Krankheiten verhindern, ist nicht untersucht. Der Haken: Klassische Uhren schwanken zwischen zwei Messungen derselben Probe um bis zu 9 Jahre, für eine persönliche Verlaufskontrolle ist das viel.
+
+## Epigenetischer Alterstest (biologisches Alter)
+https://biohackingkompakt.de/thema/epigenetische-uhr.html
+
+Neuere Uhren wie PhenoAge, GrimAge und DunedinPACE sagen in großen Bevölkerungsstudien Krankheit, Einschränkungen und Sterblichkeit vorher, in einer repräsentativen Stichprobe von 3.581 älteren US-Amerikanern auch die Sterblichkeit über vier Jahre. Und sie reagieren auf Lebensstil: In der randomisierten CALERIE-Studie verlangsamten zwei Jahre Kalorienrestriktion das gemessene Alterungstempo um 2 bis 3 Prozent. Für die Einzelperson ist die Zahl aber unscharf. Klassische Uhren wichen bei Wiederholungsmessungen derselben Probe um bis zu 9 Jahre ab, Speichel und Blut liefern nicht dasselbe Ergebnis, und Demografie, Einkommen, psychische Gesundheit und Verhalten sagten den weiteren Verlauf mindestens ebenso gut vorher. Ob Entscheidungen auf Basis eines Testergebnisses zu mehr Gesundheit führen, ist nicht untersucht. Der Test ist eine Selbstzahlerleistung.
 
 ## Epitalon (Epithalon)
 https://biohackingkompakt.de/thema/epitalon.html
@@ -915,6 +925,11 @@ https://biohackingkompakt.de/thema/gw-0742.html
 
 GW-0742, in Arbeiten auch GW610742 genannt, ist ein hochselektiver PPAR-delta-Agonist aus derselben Optimierungsreihe von GlaxoSmithKline, aus der auch Cardarine hervorging. In Zellen und Tieren ist er gut charakterisiert: Er schaltet im Muskel den Brennstoff von Kohlenhydraten auf Fett um, er wirkt über den Zielrezeptor, und er wird seit zwei Jahrzehnten als Forschungswerkzeug eingesetzt. Was fehlt, ist der Mensch. Es gibt keine Wirksamkeitsstudie, keine Verträglichkeitsstudie und keinen Studieneintrag in ClinicalTrials.gov; die einzige veröffentlichte Einnahme durch Menschen diente dazu, den Nachweis im Urin für Dopingkontrollen zu entwickeln. Im Sport ist die Substanz als PPAR-delta-Agonist jederzeit verboten, und in Deutschland greift die Klassenregelung des Anti-Doping-Gesetzes.
 
+## Hautverjüngung (Laser, Microneedling, Radiofrequenz)
+https://biohackingkompakt.de/thema/hautverjuengung.html
+
+Die Verfahren wirken auf das Erscheinungsbild der Haut, und das ist mehr als ein Versprechen: In Gewebeproben steigt nach Laserbehandlung die Kollagenbildung messbar an, in randomisierten Gesichtshälften-Studien mit verblindeter Bewertung bessern sich Hautstruktur, Äderchen, Pigment und Faltentiefe. Eine Sitzung mit fraktioniertem Laser verringerte die Faltentiefe um die Augen um rund 20 Prozent. In Befragungen sind 83 bis über 90 Prozent der Behandelten zufrieden. Die Effekte sind moderat, meist braucht es mehrere Sitzungen, Scheinkontrollen sind selten, und bei Aknenarben ist die Evidenz nach Cochrane sehr niedrig. Bei dunkleren Hauttypen treten häufiger vorübergehende Pigmentflecken auf. In Deutschland dürfen ablative Laser und alle Laser-, IPL- und Radiofrequenz-Anwendungen, die die Oberhaut verletzen, seit Ende 2020 nur Ärztinnen und Ärzte durchführen.
+
 ## hCG (humanes Choriongonadotropin)
 https://biohackingkompakt.de/thema/hcg.html
 
@@ -1094,6 +1109,11 @@ Koffein steigert die Ausdauerleistung messbar: In einer randomisierten Studie mi
 https://biohackingkompakt.de/thema/kollagen.html
 
 Kollagenpeptide gehören zu den meistbeworbenen Hautmitteln überhaupt. Metaanalysen finden über alle Studien hinweg bessere Hautfeuchtigkeit und Elastizität; die einzige Auswertung, die nach Finanzierungsquelle trennt, fand diese Effekte jedoch nur in herstellerfinanzierten Studien.
+
+## Koronarkalk-Score (CAC-Scan)
+https://biohackingkompakt.de/thema/koronarkalk-score.html
+
+In der US-Kohorte MESA mit 6.814 Menschen ohne Herz-Kreislauf-Erkrankung stieg das Risiko für Herzinfarkt und Schlaganfall mit jeder Verdopplung des Kalkwerts um 14 Prozent, unabhängig von Cholesterin, Blutdruck, Rauchen und Diabetes. Bei einem Wert von null lag das Zehn-Jahres-Risiko zwischen 1,3 und 5,6 Prozent, bei Werten über 300 zwischen 13,1 und 25,6 Prozent. Die europäische Leitlinie (ESC 2021) und die US-Leitlinie (ACC/AHA 2019) sehen die Messung vor, wenn die Entscheidung über eine Vorbeugung, etwa ein Statin, unsicher ist. In der dänischen Screening-Studie DANCAVAS sank die Sterblichkeit nach 5,6 Jahren nicht signifikant (Risikoverhältnis 0,95; p = 0,06). Die Strahlendosis liegt bei rund 1 Millisievert. In Deutschland ist der Scan eine Selbstzahlerleistung, und als Früherkennung allein auf Wunsch ist er nach dem Strahlenschutzgesetz nicht zulässig.
 
 ## KPV
 https://biohackingkompakt.de/thema/kpv.html
@@ -1910,6 +1930,11 @@ https://biohackingkompakt.de/thema/tart-cherry.html
 
 Sauerkirschsaft oder -konzentrat hilft nach harter Belastung, die Muskelkraft schneller zurückzugewinnen, und senkt das Entzündungszeichen CRP, das zeigt eine Meta-Analyse von 19 Studien mit Athleten. Eine weitere Meta-Analyse fand einen kleinen Vorteil bei der Ausdauerleistung. Beim Schlaf verlängerte Konzentrat bei Gesunden die Schlafzeit, bei Insomnie gibt es nur kleine Pilotstudien, und eine Kapselstudie blieb ohne Effekt. Bei Gicht senkte Konzentrat die Harnsäure in einer kontrollierten Studie nicht. Studien verwendeten meist 30 mL Konzentrat zweimal täglich oder 240 mL Saft zweimal täglich.
 
+## Sauerstoff-Mehrschritt-Therapie (nach von Ardenne)
+https://biohackingkompakt.de/thema/sauerstoff-mehrschritt.html
+
+Während der Sauerstoffatmung steigt der Sauerstoffdruck im Blut, und die begleitende Bewegung ist ein echtes Training, beides ist unstrittig. Von Ardenne ging weiter: Die Behandlung sollte einen Schaltmechanismus in den feinsten Blutgefäßen umlegen und den Sauerstoffdruck in Ruhe für Wochen bis Jahre anheben. Studien aus seinem Umfeld berichteten genau das, etwa 17 Prozent mehr Leistung bei 20 gesunden Männern. Unabhängige Kontrollstudien fanden dagegen keinen anhaltenden Anstieg des arteriellen Sauerstoffdrucks und bei 82 Männern denselben Leistungszuwachs auch mit Pressluft statt Sauerstoff. Randomisierte Studien gibt es nicht, und der Gemeinsame Bundesausschuss hat die Methode als Kassenleistung ausgeschlossen.
+
 ## Sauna & Kälte (Hormesis)
 https://biohackingkompakt.de/thema/sauna-kaelte.html
 
@@ -2024,6 +2049,11 @@ SR9009 ist ein synthetischer Agonist der Kernrezeptoren REV-ERBalpha und REV-ERB
 https://biohackingkompakt.de/thema/stoffwechsel-autoimmun.html
 
 Für Insulinresistenz und Vorstufen von Diabetes ist Lebensstiländerung hervorragend belegt: Im Diabetes Prevention Program senkte sie die Neuerkrankungen um 58 Prozent. Vitamin D verringerte in einer großen randomisierten Studie neu auftretende Autoimmunerkrankungen, Selen senkt bei Hashimoto die Schilddrüsenantikörper. Intermittierende Hypoxie-Hyperoxie senkte bei metabolischem Syndrom in einer kleinen Studie den Blutdruck. Der Haken: Für Hypoxietraining und Hyperthermie bei Autoimmunerkrankungen fand sich keine randomisierte Studie, und das Gesamtkonzept der Ursachenmedizin war in der einzigen randomisierten Studie bei Typ-2-Diabetes nicht besser als die Standardbehandlung.
+
+## Stuhltransplantation (FMT)
+https://biohackingkompakt.de/thema/stuhltransplantation.html
+
+Bei wiederkehrender C.-difficile-Infektion heilte die Infektion in einer Cochrane-Auswertung von sechs randomisierten Studien mit 320 Erwachsenen unter Stuhltransfer fast doppelt so häufig aus wie unter der Vergleichsbehandlung; statistisch profitiert jeder dritte Behandelte zusätzlich. Die europäische Leitlinie bevorzugt ihn ab dem zweiten Rückfall, in den USA sind mit Rebyota und Vowst zwei Präparate zugelassen. Für den Stoffwechsel zeigten neun kleine randomisierte Studien leicht bessere Blutzucker- und Insulinwerte in den ersten sechs Wochen, nach zwölf Wochen keinen Unterschied mehr und beim Gewicht keinen. Die Verjüngungsidee stützt sich auf Mäuse mit beschleunigter Alterung. In Deutschland ist Spenderstuhl ein Arzneimittel und gehört in ärztliche Hände, denn mit dem Stuhl können auch Erreger übertragen werden.
 
 ## Sulbutiamin
 https://biohackingkompakt.de/thema/sulbutiamin.html
@@ -2225,6 +2255,11 @@ https://biohackingkompakt.de/thema/urolithin-a.html
 
 Urolithin A stößt in Zellen, Würmern und Mäusen die Mitophagie an, und beim Menschen schaltet es in Muskelbiopsien Mitochondrien-Gene an. In zwei randomisierten Studien über 4 Monate verbesserte es die Muskelausdauer älterer Menschen und die Beinkraft Mittelalter um rund 12 Prozent, dazu sanken Entzündungsmarker. Die Hauptzielgrößen beider Studien wurden allerdings verfehlt, und fast alle Humandaten stammen vom Hersteller. Nach Granatapfelsaft bildeten nur rund 40 Prozent der Menschen nennenswert Urolithin A, deshalb gibt es den Stoff direkt als Supplement.
 
+## UV- und Laser-Blutbestrahlung (UVBI, ILIB)
+https://biohackingkompakt.de/thema/blutbestrahlung.html
+
+Hinter dem Begriff Blutbestrahlung stehen zwei Verfahren mit langer Geschichte. Die UV-Blutbestrahlung behandelt eine kleine Menge Blut außerhalb des Körpers mit ultraviolettem Licht und gibt es zurück, sie wurde 1928 in Seattle erstmals bei einem Menschen angewendet und später vor allem in der Sowjetunion und Russland weiterentwickelt. Die intravenöse Laserblutbestrahlung, kurz ILIB, schickt schwaches rotes Laserlicht über eine Faser direkt in die Vene, eingeführt 1981 in der sowjetischen Herzmedizin. Für die Laservariante gibt es inzwischen kleine randomisierte Studien bei Kranken, die kurzfristig weniger Schmerz und niedrigere Entzündungswerte zeigen. Für die beworbenen Longevity-Zwecke gibt es keine Studie, die Kassen zahlen nicht, und eine Leitlinie, die die Verfahren empfiehlt, existiert nicht.
+
 ## Vagusnerv-Stimulation (aktiv)
 https://biohackingkompakt.de/thema/vagus-stimulation.html
 
@@ -2314,6 +2349,11 @@ VK2735 stammt von Viking Therapeutics: ein Wirkstoff aus derselben Klasse wie Ti
 https://biohackingkompakt.de/thema/vns-analyse.html
 
 Eine VNS-Analyse misst die Herzfrequenzvariabilität, kurz HRV, also die Schwankung der Zeitabstände zwischen Herzschlägen, und leitet daraus Aussagen über das vegetative Nervensystem ab. Gut belegt ist, dass die HRV unter Stress sinkt und dass eine niedrige HRV mit einem höheren Herz-Kreislauf-Risiko einhergeht. Als Verlaufsmessung für Training, Stressbewältigung oder Biofeedback ist sie sinnvoll. Der Haken: Einzelwerte hängen stark von Alter, Geschlecht und Messbedingungen ab, und die beliebte Anzeige einer Sympathikus-Parasympathikus-Balance ist methodisch umstritten.
+
+## VO2max-Test (Spiroergometrie)
+https://biohackingkompakt.de/thema/vo2max-test.html
+
+Je höher die kardiorespiratorische Fitness, desto niedriger die Sterblichkeit, und zwar ohne erkennbare Obergrenze: Unter 750.302 US-Veteranen hatten die am wenigsten Fitten ein rund vierfach höheres Sterberisiko als die extrem Fitten, in 122.007 Belastungstests einer US-Klinik war es fünffach. Diese großen Kohorten haben die Fitness allerdings aus der Laufbandleistung geschätzt; mit echter Atemgasmessung zeigt eine Kohorte mit 4.137 gesunden Erwachsenen über im Mittel 24 Jahre dasselbe Muster. Die American Heart Association empfiehlt seit 2016, Fitness wie ein Vitalzeichen zu erfassen. Smartwatches schätzen die VO2max für Gruppen brauchbar, für den Einzelnen mit großen Fehlern. In einer randomisierten Studie machte ein zusätzlicher Fitnesstest beim Gesundheitscheck die Teilnehmenden nach einem Jahr nicht fitter. Als Wunschuntersuchung ohne Beschwerden ist die Spiroergometrie in Deutschland in der Regel eine Selbstzahlerleistung.
 
 ## Weihrauch (Boswellia)
 https://biohackingkompakt.de/thema/boswellia.html

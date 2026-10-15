@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 15.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -1156,6 +1156,20 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 1985: Tolerance and physical dependence induced by dermorphin in rats (Broccardo M et al., Eur J Pharmacol). https://pubmed.ncbi.nlm.nih.gov/4040026/
 - Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (Gruppen S0 und S7). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
+## Thema: DEXA-Scan (Körperzusammensetzung und Knochendichte) (https://biohackingkompakt.de/thema/dexa-scan.html)
+8 Studien: 3 Sonstige Studie, 2 Beobachtungsstudie, 2 Meta-Analyse / Übersicht, 1 Leitlinie / Konsens.
+- Meta-Analyse / Übersicht, 2020: Fracture prevention by screening for high fracture risk: a systematic review and meta-analysis (Merlijn T et al., Osteoporos Int). https://pubmed.ncbi.nlm.nih.gov/31838551/
+- Meta-Analyse / Übersicht, 1996: Meta-analysis of how well measures of bone mineral density predict occurrence of osteoporotic fractures (Marshall D et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/8634613/
+- Beobachtungsstudie, 2025: DXA-Measured Visceral Adipose Tissue and Incident Cardiovascular Disease Events in Middle-Aged Adults: Busselton Healthy Ageing Study (Zhu K et al., J Clin Densitom). https://pubmed.ncbi.nlm.nih.gov/40570398/
+- Beobachtungsstudie, 2020: Putative Cut-Points in Sarcopenia Components and Incident Adverse Health Outcomes: An SDOC Analysis (Cawthon PM et al., J Am Geriatr Soc). https://pubmed.ncbi.nlm.nih.gov/32633824/
+- Leitlinie / Konsens, 2019: Sarcopenia: revised European consensus on definition and diagnosis (Cruz-Jentoft AJ et al., Age Ageing). https://pubmed.ncbi.nlm.nih.gov/30312372/
+- Sonstige Studie, 2021: Precision of Lunar Dual-energy X-ray Absorptiometry (iDXA) in measuring body composition among colorectal cancer patients and healthy subjects (Henriksen HB et al., Clin Nutr ESPEN). https://pubmed.ncbi.nlm.nih.gov/34330484/
+- Sonstige Studie, 2015: Comparison of total and segmental body composition using DXA and multifrequency bioimpedance in collegiate female athletes (Esco MR et al., J Strength Cond Res). https://pubmed.ncbi.nlm.nih.gov/25353076/
+- Sonstige Studie, 2010: The BMD muddle: the disconnect between bone densitometry results and perception of bone health (Sale JE et al., J Clin Densitom). https://pubmed.ncbi.nlm.nih.gov/21029973/
+- Behörde/Recht (Weitere Quellen): Dachverband Osteologie (DVO), Leitlinie 2023 zur Prophylaxe, Diagnostik und Therapie der Osteoporose – Kurzfassung, Version 2.2. https://leitlinien.dv-osteologie.org/wp-content/uploads/2024/04/Kurzfassung-Leitlinie-DVO-2023-V2.2.pdf
+- Behörde/Recht (Weitere Quellen): Strahlenschutzkommission, Stellungnahme vom 19./20.02.2015 – Röntgenuntersuchungen zur Bestimmung der Körperzusammensetzung und Knochendichte mittels DXA. https://ssk.de/fileadmin/documents/de/2015/DXA.pdf
+- Behörde/Recht (Weitere Quellen): Techniker Krankenkasse, 18.10.2023 – Ist die Knochendichtemessung sinnvoll? (Kassenleistung und Kosten). https://www.tk.de/techniker/krankheit-und-behandlungen/erkrankungen/behandlungen-und-medizin/osteoporose/ist-die-knochendichtemessung-sinnvoll-2017868
+
 ## Thema: DGL-Süßholz (deglycyrrhiziniert) (https://biohackingkompakt.de/thema/dgl-suessholz.html)
 6 Studien: 6 Randomisierte Studie.
 - Randomisierte Studie, 2025: Efficacy and Safety of GutGard® in Managing Gastroesophageal Reflux-Related Symptoms: A Phase III, Single-Centre, Double-Blind, Randomized Placebo-Controlled Trial (Raj JP et al., Complement Med Res). https://pubmed.ncbi.nlm.nih.gov/39929150/
@@ -1382,6 +1396,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Beobachtungsstudie, 2019: DNA methylation GrimAge strongly predicts lifespan and healthspan (Lu AT et al., Aging (Albany NY)). https://pubmed.ncbi.nlm.nih.gov/30669119/
 - Sonstige Studie, 2026: Biological Versus Technical Reliability of Epigenetic Clocks and Implications for Disease Prognosis and Intervention Response (Sehgal R et al., Aging Cell). https://pubmed.ncbi.nlm.nih.gov/42525215/
 - Sonstige Studie, 2022: A computational solution for bolstering reliability of epigenetic clocks: Implications for clinical trials and longitudinal tracking (Higgins-Chen AT et al., Nat Aging). https://pubmed.ncbi.nlm.nih.gov/36277076/
+
+## Thema: Epigenetischer Alterstest (biologisches Alter) (https://biohackingkompakt.de/thema/epigenetische-uhr.html)
+9 Studien: 7 Sonstige Studie, 1 Randomisierte Studie, 1 Beobachtungsstudie.
+- Randomisierte Studie, 2023: Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial (Waziry R et al., Nat Aging). https://pubmed.ncbi.nlm.nih.gov/37118425/
+- Beobachtungsstudie, 2023: Epigenetic-based age acceleration in a representative sample of older Americans: Associations with aging-related morbidity and mortality (Faul JD et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/36802439/
+- Sonstige Studie, 2026: Biological Versus Technical Reliability of Epigenetic Clocks and Implications for Disease Prognosis and Intervention Response (Sehgal R et al., Aging Cell). https://pubmed.ncbi.nlm.nih.gov/42525215/
+- Sonstige Studie, 2026: Differential DNA methylation clock ages across buffy coat (BC), peripheral blood mononuclear cells (PBMC), and saliva in individuals in early-to-mid adulthood (Bruellman R et al., Epigenetics). https://pubmed.ncbi.nlm.nih.gov/41985071/
+- Sonstige Studie, 2026: Epigenetic Age Feedback as a Catalyst for Sustained Lifestyle Change: One-Year Results from the EU iHelp Study (Yang NY et al., Epigenomes). https://pubmed.ncbi.nlm.nih.gov/42029636/
+- Sonstige Studie, 2025: Applying blood-derived epigenetic algorithms to saliva: cross-tissue similarity of DNA-methylation indices of aging, physiology, and cognition (Zarandooz S et al., Clin Epigenetics). https://pubmed.ncbi.nlm.nih.gov/40270051/
+- Sonstige Studie, 2025: From population science to the clinic? Limits of epigenetic clocks as personal biomarkers (Apsley AT et al., Epigenomics). https://pubmed.ncbi.nlm.nih.gov/41403206/
+- Sonstige Studie, 2022: A computational solution for bolstering reliability of epigenetic clocks: Implications for clinical trials and longitudinal tracking (Higgins-Chen AT et al., Nat Aging). https://pubmed.ncbi.nlm.nih.gov/36277076/
+- Sonstige Studie, 2019: Reversal of epigenetic aging and immunosenescent trends in humans (Fahy GM et al., Aging Cell). https://pubmed.ncbi.nlm.nih.gov/31496122/
+- Behörde/Recht (Weitere Quellen): Apotheken Umschau, 14.09.2023 – Jung bleiben: Wie alt bin ich wirklich? Bericht über epigenetische Alterstests mit Preisangabe. https://www.apotheken-umschau.de/gesund-bleiben/wer-hat-an-der-uhr-gedreht-wie-wir-altern-jung-bleiben-1001069.html
 
 ## Thema: Epitalon (Epithalon) (https://biohackingkompakt.de/thema/epitalon.html)
 9 Studien: 4 Tier- oder Laborstudie, 2 Sonstige Studie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -1906,6 +1933,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz – Stoffwechsel-Modulatoren einschließlich Derivate. https://www.gesetze-im-internet.de/antidopg/anlage.html
 - Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.4.1 PPARδ-Agonisten. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
+## Thema: Hautverjüngung (Laser, Microneedling, Radiofrequenz) (https://biohackingkompakt.de/thema/hautverjuengung.html)
+8 Studien: 4 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Sonstige Studie, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2026: Radiofrequency Microneedling for Facial Rejuvenation: A Systematic Review (Kumar N et al., J Cosmet Dermatol). https://pubmed.ncbi.nlm.nih.gov/41947517/
+- Meta-Analyse / Übersicht, 2025: Microneedling for Facial Rejuvenation: A Systematic Review (Foppiani JA et al., Aesthetic Plast Surg). https://pubmed.ncbi.nlm.nih.gov/40542236/
+- Meta-Analyse / Übersicht, 2025: Radiofrequency-Based Treatments for Facial Rejuvenation: A Systematic Review of Efficacy, Safety, and Patient-Centered Outcomes (Kumar N et al., Aesthet Surg J Open Forum). https://pubmed.ncbi.nlm.nih.gov/41426292/
+- Meta-Analyse / Übersicht, 2016: Interventions for acne scars (Abdel Hay R et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/27038134/
+- Randomisierte Studie, 2010: Ablative fractional lasers (CO(2) and Er:YAG): a randomized controlled double-blind split-face trial of the treatment of peri-orbital rhytides (Karsai S et al., Lasers Surg Med). https://pubmed.ncbi.nlm.nih.gov/20166156/
+- Randomisierte Studie, 2006: Skin rejuvenation using intense pulsed light: a randomized controlled split-face trial with blinded response evaluation (Hedelund L et al., Arch Dermatol). https://pubmed.ncbi.nlm.nih.gov/16924047/
+- Beobachtungsstudie, 2008: Side effects and complications of fractional laser photothermolysis: experience with 961 treatments (Graber EM et al., Dermatol Surg). https://pubmed.ncbi.nlm.nih.gov/18190541/
+- Sonstige Studie, 2012: Direct quantitative comparison of molecular responses in photodamaged human skin to fractionated and fully ablative carbon dioxide laser resurfacing (Orringer JS et al., Dermatol Surg). https://pubmed.ncbi.nlm.nih.gov/22805255/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Verordnung zum Schutz vor schädlichen Wirkungen nichtionisierender Strahlung bei der Anwendung am Menschen (NiSV), §§ 5 und 6 – Arztvorbehalt. https://www.gesetze-im-internet.de/nisv/index.html
+- Behörde/Recht (Weitere Quellen): Bundesumweltministerium (BMUV) – Grundsätzliche Fragen zur NiSV: Inkrafttreten 31.12.2020, Fachkundepflicht seit 31.12.2022. https://www.bundesumweltministerium.de/faqs/grundsaetzliche-fragen-zur-nisv
+
 ## Thema: hCG (humanes Choriongonadotropin) (https://biohackingkompakt.de/thema/hcg.html)
 4 Studien: 1 Beobachtungsstudie, 1 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 1995: The effect of human chorionic gonadotropin (HCG) in the treatment of obesity by means of the Simeons therapy: a criteria-based meta-analysis (Lijesen GK et al., Br J Clin Pharmacol). https://pubmed.ncbi.nlm.nih.gov/8527285/
@@ -2345,6 +2385,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2025: Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials (Myung SK et al., Am J Med). https://pubmed.ncbi.nlm.nih.gov/40324552/
 - Meta-Analyse / Übersicht, 2023: Analgesic efficacy of collagen peptide in knee osteoarthritis: a meta-analysis of randomized controlled trials (Lin CR et al., J Orthop Surg Res). https://pubmed.ncbi.nlm.nih.gov/37717022/
 - Meta-Analyse / Übersicht, 2023: Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis (Pu SY et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/37432180/
+
+## Thema: Koronarkalk-Score (CAC-Scan) (https://biohackingkompakt.de/thema/koronarkalk-score.html)
+10 Studien: 4 Beobachtungsstudie, 3 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Klinische Studie, 1 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2025: Coronary atherosclerosis screening in asymptomatic adults using coronary artery calcium for cardiovascular prevention: a systematic review of randomised controlled trials and prospective cohorts (Scheu V et al., BMJ Open). https://pubmed.ncbi.nlm.nih.gov/40617605/
+- Randomisierte Studie, 2022: Five-Year Outcomes of the Danish Cardiovascular Screening (DANCAVAS) Trial (Lindholt JS et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/36027560/
+- Klinische Studie, 2024: Short-term impact of cardiovascular screening by traditional risk assessment or coronary artery calcium score on health-related quality of life: the ROBINSCA trial (Moldovanu D et al., Eur Heart J Open). https://pubmed.ncbi.nlm.nih.gov/39421139/
+- Beobachtungsstudie, 2021: 2021 ESC Guidelines on cardiovascular disease prevention in clinical practice (Visseren FLJ et al., Eur Heart J). https://pubmed.ncbi.nlm.nih.gov/34458905/
+- Beobachtungsstudie, 2020: Interplay of Coronary Artery Calcium and Risk Factors for Predicting CVD/CHD Mortality: The CAC Consortium (Grandhi GR et al., JACC Cardiovasc Imaging). https://pubmed.ncbi.nlm.nih.gov/31734198/
+- Beobachtungsstudie, 2019: 2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines (Arnett DK et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/30879355/
+- Beobachtungsstudie, 2018: Ten-year association of coronary artery calcium with atherosclerotic cardiovascular disease (ASCVD) events: the multi-ethnic study of atherosclerosis (MESA) (Budoff MJ et al., Eur Heart J). https://pubmed.ncbi.nlm.nih.gov/29688297/
+- Sonstige Studie, 2026: Coronary Calcium Screening and Incidental Lung Cancer Detection in Patients Ineligible for US Preventive Services Task Force Screening (Drysch A et al., J Am Coll Surg). https://pubmed.ncbi.nlm.nih.gov/42566001/
+- Sonstige Studie, 2020: Early Detection of Diseases by Radiological Imaging: New Legal Situation and Evaluation of Service Offers using CT Examinations as an Example (Brix G et al., Rofo). https://pubmed.ncbi.nlm.nih.gov/31514212/
+- Sonstige Studie, 2016: Coronary calcium scans and radiation exposure in the multi-ethnic study of atherosclerosis (Messenger B et al., Int J Cardiovasc Imaging). https://pubmed.ncbi.nlm.nih.gov/26515964/
 
 ## Thema: KPV (https://biohackingkompakt.de/thema/kpv.html)
 8 Studien: 4 Tier- oder Laborstudie, 3 Sonstige Studie, 1 Übersichtsartikel.
@@ -4239,6 +4292,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2006: Efficacy of a tart cherry juice blend in preventing the symptoms of muscle damage (Connolly DA et al., Br J Sports Med). https://pubmed.ncbi.nlm.nih.gov/16790484/
 - Beobachtungsstudie, 2012: Cherry consumption and decreased risk of recurrent gout attacks (Zhang Y et al., Arthritis Rheum). https://pubmed.ncbi.nlm.nih.gov/23023818/
 
+## Thema: Sauerstoff-Mehrschritt-Therapie (nach von Ardenne) (https://biohackingkompakt.de/thema/sauerstoff-mehrschritt.html)
+7 Studien: 4 Sonstige Studie, 1 Übersichtsartikel, 1 Randomisierte Studie, 1 Klinische Studie.
+- Randomisierte Studie, 1980: [Effectiveness of "oxygen-multistep-therapy"] (Nolte D et al., Med Klin). https://pubmed.ncbi.nlm.nih.gov/7374618/
+- Klinische Studie, 1980: [Preliminary results of a pilot study on the optimisation and clinical examination of the "oxygen-multistep-therapy (O2Mt)" (author's transl)] (Lippmann HG et al., Z Alternsforsch). https://pubmed.ncbi.nlm.nih.gov/7222733/
+- Übersichtsartikel, 1998: [Oxygen treatment methods--a critical analysis of established and controversial procedures (II)] (Lutz J, Versicherungsmedizin). https://pubmed.ncbi.nlm.nih.gov/9816992/
+- Sonstige Studie, 1991: [Results of multistep oxygen therapy in the treatment of sudden hearing loss] (Wolf O et al., Laryngorhinootologie). https://pubmed.ncbi.nlm.nih.gov/1930489/
+- Sonstige Studie, 1989: [Increasing mental performance by multistep oxygen therapy. Computer-assisted measurements of information processing capacity, intelligence, short-term memory and further parameters of cerebral performance] (von Ardenne M et al., Z Alternsforsch). https://pubmed.ncbi.nlm.nih.gov/2711706/
+- Sonstige Studie, 1984: [Age-dependence of oxygen transport into body tissues and the favorable modification of this transport by multistep oxygen therapy] (von Ardenne M, Z Alternsforsch). https://pubmed.ncbi.nlm.nih.gov/6475110/
+- Sonstige Studie, 1984: [Double-blind study on the long-lasting improvement of physical endurance following oxygen-multistep-therapy] (von Ardenne M et al., Z Alternsforsch). https://pubmed.ncbi.nlm.nih.gov/6711017/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 – Dipyridamol verschreibungspflichtig. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Bundesausschuss der Ärzte und Krankenkassen, Zusammenfassender Bericht des Arbeitsausschusses „Ärztliche Behandlung“ zur Sauerstoff-Mehrschritt-Therapie nach von Ardenne, 22.05.2001 – Bewertung aller Studien, darunter Heß et al. 1986. https://www.g-ba.de/downloads/40-268-251/HTA-Sauerstoff-Mehrschritt-.pdf
+- Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Gemeinsamer Bundesausschuss, Richtlinie Methoden vertragsärztliche Versorgung, Anlage II Nr. 6 (Fassung vom 18.06.2026, in Kraft seit 09.09.2026). https://www.g-ba.de/downloads/62-492-4212/MVV-RL_2026-06-18_iK-2026-09-09.pdf
+
 ## Thema: Sauna & Kälte (Hormesis) (https://biohackingkompakt.de/thema/sauna-kaelte.html)
 4 Studien: 1 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Beobachtungsstudie.
 - Meta-Analyse / Übersicht, 2026: Physical recovery modalities in competitive and elite endurance athletes: a systematic review and network meta-analysis finding limited evidence of benefit over passive recovery (Jin Y et al., Front Sports Act Living). https://europepmc.org/article/MED/42683395
@@ -4502,6 +4568,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Beobachtungsstudie, 2020: The impact of functional medicine on patient-reported outcomes in inflammatory arthritis: A retrospective study (Droz N et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/33031458/
 - Sonstige Studie, 2022: Intermittent Hypoxic-Hyperoxic Exposures Effects in Patients with Metabolic Syndrome: Correction of Cardiovascular and Metabolic Profile (Bestavashvili A et al., Biomedicines). https://pubmed.ncbi.nlm.nih.gov/35327372/
 - Behörde/Recht (Verbraucherzentrale): Verbraucherzentrale: Ernährungsberatung gesucht, 2025. https://www.verbraucherzentrale.de/wissen/lebensmittel/ernaehrung-fuer-seniorinnen/ernaehrungsberatung-gesucht-so-finden-sie-qualifizierte-hilfe-17735
+
+## Thema: Stuhltransplantation (FMT) (https://biohackingkompakt.de/thema/stuhltransplantation.html)
+7 Studien: 2 Meta-Analyse / Übersicht, 2 Sonstige Studie, 2 Beobachtungsstudie, 1 Fallbericht.
+- Meta-Analyse / Übersicht, 2023: Effects of fecal microbiota transplantation in metabolic syndrome: A meta-analysis of randomized controlled trials (Qiu B et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/37471410/
+- Meta-Analyse / Übersicht, 2023: Fecal microbiota transplantation for the treatment of recurrent Clostridioides difficile (Clostridium difficile) (Minkoff NZ et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/37096495/
+- Beobachtungsstudie, 2020: Understanding the Scope of Do-It-Yourself Fecal Microbiota Transplant (Ekekezie C et al., Am J Gastroenterol). https://pubmed.ncbi.nlm.nih.gov/31972620/
+- Beobachtungsstudie, 2012: Long-term follow-up of colonoscopic fecal microbiota transplant for recurrent Clostridium difficile infection (Brandt LJ et al., Am J Gastroenterol). https://pubmed.ncbi.nlm.nih.gov/22450732/
+- Fallbericht, 2019: Drug-Resistant E. coli Bacteremia Transmitted by Fecal Microbiota Transplant (DeFilipp Z et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/31665575/
+- Sonstige Studie, 2021: European Society of Clinical Microbiology and Infectious Diseases: 2021 update on the treatment guidance document for Clostridioides difficile infection in adults (van Prehn J et al., Clin Microbiol Infect). https://pubmed.ncbi.nlm.nih.gov/34678515/
+- Sonstige Studie, 2019: Healthspan and lifespan extension by fecal microbiota transplantation into progeroid mice (Bárcena C et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/31332389/
+- Behörde/Recht (BfArM): BfArM – Risikoinformation: Fäkale Mikrobiota-Transplantation (FMT, Stuhltransplantation), Risiko für die Übertragung von multiresistenten Erregern (Stand 26.06.2023). https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RI/2019/RI-FMT.html
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA – REBYOTA (fecal microbiota, live-jslm), Zulassung vom 30.11.2022. https://www.fda.gov/vaccines-blood-biologics/vaccines/rebyota
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, 26.04.2023 – Zulassung von Vowst, dem ersten Fäkalmikrobiota-Präparat zum Schlucken. https://www.fda.gov/news-events/press-announcements/fda-approves-first-orally-administered-fecal-microbiota-product-prevention-recurrence-clostridioides
 
 ## Thema: Sulbutiamin (https://biohackingkompakt.de/thema/sulbutiamin.html)
 8 Studien: 4 Randomisierte Studie, 2 Sonstige Studie, 1 Fallbericht, 1 Klinische Studie.
@@ -4998,6 +5077,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Kommission – Lebensmittel): EU-Kommission, Novel-Food-Antrag Urolithin A (Zusammenfassung, Amazentis 2018). https://food.ec.europa.eu/document/download/8f10d273-65cb-4450-85cb-4bf389d8670c_en?filename=novel-food_sum_ongoing-app_2018-0538.pdf
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, GRAS Notice GRN 791 Urolithin A. https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&id=791
 
+## Thema: UV- und Laser-Blutbestrahlung (UVBI, ILIB) (https://biohackingkompakt.de/thema/blutbestrahlung.html)
+7 Studien: 2 Randomisierte Studie, 2 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Klinische Studie.
+- Meta-Analyse / Übersicht, 2025: Clinical applications and molecular mechanisms for intravenous laser blood irradiation: a systematic review (Chang CC et al., Lasers Med Sci). https://pubmed.ncbi.nlm.nih.gov/41065846/
+- Randomisierte Studie, 2025: The clinical efficacy of intravascular laser irradiation of blood (ILIB): A narrative review of randomized controlled trial (Díaz L et al., Photodiagnosis Photodyn Ther). https://pubmed.ncbi.nlm.nih.gov/40324571/
+- Randomisierte Studie, 2024: The Effect of Intravascular Laser Irradiation of Blood on Serum Biomarkers and Clinical Outcome in Knee Osteoarthritis Patients: A Double-Blind Randomized Control Trial (Su YC et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/39769371/
+- Klinische Studie, 2015: The treatment of infectious disease with a medical device: results of a clinical trial of ultraviolet blood irradiation (UVBI) in patients with hepatitis C infection (Kuenstner JT et al., Int J Infect Dis). https://pubmed.ncbi.nlm.nih.gov/26092299/
+- Übersichtsartikel, 2016: Ultraviolet blood irradiation: Is it time to remember "the cure that time forgot"? (Wu X et al., J Photochem Photobiol B). https://pubmed.ncbi.nlm.nih.gov/26894849/
+- Übersichtsartikel, 2015: The intravenous laser blood irradiation in chronic pain and fibromyalgia (Momenzadeh S et al., J Lasers Med Sci). https://pubmed.ncbi.nlm.nih.gov/25699161/
+- Sonstige Studie, 2022: The Adjuvant Therapy of Intravenous Laser Irradiation of Blood (ILIB) on Pain and Sleep Disturbance of Musculoskeletal Disorders (Fu JC et al., J Pers Med). https://pubmed.ncbi.nlm.nih.gov/36013282/
+- Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Bundesausschuss der Ärzte und Krankenkassen, 30.03.2001 – Zusammenfassender Bericht Hämatogene Oxidationstherapie (HOT), mit Auswertung der Studie Bühring 1992. https://www.g-ba.de/downloads/40-268-152/HTA-Haematogene_Oxidationstherapie_.pdf
+- Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Gemeinsamer Bundesausschuss – Richtlinie Methoden vertragsärztliche Versorgung, Anlage II, Fassung in Kraft seit 09.09.2026. https://www.g-ba.de/downloads/62-492-4212/MVV-RL_2026-06-18_iK-2026-09-09.pdf
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): U.S. Food and Drug Administration, Warning Letter vom 07.07.2025 (CBER 25-668840) – Geräte zur Behandlung von Blut mit Ozon und UV-Licht ohne Marktzulassung. https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/o3uv-llc-668840-07072025
+
 ## Thema: Vagusnerv-Stimulation (aktiv) (https://biohackingkompakt.de/thema/vagus-stimulation.html)
 8 Studien: 4 Randomisierte Studie, 3 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2025: Association between non-invasive auricular stimulation and blood pressure lowering: a systematic review and meta-analysis (Nagai M et al., Eur Heart J Open). https://pubmed.ncbi.nlm.nih.gov/40980724/
@@ -5210,6 +5302,19 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2013: The LF/HF ratio does not accurately measure cardiac sympatho-vagal balance (Billman GE, Front Physiol). https://doi.org/10.3389/fphys.2013.00026
 - Behörde/Recht (AWMF-Leitlinien): AWMF S2k-Leitlinie 002-042 — Herzschlagfrequenz und Herzfrequenzvariabilität in der Arbeitsmedizin. https://register.awmf.org/assets/guidelines/002-042l_S2k_Nutzung-Herzschlagfrequenz-Herzfrequenzvariabilitaet-Arbeitsmedizin-Arbeitswissenschaft_2022-03_1.pdf
 
+## Thema: VO2max-Test (Spiroergometrie) (https://biohackingkompakt.de/thema/vo2max-test.html)
+9 Studien: 5 Beobachtungsstudie, 2 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2022: Validity of Estimating the Maximal Oxygen Consumption by Consumer Wearables: A Systematic Review with Meta-analysis and Expert Statement of the INTERLIVE Network (Molina-Garcia P et al., Sports Med). https://pubmed.ncbi.nlm.nih.gov/35072942/
+- Meta-Analyse / Übersicht, 2009: Cardiorespiratory fitness as a quantitative predictor of all-cause mortality and cardiovascular events in healthy men and women: a meta-analysis (Kodama S et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/19454641/
+- Randomisierte Studie, 2018: The effect of cardiorespiratory fitness assessment in preventive health checks: a randomised controlled trial (Høj K et al., Eur J Public Health). https://pubmed.ncbi.nlm.nih.gov/29016823/
+- Beobachtungsstudie, 2022: Cardiorespiratory Fitness and Mortality Risk Across the Spectra of Age, Race, and Sex (Kokkinos P et al., J Am Coll Cardiol). https://pubmed.ncbi.nlm.nih.gov/35926933/
+- Beobachtungsstudie, 2018: Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing (Mandsager K et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/30646252/
+- Beobachtungsstudie, 2018: Cardiorespiratory Fitness and Mortality in Healthy Men and Women (Imboden MT et al., J Am Coll Cardiol). https://pubmed.ncbi.nlm.nih.gov/30384883/
+- Beobachtungsstudie, 2016: Importance of Assessing Cardiorespiratory Fitness in Clinical Practice: A Case for Fitness as a Clinical Vital Sign: A Scientific Statement From the American Heart Association (Ross R et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/27881567/
+- Beobachtungsstudie, 2012: The safety of cardiopulmonary exercise testing in a population with high-risk cardiovascular diseases (Skalski J et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/23091065/
+- Sonstige Studie, 2026: Accuracy of VO2 max Estimates From Apple Watch Series 10 (Lambe R et al., Mayo Clin Proc Digit Health). https://pubmed.ncbi.nlm.nih.gov/42094313/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Gebührenordnung für Ärzte (GOÄ), § 5 und Gebührenverzeichnis Nr. 606 – Spiroergometrische Untersuchung. https://www.gesetze-im-internet.de/go__1982/BJNR015220982.html
+
 ## Thema: Weihrauch (Boswellia) (https://biohackingkompakt.de/thema/boswellia.html)
 8 Studien: 3 Meta-Analyse / Übersicht, 3 Randomisierte Studie, 1 Beobachtungsstudie, 1 Tier- oder Laborstudie.
 - Meta-Analyse / Übersicht, 2025: Comparative Effectiveness of Nutritional Supplements in the Treatment of Knee Osteoarthritis: A Network Meta-Analysis (Zhang Y et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/40806131/
@@ -5278,7 +5383,7 @@ Stand: 14.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2024: Comparison of Polarized Versus Other Types of Endurance Training Intensity Distribution on Athletes' Endurance Performance: A Systematic Review with Meta-analysis (Silva Oliveira P et al., Sports Med). https://europepmc.org/article/MED/38717713
 - Meta-Analyse / Übersicht, 2009: Cardiorespiratory fitness as a quantitative predictor of all-cause mortality and cardiovascular events in healthy men and women: a meta-analysis (Kodama S et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/19454641/
 - Beobachtungsstudie, 2018: Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing (Mandsager K et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/30646252/
-- Beobachtungsstudie, 2016: Importance of Assessing Cardiorespiratory Fitness in Clinical Practice: A Case for Fitness as a Clinical Vital Sign: A Scientific Statement From the American Heart Association (Ross R et al., Circulation). https://europepmc.org/article/MED/27881567
+- Beobachtungsstudie, 2016: Importance of Assessing Cardiorespiratory Fitness in Clinical Practice: A Case for Fitness as a Clinical Vital Sign: A Scientific Statement From the American Heart Association (Ross R et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/27881567/
 
 ## Thema: Zopiclon (https://biohackingkompakt.de/thema/zopiclon.html)
 7 Studien: 4 Meta-Analyse / Übersicht, 1 Leitlinie / Konsens, 1 Beobachtungsstudie, 1 Übersichtsartikel.
