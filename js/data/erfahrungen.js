@@ -907,8 +907,10 @@ const SHOPS = [
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
-    // Aufgenommen 27.09.2026 auf Pauls Wunsch: spannendes Sortiment, aber noch
-    // keine Erfahrungsberichte. Wie bei den anderen Peptid-Shops ohne Link und
+    // 15.10.2026: erster Bericht aus zweiter Hand (nicht verschickt nach >2 Wochen,
+    // Support antwortet nicht) -> 2 Sterne auf Pauls Wunsch; kommt die Ware gar
+    // nicht, auf 1 Stern senken. Aufgenommen 27.09.2026 auf Pauls Wunsch: spannendes
+    // Sortiment, damals noch keine Erfahrungsberichte. Wie bei den anderen Peptid-Shops ohne Link und
     // ohne Sterne. Alles unten ist selbst nachgesehen (Website, Impressum,
     // Produktliste am 27.09.2026), keine weitergegebenen Berichte.
     id: 'thepeptidedesk',
@@ -917,12 +919,12 @@ const SHOPS = [
     url: '',
     land: 'Hongkong / Lager in DE',
     kategorien: ['Peptide'],
-    bewertung: null,
-    versand: 'Nach eigener Angabe Versand aus einem deutschen Lager mit DHL und Sendungsverfolgung, Expressware in 1–2 Tagen.',
+    bewertung: 2,
+    versand: 'Nach eigener Angabe Versand aus einem deutschen Lager mit DHL und Sendungsverfolgung, Expressware in 1–2 Tagen. Berichtet (Oktober 2026): Eine Bestellung war nach über zwei Wochen noch nicht verschickt, mehrere Mails an den Support blieben ohne Antwort.',
     zahlung: 'Nach eigener Angabe SEPA, Karte, Apple Pay oder Krypto (Krypto mit Rabatt – dann ohne Käuferschutz der Karte).',
     qualitaet: 'Wirbt mit unabhängigen Laboranalysen samt Prüfschlüssel je Charge. Von uns noch nicht gegengeprüft.',
     zoll: 'Kein Thema, solange aus dem deutschen Lager versendet wird.',
-    erfahrung: 'Noch keine Erfahrungsberichte – aufgenommen, weil das Sortiment auffällt: rund 250 Wirkstoffe, darunter viele Peptide, die es anderswo kaum gibt (etwa CagriSema, Eloralintid, ACE-031, die Khavinson-Peptide Cortagen und Cardiogen). Nachprüfbar ist: Betreiber laut Impressum ist die Monvex Limited mit Sitz in Hongkong; einer Verbraucherschlichtung nimmt der Anbieter nicht teil. Wichtig zur Einordnung: Das Sortiment geht weit über Peptide hinaus und umfasst laut Produktliste auch Anabolika, verschreibungspflichtige Medikamente, EPO und DNP – Stoffe, deren Handel und Besitz in Deutschland teils verboten und die teils gefährlich sind. Wenn du dort bestellt hast, schreib mir. Stand 27.09.2026.',
+    erfahrung: 'Erster Erfahrungsbericht, aus zweiter Hand (Oktober 2026): Preise gut, Shop und Auftritt machen einen ordentlichen Eindruck. Die Bestellung eines Community-Mitglieds war aber nach über zwei Wochen noch nicht einmal verschickt, und auf mehrere Mails kam vom Support keine Antwort. Das wirkt seltsam – deshalb vorerst zwei Sterne und Vorsicht bei der Empfehlung. Sollte die Ware gar nicht ankommen, senke ich auf einen Stern. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Aufgenommen hatten wir den Shop am 27.09.2026 wegen des auffälligen Sortiments: rund 250 Wirkstoffe, darunter viele Peptide, die es anderswo kaum gibt (etwa CagriSema, Eloralintid, ACE-031, die Khavinson-Peptide Cortagen und Cardiogen). Nachprüfbar ist: Betreiber laut Impressum ist die Monvex Limited mit Sitz in Hongkong; einer Verbraucherschlichtung nimmt der Anbieter nicht teil. Wichtig zur Einordnung: Das Sortiment geht weit über Peptide hinaus und umfasst laut Produktliste auch Anabolika, verschreibungspflichtige Medikamente, EPO und DNP – Stoffe, deren Handel und Besitz in Deutschland teils verboten und die teils gefährlich sind. Stand 15.10.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
