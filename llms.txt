@@ -130,6 +130,7 @@ Inhalte sind Information, kein medizinischer Rat.
 
 ## Daten
 
+- [Biohacking-Report 2026: 494 Mittel im Faktencheck](https://biohackingkompakt.de/report/2026.html): Auswertung aller BK-Score-Einträge mit Kernzahlen, Grafiken und CSV-Download (CC BY 4.0).
 - [Alle Bewertungen als JSON](https://biohackingkompakt.de/scores.json): 0-10 je Achse, mit Begründung
 - [Themenübersicht](https://biohackingkompakt.de/thema/): alle Einträge mit eigener URL
 - [Fragen & Beschwerden](https://biohackingkompakt.de/problem/): Einstiege über Alltagsfragen („Ständig müde", „Schlecht schlafen") mit direkter Antwort und Verweis auf die passenden Themen
