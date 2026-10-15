@@ -22072,6 +22072,34 @@
 "Journal Article"
 ]
 },
+"pmid:16924047": {
+"autoren": "Hedelund L, Due E, Bjerring P, Wulf HC, Haedersdal M.",
+"doi": "10.1001/archderm.142.8.985",
+"iso": "Arch Dermatol",
+"jahr": "2006",
+"journal": "Archives of dermatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Facial Dermatoses",
+"Treatment Outcome",
+"Rejuvenation",
+"Phototherapy",
+"Severity of Illness Index",
+"Double-Blind Method",
+"Skin Aging",
+"Middle Aged",
+"Female"
+],
+"pmcid": "",
+"pmid": "16924047",
+"quelle": "MED",
+"titel": "Skin rejuvenation using intense pulsed light: a randomized controlled split-face trial with blinded response evaluation.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:16928472": {
 "autoren": "Campbell B, Roberts M, Kerksick C, Wilborn C, Marcello B, Taylor L, Nassar E, Leutholtz B, Bowden R, Rasmussen C, Greenwood M, Kreider R.",
 "doi": "10.1016/j.nut.2006.06.003",
@@ -24580,6 +24608,32 @@
 "typen": [
 "Journal Article",
 "Case Reports"
+]
+},
+"pmid:18190541": {
+"autoren": "Graber EM, Tanzi EL, Alster TS.",
+"doi": "10.1111/j.1524-4725.2007.34062.x",
+"iso": "Dermatol Surg",
+"jahr": "2008",
+"journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+"korr": [],
+"mesh": [
+"Cicatrix",
+"Humans",
+"Rejuvenation",
+"Phototherapy",
+"Retrospective Studies",
+"Skin Aging",
+"Female",
+"Male",
+"Laser Therapy"
+],
+"pmcid": "",
+"pmid": "18190541",
+"quelle": "MED",
+"titel": "Side effects and complications of fractional laser photothermolysis: experience with 961 treatments.",
+"typen": [
+"Journal Article"
 ]
 },
 "pmid:18206919": {
@@ -27342,6 +27396,40 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:1930489": {
+"autoren": "Wolf O, Hanson J.",
+"doi": "10.1055/s-2007-998080",
+"iso": "Laryngorhinootologie",
+"jahr": "1991",
+"journal": "Laryngo- rhino- otologie",
+"korr": [],
+"mesh": [
+"Humans",
+"Hearing Loss, Sensorineural",
+"Hearing Loss, Sudden",
+"Potassium",
+"Magnesium",
+"Dipyridamole",
+"Thiamine",
+"Drug Combinations",
+"Combined Modality Therapy",
+"Drug Therapy, Combination",
+"Oxygen Inhalation Therapy",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Physical Exertion"
+],
+"pmcid": "",
+"pmid": "1930489",
+"quelle": "MED",
+"titel": "[Results of multistep oxygen therapy in the treatment of sudden hearing loss].",
+"typen": [
+"Journal Article",
+"English Abstract"
+]
+},
 "pmid:19321567": {
 "autoren": "Verhoeven S, Vanschoonbeek K, Verdijk LB, Koopman R, Wodzig WK, Dendale P, van Loon LJ.",
 "doi": "10.3945/ajcn.2008.26668",
@@ -29439,6 +29527,43 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:20166156": {
+"autoren": "Karsai S, Czarnecka A, Jünger M, Raulin C.",
+"doi": "10.1002/lsm.20879",
+"iso": "Lasers Surg Med",
+"jahr": "2010",
+"journal": "Lasers in surgery and medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Rejuvenation",
+"Rhytidoplasty",
+"Immunohistochemistry",
+"Prospective Studies",
+"Double-Blind Method",
+"Esthetics",
+"Skin Aging",
+"Reference Values",
+"Adult",
+"Middle Aged",
+"Patient Satisfaction",
+"Female",
+"Male",
+"Laser Therapy",
+"Lasers, Solid-State",
+"Lasers, Gas"
+],
+"pmcid": "",
+"pmid": "20166156",
+"quelle": "MED",
+"titel": "Ablative fractional lasers (CO(2) and Er:YAG): a randomized controlled double-blind split-face trial of the treatment of peri-orbital rhytides.",
+"typen": [
+"Comparative Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:20192911": {
 "autoren": "Brown D, Chevalier G, Hill M.",
 "doi": "10.1089/acm.2009.0399",
@@ -31258,6 +31383,36 @@
 "typen": [
 "Journal Article",
 "Case Reports"
+]
+},
+"pmid:21029973": {
+"autoren": "Sale JE, Beaton DE, Bogoch ER, Elliot-Gibson V, Frankel L.",
+"doi": "10.1016/j.jocd.2010.07.007",
+"iso": "J Clin Densitom",
+"jahr": "2010",
+"journal": "Journal of clinical densitometry : the official journal of the International Society for Clinical Densitometry",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoporosis",
+"Absorptiometry, Photon",
+"Attitude to Health",
+"Communication",
+"Bone Density",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Fractures, Bone",
+"Interviews as Topic"
+],
+"pmcid": "",
+"pmid": "21029973",
+"quelle": "MED",
+"titel": "The BMD muddle: the disconnect between bone densitometry results and perception of bone health.",
+"typen": [
+"Journal Article"
 ]
 },
 "pmid:21036578": {
@@ -34711,6 +34866,40 @@
 "Journal Article"
 ]
 },
+"pmid:22450732": {
+"autoren": "Brandt LJ, Aroniadis OC, Mellow M, Kanatzar A, Kelly C, Park T, Stollman N, Rohlke F, Surawicz C.",
+"doi": "10.1038/ajg.2012.60",
+"iso": "Am J Gastroenterol",
+"jahr": "2012",
+"journal": "The American journal of gastroenterology",
+"korr": [],
+"mesh": [
+"Feces",
+"Humans",
+"Enterocolitis, Pseudomembranous",
+"Recurrence",
+"Vancomycin",
+"Anti-Bacterial Agents",
+"Colonoscopy",
+"Longitudinal Studies",
+"Follow-Up Studies",
+"Aged",
+"United States",
+"Female",
+"Male",
+"Metagenome",
+"Surveys and Questionnaires",
+"Clostridioides difficile"
+],
+"pmcid": "",
+"pmid": "22450732",
+"quelle": "MED",
+"titel": "Long-term follow-up of colonoscopic fecal microbiota transplant for recurrent Clostridium difficile infection.",
+"typen": [
+"Multicenter Study",
+"Journal Article"
+]
+},
 "pmid:22451473": {
 "autoren": "Strong R, Miller RA, Astle CM, Baur JA, de Cabo R, de Cabo R, Fernandez E, Guo W, Javors M, Kirkland JL, Nelson JF, Sinclair DA, Teter B, Williams D, Zaveri N, Nadon NL, Harrison DE.",
 "doi": "10.1093/gerona/gls070",
@@ -35701,6 +35890,54 @@
 "Journal Article"
 ]
 },
+"pmid:22805255": {
+"autoren": "Orringer JS, Sachs DL, Shao Y, Hammerberg C, Cui Y, Voorhees JJ, Fisher GJ.",
+"doi": "10.1111/j.1524-4725.2012.02518.x",
+"iso": "Dermatol Surg",
+"jahr": "2012",
+"journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+"korr": [],
+"mesh": [
+"Neutrophils",
+"Extracellular Matrix",
+"Macrophages",
+"Skin",
+"Humans",
+"Collagen Type I",
+"Collagen Type III",
+"Antimicrobial Cationic Peptides",
+"beta-Defensins",
+"RNA, Messenger",
+"Interleukin-8",
+"Cosmetic Techniques",
+"Immunohistochemistry",
+"Gene Expression",
+"Skin Aging",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Matrix Metalloproteinase 9",
+"Matrix Metalloproteinase 3",
+"Matrix Metalloproteinase 1",
+"Interleukin-1beta",
+"Laser Therapy",
+"Lasers, Gas",
+"Cathelicidins",
+"Real-Time Polymerase Chain Reaction",
+"Dermatologic Surgical Procedures",
+"Platelet Endothelial Cell Adhesion Molecule-1"
+],
+"pmcid": "",
+"pmid": "22805255",
+"quelle": "MED",
+"titel": "Direct quantitative comparison of molecular responses in photodamaged human skin to fractionated and fully ablative carbon dioxide laser resurfacing.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:22805526": {
 "autoren": "Pelletier DM, Lacerte G, Goulet ED.",
 "doi": "10.1123/ijsnem.23.1.73",
@@ -36356,6 +36593,35 @@
 "Meta-Analysis",
 "Research Support, Non-U.S. Gov't",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:23091065": {
+"autoren": "Skalski J, Allison TG, Miller TD.",
+"doi": "10.1161/circulationaha.112.110460",
+"iso": "Circulation",
+"jahr": "2012",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Ultrasonography",
+"Exercise Test",
+"Risk Factors",
+"Retrospective Studies",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "23091065",
+"quelle": "MED",
+"titel": "The safety of cardiopulmonary exercise testing in a population with high-risk cardiovascular diseases.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -43648,6 +43914,34 @@
 "Journal Article"
 ]
 },
+"pmid:25353076": {
+"autoren": "Esco MR, Snarr RL, Leatherwood MD, Chamberlain NA, Redding ML, Flatt AA, Moon JR, Williford HN.",
+"doi": "10.1519/jsc.0000000000000732",
+"iso": "J Strength Cond Res",
+"jahr": "2015",
+"journal": "Journal of strength and conditioning research",
+"korr": [],
+"mesh": [
+"Leg",
+"Arm",
+"Adipose Tissue",
+"Humans",
+"Absorptiometry, Photon",
+"Electric Impedance",
+"Female",
+"Adiposity",
+"Young Adult",
+"Torso"
+],
+"pmcid": "",
+"pmid": "25353076",
+"quelle": "MED",
+"titel": "Comparison of total and segmental body composition using DXA and multifrequency bioimpedance in collegiate female athletes.",
+"typen": [
+"Comparative Study",
+"Journal Article"
+]
+},
 "pmid:25374440": {
 "autoren": "Tanaka T, Hasegawa Y, Yokoya S, Nishi Y.",
 "doi": "10.1297/cpe.23.107",
@@ -44522,6 +44816,24 @@
 "Research Support, Non-U.S. Gov't",
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:25699161": {
+"autoren": "Momenzadeh S, Abbasi M, Ebadifar A, Aryani M, Bayrami J, Nematollahi F.",
+"doi": "",
+"iso": "J Lasers Med Sci",
+"jahr": "2015",
+"journal": "Journal of lasers in medical sciences",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC4329142",
+"pmid": "25699161",
+"quelle": "MED",
+"titel": "The intravenous laser blood irradiation in chronic pain and fibromyalgia.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -45581,6 +45893,36 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:26092299": {
+"autoren": "Kuenstner JT, Mukherjee S, Weg S, Landry T, Petrie T.",
+"doi": "10.1016/j.ijid.2015.06.006",
+"iso": "Int J Infect Dis",
+"jahr": "2015",
+"journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+"korr": [],
+"mesh": [
+"Humans",
+"Hepacivirus",
+"Hepatitis C",
+"Liver Function Tests",
+"Ultraviolet Therapy",
+"Viral Load",
+"Prospective Studies",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult"
+],
+"pmcid": "",
+"pmid": "26092299",
+"quelle": "MED",
+"titel": "The treatment of infectious disease with a medical device: results of a clinical trial of ultraviolet blood irradiation (UVBI) in patients with hepatitis C infection.",
+"typen": [
+"Clinical Trial, Phase II",
 "Journal Article"
 ]
 },
@@ -47037,6 +47379,44 @@
 "Journal Article"
 ]
 },
+"pmid:26515964": {
+"autoren": "Messenger B, Li D, Nasir K, Carr JJ, Blankstein R, Budoff MJ.",
+"doi": "10.1007/s10554-015-0799-3",
+"iso": "Int J Cardiovasc Imaging",
+"jahr": "2016",
+"journal": "The international journal of cardiovascular imaging",
+"korr": [],
+"mesh": [
+"Coronary Vessels",
+"Humans",
+"Tomography, X-Ray Computed",
+"Coronary Angiography",
+"Predictive Value of Tests",
+"Radiation Dosage",
+"Tomography Scanners, X-Ray Computed",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"United States",
+"Female",
+"Male",
+"Coronary Artery Disease",
+"Vascular Calcification",
+"Radiation Exposure"
+],
+"pmcid": "PMC4752888",
+"pmid": "26515964",
+"quelle": "MED",
+"titel": "Coronary calcium scans and radiation exposure in the multi-ethnic study of atherosclerosis.",
+"typen": [
+"Comparative Study",
+"research-article",
+"Multicenter Study",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:26519439": {
 "autoren": "Liu G, Weinger JG, Lu ZL, Xue F, Sadeghpour S.",
 "doi": "10.3233/jad-150538",
@@ -48170,6 +48550,29 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:26894849": {
+"autoren": "Wu X, Hu X, Hamblin MR.",
+"doi": "10.1016/j.jphotobiol.2016.02.007",
+"iso": "J Photochem Photobiol B",
+"jahr": "2016",
+"journal": "Journal of photochemistry and photobiology. B, Biology",
+"korr": [],
+"mesh": [
+"Humans",
+"Ultraviolet Therapy",
+"Photopheresis"
+],
+"pmcid": "PMC4783265",
+"pmid": "26894849",
+"quelle": "MED",
+"titel": "Ultraviolet blood irradiation: Is it time to remember \"the cure that time forgot\"?",
+"typen": [
+"research-article",
+"Review",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:26901812": {
 "autoren": "Finkelstein JS, Lee H, Leder BZ, Burnett-Bowie SA, Goldstein DW, Hahn CW, Hirsch SC, Linker A, Perros N, Servais AB, Taylor AP, Webb ML, Youngner JM, Yu EW.",
 "doi": "10.1172/jci84137",
@@ -48474,6 +48877,42 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:27038134": {
+"autoren": "Abdel Hay R, Shalaby K, Zaher H, Hafez V, Chi CC, Dimitri S, Nabhan AF, Layton AM.",
+"doi": "10.1002/14651858.cd011946.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2016",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Cicatrix",
+"Humans",
+"Acne Vulgaris",
+"Atrophy",
+"Hypertrophy",
+"Catheter Ablation",
+"Cosmetic Techniques",
+"Chemexfoliation",
+"Needles",
+"Adult",
+"Female",
+"Male",
+"Laser Therapy",
+"Young Adult",
+"Dermal Fillers"
+],
+"pmcid": "PMC7069546",
+"pmid": "27038134",
+"quelle": "MED",
+"titel": "Interventions for acne scars.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:27038225": {
 "autoren": "Gutiérrez-Hellín J, Del Coso J.",
 "doi": "10.1111/bcp.12952",
@@ -48619,6 +49058,42 @@
 "Review",
 "Consensus Statement",
 "Journal Article"
+]
+},
+"pmid:2711706": {
+"autoren": "von Ardenne M, Klemm W.",
+"doi": "",
+"iso": "Z Alternsforsch",
+"jahr": "1989",
+"journal": "Zeitschrift fur Alternsforschung",
+"korr": [],
+"mesh": [
+"Brain",
+"Humans",
+"Oxygen Inhalation Therapy",
+"Intelligence",
+"Mental Processes",
+"Memory, Short-Term",
+"Concept Formation",
+"Psychomotor Performance",
+"Reaction Time",
+"Neuropsychological Tests",
+"Aging",
+"Microcomputers",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "2711706",
+"quelle": "MED",
+"titel": "[Increasing mental performance by multistep oxygen therapy. Computer-assisted measurements of information processing capacity, intelligence, short-term memory and further parameters of cerebral performance].",
+"typen": [
+"Journal Article",
+"English Abstract"
 ]
 },
 "pmid:27136449": {
@@ -53089,6 +53564,35 @@
 "Journal Article"
 ]
 },
+"pmid:29016823": {
+"autoren": "Høj K, Vinther Skriver M, Terkildsen Maindal H, Christensen B, Sandbæk A.",
+"doi": "10.1093/eurpub/ckx108",
+"iso": "Eur J Public Health",
+"jahr": "2018",
+"journal": "European journal of public health",
+"korr": [],
+"mesh": [
+"Humans",
+"Risk Factors",
+"Follow-Up Studies",
+"Adult",
+"Middle Aged",
+"Preventive Health Services",
+"Female",
+"Male",
+"Surveys and Questionnaires",
+"Cardiorespiratory Fitness"
+],
+"pmcid": "",
+"pmid": "29016823",
+"quelle": "MED",
+"titel": "The effect of cardiorespiratory fitness assessment in preventive health checks: a randomised controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:29018060": {
 "autoren": "Liu X, Machado GC, Eyles JP, Ravi V, Hunter DJ.",
 "doi": "10.1136/bjsports-2016-097333",
@@ -54700,6 +55204,40 @@
 "Research Support, Non-U.S. Gov't",
 "Review",
 "Journal Article"
+]
+},
+"pmid:29688297": {
+"autoren": "Budoff MJ, Young R, Burke G, Jeffrey Carr J, Detrano RC, Folsom AR, Kronmal R, Lima JAC, Liu KJ, McClelland RL, Michos E, Post WS, Shea S, Watson KE, Wong ND.",
+"doi": "10.1093/eurheartj/ehy217",
+"iso": "Eur Heart J",
+"jahr": "2018",
+"journal": "European heart journal",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Risk Assessment",
+"Follow-Up Studies",
+"Prospective Studies",
+"Time Factors",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Atherosclerosis",
+"Coronary Artery Disease",
+"Vascular Calcification",
+"Ethnicity"
+],
+"pmcid": "PMC6030975",
+"pmid": "29688297",
+"quelle": "MED",
+"titel": "Ten-year association of coronary artery calcium with atherosclerotic cardiovascular disease (ASCVD) events: the multi-ethnic study of atherosclerosis (MESA).",
+"typen": [
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:29694707": {
@@ -56422,6 +56960,33 @@
 "Journal Article"
 ]
 },
+"pmid:30312372": {
+"autoren": "Cruz-Jentoft AJ, Bahat G, Bauer J, Boirie Y, Bruyère O, Cederholm T, Cooper C, Landi F, Rolland Y, Sayer AA, Schneider SM, Sieber CC, Topinkova E, Vandewoude M, Visser M, Zamboni M, Writing Group for the European Working Group on Sarcopenia in Older People 2 (EWGSOP2), and the Extended Group for EWGSOP2.",
+"doi": "10.1093/ageing/afy169",
+"iso": "Age Ageing",
+"jahr": "2019",
+"journal": "Age and ageing",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Biomedical Research",
+"Europe",
+"Muscle Strength",
+"Sarcopenia",
+"Biomarkers"
+],
+"pmcid": "PMC6322506",
+"pmid": "30312372",
+"quelle": "MED",
+"titel": "Sarcopenia: revised European consensus on definition and diagnosis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Consensus Statement",
+"Journal Article"
+]
+},
 "pmid:30322941": {
 "autoren": "Ames BN.",
 "doi": "10.1073/pnas.1809045115",
@@ -56603,6 +57168,42 @@
 "Meta-Analysis",
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:30384883": {
+"autoren": "Imboden MT, Harber MP, Whaley MH, Finch WH, Bishop DL, Kaminsky LA.",
+"doi": "10.1016/j.jacc.2018.08.2166",
+"iso": "J Am Coll Cardiol",
+"jahr": "2018",
+"journal": "Journal of the American College of Cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise Test",
+"Exercise",
+"Registries",
+"Mortality",
+"Cohort Studies",
+"Follow-Up Studies",
+"Health Status",
+"Physical Fitness",
+"Adolescent",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Cardiorespiratory Fitness"
+],
+"pmcid": "",
+"pmid": "30384883",
+"quelle": "MED",
+"titel": "Cardiorespiratory Fitness and Mortality in Healthy Men and Women.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -57979,6 +58580,35 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:30879355": {
+"autoren": "Arnett DK, Blumenthal RS, Albert MA, Buroker AB, Goldberger ZD, Hahn EJ, Himmelfarb CD, Khera A, Lloyd-Jones D, McEvoy JW, Michos ED, Miedema MD, Muñoz D, Smith SC, Virani SS, Williams KA, Yeboah J, Ziaeian B.",
+"doi": "10.1161/cir.0000000000000678",
+"iso": "Circulation",
+"jahr": "2019",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Cardiology",
+"Primary Prevention",
+"American Heart Association",
+"Advisory Committees",
+"United States",
+"Practice Guidelines as Topic",
+"Research Report"
+],
+"pmcid": "PMC7734661",
+"pmid": "30879355",
+"quelle": "MED",
+"titel": "2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -59430,6 +60060,37 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:31332389": {
+"autoren": "Bárcena C, Valdés-Mas R, Mayoral P, Garabaya C, Durand S, Rodríguez F, Fernández-García MT, Salazar N, Nogacka AM, Garatachea N, Bossut N, Aprahamian F, Lucia A, Kroemer G, Freije JMP, Quirós PM, López-Otín C.",
+"doi": "10.1038/s41591-019-0504-5",
+"iso": "Nat Med",
+"jahr": "2019",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Animals",
+"Mice, Inbred C57BL",
+"Humans",
+"Mice",
+"Progeria",
+"Disease Models, Animal",
+"Longevity",
+"Female",
+"Male",
+"Metabolomics",
+"Dysbiosis",
+"Gastrointestinal Microbiome",
+"Fecal Microbiota Transplantation"
+],
+"pmcid": "",
+"pmid": "31332389",
+"quelle": "MED",
+"titel": "Healthspan and lifespan extension by fecal microbiota transplantation into progeroid mice.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:31336819": {
 "autoren": "Synoradzki K, Grieb P.",
 "doi": "10.3390/nu11071569",
@@ -59859,6 +60520,38 @@
 "typen": [
 "Meta-Analysis",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:31514212": {
+"autoren": "Brix G, Nekolla EA, Griebel J.",
+"doi": "10.1055/a-0989-2621",
+"iso": "Rofo",
+"jahr": "2020",
+"journal": "RoFo : Fortschritte auf dem Gebiete der Rontgenstrahlen und der Nuklearmedizin",
+"korr": [],
+"mesh": [
+"Humans",
+"Breast Neoplasms",
+"Colonic Neoplasms",
+"Lung Neoplasms",
+"Tomography, X-Ray Computed",
+"Mammography",
+"Early Diagnosis",
+"Risk Assessment",
+"Radiation Protection",
+"Germany",
+"Female",
+"Male",
+"Coronary Artery Disease",
+"Early Detection of Cancer",
+"Internet-Based Intervention"
+],
+"pmcid": "",
+"pmid": "31514212",
+"quelle": "MED",
+"titel": "Early Detection of Diseases by Radiological Imaging: New Legal Situation and Evaluation of Service Offers using CT Examinations as an Example.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -60487,6 +61180,38 @@
 "Journal Article"
 ]
 },
+"pmid:31665575": {
+"autoren": "DeFilipp Z, Bloom PP, Torres Soto M, Mansour MK, Sater MRA, Huntley MH, Turbett S, Chung RT, Chen YB, Hohmann EL.",
+"doi": "10.1056/nejmoa1910437",
+"iso": "N Engl J Med",
+"jahr": "2019",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Feces",
+"Humans",
+"Escherichia coli",
+"Bacteremia",
+"Hepatic Encephalopathy",
+"Myelodysplastic Syndromes",
+"beta-Lactamases",
+"Fatal Outcome",
+"Drug Resistance, Bacterial",
+"Aged",
+"Male",
+"Dysbiosis",
+"Fecal Microbiota Transplantation"
+],
+"pmcid": "",
+"pmid": "31665575",
+"quelle": "MED",
+"titel": "Drug-Resistant <i>E. coli</i> Bacteremia Transmitted by Fecal Microbiota Transplant.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article",
+"Case Reports"
+]
+},
 "pmid:31670973": {
 "autoren": "Lamiquiz-Moneo I, Giné-González J, Alisente S, Bea AM, Pérez-Calahorra S, Marco-Benedí V, Baila-Rueda L, Jarauta E, Cenarro A, Civeira F, Mateo-Gallego R.",
 "doi": "10.1080/10408398.2019.1677554",
@@ -60810,6 +61535,48 @@
 "Journal Article"
 ]
 },
+"pmid:31734198": {
+"autoren": "Grandhi GR, Mirbolouk M, Dardari ZA, Al-Mallah MH, Rumberger JA, Shaw LJ, Blankstein R, Miedema MD, Berman DS, Budoff MJ, Krumholz HM, Blaha MJ, Nasir K.",
+"doi": "10.1016/j.jcmg.2019.08.024",
+"iso": "JACC Cardiovasc Imaging",
+"jahr": "2020",
+"journal": "JACC. Cardiovascular imaging",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypertension",
+"Diabetes Mellitus",
+"Coronary Angiography",
+"Prognosis",
+"Prevalence",
+"Cause of Death",
+"Risk Assessment",
+"Retrospective Studies",
+"Predictive Value of Tests",
+"Smoking",
+"Time Factors",
+"Adult",
+"Aged",
+"Middle Aged",
+"United States",
+"Female",
+"Male",
+"Dyslipidemias",
+"Coronary Artery Disease",
+"Multidetector Computed Tomography",
+"Vascular Calcification",
+"Computed Tomography Angiography",
+"Heart Disease Risk Factors"
+],
+"pmcid": "",
+"pmid": "31734198",
+"quelle": "MED",
+"titel": "Interplay of Coronary Artery Calcium and Risk Factors for Predicting CVD/CHD Mortality: The CAC Consortium.",
+"typen": [
+"Multicenter Study",
+"Journal Article"
+]
+},
 "pmid:31763928": {
 "autoren": "Fogacci F, Tocci G, Sahebkar A, Presta V, Banach M, Cicero AFG.",
 "doi": "10.1177/0003319719889428",
@@ -61104,6 +61871,36 @@
 "titel": "Integrative and lifestyle medicine strategies should include Earthing (grounding): Review of research evidence and clinical observations.",
 "typen": [
 "Review",
+"Journal Article"
+]
+},
+"pmid:31838551": {
+"autoren": "Merlijn T, Swart KMA, van der Horst HE, Netelenbos JC, Elders PJM.",
+"doi": "10.1007/s00198-019-05226-w",
+"iso": "Osteoporos Int",
+"jahr": "2020",
+"journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoporosis",
+"Hip Fractures",
+"Mass Screening",
+"Proportional Hazards Models",
+"Risk Assessment",
+"Aged",
+"Aged, 80 and over",
+"Female",
+"Osteoporotic Fractures"
+],
+"pmcid": "PMC7010619",
+"pmid": "31838551",
+"quelle": "MED",
+"titel": "Fracture prevention by screening for high fracture risk: a systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
 "Journal Article"
 ]
 },
@@ -61428,6 +62225,38 @@
 "titel": "FOXO4-DRI alleviates age-related testosterone secretion insufficiency by targeting senescent Leydig cells in aged mice.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
+"pmid:31972620": {
+"autoren": "Ekekezie C, Perler BK, Wexler A, Duff C, Lillis CJ, Kelly CR.",
+"doi": "10.14309/ajg.0000000000000499",
+"iso": "Am J Gastroenterol",
+"jahr": "2020",
+"journal": "The American journal of gastroenterology",
+"korr": [],
+"mesh": [
+"Feces",
+"Humans",
+"Clostridium Infections",
+"Self Care",
+"Cross-Sectional Studies",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Social Media",
+"Surveys and Questionnaires",
+"Gastrointestinal Microbiome",
+"Fecal Microbiota Transplantation",
+"Clostridioides difficile"
+],
+"pmcid": "PMC7359198",
+"pmid": "31972620",
+"quelle": "MED",
+"titel": "Understanding the Scope of Do-It-Yourself Fecal Microbiota Transplant.",
+"typen": [
 "research-article",
 "Journal Article"
 ]
@@ -63358,6 +64187,45 @@
 "research-article",
 "Research Support, U.S. Gov't, Non-P.H.S.",
 "Journal Article"
+]
+},
+"pmid:32633824": {
+"autoren": "Cawthon PM, Manini T, Patel SM, Newman A, Travison T, Kiel DP, Santanasto AJ, Ensrud KE, Xue QL, Shardell M, Duchowny K, Erlandson KM, Pencina KM, Fielding RA, Magaziner J, Kwok T, Karlsson M, Ohlsson C, Mellström D, Hirani V, Ribom E, Correa-de-Araujo R, Bhasin S.",
+"doi": "10.1111/jgs.16517",
+"iso": "J Am Geriatr Soc",
+"jahr": "2020",
+"journal": "Journal of the American Geriatrics Society",
+"korr": [],
+"mesh": [
+"Humans",
+"Muscle Weakness",
+"Hip Fractures",
+"Absorptiometry, Photon",
+"Body Mass Index",
+"Hand Strength",
+"Prospective Studies",
+"Consensus",
+"Accidental Falls",
+"Body Composition",
+"Aged",
+"Female",
+"Male",
+"Mobility Limitation",
+"Muscle Strength",
+"Sarcopenia",
+"Independent Living",
+"Walking Speed"
+],
+"pmcid": "PMC7508260",
+"pmid": "32633824",
+"quelle": "MED",
+"titel": "Putative Cut-Points in Sarcopenia Components and Incident Adverse Health Outcomes: An SDOC Analysis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural",
+"Observational Study"
 ]
 },
 "pmid:32637435": {
@@ -67561,6 +68429,32 @@
 "Journal Article"
 ]
 },
+"pmid:34330484": {
+"autoren": "Henriksen HB, Alavi DH, Blomhoff R.",
+"doi": "10.1016/j.clnesp.2021.05.025",
+"iso": "Clin Nutr ESPEN",
+"jahr": "2021",
+"journal": "Clinical nutrition ESPEN",
+"korr": [],
+"mesh": [
+"Humans",
+"Colorectal Neoplasms",
+"Absorptiometry, Photon",
+"Reproducibility of Results",
+"Body Composition",
+"Female",
+"Male",
+"Healthy Volunteers"
+],
+"pmcid": "",
+"pmid": "34330484",
+"quelle": "MED",
+"titel": "Precision of Lunar Dual-energy X-ray Absorptiometry (iDXA) in measuring body composition among colorectal cancer patients and healthy subjects.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:34346165": {
 "autoren": "Wang X, Liu L, Qi L, Lei C, Li P, Wang Y, Liu C, Bai H, Han C, Sun Y, Liu J.",
 "doi": "10.1111/jcmm.16693",
@@ -67879,6 +68773,28 @@
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:34458905": {
+"autoren": "Visseren FLJ, Mach F, Smulders YM, Carballo D, Koskinas KC, Bäck M, Benetos A, Biffi A, Boavida JM, Capodanno D, Cosyns B, Crawford C, Davos CH, Desormais I, Di Angelantonio E, Franco OH, Halvorsen S, Hobbs FDR, Hollander M, Jankowska EA, Michal M, Sacco S, Sattar N, Tokgozoglu L, Tonstad S, Tsioufis KP, van Dis I, van Gelder IC, Wanner C, Williams B, ESC National Cardiac Societies, ESC Scientific Document Group.",
+"doi": "10.1093/eurheartj/ehab484",
+"iso": "Eur Heart J",
+"jahr": "2021",
+"journal": "European heart journal",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Risk Assessment",
+"Risk Factors",
+"Primary Prevention"
+],
+"pmcid": "",
+"pmid": "34458905",
+"quelle": "MED",
+"titel": "2021 ESC Guidelines on cardiovascular disease prevention in clinical practice.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -68454,6 +69370,35 @@
 "titel": "Low plasma ergothioneine levels are associated with neurodegeneration and cerebrovascular disease in dementia.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:34678515": {
+"autoren": "van Prehn J, Reigadas E, Vogelzang EH, Bouza E, Hristea A, Guery B, Krutova M, Norén T, Allerberger F, Coia JE, Goorhuis A, van Rossen TM, Ooijevaar RE, Burns K, Scharvik Olesen BR, Tschudin-Sutter S, Wilcox MH, Vehreschild MJGT, Fitzpatrick F, Kuijper EJ, Guideline Committee of the European Study Group on Clostridioides difficile.",
+"doi": "10.1016/j.cmi.2021.09.038",
+"iso": "Clin Microbiol Infect",
+"jahr": "2021",
+"journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+"korr": [],
+"mesh": [
+"Humans",
+"Clostridium Infections",
+"Recurrence",
+"Vancomycin",
+"Antibodies, Monoclonal",
+"Anti-Bacterial Agents",
+"Adult",
+"Societies, Medical",
+"Practice Guidelines as Topic",
+"Fidaxomicin",
+"Broadly Neutralizing Antibodies",
+"Clostridioides difficile"
+],
+"pmcid": "",
+"pmid": "34678515",
+"quelle": "MED",
+"titel": "European Society of Clinical Microbiology and Infectious Diseases: 2021 update on the treatment guidance document for Clostridioides difficile infection in adults.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -69378,6 +70323,32 @@
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:35072942": {
+"autoren": "Molina-Garcia P, Notbohm HL, Schumann M, Argent R, Hetherington-Rauth M, Stang J, Bloch W, Cheng S, Ekelund U, Sardinha LB, Caulfield B, Brønd JC, Grøntved A, Ortega FB.",
+"doi": "10.1007/s40279-021-01639-y",
+"iso": "Sports Med",
+"jahr": "2022",
+"journal": "Sports medicine (Auckland, N.Z.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise Test",
+"Exercise",
+"Oxygen Consumption",
+"Sports",
+"Wearable Electronic Devices"
+],
+"pmcid": "PMC9213394",
+"pmid": "35072942",
+"quelle": "MED",
+"titel": "Validity of Estimating the Maximal Oxygen Consumption by Consumer Wearables: A Systematic Review with Meta-analysis and Expert Statement of the INTERLIVE Network.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
 "Journal Article"
 ]
 },
@@ -71157,6 +72128,35 @@
 "Journal Article"
 ]
 },
+"pmid:35926933": {
+"autoren": "Kokkinos P, Faselis C, Samuel IBH, Pittaras A, Doumas M, Murphy R, Heimall MS, Sui X, Zhang J, Myers J.",
+"doi": "10.1016/j.jacc.2022.05.031",
+"iso": "J Am Coll Cardiol",
+"jahr": "2022",
+"journal": "Journal of the American College of Cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise Test",
+"Exercise",
+"Proportional Hazards Models",
+"Risk Factors",
+"Physical Fitness",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Cardiorespiratory Fitness"
+],
+"pmcid": "",
+"pmid": "35926933",
+"quelle": "MED",
+"titel": "Cardiorespiratory Fitness and Mortality Risk Across the Spectra of Age, Race, and Sex.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:35939577": {
 "autoren": "LeBoff MS, Chou SH, Ratliff KA, Cook NR, Khurana B, Kim E, Cawthon PM, Bauer DC, Black D, Gallagher JC, Lee IM, Buring JE, Manson JE.",
 "doi": "10.1056/nejmoa2202106",
@@ -71471,6 +72471,23 @@
 "Journal Article"
 ]
 },
+"pmid:36013282": {
+"autoren": "Fu JC, Wang NK, Cheng YY, Chang ST.",
+"doi": "10.3390/jpm12081333",
+"iso": "J Pers Med",
+"jahr": "2022",
+"journal": "Journal of personalized medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC9410510",
+"pmid": "36013282",
+"quelle": "MED",
+"titel": "The Adjuvant Therapy of Intravenous Laser Irradiation of Blood (ILIB) on Pain and Sleep Disturbance of Musculoskeletal Disorders.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:36013514": {
 "autoren": "Leisegang K, Finelli R, Sikka SC, Panner Selvam MK.",
 "doi": "10.3390/medicina58081047",
@@ -71494,6 +72511,36 @@
 "typen": [
 "Systematic Review",
 "review-article",
+"Journal Article"
+]
+},
+"pmid:36027560": {
+"autoren": "Lindholt JS, Søgaard R, Rasmussen LM, Mejldal A, Lambrechtsen J, Steffensen FH, Frost L, Egstrup K, Urbonaviciene G, Busk M, Diederichsen ACP.",
+"doi": "10.1056/nejmoa2208681",
+"iso": "N Engl J Med",
+"jahr": "2022",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Calcium",
+"Mass Screening",
+"Incidence",
+"Aged",
+"Denmark",
+"Male",
+"Cardiac-Gated Imaging Techniques",
+"Peripheral Arterial Disease"
+],
+"pmcid": "",
+"pmid": "36027560",
+"quelle": "MED",
+"titel": "Five-Year Outcomes of the Danish Cardiovascular Screening (DANCAVAS) Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -73433,6 +74480,34 @@
 "Journal Article"
 ]
 },
+"pmid:36802439": {
+"autoren": "Faul JD, Kim JK, Levine ME, Thyagarajan B, Weir DR, Crimmins EM.",
+"doi": "10.1073/pnas.2215840120",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "2023",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Humans",
+"Cross-Sectional Studies",
+"DNA Methylation",
+"Epigenesis, Genetic",
+"Aging",
+"Acceleration",
+"Aged",
+"Biomarkers"
+],
+"pmcid": "PMC9992763",
+"pmid": "36802439",
+"quelle": "MED",
+"titel": "Epigenetic-based age acceleration in a representative sample of older Americans: Associations with aging-related morbidity and mortality.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:36807425": {
 "autoren": "Tamakoshi M, Suzuki T, Nishihara E, Nakamura S, Ikemoto K.",
 "doi": "10.1039/d2fo01515c",
@@ -74118,6 +75193,38 @@
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:37096495": {
+"autoren": "Minkoff NZ, Aslam S, Medina M, Tanner-Smith EE, Zackular JP, Acra S, Nicholson MR, Imdad A.",
+"doi": "10.1002/14651858.cd013871.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2023",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Clostridium Infections",
+"Recurrence",
+"Anti-Bacterial Agents",
+"Treatment Outcome",
+"Quality of Life",
+"Adult",
+"Child",
+"Dysbiosis",
+"Fecal Microbiota Transplantation",
+"Clostridioides difficile",
+"Clostridioides"
+],
+"pmcid": "PMC10125800",
+"pmid": "37096495",
+"quelle": "MED",
+"titel": "Fecal microbiota transplantation for the treatment of recurrent Clostridioides difficile (Clostridium difficile).",
+"typen": [
+"Systematic Review",
+"systematic-review",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:3709807": {
@@ -75265,6 +76372,33 @@
 "titel": "YK11 induces oxidative stress and mitochondrial dysfunction in hippocampus: The interplay between a selective androgen receptor modulator (SARM) and exercise.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:37471410": {
+"autoren": "Qiu B, Liang J, Li C.",
+"doi": "10.1371/journal.pone.0288718",
+"iso": "PLoS One",
+"jahr": "2023",
+"journal": "PloS one",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Obesity",
+"Cholesterol, HDL",
+"Randomized Controlled Trials as Topic",
+"Fecal Microbiota Transplantation",
+"Metabolic Syndrome",
+"Glycated Hemoglobin"
+],
+"pmcid": "PMC10358997",
+"pmid": "37471410",
+"quelle": "MED",
+"titel": "Effects of fecal microbiota transplantation in metabolic syndrome: A meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"research-article",
 "Journal Article"
 ]
 },
@@ -80044,6 +81178,23 @@
 "Journal Article"
 ]
 },
+"pmid:39421139": {
+"autoren": "Moldovanu D, de Koning HJ, Vonder M, Gratama JWC, Adriaansen HJ, Roeters van Lennep JE, Vliegenthart R, van der Harst P, Braam RL, van Dijkman PRM, Oudkerk M, van der Aalst CM.",
+"doi": "10.1093/ehjopen/oeae080",
+"iso": "Eur Heart J Open",
+"jahr": "2024",
+"journal": "European heart journal open",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11483572",
+"pmid": "39421139",
+"quelle": "MED",
+"titel": "Short-term impact of cardiovascular screening by traditional risk assessment or coronary artery calcium score on health-related quality of life: the ROBINSCA trial.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:39424254": {
 "autoren": "Chikasue A, Taguchi K, Iwatani R, Kimura K, Okuda S, Uesugi N, Fukami K.",
 "doi": "10.1053/j.ajkd.2024.08.007",
@@ -81143,6 +82294,41 @@
 "titel": "Effects of Oral Ingestion of L-Ornithine on Mental Stress and Fatigue Based on the Trier Social Stress Test in Healthy Humans: A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Trial.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:39769371": {
+"autoren": "Su YC, Shen YP, Chang CY, Pan KT, Huang SM, Chen LC.",
+"doi": "10.3390/ijms252413608",
+"iso": "Int J Mol Sci",
+"jahr": "2024",
+"journal": "International journal of molecular sciences",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis, Knee",
+"Epidermal Growth Factor",
+"Interleukin-6",
+"Interleukin-13",
+"Pain Measurement",
+"Treatment Outcome",
+"Double-Blind Method",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Interleukin-1beta",
+"Laser Therapy",
+"Chemokine CCL11",
+"Biomarkers"
+],
+"pmcid": "PMC11677140",
+"pmid": "39769371",
+"quelle": "MED",
+"titel": "The Effect of Intravascular Laser Irradiation of Blood on Serum Biomarkers and Clinical Outcome in Knee Osteoarthritis Patients: A Double-Blind Randomized Control Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -82730,6 +83916,41 @@
 "Letter"
 ]
 },
+"pmid:40270051": {
+"autoren": "Zarandooz S, Raffington L.",
+"doi": "10.1186/s13148-025-01868-2",
+"iso": "Clin Epigenetics",
+"jahr": "2025",
+"journal": "Clinical epigenetics",
+"korr": [],
+"mesh": [
+"Saliva",
+"Humans",
+"Cognition",
+"DNA Methylation",
+"Epigenesis, Genetic",
+"Aging",
+"Algorithms",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Child",
+"Child, Preschool",
+"Female",
+"Male",
+"Young Adult",
+"Epigenomics"
+],
+"pmcid": "PMC12016411",
+"pmid": "40270051",
+"quelle": "MED",
+"titel": "Applying blood-derived epigenetic algorithms to saliva: cross-tissue similarity of DNA-methylation indices of aging, physiology, and cognition.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:40270441": {
 "autoren": "Yu CL, Cheng MY, An X, Chueh TY, Wu JH, Wang KP, Hung TM.",
 "doi": "10.1111/sms.70055",
@@ -83015,6 +84236,31 @@
 "typen": [
 "Meta-Analysis",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:40324571": {
+"autoren": "Díaz L, Gil AC, Marttens AV, Basualdo J, Sotomayor C, Becerra AV, Beltrán V, Jorquera G, Caviedes R, Fernández E.",
+"doi": "10.1016/j.pdpdt.2025.104618",
+"iso": "Photodiagnosis Photodyn Ther",
+"jahr": "2025",
+"journal": "Photodiagnosis and photodynamic therapy",
+"korr": [],
+"mesh": [
+"Blood",
+"Humans",
+"Inflammation",
+"Oxidative Stress",
+"Quality of Life",
+"Randomized Controlled Trials as Topic",
+"Low-Level Light Therapy"
+],
+"pmcid": "",
+"pmid": "40324571",
+"quelle": "MED",
+"titel": "The clinical efficacy of intravascular laser irradiation of blood (ILIB): A narrative review of randomized controlled trial.",
+"typen": [
+"Review",
 "Journal Article"
 ]
 },
@@ -83715,6 +84961,40 @@
 "Journal Article"
 ]
 },
+"pmid:40542236": {
+"autoren": "Foppiani JA, Fanning JE, Beltran K, Raska O, Hernandez Alvarez A, Taritsa I, Kim E, Escobar MJ, Lee D, Choudry U, Lin SJ, Otakar Raska.",
+"doi": "10.1007/s00266-025-04972-z",
+"iso": "Aesthetic Plast Surg",
+"jahr": "2025",
+"journal": "Aesthetic plastic surgery",
+"korr": [],
+"mesh": [
+"Face",
+"Humans",
+"Treatment Outcome",
+"Rejuvenation",
+"Cosmetic Techniques",
+"Needles",
+"Esthetics",
+"Skin Aging",
+"Adult",
+"Middle Aged",
+"Patient Satisfaction",
+"Female",
+"Male",
+"Patient Reported Outcome Measures",
+"Percutaneous Collagen Induction"
+],
+"pmcid": "",
+"pmid": "40542236",
+"quelle": "MED",
+"titel": "Microneedling for Facial Rejuvenation: A Systematic Review.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:40543759": {
 "autoren": "Toledo RG, Winkelman WD, Reyes-Gonzalez D, Bergeron S, Fladger A, Hacker MR, Anand M.",
 "doi": "10.1016/j.jmig.2025.06.004",
@@ -84051,6 +85331,37 @@
 "correction"
 ]
 },
+"pmid:40570398": {
+"autoren": "Zhu K, Hunter M, Bharat C, Murray K, Hui J, Walsh JP, Hung J.",
+"doi": "10.1016/j.jocd.2025.101599",
+"iso": "J Clin Densitom",
+"jahr": "2025",
+"journal": "Journal of clinical densitometry : the official journal of the International Society for Clinical Densitometry",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Coronary Disease",
+"Absorptiometry, Photon",
+"Incidence",
+"Proportional Hazards Models",
+"Risk Factors",
+"Longitudinal Studies",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Intra-Abdominal Fat",
+"Healthy Aging"
+],
+"pmcid": "",
+"pmid": "40570398",
+"quelle": "MED",
+"titel": "DXA-Measured Visceral Adipose Tissue and Incident Cardiovascular Disease Events in Middle-Aged Adults: Busselton Healthy Ageing Study.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:40577594": {
 "autoren": "Fijany AJ, Boctor MJ, Humphrey JG, Montorfano L, Karagoz H, Gupta SC.",
 "doi": "10.1093/asj/sjaf129",
@@ -84253,6 +85564,39 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:40617605": {
+"autoren": "Scheu V, Alwan L, Gräni C, Gencer B, Rodondi N, Blum MR.",
+"doi": "10.1136/bmjopen-2025-101472",
+"iso": "BMJ Open",
+"jahr": "2025",
+"journal": "BMJ open",
+"korr": [],
+"mesh": [
+"Coronary Vessels",
+"Humans",
+"Cardiovascular Diseases",
+"Calcium",
+"Mass Screening",
+"Prospective Studies",
+"Primary Prevention",
+"Adult",
+"Middle Aged",
+"Female",
+"Coronary Artery Disease",
+"Randomized Controlled Trials as Topic",
+"Vascular Calcification",
+"Heart Disease Risk Factors"
+],
+"pmcid": "PMC12228433",
+"pmid": "40617605",
+"quelle": "MED",
+"titel": "Coronary atherosclerosis screening in asymptomatic adults using coronary artery calcium for cardiovascular prevention: a systematic review of randomised controlled trials and prospective cohorts.",
+"typen": [
+"research-article",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -86375,6 +87719,31 @@
 "Journal Article"
 ]
 },
+"pmid:41065846": {
+"autoren": "Chang CC, Li YH, Chen HH, Sun SF.",
+"doi": "10.1007/s10103-025-04668-5",
+"iso": "Lasers Med Sci",
+"jahr": "2025",
+"journal": "Lasers in medical science",
+"korr": [],
+"mesh": [
+"Blood",
+"Humans",
+"Musculoskeletal Diseases",
+"Nervous System Diseases",
+"Cardiovascular Diseases",
+"Low-Level Light Therapy",
+"COVID-19"
+],
+"pmcid": "",
+"pmid": "41065846",
+"quelle": "MED",
+"titel": "Clinical applications and molecular mechanisms for intravenous laser blood irradiation: a systematic review.",
+"typen": [
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:41066380": {
 "autoren": "Hohl A, Chavez MP, Pasqualotto E, Ferreira ROM, Sande-Lee SV, Ronsoni MF.",
 "doi": "10.20945/2359-4292-2025-0093",
@@ -87330,6 +88699,32 @@
 "Journal Article"
 ]
 },
+"pmid:41403206": {
+"autoren": "Apsley AT, Etzel L, Ye Q, Shalev I.",
+"doi": "10.1080/17501911.2025.2603880",
+"iso": "Epigenomics",
+"jahr": "2025",
+"journal": "Epigenomics",
+"korr": [],
+"mesh": [
+"Humans",
+"DNA Methylation",
+"Epigenesis, Genetic",
+"Aging",
+"Epigenomics",
+"Biomarkers",
+"Machine Learning"
+],
+"pmcid": "PMC12714307",
+"pmid": "41403206",
+"quelle": "MED",
+"titel": "From population science to the clinic? Limits of epigenetic clocks as personal biomarkers.",
+"typen": [
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:41406444": {
 "autoren": "Nicholls SJ, Pavo I, Bhatt DL, Buse JB, Del Prato S, Kahn SE, Lincoff AM, McGuire DK, Miller D, Nauck MA, Nishiyama H, Nissen SE, Sattar N, Weerakkody G, Wiese RJ, Zinman B, Zoungas S, Basile J, Davies MJ, Giorgino F, Kellerer M, Ji L, Varkonyi T, Menon V, Broder JC, Herschtal A, D'Alessio D, SURPASS-CVOT Investigators.",
 "doi": "10.1056/nejmoa2505928",
@@ -87560,6 +88955,24 @@
 "research-article",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:41426292": {
+"autoren": "Kumar N, Hye Suh D, Lee SJ, Ryu HJ.",
+"doi": "10.1093/asjof/ojaf159",
+"iso": "Aesthet Surg J Open Forum",
+"jahr": "2025",
+"journal": "Aesthetic surgery journal. Open forum",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12715571",
+"pmid": "41426292",
+"quelle": "MED",
+"titel": "Radiofrequency-Based Treatments for Facial Rejuvenation: A Systematic Review of Efficacy, Safety, and Patient-Centered Outcomes.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -89949,6 +91362,36 @@
 "Journal Article"
 ]
 },
+"pmid:41947517": {
+"autoren": "Kumar N, Suh DH, Lee SJ, Kasif SA, Carruthers JDA.",
+"doi": "10.1111/jocd.70845",
+"iso": "J Cosmet Dermatol",
+"jahr": "2026",
+"journal": "Journal of cosmetic dermatology",
+"korr": [],
+"mesh": [
+"Face",
+"Humans",
+"Treatment Outcome",
+"Rejuvenation",
+"Cosmetic Techniques",
+"Needles",
+"Esthetics",
+"Skin Aging",
+"Patient Satisfaction",
+"Radiofrequency Therapy",
+"Percutaneous Collagen Induction"
+],
+"pmcid": "PMC13058395",
+"pmid": "41947517",
+"quelle": "MED",
+"titel": "Radiofrequency Microneedling for Facial Rejuvenation: A Systematic Review.",
+"typen": [
+"Systematic Review",
+"review-article",
+"Journal Article"
+]
+},
 "pmid:41953254": {
 "autoren": "Eldib M, Hatipoglu B, Beidelschies M, Alejandro-Rodriguez M, Xiao H, Rothberg M, Hyman M, Zhou K.",
 "doi": "10.1016/j.jcte.2026.100437",
@@ -90156,6 +91599,37 @@
 "Journal Article"
 ]
 },
+"pmid:41985071": {
+"autoren": "Bruellman R, Evans D, Smolen A, Evans LM, Reynolds CA.",
+"doi": "10.1080/15592294.2026.2653960",
+"iso": "Epigenetics",
+"jahr": "2026",
+"journal": "Epigenetics",
+"korr": [],
+"mesh": [
+"Leukocytes, Mononuclear",
+"Saliva",
+"Humans",
+"DNA Methylation",
+"Epigenesis, Genetic",
+"Aging",
+"Twins, Dizygotic",
+"Twins, Monozygotic",
+"Adult",
+"Female",
+"Male",
+"Blood Buffy Coat"
+],
+"pmcid": "PMC13085942",
+"pmid": "41985071",
+"quelle": "MED",
+"titel": "Differential DNA methylation clock ages across buffy coat (BC), peripheral blood mononuclear cells (PBMC), and saliva in individuals in early-to-mid adulthood.",
+"typen": [
+"Twin Study",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:41985884": {
 "autoren": "Stanfield B, Leroux B, Kaeberlein M, Jones J, Lucas R.",
 "doi": "10.1002/jcsm.70274",
@@ -90282,6 +91756,23 @@
 "Systematic Review",
 "Journal Article",
 "English Abstract"
+]
+},
+"pmid:42029636": {
+"autoren": "Yang NY, Huang Y, Park C, Ke TM, Tilston G, Manias G, Kyriazis D, Young J, Hart S, Fulford G, Lophatananon A, Muir KR.",
+"doi": "10.3390/epigenomes10020022",
+"iso": "Epigenomes",
+"jahr": "2026",
+"journal": "Epigenomes",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13108038",
+"pmid": "42029636",
+"quelle": "MED",
+"titel": "Epigenetic Age Feedback as a Catalyst for Sustained Lifestyle Change: One-Year Results from the EU iHelp Study.",
+"typen": [
+"research-article",
+"Journal Article"
 ]
 },
 "pmid:42032259": {
@@ -90497,6 +91988,23 @@
 "Meta-Analysis",
 "Systematic Review",
 "review-article",
+"Journal Article"
+]
+},
+"pmid:42094313": {
+"autoren": "Lambe R, Schumann M, Donnelly L, Hamilton S, Lally S, Rafter E, O'Reilly S, White T, Doherty C.",
+"doi": "10.1016/j.mcpdig.2026.100357",
+"iso": "Mayo Clin Proc Digit Health",
+"jahr": "2026",
+"journal": "Mayo Clinic proceedings. Digital health",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13141568",
+"pmid": "42094313",
+"quelle": "MED",
+"titel": "Accuracy of VO&lt;sub&gt;2&lt;/sub&gt; max Estimates From Apple Watch Series 10.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -92772,6 +94280,22 @@
 "Journal Article"
 ]
 },
+"pmid:42566001": {
+"autoren": "Drysch A, Abbott A, Barnum T, Wahidi M, Hart EM, Allen BD, Kim SS, Schraufnagel DP, Lung KC, Bharat A.",
+"doi": "10.1097/xcs.0000000000002116",
+"iso": "J Am Coll Surg",
+"jahr": "2026",
+"journal": "Journal of the American College of Surgeons",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42566001",
+"quelle": "MED",
+"titel": "Coronary Calcium Screening and Incidental Lung Cancer Detection in Patients Ineligible for US Preventive Services Task Force Screening.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42576206": {
 "autoren": "Weinrich L, Tischer T, Schlesiger L, Pachowsky ML, Hoos L.",
 "doi": "10.1186/s12891-026-10254-9",
@@ -94581,6 +96105,72 @@
 "Journal Article"
 ]
 },
+"pmid:6475110": {
+"autoren": "von Ardenne M.",
+"doi": "",
+"iso": "Z Alternsforsch",
+"jahr": "1984",
+"journal": "Zeitschrift fur Alternsforschung",
+"korr": [],
+"mesh": [
+"Humans",
+"Oxygen",
+"Oxygen Inhalation Therapy",
+"Diffusion",
+"Biological Transport",
+"Energy Metabolism",
+"Oxygen Consumption",
+"Aging",
+"Partial Pressure",
+"Time Factors",
+"Adult",
+"Aged",
+"Middle Aged",
+"Physical Exertion"
+],
+"pmcid": "",
+"pmid": "6475110",
+"quelle": "MED",
+"titel": "[Age-dependence of oxygen transport into body tissues and the favorable modification of this transport by multistep oxygen therapy].",
+"typen": [
+"Journal Article",
+"English Abstract"
+]
+},
+"pmid:6711017": {
+"autoren": "von Ardenne M, Klemm W, Klinger J.",
+"doi": "",
+"iso": "Z Alternsforsch",
+"jahr": "1984",
+"journal": "Zeitschrift fur Alternsforschung",
+"korr": [],
+"mesh": [
+"Lung",
+"Microcirculation",
+"Humans",
+"Oxygen",
+"Exercise Test",
+"Pulse",
+"Oxygen Inhalation Therapy",
+"Double-Blind Method",
+"Oxygen Consumption",
+"Heart Rate",
+"Physical Endurance",
+"Partial Pressure",
+"Adult",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "6711017",
+"quelle": "MED",
+"titel": "[Double-blind study on the long-lasting improvement of physical endurance following oxygen-multistep-therapy].",
+"typen": [
+"Journal Article",
+"English Abstract"
+]
+},
 "pmid:6714155": {
 "autoren": "Bowers CY, Momany FA, Reynolds GA, Hong A.",
 "doi": "10.1210/endo-114-5-1537",
@@ -94959,6 +96549,31 @@
 "English Abstract"
 ]
 },
+"pmid:7222733": {
+"autoren": "Lippmann HG, von Ardenne M, Wiemuth HH.",
+"doi": "",
+"iso": "Z Alternsforsch",
+"jahr": "1980",
+"journal": "Zeitschrift fur Alternsforschung",
+"korr": [],
+"mesh": [
+"Humans",
+"Oxygen",
+"Oxygen Inhalation Therapy",
+"Aged",
+"Middle Aged",
+"Hemodynamics",
+"Hypoxia"
+],
+"pmcid": "",
+"pmid": "7222733",
+"quelle": "MED",
+"titel": "[Preliminary results of a pilot study on the optimisation and clinical examination of the \"oxygen-multistep-therapy (O2Mt)\" (author's transl)].",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:7228494": {
 "autoren": "Li CH, Chung D.",
 "doi": "10.1111/j.1399-3011.1981.tb01976.x",
@@ -95042,6 +96657,42 @@
 "Research Support, U.S. Gov't, P.H.S.",
 "research-article",
 "Journal Article"
+]
+},
+"pmid:7374618": {
+"autoren": "Nolte D, Häusl B.",
+"doi": "",
+"iso": "Med Klin",
+"jahr": "1980",
+"journal": "Medizinische Klinik",
+"korr": [],
+"mesh": [
+"Humans",
+"Lung Diseases",
+"Oxygen",
+"Isosorbide Dinitrate",
+"Ascorbic Acid",
+"Orotic Acid",
+"Dipyridamole",
+"Ouabain",
+"Thiamine",
+"Oxygen Inhalation Therapy",
+"Sleep",
+"Partial Pressure",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "7374618",
+"quelle": "MED",
+"titel": "[Effectiveness of \"oxygen-multistep-therapy\"].",
+"typen": [
+"Controlled Clinical Trial",
+"Clinical Trial",
+"Journal Article",
+"English Abstract"
 ]
 },
 "pmid:7398983": {
@@ -96570,6 +98221,40 @@
 "titel": "Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance.",
 "typen": [
 "Clinical Trial",
+"research-article",
+"Journal Article"
+]
+},
+"pmid:8634613": {
+"autoren": "Marshall D, Johnell O, Wedel H.",
+"doi": "10.1136/bmj.312.7041.1254",
+"iso": "BMJ",
+"jahr": "1996",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoporosis, Postmenopausal",
+"Hip Fractures",
+"Risk Factors",
+"Sensitivity and Specificity",
+"Cohort Studies",
+"Follow-Up Studies",
+"Prospective Studies",
+"Predictive Value of Tests",
+"Bone Density",
+"Forecasting",
+"Aged",
+"Female",
+"Fractures, Bone"
+],
+"pmcid": "PMC2351094",
+"pmid": "8634613",
+"quelle": "MED",
+"titel": "Meta-analysis of how well measures of bone mineral density predict occurrence of osteoporotic fractures.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
 "research-article",
 "Journal Article"
 ]
@@ -98383,6 +100068,31 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Journal Article"
+]
+},
+"pmid:9816992": {
+"autoren": "Lutz J.",
+"doi": "",
+"iso": "Versicherungsmedizin",
+"jahr": "1998",
+"journal": "Versicherungsmedizin",
+"korr": [],
+"mesh": [
+"Humans",
+"Oxygen",
+"Treatment Outcome",
+"Complementary Therapies",
+"Oxygen Inhalation Therapy",
+"Hyperbaric Oxygenation"
+],
+"pmcid": "",
+"pmid": "9816992",
+"quelle": "MED",
+"titel": "[Oxygen treatment methods--a critical analysis of established and controversial procedures (II)].",
+"typen": [
+"Review",
+"Journal Article",
+"English Abstract"
 ]
 },
 "pmid:9820262": {

@@ -1181,6 +1181,139 @@ const THERAPIES = [
       indication: ['Prävention', 'Vorsorge', 'Screening'],
       note: 'Keine randomisierte Studie zu Sterblichkeit oder Krankheitslast; das American College of Radiology empfiehlt die Untersuchung für Menschen ohne Beschwerden, Risikofaktoren oder familiäre Belastung nicht. Ein unauffälliger Befund ist keine Entwarnung für Jahre, Langzeitdaten zu übersehenen Befunden fehlen. Selbstzahlerleistung; vorher klären, wer befundet und wer unklare Befunde abklärt. Ganzkörper-CT als Vorsorge ist nach § 84 StrlSchG nicht zulässig.',
       link: 'https://pubmed.ncbi.nlm.nih.gov/40884613/'
+  },
+  {
+      id: 'koronarkalk-score',
+      name: 'Koronarkalk-Score (CAC-Scan)',
+      category: 'Biohacking',
+      emoji: '🫀',
+      short: 'Herz-CT ohne Kontrastmittel, das den Kalk in den Herzkranzgefäßen als Agatston-Score misst. Als Risikomarker ist der Wert in großen Kohorten sehr gut belegt; ob ein Kalk-Screening Menschen ohne Beschwerden länger leben lässt, ist nicht gezeigt.',
+      benefits: [
+        'Starker, abgestufter Risikomarker: In MESA (6.814 Menschen, im Median 11,1 Jahre) lag das Zehn-Jahres-Risiko für Herzinfarkt und Schlaganfall bei Kalk 0 zwischen 1,3 und 5,6 Prozent, bei Werten über 300 zwischen 13,1 und 25,6 Prozent (Budoff 2018)',
+        'Ergänzt die klassischen Risikofaktoren: Im CAC Consortium (66.636 Menschen, 12,5 Jahre) starben Menschen ohne Risikofaktoren, aber mit einem Wert ab 400 häufiger als Menschen mit drei und mehr Risikofaktoren ohne Kalk (Grandhi 2020)',
+        'Leitliniengestützt, wenn die Entscheidung über eine Vorbeugung unsicher ist: ESC 2021 (Empfehlungsgrad IIb) und ACC/AHA 2019 (IIa) bei Risiko nahe der Behandlungsschwelle',
+        'Kurze Untersuchung ohne Kontrastmittel, mittlere Strahlendosis rund 1 Millisievert (3.442 MESA-Teilnehmende, Messenger 2016)',
+        'Der Befund motiviert: In randomisierten Studien etwas bessere Blutfette, in einer Studie ein günstigerer Blutdruck und mehr Motivation zur Lebensstiländerung (Übersicht Scheu 2025)'
+      ],
+      indication: ['Herz-Kreislauf-Risiko', 'Prävention', 'Vorsorge', 'Screening'],
+      note: 'Ob ein Kalk-Screening Leben verlängert, ist offen: In DANCAVAS (46.611 Männer zwischen 65 und 74, Kalk-Scan als Teil eines umfassenden Screenings) lag das Risikoverhältnis für Tod nach 5,6 Jahren bei 0,95 (95 % KI 0,90–1,00; p = 0,06). Ein Wert von null erfasst keine weichen, nicht verkalkten Plaques. Abklärungsbedürftige Lungenknoten als Zufallsbefund bei 11,7 Prozent in einer US-Kohorte. In Deutschland ist ein CT als Früherkennung allein auf Wunsch nach § 84 StrlSchG nicht zulässig, nötig ist eine ärztliche rechtfertigende Indikation; die gesetzlichen Kassen zahlen den Scan bei Menschen ohne Beschwerden nicht.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/29688297/'
+  },
+  {
+    id: 'dexa-scan',
+    name: 'DEXA-Scan (Körperzusammensetzung und Knochendichte)',
+    category: 'Biohacking',
+    emoji: '🦴',
+    short: 'Röntgenmessung mit zwei Energiestufen, die Knochen, Fett und fettfreies Gewebe getrennt erfasst. Für die Knochendichte etablierte Osteoporose-Diagnostik und bei Indikation Kassenleistung; als Longevity-Scan für Körperfett, Bauchfett und Muskelmasse sehr genau, aber mit weniger Vorhersagekraft als beworben.',
+    benefits: [
+      'Knochendichte sagt Brüche voraus: je Standardabweichung weniger Dichte 1,5-fach höheres Bruchrisiko, an der Hüfte für Hüftbrüche 2,6-fach (Meta-Analyse, 11 Kohorten, rund 90.000 Personenjahre, Marshall 1996)',
+      'Screening mit Knochendichtemessung senkte in 3 randomisierten Studien mit 42.009 Teilnehmenden Hüftbrüche um 20 Prozent (HR 0,80), die Gesamtsterblichkeit blieb unverändert (Merlijn 2020)',
+      'Sehr niedrige Strahlendosis: Ganzkörperscan 1 bis 10 Mikrosievert, konventionelle Röntgenaufnahmen 10 bis 2.500 (Strahlenschutzkommission 2015)',
+      'Viszerales Fett im DXA sagte in Busselton (4.866 Erwachsene, 7,9 Jahre) Herz-Kreislauf-Ereignisse voraus (HR je Standardabweichung 1,26 bei Männern, 1,30 bei Frauen), nach Abgleich mit BMI und Taillenumfang aber nicht mehr unabhängig',
+      'Genauer als die Körperfettwaage: Eine Mehrfrequenz-BIA lag beim Körperfett im Mittel 3,3 Prozentpunkte unter DXA, mit individuellen Abweichungen bis ±5,6 Punkte (Esco 2015)'
+    ],
+    indication: ['Knochendichte', 'Sarkopenie-Prävention', 'Vorsorge', 'Gewicht'],
+    note: 'Knochendichte ist Kassenleistung, wenn konkrete Befunde eine gezielte medikamentöse Behandlung erwarten lassen, sonst Selbstzahlerleistung (rund 30 bis 70 Euro). Jede Röntgenmessung braucht in Deutschland eine ärztliche rechtfertigende Indikation (§ 83 StrlSchG); eine reine Lifestyle-Messung der Körperzusammensetzung ohne medizinischen Anlass hat die Strahlenschutzkommission 2015 als nicht zulässig bewertet. DXA-Magermasse hing in 8 Kohorten nicht konsistent mit Stürzen, Brüchen oder Sterblichkeit zusammen, Griffkraft und Gehtempo schon.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/31838551/'
+  },
+  {
+      id: 'epigenetische-uhr',
+      name: 'Epigenetischer Alterstest (biologisches Alter)',
+      category: 'Biohacking',
+      emoji: '⏳',
+      short: 'Speichel- oder Bluttest, der aus der DNA-Methylierung ein biologisches Alter oder ein Alterungstempo berechnet. Neuere Uhren sagen in großen Studien Krankheit und Sterblichkeit vorher; für die Einzelperson ist der Wert unscharf, und dass Entscheidungen auf dieser Grundlage die Gesundheit verbessern, ist nicht untersucht.',
+      benefits: [
+        'Neuere Uhren (PhenoAge, GrimAge, DunedinPACE) sagten in einer repräsentativen Stichprobe von 3.581 älteren US-Amerikanern Einschränkungen, chronische Krankheiten und die Sterblichkeit über 4 Jahre vorher (Faul 2023)',
+        'Reagiert auf Lebensstil: 2 Jahre Kalorienrestriktion verlangsamten das mit DunedinPACE gemessene Alterungstempo um 2 bis 3 Prozent (CALERIE, 220 Erwachsene, randomisiert)',
+        'Rechenverfahren auf Basis von Hauptkomponenten senken das technische Messrauschen: die meisten Wiederholungen lagen innerhalb von 1,5 Jahren statt bis zu 9 Jahren auseinander (Higgins-Chen 2022)',
+        'Nach einem Jahr berichteten in einer Befragung 72,5 Prozent, sich gesünder zu fühlen, 60,4 Prozent bewegten sich mehr – Selbstauskunft ohne Kontrollgruppe (iHelp, 91 von 178 Teilnehmenden)'
+      ],
+      indication: ['Longevity', 'Anti-Aging', 'Prävention'],
+      note: 'Für die Einzelperson ist die Zahl unscharf: Blut-Uhren im Speichel stimmen nur mäßig mit dem Blutwert überein, Uhren der ersten Generation kaum (Übereinstimmung 0,19 bis 0,25), und bei Wiederholungen in kurzen Abständen unter Mahlzeiten, Stress und Umwelteinflüssen waren die meisten Uhren nur gering bis mäßig stabil. Demografie, Einkommen, psychische Gesundheit und Verhalten sagten den weiteren Verlauf mindestens ebenso gut vorher. Fachleute raten davon ab, persönliche Entscheidungen auf ein Testergebnis zu stützen. Selbstzahlerleistung, Preise laut Medienberichten ab etwa 200 Euro. Vorher fragen, welche Uhr und welches Probenmaterial verwendet werden, und Vorher-nachher-Werte nur aus demselben Labor mit derselben Methode vergleichen. Grundlagen und Präventionsangebote stehen im Eintrag Prävention, Epigenetik & Genetik.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/41403206/'
+  },
+  {
+      id: 'vo2max-test',
+      name: 'VO2max-Test (Spiroergometrie)',
+      category: 'Biohacking',
+      emoji: '🫁',
+      short: 'Belastungstest mit Atemgasanalyse, der die maximale Sauerstoffaufnahme direkt misst. Die VO2max gehört zu den stärksten bekannten Vorhersagewerten für die Sterblichkeit; Uhren schätzen sie für den Einzelnen nur ungenau, und ob das Messen allein gesünder macht, ist nicht gezeigt.',
+      benefits: [
+        'Kokkinos 2022 (750.302 US-Veteranen, 30 bis 95 Jahre): Die am wenigsten Fitten hatten ein rund vierfach höheres Sterberisiko als die extrem Fitten (HR 4,09), ohne Anstieg bei sehr hoher Fitness',
+        'Kodama 2009 (33 Kohorten, 102.980 Gesunde): je 1 MET mehr Leistungsfähigkeit 13 Prozent niedrigeres Sterberisiko',
+        'Direkt per Spiroergometrie gemessen (Imboden 2018, 4.137 Gesunde, im Mittel 24 Jahre beobachtet): niedrige Fitness mit 73 Prozent höherem Sterberisiko verbunden; die American Heart Association empfiehlt seit 2016, Fitness als Vitalzeichen zu erfassen',
+        'Smartwatches schätzen für Gruppen brauchbar, im Einzelfall mit großen Fehlern: Die Apple Watch Series 10 unterschätzte im Mittel um 6,25 ml/kg/min (Lambe 2026)',
+        'Belastungstest gut untersucht: bei Hochrisiko-Herzpatienten 0,16 Prozent schwerwiegende Zwischenfälle in 5.060 Tests, keiner tödlich (Skalski 2012)'
+      ],
+      indication: ['Longevity', 'Herz-Kreislauf-Risiko', 'Prävention', 'Vorsorge', 'Trainingssteuerung'],
+      note: 'Ein starker Vorhersagewert ist noch kein Behandlungserfolg: In einer randomisierten Studie machte ein zusätzlicher Fitnesstest beim Gesundheitscheck nach einem Jahr nicht fitter. Die großen Kohorten haben die Fitness meist aus der Laufbandleistung geschätzt, nicht per Atemgas gemessen. Ohne Beschwerden in der Regel Selbstzahlerleistung nach GOÄ; bei Brustschmerz, Herzstolpern oder Atemnot unter Belastung vorher ärztlich abklären.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/30384883/'
+  },
+  {
+    id: 'blutbestrahlung',
+    name: 'UV- und Laser-Blutbestrahlung (UVBI, ILIB)',
+    category: 'Biohacking',
+    emoji: '🩸',
+    short: 'Blut wird mit Licht behandelt: bei der UV-Blutbestrahlung außerhalb des Körpers, bei der intravenösen Laserblutbestrahlung (ILIB) über eine Lichtfaser in der Vene, ursprünglich mit rotem Licht von 632,8 Nanometern. Kleine randomisierte Studien zeigen bei Kranken kurzfristig weniger Schmerz und niedrigere Entzündungswerte; für Anti-Aging bei Gesunden gibt es keine Studie.',
+    benefits: [
+      'Lange Tradition: UV-Blutbestrahlung seit 1928 (Knott, Seattle), intravenöse Laserblutbestrahlung seit 1981 aus der sowjetischen Herzmedizin',
+      'Laserblutbestrahlung: 8 randomisierte Studien mit 340 Teilnehmenden berichten weniger Schmerz und niedrigere Entzündungs- und Oxidationsmarker, ohne schwere Nebenwirkungen (Übersicht Díaz 2025)',
+      'Kniearthrose: In einer doppelblinden randomisierten Studie mit 17 Patienten nach einem Monat weniger Schmerz als in der Kontrollgruppe und niedrigeres IL-1beta im Blut (Su 2024)',
+      'Hämatogene Oxidationstherapie: In der einzigen doppelblinden, scheinkontrollierten Studie (18 Patienten mit Schaufensterkrankheit) veränderte sich die Gehstrecke in keiner Gruppe',
+      'Für Anti-Aging, Immunstärkung oder Leistungsfähigkeit bei Gesunden gibt es keine Studie'
+    ],
+    indication: ['Durchblutung', 'Immun/Infekte', 'Schmerzen', 'Long Covid', 'Anti-Aging'],
+    note: 'Selbstzahlerleistung: Ultraviolettbestrahlung des Blutes, hämatogene Oxidationstherapie und die Behandlung mit niederenergetischem Laser stehen in Anlage II der G-BA-Richtlinie und dürfen nicht zu Lasten der gesetzlichen Kassen erbracht werden. Eine Leitlinie, die die Verfahren empfiehlt, gibt es nicht. Studien sind klein, Geräte und Lichtparameter uneinheitlich, Nebenwirkungen werden nicht systematisch erfasst. Bei der UV-Bestrahlung wird Blut außerhalb des Körpers bearbeitet und zurückgegeben, das gehört in ärztliche Hände mit sauberer Hygiene.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/41065846/'
+  },
+  {
+      id: 'sauerstoff-mehrschritt',
+      name: 'Sauerstoff-Mehrschritt-Therapie (nach von Ardenne)',
+      category: 'Biohacking',
+      emoji: '🫧',
+      short: 'Sauerstoff atmen, oft mit vorab eingenommenen Vitaminen und Medikamenten, und dazu körperliche Belastung – entwickelt vom Dresdner Physiker Manfred von Ardenne, um den im Alter sinkenden Sauerstoffdruck im Blut dauerhaft anzuheben. Seit Jahrzehnten in Praxen angeboten, kontrolliert untersucht nur in kleinen Studien der 1980er-Jahre.',
+      benefits: [
+        'Während der Inhalation steigt der Sauerstoffdruck in Lunge und arteriellem Blut, und die Bewegung wirkt als Training – beides unbestritten',
+        'Studien aus dem Umfeld von Ardennes berichten höhere Ruhe-Sauerstoffdrücke (46 Patienten, ohne Kontrollgruppe) und mehr Leistung (20 Männer, plus 17 Prozent, ohne direkten Gruppenvergleich)',
+        'Unabhängige Studien fanden keinen anhaltenden Anstieg des arteriellen Sauerstoffdrucks (14 Patienten) und gleiche Leistungszuwächse in allen Gruppen, auch mit Pressluft statt Sauerstoff (82 Männer)',
+        'Nicht zu verwechseln mit der Druckkammer (HBOT): Ohne Überdruck löst sich bei gesunder Lunge kaum zusätzlicher Sauerstoff im Blut'
+      ],
+      indication: ['Durchblutung', 'Energie/Fatigue', 'Anti-Aging', 'Prävention'],
+      note: 'Keine Kassenleistung: Der Gemeinsame Bundesausschuss führt die Methode in Anlage II der Richtlinie Methoden vertragsärztliche Versorgung (nicht anerkannt, Beschluss 1990, bestätigt 2001); Selbstzahlerleistung. Leitlinien, die sie empfehlen, gibt es nicht. Das in klassischen Varianten verwendete Dipyridamol ist verschreibungspflichtig. Bei chronischer Lungenerkrankung mit Kohlendioxid-Rückhalt kann zusätzlicher Sauerstoff die Atmung dämpfen; Belastung nur nach ärztlicher Abklärung von Herz und Kreislauf.',
+      link: 'https://www.g-ba.de/downloads/40-268-251/HTA-Sauerstoff-Mehrschritt-.pdf'
+    },
+  {
+      id: 'stuhltransplantation',
+      name: 'Stuhltransplantation (FMT)',
+      category: 'Biohacking',
+      emoji: '🦠',
+      short: 'Aufbereiteter Stuhl einer gesunden Spenderperson wird in den Darm übertragen, damit sich dort wieder eine vielfältige Darmflora ansiedelt. Bei wiederkehrender Clostridioides-difficile-Infektion ist das hochwirksam, leitliniengestützt und in den USA als Arzneimittel zugelassen. Als „Mikrobiom-Verjüngung“ für Stoffwechsel und Langlebigkeit stützt es sich auf Tierdaten und kleine, kurzfristige Humanstudien.',
+      benefits: [
+        'Wiederkehrende C.-difficile-Infektion: In 6 randomisierten Studien mit 320 Teilnehmenden heilte die Infektion unter Stuhltransfer fast doppelt so häufig aus wie unter der Vergleichsbehandlung, Number needed to treat 3 (Cochrane, Minkoff 2023)',
+        'Die europäische Leitlinie (ESCMID 2021) bevorzugt den Transfer ab dem zweiten Rückfall, zusätzlich zur Antibiotikatherapie',
+        'In den USA zugelassen: Rebyota (30.11.2022) und als erstes Präparat zum Schlucken Vowst (26.04.2023); unter Vowst 12,4 statt 39,8 Prozent Rückfälle in 8 Wochen',
+        'Stoffwechsel: 9 randomisierte Studien mit 303 Teilnehmenden zeigten bis 6 Wochen leicht bessere Werte bei Nüchternzucker, HbA1c, Insulin und HDL, ab 12 Wochen keinen Unterschied und beim Gewicht keinen (Qiu 2023)',
+        'Tierdaten: Bei Mäusen mit beschleunigter Alterung verlängerte die Darmflora gesunder Artgenossen Gesundheits- und Lebensspanne (Bárcena 2019)'
+      ],
+      indication: ['Darm', 'Immun/Infekte', 'Stoffwechsel', 'Insulinsensitivität', 'Longevity'],
+      note: 'In Deutschland ist Spenderstuhl zur Behandlung ein Arzneimittel nach § 2 AMG. Angewendet wird er unter der Verantwortung der behandelnden Ärztin oder des Arztes, vor allem in Kliniken bei wiederkehrender C.-difficile-Infektion; die Herstellung ist bei der Landesbehörde anzeigepflichtig, klinische Studien genehmigt das BfArM. Ein in der EU zugelassenes FMT-Präparat gab es laut BfArM 2023 nicht. Spenderstuhl kann Erreger übertragen, bis hin zu tödlichen Infektionen mit multiresistenten Bakterien; Selbstversuche ohne geprüftes Spenderscreening umgehen genau diesen Schutz.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/37096495/'
+  },
+  {
+      id: 'hautverjuengung',
+      name: 'Hautverjüngung (Laser, Microneedling, Radiofrequenz)',
+      category: 'Biohacking',
+      emoji: '✨',
+      short: 'Apparative „Skin Longevity“: fraktionierte Laser, Microneedling, Radiofrequenz und IPL setzen gezielt kleine Wärme- oder Stichverletzungen, auf die die Haut mit neuem Kollagen antwortet. Hautstruktur und Pigmentflecken bessern sich in randomisierten Studien messbar, Falten eher moderat; bei Narben ist die Evidenz schwach.',
+      benefits: [
+        'Kollagenneubildung in Gewebeproben belegt: Ein fraktionierter CO2-Laser löste nach einer Sitzung etwa 40 bis 50 Prozent der Kollagenantwort eines voll ablativen Lasers aus (Orringer 2012, 34 Personen)',
+        'Randomisiert und doppelblind ausgewertet: Eine Sitzung mit fraktioniertem CO2- oder Erbium-Laser verringerte die Faltentiefe um die Augen nach drei Monaten um rund 20 Prozent (Karsai 2010, 28 Personen)',
+        'IPL besserte in einer randomisierten Gesichtshälften-Studie mit verblindeter Bewertung Hautstruktur, Äderchen und Pigmentflecken, nicht aber Falten (Hedelund 2006, 32 Frauen)',
+        'Hohe Zufriedenheit in Befragungen: 83 Prozent nach Microneedling (21 Studien, 723 Personen), meist über 90 Prozent nach Radiofrequenz-Microneedling (20 Studien, 558 Personen)'
+      ],
+      indication: ['Haut & Anti-Aging', 'Haut/Ästhetik', 'Anti-Aging'],
+      note: 'Wirkt auf das Erscheinungsbild der Haut; ob sich damit die Hautalterung langfristig bremsen lässt, ist nicht untersucht. Die meisten Studien sind klein und vergleichen mit der unbehandelten Gesichtshälfte oder einem anderen Gerät, nicht mit einer Scheinbehandlung. Bei dunkleren Hauttypen treten nach Laserbehandlungen häufiger vorübergehende Pigmentflecken auf, dazu kommen Herpes-Ausbrüche und akneartige Hautreaktionen. In Deutschland dürfen ablative Laser und alle Laser-, IPL- und Radiofrequenz-Anwendungen, die die Oberhaut verletzen, nach der NiSV seit Ende 2020 nur Ärztinnen und Ärzte durchführen. Ästhetische Behandlungen zahlt man in der Regel selbst.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/20166156/'
   }
 
 ];
