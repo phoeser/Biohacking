@@ -16,11 +16,17 @@ KONTEN = [
     ('TikTok', 'https://www.tiktok.com/@biohackingkompakt.de'),
     ('Discord', 'https://discord.gg/pKcgHTu8D'),
 ]
+# Englische Ausgabe des Podcasts (seit 16.10.2026, eigene Show) – auf den en/-Seiten zuerst genannt.
+EN_SHOW = 'https://open.spotify.com/show/6SHPqZY376hMGedL77qGM7'
 MUSTER = re.compile(r'<!-- konten:start -->.*?<!-- konten:end -->\n?', re.S)
 
 def block(en):
     links = ' · '.join('<a href="%s" target="_blank" rel="noopener">%s</a>' % (u, n) for n, u in KONTEN)
-    text = 'Follow Biohacking Kompakt:' if en else 'Biohacking Kompakt folgen:'
+    if en:
+        text = ('Podcast in English: <a href="%s" target="_blank" rel="noopener">Spotify</a> · '
+                'Follow the German edition:' % EN_SHOW)
+    else:
+        text = 'Biohacking Kompakt folgen:'
     return ('<!-- konten:start -->\n<p class="konten" style="font-size:.82em;opacity:.8;margin:.5em 0 0">'
             '%s %s</p>\n<!-- konten:end -->\n' % (text, links))
 
