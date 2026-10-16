@@ -247,7 +247,7 @@ def bauen(q, cache):
                  'thema_id': p[len('/thema/'):-5] if p.startswith('/thema/') else None} for p, art, t in ss]
 
     json_studien = []
-    zeilen, zaehl = [], collections.Counter()
+    zeilen, zaehl, roh = [], collections.Counter(), []
     for schl, s in studien.items():
         m = s['meta']; typ = studientyp(m, s['url']); zaehl[typ] += 1
         titel = re.sub(r'<[^>]+>', '', html.unescape(m.get('titel') or '')).strip().rstrip('.') or s['text']
@@ -263,6 +263,7 @@ def bauen(q, cache):
                              'typ': typ, 'typ_name': TYPNAME[typ], 'url': s['url'], 'pmid': m.get('pmid') or None,
                              'doi': m.get('doi') or None, 'notiz': n or None,
                              'hinweis': [KORR_NAME[x] for x in korr] or None, 'seiten': seiten_json(s['seiten'])})
+        roh.append((jahr or '0000', titel.lower(), typ, s['url'], titel, korr, meta_teile, s['seiten']))
         zeilen.append((jahr or '0000', titel.lower(), (
             '<li data-typ="%s"><a class="st-t" href="%s" rel="noopener">%s</a>'
             '<span class="st-m">%s<span class="st-b st-%s">%s</span> %s</span>%s'
@@ -397,6 +398,7 @@ def bauen(q, cache):
 '''
     os.makedirs('studien', exist_ok=True)
     open('studien/index.html', 'w', encoding='utf-8').write(seite)
+    bauen_en(roh, andere, zaehl, n_seiten, n_andere, stand)
     json_studien.sort(key=lambda x: (-(x['jahr'] or 0), x['titel'].lower()))
     json_weitere = [{'herausgeber': name, 'text': x['text'], 'url': x['url'], 'seiten': seiten_json(x['seiten'])}
                     for name in sorted(andere) for x in sorted(andere[name], key=lambda x: x['text'].lower())]
@@ -433,6 +435,129 @@ def bauen(q, cache):
     open('studien/studien.txt', 'w', encoding='utf-8').write('\n'.join(zt))
     print('studien/index.html: %d Studien, %d weitere Quellen, %d KB' % (len(zeilen), n_andere, len(seite.encode()) // 1024))
     print('Typen:', {TYPNAME[k]: zaehl[k] for k, _ in TYPEN})
+
+# ---------------------------------------------------------------- Englische Fassung (seit 16.10.2026)
+TYPNAME_EN = {'meta': 'Meta-analysis / systematic review', 'rct': 'Randomized trial', 'klinisch': 'Clinical study',
+              'beobachtung': 'Observational study', 'fall': 'Case report', 'tier': 'Animal or lab study',
+              'review': 'Review article', 'leitlinie': 'Guideline / consensus', 'register': 'Trial registry',
+              'sonst': 'Other study'}
+KORR_NAME_EN = {'zurueckgezogen': 'Retracted', 'eoc': 'Expression of Concern'}
+_EN_TITEL = {}
+
+def en_titel(pfad, de_titel):
+    """Titel der englischen Fassung (h1, wie seitentitel), sonst None."""
+    if pfad not in _EN_TITEL:
+        f = 'en' + pfad
+        _EN_TITEL[pfad] = seitentitel(open(f, encoding='utf-8').read()) if os.path.exists(f) else None
+    return _EN_TITEL[pfad]
+
+def bauen_en(roh, andere, zaehl, n_seiten, n_andere, stand_de):
+    """/en/studien/index.html: dieselbe Liste, englische Oberflaeche, Verweise auf die englischen Seiten.
+    Studientitel sind ohnehin meist englisch; deutsche Notizen entfallen."""
+    def links(seiten):
+        ss = sorted(seiten, key=lambda x: (x[1] != 'Thema', x[2].lower()))
+        teile = []
+        for p, _, t in ss:
+            et = en_titel(p, t)
+            teile.append('<a href="%s">%s</a>' % (e('/en' + p if et else p), e(et or t)))
+        return ' · '.join(teile)
+    zeilen = []
+    for jahr, sortt, typ, url, titel, korr, meta_teile, seiten in roh:
+        warn = ''.join('<span class="st-b st-rx">%s</span>' % e(KORR_NAME_EN[x]) for x in korr)
+        zeilen.append((jahr, sortt, ('<li data-typ="%s"><a class="st-t" href="%s" rel="noopener">%s</a>'
+            '<span class="st-m">%s<span class="st-b st-%s">%s</span> %s</span>'
+            '<span class="st-bei">Used on: %s</span></li>') % (
+            typ, e(url), e(titel), warn, typ, e(TYPNAME_EN[typ]), e(' · '.join(meta_teile)), links(seiten))))
+    zeilen.sort(key=lambda z: (z[0], z[1]), reverse=True)
+    zeilen.sort(key=lambda z: z[0], reverse=True)
+    filter_html = '<button type="button" class="st-f an" data-f="">All <span>%d</span></button>' % len(zeilen) + ''.join(
+        '<button type="button" class="st-f" data-f="%s">%s <span>%d</span></button>' % (k, e(TYPNAME_EN[k]), zaehl[k])
+        for k, _ in TYPEN if zaehl[k])
+    andere_html = []
+    for name in sorted(andere, key=lambda x: (x.startswith('Weitere'), x.lower())):
+        eintr = sorted(andere[name], key=lambda x: x['text'].lower())
+        anzeige = 'Other sources' if name.startswith('Weitere') else name
+        andere_html.append('<h3>%s <span class="st-z">(%d)</span></h3>\n<ul class="st-liste">%s</ul>' % (e(anzeige), len(eintr), ''.join(
+            '<li><a class="st-t" href="%s" rel="noopener">%s</a><span class="st-bei">Used on: %s</span></li>' % (
+                e(x['url']), e(x['text']), links(x['seiten'])) for x in eintr)))
+    titel = 'Study database – all sources behind the fact check | Biohacking Kompakt'
+    beschr = ('%d studies and %d sources from authorities and law that the fact checks of Biohacking Kompakt rely on, '
+              'with study type, year and the topics where they are used.') % (len(zeilen), n_andere)
+    url = SITE + '/en/studien/'
+    graph = [{"@type": "CollectionPage", "@id": url + "#seite", "name": "Study database", "url": url, "inLanguage": "en",
+              "description": beschr, "isPartOf": {"@id": SITE + "/#website"}},
+             {"@type": "BreadcrumbList", "itemListElement": [
+                 {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/en/"},
+                 {"@type": "ListItem", "position": 2, "name": "Glossary", "item": SITE + "/en/glossar/"},
+                 {"@type": "ListItem", "position": 3, "name": "Study database"}]}]
+    stand = time.strftime('%Y-%m-%d')
+    de = open('studien/index.html', encoding='utf-8').read()
+    stil = re.search(r'<style>.*?</style>', de, re.S).group(0)
+    skript = re.search(r'<script>\n\(function\(\).*?</script>', de, re.S).group(0)
+    skript = (skript.replace("' Studie':' Studien'", "' study':' studies'").replace("', die ersten '", "', showing the first '")
+              .replace("+' angezeigt'", "+''"))
+    seite = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{e(titel)}</title>
+<meta name="description" content="{e(beschr)}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{e(titel)}">
+<meta property="og:description" content="{e(beschr)}">
+<meta property="og:url" content="{url}">
+<meta property="og:site_name" content="Biohacking Kompakt">
+<meta name="theme-color" content="#2f8b6a">
+<link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+<link rel="stylesheet" href="/css/thema.css?v=3">
+<script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(',', ':'))}</script>
+{stil}
+</head>
+<body>
+<header class="kopf">
+  <a class="marke" href="/en/">Biohacking&nbsp;Kompakt</a>
+  <nav><a href="/en/thema/">All topics</a> <a href="/en/glossar/">Glossary</a> <a href="/en/studien/">Studies</a> <a href="/en/vergleich/">Comparisons</a></nav>
+</header>
+<main>
+  <article>
+    <p class="typ"><a href="/en/glossar/">Glossary</a> · Study database</p>
+    <h1>Study database: all sources behind the fact check</h1>
+    <p class="lead">Here are all {len(zeilen)} studies that our {n_seiten} topic, tip, comparison and question pages rely on, with original title, year, study type and the pages where we use them. Below follow {n_andere} sources from authorities, law and professional societies.</p>
+    <p class="cl-text">The study type comes from the PubMed and Europe PMC databases and is a guide, not a quality grade. A large randomized trial carries more weight than a small one, and an animal study says nothing yet about humans. What this means for a topic is explained on the respective page and in the <a href="/en/methodik.html">BK-Score</a>.</p>
+
+    <section>
+      <h2>Studies <span class="st-z">({len(zeilen)})</span></h2>
+      <input class="st-such" type="search" placeholder="Search: substance, title, author, journal …" aria-label="Search studies">
+      <div class="st-filter" role="group" aria-label="Filter by study type">{filter_html}</div>
+      <p class="st-info" aria-live="polite"></p>
+      <ul class="st-liste" id="st-studien">
+{chr(10).join(z[2] for z in zeilen)}
+      </ul>
+      <button type="button" class="st-mehr" hidden>Show more</button>
+    </section>
+
+    <section id="behoerden">
+      <h2>Authorities, law and other sources <span class="st-z">({n_andere})</span></h2>
+      <p class="cl-text">Statements, approvals, laws and reference works, sorted by publisher. Most of these sources are in German.</p>
+      {chr(10).join(andere_html)}
+    </section>
+
+    <p class="disc">Last updated: {stand}. The list is generated automatically from the source sections of our pages. Is a study missing or a type wrongly assigned? Write to <a href="mailto:kontakt@biohackingkompakt.de">kontakt@biohackingkompakt.de</a>.</p>
+  </article>
+</main>
+<footer class="fuss">
+  <a href="/en/">Home</a> · <a href="/en/thema/">All topics</a> · <a href="/en/problem/">Questions &amp; complaints</a> · <a href="/en/folge/">Podcast episodes</a> · <a href="/en/glossar/">Glossary</a> · <a href="/en/ueber-uns.html">About us</a> · <a href="/en/methodik.html">Methodology</a> · <a href="/en/impressum.html">Legal notice</a> · <a href="/en/datenschutz.html">Privacy</a>
+</footer>
+{skript}
+</body>
+</html>
+'''
+    os.makedirs('en/studien', exist_ok=True)
+    open('en/studien/index.html', 'w', encoding='utf-8').write(seite)
+    print('en/studien/index.html: %d Studien, %d KB' % (len(zeilen), len(seite.encode()) // 1024))
+
 
 # ---------------------------------------------------------------- Verlinken
 S_START, S_ENDE = '<!-- studien:start -->', '<!-- studien:end -->'
