@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 15.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
