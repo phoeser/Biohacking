@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-15
+Stand: 2026-10-17
 
 # Fragen & Beschwerden
 
@@ -148,7 +148,7 @@ Abaloparatid ist ein künstliches Peptid aus 34 Aminosäuren, nachgebaut nach de
 ## Acarbose
 https://biohackingkompakt.de/thema/acarbose.html
 
-Acarbose hemmt ein Enzym im Dünndarm, das Stärke in Zucker zerlegt. Der Blutzuckergipfel nach dem Essen fällt dadurch flacher aus — es ist kein Blutzuckersenker im üblichen Sinn, es kappt die Spitze. Im Interventions Testing Program lebten behandelte männliche Mäuse im Mittel 22 Prozent länger, weibliche nur 5 Prozent. Am Menschen gibt es eine große Studie über im Mittel 5 Jahre: Beim Herz-Kreislauf-Hauptendpunkt kam nichts heraus, bei der Verzögerung von Diabetes schon. Ob Acarbose beim Menschen das Leben verlängert, hat niemand gemessen, und es wird auch niemand messen.
+Acarbose hemmt ein Enzym im Dünndarm, das Stärke in Zucker zerlegt. Der Blutzuckergipfel nach dem Essen fällt dadurch flacher aus — es ist kein Blutzuckersenker im üblichen Sinn, es kappt die Spitze. Im Interventions Testing Program lebten behandelte männliche Mäuse im Mittel 22 Prozent länger, weibliche nur 5 Prozent. Die größte Studie am Menschen lief über im Mittel 5 Jahre: Beim Herz-Kreislauf-Hauptendpunkt kam nichts heraus, bei der Verzögerung von Diabetes schon. Ob Acarbose beim Menschen das Leben verlängert, hat bisher niemand gemessen.
 
 ## ACE-031 (Ramatercept)
 https://biohackingkompakt.de/thema/ace-031.html
@@ -188,7 +188,7 @@ AICAR ist ein körpereigener Zwischenschritt der Purinsynthese, der als Wirkstof
 ## Akkermansia muciniphila
 https://biohackingkompakt.de/thema/akkermansia.html
 
-Akkermansia muciniphila baut Mucin ab, den Schleim, der die Darmwand auskleidet, und treibt damit dessen Neubildung an. In der einzigen kontrollierten Studie am Menschen, 3 Monate lang mit 32 auswertbaren Teilnehmern, verbesserte die pasteurisierte, also durch Erhitzen abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent und senkte Insulinspiegel und Gesamtcholesterin; die lebenden Bakterien zeigten das nicht sauber. Der beworbene Gewichtsverlust von gut 2 Kilogramm war in derselben Studie gegen Placebo statistisch nicht abgesichert. In der EU ist ausschließlich die pasteurisierte Form als neuartiges Lebensmittel zugelassen, die lebende nicht. Ob Akkermansia das Leben verlängert, hat nie jemand gemessen.
+Akkermansia muciniphila baut Mucin ab, den Schleim, der die Darmwand auskleidet, und treibt damit dessen Neubildung an. In der ersten kontrollierten Studie am Menschen, 3 Monate lang mit 32 auswertbaren Teilnehmern, verbesserte die pasteurisierte, also durch Erhitzen abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent und senkte Insulinspiegel und Gesamtcholesterin; die lebenden Bakterien zeigten das nicht sauber. Der Gewichtsverlust von gut 2 Kilogramm war dort gegen Placebo statistisch nicht abgesichert. Seither sind weitere randomisierte Studien erschienen: In Maastricht nahmen 90 Menschen nach einer Diät mit pasteurisierter Akkermansia 1,2 statt 3,2 Kilogramm wieder zu, Hauptziel erreicht; zwei Studien zum Zuckerstoffwechsel verfehlten ihr Hauptziel, zeigten aber Vorteile bei Menschen mit wenig eigenem Akkermansia. In der EU ist ausschließlich die pasteurisierte Form als neuartiges Lebensmittel zugelassen, die lebende nicht. Ob Akkermansia das Leben verlängert, hat nie jemand gemessen.
 
 ## Aktivkohle
 https://biohackingkompakt.de/thema/aktivkohle.html
@@ -428,7 +428,7 @@ Cabergolin senkt einen zu hohen Prolaktinspiegel zuverlässig und ist dafür in 
 ## Cagrilintide / CagriSema
 https://biohackingkompakt.de/thema/cagrilintide.html
 
-Amylin ist ein zweites, von GLP-1 unabhängiges Sättigungssignal, und Cagrilintid ahmt es nach. In REDEFINE 1 mit 3.417 Erwachsenen über 68 Wochen verloren die Teilnehmer unter CagriSema 22,7 Prozent ihres Gewichts, wenn sie das Mittel wie vorgesehen nahmen, und 20,4 Prozent, wenn man alle Teilnehmer einrechnet, gegenüber 3,0 Prozent unter Placebo. Bezahlt wird das mit der Verträglichkeit: Fast 80 Prozent hatten Magen-Darm-Beschwerden, abgebrochen haben deswegen aber nur 6 Prozent. Cagrilintid allein wirkte in einer Phase-2-Studie deutlich schwächer, mit 10,8 Prozent nach 26 Wochen in der höchsten Dosis. Im direkten Vergleich mit Tirzepatid lag CagriSema mit 23,0 gegenüber 25,5 Prozent hinten. Der Zulassungsantrag liegt seit dem 18.12.2025 bei der FDA, eine Entscheidung steht aus (Stand Oktober 2026).
+Amylin ist ein zweites, von GLP-1 unabhängiges Sättigungssignal, und Cagrilintid ahmt es nach. In REDEFINE 1 mit 3.417 Erwachsenen über 68 Wochen verloren die Teilnehmer unter CagriSema 22,7 Prozent ihres Gewichts, wenn sie das Mittel wie vorgesehen nahmen (gegenüber 2,3 Prozent unter Placebo), und 20,4 Prozent, wenn man alle Teilnehmer einrechnet, gegenüber 3,0 Prozent unter Placebo. Bezahlt wird das mit der Verträglichkeit: Fast 80 Prozent hatten Magen-Darm-Beschwerden, abgebrochen haben deswegen aber nur 6 Prozent. Cagrilintid allein wirkte in einer Phase-2-Studie deutlich schwächer, mit 10,8 Prozent nach 26 Wochen in der höchsten Dosis. Im direkten Vergleich mit Tirzepatid lag CagriSema mit 23,0 gegenüber 25,5 Prozent hinten. Der Zulassungsantrag liegt seit dem 18.12.2025 bei der FDA, eine Entscheidung steht aus (Stand Oktober 2026).
 
 ## Calcium-D-Glucarat
 https://biohackingkompakt.de/thema/calcium-d-glucarat.html
@@ -468,7 +468,7 @@ Die beiden randomisierten Studien zu CBN und Schlaf verfehlten ihren Hauptendpun
 ## Cerebrolysin
 https://biohackingkompakt.de/thema/cerebrolysin.html
 
-Cerebrolysin ist kein definiertes Molekül, sondern ein Extrakt aus enzymatisch zerlegtem Schweinehirn, der injiziert oder infundiert wird. In Österreich ist es für 3 Anwendungsgebiete zugelassen: Demenz vom Alzheimer-Typ und vaskuläre Demenz, Ausfälle nach Schlaganfall und Schädel-Hirn-Trauma; die amerikanische Arzneimittelbehörde hat es nie freigegeben. Der maßgebliche Cochrane-Review zum akuten Schlaganfall findet keinen Unterschied bei der Sterblichkeit, keine auswertbaren Daten dazu, wie es den Menschen hinterher ging, und mehr nicht-tödliche schwerwiegende Nebenwirkungen. Eine andere Auswertung von 12 Studien kommt beim Sicherheitsprofil zum gegenteiligen Eindruck. Für den Einsatz als Gedächtnismittel bei Gesunden gibt es weder Zulassung noch Studienlage.
+Cerebrolysin ist kein definiertes Molekül, sondern ein Extrakt aus enzymatisch zerlegtem Schweinehirn, der injiziert oder infundiert wird. In Österreich ist es für 3 Anwendungsgebiete zugelassen: Demenz vom Alzheimer-Typ und vaskuläre Demenz, Ausfälle nach Schlaganfall und Schädel-Hirn-Trauma; die amerikanische Arzneimittelbehörde hat es nie freigegeben. Der maßgebliche Cochrane-Review zum akuten Schlaganfall findet keinen Unterschied bei der Sterblichkeit, keine auswertbaren Daten dazu, wie es den Menschen hinterher ging, und mehr nicht-tödliche schwerwiegende Nebenwirkungen. Eine andere Auswertung von 12 Studien kommt beim Sicherheitsprofil zum gegenteiligen Eindruck. Für den Einsatz als Gedächtnismittel bei Gesunden gibt es keine Zulassung und nur eine kleine, alte Studie mit 48 gesunden Männern.
 
 ## CGM – kontinuierliche Glukosemessung
 https://biohackingkompakt.de/thema/cgm.html
@@ -598,7 +598,7 @@ Die Datenlage zu Dapoxetin ist gut: In fünf randomisierten Phase-3-Studien mit 
 ## Dasatinib + Quercetin (Senolytic-Stack)
 https://biohackingkompakt.de/thema/senolytic-dq.html
 
-D+Q kombiniert ein verschreibungspflichtiges Krebsmedikament (Dasatinib, zugelassen bei chronischer myeloischer Leukämie) mit einem Pflanzenstoff aus Zwiebeln und Äpfeln (Quercetin). Beide zusammen treffen mehr Typen seneszenter Zellen als jedes allein, deshalb die Kombination und deshalb das gepulste Schema. Der Mechanismus ist am Menschen belegt: Nach drei Tabletten-Tagen fanden sich in Fettgewebsbiopsien 35 Prozent weniger seneszente Zellen und weniger Entzündungsstoffe im Blut. Der Haken ist der Schritt danach: In beiden Studien, in denen eine Kontrollgruppe danebenstand, war der klinische Nutzen kleiner oder gar nicht mehr auffindbar. Dasatinib bleibt ein Krebsmedikament mit entsprechendem Nebenwirkungsprofil, für die senolytische Anwendung gibt es keine Zulassung und keine Sicherheitsdatenbank.
+D+Q kombiniert ein verschreibungspflichtiges Krebsmedikament (Dasatinib, zugelassen bei chronischer myeloischer Leukämie) mit einem Pflanzenstoff aus Zwiebeln und Äpfeln (Quercetin). Beide zusammen treffen mehr Typen seneszenter Zellen als jedes allein, deshalb die Kombination und deshalb das gepulste Schema. Der Mechanismus ist am Menschen belegt: Nach drei Tabletten-Tagen fanden sich in Fettgewebsbiopsien 35 Prozent weniger seneszente Zellen und weniger Entzündungsstoffe im Blut. Beim Schritt danach ist das Bild gemischt: Bei vernarbender Fettleberentzündung erreichte die Kombination 2026 in einer placebokontrollierten Studie ihr Hauptziel, bei Lungenfibrose und Knochenstoffwechsel war der klinische Nutzen mit Kontrollgruppe kleiner oder nicht mehr auffindbar. Dasatinib bleibt ein Krebsmedikament mit entsprechendem Nebenwirkungsprofil, für die senolytische Anwendung gibt es keine Zulassung und keine Sicherheitsdatenbank.
 
 ## Dermorphin
 https://biohackingkompakt.de/thema/dermorphin.html
@@ -898,7 +898,7 @@ Glycin vor dem Zubettgehen hat in jeder der drei vorliegenden Humanstudien einen
 ## GlyNAC (Glycin + NAC)
 https://biohackingkompakt.de/thema/glynac.html
 
-Glutathion ist das wichtigste Antioxidans der Zelle und besteht aus Glutamat, Cystein und Glycin. Ältere haben weniger Glycin und Cystein und bauen Glutathion nur noch etwa halb so schnell nach; gibt man die Bausteine, füllt sich der Speicher wieder. Das ist mit Muskelbiopsien und Placebo belegt. Alles Weitere — Kraft, Gang, Denken, Lebensspanne — kommt aus demselben Labor, beruht auf 8 bis 12 Personen je Gruppe und verschwindet nach dem Absetzen. Die einzige unabhängige Studie war negativ, allerdings mit weniger als der halben Dosis.
+Glutathion ist das wichtigste Antioxidans der Zelle und besteht aus Glutamat, Cystein und Glycin. Ältere haben weniger Glycin und Cystein und bauen Glutathion nur noch etwa halb so schnell nach; gibt man die Bausteine, füllt sich der Speicher wieder. Das ist mit Muskelbiopsien und Placebo belegt. Alles Weitere — Kraft, Gang, Denken, Lebensspanne — kommt aus demselben Labor, beruht auf 8 bis 12 Personen je Gruppe und verschwindet nach dem Absetzen. Die einzige Studie außerhalb des Houstoner Labors, durchgeführt vom Lizenznehmer Nestlé Health Science, verfehlte ihren Hauptendpunkt, allerdings mit weniger als der halben Dosis.
 
 ## Gonadorelin
 https://biohackingkompakt.de/thema/gonadorelin.html
@@ -1093,7 +1093,7 @@ Kisspeptin ist ein körpereigenes Peptid aus dem Hypothalamus, das die Ausschüt
 ## Klotho
 https://biohackingkompakt.de/thema/klotho.html
 
-Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird, im Blut zirkuliert und Insulin- und IGF-1-Signale dämpft. In Mäusen mit überexprimiertem Gen verlängert es die Lebenszeit um 19 bis gut 30 Prozent — allerdings war das Gen von der Befruchtung an hochgedreht, das ist keine Behandlung, sondern ein anderes Tier. Am Menschen widerspricht sich die Datenlage: Eine Genvariante geht in einer Untersuchung mit besserer Kognition einher, in einer dänischen und einer schottischen Kohorte mit schlechteren Verläufen, und niedrige Klothowerte im Blut sind mit höherer Sterblichkeit verknüpft, ohne dass daraus eine Ursache würde. Die erste verblindete, placebokontrollierte Studie am Menschen läuft seit Februar 2026 in Honduras; Ergebnisse stehen aus.
+Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird, im Blut zirkuliert und Insulin- und IGF-1-Signale dämpft. In Mäusen mit überexprimiertem Gen verlängert es die Lebenszeit um 19 bis gut 30 Prozent — allerdings war das Gen von der Befruchtung an hochgedreht, das ist keine Behandlung, sondern ein anderes Tier. Am Menschen widerspricht sich die Datenlage: Eine Genvariante geht in einer Untersuchung mit besserer Kognition einher, in einer dänischen und einer schottischen Kohorte mit schlechteren Verläufen, und niedrige Klothowerte im Blut sind mit höherer Sterblichkeit verknüpft, ohne dass daraus eine Ursache würde. Die erste verblindete, placebokontrollierte Studie am Menschen ist in Honduras angemeldet, laut Register aber noch nicht gestartet; Ergebnisse stehen aus.
 
 ## KLOW (KPV + GHK-Cu + BPC-157 + TB-500)
 https://biohackingkompakt.de/thema/klow-stack.html
@@ -1203,7 +1203,7 @@ Wer lange im Wasser liegt, scheidet messbar Wasser und Salz aus. In einem Versuc
 ## Larazotide (AT-1001)
 https://biohackingkompakt.de/thema/larazotide.html
 
-Larazotid blockiert die Wirkung von Zonulin, einem körpereigenen Eiweiß, das die Tight Junctions zwischen den Darmzellen öffnet. Die Idee ist klar: Wenn das Problem eine offene Tür ist, mach die Tür zu. Geprüft wurde das in der Phase-3-Studie CedLara an Zöliakiepatienten, die trotz strikt glutenfreier Ernährung weiter Beschwerden hatten (geplant 525, bis zum Abbruch 307 eingeschlossen) — die günstigste denkbare Ausgangslage. Am 21. Juni 2022 wurde die Studie wegen Aussichtslosigkeit beendet. Erhöhte Darmdurchlässigkeit ist real und messbar; dass man sie pharmakologisch zudrehen kann und es den Patienten dann besser geht, hat diesen Test nicht bestanden.
+Larazotid blockiert die Wirkung von Zonulin, einem körpereigenen Eiweiß, das die Tight Junctions zwischen den Darmzellen öffnet. Die Idee ist klar: Wenn das Problem eine offene Tür ist, mach die Tür zu. Geprüft wurde das in der Phase-3-Studie CedLara an Zöliakiepatienten, die trotz strikt glutenfreier Ernährung weiter Beschwerden hatten (geplant 525, bis zum Abbruch 307 eingeschlossen) — die günstigste denkbare Ausgangslage. Am 21. Juni 2022 wurde die Studie wegen Aussichtslosigkeit beendet. Erhöhte Darmdurchlässigkeit ist real und messbar; dass man sie pharmakologisch zudrehen kann und es den Patienten dann spürbar besser geht, konnte diese Studie nicht zeigen.
 
 ## Lavendelöl oral (Silexan)
 https://biohackingkompakt.de/thema/lavendeloel.html
@@ -1283,7 +1283,7 @@ Low-Dose-Naltrexon, kurz LDN, ist ein Bruchteil der zugelassenen Naltrexon-Dosis
 ## Löwenmähne (Lion's Mane)
 https://biohackingkompakt.de/thema/loewenmaehne.html
 
-Löwenmähne ist ein Pilz, dessen Extrakt in Zellkultur die Produktion von Nervenwachstumsfaktor anregt und der im Tierversuch Gedächtnisverluste abmildert. Ob im menschlichen Gehirn davon etwas ankommt, hat keine Studie gemessen. Es gibt 6 kontrollierte Humanstudien mit zusammen rund 200 Teilnehmern; die beiden positivsten stammen jeweils aus dem Haus eines Herstellers, und der bekannteste Effekt verschwand 4 Wochen nach dem Absetzen wieder. Die einzige lange Studie an Menschen mit leichter Alzheimer-Demenz lief 49 Wochen und fiel zugunsten des Pilzes aus, muss aber von jemandem wiederholt werden, der ihn nicht verkauft. Als Speisepilz ist die Verträglichkeit gut; als Arzneimittel ist er nirgends zugelassen.
+Löwenmähne ist ein Pilz, dessen Extrakt in Zellkultur die Produktion von Nervenwachstumsfaktor anregt und der im Tierversuch Gedächtnisverluste abmildert. Ob im menschlichen Gehirn davon etwas ankommt, hat keine Studie gemessen. Es gibt 8 kleine kontrollierte Humanstudien, einen Vorabdruck von 2026 eingerechnet, mit zusammen keinen 400 Teilnehmern; die beiden positivsten stammen jeweils aus dem Haus eines Herstellers, und der bekannteste Effekt verschwand 4 Wochen nach dem Absetzen wieder. Die einzige lange Studie an Menschen mit leichter Alzheimer-Demenz lief 49 Wochen und fiel zugunsten des Pilzes aus, muss aber von jemandem wiederholt werden, der ihn nicht verkauft. Als Speisepilz ist die Verträglichkeit gut; als Arzneimittel ist er nirgends zugelassen.
 
 ## Löwenzahnwurzel
 https://biohackingkompakt.de/thema/loewenzahnwurzel.html
@@ -1813,7 +1813,7 @@ PRP nutzt Wachstumsfaktoren aus den eigenen Blutplättchen, die Reparaturzellen 
 ## Psilocybin
 https://biohackingkompakt.de/thema/psilocybin.html
 
-Bei therapieresistenter Depression ist ein Effekt der hohen Einzeldosis wahrscheinlich echt, aber deutlich kleiner als die Schlagzeilen. Die bekannteste Studie fand 6,6 Punkte Unterschied auf einer Skala von 0 bis 60, die beiden großen Phase-3-Studien nur noch 3,6 und 3,8 Punkte, und die staatlich finanzierte deutsche Studie verfehlte ihren Hauptendpunkt. Microdosing war in jeder verblindeten Studie Placebo. Die Risiken sind nicht harmlos, sie sind in den Studien nur gut abgeschirmt: durch Auswahl der Teilnehmer und durch stundenlange Begleitung, die es zu Hause nicht gibt. In Deutschland ist Psilocybin nicht verkehrsfähig und nicht verschreibbar. Seit Juli 2025 gibt es allerdings ein vom BfArM bestätigtes Härtefallprogramm für therapieresistente Depression an zwei Zentren in Mannheim und Berlin, eine Ausnahme im Einzelfall, keine Zulassung.
+Bei therapieresistenter Depression ist ein Effekt der hohen Einzeldosis wahrscheinlich echt, aber deutlich kleiner als die Schlagzeilen. Die bekannteste Studie fand 6,6 Punkte Unterschied auf einer Skala von 0 bis 60, die beiden großen Phase-3-Studien nur noch 3,6 und 3,8 Punkte, und die staatlich finanzierte deutsche Studie verfehlte ihren Hauptendpunkt. In den verblindeten Microdosing-Studien schnitt die Mikrodosis nicht besser ab als die leere Kapsel. Die Risiken sind nicht harmlos, sie sind in den Studien nur gut abgeschirmt: durch Auswahl der Teilnehmer und durch stundenlange Begleitung, die es zu Hause nicht gibt. In Deutschland ist Psilocybin nicht verkehrsfähig und nicht verschreibbar. Seit Juli 2025 gibt es allerdings ein vom BfArM bestätigtes Härtefallprogramm für therapieresistente Depression an zwei Zentren in Mannheim und Berlin, eine Ausnahme im Einzelfall, keine Zulassung.
 
 ## PT-141
 https://biohackingkompakt.de/thema/pt-141.html
@@ -2008,7 +2008,7 @@ SLU-PP-332 aktiviert die Estrogen-Related Receptors ERRα, ERRβ und ERRγ, Haup
 ## SNAP-8 (Acetyl-Octapeptide-3)
 https://biohackingkompakt.de/thema/snap-8.html
 
-SNAP-8 ist ein kosmetisches Peptid aus der Familie um Argirelin, das einem Bauteil des SNARE-Komplexes nachempfunden ist und die Ausschüttung von Acetylcholin an der Nerv-Muskel-Verbindung stören soll. Als Creme ist es unbedenklich und wahrscheinlich schwächer als beworben: Die überall zitierten 63 Prozent Faltenreduktion in 28 Tagen stammen aus den Produktunterlagen des Rohstoffherstellers und haben keine Fundstelle in einer begutachteten Fachzeitschrift. Die beste Studie dieser ganzen Substanzklasse hatte 10 Teilnehmerinnen. Dazu kommt ein grundsätzliches Problem: Der Zielort liegt unter der Haut, und die Hornschicht ist genau dafür gebaut, große, geladene, wasserliebende Moleküle draußen zu halten. Kritisch wird es erst dort, wo SNAP-8 als Pulver zum Auflösen und Spritzen verkauft wird.
+SNAP-8 ist ein kosmetisches Peptid aus der Familie um Argirelin, das einem Bauteil des SNARE-Komplexes nachempfunden ist und die Ausschüttung von Acetylcholin an der Nerv-Muskel-Verbindung stören soll. Als Creme ist es unbedenklich und wahrscheinlich schwächer als beworben: Die überall zitierten 63 Prozent Faltenreduktion in 28 Tagen stammen aus den Produktunterlagen des Rohstoffherstellers und haben keine Fundstelle in einer begutachteten Fachzeitschrift. Die erste Studie zum Vorbild Argirelin hatte 10 Teilnehmerinnen, die größte randomisierte Studie zu Argirelin 60 Teilnehmende. Dazu kommt ein grundsätzliches Problem: Der Zielort liegt unter der Haut, und die Hornschicht ist genau dafür gebaut, große, geladene, wasserliebende Moleküle draußen zu halten. Kritisch wird es erst dort, wo SNAP-8 als Pulver zum Auflösen und Spritzen verkauft wird.
 
 ## Sobetirom (GC-1)
 https://biohackingkompakt.de/thema/sobetirom.html
@@ -2662,7 +2662,7 @@ Belegt ist genau eine Sache: Dieselbe Kohlenhydratmenge erzeugt am Abend eine h�
 ## Luftqualität und Feinstaub
 https://biohackingkompakt.de/tipp/luftqualitaet.html
 
-Feinstaub führt die Global-Burden-of-Disease-Analyse 2021 mit 8 Prozent aller verlorenen gesunden Lebensjahre an, vor Bluthochdruck und Rauchen. Eine Schwelle, unter der es harmlos wird, gibt es nicht: In der US-Medicare-Auswertung war der Effekt in den saubersten Regionen sogar steiler. Drinnen, wo wir rund 87 Prozent der Zeit verbringen, ist die stärkste Quelle der eigene Herd. HEPA-Geräte senken die Konzentration klar und den systolischen Blutdruck um etwa 2 bis 4 Millimeter Quecksilbersäule. Ob sie Herzinfarkte oder Todesfälle verhindern, hat niemand gemessen.
+Feinstaub steht in der Global-Burden-of-Disease-Analyse 2023 auf Platz zwei der Risikofaktoren, knapp hinter hohem Blutdruck mit 8,4 Prozent aller verlorenen gesunden Lebensjahre. Eine Schwelle, unter der es harmlos wird, gibt es nicht: In der US-Medicare-Auswertung war der Effekt in den saubersten Regionen sogar steiler. Drinnen, wo wir rund 87 Prozent der Zeit verbringen, ist die stärkste Quelle der eigene Herd. HEPA-Geräte senken die Konzentration klar und den systolischen Blutdruck um etwa 2 bis 4 Millimeter Quecksilbersäule. Ob sie Herzinfarkte oder Todesfälle verhindern, hat niemand gemessen.
 
 ## Meditation 10 min täglich
 https://biohackingkompakt.de/tipp/meditation.html

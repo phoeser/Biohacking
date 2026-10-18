@@ -7,7 +7,7 @@ const TIPS = [
     category: 'Bewegung',
     icon: '🧍',
     title: 'Stehschreibtisch – gegen das Sitzen, nicht fürs Stehen',
-    short: 'In der größten Messung an 83.013 Erwachsenen hatte Stehen keinen Zusammenhang mit schweren Herz-Kreislauf-Ereignissen. Der Schaden des langen Sitzens ging fast vollständig auf das Sitzen zurück.',
+    short: 'In der größten Messung an 83.013 Erwachsenen hatte Stehen keinen Zusammenhang mit schweren Herz-Kreislauf-Ereignissen. Der Schaden langer Stillstandszeit, also Sitzen und Stehen zusammen, ging vor allem auf das Sitzen zurück.',
     how: 'Nutze den Tisch, um Sitzzeit zu ersetzen, nicht um Stehzeit zu sammeln. Oberhalb von etwa zwei Stunden Stehen am Tag stieg in derselben Kohorte das Risiko für Venenleiden – und zwei Stunden sind dort bereits der Durchschnitt. Der beste Effekt liegt im Wechsel und im Gehen dazwischen.',
     tags: ['bewegung', 'sitzen', 'herz-kreislauf', 'buero']
   },
@@ -598,7 +598,7 @@ const TIPS = [
     category: 'Atmung',
     icon: '🌬',
     title: 'Luftqualität und Feinstaub',
-    short: 'Feinstaub führt die Global-Burden-of-Disease-Analyse 2021 mit 8 Prozent aller verlorenen gesunden Lebensjahre an, vor Bluthochdruck und Rauchen, und eine harmlose Schwelle gibt es nicht. Die stärkste Quelle in der eigenen Wohnung ist der Herd. HEPA-Filter senken Feinstaub und Blutdruck, harte Endpunkte hat niemand gemessen.',
+    short: 'Feinstaub steht in der Global-Burden-of-Disease-Analyse 2023 auf Platz zwei der Risikofaktoren, knapp hinter hohem Blutdruck mit 8,4 Prozent aller verlorenen gesunden Lebensjahre, und eine harmlose Schwelle gibt es nicht. Die stärkste Quelle in der eigenen Wohnung ist der Herd. HEPA-Filter senken Feinstaub und Blutdruck, harte Endpunkte hat niemand gemessen.',
     how: 'Fang bei der Quelle an: beim Braten den Dunstabzug einschalten und das Fenster öffnen, denn eine Seattler Messstudie fand beim standardisierten Anbraten Spitzen von 200 bis 1400 Mikrogramm pro Kubikmeter in Küche und Wohnzimmer, die je nach Lüftung 1 bis 10 Stunden brauchen, bis sie abklingen. Bei einem Gasherd kommt Stickstoffdioxid dazu, das eine kleine Küche ohne Abzug binnen Minuten über den amerikanischen Stundengrenzwert bringt. Ein HEPA-Gerät dimensionierst du über die Reinluftleistung CADR: Die amerikanische Umweltbehörde rechnet mit rund 110 Kubikmetern pro Stunde je 9 Quadratmeter, ein Schlafzimmer mit 20 Quadratmetern braucht also etwa 240, was Geräte ab rund 150 Euro oft nur auf der lautesten Stufe schaffen. In den Studien liefen die Geräte durchgehend im Schlaf- und Wohnraum, in Detroit schnitt ein billigerer HEPA-Typ ähnlich ab wie das teurere Gerät, und in Seattle wirkte das Gerät am besten nahe an der Quelle, also in der Küche. Belegt ist damit die Konzentrationssenkung, in Shanghai um 57 Prozent, in Detroit von 15 auf 7 Mikrogramm, und ein niedrigerer systolischer Blutdruck von etwa 2 bis 4 Millimetern Quecksilbersäule über mehrere randomisierte Studien und zwei Metaanalysen. Nicht belegt ist, dass das Herzinfarkte oder Todesfälle verhindert; die größte Studie mit 540 Schwangeren in Ulan-Bator senkte den Feinstaub um 29 Prozent, ohne das Geburtsgewicht zu verändern. Finger weg von Geräten, die Ozon erzeugen, also Ionisatoren, Plasma und manchen UV-Geräten. Gegen Kohlendioxid hilft kein Filter, sondern nur das Fenster.',
     tags: [
       'Feinstaub',

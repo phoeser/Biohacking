@@ -11647,6 +11647,22 @@
 "Preprint"
 ]
 },
+"doi:10.64898/2026.04.13.26350781": {
+"autoren": "Daoust J, Farrar S, Grant A, Erfe M, Oliver P, Luna V, Moos J, Craft N.",
+"doi": "10.64898/2026.04.13.26350781",
+"iso": "",
+"jahr": "2026",
+"journal": "medRxiv",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "",
+"quelle": "PPR",
+"titel": "A randomized, double□blind, placebo□controlled study evaluating the impact of  <i>Hericium erinaceus</i>  (Lion’s Mane) on cognitive performance and subjective wellbeing",
+"typen": [
+"Preprint"
+]
+},
 "doi:10.64898/2026.05.28.26352819": {
 "autoren": "Sehgal NKR, Tronieri JS, Rader B, Ungar L, Guntuku SC.",
 "doi": "10.64898/2026.05.28.26352819",
@@ -11997,6 +12013,23 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmcid:PMC13224043": {
+"autoren": "Batson S, Taylor-Phillips S, Mackie A, Given-Wilson R, Halligan S, Hackshaw A, Callender T, Hyde C, Payne K, Visintin C, Thompson D, Evans DG, Richards M, Shinkins B.",
+"doi": "10.1136/bmj-2026-089868",
+"iso": "BMJ",
+"jahr": "2026",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13224043",
+"pmid": "42185045",
+"quelle": "MED",
+"titel": "UK National Screening Committee position statement on evidence required for multicancer detection tests.",
+"typen": [
+"other",
 "Journal Article"
 ]
 },
@@ -13025,6 +13058,41 @@
 "Journal Article"
 ]
 },
+"pmid:1070215": {
+"autoren": "Mäkinen KK, Scheinin A.",
+"doi": "10.3109/00016357609004643",
+"iso": "Acta Odontol Scand",
+"jahr": "1976",
+"journal": "Acta odontologica Scandinavica",
+"korr": [],
+"mesh": [
+"Saliva",
+"Dental Plaque",
+"Humans",
+"Metals",
+"Xylitol",
+"Lactates",
+"Glycoside Hydrolases",
+"Amylases",
+"alpha-L-Fucosidase",
+"Lactoperoxidase",
+"Aspartate Aminotransferases",
+"Fructose",
+"Sucrose",
+"Amino Acids",
+"Proteins",
+"Nucleic Acids",
+"Diet, Cariogenic",
+"Hydrolysis"
+],
+"pmcid": "",
+"pmid": "1070215",
+"quelle": "MED",
+"titel": "Turku sugar studies. VII. Principal biochemical findings on whole saliva and plaque.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:10702797": {
 "autoren": "Hadsell DL, Murphy KL, Bonnette SG, Reece N, Laucirica R, Rosen JM.",
 "doi": "10.1038/sj.onc.1203386",
@@ -13510,6 +13578,35 @@
 "Controlled Clinical Trial",
 "Clinical Trial",
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:11080265": {
+"autoren": "Steensberg A, van Hall G, Osada T, Sacchetti M, Saltin B, Klarlund Pedersen B.",
+"doi": "10.1111/j.1469-7793.2000.00237.x",
+"iso": "J Physiol",
+"jahr": "2000",
+"journal": "The Journal of physiology",
+"korr": [],
+"mesh": [
+"Leg",
+"Muscle, Skeletal",
+"Humans",
+"Interleukin-6",
+"Exercise",
+"Ergometry",
+"Regional Blood Flow",
+"Muscle Contraction",
+"Time Factors",
+"Adult",
+"Male"
+],
+"pmcid": "",
+"pmid": "11080265",
+"quelle": "MED",
+"titel": "Production of interleukin-6 in contracting human skeletal muscles can account for the exercise-induced increase in plasma interleukin-6.",
+"typen": [
+"Clinical Trial",
 "Journal Article"
 ]
 },
@@ -15201,6 +15298,42 @@
 "Comparative Study",
 "Clinical Trial",
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:12162864": {
+"autoren": "Serebrovskaya TV.",
+"doi": "10.1089/15270290260131939",
+"iso": "High Alt Med Biol",
+"jahr": "2002",
+"journal": "High altitude medicine & biology",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Rats",
+"Disease Models, Animal",
+"Altitude Sickness",
+"Pulmonary Ventilation",
+"Sensitivity and Specificity",
+"Altitude",
+"Adaptation, Physiological",
+"Cell Hypoxia",
+"Oxygen Consumption",
+"Research",
+"Mountaineering",
+"Commonwealth of Independent States",
+"USSR",
+"Female",
+"Male",
+"Hypoxia"
+],
+"pmcid": "",
+"pmid": "12162864",
+"quelle": "MED",
+"titel": "Intermittent hypoxia research in the former soviet union and the commonwealth of independent States: history and review of the concept and selected applications.",
+"typen": [
+"Review",
 "Journal Article"
 ]
 },
@@ -17788,6 +17921,33 @@
 "titel": "Adjuvant role of vitamin B analogue (sulbutiamine) with anti-infective treatment in infection associated asthenia.",
 "typen": [
 "Clinical Trial",
+"Journal Article"
+]
+},
+"pmid:14715035": {
+"autoren": "Tudor-Locke C, Bassett DR.",
+"doi": "10.2165/00007256-200434010-00001",
+"iso": "Sports Med",
+"jahr": "2004",
+"journal": "Sports medicine (Auckland, N.Z.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Monitoring, Ambulatory",
+"Walking",
+"Motor Activity",
+"Goals",
+"Public Health",
+"Age Factors",
+"Reference Standards",
+"Physical Fitness"
+],
+"pmcid": "",
+"pmid": "14715035",
+"quelle": "MED",
+"titel": "How many steps/day are enough? Preliminary pedometer indices for public health.",
+"typen": [
+"Review",
 "Journal Article"
 ]
 },
@@ -20925,6 +21085,35 @@
 "Journal Article"
 ]
 },
+"pmid:16449365": {
+"autoren": "Pittler MH, Karagülle MZ, Karagülle M, Ernst E.",
+"doi": "10.1093/rheumatology/kel018",
+"iso": "Rheumatology (Oxford)",
+"jahr": "2006",
+"journal": "Rheumatology (Oxford, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Low Back Pain",
+"Chronic Disease",
+"Treatment Outcome",
+"Balneology",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "",
+"pmid": "16449365",
+"quelle": "MED",
+"titel": "Spa therapy and balneotherapy for treating low back pain: meta-analysis of randomized trials.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:16456196": {
 "autoren": "Newman AB, Kupelian V, Visser M, Simonsick EM, Goodpaster BH, Kritchevsky SB, Tylavsky FA, Rubin SM, Harris TB.",
 "doi": "10.1093/gerona/61.1.72",
@@ -21364,6 +21553,41 @@
 "Research Support, Non-U.S. Gov't",
 "research-article",
 "Journal Article"
+]
+},
+"pmid:16545122": {
+"autoren": "Lao CD, Ruffin MT, Normolle D, Heath DD, Murray SI, Bailey JM, Boggs ME, Crowell J, Rock CL, Brenner DE.",
+"doi": "10.1186/1472-6882-6-10",
+"iso": "BMC Complement Altern Med",
+"jahr": "2006",
+"journal": "BMC complementary and alternative medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Curcumin",
+"Anti-Inflammatory Agents, Non-Steroidal",
+"Plant Extracts",
+"Antineoplastic Agents",
+"Administration, Oral",
+"Maximum Tolerated Dose",
+"Biological Availability",
+"Dose-Response Relationship, Drug",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC1434783",
+"pmid": "16545122",
+"quelle": "MED",
+"titel": "Dose escalation of a curcuminoid formulation.",
+"typen": [
+"Clinical Trial",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:16554972": {
@@ -31167,6 +31391,35 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:20834180": {
+"autoren": "Nagano M, Shimizu K, Kondo R, Hayashi C, Sato D, Kitagawa K, Ohnuki K.",
+"doi": "10.2220/biomedres.31.231",
+"iso": "Biomed Res",
+"jahr": "2010",
+"journal": "Biomedical research (Tokyo, Japan)",
+"korr": [],
+"mesh": [
+"Humans",
+"Agaricales",
+"Nerve Growth Factor",
+"Drug Administration Schedule",
+"Double-Blind Method",
+"Depression",
+"Anxiety",
+"Menopause",
+"Adult",
+"Middle Aged",
+"Female"
+],
+"pmcid": "",
+"pmid": "20834180",
+"quelle": "MED",
+"titel": "Reduction of depression and anxiety by 4 weeks Hericium erinaceus intake.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:20838622": {
 "autoren": "Smith AD, Smith SM, de Jager CA, Whitbread P, Johnston C, Agacinski G, Oulhaj A, Bradley KM, Jacoby R, Refsum H.",
 "doi": "10.1371/journal.pone.0012244",
@@ -34141,6 +34394,56 @@
 "quelle": "MED",
 "titel": "Effect of tart cherry juice (Prunus cerasus) on melatonin levels and enhanced sleep quality.",
 "typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:22055504": {
+"autoren": "Timmers S, Konings E, Bilet L, Houtkooper RH, van de Weijer T, Goossens GH, Hoeks J, van der Krieken S, Ryu D, Kersten S, Moonen-Kornips E, Hesselink MKC, Kunz I, Schrauwen-Hinderling VB, Blaak E, Auwerx J, Schrauwen P.",
+"doi": "10.1016/j.cmet.2011.10.002",
+"iso": "Cell Metab",
+"jahr": "2011",
+"journal": "Cell metabolism",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Liver",
+"Adipose Tissue",
+"Mitochondria, Muscle",
+"Humans",
+"Obesity",
+"Glycerol",
+"Stilbenes",
+"Citrate (si)-Synthase",
+"Alanine Transaminase",
+"Protein Kinases",
+"Blood Glucose",
+"Fatty Acids",
+"Triglycerides",
+"Heat-Shock Proteins",
+"Transcription Factors",
+"Caloric Restriction",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Energy Metabolism",
+"Blood Pressure",
+"Middle Aged",
+"Netherlands",
+"Switzerland",
+"Male",
+"Sirtuin 1",
+"Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha",
+"Resveratrol",
+"AMP-Activated Protein Kinase Kinases"
+],
+"pmcid": "PMC3880862",
+"pmid": "22055504",
+"quelle": "MED",
+"titel": "Calorie restriction-like effects of 30 days of resveratrol supplementation on energy metabolism and metabolic profile in obese humans.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -44929,6 +45232,44 @@
 "Journal Article"
 ]
 },
+"pmid:25724700": {
+"autoren": "Lang A, Salomon N, Wu JC, Kopylov U, Lahat A, Har-Noy O, Ching JY, Cheong PK, Avidan B, Gamus D, Kaimakliotis I, Eliakim R, Ng SC, Ben-Horin S.",
+"doi": "10.1016/j.cgh.2015.02.019",
+"iso": "Clin Gastroenterol Hepatol",
+"jahr": "2015",
+"journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+"korr": [],
+"mesh": [
+"Humans",
+"Colitis, Ulcerative",
+"Mesalamine",
+"Curcumin",
+"Anti-Inflammatory Agents, Non-Steroidal",
+"Placebos",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Administration, Oral",
+"Double-Blind Method",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Drug-Related Side Effects and Adverse Reactions"
+],
+"pmcid": "",
+"pmid": "25724700",
+"quelle": "MED",
+"titel": "Curcumin in Combination With Mesalamine Induces Remission in Patients With Mild-to-Moderate Ulcerative Colitis in a Randomized Controlled Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:25738459": {
 "autoren": "Lee C, Zeng J, Drew BG, Sallam T, Martin-Montalvo A, Wan J, Kim SJ, Mehta H, Hevener AL, de Cabo R, de Cabo R, Cohen P.",
 "doi": "10.1016/j.cmet.2015.02.009",
@@ -45001,6 +45342,52 @@
 "research-article",
 "Validation Study",
 "Evaluation Study",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:25754370": {
+"autoren": "Zhu Y, Tchkonia T, Pirtskhalava T, Gower AC, Ding H, Giorgadze N, Palmer AK, Ikeno Y, Hubbard GB, Lenburg M, O'Hara SP, LaRusso NF, Miller JD, Roos CM, Verzosa GC, LeBrasseur NK, Wren JD, Farr JN, Khosla S, Stout MB, McGowan SJ, Fuhrmann-Stroissnigg H, Gurkar AU, Zhao J, Colangelo D, Dorronsoro A, Ling YY, Barghouthy AS, Navarro DC, Sano T, Robbins PD, Niedernhofer LJ, Kirkland JL.",
+"doi": "10.1111/acel.12344",
+"iso": "Aging Cell",
+"jahr": "2015",
+"journal": "Aging cell",
+"korr": [],
+"mesh": [
+"Carotid Arteries",
+"Heart",
+"Adipocytes",
+"Fibroblasts",
+"Endothelial Cells",
+"Mesenchymal Stem Cells",
+"Animals",
+"Mice, Knockout",
+"Mice",
+"Osteoporosis",
+"Quercetin",
+"Endonucleases",
+"Ephrins",
+"Plasminogen Activator Inhibitor 2",
+"DNA-Binding Proteins",
+"Drug Combinations",
+"Gene Expression Profiling",
+"Aging",
+"Cyclin-Dependent Kinase Inhibitor p21",
+"bcl-X Protein",
+"Phosphatidylinositol 3-Kinases",
+"Class I Phosphatidylinositol 3-Kinases",
+"Intervertebral Disc",
+"Transcriptome",
+"Dasatinib",
+"Cellular Senescence"
+],
+"pmcid": "PMC4531078",
+"pmid": "25754370",
+"quelle": "MED",
+"titel": "The Achilles' heel of senescent cells: from transcriptome to senolytic drugs.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
 ]
@@ -46173,6 +46560,38 @@
 "Journal Article"
 ]
 },
+"pmid:26168314": {
+"autoren": "Bianchi DW, Chudova D, Sehnert AJ, Bhatt S, Murray K, Prosen TL, Garber JE, Wilkins-Haug L, Vora NL, Warsof S, Goldberg J, Ziainia T, Halks-Miller M.",
+"doi": "10.1001/jama.2015.7120",
+"iso": "JAMA",
+"jahr": "2015",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Chromosome Disorders",
+"Aneuploidy",
+"DNA",
+"False Positive Reactions",
+"Prenatal Diagnosis",
+"Incidental Findings",
+"Sequence Analysis, DNA",
+"Pregnancy",
+"Adult",
+"Female",
+"Genetic Testing",
+"High-Throughput Nucleotide Sequencing"
+],
+"pmcid": "",
+"pmid": "26168314",
+"quelle": "MED",
+"titel": "Noninvasive Prenatal Testing and Incidental Detection of Occult Maternal Malignancies.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:26170041": {
 "autoren": "Bauer JM, Verlaan S, Bautmans I, Brandt K, Donini LM, Maggio M, McMurdo ME, Mets T, Seal C, Wijers SL, Ceda GP, De Vito G, Donders G, Drey M, Greig C, Holmbäck U, Narici M, McPhee J, Poggiogalle E, Power D, Scafoglieri A, Schultz R, Sieber CC, Cederholm T.",
 "doi": "10.1016/j.jamda.2015.05.021",
@@ -46367,6 +46786,40 @@
 "Journal Article"
 ]
 },
+"pmid:26189645": {
+"autoren": "Li Z, Henning SM, Lee RP, Lu QY, Summanen PH, Thames G, Corbett K, Downes J, Tseng CH, Finegold SM, Heber D.",
+"doi": "10.1039/c5fo00669d",
+"iso": "Food Funct",
+"jahr": "2015",
+"journal": "Food & function",
+"korr": [],
+"mesh": [
+"Gastrointestinal Tract",
+"Feces",
+"Humans",
+"Bacteria",
+"Lythraceae",
+"Hydrolyzable Tannins",
+"Coumarins",
+"Ellagic Acid",
+"Plant Extracts",
+"Adult",
+"Female",
+"Male",
+"Young Adult",
+"Healthy Volunteers",
+"Gastrointestinal Microbiome"
+],
+"pmcid": "",
+"pmid": "26189645",
+"quelle": "MED",
+"titel": "Pomegranate extract induces ellagitannin metabolite formation and changes stool microbiota in healthy volunteers.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:26234470": {
 "autoren": "Zvejniece L, Vavers E, Svalbe B, Veinberg G, Rizhanova K, Liepins V, Kalvinsh I, Dambrova M.",
 "doi": "10.1016/j.pbb.2015.07.014",
@@ -46530,6 +46983,40 @@
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:26278051": {
+"autoren": "Jedrychowski MP, Wrann CD, Paulo JA, Gerber KK, Szpyt J, Robinson MM, Nair KS, Gygi SP, Spiegelman BM.",
+"doi": "10.1016/j.cmet.2015.08.001",
+"iso": "Cell Metab",
+"jahr": "2015",
+"journal": "Cell metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Peptides",
+"Fibronectins",
+"Body Mass Index",
+"Exercise",
+"Chromatography, High Pressure Liquid",
+"Electrophoresis, Polyacrylamide Gel",
+"Isotope Labeling",
+"Amino Acid Sequence",
+"Molecular Sequence Data",
+"Adult",
+"Male",
+"Tandem Mass Spectrometry",
+"Young Adult"
+],
+"pmcid": "PMC4802359",
+"pmid": "26278051",
+"quelle": "MED",
+"titel": "Detection and Quantitation of Circulating Human Irisin by Tandem Mass Spectrometry.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:26280221": {
@@ -50707,6 +51194,36 @@
 "Journal Article"
 ]
 },
+"pmid:27874859": {
+"autoren": "Rebo J, Mehdipour M, Gathwala R, Causey K, Liu Y, Conboy MJ, Conboy IM.",
+"doi": "10.1038/ncomms13363",
+"iso": "Nat Commun",
+"jahr": "2016",
+"journal": "Nature communications",
+"korr": [],
+"mesh": [
+"Stem Cells",
+"Animals",
+"Mice, Inbred C57BL",
+"Mice",
+"Blood Transfusion",
+"Rejuvenation",
+"Aging",
+"Physical Endurance",
+"Male",
+"Cellular Senescence"
+],
+"pmcid": "PMC5121415",
+"pmid": "27874859",
+"quelle": "MED",
+"titel": "A single heterochronic blood exchange reveals rapid inhibition of multiple tissues by old blood.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:27881567": {
 "autoren": "Ross R, Blair SN, Arena R, Church TS, Després JP, Franklin BA, Haskell WL, Kaminsky LA, Levine BD, Lavie CJ, Myers J, Niebauer J, Sallis R, Sawada SS, Sui X, Wisløff U, American Heart Association Physical Activity Committee of the Council on Lifestyle and Cardiometabolic Health, Council on Clinical Cardiology, Council on Epidemiology and Prevention, Council on Cardiovascular and Stroke Nursing, Council on Functional Genomics and Translational Biology, Stroke Council.",
 "doi": "10.1161/cir.0000000000000461",
@@ -50770,6 +51287,46 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:27892954": {
+"autoren": "Plovier H, Everard A, Druart C, Depommier C, Van Hul M, Geurts L, Chilloux J, Ottman N, Duparc T, Lichtenstein L, Myridakis A, Delzenne NM, Klievink J, Bhattacharjee A, van der Ark KC, Aalvink S, Martinez LO, Dumas ME, Maiter D, Loumaye A, Hermans MP, Thissen JP, Belzer C, de Vos WM, Cani PD.",
+"doi": "10.1038/nm.4236",
+"iso": "Nat Med",
+"jahr": "2017",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Intestines",
+"Intestinal Mucosa",
+"Adipose Tissue",
+"Animals",
+"Humans",
+"Mice, Obese",
+"Diabetes Mellitus, Type 2",
+"Insulin Resistance",
+"Obesity",
+"Disease Models, Animal",
+"Blood Glucose",
+"Membrane Proteins",
+"Blotting, Western",
+"Chromatography, Liquid",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Dyslipidemias",
+"Toll-Like Receptor 2",
+"Verrucomicrobia",
+"Metabolic Syndrome"
+],
+"pmcid": "",
+"pmid": "27892954",
+"quelle": "MED",
+"titel": "A purified membrane protein from Akkermansia muciniphila or the pasteurized bacterium improves metabolism in obese and diabetic mice.",
+"typen": [
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -52072,6 +52629,44 @@
 "titel": "B7-33 replicates the vasoprotective functions of human relaxin-2 (serelaxin).",
 "typen": [
 "Journal Article"
+]
+},
+"pmid:28484010": {
+"autoren": "Hootman KC, Trezzi JP, Kraemer L, Burwell LS, Dong X, Guertin KA, Jaeger C, Stover PJ, Hiller K, Cassano PA.",
+"doi": "10.1073/pnas.1620079114",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "2017",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Weight Gain",
+"Erythritol",
+"Glucose",
+"Prospective Studies",
+"Students",
+"Universities",
+"Adolescent",
+"Adult",
+"Female",
+"Male",
+"Pentose Phosphate Pathway",
+"Adiposity",
+"Gas Chromatography-Mass Spectrometry",
+"Metabolomics",
+"Young Adult",
+"Glycated Hemoglobin"
+],
+"pmcid": "PMC5448202",
+"pmid": "28484010",
+"quelle": "MED",
+"titel": "Erythritol is a pentose-phosphate pathway metabolite and associated with adiposity gain in young adults.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:28509500": {
@@ -56030,6 +56625,39 @@
 "Journal Article"
 ]
 },
+"pmid:29988130": {
+"autoren": "Xu M, Pirtskhalava T, Farr JN, Weigand BM, Palmer AK, Weivoda MM, Inman CL, Ogrodnik MB, Hachfeld CM, Fraser DG, Onken JL, Johnson KO, Verzosa GC, Langhi LGP, Weigl M, Giorgadze N, LeBrasseur NK, Miller JD, Jurk D, Singh RJ, Allison DB, Ejima K, Hubbard GB, Ikeno Y, Cubro H, Garovic VD, Hou X, Weroha SJ, Robbins PD, Niedernhofer LJ, Khosla S, Tchkonia T, Kirkland JL.",
+"doi": "10.1038/s41591-018-0092-9",
+"iso": "Nat Med",
+"jahr": "2018",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Adipose Tissue",
+"Animals",
+"Mice, Inbred C57BL",
+"Quercetin",
+"Inflammation Mediators",
+"Cytokines",
+"Cell Transplantation",
+"Survival Analysis",
+"Longevity",
+"Stress, Physiological",
+"Diet, High-Fat",
+"Dasatinib",
+"Cellular Senescence"
+],
+"pmcid": "PMC6082705",
+"pmid": "29988130",
+"quelle": "MED",
+"titel": "Senolytics improve physical function and increase lifespan in old age.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:29992272": {
 "autoren": "Dollerup OL, Christensen B, Svart M, Schmidt MS, Sulek K, Ringgaard S, Stødkilde-Jørgensen H, Møller N, Brenner C, Treebak JT, Jessen N.",
 "doi": "10.1093/ajcn/nqy132",
@@ -56230,6 +56858,41 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Journal Article"
+]
+},
+"pmid:30085938": {
+"autoren": "Simpson AN, Matthews LJ, Cassarly C, Dubno JR.",
+"doi": "10.1097/aud.0000000000000641",
+"iso": "Ear Hear",
+"jahr": "2019",
+"journal": "Ear and hearing",
+"korr": [],
+"mesh": [
+"Humans",
+"Hearing Loss",
+"Audiometry, Pure-Tone",
+"Speech Reception Threshold Test",
+"Cohort Studies",
+"Longitudinal Studies",
+"Prospective Studies",
+"Hearing Aids",
+"Health Behavior",
+"Time Factors",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Time-to-Treatment"
+],
+"pmcid": "PMC6363915",
+"pmid": "30085938",
+"quelle": "MED",
+"titel": "Time From Hearing Aid Candidacy to Hearing Aid Adoption: A Longitudinal Cohort Study.",
+"typen": [
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:30093705": {
@@ -66620,6 +67283,33 @@
 "Journal Article"
 ]
 },
+"pmid:33506766": {
+"autoren": "Liu MC, Oxnard GR, Klein EA, Swanton C, Seiden MV, CCGA Consortium.",
+"doi": "10.1016/j.annonc.2020.02.011",
+"iso": "Ann Oncol",
+"jahr": "2020",
+"journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"DNA, Neoplasm",
+"Prospective Studies",
+"DNA Methylation",
+"Female",
+"Biomarkers, Tumor",
+"Cell-Free Nucleic Acids"
+],
+"pmcid": "PMC8274402",
+"pmid": "33506766",
+"quelle": "MED",
+"titel": "Sensitive and specific multi-cancer detection and localization using methylation signatures in cell-free DNA.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:33509667": {
 "autoren": "Wilms E, An R, Smolinska A, Stevens Y, Weseler AR, Elizalde M, Drittij MJ, Ioannou A, van Schooten FJ, Smidt H, Masclee AAM, Zoetendal EG, Jonkers DMAE.",
 "doi": "10.1016/j.clnu.2020.12.034",
@@ -68126,6 +68816,49 @@
 "Journal Article"
 ]
 },
+"pmid:34176681": {
+"autoren": "Klein EA, Richards D, Cohn A, Tummala M, Lapham R, Cosgrove D, Chung G, Clement J, Gao J, Hunkapiller N, Jamshidi A, Kurtzman KN, Seiden MV, Swanton C, Liu MC.",
+"doi": "10.1016/j.annonc.2021.05.806",
+"iso": "Ann Oncol",
+"jahr": "2021",
+"journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Prospective Studies",
+"DNA Methylation",
+"Oncogenes",
+"Early Detection of Cancer",
+"Biomarkers, Tumor"
+],
+"pmcid": "",
+"pmid": "34176681",
+"quelle": "MED",
+"titel": "Clinical validation of a targeted methylation-based multi-cancer early detection test using an independent validation set.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article",
+"Observational Study"
+]
+},
+"pmid:34177073": {
+"autoren": "Xiang J, Hao J, Austin E, Shirai J, Seto E.",
+"doi": "10.1016/j.buildenv.2021.108002",
+"iso": "Build Environ",
+"jahr": "2021",
+"journal": "Building and environment",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC8224830",
+"pmid": "34177073",
+"quelle": "MED",
+"titel": "Residential cooking-related PM<sub>2.5</sub>: Spatial-temporal variations under various intervention scenarios.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:34195023": {
 "autoren": "Szychowski KA, Skóra B, Pomianek T, Gmiński J.",
 "doi": "10.1016/j.jtcme.2020.08.003",
@@ -68201,6 +68934,41 @@
 "titel": "Oral Hyaluronan Relieves Wrinkles and Improves Dry Skin: A 12-Week Double-Blinded, Placebo-Controlled Study.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:34207484": {
+"autoren": "Tamura Y, Takata K, Matsubara K, Kataoka Y.",
+"doi": "10.3390/nu13062091",
+"iso": "Nutrients",
+"jahr": "2021",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Brain",
+"Humans",
+"Dopamine",
+"Glycerylphosphorylcholine",
+"Single-Blind Method",
+"Depression",
+"Emotions",
+"Anxiety",
+"Motivation",
+"Reward",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Healthy Volunteers"
+],
+"pmcid": "PMC8235064",
+"pmid": "34207484",
+"quelle": "MED",
+"titel": "Alpha-Glycerylphosphorylcholine Increases Motivation in Healthy Volunteers: A Single-Blind, Randomized, Placebo-Controlled Human Study.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -74133,6 +74901,34 @@
 "Journal Article"
 ]
 },
+"pmid:36708381": {
+"autoren": "Tefner IK, Bender T, Kleiber J, Hodosi K, Gáti T.",
+"doi": "10.1007/s00484-023-02433-3",
+"iso": "Int J Biometeorol",
+"jahr": "2023",
+"journal": "International journal of biometeorology",
+"korr": [],
+"mesh": [
+"Humans",
+"Low Back Pain",
+"Bicarbonates",
+"Radon",
+"Calcium",
+"Minerals",
+"Treatment Outcome",
+"Follow-Up Studies",
+"Immersion",
+"Quality of Life",
+"Mineral Waters"
+],
+"pmcid": "",
+"pmid": "36708381",
+"quelle": "MED",
+"titel": "The effects of immersion in 42℃ radon, natrium, calcium, bicarbonate content thermal-mineral water on chronic low back pain. Controlled, follow-up study.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:367090": {
 "autoren": "Lockner D.",
 "doi": "10.1111/j.0954-6820.1979.tb06010.x",
@@ -75712,6 +76508,34 @@
 "Journal Article"
 ]
 },
+"pmid:37244291": {
+"autoren": "Yeung LK, Alschuler DM, Wall M, Luttmann-Gibson H, Copeland T, Hale C, Sloan RP, Sesso HD, Manson JE, Brickman AM.",
+"doi": "10.1016/j.ajcnut.2023.05.011",
+"iso": "Am J Clin Nutr",
+"jahr": "2023",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Vitamins",
+"Cross-Sectional Studies",
+"Double-Blind Method",
+"Cognition",
+"Dietary Supplements",
+"Aged"
+],
+"pmcid": "PMC10375458",
+"pmid": "37244291",
+"quelle": "MED",
+"titel": "Multivitamin Supplementation Improves Memory in Older Adults: A Randomized Clinical Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:37259294": {
 "autoren": "Todorovic N, Fernández-Landa J, Santibañez A, Kura B, Stajer V, Korovljev D, Ostojic SM.",
 "doi": "10.3390/ph16020142",
@@ -76648,6 +77472,26 @@
 "Journal Article"
 ]
 },
+"pmid:37549996": {
+"autoren": "Stamatakis E, Ahmadi M, Murphy MH, Chico TJ, Milton K, Del Pozo Cruz B, Katzmarzyk PT, Lee IM, Gill J.",
+"doi": "10.1136/bjsports-2023-106869",
+"iso": "Br J Sports Med",
+"jahr": "2023",
+"journal": "British journal of sports medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise",
+"Walking"
+],
+"pmcid": "",
+"pmid": "37549996",
+"quelle": "MED",
+"titel": "Journey of a thousand miles: from 'Manpo-Kei' to the first steps-based physical activity recommendations.",
+"typen": [
+"Editorial"
+]
+},
 "pmid:37572027": {
 "autoren": "Tagen M, Mantuani D, van Heerden L, Holstein A, Klumpers LE, Knowles R.",
 "doi": "10.1177/02698811231190865",
@@ -77383,6 +78227,32 @@
 "Journal Article"
 ]
 },
+"pmid:37813884": {
+"autoren": "Robin A, Van Ombergen A, Laurens C, Bergouignan A, Vico L, Linossier MT, Pavy-Le Traon A, Kermorgant M, Chopard A, Py G, Green DA, Tipton M, Tipton M, Choukér A, Denise P, Normand H, Blanc S, Simon C, Rosnet E, Larcher F, Fernandez P, de Glisezinski I, Larrouy D, Harant-Farrugia I, Antunes I, Gauquelin-Koch G, Bareille MP, Billette De Villemeur R, Custaud MA, Navasiolava N.",
+"doi": "10.1038/s41467-023-41990-4",
+"iso": "Nat Commun",
+"jahr": "2023",
+"journal": "Nature communications",
+"korr": [],
+"mesh": [
+"Humans",
+"Immersion",
+"Weightlessness Simulation",
+"Cardiovascular Deconditioning",
+"Weightlessness",
+"Space Flight",
+"Female"
+],
+"pmcid": "PMC10562467",
+"pmid": "37813884",
+"quelle": "MED",
+"titel": "Comprehensive assessment of physiological responses in women during the ESA dry immersion VIVALDI microgravity simulation.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:37818733": {
 "autoren": "Ziganshina LE, Abakumova T, Nurkhametova D, Ivanchenko K.",
 "doi": "10.1002/14651858.cd007026.pub7",
@@ -77633,6 +78503,32 @@
 "titel": "The impact of floatation therapy on body image and anxiety in anorexia nervosa: a randomised clinical efficacy trial.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:37939167": {
+"autoren": "Khafagy R, Paterson AD, Dash S.",
+"doi": "10.2337/db23-0330",
+"iso": "Diabetes",
+"jahr": "2024",
+"journal": "Diabetes",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Body Mass Index",
+"Risk Factors",
+"Prospective Studies",
+"Polymorphism, Single Nucleotide",
+"Coronary Artery Disease",
+"Genome-Wide Association Study",
+"Mendelian Randomization Analysis"
+],
+"pmcid": "",
+"pmid": "37939167",
+"quelle": "MED",
+"titel": "Erythritol as a Potential Causal Contributor to Cardiometabolic Disease: A Mendelian Randomization Study.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -78201,6 +79097,23 @@
 "titel": "A systematic review of phenibut withdrawal focusing on complications, therapeutic approaches, and single substance versus polysubstance withdrawal.",
 "typen": [
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:38125972": {
+"autoren": "EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Castle L, Degen G, Engel KH, Fowler PJ, Frutos Fernandez MJ, Fürst P, Gundert-Remy U, Gürtler R, Husøy T, Manco M, Mennes W, Moldeus P, Passamonti S, Shah R, Waalkens-Berendsen I, Wright M, Batke M, Boon P, Bruzell E, Chipman J, Crebelli R, FitzGerald R, Fortes C, Halldorsson T, Halldorsson T, LeBlanc JC, Lindtner O, Mortensen A, Ntzani E, Wallace H, Barmaz S, Civitella C, D'Angelo L, Lodi F, Laganaro M, Rincon AM, Smeraldi C, Tard A.",
+"doi": "10.2903/j.efsa.2023.8430",
+"iso": "EFSA J",
+"jahr": "2023",
+"journal": "EFSA journal. European Food Safety Authority",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC10731997",
+"pmid": "38125972",
+"quelle": "MED",
+"titel": "Re-evaluation of erythritol (E 968) as a food additive.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -79060,6 +79973,34 @@
 "Journal Article"
 ]
 },
+"pmid:38430364": {
+"autoren": "Pienihäkkinen K, Hietala-Lenkkeri A, Arpalahti I, Söderling E.",
+"doi": "10.1007/s40368-024-00875-w",
+"iso": "Eur Arch Paediatr Dent",
+"jahr": "2024",
+"journal": "European archives of paediatric dentistry : official journal of the European Academy of Paediatric Dentistry",
+"korr": [],
+"mesh": [
+"Humans",
+"Dental Caries",
+"Xylitol",
+"Cariostatic Agents",
+"Sweetening Agents",
+"Candy",
+"Chewing Gum",
+"Adolescent",
+"Child"
+],
+"pmcid": "PMC11058973",
+"pmid": "38430364",
+"quelle": "MED",
+"titel": "The effect of xylitol chewing gums and candies on caries occurrence in children: a systematic review with special reference to caries level at study baseline.",
+"typen": [
+"Systematic Review",
+"review-article",
+"Journal Article"
+]
+},
 "pmid:38431155": {
 "autoren": "Hayward G, Yu LM, Little P, Gbinigie O, Shanyinde M, Harris V, Dorward J, Saville BR, Berry N, Evans PH, Thomas NPB, Patel MG, Richards D, Hecke OV, Detry MA, Saunders C, Fitzgerald M, Robinson J, Latimer-Bell C, Allen J, Ogburn E, Grabey J, de Lusignan S, Hobbs FR, Butler CC, PRINCIPLE Trial Collaborative Group.",
 "doi": "10.1016/j.jinf.2024.106130",
@@ -79513,6 +80454,38 @@
 "case-report"
 ]
 },
+"pmid:38714898": {
+"autoren": "Bermingham KM, Linenberg I, Polidori L, Asnicar F, Arrè A, Wolf J, Badri F, Bernard H, Capdevila J, Bulsiewicz WJ, Gardner CD, Ordovas JM, Davies R, Hadjigeorgiou G, Hall WL, Delahanty LM, Valdes AM, Segata N, Spector TD, Berry SE.",
+"doi": "10.1038/s41591-024-02951-6",
+"iso": "Nat Med",
+"jahr": "2024",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Blood Glucose",
+"Triglycerides",
+"Diet",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Precision Medicine"
+],
+"pmcid": "PMC11271409",
+"pmid": "38714898",
+"quelle": "MED",
+"titel": "Effects of a personalized nutrition program on cardiometabolic health: a randomized controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:38716080": {
 "autoren": "Thomas A, Thilmany S, Hofmann A, Thevis M.",
 "doi": "10.1002/ansa.202200027",
@@ -79887,6 +80860,39 @@
 "pmid": "38841367",
 "quelle": "MED",
 "titel": "Small pouches, but high nicotine doses-nicotine delivery and acute effects after use of tobacco-free nicotine pouches.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:38842092": {
+"autoren": "Witkowski M, Nemet I, Li XS, Wilcox J, Ferrell M, Alamri H, Gupta N, Wang Z, Tang WHW, Hazen SL.",
+"doi": "10.1093/eurheartj/ehae244",
+"iso": "Eur Heart J",
+"jahr": "2024",
+"journal": "European heart journal",
+"korr": [],
+"mesh": [
+"Blood Platelets",
+"Animals",
+"Humans",
+"Cardiovascular Diseases",
+"Thrombosis",
+"Xylitol",
+"Sweetening Agents",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Tandem Mass Spectrometry",
+"Metabolomics",
+"Heart Disease Risk Factors"
+],
+"pmcid": "PMC11492277",
+"pmid": "38842092",
+"quelle": "MED",
+"titel": "Xylitol is prothrombotic and associated with cardiovascular risk.",
 "typen": [
 "research-article",
 "Journal Article"
@@ -80543,6 +81549,23 @@
 "Journal Article"
 ]
 },
+"pmid:39082657": {
+"autoren": "Shin JY, Han D, Yoon KY, Jeong DH, Park YI.",
+"doi": "10.5021/ad.23.136",
+"iso": "Ann Dermatol",
+"jahr": "2024",
+"journal": "Annals of dermatology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11291098",
+"pmid": "39082657",
+"quelle": "MED",
+"titel": "Clinical Safety and Efficacy Evaluation of a Dissolving Microneedle Patch Having Dual Anti-Wrinkle Effects With Safe and Long-Term Activities.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:39082868": {
 "autoren": "Böhm M, Robert C, Malhotra S, Clément K, Farooqi S.",
 "doi": "10.1111/jdv.20269",
@@ -80851,6 +81874,23 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:39172446": {
+"autoren": "Pinkerton JV, Simon JA, Joffe H, Maki PM, Nappi RE, Panay N, Soares CN, Thurston RC, Caetano C, Haberland C, Haseli Mashhadi N, Krahn U, Mellinger U, Parke S, Seitz C, Zuurman L.",
+"doi": "10.1001/jama.2024.14618",
+"iso": "JAMA",
+"jahr": "2024",
+"journal": "JAMA",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11342219",
+"pmid": "39172446",
+"quelle": "MED",
+"titel": "Elinzanetant for the Treatment of Vasomotor Symptoms Associated With Menopause: OASIS 1 and 2 Randomized Clinical Trials.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:39197881": {
 "autoren": "Shin A, Koo BK, Lee JY, Kang EH.",
 "doi": "10.1136/bmj-2024-079475",
@@ -80883,6 +81923,40 @@
 "titel": "Risk of dementia after initiation of sodium-glucose cotransporter-2 inhibitors versus dipeptidyl peptidase-4 inhibitors in adults aged 40-69 years with type 2 diabetes: population based cohort study.",
 "typen": [
 "Comparative Study",
+"research-article",
+"Journal Article"
+]
+},
+"pmid:39230875": {
+"autoren": "Heianza Y, Sun Q, Wang X, Tiwari S, Watrous JD, Rexrode KM, Alotaibi M, Jain M, Mora S, Willett WC, Qi L, Manson JE.",
+"doi": "10.1093/eurjpc/zwae288",
+"iso": "Eur J Prev Cardiol",
+"jahr": "2025",
+"journal": "European journal of preventive cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Coronary Disease",
+"Erythritol",
+"Mannitol",
+"Sorbitol",
+"Polymers",
+"Incidence",
+"Risk Assessment",
+"Risk Factors",
+"Case-Control Studies",
+"Prospective Studies",
+"Adult",
+"Middle Aged",
+"United States",
+"Female",
+"Biomarkers"
+],
+"pmcid": "PMC11962730",
+"pmid": "39230875",
+"quelle": "MED",
+"titel": "Plasma levels of polyols erythritol, mannitol, and sorbitol and incident coronary heart disease among women.",
+"typen": [
 "research-article",
 "Journal Article"
 ]
@@ -81216,6 +82290,23 @@
 "typen": [
 "Journal Article",
 "Case Reports"
+]
+},
+"pmid:39434750": {
+"autoren": "Saffati G, Kassab J, Orozco Rendon D, Hinojosa-Gonzalez DE, Kronstedt S, Lipshultz LI, Khera M.",
+"doi": "10.21037/tau-24-238",
+"iso": "Transl Androl Urol",
+"jahr": "2024",
+"journal": "Translational andrology and urology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11491226",
+"pmid": "39434750",
+"quelle": "MED",
+"titel": "Safety and efficacy of enclomiphene and clomiphene for hypogonadal men.",
+"typen": [
+"research-article",
+"Journal Article"
 ]
 },
 "pmid:3944066": {
@@ -81997,6 +83088,30 @@
 "Journal Article"
 ]
 },
+"pmid:39647502": {
+"autoren": "Porcari S, Mullish BH, Asnicar F, Ng SC, Zhao L, Hansen R, O'Toole PW, Raes J, Hold G, Putignani L, Hvas CL, Zeller G, Koren O, Tun H, Valles-Colomer M, Collado MC, Fischer M, Allegretti J, Iqbal T, Chassaing B, Keller J, Baunwall SM, Abreu M, Barbara G, Zhang F, Ponziani FR, Costello SP, Paramsothy S, Kao D, Kelly C, Kupcinskas J, Youngster I, Franceschi F, Khanna S, Vehreschild M, Link A, De Maio F, Pasolli E, Miguez AB, Brigidi P, Posteraro B, Scaldaferri F, Stojanovic MR, Megraud F, Malfertheiner P, Masucci L, Arumugam M, Kaakoush N, Segal E, Bajaj J, Leong R, Cryan J, Weersma RK, Knight R, Guarner F, Shanahan F, Cani PD, Elinav E, Sanguinetti M, de Vos WM, El-Omar E, Dorè J, Marchesi J, Tilg H, Sokol H, Segata N, Cammarota G, Gasbarrini A, Ianiro G.",
+"doi": "10.1016/s2468-1253(24)00311-x",
+"iso": "Lancet Gastroenterol Hepatol",
+"jahr": "2025",
+"journal": "The lancet. Gastroenterology & hepatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Microbiota",
+"Gastrointestinal Microbiome"
+],
+"pmcid": "PMC12343204",
+"pmid": "39647502",
+"quelle": "MED",
+"titel": "International consensus statement on microbiome testing in clinical practice.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Review",
+"Consensus Statement",
+"Journal Article"
+]
+},
 "pmid:39651688": {
 "autoren": "",
 "doi": "10.1111/cns.70169",
@@ -82095,6 +83210,37 @@
 "Journal Article"
 ]
 },
+"pmid:39683431": {
+"autoren": "Kang CH, Jung ES, Jung SJ, Han YH, Chae SW, Jeong DY, Kim BC, Lee SO, Yoon SJ.",
+"doi": "10.3390/nu16234037",
+"iso": "Nutrients",
+"jahr": "2024",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Double-Blind Method",
+"Probiotics",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Muscle Strength",
+"Sarcopenia",
+"Pasteurization",
+"Akkermansia"
+],
+"pmcid": "PMC11643799",
+"pmid": "39683431",
+"quelle": "MED",
+"titel": "Pasteurized &lt;i&gt;Akkermansia muciniphila&lt;/i&gt; HB05 (HB05P) Improves Muscle Strength and Function: A 12-Week, Randomized, Double-Blind, Placebo-Controlled Clinical Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:39683518": {
 "autoren": "Tucker RM, Kim N, Gurzell E, Mathi S, Chavva S, Senthilkumar D, Bartunek O, Fenton KC, Herndon-Fenton SJ, Cardino VN, Cooney GM, Young S, Fenton JI.",
 "doi": "10.3390/nu16234125",
@@ -82134,6 +83280,36 @@
 "Journal Article"
 ]
 },
+"pmid:39683633": {
+"autoren": "Kerksick CM.",
+"doi": "10.3390/nu16234240",
+"iso": "Nutrients",
+"jahr": "2024",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Humans",
+"Glycerylphosphorylcholine",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Cognition",
+"Dietary Supplements",
+"Adult",
+"Male",
+"Resistance Training",
+"Young Adult",
+"Healthy Volunteers"
+],
+"pmcid": "PMC11644786",
+"pmid": "39683633",
+"quelle": "MED",
+"titel": "Acute Alpha-Glycerylphosphorylcholine Supplementation Enhances Cognitive Performance in Healthy Men.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:39691209": {
 "autoren": "Besson C, De Stefani G, Baggish AL, Schmitt L, Millet G, Gremeaux V.",
 "doi": "10.1136/bmjsem-2024-002292",
@@ -82148,6 +83324,30 @@
 "titel": "Comparison of 1-hour floatation-REST versus conventional napping on heart rate variability in active individuals.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:39695869": {
+"autoren": "Rodriguez J, Cordaillat-Simmons M, Badalato N, Berger B, Breton H, de Lahondès R, Deschasaux-Tanguy M, Desvignes C, D'Humières C, Kampshoff S, Lavelle A, Metwaly A, Quijada NM, Seegers JFML, Udocor A, Zwart H, Human Microbiome Action Consortium, Maguin E, Doré J, Druart C.",
+"doi": "10.1186/s40168-024-01991-x",
+"iso": "Microbiome",
+"jahr": "2024",
+"journal": "Microbiome",
+"korr": [],
+"mesh": [
+"Feces",
+"Humans",
+"Reproducibility of Results",
+"Europe",
+"Microbiota"
+],
+"pmcid": "PMC11657758",
+"pmid": "39695869",
+"quelle": "MED",
+"titel": "Microbiome testing in Europe: navigating analytical, ethical and regulatory challenges.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"letter",
 "Journal Article"
 ]
 },
@@ -82369,6 +83569,36 @@
 "Journal Article"
 ]
 },
+"pmid:39818231": {
+"autoren": "Nadauld L, McDonnell CH, Dilaveri CA, Klein EA, Reid R, Marinac CR, Chung KC, Lopatin M, Fung ET, Schrag D, Patrick DL.",
+"doi": "10.1016/s1470-2045(24)00645-4",
+"iso": "Lancet Oncol",
+"jahr": "2025",
+"journal": "The Lancet. Oncology",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Prospective Studies",
+"Anxiety",
+"Quality of Life",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Early Detection of Cancer",
+"Patient Reported Outcome Measures"
+],
+"pmcid": "",
+"pmid": "39818231",
+"quelle": "MED",
+"titel": "Psychosocial impact associated with a multicancer early detection test (PATHFINDER): a prospective, multicentre, cohort study.",
+"typen": [
+"Clinical Trial",
+"Multicenter Study",
+"Journal Article"
+]
+},
 "pmid:39827344": {
 "autoren": "Kamgar E, Zembrzuska J, Zembrzuski W, Kaykhaii M.",
 "doi": "10.1186/s13065-025-01384-7",
@@ -82501,6 +83731,42 @@
 "Research Support, Non-U.S. Gov't",
 "research-article",
 "Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:39879980": {
+"autoren": "Zhang Y, Liu R, Chen Y, Cao Z, Liu C, Bao R, Wang Y, Huang S, Pan S, Qin L, Wang J, Ning G, Wang W.",
+"doi": "10.1016/j.cmet.2024.12.010",
+"iso": "Cell Metab",
+"jahr": "2025",
+"journal": "Cell metabolism",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Mice",
+"Diabetes Mellitus, Type 2",
+"Obesity",
+"Double-Blind Method",
+"Dietary Supplements",
+"Probiotics",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Overweight",
+"Verrucomicrobia",
+"Gastrointestinal Microbiome",
+"Akkermansia",
+"Glycated Hemoglobin"
+],
+"pmcid": "",
+"pmid": "39879980",
+"quelle": "MED",
+"titel": "Akkermansia muciniphila supplementation in patients with overweight/obese type 2 diabetes: Efficacy depends on its baseline levels in the gut.",
+"typen": [
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -84001,6 +85267,23 @@
 "Meta-Analysis",
 "Systematic Review",
 "review-article",
+"Journal Article"
+]
+},
+"pmid:40276537": {
+"autoren": "Surendran G, Saye J, Binti Mohd Jalil S, Spreadborough J, Duong K, Shatwan IM, Lilley D, Heinrich M, Dodd GF, Surendran S.",
+"doi": "10.3389/fnut.2025.1405796",
+"iso": "Front Nutr",
+"jahr": "2025",
+"journal": "Frontiers in nutrition",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12018234",
+"pmid": "40276537",
+"quelle": "MED",
+"titel": "Acute effects of a standardised extract of &lt;i&gt;Hericium erinaceus&lt;/i&gt; (Lion's Mane mushroom) on cognition and mood in healthy younger adults: a double-blind randomised placebo-controlled study.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -85800,6 +87083,36 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:40653151": {
+"autoren": "Auroux M, Debionne T, Mainbourg S, Chapurlat R.",
+"doi": "10.1016/j.jbspin.2025.105947",
+"iso": "Joint Bone Spine",
+"jahr": "2025",
+"journal": "Joint bone spine",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis, Knee",
+"Pain Measurement",
+"Treatment Outcome",
+"Injections, Intra-Articular",
+"Middle Aged",
+"Female",
+"Male",
+"Platelet-Rich Plasma",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "",
+"pmid": "40653151",
+"quelle": "MED",
+"titel": "Efficacy of intra-articular platelet-rich plasma compared with placebo in knee osteoarthritis: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Comparative Study",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -87835,6 +89148,24 @@
 "Journal Article"
 ]
 },
+"pmid:41080360": {
+"autoren": "Ali M.",
+"doi": "10.7759/cureus.92024",
+"iso": "Cureus",
+"jahr": "2025",
+"journal": "Cureus",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12514420",
+"pmid": "41080360",
+"quelle": "MED",
+"titel": "Tongkat Ali-Induced Atrial Flutter: A Probable Case.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:41090118": {
 "autoren": "Yuan F, Zhang P, Liu M, Li Y, Xu B, Li X.",
 "doi": "10.3389/fmed.2025.1634101",
@@ -87882,6 +89213,46 @@
 "titel": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
 "typen": [
 "methods-article",
+"Journal Article"
+]
+},
+"pmid:41092926": {
+"autoren": "GBD 2023 Disease and Injury and Risk Factor Collaborators.",
+"doi": "10.1016/s0140-6736(25)01637-x",
+"iso": "Lancet",
+"jahr": "2025",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Wounds and Injuries",
+"Life Expectancy",
+"Risk Factors",
+"Quality-Adjusted Life Years",
+"Adolescent",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Child",
+"Child, Preschool",
+"Infant",
+"Infant, Newborn",
+"Female",
+"Male",
+"Young Adult",
+"Global Health",
+"Global Burden of Disease",
+"COVID-19",
+"Disability-Adjusted Life Years",
+"Persons with Disabilities"
+],
+"pmcid": "PMC12535840",
+"pmid": "41092926",
+"quelle": "MED",
+"titel": "Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -87992,6 +89363,69 @@
 "typen": [
 "Meta-Analysis",
 "Review",
+"Journal Article"
+]
+},
+"pmid:41137360": {
+"autoren": "Sun Y, Sun D, Wu J, Peng Z, Jin J.",
+"doi": "10.1097/md.0000000000045187",
+"iso": "Medicine (Baltimore)",
+"jahr": "2025",
+"journal": "Medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Coronary Disease",
+"Erythritol",
+"Risk Factors",
+"Polymorphism, Single Nucleotide",
+"Venous Thromboembolism",
+"Genome-Wide Association Study",
+"Mendelian Randomization Analysis",
+"Ischemic Stroke"
+],
+"pmcid": "PMC12558269",
+"pmid": "41137360",
+"quelle": "MED",
+"titel": "Role of erythritol in coronary heart disease, ischemic stroke, and venous thromboembolism: A Mendelian randomization analysis.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:41138739": {
+"autoren": "Deanfield J, Lincoff AM, Kahn SE, Emerson SS, Lingvay I, Scirica BM, Plutzky J, Kushner RF, Colhoun HM, Hovingh GK, Stensen S, Weeke PE, Jeppesen OK, Bravo R, Wu CC, Komuro I, Santini F, Hjelmesæth J, Urina-Triana M, Buscemi S, Ryan DH.",
+"doi": "10.1016/s0140-6736(25)01375-3",
+"iso": "Lancet",
+"jahr": "2025",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Obesity",
+"Body Mass Index",
+"Treatment Outcome",
+"Double-Blind Method",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Adiposity",
+"Overweight",
+"Glucagon-Like Peptide 1",
+"Waist Circumference",
+"Glucagon-Like Peptide-1 Receptor Agonists",
+"Semaglutide"
+],
+"pmcid": "",
+"pmid": "41138739",
+"quelle": "MED",
+"titel": "Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -88128,6 +89562,36 @@
 "titel": "A Scoping Review of Glucose Spikes in People Without Diabetes: Comparing Insights from Grey Literature and Medical Research.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:41174221": {
+"autoren": "Denk D, Singh A, Kasler HG, D'Amico D, Rey J, Alcober-Boquet L, Gorol JM, Steup C, Tiwari R, Kwok R, Argüello RJ, Faitg J, Sprinzl K, Zeuzem S, Nekljudova V, Loibl S, Verdin E, Rinsch C, Greten FR.",
+"doi": "10.1038/s43587-025-00996-x",
+"iso": "Nat Aging",
+"jahr": "2025",
+"journal": "Nature aging",
+"korr": [],
+"mesh": [
+"CD8-Positive T-Lymphocytes",
+"Humans",
+"Coumarins",
+"Cytokines",
+"Double-Blind Method",
+"Aging",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Mitophagy"
+],
+"pmcid": "PMC12618261",
+"pmid": "41174221",
+"quelle": "MED",
+"titel": "Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -88699,6 +90163,31 @@
 "Journal Article"
 ]
 },
+"pmid:41399933": {
+"autoren": "Tran AH, Zaidi AH, Bolger AF, Del Brutto OH, Hegde R, Patton LL, Rausch J, Zachariah JP, American Heart Association Cardiovascular Disease Prevention Committee of the Council on Lifelong Congenital Heart Disease and Heart Health in the Young; Council on Clinical Cardiology; Stroke Council; Council on Basic Cardiovascular Sciences; and Council on Cardiovascular and Stroke Nursing.",
+"doi": "10.1161/cir.0000000000001390",
+"iso": "Circulation",
+"jahr": "2026",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Periodontal Diseases",
+"Risk Factors",
+"American Heart Association",
+"United States",
+"Atherosclerosis",
+"Heart Disease Risk Factors"
+],
+"pmcid": "",
+"pmid": "41399933",
+"quelle": "MED",
+"titel": "Periodontal Disease and Atherosclerotic Cardiovascular Disease: A Scientific Statement From the American Heart Association.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:41403206": {
 "autoren": "Apsley AT, Etzel L, Ye Q, Shalev I.",
 "doi": "10.1080/17501911.2025.2603880",
@@ -89019,6 +90508,38 @@
 "titel": "Systematic Review of Otologic Adverse Events in Hyperbaric Oxygen Therapy.",
 "typen": [
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:41429981": {
+"autoren": "Tesser JRP, Crowley AR, Box EJ, June JP, Wickersham PB, Valenzuela GJ, Gaylis NB, Lam GKW, Pacheco LA, Ridley DJ, Pinto-Patarroyo GP, Novack SN, Churchill MA, Kohler M, Lee EC, Pando JA, Parris GR, Peterson JR, Shah T, Singhal AK, Vuong V, Levine YA, Evangelista ML, Derosier AA, Curtis JR, Richardson RM, Chernoff D.",
+"doi": "10.1038/s41591-025-04114-7",
+"iso": "Nat Med",
+"jahr": "2026",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Vagus Nerve",
+"Humans",
+"Arthritis, Rheumatoid",
+"Antirheumatic Agents",
+"Treatment Outcome",
+"Double-Blind Method",
+"Neuroimmunomodulation",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Vagus Nerve Stimulation"
+],
+"pmcid": "PMC12823386",
+"pmid": "41429981",
+"quelle": "MED",
+"titel": "Vagus nerve-mediated neuroimmune modulation for rheumatoid arthritis: a pivotal randomized controlled trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -89609,6 +91130,23 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:41567711": {
+"autoren": "Marlow LAV, Schmeising-Barnes N, Waller J.",
+"doi": "10.1016/j.eclinm.2025.103733",
+"iso": "EClinicalMedicine",
+"jahr": "2026",
+"journal": "EClinicalMedicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12818057",
+"pmid": "41567711",
+"quelle": "MED",
+"titel": "Experience of NHS diagnostic investigation following a multi-cancer early detection (MCED) screening test: qualitative interviews with NHS-Galleri trial participants who had a cancer signal detected.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -90238,6 +91776,22 @@
 "typen": [
 "Clinical Trial, Phase II",
 "Journal Article"
+]
+},
+"pmid:41714894": {
+"autoren": "Foster J, Choo L, Patel A, Kirby M, Hackett G.",
+"doi": "10.5534/wjmh.250395",
+"iso": "World J Mens Health",
+"jahr": "2026",
+"journal": "The world journal of men's health",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13302965",
+"pmid": "41714894",
+"quelle": "MED",
+"titel": "British Society of Sexual Medicine: Position Statement for the Potential Use of Enclomiphene in the Treatment of Male Hypogonadism.",
+"typen": [
+"Editorial"
 ]
 },
 "pmid:41714896": {
@@ -92117,6 +93671,36 @@
 "Journal Article"
 ]
 },
+"pmid:42120725": {
+"autoren": "Mount S, Canfora EE, Jocken JW, Umanets A, Hul G, Coenjaerds M, Aldaz Laquidain P, Adriaens ME, Holst JJ, Jardon KM, Segers A, Suenaert P, de Vos WM, Blaak EE.",
+"doi": "10.1038/s41591-026-04394-7",
+"iso": "Nat Med",
+"jahr": "2026",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Weight Loss",
+"Probiotics",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Overweight",
+"Pasteurization",
+"Verrucomicrobia",
+"Akkermansia"
+],
+"pmcid": "",
+"pmid": "42120725",
+"quelle": "MED",
+"titel": "Pasteurized Akkermansia muciniphila Muc&lt;sup&gt;T&lt;/sup&gt; for weight loss maintenance in people with overweight and obesity: a controlled randomized trial.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42123221": {
 "autoren": "Yildirim AK, Dastan AO, Demeli Ertus M, Ensarioglu M, Karabacak K, Pehlivanoglu B.",
 "doi": "10.3390/jcm15093488",
@@ -92510,6 +94094,23 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:42201843": {
+"autoren": "Mertens LJ, Betzler F, Brand M, Evens R, Jungaberle A, Jungaberle H, Kärtner L, Majić T, Schmitz CN, Ströhle A, Scharf D, Spangemacher M, Wolff M, Assadi Z, Bahri S, Becher L, Färber LV, Harder H, Kirchen N, Kulakova E, Kunz LC, Meijer A, Rohrmoser B, Wellek S, Berger MM, Koslowski M, Gründer G.",
+"doi": "10.1159/000552272",
+"iso": "Psychother Psychosom",
+"jahr": "2026",
+"journal": "Psychotherapy and psychosomatics",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13412222",
+"pmid": "42201843",
+"quelle": "MED",
+"titel": "Long-Term Efficacy of Psilocybin with Adjunct Psychotherapy in Treatment-Resistant Major Depression: 6- and 12-Month Naturalistic Follow-Up of a Phase 2b Trial.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -93287,6 +94888,43 @@
 "typen": [
 "Clinical Trial, Phase III",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:42343233": {
+"autoren": "Suenaert P, Segers A, Rymenans L, Devroye H, Moll JM, Cani PD, de Vos WM.",
+"doi": "10.1080/19490976.2026.2690689",
+"iso": "Gut Microbes",
+"jahr": "2026",
+"journal": "Gut microbes",
+"korr": [],
+"mesh": [
+"Humans",
+"Prediabetic State",
+"Insulin Resistance",
+"Double-Blind Method",
+"Body Composition",
+"Probiotics",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Pasteurization",
+"Verrucomicrobia",
+"Gastrointestinal Microbiome",
+"Metabolic Syndrome",
+"Akkermansia"
+],
+"pmcid": "PMC13313273",
+"pmid": "42343233",
+"quelle": "MED",
+"titel": "Effect of pasteurized &lt;i&gt;Akkermansia muciniphila&lt;/i&gt; MucT on insulin sensitivity, body composition, and GLP-1 production in subjects with metabolic syndrome: impact of low baseline gut &lt;i&gt;Akkermansia&lt;/i&gt; levels.",
+"typen": [
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -94178,6 +95816,77 @@
 "Journal Article"
 ]
 },
+"pmid:42532079": {
+"autoren": "Mora P, Aroda VR, Asong M, Blüher M, Carlander AF, Kaltoft M, Vilsen LN, Rosenstock J.",
+"doi": "10.1016/s0140-6736(26)01247-x",
+"iso": "Lancet",
+"jahr": "2026",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Hypoglycemic Agents",
+"Treatment Outcome",
+"Administration, Oral",
+"Double-Blind Method",
+"Dose-Response Relationship, Drug",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Amylin Receptor Agonists",
+"Glycated Hemoglobin"
+],
+"pmcid": "",
+"pmid": "42532079",
+"quelle": "MED",
+"titel": "Efficacy and safety of once-daily oral zenagamtide, a novel unimolecular GLP-1 and amylin receptor agonist, in adults with type 2 diabetes: a multicentre, randomised, parallel, double-blind, placebo-controlled, dose-finding, phase 2 trial.",
+"typen": [
+"Clinical Trial, Phase II",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:42532080": {
+"autoren": "Mora P, Aroda VR, Asong M, Blüher M, Heftdal LD, Carlander AF, Vilsen LN, Rosenstock J.",
+"doi": "10.1016/s0140-6736(26)01248-1",
+"iso": "Lancet",
+"jahr": "2026",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Hypoglycemic Agents",
+"Treatment Outcome",
+"Injections, Subcutaneous",
+"Drug Administration Schedule",
+"Double-Blind Method",
+"Dose-Response Relationship, Drug",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Amylin Receptor Agonists",
+"Glycated Hemoglobin"
+],
+"pmcid": "",
+"pmid": "42532080",
+"quelle": "MED",
+"titel": "Efficacy and safety of once-weekly subcutaneous zenagamtide, a novel unimolecular GLP-1 and amylin receptor agonist, in type 2 diabetes: a multicentre, randomised, parallel, double-blind, placebo-controlled, dose-finding, phase 2 trial.",
+"typen": [
+"Clinical Trial, Phase II",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42535526": {
 "autoren": "Kushner PR, Michos ED.",
 "doi": "10.1161/jaha.126.049727",
@@ -94440,6 +96149,22 @@
 "pmid": "42600900",
 "quelle": "MED",
 "titel": "Fiber Supplementation in Irritable Bowel Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:42605960": {
+"autoren": "Delgado D, Andrade R, Gomes E, Lopes T, Azofra J, Espregueira-Mendes J, Sánchez M.",
+"doi": "10.1002/ksa.70567",
+"iso": "Knee Surg Sports Traumatol Arthrosc",
+"jahr": "2026",
+"journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42605960",
+"quelle": "MED",
+"titel": "Younger age and platelet-rich plasma characteristics influence short-term outcomes in knee osteoarthritis, but independent effects remain uncertain: A systematic review with meta-analysis and meta-regression of placebo-controlled randomised trials.",
 "typen": [
 "Journal Article"
 ]
@@ -95173,6 +96898,22 @@
 "Journal Article"
 ]
 },
+"pmid:42773207": {
+"autoren": "Nabavizadeh N, McDonnell C, Kurbegov D, Matrana M, Gadgeel S, Kim RH, Stipec G, Oeffinger KC, Demeure MJ, Lillard JW, Kaltman R, Tran J, Roth A, Tahhan S, Poklepovic A, Richards D, Lopatin M, Marquez C, McCusker M, Giridhar KV.",
+"doi": "10.1038/s41591-026-04618-w",
+"iso": "Nat Med",
+"jahr": "2026",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42773207",
+"quelle": "MED",
+"titel": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42773209": {
 "autoren": "Neal RD, Dolly S, Johnson P, Jones H, Kumar SH, Lee LYW, Lee Y, Liang W, Round T, Smittenaar R, Warwick J, Sasieni P, Swanton C.",
 "doi": "10.1038/s41591-026-04652-8",
@@ -95239,6 +96980,23 @@
 "Journal Article"
 ]
 },
+"pmid:42789532": {
+"autoren": "Lu JK, Wang W, Chew YE, Guan L, Kennedy BK, Maier AB.",
+"doi": "10.1371/journal.pdig.0001691",
+"iso": "PLOS Digit Health",
+"jahr": "2026",
+"journal": "PLOS digital health",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13614584",
+"pmid": "42789532",
+"quelle": "MED",
+"titel": "Optimizing accelerometer implementation in a gerotherapeutic trial: Feasibility, adherence, and operational insights of ABLE.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:42790608": {
 "autoren": "Trzaska AH, Kotowska AM, Starr NJ, Humphreys AJ, Sabri AB, O'Mahony MM, Bell M, Griffiths RL, Alexander MR, Scurr DJ.",
 "doi": "10.1016/j.ijpharm.2026.127447",
@@ -95291,6 +97049,23 @@
 "Journal Article"
 ]
 },
+"pmid:42804222": {
+"autoren": "Chen Y, Shi H, Xiang M, Li X, Wang Z, Lu W, Shen Y, Fang Y, Chen J, Guan L, Zhao F, Wu Z, Tian R, Yu Q, Han K, Sheng H, Chen S, Sun J, Liu G, Wu H, CHOICE Collaborative Research Group.",
+"doi": "10.1001/jamaneurol.2026.3395",
+"iso": "JAMA Neurol",
+"jahr": "2026",
+"journal": "JAMA neurology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13621310",
+"pmid": "42804222",
+"quelle": "MED",
+"titel": "Hearing Intervention for Older Adults With Mild Cognitive Impairment: The CHOICE Randomized Clinical Trial.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:42810355": {
 "autoren": "Garvey WT, Ard J, Connery L, Frias JP, le Roux CW, Pietiläinen KH, Dinesen M, Hagen BF, Larsen L, Hesse D, Kendall DM.",
 "doi": "10.1016/s2213-8587(26)00213-5",
@@ -95304,6 +97079,39 @@
 "quelle": "MED",
 "titel": "Petrelintide, a human amylin analogue for the treatment of obesity (ZUPREME 1): a randomised, double-blind, placebo-controlled, phase 2 trial.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:42823536": {
+"autoren": "Koning M, Kovynev A, Fondevila MF, Ruhe EJM, Mommersteeg MC, Ramakers C, Hutten BA, Verwer B, Vlug M, Kuiper T, van den Berg M, Vrieze A, Bizino M, van den Beld A, Berk L, Boerlage T, Augustijn QJJ, Brouwer WP, Chen WJ, Cahen D, Verdonk R, de Jonge WJ, Ramsoekh S, Doukas M, Vermorgen SMM, Verheij J, Beuers U, Takkenberg RB, Bergman JJG, D'Haens GRAM, Drenth JPH, Tchkonia T, Schnabl B, Kirkland JL, Meijnikman AS.",
+"doi": "10.1038/s42255-026-01643-4",
+"iso": "Nat Metab",
+"jahr": "2026",
+"journal": "Nature metabolism",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42823536",
+"quelle": "MED",
+"titel": "Senolytics dasatinib and quercetin in metabolic dysfunction-associated steatohepatitis: a proof-of-principle randomized, controlled trial.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:42825082": {
+"autoren": "Martino KA, Nakhre A, Demarest RM, Devilbiss DM.",
+"doi": "10.1177/2689288x251392851",
+"iso": "Neurotrauma Rep",
+"jahr": "2025",
+"journal": "Neurotrauma reports",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13629188",
+"pmid": "42825082",
+"quelle": "MED",
+"titel": "Hepatocyte Growth Factor/MET Activator Rescues Working Memory Deficits after Repeated Mild Traumatic Brain Injury.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -99908,6 +101716,38 @@
 "Comparative Study",
 "Clinical Trial",
 "Research Support, U.S. Gov't, P.H.S.",
+"Journal Article"
+]
+},
+"pmid:9700674": {
+"autoren": "Funke M, Fiehler J, Mewes I, Eiselt M, Rother I, Windisch M.",
+"doi": "10.1007/978-3-7091-6467-9_34",
+"iso": "J Neural Transm Suppl",
+"jahr": "1998",
+"journal": "Journal of neural transmission. Supplementum",
+"korr": [],
+"mesh": [
+"Humans",
+"Hyperventilation",
+"Brain Ischemia",
+"Amino Acids",
+"Nootropic Agents",
+"Electroencephalography",
+"Double-Blind Method",
+"Cognition",
+"Memory, Short-Term",
+"Psychomotor Performance",
+"Dose-Response Relationship, Drug",
+"Adult",
+"Male"
+],
+"pmcid": "",
+"pmid": "9700674",
+"quelle": "MED",
+"titel": "Dose-dependent effects of Cerebrolysin on EEG and short-term memory of healthy volunteers during control and hyperventilation induced cerebral ischemia.",
+"typen": [
+"Clinical Trial",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },

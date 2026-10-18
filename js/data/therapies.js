@@ -624,7 +624,7 @@ const THERAPIES = [
     ],
     indication: ['Gelenke/Sehnen', 'Haarwachstum', 'Haut/Ästhetik', 'Regeneration'],
     link: 'https://pubmed.ncbi.nlm.nih.gov/34812863/',
-    note: 'Bei Kniearthrose gilt der Nutzen als widerlegt: Die größte verblindete Studie (RESTORE, JAMA 2021, n=288) fand nach zwölf Monaten weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalzlösung – und auch in 29 von 31 vorab festgelegten Nebenfragen nicht. Für Sehne und Kopfhaut ist die Frage offen, nicht beantwortet. Ärztlich durchführen lassen.'
+    note: 'Bei Kniearthrose fand die größte verblindete Studie (RESTORE, JAMA 2021, n=288) nach zwölf Monaten weder beim Schmerz noch beim Knorpelvolumen einen Unterschied zu Kochsalzlösung – und auch in 29 von 31 vorab festgelegten Nebenfragen nicht. Gepoolte kleinere Placebo-Studien zeigen einen kurzfristigen Vorteil bei niedriger Gewissheit; welche Zubereitung, ist offen. Für Sehne und Kopfhaut ist die Frage offen, nicht beantwortet. Ärztlich durchführen lassen.'
   },
   {
     id: 'ozontherapie',
@@ -979,6 +979,7 @@ const THERAPIES = [
       'Fassung 2020: 12 Faktoren, zusammen 40 %, Hörverlust mit 8 % allein vorn – 2024 etwas niedriger, aber weiter an der Spitze',
       'ACHIEVE (Lancet 2023, 977 Ältere, 3 Jahre): Hörversorgung gegen ein Gesundheitsprogramm – in der Gesamtgruppe kein Unterschied, Hauptendpunkt verfehlt',
       'In der vorab geplanten Risikogruppe (ARIC-Kohorte, 238 Personen) war der geistige Abbau um 48 % verlangsamt; in der Kontrollgruppe bauten die ARIC-Teilnehmer 2,7-mal so schnell ab wie die 739 gesunden Freiwilligen, die damit kaum Spielraum für einen messbaren Effekt hatten',
+      'CHOICE (JAMA Neurology 2026, 703 Menschen ab 60 mit leichter kognitiver Beeinträchtigung, 2 Jahre): Hauptendpunkt ebenfalls verfehlt; in einem vorab festgelegten Nebenendpunkt kehrten mit Hörgerät 15,3 % zu normaler Denkleistung zurück, ohne 2,4 %',
       'Ein Hörtest ist billig, ungefährlich und der erste Schritt – ob Hörgeräte Demenz verhindern, ist damit nicht bewiesen'
     ],
     indication: [
@@ -1060,7 +1061,7 @@ const THERAPIES = [
       'Lipidprofil'
     ],
     link: 'https://www.novartis.com/news/media-releases/novartis-announces-lpahorizon-phase-iii-topline-results-pelacarsen-patients-elevated-lpa-and-established-cardiovascular-disease-cvd',
-    note: 'Ein belegter Risikofaktor ist noch kein belegtes Therapieziel. Die Genetik hat gezeigt, dass Lipoprotein(a) den Schaden mitverursacht; sie hat nicht gezeigt, dass man ihn durch späteres Senken wieder loswird. Genau diese beiden Aussagen werden dauernd in einen Topf geworfen. Derzeit gibt es kein Medikament, von dem bewiesen wäre, dass es über die Senkung von Lipoprotein(a) Herzinfarkte verhindert – wer das verkauft, verkauft eine Hoffnung. Die vollständigen HORIZON-Daten sind noch nicht publiziert, sie kommen erst auf einem Fachkongress. Der Wert selbst bleibt sinnvoll zu kennen, und die Einordnung gehört in ein ärztliches Gespräch.'
+    note: 'Ein belegter Risikofaktor ist noch kein belegtes Therapieziel. Die Genetik hat gezeigt, dass Lipoprotein(a) den Schaden mitverursacht; sie hat nicht gezeigt, dass man ihn durch späteres Senken wieder loswird. Genau diese beiden Aussagen werden dauernd in einen Topf geworfen. Derzeit gibt es kein Medikament, von dem bewiesen wäre, dass es über die Senkung von Lipoprotein(a) Herzinfarkte verhindert – wer das verkauft, verkauft eine Hoffnung. Die vollständigen HORIZON-Daten sind noch nicht publiziert, sie werden am 7. November 2026 auf dem Kongress der American Heart Association in Chicago vorgestellt. Der Wert selbst bleibt sinnvoll zu kennen, und die Einordnung gehört in ein ärztliches Gespräch.'
   },
   {
     id: 'menopause-hrt',
@@ -1073,7 +1074,7 @@ const THERAPIES = [
       'Knochen: In der WHI sanken die Brüche um 24 Prozent, die Knochendichte an der Hüfte stieg in 3 Jahren um 3,7 Prozent',
       'Die WHI-Risiken in absoluten Zahlen: pro 10.000 Frauen und Jahr 8 Brustkrebsfälle, 7 Herzereignisse, 8 Schlaganfälle und 8 Lungenembolien mehr, dagegen 6 Darmkrebsfälle und 5 Hüftbrüche weniger – Gesamtsterblichkeit unverändert',
       'Der Anwendungsweg ist belegt: ESTHER 2007 fand unter oralem Östrogen ein vierfaches Thromboserisiko, über die Haut 0,9',
-      'Ohne Hormone: Fezolinetant blockiert den Neurokinin-3-Rezeptor im Temperatur-Thermostat und ist seit Dezember 2023 in der EU zugelassen – schwächer als Östrogen, Leberwerte werden kontrolliert'
+      'Ohne Hormone: Fezolinetant blockiert den Neurokinin-3-Rezeptor im Temperatur-Thermostat und ist seit Dezember 2023 in der EU zugelassen – schwächer als Östrogen, Leberwerte werden kontrolliert; seit November 2025 zusätzlich Elinzanetant, das in den Zulassungsstudien OASIS 1 und 2 auch den Schlaf verbesserte'
     ],
     indication: [
       'Hitzewallungen',
