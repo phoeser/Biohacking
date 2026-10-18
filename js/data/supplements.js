@@ -1094,7 +1094,7 @@ const SUPPLEMENTS = [
     category: 'Antioxidant',
     tags: ['immun', 'allergie', 'anti-aging', 'senolytikum', 'entzuendung'],
     short: 'Pflanzliches Flavonol. Am besten belegt ist eine leichte Blutdrucksenkung ab 500 mg täglich; die senolytische Wirkung ist beim Menschen nur zusammen mit Dasatinib geprüft.',
-    description: 'Quercetin ist das häufigste Flavonol der Ernährung. Das am besten untersuchte Feld ist der Blutdruck: Drei Meta-Analysen über 7, 10 und 17 randomisierte Studien finden eine Senkung um 2,38 bis 3,09 mmHg systolisch, deutlicher ab 500 mg täglich und deutlicher bei bereits erhöhtem Blutdruck. Nach harter Belastung beschleunigt Quercetin die Erholung; die Ausdauerleistung selbst verbessert es bei Trainierten nicht. Als Senolytikum ist es am Menschen nie allein geprüft worden – in allen fünf Humanstudien stand es neben dem verschreibungspflichtigen Dasatinib, und die einzige Phase-2-Studie hat ihren primären Endpunkt verfehlt. Die Aufnahme hängt stark von der chemischen Form ab: 52 % aus Zwiebel-Glucosiden, 24 % aus dem Aglykon, 17 % aus Rutinosid.',
+    description: 'Quercetin ist das häufigste Flavonol der Ernährung. Das am besten untersuchte Feld ist der Blutdruck: Drei Meta-Analysen über 7, 10 und 17 randomisierte Studien finden eine Senkung um 2,38 bis 3,09 mmHg systolisch, deutlicher ab 500 mg täglich und deutlicher bei bereits erhöhtem Blutdruck. Nach harter Belastung beschleunigt Quercetin die Erholung; die Ausdauerleistung selbst verbessert es bei Trainierten nicht. Als Senolytikum ist es am Menschen nie allein geprüft worden – in allen sechs Humanstudien stand es neben dem verschreibungspflichtigen Dasatinib; von den beiden Phase-2-Studien erreichte die zur vernarbenden Fettleberentzündung ihr Hauptziel, die zum Knochenstoffwechsel verfehlte es. Die Aufnahme hängt stark von der chemischen Form ab: 52 % aus Zwiebel-Glucosiden, 24 % aus dem Aglykon, 17 % aus Rutinosid.',
     benefits: [
       'Senkt den Blutdruck leicht – 2,38 bis 3,09 mmHg systolisch in drei Meta-Analysen, ab 500 mg täglich deutlicher',
       'Wirkt vor allem bei bereits erhöhtem Blutdruck; bei Prähypertonie zeigte sich keine Änderung',
@@ -1550,7 +1550,7 @@ const SUPPLEMENTS = [
       'Stimuliert die Mitophagie (Recycling alter Mitochondrien); beim Menschen schaltet es Mitochondrien-Gene im Muskel an',
       'Bessere Muskelausdauer bei Älteren und rund 12 % mehr Beinkraft bei Mittelalten – kleine, herstellerfinanzierte Studien, Hauptzielgrößen verfehlt',
       'Senkt Entzündungsmarker wie CRP – Surrogatmarker, keine Endpunkte',
-      'Immunschutz wird postuliert – dafür gibt es am Menschen keine belastbaren Daten',
+      'Immunsystem: in einer randomisierten Studie (50 Gesunde, 4 Wochen) mehr naiv-ähnliche CD8-Abwehrzellen – Zellzahlen, keine Infekte; Schutz vor Infekten ist nicht gezeigt',
       'Haut: erste kleine Studien, noch keine belastbare Aussage'
     ],
     risks: [
@@ -1605,7 +1605,7 @@ const SUPPLEMENTS = [
     altNames: 'L-Alpha-Glycerylphosphorylcholin',
     category: 'Aminosäure',
     tags: ['gehirn', 'fokus', 'gedaechtnis', 'nootropic', 'acetylcholin'],
-    short: 'Hochbioverfügbare Cholinquelle. Erhöht Acetylcholin im Gehirn – bei Gesunden ungeprüft, dazu ein Schlaganfallsignal aus einer großen Kohorte.',
+    short: 'Hochbioverfügbare Cholinquelle. Erhöht Acetylcholin im Gehirn – bei Gesunden kaum geprüft, dazu ein Schlaganfallsignal aus einer großen Kohorte.',
     description: 'Alpha-GPC überquert die Blut-Hirn-Schranke und liefert Cholin direkt für die Acetylcholin-Synthese. Klinisch gegen Alzheimer erforscht, bei Sportlern für Kraft-Output beliebt.',
     benefits: [
       'Kleine Studien: Vorteile bei leichter kognitiver Beeinträchtigung; die Placebostudien in Korea verfehlten 2026 laut Presseberichten ihr Hauptziel',
@@ -2588,7 +2588,7 @@ const SUPPLEMENTS = [
     category: 'Probiotika',
     tags: ['darm', 'mikrobiom', 'stoffwechsel', 'insulin', 'longevity', 'novel-food'],
     short: 'Darmbakterium, das von der Schleimschicht der Darmwand lebt. Schlanke, stoffwechselgesunde Menschen haben davon meist viel, Übergewichtige wenig. In der ersten Studie am Menschen wirkte die pasteurisierte, also abgetötete Form am deutlichsten; inzwischen gibt es vier kleine randomisierte Studien mit gemischten Ergebnissen.',
-    description: 'Akkermansia muciniphila wurde 2004 an der Universität Wageningen aus einer Stuhlprobe isoliert. Es baut Mucin ab, den Schleim der Darmwand, und treibt damit dessen Neubildung an — im Tiermodell wird die Barriere dadurch dichter, die stille Entzündung geringer und die Insulinresistenz kleiner. Am Menschen ist die Umkehrbeziehung gut belegt: Wenig Akkermansia geht mit Übergewicht, Typ-2-Diabetes und Bluthochdruck einher. Geprüft wurde das Bakterium selbst in genau einer kontrollierten Studie: Depommier 2019 in Nature Medicine, 40 eingeschlossene Übergewichtige mit Insulinresistenz, 32 Teilnehmer über 3 Monate ausgewertet, 3 Arme. Dort verbesserte die pasteurisierte, also abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent, senkte den Insulinspiegel um rund ein Drittel und das Gesamtcholesterin um knapp 9 Prozent; die lebende Form zeigte das nicht sauber. Im Tiermodell von 2013 war es genau umgekehrt. Der Gewichtsverlust von gut 2 Kilogramm verfehlte die Signifikanz gegen Placebo. In der EU ist nur die pasteurisierte Form als neuartiges Lebensmittel zugelassen.',
+    description: 'Akkermansia muciniphila wurde 2004 an der Universität Wageningen aus einer Stuhlprobe isoliert. Es baut Mucin ab, den Schleim der Darmwand, und treibt damit dessen Neubildung an — im Tiermodell wird die Barriere dadurch dichter, die stille Entzündung geringer und die Insulinresistenz kleiner. Am Menschen ist die Umkehrbeziehung gut belegt: Wenig Akkermansia geht mit Übergewicht, Typ-2-Diabetes und Bluthochdruck einher. Die erste kontrollierte Studie zum Bakterium selbst war Depommier 2019 in Nature Medicine: 40 eingeschlossene Übergewichtige mit Insulinresistenz, 32 Teilnehmer über 3 Monate ausgewertet, 3 Arme. Dort verbesserte die pasteurisierte, also abgetötete Form die Insulinempfindlichkeit um fast 29 Prozent, senkte den Insulinspiegel um rund ein Drittel und das Gesamtcholesterin um knapp 9 Prozent; die lebende Form zeigte das nicht sauber. Im Tiermodell von 2013 war es genau umgekehrt. Der Gewichtsverlust von gut 2 Kilogramm verfehlte die Signifikanz gegen Placebo. Seither sind weitere kleine randomisierte Studien erschienen: In Maastricht nahmen 90 Menschen nach einer Diät mit pasteurisierter Akkermansia über ein halbes Jahr 1,2 statt 3,2 Kilogramm wieder zu (Hauptziel erreicht); Studien aus China (58 Menschen mit Typ-2-Diabetes) und aus Cork und Kiel (142 Menschen mit Stoffwechselsyndrom) verfehlten ihr Hauptziel, zeigten aber Vorteile bei Menschen mit wenig eigenem Akkermansia; in Korea war bei 100 Menschen ab 60 die Beinkraft nach 12 Wochen besser als unter Placebo. In der EU ist nur die pasteurisierte Form als neuartiges Lebensmittel zugelassen.',
     benefits: [
       'Verbesserte die Insulinempfindlichkeit in der pasteurisierten Form um fast 29 Prozent (32 Teilnehmer, 3 Monate)',
       'Senkte Insulinspiegel um rund ein Drittel und Gesamtcholesterin um knapp 9 Prozent',
@@ -2597,7 +2597,7 @@ const SUPPLEMENTS = [
       'Umkehrbeziehung am Menschen gut belegt: viel Akkermansia geht mit besserem Stoffwechselprofil einher'
     ],
     risks: [
-      'Keine Langzeitdaten: geprüft sind 3 Monate an wenigen Dutzend Menschen, nicht Jahre an Tausenden',
+      'Keine Langzeitdaten: geprüft sind bis zu ein halbes Jahr an einigen hundert Menschen, nicht Jahre an Tausenden',
       'Der beworbene Gewichtsverlust von gut 2 Kilogramm war gegen Placebo statistisch nicht abgesichert',
       'Kein echter Widerspruch zwischen Tier und Mensch: Die unwirksame Tierform von 2013 war autoklaviert, pasteurisiert wirkte sie auch in der Maus. Unklar bleibt, für wen die Kapsel etwas bringt – in mehreren Studien profitierten vor allem Menschen mit wenig eigenem Akkermansia',
       'Lebende Akkermansia hat in der EU keinen Zulassungsstatus als Lebensmittel; die zentralen Forscher sind am Hersteller beteiligt'
@@ -2611,6 +2611,9 @@ const SUPPLEMENTS = [
       { title: 'Derrien et al., International Journal of Systematic and Evolutionary Microbiology 2004 — Erstbeschreibung von Akkermansia muciniphila, Universität Wageningen', url: 'https://pubmed.ncbi.nlm.nih.gov/15388697/' },
       { title: 'Everard et al. (Labor Cani), PNAS 2013 — Akkermansia bei übergewichtigen Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/23671105/' },
       { title: 'Depommier et al., Nature Medicine 2019 — randomisierte, doppelblinde Machbarkeitsstudie am Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/31263284/' },
+      { title: 'Zhang et al., Cell Metabolism 2025 — lebender Stamm bei Typ-2-Diabetes, 58 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/39879980/' },
+      { title: 'Suenaert et al., Gut Microbes 2026 — pasteurisierte Akkermansia beim Stoffwechselsyndrom, 142 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/42343233/' },
+      { title: 'Mount et al., Nature Medicine 2026 — Gewichthalten nach einer Diät, 90 Teilnehmer', url: 'https://pubmed.ncbi.nlm.nih.gov/42120725/' },
       { title: 'Perraudeau et al., BMJ Open Diabetes Research & Care 2020 — Fünf-Stämme-Probiotikum bei Typ-2-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/32675291/' },
       { title: 'de la Cuesta-Zuluaga et al., Diabetes Care 2017 — kolumbianische Querschnittsuntersuchung zu Metformin und Akkermansia-Bestand', url: 'https://pubmed.ncbi.nlm.nih.gov/27999002/' },
       { title: 'EFSA, 2021 — Bewertung der pasteurisierten Akkermansia muciniphila als neuartiges Lebensmittel', url: 'https://doi.org/10.2903/j.efsa.2021.6780' },

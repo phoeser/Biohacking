@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 17.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -175,9 +175,15 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 1993: Acadesine (AICA-riboside): disposition and metabolism of an adenosine-regulating agent (Dixon R et al., J Clin Pharmacol). https://pubmed.ncbi.nlm.nih.gov/8227467/
 
 ## Thema: Akkermansia muciniphila (https://biohackingkompakt.de/thema/akkermansia.html)
-6 Studien: 2 Sonstige Studie, 2 Randomisierte Studie, 1 Beobachtungsstudie, 1 Tier- oder Laborstudie.
+12 Studien: 7 Randomisierte Studie, 2 Sonstige Studie, 1 Beobachtungsstudie, 1 Klinische Studie, 1 Tier- oder Laborstudie.
+- Randomisierte Studie, 2026: Effect of pasteurized Akkermansia muciniphila MucT on insulin sensitivity, body composition, and GLP-1 production in subjects with metabolic syndrome: impact of low baseline gut Akkermansia levels (Suenaert P et al., Gut Microbes). https://pubmed.ncbi.nlm.nih.gov/42343233/
+- Randomisierte Studie, 2026: Pasteurized Akkermansia muciniphila MucT for weight loss maintenance in people with overweight and obesity: a controlled randomized trial (Mount S et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/42120725/
+- Randomisierte Studie, 2025: Akkermansia muciniphila supplementation in patients with overweight/obese type 2 diabetes: Efficacy depends on its baseline levels in the gut (Zhang Y et al., Cell Metab). https://pubmed.ncbi.nlm.nih.gov/39879980/
+- Randomisierte Studie, 2024: Pasteurized Akkermansia muciniphila HB05 (HB05P) Improves Muscle Strength and Function: A 12-Week, Randomized, Double-Blind, Placebo-Controlled Clinical Trial (Kang CH et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/39683431/
 - Randomisierte Studie, 2020: Improvements to postprandial glucose control in subjects with type 2 diabetes: a multicenter, double blind, randomized placebo-controlled trial of a novel probiotic formulation (Perraudeau F et al., BMJ Open Diabetes Res Care). https://pubmed.ncbi.nlm.nih.gov/32675291/
 - Randomisierte Studie, 2019: Supplementation with Akkermansia muciniphila in overweight and obese human volunteers: a proof-of-concept exploratory study (Depommier C et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/31263284/
+- Randomisierte Studie, 2017: A purified membrane protein from Akkermansia muciniphila or the pasteurized bacterium improves metabolism in obese and diabetic mice (Plovier H et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/27892954/
+- Klinische Studie, 2015: Pomegranate extract induces ellagitannin metabolite formation and changes stool microbiota in healthy volunteers (Li Z et al., Food Funct). https://pubmed.ncbi.nlm.nih.gov/26189645/
 - Beobachtungsstudie, 2017: Metformin Is Associated With Higher Relative Abundance of Mucin-Degrading Akkermansia muciniphila and Several Short-Chain Fatty Acid-Producing Microbiota in the Gut (de la Cuesta-Zuluaga J et al., Diabetes Care). https://pubmed.ncbi.nlm.nih.gov/27999002/
 - Tier- oder Laborstudie, 2013: Cross-talk between Akkermansia muciniphila and intestinal epithelium controls diet-induced obesity (Everard A et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/23671105/
 - Sonstige Studie, 2021: Safety of pasteurised Akkermansia muciniphila as a novel food pursuant to Regulation (EU) 2015/2283 (EFSA Panel on Nutrition et al., EFSA J). https://doi.org/10.2903/j.efsa.2021.6780
@@ -217,8 +223,10 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO Europa: No level of alcohol consumption is safe for our health, 2023. https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health
 
 ## Thema: Alpha-GPC (https://biohackingkompakt.de/thema/alpha-gpc.html)
-5 Studien: 2 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Randomisierte Studie.
+7 Studien: 3 Randomisierte Studie, 2 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie.
 - Meta-Analyse / Übersicht, 2025: Comparison of the effects of choline alphoscerate and citicoline in patients with dementia disorders: a systematic review and meta-analysis (Sagaro GG et al., Front Neurol). https://pubmed.ncbi.nlm.nih.gov/41426989/
+- Randomisierte Studie, 2024: Acute Alpha-Glycerylphosphorylcholine Supplementation Enhances Cognitive Performance in Healthy Men (Kerksick CM, Nutrients). https://pubmed.ncbi.nlm.nih.gov/39683633/
+- Randomisierte Studie, 2021: Alpha-Glycerylphosphorylcholine Increases Motivation in Healthy Volunteers: A Single-Blind, Randomized, Placebo-Controlled Human Study (Tamura Y et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/34207484/
 - Randomisierte Studie, 2012: Citicoline in the treatment of acute ischaemic stroke: an international, randomised, multicentre, placebo-controlled study (ICTUS trial) (Dávalos A et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/22691567/
 - Beobachtungsstudie, 2021: Association of L-α Glycerylphosphorylcholine With Subsequent Stroke Risk After 10 Years (Lee G et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/34817582/
 - Übersichtsartikel, 2013: Choline alphoscerate (alpha-glyceryl-phosphoryl-choline) an old choline- containing phospholipid with a still interesting profile as cognition enhancing agent (Traini E et al., Curr Alzheimer Res). https://pubmed.ncbi.nlm.nih.gov/24156263/
@@ -263,8 +271,10 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Deutsche Gesellschaft für Ernährung (DGE)): Deutsche Gesellschaft für Ernährung, Referenzwerte Protein. https://www.dge.de/wissenschaft/referenzwerte/protein/
 
 ## Thema: Amycretin (https://biohackingkompakt.de/thema/amycretin.html)
-10 Studien: 3 Übersichtsartikel, 3 Studienregister, 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
+12 Studien: 4 Randomisierte Studie, 3 Übersichtsartikel, 3 Studienregister, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2026: Novel Amylin-Based Therapies for Weight Management in Adults With Overweight or Obesity Without Diabetes: A Network Meta-Analysis (Kamrul-Hasan ABM et al., Endocrinol Diabetes Metab). https://pubmed.ncbi.nlm.nih.gov/42175595/
+- Randomisierte Studie, 2026: Efficacy and safety of once-daily oral zenagamtide, a novel unimolecular GLP-1 and amylin receptor agonist, in adults with type 2 diabetes: a multicentre, randomised, parallel, double-blind, placebo-controlled, dose-finding, phase 2 trial (Mora P et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/42532079/
+- Randomisierte Studie, 2026: Efficacy and safety of once-weekly subcutaneous zenagamtide, a novel unimolecular GLP-1 and amylin receptor agonist, in type 2 diabetes: a multicentre, randomised, parallel, double-blind, placebo-controlled, dose-finding, phase 2 trial (Mora P et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/42532080/
 - Randomisierte Studie, 2025: Amycretin, a novel, unimolecular GLP-1 and amylin receptor agonist administered subcutaneously: results from a phase 1b/2a randomised controlled study (Dahl K et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/40550231/
 - Randomisierte Studie, 2025: Safety, tolerability, pharmacokinetics, and pharmacodynamics of the first-in-class GLP-1 and amylin receptor agonist, amycretin: a first-in-human, phase 1, double-blind, randomised, placebo-controlled trial (Gasiorek A et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/40550229/
 - Übersichtsartikel, 2026: Amycretin in obesity: Mechanisms, clinical efficacy, and future perspectives (Fu L et al., Metabolism). https://pubmed.ncbi.nlm.nih.gov/41850421/
@@ -274,6 +284,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Studienregister: ClinicalTrials.gov, NCT07720271 (AMAZE 9, Zenagamtide-Tablette bei Übergewicht, Phase 3). https://clinicaltrials.gov/study/NCT07720271
 - Studienregister: ClinicalTrials.gov, NCT07797335 (AMBITION 7, Zenagamtide bei Typ-2-Diabetes, Phase 3). https://clinicaltrials.gov/study/NCT07797335
 - Sonstige Studie, 2025: The effect of amycretin, a unimolecular glucagon-like peptide-1 and amylin receptor agonist, on body weight and metabolic dysfunction in mice and rats (Kuhre RE et al., EBioMedicine). https://pubmed.ncbi.nlm.nih.gov/40706446/
+- Behörde/Recht (Weitere Quellen): Novo Nordisk, Unternehmensmitteilung ADA 2026. https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916559
 - Behörde/Recht (Weitere Quellen): Novo Nordisk, Unternehmensmitteilung Phase 2 Typ-2-Diabetes, 25.11.2025. https://www.globenewswire.com/news-release/2025/11/25/3194155/0/en/Novo-Nordisk-phase-2-trial-with-amycretin-reports-significant-weight-loss-and-HbA1c-reduction-in-type-2-diabetes.html
 - Behörde/Recht (Weitere Quellen): Novo Nordisk, Unternehmensmitteilung Phase 3 Adipositas, 12.06.2025. https://www.nasdaq.com/press-release/novo-nordisk-advance-subcutaneous-and-oral-amycretin-weight-management-phase-3
 
@@ -319,6 +330,9 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 1 Studien: 1 Sonstige Studie.
 - Sonstige Studie, 2013: Stier H, Vos E, Kenley D, J Endocrinol Metab 2013 – Sicherheit von AOD9604 in 6 randomisierten Studien (gepoolte Auswertung). https://doi.org/10.4021/jem157w
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA – Wirkstoffe mit möglichen Sicherheitsrisiken bei der Apothekenherstellung (Stand April 2026). https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Briefing Document AOD-9604, Pharmacy Compounding Advisory Committee, 04.12.2024. https://www.fda.gov/media/183584/download
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Pharmacy Compounding Advisory Committee, Protokoll der Sitzung vom 04.12.2024. https://www.fda.gov/media/185641/download
+- Behörde/Recht (Weitere Quellen): BioWorld, 22.12.2004 – 12-Wochen-Studie, rund 2,8 gegenüber 0,8 Kilogramm (Firmenangaben). https://www.bioworld.com/articles/466438
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA, Prohibited List (Verbotsliste der Welt-Anti-Doping-Agentur). https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Apigenin (https://biohackingkompakt.de/thema/apigenin.html)
@@ -703,7 +717,8 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Behörden): ClinicalTrials.gov — Suche nach Bronchogen und Chonluten ohne passende eingetragene Studie. https://clinicaltrials.gov/search?term=Chonluten
 
 ## Thema: Ca-AKG (Calcium-Alpha-Ketoglutarat) (https://biohackingkompakt.de/thema/ca-akg.html)
-4 Studien: 2 Tier- oder Laborstudie, 1 Klinische Studie, 1 Sonstige Studie.
+5 Studien: 2 Tier- oder Laborstudie, 2 Klinische Studie, 1 Sonstige Studie.
+- Klinische Studie, 2026: Optimizing accelerometer implementation in a gerotherapeutic trial: Feasibility, adherence, and operational insights of ABLE (Lu JK et al., PLOS Digit Health). https://pubmed.ncbi.nlm.nih.gov/42789532/
 - Klinische Studie, 2023: Alpha-ketoglutarate supplementation and BiologicaL agE in middle-aged adults (ABLE)-intervention study protocol (Sandalova E et al., Geroscience). https://pubmed.ncbi.nlm.nih.gov/37217632/
 - Tier- oder Laborstudie, 2026: Astaxanthin, meclizine, mitoglitazone, pioglitazone, alpha-ketoglutarate, mifepristone, methotrexate, and atorvastatin-telmisartan do not increase lifespan in UM-HET3 mice (Korstanje R et al., Geroscience). https://pubmed.ncbi.nlm.nih.gov/41843349/
 - Tier- oder Laborstudie, 2020: Alpha-Ketoglutarate, an Endogenous Metabolite, Extends Lifespan and Compresses Morbidity in Aging Mice (Asadi Shahmirzadi A et al., Cell Metab). https://pubmed.ncbi.nlm.nih.gov/32877690/
@@ -819,12 +834,13 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S8 Cannabinoide, im Wettkampf verboten außer Cannabidiol. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
 ## Thema: Cerebrolysin (https://biohackingkompakt.de/thema/cerebrolysin.html)
-7 Studien: 4 Meta-Analyse / Übersicht, 2 Tier- oder Laborstudie, 1 Randomisierte Studie.
+8 Studien: 4 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 2 Tier- oder Laborstudie.
 - Meta-Analyse / Übersicht, 2023: Cerebrolysin for acute ischaemic stroke (Ziganshina LE et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/37818733/
 - Meta-Analyse / Übersicht, 2021: Cerebrolysin after moderate to severe traumatic brain injury: prospective meta-analysis of the CAPTAIN trial series (Vester JC et al., Neurol Sci). https://pubmed.ncbi.nlm.nih.gov/33620612/
 - Meta-Analyse / Übersicht, 2021: Safety of Cerebrolysin for Neurorecovery after Acute Ischemic Stroke: A Systematic Review and Meta-Analysis of Twelve Randomized-Controlled Trials (Strilciuc S et al., Pharmaceuticals (Basel)). https://pubmed.ncbi.nlm.nih.gov/34959697/
 - Meta-Analyse / Übersicht, 2019: Cerebrolysin for vascular dementia (Cui S et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/31710397/
 - Randomisierte Studie, 2016: Cerebrolysin and Recovery After Stroke (CARS): A Randomized, Placebo-Controlled, Double-Blind, Multicenter Trial (Muresanu DF et al., Stroke). https://pubmed.ncbi.nlm.nih.gov/26564102/
+- Randomisierte Studie, 1998: Dose-dependent effects of Cerebrolysin on EEG and short-term memory of healthy volunteers during control and hyperventilation induced cerebral ischemia (Funke M et al., J Neural Transm Suppl). https://pubmed.ncbi.nlm.nih.gov/9700674/
 - Tier- oder Laborstudie, 2015: Peptide profiling of Internet-obtained Cerebrolysin using high performance liquid chromatography - electrospray ionization ion trap and ultra high performance liquid chromatography - ion mobility - quadrupole time of flight mass spectrometry (Gevaert B et al., Drug Test Anal). https://pubmed.ncbi.nlm.nih.gov/26017115/
 - Tier- oder Laborstudie, 2001: Antiapoptotic effects of the peptidergic drug cerebrolysin on primary cultures of embryonic chick cortical neurons (Hartbauer M et al., J Neural Transm (Vienna)). https://pubmed.ncbi.nlm.nih.gov/11475013/
 - Behörde/Recht (Weitere Quellen): Fachinformation Cerebrolysin, Österreich (Zulassungsnr. 1-21380). https://aspregister.basg.gv.at/
@@ -1133,14 +1149,17 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Fachinformation Priligy 30 mg/60 mg Filmtabletten, Stand 07/2021 – Anwendungsgebiet, Dosierung, Synkopen, Nebenwirkungen. https://www.medical-hub.berlin-chemie.de/sites/g/files/fugoka451/files/2024-04/Priligy_FI-0721.pdf
 
 ## Thema: Dasatinib + Quercetin (Senolytic-Stack) (https://biohackingkompakt.de/thema/senolytic-dq.html)
-7 Studien: 4 Klinische Studie, 2 Randomisierte Studie, 1 Tier- oder Laborstudie.
+10 Studien: 4 Klinische Studie, 3 Randomisierte Studie, 3 Tier- oder Laborstudie.
+- Randomisierte Studie, 2026: Senolytics dasatinib and quercetin in metabolic dysfunction-associated steatohepatitis: a proof-of-principle randomized, controlled trial (Koning M et al., Nat Metab). https://pubmed.ncbi.nlm.nih.gov/42823536/
 - Randomisierte Studie, 2024: Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial (Farr JN et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38956196/
 - Randomisierte Studie, 2023: Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, single-center, randomized, placebo-controlled pilot trial on feasibility and tolerability (Nambiar A et al., EBioMedicine). https://pubmed.ncbi.nlm.nih.gov/36857968/
 - Klinische Studie, 2023: Long-term dasatinib plus quercetin effects on aging outcomes and inflammation in nonhuman primates: implications for senolytic clinical trial design (Ruggiero AD et al., Geroscience). https://pubmed.ncbi.nlm.nih.gov/37261678/
 - Klinische Studie, 2023: Senolytic therapy in mild Alzheimer's disease: a phase 1 feasibility trial (Gonzales MM et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/37679434/
 - Klinische Studie, 2019: Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease (Hickson LJ et al., EBioMedicine). https://pubmed.ncbi.nlm.nih.gov/31542391/
 - Klinische Studie, 2019: Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study (Justice JN et al., EBioMedicine). https://pubmed.ncbi.nlm.nih.gov/30616998/
+- Tier- oder Laborstudie, 2018: Senolytics improve physical function and increase lifespan in old age (Xu M et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/29988130/
 - Tier- oder Laborstudie, 2016: Naturally occurring p16(Ink4a)-positive cells shorten healthy lifespan (Baker DJ et al., Nature). https://pubmed.ncbi.nlm.nih.gov/26840489/
+- Tier- oder Laborstudie, 2015: The Achilles' heel of senescent cells: from transcriptome to senolytic drugs (Zhu Y et al., Aging Cell). https://pubmed.ncbi.nlm.nih.gov/25754370/
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Fachinformation Dasatinib (Sprycel), Europäische Arzneimittel-Agentur. https://www.ema.europa.eu/en/medicines/human/EPAR/sprycel
 
 ## Thema: Dermorphin (https://biohackingkompakt.de/thema/dermorphin.html)
@@ -1207,11 +1226,12 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Intrarosa (Prasteron), Zulassung. https://www.ema.europa.eu/en/medicines/human/EPAR/intrarosa
 
 ## Thema: Dihexa (https://biohackingkompakt.de/thema/dihexa.html)
-4 Studien: 2 Tier- oder Laborstudie, 1 Sonstige Studie, 1 Studienregister.
+5 Studien: 2 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Studienregister.
 - Tier- oder Laborstudie, 2014: The procognitive and synaptogenic effects of angiotensin IV-derived peptides are dependent on activation of the hepatocyte growth factor/c-met system (Benoist CC et al., J Pharmacol Exp Ther). https://pubmed.ncbi.nlm.nih.gov/25187433/
 - Tier- oder Laborstudie, 2013: Evaluation of metabolically stabilized angiotensin IV analogs as procognitive/antidementia agents (McCoy AT et al., J Pharmacol Exp Ther). https://pubmed.ncbi.nlm.nih.gov/23055539/
 - Studienregister: ClinicalTrials.gov NCT04488419 (LIFT-AD, Phase 2/3 mit Fosgonimeton, Ergebnis September 2024). https://clinicaltrials.gov/study/NCT04488419
 - Sonstige Studie, 2025: Fosgonimeton in mild-to-moderate Alzheimer's disease (Porsteinsson AP et al., J Alzheimers Dis Rep). https://pubmed.ncbi.nlm.nih.gov/41393340/
+- Sonstige Studie, 2025: Hepatocyte Growth Factor/MET Activator Rescues Working Memory Deficits after Repeated Mild Traumatic Brain Injury (Martino KA et al., Neurotrauma Rep). https://pubmed.ncbi.nlm.nih.gov/42825082/
 - Behörde/Recht (Weitere Quellen): Pressemitteilung der Washington State University, 11. Oktober 2012. https://archive.news.wsu.edu/news/2012/10/11/prospective-alzheimer%C2%92s-drug-builds-new-brain-cell-connections/
 
 ## Thema: Dihydromyricetin (DHM) (https://biohackingkompakt.de/thema/dihydromyricetin.html)
@@ -1380,10 +1400,13 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): BMUKN, FAQ zur NiSV. https://www.bundesumweltministerium.de/themen/strahlenschutz/nichtionisierende-strahlung/ueberblick-nichtionisierende-strahlung/faq-strahlenschutz-bei-kosmetischen-und-nichtmedizinischen-anwendungen
 
 ## Thema: Enclomiphen (https://biohackingkompakt.de/thema/enclomiphene.html)
-3 Studien: 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+5 Studien: 2 Sonstige Studie, 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2025: Clomiphene or enclomiphene citrate for the treatment of male hypogonadism: a systematic review and meta-analysis of randomized controlled trials (Hohl A et al., Arch Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/41066380/
 - Randomisierte Studie, 2023: Cardiovascular Safety of Testosterone-Replacement Therapy (Lincoff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37326322/
 - Randomisierte Studie, 2016: Oral enclomiphene citrate raises testosterone and preserves sperm counts in obese hypogonadal men, unlike topical testosterone: restoration instead of replacement (Kim ED et al., BJU Int). https://pubmed.ncbi.nlm.nih.gov/26496621/
+- Sonstige Studie, 2026: British Society of Sexual Medicine: Position Statement for the Potential Use of Enclomiphene in the Treatment of Male Hypogonadism (Foster J et al., World J Mens Health). https://pubmed.ncbi.nlm.nih.gov/41714894/
+- Sonstige Studie, 2024: Safety and efficacy of enclomiphene and clomiphene for hypogonadal men (Saffati G et al., Transl Androl Urol). https://pubmed.ncbi.nlm.nih.gov/39434750/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Europäische Arzneimittel-Agentur: Ablehnung der Zulassung von Enclomifen (EnCyzix), 2018. https://www.ema.europa.eu/en/medicines/human/EPAR/encyzix
 - Behörde/Recht (Weitere Behörden): Ablehnungsbescheid der US-Zulassungsbehörde vom 1.12.2015. https://www.sec.gov/Archives/edgar/data/897075/000117184315006596/newsrelease.htm
 - Behörde/Recht (Weitere Quellen): Verbotsliste des US-Verteidigungsministeriums für Nahrungsergänzungsmittel. https://www.opss.org/dod-prohibited-dietary-supplement-ingredients
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): Verbotsliste der Welt-Anti-Doping-Agentur, Hormon- und Stoffwechselmodulatoren. https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/prohibited-list
@@ -1448,9 +1471,17 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2017: Administration of Pure Ergothioneine to Healthy Human Subjects: Uptake, Metabolism, and Effects on Biomarkers of Oxidative Damage and Inflammation (Cheah IK et al., Antioxid Redox Signal). https://pubmed.ncbi.nlm.nih.gov/27488221/
 
 ## Thema: Erythrit und Xylit (https://biohackingkompakt.de/thema/erythrit-xylit.html)
-2 Studien: 1 Klinische Studie, 1 Beobachtungsstudie.
+10 Studien: 6 Beobachtungsstudie, 2 Sonstige Studie, 1 Klinische Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2024: The effect of xylitol chewing gums and candies on caries occurrence in children: a systematic review with special reference to caries level at study baseline (Pienihäkkinen K et al., Eur Arch Paediatr Dent). https://pubmed.ncbi.nlm.nih.gov/38430364/
 - Klinische Studie, 2024: Ingestion of the Non-Nutritive Sweetener Erythritol, but Not Glucose, Enhances Platelet Reactivity and Thrombosis Potential in Healthy Volunteers-Brief Report (Witkowski M et al., Arterioscler Thromb Vasc Biol). https://pubmed.ncbi.nlm.nih.gov/39114916/
+- Beobachtungsstudie, 2025: Plasma levels of polyols erythritol, mannitol, and sorbitol and incident coronary heart disease among women (Heianza Y et al., Eur J Prev Cardiol). https://pubmed.ncbi.nlm.nih.gov/39230875/
+- Beobachtungsstudie, 2025: Role of erythritol in coronary heart disease, ischemic stroke, and venous thromboembolism: A Mendelian randomization analysis (Sun Y et al., Medicine (Baltimore)). https://pubmed.ncbi.nlm.nih.gov/41137360/
+- Beobachtungsstudie, 2024: Erythritol as a Potential Causal Contributor to Cardiometabolic Disease: A Mendelian Randomization Study (Khafagy R et al., Diabetes). https://pubmed.ncbi.nlm.nih.gov/37939167/
+- Beobachtungsstudie, 2024: Xylitol is prothrombotic and associated with cardiovascular risk (Witkowski M et al., Eur Heart J). https://pubmed.ncbi.nlm.nih.gov/38842092/
 - Beobachtungsstudie, 2023: The artificial sweetener erythritol and cardiovascular event risk (Witkowski M et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/36849732/
+- Beobachtungsstudie, 2017: Erythritol is a pentose-phosphate pathway metabolite and associated with adiposity gain in young adults (Hootman KC et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/28484010/
+- Sonstige Studie, 2023: Re-evaluation of erythritol (E 968) as a food additive (EFSA Panel on Food Additives and Flavourings (FAF) et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/38125972/
+- Sonstige Studie, 1976: Turku sugar studies. VII. Principal biochemical findings on whole saliva and plaque (Mäkinen KK et al., Acta Odontol Scand). https://pubmed.ncbi.nlm.nih.gov/1070215/
 
 ## Thema: eSpineBot (https://biohackingkompakt.de/thema/espinebot.html)
 5 Studien: 3 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie, 1 Randomisierte Studie.
@@ -2039,8 +2070,9 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA-Verbotsliste 2026, S2.2.1 — Stoffe mit LH- und HCG-Wirkung bei Männern. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Hormontherapie in der Menopause (https://biohackingkompakt.de/thema/menopause-hrt.html)
-10 Studien: 7 Randomisierte Studie, 1 Beobachtungsstudie, 1 Klinische Studie, 1 Meta-Analyse / Übersicht.
+11 Studien: 8 Randomisierte Studie, 1 Beobachtungsstudie, 1 Klinische Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2004: Oral oestrogen and combined oestrogen/progestogen therapy versus placebo for hot flushes (Maclennan AH et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/15495039/
+- Randomisierte Studie, 2024: Elinzanetant for the Treatment of Vasomotor Symptoms Associated With Menopause: OASIS 1 and 2 Randomized Clinical Trials (Pinkerton JV et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/39172446/
 - Randomisierte Studie, 2023: Efficacy and Safety of Fezolinetant in Moderate to Severe Vasomotor Symptoms Associated With Menopause: A Phase 3 RCT (Johnson KA et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/36734148/
 - Randomisierte Studie, 2020: Association of Menopausal Hormone Therapy With Breast Cancer Incidence and Mortality During Long-term Follow-up of the Women's Health Initiative Randomized Clinical Trials (Chlebowski RT et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/32721007/
 - Randomisierte Studie, 2017: Menopausal Hormone Therapy and Long-term All-Cause and Cause-Specific Mortality: The Women's Health Initiative Randomized Trials (Manson JE et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/28898378/
@@ -2113,8 +2145,10 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): G-BA, Pressemitteilung vom 21.09.2017 (ambulante HBO beim diabetischen Fußsyndrom). https://www.g-ba.de/presse/pressemitteilungen-meldungen/704/
 
 ## Thema: Hören & Demenz (Hörversorgung) (https://biohackingkompakt.de/thema/hoeren-demenz.html)
-3 Studien: 2 Beobachtungsstudie, 1 Sonstige Studie.
+5 Studien: 3 Beobachtungsstudie, 1 Randomisierte Studie, 1 Sonstige Studie.
+- Randomisierte Studie, 2026: Hearing Intervention for Older Adults With Mild Cognitive Impairment: The CHOICE Randomized Clinical Trial (Chen Y et al., JAMA Neurol). https://pubmed.ncbi.nlm.nih.gov/42804222/
 - Beobachtungsstudie, 2020: Dementia prevention, intervention, and care: 2020 report of the Lancet Commission (Livingston G et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/32738937/
+- Beobachtungsstudie, 2019: Time From Hearing Aid Candidacy to Hearing Aid Adoption: A Longitudinal Cohort Study (Simpson AN et al., Ear Hear). https://pubmed.ncbi.nlm.nih.gov/30085938/
 - Beobachtungsstudie, 1989: The Atherosclerosis Risk in Communities (ARIC) Study: design and objectives. The ARIC investigators (Am J Epidemiol). https://pubmed.ncbi.nlm.nih.gov/2646917/
 - Sonstige Studie, 2024: Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission (Livingston G et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/39096926/
 - Behörde/Recht (Weitere Quellen): ACHIEVE-Studie, Lancet 2023. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01406-X/fulltext
@@ -2159,7 +2193,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA, Verbotsliste, Abschnitt S2.3. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: IHHT (https://biohackingkompakt.de/thema/ihht.html)
-9 Studien: 4 Klinische Studie, 2 Randomisierte Studie, 2 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+10 Studien: 4 Klinische Studie, 2 Randomisierte Studie, 2 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2022: Effects of Intermittent Hypoxia in Training Regimes and in Obstructive Sleep Apnea on Aging Biomarkers and Age-Related Diseases: A Systematic Review (Tessema B et al., Front Aging Neurosci). https://pubmed.ncbi.nlm.nih.gov/35677200/
 - Randomisierte Studie, 2023: Endothelial Function and Hypoxic-Hyperoxic Preconditioning in Coronary Surgery with a Cardiopulmonary Bypass: Randomized Clinical Trial (Mandel IA et al., Biomedicines). https://pubmed.ncbi.nlm.nih.gov/37189663/
 - Randomisierte Studie, 2019: Effects of intermittent hypoxia-hyperoxia on mobility and perceived health in geriatric patients performing a multimodal training intervention: a randomized controlled trial (Bayer U et al., BMC Geriatr). https://pubmed.ncbi.nlm.nih.gov/31200649/
@@ -2167,6 +2201,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Klinische Studie, 2025: Comment on "Intermittent Hypoxic-Hyperoxic Training During Inpatient Rehabilitation Improves Exercise Capacity and Functional Outcome in Patients With Long Covid: Results of a Controlled Clinical Pilot Trial" by Doehner et al.-The Authors' Reply (Doehner W et al., J Cachexia Sarcopenia Muscle). https://pubmed.ncbi.nlm.nih.gov/40511514/
 - Klinische Studie, 2024: Intermittent Hypoxic-Hyperoxic Training During Inpatient Rehabilitation Improves Exercise Capacity and Functional Outcome in Patients With Long Covid: Results of a Controlled Clinical Pilot Trial (Doehner W et al., J Cachexia Sarcopenia Muscle). https://pubmed.ncbi.nlm.nih.gov/39559920/
 - Klinische Studie, 2019: Intermittent Hypoxia-Hyperoxia Training Improves Cognitive Function and Decreases Circulating Biomarkers of Alzheimer's Disease in Patients with Mild Cognitive Impairment: A Pilot Study (Serebrovska ZO et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/31671598/
+- Übersichtsartikel, 2002: Intermittent hypoxia research in the former soviet union and the commonwealth of independent States: history and review of the concept and selected applications (Serebrovskaya TV, High Alt Med Biol). https://pubmed.ncbi.nlm.nih.gov/12162864/
 - Sonstige Studie, 2022: Intermittent Hypoxic-Hyperoxic Exposures Effects in Patients with Metabolic Syndrome: Correction of Cardiovascular and Metabolic Profile (Bestavashvili A et al., Biomedicines). https://pubmed.ncbi.nlm.nih.gov/35327372/
 - Sonstige Studie, 2017: Intermittent hypoxic-hyperoxic training on cognitive performance in geriatric patients (Bayer U et al., Alzheimers Dement (N Y)). https://pubmed.ncbi.nlm.nih.gov/29067323/
 - Behörde/Recht (Weitere Quellen): Nobelpreis für Physiologie oder Medizin 2019 — Entdeckung der zellulären Sauerstoffwahrnehmung. https://www.nobelprize.org/prizes/medicine/2019/summary/
@@ -2421,9 +2456,17 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA 2016 – Health-Claim-Bewertung zu Kreatin und Muskelkraft. https://www.efsa.europa.eu/en/efsajournal/pub/4400
 
 ## Thema: Krebs-Bluttest (Multi-Cancer-Früherkennung) (https://biohackingkompakt.de/thema/krebs-frueherkennung-bluttest.html)
-2 Studien: 1 Sonstige Studie, 1 Randomisierte Studie.
+9 Studien: 4 Sonstige Studie, 2 Klinische Studie, 2 Beobachtungsstudie, 1 Randomisierte Studie.
 - Randomisierte Studie, 2026: Performance of a multi-cancer early detection test in the randomized controlled NHS-Galleri trial (Neal RD et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/42773209/
+- Klinische Studie, 2026: Experience of NHS diagnostic investigation following a multi-cancer early detection (MCED) screening test: qualitative interviews with NHS-Galleri trial participants who had a cancer signal detected (Marlow LAV et al., EClinicalMedicine). https://pubmed.ncbi.nlm.nih.gov/41567711/
+- Klinische Studie, 2025: Psychosocial impact associated with a multicancer early detection test (PATHFINDER): a prospective, multicentre, cohort study (Nadauld L et al., Lancet Oncol). https://pubmed.ncbi.nlm.nih.gov/39818231/
+- Beobachtungsstudie, 2021: Clinical validation of a targeted methylation-based multi-cancer early detection test using an independent validation set (Klein EA et al., Ann Oncol). https://pubmed.ncbi.nlm.nih.gov/34176681/
+- Beobachtungsstudie, 2020: Sensitive and specific multi-cancer detection and localization using methylation signatures in cell-free DNA (Liu MC et al., Ann Oncol). https://pubmed.ncbi.nlm.nih.gov/33506766/
 - Sonstige Studie, 2026: Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis (Sasieni P et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42776074/
+- Sonstige Studie, 2026: Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study (Nabavizadeh N et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/42773207/
+- Sonstige Studie, 2026: UK National Screening Committee position statement on evidence required for multicancer detection tests (Batson S et al., BMJ). https://pmc.ncbi.nlm.nih.gov/articles/PMC13224043/
+- Sonstige Studie, 2015: Noninvasive Prenatal Testing and Incidental Detection of Occult Maternal Malignancies (Bianchi DW et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/26168314/
+- Behörde/Recht (Weitere Quellen): ASCO Post, 24.09.2026 (Abstimmung des FDA-Gremiums). https://ascopost.com/news/september-2026/fda-advisory-committee-votes-in-favor-of-approval-of-multi-cancer-early-detection-test/
 
 ## Thema: Krillöl (https://biohackingkompakt.de/thema/krilloel.html)
 7 Studien: 5 Randomisierte Studie, 2 Meta-Analyse / Übersicht.
@@ -2464,12 +2507,14 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NIH Office of Dietary Supplements): NIH Office of Dietary Supplements, Copper. https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/
 
 ## Thema: Kurkuma (Curcumin) (https://biohackingkompakt.de/thema/kurkuma.html)
-7 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Klinische Studie.
+9 Studien: 4 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 2 Klinische Studie, 1 Beobachtungsstudie.
 - Meta-Analyse / Übersicht, 2025: A critical review of systematic reviews and meta-analyses of curcumin for knee osteoarthritis (Chen J et al., Front Pharmacol). https://pubmed.ncbi.nlm.nih.gov/41560742/
 - Meta-Analyse / Übersicht, 2024: Efficacy and safety of curcumin therapy for knee osteoarthritis: A Bayesian network meta-analysis (Zhao J et al., J Ethnopharmacol). https://pubmed.ncbi.nlm.nih.gov/38036015/
+- Randomisierte Studie, 2015: Curcumin in Combination With Mesalamine Induces Remission in Patients With Mild-to-Moderate Ulcerative Colitis in a Randomized Controlled Trial (Lang A et al., Clin Gastroenterol Hepatol). https://pubmed.ncbi.nlm.nih.gov/25724700/
 - Randomisierte Studie, 2014: Efficacy and safety of Curcuma domestica extracts compared with ibuprofen in patients with knee osteoarthritis: a multicenter study (Kuptniratsaikul V et al., Clin Interv Aging). https://pubmed.ncbi.nlm.nih.gov/24672232/
 - Randomisierte Studie, 2014: The oral bioavailability of curcumin from micronized powder and liquid micelles is significantly increased in healthy humans and differs between sexes (Schiborr C et al., Mol Nutr Food Res). https://pubmed.ncbi.nlm.nih.gov/24402825/
 - Randomisierte Studie, 2011: Comparative absorption of a standardized curcuminoid mixture and its lecithin formulation (Cuomo J et al., J Nat Prod). https://pubmed.ncbi.nlm.nih.gov/21413691/
+- Klinische Studie, 2006: Dose escalation of a curcuminoid formulation (Lao CD et al., BMC Complement Altern Med). https://pubmed.ncbi.nlm.nih.gov/16545122/
 - Klinische Studie, 1998: Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers (Shoba G et al., Planta Med). https://pubmed.ncbi.nlm.nih.gov/9619120/
 - Beobachtungsstudie, 2023: Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN] (Halegoua-DeMarzio D et al., Am J Med). https://pubmed.ncbi.nlm.nih.gov/36252717/
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR, Stellungnahme Nr. 040/2021 vom 14.12.2021: Curcumin in Nahrungsergänzungsmitteln. https://www.bfr.bund.de/cm/343/curcumin-in-nahrungsergaenzungsmitteln-gesundheitlich-akzeptable-taegliche-aufnahmemenge-kann-ueberschritten-werden.pdf
@@ -2594,9 +2639,12 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Recht (EUR-Lex)): Durchführungsverordnung (EU) 2017/2470 – Unionsliste neuartiger Lebensmittel. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R2470-20260810
 
 ## Thema: Langzeit-Basenbaden (https://biohackingkompakt.de/thema/langzeit-basenbaden.html)
-3 Studien: 2 Randomisierte Studie, 1 Sonstige Studie.
+6 Studien: 2 Sonstige Studie, 2 Randomisierte Studie, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2006: Spa therapy and balneotherapy for treating low back pain: meta-analysis of randomized trials (Pittler MH et al., Rheumatology (Oxford)). https://pubmed.ncbi.nlm.nih.gov/16449365/
 - Randomisierte Studie, 1994: Effect of water temperature on diuresis-natriuresis: AVP, ANP, and urodilatin during immersion in men (Nakamitsu S et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/7836219/
 - Randomisierte Studie, 1992: Vasopressin inhibits diuresis induced by water immersion in humans (Farrow S et al., J Appl Physiol (1985)). https://pubmed.ncbi.nlm.nih.gov/1400058/
+- Beobachtungsstudie, 2023: The effects of immersion in 42℃ radon, natrium, calcium, bicarbonate content thermal-mineral water on chronic low back pain. Controlled, follow-up study (Tefner IK et al., Int J Biometeorol). https://pubmed.ncbi.nlm.nih.gov/36708381/
+- Sonstige Studie, 2023: Comprehensive assessment of physiological responses in women during the ESA dry immersion VIVALDI microgravity simulation (Robin A et al., Nat Commun). https://pubmed.ncbi.nlm.nih.gov/37813884/
 - Sonstige Studie, 1994: Improved mineral balance and skeletal metabolism in postmenopausal women treated with potassium bicarbonate (Sebastian A et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/8190153/
 
 ## Thema: Larazotide (AT-1001) (https://biohackingkompakt.de/thema/larazotide.html)
@@ -2676,6 +2724,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Studienregister: Muvalaplin (Eli Lilly), orale Prüfsubstanz, laufende Phase-3-Endpunktstudie (NCT07157774). https://clinicaltrials.gov/study/NCT07157774
 - Studienregister: Olpasiran (Amgen), laufende Endpunktstudie OCEAN(a) Outcomes (NCT05581303), Ergebnisse ungefähr 2028. https://clinicaltrials.gov/study/NCT05581303
 - Sonstige Studie, 2009: Genetically elevated lipoprotein(a) and increased risk of myocardial infarction (Kamstrup PR et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/19509380/
+- Behörde/Recht (Weitere Quellen): Ionis, Mitteilung zu Lipoprotein(a)-HORIZON vom 4.9.2026. https://ir.ionis.com/node/35106
 - Behörde/Recht (Weitere Quellen): Lipoprotein(a)-HORIZON (Pelacarsen, Novartis und Ionis), Mitteilung zum verfehlten Hauptendpunkt vom 4.9.2026. https://www.novartis.com/news/media-releases/novartis-announces-lpahorizon-phase-iii-topline-results-pelacarsen-patients-elevated-lpa-and-established-cardiovascular-disease-cvd
 
 ## Thema: Liposomales Kreatin (https://biohackingkompakt.de/thema/liposomales-kreatin.html)
@@ -2743,6 +2792,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Beobachtungsstudie, 2014: The antimicrobial peptide LL37 is a T-cell autoantigen in psoriasis (Lande R et al., Nat Commun). https://pubmed.ncbi.nlm.nih.gov/25470744/
 - Fallbericht, 2018: Dermatologic toxicity from novel therapy using antimicrobial peptide LL-37 in melanoma: A detailed examination of the clinicopathologic features (Dolkar T et al., J Cutan Pathol). https://pubmed.ncbi.nlm.nih.gov/29665030/
 - Tier- oder Laborstudie, 2007: Increased serine protease activity and cathelicidin promotes skin inflammation in rosacea (Yamasaki K et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/17676051/
+- Behörde/Recht (Weitere Quellen): Frier Levitt, 16.04.2026 – FDA nimmt zwölf Peptide, darunter LL-37, aus Kategorie 2. https://www.frierlevitt.com/articles/fda-peptides-do-not-compound-list-update-2026/
 
 ## Thema: LOLA (L-Ornithin-L-Aspartat) (https://biohackingkompakt.de/thema/lola.html)
 6 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
@@ -2815,10 +2865,13 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Registerabfrage „LZ1“ ohne passenden Eintrag. https://clinicaltrials.gov/search?term=LZ1%20peptide
 
 ## Thema: Löwenmähne (Lion's Mane) (https://biohackingkompakt.de/thema/loewenmaehne.html)
-8 Studien: 4 Randomisierte Studie, 3 Sonstige Studie, 1 Tier- oder Laborstudie.
+11 Studien: 7 Randomisierte Studie, 3 Sonstige Studie, 1 Tier- oder Laborstudie.
+- Randomisierte Studie, 2026: A randomized, double□blind, placebo□controlled study evaluating the impact of  Hericium erinaceus  (Lion’s Mane) on cognitive performance and subjective wellbeing (Daoust J et al., medRxiv). https://doi.org/10.64898/2026.04.13.26350781
+- Randomisierte Studie, 2025: Acute effects of a standardised extract of Hericium erinaceus (Lion's Mane mushroom) on cognition and mood in healthy younger adults: a double-blind randomised placebo-controlled study (Surendran G et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/40276537/
 - Randomisierte Studie, 2023: The Acute and Chronic Effects of Lion's Mane Mushroom Supplementation on Cognitive Function, Stress and Mood in Young Adults: A Double-Blind, Parallel Groups, Pilot Study (Docherty S et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/38004235/
 - Randomisierte Studie, 2020: Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study (Li IC et al., Front Aging Neurosci). https://pubmed.ncbi.nlm.nih.gov/32581767/
 - Randomisierte Studie, 2019: Improvement of cognitive functions by oral intake of Hericium erinaceus (Saitsu Y et al., Biomed Res). https://pubmed.ncbi.nlm.nih.gov/31413233/
+- Randomisierte Studie, 2010: Reduction of depression and anxiety by 4 weeks Hericium erinaceus intake (Nagano M et al., Biomed Res). https://pubmed.ncbi.nlm.nih.gov/20834180/
 - Randomisierte Studie, 2009: Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial (Mori K et al., Phytother Res). https://pubmed.ncbi.nlm.nih.gov/18844328/
 - Tier- oder Laborstudie, 2008: Nerve growth factor-inducing activity of Hericium erinaceus in 1321N1 human astrocytoma cells (Mori K et al., Biol Pharm Bull). https://pubmed.ncbi.nlm.nih.gov/18758067/
 - Sonstige Studie, 2022: Four Weeks of Hericium erinaceus Supplementation Does Not Impact Markers of Metabolic Flexibility or Cognition (Grozier CD et al., Int J Exerc Sci). https://pubmed.ncbi.nlm.nih.gov/36582308/
@@ -3096,8 +3149,11 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 
 ## Thema: Mikrobiom-Tests mit Ernährungsplan (https://biohackingkompakt.de/thema/mikrobiom-tests.html)
-2 Studien: 2 Sonstige Studie.
+5 Studien: 3 Sonstige Studie, 1 Leitlinie / Konsens, 1 Randomisierte Studie.
+- Randomisierte Studie, 2024: Effects of a personalized nutrition program on cardiometabolic health: a randomized controlled trial (Bermingham KM et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38714898/
+- Leitlinie / Konsens, 2025: International consensus statement on microbiome testing in clinical practice (Porcari S et al., Lancet Gastroenterol Hepatol). https://pubmed.ncbi.nlm.nih.gov/39647502/
 - Sonstige Studie, 2026: Evaluating the analytical performance of direct-to-consumer gut microbiome testing services (Servetas SL et al., Commun Biol). https://pubmed.ncbi.nlm.nih.gov/41748906/
+- Sonstige Studie, 2024: Microbiome testing in Europe: navigating analytical, ethical and regulatory challenges (Rodriguez J et al., Microbiome). https://pubmed.ncbi.nlm.nih.gov/39695869/
 - Sonstige Studie, 2020: Human postprandial responses to food and potential for precision nutrition (Berry SE et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/32528151/
 
 ## Thema: Mikronährstoff-Beratung (https://biohackingkompakt.de/thema/mikronaehrstoffe.html)
@@ -3105,7 +3161,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2025: A systematic review of evidence-based clinical guidelines for vitamin D screening and supplementation over the last decade (Zemp J et al., Arch Public Health). https://pubmed.ncbi.nlm.nih.gov/40883815/
 - Meta-Analyse / Übersicht, 2018: Efficacy of iron supplementation on fatigue and physical capacity in non-anaemic iron-deficient adults: a systematic review of randomised controlled trials (Houston BL et al., BMJ Open). https://pubmed.ncbi.nlm.nih.gov/29626044/
 - Meta-Analyse / Übersicht, 2015: Effects and safety of periconceptional oral folate supplementation for preventing birth defects (De-Regil LM et al., Cochrane Database Syst Rev). https://doi.org/10.1002/14651858.CD007950.pub3
-- Randomisierte Studie, 2012: Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial (Gaziano JM et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/23162860/
+- Randomisierte Studie, 2012: Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial (Gaziano JM et al., JAMA). https://europepmc.org/article/MED/23162860
 - Leitlinie / Konsens, 2022: Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: US Preventive Services Task Force Recommendation Statement (US Preventive Services Task Force et al., JAMA). https://europepmc.org/article/MED/35727271
 - Sonstige Studie, 2023: Scientific opinion on the tolerable upper intake level for vitamin B6 (EFSA Panel on Nutrition et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/37207271/
 - Behörde/Recht (Deutsche Gesellschaft für Ernährung (DGE)): DGE: FAQ Folat. https://www.dge.de/gesunde-ernaehrung/faq/folat/
@@ -3124,12 +3180,14 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): IN FORM: Nahrungsergänzungsmittel, aktuelle Höchstmengenempfehlungen. https://www.in-form.de/ernaehrung/gesund-und-ausgewogen-essen/nahrungsergaenzungsmittel-aktuelle-hoechstmengenempfehlungen
 
 ## Thema: Mikronährstoff-Konzentrate (LaVita & Co.) (https://biohackingkompakt.de/thema/mikronaehrstoff-konzentrate.html)
-7 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Leitlinie / Konsens.
+9 Studien: 5 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Leitlinie / Konsens.
 - Meta-Analyse / Übersicht, 2024: Effect of multivitamin-mineral supplementation versus placebo on cognitive function: results from the clinic subcohort of the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial and meta-analysis of 3 cognitive studies within COSMOS (Vyas CM et al., Am J Clin Nutr). https://europepmc.org/article/MED/38244989
 - Meta-Analyse / Übersicht, 2022: Vitamin and Mineral Supplements for the Primary Prevention of Cardiovascular Disease and Cancer: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force (O'Connor EA et al., JAMA). https://europepmc.org/article/MED/35727272
 - Randomisierte Studie, 2023: Impact of multivitamin-mineral and cocoa extract on incidence of mild cognitive impairment and dementia: Results from the COcoa Supplement and Multivitamin Outcomes Study for the Mind (COSMOS-Mind) (Sachs BC et al., Alzheimers Dement). https://europepmc.org/article/MED/37035889
+- Randomisierte Studie, 2023: Multivitamin Supplementation Improves Memory in Older Adults: A Randomized Clinical Trial (Yeung LK et al., Am J Clin Nutr). https://europepmc.org/article/MED/37244291
 - Randomisierte Studie, 2022: Multivitamins in the prevention of cancer and cardiovascular disease: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial (Sesso HD et al., Am J Clin Nutr). https://europepmc.org/article/MED/35294969
 - Randomisierte Studie, 2016: Effect of a fermented dietary supplement containing chromium and zinc on metabolic control in patients with type 2 diabetes: a randomized, placebo-controlled, double-blind cross-over study (Lee YM et al., Food Nutr Res). https://europepmc.org/article/MED/27343205
+- Randomisierte Studie, 2012: Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial (Gaziano JM et al., JAMA). https://europepmc.org/article/MED/23162860
 - Beobachtungsstudie, 2024: Multivitamin Use and Mortality Risk in 3 Prospective US Cohorts (Loftfield E et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/38922615/
 - Leitlinie / Konsens, 2022: Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: US Preventive Services Task Force Recommendation Statement (US Preventive Services Task Force et al., JAMA). https://europepmc.org/article/MED/35727271
 - Behörde/Recht (Weitere Quellen): USPSTF – Empfehlung zur Vitaminsupplementierung zur Prävention von CVD und Krebs. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication
@@ -3242,18 +3300,22 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA GRAS Notice GRN 229 – Methylsulfonylmethane. https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&id=229
 
 ## Thema: Mundmikrobiom & Parodontitis (https://biohackingkompakt.de/thema/mundmikrobiom.html)
-5 Studien: 1 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie, 1 Leitlinie / Konsens, 1 Randomisierte Studie, 1 Studienregister.
+7 Studien: 2 Studienregister, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie, 1 Leitlinie / Konsens, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2022: Periodontal therapy for primary or secondary prevention of cardiovascular disease in people with periodontitis (Ye Z et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/36194420/
 - Randomisierte Studie, 2007: Treatment of periodontitis and endothelial function (Tonetti MS et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/17329698/
+- Beobachtungsstudie, 2026: Periodontal Disease and Atherosclerotic Cardiovascular Disease: A Scientific Statement From the American Heart Association (Tran AH et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/41399933/
 - Tier- oder Laborstudie, 2019: Porphyromonas gingivalis in Alzheimer's disease brains: Evidence for disease causation and treatment with small-molecule inhibitors (Dominy SS et al., Sci Adv). https://pubmed.ncbi.nlm.nih.gov/30746447/
 - Leitlinie / Konsens, 2012: Periodontal disease and atherosclerotic vascular disease: does the evidence support an independent association?: a scientific statement from the American Heart Association (Lockhart PB et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/22514251/
 - Studienregister: GAIN-Studie zu Atuzaginstat (COR388), Phase 2/3 mit 643 Teilnehmenden, Registereintrag NCT03823404. https://clinicaltrials.gov/study/NCT03823404
+- Studienregister: Nachfolgestudie SPRING mit LHP588 an 300 Menschen mit Keimnachweis im Speichel, Registereintrag NCT06847321. https://clinicaltrials.gov/study/NCT06847321
 
 ## Thema: Muskel als Organ (Griffkraft & Myokine) (https://biohackingkompakt.de/thema/muskel-als-organ.html)
-4 Studien: 2 Beobachtungsstudie, 1 Sonstige Studie, 1 Randomisierte Studie.
+6 Studien: 2 Sonstige Studie, 2 Beobachtungsstudie, 1 Randomisierte Studie, 1 Klinische Studie.
 - Randomisierte Studie, 2014: Effect of structured physical activity on prevention of major mobility disability in older adults: the LIFE study randomized clinical trial (Pahor M et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/24866862/
+- Klinische Studie, 2000: Production of interleukin-6 in contracting human skeletal muscles can account for the exercise-induced increase in plasma interleukin-6 (Steensberg A et al., J Physiol). https://pubmed.ncbi.nlm.nih.gov/11080265/
 - Beobachtungsstudie, 2015: Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study (Leong DP et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/25982160/
 - Beobachtungsstudie, 2006: Strength, but not muscle mass, is associated with mortality in the health, aging and body composition study cohort (Newman AB et al., J Gerontol A Biol Sci Med Sci). https://pubmed.ncbi.nlm.nih.gov/16456196/
+- Sonstige Studie, 2015: Detection and Quantitation of Circulating Human Irisin by Tandem Mass Spectrometry (Jedrychowski MP et al., Cell Metab). https://pubmed.ncbi.nlm.nih.gov/26278051/
 - Sonstige Studie, 2015: Irisin - a myth rather than an exercise-inducible myokine (Albrecht E et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/25749243/
 
 ## Thema: Myo-Inositol (https://biohackingkompakt.de/thema/inositol.html)
@@ -3982,9 +4044,11 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Patente): Khavinson, Malinin & Grigoriev, Patent EP1353939 – Tetrapeptid zur Regulation der Prostatafunktion. https://patents.google.com/patent/EP1353939B1/en
 
 ## Thema: PRP (Eigenbluttherapie) (https://biohackingkompakt.de/thema/prp.html)
-6 Studien: 5 Meta-Analyse / Übersicht, 1 Randomisierte Studie.
+8 Studien: 7 Meta-Analyse / Übersicht, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2026: Assessment of adverse events and safety associated with intra-articular platelet-rich plasma injections compared to other injectates for knee osteoarthritis: A systematic review and meta-analysis (Nakagawa HF et al., PM R). https://pubmed.ncbi.nlm.nih.gov/42101047/
 - Meta-Analyse / Übersicht, 2026: Platelet-Rich Plasma Does Not Improve Pain or Function in Patients With Lateral Epicondylitis as Compared With Placebo: A Meta-analysis of Randomized Clinical Trials (Antunes Júnior CR et al., Am J Sports Med). https://pubmed.ncbi.nlm.nih.gov/41508659/
+- Meta-Analyse / Übersicht, 2026: Younger age and platelet-rich plasma characteristics influence short-term outcomes in knee osteoarthritis, but independent effects remain uncertain: A systematic review with meta-analysis and meta-regression of placebo-controlled randomised trials (Delgado D et al., Knee Surg Sports Traumatol Arthrosc). https://pubmed.ncbi.nlm.nih.gov/42605960/
+- Meta-Analyse / Übersicht, 2025: Efficacy of intra-articular platelet-rich plasma compared with placebo in knee osteoarthritis: A systematic review and meta-analysis (Auroux M et al., Joint Bone Spine). https://pubmed.ncbi.nlm.nih.gov/40653151/
 - Meta-Analyse / Übersicht, 2025: Platelet rich plasma versus corticosteroids for lateral epicondylitis: a meta-analysis of randomized clinical trials (Maroun R et al., Clin Shoulder Elb). https://pubmed.ncbi.nlm.nih.gov/40077872/
 - Meta-Analyse / Übersicht, 2025: Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence (Anitua E et al., Dermatol Ther (Heidelb)). https://pubmed.ncbi.nlm.nih.gov/40944844/
 - Meta-Analyse / Übersicht, 2014: Platelet-rich therapies for musculoskeletal soft tissue injuries (Moraes VY et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/24782334/
@@ -4018,13 +4082,14 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Gemeinsamer Bundesausschuss — Gesundheitsuntersuchungen (Check-up). https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/
 
 ## Thema: Psilocybin (https://biohackingkompakt.de/thema/psilocybin.html)
-7 Studien: 5 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
+8 Studien: 5 Randomisierte Studie, 1 Klinische Studie, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2024: Adverse Events in Studies of Classic Psychedelics: A Systematic Review and Meta-Analysis (Hinkle JT et al., JAMA Psychiatry). https://pubmed.ncbi.nlm.nih.gov/39230883/
 - Randomisierte Studie, 2026: Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression: The EPISODE Randomized Clinical Trial (Mertens LJ et al., JAMA Psychiatry). https://pubmed.ncbi.nlm.nih.gov/41848690/
 - Randomisierte Studie, 2023: Single-Dose Psilocybin Treatment for Major Depressive Disorder: A Randomized Clinical Trial (Raison CL et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/37651119/
 - Randomisierte Studie, 2022: Single-Dose Psilocybin for a Treatment-Resistant Episode of Major Depression (Goodwin GM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/36322843/
 - Randomisierte Studie, 2021: Effects of Psilocybin-Assisted Therapy on Major Depressive Disorder: A Randomized Clinical Trial (Davis AK et al., JAMA Psychiatry). https://pubmed.ncbi.nlm.nih.gov/33146667/
 - Randomisierte Studie, 2021: Trial of Psilocybin versus Escitalopram for Depression (Carhart-Harris R et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/33852780/
+- Klinische Studie, 2026: Long-Term Efficacy of Psilocybin with Adjunct Psychotherapy in Treatment-Resistant Major Depression: 6- and 12-Month Naturalistic Follow-Up of a Phase 2b Trial (Mertens LJ et al., Psychother Psychosom). https://pubmed.ncbi.nlm.nih.gov/42201843/
 - Sonstige Studie, 2021: Self-blinding citizen science to explore psychedelic microdosing (Szigeti B et al., Elife). https://pubmed.ncbi.nlm.nih.gov/33648632/
 - Behörde/Recht (Weitere Quellen): Compass Pathways, Pressemitteilung vom 17.2.2026 zur Phase-3-Studie COMP006 (581 Teilnehmer, 3,8 Punkte). https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx
 - Behörde/Recht (Weitere Quellen): Compass Pathways, Pressemitteilung vom 23.6.2025 zur Phase-3-Studie COMP005 (258 Teilnehmer, 3,6 Punkte). https://ir.compasspathways.com/News--Events-/news/news-details/2025/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-First-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx
@@ -4079,7 +4144,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): Kintor Pharmaceutical, Halbjahresbericht vom 19.08.2026 – Zulassungsantrag 2026 geplant, Kosmetik mit KX-826. https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901703.pdf
 
 ## Thema: Quercetin (https://biohackingkompakt.de/thema/quercetin.html)
-10 Studien: 7 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Übersichtsartikel.
+11 Studien: 7 Meta-Analyse / Übersicht, 3 Randomisierte Studie, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2025: Improving quercetin bioavailability: A systematic review and meta-analysis of human intervention studies (Liu L et al., Food Chem). https://pubmed.ncbi.nlm.nih.gov/40037045/
 - Meta-Analyse / Übersicht, 2023: Quercetin supplementation promotes recovery after exercise-induced muscle damage: a systematic review and meta-analysis of randomized controlled trials (Rojano-Ortega D et al., Biol Sport). https://pubmed.ncbi.nlm.nih.gov/37398956/
 - Meta-Analyse / Übersicht, 2022: The Effects of Quercetin Supplementation on Blood Pressure - Meta-Analysis (Popiolek-Kalisz J et al., Curr Probl Cardiol). https://pubmed.ncbi.nlm.nih.gov/35948195/
@@ -4087,6 +4152,7 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2016: Effects of Quercetin on Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials (Serban MC et al., J Am Heart Assoc). https://pubmed.ncbi.nlm.nih.gov/27405810/
 - Meta-Analyse / Übersicht, 2013: Effects of quercetin supplementation on endurance performance and maximal oxygen consumption: a meta-analysis (Pelletier DM et al., Int J Sport Nutr Exerc Metab). https://pubmed.ncbi.nlm.nih.gov/22805526/
 - Meta-Analyse / Übersicht, 2011: Quercetin and endurance exercise capacity: a systematic review and meta-analysis (Kressler J et al., Med Sci Sports Exerc). https://pubmed.ncbi.nlm.nih.gov/21606866/
+- Randomisierte Studie, 2026: Senolytics dasatinib and quercetin in metabolic dysfunction-associated steatohepatitis: a proof-of-principle randomized, controlled trial (Koning M et al., Nat Metab). https://pubmed.ncbi.nlm.nih.gov/42823536/
 - Randomisierte Studie, 2024: Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial (Farr JN et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38956196/
 - Randomisierte Studie, 1995: Absorption of dietary quercetin glycosides and quercetin in healthy ileostomy volunteers (Hollman PC et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/7491892/
 - Übersichtsartikel, 2018: Safety Aspects of the Use of Quercetin as a Dietary Supplement (Andres S et al., Mol Nutr Food Res). https://pubmed.ncbi.nlm.nih.gov/29127724/
@@ -4149,11 +4215,12 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Verbraucherzentrale): Verbraucherzentrale, Vitalpilze für die Krebstherapie?, 2025. https://www.verbraucherzentrale.de/wissen/lebensmittel/nahrungsergaenzungsmittel/vitalpilze-fuer-die-krebstherapie-21060
 
 ## Thema: Resveratrol (https://biohackingkompakt.de/thema/resveratrol.html)
-4 Studien: 3 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+5 Studien: 4 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2026: The effects of resveratrol on glycemic indices and lipid profile in patients with type 2 diabetes: an umbrella review and meta-analysis (Ghalichi F et al., Daru). https://europepmc.org/article/MED/42268476
 - Randomisierte Studie, 2014: Resveratrol levels and all-cause mortality in older community-dwelling adults (Semba RD et al., JAMA Intern Med). https://europepmc.org/article/MED/24819981
 - Randomisierte Studie, 2013: Resveratrol blunts the positive effects of exercise training on cardiovascular health in aged men (Gliemann L et al., J Physiol). https://europepmc.org/article/MED/23878368
 - Randomisierte Studie, 2012: Resveratrol supplementation does not improve metabolic function in nonobese women with normal glucose tolerance (Yoshino J et al., Cell Metab). https://europepmc.org/article/MED/23102619
+- Randomisierte Studie, 2011: Calorie restriction-like effects of 30 days of resveratrol supplementation on energy metabolism and metabolic profile in obese humans (Timmers S et al., Cell Metab). https://europepmc.org/article/MED/22055504
 
 ## Thema: Retatrutide (https://biohackingkompakt.de/thema/retatrutide.html)
 9 Studien: 4 Randomisierte Studie, 3 Sonstige Studie, 1 Beobachtungsstudie, 1 Fallbericht.
@@ -4367,10 +4434,11 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA NDA Panel, EFSA Journal 2023 (Obergrenze Selen). https://www.efsa.europa.eu/de/efsajournal/pub/7704
 
 ## Thema: Semaglutide (Ozempic / Wegovy) (https://biohackingkompakt.de/thema/semaglutide.html)
-6 Studien: 3 Meta-Analyse / Übersicht, 3 Randomisierte Studie.
+7 Studien: 4 Randomisierte Studie, 3 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2026: Effects of Incretin-Based Therapies, Diet and Exercise Interventions, and Bariatric Surgery on Fat-Free Mass in Adults With Overweight or Obesity: A Systematic Review and Meta-Analysis (Busk-Cirera L et al., Diabetes Obes Metab). https://europepmc.org/article/MED/42324178
 - Meta-Analyse / Übersicht, 2026: Lean Mass Changes With Incretin Therapy Versus Lifestyle Intervention: A Systematic Review and Meta-Analysis of Randomised Controlled Trials (Eisa N et al., Diabetes Obes Metab). https://europepmc.org/article/MED/41877354
 - Meta-Analyse / Übersicht, 2022: Association of Glucagon-Like Peptide-1 Receptor Agonist Use With Risk of Gallbladder and Biliary Diseases: A Systematic Review and Meta-analysis of Randomized Clinical Trials (He L et al., JAMA Intern Med). https://pubmed.ncbi.nlm.nih.gov/35344001/
+- Randomisierte Studie, 2025: Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial (Deanfield J et al., Lancet). https://europepmc.org/article/MED/41138739
 - Randomisierte Studie, 2023: Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (Lincoff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37952131/
 - Randomisierte Studie, 2022: Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension (Wilding JPH et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/35441470/
 - Randomisierte Studie, 2021: Once-Weekly Semaglutide in Adults with Overweight or Obesity (Wilding JPH et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/33567185/
@@ -4465,7 +4533,9 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, amtliche Veröffentlichung BGBl. III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
 ## Thema: SNAP-8 (Acetyl-Octapeptide-3) (https://biohackingkompakt.de/thema/snap-8.html)
-1 Studien: 1 Sonstige Studie.
+3 Studien: 2 Sonstige Studie, 1 Randomisierte Studie.
+- Randomisierte Studie, 2013: The anti-wrinkle efficacy of argireline, a synthetic hexapeptide, in Chinese subjects: a randomized, placebo-controlled study (Wang Y et al., Am J Clin Dermatol). https://pubmed.ncbi.nlm.nih.gov/23417317/
+- Sonstige Studie, 2024: Clinical Safety and Efficacy Evaluation of a Dissolving Microneedle Patch Having Dual Anti-Wrinkle Effects With Safe and Long-Term Activities (Shin JY et al., Ann Dermatol). https://pubmed.ncbi.nlm.nih.gov/39082657/
 - Sonstige Studie, 2002: A synthetic hexapeptide (Argireline) with antiwrinkle activity (Blanes-Mira C et al., Int J Cosmet Sci). https://pubmed.ncbi.nlm.nih.gov/18498523/
 
 ## Thema: Sobetirom (GC-1) (https://biohackingkompakt.de/thema/sobetirom.html)
@@ -4790,11 +4860,12 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Kommission): RASFF 2020.2471, Schweden: Theacrin als Novel Food. https://webgate.ec.europa.eu/rasff-window/screen/notification/429933
 
 ## Thema: Therapeutischer Plasmaaustausch (TPE) (https://biohackingkompakt.de/thema/tpe-plasmaaustausch.html)
-7 Studien: 2 Randomisierte Studie, 2 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Beobachtungsstudie.
+8 Studien: 3 Tier- oder Laborstudie, 2 Randomisierte Studie, 2 Sonstige Studie, 1 Beobachtungsstudie.
 - Randomisierte Studie, 2025: Multi-Omics Analysis Reveals Biomarkers That Contribute to Biological Age Rejuvenation in Response to Single-Blinded Randomized Placebo-Controlled Therapeutic Plasma Exchange (Fuentealba M et al., Aging Cell). https://pubmed.ncbi.nlm.nih.gov/40424097/
 - Randomisierte Studie, 2020: A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study (Boada M et al., Alzheimers Dement). https://pubmed.ncbi.nlm.nih.gov/32715623/
 - Beobachtungsstudie, 2016: Adverse events in apheresis: An update of the WAA registry data (Mörtzell Henriksson M et al., Transfus Apher Sci). https://pubmed.ncbi.nlm.nih.gov/26776481/
 - Tier- oder Laborstudie, 2020: Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin (Mehdipour M et al., Aging (Albany NY)). https://pubmed.ncbi.nlm.nih.gov/32474458/
+- Tier- oder Laborstudie, 2016: A single heterochronic blood exchange reveals rapid inhibition of multiple tissues by old blood (Rebo J et al., Nat Commun). https://pubmed.ncbi.nlm.nih.gov/27874859/
 - Tier- oder Laborstudie, 2005: Rejuvenation of aged progenitor cells by exposure to a young systemic environment (Conboy IM et al., Nature). https://pubmed.ncbi.nlm.nih.gov/15716955/
 - Sonstige Studie, 2023: Feasibility, safety, and tolerability of two modalities of plasma exchange with albumin replacement to treat elderly patients with Alzheimer's disease in the AMBAR study (Boada M et al., J Clin Apher). https://pubmed.ncbi.nlm.nih.gov/36305459/
 - Sonstige Studie, 2022: Old plasma dilution reduces human biological age: a clinical study (Kim D et al., Geroscience). https://pubmed.ncbi.nlm.nih.gov/35999337/
@@ -4871,10 +4942,11 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Cystadane (Betain wasserfrei), EPAR. https://www.ema.europa.eu/en/medicines/human/EPAR/cystadane
 
 ## Thema: Tongkat Ali (https://biohackingkompakt.de/thema/tongkat-ali.html)
-9 Studien: 5 Sonstige Studie, 2 Randomisierte Studie, 1 Fallbericht, 1 Meta-Analyse / Übersicht.
+10 Studien: 5 Sonstige Studie, 2 Fallbericht, 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2022: Eurycoma longifolia (Jack) Improves Serum Total Testosterone in Men: A Systematic Review and Meta-Analysis of Clinical Trials (Leisegang K et al., Medicina (Kaunas)). https://pubmed.ncbi.nlm.nih.gov/36013514/
 - Randomisierte Studie, 2021: Effect of Eurycoma longifolia standardised aqueous root extract-Physta® on testosterone levels and quality of life in ageing male subjects: a randomised, double-blind, placebo-controlled multicentre study (Chinnappan SM et al., Food Nutr Res). https://pubmed.ncbi.nlm.nih.gov/34262417/
 - Randomisierte Studie, 2021: The effect of Eurycoma Longifolia on the regulation of reproductive hormones in young males (Chan KQ et al., Andrologia). https://pubmed.ncbi.nlm.nih.gov/33559971/
+- Fallbericht, 2025: Tongkat Ali-Induced Atrial Flutter: A Probable Case (Ali M, Cureus). https://pubmed.ncbi.nlm.nih.gov/41080360/
 - Fallbericht, 2024: A Rare Case of Tongkat Ali-Induced Liver Injury: A Case Report (Kaliounji A et al., Cureus). https://pubmed.ncbi.nlm.nih.gov/38646387/
 - Sonstige Studie, 2021: Safety of Eurycoma longifolia (Tongkat Ali) root extract as a novel food pursuant to Regulation (EU) 2015/2283 (EFSA Panel on Nutrition et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/34987621/
 - Sonstige Studie, 2018: Assessing product adulteration of Eurycoma longifolia (Tongkat Ali) herbal medicinal product using DNA barcoding and HPLC analysis (Abubakar BM et al., Pharm Biol). https://pubmed.ncbi.nlm.nih.gov/30058427/
@@ -5067,7 +5139,8 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): DTU Fødevareinstituttet 2020 – Risikovurdering af uridin i kosttilskud (Risikobewertung Uridin in Nahrungsergänzungsmitteln). https://backend.orbit.dtu.dk/ws/files/275679118/Risikovurdering_uridin.pdf
 
 ## Thema: Urolithin A (https://biohackingkompakt.de/thema/urolithin-a.html)
-6 Studien: 4 Randomisierte Studie, 1 Sonstige Studie, 1 Tier- oder Laborstudie.
+7 Studien: 5 Randomisierte Studie, 1 Sonstige Studie, 1 Tier- oder Laborstudie.
+- Randomisierte Studie, 2025: Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial (Denk D et al., Nat Aging). https://pubmed.ncbi.nlm.nih.gov/41174221/
 - Randomisierte Studie, 2025: Evaluating the Impact of Urolithin A Supplementation on Running Performance, Recovery, and Mitochondrial Biomarkers in Highly Trained Male Distance Runners (Whitfield J et al., Sports Med). https://pubmed.ncbi.nlm.nih.gov/40839339/
 - Randomisierte Studie, 2022: Direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population (Singh A et al., Eur J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/34117375/
 - Randomisierte Studie, 2022: Effect of Urolithin A Supplementation on Muscle Endurance and Mitochondrial Health in Older Adults: A Randomized Clinical Trial (Liu S et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/35050355/
@@ -5091,17 +5164,19 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): U.S. Food and Drug Administration, Warning Letter vom 07.07.2025 (CBER 25-668840) – Geräte zur Behandlung von Blut mit Ozon und UV-Licht ohne Marktzulassung. https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/o3uv-llc-668840-07072025
 
 ## Thema: Vagusnerv-Stimulation (aktiv) (https://biohackingkompakt.de/thema/vagus-stimulation.html)
-8 Studien: 4 Randomisierte Studie, 3 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
+9 Studien: 5 Randomisierte Studie, 3 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2025: Association between non-invasive auricular stimulation and blood pressure lowering: a systematic review and meta-analysis (Nagai M et al., Eur Heart J Open). https://pubmed.ncbi.nlm.nih.gov/40980724/
 - Meta-Analyse / Übersicht, 2022: Safety of transcutaneous auricular vagus nerve stimulation (taVNS): a systematic review and meta-analysis (Kim AY et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/36543841/
 - Meta-Analyse / Übersicht, 2021: Does transcutaneous auricular vagus nerve stimulation affect vagally mediated heart rate variability? A living and interactive Bayesian meta-analysis (Wolf V et al., Psychophysiology). https://pubmed.ncbi.nlm.nih.gov/34473846/
 - Randomisierte Studie, 2026: Durability of the benefit of vagus nerve stimulation in markedly treatment-resistant major depression: a RECOVER trial report (Conway CR et al., Int J Neuropsychopharmacol). https://pubmed.ncbi.nlm.nih.gov/41529263/
+- Randomisierte Studie, 2026: Vagus nerve-mediated neuroimmune modulation for rheumatoid arthritis: a pivotal randomized controlled trial (Tesser JRP et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/41429981/
 - Randomisierte Studie, 2025: Effects of vagus nerve stimulation on daily function and quality of life in markedly treatment-resistant major depression: Findings from a one-year, randomized, sham-controlled trial (Rush AJ et al., Brain Stimul). https://pubmed.ncbi.nlm.nih.gov/39701918/
 - Randomisierte Studie, 2025: Non-invasive vagus nerve stimulation and exercise capacity in healthy volunteers: a randomized trial (Ackland GL et al., Eur Heart J). https://pubmed.ncbi.nlm.nih.gov/39969124/
 - Randomisierte Studie, 2025: Vagus nerve stimulation in treatment-resistant depression: A one-year, randomized, sham-controlled trial (Conway CR et al., Brain Stimul). https://pubmed.ncbi.nlm.nih.gov/39706521/
 - Übersichtsartikel, 2018: Vagus Nerve as Modulator of the Brain-Gut Axis in Psychiatric and Inflammatory Disorders (Breit S et al., Front Psychiatry). https://pubmed.ncbi.nlm.nih.gov/29593576/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, PMA P210007 (Vivistim, Schlaganfall-Reha, 2021). https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210007
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, PMA P970003 (Epilepsie, 1997). https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P970003
+- Behörde/Recht (Weitere Quellen): Healio 2025: US-Zulassung eines Vagusstimulators gegen rheumatoide Arthritis. https://www.healio.com/news/rheumatology/20250912/fda-approves-vagus-nerve-stimulator-for-rheumatoid-arthritis
 
 ## Thema: Vardenafil (Levitra) (https://biohackingkompakt.de/thema/vardenafil.html)
 4 Studien: 2 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
@@ -5454,12 +5529,14 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2016: The response of muscle protein synthesis following whole-body resistance exercise is greater following 40 g than 20 g of ingested whey protein (Macnaughton LS et al., Physiol Rep). https://doi.org/10.14814/phy2.12893
 
 ## Tipp: 6.000 bis 10.000 Schritte am Tag (https://biohackingkompakt.de/tipp/bewegung-alltag.html)
-5 Studien: 3 Meta-Analyse / Übersicht, 2 Beobachtungsstudie.
+7 Studien: 3 Meta-Analyse / Übersicht, 2 Beobachtungsstudie, 1 Sonstige Studie, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2025: Acute effects of exercise snacks on postprandial glucose and insulin metabolism in adults with obesity: a systematic review and meta-analysis (Chang Y et al., Front Nutr). https://doi.org/10.3389/fnut.2025.1708301
 - Meta-Analyse / Übersicht, 2022: Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts (Paluch AE et al., Lancet Public Health). https://doi.org/10.1016/S2468-2667(21)00302-9
 - Meta-Analyse / Übersicht, 2022: The Acute Effects of Interrupting Prolonged Sitting Time in Adults with Standing and Light-Intensity Walking on Biomarkers of Cardiometabolic Health in Adults: A Systematic Review and Meta-analysis (Buffey AJ et al., Sports Med). https://doi.org/10.1007/s40279-022-01649-4
 - Beobachtungsstudie, 2022: Association of Daily Step Count and Intensity With Incident Dementia in 78 430 Adults Living in the UK (Del Pozo Cruz B et al., JAMA Neurol). https://doi.org/10.1001/jamaneurol.2022.2672
 - Beobachtungsstudie, 2019: Association of Step Volume and Intensity With All-Cause Mortality in Older Women (Lee IM et al., JAMA Intern Med). https://doi.org/10.1001/jamainternmed.2019.0899
+- Übersichtsartikel, 2004: How many steps/day are enough? Preliminary pedometer indices for public health (Tudor-Locke C et al., Sports Med). https://pubmed.ncbi.nlm.nih.gov/14715035/
+- Sonstige Studie, 2023: Journey of a thousand miles: from 'Manpo-Kei' to the first steps-based physical activity recommendations (Stamatakis E et al., Br J Sports Med). https://pubmed.ncbi.nlm.nih.gov/37549996/
 - Behörde/Recht (AWMF-Leitlinien): DVO, S3-Leitlinie Körperliches Training zur Frakturprophylaxe, AWMF 183-002, Version 1.1 vom 11.02.2025. https://register.awmf.org/de/leitlinien/detail/183-002
 
 ## Tipp: Apfelessig vor Mahlzeiten (https://biohackingkompakt.de/tipp/apfelessig.html)
@@ -5989,13 +6066,15 @@ Stand: 16.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Leitlinie / Konsens, 2020: World Health Organization 2020 guidelines on physical activity and sedentary behaviour (Bull FC et al., Br J Sports Med). https://pubmed.ncbi.nlm.nih.gov/33239350/
 
 ## Tipp: Luftqualität und Feinstaub (https://biohackingkompakt.de/tipp/luftqualitaet.html)
-6 Studien: 3 Beobachtungsstudie, 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+8 Studien: 4 Beobachtungsstudie, 2 Randomisierte Studie, 1 Sonstige Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2020: Effects of Home Particulate Air Filtration on Blood Pressure: A Systematic Review (Walzer D et al., Hypertension). https://pubmed.ncbi.nlm.nih.gov/32475316/
 - Randomisierte Studie, 2018: Effect of Portable Air Filtration Systems on Personal Exposure to Fine Particulate Matter and Blood Pressure Among Residents in a Low-Income Senior Facility: A Randomized Clinical Trial (Morishita M et al., JAMA Intern Med). https://pubmed.ncbi.nlm.nih.gov/30208394/
 - Randomisierte Studie, 2015: Cardiopulmonary benefits of reducing indoor particles of outdoor origin: a randomized, double-blind crossover trial of air purifiers (Chen R et al., J Am Coll Cardiol). https://pubmed.ncbi.nlm.nih.gov/26022815/
+- Beobachtungsstudie, 2025: Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023 (GBD 2023 Disease and Injury and Risk Factor Collaborators, Lancet). https://pubmed.ncbi.nlm.nih.gov/41092926/
 - Beobachtungsstudie, 2024: Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021 (GBD 2021 Risk Factors Collaborators, Lancet). https://pubmed.ncbi.nlm.nih.gov/38762324/
 - Beobachtungsstudie, 2017: Air Pollution and Mortality in the Medicare Population (Di Q et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/28657878/
 - Beobachtungsstudie, 2016: Associations of Cognitive Function Scores with Carbon Dioxide, Ventilation, and Volatile Organic Compound Exposures in Office Workers: A Controlled Exposure Study of Green and Conventional Office Environments (Allen JG et al., Environ Health Perspect). https://pubmed.ncbi.nlm.nih.gov/26502459/
+- Sonstige Studie, 2021: Residential cooking-related PM2.5: Spatial-temporal variations under various intervention scenarios (Xiang J et al., Build Environ). https://pubmed.ncbi.nlm.nih.gov/34177073/
 - Behörde/Recht (Umweltbundesamt): Umweltbundesamt, Luftqualität in Deutschland 2024 — endgültige Auswertung (Feinstaubbelastung und Messstationen). https://www.umweltbundesamt.de/system/files/medien/358/dokumente/luftqualitaet2024_endgueltige_auswertung.pdf
 - Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO, Faktenblatt zur Außenluft — 4,2 Millionen vorzeitige Todesfälle 2019. https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
 - Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO, Global Air Quality Guidelines 2021 — Richtwert 5 Mikrogramm pro Kubikmeter im Jahresmittel für PM 2,5. https://www.who.int/publications/i/item/9789240034228
