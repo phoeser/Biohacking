@@ -5,8 +5,7 @@ Idempotent zwischen <!-- mitreden:start --> und <!-- mitreden:end -->, direkt na
 Kasten „Anhören“ (<section class="pod">). Fehlt der, steht der Kasten vor <p class="app">.
 Nur folge/<nr>.html, nicht folge/index.html und nicht die en/-Seiten (der Server ist deutsch).
 Aufruf im Repo: python3 mitreden.py   (--pruefen = nur zählen)
-Läuft außerdem automatisch per GitHub Action (.github/workflows/mitreden.yml) bei jedem Push,
-der Folgenseiten ändert – neue Folgenseiten bekommen den Kasten also von selbst.
+Nach jeder neuen oder neu gebauten Folgenseite erneut ausführen und die Folgenseiten mit deployen.
 Seit 22.10.2026 (Paul: Link zum Discord sichtbarer machen, Kasten auf den Folgenseiten).
 """
 import glob, os, re, sys
