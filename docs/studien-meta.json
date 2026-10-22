@@ -97115,6 +97115,29 @@
 "Journal Article"
 ]
 },
+"pmid:42885452": {
+"autoren": "Poolton JT, Minett J, Kazmi A.",
+"doi": "10.52628/92.3.15837",
+"iso": "Acta Orthop Belg",
+"jahr": "2026",
+"journal": "Acta orthopaedica Belgica",
+"korr": [],
+"mesh": [
+"Humans",
+"Peptide Fragments",
+"Proteins",
+"Orthopedics",
+"Regenerative Medicine"
+],
+"pmcid": "",
+"pmid": "42885452",
+"quelle": "MED",
+"titel": "Human evidence for BPC-157 in orthopaedic and regenerative medicine: a systematic review of efficacy and safety.",
+"typen": [
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:4584640": {
 "autoren": "Engqvist A, von Feilitzen F, Pyk E, Reichard H.",
 "doi": "10.1136/gut.14.9.711",

@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 17.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 22.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -670,7 +670,8 @@ Stand: 17.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (NIH Office of Dietary Supplements): NIH Office of Dietary Supplements – Boron Fact Sheet. https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/
 
 ## Thema: BPC-157 (https://biohackingkompakt.de/thema/bpc-157.html)
-6 Studien: 2 Übersichtsartikel, 2 Studienregister, 1 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+7 Studien: 2 Übersichtsartikel, 2 Meta-Analyse / Übersicht, 2 Studienregister, 1 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2026: Human evidence for BPC-157 in orthopaedic and regenerative medicine: a systematic review of efficacy and safety (Poolton JT et al., Acta Orthop Belg). https://europepmc.org/article/MED/42885452
 - Meta-Analyse / Übersicht, 2025: Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review (Vasireddi N et al., HSS J). https://europepmc.org/article/MED/40756949
 - Übersichtsartikel, 2026: BPC-157 as an Investigational Peptide Therapeutic: Biopharmaceutical Challenges, Formulation Strategies, and Translational Development Barriers (Mateescu DM et al., Pharmaceutics). https://europepmc.org/article/MED/42198317
 - Übersichtsartikel, 2025: Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing (McGuire FP et al., Curr Rev Musculoskelet Med). https://europepmc.org/article/MED/40789979

@@ -18,6 +18,14 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-10-22',
+    typ: 'Evidenz',
+    titel: 'BPC-157: Neuer systematischer Review zählt drei Humanstudien – alle ohne Kontrollgruppe',
+    ziel: { view: 'experimental', id: 'bpc-157' },
+    text: 'Auf der Themenseite stand bisher, die einzige klinische Arbeit sei eine Fallserie mit zwölf Patienten. Das ist überholt: Ein vorab registrierter systematischer Review (Acta Orthopaedica Belgica, 8. Oktober 2026, Suche bis 1. Juni 2026) zählt drei Humanstudien mit zusammen 30 Personen – Knieinjektionen (16 Personen, rückblickend telefonisch befragt), Injektionen in die Blase bei interstitieller Zystitis (12 Frauen) und eine Verträglichkeitsstudie mit Infusion (2 Personen). Keine hatte eine Kontrollgruppe, die Evidenzsicherheit gilt als sehr niedrig. Aufgefallen ist uns das beim Gegenprüfen der Antworten von ChatGPT und Grok für eine Podcastfolge. Am Score ändert sich nichts: Eine kontrollierte Studie am Menschen ist weiterhin nicht veröffentlicht, die Human-Evidenz bleibt bei 1.',
+    quelle: { titel: 'Poolton et al. 2026, Acta Orthop Belg (PMID 42885452)', url: 'https://europepmc.org/article/MED/42885452' }
+  },
+  {
     datum: '2026-10-14',
     typ: 'Evidenz',
     titel: 'Retatrutid: Phase-3-Daten jetzt begutachtet im NEJM und im Lancet',
