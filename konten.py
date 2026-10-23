@@ -13,7 +13,7 @@ KONTEN = [
     ('Apple Podcasts', 'https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652'),
     ('Amazon Music', 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/biohacking-kompakt'),
     ('YouTube', 'https://www.youtube.com/@biohackingkompakt'),
-    ('TikTok', 'https://www.tiktok.com/@biohackingkompakt.de'),
+    ('TikTok', 'https://www.tiktok.com/@biohackingkompakt'),
     ('Discord', 'https://discord.gg/pa3YNFfNSn'),
 ]
 # Englische Ausgabe des Podcasts (seit 16.10.2026, eigene Show) – auf den en/-Seiten zuerst genannt.
