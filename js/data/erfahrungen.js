@@ -929,6 +929,7 @@ const SHOPS = [
   },
   {
     // Aufgenommen 15.10.2026 auf Pauls Wunsch, 2 Sterne (Pauls Bewertung).
+    // 25.10.2026 auf Pauls Wunsch auf 1 Stern gesenkt (Vials unprofessionell, zu wenig Inhalt).
     // Bericht aus zweiter Hand, nicht selbst geprueft – deshalb als solcher
     // gekennzeichnet und ohne Betrugs- oder Faelschungsbehauptung. Nachpruefbar
     // (Trustpilot, abgerufen 15.10.2026): Sitzangabe Sheridan, USA; Gesamt-
@@ -940,13 +941,32 @@ const SHOPS = [
     url: '',
     land: 'USA (laut Trustpilot-Profil)',
     kategorien: ['Peptide'],
-    bewertung: 2,
+    bewertung: 1,
     versand: 'Bestellung und Abwicklung wurden als sehr professionell beschrieben.',
     zahlung: null,
     preis: 'Sehr günstige Preise.',
     qualitaet: 'Laut Bericht enttäuschend: Die Vials wirkten unprofessionell und teils nicht einwandfrei, die Füllmenge erschien deutlich zu gering. Insgesamt wenig vertrauenswürdig. Von uns nicht selbst geprüft.',
     zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
-    erfahrung: 'Ein Bericht aus zweiter Hand, und er zeigt, warum ein guter Bestellablauf allein nichts beweist: sehr günstige Preise, ein professioneller Shop und eine reibungslose Bestellung – doch als die Ware kam, war es laut Bericht eine Enttäuschung. Die Vials sahen unprofessionell und zum Teil nicht in Ordnung aus, und der Inhalt wirkte viel zu wenig. Unterm Strich: wenig vertrauenswürdig. Meine Einschätzung daraus: sehr vorsichtig sein, lieber Finger weg. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet, und Trustpilot gibt an, gefälschte Bewertungen für dieses Unternehmen entfernt zu haben. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort anderes erlebt hast, schreib mir. Stand Oktober 2026.',
+    erfahrung: 'Ein Bericht aus zweiter Hand, und er zeigt, warum ein guter Bestellablauf allein nichts beweist: sehr günstige Preise, ein professioneller Shop und eine reibungslose Bestellung – doch als die Ware kam, war es laut Bericht eine Enttäuschung. Die Vials sahen unprofessionell und zum Teil nicht in Ordnung aus, und der Inhalt wirkte viel zu wenig. Unterm Strich: wenig vertrauenswürdig. Meine Einschätzung daraus: sehr vorsichtig sein, lieber Finger weg. Am 25.10.2026 von zwei auf einen Stern gesenkt – die Rückmeldungen bleiben bei unprofessionell wirkenden Vials mit viel zu wenig Inhalt. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet, und Trustpilot gibt an, gefälschte Bewertungen für dieses Unternehmen entfernt zu haben. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort anderes erlebt hast, schreib mir. Stand 25.10.2026.',
+    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
+  },
+  {
+    // Aufgenommen 25.10.2026 auf Pauls Wunsch: neuer Anbieter mit breitem
+    // Sortiment, noch keine Erfahrungsberichte -> ohne Sterne (bewertung: null).
+    // Wie alle Peptid-Shops ohne Link und ohne Affiliate. Alles unten selbst
+    // nachgesehen (Website, Versand- und AGB-Seite am 25.10.2026).
+    id: 'mypept',
+    name: 'mypept.eu',
+    demo: false,
+    url: '',
+    land: 'vermutlich Niederlande (Telefonnummer +31, Versand mit PostNL/DHL)',
+    kategorien: ['Peptide'],
+    bewertung: null,
+    versand: 'Nach eigener Angabe Versand innerhalb Europas mit PostNL und DHL, Bestellungen vor 16 Uhr gehen am selben Tag raus.',
+    zahlung: 'Nach eigener Angabe Karte, PayPal, Apple Pay, Klarna, iDEAL und Bancontact.',
+    qualitaet: 'Wirbt mit über 99 % Reinheit und Analysezertifikat (COA) je Produkt, teils per Link „Reinheit prüfen“. Von uns nicht gegengeprüft.',
+    zoll: 'Kein Thema, Versand innerhalb der EU.',
+    erfahrung: 'Neu aufgenommen, weil der Anbieter interessant wirkt: breites Sortiment, gängige Zahlarten mit Käuferschutz, Analysezertifikate je Produkt. Erfahrungsberichte gibt es bisher keine – deshalb noch ohne Sterne. Nachprüfbar ist: Verkauft wird als „Forschungsprodukt, nicht für den menschlichen Verzehr“; ein Impressum mit Firmenname und Sitz haben wir auf der Website nicht gefunden. Im Sortiment sind auch verschreibungspflichtige Wirkstoffe wie Tirzepatid und Retatrutid. Wenn du dort bestellt hast, schreib mir, wie es lief. Stand 25.10.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
