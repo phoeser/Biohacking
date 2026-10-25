@@ -1,0 +1,594 @@
+{
+ "106": [
+  {
+   "t": 0,
+   "de": "Glukagon: vom Notfallset in die Abnehmspritze",
+   "en": "Glucagon: from emergency kit to weight-loss shot"
+  },
+  {
+   "t": 65,
+   "de": "Retatrutid: drei Hormonschalter in einem Molekül",
+   "en": "Retatrutide: three hormone switches in one molecule"
+  },
+  {
+   "t": 132,
+   "de": "Deutscher Anfang: von Mäusen bis zur Phase-2-Studie",
+   "en": "German roots: from mice to the phase 2 trial"
+  },
+  {
+   "t": 220,
+   "de": "TRIUMPH-1: drei Abnehmzahlen und starke Unterstudien",
+   "en": "TRIUMPH-1: three weight-loss figures, strong substudies"
+  },
+  {
+   "t": 347,
+   "de": "Kehrseite: Übelkeit, Hautkribbeln und Abbrüche",
+   "en": "Downsides: nausea, skin tingling and dropouts"
+  },
+  {
+   "t": 389,
+   "de": "Selbstversuche: was Foren und Praxisdaten zeigen",
+   "en": "Self-experiments: what forums and real data show"
+  },
+  {
+   "t": 540,
+   "de": "BK-Score, Zulassungsantrag und offene Fragen",
+   "en": "BK Score, approval filing and open questions"
+  }
+ ],
+ "113": [
+  {
+   "t": 0,
+   "de": "Manpo-kei: der Zehntausend-Schritte-Zähler",
+   "en": "Manpo-kei: the ten-thousand-step meter"
+  },
+  {
+   "t": 70,
+   "de": "Woher die Zahl kommt: Japan, 1965 und ein Slogan",
+   "en": "Where the number comes from: Japan, 1965, a slogan"
+  },
+  {
+   "t": 118,
+   "de": "Lancet-Analyse: 7.000 Schritte als Boden, keine Decke",
+   "en": "Lancet analysis: 7,000 steps as a floor, not a cap"
+  },
+  {
+   "t": 223,
+   "de": "Alter und Demenz: wo die Kurve abflacht",
+   "en": "Age and dementia: where the curve levels off"
+  },
+  {
+   "t": 308,
+   "de": "Warum Gehen wirkt und wo die Daten Grenzen haben",
+   "en": "Why walking works and where the data falls short"
+  },
+  {
+   "t": 380,
+   "de": "Dranbleiben: Schrittzähler, Pokémon Go, Düsseldorf",
+   "en": "Sticking with it: pedometers, Pokémon Go, Düsseldorf"
+  },
+  {
+   "t": 524,
+   "de": "BK-Score: Die geprüfte Zahl ist die bequemere",
+   "en": "BK Score: the tested number is the easier one"
+  }
+ ],
+ "116": [
+  {
+   "t": 0,
+   "de": "Aspirin-Kaugummi und nachblutende Mandel-OPs",
+   "en": "Aspirin chewing gum and bleeding after tonsillectomy"
+  },
+  {
+   "t": 61,
+   "de": "Von Lawrence Craven bis zur großen Ärztestudie",
+   "en": "From Lawrence Craven to the big physicians' study"
+  },
+  {
+   "t": 166,
+   "de": "COX-1: ein Mechanismus mit zwei Seiten",
+   "en": "COX-1: one mechanism, two sides"
+  },
+  {
+   "t": 210,
+   "de": "Vorbeugung bei Gesunden: Metaanalyse und ASPREE",
+   "en": "Prevention in healthy people: meta-analysis, ASPREE"
+  },
+  {
+   "t": 301,
+   "de": "Aspirin und Krebs: Warnsignal und Hoffnung",
+   "en": "Aspirin and cancer: warning sign and hope"
+  },
+  {
+   "t": 393,
+   "de": "Selbst begonnen, selbst abgesetzt: Motive und Risiken",
+   "en": "Self-started, self-stopped: motives and risks"
+  },
+  {
+   "t": 553,
+   "de": "BK-Score: eine Doppelzehn, die Nein sagt",
+   "en": "BK Score: a double ten that says no"
+  }
+ ],
+ "117": [
+  {
+   "t": 0,
+   "de": "Belgiens Stehtische: kaum jemand steht",
+   "en": "Belgium's standing desks: hardly anyone stands"
+  },
+  {
+   "t": 47,
+   "de": "Sitzen als neues Rauchen: Messdaten der UK Biobank",
+   "en": "Sitting as the new smoking: UK Biobank sensor data"
+  },
+  {
+   "t": 175,
+   "de": "Kehrseite des Stehens: Venen und Kreuzschmerzen",
+   "en": "The downside of standing: veins and back pain"
+  },
+  {
+   "t": 288,
+   "de": "Kalorien im Stehen: ungefähr ein kleiner Apfel",
+   "en": "Calories while standing: about one small apple"
+  },
+  {
+   "t": 352,
+   "de": "Was der Tisch kann: weniger Sitzzeit, mehr Energie",
+   "en": "What the desk does: less sitting, more energy"
+  },
+  {
+   "t": 439,
+   "de": "Tische morgens oben: Knopfdruck schlägt Coaching",
+   "en": "Desks up in the morning: a button beats coaching"
+  },
+  {
+   "t": 485,
+   "de": "BK-Score: Unterbrecher statt Fitnessgerät",
+   "en": "BK Score: an interrupter, not a fitness device"
+  }
+ ],
+ "118": [
+  {
+   "t": 0,
+   "de": "Finasterid: Wirkung oder Einbildung?",
+   "en": "Finasteride: real effect or imagination?"
+  },
+  {
+   "t": 45,
+   "de": "Das fehlende Enzym: von der Prostata zum Haar",
+   "en": "The missing enzyme: from prostate to hair"
+  },
+  {
+   "t": 128,
+   "de": "Haare zählen: was die Zulassungsstudien zeigen",
+   "en": "Counting hairs: what the pivotal trials show"
+  },
+  {
+   "t": 233,
+   "de": "Sexuelle Nebenwirkungen und die Macht der Erwartung",
+   "en": "Sexual side effects and the power of expectation"
+  },
+  {
+   "t": 322,
+   "de": "Rote-Hand-Brief: Suizidgedanken als Warnhinweis",
+   "en": "Safety letter: suicidal thoughts as a warning"
+  },
+  {
+   "t": 456,
+   "de": "Foren, Ängste und das Post-Finasterid-Syndrom",
+   "en": "Forums, fears and post-finasteride syndrome"
+  },
+  {
+   "t": 544,
+   "de": "BK-Score und Auflösung: Am Haar ist nichts eingebildet",
+   "en": "BK Score and verdict: the hair gain is real"
+  }
+ ],
+ "119": [
+  {
+   "t": 0,
+   "de": "Die Turku-Studie: zwei Jahre Xylit statt Zucker",
+   "en": "The Turku study: two years of xylitol, not sugar"
+  },
+  {
+   "t": 43,
+   "de": "Xylit und Erythrit: süß, energiearm, zahnfreundlich",
+   "en": "Xylitol and erythritol: sweet, low-energy, tooth-safe"
+  },
+  {
+   "t": 152,
+   "de": "Cleveland-Studie: Zuckeralkohole und Herzinfarkte",
+   "en": "Cleveland study: sugar alcohols and heart attacks"
+  },
+  {
+   "t": 259,
+   "de": "Wendung: Der Körper stellt beide Stoffe selbst her",
+   "en": "Twist: the body makes both compounds itself"
+  },
+  {
+   "t": 347,
+   "de": "Ursache oder Kontrolllämpchen: Genetik und EFSA",
+   "en": "Cause or warning light: genetics and EFSA"
+  },
+  {
+   "t": 416,
+   "de": "Bauchgrummeln und Reaktionen der Low-Carb-Szene",
+   "en": "Tummy rumbles and reactions from the low-carb scene"
+  },
+  {
+   "t": 522,
+   "de": "BK-Score: nützliche Werkzeuge, nicht gedankenlos",
+   "en": "BK Score: useful tools, but not without thought"
+  }
+ ],
+ "120": [
+  {
+   "t": 0,
+   "de": "Blasenentzündung: Probiotika-Tipps aus den Foren",
+   "en": "Bladder infection: probiotic tips from forums"
+  },
+  {
+   "t": 91,
+   "de": "Was Probiotika sind und warum der Stamm zählt",
+   "en": "What probiotics are and why the strain matters"
+  },
+  {
+   "t": 153,
+   "de": "Durchfall unter Antibiotika: starke Daten bei Kindern",
+   "en": "Antibiotic diarrhea: strong data in children"
+  },
+  {
+   "t": 196,
+   "de": "PLACIDE-Studie: kein Effekt und die Rolle des Mittels",
+   "en": "PLACIDE trial: no effect and the drug's role"
+  },
+  {
+   "t": 262,
+   "de": "Weizmann-Institut: ein Darm mit Gästeliste",
+   "en": "Weizmann Institute: a gut with a guest list"
+  },
+  {
+   "t": 330,
+   "de": "Eigenes Backup schlägt Kapsel: Erholung der Flora",
+   "en": "Own backup beats capsule: gut flora recovery"
+  },
+  {
+   "t": 439,
+   "de": "Grenzen der Studie, Fachmeinungen und BK-Score",
+   "en": "Study limits, expert views and the BK Score"
+  }
+ ],
+ "121": [
+  {
+   "t": 0,
+   "de": "Denis Burkitt: vom Chirurgen zum Fiberman",
+   "en": "Denis Burkitt: from surgeon to Fibre Man"
+  },
+  {
+   "t": 93,
+   "de": "Ballast: woher der Name kommt, was Fasern sind",
+   "en": "Ballast: where the name comes from, what fibre is"
+  },
+  {
+   "t": 140,
+   "de": "Die Bohnenstudie: Blähungen legen sich",
+   "en": "The bean study: the bloating fades"
+  },
+  {
+   "t": 211,
+   "de": "Lancet 2019: mehr Ballaststoffe, weniger Todesfälle",
+   "en": "Lancet 2019: more fibre, fewer deaths"
+  },
+  {
+   "t": 286,
+   "de": "Glykämischer Index im Vergleich und die Grenzen",
+   "en": "Glycemic index in comparison and the limits"
+  },
+  {
+   "t": 362,
+   "de": "Fiber-Maxing und wie sich der Darm anpasst",
+   "en": "Fibermaxxing and how the gut adapts"
+  },
+  {
+   "t": 455,
+   "de": "Wie viel wir essen: Lebensmittel statt Pulver",
+   "en": "How much we eat: whole foods, not powder"
+  }
+ ],
+ "122": [
+  {
+   "t": 0,
+   "de": "Stuhltest im Briefkasten: von Leeuwenhoek bis heute",
+   "en": "Stool test by mail: from Leeuwenhoek to today"
+  },
+  {
+   "t": 66,
+   "de": "Weizmann-Institut: gleiches Essen, andere Zuckerkurve",
+   "en": "Weizmann Institute: same food, different glucose"
+  },
+  {
+   "t": 110,
+   "de": "PREDICT: Selbst Zwillinge reagieren verschieden",
+   "en": "PREDICT: even twins respond differently"
+  },
+  {
+   "t": 240,
+   "de": "Ausgeloste Studie: App gegen Ernährungsregeln",
+   "en": "Randomized trial: app versus dietary guidelines"
+  },
+  {
+   "t": 326,
+   "de": "Erfahrungen: Spinatverzicht, Wartezeit, Klinikdaten",
+   "en": "Experiences: no spinach, long waits, clinic data"
+  },
+  {
+   "t": 434,
+   "de": "Eine Probe, sieben Firmen: widersprüchliche Befunde",
+   "en": "One sample, seven companies: conflicting results"
+  },
+  {
+   "t": 524,
+   "de": "BK-Score: großer Abstand zwischen Studie und Produkt",
+   "en": "BK Score: a big gap between study and product"
+  }
+ ],
+ "123": [
+  {
+   "t": 0,
+   "de": "Nikotinbeutel im Silicon Valley und Langleys Rezeptor",
+   "en": "Nicotine pouches in Silicon Valley, Langley's receptor"
+  },
+  {
+   "t": 91,
+   "de": "Nikotin ohne Rauch und wie es im Kopf wirkt",
+   "en": "Smoke-free nicotine and how it acts in the brain"
+  },
+  {
+   "t": 168,
+   "de": "Heishman-Metaanalyse: kleiner, kurzer Fokus-Effekt",
+   "en": "Heishman meta-analysis: small, brief focus effect"
+  },
+  {
+   "t": 253,
+   "de": "Forschung unter Aufsicht: Gedächtnis und Depression",
+   "en": "Supervised research: memory and depression"
+  },
+  {
+   "t": 300,
+   "de": "Rauchstopp: wo Nikotinersatz wirklich glänzt",
+   "en": "Quitting smoking: where nicotine replacement shines"
+  },
+  {
+   "t": 346,
+   "de": "Nikotinbeutel: Verbot, Jugendliche, Abhängigkeit",
+   "en": "Nicotine pouches: ban, teenagers, addiction"
+  },
+  {
+   "t": 539,
+   "de": "BK-Score: gut untersucht heißt nicht harmlos",
+   "en": "BK Score: well studied does not mean harmless"
+  }
+ ],
+ "124": [
+  {
+   "t": 0,
+   "de": "Griffkraft: Trainingsziel oder Barometer?",
+   "en": "Grip strength: training goal or barometer?"
+  },
+  {
+   "t": 42,
+   "de": "PURE und Health ABC: was die Griffkraft verrät",
+   "en": "PURE and Health ABC: what grip strength reveals"
+  },
+  {
+   "t": 175,
+   "de": "Der Muskel als Drüse: Interleukin-6 und Myokine",
+   "en": "Muscle as a gland: interleukin-6 and myokines"
+  },
+  {
+   "t": 241,
+   "de": "Irisin: Hype, Messfehler und leise Wirkung",
+   "en": "Irisin: hype, flawed assays and a quiet effect"
+  },
+  {
+   "t": 328,
+   "de": "LIFE-Studie: Training hält Ältere auf den Beinen",
+   "en": "LIFE study: training keeps older people walking"
+  },
+  {
+   "t": 394,
+   "de": "Warum Ältere trainieren und was beim Dranbleiben hilft",
+   "en": "Why older adults train and what keeps them going"
+  },
+  {
+   "t": 567,
+   "de": "BK-Score: Barometer und Trainingspartner zugleich",
+   "en": "BK Score: barometer and training partner at once"
+  }
+ ],
+ "125": [
+  {
+   "t": 0,
+   "de": "Lässt Löwenmähne Nervenzellen wachsen?",
+   "en": "Does lion's mane grow new nerve cells?"
+  },
+  {
+   "t": 40,
+   "de": "Hericium erinaceus: Hericenone und Erinacine",
+   "en": "Hericium erinaceus: hericenones and erinacines"
+  },
+  {
+   "t": 130,
+   "de": "Tohoku: Der Star auf der Dose fällt durch",
+   "en": "Tohoku: the star on the label fails the test"
+  },
+  {
+   "t": 201,
+   "de": "Studien am Menschen: von Japan bis Alabama",
+   "en": "Human studies: from Japan to Alabama"
+  },
+  {
+   "t": 339,
+   "de": "Größter Versuch: Aufmerksamkeit und besserer Schlaf",
+   "en": "Largest trial: attention and better sleep"
+  },
+  {
+   "t": 386,
+   "de": "Anwenderberichte: klarer Kopf, flache Gefühle",
+   "en": "User reports: clearer mind, flattened emotions"
+  },
+  {
+   "t": 518,
+   "de": "Fruchtkörper oder Myzel und der BK-Score",
+   "en": "Fruiting body or mycelium, and the BK Score"
+  }
+ ],
+ "126": [
+  {
+   "t": 0,
+   "de": "Clomifen: zwei Spiegelbild-Moleküle in einer Tablette",
+   "en": "Clomiphene: two mirror-image molecules in one pill"
+  },
+  {
+   "t": 65,
+   "de": "Vom Kinderwunschmittel zur reinen Form Enclomifen",
+   "en": "From fertility drug to pure enclomiphene"
+  },
+  {
+   "t": 109,
+   "de": "Das Pförtner-Prinzip: Hormone von oben anregen",
+   "en": "The gatekeeper principle: stimulating from above"
+  },
+  {
+   "t": 173,
+   "de": "Phase-3-Studien: Testosteron steigt, Spermien bleiben",
+   "en": "Phase 3 trials: testosterone up, sperm preserved"
+  },
+  {
+   "t": 258,
+   "de": "Zweimal abgelehnt: was den Behörden fehlte",
+   "en": "Rejected twice: what regulators were missing"
+  },
+  {
+   "t": 323,
+   "de": "Was Männer berichten: Foren, Praxen, Wechsel",
+   "en": "What men report: forums, clinics, switching"
+  },
+  {
+   "t": 452,
+   "de": "Sicherheit, Schwarzmarktware und der BK-Score",
+   "en": "Safety, black-market products and the BK Score"
+  }
+ ],
+ "127": [
+  {
+   "t": 0,
+   "de": "Hörgeräte: Träger berichten von Lebensveränderung",
+   "en": "Hearing aids: users describe a life change"
+  },
+  {
+   "t": 89,
+   "de": "Lancet-Kommission: Hörverlust als Demenzfaktor",
+   "en": "Lancet Commission: hearing loss and dementia"
+  },
+  {
+   "t": 135,
+   "de": "Was die Zahl wirklich heißt und drei Erklärungen",
+   "en": "What the figure really means, three explanations"
+  },
+  {
+   "t": 222,
+   "de": "ACHIEVE-Studie: Nutzen vor allem für Risikogruppen",
+   "en": "ACHIEVE trial: benefit mainly in high-risk groups"
+  },
+  {
+   "t": 334,
+   "de": "Neue Daten: Es kommt aufs Hören an, nicht aufs Gerät",
+   "en": "New data: hearing well matters, not the device"
+  },
+  {
+   "t": 431,
+   "de": "Cochrane und Alltag: warum Geräte liegen bleiben",
+   "en": "Cochrane and daily life: why aids go unused"
+  },
+  {
+   "t": 498,
+   "de": "Fast neun Jahre Zögern und der BK-Score",
+   "en": "Almost nine years of waiting and the BK Score"
+  }
+ ],
+ "128": [
+  {
+   "t": 0,
+   "de": "Wageningen 2004: ein Bakterium, das vom Schleim lebt",
+   "en": "Wageningen 2004: a bacterium that lives on mucus"
+  },
+  {
+   "t": 63,
+   "de": "Akkermansia: wer das Darmbakterium reichlich trägt",
+   "en": "Akkermansia: who carries plenty of this microbe"
+  },
+  {
+   "t": 129,
+   "de": "Louvain: Pasteurisiert wirkt besser als lebend",
+   "en": "Louvain: pasteurized works better than live"
+  },
+  {
+   "t": 221,
+   "de": "Erste Studie am Menschen und EU-Zulassung",
+   "en": "First human study and EU authorization"
+  },
+  {
+   "t": 288,
+   "de": "Neue Studien: Wer wenig hat, profitiert am meisten",
+   "en": "New studies: those with little benefit most"
+  },
+  {
+   "t": 426,
+   "de": "Was Anwender spüren: Bauch, Bewertungen, Fallbericht",
+   "en": "What users feel: gut, reviews, a case report"
+  },
+  {
+   "t": 557,
+   "de": "Eigenen Bestand anheben und der BK-Score",
+   "en": "Boosting your own levels and the BK Score"
+  }
+ ],
+ "129": [
+  {
+   "t": 0,
+   "de": "Der Unkrautstecher: gealterte Zellen im Körper",
+   "en": "The weeding tool: senescent cells in the body"
+  },
+  {
+   "t": 44,
+   "de": "Dasatinib und Quercetin: das bekannte Senolytika-Duo",
+   "en": "Dasatinib and quercetin: the best-known senolytic duo"
+  },
+  {
+   "t": 113,
+   "de": "Mayo Clinic 2015: die Achillesferse alter Zellen",
+   "en": "Mayo Clinic 2015: the Achilles heel of old cells"
+  },
+  {
+   "t": 178,
+   "de": "Erste Studien am Menschen: Fett, Lunge, Knochen, Gehirn",
+   "en": "First human studies: fat, lungs, bone, brain"
+  },
+  {
+   "t": 315,
+   "de": "Amsterdamer Fettleber-Studie: erstes Hauptziel erreicht",
+   "en": "Amsterdam fatty liver trial: first primary goal met"
+  },
+  {
+   "t": 407,
+   "de": "Selbstversuche: epigenetische Uhren und Forenberichte",
+   "en": "Self-experiments: epigenetic clocks, forum reports"
+  },
+  {
+   "t": 516,
+   "de": "Risiken von Dasatinib und sanftere Alternativen",
+   "en": "Risks of dasatinib and gentler alternatives"
+  }
+ ]
+}
