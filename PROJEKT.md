@@ -1,6 +1,6 @@
 # Biohacking Kompakt — Projektdokumentation
 
-Stand: 13.09.2026 · Diese Datei ist die maßgebliche Beschreibung des Projekts.
+Stand: 25.10.2026 · Diese Datei ist die maßgebliche Beschreibung des Projekts.
 `CLAUDE.md` enthält die harten Arbeitsregeln, `DEPLOY.md` den Deploy-Weg im
 Detail. Bei Widersprüchen gilt diese Datei.
 
@@ -69,15 +69,15 @@ Das ist der zentrale Punkt, an dem am meisten schiefgehen kann:
 
 | Datei | Einträge | Inhalt |
 |---|---|---|
-| `js/data/supplements.js` | 84 | Supplements |
-| `js/data/experimental.js` | 77 | Peptide und Experimentelles (UI-Name „Peptide") |
-| `js/data/therapies.js` | 49 | Behandlungen und Verfahren |
-| `js/data/tips.js` | 57 | Tipps und Routinen |
-| `js/data/khavinson.js` | 9 | Khavinson-Bioregulatoren |
-| `js/data/erfahrungen.js` | 20 | Erfahrungsberichte + SHOPS |
-| `js/data/podcast.js` | 102 | Podcastfolgen mit Sprungzielen |
+| `js/data/supplements.js` | 159 | Supplements |
+| `js/data/experimental.js` | 215 | Peptide und Experimentelles (UI-Name „Peptide") |
+| `js/data/therapies.js` | 52 | Behandlungen und Verfahren |
+| `js/data/tips.js` | 62 | Tipps und Routinen |
+| `js/data/khavinson.js` | 14 | Khavinson-Bioregulatoren |
+| `js/data/erfahrungen.js` | 21 + 18 | Erfahrungsberichte + SHOPS (Bezugsquellen inkl. Warnungen) |
+| `js/data/podcast.js` | 152 | Podcastfolgen mit Sprungzielen |
 | `js/data/blutwerte.js` | 27 | Blutmarker mit Referenz- und Zielbereichen |
-| `js/data/scores.js` | 256 | BK-Scores (Konstante heißt `BK_SCORES`) |
+| `js/data/scores.js` | 502 | BK-Scores (Konstante heißt `BK_SCORES`) |
 | `js/data/signalwege.js` | — | Signalwege |
 | `js/data/labortests.js` | — | Laborprüfer, Chargen |
 | `js/data/products.js` | 3 | Wearable-Empfehlungen |
@@ -88,8 +88,11 @@ Das ist der zentrale Punkt, an dem am meisten schiefgehen kann:
 
 ### Statische Seiten
 
-220 Themenseiten · 58 Tipp-Seiten · 16 Vergleichsseiten · 6 Glossareinträge ·
-301 URLs in der `sitemap.xml`.
+Stand 25.10.2026: 460 Themenseiten · 59 Tipp-Seiten · 15 Vergleichsseiten ·
+18 Ziel-Seiten unter `/problem/` („Fragen & Beschwerden“) · 5 Glossareinträge ·
+151 Folgenseiten · Studien-Datenbank `/studien/` · Seite „Empfehlenswerte Quellen“
+`/quellen.html` — alles zusätzlich vollständig auf Englisch unter `/en/`.
+1.441 URLs in der `sitemap.xml`.
 
 ---
 
@@ -130,11 +133,11 @@ hype ≤ 3                        → Hype weit vor Evidenz
 sonst                           → Experimentell
 ```
 
-Verteilung heute: Dünne Humanevidenz 73 · Belegt, mit Einschränkungen 52 ·
-Nicht am Menschen untersucht 37 · Hype weit vor Evidenz 25 · Lange angewendet,
-kaum untersucht 22 · Gut belegt, stark überhöht beworben 16 · Gut belegt 15 ·
-Gut untersucht – Wirkung nicht bestätigt 10 · Untersucht – Nutzen nicht gezeigt 5 ·
-Am Menschen geprüft, Ergebnisse unveröffentlicht 1.
+Verteilung (25.10.2026, 502 Einträge): Belegt, mit Einschränkungen 145 ·
+Dünne Humanevidenz 135 · Nicht am Menschen untersucht 53 · Hype weit vor Evidenz 49 ·
+Gut belegt, stark überhöht beworben 38 · Gut belegt 32 · Lange angewendet, kaum
+untersucht 23 · Gut untersucht – Wirkung nicht bestätigt 13 · Untersucht – Nutzen
+nicht gezeigt 7 · Experimentell 4 · Am Menschen geprüft, Ergebnisse unveröffentlicht 3.
 
 Die 21 MHC-Einträge bleiben auf Pauls Wunsch **unbewertet** — redaktionelle
 Entscheidung, kein Interessenkonflikt (es besteht keine Geschäftsverbindung).
@@ -162,8 +165,15 @@ veröffentlicht wird nur mit Pauls Freigabe.
 
 ## 6. Podcast
 
-102 Folgen, täglich, auf Spotify (Show 033JO82L47Sg4YSmPYas0z), Apple Podcasts
-(6804214652), Amazon Music. RSS: anchor.fm/s/1148b9204/podcast/rss.
+152 Folgen (Stand 25.10.2026, teils vorproduziert und terminiert), täglich, auf
+Spotify (Show 033JO82L47Sg4YSmPYas0z), Apple Podcasts (6804214652), Amazon Music,
+YouTube (über RSS-Sync). RSS: anchor.fm/s/1148b9204/podcast/rss. Seit 16.10.2026
+eigene englische Show „Biohacking Kompakt – English Edition“ (Spotify
+6SHPqZY376hMGedL77qGM7). Folgentexte auf Spotify beginnen mit „Folge N · “ und
+verlinken seit 25.10.2026 im zweiten Absatz die Folgenseite (YouTube übernimmt das
+über den RSS-Sync – Beschreibungen nie in YouTube Studio bearbeiten, sonst endet der Sync).
+Jede Folgenseite hat „Die Kernaussagen“; seit 25.10.2026 kommen Kapitelmarken dazu
+(`kapitel.py`, siehe Abschnitt 9a).
 
 - Zwei Stimmen, **Paul und Paula**. Charakterzeichnung: *neugierig gegen streng* —
   Paul fasziniert vom Mechanismus, Paula streng bei der Frage, was das belegt.
@@ -204,8 +214,10 @@ Das ist der Teil, bei dem Fehler teuer sind.
 - Rabattcodes im Podcast müssen **gesprochen** gekennzeichnet werden.
 - `schema.org` bewusst **ohne** MedicalWebPage, Drug, DietarySupplement — diese
   Typen behaupten medizinischen Charakter. Verwendet werden Organization,
-  WebSite, Article, FAQPage, PodcastSeries, Dataset, BreadcrumbList,
-  CollectionPage.
+  WebSite, Person, Article, FAQPage, PodcastSeries, PodcastEpisode (mit Clip für
+  Kapitel), Dataset, BreadcrumbList, CollectionPage, ItemList.
+- **Bezugsquellen für Peptide:** nur als Eintrag ohne Link und ohne Affiliate;
+  ohne eigene Erfahrungsberichte ohne Sterne (z. B. mypept.eu, seit 25.10.2026).
 
 ### Affiliate-Stand
 
@@ -223,7 +235,20 @@ Das ist der Teil, bei dem Fehler teuer sind.
 
 ## 8. Deploy
 
-Ausführlich in `DEPLOY.md`. Das Wesentliche:
+Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
+
+- Änderungen in der Cloud-Arbeitskopie bauen, `git add`, `git write-tree` = Soll-Tree.
+- Paket (tar.gz) auf Pauls Rechner legen (`.deploy/_arbeitsdateien/`), dort
+  `inkr2.py <basis-sha> <branch> "<nachricht>"`: baut den Tree in Paketen zu
+  40–60 Dateien **mit Inhalt** (statt Einzel-Blobs) auf und legt Commit + Branch an.
+  Hintergrund: Mehr als ~300 Einzel-Blobs lösen GitHubs Secondary Rate Limit
+  (403) aus; Trees mit mehr als ~800 Einträgen laufen in 422-Timeouts.
+- Tree-SHA mit dem lokalen Soll-Tree vergleichen, dann PR über den
+  GitHub-Konnektor anlegen und squash-mergen.
+- Live-Prüfung: Blob-SHA der ausgelieferten Dateien gegen lokal (Stichproben bzw.
+  alle geänderten HTML), danach `indexnow.py` mit den geänderten Seiten.
+
+Ältere Wege (weiter gültig als Rückfall):
 
 - **`git push` geht aus Claude-Sitzungen nicht** — der Proxy gibt das Repo nicht
   frei (403). Von Pauls Rechner aus läuft `.deploy/bk.py` (`pull` vor jeder
@@ -260,6 +285,34 @@ Ausführlich in `DEPLOY.md`. Das Wesentliche:
 
 ---
 
+## 9a. SEO und GEO (Stand 25.10.2026)
+
+- **Search Console:** tägliche Indexierungsanträge über eine Routine
+  (Warteschlange `nov2/idx-bloecke.json`, Kontingent ca. 10–15 je Tag).
+- **Bing Webmaster Tools:** seit 26.09. eingerichtet; tägliche Routine meldet je
+  100 URLs (`nov2/bing-queue.json`, `nov2/BING-ROUTINE.md`), dazu IndexNow nach
+  jedem Deploy (`indexnow.py`). Bing speist ChatGPT- und Copilot-Suche.
+- **Snippets** (`meta.py`): Titel ≤ 60, Beschreibung ≤ 160 Zeichen, Vorschaubild
+  `og.jpg`/`og-en.jpg`, `dateModified` auf Folgenseiten; Kurzfassungen in
+  `docs/meta-kurz.json`.
+- **Entität** (`entitaet.py`): Organization mit Claim, Logo und `sameAs` aller
+  Kanäle; Person Paul Höser mit `sameAs` LinkedIn. Wikidata-Eintrag vorbereitet
+  (`nov2/WIKIDATA-ENTWURF.md`), anlegen nach erster Fremderwähnung.
+- **Interne Verlinkung:** „Weitere Themen dazu“ auf den 18 Ziel-Seiten
+  (`ziele.py`, kuratiert in `docs/ziele-auswahl.json`), „Ähnliche Themen“ über
+  `verwandt.py`.
+- **Kapitelmarken** (`kapitel.py`, `docs/folge-kapitel.json`): Zeiten aus der
+  Transkription der veröffentlichten Audiodatei (faster-whisper small), Titel
+  redaktionell, DE+EN.
+- **Empfehlenswerte Quellen** (`/quellen.html`): redaktionell, ohne Shops und
+  ohne Linktausch als Bedingung. Partner-Recherche und Anfrage-Entwürfe
+  (Podcast-Gastauftritte Paul) in `nov2/SEO-PARTNER.md`,
+  `nov2/ANFRAGEN-PODCAST-GAST.md`; Entwürfe im Postfach kontakt@ („Entwürfe“).
+- Google-Regel: kein reiner Linktausch; Verweise redaktionell, Gegenleistungslinks
+  `rel="sponsored"`.
+
+---
+
 ## 10. Qualitätssicherung
 
 - **Zahlen-Audit:** Jede Zahl im erzeugten HTML muss in der Belegdatei des Themas
@@ -279,7 +332,17 @@ Ausführlich in `DEPLOY.md`. Das Wesentliche:
 
 ---
 
-## 11. Offene Punkte (Stand 13.09.2026)
+## 11. Offene Punkte (Stand 25.10.2026)
+
+- Kapitelmarken für die übrigen 135 Folgen (Nachtlauf 25./26.10. läuft)
+- Bing-Index: erst 15 Seiten aufgenommen; Routine fragt täglich 100 an
+- Partner-Anfragen: Platzhalter [Schwerpunkte] von Paul, dann Versand nach Freigabe
+- Wikidata-Eintrag nach erster unabhängiger Erwähnung
+- biohacking-kompakt.de in der DENIC-Redemption-Phase – Paul entscheidet: wiederherstellen oder aufgeben
+- MITOcare-Partnerantrag gestellt, Freischaltung abwarten (dann Produkte gegen die 7 No-Link-Stoffe prüfen, Anzeige kennzeichnen)
+- Rechner-Arbeitskopie: einige Dateien OneDrive-gesperrt – vor Arbeit dort `bk.py pull`
+
+Ältere Punkte (Stand 13.09.2026, teils erledigt – bei Gelegenheit prüfen):
 
 - 45 Podcastseiten aus vorhandenen Skripten — bereit, kein Rechercheaufwand
 - 163 dünne Themenseiten ohne Skript — braucht echte Recherche und Pauls Ja
@@ -288,7 +351,6 @@ Ausführlich in `DEPLOY.md`. Das Wesentliche:
 - 5 Podcastfolgen ohne Sprungziel (87, 88, 89, 92, 100)
 - 21 tote `synergies`-Ziele
 - „Woher du das bekommst"-Block aus SHOPS — diskutiert, nicht gebaut
-- Problem-Einstiege (15–25 Seiten, z. B. „Ständig müde") — diskutiert, nicht gebaut
-- Mails an kontakt@biohackingkompakt.de kommen nicht an; das Leck liegt in der
-  All-Inkl-Weiterleitung, der nächste Schritt braucht den KAS-Zugang
+- ~~Problem-Einstiege~~ — erledigt: 18 Ziel-Seiten unter `/problem/`
+- ~~Mails an kontakt@ kommen nicht an~~ — erledigt 12.09.: eigenes Postfach statt Weiterleitung
 - Löwenmähne-Neuvertonung, fünf ungeprüfte Voice-Tags, Cloudflare-Token-Ablauf

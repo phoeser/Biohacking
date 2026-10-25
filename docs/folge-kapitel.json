@@ -1,4 +1,623 @@
 {
+ "1": [
+  {
+   "t": 0,
+   "de": "KPV: winziges Peptid aus dem Hormon Alpha-MSH",
+   "en": "KPV: a tiny peptide from the hormone alpha-MSH"
+  },
+  {
+   "t": 110,
+   "de": "Mechanismus: KPV bremst den Entzündungsschalter NF-κB",
+   "en": "Mechanism: KPV calms the inflammation switch NF-κB"
+  },
+  {
+   "t": 180,
+   "de": "Inflammaging und der Unterschied zu BPC-157",
+   "en": "Inflammaging and how it differs from BPC-157"
+  },
+  {
+   "t": 266,
+   "de": "Darm: Entzündung dämpfen, Barriere stärken",
+   "en": "Gut: calming inflammation, sealing the barrier"
+  },
+  {
+   "t": 375,
+   "de": "Haut: Feinstaub-Studie, Akne und Hautbarriere",
+   "en": "Skin: particulate study, acne and skin barrier"
+  },
+  {
+   "t": 507,
+   "de": "Verträglichkeit, Studienlage und Graumarkt",
+   "en": "Tolerability, evidence and the grey market"
+  },
+  {
+   "t": 570,
+   "de": "Kapsel, Spritze oder Creme – und das Fazit",
+   "en": "Capsule, injection or cream – and the takeaway"
+  }
+ ],
+ "2": [
+  {
+   "t": 0,
+   "de": "Das Gummibärchen im Studienregister",
+   "en": "The gummy bear in the trial registry"
+  },
+  {
+   "t": 63,
+   "de": "BPC-157: vom Magensaft zu Sehnen und Bändern",
+   "en": "BPC-157: from gastric juice to tendons and ligaments"
+  },
+  {
+   "t": 162,
+   "de": "Humandaten: Pliva-Studien und kleine Pilotstudien",
+   "en": "Human data: Pliva trials and small pilot studies"
+  },
+  {
+   "t": 289,
+   "de": "Erfahrungsberichte: schnellere Erholung",
+   "en": "User reports: faster recovery"
+  },
+  {
+   "t": 374,
+   "de": "Nebenwirkungen, Fälschungen, fehlende Sicherheitsdaten",
+   "en": "Side effects, fakes and missing safety data"
+  },
+  {
+   "t": 453,
+   "de": "FDA-Gremium, Rechtslage und BK-Score",
+   "en": "FDA panel, legal status and BK score"
+  },
+  {
+   "t": 539,
+   "de": "Neue Studien und die Auflösung zum Bärchen",
+   "en": "New trials and what became of the gummy bear"
+  }
+ ],
+ "3": [
+  {
+   "t": 0,
+   "de": "TB-500: Regeneration im ganzen Körper",
+   "en": "TB-500: whole-body regeneration"
+  },
+  {
+   "t": 42,
+   "de": "Thymosin Beta-4, Aktin und Zellwanderung",
+   "en": "Thymosin beta-4, actin and cell migration"
+  },
+  {
+   "t": 132,
+   "de": "Sehnen, Herz und neue Blutgefäße",
+   "en": "Tendons, heart and new blood vessels"
+  },
+  {
+   "t": 262,
+   "de": "TB-500 gegen BPC-157: der Wolverine-Stack",
+   "en": "TB-500 vs. BPC-157: the Wolverine stack"
+  },
+  {
+   "t": 304,
+   "de": "Verträglichkeit, Dopingverbot und Longevity",
+   "en": "Tolerability, doping ban and longevity"
+  },
+  {
+   "t": 478,
+   "de": "Hornhaut-Forschung und Heilung als Staffellauf",
+   "en": "Corneal research and healing as a relay race"
+  },
+  {
+   "t": 570,
+   "de": "Anwendungspraxis und Zusammenfassung",
+   "en": "Typical use and summary"
+  }
+ ],
+ "4": [
+  {
+   "t": 0,
+   "de": "Mitochondrien funken: das Peptid MOTS-c",
+   "en": "Mitochondria send signals: the peptide MOTS-c"
+  },
+  {
+   "t": 44,
+   "de": "Ein Mitokin aus dem Erbgut der Mitochondrien",
+   "en": "A mitokine from mitochondrial DNA"
+  },
+  {
+   "t": 112,
+   "de": "AMPK-Aktivierung: Sport in Molekülform",
+   "en": "AMPK activation: exercise in molecular form"
+  },
+  {
+   "t": 200,
+   "de": "Insulinempfindlichkeit und metabolische Flexibilität",
+   "en": "Insulin sensitivity and metabolic flexibility"
+  },
+  {
+   "t": 262,
+   "de": "Longevity-Signal und Schutzgene im Zellkern",
+   "en": "A longevity signal and protective genes in the nucleus"
+  },
+  {
+   "t": 352,
+   "de": "Verträglichkeit, Rechtslage und Anwendergruppen",
+   "en": "Tolerability, legal status and user groups"
+  },
+  {
+   "t": 505,
+   "de": "Metformin, NAD+ und berichtete Effekte",
+   "en": "Metformin, NAD+ and reported effects"
+  }
+ ],
+ "5": [
+  {
+   "t": 0,
+   "de": "Mäuse auf dem Laufband: 70 Prozent länger",
+   "en": "Mice on the treadmill: 70 percent longer"
+  },
+  {
+   "t": 47,
+   "de": "SLU-PP-332 und die ERR-Rezeptoren",
+   "en": "SLU-PP-332 and the ERR receptors"
+  },
+  {
+   "t": 120,
+   "de": "PGC-1α und der Schloss-Schlüssel-Versuch",
+   "en": "PGC-1α and the lock-and-key experiment"
+  },
+  {
+   "t": 208,
+   "de": "Ausdauer, Fettverbrennung und Abnehmen bei Mäusen",
+   "en": "Endurance, fat burning and weight loss in mice"
+  },
+  {
+   "t": 297,
+   "de": "Herz, Niere und erste menschliche Zellen",
+   "en": "Heart, kidney and the first human cells"
+  },
+  {
+   "t": 369,
+   "de": "Szene-Erfahrungen und das Tabletten-Problem",
+   "en": "User reports and the problem with pills"
+  },
+  {
+   "t": 441,
+   "de": "Studienlage, Sicherheit, Doping und BK-Score",
+   "en": "Evidence, safety, doping and BK score"
+  }
+ ],
+ "6": [
+  {
+   "t": 0,
+   "de": "Food Noise: wenn die Gedanken ans Essen leiser werden",
+   "en": "Food noise: when thoughts of food get quieter"
+  },
+  {
+   "t": 63,
+   "de": "Retatrutid: drei Hormonschalter in einem",
+   "en": "Retatrutide: three hormone switches in one"
+  },
+  {
+   "t": 171,
+   "de": "Phase-2-Daten: Gewicht und Leberfett",
+   "en": "Phase 2 data: weight and liver fat"
+  },
+  {
+   "t": 239,
+   "de": "Phase 3: Diabetesstudie und TRIUMPH-Programm",
+   "en": "Phase 3: diabetes trial and the TRIUMPH program"
+  },
+  {
+   "t": 352,
+   "de": "Graumarkt-Nutzer: halbe Wirkung, andere Beschwerden",
+   "en": "Grey-market users: half the effect, other complaints"
+  },
+  {
+   "t": 483,
+   "de": "Nebenwirkungen in den Studien",
+   "en": "Side effects in the trials"
+  },
+  {
+   "t": 529,
+   "de": "BK-Score, Zulassungsstand und WADA-Verbot",
+   "en": "BK score, approval status and WADA ban"
+  }
+ ],
+ "7": [
+  {
+   "t": 0,
+   "de": "Ein zugelassenes Immunpeptid: Thymosin Alpha 1",
+   "en": "An approved immune peptide: thymosin alpha 1"
+  },
+  {
+   "t": 42,
+   "de": "Thymus-Botenstoff und Immunmodulator",
+   "en": "Thymus messenger and immune modulator"
+  },
+  {
+   "t": 131,
+   "de": "Zulassung als Zadaxin und die Covid-Studie",
+   "en": "Approval as Zadaxin and the Covid study"
+  },
+  {
+   "t": 194,
+   "de": "Immunoseneszenz, schrumpfender Thymus, Inflammaging",
+   "en": "Immunosenescence, shrinking thymus, inflammaging"
+  },
+  {
+   "t": 277,
+   "de": "Rechtslage, Verträglichkeit und Zielgruppen",
+   "en": "Legal status, tolerability and target groups"
+  },
+  {
+   "t": 411,
+   "de": "Beide Immunarme und Krebsbegleitung",
+   "en": "Both arms of immunity and cancer support"
+  },
+  {
+   "t": 497,
+   "de": "Saisonaler Einsatz und Vergleich mit Vitamin C",
+   "en": "Seasonal use and comparison with vitamin C"
+  }
+ ],
+ "8": [
+  {
+   "t": 0,
+   "de": "5-Amino-1MQ: kein Peptid, sondern NNMT-Hemmer",
+   "en": "5-Amino-1MQ: not a peptide but an NNMT inhibitor"
+  },
+  {
+   "t": 46,
+   "de": "NNMT, NAD+ und Methylgruppen",
+   "en": "NNMT, NAD+ and methyl groups"
+  },
+  {
+   "t": 137,
+   "de": "Mausstudien: weniger Fett, mehr Muskelkraft",
+   "en": "Mouse studies: less fat, more muscle strength"
+  },
+  {
+   "t": 164,
+   "de": "Keine Humandaten, Graumarkt und Dopingrisiko",
+   "en": "No human data, grey market and doping risk"
+  },
+  {
+   "t": 275,
+   "de": "Fazit: spannende Mausbiologie, keine Humandaten",
+   "en": "Takeaway: intriguing mouse data, no human data"
+  }
+ ],
+ "9": [
+  {
+   "t": 0,
+   "de": "Endlich große Humandaten – und ein Scheitern",
+   "en": "Finally solid human data – and a failure"
+  },
+  {
+   "t": 43,
+   "de": "AOD-9604: Fettfragment des Wachstumshormons",
+   "en": "AOD-9604: the fat-burning fragment of growth hormone"
+  },
+  {
+   "t": 132,
+   "de": "Fettabbau ohne IGF-1 im Labor",
+   "en": "Fat loss without IGF-1 in the lab"
+  },
+  {
+   "t": 176,
+   "de": "Gegenmodell zu MK-677 und IGF-1 als Reizwort",
+   "en": "The opposite of MK-677 and why IGF-1 worries people"
+  },
+  {
+   "t": 285,
+   "de": "Gescheiterte Phase-2-Studie und die Tablettenfrage",
+   "en": "Failed phase 2 trial and the pill question"
+  },
+  {
+   "t": 433,
+   "de": "Verträglich wie Placebo, Status als Nahrungszutat",
+   "en": "As tolerable as placebo, status as food ingredient"
+  },
+  {
+   "t": 503,
+   "de": "Essendon-Skandal, Graumarkt und Fazit",
+   "en": "Essendon scandal, grey market and takeaway"
+  }
+ ],
+ "10": [
+  {
+   "t": 0,
+   "de": "Methylenblau: vom Textilfarbstoff zum Medikament",
+   "en": "Methylene blue: from textile dye to medicine"
+  },
+  {
+   "t": 88,
+   "de": "Elektronen-Taxi für die Mitochondrien",
+   "en": "An electron shuttle for the mitochondria"
+  },
+  {
+   "t": 153,
+   "de": "Hormesis: niedrig hilfreich, hoch schädlich",
+   "en": "Hormesis: helpful when low, harmful when high"
+  },
+  {
+   "t": 197,
+   "de": "Antidepressiva und G6PD-Mangel als Ausschluss",
+   "en": "Antidepressants and G6PD deficiency rule it out"
+  },
+  {
+   "t": 262,
+   "de": "Blauer Urin, Reinheitsfalle und Alzheimer-Studien",
+   "en": "Blue urine, the purity trap and Alzheimer trials"
+  },
+  {
+   "t": 388,
+   "de": "Paul Ehrlich und der heutige Hype",
+   "en": "Paul Ehrlich and today's hype"
+  },
+  {
+   "t": 451,
+   "de": "Praxis: blaue Zähne und verfälschte Messwerte",
+   "en": "In practice: blue teeth and skewed readings"
+  }
+ ],
+ "11": [
+  {
+   "t": 0,
+   "de": "Nasentropfen für den klaren Kopf",
+   "en": "Nasal drops for a clear head"
+  },
+  {
+   "t": 45,
+   "de": "Semax: ACTH-Fragment, das BDNF und NGF anhebt",
+   "en": "Semax: an ACTH fragment that raises BDNF and NGF"
+  },
+  {
+   "t": 191,
+   "de": "Zulassung in Russland und Schlaganfall-Studie",
+   "en": "Approval in Russia and the stroke study"
+  },
+  {
+   "t": 239,
+   "de": "Schnelle Wirkung, Selank-Kombi und Longevity",
+   "en": "Fast onset, Selank pairing and longevity"
+  },
+  {
+   "t": 352,
+   "de": "Studienlage, Graumarkt und Verträglichkeit",
+   "en": "Evidence, grey market and tolerability"
+  },
+  {
+   "t": 417,
+   "de": "Russische Peptid-Schule und Vergleich mit Koffein",
+   "en": "Russian peptide school and comparison with caffeine"
+  },
+  {
+   "t": 512,
+   "de": "BDNF, Stimmung und Stressresilienz",
+   "en": "BDNF, mood and stress resilience"
+  }
+ ],
+ "12": [
+  {
+   "t": 0,
+   "de": "Schlafende Kaninchen und die Entdeckung von DSIP",
+   "en": "Sleeping rabbits and the discovery of DSIP"
+  },
+  {
+   "t": 65,
+   "de": "Delta-Schlaf: Regler statt Schlafmittel",
+   "en": "Delta sleep: a regulator, not a sleeping pill"
+  },
+  {
+   "t": 132,
+   "de": "Stressachse, Cortisol und weitere Effekte",
+   "en": "Stress axis, cortisol and other effects"
+  },
+  {
+   "t": 177,
+   "de": "Studienlage und kurze Halbwertszeit",
+   "en": "Evidence and the short half-life"
+  },
+  {
+   "t": 267,
+   "de": "Tiefschlaf als Reparatur und Müllabfuhr",
+   "en": "Deep sleep as repair and brain clean-up"
+  },
+  {
+   "t": 332,
+   "de": "Dünne Datenlage, Graumarkt, Verträglichkeit",
+   "en": "Thin evidence, grey market, tolerability"
+  },
+  {
+   "t": 445,
+   "de": "Melatonin, Jetlag, Sport und Schlafhygiene",
+   "en": "Melatonin, jet lag, sport and sleep hygiene"
+  }
+ ],
+ "13": [
+  {
+   "t": 0,
+   "de": "Semaglutid: ein Medikament verändert die Gesellschaft",
+   "en": "Semaglutide: a drug that changed society"
+  },
+  {
+   "t": 43,
+   "de": "GLP-1: Magen, Gehirn und Food Noise",
+   "en": "GLP-1: stomach, brain and food noise"
+  },
+  {
+   "t": 86,
+   "de": "Ozempic, Wegovy, Rybelsus und die STEP-Studien",
+   "en": "Ozempic, Wegovy, Rybelsus and the STEP trials"
+  },
+  {
+   "t": 151,
+   "de": "SELECT-Studie: Schutz für Herz und Gefäße",
+   "en": "SELECT trial: protecting heart and vessels"
+  },
+  {
+   "t": 195,
+   "de": "Nebenwirkungen, Muskelschutz und Absetzen",
+   "en": "Side effects, protecting muscle and stopping"
+  },
+  {
+   "t": 302,
+   "de": "Longevity und Vergleich mit Tirzepatid",
+   "en": "Longevity and comparison with tirzepatide"
+  },
+  {
+   "t": 462,
+   "de": "Ozempic-Gesicht, Microdosing und Suchtverhalten",
+   "en": "Ozempic face, microdosing and addiction"
+  }
+ ],
+ "14": [
+  {
+   "t": 0,
+   "de": "Tirzepatid: zwei Hormone statt einem",
+   "en": "Tirzepatide: two hormones instead of one"
+  },
+  {
+   "t": 42,
+   "de": "GLP-1 und GIP: das Twincretin-Prinzip",
+   "en": "GLP-1 and GIP: the twincretin principle"
+  },
+  {
+   "t": 87,
+   "de": "Mounjaro, Zepbound und die SURMOUNT-1-Studie",
+   "en": "Mounjaro, Zepbound and the SURMOUNT-1 trial"
+  },
+  {
+   "t": 152,
+   "de": "Schlafapnoe und Herz-Kreislauf-Studien",
+   "en": "Sleep apnoea and cardiovascular trials"
+  },
+  {
+   "t": 200,
+   "de": "Übelkeit, Muskelverlust und das Absetzen",
+   "en": "Nausea, muscle loss and stopping treatment"
+  },
+  {
+   "t": 290,
+   "de": "Longevity und Vergleich mit Semaglutid",
+   "en": "Longevity and comparison with semaglutide"
+  },
+  {
+   "t": 421,
+   "de": "SURPASS-2, Graumarkt-Kopien und Food Noise",
+   "en": "SURPASS-2, grey-market copies and food noise"
+  }
+ ],
+ "15": [
+  {
+   "t": 0,
+   "de": "Amylin: das zweite Sättigungshormon",
+   "en": "Amylin: the second satiety hormone"
+  },
+  {
+   "t": 42,
+   "de": "Amylin und das Analogon Cagrilintid",
+   "en": "Amylin and the analogue cagrilintide"
+  },
+  {
+   "t": 104,
+   "de": "CagriSema: Cagrilintid plus Semaglutid",
+   "en": "CagriSema: cagrilintide plus semaglutide"
+  },
+  {
+   "t": 210,
+   "de": "Noch nicht zugelassen: Risiko DIY-Graumarkt",
+   "en": "Not yet approved: the DIY grey-market risk"
+  },
+  {
+   "t": 251,
+   "de": "Verträglichkeit und Sättigung im Hirnstamm",
+   "en": "Tolerability and satiety in the brainstem"
+  },
+  {
+   "t": 314,
+   "de": "Longevity und die nächste Welle",
+   "en": "Longevity and the next wave"
+  },
+  {
+   "t": 377,
+   "de": "Entdeckung von Amylin und Wettrennen der Hersteller",
+   "en": "Discovery of amylin and the race between makers"
+  }
+ ],
+ "16": [
+  {
+   "t": 0,
+   "de": "MK-677: Wachstumshormon aus der Tablette",
+   "en": "MK-677: growth hormone from a pill"
+  },
+  {
+   "t": 46,
+   "de": "Ghrelin-Rezeptor und körpereigene Ausschüttung",
+   "en": "Ghrelin receptor and the body's own release"
+  },
+  {
+   "t": 88,
+   "de": "Schlaf, Regeneration und Appetit",
+   "en": "Sleep, recovery and appetite"
+  },
+  {
+   "t": 154,
+   "de": "Nass-Studie und Warnsignal Herzschwäche",
+   "en": "The Nass study and a heart failure warning"
+  },
+  {
+   "t": 261,
+   "de": "IGF-1: sich gut fühlen gegen lange leben",
+   "en": "IGF-1: feeling good versus living long"
+  },
+  {
+   "t": 302,
+   "de": "Bequemlichkeit, GH-Peptide und Rechtslage",
+   "en": "Convenience, GH peptides and legal status"
+  },
+  {
+   "t": 433,
+   "de": "Gescheiterte Zulassung, Knochen und Verlauf",
+   "en": "Failed approval, bones and the course over weeks"
+  }
+ ],
+ "17": [
+  {
+   "t": 0,
+   "de": "Freundlicher Streit: der klügste Peptid-Stack",
+   "en": "A friendly debate: the cleverest peptide stack"
+  },
+  {
+   "t": 86,
+   "de": "GHRH, Ghrelin und das Wecker-Prinzip",
+   "en": "GHRH, ghrelin and the alarm-clock principle"
+  },
+  {
+   "t": 130,
+   "de": "Ipamorelin und CJC-1295 im Porträt",
+   "en": "Profiles of ipamorelin and CJC-1295"
+  },
+  {
+   "t": 271,
+   "de": "Synergie am Menschen und Tiefschlaf im Alter",
+   "en": "Synergy in humans and deep sleep with age"
+  },
+  {
+   "t": 357,
+   "de": "Anwenderberichte, IGF-1-Werte und Nebenwirkungen",
+   "en": "User reports, IGF-1 levels and side effects"
+  },
+  {
+   "t": 444,
+   "de": "Darm-OP-Studie, FDA-Warnung und Graumarkt",
+   "en": "Bowel surgery trial, FDA warning and grey market"
+  },
+  {
+   "t": 575,
+   "de": "Dopingverbot, BK-Score und ein Unentschieden",
+   "en": "Doping ban, BK score and a draw"
+  }
+ ],
  "106": [
   {
    "t": 0,
