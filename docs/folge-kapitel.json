@@ -5094,5 +5094,486 @@
    "de": "Training, Krebsrisiko und BK-Score",
    "en": "Exercise, cancer risk and BK score"
   }
+ ],
+ "142": [
+  {
+   "t": 0,
+   "de": "Junges Blut: die Mäuseversuche aus Stanford",
+   "en": "Young blood: the Stanford mouse experiments"
+  },
+  {
+   "t": 46,
+   "de": "Plasmaaustausch und das Geschäft mit jungem Plasma",
+   "en": "Plasma exchange and the young-plasma business"
+  },
+  {
+   "t": 138,
+   "de": "Verdünnen statt verjüngen: Albumin bei alten Mäusen",
+   "en": "Dilute, not rejuvenate: albumin in old mice"
+  },
+  {
+   "t": 183,
+   "de": "AMBAR-Studie: Plasmaaustausch bei Alzheimer",
+   "en": "AMBAR trial: plasma exchange in Alzheimer's"
+  },
+  {
+   "t": 257,
+   "de": "Epigenetische Uhren: ein Effekt, der wieder geht",
+   "en": "Epigenetic clocks: an effect that fades"
+  },
+  {
+   "t": 348,
+   "de": "Long Covid, Selbstversuche und Scheinbehandlung",
+   "en": "Long COVID, self-experiments and sham treatment"
+  },
+  {
+   "t": 486,
+   "de": "Verträglichkeit, BK-Score, Kosten und Ausblick",
+   "en": "Tolerability, BK score, costs and outlook"
+  }
+ ],
+ "143": [
+  {
+   "t": 0,
+   "de": "Ei und Galle: woher Lecithin und Cholin stammen",
+   "en": "Egg and bile: where lecithin and choline come from"
+  },
+  {
+   "t": 69,
+   "de": "Alpha-GPC und Citicolin: zwei Wege zum Acetylcholin",
+   "en": "Alpha-GPC and citicoline: two routes to acetylcholine"
+  },
+  {
+   "t": 143,
+   "de": "Koreanische Daten: ein Schlaganfallsignal",
+   "en": "Korean data: a stroke signal"
+  },
+  {
+   "t": 208,
+   "de": "Gegenbefund zur Demenz und die Wette der Hersteller",
+   "en": "Opposite finding on dementia and the makers' bet"
+  },
+  {
+   "t": 337,
+   "de": "Citicolin: Schlaganfallstudie und Gedächtnis",
+   "en": "Citicoline: stroke trial and memory"
+  },
+  {
+   "t": 382,
+   "de": "Motivation, Foren-Umfrage und Erfahrungsberichte",
+   "en": "Motivation, forum survey and user reports"
+  },
+  {
+   "t": 518,
+   "de": "BK-Score und wer vorher ärztlich fragen sollte",
+   "en": "BK score and who should ask a doctor first"
+  }
+ ],
+ "144": [
+  {
+   "t": 0,
+   "de": "Ein Bodenbakterium aus Kenia als Arzneifabrik",
+   "en": "A soil bacterium from Kenya as a drug factory"
+  },
+  {
+   "t": 25,
+   "de": "Wie Acarbose die Stärkeverdauung bremst",
+   "en": "How acarbose slows starch digestion"
+  },
+  {
+   "t": 126,
+   "de": "Mäusestudien: längeres Leben, vor allem bei Männchen",
+   "en": "Mouse studies: longer life, mainly in males"
+  },
+  {
+   "t": 237,
+   "de": "Warum Weibchen weniger profitieren und der Darm",
+   "en": "Why females benefit less, and the gut"
+  },
+  {
+   "t": 280,
+   "de": "STOP-NIDDM und ACE: weniger Diabetes, kein Herzschutz",
+   "en": "STOP-NIDDM and ACE: less diabetes, no heart benefit"
+  },
+  {
+   "t": 367,
+   "de": "Langlebigkeit beim Menschen und Selbstmessungen",
+   "en": "Longevity in humans and self-tracking"
+  },
+  {
+   "t": 518,
+   "de": "Unterzuckerung, seltene Risiken und BK-Score",
+   "en": "Low blood sugar, rare risks and BK score"
+  }
+ ],
+ "145": [
+  {
+   "t": 0,
+   "de": "Ein Drittel Muskel? Die Zahl und das Röntgenbild",
+   "en": "One third muscle? The number and the DXA scan"
+  },
+  {
+   "t": 64,
+   "de": "STEP 1 und Vergleiche: fettfreie Masse ist kein Muskel",
+   "en": "STEP 1 and comparisons: lean mass is not muscle"
+  },
+  {
+   "t": 156,
+   "de": "Kernspin und Griffkraft: Muskel eher sauberer",
+   "en": "MRI and grip strength: cleaner muscle"
+  },
+  {
+   "t": 262,
+   "de": "Anwender: Müdigkeit, ausgelassene Mahlzeiten, Sorgen",
+   "en": "Users: fatigue, skipped meals, worries"
+  },
+  {
+   "t": 347,
+   "de": "Krafttraining und Eiweiß als beste Antwort",
+   "en": "Strength training and protein as the best answer"
+  },
+  {
+   "t": 391,
+   "de": "Bimagrumab und Enobosarm: Muskelschutz per Medikament",
+   "en": "Bimagrumab and enobosarm: drugs to protect muscle"
+  },
+  {
+   "t": 522,
+   "de": "BK-Score und der Treppentest als Maßstab",
+   "en": "BK score and the stair test as a benchmark"
+  }
+ ],
+ "146": [
+  {
+   "t": 0,
+   "de": "Enzyme gegen Ablagerungen: Natto und Seidenraupe",
+   "en": "Plaque-eating enzymes: natto and silkworm"
+  },
+  {
+   "t": 54,
+   "de": "Entdeckung der Nattokinase und das Vitamin K2",
+   "en": "Discovering nattokinase, and vitamin K2"
+  },
+  {
+   "t": 125,
+   "de": "Kommt das Enzym an? Und der Blutdruck",
+   "en": "Does the enzyme get through? And blood pressure"
+  },
+  {
+   "t": 212,
+   "de": "Halsschlagader und Denken: was Studien zeigen",
+   "en": "Carotid artery and cognition: what studies show"
+  },
+  {
+   "t": 298,
+   "de": "Long Covid: Erfahrungen und Laborbefunde",
+   "en": "Long COVID: user reports and lab findings"
+  },
+  {
+   "t": 429,
+   "de": "Serrapeptase: vom Markt genommen, kaum belegt",
+   "en": "Serrapeptase: withdrawn and barely supported"
+  },
+  {
+   "t": 507,
+   "de": "Risiken mit Blutverdünnern und BK-Score",
+   "en": "Risks with blood thinners and BK score"
+  }
+ ],
+ "147": [
+  {
+   "t": 0,
+   "de": "Cerebrolysin: Reha-Station und Nootropika-Forum",
+   "en": "Cerebrolysin: stroke rehab and nootropics forums"
+  },
+  {
+   "t": 65,
+   "de": "Zulassung und was im Gemisch steckt",
+   "en": "Approval status and what is in the mixture"
+  },
+  {
+   "t": 131,
+   "de": "Schlaganfall: Reha-Studie und große Datensammlung",
+   "en": "Stroke: rehab trial and large data collection"
+  },
+  {
+   "t": 238,
+   "de": "Die einzige Studie an Gesunden",
+   "en": "The only study in healthy people"
+  },
+  {
+   "t": 260,
+   "de": "Cochrane-Auswertung gegen Leitlinie",
+   "en": "Cochrane review versus guideline"
+  },
+  {
+   "t": 351,
+   "de": "Anwender ohne Schlaganfall: Umfrage und Berichte",
+   "en": "Users without stroke: survey and reports"
+  },
+  {
+   "t": 469,
+   "de": "Zurückgezogene Tierstudien, Graumarkt, BK-Score",
+   "en": "Retracted animal studies, grey market, BK score"
+  }
+ ],
+ "148": [
+  {
+   "t": 0,
+   "de": "Exosomen-Behandlung im Selbstversuch",
+   "en": "An exosome facial, tried first-hand"
+  },
+  {
+   "t": 47,
+   "de": "Vom Müllbeutel zum Brief: Geschichte der Exosomen",
+   "en": "From trash bag to letter: history of exosomes"
+  },
+  {
+   "t": 114,
+   "de": "Stammzellalternative und verjüngte Mäuse",
+   "en": "Stem cell alternative and rejuvenated mice"
+  },
+  {
+   "t": 180,
+   "de": "Microneedling: die unterschätzte Nadel",
+   "en": "Microneedling: the underrated needle"
+  },
+  {
+   "t": 266,
+   "de": "Exosomen gegen Kochsalz: Haare und Haut",
+   "en": "Exosomes versus saline: hair and skin"
+  },
+  {
+   "t": 372,
+   "de": "Was in der Flasche steckt und Risiken beim Spritzen",
+   "en": "What is in the bottle and risks of injecting"
+  },
+  {
+   "t": 460,
+   "de": "Infusionen, Covid-Studie und BK-Score",
+   "en": "Infusions, COVID trial and BK score"
+  }
+ ],
+ "149": [
+  {
+   "t": 0,
+   "de": "Klotho: Schicksalsgöttin und Laborpanne",
+   "en": "Klotho: a goddess of fate and a lab accident"
+  },
+  {
+   "t": 73,
+   "de": "Was Klotho im Körper macht und langlebige Mäuse",
+   "en": "What Klotho does in the body, and long-lived mice"
+  },
+  {
+   "t": 140,
+   "de": "Blutwerte und die Genvariante KL-VS",
+   "en": "Blood levels and the KL-VS gene variant"
+  },
+  {
+   "t": 231,
+   "de": "Gentherapie auf einer Insel und leere Booster",
+   "en": "Gene therapy on an island and empty boosters"
+  },
+  {
+   "t": 319,
+   "de": "Demenz-Pilotstudie, Affen und behandelte Mäuse",
+   "en": "Dementia pilot, monkeys and treated mice"
+  },
+  {
+   "t": 478,
+   "de": "Training hebt den eigenen Klotho-Wert",
+   "en": "Exercise raises your own Klotho level"
+  },
+  {
+   "t": 523,
+   "de": "Erste verblindete Studie und BK-Score",
+   "en": "First blinded trial and BK score"
+  }
+ ],
+ "150": [
+  {
+   "t": 0,
+   "de": "Zwei Fläschchen: Semax und seine Variante",
+   "en": "Two vials: Semax and its variant"
+  },
+  {
+   "t": 41,
+   "de": "Warum die Nase ein Weg ins Gehirn ist",
+   "en": "Why the nose is a route to the brain"
+  },
+  {
+   "t": 84,
+   "de": "Aus einem Hormon gebaut: die Geschichte von Semax",
+   "en": "Built from a hormone: the history of Semax"
+  },
+  {
+   "t": 153,
+   "de": "BDNF, Ratten und die einzige Placebostudie",
+   "en": "BDNF, rats and the only placebo study"
+  },
+  {
+   "t": 223,
+   "de": "Russische Studien und das Votum in den USA",
+   "en": "Russian studies and the US advisory vote"
+  },
+  {
+   "t": 315,
+   "de": "Erfahrungen von Anwendern und Arztnotizen",
+   "en": "User experiences and clinical notes"
+  },
+  {
+   "t": 452,
+   "de": "Die Amidat-Variante, Sicherheit und BK-Score",
+   "en": "The amidate variant, safety and BK score"
+  }
+ ],
+ "151": [
+  {
+   "t": 0,
+   "de": "Zöliakie im Restaurant: Alltag mit der Diät",
+   "en": "Coeliac disease when eating out"
+  },
+  {
+   "t": 65,
+   "de": "Vom Cholera-Impfstoff zur Entdeckung von Zonulin",
+   "en": "From cholera vaccine to discovering zonulin"
+  },
+  {
+   "t": 153,
+   "de": "Larazotid: ein Reißverschluss für die Darmwand",
+   "en": "Larazotide: a zipper for the gut wall"
+  },
+  {
+   "t": 219,
+   "de": "Studien bei Zöliakie bis zum Abbruch",
+   "en": "Coeliac trials up to the halted final phase"
+  },
+  {
+   "t": 351,
+   "de": "Überraschende Wendung: Kinder nach Covid",
+   "en": "A surprising twist: children after COVID"
+  },
+  {
+   "t": 419,
+   "de": "Graumarkt und der fragwürdige Zonulin-Test",
+   "en": "Grey market and the questionable zonulin test"
+  },
+  {
+   "t": 527,
+   "de": "BK-Score: echte Biologie, fehlendes Netz",
+   "en": "BK score: real biology, missing safety net"
+  }
+ ],
+ "152": [
+  {
+   "t": 0,
+   "de": "Hexarelin: zwei Bierdeckel, ein Peptid",
+   "en": "Hexarelin: two beer mats, one peptide"
+  },
+  {
+   "t": 23,
+   "de": "Vom Schmerzmittelversuch zum Ghrelin-Rezeptor",
+   "en": "From painkiller research to the ghrelin receptor"
+  },
+  {
+   "t": 116,
+   "de": "Starke Hormonantwort und wachsende Kinder",
+   "en": "Strong hormone response and growing children"
+  },
+  {
+   "t": 200,
+   "de": "Das Herz: Wirkung über den Rezeptor CD36",
+   "en": "The heart: effects via the CD36 receptor"
+  },
+  {
+   "t": 286,
+   "de": "Gewöhnung: die Hormonantwort lässt nach",
+   "en": "Tolerance: the hormone response fades"
+  },
+  {
+   "t": 371,
+   "de": "Cortisol, Prolaktin und weniger Tiefschlaf",
+   "en": "Cortisol, prolactin and less deep sleep"
+  },
+  {
+   "t": 437,
+   "de": "BK-Score, Foren und rechtlicher Rahmen",
+   "en": "BK score, forums and legal status"
+  }
+ ],
+ "153": [
+  {
+   "t": 0,
+   "de": "Was spritze ich da? HMG beim Kinderwunsch",
+   "en": "What am I injecting? hMG in fertility treatment"
+  },
+  {
+   "t": 45,
+   "de": "FSH und LH: wie HMG wirkt und überwacht wird",
+   "en": "FSH and LH: how hMG works and is monitored"
+  },
+  {
+   "t": 90,
+   "de": "Neue Studie: Pen gegen Pulver",
+   "en": "New trial: pen versus powder"
+  },
+  {
+   "t": 197,
+   "de": "Männer mit Hormonmangel: Spermien kehren zurück",
+   "en": "Men with hormone deficiency: sperm returns"
+  },
+  {
+   "t": 241,
+   "de": "Nach der Steroidkur: Fruchtbarkeit zurückholen",
+   "en": "After steroid use: restoring fertility"
+  },
+  {
+   "t": 419,
+   "de": "BK-Score und gefälschte Ampullen",
+   "en": "BK score and counterfeit vials"
+  },
+  {
+   "t": 484,
+   "de": "Die Auflösung: Urin aus Altenheimen in Italien",
+   "en": "The reveal: urine from nursing homes in Italy"
+  }
+ ],
+ "154": [
+  {
+   "t": 0,
+   "de": "Doping-Krimi: Nandrolon im Wildschweinragout",
+   "en": "Doping mystery: nandrolone in wild boar ragout"
+  },
+  {
+   "t": 87,
+   "de": "Nandrolon: Testosteron mit einem Atom weniger",
+   "en": "Nandrolone: testosterone minus one atom"
+  },
+  {
+   "t": 152,
+   "de": "Medizinische Karriere und Studien bei Dialyse",
+   "en": "Medical career and trials in dialysis"
+  },
+  {
+   "t": 239,
+   "de": "Osteoporose, Telomere und eine Studie in Polen",
+   "en": "Osteoporosis, telomeres and a trial in Poland"
+  },
+  {
+   "t": 308,
+   "de": "Anwender: Kraftgewinn, Nebenwirkungen, Abhängigkeit",
+   "en": "Users: strength gains, side effects, dependence"
+  },
+  {
+   "t": 377,
+   "de": "Foren: die Sorge ums Danach und die Gelenke",
+   "en": "Forums: worries about afterwards, and joints"
+  },
+  {
+   "t": 465,
+   "de": "Fälschungen, Zahnpasta-Fall und das Herz",
+   "en": "Counterfeits, the toothpaste case and the heart"
+  }
  ]
 }

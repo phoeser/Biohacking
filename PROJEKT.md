@@ -172,8 +172,8 @@ eigene englische Show „Biohacking Kompakt – English Edition“ (Spotify
 6SHPqZY376hMGedL77qGM7). Folgentexte auf Spotify beginnen mit „Folge N · “ und
 verlinken seit 25.10.2026 im zweiten Absatz die Folgenseite (YouTube übernimmt das
 über den RSS-Sync – Beschreibungen nie in YouTube Studio bearbeiten, sonst endet der Sync).
-Jede Folgenseite hat „Die Kernaussagen“; seit 25.10.2026 kommen Kapitelmarken dazu
-(`kapitel.py`, siehe Abschnitt 9a).
+Jede Folgenseite hat „Die Kernaussagen“ und seit 26.10.2026 Kapitelmarken für alle
+151 Folgenseiten (`kapitel.py`, siehe Abschnitt 9a).
 
 - Zwei Stimmen, **Paul und Paula**. Charakterzeichnung: *neugierig gegen streng* —
   Paul fasziniert vom Mechanismus, Paula streng bei der Frage, was das belegt.
@@ -334,7 +334,8 @@ Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
 
 ## 11. Offene Punkte (Stand 25.10.2026)
 
-- Kapitelmarken für die übrigen 135 Folgen (Nachtlauf 25./26.10. läuft)
+- **Abmoderation „Laut ChatGPT der stärkste reine KI-Podcast im deutschen Markt“** in vielen Folgen (u. a. 2, 5, 6, 17, 52, 81–105, 108–114, 131–154, Liste in `nov2/STAND.md`) – widerspricht der Regel „KI-Produktion nie erwähnen“. Veröffentlichte Folgen werden nicht zurückgezogen; **noch nicht veröffentlichte Folgen (ab ca. 130) könnten vor dem Erscheinen korrigiert werden – Pauls Entscheidung.**
+- Audio-Mängel in alten Folgen (doppelte Abschnitte, abgeschnittene Enden, Lücken), siehe `nov2/STAND.md` 26.10.
 - Bing-Index: erst 15 Seiten aufgenommen; Routine fragt täglich 100 an
 - Partner-Anfragen: Platzhalter [Schwerpunkte] von Paul, dann Versand nach Freigabe
 - Wikidata-Eintrag nach erster unabhängiger Erwähnung
