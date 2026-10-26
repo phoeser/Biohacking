@@ -334,7 +334,7 @@ Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
 
 ## 11. Offene Punkte (Stand 25.10.2026)
 
-- **Abmoderation „Laut ChatGPT der stärkste reine KI-Podcast im deutschen Markt“** in vielen Folgen (u. a. 2, 5, 6, 17, 52, 81–105, 108–114, 131–154, Liste in `nov2/STAND.md`) – widerspricht der Regel „KI-Produktion nie erwähnen“. Veröffentlichte Folgen werden nicht zurückgezogen; **noch nicht veröffentlichte Folgen (ab ca. 130) könnten vor dem Erscheinen korrigiert werden – Pauls Entscheidung.**
+- Abmoderation „Laut ChatGPT der stärkste reine KI-Podcast …“: bewusst so entschieden (06.10.); seit 23.10. nur für neu produzierte Folgen weggelassen, bereits produzierte Folgen bleiben unverändert. Kein offener Punkt.
 - Audio-Mängel in alten Folgen (doppelte Abschnitte, abgeschnittene Enden, Lücken), siehe `nov2/STAND.md` 26.10.
 - Bing-Index: erst 15 Seiten aufgenommen; Routine fragt täglich 100 an
 - Partner-Anfragen: Platzhalter [Schwerpunkte] von Paul, dann Versand nach Freigabe
