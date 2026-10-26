@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-25
+Stand: 2026-10-26
 
 # Fragen & Beschwerden
 
@@ -2412,6 +2412,11 @@ https://biohackingkompakt.de/vergleich/ashwagandha-vs-rhodiola.html
 
 Bei der Human-Evidenz liegt Rhodiola inzwischen knapp vorn: Eine Meta-Analyse von 2025 über 26 randomisierte Studien mit 668 Teilnehmern findet kleine, gleichgerichtete Effekte auf die Ausdauer. Die Studien zur Erschöpfung verwenden aber fast alle denselben Extrakt, unabhängige Wiederholungen fehlen, und die EMA hält die Evidenz für eine Wirksamkeit bei Erschöpfung für nicht ausreichend. Ashwagandha hat mehrere randomisierte Studien zu Stressmarkern und Cortisol, wenn auch überwiegend klein und aus einer begrenzten Zahl von Forschungsgruppen. Wichtiger als der Vergleich ist bei Ashwagandha ein Sicherheitshinweis: Das Bundesinstitut für Risikobewertung hat 2024 auf Leberschäden und die hormonelle Wirkung hingewiesen.
 
+## Berberin vs. Metformin
+https://biohackingkompakt.de/vergleich/berberin-vs-metformin.html
+
+Beide senken bei Typ-2-Diabetes den Blutzucker, aber auf sehr unterschiedlichem Fundament. Metformin ist seit Jahrzehnten für Typ-2-Diabetes zugelassen, mit Endpunktdaten und umfassender Pharmakovigilanz; im Diabetes Prevention Program senkte es bei 3.234 Menschen mit erhöhten Glukosewerten die Diabetes-Inzidenz relativ um 31 Prozent. Berberin verbessert Surrogatmarker, gepoolt über mehr als 30 Studien um 0,19 Prozentpunkte HbA1c, bei niedriger Studienqualität und ohne eine einzige Endpunktstudie zum Stoffwechsel. Der direkte Vergleich ruht auf einer Pilotstudie mit 36 Teilnehmern ohne Nichtunterlegenheitstest; Meta-Analysen finden keinen signifikanten Unterschied zu oralen Antidiabetika, was kein Nachweis der Gleichwertigkeit ist. Für Berberin konnte das EFSA-NDA-Panel zudem keine sichere Aufnahmemenge ableiten. Metformin ist verschreibungspflichtig, die Entscheidung gehört in ärztliche Hand.
+
 ## BPC-157 vs. TB-500 (Thymosin Beta-4 Fragment)
 https://biohackingkompakt.de/vergleich/bpc-157-vs-tb-500.html
 
@@ -2422,15 +2427,35 @@ https://biohackingkompakt.de/vergleich/brustgurt-vs-wearable.html
 
 Wenn aus dem Wert eine Entscheidung folgen soll, nimm einen Brustgurt: Gegen EKG lag sein mittlerer Fehler für rMSSD bei 2,16 Prozent, bei einer Smartwatch gegen Brustgurt-Referenz bei 28,88 Prozent. Wenn du einen Trend über Wochen ohne tägliche Handlung willst, ist das Wearable die bessere Wahl — es misst nachts von selbst, und die Nacht ist der besser standardisierte Zeitraum. Viele nutzen beides: den Gurt für die Messung, das Wearable für den Verlauf.
 
+## Coenzym Q10 (Ubiquinol) vs. PQQ
+https://biohackingkompakt.de/vergleich/coq10-vs-pqq.html
+
+Die belastbareren Daten hat Coenzym Q10. Seine Rolle in der Atmungskette ist Lehrbuchbiochemie, und in der Herzinsuffizienz gibt es harte Endpunkte: In Q-SYMBIO mit 420 Patienten erreichten über 2 Jahre 15 % der CoQ10-Gruppe den kombinierten Endpunkt gegenüber 26 % unter Placebo, dazu kommen positive Meta-Analysen zu Migräneprophylaxe und Spermienparametern. PQQ hat drei kleine placebokontrollierte Studien über 12 Wochen mit Verbesserungen in Teilbereichen von Gedächtnis und Aufmerksamkeit, zwei davon mit Herstellerautoren. Wo die Daten aufhören: Das Sterblichkeitsergebnis bei CoQ10 stammt aus dieser einen Studie, und die Mitochondrien-Neubildung durch PQQ ist am Menschen nur über einen Marker angedeutet. Bei Gesunden ist für keinen der beiden Stoffe ein Leistungsgewinn belegt. Einen direkten Vergleich gibt es nicht.
+
 ## Fisetin vs. Quercetin
 https://biohackingkompakt.de/vergleich/fisetin-vs-quercetin.html
 
 Beide werden als Senolytika vermarktet, also als Mittel, die gealterte Zellen gezielt beseitigen – und bei beiden ist genau das am Menschen nicht gezeigt. Fisetin hat inzwischen mehrere kleine randomisierte Studien mit Surrogatmarkern wie Entzündungswerten; eine randomisierte Arthrose-Studie mit 75 Teilnehmern fand keinen Unterschied bei Nebenwirkungen und Entzündungsmarkern, und die Lebensspannenverlängerung aus der Maus wurde im unabhängigen Interventions Testing Program nicht bestätigt. Quercetin hat mehr Humandaten, aber zu etwas anderem: eine Blutdrucksenkung um 2 bis 3 mmHg systolisch, übereinstimmend in drei Meta-Analysen. Bezeichnend ist der regulatorische Befund – die EFSA hat genau die Claims, mit denen Quercetin beworben wird, mangels Evidenz abgelehnt. Im senolytischen Kontext ist die Kombination aus Dasatinib und Quercetin weiter als beide Einzelstoffe.
 
+## HMB (β-Hydroxy-β-Methylbutyrat) vs. Leucin
+https://biohackingkompakt.de/vergleich/hmb-vs-leucin.html
+
+Leucin ist der Auslöser, HMB sein Abbauprodukt – belegt ist bei beiden etwas anderes. Leucin schaltet am Menschen nachweislich die Muskelproteinsynthese über mTORC1 an; in einer Tracer-Studie stieg sie um 110 %, und die Signalkette blieb länger aktiv als nach HMB. HMB zeigt kleine Kraftgewinne bei Trainingsanfängern und kleine Effekte bei Kranken mit Muskelschwund. Wo die Daten aufhören: Isoliertes Leucin brachte Älteren über Monate weder Muskelmasse noch Kraft, messbare Effekte zeigen vor allem Kombinationen mit Protein und Vitamin D. HMB brachte Trainierten und Älteren mit Krafttraining keinen Zusatznutzen. Eine Studie, die beide bei Muskelmasse oder Kraft direkt vergleicht, gibt es nicht, und für beide fehlen Langzeitdaten zur Sicherheit.
+
 ## Kollagen-Peptide vs. Hyaluronsäure
 https://biohackingkompakt.de/vergleich/kollagen-vs-hyaluronsaeure.html
 
 Beide haben Humanstudien, und beide haben dasselbe methodische Muster: kurze Laufzeiten von acht bis zwölf Wochen, kosmetische Messverfahren statt klinischer Endpunkte, und ein großer Teil der Studien ist von Rohstoffherstellern mitfinanziert. Bei der Human-Evidenz liegt orale Hyaluronsäure inzwischen knapp vorn: Eine Meta-Analyse über sieben RCTs zeigt verbesserte Hautfeuchtigkeit, Elastizität und Faltentiefe, die größte Einzelstudie mit 150 gesunden Erwachsenen bestätigt das nach zwölf Wochen. Für Kollagenpeptide gibt es RCTs zu Hautfeuchtigkeit und Gelenkbeschwerden, sie sind aber klein und überwiegend herstellerfinanziert. Mechanistisch ist bei beiden offen, wie das geschluckte Molekül nach dem Abbau im Darm in der Haut wirken soll – erklärt wird es über eine angeregte körpereigene Synthese, belegt ist das nicht.
+
+## Kreatin Monohydrat vs. Beta-Alanin
+https://biohackingkompakt.de/vergleich/kreatin-vs-beta-alanin.html
+
+Eine direkte Vergleichsstudie gibt es nicht, und die beiden setzen an verschiedenen Stellen an. Kreatin füllt die Phosphokreatin-Speicher und steigert die Muskelkraft, belegt in Metaanalysen bei Menschen ab 60 Jahren und bei postmenopausalen Frauen; die EFSA erkennt den Zusammenhang mit Muskelkraft unter engen Bedingungen als kausal an. Beta-Alanin füllt den Carnosinspeicher, einen Säurepuffer, und bringt bei harten Belastungen von etwa 1 bis 4 Minuten einen kleinen Vorsprung, Effektstärke 0,18 über 40 Studien. Wo die Daten aufhören: Bei wiederholten Sprints zeigt Beta-Alanin keinen Effekt, bei Kreatin verfehlen Muskelmasse und Gesamtkognition die Signifikanz. Die Sicherheit ist bei Kreatin besser untersucht, das BfR bewertet die Sicherheitsdaten zu Beta-Alanin als schlecht.
+
+## L-Theanin vs. Ashwagandha
+https://biohackingkompakt.de/vergleich/l-theanin-vs-ashwagandha.html
+
+Beide werden für dasselbe gesucht, belegt ist aber Verschiedenes. L-Theanin hat die breitere Datenbasis: Eine Meta-Analyse über 31 randomisierte Studien mit 1.168 Teilnehmern fand nach einer Einzelgabe eine bessere Wahlreaktionszeit (SMD 0,51), also einen akuten Effekt auf die Aufmerksamkeit. Ashwagandha senkte in einer Meta-Analyse von 15 Studien mit 873 Erwachsenen nach acht Wochen Angst-, Stress- und Cortisolwerte. Wo die Daten aufhören: Der Stresseffekt von L-Theanin ist kleiner (SMD 0,31) und stammt überwiegend aus Studien mit hohem Verzerrungsrisiko. Bei Ashwagandha besserte sich die Lebensqualität nicht, über acht Wochen hinaus gibt es keine Daten, und das BfR warnt vor seltenen Leberschäden. Einen direkten Vergleich beider Stoffe gibt es nicht.
 
 ## Löwenmähne (Lion's Mane) vs. Bacopa Monnieri
 https://biohackingkompakt.de/vergleich/loewenmaehne-vs-bacopa.html
@@ -2441,6 +2466,11 @@ Hier trennen die Daten deutlich. Bacopa Monnieri hat mehrere Meta-Analysen; die 
 https://biohackingkompakt.de/vergleich/magnesium-vs-magnesium-l-threonat.html
 
 Das Alleinstellungsmerkmal von Magnesium-L-Threonat ist die Behauptung, es sei die einzige Form, die die Blut-Hirn-Schranke überwindet. Diese Behauptung stammt aus Messungen im Nervenwasser von Ratten – am lebenden Menschen wurde das Hirnmagnesium in keiner der vorliegenden Studien gemessen. Die drei von Herstellern oder Rohstofflieferanten finanzierten Studien laufen über drei bis zwölf Wochen und berichten bessere kognitive Kompositscores und teils besseren Schlaf; die vielzitierten 7,5 Jahre reduziertes kognitives Alter sind eine exploratorische Auswertung, und die beiden Schlafstudien widersprechen sich in den objektiven Messwerten. Normales Magnesium hat solide Studien zu Blutdruck und Schlafqualität und kostet einen Bruchteil.
+
+## Melatonin vs. Magnesium
+https://biohackingkompakt.de/vergleich/melatonin-vs-magnesium.html
+
+Eine direkte Vergleichsstudie gibt es nicht, man kann nur die Studien nebeneinanderlegen. Melatonin hat die klarere Wirkkette: Es verschiebt und stabilisiert die innere Uhr, und das ist am Menschen quantifiziert. Am deutlichsten wirkt es bei Jetlag ab fünf überflogenen Zeitzonen und beim verzögerten Schlafphasensyndrom mit 38,8 Minuten kürzerer Einschlafzeit; bei gewöhnlicher Insomnie bleiben laut größter Metaanalyse 7,06 Minuten. Magnesium ist als Kofaktor von über 300 Enzymreaktionen unstrittig, beim Schlaf aber dünn belegt: eine doppelblinde Studie mit 155 Teilnehmenden, p = 0,049, Effektstärke d = 0,2, gemessen nur per Fragebogen. Bei Melatonin fehlen Langzeitdaten weitgehend, bei Magnesium ist Durchfall die häufigste Nebenwirkung.
 
 ## Metformin vs. Rapamycin (Sirolimus)
 https://biohackingkompakt.de/vergleich/metformin-vs-rapamycin.html
@@ -2457,10 +2487,20 @@ https://biohackingkompakt.de/vergleich/nmn-vs-nicotinamid-ribosid.html
 
 Keiner von beiden hat am Menschen einen klinischen Nutzen gezeigt. Beide heben zuverlässig den NAD+-Spiegel im Blut – das ist ein Surrogatmarker, kein Ergebnis. Für Nicotinamid-Ribosid liegen mehr placebokontrollierte Studien vor, und eine kritische Übersicht in Science Advances 2023 fasst zusammen, dass die meisten klinischen Endpunkte unbeeinflusst blieben; für Entzündungsmarker gibt es Hinweise, aber keinen einheitlichen Befund. Beim Status gibt es Bewegung: Die US-Behörde FDA hatte NMN 2022 aus der Gruppe der Nahrungsergänzungsmittel genommen, die Entscheidung im September 2025 aber zurückgenommen; in den USA ist NMN damit wieder als Supplement erlaubt. In der EU hat die EFSA beta-NMN 2026 bis 300 mg pro Tag als sicher bewertet, die Zulassung durch die EU-Kommission steht noch aus. Wer sich zwischen beiden entscheidet, entscheidet zwischen zwei Substanzen, deren Nutzen offen ist.
 
+## Retatrutide vs. Tirzepatide (Mounjaro / Zepbound)
+https://biohackingkompakt.de/vergleich/retatrutide-vs-tirzepatide.html
+
+Tirzepatid ist als Mounjaro seit 2022 in der EU für Typ-2-Diabetes und Gewichtsmanagement zugelassen. In SURMOUNT-1 verloren Menschen ohne Diabetes nach 72 Wochen bis zu 20,9 Prozent Gewicht, und SURPASS-CVOT zeigte bei Herz-Kreislauf-Ereignissen Nichtunterlegenheit gegenüber Dulaglutid, verfehlte aber die Überlegenheit. Retatrutid setzt zusätzlich am Glukagon-Rezeptor an und kam in der Phase-3-Studie TRIUMPH-1 nach 80 Wochen auf 25,0 Prozent gegenüber 3,9 Prozent unter Placebo. Einen direkten Vergleich beider gibt es nicht; dass Retatrutid stärker wirkt, beruht auf nebeneinandergelegten Studien. Retatrutid ist nirgends zugelassen, Langzeitdaten fehlen, und Graumarktware ist nicht der Studienwirkstoff. Beide sind Arzneistoffe, die Entscheidung gehört in ärztliche Hand.
+
 ## Semaglutide (Ozempic / Wegovy) vs. Tirzepatide (Mounjaro / Zepbound)
 https://biohackingkompakt.de/vergleich/semaglutide-vs-tirzepatide.html
 
 Beide sind zugelassen, beide haben Phase-III-Daten mit harten Endpunkten – hier vergleicht man ausnahmsweise zwei gut belegte Substanzen miteinander und nicht Evidenz gegen Marketing. Tirzepatid wirkt an zwei Rezeptoren statt einem und erreicht in den Zulassungsstudien die höhere Gewichtsreduktion. Semaglutid hat dafür die längere Marktzeit und in SELECT eine kardiovaskuläre Endpunktstudie. Die Wahl ist eine ärztliche, keine Konsumentenentscheidung: Beide sind verschreibungspflichtig, beide haben ein relevantes Nebenwirkungsprofil.
+
+## Semax vs. Selank
+https://biohackingkompakt.de/vergleich/semax-vs-selank.html
+
+Mehr Humandaten hat Selank: Drei russische Studien mit 62, 60 und 70 Patienten fanden bei Angststörungen eine ähnliche angstlösende Wirkung wie unter Benzodiazepinen, und als Zusatz zu Phenazepam gingen dessen Nebenwirkungen zurück. Die Stärke von Semax ist der Mechanismus: Der Anstieg von BDNF und NGF ist vorklinisch in mehreren Einrichtungen gezeigt. Seine klinischen Arbeiten zu Schlaganfall und Minderdurchblutung des Gehirns waren aber weder randomisiert noch placebokontrolliert, und zum meist verkauften NA-Semax Amidat gibt es keine Humanstudien. Bei beiden fehlen eine placebokontrollierte Patientenstudie und eine unabhängige Wiederholung außerhalb Russlands. Einen direkten Vergleich gibt es nicht, man kann nur die Studien nebeneinanderlegen. In Deutschland ist keines der beiden zugelassen – die Entscheidung gehört in ärztliche Hand.
 
 ## Tadalafil vs. Viagra (Sildenafil)
 https://biohackingkompakt.de/vergleich/tadalafil-vs-sildenafil.html
@@ -2471,6 +2511,16 @@ Zwei der am besten belegten Substanzen im ganzen Bestand, mit demselben Wirkprin
 https://biohackingkompakt.de/vergleich/testosteron-vs-enclomiphene.html
 
 Beide heben den Testosteronspiegel, aber auf entgegengesetzten Wegen – und das entscheidet über die Fruchtbarkeit. Eine Testosterontherapie führt den Stoff von außen zu und drosselt dadurch die körpereigene Produktion samt Spermienbildung. Enclomiphen blockiert die Rückmeldung an der Hypophyse und lässt den Körper mehr selbst produzieren; die Spermatogenese bleibt erhalten. Die Daten zum Hormonspiegel sind gut: Zwei Phase-3-Studien mit 256 Männern zeigen nach 16 Wochen Testosteronwerte von 430 bis 445 ng/dl gegenüber 214 bis 236 ng/dl unter Placebo, bei erhaltener Spermienbildung. Symptome erhoben nur zwei von zehn Studien, und Sicherheitsdaten reichen nur über 16 Wochen. Der Haken: Testosteron ist zugelassen, Enclomiphen nirgends. Der US-Zulassungsantrag wurde Ende 2015 abgelehnt – begründet mit dem Studiendesign, nicht mit kardiovaskulären Sicherheitsdaten.
+
+## Tongkat Ali vs. Fadogia Agrestis
+https://biohackingkompakt.de/vergleich/tongkat-ali-vs-fadogia-agrestis.html
+
+Der Unterschied liegt eine Stufe vor der Wirkung: Zu Tongkat Ali gibt es Humanstudien, zu Fadogia Agrestis keine einzige, und damit auch keinen direkten Vergleich. Für Tongkat Ali findet eine Meta-Analyse von 5 randomisierten Studien mit 232 Männern einen signifikanten Testosteronanstieg, der fast vollständig aus der Gruppe mit niedrigem Ausgangswert kommt; bei gesunden Männern ist er nicht signifikant. Fadogia stützt sich auf eine Rattenstudie über 5 Tage aus einem einzigen Labor, das bei längerer Gabe Marker in Richtung Hodenschädigung und Hinweise auf geschädigte Zellmembranen in Leber und Niere fand. Beide sind in der EU nicht als Nahrungsergänzungsmittel zugelassen. Ein niedriger Testosteronwert ist eine ärztliche Diagnose, die Abklärung gehört in ärztliche Hand.
+
+## Urolithin A vs. Spermidin
+https://biohackingkompakt.de/vergleich/urolithin-a-vs-spermidin.html
+
+Beide Stoffe zielen auf die Selbsterneuerung der Zelle, die Belege liegen aber an verschiedenen Stellen. Urolithin A hat die dichtere Kette am Menschen: In Muskelbiopsien veränderte es die Expression von Mitochondrien-Genen, und zwei randomisierte Studien über 4 Monate fanden bessere Muskelausdauer beziehungsweise rund 12 Prozent mehr Beinkraft. Spermidin hat die stärkere Epidemiologie – in der Bruneck-Kohorte und der UK Biobank ging höhere Zufuhr aus dem Essen mit niedrigerer Sterblichkeit einher – und einen im Tiermodell kausal geprüften Mechanismus. Wo die Daten aufhören: Beide Urolithin-A-Studien verfehlten ihre Hauptzielgröße und wurden vom Hersteller finanziert, SmartAge zum Spermidin verfehlte seinen primären Gedächtnisendpunkt. Harte Endpunkte am Menschen fehlen bei beiden, einen direkten Vergleich gibt es nicht.
 
 ## Vitamin D3 vs. Vitamin K2 (MK-7)
 https://biohackingkompakt.de/vergleich/vitamin-d3-vs-vitamin-k2.html

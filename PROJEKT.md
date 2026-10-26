@@ -88,11 +88,11 @@ Das ist der zentrale Punkt, an dem am meisten schiefgehen kann:
 
 ### Statische Seiten
 
-Stand 25.10.2026: 460 Themenseiten · 59 Tipp-Seiten · 15 Vergleichsseiten ·
+Stand 26.10.2026: 460 Themenseiten · 59 Tipp-Seiten · 25 Vergleichsseiten (10 neue am 26.10.) ·
 18 Ziel-Seiten unter `/problem/` („Fragen & Beschwerden“) · 5 Glossareinträge ·
 151 Folgenseiten · Studien-Datenbank `/studien/` · Seite „Empfehlenswerte Quellen“
 `/quellen.html` — alles zusätzlich vollständig auf Englisch unter `/en/`.
-1.441 URLs in der `sitemap.xml`.
+1.461 URLs in der `sitemap.xml`.
 
 ---
 
