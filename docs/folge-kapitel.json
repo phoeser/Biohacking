@@ -3837,6 +3837,191 @@
    "en": "Score and verdict: between a pinch and a spoon"
   }
  ],
+ "108": [
+  {
+   "t": 0,
+   "de": "GLP-1-Mittel und Demenz: ein Zufallsbefund",
+   "en": "GLP-1 drugs and dementia: a chance finding"
+  },
+  {
+   "t": 89,
+   "de": "GLP-1 im Gehirn und der Liraglutid-Pilotversuch",
+   "en": "GLP-1 in the brain and the liraglutide pilot"
+  },
+  {
+   "t": 133,
+   "de": "Evoke: Semaglutid-Tablette verfehlt das Ziel",
+   "en": "Evoke: oral semaglutide misses its goal"
+  },
+  {
+   "t": 201,
+   "de": "Nervenwasser, späte Wochen, hirngängige Nachfolger",
+   "en": "Spinal fluid, late weeks, brain-penetrant successors"
+  },
+  {
+   "t": 334,
+   "de": "Vorbeugung: Hinweise aus Herzstudie und Patientenakten",
+   "en": "Prevention: clues from a heart trial and records"
+  },
+  {
+   "t": 406,
+   "de": "Was Anwender über ihren Kopf berichten",
+   "en": "What users report about their minds"
+  },
+  {
+   "t": 520,
+   "de": "Verträglichkeit, BK-Score und ein Unentschieden",
+   "en": "Tolerability, BK score and a draw"
+  }
+ ],
+ "109": [
+  {
+   "t": 0,
+   "de": "Chelattherapie: eine Zange für Metalle",
+   "en": "Chelation therapy: pincers for metals"
+  },
+  {
+   "t": 74,
+   "de": "1956: die Herzidee und der Boom in Praxen",
+   "en": "1956: the heart idea and the clinic boom"
+  },
+  {
+   "t": 169,
+   "de": "TACT: knappes Ergebnis nach Herzinfarkt",
+   "en": "TACT: a narrow result after heart attack"
+  },
+  {
+   "t": 240,
+   "de": "Untergruppe mit Diabetes: ein starkes Signal",
+   "en": "The diabetes subgroup: a strong signal"
+  },
+  {
+   "t": 287,
+   "de": "Patientenberichte, Lebensqualität und Urintests",
+   "en": "Patient stories, quality of life and urine tests"
+  },
+  {
+   "t": 420,
+   "de": "TACT2: Blei sinkt, Infarkte nicht",
+   "en": "TACT2: lead drops, heart attacks don't"
+  },
+  {
+   "t": 545,
+   "de": "Vitamin-Arm, Sicherheit und BK-Score",
+   "en": "Vitamin arm, safety and BK score"
+  }
+ ],
+ "110": [
+  {
+   "t": 0,
+   "de": "Schlafapnoe-Maske: wenn die Stille weckt",
+   "en": "Sleep apnea mask: woken by the silence"
+  },
+  {
+   "t": 44,
+   "de": "Was Patienten und Partner berichten",
+   "en": "What patients and partners report"
+  },
+  {
+   "t": 86,
+   "de": "Was nachts passiert und Sullivans Luftschiene",
+   "en": "What happens at night and Sullivan's air splint"
+  },
+  {
+   "t": 195,
+   "de": "SAVE-Studie: weniger Aussetzer, kein Herzschutz",
+   "en": "SAVE trial: fewer apneas, no heart protection"
+  },
+  {
+   "t": 299,
+   "de": "Fleißige Nutzer und Hochrisikogruppe",
+   "en": "Diligent users and the high-risk group"
+  },
+  {
+   "t": 406,
+   "de": "Maske im Alltag: Hürden und die Rolle der Partner",
+   "en": "The mask in daily life: hurdles and partners"
+  },
+  {
+   "t": 475,
+   "de": "Alternativen zur Maske und der BK-Score",
+   "en": "Alternatives to the mask and the BK score"
+  }
+ ],
+ "111": [
+  {
+   "t": 0,
+   "de": "Kurkuma: hartnäckiges Gelb und ein Patent",
+   "en": "Turmeric: stubborn yellow and a patent"
+  },
+  {
+   "t": 76,
+   "de": "Pflanze, Kurkumin und wer es nimmt",
+   "en": "The plant, curcumin and who takes it"
+  },
+  {
+   "t": 142,
+   "de": "Kniearthrose: Studien gegen Placebo und Ibuprofen",
+   "en": "Knee arthritis: trials vs placebo and ibuprofen"
+  },
+  {
+   "t": 239,
+   "de": "Colitis, Entzündungswerte und ein Myelom-Fall",
+   "en": "Colitis, inflammation markers and a myeloma case"
+  },
+  {
+   "t": 288,
+   "de": "Bioverfügbarkeit: Piperin und Mizellen",
+   "en": "Bioavailability: piperine and micelles"
+  },
+  {
+   "t": 357,
+   "de": "Leberschäden: Fälle, Genmerkmal, Warnsignale",
+   "en": "Liver injury: cases, a gene marker, warning signs"
+  },
+  {
+   "t": 537,
+   "de": "BK-Score von hinten gelesen und Fazit",
+   "en": "Reading the BK score backwards, and takeaways"
+  }
+ ],
+ "112": [
+  {
+   "t": 0,
+   "de": "PRP: Eigenblut aus dem Röhrchen",
+   "en": "PRP: your own blood from the tube"
+  },
+  {
+   "t": 68,
+   "de": "Super-Bowl-Ruhm und die Idee hinter PRP",
+   "en": "Super Bowl fame and the idea behind PRP"
+  },
+  {
+   "t": 153,
+   "de": "Haarausfall: dichteres Haar, gleiche Haardicke",
+   "en": "Hair loss: denser hair, same thickness"
+  },
+  {
+   "t": 244,
+   "de": "Tennisellenbogen: Cortison, Kochsalz, Eigenblut",
+   "en": "Tennis elbow: cortisone, saline, own blood"
+  },
+  {
+   "t": 290,
+   "de": "Knie: RESTORE-Studie und neue Auswertungen",
+   "en": "Knee: the RESTORE trial and new analyses"
+  },
+  {
+   "t": 459,
+   "de": "Nebenwirkungen, Hygienerisiko und Kosten",
+   "en": "Side effects, hygiene risk and costs"
+  },
+  {
+   "t": 551,
+   "de": "BK-Score und offene Fragen zur Zubereitung",
+   "en": "BK score and open questions on preparation"
+  }
+ ],
  "113": [
   {
    "t": 0,
@@ -3872,6 +4057,80 @@
    "t": 524,
    "de": "BK-Score: Die geprüfte Zahl ist die bequemere",
    "en": "BK Score: the tested number is the easier one"
+  }
+ ],
+ "114": [
+  {
+   "t": 0,
+   "de": "Blutdruckziel 120: Was zeigt das Gerät daheim?",
+   "en": "Target 120: what should the home monitor show?"
+  },
+  {
+   "t": 44,
+   "de": "SPRINT: weniger Herzereignisse, Plus fürs Gehirn",
+   "en": "SPRINT: fewer heart events, a plus for the brain"
+  },
+  {
+   "t": 163,
+   "de": "Messprotokoll, offene Tür und Bestätigung aus China",
+   "en": "Protocol, the open door and confirmation in China"
+  },
+  {
+   "t": 259,
+   "de": "Praxis, Studie, Zuhause: wie stark Werte abweichen",
+   "en": "Clinic, trial, home: how far readings differ"
+  },
+  {
+   "t": 343,
+   "de": "Manschette und Armhaltung: Handgriffe mit Wirkung",
+   "en": "Cuff and arm position: small things that matter"
+  },
+  {
+   "t": 393,
+   "de": "Messen zu Hause: Beruhigung und Sorge",
+   "en": "Measuring at home: reassurance and worry"
+  },
+  {
+   "t": 478,
+   "de": "Nebenwirkungen, Leitlinien und erst der Tisch",
+   "en": "Side effects, guidelines and the table first"
+  }
+ ],
+ "115": [
+  {
+   "t": 0,
+   "de": "Vitamin B6: Streit um die halbierte Obergrenze",
+   "en": "Vitamin B6: debating the halved upper limit"
+  },
+  {
+   "t": 27,
+   "de": "B6-Erfolge: Schwangerschaft, PMS, Stimmung",
+   "en": "B6 successes: pregnancy, PMS, mood"
+  },
+  {
+   "t": 170,
+   "de": "1983 und 1987: Nervenschäden durch zu viel B6",
+   "en": "1983 and 1987: nerve damage from too much B6"
+  },
+  {
+   "t": 257,
+   "de": "Neu gerechnet: EFSA 2023 und andere Länder",
+   "en": "Recalculated: EFSA 2023 and other countries"
+  },
+  {
+   "t": 377,
+   "de": "Wie viel B6 in Präparaten und Energydrinks steckt",
+   "en": "How much B6 is in supplements and energy drinks"
+  },
+  {
+   "t": 442,
+   "de": "Meldungen aus den Niederlanden und Erholung",
+   "en": "Reports from the Netherlands and recovery"
+  },
+  {
+   "t": 550,
+   "de": "Deutschland, BK-Score und ein Kompromiss",
+   "en": "Germany, BK score and a compromise"
   }
  ],
  "116": [
@@ -4390,6 +4649,450 @@
    "t": 516,
    "de": "Risiken von Dasatinib und sanftere Alternativen",
    "en": "Risks of dasatinib and gentler alternatives"
+  }
+ ],
+ "130": [
+  {
+   "t": 0,
+   "de": "Luftreiniger: vom Atomlabor ins Schlafzimmer",
+   "en": "Air purifiers: from nuclear lab to bedroom"
+  },
+  {
+   "t": 43,
+   "de": "Feinstaub als globales Gesundheitsrisiko",
+   "en": "Fine particles as a global health risk"
+  },
+  {
+   "t": 136,
+   "de": "Auch wenig Feinstaub zählt: Lage in Deutschland",
+   "en": "Low levels count too: the situation in Germany"
+  },
+  {
+   "t": 205,
+   "de": "Anbraten in der Wohnung: Spitzen und Lüften",
+   "en": "Frying indoors: particle spikes and ventilation"
+  },
+  {
+   "t": 251,
+   "de": "Filterstudien: Blutdruck, Entzündung, Konzentration",
+   "en": "Filter trials: blood pressure, inflammation, focus"
+  },
+  {
+   "t": 389,
+   "de": "Was noch fehlt: Studien mit harten Endpunkten",
+   "en": "What's missing: trials with hard endpoints"
+  },
+  {
+   "t": 435,
+   "de": "Gerät im Alltag, Ozon-Warnung und BK-Score",
+   "en": "Purifiers in daily life, ozone warning, BK score"
+  }
+ ],
+ "131": [
+  {
+   "t": 0,
+   "de": "Flüssiges liposomales Kreatin im Beutel",
+   "en": "Liquid liposomal creatine in a pouch"
+  },
+  {
+   "t": 65,
+   "de": "Kreatin-Geschichte: Aufnahme in den Muskel",
+   "en": "Creatine history: uptake into muscle"
+  },
+  {
+   "t": 130,
+   "de": "Liposomen: geniale Hülle, aber wofür hier?",
+   "en": "Liposomes: clever shell, but what for here?"
+  },
+  {
+   "t": 215,
+   "de": "Woher die Prozentzahlen auf dem Beutel stammen",
+   "en": "Where the percentages on the pouch come from"
+  },
+  {
+   "t": 280,
+   "de": "Keine Studien zum Produkt, kaum Formvergleiche",
+   "en": "No product studies, few form comparisons"
+  },
+  {
+   "t": 344,
+   "de": "Nutzerbefragung: Blähbauch und Portionsgröße",
+   "en": "User survey: bloating and portion size"
+  },
+  {
+   "t": 477,
+   "de": "Preis, Haltbarkeit und BK-Score",
+   "en": "Price, shelf life and BK score"
+  }
+ ],
+ "132": [
+  {
+   "t": 0,
+   "de": "Psilocybin: Kann eine Kapsel Depression lösen?",
+   "en": "Psilocybin: can one capsule lift depression?"
+  },
+  {
+   "t": 45,
+   "de": "Von mazatekischen Ritualen zur Hirnchemie",
+   "en": "From Mazatec rituals to brain chemistry"
+  },
+  {
+   "t": 145,
+   "de": "Große Studien: echter Effekt, aber kleiner",
+   "en": "Large trials: a real effect, but smaller"
+  },
+  {
+   "t": 264,
+   "de": "Deutsche Studie, Härtefallprogramm, Schweizer Praxis",
+   "en": "German trial, compassionate use, Swiss practice"
+  },
+  {
+   "t": 359,
+   "de": "Wie Betroffene die Sitzung erleben",
+   "en": "How patients experience the session"
+  },
+  {
+   "t": 422,
+   "de": "Mikrodosierung: Erwartung statt Wirkstoff?",
+   "en": "Microdosing: expectation rather than substance?"
+  },
+  {
+   "t": 515,
+   "de": "Risiken bei Vorerkrankung und die Auflösung",
+   "en": "Risks with prior illness and the answer"
+  }
+ ],
+ "133": [
+  {
+   "t": 0,
+   "de": "Hormontherapie: zwei zu einfache Schlagzeilen",
+   "en": "Hormone therapy: two oversimplified headlines"
+  },
+  {
+   "t": 86,
+   "de": "Hitzewallungen: das Thermostat im Gehirn",
+   "en": "Hot flashes: the brain's thermostat"
+  },
+  {
+   "t": 134,
+   "de": "WHI 2002: Abbruch und die Zahlen dahinter",
+   "en": "WHI 2002: early stop and the numbers behind it"
+  },
+  {
+   "t": 228,
+   "de": "Östrogen allein, Sterblichkeit und Zeitpunkt",
+   "en": "Estrogen alone, mortality and timing"
+  },
+  {
+   "t": 297,
+   "de": "Pflaster, Progesteron, gestrichene Warnhinweise",
+   "en": "Patches, progesterone, dropped warnings"
+  },
+  {
+   "t": 418,
+   "de": "Was Frauen in Foren berichten",
+   "en": "What women report in forums"
+  },
+  {
+   "t": 510,
+   "de": "Absetzen, Alternativen und BK-Score",
+   "en": "Stopping, alternatives and BK score"
+  }
+ ],
+ "134": [
+  {
+   "t": 0,
+   "de": "Tongkat Ali und Fadogia: zwei Pflanzen, ein Versprechen",
+   "en": "Tongkat Ali and Fadogia: two plants, one promise"
+  },
+  {
+   "t": 64,
+   "de": "Tongkat Ali: Herkunft und warum Männer greifen",
+   "en": "Tongkat Ali: origins and why men reach for it"
+  },
+  {
+   "t": 160,
+   "de": "Studien: Testosteron, Fragebögen, Frauen",
+   "en": "Trials: testosterone, questionnaires, women"
+  },
+  {
+   "t": 294,
+   "de": "Ein Hersteller, falsche Ware, unklarer Mechanismus",
+   "en": "One supplier, fake products, unclear mechanism"
+  },
+  {
+   "t": 357,
+   "de": "Fadogia: fünf Tage Rattenversuch, große Welle",
+   "en": "Fadogia: a five-day rat study, a big wave"
+  },
+  {
+   "t": 425,
+   "de": "Kundenbewertungen und gefilterte Stimmen",
+   "en": "Customer reviews and filtered voices"
+  },
+  {
+   "t": 466,
+   "de": "Sicherheit, Zulassung und BK-Score",
+   "en": "Safety, regulation and BK score"
+  }
+ ],
+ "135": [
+  {
+   "t": 0,
+   "de": "Vom Apfelbaum zum Diabetesmittel",
+   "en": "From apple tree to diabetes drug"
+  },
+  {
+   "t": 46,
+   "de": "Wirkprinzip: Zucker über die Niere ausscheiden",
+   "en": "How it works: excreting sugar via the kidneys"
+  },
+  {
+   "t": 109,
+   "de": "CANVAS, Amputationen und Nierenschutz",
+   "en": "CANVAS, amputations and kidney protection"
+  },
+  {
+   "t": 156,
+   "de": "Mäusestudie: Männchen leben länger, Weibchen nicht",
+   "en": "Mouse study: males live longer, females don't"
+  },
+  {
+   "t": 266,
+   "de": "Später Start und das Rätsel der Weibchen",
+   "en": "Late start and the puzzle of the females"
+  },
+  {
+   "t": 353,
+   "de": "Beim Menschen: Niere, Herz und Patientensicht",
+   "en": "In humans: kidney, heart and patient views"
+  },
+  {
+   "t": 465,
+   "de": "Fasten, Ketoazidose-Risiko und BK-Score",
+   "en": "Fasting, ketoacidosis risk and BK score"
+  }
+ ],
+ "136": [
+  {
+   "t": 0,
+   "de": "Zahnseide und der rote Faden Parodontitis",
+   "en": "Dental floss and the thread of gum disease"
+  },
+  {
+   "t": 43,
+   "de": "Parodontitis: still, verbreitet, offene Wunde",
+   "en": "Periodontitis: silent, common, an open wound"
+  },
+  {
+   "t": 109,
+   "de": "Zahnfleischkeim im Alzheimer-Gehirn",
+   "en": "A gum germ in Alzheimer's brains"
+  },
+  {
+   "t": 203,
+   "de": "GAIN-Studie: Ziel verfehlt, Signal bei Keimträgern",
+   "en": "GAIN trial: missed goal, signal in carriers"
+  },
+  {
+   "t": 317,
+   "de": "Herz und Gefäße: Behandlung und Blutdruck",
+   "en": "Heart and vessels: treatment and blood pressure"
+  },
+  {
+   "t": 429,
+   "de": "Betroffene erzählen: Schock, Scham, Befreiung",
+   "en": "Patients' stories: shock, shame, relief"
+  },
+  {
+   "t": 530,
+   "de": "Ölziehen, BK-Score und Fazit",
+   "en": "Oil pulling, BK score and takeaways"
+  }
+ ],
+ "137": [
+  {
+   "t": 0,
+   "de": "NAC und Glycin: das Duett GlyNAC",
+   "en": "NAC and glycine: the GlyNAC duo"
+  },
+  {
+   "t": 42,
+   "de": "Glutathion und die Idee der Bausteine",
+   "en": "Glutathione and the building-block idea"
+  },
+  {
+   "t": 133,
+   "de": "Pilotstudie: Effekte kommen und gehen",
+   "en": "Pilot study: effects come and go"
+  },
+  {
+   "t": 199,
+   "de": "Randomisierte Studie mit Muskelbiopsie",
+   "en": "Randomized trial with muscle biopsy"
+  },
+  {
+   "t": 263,
+   "de": "Mäuse, Patent und die Studie des Lizenznehmers",
+   "en": "Mice, a patent and the licensee's own trial"
+  },
+  {
+   "t": 397,
+   "de": "Erfahrungen mit NAC bei Erschöpfung",
+   "en": "Experiences with NAC for fatigue"
+  },
+  {
+   "t": 511,
+   "de": "Verträglichkeit, Tierbefunde und BK-Score",
+   "en": "Tolerability, animal data and BK score"
+  }
+ ],
+ "138": [
+  {
+   "t": 0,
+   "de": "Myostatin: die Bremse im Muskel",
+   "en": "Myostatin: the brake in our muscles"
+  },
+  {
+   "t": 85,
+   "de": "Muskelkind, Knockout-Mäuse und Whippets",
+   "en": "Muscle boy, knockout mice and whippets"
+  },
+  {
+   "t": 173,
+   "de": "Drei Anläufe der Pharma: Blutungen, kein Nutzen",
+   "en": "Three pharma attempts: bleeding, no benefit"
+  },
+  {
+   "t": 302,
+   "de": "Antikörper bei spinaler Muskelatrophie",
+   "en": "An antibody for spinal muscular atrophy"
+  },
+  {
+   "t": 406,
+   "de": "Abnehmspritzen und gefälschtes Follistatin",
+   "en": "Weight-loss shots and counterfeit follistatin"
+  },
+  {
+   "t": 473,
+   "de": "Gentherapie im Ausland: große Versprechen, keine Daten",
+   "en": "Gene therapy abroad: big promises, no data"
+  },
+  {
+   "t": 538,
+   "de": "BK-Score, Urteil und was nachweislich wirkt",
+   "en": "BK score, verdict and what actually works"
+  }
+ ],
+ "139": [
+  {
+   "t": 0,
+   "de": "Ozempic: nur eine Abnehmspritze?",
+   "en": "Ozempic: just a weight-loss shot?"
+  },
+  {
+   "t": 21,
+   "de": "Vom Gift der Gila-Krustenechse zu Semaglutid",
+   "en": "From Gila monster venom to semaglutide"
+  },
+  {
+   "t": 135,
+   "de": "STEP 1 und SELECT: Gewicht und Herz",
+   "en": "STEP 1 and SELECT: weight and heart"
+  },
+  {
+   "t": 222,
+   "de": "Nebenwirkungen: Abbrüche, Galle, Sehnerv",
+   "en": "Side effects: dropouts, gallbladder, optic nerve"
+  },
+  {
+   "t": 269,
+   "de": "Weniger Alkohol: von Forenberichten zu Studien",
+   "en": "Less alcohol: from forum posts to trials"
+  },
+  {
+   "t": 407,
+   "de": "Absetzen, Kosten und der Schwarzmarkt",
+   "en": "Stopping, costs and the black market"
+  },
+  {
+   "t": 524,
+   "de": "BK-Score und die Antwort auf die Frage",
+   "en": "BK score and the answer to the question"
+  }
+ ],
+ "140": [
+  {
+   "t": 0,
+   "de": "Earl Grey und der Krampf im Fuß",
+   "en": "Earl Grey and the cramping foot"
+  },
+  {
+   "t": 69,
+   "de": "Bergamotte: Frucht, Saft und statinähnliche Stoffe",
+   "en": "Bergamot: fruit, juice and statin-like compounds"
+  },
+  {
+   "t": 139,
+   "de": "Die 40-Prozent-Zahl und wer zur Dose greift",
+   "en": "The 40 percent figure and who buys the capsules"
+  },
+  {
+   "t": 211,
+   "de": "Neuere Studien und die Meta-Analyse",
+   "en": "Newer trials and the meta-analysis"
+  },
+  {
+   "t": 332,
+   "de": "Kein Statin: wie der Extrakt tatsächlich wirkt",
+   "en": "Not a statin: how the extract actually works"
+  },
+  {
+   "t": 382,
+   "de": "Erfahrungsberichte mit echten Laborwerten",
+   "en": "User reports with real lab values"
+  },
+  {
+   "t": 503,
+   "de": "Sicherheit, Statin-Vergleich und BK-Score",
+   "en": "Safety, statin comparison and BK score"
+  }
+ ],
+ "141": [
+  {
+   "t": 0,
+   "de": "Peptidforum: wer dort schreibt und was fehlt",
+   "en": "Peptide forum: who posts there and what's missing"
+  },
+  {
+   "t": 95,
+   "de": "Entdeckung in Tokio: Humanin",
+   "en": "Discovered in Tokyo: humanin"
+  },
+  {
+   "t": 145,
+   "de": "Bauplan in den Mitochondrien",
+   "en": "A blueprint in the mitochondria"
+  },
+  {
+   "t": 211,
+   "de": "Spiegel, Alter und Langlebigkeit",
+   "en": "Levels, ageing and longevity"
+  },
+  {
+   "t": 322,
+   "de": "Würmer und Mäuse: was Humanin im Tier bewirkt",
+   "en": "Worms and mice: what humanin does in animals"
+  },
+  {
+   "t": 393,
+   "de": "Beim Menschen nie getestet, das Forum schweigt",
+   "en": "Never tested in humans, the forum is silent"
+  },
+  {
+   "t": 461,
+   "de": "Training, Krebsrisiko und BK-Score",
+   "en": "Exercise, cancer risk and BK score"
   }
  ]
 }
