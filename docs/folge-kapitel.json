@@ -618,6 +618,709 @@
    "en": "Doping ban, BK score and a draw"
   }
  ],
+ "21": [
+  {
+   "t": 0,
+   "de": "Tadalafil: mehr als eine Wochenendpille",
+   "en": "Tadalafil: more than a weekend pill"
+  },
+  {
+   "t": 43,
+   "de": "PDE-5-Hemmung und die lange Wirkdauer",
+   "en": "PDE5 inhibition and the long duration of action"
+  },
+  {
+   "t": 151,
+   "de": "Drei Zulassungen, Schwerpunkt Prostata",
+   "en": "Three approved uses, focus on the prostate"
+  },
+  {
+   "t": 217,
+   "de": "Endothel, Blutdruck und Trainingspump",
+   "en": "Endothelium, blood pressure and training pump"
+  },
+  {
+   "t": 368,
+   "de": "Gehirn: die PASTIS-Studie bei Kleingefäßerkrankung",
+   "en": "Brain: the PASTIS trial in small vessel disease"
+  },
+  {
+   "t": 454,
+   "de": "Nitrat-Regel, Nebenwirkungen und Rezeptpflicht",
+   "en": "Nitrate rule, side effects and prescription status"
+  },
+  {
+   "t": 562,
+   "de": "Fazit: vom Potenzmittel zum Longevity-Kandidaten",
+   "en": "Takeaway: from ED drug to longevity candidate"
+  }
+ ],
+ "22": [
+  {
+   "t": 0,
+   "de": "Testosteron als Multitalent und was TRT bedeutet",
+   "en": "Testosterone as an all-rounder and what TRT means"
+  },
+  {
+   "t": 129,
+   "de": "Diagnose: Symptome plus niedrige Blutwerte",
+   "en": "Diagnosis: symptoms plus low blood levels"
+  },
+  {
+   "t": 172,
+   "de": "Nutzen bei echtem Mangel",
+   "en": "Benefits in genuine deficiency"
+  },
+  {
+   "t": 240,
+   "de": "TRAVERSE-Studie: Entwarnung für Herz und Prostata",
+   "en": "TRAVERSE trial: reassurance on heart and prostate"
+  },
+  {
+   "t": 306,
+   "de": "Blutbild, Fruchtbarkeit und Anwendungsformen",
+   "en": "Blood count, fertility and delivery forms"
+  },
+  {
+   "t": 418,
+   "de": "Graumarkt-Missbrauch vs. ärztliche Therapie",
+   "en": "Grey-market abuse vs. supervised therapy"
+  },
+  {
+   "t": 527,
+   "de": "Ursachen, Stimmung, Östrogen und Lebensstil",
+   "en": "Causes, mood, estrogen and lifestyle"
+  }
+ ],
+ "23": [
+  {
+   "t": 0,
+   "de": "Metformin: Diabetes-Klassiker mit Anti-Aging-Ambition",
+   "en": "Metformin: diabetes classic with anti-aging ambitions"
+  },
+  {
+   "t": 26,
+   "de": "Wirkung auf Leber und Insulin, Ursprung Geißraute",
+   "en": "Liver and insulin effects, origins in goat's rue"
+  },
+  {
+   "t": 94,
+   "de": "Langlebige Diabetiker und der Energiesensor AMPK",
+   "en": "Long-lived diabetics and the energy sensor AMPK"
+  },
+  {
+   "t": 183,
+   "de": "Was belegt ist und die TAME-Studie",
+   "en": "What is proven and the TAME trial"
+  },
+  {
+   "t": 247,
+   "de": "Verträglichkeit, Vitamin B12 und Trainingseffekt",
+   "en": "Tolerability, vitamin B12 and training adaptation"
+  },
+  {
+   "t": 397,
+   "de": "Mikrobiom, Rapamycin-Vergleich und Krebs-Signale",
+   "en": "Microbiome, rapamycin comparison, cancer signals"
+  },
+  {
+   "t": 526,
+   "de": "Fazit: kein Jungbrunnen, aber günstig und sicher",
+   "en": "Takeaway: no fountain of youth, but cheap and safe"
+  }
+ ],
+ "24": [
+  {
+   "t": 0,
+   "de": "Epitalon: die Zelluhr zurückdrehen",
+   "en": "Epitalon: turning back the cellular clock"
+  },
+  {
+   "t": 45,
+   "de": "Zirbeldrüsen-Peptid aus Khavinsons Bioregulator-Schule",
+   "en": "Pineal peptide from Khavinson's bioregulator school"
+  },
+  {
+   "t": 174,
+   "de": "Telomere, Telomerase und die Laborstudie 2003",
+   "en": "Telomeres, telomerase and the 2003 lab study"
+  },
+  {
+   "t": 263,
+   "de": "Humandaten: 12 Jahre Beobachtung, aber eine Quelle",
+   "en": "Human data: 12-year follow-up, but a single source"
+  },
+  {
+   "t": 368,
+   "de": "Schlaf, Sicherheit und die Krebsfrage",
+   "en": "Sleep, safety and the cancer question"
+  },
+  {
+   "t": 498,
+   "de": "Berichtete Anwendung und das Telomer-Paradox",
+   "en": "Reported use and the telomere paradox"
+  },
+  {
+   "t": 646,
+   "de": "Fazit: Hoffnung statt Gewissheit",
+   "en": "Takeaway: hope rather than certainty"
+  }
+ ],
+ "25": [
+  {
+   "t": 0,
+   "de": "Die große Frage: Wirkt Selank wie ein Benzo?",
+   "en": "The big question: does Selank work like a benzo?"
+  },
+  {
+   "t": 43,
+   "de": "Tuftsin-Nachbau, Semax-Verwandter, Nasentropfen",
+   "en": "Tuftsin analogue, Semax relative, nasal drops"
+  },
+  {
+   "t": 111,
+   "de": "Mechanismus: GABA-Modulation und BDNF",
+   "en": "Mechanism: GABA modulation and BDNF"
+  },
+  {
+   "t": 201,
+   "de": "Erfahrungsberichte: ruhig, aber klar",
+   "en": "User reports: calm but clear-headed"
+  },
+  {
+   "t": 266,
+   "de": "Drei russische Studien im Vergleich mit Benzos",
+   "en": "Three Russian trials compared with benzos"
+  },
+  {
+   "t": 380,
+   "de": "Grenzen der Studien, BK-Score und Sicherheit",
+   "en": "Study limits, BK Score and safety"
+  },
+  {
+   "t": 541,
+   "de": "Auflösung: Partner statt Benzo-Ersatz",
+   "en": "The answer: a partner, not a benzo replacement"
+  }
+ ],
+ "26": [
+  {
+   "t": 0,
+   "de": "SS-31: erste FDA-Zulassung für Mitochondrien-Leiden",
+   "en": "SS-31: first FDA approval for mitochondrial disease"
+  },
+  {
+   "t": 48,
+   "de": "Kraftwerk Mitochondrium: Cristae und Cardiolipin",
+   "en": "The mitochondrial power plant: cristae and cardiolipin"
+  },
+  {
+   "t": 119,
+   "de": "Wirkprinzip, Alterung und der Unterschied zu NAD",
+   "en": "Mechanism, aging and how it differs from NAD"
+  },
+  {
+   "t": 302,
+   "de": "Barth-Syndrom: TAZPOWER-Studie und Zulassung",
+   "en": "Barth syndrome: the TAZPOWER trial and approval"
+  },
+  {
+   "t": 366,
+   "de": "Grenzen: Herzschwäche gemischt, Longevity offen",
+   "en": "Limits: mixed heart failure data, longevity unproven"
+  },
+  {
+   "t": 454,
+   "de": "Szene-Dosis, Sicherheit und Graumarkt",
+   "en": "Community dosing, safety and the grey market"
+  },
+  {
+   "t": 606,
+   "de": "Fazit: echtes Medikament, aber nicht fürs Altern",
+   "en": "Takeaway: a real drug, but not for aging"
+  }
+ ],
+ "27": [
+  {
+   "t": 0,
+   "de": "LL-37: das körpereigene Breitbandantibiotikum",
+   "en": "LL-37: the body's own broad-spectrum antibiotic"
+  },
+  {
+   "t": 41,
+   "de": "Einziges Cathelicidin: wo es sitzt, wie es tötet",
+   "en": "The only cathelicidin: where it sits, how it kills"
+  },
+  {
+   "t": 130,
+   "de": "Multitalent: Immunsignal, Wundheilung, Biofilme",
+   "en": "All-rounder: immune signals, wound healing, biofilms"
+  },
+  {
+   "t": 195,
+   "de": "Szene-Hype, Datenlage und Entzündung bei Rosazea",
+   "en": "Scene hype, evidence and inflammation in rosacea"
+  },
+  {
+   "t": 285,
+   "de": "Vitamin D als Schalter für eigenes LL-37",
+   "en": "Vitamin D as the switch for your own LL-37"
+  },
+  {
+   "t": 372,
+   "de": "Forschung, Graumarkt und der Vitamin-D-Test",
+   "en": "Research, grey market and the vitamin D test"
+  },
+  {
+   "t": 547,
+   "de": "Neurodermitis, Lunge, Darm und das Fazit",
+   "en": "Eczema, lungs, gut and the takeaway"
+  }
+ ],
+ "28": [
+  {
+   "t": 0,
+   "de": "Prostamax: ein Bioregulator für die Prostata",
+   "en": "Prostamax: a bioregulator for the prostate"
+  },
+  {
+   "t": 26,
+   "de": "Khavinson-Peptide und die epigenetische Idee",
+   "en": "Khavinson peptides and the epigenetic idea"
+  },
+  {
+   "t": 138,
+   "de": "Erhoffter Nutzen und dünne Studienlage",
+   "en": "Hoped-for benefits and thin evidence"
+  },
+  {
+   "t": 201,
+   "de": "Wichtigster Punkt: Vorsorge nie ersetzen",
+   "en": "Key point: never replace urological screening"
+  },
+  {
+   "t": 267,
+   "de": "Verträglichkeit, Graumarkt und Einordnung",
+   "en": "Tolerability, grey market and assessment"
+  },
+  {
+   "t": 383,
+   "de": "Die Bioregulator-Familie: Epitalon und Co.",
+   "en": "The bioregulator family: Epitalon and co."
+  },
+  {
+   "t": 451,
+   "de": "Alternde Prostata, Kurgedanke und Vorsorge-Appell",
+   "en": "The aging prostate, short courses, screening appeal"
+  }
+ ],
+ "29": [
+  {
+   "t": 0,
+   "de": "Die vergessene Lunge: Bronchogen und Chonluten",
+   "en": "The forgotten lung: Bronchogen and Chonluten"
+  },
+  {
+   "t": 50,
+   "de": "Khavinsons Bioregulatoren: gewebespezifische Peptide",
+   "en": "Khavinson's bioregulators: tissue-specific peptides"
+  },
+  {
+   "t": 119,
+   "de": "Chonluten beruhigt, Bronchogen baut auf",
+   "en": "Chonluten calms, Bronchogen rebuilds"
+  },
+  {
+   "t": 192,
+   "de": "Russische Datenlage und ihre Grenzen",
+   "en": "Russian evidence and its limits"
+  },
+  {
+   "t": 293,
+   "de": "Zielgruppen und die Lunge als Lebensuhr",
+   "en": "Who it's for and the lung as a life clock"
+  },
+  {
+   "t": 434,
+   "de": "Fundament: Training, Atemtechnik, frische Luft",
+   "en": "Foundation: training, breathing, fresh air"
+  },
+  {
+   "t": 485,
+   "de": "Bezugsquellen, orale Kuren und Fazit",
+   "en": "Sourcing, oral courses and takeaway"
+  }
+ ],
+ "30": [
+  {
+   "t": 0,
+   "de": "Rapamycin: vom Osterinsel-Boden zur Longevity",
+   "en": "Rapamycin: from Easter Island soil to longevity"
+  },
+  {
+   "t": 86,
+   "de": "mTOR, Autophagie und das Fasten-Mimetikum",
+   "en": "mTOR, autophagy and the fasting mimetic"
+  },
+  {
+   "t": 152,
+   "de": "Harrison 2009: längeres Leben bei Mäusen",
+   "en": "Harrison 2009: longer life in mice"
+  },
+  {
+   "t": 196,
+   "de": "PEARL-Studie und Dog Aging Project",
+   "en": "The PEARL trial and the Dog Aging Project"
+  },
+  {
+   "t": 283,
+   "de": "Immunsuppressivum und Longevity: mTORC1 vs. mTORC2",
+   "en": "Immunosuppressant and longevity: mTORC1 vs. mTORC2"
+  },
+  {
+   "t": 392,
+   "de": "Nebenwirkungen, Off-Label-Nutzung und Basics",
+   "en": "Side effects, off-label use and the basics"
+  },
+  {
+   "t": 565,
+   "de": "Fazit: Altern als Biologie mit Stellschrauben",
+   "en": "Takeaway: aging as biology with levers"
+  }
+ ],
+ "31": [
+  {
+   "t": 0,
+   "de": "NAD+ und NMN: Stars der Longevity-Szene",
+   "en": "NAD+ and NMN: stars of the longevity scene"
+  },
+  {
+   "t": 22,
+   "de": "NAD+: Zellenergie, Sirtuine und Abfall im Alter",
+   "en": "NAD+: cell energy, sirtuins and age-related decline"
+  },
+  {
+   "t": 133,
+   "de": "Vorstufen NMN, NR und Niacin",
+   "en": "Precursors NMN, NR and niacin"
+  },
+  {
+   "t": 269,
+   "de": "David Sinclair, Mausstudien und dünne Humandaten",
+   "en": "David Sinclair, mouse studies and thin human data"
+  },
+  {
+   "t": 384,
+   "de": "Sicherheit: Krebsfrage und fehlende Langzeitdaten",
+   "en": "Safety: the cancer question and missing long-term data"
+  },
+  {
+   "t": 450,
+   "de": "Gratis-Booster Bewegung und Fasten, Infusionen",
+   "en": "Free boosters exercise and fasting, IV infusions"
+  },
+  {
+   "t": 540,
+   "de": "Fazit: plausibel, aber erst die Basics",
+   "en": "Takeaway: plausible, but basics first"
+  }
+ ],
+ "32": [
+  {
+   "t": 0,
+   "de": "Kreatin: mehr als ein Bodybuilder-Supplement",
+   "en": "Creatine: more than a bodybuilding supplement"
+  },
+  {
+   "t": 46,
+   "de": "Phosphokreatin als Energie-Akku, Vegetarier",
+   "en": "Phosphocreatine as an energy battery, vegetarians"
+  },
+  {
+   "t": 132,
+   "de": "Muskeln und Leistung: echter Aufbau, kein Wasser",
+   "en": "Muscle and performance: real gains, not water"
+  },
+  {
+   "t": 241,
+   "de": "Gehirn und Stimmung: Energiepuffer unter Druck",
+   "en": "Brain and mood: an energy buffer under pressure"
+  },
+  {
+   "t": 381,
+   "de": "Sarkopenie: der größte Gewinn liegt im Alter",
+   "en": "Sarcopenia: the biggest gain comes with age"
+  },
+  {
+   "t": 446,
+   "de": "Mythen: Nieren, Haarausfall, Dehydrierung",
+   "en": "Myths: kidneys, hair loss, dehydration"
+  },
+  {
+   "t": 582,
+   "de": "Praxis: Monohydrat statt teurer Spezialformen",
+   "en": "In practice: monohydrate over pricey variants"
+  }
+ ],
+ "33": [
+  {
+   "t": 0,
+   "de": "Whey: das meistverkaufte Supplement der Welt",
+   "en": "Whey: the world's best-selling supplement"
+  },
+  {
+   "t": 21,
+   "de": "Molkenprotein und Leucin als Muskelschalter",
+   "en": "Whey protein and leucine as the muscle switch"
+  },
+  {
+   "t": 154,
+   "de": "Pflanzlich gegen tierisch: die Meta-Analyse",
+   "en": "Plant vs. animal protein: the meta-analysis"
+  },
+  {
+   "t": 242,
+   "de": "Mythos anaboles Fenster: Tagesmenge zählt",
+   "en": "The anabolic window myth: daily intake counts"
+  },
+  {
+   "t": 380,
+   "de": "Der starke Fall: Sarkopenie und anabole Resistenz",
+   "en": "The strong case: sarcopenia and anabolic resistance"
+  },
+  {
+   "t": 463,
+   "de": "Sorgen um Akne und Nieren",
+   "en": "Concerns about acne and kidneys"
+  },
+  {
+   "t": 527,
+   "de": "Fazit: Zielgruppe jenseits der 50",
+   "en": "Takeaway: the real target group is over 50"
+  }
+ ],
+ "34": [
+  {
+   "t": 0,
+   "de": "Tesofensin: Parkinson-Mittel wird Abnehmwirkstoff",
+   "en": "Tesofensine: Parkinson's drug turned weight-loss agent"
+  },
+  {
+   "t": 62,
+   "de": "Triple-Reuptake-Hemmer: weniger Hunger",
+   "en": "Triple reuptake inhibitor: less hunger"
+  },
+  {
+   "t": 127,
+   "de": "Zufallsfund und die TIPO-1-Studie",
+   "en": "A chance discovery and the TIPO-1 trial"
+  },
+  {
+   "t": 212,
+   "de": "Haken Herz-Kreislauf und der Tesomet-Trick",
+   "en": "The cardiovascular catch and the Tesomet trick"
+  },
+  {
+   "t": 346,
+   "de": "Zulassung, Nebenwirkungen und Zielgruppe",
+   "en": "Approval status, side effects and who it's for"
+  },
+  {
+   "t": 500,
+   "de": "Tablette vs. Spritze: Belohnung, Gewöhnung, Muskeln",
+   "en": "Pill vs. injection: reward, tolerance, muscle"
+  },
+  {
+   "t": 713,
+   "de": "Hypothalamische Adipositas, Graumarkt und Fazit",
+   "en": "Hypothalamic obesity, grey market and takeaway"
+  }
+ ],
+ "35": [
+  {
+   "t": 0,
+   "de": "Lithium: zwei Welten, Medikament und Mikrodosis",
+   "en": "Lithium: two worlds, medication and microdose"
+  },
+  {
+   "t": 41,
+   "de": "Harvard-Studie 2025: Lithiummangel und Alzheimer",
+   "en": "Harvard study 2025: lithium deficiency and Alzheimer's"
+  },
+  {
+   "t": 130,
+   "de": "Amyloid als Schwamm und Lithium-Orotat",
+   "en": "Amyloid as a sponge and lithium orotate"
+  },
+  {
+   "t": 193,
+   "de": "Mechanismus: GSK-3, BDNF und Autophagie",
+   "en": "Mechanism: GSK-3, BDNF and autophagy"
+  },
+  {
+   "t": 263,
+   "de": "Lithium im Trinkwasser: weniger Demenz und Suizide",
+   "en": "Lithium in drinking water: less dementia and suicide"
+  },
+  {
+   "t": 332,
+   "de": "Michael Nehls und die These vom Spurenelement",
+   "en": "Michael Nehls and the trace-element thesis"
+  },
+  {
+   "t": 375,
+   "de": "Mikrodosis, Sicherheit und ehrliche Einordnung",
+   "en": "Microdosing, safety and an honest assessment"
+  }
+ ],
+ "36": [
+  {
+   "t": 0,
+   "de": "Wolverine Stack: das Regenerationsduo",
+   "en": "Wolverine Stack: the regeneration duo"
+  },
+  {
+   "t": 21,
+   "de": "BPC-157: Gefäßneubildung für Sehnen und Darm",
+   "en": "BPC-157: new blood vessels for tendons and gut"
+  },
+  {
+   "t": 89,
+   "de": "TB-500: Thymosin Beta-4 als Zell-Logistiker",
+   "en": "TB-500: thymosin beta-4 as cell logistics"
+  },
+  {
+   "t": 134,
+   "de": "Synergie: zwei Heilungsphasen am Beispiel Sehne",
+   "en": "Synergy: two healing phases, a tendon example"
+  },
+  {
+   "t": 246,
+   "de": "Einsatzgebiete, Darm und weitere Facetten",
+   "en": "Use cases, the gut and further facets"
+  },
+  {
+   "t": 430,
+   "de": "Studienlage: starke Tierdaten, kaum Humandaten",
+   "en": "Evidence: strong animal data, little human data"
+  },
+  {
+   "t": 475,
+   "de": "Rechtslage, Dopingliste und Fazit",
+   "en": "Legal status, doping list and takeaway"
+  }
+ ],
+ "37": [
+  {
+   "t": 0,
+   "de": "CJC-1295 mit DAC: das Langzeitsignal",
+   "en": "CJC-1295 with DAC: the long-acting signal"
+  },
+  {
+   "t": 44,
+   "de": "GHRH-Analoga und der Albumin-Anker DAC",
+   "en": "GHRH analogues and the albumin anchor DAC"
+  },
+  {
+   "t": 135,
+   "de": "Teichman 2006: GH und IGF-1 über Tage erhöht",
+   "en": "Teichman 2006: GH and IGF-1 raised for days"
+  },
+  {
+   "t": 181,
+   "de": "Eingestellte Entwicklung, DAC-Plattform und IGF-1",
+   "en": "Halted development, the DAC platform and IGF-1"
+  },
+  {
+   "t": 285,
+   "de": "GH-Bleed gegen Pulse: die große Debatte",
+   "en": "GH bleed vs. pulses: the big debate"
+  },
+  {
+   "t": 413,
+   "de": "Nebenwirkungen, Kombinationen und HGH-Vergleich",
+   "en": "Side effects, combinations and the HGH comparison"
+  },
+  {
+   "t": 524,
+   "de": "IGF-1 messen, Zielgruppe und Fazit",
+   "en": "Measuring IGF-1, who it's for and the takeaway"
+  }
+ ],
+ "38": [
+  {
+   "t": 0,
+   "de": "Ein Molekül, drei Namen: CJC-1295 ohne DAC",
+   "en": "One molecule, three names: CJC-1295 without DAC"
+  },
+  {
+   "t": 46,
+   "de": "Von GHRH zu Mod GRF 1-29: der Namensunfall",
+   "en": "From GHRH to Mod GRF 1-29: the naming mix-up"
+  },
+  {
+   "t": 166,
+   "de": "Kurze Wirkzeit verstärkt natürliche Pulse",
+   "en": "Short action amplifies natural pulses"
+  },
+  {
+   "t": 209,
+   "de": "Sermorelin und die vier stabilisierenden Austausche",
+   "en": "Sermorelin and the four stabilizing substitutions"
+  },
+  {
+   "t": 333,
+   "de": "Mit oder ohne DAC: zwei Philosophien",
+   "en": "With or without DAC: two philosophies"
+  },
+  {
+   "t": 422,
+   "de": "Kohlenhydrate, Schlaftracking und Nebenwirkungen",
+   "en": "Carbs, sleep tracking and side effects"
+  },
+  {
+   "t": 530,
+   "de": "Namenschaos beim Kauf und Fazit",
+   "en": "Naming chaos when buying, and takeaway"
+  }
+ ],
+ "39": [
+  {
+   "t": 0,
+   "de": "Melanotan II: Bräune ohne Sonne",
+   "en": "Melanotan II: a tan without the sun"
+  },
+  {
+   "t": 43,
+   "de": "Arizona, Hautkrebsprävention und Alpha-MSH",
+   "en": "Arizona, skin cancer prevention and alpha-MSH"
+  },
+  {
+   "t": 130,
+   "de": "Zwei Medikamente: Afamelanotid und Bremelanotid",
+   "en": "Two drugs: afamelanotide and bremelanotide"
+  },
+  {
+   "t": 236,
+   "de": "Melanokortin-Rezeptoren und erste Humanstudien",
+   "en": "Melanocortin receptors and first human studies"
+  },
+  {
+   "t": 390,
+   "de": "Berichtete Effekte: Bräune, Appetit, Libido",
+   "en": "Reported effects: tan, appetite, libido"
+  },
+  {
+   "t": 476,
+   "de": "Muttermale, Nebenwirkungen und Rechtslage",
+   "en": "Moles, side effects and legal status"
+  },
+  {
+   "t": 671,
+   "de": "Fazit: Szeneklassiker mit Licht und Schatten",
+   "en": "Takeaway: a scene classic with light and shadow"
+  }
+ ],
  "106": [
   {
    "t": 0,
