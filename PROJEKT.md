@@ -88,11 +88,11 @@ Das ist der zentrale Punkt, an dem am meisten schiefgehen kann:
 
 ### Statische Seiten
 
-Stand 26.10.2026: 460 Themenseiten · 59 Tipp-Seiten · 25 Vergleichsseiten (10 neue am 26.10.) ·
-18 Ziel-Seiten unter `/problem/` („Fragen & Beschwerden“) · 5 Glossareinträge ·
+Stand 27.10.2026: 460 Themenseiten · 59 Tipp-Seiten · 35 Vergleichsseiten (je 10 neue am 26. und 27.10.) ·
+22 Ziel-Seiten unter `/problem/` („Fragen & Beschwerden“) · 5 Glossareinträge ·
 151 Folgenseiten · Studien-Datenbank `/studien/` · Seite „Empfehlenswerte Quellen“
 `/quellen.html` — alles zusätzlich vollständig auf Englisch unter `/en/`.
-1.461 URLs in der `sitemap.xml`.
+1.489 URLs in der `sitemap.xml`.
 
 ---
 
@@ -342,6 +342,7 @@ Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
 - biohacking-kompakt.de in der DENIC-Redemption-Phase – Paul entscheidet: wiederherstellen oder aufgeben
 - MITOcare-Partnerantrag gestellt, Freischaltung abwarten (dann Produkte gegen die 7 No-Link-Stoffe prüfen, Anzeige kennzeichnen)
 - Rechner-Arbeitskopie: einige Dateien OneDrive-gesperrt – vor Arbeit dort `bk.py pull`
+- Tonfehler in veröffentlichten Folgen (doppelte Abschnitte, Lücken, abgeschnittene Enden; Liste `nov2/TONFEHLER.md`): Paul 27.10. – bei der Neuvertonung 1–94 mitkorrigieren (Neuvertonung selbst noch ohne Startfreigabe)
 
 Ältere Punkte (Stand 13.09.2026, teils erledigt – bei Gelegenheit prüfen):
 
@@ -352,6 +353,6 @@ Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
 - 5 Podcastfolgen ohne Sprungziel (87, 88, 89, 92, 100)
 - 21 tote `synergies`-Ziele
 - „Woher du das bekommst"-Block aus SHOPS — diskutiert, nicht gebaut
-- ~~Problem-Einstiege~~ — erledigt: 18 Ziel-Seiten unter `/problem/`
+- ~~Problem-Einstiege~~ — erledigt: 22 Ziel-Seiten unter `/problem/` (4 neue am 27.10.)
 - ~~Mails an kontakt@ kommen nicht an~~ — erledigt 12.09.: eigenes Postfach statt Weiterleitung
 - Löwenmähne-Neuvertonung, fünf ungeprüfte Voice-Tags, Cloudflare-Token-Ablauf

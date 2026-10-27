@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-26
+Stand: 2026-10-27
 
 # Fragen & Beschwerden
 
@@ -33,10 +33,20 @@ https://biohackingkompakt.de/problem/blutzucker-heisshunger.html
 
 Heißhunger zwei bis drei Stunden nach einer Mahlzeit hängt tatsächlich mit dem Blutzuckerverlauf zusammen, allerdings nur mäßig stark. Am zuverlässigsten glätten ballaststoffreiche Mahlzeiten mit genug Eiweiß, ein kurzer Spaziergang nach dem Essen und ausreichend Schlaf die Kurve und den Appetit. Essig und bestimmte Nahrungsergänzungen haben messbare, aber kleine Effekte. Ein Glukosesensor kann neugierig machen, bringt Stoffwechselgesunden aber keinen belegten Vorteil. Bei starkem Durst, häufigem Wasserlassen oder Zittern mit Schweißausbrüchen gehört der Blutzucker ärztlich geprüft.
 
+## LDL-Cholesterin senken – was hilft?
+https://biohackingkompakt.de/problem/cholesterin-senken.html
+
+LDL-Cholesterin lässt sich mit dem Essen spürbar senken, und die Effekte addieren sich. Gesättigte Fette durch ungesättigte ersetzen, lösliche Ballaststoffe aus Hafer, Gerste oder Flohsamen, Pflanzensterine und Nüsse senken das LDL jeweils um einige Prozent. Kombiniert erreichte eine solche Ernährung in einer kleinen Studie fast die Wirkung des Statins Lovastatin. Unter den Supplements senkt Rotschimmelreis das LDL am stärksten, weil er selbst ein Statin enthält, mit denselben Risiken. Berberin und Bergamotte haben schwächere Daten, Omega-3 senkt vor allem die Triglyzeride. Bei sehr hohen Werten, früher Herzkrankheit in der Familie oder hohem Gesamtrisiko gehören Medikamente auf den Tisch, ärztlich entschieden.
+
 ## Stille Entzündungen senken – was ist belegt?
 https://biohackingkompakt.de/problem/entzuendung.html
 
 Stille Entzündung ist keine Diagnose, sondern eine dauerhaft leicht erhöhte Entzündungsaktivität, die sich im Blut etwa am hochsensitiven CRP messen lässt. Dass sie für Herz und Gefäße zählt, hat eine große Medikamentenstudie gezeigt. Am zuverlässigsten senken Bewegung und Gewichtsabnahme die Entzündungswerte, dazu kommen ein gesundes Zahnfleisch, Nichtrauchen und guter Schlaf. Omega-3 und Kurkuma bewegen einzelne Marker, harte Gesundheitsvorteile sind für die breite Anwendung aber nicht belegt. Ein einzelner erhöhter Wert ist oft nur ein Infekt und kein Grund zur Sorge.
+
+## Fettleber (MASLD) – was hilft?
+https://biohackingkompakt.de/problem/fettleber.html
+
+Bei einer Fettleber, heute MASLD genannt, ist Abnehmen der stärkste Hebel, und die europäische Leitlinie nennt klare Schwellen: Mindestens 5 Prozent weniger Gewicht senken das Leberfett, 7 bis 10 Prozent die Entzündung, ab 10 Prozent bessert sich auch die Vernarbung. Bewegung senkt das Leberfett schon, bevor sich auf der Waage viel tut. Zuckergetränke und Alkohol wegzulassen gehört dazu. Kaffee ist in Beobachtungsstudien mit weniger Vernarbung verbunden. Bei fortgeschrittener Erkrankung gibt es inzwischen Medikamente als ärztliche Option. Unter den Supplements hat Vitamin E die besten Daten, Omega-3 und Mariendistel bleiben dünn. Entscheidend ist, ob die Leber schon vernarbt ist, und das lässt sich einfach abklären.
 
 ## Gelenkschmerzen und steife Gelenke – was hilft?
 https://biohackingkompakt.de/problem/gelenke.html
@@ -68,6 +78,11 @@ https://biohackingkompakt.de/problem/konzentration-brain-fog.html
 
 Der Nebel im Kopf ist meist ein Symptom von etwas anderem: zu wenig Schlaf, Dauerstress, Bewegungsmangel, ein Infekt, hormonelle Umstellungen oder ein Nährstoffmangel. Die wirksamsten Hebel sind deshalb Schlaf, Bewegung und Pausen, bevor ein Nootropikum ins Spiel kommt. Kurzfristig schärft Koffein die Aufmerksamkeit zuverlässig, L-Theanin ergänzt es mit kleinen, gut belegten Effekten. Kreatin zeigt einen kleinen Vorteil beim Gedächtnis, Bacopa ebenfalls, aber erst nach Wochen. Hält der Nebel an oder kommen neue Beschwerden dazu, gehört er ärztlich abgeklärt.
 
+## Häufige Kopfschmerzen und Migräne – was hilft?
+https://biohackingkompakt.de/problem/kopfschmerzen-migraene.html
+
+Gegen häufige Migräne und Spannungskopfschmerzen sind regelmäßiges Ausdauer- und Krafttraining die am besten belegten Hebel ohne Medikamente: In einer randomisierten Studie wirkte Ausdauertraining ähnlich wie das Migränemittel Topiramat, nur ohne dessen Nebenwirkungen. Genauso wichtig ist, Schmerzmittel an weniger als 10 bis 15 Tagen im Monat zu nehmen, denn häufigere Einnahme kann die Kopfschmerzen selbst chronisch machen. Feste Schlafzeiten und ein Kopfschmerzkalender helfen, Muster zu erkennen. Unter den Supplements nennt die deutsche Leitlinie Magnesium, Riboflavin und Coenzym Q10 als wirksam, bei geringer Evidenz, für Melatonin ist die Lage widersprüchlich. Ein schlagartiger Vernichtungskopfschmerz oder neue neurologische Ausfälle sind ein Notfall.
+
 ## Wenig Lust, wenig Antrieb – liegt es am Testosteron?
 https://biohackingkompakt.de/problem/libido-testosteron.html
 
@@ -82,6 +97,11 @@ Fang bei den Hebeln an, die in großen Studien am stärksten mit einem langen, g
 https://biohackingkompakt.de/problem/muskelaufbau-ab-40.html
 
 Muskeln lassen sich in jedem Alter aufbauen, auch jenseits der 60 noch. Der mit Abstand wichtigste Hebel ist regelmäßiges Krafttraining mit steigender Belastung, die WHO empfiehlt es an 2 oder mehr Tagen pro Woche. Dazu kommt ausreichend Eiweiß über den Tag verteilt, mit zunehmendem Alter eher etwas mehr. Kreatin ist das am besten belegte Supplement und verstärkt den Kraftzuwachs bei Älteren messbar. Eiweißpulver hilft vor allem, wenn die Nahrung zu wenig liefert, und nur zusammen mit Training. Hormone gehören in ärztliche Hände und nur bei nachgewiesenem Mangel.
+
+## Vergrößerte Prostata und nächtlicher Harndrang – was hilft?
+https://biohackingkompakt.de/problem/prostata.html
+
+Bei Beschwerden durch eine gutartig vergrößerte Prostata ist strukturierte Selbsthilfe der am besten belegte Einstieg: In einer randomisierten Studie scheiterte die Behandlung mit einem Selbstmanagement-Programm nach drei Monaten bei 10 statt 42 Prozent der Männer. Dazu gehören, abends weniger zu trinken, Kaffee und Alkohol zu begrenzen, die Blase zu trainieren und in Bewegung zu bleiben. Sägepalme macht laut Cochrane kaum einen Unterschied zu Placebo, Kürbissamen zeigten in einer großen Studie einen Vorteil, der noch bestätigt werden muss. Reicht das nicht, gibt es gut untersuchte Medikamente. Blut im Urin, Fieber, Schmerzen oder eine Blase, die sich nicht mehr entleeren lässt, gehören sofort in ärztliche Hände.
 
 ## Schneller regenerieren nach dem Training – was hilft?
 https://biohackingkompakt.de/problem/regeneration-sport.html
@@ -2432,6 +2452,16 @@ https://biohackingkompakt.de/vergleich/coq10-vs-pqq.html
 
 Die belastbareren Daten hat Coenzym Q10. Seine Rolle in der Atmungskette ist Lehrbuchbiochemie, und in der Herzinsuffizienz gibt es harte Endpunkte: In Q-SYMBIO mit 420 Patienten erreichten über 2 Jahre 15 % der CoQ10-Gruppe den kombinierten Endpunkt gegenüber 26 % unter Placebo, dazu kommen positive Meta-Analysen zu Migräneprophylaxe und Spermienparametern. PQQ hat drei kleine placebokontrollierte Studien über 12 Wochen mit Verbesserungen in Teilbereichen von Gedächtnis und Aufmerksamkeit, zwei davon mit Herstellerautoren. Wo die Daten aufhören: Das Sterblichkeitsergebnis bei CoQ10 stammt aus dieser einen Studie, und die Mitochondrien-Neubildung durch PQQ ist am Menschen nur über einen Marker angedeutet. Bei Gesunden ist für keinen der beiden Stoffe ein Leistungsgewinn belegt. Einen direkten Vergleich gibt es nicht.
 
+## DHEA (Dehydroepiandrosteron) vs. Pregnenolon
+https://biohackingkompakt.de/vergleich/dhea-vs-pregnenolon.html
+
+Beide sind körpereigene Steroid-Vorstufen, Pregnenolon steht dabei am Anfang der Kette, aus ihm bildet der Körper unter anderem DHEA. Bei der Studienlage liegt DHEA vorn: Die Umwandlung in Testosteron und Estradiol ist am Menschen quantifiziert, als Vaginalzäpfchen ist es in EU und USA zugelassen, und bei älteren Frauen stieg die Knochendichte der Lendenwirbelsäule nach 12 Monaten um 1,0 Prozent. Den Jungbrunnen hat die zweijährige NEJM-Studie aber nicht bestätigt. Pregnenolon hat kleine positive Studien bei Kreuzschmerz und bipolarer Depression, zu Gedächtnis oder Hormonbalance bei Gesunden keine einzige. Eine Studie, die beide direkt vergleicht, gibt es nicht. DHEA ist in Deutschland verschreibungspflichtig und im Sport verboten, der Status von Pregnenolon ist ungeklärt. Ob und wofür eines davon infrage kommt, gehört in ärztliche Hand.
+
+## Finasterid vs. Minoxidil
+https://biohackingkompakt.de/vergleich/finasterid-vs-minoxidil.html
+
+Beide sind gegen erblich bedingten Haarausfall in verblindeten Studien belegt, auf verschiedenen Wegen. Finasterid hemmt die 5-alpha-Reduktase und senkt DHT; bei 1.553 Männern lag die Haarzahl nach einem Jahr um 107, nach zwei Jahren um 138 über Placebo. Es ist verschreibungspflichtig, seit dem Rote-Hand-Brief vom 15.09.2025 stehen Suizidgedanken mit unbekannter Häufigkeit in der Produktinformation. Minoxidil senkt kein DHT; als Lösung auf der Kopfhaut war es bei 393 Männern Placebo überlegen und ist rezeptfrei in der Apotheke. Die Tablette ist nur gegen Bluthochdruck zugelassen und war dem Schaum im Direktvergleich nicht überlegen. Eine Studie, die Finasterid direkt mit Minoxidil vergleicht, nennen die Quellen nicht. Die Entscheidung über Finasterid und die Minoxidil-Tablette gehört in ärztliche Hand.
+
 ## Fisetin vs. Quercetin
 https://biohackingkompakt.de/vergleich/fisetin-vs-quercetin.html
 
@@ -2452,10 +2482,20 @@ https://biohackingkompakt.de/vergleich/kreatin-vs-beta-alanin.html
 
 Eine direkte Vergleichsstudie gibt es nicht, und die beiden setzen an verschiedenen Stellen an. Kreatin füllt die Phosphokreatin-Speicher und steigert die Muskelkraft, belegt in Metaanalysen bei Menschen ab 60 Jahren und bei postmenopausalen Frauen; die EFSA erkennt den Zusammenhang mit Muskelkraft unter engen Bedingungen als kausal an. Beta-Alanin füllt den Carnosinspeicher, einen Säurepuffer, und bringt bei harten Belastungen von etwa 1 bis 4 Minuten einen kleinen Vorsprung, Effektstärke 0,18 über 40 Studien. Wo die Daten aufhören: Bei wiederholten Sprints zeigt Beta-Alanin keinen Effekt, bei Kreatin verfehlen Muskelmasse und Gesamtkognition die Signifikanz. Die Sicherheit ist bei Kreatin besser untersucht, das BfR bewertet die Sicherheitsdaten zu Beta-Alanin als schlecht.
 
+## Kurkuma (Curcumin) vs. Weihrauch (Boswellia)
+https://biohackingkompakt.de/vergleich/kurkuma-vs-boswellia.html
+
+Bei Kniearthrose tragen beide, und beide mit Einschränkungen. Kurkuma hat die breitere Datenbasis: Eine Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten fand -1,63 auf der Schmerzskala, und in einer Studie mit 367 Patienten war ein Extrakt Ibuprofen nicht unterlegen. Für Weihrauch fand der Cochrane-Review hohe Evidenzqualität, allerdings aus nur 2 Studien mit 85 Teilnehmenden; einen Vergleich mit Ibuprofen gibt es nicht. Eine Studie, die beide direkt gegeneinander testet, nennen die Quellen nicht, man legt die Studien nebeneinander. Der deutlichste Unterschied liegt bei der Sicherheit: LiverTox führt Kurkuma in der höchsten Kategorie A als Ursache von Leberschäden, Weihrauch mit E als unwahrscheinliche Ursache. Bei Weihrauch hakt es dafür an der Produktqualität: 41 Prozent der untersuchten Produkte entsprachen nicht der Deklaration.
+
 ## L-Theanin vs. Ashwagandha
 https://biohackingkompakt.de/vergleich/l-theanin-vs-ashwagandha.html
 
 Beide werden für dasselbe gesucht, belegt ist aber Verschiedenes. L-Theanin hat die breitere Datenbasis: Eine Meta-Analyse über 31 randomisierte Studien mit 1.168 Teilnehmern fand nach einer Einzelgabe eine bessere Wahlreaktionszeit (SMD 0,51), also einen akuten Effekt auf die Aufmerksamkeit. Ashwagandha senkte in einer Meta-Analyse von 15 Studien mit 873 Erwachsenen nach acht Wochen Angst-, Stress- und Cortisolwerte. Wo die Daten aufhören: Der Stresseffekt von L-Theanin ist kleiner (SMD 0,31) und stammt überwiegend aus Studien mit hohem Verzerrungsrisiko. Bei Ashwagandha besserte sich die Lebensqualität nicht, über acht Wochen hinaus gibt es keine Daten, und das BfR warnt vor seltenen Leberschäden. Einen direkten Vergleich beider Stoffe gibt es nicht.
+
+## L-Tryptophan vs. 5-HTP
+https://biohackingkompakt.de/vergleich/l-tryptophan-vs-5-htp.html
+
+Beide liefern Rohstoff für Serotonin, und bei beiden ist die Biochemie am Menschen gemessen. Klinisch steht L-Tryptophan fester: Es ist in Deutschland als rezeptfreies Apotheken-Arzneimittel zur Förderung der Schlafbereitschaft zugelassen, eine Meta-Analyse aus 4 Studien fand eine kürzere Wachzeit nach dem Einschlafen, und bei prämenstrueller Dysphorie gingen die Beschwerden um 34,5 gegenüber 10,4 Prozent zurück. 5-HTP hebt Serotonin im Blut messbar an, das größte moderne Placebo-RCT mit 166 Patienten blieb klinisch aber ohne Unterschied, und ein zugelassenes Arzneimittel gibt es in Deutschland seit 1992 nicht mehr. Bei Depression teilen sich beide denselben dünnen Cochrane-Befund: 2 verwertbare Studien mit 64 Patienten. Eine Studie, die beide direkt vergleicht, gibt es nicht. Mit Antidepressiva und untereinander gelten beide als riskante Kombination.
 
 ## Löwenmähne (Lion's Mane) vs. Bacopa Monnieri
 https://biohackingkompakt.de/vergleich/loewenmaehne-vs-bacopa.html
@@ -2482,10 +2522,30 @@ https://biohackingkompakt.de/vergleich/nac-vs-glutathion.html
 
 Der Unterschied ist ein Verdauungsproblem. Orales Glutathion trifft im Darm auf das abbauende Enzym Gamma-Glutamyltransferase; nach einer Einzeldosis stieg es bei Gesunden im Plasma nicht an, und zwei randomisierte Studien über sechs Monate und vier Wochen kamen zu gegensätzlichen Ergebnissen – die Grundannahme der Vermarktung, Schlucken erhöhe den Glutathionspiegel in der Zelle, ist am Menschen nicht überzeugend gezeigt. NAC liefert stattdessen Cystein, den geschwindigkeitsbestimmenden Baustein, aus dem der Körper Glutathion selbst herstellt. Dazu kommt: NAC ist als Arzneimittel zugelassen, wird als Antidot bei Paracetamol-Vergiftung eingesetzt und hat bei COPD Meta-Analysen-Evidenz. Dass NAC den Glutathionspiegel bei Gesunden breit anhebt, ist allerdings ebenfalls nicht gezeigt; belegt ist es vor allem in seinen zugelassenen Indikationen.
 
+## NMN vs. NAD+-Infusion
+https://biohackingkompakt.de/vergleich/nmn-vs-nad-infusion.html
+
+Beide sollen den NAD+-Spiegel anheben, und für NMN ist das am Menschen gezeigt: In einer doppelblinden Studie stieg NAD+ im Blut, der primäre Endpunkt derselben Studie scheiterte aber. Zwei Metaanalysen fanden keine Effekte auf Muskelfunktion oder Stoffwechsel. Die EFSA bewertete 2026 nur die Sicherheit, die EU-Zulassung steht aus. Zur Infusion gibt es weniger: Infundiertes NAD+ verschwand in den ersten 2 Stunden vollständig aus dem Plasma, für Energie, Fokus oder Anti-Aging existiert keine kontrollierte Studie, und alle 6 Empfänger einer Kundenauswertung hatten während der Infusion mittelschwere bis schwere Beschwerden. Das stärkste Signal ist ein Krankheitsbefund bei 180 Herzschwäche-Patienten in China. Einen direkten Vergleich zwischen NMN und NAD+-Infusion gibt es nicht.
+
 ## NMN vs. Nicotinamid-Ribosid (NR)
 https://biohackingkompakt.de/vergleich/nmn-vs-nicotinamid-ribosid.html
 
 Keiner von beiden hat am Menschen einen klinischen Nutzen gezeigt. Beide heben zuverlässig den NAD+-Spiegel im Blut – das ist ein Surrogatmarker, kein Ergebnis. Für Nicotinamid-Ribosid liegen mehr placebokontrollierte Studien vor, und eine kritische Übersicht in Science Advances 2023 fasst zusammen, dass die meisten klinischen Endpunkte unbeeinflusst blieben; für Entzündungsmarker gibt es Hinweise, aber keinen einheitlichen Befund. Beim Status gibt es Bewegung: Die US-Behörde FDA hatte NMN 2022 aus der Gruppe der Nahrungsergänzungsmittel genommen, die Entscheidung im September 2025 aber zurückgenommen; in den USA ist NMN damit wieder als Supplement erlaubt. In der EU hat die EFSA beta-NMN 2026 bis 300 mg pro Tag als sicher bewertet, die Zulassung durch die EU-Kommission steht noch aus. Wer sich zwischen beiden entscheidet, entscheidet zwischen zwei Substanzen, deren Nutzen offen ist.
+
+## Omega-3 (EPA/DHA) vs. Krillöl
+https://biohackingkompakt.de/vergleich/omega-3-vs-krilloel.html
+
+Beide liefern dieselben Fettsäuren EPA und DHA, und beide senken die Triglyzeride. Der Unterschied liegt in der Tiefe der Daten: Zu Omega-3 gibt es große Endpunktstudien wie VITAL, STRENGTH und ASCEND, die ihren primären Endpunkt allerdings verfehlten; die EMA strich 2019 die Indikation nach Herzinfarkt, die Zulassung zur Triglyzeridsenkung blieb. Für Krillöl wurden Herz-Kreislauf-Ereignisse nie untersucht. Direkte Vergleiche gibt es zu Aufnahme und Blutfetten: Pro Gramm Omega-3 senkten beide die Blutfette gleich stark (Kim 2020). Beim Anstieg im Blut fand Loukil 2026 einen etwa 1,5-fach höheren Wert unter Krillöl, Vosskötter 2023 beim Omega-3-Index keinen Unterschied. Bei Krebstierallergie ist Krillöl ungeeignet.
+
+## Orforglipron (Foundayo) vs. Semaglutide (Ozempic / Wegovy)
+https://biohackingkompakt.de/vergleich/orforglipron-vs-semaglutide.html
+
+Beide aktivieren denselben GLP-1-Rezeptor, und beide sind in großen Phase-3-Studien geprüft. Semaglutid hat die tiefere Datenlage: In STEP 1 sank das Gewicht um 14,9 gegenüber 2,4 Prozent, SELECT mit 17.604 Personen senkte schwere Herz-Kreislauf-Ereignisse von 8,0 auf 6,5 Prozent, und Wegovy ist seit 2022 in der EU zugelassen. Orforglipron ist kein Peptid, sondern ein kleines, säurestabiles Molekül und kommt deshalb als Tablette ohne Hilfsstoff aus; in ATTAIN-1 sank das Gewicht um 11,2 gegenüber 2,1 Prozent. Harte Endpunkte fehlen noch, zugelassen ist es in den USA, nicht in der EU. Direkt verglichen wurden beide nur bei Typ-2-Diabetes mit der Semaglutid-Tablette, offen und mit dem Blutzucker als Endpunkt. Beides sind Arzneimittel, die Entscheidung gehört in ärztliche Hand.
+
+## Resveratrol vs. Pterostilben
+https://biohackingkompakt.de/vergleich/resveratrol-vs-pterostilben.html
+
+Beide sind Stilbene, und für beide stammt die Sirtuin-Erzählung aus Zell- und Tierversuchen. Resveratrol ist am Menschen gut untersucht, ein Nutzen aber nicht gezeigt: Ein Umbrella-Review über zehn Metaanalysen fand außer bei der LDL-Senkung keine signifikanten Effekte, und in einer Trainingsstudie fiel der VO2max-Anstieg unter Placebo 45 Prozent größer aus. Pterostilben wurde an Ratten zu etwa 80 Prozent aufgenommen, Resveratrol zu etwa 20 Prozent. Am Menschen gibt es eine randomisierte Studie mit 80 Erwachsenen: Der Blutdruck sank unter der hohen Dosis, das LDL-Cholesterin stieg. Einen direkten Vergleich am Menschen gibt es nicht. Hochreines Pterostilben ist in der EU ein nicht zugelassenes neuartiges Lebensmittel.
 
 ## Retatrutide vs. Tirzepatide (Mounjaro / Zepbound)
 https://biohackingkompakt.de/vergleich/retatrutide-vs-tirzepatide.html
@@ -2517,6 +2577,11 @@ https://biohackingkompakt.de/vergleich/tongkat-ali-vs-fadogia-agrestis.html
 
 Der Unterschied liegt eine Stufe vor der Wirkung: Zu Tongkat Ali gibt es Humanstudien, zu Fadogia Agrestis keine einzige, und damit auch keinen direkten Vergleich. Für Tongkat Ali findet eine Meta-Analyse von 5 randomisierten Studien mit 232 Männern einen signifikanten Testosteronanstieg, der fast vollständig aus der Gruppe mit niedrigem Ausgangswert kommt; bei gesunden Männern ist er nicht signifikant. Fadogia stützt sich auf eine Rattenstudie über 5 Tage aus einem einzigen Labor, das bei längerer Gabe Marker in Richtung Hodenschädigung und Hinweise auf geschädigte Zellmembranen in Leber und Niere fand. Beide sind in der EU nicht als Nahrungsergänzungsmittel zugelassen. Ein niedriger Testosteronwert ist eine ärztliche Diagnose, die Abklärung gehört in ärztliche Hand.
 
+## Tretinoin vs. GHK-Cu (Copper-Tripeptid)
+https://biohackingkompakt.de/vergleich/tretinoin-vs-ghk-cu.html
+
+Bei lichtgealterter Haut trägt Tretinoin deutlich mehr. Verblindete Studien reichen bis zu zwei Jahren, nach 24 Wochen besserte sich die Haut bei 68 Prozent gegenüber 43 Prozent unter wirkstofffreier Creme, und Gewebeproben zeigen einen steigenden Marker der Kollagenneubildung. Tiefe Falten beseitigt es laut US-Zulassung aber nicht. GHK-Cu ist präklinisch stark, am Menschen dünn belegt: Die beste Studie betrifft diabetische Fußgeschwüre, die Kosmetikstudien über 12 Wochen liegen überwiegend als Kongressbeiträge oder Industrieberichte vor, und zur Injektion gibt es keine Humandaten. Direkt nebeneinander standen beide nur in einer kleinen Biopsiestudie mit Kollagen als Endpunkt. Tretinoin ist in Deutschland verschreibungspflichtig, gegen Hautalterung nicht zugelassen und in der Schwangerschaft kontraindiziert; die Entscheidung gehört in ärztliche Hand.
+
 ## Urolithin A vs. Spermidin
 https://biohackingkompakt.de/vergleich/urolithin-a-vs-spermidin.html
 
@@ -2526,6 +2591,11 @@ Beide Stoffe zielen auf die Selbsterneuerung der Zelle, die Belege liegen aber a
 https://biohackingkompakt.de/vergleich/vitamin-d3-vs-vitamin-k2.html
 
 Die Kombination wird als Pflicht verkauft, ist aber die schwächer belegte Hälfte. Vitamin D3 hat große randomisierte Studien wie VITAL und eine ausgezeichnet verstandene Rezeptorbiologie; sein Problem ist der Hype-Abstand, weil es für nahezu jede Erkrankung beworben wird, ohne dass die Studien das zeigen. Vitamin K2 hat eine am Menschen quantifizierte Wirkkette über Osteocalcin und Matrix-Gla-Protein, aber uneinheitliche randomisierte Studien zu den eigentlichen Endpunkten: AVADEC verfehlte den primären Endpunkt, VitaK-CAC fand 2026 einen Unterschied im Koronarkalk. Die Behauptung, ohne K2 lagere Vitamin D Kalzium in die Gefäße ein, ist am Menschen nicht durch Endpunktstudien belegt.
+
+## Zink vs. Magnesium
+https://biohackingkompakt.de/vergleich/zink-vs-magnesium.html
+
+Beide sind essenzielle Mineralstoffe, beide an über 300 Enzymen beteiligt, beide stehen im BK-Score bei 7 von 10 Punkten für die Human-Evidenz. Einen direkten Vergleich gibt es nicht, die Studien betreffen verschiedene Fragen und lassen sich nur nebeneinanderlegen. Zink: In einer Metaanalyse mit 5.446 Erwachsenen traten 5 Atemwegsinfekte weniger je 100 Personenmonate auf, bei moderater Evidenzsicherheit. Der Cochrane-Review von 2024 verfehlte bei der Vorbeugung aber den primären Endpunkt, und die Verkürzung um 2,37 Tage ist bei 97 Prozent Heterogenität keine belastbare Zahl. Magnesium: Eine doppelblinde Studie mit 155 Teilnehmenden zeigte einen kleinen Schlafeffekt, gemessen nur per Fragebogen. Bei nächtlichen Wadenkrämpfen verfehlten zwei kontrollierte Auswertungen ihren primären Endpunkt.
 
 # Tipps & Routinen
 

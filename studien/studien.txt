@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 26.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -5773,6 +5773,21 @@ Stand: 26.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2024: Integration of a fasting-mimicking diet programme in primary care for type 2 diabetes reduces the need for medication and improves glycaemic control: a 12-month randomised controlled trial (van den Burg EL et al., Diabetologia). https://doi.org/10.1007/s00125-024-06137-0
 - Randomisierte Studie, 2017: Fasting-mimicking diet and markers/risk factors for aging, diabetes, cancer, and cardiovascular disease (Wei M et al., Sci Transl Med). https://doi.org/10.1126/scitranslmed.aai8700
 
+## Frage: Fettleber (MASLD) (https://biohackingkompakt.de/problem/fettleber.html)
+11 Studien: 9 Sonstige Studie, 2 Randomisierte Studie.
+- Randomisierte Studie, 2024: A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis (Harrison SA et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/38324483/
+- Randomisierte Studie, 2010: Pioglitazone, vitamin E, or placebo for nonalcoholic steatohepatitis (Sanyal AJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/20427778/
+- Sonstige Studie, 2025: Kim et al., Clin Nutr 2025. https://pubmed.ncbi.nlm.nih.gov/40441053/
+- Sonstige Studie, 2025: Sanyal et al., N Engl J Med 2025 (ESSENCE). https://pubmed.ncbi.nlm.nih.gov/40305708/
+- Sonstige Studie, 2024: EASL, EASD, EASO: Clinical Practice Guidelines MASLD, J Hepatol 2024. https://pubmed.ncbi.nlm.nih.gov/38851997/
+- Sonstige Studie, 2021: Kositamongkol et al., Front Pharmacol 2021. https://pubmed.ncbi.nlm.nih.gov/34966282/
+- Sonstige Studie, 2019: Schwimmer et al., JAMA 2019. https://pubmed.ncbi.nlm.nih.gov/30667502/
+- Sonstige Studie, 2018: Ajmera et al., Clin Gastroenterol Hepatol 2018. https://pubmed.ncbi.nlm.nih.gov/29378307/
+- Sonstige Studie, 2017: Wah Kheong et al., Clin Gastroenterol Hepatol 2017. https://pubmed.ncbi.nlm.nih.gov/28419855/
+- Sonstige Studie, 2015: Vilar-Gomez et al., Gastroenterology 2015. https://pubmed.ncbi.nlm.nih.gov/25865049/
+- Sonstige Studie, 2012: Keating et al., J Hepatol 2012. https://pubmed.ncbi.nlm.nih.gov/22414768/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA: Rezdiffra (Resmetirom), EPAR 2025. https://www.ema.europa.eu/de/medicines/human/EPAR/rezdiffra
+
 ## Tipp: Gefiltertes Wasser mit Mineralien (https://biohackingkompakt.de/tipp/wasser-qualitaet.html)
 1 Studien: 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2021: Clinical characteristics and outcomes of hyponatraemia associated with oral water intake in adults: a systematic review (Rangan GK et al., BMJ Open). https://doi.org/10.1136/bmjopen-2020-046539
@@ -5893,6 +5908,21 @@ Stand: 26.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2020: Cognitive enhancement of healthy older adults using hyperbaric oxygen: a randomized controlled trial (Hadanny A et al., Aging (Albany NY)). https://pubmed.ncbi.nlm.nih.gov/32589613/
 - Übersichtsartikel, 2026: Hyperbaric Oxygen Therapy and Mild Hyperbaric Oxygen Therapy Are Not Synonymous: A Narrative Review (Morningstar M et al., Med Sci (Basel)). https://doi.org/10.3390/medsci14030360
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): Gawdi et al., StatPearls (Gegenanzeigen). https://www.ncbi.nlm.nih.gov/books/NBK557661/
+
+## Frage: Häufige Kopfschmerzen und Migräne (https://biohackingkompakt.de/problem/kopfschmerzen-migraene.html)
+10 Studien: 9 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2026: Nutritional supplements for migraine prevention: evaluating evidence sufficiency and effect modifiers through network meta-analysis, trial sequential analysis, and meta-regression (Peng J et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/42707444/
+- Sonstige Studie, 2022: Varangot-Reille et al., Journal of Pain 2022. https://pubmed.ncbi.nlm.nih.gov/34929374/
+- Sonstige Studie, 2020: Carlsen et al., JAMA Neurology 2020. https://pubmed.ncbi.nlm.nih.gov/32453406/
+- Sonstige Studie, 2016: Chiu et al., Pain Physician 2016. https://pubmed.ncbi.nlm.nih.gov/26752497/
+- Sonstige Studie, 2016: Gonçalves et al., Journal of Neurology, Neurosurgery and Psychiatry 2016. https://pubmed.ncbi.nlm.nih.gov/27165014/
+- Sonstige Studie, 2013: Hougaard et al., Neurology 2013. https://pubmed.ncbi.nlm.nih.gov/23345632/
+- Sonstige Studie, 2011: Varkey et al., Cephalalgia 2011. https://pubmed.ncbi.nlm.nih.gov/21890526/
+- Sonstige Studie, 2010: Alstadhaug et al., Neurology 2010. https://pubmed.ncbi.nlm.nih.gov/20975054/
+- Sonstige Studie, 2007: Calhoun und Ford, Headache 2007. https://pubmed.ncbi.nlm.nih.gov/17883522/
+- Sonstige Studie, 1998: Schoenen et al., Neurology 1998. https://pubmed.ncbi.nlm.nih.gov/9484373/
+- Behörde/Recht (AWMF-Leitlinien): DGN, S1-Leitlinie Kopfschmerz vom Spannungstyp 2024. https://register.awmf.org/assets/guidelines/030-077l_S1_Diagnostik-Therapie-Kopfschmerz-Spannungstyp_2024-03.pdf
+- Behörde/Recht (AWMF-Leitlinien): DGN/DMKG, S1-Leitlinie Therapie der Migräneattacke und Prophylaxe der Migräne 2025. https://register.awmf.org/assets/guidelines/030-057l_S1_Therapie-der-Migraeneattacke-Prophylaxe-der-Migraene_2025-11.pdf
 
 ## Frage: Ich bin ständig müde (https://biohackingkompakt.de/problem/staendig-muede.html)
 7 Studien: 4 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Leitlinie / Konsens, 1 Randomisierte Studie.
@@ -6054,6 +6084,21 @@ Stand: 26.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2018: High-Intensity Resistance and Impact Training Improves Bone Mineral Density and Physical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The LIFTMOR Randomized Controlled Trial (Watson SL et al., J Bone Miner Res). https://pubmed.ncbi.nlm.nih.gov/28975661/
 - Randomisierte Studie, 1994: Exercise training and nutritional supplementation for physical frailty in very elderly people (Fiatarone MA et al., N Engl J Med). https://doi.org/10.1056/NEJM199406233302501
 - Behörde/Recht (AWMF-Leitlinien): DVO, S3-Leitlinie Körperliches Training zur Frakturprophylaxe, AWMF 183-002, Version 1.1 vom 11.02.2025. https://register.awmf.org/de/leitlinien/detail/183-002
+
+## Frage: LDL-Cholesterin senken (https://biohackingkompakt.de/problem/cholesterin-senken.html)
+12 Studien: 9 Sonstige Studie, 3 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2026: Bergamot (Citrus bergamia) Supplementation and Cardiovascular Disease Risk Factors: A Systematic Review and Meta-Analysis (Chambari M et al., Food Sci Nutr). https://pubmed.ncbi.nlm.nih.gov/42746152/
+- Meta-Analyse / Übersicht, 2018: Efficacy and safety of berberine for dyslipidaemias: A systematic review and meta-analysis of randomized clinical trials (Ju J et al., Phytomedicine). https://pubmed.ncbi.nlm.nih.gov/30466986/
+- Meta-Analyse / Übersicht, 2015: Traditional Chinese lipid-lowering agent red yeast rice results in significant LDL reduction but safety is uncertain - a systematic review and meta-analysis (Gerards MC et al., Atherosclerosis). https://pubmed.ncbi.nlm.nih.gov/25897793/
+- Sonstige Studie, 2022: Kronenberg et al., European Heart Journal 2022 (EAS-Konsensus Lp(a)). https://pubmed.ncbi.nlm.nih.gov/36036785/
+- Sonstige Studie, 2020: Beheshti et al., Journal of the American College of Cardiology 2020. https://pubmed.ncbi.nlm.nih.gov/32439005/
+- Sonstige Studie, 2020: Hooper et al., Cochrane Database of Systematic Reviews 2020. https://pubmed.ncbi.nlm.nih.gov/32827219/
+- Sonstige Studie, 2019: Skulas-Ray et al., Circulation 2019 (AHA Science Advisory). https://pubmed.ncbi.nlm.nih.gov/31422671/
+- Sonstige Studie, 2018: Jovanovski et al., American Journal of Clinical Nutrition 2018. https://pubmed.ncbi.nlm.nih.gov/30239559/
+- Sonstige Studie, 2018: Scientific opinion on the safety of monacolins in red yeast rice (EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/32626016/
+- Sonstige Studie, 2014: Ras et al., British Journal of Nutrition 2014. https://pubmed.ncbi.nlm.nih.gov/24780090/
+- Sonstige Studie, 2010: Sabaté et al., Archives of Internal Medicine 2010. https://pubmed.ncbi.nlm.nih.gov/20458092/
+- Sonstige Studie, 2003: Jenkins et al., JAMA 2003 (Portfolio-Diät). https://pubmed.ncbi.nlm.nih.gov/12876093/
 
 ## Frage: Longevity: Womit fange ich an? (https://biohackingkompakt.de/problem/longevity-einstieg.html)
 8 Studien: 3 Beobachtungsstudie, 2 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Leitlinie / Konsens.
@@ -6284,6 +6329,21 @@ Stand: 26.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2025: Oura Ring as a Tool for Ovulation Detection: Validation Analysis (Thigpen N et al., J Med Internet Res). https://doi.org/10.2196/60667
 - Sonstige Studie, 2019: Real-world menstrual cycle characteristics of more than 600,000 menstrual cycles (Bull JR et al., NPJ Digit Med). https://doi.org/10.1038/s41746-019-0152-7
 - Sonstige Studie, 2018: Plausibility of Menstrual Cycle Apps Claiming to Support Conception (Freis A et al., Front Public Health). https://doi.org/10.3389/fpubh.2018.00098
+
+## Frage: Vergrößerte Prostata und nächtlicher Harndrang (https://biohackingkompakt.de/problem/prostata.html)
+11 Studien: 10 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2023: Serenoa repens for the treatment of lower urinary tract symptoms due to benign prostatic enlargement (Franco JV et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/37345871/
+- Sonstige Studie, 2025: Roobol et al., New England Journal of Medicine 2025 (ERSPC). https://pubmed.ncbi.nlm.nih.gov/41160819/
+- Sonstige Studie, 2024: Worthington et al., Health Technology Assessment 2024 (TRIUMPH). https://pubmed.ncbi.nlm.nih.gov/38512051/
+- Sonstige Studie, 2019: Silva et al., Cochrane Database of Systematic Reviews 2019. https://pubmed.ncbi.nlm.nih.gov/30953341/
+- Sonstige Studie, 2018: Pattanaik et al., Cochrane Database of Systematic Reviews 2018. https://pubmed.ncbi.nlm.nih.gov/30480763/
+- Sonstige Studie, 2015: Vahlensieck et al., Urologia Internationalis 2015 (GRANU). https://pubmed.ncbi.nlm.nih.gov/25196580/
+- Sonstige Studie, 2015: Wang et al., International Neurourology Journal 2015. https://pubmed.ncbi.nlm.nih.gov/26620900/
+- Sonstige Studie, 2010: Soda et al., Journal of Urology 2010. https://pubmed.ncbi.nlm.nih.gov/20643422/
+- Sonstige Studie, 2008: Parsons und Kashefi, European Urology 2008. https://pubmed.ncbi.nlm.nih.gov/18358592/
+- Sonstige Studie, 2007: Brown et al., BMJ 2007. https://pubmed.ncbi.nlm.nih.gov/17118949/
+- Sonstige Studie, 2003: McConnell et al., New England Journal of Medicine 2003 (MTOPS). https://pubmed.ncbi.nlm.nih.gov/14681504/
+- Behörde/Recht (AWMF-Leitlinien): DGU, S2e-Leitlinie Diagnostik und Therapie des Benignen Prostatasyndroms 2023. https://register.awmf.org/assets/guidelines/043-034l_S2e_Diagnostik_Therapie_benignes_Prostatasyndrom_2023-04.pdf
 
 ## Tipp: Waldbaden (Shinrin-Yoku) (https://biohackingkompakt.de/tipp/natur.html)
 8 Studien: 3 Meta-Analyse / Übersicht, 2 Sonstige Studie, 2 Klinische Studie, 1 Beobachtungsstudie.
