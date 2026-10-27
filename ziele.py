@@ -31,6 +31,10 @@ ZIELE = {
     'stress-anspannung': r'stress|angst|cortisol|unruhe|entspann',
     'verdauung-blaehbauch': r'\bdarm|verdauung|bläh|reizdarm|mikrobiom',
     'wechseljahre': r'wechseljahr|menopause|hitzewallung',
+    'kopfschmerzen-migraene': r'kopfschmerz|migräne',
+    'prostata': r'prostata|harndrang|blase',
+    'fettleber': r'fettleber|leberfett|masld|nafld',
+    'cholesterin-senken': r'cholesterin|\bldl\b|lipoprotein',
 }
 MAX = 30
 # Warnseiten (Anabolika, SARMs) und Aromatasehemmer passen nur über Stichwörter, nicht inhaltlich – nie listen.

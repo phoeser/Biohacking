@@ -279,5 +279,54 @@
   "traubensilberkerze",
   "nachtkerzenoel",
   "raloxifen"
+ ],
+ "kopfschmerzen-migraene": [
+  "vagus-stimulation",
+  "omega-3",
+  "alkohol-reduktion",
+  "schlaf",
+  "vitamin-d3",
+  "vitamin-b-komplex",
+  "zone2-vo2max",
+  "neurostimulation",
+  "schlafapnoe-cpap",
+  "acetyl-l-carnitin",
+  "iv-vitamintherapie"
+ ],
+ "prostata": [
+  "prostamax",
+  "sildenafil",
+  "vardenafil",
+  "vitamin-e",
+  "zink",
+  "alkohol-reduktion",
+  "schlaf"
+ ],
+ "fettleber": [
+  "omega-3",
+  "tmg",
+  "survodutide",
+  "pemvidutid",
+  "tudca",
+  "lola",
+  "sglt2-hemmer",
+  "metformin",
+  "berberin",
+  "zone2-vo2max",
+  "fasten-autophagie",
+  "egcg",
+  "pentadecansaeure",
+  "nac",
+  "kh-livagen"
+ ],
+ "cholesterin-senken": [
+  "bempedoinsaeure",
+  "niacin",
+  "koronarkalk-score",
+  "hydroxytyrosol",
+  "egcg",
+  "coq10",
+  "nattokinase",
+  "zone2-vo2max"
  ]
 }
