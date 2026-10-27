@@ -16744,6 +16744,41 @@
 "Journal Article"
 ]
 },
+"pmid:12876093": {
+"autoren": "Jenkins DJ, Kendall CW, Marchie A, Faulkner DA, Wong JM, de Souza R, Emam A, Parker TL, Vidgen E, Lapsley KG, Trautwein EA, Josse RG, Leiter LA, Connelly PW.",
+"doi": "10.1001/jama.290.4.502",
+"iso": "JAMA",
+"jahr": "2003",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Lovastatin",
+"Lipids",
+"Cholesterol, Dietary",
+"C-Reactive Protein",
+"Anticholesteremic Agents",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Diet, Atherogenic",
+"Diet, Vegetarian",
+"Dietary Fiber",
+"Middle Aged",
+"Female",
+"Male",
+"Hyperlipidemias"
+],
+"pmcid": "",
+"pmid": "12876093",
+"quelle": "MED",
+"titel": "Effects of a dietary portfolio of cholesterol-lowering foods vs lovastatin on serum lipids and C-reactive protein.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:12885982": {
 "autoren": "Cooper S, Oborne J, Newton S, Harrison V, Thompson Coon J, Lewis S, Tattersfield A.",
 "doi": "10.1136/thorax.58.8.674",
@@ -17819,6 +17854,42 @@
 "titel": "Small peptides patterned after the N-terminus domain of SNAP25 inhibit SNARE complex assembly and regulated exocytosis.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:14681504": {
+"autoren": "McConnell JD, Roehrborn CG, Bautista OM, Andriole GL, Dixon CM, Kusek JW, Lepor H, McVary KT, Nyberg LM, Clarke HS, Crawford ED, Diokno A, Foley JP, Foster HE, Jacobs SC, Kaplan SA, Kreder KJ, Lieber MM, Lucia MS, Miller GJ, Menon M, Milam DF, Ramsdell JW, Schenkman NS, Slawin KM, Smith JA, Medical Therapy of Prostatic Symptoms (MTOPS) Research Group.",
+"doi": "10.1056/nejmoa030656",
+"iso": "N Engl J Med",
+"jahr": "2003",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Hyperplasia",
+"Disease Progression",
+"Doxazosin",
+"Finasteride",
+"Adrenergic alpha-Antagonists",
+"Enzyme Inhibitors",
+"Drug Therapy, Combination",
+"Severity of Illness Index",
+"Analysis of Variance",
+"Double-Blind Method",
+"Middle Aged",
+"Male",
+"5-alpha Reductase Inhibitors"
+],
+"pmcid": "",
+"pmid": "14681504",
+"quelle": "MED",
+"titel": "The long-term effect of doxazosin, finasteride, and combination therapy on the clinical progression of benign prostatic hyperplasia.",
+"typen": [
+"Clinical Trial",
+"Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -22957,6 +23028,37 @@
 "Journal Article"
 ]
 },
+"pmid:17118949": {
+"autoren": "Brown CT, Yap T, Cromwell DA, Rixon L, Steed L, Mulligan K, Mundy A, Newman SP, van der Meulen J, Emberton M.",
+"doi": "10.1136/bmj.39010.551319.ae",
+"iso": "BMJ",
+"jahr": "2007",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Ambulatory Care",
+"Self Care",
+"Follow-Up Studies",
+"Patient Compliance",
+"Middle Aged",
+"Patient Satisfaction",
+"Male",
+"Prostatism"
+],
+"pmcid": "PMC1764065",
+"pmid": "17118949",
+"quelle": "MED",
+"titel": "Self management for men with lower urinary tract symptoms: randomised controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:17121765": {
 "autoren": "Brien S, Lewith G, Walker AF, Middleton R, Prescott P, Bundy R.",
 "doi": "10.1093/qjmed/hcl118",
@@ -24370,6 +24472,36 @@
 "Journal Article"
 ]
 },
+"pmid:17883522": {
+"autoren": "Calhoun AH, Ford S.",
+"doi": "10.1111/j.1526-4610.2007.00780.x",
+"iso": "Headache",
+"jahr": "2007",
+"journal": "Headache",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Analysis of Variance",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Behavior Therapy",
+"Time Factors",
+"Adult",
+"Female",
+"Migraine Disorders",
+"Sleep Wake Disorders"
+],
+"pmcid": "",
+"pmid": "17883522",
+"quelle": "MED",
+"titel": "Behavioral sleep modification may revert transformed migraine to episodic migraine.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:17895968": {
 "autoren": "Azevedo JL, Tietz E, Two-Feathers T, Paull J, Chapman K.",
 "doi": "10.1371/journal.pone.0000927",
@@ -25156,6 +25288,30 @@
 "titel": "Risk assessment for the amino acids taurine, L-glutamine and L-arginine.",
 "typen": [
 "Review",
+"Journal Article"
+]
+},
+"pmid:18358592": {
+"autoren": "Parsons JK, Kashefi C.",
+"doi": "10.1016/j.eururo.2008.02.019",
+"iso": "Eur Urol",
+"jahr": "2008",
+"journal": "European urology",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Hyperplasia",
+"Motor Activity",
+"Male",
+"Prostatism"
+],
+"pmcid": "",
+"pmid": "18358592",
+"quelle": "MED",
+"titel": "Physical activity, benign prostatic hyperplasia, and lower urinary tract symptoms.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -30541,6 +30697,39 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:20458092": {
+"autoren": "Sabaté J, Oda K, Ros E.",
+"doi": "10.1001/archinternmed.2010.79",
+"iso": "Arch Intern Med",
+"jahr": "2010",
+"journal": "Archives of internal medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Nuts",
+"Cholesterol",
+"Triglycerides",
+"Linear Models",
+"Feeding Behavior",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Hyperlipidemias",
+"Cholesterol, HDL"
+],
+"pmcid": "",
+"pmid": "20458092",
+"quelle": "MED",
+"titel": "Nut consumption and blood lipid levels: a pooled analysis of 25 intervention trials.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:20463399": {
 "autoren": "Atamna H, Kumar R.",
 "doi": "10.3233/jad-2010-100414",
@@ -31145,6 +31334,33 @@
 "Journal Article"
 ]
 },
+"pmid:20643422": {
+"autoren": "Soda T, Masui K, Okuno H, Terai A, Ogawa O, Yoshimura K.",
+"doi": "10.1016/j.juro.2010.05.038",
+"iso": "J Urol",
+"jahr": "2010",
+"journal": "The Journal of urology",
+"korr": [],
+"mesh": [
+"Humans",
+"Prospective Studies",
+"Life Style",
+"Behavior Therapy",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Nocturia"
+],
+"pmcid": "",
+"pmid": "20643422",
+"quelle": "MED",
+"titel": "Efficacy of nondrug lifestyle measures for the treatment of nocturia.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:20660224": {
 "autoren": "Wolever TM, Tosh SM, Gibbs AL, Brand-Miller J, Duncan AM, Hart V, Lamarche B, Thomson BA, Duss R, Wood PJ.",
 "doi": "10.3945/ajcn.2010.29174",
@@ -31611,6 +31827,44 @@
 "typen": [
 "Journal Article",
 "English Abstract"
+]
+},
+"pmid:20975054": {
+"autoren": "Alstadhaug KB, Odeh F, Salvesen R, Bekkelund SI.",
+"doi": "10.1212/wnl.0b013e3181f9618c",
+"iso": "Neurology",
+"jahr": "2010",
+"journal": "Neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Melatonin",
+"Antioxidants",
+"Treatment Outcome",
+"Drug Delivery Systems",
+"Drug Administration Schedule",
+"Severity of Illness Index",
+"Cross-Over Studies",
+"Double-Blind Method",
+"Time Factors",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Migraine Disorders",
+"Young Adult"
+],
+"pmcid": "",
+"pmid": "20975054",
+"quelle": "MED",
+"titel": "Prophylaxis of migraine with melatonin: a randomized controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:20980358": {
@@ -34075,6 +34329,42 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:21890526": {
+"autoren": "Varkey E, Cider A, Carlsson J, Linde M.",
+"doi": "10.1177/0333102411419681",
+"iso": "Cephalalgia",
+"jahr": "2011",
+"journal": "Cephalalgia : an international journal of headache",
+"korr": [],
+"mesh": [
+"Humans",
+"Oxygen",
+"Fructose",
+"Anticonvulsants",
+"Treatment Outcome",
+"Exercise Therapy",
+"Prospective Studies",
+"Motor Activity",
+"Quality of Life",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Migraine Disorders",
+"Relaxation Therapy",
+"Topiramate"
+],
+"pmcid": "PMC3236524",
+"pmid": "21890526",
+"quelle": "MED",
+"titel": "Exercise as migraine prophylaxis: a randomized study using relaxation and topiramate as controls.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:21923430": {
 "autoren": "Kellermann AJ, Kloft C.",
 "doi": "10.1592/phco.31.5.490",
@@ -35073,6 +35363,33 @@
 "titel": "9-Methyl-β-carboline-induced cognitive enhancement is associated with elevated hippocampal dopamine levels and dendritic and synaptic proliferation.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:22414768": {
+"autoren": "Keating SE, Hackett DA, George J, Johnson NA.",
+"doi": "10.1016/j.jhep.2012.02.023",
+"iso": "J Hepatol",
+"jahr": "2012",
+"journal": "Journal of hepatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Fatty Liver",
+"Obesity",
+"Exercise",
+"Resistance Training",
+"Weight Reduction Programs",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "22414768",
+"quelle": "MED",
+"titel": "Exercise and non-alcoholic fatty liver disease: a systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -37913,6 +38230,35 @@
 "research-article",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:23345632": {
+"autoren": "Hougaard A, Amin FM, Hauge AW, Ashina M, Olesen J.",
+"doi": "10.1212/wnl.0b013e31827f0f10",
+"iso": "Neurology",
+"jahr": "2013",
+"journal": "Neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise",
+"Photic Stimulation",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Migraine with Aura",
+"Young Adult",
+"Self Report"
+],
+"pmcid": "",
+"pmid": "23345632",
+"quelle": "MED",
+"titel": "Provocation of migraine with aura using natural trigger factors.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -42433,6 +42779,36 @@
 "Journal Article"
 ]
 },
+"pmid:24780090": {
+"autoren": "Ras RT, Geleijnse JM, Trautwein EA.",
+"doi": "10.1017/s0007114514000750",
+"iso": "Br J Nutr",
+"jahr": "2014",
+"journal": "The British journal of nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypercholesterolemia",
+"Phytosterols",
+"Anticholesteremic Agents",
+"Evidence-Based Medicine",
+"Dietary Supplements",
+"Adult",
+"Cholesterol, LDL",
+"Randomized Controlled Trials as Topic",
+"Functional Food"
+],
+"pmcid": "PMC4071994",
+"pmid": "24780090",
+"quelle": "MED",
+"titel": "LDL-cholesterol-lowering effect of plant sterols and stanols across different dose ranges: a meta-analysis of randomised controlled studies.",
+"typen": [
+"Meta-Analysis",
+"Comparative Study",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:24782334": {
 "autoren": "Moraes VY, Lenza M, Tamaoki MJ, Faloppa F, Belloti JC.",
 "doi": "10.1002/14651858.cd010071.pub3",
@@ -43763,6 +44139,39 @@
 "research-article",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:25196580": {
+"autoren": "Vahlensieck W, Theurer C, Pfitzer E, Patz B, Banik N, Engelmann U.",
+"doi": "10.1159/000362903",
+"iso": "Urol Int",
+"jahr": "2015",
+"journal": "Urologia internationalis",
+"korr": [],
+"mesh": [
+"Humans",
+"Cucurbita",
+"Seeds",
+"Prostatic Hyperplasia",
+"Plant Extracts",
+"Double-Blind Method",
+"Quality of Life",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Male",
+"Lower Urinary Tract Symptoms",
+"Patient Safety"
+],
+"pmcid": "",
+"pmid": "25196580",
+"quelle": "MED",
+"titel": "Effects of pumpkin seed in men with lower urinary tract symptoms due to benign prostatic hyperplasia in the one-year, randomized, placebo-controlled GRANU study.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:25208511": {
@@ -45624,6 +46033,43 @@
 "quelle": "MED",
 "titel": "The interaction of amino acids, peptides, and proteins with DNA.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:25865049": {
+"autoren": "Vilar-Gomez E, Martinez-Perez Y, Calzadilla-Bertot L, Torres-Gonzalez A, Gra-Oramas B, Gonzalez-Fabian L, Friedman SL, Diago M, Romero-Gomez M.",
+"doi": "10.1053/j.gastro.2015.04.005",
+"iso": "Gastroenterology",
+"jahr": "2015",
+"journal": "Gastroenterology",
+"korr": [],
+"mesh": [
+"Liver",
+"Humans",
+"Fatty Liver",
+"Fibrosis",
+"Body Weight",
+"Weight Loss",
+"Biopsy",
+"Body Mass Index",
+"Treatment Outcome",
+"Severity of Illness Index",
+"Prospective Studies",
+"Life Style",
+"Sex Factors",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "25865049",
+"quelle": "MED",
+"titel": "Weight Loss Through Lifestyle Modification Significantly Reduces Features of Nonalcoholic Steatohepatitis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -48235,6 +48681,23 @@
 "Journal Article"
 ]
 },
+"pmid:26620900": {
+"autoren": "Wang T, Huang W, Zong H, Zhang Y.",
+"doi": "10.5213/inj.2015.19.3.178",
+"iso": "Int Neurourol J",
+"jahr": "2015",
+"journal": "International neurourology journal",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC4582090",
+"pmid": "26620900",
+"quelle": "MED",
+"titel": "The Efficacy of Continuous Positive Airway Pressure Therapy on Nocturia in Patients With Obstructive Sleep Apnea: A Systematic Review and Meta-Analysis.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:26626192": {
 "autoren": "Booker A, Jalil B, Frommenwiler D, Reich E, Zhai L, Kulic Z, Heinrich M.",
 "doi": "10.1016/j.phymed.2015.10.006",
@@ -48512,6 +48975,32 @@
 "Clinical Trial, Phase III",
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:26752497": {
+"autoren": "Chiu HY, Yeh TH, Huang YC, Chen PY.",
+"doi": "10.36076/ppj/2016.19.e97",
+"iso": "Pain Physician",
+"jahr": "2016",
+"journal": "Pain physician",
+"korr": [],
+"mesh": [
+"Humans",
+"Magnesium",
+"Treatment Outcome",
+"Administration, Oral",
+"Migraine Disorders",
+"Randomized Controlled Trials as Topic",
+"Administration, Intravenous"
+],
+"pmcid": "",
+"pmid": "26752497",
+"quelle": "MED",
+"titel": "Effects of Intravenous and Oral Magnesium on Reducing Migraine: A Meta-analysis of Randomized Controlled Trials.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -49653,6 +50142,39 @@
 "quelle": "MED",
 "titel": "A Two-Part Approach to Examine the Effects of Theacrine (TeaCrine®) Supplementation on Oxygen Consumption, Hemodynamic Responses, and Subjective Measures of Cognitive and Psychometric Parameters.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:27165014": {
+"autoren": "Gonçalves AL, Martini Ferreira A, Ribeiro RT, Zukerman E, Cipolla-Neto J, Peres MF.",
+"doi": "10.1136/jnnp-2016-313458",
+"iso": "J Neurol Neurosurg Psychiatry",
+"jahr": "2016",
+"journal": "Journal of neurology, neurosurgery, and psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Melatonin",
+"Amitriptyline",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Migraine Disorders",
+"Young Adult"
+],
+"pmcid": "PMC5036209",
+"pmid": "27165014",
+"quelle": "MED",
+"titel": "Randomised clinical trial comparing melatonin 3 mg, amitriptyline 25 mg and placebo for migraine prevention.",
+"typen": [
+"Comparative Study",
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -52515,6 +53037,38 @@
 "Journal Article"
 ]
 },
+"pmid:28419855": {
+"autoren": "Wah Kheong C, Nik Mustapha NR, Mahadeva S.",
+"doi": "10.1016/j.cgh.2017.04.016",
+"iso": "Clin Gastroenterol Hepatol",
+"jahr": "2017",
+"journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+"korr": [],
+"mesh": [
+"Humans",
+"Silymarin",
+"Gastrointestinal Agents",
+"Placebos",
+"Antioxidants",
+"Treatment Outcome",
+"Double-Blind Method",
+"Adult",
+"Aged",
+"Middle Aged",
+"Malaysia",
+"Female",
+"Male",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "28419855",
+"quelle": "MED",
+"titel": "A Randomized Trial of Silymarin for the Treatment of Nonalcoholic Steatohepatitis.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:28440570": {
 "autoren": "Thevis M, Piper T, Dib J, Lagojda A, Kühne D, Packschies L, Geyer H, Schänzer W.",
 "doi": "10.1002/rcm.7886",
@@ -55159,6 +55713,42 @@
 "Journal Article"
 ]
 },
+"pmid:29378307": {
+"autoren": "Ajmera V, Belt P, Wilson LA, Gill RM, Loomba R, Kleiner DE, Neuschwander-Tetri BA, Terrault N, Nonalcoholic Steatohepatitis Clinical Research Network.",
+"doi": "10.1016/j.cgh.2018.01.026",
+"iso": "Clin Gastroenterol Hepatol",
+"jahr": "2018",
+"journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+"korr": [],
+"mesh": [
+"Humans",
+"Histocytochemistry",
+"Longitudinal Studies",
+"Alcohol Drinking",
+"Remission, Spontaneous",
+"Adolescent",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Non-alcoholic Fatty Liver Disease",
+"Surveys and Questionnaires"
+],
+"pmcid": "PMC6098737",
+"pmid": "29378307",
+"quelle": "MED",
+"titel": "Among Patients With Nonalcoholic Fatty Liver Disease, Modest Alcohol Use Is Associated With Less Improvement in Histologic Steatosis and Steatohepatitis.",
+"typen": [
+"Research Support, N.I.H., Intramural",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:29394251": {
 "autoren": "Feinstein JS, Khalsa SS, Yeh HW, Wohlrab C, Simmons WK, Stein MB, Paulus MP.",
 "doi": "10.1371/journal.pone.0190292",
@@ -57479,6 +58069,38 @@
 "Journal Article"
 ]
 },
+"pmid:30239559": {
+"autoren": "Jovanovski E, Yashpal S, Komishon A, Zurbau A, Blanco Mejia S, Ho HVT, Li D, Sievenpiper J, Duvnjak L, Vuksan V.",
+"doi": "10.1093/ajcn/nqy115",
+"iso": "Am J Clin Nutr",
+"jahr": "2018",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Plantago",
+"Hypercholesterolemia",
+"Cholesterol",
+"Apolipoproteins B",
+"Psyllium",
+"Dietary Fiber",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Cholesterol, HDL"
+],
+"pmcid": "",
+"pmid": "30239559",
+"quelle": "MED",
+"titel": "Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:30245619": {
 "autoren": "Zaccaro A, Piarulli A, Laurino M, Garbella E, Menicucci D, Neri B, Gemignani A.",
 "doi": "10.3389/fnhum.2018.00353",
@@ -58164,6 +58786,35 @@
 "Journal Article"
 ]
 },
+"pmid:30480763": {
+"autoren": "Pattanaik S, Mavuduru RS, Panda A, Mathew JL, Agarwal MM, Hwang EC, Lyon JA, Singh SK, Mandal AK.",
+"doi": "10.1002/14651858.cd010060.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2018",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Hyperplasia",
+"Adrenergic alpha-Antagonists",
+"Phosphodiesterase Inhibitors",
+"Drug Therapy, Combination",
+"Middle Aged",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Lower Urinary Tract Symptoms"
+],
+"pmcid": "PMC6517182",
+"pmid": "30480763",
+"quelle": "MED",
+"titel": "Phosphodiesterase inhibitors for lower urinary tract symptoms consistent with benign prostatic hyperplasia.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:30480774": {
 "autoren": "Makrgeorgou A, Leonardi-Bee J, Bath-Hextall FJ, Murrell DF, Tang ML, Roberts A, Boyle RJ.",
 "doi": "10.1002/14651858.cd006135.pub3",
@@ -58783,6 +59434,42 @@
 "typen": [
 "Comparative Study",
 "Journal Article"
+]
+},
+"pmid:30667502": {
+"autoren": "Schwimmer JB, Ugalde-Nicalo P, Welsh JA, Angeles JE, Cordero M, Harlow KE, Alazraki A, Durelle J, Knight-Scott J, Newton KP, Cleeton R, Knott C, Konomi J, Middleton MS, Travers C, Sirlin CB, Hernandez A, Sekkarie A, McCracken C, Vos MB.",
+"doi": "10.1001/jama.2018.20579",
+"iso": "JAMA",
+"jahr": "2019",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Weight Loss",
+"Blood Glucose",
+"Lipids",
+"Liver Function Tests",
+"Body Mass Index",
+"Treatment Outcome",
+"Adolescent",
+"Child",
+"Male",
+"Diet, Carbohydrate-Restricted",
+"Non-alcoholic Fatty Liver Disease",
+"Dietary Sugars",
+"Hispanic or Latino"
+],
+"pmcid": "PMC6440226",
+"pmid": "30667502",
+"quelle": "MED",
+"titel": "Effect of a Low Free Sugar Diet vs Usual Diet on Nonalcoholic Fatty Liver Disease in Adolescent Boys: A Randomized Clinical Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:30669119": {
@@ -59564,6 +60251,34 @@
 "Meta-Analysis",
 "Research Support, Non-U.S. Gov't",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:30953341": {
+"autoren": "Silva V, Grande AJ, Peccin MS.",
+"doi": "10.1002/14651858.cd012044.pub2",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2019",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Hyperplasia",
+"Treatment Outcome",
+"Exercise",
+"Adult",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Lower Urinary Tract Symptoms"
+],
+"pmcid": "PMC6450803",
+"pmid": "30953341",
+"quelle": "MED",
+"titel": "Physical activity for lower urinary tract symptoms secondary to benign prostatic obstruction.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
 "Journal Article"
 ]
 },
@@ -60868,6 +61583,33 @@
 "Comparative Study",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:31422671": {
+"autoren": "Skulas-Ray AC, Wilson PWF, Harris WS, Brinton EA, Kris-Etherton PM, Richter CK, Jacobson TA, Engler MB, Miller M, Robinson JG, Blum CB, Rodriguez-Leyva D, de Ferranti SD, Welty FK, American Heart Association Council on Arteriosclerosis, Thrombosis and Vascular Biology; Council on Lifestyle and Cardiometabolic Health; Council on Cardiovascular Disease in the Young; Council on Cardiovascular and Stroke Nursing; and Council on Clinical Cardiology.",
+"doi": "10.1161/cir.0000000000000709",
+"iso": "Circulation",
+"jahr": "2019",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Hypertriglyceridemia",
+"Fatty Acids, Omega-3",
+"Triglycerides",
+"Risk",
+"American Heart Association",
+"United States",
+"Atherosclerosis",
+"Clinical Trials as Topic"
+],
+"pmcid": "",
+"pmid": "31422671",
+"quelle": "MED",
+"titel": "Omega-3 Fatty Acids for the Management of Hypertriglyceridemia: A Science Advisory From the American Heart Association.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -64185,6 +64927,34 @@
 "Journal Article"
 ]
 },
+"pmid:32439005": {
+"autoren": "Beheshti SO, Madsen CM, Varbo A, Nordestgaard BG.",
+"doi": "10.1016/j.jacc.2020.03.057",
+"iso": "J Am Coll Cardiol",
+"jahr": "2020",
+"journal": "Journal of the American College of Cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Myocardial Ischemia",
+"Lipoproteins, LDL",
+"Prevalence",
+"Heterozygote",
+"Homozygote",
+"Hyperlipoproteinemia Type II",
+"Global Health",
+"Ethnicity"
+],
+"pmcid": "",
+"pmid": "32439005",
+"quelle": "MED",
+"titel": "Worldwide Prevalence of Familial Hypercholesterolemia: Meta-Analyses of 11 Million Subjects.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:32442287": {
 "autoren": "Liu Y, Pan Y, Hu Z, Wu M, Wang C, Feng Z, Mao C, Tan Y, Liu Y, Chen L, Li M, Wang G, Yuan Z, Diao B, Wu Y, Chen Y.",
 "doi": "10.1093/cid/ciaa630",
@@ -64258,6 +65028,39 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:32453406": {
+"autoren": "Carlsen LN, Munksgaard SB, Nielsen M, Engelstoft IMS, Westergaard ML, Bendtsen L, Jensen RH.",
+"doi": "10.1001/jamaneurol.2020.1179",
+"iso": "JAMA Neurol",
+"jahr": "2020",
+"journal": "JAMA neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Analgesics",
+"Angiotensin II Type 1 Receptor Blockers",
+"Follow-Up Studies",
+"Adult",
+"Middle Aged",
+"Denmark",
+"Female",
+"Male",
+"Migraine Disorders",
+"Tension-Type Headache",
+"Headache Disorders, Secondary",
+"Outcome Assessment, Health Care"
+],
+"pmcid": "PMC7251504",
+"pmid": "32453406",
+"quelle": "MED",
+"titel": "Comparison of 3 Treatment Strategies for Medication Overuse Headache: A Randomized Clinical Trial.",
+"typen": [
+"Comparative Study",
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -65458,6 +66261,43 @@
 "typen": [
 "Meta-Analysis",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:32827219": {
+"autoren": "Hooper L, Martin N, Jimoh OF, Kirk C, Foster E, Abdelhamid AS.",
+"doi": "10.1002/14651858.cd011737.pub3",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2020",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Cholesterol",
+"Dietary Carbohydrates",
+"Dietary Fats",
+"Dietary Fats, Unsaturated",
+"Fatty Acids",
+"Dietary Proteins",
+"Cause of Death",
+"Energy Intake",
+"Adult",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Stroke"
+],
+"pmcid": "PMC8092457",
+"pmid": "32827219",
+"quelle": "MED",
+"titel": "Reduction in saturated fat intake for cardiovascular disease.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
 "Journal Article"
 ]
 },
@@ -70683,6 +71523,33 @@
 "Journal Article"
 ]
 },
+"pmid:34929374": {
+"autoren": "Varangot-Reille C, Suso-Martí L, Romero-Palau M, Suárez-Pastor P, Cuenca-Martínez F.",
+"doi": "10.1016/j.jpain.2021.12.003",
+"iso": "J Pain",
+"jahr": "2022",
+"journal": "The journal of pain",
+"korr": [],
+"mesh": [
+"Humans",
+"Headache",
+"Exercise",
+"Quality of Life",
+"Female",
+"Male",
+"Migraine Disorders",
+"Tension-Type Headache"
+],
+"pmcid": "",
+"pmid": "34929374",
+"quelle": "MED",
+"titel": "Effects of Different Therapeutic Exercise Modalities on Migraine or Tension-Type Headache: A Systematic Review and Meta-Analysis with a Replicability Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:34951953": {
 "autoren": "Soriano JB, Murthy S, Marshall JC, Relan P, Diaz JV, WHO Clinical Case Definition Working Group on Post-COVID-19 Condition.",
 "doi": "10.1016/s1473-3099(21)00703-9",
@@ -70724,6 +71591,24 @@
 "pmid": "34959697",
 "quelle": "MED",
 "titel": "Safety of Cerebrolysin for Neurorecovery after Acute Ischemic Stroke: A Systematic Review and Meta-Analysis of Twelve Randomized-Controlled Trials.",
+"typen": [
+"review-article",
+"Review",
+"Journal Article"
+]
+},
+"pmid:34966282": {
+"autoren": "Kositamongkol C, Kanchanasurakit S, Auttamalang C, Inchai N, Kabkaew T, Kitpark S, Chaiyakunapruk N, Duangjai A, Saokaew S, Phisalprapa P.",
+"doi": "10.3389/fphar.2021.786596",
+"iso": "Front Pharmacol",
+"jahr": "2021",
+"journal": "Frontiers in pharmacology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC8710778",
+"pmid": "34966282",
+"quelle": "MED",
+"titel": "Coffee Consumption and Non-alcoholic Fatty Liver Disease: An Umbrella Review and a Systematic Review and Meta-analysis.",
 "typen": [
 "review-article",
 "Review",
@@ -73332,6 +74217,34 @@
 "quelle": "MED",
 "titel": "Glucosamine and lower mortality and cancer incidence: Selection bias in the observational studies.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:36036785": {
+"autoren": "Kronenberg F, Mora S, Stroes ESG, Ference BA, Arsenault BJ, Berglund L, Dweck MR, Koschinsky M, Lambert G, Mach F, McNeal CJ, Moriarty PM, Natarajan P, Nordestgaard BG, Parhofer KG, Virani SS, von Eckardstein A, Watts GF, Stock JK, Ray KK, Tokgözoğlu LS, Catapano AL.",
+"doi": "10.1093/eurheartj/ehac361",
+"iso": "Eur Heart J",
+"jahr": "2022",
+"journal": "European heart journal",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Aortic Valve Stenosis",
+"Calcinosis",
+"Lipoprotein(a)",
+"Risk Factors",
+"Adult",
+"Atherosclerosis",
+"Cholesterol, LDL"
+],
+"pmcid": "PMC9639807",
+"pmid": "36036785",
+"quelle": "MED",
+"titel": "Lipoprotein(a) in atherosclerotic cardiovascular disease and aortic stenosis: a European Atherosclerosis Society consensus statement.",
+"typen": [
+"review-article",
+"Consensus Statement",
 "Journal Article"
 ]
 },
@@ -80155,6 +81068,33 @@
 "Journal Article"
 ]
 },
+"pmid:38512051": {
+"autoren": "Worthington J, Frost J, Sanderson E, Cochrane M, Wheeler J, Cotterill N, MacNeill SJ, Noble S, Avery M, Clarke S, Fader M, Hashim H, McGeagh L, Macaulay M, Rees J, Robles L, Taylor G, Taylor J, Thompson J, Lane JA, Ridd MJ, Drake MJ, TRIUMPH study group.",
+"doi": "10.3310/gvbc3182",
+"iso": "Health Technol Assess",
+"jahr": "2024",
+"journal": "Health technology assessment (Winchester, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Quality of Life",
+"Adult",
+"Allied Health Personnel",
+"Male",
+"General Practitioners",
+"Lower Urinary Tract Symptoms",
+"Data Accuracy"
+],
+"pmcid": "",
+"pmid": "38512051",
+"quelle": "MED",
+"titel": "Lower urinary tract symptoms in men: the TRIUMPH cluster RCT.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:38519421": {
 "autoren": "Knuijver T, Ter Heine R, Schellekens AFA, Heydari P, Lucas L, Westra S, Belgers M, van Oosteren T, Verkes RJ, Kramers C.",
 "doi": "10.1177/02698811241237873",
@@ -80942,6 +81882,27 @@
 "typen": [
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:38851997": {
+"autoren": "European Association for the Study of the Liver (EASL), European Association for the Study of Diabetes (EASD), European Association for the Study of Obesity (EASO).",
+"doi": "10.1016/j.jhep.2024.04.031",
+"iso": "J Hepatol",
+"jahr": "2024",
+"journal": "Journal of hepatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "38851997",
+"quelle": "MED",
+"titel": "EASL-EASD-EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD).",
+"typen": [
+"Practice Guideline",
 "Journal Article"
 ]
 },
@@ -85365,6 +86326,45 @@
 "Journal Article"
 ]
 },
+"pmid:40305708": {
+"autoren": "Sanyal AJ, Newsome PN, Kliers I, Østergaard LH, Long MT, Kjær MS, Cali AMG, Bugianesi E, Rinella ME, Roden M, Ratziu V, ESSENCE Study Group.",
+"doi": "10.1056/nejmoa2413258",
+"iso": "N Engl J Med",
+"jahr": "2025",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Liver",
+"Humans",
+"Liver Cirrhosis",
+"Biopsy",
+"Treatment Outcome",
+"Injections, Subcutaneous",
+"Drug Administration Schedule",
+"Severity of Illness Index",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Non-alcoholic Fatty Liver Disease",
+"Glucagon-Like Peptide-1 Receptor Agonists",
+"Semaglutide"
+],
+"pmcid": "",
+"pmid": "40305708",
+"quelle": "MED",
+"titel": "Phase 3 Trial of Semaglutide in Metabolic Dysfunction-Associated Steatohepatitis.",
+"typen": [
+"Clinical Trial, Phase III",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40312093": {
 "autoren": "Benoist CC, Kawas LH, Zhu M, Tyson KA, Stillmaker L, Appleyard SM, Wright JW, Wayman GA, Harding JW.",
 "doi": "10.1016/j.jpet.2025.103567",
@@ -85857,6 +86857,37 @@
 "typen": [
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:40441053": {
+"autoren": "Kim SJ, Cho SH, Yun JM.",
+"doi": "10.1016/j.clnu.2025.05.013",
+"iso": "Clin Nutr",
+"jahr": "2025",
+"journal": "Clinical nutrition (Edinburgh, Scotland)",
+"korr": [],
+"mesh": [
+"Liver",
+"Humans",
+"Alanine Transaminase",
+"Aspartate Aminotransferases",
+"Fatty Acids, Omega-3",
+"Dietary Supplements",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "40441053",
+"quelle": "MED",
+"titel": "Omega-3 polyunsaturated fatty acids and nonalcoholic fatty liver disease in adults: A meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -89545,6 +90576,39 @@
 "Meta-Analysis",
 "Systematic Review",
 "review-article",
+"Journal Article"
+]
+},
+"pmid:41160819": {
+"autoren": "Roobol MJ, de Vos II, Månsson M, Godtman RA, Talala KM, den Hond E, Nelen V, Villers A, Poinas G, Kwiatkowski M, Wyler S, Recker F, Puliti D, Gorini G, Zappa M, Paez A, Lujan M, Bangma CH, Tammela T, Schröder FH, Remmers S, Hugosson J, Auvinen A, ERSPC Investigators.",
+"doi": "10.1056/nejmoa2503223",
+"iso": "N Engl J Med",
+"jahr": "2025",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Neoplasms",
+"Prostate-Specific Antigen",
+"Mass Screening",
+"Incidence",
+"Follow-Up Studies",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Europe",
+"Male",
+"Early Detection of Cancer",
+"Neoplasm Grading",
+"Progression-Free Survival"
+],
+"pmcid": "",
+"pmid": "41160819",
+"quelle": "MED",
+"titel": "European Study of Prostate Cancer Screening - 23-Year Follow-up.",
+"typen": [
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -101311,6 +102375,38 @@
 "Research Support, U.S. Gov't, P.H.S.",
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:9484373": {
+"autoren": "Schoenen J, Jacquy J, Lenaerts M.",
+"doi": "10.1212/wnl.50.2.466",
+"iso": "Neurology",
+"jahr": "1998",
+"journal": "Neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Riboflavin",
+"Placebos",
+"Severity of Illness Index",
+"Dose-Response Relationship, Drug",
+"Time Factors",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Migraine Disorders"
+],
+"pmcid": "",
+"pmid": "9484373",
+"quelle": "MED",
+"titel": "Effectiveness of high-dose riboflavin in migraine prophylaxis. A randomized controlled trial.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
 "Randomized Controlled Trial",
 "Journal Article"
 ]

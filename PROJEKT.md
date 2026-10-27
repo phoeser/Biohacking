@@ -298,6 +298,7 @@ Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
 - **Entität** (`entitaet.py`): Organization mit Claim, Logo und `sameAs` aller
   Kanäle; Person Paul Höser mit `sameAs` LinkedIn. Wikidata-Eintrag vorbereitet
   (`nov2/WIKIDATA-ENTWURF.md`), anlegen nach erster Fremderwähnung.
+- **WebMCP** (seit 27.10.2026, `js/webmcp.js` + `webmcp.py`): fünf nur lesende Werkzeuge für KI-Assistenten im Browser (Themen suchen, BK-Score, Vergleich, Fragen-Seiten, Studien). Chrome hat WebMCP erst als Vorschau, kein großer Assistent nutzt es bisher – Vorleistung für 2027, keine Ranking-Wirkung.
 - **Interne Verlinkung:** „Weitere Themen dazu“ auf den 18 Ziel-Seiten
   (`ziele.py`, kuratiert in `docs/ziele-auswahl.json`), „Ähnliche Themen“ über
   `verwandt.py`.
