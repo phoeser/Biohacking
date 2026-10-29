@@ -1,0 +1,25 @@
+# Newsletter von Biohacking Kompakt (seit 28.10.2026): Anmeldung, Double-Opt-in, Abmeldung, Versand-Start.
+# Secrets (nie in Dateien): ADMIN_KEY, HOOK_DOI, HOOK_VERSAND  ->  wrangler secret put <NAME>
+name = "bk-newsletter"
+main = "src/worker.js"
+compatibility_date = "2026-01-01"
+workers_dev = true
+
+[[routes]]
+pattern = "nl.biohackingkompakt.de"
+custom_domain = true
+
+[[kv_namespaces]]
+binding = "ABOS"
+id = "b2a38d03ae8b42a68b0a20237025efdc"
+
+# Rate-Limit je IP fuer /anmelden. 1001 = bhc-proxy, 1002 = bk-mcp.
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1003"
+  [ratelimits.simple]
+  limit = 5
+  period = 60
+
+[observability]
+enabled = true

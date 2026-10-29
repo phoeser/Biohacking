@@ -96,6 +96,21 @@
     <p class="app"><a class="btn" href="/#podcast">Alle Folgen in der App</a></p>
     <p class="disc">Reine Information, keine medizinische Beratung und keine Anwendungs- oder Dosierempfehlung. Verschreibungspflichtige und nicht zugelassene Wirkstoffe gehören in ärztliche Hände. Stand: 2026-10-17.</p>
   </article>
+<!-- newsletter:start -->
+<style>.nl-box{margin:40px 0 8px;padding:22px 22px 18px;border:1px solid var(--rand,rgba(45,90,70,.12));border-radius:14px;background:var(--akzent-soft,#d8ece2)}.nl-box h2{margin:0 0 6px;font-size:1.2rem}.nl-box p{margin:0 0 12px}.nl-zeile{display:flex;flex-wrap:wrap;gap:8px}.nl-zeile input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:10px 14px;border:1px solid rgba(45,90,70,.3);border-radius:99px;background:#fff;color:#1d2420}.nl-zeile button{font:inherit;font-weight:600;border:0;border-radius:99px;padding:10px 20px;background:#2f8b6a;color:#fff;cursor:pointer}.nl-zeile button:disabled{opacity:.6;cursor:default}.nl-meldung{margin:10px 0 0;font-weight:600}.nl-meldung:empty{display:none}.nl-ok{color:#22684e}.nl-fehler{color:#a23b2a}.nl-klein{font-size:.82rem;color:#5a6560;margin:10px 0 0}.nl-falle{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.nl-label{position:absolute;left:-9999px}</style>
+<section class="nl-box" aria-label="Newsletter">
+  <h2>Newsletter: einmal pro Woche das Wichtigste</h2>
+  <p>Neue Podcastfolgen, neue Studien und was sich auf Biohacking Kompakt getan hat. Jede Woche kurz zusammengefasst, alle Ausgaben auch im <a href="/newsletter/">Archiv</a>.</p>
+<form class="nl-form" action="https://nl.biohackingkompakt.de/anmelden" method="post">
+  <div class="nl-zeile"><label class="nl-label" for="nl-mail">E-Mail-Adresse</label><input id="nl-mail" type="email" name="email" required placeholder="deine@mail.de" autocomplete="email"><button type="submit">Anmelden</button></div>
+  <input type="hidden" name="quelle" value="folge/124">
+  <div class="nl-falle" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+  <p class="nl-meldung" role="status" aria-live="polite"></p>
+  <p class="nl-klein">Kostenlos und jederzeit abbestellbar. Du bekommst zuerst eine Mail mit Bestätigungslink. Details in der <a href="/datenschutz.html#newsletter">Datenschutzerklärung</a>.</p>
+</form>
+</section>
+<script defer src="/js/newsletter.js?v=9eebcd96"></script>
+<!-- newsletter:end -->
 </main>
 <footer class="fuss">
   <a href="/">Startseite</a> · <a href="/thema/">Alle Themen</a> · <a href="/problem/">Fragen &amp; Beschwerden</a> · <a href="/folge/">Podcast-Folgen</a> · <a href="/glossar/">Glossar</a> · <a href="/ueber-uns.html">Über uns</a> · <a href="/methodik.html">Methodik</a> · <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
