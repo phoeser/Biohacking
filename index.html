@@ -189,7 +189,23 @@
           <div class="stat"><strong id="stat-folgen">–</strong><span>Podcastfolgen</span></div>
         </div>
 
-        <!-- Partner der Woche: drei Anbieter mit Code, wechselt montags.
+        <!-- newsletter:start -->
+<style>.nl-box{margin:40px 0 8px;padding:22px 22px 18px;border:1px solid var(--rand,rgba(45,90,70,.12));border-radius:14px;background:var(--akzent-soft,#d8ece2)}.nl-box h2{margin:0 0 6px;font-size:1.2rem}.nl-box p{margin:0 0 12px}.nl-zeile{display:flex;flex-wrap:wrap;gap:8px}.nl-zeile input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:10px 14px;border:1px solid rgba(45,90,70,.3);border-radius:99px;background:#fff;color:#1d2420}.nl-zeile button{font:inherit;font-weight:600;border:0;border-radius:99px;padding:10px 20px;background:#2f8b6a;color:#fff;cursor:pointer}.nl-zeile button:disabled{opacity:.6;cursor:default}.nl-meldung{margin:10px 0 0;font-weight:600}.nl-meldung:empty{display:none}.nl-ok{color:#22684e}.nl-fehler{color:#a23b2a}.nl-klein{font-size:.82rem;color:#5a6560;margin:10px 0 0}.nl-falle{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.nl-label{position:absolute;left:-9999px}</style>
+<section class="nl-box card" aria-label="Newsletter" style="background:var(--akzent-soft,#d8ece2)">
+  <span class="eyebrow">Newsletter</span>
+  <h3 style="margin:.2em 0 .4em">Einmal pro Woche das Wichtigste</h3>
+  <p>Neue Podcastfolgen, neue Studien und was sich auf der Seite getan hat. Alle Ausgaben stehen auch im <a href="/newsletter/">Archiv</a>.</p>
+<form class="nl-form" action="https://nl.biohackingkompakt.de/anmelden" method="post">
+  <div class="nl-zeile"><label class="nl-label" for="nl-mail-start">E-Mail-Adresse</label><input id="nl-mail-start" type="email" name="email" required placeholder="deine@mail.de" autocomplete="email"><button type="submit">Anmelden</button></div>
+  <input type="hidden" name="quelle" value="startseite">
+  <div class="nl-falle" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+  <p class="nl-meldung" role="status" aria-live="polite"></p>
+  <p class="nl-klein">Kostenlos und jederzeit abbestellbar. Du bekommst zuerst eine Mail mit Bestätigungslink. Details in der <a href="/datenschutz.html#newsletter">Datenschutzerklärung</a>.</p>
+</form>
+</section>
+<script defer src="/js/newsletter.js?v=9eebcd96"></script>
+<!-- newsletter:end -->
+<!-- Partner der Woche: drei Anbieter mit Code, wechselt montags.
              Bewusst ueber den Wearables-Empfehlungen: wer einen Code sucht,
              soll ihn finden, ohne die halbe Startseite zu scrollen. -->
         <div class="home-partner card" id="home-partner" hidden>
