@@ -16,7 +16,8 @@ Aufrufe im Repo:
 
 Eine Ausgabe = docs/newsletter/<JJJJ-MM-TT>.json:
   {"datum", "nummer", "betreff", "vorschau", "intro", "abschnitte": [{"titel", "eintraege":
-   [{"titel", "text", "url"}]}], "schluss"}
+   [{"titel", "text", "url", optional "mehr_titel", "mehr_url"}]}], "schluss"}
+Ablauf und Regeln für jede Ausgabe: docs/newsletter/ANLEITUNG.md.
 Texte ohne Dosierungen bei nicht zugelassenen Stoffen, ohne Bezugsquellen-Links.
 """
 import glob, hashlib, html, json, os, re, sys
@@ -150,12 +151,16 @@ def eintraege_html(d, mail=False):
         for x in ab['eintraege']:
             url = x.get('url') or ''
             voll = url if url.startswith('http') else (SITE + url if url else '')
+            mu = x.get('mehr_url') or ''
+            mv = mu if mu.startswith('http') else (SITE + mu if mu else '')
             if mail:
                 t = ('<a href="%s" style="color:#22684e;text-decoration:none">%s</a>' % (a_(voll), e_(x['titel']))) if voll else e_(x['titel'])
-                teile.append('<p style="margin:0 0 4px;font-weight:bold;font-size:16px">%s</p><p style="margin:0 0 16px">%s</p>' % (t, e_(x['text'])))
+                mehr = (' <a href="%s" style="color:#22684e">%s</a>' % (a_(mv), e_(x.get('mehr_titel') or 'Mehr dazu'))) if mv else ''
+                teile.append('<p style="margin:0 0 4px;font-weight:bold;font-size:16px">%s</p><p style="margin:0 0 16px">%s%s</p>' % (t, e_(x['text']), mehr))
             else:
                 t = ('<a href="%s">%s</a>' % (a_(url), e_(x['titel']))) if url else e_(x['titel'])
-                teile.append('      <h3>%s</h3>\n      <p>%s</p>' % (t, e_(x['text'])))
+                mehr = (' <a href="%s">%s</a>' % (a_(mu), e_(x.get('mehr_titel') or 'Mehr dazu'))) if mu else ''
+                teile.append('      <h3>%s</h3>\n      <p>%s%s</p>' % (t, e_(x['text']), mehr))
         if not mail:
             teile.append('    </section>')
     return '\n'.join(teile)
