@@ -44,8 +44,9 @@ phoeser/Biohacking (main)  →  GitHub Pages  →  Cloudflare DNS  →  biohacki
 - **Hosting:** GitHub Pages, `CNAME` im Repo-Root
 - **DNS:** Cloudflare (Nameserver-Wechsel am 22.08.2026, weil der All-Inkl-
   Privattarif weder SSL noch DNS-Bearbeitung enthält)
-- **Domains:** biohackingkompakt.de ist die Hauptdomain; biohacking-kompakt.de,
-  www und phoeser.github.io/Biohacking leiten per 301 dorthin
+- **Domains:** biohackingkompakt.de ist die Hauptdomain; www und phoeser.github.io/Biohacking
+  leiten per 301 dorthin. biohacking-kompakt.de (mit Bindestrich) ist ausgelaufen und wurde am
+  31.10.2026 aus Cloudflare entfernt – Paul gibt sie bewusst auf.
 - **E-Mail:** bleibt bei All-Inkl (Kundennr. 882470, Account w021f7c6)
 - **Ein Proxy:** Cloudflare-Worker `bhc-proxy` für die Gemini-Aufrufe, mit
   Rate-Limiting (30 Anfragen/60 s je IP). Kein API-Key im Client.
@@ -340,7 +341,6 @@ Ausführlich in `DEPLOY.md`. **Stand 25.10.2026 gilt vorrangig dieser Weg:**
 - Bing-Index: erst 15 Seiten aufgenommen; Routine fragt täglich 100 an
 - Partner-Anfragen: Platzhalter [Schwerpunkte] von Paul, dann Versand nach Freigabe
 - Wikidata-Eintrag nach erster unabhängiger Erwähnung
-- biohacking-kompakt.de in der DENIC-Redemption-Phase – Paul entscheidet: wiederherstellen oder aufgeben
 - MITOcare-Partnerantrag gestellt, Freischaltung abwarten (dann Produkte gegen die 7 No-Link-Stoffe prüfen, Anzeige kennzeichnen)
 - Rechner-Arbeitskopie: einige Dateien OneDrive-gesperrt – vor Arbeit dort `bk.py pull`
 - Tonfehler in veröffentlichten Folgen (doppelte Abschnitte, Lücken, abgeschnittene Enden; Liste `nov2/TONFEHLER.md`): Paul 27.10. – bei der Neuvertonung 1–94 mitkorrigieren (Neuvertonung selbst noch ohne Startfreigabe)
