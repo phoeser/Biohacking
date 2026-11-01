@@ -852,12 +852,12 @@ const SHOPS = [
     url: '',
     land: 'DE',
     kategorien: ['Peptide'],
-    bewertung: 3,
+    bewertung: 4,
     versand: 'Schnelle Lieferung, mehrfach übereinstimmend berichtet.',
-    zahlung: 'Rückerstattung: Ein Fall berichtet, in dem eine versehentlich doppelt bestellte, ungeöffnet zurückgeschickte Lieferung nach vielen Wochen noch nicht erstattet war.',
+    zahlung: 'Rückerstattung: Bei einer versehentlich doppelt bestellten, ungeöffnet zurückgeschickten Lieferung hat man sich nach vielen Wochen auf eine Gutschrift geeinigt – die lief dann reibungslos.',
     qualitaet: 'Qualität wurde durchweg als gut beschrieben.',
     zoll: null,
-    erfahrung: 'Von mehreren Leuten unabhängig als seriös beschrieben – und mit der bisher besten Auswahl. Nicht ganz billig, dafür schnell geliefert. Abgewertet von fünf auf drei Sterne wegen eines Berichts aus zweiter Hand zur Rückabwicklung: Eine versehentlich doppelt bestellte Ware ging ungeöffnet zurück, auf die Erstattung wartet der Käufer seit vielen Wochen. Ein Einzelfall, von mir nicht selbst überprüft – wenn du anderes erlebt hast, schreib mir. Stand September 2026.',
+    erfahrung: 'Von mehreren Leuten unabhängig als seriös beschrieben – und mit der bisher besten Auswahl. Nicht ganz billig, dafür schnell geliefert. Im September von fünf auf drei Sterne abgewertet wegen eines Berichts aus zweiter Hand zur Rückabwicklung: Eine versehentlich doppelt bestellte Ware ging ungeöffnet zurück, auf die Erstattung wartete der Käufer viele Wochen. Inzwischen hat man sich auf eine Gutschrift geeinigt, und die hat reibungslos funktioniert – deshalb am 01.11.2026 wieder einen Stern hoch auf vier. Ein Einzelfall, von mir nicht selbst überprüft – wenn du anderes erlebt hast, schreib mir. Stand 01.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
@@ -935,8 +935,8 @@ const SHOPS = [
     // Bericht aus zweiter Hand, nicht selbst geprueft – deshalb als solcher
     // gekennzeichnet und ohne Betrugs- oder Faelschungsbehauptung. Nachpruefbar
     // (Trustpilot, abgerufen 15.10.2026): Sitzangabe Sheridan, USA; Gesamt-
-    // bewertung wegen Richtlinienverstoss ausgeblendet; gefaelschte Bewertungen
-    // laut Trustpilot entfernt.
+    // bewertung wegen Richtlinienverstoss ausgeblendet. Hinweis auf entfernte
+    // Bewertungen am 01.11.2026 auf Pauls Wunsch aus dem Text genommen.
     id: 'peptiking',
     name: 'peptiking.com (Pepti King)',
     demo: false,
@@ -949,7 +949,7 @@ const SHOPS = [
     preis: 'Sehr günstige Preise.',
     qualitaet: 'Nach der ersten Lieferung kritisiert (Vials wirkten unprofessionell, Füllmenge schien zu gering). Laut demselben Bericht hat der Shop das inzwischen erklärt und sich für die Aufmachung entschuldigt; es scheine alles in Ordnung. Von uns nicht selbst geprüft.',
     zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
-    erfahrung: 'Ein Bericht aus zweiter Hand, mit einer Wende. Zuerst kamen sehr günstige Preise und eine reibungslose Bestellung, dann eine Enttäuschung bei der Ware: Die Vials wirkten unprofessionell, der Inhalt zu gering – deshalb stand der Shop hier zeitweise bei einem Stern. Inzwischen hat sich der Shop bei derselben Person gemeldet, sehr gut kommuniziert, die Aufmachung erklärt und sich dafür entschuldigt. Nach ihrer Einschätzung scheint alles in Ordnung, und der Shop macht jetzt einen sehr professionellen Eindruck – daher am 01.11.2026 auf fünf Sterne gesetzt. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet, und Trustpilot gibt an, gefälschte Bewertungen für dieses Unternehmen entfernt zu haben. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Stand 01.11.2026.',
+    erfahrung: 'Ein Bericht aus zweiter Hand, mit einer Wende. Zuerst kamen sehr günstige Preise und eine reibungslose Bestellung, dann eine Enttäuschung bei der Ware: Die Vials wirkten unprofessionell, der Inhalt zu gering – deshalb stand der Shop hier zeitweise bei einem Stern. Inzwischen hat sich der Shop bei derselben Person gemeldet, sehr gut kommuniziert, die Aufmachung erklärt und sich dafür entschuldigt. Nach ihrer Einschätzung scheint alles in Ordnung, und der Shop macht jetzt einen sehr professionellen Eindruck – daher am 01.11.2026 auf fünf Sterne gesetzt. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Stand 01.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
