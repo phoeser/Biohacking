@@ -852,12 +852,12 @@ const SHOPS = [
     url: '',
     land: 'DE',
     kategorien: ['Peptide'],
-    bewertung: 3,
+    bewertung: 4,
     versand: 'Schnelle Lieferung, mehrfach übereinstimmend berichtet.',
-    zahlung: 'Rückerstattung: Ein Fall berichtet, in dem eine versehentlich doppelt bestellte, ungeöffnet zurückgeschickte Lieferung nach vielen Wochen noch nicht erstattet war.',
+    zahlung: 'Rückerstattung: Bei einer versehentlich doppelt bestellten, ungeöffnet zurückgeschickten Lieferung hat man sich nach vielen Wochen auf eine Gutschrift geeinigt – die lief dann reibungslos.',
     qualitaet: 'Qualität wurde durchweg als gut beschrieben.',
     zoll: null,
-    erfahrung: 'Von mehreren Leuten unabhängig als seriös beschrieben – und mit der bisher besten Auswahl. Nicht ganz billig, dafür schnell geliefert. Abgewertet von fünf auf drei Sterne wegen eines Berichts aus zweiter Hand zur Rückabwicklung: Eine versehentlich doppelt bestellte Ware ging ungeöffnet zurück, auf die Erstattung wartet der Käufer seit vielen Wochen. Ein Einzelfall, von mir nicht selbst überprüft – wenn du anderes erlebt hast, schreib mir. Stand September 2026.',
+    erfahrung: 'Von mehreren Leuten unabhängig als seriös beschrieben – und mit der bisher besten Auswahl. Nicht ganz billig, dafür schnell geliefert. Im September von fünf auf drei Sterne abgewertet wegen eines Berichts aus zweiter Hand zur Rückabwicklung: Eine versehentlich doppelt bestellte Ware ging ungeöffnet zurück, auf die Erstattung wartete der Käufer viele Wochen. Inzwischen hat man sich auf eine Gutschrift geeinigt, und die hat reibungslos funktioniert – deshalb am 01.11.2026 wieder einen Stern hoch auf vier. Ein Einzelfall, von mir nicht selbst überprüft – wenn du anderes erlebt hast, schreib mir. Stand 01.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
