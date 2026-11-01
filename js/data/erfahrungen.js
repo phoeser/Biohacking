@@ -930,6 +930,8 @@ const SHOPS = [
   {
     // Aufgenommen 15.10.2026 auf Pauls Wunsch, 2 Sterne (Pauls Bewertung).
     // 25.10.2026 auf Pauls Wunsch auf 1 Stern gesenkt (Vials unprofessionell, zu wenig Inhalt).
+    // 01.11.2026 auf Pauls Wunsch auf 5 Sterne gesetzt: dieselbe Person berichtet nach Kontakt
+    // mit dem Shop (Erklaerung, Entschuldigung fuer die Aufmachung), es scheine alles in Ordnung.
     // Bericht aus zweiter Hand, nicht selbst geprueft – deshalb als solcher
     // gekennzeichnet und ohne Betrugs- oder Faelschungsbehauptung. Nachpruefbar
     // (Trustpilot, abgerufen 15.10.2026): Sitzangabe Sheridan, USA; Gesamt-
@@ -941,13 +943,13 @@ const SHOPS = [
     url: '',
     land: 'USA (laut Trustpilot-Profil)',
     kategorien: ['Peptide'],
-    bewertung: 1,
+    bewertung: 5,
     versand: 'Bestellung und Abwicklung wurden als sehr professionell beschrieben.',
     zahlung: null,
     preis: 'Sehr günstige Preise.',
-    qualitaet: 'Laut Bericht enttäuschend: Die Vials wirkten unprofessionell und teils nicht einwandfrei, die Füllmenge erschien deutlich zu gering. Insgesamt wenig vertrauenswürdig. Von uns nicht selbst geprüft.',
+    qualitaet: 'Nach der ersten Lieferung kritisiert (Vials wirkten unprofessionell, Füllmenge schien zu gering). Laut demselben Bericht hat der Shop das inzwischen erklärt und sich für die Aufmachung entschuldigt; es scheine alles in Ordnung. Von uns nicht selbst geprüft.',
     zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
-    erfahrung: 'Ein Bericht aus zweiter Hand, und er zeigt, warum ein guter Bestellablauf allein nichts beweist: sehr günstige Preise, ein professioneller Shop und eine reibungslose Bestellung – doch als die Ware kam, war es laut Bericht eine Enttäuschung. Die Vials sahen unprofessionell und zum Teil nicht in Ordnung aus, und der Inhalt wirkte viel zu wenig. Unterm Strich: wenig vertrauenswürdig. Meine Einschätzung daraus: sehr vorsichtig sein, lieber Finger weg. Am 25.10.2026 von zwei auf einen Stern gesenkt – die Rückmeldungen bleiben bei unprofessionell wirkenden Vials mit viel zu wenig Inhalt. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet, und Trustpilot gibt an, gefälschte Bewertungen für dieses Unternehmen entfernt zu haben. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort anderes erlebt hast, schreib mir. Stand 25.10.2026.',
+    erfahrung: 'Ein Bericht aus zweiter Hand, mit einer Wende. Zuerst kamen sehr günstige Preise und eine reibungslose Bestellung, dann eine Enttäuschung bei der Ware: Die Vials wirkten unprofessionell, der Inhalt zu gering – deshalb stand der Shop hier zeitweise bei einem Stern. Inzwischen hat sich der Shop bei derselben Person gemeldet, sehr gut kommuniziert, die Aufmachung erklärt und sich dafür entschuldigt. Nach ihrer Einschätzung scheint alles in Ordnung, und der Shop macht jetzt einen sehr professionellen Eindruck – daher am 01.11.2026 auf fünf Sterne gesetzt. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet, und Trustpilot gibt an, gefälschte Bewertungen für dieses Unternehmen entfernt zu haben. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Stand 01.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
