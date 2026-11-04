@@ -181,6 +181,7 @@ Jede Folgenseite hat „Die Kernaussagen“ und seit 26.10.2026 Kapitelmarken f�
   Beide auf derselben Seite. Vier Dialogregeln: Paula unterbricht, nicht jede
   Frage bekommt eine Antwort, einmal je Folge ändert jemand sichtbar seine
   Meinung, lange Turns werden geteilt.
+- **Update-Folgen (seit 03.11.2026, Dauerregel):** jede Woche eine neu geschriebene und neu vertonte Folge zu einem Top-Thema (Retatrutid, Testosteron, BPC-157, GHK-Cu …) – was seit der ersten Folge neu ist. Regeln in der Serienbibel und `ANLEITUNG-FOLGENPRODUKTION.md` (Pauls Ordner `Claude outputs/serienbibel/`).
 - **Die Folgen erwähnen nie, dass der Podcast KI-produziert ist.**
 - `js/data/podcast.js` hält je Folge Titel, Datum, `ab` (Freischaltzeit,
   08:00 UTC) und `ziel` (Sprungziel in die Datenbank). Ohne Sprungziel sind noch

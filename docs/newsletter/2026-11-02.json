@@ -1,0 +1,28 @@
+{
+ "datum": "2026-11-02",
+ "nummer": 1,
+ "betreff": "Griffkraft, Ballaststoffe und ein Glukosesensor im NEJM",
+ "vorschau": "Sieben neue Folgen, zwei Studien der Woche und 24 neue Seiten – kurz eingeordnet.",
+ "intro": "Willkommen zur ersten Ausgabe. Die wichtigste Zahl der Woche kommt aus Folge 124: Je 5 Kilogramm weniger Griffkraft stieg das Sterberisiko in der PURE-Studie um 16 Prozent. Dazu sieben Folgen, zwei neue Studien und 24 neue Seiten, jeweils mit Link zum Nachlesen.",
+ "abschnitte": [
+  {"titel": "Neue Podcastfolgen", "eintraege": [
+   {"titel": "Folge 119: Erythrit und Xylit", "text": "Xylit halbierte in den Turku-Studien den Zahnbelag; bei Erythrit verklumpten nach einer Testdosis die Blutplättchen aller zehn Probanden stärker – ein kleiner Versuch, aber ein klares Signal.", "url": "/folge/119.html"},
+   {"titel": "Folge 120: Probiotika nach Antibiotika", "text": "Mit Kapseln erholte sich die Darmflora nach einer Antibiotikakur deutlich langsamer als ohne Behandlung, laut Übersichtsarbeiten bis zu fünf Monate verzögert.", "url": "/folge/120.html"},
+   {"titel": "Folge 121: Ballaststoffe", "text": "Hohe gegenüber niedriger Zufuhr ging mit 15 bis 30 Prozent niedrigerer Sterblichkeit einher – gerechnet 13 Todesfälle weniger je 1000 Menschen.", "url": "/folge/121.html"},
+   {"titel": "Folge 122: Mikrobiom-Tests", "text": "Auf dieselbe Testmahlzeit reagierten 1002 Erwachsene sehr unterschiedlich, das Mikrobiom erklärte davon aber nur einen kleinen Teil.", "url": "/folge/122.html"},
+   {"titel": "Folge 123: Nikotin ohne Rauch", "text": "In 41 placebokontrollierten Laborstudien verbesserte Nikotin Aufmerksamkeit und Arbeitsgedächtnis messbar, meist im kleinen Bereich – und die Abhängigkeit bleibt.", "url": "/folge/123.html"},
+   {"titel": "Folge 124: Muskel als Organ", "text": "Je 5 Kilogramm weniger Griffkraft stieg das Sterberisiko in der PURE-Studie um 16 Prozent, in armen wie in reichen Ländern; für den Tod jeder Ursache sagte sie mehr voraus als der Blutdruck.", "url": "/folge/124.html"},
+   {"titel": "Folge 125: Löwenmähne", "text": "Im Labor und bei Tieren gibt es Hinweise auf den Nervenfaktor; am Menschen liegen bisher acht kleine kontrollierte Studien mit zusammen keinen 400 Teilnehmenden vor.", "url": "/folge/125.html"}
+  ]},
+  {"titel": "Studien der Woche", "eintraege": [
+   {"titel": "Glukosesensor senkt den Langzeitzucker auch ohne Insulin (N Engl J Med, Oktober 2026)", "text": "283 Erwachsene mit Typ-2-Diabetes ohne Insulin, 26 Wochen, 22 Hausarztpraxen: Mit dauerhaftem Glukosesensor sank der HbA1c von 8,8 auf 7,2 Prozent, ohne von 8,7 auf 8,0 – ein Unterschied von 0,9 Prozentpunkten. Die Zeit im Zielbereich lag 21 Prozentpunkte höher, schwere Unterzuckerungen gab es keine. Einordnung: ein sauberer randomisierter Versuch, finanziert vom Sensorhersteller Dexcom, und er gilt für Menschen mit Diabetes – für Gesunde sagt er nichts.", "url": "https://pubmed.ncbi.nlm.nih.gov/42878622/", "mehr_titel": "Glukose kontinuierlich messen (CGM)", "mehr_url": "/tipp/cgm-tracking.html"},
+   {"titel": "Was Muskeln im Alter hilft: Netzwerk-Metaanalyse zu Nahrungsergänzung (Nutrients, Oktober 2026)", "text": "20 randomisierte Studien mit 2160 älteren Menschen mit oder nahe an Sarkopenie: Nahrungsergänzung insgesamt verbesserte Muskelmasse, Griffkraft und Gehgeschwindigkeit, am breitesten die Kombination aus Molkenprotein, Vitamin D und Leucin. Wo die Daten aufhören: Die Autoren selbst stufen die Sicherheit der Ergebnisse als niedrig bis sehr niedrig ein, mehrere Kombinationen stützen sich auf eine einzige Studie.", "url": "https://pubmed.ncbi.nlm.nih.gov/42942938/", "mehr_titel": "Muskeln aufbauen und halten ab 40", "mehr_url": "/problem/muskelaufbau-ab-40.html"}
+  ]},
+  {"titel": "Neu auf der Seite", "eintraege": [
+   {"titel": "20 neue Vergleiche", "text": "Kreatin oder Beta-Alanin, Berberin oder Metformin, Finasterid oder Minoxidil, Omega-3 oder Krillöl und 16 weitere Paare – jeweils mit BK-Score nebeneinander und den Studien dahinter.", "url": "/vergleich/"},
+   {"titel": "4 neue Ratgeber zu Alltagsbeschwerden", "text": "Kopfschmerzen und Migräne, vergrößerte Prostata, Fettleber und LDL-Cholesterin: was zuerst zählt, wann ärztliche Abklärung nötig ist und was Supplements beitragen.", "url": "/problem/"},
+   {"titel": "Dieser Newsletter", "text": "Ab jetzt jede Woche – alle Ausgaben stehen auch im Archiv auf der Seite.", "url": "/newsletter/"}
+  ]}
+ ],
+ "schluss": "Fragen, Themenwünsche oder eigene Erfahrungen? Antworte einfach auf diese Mail – sie landet direkt bei uns."
+}
