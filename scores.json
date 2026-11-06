@@ -7522,14 +7522,14 @@
    "view": "supplement",
    "name": "Mariendistel (Silymarin)",
    "url": "https://biohackingkompakt.de/thema/mariendistel.html",
-   "evidenz": 5,
+   "evidenz": 6,
    "mechanismus": 4,
    "sicherheit": 7,
    "hype": 4,
    "anwendung": 9,
    "richtung": "gemischt",
-   "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 5, weil zwar mehr als 4.000 Patienten in randomisierten Studien untersucht wurden (EMA/HMPC 2018) und Meta-Analysen bei Fettleber niedrigere Leberwerte und weniger Verfettung zeigen (Li 2024: 26 Studien, 2.375 Patienten; Kalopitas 2021), die Studienqualität aber durchweg niedrig ist, der Cochrane-Review keinen Effekt auf die Sterblichkeit fand (Rambaldi 2007: RR 0,78, nicht signifikant) und die methodisch besten Einzelstudien ihr Hauptziel verfehlten (Fried 2012 bei Hepatitis C, Wah Kheong 2017 bei NASH). Mechanismus 4, weil antioxidative, entzündungshemmende und antifibrotische Effekte vor allem in Zell- und Tiermodellen gezeigt sind und der Wirkweg laut HMPC-Bewertung nicht vollständig geklärt ist. Sicherheit 7, weil kontrollierte Studien und Anwendungsbeobachtungen an mehr als 6.000 Patienten nur seltene, meist milde Nebenwirkungen zeigen, die Daten zur Genotoxizität laut HMPC aber unvollständig sind und Daten zu Schwangerschaft fehlen. Hype 4, weil Mariendistel breit als Leberentgiftung und Leberschutz beworben wird, die EU-Bewertung aber nur eine traditionelle Anwendung anerkennt. Anwendung 9, weil die Pflanze seit Jahrhunderten genutzt wird und Extrakte in Deutschland mindestens seit 1976 als Arzneimittel im Handel sind. Richtung gemischt: Leberwerte bessern sich, klinische Endpunkte nicht."
+   "label": "Belegt, mit Einschränkungen",
+   "beleg": "Evidenz 6, weil mehr als 4.000 Patienten in randomisierten Studien untersucht wurden (EMA/HMPC 2018) und Meta-Analysen bei Fettleber niedrigere Leberwerte und weniger Verfettung zeigen (Li 2024: 26 Studien, 2.375 Patienten; Kalopitas 2021). Nicht höher, weil die Studienqualität durchweg niedrig ist, der Cochrane-Review keinen Effekt auf die Sterblichkeit fand (Rambaldi 2007: RR 0,78, nicht signifikant) und die methodisch besten Einzelstudien ihr Hauptziel verfehlten (Fried 2012 bei Hepatitis C, Wah Kheong 2017 bei NASH). Mechanismus 4, weil antioxidative, entzündungshemmende und antifibrotische Effekte vor allem in Zell- und Tiermodellen gezeigt sind und der Wirkweg laut HMPC-Bewertung nicht vollständig geklärt ist. Sicherheit 7, weil kontrollierte Studien und Anwendungsbeobachtungen an mehr als 6.000 Patienten nur seltene, meist milde Nebenwirkungen zeigen, die Daten zur Genotoxizität laut HMPC aber unvollständig sind und Daten zu Schwangerschaft fehlen. Hype 4, weil Mariendistel breit als Leberentgiftung und Leberschutz beworben wird, die EU-Bewertung aber nur eine traditionelle Anwendung anerkennt. Anwendung 9, weil die Pflanze seit Jahrhunderten genutzt wird und Extrakte in Deutschland mindestens seit 1976 als Arzneimittel im Handel sind. Richtung gemischt: Leberwerte bessern sich, klinische Endpunkte nicht."
   },
   {
    "id": "kakaoflavanole",
