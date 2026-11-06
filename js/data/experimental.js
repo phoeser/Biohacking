@@ -8379,6 +8379,125 @@ const EXPERIMENTAL = [
     community: [],
     podcasts: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'dmso',
+    name: 'DMSO (Dimethylsulfoxid)',
+    altNames: 'Dimethylsulfoxid, Dimethyl Sulfoxide, Rimso-50',
+    class: 'Organisches Lösungsmittel; in den USA nur als Blasenspülung bei interstitieller Zystitis zugelassen',
+    emoji: '🧪',
+    short: 'Ein Lösungsmittel, das durch die Haut geht und andere Stoffe mitnimmt. Als Blasenspülung bei interstitieller Zystitis ist es in den USA seit 1978 zugelassen. Die beworbene eigene Schmerz- und Entzündungswirkung ist dünn belegt, zur Einnahme gibt es keine kontrollierten Studien.',
+    moa: 'DMSO ist ein kleines, mit Wasser und Fett mischbares Molekül, das rasch durch Haut und Schleimhäute dringt und dabei gelöste Wirkstoffe mitträgt; deshalb dient es in Arzneimitteln als Trägerstoff und in der Medizin zum Einfrieren von Stammzellen. Beschrieben sind zusätzlich eine Wirkung als Radikalfänger, eine Freisetzung von Histamin und eine Gefäßerweiterung; wie viel davon bei Schmerzen am Menschen ankommt, ist kaum direkt gemessen. Abbauprodukte verursachen den typischen Knoblauchgeruch von Atem und Haut, eines davon ist MSM.',
+    benefits: [
+      'Zugelassenes Arzneimittel: In den USA seit 1978 als 50-prozentige Lösung zur Blasenspülung bei interstitieller Zystitis zur Linderung der Beschwerden (Rimso-50, FDA); laut einer Übersicht von 2026 die Anwendung mit der klarsten klinischen Stütze, vor allem bei der Hunner-Form',
+      'Komplexes regionales Schmerzsyndrom (CRPS I): doppelblind, 32 Patienten, Creme mit 50 Prozent DMSO über 2 Monate besser als Creme ohne DMSO (Zuurmond 1996)',
+      'CRPS I im Vergleich: 146 Patienten, DMSO-Creme und N-Acetylcystein-Tabletten über 17 und 52 Wochen insgesamt gleich wirksam; bei der warmen Form schnitt DMSO besser ab, bei der kalten NAC (Perez 2003)',
+      'Als Trägerstoff: Diclofenac in DMSO-haltiger Lösung linderte Kniearthrose-Schmerzen über 12 Wochen besser als Placebo und ähnlich gut wie Diclofenac-Tabletten, 775 Teilnehmende (Simon 2009)',
+      'Kniearthrose: Zwei von vier DMSO-Studien in einer systematischen Übersicht zeigten weniger Schmerzen als die Vergleichsbehandlung (Brien 2008)'
+    ],
+    risks: [
+      'Eigenwirkung bei Arthrose nicht belegt: In der großen Studie mit 775 Teilnehmenden war die DMSO-Trägerlösung allein nicht wirksamer als Placebo (Simon 2009); die älteren Arthrose-Studien bewerten die Autoren einer Übersicht als methodisch schwach (Brien 2008)',
+      'Einnahme nicht untersucht: Kontrollierte Studien zum Trinken von DMSO gegen Schmerzen, Infekte oder andere Erkrankungen gibt es nicht',
+      'Nebenwirkungen: In einer systematischen Übersicht über 109 Studien waren Magen-Darm- und Hautreaktionen am häufigsten, meist vorübergehend und abhängig von der Menge (Kollerup Madsen 2018)',
+      'Haut: Nach unverdünntem Auftragen unter Abdeckung entstand bei einer Patientin in Deutschland eine toxische Kontaktdermatitis; die Autoren raten vom Auftragen ab (Blomen 2024)',
+      'Laut US-Fachinformation: Knoblauchgeschmack und Geruch von Atem und Haut bis 72 Stunden, Histaminfreisetzung mit vereinzelten Überempfindlichkeitsreaktionen, Linsentrübungen bei Tieren nach hohen Dauerdosen; DMSO kann die Wirkung gleichzeitig angewendeter Medikamente verstärken',
+      'Weil DMSO gelöste Stoffe durch die Haut mitnimmt, gelangen auch Verunreinigungen leichter in den Körper; Wirkung und Risiko hängen laut einer Übersicht von Konzentration, Anwendungsweg und Reinheit ab (Huang 2026)',
+      'Als Zusatz in eingefrorenen Stammzellpräparaten kann DMSO Infusionsreaktionen auslösen (Huang 2026)'
+    ],
+    status: 'USA: als Rimso-50 seit 1978 zur Blasenspülung bei interstitieller Zystitis zugelassen, für keine andere Anwendung. Deutschland: als Lösungsmittel frei im Handel; wird es mit einer Heilwirkung angeboten, kann es nach § 2 Arzneimittelgesetz als Arzneimittel gelten. Zur Einnahme ist DMSO nicht zugelassen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/19380203/',
+    sources: [
+      { title: 'FDA, Fachinformation Rimso-50 (Dimethylsulfoxid) – Blasenspülung bei interstitieller Zystitis, DailyMed', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58b25d79-78f2-4953-b0c6-61658dc4ef0d' },
+      { title: 'Simon LS et al., Pain 2009 – Diclofenac in DMSO-Lösung gegen Placebo, DMSO-Träger und Tabletten, 775 Teilnehmende mit Kniearthrose', url: 'https://pubmed.ncbi.nlm.nih.gov/19380203/' },
+      { title: 'Brien S et al., Osteoarthritis Cartilage 2008 – systematische Übersicht zu DMSO und MSM bei Arthrose', url: 'https://pubmed.ncbi.nlm.nih.gov/18417375/' },
+      { title: 'Zuurmond WW et al., Acta Anaesthesiol Scand 1996 – DMSO-Creme 50 Prozent bei akutem CRPS, 32 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/8721469/' },
+      { title: 'Perez RS et al., Pain 2003 – DMSO gegen N-Acetylcystein bei CRPS I, 146 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/12670672/' },
+      { title: 'Kollerup Madsen B et al., F1000Research 2018 – systematische Übersicht zu Nebenwirkungen von DMSO, 109 Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/31489176/' },
+      { title: 'Blomen CL et al., Dtsch Arztebl Int 2024 – toxische Kontaktdermatitis nach äußerlicher DMSO-Anwendung', url: 'https://pubmed.ncbi.nlm.nih.gov/39841501/' },
+      { title: 'Huang Z, Wang J, Biomolecules 2026 – Übersicht zu klinischen Anwendungen und Sicherheit von DMSO', url: 'https://pubmed.ncbi.nlm.nih.gov/42939788/' },
+      { title: 'Arzneimittelgesetz § 2 – Begriff des Arzneimittels', url: 'https://www.gesetze-im-internet.de/amg_1976/__2.html' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'cannabis-thc',
+    name: 'Cannabis / THC',
+    altNames: 'Tetrahydrocannabinol, Delta-9-THC, Δ9-THC, Medizinalcannabis, Cannabisblüten, Cannabisextrakt, Dronabinol, Nabilon, Nabiximols, Sativex, Canemes, Marihuana, Haschisch, Konsumcannabis',
+    class: 'Berauschender Hauptwirkstoff der Hanfpflanze (Cannabinoid, wirkt an den Rezeptoren CB1 und CB2); in Deutschland seit 01.04.2024 kein Betäubungsmittel mehr – als Medizinalcannabis verschreibungspflichtig (MedCanG), als Konsumcannabis für Erwachsene eingeschränkt erlaubt (KCanG)',
+    emoji: '🍃',
+    short: 'THC ist der berauschende Hauptwirkstoff der Hanfpflanze. In Dutzenden randomisierten Studien lindern Cannabinoide chronische Schmerzen und Spastik messbar, meist aber nur in kleinem Umfang; bei Übelkeit, Appetit und Schlaf ist die Evidenz schwach. Seit April 2024 ist Cannabis in Deutschland kein Betäubungsmittel mehr: auf Rezept als Medizinalcannabis, für Erwachsene eingeschränkt als Konsumcannabis. Belegte Risiken sind Abhängigkeit, ein erhöhtes Psychoserisiko bei täglichem Konsum starker Sorten und Einschränkungen im Straßenverkehr.',
+    moa: 'THC (Delta-9-Tetrahydrocannabinol) aktiviert die Cannabinoid-Rezeptoren CB1, vor allem in Gehirn und Rückenmark, und CB2, vor allem im Immunsystem – dieselben Rezeptoren, über die körpereigene Endocannabinoide wie Anandamid wirken. Über CB1 dämpft es die Weiterleitung von Schmerzsignalen und die Muskelspannung, wirkt gegen Übelkeit und regt den Appetit an; dieselbe Wirkung im Gehirn erklärt Rausch sowie Einbußen bei Gedächtnis und Reaktion. CBD, der zweite bekannte Hanfwirkstoff, aktiviert diese Rezeptoren nicht. Arzneilich gibt es THC als Reinsubstanz Dronabinol, als synthetischen Abkömmling Nabilon, als Spray mit THC und CBD (Nabiximols, Sativex) sowie in Blüten und Extrakten mit je nach Sorte unterschiedlichen Gehalten (BfArM 2022).',
+    benefits: [
+      'Systematische Übersicht über 79 randomisierte Studien mit 6.462 Teilnehmenden: mäßig belastbare Evidenz bei chronischen Schmerzen (mindestens 30 Prozent weniger Schmerz bei 37 gegenüber 31 Prozent, 8 Studien; 0,46 Punkte weniger auf der 0-bis-10-Skala) und bei Spastik durch Multiple Sklerose oder Querschnittlähmung (Whiting 2015)',
+      'Chemotherapiebedingte Übelkeit und Erbrechen: vollständiges Ansprechen bei 47 gegenüber 20 Prozent unter Placebo (OR 3,82; 3 Studien), Evidenz von geringer Qualität; ebenso schwach belegt sind Gewichtszunahme bei HIV, Schlafstörungen und Tourette-Syndrom (Whiting 2015)',
+      'Meta-Analyse über 32 randomisierte Studien mit 5.174 Erwachsenen mit chronischen Schmerzen: nicht inhaliertes Medizinalcannabis bessert Schmerz, körperliche Funktion und Schlafqualität klein bis sehr klein; 10 Prozent mehr Behandelte erreichen eine spürbare Schmerzlinderung als unter Placebo (Wang 2021)',
+      'BfArM-Begleiterhebung 2017 bis 2022 mit 16.809 auswertbaren Datensätzen (ärztliche Angaben, ohne Kontrollgruppe): Besserung der Symptome in knapp 75 Prozent, bessere Lebensqualität in 70 Prozent der Fälle; behandelt wurden vor allem chronische Schmerzen (76,4 Prozent), Spastik (9,6 Prozent) sowie Appetitlosigkeit und Auszehrung (5,1 Prozent) (BfArM 2022)',
+      'In Deutschland seit 2017 zulasten der gesetzlichen Krankenversicherung verordnungsfähig, wenn die Krankenkasse genehmigt (§ 31 Abs. 6 SGB V); seit 01.04.2024 auf normalem Rezept statt Betäubungsmittelrezept (BT-Drs. 21/3061)'
+    ],
+    risks: [
+      'Abhängigkeit: 22 Prozent der Menschen, die Cannabis konsumieren, erfüllen die Kriterien einer Cannabiskonsumstörung, 13 Prozent die einer Abhängigkeit; bei jungen Menschen mit wöchentlichem oder täglichem Konsum steigt das Abhängigkeitsrisiko auf 33 Prozent (Meta-Analyse, 21 Studien, Leung 2020)',
+      'Psychose: Täglicher Konsum ging mit 3,2-fach, täglicher Konsum starker Sorten (THC ab 10 Prozent) mit 4,8-fach höherer Wahrscheinlichkeit einer ersten Psychose einher (Fall-Kontroll-Studie, 901 Patienten und 1.237 Kontrollen an 11 Standorten, Di Forti 2019)',
+      'Kurzfristige Nebenwirkungen in Studien häufiger als unter Placebo, auch schwerwiegende: Schwindel, Mundtrockenheit, Übelkeit, Müdigkeit, Euphorie, Verwirrtheit, Gleichgewichtsstörungen, Halluzinationen (Whiting 2015); Schwindel in Studien ab 3 Monaten bei 28 Prozent mehr Behandelten als unter Placebo (Wang 2021)',
+      'Blüten: in der Begleiterhebung jüngere, überwiegend männliche Patienten, THC-Mengen weit über allen wissenschaftlich untersuchten Dosierungen und dreimal so häufig euphorisierende Wirkung; das BfArM mahnt, Missbrauch und Abhängigkeit zu beachten (BfArM 2022)',
+      'Cannabisblüten haben keine arzneimittelrechtliche Zulassung; ihre Verordnung stützt sich nicht auf Zulassungsstudien an Patienten (BT-Drs. 21/3061)',
+      'Straßenverkehr: ab 3,5 ng/ml THC im Blutserum Ordnungswidrigkeit, zusammen mit Alkohol höheres Bußgeld; ausgenommen ist THC aus der bestimmungsgemäßen Einnahme eines verschriebenen Arzneimittels (§ 24a StVG)'
+    ],
+    status: 'Deutschland: Seit 01.04.2024 (Cannabisgesetz) kein Betäubungsmittel mehr. Medizinal-Cannabisgesetz (MedCanG): Cannabis zu medizinischen Zwecken (Blüten, Extrakte, THC einschließlich Dronabinol) ist verschreibungspflichtig, darf nur von Ärztinnen und Ärzten verschrieben werden (nicht von Zahn- oder Tierärzten) und nur in Apotheken gegen Rezept abgegeben werden; Kassenleistung nach Genehmigung (§ 31 Abs. 6 SGB V). Geplante Änderung: Regierungsentwurf vom 03.12.2025 (BT-Drs. 21/3061) – Blüten nur nach persönlichem Kontakt in Praxis oder Hausbesuch, Folgerezepte ohne neuen Kontakt nur, wenn dieser in den letzten vier Quartalen stattfand; kein Versand von Blüten an Endverbraucher. Stand 11/2026 nicht verabschiedet, das MedCanG gilt in der Fassung vom 20.06.2024. Konsumcannabisgesetz (KCanG): Erwachsene ab 18 dürfen bis 25 g bei sich haben, am Wohnsitz bis 50 g und drei lebende Pflanzen; Werbung und Sponsoring verboten; Konsum in Gegenwart Minderjähriger verboten, öffentlicher Konsum verboten in und in Sichtweite (bis 100 m) von Schulen, Kinderspielplätzen, Kinder- und Jugendeinrichtungen und öffentlich zugänglichen Sportstätten sowie in Fußgängerzonen von 7 bis 20 Uhr. Straßenverkehr: Grenzwert 3,5 ng/ml THC im Blutserum (§ 24a StVG). Doping: WADA-Liste 2026 – alle natürlichen und synthetischen Cannabinoide im Wettkampf verboten, CBD ausgenommen; THC gilt als „Substance of Abuse“.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26103030/',
+    sources: [
+      { title: 'Whiting PF et al., JAMA 2015 – systematische Übersicht und Meta-Analyse, 79 Studien zu Cannabinoiden in der Medizin', url: 'https://pubmed.ncbi.nlm.nih.gov/26103030/' },
+      { title: 'Wang L et al., BMJ 2021 – Meta-Analyse, 32 Studien zu Medizinalcannabis bei chronischen Schmerzen', url: 'https://pubmed.ncbi.nlm.nih.gov/34497047/' },
+      { title: 'BfArM 2022 – Abschlussbericht der Begleiterhebung nach § 31 Abs. 6 SGB V', url: 'https://www.bfarm.de/SharedDocs/Downloads/DE/Bundesopiumstelle/Cannabis/Abschlussbericht_Begleiterhebung.pdf?__blob=publicationFile' },
+      { title: 'Di Forti M et al., Lancet Psychiatry 2019 – Cannabiskonsum und Psychosen in Europa (EU-GEI)', url: 'https://pubmed.ncbi.nlm.nih.gov/30902669/' },
+      { title: 'Leung J et al., Addict Behav 2020 – Meta-Analyse zur Häufigkeit von Cannabiskonsumstörungen', url: 'https://pubmed.ncbi.nlm.nih.gov/32485547/' },
+      { title: 'Medizinal-Cannabisgesetz (MedCanG)', url: 'https://www.gesetze-im-internet.de/medcang/BJNR06D0C0024.html' },
+      { title: 'Konsumcannabisgesetz (KCanG)', url: 'https://www.gesetze-im-internet.de/kcang/BJNR06D0B0024.html' },
+      { title: 'Bundestag, Drucksache 21/3061 vom 03.12.2025 – Entwurf eines Ersten Gesetzes zur Änderung des Medizinal-Cannabisgesetzes', url: 'https://dserver.bundestag.de/btd/21/030/2103061.pdf' },
+      { title: 'Straßenverkehrsgesetz (StVG), § 24a – THC-Grenzwert', url: 'https://www.gesetze-im-internet.de/stvg/__24a.html' },
+      { title: 'WADA – Verbotsliste 2026, S8 Cannabinoide', url: 'https://www.wada-ama.org/en/prohibited-list' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'kratom',
+    name: 'Kratom (Mitragynin, 7-OH)',
+    altNames: 'Mitragyna speciosa, Mitragynin, 7-Hydroxymitragynin, 7-OH, Ketum, Biak, Kratombaum',
+    class: 'Blätter des südostasiatischen Kratombaums mit opioid- und adrenerg wirksamen Alkaloiden; in Deutschland weder als Arzneimittel zugelassen noch im Betäubungsmittelgesetz gelistet',
+    emoji: '🍂',
+    short: 'Kratom wird in Südostasien seit Generationen gegen Erschöpfung und als Opiumersatz gekaut und in den USA verbreitet gegen Schmerzen, Angst und Opioidentzug genutzt. Kontrollierte Humanstudien gibt es erst wenige: eine kleine Studie zur Schmerztoleranz und mehrere Sicherheitsstudien an Gesunden, keine an Patienten. Die Alkaloide Mitragynin und 7-Hydroxymitragynin (7-OH) wirken am Opioidrezeptor; Abhängigkeit, Leberwert-Anstiege und Todesfälle vor allem bei Mischkonsum sind beschrieben. In Deutschland ist Kratom nicht verboten, aber nicht zugelassen; die USA stellen hochkonzentrierte 7-OH-Produkte unter Kontrolle.',
+    moa: 'Getrocknete Blätter enthalten laut EMCDDA 0,5 bis 1,5 Prozent Alkaloide, Hauptstoff ist Mitragynin, dessen Anteil je nach Herkunft stark schwankt. 7-Hydroxymitragynin (7-OH) macht in der Pflanze weniger als 2 Prozent der Alkaloide aus, entsteht aber im Körper als aktiver Abbaustoff von Mitragynin und lässt sich in einem chemischen Schritt daraus herstellen (DEA 2026). Beide aktivieren den μ-Opioidrezeptor, ein Effekt, den das Opioid-Gegenmittel Naloxon aufhebt; zusätzlich werden adrenerge und Serotonin-Rezeptoren angesprochen (EMCDDA). Daraus ergibt sich ein doppeltes Profil: in niedriger Menge eher anregend, in hoher dämpfend und opioidartig (BfArM-Expertenkommission 2026). Am Menschen zeigt sich die Opioidwirkung als dosisabhängige Pupillenverengung (Reissig 2026).',
+    benefits: [
+      'Lange Tradition: In Südostasien werden frische oder getrocknete Blätter seit Generationen gekaut oder als Tee getrunken, gegen Müdigkeit bei langer Arbeit, gegen Durchfall und Husten und als Opiumersatz (EMCDDA; Vicknasingam 2020)',
+      'Schmerztoleranz: randomisierte, placebokontrollierte Doppelblindstudie mit 26 Männern, die seit Jahren täglich Kratom tranken – eine Stunde nach einem Kratom-Sud hielten sie die Hand im Mittel 24,9 statt vorher 11,2 Sekunden im Eiswasser, nach Placebo nicht länger (Vicknasingam 2020)',
+      'Größte kontrollierte Studie bisher: 116 Gesunde erhielten getrocknetes Blattpulver in vier Stufen oder Placebo, einmalig und danach 15 Tage täglich; keine schweren Nebenwirkungen, kein klinisch bedeutsamer Entzug nach dem Absetzen (Huestis 2026, Studie mit einem standardisierten Herstellerprodukt)',
+      'Anwenderbefragung mit 2.798 Teilnehmenden (unkontrolliert, 2017, überwiegend USA): genutzt gegen Schmerzen (91 Prozent), Angst (67 Prozent) und Depression (65 Prozent) mit hoher selbst eingeschätzter Wirksamkeit; 41 Prozent nutzten Kratom, um Opioide zu reduzieren oder abzusetzen, und berichteten weniger Entzug und Verlangen (Garcia-Romeu 2020)'
+    ],
+    risks: [
+      'Abhängigkeit und Organschäden: Das BfArM verweist auf Tier- und Humandaten zu Abhängigkeit, Entzugssyndrom und möglichen Schäden an Leber und Niere sowie auf Todesfälle, deren Ursachen noch untersucht werden (BfArM 2025); in der Befragung erfüllten 2 Prozent die Kriterien einer mittleren oder schweren Kratom-Konsumstörung (Garcia-Romeu 2020)',
+      'Missbrauchspotenzial: Bei 40 opioiderfahrenen Teilnehmenden steigerte die höchste geprüfte Menge „Drug Liking“, „High“ und angenehme Effekte; häufigste Nebenwirkungen waren Schläfrigkeit, Erbrechen und Übelkeit (Reissig 2026)',
+      'Leber: Bei 15 Tagen täglicher Einnahme gehörten erhöhte Leberwerte (ALT) zu den häufigsten Nebenwirkungen, neben Kopfschmerz, Hitzegefühl und Übelkeit (Huestis 2026)',
+      'Todesfälle: Unter 27.338 Überdosis-Todesfällen in 27 US-Bundesstaaten (Juli 2016 bis Dezember 2017) war Kratom bei 152 nachweisbar und bei 91 als Mitursache eingestuft; nur bei 7 wurde allein Kratom gefunden, bei 65 Prozent zugleich Fentanyl, bei 33 Prozent Heroin, bei 22 Prozent Benzodiazepine (Olsen 2019)',
+      '7-OH-Konzentrate: Produkte mit angereichertem oder halbsynthetischem 7-OH haben laut DEA ein ähnliches Profil wie Morphin, mit Toleranz, Abhängigkeit und Atemdepression in präklinischen Daten; kontrollierte Studien zu diesen Produkten gibt es nicht (DEA 2026)',
+      'Die Datenlage reicht nur bis 15 Tage an Gesunden; Studienergebnisse mit einem bestimmten Blattprodukt lassen sich laut Studienautoren nicht auf andere Kratom-Produkte übertragen (Reissig 2026)'
+    ],
+    status: 'Deutschland: nicht als Arzneimittel zugelassen; laut BfArM sind Sicherheit und Wirksamkeit nicht ausreichend geprüft und ein positives Nutzen-Risiko-Verhältnis ist nicht belegt (Warnung vom 01.07.2025). Kein Betäubungsmittel: Kratom wurde nach Befassungen des Sachverständigenausschusses bisher nicht in die Anlagen des BtMG aufgenommen. Ob Kratom-Produkte Arznei- oder Lebensmittel sind, berät die Gemeinsame Expertenkommission zur Einstufung von Stoffen seit 2024; laut Protokoll der 41. Sitzung (veröffentlicht 19.10.2026) ist ihre Stellungnahme noch in Arbeit. Über einzelne Produkte entscheiden die Landesbehörden, etwa wenn ein Produkt als Mittel gegen Krankheiten beworben wird; einzelne Länder haben bereits Maßnahmen ergriffen (BfArM 2025). EU: nicht einheitlich geregelt; laut EMCDDA in mindestens 12 Ländern ihres Beobachtungsnetzes kontrolliert, darunter Dänemark, Estland, Finnland, Frankreich, Italien, Lettland, Litauen, Polen, Portugal, Rumänien und Schweden; Tschechien reguliert Kratom als „psychomodulierenden Stoff“ mit Auflagen für Handel und Nutzung. International nicht in den UN-Suchtstoffübereinkommen gelistet. USA: kein zugelassenes Arzneimittel; das Gesundheitsministerium HHS empfahl im Juli 2025 und erneut am 08.10.2026, 7-OH unter das Betäubungsmittelrecht zu stellen. Seit 26.08.2026 steht der halbsynthetische Abkömmling Mitragynin-Pseudoindoxyl vorläufig in Schedule I; am 14.10.2026 kündigte die DEA an, 7-OH und Mitragynin-Pseudoindoxyl oberhalb eines Schwellenwerts vorläufig in Schedule I aufzunehmen, frühestens 30 Tage nach der Ankündigung. Das Kratomblatt und Mitragynin selbst sind davon nicht erfasst.',
+    link: 'https://www.bfarm.de/SharedDocs/Pressemitteilungen/DE/2025/pm09-2025.html',
+    sources: [
+      { title: 'Vicknasingam B et al., Yale J Biol Med 2020 – Kratom und Schmerztoleranz, randomisiert, placebokontrolliert, doppelblind', url: 'https://pubmed.ncbi.nlm.nih.gov/32607084/' },
+      { title: 'Huestis MA et al., Ther Drug Monit 2026 – Sicherheit und Verträglichkeit von Kratom-Blattpulver, randomisierte Studie mit 116 Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/41486478/' },
+      { title: 'Reissig CJ et al., J Clin Psychopharmacol 2026 – Pilotstudie zu Wirkung, Sicherheit und Pharmakokinetik von Kratom bei 40 Teilnehmenden', url: 'https://pubmed.ncbi.nlm.nih.gov/41837407/' },
+      { title: 'Garcia-Romeu A et al., Drug Alcohol Depend 2020 – Befragung von 2.798 Kratom-Nutzern', url: 'https://pubmed.ncbi.nlm.nih.gov/32029298/' },
+      { title: 'Olsen EO et al., MMWR 2019 – Überdosis-Todesfälle mit Kratom-Nachweis in 27 US-Bundesstaaten', url: 'https://pubmed.ncbi.nlm.nih.gov/30973850/' },
+      { title: 'BfArM, Pressemitteilung 09/25 vom 01.07.2025 – BfArM warnt vor der Anwendung von Kratom', url: 'https://www.bfarm.de/SharedDocs/Pressemitteilungen/DE/2025/pm09-2025.html' },
+      { title: 'BfArM, Gemeinsame Expertenkommission zur Einstufung von Stoffen – Protokoll der 36. Sitzung (Kratom, BtMG, Tschechien)', url: 'https://www.bfarm.de/DE/Arzneimittel/Zulassung/Zulassungsrelevante-Themen/Abgrenzung/Gemeinsame-Expertenkommission-zur-Einstufung-von-Stoffen/Sitzungen/Protokolle/36_Sitzung_Protokoll.html' },
+      { title: 'BfArM, Gemeinsame Expertenkommission zur Einstufung von Stoffen – Protokoll der 41. Sitzung (19.10.2026)', url: 'https://www.bfarm.de/DE/Arzneimittel/Zulassung/Zulassungsrelevante-Themen/Abgrenzung/Gemeinsame-Expertenkommission-zur-Einstufung-von-Stoffen/Sitzungen/Protokolle/41_Sitzung_Protokoll.html' },
+      { title: 'EMCDDA (EUDA) – Drogenprofil Kratom', url: 'https://www.euda.europa.eu/publications/drug-profiles/kratom_en' },
+      { title: 'DEA, Federal Register 91 (197) vom 14.10.2026 – Ankündigung der vorläufigen Einstufung von 7-OH und Mitragynin-Pseudoindoxyl in Schedule I', url: 'https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20943.pdf' }
+    ],
+    community: [],
+    filterCat: 'Sonstige'
   }
 
 ];

@@ -1315,6 +1315,91 @@ const THERAPIES = [
       indication: ['Haut & Anti-Aging', 'Haut/Ästhetik', 'Anti-Aging'],
       note: 'Wirkt auf das Erscheinungsbild der Haut; ob sich damit die Hautalterung langfristig bremsen lässt, ist nicht untersucht. Die meisten Studien sind klein und vergleichen mit der unbehandelten Gesichtshälfte oder einem anderen Gerät, nicht mit einer Scheinbehandlung. Bei dunkleren Hauttypen treten nach Laserbehandlungen häufiger vorübergehende Pigmentflecken auf, dazu kommen Herpes-Ausbrüche und akneartige Hautreaktionen. In Deutschland dürfen ablative Laser und alle Laser-, IPL- und Radiofrequenz-Anwendungen, die die Oberhaut verletzen, nach der NiSV seit Ende 2020 nur Ärztinnen und Ärzte durchführen. Ästhetische Behandlungen zahlt man in der Regel selbst.',
       link: 'https://pubmed.ncbi.nlm.nih.gov/20166156/'
+  },
+  {
+      id: 'botulinumtoxin',
+      name: 'Botulinumtoxin („Botox“) gegen mimische Falten',
+      category: 'Biohacking',
+      emoji: '💉',
+      short: 'Botulinumtoxin Typ A lähmt gezielt einzelne Gesichtsmuskeln für etwa drei bis vier Monate und glättet so Zornesfalten, Krähenfüße und Stirnfalten. Für mittelstarke bis starke Glabellafalten ist die Wirkung in vielen placebokontrollierten Studien belegt; ob regelmäßige Behandlungen ab jungen Jahren die Hautalterung bremsen („Prejuvenation“), ist nicht untersucht.',
+      benefits: [
+        'Glabellafalten: In 7 placebokontrollierten, doppelblinden Studien mit 1474 Teilnehmenden war die Ansprechrate unter einer Einzeldosis um ein Vielfaches höher als unter Placebo (Meta-Analyse Guo 2015)',
+        'In den beiden US-Zulassungsstudien galten nach 30 Tagen 80 Prozent der Behandelten als Ansprecher, unter Placebo 3 Prozent; nach 120 Tagen noch 25 gegenüber 2 Prozent (FDA-Fachinformation)',
+        'Alle geprüften Typ-A-Präparate waren in einer Netzwerk-Meta-Analyse klar besser als Placebo, ohne Unterschied bei den Nebenwirkungen (Li 2023)',
+        'In den USA seit 1989 als Arzneimittel zugelassen, zunächst gegen Schielen und Lidkrampf, seit 2002 auch für Glabellafalten; schon 2002 ließen sich dort geschätzt 1,1 bis 1,6 Millionen Menschen kosmetisch behandeln (Coté 2005)',
+        'Forschungsfrage Stimmung: In 5 randomisierten Studien besserten sich Depressionswerte nach Injektion in die Zornesfalte stärker als nach Placebo (Meta-Analyse Schulze 2021); keine Zulassung dafür'
+      ],
+      indication: ['Haut/Ästhetik', 'Haut & Anti-Aging', 'Anti-Aging', 'Stimmung'],
+      note: 'Verschreibungspflichtiges Arzneimittel (AMVV Anlage 1); die Anwendung gehört laut Rote-Hand-Brief in die Hände erfahrener Ärztinnen und Ärzte. Einheiten verschiedener Präparate sind nicht austauschbar. Häufigste Nebenwirkungen in den Zulassungsstudien: hängendes Oberlid bei Glabellafalten (3 Prozent), Kopfschmerz bei Stirnfalten (9 Prozent). Selten breitet sich die Wirkung über die Injektionsstelle hinaus aus, mit Schluck-, Sprech- oder Atembeschwerden; dieses Risiko ist bei hohen Dosen in der Neurologie größer als bei kosmetischen Dosen. 2024 erkrankten in den USA sieben Frauen nach Injektionen außerhalb medizinischer Einrichtungen, vier davon mit vermutlich gefälschtem Produkt, vier mussten ins Krankenhaus. Für vorbeugende Behandlungen ab jungen Jahren gibt es nur einen Zwillings-Fallbericht. Ästhetische Behandlungen zahlt man selbst.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/26313835/'
+  },
+  {
+      id: 'polynukleotide',
+      name: 'Polynukleotide / PDRN („Lachs-DNA“, Skinbooster)',
+      category: 'Biohacking',
+      emoji: '🐟',
+      short: 'Gereinigte DNA-Bruchstücke aus Keimzellen von Lachs oder Forelle, in die Haut gespritzt als „Skinbooster“ für Hautqualität, feine Fältchen und Narben. Kleine randomisierte Studien zeigen Verbesserungen bei Narben, Wundheilung und Hautstruktur ohne schwere Nebenwirkungen; die Studien sind klein, oft ohne Placebo, und für sichtbare Verjüngung gibt es keine großen Vergleichsstudien.',
+      benefits: [
+        'Systematische Übersicht 2026: 7 randomisierte Studien mit zusammen 183 Teilnehmenden zu Hautverjüngung, Narben und Wundheilung, durchweg mit Verbesserungen und ohne schwere Nebenwirkungen; am deutlichsten bei der Wundheilung (Alhussain 2026)',
+        'Aknenarben: In einer doppelblinden Studie mit 20 Frauen besserten sich die Narben nur unter Polynukleotiden signifikant, nicht unter Kochsalzlösung (Araco 2021)',
+        'Operationsnarben: Zwei PDRN-Injektionen nach Schilddrüsen-OP senkten Rötung, Beschwerden und Narbenhöhe nach drei Monaten gegenüber unbehandelter Kontrolle (Kim 2023, 44 Patienten)',
+        'Augenpartie: Im Gesichtshälften-Vergleich mit Hyaluronsäure kein Unterschied in der Gesamtbewertung, aber bessere Werte bei Elastizität, Rauigkeit und Poren (Lee 2022, 27 Personen)',
+        'Mechanismus: Das kürzere PDRN aktiviert den Adenosin-A2A-Rezeptor und liefert Bausteine für die Zellerneuerung; für die längeren Polynukleotide wird ein wasserbindendes Gerüst angenommen, nachgewiesen ist das am Menschen nicht'
+      ],
+      indication: ['Haut/Ästhetik', 'Haut & Anti-Aging', 'Wundheilung', 'Regeneration'],
+      note: 'Injizierbare Polynukleotide werden in der EU als Medizinprodukte der Klasse III mit CE-Kennzeichnung vertrieben, in Südkorea ist PDRN als Arzneimittel für Wundheilung zugelassen; Seren mit „Sodium DNA“ oder „Hydrolyzed DNA“ sind Kosmetik. Die Studien sind klein, aus Asien und Europa, oft gegen andere Behandlungen statt gegen Placebo verglichen; eine randomisierte Studie zu Krähenfüßen wurde 2026 zurückgezogen. Beschrieben sind vorübergehende Schwellungen und Rötungen, als Einzelfall auch beidseitige Abszesse mit bleibenden Narben nach Injektion (Shanshal 2026). Das Material stammt von Fischen; wer auf Fisch allergisch reagiert, klärt das vorher ärztlich. Injektionen gehören in ärztliche Hände; ästhetische Behandlungen zahlt man selbst.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/42572627/'
+  },
+  {
+      id: 'kvt-i',
+      name: 'KVT-I – kognitive Verhaltenstherapie bei Schlaflosigkeit (CBT-I)',
+      category: 'Biohacking',
+      emoji: '🛏️',
+      short: 'Ein strukturiertes Programm aus Schlafrestriktion, Stimuluskontrolle, Umgang mit Grübelgedanken und Schlafhygiene, über einige Wochen mit Therapeut oder als digitales Programm. Die Leitlinien in Europa und den USA empfehlen es als erste Behandlung bei chronischer Schlaflosigkeit; die Wirkung hält länger als die von Schlafmitteln.',
+      benefits: [
+        'Meta-Analyse von 20 randomisierten Studien mit 1162 Erwachsenen: schneller eingeschlafen (rund 19 Minuten), nachts rund 26 Minuten weniger wach, Schlafeffizienz um fast 10 Prozentpunkte höher (Trauer 2015)',
+        'Wirkt nach: In 30 randomisierten Studien noch nach 3, 6 und 12 Monaten besser als ohne Behandlung, mit über die Zeit kleiner werdendem Abstand (van der Zweerde 2019)',
+        'Im direkten Vergleich mit Schlafmitteln langfristig überlegen, kurzfristig wirken Benzodiazepine schneller (Übersicht Mitchell 2012)',
+        'Digital: Vollautomatische Programme senkten den Schweregrad der Insomnie deutlich, 15 randomisierte Studien mit 3507 Teilnehmenden (Gao 2026); in Deutschland gibt es Programme als DiGA auf Rezept',
+        'Erste Wahl laut Europäischer Insomnie-Leitlinie 2023 für Erwachsene jeden Alters, auch mit Begleiterkrankungen, persönlich oder digital'
+      ],
+      indication: ['Schlaf', 'Schlafqualität', 'Stress', 'Stimmung'],
+      note: 'Die Gesamtschlafdauer steigt in den Studien kaum, verbessert werden vor allem Einschlafzeit, Wachphasen und das Schlaferleben. In den ersten Wochen der Schlafrestriktion sinkt die Schlafzeit, Tagesmüdigkeit und Reaktionszeit verschlechtern sich vorübergehend (Kyle 2014) – Vorsicht beim Autofahren und bei Arbeiten mit Unfallrisiko. Besteht der Verdacht auf eine andere Schlafstörung wie Schlafapnoe, gehört das vorher ärztlich abgeklärt. Nebenwirkungen werden in den Studien selten systematisch erfasst (Condon 2021). Eine konkrete DiGA nur über das DiGA-Verzeichnis des BfArM auswählen.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/26054060/'
+  },
+  {
+    id: 'apob-test',
+    name: 'ApoB-Test (Apolipoprotein B)',
+    category: 'Biohacking',
+    emoji: '🩸',
+    short: 'Bluttest, der Apolipoprotein B misst. Jedes Partikel, das Cholesterin in die Gefäßwand tragen kann, trägt genau ein ApoB-Molekül, der Wert zählt also die Partikel statt der Ladung. Als Risikomarker ist ApoB in genetischen Studien und Kohorten mit Hunderttausenden Menschen sehr gut belegt; im Bevölkerungsschnitt sagt er kaum mehr voraus als die klassischen Cholesterinwerte, bei Abweichungen zwischen ApoB und LDL zeigt er das Risiko genauer.',
+    benefits: [
+      'Mendelsche Randomisierung (63 Studien, 654.783 Menschen): Genvarianten, die Triglyceride senken, und solche, die LDL-Cholesterin senken, senkten das Risiko für koronare Herzkrankheit gleich stark je 10 mg/dl weniger ApoB – nach Abgleich mit ApoB hatten Triglyceride und LDL keinen eigenen Effekt mehr (Ference 2019)',
+      'UK Biobank (389.529 Menschen ohne Lipidsenker, 11 Jahre) und 2 Studien mit 40.430 Herzpatienten: Zusammen betrachtet hing nur ApoB mit dem Herzinfarktrisiko zusammen, nicht Non-HDL-Cholesterin oder Triglyceride (Marston 2022)',
+      'Unter Statinen (13.015 Menschen, Kopenhagen, 8 Jahre): Hohes ApoB bei niedrigem LDL ging mit 49 Prozent mehr Herzinfarkten einher, hohes LDL bei niedrigem ApoB nicht (Johannesen 2021)',
+      'Leitliniengestützt: ESC/EAS 2019 empfehlen ApoB zur Risikoeinschätzung, besonders bei hohen Triglyceriden, Diabetes, Übergewicht oder sehr niedrigem LDL, mit Zielwerten unter 100, 80 und 65 mg/dl je nach Risiko',
+      'Standardisierte, einfache Laborbestimmung seit 1994, nüchtern oder nicht nüchtern messbar'
+    ],
+    indication: ['Herz-Kreislauf-Risiko', 'Lipidprofil', 'Prävention', 'Vorsorge', 'Verlaufskontrolle'],
+    note: 'Im Bevölkerungsschnitt ist der Zugewinn klein: In der UK Biobank (346.686 Menschen) verbesserte ApoB die Vorhersage nicht mehr messbar, wenn Gesamt- und HDL-Cholesterin schon im Modell waren, weil ApoB, LDL und Non-HDL eng zusammenhängen. Seinen Wert zeigt der Test bei Menschen, deren ApoB und LDL auseinanderlaufen, etwa bei hohen Triglyceriden, Diabetes oder unter Statinen. Keine Studie hat bisher geprüft, ob eine Behandlung nach ApoB statt nach LDL mehr Herzinfarkte verhindert. Im Gesundheits-Check-up der gesetzlichen Kassen ab 35 gehören Gesamtcholesterin, LDL, HDL und Triglyceride zum Lipidprofil, ApoB nicht; ohne Anlass zahlst du ihn in der Regel selbst. Die Einordnung eines Werts und jede Entscheidung über Medikamente gehören in ein ärztliches Gespräch.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30694319/'
+  },
+  {
+    id: 'apoe4-gentest',
+    name: 'Gentest APOE4 und polygene Risikoscores',
+    category: 'Biohacking',
+    emoji: '🧬',
+    short: 'Genanalyse, die bestimmt, welche Varianten des APOE-Gens du trägst, oft ergänzt um polygene Risikoscores, die viele kleine Genvarianten zu einer Zahl für Alzheimer- oder Herzrisiko bündeln. APOE4 ist der stärkste häufige genetische Risikofaktor für Alzheimer und sehr gut belegt; polygene Scores trennen für den Einzelnen schlecht. In Deutschland ist ein solcher Test als prädiktive Untersuchung an Facharztvorbehalt und genetische Beratung gebunden.',
+    benefits: [
+      'Gut belegtes Risiko: Bis zum Alter von 85 Jahren erkrankten mit einer ε4-Kopie 23 Prozent der Männer und 30 Prozent der Frauen an Alzheimer, mit zwei Kopien 51 und 60 Prozent, ohne Blick auf APOE 11 und 14 Prozent (7.351 Erkrankte, 10.132 Kontrollen, Genin 2011)',
+      'Zwei ε4-Kopien gelten seit 2024 als eigene genetische Form der Alzheimer-Krankheit: Fast alle Betroffenen hatten Alzheimer-Veränderungen im Gehirn, Beschwerden begannen im Mittel mit 65,1 Jahren (3.297 Gehirne, 10.039 Menschen, Fortea 2024)',
+      'Klinischer Nutzen bei Kranken: Die Amyloid-Antikörper Lecanemab und Donanemab sind in der EU seit 2025 nur für Menschen mit höchstens einer ε4-Kopie zugelassen, vor Donanemab ist der APOE-Test vorgeschrieben',
+      'Mitteilung untersucht: In der randomisierten REVEAL-Studie (162 Kinder von Alzheimer-Erkrankten) führte das Ergebnis über 1 Jahr nicht zu mehr Angst oder Depression',
+      'Lebensstil wirkt auch bei ε4: In der randomisierten FINGER-Studie (1.109 Ältere mit erhöhtem Risiko) profitierten Trägerinnen und Träger von Ernährung, Bewegung, Denktraining und Gefäßrisiko-Kontrolle ebenfalls, der Unterschied zu Nichtträgern war nicht signifikant'
+    ],
+    indication: ['Demenz-Risiko', 'Herz-Kreislauf-Risiko', 'Familiäre Risiken', 'Prävention'],
+    note: 'Ein Risiko ist keine Diagnose: Die meisten Menschen mit einer ε4-Kopie erkranken bis 85 nicht. Polygene Scores erkennen bei 5 Prozent Fehlalarmen im Mittel nur 11 Prozent der späteren Fälle, für die koronare Herzkrankheit 12 Prozent; zu den klassischen Risikofaktoren hinzugenommen, verbesserte ein Score für die Herzkrankheit die Vorhersage nur wenig. Eine Studie, die zeigt, dass Gesunde mit Kenntnis ihres APOE-Typs länger gesund bleiben, gibt es nicht. Nach dem Gendiagnostikgesetz darf eine prädiktive genetische Untersuchung nur eine Fachärztin oder ein Facharzt für Humangenetik oder ein entsprechend qualifizierter Arzt vornehmen, mit schriftlicher Einwilligung und genetischer Beratung vor und nach dem Test, außer du verzichtest nach schriftlicher Information schriftlich darauf. Du hast ein Recht auf Nichtwissen. Arbeitgeber dürfen weder einen Test verlangen noch Ergebnisse verwenden, Versicherer ebenso wenig – außer bei Lebens-, Berufsunfähigkeits-, Erwerbsunfähigkeits- und Pflegerentenversicherungen über 300.000 Euro Leistung oder 30.000 Euro Jahresrente, dort sind bekannte Ergebnisse anzugeben. Tests, die Krankheitsrisiken ohne ärztliche Aufklärung und Beratung per Post mitteilen, erfüllen diesen Rahmen nicht. Grundlagen zu Genanalysen stehen im Eintrag Genanalysen.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/38710950/'
   }
 
 ];

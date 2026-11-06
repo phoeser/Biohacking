@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 06.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -348,6 +348,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Kommission – Lebensmittel): EU-Kommission, Novel-Food-Status (Katalog). https://food.ec.europa.eu/food-safety/novel-food/consultation-process-novel-food-status_en
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, EU-Monografie Matricariae flos. https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos
 
+## Thema: ApoB-Test (Apolipoprotein B) (https://biohackingkompakt.de/thema/apob-test.html)
+9 Studien: 7 Beobachtungsstudie, 1 Übersichtsartikel, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2011: A meta-analysis of low-density lipoprotein cholesterol, non-high-density lipoprotein cholesterol, and apolipoprotein B as markers of cardiovascular risk (Sniderman AD et al., Circ Cardiovasc Qual Outcomes). https://pubmed.ncbi.nlm.nih.gov/21487090/
+- Beobachtungsstudie, 2025: Apolipoprotein B outperforms low density lipoprotein particle number as a marker of cardiovascular risk in the UK Biobank (Epstein E et al., Eur J Prev Cardiol). https://pubmed.ncbi.nlm.nih.gov/40887080/
+- Beobachtungsstudie, 2022: Association of Apolipoprotein B-Containing Lipoproteins and Risk of Myocardial Infarction in Individuals With and Without Atherosclerosis: Distinguishing Between Particle Concentration, Type, and Content (Marston NA et al., JAMA Cardiol). https://pubmed.ncbi.nlm.nih.gov/34773460/
+- Beobachtungsstudie, 2021: Apolipoprotein B and Non-HDL Cholesterol Better Reflect Residual Risk Than LDL Cholesterol in Statin-Treated Patients (Johannesen CDL et al., J Am Coll Cardiol). https://pubmed.ncbi.nlm.nih.gov/33736827/
+- Beobachtungsstudie, 2020: 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk (Mach F et al., Eur Heart J). https://pubmed.ncbi.nlm.nih.gov/31504418/
+- Beobachtungsstudie, 2020: Evaluating the relationship between circulating lipoprotein lipids and apolipoproteins with risk of coronary heart disease: A multivariable Mendelian randomisation analysis (Richardson TG et al., PLoS Med). https://pubmed.ncbi.nlm.nih.gov/32203549/
+- Beobachtungsstudie, 2019: Association of Triglyceride-Lowering LPL Variants and LDL-C-Lowering LDLR Variants With Risk of Coronary Heart Disease (Ference BA et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/30694319/
+- Beobachtungsstudie, 2019: Comparison of Conventional Lipoprotein Tests and Apolipoproteins in the Prediction of Cardiovascular Disease (Welsh C et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/31216866/
+- Übersichtsartikel, 2024: Apolipoprotein B: Bridging the Gap Between Evidence and Clinical Practice (De Oliveira-Gomes D et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/38950110/
+- Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): Gemeinsamer Bundesausschuss — Gesundheitsuntersuchungs-Richtlinie (Check-up, Lipidprofil). https://www.g-ba.de/richtlinien/10/
+
 ## Thema: ARA-290 (Cibinetide) (https://biohackingkompakt.de/thema/ara-290.html)
 8 Studien: 2 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Klinische Studie, 1 Beobachtungsstudie, 1 Übersichtsartikel, 1 Studienregister.
 - Randomisierte Studie, 2015: ARA 290, a nonerythropoietic peptide engineered from erythropoietin, improves metabolic control and neuropathic symptoms in patients with type 2 diabetes (Brines M et al., Mol Med). https://pubmed.ncbi.nlm.nih.gov/25387363/
@@ -669,6 +682,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR – Höchstmengenvorschläge für Bor in Lebensmitteln inklusive Nahrungsergänzungsmitteln. https://www.bfr.bund.de/cm/343/hoechstmengenvorschlaege-fuer-bor-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf
 - Behörde/Recht (NIH Office of Dietary Supplements): NIH Office of Dietary Supplements – Boron Fact Sheet. https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/
 
+## Thema: Botulinumtoxin („Botox“) gegen mimische Falten (https://biohackingkompakt.de/thema/botulinumtoxin.html)
+6 Studien: 3 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Fallbericht, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2023: Efficacy and Safety of Botulinum Toxin Type A for Treatment of Glabellar Lines: A Network Meta-Analysis of Randomized Controlled Trials (Li X et al., Aesthetic Plast Surg). https://pubmed.ncbi.nlm.nih.gov/36097079/
+- Meta-Analyse / Übersicht, 2021: Botulinum toxin for the management of depression: An updated review of the evidence and meta-analysis (Schulze J et al., J Psychiatr Res). https://pubmed.ncbi.nlm.nih.gov/33578275/
+- Meta-Analyse / Übersicht, 2015: Efficacy and Safety of Botulinum Toxin Type A in the Treatment of Glabellar Lines: A Meta-Analysis of Randomized, Placebo-Controlled, Double-Blind Trials (Guo Y et al., Plast Reconstr Surg). https://pubmed.ncbi.nlm.nih.gov/26313835/
+- Beobachtungsstudie, 2005: Botulinum toxin type A injections: adverse events reported to the US Food and Drug Administration in therapeutic and cosmetic cases (Coté TR et al., J Am Acad Dermatol). https://pubmed.ncbi.nlm.nih.gov/16112345/
+- Fallbericht, 2006: Long-term effects of botulinum toxin type A (Botox) on facial lines: a comparison in identical twins (Binder WJ, Arch Facial Plast Surg). https://pubmed.ncbi.nlm.nih.gov/17116793/
+- Sonstige Studie, 2024: Notes from the Field: Illnesses After Administration of Presumed Counterfeit Botulinum Toxin in Nonmedical Settings - Tennessee and New York City, March 2024 (Thomas CM et al., MMWR Morb Mortal Wkly Rep). https://pubmed.ncbi.nlm.nih.gov/38990782/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1 (Clostridium botulinum Toxin). https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): FDA, Fachinformation Onabotulinumtoxin A kosmetisch (DailyMed, Stand 10/2024). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485d9b71-6881-42c5-a620-a4360c7192ab
+- Behörde/Recht (DailyMed (NLM)): FDA, Fachinformation Onabotulinumtoxin A medizinisch (DailyMed, Stand 02/2026). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6f42753-d31e-4b23-8da0-4b990fee4b38
+- Behörde/Recht (Weitere Quellen): Rote-Hand-Brief Botulinumtoxin-Präparate, 2007 (AkdÄ-Archiv). https://www.akdae.de/fileadmin/user_upload/akdae/Arzneimittelsicherheit/RHB/Archiv/2007/44-20070601.pdf
+
 ## Thema: BPC-157 (https://biohackingkompakt.de/thema/bpc-157.html)
 7 Studien: 2 Übersichtsartikel, 2 Meta-Analyse / Übersicht, 2 Studienregister, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2026: Human evidence for BPC-157 in orthopaedic and regenerative medicine: a systematic review of efficacy and safety (Poolton JT et al., Acta Orthop Belg). https://europepmc.org/article/MED/42885452
@@ -767,6 +793,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Tier- oder Laborstudie, 2024: Lifespan effects in male UM-HET3 mice treated with sodium thiosulfate, 16-hydroxyestriol, and late-start canagliflozin (Miller RA et al., Geroscience). https://pubmed.ncbi.nlm.nih.gov/38753230/
 - Tier- oder Laborstudie, 2020: Canagliflozin extends life span in genetically heterogeneous male but not female mice (Miller RA et al., JCI Insight). https://pubmed.ncbi.nlm.nih.gov/32990681/
 - Sonstige Studie, 2015: Euglycemic Diabetic Ketoacidosis: A Predictable, Detectable, and Preventable Safety Concern With SGLT2 Inhibitors (Rosenstock J et al., Diabetes Care). https://pubmed.ncbi.nlm.nih.gov/26294774/
+
+## Thema: Cannabis / THC (https://biohackingkompakt.de/thema/cannabis-thc.html)
+4 Studien: 3 Meta-Analyse / Übersicht, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2021: Medical cannabis or cannabinoids for chronic non-cancer and cancer related pain: a systematic review and meta-analysis of randomised clinical trials (Wang L et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/34497047/
+- Meta-Analyse / Übersicht, 2020: What is the prevalence and risk of cannabis use disorders among people who use cannabis? a systematic review and meta-analysis (Leung J et al., Addict Behav). https://pubmed.ncbi.nlm.nih.gov/32485547/
+- Meta-Analyse / Übersicht, 2015: Cannabinoids for Medical Use: A Systematic Review and Meta-analysis (Whiting PF et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/26103030/
+- Beobachtungsstudie, 2019: The contribution of cannabis use to variation in the incidence of psychotic disorder across Europe (EU-GEI): a multicentre case-control study (Di Forti M et al., Lancet Psychiatry). https://pubmed.ncbi.nlm.nih.gov/30902669/
+- Behörde/Recht (BfArM): BfArM 2022 – Abschlussbericht der Begleiterhebung nach § 31 Abs. 6 SGB V. https://www.bfarm.de/SharedDocs/Downloads/DE/Bundesopiumstelle/Cannabis/Abschlussbericht_Begleiterhebung.pdf?__blob=publicationFile
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Konsumcannabisgesetz (KCanG). https://www.gesetze-im-internet.de/kcang/BJNR06D0B0024.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Medizinal-Cannabisgesetz (MedCanG). https://www.gesetze-im-internet.de/medcang/BJNR06D0C0024.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Straßenverkehrsgesetz (StVG), § 24a – THC-Grenzwert. https://www.gesetze-im-internet.de/stvg/__24a.html
+- Behörde/Recht (Weitere Quellen): Bundestag, Drucksache 21/3061 vom 03.12.2025 – Entwurf eines Ersten Gesetzes zur Änderung des Medizinal-Cannabisgesetzes. https://dserver.bundestag.de/btd/21/030/2103061.pdf
+- Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Verbotsliste 2026, S8 Cannabinoide. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Cardarine (GW501516) (https://biohackingkompakt.de/thema/cardarine.html)
 8 Studien: 4 Tier- oder Laborstudie, 3 Randomisierte Studie, 1 Sonstige Studie.
@@ -1285,6 +1324,18 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2001: Dimethylglycine accumulates in uremia and predicts elevated plasma homocysteine concentrations (McGregor DO et al., Kidney Int). https://pubmed.ncbi.nlm.nih.gov/11380830/
 - Sonstige Studie, 1989: Dimethylglycine and chemically related amines tested for mutagenicity under potential nitrosation conditions (Hoorn AJ, Mutat Res). https://pubmed.ncbi.nlm.nih.gov/2468082/
 
+## Thema: DMSO (Dimethylsulfoxid) (https://biohackingkompakt.de/thema/dmso.html)
+7 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Übersichtsartikel, 1 Fallbericht.
+- Meta-Analyse / Übersicht, 2018: Adverse reactions of dimethyl sulfoxide in humans: a systematic review (Kollerup Madsen B et al., F1000Res). https://pubmed.ncbi.nlm.nih.gov/31489176/
+- Meta-Analyse / Übersicht, 2008: Systematic review of the nutritional supplements dimethyl sulfoxide (DMSO) and methylsulfonylmethane (MSM) in the treatment of osteoarthritis (Brien S et al., Osteoarthritis Cartilage). https://pubmed.ncbi.nlm.nih.gov/18417375/
+- Randomisierte Studie, 2009: Efficacy and safety of topical diclofenac containing dimethyl sulfoxide (DMSO) compared with those of topical placebo, DMSO vehicle and oral diclofenac for knee osteoarthritis (Simon LS et al., Pain). https://pubmed.ncbi.nlm.nih.gov/19380203/
+- Randomisierte Studie, 2003: The treatment of complex regional pain syndrome type I with free radical scavengers: a randomized controlled study (Perez MRSG et al., Pain). https://pubmed.ncbi.nlm.nih.gov/12670672/
+- Randomisierte Studie, 1996: Treatment of acute reflex sympathetic dystrophy with DMSO 50% in a fatty cream (Zuurmond WW et al., Acta Anaesthesiol Scand). https://pubmed.ncbi.nlm.nih.gov/8721469/
+- Fallbericht, 2024: Irritant (Toxic) Contact Dermatitis Following Topical Use of Dimethylsulfoxide (Blomen CL et al., Dtsch Arztebl Int). https://pubmed.ncbi.nlm.nih.gov/39841501/
+- Übersichtsartikel, 2026: Biological and Clinical Applications of Dimethyl Sulfoxide: Evidence and Safety Considerations (Huang Z et al., Biomolecules). https://pubmed.ncbi.nlm.nih.gov/42939788/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz § 2 – Begriff des Arzneimittels. https://www.gesetze-im-internet.de/amg_1976/__2.html
+- Behörde/Recht (DailyMed (NLM)): FDA, Fachinformation Rimso-50 (Dimethylsulfoxid) – Blasenspülung bei interstitieller Zystitis, DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58b25d79-78f2-4953-b0c6-61658dc4ef0d
+
 ## Thema: DNP (2,4-Dinitrophenol) (https://biohackingkompakt.de/thema/dnp.html)
 7 Studien: 3 Sonstige Studie, 2 Randomisierte Studie, 1 Fallbericht, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2011: 2,4-dinitrophenol (DNP): a weight loss agent with significant acute toxicity and risk of death (Grundlingh J et al., J Med Toxicol). https://pubmed.ncbi.nlm.nih.gov/21739343/
@@ -1607,6 +1658,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2024: Comparison of 1-hour floatation-REST versus conventional napping on heart rate variability in active individuals (Besson C et al., BMJ Open Sport Exerc Med). https://pubmed.ncbi.nlm.nih.gov/39691209/
 - Sonstige Studie, 2018: Examining the short-term anxiolytic and antidepressant effect of Floatation-REST (Feinstein JS et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/29394251/
 
+## Thema: Flohsamenschalen (Psyllium) (https://biohackingkompakt.de/thema/flohsamenschalen.html)
+8 Studien: 8 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2026: Dietary fibers to boost endogenous GLP-1 secretion and satiety: a scoping review (de Jong JCBC et al., Front Endocrinol (Lausanne)). https://pubmed.ncbi.nlm.nih.gov/42528510/
+- Meta-Analyse / Übersicht, 2025: The effect of psyllium consumption on anthropometric indices: a systematic review and dose-response meta-analysis of randomized controlled trials (Gholami Z et al., J Health Popul Nutr). https://pubmed.ncbi.nlm.nih.gov/41126340/
+- Meta-Analyse / Übersicht, 2024: Plantago consumption significantly reduces total cholesterol and low-density lipoprotein cholesterol in adults: A systematic review and meta-analysis (Zhu R et al., Nutr Res). https://pubmed.ncbi.nlm.nih.gov/38688104/
+- Meta-Analyse / Übersicht, 2023: Psyllium is a natural nonfermented gel-forming fiber that is effective for weight loss: A comprehensive review and meta-analysis (Gibb RD et al., J Am Assoc Nurse Pract). https://pubmed.ncbi.nlm.nih.gov/37163454/
+- Meta-Analyse / Übersicht, 2022: The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials (van der Schoot A et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/35816465/
+- Meta-Analyse / Übersicht, 2018: Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials (Jovanovski E et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/30239559/
+- Meta-Analyse / Übersicht, 2015: Psyllium fiber improves glycemic control proportional to loss of glycemic control: a meta-analysis of data in euglycemic subjects, patients at risk of type 2 diabetes mellitus, and patients being treated for type 2 diabetes mellitus (Gibb RD et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/26561625/
+- Meta-Analyse / Übersicht, 2008: Effect of fibre, antispasmodics, and peppermint oil in the treatment of irritable bowel syndrome: systematic review and meta-analysis (Ford AC et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/19008265/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/HMPC – Plantaginis ovatae seminis tegumentum (Flohsamenschalen), EU-Monographie und Zusammenfassung. https://www.ema.europa.eu/en/medicines/herbal/plantaginis-ovatae-seminis-tegumentum
+- Behörde/Recht (Weitere Behörden): FDA – 21 CFR 101.81, Gesundheitsangabe zu löslichen Ballaststoffen und koronarer Herzkrankheit. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-E/section-101.81
+
 ## Thema: Fluoxymesteron (Halotestin) (https://biohackingkompakt.de/thema/fluoxymesteron.html)
 5 Studien: 3 Randomisierte Studie, 1 Übersichtsartikel, 1 Beobachtungsstudie.
 - Randomisierte Studie, 2006: Randomized trial of tamoxifen alone or combined with fluoxymesterone as adjuvant therapy in postmenopausal women with resected estrogen receptor positive breast cancer. North Central Cancer Treatment Group Trial 89-30-52 (Ingle JN et al., Breast Cancer Res Treat). https://pubmed.ncbi.nlm.nih.gov/16538529/
@@ -1744,6 +1808,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Gendiagnostikgesetz § 18 Versicherungen. https://www.gesetze-im-internet.de/gendg/__18.html
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Gendiagnostikgesetz § 7 Arztvorbehalt. https://www.gesetze-im-internet.de/gendg/__7.html
 - Behörde/Recht (Weitere Quellen): KV Baden-Württemberg, Verordnungsforum 61, 2022. https://www.kvbawue.de/api-file-fetcher?fid=4276
+
+## Thema: Gentest APOE4 und polygene Risikoscores (https://biohackingkompakt.de/thema/apoe4-gentest.html)
+7 Studien: 4 Beobachtungsstudie, 2 Randomisierte Studie, 1 Sonstige Studie.
+- Randomisierte Studie, 2018: Effect of the Apolipoprotein E Genotype on Cognitive Change During a Multidomain Lifestyle Intervention: A Subgroup Analysis of a Randomized Clinical Trial (Solomon A et al., JAMA Neurol). https://pubmed.ncbi.nlm.nih.gov/29356827/
+- Randomisierte Studie, 2009: Disclosure of APOE genotype for risk of Alzheimer's disease (Green RC et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/19605829/
+- Beobachtungsstudie, 2024: APOE4 homozygozity represents a distinct genetic form of Alzheimer's disease (Fortea J et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38710950/
+- Beobachtungsstudie, 2020: Predictive Accuracy of a Polygenic Risk Score-Enhanced Prediction Model vs a Clinical Risk Score for Coronary Artery Disease (Elliott J et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/32068818/
+- Beobachtungsstudie, 2017: Direct-to-Consumer Genetic Testing: User Motivations, Decision Making, and Perceived Utility of Results (Roberts JS et al., Public Health Genomics). https://pubmed.ncbi.nlm.nih.gov/28068660/
+- Beobachtungsstudie, 2011: APOE and Alzheimer disease: a major gene with semi-dominant inheritance (Genin E et al., Mol Psychiatry). https://pubmed.ncbi.nlm.nih.gov/21556001/
+- Sonstige Studie, 2023: Performance of polygenic risk scores in screening, prediction, and risk stratification: secondary analysis of data in the Polygenic Score Catalog (Hingorani AD et al., BMJ Med). https://pubmed.ncbi.nlm.nih.gov/37859783/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Gendiagnostikgesetz (GenDG), insbesondere §§ 3, 7 bis 10, 15, 18 und 19. https://www.gesetze-im-internet.de/gendg/BJNR252900009.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Europäische Arzneimittel-Agentur — Kisunla (Donanemab), EPAR, Zulassung 24.09.2025. https://www.ema.europa.eu/en/medicines/human/EPAR/kisunla
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Europäische Arzneimittel-Agentur — Leqembi (Lecanemab), EPAR, Zulassung 15.04.2025. https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi
 
 ## Thema: Gesundheitscoaching (https://biohackingkompakt.de/thema/gesundheitscoaching.html)
 5 Studien: 5 Meta-Analyse / Übersicht.
@@ -2291,6 +2368,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2020: Contribution of iodized salt to total iodine and total salt intake in Germany (Esche J et al., Eur J Nutr). https://pubmed.ncbi.nlm.nih.gov/31784815/
 - Behörde/Recht (Bundesamt für Verbraucherschutz (BVL)): BVL, Pressemitteilung vom 21.05.2026 (Lugolsche Lösung ist kein Lebensmittel). https://www.bvl.bund.de/SharedDocs/Pressemitteilungen/01_lebensmittel/2026/PM_Lugolsche_Loesung_2026.html
 
+## Thema: Kakaoflavanole (https://biohackingkompakt.de/thema/kakaoflavanole.html)
+8 Studien: 5 Randomisierte Studie, 1 Klinische Studie, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2017: Effect of cocoa on blood pressure (Ried K et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/28439881/
+- Randomisierte Studie, 2026: Effects of daily multivitamin-multimineral and cocoa extract supplementation on epigenetic aging clocks in the COSMOS randomized clinical trial (Li S et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/41803341/
+- Randomisierte Studie, 2025: Effects of 2-year cocoa extract supplementation on inflammaging biomarkers in older US adults: findings from the COcoa Supplement and Multivitamin Outcomes Study randomised clinical trial (Li S et al., Age Ageing). https://pubmed.ncbi.nlm.nih.gov/40966617/
+- Randomisierte Studie, 2023: Dietary flavanols restore hippocampal-dependent memory in older adults with lower diet quality and lower habitual flavanol consumption (Brickman AM et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/37252983/
+- Randomisierte Studie, 2023: Effects of cocoa extract and a multivitamin on cognitive function: A randomized clinical trial (Baker LD et al., Alzheimers Dement). https://pubmed.ncbi.nlm.nih.gov/36102337/
+- Randomisierte Studie, 2022: Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial (Sesso HD et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/35294962/
+- Klinische Studie, 2024: Effect of cocoa extract supplementation on cognitive function: results from the clinic subcohort of the COSMOS trial (Vyas CM et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/38070683/
+- Sonstige Studie, 2006: (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans (Schroeter H et al., Proc Natl Acad Sci U S A). https://pubmed.ncbi.nlm.nih.gov/16418281/
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) 2015/539 – Erweiterung der Gesundheitsangabe auf Kakaoextrakt in Kapseln und Tabletten. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R0539
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 851/2013 – Zulassung der Gesundheitsangabe zu Kakaoflavanolen. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0851
+
 ## Thema: Kalium (https://biohackingkompakt.de/thema/kalium.html)
 5 Studien: 4 Meta-Analyse / Übersicht, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2022: Effects of salt substitutes on clinical outcomes: a systematic review and meta-analysis (Yin X et al., Heart). https://pubmed.ncbi.nlm.nih.gov/35945000/
@@ -2448,6 +2538,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA — Bulk Drug Substances: keine Daten zur Anwendung von KPV am Menschen. https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks
 - Behörde/Recht (Weitere Quellen): McDermott Will & Schulte, Juli 2026 – Bericht zur FDA-Expertensitzung (PCAC) vom 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
+## Thema: Kratom (Mitragynin, 7-OH) (https://biohackingkompakt.de/thema/kratom.html)
+5 Studien: 3 Randomisierte Studie, 1 Beobachtungsstudie, 1 Sonstige Studie.
+- Randomisierte Studie, 2026: A Pilot, Dose-Finding, Pharmacodynamic and Pharmacokinetic Study of Orally Administered Botanical Kratom (Reissig CJ et al., J Clin Psychopharmacol). https://pubmed.ncbi.nlm.nih.gov/41837407/
+- Randomisierte Studie, 2026: Safety and Tolerability of Single and Multiple Daily Oral Doses of Dried Kratom Leaf Powder in a Randomized Trial in Healthy Volunteers (Huestis MA et al., Ther Drug Monit). https://pubmed.ncbi.nlm.nih.gov/41486478/
+- Randomisierte Studie, 2020: Kratom and Pain Tolerance: A Randomized, Placebo-Controlled, Double-Blind Study (Vicknasingam B et al., Yale J Biol Med). https://pubmed.ncbi.nlm.nih.gov/32607084/
+- Beobachtungsstudie, 2020: Kratom (Mitragyna speciosa): User demographics, use patterns, and implications for the opioid epidemic (Garcia-Romeu A et al., Drug Alcohol Depend). https://pubmed.ncbi.nlm.nih.gov/32029298/
+- Sonstige Studie, 2019: Notes from the Field: Unintentional Drug Overdose Deaths with Kratom Detected - 27 States, July 2016-December 2017 (Olsen EO et al., MMWR Morb Mortal Wkly Rep). https://pubmed.ncbi.nlm.nih.gov/30973850/
+- Behörde/Recht (BfArM): BfArM, Gemeinsame Expertenkommission zur Einstufung von Stoffen – Protokoll der 36. Sitzung (Kratom, BtMG, Tschechien). https://www.bfarm.de/DE/Arzneimittel/Zulassung/Zulassungsrelevante-Themen/Abgrenzung/Gemeinsame-Expertenkommission-zur-Einstufung-von-Stoffen/Sitzungen/Protokolle/36_Sitzung_Protokoll.html
+- Behörde/Recht (BfArM): BfArM, Gemeinsame Expertenkommission zur Einstufung von Stoffen – Protokoll der 41. Sitzung (19.10.2026). https://www.bfarm.de/DE/Arzneimittel/Zulassung/Zulassungsrelevante-Themen/Abgrenzung/Gemeinsame-Expertenkommission-zur-Einstufung-von-Stoffen/Sitzungen/Protokolle/41_Sitzung_Protokoll.html
+- Behörde/Recht (BfArM): BfArM, Pressemitteilung 09/25 vom 01.07.2025 – BfArM warnt vor der Anwendung von Kratom. https://www.bfarm.de/SharedDocs/Pressemitteilungen/DE/2025/pm09-2025.html
+- Behörde/Recht (Weitere Behörden): DEA, Federal Register 91 (197) vom 14.10.2026 – Ankündigung der vorläufigen Einstufung von 7-OH und Mitragynin-Pseudoindoxyl in Schedule I. https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20943.pdf
+- Behörde/Recht (Weitere Quellen): EMCDDA (EUDA) – Drogenprofil Kratom. https://www.euda.europa.eu/publications/drug-profiles/kratom_en
+
 ## Thema: Kreatin Monohydrat (https://biohackingkompakt.de/thema/kreatin.html)
 4 Studien: 3 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2026: Creatine monohydrate for lean mass, strength, and bone density in postmenopausal women: a systematic review and meta-analysis (Naddafha S et al., J Int Soc Sports Nutr). https://europepmc.org/article/MED/42141930
@@ -2521,6 +2624,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR, Stellungnahme Nr. 040/2021 vom 14.12.2021: Curcumin in Nahrungsergänzungsmitteln. https://www.bfr.bund.de/cm/343/curcumin-in-nahrungsergaenzungsmitteln-gesundheitlich-akzeptable-taegliche-aufnahmemenge-kann-ueberschritten-werden.pdf
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/HMPC, Addendum zum Assessment Report Curcuma longa L., rhizoma, 19.11.2025. https://www.ema.europa.eu/en/documents/herbal-report/final-addendum-assessment-report-curcuma-longa-l-rhizoma_en.pdf
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox, NIDDK/NIH: Turmeric. https://www.ncbi.nlm.nih.gov/books/NBK548561/
+
+## Thema: KVT-I (https://biohackingkompakt.de/thema/kvt-i.html)
+8 Studien: 4 Meta-Analyse / Übersicht, 2 Leitlinie / Konsens, 1 Randomisierte Studie, 1 Klinische Studie.
+- Meta-Analyse / Übersicht, 2026: Efficacy of fully automated digital cognitive behavioral therapy for insomnia in adults: a systematic review and meta-analysis (Gao K et al., Sleep Breath). https://pubmed.ncbi.nlm.nih.gov/42240717/
+- Meta-Analyse / Übersicht, 2019: Cognitive behavioral therapy for insomnia: A meta-analysis of long-term effects in controlled studies (van der Zweerde T et al., Sleep Med Rev). https://pubmed.ncbi.nlm.nih.gov/31491656/
+- Meta-Analyse / Übersicht, 2015: Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis (Trauer JM et al., Ann Intern Med). https://pubmed.ncbi.nlm.nih.gov/26054060/
+- Meta-Analyse / Übersicht, 2012: Comparative effectiveness of cognitive behavioral therapy for insomnia: a systematic review (Mitchell MD et al., BMC Fam Pract). https://pubmed.ncbi.nlm.nih.gov/22631616/
+- Randomisierte Studie, 2021: Reporting of adverse events in cognitive behavioural therapy for insomnia: A systematic examination of randomised controlled trials (Condon HE et al., Sleep Med Rev). https://pubmed.ncbi.nlm.nih.gov/33422935/
+- Klinische Studie, 2014: Sleep restriction therapy for insomnia is associated with reduced objective total sleep time, increased daytime somnolence, and objectively impaired vigilance: implications for the clinical management of insomnia disorder (Kyle SD et al., Sleep). https://pubmed.ncbi.nlm.nih.gov/24497651/
+- Leitlinie / Konsens, 2023: The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023 (Riemann D et al., J Sleep Res). https://pubmed.ncbi.nlm.nih.gov/38016484/
+- Leitlinie / Konsens, 2016: Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians (Qaseem A et al., Ann Intern Med). https://pubmed.ncbi.nlm.nih.gov/27136449/
+- Behörde/Recht (BfArM): BfArM, DiGA-Verzeichnis. https://diga.bfarm.de/de/verzeichnis
+- Behörde/Recht (Gemeinsamer Bundesausschuss (G-BA)): G-BA Innovationsfonds, Projekt PSY-KOMO, Anlage 15: Übersicht DiGAs (2026). https://innovationsfonds.g-ba.de/downloads/projekt-dokumente/417/2026-06-19_PSY-KOMO_Ergebnisbericht_Anlage_15_Flyer_DiGAs.pdf
 
 ## Thema: L-Arginin (https://biohackingkompakt.de/thema/l-arginin.html)
 10 Studien: 7 Meta-Analyse / Übersicht, 3 Randomisierte Studie.
@@ -2931,6 +3047,18 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 1987: Manganese balance and clinical observations in young men fed a manganese-deficient diet (Friedman BJ et al., J Nutr). https://pubmed.ncbi.nlm.nih.gov/3819860/
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR – Höchstmengenvorschläge für Mangan in Lebensmitteln inklusive Nahrungsergänzungsmitteln (2021). https://www.bfr.bund.de/cm/343/hoechstmengenvorschlaege-fuer-mangan-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf
 - Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – Liste der zulässigen gesundheitsbezogenen Angaben über Lebensmittel. https://eur-lex.europa.eu/eli/reg/2012/432/oj
+
+## Thema: Mariendistel (Silymarin) (https://biohackingkompakt.de/thema/mariendistel.html)
+7 Studien: 5 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
+- Meta-Analyse / Übersicht, 2025: Efficacy of different interventions for nonalcoholic fatty liver disease: A meta-analysis of lifestyle modifications, silymarin, and medications (Zhang Z et al., Asia Pac J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/40738719/
+- Meta-Analyse / Übersicht, 2024: Administration of silymarin in NAFLD/NASH: A systematic review and meta-analysis (Li S et al., Ann Hepatol). https://pubmed.ncbi.nlm.nih.gov/38579127/
+- Meta-Analyse / Übersicht, 2021: Impact of Silymarin in individuals with nonalcoholic fatty liver disease: A systematic review and meta-analysis (Kalopitas G et al., Nutrition). https://pubmed.ncbi.nlm.nih.gov/33418491/
+- Meta-Analyse / Übersicht, 2016: Silymarin in Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Controlled Trials (Voroneanu L et al., J Diabetes Res). https://pubmed.ncbi.nlm.nih.gov/27340676/
+- Meta-Analyse / Übersicht, 2007: Milk thistle for alcoholic and/or hepatitis B or C virus liver diseases (Rambaldi A et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/17943794/
+- Randomisierte Studie, 2017: A Randomized Trial of Silymarin for the Treatment of Nonalcoholic Steatohepatitis (Wah Kheong C et al., Clin Gastroenterol Hepatol). https://pubmed.ncbi.nlm.nih.gov/28419855/
+- Randomisierte Studie, 2012: Effect of silymarin (milk thistle) on liver disease in patients with chronic hepatitis C unsuccessfully treated with interferon therapy: a randomized controlled trial (Fried MW et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/22797645/
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/HMPC – Silybi mariani fructus (Mariendistelfrüchte), EU-Monographie, Bewertungsbericht 2018 und Zusammenfassung. https://www.ema.europa.eu/en/medicines/herbal/silybi-mariani-fructus
+- Behörde/Recht (NIH – NCCIH): NCCIH – Milk Thistle: Usefulness and Safety. https://www.nccih.nih.gov/health/milk-thistle
 
 ## Thema: MariTide (Maridebart Cafraglutide) (https://biohackingkompakt.de/thema/maritide.html)
 7 Studien: 3 Übersichtsartikel, 2 Studienregister, 1 Randomisierte Studie, 1 Klinische Studie.
@@ -3471,6 +3599,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – Liste der zulässigen gesundheitsbezogenen Angaben über Lebensmittel. https://eur-lex.europa.eu/eli/reg/2012/432/oj
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA 2013 – Tredaptive, Pelzont und Trevaclyn EU-weit ausgesetzt (EMA/402540/2013). https://www.ema.europa.eu/documents/referral/tredaptive-pelzont-trevaclyn-suspended-across-eu_de.pdf
 
+## Thema: Nicotinamid (Niacinamid) (https://biohackingkompakt.de/thema/nicotinamid.html)
+9 Studien: 5 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Beobachtungsstudie, 1 Übersichtsartikel.
+- Meta-Analyse / Übersicht, 2023: The Role of Nicotinamide as Chemo-Preventive Agent in NMSCs: A Systematic Review and Meta-Analysis (Tosti G et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/38201930/
+- Meta-Analyse / Übersicht, 2022: Effect of Nicotinamide in Skin Cancer and Actinic Keratoses Chemoprophylaxis, and Adverse Effects Related to Nicotinamide: A Systematic Review and Meta-Analysis (Mainville L et al., J Cutan Med Surg). https://pubmed.ncbi.nlm.nih.gov/35134311/
+- Randomisierte Studie, 2026: Nicotinamide and Pyruvate in Open-Angle Glaucoma: A Randomized Controlled Trial on Neuroprotection-Design and Methodology (Shukla AG et al., Ophthalmol Glaucoma). https://pubmed.ncbi.nlm.nih.gov/41461224/
+- Randomisierte Studie, 2023: Nicotinamide for Skin-Cancer Chemoprevention in Transplant Recipients (Allen NC et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/36856616/
+- Randomisierte Studie, 2020: Improvement in inner retinal function in glaucoma with nicotinamide (vitamin B3) supplementation: A crossover randomized clinical trial (Hui F et al., Clin Exp Ophthalmol). https://pubmed.ncbi.nlm.nih.gov/32721104/
+- Randomisierte Studie, 2015: A Phase 3 Randomized Trial of Nicotinamide for Skin-Cancer Chemoprevention (Chen AC et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/26488693/
+- Randomisierte Studie, 2004: European Nicotinamide Diabetes Intervention Trial (ENDIT): a randomised controlled trial of intervention before the onset of type 1 diabetes (Gale EA et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/15043959/
+- Beobachtungsstudie, 2025: Nicotinamide for Skin Cancer Chemoprevention (Breglio KF et al., JAMA Dermatol). https://pubmed.ncbi.nlm.nih.gov/40960808/
+- Übersichtsartikel, 2000: Safety of high-dose nicotinamide: a review (Knip M et al., Diabetologia). https://pubmed.ncbi.nlm.nih.gov/11126400/
+- Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR – Höchstmengenvorschläge für Niacin in Lebensmitteln inklusive Nahrungsergänzungsmitteln (2021). https://www.bfr.bund.de/cm/343/hoechstmengenvorschlaege-fuer-niacin-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf
+
 ## Thema: Nicotinamid-Ribosid (NR) (https://biohackingkompakt.de/thema/nicotinamid-ribosid.html)
 8 Studien: 6 Randomisierte Studie, 1 Übersichtsartikel, 1 Studienregister.
 - Randomisierte Studie, 2023: NR-SAFE: a randomized, double-blind safety trial of high dose nicotinamide riboside in Parkinson's disease (Berven H et al., Nat Commun). https://pubmed.ncbi.nlm.nih.gov/38016950/
@@ -3970,6 +4111,18 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Fragen und Antworten zu illegal vertriebenen Krebsmitteln – Bakterienfund in PNC-27 (Januar 2017). https://www.fda.gov/consumers/health-fraud-scams/questions-and-answers-fda-alerts-companies-stop-illegal-sale-products-claiming-treat-cancer
 - Behörde/Recht (Weitere Behörden): ClinicalTrials.gov – Suche nach PNC-27, keine registrierte Studie. https://clinicaltrials.gov/search?term=PNC-27
 
+## Thema: Polynukleotide / PDRN („Lachs-DNA“, Skinbooster) (https://biohackingkompakt.de/thema/polynukleotide.html)
+9 Studien: 4 Randomisierte Studie, 2 Übersichtsartikel, 1 Beobachtungsstudie, 1 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2026: Polynucleotides and Polydeoxyribonucleotides for Skin Rejuvenation, Postoperative Scar Prevention, and Wound Healing: A Systematic Review of Randomized Clinical Trials (Alhussain AM et al., Cureus). https://pubmed.ncbi.nlm.nih.gov/42572627/
+- Randomisierte Studie, 2026: RETRACTION: A Randomized, Participant- and Evaluator-Blinded, Matched-Pair, Prospective Study Comparing the Safety and Efficacy Between Polycaprolactone and Polynucleotide Fillers in the Correction of Crow's Feet (J Cosmet Dermatol). https://pubmed.ncbi.nlm.nih.gov/41834780/
+- Randomisierte Studie, 2023: Early Postoperative Injections of Polydeoxyribonucleotide Prevent Hypertrophic Scarring After Thyroidectomy: A Randomized Controlled Trial (Kim BR et al., Adv Wound Care (New Rochelle)). https://pubmed.ncbi.nlm.nih.gov/35713247/
+- Randomisierte Studie, 2022: Comparison of the effects of polynucleotide and hyaluronic acid fillers on periocular rejuvenation: a randomized, double-blind, split-face trial (Lee YJ et al., J Dermatolog Treat). https://pubmed.ncbi.nlm.nih.gov/32248707/
+- Randomisierte Studie, 2021: Preliminary Prospective and Randomized Study of Highly Purified Polynucleotide vs Placebo in Treatment of Moderate to Severe Acne Scars (Araco A et al., Aesthet Surg J). https://pubmed.ncbi.nlm.nih.gov/33755110/
+- Beobachtungsstudie, 2026: A Real-Life Assessment of Injectable Polynucleotides High Purification Technology in Aesthetic Medicine for Skin Rejuvenation (Eliana L et al., J Cosmet Dermatol). https://pubmed.ncbi.nlm.nih.gov/41482668/
+- Übersichtsartikel, 2025: Comparison of Polynucleotide and Polydeoxyribonucleotide in Dermatology: Molecular Mechanisms and Clinical Perspectives (Kim ST, Pharmaceutics). https://pubmed.ncbi.nlm.nih.gov/40871045/
+- Übersichtsartikel, 2024: Polynucleotides in Aesthetic Medicine: A Review of Current Practices and Perceived Effectiveness (Lee KWA et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/39125793/
+- Sonstige Studie, 2026: Bilateral Gram‐Negative Facial Abscesses After Polynucleotide Injections (Shanshal M et al., J Cosmet Dermatol). https://europepmc.org/article/PMC/PMC13348863
+
 ## Thema: PQQ (https://biohackingkompakt.de/thema/pqq.html)
 8 Studien: 5 Randomisierte Studie, 2 Sonstige Studie, 1 Tier- oder Laborstudie.
 - Randomisierte Studie, 2024: The impact of six-week dihydrogen-pyrroloquinoline quinone supplementation on mitochondrial biomarkers, brain metabolism, and cognition in elderly individuals with mild cognitive impairment: a randomized controlled trial (Baltic S et al., J Nutr Health Aging). https://pubmed.ncbi.nlm.nih.gov/38908296/
@@ -4398,6 +4551,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2023: Bioavailability of Organosulfur Compounds after the Ingestion of Black Garlic by Healthy Humans (Moreno-Ortega A et al., Antioxidants (Basel)). https://pubmed.ncbi.nlm.nih.gov/37107300/
 - Sonstige Studie, 2018: Black Garlic Improves Heart Function in Patients With Coronary Heart Disease by Improving Circulating Antioxidant Levels (Liu J et al., Front Physiol). https://pubmed.ncbi.nlm.nih.gov/30443217/
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA/HMPC 2017 – Unionsmonografie zu Allium sativum L., bulbus (Knoblauch). https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-allium-sativum-l-bulbus_en.pdf
+
+## Thema: Schwarzkümmelöl (Nigella sativa) (https://biohackingkompakt.de/thema/schwarzkuemmeloel.html)
+9 Studien: 5 Meta-Analyse / Übersicht, 3 Fallbericht, 1 Übersichtsartikel.
+- Meta-Analyse / Übersicht, 2026: The Effect of Nigella sativa Supplementation on Cardiometabolic Health in Patients With Metabolic Diseases: A GRADE-Assessed Systematic Review and Meta-Analysis (Musazadeh V et al., Endocrinol Diabetes Metab). https://pubmed.ncbi.nlm.nih.gov/41858302/
+- Meta-Analyse / Übersicht, 2025: Does Nigella sativa supplementation improve cardiovascular disease risk factors? A comprehensive GRADE-assessed systematic review and dose-response meta-analysis of 82 randomized controlled trials (Jafari A et al., Pharmacol Res). https://pubmed.ncbi.nlm.nih.gov/40714301/
+- Meta-Analyse / Übersicht, 2024: Effects of Nigella sativa supplementation on lipid profiles in adults: An updated systematic review and meta-analysis of randomized controlled trials (Rounagh M et al., Clin Nutr ESPEN). https://pubmed.ncbi.nlm.nih.gov/38777430/
+- Meta-Analyse / Übersicht, 2024: Meta-analysis of randomized controlled trials assessing the efficacy of nigella sativa supplementation for allergic rhinitis treatment (He Y et al., Front Pharmacol). https://pubmed.ncbi.nlm.nih.gov/39372205/
+- Meta-Analyse / Übersicht, 2024: The effect of Nigella sativa supplementation on glycemic status in adults: An updated systematic review and meta-analysis of randomized controlled trials (Shirvani S et al., Prostaglandins Other Lipid Mediat). https://pubmed.ncbi.nlm.nih.gov/39181437/
+- Fallbericht, 2026: Bullous cutaneous reaction mimicking Stevens-Johnson syndrome due to Nigella sativa supplement ingestion (Chu B et al., JAAD Case Rep). https://pubmed.ncbi.nlm.nih.gov/42699335/
+- Fallbericht, 2024: Nigella Sativa (Black Cumin) Oil: A Case Report and Analysis Exploring Severe Cutaneous Manifestations and Implications for Patient Care (Zhivov E et al., J Clin Aesthet Dermatol). https://pubmed.ncbi.nlm.nih.gov/39759250/
+- Fallbericht, 2024: Rhabdomyolysis and acute kidney injury after consumption of black seed oil (Sener K et al., Toxicon). https://pubmed.ncbi.nlm.nih.gov/38844000/
+- Übersichtsartikel, 2006: Black Seed (National Institute of Child Health and Human Development, Bethesda (MD)). https://pubmed.ncbi.nlm.nih.gov/30000936/
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012 – Liste der zulässigen gesundheitsbezogenen Angaben über Lebensmittel. https://eur-lex.europa.eu/eli/reg/2012/432/oj
 
 ## Thema: Screenings (https://biohackingkompakt.de/thema/screenings.html)
 5 Studien: 2 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Beobachtungsstudie, 1 Randomisierte Studie.
@@ -5726,7 +5892,7 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2010: C-reactive protein concentration and risk of coronary heart disease, stroke, and mortality: an individual participant meta-analysis (Emerging Risk Factors Collaboration et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/20031199/
 - Beobachtungsstudie, 2026: Non-HDL Cholesterol and Apolipoprotein B Measures and Risk of Atherosclerotic Cardiovascular Disease (Johannesen CDL et al., JAMA Cardiol). https://doi.org/10.1001/jamacardio.2026.0898
 - Beobachtungsstudie, 2024: Individual Variation in the Distribution of Apolipoprotein B Levels Across the Spectrum of LDL-C or Non-HDL-C Levels (Sayed A et al., JAMA Cardiol). https://doi.org/10.1001/jamacardio.2024.1310
-- Beobachtungsstudie, 2022: Association of Apolipoprotein B-Containing Lipoproteins and Risk of Myocardial Infarction in Individuals With and Without Atherosclerosis: Distinguishing Between Particle Concentration, Type, and Content (Marston NA et al., JAMA Cardiol). https://doi.org/10.1001/jamacardio.2021.5083
+- Beobachtungsstudie, 2022: Association of Apolipoprotein B-Containing Lipoproteins and Risk of Myocardial Infarction in Individuals With and Without Atherosclerosis: Distinguishing Between Particle Concentration, Type, and Content (Marston NA et al., JAMA Cardiol). https://pubmed.ncbi.nlm.nih.gov/34773460/
 - Beobachtungsstudie, 2012: C-reactive protein, fibrinogen, and cardiovascular disease prediction (Emerging Risk Factors Collaboration et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/23034020/
 
 ## Tipp: Evening Wind-Down (https://biohackingkompakt.de/tipp/evening-routine.html)
@@ -5734,7 +5900,7 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Meta-Analyse / Übersicht, 2025: Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis (Ruan JY et al., Sleep Med Rev). https://pubmed.ncbi.nlm.nih.gov/40449065/
 - Meta-Analyse / Übersicht, 2023: Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults (Singh S et al., Cochrane Database Syst Rev). https://doi.org/10.1002/14651858.CD013244.pub2
 - Meta-Analyse / Übersicht, 2019: Before-bedtime passive body heating by warm shower or bath to improve sleep: A systematic review and meta-analysis (Haghayegh S et al., Sleep Med Rev). https://doi.org/10.1016/j.smrv.2019.04.008
-- Meta-Analyse / Übersicht, 2019: Cognitive behavioral therapy for insomnia: A meta-analysis of long-term effects in controlled studies (van der Zweerde T et al., Sleep Med Rev). https://doi.org/10.1016/j.smrv.2019.08.002
+- Meta-Analyse / Übersicht, 2019: Cognitive behavioral therapy for insomnia: A meta-analysis of long-term effects in controlled studies (van der Zweerde T et al., Sleep Med Rev). https://pubmed.ncbi.nlm.nih.gov/31491656/
 - Übersichtsartikel, 2026: Neurophysiological mechanisms of breathing-based well-being practices: a narrative review for clinical application (Sharma P et al., Front Psychiatry). https://doi.org/10.3389/fpsyt.2026.1774490
 - Übersichtsartikel, 2022: Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults (Brown TM et al., PLoS Biol). https://doi.org/10.1371/journal.pbio.3001571
 - Sonstige Studie, 2026: Lower breathing frequencies in personalized slow-paced breathing enhance relaxation and reduce arousal (Moebus L et al., iScience). https://doi.org/10.1016/j.isci.2026.115803
@@ -5875,6 +6041,17 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Beobachtungsstudie, 2012: Cardiovascular risk of high- versus moderate-intensity aerobic exercise in coronary heart disease patients (Rognmo Ø et al., Circulation). https://doi.org/10.1161/CIRCULATIONAHA.112.123117
 - Sonstige Studie, 2026: Study on the effects of 4 × 4 min high-intensity interval training frequency on cardiorespiratory function, metabolic indices, and exercise performance in male university students (Zhang H et al., Front Physiol). https://doi.org/10.3389/fphys.2026.1855612
 - Sonstige Studie, 1996: Effects of moderate-intensity endurance and high-intensity intermittent training on anaerobic capacity and VO2max (Tabata I et al., Med Sci Sports Exerc). https://doi.org/10.1097/00005768-199610000-00018
+
+## Tipp: Hochverarbeitete Lebensmittel reduzieren (https://biohackingkompakt.de/tipp/hochverarbeitete-lebensmittel.html)
+8 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 2 Sonstige Studie, 1 Übersichtsartikel.
+- Meta-Analyse / Übersicht, 2026: A systematic review and meta-analysis of randomized controlled trials examining the effect of ultra-processed food on energy intake and weight gain (Robinson E et al., Crit Rev Food Sci Nutr). https://pubmed.ncbi.nlm.nih.gov/42746678/
+- Meta-Analyse / Übersicht, 2024: Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses (Lane MM et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/38418082/
+- Randomisierte Studie, 2025: Effect of ultra-processed food consumption on male reproductive and metabolic health (Preston JM et al., Cell Metab). https://pubmed.ncbi.nlm.nih.gov/40882621/
+- Randomisierte Studie, 2025: Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial (Dicken SJ et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/40760353/
+- Randomisierte Studie, 2019: Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake (Hall KD et al., Cell Metab). https://pubmed.ncbi.nlm.nih.gov/31105044/
+- Übersichtsartikel, 2025: Ultra-processed foods and human health: the main thesis and the evidence (Monteiro CA et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/41270766/
+- Sonstige Studie, 2022: Ultra-processed foods: how functional is the NOVA system? (Braesco V et al., Eur J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/35314769/
+- Sonstige Studie, 2019: Ultra-processed foods: what they are and how to identify them (Monteiro CA et al., Public Health Nutr). https://pubmed.ncbi.nlm.nih.gov/30744710/
 
 ## Tipp: HRV & Schlafphasen mit Ring/Band (https://biohackingkompakt.de/tipp/oura-whoop.html)
 8 Studien: 4 Sonstige Studie, 3 Meta-Analyse / Übersicht, 1 Beobachtungsstudie.
@@ -6035,6 +6212,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2015: EFSA NDA Panel, Scientific Opinion on the safety of caffeine, EFSA Journal 2015. https://doi.org/10.2903/j.efsa.2015.4102
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR, Fragen und Antworten zu Koffein und koffeinhaltigen Lebensmitteln. https://www.bfr.bund.de/de/fragen_und_antworten_zu_koffein_und_koffeinhaltigen_lebensmitteln__einschliesslich_energy_drinks-194760.html
 
+## Tipp: Ketogene Ernährung (https://biohackingkompakt.de/tipp/ketogene-ernaehrung.html)
+10 Studien: 3 Meta-Analyse / Übersicht, 3 Randomisierte Studie, 2 Sonstige Studie, 2 Klinische Studie.
+- Meta-Analyse / Übersicht, 2026: Comparative effects of ketogenic diets and mediterranean diets on obesity and metabolic outcomes: a systematic review and meta-analysis (Kun X et al., Rev Endocr Metab Disord). https://pubmed.ncbi.nlm.nih.gov/42766067/
+- Meta-Analyse / Übersicht, 2020: Ketogenic diets for drug-resistant epilepsy (Martin-McGill KJ et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/32588435/
+- Meta-Analyse / Übersicht, 2013: Very-low-carbohydrate ketogenic diet v. low-fat diet for long-term weight loss: a meta-analysis of randomised controlled trials (Bueno NB et al., Br J Nutr). https://pubmed.ncbi.nlm.nih.gov/23651522/
+- Randomisierte Studie, 2022: Effect of a ketogenic diet versus Mediterranean diet on glycated hemoglobin in individuals with prediabetes and type 2 diabetes mellitus: The interventional Keto-Med randomized crossover trial (Gardner CD et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/35641199/
+- Randomisierte Studie, 2021: A Ketogenic Low-Carbohydrate High-Fat Diet Increases LDL Cholesterol in Healthy, Young, Normal-Weight Women: A Randomized Controlled Feeding Trial (Burén J et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/33801247/
+- Randomisierte Studie, 2008: The ketogenic diet for the treatment of childhood epilepsy: a randomised controlled trial (Neal EG et al., Lancet Neurol). https://pubmed.ncbi.nlm.nih.gov/18456557/
+- Klinische Studie, 2024: Carbohydrate Restriction-Induced Elevations in LDL-Cholesterol and Atherosclerosis: The KETO Trial (Budoff M et al., JACC Adv). https://pubmed.ncbi.nlm.nih.gov/39372369/
+- Klinische Studie, 2016: Energy expenditure and body composition changes after an isocaloric ketogenic diet in overweight and obese men (Hall KD et al., Am J Clin Nutr). https://pubmed.ncbi.nlm.nih.gov/27385608/
+- Sonstige Studie, 2026: Longitudinal Data from the KETO-CTA Study: Plaque Predicts Plaque, ApoB Does Not: JACC Adv. 2025;4(7):101686 (Soto-Mota A et al., JACC Adv). https://pubmed.ncbi.nlm.nih.gov/42206798/
+- Sonstige Studie, 2022: Elevated LDL Cholesterol with a Carbohydrate-Restricted Diet: Evidence for a "Lean Mass Hyper-Responder" Phenotype (Norwitz NG et al., Curr Dev Nutr). https://pubmed.ncbi.nlm.nih.gov/35106434/
+
 ## Tipp: Kohlenhydrate abends reduzieren (https://biohackingkompakt.de/tipp/low-carb-abend.html)
 6 Studien: 2 Meta-Analyse / Übersicht, 2 Klinische Studie, 1 Sonstige Studie, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2024: Meal Timing and Anthropometric and Metabolic Outcomes: A Systematic Review and Meta-Analysis (Liu HY et al., JAMA Netw Open). https://doi.org/10.1001/jamanetworkopen.2024.42163
@@ -6136,6 +6326,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2022: Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials (Kral TRA et al., Sci Adv). https://doi.org/10.1126/sciadv.abk3316
 - Übersichtsartikel, 2014: Meditation Programs for Psychological Stress and Well-Being (Goyal M et al., Agency for Healthcare Research and Quality (US), Rockville (MD)). https://doi.org/10.1001/jamainternmed.2013.13018
 
+## Tipp: Mediterrane Ernährung (https://biohackingkompakt.de/tipp/mediterrane-ernaehrung.html)
+10 Studien: 6 Randomisierte Studie, 2 Sonstige Studie, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2019: Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease (Rees K et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/30864165/
+- Randomisierte Studie, 2023: Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons (Barnes LL et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37466280/
+- Randomisierte Studie, 2022: Long-term secondary prevention of cardiovascular disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial (Delgado-Lista J et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/35525255/
+- Randomisierte Studie, 2019: Effect of a high-fat Mediterranean diet on bodyweight and waist circumference: a prespecified secondary outcomes analysis of the PREDIMED randomised controlled trial (Estruch R et al., Lancet Diabetes Endocrinol). https://pubmed.ncbi.nlm.nih.gov/31003626/
+- Randomisierte Studie, 2013: Primary prevention of cardiovascular disease with a Mediterranean diet (Estruch R et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/23432189/
+- Randomisierte Studie, 1999: Mediterranean diet, traditional risk factors, and the rate of cardiovascular complications after myocardial infarction: final report of the Lyon Diet Heart Study (de Lorgeril M et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/9989963/
+- Randomisierte Studie, 1994: Mediterranean alpha-linolenic acid-rich diet in secondary prevention of coronary heart disease (de Lorgeril M et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/7911176/
+- Beobachtungsstudie, 2024: Mediterranean Diet Adherence and Risk of All-Cause Mortality in Women (Ahmad S et al., JAMA Netw Open). https://pubmed.ncbi.nlm.nih.gov/38819819/
+- Sonstige Studie, 2018: Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts (Estruch R et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/29897866/
+- Sonstige Studie, 2018: Retraction and Republication: Primary Prevention of Cardiovascular Disease with a Mediterranean Diet. N Engl J Med 2013;368:1279-90 (Estruch R et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/29897867/
+
 ## Tipp: Mittagssonne für Vitamin D (https://biohackingkompakt.de/tipp/licht-mittag.html)
 4 Studien: 2 Randomisierte Studie, 1 Übersichtsartikel, 1 Beobachtungsstudie.
 - Randomisierte Studie, 2025: The effect of vitamin D supplementation on cancer incidence in the randomised controlled D-Health Trial: Implications for policy and practice (Neale RE et al., J Steroid Biochem Mol Biol). https://europepmc.org/article/MED/40096917
@@ -6199,6 +6402,19 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2018: Black tea and improvement of attention: evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006 (EFSA Panel on Dietetic Products et al., EFSA J). https://pubmed.ncbi.nlm.nih.gov/32625903/
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR, FAQ zu Koffein und koffeinhaltigen Lebensmitteln, Stand 05.01.2026. https://www.bfr.bund.de/
 
+## Tipp: NSDR und Yoga Nidra (https://biohackingkompakt.de/tipp/nsdr-yoga-nidra.html)
+10 Studien: 3 Meta-Analyse / Übersicht, 3 Randomisierte Studie, 2 Klinische Studie, 2 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2026: Effect of yoga Nidra (yogic sleep) in sleep disturbances and insomnia: systematic review and metanalysis (Singh S et al., Sleep Breath). https://pubmed.ncbi.nlm.nih.gov/42043659/
+- Meta-Analyse / Übersicht, 2026: Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis (Ghai S et al., Ann N Y Acad Sci). https://pubmed.ncbi.nlm.nih.gov/41327816/
+- Meta-Analyse / Übersicht, 2026: Efficacy of Yoga Nidra in Managing Sleep Disorders: A Systematic Review of Randomized Controlled Trials (Dutta A et al., J Integr Complement Med). https://pubmed.ncbi.nlm.nih.gov/41144325/
+- Randomisierte Studie, 2026: Time course of perceptual, cognitive, physical and physiological responses to a single non-sleep deep rest session in physically active young adults (Boukhris O et al., Appl Psychol Health Well Being). https://pubmed.ncbi.nlm.nih.gov/42383502/
+- Randomisierte Studie, 2025: The Effects of an Online Yoga Nidra Meditation on Subjective Well-Being and Diurnal Salivary Cortisol: A Randomised Controlled Trial (Moszeik EN et al., Stress Health). https://pubmed.ncbi.nlm.nih.gov/40373021/
+- Randomisierte Studie, 2021: Yoga nidra practice shows improvement in sleep in patients with chronic insomnia: A randomized controlled trial (Datta K et al., Natl Med J India). https://pubmed.ncbi.nlm.nih.gov/34825538/
+- Klinische Studie, 2027: Effectiveness of Yoga-based guided meditation In Improving the quality of sleep in patients with coronary artery disease: The Yoga Nidra Trial (Sharma G et al., Am J Prev Cardiol). https://pubmed.ncbi.nlm.nih.gov/42893216/
+- Klinische Studie, 2002: Increased dopamine tone during meditation-induced change of consciousness (Kjaer TW et al., Brain Res Cogn Brain Res). https://pubmed.ncbi.nlm.nih.gov/11958969/
+- Sonstige Studie, 2026: Comparing the Effects of a Short Nap and Non-Sleep Deep Rest on Perceptual, Cognitive, and Physical Performance in Active Adults (Boukhris O et al., Clocks Sleep). https://pubmed.ncbi.nlm.nih.gov/42783005/
+- Sonstige Studie, 2021: Qualitative Impressions of a Yoga Nidra Practice for Insomnia: An Exploratory Mixed-Methods Design (Sharpe E et al., J Altern Complement Med). https://pubmed.ncbi.nlm.nih.gov/34265219/
+
 ## Tipp: Nur durch die Nase atmen (https://biohackingkompakt.de/tipp/nasenatmung.html)
 8 Studien: 4 Sonstige Studie, 2 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Übersichtsartikel.
 - Meta-Analyse / Übersicht, 2026: Impact of Nasal Obstruction and Mouth Taping on Sleep Apnea Indicators: Systematic Review and Meta-Analysis (Alshehri NA et al., OTO Open). https://pubmed.ncbi.nlm.nih.gov/42662994/
@@ -6219,6 +6435,18 @@ Stand: 27.10.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Fallbericht, 2025: Management of prediabetes and class III obesity in a 42-year-old male through One-Meal-a-Day (Alfhaid F, J Family Med Prim Care). https://doi.org/10.4103/jfmpc.jfmpc_247_25
 - Übersichtsartikel, 2026: Intermittent fasting to treat diabetes: time to update clinical practice guidelines (Varady KA et al., Lancet Diabetes Endocrinol). https://doi.org/10.1016/s2213-8587(26)00119-1
 - Sonstige Studie, 2024: Obesity alters adipose tissue response to fasting and refeeding in women: A study on lipolytic and endocrine dynamics and acute insulin resistance (Rossmeislová L et al., Heliyon). https://doi.org/10.1016/j.heliyon.2024.e37875
+
+## Tipp: Physiologischer Seufzer (https://biohackingkompakt.de/tipp/physiologischer-seufzer.html)
+9 Studien: 2 Randomisierte Studie, 2 Sonstige Studie, 1 Beobachtungsstudie, 1 Meta-Analyse / Übersicht, 1 Tier- oder Laborstudie, 1 Übersichtsartikel, 1 Studienregister.
+- Meta-Analyse / Übersicht, 2023: Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials (Fincham GW et al., Sci Rep). https://pubmed.ncbi.nlm.nih.gov/36624160/
+- Randomisierte Studie, 2025: Cyclic sighing in the clinic waiting room may decrease pain: results from a pilot randomized controlled trial (Hanley AW et al., J Behav Med). https://pubmed.ncbi.nlm.nih.gov/39904867/
+- Randomisierte Studie, 2023: Brief structured respiration practices enhance mood and reduce physiological arousal (Balban MY et al., Cell Rep Med). https://pubmed.ncbi.nlm.nih.gov/36630953/
+- Beobachtungsstudie, 2026: Simply breathing anxiety away? A pilot, just-in-time ecological momentary intervention study of one-minute cyclic sighing versus box breathing as tools for acute anxiety reduction and attention promotion in real life (Riedl EM et al., Anxiety Stress Coping). https://pubmed.ncbi.nlm.nih.gov/42002307/
+- Tier- oder Laborstudie, 2016: The peptidergic control circuit for sighing (Li P et al., Nature). https://pubmed.ncbi.nlm.nih.gov/26855425/
+- Übersichtsartikel, 2013: Respiratory variability and sighing: a psychophysiological reset model (Vlemincx E et al., Biol Psychol). https://pubmed.ncbi.nlm.nih.gov/23261937/
+- Studienregister: Studienregister ClinicalTrials.gov NCT05304000 — Protokoll, Gruppen und Ausschlusskriterien der Stanford-Studie. https://clinicaltrials.gov/study/NCT05304000
+- Sonstige Studie, 2017: Sigh rate during emotional transitions: More evidence for a sigh of relief (Vlemincx E et al., Biol Psychol). https://pubmed.ncbi.nlm.nih.gov/28315375/
+- Sonstige Studie, 2016: A sigh of relief or a sigh to relieve: The psychological and physiological relief effect of deep breaths (Vlemincx E et al., Physiol Behav). https://pubmed.ncbi.nlm.nih.gov/27404329/
 
 ## Tipp: Protein nach Alter anpassen (https://biohackingkompakt.de/tipp/protein-longevity.html)
 7 Studien: 2 Meta-Analyse / Übersicht, 2 Beobachtungsstudie, 1 Sonstige Studie, 1 Leitlinie / Konsens, 1 Randomisierte Studie.

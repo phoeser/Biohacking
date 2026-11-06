@@ -182,6 +182,7 @@ Jede Folgenseite hat „Die Kernaussagen“ und seit 26.10.2026 Kapitelmarken f�
   Frage bekommt eine Antwort, einmal je Folge ändert jemand sichtbar seine
   Meinung, lange Turns werden geteilt.
 - **Update-Folgen (seit 03.11.2026, Dauerregel):** jede Woche eine neu geschriebene und neu vertonte Folge zu einem Top-Thema (Retatrutid, Testosteron, BPC-157, GHK-Cu …) – was seit der ersten Folge neu ist. Erscheint sonntags anstelle der regulären Folge; die verdrängte Folge rückt ans Ende der Warteschlange (behält ihre Nummer), das Update bekommt die nächste freie Nummer (erste: 156 Retatrutid, 08.11.2026, verdrängt 131). Regeln in der Serienbibel und `ANLEITUNG-FOLGENPRODUKTION.md` (Pauls Ordner `Claude outputs/serienbibel/`).
+- **News-Folgen (seit 06.11.2026, Dauerregel):** jeden Freitag eine Folge mit den neuesten Entwicklungen im Biohacking (neue Studien der Woche, Community & Trends, kurz „Neu auf der Seite“), 10–12 Minuten, ersetzt die reguläre Freitagsfolge; die verdrängte Folge rückt ans Ende. Recherche gemeinsam mit dem Newsletter. Regeln in `ANLEITUNG-FOLGENPRODUKTION.md`.
 - **Die Folgen erwähnen nie, dass der Podcast KI-produziert ist.**
 - `js/data/podcast.js` hält je Folge Titel, Datum, `ab` (Freischaltzeit,
   08:00 UTC) und `ziel` (Sprungziel in die Datenbank). Ohne Sprungziel sind noch
