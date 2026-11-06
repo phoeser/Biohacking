@@ -4807,6 +4807,164 @@ const SUPPLEMENTS = [
     evidence: 'niedrig',
     sources: 'Entsteht im Hanf, wenn THC oxidiert; im Handel als Isolat in Ölen, Kapseln und Fruchtgummis',
     link: 'https://pubmed.ncbi.nlm.nih.gov/41698831/'
+  },
+  {
+    id: 'flohsamenschalen',
+    name: 'Flohsamenschalen (Psyllium)',
+    altNames: 'Psyllium, Psyllium husk, Indische Flohsamenschalen, Plantago ovata, Ispaghula, Plantaginis ovatae seminis tegumentum',
+    category: 'Kräuter',
+    tags: ['darm', 'verdauung', 'cholesterin', 'blutzucker', 'saettigung'],
+    short: 'Die Samenschalen des Indischen Flohsamens quellen im Darm zu einem Gel. Gut belegt sind weichere, regelmäßigere Stühle und eine LDL-Senkung um etwa 0,33 mmol/l, die EU-Arzneimittelbehörde erkennt beides an. Als „natürliches Ozempic“ sind sie dagegen kaum untersucht.',
+    description: 'Flohsamenschalen sind die Samenschalen von Plantago ovata und bestehen überwiegend aus löslichen, gelbildenden Ballaststoffen. Der Kräuterausschuss der EMA (HMPC) stuft sie als „well-established use“ ein, also mit Studien belegt: bei habitueller Verstopfung, wenn weicher Stuhl erwünscht ist (etwa bei Hämorrhoiden oder Analfissuren), bei Reizdarm mit Verstopfung und ergänzend zur Diät bei erhöhtem Cholesterin. Eine Meta-Analyse aus 28 randomisierten Studien mit 1.924 Teilnehmern fand LDL −0,33 mmol/l, Non-HDL-Cholesterin −0,39 mmol/l und ApoB −0,05 g/l. Bei chronischer Verstopfung sprachen 66 Prozent auf Ballaststoffe an, unter Kontrolle 41 Prozent, Psyllium gehörte zu den wirksamen Sorten. Beim Blutzucker zeigt sich ein Effekt vor allem bei Typ-2-Diabetes; zum Abnehmen gibt es nur wenige kleine Studien mit widersprüchlichen Auswertungen.',
+    benefits: [
+      'Senkt LDL-Cholesterin: Meta-Analyse aus 28 randomisierten Studien mit 1.924 Teilnehmern, im Median rund 10,2 g pro Tag, LDL −0,33 mmol/l, Non-HDL-Cholesterin −0,39 mmol/l, ApoB −0,05 g/l (Jovanovski 2018)',
+      'Bestätigt in einer zweiten Auswertung von 29 Studien mit 2.769 Teilnehmern zu Plantago-Arten: Gesamtcholesterin −0,28 mmol/l, LDL −0,35 mmol/l, kein Effekt auf HDL und Triglyzeride (Zhu 2024)',
+      'Hilft bei chronischer Verstopfung: In 16 randomisierten Studien mit 1.251 Teilnehmern sprachen 66 Prozent auf Ballaststoffe an, unter Kontrolle 41 Prozent (RR 1,48); Psyllium und Pektin waren wirksam, am deutlichsten bei mehr als 10 g pro Tag über mindestens vier Wochen (van der Schoot 2022)',
+      'Bei Reizdarm: Unter Ispaghula blieben die Beschwerden seltener bestehen als unter Placebo (relatives Risiko 0,78); bei Ballaststoffen insgesamt war der Effekt knapp an der Grenze (Ford 2008)',
+      'Senkt bei Typ-2-Diabetes Nüchternglukose (−37,0 mg/dl) und HbA1c (−0,97 Prozentpunkte), bei normalem Blutzucker kein Effekt; Auswertung aus 35 Studien, erstellt überwiegend von Mitarbeitern eines Herstellers von Psyllium-Produkten (Gibb 2015)',
+      'Behördlich anerkannt: HMPC-Monographie mit „well-established use“ für Verstopfung, Reizdarm mit Verstopfung und als Ergänzung zur Diät bei erhöhtem Cholesterin; in den USA zugelassene Gesundheitsangabe zur koronaren Herzkrankheit ab 7 g löslichen Ballaststoffen aus Flohsamenschalen pro Tag (FDA, 21 CFR 101.81)'
+    ],
+    risks: [
+      'Mit zu wenig Flüssigkeit können Flohsamenschalen Speiseröhre und Darm verlegen, bis hin zum Ersticken; die HMPC-Monographie nennt etwa 30 ml Wasser je Gramm',
+      'Nicht bei Schluckbeschwerden, Verengungen im Magen-Darm-Trakt, Darmverschluss, unklarer Blutung aus dem Enddarm oder plötzlich veränderten Stuhlgewohnheiten über mehr als zwei Wochen (EMA/HMPC)',
+      'Starke Allergene: Schnupfen, Bindehautentzündung, Bronchospasmus bis zur Anaphylaxie; das Einatmen des Pulvers kann sensibilisieren, besonders bei beruflichem Kontakt etwa in der Pflege (EMA/HMPC)',
+      'Verzögert die Aufnahme anderer Arzneistoffe wie Mineralstoffe, Vitamin B12, Herzglykoside, Cumarine, Carbamazepin und Lithium; bei Diabetes-Medikamenten und Schilddrüsenhormonen kann eine Dosisanpassung nötig sein (EMA/HMPC)',
+      'Zusammen mit Opioiden oder anderen Mitteln, die die Darmbewegung hemmen, nur unter ärztlicher Aufsicht (EMA/HMPC)',
+      'Blähungen sind häufig, vor allem zu Beginn; in der Verstopfungs-Meta-Analyse mehr Flatulenz als unter Kontrolle (van der Schoot 2022)'
+    ],
+    dosage: 'Für Arzneimittel nennt die HMPC-Monographie bei Verstopfung für Jugendliche und Erwachsene 7 bis 11 g am Tag in ein bis drei Einzelgaben, als Ergänzung zur Diät bei erhöhtem Cholesterin 7 bis 20 g, jeweils mit reichlich Flüssigkeit (etwa 30 ml Wasser je Gramm). Die US-Gesundheitsangabe der FDA setzt 7 g lösliche Ballaststoffe aus Flohsamenschalen pro Tag an. In den LDL-Studien lag die mittlere Menge bei rund 10,2 g pro Tag. Eine amtliche Höchstmenge für Nahrungsergänzungsmittel wurde bei der Recherche nicht gefunden. Das sind behördliche und Studienangaben, keine Empfehlung.',
+    intake: 'Laut HMPC immer mit reichlich Flüssigkeit, tagsüber und nicht unmittelbar vor dem Schlafengehen, mit einer halben bis einer Stunde Abstand zu anderen Medikamenten. Die Wirkung auf den Stuhl setzt nach 12 bis 24 Stunden ein. Bei Diabetes, Schilddrüsenhormonen, Opioiden, Schluckbeschwerden oder im höheren Alter vorher ärztlich abklären; bei erhöhtem Cholesterin gehört die Anwendung laut HMPC unter ärztliche Aufsicht.',
+    synergies: [],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Samenschalen des Indischen Flohsamens (Plantago ovata); im Handel als ganze oder gemahlene Schalen, Pulver, Kapseln und als pflanzliches Arzneimittel',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30239559/'
+  },
+  {
+    id: 'mariendistel',
+    name: 'Mariendistel (Silymarin)',
+    altNames: 'Silybum marianum, Mariendistelfrüchte, Silybi mariani fructus, Milk thistle, Silymarin, Silibinin',
+    category: 'Kräuter',
+    tags: ['leber', 'entgiftung', 'anti-oxidant', 'blutzucker', 'verdauung'],
+    short: 'Die klassische Leberpflanze: In Deutschland seit Jahrzehnten als Arzneimittel zur unterstützenden Behandlung von Lebererkrankungen im Handel, in Meta-Analysen sinken bei Fettleber die Leberwerte. Die methodisch besten Studien verfehlten ihr Hauptziel, auf die Sterblichkeit zeigt sich kein Effekt.',
+    description: 'Mariendistel-Präparate werden aus den Früchten von Silybum marianum gewonnen, einem Korbblütler; ihr Wirkstoffgemisch heißt Silymarin, der Hauptbestandteil Silibinin. In Deutschland sind Trockenextrakte mindestens seit 1976 als Arzneimittel zur unterstützenden Behandlung chronisch-entzündlicher Lebererkrankungen, der Leberzirrhose und toxischer Leberschäden auf dem Markt. Der EU-Kräuterausschuss HMPC hat 2018 nur eine traditionelle Anwendung anerkannt, bei Verdauungsbeschwerden und zur Unterstützung der Leberfunktion, weil die vielen Studien mit mehr als 4.000 Patienten zu uneinheitlich waren. Bei Fettleber fanden Meta-Analysen niedrigere Leberwerte und weniger Verfettung, bei Typ-2-Diabetes niedrigere Blutzuckerwerte, jeweils aus Studien niedriger Qualität. Der Cochrane-Review fand keinen Effekt auf die Sterblichkeit, und die Doppelblindstudien bei Hepatitis C und bei Fettleberentzündung (NASH) verfehlten ihr Hauptziel.',
+    benefits: [
+      'Seit Jahrzehnten als Arzneimittel im Handel: In Deutschland sind Mariendistel-Trockenextrakte mindestens seit 1976 zur unterstützenden Behandlung chronisch-entzündlicher Lebererkrankungen, der Leberzirrhose und toxischer Leberschäden zugelassen (EMA/HMPC, Bewertungsbericht 2018)',
+      'Bei Fettleber (NAFLD) in 26 randomisierten Studien mit 2.375 Patienten niedrigere Leberwerte (ALT, AST), bessere Blutfette und häufiger weniger Verfettung in der Gewebeprobe (OR 3,25); die Autoren fordern eine Bestätigung (Li 2024)',
+      'Eigene Meta-Analyse aus 8 placebokontrollierten Studien: Die Transaminasen sanken stärker als unter Placebo, unabhängig vom Gewichtsverlust; die Autoren weisen auf Qualitätsmängel der Studien hin (Kalopitas 2021)',
+      'Hinweis auf weniger Fibrose: In einer 48-wöchigen Doppelblindstudie mit 99 NASH-Patienten ging die Fibrose in der Biopsie bei 22,4 gegenüber 6,0 Prozent zurück, die Lebersteifigkeit bei 24,2 gegenüber 2,3 Prozent; das Hauptziel wurde verfehlt (Wah Kheong 2017)',
+      'Bei Typ-2-Diabetes in 5 kleinen Studien mit 270 Patienten Nüchternglukose −26,9 mg/dl und HbA1c −1,07 Prozentpunkte, bei niedriger Studienqualität und ohne Effekt auf die Blutfette (Voroneanu 2016)',
+      'Im Cochrane-Review war die leberbedingte Sterblichkeit über alle Studien halbiert (RR 0,50), in den methodisch guten Studien aber nicht mehr signifikant (RR 0,57) (Rambaldi 2007)',
+      'In der Klinik wird intravenöses Silibinin ergänzend bei Knollenblätterpilzvergiftung eingesetzt (EMA/HMPC, Bewertungsbericht 2018)'
+    ],
+    risks: [
+      'Kein Effekt auf Gesamtsterblichkeit, Komplikationen oder Lebergewebe bei alkohol- und virusbedingten Lebererkrankungen: Cochrane-Review aus 18 Studien mit 1.088 Patienten, Sterblichkeit RR 0,78, nicht signifikant (Rambaldi 2007)',
+      'Bei chronischer Hepatitis C senkten auch höhere als übliche Dosen die Leberwerte nicht stärker als Placebo (154 Patienten, 24 Wochen; Fried 2012)',
+      'Magen-Darm-Beschwerden: In einer Meta-Analyse zur Fettleber hatten Silymarin-Gruppen fast doppelt so häufig Nebenwirkungen (RR 1,98), meist im Magen-Darm-Bereich (Zhang 2025); laut HMPC meist mild, etwa leicht abführende Wirkung, Übelkeit, Blähungen',
+      'Allergische Reaktionen bis zur Anaphylaxie möglich; bei Allergie gegen Korbblütler nicht anwenden (EMA/HMPC)',
+      'Nicht für Kinder und Jugendliche unter 18 Jahren und nicht in Schwangerschaft und Stillzeit, weil Daten fehlen; die Daten zur Genotoxizität der Zubereitungen gelten als unvollständig (EMA/HMPC)',
+      'Schwankende Produktqualität: Nahrungsergänzungsmittel wichen teils deutlich vom angegebenen Silymarin-Gehalt ab oder waren mit Pestiziden, Keimen oder Schimmelpilzgiften belastet (NCCIH)'
+    ],
+    dosage: 'Eine amtliche Höchstmenge für Nahrungsergänzungsmittel wurde bei der Recherche nicht gefunden. Für zugelassene Arzneimittel gilt die Packungsbeilage; die HMPC-Monographie nennt je nach Zubereitung sehr unterschiedliche Mengen. In Studien eingesetzt: 420 oder 700 mg Silymarin dreimal täglich über 24 Wochen (Fried 2012) und 700 mg dreimal täglich über 48 Wochen (Wah Kheong 2017). Das sind Studienangaben, keine Empfehlung.',
+    intake: 'Laut HMPC ist die traditionelle Anwendung nur für Erwachsene gedacht und erst, nachdem ernste Erkrankungen ärztlich ausgeschlossen sind; halten Beschwerden länger als zwei Wochen an oder werden sie schlimmer, ärztlich abklären. Erhöhte Leberwerte gehören in ärztliche Hände, nicht in die Selbstbehandlung.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Früchte der Mariendistel (Silybum marianum); im Handel als Tee, als standardisierter Trockenextrakt in Arzneimitteln und als Nahrungsergänzungsmittel',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/17943794/'
+  },
+  {
+    id: 'kakaoflavanole',
+    name: 'Kakaoflavanole',
+    altNames: 'Kakaoextrakt, Cocoa flavanols, Cocoa extract, Flavan-3-ole, Epicatechin, Procyanidine',
+    category: 'Antioxidant',
+    tags: ['herz', 'blutdruck', 'durchblutung', 'stickoxid', 'gedaechtnis'],
+    short: 'Flavanole aus der Kakaobohne verbessern die Gefäßfunktion, das erkennt auch die EU an. In der großen COSMOS-Studie mit 21.442 Älteren gab es 27 Prozent weniger Herz-Kreislauf-Todesfälle, der Hauptendpunkt wurde knapp verfehlt. Auf die Denkleistung zeigte sich insgesamt kein Effekt.',
+    description: 'Kakaoflavanole sind Flavan-3-ole aus der Kakaobohne, vor allem Epicatechin, Catechin und Procyanidine. Am Menschen ist gezeigt, dass Epicatechin über Stickstoffmonoxid die Gefäßerweiterung verbessert; die EU erlaubt seit 2013 die Angabe, dass 200 mg Kakaoflavanole täglich die Elastizität der Blutgefäße fördern. Die COSMOS-Studie gab 21.442 älteren US-Amerikanern im Median 3,6 Jahre lang 500 mg Kakaoflavanole täglich oder Placebo: Herz-Kreislauf-Ereignisse insgesamt HR 0,90, knapp nicht signifikant, Herz-Kreislauf-Todesfälle HR 0,73. Eine Teilstudie fand 2025 einen gebremsten Anstieg des Entzündungsmarkers hsCRP. Auf Kognition und epigenetische Alterungsuhren zeigte der Kakaoextrakt insgesamt keinen Effekt.',
+    benefits: [
+      'COSMOS, 21.442 Ältere, im Median 3,6 Jahre, doppelblind: 27 Prozent weniger Herz-Kreislauf-Todesfälle (HR 0,73; 0,54 bis 0,98, sekundärer Endpunkt); in der Per-Protocol-Auswertung auch weniger Herz-Kreislauf-Ereignisse insgesamt (HR 0,85; 0,72 bis 0,99) (Sesso 2022)',
+      'Verbessert die endothelabhängige Gefäßerweiterung: Epicatechin ist am Menschen als Wirkstoff identifiziert, der Effekt hängt von Stickstoffmonoxid ab (Schroeter 2006); die EU erlaubt seit 2013 eine Gesundheitsangabe zur Elastizität der Blutgefäße ab 200 mg Kakaoflavanolen täglich (Verordnung (EU) Nr. 851/2013, 2015 auf Kapseln und Tabletten erweitert)',
+      'Senkt den Blutdruck leicht: Cochrane-Review aus 35 Studien mit 1.804 überwiegend gesunden Teilnehmern, systolisch und diastolisch je −1,76 mmHg über zwei bis 18 Wochen (Ried 2017)',
+      'Weniger Entzündungsaktivität im Alter: In einer COSMOS-Teilstudie mit 598 Teilnehmern stieg der Entzündungsmarker hsCRP unter Kakaoextrakt pro Jahr um 8,4 Prozent weniger als unter Placebo (Li 2025)',
+      'Gedächtnis bei schlechter Ernährung: In COSMOS-Web mit 3.562 Älteren verbesserte sich das Gedächtnis bei Teilnehmern mit geringer Ernährungsqualität oder wenig Flavanolen im Alltag; in der Gesamtgruppe wurde das Hauptziel verfehlt (Brickman 2023)',
+      'Keine Sicherheitsbedenken in COSMOS über im Median 3,6 Jahre (Sesso 2022)'
+    ],
+    risks: [
+      'Der primäre Endpunkt von COSMOS, alle Herz-Kreislauf-Ereignisse zusammen, wurde verfehlt (HR 0,90; 0,78 bis 1,02; p = 0,11); die 27 Prozent weniger Todesfälle sind ein sekundärer Endpunkt (Sesso 2022)',
+      'Kein Effekt auf die Denkleistung insgesamt: COSMOS-Mind mit 2.262 Teilnehmern über drei Jahre (Baker 2023) und die Klinik-Teilgruppe mit 573 ausführlich getesteten Teilnehmern über zwei Jahre (Vyas 2024)',
+      'Kein Effekt auf fünf epigenetische Alterungsuhren nach zwei Jahren (958 Teilnehmer; Li 2026)',
+      'Der Blutdruckeffekt ist klein und stammt aus Studien von zwei bis 18 Wochen (Ried 2017)',
+      'COSMOS untersuchte Frauen ab 65 und Männer ab 60 Jahren ohne Herz-Kreislauf-Erkrankung; für Jüngere und für Menschen mit Herzerkrankung liefert die Studie keine Daten (Sesso 2022)'
+    ],
+    dosage: 'Die zugelassene EU-Gesundheitsangabe setzt eine tägliche Aufnahme von 200 mg Kakaoflavanolen mit einem Polymerisationsgrad von 1 bis 10 voraus, aus Kakaogetränken, dunkler Schokolade oder Kapseln und Tabletten mit flavanolreichem Kakaoextrakt (Verordnung (EU) 2015/539). In COSMOS wurden 500 mg Kakaoflavanole täglich gegeben, darunter 80 mg Epicatechin; in der Cochrane-Auswertung reichten die Mengen von 30 bis 1.218 mg. Eine amtliche Höchstmenge wurde bei der Recherche nicht gefunden. Das sind Behörden- und Studienangaben, keine Empfehlung.',
+    intake: 'Ein bestimmter Einnahmezeitpunkt wurde in den hier ausgewerteten Studien nicht geprüft.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Kakaobohne (Theobroma cacao); in Kakaopulver, dunkler Schokolade und als standardisierter Kakaoextrakt in Kapseln und Tabletten',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/35294962/'
+  },
+  {
+    id: 'nicotinamid',
+    name: 'Nicotinamid (Niacinamid)',
+    altNames: 'Niacinamid, Nicotinsäureamid, NAM, Nicotinamide, Vitamin B3 (Amid-Form)',
+    category: 'Vitamin',
+    tags: ['haut', 'krebs', 'nad', 'augen'],
+    short: 'Die Amid-Form von Vitamin B3, ohne den Flush der Nicotinsäure. In einer Phase-3-Studie traten bei Menschen mit mehreren hellen Hautkrebsen unter Nicotinamid 23 Prozent weniger neue Fälle auf. Bei Organtransplantierten blieb der Effekt aus. Nicht zu verwechseln mit Nicotinamid-Ribosid (NR).',
+    description: 'Nicotinamid ist neben der Nicotinsäure die zweite Form von Niacin (Vitamin B3) und eine Vorstufe von NAD+. In der Kosmetik heißt derselbe Stoff meist Niacinamid. Er ist ein anderes Molekül als Nicotinamid-Ribosid (NR) und Nicotinamid-Mononukleotid (NMN), die als NAD-Vorstufen mit Zuckerrest verkauft werden. Untersucht wurde Nicotinamid vor allem zur Vorbeugung von hellem Hautkrebs: In der australischen Phase-3-Studie ONTRAC mit 386 Hochrisikopatienten sanken neue Basalzell- und Plattenepithelkarzinome über 12 Monate um 23 Prozent, aktinische Keratosen um 11 bis 20 Prozent. Laut den Studienautoren verbessert Nicotinamid die Reparatur UV-bedingter DNA-Schäden und mindert die UV-bedingte Unterdrückung der Hautabwehr. In einer Kohorte mit 33.822 US-Veteranen ging die Einnahme mit 14 Prozent weniger Hautkrebs einher. Bei Organtransplantierten zeigte eine abgebrochene Phase-3-Studie keinen Effekt, ebenso wenig wie die große ENDIT-Studie zur Vorbeugung von Typ-1-Diabetes.',
+    benefits: [
+      'Heller Hautkrebs bei Hochrisikopatienten: 386 Menschen mit mindestens zwei hellen Hautkrebsen in 5 Jahren, doppelblind, 500 mg zweimal täglich über 12 Monate, 23 Prozent weniger neue Basalzell- und Plattenepithelkarzinome (95-%-Intervall 4 bis 38); nach dem Absetzen kein Effekt mehr (Chen 2015, ONTRAC)',
+      'Aktinische Keratosen, also Hautkrebs-Vorstufen: in ONTRAC nach 3, 6, 9 und 12 Monaten 11, 14, 20 und 13 Prozent weniger als unter Placebo (Chen 2015)',
+      'Meta-Analyse über 29 randomisierte Studien mit 3.039 Patienten: Hautkrebs insgesamt mit Rate-Ratio 0,50 (0,29 bis 0,85; 5 Studien, 552 Patienten), moderate Evidenzstärke laut den Autoren (Mainville 2022)',
+      'Große Kohorte unter Alltagsbedingungen: 12.287 US-Veteranen mit Nicotinamid gegenüber 21.479 ohne, 14 Prozent weniger Hautkrebs; bei Beginn nach dem ersten Hautkrebs 54 Prozent weniger (Breglio 2025, retrospektiv)',
+      'Glaukom: In einer doppelblinden Crossover-Studie mit 57 behandelten Glaukompatienten verbesserte sich eine Messgröße der inneren Netzhautfunktion um 14,8 Prozent, unter Placebo um 5,2 Prozent (Hui 2020); eine Phase-3-Studie mit Nicotinamid und Pyruvat läuft (Shukla 2026)'
+    ],
+    risks: [
+      'Kein Effekt bei Organtransplantierten: 158 Teilnehmende, 207 gegenüber 210 neuen hellen Hautkrebsen nach 12 Monaten (Rate-Ratio 1,0), Studie wegen schleppender Rekrutierung vorzeitig beendet (Allen 2023, ONTRANS)',
+      'Gepoolt über Immunkompetente und Immunsupprimierte fand eine zweite Meta-Analyse mit 4 Studien keinen gesicherten Effekt (Rate-Ratio 0,82; 0,61 bis 1,12) (Tosti 2023)',
+      'Typ-1-Diabetes: In ENDIT mit 552 Angehörigen von Menschen mit Typ-1-Diabetes verhinderte hoch dosiertes Nicotinamid über 5 Jahre den Diabetes nicht (Hazard Ratio 1,07); schwere Nebenwirkungen waren nicht häufiger als unter Placebo (Gale 2004)',
+      'Leber: Bei sehr hohen Mengen sind reversible Leberschäden beschrieben; Übersichtsarbeiten raten bei Erwachsenen ab 3 g pro Tag, es als Arzneistoff mit Giftpotenzial zu betrachten und nicht unbeaufsichtigt einzunehmen (Knip 2000)',
+      'In ONTRAC kein nennenswerter Unterschied bei Nebenwirkungen über 12 Monate; die Meta-Analyse von 2022 fand mehr Magen-Darm-Beschwerden (Mainville 2022)',
+      'Schwangerschaft: Das BfR empfiehlt bei Nahrungsergänzungsmitteln mit mehr als 16 mg Nicotinamid pro Tagesdosis einen Hinweis, dass Schwangere sie nicht einnehmen sollten'
+    ],
+    dosage: 'Keine Empfehlung. Das BfR empfiehlt für Nahrungsergänzungsmittel eine Höchstmenge von 160 mg Nicotinamid pro Tagesverzehrempfehlung. Der frühere Wissenschaftliche Lebensmittelausschuss der EU (SCF 2002) leitete für Erwachsene eine tolerierbare Obergrenze von 900 mg pro Tag ab. In den Hautkrebsstudien verwendet: 500 mg zweimal täglich über 12 Monate (ONTRAC, ONTRANS), also mehr als diese Obergrenze. Das sind Referenzwerte und Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Wer wegen früherer heller Hautkrebse über Nicotinamid nachdenkt, sollte das mit der Hautärztin oder dem Hautarzt besprechen, weil die Studien unter regelmäßiger hautärztlicher Kontrolle liefen und der Effekt nur während der Einnahme anhielt.',
+    synergies: [],
+    avoid: [],
+    evidence: 'hoch',
+    sources: 'Fleisch, Fisch, Getreide, Milchprodukte; der Körper bildet Niacin zudem aus Tryptophan. In Nahrungsergänzungsmitteln als Niacinquelle zugelassen, in Kosmetik unter dem Namen Niacinamid.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26488693/'
+  },
+  {
+    id: 'schwarzkuemmeloel',
+    name: 'Schwarzkümmelöl (Nigella sativa)',
+    altNames: 'Schwarzkümmel, Nigella sativa, Black Seed Oil, Black Cumin, Kalonji, Thymochinon',
+    category: 'Kräuter',
+    tags: ['herz', 'blutdruck', 'blutzucker', 'cholesterin', 'entzuendung', 'allergie'],
+    short: 'Öl aus den Samen des Echten Schwarzkümmels, seit Jahrhunderten Gewürz und Hausmittel. Eine Meta-Analyse über 82 randomisierte Studien findet kleine Verbesserungen bei Blutdruck, Blutzucker und Blutfetten. Harte Endpunkte fehlen, und die Studien streuen stark.',
+    description: 'Schwarzkümmelöl wird aus den Samen von Nigella sativa gepresst, einer Pflanze, die mit dem Küchenkümmel nicht verwandt ist. Das Öl enthält ein ätherisches Öl mit Terpenen, Thymochinon und Beta-Elemen; Untersucht wird vor allem Thymochinon. Am Menschen gibt es inzwischen sehr viele kleine randomisierte Studien mit Samenpulver oder Öl, die meisten an Menschen mit Übergewicht, Typ-2-Diabetes, Fettstoffwechselstörung oder metabolischem Syndrom. Die größte Meta-Analyse wertete 82 Studien mit 5.026 Teilnehmenden aus, Laufzeit 1 bis 48 Wochen, und fand Verbesserungen bei Körperfett, Blutdruck, Blutzucker, Blutfetten und Entzündungsmarkern. In Patienten mit Stoffwechselerkrankungen sank der Blutdruck im Mittel um 3,25 zu 2,75 mmHg, der HbA1c-Wert um 0,56 Prozentpunkte. Gemessen wurden Laborwerte und Blutdruck, keine Herzinfarkte oder Schlaganfälle.',
+    benefits: [
+      'Blutdruck und Gewicht bei Stoffwechselerkrankungen: 31 Studien mit 2.145 Teilnehmenden, systolisch −3,25 mmHg, diastolisch −2,75 mmHg, Gewicht −1,59 kg (Musazadeh 2026)',
+      'Blutzucker: In derselben Auswertung Nüchternzucker −18,6 mg/dl und HbA1c −0,56 Prozentpunkte; Insulin und Insulinresistenz (HOMA-IR) blieben unverändert (Musazadeh 2026)',
+      'Breite Auswertung: 82 randomisierte Studien mit 5.026 Teilnehmenden, verbessert waren unter anderem Körperfettanteil, Blutdruck, Nüchternzucker, HbA1c, LDL, Triglyzeride, HDL, CRP und IL-6 (Jafari 2025)',
+      'Blutfette: 34 Studien mit 2.278 Erwachsenen, Gesamtcholesterin, LDL und Triglyzeride niedriger, HDL höher als in den Kontrollgruppen (Rounagh 2024)',
+      'Heuschnupfen: 8 randomisierte Studien, höhere Ansprechrate und weniger Nasenbeschwerden als in den Kontrollgruppen, Nebenwirkungen nicht häufiger; die Autoren nennen wenige Studien von geringer Qualität (He 2024)'
+    ],
+    risks: [
+      'Starke Streuung: Beim Blutzucker lag die Heterogenität zwischen den Studien über 90 Prozent, die Wirkgrößen sind entsprechend unsicher (Shirvani 2024)',
+      'Keine harten Endpunkte: Keine der Studien hat Herzinfarkte, Schlaganfälle oder Sterblichkeit gemessen, die Laufzeiten reichen höchstens bis 48 Wochen (Jafari 2025)',
+      'Haut beim Auftragen: Fallserie mit 8 Menschen mit schweren Hautreaktionen nach äußerlicher Anwendung von Schwarzkümmelöl (Zhivov 2024); allergische Kontaktdermatitis ist beschrieben (LactMed)',
+      'Einzelfallberichte nach Einnahme: blasenbildende Hautreaktion ähnlich einem Stevens-Johnson-Syndrom (Chu 2026) sowie akutes Nierenversagen mit Muskelzerfall und Leberschädigung nach Schwarzkümmelöl (Sener 2024)',
+      'Stillzeit: Daten zur Sicherheit für Säuglinge fehlen; eine Wirkung als Milchbildungsmittel ist nicht belegt (LactMed)',
+      'Wer Blutzucker- oder Blutdruckmedikamente nimmt: Die Studien zeigen gerade eine Senkung dieser Werte; eine zusätzliche Einnahme sollte ärztlich besprochen werden'
+    ],
+    dosage: 'Keine Empfehlung, eine amtliche Höchstmenge gibt es nicht. In den Studien verwendet: 200 bis 4.600 mg pro Tag als Samenpulver oder Öl über 1 bis 48 Wochen (Jafari 2025). Das sind Studienangaben, keine Verzehrempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Als Lebensmittel wird Schwarzkümmel als Gewürz und das Öl kalt in Speisen verwendet. Wer Medikamente gegen Diabetes oder Bluthochdruck nimmt, schwanger ist oder stillt, sollte Präparate ärztlich ansprechen.',
+    synergies: [],
+    avoid: [],
+    evidence: 'mittel',
+    sources: 'Samen des Echten Schwarzkümmels (Nigella sativa), als Gewürz, kaltgepresstes Öl oder Kapseln',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40714301/'
   }
 
 ];

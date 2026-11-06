@@ -613,7 +613,53 @@ const TIPS = [
       'Kohlendioxid',
       'Umwelt'
     ]
+  },
+  {
+    id: 'nsdr-yoga-nidra',
+    category: 'Schlaf',
+    icon: '🛌',
+    title: 'NSDR und Yoga Nidra – tiefe Ruhe im Liegen, ohne zu schlafen',
+    short: 'Geführte Entspannung im Liegen, bei der du wach bleibst. Eine Meta-Analyse über 73 Studien mit 5.201 Teilnehmenden fand deutlich weniger Stress, Angst und Depressivität, hält die Effekte wegen schwacher Studienqualität aber selbst für überschätzt. Zum Schlaf sind die Studien klein, die erste Meta-Analyse stuft ihre Vertrauenswürdigkeit als sehr niedrig ein.',
+    how: 'Leg dich auf den Rücken, Arme neben dem Körper, Augen zu, und folge einer gesprochenen Anleitung: ein paar ruhige Atemzüge, dann wandert die Aufmerksamkeit Körperteil für Körperteil durch den Körper, ohne dass du etwas veränderst. Ziel ist, wach zu bleiben, während der Körper so ruhig wird wie beim Einschlafen. In den Studien dauerten die Einheiten 10 bis 35 Minuten; in einer Online-Studie mit 362 Teilnehmenden zeigten schon 11 Minuten täglich über zwei Monate kleine Effekte, 30 Minuten etwas größere. Als kurze Pause am Nachmittag ersetzt eine Einheit von 10 Minuten kein Nickerchen: Im direkten Vergleich machte nur der 25-minütige Mittagsschlaf messbar frischer. Wenn du abends dabei einschläfst, ist das kein Fehler. Anhaltende Schlaflosigkeit gehört trotzdem ärztlich abgeklärt.',
+    tags: ['schlaf', 'stress', 'entspannung', 'regeneration']
+  },
+  {
+    id: 'physiologischer-seufzer',
+    category: 'Atmung',
+    icon: '😮‍💨',
+    title: 'Physiologischer Seufzer – doppelt einatmen, lang ausatmen',
+    short: 'Zweimal durch die Nase einatmen, dann lange ausatmen. In einer randomisierten Stanford-Studie mit 108 Teilnehmenden hob tägliches zyklisches Seufzen über einen Monat die Stimmung stärker als Achtsamkeitsmeditation und senkte die Atemfrequenz in Ruhe. Bei Angst schnitt es nicht besser ab als Meditation, und die Gruppen waren klein.',
+    how: 'Setz dich oder leg dich hin. Atme durch die Nase ein, bis die Lunge voll wirkt, und setz einen zweiten, kürzeren Atemzug obendrauf. Dann atmest du langsam und vollständig durch den Mund aus. Diese Runde wiederholst du fünf Minuten lang, so wie in der Stanford-Studie, und atmest danach wieder normal. Wem die Mundausatmung nicht liegt, darf ganz durch die Nase atmen, das war im Studienprotokoll ausdrücklich erlaubt. In einer kleinen Alltagsstudie mit 47 Studierenden senkte schon eine Minute die akute Angst. Wird dir schwindelig, atme langsamer oder hör auf.',
+    tags: ['atmung', 'stress', 'entspannung', 'stimmung']
+  },
+  {
+    id: 'mediterrane-ernaehrung',
+    category: 'Ernährung',
+    icon: '🫒',
+    title: 'Mediterrane Ernährung – an Herzinfarkt und Schlaganfall geprüft',
+    short: 'Olivenöl, Nüsse, Gemüse, Hülsenfrüchte, Fisch. In PREDIMED mit 7.447 Menschen mit hohem Risiko traten unter mediterraner Kost mit Olivenöl oder Nüssen rund 30 Prozent seltener Herzinfarkt, Schlaganfall oder Herztod auf. Die Studie wurde 2018 wegen Fehlern bei der Zufallszuteilung zurückgezogen und neu ausgewertet, das Ergebnis hielt.',
+    how: 'Mach Olivenöl zum Hauptfett, in PREDIMED war es natives Olivenöl extra, und iss täglich Nüsse, viel Gemüse, Obst und Hülsenfrüchte, dazu Vollkorn, öfter Fisch, weniger Fleisch und Fleischprodukte und Milchprodukte in Maßen. Kalorien zählen musst du dafür nicht: In PREDIMED gab es keine Kalorienvorgabe, und trotz des vielen Fetts nahm über fünf Jahre keine Gruppe stärker zu als die Kontrollgruppe. Rotwein gehört zur klassischen Beschreibung, geprüft wurde aber die Kost mit Olivenöl oder Nüssen, nicht der Alkohol. Wer schon einen Herzinfarkt hatte, hat eine zweite große Studie auf seiner Seite: In CORDIOPREV schnitt die mediterrane Kost bei 1.002 Herzpatienten über sieben Jahre besser ab als eine fettarme.',
+    tags: ['ernaehrung', 'herz-kreislauf', 'longevity', 'entzuendung']
+  },
+  {
+      id: 'ketogene-ernaehrung',
+      category: 'Ernährung',
+      icon: '🥑',
+      title: 'Ketogene Ernährung',
+      short: 'In randomisierten Studien nimmst du mit ketogener Kost etwas mehr ab als mit Vergleichsdiäten, gegenüber der Mittelmeerküche im Mittel 3,6 Kilo. Der Langzeitblutzucker verbessert sich ähnlich gut wie mit mediterraner Kost. Bei manchen steigt das LDL-Cholesterin deutlich, am stärksten bei schlanken, stoffwechselgesunden Menschen. Bei schwer behandelbarer Epilepsie im Kindesalter ist die Diät seit den 1920er-Jahren eine medizinische Therapie.',
+      how: 'Als ketogen gelten in den Studien höchstens 50 Gramm Kohlenhydrate am Tag; in Keto-Med gehörte nicht stärkehaltiges Gemüse dazu, Zuckerzusatz und Weißmehl fielen weg, ebenso Hülsenfrüchte, Obst und Vollkorn. Lass vor dem Start und nach etwa drei Monaten deine Blutfette bestimmen: In einer schwedischen Fütterungsstudie stieg das LDL bei jeder der 17 jungen, schlanken Frauen schon nach vier Wochen, im Mittel um 1,8 Millimol pro Liter, in Keto-Med um 10 Prozent. Steigt es stark, ist das ein Befund für die Ärztin, kein Zeichen für eine besonders gute Ketose. Achte auf Ballaststoffe, denn die fielen in Keto-Med geringer aus als mit Mittelmeerkost. Rechne nicht mit einem Stoffwechselvorteil: Auf der Stoffwechselstation verbrauchten 17 Männer bei gleicher Kalorienmenge nur rund 57 Kilokalorien am Tag mehr, und der Fettabbau verlangsamte sich sogar. Wer Insulin oder andere blutzuckersenkende Medikamente nimmt, stellt nur ärztlich begleitet um. Bei Epilepsie ist die Diät eine Therapie in spezialisierten Zentren, nicht zum Selbstversuch.',
+      tags: ['ernaehrung', 'gewicht', 'blutzucker', 'insulin', 'herz-kreislauf']
+  },
+  {
+      id: 'hochverarbeitete-lebensmittel',
+      category: 'Ernährung',
+      icon: '🥫',
+      title: 'Hochverarbeitete Lebensmittel reduzieren',
+      short: 'In einer Stoffwechselstudie der US-Gesundheitsbehörde NIH aßen 20 Erwachsene mit hochverarbeiteter Kost 508 Kilokalorien am Tag mehr und nahmen in zwei Wochen 0,9 Kilo zu. Beobachtungsdaten an knapp 10 Millionen Menschen verbinden viel Hochverarbeitetes mit Herz-Kreislauf-Tod, Typ-2-Diabetes und psychischen Erkrankungen. In einer britischen Studie von 2025 nahmen 50 Erwachsene mit wenig verarbeitetem Essen doppelt so viel ab wie mit hochverarbeiteter Kost nach denselben Ernährungsregeln.',
+      how: 'Lies die Zutatenliste: Nach der NOVA-Einteilung gilt ein Produkt als hochverarbeitet, wenn darin mindestens eine Zutat steht, die man in der Küche kaum verwendet, etwa Glukose-Fruktose-Sirup, gehärtete Fette oder hydrolysiertes Eiweiß, oder ein Zusatzstoff, der Geschmack und Aussehen formt, also Aromen, Geschmacksverstärker, Farbstoffe, Emulgatoren, Süßstoffe oder Verdickungsmittel. Ersetze zuerst das, was du am häufigsten isst, durch Gerichte aus Grundzutaten. Iss langsamer: In zehn randomisierten Studien war das Esstempo der deutlichste Unterschied, hochverarbeitete Kost wurde schneller gegessen. Nimm die Einteilung nicht zu genau: Selbst Ernährungsfachleute ordneten dieselben Produkte in einer französischen Umfrage oft unterschiedlich ein. Und in der britischen Studie senkte auch die hochverarbeitete Kost nach Ernährungsempfehlung Gewicht und LDL-Cholesterin; der Vorsprung des wenig verarbeiteten Essens lag bei rund einem Prozent Körpergewicht in acht Wochen.',
+      tags: ['ernaehrung', 'gewicht', 'blutzucker', 'herz-kreislauf', 'stimmung']
   }
+
 ];
 
 const TIP_CATEGORIES = [

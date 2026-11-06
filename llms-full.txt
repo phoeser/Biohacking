@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-10-27
+Stand: 2026-11-06
 
 # Fragen & Beschwerden
 
@@ -275,6 +275,11 @@ https://biohackingkompakt.de/thema/apigenin.html
 
 Apigenin bindet an dieselbe Stelle im Gehirn wie Benzodiazepine und hemmt in Zellkultur und bei Mäusen das NAD+-abbauende Enzym CD38. Die Humandaten zu Angst und Schlaf stammen fast alle aus Kamillenextrakt, der Apigenin enthält: Er senkte in einer Placebo-Studie die Symptome einer generalisierten Angststörung, und Meta-Analysen zeigen eine bessere subjektive Schlafqualität. Für isoliertes Apigenin gibt es keine veröffentlichte randomisierte Studie. Isoliertes Apigenin ist in der EU zudem ein nicht zugelassenes neuartiges Lebensmittel.
 
+## ApoB-Test (Apolipoprotein B)
+https://biohackingkompakt.de/thema/apob-test.html
+
+Der ApoB-Test misst Apolipoprotein B, und weil jedes gefäßschädigende Transportpartikel genau ein ApoB-Molekül trägt, zählt er die Partikel. In der Mendelschen Randomisierung mit 654.783 Menschen erklärte ApoB das Herzrisiko besser als LDL-Cholesterin oder Triglyceride, in der UK Biobank hing zusammen betrachtet nur ApoB mit Herzinfarkten zusammen. Die europäische Leitlinie empfiehlt den Wert zur Risikoeinschätzung, besonders bei hohen Triglyceriden, Diabetes, Übergewicht oder sehr niedrigem LDL. Im Bevölkerungsschnitt sagt ApoB aber kaum mehr voraus als Gesamt- und HDL-Cholesterin, weil die Werte meist im Gleichschritt laufen. Seinen Vorteil zeigt der Test dort, wo ApoB und LDL auseinandergehen. Ob eine Behandlung nach ApoB mehr Herzinfarkte verhindert als eine nach LDL, hat noch keine Studie geprüft.
+
 ## ARA-290 (Cibinetide)
 https://biohackingkompakt.de/thema/ara-290.html
 
@@ -415,6 +420,11 @@ https://biohackingkompakt.de/thema/bor.html
 
 Bor ist ein Spurenelement, für das beim Menschen bisher keine eindeutige Funktion gefunden wurde, weshalb EFSA und NIH es nicht als essenziell einstufen. In kleinen Studien veränderte es den Calcium- und Magnesiumhaushalt und die Sexualhormone, bei Frauen nach borarmer Kost stiegen Östradiol und Testosteron. Die einzige randomisierte Studie an Männern, 19 Bodybuilder über 7 Wochen, fand aber keinen Effekt auf Testosteron, Muskelmasse oder Kraft. Für Kniebeschwerden gibt es kurze, herstellernahe Studien mit einer speziellen Borverbindung. Das BfR schlägt für Nahrungsergänzungsmittel höchstens 0,5 mg Bor pro Tag vor, die Studien arbeiteten mit 2,5 bis 10 mg.
 
+## Botulinumtoxin („Botox“) gegen mimische Falten
+https://biohackingkompakt.de/thema/botulinumtoxin.html
+
+Botulinumtoxin Typ A hemmt die Ausschüttung des Botenstoffs Acetylcholin an der Nervenendigung, der behandelte Muskel spannt sich weniger an. Bei mittelstarken bis starken Zornesfalten ist das eine der am besten belegten ästhetischen Behandlungen: In sieben placebokontrollierten Doppelblindstudien mit 1.474 Teilnehmenden sprachen weit mehr Behandelte an als unter Placebo, in den US-Zulassungsstudien nach 30 Tagen 80 gegenüber 3 Prozent. Die Wirkung hält etwa drei bis vier Monate. Botulinumtoxin ist verschreibungspflichtig und gehört in erfahrene ärztliche Hände. Ob frühe, regelmäßige Behandlungen die Hautalterung langfristig bremsen, stützt sich bisher nur auf einen Zwillings-Fallbericht.
+
 ## BPC-157
 https://biohackingkompakt.de/thema/bpc-157.html
 
@@ -459,6 +469,11 @@ Calcium-D-Glucarat ist das Calciumsalz der Glucarsäure, die natürlich in Obst 
 https://biohackingkompakt.de/thema/canagliflozin.html
 
 Canagliflozin sorgt dafür, dass Zucker über den Urin ausgeschieden statt zurückgeholt wird, rund 50 bis 80 Gramm am Tag. Bei männlichen Mäusen verlängerte das die mittlere Lebenszeit um 14 Prozent, bei weiblichen um 1 Prozent und damit nicht signifikant. Am Menschen ist die Klasse hervorragend untersucht, aber für kranke Herzen und Nieren über rund 2 Jahre. Der Herz- und Nierenschutz ist belegt, die Lebensverlängerung beim Menschen nicht. Das wichtigste praktische Risiko ist die euglykämische Ketoazidose, deren Auslöser ausgerechnet Fasten, sehr kohlenhydratarme Ernährung und harte Belastung sind.
+
+## Cannabis / THC
+https://biohackingkompakt.de/thema/cannabis-thc.html
+
+THC, ausgeschrieben Tetrahydrocannabinol, ist der berauschende Hauptwirkstoff der Hanfpflanze und der Grund, warum Cannabis seit Langem als Heil- und Genussmittel genutzt wird. In Dutzenden randomisierten Studien lindern Cannabinoide chronische Schmerzen und Spastik messbar, meist aber nur in kleinem Umfang. Seit dem 1. April 2024 ist Cannabis in Deutschland kein Betäubungsmittel mehr: Ärztinnen und Ärzte verschreiben es auf normalem Rezept, Erwachsene dürfen es in engen Grenzen besitzen. Belegt sind auch die Risiken, vor allem Abhängigkeit und ein höheres Psychoserisiko bei täglichem Konsum starker Sorten.
 
 ## Cardarine (GW501516)
 https://biohackingkompakt.de/thema/cardarine.html
@@ -670,6 +685,11 @@ https://biohackingkompakt.de/thema/dmg.html
 
 DMG entsteht im Körper, wenn Betain eine Methylgruppe an Homocystein abgibt, und wird dann über Sarkosin zu Glycin abgebaut. Als Kapsel soll es die Sauerstoffnutzung verbessern, Leistung steigern und das Immunsystem anregen. Eine doppelblinde Studie mit 20 Freiwilligen fand 1981 eine vierfach stärkere Antwort auf eine Pneumokokken-Impfung, wiederholt wurde das nie. Placebokontrollierte Studien zu Autismus, Epilepsie, Multipler Sklerose, sportlicher Leistung und einer mitochondrialen Erkrankung fanden dagegen keinen Effekt, sie waren allerdings klein. Wo über Verträglichkeit berichtet wurde, war DMG gut verträglich, auch über 12 Monate.
 
+## DMSO (Dimethylsulfoxid)
+https://biohackingkompakt.de/thema/dmso.html
+
+DMSO ist ein Lösungsmittel mit einer ungewöhnlichen Eigenschaft: Es dringt rasch durch die Haut und nimmt gelöste Stoffe mit. In den USA ist es seit 1978 als Blasenspülung bei interstitieller Zystitis zugelassen, beim komplexen regionalen Schmerzsyndrom gibt es kleine positive Studien. Für die in sozialen Medien beworbene Wirkung als Wundermittel, vor allem beim Trinken, fehlen kontrollierte Daten.
+
 ## DNP (2,4-Dinitrophenol)
 https://biohackingkompakt.de/thema/dnp.html
 
@@ -805,6 +825,11 @@ https://biohackingkompakt.de/thema/floating.html
 
 Floating ist eine Form der Reizreduktion, in der Forschung Flotation-REST genannt. Eine einzelne Stunde senkte in Studien die momentane Angst deutlich, in einer kleinen randomisierten Studie zur generalisierten Angststörung erreichten 37 Prozent der Floater eine Remission. Die Sitzungen sind gut verträglich, schwere Nebenwirkungen wurden nicht beobachtet. Der Haken: Die Studien sind klein, meist ohne Scheinbehandlung, und die einzige mit einem echten Placebo im selben Tank fand bei chronischen Schmerzen keinen Unterschied.
 
+## Flohsamenschalen (Psyllium)
+https://biohackingkompakt.de/thema/flohsamenschalen.html
+
+Flohsamenschalen sind eines der am besten belegten pflanzlichen Mittel überhaupt: Sie machen den Stuhl weicher und regelmäßiger und senken das LDL-Cholesterin, nachgewiesen in Meta-Analysen randomisierter Studien und anerkannt von der europäischen Arzneimittelbehörde. Beim Abnehmen und beim Ruf als „natürliches Ozempic“ wird es deutlich dünner.
+
 ## Fluoxymesteron (Halotestin)
 https://biohackingkompakt.de/thema/fluoxymesteron.html
 
@@ -859,6 +884,11 @@ Garcinia cambogia wird seit den 1990er-Jahren als Fatburner verkauft. In Meta-An
 https://biohackingkompakt.de/thema/genanalysen.html
 
 Genanalysen sind dort stark, wo ein einzelnes Gen viel erklärt: bei erblichen Erkrankungen und in der Pharmakogenetik. In einer großen europäischen Studie mit 6.944 Patienten sanken klinisch relevante Nebenwirkungen, wenn Medikamente nach einem 12-Gen-Panel ausgewählt wurden. Schwach sind sie bei allem, was viele Gene und viel Lebensstil zusammen bestimmen. Gen-basierte Diätpläne waren in zwei randomisierten Studien nicht besser als Beratung ohne Gene. Kassenleistung ist ein Gentest nur bei medizinischer Indikation, Lifestyle-Panels zahlst du selbst.
+
+## Gentest APOE4 und polygene Risikoscores
+https://biohackingkompakt.de/thema/apoe4-gentest.html
+
+APOE4 ist der stärkste häufige genetische Risikofaktor für Alzheimer: Bis 85 erkrankten mit einer ε4-Kopie 23 bis 30 Prozent, mit zwei Kopien 51 bis 60 Prozent, ohne Blick auf das Gen 11 bis 14 Prozent. Zwei Kopien gelten seit 2024 als eigene genetische Form der Krankheit. Klinisch wichtig ist der Test inzwischen vor den neuen Amyloid-Antikörpern, die in der EU nur für Menschen mit höchstens einer ε4-Kopie zugelassen sind. Polygene Scores erkennen bei wenigen Fehlalarmen nur etwa jeden zehnten späteren Fall und verbessern die Vorhersage der Herzkrankheit kaum. Dass Gesunde durch das Wissen länger gesund bleiben, ist nicht gezeigt. In Deutschland ist ein solcher Test eine prädiktive genetische Untersuchung: Facharztvorbehalt, schriftliche Einwilligung, genetische Beratung vor und nach dem Ergebnis.
 
 ## Gesundheitscoaching
 https://biohackingkompakt.de/thema/gesundheitscoaching.html
@@ -1075,6 +1105,11 @@ https://biohackingkompakt.de/thema/jod.html
 
 Jod ist der Rohstoff für die Schilddrüsenhormone T4 und T3, und die Wirkkette dahin ist am Menschen vollständig aufgeklärt. Bei echtem Mangel ist der Nutzen unbestritten — Kaliumiodid ist in Deutschland ein zugelassenes Arzneimittel gegen die Jodmangelstruma. Hierzulande liegt etwa ein Drittel der Erwachsenen und knapp 45 Prozent der Kinder und Jugendlichen unter dem geschätzten Bedarf, die Mehrheit also nicht. Der Haken ist die U-Kurve: Oberhalb des Bedarfs nehmen Schilddrüsenstörungen und Autoimmunthyreoiditis wieder zu. Deshalb schlägt das BfR für Nahrungsergänzungsmittel höchstens 100 µg pro Tagesdosis vor — ein Tropfen Lugolscher Lösung enthält über 6.000 µg.
 
+## Kakaoflavanole
+https://biohackingkompakt.de/thema/kakaoflavanole.html
+
+Kakaoflavanole bringen mehr mit als die meisten Pflanzenstoffe: einen am Menschen gezeigten Wirkweg, eine zugelassene EU-Gesundheitsangabe und eine große Endpunktstudie. In COSMOS mit 21.442 Älteren gab es 27 Prozent weniger Herz-Kreislauf-Todesfälle. Der Hauptendpunkt wurde knapp verfehlt, und auf die Denkleistung zeigte sich insgesamt kein Effekt.
+
 ## Kalium
 https://biohackingkompakt.de/thema/kalium.html
 
@@ -1140,6 +1175,11 @@ https://biohackingkompakt.de/thema/kpv.html
 
 KPV ist das Endstück des Hormons alpha-MSH, also genau der Teil, dem die entzündungshemmende Wirkung zugeschrieben wird. In Zellkulturen dämpft es den Entzündungsschalter NF-kappa-B, in zwei Mausmodellen chronischer Darmentzündung verlief die Erkrankung unter KPV deutlich milder, und in menschlichen Hautzellen schützte es vor Feinstaubstress. Dazu kommt eine antimikrobielle Wirkung gegen Staphylococcus aureus und Candida albicans im Labor. Das ist ein stimmiges, gut nachvollziehbares Bild, aber es endet vor dem Menschen: Die US-Arzneimittelbehörde FDA hat keinerlei Daten zur Anwendung am Menschen gefunden. Wer KPV kauft, kauft ein Forschungspeptid ohne geprüfte Qualität.
 
+## Kratom (Mitragynin, 7-OH)
+https://biohackingkompakt.de/thema/kratom.html
+
+Kratom sind die Blätter eines südostasiatischen Baumes. Dort werden sie seit Generationen gekaut oder als Tee getrunken, gegen Müdigkeit bei harter Arbeit und als Opiumersatz. In den USA nutzen viele Menschen Kratom gegen Schmerzen, Angst und zum Ausstieg aus Opioiden und berichten in Befragungen von guter Wirkung. Kontrollierte Studien am Menschen gibt es erst wenige, keine an Patienten. Die Hauptwirkstoffe Mitragynin und 7-Hydroxymitragynin wirken am Opioidrezeptor; Abhängigkeit, erhöhte Leberwerte und Todesfälle, meist bei Mischkonsum, sind beschrieben.
+
 ## Kreatin Monohydrat
 https://biohackingkompakt.de/thema/kreatin.html
 
@@ -1169,6 +1209,11 @@ Kupfer ist essenziell und in seinen Funktionen lückenlos verstanden. Ein Mangel
 https://biohackingkompakt.de/thema/kurkuma.html
 
 Kurkuma ist der Wurzelstock von Curcuma longa, seine Wirkstoffe sind die Curcuminoide mit Curcumin als Hauptanteil. Am besten belegt ist die Kniearthrose: Eine Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten fand gegenüber Placebo 1,63 Punkte weniger auf der Schmerzskala und 18,85 Punkte weniger im WOMAC-Gesamtscore. Der erste Haken ist die Bioverfügbarkeit: Piperin, Mizellen und Phospholipid-Komplexe sind pharmakokinetisch sehr verschiedene Wege, für die es nicht überall eigene Wirksamkeitsdaten gibt. Der zweite Haken betrifft die Leber, denn genau die hochdosierten Präparate fallen in den Fallserien zur Leberschädigung auf.
+
+## KVT-I – kognitive Verhaltenstherapie bei Schlaflosigkeit (CBT-I)
+https://biohackingkompakt.de/thema/kvt-i.html
+
+KVT-I verbindet mehrere Bausteine: Schlafrestriktion, Stimuluskontrolle, Arbeit an Grübelgedanken, Schlafhygiene und Entspannung. In einer Meta-Analyse von 20 randomisierten Studien mit 1.162 Erwachsenen schliefen Behandelte rund 19 Minuten schneller ein und lagen nachts rund 26 Minuten weniger wach, der Vorteil hielt in einer weiteren Auswertung bis zu einem Jahr. Die europäische Insomnie-Leitlinie empfiehlt KVT-I als erste Behandlung für Erwachsene jeden Alters, persönlich oder digital; in Deutschland gibt es digitale Programme als DiGA auf Rezept. Die Grenzen: Die Gesamtschlafdauer steigt kaum, und in den ersten Wochen macht die Schlafrestriktion messbar müder.
 
 ## L-Arginin
 https://biohackingkompakt.de/thema/l-arginin.html
@@ -1344,6 +1389,11 @@ Magnesium-L-Threonat ist ein Salz aus Magnesium und L-Threonsäure, einem Abbaup
 https://biohackingkompakt.de/thema/mangan.html
 
 Mangan ist ein Spurenelement, ohne das mehrere Enzyme nicht arbeiten, darunter ein Schutzenzym in den Mitochondrien. Die normale Ernährung liefert in Deutschland im Mittel etwa die empfohlene Menge, zum Beispiel aus Vollkorn, Nüssen und Tee. Zu viel Mangan schadet dem Nervensystem; für Präparate empfiehlt das BfR deshalb eine sehr niedrige Höchstmenge.
+
+## Mariendistel (Silymarin)
+https://biohackingkompakt.de/thema/mariendistel.html
+
+Mariendistel ist die klassische Leberpflanze Europas und in Deutschland seit Jahrzehnten als Arzneimittel zur unterstützenden Behandlung von Lebererkrankungen im Handel. In Meta-Analysen sinken bei Fettleber die Leberwerte, und eine Studie fand Hinweise auf weniger Vernarbung. Die methodisch besten Studien verfehlten aber ihr Hauptziel, und auf die Sterblichkeit zeigt sich kein Effekt.
 
 ## MariTide (Maridebart Cafraglutide)
 https://biohackingkompakt.de/thema/maritide.html
@@ -1570,6 +1620,11 @@ https://biohackingkompakt.de/thema/niacin.html
 
 Niacin ist Vitamin B3, und unter dem Namen stecken zwei sehr verschiedene Stoffe. Nicotinsäure war jahrzehntelang ein Blutfettmedikament mit echten Erfolgen vor der Statin-Zeit; zusätzlich zu Statinen schützte sie in zwei großen Studien nicht mehr vor Herzereignissen. Nicotinamid senkte in einer Phase-3-Studie neue helle Hautkrebse.
 
+## Nicotinamid (Niacinamid)
+https://biohackingkompakt.de/thema/nicotinamid.html
+
+Nicotinamid ist die Amid-Form von Vitamin B3, in der Kosmetik heißt es Niacinamid. Als Tablette senkte es in einer großen australischen Studie bei Menschen mit mehreren hellen Hautkrebsen die Zahl neuer Tumoren um 23 Prozent, und zwar so lange, wie es eingenommen wurde. Bei Organtransplantierten und zur Vorbeugung von Typ-1-Diabetes blieb der Effekt aus.
+
 ## Nicotinamid-Ribosid (NR)
 https://biohackingkompakt.de/thema/nicotinamid-ribosid.html
 
@@ -1785,6 +1840,11 @@ https://biohackingkompakt.de/thema/pnc-27.html
 
 PNC-27 ist ein Laborpeptid, das in Zellkultur und in Mausmodellen Krebszellen gezielt angreift und gesunde Zellen verschont. Der Mechanismus ist beschrieben und von einer zweiten Arbeitsgruppe im Tier bestätigt. Am Menschen wurde PNC-27 nie geprüft: Es gibt keine einzige Studie und keine registrierte klinische Prüfung. Verkauft wurde es trotzdem als Krebsmittel.
 
+## Polynukleotide / PDRN („Lachs-DNA“, Skinbooster)
+https://biohackingkompakt.de/thema/polynukleotide.html
+
+Polynukleotide (PN) sind längere, PDRN (Polydesoxyribonukleotid) kürzere DNA-Ketten aus Fischen. PDRN aktiviert in Zell- und Tierversuchen den Adenosin-A2A-Rezeptor, der Entzündung dämpft und Gefäßneubildung fördert; für die längeren Polynukleotide wird ein wasserbindendes Gerüst in der Haut angenommen. Eine systematische Übersicht fand 2026 sieben randomisierte Studien mit zusammen 183 Teilnehmenden zu Hautverjüngung, Narben und Wundheilung, alle mit Verbesserungen und ohne schwere Nebenwirkungen, am deutlichsten bei der Wundheilung. Der Haken: Die Studien sind klein und kurz, nur eine einzige verglich doppelblind mit Kochsalzlösung, und gegen Hyaluronsäure zeigte sich in der Gesamtbewertung kein Unterschied.
+
 ## PQQ
 https://biohackingkompakt.de/thema/pqq.html
 
@@ -1969,6 +2029,11 @@ Schlafdauer und Sterblichkeit hängen in großen Beobachtungsstudien U-förmig z
 https://biohackingkompakt.de/thema/schwarzer-knoblauch.html
 
 Schwarzer Knoblauch ist frischer Knoblauch, der wochenlang bei Hitze und hoher Luftfeuchte gereift ist. In wenigen kleinen Studien sank der Blutdruck leicht, bei den Blutfetten widersprechen sich die Ergebnisse. Herz-Kreislauf-Ereignisse hat keine Studie gemessen. Und er ist nicht dasselbe wie gealterter Knoblauchextrakt oder Knoblauchpulver.
+
+## Schwarzkümmelöl (Nigella sativa)
+https://biohackingkompakt.de/thema/schwarzkuemmeloel.html
+
+Schwarzkümmel wird in Indien, der Türkei und im Nahen Osten seit langem als Gewürz und Hausmittel verwendet. Inzwischen gibt es dazu mehr als 80 randomisierte Studien, und zusammengefasst sinken Blutdruck, Blutzucker und Blutfette leicht. Die Studien sind klein, kurz und streuen stark; Herzinfarkte oder Schlaganfälle hat keine gemessen.
 
 ## Screenings
 https://biohackingkompakt.de/thema/screenings.html
@@ -2739,6 +2804,11 @@ https://biohackingkompakt.de/tipp/hiit.html
 
 Gegenüber Nichttraining ist der Effekt klar: In einer Meta-Analyse über 28 kontrollierte Studien mit 723 Teilnehmern stieg der VO2max um 5,5 ml·kg⁻¹·min⁻¹, bei zuvor Inaktiven in einer neueren Auswertung über 24 randomisierte Studien mit 877 Teilnehmern sogar um 7,72 ml/kg/min. Gegenüber lockerem Dauertraining ist der Vorsprung dagegen klein: 5,5 gegenüber 4,9 ml·kg⁻¹·min⁻¹ bei Gesunden und 3,72 ml/kg/min bei Inaktiven, während Blutdruck, Blutfette und Körperzusammensetzung sich zwischen beiden Formen nicht signifikant unterschieden. Der oft zitierte große Vorsprung von 46 % gegenüber 14 % stammt aus einer Studie mit 27 Herzinsuffizienzpatienten. Und die Intensitätsangaben der Studien beziehen sich immer auf eine gemessene, nie auf eine berechnete Herzfrequenz.
 
+## Hochverarbeitete Lebensmittel reduzieren
+https://biohackingkompakt.de/tipp/hochverarbeitete-lebensmittel.html
+
+In einer Stoffwechselstudie der US-Gesundheitsbehörde NIH aßen 20 Erwachsene mit hochverarbeiteter Kost 508 Kilokalorien am Tag mehr als mit unverarbeiteter, obwohl die angebotenen Mahlzeiten bei Kalorien, Zucker, Fett, Salz und Ballaststoffen abgestimmt waren; in zwei Wochen nahmen sie 0,9 Kilo zu. In der britischen UPDATE-Studie von 2025 nahmen 50 Erwachsene mit wenig verarbeitetem Essen 2,1 Prozent ihres Gewichts ab, mit hochverarbeiteter Kost nach denselben Ernährungsregeln 1,1 Prozent. Eine Umbrella-Übersicht im BMJ mit knapp 9,9 Millionen Menschen verbindet viel Hochverarbeitetes mit 50 Prozent mehr Herz-Kreislauf-Todesfällen, mehr Typ-2-Diabetes und mehr Angststörungen. Die Haken: Für harte Endpunkte gibt es nur Beobachtungsdaten von meist niedriger Qualität, und Fachleute ordnen dieselben Produkte oft unterschiedlich ein.
+
 ## HRV täglich messen
 https://biohackingkompakt.de/tipp/hrv-tracking.html
 
@@ -2758,6 +2828,11 @@ Zeitfenster-Essen wirkt. Gegenüber unverändertem Essverhalten senkt es das Gew
 https://biohackingkompakt.de/tipp/kaltduschen.html
 
 Es passiert etwas Messbares. In der bislang einzigen großen randomisierten Studie mit 3.018 Erwachsenen sanken die krankheitsbedingten Fehltage um 29 % (Inzidenzratenverhältnis 0,71; p = 0,003), und 30, 60 und 90 Sekunden wirkten gleich gut. Die Zahl der Krankheitstage sank dagegen nicht: Die Teilnehmer meldeten sich seltener krank, sie waren es nicht seltener. Der Kältereiz treibt Noradrenalin und Dopamin stark hoch — gemessen allerdings bei einer Stunde in 14 Grad kaltem Wasser, nicht unter der Dusche. Über elf randomisierte Studien hinweg war der Stresseffekt erst 12 Stunden nach der Anwendung nachweisbar, ein Immuneffekt gar nicht.
+
+## Ketogene Ernährung
+https://biohackingkompakt.de/tipp/ketogene-ernaehrung.html
+
+In randomisierten Studien führt ketogene Kost zu etwas mehr Gewichtsverlust als die Vergleichsdiäten: gegenüber Mittelmeerkost im Mittel 3,6 Kilo, gegenüber fettarmer Kost nach mindestens zwölf Monaten noch knapp ein Kilo. Die Triglyceride sinken, das HDL steigt, und beim Langzeitblutzucker HbA1c schnitt sie in der Keto-Med-Studie so gut ab wie eine Mittelmeerkost. Bei Kindern mit schwer behandelbarer Epilepsie halbierte sich die Zahl der Anfälle in einer randomisierten Studie bei 38 Prozent, ohne Diät bei 6 Prozent. Offen ist das LDL-Cholesterin: Es steigt bei vielen, bei schlanken, stoffwechselgesunden Menschen teils extrem. Ob es bei diesen „Lean Mass Hyper-Respondern“ weniger gefährlich ist, ist nicht geklärt; die wichtigste Verlaufsauswertung dazu wurde 2026 zurückgezogen.
 
 ## Mittagssonne für Vitamin D
 https://biohackingkompakt.de/tipp/licht-mittag.html
@@ -2789,6 +2864,11 @@ https://biohackingkompakt.de/tipp/meditation.html
 
 Meditation wirkt messbar auf Angst, Depressivität und Schmerz. In der Referenz-Meta-Analyse, die nur Studien mit aktiver Kontrollgruppe zuließ, lagen die Effektgrößen nach 8 Wochen bei 0,38 für Angst, 0,30 für Depressivität und 0,33 für Schmerz; nach 3–6 Monaten noch bei 0,22 und 0,23. Auch physiologisch bewegt sich etwas: über 39 MBSR-Studien mit 2059 Teilnehmern Cortisol mit g = −0,38, gegenüber aktiven Kontrollen noch −0,29. Die Haken: Bei Gesunden schrumpft der Vorsprung gegenüber einer gleichwertigen anderen Maßnahme auf null, und für Fokus gibt es keine positive Evidenz.
 
+## Mediterrane Ernährung
+https://biohackingkompakt.de/tipp/mediterrane-ernaehrung.html
+
+In PREDIMED, 7.447 Menschen in Spanien mit hohem Herz-Kreislauf-Risiko, traten unter mediterraner Kost mit nativem Olivenöl extra oder Nüssen rund 30 Prozent seltener Herzinfarkt, Schlaganfall oder Herztod auf als unter fettarmer Kost. 2018 zogen die Autoren die Studie zurück, weil unter anderem an zwei von elf Zentren nicht korrekt randomisiert worden war, und veröffentlichten eine Neuauswertung mit fast identischem Ergebnis. CORDIOPREV bestätigte den Vorteil bei 1.002 Herzpatienten. Die Gesamtsterblichkeit sank in PREDIMED nicht nachweisbar, und für das Gehirn fehlt ein Beleg aus randomisierten Studien.
+
 ## Die perfekte Morgen-Routine
 https://biohackingkompakt.de/tipp/morning-routine.html
 
@@ -2814,10 +2894,20 @@ https://biohackingkompakt.de/tipp/nootropic-stack.html
 
 Der belastbare Teil des Stacks ist Koffein, der zweitbeste L-Theanin. In der Meta-Analyse zur Kombination verbesserte sich gegenüber Placebo die Genauigkeit im Digit-Vigilance-Test mit SMD = 0,20 und im Attention-Switching-Test mit SMD = 0,33, jeweils in der zweiten Stunde nach Einnahme. L-Theanin allein verbesserte in 31 randomisierten Studien mit 1168 Teilnehmern die Wahlreaktionszeit mit SMD = 0,51. Die behauptete Synergie hat die EFSA dagegen ausdrücklich nicht anerkannt: Sie schreibt die Aufmerksamkeitswirkung dem Koffein zu. Für Citicolin hat die EFSA den Gedächtnisclaim abgelehnt, für Alpha-GPC liegt nur eine Sicherheitsbewertung vor, und der Stack als Ganzes wurde nie untersucht.
 
+## NSDR und Yoga Nidra
+https://biohackingkompakt.de/tipp/nsdr-yoga-nidra.html
+
+Yoga Nidra ist viel erforscht, meist allerdings in kleinen Studien. Über 73 Studien mit 5.201 Teilnehmenden sanken Stress, Angst und Depressivität deutlich, die Autorinnen und Autoren halten die Effekte wegen schwacher Methodik aber für überschätzt. Beim Schlaf sticht eine randomisierte Studie mit 144 Herzpatienten heraus: Schlafeffizienz 82 statt 64 Prozent, gemessen per Bewegungssensor. Die erste Meta-Analyse zum Schlaf bleibt dagegen ohne gesicherten Effekt. Eine einzelne Einheit von 10 Minuten macht frischer und weniger gestresst, kommt an ein 25-minütiges Nickerchen aber nicht heran.
+
 ## HRV & Schlafphasen mit Ring/Band
 https://biohackingkompakt.de/tipp/oura-whoop.html
 
 Ob du schläfst, erkennen die Geräte sehr gut. Über sieben Consumer-Geräte lag die Epoche-für-Epoche-Sensitivität bei ≥ 0,93, die Spezifität für Wachsein dagegen nur bei 0,18 bis 0,54. In einer Laborstudie mit sechs aktuellen Geräten erkannten alle über 90 % der Schlafepochen, bei Spezifitäten zwischen 29,39 % und 52,15 % und Cohens Kappa zwischen 0,21 und 0,53. Die Phasenzuordnung ist der schwächste Teil: gepoolte Genauigkeit bei Fingergeräten 0,65 für Leichtschlaf, 0,81 für Tiefschlaf, 0,74 für REM. Readiness- und Recovery-Scores sind proprietäre Rechenwerte ohne publizierte Validierung.
+
+## Physiologischer Seufzer
+https://biohackingkompakt.de/tipp/physiologischer-seufzer.html
+
+Zyklisches Seufzen, also zweimal einatmen und lange ausatmen, fünf Minuten am Tag, hob in einer randomisierten Stanford-Studie mit 108 Teilnehmenden über einen Monat die positive Stimmung stärker als Achtsamkeitsmeditation und senkte die Atemfrequenz in Ruhe. Angst und negative Stimmung sanken in beiden Gruppen gleich stark, Schlaf, Ruhepuls und Herzratenvariabilität änderten sich nicht anders als unter Meditation. Zwei kleine Folgestudien fanden weniger akute Angst und weniger Schmerz. Die Datenbasis ist klein, die Richtung einheitlich.
 
 ## Protein nach Alter anpassen
 https://biohackingkompakt.de/tipp/protein-longevity.html

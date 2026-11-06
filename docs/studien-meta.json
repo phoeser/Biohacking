@@ -12033,6 +12033,22 @@
 "Journal Article"
 ]
 },
+"pmcid:PMC13348863": {
+"autoren": "Shanshal M, Bali R, Moon E, Fox R, Khan S.",
+"doi": "",
+"iso": "J Cosmet Dermatol",
+"jahr": "2026",
+"journal": "Journal of cosmetic dermatology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13348863",
+"pmid": "",
+"quelle": "PMC",
+"titel": "Bilateral Gram‐Negative Facial Abscesses After Polynucleotide Injections",
+"typen": [
+"Letter"
+]
+},
 "pmcid:PMC3265077": {
 "autoren": "Chevalier G, Sinatra ST, Oschman JL, Sokal K, Sokal P.",
 "doi": "10.1155/2012/291541",
@@ -13747,6 +13763,36 @@
 "Journal Article"
 ]
 },
+"pmid:11126400": {
+"autoren": "Knip M, Douek IF, Moore WP, Gillmor HA, McLean AE, Bingley PJ, Gale EA, European Nicotinamide Diabetes Intervention Trial Group.",
+"doi": "10.1007/s001250051536",
+"iso": "Diabetologia",
+"jahr": "2000",
+"journal": "Diabetologia",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Adenoma, Islet Cell",
+"Pancreatic Neoplasms",
+"Abnormalities, Drug-Induced",
+"Diabetes Mellitus, Type 1",
+"Growth Disorders",
+"Niacinamide",
+"Pregnancy",
+"Female",
+"Chemical and Drug Induced Liver Injury"
+],
+"pmcid": "",
+"pmid": "11126400",
+"quelle": "MED",
+"titel": "Safety of high-dose nicotinamide: a review.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Review",
+"Journal Article"
+]
+},
 "pmid:11136953": {
 "autoren": "Sacks FM, Svetkey LP, Vollmer WM, Appel LJ, Bray GA, Harsha D, Obarzanek E, Conlin PR, Miller ER, Simons-Morton DG, Karanja N, Lin PH, DASH-Sodium Collaborative Research Group.",
 "doi": "10.1056/nejm200101043440101",
@@ -14679,6 +14725,38 @@
 "titel": "Tryptophan and 5-hydroxytryptophan for depression.",
 "typen": [
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:11958969": {
+"autoren": "Kjaer TW, Bertelsen C, Piccini P, Brooks D, Alving J, Lou HC.",
+"doi": "10.1016/s0926-6410(01)00106-9",
+"iso": "Brain Res Cogn Brain Res",
+"jahr": "2002",
+"journal": "Brain research. Cognitive brain research",
+"korr": [],
+"mesh": [
+"Humans",
+"Raclopride",
+"Dopamine",
+"Dopamine Antagonists",
+"Radiopharmaceuticals",
+"Tomography, Emission-Computed",
+"Magnetic Resonance Imaging",
+"Electroencephalography",
+"Meditation",
+"Consciousness",
+"Adult",
+"Middle Aged",
+"Male"
+],
+"pmcid": "",
+"pmid": "11958969",
+"quelle": "MED",
+"titel": "Increased dopamine tone during meditation-induced change of consciousness.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -16498,6 +16576,43 @@
 "Journal Article"
 ]
 },
+"pmid:12670672": {
+"autoren": "Perez MRSG, Zuurmond AWW, Bezemer DP, Kuik JD, van Loenen CA, de Lange JJ, Zuidhof JA.",
+"doi": "10.1016/s0304-3959(02)00414-1",
+"iso": "Pain",
+"jahr": "2003",
+"journal": "Pain",
+"korr": [],
+"mesh": [
+"Humans",
+"Reflex Sympathetic Dystrophy",
+"Dimethyl Sulfoxide",
+"Acetylcysteine",
+"Free Radical Scavengers",
+"Analysis of Variance",
+"Regression Analysis",
+"Chi-Square Distribution",
+"Statistics, Nonparametric",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Adult",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "12670672",
+"quelle": "MED",
+"titel": "The treatment of complex regional pain syndrome type I with free radical scavengers: a randomized controlled study.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:12699469": {
 "autoren": "Duffield-Lillico AJ, Dalkin BL, Reid ME, Turnbull BW, Slate EH, Jacobs ET, Marshall JR, Clark LC, Nutritional Prevention of Cancer Study Group.",
 "doi": "10.1046/j.1464-410x.2003.04167.x",
@@ -18207,6 +18322,39 @@
 "Comparative Study",
 "Research Support, U.S. Gov't, P.H.S.",
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:15043959": {
+"autoren": "Gale EA, Bingley PJ, Emmett CL, Collier T, European Nicotinamide Diabetes Intervention Trial (ENDIT) Group.",
+"doi": "10.1016/s0140-6736(04)15786-3",
+"iso": "Lancet",
+"jahr": "2004",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 1",
+"Autoimmune Diseases",
+"Disease Models, Animal",
+"Niacinamide",
+"Placebos",
+"Treatment Outcome",
+"Proportional Hazards Models",
+"Double-Blind Method",
+"Patient Selection",
+"Family Health",
+"Europe"
+],
+"pmcid": "",
+"pmid": "15043959",
+"quelle": "MED",
+"titel": "European Nicotinamide Diabetes Intervention Trial (ENDIT): a randomised controlled trial of intervention before the onset of type 1 diabetes.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -20561,6 +20709,37 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:16112345": {
+"autoren": "Coté TR, Mohan AK, Polder JA, Walton MK, Braun MM.",
+"doi": "10.1016/j.jaad.2005.06.011",
+"iso": "J Am Acad Dermatol",
+"jahr": "2005",
+"journal": "Journal of the American Academy of Dermatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Neuromuscular Agents",
+"Retrospective Studies",
+"Product Surveillance, Postmarketing",
+"Adverse Drug Reaction Reporting Systems",
+"United States Food and Drug Administration",
+"Adult",
+"Aged",
+"Middle Aged",
+"United States",
+"Female",
+"Male",
+"Botulinum Toxins, Type A"
+],
+"pmcid": "",
+"pmid": "16112345",
+"quelle": "MED",
+"titel": "Botulinum toxin type A injections: adverse events reported to the US Food and Drug Administration in therapeutic and cosmetic cases.",
+"typen": [
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
 "pmid:16123266": {
 "autoren": "Kurosu H, Yamamoto M, Clark JD, Pastor JV, Nandi A, Gurnani P, McGuinness OP, Chikuda H, Yamaguchi M, Kawaguchi H, Shimomura I, Takayama Y, Herz J, Kahn CR, Rosenblatt KP, Kuro-o M.",
 "doi": "10.1126/science.1112766",
@@ -21071,6 +21250,48 @@
 "titel": "Bioavailability of apigenin from apiin-rich parsley in humans.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:16418281": {
+"autoren": "Schroeter H, Heiss C, Balzer J, Kleinbongard P, Keen CL, Hollenberg NK, Sies H, Kwik-Uribe C, Schmitz HH, Kelm M.",
+"doi": "10.1073/pnas.0510168103",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "2006",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Cardiovascular System",
+"Aorta",
+"Endothelium",
+"Animals",
+"Rabbits",
+"Humans",
+"Cacao",
+"Nitric Oxide",
+"Catechin",
+"Flavones",
+"Diet",
+"Administration, Oral",
+"Multivariate Analysis",
+"Models, Statistical",
+"Risk",
+"Regression Analysis",
+"Signal Transduction",
+"Kinetics",
+"Time Factors",
+"Adult",
+"Male",
+"Nitric Oxide Synthase",
+"Cardiovascular Physiological Phenomena"
+],
+"pmcid": "PMC1327732",
+"pmid": "16418281",
+"quelle": "MED",
+"titel": "(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -23028,6 +23249,33 @@
 "Journal Article"
 ]
 },
+"pmid:17116793": {
+"autoren": "Binder WJ.",
+"doi": "10.1001/archfaci.8.6.426",
+"iso": "Arch Facial Plast Surg",
+"jahr": "2006",
+"journal": "Archives of facial plastic surgery",
+"korr": [],
+"mesh": [
+"Humans",
+"Neuromuscular Agents",
+"Rhytidoplasty",
+"Twins, Monozygotic",
+"Skin Aging",
+"Adult",
+"Female",
+"Botulinum Toxins, Type A"
+],
+"pmcid": "",
+"pmid": "17116793",
+"quelle": "MED",
+"titel": "Long-term effects of botulinum toxin type A (Botox) on facial lines: a comparison in identical twins.",
+"typen": [
+"Comparative Study",
+"Journal Article",
+"Case Reports"
+]
+},
 "pmid:17118949": {
 "autoren": "Brown CT, Yap T, Cromwell DA, Rixon L, Steed L, Mulligan K, Mundy A, Newman SP, van der Meulen J, Emberton M.",
 "doi": "10.1136/bmj.39010.551319.ae",
@@ -24572,6 +24820,34 @@
 "Journal Article"
 ]
 },
+"pmid:17943794": {
+"autoren": "Rambaldi A, Jacobs BP, Gluud C.",
+"doi": "10.1002/14651858.cd003620.pub3",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2007",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Hepatitis B",
+"Hepatitis C",
+"Liver Cirrhosis",
+"Liver Cirrhosis, Alcoholic",
+"Phytotherapy",
+"Randomized Controlled Trials as Topic",
+"Silybum marianum"
+],
+"pmcid": "PMC8724782",
+"pmid": "17943794",
+"quelle": "MED",
+"titel": "Milk thistle for alcoholic and/or hepatitis B or C virus liver diseases.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:17953788": {
 "autoren": "Moinard C, Nicolis I, Neveux N, Darquy S, Bénazeth S, Cynober L.",
 "doi": "10.1017/s0007114507841110",
@@ -25491,6 +25767,33 @@
 "Journal Article"
 ]
 },
+"pmid:18417375": {
+"autoren": "Brien S, Prescott P, Bashir N, Lewith H, Lewith G.",
+"doi": "10.1016/j.joca.2008.03.002",
+"iso": "Osteoarthritis Cartilage",
+"jahr": "2008",
+"journal": "Osteoarthritis and cartilage",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis",
+"Sulfones",
+"Dimethyl Sulfoxide",
+"Anti-Inflammatory Agents",
+"Free Radical Scavengers",
+"Dietary Supplements",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "",
+"pmid": "18417375",
+"quelle": "MED",
+"titel": "Systematic review of the nutritional supplements dimethyl sulfoxide (DMSO) and methylsulfonylmethane (MSM) in the treatment of osteoarthritis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:18425924": {
 "autoren": "Li J, Wu HM, Zhou RL, Liu GJ, Dong BR.",
 "doi": "10.1002/14651858.cd005592.pub2",
@@ -25617,6 +25920,41 @@
 "titel": "[Efficacy and possible mechanisms of action of a new peptide anxiolytic selank in the therapy of generalized anxiety disorders and neurasthenia].",
 "typen": [
 "Comparative Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:18456557": {
+"autoren": "Neal EG, Chaffe H, Schwartz RH, Lawson MS, Edwards N, Fitzsimmons G, Whitney A, Cross JH.",
+"doi": "10.1016/s1474-4422(08)70092-9",
+"iso": "Lancet Neurol",
+"jahr": "2008",
+"journal": "The Lancet. Neurology",
+"korr": [],
+"mesh": [
+"Brain",
+"Humans",
+"Epilepsy",
+"Ketones",
+"Treatment Outcome",
+"Data Interpretation, Statistical",
+"Patient Compliance",
+"Age Factors",
+"Food, Formulated",
+"Adolescent",
+"Child",
+"Child, Preschool",
+"Female",
+"Male",
+"Lipid Metabolism",
+"Surveys and Questionnaires"
+],
+"pmcid": "",
+"pmid": "18456557",
+"quelle": "MED",
+"titel": "The ketogenic diet for the treatment of childhood epilepsy: a randomised controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -27042,6 +27380,38 @@
 "Journal Article"
 ]
 },
+"pmid:19008265": {
+"autoren": "Ford AC, Talley NJ, Spiegel BM, Foxx-Orenstein AE, Schiller L, Quigley EM, Moayyedi P.",
+"doi": "10.1136/bmj.a2313",
+"iso": "BMJ",
+"jahr": "2008",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Mentha piperita",
+"Irritable Bowel Syndrome",
+"Plant Oils",
+"Parasympatholytics",
+"Treatment Outcome",
+"Dietary Fiber",
+"Adult",
+"United States",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC2583392",
+"pmid": "19008265",
+"quelle": "MED",
+"titel": "Effect of fibre, antispasmodics, and peppermint oil in the treatment of irritable bowel syndrome: systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:19016404": {
 "autoren": "Olsson EM, von Schéele B, Panossian AG.",
 "doi": "10.1055/s-0028-1088346",
@@ -27937,6 +28307,46 @@
 "Journal Article"
 ]
 },
+"pmid:19380203": {
+"autoren": "Simon LS, Grierson LM, Naseer Z, Bookman AAM, Shainhouse ZJ.",
+"doi": "10.1016/j.pain.2009.03.008",
+"iso": "Pain",
+"jahr": "2009",
+"journal": "Pain",
+"korr": [],
+"mesh": [
+"Skin",
+"Humans",
+"Arthralgia",
+"Osteoarthritis, Knee",
+"Diclofenac",
+"Dimethyl Sulfoxide",
+"Anti-Inflammatory Agents, Non-Steroidal",
+"Drug Combinations",
+"Free Radical Scavengers",
+"Treatment Outcome",
+"Activities of Daily Living",
+"Administration, Oral",
+"Administration, Topical",
+"Double-Blind Method",
+"Drug Synergism",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Drug-Related Side Effects and Adverse Reactions"
+],
+"pmcid": "",
+"pmid": "19380203",
+"quelle": "MED",
+"titel": "Efficacy and safety of topical diclofenac containing dimethyl sulfoxide (DMSO) compared with those of topical placebo, DMSO vehicle and oral diclofenac for knee osteoarthritis.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:19387395": {
 "autoren": "Rowlands DS, Thomson JS.",
 "doi": "10.1519/jsc.0b013e3181a00c80",
@@ -28496,6 +28906,46 @@
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:19605829": {
+"autoren": "Green RC, Roberts JS, Cupples LA, Relkin NR, Whitehouse PJ, Brown T, Eckert SL, Butson M, Sadovnick AD, Quaid KA, Chen C, Cook-Deegan R, Farrer LA, REVEAL Study Group.",
+"doi": "10.1056/nejmoa0809578",
+"iso": "N Engl J Med",
+"jahr": "2009",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Alzheimer Disease",
+"Genetic Predisposition to Disease",
+"Chi-Square Distribution",
+"Prospective Studies",
+"Depression",
+"Truth Disclosure",
+"Anxiety",
+"Genetic Counseling",
+"Genotype",
+"Polymorphism, Genetic",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Apolipoprotein E4",
+"Genetic Testing"
+],
+"pmcid": "PMC2778270",
+"pmid": "19605829",
+"quelle": "MED",
+"titel": "Disclosure of APOE genotype for risk of Alzheimer's disease.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:19633950": {
@@ -33188,6 +33638,34 @@
 "Journal Article"
 ]
 },
+"pmid:21487090": {
+"autoren": "Sniderman AD, Williams K, Contois JH, Monroe HM, McQueen MJ, de Graaf J, Furberg CD.",
+"doi": "10.1161/circoutcomes.110.959247",
+"iso": "Circ Cardiovasc Qual Outcomes",
+"jahr": "2011",
+"journal": "Circulation. Cardiovascular quality and outcomes",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Apolipoproteins B",
+"Risk Factors",
+"Reproducibility of Results",
+"Predictive Value of Tests",
+"Cholesterol, LDL",
+"Cholesterol, HDL",
+"Biomarkers"
+],
+"pmcid": "",
+"pmid": "21487090",
+"quelle": "MED",
+"titel": "A meta-analysis of low-density lipoprotein cholesterol, non-high-density lipoprotein cholesterol, and apolipoprotein B as markers of cardiovascular risk.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:21491385": {
 "autoren": "Buckley NA, Juurlink DN, Isbister G, Bennett MH, Lavonas EJ.",
 "doi": "10.1002/14651858.cd002041.pub3",
@@ -33340,6 +33818,44 @@
 "titel": "Lithium in drinking water and suicide rates across the East of England.",
 "typen": [
 "Journal Article"
+]
+},
+"pmid:21556001": {
+"autoren": "Genin E, Hannequin D, Wallon D, Sleegers K, Hiltunen M, Combarros O, Bullido MJ, Engelborghs S, De Deyn P, Berr C, Pasquier F, Dubois B, Tognoni G, Fiévet N, Brouwers N, Bettens K, Arosio B, Coto E, Del Zompo M, Mateo I, Epelbaum J, Frank-Garcia A, Helisalmi S, Porcellini E, Pilotto A, Forti P, Ferri R, Scarpini E, Siciliano G, Solfrizzi V, Sorbi S, Spalletta G, Valdivieso F, Vepsäläinen S, Alvarez V, Bosco P, Mancuso M, Panza F, Nacmias B, Bossù P, Hanon O, Piccardi P, Annoni G, Seripa D, Galimberti D, Licastro F, Soininen H, Dartigues JF, Kamboh MI, Van Broeckhoven C, Lambert JC, Amouyel P, Campion D.",
+"doi": "10.1038/mp.2011.52",
+"iso": "Mol Psychiatry",
+"jahr": "2011",
+"journal": "Molecular psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Alzheimer Disease",
+"Genetic Predisposition to Disease",
+"Incidence",
+"Odds Ratio",
+"Case-Control Studies",
+"Age Factors",
+"Heredity",
+"Genotype",
+"Alleles",
+"Aged",
+"Middle Aged",
+"United States",
+"France",
+"Female",
+"Male",
+"Apolipoprotein E3",
+"Apolipoprotein E4"
+],
+"pmcid": "PMC3162068",
+"pmid": "21556001",
+"quelle": "MED",
+"titel": "APOE and Alzheimer disease: a major gene with semi-dominant inheritance.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:21574975": {
@@ -35999,6 +36515,32 @@
 "Journal Article"
 ]
 },
+"pmid:22631616": {
+"autoren": "Mitchell MD, Gehrman P, Perlis M, Umscheid CA.",
+"doi": "10.1186/1471-2296-13-40",
+"iso": "BMC Fam Pract",
+"jahr": "2012",
+"journal": "BMC family practice",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Evidence-Based Medicine",
+"Quality of Life",
+"Comparative Effectiveness Research",
+"Cognitive Behavioral Therapy",
+"Outcome Assessment, Health Care"
+],
+"pmcid": "PMC3481424",
+"pmid": "22631616",
+"quelle": "MED",
+"titel": "Comparative effectiveness of cognitive behavioral therapy for insomnia: a systematic review.",
+"typen": [
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:22643043": {
 "autoren": "Ishaque S, Shamseer L, Bukutu C, Vohra S.",
 "doi": "10.1186/1472-6882-12-70",
@@ -36483,6 +37025,42 @@
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:22797645": {
+"autoren": "Fried MW, Navarro VJ, Afdhal N, Belle SH, Wahed AS, Hawke RL, Doo E, Meyers CM, Reddy KR, Silymarin in NASH and C Hepatitis (SyNCH) Study Group.",
+"doi": "10.1001/jama.2012.8265",
+"iso": "JAMA",
+"jahr": "2012",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Hepatitis C, Chronic",
+"Silymarin",
+"Alanine Transaminase",
+"Interferons",
+"DNA, Viral",
+"Antioxidants",
+"Treatment Outcome",
+"Treatment Failure",
+"Double-Blind Method",
+"Dose-Response Relationship, Drug",
+"Quality of Life",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC3683986",
+"pmid": "22797645",
+"quelle": "MED",
+"titel": "Effect of silymarin (milk thistle) on liver disease in patients with chronic hepatitis C unsuccessfully treated with interferon therapy: a randomized controlled trial.",
+"typen": [
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:22803085": {
@@ -38090,6 +38668,30 @@
 "Journal Article"
 ]
 },
+"pmid:23261937": {
+"autoren": "Vlemincx E, Abelson JL, Lehrer PM, Davenport PW, Van Diest I, Van den Bergh O.",
+"doi": "10.1016/j.biopsycho.2012.12.001",
+"iso": "Biol Psychol",
+"jahr": "2013",
+"journal": "Biological psychology",
+"korr": [],
+"mesh": [
+"Humans",
+"Respiration",
+"Respiratory Mechanics",
+"Models, Psychological",
+"Respiratory Rate"
+],
+"pmcid": "",
+"pmid": "23261937",
+"quelle": "MED",
+"titel": "Respiratory variability and sighing: a psychophysiological reset model.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Review",
+"Journal Article"
+]
+},
 "pmid:23288205": {
 "autoren": "Hickey SE, Curry CJ, Toriello HV.",
 "doi": "10.1038/gim.2012.165",
@@ -38546,6 +39148,48 @@
 "titel": "Analysis of safety from a human clinical trial with pterostilbene.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:23432189": {
+"autoren": "Estruch R, Ros E, Salas-Salvadó J, Covas MI, Corella D, Arós F, Gómez-Gracia E, Ruiz-Gutiérrez V, Fiol M, Lapetra J, Lamuela-Raventos RM, Serra-Majem L, Pintó X, Basora J, Muñoz MA, Sorlí JV, Martínez JA, Martínez-González MA, PREDIMED Study Investigators.",
+"doi": "10.1056/nejmoa1200303",
+"iso": "N Engl J Med",
+"jahr": "2013",
+"journal": "The New England journal of medicine",
+"korr": [
+"zurueckgezogen"
+],
+"mesh": [
+"Humans",
+"Nuts",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Plant Oils",
+"Diet, Fat-Restricted",
+"Multivariate Analysis",
+"Risk Factors",
+"Primary Prevention",
+"Diet, Mediterranean",
+"Dietary Supplements",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Stroke",
+"Kaplan-Meier Estimate",
+"Olive Oil"
+],
+"pmcid": "",
+"pmid": "23432189",
+"quelle": "MED",
+"titel": "Primary prevention of cardiovascular disease with a Mediterranean diet.",
+"typen": [
+"Retracted Publication",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -39383,6 +40027,35 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:23651522": {
+"autoren": "Bueno NB, de Melo IS, de Oliveira SL, da Rocha Ataide T.",
+"doi": "10.1017/s0007114513000548",
+"iso": "Br J Nutr",
+"jahr": "2013",
+"journal": "The British journal of nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Weight Loss",
+"Dietary Carbohydrates",
+"Dietary Fats",
+"Diet, Fat-Restricted",
+"Diet, Carbohydrate-Restricted",
+"Diet, Ketogenic"
+],
+"pmcid": "",
+"pmid": "23651522",
+"quelle": "MED",
+"titel": "Very-low-carbohydrate ketogenic diet v. low-fat diet for long-term weight loss: a meta-analysis of randomised controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Review",
 "Journal Article"
 ]
 },
@@ -41859,6 +42532,37 @@
 "titel": "Metabolism of methylstenbolone studied with human liver microsomes and the uPA⁺/⁺-SCID chimeric mouse model.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:24497651": {
+"autoren": "Kyle SD, Miller CB, Rogers Z, Siriwardena AN, Macmahon KM, Espie CA.",
+"doi": "10.5665/sleep.3386",
+"iso": "Sleep",
+"jahr": "2014",
+"journal": "Sleep",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Treatment Outcome",
+"Psychomotor Performance",
+"Attention",
+"Wakefulness",
+"Sleep Stages",
+"Time Factors",
+"Middle Aged",
+"Female",
+"Male",
+"Cognitive Behavioral Therapy"
+],
+"pmcid": "PMC3900612",
+"pmid": "24497651",
+"quelle": "MED",
+"titel": "Sleep restriction therapy for insomnia is associated with reduced objective total sleep time, increased daytime somnolence, and objectively impaired vigilance: implications for the clinical management of insomnia disorder.",
+"typen": [
+"Clinical Trial",
+"research-article",
 "Journal Article"
 ]
 },
@@ -46594,6 +47298,31 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:26054060": {
+"autoren": "Trauer JM, Qian MY, Doyle JS, Rajaratnam SM, Cunnington D.",
+"doi": "10.7326/m14-2841",
+"iso": "Ann Intern Med",
+"jahr": "2015",
+"journal": "Annals of internal medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Chronic Disease",
+"Time Factors",
+"Relaxation Therapy",
+"Cognitive Behavioral Therapy"
+],
+"pmcid": "",
+"pmid": "26054060",
+"quelle": "MED",
+"titel": "Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:26056233": {
 "autoren": "Lee SH, Kim MY, Kim HY, Lee YM, Kim H, Nam KA, Roh MR, Min do S, Chung KY, Choi KY.",
 "doi": "10.1084/jem.20141601",
@@ -46756,6 +47485,37 @@
 "titel": "The treatment of infectious disease with a medical device: results of a clinical trial of ultraviolet blood irradiation (UVBI) in patients with hepatitis C infection.",
 "typen": [
 "Clinical Trial, Phase II",
+"Journal Article"
+]
+},
+"pmid:26103030": {
+"autoren": "Whiting PF, Wolff RF, Deshpande S, Di Nisio M, Duffy S, Hernandez AV, Keurentjes JC, Lang S, Misso K, Ryder S, Schmidlkofer S, Westwood M, Kleijnen J.",
+"doi": "10.1001/jama.2015.6358",
+"iso": "JAMA",
+"jahr": "2015",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Muscle Spasticity",
+"Tourette Syndrome",
+"Glaucoma",
+"Anorexia",
+"Nausea",
+"Cannabinoids",
+"Mental Disorders",
+"Randomized Controlled Trials as Topic",
+"Chronic Pain",
+"Medical Marijuana"
+],
+"pmcid": "",
+"pmid": "26103030",
+"quelle": "MED",
+"titel": "Cannabinoids for Medical Use: A Systematic Review and Meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -47578,6 +48338,36 @@
 "titel": "Euglycemic Diabetic Ketoacidosis: A Predictable, Detectable, and Preventable Safety Concern With SGLT2 Inhibitors.",
 "typen": [
 "Comment",
+"Journal Article"
+]
+},
+"pmid:26313835": {
+"autoren": "Guo Y, Lu Y, Liu T, Liu T, Zhou Y, Yang P, Zhu J, Chen L, Yang Q.",
+"doi": "10.1097/prs.0000000000001544",
+"iso": "Plast Reconstr Surg",
+"jahr": "2015",
+"journal": "Plastic and reconstructive surgery",
+"korr": [],
+"mesh": [
+"Humans",
+"Neuromuscular Agents",
+"Cosmetic Techniques",
+"Models, Statistical",
+"Double-Blind Method",
+"Skin Aging",
+"Dose-Response Relationship, Drug",
+"Randomized Controlled Trials as Topic",
+"Botulinum Toxins, Type A",
+"Outcome Assessment, Health Care"
+],
+"pmcid": "",
+"pmid": "26313835",
+"quelle": "MED",
+"titel": "Efficacy and Safety of Botulinum Toxin Type A in the Treatment of Glabellar Lines: A Meta-Analysis of Randomized, Placebo-Controlled, Double-Blind Trials.",
+"typen": [
+"Video-Audio Media",
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -48445,6 +49235,36 @@
 "titel": "Characterization of a delta-electroencephalogram (-sleep)-inducing peptide.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:26561625": {
+"autoren": "Gibb RD, McRorie JW, Russell DA, Hasselblad V, D'Alessio DA.",
+"doi": "10.3945/ajcn.115.106989",
+"iso": "Am J Clin Nutr",
+"jahr": "2015",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Prediabetic State",
+"Hyperglycemia",
+"Hypoglycemia",
+"Psyllium",
+"Combined Modality Therapy",
+"Risk",
+"Evidence-Based Medicine",
+"Randomized Controlled Trials as Topic",
+"Prebiotics",
+"Glycated Hemoglobin"
+],
+"pmcid": "",
+"pmid": "26561625",
+"quelle": "MED",
+"titel": "Psyllium fiber improves glycemic control proportional to loss of glycemic control: a meta-analysis of data in euglycemic subjects, patients at risk of type 2 diabetes mellitus, and patients being treated for type 2 diabetes mellitus.",
+"typen": [
+"Meta-Analysis",
 "Journal Article"
 ]
 },
@@ -49368,6 +50188,45 @@
 "pmid": "26840489",
 "quelle": "MED",
 "titel": "Naturally occurring p16(Ink4a)-positive cells shorten healthy lifespan.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:26855425": {
+"autoren": "Li P, Janczewski WA, Yackle K, Kam K, Pagliardini S, Krasnow MA, Feldman JL.",
+"doi": "10.1038/nature16964",
+"iso": "Nature",
+"jahr": "2016",
+"journal": "Nature",
+"korr": [],
+"mesh": [
+"Respiratory Center",
+"Neurons",
+"Animals",
+"Mice, Inbred C57BL",
+"Mice",
+"Rats",
+"Rats, Sprague-Dawley",
+"Gastrin-Releasing Peptide",
+"Bombesin",
+"Neurokinin B",
+"Receptors, Bombesin",
+"Emotions",
+"Signal Transduction",
+"Respiration",
+"Female",
+"Male",
+"Ribosome Inactivating Proteins, Type 1",
+"In Vitro Techniques",
+"Saporins"
+],
+"pmcid": "PMC4852886",
+"pmid": "26855425",
+"quelle": "MED",
+"titel": "The peptidergic control circuit for sighing.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
@@ -50450,6 +51309,34 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:27340676": {
+"autoren": "Voroneanu L, Nistor I, Dumea R, Apetrii M, Covic A.",
+"doi": "10.1155/2016/5147468",
+"iso": "J Diabetes Res",
+"jahr": "2016",
+"journal": "Journal of diabetes research",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Silymarin",
+"Blood Glucose",
+"Antioxidants",
+"Treatment Outcome",
+"Randomized Controlled Trials as Topic",
+"Glycated Hemoglobin"
+],
+"pmcid": "PMC4908257",
+"pmid": "27340676",
+"quelle": "MED",
+"titel": "Silymarin in Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:27343205": {
 "autoren": "Lee YM, Wolf P, Hauner H, Skurk T.",
 "doi": "10.3402/fnr.v60.30298",
@@ -50582,6 +51469,39 @@
 "Journal Article"
 ]
 },
+"pmid:27385608": {
+"autoren": "Hall KD, Chen KY, Guo J, Lam YY, Leibel RL, Mayer LE, Reitman ML, Rosenbaum M, Smith SR, Walsh BT, Ravussin E.",
+"doi": "10.3945/ajcn.116.133561",
+"iso": "Am J Clin Nutr",
+"jahr": "2016",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Adipose Tissue",
+"Humans",
+"Obesity",
+"Weight Loss",
+"Dietary Carbohydrates",
+"Dietary Fats",
+"Body Composition",
+"Energy Metabolism",
+"Energy Intake",
+"Adult",
+"Male",
+"Overweight",
+"Diet, Carbohydrate-Restricted",
+"Diet, Ketogenic"
+],
+"pmcid": "PMC4962163",
+"pmid": "27385608",
+"quelle": "MED",
+"titel": "Energy expenditure and body composition changes after an isocaloric ketogenic diet in overweight and obese men.",
+"typen": [
+"Clinical Trial",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:27397664": {
 "autoren": "Herring WJ, Connor KM, Snyder E, Snavely DB, Zhang Y, Hutzelmann J, Matzura-Wolfe D, Benca RM, Krystal AD, Walsh JK, Lines C, Roth T, Michelson D.",
 "doi": "10.5664/jcsm.6116",
@@ -50677,6 +51597,45 @@
 "Research Support, Non-U.S. Gov't",
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:27404329": {
+"autoren": "Vlemincx E, Van Diest I, Van den Bergh O.",
+"doi": "10.1016/j.physbeh.2016.07.004",
+"iso": "Physiol Behav",
+"jahr": "2016",
+"journal": "Physiology & behavior",
+"korr": [],
+"mesh": [
+"Facial Muscles",
+"Humans",
+"Plethysmography",
+"Electromyography",
+"Uncertainty",
+"Photic Stimulation",
+"Stress, Psychological",
+"Anxiety",
+"Personality",
+"Cues",
+"Personality Assessment",
+"Psychological Tests",
+"Respiration",
+"Muscle Tonus",
+"Adolescent",
+"Adult",
+"Female",
+"Male",
+"Young Adult",
+"Self Report",
+"Breath Holding"
+],
+"pmcid": "",
+"pmid": "27404329",
+"quelle": "MED",
+"titel": "A sigh of relief or a sigh to relieve: The psychological and physiological relief effect of deep breaths.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Journal Article"
 ]
 },
@@ -52290,6 +53249,44 @@
 "Journal Article"
 ]
 },
+"pmid:28068660": {
+"autoren": "Roberts JS, Gornick MC, Carere DA, Uhlmann WR, Ruffin MT, Green RC.",
+"doi": "10.1159/000455006",
+"iso": "Public Health Genomics",
+"jahr": "2017",
+"journal": "Public health genomics",
+"korr": [],
+"mesh": [
+"Humans",
+"Breast Neoplasms",
+"Longitudinal Studies",
+"Attitude to Health",
+"Motivation",
+"Perception",
+"Decision Making",
+"Genomics",
+"Adolescent",
+"Adult",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Genetic Testing",
+"Consumer Behavior",
+"Surveys and Questionnaires",
+"Direct-To-Consumer Screening and Testing"
+],
+"pmcid": "PMC12834086",
+"pmid": "28068660",
+"quelle": "MED",
+"titel": "Direct-to-Consumer Genetic Testing: User Motivations, Decision Making, and Perceived Utility of Results.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:28096757": {
 "autoren": "Jung YP, Earnest CP, Koozehchian M, Cho M, Barringer N, Walker D, Rasmussen C, Greenwood M, Murano PS, Kreider RB.",
 "doi": "10.1186/s12970-016-0158-3",
@@ -52632,6 +53629,35 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:28315375": {
+"autoren": "Vlemincx E, Meulders M, Abelson JL.",
+"doi": "10.1016/j.biopsycho.2017.03.005",
+"iso": "Biol Psychol",
+"jahr": "2017",
+"journal": "Biological psychology",
+"korr": [],
+"mesh": [
+"Humans",
+"Emotions",
+"Anxiety",
+"Cues",
+"Respiration",
+"Respiratory Mechanics",
+"Adolescent",
+"Adult",
+"Female",
+"Male",
+"Young Adult",
+"Healthy Volunteers"
+],
+"pmcid": "",
+"pmid": "28315375",
+"quelle": "MED",
+"titel": "Sigh rate during emotional transitions: More evidence for a sigh of relief.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -53066,6 +54092,33 @@
 "titel": "A Randomized Trial of Silymarin for the Treatment of Nonalcoholic Steatohepatitis.",
 "typen": [
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:28439881": {
+"autoren": "Ried K, Fakler P, Stocks NP.",
+"doi": "10.1002/14651858.cd008893.pub3",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2017",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Cacao",
+"Hypertension",
+"Flavonols",
+"Blood Pressure",
+"Adult",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC6478304",
+"pmid": "28439881",
+"quelle": "MED",
+"titel": "Effect of cocoa on blood pressure.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"systematic-review",
 "Journal Article"
 ]
 },
@@ -55713,6 +56766,41 @@
 "Journal Article"
 ]
 },
+"pmid:29356827": {
+"autoren": "Solomon A, Turunen H, Ngandu T, Peltonen M, Levälahti E, Helisalmi S, Antikainen R, Bäckman L, Hänninen T, Jula A, Laatikainen T, Lehtisalo J, Lindström J, Paajanen T, Pajala S, Stigsdotter-Neely A, Strandberg T, Tuomilehto J, Soininen H, Kivipelto M.",
+"doi": "10.1001/jamaneurol.2017.4365",
+"iso": "JAMA Neurol",
+"jahr": "2018",
+"journal": "JAMA neurology",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise",
+"Diet",
+"Retrospective Studies",
+"Cognition Disorders",
+"Neuropsychological Tests",
+"Aged",
+"Middle Aged",
+"Finland",
+"Female",
+"Male",
+"Apolipoprotein E4",
+"Healthy Lifestyle",
+"Cognitive Behavioral Therapy",
+"Persons with Disabilities"
+],
+"pmcid": "PMC5885273",
+"pmid": "29356827",
+"quelle": "MED",
+"titel": "Effect of the Apolipoprotein E Genotype on Cognitive Change During a Multidomain Lifestyle Intervention: A Subgroup Analysis of a Randomized Clinical Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:29378307": {
 "autoren": "Ajmera V, Belt P, Wilson LA, Gill RM, Loomba R, Kleiner DE, Neuschwander-Tetri BA, Terrault N, Nonalcoholic Steatohepatitis Clinical Research Network.",
 "doi": "10.1016/j.cgh.2018.01.026",
@@ -56972,6 +58060,40 @@
 "Journal Article"
 ]
 },
+"pmid:29897866": {
+"autoren": "Estruch R, Ros E, Salas-Salvadó J, Covas MI, Corella D, Arós F, Gómez-Gracia E, Ruiz-Gutiérrez V, Fiol M, Lapetra J, Lamuela-Raventos RM, Serra-Majem L, Pintó X, Basora J, Muñoz MA, Sorlí JV, Martínez JA, Fitó M, Gea A, Hernán MA, Martínez-González MA, PREDIMED Study Investigators.",
+"doi": "10.1056/nejmoa1800389",
+"iso": "N Engl J Med",
+"jahr": "2018",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "29897866",
+"quelle": "MED",
+"titel": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts.",
+"typen": [
+"Corrected and Republished Article",
+"Journal Article"
+]
+},
+"pmid:29897867": {
+"autoren": "Estruch R, Ros E, Salas-Salvadó J, Covas MI, Corella D, Arós F, Gómez-Gracia E, Ruiz-Gutiérrez V, Fiol M, Lapetra J, Lamuela-Raventos RM, Serra-Majem L, Pintó X, Basora J, Muñoz MA, Sorlí JV, Martínez JA, Martínez-González MA.",
+"doi": "10.1056/nejmc1806491",
+"iso": "N Engl J Med",
+"jahr": "2018",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "29897867",
+"quelle": "MED",
+"titel": "Retraction and Republication: Primary Prevention of Cardiovascular Disease with a Mediterranean Diet. N Engl J Med 2013;368:1279-90.",
+"typen": [
+"Journal Article",
+"Retraction Notice"
+]
+},
 "pmid:29926099": {
 "autoren": "Burgess S, Ference BA, Staley JR, Freitag DF, Mason AM, Nielsen SF, Willeit P, Young R, Surendran P, Karthikeyan S, Bolton TR, Peters JE, Kamstrup PR, Tybjærg-Hansen A, Benn M, Langsted A, Schnohr P, Vedel-Krogh S, Kobylecki CJ, Ford I, Packard C, Trompet S, Jukema JW, Sattar N, Di Angelantonio E, Saleheen D, Howson JMM, Nordestgaard BG, Butterworth AS, Danesh J, European Prospective Investigation Into Cancer and Nutrition–Cardiovascular Disease (EPIC-CVD) Consortium.",
 "doi": "10.1001/jamacardio.2018.1470",
@@ -57279,6 +58401,22 @@
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:30000936": {
+"autoren": "",
+"doi": "",
+"iso": "",
+"jahr": "2006",
+"journal": "National Institute of Child Health and Human Development, Bethesda (MD)",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "30000936",
+"quelle": "MED",
+"titel": "Black Seed",
+"typen": [
+"Review"
 ]
 },
 "pmid:30006901": {
@@ -59574,6 +60712,44 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:30694319": {
+"autoren": "Ference BA, Kastelein JJP, Ray KK, Ginsberg HN, Chapman MJ, Packard CJ, Laufs U, Oliver-Williams C, Wood AM, Butterworth AS, Di Angelantonio E, Danesh J, Nicholls SJ, Bhatt DL, Sabatine MS, Catapano AL.",
+"doi": "10.1001/jama.2018.20045",
+"iso": "JAMA",
+"jahr": "2019",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Coronary Disease",
+"Genetic Predisposition to Disease",
+"Lipoprotein Lipase",
+"Triglycerides",
+"Apolipoproteins B",
+"Receptors, LDL",
+"Risk Factors",
+"Case-Control Studies",
+"Prospective Studies",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Metabolic Networks and Pathways",
+"Genetic Variation",
+"Mendelian Randomization Analysis",
+"Loss of Function Mutation"
+],
+"pmcid": "PMC6439767",
+"pmid": "30694319",
+"quelle": "MED",
+"titel": "Association of Triglyceride-Lowering LPL Variants and LDL-C-Lowering LDLR Variants With Risk of Coronary Heart Disease.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:30699470": {
 "autoren": "Krogsbøll LT, Jørgensen KJ, Gøtzsche PC.",
 "doi": "10.1002/14651858.cd009009.pub3",
@@ -59668,6 +60844,35 @@
 "typen": [
 "research-article",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:30744710": {
+"autoren": "Monteiro CA, Cannon G, Levy RB, Moubarac JC, Louzada ML, Rauber F, Khandpur N, Cediel G, Neri D, Martinez-Steele E, Baraldi LG, Jaime PC.",
+"doi": "10.1017/s1368980018003762",
+"iso": "Public Health Nutr",
+"jahr": "2019",
+"journal": "Public health nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Diet",
+"Food Preferences",
+"Energy Intake",
+"Nutritive Value",
+"Nutrition Policy",
+"Food Handling",
+"Food Labeling",
+"Fast Foods",
+"Consumer Behavior"
+],
+"pmcid": "PMC10260459",
+"pmid": "30744710",
+"quelle": "MED",
+"titel": "Ultra-processed foods: what they are and how to identify them.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -59854,6 +61059,38 @@
 "Journal Article"
 ]
 },
+"pmid:30864165": {
+"autoren": "Rees K, Takeda A, Martin N, Ellis L, Wijesekara D, Vepa A, Das A, Hartley L, Stranges S.",
+"doi": "10.1002/14651858.cd009825.pub3",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2019",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Cholesterol",
+"Primary Prevention",
+"Diet, Mediterranean",
+"Blood Pressure",
+"Adult",
+"Cholesterol, LDL",
+"Cholesterol, HDL",
+"Randomized Controlled Trials as Topic",
+"Secondary Prevention"
+],
+"pmcid": "PMC6414510",
+"pmid": "30864165",
+"quelle": "MED",
+"titel": "Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:30865796": {
 "autoren": "Ray KK, Bays HE, Catapano AL, Lalwani ND, Bloedon LT, Sterling LR, Robinson PL, Ballantyne CM, CLEAR Harmony Trial.",
 "doi": "10.1056/nejmoa1803917",
@@ -60026,6 +61263,38 @@
 "titel": "Water intake after dehydration makes muscles more susceptible to cramp but electrolytes reverse that effect.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:30902669": {
+"autoren": "Di Forti M, Quattrone D, Freeman TP, Tripoli G, Gayer-Anderson C, Quigley H, Rodriguez V, Jongsma HE, Ferraro L, La Cascia C, La Barbera D, Tarricone I, Berardi D, Szöke A, Arango C, Tortelli A, Velthorst E, Bernardo M, Del-Ben CM, Menezes PR, Selten JP, Jones PB, Kirkbride JB, Rutten BP, de Haan L, Sham PC, van Os J, Lewis CM, Lynskey M, Morgan C, Murray RM, EU-GEI WP2 Group.",
+"doi": "10.1016/s2215-0366(19)30048-3",
+"iso": "Lancet Psychiatry",
+"jahr": "2019",
+"journal": "The lancet. Psychiatry",
+"korr": [],
+"mesh": [
+"Humans",
+"Marijuana Abuse",
+"Incidence",
+"Odds Ratio",
+"Case-Control Studies",
+"Psychotic Disorders",
+"Adult",
+"Middle Aged",
+"Brazil",
+"Europe",
+"Female",
+"Male",
+"Young Adult"
+],
+"pmcid": "PMC7646282",
+"pmid": "30902669",
+"quelle": "MED",
+"titel": "The contribution of cannabis use to variation in the incidence of psychotic disorder across Europe (EU-GEI): a multicentre case-control study.",
+"typen": [
+"research-article",
+"Multicenter Study",
 "Journal Article"
 ]
 },
@@ -60319,6 +61588,31 @@
 "Journal Article"
 ]
 },
+"pmid:30973850": {
+"autoren": "Olsen EO, O'Donnell J, Mattson CL, Schier JG, Wilson N.",
+"doi": "10.15585/mmwr.mm6814a2",
+"iso": "MMWR Morb Mortal Wkly Rep",
+"jahr": "2019",
+"journal": "MMWR. Morbidity and mortality weekly report",
+"korr": [],
+"mesh": [
+"Humans",
+"Mitragyna",
+"Adverse Drug Reaction Reporting Systems",
+"United States",
+"Female",
+"Male",
+"Drug Overdose"
+],
+"pmcid": "PMC6459583",
+"pmid": "30973850",
+"quelle": "MED",
+"titel": "Notes from the Field: Unintentional Drug Overdose Deaths with Kratom Detected - 27 States, July 2016-December 2017.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:30980076": {
 "autoren": "Dolan E, Swinton PA, Painelli VS, Stephens Hemingway B, Mazzolani B, Infante Smaira F, Saunders B, Artioli GG, Gualano B.",
 "doi": "10.1093/advances/nmy115",
@@ -60514,6 +61808,44 @@
 "Journal Article"
 ]
 },
+"pmid:31003626": {
+"autoren": "Estruch R, Martínez-González MA, Corella D, Salas-Salvadó J, Fitó M, Chiva-Blanch G, Fiol M, Gómez-Gracia E, Arós F, Lapetra J, Serra-Majem L, Pintó X, Buil-Cosiales P, Sorlí JV, Muñoz MA, Basora-Gallisá J, Lamuela-Raventós RM, Serra-Mir M, Ros E, PREDIMED Study Investigators.",
+"doi": "10.1016/s2213-8587(19)30074-9",
+"iso": "Lancet Diabetes Endocrinol",
+"jahr": "2019",
+"journal": "The lancet. Diabetes & endocrinology",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Diabetic Angiopathies",
+"Diabetes Mellitus, Type 2",
+"Body Weight",
+"Dietary Fats",
+"Treatment Outcome",
+"Follow-Up Studies",
+"Primary Prevention",
+"Diet, Mediterranean",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Spain",
+"Female",
+"Male",
+"Waist Circumference",
+"Diet, High-Fat"
+],
+"pmcid": "",
+"pmid": "31003626",
+"quelle": "MED",
+"titel": "Effect of a high-fat Mediterranean diet on bodyweight and waist circumference: a prespecified secondary outcomes analysis of the PREDIMED randomised controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:31039287": {
 "autoren": "Guo Q, Goldenberg JZ, Humphrey C, El Dib R, Johnston BC.",
 "doi": "10.1002/14651858.cd004827.pub5",
@@ -60656,6 +61988,37 @@
 "Meta-Analysis",
 "Research Support, Non-U.S. Gov't",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:31105044": {
+"autoren": "Hall KD, Ayuketah A, Brychta R, Cai H, Cassimatis T, Chen KY, Chung ST, Costa E, Courville A, Darcey V, Fletcher LA, Forde CG, Gharib AM, Guo J, Howard R, Joseph PV, McGehee S, Ouwerkerk R, Raisinger K, Rozga I, Stagliano M, Walter M, Walter PJ, Yang S, Zhou M.",
+"doi": "10.1016/j.cmet.2019.05.008",
+"iso": "Cell Metab",
+"jahr": "2019",
+"journal": "Cell metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Weight Gain",
+"Body Composition",
+"Energy Metabolism",
+"Energy Intake",
+"Eating",
+"Dietary Fiber",
+"Adult",
+"Inpatients",
+"Female",
+"Male"
+],
+"pmcid": "PMC7946062",
+"pmid": "31105044",
+"quelle": "MED",
+"titel": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake.",
+"typen": [
+"Research Support, N.I.H., Intramural",
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -61151,6 +62514,40 @@
 "titel": "Long-Term Safety and Efficacy of Clomiphene Citrate for the Treatment of Hypogonadism.",
 "typen": [
 "Multicenter Study",
+"Journal Article"
+]
+},
+"pmid:31216866": {
+"autoren": "Welsh C, Celis-Morales CA, Brown R, Mackay DF, Lewsey J, Mark PB, Gray SR, Ferguson LD, Anderson JJ, Lyall DM, Cleland JG, Jhund PS, Gill JMR, Pell JP, Sattar N, Welsh P.",
+"doi": "10.1161/circulationaha.119.041149",
+"iso": "Circulation",
+"jahr": "2019",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Apolipoproteins",
+"Hematologic Tests",
+"Cohort Studies",
+"Follow-Up Studies",
+"Predictive Value of Tests",
+"Middle Aged",
+"Biological Specimen Banks",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Cholesterol, HDL",
+"United Kingdom"
+],
+"pmcid": "PMC6693929",
+"pmid": "31216866",
+"quelle": "MED",
+"titel": "Comparison of Conventional Lipoprotein Tests and Apolipoproteins in the Prediction of Cardiovascular Disease.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -61810,6 +63207,54 @@
 "Journal Article"
 ]
 },
+"pmid:31489176": {
+"autoren": "Kollerup Madsen B, Hilscher M, Zetner D, Rosenberg J.",
+"doi": "10.12688/f1000research.16642.2",
+"iso": "F1000Res",
+"jahr": "2018",
+"journal": "F1000Research",
+"korr": [],
+"mesh": [
+"Stem Cells",
+"Humans",
+"Cystitis, Interstitial",
+"Dimethyl Sulfoxide",
+"Cryopreservation"
+],
+"pmcid": "PMC6707402",
+"pmid": "31489176",
+"quelle": "MED",
+"titel": "Adverse reactions of dimethyl sulfoxide in humans: a systematic review.",
+"typen": [
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
+"pmid:31491656": {
+"autoren": "van der Zweerde T, Bisdounis L, Kyle SD, Lancee J, van Straten A.",
+"doi": "10.1016/j.smrv.2019.08.002",
+"iso": "Sleep Med Rev",
+"jahr": "2019",
+"journal": "Sleep medicine reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Randomized Controlled Trials as Topic",
+"Cognitive Behavioral Therapy"
+],
+"pmcid": "",
+"pmid": "31491656",
+"quelle": "MED",
+"titel": "Cognitive behavioral therapy for insomnia: A meta-analysis of long-term effects in controlled studies.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Review",
+"Journal Article"
+]
+},
 "pmid:31496122": {
 "autoren": "Fahy GM, Brooke RT, Watson JP, Good Z, Vasanawala SS, Maecker H, Leipold MD, Lin DTS, Kobor MS, Horvath S.",
 "doi": "10.1111/acel.13028",
@@ -61900,6 +63345,30 @@
 "typen": [
 "Journal Article",
 "Case Reports"
+]
+},
+"pmid:31504418": {
+"autoren": "Mach F, Baigent C, Catapano AL, Koskinas KC, Casula M, Badimon L, Chapman MJ, De Backer GG, Delgado V, Ference BA, Graham IM, Halliday A, Landmesser U, Mihaylova B, Pedersen TR, Riccardi G, Richter DJ, Sabatine MS, Taskinen MR, Tokgozoglu L, Wiklund O, ESC Scientific Document Group.",
+"doi": "10.1093/eurheartj/ehz455",
+"iso": "Eur Heart J",
+"jahr": "2020",
+"journal": "European heart journal",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Lipids",
+"Triglycerides",
+"Risk Factors",
+"Dyslipidemias",
+"Heart Disease Risk Factors"
+],
+"pmcid": "",
+"pmid": "31504418",
+"quelle": "MED",
+"titel": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk.",
+"typen": [
+"Journal Article"
 ]
 },
 "pmid:31504850": {
@@ -63720,6 +65189,41 @@
 "Journal Article"
 ]
 },
+"pmid:32029298": {
+"autoren": "Garcia-Romeu A, Cox DJ, Smith KE, Dunn KE, Griffiths RR.",
+"doi": "10.1016/j.drugalcdep.2020.107849",
+"iso": "Drug Alcohol Depend",
+"jahr": "2020",
+"journal": "Drug and alcohol dependence",
+"korr": [],
+"mesh": [
+"Humans",
+"Mitragyna",
+"Pain",
+"Opioid-Related Disorders",
+"Analgesics, Non-Narcotic",
+"Analgesics, Opioid",
+"Plant Extracts",
+"Cross-Sectional Studies",
+"Anxiety",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Surveys and Questionnaires",
+"Opioid Epidemic"
+],
+"pmcid": "PMC7423016",
+"pmid": "32029298",
+"quelle": "MED",
+"titel": "Kratom (Mitragyna speciosa): User demographics, use patterns, and implications for the opioid epidemic.",
+"typen": [
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:32030409": {
 "autoren": "Shankara-Narayana N, Yu C, Savkovic S, Desai R, Fennell C, Turner L, Jayadev V, Conway AJ, Kockx M, Ridley L, Kritharides L, Handelsman DJ.",
 "doi": "10.1210/clinem/dgz324",
@@ -63795,6 +65299,43 @@
 "research-article",
 "Clinical Trial, Phase I",
 "Journal Article"
+]
+},
+"pmid:32068818": {
+"autoren": "Elliott J, Bodinier B, Bond TA, Chadeau-Hyam M, Evangelou E, Moons KGM, Dehghan A, Muller DC, Elliott P, Tzoulaki I.",
+"doi": "10.1001/jama.2019.22241",
+"iso": "JAMA",
+"jahr": "2020",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Genetic Predisposition to Disease",
+"Risk",
+"Risk Assessment",
+"Case-Control Studies",
+"Predictive Value of Tests",
+"ROC Curve",
+"Genotype",
+"Multifactorial Inheritance",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Coronary Artery Disease",
+"Genome-Wide Association Study"
+],
+"pmcid": "PMC7042853",
+"pmid": "32068818",
+"quelle": "MED",
+"titel": "Predictive Accuracy of a Polygenic Risk Score-Enhanced Prediction Model vs a Clinical Risk Score for Coronary Artery Disease.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Observational Study"
 ]
 },
 "pmid:32073633": {
@@ -63986,6 +65527,46 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:32203549": {
+"autoren": "Richardson TG, Sanderson E, Palmer TM, Ala-Korpela M, Ference BA, Davey Smith G, Holmes MV.",
+"doi": "10.1371/journal.pmed.1003062",
+"iso": "PLoS Med",
+"jahr": "2020",
+"journal": "PLoS medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Coronary Disease",
+"Genetic Predisposition to Disease",
+"Triglycerides",
+"Apolipoprotein A-I",
+"Multivariate Analysis",
+"Risk Assessment",
+"Risk Factors",
+"Phenotype",
+"Polymorphism, Single Nucleotide",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Apolipoprotein B-100",
+"Cholesterol, HDL",
+"Genome-Wide Association Study",
+"Mendelian Randomization Analysis",
+"Biomarkers"
+],
+"pmcid": "PMC7089422",
+"pmid": "32203549",
+"quelle": "MED",
+"titel": "Evaluating the relationship between circulating lipoprotein lipids and apolipoproteins with risk of coronary heart disease: A multivariable Mendelian randomisation analysis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:32212422": {
 "autoren": "Santino TA, Chaves GS, Freitas DA, Fregonezi GA, Mendonça KM.",
 "doi": "10.1002/14651858.cd001277.pub4",
@@ -64155,6 +65736,32 @@
 "Meta-Analysis",
 "Systematic Review",
 "systematic-review",
+"Journal Article"
+]
+},
+"pmid:32248707": {
+"autoren": "Lee YJ, Kim HT, Lee YJ, Paik SH, Moon YS, Lee WJ, Chang SE, Lee MW, Choi JH, Jung JM, Won CH.",
+"doi": "10.1080/09546634.2020.1748857",
+"iso": "J Dermatolog Treat",
+"jahr": "2022",
+"journal": "The Journal of dermatological treatment",
+"korr": [],
+"mesh": [
+"Humans",
+"Hyaluronic Acid",
+"Polynucleotides",
+"Rejuvenation",
+"Cosmetic Techniques",
+"Skin Aging",
+"Patient Satisfaction",
+"Dermal Fillers"
+],
+"pmcid": "",
+"pmid": "32248707",
+"quelle": "MED",
+"titel": "Comparison of the effects of polynucleotide and hyaluronic acid fillers on periocular rejuvenation: a randomized, double-blind, split-face trial.",
+"typen": [
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -65198,6 +66805,32 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:32485547": {
+"autoren": "Leung J, Chan GCK, Hides L, Hall WD.",
+"doi": "10.1016/j.addbeh.2020.106479",
+"iso": "Addict Behav",
+"jahr": "2020",
+"journal": "Addictive behaviors",
+"korr": [],
+"mesh": [
+"Humans",
+"Cannabis",
+"Marijuana Abuse",
+"Prevalence",
+"Longitudinal Studies",
+"Cross-Sectional Studies",
+"Adolescent"
+],
+"pmcid": "",
+"pmid": "32485547",
+"quelle": "MED",
+"titel": "What is the prevalence and risk of cannabis use disorders among people who use cannabis? a systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:32500831": {
 "autoren": "Filippini T, Naska A, Kasdagli MI, Torres D, Lopes C, Carvalho C, Moreira P, Malavolti M, Orsini N, Whelton PK, Vinceti M.",
 "doi": "10.1161/jaha.119.015719",
@@ -65465,6 +67098,49 @@
 "Journal Article"
 ]
 },
+"pmid:32588435": {
+"autoren": "Martin-McGill KJ, Bresnahan R, Levy RG, Cooper PN.",
+"doi": "10.1002/14651858.cd001903.pub5",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2020",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Dietary Carbohydrates",
+"Dietary Fats",
+"Retrospective Studies",
+"Prospective Studies",
+"Sample Size",
+"Age Factors",
+"Quality of Life",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Child",
+"Child, Preschool",
+"Infant",
+"Diet, Carbohydrate-Restricted",
+"Randomized Controlled Trials as Topic",
+"Young Adult",
+"Intention to Treat Analysis",
+"Drug Resistant Epilepsy",
+"Diet, High-Protein Low-Carbohydrate",
+"Diet, Ketogenic"
+],
+"pmcid": "PMC7387249",
+"pmid": "32588435",
+"quelle": "MED",
+"titel": "Ketogenic diets for drug-resistant epilepsy.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:32589613": {
 "autoren": "Hadanny A, Daniel-Kotovsky M, Suzin G, Boussi-Gross, Catalogna M, Dagan K, Hachmo Y, Abu Hamed R, Sasson E, Fishlev G, Lang E, Polak N, Doenyas K, Friedman M, Tal S, Zemel Y, Bechor Y, Efrati S.",
 "doi": "10.18632/aging.103571",
@@ -65494,6 +67170,42 @@
 "pmid": "32589613",
 "quelle": "MED",
 "titel": "Cognitive enhancement of healthy older adults using hyperbaric oxygen: a randomized controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:32607084": {
+"autoren": "Vicknasingam B, Chooi WT, Rahim AA, Ramachandram D, Singh D, Ramanathan S, Yusof NSM, Zainal H, Murugaiyah V, Gueorguieva R, Mansor SM, Chawarski MC.",
+"doi": "",
+"iso": "Yale J Biol Med",
+"jahr": "2020",
+"journal": "The Yale journal of biology and medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Mitragyna",
+"Plant Leaves",
+"Analgesics",
+"Plant Extracts",
+"Pain Measurement",
+"Drug Monitoring",
+"Treatment Outcome",
+"Cross-Over Studies",
+"Pain Threshold",
+"Adult",
+"Malaysia",
+"Female",
+"Male",
+"Medicine, East Asian Traditional",
+"Pain Management"
+],
+"pmcid": "PMC7309661",
+"pmid": "32607084",
+"quelle": "MED",
+"titel": "Kratom and Pain Tolerance: A Randomized, Placebo-Controlled, Double-Blind Study.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
@@ -65977,6 +67689,33 @@
 "Research Support, U.S. Gov't, P.H.S.",
 "research-article",
 "Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:32721104": {
+"autoren": "Hui F, Tang J, Williams PA, McGuinness MB, Hadoux X, Casson RJ, Coote M, Trounce IA, Martin KR, van Wijngaarden P, Crowston JG.",
+"doi": "10.1111/ceo.13818",
+"iso": "Clin Exp Ophthalmol",
+"jahr": "2020",
+"journal": "Clinical & experimental ophthalmology",
+"korr": [],
+"mesh": [
+"Retina",
+"Humans",
+"Glaucoma",
+"Glaucoma, Open-Angle",
+"Niacinamide",
+"Electroretinography",
+"Photic Stimulation",
+"Dietary Supplements"
+],
+"pmcid": "",
+"pmid": "32721104",
+"quelle": "MED",
+"titel": "Improvement in inner retinal function in glaucoma with nicotinamide (vitamin B3) supplementation: A crossover randomized clinical trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -67966,6 +69705,54 @@
 "Journal Article"
 ]
 },
+"pmid:33418491": {
+"autoren": "Kalopitas G, Antza C, Doundoulakis I, Siargkas A, Kouroumalis E, Germanidis G, Samara M, Chourdakis M.",
+"doi": "10.1016/j.nut.2020.111092",
+"iso": "Nutrition",
+"jahr": "2021",
+"journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Silymarin",
+"Alanine Transaminase",
+"Aspartate Aminotransferases",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "33418491",
+"quelle": "MED",
+"titel": "Impact of Silymarin in individuals with nonalcoholic fatty liver disease: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
+"pmid:33422935": {
+"autoren": "Condon HE, Maurer LF, Kyle SD.",
+"doi": "10.1016/j.smrv.2020.101412",
+"iso": "Sleep Med Rev",
+"jahr": "2021",
+"journal": "Sleep medicine reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Prospective Studies",
+"Randomized Controlled Trials as Topic",
+"Cognitive Behavioral Therapy"
+],
+"pmcid": "",
+"pmid": "33422935",
+"quelle": "MED",
+"titel": "Reporting of adverse events in cognitive behavioural therapy for insomnia: A systematic examination of randomised controlled trials.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Review",
+"Journal Article"
+]
+},
 "pmid:33432539": {
 "autoren": "Wang H, Guo B, Huang Z, Zhao X, Ji Z.",
 "doi": "10.1007/s12325-020-01559-9",
@@ -68281,6 +70068,33 @@
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:33578275": {
+"autoren": "Schulze J, Neumann I, Magid M, Finzi E, Sinke C, Wollmer MA, Krüger THC.",
+"doi": "10.1016/j.jpsychires.2021.01.016",
+"iso": "J Psychiatr Res",
+"jahr": "2021",
+"journal": "Journal of psychiatric research",
+"korr": [],
+"mesh": [
+"Humans",
+"Neuromuscular Agents",
+"Treatment Outcome",
+"Depression",
+"Affect",
+"Skin Aging",
+"Botulinum Toxins, Type A"
+],
+"pmcid": "",
+"pmid": "33578275",
+"quelle": "MED",
+"titel": "Botulinum toxin for the management of depression: An updated review of the evidence and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Review",
 "Journal Article"
 ]
 },
@@ -68721,6 +70535,40 @@
 "Journal Article"
 ]
 },
+"pmid:33736827": {
+"autoren": "Johannesen CDL, Mortensen MB, Langsted A, Nordestgaard BG.",
+"doi": "10.1016/j.jacc.2021.01.027",
+"iso": "J Am Coll Cardiol",
+"jahr": "2021",
+"journal": "Journal of the American College of Cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Myocardial Infarction",
+"Hypercholesterolemia",
+"Apolipoproteins B",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Registries",
+"Mortality",
+"Risk Assessment",
+"Causality",
+"Aged",
+"Denmark",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Biomarkers",
+"Heart Disease Risk Factors"
+],
+"pmcid": "",
+"pmid": "33736827",
+"quelle": "MED",
+"titel": "Apolipoprotein B and Non-HDL Cholesterol Better Reflect Residual Risk Than LDL Cholesterol in Statin-Treated Patients.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:33748252": {
 "autoren": "Chen CF, Liu J, Wang SS, Yao YF, Yu B, Hu XP.",
 "doi": "10.12998/wjcc.v9.i8.1996",
@@ -68737,6 +70585,32 @@
 "Journal Article",
 "Case Reports",
 "case-report"
+]
+},
+"pmid:33755110": {
+"autoren": "Araco A, Araco F.",
+"doi": "10.1093/asj/sjab125",
+"iso": "Aesthet Surg J",
+"jahr": "2021",
+"journal": "Aesthetic surgery journal",
+"korr": [],
+"mesh": [
+"Cicatrix",
+"Humans",
+"Acne Vulgaris",
+"Atrophy",
+"Polynucleotides",
+"Treatment Outcome",
+"Prospective Studies",
+"Female"
+],
+"pmcid": "",
+"pmid": "33755110",
+"quelle": "MED",
+"titel": "Preliminary Prospective and Randomized Study of Highly Purified Polynucleotide vs Placebo in Treatment of Moderate to Severe Acne Scars.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:33764214": {
@@ -68860,6 +70734,39 @@
 "titel": "Reduced Nicotinamide Mononucleotide (NMNH) Potently Enhances NAD<sup>+</sup> and Suppresses Glycolysis, the TCA Cycle, and Cell Growth.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:33801247": {
+"autoren": "Burén J, Ericsson M, Damasceno NRT, Sjödin A.",
+"doi": "10.3390/nu13030814",
+"iso": "Nutrients",
+"jahr": "2021",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Cholesterol",
+"Lipids",
+"Fatty Acids",
+"Lipoproteins",
+"Risk Factors",
+"Adult",
+"Sweden",
+"Female",
+"Diet, Carbohydrate-Restricted",
+"Cholesterol, LDL",
+"Young Adult",
+"Diet, High-Fat"
+],
+"pmcid": "PMC8001988",
+"pmid": "33801247",
+"quelle": "MED",
+"titel": "A Ketogenic Low-Carbohydrate High-Fat Diet Increases LDL Cholesterol in Healthy, Young, Normal-Weight Women: A Randomized Controlled Feeding Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -70011,6 +71918,33 @@
 "Journal Article"
 ]
 },
+"pmid:34265219": {
+"autoren": "Sharpe E, Tibbitts D, Wolfe B, Senders A, Bradley R.",
+"doi": "10.1089/acm.2021.0125",
+"iso": "J Altern Complement Med",
+"jahr": "2021",
+"journal": "Journal of alternative and complementary medicine (New York, N.Y.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Meditation",
+"Relaxation",
+"Yoga",
+"Anxiety",
+"Adult",
+"Female",
+"Male"
+],
+"pmcid": "PMC10772320",
+"pmid": "34265219",
+"quelle": "MED",
+"titel": "Qualitative Impressions of a Yoga Nidra Practice for Insomnia: An Exploratory Mixed-Methods Design.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:34304009": {
 "autoren": "Awosemo O, Neelakantan H, Watowich S, Ma J, Wu L, Chow DS, Liang D.",
 "doi": "10.1016/j.jpba.2021.114255",
@@ -70577,6 +72511,38 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:34497047": {
+"autoren": "Wang L, Hong PJ, May C, Rehman Y, Oparin Y, Hong CJ, Hong BY, AminiLari M, Gallo L, Kaushal A, Craigie S, Couban RJ, Kum E, Shanthanna H, Price I, Upadhye S, Ware MA, Campbell F, Buchbinder R, Agoritsas T, Busse JW.",
+"doi": "10.1136/bmj.n1034",
+"iso": "BMJ",
+"jahr": "2021",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Cannabinoids",
+"Pain Measurement",
+"Sleep",
+"Adult",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Chronic Pain",
+"Medical Marijuana",
+"Cancer Pain",
+"Minimal Clinically Important Difference"
+],
+"pmcid": "",
+"pmid": "34497047",
+"quelle": "MED",
+"titel": "Medical cannabis or cannabinoids for chronic non-cancer and cancer related pain: a systematic review and meta-analysis of randomised clinical trials.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -71203,6 +73169,37 @@
 "Journal Article"
 ]
 },
+"pmid:34773460": {
+"autoren": "Marston NA, Giugliano RP, Melloni GEM, Park JG, Morrill V, Blazing MA, Ference B, Stein E, Stroes ES, Braunwald E, Ellinor PT, Lubitz SA, Ruff CT, Sabatine MS.",
+"doi": "10.1001/jamacardio.2021.5083",
+"iso": "JAMA Cardiol",
+"jahr": "2022",
+"journal": "JAMA cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Myocardial Infarction",
+"Cholesterol",
+"Lipoproteins",
+"Apolipoproteins B",
+"Cohort Studies",
+"Prospective Studies",
+"Female",
+"Male",
+"Atherosclerosis",
+"Cholesterol, LDL"
+],
+"pmcid": "PMC8590731",
+"pmid": "34773460",
+"quelle": "MED",
+"titel": "Association of Apolipoprotein B-Containing Lipoproteins and Risk of Myocardial Infarction in Individuals With and Without Atherosclerosis: Distinguishing Between Particle Concentration, Type, and Content.",
+"typen": [
+"Comment",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:3478223": {
 "autoren": "Sumi H, Hamada H, Tsushima H, Mihara H, Muraki H.",
 "doi": "10.1007/bf01956052",
@@ -71410,6 +73407,30 @@
 "pmid": "34822189",
 "quelle": "MED",
 "titel": "L-ornithine L-aspartate in acute treatment of severe hepatic encephalopathy: A double-blind randomized controlled trial.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:34825538": {
+"autoren": "Datta K, Tripathi M, Verma M, Masiwal D, Mallick HN.",
+"doi": "10.25259/nmji_63_19",
+"iso": "Natl Med J India",
+"jahr": "2021",
+"journal": "The National medical journal of India",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Polysomnography",
+"Treatment Outcome",
+"Yoga",
+"Sleep"
+],
+"pmcid": "",
+"pmid": "34825538",
+"quelle": "MED",
+"titel": "Yoga nidra practice shows improvement in sleep in patients with chronic insomnia: A randomized controlled trial.",
 "typen": [
 "Randomized Controlled Trial",
 "Journal Article"
@@ -72061,6 +74082,23 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:35106434": {
+"autoren": "Norwitz NG, Feldman D, Soto-Mota A, Kalayjian T, Ludwig DS.",
+"doi": "10.1093/cdn/nzab144",
+"iso": "Curr Dev Nutr",
+"jahr": "2022",
+"journal": "Current developments in nutrition",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC8796252",
+"pmid": "35106434",
+"quelle": "MED",
+"titel": "Elevated LDL Cholesterol with a Carbohydrate-Restricted Diet: Evidence for a \"Lean Mass Hyper-Responder\" Phenotype.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:35107565": {
 "autoren": "Gupta AK, Gupta AK, Gupta AK, Venkataraman M, Talukder M, Bamimore MA.",
 "doi": "10.1001/jamadermatol.2021.5743",
@@ -72136,6 +74174,34 @@
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:35134311": {
+"autoren": "Mainville L, Smilga AS, Fortin PR.",
+"doi": "10.1177/12034754221078201",
+"iso": "J Cutan Med Surg",
+"jahr": "2022",
+"journal": "Journal of cutaneous medicine and surgery",
+"korr": [],
+"mesh": [
+"Humans",
+"Carcinoma, Squamous Cell",
+"Skin Neoplasms",
+"Niacinamide",
+"Chemoprevention",
+"Keratosis, Actinic",
+"Drug-Related Side Effects and Adverse Reactions",
+"Basal Cell Carcinoma"
+],
+"pmcid": "PMC9125143",
+"pmid": "35134311",
+"quelle": "MED",
+"titel": "Effect of Nicotinamide in Skin Cancer and Actinic Keratoses Chemoprophylaxis, and Adverse Effects Related to Nicotinamide: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
+"Journal Article"
 ]
 },
 "pmid:35144946": {
@@ -72571,6 +74637,41 @@
 "Journal Article"
 ]
 },
+"pmid:35294962": {
+"autoren": "Sesso HD, Manson JE, Aragaki AK, Rist PM, Johnson LG, Friedenberg G, Copeland T, Clar A, Mora S, Moorthy MV, Sarkissian A, Carrick WR, Anderson GL, COSMOS Research Group.",
+"doi": "10.1093/ajcn/nqac055",
+"iso": "Am J Clin Nutr",
+"jahr": "2022",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Cacao",
+"Neoplasms",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Vitamins",
+"Plant Extracts",
+"Risk Factors",
+"Double-Blind Method",
+"Dietary Supplements",
+"Aged",
+"Female",
+"Male",
+"Stroke",
+"Polyphenols"
+],
+"pmcid": "PMC9170467",
+"pmid": "35294962",
+"quelle": "MED",
+"titel": "Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:35294969": {
 "autoren": "Sesso HD, Rist PM, Aragaki AK, Rautiainen S, Johnson LG, Friedenberg G, Copeland T, Clar A, Mora S, Moorthy MV, Sarkissian A, Wactawski-Wende J, Tinker LF, Carrick WR, Anderson GL, Manson JE, COSMOS Research Group.",
 "doi": "10.1093/ajcn/nqac056",
@@ -72628,6 +74729,30 @@
 "typen": [
 "Meta-Analysis",
 "Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
+"pmid:35314769": {
+"autoren": "Braesco V, Souchon I, Sauvant P, Haurogné T, Maillot M, Féart C, Darmon N.",
+"doi": "10.1038/s41430-022-01099-1",
+"iso": "Eur J Clin Nutr",
+"jahr": "2022",
+"journal": "European journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Diet",
+"Nutritive Value",
+"Food Handling",
+"Fast Foods"
+],
+"pmcid": "PMC9436773",
+"pmid": "35314769",
+"quelle": "MED",
+"titel": "Ultra-processed foods: how functional is the NOVA system?",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -73113,6 +75238,34 @@
 "Journal Article"
 ]
 },
+"pmid:35525255": {
+"autoren": "Delgado-Lista J, Alcala-Diaz JF, Torres-Peña JD, Quintana-Navarro GM, Fuentes F, Garcia-Rios A, Ortiz-Morales AM, Gonzalez-Requero AI, Perez-Caballero AI, Yubero-Serrano EM, Rangel-Zuñiga OA, Camargo A, Rodriguez-Cantalejo F, Lopez-Segura F, Badimon L, Ordovas JM, Perez-Jimenez F, Perez-Martinez P, Lopez-Miranda J, CORDIOPREV Investigators.",
+"doi": "10.1016/s0140-6736(22)00122-2",
+"iso": "Lancet",
+"jahr": "2022",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Brain Ischemia",
+"Cardiovascular Diseases",
+"Diet, Fat-Restricted",
+"Diet, Mediterranean",
+"Middle Aged",
+"Female",
+"Male",
+"Stroke",
+"Secondary Prevention"
+],
+"pmcid": "",
+"pmid": "35525255",
+"quelle": "MED",
+"titel": "Long-term secondary prevention of cardiovascular disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:35561538": {
 "autoren": "Kwee CM, Baas JM, van der Flier FE, Groenink L, Duits P, Eikelenboom M, van der Veen DC, Moerbeek M, Batelaan NM, van Balkom AJ, Cath DC.",
 "doi": "10.1016/j.euroneuro.2022.04.003",
@@ -73305,6 +75458,40 @@
 "Journal Article"
 ]
 },
+"pmid:35641199": {
+"autoren": "Gardner CD, Landry MJ, Perelman D, Petlura C, Durand LR, Aronica L, Crimarco A, Cunanan KM, Chang A, Dant CC, Robinson JL, Kim SH.",
+"doi": "10.1093/ajcn/nqac154",
+"iso": "Am J Clin Nutr",
+"jahr": "2022",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Vegetables",
+"Diabetes Mellitus, Type 2",
+"Prediabetic State",
+"Blood Glucose",
+"Triglycerides",
+"Cross-Over Studies",
+"Diet, Mediterranean",
+"Adolescent",
+"Adult",
+"Cholesterol, LDL",
+"Diet, Ketogenic",
+"Glycated Hemoglobin"
+],
+"pmcid": "PMC9437985",
+"pmid": "35641199",
+"quelle": "MED",
+"titel": "Effect of a ketogenic diet versus Mediterranean diet on glycated hemoglobin in individuals with prediabetes and type 2 diabetes mellitus: The interventional Keto-Med randomized crossover trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:35644694": {
 "autoren": "Pierce JD, Shen Q, Mahoney DE, Rahman F, Krueger KJ, Diaz FJ, Clark L, Smith C, Vacek J, Hiebert JB.",
 "doi": "10.1016/j.amjcard.2022.04.031",
@@ -73411,6 +75598,31 @@
 "pmid": "35704292",
 "quelle": "MED",
 "titel": "Intravenous Vitamin C in Adults with Sepsis in the Intensive Care Unit.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:35713247": {
+"autoren": "Kim BR, Kwon SH, Kim JW, Jeong WJ, Cha W, Jung YH, Na JI, Huh CH, Shin JW.",
+"doi": "10.1089/wound.2022.0025",
+"iso": "Adv Wound Care (New Rochelle)",
+"jahr": "2023",
+"journal": "Advances in wound care",
+"korr": [],
+"mesh": [
+"Humans",
+"Cicatrix, Hypertrophic",
+"Erythema",
+"Polydeoxyribonucleotides",
+"Thyroidectomy",
+"Wound Healing"
+],
+"pmcid": "",
+"pmid": "35713247",
+"quelle": "MED",
+"titel": "Early Postoperative Injections of Polydeoxyribonucleotide Prevent Hypertrophic Scarring After Thyroidectomy: A Randomized Controlled Trial.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
@@ -73542,6 +75754,35 @@
 "titel": "Inhibitory effects of Triphala on CYP isoforms <i>in vitro</i> and its pharmacokinetic interactions with phenacetin and midazolam in rats.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:35816465": {
+"autoren": "van der Schoot A, Drysdale C, Whelan K, Dimidi E.",
+"doi": "10.1093/ajcn/nqac184",
+"iso": "Am J Clin Nutr",
+"jahr": "2022",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Constipation",
+"Pectins",
+"Psyllium",
+"Dietary Fiber",
+"Dietary Supplements",
+"Adult",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC9535527",
+"pmid": "35816465",
+"quelle": "MED",
+"titel": "The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -74365,6 +76606,33 @@
 "Journal Article"
 ]
 },
+"pmid:36097079": {
+"autoren": "Li X, Sui C, Xia X, Chen X.",
+"doi": "10.1007/s00266-022-03018-y",
+"iso": "Aesthetic Plast Surg",
+"jahr": "2023",
+"journal": "Aesthetic plastic surgery",
+"korr": [],
+"mesh": [
+"Forehead",
+"Humans",
+"Neuromuscular Agents",
+"Treatment Outcome",
+"Double-Blind Method",
+"Skin Aging",
+"Randomized Controlled Trials as Topic",
+"Botulinum Toxins, Type A"
+],
+"pmcid": "",
+"pmid": "36097079",
+"quelle": "MED",
+"titel": "Efficacy and Safety of Botulinum Toxin Type A for Treatment of Glabellar Lines: A Network Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"Review",
+"Network Meta-Analysis",
+"Journal Article"
+]
+},
 "pmid:36098133": {
 "autoren": "Hofbauer LC, Witvrouw R, Varga Z, Shiota N, Cremer M, Tanko LB, Rooks D, Auberson LZ, Arkuszewski M, Fretault N, Schubert-Tennigkeit AA, Papanicolaou DA, Recknor C.",
 "doi": "10.1016/s2666-7568(21)00084-2",
@@ -74391,6 +76659,38 @@
 "Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:36102337": {
+"autoren": "Baker LD, Manson JE, Rapp SR, Sesso HD, Gaussoin SA, Shumaker SA, Espeland MA.",
+"doi": "10.1002/alz.12767",
+"iso": "Alzheimers Dement",
+"jahr": "2023",
+"journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Minerals",
+"Vitamins",
+"Cognition",
+"Dietary Supplements",
+"Aged",
+"Female",
+"Male",
+"Cognitive Dysfunction"
+],
+"pmcid": "PMC10011015",
+"pmid": "36102337",
+"quelle": "MED",
+"titel": "Effects of cocoa extract and a multivitamin on cognitive function: A randomized clinical trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Pragmatic Clinical Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:36104373": {
@@ -76302,6 +78602,40 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:36856616": {
+"autoren": "Allen NC, Martin AJ, Snaidr VA, Eggins R, Chong AH, Fernandéz-Peñas P, Gin D, Sidhu S, Paddon VL, Banney LA, Lim A, Upjohn E, Schaider H, Ganhewa AD, Nguyen J, McKenzie CA, Prakash S, McLean C, Lochhead A, Ibbetson J, Dettrick A, Landgren A, Allnutt KJ, Allison C, Davenport RB, Mumford BP, Wong B, Stagg B, Tedman A, Gribbin H, Edwards HA, De Rosa N, Stewart T, Doolan BJ, Kok Y, Simpson K, Low ZM, Kovitwanichkanont T, Scolyer RA, Dhillon HM, Vardy JL, Chadban SJ, Bowen DG, Chen AC, Damian DL.",
+"doi": "10.1056/nejmoa2203086",
+"iso": "N Engl J Med",
+"jahr": "2023",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Carcinoma, Squamous Cell",
+"Skin Neoplasms",
+"Niacinamide",
+"Antineoplastic Agents",
+"Chemoprevention",
+"Organ Transplantation",
+"Ultraviolet Rays",
+"Immunocompromised Host",
+"Quality of Life",
+"Australia",
+"Keratosis, Actinic",
+"Transplant Recipients",
+"Basal Cell Carcinoma"
+],
+"pmcid": "",
+"pmid": "36856616",
+"quelle": "MED",
+"titel": "Nicotinamide for Skin-Cancer Chemoprevention in Transplant Recipients.",
+"typen": [
+"Clinical Trial, Phase III",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:36857968": {
 "autoren": "Nambiar A, Kellogg D, Justice J, Goros M, Gelfond J, Pascual R, Hashmi S, Masternak M, Prata L, LeBrasseur N, Limper A, Kritchevsky S, Musi N, Tchkonia T, Kirkland J.",
 "doi": "10.1016/j.ebiom.2023.104481",
@@ -77140,6 +79474,32 @@
 "Journal Article"
 ]
 },
+"pmid:37163454": {
+"autoren": "Gibb RD, Sloan KJ, McRorie JW.",
+"doi": "10.1097/jxx.0000000000000882",
+"iso": "J Am Assoc Nurse Pract",
+"jahr": "2023",
+"journal": "Journal of the American Association of Nurse Practitioners",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Body Weight",
+"Weight Loss",
+"Psyllium",
+"Overweight"
+],
+"pmcid": "PMC10389520",
+"pmid": "37163454",
+"quelle": "MED",
+"titel": "Psyllium is a natural nonfermented gel-forming fiber that is effective for weight loss: A comprehensive review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:37176122": {
 "autoren": "Linkova N, Khavinson V, Diatlova A, Myakisheva S, Ryzhak G.",
 "doi": "10.3390/ijms24098415",
@@ -77443,6 +79803,35 @@
 "titel": "Multivitamin Supplementation Improves Memory in Older Adults: A Randomized Clinical Trial.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:37252983": {
+"autoren": "Brickman AM, Yeung LK, Alschuler DM, Ottaviani JI, Kuhnle GGC, Sloan RP, Luttmann-Gibson H, Copeland T, Schroeter H, Sesso HD, Manson JE, Wall M, Small SA.",
+"doi": "10.1073/pnas.2216932120",
+"iso": "Proc Natl Acad Sci U S A",
+"jahr": "2023",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"korr": [],
+"mesh": [
+"Humans",
+"Cacao",
+"Diet",
+"Double-Blind Method",
+"Dietary Supplements",
+"Aged",
+"Polyphenols",
+"Biomarkers"
+],
+"pmcid": "PMC10265949",
+"pmid": "37252983",
+"quelle": "MED",
+"titel": "Dietary flavanols restore hippocampal-dependent memory in older adults with lower diet quality and lower habitual flavanol consumption.",
+"typen": [
+"Research Support, U.S. Gov't, P.H.S.",
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article",
@@ -78079,6 +80468,38 @@
 "typen": [
 "research-article",
 "Journal Article"
+]
+},
+"pmid:37466280": {
+"autoren": "Barnes LL, Dhana K, Liu X, Carey VJ, Ventrelle J, Johnson K, Hollings CS, Bishop L, Laranjo N, Stubbs BJ, Reilly X, Agarwal P, Zhang S, Grodstein F, Tangney CC, Holland TM, Aggarwal NT, Arfanakis K, Morris MC, Sacks FM.",
+"doi": "10.1056/nejmoa2302368",
+"iso": "N Engl J Med",
+"jahr": "2023",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Brain",
+"Humans",
+"Dementia",
+"Caloric Restriction",
+"Diet, Sodium-Restricted",
+"Cognition",
+"Diet, Mediterranean",
+"Aged",
+"Aged, 80 and over",
+"Cognitive Dysfunction"
+],
+"pmcid": "PMC10513737",
+"pmid": "37466280",
+"quelle": "MED",
+"titel": "Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons.",
+"typen": [
+"Comparative Study",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:37468001": {
@@ -79326,6 +81747,23 @@
 "Journal Article"
 ]
 },
+"pmid:37859783": {
+"autoren": "Hingorani AD, Gratton J, Finan C, Schmidt AF, Patel R, Sofat R, Kuan V, Langenberg C, Hemingway H, Morris JK, Wald NJ.",
+"doi": "10.1136/bmjmed-2023-000554",
+"iso": "BMJ Med",
+"jahr": "2023",
+"journal": "BMJ medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC10582890",
+"pmid": "37859783",
+"quelle": "MED",
+"titel": "Performance of polygenic risk scores in screening, prediction, and risk stratification: secondary analysis of data in the Polygenic Score Catalog.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:37871633": {
 "autoren": "Mertens JE, Bömmer MTC, Regier MB, Gabriëls G, Pavenstädt H, Grünewald I, Horvath J, Trebicka J, Schmidt H, Schlevogt B.",
 "doi": "10.1055/a-2165-6323",
@@ -79870,6 +82308,37 @@
 "Journal Article"
 ]
 },
+"pmid:38070683": {
+"autoren": "Vyas CM, Manson JE, Sesso HD, Rist PM, Weinberg A, Kim E, Moorthy MV, Cook NR, Okereke OI.",
+"doi": "10.1016/j.ajcnut.2023.10.031",
+"iso": "Am J Clin Nutr",
+"jahr": "2024",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Cacao",
+"Vitamins",
+"Double-Blind Method",
+"Cognition",
+"Dietary Supplements",
+"Aged",
+"Female",
+"Male",
+"Executive Function"
+],
+"pmcid": "PMC11347806",
+"pmid": "38070683",
+"quelle": "MED",
+"titel": "Effect of cocoa extract supplementation on cognitive function: results from the clinic subcohort of the COSMOS trial.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:38074675": {
 "autoren": "ElKhalifa D, Al-Ziftawi N, Awaisu A, Alali F, Khalil A.",
 "doi": "10.3389/fonc.2023.1251895",
@@ -80206,6 +82675,34 @@
 "titel": "Manganese balance and clinical observations in young men fed a manganese-deficient diet.",
 "typen": [
 "Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
+"pmid:38201930": {
+"autoren": "Tosti G, Pepe F, Gnagnarella P, Silvestri F, Gaeta A, Queirolo P, Gandini S.",
+"doi": "10.3390/nu16010100",
+"iso": "Nutrients",
+"jahr": "2023",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Carcinoma, Squamous Cell",
+"Skin Neoplasms",
+"Niacin",
+"Niacinamide",
+"Chemoprevention",
+"Basal Cell Carcinoma"
+],
+"pmcid": "PMC10780437",
+"pmid": "38201930",
+"quelle": "MED",
+"titel": "The Role of Nicotinamide as Chemo-Preventive Agent in NMSCs: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
 "Journal Article"
 ]
 },
@@ -80860,6 +83357,29 @@
 "Journal Article"
 ]
 },
+"pmid:38418082": {
+"autoren": "Lane MM, Gamage E, Du S, Ashtree DN, McGuinness AJ, Gauci S, Baker P, Lawrence M, Rebholz CM, Srour B, Touvier M, Jacka FN, O'Neil A, Segasby T, Marx W.",
+"doi": "10.1136/bmj-2023-077310",
+"iso": "BMJ",
+"jahr": "2024",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Meta-Analysis as Topic",
+"Food, Processed"
+],
+"pmcid": "PMC10899807",
+"pmid": "38418082",
+"quelle": "MED",
+"titel": "Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses.",
+"typen": [
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:38423354": {
 "autoren": "Limveeraprajak N, Nakhawatchana S, Visukamol A, Siripakkaphant C, Suttajit S, Srisurapanont M.",
 "doi": "10.1016/j.pnpbp.2024.110985",
@@ -81215,6 +83735,31 @@
 "Journal Article"
 ]
 },
+"pmid:38579127": {
+"autoren": "Li S, Duan F, Li S, Lu B.",
+"doi": "10.1016/j.aohep.2023.101174",
+"iso": "Ann Hepatol",
+"jahr": "2024",
+"journal": "Annals of hepatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Silymarin",
+"Liver Function Tests",
+"Dietary Supplements",
+"Randomized Controlled Trials as Topic",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "",
+"pmid": "38579127",
+"quelle": "MED",
+"titel": "Administration of silymarin in NAFLD/NASH: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:38590828": {
 "autoren": "Li Y, Bing R, Liu M, Shang Z, Huang Y, Zhou K, Bao D, Zhou J.",
 "doi": "10.3389/fnut.2024.1328705",
@@ -81376,6 +83921,39 @@
 "Journal Article"
 ]
 },
+"pmid:38688104": {
+"autoren": "Zhu R, Lei Y, Wang S, Zhang J, Mengjiao Lv, Jiang R, Zhou J, Li T, Guo L.",
+"doi": "10.1016/j.nutres.2024.03.013",
+"iso": "Nutr Res",
+"jahr": "2024",
+"journal": "Nutrition research (New York, N.Y.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Plantago",
+"Cholesterol",
+"Triglycerides",
+"Diet",
+"Dietary Fiber",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Cholesterol, HDL",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "",
+"pmid": "38688104",
+"quelle": "MED",
+"titel": "Plantago consumption significantly reduces total cholesterol and low-density lipoprotein cholesterol in adults: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:38706451": {
 "autoren": "Thakurdesai A, Rivera-Matos L, Nagra N, Busch B, Mais DD, Cave MC.",
 "doi": "10.14309/crj.0000000000001354",
@@ -81392,6 +83970,44 @@
 "Journal Article",
 "Case Reports",
 "case-report"
+]
+},
+"pmid:38710950": {
+"autoren": "Fortea J, Pegueroles J, Alcolea D, Belbin O, Dols-Icardo O, Vaqué-Alcázar L, Videla L, Gispert JD, Suárez-Calvet M, Johnson SC, Sperling R, Bejanin A, Lleó A, Montal V.",
+"doi": "10.1038/s41591-024-02931-w",
+"iso": "Nat Med",
+"jahr": "2024",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Alzheimer Disease",
+"Amyloid",
+"Apolipoproteins E",
+"tau Proteins",
+"Positron-Emission Tomography",
+"Cohort Studies",
+"Age of Onset",
+"Homozygote",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Apolipoprotein E3",
+"Apolipoprotein E4",
+"Amyloid beta-Peptides",
+"Biomarkers"
+],
+"pmcid": "PMC13310155",
+"pmid": "38710950",
+"quelle": "MED",
+"titel": "APOE4 homozygozity represents a distinct genetic form of Alzheimer's disease.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:38714898": {
@@ -81675,6 +84291,35 @@
 "Journal Article"
 ]
 },
+"pmid:38777430": {
+"autoren": "Rounagh M, Musazadeh V, Hosseininejad-Mohebati A, Falahatzadeh M, Kavyani Z, Rostami RB, Vajdi M.",
+"doi": "10.1016/j.clnesp.2024.03.020",
+"iso": "Clin Nutr ESPEN",
+"jahr": "2024",
+"journal": "Clinical nutrition ESPEN",
+"korr": [],
+"mesh": [
+"Humans",
+"Nigella sativa",
+"Cholesterol",
+"Lipids",
+"Triglycerides",
+"Dietary Supplements",
+"Adult",
+"Cholesterol, LDL",
+"Cholesterol, HDL",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "",
+"pmid": "38777430",
+"quelle": "MED",
+"titel": "Effects of Nigella sativa supplementation on lipid profiles in adults: An updated systematic review and meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:38784554": {
 "autoren": "Zhang X, Zhao Y, Song Y, Miao M.",
 "doi": "10.1016/j.heliyon.2024.e31126",
@@ -81749,6 +84394,39 @@
 "typen": [
 "research-article",
 "Journal Article"
+]
+},
+"pmid:38819819": {
+"autoren": "Ahmad S, Moorthy MV, Lee IM, Ridker PM, Manson JE, Buring JE, Demler OV, Mora S.",
+"doi": "10.1001/jamanetworkopen.2024.14322",
+"iso": "JAMA Netw Open",
+"jahr": "2024",
+"journal": "JAMA network open",
+"korr": [],
+"mesh": [
+"Humans",
+"Mortality",
+"Cause of Death",
+"Proportional Hazards Models",
+"Risk Factors",
+"Cohort Studies",
+"Patient Compliance",
+"Diet, Mediterranean",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Biomarkers"
+],
+"pmcid": "PMC11143458",
+"pmid": "38819819",
+"quelle": "MED",
+"titel": "Mediterranean Diet Adherence and Risk of All-Cause Mortality in Women.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:38834220": {
@@ -81883,6 +84561,32 @@
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:38844000": {
+"autoren": "Sener K, Cakir A, Yesiloglu O, Altug E, Guven R, Korkut S.",
+"doi": "10.1016/j.toxicon.2024.107787",
+"iso": "Toxicon",
+"jahr": "2024",
+"journal": "Toxicon : official journal of the International Society on Toxinology",
+"korr": [],
+"mesh": [
+"Humans",
+"Seeds",
+"Rhabdomyolysis",
+"Plant Oils",
+"Adult",
+"Male",
+"Acute Kidney Injury",
+"Chemical and Drug Induced Liver Injury"
+],
+"pmcid": "",
+"pmid": "38844000",
+"quelle": "MED",
+"titel": "Rhabdomyolysis and acute kidney injury after consumption of black seed oil.",
+"typen": [
+"Journal Article",
+"Case Reports"
 ]
 },
 "pmid:38851997": {
@@ -82121,6 +84825,33 @@
 "Journal Article"
 ]
 },
+"pmid:38950110": {
+"autoren": "De Oliveira-Gomes D, Joshi PH, Peterson ED, Rohatgi A, Khera A, Navar AM.",
+"doi": "10.1161/circulationaha.124.068885",
+"iso": "Circulation",
+"jahr": "2024",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Apolipoproteins B",
+"Atherosclerosis",
+"Cholesterol, LDL",
+"Apolipoprotein B-100",
+"Practice Guidelines as Topic",
+"Biomarkers"
+],
+"pmcid": "PMC11219008",
+"pmid": "38950110",
+"quelle": "MED",
+"titel": "Apolipoprotein B: Bridging the Gap Between Evidence and Clinical Practice.",
+"typen": [
+"research-article",
+"Review",
+"Journal Article"
+]
+},
 "pmid:38952132": {
 "autoren": "Gronich N, Stein N, Saliba W.",
 "doi": "10.1159/000540057",
@@ -82311,6 +85042,33 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:38990782": {
+"autoren": "Thomas CM, McElroy R, Yackley J, Fill MA, Goonewardene D, Mackley C, Roth E, Ackelsberg J, Slavinski S, Habrun C, Hodge B, Rush C, Brown CM, Waltenburg MA, Bertling LH, McGorty M, Johnson R, Schaffner W, Jones TF, Dunn JR.",
+"doi": "10.15585/mmwr.mm7327a3",
+"iso": "MMWR Morb Mortal Wkly Rep",
+"jahr": "2024",
+"journal": "MMWR. Morbidity and mortality weekly report",
+"korr": [],
+"mesh": [
+"Humans",
+"Botulinum Toxins",
+"Adult",
+"Middle Aged",
+"Tennessee",
+"New York City",
+"Female",
+"Male",
+"Counterfeit Drugs"
+],
+"pmcid": "PMC11254346",
+"pmid": "38990782",
+"quelle": "MED",
+"titel": "Notes from the Field: Illnesses After Administration of Presumed Counterfeit Botulinum Toxin in Nonmedical Settings - Tennessee and New York City, March 2024.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -82724,6 +85482,30 @@
 "Journal Article"
 ]
 },
+"pmid:39125793": {
+"autoren": "Lee KWA, Chan KWL, Lee A, Lee CH, Wan J, Wong S, Yi KH.",
+"doi": "10.3390/ijms25158224",
+"iso": "Int J Mol Sci",
+"jahr": "2024",
+"journal": "International journal of molecular sciences",
+"korr": [],
+"mesh": [
+"Humans",
+"Polynucleotides",
+"Cosmetic Techniques",
+"Esthetics",
+"Skin Aging"
+],
+"pmcid": "PMC11311621",
+"pmid": "39125793",
+"quelle": "MED",
+"titel": "Polynucleotides in Aesthetic Medicine: A Review of Current Practices and Perceived Effectiveness.",
+"typen": [
+"review-article",
+"Review",
+"Journal Article"
+]
+},
 "pmid:39141382": {
 "autoren": "Lamas GA, Anstrom KJ, Navas-Acien A, Boineau R, Nemeth H, Huang Z, Wen J, Rosenberg Y, Stylianou M, Jones TLZ, Joubert BR, Yu Q, Santella RM, Mon AC, Ujueta F, Escolar E, Nathan DM, Fonseca VA, Aude YW, Ehrman JK, Elliott T, Prashad R, Lewis EF, Lopes RD, Farkouh ME, Elliott AM, Newman JD, Mark DB, TACT2 Investigators.",
 "doi": "10.1001/jama.2024.11463",
@@ -82849,6 +85631,33 @@
 "titel": "Elinzanetant for the Treatment of Vasomotor Symptoms Associated With Menopause: OASIS 1 and 2 Randomized Clinical Trials.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:39181437": {
+"autoren": "Shirvani S, Falahatzadeh M, Oveili E, Jamali M, Pam P, Parang M, Shakarami M.",
+"doi": "10.1016/j.prostaglandins.2024.106885",
+"iso": "Prostaglandins Other Lipid Mediat",
+"jahr": "2024",
+"journal": "Prostaglandins & other lipid mediators",
+"korr": [],
+"mesh": [
+"Humans",
+"Nigella sativa",
+"Insulin",
+"Blood Glucose",
+"Dietary Supplements",
+"Adult",
+"Randomized Controlled Trials as Topic",
+"Glycated Hemoglobin"
+],
+"pmcid": "",
+"pmid": "39181437",
+"quelle": "MED",
+"titel": "The effect of Nigella sativa supplementation on glycemic status in adults: An updated systematic review and meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -83166,6 +85975,41 @@
 "research-article",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:39372205": {
+"autoren": "He Y, Hu X, Chang L, Liu S, Lv L, Qin G, Jiang L.",
+"doi": "10.3389/fphar.2024.1417013",
+"iso": "Front Pharmacol",
+"jahr": "2024",
+"journal": "Frontiers in pharmacology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11449843",
+"pmid": "39372205",
+"quelle": "MED",
+"titel": "Meta-analysis of randomized controlled trials assessing the efficacy of <i>nigella sativa</i> supplementation for allergic rhinitis treatment.",
+"typen": [
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
+"pmid:39372369": {
+"autoren": "Budoff M, Manubolu VS, Kinninger A, Norwitz NG, Feldman D, Wood TR, Fialkow J, Cury R, Feldman T, Nasir K.",
+"doi": "10.1016/j.jacadv.2024.101109",
+"iso": "JACC Adv",
+"jahr": "2024",
+"journal": "JACC. Advances",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11450898",
+"pmid": "39372369",
+"quelle": "MED",
+"titel": "Carbohydrate Restriction-Induced Elevations in LDL-Cholesterol and Atherosclerosis: The KETO Trial.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -84424,6 +87268,24 @@
 "Journal Article"
 ]
 },
+"pmid:39759250": {
+"autoren": "Zhivov E, Johnston C, Shangraw S.",
+"doi": "",
+"iso": "J Clin Aesthet Dermatol",
+"jahr": "2024",
+"journal": "The Journal of clinical and aesthetic dermatology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC11694734",
+"pmid": "39759250",
+"quelle": "MED",
+"titel": "<i>Nigella Sativa</i> (Black Cumin) Oil: A Case Report and Analysis Exploring Severe Cutaneous Manifestations and Implications for Patient Care.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:39767027": {
 "autoren": "Paik DH, Lee KW, Shim YY, Reaney MJT, Park I, Lee SH, Park JY, Park E, Lee SB, Kim IA, Xu G, Hong JY, Kim YJ.",
 "doi": "10.3390/foods13244084",
@@ -84609,6 +87471,24 @@
 "Journal Article"
 ]
 },
+"pmid:39841501": {
+"autoren": "Blomen CL, Hildebrandt L, Schneider SW.",
+"doi": "10.3238/arztebl.m2024.0091",
+"iso": "Dtsch Arztebl Int",
+"jahr": "2024",
+"journal": "Deutsches Arzteblatt international",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12005388",
+"pmid": "39841501",
+"quelle": "MED",
+"titel": "Irritant (Toxic) Contact Dermatitis Following Topical Use of Dimethylsulfoxide.",
+"typen": [
+"letter",
+"Journal Article",
+"Case Reports"
+]
+},
 "pmid:39841980": {
 "autoren": "Mayorga V, Navarro R, Roldan V, Urtecho M, Tipe S, Calvert B, Wright L, Ochoa TJ.",
 "doi": "10.1139/bcb-2024-0181",
@@ -84777,6 +87657,36 @@
 "titel": "Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial.",
 "typen": [
 "research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:39904867": {
+"autoren": "Hanley AW, Davis A, Worts P, Pratscher S.",
+"doi": "10.1007/s10865-024-00548-5",
+"iso": "J Behav Med",
+"jahr": "2025",
+"journal": "Journal of behavioral medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Pain Measurement",
+"Breathing Exercises",
+"Pilot Projects",
+"Depression",
+"Anxiety",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Pain Management"
+],
+"pmcid": "",
+"pmid": "39904867",
+"quelle": "MED",
+"titel": "Cyclic sighing in the clinic waiting room may decrease pain: results from a pilot randomized controlled trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -86704,6 +89614,40 @@
 "Journal Article"
 ]
 },
+"pmid:40373021": {
+"autoren": "Moszeik EN, Rohleder N, Renner KH.",
+"doi": "10.1002/smi.70049",
+"iso": "Stress Health",
+"jahr": "2025",
+"journal": "Stress and health : journal of the International Society for the Investigation of Stress",
+"korr": [],
+"mesh": [
+"Saliva",
+"Humans",
+"Hydrocortisone",
+"Meditation",
+"Yoga",
+"Depression",
+"Stress, Psychological",
+"Personal Satisfaction",
+"Anxiety",
+"Circadian Rhythm",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult"
+],
+"pmcid": "PMC12080877",
+"pmid": "40373021",
+"quelle": "MED",
+"titel": "The Effects of an Online Yoga Nidra Meditation on Subjective Well-Being and Diurnal Salivary Cortisol: A Randomised Controlled Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40392566": {
 "autoren": "Wei K, Zhang Q, Chen C, Yang Y, Sun S, Wang L, Chen X, Luo X, Chen Q.",
 "doi": "10.1093/gerona/glaf109",
@@ -88444,6 +91388,31 @@
 "Journal Article"
 ]
 },
+"pmid:40714301": {
+"autoren": "Jafari A, Mardani H, Faghfouri AH, Fashtali ZM, Hashemi M, Yousefabady MA, Javid R, Golabi S, Arghavan B, Musazadeh V, Naghashpour M.",
+"doi": "10.1016/j.phrs.2025.107882",
+"iso": "Pharmacol Res",
+"jahr": "2025",
+"journal": "Pharmacological research",
+"korr": [],
+"mesh": [
+"Humans",
+"Nigella sativa",
+"Cardiovascular Diseases",
+"Dietary Supplements",
+"Randomized Controlled Trials as Topic",
+"Heart Disease Risk Factors"
+],
+"pmcid": "",
+"pmid": "40714301",
+"quelle": "MED",
+"titel": "Does Nigella sativa supplementation improve cardiovascular disease risk factors? A comprehensive GRADE-assessed systematic review and dose-response meta-analysis of 82 randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:40720286": {
 "autoren": "Gasbjerg LS, Nielsen CK, Suppli MP, Grøndahl MFG, Holst JJ, Knop FK, Jeppesen PB, Lund AB.",
 "doi": "10.1152/physrev.00057.2024",
@@ -88493,6 +91462,31 @@
 "typen": [
 "Comment",
 "letter",
+"Journal Article"
+]
+},
+"pmid:40738719": {
+"autoren": "Zhang Z, Li S, Sun J.",
+"doi": "10.6133/apjcn.202508_34(4).0003",
+"iso": "Asia Pac J Clin Nutr",
+"jahr": "2025",
+"journal": "Asia Pacific journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Silymarin",
+"Treatment Outcome",
+"Life Style",
+"Diet, Mediterranean",
+"Non-alcoholic Fatty Liver Disease"
+],
+"pmcid": "PMC12310429",
+"pmid": "40738719",
+"quelle": "MED",
+"titel": "Efficacy of different interventions for nonalcoholic fatty liver disease: A meta-analysis of lifestyle modifications, silymarin, and medications.",
+"typen": [
+"Meta-Analysis",
+"review-article",
 "Journal Article"
 ]
 },
@@ -88561,6 +91555,39 @@
 "titel": "Hyperbaric oxygen therapy for long COVID: a prospective registry.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:40760353": {
+"autoren": "Dicken SJ, Jassil FC, Brown A, Kalis M, Stanley C, Ranson C, Ruwona T, Qamar S, Buck C, Mallik R, Hamid N, Bird JM, Brown A, Norton B, Gandini Wheeler-Kingshott CAM, Hamer M, van Tulleken C, Hall KD, Fisher A, Makaronidis J, Batterham RL.",
+"doi": "10.1038/s41591-025-03842-0",
+"iso": "Nat Med",
+"jahr": "2025",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Body Weight",
+"Weight Loss",
+"Body Mass Index",
+"Cross-Over Studies",
+"Nutrition Policy",
+"Food Handling",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Diet, Healthy"
+],
+"pmcid": "PMC12532614",
+"pmid": "40760353",
+"quelle": "MED",
+"titel": "Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -89277,6 +92304,53 @@
 "Journal Article"
 ]
 },
+"pmid:40871045": {
+"autoren": "Kim ST.",
+"doi": "10.3390/pharmaceutics17081024",
+"iso": "Pharmaceutics",
+"jahr": "2025",
+"journal": "Pharmaceutics",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12388916",
+"pmid": "40871045",
+"quelle": "MED",
+"titel": "Comparison of Polynucleotide and Polydeoxyribonucleotide in Dermatology: Molecular Mechanisms and Clinical Perspectives.",
+"typen": [
+"review-article",
+"Review",
+"Journal Article"
+]
+},
+"pmid:40882621": {
+"autoren": "Preston JM, Iversen J, Hufnagel A, Hjort L, Taylor J, Sanchez C, George V, Hansen AN, Ängquist L, Hermann S, Craig JM, Torekov S, Lindh C, Hougaard KS, Nóbrega MA, Simpson SJ, Barrès R.",
+"doi": "10.1016/j.cmet.2025.08.004",
+"iso": "Cell Metab",
+"jahr": "2025",
+"journal": "Cell metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Body Weight",
+"Cross-Over Studies",
+"Energy Metabolism",
+"Energy Intake",
+"Reproduction",
+"Adult",
+"Male",
+"Young Adult",
+"Fast Foods",
+"Food, Processed"
+],
+"pmcid": "",
+"pmid": "40882621",
+"quelle": "MED",
+"titel": "Effect of ultra-processed food consumption on male reproductive and metabolic health.",
+"typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40883815": {
 "autoren": "Zemp J, Erol C, Kaiser E, Aubert CE, Rodondi N, Moutzouri E.",
 "doi": "10.1186/s13690-025-01709-x",
@@ -89317,6 +92391,22 @@
 "Meta-Analysis",
 "Systematic Review",
 "Review",
+"Journal Article"
+]
+},
+"pmid:40887080": {
+"autoren": "Epstein E, Ekpo E, Evans D, Varughese E, Hermel M, Jeschke S, Hassan S, Torkamani A, Muse ED, Triffon D.",
+"doi": "10.1093/eurjpc/zwaf554",
+"iso": "Eur J Prev Cardiol",
+"jahr": "2025",
+"journal": "European journal of preventive cardiology",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "40887080",
+"quelle": "MED",
+"titel": "Apolipoprotein B outperforms low density lipoprotein particle number as a marker of cardiovascular risk in the UK Biobank.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -89752,6 +92842,80 @@
 "Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:40960808": {
+"autoren": "Breglio KF, Knox KM, Hwang J, Weiss R, Maas K, Zhang S, Yao L, Madden C, Xu Y, Hartman RI, Wheless L.",
+"doi": "10.1001/jamadermatol.2025.3238",
+"iso": "JAMA Dermatol",
+"jahr": "2025",
+"journal": "JAMA dermatology",
+"korr": [],
+"mesh": [
+"Humans",
+"Skin Neoplasms",
+"Niacinamide",
+"Vitamin B Complex",
+"Chemoprevention",
+"Retrospective Studies",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"United States",
+"Female",
+"Male",
+"Electronic Health Records",
+"Basal Cell Carcinoma"
+],
+"pmcid": "PMC12444641",
+"pmid": "40960808",
+"quelle": "MED",
+"titel": "Nicotinamide for Skin Cancer Chemoprevention.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
+"pmid:40966617": {
+"autoren": "Li S, Hamaya R, Zhu H, Clar A, Rist PM, Huang Y, Manson JE, Sesso HD, Dong Y.",
+"doi": "10.1093/ageing/afaf269",
+"iso": "Age Ageing",
+"jahr": "2025",
+"journal": "Age and ageing",
+"korr": [],
+"mesh": [
+"Humans",
+"Cacao",
+"Inflammation",
+"Catechin",
+"C-Reactive Protein",
+"Inflammation Mediators",
+"Plant Extracts",
+"Treatment Outcome",
+"Double-Blind Method",
+"Age Factors",
+"Aging",
+"Time Factors",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"United States",
+"Female",
+"Male",
+"Interferon-gamma",
+"Biomarkers"
+],
+"pmcid": "PMC12449576",
+"pmid": "40966617",
+"quelle": "MED",
+"titel": "Effects of 2-year cocoa extract supplementation on inflammaging biomarkers in older US adults: findings from the COcoa Supplement and Multivitamin Outcomes Study randomised clinical trial.",
+"typen": [
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:40978001": {
@@ -90397,6 +93561,39 @@
 "Journal Article"
 ]
 },
+"pmid:41126340": {
+"autoren": "Gholami Z, Paknahad Z.",
+"doi": "10.1186/s41043-025-01103-x",
+"iso": "J Health Popul Nutr",
+"jahr": "2025",
+"journal": "Journal of health, population, and nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Body Weight",
+"Psyllium",
+"Anthropometry",
+"Body Mass Index",
+"Waist-Hip Ratio",
+"Dose-Response Relationship, Drug",
+"Adult",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"Waist Circumference"
+],
+"pmcid": "PMC12542120",
+"pmid": "41126340",
+"quelle": "MED",
+"titel": "The effect of psyllium consumption on anthropometric indices: a systematic review and dose-response meta-analysis of randomized controlled trials.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"review-article",
+"Journal Article"
+]
+},
 "pmid:41137360": {
 "autoren": "Sun Y, Sun D, Wu J, Peng Z, Jin J.",
 "doi": "10.1097/md.0000000000045187",
@@ -90457,6 +93654,33 @@
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:41144325": {
+"autoren": "Dutta A, Mooventhan A, Nivethitha L, Dharani E.",
+"doi": "10.1177/27683605251390728",
+"iso": "J Integr Complement Med",
+"jahr": "2026",
+"journal": "Journal of integrative and complementary medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Meditation",
+"Yoga",
+"Randomized Controlled Trials as Topic",
+"Sleep Wake Disorders",
+"COVID-19",
+"Sleep Quality"
+],
+"pmcid": "",
+"pmid": "41144325",
+"quelle": "MED",
+"titel": "Efficacy of Yoga Nidra in Managing Sleep Disorders: A Systematic Review of Randomized Controlled Trials.",
+"typen": [
+"Systematic Review",
+"Review",
 "Journal Article"
 ]
 },
@@ -90949,6 +94173,31 @@
 "Journal Article"
 ]
 },
+"pmid:41270766": {
+"autoren": "Monteiro CA, Louzada ML, Steele-Martinez E, Cannon G, Andrade GC, Baker P, Bes-Rastrollo M, Bonaccio M, Gearhardt AN, Khandpur N, Kolby M, Levy RB, Machado PP, Moubarac JC, Rezende LFM, Rivera JA, Scrinis G, Srour B, Swinburn B, Touvier M.",
+"doi": "10.1016/s0140-6736(25)01565-x",
+"iso": "Lancet",
+"jahr": "2025",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Chronic Disease",
+"Diet",
+"Feeding Behavior",
+"Food Handling",
+"Food, Processed"
+],
+"pmcid": "",
+"pmid": "41270766",
+"quelle": "MED",
+"titel": "Ultra-processed foods and human health: the main thesis and the evidence.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Review",
+"Journal Article"
+]
+},
 "pmid:41275316": {
 "autoren": "Long J, Liao X, Tang Z, Han K, Chen J, Wang X, Liu J, Zhang Y, Zhang H.",
 "doi": "10.1186/s40360-025-01052-5",
@@ -91057,6 +94306,32 @@
 "titel": "Thymosin α1 Elevates Lymphocyte Counts and Improves Immunoradiotherapy Outcomes in Patients with Advanced Cancer.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:41327816": {
+"autoren": "Ghai S, Odyniec P, Ghai I.",
+"doi": "10.1111/nyas.70149",
+"iso": "Ann N Y Acad Sci",
+"jahr": "2026",
+"journal": "Annals of the New York Academy of Sciences",
+"korr": [],
+"mesh": [
+"Humans",
+"Meditation",
+"Yoga",
+"Depression",
+"Stress, Psychological",
+"Anxiety"
+],
+"pmcid": "PMC12917937",
+"pmid": "41327816",
+"quelle": "MED",
+"titel": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
 "Journal Article"
 ]
 },
@@ -91649,6 +94924,44 @@
 "Journal Article"
 ]
 },
+"pmid:41461224": {
+"autoren": "Shukla AG, Tsamis E, De Moraes CG, John SW, Hood DC, Goldberg JL, Hark LA, Atakulova M, Wang Y, Greenfield DS, Cioffi GA, Liebmann JM.",
+"doi": "10.1016/j.ogla.2025.12.008",
+"iso": "Ophthalmol Glaucoma",
+"jahr": "2026",
+"journal": "Ophthalmology. Glaucoma",
+"korr": [],
+"mesh": [
+"Humans",
+"Glaucoma, Open-Angle",
+"Pyruvic Acid",
+"Niacinamide",
+"Neuroprotective Agents",
+"Follow-Up Studies",
+"Prospective Studies",
+"Double-Blind Method",
+"Intraocular Pressure",
+"Visual Fields",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Neuroprotection"
+],
+"pmcid": "PMC13003422",
+"pmid": "41461224",
+"quelle": "MED",
+"titel": "Nicotinamide and Pyruvate in Open-Angle Glaucoma: A Randomized Controlled Trial on Neuroprotection-Design and Methodology.",
+"typen": [
+"Clinical Trial, Phase III",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:41471297": {
 "autoren": "Skrzypiec-Spring M, Kujawa K, Wietrzyk A, Matuła P, Materna M, Michalska W, Szumny D, Szeląg A.",
 "doi": "10.3390/ph18121808",
@@ -91682,6 +94995,75 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:41482668": {
+"autoren": "Eliana L, Anna P, Stefania B, Concetta S, Luisa C, Agnieszka D, Andrea B, Laura B, Carolina P, Simone S.",
+"doi": "10.1111/jocd.70532",
+"iso": "J Cosmet Dermatol",
+"jahr": "2026",
+"journal": "Journal of cosmetic dermatology",
+"korr": [],
+"mesh": [
+"Face",
+"Neck",
+"Humans",
+"Treatment Outcome",
+"Rejuvenation",
+"Cosmetic Techniques",
+"Injections, Intradermal",
+"Esthetics",
+"Skin Aging",
+"Adult",
+"Aged",
+"Middle Aged",
+"Patient Satisfaction",
+"Female",
+"Male",
+"Dermal Fillers"
+],
+"pmcid": "PMC12759169",
+"pmid": "41482668",
+"quelle": "MED",
+"titel": "A Real-Life Assessment of Injectable Polynucleotides High Purification Technology in Aesthetic Medicine for Skin Rejuvenation.",
+"typen": [
+"research-article",
+"Journal Article",
+"Observational Study"
+]
+},
+"pmid:41486478": {
+"autoren": "Huestis MA, Bothmer J, Hudzik T, Henningfield JE, Swift S.",
+"doi": "10.1097/ftd.0000000000001427",
+"iso": "Ther Drug Monit",
+"jahr": "2026",
+"journal": "Therapeutic drug monitoring",
+"korr": [],
+"mesh": [
+"Humans",
+"Mitragyna",
+"Plant Leaves",
+"Secologanin Tryptamine Alkaloids",
+"Powders",
+"Administration, Oral",
+"Double-Blind Method",
+"Dose-Response Relationship, Drug",
+"Adolescent",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult",
+"Healthy Volunteers"
+],
+"pmcid": "PMC13557462",
+"pmid": "41486478",
+"quelle": "MED",
+"titel": "Safety and Tolerability of Single and Multiple Daily Oral Doses of Dried Kratom Leaf Powder in a Randomized Trial in Healthy Volunteers.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -93127,6 +96509,38 @@
 "Journal Article"
 ]
 },
+"pmid:41803341": {
+"autoren": "Li S, Hamaya R, Zhu H, Chen BH, Pereira AC, Ivey KL, Rist PM, Manson JE, Dong Y, Sesso HD.",
+"doi": "10.1038/s41591-026-04239-3",
+"iso": "Nat Med",
+"jahr": "2026",
+"journal": "Nature medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cacao",
+"Minerals",
+"Vitamins",
+"Plant Extracts",
+"DNA Methylation",
+"Epigenesis, Genetic",
+"Aging",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC13696102",
+"pmid": "41803341",
+"quelle": "MED",
+"titel": "Effects of daily multivitamin-multimineral and cocoa extract supplementation on epigenetic aging clocks in the COSMOS randomized clinical trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:41815850": {
 "autoren": "Alangari A, Arif J, Al Qureshah F, Alkhodairy F.",
 "doi": "10.25122/jml-2025-0176",
@@ -93238,6 +96652,54 @@
 "quelle": "MED",
 "titel": "Mastic gum as an adjunct therapy to standard bismuth quadruple therapy for Helicobacter pylori eradication: A randomized single-blind pilot study.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:41834780": {
+"autoren": "",
+"doi": "10.1111/jocd.70794",
+"iso": "J Cosmet Dermatol",
+"jahr": "2026",
+"journal": "Journal of cosmetic dermatology",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12990026",
+"pmid": "41834780",
+"quelle": "MED",
+"titel": "RETRACTION: A Randomized, Participant- and Evaluator-Blinded, Matched-Pair, Prospective Study Comparing the Safety and Efficacy Between Polycaprolactone and Polynucleotide Fillers in the Correction of Crow's Feet.",
+"typen": [
+"Retraction of Publication",
+"Journal Article",
+"Retraction Notice"
+]
+},
+"pmid:41837407": {
+"autoren": "Reissig CJ, Chen L, Nallani SC, Hawkins EG, Galati S, Bonson K, Kanumuri SRR, McCurdy CR, Sharma A, Setnik B, Milovan D, Kelsh D, Chiapperino D.",
+"doi": "10.1097/jcp.0000000000002158",
+"iso": "J Clin Psychopharmacol",
+"jahr": "2026",
+"journal": "Journal of clinical psychopharmacology",
+"korr": [],
+"mesh": [
+"Pupil",
+"Humans",
+"Mitragyna",
+"Plant Leaves",
+"Secologanin Tryptamine Alkaloids",
+"Plant Extracts",
+"Administration, Oral",
+"Pilot Projects",
+"Double-Blind Method",
+"Dose-Response Relationship, Drug",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "41837407",
+"quelle": "MED",
+"titel": "A Pilot, Dose-Finding, Pharmacodynamic and Pharmacokinetic Study of Orally Administered Botanical Kratom.",
+"typen": [
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -93412,6 +96874,31 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Review",
+"Journal Article"
+]
+},
+"pmid:41858302": {
+"autoren": "Musazadeh V, Jahangir M, Mahmoudinezhad M, Faghfouri AH, Teymoori F, Anoushirvani AA, Khaleghian M.",
+"doi": "10.1002/edm2.70207",
+"iso": "Endocrinol Diabetes Metab",
+"jahr": "2026",
+"journal": "Endocrinology, diabetes & metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Nigella sativa",
+"Cardiovascular Diseases",
+"Metabolic Diseases",
+"Dietary Supplements"
+],
+"pmcid": "PMC13093553",
+"pmid": "41858302",
+"quelle": "MED",
+"titel": "The Effect of Nigella sativa Supplementation on Cardiometabolic Health in Patients With Metabolic Diseases: A GRADE-Assessed Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
+"review-article",
 "Journal Article"
 ]
 },
@@ -94275,6 +97762,35 @@
 "Journal Article"
 ]
 },
+"pmid:42002307": {
+"autoren": "Riedl EM, Bracklo T, Wimmer K, Perzl J, Gdynia HJ, Thomas J, Surzykiewicz J.",
+"doi": "10.1080/10615806.2026.2659809",
+"iso": "Anxiety Stress Coping",
+"jahr": "2026",
+"journal": "Anxiety, stress, and coping",
+"korr": [],
+"mesh": [
+"Humans",
+"Breathing Exercises",
+"Pilot Projects",
+"Anxiety",
+"Attention",
+"Students",
+"Adult",
+"Female",
+"Male",
+"Young Adult",
+"Surveys and Questionnaires",
+"Ecological Momentary Assessment"
+],
+"pmcid": "",
+"pmid": "42002307",
+"quelle": "MED",
+"titel": "Simply breathing anxiety away? A pilot, just-in-time ecological momentary intervention study of one-minute cyclic sighing versus box breathing as tools for acute anxiety reduction and attention promotion in real life.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42014715": {
 "autoren": "Van Lier PMG, van de Weijer T, Vanweert F, Brouwers K, Nijssen KMR, Schaart G, Moonen-Kornips E, van Beek SMM, Springer S, Wierts R, Joris PJ, Schrauwen-Hinderling VB, Phielix E, Bengtsson T, Schrauwen P, Hoeks J.",
 "doi": "10.1038/s41467-026-71897-9",
@@ -94443,6 +97959,31 @@
 "typen": [
 "Comparative Study",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:42043659": {
+"autoren": "Singh S, Dhanlika D, Singh U, Haldar P, Sharma G.",
+"doi": "10.1007/s11325-026-03685-0",
+"iso": "Sleep Breath",
+"jahr": "2026",
+"journal": "Sleep & breathing = Schlaf & Atmung",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Yoga",
+"Adult",
+"Sleep Wake Disorders",
+"Sleep Quality"
+],
+"pmcid": "",
+"pmid": "42043659",
+"quelle": "MED",
+"titel": "Effect of yoga Nidra (yogic sleep) in sleep disturbances and insomnia: systematic review and metanalysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -95213,6 +98754,23 @@
 "Observational Study"
 ]
 },
+"pmid:42206798": {
+"autoren": "Soto-Mota A, Norwitz NG, Manubolu VS, Kinninger A, Wood TR, Earls J, Feldman D, Budoff M.",
+"doi": "10.1016/j.jacadv.2026.102824",
+"iso": "JACC Adv",
+"jahr": "2026",
+"journal": "JACC. Advances",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42206798",
+"quelle": "MED",
+"titel": "Longitudinal Data from the KETO-CTA Study: Plaque Predicts Plaque, ApoB Does Not: JACC Adv. 2025;4(7):101686.",
+"typen": [
+"Journal Article",
+"Retraction Notice"
+]
+},
 "pmid:42218768": {
 "autoren": "Alipour M, Saeidi A, Hejazi K, Laher I, Zouhal H.",
 "doi": "10.1080/15502783.2026.2679718",
@@ -95282,6 +98840,32 @@
 "typen": [
 "Comparative Study",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:42240717": {
+"autoren": "Gao K, Zhao Y, Zhang X, Su K, Jia J, Xu Y.",
+"doi": "10.1007/s11325-026-03723-x",
+"iso": "Sleep Breath",
+"jahr": "2026",
+"journal": "Sleep & breathing = Schlaf & Atmung",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Treatment Outcome",
+"Adult",
+"Randomized Controlled Trials as Topic",
+"Cognitive Behavioral Therapy",
+"Digital Media"
+],
+"pmcid": "",
+"pmid": "42240717",
+"quelle": "MED",
+"titel": "Efficacy of fully automated digital cognitive behavioral therapy for insomnia in adults: a systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -96163,6 +99747,39 @@
 "Journal Article"
 ]
 },
+"pmid:42383502": {
+"autoren": "Boukhris O, Suppiah H, Kerkeni M, Holt A, Driller M.",
+"doi": "10.1111/aphw.70180",
+"iso": "Appl Psychol Health Well Being",
+"jahr": "2026",
+"journal": "Applied psychology. Health and well-being",
+"korr": [],
+"mesh": [
+"Humans",
+"Fatigue",
+"Exercise",
+"Stress, Psychological",
+"Cognition",
+"Psychomotor Performance",
+"Skin Temperature",
+"Heart Rate",
+"Rest",
+"Adult",
+"Female",
+"Male",
+"Relaxation Therapy",
+"Young Adult"
+],
+"pmcid": "PMC13321136",
+"pmid": "42383502",
+"quelle": "MED",
+"titel": "Time course of perceptual, cognitive, physical and physiological responses to a single non-sleep deep rest session in physically active young adults.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42385209": {
 "autoren": "Rodríguez-Freire C, Navarrete J, Rozadilla-Sacanell A, Sanabria-Mazo JP, Del Pino-Gaya B, Borràs X, Feliu-Soler A, Luciano JV.",
 "doi": "10.1002/ejp.70321",
@@ -96832,6 +100449,29 @@
 "Journal Article"
 ]
 },
+"pmid:42528510": {
+"autoren": "de Jong JCBC, Lentjes MGW, Pietersma KF, Pasman WJ, Wopereis S, Hoevenaars FPM.",
+"doi": "10.3389/fendo.2026.1880500",
+"iso": "Front Endocrinol (Lausanne)",
+"jahr": "2026",
+"journal": "Frontiers in endocrinology",
+"korr": [],
+"mesh": [
+"Humans",
+"Satiation",
+"Dietary Fiber",
+"Glucagon-Like Peptide 1"
+],
+"pmcid": "PMC13414124",
+"pmid": "42528510",
+"quelle": "MED",
+"titel": "Dietary fibers to boost endogenous GLP-1 secretion and satiety: a scoping review.",
+"typen": [
+"Scoping Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:42529606": {
 "autoren": "Pérez Pérez S, Zumaqué-Valverde E, Saavedra Chacón MF, Arteta Cueto AA.",
 "doi": "10.1155/crhe/8417352",
@@ -97066,6 +100706,24 @@
 "quelle": "MED",
 "titel": "Coronary Calcium Screening and Incidental Lung Cancer Detection in Patients Ineligible for US Preventive Services Task Force Screening.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:42572627": {
+"autoren": "Alhussain AM, Turki M Albusayys S, Alfhadi MA, Bu Mozah SA, AlShammari SSS, Alanazi HAM, Adil Alqazanli S, Nouruldeen Alabdullah A, M ALrashidi N, Almazrou AA, Alshehri AF.",
+"doi": "10.7759/cureus.112403",
+"iso": "Cureus",
+"jahr": "2026",
+"journal": "Cureus",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13453133",
+"pmid": "42572627",
+"quelle": "MED",
+"titel": "Polynucleotides and Polydeoxyribonucleotides for Skin Rejuvenation, Postoperative Scar Prevention, and Wound Healing: A Systematic Review of Randomized Clinical Trials.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -97612,6 +101270,24 @@
 "Journal Article"
 ]
 },
+"pmid:42699335": {
+"autoren": "Chu B, Kinariwalla N, Elco CP, Seo SJ.",
+"doi": "10.1016/j.jdcr.2026.06.009",
+"iso": "JAAD Case Rep",
+"jahr": "2026",
+"journal": "JAAD case reports",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13543072",
+"pmid": "42699335",
+"quelle": "MED",
+"titel": "Bullous cutaneous reaction mimicking Stevens-Johnson syndrome due to Nigella sativa supplement ingestion.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:42702720": {
 "autoren": "Li Y, Zhao X, Zhang W, Wu H, Tian Q, Ma F, He D, Cai Y.",
 "doi": "10.1186/s13102-026-01936-x",
@@ -97750,6 +101426,32 @@
 "titel": "Bergamot (&lt;i&gt;Citrus bergamia&lt;/i&gt;) Supplementation and Cardiovascular Disease Risk Factors: A Systematic Review and Meta-Analysis.",
 "typen": [
 "review-article",
+"Review",
+"Journal Article"
+]
+},
+"pmid:42746678": {
+"autoren": "Robinson E, Jones A, Evans R, Finlay A, Brealey J, Gough T, Cummings J, Fisher E, Jutla M, Morenikeji Ibilola E, Norton V.",
+"doi": "10.1080/10408398.2026.2731838",
+"iso": "Crit Rev Food Sci Nutr",
+"jahr": "2026",
+"journal": "Critical reviews in food science and nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Weight Gain",
+"Appetite",
+"Energy Intake",
+"Randomized Controlled Trials as Topic",
+"Fast Foods"
+],
+"pmcid": "",
+"pmid": "42746678",
+"quelle": "MED",
+"titel": "A systematic review and meta-analysis of randomized controlled trials examining the effect of ultra-processed food on energy intake and weight gain.",
+"typen": [
+"Meta-Analysis",
+"Systematic Review",
 "Review",
 "Journal Article"
 ]
@@ -97962,6 +101664,23 @@
 "Journal Article"
 ]
 },
+"pmid:42766067": {
+"autoren": "Kun X, Roostaee A, Safarpour Lima Z, Rohani P.",
+"doi": "10.1007/s11154-026-10086-x",
+"iso": "Rev Endocr Metab Disord",
+"jahr": "2026",
+"journal": "Reviews in endocrine & metabolic disorders",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42766067",
+"quelle": "MED",
+"titel": "Comparative effects of ketogenic diets and mediterranean diets on obesity and metabolic outcomes: a systematic review and meta-analysis.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:42773207": {
 "autoren": "Nabavizadeh N, McDonnell C, Kurbegov D, Matrana M, Gadgeel S, Kim RH, Stipec G, Oeffinger KC, Demeure MJ, Lillard JW, Kaltman R, Tran J, Roth A, Tahhan S, Poklepovic A, Richards D, Lopatin M, Marquez C, McCusker M, Giridhar KV.",
 "doi": "10.1038/s41591-026-04618-w",
@@ -98024,6 +101743,23 @@
 "titel": "Whole-Body MRI in Asymptomatic Individuals: Promise and Perils-&lt;i&gt;AJR&lt;/i&gt; Expert Panel Review.",
 "typen": [
 "Review",
+"Journal Article"
+]
+},
+"pmid:42783005": {
+"autoren": "Boukhris O, Suppiah H, Driller M.",
+"doi": "10.3390/clockssleep8030052",
+"iso": "Clocks Sleep",
+"jahr": "2026",
+"journal": "Clocks & sleep",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13605941",
+"pmid": "42783005",
+"quelle": "MED",
+"titel": "Comparing the Effects of a Short Nap and Non-Sleep Deep Rest on Perceptual, Cognitive, and Physical Performance in Active Adults.",
+"typen": [
+"research-article",
 "Journal Article"
 ]
 },
@@ -98199,6 +101935,45 @@
 "titel": "Human evidence for BPC-157 in orthopaedic and regenerative medicine: a systematic review of efficacy and safety.",
 "typen": [
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:42893216": {
+"autoren": "Sharma G, Murugesan P, Gupta A, Shukla A, Makkar N, Dhanlika D, Shinkre R, Shukla A, Chhabra V, Arya A, Singh D, Sidhharthan D, Naik N, Akhtar N, Srivastava AK, Haldar P.",
+"doi": "10.1016/j.ajpc.2026.101738",
+"iso": "Am J Prev Cardiol",
+"jahr": "2027",
+"journal": "American journal of preventive cardiology",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42893216",
+"quelle": "MED",
+"titel": "Effectiveness of Yoga-based guided meditation In Improving the quality of sleep in patients with coronary artery disease: The Yoga Nidra Trial.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:42939788": {
+"autoren": "Huang Z, Wang J.",
+"doi": "10.3390/biom16101534",
+"iso": "Biomolecules",
+"jahr": "2026",
+"journal": "Biomolecules",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Dimethyl Sulfoxide",
+"Cryopreservation"
+],
+"pmcid": "PMC13702099",
+"pmid": "42939788",
+"quelle": "MED",
+"titel": "Biological and Clinical Applications of Dimethyl Sulfoxide: Evidence and Safety Considerations.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -100264,6 +104039,39 @@
 "Journal Article"
 ]
 },
+"pmid:7911176": {
+"autoren": "de Lorgeril M, Renaud S, Mamelle N, Salen P, Martin JL, Monjaud I, Guidollet J, Touboul P, Delaye J.",
+"doi": "10.1016/s0140-6736(94)92580-1",
+"iso": "Lancet",
+"jahr": "1994",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Coronary Disease",
+"alpha-Linolenic Acid",
+"Proportional Hazards Models",
+"Risk Factors",
+"Survival Analysis",
+"Follow-Up Studies",
+"Prospective Studies",
+"Single-Blind Method",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "7911176",
+"quelle": "MED",
+"titel": "Mediterranean alpha-linolenic acid-rich diet in secondary prevention of coronary heart disease.",
+"typen": [
+"Clinical Trial",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:7915824": {
 "autoren": "Webster J, Piscitelli G, Polli A, Ferrari CI, Ismail I, Scanlon MF.",
 "doi": "10.1056/nejm199410063311403",
@@ -101295,6 +105103,46 @@
 "quelle": "MED",
 "titel": "A receptor in pituitary and hypothalamus that functions in growth hormone release.",
 "typen": [
+"Journal Article"
+]
+},
+"pmid:8721469": {
+"autoren": "Zuurmond WW, Langendijk PN, Bezemer PD, Brink HE, de Lange JJ, van loenen AC.",
+"doi": "10.1111/j.1399-6576.1996.tb04446.x",
+"iso": "Acta Anaesthesiol Scand",
+"jahr": "1996",
+"journal": "Acta anaesthesiologica Scandinavica",
+"korr": [],
+"mesh": [
+"Humans",
+"Reflex Sympathetic Dystrophy",
+"Acute Disease",
+"Paraffin",
+"Dimethyl Sulfoxide",
+"Anti-Inflammatory Agents",
+"Ointments",
+"Pharmaceutic Aids",
+"Placebos",
+"Pain Measurement",
+"Administration, Topical",
+"Administration, Cutaneous",
+"Prospective Studies",
+"Double-Blind Method",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Physical Therapy Modalities"
+],
+"pmcid": "",
+"pmid": "8721469",
+"quelle": "MED",
+"titel": "Treatment of acute reflex sympathetic dystrophy with DMSO 50% in a fatty cream.",
+"typen": [
+"Comparative Study",
+"Clinical Trial",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -103196,6 +107044,49 @@
 "Research Support, Non-U.S. Gov't",
 "Journal Article",
 "Case Reports"
+]
+},
+"pmid:9989963": {
+"autoren": "de Lorgeril M, Salen P, Martin JL, Monjaud I, Delaye J, Mamelle N.",
+"doi": "10.1161/01.cir.99.6.779",
+"iso": "Circulation",
+"jahr": "1999",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Pulmonary Embolism",
+"Cerebrovascular Disorders",
+"Coronary Disease",
+"Angina, Unstable",
+"Myocardial Infarction",
+"Recurrence",
+"Cholesterol",
+"Fatty Acids",
+"Diet",
+"Multivariate Analysis",
+"Risk Factors",
+"Survival Analysis",
+"Follow-Up Studies",
+"Single-Blind Method",
+"Smoking",
+"Blood Pressure",
+"Eating",
+"Aged",
+"Middle Aged",
+"Mediterranean Region",
+"Female",
+"Male",
+"Heart Failure"
+],
+"pmcid": "",
+"pmid": "9989963",
+"quelle": "MED",
+"titel": "Mediterranean diet, traditional risk factors, and the rate of cardiovascular complications after myocardial infarction: final report of the Lyon Diet Heart Study.",
+"typen": [
+"Clinical Trial",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 }
 }
