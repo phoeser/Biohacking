@@ -1,0 +1,27 @@
+{
+ "datum": "2026-11-07",
+ "nummer": 2,
+ "betreff": "Hörgeräte und Demenz, Omega-3 und Hirnblutung, 18 neue Seiten",
+ "vorschau": "Fünf neue Folgen, drei Studien der Woche und 18 neue Themen- und Tippseiten – kurz eingeordnet.",
+ "intro": "Hörgeräte verbessern Verstehen und Teilhabe deutlich, den geistigen Abbau bremsten sie in den beiden großen randomisierten Studien aber insgesamt nicht – das ist die Kernaussage aus Folge 127. Dazu vier weitere Folgen, drei neue Studien, darunter eine dänische Kohorte, in der mehr EPA im Fettgewebe mit selteneren Hirnblutungen einherging, und 18 neue Seiten.",
+ "abschnitte": [
+  {"titel": "Neue Podcastfolgen", "eintraege": [
+   {"titel": "Folge 126: Enclomifen", "text": "In zwei Phase-3-Studien mit 256 Männern lag das Testosteron unter Enclomifen mindestens so hoch wie unter Testosteron-Gel, unter die Spermien-Schwelle fielen aber nur 2 bis 5 statt 24 bis 49 Prozent – zugelassen ist es trotzdem weder in den USA noch in der EU.", "url": "/folge/126.html"},
+   {"titel": "Folge 127: Hören und Demenz", "text": "Hörverlust steht in der Lancet-Kommission an der Spitze der beeinflussbaren Demenzfaktoren und Hörgeräte helfen klar beim Verstehen; die Studien ACHIEVE und CHOICE verfehlten beim Denkabbau aber ihr Hauptziel.", "url": "/folge/127.html"},
+   {"titel": "Folge 128: Akkermansia", "text": "Pasteurisiertes Akkermansia bremste in Maastricht nach einer Diät die Wiederzunahme auf 1,2 statt 3,2 Kilo in einem halben Jahr; in anderen Studien profitierten vor allem Menschen, die anfangs wenig davon im Darm hatten.", "url": "/folge/128.html"},
+   {"titel": "Folge 129: Dasatinib plus Quercetin", "text": "In der placebokontrollierten TRUTH-Studie mit 31 Menschen ging die Lebervernarbung bei 47 Prozent der Behandelten zurück, unter Placebo bei 7 Prozent; die größere Knochenstudie an 60 Frauen verfehlte dagegen ihr Hauptziel.", "url": "/folge/129.html"},
+   {"titel": "Folge 130: Luftqualität", "text": "Feinstaub ist der zweitgrößte Risikofaktor der Welt; Luftfilter senkten ihn in Studien um mehr als die Hälfte, den oberen Blutdruckwert im Mittel aber nur um 2 bis 4 mmHg – und nach dem Anbraten zählt vor allem das Lüften.", "url": "/folge/130.html"}
+  ]},
+  {"titel": "Studien der Woche", "eintraege": [
+   {"titel": "Mehr EPA im Fettgewebe, seltener Hirnblutungen (J Nutr, November 2026)", "text": "Dänische Kohorte mit 54.546 Menschen zwischen 50 und 65, im Mittel 21 Jahre beobachtet, 729 Hirnblutungen: Wer am meisten EPA im Fettgewebe hatte – ein Marker für die Zufuhr über lange Zeit –, erlitt 36 Prozent seltener einen hämorrhagischen Schlaganfall als das unterste Fünftel. Für DHA fand sich kein Zusammenhang, für die pflanzliche ALA ein knapp signifikant um 32 Prozent höheres Risiko. Einordnung: Das spricht gegen die Sorge, Omega-3 aus Fisch fördere Hirnblutungen, bleibt aber eine Beobachtungsstudie – Ursache und Wirkung belegt sie nicht, und über hoch dosierte Kapseln sagt sie nichts.", "url": "https://pubmed.ncbi.nlm.nih.gov/42971357/", "mehr_titel": "Omega-3 (EPA/DHA)", "mehr_url": "/thema/omega-3.html"},
+   {"titel": "E-Zigarette hilft beim Rauchstopp, mit Beratung doppelt (NEJM Evidence, Oktober 2026)", "text": "Britische Studie mit Rauchenden, die aufhören wollten, ausgelost auf drei Gruppen: nur aufmunternde Mails, ein E-Zigaretten-Starterset allein oder das Set plus mehrere Telefonberatungen. Nach sechs Monaten rauchten biochemisch überprüft nicht mehr: 6,4, 11,3 und 21,1 Prozent. Einordnung: randomisiert und öffentlich finanziert, schwere unerwünschte Ereignisse lagen bei 8 bis 11 Prozent in allen Gruppen; es geht um den Umstieg weg von der Zigarette, nicht um Nikotin für Nichtrauchende.", "url": "https://pubmed.ncbi.nlm.nih.gov/42937426/", "mehr_titel": "Nikotin ohne Rauch", "mehr_url": "/thema/nikotin-ohne-rauch.html"},
+   {"titel": "Kaffee und Vorhofflimmern: 495.000 Menschen, 13 Jahre (Food Nutr Res, Oktober 2026)", "text": "In der UK Biobank entwickelten 37.261 von 495.269 Teilnehmenden in rund 13 Jahren Vorhofflimmern. Kaffeetrinkende hatten ein um 7 bis 11 Prozent niedrigeres Risiko als Menschen ohne Kaffee, am deutlichsten bei 2 bis 3 Tassen täglich; bei Tee zeigte sich nur bei 2 bis 3 Tassen ein kleiner Vorteil. Einordnung: Die Größe macht den Befund stabil, der Konsum wurde aber selbst angegeben und Kaffeetrinkende unterscheiden sich auch sonst – wer nach Kaffee Herzstolpern spürt, sollte das ärztlich abklären lassen.", "url": "https://pubmed.ncbi.nlm.nih.gov/42985412/", "mehr_titel": "Koffein", "mehr_url": "/thema/koffein.html"}
+  ]},
+  {"titel": "Neu auf der Seite", "eintraege": [
+   {"titel": "13 neue Themenseiten", "text": "ApoB-Test und APOE4-Gentest, Flohsamenschalen, Kakaoflavanole, Mariendistel, Schwarzkümmelöl, Nicotinamid gegen hellen Hautkrebs, KVT-I bei Schlaflosigkeit, Botox, Polynukleotide sowie Cannabis, Kratom und DMSO – jeweils mit BK-Score und den Studien dahinter.", "url": "/thema/"},
+   {"titel": "5 neue Alltagstipps", "text": "Mediterrane und ketogene Ernährung, weniger hochverarbeitete Lebensmittel, NSDR und Yoga Nidra sowie der physiologische Seufzer: was die Studien zeigen und wo die Daten aufhören.", "url": "/tipp/"},
+   {"titel": "Mitreden auf Discord", "text": "Unter jeder Podcastfolge steht jetzt eine Einladung auf unseren Discord-Server – für Fragen, Widerspruch und eigene Erfahrungen zur Folge.", "url": "https://discord.gg/pa3YNFfNSn"}
+  ]}
+ ],
+ "schluss": "Fragen, Themenwünsche oder eigene Erfahrungen? Antworte einfach auf diese Mail – sie landet direkt bei uns."
+}
