@@ -35437,6 +35437,42 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:22104320": {
+"autoren": "Winham DM, Hutchins AM.",
+"doi": "10.1186/1475-2891-10-128",
+"iso": "Nutr J",
+"jahr": "2011",
+"journal": "Nutrition journal",
+"korr": [],
+"mesh": [
+"Humans",
+"Fabaceae",
+"Gastrointestinal Diseases",
+"Flatulence",
+"Body Mass Index",
+"Cross-Over Studies",
+"Perception",
+"Body Composition",
+"Dietary Fiber",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Guidelines as Topic",
+"Self Report",
+"Biomarkers",
+"Surveys and Questionnaires"
+],
+"pmcid": "PMC3228670",
+"pmid": "22104320",
+"quelle": "MED",
+"titel": "Perceptions of flatulence from bean consumption among adults in 3 feeding studies.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:22117547": {
 "autoren": "Fedoreyeva LI, Kireev II, Khavinson VKh, Vanyushin BF.",
 "doi": "10.1134/s0006297911110022",
@@ -56837,6 +56873,34 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:29385357": {
+"autoren": "Saeidifard F, Medina-Inojosa JR, Supervia M, Olson TP, Somers VK, Erwin PJ, Lopez-Jimenez F.",
+"doi": "10.1177/2047487317752186",
+"iso": "Eur J Prev Cardiol",
+"jahr": "2018",
+"journal": "European journal of preventive cardiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Weight Gain",
+"Energy Metabolism",
+"Sitting Position",
+"Standing Position",
+"Sedentary Behavior"
+],
+"pmcid": "",
+"pmid": "29385357",
+"quelle": "MED",
+"titel": "Differences of energy expenditure while sitting versus standing: A systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:29394251": {
 "autoren": "Feinstein JS, Khalsa SS, Yeh HW, Wohlrab C, Simmons WK, Stein MB, Paulus MP.",
 "doi": "10.1371/journal.pone.0190292",
@@ -57041,6 +57105,46 @@
 "titel": "Selective Androgen Receptor Modulator, YK11, Up-Regulates Osteoblastic Proliferation and Differentiation in MC3T3-E1 Cells.",
 "typen": [
 "Journal Article"
+]
+},
+"pmid:29531173": {
+"autoren": "Johnson KC, Whelton PK, Cushman WC, Cutler JA, Evans GW, Snyder JK, Ambrosius WT, Beddhu S, Cheung AK, Fine LJ, Lewis CE, Rahman M, Reboussin DM, Rocco MV, Oparil S, Wright JT, SPRINT Research Group.",
+"doi": "10.1161/hypertensionaha.117.10479",
+"iso": "Hypertension",
+"jahr": "2018",
+"journal": "Hypertension (Dallas, Tex. : 1979)",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypertension",
+"Antihypertensive Agents",
+"Blood Pressure Determination",
+"Blood Pressure Monitoring, Ambulatory",
+"Severity of Illness Index",
+"Confidence Intervals",
+"Proportional Hazards Models",
+"Risk Assessment",
+"Sensitivity and Specificity",
+"Survival Analysis",
+"Age Factors",
+"Sex Factors",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC5967644",
+"pmid": "29531173",
+"quelle": "MED",
+"titel": "Blood Pressure Measurement in SPRINT (Systolic Blood Pressure Intervention Trial).",
+"typen": [
+"Comparative Study",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:29540367": {
@@ -59383,6 +59487,36 @@
 "Journal Article"
 ]
 },
+"pmid:30305278": {
+"autoren": "Edwardson CL, Yates T, Biddle SJH, Davies MJ, Dunstan DW, Esliger DW, Gray LJ, Jackson B, O'Connell SE, Waheed G, Munir F.",
+"doi": "10.1136/bmj.k3870",
+"iso": "BMJ",
+"jahr": "2018",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Occupational Diseases",
+"Treatment Outcome",
+"Exercise",
+"Posture",
+"Adult",
+"Middle Aged",
+"Occupational Health",
+"Workplace",
+"Female",
+"Male"
+],
+"pmcid": "PMC6174726",
+"pmid": "30305278",
+"quelle": "MED",
+"titel": "Effectiveness of the Stand More AT (SMArT) Work intervention: cluster randomised controlled trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:30312372": {
 "autoren": "Cruz-Jentoft AJ, Bahat G, Bauer J, Boirie Y, Bruyère O, Cederholm T, Cooper C, Landi F, Rolland Y, Sayer AA, Schneider SM, Sieber CC, Topinkova E, Vandewoude M, Visser M, Zamboni M, Writing Group for the European Working Group on Sarcopenia in Older People 2 (EWGSOP2), and the Extended Group for EWGSOP2.",
 "doi": "10.1093/ageing/afy169",
@@ -60712,6 +60846,44 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:30688979": {
+"autoren": "SPRINT MIND Investigators for the SPRINT Research Group, Williamson JD, Pajewski NM, Auchus AP, Bryan RN, Chelune G, Cheung AK, Cleveland ML, Coker LH, Crowe MG, Cushman WC, Cutler JA, Davatzikos C, Desiderio L, Erus G, Fine LJ, Gaussoin SA, Harris D, Hsieh MK, Johnson KC, Kimmel PL, Tamura MK, Launer LJ, Lerner AJ, Lewis CE, Martindale-Adams J, Moy CS, Nasrallah IM, Nichols LO, Oparil S, Ogrocki PK, Rahman M, Rapp SR, Reboussin DM, Rocco MV, Sachs BC, Sink KM, Still CH, Supiano MA, Snyder JK, Wadley VG, Walker J, Weiner DE, Whelton PK, Wilson VM, Woolard N, Wright JT, Wright CB.",
+"doi": "10.1001/jama.2018.21442",
+"iso": "JAMA",
+"jahr": "2019",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Dementia",
+"Cardiovascular Diseases",
+"Hypertension",
+"Antihypertensive Agents",
+"Proportional Hazards Models",
+"Follow-Up Studies",
+"Blood Pressure",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Female",
+"Male",
+"Cognitive Dysfunction"
+],
+"pmcid": "PMC6439590",
+"pmid": "30688979",
+"quelle": "MED",
+"titel": "Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia: A Randomized Clinical Trial.",
+"typen": [
+"Research Support, N.I.H., Intramural",
+"Comparative Study",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:30694319": {
 "autoren": "Ference BA, Kastelein JJP, Ray KK, Ginsberg HN, Chapman MJ, Packard CJ, Laufs U, Oliver-Williams C, Wood AM, Butterworth AS, Di Angelantonio E, Danesh J, Nicholls SJ, Bhatt DL, Sabatine MS, Catapano AL.",
 "doi": "10.1001/jama.2018.20045",
@@ -61325,6 +61497,22 @@
 "titel": "Dietary glucarate as anti-promoter of 7,12-dimethylbenz[a]anthracene-induced mammary tumorigenesis.",
 "typen": [
 "Research Support, U.S. Gov't, P.H.S.",
+"Journal Article"
+]
+},
+"pmid:30913414": {
+"autoren": "Gallagher KM, Payne M, Daniels B, Caldwell AR, Ganio MS.",
+"doi": "10.1016/j.humov.2019.03.012",
+"iso": "Hum Mov Sci",
+"jahr": "2019",
+"journal": "Human movement science",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "30913414",
+"quelle": "MED",
+"titel": "Walking breaks can reduce prolonged standing induced low back pain.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -71816,6 +72004,41 @@
 "Journal Article"
 ]
 },
+"pmid:34256014": {
+"autoren": "Wastyk HC, Fragiadakis GK, Perelman D, Dahan D, Merrill BD, Yu FB, Topf M, Gonzalez CG, Van Treuren W, Han S, Robinson JL, Elias JE, Sonnenburg ED, Gardner CD, Sonnenburg JL.",
+"doi": "10.1016/j.cell.2021.06.019",
+"iso": "Cell",
+"jahr": "2021",
+"journal": "Cell",
+"korr": [],
+"mesh": [
+"Humans",
+"Inflammation",
+"Diet",
+"Feeding Behavior",
+"Biodiversity",
+"Signal Transduction",
+"Immunity",
+"Dietary Fiber",
+"Middle Aged",
+"Female",
+"Male",
+"Gastrointestinal Microbiome",
+"Fermented Foods"
+],
+"pmcid": "PMC9020749",
+"pmid": "34256014",
+"quelle": "MED",
+"titel": "Gut-microbiota-targeted diets modulate human immune status.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:34257728": {
 "autoren": "EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA), Turck D, Castenmiller J, De Henauw S, Hirsch-Ernst KI, Kearney J, Maciuk A, Mangelsdorf I, McArdle HJ, Naska A, Peláez C, Pentieva K, Siani A, Thies F, Tsabouri S, Vinceti M, Cubadda F, Frenzel T, Heinonen M, Marchelli R, Neuhauser-Berthold M, Poulsen M, Maradona MP, Schlatter JR, van Loveren H, Rossi A, Knutsen HK.",
 "doi": "10.2903/j.efsa.2021.6661",
@@ -76275,6 +76498,35 @@
 "titel": "Abaloparatide Increases Lumbar Spine and Hip BMD in Japanese Patients With Osteoporosis: The Phase 3 ACTIVE-J Study.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:35977732": {
+"autoren": "Edwardson CL, Biddle SJH, Clemes SA, Davies MJ, Dunstan DW, Eborall H, Granat MH, Gray LJ, Healy GN, Jaicim NB, Lawton S, Maylor BD, Munir F, Richardson G, Yates T, Clarke-Cornwell AM.",
+"doi": "10.1136/bmj-2021-069288",
+"iso": "BMJ",
+"jahr": "2022",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Exercise",
+"Posture",
+"Adult",
+"Occupational Health",
+"Workplace",
+"Female",
+"Male",
+"Accelerometry",
+"Sitting Position"
+],
+"pmcid": "PMC9382450",
+"pmid": "35977732",
+"quelle": "MED",
+"titel": "Effectiveness of an intervention for reducing sitting time and improving health in office workers: three arm cluster randomised controlled trial.",
+"typen": [
 "research-article",
 "Randomized Controlled Trial",
 "Journal Article"
@@ -84825,6 +85077,41 @@
 "Journal Article"
 ]
 },
+"pmid:38945140": {
+"autoren": "Liu J, Li Y, Ge J, Yan X, Zhang H, Zheng X, Lu J, Li X, Gao Y, Lei L, Liu J, Li J, ESPRIT Collaborative Group.",
+"doi": "10.1016/s0140-6736(24)01028-6",
+"iso": "Lancet",
+"jahr": "2024",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Myocardial Infarction",
+"Hypertension",
+"Diabetes Mellitus",
+"Antihypertensive Agents",
+"Treatment Outcome",
+"Blood Pressure",
+"Aged",
+"Middle Aged",
+"China",
+"Female",
+"Male",
+"Stroke",
+"Heart Disease Risk Factors"
+],
+"pmcid": "",
+"pmid": "38945140",
+"quelle": "MED",
+"titel": "Lowering systolic blood pressure to less than 120 mm Hg versus less than 140 mm Hg in patients with high cardiovascular risk with and without diabetes or previous stroke: an open-label, blinded-outcome, randomised trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:38950110": {
 "autoren": "De Oliveira-Gomes D, Joshi PH, Peterson ED, Rohatgi A, Khera A, Navar AM.",
 "doi": "10.1161/circulationaha.124.068885",
@@ -86057,6 +86344,40 @@
 "Journal Article"
 ]
 },
+"pmid:39412356": {
+"autoren": "Ahmadi MN, Coenen P, Straker L, Stamatakis E.",
+"doi": "10.1093/ije/dyae136",
+"iso": "Int J Epidemiol",
+"jahr": "2024",
+"journal": "International journal of epidemiology",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Hypotension, Orthostatic",
+"Incidence",
+"Proportional Hazards Models",
+"Risk Factors",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Accelerometry",
+"United Kingdom",
+"Sitting Position",
+"Standing Position",
+"Sedentary Behavior"
+],
+"pmcid": "PMC11481281",
+"pmid": "39412356",
+"quelle": "MED",
+"titel": "Device-measured stationary behaviour and cardiovascular and orthostatic circulatory disease incidence.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:39421139": {
 "autoren": "Moldovanu D, de Koning HJ, Vonder M, Gratama JWC, Adriaansen HJ, Roeters van Lennep JE, Vliegenthart R, van der Harst P, Braam RL, van Dijkman PRM, Oudkerk M, van der Aalst CM.",
 "doi": "10.1093/ehjopen/oeae080",
@@ -86647,6 +86968,42 @@
 "titel": "Colchicine in Acute Myocardial Infarction.",
 "typen": [
 "Clinical Trial, Phase III",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:39555827": {
+"autoren": "Bi Y, Li M, Liu Y, Li T, Lu J, Duan P, Xu F, Dong Q, Wang A, Wang T, Zheng R, Chen Y, Xu M, Wang X, Zhang X, Niu Y, Kang Z, Lu C, Wang J, Qiu X, Wang A, Wu S, Niu J, Wang J, Zhao Z, Pan H, Yang X, Niu X, Pang S, Zhang X, Dai Y, Wan Q, Chen S, Zheng Q, Dai S, Deng J, Liu L, Wang G, Zhu H, Tang W, Liu H, Guo Z, Ning G, He J, Xu Y, Wang W, BPROAD Research Group.",
+"doi": "10.1056/nejmoa2412006",
+"iso": "N Engl J Med",
+"jahr": "2025",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Hypertension",
+"Hypotension",
+"Diabetes Mellitus, Type 2",
+"Hyperkalemia",
+"Antihypertensive Agents",
+"Treatment Outcome",
+"Hospitalization",
+"Incidence",
+"Follow-Up Studies",
+"Blood Pressure",
+"Aged",
+"Middle Aged",
+"China",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "39555827",
+"quelle": "MED",
+"titel": "Intensive Blood-Pressure Control in Patients with Type 2 Diabetes.",
+"typen": [
 "Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
@@ -91434,6 +91791,37 @@
 "titel": "Proglucagon-derived peptides: human physiology and therapeutic potential.",
 "typen": [
 "Review",
+"Journal Article"
+]
+},
+"pmid:40724061": {
+"autoren": "Celis M, Dirix N, Bassleer M, Duyck W.",
+"doi": "10.3390/ijerph22070994",
+"iso": "Int J Environ Res Public Health",
+"jahr": "2025",
+"journal": "International journal of environmental research and public health",
+"korr": [],
+"mesh": [
+"Humans",
+"Posture",
+"Adult",
+"Middle Aged",
+"Occupational Health",
+"Workplace",
+"Health Promotion",
+"Belgium",
+"Female",
+"Male",
+"Standing Position",
+"Sedentary Behavior"
+],
+"pmcid": "PMC12294546",
+"pmid": "40724061",
+"quelle": "MED",
+"titel": "Defaults at Work: A Field Experiment on the Effect of Nudges on Stand-Up Working.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
