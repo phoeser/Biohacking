@@ -1,6 +1,6 @@
 # Biohacking-Tipps – Biohacking Kompakt
 
-Stand: 06.11.2026. 67 Einträge. Alltagsstrategien jenseits von Supplements. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 09.11.2026. 67 Einträge. Alltagsstrategien jenseits von Supplements. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## Box Breathing (4-4-4-4)
@@ -97,7 +97,7 @@ Warum: In der größten Messung an 83.013 Erwachsenen hatte Stehen keinen Zusamm
 Wie: Nutze den Tisch, um Sitzzeit zu ersetzen, nicht um Stehzeit zu sammeln. Oberhalb von etwa zwei Stunden Stehen am Tag stieg in derselben Kohorte das Risiko für Venenleiden – und zwei Stunden sind dort bereits der Durchschnitt. Der beste Effekt liegt im Wechsel und im Gehen dazwischen.
 BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung gemischt, Mechanismus 5/10, Sicherheitsdaten 9/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 6/10).
 Begründung: Die Datenlage ist gut, das Ergebnis aber ein anderes als der Verkaufsprospekt: In der bisher größten Arbeit mit Handgelenk-Messgerät (Ahmadi 2024, 83.013 Erwachsene, im Mittel 6,9 Jahre Nachbeobachtung) fand sich über den gesamten gemessenen Bereich kein Zusammenhang zwischen Stehen und schweren Herz-Kreislauf-Ereignissen. Was sich zeigte, war der Schaden des Sitzens: oberhalb von zehn Stunden am Tag stieg das Risiko je weiterer Stunde um 15 Prozent. Für das Stehen selbst gab es einen anderen Befund – 2.042 orthostatische Ereignisse, und oberhalb von rund zwei Stunden Stehen am Tag stieg das Risiko für Venenleiden. Der Hype-Abzug betrifft genau diese Verschiebung: Der Tisch wirkt, indem er Sitzzeit ersetzt, nicht indem er Stehzeit schafft.
-Seite: https://biohackingkompakt.de/#tipps/stehschreibtisch
+Seite: https://biohackingkompakt.de/tipp/stehschreibtisch.html
 
 ## Zone-2-Cardio 2–4× pro Woche
 Bereich: Bewegung
@@ -137,7 +137,7 @@ Warum: 185 Beobachtungsstudien mit zusammen 135 Millionen Personenjahren: 15 bis
 Wie: Ziel sind 25 bis 29 Gramm am Tag – dort lag in der Auswertung die größte Risikominderung. Gemessen wurde das an Lebensmitteln, nicht an Pulver: Vollkorn, Hülsenfrüchte, Gemüse, Obst, Nüsse. Wer deutlich darunter liegt, hat den größten Hebel; die Kurven deuten an, dass mehr noch etwas bringt, sicher ist das aber nicht.
 BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 10/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 2/10).
 Begründung: So gut belegt, wie Ernährungsforschung es hergibt: Die Auswertung von Reynolds (Lancet 2019) fasst 185 prospektive Kohortenstudien mit zusammen 135 Millionen Personenjahren und 58 randomisierte Studien mit 4.635 Erwachsenen zusammen. Höchste gegen niedrigste Aufnahme bedeutete 15 bis 30 Prozent niedrigere Gesamt- und Herz-Kreislauf-Sterblichkeit und 16 bis 24 Prozent weniger koronare Herzkrankheit, Schlaganfall, Typ-2-Diabetes und Darmkrebs; absolut 13 Todesfälle weniger je tausend Menschen. Die größte Risikominderung lag bei 25 bis 29 Gramm am Tag. Zwei Einschränkungen bleiben: Der Hauptteil ist Beobachtung, die randomisierten Studien reichen nur bis zu Risikofaktoren – und gemessen wurde an Lebensmitteln, nicht an Pulver.
-Seite: https://biohackingkompakt.de/#tipps/ballaststoffe
+Seite: https://biohackingkompakt.de/tipp/ballaststoffe.html
 
 ## Gefiltertes Wasser mit Mineralien
 Bereich: Ernährung
@@ -489,7 +489,7 @@ Warum: Der Zielwert unter 120 mmHg stammt aus SPRINT: 9.361 Menschen mit erhöht
 Wie: Miss nach derselben Regel, nach der die Studien gemessen haben: fünf Minuten sitzen, Rücken angelehnt, Arm auf Herzhöhe, nicht sprechen, Mittelwert aus mehreren Messungen. Ein Wert, den du im Stehen zwischen zwei Terminen nimmst, bedeutet etwas anderes als die 120 aus der Studie. Einordnen muss ihn deine Ärztin – dein Gerät zählt, es zählt nur anders.
 BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 6/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 3/10).
 Begründung: SPRINT (NEJM 2015) randomisierte 9.361 Menschen mit erhöhtem kardiovaskulärem Risiko, aber ohne Diabetes, auf einen systolischen Zielwert unter 120 gegenüber unter 140 mmHg. Der primäre Endpunkt lag bei 1,65 gegen 2,19 Prozent pro Jahr (HR 0,75), die Gesamtsterblichkeit 27 Prozent niedriger (HR 0,73) – die Studie wurde nach median 3,26 Jahren vorzeitig beendet. Der Sicherheitsabzug ist real und steht im selben Abstract: Hypotonie, Synkopen, Elektrolytstörungen und akutes Nierenversagen traten häufiger auf; Stürze mit Verletzung nicht. Entscheidend für die Übertragung nach Hause ist die Messmethode: SPRINT maß mit einem festgelegten Oberarmautomaten nach Protokoll. Derselbe Zahlenwert entsteht am Küchentisch anders.
-Seite: https://biohackingkompakt.de/#tipps/blutdruck-zielwert
+Seite: https://biohackingkompakt.de/tipp/blutdruck-zielwert.html
 
 ## Erweitertes Biomarker-Panel
 Bereich: Tracking

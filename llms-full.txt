@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-11-06
+Stand: 2026-11-09
 
 # Fragen & Beschwerden
 
@@ -2679,6 +2679,11 @@ https://biohackingkompakt.de/tipp/atmung-buteyko.html
 
 Bei diagnostiziertem Asthma wirkt Buteyko auf Symptome und Bedarfsmedikation, mehrfach kontrolliert gezeigt. In einer Meta-Analyse über sieben randomisierte Studien verbesserte Buteyko zusätzlich zur Standardtherapie die Asthmakontrolle mit einer standardisierten mittleren Differenz von −0,33. In der Studie mit echtem Placebo-Gerät sank der Verbrauch an Bedarfsmedikation nach sechs Monaten um zwei Hübe pro Tag. Was sich nicht ändert, ist die objektive Krankheitsaktivität: Lungenfunktion und Exazerbationsrisiko bleiben laut Leitlinie mit höchstem Evidenzgrad unbeeinflusst. Für Heuschnupfen und Panikattacken ließen sich keine kontrollierten Studien finden.
 
+## Ballaststoffe – der am besten belegte Bestandteil des Essens
+https://biohackingkompakt.de/tipp/ballaststoffe.html
+
+Eine Auswertung im Lancet von 2019, im Auftrag der Weltgesundheitsorganisation gerechnet, fasst 185 prospektive Kohortenstudien mit zusammen 135 Millionen Personenjahren und 58 randomisierte Studien mit 4.635 Erwachsenen zusammen. Wer am meisten Ballaststoffe aß, hatte eine um 15 bis 30 Prozent niedrigere Gesamt- und Herz-Kreislauf-Sterblichkeit und 16 bis 24 Prozent weniger koronare Herzkrankheit, Schlaganfall, Typ-2-Diabetes und Darmkrebs. Die größte Risikominderung lag bei 25 bis 29 Gramm am Tag. Die Grenzen: Der Hauptteil ist Beobachtung, die randomisierten Studien reichen nur bis zu Risikofaktoren, und gemessen wurde an Lebensmitteln, nicht an Pulver.
+
 ## 6.000 bis 10.000 Schritte am Tag
 https://biohackingkompakt.de/tipp/bewegung-alltag.html
 
@@ -2693,6 +2698,11 @@ Die Kopplung an die Mahlzeit wirkt. In der alltagsnächsten Studie an 41 Mensche
 https://biohackingkompakt.de/tipp/blutbild-erweitert.html
 
 Die einzelnen Marker sind gut validiert, das Bündel ist ungeprüft. Am stärksten ist ApoB: In der UK Biobank mit 389.529 Personen ohne lipidsenkende Therapie und medianem Follow-up von 11,1 Jahren blieb bei gemeinsamer Auswertung von ApoB, Nicht-HDL-Cholesterin und Triglyzeriden nur ApoB mit dem Herzinfarkt verbunden (adjustierte Hazard Ratio pro Standardabweichung 1,27; 95 % KI 1,15–1,40). LDL-C ersetzt ApoB nicht: Bei einem LDL-C von 100 mg/dl reichte die 95-%-Verteilung des ApoB von 66 bis 99 mg/dl. Homocystein dagegen ist als Herz-Kreislauf-Ziel erledigt: Über 15 randomisierte Studien mit 71.422 Teilnehmern änderte die Senkung weder Herzinfarktrate (RR 1,02) noch Gesamtsterblichkeit (RR 1,01).
+
+## Blutdruck-Zielwert – die Hundertzwanzig zu Hause ist eine andere
+https://biohackingkompakt.de/tipp/blutdruck-zielwert.html
+
+SPRINT randomisierte 2015 9.361 Menschen mit erhöhtem Herz-Kreislauf-Risiko, aber ohne Diabetes, auf einen oberen Blutdruckwert unter 120 gegenüber unter 140 Millimeter Quecksilbersäule. Das strengere Ziel senkte schwere Herz-Kreislauf-Ereignisse mit einem Risikoverhältnis von 0,75 und die Gesamtsterblichkeit um 27 Prozent; die Studie wurde nach median 3,26 Jahren vorzeitig beendet. Zwei große Studien aus China haben den Nutzen seither bestätigt, eine davon bei Typ-2-Diabetes. Die Grenzen liegen im Preis und in der Übertragung: Niedriger Druck, Ohnmachten und akutes Nierenversagen traten häufiger auf, und gemessen wurde streng nach Protokoll, nicht wie am Küchentisch.
 
 ## Jährliches Blutbild
 https://biohackingkompakt.de/tipp/blutwerte.html
@@ -2953,6 +2963,11 @@ Die Regelmäßigkeit der Schlafzeiten sagt Gesundheitsrisiken besser vorher als 
 https://biohackingkompakt.de/tipp/senolytikum-pulse.html
 
 Der monatliche Puls ist kein Ergebnis, sondern ein Studiendesign. Die Mayo Clinic prüft seit dem 6.2.2018 an 40 gebrechlichen Frauen ab 70 Jahren genau dieses Schema gegen Placebo und hat nichts berichtet; im Register steht der 1.11.2026 als geschätzter Abschluss. Der Mechanismus darunter hat den wichtigsten Prüfstein nicht bestanden: Im unabhängigen Interventions-Testprogramm verlängerte Fisetin 2023 in keinem Geschlecht und bei keinem der beiden Schemata die Lebenszeit, und die Seneszenzmarker sanken nicht, weder in Leber noch Niere noch Gehirn. Quercetin wurde am Menschen nie allein als Senolytikum untersucht, sondern immer im Paar mit dem verschreibungspflichtigen Dasatinib. Apigenin gehört überhaupt in eine andere Wirkklasse. Es bleibt ein plausibles Protokoll ohne berichteten Humanbeleg.
+
+## Stehschreibtisch – gegen das Sitzen, nicht fürs Stehen
+https://biohackingkompakt.de/tipp/stehschreibtisch.html
+
+In der UK-Biobank trugen 83.013 Erwachsene ein Messgerät am Handgelenk und wurden im Mittel 6,9 Jahre nachbeobachtet. Oberhalb von 10 Stunden Sitzen am Tag stieg das Risiko für schwere Herz-Kreislauf-Ereignisse je weiterer Stunde um 15 Prozent; Stehen hatte keinen Zusammenhang damit. Der Tisch selbst wirkt zuverlässig auf die Sitzzeit: In zwei randomisierten Studien saßen die Beschäftigten nach 12 Monaten gut eine Stunde weniger am Tag, mit mehr Energie und weniger Erschöpfung. Die Grenzen: Die große Studie ist Beobachtung, oberhalb von rund 2 Stunden Stehen am Tag stieg das Risiko für Venenleiden, und an Kalorien bringt Stehen wenig.
 
 ## Testosteron natürlich anheben
 https://biohackingkompakt.de/tipp/testosteron-natural.html

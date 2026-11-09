@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 06.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -5717,6 +5717,14 @@ Stand: 06.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2014: In vitro study on dental erosion caused by different vinegar varieties using an electron microprobe (Willershausen I et al., Clin Lab). https://doi.org/10.7754/Clin.Lab.2013.130528
 - Sonstige Studie, 2005: Esophageal injury by apple cider vinegar tablets and subsequent evaluation of products (Hill LL et al., J Am Diet Assoc). https://doi.org/10.1016/j.jada.2005.04.003
 
+## Tipp: Ballaststoffe (https://biohackingkompakt.de/tipp/ballaststoffe.html)
+3 Studien: 2 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2019: Carbohydrate quality and human health: a series of systematic reviews and meta-analyses (Reynolds A et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/30638909/
+- Randomisierte Studie, 2021: Gut-microbiota-targeted diets modulate human immune status (Wastyk HC et al., Cell). https://pubmed.ncbi.nlm.nih.gov/34256014/
+- Randomisierte Studie, 2011: Perceptions of flatulence from bean consumption among adults in 3 feeding studies (Winham DM et al., Nutr J). https://pubmed.ncbi.nlm.nih.gov/22104320/
+- Behörde/Recht (Deutsche Gesellschaft für Ernährung (DGE)): Deutsche Gesellschaft für Ernährung, Referenzwert Ballaststoffe — Richtwert mindestens 30 Gramm pro Tag für Erwachsene. https://www.dge.de/wissenschaft/referenzwerte/ballaststoffe/
+- Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO, Leitlinie zur Kohlenhydrataufnahme bei Erwachsenen und Kindern, 2023 — mindestens 25 Gramm natürlich in Lebensmitteln vorkommende Ballaststoffe pro Tag. https://www.who.int/publications/i/item/9789240073593
+
 ## Frage: Bauchfett loswerden (https://biohackingkompakt.de/problem/abnehmen-bauchfett.html)
 8 Studien: 7 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2026: Unveiling the perfect workout: exercise modalities and dosages to combat visceral adipose tissue in individuals with overweight and obesity - a systematic review with pairwise, network, and dose-response meta-analyses (Chang Y et al., Nutr Metab (Lond)). https://pubmed.ncbi.nlm.nih.gov/42098808/
@@ -5749,6 +5757,15 @@ Stand: 06.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2001: Effects on blood pressure of reduced dietary sodium and the Dietary Approaches to Stop Hypertension (DASH) diet. DASH-Sodium Collaborative Research Group (Sacks FM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/11136953/
 - Beobachtungsstudie, 2019: Comparison of blood pressure values-self-measured at home, measured at an unattended office, and measured at a conventional attended office (Asayama K et al., Hypertens Res). https://pubmed.ncbi.nlm.nih.gov/31222188/
 - Behörde/Recht (Weitere Quellen): McEvoy et al., Eur Heart J 2024 (ESC-Leitlinie Blutdruck). https://academic.oup.com/eurheartj/article/45/38/3912/7741010
+
+## Tipp: Blutdruck-Zielwert (https://biohackingkompakt.de/tipp/blutdruck-zielwert.html)
+6 Studien: 6 Randomisierte Studie.
+- Randomisierte Studie, 2025: Intensive Blood-Pressure Control in Patients with Type 2 Diabetes (Bi Y et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/39555827/
+- Randomisierte Studie, 2024: Lowering systolic blood pressure to less than 120 mm Hg versus less than 140 mm Hg in patients with high cardiovascular risk with and without diabetes or previous stroke: an open-label, blinded-outcome, randomised trial (Liu J et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/38945140/
+- Randomisierte Studie, 2023: Effects of Cuff Size on the Accuracy of Blood Pressure Readings: The Cuff(SZ) Randomized Crossover Trial (Ishigami J et al., JAMA Intern Med). https://pubmed.ncbi.nlm.nih.gov/37548984/
+- Randomisierte Studie, 2019: Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia: A Randomized Clinical Trial (SPRINT MIND Investigators for the SPRINT Research Group et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/30688979/
+- Randomisierte Studie, 2018: Blood Pressure Measurement in SPRINT (Systolic Blood Pressure Intervention Trial) (Johnson KC et al., Hypertension). https://pubmed.ncbi.nlm.nih.gov/29531173/
+- Randomisierte Studie, 2015: A Randomized Trial of Intensive versus Standard Blood-Pressure Control (SPRINT Research Group et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/26551272/
 
 ## Frage: Blähbauch und Verdauungsprobleme (https://biohackingkompakt.de/problem/verdauung-blaehbauch.html)
 6 Studien: 5 Meta-Analyse / Übersicht, 1 Randomisierte Studie.
@@ -6524,6 +6541,15 @@ Stand: 06.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Randomisierte Studie, 2015: Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training (Roberts LA et al., J Physiol). https://pubmed.ncbi.nlm.nih.gov/26174323/
 - Leitlinie / Konsens, 2023: 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs) (Mountjoy M et al., Br J Sports Med). https://pubmed.ncbi.nlm.nih.gov/37752011/
 - Sonstige Studie, 2011: The effects of sleep extension on the athletic performance of collegiate basketball players (Mah CD et al., Sleep). https://pubmed.ncbi.nlm.nih.gov/21731144/
+
+## Tipp: Stehschreibtisch (https://biohackingkompakt.de/tipp/stehschreibtisch.html)
+6 Studien: 3 Randomisierte Studie, 1 Beobachtungsstudie, 1 Sonstige Studie, 1 Meta-Analyse / Übersicht.
+- Meta-Analyse / Übersicht, 2018: Differences of energy expenditure while sitting versus standing: A systematic review and meta-analysis (Saeidifard F et al., Eur J Prev Cardiol). https://pubmed.ncbi.nlm.nih.gov/29385357/
+- Randomisierte Studie, 2025: Defaults at Work: A Field Experiment on the Effect of Nudges on Stand-Up Working (Celis M et al., Int J Environ Res Public Health). https://pubmed.ncbi.nlm.nih.gov/40724061/
+- Randomisierte Studie, 2022: Effectiveness of an intervention for reducing sitting time and improving health in office workers: three arm cluster randomised controlled trial (Edwardson CL et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/35977732/
+- Randomisierte Studie, 2018: Effectiveness of the Stand More AT (SMArT) Work intervention: cluster randomised controlled trial (Edwardson CL et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/30305278/
+- Beobachtungsstudie, 2024: Device-measured stationary behaviour and cardiovascular and orthostatic circulatory disease incidence (Ahmadi MN et al., Int J Epidemiol). https://pubmed.ncbi.nlm.nih.gov/39412356/
+- Sonstige Studie, 2019: Walking breaks can reduce prolonged standing induced low back pain (Gallagher KM et al., Hum Mov Sci). https://pubmed.ncbi.nlm.nih.gov/30913414/
 
 ## Frage: Stille Entzündungen senken (https://biohackingkompakt.de/problem/entzuendung.html)
 8 Studien: 5 Meta-Analyse / Übersicht, 2 Randomisierte Studie, 1 Beobachtungsstudie.
