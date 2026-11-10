@@ -1723,22 +1723,24 @@ const EXPERIMENTAL = [
       'In China zugelassen (Juni 2025 Adipositas, September 2025 Typ-2-Diabetes).',
       'Phase 3 GLORY-1 (610 Teilnehmer): 11,00 bis 14,01 Prozent Gewichtsabnahme nach 48 Wochen; GLORY-2 (461): 16,65 Prozent nach 60 Wochen.',
       'Bei Typ-2-Diabetes besser als Dulaglutid bei HbA1c und Gewicht (DREAMS-2, 731 Teilnehmer).',
-      'Günstigere Blutfette, Leberenzyme und Harnsäure (Meta-Analyse, 9 RCTs); wöchentliche Gabe.'
+      'Günstigere Blutfette, Leberenzyme und Harnsäure (Meta-Analyse, 9 RCTs); wöchentliche Gabe.',
+      'US-Phase-2 von Lilly (179 Teilnehmer): nach 48 Wochen bis 22,3 Prozent Gewichtsabnahme gegenüber 0,05 Prozent unter Placebo (Studienregister); Leberfett per MRT um bis zu 80,2 Prozent gesenkt.',
+      'Laut Hersteller in DREAMS-3 bei Typ-2-Diabetes besser als Semaglutid in der Diabetesdosis (Gewicht minus 10,29 gegenüber 6,00 Prozent; offene Studie, noch nicht begutachtet).'
     ],
     risks: [
       'In DE/EU/USA nicht zugelassen; Phase-3-Daten fast ausschließlich aus China.',
       'Sehr häufige Magen-Darm-Effekte (GLORY-2: Erbrechen 53,1 Prozent, Übelkeit 46,9 Prozent); klassentypisch höhere Herzfrequenz.',
-      'Keine Daten zu Herz-Kreislauf-Ereignissen, längste Studie 60 Wochen; außerhalb Chinas nur ungeprüfte Graumarkt-Ware.'
+      'Keine Daten zu Herz-Kreislauf-Ereignissen, längste Studie 60 Wochen; außerhalb Chinas nur ungeprüfte Graumarkt-Ware – die FDA nennt Mazdutide ausdrücklich unter illegal als „for research purposes“ verkauften Mitteln (Stand 01.10.2026).'
     ],
     status: 'In China zugelassen (Innovent/Eli Lilly, Juni 2025 Adipositas, September 2025 Typ-2-Diabetes); in DE/EU nicht zugelassen.',
     sources: [
       { title: 'Ji L et al., N Engl J Med 2025 – GLORY-1', url: 'https://pubmed.ncbi.nlm.nih.gov/40421736/' },
       { title: 'Gao L et al., JAMA 2026 – GLORY-2', url: 'https://pubmed.ncbi.nlm.nih.gov/42251595/' },
       { title: 'Kamrul-Hasan ABM et al., Diabetes Obes Metab 2026 – Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/42410325/' },
-      { title: 'Shirley M, Drugs 2025 – Mazdutide: First Approval', url: 'https://pubmed.ncbi.nlm.nih.gov/41028652/' }
-    ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
+      { title: 'Shirley M, Drugs 2025 – Mazdutide: First Approval', url: 'https://pubmed.ncbi.nlm.nih.gov/41028652/' },
+      { title: 'ClinicalTrials.gov NCT06124807 – US-Phase-2, Ergebnisse nach 48 Wochen', url: 'https://clinicaltrials.gov/study/NCT06124807' },
+      { title: 'Luo Y et al., Contemp Clin Trials 2025 – DREAMS-3, Studienplan', url: 'https://pubmed.ncbi.nlm.nih.gov/41260459/' },
+      { title: 'FDA – Concerns with Unapproved GLP-1 Drugs Used for Weight Loss', url: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss' }
     ],
     filterCat: 'Stoffwechsel'
   },
