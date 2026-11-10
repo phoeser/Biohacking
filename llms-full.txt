@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-11-09
+Stand: 2026-11-10
 
 # Fragen & Beschwerden
 
@@ -2571,6 +2571,11 @@ Hier trennen die Daten deutlich. Bacopa Monnieri hat mehrere Meta-Analysen; die 
 https://biohackingkompakt.de/vergleich/magnesium-vs-magnesium-l-threonat.html
 
 Das Alleinstellungsmerkmal von Magnesium-L-Threonat ist die Behauptung, es sei die einzige Form, die die Blut-Hirn-Schranke überwindet. Diese Behauptung stammt aus Messungen im Nervenwasser von Ratten – am lebenden Menschen wurde das Hirnmagnesium in keiner der vorliegenden Studien gemessen. Die drei von Herstellern oder Rohstofflieferanten finanzierten Studien laufen über drei bis zwölf Wochen und berichten bessere kognitive Kompositscores und teils besseren Schlaf; die vielzitierten 7,5 Jahre reduziertes kognitives Alter sind eine exploratorische Auswertung, und die beiden Schlafstudien widersprechen sich in den objektiven Messwerten. Normales Magnesium hat solide Studien zu Blutdruck und Schlafqualität und kostet einen Bruchteil.
+
+## Mazdutide vs. Retatrutide
+https://biohackingkompakt.de/vergleich/mazdutide-vs-retatrutide.html
+
+Mazdutide setzt an zwei Rezeptoren an, GLP-1 und Glukagon, Retatrutid zusätzlich an GIP. Beide stammen ursprünglich aus dem Labor von Eli Lilly. Mazdutide ist seit 2025 in China zugelassen und kam in der Phase-3-Studie GLORY-2 nach 60 Wochen auf 16,65 Prozent Gewichtsverlust gegenüber 1,50 Prozent unter Placebo. Retatrutid erreichte in TRIUMPH-1 nach 80 Wochen 25,0 Prozent gegenüber 3,9 Prozent, ist aber nirgends zugelassen. Der Abstand täuscht zum Teil: In den beiden am ehesten vergleichbaren Lilly-Studien, jeweils Phase 2 über 48 Wochen, lagen die höchsten geprüften Stufen ähnlich hoch, bei 22,3 und 24,2 Prozent. Eine Studie, die beide direkt vergleicht, gibt es nicht. In Deutschland ist keines der beiden verkehrsfähig, und Graumarktware ist nicht der Studienwirkstoff.
 
 ## Melatonin vs. Magnesium
 https://biohackingkompakt.de/vergleich/melatonin-vs-magnesium.html

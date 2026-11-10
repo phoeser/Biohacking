@@ -3103,15 +3103,26 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2005: Topical palmitoyl pentapeptide provides improvement in photoaged human facial skin (Robinson LR et al., Int J Cosmet Sci). https://pubmed.ncbi.nlm.nih.gov/18492182/
 
 ## Thema: Mazdutide (https://biohackingkompakt.de/thema/mazdutide.html)
-8 Studien: 5 Randomisierte Studie, 2 Übersichtsartikel, 1 Meta-Analyse / Übersicht.
+15 Studien: 6 Studienregister, 5 Randomisierte Studie, 2 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Klinische Studie.
 - Meta-Analyse / Übersicht, 2026: Efficacy and Safety of the Dual Glucagon-Like Peptide-1 and Glucagon Receptor Agonist Mazdutide in Predominantly Chinese Adults With Obesity and/or Type 2 Diabetes: A Systematic Review and Meta-Analysis (Kamrul-Hasan ABM et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/42410325/
 - Randomisierte Studie, 2026: Efficacy and safety of mazdutide in adults with obesity or overweight: a US-based, multicentre, phase 2, randomised, placebo-controlled clinical trial (Hsia SH et al., Lancet Diabetes Endocrinol). https://pubmed.ncbi.nlm.nih.gov/42628555/
 - Randomisierte Studie, 2026: Mazdutide versus dulaglutide in Chinese adults with type 2 diabetes (Guo L et al., Nature). https://pubmed.ncbi.nlm.nih.gov/41407860/
 - Randomisierte Studie, 2026: Mazdutide versus placebo in Chinese adults with type 2 diabetes (Zhu D et al., Nature). https://pubmed.ncbi.nlm.nih.gov/41407859/
 - Randomisierte Studie, 2026: Treatment With 9-mg Mazdutide for Weight Reduction in Chinese Adults With Obesity: The GLORY-2 Randomized Clinical Trial (Gao L et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/42251595/
 - Randomisierte Studie, 2025: Once-Weekly Mazdutide in Chinese Adults with Obesity or Overweight (Ji L et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/40421736/
+- Klinische Studie, 2026: Mazdutide versus Semaglutide for the treatment of type 2 diabetes and obesity: Rationale, design and baseline data of DREAMS-3 phase 3 trial (Luo Y et al., Contemp Clin Trials). https://pubmed.ncbi.nlm.nih.gov/41260459/
 - Übersichtsartikel, 2026: Cardiovascular Effects of Glucagon Receptor Signaling Alone and Combined With Glucagon-Like Peptide-1 Receptor Signaling in Multiagonists: A Narrative Review With a Translational Focus (Kushner PR et al., J Am Heart Assoc). https://pubmed.ncbi.nlm.nih.gov/42535526/
 - Übersichtsartikel, 2025: Mazdutide: First Approval (Shirley M, Drugs). https://pubmed.ncbi.nlm.nih.gov/41028652/
+- Studienregister: ClinicalTrials.gov NCT06124807 (Ergebnisse der US-Phase-2 nach 48 Wochen, Leberfett). https://clinicaltrials.gov/study/NCT06124807
+- Studienregister: ClinicalTrials.gov NCT06817356 (Lilly, Alkoholkonsumstörung). https://clinicaltrials.gov/study/NCT06817356
+- Studienregister: ClinicalTrials.gov NCT06884293 (GLORY-3, gegen Semaglutid bei Fettleber). https://clinicaltrials.gov/study/NCT06884293
+- Studienregister: ClinicalTrials.gov NCT07000955 (höhere Stufe gegen Tirzepatid). https://clinicaltrials.gov/study/NCT07000955
+- Studienregister: ClinicalTrials.gov NCT07255209 (GLORY-YOUNG, Phase 3 bei Jugendlichen). https://clinicaltrials.gov/study/NCT07255209
+- Studienregister: ClinicalTrials.gov NCT07469800 (Phase 3 Bluthochdruck). https://clinicaltrials.gov/study/NCT07469800
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, FDA’s Concerns with Unapproved GLP-1 Drugs Used for Weight Loss (Stand 01.10.2026). https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss
+- Behörde/Recht (Weitere Quellen): Innovent, Herstellermitteilung zu DREAMS-3, 26.10.2025. https://www.biospace.com/press-releases/innovents-mazdutide-shows-superiority-in-glycemic-control-with-weight-loss-over-semaglutide-in-a-head-to-head-phase-3-clinical-trial-dreams-3
+- Behörde/Recht (Weitere Quellen): Innovent, Herstellermitteilung zu GLORY-2 mit Leberfett, 19.11.2025. https://www.prnewswire.com/news-releases/mazdutide-9-mg-achieves-up-to-20-1-weight-loss-in-chinese-adults-with-obesity-glory-2-study-meets-primary-and-all-key-secondary-endpoints-302620471.html
+- Behörde/Recht (Weitere Quellen): Innovent, Herstellermitteilung zur Zulassung und zum Leberfett in GLORY-1, 27.06.2025. https://www.biospace.com/press-releases/innovent-announces-mazdutide-first-dual-gcg-glp-1-receptor-agonist-received-approval-from-chinas-nmpa-for-chronic-weight-management
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, BGBl. III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
 ## Thema: MCT-Öl (https://biohackingkompakt.de/thema/mct-oel.html)
@@ -6340,6 +6351,30 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Umweltbundesamt): Umweltbundesamt, Luftqualität in Deutschland 2024 — endgültige Auswertung (Feinstaubbelastung und Messstationen). https://www.umweltbundesamt.de/system/files/medien/358/dokumente/luftqualitaet2024_endgueltige_auswertung.pdf
 - Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO, Faktenblatt zur Außenluft — 4,2 Millionen vorzeitige Todesfälle 2019. https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
 - Behörde/Recht (Weltgesundheitsorganisation (WHO)): WHO, Global Air Quality Guidelines 2021 — Richtwert 5 Mikrogramm pro Kubikmeter im Jahresmittel für PM 2,5. https://www.who.int/publications/i/item/9789240034228
+
+## Vergleich: Mazdutide vs. Retatrutide (https://biohackingkompakt.de/vergleich/mazdutide-vs-retatrutide.html)
+16 Studien: 10 Randomisierte Studie, 2 Sonstige Studie, 1 Meta-Analyse / Übersicht, 1 Klinische Studie, 1 Übersichtsartikel, 1 Studienregister.
+- Meta-Analyse / Übersicht, 2026: Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials (Chen D et al., BMJ Med). https://pubmed.ncbi.nlm.nih.gov/42688617/
+- Randomisierte Studie, 2026: Efficacy and safety of mazdutide in adults with obesity or overweight: a US-based, multicentre, phase 2, randomised, placebo-controlled clinical trial (Hsia SH et al., Lancet Diabetes Endocrinol). https://pubmed.ncbi.nlm.nih.gov/42628555/
+- Randomisierte Studie, 2026: Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial (Bajaj HS et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/42250575/
+- Randomisierte Studie, 2026: Mazdutide versus dulaglutide in Chinese adults with type 2 diabetes (Guo L et al., Nature). https://pubmed.ncbi.nlm.nih.gov/41407860/
+- Randomisierte Studie, 2026: Mazdutide versus placebo in Chinese adults with type 2 diabetes (Zhu D et al., Nature). https://pubmed.ncbi.nlm.nih.gov/41407859/
+- Randomisierte Studie, 2026: Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial (Bellido V et al., Lancet). https://doi.org/10.1016/S0140-6736(26)01861-1
+- Randomisierte Studie, 2026: Treatment With 9-mg Mazdutide for Weight Reduction in Chinese Adults With Obesity: The GLORY-2 Randomized Clinical Trial (Gao L et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/42251595/
+- Randomisierte Studie, 2025: Once-Weekly Mazdutide in Chinese Adults with Obesity or Overweight (Ji L et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/40421736/
+- Randomisierte Studie, 2024: Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial (Sanyal AJ et al., Nat Med). https://pubmed.ncbi.nlm.nih.gov/38858523/
+- Randomisierte Studie, 2023: A phase 2 randomised controlled trial of mazdutide in Chinese overweight adults or adults with obesity (Ji L et al., Nat Commun). https://pubmed.ncbi.nlm.nih.gov/38092790/
+- Randomisierte Studie, 2023: Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial (Jastreboff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37366315/
+- Klinische Studie, 2026: Mazdutide versus Semaglutide for the treatment of type 2 diabetes and obesity: Rationale, design and baseline data of DREAMS-3 phase 3 trial (Luo Y et al., Contemp Clin Trials). https://pubmed.ncbi.nlm.nih.gov/41260459/
+- Übersichtsartikel, 2025: Mazdutide: First Approval (Shirley M, Drugs). https://pubmed.ncbi.nlm.nih.gov/41028652/
+- Studienregister: ClinicalTrials.gov NCT06124807 (Ergebnisse der US-Phase-2 nach 48 Wochen, Leberfett). https://clinicaltrials.gov/study/NCT06124807
+- Sonstige Studie, 2026: Retatrutide Once Weekly for Treatment of Obstructive Sleep Apnea (Grunstein RR et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/42904878/
+- Sonstige Studie, 2026: Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity (Jastreboff AM et al., N Engl J Med). https://doi.org/10.1056/NEJMoa2604169
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, FDA’s Concerns with Unapproved GLP-1 Drugs Used for Weight Loss (Stand 01.10.2026). https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss
+- Behörde/Recht (Weitere Quellen): Eli Lilly, Herstellermitteilung zu TRANSCEND-T2D-2, 28.10.2026. https://investor.lilly.com/news-releases/news-release-details/lillys-retatrutide-delivered-greater-a1c-reduction-and-more
+- Behörde/Recht (Weitere Quellen): Eli Lilly, Herstellermitteilung zu TRIUMPH-2 und zum FDA-Antrag, 29.09.2026. https://investor.lilly.com/node/54981
+- Behörde/Recht (Weitere Quellen): Eli Lilly, Herstellermitteilung zu TRIUMPH-4, 11.12.2025. https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average
+- Behörde/Recht (Weitere Quellen): Innovent, Herstellermitteilung zu DREAMS-3, 26.10.2025. https://www.biospace.com/press-releases/innovents-mazdutide-shows-superiority-in-glycemic-control-with-weight-loss-over-semaglutide-in-a-head-to-head-phase-3-clinical-trial-dreams-3
 
 ## Tipp: Meditation 10 min täglich (https://biohackingkompakt.de/tipp/meditation.html)
 8 Studien: 6 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Übersichtsartikel.

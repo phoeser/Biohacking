@@ -82666,6 +82666,37 @@
 "Journal Article"
 ]
 },
+"pmid:38092790": {
+"autoren": "Ji L, Jiang H, Cheng Z, Qiu W, Liao L, Zhang Y, Li X, Pang S, Zhang L, Chen L, Yang T, Li Y, Qu S, Wen J, Gu J, Deng H, Wang Y, Li L, Han-Zhang H, Ma Q, Qian L.",
+"doi": "10.1038/s41467-023-44067-4",
+"iso": "Nat Commun",
+"jahr": "2023",
+"journal": "Nature communications",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Obesity",
+"Body Weight",
+"Peptides",
+"Hypoglycemic Agents",
+"Treatment Outcome",
+"Double-Blind Method",
+"Adult",
+"Overweight",
+"Glucagon-Like Peptide 1"
+],
+"pmcid": "PMC10719339",
+"pmid": "38092790",
+"quelle": "MED",
+"titel": "A phase 2 randomised controlled trial of mazdutide in Chinese overweight adults or adults with obesity.",
+"typen": [
+"Clinical Trial, Phase II",
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:38092805": {
 "autoren": "Fincham GW, Strauss C, Cavanagh K.",
 "doi": "10.1038/s41598-023-49279-8",
@@ -94561,6 +94592,43 @@
 "Journal Article"
 ]
 },
+"pmid:41260459": {
+"autoren": "Luo Y, Jiang H, Shi B, Cai H, Wang H, Li S, Qiu W, Li Y, Zhou R, Deng H, Guo Q, Li L, Pei L, Zhang HH, Qian L, Ji L.",
+"doi": "10.1016/j.cct.2025.108150",
+"iso": "Contemp Clin Trials",
+"jahr": "2026",
+"journal": "Contemporary clinical trials",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Obesity",
+"Weight Loss",
+"Metformin",
+"Blood Glucose",
+"Peptides",
+"Hypoglycemic Agents",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Glucagon-Like Peptides",
+"Randomized Controlled Trials as Topic",
+"Clinical Trials, Phase III as Topic",
+"Glycated Hemoglobin",
+"Glucagon-Like Peptide-1 Receptor Agonists",
+"Semaglutide"
+],
+"pmcid": "",
+"pmid": "41260459",
+"quelle": "MED",
+"titel": "Mazdutide versus Semaglutide for the treatment of type 2 diabetes and obesity: Rationale, design and baseline data of DREAMS-3 phase 3 trial.",
+"typen": [
+"Clinical Trial Protocol",
+"Journal Article"
+]
+},
 "pmid:41270766": {
 "autoren": "Monteiro CA, Louzada ML, Steele-Martinez E, Cannon G, Andrade GC, Baker P, Bes-Rastrollo M, Bonaccio M, Gearhardt AN, Khandpur N, Kolby M, Levy RB, Machado PP, Moubarac JC, Rezende LFM, Rivera JA, Scrinis G, Srour B, Swinburn B, Touvier M.",
 "doi": "10.1016/s0140-6736(25)01565-x",
@@ -101658,6 +101726,23 @@
 "Journal Article"
 ]
 },
+"pmid:42688617": {
+"autoren": "Chen D, Ma B, Sun H, Zhang J, Gong L, Wang W, Liu Z, Zha H, Du S, Chen M, Sun W, Guo Q, Cao Y, Li Y.",
+"doi": "10.1136/bmjmed-2026-003026",
+"iso": "BMJ Med",
+"jahr": "2026",
+"journal": "BMJ medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13536023",
+"pmid": "42688617",
+"quelle": "MED",
+"titel": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:42699335": {
 "autoren": "Chu B, Kinariwalla N, Elco CP, Seo SJ.",
 "doi": "10.1016/j.jdcr.2026.06.009",
@@ -102270,6 +102355,82 @@
 "Journal Article"
 ]
 },
+"pmid:42810372": {
+"autoren": "Bellido V, le Roux CW, Ekinci EI, Bjornstad P, Frias JP, Giblin K, Eyde S, Park SY, Ferro J, Johnson C, Taylor A.",
+"doi": "10.1016/s0140-6736(26)01861-1",
+"iso": "Lancet",
+"jahr": "2026",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Obesity",
+"Fatty Acids",
+"Peptides",
+"Hypoglycemic Agents",
+"Double-Blind Method",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Glucagon-Like Peptides"
+],
+"pmcid": "",
+"pmid": "42810372",
+"quelle": "MED",
+"titel": "Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial.",
+"typen": [
+"Clinical Trial, Phase III",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:42814954": {
+"autoren": "Jastreboff AM, Kaplan LM, Davies MJ, Wilding JPH, Ahmad NN, Murray M, Du Y, Makarova N, Giblin K, Schloot NC, Wang Y, TRIUMPH-1 Investigators.",
+"doi": "10.1056/nejmoa2604169",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Osteoarthritis, Knee",
+"Sleep Apnea, Obstructive",
+"Obesity",
+"Weight Loss",
+"Fatty Acids",
+"Peptides",
+"Receptors, Glucagon",
+"Receptors, Gastrointestinal Hormone",
+"Anti-Obesity Agents",
+"Pain Measurement",
+"Treatment Outcome",
+"Injections, Subcutaneous",
+"Severity of Illness Index",
+"Double-Blind Method",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Intention to Treat Analysis",
+"Glucagon-Like Peptide-1 Receptor Agonists"
+],
+"pmcid": "",
+"pmid": "42814954",
+"quelle": "MED",
+"titel": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity.",
+"typen": [
+"Clinical Trial, Phase III",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42823536": {
 "autoren": "Koning M, Kovynev A, Fondevila MF, Ruhe EJM, Mommersteeg MC, Ramakers C, Hutten BA, Verwer B, Vlug M, Kuiper T, van den Berg M, Vrieze A, Bizino M, van den Beld A, Berk L, Boerlage T, Augustijn QJJ, Brouwer WP, Chen WJ, Cahen D, Verdonk R, de Jonge WJ, Ramsoekh S, Doukas M, Vermorgen SMM, Verheij J, Beuers U, Takkenberg RB, Bergman JJG, D'Haens GRAM, Drenth JPH, Tchkonia T, Schnabl B, Kirkland JL, Meijnikman AS.",
 "doi": "10.1038/s42255-026-01643-4",
@@ -102338,6 +102499,22 @@
 "pmid": "42893216",
 "quelle": "MED",
 "titel": "Effectiveness of Yoga-based guided meditation In Improving the quality of sleep in patients with coronary artery disease: The Yoga Nidra Trial.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:42904878": {
+"autoren": "Grunstein RR, Somers VK, Azarbarzin A, Malhotra A, Sands SA, Lucey BP, Allen SE, Giblin K, Falcon BL, Park SY, Lou J, Krueger K, TRIUMPH-1-OSA and TRIUMPH-2-OSA Investigators.",
+"doi": "10.1056/nejmoa2611477",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42904878",
+"quelle": "MED",
+"titel": "Retatrutide Once Weekly for Treatment of Obstructive Sleep Apnea.",
 "typen": [
 "Journal Article"
 ]
