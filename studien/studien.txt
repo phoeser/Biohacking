@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -704,6 +704,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Studienregister: ClinicalTrials.gov – NCT02637284, Phase 1 an Gesunden, Status UNKNOWN, keine Ergebnisse. https://clinicaltrials.gov/study/NCT02637284
 - Studienregister: ClinicalTrials.gov – NCT07437547, Phase 2 Oberschenkelzerrung, Abschluss geschätzt 02/2028. https://clinicaltrials.gov/study/NCT07437547
 - Sonstige Studie, 2026: Peptide Supplements and Their Therapeutic Applications in Sports Medicine (Tewari K et al., Am J Sports Med). https://europepmc.org/article/MED/42578445
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: Bromantan (Ladasten) (https://biohackingkompakt.de/thema/bromantan.html)
@@ -1374,6 +1375,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2006: Delta sleep-inducing peptide (DSIP): a still unresolved riddle (Kovalzon VM et al., J Neurochem). https://pubmed.ncbi.nlm.nih.gov/16539679/
 - Übersichtsartikel, 1984: Delta-sleep-inducing peptide (DSIP): a review (Graf MV et al., Neurosci Biobehav Rev). https://pubmed.ncbi.nlm.nih.gov/6145137/
 - Sonstige Studie, 1983: Successful treatment of withdrawal symptoms with delta sleep-inducing peptide, a neuropeptide with potential agonistic activity on opiate receptors (Dick P et al., Neuropsychobiology). https://pubmed.ncbi.nlm.nih.gov/6328354/
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: Dutasterid (https://biohackingkompakt.de/thema/dutasterid.html)
@@ -1496,6 +1498,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2025: Overview of Epitalon-Highly Bioactive Pineal Tetrapeptide with Promising Properties (Araj SK et al., Int J Mol Sci). https://pubmed.ncbi.nlm.nih.gov/40141333/
 - Sonstige Studie, 2026: From Cellular Aging to Tissue Protection: Epitalon in Regenerative and Longevity Medicine (Jain A et al., Preprints.org). https://doi.org/10.20944/preprints202607.2123.v1
 - Sonstige Studie, 2003: Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells (Khavinson VKh et al., Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/12937682/
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott Will & Schulte, PCAC-Votum 2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: EPO (Erythropoetin) (https://biohackingkompakt.de/thema/epo.html)
@@ -1897,6 +1900,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2012: The regenerative peptide thymosin β4 accelerates the rate of dermal healing in preclinical animal models and in patients (Treadwell T et al., Ann N Y Acad Sci). https://pubmed.ncbi.nlm.nih.gov/23050815/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA – Bulk Drug Substances Nominated Under Section 503A (Stand 14.05.2026). https://www.fda.gov/media/94155/download
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA – Bulk Drug Substances with Significant Safety Risks (Stand 22.04.2026). https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott Will & Schulte – Bericht zur Sitzung des FDA-Gremiums PCAC, 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, amtliche Veröffentlichung BGBl. III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
@@ -2496,6 +2500,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2026: Thymosin Beta-4 and TB-500 in Tissue Healing, Regeneration, and Musculoskeletal Repair: A Scoping Review (McGuire F et al., Preprints.org). https://doi.org/10.20944/preprints202605.1124.v1
 - Übersichtsartikel, 2015: GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration (Pickart L et al., Biomed Res Int). https://pubmed.ncbi.nlm.nih.gov/26236730/
 - Sonstige Studie, 2026: Peptide Supplements and Their Therapeutic Applications in Sports Medicine (Tewari K et al., Am J Sports Med). https://europepmc.org/article/MED/42578445
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott Will & Schulte, Juli 2026 – Bericht zur FDA-Expertensitzung (PCAC) vom 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: Koffein (https://biohackingkompakt.de/thema/koffein.html)
@@ -2536,6 +2541,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2010: Drug-loaded nanoparticles targeted to the colon with polysaccharide hydrogel reduce colitis in a mouse model (Laroui H et al., Gastroenterology). https://pubmed.ncbi.nlm.nih.gov/19909746/
 - Sonstige Studie, 2000: Antimicrobial effects of alpha-MSH peptides (Cutuli M et al., J Leukoc Biol). https://pubmed.ncbi.nlm.nih.gov/10670585/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA — Bulk Drug Substances: keine Daten zur Anwendung von KPV am Menschen. https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott Will & Schulte, Juli 2026 – Bericht zur FDA-Expertensitzung (PCAC) vom 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: Kratom (Mitragynin, 7-OH) (https://biohackingkompakt.de/thema/kratom.html)
@@ -3412,6 +3418,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2015: The mitochondrial-derived peptide MOTS-c: a player in exceptional longevity? (Fuku N et al., Aging Cell). https://pubmed.ncbi.nlm.nih.gov/26289118/
 - Behörde/Recht (USADA): USADA: Key changes 2024 Prohibited List. https://www.usada.org/athlete-advisory/key-changes-2024-prohibited-list/
 - Behörde/Recht (USADA): USADA: What is the MOTS-c peptide?. https://www.usada.org/spirit-of-sport/what-is-mots-c-peptide/
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 - Behörde/Recht (Weitere Quellen): WADA, Prohibited List 2026. https://ita.sport/uploads/2025/09/2026list_en_final_clean_september_2025.pdf
 
@@ -4621,6 +4628,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2025: "Brain doping" substances: prohibited or not in sports? (Pokrywka A et al., Biol Sport). https://pubmed.ncbi.nlm.nih.gov/41048238/
 - Sonstige Studie, 2018: Effects of Semax on the Default Mode Network of the Brain (Lebedeva IS et al., Bull Exp Biol Med). https://pubmed.ncbi.nlm.nih.gov/30225715/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Briefing zum Pharmacy Compounding Advisory Committee 2026 (Bewertung von Semax). https://www.fda.gov/media/193348/download
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 
 ## Thema: Sermorelin (https://biohackingkompakt.de/thema/sermorelin.html)
@@ -4944,6 +4952,7 @@ Stand: 09.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2012: Thymosin β4: a multi-functional regenerative peptide. Basic properties and clinical applications (Goldstein AL et al., Expert Opin Biol Ther). https://pubmed.ncbi.nlm.nih.gov/22074294/
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz, Anlage (Thymosin-beta-4 und seine Derivate, z. B. TB-500). https://www.gesetze-im-internet.de/antidopg/anlage.html
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA – Wirkstoffe mit möglichen Sicherheitsrisiken bei der Apothekenherstellung (Stand April 2026). https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks
+- Behörde/Recht (Weitere Quellen): Holland & Knight (Kanzlei), vorläufige Duldung von sechs Peptiden durch das US-Gesundheitsministerium, November 2026. https://www.hklaw.com/en/insights/publications/2026/11/hhs-issues-interim-enforcement-discretion-policy-for-compounding
 - Behörde/Recht (Weitere Quellen): McDermott Will & Schulte – FDA-Expertengremium (PCAC) zu Peptiden, 23./24. Juli 2026. https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/
 - Behörde/Recht (Weitere Quellen): WADA-Verbotsliste 2026, amtlich veröffentlicht im österreichischen Bundesgesetzblatt III Nr. 219/2025. https://www.ris.bka.gv.at/eli/bgbl/III/2025/219
 
