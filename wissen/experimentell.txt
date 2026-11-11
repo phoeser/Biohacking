@@ -1,6 +1,6 @@
 # Peptide und experimentelle Substanzen – Biohacking Kompakt
 
-Stand: 10.11.2026. 218 Einträge. In Deutschland meist nicht als Arzneimittel zugelassen oder verschreibungspflichtig – hier stehen bewusst keine Dosierungen und keine Bezugsquellen; für die Anwendung gehört ärztliche Begleitung dazu. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 11.11.2026. 218 Einträge. In Deutschland meist nicht als Arzneimittel zugelassen oder verschreibungspflichtig – hier stehen bewusst keine Dosierungen und keine Bezugsquellen; für die Anwendung gehört ärztliche Begleitung dazu. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## 17α-Estradiol (Alfatradiol)
@@ -2351,7 +2351,7 @@ Wirkmechanismus: Testosteron ist das wichtigste männliche Sexualhormon und wirk
 Was dafür spricht: Bei echtem Mangel: mehr sexuelles Verlangen und bessere Erektionsfähigkeit.; Zunahme der Muskelmasse und Abnahme von Körperfett.; Verbesserte Knochendichte.; Oft bessere Stimmung, mehr Antrieb und Lebensqualität (mangelbedingte, depressionsähnliche Symptome bessern sich).; Hinweise auf bessere Insulinempfindlichkeit und günstige Stoffwechseleffekte, v.a. bei Übergewicht + Mangel.; Aktuelle Sicherheitsdaten (TRAVERSE-Studie): kein erhöhtes Risiko für schwere Herz-Kreislauf-Ereignisse. Zum Prostatakrebs gab es zu wenige Fälle für eine Aussage in die eine oder andere Richtung.
 Risiken: Verschreibungspflichtig – Diagnose und Begleitung gehören in ärztliche Hände (inkl. regelmäßiger Blutkontrollen).; Unterdrückt vorübergehend die eigene Spermienproduktion; bei Kinderwunsch gibt es schonendere Wege.; Kann die roten Blutkörperchen anheben – mit Kontrollen gut steuerbar.; In TRAVERSE häufiger Vorhofflimmern (91 gegen 63 Fälle), akute Nierenschädigung und Lungenembolie; Metaanalyse: Herzrhythmusstörungen RR 1,53. Die FDA hat 2025 eine Warnung zu Blutdruckanstieg ergänzt.
 Status: Zugelassenes, verschreibungspflichtiges Medikament bei Testosteronmangel. Am besten ärztlich abklären und begleiten lassen.
-BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung gemischt, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 4/10).
+BK-Score: Gut belegt, stark überhöht beworben (Studien am Menschen 9/10, Richtung gemischt, Mechanismus 9/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 3/10).
 Begründung: Die Substitution bei diagnostiziertem Hypogonadismus ist seit Jahrzehnten zugelassen und die Wirkkette am Menschen zweifelsfrei belegt – die Frage ist, wer behandelt wird. Die TRAVERSE-Studie (Lincoff et al., NEJM 2023) randomisierte 5.246 Männer, im Mittel 21,7 Monate behandelt und 33 Monate beobachtet: kardiovaskulär nicht unterlegen, aber mehr Vorhofflimmern (91 gegen 63 Fälle) und mehr akutes Nierenversagen. Das BfArM wies 2025 auf die stark steigende Verordnungshäufigkeit hin, die teils außerhalb der Zulassung erfolgt. Für Männer mit niedrig-normalen Werten ohne Diagnose gibt es keine Zulassungsstudie.
 Seite: https://biohackingkompakt.de/thema/testosteron.html
 

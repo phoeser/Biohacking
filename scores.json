@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-11-10",
+ "stand": "2026-11-11",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -1698,7 +1698,7 @@
    "evidenz": 9,
    "mechanismus": 9,
    "sicherheit": 9,
-   "hype": 4,
+   "hype": 3,
    "anwendung": 10,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
