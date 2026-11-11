@@ -27,11 +27,12 @@ const PODCAST_APPLE_BASIS = 'https://podcasts.apple.com/de/podcast/biohacking-ko
 const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/episodes/';
 
 const PODCAST_FOLGEN = [
+  { nr: 160, datum: '2026-11-29', ab: '2026-11-29T07:00:00Z', titel: 'Mazdutide gegen Retatrutid – das Duell, das es noch nicht gibt', spotify: '4ECX9LGwAYH6TiW5JnGHOR', ziel: { view: 'experimental', id: 'mazdutide' } },
   { nr: 156, datum: '2026-11-08', ab: '2026-11-08T07:00:00Z', titel: 'Update: Retatrutid – das erste Duell mit Ozempic', spotify: '5Cr7aTuhcFj5GC1JDeJwf1', apple: '1000800526047', ziel: { view: 'experimental', id: 'retatrutide' } },
   { nr: 155, datum: '2026-12-02', ab: '2026-12-02T07:00:00Z', titel: 'ChatGPT und Grok zu Gast – was KIs über BPC-157 wissen und wo sie sich widersprechen', spotify: '0h1HMi7vwmvm1foO77cTLJ', ziel: { view: 'experimental', id: 'bpc-157' } },
   { nr: 154, datum: '2026-12-01', ab: '2026-12-01T07:00:00Z', titel: 'Nandrolon – ein Steroid, eine Zahnpasta und sechzig Jahre Daten', spotify: '4SCbOG4smY5TJlDzGvs0oK', ziel: { view: 'experimental', id: 'nandrolon' } },
   { nr: 153, datum: '2026-11-30', ab: '2026-11-30T07:00:00Z', titel: 'HMG – das Hormon aus dem Kloster, zwischen Kinderwunsch und Steroidkur', spotify: '5BnjYdb7Ocepy65VqHxBYI', ziel: { view: 'experimental', id: 'hmg' } },
-  { nr: 152, datum: '2026-11-29', ab: '2026-11-29T07:00:00Z', titel: 'Hexarelin – das stärkste Wachstumshormon-Peptid, und was nach Wochen bleibt', spotify: '34BieD9hLQTkemWKjXk18o', ziel: { view: 'experimental', id: 'hexarelin' } },
+  { nr: 152, datum: '2026-12-04', ab: '2026-12-04T07:00:00Z', titel: 'Hexarelin – das stärkste Wachstumshormon-Peptid, und was nach Wochen bleibt', spotify: '34BieD9hLQTkemWKjXk18o', ziel: { view: 'experimental', id: 'hexarelin' } },
   { nr: 151, datum: '2026-11-28', ab: '2026-11-28T07:00:00Z', titel: 'Larazotid – der Riegel gegen den durchlässigen Darm, gebaut nach einem Cholera-Gift', spotify: '27ZcqxKIjyyOPgbZgpqxs1', ziel: { view: 'experimental', id: 'larazotide' } },
   { nr: 150, datum: '2026-11-27', ab: '2026-11-27T07:00:00Z', titel: 'Semax – das russische Nasenspray, das in Amerika eine Abstimmung gewann', spotify: '531TtwTZvMiSwUyQFt2DCW', ziel: { view: 'experimental', id: 'semax' } },
   { nr: 149, datum: '2026-11-26', ab: '2026-11-26T07:00:00Z', titel: 'Klotho – das Anti-Aging-Protein aus einer verunglückten Maus', spotify: '39MdEL1R7HXwfYDHYaQ8TO', ziel: { view: 'experimental', id: 'klotho' } },
