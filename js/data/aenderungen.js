@@ -18,6 +18,13 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-11-11',
+    typ: 'Korrektur',
+    titel: 'Testosteron: Hype-Abstand von 4 auf 3',
+    text: 'Die Studienlage zur zugelassenen Anwendung bei ärztlich gesichertem Mangel ist unverändert stark: Human-Evidenz 9, Sicherheits-Datenlage 9. Gewachsen ist seit dem Sommer die Lücke zur Vermarktung – Testosteron-Abos über Telemedizin, „T-Maxxing“ in sozialen Medien, steigende Verordnungen bei jüngeren Männern und eine angekündigte Lockerung der US-Warnhinweise. Eine große Lübecker Kohorte zeigt zugleich, dass die beruhigenden TRAVERSE-Daten an der gesicherten Diagnose hängen: Männer ohne Hinweis auf einen Mangel hatten mehr schwere Herz-Kreislauf-Ereignisse und ein fast doppelt so hohes Sterberisiko (Beobachtungsstudie, kein Kausalbeleg). Deshalb sinkt der Hype-Abstand von 4 auf 3. Mehr dazu im Testosteron-Update, Folge 158.',
+    ziel: { view: 'experimental', id: 'testosteron' }
+  },
+  {
     datum: '2026-10-22',
     typ: 'Evidenz',
     titel: 'BPC-157: Neuer systematischer Review zählt drei Humanstudien – alle ohne Kontrollgruppe',
