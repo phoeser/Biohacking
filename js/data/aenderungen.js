@@ -18,6 +18,14 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-11-12',
+    typ: 'Evidenz',
+    titel: 'Lipoprotein(a): HORIZON vollständig publiziert, Sicherheits-Datenlage von 5 auf 7',
+    ziel: { view: 'behandlungen', id: 'lipoprotein-a' },
+    text: 'Bisher stand hier, die HORIZON-Daten seien nur aus der Mitteilung des Herstellers vom 4. September bekannt und zur Verträglichkeit gebe es keine Zahlen. Das ist überholt: Am 7. November 2026 ist die Studie im New England Journal of Medicine erschienen. Pelacarsen senkte Lipoprotein(a) um 77,7 Prozent, schwere Herz-Kreislauf-Ereignisse traten nach median 4,7 Jahren bei 12,3 gegenüber 12,1 Prozent unter Placebo auf. Zur Verträglichkeit liegen jetzt kontrollierte Daten vor: grippeähnliche Reaktionen bei 31,9 gegenüber 5,8 Prozent, Abbruch wegen Nebenwirkungen bei 20,6 gegenüber 7,5 Prozent. Deshalb steigt die Sicherheits-Datenlage von 5 auf 7 – sie misst, wie gut die Sicherheit untersucht ist, nicht wie harmlos ein Mittel ist. Novartis hat das Programm eingestellt. Mehr dazu in der News-Folge 157.',
+    quelle: { titel: 'Cho et al. 2026, N Engl J Med (doi:10.1056/NEJMoa2610159)', url: 'https://doi.org/10.1056/NEJMoa2610159' }
+  },
+  {
     datum: '2026-11-11',
     typ: 'Korrektur',
     titel: 'Testosteron: Hype-Abstand von 4 auf 3',

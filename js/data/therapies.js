@@ -1061,7 +1061,7 @@ const THERAPIES = [
       'Lipidprofil'
     ],
     link: 'https://www.novartis.com/news/media-releases/novartis-announces-lpahorizon-phase-iii-topline-results-pelacarsen-patients-elevated-lpa-and-established-cardiovascular-disease-cvd',
-    note: 'Ein belegter Risikofaktor ist noch kein belegtes Therapieziel. Die Genetik hat gezeigt, dass Lipoprotein(a) den Schaden mitverursacht; sie hat nicht gezeigt, dass man ihn durch späteres Senken wieder loswird. Genau diese beiden Aussagen werden dauernd in einen Topf geworfen. Derzeit gibt es kein Medikament, von dem bewiesen wäre, dass es über die Senkung von Lipoprotein(a) Herzinfarkte verhindert – wer das verkauft, verkauft eine Hoffnung. Die vollständigen HORIZON-Daten sind noch nicht publiziert, sie werden am 7. November 2026 auf dem Kongress der American Heart Association in Chicago vorgestellt. Der Wert selbst bleibt sinnvoll zu kennen, und die Einordnung gehört in ein ärztliches Gespräch.'
+    note: 'Ein belegter Risikofaktor ist noch kein belegtes Therapieziel. Die Genetik hat gezeigt, dass Lipoprotein(a) den Schaden mitverursacht; sie hat nicht gezeigt, dass man ihn durch späteres Senken wieder loswird. Genau diese beiden Aussagen werden dauernd in einen Topf geworfen. Derzeit gibt es kein Medikament, von dem bewiesen wäre, dass es über die Senkung von Lipoprotein(a) Herzinfarkte verhindert – wer das verkauft, verkauft eine Hoffnung. Die vollständigen HORIZON-Daten (NEJM, 7.11.2026) bestätigen das: Wert um knapp 78 Prozent gesenkt, Ereignisse 12,3 gegenüber 12,1 Prozent, Novartis hat das Programm eingestellt. Der Wert selbst bleibt sinnvoll zu kennen, und die Einordnung gehört in ein ärztliches Gespräch.'
   },
   {
     id: 'menopause-hrt',
@@ -1400,6 +1400,23 @@ const THERAPIES = [
     indication: ['Demenz-Risiko', 'Herz-Kreislauf-Risiko', 'Familiäre Risiken', 'Prävention'],
     note: 'Ein Risiko ist keine Diagnose: Die meisten Menschen mit einer ε4-Kopie erkranken bis 85 nicht. Polygene Scores erkennen bei 5 Prozent Fehlalarmen im Mittel nur 11 Prozent der späteren Fälle, für die koronare Herzkrankheit 12 Prozent; zu den klassischen Risikofaktoren hinzugenommen, verbesserte ein Score für die Herzkrankheit die Vorhersage nur wenig. Eine Studie, die zeigt, dass Gesunde mit Kenntnis ihres APOE-Typs länger gesund bleiben, gibt es nicht. Nach dem Gendiagnostikgesetz darf eine prädiktive genetische Untersuchung nur eine Fachärztin oder ein Facharzt für Humangenetik oder ein entsprechend qualifizierter Arzt vornehmen, mit schriftlicher Einwilligung und genetischer Beratung vor und nach dem Test, außer du verzichtest nach schriftlicher Information schriftlich darauf. Du hast ein Recht auf Nichtwissen. Arbeitgeber dürfen weder einen Test verlangen noch Ergebnisse verwenden, Versicherer ebenso wenig – außer bei Lebens-, Berufsunfähigkeits-, Erwerbsunfähigkeits- und Pflegerentenversicherungen über 300.000 Euro Leistung oder 30.000 Euro Jahresrente, dort sind bekannte Ergebnisse anzugeben. Tests, die Krankheitsrisiken ohne ärztliche Aufklärung und Beratung per Post mitteilen, erfüllen diesen Rahmen nicht. Grundlagen zu Genanalysen stehen im Eintrag Genanalysen.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/38710950/'
+  },
+  {
+      id: 'lipo-spritzen',
+      name: 'Lipo-Spritzen (Lipo-B, Lipo-C, MIC)',
+      category: 'Biohacking',
+      emoji: '💉',
+      short: 'Spritzen mit „lipotropen“ Stoffen – Methionin, Inositol und Cholin (MIC), meist mit Vitamin B12, bei Lipo-C zusätzlich L-Carnitin –, die in Ästhetik- und Abnehmpraxen den Fettstoffwechsel anregen sollen. Die Einzelstoffe haben echte Aufgaben im Fettstoffwechsel, für die Spritze zum Abnehmen haben wir aber keine kontrollierte Studie mit veröffentlichten Ergebnissen gefunden.',
+      benefits: [
+        'Hintergrund: Cholin wird gebraucht, um Fett aus der Leber abzutransportieren; bei künstlicher Ernährung ohne Cholin entstand eine Fettleber, die sich unter Cholin über die Vene in einer randomisierten Studie mit 15 Patienten zurückbildete (Buchman 2001)',
+        'L-Carnitin als Nahrungsergänzung senkte in 37 randomisierten Studien mit 2.292 Teilnehmern das Körpergewicht im Mittel um 1,21 kg und die Fettmasse um 2,08 kg, ohne Effekt auf Taillenumfang und Körperfettanteil (Meta-Analyse Talenezhad 2020)',
+        'Vitamin-B12-Spritzen sind die übliche Behandlung eines nachgewiesenen Mangels; B12 zum Schlucken war in drei kleinen Vergleichsstudien ähnlich wirksam (Cochrane, Wang 2018)',
+        'Gespritztes L-Carnitin gelangte bei gesunden Männern nur bei gleichzeitig hohem Insulinspiegel in den Muskel, bei nüchternem Insulin nicht (Stephens 2006)',
+        'Für Lipo-B-, Lipo-C- oder MIC-Spritzen zum Abnehmen oder Fettabbau gibt es keine kontrollierte Studie mit veröffentlichten Ergebnissen; eine kleine randomisierte Pilotstudie mit B12-Spritzen zusätzlich zum Appetitzügler Phentermin (22 Teilnehmer) wurde 2013 abgeschlossen, Ergebnisse sind nicht erschienen (NCT01719185)'
+      ],
+      indication: ['Gewicht', 'Stoffwechsel-Optimierung', 'Energie/Fatigue'],
+      note: 'Ein zum Abnehmen zugelassenes Arzneimittel mit dieser Zusammensetzung haben wir nicht gefunden. L-Carnitin zur parenteralen Anwendung ist in Deutschland verschreibungspflichtig; Cyanocobalamin, Methionin, Cholin und Inositol stehen nicht in Anlage 1 der Arzneimittelverschreibungsverordnung. Ärzte und Heilpraktiker dürfen Arzneimittel für die persönliche Anwendung bei einem bestimmten Patienten ohne Herstellungserlaubnis selbst herstellen (§ 13 Abs. 2b AMG), Heilpraktiker aber keine verschreibungspflichtigen. Nach L-Carnitin über die Vene sind schwere Überempfindlichkeitsreaktionen und Krampfanfälle beschrieben (US-Fachinformation). Für Wettkampfsportler: Die Stoffe stehen nicht auf der WADA-Verbotsliste, Infusionen oder Injektionen über 100 ml in 12 Stunden außerhalb von Klinikbehandlungen schon (M2.2). Spritzen gehören in ärztliche Hände, mit sauber hergestellten Präparaten.',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/32359762/'
   }
 
 ];

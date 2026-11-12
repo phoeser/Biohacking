@@ -1,0 +1,8639 @@
+{
+ "molekuele": {
+  "CHEMBL100259": {
+   "abgerufen": "2026-11-12",
+   "name": "URIDINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1007": {
+   "abgerufen": "2026-11-12",
+   "name": "GONADORELIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GNRHR",
+     "moa": "Gonadotropin-releasing hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P30968",
+     "wirkart": "AGONIST",
+     "ziel": "Gonadotropin-releasing hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL1017": {
+   "abgerufen": "2026-11-12",
+   "name": "TELMISARTAN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AGTR1",
+     "moa": "Type-1 angiotensin II receptor antagonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P30556",
+     "wirkart": "ANTAGONIST",
+     "ziel": "Type-1 angiotensin II receptor"
+    }
+   ]
+  },
+  "CHEMBL103": {
+   "abgerufen": "2026-11-12",
+   "name": "PROGESTERONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PGR",
+     "moa": "Progesterone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P06401",
+     "wirkart": "AGONIST",
+     "ziel": "Progesterone receptor"
+    }
+   ]
+  },
+  "CHEMBL1042": {
+   "abgerufen": "2026-11-12",
+   "name": "CHOLECALCIFEROL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "VDR",
+     "moa": "Vitamin D receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P11473",
+     "wirkart": "AGONIST",
+     "ziel": "Vitamin D3 receptor"
+    }
+   ]
+  },
+  "CHEMBL106593": {
+   "abgerufen": "2026-11-12",
+   "name": "PRALMORELIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL107": {
+   "abgerufen": "2026-11-12",
+   "name": "COLCHICINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL107400": {
+   "abgerufen": "2026-11-12",
+   "name": "SOBETIROME",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL108335": {
+   "abgerufen": "2026-11-12",
+   "name": "EXAMORELIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1088977": {
+   "abgerufen": "2026-11-12",
+   "name": "ADEMETIONINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL113": {
+   "abgerufen": "2026-11-12",
+   "name": "CAFFEINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1138": {
+   "abgerufen": "2026-11-12",
+   "name": "EZETIMIBE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "NPC1L1",
+     "moa": "Niemann-Pick C1-like protein 1 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q9UHC9",
+     "wirkart": "INHIBITOR",
+     "ziel": "NPC1-like intracellular cholesterol transporter 1"
+    }
+   ]
+  },
+  "CHEMBL1140": {
+   "abgerufen": "2026-11-12",
+   "name": "NIACINAMIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1148": {
+   "abgerufen": "2026-11-12",
+   "name": "TORSEMIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC12A1",
+     "moa": "Sodium-(potassium)-chloride cotransporter 2 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q13621",
+     "wirkart": "INHIBITOR",
+     "ziel": "Solute carrier family 12 member 1"
+    }
+   ]
+  },
+  "CHEMBL1159662": {
+   "abgerufen": "2026-11-12",
+   "name": "RIBOSE (PYRANOSE)",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1200374": {
+   "abgerufen": "2026-11-12",
+   "name": "EXEMESTANE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "CYP19A1",
+     "moa": "Cytochrome P450 19A1 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P11511",
+     "wirkart": "INHIBITOR",
+     "ziel": "Aromatase"
+    }
+   ]
+  },
+  "CHEMBL1200436": {
+   "abgerufen": "2026-11-12",
+   "name": "OXANDROLONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL1200496": {
+   "abgerufen": "2026-11-12",
+   "name": "CALCIUM",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1200585": {
+   "abgerufen": "2026-11-12",
+   "name": "OXYMETHOLONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL1200946": {
+   "abgerufen": "2026-11-12",
+   "name": "NANDROLONE DECANOATE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL1200969": {
+   "abgerufen": "2026-11-12",
+   "name": "DUTASTERIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201087": {
+   "abgerufen": "2026-11-12",
+   "name": "CABERGOLINE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "DRD2",
+     "moa": "Dopamine D2 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P14416",
+     "wirkart": "AGONIST",
+     "ziel": "D(2) dopamine receptor"
+    }
+   ]
+  },
+  "CHEMBL1201192": {
+   "abgerufen": "2026-11-12",
+   "name": "ARMODAFINIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC6A3",
+     "moa": "Dopamine transporter inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q01959",
+     "wirkart": "INHIBITOR",
+     "ziel": "Sodium-dependent dopamine transporter"
+    }
+   ]
+  },
+  "CHEMBL1201225": {
+   "abgerufen": "2026-11-12",
+   "name": "IODINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201228": {
+   "abgerufen": "2026-11-12",
+   "name": "CHROMIUM",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201230": {
+   "abgerufen": "2026-11-12",
+   "name": "MAGNESIUM",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201290": {
+   "abgerufen": "2026-11-12",
+   "name": "POTASSIUM",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201334": {
+   "abgerufen": "2026-11-12",
+   "name": "TRIPTORELIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GNRHR",
+     "moa": "Gonadotropin-releasing hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P30968",
+     "wirkart": "AGONIST",
+     "ziel": "Gonadotropin-releasing hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL1201490": {
+   "abgerufen": "2026-11-12",
+   "name": "SERMORELIN ACETATE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GHRHR",
+     "moa": "Growth hormone-releasing hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q02643",
+     "wirkart": "AGONIST",
+     "ziel": "Growth hormone-releasing hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL1201498": {
+   "abgerufen": "2026-11-12",
+   "name": "AMINO ACIDS",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201621": {
+   "abgerufen": "2026-11-12",
+   "name": "SOMATROPIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GHR",
+     "moa": "Growth hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10912",
+     "wirkart": "AGONIST",
+     "ziel": "Growth hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL1201646": {
+   "abgerufen": "2026-11-12",
+   "name": "INULIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1201723": {
+   "abgerufen": "2026-11-12",
+   "name": "SINECATECHINS",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1222251": {
+   "abgerufen": "2026-11-12",
+   "name": "INOSITOL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1231574": {
+   "abgerufen": "2026-11-12",
+   "name": "LEVOMEFOLIC ACID",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1231700": {
+   "abgerufen": "2026-11-12",
+   "name": "CITICOLINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1237026": {
+   "abgerufen": "2026-11-12",
+   "name": "TESAMORELIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GHRHR",
+     "moa": "Growth hormone-releasing hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q02643",
+     "wirkart": "AGONIST",
+     "ziel": "Growth hormone-releasing hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL1255871": {
+   "abgerufen": "2026-11-12",
+   "name": "ASTAXANTHIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL135": {
+   "abgerufen": "2026-11-12",
+   "name": "ESTRADIOL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "AGONIST",
+     "ziel": "Estrogen receptor"
+    }
+   ]
+  },
+  "CHEMBL135400": {
+   "abgerufen": "2026-11-12",
+   "name": "ZOPICLONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1373": {
+   "abgerufen": "2026-11-12",
+   "name": "MODAFINIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC6A3",
+     "moa": "Dopamine transporter inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q01959",
+     "wirkart": "INHIBITOR",
+     "ziel": "Sodium-dependent dopamine transporter"
+    }
+   ]
+  },
+  "CHEMBL13817": {
+   "abgerufen": "2026-11-12",
+   "name": "IBUTAMOREN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GHSR",
+     "moa": "Ghrelin receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q92847",
+     "wirkart": "AGONIST",
+     "ziel": "Growth hormone secretagogue receptor type 1"
+    }
+   ]
+  },
+  "CHEMBL1399": {
+   "abgerufen": "2026-11-12",
+   "name": "ANASTROZOLE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "CYP19A1",
+     "moa": "Cytochrome P450 19A1 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P11511",
+     "wirkart": "INHIBITOR",
+     "ziel": "Aromatase"
+    }
+   ]
+  },
+  "CHEMBL140": {
+   "abgerufen": "2026-11-12",
+   "name": "CURCUMIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1418176": {
+   "abgerufen": "2026-11-12",
+   "name": "METHANDROSTENOLONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL1431": {
+   "abgerufen": "2026-11-12",
+   "name": "METFORMIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GPD2",
+     "moa": "Mitochondrial glycerol-3-phosphate dehydrogenase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43304",
+     "wirkart": "INHIBITOR",
+     "ziel": "Glycerol-3-phosphate dehydrogenase, mitochondrial"
+    }
+   ]
+  },
+  "CHEMBL1444": {
+   "abgerufen": "2026-11-12",
+   "name": "LETROZOLE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "CYP19A1",
+     "moa": "Cytochrome P450 19A1 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P11511",
+     "wirkart": "INHIBITOR",
+     "ziel": "Aromatase"
+    }
+   ]
+  },
+  "CHEMBL1445": {
+   "abgerufen": "2026-11-12",
+   "name": "FLUOXYMESTERONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL1472": {
+   "abgerufen": "2026-11-12",
+   "name": "PROTIRELIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "TRHR",
+     "moa": "Thyrotropin-releasing hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P34981",
+     "wirkart": "AGONIST",
+     "ziel": "Thyrotropin-releasing hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL1485": {
+   "abgerufen": "2026-11-12",
+   "name": "ARGININE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL151": {
+   "abgerufen": "2026-11-12",
+   "name": "LUTEOLIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1520": {
+   "abgerufen": "2026-11-12",
+   "name": "VARDENAFIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR",
+     "ziel": "cGMP-specific 3',5'-cyclic phosphodiesterase"
+    }
+   ]
+  },
+  "CHEMBL15245": {
+   "abgerufen": "2026-11-12",
+   "name": "YOHIMBINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1543": {
+   "abgerufen": "2026-11-12",
+   "name": "GLUTATHIONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1544": {
+   "abgerufen": "2026-11-12",
+   "name": "LIOTHYRONINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL157101": {
+   "abgerufen": "2026-11-12",
+   "name": "KETOCONAZOLE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1624": {
+   "abgerufen": "2026-11-12",
+   "name": "LEVOTHYROXINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL165": {
+   "abgerufen": "2026-11-12",
+   "name": "RESVERATROL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL166444": {
+   "abgerufen": "2026-11-12",
+   "name": "METRIBOLONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1672635": {
+   "abgerufen": "2026-11-12",
+   "name": "RAD-140",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1697733": {
+   "abgerufen": "2026-11-12",
+   "name": "ACETYLCARNITINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1698011": {
+   "abgerufen": "2026-11-12",
+   "name": "TRENBOLONE ACETATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1738889": {
+   "abgerufen": "2026-11-12",
+   "name": "ENOBOSARM",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "MODULATOR",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL175247": {
+   "abgerufen": "2026-11-12",
+   "name": "ORLISTAT",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "LIPF",
+     "moa": "Gastric lipase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P07098",
+     "wirkart": "INHIBITOR",
+     "ziel": "Gastric triacylglycerol lipase"
+    },
+    {
+     "gen": "PNLIP",
+     "moa": "Pancreatic lipase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P16233",
+     "wirkart": "INHIBITOR",
+     "ziel": "Pancreatic triacylglycerol lipase"
+    }
+   ]
+  },
+  "CHEMBL1874002": {
+   "abgerufen": "2026-11-12",
+   "name": "SULBUTIAMINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL190461": {
+   "abgerufen": "2026-11-12",
+   "name": "CANNABIDIOL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "CNR1",
+     "moa": "Cannabinoid CB1 receptor negative allosteric modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P21554",
+     "wirkart": "NEGATIVE ALLOSTERIC MODULATOR",
+     "ziel": "Cannabinoid receptor 1"
+    }
+   ]
+  },
+  "CHEMBL191083": {
+   "abgerufen": "2026-11-12",
+   "name": "METHYLENE BLUE CATION",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1911053": {
+   "abgerufen": "2026-11-12",
+   "name": "OLEUROPEIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL192": {
+   "abgerufen": "2026-11-12",
+   "name": "SILDENAFIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR",
+     "ziel": "cGMP-specific 3',5'-cyclic phosphodiesterase"
+    }
+   ]
+  },
+  "CHEMBL19612": {
+   "abgerufen": "2026-11-12",
+   "name": "SPERMIDINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1961796": {
+   "abgerufen": "2026-11-12",
+   "name": "SR9009",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL1963681": {
+   "abgerufen": "2026-11-12",
+   "name": "AVANAFIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR",
+     "ziel": "cGMP-specific 3',5'-cyclic phosphodiesterase"
+    }
+   ]
+  },
+  "CHEMBL2048484": {
+   "abgerufen": "2026-11-12",
+   "name": "CANAGLIFLOZIN ANHYDROUS",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC5A2",
+     "moa": "Sodium/glucose cotransporter 2 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P31639",
+     "wirkart": "INHIBITOR",
+     "ziel": "Sodium/glucose cotransporter 2"
+    }
+   ]
+  },
+  "CHEMBL2070241": {
+   "abgerufen": "2026-11-12",
+   "name": "BREMELANOTIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "MC4R",
+     "moa": "Melanocortin receptor 4 agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P32245",
+     "wirkart": "AGONIST",
+     "ziel": "Melanocortin receptor 4"
+    }
+   ]
+  },
+  "CHEMBL2079587": {
+   "abgerufen": "2026-11-12",
+   "name": "STANOZOLOL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL2103979": {
+   "abgerufen": "2026-11-12",
+   "name": "THYMALFASIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2104217": {
+   "abgerufen": "2026-11-12",
+   "name": "CALCIUM SACCHARATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2105646": {
+   "abgerufen": "2026-11-12",
+   "name": "LARAZOTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2106049": {
+   "abgerufen": "2026-11-12",
+   "name": "CHARCOAL, ACTIVATED",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2106059": {
+   "abgerufen": "2026-11-12",
+   "name": "BOLDENONE UNDECYLENATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2106455": {
+   "abgerufen": "2026-11-12",
+   "name": "NONATHYMULIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2106949": {
+   "abgerufen": "2026-11-12",
+   "name": "METHENOLONE ENANTHATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2107920": {
+   "abgerufen": "2026-11-12",
+   "name": "OX BILE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108015": {
+   "abgerufen": "2026-11-12",
+   "name": "VITAMIN B COMPLEX",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108165": {
+   "abgerufen": "2026-11-12",
+   "name": "VALERIAN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108209": {
+   "abgerufen": "2026-11-12",
+   "name": "LENTINAN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108427": {
+   "abgerufen": "2026-11-12",
+   "name": "MENOTROPINS",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "LHCGR",
+     "moa": "Luteinizing hormone/Choriogonadotropin receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P22888",
+     "wirkart": "AGONIST",
+     "ziel": "Lutropin-choriogonadotropic hormone receptor"
+    },
+    {
+     "gen": "FSHR",
+     "moa": "Follicle stimulating hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P23945",
+     "wirkart": "AGONIST",
+     "ziel": "Follicle-stimulating hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL2108466": {
+   "abgerufen": "2026-11-12",
+   "name": "GINKGO",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108467": {
+   "abgerufen": "2026-11-12",
+   "name": "GINSENG, ASIAN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108674": {
+   "abgerufen": "2026-11-12",
+   "name": "RAMATERCEPT",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "MSTN",
+     "moa": "Growth/differentiation factor 8 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O14793",
+     "wirkart": "INHIBITOR",
+     "ziel": "Growth/differentiation factor 8"
+    }
+   ]
+  },
+  "CHEMBL2108724": {
+   "abgerufen": "2026-11-12",
+   "name": "SEMAGLUTIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon-like peptide 1 receptor"
+    }
+   ]
+  },
+  "CHEMBL2108769": {
+   "abgerufen": "2026-11-12",
+   "name": "SAW PALMETTO",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2108880": {
+   "abgerufen": "2026-11-12",
+   "name": "SERRAPEPTASE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2109027": {
+   "abgerufen": "2026-11-12",
+   "name": "BROMELAINS",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2109208": {
+   "abgerufen": "2026-11-12",
+   "name": "MARITIME PINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2110900": {
+   "abgerufen": "2026-11-12",
+   "name": "DAPOXETINE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC6A4",
+     "moa": "Serotonin transporter inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P31645",
+     "wirkart": "INHIBITOR",
+     "ziel": "Sodium-dependent serotonin transporter"
+    }
+   ]
+  },
+  "CHEMBL2111105": {
+   "abgerufen": "2026-11-12",
+   "name": "RUSALATIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL222287": {
+   "abgerufen": "2026-11-12",
+   "name": "IBOGAINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL231884": {
+   "abgerufen": "2026-11-12",
+   "name": "DIOSMIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL2355051": {
+   "abgerufen": "2026-11-12",
+   "name": "CLOMIPHENE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR",
+     "ziel": "Estrogen receptor"
+    }
+   ]
+  },
+  "CHEMBL237111": {
+   "abgerufen": "2026-11-12",
+   "name": "AKBA",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL239243": {
+   "abgerufen": "2026-11-12",
+   "name": "TAURINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL25028": {
+   "abgerufen": "2026-11-12",
+   "name": "DIMETHYL SULFONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL25306": {
+   "abgerufen": "2026-11-12",
+   "name": "LINALOOL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL256087": {
+   "abgerufen": "2026-11-12",
+   "name": "MENTHOL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "TRPM8",
+     "moa": "Transient receptor potential cation channel subfamily M member 8 opener",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q7Z2W7",
+     "wirkart": "OPENER",
+     "ziel": "Transient receptor potential cation channel subfamily M member 8"
+    },
+    {
+     "gen": "TRPA1",
+     "moa": "Transient receptor potential cation channel subfamily A member 1 opener",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O75762",
+     "wirkart": "OPENER",
+     "ziel": "Transient receptor potential cation channel subfamily A member 1"
+    }
+   ]
+  },
+  "CHEMBL258918": {
+   "abgerufen": "2026-11-12",
+   "name": "MESTEROLONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL263881": {
+   "abgerufen": "2026-11-12",
+   "name": "LYSERGIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL272427": {
+   "abgerufen": "2026-11-12",
+   "name": "TAURURSODIOL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL28": {
+   "abgerufen": "2026-11-12",
+   "name": "APIGENIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL291962": {
+   "abgerufen": "2026-11-12",
+   "name": "LEUCINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL295124": {
+   "abgerufen": "2026-11-12",
+   "name": "BERBERINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL297569": {
+   "abgerufen": "2026-11-12",
+   "name": "BETA-ALANINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL3039113": {
+   "abgerufen": "2026-11-12",
+   "name": "THEANINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL3137353": {
+   "abgerufen": "2026-11-12",
+   "name": "BIMAGRUMAB",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ACVR2B",
+     "moa": "Activin receptor type-2B antagonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q13705",
+     "wirkart": "ANTAGONIST",
+     "ziel": "Activin receptor type-2B"
+    }
+   ]
+  },
+  "CHEMBL31574": {
+   "abgerufen": "2026-11-12",
+   "name": "FISETIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL315818": {
+   "abgerufen": "2026-11-12",
+   "name": "PHENIBUT",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL3301581": {
+   "abgerufen": "2026-11-12",
+   "name": "ABALOPARATIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PTH1R",
+     "moa": "Parathyroid hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q03431",
+     "wirkart": "AGONIST",
+     "ziel": "Parathyroid hormone/parathyroid hormone-related peptide receptor"
+    }
+   ]
+  },
+  "CHEMBL3348861": {
+   "abgerufen": "2026-11-12",
+   "name": "AMPELOPSIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL33720": {
+   "abgerufen": "2026-11-12",
+   "name": "OXEDRINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL33864": {
+   "abgerufen": "2026-11-12",
+   "name": "LIPOIC ACID, ALPHA",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL350221": {
+   "abgerufen": "2026-11-12",
+   "name": "OXITRIPTAN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL3545305": {
+   "abgerufen": "2026-11-12",
+   "name": "CIBINETIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL3545313": {
+   "abgerufen": "2026-11-12",
+   "name": "BEMPEDOIC ACID",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ACLY",
+     "moa": "ATP-citrate synthase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P53396",
+     "wirkart": "INHIBITOR",
+     "ziel": "ATP-citrate synthase"
+    }
+   ]
+  },
+  "CHEMBL3590187": {
+   "abgerufen": "2026-11-12",
+   "name": "CLASCOTERONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor antagonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "ANTAGONIST",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL37161": {
+   "abgerufen": "2026-11-12",
+   "name": "FENBENDAZOLE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL376756": {
+   "abgerufen": "2026-11-12",
+   "name": "KISSPEPTIN-10",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL38": {
+   "abgerufen": "2026-11-12",
+   "name": "TRETINOIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL3833370": {
+   "abgerufen": "2026-11-12",
+   "name": "ELAMIPRETIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL38508": {
+   "abgerufen": "2026-11-12",
+   "name": "CHEMBL38508",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL38943": {
+   "abgerufen": "2026-11-12",
+   "name": "GW501516",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PPARD",
+     "moa": "Peroxisome proliferator-activated receptor delta agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q03181",
+     "wirkart": "AGONIST",
+     "ziel": "Peroxisome proliferator-activated receptor delta"
+    }
+   ]
+  },
+  "CHEMBL395280": {
+   "abgerufen": "2026-11-12",
+   "name": "HUPERZINE A",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ACHE",
+     "moa": "Acetylcholinesterase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P22303",
+     "wirkart": "INHIBITOR",
+     "ziel": "Acetylcholinesterase"
+    }
+   ]
+  },
+  "CHEMBL395429": {
+   "abgerufen": "2026-11-12",
+   "name": "OXYTOCIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "OXTR",
+     "moa": "Oxytocin receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P30559",
+     "wirkart": "AGONIST",
+     "ziel": "Oxytocin receptor"
+    }
+   ]
+  },
+  "CHEMBL3989690": {
+   "abgerufen": "2026-11-12",
+   "name": "TESOFENSINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL404271": {
+   "abgerufen": "2026-11-12",
+   "name": "ACARBOSE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AMY2A",
+     "moa": "Pancreatic alpha-amylase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P04746",
+     "wirkart": "INHIBITOR",
+     "ziel": "Pancreatic alpha-amylase"
+    },
+    {
+     "gen": "MGAM",
+     "moa": "Maltase-glucoamylase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O43451",
+     "wirkart": "INHIBITOR",
+     "ziel": "Maltase-glucoamylase"
+    }
+   ]
+  },
+  "CHEMBL406393": {
+   "abgerufen": "2026-11-12",
+   "name": "DEOXYCHOLIC ACID",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4084119": {
+   "abgerufen": "2026-11-12",
+   "name": "LIRAGLUTIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon-like peptide 1 receptor"
+    }
+   ]
+  },
+  "CHEMBL413": {
+   "abgerufen": "2026-11-12",
+   "name": "SIROLIMUS",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "FKBP1A",
+     "moa": "FK506-binding protein 1A inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P62942",
+     "wirkart": "INHIBITOR",
+     "ziel": "Peptidyl-prolyl cis-trans isomerase FKBP1A"
+    }
+   ]
+  },
+  "CHEMBL4288984": {
+   "abgerufen": "2026-11-12",
+   "name": "WITHANOLIDE D",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4297358": {
+   "abgerufen": "2026-11-12",
+   "name": "BPC-157",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4297669": {
+   "abgerufen": "2026-11-12",
+   "name": "PHOSPHATIDYL SERINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4297839": {
+   "abgerufen": "2026-11-12",
+   "name": "TIRZEPATIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GIPR",
+     "moa": "Gastric inhibitory polypeptide receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P48546",
+     "wirkart": "AGONIST",
+     "ziel": "Gastric inhibitory polypeptide receptor"
+    },
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon-like peptide 1 receptor"
+    }
+   ]
+  },
+  "CHEMBL4298065": {
+   "abgerufen": "2026-11-12",
+   "name": "OMEGA-3 FATTY ACIDS",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4303665": {
+   "abgerufen": "2026-11-12",
+   "name": "BENFOTIAMINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL43048": {
+   "abgerufen": "2026-11-12",
+   "name": "MIDOMAFETAMINE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC6A3",
+     "moa": "Sodium-dependent dopamine transporter releasing agent",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q01959",
+     "wirkart": "RELEASING AGENT",
+     "ziel": "Sodium-dependent dopamine transporter"
+    },
+    {
+     "gen": "SLC6A4",
+     "moa": "Sodium-dependent serotonin transporter releasing agent",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P31645",
+     "wirkart": "RELEASING AGENT",
+     "ziel": "Sodium-dependent serotonin transporter"
+    },
+    {
+     "gen": "SLC6A2",
+     "moa": "Sodium-dependent noradrenaline transporter releasing agent",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P23975",
+     "wirkart": "RELEASING AGENT",
+     "ziel": "Sodium-dependent noradrenaline transporter"
+    }
+   ]
+  },
+  "CHEMBL438497": {
+   "abgerufen": "2026-11-12",
+   "name": "NICOTINAMIDE RIBOSIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL441738": {
+   "abgerufen": "2026-11-12",
+   "name": "AFAMELANOTIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "MC1R",
+     "moa": "Melanocortin receptor 1 agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q01726",
+     "wirkart": "AGONIST",
+     "ziel": "Melanocyte-stimulating hormone receptor"
+    }
+   ]
+  },
+  "CHEMBL4446782": {
+   "abgerufen": "2026-11-12",
+   "name": "ORFORGLIPRON",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL446452": {
+   "abgerufen": "2026-11-12",
+   "name": "ARUNDINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL45": {
+   "abgerufen": "2026-11-12",
+   "name": "MELATONIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL452329": {
+   "abgerufen": "2026-11-12",
+   "name": "TRESTOLONE ACETATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4525124": {
+   "abgerufen": "2026-11-12",
+   "name": "HMB",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL454801": {
+   "abgerufen": "2026-11-12",
+   "name": "UBIDECARENONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL4802169": {
+   "abgerufen": "2026-11-12",
+   "name": "CAGRILINTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL48802": {
+   "abgerufen": "2026-11-12",
+   "name": "SULFORAPHANE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL49080": {
+   "abgerufen": "2026-11-12",
+   "name": "CLENBUTEROL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ADRB2",
+     "moa": "Beta-2 adrenergic receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P07550",
+     "wirkart": "AGONIST",
+     "ziel": "Beta-2 adrenergic receptor"
+    }
+   ]
+  },
+  "CHEMBL493287": {
+   "abgerufen": "2026-11-12",
+   "name": "GLUCOSAMINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL495": {
+   "abgerufen": "2026-11-12",
+   "name": "ALPROSTADIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PTGER1",
+     "moa": "Prostanoid EP1 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P34995",
+     "wirkart": "AGONIST",
+     "ziel": "Prostaglandin E2 receptor EP1 subtype"
+    },
+    {
+     "gen": "PTGER2",
+     "moa": "Prostanoid EP2 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43116",
+     "wirkart": "AGONIST",
+     "ziel": "Prostaglandin E2 receptor EP2 subtype"
+    }
+   ]
+  },
+  "CHEMBL50": {
+   "abgerufen": "2026-11-12",
+   "name": "QUERCETIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL503": {
+   "abgerufen": "2026-11-12",
+   "name": "LOVASTATIN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "HMGCR",
+     "moa": "HMG-CoA reductase inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P04035",
+     "wirkart": "INHIBITOR",
+     "ziel": "3-hydroxy-3-methylglutaryl-coenzyme A reductase"
+    }
+   ]
+  },
+  "CHEMBL503481": {
+   "abgerufen": "2026-11-12",
+   "name": "PHOSPHATIDYLCHOLINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL504": {
+   "abgerufen": "2026-11-12",
+   "name": "DIMETHYL SULFOXIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5095115": {
+   "abgerufen": "2026-11-12",
+   "name": "ECNOGLUTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5095142": {
+   "abgerufen": "2026-11-12",
+   "name": "PEMVIDUTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5095358": {
+   "abgerufen": "2026-11-12",
+   "name": "MAZDUTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5095437": {
+   "abgerufen": "2026-11-12",
+   "name": "CENTELLA ASIATICA EXTRACT",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5095485": {
+   "abgerufen": "2026-11-12",
+   "name": "RETATRUTIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GCGR",
+     "moa": "Glucagon receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P47871",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon receptor"
+    },
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon-like peptide 1 receptor"
+    },
+    {
+     "gen": "GIPR",
+     "moa": "Gastric inhibitory polypeptide receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P48546",
+     "wirkart": "AGONIST",
+     "ziel": "Gastric inhibitory polypeptide receptor"
+    }
+   ]
+  },
+  "CHEMBL5170587": {
+   "abgerufen": "2026-11-12",
+   "name": "VK5211",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "MODULATOR",
+     "ziel": "Androgen receptor"
+    }
+   ]
+  },
+  "CHEMBL525610": {
+   "abgerufen": "2026-11-12",
+   "name": "TERIPARATIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PTH1R",
+     "moa": "Parathyroid hormone receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q03431",
+     "wirkart": "AGONIST",
+     "ziel": "Parathyroid hormone/parathyroid hormone-related peptide receptor"
+    }
+   ]
+  },
+  "CHEMBL52606": {
+   "abgerufen": "2026-11-12",
+   "name": "COLFORSIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5314376": {
+   "abgerufen": "2026-11-12",
+   "name": "HYALURONIC ACID",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5314751": {
+   "abgerufen": "2026-11-12",
+   "name": "MARIDEBART CAFRAGLUTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5314776": {
+   "abgerufen": "2026-11-12",
+   "name": "SURVODUTIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon-like peptide 1 receptor"
+    },
+    {
+     "gen": "GCGR",
+     "moa": "Glucagon receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P47871",
+     "wirkart": "AGONIST",
+     "ziel": "Glucagon receptor"
+    }
+   ]
+  },
+  "CHEMBL5314864": {
+   "abgerufen": "2026-11-12",
+   "name": "PETRELINTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL5314971": {
+   "abgerufen": "2026-11-12",
+   "name": "MENAQUINONE 6",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL547": {
+   "abgerufen": "2026-11-12",
+   "name": "ISOTRETINOIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL54976": {
+   "abgerufen": "2026-11-12",
+   "name": "TRYPTOPHAN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL55643": {
+   "abgerufen": "2026-11-12",
+   "name": "COPPER",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL583912": {
+   "abgerufen": "2026-11-12",
+   "name": "(-)-EPICATECHIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL6067487": {
+   "abgerufen": "2026-11-12",
+   "name": "IVERMECTIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL6068462": {
+   "abgerufen": "2026-11-12",
+   "name": "ELORALINTIDE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL6068503": {
+   "abgerufen": "2026-11-12",
+   "name": "SELENIUM",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL6068615": {
+   "abgerufen": "2026-11-12",
+   "name": "LAT-8881",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL6068618": {
+   "abgerufen": "2026-11-12",
+   "name": "GLYCERYL LAURATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL621": {
+   "abgerufen": "2026-11-12",
+   "name": "TRAZODONE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SLC6A4",
+     "moa": "Serotonin transporter inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P31645",
+     "wirkart": "INHIBITOR",
+     "ziel": "Sodium-dependent serotonin transporter"
+    },
+    {
+     "gen": "HTR2A",
+     "moa": "Serotonin 2a (5-HT2a) receptor antagonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P28223",
+     "wirkart": "ANTAGONIST",
+     "ziel": "5-hydroxytryptamine receptor 2A"
+    },
+    {
+     "gen": "HTR2C",
+     "moa": "Serotonin 2c (5-HT2c) receptor antagonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P28335",
+     "wirkart": "ANTAGONIST",
+     "ziel": "5-hydroxytryptamine receptor 2C"
+    }
+   ]
+  },
+  "CHEMBL62381": {
+   "abgerufen": "2026-11-12",
+   "name": "SODIUM BUTYRATE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL710": {
+   "abgerufen": "2026-11-12",
+   "name": "FINASTERIDE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "SRD5A2",
+     "moa": "Steroid 5-alpha-reductase 2 inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P31213",
+     "wirkart": "INHIBITOR",
+     "ziel": "3-oxo-5-alpha-steroid 4-dehydrogenase 2"
+    }
+   ]
+  },
+  "CHEMBL714": {
+   "abgerufen": "2026-11-12",
+   "name": "ALBUTEROL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ADRB2",
+     "moa": "Beta-2 adrenergic receptor agonist",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P07550",
+     "wirkart": "AGONIST",
+     "ziel": "Beta-2 adrenergic receptor"
+    }
+   ]
+  },
+  "CHEMBL71752": {
+   "abgerufen": "2026-11-12",
+   "name": "VINPOCETINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL74415": {
+   "abgerufen": "2026-11-12",
+   "name": "CANNABINOL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL773": {
+   "abgerufen": "2026-11-12",
+   "name": "GLYCINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL779": {
+   "abgerufen": "2026-11-12",
+   "name": "TADALAFIL",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR",
+     "ziel": "cGMP-specific 3',5'-cyclic phosphodiesterase"
+    }
+   ]
+  },
+  "CHEMBL802": {
+   "abgerufen": "2026-11-12",
+   "name": "MINOXIDIL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL81": {
+   "abgerufen": "2026-11-12",
+   "name": "RALOXIFENE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ESR2",
+     "moa": "Estrogen receptor beta modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "Q92731",
+     "wirkart": "MODULATOR",
+     "ziel": "Estrogen receptor beta"
+    },
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR",
+     "ziel": "Estrogen receptor"
+    }
+   ]
+  },
+  "CHEMBL83": {
+   "abgerufen": "2026-11-12",
+   "name": "TAMOXIFEN",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR",
+     "ziel": "Estrogen receptor"
+    }
+   ]
+  },
+  "CHEMBL83527": {
+   "abgerufen": "2026-11-12",
+   "name": "PTEROSTILBENE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL857": {
+   "abgerufen": "2026-11-12",
+   "name": "BIOTIN",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL90593": {
+   "abgerufen": "2026-11-12",
+   "name": "PRASTERONE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL925": {
+   "abgerufen": "2026-11-12",
+   "name": "TYROSINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL930": {
+   "abgerufen": "2026-11-12",
+   "name": "GLUTAMINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL9337": {
+   "abgerufen": "2026-11-12",
+   "name": "RU-58841",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL954": {
+   "abgerufen": "2026-11-12",
+   "name": "ENCLOMIPHENE",
+   "weg": "opentargets",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha modulator",
+     "organismus": "Homo sapiens",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR",
+     "ziel": "Estrogen receptor"
+    }
+   ]
+  },
+  "CHEMBL95889": {
+   "abgerufen": "2026-11-12",
+   "name": "BETAINE",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL96783": {
+   "abgerufen": "2026-11-12",
+   "name": "XYLITOL",
+   "weg": "opentargets",
+   "zeilen": []
+  },
+  "CHEMBL986": {
+   "abgerufen": "2026-11-12",
+   "name": "RETINOL",
+   "weg": "opentargets",
+   "zeilen": []
+  }
+ },
+ "namen": {
+  "\"exercise mimetic\"": [],
+  "(r)-modafinil": [],
+  "(−)-huperzin a": [],
+  "-malat": [],
+  "1-benzoyl-4-propionylpiperazin": [],
+  "1-dihydrotestosteron": [],
+  "1-methyl-dht": [],
+  "1-testo": [],
+  "1-testosteron": [],
+  "1-testosterone": [],
+  "11-hydroxy-cbn": [],
+  "11-trien-3-on": [],
+  "13-cis-retinsäure": [],
+  "17-alpha-estradiol": [],
+  "17ae2": [],
+  "17α-dimethyl-17β-hydroxy-5α-androst-1-en-3-on": [],
+  "17α-dimethyl-dihydrotestosteron": [],
+  "17α-estradiol": [],
+  "17α-methyl-1-testosteron": [],
+  "17α-methyldrostanolon": [],
+  "17α-methyltrenbolon": [],
+  "17β-estradiol": [],
+  "17β-hydroxy-17α-methyl-5α-androst-1-en-3-on": [],
+  "17β-hydroxy-17α-methylestra-4": [],
+  "17β-hydroxy-5α-androst-1-en-3-on": [],
+  "17β-trenbolon": [],
+  "1α-methyl-dihydrotestosteron": [],
+  "2-phenylethylamin": [],
+  "20-hydroxyecdyson": [],
+  "2α-methyl-dihydrotestosteron": [],
+  "3'-diindolylmethan": [],
+  "3/1": [],
+  "4-(trimethylammonio)butanoat": [],
+  "4-amino-3-phenylbuttersäure": [],
+  "4-b]indol": [],
+  "4-chlordehydromethyltestosteron": [],
+  "4-dien-17β-ol-3-on": [],
+  "4-dinitrophenol": [],
+  "4-dnp": [],
+  "4-lacton (wirkform)": [],
+  "4-phenylpiracetam": [],
+  "5-amino-1-beta-d-ribofuranosyl-imidazol-4-carboxamid": [],
+  "5-amino-1-methylquinolinium": [],
+  "5-amino-1mq": [],
+  "5-htp": [],
+  "5-hydroxytryptophan": [
+   {
+    "id": "CHEMBL350221",
+    "parent": "CHEMBL350221"
+   }
+  ],
+  "5-loxin": [],
+  "5-mthf": [
+   {
+    "id": "CHEMBL1231574",
+    "parent": "CHEMBL1231574"
+   }
+  ],
+  "6-glucan": [],
+  "7-hydroxymitragynin": [],
+  "7-oh": [],
+  "7alpha-methyl-19-nortestosteron": [],
+  "7α-methyl-19-nortestosteron": [],
+  "9-mbc": [],
+  "9-me-bc": [],
+  "9-methyl-9h-pyrido[3": [],
+  "9-methyl-beta-carbolin": [],
+  "9-methyl-β-carbolin": [],
+  "9-methyl-β-carboline": [],
+  "9-methylnorharman": [],
+  "9-tetramethylharnsäure": [],
+  "9α-fluor-11β-hydroxy-17α-methyltestosteron": [],
+  "[60]fulleren": [],
+  "a-akg": [],
+  "aakg": [],
+  "aas": [],
+  "abaloparatid": [],
+  "abaloparatide": [
+   {
+    "id": "CHEMBL3301581",
+    "parent": "CHEMBL3301581"
+   }
+  ],
+  "aber kein vitamin im engeren sinn)": [],
+  "abkömmling von rad140 (testolon)": [],
+  "ablymico": [],
+  "ac-lkktetq": [],
+  "ac-mehfpgp^ag-nh2": [],
+  "acadesin": [],
+  "acarbose": [
+   {
+    "id": "CHEMBL404271",
+    "parent": "CHEMBL404271"
+   }
+  ],
+  "accutane": [
+   {
+    "id": "CHEMBL547",
+    "parent": "CHEMBL547"
+   }
+  ],
+  "ace-031": [
+   {
+    "id": "CHEMBL2108674",
+    "parent": "CHEMBL2108674"
+   }
+  ],
+  "acetamidoxolutamide": [],
+  "acetyl hexapeptide-8": [],
+  "acetyl octapeptide-3": [],
+  "acetyl-hexapeptid-8": [],
+  "acetyl-hexapeptide-3/8": [],
+  "acetyl-l-carnitin": [],
+  "acetyl-l-carnitine": [
+   {
+    "id": "CHEMBL1697733",
+    "parent": "CHEMBL1697733"
+   }
+  ],
+  "acetyl-octapeptide-3": [],
+  "acetylsalicylsäure niedrig dosiert": [],
+  "acl-hemmer": [],
+  "actaea racemosa": [],
+  "acth": [
+   {
+    "id": "CHEMBL1201610",
+    "parent": "CHEMBL1201610"
+   }
+  ],
+  "acth(4-7)-pro-gly-pro": [],
+  "acthar gel": [
+   {
+    "id": "CHEMBL1201610",
+    "parent": "CHEMBL1201610"
+   }
+  ],
+  "actitropil": [],
+  "activated charcoal": [
+   {
+    "id": "CHEMBL2106049",
+    "parent": "CHEMBL2106049"
+   }
+  ],
+  "acvr2b-fc": [],
+  "adamantyliertes semax": [],
+  "adamax": [],
+  "adamax 1032": [],
+  "adcirca": [
+   {
+    "id": "CHEMBL779",
+    "parent": "CHEMBL779"
+   }
+  ],
+  "ademetionin (inn)": [],
+  "adipotide": [],
+  "adomet": [
+   {
+    "id": "CHEMBL1088977",
+    "parent": "CHEMBL1088977"
+   }
+  ],
+  "adrenocorticotropes hormon": [],
+  "advantra z": [
+   {
+    "id": "CHEMBL33720",
+    "parent": "CHEMBL33720"
+   }
+  ],
+  "aedg-tetrapeptid": [],
+  "afamelanotide": [
+   {
+    "id": "CHEMBL441738",
+    "parent": "CHEMBL441738"
+   }
+  ],
+  "afamelanotide / scenesse": [],
+  "aflapin": [],
+  "aged black garlic (abg)": [],
+  "agni casti fructus": [],
+  "ahcc": [],
+  "ahk": [],
+  "ahk-cu": [],
+  "aica-ribosid": [],
+  "aicar": [],
+  "ajuga-turkestanica-extrakt": [],
+  "akba": [
+   {
+    "id": "CHEMBL237111",
+    "parent": "CHEMBL237111"
+   }
+  ],
+  "akg": [],
+  "akkermansia": [],
+  "akkermansia muciniphila": [],
+  "aknenormin": [],
+  "aktivkohle": [],
+  "ala": [],
+  "ala-glu-asp-leu)": [],
+  "alanyl-glutamin": [],
+  "alarelin": [],
+  "alarelin acetate": [],
+  "alarelinacetat": [],
+  "albuterol": [
+   {
+    "id": "CHEMBL714",
+    "parent": "CHEMBL714"
+   }
+  ],
+  "alcar": [],
+  "alfatradiol": [],
+  "algenöl": [],
+  "all-rac-alpha-tocopherol": [],
+  "all-trans-retinsäure": [],
+  "alli": [
+   {
+    "id": "CHEMBL175247",
+    "parent": "CHEMBL175247"
+   }
+  ],
+  "allithiamin": [],
+  "alopexy": [],
+  "alpha-glucosidase-hemmer": [],
+  "alpha-gpc": [],
+  "alpha-ketoglutarat": [],
+  "alpha-klotho": [],
+  "alpha-lipoic acid": [
+   {
+    "id": "CHEMBL33864",
+    "parent": "CHEMBL33864"
+   }
+  ],
+  "alpha-liponsäure": [],
+  "alpha-msh(11-13)": [],
+  "alpha-tocopherol": [
+   {
+    "id": "CHEMBL47",
+    "parent": "CHEMBL47"
+   },
+   {
+    "id": "CHEMBL3989727",
+    "parent": "CHEMBL3989727"
+   }
+  ],
+  "alprostadil": [
+   {
+    "id": "CHEMBL495",
+    "parent": "CHEMBL495"
+   }
+  ],
+  "als fettabbau-peptid verkauft": [],
+  "alt-801": [
+   {
+    "id": "CHEMBL5095142",
+    "parent": "CHEMBL5095142"
+   }
+  ],
+  "amalaki": [],
+  "amg 133": [],
+  "amino acids": [
+   {
+    "id": "CHEMBL1201498",
+    "parent": "CHEMBL1201498"
+   }
+  ],
+  "aminophenylbuttersäure": [],
+  "aminosulfonsäure": [],
+  "aminosäure": [],
+  "aminosäuren": [],
+  "amla": [],
+  "ampelopsin": [
+   {
+    "id": "CHEMBL3348861",
+    "parent": "CHEMBL3348861"
+   }
+  ],
+  "ampelopsis grossedentata": [],
+  "amycretin": [],
+  "anabol-androgene steroide": [],
+  "anabole steroide": [],
+  "anabolic steroids": [],
+  "anabolics": [],
+  "anabolika": [],
+  "anadrol": [],
+  "anadrol-50": [
+   {
+    "id": "CHEMBL1200585",
+    "parent": "CHEMBL1200585"
+   }
+  ],
+  "ananas-enzym": [],
+  "anastrozol": [
+   {
+    "id": "CHEMBL1399",
+    "parent": "CHEMBL1399"
+   }
+  ],
+  "anastrozole": [
+   {
+    "id": "CHEMBL1399",
+    "parent": "CHEMBL1399"
+   }
+  ],
+  "anavar": [
+   {
+    "id": "CHEMBL1200436",
+    "parent": "CHEMBL1200436"
+   }
+  ],
+  "andarin": [],
+  "andarine": [],
+  "android-f": [
+   {
+    "id": "CHEMBL1445",
+    "parent": "CHEMBL1445"
+   }
+  ],
+  "androsta-1": [],
+  "anti-obesity drug 9604": [],
+  "anvifen": [],
+  "aod-9604": [
+   {
+    "id": "CHEMBL6068615",
+    "parent": "CHEMBL6068615"
+   }
+  ],
+  "aod-9604 (tyr-hgh 177-191)": [],
+  "apigenin": [
+   {
+    "id": "CHEMBL28",
+    "parent": "CHEMBL28"
+   }
+  ],
+  "ara 100": [],
+  "ara-290": [
+   {
+    "id": "CHEMBL3545305",
+    "parent": "CHEMBL3545305"
+   }
+  ],
+  "arb": [],
+  "arcalion": [],
+  "arginin": [],
+  "arginin-akg": [],
+  "arginin-alpha-ketoglutarat": [],
+  "arginin-base": [],
+  "arginin-hcl": [],
+  "arginin-α-ketoglutarat": [],
+  "arginine alpha-ketoglutarate": [],
+  "argireline": [],
+  "argireline-analog": [],
+  "arimidex": [
+   {
+    "id": "CHEMBL1399",
+    "parent": "CHEMBL1399"
+   }
+  ],
+  "arjun": [
+   {
+    "id": "CHEMBL256087",
+    "parent": "CHEMBL256087"
+   }
+  ],
+  "arjuna": [],
+  "arjuna-rinde": [],
+  "armodafinil": [
+   {
+    "id": "CHEMBL1201192",
+    "parent": "CHEMBL1201192"
+   }
+  ],
+  "aromasin": [
+   {
+    "id": "CHEMBL1200374",
+    "parent": "CHEMBL1200374"
+   }
+  ],
+  "arylpropionamid-sarm": [],
+  "ascorbinsäure": [],
+  "ashwagandha": [
+   {
+    "id": "CHEMBL4288984",
+    "parent": "CHEMBL4288984"
+   }
+  ],
+  "asiaticosid": [],
+  "asiatischer wassernabel": [],
+  "aspirin for prevention": [],
+  "aspirin zur vorbeugung": [],
+  "ass 100": [],
+  "astaxanthin": [
+   {
+    "id": "CHEMBL1255871",
+    "parent": "CHEMBL1255871"
+   }
+  ],
+  "asthmaspray": [],
+  "astragaloside": [],
+  "astragalus & cycloastragenol": [],
+  "astragalus membranaceus": [],
+  "astragalus mongholicus": [],
+  "at-1001": [
+   {
+    "id": "CHEMBL2103815",
+    "parent": "CHEMBL2105646"
+   }
+  ],
+  "at1-rezeptorblocker": [],
+  "atemwegs-bioregulatoren": [],
+  "atorvastatin": [
+   {
+    "id": "CHEMBL1487",
+    "parent": "CHEMBL1487"
+   }
+  ],
+  "avanafil": [
+   {
+    "id": "CHEMBL1963681",
+    "parent": "CHEMBL1963681"
+   }
+  ],
+  "avermectin-derivat": [],
+  "aviptadil": [
+   {
+    "id": "CHEMBL1981592",
+    "parent": "CHEMBL1981592"
+   }
+  ],
+  "avodart": [
+   {
+    "id": "CHEMBL1200969",
+    "parent": "CHEMBL1200969"
+   }
+  ],
+  "b12": [],
+  "b7-33": [],
+  "b7-33 peptid": [],
+  "bacopa monnieri": [],
+  "baicalein": [
+   {
+    "id": "CHEMBL8260",
+    "parent": "CHEMBL8260"
+   }
+  ],
+  "baicalin": [
+   {
+    "id": "CHEMBL485818",
+    "parent": "CHEMBL485818"
+   }
+  ],
+  "baikal skullcap": [],
+  "baikal-helmkraut": [],
+  "balaton": [],
+  "baldrian": [],
+  "baldrianwurzel": [],
+  "balsambirne": [],
+  "bam-15": [],
+  "bam15": [],
+  "basics": [],
+  "bcaa": [],
+  "beauty-stack": [],
+  "beetroot": [],
+  "beetroot / nitrate": [],
+  "beispiele: alpha brain": [],
+  "belkyra": [],
+  "belsomra": [
+   {
+    "id": "CHEMBL1083659",
+    "parent": "CHEMBL1083659"
+   }
+  ],
+  "bempedoic acid": [
+   {
+    "id": "CHEMBL3545313",
+    "parent": "CHEMBL3545313"
+   }
+  ],
+  "bempedoinsäure": [],
+  "bendavia": [
+   {
+    "id": "CHEMBL4298161",
+    "parent": "CHEMBL3833370"
+   }
+  ],
+  "benfogamma": [],
+  "benfothiamine": [
+   {
+    "id": "CHEMBL4303665",
+    "parent": "CHEMBL4303665"
+   }
+  ],
+  "benfotiamin": [],
+  "benfotiamine": [
+   {
+    "id": "CHEMBL4303665",
+    "parent": "CHEMBL4303665"
+   }
+  ],
+  "beni-koji": [],
+  "berberin": [
+   {
+    "id": "CHEMBL295124",
+    "parent": "CHEMBL295124"
+   }
+  ],
+  "berberine": [
+   {
+    "id": "CHEMBL295124",
+    "parent": "CHEMBL295124"
+   }
+  ],
+  "berberis aristata": [],
+  "berberis vulgaris": [],
+  "bergamotte-extrakt": [],
+  "beta-1": [],
+  "beta-2-agonist": [],
+  "beta-alanin": [],
+  "beta-alanine": [
+   {
+    "id": "CHEMBL297569",
+    "parent": "CHEMBL297569"
+   }
+  ],
+  "beta-carotin": [],
+  "beta-ecdysteron)": [],
+  "beta-glucan": [],
+  "beta-hydroxy-beta-methylbutyrat": [],
+  "beta-hydroxybutyrat": [],
+  "beta-lipotropin": [],
+  "betain": [],
+  "betain-hcl": [],
+  "betain-hcl mit pepsin": [],
+  "betaine hcl": [
+   {
+    "id": "CHEMBL1201130",
+    "parent": "CHEMBL95889"
+   }
+  ],
+  "betaine hydrochloride": [
+   {
+    "id": "CHEMBL1201130",
+    "parent": "CHEMBL95889"
+   }
+  ],
+  "betainhydrochlorid": [],
+  "beutel": [],
+  "bhb": [],
+  "bhcl": [],
+  "bi 456906": [
+   {
+    "id": "CHEMBL5314776",
+    "parent": "CHEMBL5314776"
+   }
+  ],
+  "biak": [],
+  "bibhitaki": [],
+  "bifidobakterien": [],
+  "bimagrumab": [
+   {
+    "id": "CHEMBL3137353",
+    "parent": "CHEMBL3137353"
+   }
+  ],
+  "bindungshormon": [],
+  "bioenergy ribose": [],
+  "bioidentical": [],
+  "bioidentisch": [],
+  "bioidentisches progesteron": [],
+  "bioresponse dim": [],
+  "biosimilars z. b. movymia": [],
+  "biotin": [
+   {
+    "id": "CHEMBL857",
+    "parent": "CHEMBL857"
+   }
+  ],
+  "bitter melon": [],
+  "bitter orange": [],
+  "bitter orange extract": [],
+  "bittergurke": [],
+  "bittermelone": [],
+  "bitterorange": [],
+  "black cohosh": [],
+  "black cumin": [],
+  "black garlic": [],
+  "black seed oil": [],
+  "blend": [],
+  "blf": [],
+  "bno 1095": [],
+  "body protection compound 157": [],
+  "boldenon": [],
+  "boldenon-undecylenat": [],
+  "boldenone": [
+   {
+    "id": "CHEMBL2106059",
+    "parent": "CHEMBL2106059"
+   }
+  ],
+  "boldenonundecylenat": [],
+  "bor": [],
+  "boron": [],
+  "boswellia": [],
+  "boswellia serrata": [],
+  "boswelliasäuren": [],
+  "bovin": [],
+  "bovine": [],
+  "bovines kolostrum": [],
+  "bovines lactoferrin": [],
+  "bpc-157": [
+   {
+    "id": "CHEMBL4297358",
+    "parent": "CHEMBL4297358"
+   }
+  ],
+  "bpc-157 arginat-salz": [],
+  "br-dim": [],
+  "brahmi": [],
+  "brain supplements": [],
+  "breezula": [
+   {
+    "id": "CHEMBL3590187",
+    "parent": "CHEMBL3590187"
+   }
+  ],
+  "bremelanotid": [],
+  "broccoli-sprossen-extrakt": [],
+  "bromantan": [],
+  "bromantane": [],
+  "bromelain": [
+   {
+    "id": "CHEMBL2109027",
+    "parent": "CHEMBL2109027"
+   }
+  ],
+  "bromelainum": [],
+  "bronchogen & chonluten": [],
+  "bronchogen (aedl": [],
+  "buckminsterfulleren": [],
+  "buntnessel": [],
+  "butandisulfonat": [],
+  "butyrat": [],
+  "bym338": [
+   {
+    "id": "CHEMBL3137353",
+    "parent": "CHEMBL3137353"
+   }
+  ],
+  "c15": [],
+  "c15:0": [],
+  "c60": [],
+  "c60-evoo": [],
+  "c60-olivenöl": [],
+  "c60-oo": [],
+  "ca-akg": [],
+  "cabergolin": [],
+  "cabergolin-ratiopharm": [],
+  "cabergoline": [
+   {
+    "id": "CHEMBL1201087",
+    "parent": "CHEMBL1201087"
+   }
+  ],
+  "caffeine": [
+   {
+    "id": "CHEMBL113",
+    "parent": "CHEMBL113"
+   }
+  ],
+  "cagrilintide": [
+   {
+    "id": "CHEMBL4802169",
+    "parent": "CHEMBL4802169"
+   }
+  ],
+  "cagrilintide / cagrisema": [],
+  "cagrisema": [],
+  "cahmb": [],
+  "calcium": [
+   {
+    "id": "CHEMBL1200496",
+    "parent": "CHEMBL1200496"
+   }
+  ],
+  "calcium alpha-ketoglutarate": [],
+  "calcium d-glucarate": [
+   {
+    "id": "CHEMBL2104217",
+    "parent": "CHEMBL2104217"
+   }
+  ],
+  "calcium-akg": [],
+  "calcium-alpha-ketoglutarat": [],
+  "calcium-d-glucarat": [],
+  "calcium-glucarat": [],
+  "calcium-hmb": [],
+  "calciumcarbonat": [],
+  "calciumcitrat": [],
+  "camellia sinensis": [],
+  "camp-peptid": [],
+  "canagliflozin": [
+   {
+    "id": "CHEMBL4594217",
+    "parent": "CHEMBL2048484"
+   }
+  ],
+  "canemes": [],
+  "cannabidiol": [
+   {
+    "id": "CHEMBL190461",
+    "parent": "CHEMBL190461"
+   }
+  ],
+  "cannabinol": [
+   {
+    "id": "CHEMBL74415",
+    "parent": "CHEMBL74415"
+   }
+  ],
+  "cannabis": [],
+  "cannabis / thc": [],
+  "cannabisblüten": [],
+  "cannabisextrakt": [],
+  "carbo medicinalis": [],
+  "cardarin": [],
+  "cardarine": [
+   {
+    "id": "CHEMBL38943",
+    "parent": "CHEMBL38943"
+   }
+  ],
+  "cardiovascular prevention": [],
+  "carnitin": [],
+  "carnitin-vorstufe": [],
+  "carphedon": [],
+  "cas 1208070-53-4": [],
+  "cathelicidin": [],
+  "caverject": [
+   {
+    "id": "CHEMBL495",
+    "parent": "CHEMBL495"
+   }
+  ],
+  "caverject impuls": [],
+  "cavinton": [
+   {
+    "id": "CHEMBL71752",
+    "parent": "CHEMBL71752"
+   }
+  ],
+  "cb-03-01": [
+   {
+    "id": "CHEMBL3590187",
+    "parent": "CHEMBL3590187"
+   }
+  ],
+  "cbd": [],
+  "cbd-isolat": [],
+  "cbd-öl": [],
+  "cbn": [],
+  "cbn-gummies": [],
+  "cbn-öl": [],
+  "cdp-cholin": [
+   {
+    "id": "CHEMBL1256994",
+    "parent": "CHEMBL1231700"
+   }
+  ],
+  "cdp-choline": [
+   {
+    "id": "CHEMBL1231700",
+    "parent": "CHEMBL1231700"
+   }
+  ],
+  "cellagon aurum": [],
+  "centella asiatica": [
+   {
+    "id": "CHEMBL5095437",
+    "parent": "CHEMBL5095437"
+   }
+  ],
+  "cera": [],
+  "cerebrolysin": [],
+  "chaga": [],
+  "chasteberry": [],
+  "chinese skullcap": [],
+  "chinesisches helmkraut": [],
+  "chios mastic": [],
+  "chlordehydromethyltestosteron": [],
+  "cholecalciferol": [
+   {
+    "id": "CHEMBL1042",
+    "parent": "CHEMBL1042"
+   }
+  ],
+  "cholesterinaufnahme-hemmer": [],
+  "chonluten (edg": [],
+  "chrom": [],
+  "chrom(iii)-picolinat": [],
+  "chromchlorid": [],
+  "chromhefe": [],
+  "chromium": [
+   {
+    "id": "CHEMBL1201228",
+    "parent": "CHEMBL1201228"
+   }
+  ],
+  "chrompicolinat": [],
+  "chrysalin": [
+   {
+    "id": "CHEMBL2107369",
+    "parent": "CHEMBL2111105"
+   }
+  ],
+  "cialis": [
+   {
+    "id": "CHEMBL779",
+    "parent": "CHEMBL779"
+   }
+  ],
+  "cibinetide": [
+   {
+    "id": "CHEMBL3545305",
+    "parent": "CHEMBL3545305"
+   }
+  ],
+  "cimicifuga": [],
+  "cimicifuga racemosa": [],
+  "cimicifuga-wurzelstock": [],
+  "cimicifugae rhizoma": [],
+  "cistanche": [],
+  "cistanche tubulosa/deserticola": [],
+  "citicolin": [],
+  "citicoline": [
+   {
+    "id": "CHEMBL1231700",
+    "parent": "CHEMBL1231700"
+   },
+   {
+    "id": "CHEMBL1256994",
+    "parent": "CHEMBL1231700"
+   }
+  ],
+  "citrat": [],
+  "citrullin malat": [],
+  "citrus aurantium": [],
+  "citrus bergamia": [],
+  "citrus bergamot": [],
+  "cjc-1295 + ipamorelin": [],
+  "cjc-1295 dac": [],
+  "cjc-1295 mit dac": [],
+  "cjc-1295 no dac": [],
+  "cjc-1295 ohne dac": [],
+  "cjc-1295 with dac": [],
+  "cjc-1295 without dac": [],
+  "cjc/ipa": [],
+  "clascoteron": [],
+  "clascoterone": [
+   {
+    "id": "CHEMBL3590187",
+    "parent": "CHEMBL3590187"
+   }
+  ],
+  "clen": [],
+  "clenbuterol": [
+   {
+    "id": "CHEMBL49080",
+    "parent": "CHEMBL49080"
+   }
+  ],
+  "clenbuterolhydrochlorid": [],
+  "clomid": [
+   {
+    "id": "CHEMBL3185958",
+    "parent": "CHEMBL2355051"
+   }
+  ],
+  "clomifen": [],
+  "clomifen-ratiopharm": [],
+  "clomifencitrat": [],
+  "clomiphene": [
+   {
+    "id": "CHEMBL2355051",
+    "parent": "CHEMBL2355051"
+   }
+  ],
+  "cobalamin": [
+   {
+    "id": "CHEMBL4297272",
+    "parent": "CHEMBL4297272"
+   }
+  ],
+  "cocoa extract": [],
+  "cocoa flavanols": [],
+  "coenzym q10": [],
+  "coenzym r": [],
+  "coenzyme q10": [
+   {
+    "id": "CHEMBL454801",
+    "parent": "CHEMBL454801"
+   }
+  ],
+  "colchicin": [],
+  "colchicin agepha pharma": [],
+  "colchicine": [
+   {
+    "id": "CHEMBL107",
+    "parent": "CHEMBL107"
+   }
+  ],
+  "coleus forskohlii": [],
+  "colforsin": [
+   {
+    "id": "CHEMBL52606",
+    "parent": "CHEMBL52606"
+   }
+  ],
+  "collagen peptides": [],
+  "colostrum": [],
+  "copper": [
+   {
+    "id": "CHEMBL55643",
+    "parent": "CHEMBL55643"
+   }
+  ],
+  "copper tripeptide": [],
+  "copper tripeptide-3": [],
+  "copper-tripeptid": [],
+  "coptis chinensis": [],
+  "cordes vas": [],
+  "cordyceps": [],
+  "cordyceps militaris": [],
+  "cordyceps militaris / sinensis": [],
+  "cortexolon-17α-propionat": [],
+  "corticotropin": [
+   {
+    "id": "CHEMBL1201610",
+    "parent": "CHEMBL1201610"
+   }
+  ],
+  "corynanthe johimbe)": [],
+  "creapure": [],
+  "creatine monohydrate": [],
+  "crestor": [
+   {
+    "id": "CHEMBL1744447",
+    "parent": "CHEMBL1496"
+   }
+  ],
+  "crocus sativus": [],
+  "cse-hemmer": [],
+  "cuprum": [],
+  "curcumin": [
+   {
+    "id": "CHEMBL140",
+    "parent": "CHEMBL140"
+   }
+  ],
+  "curcumin c3 complex": [],
+  "cxxc5-dishevelled-kompetitorpeptid": [],
+  "cycloastragenol": [],
+  "cyclopyrrolon": [],
+  "cytidin-5-diphosphocholin": [],
+  "cytomel (usa)": [],
+  "d+q-protokoll": [],
+  "d-biotin": [
+   {
+    "id": "CHEMBL857",
+    "parent": "CHEMBL857"
+   }
+  ],
+  "d-bol": [],
+  "d-glucaro-1": [],
+  "d-glucarsäure": [],
+  "d-ribose": [
+   {
+    "id": "CHEMBL1159662",
+    "parent": "CHEMBL1159662"
+   }
+  ],
+  "dac-grf": [],
+  "daflon": [
+   {
+    "id": "CHEMBL231884",
+    "parent": "CHEMBL231884"
+   }
+  ],
+  "dandelion root": [],
+  "dapagliflozin": [
+   {
+    "id": "CHEMBL429910",
+    "parent": "CHEMBL429910"
+   }
+  ],
+  "dapagliflozin (forxiga": [],
+  "dapoxetin": [],
+  "dapoxetine": [
+   {
+    "id": "CHEMBL2110900",
+    "parent": "CHEMBL2110900"
+   }
+  ],
+  "dapoxetinhydrochlorid": [],
+  "darbepoetin alfa": [
+   {
+    "id": "CHEMBL1201566",
+    "parent": "CHEMBL1201566"
+   }
+  ],
+  "daridorexant": [
+   {
+    "id": "CHEMBL4297590",
+    "parent": "CHEMBL4297590"
+   }
+  ],
+  "dasatinib + quercetin": [],
+  "dayvigo": [
+   {
+    "id": "CHEMBL3545367",
+    "parent": "CHEMBL3545367"
+   }
+  ],
+  "deca": [],
+  "deca-durabolin": [
+   {
+    "id": "CHEMBL1200946",
+    "parent": "CHEMBL1200946"
+   }
+  ],
+  "decapeptyl": [
+   {
+    "id": "CHEMBL1201334",
+    "parent": "CHEMBL1201334"
+   }
+  ],
+  "deglycyrrhizinated": [],
+  "deglycyrrhizinated licorice": [],
+  "deglycyrrhiziniert": [],
+  "deglycyrrhizinierte süssholzwurzel": [],
+  "dehydrochlormethyltestosteron": [],
+  "dehydrochlormethyltestosterone": [],
+  "dehydroepiandrosteron": [],
+  "dehydroepiandrosterone": [
+   {
+    "id": "CHEMBL90593",
+    "parent": "CHEMBL90593"
+   }
+  ],
+  "delta sleep-inducing peptide": [],
+  "delta-9-thc": [
+   {
+    "id": "CHEMBL465",
+    "parent": "CHEMBL465"
+   }
+  ],
+  "delta-schlaf-induzierendes peptid": [],
+  "deoxycarnitin": [],
+  "deoxycholsäure": [],
+  "dermorphin": [],
+  "des(1-3)igf-i": [],
+  "des-igf-1": [],
+  "desyrel": [
+   {
+    "id": "CHEMBL1200798",
+    "parent": "CHEMBL621"
+   }
+  ],
+  "dgl": [],
+  "dgl licorice": [],
+  "dgl-süssholz": [],
+  "dhb": [],
+  "dhcmt": [],
+  "dhea": [
+   {
+    "id": "CHEMBL90593",
+    "parent": "CHEMBL90593"
+   }
+  ],
+  "dhea-s (sulfatform im blut)": [],
+  "dhm": [],
+  "dianabol": [
+   {
+    "id": "CHEMBL1418176",
+    "parent": "CHEMBL1418176"
+   }
+  ],
+  "dihexa": [],
+  "dihydroboldenon": [],
+  "dihydroboldenon-cypionat": [],
+  "dihydroboldenone": [],
+  "dihydromyricetin": [
+   {
+    "id": "CHEMBL3348861",
+    "parent": "CHEMBL3348861"
+   }
+  ],
+  "dihydronicotinamid-mononukleotid": [],
+  "diindolylmethan": [],
+  "diindolylmethane": [
+   {
+    "id": "CHEMBL446452",
+    "parent": "CHEMBL446452"
+   }
+  ],
+  "dim": [],
+  "dimethyl sulfoxide": [
+   {
+    "id": "CHEMBL504",
+    "parent": "CHEMBL504"
+   }
+  ],
+  "dimethylglycine": [],
+  "dimethylsulfon": [],
+  "dimethylsulfoxid": [],
+  "diosmin": [
+   {
+    "id": "CHEMBL231884",
+    "parent": "CHEMBL231884"
+   }
+  ],
+  "diosminum": [],
+  "disulfat-tosylat": [],
+  "dm-235": [],
+  "dm235": [],
+  "dmg": [],
+  "dmg-hcl": [],
+  "dmg-na": [],
+  "dmg-natriumsalz": [],
+  "dmso": [
+   {
+    "id": "CHEMBL504",
+    "parent": "CHEMBL504"
+   }
+  ],
+  "dnp": [],
+  "donamet (italien)": [],
+  "dopamin-agonist": [],
+  "dora": [],
+  "dostinex": [
+   {
+    "id": "CHEMBL1201087",
+    "parent": "CHEMBL1201087"
+   }
+  ],
+  "drolban": [
+   {
+    "id": "CHEMBL1201048",
+    "parent": "CHEMBL1201048"
+   }
+  ],
+  "dromostanolon": [],
+  "dronabinol": [
+   {
+    "id": "CHEMBL465",
+    "parent": "CHEMBL465"
+   }
+  ],
+  "drostanolon": [],
+  "drostanolone": [
+   {
+    "id": "CHEMBL1582",
+    "parent": "CHEMBL1582"
+   }
+  ],
+  "drostanolonpropionat": [],
+  "drug affinity complex grf": [],
+  "dsip": [],
+  "dt120": [],
+  "duale orexin-rezeptor-antagonisten": [],
+  "dutasterid": [],
+  "dutasteride": [
+   {
+    "id": "CHEMBL1200969",
+    "parent": "CHEMBL1200969"
+   }
+  ],
+  "e306–e309": [],
+  "eaa & bcaa": [],
+  "ecnoglutid": [],
+  "ecnoglutide": [
+   {
+    "id": "CHEMBL5095115",
+    "parent": "CHEMBL5095115"
+   }
+  ],
+  "ecstasy": [
+   {
+    "id": "CHEMBL43048",
+    "parent": "CHEMBL43048"
+   }
+  ],
+  "egcg": [],
+  "egrifta": [
+   {
+    "id": "CHEMBL1237026",
+    "parent": "CHEMBL1237026"
+   }
+  ],
+  "egt": [],
+  "einkettiges relaxin-2-analogon": [],
+  "eisen": [],
+  "eisen-bisglycinat": [],
+  "eladynos (eu)": [],
+  "elamipretide": [
+   {
+    "id": "CHEMBL3833370",
+    "parent": "CHEMBL3833370"
+   }
+  ],
+  "electrolytes": [],
+  "elektrolyte": [],
+  "ell-cranell alpha": [],
+  "eloralintid": [],
+  "eloralintide": [
+   {
+    "id": "CHEMBL6068462",
+    "parent": "CHEMBL6068462"
+   }
+  ],
+  "empagliflozin": [
+   {
+    "id": "CHEMBL2107830",
+    "parent": "CHEMBL2107830"
+   }
+  ],
+  "empagliflozin (jardiance)": [],
+  "enclomiphen": [],
+  "enclomiphene": [
+   {
+    "id": "CHEMBL954",
+    "parent": "CHEMBL954"
+   }
+  ],
+  "enclomiphene citrate": [
+   {
+    "id": "CHEMBL1200667",
+    "parent": "CHEMBL954"
+   }
+  ],
+  "endurobol": [],
+  "enerion": [],
+  "enobosarm": [
+   {
+    "id": "CHEMBL1738889",
+    "parent": "CHEMBL1738889"
+   }
+  ],
+  "enthalten etwa in „super dmz rx 2.0“": [],
+  "ep-23905": [
+   {
+    "id": "CHEMBL108335",
+    "parent": "CHEMBL108335"
+   }
+  ],
+  "epa/dha": [],
+  "epicatechin": [
+   {
+    "id": "CHEMBL583912",
+    "parent": "CHEMBL583912"
+   }
+  ],
+  "epidiolex": [
+   {
+    "id": "CHEMBL190461",
+    "parent": "CHEMBL190461"
+   }
+  ],
+  "epidyolex": [
+   {
+    "id": "CHEMBL190461",
+    "parent": "CHEMBL190461"
+   }
+  ],
+  "epigallocatechin-3-gallat": [],
+  "epigallocatechingallat": [],
+  "epigenetische reprogrammierung": [],
+  "epitalon": [],
+  "epithalamin": [],
+  "epithalon": [],
+  "epo": [],
+  "epo-derivat-peptid": [],
+  "epoetin alfa": [
+   {
+    "id": "CHEMBL1201565",
+    "parent": "CHEMBL1201565"
+   }
+  ],
+  "epoetin beta": [
+   {
+    "id": "CHEMBL2109092",
+    "parent": "CHEMBL2109092"
+   }
+  ],
+  "epoetin zeta": [
+   {
+    "id": "CHEMBL2108593",
+    "parent": "CHEMBL2108593"
+   }
+  ],
+  "equipoise": [
+   {
+    "id": "CHEMBL2106059",
+    "parent": "CHEMBL2106059"
+   }
+  ],
+  "er-100": [],
+  "erd-burzeldorn": [],
+  "ergothionein": [],
+  "ergothioneine": [],
+  "erstmilch": [],
+  "erythrit und xylit": [],
+  "erythritol": [],
+  "erythritol and xylitol": [],
+  "erythropoetin": [],
+  "erythropoietin": [],
+  "esa": [],
+  "esketamin": [],
+  "essenzielle aminosäure": [],
+  "essenzielle aminosäuren · eaa · bcaa": [],
+  "essenzielle phospholipide (epl)": [],
+  "estradiol": [
+   {
+    "id": "CHEMBL135",
+    "parent": "CHEMBL135"
+   }
+  ],
+  "estradiol-gel": [],
+  "estradiol-pflaster": [],
+  "estradiolvalerat": [],
+  "etc-1002": [
+   {
+    "id": "CHEMBL3545313",
+    "parent": "CHEMBL3545313"
+   }
+  ],
+  "ethyl-apovincaminat": [],
+  "eugeroikum": [],
+  "eurycoma longifolia": [],
+  "euthyrox": [
+   {
+    "id": "CHEMBL2103741",
+    "parent": "CHEMBL1624"
+   }
+  ],
+  "evening primrose oil": [],
+  "evista": [
+   {
+    "id": "CHEMBL1116",
+    "parent": "CHEMBL81"
+   }
+  ],
+  "examorelin": [
+   {
+    "id": "CHEMBL108335",
+    "parent": "CHEMBL108335"
+   }
+  ],
+  "exemestan": [],
+  "exemestane": [
+   {
+    "id": "CHEMBL1200374",
+    "parent": "CHEMBL1200374"
+   }
+  ],
+  "exogene ketone": [],
+  "exogene ketone / ketonester": [],
+  "exogenous ketones": [],
+  "exogenous ketones / ketone esters": [],
+  "ezetimib": [],
+  "ezetimibe": [
+   {
+    "id": "CHEMBL1138",
+    "parent": "CHEMBL1138"
+   }
+  ],
+  "ezetrol": [
+   {
+    "id": "CHEMBL1138",
+    "parent": "CHEMBL1138"
+   }
+  ],
+  "facteur thymique sérique (fts)": [],
+  "fadogia agrestis": [],
+  "fadogia-agrestis-stängelextrakt": [],
+  "fat-dissolving injections": [],
+  "fatburner dnp": [],
+  "fatty15": [],
+  "fbz": [],
+  "fel tauri": [
+   {
+    "id": "CHEMBL2107920",
+    "parent": "CHEMBL2107920"
+   }
+  ],
+  "femara": [
+   {
+    "id": "CHEMBL1444",
+    "parent": "CHEMBL1444"
+   }
+  ],
+  "fenbendazol": [
+   {
+    "id": "CHEMBL37161",
+    "parent": "CHEMBL37161"
+   }
+  ],
+  "fenbendazole": [
+   {
+    "id": "CHEMBL37161",
+    "parent": "CHEMBL37161"
+   }
+  ],
+  "fenibut": [
+   {
+    "id": "CHEMBL315818",
+    "parent": "CHEMBL315818"
+   }
+  ],
+  "fermentierter knoblauch": [],
+  "fettlösliches vitamin b1": [],
+  "fettweg-spritzen": [],
+  "finasterid": [],
+  "finasteride": [
+   {
+    "id": "CHEMBL710",
+    "parent": "CHEMBL710"
+   }
+  ],
+  "fischöl": [],
+  "fischöl / algenöl": [],
+  "fisetin": [
+   {
+    "id": "CHEMBL31574",
+    "parent": "CHEMBL31574"
+   }
+  ],
+  "fitorine": [],
+  "flavan-3-ole": [],
+  "flavon aus kamille": [],
+  "flavonoid aus erdbeeren": [],
+  "flohsamenschalen": [],
+  "fluoxymesteron": [],
+  "fluoxymesterone": [
+   {
+    "id": "CHEMBL1445",
+    "parent": "CHEMBL1445"
+   }
+  ],
+  "fokus-kapseln": [],
+  "follistatin": [],
+  "follistatin / myostatin inhibitors": [],
+  "follistatin / myostatin-hemmer": [],
+  "follistatin-344": [],
+  "fonturacetam": [],
+  "forcslim": [],
+  "forskolin": [
+   {
+    "id": "CHEMBL52606",
+    "parent": "CHEMBL52606"
+   }
+  ],
+  "forslean": [],
+  "forsteo (eu)": [],
+  "forteo (usa)": [],
+  "fos (fructo-oligosaccharide)": [],
+  "foundayo": [],
+  "foxo4 d-retro-inverso-peptid": [],
+  "foxo4-dri": [],
+  "fpf-1070": [],
+  "fragment 176-191": [],
+  "frankincense": [],
+  "french maritime pine bark extract": [],
+  "fst-344": [],
+  "ftpp": [],
+  "fts-zn": [],
+  "full-length": [],
+  "fulleren c60 in olivenöl": [],
+  "fullerene c60 in olive oil": [],
+  "fulvinsäure-mineralharz": [],
+  "fächerblattbaum-extrakt": [],
+  "gaba": [],
+  "gallensalze": [],
+  "gamma-aminobuttersäure": [],
+  "gamma-butyrobetain": [],
+  "gamma-butyrobetaine": [],
+  "gamma-linolensäure": [],
+  "ganoderma lucidum": [],
+  "garcinia cambogia": [],
+  "garcinia gummi-gutta": [],
+  "gbb": [],
+  "gbb-ethylester": [],
+  "gbb-hcl": [],
+  "gc-1": [
+   {
+    "id": "CHEMBL107400",
+    "parent": "CHEMBL107400"
+   }
+  ],
+  "gelatinisierte maca": [],
+  "gelbkörperhormon": [],
+  "gersten-beta-glucan": [],
+  "gh-fragment": [],
+  "ghk-cu": [],
+  "ghk-cu + bpc-157 + tb-500": [],
+  "ghrh(1-29)": [],
+  "ghrh-analogon": [],
+  "ghrh/ghrp-stack": [],
+  "ghrp-2": [
+   {
+    "id": "CHEMBL106593",
+    "parent": "CHEMBL106593"
+   }
+  ],
+  "ghrp-6": [],
+  "ghrp2": [],
+  "ginger": [
+   {
+    "id": "CHEMBL2108465",
+    "parent": "CHEMBL2108465"
+   }
+  ],
+  "gingerol": [
+   {
+    "id": "CHEMBL402978",
+    "parent": "CHEMBL402978"
+   }
+  ],
+  "ginkgo biloba": [
+   {
+    "id": "CHEMBL2108466",
+    "parent": "CHEMBL2108466"
+   }
+  ],
+  "gla": [],
+  "gliflozine": [],
+  "glow": [],
+  "glow + kpv": [],
+  "glow 50/70/75": [],
+  "glow-blend": [],
+  "glp-1/amylin-doppelagonist (novo nordisk)": [],
+  "glp-1/gip/glucagon-triagonist": [],
+  "glp-3": [],
+  "glu-asp-gly": [],
+  "glucarsäure": [],
+  "glucobay": [
+   {
+    "id": "CHEMBL404271",
+    "parent": "CHEMBL404271"
+   }
+  ],
+  "glucophage": [
+   {
+    "id": "CHEMBL1703",
+    "parent": "CHEMBL1431"
+   }
+  ],
+  "glucosamin": [],
+  "glucosamin-sulfat": [],
+  "glucosamine": [
+   {
+    "id": "CHEMBL493287",
+    "parent": "CHEMBL493287"
+   }
+  ],
+  "glutamin": [],
+  "glutamin-dipeptid": [],
+  "glutamine": [
+   {
+    "id": "CHEMBL930",
+    "parent": "CHEMBL930"
+   }
+  ],
+  "glutathion": [],
+  "glutathione": [
+   {
+    "id": "CHEMBL1543",
+    "parent": "CHEMBL1543"
+   }
+  ],
+  "glycerinmonolaurat": [],
+  "glycerolmonolaurat": [],
+  "glyceryllaurat": [],
+  "glycin": [],
+  "glycin + n-acetyl-cystein": [],
+  "glycin + nac": [],
+  "glycinat": [],
+  "glycinat / citrat / malat / threonat": [],
+  "glycine": [
+   {
+    "id": "CHEMBL773",
+    "parent": "CHEMBL773"
+   }
+  ],
+  "glycine + nac": [],
+  "glycyl-l-histidyl-l-lysin-kupfer": [],
+  "glycyrrhiza glabra": [],
+  "glynac": [],
+  "gml": [],
+  "gnrh": [
+   {
+    "id": "CHEMBL1200511",
+    "parent": "CHEMBL1007"
+   }
+  ],
+  "gnrh-agonist": [],
+  "gonadorelin": [
+   {
+    "id": "CHEMBL1007",
+    "parent": "CHEMBL1007"
+   }
+  ],
+  "gonadorelin-acetat": [],
+  "gos (galacto-oligosaccharide)": [],
+  "gotu kola": [
+   {
+    "id": "CHEMBL5095437",
+    "parent": "CHEMBL5095437"
+   }
+  ],
+  "gp 1 110": [],
+  "grape seed extract": [],
+  "green tea extract": [],
+  "grf 1-29": [],
+  "growth hormone": [
+   {
+    "id": "CHEMBL1201621",
+    "parent": "CHEMBL1201621"
+   }
+  ],
+  "growth hormone / somatropin": [],
+  "growth hormone releasing peptide-6": [],
+  "grundlagen": [],
+  "grüntee-aminosäure": [],
+  "grüntee-catechine": [],
+  "grüntee-extrakt": [],
+  "gsh": [],
+  "gsk-516": [
+   {
+    "id": "CHEMBL38943",
+    "parent": "CHEMBL38943"
+   }
+  ],
+  "gte": [],
+  "gtx-007": [],
+  "gtx-024": [
+   {
+    "id": "CHEMBL1738889",
+    "parent": "CHEMBL1738889"
+   }
+  ],
+  "gutgard": [],
+  "gvs-111": [],
+  "gw 0742": [
+   {
+    "id": "CHEMBL38508",
+    "parent": "CHEMBL38508"
+   }
+  ],
+  "gw-0742": [],
+  "gw-610742": [],
+  "gw0742": [
+   {
+    "id": "CHEMBL38508",
+    "parent": "CHEMBL38508"
+   }
+  ],
+  "gw1516": [],
+  "gw501516": [
+   {
+    "id": "CHEMBL38943",
+    "parent": "CHEMBL38943"
+   }
+  ],
+  "gw610742": [
+   {
+    "id": "CHEMBL38508",
+    "parent": "CHEMBL38508"
+   }
+  ],
+  "gynokadin": [],
+  "haematococcus pluvialis": [],
+  "hafer-beta-glucan": [],
+  "haferkleie": [],
+  "halotestin": [
+   {
+    "id": "CHEMBL1445",
+    "parent": "CHEMBL1445"
+   }
+  ],
+  "handroanthus impetiginosus": [],
+  "hanfextrakt": [],
+  "haritaki": [],
+  "haschisch": [],
+  "hca": [],
+  "hcap-18-fragment": [],
+  "hcg": [],
+  "hcrt-1": [],
+  "hdm-2-bindendes anti-krebs-peptid": [],
+  "hefe-beta-glucan": [],
+  "heiliges basilikum": [],
+  "heilungs-stack": [],
+  "hepa-merz": [],
+  "herbstzeitlosen-alkaloid": [],
+  "hericium erinaceus": [],
+  "herz-kreislauf-vorbeugung": [],
+  "hexarelin": [
+   {
+    "id": "CHEMBL108335",
+    "parent": "CHEMBL108335"
+   }
+  ],
+  "hgh": [
+   {
+    "id": "CHEMBL1201621",
+    "parent": "CHEMBL1201621"
+   }
+  ],
+  "hgh 176-191": [],
+  "hgh frag 176-191": [],
+  "hgh fragment 176-191": [],
+  "hgh-fragment 176-191": [],
+  "hgh-fragment 176-191 (modifiziert)": [],
+  "hmb": [
+   {
+    "id": "CHEMBL4525124",
+    "parent": "CHEMBL4525124"
+   }
+  ],
+  "hmb (stoffwechselprodukt)": [],
+  "hmb-fa": [],
+  "hmb-freisäure": [],
+  "hmg": [
+   {
+    "id": "CHEMBL2108427",
+    "parent": "CHEMBL2108427"
+   }
+  ],
+  "hmg-coa-reduktase-hemmer": [],
+  "hng (humanin-analogon)": [],
+  "holy basil": [],
+  "hongqu": [],
+  "hovenia dulcis": [],
+  "huang qi": [],
+  "huang qin": [],
+  "huangqin": [],
+  "human chorionic gonadotropin": [],
+  "human menopausal gonadotropin": [],
+  "humanes choriongonadotropin": [],
+  "humanes menopausen-gonadotropin": [],
+  "humanes menopausengonadotropin": [],
+  "humanin": [],
+  "hupa": [],
+  "huperzia serrata (chinesisches keulenmoos": [],
+  "huperzin a": [],
+  "huperzine a": [
+   {
+    "id": "CHEMBL395280",
+    "parent": "CHEMBL395280"
+   }
+  ],
+  "hyaluronic acid": [
+   {
+    "id": "CHEMBL5314376",
+    "parent": "CHEMBL5314376"
+   }
+  ],
+  "hyaluronsäure": [],
+  "hydrastis canadensis": [],
+  "hydrocotyle asiatica": [
+   {
+    "id": "CHEMBL5095437",
+    "parent": "CHEMBL5095437"
+   }
+  ],
+  "hydrolysiertes kollagen typ i & iii": [],
+  "hydroxycitric acid": [],
+  "hydroxycitronensäure": [],
+  "hydroxytyrosol and olive polyphenols": [],
+  "hydroxytyrosol und olivenpolyphenole": [],
+  "hyp6-dermorphin": [],
+  "hypocretin-1": [],
+  "hypocretin-2": [],
+  "ibi362": [
+   {
+    "id": "CHEMBL5095358",
+    "parent": "CHEMBL5095358"
+   }
+  ],
+  "iboga": [],
+  "ibogain": [],
+  "ibogaine": [
+   {
+    "id": "CHEMBL222287",
+    "parent": "CHEMBL222287"
+   }
+  ],
+  "ibutamoren": [
+   {
+    "id": "CHEMBL13817",
+    "parent": "CHEMBL13817"
+   }
+  ],
+  "igf-1 des": [],
+  "igf-1 des(1-3)": [],
+  "igf-1 lr3": [],
+  "igf-1eb (nager)": [],
+  "igf-1ec (mensch)": [],
+  "imovane": [
+   {
+    "id": "CHEMBL135400",
+    "parent": "CHEMBL135400"
+   }
+  ],
+  "in den usa farxiga)": [],
+  "in foren als „cardarine 2.0\" gehandelt": [],
+  "indian pennywort": [],
+  "indische buntnessel": [],
+  "indische flohsamenschalen": [],
+  "indischer weihrauch": [],
+  "indol-3-carbinol-dimer": [],
+  "ingwer": [],
+  "ingwerwurzel": [],
+  "injection lipolysis": [],
+  "injektionslipolyse": [],
+  "inonotus obliquus": [],
+  "inosithexanicotinat": [],
+  "inositol (als vitamin b8 vermarktet": [],
+  "insulin als dopingmittel": [],
+  "insulin im bodybuilding": [],
+  "insulin in bodybuilding": [],
+  "insulin-like growth factor 1 lr3": [],
+  "insulin-missbrauch": [],
+  "intrarosa (vaginales arzneimittel)": [],
+  "inulin": [
+   {
+    "id": "CHEMBL1201646",
+    "parent": "CHEMBL1201646"
+   }
+  ],
+  "invokana": [
+   {
+    "id": "CHEMBL4594217",
+    "parent": "CHEMBL2048484"
+   }
+  ],
+  "iodine": [
+   {
+    "id": "CHEMBL1201225",
+    "parent": "CHEMBL1201225"
+   }
+  ],
+  "ipê roxo": [],
+  "iron": [],
+  "isobutyrylthiamin-disulfid": [],
+  "isomer von clomifen": [],
+  "isotretinoin": [
+   {
+    "id": "CHEMBL547",
+    "parent": "CHEMBL547"
+   }
+  ],
+  "ispaghula": [],
+  "ivermectin": [
+   {
+    "id": "CHEMBL6067487",
+    "parent": "CHEMBL6067487"
+   }
+  ],
+  "ivermectin-ratiopharm": [],
+  "japanischer rosinenbaum": [],
+  "jod": [],
+  "joe-tippens-protokoll": [],
+  "johimbin": [],
+  "juice plus": [],
+  "juli-silberkerze": [],
+  "kakaoextrakt": [],
+  "kakaoflavanole": [],
+  "kalium": [],
+  "kaliumbicarbonat": [],
+  "kaliumchlorid": [],
+  "kaliumcitrat": [],
+  "kaliumgluconat": [],
+  "kaliumiodid": [],
+  "kaliumiodid / kelp": [],
+  "kalonji": [],
+  "kalzium": [],
+  "kamillen-flavonoid": [],
+  "kanna": [],
+  "karela": [],
+  "kauwgoed": [],
+  "kava": [],
+  "kava-kava": [],
+  "kavain": [],
+  "kavalactone": [],
+  "kawa": [],
+  "kedp (lys-glu-asp-pro)": [],
+  "kein vitamin)": [],
+  "kelp": [],
+  "ketamin": [],
+  "ketamin / esketamin": [],
+  "ketamin-infusion": [],
+  "ketamine and esketamine": [],
+  "ketanest": [],
+  "ketoconazol": [
+   {
+    "id": "CHEMBL157101",
+    "parent": "CHEMBL157101"
+   }
+  ],
+  "ketoconazol 2 %": [],
+  "ketoconazol-shampoo": [],
+  "ketoconazole": [
+   {
+    "id": "CHEMBL157101",
+    "parent": "CHEMBL157101"
+   }
+  ],
+  "ketoconazole shampoo for hair loss": [],
+  "ketone ester/salze": [],
+  "ketone esters": [],
+  "ketonester": [],
+  "ketozolin": [],
+  "ketum": [],
+  "keuschlamm": [],
+  "keuschlammfrüchte": [],
+  "kiefernrindenextrakt": [],
+  "kisspeptin-10": [
+   {
+    "id": "CHEMBL376756",
+    "parent": "CHEMBL376756"
+   }
+  ],
+  "klotho": [],
+  "klow": [],
+  "klow-blend": [],
+  "koffein": [],
+  "kollagen-peptide": [],
+  "kombination": [],
+  "konjugierte gallensäuren": [],
+  "konsumcannabis": [],
+  "koreanischer ginseng": [],
+  "kortikotropin": [],
+  "kougoed": [],
+  "kp-10": [],
+  "kp-102": [
+   {
+    "id": "CHEMBL106593",
+    "parent": "CHEMBL106593"
+   }
+  ],
+  "kpv": [],
+  "kpv + ghk-cu + bpc-157 + tb-500": [],
+  "kratom": [],
+  "kratombaum": [],
+  "kreatin in liposomen": [],
+  "kreatin mit sonnenblumenlecithin": [],
+  "kreatin monohydrat": [],
+  "krill oil": [],
+  "krillöl": [],
+  "krishna-tulsi": [],
+  "ksm-66": [],
+  "kucha-tee-alkaloid (camellia assamica var. kucha)": [],
+  "kupfer": [],
+  "kupfer-tripeptid": [],
+  "kupfertripeptid ahk": [],
+  "kurkuma": [],
+  "kx-826": [],
+  "kx826": [],
+  "kybella": [
+   {
+    "id": "CHEMBL406393",
+    "parent": "CHEMBL406393"
+   }
+  ],
+  "kyäni sunrise": [],
+  "köderrezeptor": [],
+  "körpereigene speicherform)": [],
+  "kürzere variante pnc-28": [],
+  "l-alanyl-l-histidyl-l-lysin-kupfer": [],
+  "l-alpha-glycerylphosphorylcholin": [],
+  "l-arginin": [],
+  "l-arginin-alpha-ketoglutarat": [],
+  "l-arginine": [
+   {
+    "id": "CHEMBL1485",
+    "parent": "CHEMBL1485"
+   }
+  ],
+  "l-carnitin": [],
+  "l-carnitin-base": [],
+  "l-carnitin-fumarat": [],
+  "l-carnitin-l-tartrat": [],
+  "l-carnitine": [],
+  "l-citrullin": [],
+  "l-citrulline": [
+   {
+    "id": "CHEMBL444814",
+    "parent": "CHEMBL444814"
+   }
+  ],
+  "l-ergothionein": [],
+  "l-glutamin": [],
+  "l-leucin": [],
+  "l-lysin": [],
+  "l-lysine": [],
+  "l-lysinhydrochlorid": [],
+  "l-methylfolat": [],
+  "l-ornithin": [],
+  "l-ornithin-hydrochlorid": [],
+  "l-ornithin-l-aspartat": [],
+  "l-ornithine": [],
+  "l-ornithine l-aspartate": [],
+  "l-theanin": [],
+  "l-theanine": [
+   {
+    "id": "CHEMBL3039113",
+    "parent": "CHEMBL3039113"
+   }
+  ],
+  "l-thyroxin": [],
+  "l-thyroxin winthrop": [],
+  "l-thyroxine": [
+   {
+    "id": "CHEMBL1624",
+    "parent": "CHEMBL1624"
+   }
+  ],
+  "l-tryptophan": [
+   {
+    "id": "CHEMBL54976",
+    "parent": "CHEMBL54976"
+   }
+  ],
+  "l-tyrosin": [],
+  "l-tyrosine": [
+   {
+    "id": "CHEMBL925",
+    "parent": "CHEMBL925"
+   }
+  ],
+  "lactobacillus": [],
+  "lactobacillus / bifidobakterien": [],
+  "lactoferrin": [],
+  "lactoferrin aus kuhmilch": [],
+  "ladasten": [],
+  "lakritzwurzel ohne glycyrrhizin": [],
+  "laktoferrin": [],
+  "lapacho": [],
+  "lapachorinde": [],
+  "larazotide": [
+   {
+    "id": "CHEMBL2105646",
+    "parent": "CHEMBL2105646"
+   }
+  ],
+  "lasea": [],
+  "laurinsäure-monoglycerid": [],
+  "lavandula angustifolia": [],
+  "lavendelöl oral": [],
+  "lavendelöl-kapseln": [],
+  "lavita": [],
+  "lavita & co": [],
+  "ldn": [],
+  "ldom": [],
+  "lecithin (hauptbestandteil)": [],
+  "lem": [],
+  "lemborexant": [
+   {
+    "id": "CHEMBL3545367",
+    "parent": "CHEMBL3545367"
+   }
+  ],
+  "lemon bottle": [],
+  "lentinan": [
+   {
+    "id": "CHEMBL2108209",
+    "parent": "CHEMBL2108209"
+   }
+  ],
+  "lentinex": [],
+  "lentinula edodes": [],
+  "lentinus edodes": [],
+  "lepidium meyenii": [],
+  "lepidium peruvianum": [],
+  "letrozol": [
+   {
+    "id": "CHEMBL1444",
+    "parent": "CHEMBL1444"
+   }
+  ],
+  "letrozole": [
+   {
+    "id": "CHEMBL1444",
+    "parent": "CHEMBL1444"
+   }
+  ],
+  "leu": [],
+  "leucin": [],
+  "leucin-stoffwechselprodukt": [],
+  "leucine": [
+   {
+    "id": "CHEMBL291962",
+    "parent": "CHEMBL291962"
+   }
+  ],
+  "levitra": [
+   {
+    "id": "CHEMBL1520",
+    "parent": "CHEMBL1520"
+   },
+   {
+    "id": "CHEMBL1339",
+    "parent": "CHEMBL1520"
+   }
+  ],
+  "levitra schmelztablette": [],
+  "levocarnitin": [],
+  "levothyroxin": [
+   {
+    "id": "CHEMBL1624",
+    "parent": "CHEMBL1624"
+   }
+  ],
+  "levothyroxin-natrium": [],
+  "levothyroxine": [
+   {
+    "id": "CHEMBL1624",
+    "parent": "CHEMBL1624"
+   }
+  ],
+  "lgd-4033": [
+   {
+    "id": "CHEMBL5170587",
+    "parent": "CHEMBL5170587"
+   }
+  ],
+  "lhrh": [],
+  "ligandrol": [
+   {
+    "id": "CHEMBL5170587",
+    "parent": "CHEMBL5170587"
+   }
+  ],
+  "linalool": [
+   {
+    "id": "CHEMBL25306",
+    "parent": "CHEMBL25306"
+   }
+  ],
+  "lion's mane": [],
+  "liothyronin": [],
+  "liothyronine": [
+   {
+    "id": "CHEMBL1544",
+    "parent": "CHEMBL1544"
+   }
+  ],
+  "lipasehemmer": [],
+  "lipidextrakt aus antarktischem krill (euphausia superba)": [],
+  "lipo-b": [],
+  "lipo-c": [],
+  "lipolyse-spritze": [],
+  "liposomal creatine": [],
+  "liposomales glutathion": [],
+  "liposomales glutathion / gsh / s-acetyl-glutathion": [],
+  "liposomales kreatin": [],
+  "lipotropin": [],
+  "liraglutid": [],
+  "liraglutide": [
+   {
+    "id": "CHEMBL4084119",
+    "parent": "CHEMBL4084119"
+   }
+  ],
+  "liraglutide stada": [],
+  "lithium orotate": [],
+  "lithium-orotat": [],
+  "lithiumorotat": [],
+  "livogiva": [
+   {
+    "id": "CHEMBL525610",
+    "parent": "CHEMBL525610"
+   }
+  ],
+  "ll-37": [],
+  "lodoco": [
+   {
+    "id": "CHEMBL107",
+    "parent": "CHEMBL107"
+   }
+  ],
+  "lola": [],
+  "long r3 igf-1": [],
+  "longevity-bakterium": [],
+  "longjack": [],
+  "lonolox": [
+   {
+    "id": "CHEMBL802",
+    "parent": "CHEMBL802"
+   }
+  ],
+  "low-dose": [],
+  "low-dose lithium": [],
+  "low-dose naltrexone": [],
+  "low-dose-colchicin": [],
+  "low-dose-naltrexon": [],
+  "lozenges": [],
+  "lph": [],
+  "lsd": [
+   {
+    "id": "CHEMBL263881",
+    "parent": "CHEMBL263881"
+   }
+  ],
+  "lsd microdosing": [],
+  "lsd-microdosing": [],
+  "luteolin": [
+   {
+    "id": "CHEMBL151",
+    "parent": "CHEMBL151"
+   }
+  ],
+  "luteolol": [
+   {
+    "id": "CHEMBL151",
+    "parent": "CHEMBL151"
+   }
+  ],
+  "lutschtabletten": [],
+  "ly3298176": [
+   {
+    "id": "CHEMBL4297839",
+    "parent": "CHEMBL4297839"
+   }
+  ],
+  "ly3305677": [
+   {
+    "id": "CHEMBL5095358",
+    "parent": "CHEMBL5095358"
+   }
+  ],
+  "ly3437943": [
+   {
+    "id": "CHEMBL5095485",
+    "parent": "CHEMBL5095485"
+   }
+  ],
+  "ly3502970": [
+   {
+    "id": "CHEMBL4446782",
+    "parent": "CHEMBL4446782"
+   }
+  ],
+  "ly3841136 (eli lilly)": [],
+  "lys": [],
+  "lys-pro-val": [],
+  "lysergid": [],
+  "lysergsäurediethylamid": [],
+  "lysin": [],
+  "lysin-hcl": [],
+  "lysin-prolin-valin": [],
+  "lz-1": [],
+  "lz1": [],
+  "lz1-peptid": [],
+  "löslicher activin-rezeptor iib": [],
+  "lösliches klotho": [],
+  "löwenmähne": [],
+  "löwenzahnwurzel": [],
+  "löwenzahnwurzel mit kraut": [],
+  "m1t": [],
+  "maca": [],
+  "maca-wurzel": [],
+  "madecassosid": [],
+  "magensäure-ergänzung": [],
+  "magic mushrooms": [],
+  "magnesium": [
+   {
+    "id": "CHEMBL1201230",
+    "parent": "CHEMBL1201230"
+   }
+  ],
+  "magnesium l-threonate": [],
+  "magnesium-ibogain": [],
+  "magnesium-l-threonat": [],
+  "magtein": [],
+  "malabar-tamarinde": [],
+  "malat": [],
+  "malate": [
+   {
+    "id": "CHEMBL1455497",
+    "parent": "CHEMBL1455497"
+   }
+  ],
+  "mandukparni": [],
+  "mangan": [],
+  "manganese": [],
+  "mapp1": [],
+  "mapp2": [],
+  "maridebart cafraglutide": [
+   {
+    "id": "CHEMBL5314751",
+    "parent": "CHEMBL5314751"
+   }
+  ],
+  "mariendistel": [],
+  "mariendistelfrüchte": [],
+  "marihuana": [],
+  "maritide": [],
+  "masterid": [
+   {
+    "id": "CHEMBL1201048",
+    "parent": "CHEMBL1201048"
+   }
+  ],
+  "masteril": [
+   {
+    "id": "CHEMBL1201048",
+    "parent": "CHEMBL1201048"
+   }
+  ],
+  "masteron": [
+   {
+    "id": "CHEMBL1201048",
+    "parent": "CHEMBL1201048"
+   }
+  ],
+  "mastic": [],
+  "mastic gum": [],
+  "mastiha": [],
+  "mastix": [],
+  "mastixharz": [],
+  "mastixstrauch-harz": [],
+  "matrixyl": [],
+  "matrixyl 3000": [],
+  "mazdutide": [
+   {
+    "id": "CHEMBL5095358",
+    "parent": "CHEMBL5095358"
+   }
+  ],
+  "mct oil": [],
+  "mct-öl": [],
+  "mdma": [
+   {
+    "id": "CHEMBL43048",
+    "parent": "CHEMBL43048"
+   }
+  ],
+  "mdma-assisted psychotherapy": [],
+  "mdma-assisted therapy": [],
+  "mdma-at": [],
+  "mdma-gestützte psychotherapie": [],
+  "medizinalcannabis": [],
+  "medizinische kohle": [],
+  "melanocortin-agonist": [],
+  "melanotan 1": [],
+  "melanotan 2": [],
+  "melanotan ii": [],
+  "melatonin": [
+   {
+    "id": "CHEMBL45",
+    "parent": "CHEMBL45"
+   }
+  ],
+  "menachinon-4": [],
+  "menachinon-7": [],
+  "menatetrenon": [],
+  "menopausen-gonadotropin": [],
+  "menotropin": [],
+  "ment": [],
+  "ment-acetat": [],
+  "mesembrin": [],
+  "mesembryanthemum tortuosum": [],
+  "mesterolon": [],
+  "mesterolone": [
+   {
+    "id": "CHEMBL258918",
+    "parent": "CHEMBL258918"
+   }
+  ],
+  "metandienon": [],
+  "metastin-fragment": [],
+  "metenolon": [],
+  "metenolonacetat": [],
+  "metenolone": [],
+  "metenolonenantat": [],
+  "metformin": [
+   {
+    "id": "CHEMBL1431",
+    "parent": "CHEMBL1431"
+   }
+  ],
+  "methandienon": [],
+  "methandrostenolon": [],
+  "methandrostenolone": [
+   {
+    "id": "CHEMBL1418176",
+    "parent": "CHEMBL1418176"
+   }
+  ],
+  "methasteron": [],
+  "methasterone": [],
+  "methenolon": [],
+  "methyl-1-testosteron": [],
+  "methyl-1-testosterone": [],
+  "methyl-3-(2-(benzylmethylamino)ethyl)benzoat": [],
+  "methylcobalamin": [
+   {
+    "id": "CHEMBL4297672",
+    "parent": "CHEMBL4297672"
+   }
+  ],
+  "methylcobalamin / cobalamin": [],
+  "methyldrostanolon": [],
+  "methylenblau": [],
+  "methylendioxymethamfetamin": [],
+  "methylene blue": [
+   {
+    "id": "CHEMBL550495",
+    "parent": "CHEMBL191083"
+   }
+  ],
+  "methylfolat": [],
+  "methylfolate": [],
+  "methylstenbolon": [],
+  "methylstenbolone": [],
+  "methylsulfon": [],
+  "methylsulfonylmethan": [],
+  "methylsulfonylmethane": [
+   {
+    "id": "CHEMBL25028",
+    "parent": "CHEMBL25028"
+   }
+  ],
+  "methylthioniniumchlorid": [],
+  "methyltrienolon": [],
+  "methyltrienolone": [
+   {
+    "id": "CHEMBL166444",
+    "parent": "CHEMBL166444"
+   }
+  ],
+  "metribolon": [],
+  "metribolone": [
+   {
+    "id": "CHEMBL166444",
+    "parent": "CHEMBL166444"
+   }
+  ],
+  "mg-threonat": [],
+  "mgf-ct24e)": [],
+  "mic-spritze": [],
+  "micardis": [
+   {
+    "id": "CHEMBL1017",
+    "parent": "CHEMBL1017"
+   }
+  ],
+  "micardisplus (mit hydrochlorothiazid)": [],
+  "microdosing": [],
+  "micronized": [],
+  "micronutrient concentrates": [],
+  "midomafetamin": [],
+  "mikrodosierung": [],
+  "mikronisiert": [],
+  "mikronisiertes diosmin": [],
+  "mikronisiertes progesteron": [],
+  "mikronährstoff-konzentrate": [],
+  "mikroverkapseltes natriumbutyrat": [],
+  "milchsäurebakterien": [],
+  "milgamma protekt": [],
+  "milk thistle": [
+   {
+    "id": "CHEMBL2108623",
+    "parent": "CHEMBL2108623"
+   }
+  ],
+  "mind lab pro": [],
+  "minoxidil": [
+   {
+    "id": "CHEMBL802",
+    "parent": "CHEMBL802"
+   }
+  ],
+  "mistic": [],
+  "mitochondrial-derived peptide": [],
+  "mitochondrien-entkoppler bam15": [],
+  "mitopure": [],
+  "mitragyna speciosa": [],
+  "mitragynin": [],
+  "mitragynine": [],
+  "mittelkettige triglyceride": [],
+  "mk-0677": [
+   {
+    "id": "CHEMBL2105872",
+    "parent": "CHEMBL13817"
+   }
+  ],
+  "mk-2866": [
+   {
+    "id": "CHEMBL1738889",
+    "parent": "CHEMBL1738889"
+   }
+  ],
+  "mk-4": [],
+  "mk-677": [
+   {
+    "id": "CHEMBL2105872",
+    "parent": "CHEMBL13817"
+   }
+  ],
+  "mk-7": [],
+  "mk-7 and mk-4": [],
+  "mk-7 und mk-4": [],
+  "mm120": [],
+  "mod grf 1-29": [],
+  "modafinil": [
+   {
+    "id": "CHEMBL1373",
+    "parent": "CHEMBL1373"
+   }
+  ],
+  "modified grf (1-29)": [],
+  "molkenprotein-isolat": [],
+  "molybdat": [],
+  "molybdenum": [],
+  "molybdän": [],
+  "momordica charantia": [],
+  "monacolin k": [
+   {
+    "id": "CHEMBL503",
+    "parent": "CHEMBL503"
+   }
+  ],
+  "monascus purpureus": [],
+  "monolaurin": [
+   {
+    "id": "CHEMBL6068618",
+    "parent": "CHEMBL6068618"
+   }
+  ],
+  "montmorency-kirsche": [],
+  "mots-c": [],
+  "mounjaro": [
+   {
+    "id": "CHEMBL4297839",
+    "parent": "CHEMBL4297839"
+   }
+  ],
+  "mounjaro / zepbound": [],
+  "msm": [
+   {
+    "id": "CHEMBL25028",
+    "parent": "CHEMBL25028"
+   }
+  ],
+  "msten": [],
+  "mt-1": [],
+  "mt-2": [],
+  "mt-ii": [],
+  "mtp-131": [
+   {
+    "id": "CHEMBL3833370",
+    "parent": "CHEMBL3833370"
+   }
+  ],
+  "multivitamin-konzentrat": [],
+  "mumijo": [],
+  "muse": [],
+  "mutterhormon": [],
+  "myo-inositol": [
+   {
+    "id": "CHEMBL1222251",
+    "parent": "CHEMBL1222251"
+   }
+  ],
+  "myostatin inhibitors": [],
+  "myostatin-hemmer": [],
+  "myostatin-inhibitoren": [],
+  "mönchspfeffer": [],
+  "n-(4-bromphenyl)adamantan-2-amin": [],
+  "n-acetyl-cystein": [],
+  "n-acetyl-semax-adamantan": [],
+  "n-acetylcystein": [],
+  "n-acetylcysteine": [],
+  "n-dimethylglycin": [],
+  "n-dimethylglycine": [],
+  "n-dimethyltyramin)": [],
+  "n-hexanoic-tyr-ile-(6)-aminohexanoic-amid": [],
+  "n-phenylacetyl-l-prolylglycin-ethylester": [],
+  "nabilon": [],
+  "nabiximols": [
+   {
+    "id": "CHEMBL3833333",
+    "parent": "CHEMBL3833333"
+   }
+  ],
+  "nac": [],
+  "nachtkerzensamenöl": [],
+  "nachtkerzenöl": [],
+  "nad+ als nasenspray und spritze": [],
+  "nad+ as nasal spray and injection": [],
+  "nad+ nasal spray": [],
+  "nad+-injektion": [],
+  "naltrexonhydrochlorid in niedriger dosis": [],
+  "nam": [],
+  "nandrolon": [],
+  "nandrolon-decanoat": [],
+  "nandrolondecanoat": [],
+  "nandrolone decanoate": [
+   {
+    "id": "CHEMBL1200946",
+    "parent": "CHEMBL1200946"
+   }
+  ],
+  "natrium": [],
+  "natrium / kalium / magnesium": [],
+  "natrium-glucose-cotransporter-2-hemmer": [],
+  "natriumbutyrat": [],
+  "natriumsalz der buttersäure": [],
+  "natto-enzym": [],
+  "nattokinase": [],
+  "neurotrophes peptidgemisch": [],
+  "nexletol": [
+   {
+    "id": "CHEMBL3545313",
+    "parent": "CHEMBL3545313"
+   }
+  ],
+  "niacin": [
+   {
+    "id": "CHEMBL573",
+    "parent": "CHEMBL573"
+   }
+  ],
+  "niacinamid": [
+   {
+    "id": "CHEMBL1140",
+    "parent": "CHEMBL1140"
+   }
+  ],
+  "niacinamide": [
+   {
+    "id": "CHEMBL1140",
+    "parent": "CHEMBL1140"
+   }
+  ],
+  "niagen": [],
+  "nicht das tb-500-fragment)": [],
+  "nicht medizinische insulinnutzung": [],
+  "nicotinamid": [],
+  "nicotinamid-adenin-dinukleotid": [],
+  "nicotinamid-mononukleotid": [],
+  "nicotinamid-ribosid": [],
+  "nicotinamide": [
+   {
+    "id": "CHEMBL1140",
+    "parent": "CHEMBL1140"
+   }
+  ],
+  "nicotinamide riboside": [
+   {
+    "id": "CHEMBL438497",
+    "parent": "CHEMBL438497"
+   }
+  ],
+  "nicotine replacement": [],
+  "nicotine without smoke": [],
+  "nicotinsäure": [],
+  "nicotinsäureamid": [],
+  "niedrig dosiert": [],
+  "niedrig dosiertes naltrexon": [],
+  "nigella sativa": [],
+  "nikotin ohne rauch": [],
+  "nikotinbeutel": [],
+  "nilemdo": [
+   {
+    "id": "CHEMBL3545313",
+    "parent": "CHEMBL3545313"
+   }
+  ],
+  "nitrat": [],
+  "nitrate": [],
+  "nmn": [],
+  "nmn-h": [],
+  "nmnh": [],
+  "nmnh-ca": [],
+  "nn9838": [],
+  "no-booster": [],
+  "nolvadex": [
+   {
+    "id": "CHEMBL786",
+    "parent": "CHEMBL83"
+   }
+  ],
+  "nonathymulin (synthetische form)": [],
+  "noofen": [],
+  "noopept": [],
+  "nootropic stacks": [],
+  "nootropika-fertigmischungen": [],
+  "noribogain": [],
+  "npc1l1-hemmer": [],
+  "ns2330": [
+   {
+    "id": "CHEMBL3989690",
+    "parent": "CHEMBL3989690"
+   }
+  ],
+  "nsc-92858": [
+   {
+    "id": "CHEMBL166444",
+    "parent": "CHEMBL166444"
+   }
+  ],
+  "nustendi (mit ezetimib)": [],
+  "nutrobal": [],
+  "nuvigil": [
+   {
+    "id": "CHEMBL1201192",
+    "parent": "CHEMBL1201192"
+   }
+  ],
+  "ochsengalle": [],
+  "ocimum sanctum": [],
+  "ocimum tenuiflorum": [],
+  "oenothera biennis": [],
+  "oenothera lamarckiana": [],
+  "oestradiol": [],
+  "oft falsch als sarm geführt": [],
+  "ogon": [],
+  "olea europaea": [],
+  "oleuropein": [
+   {
+    "id": "CHEMBL1911053",
+    "parent": "CHEMBL1911053"
+   }
+  ],
+  "oligofructose": [],
+  "oligomere proanthocyanidine": [],
+  "olivenblattextrakt": [],
+  "olivenpolyphenole": [],
+  "omberacetam": [],
+  "omega-3": [
+   {
+    "id": "CHEMBL4298065",
+    "parent": "CHEMBL4298065"
+   }
+  ],
+  "opc": [],
+  "opc / kiefernrindenextrakt": [],
+  "opc / pine bark extract": [],
+  "optimsm": [],
+  "optruma": [
+   {
+    "id": "CHEMBL1116",
+    "parent": "CHEMBL81"
+   }
+  ],
+  "ora-testryl": [
+   {
+    "id": "CHEMBL1445",
+    "parent": "CHEMBL1445"
+   }
+  ],
+  "oral lavender oil": [],
+  "oral-turinabol": [],
+  "orales glp-1": [],
+  "orales isotretinoin": [],
+  "orales minoxidil": [],
+  "orales vk2735": [],
+  "orexin a": [],
+  "orexin b": [],
+  "orexin receptor antagonists": [],
+  "orexin-a (human)": [],
+  "orexin-b (human)": [],
+  "orexin-rezeptor-antagonisten": [],
+  "orforglipron": [
+   {
+    "id": "CHEMBL4446782",
+    "parent": "CHEMBL4446782"
+   }
+  ],
+  "organischer schwefel": [],
+  "orlistat": [
+   {
+    "id": "CHEMBL175247",
+    "parent": "CHEMBL175247"
+   }
+  ],
+  "ornithin": [],
+  "ornithin-aspartat": [],
+  "ornithinaspartat": [],
+  "osk": [],
+  "oskm": [],
+  "ostarin": [],
+  "ostarine": [
+   {
+    "id": "CHEMBL1738889",
+    "parent": "CHEMBL1738889"
+   }
+  ],
+  "ovitrelle": [
+   {
+    "id": "CHEMBL1201464",
+    "parent": "CHEMBL1201464"
+   }
+  ],
+  "ox bile": [
+   {
+    "id": "CHEMBL2107920",
+    "parent": "CHEMBL2107920"
+   }
+  ],
+  "oxa": [],
+  "oxadiazolopyrazin-protonophor": [],
+  "oxandrin": [
+   {
+    "id": "CHEMBL1200436",
+    "parent": "CHEMBL1200436"
+   }
+  ],
+  "oxandrolon": [],
+  "oxandrolone": [
+   {
+    "id": "CHEMBL1200436",
+    "parent": "CHEMBL1200436"
+   }
+  ],
+  "oxb": [],
+  "oxedrin": [],
+  "oxymetholon": [],
+  "oxymetholone": [
+   {
+    "id": "CHEMBL1200585",
+    "parent": "CHEMBL1200585"
+   }
+  ],
+  "oxytocin": [
+   {
+    "id": "CHEMBL395429",
+    "parent": "CHEMBL395429"
+   }
+  ],
+  "ozempic": [
+   {
+    "id": "CHEMBL2108724",
+    "parent": "CHEMBL2108724"
+   }
+  ],
+  "ozempic / wegovy": [],
+  "p-synephrin": [],
+  "p021": [],
+  "p21": [],
+  "p53-penetratin-peptid": [],
+  "palmitoyl pentapeptide": [],
+  "palmitoyl pentapeptide-4": [],
+  "palmitoyl tripeptide-1": [],
+  "palmitoyl-pentapeptid": [],
+  "pamorelin la": [],
+  "panacur (tierarzneimittel)": [],
+  "panax ginseng": [
+   {
+    "id": "CHEMBL2108467",
+    "parent": "CHEMBL2108467"
+   }
+  ],
+  "pangamsäure": [],
+  "parabolan": [],
+  "parathormon-fragment": [],
+  "partial reprogramming": [],
+  "partielle reprogrammierung": [],
+  "pasteurisierte akkermansia muciniphila": [],
+  "patches": [],
+  "pau d’arco": [],
+  "pda": [],
+  "pde5-hemmer": [],
+  "pe-22-28": [],
+  "pe22-28": [],
+  "pea": [],
+  "pea-hcl": [],
+  "pea-lut (kombination mit palmitoylethanolamid)": [],
+  "peg-mgf": [],
+  "pegylated mgf": [],
+  "pegyliertes mechano growth factor": [],
+  "pemvidutid": [],
+  "pemvidutide": [
+   {
+    "id": "CHEMBL5095142",
+    "parent": "CHEMBL5095142"
+   }
+  ],
+  "pentadeca arginate": [],
+  "pentadecanoic acid": [],
+  "pentadecansäure": [],
+  "pentadecapeptid-arginat": [],
+  "pentose": [],
+  "peptid-protokoll": [],
+  "peptid-stacks & blends": [],
+  "peptide 021": [],
+  "peptide stacks & blends": [],
+  "permixon (hexan-extrakt)": [],
+  "peruanischer ginseng": [],
+  "petrelintid": [],
+  "petrelintide": [
+   {
+    "id": "CHEMBL5314864",
+    "parent": "CHEMBL5314864"
+   }
+  ],
+  "pflaster": [],
+  "pge1": [
+   {
+    "id": "CHEMBL495",
+    "parent": "CHEMBL495"
+   }
+  ],
+  "phellodendron amurense": [],
+  "phenethylamin": [],
+  "phenibut": [
+   {
+    "id": "CHEMBL315818",
+    "parent": "CHEMBL315818"
+   }
+  ],
+  "phenotropil": [],
+  "phenylethylamin": [],
+  "phenylethylamine": [],
+  "phenylpiracetam": [],
+  "phosphatidylcholin": [],
+  "phosphatidylcholin-lipolyse": [],
+  "phosphatidylcholine": [
+   {
+    "id": "CHEMBL503481",
+    "parent": "CHEMBL503481"
+   }
+  ],
+  "phosphatidylserin": [],
+  "phosphatidylserine": [
+   {
+    "id": "CHEMBL4297669",
+    "parent": "CHEMBL4297669"
+   }
+  ],
+  "phyllanthus emblica": [],
+  "phytoecdysteroid (verwandt: ecdysteron": [],
+  "pine bark extract": [],
+  "pinienrindenextrakt": [],
+  "pinus pinaster": [
+   {
+    "id": "CHEMBL2109208",
+    "parent": "CHEMBL2109208"
+   }
+  ],
+  "piper methysticum": [],
+  "pistacia lentiscus": [],
+  "pistacia lentiscus var. chia": [],
+  "pl 14736": [],
+  "plantaginis ovatae seminis tegumentum": [],
+  "plantago ovata": [],
+  "plectranthus barbatus": [],
+  "plectranthus forskohlii": [],
+  "pnb-0408": [],
+  "pnc-27": [],
+  "polyamin": [],
+  "polyenylphosphatidylcholin (ppc)": [],
+  "polyphenon e": [
+   {
+    "id": "CHEMBL1201723",
+    "parent": "CHEMBL1201723"
+   }
+  ],
+  "pomeranze": [],
+  "potassium": [
+   {
+    "id": "CHEMBL1201290",
+    "parent": "CHEMBL1201290"
+   }
+  ],
+  "pouches": [],
+  "pqq": [],
+  "pralmorelin": [
+   {
+    "id": "CHEMBL106593",
+    "parent": "CHEMBL106593"
+   }
+  ],
+  "prasteron": [],
+  "prebiotics": [],
+  "precose": [
+   {
+    "id": "CHEMBL404271",
+    "parent": "CHEMBL404271"
+   }
+  ],
+  "preg": [],
+  "pregnenolon": [],
+  "pregnenolone": [
+   {
+    "id": "CHEMBL253363",
+    "parent": "CHEMBL253363"
+   },
+   {
+    "id": "CHEMBL2105373",
+    "parent": "CHEMBL2105373"
+   }
+  ],
+  "pregnenolonsulfat (pregs": [],
+  "pregnyl": [
+   {
+    "id": "CHEMBL1201509",
+    "parent": "CHEMBL1201509"
+   }
+  ],
+  "priligy": [
+   {
+    "id": "CHEMBL2106574",
+    "parent": "CHEMBL2110900"
+   }
+  ],
+  "primary prevention": [],
+  "primo": [],
+  "primobolan": [],
+  "primobolan depot": [
+   {
+    "id": "CHEMBL2106949",
+    "parent": "CHEMBL2106949"
+   }
+  ],
+  "primärprävention": [],
+  "prl-8-53": [],
+  "pro-viron": [
+   {
+    "id": "CHEMBL258918",
+    "parent": "CHEMBL258918"
+   }
+  ],
+  "probiotics": [],
+  "probiotika": [],
+  "procyanidine": [],
+  "progesteron": [],
+  "progesterone": [
+   {
+    "id": "CHEMBL103",
+    "parent": "CHEMBL103"
+   }
+  ],
+  "prohibitin-tp01": [],
+  "propecia": [
+   {
+    "id": "CHEMBL710",
+    "parent": "CHEMBL710"
+   }
+  ],
+  "proscar": [
+   {
+    "id": "CHEMBL710",
+    "parent": "CHEMBL710"
+   }
+  ],
+  "prostagen": [],
+  "prostaglandin e1": [
+   {
+    "id": "CHEMBL495",
+    "parent": "CHEMBL495"
+   }
+  ],
+  "prostamax": [],
+  "prostata-bioregulator (khavinson)": [],
+  "protein transduction domain – dishevelled binding motif": [],
+  "protirelin": [
+   {
+    "id": "CHEMBL1472",
+    "parent": "CHEMBL1472"
+   }
+  ],
+  "provigil": [
+   {
+    "id": "CHEMBL1373",
+    "parent": "CHEMBL1373"
+   }
+  ],
+  "proviron": [
+   {
+    "id": "CHEMBL258918",
+    "parent": "CHEMBL258918"
+   }
+  ],
+  "provitamin a": [],
+  "proxofim (forschungsbezeichnung)": [],
+  "prunus cerasus": [],
+  "präbiotika": [],
+  "psilocin": [
+   {
+    "id": "CHEMBL65547",
+    "parent": "CHEMBL65547"
+   }
+  ],
+  "psilocybe": [],
+  "psilocybin": [
+   {
+    "id": "CHEMBL194378",
+    "parent": "CHEMBL194378"
+   }
+  ],
+  "psyllium": [
+   {
+    "id": "CHEMBL2108130",
+    "parent": "CHEMBL2108130"
+   }
+  ],
+  "psyllium husk": [
+   {
+    "id": "CHEMBL2108126",
+    "parent": "CHEMBL2108126"
+   }
+  ],
+  "pt-141": [
+   {
+    "id": "CHEMBL2070241",
+    "parent": "CHEMBL2070241"
+   },
+   {
+    "id": "CHEMBL4297533",
+    "parent": "CHEMBL2070241"
+   }
+  ],
+  "ptd-dbm": [],
+  "pterostilben": [],
+  "pterostilbene": [
+   {
+    "id": "CHEMBL83527",
+    "parent": "CHEMBL83527"
+   }
+  ],
+  "pthrp(1-34)-analogon": [],
+  "puncture vine": [],
+  "purified cortrophin gel": [
+   {
+    "id": "CHEMBL1201610",
+    "parent": "CHEMBL1201610"
+   }
+  ],
+  "pycnogenol": [
+   {
+    "id": "CHEMBL2109208",
+    "parent": "CHEMBL2109208"
+   }
+  ],
+  "pyrilutamid": [],
+  "pyrilutamide": [],
+  "pyrrolochinolinchinon": [],
+  "qian ceng ta)": [],
+  "qrx-431": [
+   {
+    "id": "CHEMBL107400",
+    "parent": "CHEMBL107400"
+   }
+  ],
+  "qualia mind": [],
+  "quercetin": [
+   {
+    "id": "CHEMBL50",
+    "parent": "CHEMBL50"
+   }
+  ],
+  "quercetin-dihydrat": [],
+  "quviviq": [
+   {
+    "id": "CHEMBL4650216",
+    "parent": "CHEMBL4297590"
+   }
+  ],
+  "r 1881": [
+   {
+    "id": "CHEMBL166444",
+    "parent": "CHEMBL166444"
+   }
+  ],
+  "r-ala": [],
+  "r-modafinil": [],
+  "r1881": [],
+  "rad-150": [],
+  "rad140": [
+   {
+    "id": "CHEMBL1672635",
+    "parent": "CHEMBL1672635"
+   }
+  ],
+  "rad140-benzoat": [],
+  "rad150": [],
+  "radix astragali": [],
+  "raloxifen": [],
+  "raloxifene": [
+   {
+    "id": "CHEMBL81",
+    "parent": "CHEMBL81"
+   }
+  ],
+  "raloxifenhydrochlorid": [],
+  "ramatercept": [
+   {
+    "id": "CHEMBL2108674",
+    "parent": "CHEMBL2108674"
+   }
+  ],
+  "rapamune": [
+   {
+    "id": "CHEMBL413",
+    "parent": "CHEMBL413"
+   }
+  ],
+  "rapamycin": [
+   {
+    "id": "CHEMBL413",
+    "parent": "CHEMBL413"
+   }
+  ],
+  "rauschpfeffer": [],
+  "ready-made nootropic blends": [],
+  "red yeast rice": [],
+  "reduced nmn": [],
+  "reduziertes nicotinamid-mononukleotid": [],
+  "reduziertes nmn": [],
+  "regaine": [],
+  "regulatpro": [],
+  "reishi": [],
+  "relaxin-b-kettenderivat": [],
+  "relefact trh": [
+   {
+    "id": "CHEMBL1472",
+    "parent": "CHEMBL1472"
+   }
+  ],
+  "renova": [
+   {
+    "id": "CHEMBL38",
+    "parent": "CHEMBL38"
+   }
+  ],
+  "resveratrol": [
+   {
+    "id": "CHEMBL165",
+    "parent": "CHEMBL165"
+   }
+  ],
+  "retatrutide": [
+   {
+    "id": "CHEMBL5095485",
+    "parent": "CHEMBL5095485"
+   }
+  ],
+  "retin-a": [
+   {
+    "id": "CHEMBL38",
+    "parent": "CHEMBL38"
+   }
+  ],
+  "retinol": [
+   {
+    "id": "CHEMBL986",
+    "parent": "CHEMBL986"
+   }
+  ],
+  "retinsäure": [],
+  "retinylacetat": [],
+  "retinylester": [],
+  "retinylpalmitat": [],
+  "rev-erb-agonist": [],
+  "revatio": [
+   {
+    "id": "CHEMBL1737",
+    "parent": "CHEMBL192"
+   }
+  ],
+  "rgh-4405": [],
+  "rhgh": [],
+  "rhodiola rosea": [],
+  "rhpth(1-34)": [],
+  "rhuepo": [],
+  "ribose": [],
+  "rimso-50": [
+   {
+    "id": "CHEMBL504",
+    "parent": "CHEMBL504"
+   }
+  ],
+  "rindergalle": [],
+  "ro7895515": [],
+  "roaccutan": [],
+  "roids": [],
+  "rosenwurz": [],
+  "rosuvastatin": [
+   {
+    "id": "CHEMBL1496",
+    "parent": "CHEMBL1496"
+   }
+  ],
+  "rotbäckchen vital": [],
+  "rote-bete": [],
+  "rote-bete / nitrat": [],
+  "rotschimmelreis": [],
+  "rrr-alpha-tocopherol": [],
+  "ru 58841": [],
+  "ru-58841": [
+   {
+    "id": "CHEMBL9337",
+    "parent": "CHEMBL9337"
+   }
+  ],
+  "ru-58841-myristat (prodrug)": [],
+  "ru58841": [],
+  "rusalatid": [],
+  "rusalatide": [
+   {
+    "id": "CHEMBL2111105",
+    "parent": "CHEMBL2111105"
+   }
+  ],
+  "rusalatide-acetat": [],
+  "rxfp1-agonist b7-33": [],
+  "rybelsus": [
+   {
+    "id": "CHEMBL2108724",
+    "parent": "CHEMBL2108724"
+   }
+  ],
+  "s 23": [],
+  "s-22": [],
+  "s-23": [],
+  "s-4": [],
+  "s-acetyl-glutathion": [],
+  "s-adenosyl-l-methionin": [],
+  "s-adenosylmethionin": [],
+  "s-adenosylmethionine": [
+   {
+    "id": "CHEMBL1088977",
+    "parent": "CHEMBL1088977"
+   }
+  ],
+  "s-benzoylthiamin-o-monophosphat": [],
+  "s23": [],
+  "sabal serrulata": [
+   {
+    "id": "CHEMBL2108769",
+    "parent": "CHEMBL2108769"
+   }
+  ],
+  "sabalfrüchte": [],
+  "saccharolacton": [],
+  "saccharomyces boulardii": [],
+  "saffron": [],
+  "saffron-extrakt": [],
+  "safran": [],
+  "salbutamol": [
+   {
+    "id": "CHEMBL714",
+    "parent": "CHEMBL714"
+   }
+  ],
+  "salbutamolsulfat": [],
+  "salvacyl": [
+   {
+    "id": "CHEMBL1200554",
+    "parent": "CHEMBL1201334"
+   }
+  ],
+  "sam-e": [
+   {
+    "id": "CHEMBL1088977",
+    "parent": "CHEMBL1088977"
+   }
+  ],
+  "same": [
+   {
+    "id": "CHEMBL1088977",
+    "parent": "CHEMBL1088977"
+   }
+  ],
+  "samyr": [],
+  "sarm": [],
+  "sarm s-23": [],
+  "sartan": [],
+  "sativex": [
+   {
+    "id": "CHEMBL3833333",
+    "parent": "CHEMBL3833333"
+   }
+  ],
+  "sauerkirsche": [],
+  "sauerkirschkonzentrat": [],
+  "sauerkirschsaft": [],
+  "saw palmetto": [
+   {
+    "id": "CHEMBL2108769",
+    "parent": "CHEMBL2108769"
+   }
+  ],
+  "saxenda": [
+   {
+    "id": "CHEMBL4084119",
+    "parent": "CHEMBL4084119"
+   }
+  ],
+  "saxenda / victoza": [],
+  "scabioral": [],
+  "sceletium tortuosum": [],
+  "scenesse": [
+   {
+    "id": "CHEMBL441738",
+    "parent": "CHEMBL441738"
+   },
+   {
+    "id": "CHEMBL4297213",
+    "parent": "CHEMBL441738"
+   }
+  ],
+  "schattenmorelle": [],
+  "schiefer schillerporling": [],
+  "schlafhormon": [],
+  "schleifendiuretikum": [],
+  "schneepilz": [],
+  "schwarzer knoblauch": [],
+  "schwarzkümmel": [],
+  "schwarzkümmelöl": [],
+  "scutellaria baicalensis": [],
+  "scutellariae radix": [],
+  "seekiefernrindenextrakt": [],
+  "selank": [],
+  "selen": [],
+  "selenium": [
+   {
+    "id": "CHEMBL6068503",
+    "parent": "CHEMBL6068503"
+   }
+  ],
+  "selenomethionin": [],
+  "semaglutide": [
+   {
+    "id": "CHEMBL2108724",
+    "parent": "CHEMBL2108724"
+   }
+  ],
+  "semax": [],
+  "senolytic stack": [],
+  "senolytic-stack": [],
+  "serenoa repens": [
+   {
+    "id": "CHEMBL2108769",
+    "parent": "CHEMBL2108769"
+   }
+  ],
+  "sermorelin": [
+   {
+    "id": "CHEMBL1201490",
+    "parent": "CHEMBL1201490"
+   }
+  ],
+  "sermorelin-analogon": [],
+  "serotonin-vorstufe": [],
+  "serrapeptase": [
+   {
+    "id": "CHEMBL2108880",
+    "parent": "CHEMBL2108880"
+   }
+  ],
+  "serrapeptidase": [],
+  "serratiopeptidase": [
+   {
+    "id": "CHEMBL2108880",
+    "parent": "CHEMBL2108880"
+   }
+  ],
+  "serum-thymusfaktor": [],
+  "sglt2 inhibitor": [],
+  "sglt2 inhibitors": [],
+  "sglt2-hemmer": [],
+  "sglt2-inhibitor": [],
+  "sglt2-inhibitoren": [],
+  "shii-take": [],
+  "shiitake": [],
+  "shilajit": [],
+  "shuangyiping": [],
+  "silberohr": [],
+  "sildenafil": [
+   {
+    "id": "CHEMBL192",
+    "parent": "CHEMBL192"
+   }
+  ],
+  "sildenafil-generika": [],
+  "silexan": [],
+  "silibinin": [
+   {
+    "id": "CHEMBL9509",
+    "parent": "CHEMBL9509"
+   }
+  ],
+  "silybi mariani fructus": [],
+  "silybum marianum": [
+   {
+    "id": "CHEMBL2108623",
+    "parent": "CHEMBL2108623"
+   }
+  ],
+  "silymarin": [
+   {
+    "id": "CHEMBL4630684",
+    "parent": "CHEMBL4630684"
+   },
+   {
+    "id": "CHEMBL9509",
+    "parent": "CHEMBL9509"
+   }
+  ],
+  "simvastatin": [
+   {
+    "id": "CHEMBL1064",
+    "parent": "CHEMBL1064"
+   }
+  ],
+  "sinensis": [],
+  "siofor": [],
+  "sirolimus": [
+   {
+    "id": "CHEMBL413",
+    "parent": "CHEMBL413"
+   }
+  ],
+  "skat (schwellkörper-autoinjektionstherapie)": [],
+  "skf-110679": [],
+  "sklotho": [],
+  "slu-pp-332": [],
+  "small-molecule-glp-1": [],
+  "smart drug": [],
+  "snap-8": [],
+  "snow fungus": [],
+  "snow mushroom": [],
+  "sobetirom": [],
+  "sobetirome": [
+   {
+    "id": "CHEMBL107400",
+    "parent": "CHEMBL107400"
+   }
+  ],
+  "sodium butyrate": [
+   {
+    "id": "CHEMBL62381",
+    "parent": "CHEMBL62381"
+   }
+  ],
+  "sojalecithin": [],
+  "sold as a fat-loss peptide": [],
+  "somatropin": [
+   {
+    "id": "CHEMBL1201621",
+    "parent": "CHEMBL1201621"
+   }
+  ],
+  "sortis": [
+   {
+    "id": "CHEMBL1487",
+    "parent": "CHEMBL1487"
+   }
+  ],
+  "spadin-analogon": [],
+  "special k": [
+   {
+    "id": "CHEMBL1714",
+    "parent": "CHEMBL742"
+   }
+  ],
+  "spedra": [
+   {
+    "id": "CHEMBL1963681",
+    "parent": "CHEMBL1963681"
+   }
+  ],
+  "spermidin": [],
+  "spermidine": [
+   {
+    "id": "CHEMBL19612",
+    "parent": "CHEMBL19612"
+   }
+  ],
+  "spiropent (asthma-tablette de)": [],
+  "spitzname für retatrutid (ly3437943)": [],
+  "spravato": [
+   {
+    "id": "CHEMBL2364609",
+    "parent": "CHEMBL395091"
+   }
+  ],
+  "sr-9009": [],
+  "sr9009": [
+   {
+    "id": "CHEMBL1961796",
+    "parent": "CHEMBL1961796"
+   }
+  ],
+  "ss-31": [
+   {
+    "id": "CHEMBL3833370",
+    "parent": "CHEMBL3833370"
+   }
+  ],
+  "ssri bei bedarf": [],
+  "stacking": [],
+  "stamm-bromelain": [],
+  "stanozolol": [
+   {
+    "id": "CHEMBL2079587",
+    "parent": "CHEMBL2079587"
+   }
+  ],
+  "statine": [],
+  "statins": [],
+  "stenabolic": [],
+  "stendra": [
+   {
+    "id": "CHEMBL1963681",
+    "parent": "CHEMBL1963681"
+   }
+  ],
+  "steroide": [],
+  "subkutanes nad+": [],
+  "sulbutiamin": [],
+  "sulbutiamine": [
+   {
+    "id": "CHEMBL1874002",
+    "parent": "CHEMBL1874002"
+   }
+  ],
+  "sulforaphan": [],
+  "sulforaphane": [
+   {
+    "id": "CHEMBL48802",
+    "parent": "CHEMBL48802"
+   }
+  ],
+  "sultanol": [
+   {
+    "id": "CHEMBL1441059",
+    "parent": "CHEMBL714"
+   }
+  ],
+  "sunifiram": [],
+  "superdrol": [],
+  "survodutide": [
+   {
+    "id": "CHEMBL5314776",
+    "parent": "CHEMBL5314776"
+   }
+  ],
+  "suvorexant": [
+   {
+    "id": "CHEMBL1083659",
+    "parent": "CHEMBL1083659"
+   }
+  ],
+  "sympatol": [],
+  "synacthen": [
+   {
+    "id": "CHEMBL2103784",
+    "parent": "CHEMBL2103784"
+   }
+  ],
+  "synacthen depot": [
+   {
+    "id": "CHEMBL2103784",
+    "parent": "CHEMBL2103784"
+   }
+  ],
+  "synephrin": [
+   {
+    "id": "CHEMBL33720",
+    "parent": "CHEMBL33720"
+   }
+  ],
+  "synephrine": [
+   {
+    "id": "CHEMBL33720",
+    "parent": "CHEMBL33720"
+   }
+  ],
+  "synthroid (usa)": [],
+  "sägepalme": [],
+  "sägepalmenfrüchte": [],
+  "t-34)": [],
+  "ta-65": [],
+  "ta-65md": [],
+  "ta1": [],
+  "tabebuia avellanedae": [],
+  "tabebuia impetiginosa": [],
+  "tabernanthe iboga": [],
+  "tadalafil": [
+   {
+    "id": "CHEMBL779",
+    "parent": "CHEMBL779"
+   }
+  ],
+  "taheebo": [],
+  "tamoxifen": [
+   {
+    "id": "CHEMBL83",
+    "parent": "CHEMBL83"
+   }
+  ],
+  "tamoxifen abz": [],
+  "tamoxifencitrat": [],
+  "taraxaci radix": [],
+  "taraxacum officinale": [],
+  "tart cherry": [],
+  "taurin": [],
+  "taurine": [
+   {
+    "id": "CHEMBL239243",
+    "parent": "CHEMBL239243"
+   }
+  ],
+  "tauroursodeoxycholsäure": [],
+  "tauroursodesoxycholsäure": [],
+  "taurursodiol": [
+   {
+    "id": "CHEMBL272427",
+    "parent": "CHEMBL272427"
+   }
+  ],
+  "tb-500": [],
+  "tb4 (vollprotein": [],
+  "tcv-3b": [],
+  "teacrine": [],
+  "teavigo": [],
+  "telmisartan": [
+   {
+    "id": "CHEMBL1017",
+    "parent": "CHEMBL1017"
+   }
+  ],
+  "teriparatid": [],
+  "teriparatide": [
+   {
+    "id": "CHEMBL525610",
+    "parent": "CHEMBL525610"
+   }
+  ],
+  "terminalia arjuna": [],
+  "terminalia bellirica": [],
+  "terminalia chebula": [],
+  "terrosa": [
+   {
+    "id": "CHEMBL525610",
+    "parent": "CHEMBL525610"
+   }
+  ],
+  "terzolin": [],
+  "tesamorelin": [
+   {
+    "id": "CHEMBL1237026",
+    "parent": "CHEMBL1237026"
+   }
+  ],
+  "tesofensine": [
+   {
+    "id": "CHEMBL3989690",
+    "parent": "CHEMBL3989690"
+   }
+  ],
+  "testolone": [
+   {
+    "id": "CHEMBL1672635",
+    "parent": "CHEMBL1672635"
+   }
+  ],
+  "testosteron & trt": [],
+  "testosteron-enantat": [],
+  "testosteron-ersatztherapie": [],
+  "testosteron-substitution": [],
+  "testosteronderivate": [],
+  "testosterone & trt": [],
+  "testosterongel": [],
+  "tetracosactid": [],
+  "tetrahydrocannabinol": [
+   {
+    "id": "CHEMBL465",
+    "parent": "CHEMBL465"
+   }
+  ],
+  "tetramethyluric acid": [],
+  "th9507": [
+   {
+    "id": "CHEMBL1237026",
+    "parent": "CHEMBL1237026"
+   },
+   {
+    "id": "CHEMBL2111290",
+    "parent": "CHEMBL1237026"
+   }
+  ],
+  "thai-basilikum": [],
+  "thc": [],
+  "theacrin": [],
+  "theacrine": [],
+  "thr-lys-pro-arg-pro-gly-pro": [],
+  "threonat": [],
+  "thrombin-peptid tp508": [],
+  "thybon": [
+   {
+    "id": "CHEMBL1201119",
+    "parent": "CHEMBL1544"
+   }
+  ],
+  "thymalfasin": [
+   {
+    "id": "CHEMBL2103979",
+    "parent": "CHEMBL2103979"
+   }
+  ],
+  "thymalin": [],
+  "thymochinon": [],
+  "thymogen (synthetische variante)": [],
+  "thymosin alpha-1": [],
+  "thymosin beta-4": [],
+  "thymosin beta-4 fragment": [],
+  "thymosin-β4-fragment": [],
+  "thymulin": [
+   {
+    "id": "CHEMBL2106455",
+    "parent": "CHEMBL2106455"
+   }
+  ],
+  "thymus-polypeptid-komplex": [],
+  "thyreoliberin": [],
+  "thyrotropin-releasing-hormon": [],
+  "thyroxin": [],
+  "tirzepatide": [
+   {
+    "id": "CHEMBL4297839",
+    "parent": "CHEMBL4297839"
+   }
+  ],
+  "tlb 150 benzoate": [],
+  "tlb-150": [],
+  "tmg": [],
+  "tocopherole": [],
+  "tongkat ali": [],
+  "torasemid": [],
+  "torasemide": [
+   {
+    "id": "CHEMBL1148",
+    "parent": "CHEMBL1148"
+   }
+  ],
+  "torsemide": [
+   {
+    "id": "CHEMBL1148",
+    "parent": "CHEMBL1148"
+   }
+  ],
+  "tp-508": [
+   {
+    "id": "CHEMBL2111105",
+    "parent": "CHEMBL2111105"
+   }
+  ],
+  "tp508": [
+   {
+    "id": "CHEMBL2111105",
+    "parent": "CHEMBL2111105"
+   }
+  ],
+  "tragant-wurzel": [],
+  "trans-resveratrol": [
+   {
+    "id": "CHEMBL165",
+    "parent": "CHEMBL165"
+   }
+  ],
+  "traubenkernextrakt": [],
+  "traubensilberkerze": [],
+  "trazodon": [],
+  "trazodone": [
+   {
+    "id": "CHEMBL621",
+    "parent": "CHEMBL621"
+   }
+  ],
+  "trazodonhydrochlorid": [],
+  "tremella": [],
+  "tremella fuciformis": [],
+  "tremella-polysaccharide": [],
+  "tren": [],
+  "trenbolon": [],
+  "trenbolonacetat": [],
+  "trenbolone": [
+   {
+    "id": "CHEMBL1698011",
+    "parent": "CHEMBL1698011"
+   }
+  ],
+  "trestolon": [],
+  "trestolonacetat": [],
+  "trestolone": [
+   {
+    "id": "CHEMBL452329",
+    "parent": "CHEMBL452329"
+   }
+  ],
+  "tretinoin": [
+   {
+    "id": "CHEMBL38",
+    "parent": "CHEMBL38"
+   }
+  ],
+  "trh": [
+   {
+    "id": "CHEMBL1472",
+    "parent": "CHEMBL1472"
+   }
+  ],
+  "trh ferring": [],
+  "triazolopyridin": [],
+  "tribulus terrestris": [],
+  "trijodthyronin": [],
+  "trimethylglycin": [],
+  "trimethylglycine": [],
+  "trimethylxanthin": [],
+  "triphala": [],
+  "triphala churna": [],
+  "triptorelin": [
+   {
+    "id": "CHEMBL1201334",
+    "parent": "CHEMBL1201334"
+   }
+  ],
+  "triptorelinacetat": [],
+  "triptorelinembonat": [],
+  "trittico": [
+   {
+    "id": "CHEMBL621",
+    "parent": "CHEMBL621"
+   }
+  ],
+  "trp": [],
+  "trt": [],
+  "tryptophan": [
+   {
+    "id": "CHEMBL54976",
+    "parent": "CHEMBL54976"
+   }
+  ],
+  "ttfca": [],
+  "tudca": [],
+  "tuftsin-analogon": [],
+  "tulasi": [],
+  "tulsi": [],
+  "turi": [],
+  "turinabol": [],
+  "turkesteron": [],
+  "turkesterone": [],
+  "turmeric": [],
+  "tymlos (usa)": [],
+  "tβ4": [],
+  "ubiquinol": [],
+  "ubiquinol (reduziert)": [],
+  "ubiquinon (oxidiert)": [],
+  "ubiquinon (oxidiert) / ubiquinol (reduziert)": [],
+  "ump": [],
+  "unifi-nootropikum": [],
+  "uridin": [],
+  "uridin-5′-monophosphat": [],
+  "uridine": [
+   {
+    "id": "CHEMBL100259",
+    "parent": "CHEMBL100259"
+   }
+  ],
+  "uridine monophosphate": [],
+  "uridinmonophosphat": [],
+  "uridinmonophosphat-dinatriumsalz": [],
+  "urolithin a": [],
+  "ursodoxicoltaurin": [],
+  "uthpeak": [],
+  "utrogest": [],
+  "valerensäure": [],
+  "valerian": [
+   {
+    "id": "CHEMBL2108165",
+    "parent": "CHEMBL2108165"
+   }
+  ],
+  "valerian root": [],
+  "valeriana officinalis": [
+   {
+    "id": "CHEMBL2108165",
+    "parent": "CHEMBL2108165"
+   }
+  ],
+  "valerianae radix": [],
+  "var": [],
+  "vardenafil": [
+   {
+    "id": "CHEMBL1520",
+    "parent": "CHEMBL1520"
+   }
+  ],
+  "vasoactive intestinal peptide": [
+   {
+    "id": "CHEMBL525028",
+    "parent": "CHEMBL525028"
+   }
+  ],
+  "vasoaktives intestinales peptid": [],
+  "ventipulmin (tierarzneimittel pferd)": [],
+  "verkürztes igf-1": [],
+  "verkürztes spadin": [],
+  "verwandt: aod9401 (hgh 177-191)": [],
+  "verwandt: hordenin (n": [],
+  "verwandt: mgf-e-peptid (mgf-24aa-e": [],
+  "verzweigtkettige aminosäure": [],
+  "viagra": [
+   {
+    "id": "CHEMBL1737",
+    "parent": "CHEMBL192"
+   }
+  ],
+  "victoza": [
+   {
+    "id": "CHEMBL4084119",
+    "parent": "CHEMBL4084119"
+   }
+  ],
+  "vigil": [],
+  "vinpocetin": [],
+  "vinpocetine": [
+   {
+    "id": "CHEMBL71752",
+    "parent": "CHEMBL71752"
+   }
+  ],
+  "vip": [
+   {
+    "id": "CHEMBL525028",
+    "parent": "CHEMBL525028"
+   }
+  ],
+  "vitalstoffkonzentrat": [],
+  "vitamin a": [
+   {
+    "id": "CHEMBL986",
+    "parent": "CHEMBL986"
+   }
+  ],
+  "vitamin b complex": [
+   {
+    "id": "CHEMBL2108015",
+    "parent": "CHEMBL2108015"
+   }
+  ],
+  "vitamin b-komplex": [],
+  "vitamin b12": [
+   {
+    "id": "CHEMBL2375172",
+    "parent": "CHEMBL2375172"
+   },
+   {
+    "id": "CHEMBL2110563",
+    "parent": "CHEMBL2110563"
+   }
+  ],
+  "vitamin b15 (historisch": [],
+  "vitamin b3": [
+   {
+    "id": "CHEMBL573",
+    "parent": "CHEMBL573"
+   }
+  ],
+  "vitamin b3 (amid-form)": [],
+  "vitamin b7": [
+   {
+    "id": "CHEMBL857",
+    "parent": "CHEMBL857"
+   }
+  ],
+  "vitamin c": [],
+  "vitamin d3": [
+   {
+    "id": "CHEMBL1042",
+    "parent": "CHEMBL1042"
+   }
+  ],
+  "vitamin e": [
+   {
+    "id": "CHEMBL3989727",
+    "parent": "CHEMBL3989727"
+   }
+  ],
+  "vitamin h": [
+   {
+    "id": "CHEMBL857",
+    "parent": "CHEMBL857"
+   }
+  ],
+  "vitamin k2": [
+   {
+    "id": "CHEMBL5314971",
+    "parent": "CHEMBL5314971"
+   }
+  ],
+  "vitamin-a-säure": [],
+  "vitaros": [
+   {
+    "id": "CHEMBL495",
+    "parent": "CHEMBL495"
+   }
+  ],
+  "vitex agnus-castus": [],
+  "vitis vinifera": [],
+  "vk 5211": [
+   {
+    "id": "CHEMBL5170587",
+    "parent": "CHEMBL5170587"
+   }
+  ],
+  "vk-2735": [],
+  "vk2735": [],
+  "vk5211": [
+   {
+    "id": "CHEMBL5170587",
+    "parent": "CHEMBL5170587"
+   }
+  ],
+  "vkrwkkwwrkwkkwv-nh2": [],
+  "vladonix (orale cytomax-form)": [],
+  "vollspektrum-cbd": [],
+  "vollständig": [],
+  "vrb-101 (tablette)": [],
+  "vyleesi": [
+   {
+    "id": "CHEMBL4297533",
+    "parent": "CHEMBL2070241"
+   }
+  ],
+  "wachstumshormon": [],
+  "wachstumshormon / somatropin": [],
+  "wegovy": [
+   {
+    "id": "CHEMBL2108724",
+    "parent": "CHEMBL2108724"
+   }
+  ],
+  "weihrauch": [],
+  "wellmune": [],
+  "whey protein": [],
+  "white jelly mushroom": [],
+  "winlevi": [
+   {
+    "id": "CHEMBL3590187",
+    "parent": "CHEMBL3590187"
+   }
+  ],
+  "winlevi / breezula": [],
+  "winny": [],
+  "winstrol": [
+   {
+    "id": "CHEMBL2079587",
+    "parent": "CHEMBL2079587"
+   }
+  ],
+  "winstrol depot": [
+   {
+    "id": "CHEMBL2079587",
+    "parent": "CHEMBL2079587"
+   }
+  ],
+  "withania somnifera": [
+   {
+    "id": "CHEMBL4288984",
+    "parent": "CHEMBL4288984"
+   }
+  ],
+  "withania somnifera / ksm-66": [],
+  "wogonin": [],
+  "wüsten-ginseng": [],
+  "xenical": [
+   {
+    "id": "CHEMBL175247",
+    "parent": "CHEMBL175247"
+   }
+  ],
+  "xenical / alli": [],
+  "ximovan": [],
+  "xuezhikang": [],
+  "xw003": [
+   {
+    "id": "CHEMBL5095115",
+    "parent": "CHEMBL5095115"
+   }
+  ],
+  "xylitol": [
+   {
+    "id": "CHEMBL96783",
+    "parent": "CHEMBL96783"
+   }
+  ],
+  "yamanaka factors": [],
+  "yamanaka-faktoren": [],
+  "yestimun": [],
+  "yk 11": [],
+  "yk-11": [],
+  "yk11": [],
+  "yocon-glenwood": [],
+  "yohimbe (pausinystalia yohimbe": [],
+  "yohimbin": [],
+  "yohimbine": [
+   {
+    "id": "CHEMBL15245",
+    "parent": "CHEMBL15245"
+   }
+  ],
+  "yohimbine hcl": [
+   {
+    "id": "CHEMBL537669",
+    "parent": "CHEMBL15245"
+   }
+  ],
+  "yohimbinhydrochlorid": [],
+  "z-drug": [],
+  "z-substanz": [],
+  "zadaxin": [
+   {
+    "id": "CHEMBL2103979",
+    "parent": "CHEMBL2103979"
+   }
+  ],
+  "zagallo": [],
+  "zauberpilze": [],
+  "ze 440": [],
+  "zelluläre reprogrammierung": [],
+  "zembrin (standardisierter extrakt)": [],
+  "zenagamtide": [],
+  "zepbound": [
+   {
+    "id": "CHEMBL4297839",
+    "parent": "CHEMBL4297839"
+   }
+  ],
+  "zetia (usa)": [],
+  "zinc": [],
+  "zingiber officinale": [
+   {
+    "id": "CHEMBL2108465",
+    "parent": "CHEMBL2108465"
+   }
+  ],
+  "zingiberis rhizoma": [],
+  "zink": [],
+  "zink-bisglycinat": [],
+  "zink-bisglycinat / zinkpicolinat": [],
+  "zink-thymulin": [],
+  "zinkpicolinat": [],
+  "zopiclon": [],
+  "zopiclone": [
+   {
+    "id": "CHEMBL135400",
+    "parent": "CHEMBL135400"
+   }
+  ],
+  "zp8396": [
+   {
+    "id": "CHEMBL5314864",
+    "parent": "CHEMBL5314864"
+   }
+  ],
+  "zuckeralkohole": [],
+  "zuckeraustauschstoffe": [],
+  "zuckersäure": [],
+  "östradiol": [],
+  "β-alanin": [],
+  "β-glucan": [],
+  "β-hydroxy-β-methylbutyrat": [],
+  "β-hydroxy-β-methylbutyrate": [],
+  "β-lph": [],
+  "β-phenyl-gaba": [],
+  "β-phenylethylamin": [],
+  "γ-butyrobetain": [],
+  "δ9-thc": [],
+  "ладастен": [],
+  "ноопепт": [],
+  "фенибут": [],
+  "фенотропил": [],
+  "„botox aus der creme\"": [],
+  "„fenben“": [],
+  "„frog juice\" (begriff aus dem pferdesport)": [],
+  "„kuschelhormon\"": [],
+  "„longevity-vitamin\"": []
+ },
+ "stand": "2026-11-12",
+ "uniprot": {
+  "O14793": {
+   "gen": "MSTN",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Growth/differentiation factor 8"
+  },
+  "O43451": {
+   "gen": "MGAM",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Maltase-glucoamylase"
+  },
+  "O75762": {
+   "gen": "TRPA1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Transient receptor potential cation channel subfamily A member 1"
+  },
+  "O76074": {
+   "gen": "PDE5A",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase"
+  },
+  "P03372": {
+   "gen": "ESR1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Estrogen receptor"
+  },
+  "P04035": {
+   "gen": "HMGCR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "3-hydroxy-3-methylglutaryl-coenzyme A reductase"
+  },
+  "P04746": {
+   "gen": "AMY2A",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Pancreatic alpha-amylase"
+  },
+  "P06401": {
+   "gen": "PGR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Progesterone receptor"
+  },
+  "P07098": {
+   "gen": "LIPF",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Gastric triacylglycerol lipase"
+  },
+  "P07550": {
+   "gen": "ADRB2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Beta-2 adrenergic receptor"
+  },
+  "P10275": {
+   "gen": "AR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Androgen receptor"
+  },
+  "P10912": {
+   "gen": "GHR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Growth hormone receptor"
+  },
+  "P11473": {
+   "gen": "VDR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Vitamin D3 receptor"
+  },
+  "P11511": {
+   "gen": "CYP19A1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Aromatase"
+  },
+  "P14416": {
+   "gen": "DRD2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Dopamine receptor D2"
+  },
+  "P16233": {
+   "gen": "PNLIP",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Pancreatic triacylglycerol lipase"
+  },
+  "P21554": {
+   "gen": "CNR1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Cannabinoid receptor 1"
+  },
+  "P22303": {
+   "gen": "ACHE",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Acetylcholinesterase"
+  },
+  "P22888": {
+   "gen": "LHCGR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Lutropin-choriogonadotropic hormone receptor"
+  },
+  "P23945": {
+   "gen": "FSHR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Follicle-stimulating hormone receptor"
+  },
+  "P23975": {
+   "gen": "SLC6A2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Sodium-dependent noradrenaline transporter"
+  },
+  "P28223": {
+   "gen": "HTR2A",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "5-hydroxytryptamine receptor 2A"
+  },
+  "P28335": {
+   "gen": "HTR2C",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "5-hydroxytryptamine receptor 2C"
+  },
+  "P30556": {
+   "gen": "AGTR1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Type-1 angiotensin II receptor"
+  },
+  "P30559": {
+   "gen": "OXTR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Oxytocin receptor"
+  },
+  "P30968": {
+   "gen": "GNRHR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Gonadotropin-releasing hormone receptor"
+  },
+  "P31213": {
+   "gen": "SRD5A2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "3-oxo-5-alpha-steroid 4-dehydrogenase 2"
+  },
+  "P31639": {
+   "gen": "SLC5A2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Sodium/glucose cotransporter 2"
+  },
+  "P31645": {
+   "gen": "SLC6A4",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Sodium-dependent serotonin transporter"
+  },
+  "P32245": {
+   "gen": "MC4R",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Melanocortin receptor 4"
+  },
+  "P34981": {
+   "gen": "TRHR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Thyrotropin-releasing hormone receptor"
+  },
+  "P34995": {
+   "gen": "PTGER1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Prostaglandin E2 receptor EP1 subtype"
+  },
+  "P43116": {
+   "gen": "PTGER2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Prostaglandin E2 receptor EP2 subtype"
+  },
+  "P43220": {
+   "gen": "GLP1R",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Glucagon-like peptide 1 receptor"
+  },
+  "P43304": {
+   "gen": "GPD2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Glycerol-3-phosphate dehydrogenase, mitochondrial"
+  },
+  "P47871": {
+   "gen": "GCGR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Glucagon receptor"
+  },
+  "P48546": {
+   "gen": "GIPR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Gastric inhibitory polypeptide receptor"
+  },
+  "P53396": {
+   "gen": "ACLY",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "ATP-citrate synthase"
+  },
+  "P62942": {
+   "gen": "FKBP1A",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Peptidyl-prolyl cis-trans isomerase FKBP1A"
+  },
+  "Q01726": {
+   "gen": "MC1R",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Melanocyte-stimulating hormone receptor"
+  },
+  "Q01959": {
+   "gen": "SLC6A3",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Sodium-dependent dopamine transporter"
+  },
+  "Q02643": {
+   "gen": "GHRHR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Growth hormone-releasing hormone receptor"
+  },
+  "Q03181": {
+   "gen": "PPARD",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Peroxisome proliferator-activated receptor delta"
+  },
+  "Q03431": {
+   "gen": "PTH1R",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Parathyroid hormone/parathyroid hormone-related peptide receptor"
+  },
+  "Q13621": {
+   "gen": "SLC12A1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Solute carrier family 12 member 1"
+  },
+  "Q13705": {
+   "gen": "ACVR2B",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Activin receptor type-2B"
+  },
+  "Q7Z2W7": {
+   "gen": "TRPM8",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Transient receptor potential cation channel subfamily M member 8"
+  },
+  "Q92731": {
+   "gen": "ESR2",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Estrogen receptor beta"
+  },
+  "Q92847": {
+   "gen": "GHSR",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "Growth hormone secretagogue receptor type 1"
+  },
+  "Q9UHC9": {
+   "gen": "NPC1L1",
+   "geprueft": true,
+   "organismus": "Homo sapiens",
+   "protein": "NPC1-like intracellular cholesterol transporter 1"
+  }
+ },
+ "zuordnung": {
+  "5-htp": {
+   "nur_nebenname": [
+    "CHEMBL350221"
+   ]
+  },
+  "abaloparatid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3301581",
+   "name": "ABALOPARATIDE",
+   "zeilen": [
+    {
+     "gen": "PTH1R",
+     "moa": "Parathyroid hormone receptor agonist",
+     "protein": "Parathyroid hormone/parathyroid hormone-related peptide receptor",
+     "target_chembl": null,
+     "uniprot": "Q03431",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "acarbose": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL404271",
+   "name": "ACARBOSE",
+   "zeilen": [
+    {
+     "gen": "AMY2A",
+     "moa": "Pancreatic alpha-amylase inhibitor",
+     "protein": "Pancreatic alpha-amylase",
+     "target_chembl": null,
+     "uniprot": "P04746",
+     "wirkart": "INHIBITOR"
+    },
+    {
+     "gen": "MGAM",
+     "moa": "Maltase-glucoamylase inhibitor",
+     "protein": "Maltase-glucoamylase",
+     "target_chembl": null,
+     "uniprot": "O43451",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "ace-031": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108674",
+   "name": "RAMATERCEPT",
+   "zeilen": [
+    {
+     "gen": "MSTN",
+     "moa": "Growth/differentiation factor 8 inhibitor",
+     "protein": "Growth/differentiation factor 8",
+     "target_chembl": null,
+     "uniprot": "O14793",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "acetyl-l-carnitin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1697733",
+   "name": "ACETYLCARNITINE",
+   "zeilen": []
+  },
+  "acth": {
+   "mehrdeutig": [
+    "CHEMBL1201610",
+    "CHEMBL2103784"
+   ]
+  },
+  "aktivkohle": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2106049",
+   "name": "CHARCOAL, ACTIVATED",
+   "zeilen": []
+  },
+  "alpha-liponsaeure": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL33864",
+   "name": "LIPOIC ACID, ALPHA",
+   "zeilen": []
+  },
+  "alprostadil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL495",
+   "name": "ALPROSTADIL",
+   "zeilen": [
+    {
+     "gen": "PTGER1",
+     "moa": "Prostanoid EP1 receptor agonist",
+     "protein": "Prostaglandin E2 receptor EP1 subtype",
+     "target_chembl": null,
+     "uniprot": "P34995",
+     "wirkart": "AGONIST"
+    },
+    {
+     "gen": "PTGER2",
+     "moa": "Prostanoid EP2 receptor agonist",
+     "protein": "Prostaglandin E2 receptor EP2 subtype",
+     "target_chembl": null,
+     "uniprot": "P43116",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "aminosaeuren": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201498",
+   "name": "AMINO ACIDS",
+   "zeilen": []
+  },
+  "anabole-steroide": {
+   "nur_nebenname": [
+    "CHEMBL2079587"
+   ]
+  },
+  "anastrozol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1399",
+   "name": "ANASTROZOLE",
+   "zeilen": [
+    {
+     "gen": "CYP19A1",
+     "moa": "Cytochrome P450 19A1 inhibitor",
+     "protein": "Aromatase",
+     "target_chembl": null,
+     "uniprot": "P11511",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "aod-9604": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL6068615",
+   "name": "LAT-8881",
+   "zeilen": []
+  },
+  "apigenin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL28",
+   "name": "APIGENIN",
+   "zeilen": []
+  },
+  "ara-290": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3545305",
+   "name": "CIBINETIDE",
+   "zeilen": []
+  },
+  "arjuna": {
+   "nur_nebenname": [
+    "CHEMBL256087"
+   ]
+  },
+  "armodafinil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201192",
+   "name": "ARMODAFINIL",
+   "zeilen": [
+    {
+     "gen": "SLC6A3",
+     "moa": "Dopamine transporter inhibitor",
+     "protein": "Sodium-dependent dopamine transporter",
+     "target_chembl": null,
+     "uniprot": "Q01959",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "ashwagandha": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4288984",
+   "name": "WITHANOLIDE D",
+   "zeilen": []
+  },
+  "astaxanthin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1255871",
+   "name": "ASTAXANTHIN",
+   "zeilen": []
+  },
+  "avanafil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1963681",
+   "name": "AVANAFIL",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "baikal-helmkraut": {
+   "mehrdeutig": [
+    "CHEMBL485818",
+    "CHEMBL8260"
+   ]
+  },
+  "baldrian": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108165",
+   "name": "VALERIAN",
+   "zeilen": []
+  },
+  "bempedoinsaeure": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3545313",
+   "name": "BEMPEDOIC ACID",
+   "zeilen": [
+    {
+     "gen": "ACLY",
+     "moa": "ATP-citrate synthase inhibitor",
+     "protein": "ATP-citrate synthase",
+     "target_chembl": null,
+     "uniprot": "P53396",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "benfotiamin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4303665",
+   "name": "BENFOTIAMINE",
+   "zeilen": []
+  },
+  "berberin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL295124",
+   "name": "BERBERINE",
+   "zeilen": []
+  },
+  "beta-alanin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL297569",
+   "name": "BETA-ALANINE",
+   "zeilen": []
+  },
+  "beta-glucan": {
+   "nur_nebenname": [
+    "CHEMBL2108209"
+   ]
+  },
+  "betain-hcl": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL95889",
+   "name": "BETAINE",
+   "zeilen": []
+  },
+  "bimagrumab": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3137353",
+   "name": "BIMAGRUMAB",
+   "zeilen": [
+    {
+     "gen": "ACVR2B",
+     "moa": "Activin receptor type-2B antagonist",
+     "protein": "Activin receptor type-2B",
+     "target_chembl": null,
+     "uniprot": "Q13705",
+     "wirkart": "ANTAGONIST"
+    }
+   ]
+  },
+  "biotin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL857",
+   "name": "BIOTIN",
+   "zeilen": []
+  },
+  "boldenon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2106059",
+   "name": "BOLDENONE UNDECYLENATE",
+   "zeilen": []
+  },
+  "boswellia": {
+   "nur_nebenname": [
+    "CHEMBL237111"
+   ]
+  },
+  "bpc-157": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4297358",
+   "name": "BPC-157",
+   "zeilen": []
+  },
+  "bromelain": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2109027",
+   "name": "BROMELAINS",
+   "zeilen": []
+  },
+  "cabergolin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201087",
+   "name": "CABERGOLINE",
+   "zeilen": [
+    {
+     "gen": "DRD2",
+     "moa": "Dopamine D2 receptor agonist",
+     "protein": "Dopamine receptor D2",
+     "target_chembl": null,
+     "uniprot": "P14416",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "cagrilintide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4802169",
+   "name": "CAGRILINTIDE",
+   "zeilen": []
+  },
+  "calcium-d-glucarat": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2104217",
+   "name": "CALCIUM SACCHARATE",
+   "zeilen": []
+  },
+  "canagliflozin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2048484",
+   "name": "CANAGLIFLOZIN ANHYDROUS",
+   "zeilen": [
+    {
+     "gen": "SLC5A2",
+     "moa": "Sodium/glucose cotransporter 2 inhibitor",
+     "protein": "Sodium/glucose cotransporter 2",
+     "target_chembl": null,
+     "uniprot": "P31639",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "cannabis-thc": {
+   "mehrdeutig": [
+    "CHEMBL3833333",
+    "CHEMBL465"
+   ]
+  },
+  "cardarine": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL38943",
+   "name": "GW501516",
+   "zeilen": [
+    {
+     "gen": "PPARD",
+     "moa": "Peroxisome proliferator-activated receptor delta agonist",
+     "protein": "Peroxisome proliferator-activated receptor delta",
+     "target_chembl": null,
+     "uniprot": "Q03181",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "cbd": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL190461",
+   "name": "CANNABIDIOL",
+   "zeilen": [
+    {
+     "gen": "CNR1",
+     "moa": "Cannabinoid CB1 receptor negative allosteric modulator",
+     "protein": "Cannabinoid receptor 1",
+     "target_chembl": null,
+     "uniprot": "P21554",
+     "wirkart": "NEGATIVE ALLOSTERIC MODULATOR"
+    }
+   ]
+  },
+  "cbn": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL74415",
+   "name": "CANNABINOL",
+   "zeilen": []
+  },
+  "chrom": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201228",
+   "name": "CHROMIUM",
+   "zeilen": []
+  },
+  "citicolin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1231700",
+   "name": "CITICOLINE",
+   "zeilen": []
+  },
+  "citrullin": {
+   "mehrdeutig": [
+    "CHEMBL1455497",
+    "CHEMBL444814"
+   ]
+  },
+  "clascoteron": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3590187",
+   "name": "CLASCOTERONE",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor antagonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "ANTAGONIST"
+    }
+   ]
+  },
+  "clenbuterol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL49080",
+   "name": "CLENBUTEROL",
+   "zeilen": [
+    {
+     "gen": "ADRB2",
+     "moa": "Beta-2 adrenergic receptor agonist",
+     "protein": "Beta-2 adrenergic receptor",
+     "target_chembl": null,
+     "uniprot": "P07550",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "clomifen": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2355051",
+   "name": "CLOMIPHENE",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha modulator",
+     "protein": "Estrogen receptor",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR"
+    }
+   ]
+  },
+  "colchicin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL107",
+   "name": "COLCHICINE",
+   "zeilen": []
+  },
+  "coq10": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL454801",
+   "name": "UBIDECARENONE",
+   "zeilen": []
+  },
+  "d-ribose": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1159662",
+   "name": "RIBOSE (PYRANOSE)",
+   "zeilen": []
+  },
+  "dapoxetin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2110900",
+   "name": "DAPOXETINE",
+   "zeilen": [
+    {
+     "gen": "SLC6A4",
+     "moa": "Serotonin transporter inhibitor",
+     "protein": "Sodium-dependent serotonin transporter",
+     "target_chembl": null,
+     "uniprot": "P31645",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "dhea": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL90593",
+   "name": "PRASTERONE",
+   "zeilen": []
+  },
+  "dihydromyricetin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3348861",
+   "name": "AMPELOPSIN",
+   "zeilen": []
+  },
+  "dim": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL446452",
+   "name": "ARUNDINE",
+   "zeilen": []
+  },
+  "diosmin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL231884",
+   "name": "DIOSMIN",
+   "zeilen": []
+  },
+  "dmso": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL504",
+   "name": "DIMETHYL SULFOXIDE",
+   "zeilen": []
+  },
+  "drostanolon": {
+   "mehrdeutig": [
+    "CHEMBL1201048",
+    "CHEMBL1582"
+   ]
+  },
+  "dutasterid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1200969",
+   "name": "DUTASTERIDE",
+   "zeilen": []
+  },
+  "ecnoglutid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5095115",
+   "name": "ECNOGLUTIDE",
+   "zeilen": []
+  },
+  "egcg": {
+   "nur_nebenname": [
+    "CHEMBL1201723"
+   ]
+  },
+  "elektrolyte": {
+   "nur_nebenname": [
+    "CHEMBL1201230"
+   ]
+  },
+  "eloralintid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL6068462",
+   "name": "ELORALINTIDE",
+   "zeilen": []
+  },
+  "enclomiphene": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL954",
+   "name": "ENCLOMIPHENE",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha modulator",
+     "protein": "Estrogen receptor",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR"
+    }
+   ]
+  },
+  "epo": {
+   "mehrdeutig": [
+    "CHEMBL1201565",
+    "CHEMBL1201566",
+    "CHEMBL2108593",
+    "CHEMBL2109092"
+   ]
+  },
+  "erythrit-xylit": {
+   "nur_nebenname": [
+    "CHEMBL96783"
+   ]
+  },
+  "estradiol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL135",
+   "name": "ESTRADIOL",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha agonist",
+     "protein": "Estrogen receptor",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "exemestan": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1200374",
+   "name": "EXEMESTANE",
+   "zeilen": [
+    {
+     "gen": "CYP19A1",
+     "moa": "Cytochrome P450 19A1 inhibitor",
+     "protein": "Aromatase",
+     "target_chembl": null,
+     "uniprot": "P11511",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "ezetimib": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1138",
+   "name": "EZETIMIBE",
+   "zeilen": [
+    {
+     "gen": "NPC1L1",
+     "moa": "Niemann-Pick C1-like protein 1 inhibitor",
+     "protein": "NPC1-like intracellular cholesterol transporter 1",
+     "target_chembl": null,
+     "uniprot": "Q9UHC9",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "fenbendazol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL37161",
+   "name": "FENBENDAZOLE",
+   "zeilen": []
+  },
+  "fettweg-spritzen": {
+   "nur_nebenname": [
+    "CHEMBL406393"
+   ]
+  },
+  "finasterid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL710",
+   "name": "FINASTERIDE",
+   "zeilen": [
+    {
+     "gen": "SRD5A2",
+     "moa": "Steroid 5-alpha-reductase 2 inhibitor",
+     "protein": "3-oxo-5-alpha-steroid 4-dehydrogenase 2",
+     "target_chembl": null,
+     "uniprot": "P31213",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "fisetin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL31574",
+   "name": "FISETIN",
+   "zeilen": []
+  },
+  "flohsamenschalen": {
+   "mehrdeutig": [
+    "CHEMBL2108126",
+    "CHEMBL2108130"
+   ]
+  },
+  "fluoxymesteron": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1445",
+   "name": "FLUOXYMESTERONE",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "follistatin": {
+   "nur_nebenname": [
+    "CHEMBL2108674"
+   ]
+  },
+  "forskolin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL52606",
+   "name": "COLFORSIN",
+   "zeilen": []
+  },
+  "ghrp-2": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL106593",
+   "name": "PRALMORELIN",
+   "zeilen": []
+  },
+  "ginkgo": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108466",
+   "name": "GINKGO",
+   "zeilen": []
+  },
+  "ginseng": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108467",
+   "name": "GINSENG, ASIAN",
+   "zeilen": []
+  },
+  "glucosamin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL493287",
+   "name": "GLUCOSAMINE",
+   "zeilen": []
+  },
+  "glutamin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL930",
+   "name": "GLUTAMINE",
+   "zeilen": []
+  },
+  "glutathion": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1543",
+   "name": "GLUTATHIONE",
+   "zeilen": []
+  },
+  "glycin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL773",
+   "name": "GLYCINE",
+   "zeilen": []
+  },
+  "gonadorelin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1007",
+   "name": "GONADORELIN",
+   "zeilen": [
+    {
+     "gen": "GNRHR",
+     "moa": "Gonadotropin-releasing hormone receptor agonist",
+     "protein": "Gonadotropin-releasing hormone receptor",
+     "target_chembl": null,
+     "uniprot": "P30968",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "gotu-kola": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5095437",
+   "name": "CENTELLA ASIATICA EXTRACT",
+   "zeilen": []
+  },
+  "gw-0742": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL38508",
+   "name": "CHEMBL38508",
+   "zeilen": []
+  },
+  "hcg": {
+   "mehrdeutig": [
+    "CHEMBL1201464",
+    "CHEMBL1201509"
+   ]
+  },
+  "hexarelin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL108335",
+   "name": "EXAMORELIN",
+   "zeilen": []
+  },
+  "hgh": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201621",
+   "name": "SOMATROPIN",
+   "zeilen": [
+    {
+     "gen": "GHR",
+     "moa": "Growth hormone receptor agonist",
+     "protein": "Growth hormone receptor",
+     "target_chembl": null,
+     "uniprot": "P10912",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "hmb": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4525124",
+   "name": "HMB",
+   "zeilen": []
+  },
+  "hmg": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108427",
+   "name": "MENOTROPINS",
+   "zeilen": [
+    {
+     "gen": "LHCGR",
+     "moa": "Luteinizing hormone/Choriogonadotropin receptor agonist",
+     "protein": "Lutropin-choriogonadotropic hormone receptor",
+     "target_chembl": null,
+     "uniprot": "P22888",
+     "wirkart": "AGONIST"
+    },
+    {
+     "gen": "FSHR",
+     "moa": "Follicle stimulating hormone receptor agonist",
+     "protein": "Follicle-stimulating hormone receptor",
+     "target_chembl": null,
+     "uniprot": "P23945",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "huperzin-a": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL395280",
+   "name": "HUPERZINE A",
+   "zeilen": [
+    {
+     "gen": "ACHE",
+     "moa": "Acetylcholinesterase inhibitor",
+     "protein": "Acetylcholinesterase",
+     "target_chembl": null,
+     "uniprot": "P22303",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "hyaluronsaeure": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5314376",
+   "name": "HYALURONIC ACID",
+   "zeilen": []
+  },
+  "hydroxytyrosol": {
+   "nur_nebenname": [
+    "CHEMBL1911053"
+   ]
+  },
+  "ibogain": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL222287",
+   "name": "IBOGAINE",
+   "zeilen": []
+  },
+  "ingwer": {
+   "mehrdeutig": [
+    "CHEMBL2108465",
+    "CHEMBL402978"
+   ]
+  },
+  "inositol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1222251",
+   "name": "INOSITOL",
+   "zeilen": []
+  },
+  "isotretinoin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL547",
+   "name": "ISOTRETINOIN",
+   "zeilen": []
+  },
+  "ivermectin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL6067487",
+   "name": "IVERMECTIN",
+   "zeilen": []
+  },
+  "jod": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201225",
+   "name": "IODINE",
+   "zeilen": []
+  },
+  "kakaoflavanole": {
+   "nur_nebenname": [
+    "CHEMBL583912"
+   ]
+  },
+  "kalium": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201290",
+   "name": "POTASSIUM",
+   "zeilen": []
+  },
+  "kalzium": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1200496",
+   "name": "CALCIUM",
+   "zeilen": []
+  },
+  "ketamin": {
+   "mehrdeutig": [
+    "CHEMBL395091",
+    "CHEMBL742"
+   ]
+  },
+  "ketoconazol": {
+   "nur_nebenname": [
+    "CHEMBL157101"
+   ]
+  },
+  "kisspeptin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL376756",
+   "name": "KISSPEPTIN-10",
+   "zeilen": []
+  },
+  "koffein": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL113",
+   "name": "CAFFEINE",
+   "zeilen": []
+  },
+  "kupfer": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL55643",
+   "name": "COPPER",
+   "zeilen": []
+  },
+  "kurkuma": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL140",
+   "name": "CURCUMIN",
+   "zeilen": []
+  },
+  "l-arginin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1485",
+   "name": "ARGININE",
+   "zeilen": []
+  },
+  "l-theanin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3039113",
+   "name": "THEANINE",
+   "zeilen": []
+  },
+  "l-tryptophan": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL54976",
+   "name": "TRYPTOPHAN",
+   "zeilen": []
+  },
+  "larazotide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2105646",
+   "name": "LARAZOTIDE",
+   "zeilen": []
+  },
+  "lavendeloel": {
+   "nur_nebenname": [
+    "CHEMBL25306"
+   ]
+  },
+  "letrozol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1444",
+   "name": "LETROZOLE",
+   "zeilen": [
+    {
+     "gen": "CYP19A1",
+     "moa": "Cytochrome P450 19A1 inhibitor",
+     "protein": "Aromatase",
+     "target_chembl": null,
+     "uniprot": "P11511",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "leucin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL291962",
+   "name": "LEUCINE",
+   "zeilen": []
+  },
+  "levothyroxin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1624",
+   "name": "LEVOTHYROXINE",
+   "zeilen": []
+  },
+  "ligandrol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5170587",
+   "name": "VK5211",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor modulator",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "MODULATOR"
+    }
+   ]
+  },
+  "liothyronin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1544",
+   "name": "LIOTHYRONINE",
+   "zeilen": []
+  },
+  "liraglutid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4084119",
+   "name": "LIRAGLUTIDE",
+   "zeilen": [
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "protein": "Glucagon-like peptide 1 receptor",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "lsd-microdosing": {
+   "nur_nebenname": [
+    "CHEMBL263881"
+   ]
+  },
+  "luteolin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL151",
+   "name": "LUTEOLIN",
+   "zeilen": []
+  },
+  "magnesium": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201230",
+   "name": "MAGNESIUM",
+   "zeilen": []
+  },
+  "mariendistel": {
+   "mehrdeutig": [
+    "CHEMBL2108623",
+    "CHEMBL4630684",
+    "CHEMBL9509"
+   ]
+  },
+  "maritide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5314751",
+   "name": "MARIDEBART CAFRAGLUTIDE",
+   "zeilen": []
+  },
+  "mazdutide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5095358",
+   "name": "MAZDUTIDE",
+   "zeilen": []
+  },
+  "mdma-therapie": {
+   "nur_nebenname": [
+    "CHEMBL43048"
+   ]
+  },
+  "melanotan-1": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL441738",
+   "name": "AFAMELANOTIDE",
+   "zeilen": [
+    {
+     "gen": "MC1R",
+     "moa": "Melanocortin receptor 1 agonist",
+     "protein": "Melanocyte-stimulating hormone receptor",
+     "target_chembl": null,
+     "uniprot": "Q01726",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "melatonin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL45",
+   "name": "MELATONIN",
+   "zeilen": []
+  },
+  "mesterolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL258918",
+   "name": "MESTEROLONE",
+   "zeilen": []
+  },
+  "metenolon": {
+   "nur_nebenname": [
+    "CHEMBL2106949"
+   ]
+  },
+  "metformin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1431",
+   "name": "METFORMIN",
+   "zeilen": [
+    {
+     "gen": "GPD2",
+     "moa": "Mitochondrial glycerol-3-phosphate dehydrogenase inhibitor",
+     "protein": "Glycerol-3-phosphate dehydrogenase, mitochondrial",
+     "target_chembl": null,
+     "uniprot": "P43304",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "methandrostenolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1418176",
+   "name": "METHANDROSTENOLONE",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "methylene-blue": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL191083",
+   "name": "METHYLENE BLUE CATION",
+   "zeilen": []
+  },
+  "methylfolat": {
+   "nur_nebenname": [
+    "CHEMBL1231574"
+   ]
+  },
+  "methyltrienolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL166444",
+   "name": "METRIBOLONE",
+   "zeilen": []
+  },
+  "minoxidil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL802",
+   "name": "MINOXIDIL",
+   "zeilen": []
+  },
+  "mk-677": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL13817",
+   "name": "IBUTAMOREN",
+   "zeilen": [
+    {
+     "gen": "GHSR",
+     "moa": "Ghrelin receptor agonist",
+     "protein": "Growth hormone secretagogue receptor type 1",
+     "target_chembl": null,
+     "uniprot": "Q92847",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "modafinil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1373",
+   "name": "MODAFINIL",
+   "zeilen": [
+    {
+     "gen": "SLC6A3",
+     "moa": "Dopamine transporter inhibitor",
+     "protein": "Sodium-dependent dopamine transporter",
+     "target_chembl": null,
+     "uniprot": "Q01959",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "monolaurin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL6068618",
+   "name": "GLYCERYL LAURATE",
+   "zeilen": []
+  },
+  "msm": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL25028",
+   "name": "DIMETHYL SULFONE",
+   "zeilen": []
+  },
+  "nandrolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1200946",
+   "name": "NANDROLONE DECANOATE",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "natriumbutyrat": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL62381",
+   "name": "SODIUM BUTYRATE",
+   "zeilen": []
+  },
+  "niacin": {
+   "mehrdeutig": [
+    "CHEMBL1140",
+    "CHEMBL573"
+   ]
+  },
+  "nicotinamid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1140",
+   "name": "NIACINAMIDE",
+   "zeilen": []
+  },
+  "nicotinamid-ribosid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL438497",
+   "name": "NICOTINAMIDE RIBOSIDE",
+   "zeilen": []
+  },
+  "ochsengalle": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2107920",
+   "name": "OX BILE",
+   "zeilen": []
+  },
+  "omega-3": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4298065",
+   "name": "OMEGA-3 FATTY ACIDS",
+   "zeilen": []
+  },
+  "opc": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2109208",
+   "name": "MARITIME PINE",
+   "zeilen": []
+  },
+  "orexin-antagonisten": {
+   "mehrdeutig": [
+    "CHEMBL1083659",
+    "CHEMBL3545367",
+    "CHEMBL4297590"
+   ]
+  },
+  "orforglipron": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4446782",
+   "name": "ORFORGLIPRON",
+   "zeilen": []
+  },
+  "orlistat": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL175247",
+   "name": "ORLISTAT",
+   "zeilen": [
+    {
+     "gen": "LIPF",
+     "moa": "Gastric lipase inhibitor",
+     "protein": "Gastric triacylglycerol lipase",
+     "target_chembl": null,
+     "uniprot": "P07098",
+     "wirkart": "INHIBITOR"
+    },
+    {
+     "gen": "PNLIP",
+     "moa": "Pancreatic lipase inhibitor",
+     "protein": "Pancreatic triacylglycerol lipase",
+     "target_chembl": null,
+     "uniprot": "P16233",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "ostarin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1738889",
+   "name": "ENOBOSARM",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor modulator",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "MODULATOR"
+    }
+   ]
+  },
+  "oxandrolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1200436",
+   "name": "OXANDROLONE",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "oxymetholon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1200585",
+   "name": "OXYMETHOLONE",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "oxytocin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL395429",
+   "name": "OXYTOCIN",
+   "zeilen": [
+    {
+     "gen": "OXTR",
+     "moa": "Oxytocin receptor agonist",
+     "protein": "Oxytocin receptor",
+     "target_chembl": null,
+     "uniprot": "P30559",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "pemvidutid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5095142",
+   "name": "PEMVIDUTIDE",
+   "zeilen": []
+  },
+  "petrelintid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5314864",
+   "name": "PETRELINTIDE",
+   "zeilen": []
+  },
+  "phenibut": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL315818",
+   "name": "PHENIBUT",
+   "zeilen": []
+  },
+  "phosphatidylcholin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL503481",
+   "name": "PHOSPHATIDYLCHOLINE",
+   "zeilen": []
+  },
+  "phosphatidylserin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4297669",
+   "name": "PHOSPHATIDYL SERINE",
+   "zeilen": []
+  },
+  "praebiotika": {
+   "nur_nebenname": [
+    "CHEMBL1201646"
+   ]
+  },
+  "pregnenolon": {
+   "mehrdeutig": [
+    "CHEMBL2105373",
+    "CHEMBL253363"
+   ]
+  },
+  "progesteron": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL103",
+   "name": "PROGESTERONE",
+   "zeilen": [
+    {
+     "gen": "PGR",
+     "moa": "Progesterone receptor agonist",
+     "protein": "Progesterone receptor",
+     "target_chembl": null,
+     "uniprot": "P06401",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "psilocybin": {
+   "mehrdeutig": [
+    "CHEMBL194378",
+    "CHEMBL65547"
+   ]
+  },
+  "pt-141": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2070241",
+   "name": "BREMELANOTIDE",
+   "zeilen": [
+    {
+     "gen": "MC4R",
+     "moa": "Melanocortin receptor 4 agonist",
+     "protein": "Melanocortin receptor 4",
+     "target_chembl": null,
+     "uniprot": "P32245",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "pterostilben": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL83527",
+   "name": "PTEROSTILBENE",
+   "zeilen": []
+  },
+  "quercetin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL50",
+   "name": "QUERCETIN",
+   "zeilen": []
+  },
+  "rad140": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1672635",
+   "name": "RAD-140",
+   "zeilen": []
+  },
+  "raloxifen": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL81",
+   "name": "RALOXIFENE",
+   "zeilen": [
+    {
+     "gen": "ESR2",
+     "moa": "Estrogen receptor beta modulator",
+     "protein": "Estrogen receptor beta",
+     "target_chembl": null,
+     "uniprot": "Q92731",
+     "wirkart": "MODULATOR"
+    },
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor modulator",
+     "protein": "Estrogen receptor",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR"
+    }
+   ]
+  },
+  "rapamycin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL413",
+   "name": "SIROLIMUS",
+   "zeilen": [
+    {
+     "gen": "FKBP1A",
+     "moa": "FK506-binding protein 1A inhibitor",
+     "protein": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+     "target_chembl": null,
+     "uniprot": "P62942",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "resveratrol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL165",
+   "name": "RESVERATROL",
+   "zeilen": []
+  },
+  "retatrutide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5095485",
+   "name": "RETATRUTIDE",
+   "zeilen": [
+    {
+     "gen": "GCGR",
+     "moa": "Glucagon receptor agonist",
+     "protein": "Glucagon receptor",
+     "target_chembl": null,
+     "uniprot": "P47871",
+     "wirkart": "AGONIST"
+    },
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "protein": "Glucagon-like peptide 1 receptor",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST"
+    },
+    {
+     "gen": "GIPR",
+     "moa": "Gastric inhibitory polypeptide receptor agonist",
+     "protein": "Gastric inhibitory polypeptide receptor",
+     "target_chembl": null,
+     "uniprot": "P48546",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "rotschimmelreis": {
+   "nur_nebenname": [
+    "CHEMBL503"
+   ]
+  },
+  "ru58841": {
+   "nur_nebenname": [
+    "CHEMBL9337"
+   ]
+  },
+  "saegepalme": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108769",
+   "name": "SAW PALMETTO",
+   "zeilen": []
+  },
+  "salbutamol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL714",
+   "name": "ALBUTEROL",
+   "zeilen": [
+    {
+     "gen": "ADRB2",
+     "moa": "Beta-2 adrenergic receptor agonist",
+     "protein": "Beta-2 adrenergic receptor",
+     "target_chembl": null,
+     "uniprot": "P07550",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "sam-e": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1088977",
+   "name": "ADEMETIONINE",
+   "zeilen": []
+  },
+  "selen": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL6068503",
+   "name": "SELENIUM",
+   "zeilen": []
+  },
+  "semaglutide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108724",
+   "name": "SEMAGLUTIDE",
+   "zeilen": [
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "protein": "Glucagon-like peptide 1 receptor",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "sermorelin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201490",
+   "name": "SERMORELIN ACETATE",
+   "zeilen": [
+    {
+     "gen": "GHRHR",
+     "moa": "Growth hormone-releasing hormone receptor agonist",
+     "protein": "Growth hormone-releasing hormone receptor",
+     "target_chembl": null,
+     "uniprot": "Q02643",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "serrapeptase": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108880",
+   "name": "SERRAPEPTASE",
+   "zeilen": []
+  },
+  "sglt2-hemmer": {
+   "mehrdeutig": [
+    "CHEMBL2107830",
+    "CHEMBL429910"
+   ]
+  },
+  "shiitake": {
+   "nur_nebenname": [
+    "CHEMBL2108209"
+   ]
+  },
+  "sildenafil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL192",
+   "name": "SILDENAFIL",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "sobetirom": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL107400",
+   "name": "SOBETIROME",
+   "zeilen": []
+  },
+  "spermidin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL19612",
+   "name": "SPERMIDINE",
+   "zeilen": []
+  },
+  "ss-31": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3833370",
+   "name": "ELAMIPRETIDE",
+   "zeilen": []
+  },
+  "stanozolol": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2079587",
+   "name": "STANOZOLOL",
+   "zeilen": [
+    {
+     "gen": "AR",
+     "moa": "Androgen Receptor agonist",
+     "protein": "Androgen receptor",
+     "target_chembl": null,
+     "uniprot": "P10275",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "statine": {
+   "mehrdeutig": [
+    "CHEMBL1064",
+    "CHEMBL1487",
+    "CHEMBL1496"
+   ]
+  },
+  "stenabolic": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1961796",
+   "name": "SR9009",
+   "zeilen": []
+  },
+  "sulbutiamin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1874002",
+   "name": "SULBUTIAMINE",
+   "zeilen": []
+  },
+  "sulforaphan": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL48802",
+   "name": "SULFORAPHANE",
+   "zeilen": []
+  },
+  "survodutide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5314776",
+   "name": "SURVODUTIDE",
+   "zeilen": [
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "protein": "Glucagon-like peptide 1 receptor",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST"
+    },
+    {
+     "gen": "GCGR",
+     "moa": "Glucagon receptor agonist",
+     "protein": "Glucagon receptor",
+     "target_chembl": null,
+     "uniprot": "P47871",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "synephrin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL33720",
+   "name": "OXEDRINE",
+   "zeilen": []
+  },
+  "tadalafil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL779",
+   "name": "TADALAFIL",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "tamoxifen": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL83",
+   "name": "TAMOXIFEN",
+   "zeilen": [
+    {
+     "gen": "ESR1",
+     "moa": "Estrogen receptor alpha modulator",
+     "protein": "Estrogen receptor",
+     "target_chembl": null,
+     "uniprot": "P03372",
+     "wirkart": "MODULATOR"
+    }
+   ]
+  },
+  "taurin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL239243",
+   "name": "TAURINE",
+   "zeilen": []
+  },
+  "telmisartan": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1017",
+   "name": "TELMISARTAN",
+   "zeilen": [
+    {
+     "gen": "AGTR1",
+     "moa": "Type-1 angiotensin II receptor antagonist",
+     "protein": "Type-1 angiotensin II receptor",
+     "target_chembl": null,
+     "uniprot": "P30556",
+     "wirkart": "ANTAGONIST"
+    }
+   ]
+  },
+  "teriparatid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL525610",
+   "name": "TERIPARATIDE",
+   "zeilen": [
+    {
+     "gen": "PTH1R",
+     "moa": "Parathyroid hormone receptor agonist",
+     "protein": "Parathyroid hormone/parathyroid hormone-related peptide receptor",
+     "target_chembl": null,
+     "uniprot": "Q03431",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "tesamorelin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1237026",
+   "name": "TESAMORELIN",
+   "zeilen": [
+    {
+     "gen": "GHRHR",
+     "moa": "Growth hormone-releasing hormone receptor agonist",
+     "protein": "Growth hormone-releasing hormone receptor",
+     "target_chembl": null,
+     "uniprot": "Q02643",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "tesofensin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL3989690",
+   "name": "TESOFENSINE",
+   "zeilen": []
+  },
+  "thymosin-alpha-1": {
+   "nur_nebenname": [
+    "CHEMBL2103979"
+   ]
+  },
+  "thymulin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2106455",
+   "name": "NONATHYMULIN",
+   "zeilen": []
+  },
+  "tirzepatide": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL4297839",
+   "name": "TIRZEPATIDE",
+   "zeilen": [
+    {
+     "gen": "GIPR",
+     "moa": "Gastric inhibitory polypeptide receptor agonist",
+     "protein": "Gastric inhibitory polypeptide receptor",
+     "target_chembl": null,
+     "uniprot": "P48546",
+     "wirkart": "AGONIST"
+    },
+    {
+     "gen": "GLP1R",
+     "moa": "Glucagon-like peptide 1 receptor agonist",
+     "protein": "Glucagon-like peptide 1 receptor",
+     "target_chembl": null,
+     "uniprot": "P43220",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "torasemid": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1148",
+   "name": "TORSEMIDE",
+   "zeilen": [
+    {
+     "gen": "SLC12A1",
+     "moa": "Sodium-(potassium)-chloride cotransporter 2 inhibitor",
+     "protein": "Solute carrier family 12 member 1",
+     "target_chembl": null,
+     "uniprot": "Q13621",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "tp508": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2111105",
+   "name": "RUSALATIDE",
+   "zeilen": []
+  },
+  "trazodon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL621",
+   "name": "TRAZODONE",
+   "zeilen": [
+    {
+     "gen": "SLC6A4",
+     "moa": "Serotonin transporter inhibitor",
+     "protein": "Sodium-dependent serotonin transporter",
+     "target_chembl": null,
+     "uniprot": "P31645",
+     "wirkart": "INHIBITOR"
+    },
+    {
+     "gen": "HTR2A",
+     "moa": "Serotonin 2a (5-HT2a) receptor antagonist",
+     "protein": "5-hydroxytryptamine receptor 2A",
+     "target_chembl": null,
+     "uniprot": "P28223",
+     "wirkart": "ANTAGONIST"
+    },
+    {
+     "gen": "HTR2C",
+     "moa": "Serotonin 2c (5-HT2c) receptor antagonist",
+     "protein": "5-hydroxytryptamine receptor 2C",
+     "target_chembl": null,
+     "uniprot": "P28335",
+     "wirkart": "ANTAGONIST"
+    }
+   ]
+  },
+  "trenbolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1698011",
+   "name": "TRENBOLONE ACETATE",
+   "zeilen": []
+  },
+  "trestolon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL452329",
+   "name": "TRESTOLONE ACETATE",
+   "zeilen": []
+  },
+  "tretinoin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL38",
+   "name": "TRETINOIN",
+   "zeilen": []
+  },
+  "trh": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1472",
+   "name": "PROTIRELIN",
+   "zeilen": [
+    {
+     "gen": "TRHR",
+     "moa": "Thyrotropin-releasing hormone receptor agonist",
+     "protein": "Thyrotropin-releasing hormone receptor",
+     "target_chembl": null,
+     "uniprot": "P34981",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "triptorelin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1201334",
+   "name": "TRIPTORELIN",
+   "zeilen": [
+    {
+     "gen": "GNRHR",
+     "moa": "Gonadotropin-releasing hormone receptor agonist",
+     "protein": "Gonadotropin-releasing hormone receptor",
+     "target_chembl": null,
+     "uniprot": "P30968",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "tudca": {
+   "nur_nebenname": [
+    "CHEMBL272427"
+   ]
+  },
+  "tyrosin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL925",
+   "name": "TYROSINE",
+   "zeilen": []
+  },
+  "uridin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL100259",
+   "name": "URIDINE",
+   "zeilen": []
+  },
+  "vardenafil": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1520",
+   "name": "VARDENAFIL",
+   "zeilen": [
+    {
+     "gen": "PDE5A",
+     "moa": "Phosphodiesterase 5A inhibitor",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "target_chembl": null,
+     "uniprot": "O76074",
+     "wirkart": "INHIBITOR"
+    }
+   ]
+  },
+  "vinpocetin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL71752",
+   "name": "VINPOCETINE",
+   "zeilen": []
+  },
+  "vip": {
+   "mehrdeutig": [
+    "CHEMBL1981592",
+    "CHEMBL525028"
+   ]
+  },
+  "vitamin-a": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL986",
+   "name": "RETINOL",
+   "zeilen": []
+  },
+  "vitamin-b-komplex": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL2108015",
+   "name": "VITAMIN B COMPLEX",
+   "zeilen": []
+  },
+  "vitamin-b12": {
+   "mehrdeutig": [
+    "CHEMBL2110563",
+    "CHEMBL2375172",
+    "CHEMBL4297272",
+    "CHEMBL4297672"
+   ]
+  },
+  "vitamin-d3": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL1042",
+   "name": "CHOLECALCIFEROL",
+   "zeilen": [
+    {
+     "gen": "VDR",
+     "moa": "Vitamin D receptor agonist",
+     "protein": "Vitamin D3 receptor",
+     "target_chembl": null,
+     "uniprot": "P11473",
+     "wirkart": "AGONIST"
+    }
+   ]
+  },
+  "vitamin-e": {
+   "mehrdeutig": [
+    "CHEMBL3989727",
+    "CHEMBL47"
+   ]
+  },
+  "vitamin-k2": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL5314971",
+   "name": "MENAQUINONE 6",
+   "zeilen": []
+  },
+  "yohimbin": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL15245",
+   "name": "YOHIMBINE",
+   "zeilen": []
+  },
+  "zopiclon": {
+   "abgerufen": "2026-11-12",
+   "chembl": "CHEMBL135400",
+   "name": "ZOPICLONE",
+   "zeilen": []
+  }
+ }
+}

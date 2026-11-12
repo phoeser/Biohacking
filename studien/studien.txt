@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -1547,6 +1547,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Tier- oder Laborstudie, 2019: Whole body periodic acceleration improves survival and microvascular leak in a murine endotoxin model (Adams JA et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/30682019/
 - Behörde/Recht (Weitere Quellen): Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage 2017, Kurzfassung. https://www.uniklinik-ulm.de/fileadmin/default/Zentren/Wirbelsaeulenzentrum/Downloads/kreuzschmerz-2aufl-vers1-kurz.pdf
 
+## Thema: Estradiol (Östradiol, E2) (https://biohackingkompakt.de/thema/estradiol.html)
+8 Studien: 6 Randomisierte Studie, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2019: Type and timing of menopausal hormone therapy and breast cancer risk: individual participant meta-analysis of the worldwide epidemiological evidence (Collaborative Group on Hormonal Factors in Breast Cancer, Lancet). https://pubmed.ncbi.nlm.nih.gov/31474332/
+- Randomisierte Studie, 2026: Transdermal Estradiol Patches in Locally Advanced Prostate Cancer (Langley RE et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/41880608/
+- Randomisierte Studie, 2016: Gonadal steroid-dependent effects on bone turnover and bone mineral density in men (Finkelstein JS et al., J Clin Invest). https://pubmed.ncbi.nlm.nih.gov/26901812/
+- Randomisierte Studie, 2016: Vascular Effects of Early versus Late Postmenopausal Treatment with Estradiol (Hodis HN et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/27028912/
+- Randomisierte Studie, 2014: Arterial imaging outcomes and cardiovascular risk factors in recently menopausal women: a randomized trial (Harman SM et al., Ann Intern Med). https://pubmed.ncbi.nlm.nih.gov/25069991/
+- Randomisierte Studie, 2013: Gonadal steroids and body composition, strength, and sexual function in men (Finkelstein JS et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/24024838/
+- Randomisierte Studie, 2012: Effect of hormone replacement therapy on cardiovascular events in recently postmenopausal women: randomised trial (Schierbeck LL et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/23048011/
+- Beobachtungsstudie, 2019: Use of hormone replacement therapy and risk of venous thromboembolism: nested case-control studies using the QResearch and CPRD databases (Vinogradova Y et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/30626577/
+- Behörde/Recht (Fachinformationen): Fachinformation Gynokadin Tabletten 2 mg (Besins, Stand September 2025). https://www.fachinfo.de/fi/pdf/006881/gynokadin-r-tabletten-2-mg
+- Behörde/Recht (NADA): WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, S4.2 Antiöstrogene. https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
 ## Thema: Exemestan (https://biohackingkompakt.de/thema/exemestan.html)
 5 Studien: 5 Randomisierte Studie.
 - Randomisierte Studie, 2016: Gonadal steroid-dependent effects on bone turnover and bone mineral density in men (Finkelstein JS et al., J Clin Invest). https://pubmed.ncbi.nlm.nih.gov/26901812/
@@ -1586,6 +1599,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2020: International Society for Extracellular Vesicles and International Society for Cell and Gene Therapy statement on extracellular vesicles from mesenchymal stromal cells and other cells: considerations for potential therapeutic agents to suppress coronavirus disease-19 (Börger V et al., Cytotherapy). https://pubmed.ncbi.nlm.nih.gov/32425691/
 - Sonstige Studie, 2018: Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines (Théry C et al., J Extracell Vesicles). https://pubmed.ncbi.nlm.nih.gov/30637094/
 - Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, Public Safety Notification on Exosome Products 2019. https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/public-safety-notification-exosome-products
+
+## Thema: Ezetimib (Ezetrol) (https://biohackingkompakt.de/thema/ezetimib.html)
+7 Studien: 6 Randomisierte Studie, 1 Beobachtungsstudie.
+- Randomisierte Studie, 2026: Statin-Ezetimibe Combination Therapy versus Statin Monotherapy in Atherosclerotic Cardiovascular Disease: A Prespecified Secondary Analysis of the Randomized Ez-PAVE Trial (Lee SH et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/42998308/
+- Randomisierte Studie, 2022: Long-term efficacy and safety of moderate-intensity statin with ezetimibe combination therapy versus high-intensity statin monotherapy in patients with atherosclerotic cardiovascular disease (RACING): a randomised, open-label, non-inferiority trial (Kim BK et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/35863366/
+- Randomisierte Studie, 2019: Ezetimibe Lipid-Lowering Trial on Prevention of Atherosclerotic Cardiovascular Disease in 75 or Older (EWTOPIA 75): A Randomized, Controlled Trial (Ouchi Y et al., Circulation). https://pubmed.ncbi.nlm.nih.gov/31434507/
+- Randomisierte Studie, 2015: Ezetimibe Added to Statin Therapy after Acute Coronary Syndromes (Cannon CP et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/26039521/
+- Randomisierte Studie, 2011: The effects of lowering LDL cholesterol with simvastatin plus ezetimibe in patients with chronic kidney disease (Study of Heart and Renal Protection): a randomised placebo-controlled trial (Baigent C et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/21663949/
+- Randomisierte Studie, 2008: Simvastatin with or without ezetimibe in familial hypercholesterolemia (Kastelein JJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/18376000/
+- Beobachtungsstudie, 2014: Inactivating mutations in NPC1L1 and protection from coronary heart disease (Myocardial Infarction Genetics Consortium Investigators et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/25390462/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Ezetimib verschreibungspflichtig. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Zetia (DailyMed) – Anwendungsgebiete, LDL-Senkung allein und zusätzlich zum Statin. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174e45e0-45bb-48b7-9e60-8f6cfc1d22bb
+- Behörde/Recht (Fachinformationen): Fachinformation Ezetrol 10 mg Tabletten (Organon, Stand März 2024). https://www.fachinfo.de/fi/pdf/008015/ezetrol-r-10-mg-ta-blet-ten
 
 ## Thema: Fadogia Agrestis (https://biohackingkompakt.de/thema/fadogia-agrestis.html)
 4 Studien: 3 Tier- oder Laborstudie, 1 Sonstige Studie.
@@ -2312,6 +2338,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA – Gesundheitsbezogene Angaben nach Artikel 13, darunter 1.548 zurückgestellte Angaben zu Pflanzenstoffen. https://www.efsa.europa.eu/en/topics/health-claims-art-13
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA – Verbotsliste 2026 (Prohibited List). https://www.wada-ama.org/en/prohibited-list
 
+## Thema: Insulin im Bodybuilding (https://biohackingkompakt.de/thema/insulin-bodybuilding.html)
+6 Studien: 2 Fallbericht, 1 Sonstige Studie, 1 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2016: Role of insulin in the regulation of human skeletal muscle protein synthesis and breakdown: a systematic review and meta-analysis (Abdulla H et al., Diabetologia). https://pubmed.ncbi.nlm.nih.gov/26404065/
+- Beobachtungsstudie, 2006: Anabolic androgenic steroids: a survey of 500 users (Parkinson AB et al., Med Sci Sports Exerc). https://pubmed.ncbi.nlm.nih.gov/16679978/
+- Fallbericht, 2019: Severe Hypoglycemia Due to Cryptic Insulin Use in a Bodybuilder (Heidet M et al., J Emerg Med). https://pubmed.ncbi.nlm.nih.gov/30527564/
+- Fallbericht, 2012: Weightlifting's risky new trend: a case series of 41 insulin users (Ip EJ et al., Curr Sports Med Rep). https://pubmed.ncbi.nlm.nih.gov/22777326/
+- Übersichtsartikel, 2018: Use of growth hormone, IGF-I, and insulin for anabolic purpose: Pharmacological basis, methods of detection, and adverse effects (Anderson LJ et al., Mol Cell Endocrinol). https://pubmed.ncbi.nlm.nih.gov/28606865/
+- Sonstige Studie, 2024: Metabolic Consequences of Anabolic Steroids, Insulin, and Growth Hormone Abuse in Recreational Bodybuilders: Implications for the World Anti-Doping Agency Passport (Di Girolamo FG et al., Sports Med Open). https://pubmed.ncbi.nlm.nih.gov/38536564/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), Anlage – Stoffwechsel-Modulatoren: Insuline. https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Lantus (Insulin glargin), EPAR: Anwendung bei Diabetes, Zulassung 2000, häufigste Nebenwirkung Unterzuckerung. https://www.ema.europa.eu/en/medicines/human/EPAR/lantus
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S4.4.2 Insuline und Insulin-Mimetika). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (Weitere Quellen): Coroners Court of New South Wales 2021 – Untersuchung zum Tod eines Bodybuilders nach Insulin-Injektion (Findings, 29.10.2021). https://coroners.nsw.gov.au/documents/findings/2021/Drabsch_findings_FINAL_pseudonyms.pdf
+
 ## Thema: INUSpherese® (Blut-Apherese) (https://biohackingkompakt.de/thema/inuspherese.html)
 5 Studien: 1 Leitlinie / Konsens, 1 Fallbericht, 1 Sonstige Studie, 1 Randomisierte Studie, 1 Beobachtungsstudie.
 - Randomisierte Studie, 2024: IA-PACS-CFS: a double-blinded, randomized, sham-controlled, exploratory trial of immunoadsorption in patients with chronic fatigue syndrome (CFS) including patients with post-acute COVID-19 CFS (PACS-CFS) (Preßler H et al., Trials). https://pubmed.ncbi.nlm.nih.gov/38454468/
@@ -2816,6 +2855,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2013: Effects of leucine and its metabolite β-hydroxy-β-methylbutyrate on human skeletal muscle protein metabolism (Wilkinson DJ et al., J Physiol). https://pubmed.ncbi.nlm.nih.gov/23551944/
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Stellungnahme 052/2019 – isolierte verzweigtkettige Aminosäuren. https://www.bfr.bund.de/cm/343/nahrungsergaenzungsmittel-isolierte-verzweigtkettige-aminosaeuren-koennen-bei-hoher-aufnahme-die-gesundheit-beeintraechtigen.pdf
 
+## Thema: Levothyroxin (L-Thyroxin, T4) (https://biohackingkompakt.de/thema/levothyroxin.html)
+8 Studien: 3 Meta-Analyse / Übersicht, 2 Sonstige Studie, 1 Leitlinie / Konsens, 1 Randomisierte Studie, 1 Beobachtungsstudie.
+- Meta-Analyse / Übersicht, 2025: Poisoning with Thyroid Hormones Used Illegally-Systematic Review (Skrzypiec-Spring M et al., Pharmaceuticals (Basel)). https://pubmed.ncbi.nlm.nih.gov/41471297/
+- Meta-Analyse / Übersicht, 2018: Association of Thyroid Hormone Therapy With Quality of Life and Thyroid-Related Symptoms in Patients With Subclinical Hypothyroidism: A Systematic Review and Meta-analysis (Feller M et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/30285179/
+- Meta-Analyse / Übersicht, 2009: Thyroid hormone therapy for obesity and nonthyroidal illnesses: a systematic review (Kaptein EM et al., J Clin Endocrinol Metab). https://pubmed.ncbi.nlm.nih.gov/19737920/
+- Randomisierte Studie, 2017: Thyroid Hormone Therapy for Older Adults with Subclinical Hypothyroidism (Stott DJ et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/28402245/
+- Beobachtungsstudie, 2011: Levothyroxine dose and risk of fractures in older adults: nested case-control study (Turner MR et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/21527461/
+- Leitlinie / Konsens, 2019: Thyroid hormones treatment for subclinical hypothyroidism: a clinical practice guideline (Bekkering GE et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/31088853/
+- Sonstige Studie, 2025: The 10 top prescribed medicines in Germany from 1985 to 2022: pharmacological analysis (Schröder L et al., Naunyn Schmiedebergs Arch Pharmacol). https://pubmed.ncbi.nlm.nih.gov/39570381/
+- Sonstige Studie, 2023: Thyroid Hormone Abuse Among Elite Athletes (Handelsman DJ et al., J Endocr Soc). https://pubmed.ncbi.nlm.nih.gov/36896254/
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Synthroid (DailyMed) – Warnhinweis: nicht zur Gewichtsabnahme. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc
+- Behörde/Recht (Fachinformationen): Fachinformation L-Thyroxin Winthrop (Sanofi, Stand Februar 2023). https://fachinfo.de/fi/pdf/022239/l-thyroxin-winthrop-r
+
 ## Thema: Ligandrol (LGD-4033) (https://biohackingkompakt.de/thema/ligandrol.html)
 9 Studien: 3 Fallbericht, 2 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Sonstige Studie, 1 Randomisierte Studie, 1 Studienregister.
 - Meta-Analyse / Übersicht, 2023: Systematic Review of Safety of Selective Androgen Receptor Modulators in Healthy Adults: Implications for Recreational Users (Vignali JD et al., J Xenobiot). https://pubmed.ncbi.nlm.nih.gov/37218811/
@@ -2838,6 +2890,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2023: Thyroid Hormone Abuse Among Elite Athletes (Handelsman DJ et al., J Endocr Soc). https://pubmed.ncbi.nlm.nih.gov/36896254/
 - Behörde/Recht (DailyMed (NLM)): FDA-Fachinformation Cytomel (DailyMed) – Warnhinweis: nicht zur Gewichtsabnahme. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3
 - Behörde/Recht (Fachinformationen): Fachinformation Thybon 20/100 Henning (Stand November 2024). https://www.fachinfo.de/fi/pdf/007748/thybon-r-20-100-henning
+
+## Thema: Lipo-Spritzen (Lipo-B, Lipo-C, MIC) (https://biohackingkompakt.de/thema/lipo-spritzen.html)
+6 Studien: 2 Meta-Analyse / Übersicht, 1 Fallbericht, 1 Sonstige Studie, 1 Randomisierte Studie, 1 Studienregister.
+- Meta-Analyse / Übersicht, 2020: Effects of l-carnitine supplementation on weight loss and body composition: A systematic review and meta-analysis of 37 randomized controlled clinical trials with dose-response analysis (Talenezhad N et al., Clin Nutr ESPEN). https://pubmed.ncbi.nlm.nih.gov/32359762/
+- Meta-Analyse / Übersicht, 2018: Oral vitamin B12 versus intramuscular vitamin B12 for vitamin B12 deficiency (Wang H et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/29543316/
+- Randomisierte Studie, 2001: Choline deficiency causes reversible hepatic abnormalities in patients receiving parenteral nutrition: proof of a human choline requirement: a placebo-controlled trial (Buchman AL et al., JPEN J Parenter Enteral Nutr). https://pubmed.ncbi.nlm.nih.gov/11531217/
+- Fallbericht, 2021: A Nearly Fatal Case of Pseudomonas fluorescens Bacteremia Secondary to a Naturopathic Intravenous Vitamin Infusion (D'Souza G et al., J Investig Med High Impact Case Rep). https://pubmed.ncbi.nlm.nih.gov/34291692/
+- Studienregister: ClinicalTrials.gov NCT01719185 – Pilotstudie Phentermin mit Vitamin-B12-Spritzen gegen Phentermin allein, 22 Teilnehmer, abgeschlossen 2013, keine Ergebnisse veröffentlicht. https://clinicaltrials.gov/study/NCT01719185
+- Sonstige Studie, 2006: Insulin stimulates L-carnitine accumulation in human skeletal muscle (Stephens FB et al., FASEB J). https://pubmed.ncbi.nlm.nih.gov/16368715/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz, § 13 Herstellungserlaubnis (Abs. 2b). https://www.gesetze-im-internet.de/amg_1976/__13.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung, Anlage 1. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): DailyMed – US-Fachinformation Carnitor (Levocarnitin) Injektionslösung. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf801cc4-775e-433d-9d32-e5d9a98981d3
+- Behörde/Recht (Weitere Quellen): WADA, Verbotsliste 2026 (M2.2 Infusionen und Injektionen). https://www.nada.at/files/doc/Listen/Prohibited-List-2026.pdf
 
 ## Thema: Lipoprotein(a) (https://biohackingkompakt.de/thema/lipoprotein-a.html)
 6 Studien: 4 Studienregister, 1 Beobachtungsstudie, 1 Sonstige Studie.
@@ -3243,6 +3308,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2, § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/
 - Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
 - Behörde/Recht (Weitere Behörden): DEA, Federal Register 2011 – Begründung der Einstufung von Prostanozol und Methasteron als Anabolika (Synthese, Tierdaten, FDA-Warnbrief 2006). https://www.govinfo.gov/content/pkg/FR-2011-11-23/html/2011-30081.htm
+
+## Thema: Methyl-1-testosteron (M1T) (https://biohackingkompakt.de/thema/methyl-1-testosteron.html)
+5 Studien: 2 Übersichtsartikel, 1 Beobachtungsstudie, 1 Fallbericht, 1 Sonstige Studie.
+- Beobachtungsstudie, 2015: Distinct phenotype of hepatotoxicity associated with illicit use of anabolic androgenic steroids (Robles-Diaz M et al., Aliment Pharmacol Ther). https://pubmed.ncbi.nlm.nih.gov/25394890/
+- Fallbericht, 2013: Acute Kidney Injury Due to Interaction of Methyl-1-testosterone with Ciclosporin Metabolism in a Patient with Severe Atopic Dermatitis (Al-Niaimi F et al., Dermatol Ther (Heidelb)). https://pubmed.ncbi.nlm.nih.gov/24281763/
+- Übersichtsartikel, 2015: Designer steroids - over-the-counter supplements and their androgenic component: review of an increasing problem (Rahnema CD et al., Andrology). https://pubmed.ncbi.nlm.nih.gov/25684733/
+- Übersichtsartikel, 2015: Synthetic androgens as designer supplements (Joseph JF et al., Curr Neuropharmacol). https://pubmed.ncbi.nlm.nih.gov/26074745/
+- Sonstige Studie, 2011: Endocrine characterization of the designer steroid methyl-1-testosterone: investigations on tissue-specific anabolic-androgenic potency, side effects, and metabolism (Parr MK et al., Endocrinology). https://pubmed.ncbi.nlm.nih.gov/21990312/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Methyl-1-testosteron). https://www.gesetze-im-internet.de/antidopg/anlage.html
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelgesetz (AMG), § 21 Zulassungspflicht. https://www.gesetze-im-internet.de/amg_1976/__21.html
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+- Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): LiverTox (NIH) – Androgenic Steroids: Leberschäden durch 17α-alkylierte Steroide. https://www.ncbi.nlm.nih.gov/books/NBK548931/
+- Behörde/Recht (Weitere Behörden): Anabolic Steroid Control Act of 2004, Public Law 108-358 – 17-α-methyl-1-testosterone als Anabolikum eingestuft. https://www.congress.gov/108/plaws/publ358/PLAW-108publ358.htm
 
 ## Thema: Methylene Blue (Methylenblau) (https://biohackingkompakt.de/thema/methylene-blue.html)
 6 Studien: 2 Randomisierte Studie, 2 Übersichtsartikel, 2 Sonstige Studie.
@@ -5142,6 +5220,19 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Sonstige Studie, 2004: Determination of mercury by cold vapor atomic absorption spectrophotometer in Tongkat Ali preparations obtained in Malaysia (Ang HH et al., Int J Toxicol). https://pubmed.ncbi.nlm.nih.gov/15162849/
 - Behörde/Recht (NCBI-Nachschlagewerke (z. B. LiverTox)): US-Leberdatenbank LiverTox, Monographie Tongkat Ali. https://www.ncbi.nlm.nih.gov/books/NBK609015/
 
+## Thema: Torasemid (https://biohackingkompakt.de/thema/torasemid.html)
+6 Studien: 2 Fallbericht, 1 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Übersichtsartikel, 1 Sonstige Studie.
+- Meta-Analyse / Übersicht, 2026: Efficacy of torsemide versus furosemide in heart failure: a systematic review and meta-analysis of randomized controlled trials (Eid MM et al., Arch Med Sci Atheroscler Dis). https://pubmed.ncbi.nlm.nih.gov/42273660/
+- Randomisierte Studie, 2023: Effect of Torsemide vs Furosemide After Discharge on All-Cause Mortality in Patients Hospitalized With Heart Failure: The TRANSFORM-HF Randomized Clinical Trial (Mentz RJ et al., JAMA). https://pubmed.ncbi.nlm.nih.gov/36648467/
+- Fallbericht, 2025: A fatal case of torsemide abuse based on forensic autopsy findings (Nara A et al., J Forensic Sci). https://pubmed.ncbi.nlm.nih.gov/40405371/
+- Fallbericht, 2020: Severe Acquired Hypokalemic Paralysis in a Bodybuilder After Self-Medication With Triamterene/Hydrochlorothiazide (Pfisterer N et al., Clin J Sport Med). https://pubmed.ncbi.nlm.nih.gov/31770156/
+- Übersichtsartikel, 2010: The abuse of diuretics as performance-enhancing drugs and masking agents in sport doping: pharmacology, toxicology and analysis (Cadwallader AB et al., Br J Pharmacol). https://pubmed.ncbi.nlm.nih.gov/20718736/
+- Sonstige Studie, 2002: Torasemide in chronic heart failure: results of the TORIC study (Cosín J et al., Eur J Heart Fail). https://pubmed.ncbi.nlm.nih.gov/12167392/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Anti-Doping-Gesetz (AntiDopG), § 2, § 3, § 4 und Anlage. https://www.gesetze-im-internet.de/antidopg/
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Torasemid verschreibungspflichtig. https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (DailyMed (NLM)): US-Fachinformation Torsemide Tablets (DailyMed) – Indikationen, Wirkmechanismus, Warnhinweise. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09305350-e317-419c-96f5-aa8fbeb4044d
+- Behörde/Recht (NADA): NADA – Verbotsliste 2026, informatorische Übersetzung (S5 Diuretika und Maskierungsmittel). https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf
+
 ## Thema: TP508 (Rusalatide, Chrysalin) (https://biohackingkompakt.de/thema/tp508.html)
 6 Studien: 2 Tier- oder Laborstudie, 2 Übersichtsartikel, 1 Randomisierte Studie, 1 Studienregister.
 - Randomisierte Studie, 2007: Thrombin peptide Chrysalin stimulates healing of diabetic foot ulcers in a placebo-controlled phase I/II study (Fife C et al., Wound Repair Regen). https://pubmed.ncbi.nlm.nih.gov/17244316/
@@ -5491,7 +5582,7 @@ Stand: 10.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 9 Studien: 5 Meta-Analyse / Übersicht, 2 Beobachtungsstudie, 1 Sonstige Studie, 1 Randomisierte Studie.
 - Meta-Analyse / Übersicht, 2026: Vitamin B12 supplementation for growth, development, and cognition in children (Larvie DY et al., Cochrane Database Syst Rev). https://doi.org/10.1002/14651858.CD015264.pub2
 - Meta-Analyse / Übersicht, 2021: Effects of Vitamin B12 Supplementation on Cognitive Function, Depressive Symptoms, and Fatigue: A Systematic Review, Meta-Analysis, and Meta-Regression (Markun S et al., Nutrients). https://pubmed.ncbi.nlm.nih.gov/33809274/
-- Meta-Analyse / Übersicht, 2018: Oral vitamin B12 versus intramuscular vitamin B12 for vitamin B12 deficiency (Wang H et al., Cochrane Database Syst Rev). https://doi.org/10.1002/14651858.CD004655.pub3
+- Meta-Analyse / Übersicht, 2018: Oral vitamin B12 versus intramuscular vitamin B12 for vitamin B12 deficiency (Wang H et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/29543316/
 - Meta-Analyse / Übersicht, 2018: Vitamin and mineral supplementation for maintaining cognitive function in cognitively healthy people in mid and late life (Rutjes AW et al., Cochrane Database Syst Rev). https://doi.org/10.1002/14651858.CD011906.pub2
 - Meta-Analyse / Übersicht, 2017: Homocysteine-lowering interventions for preventing cardiovascular events (Martí-Carvajal AJ et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/28816346/
 - Randomisierte Studie, 2010: Homocysteine-lowering by B vitamins slows the rate of accelerated brain atrophy in mild cognitive impairment: a randomized controlled trial (Smith AD et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/20838622/

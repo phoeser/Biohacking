@@ -14331,6 +14331,41 @@
 "Journal Article"
 ]
 },
+"pmid:11531217": {
+"autoren": "Buchman AL, Ament ME, Sohel M, Dubin M, Jenden DJ, Roch M, Pownall H, Farley W, Awal M, Ahn C.",
+"doi": "10.1177/0148607101025005260",
+"iso": "JPEN J Parenter Enteral Nutr",
+"jahr": "2001",
+"journal": "JPEN. Journal of parenteral and enteral nutrition",
+"korr": [],
+"mesh": [
+"Liver",
+"Spleen",
+"Humans",
+"Choline Deficiency",
+"Choline",
+"Transaminases",
+"Fat Emulsions, Intravenous",
+"Lipotropic Agents",
+"Tomography, X-Ray Computed",
+"Parenteral Nutrition, Total",
+"Nutritional Requirements",
+"Dietary Supplements",
+"Adult",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "11531217",
+"quelle": "MED",
+"titel": "Choline deficiency causes reversible hepatic abnormalities in patients receiving parenteral nutrition: proof of a human choline requirement: a placebo-controlled trial.",
+"typen": [
+"Clinical Trial",
+"Research Support, U.S. Gov't, P.H.S.",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:11579070": {
 "autoren": "Szabo A, Billett E, Turner J.",
 "doi": "10.1136/bjsm.35.5.342",
@@ -15412,6 +15447,41 @@
 "titel": "Intermittent hypoxia research in the former soviet union and the commonwealth of independent States: history and review of the concept and selected applications.",
 "typen": [
 "Review",
+"Journal Article"
+]
+},
+"pmid:12167392": {
+"autoren": "Cosín J, Díez J, TORIC investigators.",
+"doi": "10.1016/s1388-9842(02)00122-8",
+"iso": "Eur J Heart Fail",
+"jahr": "2002",
+"journal": "European journal of heart failure",
+"korr": [],
+"mesh": [
+"Humans",
+"Chronic Disease",
+"Potassium",
+"Sulfonamides",
+"Furosemide",
+"Diuretics",
+"Stroke Volume",
+"Treatment Outcome",
+"Survival Rate",
+"Product Surveillance, Postmarketing",
+"Ventricular Function, Left",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Heart Failure",
+"Torsemide"
+],
+"pmcid": "",
+"pmid": "12167392",
+"quelle": "MED",
+"titel": "Torasemide in chronic heart failure: results of the TORIC study.",
+"typen": [
+"Comparative Study",
 "Journal Article"
 ]
 },
@@ -21083,6 +21153,35 @@
 "Journal Article"
 ]
 },
+"pmid:16368715": {
+"autoren": "Stephens FB, Constantin-Teodosiu D, Laithwaite D, Simpson EJ, Greenhaff PL.",
+"doi": "10.1096/fj.05-4985fje",
+"iso": "FASEB J",
+"jahr": "2006",
+"journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Sodium",
+"Insulin",
+"Carnitine",
+"Organic Cation Transport Proteins",
+"RNA, Messenger",
+"Transcription, Genetic",
+"Adult",
+"Male",
+"Solute Carrier Family 22 Member 5"
+],
+"pmcid": "",
+"pmid": "16368715",
+"quelle": "MED",
+"titel": "Insulin stimulates L-carnitine accumulation in human skeletal muscle.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:16382061": {
 "autoren": "Breast International Group (BIG) 1-98 Collaborative Group, Thürlimann B, Keshaviah A, Coates AS, Mouridsen H, Mauriac L, Forbes JF, Paridaens R, Castiglione-Gertsch M, Gelber RD, Rabaglio M, Smith I, Wardley A, Price KN, Goldhirsch A.",
 "doi": "10.1056/nejmoa052258",
@@ -22073,6 +22172,36 @@
 "pmid": "16671579",
 "quelle": "MED",
 "titel": "Effect of tetrapeptide on insulin biosynthesis in rats with alloxan-induced diabetes.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:16679978": {
+"autoren": "Parkinson AB, Evans NA.",
+"doi": "10.1249/01.mss.0000210194.56834.5d",
+"iso": "Med Sci Sports Exerc",
+"jahr": "2006",
+"journal": "Medicine and science in sports and exercise",
+"korr": [],
+"mesh": [
+"Humans",
+"Substance-Related Disorders",
+"Testosterone Congeners",
+"Anabolic Agents",
+"Polypharmacy",
+"Attitude to Health",
+"Body Image",
+"Internet",
+"Adolescent",
+"Adult",
+"Female",
+"Male",
+"Surveys and Questionnaires"
+],
+"pmcid": "",
+"pmid": "16679978",
+"quelle": "MED",
+"titel": "Anabolic androgenic steroids: a survey of 500 users.",
 "typen": [
 "Journal Article"
 ]
@@ -25625,6 +25754,48 @@
 "titel": "Clenbuterol increases lean muscle mass but not endurance in patients with chronic heart failure.",
 "typen": [
 "Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:18376000": {
+"autoren": "Kastelein JJ, Akdim F, Stroes ES, Zwinderman AH, Bots ML, Stalenhoef AF, Visseren FL, Sijbrands EJ, Trip MD, Stein EA, Gaudet D, Duivenvoorden R, Veltri EP, Marais AD, de Groot E, ENHANCE Investigators.",
+"doi": "10.1056/nejmoa0800742",
+"iso": "N Engl J Med",
+"jahr": "2008",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Tunica Media",
+"Carotid Arteries",
+"Femoral Artery",
+"Tunica Intima",
+"Humans",
+"Azetidines",
+"Simvastatin",
+"Cholesterol",
+"Triglycerides",
+"Anticholesteremic Agents",
+"Ultrasonography",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Double-Blind Method",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Hyperlipoproteinemia Type II",
+"Cholesterol, LDL",
+"Ezetimibe"
+],
+"pmcid": "",
+"pmid": "18376000",
+"quelle": "MED",
+"titel": "Simvastatin with or without ezetimibe in familial hypercholesterolemia.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -31944,6 +32115,29 @@
 "Journal Article"
 ]
 },
+"pmid:20718736": {
+"autoren": "Cadwallader AB, de la Torre X, Tieri A, Botrè F.",
+"doi": "10.1111/j.1476-5381.2010.00789.x",
+"iso": "Br J Pharmacol",
+"jahr": "2010",
+"journal": "British journal of pharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Diuretics",
+"Doping in Sports"
+],
+"pmcid": "PMC2962812",
+"pmid": "20718736",
+"quelle": "MED",
+"titel": "The abuse of diuretics as performance-enhancing drugs and masking agents in sport doping: pharmacology, toxicology and analysis.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"review-article",
+"Review",
+"Journal Article"
+]
+},
 "pmid:2071888": {
 "autoren": "Hindmarch I, Fuchs HH, Erzigkeit H.",
 "doi": "10.1097/00004850-199100610-00005",
@@ -33820,6 +34014,37 @@
 "Journal Article"
 ]
 },
+"pmid:21527461": {
+"autoren": "Turner MR, Camacho X, Fischer HD, Austin PC, Anderson GM, Rochon PA, Lipscombe LL.",
+"doi": "10.1136/bmj.d2238",
+"iso": "BMJ",
+"jahr": "2011",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypothyroidism",
+"Thyroxine",
+"Risk Factors",
+"Case-Control Studies",
+"Follow-Up Studies",
+"Dose-Response Relationship, Drug",
+"Aged",
+"Aged, 80 and over",
+"Female",
+"Male",
+"Fractures, Bone"
+],
+"pmcid": "PMC3084377",
+"pmid": "21527461",
+"quelle": "MED",
+"titel": "Levothyroxine dose and risk of fractures in older adults: nested case-control study.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article"
+]
+},
 "pmid:21556001": {
 "autoren": "Genin E, Hannequin D, Wallon D, Sleegers K, Hiltunen M, Combarros O, Bullido MJ, Engelborghs S, De Deyn P, Berr C, Pasquier F, Dubois B, Tognoni G, Fiévet N, Brouwers N, Bettens K, Arosio B, Coto E, Del Zompo M, Mateo I, Epelbaum J, Frank-Garcia A, Helisalmi S, Porcellini E, Pilotto A, Forti P, Ferri R, Scarpini E, Siciliano G, Solfrizzi V, Sorbi S, Spalletta G, Valdivieso F, Vepsäläinen S, Alvarez V, Bosco P, Mancuso M, Panza F, Nacmias B, Bossù P, Hanon O, Piccardi P, Annoni G, Seripa D, Galimberti D, Licastro F, Soininen H, Dartigues JF, Kamboh MI, Van Broeckhoven C, Lambert JC, Amouyel P, Campion D.",
 "doi": "10.1038/mp.2011.52",
@@ -34080,6 +34305,54 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:21663949": {
+"autoren": "Baigent C, Landray MJ, Reith C, Emberson J, Wheeler DC, Tomson C, Wanner C, Krane V, Cass A, Craig J, Neal B, Jiang L, Hooi LS, Levin A, Agodoa L, Gaziano M, Kasiske B, Walker R, Massy ZA, Feldt-Rasmussen B, Krairittichai U, Ophascharoensuk V, Fellström B, Holdaas H, Tesar V, Wiecek A, Grobbee D, de Zeeuw D, Grönhagen-Riska C, Dasgupta T, Lewis D, Herrington W, Mafham M, Majoni W, Wallendszus K, Grimm R, Pedersen T, Tobert J, Armitage J, Baxter A, Bray C, Chen Y, Chen Z, Hill M, Knott C, Parish S, Simpson D, Sleight P, Young A, Collins R, SHARP Investigators.",
+"doi": "10.1016/s0140-6736(11)60739-3",
+"iso": "Lancet",
+"jahr": "2011",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Azetidines",
+"Simvastatin",
+"Kidney Function Tests",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Renal Dialysis",
+"Drug Administration Schedule",
+"Severity of Illness Index",
+"Confidence Intervals",
+"Risk Assessment",
+"Survival Analysis",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Dose-Response Relationship, Drug",
+"Time Factors",
+"Reference Values",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Renal Insufficiency, Chronic",
+"Cholesterol, LDL",
+"Hypolipidemic Agents",
+"Ezetimibe"
+],
+"pmcid": "PMC3145073",
+"pmid": "21663949",
+"quelle": "MED",
+"titel": "The effects of lowering LDL cholesterol with simvastatin plus ezetimibe in patients with chronic kidney disease (Study of Heart and Renal Protection): a randomised placebo-controlled trial.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -35096,6 +35369,36 @@
 "Randomized Controlled Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:21990312": {
+"autoren": "Parr MK, Blatt C, Zierau O, Hess C, Gütschow M, Fusshöller G, Opfermann G, Schänzer W, Diel P.",
+"doi": "10.1210/en.2011-1164",
+"iso": "Endocrinology",
+"jahr": "2011",
+"journal": "Endocrinology",
+"korr": [],
+"mesh": [
+"Endocrine System",
+"Animals",
+"Humans",
+"Rats",
+"Steroids",
+"Testosterone",
+"Methyltestosterone",
+"Designer Drugs",
+"Anabolic Agents",
+"Androgens",
+"Organ Specificity",
+"Dietary Supplements"
+],
+"pmcid": "",
+"pmid": "21990312",
+"quelle": "MED",
+"titel": "Endocrine characterization of the designer steroid methyl-1-testosterone: investigations on tissue-specific anabolic-androgenic potency, side effects, and metabolism.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
 ]
 },
 "pmid:22031847": {
@@ -36956,6 +37259,32 @@
 "Journal Article"
 ]
 },
+"pmid:22777326": {
+"autoren": "Ip EJ, Barnett MJ, Tenerowicz MJ, Perry PJ.",
+"doi": "10.1249/jsr.0b013e31825da97f",
+"iso": "Curr Sports Med Rep",
+"jahr": "2012",
+"journal": "Current sports medicine reports",
+"korr": [],
+"mesh": [
+"Humans",
+"Insulin",
+"Risk Factors",
+"Internationality",
+"Doping in Sports",
+"Weight Lifting",
+"Adult",
+"Male",
+"Performance-Enhancing Substances"
+],
+"pmcid": "",
+"pmid": "22777326",
+"quelle": "MED",
+"titel": "Weightlifting's risky new trend: a case series of 41 insulin users.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:22777991": {
 "autoren": "Vaucher P, Druais PL, Waldvogel S, Favrat B.",
 "doi": "10.1503/cmaj.110950",
@@ -37696,6 +38025,49 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Journal Article"
+]
+},
+"pmid:23048011": {
+"autoren": "Schierbeck LL, Rejnmark L, Tofteng CL, Stilgren L, Eiken P, Mosekilde L, Køber L, Jensen JE.",
+"doi": "10.1136/bmj.e6409",
+"iso": "BMJ",
+"jahr": "2012",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Neoplasms",
+"Breast Neoplasms",
+"Myocardial Infarction",
+"Venous Thrombosis",
+"Estradiol",
+"Norethindrone",
+"Follicle Stimulating Hormone",
+"Estrogens",
+"Contraceptives, Oral, Synthetic",
+"Treatment Outcome",
+"Hormone Replacement Therapy",
+"Hospitalization",
+"Risk",
+"Follow-Up Studies",
+"Prospective Studies",
+"Postmenopause",
+"Time Factors",
+"Middle Aged",
+"Denmark",
+"Female",
+"Heart Failure",
+"Stroke",
+"Norethindrone Acetate"
+],
+"pmcid": "",
+"pmid": "23048011",
+"quelle": "MED",
+"titel": "Effect of hormone replacement therapy on cardiovascular events in recently postmenopausal women: randomised trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -41795,6 +42167,23 @@
 "Journal Article"
 ]
 },
+"pmid:24281763": {
+"autoren": "Al-Niaimi F, Lyon CC.",
+"doi": "10.1007/s13555-013-0038-6",
+"iso": "Dermatol Ther (Heidelb)",
+"jahr": "2013",
+"journal": "Dermatology and therapy",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC3889302",
+"pmid": "24281763",
+"quelle": "MED",
+"titel": "Acute Kidney Injury Due to Interaction of Methyl-1-testosterone with Ciclosporin Metabolism in a Patient with Severe Atopic Dermatitis.",
+"typen": [
+"Journal Article",
+"case-report"
+]
+},
 "pmid:24284442": {
 "autoren": "Churchward-Venne TA, Breen L, Di Donato DM, Hector AJ, Mitchell CJ, Moore DR, Stellingwerff T, Breuille D, Offord EA, Baker SK, Phillips SM.",
 "doi": "10.3945/ajcn.113.068775",
@@ -45519,6 +45908,81 @@
 "Journal Article"
 ]
 },
+"pmid:25390462": {
+"autoren": "Myocardial Infarction Genetics Consortium Investigators, Stitziel NO, Won HH, Morrison AC, Peloso GM, Do R, Lange LA, Fontanillas P, Gupta N, Duga S, Goel A, Farrall M, Saleheen D, Ferrario P, König I, Asselta R, Merlini PA, Marziliano N, Notarangelo MF, Schick U, Auer P, Assimes TL, Reilly M, Wilensky R, Rader DJ, Hovingh GK, Meitinger T, Kessler T, Kastrati A, Laugwitz KL, Siscovick D, Rotter JI, Hazen SL, Tracy R, Cresci S, Spertus J, Jackson R, Schwartz SM, Natarajan P, Crosby J, Muzny D, Ballantyne C, Rich SS, O'Donnell CJ, Abecasis G, Sunaev S, Nickerson DA, Buring JE, Ridker PM, Chasman DI, Austin E, Kullo IJ, Weeke PE, Shaffer CM, Bastarache LA, Denny JC, Roden DM, Palmer C, Deloukas P, Lin DY, Tang ZZ, Erdmann J, Schunkert H, Danesh J, Marrugat J, Elosua R, Ardissino D, McPherson R, Watkins H, Reiner AP, Wilson JG, Altshuler D, Gibbs RA, Lander ES, Boerwinkle E, Gabriel S, Kathiresan S.",
+"doi": "10.1056/nejmoa1405386",
+"iso": "N Engl J Med",
+"jahr": "2014",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Coronary Disease",
+"Triglycerides",
+"Membrane Transport Proteins",
+"Membrane Proteins",
+"Risk",
+"Case-Control Studies",
+"Sequence Analysis, DNA",
+"Gene Silencing",
+"Protein Conformation",
+"Genotype",
+"Mutation",
+"Exons",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Asian People",
+"White People",
+"Black People"
+],
+"pmcid": "PMC4335708",
+"pmid": "25390462",
+"quelle": "MED",
+"titel": "Inactivating mutations in NPC1L1 and protection from coronary heart disease.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:25394890": {
+"autoren": "Robles-Diaz M, Gonzalez-Jimenez A, Medina-Caliz I, Stephens C, García-Cortes M, García-Muñoz B, Ortega-Alonso A, Blanco-Reina E, Gonzalez-Grande R, Jimenez-Perez M, Rendón P, Navarro JM, Gines P, Prieto M, Garcia-Eliz M, Bessone F, Brahm JR, Paraná R, Lucena MI, Andrade RJ, Spanish DILI Registry, SLatinDILI Network.",
+"doi": "10.1111/apt.13023",
+"iso": "Aliment Pharmacol Ther",
+"jahr": "2015",
+"journal": "Alimentary pharmacology & therapeutics",
+"korr": [],
+"mesh": [
+"Humans",
+"Cholestasis",
+"Jaundice",
+"Creatinine",
+"Bilirubin",
+"Anabolic Agents",
+"Androgens",
+"Risk Factors",
+"Phenotype",
+"Adult",
+"Aged",
+"Middle Aged",
+"Male",
+"Young Adult",
+"Acute Kidney Injury",
+"Chemical and Drug Induced Liver Injury"
+],
+"pmcid": "",
+"pmid": "25394890",
+"quelle": "MED",
+"titel": "Distinct phenotype of hepatotoxicity associated with illicit use of anabolic androgenic steroids.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Journal Article"
+]
+},
 "pmid:25411276": {
 "autoren": "Whitehead A, Beck EJ, Tosh S, Wolever TM.",
 "doi": "10.3945/ajcn.114.086108",
@@ -47289,6 +47753,44 @@
 "Journal Article"
 ]
 },
+"pmid:26039521": {
+"autoren": "Cannon CP, Blazing MA, Giugliano RP, McCagg A, White JA, Theroux P, Darius H, Lewis BS, Ophuis TO, Jukema JW, De Ferrari GM, Ruzyllo W, De Lucca P, Im K, Bohula EA, Reist C, Wiviott SD, Tershakovec AM, Musliner TA, Braunwald E, Califf RM, IMPROVE-IT Investigators.",
+"doi": "10.1056/nejmoa1410489",
+"iso": "N Engl J Med",
+"jahr": "2015",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Azetidines",
+"Simvastatin",
+"Triglycerides",
+"Anticholesteremic Agents",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Drug Therapy, Combination",
+"Double-Blind Method",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Cholesterol, LDL",
+"Acute Coronary Syndrome",
+"Kaplan-Meier Estimate",
+"Ezetimibe"
+],
+"pmcid": "",
+"pmid": "26039521",
+"quelle": "MED",
+"titel": "Ezetimibe Added to Statin Therapy after Acute Coronary Syndromes.",
+"typen": [
+"Comparative Study",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:26051348": {
 "autoren": "Dostal AM, Samavat H, Bedell S, Torkelson C, Wang R, Swenson K, Le C, Wu AH, Ursin G, Yuan JM, Kurzer MS.",
 "doi": "10.1016/j.fct.2015.05.019",
@@ -48645,6 +49147,34 @@
 "titel": "Clinical evaluation of purified Shilajit on testosterone levels in healthy volunteers.",
 "typen": [
 "Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:26404065": {
+"autoren": "Abdulla H, Smith K, Atherton PJ, Idris I.",
+"doi": "10.1007/s00125-015-3751-0",
+"iso": "Diabetologia",
+"jahr": "2016",
+"journal": "Diabetologia",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Diabetes Mellitus, Type 2",
+"Insulin Resistance",
+"Insulin",
+"Phenylalanine",
+"Muscle Proteins",
+"Signal Transduction"
+],
+"pmcid": "",
+"pmid": "26404065",
+"quelle": "MED",
+"titel": "Role of insulin in the regulation of human skeletal muscle protein synthesis and breakdown: a systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -54010,6 +54540,38 @@
 "Journal Article"
 ]
 },
+"pmid:28402245": {
+"autoren": "Stott DJ, Rodondi N, Kearney PM, Ford I, Westendorp RGJ, Mooijaart SP, Sattar N, Aubert CE, Aujesky D, Bauer DC, Baumgartner C, Blum MR, Browne JP, Byrne S, Collet TH, Dekkers OM, den Elzen WPJ, Du Puy RS, Ellis G, Feller M, Floriani C, Hendry K, Hurley C, Jukema JW, Kean S, Kelly M, Krebs D, Langhorne P, McCarthy G, McCarthy V, McConnachie A, McDade M, Messow M, O'Flynn A, O'Riordan D, Poortvliet RKE, Quinn TJ, Russell A, Sinnott C, Smit JWA, Van Dorland HA, Walsh KA, Walsh EK, Watt T, Wilson R, Gussekloo J, TRUST Study Group.",
+"doi": "10.1056/nejmoa1603825",
+"iso": "N Engl J Med",
+"jahr": "2017",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypothyroidism",
+"Fatigue",
+"Thyrotropin",
+"Thyroxine",
+"Treatment Failure",
+"Double-Blind Method",
+"Quality of Life",
+"Aged",
+"Aged, 80 and over",
+"Female",
+"Male",
+"Intention to Treat Analysis"
+],
+"pmcid": "",
+"pmid": "28402245",
+"quelle": "MED",
+"titel": "Thyroid Hormone Therapy for Older Adults with Subclinical Hypothyroidism.",
+"typen": [
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:28402682": {
 "autoren": "Noller GE, Frampton CM, Yazar-Klosinski B.",
 "doi": "10.1080/00952990.2017.1310218",
@@ -54654,6 +55216,33 @@
 "Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:28606865": {
+"autoren": "Anderson LJ, Tamayose JM, Garcia JM.",
+"doi": "10.1016/j.mce.2017.06.010",
+"iso": "Mol Cell Endocrinol",
+"jahr": "2018",
+"journal": "Molecular and cellular endocrinology",
+"korr": [],
+"mesh": [
+"Humans",
+"Insulin",
+"Growth Hormone",
+"Insulin-Like Growth Factor I",
+"Anabolic Agents",
+"Performance-Enhancing Substances"
+],
+"pmcid": "PMC5723243",
+"pmid": "28606865",
+"quelle": "MED",
+"titel": "Use of growth hormone, IGF-I, and insulin for anabolic purpose: Pharmacological basis, methods of detection, and adverse effects.",
+"typen": [
+"research-article",
+"Review",
+"Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:28611480": {
@@ -57214,6 +57803,34 @@
 "Journal Article"
 ]
 },
+"pmid:29543316": {
+"autoren": "Wang H, Li L, Qin LL, Song Y, Vidal-Alaball J, Liu TH.",
+"doi": "10.1002/14651858.cd004655.pub3",
+"iso": "Cochrane Database Syst Rev",
+"jahr": "2018",
+"journal": "The Cochrane database of systematic reviews",
+"korr": [],
+"mesh": [
+"Humans",
+"Vitamin B 12 Deficiency",
+"Vitamin B 12",
+"Vitamin B Complex",
+"Administration, Oral",
+"Injections, Intramuscular",
+"Aged",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC6494183",
+"pmid": "29543316",
+"quelle": "MED",
+"titel": "Oral vitamin B&lt;sub&gt;12&lt;/sub&gt; versus intramuscular vitamin B&lt;sub&gt;12&lt;/sub&gt; for vitamin B&lt;sub&gt;12&lt;/sub&gt; deficiency.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"systematic-review",
+"Journal Article"
+]
+},
 "pmid:29549064": {
 "autoren": "Pietilä J, Helander E, Korhonen I, Myllymäki T, Kujala UM, Lindholm H.",
 "doi": "10.2196/mental.9519",
@@ -59487,6 +60104,35 @@
 "Journal Article"
 ]
 },
+"pmid:30285179": {
+"autoren": "Feller M, Snel M, Moutzouri E, Bauer DC, de Montmollin M, Aujesky D, Ford I, Gussekloo J, Kearney PM, Mooijaart S, Quinn T, Stott D, Westendorp R, Rodondi N, Dekkers OM.",
+"doi": "10.1001/jama.2018.13770",
+"iso": "JAMA",
+"jahr": "2018",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypothyroidism",
+"Thyrotropin",
+"Thyroxine",
+"Blood Pressure",
+"Quality of Life",
+"Adult",
+"Practice Guidelines as Topic"
+],
+"pmcid": "PMC6233842",
+"pmid": "30285179",
+"quelle": "MED",
+"titel": "Association of Thyroid Hormone Therapy With Quality of Life and Thyroid-Related Symptoms in Patients With Subclinical Hypothyroidism: A Systematic Review and Meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:30305278": {
 "autoren": "Edwardson CL, Yates T, Biddle SJH, Davies MJ, Dunstan DW, Esliger DW, Gray LJ, Jackson B, O'Connell SE, Waheed G, Munir F.",
 "doi": "10.1136/bmj.k3870",
@@ -60184,6 +60830,33 @@
 "Journal Article"
 ]
 },
+"pmid:30527564": {
+"autoren": "Heidet M, Abdel Wahab A, Ebadi V, Cogne Y, Chollet-Xemard C, Khellaf M.",
+"doi": "10.1016/j.jemermed.2018.10.030",
+"iso": "J Emerg Med",
+"jahr": "2019",
+"journal": "The Journal of emergency medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypoglycemia",
+"Insulin",
+"Glucose",
+"Weight Lifting",
+"Dietary Supplements",
+"Adult",
+"Emergency Service, Hospital",
+"Male"
+],
+"pmcid": "",
+"pmid": "30527564",
+"quelle": "MED",
+"titel": "Severe Hypoglycemia Due to Cryptic Insulin Use in a Bodybuilder.",
+"typen": [
+"Journal Article",
+"Case Reports"
+]
+},
 "pmid:30530985": {
 "autoren": "Koeth RA, Lam-Galvez BR, Kirsop J, Wang Z, Levison BS, Gu X, Copeland MF, Bartlett D, Cody DB, Dai HJ, Culley MK, Li XS, Fu X, Wu Y, Li L, DiDonato JA, Tang WHW, Garcia-Garcia JC, Hazen SL.",
 "doi": "10.1172/jci94601",
@@ -60499,6 +61172,41 @@
 "Clinical Trial",
 "research-article",
 "Journal Article"
+]
+},
+"pmid:30626577": {
+"autoren": "Vinogradova Y, Coupland C, Hippisley-Cox J.",
+"doi": "10.1136/bmj.k4810",
+"iso": "BMJ",
+"jahr": "2019",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Estrogens",
+"Hormone Replacement Therapy",
+"Administration, Cutaneous",
+"Risk Factors",
+"Case-Control Studies",
+"Menopause",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Randomized Controlled Trials as Topic",
+"Venous Thromboembolism",
+"Medroxyprogesterone Acetate",
+"United Kingdom"
+],
+"pmcid": "PMC6326068",
+"pmid": "30626577",
+"quelle": "MED",
+"titel": "Use of hormone replacement therapy and risk of venous thromboembolism: nested case-control studies using the QResearch and CPRD databases.",
+"typen": [
+"Comparative Study",
+"research-article",
+"Journal Article",
+"Observational Study"
 ]
 },
 "pmid:30635141": {
@@ -62119,6 +62827,39 @@
 "Journal Article"
 ]
 },
+"pmid:31088853": {
+"autoren": "Bekkering GE, Agoritsas T, Lytvyn L, Heen AF, Feller M, Moutzouri E, Abdulazeem H, Aertgeerts B, Beecher D, Brito JP, Farhoumand PD, Singh Ospina N, Rodondi N, van Driel M, Wallace E, Snel M, Okwen PM, Siemieniuk R, Vandvik PO, Kuijpers T, Vermandere M.",
+"doi": "10.1136/bmj.l2006",
+"iso": "BMJ",
+"jahr": "2019",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypothyroidism",
+"Fatigue",
+"Thyrotropin",
+"Thyroid Hormones",
+"Thyroxine",
+"Body Mass Index",
+"Uncertainty",
+"Depression",
+"Decision Making",
+"Decision Support Techniques",
+"Quality of Life",
+"Adult",
+"Aged",
+"Female"
+],
+"pmcid": "",
+"pmid": "31088853",
+"quelle": "MED",
+"titel": "Thyroid hormones treatment for subclinical hypothyroidism: a clinical practice guideline.",
+"typen": [
+"Practice Guideline",
+"Journal Article"
+]
+},
 "pmid:31099784": {
 "autoren": "Kuznik BI, Davydov SO, Popravka ES, Lin'kova NS, Kozina LS, Khavinson VK.",
 "doi": "10.1134/s0026898419020095",
@@ -63297,6 +64038,41 @@
 "Journal Article"
 ]
 },
+"pmid:31434507": {
+"autoren": "Ouchi Y, Sasaki J, Arai H, Yokote K, Harada K, Katayama Y, Urabe T, Uchida Y, Hayashi M, Yokota N, Nishida H, Otonari T, Arai T, Sakuma I, Sakabe K, Yamamoto M, Kobayashi T, Oikawa S, Yamashita S, Rakugi H, Imai T, Tanaka S, Ohashi Y, Kuwabara M, Ito H.",
+"doi": "10.1161/circulationaha.118.039415",
+"iso": "Circulation",
+"jahr": "2019",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Treatment Outcome",
+"Incidence",
+"Survival Analysis",
+"Follow-Up Studies",
+"Prospective Studies",
+"Primary Prevention",
+"Aged",
+"Aged, 80 and over",
+"Japan",
+"Female",
+"Male",
+"Atherosclerosis",
+"Hypolipidemic Agents",
+"Ezetimibe"
+],
+"pmcid": "",
+"pmid": "31434507",
+"quelle": "MED",
+"titel": "Ezetimibe Lipid-Lowering Trial on Prevention of Atherosclerotic Cardiovascular Disease in 75 or Older (EWTOPIA 75): A Randomized, Controlled Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:31464546": {
 "autoren": "Ooi SL, Watts S, McClean R, Pak SC.",
 "doi": "10.1089/jwh.2019.7770",
@@ -63323,6 +64099,43 @@
 "typen": [
 "Meta-Analysis",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:31474332": {
+"autoren": "Collaborative Group on Hormonal Factors in Breast Cancer.",
+"doi": "10.1016/s0140-6736(19)31709-x",
+"iso": "Lancet",
+"jahr": "2019",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Breast Neoplasms",
+"Obesity",
+"Progesterone",
+"Estrogens",
+"Progestins",
+"Drug Therapy, Combination",
+"Estrogen Replacement Therapy",
+"Logistic Models",
+"Risk",
+"Risk Factors",
+"Principal Component Analysis",
+"Time Factors",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female"
+],
+"pmcid": "PMC6891893",
+"pmid": "31474332",
+"quelle": "MED",
+"titel": "Type and timing of menopausal hormone therapy and breast cancer risk: individual participant meta-analysis of the worldwide epidemiological evidence.",
+"typen": [
+"Meta-Analysis",
+"Research Support, Non-U.S. Gov't",
+"research-article",
 "Journal Article"
 ]
 },
@@ -64714,6 +65527,41 @@
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
+]
+},
+"pmid:31770156": {
+"autoren": "Pfisterer N, Stöllberger C, Finsterer J.",
+"doi": "10.1097/jsm.0000000000000763",
+"iso": "Clin J Sport Med",
+"jahr": "2020",
+"journal": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Muscle Cramp",
+"Paralysis",
+"Quadriplegia",
+"Somatosensory Disorders",
+"Urinary Retention",
+"Hypokalemia",
+"Potassium",
+"Hydrochlorothiazide",
+"Triamterene",
+"Diuretics",
+"Electrocardiography",
+"Fluid Therapy",
+"Self Medication",
+"Weight Lifting",
+"Male",
+"Young Adult"
+],
+"pmcid": "",
+"pmid": "31770156",
+"quelle": "MED",
+"titel": "Severe Acquired Hypokalemic Paralysis in a Bodybuilder After Self-Medication With Triamterene/Hydrochlorothiazide.",
+"typen": [
+"Journal Article",
+"Case Reports"
 ]
 },
 "pmid:31780016": {
@@ -72168,6 +73016,33 @@
 "Journal Article"
 ]
 },
+"pmid:34291692": {
+"autoren": "D'Souza G, Pandian E, Hosea S.",
+"doi": "10.1177/23247096211026481",
+"iso": "J Investig Med High Impact Case Rep",
+"jahr": "2021",
+"journal": "Journal of investigative medicine high impact case reports",
+"korr": [],
+"mesh": [
+"Humans",
+"Pseudomonas fluorescens",
+"Bacteremia",
+"Vitamins",
+"Anti-Bacterial Agents",
+"Naturopathy",
+"Middle Aged",
+"Female"
+],
+"pmcid": "PMC8312187",
+"pmid": "34291692",
+"quelle": "MED",
+"titel": "A Nearly Fatal Case of <i>Pseudomonas fluorescens</i> Bacteremia Secondary to a Naturopathic Intravenous Vitamin Infusion.",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
+]
+},
 "pmid:34304009": {
 "autoren": "Awosemo O, Neelakantan H, Watowich S, Ma J, Wu L, Chow DS, Liang D.",
 "doi": "10.1016/j.jpba.2021.114255",
@@ -76156,6 +77031,35 @@
 "Journal Article"
 ]
 },
+"pmid:35863366": {
+"autoren": "Kim BK, Hong SJ, Lee YJ, Hong SJ, Yun KH, Hong BK, Heo JH, Rha SW, Cho YH, Lee SJ, Ahn CM, Kim JS, Ko YG, Choi D, Jang Y, Hong MK, RACING investigators.",
+"doi": "10.1016/s0140-6736(22)00916-3",
+"iso": "Lancet",
+"jahr": "2022",
+"journal": "Lancet (London, England)",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Anticholesteremic Agents",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Treatment Outcome",
+"Drug Therapy, Combination",
+"Atherosclerosis",
+"Cholesterol, LDL",
+"Rosuvastatin Calcium",
+"Ezetimibe"
+],
+"pmcid": "",
+"pmid": "35863366",
+"quelle": "MED",
+"titel": "Long-term efficacy and safety of moderate-intensity statin with ezetimibe combination therapy versus high-intensity statin monotherapy in patients with atherosclerotic cardiovascular disease (RACING): a randomised, open-label, non-inferiority trial.",
+"typen": [
+"Equivalence Trial",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:35870709": {
 "autoren": "Liu F, Qiu B, Xi Y, Luo Y, Luo Q, Wu Y, Chen N, Zhou R, Guo J, Wu Q, Xiong M, Liu H.",
 "doi": "10.1016/j.ijrobp.2022.07.009",
@@ -78287,6 +79191,39 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
+"pmid:36648467": {
+"autoren": "Mentz RJ, Anstrom KJ, Eisenstein EL, Sapp S, Greene SJ, Morgan S, Testani JM, Harrington AH, Sachdev V, Ketema F, Kim DY, Desvigne-Nickens P, Pitt B, Velazquez EJ, TRANSFORM-HF Investigators.",
+"doi": "10.1001/jama.2022.23924",
+"iso": "JAMA",
+"jahr": "2023",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Furosemide",
+"Treatment Outcome",
+"Hospitalization",
+"Patient Discharge",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Sodium Potassium Chloride Symporter Inhibitors",
+"Heart Failure",
+"Torsemide"
+],
+"pmcid": "PMC9857435",
+"pmid": "36648467",
+"quelle": "MED",
+"titel": "Effect of Torsemide vs Furosemide After Discharge on All-Cause Mortality in Patients Hospitalized With Heart Failure: The TRANSFORM-HF Randomized Clinical Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Pragmatic Clinical Trial",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
 ]
@@ -83983,6 +84920,23 @@
 "Journal Article"
 ]
 },
+"pmid:38536564": {
+"autoren": "Di Girolamo FG, Biasinutto C, Mangogna A, Fiotti N, Vinci P, Pisot R, Mearelli F, Simunic B, Roni C, Biolo G.",
+"doi": "10.1186/s40798-024-00697-6",
+"iso": "Sports Med Open",
+"jahr": "2024",
+"journal": "Sports medicine - open",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC10973313",
+"pmid": "38536564",
+"quelle": "MED",
+"titel": "Metabolic Consequences of Anabolic Steroids, Insulin, and Growth Hormone Abuse in Recreational Bodybuilders: Implications for the World Anti-Doping Agency Passport.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:38541865": {
 "autoren": "Zafar T, Zaki S, Alam MF, Sharma S, Babkair RA, Nuhmani S, Pandita S.",
 "doi": "10.3390/jcm13061639",
@@ -87124,6 +88078,31 @@
 "Journal Article"
 ]
 },
+"pmid:39570381": {
+"autoren": "Schröder L, Seifert R.",
+"doi": "10.1007/s00210-024-03615-5",
+"iso": "Naunyn Schmiedebergs Arch Pharmacol",
+"jahr": "2025",
+"journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+"korr": [],
+"mesh": [
+"Humans",
+"Drugs, Generic",
+"Drug Costs",
+"Germany",
+"Drug Prescriptions",
+"Prescription Drugs",
+"Practice Patterns, Physicians'"
+],
+"pmcid": "PMC11985566",
+"pmid": "39570381",
+"quelle": "MED",
+"titel": "The 10 top prescribed medicines in Germany from 1985 to 2022: pharmacological analysis.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:39574155": {
 "autoren": "Karaa A, Bertini E, Carelli V, Cohen B, Ennes GM, Falk MJ, Goldstein A, Gorman G, Haas R, Hirano M, Klopstock T, Koenig MK, Kornblum C, Lamperti C, Lehman A, Longo N, Molnar MJ, Parikh S, Phan H, Pitceathly RDS, Saneto R, Scaglia F, Servidei S, Tarnopolsky M, Toscano A, Van Hove JLK, Vissing J, Vockley J, Finman JS, Abbruscato A, Brown DA, Sullivan A, Shiffer JA, Mancuso M, MMPOWER-3 Trial Investigators.",
 "doi": "10.1186/s13023-024-03421-5",
@@ -90119,6 +91098,35 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "Journal Article"
+]
+},
+"pmid:40405371": {
+"autoren": "Nara A, Yamada C, Kozakai Y, Suyama M, Yoshida M, Iwahara K, Takagi T.",
+"doi": "10.1111/1556-4029.70091",
+"iso": "J Forensic Sci",
+"jahr": "2025",
+"journal": "Journal of forensic sciences",
+"korr": [],
+"mesh": [
+"Kidney",
+"Humans",
+"Substance-Related Disorders",
+"Creatinine",
+"Blood Urea Nitrogen",
+"Adult",
+"Female",
+"Sodium Potassium Chloride Symporter Inhibitors",
+"Tandem Mass Spectrometry",
+"Forensic Toxicology",
+"Torsemide"
+],
+"pmcid": "",
+"pmid": "40405371",
+"quelle": "MED",
+"titel": "A fatal case of torsemide abuse based on forensic autopsy findings.",
+"typen": [
+"Journal Article",
+"Case Reports"
 ]
 },
 "pmid:40421736": {
@@ -97473,6 +98481,49 @@
 "Journal Article"
 ]
 },
+"pmid:41880608": {
+"autoren": "Langley RE, Gilbert DC, Mangar S, Rosen S, Bourmaki E, Rush HL, Kananga Sundaram S, Alhasso A, Kockelbergh R, Abdel-Aty H, Amos CL, Brown L, Brown S, Carvalho C, Chan K, Collins G, Cross W, Deighan J, Dixit S, Duong T, Dyer J, Gale J, Gillessen S, Griffiths A, Laniado M, Lydon A, McPhail N, MacNair A, Madaan S, Marshall J, Matheson D, Millman R, Mohamed W, Murphy L, Narahari K, Parker C, Panades M, Pope A, Raval A, Robinson A, Russell M, Scrase C, Sydes M, Turo R, Venkitaraman R, Wade S, Kynaston H, Attard G, James ND, Clarke N, Parmar MK, Nankivell M, STAMPEDE-1 and PATCH Investigators.",
+"doi": "10.1056/nejmoa2511781",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Prostatic Neoplasms",
+"Gynecomastia",
+"Hot Flashes",
+"Testosterone",
+"Estradiol",
+"Androgen Antagonists",
+"Antineoplastic Agents, Hormonal",
+"Estrogens",
+"Administration, Cutaneous",
+"Injections, Subcutaneous",
+"Incidence",
+"Aged",
+"Aged, 80 and over",
+"Middle Aged",
+"Male",
+"Gonadotropin-Releasing Hormone",
+"Kaplan-Meier Estimate",
+"Transdermal Patch",
+"Progression-Free Survival"
+],
+"pmcid": "PMC7619680",
+"pmid": "41880608",
+"quelle": "MED",
+"titel": "Transdermal Estradiol Patches in Locally Advanced Prostate Cancer.",
+"typen": [
+"Clinical Trial, Phase III",
+"Equivalence Trial",
+"research-article",
+"Adaptive Clinical Trial",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:41880673": {
 "autoren": "Testa R, Vitale M, Giosuè A, Salamone D, Quaglia C, Rivellese AA, Bozzetto L, Costabile G.",
 "doi": "10.1016/j.clnu.2026.106624",
@@ -99604,6 +100655,24 @@
 "titel": "Effects of ketone bodies supplementation in patients with heart failure: A systematic review and meta-analysis.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:42273660": {
+"autoren": "Eid MM, Altibi AM, Mostafa MR, Takla A, Salem A, Abdou C, Alhuarrat MAD, Rai D, Aronow WS, Barrsoum K.",
+"doi": "10.5114/amsad/210582",
+"iso": "Arch Med Sci Atheroscler Dis",
+"jahr": "2026",
+"journal": "Archives of medical sciences. Atherosclerotic diseases",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13248750",
+"pmid": "42273660",
+"quelle": "MED",
+"titel": "Efficacy of torsemide versus furosemide in heart failure: a systematic review and meta-analysis of randomized controlled trials.",
+"typen": [
+"review-article",
+"Review",
 "Journal Article"
 ]
 },
@@ -102539,6 +103608,22 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:42998308": {
+"autoren": "Lee SH, Byun YS, Kim JW, Park JH, Cho JM, Kang WC, Yoon HJ, Kim WH, Lee SJ, Lee JB, Jang JY, Shin S, Park IH, Kwon SU, Kim S, Lee YJ, Lee SJ, Hong SJ, Ahn CM, Kim JS, Ko YG, Choi D, Hong MK, Jang Y, Kim GS, Kim BK, Ez-PAVE investigators.",
+"doi": "10.1161/circulationaha.126.083811",
+"iso": "Circulation",
+"jahr": "2026",
+"journal": "Circulation",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42998308",
+"quelle": "MED",
+"titel": "Statin-Ezetimibe Combination Therapy versus Statin Monotherapy in Atherosclerotic Cardiovascular Disease: A Prespecified Secondary Analysis of the Randomized Ez-PAVE Trial.",
+"typen": [
 "Journal Article"
 ]
 },

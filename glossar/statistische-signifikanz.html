@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistische Signifikanz (p-Wert) – einfach erklärt</title>
+<meta name="description" content="Statistisch signifikant heißt: unter der Annahme „kein Effekt“ unwahrscheinlich. Was der p-Wert sagt – und warum signifikant nicht wichtig heißt.">
+<link rel="canonical" href="https://biohackingkompakt.de/glossar/statistische-signifikanz.html">
+<link rel="alternate" hreflang="de" href="https://biohackingkompakt.de/glossar/statistische-signifikanz.html">
+<link rel="alternate" hreflang="en" href="https://biohackingkompakt.de/en/glossar/statistische-signifikanz.html">
+<link rel="alternate" hreflang="x-default" href="https://biohackingkompakt.de/glossar/statistische-signifikanz.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Statistische Signifikanz (p-Wert) – einfach erklärt | Biohacking Kompakt">
+<meta property="og:description" content="Statistisch signifikant heißt: unter der Annahme „kein Effekt“ unwahrscheinlich. Was der p-Wert sagt – und warum signifikant nicht wichtig heißt.">
+<meta property="og:url" content="https://biohackingkompakt.de/glossar/statistische-signifikanz.html">
+<meta property="og:site_name" content="Biohacking Kompakt">
+<!-- og:start -->
+<meta property="og:image" content="https://biohackingkompakt.de/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- og:end -->
+<meta name="theme-color" content="#2f8b6a">
+<link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+<link rel="stylesheet" href="/css/thema.css?v=f6380825">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://biohackingkompakt.de/#organisation","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","founder":{"@type":"Person","@id":"https://biohackingkompakt.de/ueber-uns.html#paul-hoeser","name":"Paul Höser","url":"https://biohackingkompakt.de/ueber-uns.html","sameAs":["https://www.linkedin.com/in/paul-h%C3%B6ser-3b296736/"],"knowsAbout":["Biohacking","Longevity","Nahrungsergänzungsmittel","Peptide","Evidenzbewertung"]},"email":"kontakt@biohackingkompakt.de","description":"Die wissenschaftliche Biohacking-Plattform mit täglichem Podcast, eigenem BK-Score und transparenten Quellen.","logo":"https://biohackingkompakt.de/icons/icon-512.png","sameAs":["https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z","https://open.spotify.com/show/6SHPqZY376hMGedL77qGM7","https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652","https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/biohacking-kompakt","https://www.youtube.com/@biohackingkompakt","https://www.tiktok.com/@biohackingkompakt","https://www.linkedin.com/company/146663518/"]},{"@type":"WebSite","@id":"https://biohackingkompakt.de/#website","name":"Biohacking Kompakt","url":"https://biohackingkompakt.de","inLanguage":"de","publisher":{"@id":"https://biohackingkompakt.de/#organisation"}},{"@type":"DefinedTerm","@id":"https://biohackingkompakt.de/glossar/statistische-signifikanz.html#begriff","name":"Statistische Signifikanz (p-Wert)","description":"Ein Ergebnis heißt statistisch signifikant, wenn es unter der Annahme „kein Effekt“ unwahrscheinlich wäre, üblicherweise bei einem p-Wert unter 0,05. Signifikant heißt weder wichtig noch automatisch wahr.","inDefinedTermSet":{"@type":"DefinedTermSet","@id":"https://biohackingkompakt.de/glossar/#set","name":"Glossar – Biohacking Kompakt","url":"https://biohackingkompakt.de/glossar/"},"url":"https://biohackingkompakt.de/glossar/statistische-signifikanz.html","inLanguage":"de"},{"@type":"Article","@id":"https://biohackingkompakt.de/glossar/statistische-signifikanz.html#artikel","headline":"Statistische Signifikanz (p-Wert)","description":"Ein Ergebnis heißt statistisch signifikant, wenn es unter der Annahme „kein Effekt“ unwahrscheinlich wäre, üblicherweise bei einem p-Wert unter 0,05. Signifikant heißt weder wichtig noch automatisch wahr.","inLanguage":"de","dateModified":"2026-11-12","mainEntityOfPage":"https://biohackingkompakt.de/glossar/statistische-signifikanz.html","author":{"@type":"Person","@id":"https://biohackingkompakt.de/ueber-uns.html#paul-hoeser","name":"Paul Höser","url":"https://biohackingkompakt.de/ueber-uns.html","sameAs":["https://www.linkedin.com/in/paul-h%C3%B6ser-3b296736/"],"knowsAbout":["Biohacking","Longevity","Nahrungsergänzungsmittel","Peptide","Evidenzbewertung"]},"publisher":{"@id":"https://biohackingkompakt.de/#organisation"},"isPartOf":{"@id":"https://biohackingkompakt.de/#website"},"about":{"@id":"https://biohackingkompakt.de/glossar/statistische-signifikanz.html#begriff"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite","item":"https://biohackingkompakt.de/"},{"@type":"ListItem","position":2,"name":"Glossar","item":"https://biohackingkompakt.de/glossar/"},{"@type":"ListItem","position":3,"name":"Statistische Signifikanz (p-Wert)"}]}]}</script>
+</head>
+<body>
+<header class="kopf">
+  <a class="marke" href="/">Biohacking&nbsp;Kompakt</a>
+  <nav><a href="/thema/">Alle Themen</a> <a href="/glossar/">Glossar</a> <a href="/studien/">Studien</a> <a href="/vergleich/">Vergleiche</a> <a href="/#aenderungen">Änderungen</a> <span class="sprache" style="margin-left:.6rem;white-space:nowrap"><strong>DE</strong> | <a href="/en/glossar/statistische-signifikanz.html" hreflang="en" lang="en">EN</a></span></nav>
+</header>
+<main>
+  <article class="gl">
+    <p class="typ">Glossar · Methodik</p>
+    <h1>Statistische Signifikanz (p-Wert)</h1>
+
+    <div class="def">
+      <p class="def-label">Kurz gesagt</p>
+      <p>Ein Ergebnis heißt statistisch signifikant, wenn es unter der Annahme „kein Effekt“ unwahrscheinlich wäre, üblicherweise bei einem p-Wert unter 0,05. Signifikant heißt weder wichtig noch automatisch wahr.</p>
+    </div>
+
+    <section>
+    <p>Der p-Wert beantwortet eine eng gefasste Frage: Wie überraschend wären diese Daten, wenn es gar keinen Unterschied gäbe? Er sagt nicht, wie wahrscheinlich eine Wirkung ist, und nicht, wie groß sie ist.</p>
+    <p>In sehr großen Studien werden auch winzige, praktisch bedeutungslose Unterschiede signifikant. In kleinen Studien bleiben dagegen echte Effekte oft unter der Schwelle. Deshalb gehören zum p-Wert immer die Effektstärke und das Konfidenzintervall.</p>
+    <p>Wer viele Endpunkte testet, findet irgendwann zufällig einen signifikanten. Darum zählt vor allem der vorab festgelegte primäre Endpunkt.</p>
+    </section>
+
+    <p class="merksatz">Signifikant heißt: wohl kein Zufall. Nicht: groß oder wichtig.</p>
+
+    <section class="bsp">
+      <h2>Wo das in den Faktenchecks vorkommt</h2>
+      <ul>
+      <li><a href="/thema/aspirin-praevention.html">Aspirin zur Vorbeugung</a> – Beim Hauptergebnis p = 0,79, also kein Hinweis auf einen Unterschied; bei schweren Blutungen p &lt; 0,001.</li>
+      <li><a href="/thema/hmb.html">HMB</a> – Die Muskelkraft stieg signifikant, die Muskelmasse nur knapp an der Signifikanzgrenze.</li>
+      </ul>
+    </section>
+
+    <section><h2>Quellen</h2><ul class="q">
+      <li><a href="https://europepmc.org/article/MED/27209009" rel="noopener" target="_blank">Greenland 2016, Eur J Epidemiol – Fehldeutungen von p-Werten und Konfidenzintervallen (PMID 27209009)</a></li>
+    </ul></section>
+
+    <p class="siehe">Verwandte Begriffe: <a href="/glossar/konfidenzintervall.html">Konfidenzintervall</a> · <a href="/glossar/effektstaerke.html">Effektstärke</a> · <a href="/glossar/primaerer-endpunkt.html">Primärer Endpunkt</a></p>
+    <p class="app"><a class="btn" href="/glossar/">Alle Begriffe im Glossar</a></p>
+    <p class="disc">Reine Information, keine medizinische Beratung. Der BK-Score ist eine subjektive Einschätzung nach offengelegten Regeln – keine wissenschaftliche Bewertung. <a href="/#score">Vergaberegeln</a></p>
+  </article>
+</main>
+<footer class="fuss">
+  <a href="/">Startseite</a> · <a href="/thema/">Alle Themen</a> · <a href="/problem/">Fragen &amp; Beschwerden</a> · <a href="/folge/">Podcast-Folgen</a> · <a href="/glossar/">Glossar</a> · <a href="/ueber-uns.html">Über uns</a> · <a href="/methodik.html">Methodik</a> · <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
+<!-- konten:start -->
+<p class="konten" style="font-size:.82em;opacity:.8;margin:.5em 0 0">Biohacking Kompakt folgen: <a href="https://open.spotify.com/show/033JO82L47Sg4YSmPYas0z" target="_blank" rel="noopener">Spotify</a> · <a href="https://podcasts.apple.com/de/podcast/biohacking-kompakt/id6804214652" target="_blank" rel="noopener">Apple Podcasts</a> · <a href="https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/biohacking-kompakt" target="_blank" rel="noopener">Amazon Music</a> · <a href="https://www.youtube.com/@biohackingkompakt" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.tiktok.com/@biohackingkompakt" target="_blank" rel="noopener">TikTok</a> · <a href="https://discord.gg/pa3YNFfNSn" target="_blank" rel="noopener">Discord</a></p>
+<!-- konten:end -->
+</footer>
+<!-- webmcp:start -->
+<script defer src="/js/webmcp.js?v=79da6fd6"></script>
+<!-- webmcp:end -->
+<!-- beacon:start -->
+<!-- Cloudflare Web Analytics: cookielos, einwilligungsfrei, siehe /datenschutz.html Abschnitt 2a. -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "eb65c23d21004115bff539ec16445165"}'></script>
+<!-- beacon:end -->
+</body>
+</html>
