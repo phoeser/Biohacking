@@ -28,6 +28,8 @@ const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-404
 
 const PODCAST_FOLGEN = [
   { nr: 160, datum: '2026-11-29', ab: '2026-11-29T07:00:00Z', titel: 'Mazdutide gegen Retatrutid – das Duell, das es noch nicht gibt', spotify: '4ECX9LGwAYH6TiW5JnGHOR', ziel: { view: 'experimental', id: 'mazdutide' } },
+  { nr: 158, datum: '2026-11-15', ab: '2026-11-15T07:00:00Z', titel: 'Update: Testosteron – der Bauch zählt mehr als das Alter', spotify: '6unVPRMcCmBGnbK9xrRR54', ziel: { view: 'experimental', id: 'testosteron' } },
+  { nr: 157, datum: '2026-11-13', ab: '2026-11-13T07:00:00Z', titel: 'News: Lipoprotein(a) – minus 78 Prozent, und das Herz merkt nichts', spotify: '1ojFYGorWUYcWtu6JflYtz', ziel: { view: 'behandlungen', id: 'lipoprotein-a' } },
   { nr: 156, datum: '2026-11-08', ab: '2026-11-08T07:00:00Z', titel: 'Update: Retatrutid – das erste Duell mit Ozempic', spotify: '5Cr7aTuhcFj5GC1JDeJwf1', apple: '1000800526047', ziel: { view: 'experimental', id: 'retatrutide' } },
   { nr: 155, datum: '2026-12-02', ab: '2026-12-02T07:00:00Z', titel: 'ChatGPT und Grok zu Gast – was KIs über BPC-157 wissen und wo sie sich widersprechen', spotify: '0h1HMi7vwmvm1foO77cTLJ', ziel: { view: 'experimental', id: 'bpc-157' } },
   { nr: 154, datum: '2026-12-01', ab: '2026-12-01T07:00:00Z', titel: 'Nandrolon – ein Steroid, eine Zahnpasta und sechzig Jahre Daten', spotify: '4SCbOG4smY5TJlDzGvs0oK', ziel: { view: 'experimental', id: 'nandrolon' } },
@@ -46,9 +48,9 @@ const PODCAST_FOLGEN = [
   { nr: 141, datum: '2026-11-18', ab: '2026-11-18T07:00:00Z', titel: 'Humanin – das Peptid aus dem Teil des Gehirns, der heil geblieben war', spotify: '6Wavtei3Mx6Cj0A1z6e7MV', ziel: { view: 'experimental', id: 'humanin' } },
   { nr: 140, datum: '2026-11-17', ab: '2026-11-17T07:00:00Z', titel: 'Citrus Bergamot – das „natürliche Statin“ aus Kalabrien und was es wirklich kann', spotify: '1P5n4IIdWjR0KIUu3iS00T', ziel: { view: 'supplement', id: 'citrus-bergamot' } },
   { nr: 139, datum: '2026-11-16', ab: '2026-11-16T07:00:00Z', titel: 'Die GLP-1-Welle – Semaglutid zwischen Herzschutz, Ruhe im Kopf und Schwarzmarkt', spotify: '2MBsebnelzIX1FrnjYN7go', ziel: { view: 'experimental', id: 'semaglutide' } },
-  { nr: 138, datum: '2026-11-15', ab: '2026-11-15T07:00:00Z', titel: 'Follistatin und Myostatin-Hemmer – Muskeln ohne Training, zwanzig Jahre später', spotify: '0NMmVGbDL9j0gXbhq2P9zP', ziel: { view: 'experimental', id: 'follistatin' } },
+  { nr: 138, datum: '2026-12-06', ab: '2026-12-06T07:00:00Z', titel: 'Follistatin und Myostatin-Hemmer – Muskeln ohne Training, zwanzig Jahre später', spotify: '0NMmVGbDL9j0gXbhq2P9zP', ziel: { view: 'experimental', id: 'follistatin' } },
   { nr: 137, datum: '2026-11-14', ab: '2026-11-14T07:00:00Z', titel: 'GlyNAC – zwei billige Bausteine, ein Patent und die Frage nach der Summe', spotify: '6SjoDjt0RRLDsmd858yEak', ziel: { view: 'supplement', id: 'glynac' } },
-  { nr: 136, datum: '2026-11-13', ab: '2026-11-13T07:00:00Z', titel: 'Mundmikrobiom – ein Zahnfleischkeim im Gehirn und der bessere Grund für Zahnseide', spotify: '5U1mcwzTJfTn3YbImfKZr1', ziel: { view: 'behandlungen', id: 'mundmikrobiom' } },
+  { nr: 136, datum: '2026-12-05', ab: '2026-12-05T07:00:00Z', titel: 'Mundmikrobiom – ein Zahnfleischkeim im Gehirn und der bessere Grund für Zahnseide', spotify: '5U1mcwzTJfTn3YbImfKZr1', ziel: { view: 'behandlungen', id: 'mundmikrobiom' } },
   { nr: 135, datum: '2026-11-12', ab: '2026-11-12T07:00:00Z', titel: 'Canagliflozin – vierzehn Prozent für Männchen, und was mit den Weibchen passierte', spotify: '1pdYVfvzdFxSW8JpsfDyxz', ziel: { view: 'experimental', id: 'canagliflozin' } },
   { nr: 134, datum: '2026-11-11', ab: '2026-11-11T07:00:00Z', titel: 'Tongkat Ali und Fadogia – eine Pflanze geprüft, eine nicht', spotify: '2aHxBvJGlRyFGiOwrNPXyB', ziel: { view: 'supplement', id: 'tongkat-ali' } },
   { nr: 133, datum: '2026-11-10', ab: '2026-11-10T07:00:00Z', titel: 'Hormontherapie in den Wechseljahren – acht Fälle, zwei falsche Schlagzeilen', spotify: '4fRKaF7BVQr2uLmnNPksUH', ziel: { view: 'behandlungen', id: 'menopause-hrt' } },
