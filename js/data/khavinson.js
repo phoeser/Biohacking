@@ -258,8 +258,7 @@ const KHAVINSON = [
       { title: 'Khavinson 2005, Bull Exp Biol Med – Tetrapeptid und Insulinbildung bei Alloxan-Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/16671579/' },
       { title: 'Khavinson et al. 2013, Bull Exp Biol Med – Pancragen und Differenzierung alternder Pankreaszellen', url: 'https://pubmed.ncbi.nlm.nih.gov/23486591/' }
     ],
-    community: [
-    ]
+    community: []
   },
   {
     id: 'kh-testagen',
@@ -326,8 +325,7 @@ const KHAVINSON = [
       { title: 'Khavinson & Morozov 2003, Neuro Endocrinol Lett – Thymalin und Epithalamin bei Älteren', url: 'https://pubmed.ncbi.nlm.nih.gov/14523363/' },
       { title: 'Ryzhak et al. 2003, Bull Exp Biol Med – Herstellung und Reinheit natürlicher Peptidregulatoren', url: 'https://pubmed.ncbi.nlm.nih.gov/12717513/' }
     ],
-    community: [
-    ]
+    community: []
   },
   {
     id: 'kh-cardiogen',
@@ -363,9 +361,7 @@ const KHAVINSON = [
       { title: 'Kheifets et al., Adv Gerontol 2010 – Cardiogen in gealterten menschlichen Prostata-Fibroblasten', url: 'https://pubmed.ncbi.nlm.nih.gov/20586252/' },
       { title: 'Khavinson et al., Biomolecules 2023 – Transport ultrakurzer Peptide über LAT und PEPT (Modellierung)', url: 'https://pubmed.ncbi.nlm.nih.gov/36979488/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Cardiogen")', url: 'https://biolabshop.de/' }
-    ]
+    community: []
   },
   {
     id: 'kh-cartalax',
@@ -401,9 +397,7 @@ const KHAVINSON = [
       { title: 'Fridman et al., Bull Exp Biol Med 2020 – AED steigert Sirtuine und Kollagen I in Hautfibroblasten', url: 'https://pubmed.ncbi.nlm.nih.gov/33231794/' },
       { title: 'Khavinson et al., Bull Exp Biol Med 2014 – T-31 (AED) in alternden Nierenzellkulturen', url: 'https://pubmed.ncbi.nlm.nih.gov/24958378/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Cartalax")', url: 'https://biolabshop.de/' }
-    ]
+    community: []
   },
   {
     id: 'kh-cortagen',

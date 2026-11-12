@@ -160,8 +160,7 @@ const EXPERIMENTAL = [
       { title: 'Malhotra A et al., NEJM 2024 – SURMOUNT-OSA', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2404881' }
     ],
     community: [
-      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'biolabshop (Tirzepatide)', url: 'https://biolabshop.de/' }
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
       {
@@ -214,7 +213,6 @@ const EXPERIMENTAL = [
       { title: 'Eli Lilly, Herstellermitteilung zu TRIUMPH-1 (21.05.2026)', url: 'https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss' }
     ],
     community: [
-      { title: 'biolabshop – Retatrutide (Triple G)', url: 'https://biolabshop.co.uk/209-retatrutide' },
       { title: 'Iron Mike: Retatrutide-Q&A', url: 'https://www.youtube.com/post/UgkxvmKFskjZ2XJh0aQDlzNnow5LEYzeIS8-' },
       { title: 'Retatrutide vs. SLU-PP-332 (Fat Loss Vergleich)', url: 'https://www.youtube.com/watch?v=5fFJIHzrSzQ' }
     ],
@@ -337,8 +335,7 @@ const EXPERIMENTAL = [
       { title: 'EMA – Rücknahme des Zulassungsantrags für Egrifta, 26.06.2012', url: 'https://www.ema.europa.eu/en/news/ferrer-internacional-sa-withdraws-its-marketing-authorisation-application-egrifta-tesamorelin' },
       { title: 'DailyMed – US-Fachinformation Egrifta WR', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=839334d3-8c1d-4c26-9036-2ab524a6ea75' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       {
         title: 'Sermorelin & Tesamorelin: Die GHRH-Klassiker im Faktencheck',
@@ -411,7 +408,6 @@ const EXPERIMENTAL = [
       { title: 'Adunsky A et al., Arch Gerontol Geriatr 2011 – Phase IIb an Hüftfrakturpatienten, wegen Herzinsuffizienz-Signal vorzeitig beendet', url: 'https://pubmed.ncbi.nlm.nih.gov/21067829/' }
     ],
     community: [
-      { title: 'biolabshop (MK-677)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -462,7 +458,6 @@ const EXPERIMENTAL = [
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
     community: [
-      { title: 'biolabshop (CJC/Ipamorelin)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -501,7 +496,6 @@ const EXPERIMENTAL = [
       { title: 'WADA Prohibited List 2022 (BPC-157 added)', url: 'https://www.wada-ama.org/sites/default/files/resources/files/2022list_final_en.pdf' }
     ],
     community: [
-      { title: 'biolabshop – BPC-157 5 mg', url: 'https://biolabshop.co.uk/peptides/115-bpc-157-5mg-5905601708391.html' },
       { title: 'Iron Mike: BPC-157 Wirkung (Instagram)', url: 'https://www.instagram.com/iron_mike69/reel/C-HihgNoYd0/' },
       { title: 'Peptid 1x1 – BPC-157', url: 'https://www.youtube.com/watch?v=j7TDexpVkGE' }
     ],
@@ -552,7 +546,6 @@ const EXPERIMENTAL = [
       { title: 'Rahaman KA et al., J Chromatogr B 2024 – TB-500 (Ac-LKKTETQ): Analytik und Abbau', url: 'https://pubmed.ncbi.nlm.nih.gov/38382158/' }
     ],
     community: [
-      { title: 'biolabshop – TB-500/BPC-157 Combo', url: 'https://biolabshop.co.uk/peptides/321-tb-4-fragbpc-157-arg-700-mcg-30-caps.html' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -592,7 +585,6 @@ const EXPERIMENTAL = [
       { title: 'FDA – Bulk Drug Substances Nominated for Use in Compounding Under Section 503A, Stand 14.05.2026', url: 'https://www.fda.gov/media/94155/download' }
     ],
     community: [
-      { title: 'biolabshop (GHK-Cu)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -636,9 +628,7 @@ const EXPERIMENTAL = [
       { title: 'Sterckx und De Keyser, Cureus 2026 – euglykämische Ketoazidose nach gefälschtem Semaglutid', url: 'https://pubmed.ncbi.nlm.nih.gov/41773123/' },
       { title: 'WADA Prohibited List – Gruppen S0 und S2', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'Peptid-Stacks & Blends: Warum kombinieren? Die Grundlagen-Folge', audio: 'audio/peptid-stacks-podcast.mp3', spotify: '1vjClyXNbjwk08HCl5Eeq9', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 54) · mit Paul & Paula. Stack oder Blend, das Prinzip der komplementären Pfade („nie zweimal dieselbe Klingel"), die Stack-Galerie des Podcasts, die fünf Handwerksregeln, die ehrliche Blend-Abwägung zwischen Bequemlichkeit und zementierten Verhältnissen – und die Erinnerung, dass der beste Stack gratis ist: Schlaf, Training, Protein, Sonne. Reine Information, keine Dosier- oder Anwendungsempfehlung.' }
     ],
@@ -672,9 +662,7 @@ const EXPERIMENTAL = [
       { title: 'Treadwell et al., Ann N Y Acad Sci 2012 – Thymosin Beta-4 und Wundheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/23050815/' },
       { title: 'Tewari et al., Am J Sports Med 2026 – Übersicht zu sechs Szene-Peptiden inkl. BPC-157, TB-500, GHK-Cu', url: 'https://pubmed.ncbi.nlm.nih.gov/42578445/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'GLOW (GHK-Cu + BPC-157 + TB-500): Der Beauty-Stack im Faktencheck', audio: 'audio/glow-podcast.mp3', spotify: '1yvGmRZsYrAmEjZm4InKks', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 51) · mit Paul & Paula. Loren Pickarts Entdeckung von 1973, die 4000-Gene-Analyse, Kupfer als Zündschlüssel der Kollagen-Quervernetzung, die Bauarbeiter-Straßen-Bauplan-Logik – und die ehrliche Einordnung: keine Kombi-Studien. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 22.08.2026, 10:00)' }
     ],
@@ -708,9 +696,7 @@ const EXPERIMENTAL = [
       { title: 'Tewari et al., Am J Sports Med 2026 – Szene-Peptide in der Sportmedizin', url: 'https://pubmed.ncbi.nlm.nih.gov/42578445/' },
       { title: 'McDermott Will & Schulte, Juli 2026 – Bericht zur FDA-Expertensitzung (PCAC) vom 23./24.07.2026', url: 'https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'KLOW (KPV + GHK-Cu + BPC-157 + TB-500): Der Heilungs-Stack im Faktencheck', audio: 'audio/klow-podcast.mp3', spotify: '1JtzfQ7YLfHmFcM1V6xXoa', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 53) · mit Paul & Paula. Die Substanz aus Folge 1 kehrt zurück: KPV als NF-κB-Bremse macht aus dem Beauty-Stack den Ganzkörper-Heilungs-Stack – mit Darm-Hirn-Achse, Colitis-Daten und GLOW-vs.-KLOW-Entscheidungshilfe. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 23.08.2026, 10:00)' }
     ],
@@ -745,8 +731,7 @@ const EXPERIMENTAL = [
       { title: 'Dhillon S, Keam SJ, Drugs 2019 – Bremelanotide: First Approval', url: 'https://pubmed.ncbi.nlm.nih.gov/31429064/' }
     ],
     community: [
-      { title: 'Sexuelle Funktionsstörungen ärztlich abklären (Ursachensuche, Herz-Kreislauf)', url: 'https://www.gelbe-liste.de/wirkstoffe/Bremelanotid_57503' },
-      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
+      { title: 'Sexuelle Funktionsstörungen ärztlich abklären (Ursachensuche, Herz-Kreislauf)', url: 'https://www.gelbe-liste.de/wirkstoffe/Bremelanotid_57503' }
     ],
     podcasts: [
       { title: 'PT-141 (Bremelanotid): Die Lust-Spritze fürs Gehirn im Faktencheck', audio: 'audio/pt-141-podcast.mp3', spotify: '2D3wSp3syLHObeyXzCi2nR', lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 20). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Melanocortin-Agonist, der das Verlangen zentral im Gehirn steigert – nicht die Durchblutung wie Cialis. Echt zugelassen (Vyleesi, FDA 2019), aber NUR für Frauen mit HSDD; die Biohacking-Nutzung ist off-label/Graumarkt. Effekt moderat; kritisch: Übelkeit, Blutdruckanstieg (Kontraindikation bei Herz-Kreislauf), Hautverfärbung. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -784,8 +769,7 @@ const EXPERIMENTAL = [
       { title: 'ETLAS-2 (Stroke 2025) – Tadalafil, Hirndurchblutung & Kognition bei Kleingefäßerkrankung', url: 'https://www.ahajournals.org/doi/10.1161/STROKEAHA.125.051602' }
     ],
     community: [
-      { title: 'Verschreibungspflichtig – über Arzt & Apotheke beziehen (geprüfte Qualität, Beratung zu Wechselwirkungen)', url: 'https://www.gelbe-liste.de/wirkstoffe/Tadalafil_23331' },
-      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
+      { title: 'Verschreibungspflichtig – über Arzt & Apotheke beziehen (geprüfte Qualität, Beratung zu Wechselwirkungen)', url: 'https://www.gelbe-liste.de/wirkstoffe/Tadalafil_23331' }
     ],
     podcasts: [
       {
@@ -880,8 +864,7 @@ const EXPERIMENTAL = [
       { title: 'Kim SD et al., Pharmaceuticals 2026 – Scoping Review Krebsbegleitung', url: 'https://www.mdpi.com/1424-8247/19/9/1492' }
     ],
     community: [
-      { title: 'Peptide Therapies – Thymosin Alpha-1 Übersicht', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
-      { title: 'biolabshop (Suche „Thymosin")', url: 'https://biolabshop.de/' }
+      { title: 'Peptide Therapies – Thymosin Alpha-1 Übersicht', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' }
     ],
     podcasts: [
       { title: 'KI-Podcast: Thymosin Alpha-1 – das Immun-Peptid mit Zulassung', audio: 'audio/thymosin-alpha-1-podcast.mp3', spotify: '11QZafzo2jGgDsOl3xxA11', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 7) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Thymosin Alpha-1, den „Dirigenten" des Immunsystems: ein körpereigenes Thymus-Peptid, das T-Zellen reifen lässt und die Abwehr ins Gleichgewicht bringt. Als Zadaxin in über 30 Ländern zugelassen; in einer kleinen rückblickenden COVID-Auswertung (Liu et al., Clin Infect Dis 2020) mit geringerer Sterblichkeit verbunden, größere Studien fanden keinen Vorteil. Longevity-Bezug: Thymus-Schrumpfung und Immunoseneszenz. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1001,7 +984,6 @@ const EXPERIMENTAL = [
       { title: 'REDEFINE Studienreihe (Phase 3)', url: 'https://classic.clinicaltrials.gov/ct2/show/NCT05567796' }
     ],
     community: [
-      { title: 'biolabshop (Cagrilintide-Forschungspeptid)', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -1085,9 +1067,7 @@ const EXPERIMENTAL = [
       { title: 'FDA – Bulk Drug Substances mit möglichen erheblichen Sicherheitsrisiken (Kategorie 2), Kisspeptin-10', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' },
       { title: 'FDA – Sitzung des Pharmacy Compounding Advisory Committee vom 29.10.2024 (u. a. Kisspeptin-10)', url: 'https://www.fda.gov/advisory-committees/advisory-committee-calendar/october-29-2024-meeting-pharmacy-compounding-advisory-committee-10292024' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Sonstige'
   },
   {
@@ -1183,9 +1163,7 @@ const EXPERIMENTAL = [
       { title: 'Hersch EC & Merriam GR, Clin Interv Aging 2008 – GHRH bei Älteren: IGF-1, Körperzusammensetzung, Funktion', url: 'https://pubmed.ncbi.nlm.nih.gov/18488883/' },
       { title: 'Vitiello MV et al., Neurobiol Aging 2006 – 89 gesunde Ältere, sechs Monate GHRH oder Placebo, Kognition', url: 'https://pubmed.ncbi.nlm.nih.gov/16399214/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       {
         title: 'Sermorelin & Tesamorelin: Die GHRH-Klassiker im Faktencheck',
@@ -1226,8 +1204,7 @@ const EXPERIMENTAL = [
       { title: 'McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026', url: 'https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/' }
     ],
     community: [
-      { title: 'Retatrutide / SLU / MOTS-c Diskussion', url: 'https://www.youtube.com/watch?v=hiTorLOAWKQ' },
-      { title: 'biolabshop (Suche „MOTS-c")', url: 'https://biolabshop.de/' }
+      { title: 'Retatrutide / SLU / MOTS-c Diskussion', url: 'https://www.youtube.com/watch?v=hiTorLOAWKQ' }
     ],
     podcasts: [
       { title: 'KI-Podcast: MOTS-c – das mitochondriale Peptid', audio: 'audio/mots-c-podcast.mp3', spotify: '0QdJ0uUCvxloFqJVXLIWre', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 4) · mit Paul & Paula. Frische, positive KI-Dialogfolge über MOTS-c, das mitochondriale Peptid: warum die Kraftwerke der Zelle ein eigenes Signalmolekül verschicken, wie es über den Energie-Sensor AMPK wirkt („Sport in Molekülform"), was die Studien von Lee (Cell Metab 2015) und Reynolds (Nat Commun 2021) zeigten und warum es für Stoffwechsel und Longevity so spannend ist. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1271,7 +1248,6 @@ const EXPERIMENTAL = [
     ],
     community: [
       { title: 'Peptide Therapies – inkl. Epitalon', url: 'https://www.youtube.com/watch?v=MZmVl7IB3bA' },
-      { title: 'biolabshop (Suche „Epitalon")', url: 'https://biolabshop.de/' },
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
@@ -1310,8 +1286,7 @@ const EXPERIMENTAL = [
       { title: 'Medvedev et al., Zh Nevrol Psikhiatr 2015 – Selank als Zusatz zu Phenazepam (70 Patienten)', url: 'https://pubmed.ncbi.nlm.nih.gov/26356395/' },
       { title: 'Volkova et al., Front Pharmacol 2016 – Selank und GABA-Genexpression', url: 'https://pubmed.ncbi.nlm.nih.gov/26924987/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       { title: 'Selank: Angst lösen ohne Benzo-Nebenwirkungen? Das russische Peptid im Faktencheck', audio: 'audio/selank-podcast.mp3', spotify: '4aVYSN3bbxyUtzXsLmzNGg', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula, ElevenLabs-Stimmen)', note: 'Der Podcast von Paul Höser (Folge 25) · mit Paul & Paula. KI-Dialogfolge mit Fachrecherche zur häufigsten Frage: Wirkt Selank wie ein Benzodiazepin? Drei kleine russische Patientenstudien zeigen eine vergleichbare angstlösende Wirkung ohne die typische Benommenheit, der stärkste Befund aber zeigt Selank als Begleiter: Zusätzlich zu Phenazepam setzte die Wirkung früher ein, und die Nebenwirkungen des Benzos gingen zurück. Dazu die Grenzen – kein Placeboarm, keine unabhängige Wiederholung außerhalb Russlands, Abhängigkeit nie gezielt untersucht. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – in Deutschland nicht als Arzneimittel zugelassen.', sources: [
           { title: 'Zozulia et al., Zh Nevrol Psikhiatr 2008 – Selank bei generalisierter Angststörung', url: 'https://pubmed.ncbi.nlm.nih.gov/18454096/' },
@@ -1352,8 +1327,7 @@ const EXPERIMENTAL = [
       { title: 'Lebedeva et al., Bull Exp Biol Med 2018 – fMRT nach Semax gegen Placebo bei 24 Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/30225715/' },
       { title: 'Magrì et al., J Inorg Biochem 2016 – Acetylierung hebt Zellschutz vor Kupfertoxizität auf', url: 'https://pubmed.ncbi.nlm.nih.gov/27586814/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       {
         title: 'Semax: Russisches Nootropikum im Faktencheck',
@@ -1399,8 +1373,7 @@ const EXPERIMENTAL = [
       { title: 'Gevaert et al., Drug Test Anal 2015 — Peptidprofil einer im Internet gekauften Probe', url: 'https://pubmed.ncbi.nlm.nih.gov/26017115/' },
       { title: 'Fachinformation Cerebrolysin, Österreich (Zulassungsnr. 1-21380), Arzneispezialitätenregister des BASG', url: 'https://aspregister.basg.gv.at/' }
     ],
-    community: [
-    ]
+    community: []
   },
   {
     id: 'pentadeca-arginate',
@@ -1429,9 +1402,7 @@ const EXPERIMENTAL = [
       { title: 'McGuire et al., Curr Rev Musculoskelet Med 2025 – BPC-157 für Muskel- und Sehnenheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/40789979/' },
       { title: 'Mateescu et al., Pharmaceutics 2026 – BPC-157 aus Sicht der Arzneimittelentwicklung', url: 'https://pubmed.ncbi.nlm.nih.gov/42198317/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'Pentadeca Arginate (PDA): Der Nachfolger von BPC-157 im Faktencheck', audio: 'audio/pentadeca-arginate-podcast.mp3', spotify: '25P0QX2mR0rtaupodPvMpC', lengthLabel: '≈ 14 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 40) · mit Paul & Paula. Als die FDA Ende 2023 BPC-157 ausbremste, füllte PDA die Lücke: dieselbe 15-Aminosäuren-Sequenz, aber als stabileres Arginat-Salz. Die Folge erzählt die Sikirić-Forschung (Brcic 2009, Seiwerth 2021), den Mechanismus (VEGFR2-Angiogenese, Fibroblasten, NO), Einsatzfelder von Sehne bis Darm, Prä-/Post-OP-Protokolle, den neuen Wolverine-Stack mit TB-500 – und ordnet die Evidenz ehrlich ein (keine eigenen Humanstudien). Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Brcic et al., J Physiol Pharmacol 2009 – BPC-157 und Gefäßneubildung in Muskel- und Sehnenheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/20388964/' },
@@ -1467,8 +1438,7 @@ const EXPERIMENTAL = [
       { title: 'Szeto, Br J Pharmacol 2014 – Mitochondrial gerichtete Peptide und Wirkmechanismus von SS-31', url: 'https://pubmed.ncbi.nlm.nih.gov/24117165/' },
       { title: 'Reid Thompson et al., Genet Med 2021 – Elamipretide beim Barth-Syndrom (klinische Studie)', url: 'https://pubmed.ncbi.nlm.nih.gov/33077895/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       {
         title: 'SS-31: Das FDA-zugelassene Mitochondrien-Peptid – im Faktencheck',
@@ -1512,8 +1482,7 @@ const EXPERIMENTAL = [
       { title: 'Billon C et al., J Pharmacol Exp Ther 2026 – SLU-PP-915; SLU-PP-332 nicht oral bioverfügbar', url: 'https://pubmed.ncbi.nlm.nih.gov/41421047/' }
     ],
     community: [
-      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'biolabshop (Suche „SLU-PP-332")', url: 'https://biolabshop.de/' }
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
       { title: 'KI-Podcast: SLU-PP-332 – „Sport in der Spritze"?', audio: 'audio/slu-pp-332-podcast.mp3', spotify: '78sborgd6xvQKQVOI9Qu8m', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 5) · mit Paul & Paula. Frische, positive KI-Dialogfolge über SLU-PP-332, das kleine Labormolekül aus der Gruppe um Thomas Burris, das die ERR-Schalter für Mitochondrien und Fettverbrennung anschaltet. Untrainierte Mäuse liefen nach einer einzigen Gabe rund 70 Prozent länger und 45 Prozent weiter (ACS Chem Biol 2023, Billon et al.); fehlte ERRα im Muskel, blieb der Effekt aus. Dazu übergewichtige Mäuse, ein Herzschwäche-Modell und erste menschliche Muskelzellen – und der ehrliche Rahmen: Am Menschen ist SLU-PP-332 nie geprüft, und laut den Entwicklern wird es geschluckt nicht ausreichend aufgenommen. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1561,8 +1530,7 @@ const EXPERIMENTAL = [
       { title: 'ClinicalTrials.gov – keine eingetragene Studie zu 5-Amino-1MQ oder NNMT-Inhibitoren', url: 'https://clinicaltrials.gov/search?term=NNMT%20inhibitor' }
     ],
     community: [
-      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'biolabshop (Suche „5-Amino-1MQ")', url: 'https://biolabshop.de/' }
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
       { title: 'KI-Podcast: 5-Amino-1MQ – der NNMT-Hemmer, der Fett über Energieverbrauch angeht', audio: 'audio/5-amino-1mq-podcast.mp3', spotify: '71gD9FHwpfiLoCfy8BjgTy', lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 8). Frische KI-Dialogfolge (Paul & Paula) mit Fachrecherche: eleganter NAD+- und SAM-Mechanismus, Fettverlust über mehr Energieverbrauch, Muskel/Kraft, Longevity – plus ehrlicher Reality-Check (Tierdaten, keine reifen Humanstudien, Graumarkt). Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -1602,8 +1570,7 @@ const EXPERIMENTAL = [
       { title: 'Saniona – Tesofensine (Herstellerangabe zum Zulassungsstand)', url: 'https://saniona.com/pipeline/tesofensine/' }
     ],
     community: [
-      { title: 'Iron Mike: SLU-PP-332 vs. Tesofensine', url: 'https://www.youtube.com/shorts/kD6FVLFTcK8' },
-      { title: 'biolabshop (Suche „Tesofensin")', url: 'https://biolabshop.de/' }
+      { title: 'Iron Mike: SLU-PP-332 vs. Tesofensine', url: 'https://www.youtube.com/shorts/kD6FVLFTcK8' }
     ],
     podcasts: [
       { title: 'KI-Podcast: Tesofensine – der Zufalls-Fund als Abnehm-Tablette (mit Tesomet-Trick)', audio: 'audio/tesofensine-podcast.mp3', spotify: '4tCUWipyMuwsmSQ2foeKBV', lengthLabel: '≈ 15 Min · Deutsch · 2 KI-Stimmen', note: 'Der Podcast von Paul Höser (Folge 34). KI-generierte deutsche Folge (Paul & Paula) mit Fachrecherche. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung. Bei uns nicht als Arzneimittel zugelassen; wirkt auf Herz-Kreislauf – im Zweifel ärztlich abklären.' }
@@ -1640,9 +1607,7 @@ const EXPERIMENTAL = [
       { title: 'ClinicalTrials.gov NCT07668414 – AMAZE 7, Zenagamtide im Vergleich mit Semaglutid, Phase 3', url: 'https://clinicaltrials.gov/study/NCT07668414' },
       { title: 'ClinicalTrials.gov NCT07797335 – AMBITION 7, Zenagamtide bei Typ-2-Diabetes im Vergleich mit Insulin glargin, Phase 3', url: 'https://clinicaltrials.gov/study/NCT07797335' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Stoffwechsel'
   },
   {
@@ -1672,9 +1637,7 @@ const EXPERIMENTAL = [
       { title: 'le Roux CW et al., Lancet Diabetes Endocrinol 2024 – Phase-2-Dosisfindung', url: 'https://pubmed.ncbi.nlm.nih.gov/38330987/' },
       { title: 'Noureddin M et al., Hepatology 2026 – Mediationsanalyse zur Leberwirkung', url: 'https://pubmed.ncbi.nlm.nih.gov/42545725/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Stoffwechsel'
   },
   {
@@ -1806,8 +1769,7 @@ const EXPERIMENTAL = [
       { title: 'Van Wagoner et al., JAMA 2017 – Analyse von SARM-Produkten', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' },
       { title: 'Ladna et al., J Med Case Rep 2023 – Leberschaden unter RAD140', url: 'https://pubmed.ncbi.nlm.nih.gov/36978171/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       { title: 'RAD140 (Testolone): Das SARM im Faktencheck', audio: 'audio/rad140-podcast.mp3', spotify: '6pdj4nVBmovKQhN7MK0TwA', lengthLabel: '≈ 13 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 66) · mit Paul & Paula. Die brillante SARM-Idee und die ernüchternde Realität: eine einzige Humanstudie (Leberwerte dosislimitierend), Achsen-Suppression, HDL-Absturz, JAMA-Etiketten-Analyse, Ostarine & Co., Neuroprotektions-Mythos, WADA – Wissen statt Werbung. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 05.09.2026, 10:00)' }
     ],
@@ -1843,9 +1805,7 @@ const EXPERIMENTAL = [
       { title: 'EMA – Rückzugsschreiben Isembyld (Apitegromab), 13.08.2026', url: 'https://www.ema.europa.eu/en/documents/withdrawal-letter/withdrawal-letter-isembyld_en.pdf' },
       { title: 'FDA – Zulassung von Isembyld (Apitegromab) bei spinaler Muskelatrophie, 11.09.2026', url: 'https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-therapy-target-muscle-loss-spinal-muscular-atrophy' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    community: []
   },
   {
     id: 'ghrp-2',
@@ -1878,8 +1838,7 @@ const EXPERIMENTAL = [
       { title: 'Bowers CY et al., Endocrinology 1984 – das erste GH freisetzende Hexapeptid (Vorläufer)', url: 'https://pubmed.ncbi.nlm.nih.gov/6714155/' },
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
-    community: [
-    ],
+    community: [],
     filterCat: 'Exercise'
   },
   {
@@ -1913,8 +1872,7 @@ const EXPERIMENTAL = [
       { title: 'Berlanga-Acosta J et al., Clin Med Insights Cardiol 2017 – Übersicht zu schützenden Effekten der GHRPs', url: 'https://pubmed.ncbi.nlm.nih.gov/28469491/' },
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Wachstumshormon-Peptide: Evidenz und Selbstanwendung', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
-    community: [
-    ],
+    community: [],
     filterCat: 'Exercise'
   },
   {
@@ -1957,8 +1915,7 @@ const EXPERIMENTAL = [
       { title: 'Frieboes et al., Psychoneuroendocrinology 2004 – Hexarelin verringert den Tiefschlaf', url: 'https://pubmed.ncbi.nlm.nih.gov/15177700/' },
       { title: 'Dominikowski et al., Front Endocrinol 2026 – Leistungssteigernde Peptide der GH-IGF-1-Achse: Studienlage und Selbstanwendung', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13322892/' }
     ],
-    community: [
-    ]
+    community: []
   },
   {
     id: 'cjc-1295-dac',
@@ -1992,9 +1949,7 @@ const EXPERIMENTAL = [
       { title: 'FDA, Präsentation vor dem Pharmacy Compounding Advisory Committee zu CJC-1295, Dezember 2024 – Todesfall in der Phase-2-Studie', url: 'https://downloads.regulations.gov/FDA-2024-N-4777-0009/attachment_6.pdf' },
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „CJC-1295 DAC")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'CJC-1295 mit DAC: Das Langzeit-Signal für Wachstumshormon', audio: 'audio/cjc-1295-dac-podcast.mp3', spotify: '7GY5RM8IJGggpIOemfR00a', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 37) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das Wachstumshormon-Signal mit Langzeit-Anker: wie der Drug Affinity Complex das Peptid ans Albumin heftet (6–8 Tage Halbwertszeit statt 30 Minuten), die bemerkenswerten Humandaten (Teichman, JCEM 2006: 2–10-faches GH, bis zu 11 Tage erhöhtes IGF-1 nach einer Gabe) und die große Debatte Dauersignal („GH-Bleed") gegen natürliche Pulse. Plus Vergleich mit direktem HGH und die typische berichtete Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.', sources: [
           { title: 'Teichman et al. 2006 – CJC-1295 Pharmakokinetik/GH/IGF-1', url: 'https://pubmed.ncbi.nlm.nih.gov/16352683/' },
@@ -2031,8 +1986,7 @@ const EXPERIMENTAL = [
       { title: 'Aitman TJ et al., Peptides 1989 – im Tier superaktives GRF-Analogon ohne Vorteil beim Menschen (andere Verbindung, nur indirekt)', url: 'https://pubmed.ncbi.nlm.nih.gov/2546126/' },
       { title: 'Henninge J et al., Drug Test Anal 2010 – als CJC-1295 verkauftes Präparat enthielt Peptid ohne DAC', url: 'https://pubmed.ncbi.nlm.nih.gov/21204297/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       { title: 'CJC-1295 ohne DAC: Das Puls-Peptid – und die Auflösung des Namens-Chaos', audio: 'audio/cjc-1295-no-dac-podcast.mp3', spotify: '78AdX9FlRgHliWEjUnfYRM', lengthLabel: '≈ 12 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 38) · mit Paul & Paula. Frische, positive KI-Dialogfolge, die das größte Namens-Rätsel der Peptid-Szene auflöst: CJC-1295 ohne DAC, Mod GRF 1-29 und modifiziertes GRF sind ein und dasselbe Molekül. Warum das kurzlebige GHRH-Analogon die natürlichen Wachstumshormon-Pulse verstärkt statt überdeckt (Ionescu & Frohman, JCEM 2006), was die vier Molekül-Reparaturen bewirken, wo Sermorelin einzuordnen ist, warum Insulin-Timing den Puls entscheidet – und der große Vergleich: DAC oder ohne DAC? Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung – nicht zugelassen, im Sport verboten.', sources: [
           { title: 'Ionescu & Frohman 2006 – pulsatile GH-Sekretion unter CJC-1295 mit DAC (andere Verbindung, nur indirekt)', url: 'https://pubmed.ncbi.nlm.nih.gov/17018654/' },
@@ -2067,8 +2021,7 @@ const EXPERIMENTAL = [
       { title: 'Heffernan et al., Endocrinology 2001 – Effekte von AOD9604 auf den Fettstoffwechsel', url: 'https://pubmed.ncbi.nlm.nih.gov/11713213/' },
       { title: 'Stier H et al., J Endocrinol Metab 2013 – Sicherheit in 6 RCTs (gepoolte Auswertung)', url: 'https://doi.org/10.4021/jem157w' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       {
         title: 'AOD-9604: Der „saubere Fatburner" im Faktencheck',
@@ -2120,8 +2073,7 @@ const EXPERIMENTAL = [
       { title: 'FDA – Bulk Drug Substances: keine Humandaten zu KPV', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' },
       { title: 'McDermott Will & Schulte, Juli 2026 – Bericht zur FDA-Expertensitzung (PCAC) vom 23./24.07.2026', url: 'https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       { title: 'KI-Podcast: KPV – das kleine Anti-Entzündungs-Tripeptid für Darm & Haut', audio: 'audio/kpv-podcast.mp3', spotify: '0mPFUWG5UTnN6DWL7GUtoQ', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 1) · mit Paul & Paula. Frische, positive KI-Dialogfolge mit Fachrecherche: KPV ist ein winziges Endstück des Hormons alpha-MSH, das den Entzündungs-Hauptschalter NF-κB beruhigt – vielseitig für Darm (leaky gut, Barriere) und Haut (Anti-Aging, Akne), sanft und flexibel als Kapsel, Spritze oder Creme. Kurzer Hinweis: überwiegend Zell-/Tierdaten, Humanstudien stehen noch aus. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'The Hunter Williams Podcast – KPV: Best Anti-Inflammatory Peptide', url: 'https://open.spotify.com/episode/5JbfV3XJhPSQttJkR8GJBB' },
@@ -2159,8 +2111,7 @@ const EXPERIMENTAL = [
       { title: 'Dürr et al., Biochim Biophys Acta 2006 – Struktur und antimikrobielle Funktion von LL-37', url: 'https://pubmed.ncbi.nlm.nih.gov/16716248/' },
       { title: 'Dolkar T et al., J Cutan Pathol 2018 – Hautnebenwirkungen nach intratumoralen LL-37-Injektionen (Fallbericht aus Phase-I-Studie, Melanom)', url: 'https://pubmed.ncbi.nlm.nih.gov/29665030/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       {
         title: 'LL-37: Körpereigenes Abwehr-Peptid – oder Entzündungstreiber?',
@@ -2205,8 +2156,7 @@ const EXPERIMENTAL = [
       { title: 'Bes et al., Neuropsychobiology 1992 – DSIP bei chronischer Insomnie, doppelblind', url: 'https://pubmed.ncbi.nlm.nih.gov/1299794/' },
       { title: 'McDermott (Kanzlei), Bericht zur Sitzung des FDA-Gremiums für Rezepturarzneien am 23./24.07.2026', url: 'https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       { title: 'DSIP: Das Schlafpeptid im Faktencheck', audio: 'audio/dsip-podcast.mp3', spotify: '2Cz5bXpDtURKddAZ4MrbTO', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 12) · mit Paul & Paula. Frische, positive KI-Dialogfolge über DSIP, das Delta-Schlaf-induzierende Peptid – 1977 im Blut schlafender Kaninchen entdeckt. Kein Knockout-Schlafmittel, sondern ein sanfter Regler, der den Delta-Tiefschlaf fördert und das Stress-/Cortisol-System beruhigt. Warum Tiefschlaf (Wachstumshormon, glymphatische Gehirn-Müllabfuhr) ein starker Longevity-Hebel ist. Ehrlicher Rahmen: Datenlage alt und dünn, bei uns Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Schneider-Helmert & Schoenenberger – DSIP & menschliches Schlafverhalten', url: 'https://pubmed.ncbi.nlm.nih.gov/6895513/' },
@@ -2242,9 +2192,7 @@ const EXPERIMENTAL = [
       { title: 'Elabd C et al., Nat Commun 2014 – Oxytocin und Muskelregeneration', url: 'https://pubmed.ncbi.nlm.nih.gov/24915299/' },
       { title: 'Sikich L et al., N Engl J Med 2021 – Oxytocin bei Autismus (SOARS-B)', url: 'https://pubmed.ncbi.nlm.nih.gov/34644471/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'Oxytocin: Das Bindungshormon im Faktencheck', audio: 'audio/oxytocin-podcast.mp3', spotify: '3cpwZtQWOR1ocxxuCV2GqA', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 56) · mit Paul & Paula. Vom Kuschelhormon zum Longevity-Kandidaten: Kosfeld (Nature 2005), die Berkeley-Muskeldaten (Elabd, Nature Communications 2014), Knochen, Herz und AMPK, der MIT-Fund zu Lactobacillus reuteri, Männer-Frauen-Unterschiede, der Wechseljahre-Knick – und das Gratis-Protokoll aus Berührung, Gemeinschaft und Wärme. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 26.08.2026, 10:00)' }
     ],
@@ -2279,9 +2227,7 @@ const EXPERIMENTAL = [
       { title: 'Conte M et al., GeroScience 2021 – Mitokine bei Diabetes, Alzheimer und gesundem Altern', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8110619/' },
       { title: 'Moreno Ayala MA et al., Sci Rep 2020 – Humanin und Tumorprogression (Mausmodell)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7244539/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    community: []
   },
   {
     id: 'ara-290',
@@ -2310,9 +2256,7 @@ const EXPERIMENTAL = [
       { title: 'ClinicalTrials.gov NCT02039687 – Phase 2 mit 64 Teilnehmern, Ergebnisse eingestellt', url: 'https://clinicaltrials.gov/study/NCT02039687' },
       { title: 'Lois N et al., J Clin Med 2020 – diabetisches Makulaödem', url: 'https://pubmed.ncbi.nlm.nih.gov/32674280/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Immun'
   },
   {
@@ -2345,9 +2289,7 @@ const EXPERIMENTAL = [
       { title: 'Esendagli D et al., Med Princ Pract 2025 – inhaliertes Aviptadil', url: 'https://pubmed.ncbi.nlm.nih.gov/39870064/' },
       { title: 'Shoemaker RC et al., Health 2013 – VIP-Nasenspray bei CIRS (offene Studie)', url: 'https://doi.org/10.4236/health.2013.53053' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Immun'
   },
   {
@@ -2377,9 +2319,7 @@ const EXPERIMENTAL = [
       { title: 'Porsteinsson et al., J Alzheimers Dis Rep 2025 – Fosgonimeton bei leichter bis mittelschwerer Alzheimer-Krankheit (LIFT-AD)', url: 'https://pubmed.ncbi.nlm.nih.gov/41393340/' },
       { title: 'Washington State University, Pressemitteilung vom 11.10.2012 – Herkunft der Angabe, Dihexa sei sieben Zehnerpotenzen stärker als BDNF', url: 'https://archive.news.wsu.edu/news/2012/10/11/prospective-alzheimer%C2%92s-drug-builds-new-brain-cell-connections/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    community: []
   },
   {
     id: 'p21',
@@ -2409,9 +2349,7 @@ const EXPERIMENTAL = [
       { title: 'Baazaoui & Iqbal, Biomolecules 2022 – Übersicht zu P021', url: 'https://pubmed.ncbi.nlm.nih.gov/36291618/' },
       { title: 'Mottolese et al., J Neurodev Disord 2024 – CDKL5-Modell, gemischter Befund', url: 'https://pubmed.ncbi.nlm.nih.gov/39592934/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Sonstige'
   },
   {
@@ -2441,9 +2379,7 @@ const EXPERIMENTAL = [
       { title: 'Biology Bulletin Reviews 2021 – Thymalin: Immunokorrektur & molekulare Aspekte', url: 'https://link.springer.com/article/10.1134/S2079086421040046' },
       { title: 'Kuznik et al., Adv Gerontol 2021 – Thymalin bei schwerem COVID-19 älterer Patienten', url: 'https://europepmc.org/article/PMC/PMC8654498' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'Thymalin: Der Immun-Bioregulator im Faktencheck', audio: 'audio/thymalin-podcast.mp3', spotify: '6aB7vB9kwKPQsukNesmvMT', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 46) · mit Paul & Paula. Vom geheimen Militär-Auftrag in Leningrad zum Flaggschiff der Khavinson-Bioregulatoren: warum der Thymus ab der Pubertät schrumpft (Immunseneszenz & Inflammaging), wie Thymalin T-Zellen reifen lässt – und die Langzeitstudien aus St. Petersburg (Khavinson & Morozov, Neuroendocrinology Letters 2003): rund halbierte Sterblichkeit über 6–8 Jahre, mit Epithalamin vierfach niedriger. Plus die ehrliche Ost-West-Einordnung, die orale Vladonix-Variante und Zink & Co. als Gratis-Thymus-Pflege. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Veröffentlichung: 17.08.2026, 10:00)', sources: [
           { title: 'Khavinson & Morozov, Neuroendocrinol Lett 2003', url: 'https://pubmed.ncbi.nlm.nih.gov/14523363/' },
@@ -2529,8 +2465,7 @@ const EXPERIMENTAL = [
       { title: 'Khavinson VKh, Neuro Endocrinol Lett 2002 – Peptides and Ageing (Übersicht)', url: 'https://pubmed.ncbi.nlm.nih.gov/12374906/' }
     ],
     community: [
-      { title: 'Verschreibungspflichtige Behandlung von BPH/Prostatitis: über Urologen abklären', url: 'https://www.gelbe-liste.de/krankheiten/benigne-prostatahyperplasie' },
-      { title: 'biolabshop (Research – nur Grauzone, keine Empfehlung)', url: 'https://biolabshop.de/' }
+      { title: 'Verschreibungspflichtige Behandlung von BPH/Prostatitis: über Urologen abklären', url: 'https://www.gelbe-liste.de/krankheiten/benigne-prostatahyperplasie' }
     ],
     podcasts: [
       { title: 'Prostamax & Prostagen: Bioregulator für die Prostata im Faktencheck', audio: 'audio/prostamax-podcast.mp3', spotify: '4N70kUgdRUuMwgCYi9TbvG', lengthLabel: '≈ 11 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 28). KI-generierte deutsche Folge, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet das Khavinson-Bioregulator-Konzept (epigenetische „Verjüngung" der Prostata) gegen die dünne Human-Evidenz ein und betont die besondere Gefahr der Selbstbehandlung: PSA/Prostatakrebs-Früherkennung nicht verschleiern. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung – Prostatabeschwerden gehören urologisch abgeklärt.', sources: [
@@ -2569,8 +2504,7 @@ const EXPERIMENTAL = [
       { title: 'BfArM, Pressemitteilung 14/10 (28.10.2010) – Warnung vor melanotanhaltigen Produkten', url: 'https://www.bfarm.de/SharedDocs/Pressemitteilungen/DE/2010/pm14-2010.html' },
       { title: 'Minder et al., Clin Pharmacokinet 2017 – Afamelanotid, 1980 als erstes alpha-MSH-Analogon synthetisiert', url: 'https://pubmed.ncbi.nlm.nih.gov/28063031/' }
     ],
-    community: [
-    ],
+    community: [],
     podcasts: [
       { title: 'Melanotan 2: Das Bräunungs-Peptid im Faktencheck', audio: 'audio/melanotan-2-podcast.mp3', spotify: '0orxbyC3Wcg2ipQyuEe9Ck', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 39) · mit Paul & Paula. Frische, positive KI-Dialogfolge über das berühmteste Bräunungs-Peptid der Welt: von der Hautkrebs-Präventions-Idee der University of Arizona über den legendären Selbstversuch bis zu zwei zugelassenen Medikamenten-Nachfahren (Afamelanotid/Scenesse und PT-141/Vyleesi). Dazu die Humandaten (Dorr, Life Sciences 1996: Bräunung ohne Sonne; Wessells, J Urol 1998), die drei Effekte über MC1R/MC4R – Bräune, Appetit, Libido – und die ehrliche Schattenseite: Muttermal-Veränderungen (Langan, JAAD 2010), Übelkeit, Graumarkt. Mit der typischen berichteten Anwendung (ohne Empfehlung). Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Dorr et al., Life Sciences 1996 – erste Humanstudie: Bräunung ohne Sonne', url: 'https://pubmed.ncbi.nlm.nih.gov/8637402/' },
@@ -2609,8 +2543,7 @@ const EXPERIMENTAL = [
       { title: 'Bourgeois B et al., Nat Commun 2025 – Struktur der Bindung von FOXO4-DRI an p53', url: 'https://pubmed.ncbi.nlm.nih.gov/40593617/' },
       { title: 'Mateescu DM et al., Antioxidants 2026 – Übersicht: präklinisch senolytisch, klinisch nicht validiert', url: 'https://pubmed.ncbi.nlm.nih.gov/42510573/' }
     ],
-    community: [
-    ],
+    community: [],
     filterCat: 'Longevity'
   },
   {
@@ -2680,8 +2613,7 @@ const EXPERIMENTAL = [
       { title: 'Gauthier S et al., Lancet 2016 – LMTM-Phase-3-Studie bei Alzheimer', url: 'https://pubmed.ncbi.nlm.nih.gov/27863809/' }
     ],
     community: [
-      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' },
-      { title: 'biolabshop (Methylenblau-Forschung)', url: 'https://biolabshop.de/' }
+      { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
     ],
     podcasts: [
       { title: 'Methylenblau: Wunderdroge oder Hype?', audio: 'audio/methylene-blue-podcast.mp3', spotify: '6JlLZilupWgb72WX10TBri', lengthLabel: '≈ 9 Min · KI-generiert (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 10). KI-generierte deutsche Folge mit den Hosts Paul und Paula, inspiriert von mehreren Podcasts und mit Fachrecherche ergänzt. Ordnet die elegante Mitochondrien-Idee gegen die dünne Human-Evidenz ein und betont die realen Gefahren: Serotonin-Syndrom bei Antidepressiva (MAO-Hemmung), Hämolyse bei G6PD-Mangel, Reinheits-Falle zwischen Pharma- und Industrieware. Reine Information, kein medizinischer Rat, keine Dosier- oder Anwendungsempfehlung.', sources: [
@@ -2788,8 +2720,7 @@ const EXPERIMENTAL = [
       { title: 'Sehgal NKR et al., medRxiv 2026 – Selbstberichtete Nebenwirkungen bei Reddit-Nutzern', url: 'https://doi.org/10.64898/2026.05.28.26352819' },
       { title: 'FDA – Concerns with Unapproved GLP-1 Drugs (Retatrutid, Forschungsware), Stand 01.09.2026', url: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss' }
     ],
-    community: [
-    ],
+    community: [],
     filterCat: 'Stoffwechsel'
   },
   {
@@ -2830,9 +2761,7 @@ const EXPERIMENTAL = [
       { title: 'Levine et al., JAMA 1991 – Hautbräunung durch NDP-alpha-MSH, placebokontrolliert', url: 'https://pubmed.ncbi.nlm.nih.gov/1658407/' },
       { title: 'Haskell-Luevano et al., J Med Chem 1997 – NDP-alpha-MSH aktiviert alle Melanocortin-Rezeptoren außer MC2R', url: 'https://pubmed.ncbi.nlm.nih.gov/9216831/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [
       { title: 'Melanotan 1 (Afamelanotid): Vom Bräunungs-Peptid zum Medikament', audio: 'audio/melanotan-1-podcast.mp3', spotify: '5KqRbraE72fY4bIFSv8Mgl', lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)', note: 'Der Podcast von Paul Höser (Folge 43) · mit Paul & Paula. Die schönste Erfolgsgeschichte der Peptid-Welt: von der Wüsten-Idee der University of Arizona über die MC1R-Selektivität bis zu den Phase-3-Studien im New England Journal of Medicine (Langendonk 2015), die EPP-Patienten – den „Kindern der Nacht" – die Sonne zurückgaben. Dazu MC1R-Genetik (warum Rothaarige verbrennen), das 16-mg-Implantat Scenesse, Vitiligo-Forschung, der Photoaging-Longevity-Blick und die ehrliche Graumarkt-Einordnung. Reine Information, keine Dosier- oder Anwendungsempfehlung.', sources: [
           { title: 'Langendonk et al., NEJM 2015 – Afamelanotid bei EPP (Phase 3)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa1411481' },
@@ -2902,9 +2831,7 @@ const EXPERIMENTAL = [
       { title: 'Criscione L, Sci Transl Med 2012 – Kommentar zur Primatenstudie', url: 'https://pubmed.ncbi.nlm.nih.gov/22539771/' },
       { title: 'ClinicalTrials.gov NCT01262664 – abgebrochene Phase-1-Studie', url: 'https://clinicaltrials.gov/study/NCT01262664' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Stoffwechsel'
   },
   {
@@ -2934,9 +2861,7 @@ const EXPERIMENTAL = [
       { title: 'Frontiers in Nutrition 2024 – Übersicht zu Phase-2-Studien nicht-diätetischer Therapien bei Zöliakie', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11748180/' },
       { title: 'ClinicalTrials.gov NCT03569007 – CedLara, Phase 3 (geplant 525, eingeschlossen 307)', url: 'https://clinicaltrials.gov/study/NCT03569007' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ]
+    community: []
   },
   {
     id: 'thymosin-beta-4',
@@ -2967,9 +2892,7 @@ const EXPERIMENTAL = [
       { title: 'Zhang Y et al., Cardiovasc Res 2025 – randomisierte Studie nach Herzinfarkt', url: 'https://pubmed.ncbi.nlm.nih.gov/41229390/' },
       { title: 'Wang X et al., J Cell Mol Med 2021 – Phase 1 an Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/34346165/' }
     ],
-    community: [
-      { title: 'biolabshop – Forschungspeptide', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Immun'
   },
   {
@@ -3313,9 +3236,7 @@ const EXPERIMENTAL = [
       { title: 'FDA, Briefing Pharmacy Compounding Advisory Committee 2026 – Bewertung von Semax', url: 'https://www.fda.gov/media/193348/download' },
       { title: 'ClinicalTrials.gov – keine eingetragene Studie zu Adamax', url: 'https://clinicaltrials.gov/search?term=Adamax' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Adamax")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -3484,9 +3405,7 @@ const EXPERIMENTAL = [
       { title: 'Sotornik et al., Clin Diabetes 2022 - Diabetes-Fall unter SARM/GHS-Kombination', url: 'https://pubmed.ncbi.nlm.nih.gov/35983415/' },
       { title: 'WADA - Prohibited List 2026, S1.2 SARMs (andarine)', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Andarin“)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3529,9 +3448,7 @@ const EXPERIMENTAL = [
       { title: 'WADA - Alert zu GW501516 (2013)', url: 'https://www.wada-ama.org/en/news/wada-issues-alert-gw501516' },
       { title: 'WADA - Prohibited List 2026, S4.4.1 PPARdelta-Agonisten (GW1516, GW501516)', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Cardarine“)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3570,9 +3487,7 @@ const EXPERIMENTAL = [
       { title: 'Peixoto et al. 2020, J Neurosci Res – depressive Symptome, Meta-Analyse', url: 'https://pubmed.ncbi.nlm.nih.gov/32930419/' },
       { title: 'Wierman et al. 2014, J Clin Endocrinol Metab – Leitlinie: kein routinemäßiger DHEA-Einsatz bei Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/25279570/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „DHEA")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Longevity'
   },
@@ -3652,9 +3567,7 @@ const EXPERIMENTAL = [
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – AOD9604 oft als hGH 176-191 bezeichnet; Evidenzstufe B/C', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' },
       { title: 'WADA – Prohibited List 2026, S2.2.3 Growth hormone fragments', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „HGH-Fragment 176-191")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3697,9 +3610,7 @@ const EXPERIMENTAL = [
       { title: 'EMA – EPAR Increlex (Mecasermin): Zulassung 03.08.2007, Hypoglykämie bei mehr als 1 von 10, Kontraindikation Neoplasie', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/increlex' },
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – Evidenzstufen der Peptide der GH-IGF-1-Achse', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „IGF-1 DES")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3736,9 +3647,7 @@ const EXPERIMENTAL = [
       { title: 'Vignali et al. 2023, J Xenobiot – systematische Übersicht zur SARM-Sicherheit', url: 'https://pubmed.ncbi.nlm.nih.gov/37218811/' },
       { title: 'Van Wagoner et al. 2017, JAMA – Inhalt online verkaufter SARM-Produkte', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „LGD-4033")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3777,9 +3686,7 @@ const EXPERIMENTAL = [
       { title: 'Cohen et al. 2021, Neurol Clin Pract – fünf nicht zugelassene Wirkstoffe in Gedächtnis-Supplementen', url: 'https://pubmed.ncbi.nlm.nih.gov/34484905/' },
       { title: 'WHO Drug Information 2018 – Recommended INN List 79: Omberacetam', url: 'https://cdn.who.int/media/docs/default-source/international-nonproprietary-names-(inn)/rl79.pdf' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Noopept")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -3819,9 +3726,7 @@ const EXPERIMENTAL = [
       { title: 'Vignali et al. 2023, J Xenobiot – systematische Übersicht zur SARM-Sicherheit', url: 'https://pubmed.ncbi.nlm.nih.gov/37218811/' },
       { title: 'Van Wagoner et al. 2017, JAMA – Inhalt online verkaufter SARM-Produkte', url: 'https://pubmed.ncbi.nlm.nih.gov/29183075/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Ostarine")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3859,9 +3764,7 @@ const EXPERIMENTAL = [
       { title: 'Dominikowski A et al., Front Endocrinol 2026 – PEG-MGF ohne begutachtete Humanstudien (Evidenzstufe D)', url: 'https://pubmed.ncbi.nlm.nih.gov/42395176/' },
       { title: 'FDA – Bulk Drug Substances mit möglichen Sicherheitsrisiken (PEG-MGF)', url: 'https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „PEG-MGF")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3944,9 +3847,7 @@ const EXPERIMENTAL = [
       { title: 'WADA – Prohibited List 2026, S4.4.1 Rev-erb-alpha-Agonisten', url: 'https://www.wada-ama.org/en/prohibited-list' },
       { title: 'Anlage zu § 2 Absatz 3 Anti-Doping-Gesetz – SR9009, synonym Stenabolic', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Stenabolic")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -3988,9 +3889,7 @@ const EXPERIMENTAL = [
       { title: 'EMA – Fragen und Antworten zur Ablehnung der Zulassung von Reasanz (Serelaxin), 23. Mai 2014', url: 'https://www.ema.europa.eu/de/documents/smop-initial/questions-and-answers-refusal-marketing-authorisation-reasanz_de.pdf' },
       { title: 'ClinicalTrials.gov – keine eingetragene Studie zu B7-33', url: 'https://clinicaltrials.gov/search?term=B7-33' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „B7-33")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -4029,9 +3928,7 @@ const EXPERIMENTAL = [
       { title: 'Newman und Smeaton 2025, Menopause – DIM verändert Östrogenprofil unter Estradiol-Pflaster', url: 'https://pubmed.ncbi.nlm.nih.gov/40298801/' },
       { title: 'Williams 2021, Front Nutr – Übersicht Indol-3-Carbinol und DIM', url: 'https://pubmed.ncbi.nlm.nih.gov/34660663/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „DIM")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -4072,9 +3969,7 @@ const EXPERIMENTAL = [
       { title: 'RASFF 2022.0520 – deutsche Meldung: Huperzin A als nicht zugelassenes Novel Food', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/528818' },
       { title: 'ClinicalTrials.gov NCT07066826 – Phase-II/III-Studie mit Huperzin-A-Retardtabletten bei Alzheimer', url: 'https://clinicaltrials.gov/study/NCT07066826' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Huperzin A")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -4114,9 +4009,7 @@ const EXPERIMENTAL = [
       { title: 'EU-Kommission – Zusammenfassung des laufenden Novel-Food-Antrags zu Sceletium-Extrakt', url: 'https://food.ec.europa.eu/document/download/a1f0a531-323d-4c4f-9e45-cee8d86a99a8_en?filename=novel-food_sum_ongoing-app_2024-25060.pdf' },
       { title: 'RASFF 2025.7263 – deutsche Meldung: Kanna als nicht zugelassene neuartige Zutat', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/790584' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Kanna")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -4154,9 +4047,7 @@ const EXPERIMENTAL = [
       { title: 'EFSA NDA Panel, EFSA J 2026 – Sicherheit von β-NMN als Novel Food (betrifft nicht NMNH)', url: 'https://pubmed.ncbi.nlm.nih.gov/42125559/' },
       { title: 'EU-Kommission – Novel-Food-Status von NMN bestätigt (Konsultation Tschechien)', url: 'https://food.ec.europa.eu/system/files/2022-10/novel-food_consult-status_nmn-cz.pdf' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „NMNH“)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Longevity'
   },
@@ -4271,9 +4162,7 @@ const EXPERIMENTAL = [
       { title: 'Gualtieri 2016, J Enzyme Inhib Med Chem – Unifi-Nootropika vom Labor ins Netz, Langzeitgiftigkeit unbekannt', url: 'https://pubmed.ncbi.nlm.nih.gov/25831025/' },
       { title: 'Vialko et al. 2025, Int J Mol Sci – AMPA-Modulatoren: Sunifiram nie klinisch entwickelt', url: 'https://pubmed.ncbi.nlm.nih.gov/40650226/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Sunifiram")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -4311,9 +4200,7 @@ const EXPERIMENTAL = [
       { title: 'Wilborn et al. 2006, J Int Soc Sports Nutr – 200 mg 20E ohne Trainingseffekt', url: 'https://pubmed.ncbi.nlm.nih.gov/18500969/' },
       { title: 'Todorova et al. 2024, Nutrients – Übersicht Ecdysteron und Turkesteron', url: 'https://pubmed.ncbi.nlm.nih.gov/38732627/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Turkesterone")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -4394,9 +4281,7 @@ const EXPERIMENTAL = [
       { title: 'Turnock und Piatkowski, Performance Enhancement & Health 2025 – BAM15 in Bodybuilding-Foren und auf YouTube', url: 'https://repository.lincoln.ac.uk/articles/journal_contribution/_The_new_DNP_Discussion_of_the_experimental_fat_burner_BAM15_on_bodybuilding_forums_and_YouTube/30511007' },
       { title: 'ClinicalTrials.gov – keine eingetragene Studie zu BAM15 (Abfrage 27.09.2026)', url: 'https://clinicaltrials.gov/search?term=BAM15' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „BAM15")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Stoffwechsel'
   },
@@ -4477,9 +4362,7 @@ const EXPERIMENTAL = [
       { title: 'Expertenkommission BVL/BfArM 2025 – Einstufung von DHEA, Biosynthese aus Pregnenolon', url: 'https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Zulassung/ZulRelThemen/abgrenzung/Expertenkommission/stellungnahmen/2025-01.pdf' },
       { title: 'USADA – Pregnenolone: nicht auf der WADA-Liste, FDA-Status', url: 'https://www.usada.org/spirit-of-sport/education/pregnenolone/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Pregnenolon")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Longevity'
   },
@@ -4675,9 +4558,7 @@ const EXPERIMENTAL = [
       { title: 'Xie et al. 2014, J Clin Pharmacol – Bioverfügbarkeit im Vergleich zu Thiaminhydrochlorid', url: 'https://pubmed.ncbi.nlm.nih.gov/24399744/' },
       { title: 'EFSA 2008 – Sicherheit von Benfotiamin als Vitamin-B1-Quelle nicht belegt', url: 'https://www.efsa.europa.eu/en/efsajournal/pub/864' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Benfotiamin")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Stoffwechsel'
   },
@@ -4997,9 +4878,7 @@ const EXPERIMENTAL = [
       { title: 'Biesterbos et al. 2019, Food Addit Contam – Wirkstoffe in Supplements, Niederlande', url: 'https://pubmed.ncbi.nlm.nih.gov/31294678/' },
       { title: 'RASFF 2025.9102 – Slowenien: Phenethylamin als nicht zugelassene neuartige Zutat', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/804971' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „PEA")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -5079,9 +4958,7 @@ const EXPERIMENTAL = [
       { title: 'Lints et al. 2025, J Int Soc Sports Nutr – Koffein plus Theacrin und Kognition', url: 'https://pubmed.ncbi.nlm.nih.gov/40693646/' },
       { title: 'RASFF 2020.2471 – Schweden: Theacrin als Novel Food in Nahrungsergänzungsmitteln', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/429933' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Teacrine")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -5117,9 +4994,7 @@ const EXPERIMENTAL = [
       { title: 'McGregor et al. 2001, Kidney Int – DMG hemmt die BHMT, Zusammenhang mit Homocystein', url: 'https://pubmed.ncbi.nlm.nih.gov/11380830/' },
       { title: 'Svingen et al. 2013, Arterioscler Thromb Vasc Biol – Plasma-DMG und Herzinfarktrisiko', url: 'https://pubmed.ncbi.nlm.nih.gov/23723367/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „DMG")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Exercise'
   },
@@ -5157,9 +5032,7 @@ const EXPERIMENTAL = [
       { title: 'Dambrova et al. 2004, Naunyn Schmiedebergs Arch Pharmacol – GBB-Methylester, nicht GBB, wirkt muskarinisch', url: 'https://pubmed.ncbi.nlm.nih.gov/15060760/' },
       { title: 'Liepinsh et al. 2011, J Pharm Pharmacol – Meldonium senkt Carnitin um 18 % und verdoppelt GBB bei Gesunden', url: 'https://pubmed.ncbi.nlm.nih.gov/21827492/' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Gamma-Butyrobetain")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Stoffwechsel'
   },
@@ -5196,9 +5069,7 @@ const EXPERIMENTAL = [
       { title: 'Laidlaw et al. 2010, Breast Cancer (Auckl) – RCT mit Kombinationspräparat inklusive Calcium-Glucarat', url: 'https://pubmed.ncbi.nlm.nih.gov/21234288/' },
       { title: 'EU-Kommission – Novel Food Status Catalogue', url: 'https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search' }
     ],
-    community: [
-      { title: 'biolabshop (Suche „Calcium-D-Glucarat")', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     podcasts: [],
     filterCat: 'Sonstige'
   },
@@ -5234,9 +5105,7 @@ const EXPERIMENTAL = [
         { title: 'Kantara C et al., Lab Invest 2015 – Strahlenschäden im Mausmodell, Sequenz und Herkunft', url: 'https://pubmed.ncbi.nlm.nih.gov/26280221/' },
         { title: 'NADA, WADA-Verbotsliste 2026 (informatorische Übersetzung) – S0', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
       ],
-      community: [
-        { title: 'biolabshop (TP508)', url: 'https://biolabshop.de/' }
-      ],
+      community: [],
       podcasts: [],
       filterCat: 'Immun'
     },
@@ -5348,9 +5217,7 @@ const EXPERIMENTAL = [
       { title: 'WADA – Prohibited List 2026, S2.2.3 Growth hormone fragments', url: 'https://www.wada-ama.org/en/prohibited-list' },
       { title: 'Anti-Doping-Gesetz, Anlage – Wachstumshormon-Fragmente (AOD-9604, hGH-Fragment 176-191)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
     ],
-    community: [
-      { title: 'biolabshop (Lipotropin)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Stoffwechsel'
   },
   {
@@ -5383,9 +5250,7 @@ const EXPERIMENTAL = [
       { title: 'Anti-Doping-Gesetz, Anlage – Releasingfaktoren von CG und LH (namentliche Liste)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' },
       { title: 'Arzneimittelverschreibungsverordnung, Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
     ],
-    community: [
-      { title: 'biolabshop (Alarelin)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Sonstige'
   },
   {
@@ -7147,9 +7012,7 @@ const EXPERIMENTAL = [
       { title: 'Arzneimittelverschreibungsverordnung, Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
       { title: 'WADA – Prohibited List 2026, S0 Non-approved substances', url: 'https://www.wada-ama.org/en/prohibited-list' }
     ],
-    community: [
-      { title: 'biolabshop (GC-1 Sobetirom)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Stoffwechsel'
   },
   {
@@ -7586,9 +7449,7 @@ const EXPERIMENTAL = [
       { title: 'Okutan A et al., Biomed Chromatogr 2026 – Stoffwechsel und Ausscheidung von RU 58841 beim Menschen, 6 Männer, Einzelanwendung auf der Kopfhaut', url: 'https://pubmed.ncbi.nlm.nih.gov/42615108/' },
       { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S0 nicht zugelassene Substanzen', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
     ],
-    community: [
-      { title: 'biolabshop (RU58841-Serum)', url: 'https://biolabshop.de/' }
-    ],
+    community: [],
     filterCat: 'Sonstige'
   },
   {
@@ -8500,6 +8361,249 @@ const EXPERIMENTAL = [
     ],
     community: [],
     filterCat: 'Sonstige'
+  },
+  {
+    id: 'ezetimib',
+    name: 'Ezetimib (Ezetrol)',
+    altNames: 'Ezetimibe, Ezetrol, Zetia (USA), Cholesterinaufnahme-Hemmer, NPC1L1-Hemmer',
+    class: 'Cholesterinaufnahme-Hemmer (NPC1L1-Hemmer), verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Ezetimib bremst die Aufnahme von Cholesterin im Darm und senkt so das LDL-Cholesterin, allein um knapp ein Fünftel, zusätzlich zu einem Statin um ein weiteres Fünftel bis Viertel. Nach akutem Koronarsyndrom senkte die Kombination mit Simvastatin schwere Herz-Kreislauf-Ereignisse leicht, aber messbar (IMPROVE-IT). Ob man gleich mit beiden startet oder Ezetimib bei Bedarf ergänzt, machte in Ez-PAVE 2026 keinen Unterschied bei den Ereignissen.',
+    moa: 'Ezetimib hemmt im Dünndarm das Transportprotein NPC1L1 (Niemann-Pick C1-Like 1), über das Cholesterin aus Nahrung und Galle in die Darmzellen gelangt. Laut Fachinformation sank die Cholesterinaufnahme im Darm um etwa 54 Prozent. Die Leber erhält weniger Cholesterin, bildet mehr LDL-Rezeptoren und holt mehr LDL aus dem Blut. Statine bremsen die Cholesterinbildung in der Leber, Ezetimib die Aufnahme im Darm; deshalb addieren sich die Effekte. Dass der Angriffspunkt schützt, stützt auch die Genetik: Menschen mit angeborenem Funktionsverlust von NPC1L1 hatten ein um 0,31 mmol/l niedrigeres LDL und 53 Prozent weniger koronare Herzkrankheit (Stitziel 2014).',
+    benefits: [
+      'Nach akutem Koronarsyndrom: Simvastatin plus Ezetimib senkte das LDL auf 1,4 statt 1,8 mmol/l und den kombinierten Endpunkt nach 7 Jahren auf 32,7 % gegenüber 34,7 %, HR 0,936 (IMPROVE-IT, 18.144 Patienten, doppelblind)',
+      'Chronische Nierenerkrankung: Simvastatin plus Ezetimib senkte schwere atherosklerotische Ereignisse auf 11,3 % gegenüber 13,4 % unter Placebo, RR 0,83 (SHARP, 9.270 Patienten, median 4,9 Jahre)',
+      'Ab 75 Jahren ohne Herzerkrankung: Ezetimib allein senkte den kombinierten Endpunkt, HR 0,66; offene Studie mit vorzeitigem Abbruch, Gesamtsterblichkeit und Schlaganfall unverändert (EWTOPIA 75, 3.796 Personen)',
+      'Moderate Statindosis plus Ezetimib war einer hohen Statindosis bei Gefäßpatienten nicht unterlegen (9,1 % gegenüber 9,9 %), erreichte öfter LDL unter 1,8 mmol/l und wurde seltener wegen Unverträglichkeit abgesetzt, 4,8 % gegenüber 8,2 % (RACING, 3.780 Patienten)',
+      'Zusätzlich zu einem laufenden Statin sank das LDL um 25 % gegenüber 4 % unter Placebo; allein um 18 bis 19 % (US- und deutsche Fachinformation)',
+      'Seit 2002 zugelassen, als Generikum breit verfügbar; Muskel-, Gallen-, Leber- und Krebsereignisse in IMPROVE-IT und SHARP nicht häufiger als in der Vergleichsgruppe'
+    ],
+    risks: [
+      'Der Zusatznutzen ist klein: In IMPROVE-IT lagen die Gruppen nach 7 Jahren 2,0 Prozentpunkte auseinander; in EWTOPIA 75 unterschied sich die Gesamtsterblichkeit nicht',
+      'Bei familiärer Hypercholesterinämie bremste die Kombination das Wachstum der Halsschlagader-Wand trotz 16,5 % tieferem LDL nicht stärker als Simvastatin allein (ENHANCE, 720 Patienten)',
+      'Ob man sofort mit Statin plus Ezetimib beginnt oder erst mit dem Statin, machte bei gleichem LDL-Ziel keinen Unterschied: 8,5 % gegenüber 7,9 % Ereignisse, HR 1,07 (Ez-PAVE, 3.048 Patienten, 2026)',
+      'Häufige Nebenwirkungen laut Fachinformation: Kopfschmerzen, Bauchschmerzen, Durchfall, Blähungen, Muskelschmerzen, Müdigkeit, erhöhte Leberwerte; mit Statin Transaminasen-Anstieg ab dem Dreifachen bei 1,3 % gegenüber 0,4 % unter Statin allein',
+      'Bei mittelschwerer bis schwerer Leberfunktionsstörung nicht empfohlen; Muskelschäden bis zur Rhabdomyolyse vor allem zusammen mit Statinen oder Fibraten gemeldet (Fachinformation)'
+    ],
+    status: 'Deutschland/EU: zugelassenes, verschreibungspflichtiges Arzneimittel (AMVV Anlage 1), Ezetrol seit 17.10.2002, zahlreiche Generika. Zugelassen begleitend zu Diät bei primärer Hypercholesterinämie zusammen mit einem Statin, wenn das Statin allein nicht reicht, oder allein, wenn ein Statin nicht geeignet ist oder nicht vertragen wird; außerdem zusammen mit einem Statin zur Senkung kardiovaskulärer Ereignisse bei koronarer Herzkrankheit mit akutem Koronarsyndrom in der Vorgeschichte und bei homozygoter Sitosterinämie. Zugelassene Dosis laut Fachinformation 10 mg einmal täglich. USA: Zetia, Erstzulassung 2002.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26039521/',
+    sources: [
+      { title: 'Cannon CP et al., N Engl J Med 2015 – IMPROVE-IT, Simvastatin plus Ezetimib nach akutem Koronarsyndrom, 18.144 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/26039521/' },
+      { title: 'Baigent C et al., Lancet 2011 – SHARP, Simvastatin plus Ezetimib bei 9.270 Patienten mit chronischer Nierenerkrankung', url: 'https://pubmed.ncbi.nlm.nih.gov/21663949/' },
+      { title: 'Ouchi Y et al., Circulation 2019 – EWTOPIA 75, Ezetimib zur Primärprävention ab 75 Jahren, 3.796 Personen, offen', url: 'https://pubmed.ncbi.nlm.nih.gov/31434507/' },
+      { title: 'Kim BK et al., Lancet 2022 – RACING, moderate Statindosis plus Ezetimib gegen hohe Statindosis, 3.780 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/35863366/' },
+      { title: 'Lee SH et al., Circulation 2026 – Ez-PAVE, sofortige Kombination Statin plus Ezetimib gegen Statin allein bei 3.048 Gefäßpatienten', url: 'https://pubmed.ncbi.nlm.nih.gov/42998308/' },
+      { title: 'Kastelein JJ et al., N Engl J Med 2008 – ENHANCE, Simvastatin mit oder ohne Ezetimib bei familiärer Hypercholesterinämie, 720 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/18376000/' },
+      { title: 'Myocardial Infarction Genetics Consortium (Stitziel NO et al.), N Engl J Med 2014 – angeborener Funktionsverlust von NPC1L1 und koronare Herzkrankheit', url: 'https://pubmed.ncbi.nlm.nih.gov/25390462/' },
+      { title: 'Fachinformation Ezetrol 10 mg Tabletten (Organon, Stand März 2024)', url: 'https://www.fachinfo.de/fi/pdf/008015/ezetrol-r-10-mg-ta-blet-ten' },
+      { title: 'US-Fachinformation Zetia (DailyMed) – Anwendungsgebiete, LDL-Senkung allein und zusätzlich zum Statin', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174e45e0-45bb-48b7-9e60-8f6cfc1d22bb' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Ezetimib verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'levothyroxin',
+    name: 'Levothyroxin (L-Thyroxin, T4)',
+    altNames: 'L-Thyroxin, Levothyroxin-Natrium, T4, Thyroxin, Euthyrox, L-Thyroxin Winthrop, Synthroid (USA)',
+    class: 'Schilddrüsenhormon (T4), verschreibungspflichtig; zum Abnehmen und im Bodybuilding missbraucht',
+    emoji: '💊',
+    short: 'Levothyroxin ersetzt das Schilddrüsenhormon T4 und gehört nach Tagesdosen zu den zehn meistverordneten Arzneimitteln in Deutschland. Bei Unterfunktion ist es die Standardbehandlung. Bei nur leicht erhöhtem TSH im Alter brachte es in der großen TRUST-Studie keinen Nutzen für Beschwerden oder Müdigkeit. Zum Abnehmen ist es nicht zugelassen: Normale Dosen senken bei gesunder Schilddrüse kein Gewicht, höhere können lebensbedrohlich werden.',
+    moa: 'Levothyroxin ist chemisch identisch mit dem Thyroxin (T4), das die Schilddrüse bildet. T4 ist vor allem ein Prähormon: Etwa 80 Prozent des zirkulierenden aktiven Hormons T3 entstehen außerhalb der Schilddrüse durch Abspaltung eines Jodatoms aus T4, vor allem in der Leber (US-Fachinformation). T3 bindet an Rezeptoren im Zellkern und steuert die Ablesung von Genen; so steigen Grundumsatz, Zucker-, Fett- und Eiweißstoffwechsel, und Herz, Knochen und Gehirn werden beeinflusst. Die Halbwertszeit von T4 liegt bei 6 bis 7 Tagen, deshalb wirkt es gleichmäßig. Von außen zugeführt unterdrückt es das TSH der Hypophyse und damit die eigene Hormonbildung. Die Idee hinter dem Missbrauch: mehr Grundumsatz, mehr Fettabbau. Derselbe Effekt trifft aber auch Herz und Knochen.',
+    benefits: [
+      'Zugelassene Standardbehandlung bei Schilddrüsenunterfunktion jeder Ursache, außerdem nach Kropf-Operation, bei gutartigem Kropf mit normaler Funktion und bei Schilddrüsenkrebs (deutsche Fachinformation)',
+      'Nach Tagesdosen eines der zehn meistverordneten Arzneimittel in Deutschland 2022; die Top 10 machten zusammen über 41 % aller verordneten Tagesdosen aus (Schröder 2025, Daten des Arzneiverordnungs-Reports)',
+      'Bewährt in der Schwangerschaft: Laut Fachinformation sind trotz umfangreicher Anwendung keine unerwünschten Wirkungen auf das Kind bekannt geworden',
+      'Warum Menschen es außerhalb der Zulassung nehmen: zum Abnehmen, gegen Müdigkeit und zur Leistungssteigerung; Dopingzwecke waren die häufigste Ursache publizierter Vergiftungen mit Schilddrüsenhormonen (systematische Übersicht, Skrzypiec-Spring 2025)',
+      'Wirkweise, Abbau und Nebenwirkungen seit Jahrzehnten beschrieben; die Wirkung lässt sich über das TSH im Blut kontrollieren'
+    ],
+    risks: [
+      'Kein Nutzen bei leicht erhöhtem TSH im Alter: Beschwerde- und Müdigkeitswert unverändert gegenüber Placebo (TRUST, 737 Personen ab 65, 1 Jahr); Meta-Analyse von 21 RCTs mit 2.192 Erwachsenen ohne Nutzen für Lebensqualität und Beschwerden (Feller 2018)',
+      'Leitlinie im BMJ 2019: starke Empfehlung gegen Schilddrüsenhormon bei subklinischer Unterfunktion bei den meisten Erwachsenen (Ausnahmen u. a. Kinderwunsch, TSH über 20)',
+      'Nicht zum Abnehmen: Fachinformation und US-Warnhinweis – normale Dosen senken bei gesunder Schilddrüse kein Gewicht, höhere können lebensbedrohlich werden, besonders mit appetitzügelnden Mitteln; auch die systematische Übersicht fand keinen konsistenten Effekt (Kaptein 2009)',
+      'Überdosierung macht Symptome einer Überfunktion: Herzklopfen, Herzrasen, Rhythmusstörungen bis Vorhofflimmern, Schlaflosigkeit, Nervosität, Kopfschmerzen (Fachinformation)',
+      'Knochen: Bei über 70-Jährigen war die laufende Einnahme mit einem höheren Bruchrisiko verbunden, deutlich dosisabhängig, Odds Ratio 3,45 bei hoher gegenüber niedriger Dosis (Turner 2011, 213.511 Anwender, Beobachtungsstudie)',
+      'Vergiftungen bei Missbrauch nehmen zu, vor allem seit 2015 und meist zusammen mit Anabolika; Todesfälle sind beschrieben (Skrzypiec-Spring 2025)'
+    ],
+    status: 'Deutschland: zugelassenes, verschreibungspflichtiges Arzneimittel (AMVV Anlage 1), zahlreiche Präparate. Zugelassen u. a. bei Hypothyreose, zur Rückfallvorbeugung nach Kropf-Operation, bei gutartiger Struma mit normaler Funktion und bei Schilddrüsenkrebs; die Fachinformation sagt ausdrücklich, dass Schilddrüsenhormone nicht zur Gewichtsreduktion gegeben werden dürfen. USA: zugelassen (u. a. Synthroid) mit Warnhinweis im Kasten „nicht zur Behandlung von Übergewicht oder zur Gewichtsabnahme". Im Sport nach dem WADA-Code nicht verboten (Handelsman 2023).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/28402245/',
+    sources: [
+      { title: 'Stott DJ et al., N Engl J Med 2017 – TRUST, Levothyroxin bei subklinischer Hypothyreose, 737 Personen ab 65 Jahren', url: 'https://pubmed.ncbi.nlm.nih.gov/28402245/' },
+      { title: 'Feller M et al., JAMA 2018 – Meta-Analyse, 21 randomisierte Studien mit 2.192 Erwachsenen mit subklinischer Hypothyreose', url: 'https://pubmed.ncbi.nlm.nih.gov/30285179/' },
+      { title: 'Bekkering GE et al., BMJ 2019 – Leitlinie: Schilddrüsenhormon bei subklinischer Hypothyreose', url: 'https://pubmed.ncbi.nlm.nih.gov/31088853/' },
+      { title: 'Kaptein EM et al., J Clin Endocrinol Metab 2009 – Schilddrüsenhormon bei Übergewicht und anderen Erkrankungen, systematische Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/19737920/' },
+      { title: 'Turner MR et al., BMJ 2011 – Levothyroxin-Dosis und Bruchrisiko bei über 70-Jährigen, 213.511 Anwender', url: 'https://pubmed.ncbi.nlm.nih.gov/21527461/' },
+      { title: 'Schröder L, Seifert R, Naunyn Schmiedebergs Arch Pharmacol 2025 – die zehn meistverordneten Arzneimittel in Deutschland 1985 bis 2022', url: 'https://pubmed.ncbi.nlm.nih.gov/39570381/' },
+      { title: 'Skrzypiec-Spring M et al., Pharmaceuticals 2025 – Vergiftungen durch missbräuchlich genutzte Schilddrüsenhormone, systematische Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/41471297/' },
+      { title: 'Handelsman DJ et al., J Endocr Soc 2023 – Schilddrüsenhormon-Missbrauch bei Spitzensportlern, nicht WADA-verboten', url: 'https://pubmed.ncbi.nlm.nih.gov/36896254/' },
+      { title: 'Fachinformation L-Thyroxin Winthrop (Sanofi, Stand Februar 2023)', url: 'https://fachinfo.de/fi/pdf/022239/l-thyroxin-winthrop-r' },
+      { title: 'US-Fachinformation Synthroid (DailyMed) – Warnhinweis: nicht zur Gewichtsabnahme', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'estradiol',
+    name: 'Estradiol (Östradiol, E2)',
+    altNames: '17β-Estradiol, Östradiol, Oestradiol, E2, Estradiolvalerat, Gynokadin, Estradiol-Gel, Estradiol-Pflaster',
+    class: 'Wichtigstes körpereigenes Östrogen; als Arzneimittel zur Hormontherapie verschreibungspflichtig',
+    emoji: '💊',
+    short: 'Estradiol ist das wichtigste Östrogen des Körpers, bei Frauen wie bei Männern. Als Hormontherapie lindert es die Beschwerden der Wechseljahre; früh begonnen bremste es in ELITE die Verdickung der Halsschlagader-Wand, in KEEPS nicht. Beim Mann steuert Estradiol Fettmasse und Knochen und trägt mit Testosteron zur Sexualfunktion bei; als Pflaster war es 2026 beim Prostatakrebs der Hormonentzugsspritze ebenbürtig. Brustkrebs- und Thromboserisiko hängen von Dauer, Kombination und Anwendungsweg ab.',
+    moa: 'Estradiol (17β-Estradiol) ist das wichtigste körpereigene Östrogen. Nach den Wechseljahren fällt die eigene Bildung stark ab; Arzneimittel ersetzen sie und mindern die damit verbundenen Beschwerden. Sie enthalten Estradiol oder Estradiolvalerat, das im Körper zu 17β-Estradiol gespalten wird und chemisch und biologisch mit dem körpereigenen Hormon identisch ist (Fachinformation). Beim Mann entsteht Estradiol durch Umwandlung von Testosteron mit dem Enzym Aromatase. Was davon auf Östrogen statt auf Testosteron zurückgeht, wurde an 400 gesunden Männern mit gezielter Hormonsteuerung aufgeschlüsselt: Östrogenmangel erklärte vor allem die Zunahme an Körperfett, beide Hormone trugen zur Sexualfunktion bei (Finkelstein 2013), und am Knochen ist vor allem Estradiol entscheidend (Finkelstein 2016). Über die Haut angewendet war Hormontherapie in großen Beobachtungsdaten nicht mit mehr Thrombosen verbunden, als Tablette schon (Vinogradova 2019).',
+    benefits: [
+      'Zugelassen als Hormonersatz bei Östrogenmangel-Beschwerden nach der Menopause; Estradiol ersetzt die verlorene Östrogenbildung und mindert die damit verbundenen Beschwerden (Fachinformation)',
+      'Früher Start: Orales Estradiol bremste bei Frauen bis 6 Jahre nach der Menopause die Zunahme der Halsschlagader-Wanddicke (0,0044 gegenüber 0,0078 mm pro Jahr), bei Start nach 10 und mehr Jahren nicht (ELITE, 643 Frauen, median 5 Jahre)',
+      'Hormontherapie mit Estradiol kurz nach der Menopause halbierte nach 10 Jahren den kombinierten Endpunkt aus Tod, Herzinsuffizienz und Herzinfarkt, HR 0,48, ohne mehr Krebs (DOPS, 1.006 Frauen, offen)',
+      'Thrombose: Hormontherapie über die Haut war nicht mit mehr venösen Thrombosen verbunden (OR 0,93); als Tablette war Estradiol günstiger als konjugierte Östrogene (Vinogradova 2019, 80.396 Thrombosefälle)',
+      'Beim Mann: Östrogenmangel erklärte vor allem die Zunahme an Körperfett und trug zum Rückgang der Sexualfunktion bei (Finkelstein 2013, 400 Männer); Estradiol über 10 pg/ml schützte weitgehend vor Knochenabbau (Finkelstein 2016)',
+      'Prostatakrebs: Estradiol-Pflaster waren der Hormonentzugsspritze (LHRH-Agonisten) beim 3-Jahres-Überleben ohne Metastasen nicht unterlegen, 87,1 % gegenüber 85,9 %, mit weniger Hitzewallungen, 44 % gegenüber 89 % (PATCH/STAMPEDE, 1.360 Männer, 2026)'
+    ],
+    risks: [
+      'Brustkrebs: Jede Form der Hormontherapie außer vaginalem Östrogen war mit mehr Brustkrebs verbunden; reines Östrogen RR 1,17 in den Jahren 1 bis 4 und 1,33 in den Jahren 5 bis 14 laufender Anwendung, mit Gestagen höher (Collaborative Group 2019, 108.647 Brustkrebsfälle)',
+      'Gebärmutter: Östrogen allein steigert bei erhaltener Gebärmutter das Risiko für Hyperplasie und Krebs der Schleimhaut auf das 2- bis 12-Fache; dann ist ein Gestagen nötig (Fachinformation)',
+      'Thrombose und Schlaganfall: orale Hormontherapie OR 1,58 für venöse Thrombosen (Vinogradova 2019); laut Fachinformation venöse Thromboembolie 1,3- bis 3-fach, am höchsten im ersten Jahr, ischämischer Schlaganfall bis 1,5-fach',
+      'Kein belegter Gefäßschutz: In KEEPS bremste ein Estradiol-Pflaster bei 727 Frauen kurz nach der Menopause die Gefäßwandverdickung über 4 Jahre nicht (Harman 2014); in ELITE änderten sich Koronarkalk und Plaques im CT nicht',
+      'Demenz: Hinweise auf ein höheres Risiko wahrscheinlicher Demenz bei Beginn nach 65 Jahren (Fachinformation)',
+      'Beim Mann unter Estradiol-Pflaster: Brustdrüsenvergrößerung bei 85 % gegenüber 42 % unter LHRH-Agonisten (PATCH 2026)'
+    ],
+    status: 'Deutschland: Estradiol-Arzneimittel sind zugelassen und verschreibungspflichtig, zugelassen zur Hormonersatztherapie bei Östrogenmangel-Beschwerden nach der Menopause; laut Fachinformation in der niedrigsten wirksamen Dosis für die kürzestmögliche Dauer, bei erhaltener Gebärmutter zusammen mit einem Gestagen. Es gibt Präparate zum Einnehmen und zur Anwendung über die Haut. Estradiol-Pflaster gegen Prostatakrebs beim Mann wurden in der Studie PATCH geprüft. Estradiol steht nicht auf der WADA-Verbotsliste 2026; verboten sind Aromatasehemmer und Antiöstrogene (S4).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/27028912/',
+    sources: [
+      { title: 'Hodis HN et al., N Engl J Med 2016 – ELITE, orales Estradiol früh oder spät nach der Menopause, 643 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/27028912/' },
+      { title: 'Harman SM et al., Ann Intern Med 2014 – KEEPS, Estradiol-Pflaster oder konjugierte Östrogene kurz nach der Menopause, 727 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/25069991/' },
+      { title: 'Schierbeck LL et al., BMJ 2012 – DOPS, Hormontherapie mit Estradiol kurz nach der Menopause und Herz-Kreislauf-Ereignisse, 1.006 Frauen', url: 'https://pubmed.ncbi.nlm.nih.gov/23048011/' },
+      { title: 'Vinogradova Y et al., BMJ 2019 – Hormontherapie und venöse Thromboembolie nach Präparat und Anwendungsweg, 80.396 Fälle', url: 'https://pubmed.ncbi.nlm.nih.gov/30626577/' },
+      { title: 'Collaborative Group on Hormonal Factors in Breast Cancer, Lancet 2019 – Art und Dauer der Hormontherapie und Brustkrebsrisiko', url: 'https://pubmed.ncbi.nlm.nih.gov/31474332/' },
+      { title: 'Finkelstein JS et al., N Engl J Med 2013 – Testosteron, Östradiol, Körperzusammensetzung, Kraft und Sexualfunktion bei 400 gesunden Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/24024838/' },
+      { title: 'Finkelstein JS et al., J Clin Invest 2016 – Testosteron, Östradiol, Knochenumbau und Knochendichte bei Männern', url: 'https://pubmed.ncbi.nlm.nih.gov/26901812/' },
+      { title: 'Langley RE et al., N Engl J Med 2026 – PATCH/STAMPEDE, Estradiol-Pflaster gegen LHRH-Agonisten bei lokal fortgeschrittenem Prostatakrebs, 1.360 Männer', url: 'https://pubmed.ncbi.nlm.nih.gov/41880608/' },
+      { title: 'Fachinformation Gynokadin Tabletten 2 mg (Besins, Stand September 2025)', url: 'https://www.fachinfo.de/fi/pdf/006881/gynokadin-r-tabletten-2-mg' },
+      { title: 'WADA-Verbotsliste 2026, informatorische Übersetzung der NADA – S4.1 Aromatasehemmer, S4.2 Antiöstrogene', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Sonstige'
+  },
+  {
+    id: 'torasemid',
+    name: 'Torasemid',
+    altNames: 'Torsemide, Torasemide, Schleifendiuretikum',
+    class: 'Schleifendiuretikum (Entwässerungsmittel); zugelassenes, verschreibungspflichtiges Arzneimittel, im Sport als Diuretikum jederzeit verboten',
+    emoji: '💊',
+    short: 'Torasemid ist ein Schleifendiuretikum, ein stark wirksames Entwässerungsmittel, zugelassen gegen Wassereinlagerungen bei Herz-, Nieren- und Lebererkrankungen und gegen Bluthochdruck. In der großen randomisierten Studie TRANSFORM-HF mit 2.859 Menschen nach einem Krankenhausaufenthalt wegen Herzschwäche war es Furosemid ebenbürtig, aber nicht überlegen. Im Bodybuilding wird es vor Wettkämpfen zur Entwässerung missbraucht; beschrieben sind lebensgefährliche Kaliumverluste durch Diuretika und für Torasemid ein Todesfall nach Einnahme ohne Verordnung.',
+    moa: 'Torasemid wirkt im dicken aufsteigenden Teil der Henle-Schleife der Niere und hemmt dort den Na+/K+/2Cl−-Transporter; der Körper scheidet dadurch mehr Natrium, Chlorid und Wasser aus. Dieser Angriffspunkt ist auch beim Menschen bestätigt. Als Tablette wird Torasemid zu etwa 80 Prozent aufgenommen, mit geringer Schwankung zwischen Personen; die Wirkung setzt innerhalb einer Stunde ein und hält etwa 6 bis 8 Stunden an. Abgebaut wird es überwiegend in der Leber über CYP2C9 (US-Fachinformation). Frühe, nicht randomisierte Daten nährten die Hoffnung, es sei Furosemid überlegen (TORIC, Cosín 2002).',
+    benefits: [
+      'Herzschwäche: In TRANSFORM-HF (2.859 Patienten nach Krankenhausaufenthalt wegen Herzschwäche, randomisiert, offen) starben unter Torasemid 26,1 Prozent, unter Furosemid 26,2 Prozent; auch Tod oder Krankenhausaufnahme innerhalb von 12 Monaten unterschieden sich nicht signifikant (47,3 gegenüber 49,3 Prozent, Mentz 2023)',
+      'Metaanalyse aus 10 randomisierten Studien mit 4.011 Patienten: beide Mittel senkten das Gewicht durch Entwässerung, ohne Unterschied zwischen ihnen bei Sterblichkeit, Klinikaufnahmen wegen Herzschwäche und Gewichtsabnahme (Eid 2026)',
+      'Frühe Beobachtungsdaten: In der nicht randomisierten TORIC-Studie mit 1.377 Patienten starben unter Torasemid 2,2 Prozent gegenüber 4,5 Prozent unter Furosemid oder anderen Diuretika, zu niedrige Kaliumwerte waren seltener (Cosín 2002) – ein Signal, das die randomisierte Studie nicht bestätigt hat',
+      'Zugelassene Anwendungen: Wassereinlagerungen (Ödeme) bei Herzschwäche, Nieren- oder Lebererkrankung sowie Bluthochdruck (US-Fachinformation)',
+      'Warum Menschen es im Sport nehmen: um schnell Wasser auszuscheiden und Gewicht zu verlieren und um andere verbotene Stoffe im Urin zu verschleiern (Cadwallader 2010)'
+    ],
+    risks: [
+      'Laut US-Fachinformation: Austrocknung, Blutdruckabfall und Verschlechterung der Nierenfunktion bis zum akuten Nierenversagen; Mangel an Kalium, Natrium, Magnesium und Kalzium; Anstieg von Blutzucker und Harnsäure, selten Gicht; Ohrgeräusche und Hörverlust, meist umkehrbar',
+      'Missbrauch: Eine Frau Anfang 40 starb nach rund sechs Wochen Einnahme ohne ärztliche Verordnung; die Obduktion zeigte einen Nierenschaden wie beim Pseudo-Bartter-Syndrom, als Todesursache wurde eine Vergiftung durch langen Torasemid-Missbrauch festgestellt (Nara 2025, erster obduzierter Fall)',
+      'Bodybuilding: Ein 22-Jähriger entwickelte nach Selbstmedikation mit einem anderen Diuretikum (Triamteren/Hydrochlorothiazid) und Flüssigkeitsbeschränkung einen Kaliumwert von 1,8 mmol/l, Lähmungen aller vier Gliedmaßen und eine stark verlängerte QT-Zeit im EKG; er erholte sich unter Behandlung (Pfisterer 2020, Fallbericht)',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S5 Diuretika und Maskierungsmittel, Torasemid namentlich genannt)'
+    ],
+    status: 'Zugelassenes Arzneimittel; in Deutschland verschreibungspflichtig (AMVV Anlage 1). In den USA zugelassen zur Behandlung von Ödemen bei Herzinsuffizienz, Nieren- und Lebererkrankungen sowie von Bluthochdruck. WADA-Verbotsliste 2026: S5 Diuretika und Maskierungsmittel, innerhalb und außerhalb des Wettkampfs verboten. Anti-Doping-Gesetz: Torasemid steht nicht in der Anlage des Gesetzes, das Verbot von Erwerb und Besitz in nicht geringer Menge (§ 2 Abs. 3) greift daher nicht; verboten und strafbar sind aber Herstellen, Handeltreiben, Abgeben und Verschreiben zum Doping im Sport (§ 2 Abs. 1, § 4) sowie für Spitzensportler und Sportler mit erheblichen Einnahmen das Selbstdoping im Wettbewerb (§ 3, § 4 Abs. 7).',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/36648467/',
+    sources: [
+      { title: 'Mentz RJ et al., JAMA 2023 – TRANSFORM-HF, Torasemid gegen Furosemid nach Krankenhausaufenthalt wegen Herzschwäche, 2.859 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/36648467/' },
+      { title: 'Eid MM et al., Arch Med Sci Atheroscler Dis 2026 – Metaanalyse aus 10 randomisierten Studien, Torasemid gegen Furosemid', url: 'https://pubmed.ncbi.nlm.nih.gov/42273660/' },
+      { title: 'Cosín J, Díez J, Eur J Heart Fail 2002 – TORIC, nicht randomisierte Beobachtungsstudie mit 1.377 Patienten', url: 'https://pubmed.ncbi.nlm.nih.gov/12167392/' },
+      { title: 'US-Fachinformation Torsemide Tablets (DailyMed) – Indikationen, Wirkmechanismus, Warnhinweise', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09305350-e317-419c-96f5-aa8fbeb4044d' },
+      { title: 'Cadwallader AB et al., Br J Pharmacol 2010 – Missbrauch von Diuretika im Sport: Pharmakologie, Toxikologie, Nachweis', url: 'https://pubmed.ncbi.nlm.nih.gov/20718736/' },
+      { title: 'Nara A et al., J Forensic Sci 2025 – Todesfall durch Torasemid-Missbrauch, Obduktionsbefund', url: 'https://pubmed.ncbi.nlm.nih.gov/40405371/' },
+      { title: 'Pfisterer N et al., Clin J Sport Med 2020 – schwerer Kaliummangel mit Lähmung bei einem Bodybuilder nach Diuretika-Selbstmedikation', url: 'https://pubmed.ncbi.nlm.nih.gov/31770156/' },
+      { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Torasemid verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S5 Diuretika und Maskierungsmittel)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), § 2, § 3, § 4 und Anlage', url: 'https://www.gesetze-im-internet.de/antidopg/' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Stoffwechsel'
+  },
+  {
+    id: 'insulin-bodybuilding',
+    name: 'Insulin im Bodybuilding',
+    altNames: 'Insulin-Missbrauch, nicht medizinische Insulinnutzung, Insulin als Dopingmittel',
+    class: 'Zugelassenes, verschreibungspflichtiges Diabetesmittel (Peptidhormon); als Muskelaufbaumittel missbraucht, im Sport jederzeit verboten',
+    emoji: '⚠️',
+    short: 'Insulin ist das zentrale Medikament bei Diabetes. Im Bodybuilding wird es ohne Diabetes gespritzt, weil es den Abbau von Muskeleiweiß bremst. Belegt ist dieser Effekt in kurzen Infusionsversuchen; dass Insulin bei Gesunden über Wochen Muskeln aufbaut, hat keine kontrollierte Studie untersucht. Dokumentiert sind dagegen schwere Unterzuckerungen bis zum Koma und ein gerichtlich festgestellter Todesfall.',
+    moa: 'Insulin ist das Hormon der Bauchspeicheldrüse, das Zucker aus dem Blut in Muskel-, Fett- und Leberzellen bringt. Am Muskel wirkt es vor allem bremsend auf den Eiweißabbau: In einer Metaanalyse von Infusionsstudien mit 173 Menschen senkte Insulin den Abbau von Muskeleiweiß deutlich und verbesserte die Eiweißbilanz; den Aufbau steigerte es nur, wenn zugleich mehr Aminosäuren verfügbar waren (Abdulla 2016). Darauf beruht die Idee im Bodybuilding. Die Kehrseite liegt in derselben Wirkung: Zu viel Insulin senkt den Blutzucker, und das Gehirn ist auf Zucker angewiesen.',
+    benefits: [
+      'Was die Physiologie zeigt: Insulin senkt in kurzen Infusionsversuchen den Abbau von Muskeleiweiß und verbessert die Eiweißbilanz; den Aufbau steigert es nur bei reichlich Aminosäuren (Metaanalyse, 25 Studien, 173 Menschen, Abdulla 2016)',
+      'Keine Studie zum Muskelaufbau bei Gesunden: Eine kontrollierte Studie, die Muskelmasse oder Kraft unter Insulin bei gesunden Trainierenden über Wochen misst, gibt es nicht; eine Übersicht spricht von einem Mangel an belastbaren Humandaten (Anderson 2018)',
+      'Warum Menschen es nehmen: In einer Online-Umfrage unter 500 Steroidnutzern gab ein Viertel an, zusätzlich Wachstumshormon und Insulin für den Muskelaufbau zu nutzen (Parkinson und Evans 2006)',
+      'Verbreitung unter Freizeit-Bodybuildern: Von 92 befragten Bodybuildern nutzten 43 Prozent Hormone, davon 38 Prozent Insulin (Di Girolamo 2024)',
+      'Zugelassene Anwendung: Behandlung des Diabetes, zum Beispiel Insulin glargin in der EU seit dem Jahr 2000 (EMA)'
+    ],
+    risks: [
+      'Unterzuckerung: schon in der ärztlich begleiteten Diabetestherapie die häufigste Nebenwirkung, bei mehr als 1 von 10 Behandelten (EMA, Insulin glargin)',
+      'Umfrage unter 41 Insulinnutzern ohne Diabetes: 56,8 Prozent berichteten Unterzuckerungen, einer eine Bewusstlosigkeit; 95,1 Prozent nahmen zusätzlich Steroide (Ip 2012)',
+      'Fallbericht: ein 30-jähriger Bodybuilder im Koma durch eine schwere Unterzuckerung, die wiederholte Zuckerinfusionen brauchte; Ursache waren verschwiegene Insulin-Injektionen (Heidet 2019)',
+      'Todesfall: Ein 31-jähriger Bodybuilder in Australien spritzte sich Insulin, brach in einer verschlossenen Studio-Toilette zusammen und wurde erst nach rund 20 Stunden gefunden; Todesursache laut Gericht ein Hirnschaden durch Sauerstoffmangel infolge des zugeführten Insulins (Coroners Court of New South Wales 2021)',
+      'Stoffwechselwerte: Bei Nutzern von Insulin und/oder Wachstumshormon war das HDL niedriger, Insulin war mit einem veränderten Verhältnis der Leberwerte ALT zu AST verbunden (Di Girolamo 2024)',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S4.4.2 Insuline und Insulin-Mimetika); in Deutschland namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Insuline sind zugelassene, verschreibungspflichtige Arzneimittel zur Behandlung des Diabetes, in der EU etwa Insulin glargin seit dem 09.06.2000 (EMA); eine Zulassung zum Muskelaufbau gibt es nicht. Anti-Doping-Gesetz: „Insuline“ stehen in der Anlage; Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping im Sport sind verboten (§ 2 Abs. 3), ebenso Herstellen, Handeltreiben, Abgeben und Verschreiben zum Doping (§ 2 Abs. 1), strafbar nach § 4. WADA-Verbotsliste 2026: S4.4.2 Insuline und Insulin-Mimetika, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/26404065/',
+    sources: [
+      { title: 'EMA – Lantus (Insulin glargin), EPAR: Anwendung bei Diabetes, Zulassung 2000, häufigste Nebenwirkung Unterzuckerung', url: 'https://www.ema.europa.eu/en/medicines/human/EPAR/lantus' },
+      { title: 'Abdulla H et al., Diabetologia 2016 – Metaanalyse: Insulin und Eiweißaufbau und -abbau im Muskel, 173 Menschen', url: 'https://pubmed.ncbi.nlm.nih.gov/26404065/' },
+      { title: 'Anderson LJ et al., Mol Cell Endocrinol 2018 – Wachstumshormon, IGF-1 und Insulin zum Muskelaufbau: Grundlagen, Nachweis, Nebenwirkungen', url: 'https://pubmed.ncbi.nlm.nih.gov/28606865/' },
+      { title: 'Parkinson AB, Evans NA, Med Sci Sports Exerc 2006 – Umfrage unter 500 Steroidnutzern', url: 'https://pubmed.ncbi.nlm.nih.gov/16679978/' },
+      { title: 'Ip EJ et al., Curr Sports Med Rep 2012 – Fallserie aus einer Online-Umfrage: 41 Insulinnutzer ohne Diabetes', url: 'https://pubmed.ncbi.nlm.nih.gov/22777326/' },
+      { title: 'Di Girolamo FG et al., Sports Med Open 2024 – Stoffwechselfolgen von Steroiden, Insulin und Wachstumshormon bei 92 Freizeit-Bodybuildern', url: 'https://pubmed.ncbi.nlm.nih.gov/38536564/' },
+      { title: 'Heidet M et al., J Emerg Med 2019 – schwere Unterzuckerung durch verschwiegene Insulinnutzung bei einem Bodybuilder, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/30527564/' },
+      { title: 'Coroners Court of New South Wales 2021 – Untersuchung zum Tod eines Bodybuilders nach Insulin-Injektion (Findings, 29.10.2021)', url: 'https://coroners.nsw.gov.au/documents/findings/2021/Drabsch_findings_FINAL_pseudonyms.pdf' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S4.4.2 Insuline und Insulin-Mimetika)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), Anlage – Stoffwechsel-Modulatoren: Insuline', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
+  },
+  {
+    id: 'methyl-1-testosteron',
+    name: 'Methyl-1-testosteron (M1T)',
+    altNames: 'M1T, Methyl-1-testosterone, 17α-Methyl-1-testosteron, 17β-Hydroxy-17α-methyl-5α-androst-1-en-3-on',
+    class: 'Designer-Steroid, oral wirksames 17α-methyliertes Anabolikum; nie als Arzneimittel zugelassen, als „Prohormon“ und Nahrungsergänzung verkauft',
+    emoji: '⚠️',
+    short: 'Methyl-1-testosteron, kurz M1T, ist ein Anabolikum, das als „Prohormon“ und Nahrungsergänzung verkauft wurde; die USA stuften es 2004 per Gesetz namentlich als Anabolikum ein. Im Zell- und Tierversuch wirkt es stark androgen und anabol, ohne Muskel und Prostata zu trennen, und zeigt deutliche Wirkung auf die Leber. Eine Studie zur Wirkung am Menschen gibt es nicht.',
+    moa: 'M1T (17β-Hydroxy-17α-methyl-5α-androst-1-en-3-on) ist die 17α-methylierte Form von 1-Testosteron. In einem Hefe-Testsystem aktivierte es den Androgenrezeptor stark. Bei Ratten steigerte es unter die Haut gespritzt dosisabhängig das Gewicht von Prostata und Beckenbodenmuskel (Hershberger-Test); geschluckt veränderte es diese Organgewichte nicht, regte aber die Zellteilung in der Prostata an, veränderte IGF-1 und Androgenrezeptor im Wadenmuskel und wirkte besonders stark auf die Leber. Die Autoren folgern: ein starkes Androgen und Anabolikum ohne die Gewebeauswahl eines SARM, mit möglicher Lebergiftigkeit vor allem bei Einnahme als Tablette (Parr 2011). Die 17α-Methylgruppe macht Steroide oral wirksam; diese Gruppe ist am engsten mit Gallenstauung und Leberschäden verbunden (LiverTox).',
+    benefits: [
+      'Keine Humanstudie zur Wirkung: Für Muskelmasse, Kraft oder Leistung gibt es keine klinische Studie; bei nicht zugelassenen Designer-Steroiden fehlen klinische Studien grundsätzlich (Joseph und Parr 2015)',
+      'Im Tierversuch stark anabol und androgen: dosisabhängig mehr Gewicht von Beckenbodenmuskel und Prostata bei Ratten, starke Aktivierung des Androgenrezeptors im Hefe-Test (Parr 2011)',
+      'Warum Menschen es nehmen: verkauft als frei erhältliche Nahrungsergänzung für Muskelaufbau, unter irreführenden Bezeichnungen wie „Prohormon“ (Rahnema 2015; Parr 2011)',
+      'Am Menschen beschrieben ist nur der Nachweis: M1T und mehrere Abbauprodukte im Urin, samt Ausscheidungsverlauf (Parr 2011)'
+    ],
+    risks: [
+      'Leber: im Rattenversuch starke Wirkung auf die Leber, vor allem nach Gabe durch den Mund (Parr 2011); als 17α-alkyliertes Steroid gehört M1T zu der Gruppe, die am engsten mit Gallenstauung, Peliosis hepatis und Lebertumoren verbunden ist (LiverTox)',
+      'Niere: akute Nierenschädigung bei einem Patienten mit schwerer Neurodermitis, der unter Ciclosporin zusätzlich M1T einnahm; die Autoren führen sie auf eine Wechselwirkung mit dem Abbau des Ciclosporins zurück (Al-Niaimi 2013, Fallbericht)',
+      'Steroide aus dem Bodybuilding allgemein: Im spanischen Register stieg der Anteil der Leberschäden durch Anabolika an allen gemeldeten Arzneimittel-Leberschäden von unter 1 Prozent (2001–2009) auf 8 Prozent (2010–2013), meist junge Männer mit Gelbsucht und Krankenhausaufenthalt, bei starker Gallenstauung auch mit Nierenschädigung (Robles-Diaz 2015)',
+      'Designer-Steroide in Supplements: beschrieben sind Leberschäden, Gallenstauung, Nierenversagen, Unterfunktion der Hoden, Brustwachstum beim Mann und Unfruchtbarkeit; manche Folgen gehen zurück, andere nicht (Rahnema 2015)',
+      'Im Sport jederzeit verboten (WADA-Liste 2026, S1.1, namentlich genannt); in Deutschland namentlich in der Anlage des Anti-Doping-Gesetzes'
+    ],
+    status: 'Nie als Arzneimittel zugelassen, weder in Deutschland noch in der EU oder den USA. In Deutschland dürfen Fertigarzneimittel nur mit Zulassung in Verkehr gebracht werden (§ 21 AMG). Methyl-1-testosteron steht namentlich in der Anlage des Anti-Doping-Gesetzes: Herstellen, Handeltreiben, Abgeben und Verschreiben zum Doping im Sport sind verboten, ebenso Erwerb, Besitz und Verbringen in nicht geringer Menge zum Doping (§ 2, strafbar nach § 4). USA: Mit dem Anabolic Steroid Control Act, verkündet am 22.10.2004 und 90 Tage später in Kraft, wurde „17-α-methyl-1-testosterone“ namentlich in die Definition der Anabolika im Controlled Substances Act aufgenommen; ein Verkauf als Nahrungsergänzung ist seitdem nicht mehr legal. WADA-Verbotsliste 2026: S1.1, namentlich genannt, jederzeit verboten.',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/21990312/',
+    sources: [
+      { title: 'Parr MK et al., Endocrinology 2011 – Methyl-1-testosteron: anabole und androgene Wirkung, Nebenwirkungen und Stoffwechsel (Zelltest, Ratte, Urin des Menschen)', url: 'https://pubmed.ncbi.nlm.nih.gov/21990312/' },
+      { title: 'Al-Niaimi F, Lyon CC, Dermatol Ther (Heidelb) 2013 – akute Nierenschädigung durch Wechselwirkung von M1T mit Ciclosporin, Fallbericht', url: 'https://pubmed.ncbi.nlm.nih.gov/24281763/' },
+      { title: 'Joseph JF, Parr MK, Curr Neuropharmacol 2015 – synthetische Androgene als Designer-Nahrungsergänzung', url: 'https://pubmed.ncbi.nlm.nih.gov/26074745/' },
+      { title: 'Rahnema CD et al., Andrology 2015 – Designer-Steroide in frei verkäuflichen Supplements, Übersicht', url: 'https://pubmed.ncbi.nlm.nih.gov/25684733/' },
+      { title: 'Robles-Diaz M et al., Aliment Pharmacol Ther 2015 – Leberschäden durch Anabolika in spanischen und lateinamerikanischen Registern, 25 Fälle', url: 'https://pubmed.ncbi.nlm.nih.gov/25394890/' },
+      { title: 'LiverTox (NIH) – Androgenic Steroids: Leberschäden durch 17α-alkylierte Steroide', url: 'https://www.ncbi.nlm.nih.gov/books/NBK548931/' },
+      { title: 'Anabolic Steroid Control Act of 2004, Public Law 108-358 – 17-α-methyl-1-testosterone als Anabolikum eingestuft', url: 'https://www.congress.gov/108/plaws/publ358/PLAW-108publ358.htm' },
+      { title: 'Arzneimittelgesetz (AMG), § 21 Zulassungspflicht', url: 'https://www.gesetze-im-internet.de/amg_1976/__21.html' },
+      { title: 'Anti-Doping-Gesetz (AntiDopG), Anlage – anabol-androgene Steroide (Methyl-1-testosteron)', url: 'https://www.gesetze-im-internet.de/antidopg/anlage.html' },
+      { title: 'NADA – Verbotsliste 2026, informatorische Übersetzung (S1.1 Anabol-androgene Steroide)', url: 'https://www.nada.de/fileadmin/nada/SERVICE/Downloads/Verbotslisten/2026_Informatorische_Uebersetzung_Verbotsliste.pdf' }
+    ],
+    community: [],
+    podcasts: [],
+    filterCat: 'Exercise'
   }
 
 ];
@@ -8515,6 +8619,11 @@ const EXPERIMENTAL_CATEGORIES = [
 
 // Auto-Mapping Klasse → Kategorie-Filter
 const _EXP_CAT_MAP = {
+  'methyl-1-testosteron': 'Exercise',
+  'insulin-bodybuilding': 'Exercise',
+  'torasemid': 'Stoffwechsel',
+  'levothyroxin': 'Stoffwechsel',
+  'ezetimib': 'Stoffwechsel',
   'gw-0742': 'Exercise',
   'rad150': 'Exercise',
   'salbutamol': 'Stoffwechsel',

@@ -69,6 +69,8 @@ def titel(s):
 def haupttext(s):
     s = re.sub(r'%s.*?%s' % (re.escape(START), re.escape(ENDE)), '', s, flags=re.S)
     s = re.sub(r'<p class="pod-seite">.*?</p>', '', s, flags=re.S)
+    # Automatisch gesetzte Kästen (seitenkopf.py, antwortsatz.py, zielstruktur.py) dürfen die Ähnlichkeit nicht verschieben
+    s = re.sub(r'<!-- (seitenkopf|antwort|ziel):start -->.*?<!-- \1:end -->', '', s, flags=re.S)
     m = re.search(r'<main.*?</main>', s, re.S)
     s = m.group(0) if m else s
     s = re.sub(r'<section><h2>Quellen</h2>.*?</section>', '', s, flags=re.S)

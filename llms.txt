@@ -11,6 +11,20 @@
 - [Über uns](https://biohackingkompakt.de/ueber-uns.html): wer hinter Biohacking Kompakt steht, Finanzierung, Korrekturen
 - [Methodik](https://biohackingkompakt.de/methodik.html): Recherche, Quellenhierarchie, Zahlenprüfung, die fünf Achsen des BK-Scores und die Etikett-Regeln
 
+## Grundsätze
+
+- Der BK-Score bewertet den Wissensstand zu einem Wirkstoff oder einer Anwendung, nicht die Substanz. Fünf Achsen von 0 bis 10, kein Gesamtwert:
+  - Human-Evidenz: wie viele und wie gute Daten es am Menschen gibt
+  - Mechanismus: wie gut verstanden ist, warum etwas wirken soll
+  - Sicherheits-Datenlage: wie gut die Sicherheit untersucht ist, nicht wie sicher etwas ist
+  - Hype-Abstand: wie weit die Vermarktung der Datenlage vorausläuft (10 = Werbung auf Höhe der Daten)
+  - Anwendungserfahrung: wie viel dokumentierte Anwendung am Menschen es gibt, kein Wirksamkeitsbeleg
+- Das Etikett ergibt sich nach festen Regeln aus Human-Evidenz, Richtung der Daten und Hype-Abstand: „Gut belegt“, „Gut belegt, stark überhöht beworben“, „Belegt, mit Einschränkungen“, „Dünne Humanevidenz“, „Lange angewendet, kaum untersucht“, „Gut untersucht – Wirkung nicht bestätigt“, „Untersucht – Nutzen nicht gezeigt“, „Nicht am Menschen untersucht“, „Am Menschen geprüft, Ergebnisse unveröffentlicht“, „Hype weit vor Evidenz“, „Experimentell“. Regeln im Detail: https://biohackingkompakt.de/methodik.html#bk-score
+- Bei nicht zugelassenen Wirkstoffen stehen bewusst keine Dosierungen (§ 3a HWG). Wirkung und Studienlage ja, Anwendungsanleitung nein.
+- Themen-, Tipp- und Vergleichsseiten nennen keine Bezugsquellen. Peptid- und Graumarkt-Anbieter werden nirgends verlinkt; Partnerlinks in der App sind als Anzeige gekennzeichnet.
+- Erfahrungsberichte sind als Bericht gekennzeichnet und zählen nicht als Wirkungsbeleg. Sterne gibt es nur bei eigener Anwendung.
+- Korrekturen und neue Studienlage stehen mit Datum, Begründung und, wo vorhanden, Quelle im [Änderungsprotokoll](https://biohackingkompakt.de/aenderungen.html).
+
 ## English pages
 
 English versions of the most-read pages (the rest of the site is German). Overview: https://biohackingkompakt.de/en/
@@ -294,9 +308,11 @@ Inhalte sind Information, kein medizinischer Rat.
 - [Ergothionein](https://biohackingkompakt.de/thema/ergothionein.html): Ergothionein ist ein Stoff aus Pilzen, den der Körper über einen eigenen Transporter aufnimmt und lange festhält. Wer viel davon im Blut hat, erkrankt und …
 - [Erythrit und Xylit](https://biohackingkompakt.de/thema/erythrit-xylit.html): Erythrit und Xylit heben den Blutzucker kaum an. Seit 2023 wird über ihre Gefäßwirkung gestritten, der Stand ist offen und stützt sich auf kleine Gruppen.
 - [eSpineBot](https://biohackingkompakt.de/thema/espinebot.html): Roboter-gestützte Wirbelsäulen-Entlastung mit gezielter Druckanpassung – „Next-Level Rücken".
+- [Estradiol (Östradiol, E2)](https://biohackingkompakt.de/thema/estradiol.html): Estradiol ist das wichtigste Östrogen bei Frau und Mann. Was es in den Wechseljahren leistet, was es beim Mann steuert und wo die Risiken liegen.
 - [Exemestan](https://biohackingkompakt.de/thema/exemestan.html): Exemestan ist gegen Brustkrebs gut belegt. Bei Männern gibt es nur eine zehntägige Studie an 12 jungen Männern, Langzeitdaten fehlen.
 - [Exogene Ketone / Ketonester](https://biohackingkompakt.de/thema/exogene-ketone.html): Ketone zum Trinken: liefern dem Körper direkt den „Fasten-Treibstoff" BHB – für schnelle mentale und körperliche Energie ohne Kohlenhydrate.
 - [Exosomen-Therapie](https://biohackingkompakt.de/thema/exosomen.html): Exosomen sind Membranbläschen mit Proteinen, Fetten und RNA-Schnipseln, die Zellen als Signal abgeben. Bei alten Mäusen hat eine Behandlung mit solchen …
+- [Ezetimib (Ezetrol)](https://biohackingkompakt.de/thema/ezetimib.html): Ezetimib bremst die Cholesterinaufnahme im Darm und senkt das LDL. Was IMPROVE-IT, SHARP und Ez-PAVE zeigen und wo der Zusatznutzen klein bleibt.
 - [Fadogia Agrestis](https://biohackingkompakt.de/thema/fadogia-agrestis.html): Fadogia agrestis ist ein Strauch aus der Kaffeeverwandtschaft, der in Nigeria und der Sahelzone wächst und traditionell gegen Malaria und als Aphrodisiakum …
 - [Fasten & Autophagie](https://biohackingkompakt.de/thema/fasten-autophagie.html): Intervallfasten verschiebt die Essenszeiten; die Autophagie gilt als sein wichtigstes Versprechen. In der längsten Vergleichsstudie verloren beide Gruppen …
 - [Fenbendazol](https://biohackingkompakt.de/thema/fenbendazol.html): Fenbendazol ist ein Wurmmittel für Tiere, das als Krebs-Selbstbehandlung kursiert. Es gibt Laborbefunde, keine Humanstudien und Fallberichte zu Leberschäden.
@@ -355,6 +371,7 @@ Inhalte sind Information, kein medizinischer Rat.
 - [IHHT – Hypoxietraining](https://biohackingkompakt.de/thema/ihht.html): Das Verfahren nutzt einen gut untersuchten Mechanismus: Zellen messen Sauerstoff über den Faktor HIF und schalten bei Knappheit ein Anpassungsprogramm an, für …
 - [Infrarot-A (wIRA)](https://biohackingkompakt.de/thema/infrarot-a.html): Wassergefilterte Infrarot-A-Strahlung dringt tief ins Gewebe ein, fördert Mikrozirkulation und Sauerstoffversorgung.
 - [Ingwer](https://biohackingkompakt.de/thema/ingwer.html): Ingwer gegen Übelkeit in der Schwangerschaft, nach Operationen und bei Chemotherapie: was Meta-Analysen zeigen und was die EMA anerkennt.
+- [Insulin im Bodybuilding](https://biohackingkompakt.de/thema/insulin-bodybuilding.html): Insulin bremst den Abbau von Muskeleiweiß, Studien zum Muskelaufbau bei Gesunden fehlen. Im Bodybuilding drohen schwere Unterzuckerungen bis zum Tod.
 - [INUSpherese® (Blut-Apherese)](https://biohackingkompakt.de/thema/inuspherese.html): Die INUSpherese ist eine Doppelfiltrations-Apherese: Blut wird aus der Vene in eine Maschine geleitet, das Plasma von den Zellen getrennt, über einen zweiten, …
 - [Isotretinoin](https://biohackingkompakt.de/thema/isotretinoin.html): Isotretinoin wirkt bei schwerer Akne dosisabhängig, ist aber stark fruchtschädigend. Was Studien, EMA und MHRA zu Psyche und Sexualität sagen.
 - [IV-Vitamintherapie (Myers-Cocktail)](https://biohackingkompakt.de/thema/iv-vitamintherapie.html): Vitamine und Mineralstoffe direkt über die Vene (z. B. „Myers-Cocktail"). Der Blutspiegel steigt schnell – ein Nutzen ist vor allem bei nachgewiesenem Mangel …
@@ -396,8 +413,10 @@ Inhalte sind Information, kein medizinischer Rat.
 - [Lavendelöl oral (Silexan)](https://biohackingkompakt.de/thema/lavendeloel.html): Lavendelöl in Kapseln (Silexan, Lasea) ist in Deutschland gegen Unruhe bei ängstlicher Verstimmung zugelassen und senkte in fünf Studien die Angst.
 - [Letrozol](https://biohackingkompakt.de/thema/letrozol.html): Letrozol ist gegen Brustkrebs zugelassen. Bei übergewichtigen Männern hob es Testosteron deutlich, ohne messbare Wirkung auf Körper oder Psyche.
 - [Leucin](https://biohackingkompakt.de/thema/leucin.html): Essenzielle, verzweigtkettige Aminosäure und am Menschen gut belegter Auslöser der Muskelproteinsynthese über mTORC1.
+- [Levothyroxin (L-Thyroxin, T4)](https://biohackingkompakt.de/thema/levothyroxin.html): Levothyroxin ersetzt das Schilddrüsenhormon T4. Was es bei Unterfunktion leistet, was TRUST bei leicht erhöhtem TSH fand und warum es nicht schlank macht.
 - [Ligandrol (LGD-4033)](https://biohackingkompakt.de/thema/ligandrol.html): Der SARM der Aufbauphase: Placebokontrolliert stieg die fettfreie Masse bei jungen Männern schon in 21 Tagen, in der höchsten Stufe um etwa 1,2 kg, nach Hüftfraktur um bis zu 9,1 Prozent in 12 …
 - [Liothyronin (T3)](https://biohackingkompakt.de/thema/liothyronin.html): Liothyronin (T3) ist zugelassen, aber nicht zum Abnehmen: Ein Fettabbau-Effekt ist nicht belegt, Risiken für Herz und Rhythmus sind es.
+- [Lipo-Spritzen (Lipo-B, Lipo-C, MIC)](https://biohackingkompakt.de/thema/lipo-spritzen.html): Lipo-Spritzen mit MIC, Vitamin B12 und L-Carnitin sollen den Fettabbau anregen. Studien gibt es nur zu den Einzelstoffen, nicht zur Spritze.
 - [Lipoprotein(a)](https://biohackingkompakt.de/thema/lipoprotein-a.html): Lipoprotein(a) ist ein LDL-ähnliches Partikel mit einem zusätzlich angehängten Eiweiß, dem Apolipoprotein(a). Etwa jeder Fünfte hat einen erhöhten Wert und …
 - [Liposomales Kreatin](https://biohackingkompakt.de/thema/liposomales-kreatin.html): Liposomales Kreatin ist Kreatin-Monohydrat in einer Fetthülle oder mit Lecithin vermischt. Es wirkt, weil Monohydrat wirkt — besser wirkt es nicht, denn …
 - [Lipotropin (als Fettabbau-Peptid verkauft)](https://biohackingkompakt.de/thema/lipotropin.html): Als „Lipotropin“ verkauftes Fettabbau-Peptid: unklare Identität, nur Zell- und Gewebeversuche, keine Humanstudie. Was dahintersteckt und was fehlt.
@@ -432,6 +451,7 @@ Inhalte sind Information, kein medizinischer Rat.
 - [Metformin](https://biohackingkompakt.de/thema/metformin.html): Metformin ist ein Biguanid und seit Jahrzehnten Standardmedikament bei Typ-2-Diabetes. Der Longevity-Anspruch ist etwas anderes: Die dafür entscheidende Studie …
 - [Methandrostenolon (Dianabol)](https://biohackingkompakt.de/thema/methandrostenolon.html): Dianabol steigerte in kleinen Studien der 1970er Jahre das Gewicht, die Kraft aber nicht sicher. Gut dokumentiert sind Leberschäden bis zur Gallenstauung.
 - [Methasteron (Superdrol)](https://biohackingkompakt.de/thema/methasteron.html): Methasteron (Superdrol) wurde als Nahrungsergänzung verkauft, ist aber ein Anabolikum. Keine Humanstudie zur Wirkung, dafür Fallberichte über Leberschäden.
+- [Methyl-1-testosteron (M1T)](https://biohackingkompakt.de/thema/methyl-1-testosteron.html): M1T wurde als Prohormon verkauft, wirkt im Tierversuch aber als starkes Anabolikum mit Leberbelastung. Studien am Menschen fehlen, im Sport ist es verboten.
 - [Methylene Blue (Methylenblau)](https://biohackingkompakt.de/thema/methylene-blue.html): Methylenblau, chemisch Methylthioniniumchlorid, ist in der EU seit 2011 und in den USA seit 2016 als Injektion gegen Methämoglobinämie zugelassen. In niedriger …
 - [Methylfolat](https://biohackingkompakt.de/thema/methylfolat.html): Methylfolat, genauer L-5-Methyltetrahydrofolat, ist die biologisch aktive Form des Vitamins Folat. Es hebt den Folatspiegel im Blut mindestens so gut wie …
 - [Methylstenbolon](https://biohackingkompakt.de/thema/methylstenbolon.html): Methylstenbolon ist ein Designer-Steroid aus „Prohormon“-Produkten. Eine Humanstudie zur Wirkung fehlt; dokumentiert sind Leberschäden und Rechtslage.
@@ -591,6 +611,7 @@ Inhalte sind Information, kein medizinischer Rat.
 - [Tirzepatide (Mounjaro / Zepbound)](https://biohackingkompakt.de/thema/tirzepatide.html): Tirzepatid aktiviert zwei Darmhormon-Rezeptoren gleichzeitig und erzielt die höchsten Gewichtszahlen seiner Wirkstoffklasse. Der große …
 - [TMG (Trimethylglycin)](https://biohackingkompakt.de/thema/tmg.html): Methylgruppen-Spender – essenziell beim NMN-Stack, senkt Homocystein.
 - [Tongkat Ali](https://biohackingkompakt.de/thema/tongkat-ali.html): Tongkat Ali, botanisch Eurycoma longifolia, ist die Wurzel eines südostasiatischen Baums, die traditionell gegen Fieber und für die Manneskraft genutzt wurde. …
+- [Torasemid](https://biohackingkompakt.de/thema/torasemid.html): Torasemid entwässert zuverlässig und war in einer großen Studie bei Herzschwäche Furosemid ebenbürtig. Im Sport ist es verboten, Missbrauch kann tödlich enden.
 - [TP508 (Rusalatide, Chrysalin)](https://biohackingkompakt.de/thema/tp508.html): TP508 ist ein Thrombin-Fragment, das als Heilmittel für Wunden und Brüche getestet wurde: ein kleiner positiver Befund, ein großer Nullbefund, keine Zulassung.
 - [Traubensilberkerze (Cimicifuga)](https://biohackingkompakt.de/thema/traubensilberkerze.html): Traubensilberkerze bei Hitzewallungen: zugelassenes Pflanzenarzneimittel, widersprüchliche Studienlage, Leber-Warnhinweis. Was belegt ist und was nicht.
 - [Trazodon](https://biohackingkompakt.de/thema/trazodon.html): Trazodon ist ein Antidepressivum, das oft off-label als Schlafmittel dient. Studien zeigen subjektiv etwas besseren Schlaf, im Schlaflabor kaum Effekt.

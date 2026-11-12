@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-11-10
+Stand: 2026-11-12
 
 # Fragen & Beschwerden
 
@@ -775,6 +775,11 @@ https://biohackingkompakt.de/thema/espinebot.html
 
 Das Gerät kombiniert Ganzkörpervibration, periodische Beschleunigung, Luftdruckmassage, Traktion und Wärme, eine Sitzung dauert nach Anbieterangaben 20 bis 50 Minuten. Für das Gerät selbst gibt es keine veröffentlichte kontrollierte Studie. Von den Bausteinen schneidet Traktion am schlechtesten ab: Sie war in Studien nicht besser als eine Scheinbehandlung, und die deutsche Versorgungsleitlinie rät bei Kreuzschmerz davon ab. Vibrationsübungen, Wärme und Massage haben kleine, meist kurzfristige Effekte. Am besten belegt ist bei chronischen Rückenschmerzen aktive Bewegungstherapie.
 
+## Estradiol (Östradiol, E2)
+https://biohackingkompakt.de/thema/estradiol.html
+
+Estradiol ist das wichtigste Östrogen des Körpers, und zwar bei Frauen wie bei Männern. In den Wechseljahren ersetzt es als Hormontherapie die verlorene Östrogenbildung und lindert die Beschwerden. Beim Mann entsteht es aus Testosteron und steuert Fettmasse und Knochen; als Pflaster war es 2026 beim Prostatakrebs der Hormonentzugsspritze ebenbürtig. Ob es früh begonnen auch Herz und Gefäße schützt, ist nicht entschieden, und Brustkrebs- und Thromboserisiko hängen von Dauer, Kombination und Anwendungsweg ab.
+
 ## Exemestan
 https://biohackingkompakt.de/thema/exemestan.html
 
@@ -789,6 +794,11 @@ Ketonester und Ketonsalze erhöhen das Beta-Hydroxybutyrat im Blut messbar, in e
 https://biohackingkompakt.de/thema/exosomen.html
 
 Exosomen sind Membranbläschen mit Proteinen, Fetten und RNA-Schnipseln, die Zellen als Signal abgeben. Bei alten Mäusen hat eine Behandlung mit solchen Bläschen aus jungen Fettstammzellen Kraft, Koordination und Nierenwerte messbar verbessert — allerdings nur für etwa einen Monat. Am Menschen gibt es fast nur kleine, unkontrollierte Studien zu Haut und Haaren, insgesamt 125 Patienten in 9 klinischen Studien zum Haarausfall. Kein Exosomen-Produkt ist in den USA oder der EU zugelassen, und die dokumentierten Schäden stammen aus der Herstellung, nicht aus der Biologie. Bei Kosmetikanwendungen kommen die Bläschen oft aus Pflanzenzellen.
+
+## Ezetimib (Ezetrol)
+https://biohackingkompakt.de/thema/ezetimib.html
+
+Ezetimib ist der stille Partner der Statine: Es bremst die Aufnahme von Cholesterin im Darm und senkt das LDL allein um knapp ein Fünftel, zusätzlich zu einem Statin um ein weiteres Viertel. In zwei großen Studien senkte die Kombination schwere Herz-Kreislauf-Ereignisse, nach akutem Koronarsyndrom und bei Nierenkranken. Der Zusatznutzen ist klein, aber gemessen, und die Verträglichkeit ist gut. Offen ist vor allem, wie viel Ezetimib allein bei Gesunden bringt.
 
 ## Fadogia Agrestis
 https://biohackingkompakt.de/thema/fadogia-agrestis.html
@@ -1080,6 +1090,11 @@ https://biohackingkompakt.de/thema/ingwer.html
 
 Ingwer ist eines der wenigen Hausmittel mit einer belastbaren Studienlage, und zwar bei Übelkeit. In der Schwangerschaft und nach Operationen zeigen Meta-Analysen randomisierter Studien einen Nutzen, die EMA erkennt Ingwerpulver zur Vorbeugung von Reiseübelkeit an. Beim Erbrechen, bei Chemotherapie und bei den vielen anderen beworbenen Wirkungen wird die Lage dünner.
 
+## Insulin im Bodybuilding
+https://biohackingkompakt.de/thema/insulin-bodybuilding.html
+
+Die Idee hinter Insulin im Bodybuilding hat einen wahren Kern. In kurzen Infusionsversuchen am Menschen bremst Insulin den Abbau von Muskeleiweiß deutlich und verbessert die Eiweißbilanz, das zeigt eine Metaanalyse. Ob daraus bei Gesunden im Training über Wochen mehr Muskel wird, hat aber keine kontrollierte Studie gemessen. In Umfragen nutzt ein Teil der Steroidnutzer zusätzlich Insulin, unter Freizeit-Bodybuildern mit Hormonen mehr als jeder Dritte. Mehr als die Hälfte der Befragten einer Umfrage berichtete Unterzuckerungen. Fallberichte beschreiben Koma, und in Australien stellte ein Gericht 2021 fest, dass ein 31-jähriger Bodybuilder an einem Hirnschaden durch selbst gespritztes Insulin gestorben ist.
+
 ## INUSpherese® (Blut-Apherese)
 https://biohackingkompakt.de/thema/inuspherese.html
 
@@ -1285,6 +1300,11 @@ https://biohackingkompakt.de/thema/leucin.html
 
 Leucin ist eine essenzielle, verzweigtkettige Aminosäure und schaltet über den Signalweg mTORC1 die Muskelproteinsynthese ein, das ist am Menschen mit Tracer-Studien gut belegt. Besonders bei Älteren kann ein höherer Leucinanteil eine gedämpfte Aufbauantwort wieder anheben, und eine kleine Proteinportion mit zusätzlichem Leucin wirkt kurzfristig fast wie eine große. Über Monate genommen bringt isoliertes Leucin in den Studien aber weder mehr Muskelmasse noch mehr Kraft, messbare Effekte zeigen vor allem Kombinationen mit Protein und Vitamin D. Das BfR nennt 4,0 g isoliertes Leucin pro Tag zusätzlich zur Nahrung als Orientierungswert.
 
+## Levothyroxin (L-Thyroxin, T4)
+https://biohackingkompakt.de/thema/levothyroxin.html
+
+Levothyroxin ist eines der meistgenutzten Medikamente in Deutschland: Es ersetzt das Schilddrüsenhormon T4, wenn die Schilddrüse zu wenig bildet, und lässt sich über das TSH im Blut genau steuern. Gut untersucht sind auch seine Grenzen. Bei nur leicht erhöhtem TSH im Alter brachte es in der großen TRUST-Studie nichts gegen Beschwerden und Müdigkeit, und zum Abnehmen taugt es nicht, obwohl es dafür und im Bodybuilding missbraucht wird.
+
 ## Ligandrol (LGD-4033)
 https://biohackingkompakt.de/thema/ligandrol.html
 
@@ -1294,6 +1314,11 @@ Ligandrol aktiviert den Androgenrezeptor, die Andockstelle von Testosteron, und 
 https://biohackingkompakt.de/thema/liothyronin.html
 
 Liothyronin ist das aktive Schilddrüsenhormon T3 und in Deutschland für wenige, eng umrissene Schilddrüsen-Situationen zugelassen. In der Szene wird es als Fatburner genutzt. Dafür trägt die Datenlage nicht: Eine systematische Übersicht fand keinen konsistenten Effekt beim Abnehmen, und die Fachinformation schließt die Gewichtsreduktion ausdrücklich aus, weil höhere Dosen lebensbedrohlich werden können.
+
+## Lipo-Spritzen (Lipo-B, Lipo-C, MIC)
+https://biohackingkompakt.de/thema/lipo-spritzen.html
+
+„Lipo-Spritzen“ versprechen, den Fettstoffwechsel von innen anzukurbeln: Methionin, Inositol und Cholin, oft mit Vitamin B12, bei Lipo-C zusätzlich mit L-Carnitin. Die Idee ist nicht aus der Luft gegriffen, denn jeder dieser Stoffe hat eine echte Aufgabe im Fettstoffwechsel, und Vitamin-B12-Spritzen sind bei einem Mangel gängige Medizin. Eine kontrollierte Studie mit veröffentlichten Ergebnissen, die zeigt, dass die Spritze beim Abnehmen hilft, haben wir aber nicht gefunden.
 
 ## Lipoprotein(a)
 https://biohackingkompakt.de/thema/lipoprotein-a.html
@@ -1464,6 +1489,11 @@ In zwei kleinen, doppelblinden Studien aus den Jahren 1976 und 1981 nahmen train
 https://biohackingkompakt.de/thema/methasteron.html
 
 Was trägt: Dass Methasteron ein starkes Androgen ist, zeigen Tierversuche seit 1959. Am Menschen gibt es dazu keine einzige Studie. Belegt ist dagegen die Schadensseite, und zwar ungewöhnlich deutlich für einen Stoff ohne klinische Forschung: Fallberichte beschreiben schwere Gallenstauung mit Gelbsucht, teils mit Nierenversagen, bei zuvor gesunden Menschen. In New York machten verunreinigte Vitaminpräparate mit Methasteron 2012 und 2013 etwa 16 Menschen krank. Die FDA verschickte 2006 einen Warnbrief, die USA stuften den Stoff 2012 als kontrolliertes Anabolikum ein. In Deutschland steht er im Anti-Doping-Gesetz, im Sport ist er jederzeit verboten.
+
+## Methyl-1-testosteron (M1T)
+https://biohackingkompakt.de/thema/methyl-1-testosteron.html
+
+M1T ist kein harmloser Vorläuferstoff, sondern selbst ein wirksames Anabolikum. Im Zelltest aktivierte es den Androgenrezeptor stark, bei Ratten wirkte es dosisabhängig aufbauend auf Muskel und zugleich auf die Prostata, eine Gewebeauswahl wie bei SARMs zeigte es nicht. Besonders deutlich war die Wirkung auf die Leber, vor allem nach Gabe durch den Mund. Am Menschen ist nur beschrieben, welche Abbauprodukte im Urin erscheinen; eine Studie zu Muskel, Kraft oder Sicherheit gibt es nicht. Als 17α-methyliertes Steroid gehört M1T zu der Gruppe, die am engsten mit Gallenstauung und Leberschäden verbunden ist. Im Sport ist es namentlich verboten, in Deutschland steht es im Anti-Doping-Gesetz.
 
 ## Methylene Blue (Methylenblau)
 https://biohackingkompakt.de/thema/methylene-blue.html
@@ -2260,6 +2290,11 @@ https://biohackingkompakt.de/thema/tongkat-ali.html
 
 Tongkat Ali, botanisch Eurycoma longifolia, ist die Wurzel eines südostasiatischen Baums, die traditionell gegen Fieber und für die Manneskraft genutzt wurde. Eine Meta-Analyse von 5 randomisierten Studien mit zusammen 232 Männern findet einen signifikanten Anstieg des Testosterons. Dieser Effekt kommt fast vollständig aus der Gruppe mit niedrigem Ausgangswert: In der Untergruppe gesunder Männer ist er nicht mehr signifikant, und die größte Einzelstudie an Gesunden mit 109 Teilnehmern über 12 Wochen zeigt keinen Unterschied gegen Placebo. Dazu kommen zwei Haken: 7 der 9 gesichteten Humanstudien verwendeten denselben Extrakt einer malaysischen Firma, und die europäische Lebensmittelbehörde hat 2021 erklärt, die Sicherheit sei nicht belegt.
 
+## Torasemid
+https://biohackingkompakt.de/thema/torasemid.html
+
+Torasemid tut zuverlässig, wofür es zugelassen ist: Es schwemmt Wasser aus. Lange galt es als die bessere Wahl gegenüber Furosemid, weil es als Tablette gleichmäßiger aufgenommen wird und eine frühe Beobachtungsstudie weniger Todesfälle zeigte. Die große randomisierte Studie TRANSFORM-HF mit 2.859 Patienten hat das nicht bestätigt: Nach einem Krankenhausaufenthalt wegen Herzschwäche starben unter beiden Mitteln gleich viele Menschen. Im Bodybuilding wird die Entwässerung genutzt, um vor dem Auftritt Wasser zu verlieren. Dafür gibt es keine Studie, dokumentiert sind aber gefährliche Entgleisungen von Kalium und Flüssigkeit und für Torasemid ein Todesfall nach Einnahme ohne Verordnung.
+
 ## TP508 (Rusalatide, Chrysalin)
 https://biohackingkompakt.de/thema/tp508.html
 
@@ -3006,27 +3041,207 @@ Der Phaseneffekt existiert, aber er ist trivial klein. Über 78 Studien war die 
 
 # Glossar
 
+## Agonist und Antagonist
+https://biohackingkompakt.de/glossar/agonist-antagonist.html
+
+Ein Agonist dockt an einen Rezeptor an und löst dort ein Signal aus; ein Antagonist besetzt den Rezeptor und blockiert das Signal. Viele Wirkstoffe lassen sich mit diesem Begriffspaar beschreiben.
+
+## Autophagie
+https://biohackingkompakt.de/glossar/autophagie.html
+
+Autophagie ist das Recyclingprogramm der Zelle: Sie verpackt beschädigte oder überflüssige Bestandteile und zerlegt sie in ihre Bausteine. Werden gezielt Mitochondrien abgebaut, spricht man von Mitophagie.
+
+## Beobachtungsstudie
+https://biohackingkompakt.de/glossar/beobachtungsstudie.html
+
+Eine Beobachtungsstudie greift nicht ein, sondern schaut zu: Sie erfasst, was Menschen ohnehin tun, und vergleicht, wie es ihnen später geht. Sie findet Zusammenhänge, kann aber nur schwer zeigen, was Ursache ist.
+
+## Biomarker
+https://biohackingkompakt.de/glossar/biomarker.html
+
+Ein Biomarker ist ein messbares Merkmal, das etwas über einen Zustand im Körper verrät — ein Blutwert, ein Bildbefund, ein Messwert eines Wearables. Er kann ein Risiko anzeigen, eine Krankheit erkennen helfen oder den Verlauf einer Behandlung verfolgen.
+
+## Bioverfügbarkeit
+https://biohackingkompakt.de/glossar/bioverfuegbarkeit.html
+
+Die Bioverfügbarkeit gibt an, welcher Anteil eines eingenommenen Stoffs unverändert im Blutkreislauf ankommt. Bei einer Gabe in die Vene sind es per Definition 100 Prozent, bei einer Tablette oft deutlich weniger.
+
+## BK-Score
+https://biohackingkompakt.de/glossar/bk-score.html
+
+Der BK-Score ist die Bewertung, die Biohacking Kompakt jedem Wirkstoff und jeder Anwendung gibt: fünf Achsen von 0 bis 10, die den Wissensstand beschreiben. Er sagt, wie gut etwas untersucht ist — nicht, ob es gut ist.
+
+## Doppelblind
+https://biohackingkompakt.de/glossar/doppelblind.html
+
+Doppelblind heißt: Weder die Teilnehmenden noch die Behandelnden wissen, wer den Wirkstoff und wer das Placebo bekommt. So kann die Erwartung auf keiner Seite das Ergebnis färben.
+
+## Effektstärke
+https://biohackingkompakt.de/glossar/effektstaerke.html
+
+Die Effektstärke beschreibt, wie groß ein Unterschied ist — nicht nur, ob es ihn gibt. Oft wird sie als standardisierte Mittelwertdifferenz angegeben, damit sich Studien mit verschiedenen Messskalen vergleichen lassen.
+
+## Epigenetische Uhr
+https://biohackingkompakt.de/glossar/epigenetische-uhr.html
+
+Eine epigenetische Uhr schätzt aus chemischen Markierungen am Erbgut, den Methylierungen, ein biologisches Alter. Weicht es vom Lebensalter ab, gilt das als Hinweis auf schnelleres oder langsameres Altern.
+
+## Fallbericht und Fallserie
+https://biohackingkompakt.de/glossar/fallbericht-fallserie.html
+
+Ein Fallbericht beschreibt, was bei einem einzelnen Menschen passiert ist; eine Fallserie fasst mehrere solcher Fälle ohne Vergleichsgruppe zusammen. Beides ist die schwächste Form von Humandaten — und oft die erste Warnung.
+
 ## Graumarkt
 https://biohackingkompakt.de/glossar/graumarkt.html
 
 Graumarkt heißt: Die Substanz wird verkauft, aber nicht als Arzneimittel und nicht als Lebensmittel — meist deklariert als „nur für Forschungszwecke“. Damit gilt keine Zulassung, keine Chargenprüfung und keine Haftung.
+
+## Halbwertszeit
+https://biohackingkompakt.de/glossar/halbwertszeit.html
+
+Die Halbwertszeit ist die Zeit, nach der die Hälfte eines Wirkstoffs im Blut abgebaut oder ausgeschieden ist. Sie bestimmt mit, wie lange ein Stoff wirkt und wie oft er gegeben werden muss.
+
+## Hazard Ratio
+https://biohackingkompakt.de/glossar/hazard-ratio.html
+
+Das Hazard Ratio (HR) gibt an, wie häufig ein Ereignis in einer Gruppe im Verhältnis zur anderen eintritt, bezogen auf die Zeit. Ein HR von 0,80 heißt: rund 20 Prozent seltener — relativ gerechnet.
+
+## HbA1c (Langzeitblutzucker)
+https://biohackingkompakt.de/glossar/hba1c.html
+
+Der HbA1c-Wert gibt an, welcher Anteil des roten Blutfarbstoffs mit Zucker verbunden ist. Weil rote Blutkörperchen rund drei Monate leben, spiegelt er den durchschnittlichen Blutzucker der letzten acht bis zwölf Wochen.
+
+## Health Claim (gesundheitsbezogene Angabe)
+https://biohackingkompakt.de/glossar/health-claim.html
+
+Ein Health Claim ist eine Werbeaussage, dass ein Lebensmittel oder Nährstoff der Gesundheit nützt, etwa „trägt zur normalen Funktion des Immunsystems bei“. In der EU sind nur Aussagen erlaubt, die geprüft und zugelassen sind.
+
+## Hormesis
+https://biohackingkompakt.de/glossar/hormesis.html
+
+Hormesis heißt: Ein kurzer, mäßiger Stress regt den Körper zu Anpassungen an, die ihn widerstandsfähiger machen, während mehr davon schadet. Training ist das bekannteste Beispiel.
+
+## § 3a HWG (Heilmittelwerbegesetz)
+https://biohackingkompakt.de/glossar/hwg-3a.html
+
+§ 3a des Heilmittelwerbegesetzes verbietet Werbung für zulassungspflichtige Arzneimittel, die nicht zugelassen sind. Das gilt auch für Anwendungsgebiete außerhalb einer Zulassung — einer der Gründe, warum wir bei solchen Stoffen keine Dosierungen nennen.
+
+## Kohortenstudie
+https://biohackingkompakt.de/glossar/kohortenstudie.html
+
+Eine Kohortenstudie begleitet eine Gruppe von Menschen über Jahre und vergleicht, wer mit welchen Gewohnheiten oder Merkmalen später krank wird. Sie ist eine aussagekräftige Form der Beobachtungsstudie, ersetzt aber kein Experiment.
+
+## Konfidenzintervall
+https://biohackingkompakt.de/glossar/konfidenzintervall.html
+
+Das Konfidenzintervall ist der Bereich, in dem der wahre Wert eines Studienergebnisses plausibel liegt, meist als 95-Prozent-Intervall angegeben. Je schmaler es ist, desto genauer ist die Schätzung.
+
+## LDL und ApoB
+https://biohackingkompakt.de/glossar/ldl-und-apob.html
+
+LDL-Cholesterin misst, wie viel Cholesterin in LDL-Partikeln durchs Blut transportiert wird; ApoB zählt die Partikel selbst. Beide gelten als Ursache der Arteriosklerose, nicht nur als Begleiter.
+
+## Mendelsche Randomisierung
+https://biohackingkompakt.de/glossar/mendelsche-randomisierung.html
+
+Die mendelsche Randomisierung nutzt zufällig vererbte Genvarianten als natürliches Experiment, um zu prüfen, ob ein Risikofaktor wirklich Ursache ist. Wer von Geburt an etwa ein etwas höheres LDL hat, ist wie per Los einer Gruppe zugeteilt.
+
+## Meta-Analyse
+https://biohackingkompakt.de/glossar/meta-analyse.html
+
+Eine Meta-Analyse fasst die Ergebnisse mehrerer Studien zur selben Frage rechnerisch zu einem Gesamtergebnis zusammen. Das macht die Schätzung genauer — aber nicht besser als die Studien, aus denen sie besteht.
+
+## Mitochondrien
+https://biohackingkompakt.de/glossar/mitochondrien.html
+
+Mitochondrien sind die Kraftwerke der Zelle: Sie gewinnen aus Nährstoffen und Sauerstoff den Energieträger ATP. Sie haben eine eigene kleine DNA und können sich teilen und erneuern.
+
+## Nocebo
+https://biohackingkompakt.de/glossar/nocebo.html
+
+Nocebo ist das Gegenstück zum Placebo: Beschwerden, die entstehen, weil man Nebenwirkungen erwartet — auch unter einer Scheinbehandlung. Die Beschwerden sind echt, ihre Ursache ist aber nicht der Wirkstoff.
+
+## Novel Food (neuartiges Lebensmittel)
+https://biohackingkompakt.de/glossar/novel-food.html
+
+Als Novel Food gilt in der EU ein Lebensmittel oder Inhaltsstoff, der vor dem 15.05.1997 nicht in nennenswertem Umfang verzehrt wurde. Er darf erst verkauft werden, wenn er nach einer Sicherheitsbewertung in die Unionsliste aufgenommen ist.
+
+## Number Needed to Treat (NNT)
+https://biohackingkompakt.de/glossar/number-needed-to-treat.html
+
+Die Number Needed to Treat (NNT) gibt an, wie viele Menschen eine Behandlung bekommen müssen, damit einer davon profitiert, der es ohne sie nicht getan hätte. Sie übersetzt Studienergebnisse in eine anschauliche Zahl.
+
+## Off-Label
+https://biohackingkompakt.de/glossar/off-label.html
+
+Off-Label heißt: Ein zugelassenes Arzneimittel wird außerhalb seiner Zulassung eingesetzt, etwa für eine andere Krankheit oder Altersgruppe. Das ist ärztlich erlaubt, aber nicht durch die Zulassung gedeckt.
+
+## Peptid
+https://biohackingkompakt.de/glossar/peptid.html
+
+Ein Peptid ist eine kurze Kette aus Aminosäuren, den Bausteinen der Eiweiße — meist zwischen zwei und rund fünfzig. Viele Hormone und Botenstoffe des Körpers sind Peptide, ebenso einige moderne Medikamente.
+
+## Placebo
+https://biohackingkompakt.de/glossar/placebo.html
+
+Ein Placebo ist eine Scheinbehandlung ohne Wirkstoff, die genauso aussieht wie die echte. In Studien dient es als Vergleich: Erst der Abstand zum Placebo zeigt, was der Wirkstoff selbst beiträgt.
 
 ## Primärer Endpunkt
 https://biohackingkompakt.de/glossar/primaerer-endpunkt.html
 
 Der primäre Endpunkt ist die eine Frage, die eine Studie vorab als ihre Hauptfrage anmeldet. Verfehlt eine Studie ihn, ist sie negativ — auch dann, wenn sich an anderer Stelle etwas Positives zeigt.
 
+## Randomisierte kontrollierte Studie (RCT)
+https://biohackingkompakt.de/glossar/randomisierte-kontrollierte-studie.html
+
+In einer randomisierten kontrollierten Studie entscheidet der Zufall, wer die Behandlung bekommt und wer in die Vergleichsgruppe kommt. Weil sich die Gruppen dadurch im Mittel nur in der Behandlung unterscheiden, kann sie Ursache und Wirkung trennen.
+
 ## Relative und absolute Wirkung
 https://biohackingkompakt.de/glossar/relative-und-absolute-risikoreduktion.html
 
 Dieselbe Studie liefert zwei Zahlen: die relative Veränderung klingt groß, die absolute sagt, was tatsächlich passiert ist. Wer nur die relative nennt, hat die Hälfte weggelassen.
+
+## Rezeptur (Apothekenherstellung)
+https://biohackingkompakt.de/glossar/rezeptur.html
+
+Ein Rezepturarzneimittel stellt die Apotheke auf ärztliche Verordnung für einen einzelnen Patienten selbst her. Es braucht keine eigene Zulassung, weil es kein industriell gefertigtes Fertigarzneimittel ist.
+
+## SARM
+https://biohackingkompakt.de/glossar/sarm.html
+
+SARM steht für selektiver Androgenrezeptor-Modulator: ein Stoff, der wie Testosteron am Androgenrezeptor andockt, aber vor allem im Muskel wirken soll. Bislang ist kein SARM als Arzneimittel zugelassen.
+
+## Statistische Signifikanz (p-Wert)
+https://biohackingkompakt.de/glossar/statistische-signifikanz.html
+
+Ein Ergebnis heißt statistisch signifikant, wenn es unter der Annahme „kein Effekt“ unwahrscheinlich wäre, üblicherweise bei einem p-Wert unter 0,05. Signifikant heißt weder wichtig noch automatisch wahr.
+
+## Studienphasen (Phase 1, 2, 3)
+https://biohackingkompakt.de/glossar/studienphasen.html
+
+Bevor ein Arzneimittel zugelassen wird, durchläuft es klinische Studien in drei aufeinander aufbauenden Phasen. Phase 1 prüft die Verträglichkeit an wenigen Menschen, Phase 2 sucht nach Wirkung und passender Dosis, Phase 3 bestätigt Nutzen und Sicherheit an vielen.
 
 ## Surrogatmarker
 https://biohackingkompakt.de/glossar/surrogatmarker.html
 
 Ein Surrogatmarker ist ein Messwert, der stellvertretend für das steht, was einen eigentlich interessiert — ein Laborwert statt eines Krankheitsverlaufs. Er ist leichter zu messen, aber er ist nicht dasselbe.
 
+## Systematischer Review
+https://biohackingkompakt.de/glossar/systematischer-review.html
+
+Ein systematischer Review sucht nach einem vorab festgelegten Plan alle Studien zu einer Frage, bewertet ihre Qualität und fasst sie zusammen. Der Plan verhindert, dass nur die passenden Studien ausgewählt werden.
+
 ## Viszerales Fett
 https://biohackingkompakt.de/glossar/viszerales-fett.html
 
 Viszerales Fett liegt tief im Bauchraum zwischen den Organen — im Unterschied zum Unterhautfett, das man greifen kann. Es ist stoffwechselaktiv und gilt als der ungünstigere der beiden Speicher.
+
+## WADA-Liste (Verbotsliste)
+https://biohackingkompakt.de/glossar/wada-liste.html
+
+Die WADA-Liste ist die Verbotsliste der Welt-Anti-Doping-Agentur: Sie legt fest, welche Substanzen und Methoden im Sport verboten sind. Sie wird jährlich aktualisiert und gilt jeweils ab Jahresbeginn.
+
+## Zulassung (EMA, FDA, BfArM)
+https://biohackingkompakt.de/glossar/zulassung.html
+
+Eine Zulassung ist die behördliche Erlaubnis, ein Arzneimittel für ein bestimmtes Anwendungsgebiet in Verkehr zu bringen. Sie setzt voraus, dass Wirksamkeit, Unbedenklichkeit und Qualität belegt sind.

@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-11-11",
+ "stand": "2026-11-12",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -4259,12 +4259,12 @@
    "url": "https://biohackingkompakt.de/thema/lipoprotein-a.html",
    "evidenz": 8,
    "mechanismus": 7,
-   "sicherheit": 5,
+   "sicherheit": 7,
    "hype": 5,
    "anwendung": 6,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Evidenz 8, weil mit Lipoprotein(a)-HORIZON eine große, placebokontrollierte Studie an 8.323 Patienten über 5 Jahre mit harten Endpunkten vorliegt – sie ist nur negativ ausgefallen und noch nicht vollständig publiziert. Mechanismus 7, weil die Zielstruktur am Menschen bestätigt ist: Pelacarsen senkte Lipoprotein(a) in den Vorstudien um bis zu 80 Prozent, und die Mendelsche Randomisierung quantifiziert den lebenslangen Beitrag des Partikels – die Kette von der Senkung zum Ereignis ist am Menschen aber gerade gerissen. Sicherheit 5, weil zwar 5 Jahre kontrollierte Daten erhoben wurden, die Mitteilung vom 4.9.2026 dazu jedoch nichts sagt; belastbare Sicherheitsaussagen zu Pelacarsen gibt es nicht. Hype 5, weil aus dem sauberen Genetikbefund regelmäßig ein Therapieversprechen gemacht wird, während die Mitteilung des Herstellers selbst ungewöhnlich offen formuliert war. Anwendung 6, weil die Messung seit Jahren als regulärer Laborwert verfügbar ist, die senkenden Wirkstoffe dagegen ausschließlich in Studien. Richtung negativ bezieht sich auf die Senkung als Behandlung, nicht auf den Wert als Risikomarker: Dort sprechen die Daten aus HORIZON gegen den erhofften Nutzen."
+   "beleg": "Evidenz 8, weil mit Lipoprotein(a)-HORIZON eine große, placebokontrollierte Studie an 8.323 Patienten über 5 Jahre mit harten Endpunkten vorliegt – sie ist negativ ausgefallen und seit dem 7.11.2026 im New England Journal of Medicine vollständig publiziert. Mechanismus 7, weil die Zielstruktur am Menschen bestätigt ist: Pelacarsen senkte Lipoprotein(a) in den Vorstudien um bis zu 80 Prozent, und die Mendelsche Randomisierung quantifiziert den lebenslangen Beitrag des Partikels – die Kette von der Senkung zum Ereignis ist am Menschen aber gerade gerissen. Sicherheit 7, weil die Vollpublikation kontrollierte Verträglichkeitsdaten über median 4,7 Jahre liefert: grippeähnliche Reaktionen bei 31,9 gegenüber 5,8 Prozent, Abbruch wegen Nebenwirkungen bei 20,6 gegenüber 7,5 Prozent; für die übrigen Wirkstoffe liegen bisher nur kürzere Studien vor. Hype 5, weil aus dem sauberen Genetikbefund regelmäßig ein Therapieversprechen gemacht wird, während die Mitteilung des Herstellers selbst ungewöhnlich offen formuliert war. Anwendung 6, weil die Messung seit Jahren als regulärer Laborwert verfügbar ist, die senkenden Wirkstoffe dagegen ausschließlich in Studien. Richtung negativ bezieht sich auf die Senkung als Behandlung, nicht auf den Wert als Risikomarker: Dort sprechen die Daten aus HORIZON gegen den erhofften Nutzen."
   },
   {
    "id": "liposomales-kreatin",
@@ -7754,6 +7754,104 @@
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
    "beleg": "Evidenz 6: Die Umbrella-Übersicht im BMJ fasst 45 gepoolte Analysen an knapp 9,9 Millionen Menschen zusammen und findet Zusammenhänge mit 32 von 45 Gesundheitsendpunkten, darunter 50 Prozent mehr Herz-Kreislauf-Todesfälle, die Datenqualität ist nach GRADE aber überwiegend niedrig oder sehr niedrig; randomisiert gibt es nur kurze Fütterungsstudien, die NIH-Studie mit 20 Erwachsenen über zwei Wochen und UPDATE mit 50 Erwachsenen über acht Wochen. Mechanismus 5: Mehr Energie pro Bissen und schnelleres Essen erklären einen Teil, in einer Meta-Analyse von zehn Studien verschwand der Mehrverzehr, wenn beide Kostformen gleich energiedicht waren; ob die Verarbeitung selbst schadet, ist offen. Sicherheit 8: Weniger Hochverarbeitetes ist eine Rückkehr zu Grundzutaten; in UPDATE waren leichte Magen-Darm-Beschwerden unter beiden Kostformen häufig, ernste Risiken fanden sich nicht. Hype 5: Die Richtung stützen Beobachtung und Studien, die Einteilung selbst ist unscharf (Übereinstimmung unter Fachleuten Kappa 0,32), und in UPDATE fiel das LDL-Cholesterin unter der hochverarbeiteten Kost sogar stärker. Anwendung 9: Essen aus wenig verarbeiteten Grundzutaten ist die älteste Ernährungsform überhaupt. Richtung positiv: Gewicht und Energiezufuhr bessern sich in den randomisierten Studien, für harte Endpunkte gibt es nur Beobachtungsdaten."
+  },
+  {
+   "id": "ezetimib",
+   "view": "experimental",
+   "name": "Ezetimib (Ezetrol)",
+   "url": "https://biohackingkompakt.de/thema/ezetimib.html",
+   "evidenz": 9,
+   "mechanismus": 9,
+   "sicherheit": 8,
+   "hype": 8,
+   "anwendung": 9,
+   "richtung": "positiv",
+   "label": "Gut belegt",
+   "beleg": "Evidenz 9, weil zwei große doppelblinde Endpunktstudien einen Nutzen zeigen – in IMPROVE-IT mit 18.144 Patienten nach akutem Koronarsyndrom 32,7 gegenüber 34,7 Prozent Ereignisse nach 7 Jahren, in SHARP mit 9.270 Nierenkranken RR 0,83 –, der Zusatznutzen aber klein ist und die einzige Studie zu Ezetimib allein bei Gesunden, EWTOPIA 75, offen war. Mechanismus 9, weil die Hemmung des Cholesterintransporters NPC1L1 im Darm beschrieben ist und Menschen mit angeborenem Funktionsverlust dieses Gens 53 Prozent weniger koronare Herzkrankheit hatten (Stitziel 2014). Sicherheit 8, weil Nebenwirkungen in randomisierten Studien mit zusammen über 27.000 Teilnehmenden über median 5 bis 6 Jahre erfasst sind, Muskel-, Leber- und Krebsereignisse nicht häufiger waren und die Erfahrung fast immer aus der Kombination mit einem Statin stammt; das heißt gut untersucht, nicht harmlos. Hype 8, weil Ezetimib kaum überhöht beworben wird; ein Abstand entsteht nur, wo LDL-Senkung allein als Beleg gilt, obwohl ENHANCE trotz tieferem LDL keinen Effekt auf die Gefäßwand fand. Anwendung 9, weil Ezetimib seit 2002 zugelassen und als Generikum breit im Einsatz ist. Richtung positiv: Die Daten stützen zusätzliche LDL-Senkung und etwas weniger Herz-Kreislauf-Ereignisse."
+  },
+  {
+   "id": "levothyroxin",
+   "view": "experimental",
+   "name": "Levothyroxin (L-Thyroxin, T4)",
+   "url": "https://biohackingkompakt.de/thema/levothyroxin.html",
+   "evidenz": 8,
+   "mechanismus": 9,
+   "sicherheit": 8,
+   "hype": 5,
+   "anwendung": 10,
+   "richtung": "gemischt",
+   "label": "Gut belegt, stark überhöht beworben",
+   "beleg": "Evidenz 8, weil die Grenzen gut vermessen sind – in TRUST mit 737 Menschen ab 65 und in einer Meta-Analyse von 21 randomisierten Studien mit 2.192 Erwachsenen brachte Levothyroxin bei nur leicht erhöhtem TSH keinen Nutzen für Beschwerden und Lebensqualität –, der Nutzen bei echter Unterfunktion aber vor allem aus Physiologie und jahrzehntelanger Praxis stammt, weil Placebo-Studien dort nicht vertretbar sind. Mechanismus 9, weil die Umwandlung von T4 in das aktive T3 und dessen Wirkung über Kernrezeptoren beschrieben sind. Sicherheit 8, weil die Folgen einer Überdosierung in Fachinformationen dokumentiert sind und eine Studie an 213.511 älteren Anwendern ein dosisabhängig höheres Bruchrisiko zeigte (Turner 2011); für den Missbrauch gibt es aber nur Fallberichte. Hype 5, weil der Nutzen bei Unterfunktion unstrittig ist, das Hormon aber auch gegen Müdigkeit bei Grenzwerten und zum Abnehmen genutzt wird, wo die Daten keinen Effekt zeigen und die Fachinformation ausdrücklich warnt. Anwendung 10, weil Levothyroxin seit Jahrzehnten breit eingesetzt wird und nach Tagesdosen zu den zehn meistverordneten Arzneimitteln in Deutschland gehört. Richtung gemischt: belegt als Ersatz bei Unterfunktion, kein Nutzen bei subklinischer Unterfunktion im Alter und beim Abnehmen."
+  },
+  {
+   "id": "estradiol",
+   "view": "experimental",
+   "name": "Estradiol (Östradiol, E2)",
+   "url": "https://biohackingkompakt.de/thema/estradiol.html",
+   "evidenz": 9,
+   "mechanismus": 9,
+   "sicherheit": 8,
+   "hype": 5,
+   "anwendung": 10,
+   "richtung": "gemischt",
+   "label": "Gut belegt, stark überhöht beworben",
+   "beleg": "Evidenz 9, weil Estradiol als Hormontherapie in randomisierten Studien und sehr großen Auswertungen untersucht ist – ELITE mit 643 und KEEPS mit 727 Frauen, eine Brustkrebs-Auswertung mit 108.647 Fällen – und beim Mann eine Studie an 400 Männern seine Rolle für Fett, Knochen und Sexualfunktion aufgeschlüsselt hat; die Herzschutz-Frage beantworten aber nur Ersatzmessungen und eine kleine offene Studie (DOPS). Mechanismus 9, weil Wirkung und Bildung über die Aromatase gut beschrieben sind. Sicherheit 8, weil Brustkrebs-, Thrombose- und Gebärmutterrisiken nach Präparat, Dauer und Anwendungsweg vermessen sind, viele Zahlen aber aus Beobachtungsdaten oder Studien mit anderen Östrogenen stammen; das heißt gut untersucht, nicht harmlos. Hype 5, weil die Linderung der Wechseljahresbeschwerden unstrittig ist, Estradiol aber auch als Schutz für Herz und Gehirn gilt, was KEEPS und die CT-Daten aus ELITE für das Herz nicht bestätigen und wogegen beim Start nach 65 Jahren Hinweise auf mehr Demenz sprechen, während die Szene beim Mann Östrogen oft nur als Störfaktor sieht. Anwendung 10, weil Estradiol seit Jahrzehnten breit in der Hormontherapie eingesetzt wird. Richtung gemischt: belegt gegen Wechseljahresbeschwerden und in seiner Rolle für Knochen und Fettmasse beim Mann, kein belegter Herzschutz, dazu dauerabhängige Risiken."
+  },
+  {
+   "id": "torasemid",
+   "view": "experimental",
+   "name": "Torasemid",
+   "url": "https://biohackingkompakt.de/thema/torasemid.html",
+   "evidenz": 8,
+   "mechanismus": 9,
+   "sicherheit": 8,
+   "hype": 6,
+   "anwendung": 9,
+   "richtung": "gemischt",
+   "label": "Gut belegt",
+   "beleg": "Evidenz 8, weil die entwässernde Wirkung belegt ist und der Vergleich mit Furosemid randomisiert geprüft wurde: in TRANSFORM-HF an 2.859 Patienten ohne Unterschied bei der Sterblichkeit (26,1 gegenüber 26,2 Prozent, Mentz 2023), gestützt von einer Metaanalyse aus 10 Studien mit 4.011 Patienten (Eid 2026); nicht höher, weil TRANSFORM-HF offen und nicht verblindet war und es zur Entwässerung im Sport keine Studie gibt. Mechanismus 9, weil der Angriffspunkt in der Henle-Schleife, Aufnahme und Abbau beim Menschen gemessen sind. Sicherheit 8, weil die Nebenwirkungen aus der Fachinformation und großen Endpunktstudien bekannt sind; für den Missbrauch gibt es nur Fallberichte (Nara 2025, Pfisterer 2020) – eine hohe Zahl heißt gut untersucht, nicht harmlos. Hype 6, weil die Hoffnung aus der nicht randomisierten TORIC-Studie (Cosín 2002), Torasemid senke die Sterblichkeit stärker als Furosemid, randomisiert nicht bestätigt wurde und die Entwässerung vor Wettkämpfen ohne Beleg für einen Nutzen auskommt. Anwendung 9, weil Torasemid seit Jahrzehnten breit bei Herzschwäche, Ödemen und Bluthochdruck verordnet wird. Richtung gemischt: Die Entwässerung ist belegt, ein Vorteil gegenüber Furosemid nicht, und im Sport stehen einem unbelegten Nutzen dokumentierte Schäden gegenüber. Zum Vergleich: Statine (10/9/9/7/10), Metformin (8/8/9/5/10), Liothyronin (4/9/6/3/8) als im Sport missbrauchtes Arzneimittel."
+  },
+  {
+   "id": "insulin-bodybuilding",
+   "view": "experimental",
+   "name": "Insulin im Bodybuilding",
+   "url": "https://biohackingkompakt.de/thema/insulin-bodybuilding.html",
+   "evidenz": 3,
+   "mechanismus": 8,
+   "sicherheit": 5,
+   "hype": 2,
+   "anwendung": 5,
+   "richtung": "offen",
+   "label": "Hype weit vor Evidenz",
+   "beleg": "Evidenz 3, weil am Menschen nur kurze Infusionsversuche vorliegen, in denen Insulin den Abbau von Muskeleiweiß bremst (Metaanalyse, 173 Menschen, Abdulla 2016), aber keine kontrollierte Studie zu Muskelmasse oder Kraft bei gesunden Trainierenden; Richtung deshalb offen. Mechanismus 8, weil die Wirkung von Insulin auf Zuckeraufnahme und Eiweißstoffwechsel im Muskel gut beschrieben ist, der Weg vom gebremsten Eiweißabbau zu mehr Muskel im Training aber nicht gemessen. Sicherheit 5, weil die Unterzuckerung als häufigste Nebenwirkung aus der Diabetestherapie bekannt ist (EMA), für die Nutzung ohne Diabetes aber nur Umfragen (Ip 2012, Di Girolamo 2024), Fallberichte (Heidet 2019) und ein gerichtlich untersuchter Todesfall vorliegen (Coroners Court NSW 2021) – eine mittlere Zahl heißt teilweise untersucht, nicht harmlos. Hype 2, weil Insulin in der Szene als Muskelaufbaumittel gilt, obwohl es dafür keine einzige Wirksamkeitsstudie gibt. Anwendung 5, weil Insulin zwar seit Jahrzehnten in der Diabetestherapie eingesetzt wird, für den Zweck dieses Eintrags aber nur unkontrollierte Erfahrung aus der Szene besteht, bei fast immer gleichzeitiger Einnahme weiterer Mittel (Parkinson und Evans 2006). Zum Vergleich: Clenbuterol (4/7/4/2/5), HGH (8/9/8/3/9), Liothyronin (4/9/6/3/8)."
+  },
+  {
+   "id": "methyl-1-testosteron",
+   "view": "experimental",
+   "name": "Methyl-1-testosteron (M1T)",
+   "url": "https://biohackingkompakt.de/thema/methyl-1-testosteron.html",
+   "evidenz": 1,
+   "mechanismus": 5,
+   "sicherheit": 2,
+   "hype": 1,
+   "anwendung": 2,
+   "richtung": "offen",
+   "label": "Nicht am Menschen untersucht",
+   "beleg": "Evidenz 1, weil es keine Studie zur Wirkung von M1T am Menschen gibt; am Menschen beschrieben ist nur, welche Abbauprodukte im Urin auftauchen (Parr 2011), Richtung deshalb offen. Mechanismus 5, weil die starke Aktivierung des Androgenrezeptors im Hefe-Test und die anabole und androgene Wirkung im Rattenversuch gemessen sind, ebenso die Wirkung auf die Leber (Parr 2011), Wirkstärke und Pharmakologie am Menschen aber nicht. Sicherheit 2, weil es am Menschen nur einen Fallbericht über eine Nierenschädigung durch Wechselwirkung mit Ciclosporin gibt (Al-Niaimi 2013) und die Leberrisiken aus Tierdaten und der Klasse der 17α-alkylierten Steroide abgeleitet sind (LiverTox, Robles-Diaz 2015); eine niedrige Zahl heißt hier kaum untersucht, nicht harmlos. Hype 1, weil M1T als frei verkäufliche Nahrungsergänzung und „Prohormon“ vermarktet wurde, obwohl es ein starkes Anabolikum ohne jede Wirksamkeitsstudie ist (Rahnema 2015). Anwendung 2, weil M1T nie ärztlich eingesetzt wurde und nur als Supplement im Umlauf war, bis die USA es 2004 als Anabolikum einstuften. Zum Vergleich: Methasteron (1/5/3/1/3) als Designer-Steroid derselben Bauart, YK-11 (1/5/1/1/3), Trenbolon (2/5/3/2/4)."
+  },
+  {
+   "id": "lipo-spritzen",
+   "view": "behandlungen",
+   "name": "Lipo-Spritzen (Lipo-B, Lipo-C, MIC)",
+   "url": "https://biohackingkompakt.de/thema/lipo-spritzen.html",
+   "evidenz": 2,
+   "mechanismus": 3,
+   "sicherheit": 3,
+   "hype": 1,
+   "anwendung": 4,
+   "richtung": "offen",
+   "label": "Hype weit vor Evidenz",
+   "beleg": "Evidenz 2, weil wir für Lipo-B-, Lipo-C- oder MIC-Spritzen zum Abnehmen keine kontrollierte Studie mit veröffentlichten Ergebnissen gefunden haben – eine kleine randomisierte Pilotstudie mit B12-Spritzen zusätzlich zum Appetitzügler Phentermin bei 22 Teilnehmern wurde 2013 abgeschlossen, Ergebnisse sind nie erschienen (NCT01719185) – und nur die Einzelstoffe in anderen Zusammenhängen untersucht sind: L-Carnitin als Nahrungsergänzung senkte das Körpergewicht in 37 randomisierten Studien im Mittel um 1,21 kg (Talenezhad 2020), Cholin über die Vene bildete eine Fettleber bei Cholinmangel unter künstlicher Ernährung zurück (Buchman 2001), und Vitamin-B12-Spritzen behandeln einen nachgewiesenen Mangel (Wang 2018). Mechanismus 3, weil die Rolle von Cholin beim Fetttransport aus der Leber und von L-Carnitin beim Transport von Fettsäuren in die Mitochondrien bekannt ist, gespritztes L-Carnitin bei nüchternem Insulin aber nicht in den Muskel gelangt (Stephens 2006) und nach einer Gabe über die Vene zu rund 76 Prozent binnen 24 Stunden mit dem Urin ausgeschieden wird (Fachinformation Carnitor), sodass ein Weg zum Fettabbau bei Menschen ohne Mangel nicht belegt ist. Sicherheit 3, weil die Einzelstoffe als Arzneimittel bekannt sind, bei L-Carnitin über die Vene mit seltenen schweren Überempfindlichkeitsreaktionen und Krampfanfällen (Fachinformation Carnitor), es für die Mischungen aber weder Studien noch ein Register gibt und eine lebensbedrohliche Blutvergiftung nach einer naturheilkundlichen Vitamininfusion beschrieben ist (D'Souza 2021). Hype 1, weil die Spritzen als Fettverbrenner und Abnehmhilfe angeboten werden, ohne dass eine Studie diese Wirkung je geprüft hat. Anwendung 4, weil die Mischungen in Ästhetik- und Abnehmpraxen gespritzt werden, ohne dass Häufigkeit oder Folgen systematisch erfasst sind, während die Einzelstoffe als Arzneimittel und Nährstoffe lange in Gebrauch sind. Richtung offen: Die beworbene Wirkung ist nicht untersucht. Zum Vergleich: IV-Vitamintherapie (3/2/3/1/6) als verwandte Vitamin-Anwendung mit einer einzigen Placebo-Studie, Exosomen (2/3/1/1/3) als ähnlich unbelegter Praxistrend, Fettweg-Spritzen (6/7/6/3/6) mit gut belegter Deoxycholsäure."
   }
  ]
 }

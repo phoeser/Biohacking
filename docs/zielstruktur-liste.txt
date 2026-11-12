@@ -1,0 +1,75 @@
+Zielstruktur-Zuordnungen (zielstruktur.py, Stand 2026-11-12)
+Geprüft: 388 Themen · zugeordnet: 64 · Molekül gefunden, aber kein eindeutiges Einzelprotein-Ziel: 120 · mehrdeutige Namen (ausgelassen): 20
+
+id → Wirkart Protein (Gen, UniProt) · ChEMBL-Molekül
+
+abaloparatid → Agonist Parathyroid hormone/parathyroid hormone-related peptide receptor (PTH1R, UniProt Q03431)  · CHEMBL3301581 ABALOPARATIDE
+acarbose → Hemmer Pancreatic alpha-amylase (AMY2A, UniProt P04746); Hemmer Maltase-glucoamylase (MGAM, UniProt O43451)  · CHEMBL404271 ACARBOSE
+ace-031 → Hemmer Growth/differentiation factor 8 (MSTN, UniProt O14793)  · CHEMBL2108674 RAMATERCEPT
+alprostadil → Agonist Prostaglandin E2 receptor EP1 subtype (PTGER1, UniProt P34995); Agonist Prostaglandin E2 receptor EP2 subtype (PTGER2, UniProt P43116)  · CHEMBL495 ALPROSTADIL
+anastrozol → Hemmer Aromatase (CYP19A1, UniProt P11511)  · CHEMBL1399 ANASTROZOLE
+armodafinil → Hemmer Sodium-dependent dopamine transporter (SLC6A3, UniProt Q01959)  · CHEMBL1201192 ARMODAFINIL
+avanafil → Hemmer cGMP-specific 3',5'-cyclic phosphodiesterase (PDE5A, UniProt O76074)  · CHEMBL1963681 AVANAFIL
+bempedoinsaeure → Hemmer ATP-citrate synthase (ACLY, UniProt P53396)  · CHEMBL3545313 BEMPEDOIC ACID
+bimagrumab → Antagonist Activin receptor type-2B (ACVR2B, UniProt Q13705)  · CHEMBL3137353 BIMAGRUMAB
+cabergolin → Agonist Dopamine receptor D2 (DRD2, UniProt P14416)  · CHEMBL1201087 CABERGOLINE
+canagliflozin → Hemmer Sodium/glucose cotransporter 2 (SLC5A2, UniProt P31639)  · CHEMBL2048484 CANAGLIFLOZIN ANHYDROUS
+cardarine → Agonist Peroxisome proliferator-activated receptor delta (PPARD, UniProt Q03181)  · CHEMBL38943 GW501516
+cbd → Negativer allosterischer Modulator Cannabinoid receptor 1 (CNR1, UniProt P21554)  · CHEMBL190461 CANNABIDIOL
+clascoteron → Antagonist Androgen receptor (AR, UniProt P10275)  · CHEMBL3590187 CLASCOTERONE
+clenbuterol → Agonist Beta-2 adrenergic receptor (ADRB2, UniProt P07550)  · CHEMBL49080 CLENBUTEROL
+clomifen → Modulator Estrogen receptor (ESR1, UniProt P03372)  · CHEMBL2355051 CLOMIPHENE
+dapoxetin → Hemmer Sodium-dependent serotonin transporter (SLC6A4, UniProt P31645)  · CHEMBL2110900 DAPOXETINE
+enclomiphene → Modulator Estrogen receptor (ESR1, UniProt P03372)  · CHEMBL954 ENCLOMIPHENE
+estradiol → Agonist Estrogen receptor (ESR1, UniProt P03372)  · CHEMBL135 ESTRADIOL
+exemestan → Hemmer Aromatase (CYP19A1, UniProt P11511)  · CHEMBL1200374 EXEMESTANE
+ezetimib → Hemmer NPC1-like intracellular cholesterol transporter 1 (NPC1L1, UniProt Q9UHC9)  · CHEMBL1138 EZETIMIBE
+finasterid → Hemmer 3-oxo-5-alpha-steroid 4-dehydrogenase 2 (SRD5A2, UniProt P31213)  · CHEMBL710 FINASTERIDE
+fluoxymesteron → Agonist Androgen receptor (AR, UniProt P10275)  · CHEMBL1445 FLUOXYMESTERONE
+gonadorelin → Agonist Gonadotropin-releasing hormone receptor (GNRHR, UniProt P30968)  · CHEMBL1007 GONADORELIN
+hgh → Agonist Growth hormone receptor (GHR, UniProt P10912)  · CHEMBL1201621 SOMATROPIN
+hmg → Agonist Lutropin-choriogonadotropic hormone receptor (LHCGR, UniProt P22888); Agonist Follicle-stimulating hormone receptor (FSHR, UniProt P23945)  · CHEMBL2108427 MENOTROPINS
+huperzin-a → Hemmer Acetylcholinesterase (ACHE, UniProt P22303)  · CHEMBL395280 HUPERZINE A
+letrozol → Hemmer Aromatase (CYP19A1, UniProt P11511)  · CHEMBL1444 LETROZOLE
+ligandrol → Modulator Androgen receptor (AR, UniProt P10275)  · CHEMBL5170587 VK5211
+liraglutid → Agonist Glucagon-like peptide 1 receptor (GLP1R, UniProt P43220)  · CHEMBL4084119 LIRAGLUTIDE
+melanotan-1 → Agonist Melanocyte-stimulating hormone receptor (MC1R, UniProt Q01726)  · CHEMBL441738 AFAMELANOTIDE
+metformin → Hemmer Glycerol-3-phosphate dehydrogenase, mitochondrial (GPD2, UniProt P43304)  · CHEMBL1431 METFORMIN
+methandrostenolon → Agonist Androgen receptor (AR, UniProt P10275)  · CHEMBL1418176 METHANDROSTENOLONE
+mk-677 → Agonist Growth hormone secretagogue receptor type 1 (GHSR, UniProt Q92847)  · CHEMBL13817 IBUTAMOREN
+modafinil → Hemmer Sodium-dependent dopamine transporter (SLC6A3, UniProt Q01959)  · CHEMBL1373 MODAFINIL
+nandrolon → Agonist Androgen receptor (AR, UniProt P10275)  · CHEMBL1200946 NANDROLONE DECANOATE
+orlistat → Hemmer Gastric triacylglycerol lipase (LIPF, UniProt P07098); Hemmer Pancreatic triacylglycerol lipase (PNLIP, UniProt P16233)  · CHEMBL175247 ORLISTAT
+ostarin → Modulator Androgen receptor (AR, UniProt P10275)  · CHEMBL1738889 ENOBOSARM
+oxandrolon → Agonist Androgen receptor (AR, UniProt P10275)  · CHEMBL1200436 OXANDROLONE
+oxymetholon → Agonist Androgen receptor (AR, UniProt P10275)  · CHEMBL1200585 OXYMETHOLONE
+oxytocin → Agonist Oxytocin receptor (OXTR, UniProt P30559)  · CHEMBL395429 OXYTOCIN
+progesteron → Agonist Progesterone receptor (PGR, UniProt P06401)  · CHEMBL103 PROGESTERONE
+pt-141 → Agonist Melanocortin receptor 4 (MC4R, UniProt P32245)  · CHEMBL2070241 BREMELANOTIDE
+raloxifen → Modulator Estrogen receptor beta (ESR2, UniProt Q92731); Modulator Estrogen receptor (ESR1, UniProt P03372)  · CHEMBL81 RALOXIFENE
+rapamycin → Hemmer Peptidyl-prolyl cis-trans isomerase FKBP1A (FKBP1A, UniProt P62942)  · CHEMBL413 SIROLIMUS
+retatrutide → Agonist Glucagon receptor (GCGR, UniProt P47871); Agonist Glucagon-like peptide 1 receptor (GLP1R, UniProt P43220); Agonist Gastric inhibitory polypeptide receptor (GIPR, UniProt P48546)  · CHEMBL5095485 RETATRUTIDE
+salbutamol → Agonist Beta-2 adrenergic receptor (ADRB2, UniProt P07550)  · CHEMBL714 ALBUTEROL
+semaglutide → Agonist Glucagon-like peptide 1 receptor (GLP1R, UniProt P43220)  · CHEMBL2108724 SEMAGLUTIDE
+sermorelin → Agonist Growth hormone-releasing hormone receptor (GHRHR, UniProt Q02643)  · CHEMBL1201490 SERMORELIN ACETATE
+sildenafil → Hemmer cGMP-specific 3',5'-cyclic phosphodiesterase (PDE5A, UniProt O76074)  · CHEMBL192 SILDENAFIL
+stanozolol → Agonist Androgen receptor (AR, UniProt P10275)  · CHEMBL2079587 STANOZOLOL
+survodutide → Agonist Glucagon-like peptide 1 receptor (GLP1R, UniProt P43220); Agonist Glucagon receptor (GCGR, UniProt P47871)  · CHEMBL5314776 SURVODUTIDE
+tadalafil → Hemmer cGMP-specific 3',5'-cyclic phosphodiesterase (PDE5A, UniProt O76074)  · CHEMBL779 TADALAFIL
+tamoxifen → Modulator Estrogen receptor (ESR1, UniProt P03372)  · CHEMBL83 TAMOXIFEN
+telmisartan → Antagonist Type-1 angiotensin II receptor (AGTR1, UniProt P30556)  · CHEMBL1017 TELMISARTAN
+teriparatid → Agonist Parathyroid hormone/parathyroid hormone-related peptide receptor (PTH1R, UniProt Q03431)  · CHEMBL525610 TERIPARATIDE
+tesamorelin → Agonist Growth hormone-releasing hormone receptor (GHRHR, UniProt Q02643)  · CHEMBL1237026 TESAMORELIN
+tirzepatide → Agonist Gastric inhibitory polypeptide receptor (GIPR, UniProt P48546); Agonist Glucagon-like peptide 1 receptor (GLP1R, UniProt P43220)  · CHEMBL4297839 TIRZEPATIDE
+torasemid → Hemmer Solute carrier family 12 member 1 (SLC12A1, UniProt Q13621)  · CHEMBL1148 TORSEMIDE
+trazodon → Hemmer Sodium-dependent serotonin transporter (SLC6A4, UniProt P31645); Antagonist 5-hydroxytryptamine receptor 2A (HTR2A, UniProt P28223); Antagonist 5-hydroxytryptamine receptor 2C (HTR2C, UniProt P28335)  · CHEMBL621 TRAZODONE
+trh → Agonist Thyrotropin-releasing hormone receptor (TRHR, UniProt P34981)  · CHEMBL1472 PROTIRELIN
+triptorelin → Agonist Gonadotropin-releasing hormone receptor (GNRHR, UniProt P30968)  · CHEMBL1201334 TRIPTORELIN
+vardenafil → Hemmer cGMP-specific 3',5'-cyclic phosphodiesterase (PDE5A, UniProt O76074)  · CHEMBL1520 VARDENAFIL
+vitamin-d3 → Agonist Vitamin D3 receptor (VDR, UniProt P11473)  · CHEMBL1042 CHOLECALCIFEROL
+
+Ausgelassen wegen mehrdeutiger Namen: acth, baikal-helmkraut, cannabis-thc, citrullin, drostanolon, epo, flohsamenschalen, hcg, ingwer, ketamin, mariendistel, niacin, orexin-antagonisten, pregnenolon, psilocybin, sglt2-hemmer, statine, vip, vitamin-b12, vitamin-e
+
+Ausgelassen, weil nur ein Nebenname (altNames) ein Molekül trifft: 5-htp, anabole-steroide, arjuna, beta-glucan, boswellia, egcg, elektrolyte, erythrit-xylit, fettweg-spritzen, follistatin, hydroxytyrosol, kakaoflavanole, ketoconazol, lavendeloel, lsd-microdosing, mdma-therapie, metenolon, methylfolat, praebiotika, rotschimmelreis, ru58841, shiitake, thymosin-alpha-1, tudca
+
+Molekül gefunden, aber kein eindeutiges Einzelprotein-Ziel: acetyl-l-carnitin, aktivkohle, alpha-liponsaeure, aminosaeuren, aod-9604, apigenin, ara-290, ashwagandha, astaxanthin, baldrian, benfotiamin, berberin, beta-alanin, betain-hcl, biotin, boldenon, bpc-157, bromelain, cagrilintide, calcium-d-glucarat, cbn, chrom, citicolin, colchicin, coq10, d-ribose, dhea, dihydromyricetin, dim, diosmin, dmso, dutasterid, ecnoglutid, eloralintid, fenbendazol, fisetin, forskolin, ghrp-2, ginkgo, ginseng, glucosamin, glutamin, glutathion, glycin, gotu-kola, gw-0742, hexarelin, hmb, hyaluronsaeure, ibogain, inositol, isotretinoin, ivermectin, jod, kalium, kalzium, kisspeptin, koffein, kupfer, kurkuma, l-arginin, l-theanin, l-tryptophan, larazotide, leucin, levothyroxin, liothyronin, luteolin, magnesium, maritide, mazdutide, melatonin, mesterolon, methylene-blue, methyltrienolon, minoxidil, monolaurin, msm, natriumbutyrat, nicotinamid, nicotinamid-ribosid, ochsengalle, omega-3, opc, orforglipron, pemvidutid, petrelintid, phenibut, phosphatidylcholin, phosphatidylserin, pterostilben, quercetin, rad140, resveratrol, saegepalme, sam-e, selen, serrapeptase, sobetirom, spermidin, ss-31, stenabolic, sulbutiamin, sulforaphan, synephrin, taurin, tesofensin, thymulin, tp508, trenbolon, trestolon, tretinoin, tyrosin, uridin, vinpocetin, vitamin-a, vitamin-b-komplex, vitamin-k2, yohimbin, zopiclon

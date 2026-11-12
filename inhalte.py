@@ -79,6 +79,8 @@ def scores_nach_pfad():
 
 def abschnitte(main, reguliert):
     """Teilt <main> an den <h2> auf. Text vor dem ersten h2 = Abschnitt 'Kurz gesagt'."""
+    # Kopfzeile „Lesezeit · Quellen" (seitenkopf.py) ist Navigation, kein Inhalt
+    main = re.sub(r'<!-- seitenkopf:start -->.*?<!-- seitenkopf:end -->', '', main, flags=re.S)
     h1 = re.search(r'<h1\b[^>]*>(.*?)</h1>', main, re.S | re.I)
     titel = klartext(h1.group(1)) if h1 else ''
     rest = main[h1.end():] if h1 else main
