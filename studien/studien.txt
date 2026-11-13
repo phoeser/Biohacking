@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 13.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -411,11 +411,20 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): WADA Prohibited List 2026 (zweisprachige Fassung der JADA). https://www.playtruejapan.org/entry_img/2026_prohibited_List_jpn.pdf
 
 ## Thema: Ashwagandha (https://biohackingkompakt.de/thema/ashwagandha.html)
-3 Studien: 1 Sonstige Studie, 1 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+8 Studien: 2 Beobachtungsstudie, 2 Randomisierte Studie, 1 Sonstige Studie, 1 Übersichtsartikel, 1 Meta-Analyse / Übersicht, 1 Fallbericht.
 - Meta-Analyse / Übersicht, 2025: Effects of Ashwagandha Supplements on Cortisol, Stress, and Anxiety Levels in Adults: A Systematic Review and Meta-Analysis (Bachour G et al., BJPsych Open). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12242034/
+- Randomisierte Studie, 2026: Safe prolonged prophylactic use and tolerability of Ashwagandha following COVISHIELD™ vaccination over 24 weeks: a multicentre randomized double-blind placebo-controlled trial (Chopra A et al., Front Med (Lausanne)). https://europepmc.org/article/MED/42694770
 - Randomisierte Studie, 2026: Safety of 8-Week Administration With Ashwagandha (Withania somnifera) Root Extract in Adults With Stress and Anxiety: Findings From a Prospective, Randomized, Multi-Center, Double-Blinded, Placebo-Controlled Study (Pakhale K et al., Phytother Res). https://europepmc.org/article/MED/41943502
+- Beobachtungsstudie, 2026: Ashwagandha (Withania somnifera)-Associated Liver Injury: A Scoping Review of Clinical Characteristics and Safety Considerations (McIntyre D et al., Cureus). https://europepmc.org/article/MED/42367407
+- Beobachtungsstudie, 2026: Safety of 12-Months Administration of Ashwagandha ( Withania somnifera ) Standardized Root Extract in Healthy Adults: A Prospective, Observational Study (Salve J et al., Phytother Res). https://europepmc.org/article/MED/41063394
+- Fallbericht, 2024: Painless Thyroiditis by Withania somnifera (Ashwagandha) (Hayashi M et al., Cureus). https://europepmc.org/article/MED/38559552
+- Übersichtsartikel, 2026: Evaluation of Potential Hormonal Activities of Ashwagandha (Withania somnifera) (Vollmer G et al., Phytother Res). https://europepmc.org/article/MED/41454558
 - Sonstige Studie, 2026: Ashwagandha-Induced Herb-Induced Liver Injury Assessed With the Updated 2016 RUCAM (Pérez Pérez S et al., Case Reports Hepatol). https://europepmc.org/article/MED/42529606
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Mitteilung 039/2024 vom 10.09.2024 – Warnung vor Leberschäden. https://www.bfr.bund.de/cm/343/ashwagandha-schlafbeeren-praeparate-mit-moeglichen-gesundheitsrisiken.pdf
+- Behörde/Recht (Weitere Quellen): McGill Office for Science and Society, 02.06.2023 – Dänemark verbietet Ashwagandha in Nahrungsergänzungsmitteln. https://mcgill.ca/oss/node/9531
+- Behörde/Recht (Weitere Quellen): NutraIngredients, 06.10.2026 – Niederländischer Entwurf: Blatt verboten, Wurzel mit Warnhinweis. https://www.nutraingredients.com/Article/2026/10/06/ashwagandha-huperzia-targeted-under-proposed-dutch-supplement-rules/
+- Behörde/Recht (Weitere Quellen): SupplySide SJ, 21.10.2026 – Rechtsstand in der EU, kein Verfahren nach Artikel 8 eröffnet. https://www.supplysidesj.com/supply-chain/ashwagandha-regulation-root-leaf-faq
+- Behörde/Recht (Weitere Quellen): The Medical Republic, 23.07.2026 – Zweite Sicherheitswarnung der australischen TGA zu Leberschäden. https://medicalrepublic.com.au/tga-makes-second-safety-alert-on-ashwagandha-and-liver-injury/127554
 
 ## Thema: Aspirin zur Vorbeugung (Primärprävention) (https://biohackingkompakt.de/thema/aspirin-praevention.html)
 3 Studien: 3 Randomisierte Studie.
@@ -2597,12 +2606,25 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Weitere Quellen): EMCDDA (EUDA) – Drogenprofil Kratom. https://www.euda.europa.eu/publications/drug-profiles/kratom_en
 
 ## Thema: Kreatin Monohydrat (https://biohackingkompakt.de/thema/kreatin.html)
-4 Studien: 3 Meta-Analyse / Übersicht, 1 Übersichtsartikel.
+15 Studien: 6 Meta-Analyse / Übersicht, 3 Sonstige Studie, 3 Randomisierte Studie, 1 Beobachtungsstudie, 1 Übersichtsartikel, 1 Studienregister.
 - Meta-Analyse / Übersicht, 2026: Creatine monohydrate for lean mass, strength, and bone density in postmenopausal women: a systematic review and meta-analysis (Naddafha S et al., J Int Soc Sports Nutr). https://europepmc.org/article/MED/42141930
+- Meta-Analyse / Übersicht, 2026: Creatine Supplementation and Acute Sleep Deprivation: A Systematic Review of Cognitive, Psychomotor, and Mood Outcomes (Williams NB et al., J Integr Complement Med). https://europepmc.org/article/MED/42261581
 - Meta-Analyse / Übersicht, 2026: Effects of resistance training combined with creatine supplementation on muscle strength, physical function, and muscle mass in older adults: a systematic review and three-level meta-analysis (Yao L et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/42712402/
+- Meta-Analyse / Übersicht, 2026: Impact of creatine supplementation on kidney health: a systematic review and meta-analysis (de Souza Almeida A et al., Int Urol Nephrol). https://europepmc.org/article/MED/42507286
+- Meta-Analyse / Übersicht, 2026: The Effect of Creatine Supplementation on Kidney Function: A Systematic Review and Meta-Analysis of Randomized Controlled Trials (Tsiaras A et al., J Ren Nutr). https://europepmc.org/article/MED/42035842
 - Meta-Analyse / Übersicht, 2024: The effects of creatine supplementation on cognitive function in adults: a systematic review and meta-analysis (Xu C et al., Front Nutr). https://pubmed.ncbi.nlm.nih.gov/39070254/
+- Randomisierte Studie, 2026: Effects of creatine supplementation with and without exercise and diet intervention on body composition, cognitive function, and markers of health in middle-aged and older adults (Chun J et al., J Int Soc Sports Nutr). https://europepmc.org/article/MED/42578920
+- Randomisierte Studie, 2026: Single-Dose Creatine Reduces Sleep Deprivation-Induced Deterioration in Cognitive Performance (Gordji-Nejad A et al., Nutrients). https://europepmc.org/article/MED/42075005
+- Randomisierte Studie, 2025: The Effect of Creatine Supplementation on Lean Body Mass with and Without Resistance Training (Desai I et al., Nutrients). https://europepmc.org/article/MED/40292479
+- Beobachtungsstudie, 2026: Creatine for glucagon-like peptide-1-associated muscle loss (Ostojic SM et al., Clin Nutr). https://europepmc.org/article/MED/42800365
 - Übersichtsartikel, 2026: The cognitive effects of creatine supplementation in older adults and preclinical models of dementia: A scoping review (Whitford T et al., Ageing Res Rev). https://europepmc.org/article/MED/42668123
+- Studienregister: ClinicalTrials.gov NCT07625202 – RCT Kreatin bei Krafttraining unter GLP-1-Therapie, University of Saskatchewan (laufend). https://clinicaltrials.gov/study/NCT07625202
+- Sonstige Studie, 2026: Creatine supplementation effects on cognition, sleep, and menopause symptoms in response to six weeks of high-intensity resistance training in perimenopausal females (Baker PA et al., Eur J Appl Physiol). https://europepmc.org/article/MED/42926218
+- Sonstige Studie, 2025: Creatine monohydrate pilot in Alzheimer's: Feasibility, brain creatine, and cognition (Smith AN et al., Alzheimers Dement (N Y)). https://europepmc.org/article/MED/40395689
+- Sonstige Studie, 2024: Single dose creatine improves cognitive performance and induces changes in cerebral high energy phosphates during sleep deprivation (Gordji-Nejad A et al., Sci Rep). https://europepmc.org/article/MED/38418482
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA 2016 – Health-Claim-Bewertung zu Kreatin und Muskelkraft. https://www.efsa.europa.eu/en/efsajournal/pub/4400
+- Behörde/Recht (Weitere Quellen): Athletech News 2025 – Labortest von Kreatin-Gummis und -Pulvern (SuppCo). https://athletechnews.com/creatine-gummies-amazon-suppco-report/
+- Behörde/Recht (Weitere Quellen): Natural Products Insider 2024 – Labortest von 12 Kreatin-Gummi-Marken. https://naturalproductsinsider.com/supplement-regulations/now-tests-creatine-gummies-finding-almost-half-to-be-severely-understrength-
 
 ## Thema: Krebs-Bluttest (Multi-Cancer-Früherkennung) (https://biohackingkompakt.de/thema/krebs-frueherkennung-bluttest.html)
 9 Studien: 4 Sonstige Studie, 2 Klinische Studie, 2 Beobachtungsstudie, 1 Randomisierte Studie.
@@ -3090,12 +3112,19 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (EU-Kommission): Europäische Kommission, Novel Food Status Catalogue, Lepidium meyenii Walp.. https://ec.europa.eu/food/food-feed-portal/screen/novel-food-catalogue/search/details/POL-NF-09281
 
 ## Thema: Magnesium (https://biohackingkompakt.de/thema/magnesium.html)
-4 Studien: 2 Meta-Analyse / Übersicht, 2 Randomisierte Studie.
+8 Studien: 4 Randomisierte Studie, 3 Meta-Analyse / Übersicht, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2026: Magnesium Supplementation for Sleep in Adults: A Systematic Review of Randomized Controlled Trials (Lopresti AL et al., J Diet Suppl). https://europepmc.org/article/MED/42661485
+- Meta-Analyse / Übersicht, 2025: Magnesium Supplementation and Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials (Argeros Z et al., Hypertension). https://europepmc.org/article/MED/41000008
 - Meta-Analyse / Übersicht, 2020: Magnesium for skeletal muscle cramps (Garrison SR et al., Cochrane Database Syst Rev). https://pubmed.ncbi.nlm.nih.gov/32956536/
 - Randomisierte Studie, 2026: Secondary prevention of leg cramps using compression stockings or magnesium supplements: a three-arm randomized clinical trial (Kuusipalo A et al., Trials). https://europepmc.org/article/MED/41680812
 - Randomisierte Studie, 2025: Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial (Schuster J et al., Nat Sci Sleep). https://pubmed.ncbi.nlm.nih.gov/40918053/
+- Randomisierte Studie, 2003: Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study (Walker AF et al., Magnes Res). https://europepmc.org/article/MED/14596323
+- Randomisierte Studie, 1990: Magnesium bioavailability from magnesium citrate and magnesium oxide (Lindberg JS et al., J Am Coll Nutr). https://europepmc.org/article/MED/2407766
+- Sonstige Studie, 2001: Bioavailability of US commercial magnesium preparations (Firoz M et al., Magnes Res). https://europepmc.org/article/MED/11794633
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR – Höchstmengenvorschläge für Magnesium in Lebensmitteln inklusive Nahrungsergänzungsmitteln. https://www.bfr.bund.de/cm/343/hoechstmengenvorschlaege-fuer-magnesium-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf
+- Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA – Overview on Tolerable Upper Intake Levels, Summary Report 2024 (Magnesium: 250 mg/Tag zusätzlich, SCF 2001). https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf
+- Behörde/Recht (Weitere Behörden): Max Rubner-Institut – Nationale Verzehrsstudie II, Ergebnisbericht Teil 2 (2008), Magnesiumzufuhr in Deutschland. https://www.mri.bund.de/fileadmin/MRI/Institute/EV/NVSII_Abschlussbericht_Teil_2.pdf
+- Behörde/Recht (Weitere Quellen): aponet.de / pta-Forum, 08.06.2026 – Magnesiumcitrat oder Magnesiumoxid, mit Angaben der Apothekerkammer Niedersachsen. https://www.aponet.de/artikel/magnesiumcitrat-oder-magnesiumoxid-darauf-kommt-es-laut-fachleuten-gar-nicht-an-33398
 
 ## Thema: Magnesium-L-Threonat (https://biohackingkompakt.de/thema/magnesium-l-threonat.html)
 7 Studien: 4 Randomisierte Studie, 1 Sonstige Studie, 1 Tier- oder Laborstudie, 1 Studienregister.
@@ -3245,11 +3274,18 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA, Scenesse (Afamelanotid), EPAR. https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse
 
 ## Thema: Melatonin (https://biohackingkompakt.de/thema/melatonin.html)
-3 Studien: 3 Meta-Analyse / Übersicht.
+6 Studien: 3 Meta-Analyse / Übersicht, 2 Beobachtungsstudie, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2013: Meta-analysis: melatonin for the treatment of primary sleep disorders (Ferracioli-Oda E et al., PLoS One). https://pubmed.ncbi.nlm.nih.gov/23691095/
 - Meta-Analyse / Übersicht, 2005: The efficacy and safety of exogenous melatonin for primary sleep disorders. A meta-analysis (Buscemi N et al., J Gen Intern Med). https://europepmc.org/article/MED/16423108
 - Meta-Analyse / Übersicht, 2002: Melatonin for the prevention and treatment of jet lag (Herxheimer A et al., Cochrane Database Syst Rev). https://europepmc.org/article/MED/12076414
+- Beobachtungsstudie, 2026: Melatonin and cardiovascular risk: an NHANES reality check after recent heart failure concerns (Khan B et al., Open Heart). https://europepmc.org/article/MED/42167796
+- Beobachtungsstudie, 2022: Pediatric Melatonin Ingestions - United States, 2012-2021 (Lelak K et al., MMWR Morb Mortal Wkly Rep). https://europepmc.org/article/MED/35653284
+- Sonstige Studie, 2023: Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US (Cohen PA et al., JAMA). https://europepmc.org/article/MED/37097362
 - Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Stellungnahme 42/2024 vom 17.09.2024 – melatoninhaltige Nahrungsergänzungsmittel. https://www.bfr.bund.de/cm/343/melatoninhaltige-nahrungsergaenzungsmittel-bfr-weist-auf-moegliche-gesundheitsrisiken-hin-2024.pdf
+- Behörde/Recht (Bundesrecht (gesetze-im-internet.de)): Arzneimittelverschreibungsverordnung (AMVV), Anlage 1, Eintrag Melatonin – Ausnahme bei Jetlag (Stand 2026). https://www.gesetze-im-internet.de/amvv/anlage_1.html
+- Behörde/Recht (EU-Recht (EUR-Lex)): Verordnung (EU) Nr. 432/2012, konsolidierter Text (zugelassene Angaben, Bedingungen für Melatonin). https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02012R0432-20210517
+- Behörde/Recht (Weitere Behörden): 24. Verordnung zur Änderung der AMVV vom 19.05.2026, BGBl. 2026 I Nr. 149 – gilt ab 23.05.2026. https://www.recht.bund.de/bgbl/1/2026/149/VO.html
+- Behörde/Recht (Weitere Quellen): American Heart Association, Pressemitteilung vom 03.11.2025 zum Kongressbeitrag Nnadi et al., Scientific Sessions 2025 – Langzeit-Melatonin und Herzinsuffizienz (nicht begutachtet). https://www.news-medical.net/news/20251103/Long-term-use-of-melatonin-supplements-linked-to-higher-risk-of-heart-failure-and-death.aspx
 
 ## Thema: Mesterolon (Proviron) (https://biohackingkompakt.de/thema/mesterolon.html)
 5 Studien: 3 Randomisierte Studie, 1 Klinische Studie, 1 Fallbericht.
@@ -3789,12 +3825,27 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA – Orphacol (Cholsäure), EPAR-Übersicht, EU-Zulassung 12.09.2013. https://www.ema.europa.eu/en/medicines/human/EPAR/orphacol
 
 ## Thema: Omega-3 (EPA/DHA) (https://biohackingkompakt.de/thema/omega-3.html)
-4 Studien: 3 Randomisierte Studie, 1 Meta-Analyse / Übersicht.
+14 Studien: 8 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Klinische Studie, 1 Übersichtsartikel, 1 Beobachtungsstudie, 1 Sonstige Studie.
 - Meta-Analyse / Übersicht, 2026: Effects of Omega-3 Fatty Acid Treatment on Risk for Atrial Fibrillation: An Updated Meta-Analysis of 35 Trials including 114 592 Individuals (Abuknesha NR et al., Circ Arrhythm Electrophysiol). https://europepmc.org/article/MED/42517224
+- Meta-Analyse / Übersicht, 2021: Effect of Long-Term Marine ɷ-3 Fatty Acids Supplementation on the Risk of Atrial Fibrillation in Randomized Controlled Trials of Cardiovascular Outcomes: A Systematic Review and Meta-Analysis (Gencer B et al., Circulation). https://europepmc.org/article/MED/34612056
+- Randomisierte Studie, 2026: Fish-Oil Supplementation and Cardiovascular Events in Patients Receiving Hemodialysis (Lok CE et al., N Engl J Med). https://europepmc.org/article/MED/41201837
+- Randomisierte Studie, 2025: Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial (Bischoff-Ferrari HA et al., Nat Aging). https://pubmed.ncbi.nlm.nih.gov/39900648/
+- Randomisierte Studie, 2022: Effects of Randomized Treatment With Icosapent Ethyl and a Mineral Oil Comparator on Interleukin-1β, Interleukin-6, C-Reactive Protein, Oxidized Low-Density Lipoprotein Cholesterol, Homocysteine, Lipoprotein(a), and Lipoprotein-Associated Phospholipase A2: A REDUCE-IT Biomarker Substudy (Ridker PM et al., Circulation). https://europepmc.org/article/MED/35762321
 - Randomisierte Studie, 2020: Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events in Patients at High Cardiovascular Risk: The STRENGTH Randomized Clinical Trial (Nicholls SJ et al., JAMA). https://europepmc.org/article/MED/33190147
+- Randomisierte Studie, 2020: Effect of Vitamin D Supplementation, Omega-3 Fatty Acid Supplementation, or a Strength-Training Exercise Program on Clinical Outcomes in Older Adults: The DO-HEALTH Randomized Clinical Trial (Bischoff-Ferrari HA et al., JAMA). https://europepmc.org/article/MED/33170239
+- Randomisierte Studie, 2019: Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia (Bhatt DL et al., N Engl J Med). https://europepmc.org/article/MED/30415628
 - Randomisierte Studie, 2019: Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer (Manson JE et al., N Engl J Med). https://europepmc.org/article/MED/30415637
 - Randomisierte Studie, 2018: Effects of n-3 Fatty Acid Supplements in Diabetes Mellitus (ASCEND Study Collaborative Group et al., N Engl J Med). https://europepmc.org/article/MED/30146932
+- Klinische Studie, 2026: Interpreting the PISCES trial on fish oil in hemodialysis patients: lessons on trial design, biological exposure, and outcome measurement (Mazón-Ruiz J et al., Clin Kidney J). https://europepmc.org/article/MED/42100717
+- Beobachtungsstudie, 2014: "Fishing" for the origins of the "Eskimos and heart disease" story: facts or wishful thinking? (Fodor JG et al., Can J Cardiol). https://europepmc.org/article/MED/25064579
+- Übersichtsartikel, 2026: Omega-3 Fatty Acids in the Management of Cardiovascular Disease Prevention (Finocchiaro S et al., Cardiovasc Drugs Ther). https://europepmc.org/article/MED/42848298
+- Sonstige Studie, 1976: The composition of food consumed by Greenland Eskimos (Bang HO et al., Acta Med Scand). https://europepmc.org/article/MED/961471
+- Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR-Mitteilung 57/2023 vom 16.11.2023 - Omega-3-Präparate und Vorhofflimmern bei Herzpatienten. https://www.bfr.bund.de/cm/343/praeparate-mit-omega-3-fettsaeuren-koennen-bei-herzpatienten-das-risiko-fuer-vorhofflimmern-erhoehen.pdf
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA 29.03.2019 - Omega-3-Arzneimittel nach Herzinfarkt nicht wirksam. https://www.ema.europa.eu/en/news/ema-confirms-omega-3-fatty-acid-medicines-are-not-effective-preventing-further-heart-problems-after-heart-attack
+- Behörde/Recht (Weitere Quellen): Bang, Dyerberg 1981, Meddelelser om Grønland - The Lipid Metabolism in Greenlanders. https://tidsskrift.dk/meddrgroenland_man_soc/article/download/145404/188559/319038
+- Behörde/Recht (Weitere Quellen): Pharmazeutische Zeitung 05.09.2022 - Vazkepa nicht mehr im Handel. https://www.pharmazeutische-zeitung.de/vazkepa-nicht-mehr-im-handel-135382/
+- Behörde/Recht (Weitere Quellen): Pressemitteilung zu Abuknesha 2026, Auftrag durch GOED (EP Lab Digest, 03.08.2026). https://www.hmpgloballearningnetwork.com/site/eplab/press-release/new-study-shows-low-dose-omega-3-intake-does-not-raise-atrial-fibrillation
+- Behörde/Recht (Weitere Quellen): Rote-Hand-Brief 16.11.2023 - Omega-3-Säureethylester, dosisabhängiges Risiko für Vorhofflimmern. https://www.akdae.de/fileadmin/user_upload/akdae/Arzneimittelsicherheit/RHB/Archiv/2023/20231116-Omega-3-FS.pdf
 
 ## Thema: OPC / Kiefernrindenextrakt (Pycnogenol) (https://biohackingkompakt.de/thema/opc.html)
 9 Studien: 5 Meta-Analyse / Übersicht, 2 Sonstige Studie, 2 Randomisierte Studie.
@@ -3870,7 +3921,9 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Klinische Studie, 2026: Hepatic Safety of Orforglipron in Adults With Obesity or Overweight and/or Type 2 Diabetes: A Pooled Analysis of the Orforglipron Phase 3 Clinical Trials (Wharton S et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/42338042/
 - Übersichtsartikel, 2026: Oral small-molecule GLP-1 receptor agonists: a new Frontier in cardiometabolic medicine (Guo J et al., Front Pharmacol). https://pubmed.ncbi.nlm.nih.gov/42729683/
 - Sonstige Studie, 2026: Oral Semaglutide 25 mg Versus Orforglipron 36 mg in Obesity: A Population-Adjusted Indirect Treatment Comparison (Michalak W et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/42225305/
-- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Europäische Arzneimittel-Agentur, CHMP-Sitzung 14. bis 17. September 2026. https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Europäische Arzneimittel-Agentur, CHMP-Zusammenfassung der positiven Stellungnahme zu Foundayo vom 15. Oktober 2026. https://www.ema.europa.eu/en/documents/smop-initial/chmp-summary-positive-opinion-foundayo_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): Europäische Arzneimittel-Agentur, Mitteilung vom 16. Oktober 2026 — CHMP empfiehlt Foundayo zum Gewichtsmanagement und bei Typ-2-Diabetes. https://www.ema.europa.eu/en/news/new-oral-glp-1-medicine-weight-management-type-2-diabetes
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA, US-Fachinformation der Wegovy-Tablette (NDA 218316), Abschnitt 12.3 — Bioverfügbarkeit von oralem Semaglutid. https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/218316Orig1s000Lbl.pdf
 - Behörde/Recht (Weitere Quellen): Eli Lilly, Pressemitteilung vom 1. April 2026 — FDA-Zulassung von Foundayo. https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill
 - Behörde/Recht (Weitere Quellen): MHRA, Mitteilung vom 10. August 2026 — Zulassung von Orforglipron in Großbritannien. https://www.gov.uk/government/news/uk-first-in-europe-to-authorise-orforglipron-for-weight-management-and-type-2-diabetes
 
@@ -4697,15 +4750,19 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Europäische Behörde für Lebensmittelsicherheit (EFSA)): EFSA NDA Panel, EFSA Journal 2023 (Obergrenze Selen). https://www.efsa.europa.eu/de/efsajournal/pub/7704
 
 ## Thema: Semaglutide (Ozempic / Wegovy) (https://biohackingkompakt.de/thema/semaglutide.html)
-7 Studien: 4 Randomisierte Studie, 3 Meta-Analyse / Übersicht.
+9 Studien: 6 Randomisierte Studie, 3 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2026: Effects of Incretin-Based Therapies, Diet and Exercise Interventions, and Bariatric Surgery on Fat-Free Mass in Adults With Overweight or Obesity: A Systematic Review and Meta-Analysis (Busk-Cirera L et al., Diabetes Obes Metab). https://europepmc.org/article/MED/42324178
 - Meta-Analyse / Übersicht, 2026: Lean Mass Changes With Incretin Therapy Versus Lifestyle Intervention: A Systematic Review and Meta-Analysis of Randomised Controlled Trials (Eisa N et al., Diabetes Obes Metab). https://europepmc.org/article/MED/41877354
 - Meta-Analyse / Übersicht, 2022: Association of Glucagon-Like Peptide-1 Receptor Agonist Use With Risk of Gallbladder and Biliary Diseases: A Systematic Review and Meta-analysis of Randomized Clinical Trials (He L et al., JAMA Intern Med). https://pubmed.ncbi.nlm.nih.gov/35344001/
+- Randomisierte Studie, 2026: Efficacy and safety of once-daily oral orforglipron compared with oral semaglutide in adults with type 2 diabetes (ACHIEVE-3): a multinational, multicentre, non-inferiority, open-label, randomised, phase 3 trial (Rosenstock J et al., Lancet). https://pubmed.ncbi.nlm.nih.gov/41765029/
 - Randomisierte Studie, 2025: Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial (Deanfield J et al., Lancet). https://europepmc.org/article/MED/41138739
 - Randomisierte Studie, 2023: Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (Lincoff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/37952131/
 - Randomisierte Studie, 2022: Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension (Wilding JPH et al., Diabetes Obes Metab). https://pubmed.ncbi.nlm.nih.gov/35441470/
 - Randomisierte Studie, 2021: Once-Weekly Semaglutide in Adults with Overweight or Obesity (Wilding JPH et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/33567185/
+- Randomisierte Studie, 2018: Transcellular stomach absorption of a derivatized glucagon-like peptide-1 receptor agonist (Buckley ST et al., Sci Transl Med). https://europepmc.org/article/MED/30429357
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA - Wegovy, europäischer Bewertungsbericht. https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA - US-Fachinformation der Wegovy-Tablette (NDA 218316), Einnahme und Bioverfügbarkeit. https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/218316Orig1s000Lbl.pdf
+- Behörde/Recht (Weitere Quellen): Novo Nordisk Deutschland, Pressemitteilung vom 20.07.2026 - EU-Zulassung der Wegovy-Tablette. https://www.novonordisk.de/content/dam/nncorp/de/de/presse-und-medien/pdfs/260720_NN_PM_Meilenstein_in_der_Adipositastherapie_Wegovy_Tablette_erhaelt_EU_Zulassung.pdf
 
 ## Thema: Semax (https://biohackingkompakt.de/thema/semax.html)
 7 Studien: 2 Sonstige Studie, 2 Tier- oder Laborstudie, 1 Klinische Studie, 1 Beobachtungsstudie, 1 Randomisierte Studie.
@@ -5185,13 +5242,25 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Welt-Anti-Doping-Agentur (WADA)): WADA Prohibited List – Klasse S0, nicht zugelassene Substanzen. https://www.wada-ama.org/en/prohibited-list
 
 ## Thema: Tirzepatide (Mounjaro / Zepbound) (https://biohackingkompakt.de/thema/tirzepatide.html)
-5 Studien: 3 Randomisierte Studie, 2 Meta-Analyse / Übersicht.
+9 Studien: 6 Randomisierte Studie, 3 Meta-Analyse / Übersicht.
 - Meta-Analyse / Übersicht, 2026: Comparative Effects of Antidiabetic Drugs on Body Composition: A Systematic Review and Network Meta-Analysis (Rakhsha SS et al., Diabetes Obes Metab). https://europepmc.org/article/MED/42304171
 - Meta-Analyse / Übersicht, 2026: Lean Mass Changes With Incretin Therapy Versus Lifestyle Intervention: A Systematic Review and Meta-Analysis of Randomised Controlled Trials (Eisa N et al., Diabetes Obes Metab). https://europepmc.org/article/MED/41877354
+- Meta-Analyse / Übersicht, 2026: Weight regain after cessation of medication for weight management: systematic review and meta-analysis (West S et al., BMJ). https://europepmc.org/article/MED/41500720
 - Randomisierte Studie, 2025: Cardiovascular Outcomes with Tirzepatide versus Dulaglutide in Type 2 Diabetes (Nicholls SJ et al., N Engl J Med). https://europepmc.org/article/MED/41406444
+- Randomisierte Studie, 2025: Tirzepatide as Compared with Semaglutide for the Treatment of Obesity (Aronne LJ et al., N Engl J Med). https://europepmc.org/article/MED/40353578
+- Randomisierte Studie, 2025: Tirzepatide for Heart Failure with Preserved Ejection Fraction and Obesity (Packer M et al., N Engl J Med). https://europepmc.org/article/MED/39555826
 - Randomisierte Studie, 2024: Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial (Aronne LJ et al., JAMA). https://europepmc.org/article/MED/38078870
+- Randomisierte Studie, 2024: Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity (Malhotra A et al., N Engl J Med). https://europepmc.org/article/MED/38912654
 - Randomisierte Studie, 2022: Tirzepatide Once Weekly for the Treatment of Obesity (Jastreboff AM et al., N Engl J Med). https://pubmed.ncbi.nlm.nih.gov/35658024/
 - Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA - Mounjaro, europäischer Bewertungsbericht. https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA - Mounjaro, Produktinformation (Abschnitt 5.1 mit den Schlafapnoe-Daten). https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA 26.06.2026 - Mounjaro, Bewertung zur Senkung schwerer Herz-Kreislauf-Ereignisse (EMA/140483/2026). https://www.ema.europa.eu/en/documents/medicine-qa/outcome-assessment-use-mounjaro-reduce-risk-serious-events-affecting-heart-blood-circulation_en.pdf
+- Behörde/Recht (Europäische Arzneimittel-Agentur (EMA)): EMA 30.01.2026 - Mounjaro, Bewertung zur Herzinsuffizienz mit erhaltener Ejektionsfraktion (EMA/18704/2026). https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-heart-failure-preserved-ejection-fraction-adults-obesity_en.pdf
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA 19.12.2024 - Declaratory Order: Ende des Tirzepatid-Engpasses und Fristen für das Nachmischen. https://www.fda.gov/media/184606/download
+- Behörde/Recht (US-Arzneimittelbehörde (FDA)): FDA 20.12.2024 - Zulassung von Zepbound bei obstruktiver Schlafapnoe mit Adipositas. https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea
+- Behörde/Recht (Weitere Quellen): ACC Journal Scan 10.07.2025 - Zusammenfassung SURMOUNT-5 mit Abbruchraten. https://www.acc.org/latest-in-cardiology/journal-scans/2025/07/10/09/09/surmount-5
+- Behörde/Recht (Weitere Quellen): LSG Niedersachsen-Bremen, 11.05.2026 - L 16 KR 161/26 B ER, keine Kassenleistung zur Gewichtsreduktion (LTO). https://www.lto.de/recht/nachrichten/n/lsg-niedersachsen-bremen-l16kr16126ber-abnehmespritze-lifestyle-kosten
+- Behörde/Recht (Weitere Quellen): Pharmacy Times 28.08.2026 - FDA-Zulassung von Mounjaro zur Senkung des Herz-Kreislauf-Risikos bei Typ-2-Diabetes. https://www.pharmacytimes.com/view/fda-approves-tirzepatide-to-cut-cv-risk-in-type-2-diabetes
 
 ## Thema: TMG (Trimethylglycin) (https://biohackingkompakt.de/thema/tmg.html)
 8 Studien: 6 Meta-Analyse / Übersicht, 1 Randomisierte Studie, 1 Sonstige Studie.
@@ -5605,11 +5674,21 @@ Stand: 12.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Behörde/Recht (Deutsche Gesellschaft für Ernährung (DGE)): Deutsche Gesellschaft für Ernährung: Referenzwerte Vitamin C. https://www.dge.de/wissenschaft/referenzwerte/vitamin-c/
 
 ## Thema: Vitamin D3 (https://biohackingkompakt.de/thema/vitamin-d3.html)
-4 Studien: 4 Randomisierte Studie.
+12 Studien: 9 Randomisierte Studie, 2 Meta-Analyse / Übersicht, 1 Leitlinie / Konsens.
+- Meta-Analyse / Übersicht, 2026: Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis (Massé O et al., BMJ). https://europepmc.org/article/MED/42161415
+- Meta-Analyse / Übersicht, 2024: A Systematic Review Supporting the Endocrine Society Clinical Practice Guidelines on Vitamin D (Shah VP et al., J Clin Endocrinol Metab). https://europepmc.org/article/MED/38828942
+- Randomisierte Studie, 2026: Impact of vitamin D supplementation on all-cause mortality: Randomized trials revisited (Wang Y et al., Clin Nutr). https://europepmc.org/article/MED/41719624
+- Randomisierte Studie, 2026: Vitamin D supplementation, cancer incidence and mortality: Randomized trials revisited (Wang Y et al., Eur J Cancer). https://europepmc.org/article/MED/43014140
 - Randomisierte Studie, 2025: The effect of vitamin D supplementation on cancer incidence in the randomised controlled D-Health Trial: Implications for policy and practice (Neale RE et al., J Steroid Biochem Mol Biol). https://europepmc.org/article/MED/40096917
+- Randomisierte Studie, 2025: Vitamin D3 and marine ω-3 fatty acids supplementation and leukocyte telomere length: 4-year findings from the VITamin D and OmegA-3 TriaL (VITAL) randomized controlled trial (Zhu H et al., Am J Clin Nutr). https://europepmc.org/article/MED/40409468
+- Randomisierte Studie, 2024: Vitamin D and Marine n-3 Fatty Acids for Autoimmune Disease Prevention: Outcomes Two Years After Completion of a Double-Blind, Placebo-Controlled Trial (Costenbader KH et al., Arthritis Rheumatol). https://europepmc.org/article/MED/38272846
 - Randomisierte Studie, 2022: Supplemental Vitamin D and Incident Fractures in Midlife and Older Adults (LeBoff MS et al., N Engl J Med). https://europepmc.org/article/MED/35939577
 - Randomisierte Studie, 2022: The D-Health Trial: a randomised controlled trial of the effect of vitamin D on mortality (Neale RE et al., Lancet Diabetes Endocrinol). https://europepmc.org/article/MED/35026158
+- Randomisierte Studie, 2022: Vitamin D and marine omega 3 fatty acid supplementation and incident autoimmune disease: VITAL randomized controlled trial (Hahn J et al., BMJ). https://pubmed.ncbi.nlm.nih.gov/35082139/
 - Randomisierte Studie, 2019: Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease (Manson JE et al., N Engl J Med). https://europepmc.org/article/MED/30415629
+- Leitlinie / Konsens, 2024: Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline (Demay MB et al., J Clin Endocrinol Metab). https://europepmc.org/article/MED/38828931
+- Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR 2020, Stellungnahme 035/2020 - Vitamin D: Einnahme hochdosierter Nahrungsergänzungsmittel unnötig. https://www.bfr.bund.de/cm/343/vitamin-d-einnahme-hochdosierter-nahrungsergaenzungsmittel-unnoetig.pdf
+- Behörde/Recht (Bundesinstitut für Risikobewertung (BfR)): BfR 2024, Stellungnahme 007/2024 - Höchstmengenvorschläge für Vitamin D in Lebensmitteln inklusive Nahrungsergänzungsmitteln (Aktualisierung 2023). https://www.bfr.bund.de/cm/343/aktualisierung-2023-hoechstmengenvorschlaege-fuer-vitamin-d-in-lebensmitteln-inklusive-nahrungsergaenzungsmitteln.pdf
 
 ## Thema: Vitamin E (https://biohackingkompakt.de/thema/vitamin-e.html)
 8 Studien: 6 Randomisierte Studie, 2 Meta-Analyse / Übersicht.

@@ -35,7 +35,7 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['immun', 'knochen', 'stimmung', 'hormone', 'schlaf', 'energie'],
     short: 'Bei echtem Mangel sinnvoll, für Menschen mit gutem Spiegel bringen große Studien kaum Zusatznutzen.',
-    description: 'Vitamin D3 (Cholecalciferol) bildet die Haut im Sonnenlicht; im Körper wird daraus ein hormonähnlich wirkender Botenstoff. Laut RKI-Daten (2008–2011) lag knapp ein Drittel der Erwachsenen in Deutschland unter 30 nmol/l, vor allem im Winter. Große randomisierte Studien (VITAL, D-Health, DO-HEALTH) zeigen bei Menschen ohne Mangel keinen klaren Nutzen für Brüche, Herz oder Sterblichkeit; Metaanalysen deuten auf etwas weniger Krebstodesfälle. Die Endocrine Society rät 2024 von Routinetests bei Gesunden ab.',
+    description: 'Vitamin D3 (Cholecalciferol) bildet die Haut im Sonnenlicht; im Körper wird daraus ein hormonähnlich wirkender Botenstoff. Laut RKI-Daten (2008–2011) lag knapp ein Drittel der Erwachsenen in Deutschland unter 30 nmol/l, vor allem im Winter. Große randomisierte Studien (VITAL, D-Health, DO-HEALTH) zeigen bei Menschen ohne Mangel keinen klaren Nutzen für Brüche, Herz oder Sterblichkeit; Metaanalysen deuten auf etwas weniger Krebstodesfälle. Die Endocrine Society rät 2024 von Routinetests in allen betrachteten Gruppen ab und bei Gesunden unter 75 Jahren von einer Ergänzung über die übliche Zufuhrempfehlung hinaus.',
     benefits: [
       'Behebt einen nachgewiesenen Mangel (Rachitis, Osteomalazie)',
       'EU-Angabe: trägt zur Erhaltung normaler Knochen und einer normalen Funktion des Immunsystems bei',
@@ -59,7 +59,7 @@ const SUPPLEMENTS = [
         audio: 'audio/vitamin-d-k2-podcast.mp3',
         spotify: '21fForD7zoAfCgsKKTFHlO',
         lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 61) \u00b7 mit Paul & Paula. Das Sonnenhormon im Faktencheck: VITAL-Studie ehrlich gelesen (u. a. \u221222 % Autoimmunerkrankungen), Badewannen-Logik, Risikogruppen, Messlogik 25-OH-D 40\u201360 ng/ml \u2013 und warum K2 und Magnesium dazugeh\u00f6ren. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 31.08.2026, 10:00)'
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 61) \u00b7 mit Paul & Paula. Das Sonnenhormon im Faktencheck: VITAL-Studie ehrlich gelesen (u. a. \u221222 % Autoimmunerkrankungen; in der Nachbeobachtung rund \u221215 %, nicht mehr sicher), Badewannen-Logik, Risikogruppen, Messlogik 25-OH-D 40\u201360 ng/ml \u2013 und was f\u00fcr K2 und Magnesium als Partner spricht (ein Zusatznutzen ist nicht durch Studien belegt). Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 31.08.2026, 10:00)'
       }
     ]
   },
@@ -187,23 +187,23 @@ const SUPPLEMENTS = [
     altNames: 'Glycinat / Citrat / Malat / Threonat',
     category: 'Mineral',
     tags: ['schlaf', 'muskel', 'nerven', 'stress', 'energie', 'herz'],
-    short: 'An über 300 Enzymreaktionen beteiligt. 80 % der Deutschen haben zu wenig.',
-    description: 'Form ist entscheidend: Glycinat = Schlaf/Beruhigung, Citrat = Verdauung, Malat = Energie, Threonat = Gehirn (überquert Blut-Hirn-Schranke). Oxid schlecht verfügbar.',
+    short: 'An über 300 Enzymreaktionen beteiligt. Gut ein Viertel der Erwachsenen in Deutschland liegt unter der empfohlenen Zufuhr.',
+    description: 'Für die Wirkung zählt die aufgenommene Menge an elementarem Magnesium, nicht die Salzform. Oxid enthält rund 60 % Magnesium, wird aber schlecht aufgenommen; Citrat schnitt in Aufnahmestudien besser ab. Eine Zuordnung wie „Glycinat für Schlaf, Malat für Energie“ ist nicht durch Vergleichsstudien belegt; dass Threonat beim Menschen mehr Magnesium ins Gehirn bringt, ist nur an Ratten gemessen.',
     benefits: [
-      'Verbessert Schlafqualität und Tiefschlaf',
+      'Kleiner Effekt auf selbstberichteten Schlaf (eine doppelblinde RCT, d = 0,2)',
       'Reduziert Stress und entspannt Muskulatur',
-      'Normalisiert Blutdruck und Herzrhythmus',
-      'Verringert Muskelkrämpfe und Zuckungen',
+      'Kann den Blutdruck leicht senken, vor allem bei Bluthochdruck (Metaanalyse, 38 RCTs)',
       'Aktiviert Vitamin D3',
       'Wichtig für ATP-Produktion (Energie)'
     ],
     risks: [
       'Überdosierung: Durchfall, besonders mit Citrat/Oxid',
       'Bei schwerer Niereninsuffizienz Vorsicht',
-      'Von billigen Oxid-Präparaten absehen'
+      'Oxid wird schlecht aufgenommen (in einer Studie rund 4 %)',
+      'Kann die Wirkung einiger Antibiotika abschwächen; bei Herz- oder Nierenerkrankungen vorab ärztlich abklären'
     ],
-    dosage: '300–600 mg elementares Magnesium täglich. Biohacker oft 400 mg Glycinat abends.',
-    intake: 'Glycinat/Threonat: abends zur Entspannung. Citrat/Malat: morgens. Mit oder ohne Nahrung.',
+    dosage: 'Das BfR schlägt für Nahrungsergänzungsmittel höchstens 250 mg pro Tagesdosis vor; das entspricht der tolerierbaren Obergrenze für zusätzliches Magnesium (SCF 2001, von der EFSA 2024 unverändert geführt), nicht für Magnesium aus Lebensmitteln. In der Schlafstudie Schuster 2025 wurden 250 mg elementares Magnesium als Bisglycinat über vier Wochen eingesetzt, das sind Studienangaben. Keine Anwendungsempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Die Zuordnung von Salzformen zu Tageszeiten ist nicht durch Studien belegt.',
     synergies: ['vitamin-d3', 'kalium', 'zink'],
     avoid: [],
     evidence: 'hoch',
@@ -214,7 +214,7 @@ const SUPPLEMENTS = [
         audio: 'audio/magnesium-l-threonat-podcast.mp3',
         spotify: '2CGRCRXb0Lcy3wS05DczPv',
         lengthLabel: '\u2248 12 Min \u00b7 KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul H\u00f6ser (Folge 47) \u00b7 mit Paul & Paula. Die MIT-Entdeckung, die als einzige Magnesium-Form nachweislich ins Gehirn kommt: Slutsky (Neuron 2010), Liu (J Alzheimers Dis 2016: kognitives Alter ~9 Jahre j\u00fcnger), Schlafstudie 2024 (mehr Tief- und REM-Schlaf). Plus Zwei-Gleise-Strategie mit Basis-Magnesium und Kauf-Checkliste. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 18.08.2026, 10:00)'
+        note: 'Der Podcast von Paul H\u00f6ser (Folge 47) \u00b7 mit Paul & Paula. Die MIT-Entdeckung, die bei Ratten das Magnesium im Gehirn hob: Slutsky (Neuron 2010), Liu (J Alzheimers Dis 2016: rechnerisch ~9 Jahre j\u00fcngeres \u201eGehirnalter\u201c, nachtr\u00e4gliche Auswertung eines Einzeltests), Schlafstudie 2024 (mehr Tief- und REM-Schlaf). Plus Zwei-Gleise-Strategie mit Basis-Magnesium und Kauf-Checkliste. Reine Information, keine Dosier- oder Anwendungsempfehlung. (Ver\u00f6ffentlichung: 18.08.2026, 10:00)'
       }
     ]
   },
@@ -341,7 +341,7 @@ const SUPPLEMENTS = [
     benefits: [
       'Senkt Entzündungen im Körper',
       'Unterstützt Gehirnfunktion und Stimmung',
-      'Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH)',
+      'Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH). Positiv: REDUCE-IT mit hoch gereinigtem EPA (Mineralöl-Placebo umstritten) und PISCES bei Dialysepatienten (−43 % schwere Herz-Kreislauf-Ereignisse, PMID 41201837)',
       'Verbessert Hautbild (Ekzem, Akne)',
       'Unterstützt Augengesundheit',
       'Wichtig in Schwangerschaft für Gehirnentwicklung'
@@ -349,7 +349,7 @@ const SUPPLEMENTS = [
     risks: [
       'Niedrig-qualitative Öle oxidieren (ranzig)',
       'Bei hohen Dosen, unter Gerinnungshemmern und vor Operationen ärztlich Rücksprache halten',
-      'Vorhofflimmern: erhöhtes Risiko bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich (Meta-Analyse 2026, 35 RCTs, PMID 42517224)'
+      'Vorhofflimmern: dosisabhängig erhöhtes Risiko. Abuknesha 2026 (35 RCTs, vom Herstellerverband GOED beauftragt, PMID 42517224) sah es nur bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich, Gencer 2021 (PMID 34612056) auch bei 1 g täglich oder weniger (HR 1,12). Rote-Hand-Brief und BfR-Hinweis vom 16.11.2023: bei Herzerkrankungen oder Risikofaktoren ärztlich absprechen'
     ],
     dosage: 'Ernährungsempfehlungen liegen deutlich unter 1–3 g: Die EFSA nennt für Erwachsene 250 mg EPA+DHA täglich als angemessene Zufuhr. Grammdosen wurden in klinischen Fragestellungen geprüft, etwa bei erhöhten Triglyceriden und in Herz-Kreislauf-Studien (VITAL und ASCEND 1 g, STRENGTH 4 g). Das sind Studienangaben, keine Verzehrempfehlung.',
     intake: 'Zu fetthaltiger Mahlzeit. Tiefgefrorene Kapseln reduzieren Aufstoßen. Mit Vitamin E zum Schutz.',
@@ -363,7 +363,7 @@ const SUPPLEMENTS = [
         audio: 'audio/omega-3-podcast.mp3',
         spotify: '06vNPC2aJxWzRg38tIHdSj',
         lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 42) · mit Paul & Paula. Der ganze Wissenschafts-Krimi: von den Inuit-Beobachtungen über die Null-Studien-Jahre bis zum Comeback mit REDUCE-IT (Bhatt, NEJM 2019) und VITAL (Manson, NEJM 2019) – und der ersten randomisierten Anti-Aging-Evidenz überhaupt: 1 g Omega-3 täglich verlangsamte in der DO-HEALTH-Studie (Bischoff-Ferrari, Nature Aging 2025) die epigenetischen Uhren. Dazu Omega-3-Index (Ziel 8–11 %), EPA vs. DHA, Qualität (TOTOX, Algenöl) und die Vorhofflimmern-Debatte ehrlich eingeordnet. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
+        note: 'Der Podcast von Paul Höser (Folge 42) · mit Paul & Paula. Der ganze Wissenschafts-Krimi: von den Inuit-Beobachtungen über die Null-Studien-Jahre bis zum Comeback mit REDUCE-IT (Bhatt, NEJM 2019) und VITAL (Manson, NEJM 2019) – und der ersten randomisierten Anti-Aging-Evidenz überhaupt: 1 g Omega-3 täglich verlangsamte in der DO-HEALTH-Studie (Bischoff-Ferrari, Nature Aging 2025) in einer nachträglichen Messung bei 777 Teilnehmenden die epigenetischen Uhren. Dazu Omega-3-Index (Ziel 8–11 %), EPA vs. DHA, Qualität (TOTOX, Algenöl) und die Vorhofflimmern-Debatte ehrlich eingeordnet. Nur Information – keine medizinische Beratung, keine Dosier- oder Anwendungsempfehlung.'
       }
     ]
   },
@@ -408,20 +408,21 @@ const SUPPLEMENTS = [
     short: 'Eines der bestuntersuchten Supplements. Mehr Kraft, Muskel und mittlerweile auch Gehirn-Boost.',
     description: 'Kreatin ist nicht nur für Sportler – neue Studien zeigen Nutzen für Gehirn, Stimmung und gesundes Altern. Creapure (deutsch) ist Goldstandard.',
     benefits: [
-      'Steigert Kraft und Muskelmasse um 5–15 %',
+      'Steigert die Muskelkraft (Metaanalysen); Muskelmasse nur teils signifikant',
       'Verbessert Hochintensitäts-Leistung',
       'Verbessert Gedächtnis und Kognition',
       'Kann bei Depression helfen',
-      'Schützt Gehirn bei Schlafmangel',
+      'Erste Studien: milderer Leistungsabfall bei Schlafentzug (bisher fünf Studien)',
       'Unterstützt gesundes Altern'
     ],
     risks: [
       'Wassereinlagerung (Muskel, nicht subkutan)',
-      'Sehr sicher – 30+ Jahre Forschung',
-      'Bei Nierenerkrankung Arzt fragen'
+      'Gut untersucht – Metaanalysen 2026 ohne Hinweis auf Nierenschaden bei Gesunden; Serum-Kreatinin kann leicht steigen',
+      'Bei Nierenerkrankung Arzt fragen',
+      'Kreatin-Gummis in Labortests teils mit kaum oder keinem Kreatin'
     ],
-    dosage: '3–5 g täglich. Ladephase (20 g/Tag für 5 Tage) optional.',
-    intake: 'Jederzeit, aber täglich. In Wasser oder Shake. Zeitpunkt egal – wichtig ist Regelmäßigkeit.',
+    dosage: 'In Studien meist 3 bis 5 g täglich, teils nach einer Ladephase mit 20 g täglich über fünf Tage. Die EFSA erkennt einen Zusammenhang mit der Muskelkraft ab 3 g täglich an, in Verbindung mit Krafttraining und nur für Erwachsene über 55 Jahre. Das sind Studien- und Behördenangaben. Keine Anwendungsempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. In den Studien täglich eingenommen; bei Einnahme nur an Trainingstagen sah die EFSA keinen Effekt.',
     synergies: ['beta-alanin', 'whey'],
     avoid: [],
     evidence: 'hoch',
@@ -659,23 +660,25 @@ const SUPPLEMENTS = [
     category: 'Adaptogen',
     tags: ['stress', 'schlaf', 'hormone', 'testosteron', 'cortisol'],
     short: 'Das bekannteste Adaptogen. Kleine RCTs zeigen niedrigere Cortisolwerte und weniger Stresserleben – meist über acht Wochen und mit herstellernahen Extrakten.',
-    description: 'Aus dem Ayurveda. KSM-66 und Sensoril sind die in Studien eingesetzten Extrakte – die meisten dieser Studien sind klein und wurden von den Herstellern finanziert. Untersucht wurden Zeiträume von vier bis acht Wochen; zur Daueranwendung gibt es keine Daten.',
+    description: 'Aus dem Ayurveda. KSM-66 und Sensoril sind die in Studien eingesetzten Extrakte – die meisten dieser Studien sind klein und wurden von den Herstellern finanziert. Die Wirksamkeitsstudien laufen vier bis acht Wochen. Zur längeren Einnahme gibt es seit 2026 erste Sicherheitsdaten: eine randomisierte Studie mit 1.200 Gesunden über 24 Wochen (Verträglichkeit wie Placebo) und eine Beobachtungsstudie ohne Kontrollgruppe mit 191 Personen über zwölf Monate.',
     benefits: [
       'Senkte Cortisol in einer kleinen, herstellernahen Studie um knapp 30 % – Einzelbefund, nicht unabhängig bestätigt',
       'Verbessert Schlafqualität',
       'Erhöht Testosteron bei Männern',
       'Steigert Muskelkraft und VO2max',
-      'Reduziert Angst',
-      'Unterstützt Schilddrüse (v. a. Unterfunktion)'
+      'Reduziert Angst'
     ],
     risks: [
+      'Seltene Leberschäden bis zum akuten Leberversagen (BfR-Warnung 039/2024; Übersicht 2026: 25 veröffentlichte Fälle, meist nach einigen Wochen, eine Transplantation, drei Todesfälle bei vorbestehender Zirrhose)',
       'Bei Hyperthyreose meiden',
       'Bei Autoimmunerkrankungen Vorsicht',
       'Nicht in Schwangerschaft',
-      'Selten: leichte Magenbeschwerden'
+      'Selten: leichte Magenbeschwerden',
+      'Kann bei Schilddrüsenunterfunktion die Schilddrüsenhormone anheben (Übersicht Vollmer und Brendler 2026); Fallbericht einer schmerzlosen Schilddrüsenentzündung mit Überfunktion – bei Schilddrüsenerkrankungen ärztlich abklären',
+      'Rechtsstand November 2026: in Dänemark seit 2023 in Nahrungsergänzungsmitteln verboten, Niederlande planen Verbot des Blatts und Warnhinweis für die Wurzel; kein EU-weites Verbot'
     ],
-    dosage: '300–600 mg KSM-66 täglich.',
-    intake: 'Abends mit Mahlzeit für Schlafförderung, sonst morgens.',
+    dosage: 'In Studien eingesetzt: meist 300 bis 600 mg eines standardisierten Wurzelextrakts (etwa KSM-66) täglich, in der größten Sicherheitsstudie 600 mg über acht Wochen. Das BfR leitet aus der Datenlage keinen sicheren Richtwert ab; es gibt keine Menge, für die Unbedenklichkeit festgestellt wäre. Keine Anwendungsempfehlung.',
+    intake: 'Keine Einnahmeempfehlung. Die Wirksamkeitsstudien gaben den Extrakt täglich über vier bis acht Wochen, die längste randomisierte Sicherheitsstudie über 24 Wochen.',
     synergies: ['magnesium', 'rhodiola'],
     avoid: [],
     evidence: 'hoch',
@@ -1163,9 +1166,10 @@ const SUPPLEMENTS = [
       'Morgendliche Benommenheit bei Überdosis',
       'Kann Träume verstärken',
       'Bei hormonellen Erkrankungen Arzt fragen',
-      'Nicht ideal für Kinder/Teenager'
+      'Nicht ideal für Kinder/Teenager',
+      'Langzeitgebrauch: Kongressbefund 2025 zu häufigerer Herzinsuffizienz (Beobachtung, nicht begutachtet; Gegenprobe NHANES ohne Zusammenhang)'
     ],
-    dosage: 'Keine Empfehlung. In Studien eingesetzt: 0,5 bis 5 mg nahe der Ziel-Schlafenszeit bei Jetlag; oberhalb von 5 mg kein Zusatznutzen. Als Arzneimittel ist eine retardierte 2-mg-Form verschreibungspflichtig zugelassen.',
+    dosage: 'In Studien eingesetzt: 0,5 bis 5 mg nahe der Ziel-Schlafenszeit bei Jetlag; oberhalb von 5 mg kein Zusatznutzen. Als Arzneimittel ist Melatonin grundsätzlich verschreibungspflichtig (etwa die retardierte 2-mg-Form ab 55 Jahren); seit 23.05.2026 ist es gegen Jetlag bei Erwachsenen in begrenzter Stärke und Packungsgröße rezeptfrei (24. Änderung der AMVV). Als Nahrungsergänzungsmittel gilt keine gesetzliche Höchstmenge; 1 mg ist nur die Mindestmenge für die zugelassene Angabe zur Einschlafzeit. Keine Anwendungsempfehlung.',
     intake: 'Abends bei gedämpftem Licht. Nicht bei heller Beleuchtung.',
     synergies: ['magnesium', 'glycin'],
     avoid: [],

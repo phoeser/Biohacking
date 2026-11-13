@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-11-12",
+ "stand": "2026-11-13",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -250,7 +250,7 @@
    "anwendung": 10,
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit soliden Studien zu Blutdruck und Schlafqualität, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus."
+   "beleg": "Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit einer Metaanalyse aus 38 RCTs zum Blutdruck (Argeros 2025, deutlicher bei Bluthochdruck) und einer kleinen doppelblinden Schlafstudie, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus."
   },
   {
    "id": "vitamin-k2",
@@ -1455,7 +1455,7 @@
    "anwendung": 6,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Das gesamte Alleinstellungsmerkmal beruht auf einem unbestätigten Schritt: Dass diese Magnesiumform Magnesium ins Gehirn bringt, stammt aus dem Nervenwasser von Ratten – dort rund 7 % über Ausgangswert und rund 16 % über Kontrolle an Tag 24 – und wurde am lebenden Menschen in keiner der vorliegenden Studien gemessen. Drei randomisierte Studien mit 51, 80 und 100 Teilnehmern über 3 bis 12 Wochen berichten bessere kognitive Kompositscores und teils besseren Schlaf; alle drei sind von Herstellern oder Rohstofflieferanten finanziert, zwei wurden erst nach Abschluss der Datenerhebung registriert. Die vielzitierten 7,5 Jahre kognitives Alter sind in der Originalarbeit ausdrücklich als exploratorische Auswertung gekennzeichnet, und die beiden Schlafstudien widersprechen sich in den objektiven Messwerten desselben Schlafrings. Die Achse evidenz steigt von 4 auf 5, weil es drei und nicht zwei RCTs sind; anwendung steigt von 5 auf 6, weil der Stoff seit dem 7. November 2024 in der EU als neuartiges Lebensmittel zugelassen ist und seit dem 5. November 2025 in Anhang II der Richtlinie 2002/46/EG steht."
+   "beleg": "Das gesamte Alleinstellungsmerkmal beruht auf einem unbestätigten Schritt: Dass diese Magnesiumform Magnesium ins Gehirn bringt, stammt aus dem Nervenwasser von Ratten – dort rund 7 % über Ausgangswert und rund 16 % über Kontrolle an Tag 24 – und wurde am lebenden Menschen in keiner der vorliegenden Studien gemessen. Drei randomisierte Studien mit 51, 80 und 100 Teilnehmern über 3 bis 12 Wochen berichten bessere kognitive Kompositscores und teils besseren Schlaf; alle drei sind von Herstellern oder Rohstofflieferanten finanziert, zwei wurden erst nach Abschluss der Datenerhebung registriert. Die vielzitierten Angaben zum kognitiven Alter sind Umrechnungen: 7,5 Jahre bei Lopresti und Smith 2025, in der Originalarbeit ausdrücklich als exploratorisch gekennzeichnet, rund 9 Jahre bei Liu 2016 aus einer nachträglichen Auswertung eines Einzeltests, und die beiden Schlafstudien widersprechen sich in den objektiven Messwerten desselben Schlafrings. Die Achse evidenz steigt von 4 auf 5, weil es drei und nicht zwei RCTs sind; anwendung steigt von 5 auf 6, weil der Stoff seit dem 7. November 2024 in der EU als neuartiges Lebensmittel zugelassen ist und seit dem 5. November 2025 in Anhang II der Richtlinie 2002/46/EG steht."
   },
   {
    "id": "rote-bete-nitrat",

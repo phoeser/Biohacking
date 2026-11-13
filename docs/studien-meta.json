@@ -14596,6 +14596,36 @@
 "Journal Article"
 ]
 },
+"pmid:11794633": {
+"autoren": "Firoz M, Graber M.",
+"doi": "",
+"iso": "Magnes Res",
+"jahr": "2001",
+"journal": "Magnesium research",
+"korr": [],
+"mesh": [
+"Humans",
+"Magnesium Chloride",
+"Magnesium Compounds",
+"Magnesium Oxide",
+"Aspartic Acid",
+"Biological Availability",
+"Dietary Supplements",
+"Adult",
+"Middle Aged",
+"United States",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "11794633",
+"quelle": "MED",
+"titel": "Bioavailability of US commercial magnesium preparations.",
+"typen": [
+"Comparative Study",
+"Journal Article"
+]
+},
 "pmid:11830761": {
 "autoren": "Lapin I.",
 "doi": "10.1111/j.1527-3458.2001.tb00211.x",
@@ -17709,6 +17739,38 @@
 "Comparative Study",
 "Clinical Trial",
 "Research Support, U.S. Gov't, P.H.S.",
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:14596323": {
+"autoren": "Walker AF, Marakis G, Christie S, Byng M.",
+"doi": "",
+"iso": "Magnes Res",
+"jahr": "2003",
+"journal": "Magnesium research",
+"korr": [],
+"mesh": [
+"Liver",
+"Saliva",
+"Humans",
+"Magnesium",
+"Magnesium Oxide",
+"Citric Acid",
+"Organometallic Compounds",
+"Chelating Agents",
+"Double-Blind Method",
+"Biological Availability",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "14596323",
+"quelle": "MED",
+"titel": "Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study.",
+"typen": [
+"Clinical Trial",
 "Research Support, Non-U.S. Gov't",
 "Randomized Controlled Trial",
 "Journal Article"
@@ -41702,6 +41764,40 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:2407766": {
+"autoren": "Lindberg JS, Zobitz MM, Poindexter JR, Pak CY.",
+"doi": "10.1080/07315724.1990.10720349",
+"iso": "J Am Coll Nutr",
+"jahr": "1990",
+"journal": "Journal of the American College of Nutrition",
+"korr": [],
+"mesh": [
+"Gastric Juice",
+"Humans",
+"Magnesium Oxide",
+"Citrates",
+"Citric Acid",
+"Clinical Protocols",
+"Biological Availability",
+"Intestinal Absorption",
+"Adult",
+"Female",
+"Male",
+"Clinical Trials as Topic",
+"Evaluation Studies as Topic",
+"In Vitro Techniques"
+],
+"pmcid": "",
+"pmid": "2407766",
+"quelle": "MED",
+"titel": "Magnesium bioavailability from magnesium citrate and magnesium oxide.",
+"typen": [
+"Controlled Clinical Trial",
+"Clinical Trial",
+"Research Support, U.S. Gov't, P.H.S.",
+"Journal Article"
+]
+},
 "pmid:24086396": {
 "autoren": "Yang G, Wang Y, Tian J, Liu JP.",
 "doi": "10.1371/journal.pone.0074916",
@@ -44905,6 +45001,37 @@
 "titel": "Pterostilbene on metabolic parameters: a randomized, double-blind, and placebo-controlled trial.",
 "typen": [
 "research-article",
+"Journal Article"
+]
+},
+"pmid:25064579": {
+"autoren": "Fodor JG, Helis E, Yazdekhasti N, Vohnout B.",
+"doi": "10.1016/j.cjca.2014.04.007",
+"iso": "Can J Cardiol",
+"jahr": "2014",
+"journal": "The Canadian journal of cardiology",
+"korr": [],
+"mesh": [
+"Animals",
+"Humans",
+"Myocardial Infarction",
+"Fatty Acids, Omega-3",
+"Fish Oils",
+"Diet",
+"Prevalence",
+"Seafood",
+"Canada",
+"Greenland",
+"Alaska",
+"Coronary Artery Disease",
+"Inuit"
+],
+"pmcid": "",
+"pmid": "25064579",
+"quelle": "MED",
+"titel": "\"Fishing\" for the origins of the \"Eskimos and heart disease\" story: facts or wishful thinking?",
+"typen": [
+"Review",
 "Journal Article"
 ]
 },
@@ -60501,6 +60628,46 @@
 "Journal Article"
 ]
 },
+"pmid:30415628": {
+"autoren": "Bhatt DL, Steg PG, Miller M, Brinton EA, Jacobson TA, Ketchum SB, Doyle RT, Juliano RA, Jiao L, Granowitz C, Tardif JC, Ballantyne CM, REDUCE-IT Investigators.",
+"doi": "10.1056/nejmoa1812792",
+"iso": "N Engl J Med",
+"jahr": "2019",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Hypertriglyceridemia",
+"Eicosapentaenoic Acid",
+"Triglycerides",
+"Platelet Aggregation Inhibitors",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Drug Therapy, Combination",
+"Drug Administration Schedule",
+"Incidence",
+"Risk Factors",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Secondary Prevention",
+"Kaplan-Meier Estimate"
+],
+"pmcid": "",
+"pmid": "30415628",
+"quelle": "MED",
+"titel": "Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia.",
+"typen": [
+"Clinical Trial, Phase III",
+"Research Support, Non-U.S. Gov't",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:30415629": {
 "autoren": "Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S, Gibson H, Gordon D, Copeland T, D'Agostino D, Friedenberg G, Ridge C, Bubes V, Giovannucci EL, Willett WC, Buring JE, VITAL Research Group.",
 "doi": "10.1056/nejmoa1809944",
@@ -60599,6 +60766,48 @@
 "research-article",
 "Journal Article",
 "Research Support, N.I.H., Extramural"
+]
+},
+"pmid:30429357": {
+"autoren": "Buckley ST, Bækdal TA, Vegge A, Maarbjerg SJ, Pyke C, Ahnfelt-Rønne J, Madsen KG, Schéele SG, Alanentalo T, Kirk RK, Pedersen BL, Skyggebjerg RB, Benie AJ, Strauss HM, Wahlund PO, Bjerregaard S, Farkas E, Fekete C, Søndergaard FL, Borregaard J, Hartoft-Nielsen ML, Knudsen LB.",
+"doi": "10.1126/scitranslmed.aar7047",
+"iso": "Sci Transl Med",
+"jahr": "2018",
+"journal": "Science translational medicine",
+"korr": [],
+"mesh": [
+"Stomach",
+"Gastric Mucosa",
+"Cell Membrane",
+"Epithelial Cells",
+"Animals",
+"Dogs",
+"Humans",
+"Rats",
+"Administration, Oral",
+"Intestinal Absorption",
+"Hydrogen-Ion Concentration",
+"Time Factors",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Male",
+"Glucagon-Like Peptide 1",
+"Glucagon-Like Peptides",
+"Young Adult",
+"Glucagon-Like Peptide-1 Receptor",
+"Glucagon-Like Peptide-1 Receptor Agonists",
+"Semaglutide"
+],
+"pmcid": "",
+"pmid": "30429357",
+"quelle": "MED",
+"titel": "Transcellular stomach absorption of a derivatized glucagon-like peptide-1 receptor agonist.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
+"Journal Article"
 ]
 },
 "pmid:30443217": {
@@ -70197,6 +70406,46 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:33170239": {
+"autoren": "Bischoff-Ferrari HA, Vellas B, Rizzoli R, Kressig RW, da Silva JAP, Blauth M, Felson DT, McCloskey EV, Watzl B, Hofbauer LC, Felsenberg D, Willett WC, Dawson-Hughes B, Manson JE, Siebert U, Theiler R, Staehelin HB, de Godoi Rezende Costa Molino C, Chocano-Bedoya PO, Abderhalden LA, Egli A, Kanis JA, Orav EJ, DO-HEALTH Research Group.",
+"doi": "10.1001/jama.2020.16909",
+"iso": "JAMA",
+"jahr": "2020",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypertension",
+"Cholecalciferol",
+"Fatty Acids, Omega-3",
+"Vitamins",
+"Treatment Outcome",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Cognition Disorders",
+"Health Status",
+"Immunity",
+"Physical Fitness",
+"Dietary Supplements",
+"Aged",
+"Aged, 80 and over",
+"Female",
+"Male",
+"Fractures, Bone",
+"Resistance Training"
+],
+"pmcid": "PMC7656284",
+"pmid": "33170239",
+"quelle": "MED",
+"titel": "Effect of Vitamin D Supplementation, Omega-3 Fatty Acid Supplementation, or a Strength-Training Exercise Program on Clinical Outcomes in Older Adults: The DO-HEALTH Randomized Clinical Trial.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"research-article",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:33190147": {
 "autoren": "Nicholls SJ, Lincoff AM, Garcia M, Bash D, Ballantyne CM, Barter PJ, Davidson MH, Kastelein JJP, Koenig W, McGuire DK, Mozaffarian D, Ridker PM, Ray KK, Katona BG, Himmelmann A, Loss LE, Rensfeldt M, Lundström T, Agrawal R, Menon V, Wolski K, Nissen SE.",
 "doi": "10.1001/jama.2020.22258",
@@ -73887,6 +74136,39 @@
 "Journal Article"
 ]
 },
+"pmid:34612056": {
+"autoren": "Gencer B, Djousse L, Al-Ramady OT, Cook NR, Manson JE, Albert CM.",
+"doi": "10.1161/circulationaha.121.055654",
+"iso": "Circulation",
+"jahr": "2021",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Animals",
+"Fishes",
+"Humans",
+"Cardiovascular Diseases",
+"Atrial Fibrillation",
+"Fatty Acids, Omega-3",
+"Treatment Outcome",
+"Risk Factors",
+"Dietary Supplements",
+"Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC9109217",
+"pmid": "34612056",
+"quelle": "MED",
+"titel": "Effect of Long-Term Marine ɷ-3 Fatty Acids Supplementation on the Risk of Atrial Fibrillation in Randomized Controlled Trials of Cardiovascular Outcomes: A Systematic Review and Meta-Analysis.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:34620326": {
 "autoren": "Ali AS, Hasan SS, Kow CS, Merchant HA.",
 "doi": "10.1016/j.clnesp.2021.08.019",
@@ -76624,6 +76906,33 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:35653284": {
+"autoren": "Lelak K, Vohra V, Neuman MI, Toce MS, Sethuraman U.",
+"doi": "10.15585/mmwr.mm7122a1",
+"iso": "MMWR Morb Mortal Wkly Rep",
+"jahr": "2022",
+"journal": "MMWR. Morbidity and mortality weekly report",
+"korr": [],
+"mesh": [
+"Humans",
+"Melatonin",
+"Retrospective Studies",
+"Eating",
+"United States Food and Drug Administration",
+"Adolescent",
+"Child",
+"Poison Control Centers",
+"United States"
+],
+"pmcid": "PMC9169525",
+"pmid": "35653284",
+"quelle": "MED",
+"titel": "Pediatric Melatonin Ingestions - United States, 2012-2021.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:35658024": {
 "autoren": "Jastreboff AM, Aronne LJ, Ahmad NN, Wharton S, Connery L, Alves B, Kiyosue A, Zhang S, Liu B, Bunck MC, Stefanski A, SURMOUNT-1 Investigators.",
 "doi": "10.1056/nejmoa2206038",
@@ -76835,6 +77144,41 @@
 "typen": [
 "research-article",
 "Systematic Review",
+"Journal Article"
+]
+},
+"pmid:35762321": {
+"autoren": "Ridker PM, Rifai N, MacFadyen J, Glynn RJ, Jiao L, Steg PG, Miller M, Brinton EA, Jacobson TA, Tardif JC, Ballantyne CM, Mason RP, Bhatt DL.",
+"doi": "10.1161/circulationaha.122.059410",
+"iso": "Circulation",
+"jahr": "2022",
+"journal": "Circulation",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypertriglyceridemia",
+"Mineral Oil",
+"Cholesterol",
+"1-Alkyl-2-acetylglycerophosphocholine Esterase",
+"Eicosapentaenoic Acid",
+"Lipoprotein(a)",
+"Homocysteine",
+"C-Reactive Protein",
+"Interleukin-6",
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+"Double-Blind Method",
+"Atherosclerosis",
+"Cholesterol, LDL",
+"Interleukin-1beta",
+"Biomarkers"
+],
+"pmcid": "",
+"pmid": "35762321",
+"quelle": "MED",
+"titel": "Effects of Randomized Treatment With Icosapent Ethyl and a Mineral Oil Comparator on Interleukin-1β, Interleukin-6, C-Reactive Protein, Oxidized Low-Density Lipoprotein Cholesterol, Homocysteine, Lipoprotein(a), and Lipoprotein-Associated Phospholipase A2: A REDUCE-IT Biomarker Substudy.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Randomized Controlled Trial",
 "Journal Article"
 ]
 },
@@ -80459,6 +80803,30 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:37097362": {
+"autoren": "Cohen PA, Avula B, Wang YH, Katragunta K, Khan I.",
+"doi": "10.1001/jama.2023.2296",
+"iso": "JAMA",
+"jahr": "2023",
+"journal": "JAMA",
+"korr": [],
+"mesh": [
+"Cannabis",
+"Cannabidiol",
+"Melatonin",
+"Dosage Forms",
+"Administration, Oral",
+"United States"
+],
+"pmcid": "PMC10130950",
+"pmid": "37097362",
+"quelle": "MED",
+"titel": "Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:3709807": {
 "autoren": "Carlsson-Skwirut C, Jörnvall H, Holmgren A, Andersson C, Bergman T, Lundquist G, Sjögren B, Sara VR.",
 "doi": "10.1016/0014-5793(86)80568-3",
@@ -84076,6 +84444,39 @@
 "Journal Article"
 ]
 },
+"pmid:38272846": {
+"autoren": "Costenbader KH, Cook NR, Lee IM, Hahn J, Walter J, Bubes V, Kotler G, Yang N, Friedman S, Alexander EK, Manson JE.",
+"doi": "10.1002/art.42811",
+"iso": "Arthritis Rheumatol",
+"jahr": "2024",
+"journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Autoimmune Diseases",
+"Fatty Acids, Omega-3",
+"Vitamin D",
+"Treatment Outcome",
+"Incidence",
+"Proportional Hazards Models",
+"Double-Blind Method",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Female",
+"Male"
+],
+"pmcid": "PMC11565399",
+"pmid": "38272846",
+"quelle": "MED",
+"titel": "Vitamin D and Marine n-3 Fatty Acids for Autoimmune Disease Prevention: Outcomes Two Years After Completion of a Double-Blind, Placebo-Controlled Trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
+]
+},
 "pmid:38274207": {
 "autoren": "Laczkó-Zöld E, Csupor-Löffler B, Kolcsár EB, Ferenci T, Nan M, Tóth B, Csupor D.",
 "doi": "10.3389/fnut.2023.1200801",
@@ -84600,6 +85001,30 @@
 "Journal Article"
 ]
 },
+"pmid:38418482": {
+"autoren": "Gordji-Nejad A, Matusch A, Kleedörfer S, Jayeshkumar Patel H, Drzezga A, Elmenhorst D, Binkofski F, Bauer A.",
+"doi": "10.1038/s41598-024-54249-9",
+"iso": "Sci Rep",
+"jahr": "2024",
+"journal": "Scientific reports",
+"korr": [],
+"mesh": [
+"Central Nervous System",
+"Humans",
+"Sleep Deprivation",
+"Phosphates",
+"Creatine",
+"Cognition"
+],
+"pmcid": "PMC10902318",
+"pmid": "38418482",
+"quelle": "MED",
+"titel": "Single dose creatine improves cognitive performance and induces changes in cerebral high energy phosphates during sleep deprivation.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:38423354": {
 "autoren": "Limveeraprajak N, Nakhawatchana S, Visukamol A, Siripakkaphant C, Suttajit S, Srisurapanont M.",
 "doi": "10.1016/j.pnpbp.2024.110985",
@@ -84953,6 +85378,24 @@
 "review-article",
 "Review",
 "Journal Article"
+]
+},
+"pmid:38559552": {
+"autoren": "Hayashi M, Hamada H, Azuma SI, Hayashi K.",
+"doi": "10.7759/cureus.55352",
+"iso": "Cureus",
+"jahr": "2024",
+"journal": "Cureus",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC10981964",
+"pmid": "38559552",
+"quelle": "MED",
+"titel": "Painless Thyroiditis by Withania somnifera (Ashwagandha).",
+"typen": [
+"Journal Article",
+"Case Reports",
+"case-report"
 ]
 },
 "pmid:38560649": {
@@ -85666,6 +86109,70 @@
 "Research Support, N.I.H., Extramural"
 ]
 },
+"pmid:38828931": {
+"autoren": "Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M, Lips P, Mitchell DM, Murad MH, Powers S, Rao SD, Scragg R, Tayek JA, Valent AM, Walsh JME, McCartney CR.",
+"doi": "10.1210/clinem/dgae290",
+"iso": "J Clin Endocrinol Metab",
+"jahr": "2024",
+"journal": "The Journal of clinical endocrinology and metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Vitamin D Deficiency",
+"Vitamins",
+"Vitamin D",
+"Endocrinology",
+"Pregnancy",
+"Dietary Supplements",
+"Adolescent",
+"Adult",
+"Child",
+"Societies, Medical",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "38828931",
+"quelle": "MED",
+"titel": "Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Practice Guideline",
+"Journal Article"
+]
+},
+"pmid:38828942": {
+"autoren": "Shah VP, Nayfeh T, Alsawaf Y, Saadi S, Farah M, Zhu Y, Firwana M, Seisa M, Wang Z, Scragg R, Kiely ME, Lips P, Mitchell DM, Demay MB, Pittas AG, Murad MH.",
+"doi": "10.1210/clinem/dgae312",
+"iso": "J Clin Endocrinol Metab",
+"jahr": "2024",
+"journal": "The Journal of clinical endocrinology and metabolism",
+"korr": [],
+"mesh": [
+"Humans",
+"Prediabetic State",
+"Vitamin D Deficiency",
+"Vitamins",
+"Vitamin D",
+"Endocrinology",
+"Pregnancy",
+"Dietary Supplements",
+"Adult",
+"Aged",
+"Societies, Medical",
+"Female",
+"Practice Guidelines as Topic"
+],
+"pmcid": "",
+"pmid": "38828942",
+"quelle": "MED",
+"titel": "A Systematic Review Supporting the Endocrine Society Clinical Practice Guidelines on Vitamin D.",
+"typen": [
+"Research Support, Non-U.S. Gov't",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:38834220": {
 "autoren": "Bhatia N, Eichenfield LF, Mazzetti A, Moro L, Squittieri N, Hebert AA.",
 "doi": "10.36849/jdd.7997",
@@ -85984,6 +86491,46 @@
 "typen": [
 "Research Support, Non-U.S. Gov't",
 "research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:38912654": {
+"autoren": "Malhotra A, Grunstein RR, Fietze I, Weaver TE, Redline S, Azarbarzin A, Sands SA, Schwab RJ, Dunn JP, Chakladar S, Bunck MC, Bednarik J, SURMOUNT-OSA Investigators.",
+"doi": "10.1056/nejmoa2404881",
+"iso": "N Engl J Med",
+"jahr": "2024",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Apnea, Obstructive",
+"Obesity",
+"Body Weight",
+"Gastric Inhibitory Polypeptide",
+"C-Reactive Protein",
+"Treatment Outcome",
+"Severity of Illness Index",
+"Double-Blind Method",
+"Maximum Tolerated Dose",
+"Blood Pressure",
+"Adult",
+"Middle Aged",
+"Female",
+"Male",
+"Hypoxia",
+"Sleep Quality",
+"Glucagon-Like Peptide-1 Receptor Agonists",
+"Tirzepatide"
+],
+"pmcid": "PMC11598664",
+"pmid": "38912654",
+"quelle": "MED",
+"titel": "Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity.",
+"typen": [
+"Clinical Trial, Phase III",
+"research-article",
+"Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -87951,6 +88498,43 @@
 "pmid": "39555823",
 "quelle": "MED",
 "titel": "Colchicine in Acute Myocardial Infarction.",
+"typen": [
+"Clinical Trial, Phase III",
+"Multicenter Study",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:39555826": {
+"autoren": "Packer M, Zile MR, Kramer CM, Baum SJ, Litwin SE, Menon V, Ge J, Weerakkody GJ, Ou Y, Bunck MC, Hurt KC, Murakami M, Borlaug BA, SUMMIT Trial Study Group.",
+"doi": "10.1056/nejmoa2410027",
+"iso": "N Engl J Med",
+"jahr": "2025",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Cardiovascular Diseases",
+"Obesity",
+"Stroke Volume",
+"Body Mass Index",
+"Treatment Outcome",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Quality of Life",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Heart Failure",
+"Kaplan-Meier Estimate",
+"Tirzepatide"
+],
+"pmcid": "",
+"pmid": "39555826",
+"quelle": "MED",
+"titel": "Tirzepatide for Heart Failure with Preserved Ejection Fraction and Obesity.",
 "typen": [
 "Clinical Trial, Phase III",
 "Multicenter Study",
@@ -90554,6 +91138,36 @@
 "Journal Article"
 ]
 },
+"pmid:40292479": {
+"autoren": "Desai I, Pandit A, Smith-Ryan AE, Simar D, Candow DG, Kaakoush NO, Hagstrom AD.",
+"doi": "10.3390/nu17061081",
+"iso": "Nutrients",
+"jahr": "2025",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Humans",
+"Creatine",
+"Absorptiometry, Photon",
+"Body Mass Index",
+"Body Composition",
+"Dietary Supplements",
+"Adult",
+"Female",
+"Male",
+"Resistance Training",
+"Young Adult"
+],
+"pmcid": "PMC11944689",
+"pmid": "40292479",
+"quelle": "MED",
+"titel": "The Effect of Creatine Supplementation on Lean Body Mass with and Without Resistance Training.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:40298801": {
 "autoren": "Newman MS, Smeaton J.",
 "doi": "10.1097/gme.0000000000002542",
@@ -90888,6 +91502,45 @@
 "Journal Article"
 ]
 },
+"pmid:40353578": {
+"autoren": "Aronne LJ, Horn DB, le Roux CW, Ho W, Falcon BL, Gomez Valderas E, Das S, Lee CJ, Glass LC, Senyucel C, Dunn JP, SURMOUNT-5 Trial Investigators.",
+"doi": "10.1056/nejmoa2416394",
+"iso": "N Engl J Med",
+"jahr": "2025",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Body Weight",
+"Weight Loss",
+"Anti-Obesity Agents",
+"Treatment Outcome",
+"Injections, Subcutaneous",
+"Maximum Tolerated Dose",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Glucagon-Like Peptide 1",
+"Waist Circumference",
+"Glucagon-Like Peptide-1 Receptor Agonists",
+"Tirzepatide",
+"Semaglutide"
+],
+"pmcid": "",
+"pmid": "40353578",
+"quelle": "MED",
+"titel": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity.",
+"typen": [
+"Clinical Trial, Phase III",
+"Comparative Study",
+"Equivalence Trial",
+"Multicenter Study",
+"Journal Article"
+]
+},
 "pmid:40360723": {
 "autoren": "Suharyani S, Amanda B, Angellee J, William W, Hariyanto TI, I'tishom R.",
 "doi": "10.1038/s41443-025-01086-7",
@@ -91044,6 +91697,23 @@
 "Journal Article"
 ]
 },
+"pmid:40395689": {
+"autoren": "Smith AN, Choi IY, Lee P, Sullivan DK, Burns JM, Swerdlow RH, Kelly E, Taylor MK.",
+"doi": "10.1002/trc2.70101",
+"iso": "Alzheimers Dement (N Y)",
+"jahr": "2025",
+"journal": "Alzheimer's & dementia (New York, N. Y.)",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC12089086",
+"pmid": "40395689",
+"quelle": "MED",
+"titel": "Creatine monohydrate pilot in Alzheimer's: Feasibility, brain creatine, and cognition.",
+"typen": [
+"research-article",
+"Journal Article"
+]
+},
 "pmid:40397877": {
 "autoren": "Rhee J, Iansavitchene A, Mannala S, Graham ME, Rotenberg B.",
 "doi": "10.1371/journal.pone.0323643",
@@ -91127,6 +91797,39 @@
 "typen": [
 "Journal Article",
 "Case Reports"
+]
+},
+"pmid:40409468": {
+"autoren": "Zhu H, Manson JE, Cook NR, Bekele BB, Chen L, Kane KJ, Huang Y, Li W, Christen W, Lee IM, Dong Y.",
+"doi": "10.1016/j.ajcnut.2025.05.003",
+"iso": "Am J Clin Nutr",
+"jahr": "2025",
+"journal": "The American journal of clinical nutrition",
+"korr": [],
+"mesh": [
+"Leukocytes",
+"Telomere",
+"Humans",
+"Cholecalciferol",
+"Fatty Acids, Omega-3",
+"Double-Blind Method",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Telomere Shortening",
+"Telomere Homeostasis"
+],
+"pmcid": "PMC12308094",
+"pmid": "40409468",
+"quelle": "MED",
+"titel": "Vitamin D&lt;sub&gt;3&lt;/sub&gt; and marine ω-3 fatty acids supplementation and leukocyte telomere length: 4-year findings from the VITamin D and OmegA-3 TriaL (VITAL) randomized controlled trial.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article",
+"Research Support, N.I.H., Extramural"
 ]
 },
 "pmid:40421736": {
@@ -94380,6 +95083,33 @@
 "Journal Article"
 ]
 },
+"pmid:41000008": {
+"autoren": "Argeros Z, Xu X, Bhandari B, Harris K, Touyz RM, Schutte AE.",
+"doi": "10.1161/hypertensionaha.125.25129",
+"iso": "Hypertension",
+"jahr": "2025",
+"journal": "Hypertension (Dallas, Tex. : 1979)",
+"korr": [],
+"mesh": [
+"Humans",
+"Hypertension",
+"Magnesium",
+"Blood Pressure",
+"Dose-Response Relationship, Drug",
+"Dietary Supplements",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC12529988",
+"pmid": "41000008",
+"quelle": "MED",
+"titel": "Magnesium Supplementation and Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:41009362": {
 "autoren": "Holeček M.",
 "doi": "10.3390/ijms26188791",
@@ -94652,6 +95382,42 @@
 "typen": [
 "brief-report",
 "Journal Article"
+]
+},
+"pmid:41063394": {
+"autoren": "Salve J, Kale S, Prajapati BL, Sparavigna A, Savant M, Ademola J, Langade D.",
+"doi": "10.1002/ptr.70096",
+"iso": "Phytother Res",
+"jahr": "2026",
+"journal": "Phytotherapy research : PTR",
+"korr": [],
+"mesh": [
+"Humans",
+"Withania",
+"Plant Roots",
+"Hydrocortisone",
+"Alanine Transaminase",
+"Aspartate Aminotransferases",
+"Plant Extracts",
+"Prospective Studies",
+"Quality of Life",
+"Adolescent",
+"Adult",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Young Adult"
+],
+"pmcid": "PMC13436165",
+"pmid": "41063394",
+"quelle": "MED",
+"titel": "Safety of 12-Months Administration of Ashwagandha ( Withania somnifera ) Standardized Root Extract in Healthy Adults: A Prospective, Observational Study.",
+"typen": [
+"research-article",
+"Multicenter Study",
+"Journal Article",
+"Observational Study"
 ]
 },
 "pmid:41065846": {
@@ -95337,6 +96103,43 @@
 "quelle": "MED",
 "titel": "A randomized, three-way crossover clinical trial on the efficacy of Mastiha based therapies (Pistacia lentiscus var. Chia) in functional dyspepsia.",
 "typen": [
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
+"pmid:41201837": {
+"autoren": "Lok CE, Farkouh M, Hemmelgarn BR, Moist LM, Polkinghorne KR, Tomlinson G, Tam P, Tonelli M, Udell JA, PISCES Investigators.",
+"doi": "10.1056/nejmoa2513032",
+"iso": "N Engl J Med",
+"jahr": "2026",
+"journal": "The New England journal of medicine",
+"korr": [],
+"mesh": [
+"Humans",
+"Kidney Failure, Chronic",
+"Cardiovascular Diseases",
+"Fatty Acids, Omega-3",
+"Docosahexaenoic Acids",
+"Eicosapentaenoic Acid",
+"Treatment Outcome",
+"Renal Dialysis",
+"Cause of Death",
+"Follow-Up Studies",
+"Double-Blind Method",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Canada",
+"Australia",
+"Female",
+"Male"
+],
+"pmcid": "",
+"pmid": "41201837",
+"quelle": "MED",
+"titel": "Fish-Oil Supplementation and Cardiovascular Events in Patients Receiving Hemodialysis.",
+"typen": [
+"Multicenter Study",
 "Randomized Controlled Trial",
 "Journal Article"
 ]
@@ -96371,6 +97174,35 @@
 "Journal Article"
 ]
 },
+"pmid:41454558": {
+"autoren": "Vollmer G, Brendler T.",
+"doi": "10.1002/ptr.70155",
+"iso": "Phytother Res",
+"jahr": "2026",
+"journal": "Phytotherapy research : PTR",
+"korr": [],
+"mesh": [
+"Pituitary-Adrenal System",
+"Hypothalamo-Hypophyseal System",
+"Thyroid Gland",
+"Animals",
+"Humans",
+"Withania",
+"Thyroid Hormones",
+"Plant Extracts",
+"Female",
+"Hypothalamic-Pituitary-Gonadal Axis"
+],
+"pmcid": "PMC13436145",
+"pmid": "41454558",
+"quelle": "MED",
+"titel": "Evaluation of Potential Hormonal Activities of Ashwagandha (Withania somnifera).",
+"typen": [
+"review-article",
+"Review",
+"Journal Article"
+]
+},
 "pmid:41457257": {
 "autoren": "Deng H, Song T, Yin M, Xu K, Zhong Y, Mohd NB, Naharudin MNB, Yusof A, Fan X.",
 "doi": "10.1017/s0007114525106211",
@@ -96590,6 +97422,33 @@
 "titel": "Efficacy of transcranial direct current stimulation for depression: individual patient data meta-analysis.",
 "typen": [
 "Review",
+"Journal Article"
+]
+},
+"pmid:41500720": {
+"autoren": "West S, Scragg J, Aveyard P, Oke JL, Willis L, Haffner SJP, Knight H, Wang D, Morrow S, Heath L, Jebb SA, Koutoukidis DA.",
+"doi": "10.1136/bmj-2025-085304",
+"iso": "BMJ",
+"jahr": "2026",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Obesity",
+"Weight Gain",
+"Weight Loss",
+"Anti-Obesity Agents",
+"Adult",
+"Overweight"
+],
+"pmcid": "PMC12776922",
+"pmid": "41500720",
+"quelle": "MED",
+"titel": "Weight regain after cessation of medication for weight management: systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
 "Journal Article"
 ]
 },
@@ -97735,6 +98594,34 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:41719624": {
+"autoren": "Wang Y, Sha S, Gwenzi T, Schöttker B, Brenner H.",
+"doi": "10.1016/j.clnu.2026.106597",
+"iso": "Clin Nutr",
+"jahr": "2026",
+"journal": "Clinical nutrition (Edinburgh, Scotland)",
+"korr": [],
+"mesh": [
+"Humans",
+"Vitamin D Deficiency",
+"Vitamin D",
+"Proportional Hazards Models",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Randomized Controlled Trials as Topic",
+"United Kingdom"
+],
+"pmcid": "",
+"pmid": "41719624",
+"quelle": "MED",
+"titel": "Impact of vitamin D supplementation on all-cause mortality: Randomized trials revisited.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -99441,6 +100328,22 @@
 "Journal Article"
 ]
 },
+"pmid:42035842": {
+"autoren": "Tsiaras A, Loufopoulos G, Theodoridis X, Liakopoulos V, Poulia KA, Chourdakis M.",
+"doi": "10.1053/j.jrn.2026.04.010",
+"iso": "J Ren Nutr",
+"jahr": "2026",
+"journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42035842",
+"quelle": "MED",
+"titel": "The Effect of Creatine Supplementation on Kidney Function: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42037159": {
 "autoren": "Bonenti B, Ahmadinejad B, Puljević C, Ferris J, Winstock A, Ganson KT, Nagata JM, Bradshaw A, Piatkowski T.",
 "doi": "10.1111/dar.70162",
@@ -99630,6 +100533,38 @@
 "Journal Article"
 ]
 },
+"pmid:42075005": {
+"autoren": "Gordji-Nejad A, Matusch A, Hengstler L, Beer S, Kroll T, Klein S, Elmenhorst D, Bauer A, Drzezga A.",
+"doi": "10.3390/nu18081192",
+"iso": "Nutrients",
+"jahr": "2026",
+"journal": "Nutrients",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Deprivation",
+"Creatine",
+"Double-Blind Method",
+"Cognition",
+"Psychomotor Performance",
+"Dietary Supplements",
+"Adult",
+"Female",
+"Male",
+"Young Adult",
+"Processing Speed",
+"Cognitive Enhancement"
+],
+"pmcid": "PMC13119191",
+"pmid": "42075005",
+"quelle": "MED",
+"titel": "Single-Dose Creatine Reduces Sleep Deprivation-Induced Deterioration in Cognitive Performance.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42075549": {
 "autoren": "Chang YS, Lin CY, Huang WC.",
 "doi": "10.3390/medicina62040677",
@@ -99704,6 +100639,24 @@
 "pmid": "42100673",
 "quelle": "MED",
 "titel": "Effects of Astaxanthin Supplementation on Glycemic Control and Lipid Profile in Patients With Prediabetes and Type 2 Diabetes: A Meta-Analysis of Randomized Controlled Trials.",
+"typen": [
+"review-article",
+"Review",
+"Journal Article"
+]
+},
+"pmid:42100717": {
+"autoren": "Mazón-Ruiz J, de Cos Gomez M, González Bores P, Corral P.",
+"doi": "10.1093/ckj/sfag118",
+"iso": "Clin Kidney J",
+"jahr": "2026",
+"journal": "Clinical kidney journal",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13147452",
+"pmid": "42100717",
+"quelle": "MED",
+"titel": "Interpreting the PISCES trial on fish oil in hemodialysis patients: lessons on trial design, biological exposure, and outcome measurement.",
 "typen": [
 "review-article",
 "Review",
@@ -100029,6 +100982,36 @@
 "Journal Article"
 ]
 },
+"pmid:42161415": {
+"autoren": "Massé O, Mercurio CM, Dupuis S, Al Sahwi M, Arruda A, Dallaire G, Desforges K, Dugré N, Williamson D.",
+"doi": "10.1136/bmj-2025-088050",
+"iso": "BMJ",
+"jahr": "2026",
+"journal": "BMJ (Clinical research ed.)",
+"korr": [],
+"mesh": [
+"Humans",
+"Calcium, Dietary",
+"Calcium",
+"Vitamin D",
+"Drug Therapy, Combination",
+"Accidental Falls",
+"Dietary Supplements",
+"Bone Density Conservation Agents",
+"Fractures, Bone",
+"Randomized Controlled Trials as Topic"
+],
+"pmcid": "PMC13188451",
+"pmid": "42161415",
+"quelle": "MED",
+"titel": "Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis.",
+"typen": [
+"Meta-Analysis",
+"research-article",
+"Systematic Review",
+"Journal Article"
+]
+},
 "pmid:42164047": {
 "autoren": "Yang D, Su L, Zhang L, Li Y, Huang T, Huang X.",
 "doi": "10.21037/atm-2025-1-184",
@@ -100044,6 +101027,42 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:42167796": {
+"autoren": "Khan B, Lima BB.",
+"doi": "10.1136/openhrt-2026-004108",
+"iso": "Open Heart",
+"jahr": "2026",
+"journal": "Open heart",
+"korr": [],
+"mesh": [
+"Humans",
+"Sleep Initiation and Maintenance Disorders",
+"Cardiovascular Diseases",
+"Melatonin",
+"Nutrition Surveys",
+"Prevalence",
+"Risk Assessment",
+"Depression",
+"Counseling",
+"Causality",
+"Adult",
+"Aged",
+"Middle Aged",
+"United States",
+"Female",
+"Male",
+"Heart Failure",
+"Heart Disease Risk Factors"
+],
+"pmcid": "PMC13202109",
+"pmid": "42167796",
+"quelle": "MED",
+"titel": "Melatonin and cardiovascular risk: an NHANES reality check after recent heart failure concerns.",
+"typen": [
+"discussion",
 "Journal Article"
 ]
 },
@@ -100581,6 +101600,22 @@
 "typen": [
 "review-article",
 "Review",
+"Journal Article"
+]
+},
+"pmid:42261581": {
+"autoren": "Williams NB, Hurley RB, Cevallos ME.",
+"doi": "10.1177/27683605261456529",
+"iso": "J Integr Complement Med",
+"jahr": "2026",
+"journal": "Journal of integrative and complementary medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42261581",
+"quelle": "MED",
+"titel": "Creatine Supplementation and Acute Sleep Deprivation: A Systematic Review of Cognitive, Psychomotor, and Mood Outcomes.",
+"typen": [
 "Journal Article"
 ]
 },
@@ -101242,6 +102277,23 @@
 "Journal Article"
 ]
 },
+"pmid:42367407": {
+"autoren": "McIntyre D, Nguyen P, Kim Y, Meyer B, Salloum M.",
+"doi": "10.7759/cureus.109764",
+"iso": "Cureus",
+"jahr": "2026",
+"journal": "Cureus",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42367407",
+"quelle": "MED",
+"titel": "Ashwagandha (Withania somnifera)-Associated Liver Injury: A Scoping Review of Clinical Characteristics and Safety Considerations.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:42380286": {
 "autoren": "Yoo SH, Jang JY, Bae JS, Ventura R, Kim EH, Kim AY, Mo JH, Park J, Kang K, Yun Y, Lee JH, Kim YJ, Lee DJ, Kim JH.",
 "doi": "10.1038/s12276-026-01761-9",
@@ -101784,6 +102836,23 @@
 "Journal Article"
 ]
 },
+"pmid:42507286": {
+"autoren": "de Souza Almeida A, da Silva LOD, Takahasi BNA, Terada BD, Gonçalves FGA, Porto BC, da Silva Sardenberg RA, Passerotti CC, Maia RS, Samaan F, Thoman M, Molina WR, Shiomi da Cruz JA.",
+"doi": "10.1007/s11255-026-05287-x",
+"iso": "Int Urol Nephrol",
+"jahr": "2026",
+"journal": "International urology and nephrology",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42507286",
+"quelle": "MED",
+"titel": "Impact of creatine supplementation on kidney health: a systematic review and meta-analysis.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:42510573": {
 "autoren": "Mateescu DM, Gavrilescu DM, Marinescu AR, Rosca O, Lazureanu VE, Ilie AC, Muresan CO, Enache A.",
 "doi": "10.3390/antiox15070842",
@@ -102310,6 +103379,39 @@
 "Journal Article"
 ]
 },
+"pmid:42578920": {
+"autoren": "Chun J, Liu Y, Liu Y, Kibler GL, Lee H, Babakhani K, Rhoades N, Bivins I, Ko J, Dickerson B, Gonzalez DE, Sowinski RJ, Rasmussen CJ, Kreider RB.",
+"doi": "10.1080/15502783.2026.2716273",
+"iso": "J Int Soc Sports Nutr",
+"jahr": "2026",
+"journal": "Journal of the International Society of Sports Nutrition",
+"korr": [],
+"mesh": [
+"Humans",
+"Creatine",
+"Exercise",
+"Double-Blind Method",
+"Cognition",
+"Body Composition",
+"Dietary Supplements",
+"Aged",
+"Middle Aged",
+"Female",
+"Male",
+"Muscle Strength",
+"Biomarkers",
+"Cognitive Enhancement"
+],
+"pmcid": "PMC13463452",
+"pmid": "42578920",
+"quelle": "MED",
+"titel": "Effects of creatine supplementation with and without exercise and diet intervention on body composition, cognitive function, and markers of health in middle-aged and older adults.",
+"typen": [
+"research-article",
+"Randomized Controlled Trial",
+"Journal Article"
+]
+},
 "pmid:42588049": {
 "autoren": "Song S, Wang Y, Atwood L, Shah NR, Jarral RA.",
 "doi": "10.3390/nu18152424",
@@ -102808,6 +103910,24 @@
 "quelle": "MED",
 "titel": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
 "typen": [
+"research-article",
+"Journal Article"
+]
+},
+"pmid:42694770": {
+"autoren": "Chopra A, Chaudhuri S, Gundeti MS, Sarmukaddam S, Tillu G, Chavan-Gautam P, Khanduri S, Jameela S, Ahmad A, Rai AK, Rao PN, Singh SK, Mudakappagol SY, Reddy G, Nesari T, Gode D, Reddy KR, Saluja M, Tamoli S, Dighe D, Ravikumar BC, Vittal BG, U S, Rakesh, Seetharamu MS, Rajoria K, Vedantam G, Dudhgaonkar S, Kolhe R, Borse S, Namburi URS, Deshmukh MP, Bangre P, More A, Rajgopala S, Singh R, Rai S, Tiwari SS, Jain S, Dedge AP, Yadav B, Rao B, Srikanth N, Acharya RN, Patwardhan B.",
+"doi": "10.3389/fmed.2026.1852954",
+"iso": "Front Med (Lausanne)",
+"jahr": "2026",
+"journal": "Frontiers in medicine",
+"korr": [],
+"mesh": [],
+"pmcid": "PMC13539556",
+"pmid": "42694770",
+"quelle": "MED",
+"titel": "Safe prolonged prophylactic use and tolerability of Ashwagandha following COVISHIELD™ vaccination over 24 weeks: a multicentre randomized double-blind placebo-controlled trial.",
+"typen": [
+"Clinical Trial",
 "research-article",
 "Journal Article"
 ]
@@ -103391,6 +104511,32 @@
 "Journal Article"
 ]
 },
+"pmid:42800365": {
+"autoren": "Ostojic SM, Galyean S.",
+"doi": "10.1016/j.clnu.2026.106805",
+"iso": "Clin Nutr",
+"jahr": "2026",
+"journal": "Clinical nutrition (Edinburgh, Scotland)",
+"korr": [],
+"mesh": [
+"Muscle, Skeletal",
+"Humans",
+"Obesity",
+"Weight Loss",
+"Creatine",
+"Energy Metabolism",
+"Dietary Supplements",
+"Glucagon-Like Peptide 1",
+"Glucagon-Like Peptide-1 Receptor Agonists"
+],
+"pmcid": "",
+"pmid": "42800365",
+"quelle": "MED",
+"titel": "Creatine for glucagon-like peptide-1-associated muscle loss.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42804222": {
 "autoren": "Chen Y, Shi H, Xiang M, Li X, Wang Z, Lu W, Shen Y, Fang Y, Chen J, Guan L, Zhao F, Wu Z, Tian R, Yu Q, Han K, Sheng H, Chen S, Sun J, Liu G, Wu H, CHOICE Collaborative Research Group.",
 "doi": "10.1001/jamaneurol.2026.3395",
@@ -103533,6 +104679,23 @@
 "Journal Article"
 ]
 },
+"pmid:42848298": {
+"autoren": "Finocchiaro S, Cutore L, Bordonaro C, Cusmano C, Nastasi D, Nasisi F, Capodanno D.",
+"doi": "10.1007/s10557-026-07974-4",
+"iso": "Cardiovasc Drugs Ther",
+"jahr": "2026",
+"journal": "Cardiovascular drugs and therapy",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42848298",
+"quelle": "MED",
+"titel": "Omega-3 Fatty Acids in the Management of Cardiovascular Disease Prevention.",
+"typen": [
+"Review",
+"Journal Article"
+]
+},
 "pmid:42885452": {
 "autoren": "Poolton JT, Minett J, Kazmi A.",
 "doi": "10.52628/92.3.15837",
@@ -103588,6 +104751,22 @@
 "Journal Article"
 ]
 },
+"pmid:42926218": {
+"autoren": "Baker PA, DelBiondo GM, Kelly CG, Johnson WM, Grosicki GJ, Smith-Ryan AE.",
+"doi": "10.1007/s00421-026-06481-6",
+"iso": "Eur J Appl Physiol",
+"jahr": "2026",
+"journal": "European journal of applied physiology",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "42926218",
+"quelle": "MED",
+"titel": "Creatine supplementation effects on cognition, sleep, and menopause symptoms in response to six weeks of high-intensity resistance training in perimenopausal females.",
+"typen": [
+"Journal Article"
+]
+},
 "pmid:42939788": {
 "autoren": "Huang Z, Wang J.",
 "doi": "10.3390/biom16101534",
@@ -103623,6 +104802,22 @@
 "pmid": "42998308",
 "quelle": "MED",
 "titel": "Statin-Ezetimibe Combination Therapy versus Statin Monotherapy in Atherosclerotic Cardiovascular Disease: A Prespecified Secondary Analysis of the Randomized Ez-PAVE Trial.",
+"typen": [
+"Journal Article"
+]
+},
+"pmid:43014140": {
+"autoren": "Wang Y, Sha S, Gwenzi T, Schöttker B, Brenner H.",
+"doi": "10.1016/j.ejca.2026.118142",
+"iso": "Eur J Cancer",
+"jahr": "2026",
+"journal": "European journal of cancer (Oxford, England : 1990)",
+"korr": [],
+"mesh": [],
+"pmcid": "",
+"pmid": "43014140",
+"quelle": "MED",
+"titel": "Vitamin D supplementation, cancer incidence and mortality: Randomized trials revisited.",
 "typen": [
 "Journal Article"
 ]
@@ -108100,6 +109295,43 @@
 "Research Support, U.S. Gov't, P.H.S.",
 "Research Support, Non-U.S. Gov't",
 "Research Support, U.S. Gov't, Non-P.H.S.",
+"Journal Article"
+]
+},
+"pmid:961471": {
+"autoren": "Bang HO, Dyerberg J, Hjøorne N.",
+"doi": "10.1111/j.0954-6820.1976.tb08198.x",
+"iso": "Acta Med Scand",
+"jahr": "1976",
+"journal": "Acta medica Scandinavica",
+"korr": [],
+"mesh": [
+"Humans",
+"Dietary Carbohydrates",
+"Dietary Fats",
+"Cholesterol, Dietary",
+"Fatty Acids",
+"Fatty Acids, Unsaturated",
+"Dietary Proteins",
+"Diet",
+"Nutrition Surveys",
+"Food Analysis",
+"Time Factors",
+"Adult",
+"Aged",
+"Middle Aged",
+"Greenland",
+"Denmark",
+"Female",
+"Male",
+"Inuit"
+],
+"pmcid": "",
+"pmid": "961471",
+"quelle": "MED",
+"titel": "The composition of food consumed by Greenland Eskimos.",
+"typen": [
+"Comparative Study",
 "Journal Article"
 ]
 },

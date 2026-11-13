@@ -155,11 +155,11 @@ Seite: https://biohackingkompakt.de/thema/arjuna.html
 Auch genannt: Withania somnifera / KSM-66
 Kategorie: Adaptogen
 Kurz: Das bekannteste Adaptogen. Kleine RCTs zeigen niedrigere Cortisolwerte und weniger Stresserleben – meist über acht Wochen und mit herstellernahen Extrakten.
-Beschreibung: Aus dem Ayurveda. KSM-66 und Sensoril sind die in Studien eingesetzten Extrakte – die meisten dieser Studien sind klein und wurden von den Herstellern finanziert. Untersucht wurden Zeiträume von vier bis acht Wochen; zur Daueranwendung gibt es keine Daten.
-Was dafür spricht: Senkte Cortisol in einer kleinen, herstellernahen Studie um knapp 30 % – Einzelbefund, nicht unabhängig bestätigt; Verbessert Schlafqualität; Erhöht Testosteron bei Männern; Steigert Muskelkraft und VO2max; Reduziert Angst; Unterstützt Schilddrüse (v. a. Unterfunktion)
-Risiken: Bei Hyperthyreose meiden; Bei Autoimmunerkrankungen Vorsicht; Nicht in Schwangerschaft; Selten: leichte Magenbeschwerden
-Dosierung laut Studien und Referenzwerten: 300–600 mg KSM-66 täglich.
-Einnahme: Abends mit Mahlzeit für Schlafförderung, sonst morgens.
+Beschreibung: Aus dem Ayurveda. KSM-66 und Sensoril sind die in Studien eingesetzten Extrakte – die meisten dieser Studien sind klein und wurden von den Herstellern finanziert. Die Wirksamkeitsstudien laufen vier bis acht Wochen. Zur längeren Einnahme gibt es seit 2026 erste Sicherheitsdaten: eine randomisierte Studie mit 1.200 Gesunden über 24 Wochen (Verträglichkeit wie Placebo) und eine Beobachtungsstudie ohne Kontrollgruppe mit 191 Personen über zwölf Monate.
+Was dafür spricht: Senkte Cortisol in einer kleinen, herstellernahen Studie um knapp 30 % – Einzelbefund, nicht unabhängig bestätigt; Verbessert Schlafqualität; Erhöht Testosteron bei Männern; Steigert Muskelkraft und VO2max; Reduziert Angst
+Risiken: Seltene Leberschäden bis zum akuten Leberversagen (BfR-Warnung 039/2024; Übersicht 2026: 25 veröffentlichte Fälle, meist nach einigen Wochen, eine Transplantation, drei Todesfälle bei vorbestehender Zirrhose); Bei Hyperthyreose meiden; Bei Autoimmunerkrankungen Vorsicht; Nicht in Schwangerschaft; Selten: leichte Magenbeschwerden; Kann bei Schilddrüsenunterfunktion die Schilddrüsenhormone anheben (Übersicht Vollmer und Brendler 2026); Fallbericht einer schmerzlosen Schilddrüsenentzündung mit Überfunktion – bei Schilddrüsenerkrankungen ärztlich abklären; Rechtsstand November 2026: in Dänemark seit 2023 in Nahrungsergänzungsmitteln verboten, Niederlande planen Verbot des Blatts und Warnhinweis für die Wurzel; kein EU-weites Verbot
+Dosierung laut Studien und Referenzwerten: In Studien eingesetzt: meist 300 bis 600 mg eines standardisierten Wurzelextrakts (etwa KSM-66) täglich, in der größten Sicherheitsstudie 600 mg über acht Wochen. Das BfR leitet aus der Datenlage keinen sicheren Richtwert ab; es gibt keine Menge, für die Unbedenklichkeit festgestellt wäre. Keine Anwendungsempfehlung.
+Einnahme: Keine Einnahmeempfehlung. Die Wirksamkeitsstudien gaben den Extrakt täglich über vier bis acht Wochen, die längste randomisierte Sicherheitsstudie über 24 Wochen.
 Passt zu: magnesium; rhodiola
 Evidenz: hoch
 BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 5/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
@@ -1011,10 +1011,10 @@ Auch genannt: Creapure
 Kategorie: Aminosäure
 Kurz: Eines der bestuntersuchten Supplements. Mehr Kraft, Muskel und mittlerweile auch Gehirn-Boost.
 Beschreibung: Kreatin ist nicht nur für Sportler – neue Studien zeigen Nutzen für Gehirn, Stimmung und gesundes Altern. Creapure (deutsch) ist Goldstandard.
-Was dafür spricht: Steigert Kraft und Muskelmasse um 5–15 %; Verbessert Hochintensitäts-Leistung; Verbessert Gedächtnis und Kognition; Kann bei Depression helfen; Schützt Gehirn bei Schlafmangel; Unterstützt gesundes Altern
-Risiken: Wassereinlagerung (Muskel, nicht subkutan); Sehr sicher – 30+ Jahre Forschung; Bei Nierenerkrankung Arzt fragen
-Dosierung laut Studien und Referenzwerten: 3–5 g täglich. Ladephase (20 g/Tag für 5 Tage) optional.
-Einnahme: Jederzeit, aber täglich. In Wasser oder Shake. Zeitpunkt egal – wichtig ist Regelmäßigkeit.
+Was dafür spricht: Steigert die Muskelkraft (Metaanalysen); Muskelmasse nur teils signifikant; Verbessert Hochintensitäts-Leistung; Verbessert Gedächtnis und Kognition; Kann bei Depression helfen; Erste Studien: milderer Leistungsabfall bei Schlafentzug (bisher fünf Studien); Unterstützt gesundes Altern
+Risiken: Wassereinlagerung (Muskel, nicht subkutan); Gut untersucht – Metaanalysen 2026 ohne Hinweis auf Nierenschaden bei Gesunden; Serum-Kreatinin kann leicht steigen; Bei Nierenerkrankung Arzt fragen; Kreatin-Gummis in Labortests teils mit kaum oder keinem Kreatin
+Dosierung laut Studien und Referenzwerten: In Studien meist 3 bis 5 g täglich, teils nach einer Ladephase mit 20 g täglich über fünf Tage. Die EFSA erkennt einen Zusammenhang mit der Muskelkraft ab 3 g täglich an, in Verbindung mit Krafttraining und nur für Erwachsene über 55 Jahre. Das sind Studien- und Behördenangaben. Keine Anwendungsempfehlung.
+Einnahme: Keine Einnahmeempfehlung. In den Studien täglich eingenommen; bei Einnahme nur an Trainingstagen sah die EFSA keinen Effekt.
 Passt zu: beta-alanin; whey
 Evidenz: hoch
 BK-Score: Gut belegt (Studien am Menschen 9/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 9/10, Abstand Werbung zu Daten 8/10).
@@ -1335,16 +1335,16 @@ Seite: https://biohackingkompakt.de/thema/maca.html
 ## Magnesium
 Auch genannt: Glycinat / Citrat / Malat / Threonat
 Kategorie: Mineral
-Kurz: An über 300 Enzymreaktionen beteiligt. 80 % der Deutschen haben zu wenig.
-Beschreibung: Form ist entscheidend: Glycinat = Schlaf/Beruhigung, Citrat = Verdauung, Malat = Energie, Threonat = Gehirn (überquert Blut-Hirn-Schranke). Oxid schlecht verfügbar.
-Was dafür spricht: Verbessert Schlafqualität und Tiefschlaf; Reduziert Stress und entspannt Muskulatur; Normalisiert Blutdruck und Herzrhythmus; Verringert Muskelkrämpfe und Zuckungen; Aktiviert Vitamin D3; Wichtig für ATP-Produktion (Energie)
-Risiken: Überdosierung: Durchfall, besonders mit Citrat/Oxid; Bei schwerer Niereninsuffizienz Vorsicht; Von billigen Oxid-Präparaten absehen
-Dosierung laut Studien und Referenzwerten: 300–600 mg elementares Magnesium täglich. Biohacker oft 400 mg Glycinat abends.
-Einnahme: Glycinat/Threonat: abends zur Entspannung. Citrat/Malat: morgens. Mit oder ohne Nahrung.
+Kurz: An über 300 Enzymreaktionen beteiligt. Gut ein Viertel der Erwachsenen in Deutschland liegt unter der empfohlenen Zufuhr.
+Beschreibung: Für die Wirkung zählt die aufgenommene Menge an elementarem Magnesium, nicht die Salzform. Oxid enthält rund 60 % Magnesium, wird aber schlecht aufgenommen; Citrat schnitt in Aufnahmestudien besser ab. Eine Zuordnung wie „Glycinat für Schlaf, Malat für Energie“ ist nicht durch Vergleichsstudien belegt; dass Threonat beim Menschen mehr Magnesium ins Gehirn bringt, ist nur an Ratten gemessen.
+Was dafür spricht: Kleiner Effekt auf selbstberichteten Schlaf (eine doppelblinde RCT, d = 0,2); Reduziert Stress und entspannt Muskulatur; Kann den Blutdruck leicht senken, vor allem bei Bluthochdruck (Metaanalyse, 38 RCTs); Aktiviert Vitamin D3; Wichtig für ATP-Produktion (Energie)
+Risiken: Überdosierung: Durchfall, besonders mit Citrat/Oxid; Bei schwerer Niereninsuffizienz Vorsicht; Oxid wird schlecht aufgenommen (in einer Studie rund 4 %); Kann die Wirkung einiger Antibiotika abschwächen; bei Herz- oder Nierenerkrankungen vorab ärztlich abklären
+Dosierung laut Studien und Referenzwerten: Das BfR schlägt für Nahrungsergänzungsmittel höchstens 250 mg pro Tagesdosis vor; das entspricht der tolerierbaren Obergrenze für zusätzliches Magnesium (SCF 2001, von der EFSA 2024 unverändert geführt), nicht für Magnesium aus Lebensmitteln. In der Schlafstudie Schuster 2025 wurden 250 mg elementares Magnesium als Bisglycinat über vier Wochen eingesetzt, das sind Studienangaben. Keine Anwendungsempfehlung.
+Einnahme: Keine Einnahmeempfehlung. Die Zuordnung von Salzformen zu Tageszeiten ist nicht durch Studien belegt.
 Passt zu: vitamin-d3; kalium; zink
 Evidenz: hoch
 BK-Score: Belegt, mit Einschränkungen (Studien am Menschen 7/10, Richtung positiv, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 6/10).
-Begründung: Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit soliden Studien zu Blutdruck und Schlafqualität, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus.
+Begründung: Als Kofaktor hunderter Enzyme biochemisch sehr gut belegt, mit einer Metaanalyse aus 38 RCTs zum Blutdruck (Argeros 2025, deutlicher bei Bluthochdruck) und einer kleinen doppelblinden Schlafstudie, aber wenige große Endpunktstudien. Sicherheit gut untersucht; die Vermarktung einzelner Salzformen geht über die Vergleichsdaten hinaus.
 Seite: https://biohackingkompakt.de/thema/magnesium.html
 
 ## Magnesium-L-Threonat
@@ -1359,7 +1359,7 @@ Einnahme: In den Studien abends beziehungsweise auf morgens und abends verteilt 
 Passt zu: magnesium; glycin; vitamin-d3
 Evidenz: niedrig
 BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 3/10, Sicherheitsdaten 6/10, Anwendungserfahrung 6/10, Abstand Werbung zu Daten 3/10).
-Begründung: Das gesamte Alleinstellungsmerkmal beruht auf einem unbestätigten Schritt: Dass diese Magnesiumform Magnesium ins Gehirn bringt, stammt aus dem Nervenwasser von Ratten – dort rund 7 % über Ausgangswert und rund 16 % über Kontrolle an Tag 24 – und wurde am lebenden Menschen in keiner der vorliegenden Studien gemessen. Drei randomisierte Studien mit 51, 80 und 100 Teilnehmern über 3 bis 12 Wochen berichten bessere kognitive Kompositscores und teils besseren Schlaf; alle drei sind von Herstellern oder Rohstofflieferanten finanziert, zwei wurden erst nach Abschluss der Datenerhebung registriert. Die vielzitierten 7,5 Jahre kognitives Alter sind in der Originalarbeit ausdrücklich als exploratorische Auswertung gekennzeichnet, und die beiden Schlafstudien widersprechen sich in den objektiven Messwerten desselben Schlafrings. Die Achse evidenz steigt von 4 auf 5, weil es drei und nicht zwei RCTs sind; anwendung steigt von 5 auf 6, weil der Stoff seit dem 7. November 2024 in der EU als neuartiges Lebensmittel zugelassen ist und seit dem 5. November 2025 in Anhang II der Richtlinie 2002/46/EG steht.
+Begründung: Das gesamte Alleinstellungsmerkmal beruht auf einem unbestätigten Schritt: Dass diese Magnesiumform Magnesium ins Gehirn bringt, stammt aus dem Nervenwasser von Ratten – dort rund 7 % über Ausgangswert und rund 16 % über Kontrolle an Tag 24 – und wurde am lebenden Menschen in keiner der vorliegenden Studien gemessen. Drei randomisierte Studien mit 51, 80 und 100 Teilnehmern über 3 bis 12 Wochen berichten bessere kognitive Kompositscores und teils besseren Schlaf; alle drei sind von Herstellern oder Rohstofflieferanten finanziert, zwei wurden erst nach Abschluss der Datenerhebung registriert. Die vielzitierten Angaben zum kognitiven Alter sind Umrechnungen: 7,5 Jahre bei Lopresti und Smith 2025, in der Originalarbeit ausdrücklich als exploratorisch gekennzeichnet, rund 9 Jahre bei Liu 2016 aus einer nachträglichen Auswertung eines Einzeltests, und die beiden Schlafstudien widersprechen sich in den objektiven Messwerten desselben Schlafrings. Die Achse evidenz steigt von 4 auf 5, weil es drei und nicht zwei RCTs sind; anwendung steigt von 5 auf 6, weil der Stoff seit dem 7. November 2024 in der EU als neuartiges Lebensmittel zugelassen ist und seit dem 5. November 2025 in Anhang II der Richtlinie 2002/46/EG steht.
 Seite: https://biohackingkompakt.de/thema/magnesium-l-threonat.html
 
 ## Mangan
@@ -1425,8 +1425,8 @@ Kategorie: Hormon
 Kurz: Körpereigenes Dunkelheitssignal. Wirkt am stärksten bei Jetlag und verschobener Schlafphase, bei gewöhnlicher Insomnie nur wenige Minuten.
 Beschreibung: Körpereigenes Signal für Dunkelheit, das die innere Uhr verschiebt. Bei Jetlag wirkten 0,5 bis 5 mg ähnlich, 5 mg ließen schneller einschlafen als 0,5 mg, darüber zeigte sich kein Zusatznutzen. Bei gewöhnlicher Insomnie ist der Effekt klein.
 Was dafür spricht: Verkürzt Einschlafzeit; Hilft bei Jetlag; Reguliert zirkadianen Rhythmus
-Risiken: Morgendliche Benommenheit bei Überdosis; Kann Träume verstärken; Bei hormonellen Erkrankungen Arzt fragen; Nicht ideal für Kinder/Teenager
-Dosierung laut Studien und Referenzwerten: Keine Empfehlung. In Studien eingesetzt: 0,5 bis 5 mg nahe der Ziel-Schlafenszeit bei Jetlag; oberhalb von 5 mg kein Zusatznutzen. Als Arzneimittel ist eine retardierte 2-mg-Form verschreibungspflichtig zugelassen.
+Risiken: Morgendliche Benommenheit bei Überdosis; Kann Träume verstärken; Bei hormonellen Erkrankungen Arzt fragen; Nicht ideal für Kinder/Teenager; Langzeitgebrauch: Kongressbefund 2025 zu häufigerer Herzinsuffizienz (Beobachtung, nicht begutachtet; Gegenprobe NHANES ohne Zusammenhang)
+Dosierung laut Studien und Referenzwerten: In Studien eingesetzt: 0,5 bis 5 mg nahe der Ziel-Schlafenszeit bei Jetlag; oberhalb von 5 mg kein Zusatznutzen. Als Arzneimittel ist Melatonin grundsätzlich verschreibungspflichtig (etwa die retardierte 2-mg-Form ab 55 Jahren); seit 23.05.2026 ist es gegen Jetlag bei Erwachsenen in begrenzter Stärke und Packungsgröße rezeptfrei (24. Änderung der AMVV). Als Nahrungsergänzungsmittel gilt keine gesetzliche Höchstmenge; 1 mg ist nur die Mindestmenge für die zugelassene Angabe zur Einschlafzeit. Keine Anwendungsempfehlung.
 Einnahme: Abends bei gedämpftem Licht. Nicht bei heller Beleuchtung.
 Passt zu: magnesium; glycin
 Evidenz: mittel
@@ -1684,8 +1684,8 @@ Auch genannt: Fischöl / Algenöl
 Kategorie: Fettsäure
 Kurz: Entzündungshemmende Fettsäuren für Gehirn, Herz und Stimmung. Qualität ist entscheidend.
 Beschreibung: EPA wirkt eher entzündungshemmend, DHA baut Gehirn/Nerven auf. Omega-3-Index (Bluttest) sollte > 8 % liegen. Auf TOTOX-Wert achten (Oxidation).
-Was dafür spricht: Senkt Entzündungen im Körper; Unterstützt Gehirnfunktion und Stimmung; Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH); Verbessert Hautbild (Ekzem, Akne); Unterstützt Augengesundheit; Wichtig in Schwangerschaft für Gehirnentwicklung
-Risiken: Niedrig-qualitative Öle oxidieren (ranzig); Bei hohen Dosen, unter Gerinnungshemmern und vor Operationen ärztlich Rücksprache halten; Vorhofflimmern: erhöhtes Risiko bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich (Meta-Analyse 2026, 35 RCTs, PMID 42517224)
+Was dafür spricht: Senkt Entzündungen im Körper; Unterstützt Gehirnfunktion und Stimmung; Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH). Positiv: REDUCE-IT mit hoch gereinigtem EPA (Mineralöl-Placebo umstritten) und PISCES bei Dialysepatienten (−43 % schwere Herz-Kreislauf-Ereignisse, PMID 41201837); Verbessert Hautbild (Ekzem, Akne); Unterstützt Augengesundheit; Wichtig in Schwangerschaft für Gehirnentwicklung
+Risiken: Niedrig-qualitative Öle oxidieren (ranzig); Bei hohen Dosen, unter Gerinnungshemmern und vor Operationen ärztlich Rücksprache halten; Vorhofflimmern: dosisabhängig erhöhtes Risiko. Abuknesha 2026 (35 RCTs, vom Herstellerverband GOED beauftragt, PMID 42517224) sah es nur bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich, Gencer 2021 (PMID 34612056) auch bei 1 g täglich oder weniger (HR 1,12). Rote-Hand-Brief und BfR-Hinweis vom 16.11.2023: bei Herzerkrankungen oder Risikofaktoren ärztlich absprechen
 Dosierung laut Studien und Referenzwerten: Ernährungsempfehlungen liegen deutlich unter 1–3 g: Die EFSA nennt für Erwachsene 250 mg EPA+DHA täglich als angemessene Zufuhr. Grammdosen wurden in klinischen Fragestellungen geprüft, etwa bei erhöhten Triglyceriden und in Herz-Kreislauf-Studien (VITAL und ASCEND 1 g, STRENGTH 4 g). Das sind Studienangaben, keine Verzehrempfehlung.
 Einnahme: Zu fetthaltiger Mahlzeit. Tiefgefrorene Kapseln reduzieren Aufstoßen. Mit Vitamin E zum Schutz.
 Passt zu: vitamin-d3; vitamin-e; astaxanthin
@@ -2330,7 +2330,7 @@ Seite: https://biohackingkompakt.de/thema/vitamin-c.html
 Auch genannt: Cholecalciferol
 Kategorie: Vitamin
 Kurz: Bei echtem Mangel sinnvoll, für Menschen mit gutem Spiegel bringen große Studien kaum Zusatznutzen.
-Beschreibung: Vitamin D3 (Cholecalciferol) bildet die Haut im Sonnenlicht; im Körper wird daraus ein hormonähnlich wirkender Botenstoff. Laut RKI-Daten (2008–2011) lag knapp ein Drittel der Erwachsenen in Deutschland unter 30 nmol/l, vor allem im Winter. Große randomisierte Studien (VITAL, D-Health, DO-HEALTH) zeigen bei Menschen ohne Mangel keinen klaren Nutzen für Brüche, Herz oder Sterblichkeit; Metaanalysen deuten auf etwas weniger Krebstodesfälle. Die Endocrine Society rät 2024 von Routinetests bei Gesunden ab.
+Beschreibung: Vitamin D3 (Cholecalciferol) bildet die Haut im Sonnenlicht; im Körper wird daraus ein hormonähnlich wirkender Botenstoff. Laut RKI-Daten (2008–2011) lag knapp ein Drittel der Erwachsenen in Deutschland unter 30 nmol/l, vor allem im Winter. Große randomisierte Studien (VITAL, D-Health, DO-HEALTH) zeigen bei Menschen ohne Mangel keinen klaren Nutzen für Brüche, Herz oder Sterblichkeit; Metaanalysen deuten auf etwas weniger Krebstodesfälle. Die Endocrine Society rät 2024 von Routinetests in allen betrachteten Gruppen ab und bei Gesunden unter 75 Jahren von einer Ergänzung über die übliche Zufuhrempfehlung hinaus.
 Was dafür spricht: Behebt einen nachgewiesenen Mangel (Rachitis, Osteomalazie); EU-Angabe: trägt zur Erhaltung normaler Knochen und einer normalen Funktion des Immunsystems bei; Metaanalysen: etwas weniger Krebstodesfälle unter Ergänzung (Beobachtungs- und Studiendaten, nicht für alle Gruppen gesichert); VITAL: weniger neu diagnostizierte Autoimmunerkrankungen, in der Nachbeobachtung abgeschwächt und nicht mehr sicher
 Risiken: Überdosierung über längere Zeit kann Hyperkalzämie und Nierenschäden verursachen; die EFSA-Obergrenze für Erwachsene liegt bei 100 µg (4.000 IE) pro Tag aus allen Quellen; Wechselwirkungen u. a. mit Thiazid-Diuretika und Digitalis; bei Nierensteinen, Sarkoidose oder Nierenerkrankung ärztlich klären; Hochdosierte Präparate und Fehldosierungen bei Säuglingen sind wiederholt Thema von Behördenwarnungen
 Dosierung laut Studien und Referenzwerten: Die Studien verwendeten sehr unterschiedliche Mengen; das BfR schlägt für Nahrungsergänzungsmittel höchstens 20 µg (800 IE) je Tagesverzehrempfehlung vor, die EFSA-Obergrenze liegt bei 100 µg (4.000 IE) pro Tag. Keine Anwendungsempfehlung.
