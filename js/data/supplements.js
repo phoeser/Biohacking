@@ -34,22 +34,21 @@ const SUPPLEMENTS = [
     altNames: 'Cholecalciferol',
     category: 'Vitamin',
     tags: ['immun', 'knochen', 'stimmung', 'hormone', 'schlaf', 'energie'],
-    short: 'Das „Sonnenvitamin" – essenziell für Immunsystem, Knochen, Stimmung und über 1000 Gene.',
-    description: 'Vitamin D3 ist streng genommen ein Hormon und reguliert hunderte Gene. Bei 90 % aller Deutschen ist der Spiegel im Winter suboptimal. Werte zwischen 40–60 ng/ml gelten als optimal für Biohacker.',
+    short: 'Bei echtem Mangel sinnvoll, für Menschen mit gutem Spiegel bringen große Studien kaum Zusatznutzen.',
+    description: 'Vitamin D3 (Cholecalciferol) bildet die Haut im Sonnenlicht; im Körper wird daraus ein hormonähnlich wirkender Botenstoff. Laut RKI-Daten (2008–2011) lag knapp ein Drittel der Erwachsenen in Deutschland unter 30 nmol/l, vor allem im Winter. Große randomisierte Studien (VITAL, D-Health, DO-HEALTH) zeigen bei Menschen ohne Mangel keinen klaren Nutzen für Brüche, Herz oder Sterblichkeit; Metaanalysen deuten auf etwas weniger Krebstodesfälle. Die Endocrine Society rät 2024 von Routinetests bei Gesunden ab.',
     benefits: [
-      'Stärkt Immunsystem und senkt Infektanfälligkeit',
-      'Unterstützt Knochenmineralisierung (mit K2 + Magnesium)',
-      'Verbessert Stimmung und kann saisonale Depression lindern',
-      'Wichtig für Hormonproduktion, v. a. Testosteron',
-      'Reduziert Entzündungswerte (CRP)'
+      'Behebt einen nachgewiesenen Mangel (Rachitis, Osteomalazie)',
+      'EU-Angabe: trägt zur Erhaltung normaler Knochen und einer normalen Funktion des Immunsystems bei',
+      'Metaanalysen: etwas weniger Krebstodesfälle unter Ergänzung (Beobachtungs- und Studiendaten, nicht für alle Gruppen gesichert)',
+      'VITAL: weniger neu diagnostizierte Autoimmunerkrankungen, in der Nachbeobachtung abgeschwächt und nicht mehr sicher'
     ],
     risks: [
-      'Überdosierung (>10.000 IE täglich dauerhaft) kann Hyperkalzämie verursachen',
-      'Ohne K2 kann Kalzium fehlgeleitet werden (Arterienverkalkung)',
-      'Vor Einnahme 25-OH-Vitamin-D-Spiegel testen lassen'
+      'Überdosierung über längere Zeit kann Hyperkalzämie und Nierenschäden verursachen; die EFSA-Obergrenze für Erwachsene liegt bei 100 µg (4.000 IE) pro Tag aus allen Quellen',
+      'Wechselwirkungen u. a. mit Thiazid-Diuretika und Digitalis; bei Nierensteinen, Sarkoidose oder Nierenerkrankung ärztlich klären',
+      'Hochdosierte Präparate und Fehldosierungen bei Säuglingen sind wiederholt Thema von Behördenwarnungen'
     ],
-    dosage: 'Standard: 1.000–4.000 IE täglich. Biohacker: 5.000 IE/Tag im Winter (nach Blutspiegel).',
-    intake: 'Morgens oder mittags mit einer fetthaltigen Mahlzeit (fettlöslich). Immer mit K2 (MK-7) und Magnesium kombinieren.',
+    dosage: 'Die Studien verwendeten sehr unterschiedliche Mengen; das BfR schlägt für Nahrungsergänzungsmittel höchstens 20 µg (800 IE) je Tagesverzehrempfehlung vor, die EFSA-Obergrenze liegt bei 100 µg (4.000 IE) pro Tag. Keine Anwendungsempfehlung.',
+    intake: 'Fettlöslich, in Studien meist zu einer Mahlzeit gegeben. Ob eine Kombination mit K2 oder Magnesium einen Zusatznutzen bringt, ist nicht durch Studien belegt.',
     synergies: ['vitamin-k2', 'magnesium', 'omega-3'],
     avoid: [],
     evidence: 'hoch',
