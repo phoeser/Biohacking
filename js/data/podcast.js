@@ -27,6 +27,16 @@ const PODCAST_APPLE_BASIS = 'https://podcasts.apple.com/de/podcast/biohacking-ko
 const PODCAST_AMAZON_BASIS = 'https://music.amazon.de/podcasts/63f68fc2-9797-4049-8b8e-b255810f029e/episodes/';
 
 const PODCAST_FOLGEN = [
+  { nr: 190, datum: '2027-01-05', ab: '2027-01-05T07:00:00Z', titel: 'Update: Tirzepatid – der unterschätzte Zwilling gewinnt das Duell', spotify: '4eyPHGk8BMOvNcUFUJ48oS', ziel: { view: 'experimental', id: 'tirzepatide' } },
+  { nr: 189, datum: '2027-01-04', ab: '2027-01-04T07:00:00Z', titel: 'Update: Vitamin D – wer wirklich profitiert', spotify: '1ptvHuTun9L183zqZ8SY6d', ziel: { view: 'supplement', id: 'vitamin-d3' } },
+  { nr: 188, datum: '2027-01-03', ab: '2027-01-03T07:00:00Z', titel: 'Update: Omega-3 – die Herzinfarkte, die niemand gezählt hat', spotify: '5RtEKn4mLbGlN5F5cCQj9D', ziel: { view: 'supplement', id: 'omega-3' } },
+  { nr: 187, datum: '2027-01-02', ab: '2027-01-02T07:00:00Z', titel: 'Update: Kreatin – mehr im Gehirn, kaum etwas im Gummibärchen', spotify: '2cShoHFfM0EQSobDAxuu54', ziel: { view: 'supplement', id: 'kreatin' } },
+  { nr: 186, datum: '2027-01-01', ab: '2027-01-01T07:00:00Z', titel: 'Ashwagandha, Rhodiola und L-Theanin – drei Mittel gegen Stress und ein sowjetisches Kunstwort', spotify: '2H9UbrKxdazfoWZrnpUmSl', ziel: { view: 'supplement', id: 'ashwagandha' } },
+  { nr: 185, datum: '2026-12-31', ab: '2026-12-31T07:00:00Z', titel: 'Melatonin, Magnesium und Glycin – das Placebo, das vielleicht keines war', spotify: '6mm0erj5sTQFLGGKKcvQ4Y', ziel: { view: 'supplement', id: 'melatonin' } },
+  { nr: 184, datum: '2026-12-30', ab: '2026-12-30T07:00:00Z', titel: 'Whey gegen Pflanzenprotein – von der Molkenkur zum Proteingold', spotify: '5GVGV8LwJCnHigL0WZJpul', ziel: { view: 'supplement', id: 'whey' } },
+  { nr: 183, datum: '2026-12-29', ab: '2026-12-29T07:00:00Z', titel: 'Cholesterinsenker im Vergleich – die Frau mit dem LDL von vierzehn', spotify: '7riIm4gHnARD7cXIH5vpfg', ziel: { view: 'experimental', id: 'ezetimib' } },
+  { nr: 182, datum: '2026-12-28', ab: '2026-12-28T07:00:00Z', titel: 'Magnesium-Formen im Vergleich – die Kühe von Epsom', spotify: '5PGcV9vczC0I6RttrYVa1o', ziel: { view: 'supplement', id: 'magnesium' } },
+  { nr: 181, datum: '2026-12-27', ab: '2026-12-27T07:00:00Z', titel: 'Orforglipron gegen die Wegovy-Tablette – zwei Wege durch den Magen', spotify: '4y6VtLYKzcdawXsueOjw59', ziel: { view: 'experimental', id: 'orforglipron' } },
   { nr: 180, datum: '2026-12-26', ab: '2026-12-26T07:00:00Z', titel: 'Vitamin K2 – Nattō, blutende Küken und die Frage, wohin das Kalzium geht', spotify: '4j8asyVqhgoCah3Ti4APOY', ziel: { view: 'supplement', id: 'vitamin-k2' } },
   { nr: 179, datum: '2026-12-25', ab: '2026-12-25T07:00:00Z', titel: 'Turkesteron – das Insektenhormon, das in der Dose fehlt', spotify: '2yPXLRtwnglpWvCLR4pTjl', ziel: { view: 'experimental', id: 'turkesterone' } },
   { nr: 178, datum: '2026-12-24', ab: '2026-12-24T07:00:00Z', titel: 'Shilajit – der Teer, den der Berg im Sommer schwitzt', spotify: '1igOjrJdrh1n57eXY4Dioj', ziel: { view: 'supplement', id: 'shilajit' } },
