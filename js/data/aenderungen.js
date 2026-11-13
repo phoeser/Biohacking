@@ -18,6 +18,46 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-11-13',
+    typ: 'Korrektur',
+    titel: 'Ashwagandha: erste längere Sicherheitsdaten, Leberfälle und Rechtsstand',
+    ziel: { view: 'supplement', id: 'ashwagandha' },
+    text: 'Bisher stand hier, zur Einnahme über acht Wochen hinaus gebe es keine Daten. Das ist überholt: Eine randomisierte Studie begleitete 1.200 Gesunde über 24 Wochen, die Verträglichkeit lag auf Placeboniveau (Chopra 2026); eine Beobachtungsstudie ohne Kontrollgruppe verfolgte 191 Personen über zwölf Monate (Salve 2026). Zur Wirksamkeit gibt es weiterhin nur kontrollierte Daten bis acht Wochen. Neu eingeordnet sind eine Übersicht über 25 veröffentlichte Fälle von Leberschäden, Befunde zu Schilddrüsen- und Sexualhormonen (Vollmer und Brendler 2026) und der Rechtsstand im November 2026: Dänemark verbietet Ashwagandha in Nahrungsergänzungsmitteln seit 2023, die BfR-Mitteilung 039/2024 gilt weiter, die Niederlande haben einen Entwurf vorgelegt (Einwände bis 07.12.2026), Australien hat im Juli 2026 eine zweite Warnung veröffentlicht; ein EU-weites Verbot gibt es nicht. Der Schilddrüseneffekt steht jetzt bei den Risiken, nicht beim Nutzen.',
+    quelle: { titel: 'Chopra et al. 2026 (PMID 42694770)', url: 'https://europepmc.org/article/MED/42694770' }
+  },
+  {
+    datum: '2026-11-13',
+    typ: 'Recht',
+    titel: 'Melatonin: rezeptfrei gegen Jetlag, keine gesetzliche Höchstmenge in Nahrungsergänzungsmitteln',
+    ziel: { view: 'supplement', id: 'melatonin' },
+    text: 'Seit dem 23.05.2026 ist Melatonin als Arzneimittel gegen Jetlag bei Erwachsenen in begrenzter Stärke und Packungsgröße rezeptfrei (24. Änderung der Arzneimittelverschreibungsverordnung); sonst bleibt es als Arzneimittel verschreibungspflichtig. Klargestellt ist außerdem: Für Melatonin in Nahrungsergänzungsmitteln gibt es keine gesetzliche Höchstmenge, 1 mg ist nur die Mindestmenge für die zugelassene Angabe zur Einschlafzeit. Neu eingeordnet sind ein Kongressbefund der AHA von 2025 zu Langzeitgebrauch und Herzinsuffizienz (Beobachtung, nicht begutachtet) samt Gegenprobe ohne Zusammenhang (Open Heart 2026) sowie US-Daten zu Vergiftungsmeldungen bei Kindern und zu falsch etikettierten Gummis.',
+    quelle: { titel: 'Arzneimittelverschreibungsverordnung, Anlage 1', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
+  },
+  {
+    datum: '2026-11-13',
+    typ: 'Evidenz',
+    titel: 'Omega-3: PISCES, Gegenstimme zum Vorhofflimmern und DO-HEALTH präzisiert',
+    ziel: { view: 'supplement', id: 'omega-3' },
+    text: 'Bisher stützte sich der Eintrag beim Vorhofflimmern allein auf eine Metaanalyse von 2026, nach der das Risiko nur bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich steigt. Ergänzt sind jetzt der Auftrag dieser Analyse durch den Herstellerverband GOED, eine frühere Metaanalyse mit erhöhtem Risiko auch bei 1 g täglich oder weniger (Gencer 2021) sowie Rote-Hand-Brief und BfR-Hinweis vom 16.11.2023. Neu ist PISCES: Bei Dialysepatienten traten unter Fischöl 43 Prozent weniger schwere Herz-Kreislauf-Ereignisse auf. Der DO-HEALTH-Befund zu den epigenetischen Uhren beruht auf einer nachträglichen Messung bei 777 Teilnehmenden.',
+    quelle: { titel: 'Lok et al., N Engl J Med 2026 – PISCES (PMID 41201837)', url: 'https://europepmc.org/article/MED/41201837' }
+  },
+  {
+    datum: '2026-11-13',
+    typ: 'Korrektur',
+    titel: 'Magnesium: Versorgung, Salzformen und Blutdruck neu eingeordnet',
+    ziel: { view: 'supplement', id: 'magnesium' },
+    text: 'Der Eintrag nannte 80 Prozent der Deutschen unterversorgt. Laut Nationaler Verzehrsstudie II liegt gut ein Viertel der Erwachsenen unter der empfohlenen Zufuhr. Die Zuordnung von Salzformen zu Wirkungen („Glycinat für Schlaf, Malat für Energie“) ist nicht durch Vergleichsstudien belegt; entscheidend ist die aufgenommene Menge an elementarem Magnesium, Oxid wird schlecht aufgenommen. Zum Blutdruck liegt eine Metaanalyse aus 38 randomisierten Studien vor, mit deutlicherem Effekt bei Bluthochdruck (Argeros 2025). Ergänzt ist die Obergrenze für zusätzliches Magnesium, die die EFSA 2024 unverändert führt. In Folge 47 sind die 80 Prozent korrigiert und die „9 Jahre kognitives Alter“ als nachträgliche Auswertung eines Einzeltests eingeordnet. Der BK-Score bleibt unverändert.',
+    quelle: { titel: 'Argeros et al., Hypertension 2025 (PMID 41000008)', url: 'https://europepmc.org/article/MED/41000008' }
+  },
+  {
+    datum: '2026-11-13',
+    typ: 'Evidenz',
+    titel: 'Vitamin D: Autoimmun-Vorteil aus VITAL nicht mehr sicher, neue Daten zum Mangel',
+    ziel: { view: 'supplement', id: 'vitamin-d3' },
+    text: 'Folge 61 nannte gut 20 Prozent weniger Autoimmunerkrankungen unter Vitamin D. In der Nachbeobachtung von VITAL schrumpfte der Vorteil auf rund 15 Prozent, war statistisch nicht mehr sicher und zwei Jahre nach dem Absetzen verschwunden. Neu ist eine Nachbildung von VITAL und D-Health durch das DKFZ mit Daten der UK Biobank: bei gut Versorgten kein Effekt, bei Mangel rund ein Viertel niedrigeres Sterberisiko – eine Hochrechnung aus Beobachtungsdaten. Der BK-Score bleibt unverändert.',
+    quelle: { titel: 'Costenbader 2024, Arthritis Rheumatol (PMID 38272846)', url: 'https://europepmc.org/article/MED/38272846' }
+  },
+  {
     datum: '2026-11-12',
     typ: 'Evidenz',
     titel: 'Lipoprotein(a): HORIZON vollständig publiziert, Sicherheits-Datenlage von 5 auf 7',
@@ -225,6 +265,14 @@ const AENDERUNGEN = [
     typ: 'Korrektur',
     titel: 'BK-Score jetzt auch für alle 57 Tipps',
     text: 'Bis heute hatten Supplements, Peptide, Bioregulatoren und Anwendungen einen BK-Score – die 57 Biohacking-Tipps als einzige Kategorie nicht. Das war die größte Lücke der Transparenzseite, denn gerade hier zirkulieren Zahlen, die aus jeweils einer kleinen Studie stammen: die Dopamin-Verdreifachung beim Kaltduschen (acht Probanden), die Sauna-Zahl aus einer finnischen Beobachtungsstudie, die Autophagie-Zeitmarken aus dem Mausversuch. Alle 57 Tipps sind jetzt nach denselben fünf Achsen bewertet. Ein Tipp fällt dabei negativ aus: Dual-N-Back. Mehrere Meta-Analysen zeigen übereinstimmend, dass Arbeitsgedächtnistraining sich nicht auf fluide Intelligenz überträgt – die bisherige Formulierung war die Umkehrung des Befundes.'
+  },
+  {
+    datum: '2026-08-28',
+    typ: 'Recht',
+    titel: 'Tirzepatid: US-Zulassung zur Senkung des Herz-Kreislauf-Risikos',
+    ziel: { view: 'experimental', id: 'tirzepatide' },
+    text: 'Die FDA hat Mounjaro (Tirzepatid) zur Senkung des Risikos schwerer Herz-Kreislauf-Ereignisse bei Erwachsenen mit Typ-2-Diabetes zugelassen, gestützt auf SURPASS-CVOT gegen Dulaglutid. Die EMA sieht diese Anwendung durch die bestehende EU-Zulassung abgedeckt (26.06.2026).',
+    quelle: { titel: 'Pharmacy Times, 28.08.2026', url: 'https://www.pharmacytimes.com/view/fda-approves-tirzepatide-to-cut-cv-risk-in-type-2-diabetes' }
   },
   {
     datum: '2026-08-28',

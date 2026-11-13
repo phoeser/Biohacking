@@ -141,23 +141,30 @@ const EXPERIMENTAL = [
     altNames: 'Mounjaro, Zepbound, LY3298176',
     class: 'GLP-1 / GIP Dual-Agonist',
     emoji: '💉',
-    short: 'Der aktuell stärkste zugelassene Fatburner: die Dual-Kombi aus GLP-1 und GIP bringt bis zu 22,5% Gewichtsverlust – und schlug Semaglutid im direkten Vergleich.',
+    short: 'Dualer Agonist an GLP-1- und GIP-Rezeptor: in SURMOUNT-1 bis 20,9 Prozent Gewichtsverlust nach 72 Wochen, gerechnet über alle Teilnehmenden, und im direkten Vergleich SURMOUNT-5 20,2 gegenüber 13,7 Prozent unter Semaglutid.',
     moa: 'Aktiviert simultan GLP-1- und GIP-Rezeptoren. GIP wirkt synergistisch mit GLP-1 auf Insulinsekretion und Sättigung.',
     benefits: [
-      '15–22,5% Gewichtsverlust (SURMOUNT-1)',
+      '15,0 bis 20,9 Prozent Gewichtsverlust nach 72 Wochen (SURMOUNT-1, alle Randomisierten; 22,5 Prozent bei planmäßiger Behandlung)',
       'Senkt HbA1c stärker als Semaglutide',
       'Reduziert obstruktive Schlafapnoe (SURMOUNT-OSA)',
-      'Verbessert Lebersteatose (SYNERGY-NASH)'
+      'Verbessert Lebersteatose (SYNERGY-NASH)',
+      'Direkter Vergleich SURMOUNT-5 (NEJM 2025, 751 Teilnehmende, 72 Wochen): 20,2 gegenüber 13,7 Prozent unter Semaglutid; offen, vom Hersteller finanziert',
+      'SURPASS-CVOT: Herz-Kreislauf-Ereignisse nicht häufiger als unter Dulaglutid; FDA-Zulassung zur Senkung des Herz-Kreislauf-Risikos bei Typ-2-Diabetes am 28.08.2026',
+      'SUMMIT (Herzinsuffizienz mit erhaltener Ejektionsfraktion, Adipositas): weniger Verschlechterungen, 9,9 gegenüber 15,3 Prozent im kombinierten Endpunkt'
     ],
     risks: [
       'Verschreibungspflichtig – ärztlich begleiten.',
       'Magen-Darm-Effekte v.a. zu Beginn, meist mild.',
-      'Mit Krafttraining und Eiweiß den Muskel erhalten.'
+      'Rund ein Viertel des Gewichtsverlusts ist Magermasse; dass Krafttraining und Eiweiß das ändern, ist nicht geprüft.',
+      'Nach dem Absetzen kommt das Gewicht zurück (SURMOUNT-4: +14,0 Prozent unter Placebo; BMJ-Metaanalyse: im Mittel 0,4 kg pro Monat).'
     ],
-    status: 'In DE als Mounjaro (Diabetes) und Zepbound (Adipositas) zugelassen.',
+    status: 'In der EU als Mounjaro für Typ-2-Diabetes und Gewichtsmanagement zugelassen (EMA, 15.09.2022), verschreibungspflichtig; Zepbound ist der Name in den USA. Zur Gewichtsreduktion keine Leistung der gesetzlichen Krankenversicherung (§ 34 Abs. 1 SGB V, LSG Niedersachsen-Bremen 05/2026; keine Gesetzesänderung bis 13.11.2026).',
     sources: [
       { title: 'Jastreboff AM et al., NEJM 2022 – SURMOUNT-1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2206038' },
-      { title: 'Malhotra A et al., NEJM 2024 – SURMOUNT-OSA', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2404881' }
+      { title: 'Malhotra A et al., NEJM 2024 – SURMOUNT-OSA', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2404881' },
+      { title: 'Aronne LJ et al., NEJM 2025 – SURMOUNT-5', url: 'https://europepmc.org/article/MED/40353578' },
+      { title: 'Nicholls SJ et al., NEJM 2025 – SURPASS-CVOT', url: 'https://europepmc.org/article/MED/41406444' },
+      { title: 'Packer M et al., NEJM 2025 – SUMMIT', url: 'https://europepmc.org/article/MED/39555826' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
@@ -168,10 +175,10 @@ const EXPERIMENTAL = [
         audio: 'audio/tirzepatide-podcast.mp3',
         spotify: '5vOtZhEe08HDu7AU2mwaRx',
         lengthLabel: '≈ 12 Min · KI-Podcast (Paul & Paula)',
-        note: 'Der Podcast von Paul Höser (Folge 14) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Tirzepatid – den Dual-Agonisten (GLP-1 + GIP) hinter Mounjaro und Zepbound. Warum zwei Hormonschalter stärker wirken als einer, was die SURMOUNT-1-Studie (NEJM 2022, ~22 % Gewicht) und das direkte Duell SURPASS-2 gegen Semaglutid zeigten, das GIP-Paradox, die Zulassung sogar bei Schlafapnoe – und der klare Vorteil: legal und ärztlich begleitet statt Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
+        note: 'Der Podcast von Paul Höser (Folge 14) · mit Paul & Paula. Frische, positive KI-Dialogfolge über Tirzepatid – den Dual-Agonisten (GLP-1 + GIP) hinter Mounjaro und Zepbound. Warum zwei Hormonschalter stärker wirken als einer, was die SURMOUNT-1-Studie (NEJM 2022, bis 20,9 % Gewicht über alle Teilnehmenden) und das direkte Duell SURPASS-2 gegen Semaglutid zeigten, das GIP-Paradox, die US-Zulassung bei Schlafapnoe – und der klare Vorteil: legal und ärztlich begleitet statt Graumarkt. Reine Information, keine Dosier- oder Anwendungsempfehlung – verschreibungspflichtig.',
         sources: [
           { title: 'Jastreboff et al., NEJM 2022 – SURMOUNT-1', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2206038' },
-          { title: 'SURMOUNT-5 (NEJM) – Tirzepatid vs. Semaglutid, direkter Vergleich', url: 'https://www.appliedclinicaltrialsonline.com/view/tirzepatide-weight-loss-semaglutide-surmount-trial' },
+          { title: 'Aronne LJ et al., NEJM 2025 – SURMOUNT-5, Tirzepatid vs. Semaglutid', url: 'https://europepmc.org/article/MED/40353578' },
           { title: 'Malhotra et al., NEJM 2024 – SURMOUNT-OSA (Schlafapnoe)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2404881' }
         ]
       }
@@ -292,12 +299,13 @@ const EXPERIMENTAL = [
       'In DE/EU noch nicht zugelassen (US-Zulassung 1. April 2026) – Internet-Angebote mit hohem Fälschungsrisiko.',
       'Auf Muskelerhalt achten (Eiweiß + Krafttraining).'
     ],
-    status: 'In den USA 2026 als Foundayo zugelassen (Eli Lilly). Großbritannien hat Orforglipron im August 2026 als erstes europäisches Land zugelassen; in der EU lag bis September 2026 keine Empfehlung vor, in DE nicht zugelassen.',
+    status: 'In den USA seit 01.04.2026 als Foundayo zugelassen (Eli Lilly). Großbritannien hat Orforglipron im August 2026 als erstes europäisches Land zugelassen. In der EU hat der CHMP der EMA am 15.10.2026 die Zulassung zum Gewichtsmanagement und bei Typ-2-Diabetes empfohlen; die Entscheidung der EU-Kommission stand am 13.11.2026 noch aus, in DE daher noch nicht erhältlich.',
     sources: [
       { title: 'Wharton S et al., N Engl J Med 2025 – ATTAIN-1', url: 'https://pubmed.ncbi.nlm.nih.gov/40960239/' },
       { title: 'Rosenstock J et al., N Engl J Med 2025 – ACHIEVE-1', url: 'https://pubmed.ncbi.nlm.nih.gov/40544435/' },
       { title: 'Rosenstock J et al., Lancet 2026 – ACHIEVE-3 gegen orales Semaglutid', url: 'https://pubmed.ncbi.nlm.nih.gov/41765029/' },
-      { title: 'Eli Lilly – FDA-Zulassung von Foundayo, 1. April 2026', url: 'https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill' }
+      { title: 'Eli Lilly – FDA-Zulassung von Foundayo, 1. April 2026', url: 'https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill' },
+      { title: 'EMA, 16.10.2026 – CHMP empfiehlt Foundayo (Orforglipron) zum Gewichtsmanagement und bei Typ-2-Diabetes', url: 'https://www.ema.europa.eu/en/news/new-oral-glp-1-medicine-weight-management-type-2-diabetes' }
     ],
     community: [
       { title: 'Iron Mike Biohacking – Kanal', url: 'https://www.youtube.com/@ironmikebiohacking' }
