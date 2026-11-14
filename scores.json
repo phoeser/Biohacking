@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-11-13",
+ "stand": "2026-11-14",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -391,12 +391,12 @@
    "url": "https://biohackingkompakt.de/thema/ashwagandha.html",
    "evidenz": 5,
    "mechanismus": 4,
-   "sicherheit": 5,
+   "sicherheit": 6,
    "hype": 4,
    "anwendung": 8,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt."
+   "beleg": "Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt; seit 2026 gibt es zudem eine 24-Wochen-Studie mit 1.200 Teilnehmenden und eine 12-Monats-Beobachtung."
   },
   {
    "id": "melatonin",

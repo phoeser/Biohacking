@@ -18,6 +18,14 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-11-14',
+    typ: 'Evidenz',
+    titel: 'Ashwagandha: Sicherheits-Datenlage von 5 auf 6',
+    ziel: { view: 'supplement', id: 'ashwagandha' },
+    text: 'Die Achse bewertet, wie gut die Sicherheit untersucht ist, nicht wie sicher der Stoff ist. Mit der 24-Wochen-Studie an 1.200 Teilnehmenden und der 12-Monats-Beobachtung liegen erstmals längere Daten vor; zugleich sind die Leberschäden als seltenes Risiko gut dokumentiert. Deshalb steigt die Sicherheits-Datenlage von 5 auf 6. Human-Evidenz zur Wirkung bleibt bei 5, weil kontrollierte Wirksamkeitsdaten weiterhin nur bis acht Wochen reichen.',
+    quelle: { titel: 'Chopra et al. 2026 (PMID 42694770)', url: 'https://europepmc.org/article/MED/42694770' }
+  },
+  {
     datum: '2026-11-13',
     typ: 'Korrektur',
     titel: 'Ashwagandha: erste längere Sicherheitsdaten, Leberfälle und Rechtsstand',

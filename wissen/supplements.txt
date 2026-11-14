@@ -1,6 +1,6 @@
 # Supplements – Biohacking Kompakt
 
-Stand: 13.11.2026. 164 Einträge. Nahrungsergänzungsmittel, in Deutschland verkehrsfähig. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
+Stand: 14.11.2026. 164 Einträge. Nahrungsergänzungsmittel, in Deutschland verkehrsfähig. Der BK-Score bewertet den Wissensstand, nicht die Substanz: „gut untersucht" heißt nicht „harmlos". Reine Information, keine medizinische Beratung.
 
 
 ## 5-HTP
@@ -162,8 +162,8 @@ Dosierung laut Studien und Referenzwerten: In Studien eingesetzt: meist 300 bis 
 Einnahme: Keine Einnahmeempfehlung. Die Wirksamkeitsstudien gaben den Extrakt täglich über vier bis acht Wochen, die längste randomisierte Sicherheitsstudie über 24 Wochen.
 Passt zu: magnesium; rhodiola
 Evidenz: hoch
-BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 5/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
-Begründung: Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt.
+BK-Score: Dünne Humanevidenz (Studien am Menschen 5/10, Richtung gemischt, Mechanismus 4/10, Sicherheitsdaten 6/10, Anwendungserfahrung 8/10, Abstand Werbung zu Daten 4/10).
+Begründung: Es gibt mehrere RCTs zu Stress und Cortisol, meist klein, kurz und herstellernah. Der Mechanismus bleibt vage. Wichtiger Punkt für die Sicherheits-Datenlage: Meldungen über Leberschäden haben mehrere Behörden beschäftigt; seit 2026 gibt es zudem eine 24-Wochen-Studie mit 1.200 Teilnehmenden und eine 12-Monats-Beobachtung.
 Seite: https://biohackingkompakt.de/thema/ashwagandha.html
 
 ## Astaxanthin
