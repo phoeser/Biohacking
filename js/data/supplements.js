@@ -336,15 +336,15 @@ const SUPPLEMENTS = [
     altNames: 'Fischöl / Algenöl',
     category: 'Fettsäure',
     tags: ['gehirn', 'herz', 'entzuendung', 'stimmung', 'haut', 'augen'],
-    short: 'Entzündungshemmende Fettsäuren für Gehirn, Herz und Stimmung. Qualität ist entscheidend.',
-    description: 'EPA wirkt eher entzündungshemmend, DHA baut Gehirn/Nerven auf. Omega-3-Index (Bluttest) sollte > 8 % liegen. Auf TOTOX-Wert achten (Oxidation).',
+    short: 'Fettsäuren aus Fisch und Algen. Belegt: senkt erhöhte Triglyceride. Ein Herzschutz durch frei verkäufliche Kapseln ist nicht konsistent gezeigt.',
+    description: 'EPA und DHA sind langkettige Omega-3-Fettsäuren aus fettem Fisch und Algen; DHA ist Baustein von Gehirn und Nervengewebe. Am klarsten belegt ist die Senkung erhöhter Triglyceride. Der Omega-3-Index im Blut dient als Statusmarker; dass ein Anheben per Kapsel Herzereignisse verhindert, ist nicht gezeigt. Oxidierte Öle sind ein Qualitätsproblem, angegeben wird dafür meist der TOTOX-Wert.',
     benefits: [
-      'Senkt Entzündungen im Körper',
-      'Unterstützt Gehirnfunktion und Stimmung',
+      'Senkt in Studien einzelne Entzündungsmarker leicht; ein klinischer Nutzen daraus ist nicht gezeigt',
+      'Stimmung: in Metaanalysen kleiner Effekt bei Depression, vor allem mit EPA-reichen Präparaten; die Denkleistung Gesunder verbesserte sich in großen randomisierten Studien nicht',
       'Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH). Positiv: REDUCE-IT mit hoch gereinigtem EPA (Mineralöl-Placebo umstritten) und PISCES bei Dialysepatienten (−43 % schwere Herz-Kreislauf-Ereignisse, PMID 41201837)',
-      'Verbessert Hautbild (Ekzem, Akne)',
-      'Unterstützt Augengesundheit',
-      'Wichtig in Schwangerschaft für Gehirnentwicklung'
+      'Haut (Ekzem, Akne): nur kleine, uneinheitliche Studien',
+      'Trockenes Auge: in der großen DREAM-Studie (NEJM 2018) kein Vorteil gegenüber Placebo',
+      'Schwangerschaft: weniger Frühgeburten in der Cochrane-Auswertung (2018); eine bessere Gehirnentwicklung des Kindes ist nicht gezeigt'
     ],
     risks: [
       'Niedrig-qualitative Öle oxidieren (ranzig)',
@@ -352,7 +352,7 @@ const SUPPLEMENTS = [
       'Vorhofflimmern: dosisabhängig erhöhtes Risiko. Abuknesha 2026 (35 RCTs, vom Herstellerverband GOED beauftragt, PMID 42517224) sah es nur bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich, Gencer 2021 (PMID 34612056) auch bei 1 g täglich oder weniger (HR 1,12). Rote-Hand-Brief und BfR-Hinweis vom 16.11.2023: bei Herzerkrankungen oder Risikofaktoren ärztlich absprechen'
     ],
     dosage: 'Ernährungsempfehlungen liegen deutlich unter 1–3 g: Die EFSA nennt für Erwachsene 250 mg EPA+DHA täglich als angemessene Zufuhr. Grammdosen wurden in klinischen Fragestellungen geprüft, etwa bei erhöhten Triglyceriden und in Herz-Kreislauf-Studien (VITAL und ASCEND 1 g, STRENGTH 4 g). Das sind Studienangaben, keine Verzehrempfehlung.',
-    intake: 'Zu fetthaltiger Mahlzeit. Tiefgefrorene Kapseln reduzieren Aufstoßen. Mit Vitamin E zum Schutz.',
+    intake: 'Keine Einnahmeempfehlung. In Studien meist zu einer Mahlzeit eingenommen; Fischaufstoßen ist die häufigste Beschwerde.',
     synergies: ['vitamin-d3', 'vitamin-e', 'astaxanthin'],
     avoid: [],
     evidence: 'hoch',
@@ -402,18 +402,18 @@ const SUPPLEMENTS = [
   {
     id: 'kreatin',
     name: 'Kreatin Monohydrat',
-    altNames: 'Creapure',
+    altNames: 'Creatin, Creatine',
     category: 'Aminosäure',
     tags: ['muskel', 'kraft', 'sport', 'gehirn', 'energie'],
-    short: 'Eines der bestuntersuchten Supplements. Mehr Kraft, Muskel und mittlerweile auch Gehirn-Boost.',
-    description: 'Kreatin ist nicht nur für Sportler – neue Studien zeigen Nutzen für Gehirn, Stimmung und gesundes Altern. Creapure (deutsch) ist Goldstandard.',
+    short: 'Eines der bestuntersuchten Supplements. Gut belegt: mehr Kraft bei Krafttraining. Fürs Gehirn erste, gemischte Daten.',
+    description: 'Kreatin wird im Körper selbst gebildet und in kleinen Mengen mit Fleisch aufgenommen. Am besten belegt ist mehr Kraft in Verbindung mit Krafttraining, auch im Alter. Zu Gedächtnis, Stimmung und Schlafentzug gibt es kleinere Studien; die Gesamtkognition verfehlt in Metaanalysen die Signifikanz. Untersucht ist fast ausschließlich Kreatin-Monohydrat.',
     benefits: [
       'Steigert die Muskelkraft (Metaanalysen); Muskelmasse nur teils signifikant',
       'Verbessert Hochintensitäts-Leistung',
-      'Verbessert Gedächtnis und Kognition',
-      'Kann bei Depression helfen',
+      'Gedächtnis: kleiner Effekt über 16 Studien (0,31 Standardabweichungen); Gesamtkognition nicht signifikant',
+      'Depression: erste kleine Studien als Ergänzung zur Behandlung, Datenlage dünn',
       'Erste Studien: milderer Leistungsabfall bei Schlafentzug (bisher fünf Studien)',
-      'Unterstützt gesundes Altern'
+      'Ab 60 Jahren: mit Krafttraining mehr Kraft; Muskelmasse und körperliche Funktion nicht signifikant'
     ],
     risks: [
       'Wassereinlagerung (Muskel, nicht subkutan)',

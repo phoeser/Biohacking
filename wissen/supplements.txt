@@ -1007,11 +1007,11 @@ Begründung: Es gibt RCTs zu Hautfeuchtigkeit und Gelenkbeschwerden, sie sind ab
 Seite: https://biohackingkompakt.de/thema/kollagen.html
 
 ## Kreatin Monohydrat
-Auch genannt: Creapure
+Auch genannt: Creatin, Creatine
 Kategorie: Aminosäure
-Kurz: Eines der bestuntersuchten Supplements. Mehr Kraft, Muskel und mittlerweile auch Gehirn-Boost.
-Beschreibung: Kreatin ist nicht nur für Sportler – neue Studien zeigen Nutzen für Gehirn, Stimmung und gesundes Altern. Creapure (deutsch) ist Goldstandard.
-Was dafür spricht: Steigert die Muskelkraft (Metaanalysen); Muskelmasse nur teils signifikant; Verbessert Hochintensitäts-Leistung; Verbessert Gedächtnis und Kognition; Kann bei Depression helfen; Erste Studien: milderer Leistungsabfall bei Schlafentzug (bisher fünf Studien); Unterstützt gesundes Altern
+Kurz: Eines der bestuntersuchten Supplements. Gut belegt: mehr Kraft bei Krafttraining. Fürs Gehirn erste, gemischte Daten.
+Beschreibung: Kreatin wird im Körper selbst gebildet und in kleinen Mengen mit Fleisch aufgenommen. Am besten belegt ist mehr Kraft in Verbindung mit Krafttraining, auch im Alter. Zu Gedächtnis, Stimmung und Schlafentzug gibt es kleinere Studien; die Gesamtkognition verfehlt in Metaanalysen die Signifikanz. Untersucht ist fast ausschließlich Kreatin-Monohydrat.
+Was dafür spricht: Steigert die Muskelkraft (Metaanalysen); Muskelmasse nur teils signifikant; Verbessert Hochintensitäts-Leistung; Gedächtnis: kleiner Effekt über 16 Studien (0,31 Standardabweichungen); Gesamtkognition nicht signifikant; Depression: erste kleine Studien als Ergänzung zur Behandlung, Datenlage dünn; Erste Studien: milderer Leistungsabfall bei Schlafentzug (bisher fünf Studien); Ab 60 Jahren: mit Krafttraining mehr Kraft; Muskelmasse und körperliche Funktion nicht signifikant
 Risiken: Wassereinlagerung (Muskel, nicht subkutan); Gut untersucht – Metaanalysen 2026 ohne Hinweis auf Nierenschaden bei Gesunden; Serum-Kreatinin kann leicht steigen; Bei Nierenerkrankung Arzt fragen; Kreatin-Gummis in Labortests teils mit kaum oder keinem Kreatin
 Dosierung laut Studien und Referenzwerten: In Studien meist 3 bis 5 g täglich, teils nach einer Ladephase mit 20 g täglich über fünf Tage. Die EFSA erkennt einen Zusammenhang mit der Muskelkraft ab 3 g täglich an, in Verbindung mit Krafttraining und nur für Erwachsene über 55 Jahre. Das sind Studien- und Behördenangaben. Keine Anwendungsempfehlung.
 Einnahme: Keine Einnahmeempfehlung. In den Studien täglich eingenommen; bei Einnahme nur an Trainingstagen sah die EFSA keinen Effekt.
@@ -1682,12 +1682,12 @@ Seite: https://biohackingkompakt.de/thema/ochsengalle.html
 ## Omega-3 (EPA/DHA)
 Auch genannt: Fischöl / Algenöl
 Kategorie: Fettsäure
-Kurz: Entzündungshemmende Fettsäuren für Gehirn, Herz und Stimmung. Qualität ist entscheidend.
-Beschreibung: EPA wirkt eher entzündungshemmend, DHA baut Gehirn/Nerven auf. Omega-3-Index (Bluttest) sollte > 8 % liegen. Auf TOTOX-Wert achten (Oxidation).
-Was dafür spricht: Senkt Entzündungen im Körper; Unterstützt Gehirnfunktion und Stimmung; Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH). Positiv: REDUCE-IT mit hoch gereinigtem EPA (Mineralöl-Placebo umstritten) und PISCES bei Dialysepatienten (−43 % schwere Herz-Kreislauf-Ereignisse, PMID 41201837); Verbessert Hautbild (Ekzem, Akne); Unterstützt Augengesundheit; Wichtig in Schwangerschaft für Gehirnentwicklung
+Kurz: Fettsäuren aus Fisch und Algen. Belegt: senkt erhöhte Triglyceride. Ein Herzschutz durch frei verkäufliche Kapseln ist nicht konsistent gezeigt.
+Beschreibung: EPA und DHA sind langkettige Omega-3-Fettsäuren aus fettem Fisch und Algen; DHA ist Baustein von Gehirn und Nervengewebe. Am klarsten belegt ist die Senkung erhöhter Triglyceride. Der Omega-3-Index im Blut dient als Statusmarker; dass ein Anheben per Kapsel Herzereignisse verhindert, ist nicht gezeigt. Oxidierte Öle sind ein Qualitätsproblem, angegeben wird dafür meist der TOTOX-Wert.
+Was dafür spricht: Senkt in Studien einzelne Entzündungsmarker leicht; ein klinischer Nutzen daraus ist nicht gezeigt; Stimmung: in Metaanalysen kleiner Effekt bei Depression, vor allem mit EPA-reichen Präparaten; die Denkleistung Gesunder verbesserte sich in großen randomisierten Studien nicht; Senkt erhöhte Triglyceride (als Arzneimittel zugelassen); ein Herzschutz durch frei verkäufliche Präparate ist nicht konsistent gezeigt (VITAL, ASCEND, STRENGTH). Positiv: REDUCE-IT mit hoch gereinigtem EPA (Mineralöl-Placebo umstritten) und PISCES bei Dialysepatienten (−43 % schwere Herz-Kreislauf-Ereignisse, PMID 41201837); Haut (Ekzem, Akne): nur kleine, uneinheitliche Studien; Trockenes Auge: in der großen DREAM-Studie (NEJM 2018) kein Vorteil gegenüber Placebo; Schwangerschaft: weniger Frühgeburten in der Cochrane-Auswertung (2018); eine bessere Gehirnentwicklung des Kindes ist nicht gezeigt
 Risiken: Niedrig-qualitative Öle oxidieren (ranzig); Bei hohen Dosen, unter Gerinnungshemmern und vor Operationen ärztlich Rücksprache halten; Vorhofflimmern: dosisabhängig erhöhtes Risiko. Abuknesha 2026 (35 RCTs, vom Herstellerverband GOED beauftragt, PMID 42517224) sah es nur bei kardiovaskulärem Hochrisiko und mehr als 1.500 mg täglich, Gencer 2021 (PMID 34612056) auch bei 1 g täglich oder weniger (HR 1,12). Rote-Hand-Brief und BfR-Hinweis vom 16.11.2023: bei Herzerkrankungen oder Risikofaktoren ärztlich absprechen
 Dosierung laut Studien und Referenzwerten: Ernährungsempfehlungen liegen deutlich unter 1–3 g: Die EFSA nennt für Erwachsene 250 mg EPA+DHA täglich als angemessene Zufuhr. Grammdosen wurden in klinischen Fragestellungen geprüft, etwa bei erhöhten Triglyceriden und in Herz-Kreislauf-Studien (VITAL und ASCEND 1 g, STRENGTH 4 g). Das sind Studienangaben, keine Verzehrempfehlung.
-Einnahme: Zu fetthaltiger Mahlzeit. Tiefgefrorene Kapseln reduzieren Aufstoßen. Mit Vitamin E zum Schutz.
+Einnahme: Keine Einnahmeempfehlung. In Studien meist zu einer Mahlzeit eingenommen; Fischaufstoßen ist die häufigste Beschwerde.
 Passt zu: vitamin-d3; vitamin-e; astaxanthin
 Evidenz: hoch
 BK-Score: Gut belegt (Studien am Menschen 8/10, Richtung gemischt, Mechanismus 8/10, Sicherheitsdaten 9/10, Anwendungserfahrung 10/10, Abstand Werbung zu Daten 6/10).

@@ -100,7 +100,7 @@ Stand 27.10.2026: 460 Themenseiten · 59 Tipp-Seiten · 35 Vergleichsseiten (je 
 ## 4. Der BK-Score
 
 Fünf Achsen, je 0–10, **subjektive Einschätzung des Wissensstands, nicht der
-Substanz.** „Sicherheits-Datenlage 9" heißt: gut untersucht — nicht: harmlos.
+Substanz.** Ein hoher Wert bei der Sicherheits-Datenlage heißt: gut untersucht — nicht: harmlos (auf den Seiten bewusst ohne Zahl, damit der Satz zu jedem Wert passt).
 
 | Achse | Feld | Was sie misst |
 |---|---|---|
@@ -220,6 +220,9 @@ Das ist der Teil, bei dem Fehler teuer sind.
   Typen behaupten medizinischen Charakter. Verwendet werden Organization,
   WebSite, Person, Article, FAQPage, PodcastSeries, PodcastEpisode (mit Clip für
   Kapitel), Dataset, BreadcrumbList, CollectionPage, ItemList.
+  Seit 14.11.2026 (schema_plus.py, Variante 2): DefinedTerm „BK-Score" als
+  measurementTechnique der Score-PropertyValues; Wirkstoff-Knoten bleibt Thing,
+  nur bei eindeutiger ChEMBL-Zuordnung MolecularEntity (biochemisch, nicht medizinisch).
 - **Bezugsquellen für Peptide:** nur als Eintrag ohne Link und ohne Affiliate;
   ohne eigene Erfahrungsberichte ohne Sterne (z. B. mypept.eu, seit 25.10.2026).
 
