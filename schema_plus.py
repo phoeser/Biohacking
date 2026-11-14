@@ -2,19 +2,17 @@
 """JSON-LD der Themen- und Tipp-Seiten erweitern (DE+EN) – ändert nur die JSON-LD-Blöcke.
 
 Je Seite mit Score-Eintrag in scores.json (unbewertete Seiten wie die MHC-Einträge bleiben, wie sie sind):
-  - Artikel-Knoten: "@type": ["Article", "MedicalWebPage"], "lastReviewed" = dateModified
-    (KEIN reviewedBy – es gibt keine ärztliche Prüfung, also wird auch keine behauptet).
-  - "additionalProperty" am Artikel-Knoten: je Achse ein PropertyValue
-    {name "BK-Score: <Achse>", value, minValue 0, maxValue 10, measurementTechnique → BK-Score}.
-    Namen wie in score-sync.py, damit dessen JSON-LD-Abgleich auch diese Werte nachzieht.
-  - "about" um einen Wirkstoff-Knoten (@id <seite>#wirkstoff) ergänzt: name, alternateName aus js/data;
-    Typ supplement → DietarySupplement, experimental/khavinson → Drug, behandlungen → MedicalTest
-    (Diagnostik), LifestyleModification (Lebensstil) oder MedicalTherapy. Tipps bekommen keinen
-    Wirkstoff-Knoten (kein Wirkstoff). Hat docs/zielstruktur.json eine eindeutige Zuordnung – dieselbe
+  VARIANTE 2 (14.11.2026): bewusst KEINE medizinischen Typen (kein MedicalWebPage, Drug,
+  DietarySupplement, MedicalTest, MedicalTherapy, kein lastReviewed) – PROJEKT.md Abschnitt 7.
+  Die frühere Variante wird von aufraeumen() mit entfernt.
+  - Die vorhandenen BK-Score-PropertyValues am about-Knoten (setzt score-sync.py) bekommen
+    measurementTechnique → DefinedTerm BK-Score.
+  - Bei Wirkstoffen (nicht bei Tipps) bekommt derselbe about-Knoten @id <seite>#wirkstoff und alternateName
+    aus js/data; er bleibt Typ Thing. Hat docs/zielstruktur.json eine eindeutige Zuordnung – dieselbe
     Bedingung, unter der zielstruktur.py den Kasten „Woran es andockt" zeigt (ein Molekül UND ein
-    bestätigtes Einzelprotein-Ziel) –, kommt sameAs auf das ChEMBL-Molekül dazu und das Ziel als Protein
-    mit sameAs UniProt (bioChemInteraction, deshalb zusätzlich Typ MolecularEntity). UniProt steht bewusst
-    nicht im sameAs des Wirkstoffs: Ein Protein ist nicht derselbe Gegenstand wie der Wirkstoff.
+    bestätigtes Einzelprotein-Ziel) –, wird er MolecularEntity (biochemischer, kein medizinischer Typ) mit
+    sameAs auf das ChEMBL-Molekül und dem Ziel als Protein mit sameAs UniProt (bioChemInteraction).
+    UniProt steht bewusst nicht im sameAs des Wirkstoffs: Ein Protein ist nicht derselbe Gegenstand.
   - DefinedTerm „BK-Score" (@id https://biohackingkompakt.de/methodik.html#bk-score,
     inDefinedTermSet = Glossar) als eigener Knoten im @graph.
 Auf methodik.html und en/methodik.html: Anker <span id="bk-score"> im BK-Score-Abschnitt und der
@@ -148,7 +146,6 @@ def wirkstoff(e, daten, z, url, en, about_name, de_titel):
         knoten['alternateName'] = alt
     zo = z.get(e['id']) if e['view'] in ('experimental', 'supplement') else None
     if eindeutig(zo):
-        knoten['@type'] = [typ, 'MolecularEntity']
         knoten['sameAs'] = ['https://www.ebi.ac.uk/chembl/explore/compound/%s' % zo['chembl']]
         knoten['bioChemInteraction'] = [
             {'@type': 'Protein', 'name': x['protein'], 'identifier': x['uniprot'],
@@ -170,7 +167,8 @@ def ist_artikel(n):
 
 
 def aufraeumen(graph, url):
-    """Entfernt alles, was dieses Skript setzt (für idempotente Läufe und --zurueck)."""
+    """Entfernt alles, was dieses Skript setzt (für idempotente Läufe und --zurueck).
+    Räumt auch die Spuren der früheren Variante mit MedicalWebPage/Drug/DietarySupplement weg."""
     graph[:] = [n for n in graph if not (isinstance(n, dict) and n.get('@id') == TERM)]
     for n in graph:
         if not ist_artikel(n):
@@ -182,25 +180,42 @@ def aufraeumen(graph, url):
         ab = n.get('about')
         if isinstance(ab, list):
             ab = [x for x in ab if not (isinstance(x, dict) and x.get('@id') == url + '#wirkstoff')]
-            n['about'] = ab[0] if len(ab) == 1 else ab
+            n['about'] = ab = (ab[0] if len(ab) == 1 else ab)
+        if isinstance(ab, dict):
+            for pv in ab.get('additionalProperty') or []:
+                if isinstance(pv, dict):
+                    pv.pop('measurementTechnique', None)
+            if ab.get('@id') == url + '#wirkstoff':
+                for k in ('@id', 'alternateName', 'sameAs', 'bioChemInteraction'):
+                    ab.pop(k, None)
+                ab['@type'] = 'Thing'
+                # @type wieder an den Anfang, wie vorher
+                n['about'] = dict([('@type', 'Thing')] + [(k, v) for k, v in ab.items() if k != '@type'])
 
 
 def erweitern(graph, e, daten, z, url, en, de_titel):
+    """Variante 2 (Entscheidung 14.11.2026): keine medizinischen Typen (PROJEKT.md Abschnitt 7).
+    Der vorhandene about-Knoten (Thing mit den BK-Score-PropertyValues) wird angereichert:
+    measurementTechnique → DefinedTerm BK-Score, bei Wirkstoffen @id, alternateName und – nur bei
+    eindeutiger Zielstruktur – MolecularEntity mit sameAs ChEMBL und bioChemInteraction (UniProt)."""
     art = next((n for n in graph if ist_artikel(n)), None)
     if art is None:
         return False
-    art['@type'] = ['Article', 'MedicalWebPage']
-    if art.get('dateModified'):
-        art['lastReviewed'] = art['dateModified']
-    namen = EN_NAMEN if en else DE_NAMEN
-    art['additionalProperty'] = [
-        {'@type': 'PropertyValue', 'name': 'BK-Score: ' + n, 'value': e[a], 'minValue': 0, 'maxValue': 10,
-         'measurementTechnique': {'@id': TERM}} for a, n in zip(ACHSEN, namen)]
     ab = art.get('about')
-    about_name = ab.get('name') if isinstance(ab, dict) else None
-    w = wirkstoff(e, daten, z, url, en, about_name, de_titel)
-    if w:
-        art['about'] = ([ab] if isinstance(ab, dict) else list(ab or [])) + [w]
+    if isinstance(ab, dict):
+        for pv in ab.get('additionalProperty') or []:
+            if isinstance(pv, dict) and str(pv.get('name', '')).startswith('BK-Score: '):
+                pv['measurementTechnique'] = {'@id': TERM}
+        w = wirkstoff(e, daten, z, url, en, ab.get('name'), de_titel)
+        if w:
+            neu = {'@type': 'MolecularEntity' if 'sameAs' in w else 'Thing', '@id': w['@id']}
+            for k, v in ab.items():
+                if k not in ('@type', '@id'):
+                    neu[k] = v
+            for k in ('alternateName', 'sameAs', 'bioChemInteraction'):
+                if k in w:
+                    neu[k] = w[k]
+            art['about'] = neu
     graph.append(begriff(en))
     return True
 
@@ -305,7 +320,7 @@ def main():
     print('schema_plus.py%s: %d Seiten %s, %d unverändert, %d ohne Score (unverändert gelassen), methodik: %d'
           % (' --zurueck' if zurueck else '', neu, 'abweichend' if pruefen else 'geschrieben', gleich, ohne_score, m))
     if not zurueck:
-        print('  Wirkstoff-Knoten: ' + ' · '.join('%s %d' % kv for kv in sorted(typen.items()))
+        print('  Seiten je Kategorie (nur Zählung, keine Schema-Typen): ' + ' · '.join('%s %d' % kv for kv in sorted(typen.items()))
               + ' · mit ChEMBL/UniProt %d (DE+EN gezählt)' % mit_chembl)
     if sprung:
         print('  nicht verlustfrei umschreibbar, übersprungen: %d, z. B. %s' % (len(sprung), ', '.join(sprung[:5])))
