@@ -6,6 +6,10 @@ Aufruf nach einem Deploy, der live geprüft ist:
   python3 indexnow.py --git <basis-sha>                          # alle .html seit <basis-sha>
   python3 indexnow.py --alle                                     # alle URLs aus sitemap.xml
 
+Seit 15.11.2026 (Bing hat die meisten Inhaltsseiten „blockiert"): nur INHALTLICH geänderte Seiten melden.
+Mehr als 50 URLs auf einmal (typisch bei Layout-/Markup-Änderungen über viele Seiten) bricht das Skript ab;
+wer wirklich so viele inhaltlich geänderte Seiten hat, hängt --viele an. --alle nur nach Rücksprache.
+
 Der Schlüssel ist öffentlich (liegt als Datei im Wurzelverzeichnis), kein Geheimnis.
 """
 import json, re, subprocess, sys, urllib.request
@@ -36,7 +40,11 @@ def melden(urls):
 
 
 if __name__ == '__main__':
-    u = urls_aus(sys.argv[1:])
+    args = [a for a in sys.argv[1:] if a != '--viele']
+    u = urls_aus(args)
     if not u:
         sys.exit('keine URLs')
+    if len(u) > 50 and '--viele' not in sys.argv:
+        sys.exit('%d URLs – zu viele für eine Meldung. Nur inhaltlich geänderte Seiten einzeln melden '
+                 '(oder bewusst mit --viele).' % len(u))
     melden(u)
