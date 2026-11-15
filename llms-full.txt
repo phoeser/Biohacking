@@ -2577,6 +2577,11 @@ https://biohackingkompakt.de/vergleich/fisetin-vs-quercetin.html
 
 Beide werden als Senolytika vermarktet, also als Mittel, die gealterte Zellen gezielt beseitigen – und bei beiden ist genau das am Menschen nicht gezeigt. Fisetin hat inzwischen mehrere kleine randomisierte Studien mit Surrogatmarkern wie Entzündungswerten; eine randomisierte Arthrose-Studie mit 75 Teilnehmern fand keinen Unterschied bei Nebenwirkungen und Entzündungsmarkern, und die Lebensspannenverlängerung aus der Maus wurde im unabhängigen Interventions Testing Program nicht bestätigt. Quercetin hat mehr Humandaten, aber zu etwas anderem: eine Blutdrucksenkung um 2 bis 3 mmHg systolisch, übereinstimmend in drei Meta-Analysen. Bezeichnend ist der regulatorische Befund – die EFSA hat genau die Claims, mit denen Quercetin beworben wird, mangels Evidenz abgelehnt. Im senolytischen Kontext ist die Kombination aus Dasatinib und Quercetin weiter als beide Einzelstoffe.
 
+## Mittel gegen Haarausfall: was am Menschen belegt ist
+https://biohackingkompakt.de/vergleich/haarausfall-mittel-im-ueberblick.html
+
+Am besten belegt sind die beiden Mittel, die in Deutschland gegen erblich bedingten Haarausfall zugelassen sind: Finasterid und Minoxidil. Bei beiden ist der Effekt in verblindeten Studien ausgezählt, sie bremsen den Haarverlust, und zusätzlich wachsen Haare nach. Dutasterid schnitt in Studien sogar etwas besser ab als Finasterid, ist hierzulande gegen Haarausfall aber nicht zugelassen. Neue Wirkstoffe, die das Hormonsignal nur an der Kopfhaut blockieren sollen, sind in Phase 3, Zahlen gibt es bisher nur vom Hersteller. Für Biotin bei normaler Versorgung, Sägepalme, GHK-Cu oder Exosomen fehlen belastbare Daten am Kopfhaar (Stand 15.11.2026).
+
 ## HMB (β-Hydroxy-β-Methylbutyrat) vs. Leucin
 https://biohackingkompakt.de/vergleich/hmb-vs-leucin.html
 
