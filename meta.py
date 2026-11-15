@@ -2,6 +2,8 @@
 """Snippet-Pflege für alle Seiten (idempotent, seit 25.10.2026).
 
 - Titel: länger als 60 Zeichen → Zusatz „ | Biohacking Kompakt“ weglassen (Google kürzt sonst).
+  Länger als 70 Zeichen (Bing meldet „Titel ist zu lang“, seit 15.11.2026) → am letzten Komma oder
+  Gedankenstrich vor Zeichen 70 kürzen, sonst am letzten Leerzeichen mit „…“.
 - Beschreibung (meta description + og:description + twitter:description): höchstens 160 Zeichen.
   Feste Kurzfassungen stehen in docs/meta-kurz.json (Pfad → Text). Ohne Eintrag werden ganze
   Sätze vom Anfang genommen, solange sie in 160 Zeichen passen.
@@ -15,6 +17,7 @@ import glob, html, json, os, re, subprocess, sys
 
 SITE = 'https://biohackingkompakt.de'
 MAX_T, MAX_D = 60, 160
+MAX_T_HART = 70
 MARKE = ' | Biohacking Kompakt'
 AUS = ('demo/', 'docs/', 'podcast-scripts/', 'node_modules/')
 OHNE = {'stimmtest.html', 'auto_deploy.html', 'googlec0a597051d28023f.html'}
@@ -33,6 +36,16 @@ def kuerzen(t):
             break
         out = neu
     return out if len(out) >= 90 else None  # zu kurz = ohne Thema, dann Kurzfassung nötig
+
+
+def titel_kuerzen(t):
+    kopf = t[:MAX_T_HART + 3]
+    i = max(kopf.rfind(x) for x in (', ', ' – ', ' - ', ': '))
+    i = i if i <= MAX_T_HART else max(t[:MAX_T_HART].rfind(x) for x in (', ', ' – ', ' - ', ': '))
+    if i >= 55:
+        return t[:i].rstrip(' ,–-:')
+    i = t[:MAX_T_HART - 1].rfind(' ')
+    return t[:i].rstrip(' ,–-:') + '…'
 
 
 def esc(t):
@@ -71,6 +84,10 @@ def bearbeite(pfad, h):
             if neu != t:
                 h = re.sub(r'<title>.*?</title>', lambda x: f'<title>{esc(neu)}</title>', h, count=1, flags=re.S)
                 z['titel_klammer'] = 1
+        if len(t) > MAX_T_HART:
+            neu = titel_kuerzen(t)
+            h = re.sub(r'<title>.*?</title>', lambda x: f'<title>{esc(neu)}</title>', h, count=1, flags=re.S)
+            z['titel_70'] = 1
     # Beschreibung
     m = re.search(r'<meta name="description" content="([^"]*)"', h)
     if m:

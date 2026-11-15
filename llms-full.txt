@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-11-14
+Stand: 2026-11-15
 
 # Fragen & Beschwerden
 
@@ -2278,7 +2278,7 @@ Thymulin ist kein erfundenes Szene-Peptid, sondern ein echtes Hormon des Thymus:
 ## Tirzepatide (Mounjaro / Zepbound)
 https://biohackingkompakt.de/thema/tirzepatide.html
 
-Tirzepatid aktiviert zwei Darmhormon-Rezeptoren gleichzeitig und erzielt die höchsten Gewichtszahlen seiner Wirkstoffklasse. Der große Herz-Kreislauf-Endpunktversuch verfehlte jedoch die Überlegenheit gegenüber einem älteren Vergleichswirkstoff, und nach dem Absetzen kehrt das Gewicht zurück.
+Tirzepatid (Mounjaro) ist in der EU seit 2022 zum Abnehmen und bei Typ-2-Diabetes zugelassen und aktiviert zwei Darmhormon-Rezeptoren gleichzeitig. In SURMOUNT-1 verloren Erwachsene ohne Diabetes bis zu 20,9 Prozent ihres Gewichts in 72 Wochen (Placebo 3,1 Prozent), im direkten Vergleich SURMOUNT-5 20,2 gegenüber 13,7 Prozent unter Semaglutid. Der große Herz-Kreislauf-Endpunktversuch zeigte Nichtunterlegenheit, aber keine Überlegenheit gegenüber einem älteren Vergleichswirkstoff, und nach dem Absetzen kehrt das Gewicht zurück.
 
 ## TMG (Trimethylglycin)
 https://biohackingkompakt.de/thema/tmg.html
@@ -2651,6 +2651,11 @@ Beide liefern dieselben Fettsäuren EPA und DHA, und beide senken die Triglyzeri
 https://biohackingkompakt.de/vergleich/orforglipron-vs-semaglutide.html
 
 Beide aktivieren denselben GLP-1-Rezeptor, und beide sind in großen Phase-3-Studien geprüft. Semaglutid hat die tiefere Datenlage: In STEP 1 sank das Gewicht um 14,9 gegenüber 2,4 Prozent, SELECT mit 17.604 Personen senkte schwere Herz-Kreislauf-Ereignisse von 8,0 auf 6,5 Prozent, und Wegovy ist seit 2022 in der EU zugelassen. Orforglipron ist kein Peptid, sondern ein kleines, säurestabiles Molekül und kommt deshalb als Tablette ohne Hilfsstoff aus, die Semaglutid-Tablette braucht einen und wird laut US-Fachinformation trotzdem nur zu etwa 1 bis 2 Prozent aufgenommen; in ATTAIN-1 sank das Gewicht um 11,2 gegenüber 2,1 Prozent. Harte Endpunkte fehlen noch. Zugelassen ist es in den USA, in der EU hat der Fachausschuss der EMA die Zulassung im Oktober 2026 empfohlen, die Entscheidung der EU-Kommission stand am 13.11.2026 noch aus. Direkt verglichen wurden beide nur bei Typ-2-Diabetes mit der Semaglutid-Tablette, in der von Lilly finanzierten Studie ACHIEVE-3, offen und mit dem Blutzucker als Endpunkt. Beides sind Arzneimittel, die Entscheidung gehört in ärztliche Hand.
+
+## Peptide 2026 im Überblick: Studienlage und Zulassung
+https://biohackingkompakt.de/vergleich/peptide-im-ueberblick.html
+
+Am besten untersucht sind die Peptide, die irgendwo für eine bestimmte Krankheit zugelassen sind: Thymosin alpha-1 in über 30 Ländern, Tesamorelin, PT-141 und SS-31 in den USA, jeweils für eng umrissene Anwendungen. EU-weit ist keines der 23 Peptide zugelassen. Die bekanntesten Szene-Peptide wie BPC-157, TB-500 oder KPV stützen sich vor allem auf Tierversuche, ihre Wirkung beim Menschen ist kaum geprüft. Viele davon sind im Sport jederzeit verboten (Stand 15.11.2026).
 
 ## Resveratrol vs. Pterostilben
 https://biohackingkompakt.de/vergleich/resveratrol-vs-pterostilben.html
