@@ -277,7 +277,7 @@
  "en/tipp/zyklus-tracking.html": "Training by menstrual cycle phase: the phase effect exists but is trivially small. Performance, muscle growth and the calendar scheme were all tested.",
  "en/vergleich/ashwagandha-vs-rhodiola.html": "Ashwagandha vs. rhodiola: rhodiola is slightly ahead with small endurance effects, but lacks replication. For ashwagandha, the BfR warns of liver damage.",
  "en/vergleich/bpc-157-vs-tb-500.html": "BPC-157 vs. TB-500: neither has published controlled human studies. The promised effects on tendons, gut and wound healing come from rat and cell models.",
- "en/vergleich/brustgurt-vs-wearable.html": "Chest strap and wearable both report HRV but measure different things: the heart’s electrical signal versus light. Their accuracy differs over tenfold.",
+ "en/vergleich/brustgurt-vs-wearable.html": "For HRV, a chest strap was off by 2.16 % against ECG, a smartwatch by 28.88 %. When the strap is worth it and when a wearable's night trend is enough.",
  "en/vergleich/index.html": "Direct comparisons answer the real question, this one or that one, with the BK-Score numbers side by side and the short answer right at the top.",
  "en/vergleich/kollagen-vs-hyaluronsaeure.html": "Collagen peptides and hyaluronic acid share short, cosmetic, often industry-funded studies. Oral hyaluronic acid is slightly ahead, collagen data are thin.",
  "en/vergleich/loewenmaehne-vs-bacopa.html": "Bacopa monnieri improves working memory in a 2026 network meta-analysis. Lion’s mane has one small pilot study; its neurogenesis story is from animals.",
@@ -567,5 +567,16 @@
  "en/thema/drostanolon.html": "Drostanolone (Masteron) was a 1970s breast cancer drug; about 1 in 4 patients responded. No muscle-building study exists. Side effects and legal status.",
  "en/thema/maca.html": "Maca raised sexual desire in healthy men in a 12-week double-blind study; testosterone stayed unchanged. Red vs. black maca, side effects and EU status.",
  "thema/bpc-157.html": "BPC-157 im Faktencheck: 3 kleine Humanstudien mit 30 Personen, keine randomisierte. Säurestabil, Wirkmechanismus nur aus Tierversuchen, im Sport verboten.",
- "en/thema/maritide.html": "MariTide (maridebart cafraglutide), injected every 4 weeks: in phase 2, weight fell 12.3 to 16.2 % in 52 weeks vs. 2.5 % on placebo. Phase 3 is under way."
+ "en/thema/maritide.html": "MariTide (maridebart cafraglutide), injected every 4 weeks: in phase 2, weight fell 12.3 to 16.2 % in 52 weeks vs. 2.5 % on placebo. Phase 3 is under way.",
+ "en/thema/ara-290.html": "ARA-290 (cibinetide), an EPO-derived peptide, was tested for nerve pain. What the small trials showed, known side effects and why the largest trial failed.",
+ "en/thema/ru58841.html": "RU58841 is a topical antiandrogen for hair loss, never approved. It worked in hamsters and monkeys, yet no human study exists. Risks and legal status.",
+ "en/thema/alprostadil.html": "Alprostadil is approved for erectile dysfunction as injection, urethral pellet and cream. How well each form works and which side effects are known.",
+ "en/thema/exosomen.html": "Exosomes are sold as a stem cell alternative for skin, hair and joints. Human data: small, uncontrolled studies, 125 patients in total. Risks and status.",
+ "en/thema/boldenon.html": "Boldenone (Equipoise) is a veterinary steroid for horses, not approved for humans. No study tests its effect in people. Known harms and legal status.",
+ "en/thema/glp-3.html": "GLP-3 is the street name for retatrutide, up to 28.3 % weight loss in trials. Why grey-market “GLP-3” is not the trial product and what is known on safety.",
+ "en/thema/alpha-gpc.html": "Alpha-GPC supplies choline for acetylcholine. What studies show for memory and sport, which side effects occur and what the Korean stroke signal means.",
+ "en/thema/yohimbin.html": "Yohimbine raises noradrenaline by blocking alpha-2 receptors. What studies show for erections and fat loss, which side effects occur and its legal status.",
+ "en/thema/methandrostenolon.html": "Dianabol is prescription-only in Germany and banned in sport. In small 1970s studies it raised weight, not reliably strength. Liver damage is documented.",
+ "en/thema/trenbolon.html": "Trenbolone is a cattle-fattening steroid, not approved for humans. No controlled human study exists; harms show up in surveys and case reports.",
+ "en/folge/16.html": "MK-677 (ibutamoren) makes the body release its own growth hormone. Episode 16 checks the studies and the warning signs for heart and blood sugar."
 }
