@@ -324,7 +324,7 @@ def bauen(q, cache):
 .st-info{{font-size:.85rem;color:var(--dim);margin:4px 0 14px}}
 .st-liste{{list-style:none;padding:0;margin:0}}
 .st-liste li[hidden]{{display:none}}
-.st-liste li{{padding:12px 0;border-bottom:1px solid var(--rand);display:flex;flex-direction:column;gap:3px}}
+.st-liste li{{padding:12px 0;border-bottom:1px solid var(--rand);display:flex;flex-direction:column;gap:3px;content-visibility:auto;contain-intrinsic-size:auto 96px}}
 .st-t{{font-weight:600;color:var(--text);text-decoration:none;line-height:1.4}} .st-t:hover{{color:var(--akzent)}}
 .st-m{{font-size:.85rem;color:var(--gedaempft)}} .st-n{{font-size:.85rem;color:var(--gedaempft);font-style:italic}}
 .st-bei{{font-size:.85rem;color:var(--dim)}} .st-bei a{{color:var(--akzent-2)}}
