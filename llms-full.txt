@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-11-15
+Stand: 2026-11-16
 
 # Fragen & Beschwerden
 
@@ -2733,6 +2733,11 @@ Beide sind essenzielle Mineralstoffe, beide an über 300 Enzymen beteiligt, beid
 https://biohackingkompakt.de/tipp/altitude-training.html
 
 Die Hämoglobinmasse steigt unter Höhenexposition um etwa 1,1 % je 100 Stunden, und nach der Höhe liegt sie bis zu 20 Tage lang etwa 3,3 % über dem Ausgangswert. In der Originalstudie verbesserte sich die 5.000-m-Zeit aber nur in der Gruppe, die hoch schlief und tief trainierte. Die Dosis wird in Stunden gemessen: empfohlen werden über 14 Stunden täglich über drei bis vier Wochen, also über 300 Stunden. Die individuelle Streuung ist groß, und die beiden bestkontrollierten Studien fanden gar keinen Effekt. Ohne ausreichenden Eisenstatus läuft die Blutbildung ohnehin nicht.
+
+## Analysezertifikat bei Peptiden: worauf es ankommt
+https://biohackingkompakt.de/tipp/analysezertifikat-peptide.html
+
+Ein unabhängiger Labortest ist der einzige Weg, bei Peptiden aus dem Graumarkt halbwegs zu wissen, was in der Ampulle ist. Ein brauchbarer Bericht nennt Identität, Reinheit, Gehalt in Milligramm und die Chargennummer – und lässt sich beim Labor selbst nachprüfen. Wie nötig das ist, zeigt eine Studie mit online gekauftem Semaglutid: Die Reinheit lag weit unter den beworbenen 99 Prozent, und in allen Proben fanden sich Endotoxine. Ein guter Bericht macht ein Produkt aber weder zugelassen noch sicher – er sagt nur, was in genau dieser Probe war.
 
 ## Apfelessig vor Mahlzeiten
 https://biohackingkompakt.de/tipp/apfelessig.html
