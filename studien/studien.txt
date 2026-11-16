@@ -1,6 +1,6 @@
 # Studien-Datenbank von Biohacking Kompakt
 
-Stand: 15.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
+Stand: 16.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten von biohackingkompakt.de stützen, geordnet nach Thema. Der Studientyp kommt aus PubMed bzw. Europe PMC und ist eine Orientierung, keine Qualitätsnote: Eine Tierstudie sagt nichts über den Menschen. Die Bewertung eines Themas steht auf der jeweiligen Themenseite (BK-Score). Durchsuchbar unter https://biohackingkompakt.de/studien/
 
 ## Thema: 17α-Estradiol (Alfatradiol) (https://biohackingkompakt.de/thema/17-alpha-estradiol.html)
 9 Studien: 6 Tier- oder Laborstudie, 2 Randomisierte Studie, 1 Übersichtsartikel.
@@ -5895,6 +5895,15 @@ Stand: 15.11.2026. Alle Studien und Behördenquellen, auf die sich die Seiten vo
 - Übersichtsartikel, 2004: How many steps/day are enough? Preliminary pedometer indices for public health (Tudor-Locke C et al., Sports Med). https://pubmed.ncbi.nlm.nih.gov/14715035/
 - Sonstige Studie, 2023: Journey of a thousand miles: from 'Manpo-Kei' to the first steps-based physical activity recommendations (Stamatakis E et al., Br J Sports Med). https://pubmed.ncbi.nlm.nih.gov/37549996/
 - Behörde/Recht (AWMF-Leitlinien): DVO, S3-Leitlinie Körperliches Training zur Frakturprophylaxe, AWMF 183-002, Version 1.1 vom 11.02.2025. https://register.awmf.org/de/leitlinien/detail/183-002
+
+## Tipp: Analysezertifikat bei Peptiden: worauf es ankommt (https://biohackingkompakt.de/tipp/analysezertifikat-peptide.html)
+- Behörde/Recht (Weitere Quellen): Ashraf AR et al., J Med Internet Res 2024;26:e65440 – Qualität und Sicherheit von Semaglutid aus Online-Verkauf ohne Rezept. https://www.jmir.org/2024/1/e65440
+- Behörde/Recht (Weitere Quellen): DAkkS – Suche nach akkreditierten Prüflaboren in Deutschland. https://www.dakks.de/de/akkreditierte-stellen-suche.html
+- Behörde/Recht (Weitere Quellen): Deutsches Ärzteblatt, 19.10.2023 – Europäische Arzneimittelagentur warnt vor gefälschten Ozempic-Pens. https://www.aerzteblatt.de/nachrichten/146780/Ozempic-Europaeische-Arzneimittelagentur-warnt-vor-gefaelschten-Diabetespens
+- Behörde/Recht (Weitere Quellen): Finnrick – So liest man ein Analysezertifikat. https://www.finnrick.com/blog/how-to-read-a-certificate-of-analysis-coa
+- Behörde/Recht (Weitere Quellen): Finnrick – Testmethodik (Probenkauf, Partnerlabore, Bewertungsregeln). https://www.finnrick.com/about/testing-methodology
+- Behörde/Recht (Weitere Quellen): Freedom Diagnostics – Testangebot und Bericht-Suche. https://www.freedomdiagnosticstesting.com/
+- Behörde/Recht (Weitere Quellen): Peptide Suppliers – Vergleich der Testlabore Janoshik, Vanguard und Freedom Diagnostics (Preise, Akkreditierung, Verifikation). https://www.peptidesuppliers.tech/guides/peptide-testing-labs
 
 ## Tipp: Apfelessig vor Mahlzeiten (https://biohackingkompakt.de/tipp/apfelessig.html)
 8 Studien: 3 Sonstige Studie, 2 Meta-Analyse / Übersicht, 1 Fallbericht, 1 Randomisierte Studie, 1 Klinische Studie.
