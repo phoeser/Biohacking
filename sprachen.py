@@ -85,6 +85,12 @@ def main():
             geaendert.append(pfad)
         if bearbeite(en, pfad, "en"):
             geaendert.append("en/" + pfad)
+    # Startseiten (seit 17.11.2026): / und /en/ verweisen per hreflang aufeinander.
+    # index.html hat keine Kopfzeile -> nur hreflang; en/index.html behält ihren Umschalter.
+    if bearbeite(os.path.join(WURZEL, "index.html"), "index.html", "de"):
+        geaendert.append("index.html")
+    if bearbeite(os.path.join(WURZEL, "en", "index.html"), "index.html", "en"):
+        geaendert.append("en/index.html")
     print(f"{len(geaendert)} Dateien aktualisiert")
 
 
