@@ -796,6 +796,37 @@ const SHOPS = [
       ]
     }
   },
+  {
+    // Veritalys: Testservice fuer Forschungspeptide (kein Haendler, verkauft
+    // selbst keine Peptide). Partnerprogramm per Mail vom 18.11.2026:
+    // Link mit ref=BIOHACKINGKOMPAKT, 5 % Rabatt auf das vollstaendige
+    // Testpaket ohne Code, 10 % Provision, monatliche Abrechnung, Auszahlung
+    // per Ueberweisung ab 50 Euro. Veritalys nennt weder Partnerlabor noch
+    // Firmenangaben (kein Impressum) – Paul hat trotzdem freigegeben (19.11.2026).
+    // Deshalb steht die Einschraenkung offen im Text. Keine eigene Erfahrung,
+    // daher bewertung: null (keine Sterne).
+    id: 'veritalys',
+    name: 'Veritalys',
+    demo: false,
+    url: 'https://veritalys.com/',
+    land: 'EU',
+    kategorien: ['Analytik', 'Peptidtests'],
+    bewertung: null,
+    versand: 'Probe per Post an das Partnerlabor, der Versand dorthin ist nicht im Preis. Identität, Gehalt und Reinheit nach 7 bis 10 Werktagen, Keimprüfungen etwa zwei Wochen später.',
+    zahlung: 'Bestellung und Zahlung online.',
+    qualitaet: 'Verkauft selbst keine Peptide, sondern testet sie: Identität gegen einen Referenzstandard, Gehalt in mg pro Fläschchen, Reinheit mit Chromatogramm; in den größeren Paketen Endotoxine (LAL) sowie Keimzahl, Hefen/Schimmel, E. coli und Salmonellen. Jeder Bericht hat eine feste Nummer, prüfbar auf veritalys.com/verify. Einschränkung: Veritalys nennt weder das jeweilige Partnerlabor noch Firmenangaben, ein Impressum fehlt auf der Website (Stand 19.11.2026).',
+    preis: 'Je nach Stoff etwa 159 bis 369 Euro, mit Endotoxinen 249 bis 409 Euro, volles Paket 419 bis 589 Euro (Stand 19.11.2026).',
+    zoll: 'Kein Thema, Partnerlabore in der EU.',
+    erfahrung: 'Noch keine eigene Erfahrung – Angaben laut Anbieter und Website, Stand 19.11.2026. Worauf es bei einem Prüfbericht ankommt, steht im Ratgeber Analysezertifikat. Wenn du dort testen lässt, schreib mir, wie es gelaufen ist.',
+    affiliate: {
+      aktiv: true,
+      url: 'https://veritalys.com/order?ref=BIOHACKINGKOMPAKT',
+      codes: [],
+      prozent: '5 %',
+      rabatt: 'auf das vollständige Testpaket, wird beim Bezahlen automatisch abgezogen',
+      hinweis: 'Anzeige: Affiliate-Link. Bestellst du darüber, sparst du 5 % und ich erhalte eine Provision – dein Rabatt wird dadurch nicht kleiner.'
+    }
+  },
   // ---------------------------------------------------------------------------
   // Wearables. Gehoeren hierher, weil die Frage „wo kaufe ich das" bei Tracker
   // und Ring genauso gestellt wird wie bei Supplements - und weil zu beiden ein
