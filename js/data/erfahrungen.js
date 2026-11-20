@@ -898,13 +898,15 @@ const SHOPS = [
     url: '',
     land: 'DE',
     kategorien: ['Peptide'],
-    bewertung: 5,
-    versand: 'Lieferung wurde durchgehend als zuverlässig beschrieben.',
+    // 20.11.2026 auf Pauls Wunsch von 5 auf 4 Sterne: weiter schnelle Lieferung und viele
+    // Aktionen, aber ein Bericht über eine Falschlieferung ohne erfolgreiche Reklamation.
+    bewertung: 4,
+    versand: 'Lieferung wurde durchgehend als schnell und zuverlässig beschrieben. Berichtet wurde aber auch ein Fall mit falsch gelieferter Ware, bei dem eine Reklamation nicht durchzubringen war.',
     zahlung: null,
     qualitaet: 'Qualität wurde wiederholt als gut beschrieben.',
-    preis: 'Preislich attraktiv, mit regelmäßigen Aktionen.',
+    preis: 'Preislich attraktiv, mit vielen Aktionen und Rabatten.',
     zoll: null,
-    erfahrung: 'Inzwischen mehrfach und durchgehend positiv berichtet – zuverlässige Lieferung, gute Qualität. Preislich attraktiv, es gibt regelmäßig Aktionen. Wichtig: Auf die genaue Schreibweise achten – es existiert eine fast identische Domain ohne das End-e, siehe Warnung weiter unten. Stand August 2026.',
+    erfahrung: 'Mehrfach positiv berichtet: schnelle Lieferung, gute Qualität, preislich attraktiv, und es gibt viele Aktionen. Es gibt aber auch einen Bericht über eine falsche Lieferung, die sich danach nicht reklamieren ließ – deshalb im Moment vier statt fünf Sterne. Ein Einzelfall aus zweiter Hand, von mir nicht selbst überprüft. Wichtig: Auf die genaue Schreibweise achten – es existiert eine fast identische Domain ohne das End-e, siehe Warnung weiter unten. Stand 20.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
@@ -944,18 +946,21 @@ const SHOPS = [
     // Sortiment, damals noch keine Erfahrungsberichte. Wie bei den anderen Peptid-Shops ohne Link und
     // ohne Sterne. Alles unten ist selbst nachgesehen (Website, Impressum,
     // Produktliste am 27.09.2026), keine weitergegebenen Berichte.
+    // 20.11.2026 auf Pauls Wunsch von 2 auf 4 Sterne: sehr gute Preise (v. a. 10er-Pakete),
+    // Lieferung dauert teils sehr lange.
     id: 'thepeptidedesk',
     name: 'thepeptidedesk.io (The Peptide Desk)',
     demo: false,
     url: '',
     land: 'Hongkong / Lager in DE',
     kategorien: ['Peptide'],
-    bewertung: 2,
-    versand: 'Nach eigener Angabe Versand aus einem deutschen Lager mit DHL und Sendungsverfolgung, Expressware in 1–2 Tagen. Berichtet (Oktober 2026): Eine Bestellung war nach über zwei Wochen noch nicht verschickt, mehrere Mails an den Support blieben ohne Antwort.',
+    bewertung: 4,
+    preis: 'Sehr gute Preise, vor allem bei 10er-Paketen.',
+    versand: 'Nach eigener Angabe Versand aus einem deutschen Lager mit DHL und Sendungsverfolgung, Expressware in 1–2 Tagen. Berichtet: Die Lieferung dauert zum Teil sehr lange; im Oktober 2026 war eine Bestellung nach über zwei Wochen noch nicht verschickt, mehrere Mails an den Support blieben damals ohne Antwort.',
     zahlung: 'Nach eigener Angabe SEPA, Karte, Apple Pay oder Krypto (Krypto mit Rabatt – dann ohne Käuferschutz der Karte).',
     qualitaet: 'Wirbt mit unabhängigen Laboranalysen samt Prüfschlüssel je Charge. Von uns noch nicht gegengeprüft.',
     zoll: 'Kein Thema, solange aus dem deutschen Lager versendet wird.',
-    erfahrung: 'Erster Erfahrungsbericht, aus zweiter Hand (Oktober 2026): Preise gut, Shop und Auftritt machen einen ordentlichen Eindruck. Die Bestellung eines Community-Mitglieds war aber nach über zwei Wochen noch nicht einmal verschickt, und auf mehrere Mails kam vom Support keine Antwort. Das wirkt seltsam – deshalb vorerst zwei Sterne und Vorsicht bei der Empfehlung. Sollte die Ware gar nicht ankommen, senke ich auf einen Stern. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Aufgenommen hatten wir den Shop am 27.09.2026 wegen des auffälligen Sortiments: rund 250 Wirkstoffe, darunter viele Peptide, die es anderswo kaum gibt (etwa CagriSema, Eloralintid, ACE-031, die Khavinson-Peptide Cortagen und Cardiogen). Nachprüfbar ist: Betreiber laut Impressum ist die Monvex Limited mit Sitz in Hongkong; einer Verbraucherschlichtung nimmt der Anbieter nicht teil. Wichtig zur Einordnung: Das Sortiment geht weit über Peptide hinaus und umfasst laut Produktliste auch Anabolika, verschreibungspflichtige Medikamente, EPO und DNP – Stoffe, deren Handel und Besitz in Deutschland teils verboten und die teils gefährlich sind. Stand 15.10.2026.',
+    erfahrung: 'Inzwischen mehrere Berichte aus zweiter Hand: sehr gute Preise, vor allem bei 10er-Paketen, Shop und Auftritt machen einen ordentlichen Eindruck. Der Haken ist die Lieferzeit – sie dauert zum Teil sehr lange, und im Oktober 2026 war eine Bestellung nach über zwei Wochen noch nicht einmal verschickt, der Support antwortete damals nicht. Unterm Strich derzeit vier Sterne; wer es eilig hat, ist hier falsch. Von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Aufgenommen hatten wir den Shop am 27.09.2026 wegen des auffälligen Sortiments: rund 250 Wirkstoffe, darunter viele Peptide, die es anderswo kaum gibt (etwa CagriSema, Eloralintid, ACE-031, die Khavinson-Peptide Cortagen und Cardiogen). Nachprüfbar ist: Betreiber laut Impressum ist die Monvex Limited mit Sitz in Hongkong; einer Verbraucherschlichtung nimmt der Anbieter nicht teil. Wichtig zur Einordnung: Das Sortiment geht weit über Peptide hinaus und umfasst laut Produktliste auch Anabolika, verschreibungspflichtige Medikamente, EPO und DNP – Stoffe, deren Handel und Besitz in Deutschland teils verboten und die teils gefährlich sind. Stand 20.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
@@ -963,6 +968,7 @@ const SHOPS = [
     // 25.10.2026 auf Pauls Wunsch auf 1 Stern gesenkt (Vials unprofessionell, zu wenig Inhalt).
     // 01.11.2026 auf Pauls Wunsch auf 5 Sterne, 02.11.2026 auf 4 Sterne gesetzt: dieselbe Person berichtet nach Kontakt
     // mit dem Shop (Erklaerung, Entschuldigung fuer die Aufmachung), es scheine alles in Ordnung.
+    // 20.11.2026 auf Pauls Wunsch wieder auf 5 Sterne.
     // Bericht aus zweiter Hand, nicht selbst geprueft – deshalb als solcher
     // gekennzeichnet und ohne Betrugs- oder Faelschungsbehauptung. Nachpruefbar
     // (Trustpilot, abgerufen 15.10.2026): Sitzangabe Sheridan, USA; Gesamt-
@@ -974,13 +980,13 @@ const SHOPS = [
     url: '',
     land: 'USA (laut Trustpilot-Profil)',
     kategorien: ['Peptide'],
-    bewertung: 4,
+    bewertung: 5,
     versand: 'Bestellung und Abwicklung wurden als sehr professionell beschrieben.',
     zahlung: null,
     preis: 'Sehr günstige Preise.',
     qualitaet: 'Nach der ersten Lieferung kritisiert (Vials wirkten unprofessionell, Füllmenge schien zu gering). Laut demselben Bericht hat der Shop das inzwischen erklärt und sich für die Aufmachung entschuldigt; es scheine alles in Ordnung. Von uns nicht selbst geprüft.',
     zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
-    erfahrung: 'Ein Bericht aus zweiter Hand, mit einer Wende. Zuerst kamen sehr günstige Preise und eine reibungslose Bestellung, dann eine Enttäuschung bei der Ware: Die Vials wirkten unprofessionell, der Inhalt zu gering – deshalb stand der Shop hier zeitweise bei einem Stern. Inzwischen hat sich der Shop bei derselben Person gemeldet, sehr gut kommuniziert, die Aufmachung erklärt und sich dafür entschuldigt. Nach ihrer Einschätzung scheint alles in Ordnung, und der Shop macht jetzt einen sehr professionellen Eindruck – daher am 01.11.2026 auf vier Sterne gesetzt. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Stand 02.11.2026.',
+    erfahrung: 'Ein Bericht aus zweiter Hand, mit einer Wende. Zuerst kamen sehr günstige Preise und eine reibungslose Bestellung, dann eine Enttäuschung bei der Ware: Die Vials wirkten unprofessionell, der Inhalt zu gering – deshalb stand der Shop hier zeitweise bei einem Stern. Inzwischen hat sich der Shop bei derselben Person gemeldet, sehr gut kommuniziert, die Aufmachung erklärt und sich dafür entschuldigt. Nach ihrer Einschätzung scheint alles in Ordnung, und der Shop macht jetzt einen sehr professionellen Eindruck – daher inzwischen fünf Sterne. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Stand 20.11.2026.',
     affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
   },
   {
