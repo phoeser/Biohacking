@@ -187,6 +187,7 @@ ul { padding-left: 1.2em } li { margin: 5px 0 }
 .vw li a { font-weight: 600; text-decoration: none; color: var(--text) }
 .vw li a:hover { color: var(--akzent) }
 @media (max-width: 560px) { .vw-grund { min-width: 100% } }
+.vw-grund { max-width: 100%; flex-shrink: 1; overflow-wrap: anywhere }
 
 /* Kurzantwort ganz oben - der Block, den Assistenten und Snippets herausziehen */
 .kurz{background:#f2f8f5;border:1px solid #cfe4d9;border-left:3px solid #2f8b6a;border-radius:8px;padding:1rem 1.2rem;margin:1.4rem 0}
@@ -260,3 +261,31 @@ ul { padding-left: 1.2em } li { margin: 5px 0 }
 .aend-meta { font-size: .84rem; color: var(--gedaempft); margin: 0 0 6px }
 .aend-meta a { color: var(--akzent) }
 .aend-quelle { font-size: .86rem; color: var(--gedaempft); overflow-wrap: anywhere }
+
+/* ------------------------------------------- Kurzfakten (G1, 28.11.2026)
+ * Kasten „Kurzfakten“/„Key facts“ unter dem Antwort-Satz auf den Leuchtturm-
+ * Themenseiten (nov2/seo/kurzfakten.py). Schmale Tabelle, Kopfzeile in Markengrün.
+ */
+.kf { width: 100%; max-width: 640px; border-collapse: separate; border-spacing: 0; margin: 14px 0 4px;
+      font-size: .9rem; line-height: 1.5; border: 1px solid var(--rand); border-radius: 10px; overflow: hidden;
+      background: var(--flaeche) }
+.kf caption { caption-side: top; text-align: left; background: #2f8b6a; color: #fff; font-weight: 600;
+              font-size: .82rem; letter-spacing: .04em; text-transform: uppercase; padding: 6px 12px;
+              border-radius: 10px 10px 0 0 }
+.kf th, .kf td { text-align: left; vertical-align: top; padding: 7px 12px; border-top: 1px solid var(--rand) }
+.kf tr:first-child th, .kf tr:first-child td { border-top: 0 }
+.kf th { font-weight: 600; color: var(--gedaempft); width: 34%; min-width: 7.5em }
+.kf td { color: var(--text); overflow-wrap: anywhere }
+.kf a { color: var(--akzent) }
+.kf-q { color: var(--dim); font-size: .82rem; white-space: nowrap }
+@media (max-width: 560px) {
+  .kf th, .kf td { display: block; width: auto; padding: 6px 12px }
+  .kf th { padding-bottom: 0; border-top: 1px solid var(--rand) }
+  .kf td { border-top: 0; padding-top: 2px }
+  .kf tr:first-child th { border-top: 0 }
+  .kf-q { white-space: normal }
+}
+
+.sk-autor { white-space: nowrap }
+.sk-autor img { width: 22px; height: 22px; border-radius: 50%; vertical-align: -6px; margin-right: 6px; object-fit: cover }
+h1, h2 { overflow-wrap: break-word; hyphens: auto }

@@ -146,6 +146,7 @@ Inhalte sind Information, kein medizinischer Rat.
 ## Daten
 
 - [Biohacking-Report 2026: 527 Mittel im Faktencheck](https://biohackingkompakt.de/report/2026.html): Auswertung aller BK-Score-Einträge mit Kernzahlen, Grafiken und CSV-Download (CC BY 4.0).
+- [Hype-Index Q4 2026](https://biohackingkompakt.de/report/hype-index.html): quartalsweise Kennzahl – Anteil der Mittel, bei denen die Werbung weit vor den Daten liegt (Hype-Abstand ≤ 3: 268 von 527, 51 %), nach Bereich, mit CSV und Grafik (CC BY 4.0). Englisch: https://biohackingkompakt.de/en/report/hype-index.html
 - [Alle Bewertungen als JSON](https://biohackingkompakt.de/scores.json): 0-10 je Achse, mit Begründung
 - [Themenübersicht](https://biohackingkompakt.de/thema/): alle Einträge mit eigener URL
 - [Fragen & Beschwerden](https://biohackingkompakt.de/problem/): Einstiege über Alltagsfragen („Ständig müde", „Schlecht schlafen") mit direkter Antwort und Verweis auf die passenden Themen

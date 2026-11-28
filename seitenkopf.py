@@ -42,7 +42,7 @@ def seiten():
 
 def ohne_bloecke(s):
     """Entfernt alles, was nicht zum Lesetext gehört (für die Wortzählung)."""
-    s = re.sub(r'<!-- (seitenkopf|antwort|ziel|studien|verwandt|ziele|newsletter|anwender):start -->.*?<!-- \1:end -->', ' ', s, flags=re.S)
+    s = re.sub(r'<!-- (seitenkopf|antwort|ziel|studien|verwandt|ziele|newsletter|anwender|kurzfakten|transkript):start -->.*?<!-- \1:end -->', ' ', s, flags=re.S)
     s = re.sub(r'<(script|style|nav|form|button)\b[^>]*>.*?</\1>', ' ', s, flags=re.S | re.I)
     s = QUELLEN.sub(' ', s)
     s = re.sub(r'<section class="(?:vw|nl-box|ziel)\b[^"]*"[^>]*>.*?</section>', ' ', s, flags=re.S)
@@ -70,15 +70,18 @@ def datum(s):
 
 
 def zeile(en, minuten, n_quellen, d, anker):
+    autor = ('<span class="sk-autor"><img src="/bilder/paul-hoeser-64.webp" alt="" width="22" height="22" loading="lazy" decoding="async">'
+             + ('By <a href="/en/ueber-uns.html#paul-hoeser">Paul Höser</a>' if en else 'Von <a href="/ueber-uns.html#paul-hoeser">Paul Höser</a>')
+             + '</span>')
     if en:
-        teile = ['<b>%d min</b> read' % minuten]
+        teile = [autor, '<b>%d min</b> read' % minuten]
         if n_quellen:
             q = '<a href="#%s"><b>%d %s</b></a>' % (anker, n_quellen, 'source' if n_quellen == 1 else 'sources')
             teile.append(q + (', checked %s %d, %d' % (MONATE[d[1] - 1], d[2], d[0]) if d else ''))
         elif d:
             teile.append('updated %s %d, %d' % (MONATE[d[1] - 1], d[2], d[0]))
     else:
-        teile = ['<b>%d Min.</b> Lesezeit' % minuten]
+        teile = [autor, '<b>%d Min.</b> Lesezeit' % minuten]
         ds = '%02d.%02d.%04d' % (d[2], d[1], d[0]) if d else ''
         if n_quellen:
             q = '<a href="#%s"><b>%d %s</b></a>' % (anker, n_quellen, 'Quelle' if n_quellen == 1 else 'Quellen')
