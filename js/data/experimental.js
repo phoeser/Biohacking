@@ -206,7 +206,7 @@ const EXPERIMENTAL = [
       'Übelkeit häufig und dosisabhängig: in TRIUMPH-1 bis 42,4 Prozent gegenüber 14,8 Prozent unter Placebo; Studienabbruch wegen Nebenwirkungen bis 11,3 Prozent, in TRIUMPH-4 bis 18,2 Prozent.',
       'Neue Nebenwirkung Dysästhesie (Kribbeln, Missempfindungen der Haut): bis 12,5 Prozent in TRIUMPH-1, bis 20,9 Prozent in TRIUMPH-4.',
       'Die Herzfrequenz steigt; Langzeitdaten und Daten nach dem Absetzen fehlen.',
-      'Begutachtet sind bisher TRIUMPH-1 (NEJM) und TRIUMPH-2 (Lancet); zu TRIUMPH-3, TRIUMPH-4 und zur Verlängerung auf 104 Wochen gibt es nur Herstellermitteilungen und Kongressvorträge. Die Nebenwirkungsraten oben stammen aus der Herstellermitteilung zu TRIUMPH-1.'
+      'Begutachtet sind TRIUMPH-1 (NEJM), TRIUMPH-2 (Lancet) und seit Oktober und November 2026 TRIUMPH-4 sowie die Schlafapnoe-Studien (NEJM); zu TRIUMPH-3 und zur Verlängerung auf 104 Wochen gibt es nur Herstellermitteilungen und Kongressvorträge. Die Nebenwirkungsraten oben stammen aus den Herstellermitteilungen zu TRIUMPH-1 und TRIUMPH-4.'
     ],
     status: 'In Phase 3 bei Eli Lilly; der Zulassungsantrag bei der FDA ist für das erste Quartal 2027 geplant. In Deutschland nicht als Arzneimittel verfügbar.',
     sources: [
@@ -325,7 +325,7 @@ const EXPERIMENTAL = [
       'FDA-zugelassen – eines der wenigen GH-Peptide mit echter Zulassung.',
       'Senkt viszerales (tiefes) Bauchfett bei Menschen mit HIV-assoziierter Lipodystrophie (zugelassene Indikation).',
       'Hebt GH und IGF-1 auf physiologische Weise (erhaltene Rückkopplung).',
-      'Für Körperkomposition, Haut oder Regeneration bei Gesunden gibt es keine kontrollierten Studien.'
+      'Für Körperkomposition, Haut oder Regeneration bei Gesunden gibt es keine darauf angelegten kontrollierten Studien; an Gesunden geprüft ist nur die Kognition (positiv bei 152 Älteren, Baker 2012; ohne Effekt in einer Pilotstudie mit 22 Teilnehmenden, Stewart 2026).'
     ],
     risks: [
       'In den USA verschreibungspflichtig; die Biohacking-Nutzung liegt außerhalb der Zulassung.',
@@ -1402,7 +1402,7 @@ const EXPERIMENTAL = [
       'Im Wettkampfsport wie BPC-157 verboten bzw. kritisch (WADA S0).',
       'Keine klinischen Sicherheitsdaten; wegen der gefäßfördernden Wirkung bei aktiven Krebserkrankungen meiden.'
     ],
-    status: 'Nicht zugelassen. Keine eigene Publikation; Evidenz aus BPC-157 abgeleitet. USA: BPC-157 seit 2023 für Rezepturapotheken gesperrt, ein FDA-Beratungsgremium empfahl 2026 die Wiederaufnahme (nicht bindend).',
+    status: 'Nicht zugelassen. Keine eigene Publikation; Evidenz aus BPC-157 abgeleitet. USA: BPC-157 war seit 2023 für Rezepturapotheken gesperrt; im April 2026 nahm die FDA es aus Kategorie 2, seit 30.10.2026 duldet die HHS Rezepturen mit BPC-157 als Acetat unter Auflagen (keine Zulassung, PDA nicht genannt).',
     sources: [
       { title: 'Vasireddi et al., HSS J 2025 – BPC-157 in der orthopädischen Sportmedizin (systematischer Review)', url: 'https://pubmed.ncbi.nlm.nih.gov/40756949/' },
       { title: 'McGuire et al., Curr Rev Musculoskelet Med 2025 – BPC-157 für Muskel- und Sehnenheilung', url: 'https://pubmed.ncbi.nlm.nih.gov/40789979/' },
@@ -1633,7 +1633,7 @@ const EXPERIMENTAL = [
     risks: [
       'Noch in Phase 3 – nicht zugelassen, nicht regulär verfügbar.',
       'Verträglichkeit als Schwachpunkt: Magen-Darm-Beschwerden bei 80,9 und 89,7 Prozent gegenüber 47,9 Prozent unter Placebo; in der Phase-2-Studie beendeten nur 60,4 Prozent die 46 Wochen (in beiden Armen ähnlich).',
-      'Herz-Kreislauf-Studie mit 5531 Teilnehmern abgeschlossen, Ergebnisse aber nicht veröffentlicht; klassentypisch höhere Herzfrequenz.',
+      'Herz-Kreislauf-Studie SYNCHRONIZE-CVOT (5530 Teilnehmende, Lancet 2026): gegenüber Placebo nicht unterlegen (3,7 gegen 4,1 Prozent Ereignisse), aber 19,3 und 20,8 Prozent Abbruch wegen Magen-Darm-Beschwerden gegenüber 1,9 Prozent; klassentypisch höhere Herzfrequenz.',
       'Kein publizierter direkter Vergleich mit Semaglutid oder Tirzepatid; Graumarkt-Ware ungeprüft.'
     ],
     status: 'Phase 3 (Boehringer Ingelheim). Studien zu Adipositas und Fettleber abgeschlossen, Leber-Endpunktstudien laufend. Noch nicht zugelassen.',
@@ -2723,7 +2723,7 @@ const EXPERIMENTAL = [
       { title: 'Sanyal AJ et al., Nat Med 2024 – Retatrutid senkt Leberfett', url: 'https://pubmed.ncbi.nlm.nih.gov/38858523/' },
       { title: 'Eli Lilly, Mitteilung zu TRIUMPH-2 und TRIUMPH-3, 23.07.2026', url: 'https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional' },
       { title: 'Murugadoss K et al., Preprint 2026 – Graumarkt-Retatrutid wirkt schwächer, mehr Herz-Kreislauf-Symptome', url: 'https://www.preprints.org/manuscript/202608.1193' },
-      { title: 'Sehgal NKR et al., medRxiv 2026 – Selbstberichtete Nebenwirkungen bei Reddit-Nutzern', url: 'https://doi.org/10.64898/2026.05.28.26352819' },
+      { title: 'Sehgal NKR et al., JAMA Netw Open 2026 (zuvor medRxiv) – Selbstberichtete Nebenwirkungen bei Reddit-Nutzern', url: 'https://pubmed.ncbi.nlm.nih.gov/42873503/' },
       { title: 'FDA – Concerns with Unapproved GLP-1 Drugs (Retatrutid, Forschungsware), Stand 01.09.2026', url: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss' }
     ],
     community: [],
@@ -3037,7 +3037,7 @@ const EXPERIMENTAL = [
     altNames: 'Alpha-Klotho, sKlotho, lösliches Klotho, KL',
     class: 'Körpereigenes Protein und zirkulierendes Hormon, Longevity-Kandidat ohne Zulassung',
     emoji: '🧬',
-    short: 'Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird und im Blut zirkuliert. Mäuse ohne Klotho altern rasend schnell, Mäuse mit von der Befruchtung an hochgedrehtem Gen leben 19 bis gut 30 Prozent länger. Am Menschen gibt es bisher nur Beobachtungsdaten; die erste verblindete, placebokontrollierte Studie mit Klotho ist in Honduras angemeldet, laut Register aber noch nicht gestartet.',
+    short: 'Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird und im Blut zirkuliert. Mäuse ohne Klotho altern rasend schnell, Mäuse mit von der Befruchtung an hochgedrehtem Gen leben 19 bis gut 30 Prozent länger. Am Menschen gibt es bisher nur Beobachtungsdaten; eine erste Studie mit Klotho als mRNA rekrutiert seit Oktober 2026 in Honduras, offen und ohne Placebo.',
     moa: 'Klotho zirkuliert als Hormon im Blut → dämpft Insulin- und IGF-1-Signale → in der Maus verlangsamtes Altern und längere Lebenszeit; am Menschen ist diese Kette nicht geprüft.',
     benefits: [
       'Überexpression verlängerte in zwei unabhängigen Mauslinien die Lebenszeit: Männchen 20 und gut 30 Prozent, Weibchen rund 19 Prozent (Science 2005)',
@@ -3054,7 +3054,7 @@ const EXPERIMENTAL = [
       'Angebote außerhalb jeder Zulassung: 2 registrierte Pilotstudien mit je 14 Menschen in Roatán in Honduras als Plasmid-Gentherapie (NCT07216781, Start Oktober 2025; NCT07285629, Klotho plus Follistatin, abgeschlossen im April 2026) sind einarmig, unverblindet und ohne Placebo; Ergebnisse sind im Register nicht hinterlegt',
       'Als Klotho-Booster verkaufte Kapseln enthalten kein Klotho; ein Protein dieser Größe wird verdaut, und der Nutzen eines angehobenen Blutwerts ist ungeprüft'
     ],
-    status: 'In Deutschland, der EU und den USA ist kein Klotho-Präparat zugelassen; es gibt weder eine verordnungsfähige Form noch einen legalen Bezugsweg. Die erste verblindete, placebokontrollierte Studie am Menschen ist in Honduras angemeldet (NCT07544420, Klotho-mRNA, Phase 1b, 21 geplante Teilnehmende, Start laut Register für Mai 2026 geplant, Stand Oktober 2026 noch keine Rekrutierung gemeldet, Abschluss geplant für den 30.11.2026); in der EU und den USA ist weiterhin nichts zugelassen. Die Nachfolgefirma der Affenarbeit, Jocasta Neuroscience (Wirkstoff JN-0413, unter die Haut), hat im August 2025 35 Mio. US-Dollar Serie A aufgenommen und im August 2026 ihre UCSF-Lizenz erweitert; sie will den Antrag für eine erste Humanstudie im vierten Quartal 2026 einreichen, Studienstart wäre Anfang 2027. Als Nahrungsergänzung verkaufte Klotho-Booster fallen unter das Lebensmittelrecht, enthalten kein Klotho und dürfen keine Heilversprechen tragen.',
+    status: 'In Deutschland, der EU und den USA ist kein Klotho-Präparat zugelassen; es gibt weder eine verordnungsfähige Form noch einen legalen Bezugsweg. In Honduras rekrutiert seit 15.10.2026 eine erste Studie am Menschen (NCT07544420, Klotho-mRNA, Phase 1, offen und einarmig, ohne Placebo, 20 geplante Gesunde, Primärabschluss laut Register geschätzt 30.04.2027); in der EU und den USA ist weiterhin nichts zugelassen. Die Nachfolgefirma der Affenarbeit, Jocasta Neuroscience (Wirkstoff JN-0413, unter die Haut), hat im August 2025 35 Mio. US-Dollar Serie A aufgenommen und im August 2026 ihre UCSF-Lizenz erweitert; sie will den Antrag für eine erste Humanstudie im vierten Quartal 2026 einreichen, Studienstart wäre Anfang 2027. Als Nahrungsergänzung verkaufte Klotho-Booster fallen unter das Lebensmittelrecht, enthalten kein Klotho und dürfen keine Heilversprechen tragen.',
     sources: [
       { title: 'Kuro-o et al., Nature 1997 — Genausfall erzeugt Alterssyndrom in der Maus', url: 'https://pubmed.ncbi.nlm.nih.gov/9363890/' },
       { title: 'Kurosu et al., Science 2005 — Klotho-Überexpression, zwei Mauslinien leben länger', url: 'https://pubmed.ncbi.nlm.nih.gov/16123266/' },
@@ -3067,7 +3067,7 @@ const EXPERIMENTAL = [
       { title: 'Chen et al., J Gerontol A 2025 — NHANES, U-förmiger Zusammenhang von Klotho und Sterblichkeit', url: 'https://pubmed.ncbi.nlm.nih.gov/40392566/' },
       { title: 'J Physiol Biochem 2026 — Metaanalyse Training und lösliches Klotho', url: 'https://pubmed.ncbi.nlm.nih.gov/42067671/' },
       { title: 'Front Sports Act Living 2026 — Metaanalyse Training und Alpha-Klotho', url: 'https://pubmed.ncbi.nlm.nih.gov/42756318/' },
-      { title: 'ClinicalTrials.gov NCT07544420 — Phase 1b, Klotho-mRNA, placebokontrolliert', url: 'https://clinicaltrials.gov/study/NCT07544420' }
+      { title: 'ClinicalTrials.gov NCT07544420 — Phase 1, Klotho-mRNA, offen und einarmig', url: 'https://clinicaltrials.gov/study/NCT07544420' }
     ],
     filterCat: 'Longevity'
   },
@@ -6743,7 +6743,8 @@ const EXPERIMENTAL = [
       'Viele Abbrüche: In den Langzeitstudien schieden 30 bis 40 Prozent aus (Rucker 2007), in XENDOS beendeten 52 Prozent unter Orlistat die vier Jahre',
       'Fettlösliche Vitamine A, D, E und K werden möglicherweise schlechter aufgenommen; die Fachinformation von alli sieht deshalb ein Multivitaminpräparat zur Nacht vor',
       'Gegenanzeigen unter anderem Ciclosporin, Warfarin und andere Gerinnungshemmer zum Einnehmen, chronische Malabsorption, Cholestase, Schwangerschaft und Stillzeit; Vorsicht bei Levothyroxin, Antiepileptika, Amiodaron und bei der Pille, wenn starker Durchfall auftritt (alli)',
-      'Leber: Die EMA prüfte 2012 einzelne schwere Fälle und fand keinen guten Beleg für einen ursächlichen Zusammenhang; seither wird in der Produktinformation auf sehr seltene Lebernebenwirkungen hingewiesen'
+      'Leber: Die EMA prüfte 2012 einzelne schwere Fälle und fand keinen guten Beleg für einen ursächlichen Zusammenhang; seither wird in der Produktinformation auf sehr seltene Lebernebenwirkungen hingewiesen',
+      'Niere: Laut EU-Produktinformation kann Orlistat mit Hyperoxalurie und Oxalatnephropathie bis zum Nierenversagen verbunden sein, das Risiko ist bei chronischer Nierenerkrankung erhöht; die FDA hat im Juni 2026 auch für das rezeptfreie alli einen Warnhinweis angeordnet'
     ],
     status: 'In der EU zugelassen: Xenical (120 mg) seit 29.07.1998, verschreibungspflichtig, für Erwachsene mit einem BMI ab 30 oder über 28 mit Risikofaktoren, zusammen mit einer leicht kalorienreduzierten Kost; zugelassene Dosis 120 mg zu jeder Hauptmahlzeit, Abbruch nach 12 Wochen, wenn nicht mindestens 5 Prozent abgenommen wurden. alli (60 mg) seit 22.07.2007 ohne Rezept, für Erwachsene mit einem BMI ab 28; zugelassene Dosis 60 mg dreimal täglich, höchstens drei Kapseln in 24 Stunden und höchstens sechs Monate. In Deutschland ist Orlistat verschreibungspflichtig, ausgenommen Präparate mit höchstens 60 mg je Einheit und höchstens 180 mg pro Tag (Anlage 1 AMVV). Zum Abnehmen keine Kassenleistung (§ 34 SGB V).',
     link: 'https://pubmed.ncbi.nlm.nih.gov/14693982/',
@@ -7072,7 +7073,7 @@ const EXPERIMENTAL = [
     benefits: [
       'Fibromyalgie, frühe Studie: Schmerz um 28,8 % gegenüber 18,0 % unter Placebo gesenkt, p = 0,016; besserer Lebenszufriedenheits- und Stimmungswert (doppelblinde Crossover-Studie, 31 Frauen, Younger 2013)',
       'Meta-Analyse über 4 RCTs mit 222 Fibromyalgie-Patienten: Schmerzwert im Mittel 0,86 Punkte niedriger als unter Placebo (Vatvani 2024)',
-      'Morbus Crohn: bei 34 Erwachsenen klinisches Ansprechen bei 83 % gegenüber 38 % unter Placebo, endoskopisches Ansprechen 72 % gegenüber 25 %; Remission nicht signifikant häufiger, Evidenz laut Cochrane niedrig (Parker 2018)',
+      'Morbus Crohn: bei 34 Erwachsenen klinisches Ansprechen bei 83 % gegenüber 38 % unter Placebo, endoskopisches Ansprechen 72 % gegenüber 25 %; Remission nicht signifikant häufiger, Evidenz laut Cochrane niedrig (Parker 2018); eine zweite placebokontrollierte Studie mit 41 Patienten wurde 2026 wegen Aussichtslosigkeit abgebrochen (van de Pol 2026)',
       'Long Covid: in 4 Vorher-nachher-Studien mit 155 Personen weniger Erschöpfung, Schmerz und Brain Fog und besserer Schlaf – ohne Kontrollgruppe (Byambasuren 2026)',
       'Gut verträglich: Nebenwirkungen in den Fibromyalgie-Studien etwa so häufig wie unter Placebo (FINAL 84 % gegenüber 86 %, INNOVA 68,8 % gegenüber 72 %); lebhafte Träume und Übelkeit etwas häufiger (Vatvani 2024)'
     ],
@@ -7161,7 +7162,7 @@ const EXPERIMENTAL = [
       'Etwas mehr neu diagnostizierter Diabetes (JUPITER); in HOPE-3 kein Überschuss',
       'Leberwerte: Transaminasen-Erhöhung 0,30 % gegenüber 0,22 % pro Jahr; die meisten anderen in Fachinformationen gelisteten Nebenwirkungen wie Gedächtnisstörung, Depression oder Schlafstörung bestätigten sich in doppelblinden Studien nicht (CTT 2026)',
       'HOPE-3: mehr Kataraktoperationen (3,8 % gegenüber 3,1 %) und Muskelbeschwerden (5,8 % gegenüber 4,7 %)',
-      'Kein Longevity-Beleg über die Herzvorsorge hinaus: Atorvastatin plus Telmisartan verlängerte das Leben von Mäusen im ITP nicht; die Studie STAREE zu behinderungsfreiem Überleben Älterer hat noch keine Ergebnisse veröffentlicht'
+      'Kein Longevity-Beleg über die Herzvorsorge hinaus: Atorvastatin plus Telmisartan verlängerte das Leben von Mäusen im ITP nicht; in der Studie STAREE mit 9.971 Menschen ab 70 senkte Atorvastatin schwere Herz-Kreislauf-Ereignisse um 30 Prozent, verlängerte das behinderungsfreie Überleben aber nicht (Zoungas, NEJM 2026)'
     ],
     status: 'Deutschland/EU: zugelassene, verschreibungspflichtige Arzneimittel (AMVV Anlage 1), zahlreiche Generika. Eingesetzt zur Senkung erhöhter Blutfette und zur Vorbeugung von Herz-Kreislauf-Ereignissen; die Verordnung richtet sich nach dem persönlichen Herz-Kreislauf-Risiko. Eine Anwendung allein zur Lebensverlängerung ohne erhöhtes Risiko ist nicht Gegenstand der Zulassung.',
     link: 'https://pubmed.ncbi.nlm.nih.gov/21067804/',
@@ -7175,6 +7176,7 @@ const EXPERIMENTAL = [
       { title: 'Cholesterol Treatment Trialists Collaboration, Lancet 2026 – Prüfung der in Fachinformationen gelisteten Statin-Nebenwirkungen anhand doppelblinder Studien', url: 'https://pubmed.ncbi.nlm.nih.gov/41655587/' },
       { title: 'Korstanje R et al., GeroScience 2026 – ITP, unter anderem Atorvastatin plus Telmisartan ohne Lebensverlängerung bei Mäusen', url: 'https://pubmed.ncbi.nlm.nih.gov/41843349/' },
       { title: 'ClinicalTrials.gov NCT02099123 – STAREE, Atorvastatin für behinderungsfreies Überleben bei 9.971 Älteren ab 70 Jahren', url: 'https://clinicaltrials.gov/study/NCT02099123' },
+      { title: 'Zoungas S et al., N Engl J Med 2026 – STAREE: 30 Prozent weniger schwere Herz-Kreislauf-Ereignisse, behinderungsfreies Überleben nicht verlängert', url: 'https://pubmed.ncbi.nlm.nih.gov/42670961/' },
       { title: 'Arzneimittelverschreibungsverordnung (AMVV), Anlage 1 – Atorvastatin, Rosuvastatin und Simvastatin verschreibungspflichtig', url: 'https://www.gesetze-im-internet.de/amvv/anlage_1.html' }
     ],
     community: [],

@@ -1,7 +1,7 @@
 {
  "hinweis": "BK-Score. Jede Achse bewertet den Wissensstand (0-10), nicht die Substanz. Regeln: https://biohackingkompakt.de/#score",
  "disclaimer": "Subjektive Einschaetzung von Biohacking Kompakt auf Basis offengelegter Vergaberegeln. Keine wissenschaftliche Bewertung, kein Fachgesellschafts-Konsens, keine medizinische Empfehlung.",
- "stand": "2026-11-14",
+ "stand": "2026-11-28",
  "achsen": {
   "evidenz": "Human-Evidenz: wie viel und wie gute Daten am Menschen",
   "mechanismus": "Wie gut die Wirkkette verstanden ist",
@@ -264,7 +264,7 @@
    "anwendung": 8,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Die Wirkkette über Osteocalcin und Matrix-Gla-Protein ist am Menschen quantifiziert: MK-7 senkt dp-ucMGP um rund 50 Prozent. Die randomisierten Studien zu den eigentlichen Endpunkten sind dagegen uneinheitlich — AVADEC mit 365 Männern und 720 µg MK-7 über 24 Monate verfehlte den primären Endpunkt, VitaK-CAC mit 180 Patienten fand 2026 einen Unterschied im Koronarkalk. Die alten japanischen Frakturdaten stammen aus MK-4 im Milligrammbereich und mussten 2020 wegen Integritätszweifeln korrigiert werden. Die Vermarktung als Pflichtpartner zu Vitamin D3 geht über die Daten hinaus; eine EU-Angabe zu Herz und Gefäßen existiert nicht."
+   "beleg": "Die Wirkkette über Osteocalcin und Matrix-Gla-Protein ist am Menschen quantifiziert: MK-7 senkt dp-ucMGP um rund 50 Prozent. Die randomisierten Studien zu den eigentlichen Endpunkten sind dagegen uneinheitlich — AVADEC mit 365 Männern und 720 µg MK-7 über 24 Monate verfehlte den primären Endpunkt, VitaK-CAC mit 180 Patienten und DANCODE mit 398 Patienten mit schwerer Koronarverkalkung (MK-7 plus Vitamin D3, Differenz −52 Agatston-Einheiten nach 24 Monaten) fanden 2026 einen Unterschied im Koronarkalk; klinische Ereignisse sind weiter ungeprüft. Die alten japanischen Frakturdaten stammen aus MK-4 im Milligrammbereich und mussten 2020 wegen Integritätszweifeln korrigiert werden. Die Vermarktung als Pflichtpartner zu Vitamin D3 geht über die Daten hinaus; eine EU-Angabe zu Herz und Gefäßen existiert nicht."
   },
   {
    "id": "zink",
@@ -774,7 +774,7 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Bei Kniearthrose zeigen mehrere Meta-Analysen gegenüber Placebo eine moderate Schmerzreduktion bei kurzer Anwendung – eine Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten fand -1,63 auf der Schmerzskala und -18,85 im WOMAC-Gesamtscore, und eine Studie mit 367 Patienten Nichtunterlegenheit gegenüber Ibuprofen. Die Qualität dahinter ist schwach: Eine kritische Durchsicht stufte 37 von 48 Endpunkten als von sehr niedriger Evidenzqualität ein, und die EMA erkennt für Curcuma longa nur die traditionelle Anwendung an, keinen well established use. Für Krebsprävention, Anti-Aging und die behauptete Leber-Entgiftung fehlt Vergleichbares; einen Endpunkt Entgiftung prüft keine Studie. Der Mechanismus hat ein Bioverfügbarkeitsproblem: Viele Zellkulturbefunde beruhen auf Konzentrationen, die oral nicht erreicht werden; am Menschen sind immerhin CRP und TNF-alpha gesenkt. Sicherheitsseitig gut dokumentiert: Die DILIN-Fallserie (Am J Med 2023) beschreibt 10 Fälle curcumininduzierter Leberschädigung, davon ein Todesfall; 7 von 10 trugen HLA-B*35:01. Das BfR stellte in der Stellungnahme Nr. 040/2021 vom 14. Dezember 2021 fest, dass geprüfte Präparate mit 8,3 und 6,1 mg Curcumin pro Kilogramm Körpergewicht deutlich über dem ADI von 3 mg/kg lagen."
+   "beleg": "Bei Kniearthrose zeigen ältere Meta-Analysen eine moderate Schmerzreduktion bei kurzer Anwendung (Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten: -1,63 auf der Schmerzskala, dazu eine Studie mit 367 Patienten mit Nichtunterlegenheit gegenüber Ibuprofen), der Cochrane-Review 2026 mit Vertrauenswürdigkeits-Prüfung findet gegenüber Placebo aber nur -0,72 Punkte, unter der klinischen Relevanzschwelle, bei niedriger Evidenzsicherheit (9 RCTs, 1.245 Teilnehmende). Die Qualität dahinter ist schwach: Eine kritische Durchsicht stufte 37 von 48 Endpunkten als von sehr niedriger Evidenzqualität ein, und die EMA erkennt für Curcuma longa nur die traditionelle Anwendung an, keinen well established use. Für Krebsprävention, Anti-Aging und die behauptete Leber-Entgiftung fehlt Vergleichbares; einen Endpunkt Entgiftung prüft keine Studie. Der Mechanismus hat ein Bioverfügbarkeitsproblem: Viele Zellkulturbefunde beruhen auf Konzentrationen, die oral nicht erreicht werden; am Menschen sind immerhin CRP und TNF-alpha gesenkt. Sicherheitsseitig gut dokumentiert: Die DILIN-Fallserie (Am J Med 2023) beschreibt 10 Fälle curcumininduzierter Leberschädigung, davon ein Todesfall; 7 von 10 trugen HLA-B*35:01. Das BfR stellte in der Stellungnahme Nr. 040/2021 vom 14. Dezember 2021 fest, dass geprüfte Präparate mit 8,3 und 6,1 mg Curcumin pro Kilogramm Körpergewicht deutlich über dem ADI von 3 mg/kg lagen."
   },
   {
    "id": "astaxanthin",
@@ -1085,7 +1085,7 @@
    "anwendung": 7,
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Für PCOS gut untersucht, mit begrenztem klinischem Nutzen. Eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen (Reprod Biol Endocrinol 2023) zeigt gegenüber Placebo häufiger einen regelmäßigen Zyklus (RR 1,79; 95 % KI 1,13–2,85) und Verbesserungen bei BMI, Testosteron, Nüchternglukose und Insulin; im direkten Vergleich mit Metformin beim Zyklus ohne klaren Unterschied, bei weniger Nebenwirkungen (7 statt 53 Prozent in 4 Studien); eine formale Nichtunterlegenheit ist das nicht, und laut Leitlinien-Meta-Analyse wirkt Metformin bei Hirsutismus und Taille-Hüft-Verhältnis besser. Die Meta-Analyse für die internationale PCOS-Leitlinie (30 Studien, 2.230 Teilnehmerinnen, J Clin Endocrinol Metab 2024) nennt die Evidenz begrenzt und nicht schlüssig; die Leitlinie 2023 empfiehlt keine bestimmte Form, Dosis oder Kombination – das 40:1-Verhältnis stützt sich auf Mausmodelle – und stuft Inositol bei Kinderwunsch als experimentell ein. Ein Cochrane-Review (7 RCTs, 1.319 Schwangere) findet weniger Schwangerschaftsdiabetes (RR 0,53) bei niedriger Evidenzsicherheit. Für Depression und Angststörungen zeigt eine Meta-Analyse (7 bzw. 4 RCTs) keinen signifikanten Effekt; die Panikdaten stammen aus 2 kleinen Crossover-Studien. Der Insulin-Signalweg als sekundärer Botenstoff ist am Menschen belegt. Die breite Vermarktung an stoffwechselgesunde Frauen und gegen Angst ist von dieser Evidenz nicht gedeckt."
+   "beleg": "Für PCOS gut untersucht, mit begrenztem klinischem Nutzen. Eine Meta-Analyse über 26 RCTs mit 1.691 Patientinnen (Reprod Biol Endocrinol 2023) zeigt gegenüber Placebo häufiger einen regelmäßigen Zyklus (RR 1,79; 95 % KI 1,13–2,85) und Verbesserungen bei BMI, Testosteron, Nüchternglukose und Insulin; im direkten Vergleich mit Metformin beim Zyklus ohne klaren Unterschied, bei weniger Nebenwirkungen (7 statt 53 Prozent in 4 Studien); eine formale Nichtunterlegenheit ist das nicht, und laut Leitlinien-Meta-Analyse wirkt Metformin bei Hirsutismus und Taille-Hüft-Verhältnis besser. Die Meta-Analyse für die internationale PCOS-Leitlinie (30 Studien, 2.230 Teilnehmerinnen, J Clin Endocrinol Metab 2024) nennt die Evidenz begrenzt und nicht schlüssig; die Leitlinie 2023 empfiehlt keine bestimmte Form, Dosis oder Kombination – das 40:1-Verhältnis stützt sich auf Mausmodelle – und stuft Inositol bei Kinderwunsch als experimentell ein. Ein Cochrane-Review (7 RCTs, 1.319 Schwangere) findet weniger Schwangerschaftsdiabetes (RR 0,53) bei niedriger Evidenzsicherheit; eine Meta-Analyse über 12 RCTs mit 4.765 Frauen fand 2026 44 Prozent weniger Schwangerschaftsdiabetes, bei hoher Heterogenität. Das Cochrane-Update 2026 zum Kinderwunsch (21 RCTs, 1.634 Frauen) stuft die Evidenz weiter als niedrig bis sehr niedrig ein. Für Depression und Angststörungen zeigt eine Meta-Analyse (7 bzw. 4 RCTs) keinen signifikanten Effekt; die Panikdaten stammen aus 2 kleinen Crossover-Studien. Der Insulin-Signalweg als sekundärer Botenstoff ist am Menschen belegt. Die breite Vermarktung an stoffwechselgesunde Frauen und gegen Angst ist von dieser Evidenz nicht gedeckt."
   },
   {
    "id": "tmg",
@@ -1230,14 +1230,14 @@
    "view": "supplement",
    "name": "Nicotinamid-Ribosid (NR)",
    "url": "https://biohackingkompakt.de/thema/nicotinamid-ribosid.html",
-   "evidenz": 6,
+   "evidenz": 7,
    "mechanismus": 6,
-   "sicherheit": 6,
+   "sicherheit": 7,
    "hype": 3,
    "anwendung": 5,
-   "richtung": "gemischt",
-   "label": "Belegt, mit Einschränkungen",
-   "beleg": "Ungewöhnlich viele RCTs für ein Longevity-Supplement – mit einem klaren Muster: Der NAD+-Spiegel im Blut steigt zuverlässig und dosisabhängig (plus 22, 51 und 142 Prozent; Conze 2019), auch im Gehirn (NADPARK 2022). Eine kritische Übersicht über 25 Humanstudien (Science Advances 2023) findet wenige klinisch relevante Effekte und eine Tendenz, Befunde zu übertreiben; Insulinsensitivität (Clamp, 40 Männer, 12 Wochen; Dollerup 2018), Glukose, Körperzusammensetzung und Blutdruck blieben meist unbeeinflusst, der Blutdruckeffekt einer frühen Studie wurde nicht bestätigt. Für Entzündung gibt es Hinweise (NADPARK), aber keinen einheitlichen Befund (Remie 2020 ohne Effekt auf Entzündungsmarker). Für Alterung selbst existieren am Menschen keine Endpunktdaten; die Phase-III-Studie NOPARK mit 410 Parkinson-Patienten ist seit 17.06.2025 abgeschlossen, aber unveröffentlicht. Die Sicherheit ist über Wochen bis Monate ordentlich untersucht, auch mit 3000 mg über 4 Wochen (NR-SAFE 2023); die EFSA bewertete bis 300 mg am Tag als sicher (2019)."
+   "richtung": "negativ",
+   "label": "Gut untersucht – Wirkung nicht bestätigt",
+   "beleg": "Evidenz 7, weil es ungewöhnlich viele RCTs für ein Longevity-Supplement gibt, seit 2026 auch eine große, einjährige Phase-III-Studie mit klinischem Endpunkt – mit einem klaren Muster: Der NAD+-Spiegel im Blut steigt zuverlässig und dosisabhängig (plus 22, 51 und 142 Prozent; Conze 2019), auch im Gehirn (NADPARK 2022). Eine kritische Übersicht über 25 Humanstudien (Science Advances 2023) findet wenige klinisch relevante Effekte und eine Tendenz, Befunde zu übertreiben; Insulinsensitivität (Clamp, 40 Männer, 12 Wochen; Dollerup 2018), Glukose, Körperzusammensetzung und Blutdruck blieben meist unbeeinflusst, der Blutdruckeffekt einer frühen Studie wurde nicht bestätigt. Für Entzündung gibt es Hinweise (NADPARK), aber keinen einheitlichen Befund (Remie 2020 ohne Effekt auf Entzündungsmarker). Für Alterung selbst existieren am Menschen keine Endpunktdaten. Die Phase-III-Studie NOPARK (Brakedal 2026, JAMA, 410 Patienten mit früher Parkinson-Erkrankung, 52 Wochen) verfehlte ihr Ziel: Der MDS-UPDRS-Gesamtwert verschlechterte sich unter NR um 2,72 Punkte stärker als unter Placebo (p = 0,02). Ebenfalls 2026: Bei 42 Älteren mit leichter kognitiver Störung verdoppelte sich NAD+ im Blut, die Kognition besserte sich nicht (Martens 2026), und eine Meta-Analyse aus 4 RCTs mit 387 Herzinsuffizienz-Patienten (NAD+-Infusion oder NR) fand keine signifikante Wirkung auf Klinikaufnahmen, Sterblichkeit oder Auswurfleistung (Hamzah 2026). Sicherheit 7, weil die Sicherheit mit NOPARK erstmals kontrolliert über ein Jahr an mehreren Hundert Menschen untersucht ist – schwere unerwünschte Ereignisse waren nicht häufiger (8,3 gegenüber 14,1 Prozent) –, dazu kurzzeitig hoch dosiert (NR-SAFE 2023); die EFSA bewertete bis 300 mg am Tag als sicher (2019). Richtung negativ: Der Anstieg von NAD+ ist zuverlässig belegt, die klinischen Endpunkte blieben aber überwiegend ohne Nutzen, und in der größten Studie schnitt Placebo besser ab."
   },
   {
    "id": "shilajit",
@@ -1517,7 +1517,7 @@
    "anwendung": 8,
    "richtung": "positiv",
    "label": "Gut belegt",
-   "beleg": "Zugelassen auf Basis der SURMOUNT- und SURPASS-Programme; der doppelte Rezeptorangriff ist am Menschen belegt. Weniger Langzeitdaten als bei Semaglutid, weil jünger. Kostenübernahme durch die Kasse ist ausgeschlossen – das fällt in der Werbung unter den Tisch."
+   "beleg": "Zugelassen auf Basis der SURMOUNT- und SURPASS-Programme; der doppelte Rezeptorangriff ist am Menschen belegt. Weniger Langzeitdaten als bei Semaglutid, weil jünger. Zur Gewichtsreduktion ist die Kostenübernahme durch die Kasse ausgeschlossen – das fällt in der Werbung unter den Tisch."
   },
   {
    "id": "retatrutide",
@@ -1531,7 +1531,7 @@
    "anwendung": 4,
    "richtung": "positiv",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden, inzwischen auch in Phase 3 begutachtet. Phase 2: 338 Teilnehmende, 48 Wochen, 24,2 Prozent gegenüber 2,1 Prozent unter Placebo (NEJM 2023). TRIUMPH-1 (NEJM 2026): 2.339 Teilnehmende ohne Diabetes, 80 Wochen, doppelblind, in der höchsten Dosis 25,0 Prozent gegenüber 3,9 Prozent unter Placebo, gerechnet über alle Randomisierten; laut Hersteller 28,3 Prozent bei allen, die wie geplant weiterbehandelt wurden. Begutachtet sind außerdem TRIUMPH-2 bei Typ-2-Diabetes (Lancet 2026, 18,8 gegenüber 5,1 Prozent) und die Diabetesstudie TRANSCEND-T2D-1 (Lancet 2026). TRIUMPH-4 kam laut Hersteller mit 445 Teilnehmenden über 68 Wochen auf 28,7 Prozent gegenüber 2,1 Prozent unter Placebo. Der Dreifach-Agonismus ist am Menschen belegt, der Anteil des Glukagon-Arms nicht getrennt geprüft. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43,2 Prozent (höchste Dosis in TRIUMPH-4) und Studienabbruch wegen Nebenwirkungen bei bis zu 18,2 Prozent. Sicherheit 7 (bisher 6): Diese Daten stammen inzwischen aus mehreren begutachteten Phase-3-Studien, allein TRIUMPH-1 mit 2.339 Teilnehmenden über 80 Wochen; für mehr fehlen Langzeitdaten aus Zulassung und Arzneimittelüberwachung. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
+   "beleg": "Die stärksten Gewichtsdaten, die je erhoben wurden, inzwischen auch in Phase 3 begutachtet. Phase 2: 338 Teilnehmende, 48 Wochen, 24,2 Prozent gegenüber 2,1 Prozent unter Placebo (NEJM 2023). TRIUMPH-1 (NEJM 2026): 2.339 Teilnehmende ohne Diabetes, 80 Wochen, doppelblind, in der höchsten Dosis 25,0 Prozent gegenüber 3,9 Prozent unter Placebo, gerechnet über alle Randomisierten; laut Hersteller 28,3 Prozent bei allen, die wie geplant weiterbehandelt wurden. Begutachtet sind außerdem TRIUMPH-2 bei Typ-2-Diabetes (Lancet 2026, 18,8 gegenüber 5,1 Prozent) und die Diabetesstudie TRANSCEND-T2D-1 (Lancet 2026). Begutachtet sind außerdem TRIUMPH-4 und TRIUMPH-1-OA bei Kniearthrose (Schnitzer, NEJM 2026: WOMAC-Schmerz minus 3,96 gegenüber minus 2,12, Gewicht minus 23,7 gegenüber minus 4,6 Prozent) und die Schlafapnoe-Studien (Grunstein, NEJM 2026: Atemaussetzer pro Stunde minus 34,3 gegenüber minus 9,9). Der Dreifach-Agonismus ist am Menschen belegt, der Anteil des Glukagon-Arms nicht getrennt geprüft. Der Preis steht in denselben Studien: Übelkeit bei bis zu 43,2 Prozent (höchste Dosis in TRIUMPH-4) und Studienabbruch wegen Nebenwirkungen bei bis zu 18,2 Prozent (TRIUMPH-4-Werte laut Herstellermitteilung). Sicherheit 7 (bisher 6): Diese Daten stammen inzwischen aus mehreren begutachteten Phase-3-Studien, allein TRIUMPH-1 mit 2.339 Teilnehmenden über 80 Wochen; für mehr fehlen Langzeitdaten aus Zulassung und Arzneimittelüberwachung. Eine Zulassung besteht noch nicht; was heute im Graumarkt gehandelt wird, ist nicht der Studienwirkstoff."
   },
   {
    "id": "bpc-157",
@@ -1736,7 +1736,7 @@
    "anwendung": 5,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "In den USA seit 2010 zugelassen – aber für eine sehr spezielle Gruppe: die Reduktion viszeralen Fetts bei HIV-assoziierter Lipodystrophie, belegt durch Phase-III-Studien. In der EU existiert diese Zulassung nicht; der Antragsteller zog den Antrag bei der EMA zurück. Als GHRH-Analogon ist die Stimulation der körpereigenen Wachstumshormonausschüttung am Menschen bestätigt. Für Gesunde ohne Lipodystrophie – die beworbene Zielgruppe – wurde keine kontrollierte Studie gefunden. Sicherheit 6 (bisher 7): Langzeitdaten fehlen, beide Langzeit-Sicherheitsstudien wurden abgebrochen, und laut US-Fachinformation ist die langfristige kardiovaskuläre Sicherheit nicht belegt."
+   "beleg": "In den USA seit 2010 zugelassen – aber für eine sehr spezielle Gruppe: die Reduktion viszeralen Fetts bei HIV-assoziierter Lipodystrophie, belegt durch Phase-III-Studien. In der EU existiert diese Zulassung nicht; der Antragsteller zog den Antrag bei der EMA zurück. Als GHRH-Analogon ist die Stimulation der körpereigenen Wachstumshormonausschüttung am Menschen bestätigt. Für Gesunde ohne Lipodystrophie gibt es nur Studien zur Kognition – positiv bei 152 Älteren über 20 Wochen (Baker 2012), ohne Effekt in einer Pilotstudie mit 22 Teilnehmenden (Stewart 2026) –, aber keine darauf angelegte kontrollierte Studie zu Körperkomposition, Regeneration oder Anti-Aging, der beworbenen Anwendung. Sicherheit 6 (bisher 7): Langzeitdaten fehlen, beide Langzeit-Sicherheitsstudien wurden abgebrochen, und laut US-Fachinformation ist die langfristige kardiovaskuläre Sicherheit nicht belegt."
   },
   {
    "id": "sermorelin",
@@ -1823,14 +1823,14 @@
    "view": "experimental",
    "name": "GHRP-6",
    "url": "https://biohackingkompakt.de/thema/ghrp-6.html",
-   "evidenz": 4,
+   "evidenz": 5,
    "mechanismus": 6,
    "sicherheit": 3,
    "hype": 2,
    "anwendung": 3,
    "richtung": "offen",
    "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 4 (bisher 2): Es gibt mehrere kleine Humanstudien, aber nur mit dem Zwischenschritt Wachstumshormon im Blut. Bei 18 gesunden Männern setzte GHRP-6 dosisabhängig Wachstumshormon frei, mit GHRH synergistisch (J Clin Endocrinol Metab 1990); als Kombinationstest mit GHRH trennte es in einer Lancet-Studie mit 125 Patienten und 125 Gesunden zuverlässig zwischen normaler Funktion und Wachstumshormonmangel (2000); die Pharmakokinetik ist an 9 gesunden Männern vermessen (2013). Kontrollierte Studien zu Muskelaufbau, Fettabbau, Regeneration oder Longevity gibt es nicht; eine Übersicht von 2026 stuft GHRP-6 als Wirkstoff mit Phase-1- und kleinen mechanistischen Humanstudien ohne kontrollierte Wirksamkeitsdaten ein. Mechanismus 6: Ghrelin-Rezeptor am Menschen beschrieben, GH-Freisetzung gemessen. Sicherheit 3 (bisher 2): nur Kurzzeit- und Einzelgabedaten ohne klinische Nebenwirkungen, Prolaktin und Cortisol steigen bei hohen Gaben, keine Langzeitdaten. Keine Zulassung, WADA-Verbotsliste.",
+   "beleg": "Evidenz 5 (bisher 4): Zu mehreren kleinen Humanstudien mit dem Zwischenschritt Wachstumshormon im Blut kommt seit 2026 eine kontrollierte Studie mit klinischem Endpunkt. Bei 18 gesunden Männern setzte GHRP-6 dosisabhängig Wachstumshormon frei, mit GHRH synergistisch (J Clin Endocrinol Metab 1990); als Kombinationstest mit GHRH trennte es in einer Lancet-Studie mit 125 Patienten und 125 Gesunden zuverlässig zwischen normaler Funktion und Wachstumshormonmangel (2000); die Pharmakokinetik ist an 9 gesunden Männern vermessen (2013). In der offenen, randomisierten Phase-III-Studie COURAGE-2 mit 188 Schlaganfallpatienten verfehlte EGF plus GHRP-6 über 7 Tage den primären Endpunkt, nur in einer Untergruppe von 27 Teilnehmenden mit schwerem Schlaganfall war die Behinderung nach 6 Monaten geringer (Hernández-Bernal 2026); GHRP-6 wurde dort nur in Kombination und für eine ganz andere Indikation gegeben. Kontrollierte Studien zu Muskelaufbau, Fettabbau, Regeneration oder Longevity gibt es weiter nicht; eine Übersicht von 2026 stuft GHRP-6 als Wirkstoff mit Phase-1- und kleinen mechanistischen Humanstudien ohne kontrollierte Wirksamkeitsdaten ein. Mechanismus 6: Ghrelin-Rezeptor am Menschen beschrieben, GH-Freisetzung gemessen. Sicherheit 3 (bisher 2): nur Kurzzeit- und Einzelgabedaten ohne klinische Nebenwirkungen, Prolaktin und Cortisol steigen bei hohen Gaben, keine Langzeitdaten. Keine Zulassung, WADA-Verbotsliste.",
    "berichtslage": {
     "stufe": 3,
     "kurz": "Heftiger Hunger binnen Minuten",
@@ -1983,12 +1983,12 @@
    "url": "https://biohackingkompakt.de/thema/orforglipron.html",
    "evidenz": 9,
    "mechanismus": 9,
-   "sicherheit": 7,
+   "sicherheit": 8,
    "hype": 5,
    "anwendung": 4,
    "richtung": "positiv",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "Die Phase-III-Studie ATTAIN-1 (NEJM 2025) randomisierte 3127 Teilnehmer über 72 Wochen: 11,2 Prozent Gewichtsreduktion in der höchsten Dosis gegenüber 2,1 Prozent unter Placebo; der Hersteller nennt 12,4 Prozent für Teilnehmer, die die Behandlung fortführten. Weitere Phase-III-Studien zeigen eine deutliche HbA1c-Senkung und eine Überlegenheit gegenüber oralem Semaglutid beim Blutzucker. Als erster oral verfügbarer nicht-peptidischer GLP-1-Rezeptoragonist ist die Wirkkette am Menschen über Studienendpunkte bestätigt, harte kardiovaskuläre Endpunkte stehen aus. Die Abbruchrate wegen Nebenwirkungen liegt dosisabhängig bei 5,3 bis 10,3 Prozent. Seit 1. April 2026 in den USA zugelassen, in der EU nicht."
+   "beleg": "Die Phase-III-Studie ATTAIN-1 (NEJM 2025) randomisierte 3127 Teilnehmer über 72 Wochen: 11,2 Prozent Gewichtsreduktion in der höchsten Dosis gegenüber 2,1 Prozent unter Placebo; der Hersteller nennt 12,4 Prozent für Teilnehmer, die die Behandlung fortführten. Weitere Phase-III-Studien zeigen eine deutliche HbA1c-Senkung und eine Überlegenheit gegenüber oralem Semaglutid beim Blutzucker. Als erster oral verfügbarer nicht-peptidischer GLP-1-Rezeptoragonist ist die Wirkkette am Menschen über Studienendpunkte bestätigt. Zur Herz-Kreislauf-Sicherheit gibt es inzwischen eine Endpunktstudie: In ACHIEVE-4 mit 2.749 Menschen mit Typ-2-Diabetes und hohem Risiko war Orforglipron über rund 2 Jahre Insulin glargin nicht unterlegen (MACE-4 4,2 gegen 5,0 Prozent, Lancet 2026); ein Überlegenheitsnachweis gegenüber Placebo steht aus. Sicherheit 8, weil damit eine ereignisgesteuerte Herz-Kreislauf-Sicherheitsstudie mit Hochrisiko-Patienten über rund 2 Jahre vorliegt, die auch die Nebenwirkungen erfasst (Magen-Darm-Beschwerden 62,1 gegen 14,2 Prozent, schwere Unterzuckerung 6,8 gegen 19,2 Prozent unter Insulin glargin); Daten über 2 Jahre hinaus und aus der Marktüberwachung fehlen noch. Die Abbruchrate wegen Nebenwirkungen liegt dosisabhängig bei 5,3 bis 10,3 Prozent. Seit 1. April 2026 in den USA zugelassen, in der EU vom CHMP empfohlen, Entscheidung der EU-Kommission ausstehend."
   },
   {
    "id": "cagrilintide",
@@ -2025,12 +2025,12 @@
    "url": "https://biohackingkompakt.de/thema/survodutide.html",
    "evidenz": 8,
    "mechanismus": 8,
-   "sicherheit": 6,
+   "sicherheit": 7,
    "hype": 4,
    "anwendung": 3,
    "richtung": "gemischt",
    "label": "Gut belegt, stark überhöht beworben",
-   "beleg": "SYNCHRONIZE-1 (NEJM 2026) randomisierte 725 Teilnehmer über 76 Wochen: 12,2 bis 13,0 Prozent Gewichtsreduktion gegenüber 5,4 Prozent unter Placebo, beide primären Endpunkte erreicht. Bemerkenswert ist die hohe Placebo-Antwort, die den Abstand kleiner macht. SYNCHRONIZE-MASLD (Nat Med 2026, 216 Teilnehmer, 48 Wochen) erreichte beide co-primären Endpunkte: mindestens 30 Prozent weniger Leberfett bei 84,2 gegenüber 24,3 Prozent, und laut Mediationsanalyse der Phase-2-MASH-Studie ist die Wirkung auf Entzündung und Fibrose überwiegend nicht über die Gewichtsabnahme vermittelt – der stärkste Punkt dieser Substanz. Der auffällige Wert steht in der Sicherheitsspalte: Magen-Darm-Beschwerden bei 80,9 und 89,7 Prozent gegenüber 47,9 Prozent unter Placebo, und in der Phase-2-Studie beendeten nur 60,4 Prozent die 46 Wochen, in Wirkstoff- und Placebogruppe ähnlich. Konkrete Abbruchraten wegen Nebenwirkungen liegen nicht öffentlich vor (Volltexte nicht zugänglich, keine Registerergebnisse). Der duale Glukagon- und GLP-1-Rezeptoragonismus ist am Menschen bestätigt. Beworben wird Gleichrangigkeit mit Tirzepatid, obwohl ein direkter Vergleich nicht publiziert ist; ebenso fehlen die Ergebnisse der abgeschlossenen kardiovaskulären Studie mit 5531 Teilnehmern."
+   "beleg": "SYNCHRONIZE-1 (NEJM 2026) randomisierte 725 Teilnehmer über 76 Wochen: 12,2 bis 13,0 Prozent Gewichtsreduktion gegenüber 5,4 Prozent unter Placebo, beide primären Endpunkte erreicht. Bemerkenswert ist die hohe Placebo-Antwort, die den Abstand kleiner macht. SYNCHRONIZE-MASLD (Nat Med 2026, 216 Teilnehmer, 48 Wochen) erreichte beide co-primären Endpunkte: mindestens 30 Prozent weniger Leberfett bei 84,2 gegenüber 24,3 Prozent, und laut Mediationsanalyse der Phase-2-MASH-Studie ist die Wirkung auf Entzündung und Fibrose überwiegend nicht über die Gewichtsabnahme vermittelt – der stärkste Punkt dieser Substanz. Der auffällige Wert steht in der Sicherheitsspalte: Magen-Darm-Beschwerden bei 80,9 und 89,7 Prozent gegenüber 47,9 Prozent unter Placebo, und in der Phase-2-Studie beendeten nur 60,4 Prozent die 46 Wochen, in Wirkstoff- und Placebogruppe ähnlich; in der Herz-Kreislauf-Studie SYNCHRONIZE-CVOT (Lancet 2026, 5530 Teilnehmende, median 22 Monate) brachen 19,3 und 20,8 Prozent wegen Magen-Darm-Beschwerden ab, unter Placebo 1,9 Prozent. Kardiovaskulär war Survodutide nicht unterlegen (3,7 gegen 4,1 Prozent Ereignisse, HR 0,89), schwere Nebenwirkungen waren gleich häufig. Sicherheit 7, weil damit eine große doppelblinde Endpunktstudie zur Sicherheit über median 22 Monate samt Abbruchraten und schweren Nebenwirkungen vorliegt; Zulassung, Marktüberwachung und längere Daten fehlen noch. Der duale Glukagon- und GLP-1-Rezeptoragonismus ist am Menschen bestätigt. Beworben wird Gleichrangigkeit mit Tirzepatid, obwohl ein direkter Vergleich nicht publiziert ist."
   },
   {
    "id": "maritide",
@@ -2560,7 +2560,7 @@
    "anwendung": 4,
    "richtung": "offen",
    "label": "Nicht am Menschen untersucht",
-   "beleg": "Zu Pentadeca Arginate selbst gibt es keine Publikation – keine Humanstudie, keine Tierstudie. Es ist dieselbe Sequenz wie BPC-157 als Arginat-Salz; die gesamte Wirkbehauptung stützt sich auf die BPC-157-Forschung. Diese ist präklinisch breit (systematischer Review 2025: 36 Studien, davon 35 präklinisch, mit besserer Heilung von Muskel, Sehne, Band und Knochen im Tier) und mechanistisch plausibel (VEGFR2, Fibroblasten, NO; 2026 erste Bestätigung an menschlichem Arteriengewebe ex vivo). Am Menschen liegen nur 3 unkontrollierte Pilotstudien mit zusammen weniger als 30 Personen vor, klinische Sicherheitsdaten fehlen. Die beworbenen Vorteile der Arginat-Form (Stabilität, Aufnahme) sind nicht publiziert. Verwendet wird PDA in Szene und US-Praxen ohne regulatorischen Rahmen."
+   "beleg": "Zu Pentadeca Arginate selbst gibt es keine Publikation – keine Humanstudie, keine Tierstudie. Es ist dieselbe Sequenz wie BPC-157 als Arginat-Salz; die gesamte Wirkbehauptung stützt sich auf die BPC-157-Forschung. Diese ist präklinisch breit (systematischer Review 2025: 36 Studien, davon 35 präklinisch, mit besserer Heilung von Muskel, Sehne, Band und Knochen im Tier) und mechanistisch plausibel (VEGFR2, Fibroblasten, NO; 2026 erste Bestätigung an menschlichem Arteriengewebe ex vivo). Am Menschen liegen nur 3 unkontrollierte Pilotstudien mit zusammen 30 Personen vor; ein systematischer Review von 2026 bewertet die Gewissheit als sehr niedrig (Poolton 2026), klinische Sicherheitsdaten fehlen. Die beworbenen Vorteile der Arginat-Form (Stabilität, Aufnahme) sind nicht publiziert. Verwendet wird PDA in Szene und US-Praxen ohne regulatorischen Rahmen."
   },
   {
    "id": "kpv",
@@ -2918,7 +2918,7 @@
    "anwendung": 10,
    "richtung": "positiv",
    "label": "Gut belegt",
-   "beleg": "Die beste Datenlage aller Anwendungen: 107 Kohortenstudien mit über 4,8 Millionen Teilnehmern (Zhao et al., JAMA Network Open 2023) plus eine randomisierte Studie mit klinischem Endpunkt – bei Vorhofflimmern senkte sechsmonatige Abstinenz die Rezidivrate deutlich (Voskoboinik et al., NEJM 2020). Die Wirkkette ist vom Molekül bis zum Krankheitsendpunkt geschlossen. Die Überhöhung lief historisch in die andere Richtung: Der Rotwein-Schutzeffekt war ein Artefakt der Abstinenzler-Verzerrung; die DGE hat ihre Position 2024 revidiert."
+   "beleg": "Die beste Datenlage aller Anwendungen: 107 Kohortenstudien mit über 4,8 Millionen Teilnehmern (Zhao et al., JAMA Network Open 2023) plus eine randomisierte Studie mit klinischem Endpunkt – bei Vorhofflimmern senkte sechsmonatige Abstinenz die Rezidivrate deutlich (Voskoboinik et al., NEJM 2020). Die Wirkkette ist vom Molekül bis zum Krankheitsendpunkt geschlossen. Die Überhöhung lief historisch in die andere Richtung: Der Rotwein-Schutzeffekt war zu großen Teilen ein Artefakt der Abstinenzler-Verzerrung; die DGE hat ihre Position 2024 revidiert."
   },
   {
    "id": "zone2-vo2max",
@@ -3160,7 +3160,7 @@
    "anwendung": 7,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Zwei sehr ungleiche Verfahren in einem Eintrag. Die repetitive Magnetstimulation ist bei Depression gut untersucht (Netzwerk-Meta-Analyse, 81 RCTs, 4.233 Patienten, JAMA Psychiatry 2017) und in der Nationalen Versorgungsleitlinie bei therapieresistenten Episoden empfohlen. Die im Biohacking genutzte Gleichstromstimulation zeigt bei Depression in einer Auswertung individueller Patientendaten (18 Studien, 1.246 Teilnehmende, Br J Psychiatry 2026) nur einen kleinen Effekt ohne mehr Remissionen; die deutsche DepressionDC-Studie (Lancet 2023, n = 160) verfehlte ihren primären Endpunkt, die Leitlinie spricht keine Empfehlung aus. Für kognitive Effekte bei Gesunden nach Einzelsitzungen fand ein quantitatives Review in 59 Analysen keinen Nachweis. Consumer-Geräte leihen sich Glaubwürdigkeit von einem anderen Verfahren."
+   "beleg": "Zwei sehr ungleiche Verfahren in einem Eintrag. Die repetitive Magnetstimulation ist bei Depression gut untersucht (Netzwerk-Meta-Analyse, 81 RCTs, 4.233 Patienten, JAMA Psychiatry 2017) und in der Nationalen Versorgungsleitlinie bei therapieresistenten Episoden empfohlen. Die im Biohacking genutzte Gleichstromstimulation zeigt bei Depression in einer Auswertung individueller Patientendaten (18 Studien, 1.246 Teilnehmende, Br J Psychiatry 2026) nur einen kleinen Effekt ohne mehr Remissionen; die deutsche DepressionDC-Studie (Lancet 2023, n = 160) verfehlte ihren primären Endpunkt, die Leitlinie spricht keine Empfehlung aus. Für kognitive Effekte bei Gesunden nach Einzelsitzungen fand ein quantitatives Review in 59 Analysen keinen Nachweis. Consumer-Geräte leihen sich Glaubwürdigkeit von einem anderen Verfahren. In den USA ist seit 08.12.2025 ein tDCS-Heimgerät gegen Depression zugelassen (FDA); eine Meta-Analyse über 6 scheinkontrollierte Heimstudien fand 2026 einen kleinen, nicht robusten Effekt (g = 0,36), die beiden größten Studien waren negativ."
   },
   {
    "id": "fasten-autophagie",
@@ -3478,7 +3478,7 @@
    "anwendung": 9,
    "richtung": "positiv",
    "label": "Dünne Humanevidenz",
-   "beleg": "Dass langsames Atmen um sechs Atemzüge pro Minute die Herzratenvariabilität und den Vagustonus akut erhöht, ist gut gemessen – Box Breathing mit 4-4-4-4 liegt allerdings nicht in diesem Resonanzbereich, und die einzige HRV-Messung dazu fand keine Veränderung. Über die akute Wirkung hinaus – Angst, Leistung, Stressresistenz – sind die Studien klein und kurz."
+   "beleg": "Dass langsames Atmen um sechs Atemzüge pro Minute die Herzratenvariabilität und den Vagustonus akut erhöht, ist gut gemessen – Box Breathing mit 4-4-4-4 liegt allerdings nicht in diesem Resonanzbereich. Die beiden HRV-Messungen zu genau dieser Technik widersprechen sich: vor einem Stresstest keine Veränderung, in der Erholung nach Maximalbelastung ein stärkerer Anstieg als mit normaler Atmung. Über die akute Wirkung hinaus – Angst, Leistung, Stressresistenz – sind die Studien klein und kurz; eine systematische Übersicht über acht randomisierte Studien nennt die Effekte kurzfristig und uneinheitlich."
   },
   {
    "id": "wim-hof-atmung",
@@ -3618,7 +3618,7 @@
    "anwendung": 9,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Für die Einzelbausteine – Schlaf, Krafttraining, Zink bei Mangel – gibt es jeweils Humandaten. Die Zahl „80 % des Hebels\" ist dagegen frei geschätzt; ein gemeinsamer Effekt des Bündels ist nie gemessen worden."
+   "beleg": "Für die Einzelbausteine – Schlaf, Krafttraining, Zink bei Mangel – gibt es jeweils Humandaten. Ein Bündel aus Ernährung, Ausdauertraining, Schlafhygiene und Alkoholverzicht hob das Testosteron bisher in einer einzigen randomisierten Studie an 89 übergewichtigen Männern mit Schlafapnoe um rund 3 nmol/l; für gesunde Männer und für das verbreitete Paket mit Zink, Bor und Magnesium fehlt ein solcher Test. Die Zahl „80 % des Hebels\" ist frei geschätzt."
   },
   {
    "id": "protein-longevity",
@@ -3925,14 +3925,14 @@
    "view": "tipps",
    "name": "Training am Zyklus ausrichten (Frauen)",
    "url": "https://biohackingkompakt.de/tipp/zyklus-tracking.html",
-   "evidenz": 3,
+   "evidenz": 4,
    "mechanismus": 5,
    "sicherheit": 9,
    "hype": 3,
    "anwendung": 7,
    "richtung": "gemischt",
-   "label": "Lange angewendet, kaum untersucht",
-   "beleg": "Übersichtsarbeiten zum zyklusbasierten Training kommen zu einem ernüchternden Ergebnis: Die Effekte sind klein, die Studien methodisch schwach und die individuellen Unterschiede grösser als der Phaseneffekt."
+   "label": "Dünne Humanevidenz",
+   "beleg": "Übersichtsarbeiten zum zyklusbasierten Training kommen zu einem ernüchternden Ergebnis: Die Effekte sind klein, die Studien methodisch schwach und die individuellen Unterschiede größer als der Phaseneffekt. Evidenz 4, weil seit 2026 die erste randomisierte Prüfung des Prinzips selbst vorliegt: Bei 24 Frauen über drei Zyklen brachte es beim Muskel- und Kraftaufbau keinen Vorteil, das Training nach der Zyklusphase zu verteilen, entscheidend war das Trainingsvolumen (D’Souza 2026); eine placebokontrollierte Studie mit 20 Frauen fand zudem, dass Progesteron die Muskelproteinsynthese weder in Ruhe noch nach Krafttraining verändert (D’Souza 2026, J Physiol). Die Studien sind klein und kurz, deshalb nicht höher."
   },
   {
    "id": "hbot",
@@ -4107,14 +4107,14 @@
    "view": "tipps",
    "name": "Monatlicher Senolytikum-Puls",
    "url": "https://biohackingkompakt.de/tipp/senolytikum-pulse.html",
-   "evidenz": 1,
+   "evidenz": 2,
    "mechanismus": 3,
    "sicherheit": 2,
    "hype": 2,
    "anwendung": 4,
    "richtung": "negativ",
-   "label": "Nicht am Menschen untersucht",
-   "beleg": "Evidenz 1: Zum Pulsschema gibt es keine berichteten Humandaten – die einzige placebokontrollierte Studie dazu (AFFIRM, 40 Frauen ab 70 Jahren) läuft seit dem 6.2.2018 und hat nichts veröffentlicht, im Register steht der 1.11.2026. Mechanismus 3: Zellkultur-Screening und die Mausarbeit von 2018 stützen den Pfad, aber das Interventions-Testprogramm fand 2023 keine Senkung der Seneszenzmarker in Leber, Niere und Gehirn, sodass der Mechanismus über die Erstbeschreibung hinaus unbestätigt ist. Sicherheit 2: Ohne berichtete Humanstudie gibt es keine systematisch erhobene Sicherheitsdatenlage für hohe Pulse, bekannt sind nur Wechselwirkungen von Quercetin mit Blutverdünnern und einigen Antibiotika. Hype 2 bleibt, weil Packungen Zellerneuerung versprechen, während der Mechanismus in der besten Replikation nicht auffindbar war, und Anwendung 4 bleibt, weil Fisetin breit und ohne regulatorischen Rahmen im Regal steht; die Richtung wird von offen auf negativ gesetzt, da mit dem Testprogramm Daten vorliegen, die gegen die Wirkung sprechen."
+   "label": "Hype weit vor Evidenz",
+   "beleg": "Evidenz 2, weil es zum monatlichen Fisetin-Puls inzwischen berichtete Humandaten gibt, allerdings nur im Studienregister: eine kleine, offene randomisierte Studie der Mayo Clinic an 14 Frauen nach den Wechseljahren, in der der Knochenabbaumarker nach 20 Wochen nicht sank und ein schweres unerwünschtes Ereignis auftrat (NCT04313634); die einzige placebokontrollierte Studie dazu (AFFIRM, 40 Frauen ab 70 Jahren) läuft seit dem 6.2.2018 und hat nichts veröffentlicht, der Primärabschluss ist im Register für 11/2026, das Studienende für 11/2027 geschätzt. Mechanismus 3: Zellkultur-Screening und die Mausarbeit von 2018 stützen den Pfad, aber das Interventions-Testprogramm fand 2023 keine Senkung der Seneszenzmarker in Leber, Niere und Gehirn, sodass der Mechanismus über die Erstbeschreibung hinaus unbestätigt ist. Sicherheit 2: Außer den Registerdaten dieser kleinen offenen Studie gibt es keine systematisch erhobene Sicherheitsdatenlage für hohe Pulse, bekannt sind nur Wechselwirkungen von Quercetin mit Blutverdünnern und einigen Antibiotika. Hype 2 bleibt, weil Packungen Zellerneuerung versprechen, während der Mechanismus in der besten Replikation nicht auffindbar war, und Anwendung 4 bleibt, weil Fisetin breit und ohne regulatorischen Rahmen im Regal steht; die Richtung wird von offen auf negativ gesetzt, da mit dem Testprogramm Daten vorliegen, die gegen die Wirkung sprechen."
   },
   {
    "id": "inuspherese",
@@ -4250,7 +4250,7 @@
    "anwendung": 2,
    "richtung": "offen",
    "label": "Hype weit vor Evidenz",
-   "beleg": "evidenz 2: Am Menschen liegt keine interventionelle Studie mit Ergebnissen vor — alles ist Beobachtung (718 Menschen zur Genvariante KL-VS 2014, 804 Menschen in InCHIANTI 2011), und die Genetik widerspricht sich zwischen der schottischen, der dänischen und der US-Auswertung. mechanismus 5: Der Pfad über Insulin- und IGF-1-Dämpfung ist in Maus und Affe belegt und beim Menschen durch Genvariante und Blutwert immerhin angedeutet, aber nie am Menschen geprüft. sicherheit 1: Es gab fast keine Anwendung, entsprechend keine systematisch erhobenen Verträglichkeitsdaten; aus dem Affenversuch stammt eine Einmalgabe mit 2 Wochen Beobachtung. hype 2: Die 20 bis 30 Prozent Lebensverlängerung stehen überall, die Bedingung — das Gen war von der Befruchtung an hochgedreht — nirgends, und Kapseln werden als Klotho-Booster verkauft, obwohl ein Protein aus über 1000 Aminosäuren verdaut wird. anwendung 2: Angewendet wird Klotho nur in Studien und im Graumarkt, etwa in 2 Pilotstudien mit je 14 Menschen in Honduras; dort ist zudem die erste verblindete, placebokontrollierte Studie mit 21 Teilnehmenden angemeldet, laut Register aber noch nicht gestartet."
+   "beleg": "evidenz 2: Am Menschen liegt keine interventionelle Studie mit Ergebnissen vor — alles ist Beobachtung (718 Menschen zur Genvariante KL-VS 2014, 804 Menschen in InCHIANTI 2011), und die Genetik widerspricht sich zwischen der schottischen, der dänischen und der US-Auswertung. mechanismus 5: Der Pfad über Insulin- und IGF-1-Dämpfung ist in Maus und Affe belegt und beim Menschen durch Genvariante und Blutwert immerhin angedeutet, aber nie am Menschen geprüft. sicherheit 1: Es gab fast keine Anwendung, entsprechend keine systematisch erhobenen Verträglichkeitsdaten; aus dem Affenversuch stammt eine Einmalgabe mit 2 Wochen Beobachtung. hype 2: Die 20 bis 30 Prozent Lebensverlängerung stehen überall, die Bedingung — das Gen war von der Befruchtung an hochgedreht — nirgends, und Kapseln werden als Klotho-Booster verkauft, obwohl ein Protein aus über 1000 Aminosäuren verdaut wird. anwendung 2: Angewendet wird Klotho nur in Studien und im Graumarkt, etwa in 2 Pilotstudien mit je 14 Menschen in Honduras; dort rekrutiert seit Oktober 2026 zudem eine offene, einarmige Phase-1-Studie mit 20 geplanten Gesunden (Klotho als mRNA, ohne Placebo), Ergebnisse stehen aus."
   },
   {
    "id": "lipoprotein-a",
@@ -5127,14 +5127,14 @@
    "view": "experimental",
    "name": "Clenbuterol",
    "url": "https://biohackingkompakt.de/thema/clenbuterol.html",
-   "evidenz": 4,
+   "evidenz": 5,
    "mechanismus": 7,
    "sicherheit": 4,
-   "hype": 2,
+   "hype": 3,
    "anwendung": 5,
    "richtung": "negativ",
    "label": "Untersucht – Nutzen nicht gezeigt",
-   "beleg": "Evidenz 4, weil es für die Szene-Anwendung nur zwei kleine, kurze randomisierte Studien gibt: 11 gesunde Männer über 2 Wochen (Hostrup et al. 2025, +0,91 kg Magermasse, kein Effekt auf die Fettmasse) und 14 Übergewichtige über 4 Wochen (Van Lier et al. 2026, Gewicht und Fettmasse unverändert); die Zulassung betrifft Asthma, nicht Muskelaufbau oder Abnehmen. Mechanismus 7, weil die Beta-2-Signalkette im menschlichen Muskel per Biopsie nachgewiesen ist, einschließlich der Toleranz innerhalb von 2 Wochen, der Fettabbau aus der Tiermast (Mersmann 1998) sich beim Menschen aber nicht bestätigt hat. Sicherheit 4, weil es für die therapeutische Anwendung eine Zulassung seit 1988 gibt, für die missbräuchliche Nutzung aber nur Giftnotruf-Serien (Brett et al. 2014: 63 Expositionen, 84 % stationär) und Fallberichte bis zum Herzinfarkt; die Fachinformation berichtet tödliche Verläufe bei Missbrauch. Hype 2, weil der zentrale Fatburner-Anspruch in beiden randomisierten Humanstudien nicht hielt und die Leistung sogar sank (maximale Sauerstoffaufnahme −7 %). Anwendung 5, weil Clenbuterol ärztlich reguliert nur als Asthma-Mittel in einzelnen Ländern eingesetzt wird, im Sport- und Abnehmbereich aber seit Jahrzehnten ohne Aufsicht verbreitet ist. Richtung negativ für die Anwendung ohne Indikation: Die Daten sprechen gegen den beworbenen Fettabbau und gegen einen Leistungsnutzen, bei dokumentierten schweren Herz- und Stoffwechselrisiken."
+   "beleg": "Evidenz 5, weil für die Szene-Anwendung inzwischen drei kleine randomisierte Studien vorliegen: 11 gesunde Männer über 2 Wochen (Hostrup et al. 2025, +0,91 kg Magermasse, kein Effekt auf die Fettmasse), 14 Übergewichtige über 4 Wochen (Van Lier et al. 2026, Gewicht und Fettmasse unverändert) und 32 gesunde Erwachsene über 8 Wochen Krafttraining samt Absetzphase (Moesgaard et al. 2026, +1,7 kg Magermasse und mehr Maximalkraft, Fettmasse unverändert, Vorsprung nach 16 Wochen Pause weitgehend verloren); die doppelblinde Studie von Moesgaard prüft erstmals die tatsächliche Szene-Anwendung mit Krafttraining über 8 Wochen und harten Endpunkten zu Körperzusammensetzung und Kraft, Langzeit- oder Sicherheitsendpunkte fehlen aber weiterhin, und die Zulassung betrifft Asthma, nicht Muskelaufbau oder Abnehmen. Mechanismus 7, weil die Beta-2-Signalkette im menschlichen Muskel per Biopsie nachgewiesen ist, einschließlich der Toleranz innerhalb von 2 Wochen, der Fettabbau aus der Tiermast (Mersmann 1998) sich beim Menschen aber nicht bestätigt hat. Sicherheit 4, weil es für die therapeutische Anwendung eine Zulassung seit 1988 gibt, für die missbräuchliche Nutzung aber nur Giftnotruf-Serien (Brett et al. 2014: 63 Expositionen, 84 % stationär) und Fallberichte bis zum Herzinfarkt; die Fachinformation berichtet tödliche Verläufe bei Missbrauch. Hype 3, weil der zentrale Fatburner-Anspruch in allen drei randomisierten Humanstudien nicht hielt und die Ausdauerleistung in der Studie von 2025 sogar sank (maximale Sauerstoffaufnahme −7 %), der beworbene Muskel- und Krafteffekt beim Menschen aber inzwischen randomisiert gemessen ist (Bankdrücken +6 kg, Beinpresse +16 kg im Einwiederholungsmaximum; Moesgaard et al. 2026) und nicht mehr nur aus der Tiermast stammt. Anwendung 5, weil Clenbuterol ärztlich reguliert nur als Asthma-Mittel in einzelnen Ländern eingesetzt wird, im Sport- und Abnehmbereich aber seit Jahrzehnten ohne Aufsicht verbreitet ist. Richtung negativ für die Anwendung ohne Indikation: Die Daten sprechen gegen den beworbenen Fettabbau und gegen einen Nutzen für die Ausdauer; der Muskel- und Kraftgewinn mit Krafttraining ist gemessen, ging nach dem Absetzen aber weitgehend verloren – bei dokumentierten schweren Herz- und Stoffwechselrisiken."
   },
   {
    "id": "dnp",
@@ -5428,7 +5428,7 @@
    "anwendung": 5,
    "richtung": "offen",
    "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 5, weil es sechs kleine placebokontrollierte Studien mit klinischen Endpunkten gibt (5 bis 37 Teilnehmende), die bei Autismus (Kern 2001, Bolman 1999), Epilepsie (Gascon 1989), progredienter MS über 12 Monate (Wolfsegger 2021), Laufbandleistung (Gray 1982, Pangamsäure) und Mitochondrienkrankheit (Liet 2003) übereinstimmend keinen Effekt fanden; dem steht nur ein nie wiederholter Immunbefund mit 20 Freiwilligen gegenüber (Graber 1981). Mechanismus 4, weil die Rolle von DMG im Betain-Stoffwechsel am Menschen gut beschrieben ist (McGregor 2001, Binzak 2001), die beworbene bessere Sauerstoffnutzung aber nur aus Zellkultur und Tier stammt und am Menschen nicht messbar war (Liet 2003). Sicherheit 4, weil kontrollierte Daten bis 12 Monate mit 125 mg pro Tag bei 20 Behandelten keine Auffälligkeiten zeigten, systematische Langzeitdaten aber fehlen und hohe körpereigene DMG-Spiegel mit Herzinfarkten assoziiert sind (Svingen 2013). Hype 3, weil DMG seit der Pangamsäure-Zeit als Leistungs-, Immun- und Autismusmittel beworben wird, gestützt auf Einzelbefunde. Anwendung 5, weil es seit 1974 breit als Nahrungsergänzung verkauft wird, ohne regulatorischen Rahmen in der EU. Richtung negativ: Alle placebokontrollierten Studien zu den beworbenen Hauptwirkungen fanden keinen Effekt, wenn auch in kleinen Gruppen."
+   "beleg": "Evidenz 5, weil es sechs kleine placebokontrollierte Studien mit klinischen Endpunkten gibt (5 bis 37 Teilnehmende), die bei Autismus (Kern 2001, Bolman 1999), Epilepsie (Gascon 1989), progredienter MS über 12 Monate (Wolfsegger 2021), Laufbandleistung (Gray 1982, Pangamsäure) und Mitochondrienkrankheit (Liet 2003) übereinstimmend keinen Effekt fanden; dem steht nur ein nie wiederholter Immunbefund mit 20 Freiwilligen gegenüber (Graber 1981). Mechanismus 4, weil die Rolle von DMG im Betain-Stoffwechsel am Menschen gut beschrieben ist (McGregor 2001, Binzak 2001), die beworbene bessere Sauerstoffnutzung aber nur aus Zellkultur und Tier stammt und am Menschen nicht messbar war (Liet 2003). Sicherheit 4, weil kontrollierte Daten bis 12 Monate mit 125 mg pro Tag bei 20 Behandelten keine Auffälligkeiten zeigten, systematische Langzeitdaten aber fehlen und hohe körpereigene DMG-Spiegel mit Herzinfarkten assoziiert sind (Svingen 2013). Hype 3, weil DMG seit der Pangamsäure-Zeit als Leistungs-, Immun- und Autismusmittel beworben wird, gestützt auf Einzelbefunde. Anwendung 5, weil es seit 1974 breit als Nahrungsergänzung verkauft wird, ohne regulatorischen Rahmen in der EU. Richtung offen: Alle placebokontrollierten Studien zur Einnahme fanden bei den beworbenen Hauptwirkungen keinen Effekt, wenn auch in kleinen Gruppen; für ein DMG-haltiges Mittel zum Auftragen bei erblich bedingtem Haarausfall berichten aber zwei neue doppelblinde, placebokontrollierte Studien mit über 300 Teilnehmenden eine Verbesserung (Mihály 2026)."
   },
   {
    "id": "gamma-butyrobetain",
@@ -6291,12 +6291,12 @@
    "url": "https://biohackingkompakt.de/thema/isotretinoin.html",
    "evidenz": 7,
    "mechanismus": 7,
-   "sicherheit": 8,
+   "sicherheit": 9,
    "hype": 6,
    "anwendung": 10,
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Evidenz 7, weil die Wirkung bei schwerer Akne zugelassen und dosisabhängig gezeigt ist, die Cochrane-Übersicht über 31 RCTs mit 3.836 Teilnehmenden die Evidenzqualität aber überwiegend als niedrig einstuft und Placebovergleiche weitgehend fehlen (Costa 2018). Mechanismus 7, weil Isotretinoin als einziges Aknemittel an allen Hauptursachen ansetzt und die fruchtschädigende Wirkung am Menschen beschrieben ist, während offen bleibt, wie psychische und sexuelle Nebenwirkungen entstehen. Sicherheit 8, weil das Fehlbildungsrisiko quantifiziert ist, zwei europäische Bewertungen von 2017 und 2018, eine britische Überprüfung von 2023 und eine Meta-Analyse mit 1,6 Millionen Teilnehmenden zu psychischen Risiken vorliegen; ob einzelne Betroffene ursächlich geschädigt werden, ist damit nicht abschließend geklärt. Hype 6, weil die Aknewirkung nicht überhöht wird, der Gebrauch in niedriger Dauerdosis außerhalb der Zulassung aber auf kleinen Studien mit niedriger Evidenzqualität beruht (Al Muqarrab 2022). Anwendung 10, weil Isotretinoin seit den 1980er-Jahren weltweit eingesetzt wird. Richtung positiv: Die Daten stützen die Wirkung bei schwerer Akne, nicht den Einsatz außerhalb der Zulassung."
+   "beleg": "Evidenz 7, weil die Wirkung bei schwerer Akne zugelassen und dosisabhängig gezeigt ist, die Cochrane-Übersicht über 31 RCTs mit 3.836 Teilnehmenden die Evidenzqualität aber überwiegend als niedrig einstuft und Placebovergleiche weitgehend fehlen (Costa 2018). Mechanismus 7, weil Isotretinoin als einziges Aknemittel an allen Hauptursachen ansetzt und die fruchtschädigende Wirkung am Menschen beschrieben ist, während offen bleibt, wie psychische und sexuelle Nebenwirkungen entstehen. Sicherheit 9, weil das Fehlbildungsrisiko quantifiziert ist, zwei europäische Bewertungen von 2017 und 2018, eine britische Überprüfung von 2023 und eine Meta-Analyse mit 1,6 Millionen Teilnehmenden zu psychischen Risiken vorliegen und 2026 zwei landesweite dänische Registerstudien hinzukamen – 379.196 Wehrpflichtige ohne Zusammenhang mit der Erwachsenengröße (Schmidt 2026) und eine Kohorte ohne erhöhtes Risiko für einen Pseudotumor cerebri (Bastrup Israelsen 2026) –, dazu eine Meta-Analyse ohne klinisch bedeutsame Veränderung der Schilddrüsenwerte und eine Übersicht aus 43 Arbeiten zum trockenen Auge (Fineide 2026); ob einzelne Betroffene ursächlich geschädigt werden, ist damit weiter nicht abschließend geklärt. Hype 6, weil die Aknewirkung nicht überhöht wird, der Gebrauch in niedriger Dauerdosis außerhalb der Zulassung aber auf kleinen Studien mit niedriger Evidenzqualität beruht (Al Muqarrab 2022). Anwendung 10, weil Isotretinoin seit den 1980er-Jahren weltweit eingesetzt wird. Richtung positiv: Die Daten stützen die Wirkung bei schwerer Akne, nicht den Einsatz außerhalb der Zulassung."
   },
   {
    "id": "orlistat",
@@ -6717,7 +6717,7 @@
    "anwendung": 6,
    "richtung": "gemischt",
    "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 5, weil es mehrere randomisierte Studien gibt – eine kleine Crossover-Studie mit 31 Frauen fand bei Fibromyalgie weniger Schmerz (Younger 2013), eine Meta-Analyse über 4 Studien ebenfalls –, die zwei größten Fibromyalgie-Studien mit 99 und 98 Frauen beim Schmerz aber keinen Unterschied zu Placebo zeigten und es für Long Covid noch keine randomisierte Studie gibt. Mechanismus 4, weil sowohl die Endorphin-Gegenregulation als auch die Dämpfung der Mikroglia Hypothesen sind, die beim Menschen nicht direkt gemessen wurden. Sicherheit 6, weil Nebenwirkungen in mehreren placebokontrollierten Studien erfasst sind und etwa so häufig waren wie unter Placebo; Langzeitdaten über Jahre fehlen. Hype 3, weil LDN für eine lange Liste von Erkrankungen empfohlen wird, sich frühe Erfolge in kontrollierten Studien aber selten bestätigt haben (Gouda 2026). Anwendung 6, weil Naltrexon in höherer Dosis ein zugelassenes Arzneimittel ist und die niedrige Dosis laut INNOVA-Studie seit über zehn Jahren außerhalb der Zulassung bei Fibromyalgie verordnet wird. Richtung gemischt: ermutigende kleine Studien und eine gute Verträglichkeit, aber negative große Studien bei Fibromyalgie."
+   "beleg": "Evidenz 5, weil es mehrere randomisierte Studien gibt – eine kleine Crossover-Studie mit 31 Frauen fand bei Fibromyalgie weniger Schmerz (Younger 2013), eine Meta-Analyse über 4 Studien ebenfalls –, die zwei größten Fibromyalgie-Studien mit 99 und 98 Frauen beim Schmerz aber keinen Unterschied zu Placebo zeigten, eine Studie bei Morbus Crohn mit 41 Patienten 2026 wegen Aussichtslosigkeit abgebrochen wurde, eine kleine Studie bei Depression ohne Effekt blieb und es für Long Covid noch keine randomisierte Studie gibt. Mechanismus 4, weil sowohl die Endorphin-Gegenregulation als auch die Dämpfung der Mikroglia Hypothesen sind, die beim Menschen nicht direkt gemessen wurden. Sicherheit 6, weil Nebenwirkungen in mehreren placebokontrollierten Studien erfasst sind und etwa so häufig waren wie unter Placebo; Langzeitdaten über Jahre fehlen. Hype 3, weil LDN für eine lange Liste von Erkrankungen empfohlen wird, sich frühe Erfolge in kontrollierten Studien aber selten bestätigt haben (Gouda 2026). Anwendung 6, weil Naltrexon in höherer Dosis ein zugelassenes Arzneimittel ist und die niedrige Dosis laut INNOVA-Studie seit über zehn Jahren außerhalb der Zulassung bei Fibromyalgie verordnet wird. Richtung gemischt: ermutigende kleine Studien und eine gute Verträglichkeit, aber negative große Studien bei Fibromyalgie."
   },
   {
    "id": "17-alpha-estradiol",
@@ -6745,7 +6745,7 @@
    "anwendung": 10,
    "richtung": "positiv",
    "label": "Gut belegt",
-   "beleg": "Evidenz 10, weil der Nutzen in Dutzenden randomisierten Endpunktstudien belegt ist – je 1 mmol/l LDL-Senkung 22 Prozent weniger schwere Gefäßereignisse in 26 Studien mit rund 170.000 Teilnehmenden (CTT 2010) – und auch bei Menschen ohne Vorerkrankung (JUPITER, HOPE-3). Mechanismus 9, weil die Hemmung der HMG-CoA-Reduktase und der Weg über die LDL-Senkung gut verstanden sind und der Nutzen der Höhe der LDL-Senkung folgt. Sicherheit 9, weil Nebenwirkungen in doppelblinden Studien mit über 120.000 Teilnehmenden einzeln ausgewertet sind und die Nocebo-Frage mit eigenen Placebo-Studien geprüft wurde; das heißt gut untersucht, nicht harmlos. Hype 7, weil die Herzvorsorge gut belegt ist; ein Abstand entsteht dort, wo Statine als allgemeines Anti-Aging-Mittel gelten, während die einzige Studie zu behinderungsfreiem Überleben Älterer noch keine Ergebnisse hat. Anwendung 10, weil Statine seit Jahrzehnten weltweit breit eingesetzt werden. Richtung positiv: Die Daten stützen die Senkung von Herzinfarkt und Schlaganfall."
+   "beleg": "Evidenz 10, weil der Nutzen in Dutzenden randomisierten Endpunktstudien belegt ist – je 1 mmol/l LDL-Senkung 22 Prozent weniger schwere Gefäßereignisse in 26 Studien mit rund 170.000 Teilnehmenden (CTT 2010) – und auch bei Menschen ohne Vorerkrankung (JUPITER, HOPE-3). Mechanismus 9, weil die Hemmung der HMG-CoA-Reduktase und der Weg über die LDL-Senkung gut verstanden sind und der Nutzen der Höhe der LDL-Senkung folgt. Sicherheit 9, weil Nebenwirkungen in doppelblinden Studien mit über 120.000 Teilnehmenden einzeln ausgewertet sind und die Nocebo-Frage mit eigenen Placebo-Studien geprüft wurde; das heißt gut untersucht, nicht harmlos. Hype 7, weil die Herzvorsorge gut belegt ist – auch ab 70 ohne Vorerkrankung (STAREE: HR 0,70 für schwere Gefäßereignisse); ein Abstand entsteht dort, wo Statine als allgemeines Anti-Aging-Mittel gelten, denn das behinderungsfreie Überleben verlängerten sie in STAREE nicht (HR 0,94, n.s., Zoungas 2026). Anwendung 10, weil Statine seit Jahrzehnten weltweit breit eingesetzt werden. Richtung positiv: Die Daten stützen die Senkung von Herzinfarkt und Schlaganfall."
   },
   {
    "id": "colchicin",
@@ -6780,14 +6780,14 @@
    "view": "experimental",
    "name": "Ivermectin",
    "url": "https://biohackingkompakt.de/thema/ivermectin.html",
-   "evidenz": 8,
+   "evidenz": 9,
    "mechanismus": 6,
    "sicherheit": 8,
    "hype": 2,
    "anwendung": 10,
    "richtung": "negativ",
    "label": "Gut untersucht – Wirkung nicht bestätigt",
-   "beleg": "Evidenz 8, weil die beworbene Covid-Wirkung in drei großen randomisierten Studien geprüft wurde – TOGETHER mit 1.358 Patienten im Vergleich Ivermectin gegen Placebo, ACTIV-6 mit 1.591 und PRINCIPLE mit 8.811 Teilnehmenden – und keine davon einen relevanten Effekt auf Krankenhausaufnahmen oder Genesung fand, während es für Krebs und Langlebigkeit nur Labordaten gibt. Mechanismus 6, weil die antiparasitäre Wirkung über Chloridkanäle wirbelloser Tiere gut verstanden ist, die antivirale und krebshemmende Wirkung aber nur in Zellkulturen gezeigt ist. Sicherheit 8, weil die zugelassene Einmalgabe seit Jahrzehnten und in Massenbehandlungen dokumentiert und in den Covid-Studien placebokontrolliert erfasst ist; für hohe Dauerdosen, wie sie für Krebs kursieren, fehlen Sicherheitsdaten. Hype 2, weil Ivermectin als Mittel gegen Covid-19, Krebs und das Altern beworben wird, ohne dass eine kontrollierte Studie einen klinischen Nutzen zeigt. Anwendung 10, weil Avermectine seit Jahrzehnten weltweit gegen Parasiten eingesetzt werden. Richtung negativ: Für die beworbene Covid-Wirkung ist gut untersucht, dass sie nicht eintritt; der Nutzen in der Zulassung bleibt davon unberührt."
+   "beleg": "Evidenz 9, weil die beworbene Covid-Wirkung in drei großen randomisierten Studien geprüft wurde – TOGETHER mit 1.358 Patienten im Vergleich Ivermectin gegen Placebo, ACTIV-6 mit 1.591 und PRINCIPLE mit 8.811 Teilnehmenden – und keine davon einen relevanten Effekt auf Krankenhausaufnahmen oder Genesung fand; 2026 kamen eine Meta-Analyse aus 40 randomisierten Studien mit 23.243 Teilnehmenden ohne gesicherten Effekt auf Ansteckung oder Sterblichkeit (BMC Infect Dis 2026) und die Plattformstudie REMAP-CAP hinzu, die ihren Ivermectin-Arm wegen Aussichtslosigkeit geschlossen hat (Hashmi 2026). Für Krebs und Langlebigkeit gibt es weiter nur Labordaten, und die viel geteilte Beobachtungsstudie zu Ivermectin plus Mebendazol ist zurückgezogen. Mechanismus 6, weil die antiparasitäre Wirkung über Chloridkanäle wirbelloser Tiere gut verstanden ist, die antivirale und krebshemmende Wirkung aber nur in Zellkulturen gezeigt ist. Sicherheit 8, weil die zugelassene Einmalgabe seit Jahrzehnten und in Massenbehandlungen dokumentiert und in den Covid-Studien placebokontrolliert erfasst ist; für hohe Dauerdosen, wie sie für Krebs kursieren, fehlen Sicherheitsdaten. Hype 2, weil Ivermectin als Mittel gegen Covid-19, Krebs und das Altern beworben wird, ohne dass eine kontrollierte Studie einen klinischen Nutzen zeigt. Anwendung 10, weil Avermectine seit Jahrzehnten weltweit gegen Parasiten eingesetzt werden. Richtung negativ: Für die beworbene Covid-Wirkung ist gut untersucht, dass sie nicht eintritt; der Nutzen in der Zulassung bleibt davon unberührt."
   },
   {
    "id": "orexin-antagonisten",
@@ -6808,14 +6808,14 @@
    "view": "experimental",
    "name": "Trazodon",
    "url": "https://biohackingkompakt.de/thema/trazodon.html",
-   "evidenz": 5,
+   "evidenz": 6,
    "mechanismus": 6,
    "sicherheit": 6,
    "hype": 4,
    "anwendung": 9,
    "richtung": "gemischt",
-   "label": "Dünne Humanevidenz",
-   "beleg": "Evidenz 5, weil es zur Insomnie nur wenige, meist kleine und kurze Studien gibt: Die Meta-Analyse aus 7 Studien mit 429 Patienten fand bessere empfundene Schlafqualität und weniger Aufwachen, aber keinen Unterschied bei Schlafeffizienz, Einschlafzeit und Gesamtschlafzeit (Yi 2018), Cochrane bewertet die Evidenz als niedrig (Everitt 2018). Mechanismus 6, weil das Rezeptorprofil bekannt ist und eine Simulation erklärt, warum niedrige Dosen schlaffördernd, aber nicht antidepressiv wirken (Settimo 2018), am Menschen aber nicht direkt gemessen. Sicherheit 6, weil das Risikoprofil als Antidepressivum über Jahrzehnte beschrieben ist – Blutdruckabfall, QT-Verlängerung, Priapismus –, für die niedrig dosierte Daueranwendung gegen Schlafstörungen aber kaum eigene Daten vorliegen. Hype 4, weil Trazodon sehr verbreitet als Schlafmittel eingesetzt wird, während die US-Schlafmedizin davon abrät (Sateia 2017). Anwendung 9, weil es seit 1981 in den USA zugelassen und weltweit lange im Einsatz ist. Richtung gemischt: subjektiv kleiner Nutzen, objektiv im Schlaflabor kaum Effekt."
+   "label": "Belegt, mit Einschränkungen",
+   "beleg": "Evidenz 6, weil die Wirkung auf den empfundenen Schlaf inzwischen in mehreren Meta-Analysen randomisierter Studien belegt ist – 13 RCTs mit 1.366 Teilnehmenden, mäßiger Effekt auf die Schlafqualität (Yang 2026), bei Depression mit Schlafstörung 10 RCTs mit 1.029 Patienten (Hameed 2026) –, die Studien aber kurz und heterogen sind und Langzeitdaten fehlen; objektive Schlaflaborwerte wurden kaum verbessert (Yi 2018, 7 Studien mit 429 Patienten: kein Unterschied bei Schlafeffizienz, Einschlafzeit und Gesamtschlafzeit), und Cochrane bewertete die Evidenz 2018 als niedrig (Everitt 2018). Mechanismus 6, weil das Rezeptorprofil bekannt ist und eine Simulation erklärt, warum niedrige Dosen schlaffördernd, aber nicht antidepressiv wirken (Settimo 2018), am Menschen aber nicht direkt gemessen. Sicherheit 6, weil das Risikoprofil als Antidepressivum über Jahrzehnte beschrieben ist – Blutdruckabfall, QT-Verlängerung, Priapismus –, für die niedrig dosierte Daueranwendung gegen Schlafstörungen aber kaum eigene Daten vorliegen. Hype 4, weil Trazodon sehr verbreitet als Schlafmittel eingesetzt wird, während die US-Schlafmedizin davon abrät (Sateia 2017). Anwendung 9, weil es seit 1981 in den USA zugelassen und weltweit lange im Einsatz ist. Richtung gemischt: subjektiv kleiner Nutzen, objektiv im Schlaflabor kaum Effekt."
   },
   {
    "id": "zopiclon",
@@ -6852,12 +6852,12 @@
    "url": "https://biohackingkompakt.de/thema/lavendeloel.html",
    "evidenz": 7,
    "mechanismus": 5,
-   "sicherheit": 6,
+   "sicherheit": 7,
    "hype": 5,
    "anwendung": 6,
    "richtung": "positiv",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Evidenz 7, weil fünf doppelblinde Placebo-Studien mit zusammen 1.213 Teilnehmern eine stärkere Abnahme der Angst zeigen (Dold 2023), darunter eine Studie mit 539 Patienten und Paroxetin als Vergleich (Kasper 2014), die großen Studien aber mit Beteiligung des Herstellers entstanden und unabhängige Replikationen fehlen. Mechanismus 5, weil eine PET-Studie an 17 Männern eine veränderte Bindung am Serotonin-1A-Rezeptor zeigt (Baldinger 2014), der genaue Wirkweg aber offen ist. Sicherheit 6, weil Studien bis 10 Wochen, eine Wechselwirkungs- und eine Fahrstudie vorliegen (Fachinformation Lasea), Daten über 3 Monate hinaus aber fehlen. Hype 5, weil Lavendel breit als Mittel für Ruhe und Schlaf beworben wird, belegt ist die Wirkung aber nur für das orale Silexan bei Angst, nicht für Duftöle und nicht für Schlafstörungen als eigene Diagnose. Anwendung 6, weil Lavendelöl lange traditionell genutzt wird und Silexan seit 2009 in Deutschland zugelassen ist. Richtung positiv: Die angstlösende Wirkung ist in mehreren Studien gezeigt, der Schlaf bessert sich bei Angstpatienten mit."
+   "beleg": "Evidenz 7, weil fünf doppelblinde Placebo-Studien mit zusammen 1.213 Teilnehmern eine stärkere Abnahme der Angst zeigen (Dold 2023), darunter eine Studie mit 539 Patienten und Paroxetin als Vergleich (Kasper 2014), dazu eine Studie mit 498 Patienten mit Depression, in der Silexan Placebo ähnlich wie Sertralin überlegen war (Kasper 2025); die großen Studien entstanden aber mit Beteiligung des Herstellers, und unabhängige Replikationen fehlen. Mechanismus 5, weil eine PET-Studie an 17 Männern eine veränderte Bindung am Serotonin-1A-Rezeptor zeigt (Baldinger 2014), der genaue Wirkweg aber offen ist. Sicherheit 7, weil Studien bis 10 Wochen, eine Wechselwirkungs- und eine Fahrstudie vorliegen (Fachinformation Lasea) und seit 2026 eine herstellerfinanzierte Auswertung von Verordnungsdaten mit 67.340 Erwachsenen in Deutschland und der Schweiz auch bei Einnahme über 3 Monate keine Häufung nebenwirkungstypischer Diagnosen fand (Volz 2026); kontrollierte Studien über 3 Monate hinaus fehlen weiterhin. Hype 5, weil Lavendel breit als Mittel für Ruhe und Schlaf beworben wird, belegt ist die Wirkung aber nur für das orale Silexan bei Angst, nicht für Duftöle und nicht für Schlafstörungen als eigene Diagnose. Anwendung 6, weil Lavendelöl lange traditionell genutzt wird und Silexan seit 2009 in Deutschland zugelassen ist. Richtung positiv: Die angstlösende Wirkung ist in mehreren Studien gezeigt, der Schlaf bessert sich bei Angstpatienten mit."
   },
   {
    "id": "l-carnitin",
@@ -7403,7 +7403,7 @@
    "anwendung": 8,
    "richtung": "gemischt",
    "label": "Belegt, mit Einschränkungen",
-   "beleg": "Evidenz 7, weil große Kohorten über mehr als zehn Jahre belegen, dass der Kalkwert Herzinfarkt, Schlaganfall und Herztod unabhängig von den klassischen Risikofaktoren vorhersagt (MESA mit 6.814, CAC Consortium mit 66.636 Menschen), während randomisierte Studien bisher keinen Überlebensvorteil eines Screenings zeigen: DANCAVAS verfehlte mit einem Risikoverhältnis von 0,95 knapp die Signifikanz, Studien zu Folgeentscheidungen zeigen vor allem etwas bessere Risikofaktoren. Mechanismus 7, weil Kalk ein direkter Bestandteil der Arterienverkalkung ist und seine Menge gut messbar, weiche, nicht verkalkte Plaques und Engstellen aber nicht erfasst werden. Sicherheit 7, weil Strahlendosis (im Mittel rund 1 Millisievert), Zufallsbefunde (abklärungsbedürftige Lungenknoten bei 11,7 Prozent in einer US-Kohorte) und Angst nach dem Befund (ROBINSCA) gemessen sind, Langzeitdaten zu den Folgen von Folgeuntersuchungen aber dünn. Hype 6, weil die Messung als Risikomarker hält, was sie verspricht, als Vorsorge für alle oder als Garantie bei null aber über die Daten hinaus verkauft wird; ESC und ACC/AHA empfehlen sie, wenn die Entscheidung über eine Vorbeugung unsicher ist. Anwendung 8, weil die Untersuchung seit über zwei Jahrzehnten eingesetzt und in Kohorten an Zehntausenden Menschen dokumentiert ist. Richtung gemischt: Die Vorhersage ist belegt, ein Nutzen als Screening für harte Endpunkte nicht."
+   "beleg": "Evidenz 7, weil große Kohorten über mehr als zehn Jahre belegen, dass der Kalkwert Herzinfarkt, Schlaganfall und Herztod unabhängig von den klassischen Risikofaktoren vorhersagt (MESA mit 6.814, CAC Consortium mit 66.636 Menschen), während randomisierte Studien bisher keinen Überlebensvorteil eines Screenings zeigen: DANCAVAS verfehlte mit einem Risikoverhältnis von 0,95 knapp die Signifikanz, Studien zu Folgeentscheidungen zeigen vor allem etwas bessere Risikofaktoren. Mechanismus 7, weil Kalk ein direkter Bestandteil der Arterienverkalkung ist und seine Menge gut messbar, weiche, nicht verkalkte Plaques und Engstellen aber nicht erfasst werden. Sicherheit 7, weil Strahlendosis (im Mittel rund 1 Millisievert), Zufallsbefunde (abklärungsbedürftige Lungenknoten bei 11,7 Prozent in einer US-Kohorte) und Angst nach dem Befund (ROBINSCA) gemessen sind, Langzeitdaten zu den Folgen von Folgeuntersuchungen aber dünn. Hype 6, weil die Messung als Risikomarker hält, was sie verspricht, als Vorsorge für alle oder als Garantie bei null aber über die Daten hinaus verkauft wird; ESC und ACC/AHA (Leitlinie 2026) empfehlen sie, wenn die Entscheidung über eine Vorbeugung unsicher ist. Anwendung 8, weil die Untersuchung seit über zwei Jahrzehnten eingesetzt und in Kohorten an Zehntausenden Menschen dokumentiert ist. Richtung gemischt: Die Vorhersage ist belegt, ein Nutzen als Screening für harte Endpunkte nicht."
   },
   {
    "id": "dexa-scan",

@@ -19,7 +19,7 @@ medizinische Empfehlung. Drei Achsen werden regelmaessig missverstanden:
 Inhalte sind Information, kein medizinischer Rat.
 
 Diese Datei enthält die Kurzantworten aller Seiten. Zitierfähige Quelle ist jeweils die verlinkte Seite.
-Stand: 2026-11-21
+Stand: 2026-11-28
 
 # Fragen & Beschwerden
 
@@ -1163,7 +1163,7 @@ Kisspeptin ist ein körpereigenes Peptid aus dem Hypothalamus, das die Ausschüt
 ## Klotho
 https://biohackingkompakt.de/thema/klotho.html
 
-Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird, im Blut zirkuliert und Insulin- und IGF-1-Signale dämpft. In Mäusen mit überexprimiertem Gen verlängert es die Lebenszeit um 19 bis gut 30 Prozent — allerdings war das Gen von der Befruchtung an hochgedreht, das ist keine Behandlung, sondern ein anderes Tier. Am Menschen widerspricht sich die Datenlage: Eine Genvariante geht in einer Untersuchung mit besserer Kognition einher, in einer dänischen und einer schottischen Kohorte mit schlechteren Verläufen, und niedrige Klothowerte im Blut sind mit höherer Sterblichkeit verknüpft, ohne dass daraus eine Ursache würde. Die erste verblindete, placebokontrollierte Studie am Menschen ist in Honduras angemeldet, laut Register aber noch nicht gestartet; Ergebnisse stehen aus.
+Klotho ist ein Protein aus über 1000 Aminosäuren, das überwiegend in der Niere gebildet wird, im Blut zirkuliert und Insulin- und IGF-1-Signale dämpft. In Mäusen mit überexprimiertem Gen verlängert es die Lebenszeit um 19 bis gut 30 Prozent — allerdings war das Gen von der Befruchtung an hochgedreht, das ist keine Behandlung, sondern ein anderes Tier. Am Menschen widerspricht sich die Datenlage: Eine Genvariante geht in einer Untersuchung mit besserer Kognition einher, in einer dänischen und einer schottischen Kohorte mit schlechteren Verläufen, und niedrige Klothowerte im Blut sind mit höherer Sterblichkeit verknüpft, ohne dass daraus eine Ursache würde. Eine erste Studie mit Klotho als mRNA rekrutiert seit Oktober 2026 in Honduras, offen und ohne Placebo; Ergebnisse stehen aus.
 
 ## KLOW (KPV + GHK-Cu + BPC-157 + TB-500)
 https://biohackingkompakt.de/thema/klow-stack.html
@@ -1183,7 +1183,7 @@ Kollagenpeptide gehören zu den meistbeworbenen Hautmitteln überhaupt. Metaanal
 ## Koronarkalk-Score (CAC-Scan)
 https://biohackingkompakt.de/thema/koronarkalk-score.html
 
-In der US-Kohorte MESA mit 6.814 Menschen ohne Herz-Kreislauf-Erkrankung stieg das Risiko für Herzinfarkt und Schlaganfall mit jeder Verdopplung des Kalkwerts um 14 Prozent, unabhängig von Cholesterin, Blutdruck, Rauchen und Diabetes. Bei einem Wert von null lag das Zehn-Jahres-Risiko zwischen 1,3 und 5,6 Prozent, bei Werten über 300 zwischen 13,1 und 25,6 Prozent. Die europäische Leitlinie (ESC 2021) und die US-Leitlinie (ACC/AHA 2019) sehen die Messung vor, wenn die Entscheidung über eine Vorbeugung, etwa ein Statin, unsicher ist. In der dänischen Screening-Studie DANCAVAS sank die Sterblichkeit nach 5,6 Jahren nicht signifikant (Risikoverhältnis 0,95; p = 0,06). Die Strahlendosis liegt bei rund 1 Millisievert. In Deutschland ist der Scan eine Selbstzahlerleistung, und als Früherkennung allein auf Wunsch ist er nach dem Strahlenschutzgesetz nicht zulässig.
+In der US-Kohorte MESA mit 6.814 Menschen ohne Herz-Kreislauf-Erkrankung stieg das Risiko für Herzinfarkt und Schlaganfall mit jeder Verdopplung des Kalkwerts um 14 Prozent, unabhängig von Cholesterin, Blutdruck, Rauchen und Diabetes. Bei einem Wert von null lag das Zehn-Jahres-Risiko zwischen 1,3 und 5,6 Prozent, bei Werten über 300 zwischen 13,1 und 25,6 Prozent. Die europäische Leitlinie (ESC 2021) und die US-Leitlinie (ACC/AHA, seit März 2026 in neuer Fassung) sehen die Messung vor, wenn die Entscheidung über eine Vorbeugung, etwa ein Statin, unsicher ist. In der dänischen Screening-Studie DANCAVAS sank die Sterblichkeit nach 5,6 Jahren nicht signifikant (Risikoverhältnis 0,95; p = 0,06). Die Strahlendosis liegt bei rund 1 Millisievert. In Deutschland ist der Scan eine Selbstzahlerleistung, und als Früherkennung allein auf Wunsch ist er nach dem Strahlenschutzgesetz nicht zulässig.
 
 ## KPV
 https://biohackingkompakt.de/thema/kpv.html
@@ -1223,7 +1223,7 @@ Kupfer ist essenziell und in seinen Funktionen lückenlos verstanden. Ein Mangel
 ## Kurkuma (Curcumin)
 https://biohackingkompakt.de/thema/kurkuma.html
 
-Kurkuma ist der Wurzelstock von Curcuma longa, seine Wirkstoffe sind die Curcuminoide mit Curcumin als Hauptanteil. Am besten belegt ist die Kniearthrose: Eine Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten fand gegenüber Placebo 1,63 Punkte weniger auf der Schmerzskala und 18,85 Punkte weniger im WOMAC-Gesamtscore. Der erste Haken ist die Bioverfügbarkeit: Piperin, Mizellen und Phospholipid-Komplexe sind pharmakokinetisch sehr verschiedene Wege, für die es nicht überall eigene Wirksamkeitsdaten gibt. Der zweite Haken betrifft die Leber, denn genau die hochdosierten Präparate fallen in den Fallserien zur Leberschädigung auf.
+Kurkuma ist der Wurzelstock von Curcuma longa, seine Wirkstoffe sind die Curcuminoide mit Curcumin als Hauptanteil. Am besten untersucht ist die Kniearthrose: Eine Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten fand gegenüber Placebo 1,63 Punkte weniger auf der Schmerzskala, der Cochrane-Review von 2026 mit strengerer Studienauswahl nur 0,72 Punkte, unter der Schwelle, ab der Patienten einen Unterschied spüren. Der erste Haken ist die Bioverfügbarkeit: Piperin, Mizellen und Phospholipid-Komplexe sind pharmakokinetisch sehr verschiedene Wege, für die es nicht überall eigene Wirksamkeitsdaten gibt. Der zweite Haken betrifft die Leber, denn genau die hochdosierten Präparate fallen in den Fallserien zur Leberschädigung auf.
 
 ## KVT-I – kognitive Verhaltenstherapie bei Schlaflosigkeit (CBT-I)
 https://biohackingkompakt.de/thema/kvt-i.html
@@ -1658,7 +1658,7 @@ Nicotinamid ist die Amid-Form von Vitamin B3, in der Kosmetik heißt es Niacinam
 ## Nicotinamid-Ribosid (NR)
 https://biohackingkompakt.de/thema/nicotinamid-ribosid.html
 
-NR hebt den NAD+-Spiegel im Blut zuverlässig und dosisabhängig an, in einer Studie um 22 bis 142 Prozent, und erreicht auch das Gehirn. Es ist gut verträglich und in der EU seit 2020 als neuartiges Lebensmittel zugelassen, die EFSA hält bis 300 mg am Tag für gesunde Erwachsene für sicher. Bei Insulinsensitivität, Blutzucker, Körperzusammensetzung und Blutdruck blieben die meisten Studien ohne Effekt. Hinweise gibt es auf weniger Entzündung und auf Potenzial bei Parkinson, die große Parkinson-Studie ist abgeschlossen, aber noch nicht veröffentlicht.
+NR hebt den NAD+-Spiegel im Blut zuverlässig und dosisabhängig an, in einer Studie um 22 bis 142 Prozent, und erreicht auch das Gehirn. Es ist gut verträglich und in der EU seit 2020 als neuartiges Lebensmittel zugelassen, die EFSA hält bis 300 mg am Tag für gesunde Erwachsene für sicher. Bei Insulinsensitivität, Blutzucker, Körperzusammensetzung und Blutdruck blieben die meisten Studien ohne Effekt. Hinweise gibt es auf weniger Entzündung; bei Parkinson bestätigte die große Phase-III-Studie die frühen Signale nicht, die Werte verschlechterten sich unter NR sogar etwas stärker als unter Placebo.
 
 ## Niedrigenergetische Stoßwellentherapie (Li-ESWT)
 https://biohackingkompakt.de/thema/stosswellentherapie.html
@@ -1813,7 +1813,7 @@ Pemvidutid ist ein Wochenpeptid von Altimmune, das neben dem GLP-1-Rezeptor auch
 ## Pentadeca Arginate (PDA)
 https://biohackingkompakt.de/thema/pentadeca-arginate.html
 
-Pentadeca Arginate ist BPC-157 mit einem anderen Salzpartner, dem Arginin. Die Wirkidee ist dieselbe: Gefäßneubildung, aktivere Reparaturzellen und bessere Heilung von Sehnen, Bändern, Muskeln und Darmschleimhaut, gut belegt in zahlreichen Tiermodellen. Am Menschen gibt es zur zugrunde liegenden Sequenz nur 3 unkontrollierte Pilotstudien mit zusammen weniger als 30 Personen, zu PDA selbst gar keine Publikation. Dass die Arginat-Form stabiler oder besser aufgenommen wird, ist eine Anbieterangabe. PDA ist nirgends zugelassen und im Sport kritisch.
+Pentadeca Arginate ist BPC-157 mit einem anderen Salzpartner, dem Arginin. Die Wirkidee ist dieselbe: Gefäßneubildung, aktivere Reparaturzellen und bessere Heilung von Sehnen, Bändern, Muskeln und Darmschleimhaut, gut belegt in zahlreichen Tiermodellen. Am Menschen gibt es zur zugrunde liegenden Sequenz nur 3 unkontrollierte Pilotstudien mit zusammen 30 Personen, zu PDA selbst gar keine Publikation. Dass die Arginat-Form stabiler oder besser aufgenommen wird, ist eine Anbieterangabe. PDA ist nirgends zugelassen und im Sport kritisch.
 
 ## Pentadecansäure (C15:0)
 https://biohackingkompakt.de/thema/pentadecansaeure.html
@@ -2188,7 +2188,7 @@ Sunifiram, Laborname DM235, ist ein kleines Piperazin-Molekül aus der Forschung
 ## Survodutide
 https://biohackingkompakt.de/thema/survodutide.html
 
-Survodutide wird einmal pro Woche gespritzt und wirkt an zwei Rezeptoren: GLP-1 dämpft den Appetit, Glukagon greift direkt in den Leberstoffwechsel ein. In der Phase-3-Studie SYNCHRONIZE-1 mit 725 Teilnehmern nahmen die Menschen nach 76 Wochen 12,2 und 13,0 Prozent ihres Gewichts ab, unter Placebo 5,4 Prozent. In einer zweiten Phase-3-Studie bei Fettleber hatten 84,2 Prozent mindestens 30 Prozent weniger Leberfett, unter Placebo 24,3 Prozent. Der Preis ist die Verträglichkeit: Bis zu 89,7 Prozent hatten Magen-Darm-Beschwerden. Die Herz-Kreislauf-Studie ist abgeschlossen, ihre Ergebnisse sind noch nicht veröffentlicht.
+Survodutide wird einmal pro Woche gespritzt und wirkt an zwei Rezeptoren: GLP-1 dämpft den Appetit, Glukagon greift direkt in den Leberstoffwechsel ein. In der Phase-3-Studie SYNCHRONIZE-1 mit 725 Teilnehmern nahmen die Menschen nach 76 Wochen 12,2 und 13,0 Prozent ihres Gewichts ab, unter Placebo 5,4 Prozent. In einer zweiten Phase-3-Studie bei Fettleber hatten 84,2 Prozent mindestens 30 Prozent weniger Leberfett, unter Placebo 24,3 Prozent. Der Preis ist die Verträglichkeit: Bis zu 89,7 Prozent hatten Magen-Darm-Beschwerden. In der großen Herz-Kreislauf-Studie war Survodutide Placebo nicht unterlegen (Lancet 2026).
 
 ## Synephrin (Bitterorange)
 https://biohackingkompakt.de/thema/synephrin.html
@@ -2228,7 +2228,7 @@ Teriparatid besteht aus den ersten 34 Aminosäuren des Parathormons und wird ein
 ## Tesamorelin (Egrifta)
 https://biohackingkompakt.de/thema/tesamorelin.html
 
-Tesamorelin ist ein GHRH-Analogon, das in den USA für eine eng umrissene Gruppe zugelassen ist und dessen EU-Antrag zurückgezogen wurde. Für Gesunde ohne Lipodystrophie existiert keine kontrollierte Studie.
+Tesamorelin ist ein GHRH-Analogon, das in den USA für eine eng umrissene Gruppe zugelassen ist und dessen EU-Antrag zurückgezogen wurde. An Gesunden ohne Lipodystrophie ist es nur in zwei kontrollierten Studien zur Kognition geprüft, nicht für Körperkomposition oder Anti-Aging.
 
 ## Tesofensine
 https://biohackingkompakt.de/thema/tesofensin.html
@@ -2458,7 +2458,7 @@ Vitamin E schützt die mehrfach ungesättigten Fettsäuren in den Zellmembranen 
 ## Vitamin K2 (MK-7 und MK-4)
 https://biohackingkompakt.de/thema/vitamin-k2.html
 
-Vitamin K2 ist ein Sammelname für die Menachinone. Im Regal stehen fast nur MK-4 und MK-7, und sie verhalten sich im Körper völlig unterschiedlich. Gut belegt ist die Biochemie: MK-7 senkt den Marker für inaktives Matrix-Gla-Protein in einer Dreijahresstudie um 50 Prozent. Beim Schritt zum harten Ergebnis wird es dünn — mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, eine 2026 veröffentlichte fand einen. Unter Vitamin-K-Antagonisten wie Phenprocoumon oder Warfarin ist K2 eine klare Gegenanzeige: Dort verschieben schon 10 µg MK-7 täglich die Gerinnungswerte.
+Vitamin K2 ist ein Sammelname für die Menachinone. Im Regal stehen fast nur MK-4 und MK-7, und sie verhalten sich im Körper völlig unterschiedlich. Gut belegt ist die Biochemie: MK-7 senkt den Marker für inaktives Matrix-Gla-Protein in einer Dreijahresstudie um 50 Prozent. Beim Schritt zum harten Ergebnis wird es dünn — mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, zwei 2026 veröffentlichte (VitaK-CAC, DANCODE) fanden einen. Unter Vitamin-K-Antagonisten wie Phenprocoumon oder Warfarin ist K2 eine klare Gegenanzeige: Dort verschieben schon 10 µg MK-7 täglich die Gerinnungswerte.
 
 ## VK2735
 https://biohackingkompakt.de/thema/vk2735.html
@@ -2655,7 +2655,7 @@ Beide sollen den NAD+-Spiegel anheben, und für NMN ist das am Menschen gezeigt:
 ## NMN vs. Nicotinamid-Ribosid (NR)
 https://biohackingkompakt.de/vergleich/nmn-vs-nicotinamid-ribosid.html
 
-Keiner von beiden hat am Menschen einen klinischen Nutzen gezeigt. Beide heben zuverlässig den NAD+-Spiegel im Blut – das ist ein Surrogatmarker, kein Ergebnis. Für Nicotinamid-Ribosid liegen mehr placebokontrollierte Studien vor, und eine kritische Übersicht in Science Advances 2023 fasst zusammen, dass die meisten klinischen Endpunkte unbeeinflusst blieben; für Entzündungsmarker gibt es Hinweise, aber keinen einheitlichen Befund. Beim Status gibt es Bewegung: Die US-Behörde FDA hatte NMN 2022 aus der Gruppe der Nahrungsergänzungsmittel genommen, die Entscheidung im September 2025 aber zurückgenommen; in den USA ist NMN damit wieder als Supplement erlaubt. In der EU hat die EFSA beta-NMN 2026 bis 300 mg pro Tag als sicher bewertet, die Zulassung durch die EU-Kommission steht noch aus. Wer sich zwischen beiden entscheidet, entscheidet zwischen zwei Substanzen, deren Nutzen offen ist.
+Keiner von beiden hat am Menschen einen klinischen Nutzen gezeigt. Beide heben zuverlässig den NAD+-Spiegel im Blut – das ist ein Surrogatmarker, kein Ergebnis. Für Nicotinamid-Ribosid liegen mehr placebokontrollierte Studien vor, darunter seit 2026 eine große einjährige Parkinson-Studie, in der Placebo besser abschnitt (NOPARK), und eine kritische Übersicht in Science Advances 2023 fasst zusammen, dass die meisten klinischen Endpunkte unbeeinflusst blieben; für Entzündungsmarker gibt es Hinweise, aber keinen einheitlichen Befund. Beim Status gibt es Bewegung: Die US-Behörde FDA hatte NMN 2022 aus der Gruppe der Nahrungsergänzungsmittel genommen, die Entscheidung im September 2025 aber zurückgenommen; in den USA ist NMN damit wieder als Supplement erlaubt. In der EU hat die EFSA beta-NMN 2026 bis 300 mg pro Tag als sicher bewertet, die Zulassung durch die EU-Kommission steht noch aus. Wer sich zwischen beiden entscheidet, entscheidet zwischen zwei Substanzen, deren Nutzen offen ist.
 
 ## Omega-3 (EPA/DHA) vs. Krillöl
 https://biohackingkompakt.de/vergleich/omega-3-vs-krilloel.html
@@ -2665,7 +2665,7 @@ Beide liefern dieselben Fettsäuren EPA und DHA, und beide senken die Triglyzeri
 ## Orforglipron (Foundayo) vs. Semaglutide (Ozempic / Wegovy)
 https://biohackingkompakt.de/vergleich/orforglipron-vs-semaglutide.html
 
-Beide aktivieren denselben GLP-1-Rezeptor, und beide sind in großen Phase-3-Studien geprüft. Semaglutid hat die tiefere Datenlage: In STEP 1 sank das Gewicht um 14,9 gegenüber 2,4 Prozent, SELECT mit 17.604 Personen senkte schwere Herz-Kreislauf-Ereignisse von 8,0 auf 6,5 Prozent, und Wegovy ist seit 2022 in der EU zugelassen. Orforglipron ist kein Peptid, sondern ein kleines, säurestabiles Molekül und kommt deshalb als Tablette ohne Hilfsstoff aus, die Semaglutid-Tablette braucht einen und wird laut US-Fachinformation trotzdem nur zu etwa 1 bis 2 Prozent aufgenommen; in ATTAIN-1 sank das Gewicht um 11,2 gegenüber 2,1 Prozent. Harte Endpunkte fehlen noch. Zugelassen ist es in den USA, in der EU hat der Fachausschuss der EMA die Zulassung im Oktober 2026 empfohlen, die Entscheidung der EU-Kommission stand am 13.11.2026 noch aus. Direkt verglichen wurden beide nur bei Typ-2-Diabetes mit der Semaglutid-Tablette, in der von Lilly finanzierten Studie ACHIEVE-3, offen und mit dem Blutzucker als Endpunkt. Beides sind Arzneimittel, die Entscheidung gehört in ärztliche Hand.
+Beide aktivieren denselben GLP-1-Rezeptor, und beide sind in großen Phase-3-Studien geprüft. Semaglutid hat die tiefere Datenlage: In STEP 1 sank das Gewicht um 14,9 gegenüber 2,4 Prozent, SELECT mit 17.604 Personen senkte schwere Herz-Kreislauf-Ereignisse von 8,0 auf 6,5 Prozent, und Wegovy ist seit 2022 in der EU zugelassen. Orforglipron ist kein Peptid, sondern ein kleines, säurestabiles Molekül und kommt deshalb als Tablette ohne Hilfsstoff aus, die Semaglutid-Tablette braucht einen und wird laut US-Fachinformation trotzdem nur zu etwa 1 bis 2 Prozent aufgenommen; in ATTAIN-1 sank das Gewicht um 11,2 gegenüber 2,1 Prozent. Zu harten Endpunkten gibt es bisher eine Sicherheitsstudie bei Typ-2-Diabetes (ACHIEVE-4), einen Schutzeffekt fürs Herz wie bei Semaglutid noch nicht. Zugelassen ist es in den USA, in der EU hat der Fachausschuss der EMA die Zulassung im Oktober 2026 empfohlen, die Entscheidung der EU-Kommission stand am 13.11.2026 noch aus. Direkt verglichen wurden beide nur bei Typ-2-Diabetes mit der Semaglutid-Tablette, in der von Lilly finanzierten Studie ACHIEVE-3, offen und mit dem Blutzucker als Endpunkt. Beides sind Arzneimittel, die Entscheidung gehört in ärztliche Hand.
 
 ## Peptide 2026 im Überblick: Studienlage und Zulassung
 https://biohackingkompakt.de/vergleich/peptide-im-ueberblick.html
@@ -2720,7 +2720,7 @@ Beide Stoffe zielen auf die Selbsterneuerung der Zelle, die Belege liegen aber a
 ## Vitamin D3 vs. Vitamin K2 (MK-7)
 https://biohackingkompakt.de/vergleich/vitamin-d3-vs-vitamin-k2.html
 
-Die Kombination wird als Pflicht verkauft, ist aber die schwächer belegte Hälfte. Vitamin D3 hat große randomisierte Studien wie VITAL und eine ausgezeichnet verstandene Rezeptorbiologie; sein Problem ist der Hype-Abstand, weil es für nahezu jede Erkrankung beworben wird, ohne dass die Studien das zeigen. Vitamin K2 hat eine am Menschen quantifizierte Wirkkette über Osteocalcin und Matrix-Gla-Protein, aber uneinheitliche randomisierte Studien zu den eigentlichen Endpunkten: AVADEC verfehlte den primären Endpunkt, VitaK-CAC fand 2026 einen Unterschied im Koronarkalk. Die Behauptung, ohne K2 lagere Vitamin D Kalzium in die Gefäße ein, ist am Menschen nicht durch Endpunktstudien belegt.
+Die Kombination wird als Pflicht verkauft, ist aber die schwächer belegte Hälfte. Vitamin D3 hat große randomisierte Studien wie VITAL und eine ausgezeichnet verstandene Rezeptorbiologie; sein Problem ist der Hype-Abstand, weil es für nahezu jede Erkrankung beworben wird, ohne dass die Studien das zeigen. Vitamin K2 hat eine am Menschen quantifizierte Wirkkette über Osteocalcin und Matrix-Gla-Protein, aber uneinheitliche randomisierte Studien zu den eigentlichen Endpunkten: AVADEC verfehlte den primären Endpunkt, VitaK-CAC und DANCODE fanden 2026 einen Unterschied im Koronarkalk. Die Behauptung, ohne K2 lagere Vitamin D Kalzium in die Gefäße ein, ist am Menschen nicht durch Endpunktstudien belegt.
 
 ## Zink vs. Magnesium
 https://biohackingkompakt.de/vergleich/zink-vs-magnesium.html
@@ -3032,7 +3032,7 @@ Die Regelmäßigkeit der Schlafzeiten sagt Gesundheitsrisiken besser vorher als 
 ## Monatlicher Senolytikum-Puls
 https://biohackingkompakt.de/tipp/senolytikum-pulse.html
 
-Der monatliche Puls ist kein Ergebnis, sondern ein Studiendesign. Die Mayo Clinic prüft seit dem 6.2.2018 an 40 gebrechlichen Frauen ab 70 Jahren genau dieses Schema gegen Placebo und hat nichts berichtet; im Register steht der 1.11.2026 als geschätzter Abschluss. Der Mechanismus darunter hat den wichtigsten Prüfstein nicht bestanden: Im unabhängigen Interventions-Testprogramm verlängerte Fisetin 2023 in keinem Geschlecht und bei keinem der beiden Schemata die Lebenszeit, und die Seneszenzmarker sanken nicht, weder in Leber noch Niere noch Gehirn. Quercetin wurde am Menschen nie allein als Senolytikum untersucht, sondern immer im Paar mit dem verschreibungspflichtigen Dasatinib. Apigenin gehört überhaupt in eine andere Wirkklasse. Es bleibt ein plausibles Protokoll ohne berichteten Humanbeleg.
+Der monatliche Puls ist kein Ergebnis, sondern ein Studiendesign. Die Mayo Clinic prüft seit dem 6.2.2018 an 40 gebrechlichen Frauen ab 70 Jahren genau dieses Schema gegen Placebo und hat nichts berichtet; im Register (Stand Mai 2026) sind der Primärabschluss für November 2026 und das Studienende für November 2027 geschätzt. Der Mechanismus darunter hat den wichtigsten Prüfstein nicht bestanden: Im unabhängigen Interventions-Testprogramm verlängerte Fisetin 2023 in keinem Geschlecht und bei keinem der beiden Schemata die Lebenszeit, und die Seneszenzmarker sanken nicht, weder in Leber noch Niere noch Gehirn. Quercetin wurde am Menschen nie allein als Senolytikum untersucht, sondern immer im Paar mit dem verschreibungspflichtigen Dasatinib. Apigenin gehört überhaupt in eine andere Wirkklasse. Es bleibt ein plausibles Protokoll ohne Humanbeleg für einen Nutzen; berichtet ist bisher nur ein ungünstiger Befund aus einer kleinen offenen Studie.
 
 ## Stehschreibtisch – gegen das Sitzen, nicht fürs Stehen
 https://biohackingkompakt.de/tipp/stehschreibtisch.html

@@ -18,6 +18,118 @@
  */
 const AENDERUNGEN = [
   {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Nicotinamid-Ribosid: große Parkinson-Studie negativ, Einstufung jetzt „Gut untersucht – Wirkung nicht bestätigt“',
+    ziel: { view: 'supplement', id: 'nicotinamid-ribosid' },
+    text: 'Die einjährige Phase-3-Studie NOPARK mit 410 Parkinson-Patienten ist erschienen: Unter NR verschlechterten sich die Parkinson-Werte nicht langsamer als unter Placebo. Human-Evidenz und Sicherheits-Datenlage steigen deshalb von 6 auf 7, die Richtung wird negativ.',
+    quelle: { titel: 'Brakedal et al., JAMA 2026 (PMID 42848371)', url: 'https://pubmed.ncbi.nlm.nih.gov/42848371/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Trazodon: Human-Evidenz von 5 auf 6',
+    ziel: { view: 'experimental', id: 'trazodon' },
+    text: 'Zwei Meta-Analysen von 2026 mit 13 bzw. 10 randomisierten Studien haben die Datenbasis zur Schlafwirkung mehr als verdoppelt. Der Effekt ist mäßig und die Studien kurz – Einstufung jetzt „Belegt, mit Einschränkungen“.',
+    quelle: { titel: 'Yang et al., Clin Drug Investig 2026 (PMID 43018915)', url: 'https://pubmed.ncbi.nlm.nih.gov/43018915/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Clenbuterol: Human-Evidenz von 4 auf 5, Hype-Abstand von 2 auf 3',
+    ziel: { view: 'experimental', id: 'clenbuterol' },
+    text: 'Eine dritte randomisierte Doppelblindstudie prüfte erstmals die Anwendung mit Krafttraining: mehr Magermasse und Kraft, kein Fettverlust, Vorsprung nach 16 Wochen Pause verschwunden. Richtung bleibt negativ.',
+    quelle: { titel: 'Moesgaard et al., Sports Med 2026 (PMID 42730843)', url: 'https://pubmed.ncbi.nlm.nih.gov/42730843/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Ivermectin: Human-Evidenz von 8 auf 9',
+    ziel: { view: 'experimental', id: 'ivermectin' },
+    text: 'Eine Meta-Analyse aus 40 randomisierten Studien mit 23.243 Teilnehmenden findet keinen gesicherten Covid-Effekt. Damit ist noch besser untersucht, dass die beworbene Wirkung ausbleibt.',
+    quelle: { titel: 'BMC Infect Dis 2026 (PMID 41918076)', url: 'https://pubmed.ncbi.nlm.nih.gov/41918076/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'GHRP-6: Human-Evidenz von 4 auf 5',
+    ziel: { view: 'experimental', id: 'ghrp-6' },
+    text: 'Erstmals liegt eine Phase-3-Studie mit klinischem Endpunkt vor (188 Schlaganfallpatienten, Kombination mit EGF); der Hauptendpunkt wurde verfehlt.',
+    quelle: { titel: 'Hernández-Bernal et al., J Clin Neurosci 2026 (PMID 42462342)', url: 'https://pubmed.ncbi.nlm.nih.gov/42462342/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Zyklus-Tracking: Human-Evidenz von 3 auf 4',
+    ziel: { view: 'tipps', id: 'zyklus-tracking' },
+    text: 'Die erste randomisierte Studie zum Training nach Zyklusphase fand bei Muskel- und Kraftaufbau keinen Unterschied. Einstufung jetzt „Dünne Humanevidenz“.',
+    quelle: { titel: 'D’Souza et al., Med Sci Sports Exerc 2026 (PMID 42160459)', url: 'https://pubmed.ncbi.nlm.nih.gov/42160459/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Isotretinoin: Sicherheits-Datenlage von 8 auf 9',
+    ziel: { view: 'experimental', id: 'isotretinoin' },
+    text: 'Zwei landesweite Registerstudien (eine mit 379.196 Personen) und neue Übersichten haben die Sicherheit deutlich breiter untersucht. Die Achse bewertet den Kenntnisstand, nicht die Harmlosigkeit.',
+    quelle: { titel: 'Schmidt et al., JAMA Dermatol 2026 (PMID 42160078)', url: 'https://pubmed.ncbi.nlm.nih.gov/42160078/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Lavendelöl (Silexan): Sicherheits-Datenlage von 6 auf 7',
+    ziel: { view: 'supplement', id: 'lavendeloel' },
+    text: 'Verordnungsdaten von über 67.000 Erwachsenen decken erstmals auch eine Einnahme über drei Monate ab; die Auswertung ist rückblickend und herstellerfinanziert.',
+    quelle: { titel: 'Volz et al., Eur Arch Psychiatry Clin Neurosci 2026 (PMID 39954047)', url: 'https://pubmed.ncbi.nlm.nih.gov/39954047/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Survodutide: Sicherheits-Datenlage von 6 auf 7',
+    ziel: { view: 'experimental', id: 'survodutide' },
+    text: 'Die große Herz-Kreislauf-Sicherheitsstudie mit 5.530 Teilnehmenden ist erschienen: kein erhöhtes Risiko, aber 19–21 Prozent Abbrüche wegen Magen-Darm-Beschwerden.',
+    quelle: { titel: 'Bozkurt et al., Lancet 2026 (PMID 43003106)', url: 'https://pubmed.ncbi.nlm.nih.gov/43003106/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Orforglipron: Sicherheits-Datenlage von 7 auf 8',
+    ziel: { view: 'experimental', id: 'orforglipron' },
+    text: 'Mit ACHIEVE-4 liegt eine Herz-Kreislauf-Sicherheitsstudie mit 2.749 Hochrisiko-Patienten über rund zwei Jahre vor: nicht mehr Ereignisse als unter Insulin.',
+    quelle: { titel: 'Klein et al., Lancet 2026 (PMID 42815506)', url: 'https://pubmed.ncbi.nlm.nih.gov/42815506/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Senolytikum-Puls: Human-Evidenz von 1 auf 2',
+    ziel: { view: 'tipps', id: 'senolytikum-pulse' },
+    text: 'Erstmals gibt es berichtete Humandaten genau zum monatlichen Fisetin-Puls (kleine Registerstudie, Knochenmarker unverändert). Einstufung jetzt „Hype weit vor Evidenz“.',
+    quelle: { titel: 'Studienregister NCT04313634', url: 'https://clinicaltrials.gov/study/NCT04313634' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Recht',
+    titel: 'Orlistat: Neuer Warnhinweis zur Niere',
+    ziel: { view: 'experimental', id: 'orlistat' },
+    text: 'Die US-Arzneimittelbehörde FDA hat im Juni 2026 auch für das rezeptfreie alli einen Warnhinweis zu Nierensteinen und Oxalat-Nierenschäden angeordnet; die EU-Fachinformation nennt das Risiko bereits.',
+    quelle: { titel: 'FDA Drug Safety Communication, 10.06.2026', url: 'https://www.fda.gov/drugs/drug-safety-communications/fda-approves-labeling-changes-over-counter-otc-weight-loss-drug-alli-orlistat-warn-risk-kidney' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Evidenz',
+    titel: 'Statine ab 70: STAREE-Ergebnisse erschienen',
+    ziel: { view: 'experimental', id: 'statine' },
+    text: 'In STAREE mit 9.971 Menschen ab 70 senkte ein Statin schwere Herz-Kreislauf-Ereignisse (HR 0,70), verlängerte aber das behinderungsfreie Überleben nicht. Der Score bleibt, die Begründung ist angepasst.',
+    quelle: { titel: 'Zoungas et al., N Engl J Med 2026 (PMID 42670961)', url: 'https://pubmed.ncbi.nlm.nih.gov/42670961/' }
+  },
+  {
+    datum: '2026-11-27',
+    typ: 'Korrektur',
+    titel: 'Kurkuma bei Kniearthrose: Cochrane-Review 2026',
+    ziel: { view: 'supplement', id: 'kurkuma' },
+    text: 'Der neue Cochrane-Review findet nur einen kleinen Schmerzunterschied zu Placebo, unter der Schwelle, die Betroffene spüren. Die Aussage, Kniearthrose sei am besten belegt, ist entsprechend eingeschränkt.',
+    quelle: { titel: 'Shirinsky et al., Cochrane Database Syst Rev 2026 (PMID 43051256)', url: 'https://pubmed.ncbi.nlm.nih.gov/43051256/' }
+  },
+  {
     datum: '2026-11-14',
     typ: 'Evidenz',
     titel: 'Ashwagandha: Sicherheits-Datenlage von 5 auf 6',

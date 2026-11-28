@@ -680,7 +680,7 @@ const THERAPIES = [
     ],
     indication: ['Fokus/Kognition', 'Stimmung', 'Lernen', 'Erholung'],
     link: 'https://pubmed.ncbi.nlm.nih.gov/27090022/',
-    note: 'rTMS ist ein ärztliches Verfahren (NVL-Empfehlung bei therapieresistenter Depression). tDCS ist keine Kassenleistung und hat keine Wirksamkeitszulassung bei Depression; für Heim-Hirnstimulationsgeräte ohne medizinische Zweckbestimmung gelten seit 22. Juni 2023 EU-Sicherheitsspezifikationen. Nicht bei Epilepsie, bipolarer Störung oder Implantaten im Kopf ohne ärztliche Rücksprache.'
+    note: 'rTMS ist ein ärztliches Verfahren (NVL-Empfehlung bei therapieresistenter Depression). tDCS ist keine Kassenleistung; ein tDCS-Heimgerät gegen Depression ist in den USA seit Dezember 2025 zugelassen (FDA) und in der EU als Medizinprodukt zertifiziert; für Heim-Hirnstimulationsgeräte ohne medizinische Zweckbestimmung gelten seit 22. Juni 2023 EU-Sicherheitsspezifikationen. Nicht bei Epilepsie, bipolarer Störung oder Implantaten im Kopf ohne ärztliche Rücksprache.'
   },
   {
     id: 'bfr-training',
@@ -1192,7 +1192,7 @@ const THERAPIES = [
       benefits: [
         'Starker, abgestufter Risikomarker: In MESA (6.814 Menschen, im Median 11,1 Jahre) lag das Zehn-Jahres-Risiko für Herzinfarkt und Schlaganfall bei Kalk 0 zwischen 1,3 und 5,6 Prozent, bei Werten über 300 zwischen 13,1 und 25,6 Prozent (Budoff 2018)',
         'Ergänzt die klassischen Risikofaktoren: Im CAC Consortium (66.636 Menschen, 12,5 Jahre) starben Menschen ohne Risikofaktoren, aber mit einem Wert ab 400 häufiger als Menschen mit drei und mehr Risikofaktoren ohne Kalk (Grandhi 2020)',
-        'Leitliniengestützt, wenn die Entscheidung über eine Vorbeugung unsicher ist: ESC 2021 (Empfehlungsgrad IIb) und ACC/AHA 2019 (IIa) bei Risiko nahe der Behandlungsschwelle',
+        'Leitliniengestützt, wenn die Entscheidung über eine Vorbeugung unsicher ist: ESC 2021 (Empfehlungsgrad IIb) und ACC/AHA (2019 mit IIa, Neufassung 2026 bei grenzwertigem oder mittlerem Risiko) bei Risiko nahe der Behandlungsschwelle',
         'Kurze Untersuchung ohne Kontrastmittel, mittlere Strahlendosis rund 1 Millisievert (3.442 MESA-Teilnehmende, Messenger 2016)',
         'Der Befund motiviert: In randomisierten Studien etwas bessere Blutfette, in einer Studie ein günstigerer Blutdruck und mehr Motivation zur Lebensstiländerung (Übersicht Scheu 2025)'
       ],
