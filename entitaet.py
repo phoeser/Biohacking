@@ -28,6 +28,9 @@ KANAELE = [
     'https://www.linkedin.com/company/146663518/',
 ]
 PERSON_SAMEAS = ['https://www.linkedin.com/in/paul-h%C3%B6ser-3b296736/']
+PERSON_BILD = SITE + '/bilder/paul-hoeser.jpg'
+PERSON_DESC_DE = 'Gründer und Autor von Biohacking Kompakt, Diplom-Ökonom aus München, passionierter Biohacker; kein Arzt oder Apotheker.'
+PERSON_DESC_EN = 'Founder and author of Biohacking Kompakt, economist (Diplom-Ökonom) from Munich and passionate biohacker; not a physician or pharmacist.'
 KNOWS = ['Biohacking', 'Longevity', 'Nahrungsergänzungsmittel', 'Peptide', 'Evidenzbewertung']
 AUS = ('demo/', 'docs/', 'podcast-scripts/', 'node_modules/')
 BLOCK = re.compile(r'(<script type="application/ld\+json">)(.*?)(</script>)', re.S)
@@ -49,6 +52,8 @@ def pflege(node, en):
         node['sameAs'] = KANAELE
     if node.get('@id') == PERSON_ID and (node.get('@type') == 'Person' or 'name' in node):
         node['sameAs'] = PERSON_SAMEAS
+        node['image'] = PERSON_BILD
+        node['description'] = PERSON_DESC_EN if en else PERSON_DESC_DE
         node.setdefault('knowsAbout', KNOWS)
     for v in list(node.values()):
         if isinstance(v, dict):
