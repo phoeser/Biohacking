@@ -310,21 +310,6 @@
     }).join('');
   }
 
-  // Peptide-Bezugsquellen (immer unter "Praxis & Community" gelistet).
-  // ►►► HIER PFLEGEN: sobald Affiliate-/Partner-Zugang da ist, 'ref' (Ref-Link) und
-  // 'code' (Rabattcode) eintragen. Solange 'ref' leer ist, wird die normale Shop-URL
-  // verlinkt; solange 'code' leer ist, wird kein Code angezeigt.
-  const PEPTIDE_SHOPS = [
-    { name: 'Particle Peptides (EU · unabhängig laborgeprüft)', url: 'https://particlepeptides.com/en/', ref: '', code: '' },
-    { name: 'primalpeptides.nl',                                url: 'https://primalpeptides.nl/en',      ref: '', code: '' },
-    { name: 'biolabshop.de',                                    url: 'https://biolabshop.de',             ref: '', code: '' }
-  ];
-  const PEPTIDE_BEZUG_LIS = PEPTIDE_SHOPS.map(function (s) {
-    var href = s.ref || s.url;
-    var code = s.code ? ' · Code: <strong>' + s.code + '</strong>' : '';
-    return '<li><a href="' + href + '" target="_blank" rel="noopener sponsored">' + s.name + '</a>' + code + '</li>';
-  }).join('');
-  const PEPTIDE_BEZUG_NOTE = '<div class="exp-community-note exp-bezug-note">⚠ Bezugsquellen sind <strong>keine Empfehlung</strong> und keine Garantie für Zuverlässigkeit oder Qualität. Anbieter wechseln häufig und bewegen sich meist in einer rechtlichen Grauzone. Teils Partner-/Affiliate-Links (Werbung).</div>';
   // Proxy via Cloudflare Worker — versteckt den Gemini-Key vor dem Browser.
   // Worker-Code siehe cloudflare-worker.js, Secret GEMINI_API_KEY liegt in Cloudflare.
   const AI_PROXY_BASE = 'https://bhc-proxy.phoeser.workers.dev';
@@ -1837,7 +1822,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${scoreHtml('khavinson', e.id)}
           ${aenderungenHtml('khavinson', e.id)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
-          ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
+          ${(e.community || []).length ? `<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length})</summary><div class="exp-community-note">Anbieter-/Community-Quellen aus dem Bioregulator-Umfeld. <strong>Keine medizinischen Quellen.</strong></div><ul>${community}</ul></details>` : ''}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
         </article>
       `;
@@ -1894,7 +1879,7 @@ Halte dich kurz, fokussiert auf Biohacking-Prinzipien. Keine Heilversprechen. Sc
           ${scoreHtml('experimental', e.id)}
           ${aenderungenHtml('experimental', e.id)}
           ${sources ? `<details class="exp-sources"><summary>Studien & Quellen (${(e.sources || []).length})</summary><ul>${sources}</ul></details>` : ''}
-          ${`<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length + 2})</summary><div class="exp-community-note">Erfahrungsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}${PEPTIDE_BEZUG_LIS}</ul>${PEPTIDE_BEZUG_NOTE}</details>`}
+          ${(e.community || []).length ? `<details class="exp-community"><summary>Praxis & Community (${(e.community || []).length})</summary><div class="exp-community-note">Erfahrungsquellen aus dem deutschsprachigen Biohacking-Umfeld (z.B. Iron Mike). <strong>Kein Hinweis auf legale Erhältlichkeit oder pharmazeutische Qualität.</strong></div><ul>${community}</ul></details>` : ''}
           <div class="exp-disclaimer-mini">Keine Empfehlung – nur Information.</div>
         </article>
       `;
