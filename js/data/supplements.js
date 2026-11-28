@@ -70,7 +70,7 @@ const SUPPLEMENTS = [
     category: 'Vitamin',
     tags: ['knochen', 'herz', 'kreislauf', 'anti-aging'],
     short: 'Aktiviert Osteocalcin und Matrix-Gla-Protein — das ist am Menschen messbar. Ob eine Ergänzung Brüche oder Gefäßverkalkung verhindert, zeigen die randomisierten Studien bisher nicht.',
-    description: 'Vitamin K2 ist der Sammelname für die Menachinone; im Handel dominiert MK-7, in Japan wird MK-4 als Arzneimittel gegen Osteoporose eingesetzt. Als Cofaktor der Gamma-Carboxylierung aktiviert Vitamin K2 das Osteocalcin im Knochen und das Matrix-Gla-Protein in der Gefäßwand — diese Wirkkette ist am Menschen belegt, MK-7 senkt den Marker dp-ucMGP in einer Dreijahresstudie um 50 Prozent. Der Schritt zum harten Ergebnis gelingt bisher kaum: Mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, eine 2026 veröffentlichte fand einen. Die EU erlaubt Angaben zu Knochen und Blutgerinnung, nicht zu Herz und Gefäßen.',
+    description: 'Vitamin K2 ist der Sammelname für die Menachinone; im Handel dominiert MK-7, in Japan wird MK-4 als Arzneimittel gegen Osteoporose eingesetzt. Als Cofaktor der Gamma-Carboxylierung aktiviert Vitamin K2 das Osteocalcin im Knochen und das Matrix-Gla-Protein in der Gefäßwand — diese Wirkkette ist am Menschen belegt, MK-7 senkt den Marker dp-ucMGP in einer Dreijahresstudie um 50 Prozent. Der Schritt zum harten Ergebnis gelingt bisher kaum: Mehrere randomisierte Studien zur Gefäßverkalkung blieben ohne Unterschied, zwei 2026 veröffentlichte (VitaK-CAC, DANCODE) fanden einen. Die EU erlaubt Angaben zu Knochen und Blutgerinnung, nicht zu Herz und Gefäßen.',
     benefits: [
       'Aktiviert Osteocalcin und Matrix-Gla-Protein, am Menschen messbar',
       'Senkt den Marker für inaktives Matrix-Gla-Protein um rund 50 Prozent',
@@ -875,7 +875,7 @@ const SUPPLEMENTS = [
     short: 'Lindert bei Kniearthrose den Schmerz gegenüber Placebo, in einer Vergleichsstudie Ibuprofen nicht unterlegen. Die Bioverfügbarkeitstricks fallen zugleich in den Fallserien zur Leberschädigung auf.',
     description: 'Curcumin wird schlecht aufgenommen: In einer Dosiseskalation war bis zu einer Einzeldosis von 8.000 mg kein Curcumin im Serum nachweisbar. Deshalb arbeiten Präparate mit Piperin, Mizellen oder Phospholipid-Komplexen. Diese Wege unterscheiden sich pharmakokinetisch stark, und eigene Wirksamkeitsdaten gibt es nicht für jede Form. Klinisch am besten belegt ist die Kniearthrose. Für Krebsprävention, Anti-Aging und Leber-Entgiftung fehlt Vergleichbares.',
     benefits: [
-      'Lindert bei Kniearthrose Schmerz und Funktionseinschränkung: Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten, -1,63 auf der Schmerzskala und -18,85 im WOMAC-Gesamtscore',
+      'Lindert bei Kniearthrose Schmerz und Funktionseinschränkung: Netzwerk-Meta-Analyse über 23 Studien mit 2.175 Patienten, -1,63 auf der Schmerzskala und -18,85 im WOMAC-Gesamtscore; der Cochrane-Review 2026 mit strengerer Studienauswahl fand nur -0,72 Punkte, unter der klinischen Relevanzschwelle (Shirinsky 2026)',
       'War in einer Studie mit 367 Patienten über 4 Wochen gegenüber Ibuprofen nicht unterlegen, bei weniger Bauchbeschwerden',
       'Senkt bei Kniearthrose CRP und TNF-alpha (Meta-Analyse über 21 Studien mit 1.705 Patienten), nicht aber Interleukin-6 und Prostaglandin E2',
       'Als Zusatz zu Mesalazin bei aktiver Colitis ulcerosa: 53,8 % klinische Remission nach 4 Wochen gegenüber keinem Patienten unter Placebo',
@@ -2104,17 +2104,17 @@ const SUPPLEMENTS = [
     category: 'Longevity',
     tags: ['anti-aging', 'longevity', 'energie', 'nad'],
     short: 'NAD+-Vorstufe aus der Vitamin-B3-Familie: hebt den NAD+-Spiegel im Blut zuverlässig an und ist in der EU als neuartiges Lebensmittel zugelassen – klinische Effekte auf Stoffwechsel und Altern blieben in den meisten Studien aus.',
-    description: 'Nicotinamid-Ribosid (NR) ist eine Vorstufe von NAD+, einem Coenzym, das unter anderem die Sirtuine benötigen, und eine Quelle für Niacin. In einer 8-wöchigen Placebo-Studie stieg NAD+ im Vollblut mit 100, 300 und 1000 mg um 22, 51 und 142 Prozent; auch im Gehirn ist ein Anstieg messbar. Eine kritische Übersicht über 25 Humanstudien (Science Advances 2023) findet aber nur wenige klinisch relevante Effekte: Insulinsensitivität, Blutzucker, Körperzusammensetzung und Blutdruck blieben meist unverändert, Hinweise gibt es auf weniger Entzündung. Bei Parkinson hob NR in einer Phase-I-Studie das NAD im Gehirn und senkte Entzündungsbotenstoffe; die Phase-III-Studie NOPARK mit 410 Teilnehmern ist abgeschlossen, aber nicht veröffentlicht. Die EFSA hält bis 300 mg am Tag für gesunde Erwachsene für sicher.',
+    description: 'Nicotinamid-Ribosid (NR) ist eine Vorstufe von NAD+, einem Coenzym, das unter anderem die Sirtuine benötigen, und eine Quelle für Niacin. In einer 8-wöchigen Placebo-Studie stieg NAD+ im Vollblut mit 100, 300 und 1000 mg um 22, 51 und 142 Prozent; auch im Gehirn ist ein Anstieg messbar. Eine kritische Übersicht über 25 Humanstudien (Science Advances 2023) findet aber nur wenige klinisch relevante Effekte: Insulinsensitivität, Blutzucker, Körperzusammensetzung und Blutdruck blieben meist unverändert, Hinweise gibt es auf weniger Entzündung. Bei Parkinson hob NR in einer Phase-I-Studie das NAD im Gehirn und senkte Entzündungsbotenstoffe; in der Phase-III-Studie NOPARK mit 410 Teilnehmern verschlechterte sich die Parkinson-Skala unter NR über ein Jahr etwas stärker als unter Placebo (Brakedal, JAMA 2026). Die EFSA hält bis 300 mg am Tag für gesunde Erwachsene für sicher.',
     benefits: [
       'Hebt NAD+ im Blut dosisabhängig an (plus 22, 51 und 142 Prozent mit 100, 300 und 1000 mg; RCT, 8 Wochen, Conze 2019), auch im Gehirn messbar',
       'Gut verträglich, kein Flush wie bei Nicotinsäure; 3000 mg am Tag über 4 Wochen ohne schwere Nebenwirkungen (20 Parkinson-Patienten)',
-      'Hinweise auf weniger Entzündung und Potenzial bei Parkinson (NADPARK, 30 Patienten, Phase I) – Phase-III-Ergebnisse stehen aus',
+      'Hinweise auf weniger Entzündung und Potenzial bei Parkinson (NADPARK, 30 Patienten, Phase I) – in der Phase-III-Studie NOPARK (410 Patienten, 52 Wochen) nicht bestätigt',
       'Keine Verbesserung der Insulinsensitivität (40 Männer mit Adipositas, 12 Wochen) und meist kein Effekt auf Blutdruck oder Körperzusammensetzung'
     ],
     risks: [
       'Der NAD+-Anstieg ist belegt – ein Nutzen für Stoffwechsel, Leistung oder Altern beim Menschen bisher nicht',
       'EFSA: bis 300 mg am Tag für gesunde Erwachsene sicher, für Schwangere und Stillende bis 230 mg; Obergrenze für Nicotinamid 900 mg am Tag',
-      'Keine Langzeitdaten über 6 Monate hinaus; für Kinder und Menschen mit Krebserkrankung keine Daten',
+      'Kontrollierte Daten nur bis 52 Wochen (NOPARK, Parkinson); für Kinder und Menschen mit Krebserkrankung keine Daten',
       'Kein Ersatz für Schlaf, Bewegung und Ernährung'
     ],
     dosage: 'Studien verwendeten 100 bis 2000 mg am Tag über Wochen bis Monate, in Hochdosis-Studien bei Parkinson kurzzeitig 3000 mg. Die EFSA hat NR-Chlorid in Nahrungsergänzungen bis 300 mg am Tag für gesunde Erwachsene als sicher bewertet, für Schwangere und Stillende bis 230 mg. Der NAD-Spiegel erreichte in einer Studie nach etwa 2 Wochen ein Plateau.',
@@ -2605,7 +2605,7 @@ const SUPPLEMENTS = [
       'Kein echter Widerspruch zwischen Tier und Mensch: Die unwirksame Tierform von 2013 war autoklaviert, pasteurisiert wirkte sie auch in der Maus. Unklar bleibt, für wen die Kapsel etwas bringt – in mehreren Studien profitierten vor allem Menschen mit wenig eigenem Akkermansia',
       'Lebende Akkermansia hat in der EU keinen Zulassungsstatus als Lebensmittel; die zentralen Forscher sind am Hersteller beteiligt'
     ],
-    dosage: 'Berichtete Anwendung, keine Empfehlung: In der Humanstudie nahmen die Teilnehmer täglich 10 Milliarden pasteurisierte Bakterien über 3 Monate. Die EU-Zulassung deckelt die pasteurisierte Form bei höchstens 5 mal 10 hoch 10 Zellen pro Tag.',
+    dosage: 'Berichtete Anwendung, keine Empfehlung: In der Humanstudie nahmen die Teilnehmer täglich 10 Milliarden pasteurisierte Bakterien über 3 Monate. Die EU-Zulassung deckelt die pasteurisierte Form für Erwachsene bei höchstens 3,4 mal 10 hoch 10 Zellen pro Tag, für Jugendliche ab 12 Jahren (seit 2026 zugelassen) niedriger.',
     intake: 'Als Kapsel oder Pulver zum Einnehmen. In der Studie täglich über 3 Monate. Nicht vorgesehen für Schwangere und Stillende.',
     synergies: ['probiotika', 'metformin', 'urolithin-a'],
     avoid: 'Lebende Akkermansia-Präparate sind in der EU als Lebensmittel nicht zugelassen. Für Schwangere und Stillende ist die Zulassung der pasteurisierten Form nicht vorgesehen. Bei Immunsuppression oder schwerer Darmerkrankung ärztlich abklären.',

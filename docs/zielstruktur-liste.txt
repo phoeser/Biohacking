@@ -1,4 +1,4 @@
-Zielstruktur-Zuordnungen (zielstruktur.py, Stand 2026-11-15)
+Zielstruktur-Zuordnungen (zielstruktur.py, Stand 2026-11-28)
 Geprüft: 388 Themen · zugeordnet: 64 · Molekül gefunden, aber kein eindeutiges Einzelprotein-Ziel: 120 · mehrdeutige Namen (ausgelassen): 20
 
 id → Wirkart Protein (Gen, UniProt) · ChEMBL-Molekül
