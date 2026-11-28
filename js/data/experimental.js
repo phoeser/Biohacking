@@ -262,9 +262,7 @@ const EXPERIMENTAL = [
       { title: 'TRAVERSE-Studie (NEJM 2023) – kardiovaskuläre Sicherheit von Testosterontherapie', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2215025' },
       { title: 'Cleveland Clinic – Testosterone Replacement Therapy (TRT): Überblick', url: 'https://my.clevelandclinic.org/health/treatments/testosterone-replacement-therapy-trt' }
     ],
-    community: [
-      { title: 'Particle Peptides', url: 'https://particlepeptides.com/en/16-buy-peptides' }
-    ],
+    community: [],
     podcasts: [
       {
         title: 'Testosteron & TRT: Die Testosteron-Ersatztherapie im Faktencheck',

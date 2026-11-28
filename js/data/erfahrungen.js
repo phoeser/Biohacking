@@ -353,7 +353,7 @@ const ERFAHRUNGEN = [
     dosis: null,
     bewertung: null,
     fazit: 'Ein Bericht aus dem Umfeld: super Ausdauer, direkt spuerbar, keine Nebenwirkungen. Ein einzelner Bericht – und die Substanz hat keine einzige Humanstudie.',
-    text: 'Mir hat einer aus dem Umfeld davon erzaehlt, bezogen ueber biolabshop. Sein Fazit war knapp und deutlich: mega. Die Ausdauer sei direkt spuerbar besser gewesen, Nebenwirkungen habe er keine gehabt.\n\nEinordnung von mir, und hier ist der Abstand zwischen Bericht und Beleglage groesser als bei fast allem anderen auf dieser Seite: SLU-PP-332 wird als „Sport in Tablettenform" gehandelt, weil es einen Rezeptor aktiviert, der auch beim Ausdauertraining hochgefahren wird. Die dazugehoerigen Daten stammen aber vollstaendig aus Mausversuchen. Es gibt keine einzige veroeffentlichte Studie am Menschen – weder zur Wirkung noch zur Sicherheit. Was also berichtet wird, laesst sich mit nichts abgleichen.\n\nDeshalb steht hier auch keine Sternebewertung. Ein einzelner Bericht ohne Messwerte, zu einer Substanz ohne Humandaten, ist nichts, was ich mit fuenf Sternen versehen wuerde – auch wenn er positiv ausfaellt. Gerade „direkt spuerbar mehr Ausdauer" ist die Art von Effekt, die man schlecht von Erwartung und Tagesform trennen kann, solange niemand vorher und nachher misst.\n\nSLU-PP-332 ist nirgends als Arzneimittel zugelassen und wird als Forschungschemikalie gehandelt. Fuer Wettkampfsportler kommt hinzu, dass Stoffwechsel-Modulatoren dieser Art in den Doping-Bestimmungen erfasst sind.',
+    text: 'Mir hat einer aus dem Umfeld davon erzaehlt, bezogen ueber einen Online-Anbieter. Sein Fazit war knapp und deutlich: mega. Die Ausdauer sei direkt spuerbar besser gewesen, Nebenwirkungen habe er keine gehabt.\n\nEinordnung von mir, und hier ist der Abstand zwischen Bericht und Beleglage groesser als bei fast allem anderen auf dieser Seite: SLU-PP-332 wird als „Sport in Tablettenform" gehandelt, weil es einen Rezeptor aktiviert, der auch beim Ausdauertraining hochgefahren wird. Die dazugehoerigen Daten stammen aber vollstaendig aus Mausversuchen. Es gibt keine einzige veroeffentlichte Studie am Menschen – weder zur Wirkung noch zur Sicherheit. Was also berichtet wird, laesst sich mit nichts abgleichen.\n\nDeshalb steht hier auch keine Sternebewertung. Ein einzelner Bericht ohne Messwerte, zu einer Substanz ohne Humandaten, ist nichts, was ich mit fuenf Sternen versehen wuerde – auch wenn er positiv ausfaellt. Gerade „direkt spuerbar mehr Ausdauer" ist die Art von Effekt, die man schlecht von Erwartung und Tagesform trennen kann, solange niemand vorher und nachher misst.\n\nSLU-PP-332 ist nirgends als Arzneimittel zugelassen und wird als Forschungschemikalie gehandelt. Fuer Wettkampfsportler kommt hinzu, dass Stoffwechsel-Modulatoren dieser Art in den Doping-Bestimmungen erfasst sind.',
     positiv: [
       'Direkt spuerbar bessere Ausdauer berichtet',
       'Keine Nebenwirkungen berichtet',
@@ -365,7 +365,6 @@ const ERFAHRUNGEN = [
       'Nicht zugelassen, wird als Forschungschemikalie gehandelt',
       'Fuer Wettkampfsportler dopingrelevant'
     ],
-    shopId: 'biolabshop',
     quelle: { label: 'Bericht eines Bekannten, weitergegeben von Paul · Einordnung in Podcast-Folge 5', url: '' }
   },
   {
@@ -876,205 +875,7 @@ const SHOPS = [
       hinweis: 'Anzeige: Empfehlungslink. Kaufst du darüber, bekomme ich eine Gutschrift oder Provision. Ob und in welcher Höhe du selbst einen Vorteil hast, legt Oura fest und ändert es laufend – was gerade gilt, siehst du beim Öffnen des Links.'
     }
   },
-  {
-    id: 'biolabshop',
-    name: 'biolabshop.de',
-    demo: false,
-    url: '',
-    land: 'DE',
-    kategorien: ['Peptide'],
-    bewertung: 4,
-    versand: 'Schnelle Lieferung, mehrfach übereinstimmend berichtet.',
-    zahlung: 'Rückerstattung: Bei einer versehentlich doppelt bestellten, ungeöffnet zurückgeschickten Lieferung hat man sich nach vielen Wochen auf eine Gutschrift geeinigt – die lief dann reibungslos.',
-    qualitaet: 'Qualität wurde durchweg als gut beschrieben.',
-    zoll: null,
-    erfahrung: 'Von mehreren Leuten unabhängig als seriös beschrieben – und mit der bisher besten Auswahl. Nicht ganz billig, dafür schnell geliefert. Im September von fünf auf drei Sterne abgewertet wegen eines Berichts aus zweiter Hand zur Rückabwicklung: Eine versehentlich doppelt bestellte Ware ging ungeöffnet zurück, auf die Erstattung wartete der Käufer viele Wochen. Inzwischen hat man sich auf eine Gutschrift geeinigt, und die hat reibungslos funktioniert – deshalb am 01.11.2026 wieder einen Stern hoch auf vier. Ein Einzelfall, von mir nicht selbst überprüft – wenn du anderes erlebt hast, schreib mir. Stand 01.11.2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'europa-peptide',
-    name: 'europa-peptide.de',
-    demo: false,
-    url: '',
-    land: 'DE',
-    kategorien: ['Peptide'],
-    // 20.11.2026 auf Pauls Wunsch von 5 auf 4 Sterne: weiter schnelle Lieferung und viele
-    // Aktionen, aber ein Bericht über eine Falschlieferung ohne erfolgreiche Reklamation.
-    bewertung: 4,
-    versand: 'Lieferung wurde durchgehend als schnell und zuverlässig beschrieben. Berichtet wurde aber auch ein Fall mit falsch gelieferter Ware, bei dem eine Reklamation nicht durchzubringen war.',
-    zahlung: null,
-    qualitaet: 'Qualität wurde wiederholt als gut beschrieben.',
-    preis: 'Preislich attraktiv, mit vielen Aktionen und Rabatten.',
-    zoll: null,
-    erfahrung: 'Mehrfach positiv berichtet: schnelle Lieferung, gute Qualität, preislich attraktiv, und es gibt viele Aktionen. Es gibt aber auch einen Bericht über eine falsche Lieferung, die sich danach nicht reklamieren ließ – deshalb im Moment vier statt fünf Sterne. Ein Einzelfall aus zweiter Hand, von mir nicht selbst überprüft. Wichtig: Auf die genaue Schreibweise achten – es existiert eine fast identische Domain ohne das End-e, siehe Warnung weiter unten. Stand 20.11.2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'synthagenlabs',
-    name: 'synthagenlabs.com',
-    demo: false,
-    url: '',
-    land: 'international',
-    kategorien: ['Peptide'],
-    bewertung: 4,
-    versand: 'Schnelle Lieferung berichtet.',
-    zahlung: null,
-    qualitaet: null,
-    zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
-    erfahrung: 'Kleine Auswahl an Vials, dafür sehr günstig und schnell geliefert. Wer etwas Bestimmtes sucht, wird hier nicht immer fündig. Stand August 2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'moleculon',
-    name: 'moleculon.io (Moleculon Europe)',
-    demo: false,
-    url: '',
-    land: 'EU',
-    kategorien: ['Peptide'],
-    bewertung: 4,
-    versand: 'Ablauf und Lieferung wurden als reibungslos beschrieben.',
-    zahlung: null,
-    qualitaet: 'Zur tatsächlichen Wirksamkeit der Produkte liegen uns keine belastbaren Rückmeldungen vor – das ist die offene Frage bei diesem Anbieter.',
-    zoll: null,
-    erfahrung: 'Positiv berichtet: Bestellung, Abwicklung und Lieferung funktionieren zuverlässig. Die Preise schwanken allerdings spürbar, ein Vergleich vor der Bestellung lohnt sich. Was die Wirkung der gelieferten Produkte angeht, ist die Rückmeldungslage dünn – dazu würden wir gern mehr wissen. Stand August 2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    // 15.10.2026: erster Bericht aus zweiter Hand (nicht verschickt nach >2 Wochen,
-    // Support antwortet nicht) -> 2 Sterne auf Pauls Wunsch; kommt die Ware gar
-    // nicht, auf 1 Stern senken. Aufgenommen 27.09.2026 auf Pauls Wunsch: spannendes
-    // Sortiment, damals noch keine Erfahrungsberichte. Wie bei den anderen Peptid-Shops ohne Link und
-    // ohne Sterne. Alles unten ist selbst nachgesehen (Website, Impressum,
-    // Produktliste am 27.09.2026), keine weitergegebenen Berichte.
-    // 20.11.2026 auf Pauls Wunsch von 2 auf 4 Sterne: sehr gute Preise (v. a. 10er-Pakete),
-    // Lieferung dauert teils sehr lange.
-    id: 'thepeptidedesk',
-    name: 'thepeptidedesk.io (The Peptide Desk)',
-    demo: false,
-    url: '',
-    land: 'Hongkong / Lager in DE',
-    kategorien: ['Peptide'],
-    bewertung: 4,
-    preis: 'Sehr gute Preise, vor allem bei 10er-Paketen.',
-    versand: 'Nach eigener Angabe Versand aus einem deutschen Lager mit DHL und Sendungsverfolgung, Expressware in 1–2 Tagen. Berichtet: Die Lieferung dauert zum Teil sehr lange; im Oktober 2026 war eine Bestellung nach über zwei Wochen noch nicht verschickt, mehrere Mails an den Support blieben damals ohne Antwort.',
-    zahlung: 'Nach eigener Angabe SEPA, Karte, Apple Pay oder Krypto (Krypto mit Rabatt – dann ohne Käuferschutz der Karte).',
-    qualitaet: 'Wirbt mit unabhängigen Laboranalysen samt Prüfschlüssel je Charge. Von uns noch nicht gegengeprüft.',
-    zoll: 'Kein Thema, solange aus dem deutschen Lager versendet wird.',
-    erfahrung: 'Inzwischen mehrere Berichte aus zweiter Hand: sehr gute Preise, vor allem bei 10er-Paketen, Shop und Auftritt machen einen ordentlichen Eindruck. Der Haken ist die Lieferzeit – sie dauert zum Teil sehr lange, und im Oktober 2026 war eine Bestellung nach über zwei Wochen noch nicht einmal verschickt, der Support antwortete damals nicht. Unterm Strich derzeit vier Sterne; wer es eilig hat, ist hier falsch. Von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Aufgenommen hatten wir den Shop am 27.09.2026 wegen des auffälligen Sortiments: rund 250 Wirkstoffe, darunter viele Peptide, die es anderswo kaum gibt (etwa CagriSema, Eloralintid, ACE-031, die Khavinson-Peptide Cortagen und Cardiogen). Nachprüfbar ist: Betreiber laut Impressum ist die Monvex Limited mit Sitz in Hongkong; einer Verbraucherschlichtung nimmt der Anbieter nicht teil. Wichtig zur Einordnung: Das Sortiment geht weit über Peptide hinaus und umfasst laut Produktliste auch Anabolika, verschreibungspflichtige Medikamente, EPO und DNP – Stoffe, deren Handel und Besitz in Deutschland teils verboten und die teils gefährlich sind. Stand 20.11.2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    // Aufgenommen 15.10.2026 auf Pauls Wunsch, 2 Sterne (Pauls Bewertung).
-    // 25.10.2026 auf Pauls Wunsch auf 1 Stern gesenkt (Vials unprofessionell, zu wenig Inhalt).
-    // 01.11.2026 auf Pauls Wunsch auf 5 Sterne, 02.11.2026 auf 4 Sterne gesetzt: dieselbe Person berichtet nach Kontakt
-    // mit dem Shop (Erklaerung, Entschuldigung fuer die Aufmachung), es scheine alles in Ordnung.
-    // 20.11.2026 auf Pauls Wunsch wieder auf 5 Sterne.
-    // Bericht aus zweiter Hand, nicht selbst geprueft – deshalb als solcher
-    // gekennzeichnet und ohne Betrugs- oder Faelschungsbehauptung. Nachpruefbar
-    // (Trustpilot, abgerufen 15.10.2026): Sitzangabe Sheridan, USA; Gesamt-
-    // bewertung wegen Richtlinienverstoss ausgeblendet. Hinweis auf entfernte
-    // Bewertungen am 01.11.2026 auf Pauls Wunsch aus dem Text genommen.
-    id: 'peptiking',
-    name: 'peptiking.com (Pepti King)',
-    demo: false,
-    url: '',
-    land: 'USA (laut Trustpilot-Profil)',
-    kategorien: ['Peptide'],
-    bewertung: 5,
-    versand: 'Bestellung und Abwicklung wurden als sehr professionell beschrieben.',
-    zahlung: null,
-    preis: 'Sehr günstige Preise.',
-    qualitaet: 'Nach der ersten Lieferung kritisiert (Vials wirkten unprofessionell, Füllmenge schien zu gering). Laut demselben Bericht hat der Shop das inzwischen erklärt und sich für die Aufmachung entschuldigt; es scheine alles in Ordnung. Von uns nicht selbst geprüft.',
-    zoll: 'Nicht-EU-Anbieter – Einfuhrabgaben möglich.',
-    erfahrung: 'Ein Bericht aus zweiter Hand, mit einer Wende. Zuerst kamen sehr günstige Preise und eine reibungslose Bestellung, dann eine Enttäuschung bei der Ware: Die Vials wirkten unprofessionell, der Inhalt zu gering – deshalb stand der Shop hier zeitweise bei einem Stern. Inzwischen hat sich der Shop bei derselben Person gemeldet, sehr gut kommuniziert, die Aufmachung erklärt und sich dafür entschuldigt. Nach ihrer Einschätzung scheint alles in Ordnung, und der Shop macht jetzt einen sehr professionellen Eindruck – daher inzwischen fünf Sterne. Nachprüfbar ist (Trustpilot, Stand 15.10.2026): Die Gesamtbewertung des Shops ist dort wegen eines Richtlinienverstoßes ausgeblendet. Ein Einzelbericht, von mir nicht selbst überprüft – wenn du dort bestellt hast, schreib mir, wie es bei dir lief. Stand 20.11.2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    // Aufgenommen 25.10.2026 auf Pauls Wunsch: neuer Anbieter mit breitem
-    // Sortiment, noch keine Erfahrungsberichte -> ohne Sterne (bewertung: null).
-    // Wie alle Peptid-Shops ohne Link und ohne Affiliate. Alles unten selbst
-    // nachgesehen (Website, Versand- und AGB-Seite am 25.10.2026).
-    id: 'mypept',
-    name: 'mypept.eu',
-    demo: false,
-    url: '',
-    land: 'vermutlich Niederlande (Telefonnummer +31, Versand mit PostNL/DHL)',
-    kategorien: ['Peptide'],
-    bewertung: null,
-    versand: 'Nach eigener Angabe Versand innerhalb Europas mit PostNL und DHL, Bestellungen vor 16 Uhr gehen am selben Tag raus.',
-    zahlung: 'Nach eigener Angabe Karte, PayPal, Apple Pay, Klarna, iDEAL und Bancontact.',
-    qualitaet: 'Wirbt mit über 99 % Reinheit und Analysezertifikat (COA) je Produkt, teils per Link „Reinheit prüfen“. Von uns nicht gegengeprüft.',
-    zoll: 'Kein Thema, Versand innerhalb der EU.',
-    erfahrung: 'Neu aufgenommen, weil der Anbieter interessant wirkt: breites Sortiment, gängige Zahlarten mit Käuferschutz, Analysezertifikate je Produkt. Erfahrungsberichte gibt es bisher keine – deshalb noch ohne Sterne. Nachprüfbar ist: Verkauft wird als „Forschungsprodukt, nicht für den menschlichen Verzehr“; ein Impressum mit Firmenname und Sitz haben wir auf der Website nicht gefunden. Im Sortiment sind auch verschreibungspflichtige Wirkstoffe wie Tirzepatid und Retatrutid. Wenn du dort bestellt hast, schreib mir, wie es lief. Stand 25.10.2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'warnung-europa-peptid',
-    name: 'europa-peptid.de',
-    warnung: true,
-    demo: false,
-    url: '',
-    land: 'Tippfehler-Domain',
-    kategorien: [],
-    bewertung: null,
-    versand: null,
-    zahlung: null,
-    qualitaet: null,
-    zoll: null,
-    erfahrung: 'Uns wurde berichtet, dass es sich hierbei nicht um den seriösen Anbieter handelt, sondern um eine Nachahmung. Der Domainname unterscheidet sich nur durch das fehlende End-e von europa-peptide.de. Nachprüfbar ist: Beide Domains existieren, liegen aber auf unterschiedlichen Servern und werden nicht vom selben Betreiber geführt (geprüft am 22.08.2026). Wer bestellt, sollte die Adresse Zeichen für Zeichen kontrollieren, statt aus der Suchmaschine heraus zu klicken.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'warnung-chinesepeptidecompany',
-    name: 'chinesepeptidecompany.net',
-    warnung: true,
-    demo: false,
-    url: '',
-    land: 'China / kein Firmensitz angegeben',
-    kategorien: [],
-    bewertung: null,
-    versand: null,
-    zahlung: null,
-    qualitaet: null,
-    // Eigene Pruefung der oeffentlich abrufbaren Seiten am 26.08.2026.
-    // Bewusst keine Betrugsbehauptung – nur, was dort nachpruefbar zu lesen ist.
-    erfahrung: 'Wir haben selbst nachgesehen, statt Berichte weiterzugeben. Stand 26.08.2026: kein Firmensitz, keine Registernummer, kein Impressum – und die Seiten /terms und /privacy zeigen bloß den Über-uns-Text, es gibt also weder AGB noch Datenschutzerklärung. Entscheidend ist der Zahlungsweg: Der Anbieter erklärt selbst, dass Kartenzahlungen im Hintergrund in Krypto umgewandelt werden. Damit entfällt der Käuferschutz der Karte, obwohl sich der Kauf normal anfühlt. Keine Betrugsbehauptung – uns liegen keine Berichte über nicht gelieferte Ware vor. Aber ohne Firmensitz, ohne AGB und ohne Rückbuchung gibt es im Streitfall niemanden, an den man sich wenden kann.',
-    zoll: 'Der Anbieter wirbt selbst damit, bei Zollbeschlagnahme kostenlos nachzuliefern – die Einfuhr ist einkalkuliert.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'warnung-qingdaosigma',
-    name: 'qingdaosigma.com',
-    warnung: true,
-    demo: false,
-    url: '',
-    land: 'international',
-    kategorien: [],
-    bewertung: null,
-    versand: null,
-    zahlung: null,
-    qualitaet: null,
-    zoll: null,
-    erfahrung: 'Uns wurde von mehreren Seiten berichtet, dass hier nach Zahlung keine Ware ankam. Wir haben das nicht selbst geprüft und geben es als das wieder, was es ist: übereinstimmende Fremdberichte, Stand August 2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  },
-  {
-    id: 'warnung-driada-klone',
-    name: 'Driada Medical – Klon-Shops',
-    warnung: true,
-    demo: false,
-    url: '',
-    land: 'diverse Domains',
-    kategorien: [],
-    bewertung: null,
-    versand: null,
-    zahlung: null,
-    qualitaet: null,
-    zoll: null,
-    erfahrung: 'Hier geht es nicht um den Hersteller selbst, sondern um sein Umfeld: Uns wurde berichtet, dass unter verschiedenen Adressen Nachahmer-Shops auftreten und es entsprechend schwer ist, den echten Anbieter zu erkennen. Das ist das gefährlichste Muster in dieser Liste, weil es sich nicht an einer einzelnen Domain festmachen lässt. Wer hier bestellt, sollte die Bezugsquelle über den Hersteller selbst verifizieren und nicht über Suchergebnisse oder Forenlinks. Stand August 2026.',
-    affiliate: { aktiv: false, url: '', code: '', rabatt: '' }
-  }
-];
+  ];
 
 const ERFAHRUNG_KATEGORIEN = [
   { id: 'all',          label: 'Alles' },
